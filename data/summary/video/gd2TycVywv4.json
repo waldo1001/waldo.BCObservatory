@@ -1,0 +1,27 @@
+{
+  "video_id": "gd2TycVywv4",
+  "item_id": "video/yt-areopa/gd2TycVywv4",
+  "summary": "Agentic thinking for Business Central AL developers, from an Areopa webinar with Jeremy Visca. It covers the move from writing code to specifying intent and validating outcomes, testing as the safety net, context window management, and starting with documentation, tests and scaffolding.",
+  "overview": "Jeremy Visca explains why AI and agentic development is hard for developers who are used to writing and understanding every line of code. He describes the shift from deterministic code to fuzzy outcomes, where the LLM acts as the compiler and the context and prompts are the product. He shows a customer example where GitHub Copilot was used to create a Power BI API endpoint in minutes.\n\nThe session then covers practical habits: strong tests and performance tests, domain-expertise checks on agent output, the master loop of asking, correcting and asking what was learned, and keeping context concise. It closes with ways to start gently (documentation, test expansion, scaffolding, design critique), use on legacy code, and career progression for developers.",
+  "key_points": [
+    "Value shifts from writing lines to specifying intent clearly and validating outcomes; the speaker describes this as trading certainty for velocity, which carries risk in regulated domains.",
+    "Testing is the safety net for AI-generated code. Agents can publish to Docker or sandboxes and run tests, but they do not automatically write performance tests and may change tests to match the code.",
+    "Senior developers should apply BC domain knowledge to agent output, for example checking credit memo handling, reverse processes and register writes when a field is added to a sales order.",
+    "Context windows are typically about 128,000 to 160,000 tokens. Keep rules under about 100 lines each, because summarization when the window fills can drop important constraints.",
+    "The master loop: ask the agent to do work, correct it, then ask what it learned or what to do differently next time.",
+    "Good starting points are documentation (READMEs, commit explainers, XML documentation with summary tags), extra test scenarios, table and codeunit scaffolding, and design critique from several stakeholder views.",
+    "Agents can be used on legacy code maintained since NAV 4.0. The gains come from documentation, tests and parallel work rather than raw speed."
+  ],
+  "audience": [
+    "developer",
+    "decision maker",
+    "functional consultant"
+  ],
+  "extraction_hash": "13a021dfebcd0869cbc026859fb000d63d272cd7b6d75a188fb0eaa38daefe74",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0376144
+  }
+}

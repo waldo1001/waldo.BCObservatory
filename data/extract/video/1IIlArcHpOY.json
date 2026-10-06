@@ -1,0 +1,630 @@
+{
+  "video_id": "1IIlArcHpOY",
+  "item_id": "video/yt-microsoft/1IIlArcHpOY",
+  "title": "What's New: Working with Instructions for Agents in Business Central",
+  "duration_s": 1517,
+  "systems": [
+    "copilot",
+    "sales",
+    "finance"
+  ],
+  "topics": [
+    "agent instructions",
+    "role-based prompting",
+    "guidelines",
+    "document intelligence",
+    "agent review experience",
+    "credit memo",
+    "sales returns",
+    "prompt engineering",
+    "task execution",
+    "permissions",
+    "user interaction tools",
+    "agent memory"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Agent Instructions Strategy",
+      "t_start": 0,
+      "t_end": 156.4
+    },
+    {
+      "title": "Creating an Accounts Receivable Agent",
+      "t_start": 156.4,
+      "t_end": 237.2
+    },
+    {
+      "title": "Structuring Instructions with Guidelines and Business Processes",
+      "t_start": 237.2,
+      "t_end": 352.2
+    },
+    {
+      "title": "Sales Returns Task Setup and Document Processing",
+      "t_start": 352.2,
+      "t_end": 464.2
+    },
+    {
+      "title": "Agent Execution and Document Intelligence",
+      "t_start": 464.2,
+      "t_end": 605.7
+    },
+    {
+      "title": "Agent Review Experience and Credit Memo Creation",
+      "t_start": 605.7,
+      "t_end": 742.7
+    },
+    {
+      "title": "Email Composition and Task Completion",
+      "t_start": 742.7,
+      "t_end": 823.8
+    },
+    {
+      "title": "Instructions versus task messages in agent design",
+      "t_start": 823.8,
+      "t_end": 928
+    },
+    {
+      "title": "Timeline defaults and agent subtasks",
+      "t_start": 928,
+      "t_end": 1009.6
+    },
+    {
+      "title": "Agent scope and task chaining",
+      "t_start": 1009.6,
+      "t_end": 1087.7
+    },
+    {
+      "title": "User interaction tools overview",
+      "t_start": 1087.7,
+      "t_end": 1194.8
+    },
+    {
+      "title": "Agent memory and data retention",
+      "t_start": 1194.8,
+      "t_end": 1307.3
+    },
+    {
+      "title": "Advanced tools and page-specific instructions",
+      "t_start": 1307.3,
+      "t_end": 1384.7
+    },
+    {
+      "title": "Best practices and optimization guidance",
+      "t_start": 1384.7,
+      "t_end": 1517
+    }
+  ],
+  "features": [
+    {
+      "name": "Agent Instructions Framework",
+      "description": "A structured approach to writing agent instructions for Business Central using role-based prompting, guidelines sections, and business-specific instructions. The strategy emphasizes less verbose instructions compared to previous approaches.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 5.7,
+      "t_end": 144.8,
+      "is_demoed": true,
+      "caveats": [
+        "Instructions are wrapped in a larger platform-provided prompt",
+        "Platform handles model changes and security"
+      ],
+      "tags": [
+        "prompt engineering",
+        "role-based prompting",
+        "instructions",
+        "guidelines"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Accounts Receivable Agent",
+      "description": "A demo agent created for automating tasks in the accounts receivable area, including handling sales returns and processing customer complaints about damaged items.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 156.4,
+      "t_end": 237.2,
+      "is_demoed": true,
+      "caveats": [
+        "Super permission set used for demo purposes",
+        "Full accounts receivable administrator profile may impact agent speed and accuracy"
+      ],
+      "tags": [
+        "agent",
+        "accounts receivable",
+        "demo",
+        "credit memo",
+        "sales returns"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "PDF and Image Document Intelligence",
+      "description": "The platform can send PDFs and images to Azure Document Intelligence to extract text, allowing agents to analyze documents like invoices and damage photos without requiring traditional coding.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 464.2,
+      "t_end": 530.5,
+      "is_demoed": true,
+      "caveats": [
+        "Platform only extracts text, not machine vision capabilities",
+        "Cannot identify visual patterns like circles on images"
+      ],
+      "tags": [
+        "document intelligence",
+        "pdf processing",
+        "image analysis",
+        "azure"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent Review Experience",
+      "description": "A user interface experience where users can review agent-filled fields with explanations for why the agent took specific actions before submitting or providing feedback.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 650.7,
+      "t_end": 742.7,
+      "is_demoed": true,
+      "caveats": [
+        "Requires user to manually continue task execution",
+        "Not automatic"
+      ],
+      "tags": [
+        "review",
+        "justification",
+        "user feedback",
+        "transparency"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent Task Execution with Real-time Monitoring",
+      "description": "Agents execute tasks step-by-step with real-time monitoring capability where users can refresh and watch agent actions as they happen, with ability to pause and provide guidance.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 546.9,
+      "t_end": 625.4,
+      "is_demoed": true,
+      "caveats": [
+        "Users can provide in-task guidance to correct agent behavior",
+        "Task stops when agent encounters issues or generates outgoing messages"
+      ],
+      "tags": [
+        "task execution",
+        "real-time monitoring",
+        "agent guidance",
+        "debugging"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Credit Memo Generation from Agent Instructions",
+      "description": "Agent automatically creates and populates credit memo documents based on instructions and extracted information from source documents, filling customer information, item rows, and work descriptions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 650.7,
+      "t_end": 742.7,
+      "is_demoed": true,
+      "caveats": [
+        "Requires user review before posting",
+        "Agent can generate fraud detection prompts"
+      ],
+      "tags": [
+        "credit memo",
+        "sales returns",
+        "document generation",
+        "automation"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Email Composition by Agent",
+      "description": "Agent composes email messages to customers summarizing transactions and actions taken, with user ability to edit before sending.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 766.1,
+      "t_end": 823.8,
+      "is_demoed": true,
+      "caveats": [
+        "Automatic sending requires SDK implementation",
+        "Manual sending only in current platform version"
+      ],
+      "tags": [
+        "email composition",
+        "customer communication",
+        "attachments",
+        "outgoing messages"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Instructions Priority Over Tasks",
+      "description": "Platform design gives significantly higher priority to instructions compared to task-specific information, ensuring consistent agent behavior across multiple task executions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 837.4,
+      "t_end": 913,
+      "is_demoed": true,
+      "caveats": [
+        "Creates different behavior compared to task-focused information",
+        "Requires strategic instruction design"
+      ],
+      "tags": [
+        "prompt priority",
+        "instruction hierarchy",
+        "best practices",
+        "task design"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Timeline substeps based on instructions",
+      "description": "When instructions are structured as substeps, the platform automatically uses them to provide captions for specific substeps in the agent timeline.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 950.3,
+      "t_end": 1009.6,
+      "is_demoed": true,
+      "caveats": [
+        "beginning and ending messages cannot be controlled without SDK",
+        "substep captions are automatically generated based on instruction structure"
+      ],
+      "tags": [
+        "timeline",
+        "instructions",
+        "ui updates"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Task chaining in agent workflows",
+      "description": "Agents can reference and chain multiple tasks, where one task can trigger the next task to execute, allowing complex multi-step workflows.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1059.6,
+      "t_end": 1087.7,
+      "is_demoed": true,
+      "caveats": [
+        "no silver bullet rule for agent size",
+        "adding more instructions can lower accuracy if tasks are too different"
+      ],
+      "tags": [
+        "task chaining",
+        "workflow automation",
+        "agent design"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "User intervention tool",
+      "description": "Agent can request user assistance when it encounters an issue and cannot proceed independently, such as when unable to locate required documents.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1103.6,
+      "t_end": 1131,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "user interaction",
+        "agent assistance",
+        "error handling"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "User review tool",
+      "description": "Agent requests user review after successfully completing a task to verify the work is correct before proceeding.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1131,
+      "t_end": 1158,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "user interaction",
+        "quality assurance",
+        "task completion"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Response tool for outgoing messages",
+      "description": "Agent can generate outgoing messages with attached files and halt task execution until new messages arrive, for internal or external communication.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1144.6,
+      "t_end": 1215.6,
+      "is_demoed": true,
+      "caveats": [
+        "message delivery method must be implemented via SDK",
+        "task stops until new message arrives"
+      ],
+      "tags": [
+        "user interaction",
+        "outgoing messages",
+        "communication"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Automatic agent memory and history",
+      "description": "Agent automatically retains and stores all history of actions taken, including search results, whether information was found or not.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1229.7,
+      "t_end": 1253.5,
+      "is_demoed": true,
+      "caveats": [
+        "page state is not automatically stored",
+        "user must instruct agent which fields and data to memorize"
+      ],
+      "tags": [
+        "agent memory",
+        "history",
+        "data retention"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent memory field storage",
+      "description": "Users can instruct the agent to memorize specific fields and data using natural language, storing them as key-value pairs for later reference in instructions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1253.5,
+      "t_end": 1307.3,
+      "is_demoed": true,
+      "caveats": [
+        "requires explicit instruction to store page state",
+        "accessible via troubleshooting page"
+      ],
+      "tags": [
+        "agent memory",
+        "field storage",
+        "key-value pairs"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Page-specific instructions syntax",
+      "description": "Developers can write page-specific instructions using parenthesis notation with page ID, making instructions available only when the agent opens that specific page.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1332,
+      "t_end": 1356.2,
+      "is_demoed": true,
+      "caveats": [
+        "instructions not present on other pages"
+      ],
+      "tags": [
+        "page-specific",
+        "instructions",
+        "syntax"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Instructions history and versioning",
+      "description": "Users can view edit history of instructions and revert to previous versions if changes negatively impact agent accuracy.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1384.7,
+      "t_end": 1399.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "instructions",
+        "versioning",
+        "history"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Bulk download of instructions",
+      "description": "Users can select and download multiple instructions as a zip file for backup or sharing purposes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1399.3,
+      "t_end": 1410,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "instructions",
+        "export",
+        "backup"
+      ],
+      "system": "copilot"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "accounts receivable administrator",
+      "t": 201.8
+    },
+    {
+      "type": "other",
+      "name": "sales order agent",
+      "t": 298
+    },
+    {
+      "type": "other",
+      "name": "Paris guest chair",
+      "t": 712.3
+    },
+    {
+      "type": "other",
+      "name": "Berlin guest chair",
+      "t": 712.3
+    },
+    {
+      "type": "page",
+      "name": "troubleshooting page",
+      "t": 1282.9
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Nicolola Kukria",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 73,
+      "text": "Today because the models became much better. The rule that we are using is that less is more.",
+      "why_it_matters": "Explains the fundamental strategy shift in instruction writing - modern LLMs require less verbose step-by-step guidance than earlier approaches.",
+      "check": "exact"
+    },
+    {
+      "t": 84.1,
+      "text": "You do not need to outline every specific step that the agent needs to do. It is sufficient to outline the most important steps",
+      "why_it_matters": "Provides concrete guidance on instruction conciseness and what level of detail is necessary for effective agent execution.",
+      "check": "exact"
+    },
+    {
+      "t": 115.3,
+      "text": "instructions are a part of the bigger prompt so everything that you write the platform is going to take it and",
+      "why_it_matters": "Clarifies that user-written instructions are embedded in a larger system-managed prompt that handles security and compatibility.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 251.8,
+      "text": "based prompting it helps setting the context for the agent because if it knows who it is and which task it is supposed",
+      "why_it_matters": "Identifies a key best practice (role-based prompting) that demonstrably improves agent accuracy and behavior.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 464.2,
+      "text": "Agent is going to be able to read this document because platform is able to send PDFs and images to Azure document intelligence and",
+      "why_it_matters": "Describes a key capability enabling agents to process unstructured documents without custom development.",
+      "check": "exact"
+    },
+    {
+      "t": 519.3,
+      "text": "The platform is only extracting text. It is not able to do the machine vision. So it will know that there is a scratch",
+      "why_it_matters": "Establishes important technical limitation of document intelligence - text extraction only, not visual pattern recognition.",
+      "check": "exact"
+    },
+    {
+      "t": 804,
+      "text": "currently within the current platform it is not possible that this happens automatically. You would need to use the SDK if you want to",
+      "why_it_matters": "Defines the limitation of automatic email delivery in the platform and the requirement for SDK implementation.",
+      "check": "exact"
+    },
+    {
+      "t": 879.8,
+      "text": "Instructions are always going to win over tasks because platform is giving a much higher priority to the instructions compared to the tasks.",
+      "why_it_matters": "Clarifies architectural priority that guides instruction and task design decisions for consistent agent behavior.",
+      "check": "exact"
+    },
+    {
+      "t": 879.8,
+      "text": "instructions are always going to win over tasks because platform is giving a much higher priority to the instructions compared to the tasks",
+      "why_it_matters": "Explains the priority hierarchy between instructions and task messages, essential for correct agent design.",
+      "check": "exact"
+    },
+    {
+      "t": 893,
+      "text": "you should outline the process description in the instructions because there is no need and it's not a good practice that you repeat a",
+      "why_it_matters": "Provides best practice guidance for using instructions versus task messages to avoid redundancy.",
+      "check": "exact"
+    },
+    {
+      "t": 1043.1,
+      "text": "there is no silver bullet or a rule that fits all. Try it out. see what works and if adding the additional instructions is",
+      "why_it_matters": "Explains that agent size optimization requires testing and monitoring accuracy.",
+      "check": "exact"
+    },
+    {
+      "t": 1215.6,
+      "text": "when it uses the response tool the task is going to stop until the new message arrives",
+      "why_it_matters": "Clarifies the distinct behavior of the response tool compared to other user interaction tools.",
+      "check": "exact"
+    },
+    {
+      "t": 1264,
+      "text": "If you would like to store the state of the page then you need to instruct it specifically which fields and which data it",
+      "why_it_matters": "Explains the requirement for explicit instruction to store page state in agent memory.",
+      "check": "exact"
+    },
+    {
+      "t": 1410,
+      "text": "instructions are necessary and keep in mind they are part of a larger prompt. So platform is going to protect you from injection attacks",
+      "why_it_matters": "Describes security protections and the role of instructions within the broader prompt system.",
+      "check": "exact"
+    },
+    {
+      "t": 1427.4,
+      "text": "Try to write as little as possible of instructions to get the task executed with high accuracy",
+      "why_it_matters": "Provides core guidance on instruction design optimization for agent performance.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 804,
+      "kind": "not-in-this-release",
+      "text": "currently within the current platform it is not possible that this happens automatically. You would need to use the SDK if you want to actually send the email"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 15,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 17
+  },
+  "windows": 2,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.028032
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.029205000000000002
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.03282
+    }
+  ]
+}

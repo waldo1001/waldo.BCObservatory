@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/handling-merge-conflicts",
   "published_at": "2026-06-02T11:43:36.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "5c41c83162e7808bc52474f5c566dd3272e46bb9",
       "words": 401,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:12:17.110Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.004221
+    },
+    "summarized": {
+      "at": "2026-10-06T18:12:17.121Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:12:17.121Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:12:17.123Z",
+      "page": false
     }
   },
   "input_hash": "5c41c83162e7808bc52474f5c566dd3272e46bb9",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "5c41c83162e7808bc52474f5c566dd3272e46bb9"
+  "output_hash": "ea7c0138b2f63e3b8874ec7c87e828c092579248676f9d2021009a15a7de6e70"
 }

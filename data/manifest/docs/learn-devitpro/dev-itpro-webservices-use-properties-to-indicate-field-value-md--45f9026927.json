@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/use-properties-to-indicate-field-value",
   "published_at": "2026-06-02T11:43:31.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "149cce46e744708902248ff5b5353f129ec9b0ab",
       "words": 403,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:12:17.118Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.004221
+    },
+    "summarized": {
+      "at": "2026-10-06T18:12:39.989Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:12:39.990Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:12:39.991Z",
+      "page": false
     }
   },
   "input_hash": "149cce46e744708902248ff5b5353f129ec9b0ab",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "149cce46e744708902248ff5b5353f129ec9b0ab"
+  "output_hash": "cf1b0834f70faabd8dc89d99bca8994a9093192b845077b9cd8b4e9821511e5d"
 }

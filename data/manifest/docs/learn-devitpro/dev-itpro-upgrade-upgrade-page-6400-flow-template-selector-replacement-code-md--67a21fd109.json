@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-page-6400-flow-template-selector-replacement-code",
   "published_at": "2026-06-02T11:43:36.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "4c8d319b5ed057bd2104b772e784024f0396df0f",
       "words": 58,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:12:17.117Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.004221
+    },
+    "summarized": {
+      "at": "2026-10-06T18:12:39.986Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:12:39.987Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:12:39.988Z",
+      "page": false
     }
   },
   "input_hash": "4c8d319b5ed057bd2104b772e784024f0396df0f",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "4c8d319b5ed057bd2104b772e784024f0396df0f"
+  "output_hash": "634fb6aecfd9119b30074f637888d63244d6df4cbdc72f956b9dd9193854a205"
 }

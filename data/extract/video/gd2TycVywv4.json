@@ -1,0 +1,1205 @@
+{
+  "video_id": "gd2TycVywv4",
+  "item_id": "video/yt-areopa/gd2TycVywv4",
+  "title": "20260326 - From AI Novice to Agentic Thinking For the CAL Brained",
+  "duration_s": 3722,
+  "systems": [
+    "development",
+    "copilot",
+    "platform"
+  ],
+  "topics": [
+    "agentic thinking",
+    "ai adoption",
+    "mindset shift",
+    "code generation",
+    "prompt engineering",
+    "developer skills",
+    "maintainability",
+    "democratization",
+    "github copilot",
+    "business central development",
+    "al development",
+    "code review"
+  ],
+  "chapters": [
+    {
+      "title": "Webinar introduction and housekeeping",
+      "t_start": 0,
+      "t_end": 145.7
+    },
+    {
+      "title": "Website updates and upcoming sessions",
+      "t_start": 145.7,
+      "t_end": 308.3
+    },
+    {
+      "title": "Jeremy Visca introduction and background",
+      "t_start": 308.3,
+      "t_end": 425.6
+    },
+    {
+      "title": "Why AI and agentic thinking is hard for developers",
+      "t_start": 425.6,
+      "t_end": 552.4
+    },
+    {
+      "title": "Shift from deterministic code to fuzzy agentic outcomes",
+      "t_start": 552.4,
+      "t_end": 643.1
+    },
+    {
+      "title": "AI as amplifier and research on code maintainability",
+      "t_start": 643.1,
+      "t_end": 730.5
+    },
+    {
+      "title": "Developer skill and transition history",
+      "t_start": 730.5,
+      "t_end": 794.1
+    },
+    {
+      "title": "Agentic era and democratization of development",
+      "t_start": 794.1,
+      "t_end": 911.3
+    },
+    {
+      "title": "Code volume and architectural tradeoffs",
+      "t_start": 911.3,
+      "t_end": 1062.8
+    },
+    {
+      "title": "Testing as a safety net for AI-generated code",
+      "t_start": 1062.8,
+      "t_end": 1243.8
+    },
+    {
+      "title": "Mindset shifts for agentic development",
+      "t_start": 1243.8,
+      "t_end": 1407.6
+    },
+    {
+      "title": "Applying domain expertise to guide agents and testing practices",
+      "t_start": 1407.6,
+      "t_end": 1780.4
+    },
+    {
+      "title": "Learning from community and the master loop pattern",
+      "t_start": 1780.4,
+      "t_end": 2035.1
+    },
+    {
+      "title": "Learning and growth through agentic experiences and mental models",
+      "t_start": 2035.1,
+      "t_end": 2238.4
+    },
+    {
+      "title": "Context windows, instructions, and model selection",
+      "t_start": 2238.4,
+      "t_end": 2460.2
+    },
+    {
+      "title": "Context limits, summarization risks, and agent failures",
+      "t_start": 2460.2,
+      "t_end": 2686.9
+    },
+    {
+      "title": "Agentic development as learnable skill and job security concerns",
+      "t_start": 2686.9,
+      "t_end": 2878.1
+    },
+    {
+      "title": "Starting gently with documentation and progressive scaffolding",
+      "t_start": 2878.1,
+      "t_end": 3088
+    },
+    {
+      "title": "Autonomous agent workflows and building management skills",
+      "t_start": 3088,
+      "t_end": 3225.1
+    },
+    {
+      "title": "Overcoming objections and establishing documentation standards",
+      "t_start": 3225.1,
+      "t_end": 3426.2
+    },
+    {
+      "title": "GitHub examples and verification practices",
+      "t_start": 3426.2,
+      "t_end": 3509.4
+    },
+    {
+      "title": "Career progression for developers in the AI era",
+      "t_start": 3509.4,
+      "t_end": 3610.7
+    },
+    {
+      "title": "Closing remarks and session conclusion",
+      "t_start": 3610.7,
+      "t_end": 3722
+    }
+  ],
+  "features": [
+    {
+      "name": "Agentic development training program",
+      "description": "A spring series training program for agentic development with intermediate and expert weeks, offered by Jeremy Visca to teach BC teams.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 414.2,
+      "t_end": 425.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "training",
+        "agentic development",
+        "education"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AI-assisted development with GitHub Copilot",
+      "description": "Developers can use GitHub Copilot free mode to generate API endpoints and extensions for Business Central by describing requirements in natural language. A customer deployed a new API endpoint for Power BI in minutes without formal development resources.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 879.5,
+      "t_end": 911.3,
+      "is_demoed": true,
+      "caveats": [
+        "Requires careful intent specification",
+        "Code quality depends on prompt quality",
+        "Requires external services like Visual Studio Code and GitHub Copilot"
+      ],
+      "tags": [
+        "ai-assisted",
+        "copilot",
+        "api development",
+        "prompt-based development",
+        "github copilot",
+        "power bi",
+        "code generation"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "LLM-based compilation model",
+      "description": "Shift from traditional deterministic compilers to LLM as the compiler in agentic development, where the product is the context and prompts rather than the code itself.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 794.1,
+      "t_end": 806.4,
+      "is_demoed": false,
+      "caveats": [
+        "Requires shift in how developers think about their work"
+      ],
+      "tags": [
+        "agentic",
+        "llm",
+        "compilation",
+        "prompts"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Agentic code testing requirements",
+      "description": "Testing becomes the critical safety net for validating AI-generated code outcomes. Agents can be taught to publish code to Docker or sandbox environments and run tests automatically, allowing validation before deployment at scale. Agents should generate performance tests alongside functional tests to ensure generated code can handle scale.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1080.5,
+      "t_end": 1231.8,
+      "is_demoed": false,
+      "caveats": [
+        "Requires well-designed test suites from the start",
+        "Testing infrastructure must be set up before agent-driven development",
+        "Cannot rely on traditional code review for large volumes",
+        "Agents do not automatically generate performance tests"
+      ],
+      "tags": [
+        "testing",
+        "validation",
+        "quality assurance",
+        "safety",
+        "automation",
+        "performance"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "BC Code Intel MCP",
+      "description": "A tool designed to help review AI-generated code by identifying performance patterns across hundreds of lines that might not meet Business Central best practices, acting as an intelligent code review assistant.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1541.3,
+      "t_end": 1569.6,
+      "is_demoed": false,
+      "caveats": [
+        "Requires human judgment to validate findings",
+        "Not a replacement for comprehensive testing"
+      ],
+      "tags": [
+        "code review",
+        "performance analysis",
+        "mcp",
+        "ai validation"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Agentic development mindset shift",
+      "description": "Developers must shift from writing code to specifying requirements clearly and validating agent outputs. Value moves from individual code lines to quality requirements definition and outcome verification, requiring upfront specification work.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1307.1,
+      "t_end": 1441.2,
+      "is_demoed": false,
+      "caveats": [
+        "Requires discipline in upfront requirements work",
+        "Trading certainty for velocity creates risk in regulated domains",
+        "Team training needed for new workflows"
+      ],
+      "tags": [
+        "developer mindset",
+        "requirements",
+        "specifications",
+        "validation"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Domain expertise validation for agent-generated code",
+      "description": "Senior developers must use their Business Central knowledge to validate agent outputs, checking for missing patterns like credit memo handling when sales order fields are added, reverse processes, and register writes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1590.9,
+      "t_end": 1672.8,
+      "is_demoed": false,
+      "caveats": [
+        "Requires deep platform knowledge",
+        "Patterns may improve over time but manual validation remains critical",
+        "Field additions require checking related documents"
+      ],
+      "tags": [
+        "domain expertise",
+        "pattern validation",
+        "best practices",
+        "business central knowledge"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Result-based evaluation replacing line-by-line code review",
+      "description": "For agent-generated code, evaluation shifts from traditional line-by-line code review to validating that the final result meets specification and tests pass, requiring architectural assessment rather than detailed code inspection.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1724.3,
+      "t_end": 1764.7,
+      "is_demoed": false,
+      "caveats": [
+        "Requires careful architecture",
+        "Agents may modify tests incorrectly",
+        "Developer judgment still essential"
+      ],
+      "tags": [
+        "code review",
+        "testing",
+        "architectural validation"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Master loop pattern for agent development",
+      "description": "A habit pattern where the developer asks the agent to do work, corrects what went wrong, and asks the agent what it learned or what could be done differently next time, creating a feedback loop that improves both agent output and developer knowledge.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1900.6,
+      "t_end": 1924.6,
+      "is_demoed": false,
+      "caveats": [
+        "Requires active developer participation",
+        "Time-intensive process"
+      ],
+      "tags": [
+        "agent development",
+        "iterative improvement",
+        "learning"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "BC Code Intel repository",
+      "description": "A knowledge base and lesson collection built incrementally through agentic development work, containing performance tips and Business Central best practices like set low fields and calc sums.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1924.6,
+      "t_end": 1955.4,
+      "is_demoed": false,
+      "caveats": [
+        "Continuously evolving",
+        "Requires community contribution"
+      ],
+      "tags": [
+        "knowledge base",
+        "best practices",
+        "performance"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Calibrated confidence in agent code",
+      "description": "A mindset where the developer is not certain every line is correct because they did not write it, but has built guardrails, tools, and patterns around the review and design process to ensure the outcome matches intent.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1833.3,
+      "t_end": 1879.6,
+      "is_demoed": false,
+      "caveats": [
+        "Requires experience and guardrails",
+        "Not absolute certainty"
+      ],
+      "tags": [
+        "confidence",
+        "code quality",
+        "architectural review"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Intent steering in agent development",
+      "description": "Deliberately steering agent behavior through clear specification of intent, ensuring the agent produces output in the specific way the developer intended rather than just achieving a functional result.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1890,
+      "t_end": 1912.8,
+      "is_demoed": false,
+      "caveats": [
+        "Requires clear communication",
+        "Foundational to agent quality"
+      ],
+      "tags": [
+        "intent",
+        "prompt engineering",
+        "agent guidance"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Using agents to explain developer commits",
+      "description": "Asking agents to explain why developers made specific code decisions in commits, as a learning tool for newer Business Central developers to understand patterns and best practices.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2068.1,
+      "t_end": 2091.9,
+      "is_demoed": false,
+      "caveats": [
+        "Requires developer initiative",
+        "Best used for learning"
+      ],
+      "tags": [
+        "learning",
+        "code analysis",
+        "education"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Managing multiple concurrent agents",
+      "description": "Handling scenarios with multiple agents running in parallel, including agents with sub-agents, creating a workflow with potentially 20 agents working simultaneously.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2104,
+      "t_end": 2128.8,
+      "is_demoed": false,
+      "caveats": [
+        "Complexity increases significantly",
+        "Requires clear mental model"
+      ],
+      "tags": [
+        "multi-agent workflows",
+        "orchestration"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent mental model as overenthusiastic intern",
+      "description": "A mental model for understanding agent behavior by comparing agents to an eager, fast, judgmentless fresh-out-of-university intern that will do what you say, says 'you are absolutely right' frequently, and benefits from encouragement through expressed frustration.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2128.8,
+      "t_end": 2157,
+      "is_demoed": false,
+      "caveats": [
+        "Metaphorical model",
+        "Agent behavior varies by model"
+      ],
+      "tags": [
+        "mental model",
+        "agent behavior",
+        "developer mindset"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Context window limitations and token limits",
+      "description": "Agent context windows typically range from 128,000 to 160,000 tokens (approximately the length of The Hobbit to The DaVinci Code), with some models offering up to a million tokens outside of Visual Studio Code.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2198.3,
+      "t_end": 2225.5,
+      "is_demoed": false,
+      "caveats": [
+        "Limits vary by model and tooling",
+        "Context window is not everything"
+      ],
+      "tags": [
+        "context window",
+        "token limits",
+        "llm capacity"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Instructions and custom agent configuration",
+      "description": "Instructions provided to agents on their first day function as onboarding documents, including system prompts, custom agent type instructions, and task briefs that occupy space in the agent's context window.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2238.4,
+      "t_end": 2287.3,
+      "is_demoed": false,
+      "caveats": [
+        "Must fit within context window",
+        "Takes up space on the desk"
+      ],
+      "tags": [
+        "instructions",
+        "context",
+        "prompt engineering"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "LLM input-output architecture for agents",
+      "description": "Agent development is fundamentally about building information that goes into the LLM as input and managing the output, including lists of available tools and instructions for which tools to execute.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2287.3,
+      "t_end": 2326.6,
+      "is_demoed": false,
+      "caveats": [
+        "Black box model",
+        "Requires understanding of LLM behavior"
+      ],
+      "tags": [
+        "llm",
+        "architecture",
+        "input-output"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Model selection and cost-performance tradeoff",
+      "description": "Larger, more complex fresh models like Opus 4.6 are compared to expensive Ivy League universities and charge accordingly, while cheaper models may be less capable but can be applied strategically to different situations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2341.6,
+      "t_end": 2375.5,
+      "is_demoed": false,
+      "caveats": [
+        "Model capabilities vary",
+        "Cost is a significant factor"
+      ],
+      "tags": [
+        "model selection",
+        "cost optimization",
+        "llm"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Signal-to-noise ratio in agent context",
+      "description": "Providing too much context to an agent (such as 50,000 line specifications detailing every ISO requirement) crowds out useful information and reduces effectiveness, requiring thoughtful balance between thorough and concise documentation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2398.3,
+      "t_end": 2441.8,
+      "is_demoed": false,
+      "caveats": [
+        "Requires judgment on what is essential",
+        "Less than 100 lines per rule recommended"
+      ],
+      "tags": [
+        "prompt engineering",
+        "context management",
+        "documentation"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent context optimization",
+      "description": "The practice of carefully managing what information is provided to an agent, keeping instructions concise (under 100 lines per rule) rather than overwhelming with lengthy specifications to maintain signal-to-noise ratio.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2375.5,
+      "t_end": 2485.2,
+      "is_demoed": false,
+      "caveats": [
+        "context window limits can cause important rules to be dropped during summarization"
+      ],
+      "tags": [
+        "context-management",
+        "prompt-engineering",
+        "agent-design"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent session reset for fresh state",
+      "description": "Resetting to a new session to start with a fresh empty context, treating it like a new intern with a clean desk to avoid context pollution and unexpected behaviors.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2496,
+      "t_end": 2507.1,
+      "is_demoed": false,
+      "caveats": [
+        "sessions can be retrieved after reset on most coding platforms"
+      ],
+      "tags": [
+        "session-management",
+        "agent-workflow"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Context window compaction and summarization",
+      "description": "When an agent's context window fills up, it summarizes content into bullet points, which can lose critical constraints or rules if they are not explicitly marked as essential.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2518.8,
+      "t_end": 2577.9,
+      "is_demoed": false,
+      "caveats": [
+        "can cause unexpected behavior if critical rules are dropped",
+        "multiple real-world cautionary examples exist"
+      ],
+      "tags": [
+        "context-limits",
+        "agent-behavior",
+        "risk-management"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Specific task decomposition for agents",
+      "description": "Breaking down work into specific, verifiable tasks with clear review and feedback loops rather than asking agents to complete entire implementations, enabling iterative improvement.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2661.5,
+      "t_end": 2686.9,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "task-decomposition",
+        "prompt-engineering",
+        "quality-control"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Agentic development as learnable skill",
+      "description": "Managing agents is presented as a learnable skill similar to learning a new language or building fitness habits, requiring consistent practice and compound learning over time rather than one-off usage.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2733.2,
+      "t_end": 2757,
+      "is_demoed": false,
+      "caveats": [
+        "requires building habit and fluency, not a quick skill",
+        "works on both greenfield and legacy code"
+      ],
+      "tags": [
+        "skill-development",
+        "learning-curve",
+        "productivity"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agents on legacy and messy code",
+      "description": "Agent tools can work effectively on legacy code maintained since NAV 4.0, providing value through documentation, testing, and parallel work even when code is not well-architected.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2769,
+      "t_end": 2811.6,
+      "is_demoed": false,
+      "caveats": [
+        "perceived speed gains may be less obvious on legacy code",
+        "value comes from quality uplift and documentation rather than raw speed"
+      ],
+      "tags": [
+        "legacy-code",
+        "messy-codebase",
+        "ai-effectiveness"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Documentation assistance via agents",
+      "description": "Agents can help generate and maintain documentation including READMEs, commit explainers, and functional descriptions for consultants and end users as an entry point to agent use.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2878.1,
+      "t_end": 2907.5,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "documentation",
+        "readme-generation",
+        "beginner-friendly"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Test generation and scenario expansion",
+      "description": "Agents can help identify untested scenarios, add test permutations, and write AL tests for specific commits, building on existing test suites.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2923.5,
+      "t_end": 2975,
+      "is_demoed": false,
+      "caveats": [
+        "requires existing test familiarity"
+      ],
+      "tags": [
+        "testing",
+        "test-generation",
+        "quality-assurance"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Scaffolding and table design via agents",
+      "description": "Agents can help generate code scaffolding including table definitions and codeunit structures when given clear descriptions and inline comments outlining the intended functionality.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2987.2,
+      "t_end": 3024.5,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "scaffolding",
+        "table-design",
+        "codeunit-generation"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Design validation and assumption challenging",
+      "description": "Using agents to critique design documents from multiple stakeholder perspectives (CFO, customer service, warehouse) and identify missing features, error handling, and usability improvements.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3052.1,
+      "t_end": 3088,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "design-review",
+        "stakeholder-perspective",
+        "assumption-validation"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Autonomous agent compilation and testing",
+      "description": "Advanced agent workflows that can compile, publish, test, and fix code to match tests autonomously, with minimal human intervention except for final review.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3088,
+      "t_end": 3122.8,
+      "is_demoed": false,
+      "caveats": [
+        "described as scary and advanced",
+        "experimental capability",
+        "target timeframe is end of summer"
+      ],
+      "tags": [
+        "autonomous-agents",
+        "ci-cd",
+        "future-capability"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Agent-driven code improvement through documentation and quality verification",
+      "description": "Agents can improve code quality, documentation, and testing even if speed gains are minimal. Using agents requires establishing high documentation standards and verification steps.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3140.2,
+      "t_end": 3426.2,
+      "is_demoed": false,
+      "caveats": [
+        "Requires investment in verification and documentation standards",
+        "Speed gains may not be immediate"
+      ],
+      "tags": [
+        "documentation",
+        "code quality",
+        "verification",
+        "agent workflow"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "XML documentation for code objects improving AI understanding",
+      "description": "XML documentation with summary tags and parameters helps AI understand code and context better than readme files alone. Should be paired with process flow diagrams in readme files.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3345.7,
+      "t_end": 3415.2,
+      "is_demoed": false,
+      "caveats": [
+        "Should be combined with readme markdown and mermaid diagrams for process flows"
+      ],
+      "tags": [
+        "documentation",
+        "xml",
+        "ai-understanding",
+        "code context"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AL guidelines best practices resource",
+      "description": "AL guidelines dot dev provides AL guidelines and best practices for development. Updates planned for April through June to surface tools being used by agentic developers.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3260.1,
+      "t_end": 3488.3,
+      "is_demoed": false,
+      "caveats": [
+        "Updates coming in upcoming weeks for agentic development tooling"
+      ],
+      "tags": [
+        "al guidelines",
+        "best practices",
+        "development resources"
+      ],
+      "system": "development"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "BC Code Intel MCP",
+      "t": 1541.3
+    },
+    {
+      "type": "other",
+      "name": "BC Code Intel",
+      "t": 2441.8
+    },
+    {
+      "type": "other",
+      "name": "MCP servers",
+      "t": 2460.2
+    },
+    {
+      "type": "other",
+      "name": "telemetry buddy",
+      "t": 2472.5
+    },
+    {
+      "type": "other",
+      "name": "object ID Ninja",
+      "t": 2472.5
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Luke van Vught",
+      "confidence": "high"
+    },
+    {
+      "name": "Jeremy Visca",
+      "confidence": "high"
+    },
+    {
+      "name": "Stefan Møller",
+      "confidence": "high"
+    },
+    {
+      "name": "Henrik",
+      "confidence": "medium"
+    },
+    {
+      "name": "Luke",
+      "confidence": "medium"
+    },
+    {
+      "name": "Kamel",
+      "confidence": "medium"
+    },
+    {
+      "name": "Vico",
+      "confidence": "medium"
+    },
+    {
+      "name": "Brandon Sanderson",
+      "confidence": "high"
+    },
+    {
+      "name": "Dean Jackson",
+      "confidence": "medium"
+    },
+    {
+      "name": "Mir Kasim",
+      "confidence": "medium"
+    },
+    {
+      "name": "Peter Konijn",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 462.7,
+      "text": "We bring change to our customers, and now change has come for us.",
+      "why_it_matters": "Explains why the pace of change in AI and agentic development feels challenging for the industry - change has shifted from being something developers bring to customers to something they must adapt to themselves.",
+      "check": "exact"
+    },
+    {
+      "t": 488.6,
+      "text": "you come at things with the I write every line of code. I understand everything that's in here.",
+      "why_it_matters": "Describes the traditional mindset that developers must unlearn when transitioning to agentic development, where they no longer write every line.",
+      "check": "exact"
+    },
+    {
+      "t": 593.3,
+      "text": "In agentic world, the agent might do different stuff every time. That's a very, very big shift.",
+      "why_it_matters": "Highlights the non-deterministic nature of AI-generated code versus traditional compiled code, creating uncertainty that developers must learn to navigate.",
+      "check": "exact"
+    },
+    {
+      "t": 605.3,
+      "text": "your intent and your ability to sculpt the intent for the agent to understand is now the new mastery.",
+      "why_it_matters": "Defines the new skill set required for agentic development - prompt engineering and intent specification become more important than coding syntax.",
+      "check": "exact"
+    },
+    {
+      "t": 718.8,
+      "text": "matters more than whether or not you're working with ai",
+      "why_it_matters": "Emphasizes that developer expertise remains the differentiator even with AI assistance, based on research showing AI does not impact downstream maintainability.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 794.1,
+      "text": "this agentic era, the people talk about the compiler as an LLM, and that the actual product you're making is not the code. The",
+      "why_it_matters": "Defines the fundamental shift in development philosophy where prompts and context become the deliverable rather than code itself",
+      "check": "exact"
+    },
+    {
+      "t": 844.6,
+      "text": "the barrier to bad code has never been lower.",
+      "why_it_matters": "Warns that democratization of development through AI tools means lower-quality code can be generated more easily, requiring better gatekeeping and review.",
+      "check": "exact"
+    },
+    {
+      "t": 896.1,
+      "text": "i want to make a new api endpoint because i'm building a power bi and the data i need isn't there",
+      "why_it_matters": "Demonstrates the speed and accessibility of AI-assisted development, showing non-traditional developers can now create business logic",
+      "check": "fuzzy"
+    },
+    {
+      "t": 932.4,
+      "text": "I did an analysis of my work in February and I had effectively almost 200,000 lines of code changed",
+      "why_it_matters": "Illustrates the massive scale of code generation that makes traditional code review impossible",
+      "check": "exact"
+    },
+    {
+      "t": 1100.7,
+      "text": "with AI, it's now critical to be able to understand that the outcomes of the agentic code is where you need to validate the",
+      "why_it_matters": "Establishes testing and outcome validation as the primary quality control mechanism for AI-generated code",
+      "check": "exact"
+    },
+    {
+      "t": 1307.1,
+      "text": "the value is not in writing the line anymore. The ability to know the value in what you should ask for and recognize when",
+      "why_it_matters": "Expresses the core mindset change required: developers become specification writers and validators rather than code writers",
+      "check": "exact"
+    },
+    {
+      "t": 1428.5,
+      "text": "you're a trading certainty for velocity",
+      "why_it_matters": "Encapsulates the fundamental tradeoff in agentic development: speed gains at the cost of deterministic outcomes",
+      "check": "exact"
+    },
+    {
+      "t": 1590.9,
+      "text": "think about these agents as the self-driving cars that we have to correct the behavior based on our understanding of the experience",
+      "why_it_matters": "Establishes the core metaphor that agents require human correction and oversight based on experience, not autonomous operation.",
+      "check": "exact"
+    },
+    {
+      "t": 1647.2,
+      "text": "we're in the BC world. We just added a field to a sales order. We need to know that, oh yeah, we should probably",
+      "why_it_matters": "Shows that domain-specific knowledge of interconnected Business Central objects remains essential to validate agent outputs",
+      "check": "exact"
+    },
+    {
+      "t": 1709.4,
+      "text": "your intent shapes the outcome, and that is a very new and uncomfortable place",
+      "why_it_matters": "Identifies the fundamental shift in development mindset required when working with agents - intent-driven rather than line-by-line coding.",
+      "check": "exact"
+    },
+    {
+      "t": 1753.5,
+      "text": "agents are, well, not always very bright. Sometimes they fix the test by making the test match the code.",
+      "why_it_matters": "Highlights a critical risk that agents may incorrectly modify tests rather than fixing code, requiring developer oversight.",
+      "check": "exact"
+    },
+    {
+      "t": 1844.9,
+      "text": "calibrated confidence. And this means that I'm not certain. I am not at all certain that every line of code is right.",
+      "why_it_matters": "Describes the psychological shift required when accepting agent-generated code without reviewing every line.",
+      "check": "exact"
+    },
+    {
+      "t": 2198.3,
+      "text": "about 128 to 160 000 tokens which if you need a book reference roughly the hobbit's about 100",
+      "why_it_matters": "Provides concrete technical limits and relatable reference points for understanding agent context window constraints.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 2375.5,
+      "text": "the core of my agentic development series that I'm teaching is that the intern is only as good as what you put on their",
+      "why_it_matters": "Establishes the foundational principle that agent success depends on context quality, not model capability alone.",
+      "check": "exact"
+    },
+    {
+      "t": 2386.8,
+      "text": "The agent is only as good as what you put in their context. So, very important. Context is everything",
+      "why_it_matters": "Emphasizes that agent capability is directly determined by the quality and relevance of provided instructions and context.",
+      "check": "exact"
+    },
+    {
+      "t": 2413.2,
+      "text": "If it's a 50,000 line specification detailing every ISO requirement and all that sort of thing, well, well, that just ...",
+      "why_it_matters": "Warns against over-specification and establishes the need for concise, focused documentation in agent prompts.",
+      "check": "exact"
+    },
+    {
+      "t": 2441.8,
+      "text": "when you look through the knowledge repo in BC Code Intel, you'll find, for example, I tried to make every rule of thumb I",
+      "why_it_matters": "Provides concrete guidance on context management and explains the 100-line rule for instruction clarity.",
+      "check": "exact"
+    },
+    {
+      "t": 2536.3,
+      "text": "rules of development the we must never fail to do this rules and know that",
+      "why_it_matters": "Highlights the critical risk that essential constraints can be lost when the context window is summarized.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 2661.5,
+      "text": "make sure that what you're doing is giving the intern a clear, verifiable task. Not implement this app. No, no. Build the tables for",
+      "why_it_matters": "Defines best practice for task decomposition and specificity when working with agents.",
+      "check": "exact"
+    },
+    {
+      "t": 3103.3,
+      "text": "You should be able to get to a point by maybe end of summer where you can try out at least some experimental stuff",
+      "why_it_matters": "Describes an announced capability for autonomous agent workflows with an end-of-summer target.",
+      "check": "exact"
+    },
+    {
+      "t": 3122.8,
+      "text": "agents don't help a messy code no no the gains come from parallel and quality uplift",
+      "why_it_matters": "Addresses a common misconception that agents cannot improve messy code; clarifies that the benefit is in parallel processing and quality improvements.",
+      "check": "exact"
+    },
+    {
+      "t": 3140.2,
+      "text": "Maybe it's not any faster than help in the old code but even if it's the same speed you can say great now documented",
+      "why_it_matters": "Explains that agents provide value beyond speed, including documentation and testing improvements even at equivalent pace.",
+      "check": "exact"
+    },
+    {
+      "t": 3167.1,
+      "text": "I don't have time to learn this we we'd say this all the time in our industry you never have time to sharpen the",
+      "why_it_matters": "Emphasizes that time investment in learning agent skills is critical and will pay dividends, despite perceived time pressure.",
+      "check": "exact"
+    },
+    {
+      "t": 3197.9,
+      "text": "try to pick a rung that you're comfortable reaching for and reach for it and then stay there for a little bit this is",
+      "why_it_matters": "Advises incremental skill building and habit formation as the path to agent mastery.",
+      "check": "exact"
+    },
+    {
+      "t": 3384.2,
+      "text": "the XML documentation before an object you know the summary tags and parameters and all that that absolutely does help the AI understand the",
+      "why_it_matters": "Quantifies the importance of XML documentation over general readme files for AI comprehension of code.",
+      "check": "exact"
+    },
+    {
+      "t": 3426.2,
+      "text": "We are in the era where investment in documentation pays in bigger dividends than it ever has",
+      "why_it_matters": "Establishes documentation as a high-ROI practice in the AI era, contrasting with traditional development practices.",
+      "check": "exact"
+    },
+    {
+      "t": 3525.4,
+      "text": "developers were not allowed to take the developer exams unless they had also taken the functional classes because we're in an ERP world",
+      "why_it_matters": "Establishes historical industry precedent that developers should have functional knowledge alongside technical skills.",
+      "check": "exact"
+    },
+    {
+      "t": 3594.6,
+      "text": "Knowing those decisions will be something that a consultant is very unlikely to ever get an agent to understand the differences of",
+      "why_it_matters": "Identifies architectural decision-making as a unique skill area where agents cannot substitute for human expertise.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 782.6,
+      "kind": "subject-to-change",
+      "text": "For now, it's optional"
+    },
+    {
+      "t": 1243.8,
+      "kind": "coming-later",
+      "text": "there's an upcoming session in June that will be very much around this"
+    },
+    {
+      "t": 1955.4,
+      "kind": "subject-to-change",
+      "text": "the agent didn't understand BC well enough to do those things correctly"
+    },
+    {
+      "t": 2225.5,
+      "kind": "subject-to-change",
+      "text": "there are other places and models where you can get up to a million, but context window isn't everything"
+    },
+    {
+      "t": 3103.3,
+      "kind": "coming-later",
+      "text": "You should be able to get to a point by maybe end of summer where you can try out at ..."
+    },
+    {
+      "t": 3457.8,
+      "kind": "coming-later",
+      "text": "one of my projects for this quarter two in the months ahead April through June is looking at what can ..."
+    },
+    {
+      "t": 3488.3,
+      "kind": "coming-later",
+      "text": "There may be some updates to AL guidelines coming in the upcoming years upcoming weeks rather to help with providing some additional skills"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 33,
+    "quotes_dropped": 3,
+    "evidence_verified": 0,
+    "evidence_unverified": 34
+  },
+  "windows": 5,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.0715559
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.020287
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.053289
+    }
+  ]
+}

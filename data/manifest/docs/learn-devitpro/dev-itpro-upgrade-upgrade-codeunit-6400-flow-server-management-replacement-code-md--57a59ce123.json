@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-codeunit-6400-flow-server-management-replacement-code",
   "published_at": "2026-06-02T11:43:36.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "60771ae28f5b9df035dd9ca2e7963789b57f6345",
       "words": 58,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:12:17.115Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.004221
+    },
+    "summarized": {
+      "at": "2026-10-06T18:12:39.985Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:12:39.985Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:12:39.986Z",
+      "page": false
     }
   },
   "input_hash": "60771ae28f5b9df035dd9ca2e7963789b57f6345",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "60771ae28f5b9df035dd9ca2e7963789b57f6345"
+  "output_hash": "cf41cd6adc599d56564b36c4732d8a4847f207d0cccb35b3232d9df64d635aed"
 }

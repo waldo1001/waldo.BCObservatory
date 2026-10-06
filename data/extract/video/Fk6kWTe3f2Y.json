@@ -1,0 +1,645 @@
+{
+  "video_id": "Fk6kWTe3f2Y",
+  "item_id": "video/yt-bcmusings/Fk6kWTe3f2Y",
+  "title": "Deploy Analysis Views with AL Code in Business Central 2026 Wave 1 (No Manual Setup)",
+  "duration_s": 1767,
+  "systems": [
+    "reporting",
+    "development",
+    "inventory"
+  ],
+  "topics": [
+    "analysis views",
+    "al extensions",
+    "json deployment",
+    "ad hoc analysis",
+    "copilot",
+    "item ledger entries",
+    "analysis mode",
+    "version control",
+    "multi-tenant deployment",
+    "pivot tables",
+    "dimensions",
+    "queries"
+  ],
+  "chapters": [
+    {
+      "title": "Overview of analysis views feature in BC 2026 Wave 1",
+      "t_start": 0,
+      "t_end": 98.3
+    },
+    {
+      "title": "Microsoft documentation and technical implementation details",
+      "t_start": 98.3,
+      "t_end": 253.6
+    },
+    {
+      "title": "Exporting and examining analysis JSON files",
+      "t_start": 253.6,
+      "t_end": 363.8
+    },
+    {
+      "title": "Item ledger entries demonstration with locked and unlocked views",
+      "t_start": 363.8,
+      "t_end": 489.1
+    },
+    {
+      "title": "Using Copilot in Excel to design analysis views",
+      "t_start": 489.1,
+      "t_end": 612
+    },
+    {
+      "title": "Generating analysis JSON files from Copilot suggestions",
+      "t_start": 612,
+      "t_end": 761.8
+    },
+    {
+      "title": "Creating and deploying analysis views through AL extension",
+      "t_start": 761.8,
+      "t_end": 895.4
+    },
+    {
+      "title": "Publishing and testing monthly trends analysis with Copilot",
+      "t_start": 895.4,
+      "t_end": 1101.8
+    },
+    {
+      "title": "Creating item profitability analysis",
+      "t_start": 1101.8,
+      "t_end": 1260.3
+    },
+    {
+      "title": "Demonstrating pivot tables and dimensions",
+      "t_start": 1260.3,
+      "t_end": 1418.6
+    },
+    {
+      "title": "Manual configuration and JSON file naming",
+      "t_start": 1418.6,
+      "t_end": 1577.6
+    },
+    {
+      "title": "Related content and learning resources",
+      "t_start": 1577.6,
+      "t_end": 1767
+    }
+  ],
+  "features": [
+    {
+      "name": "Analysis views packaged in AL extensions",
+      "description": "Analysis views can now be exported as JSON files and included in AL extensions, allowing them to be deployed as part of the codebase and version controlled across multiple environments and tenants.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 12.1,
+      "t_end": 158.1,
+      "is_demoed": true,
+      "caveats": [
+        "Requires using analysis mode in web client to export",
+        "JSON file must be included in extension package"
+      ],
+      "tags": [
+        "analysis views",
+        "al extensions",
+        "deployment",
+        "list pages"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Analysis JSON export from web client",
+      "description": "Users can export analysis views as analysis.json files directly from the analysis mode in the Business Central web client, which can then be included in AL extensions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 144.7,
+      "t_end": 314.9,
+      "is_demoed": true,
+      "caveats": [
+        "Analysis must be created in analysis mode first",
+        "File naming must match extension configuration"
+      ],
+      "tags": [
+        "json export",
+        "analysis mode",
+        "web client"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Locked analysis views",
+      "description": "Analysis views deployed via AL extensions appear as locked tabs in analysis mode, preventing end-users from modifying the design while allowing them to duplicate and customize copies.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 393.2,
+      "t_end": 461.7,
+      "is_demoed": true,
+      "caveats": [
+        "Locked views cannot be changed by end-users",
+        "Users can duplicate locked views to create customizable copies"
+      ],
+      "tags": [
+        "locked views",
+        "analysis mode",
+        "user permissions"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Copilot for Excel analysis design",
+      "description": "Copilot integrated in Excel can analyze exported Business Central data and suggest analysis view designs, generating JSON proposals for monthly trends, revenue analysis, and other summaries.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 500.9,
+      "t_end": 656.2,
+      "is_demoed": true,
+      "caveats": [
+        "Requires Python packages to be installed",
+        "Generated JSON needs manual review before deployment",
+        "Claude for Excel mentioned as alternative"
+      ],
+      "tags": [
+        "copilot",
+        "excel",
+        "analysis design",
+        "ai"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Data export to Excel for analysis",
+      "description": "Item ledger entries and other Business Central data can be exported to Excel for further analysis using Copilot or Claude to design analysis views.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 475.8,
+      "t_end": 489.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "data export",
+        "excel",
+        "analysis"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Analysis view component in page AL syntax",
+      "description": "AL pages now support an analysis views section where developers can define analysis view components with name, file path, and caption to reference JSON-based analysis definitions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 158.1,
+      "t_end": 207,
+      "is_demoed": true,
+      "caveats": [
+        "Requires proper JSON file naming and path configuration"
+      ],
+      "tags": [
+        "al syntax",
+        "page components",
+        "analysis definition"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Multi-environment analysis view deployment",
+      "description": "Analysis views can be easily deployed across multiple Business Central environments and tenants through AL extensions, enabling standardized data analysis across the organization.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 44,
+      "t_end": 87,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "deployment",
+        "multi-tenant",
+        "environments",
+        "standardization"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Analysis views via AL code",
+      "description": "Deploy analysis views with rows, columns and optional filters by defining them in JSON files and including them in AL extensions, eliminating the need for manual UI setup.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 783.9,
+      "t_end": 1023.9,
+      "is_demoed": true,
+      "caveats": [
+        "Analysis view JSON files must end with 'analysis.json' filename suffix",
+        "Cannot publish if extension is used in multiple apps without uninstalling first"
+      ],
+      "tags": [
+        "analysis views",
+        "al development",
+        "json configuration",
+        "pivot tables"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Copilot for analysis view suggestions",
+      "description": "Copilot can analyze table structures and suggest high-value analysis views for specific business domains like inventory and cost analysis, including recommended dimensions and filters.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1038.5,
+      "t_end": 1189.6,
+      "is_demoed": true,
+      "caveats": [
+        "JSON output from Copilot may not always be downloadable directly",
+        "Suggested analyses may need manual review and adjustment"
+      ],
+      "tags": [
+        "copilot",
+        "ai suggestions",
+        "analysis views",
+        "inventory analysis"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Ad hoc analysis mode",
+      "description": "Users can switch to ad hoc analysis view in the UI to see pivot-style analysis of item ledger entries with rows, columns and aggregations by dimensions like posting date and customer group.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 864.1,
+      "t_end": 934.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "analysis mode",
+        "pivot tables",
+        "ad hoc analysis",
+        "inventory"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Analysis view dimensions and pivoting",
+      "description": "Analysis views support grouping data by row dimensions, column dimensions (pivots), and applying filters. Dimensions can come from related tables and the same field can be used as rows or pivots.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1260.3,
+      "t_end": 1418.6,
+      "is_demoed": true,
+      "caveats": [
+        "When duplicating analysis views, pivot configuration may be lost and requires reconfiguration",
+        "UI can be slow loading related tables when adding fields"
+      ],
+      "tags": [
+        "dimensions",
+        "pivot tables",
+        "analysis views",
+        "row/column grouping"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Analysis view export and import cycle",
+      "description": "Users can export analysis view definitions from the UI, import them into AL projects as JSON files, include them in pages, and optionally re-export and re-import definitions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1487.7,
+      "t_end": 1532.8,
+      "is_demoed": true,
+      "caveats": [
+        "JSON file must be named with 'analysis.json' suffix to be recognized",
+        "Related table loading can be slow in the UI"
+      ],
+      "tags": [
+        "analysis views",
+        "export/import",
+        "json",
+        "round trip"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Cross-table analysis views",
+      "description": "Analysis views can add columns from related tables beyond the main table, enabling analysis that combines data from multiple table sources.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1441.4,
+      "t_end": 1487.7,
+      "is_demoed": true,
+      "caveats": [
+        "UI performance can be slow when loading related table options"
+      ],
+      "tags": [
+        "related tables",
+        "analysis views",
+        "cross-table analysis"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Analysis view JSON file format",
+      "description": "Analysis view definition files must end with analysis.json to be distinguished from other JSON file types.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1565,
+      "t_end": 1577.6,
+      "is_demoed": false,
+      "caveats": [
+        "Naming convention is required"
+      ],
+      "tags": [
+        "json",
+        "file format",
+        "analysis views"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Copilot-generated analysis mode tabs",
+      "description": "Copilot can create analysis mode tabs automatically for analysis views.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1597.5,
+      "t_end": 1609,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "copilot",
+        "analysis mode",
+        "automation"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Analysis mode with queries",
+      "description": "Analysis mode can be used with queries, including Microsoft-provided queries for fixed assets module.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1609,
+      "t_end": 1635.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "queries",
+        "analysis mode",
+        "fixed assets"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Microsoft query for projects",
+      "description": "Microsoft provides a query for the projects module that can be used with analysis mode to analyze project data and lifecycle.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1635.4,
+      "t_end": 1676.5,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "queries",
+        "projects",
+        "analysis mode"
+      ],
+      "system": "projects"
+    },
+    {
+      "name": "Add related table fields to pages",
+      "description": "Pages can be extended to include fields from related tables using UI without requiring code.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1676.5,
+      "t_end": 1687.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "page customization",
+        "related tables",
+        "no-code"
+      ],
+      "system": "development"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "item list",
+      "t": 276.8
+    },
+    {
+      "type": "page",
+      "name": "item ledger entries",
+      "t": 363.8
+    },
+    {
+      "type": "page",
+      "name": "my sales analysis page",
+      "t": 196.7
+    },
+    {
+      "type": "table",
+      "name": "Item Ledger Entry",
+      "t": 1065.1
+    },
+    {
+      "type": "table",
+      "name": "Customer",
+      "t": 1441.4
+    },
+    {
+      "type": "query",
+      "name": "Fixed Assets Query",
+      "t": 1609
+    },
+    {
+      "type": "query",
+      "name": "Projects Query",
+      "t": 1635.4
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Marcel Chabot",
+      "confidence": "high"
+    },
+    {
+      "name": "E.S. Verland",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 12.1,
+      "text": "in Business Central 2026 wave 1 or version 28 uh Microsoft quietly is going to ship something um that uh will change the way",
+      "why_it_matters": "Signals a significant change to how analysis views are deployed in BC 2026 Wave 1",
+      "check": "exact"
+    },
+    {
+      "t": 24.9,
+      "text": "You can now uh export uh uh as JSON one analysis view uh and once you have the JSON you can include that JSON",
+      "why_it_matters": "Explains the core new capability of exporting analysis views as JSON for inclusion in extensions",
+      "check": "exact"
+    },
+    {
+      "t": 44,
+      "text": "the analysis views now will be part of the codebase. uh we can version control it and we can deploy it across environments",
+      "why_it_matters": "Highlights benefits of the new approach: version control and multi-environment deployment",
+      "check": "exact"
+    },
+    {
+      "t": 124.7,
+      "text": "analysis views can now be packaged and delivered as part of fail extensions for list pages including extensions and customizations",
+      "why_it_matters": "Official Microsoft documentation confirming GA status of analysis views in extensions",
+      "check": "exact"
+    },
+    {
+      "t": 172,
+      "text": "we have now a new section analysis views in the page. Uh just like we had before layout or modify",
+      "why_it_matters": "Describes the new AL syntax structure for defining analysis views in pages",
+      "check": "exact"
+    },
+    {
+      "t": 287,
+      "text": "we can now obviously this is the default default generated analysis but we have now under share export definition",
+      "why_it_matters": "Shows that the export definition feature is available in the web client interface",
+      "check": "exact"
+    },
+    {
+      "t": 393.2,
+      "text": "they have a lock. All of them have a lock. means they have been deployed using um what we're going to learn today which",
+      "why_it_matters": "Demonstrates that deployed analysis views are locked and cannot be modified by end-users",
+      "check": "exact"
+    },
+    {
+      "t": 1065.1,
+      "text": "The item leg entry table has the following columns. Want to create and I want to create an analysis views.",
+      "why_it_matters": "Demonstrates how Copilot can generate analysis view suggestions based on table structure.",
+      "check": "exact"
+    },
+    {
+      "t": 1075.7,
+      "text": "These are pivot pivot style views with rows, columns and optional filters.",
+      "why_it_matters": "Defines what analysis views are and their core components.",
+      "check": "exact"
+    },
+    {
+      "t": 1260.3,
+      "text": "Suggested to group by rows to sum the quantity sales amount and cost amount and to pivot by column customer group codes.",
+      "why_it_matters": "Illustrates how Copilot proposes specific analysis structures with dimensions and aggregations.",
+      "check": "exact"
+    },
+    {
+      "t": 1510.9,
+      "text": "from Business Central from the UI. Export your view, import it into your uh AL project.",
+      "why_it_matters": "Shows the round-trip workflow from UI to AL code and back, enabling deployment via code.",
+      "check": "exact"
+    },
+    {
+      "t": 1565,
+      "text": "the definition file must end with analysis.json. So that's one thing that's uh distinguishing uh this type of JSON",
+      "why_it_matters": "Critical technical requirement for analysis view JSON files to be recognized by the system.",
+      "check": "exact"
+    },
+    {
+      "t": 1565,
+      "text": "we will get an error if the definition file must end with analysis.json. So that's one thing that's uh distinguishing ...",
+      "why_it_matters": "Establishes the required naming convention for analysis view definition files in Business Central.",
+      "check": "exact"
+    },
+    {
+      "t": 1609,
+      "text": "copilot can create analysis mod tabs",
+      "why_it_matters": "Shows that Copilot automates the creation of analysis mode tabs, reducing manual setup work.",
+      "check": "exact"
+    },
+    {
+      "t": 1609,
+      "text": "I introduced there um the query that came from Microsoft for the fixed assets",
+      "why_it_matters": "Confirms Microsoft provides pre-built queries for analysis mode, specifically for fixed assets module.",
+      "check": "exact"
+    },
+    {
+      "t": 1635.4,
+      "text": "the query uh used uh created by Microsoft for the projects module",
+      "why_it_matters": "Shows Microsoft also provides queries for the projects module to support analysis workflows.",
+      "check": "exact"
+    },
+    {
+      "t": 1676.5,
+      "text": "how we can add to a page fields from related tables. Very cool. Um no code involved just using UI",
+      "why_it_matters": "Demonstrates that extending pages with related table fields is possible without AL code, using only UI.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 266.6,
+      "kind": "preview",
+      "text": "you can see here that we have version 28 preview here"
+    },
+    {
+      "t": 895.4,
+      "kind": "other",
+      "text": "Cannot publish it because this is used in multiple apps"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 17,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 16
+  },
+  "windows": 3,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.011873000000000002
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.030995999999999996
+    }
+  ]
+}

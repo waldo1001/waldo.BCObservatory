@@ -7,16 +7,38 @@
   "url": "https://www.youtube.com/watch?v=tMqCSibSRug",
   "published_at": "2026-02-28T04:21:36.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T18:12:19.899Z",
+      "captions": "auto:en-orig",
+      "duration_s": 4569
+    },
+    "captioned": {
+      "at": "2026-10-06T18:12:26.173Z",
+      "path": "vault:captions/community/yt-stefanmaron/tMqCSibSRug.vtt",
+      "vtt_sha256": "64bb101491864678dc794264903d5f383a46e06e48175b25906973e30e1f89ad",
+      "segments": 334,
+      "words": 12165,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
   "attempts": 0,
   "flags": [],
   "meta": {
-    "channel_id": "UC96RLsspoArRJu6dhwkOsWQ"
-  }
+    "channel_id": "UC96RLsspoArRJu6dhwkOsWQ",
+    "duration_s": 4569,
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "64bb101491864678dc794264903d5f383a46e06e48175b25906973e30e1f89ad"
 }

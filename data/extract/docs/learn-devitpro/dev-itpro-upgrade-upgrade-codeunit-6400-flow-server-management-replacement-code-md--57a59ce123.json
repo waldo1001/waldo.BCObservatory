@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/upgrade/upgrade-codeunit-6400-flow-server-management-replacement-code.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-codeunit-6400-flow-server-management-replacement-code",
+  "title": "Codeunit 6400 Flow Server Management Replacement Code for C/AL to AL conversion",
+  "blob": "60771ae28f5b9df035dd9ca2e7963789b57f6345",
+  "summary": "Replacement AL code for Codeunit 6400 Flow Service Management to fix compilation errors when converting version 14 C/AL to version 15 AL.",
+  "systems": [
+    "development",
+    "integration"
+  ],
+  "topics": [
+    "code conversion",
+    "flow service",
+    "power automate",
+    "codeunit replacement"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Flow Service Management"
+    }
+  ],
+  "features": [
+    "flow environment management",
+    "template filters",
+    "flow URLs",
+    "flow API access"
+  ],
+  "versions": [
+    "version 14",
+    "version 15"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004221,
+      "pages_in_call": 7
+    }
+  ]
+}

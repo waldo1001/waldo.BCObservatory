@@ -1,0 +1,34 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/upgrade/Resolve-OnBeforeTestRun-OnAfterTestRun-Compile-Errors.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/Resolve-OnBeforeTestRun-OnAfterTestRun-Compile-Errors",
+  "title": "Fix OnBeforeTestRun and OnAfterTestRun after database conversion",
+  "blob": "7098ef8c15d1cb4158abcb6181a50dc2bdea4e9b",
+  "summary": "Resolving OnBeforeTestRun and OnAfterTestRun trigger signature errors during database conversion. Update test runner codeunit trigger functions to include TestPermissions parameter.",
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "test runner",
+    "database conversion",
+    "triggers",
+    "compilation errors"
+  ],
+  "objects": [],
+  "features": [
+    "OnBeforeTestRun trigger",
+    "OnAfterTestRun trigger",
+    "TestPermissions parameter"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004221,
+      "pages_in_call": 7
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/upgrade/handling-merge-conflicts.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/handling-merge-conflicts",
+  "title": "Handling Merge Conflicts",
+  "blob": "5c41c83162e7808bc52474f5c566dd3272e46bb9",
+  "summary": "Handling merge conflicts when converting application objects using Merge-NAVApplicationObject or Update-NAVApplicationObject cmdlets. CONFLICT files identify unmerged changes in code, properties, or application objects.",
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "merge conflicts",
+    "application objects",
+    "code conversion",
+    "upgrade"
+  ],
+  "objects": [],
+  "features": [
+    "CONFLICT files",
+    "three-way merge",
+    "automatic merge",
+    "merge resolution"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004221,
+      "pages_in_call": 7
+    }
+  ]
+}

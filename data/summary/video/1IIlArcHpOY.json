@@ -1,0 +1,27 @@
+{
+  "video_id": "1IIlArcHpOY",
+  "item_id": "video/yt-microsoft/1IIlArcHpOY",
+  "summary": "Writing instructions for Business Central agents: role-based prompting, a guidelines section, and short process steps. Shown with an Accounts Receivable agent that handles a sales return, reads documents through Azure Document Intelligence, creates a credit memo and drafts an email. Also covers agent memory, user interaction tools and page-specific instructions.",
+  "overview": "The video explains how to write instructions for agents in Business Central. The guidance is \"less is more\": outline only the most important steps, use role-based prompting to set context, and keep the process description in the instructions rather than repeating it in each task. Instructions are part of a larger platform prompt and take priority over task messages.\n\nA demo Accounts Receivable agent processes a sales return complaint about damaged items. The platform sends PDFs and images to Azure Document Intelligence, which extracts text only. The agent fills a credit memo, the user reviews it and continues the task, and the agent composes an email. The video also covers timeline substeps, task chaining, user intervention and review tools, the response tool, agent memory, page-specific instructions, instruction history and bulk download.",
+  "key_points": [
+    "Keep instructions short: outline the most important steps, not every step. Add instructions only if accuracy holds, since tasks that are too different can lower it.",
+    "Instructions take much higher priority than task messages, so put the process description in the instructions and do not repeat it in tasks.",
+    "Document Intelligence extracts text from PDFs and images only. It does no machine vision, so it cannot identify visual patterns on a photo.",
+    "The agent review experience shows agent-filled fields with explanations, but the user must continue task execution manually. The credit memo needs review before posting.",
+    "Sending the drafted email automatically needs the SDK. In the current platform the email is sent manually.",
+    "Agent history is kept automatically, but page state is not. Tell the agent which fields to memorize; they are stored as key-value pairs, viewable on the troubleshooting page.",
+    "Page-specific instructions use parenthesis notation with the page ID and apply only when the agent opens that page. Instruction edit history allows reverting, and several instructions can be downloaded as a zip."
+  ],
+  "audience": [
+    "developer",
+    "functional consultant",
+    "administrator"
+  ],
+  "extraction_hash": "d5add4fb8116624599376d3c4349f92cfe32577edc5c1ca24de8ecb2194792da",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0237744
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/upgrade/resolve-page-6400-6401-error-converting-database.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/resolve-page-6400-6401-error-converting-database",
+  "title": "Page 6400 and 6401 errors",
+  "blob": "ed5cc116012ced2ff1a54a2c257f953fe71c3d9f",
+  "summary": "Resolving compilation errors for page 6400 Flow Selector and page 6401 Flow Template Selector when converting from NAV 2018. Update Codeunit 6400 Flow Service Management and modify Flow addin initialization code.",
+  "systems": [
+    "development",
+    "integration"
+  ],
+  "topics": [
+    "flow integration",
+    "database conversion",
+    "compilation errors",
+    "power automate"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Flow Service Management"
+    },
+    {
+      "type": "page",
+      "name": "Flow Selector"
+    },
+    {
+      "type": "page",
+      "name": "Flow Template Selector"
+    }
+  ],
+  "features": [
+    "Azure AD Graph API",
+    "Microsoft Graph API",
+    "flow templates",
+    "ControlAddinReady function"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004221,
+      "pages_in_call": 7
+    }
+  ]
+}

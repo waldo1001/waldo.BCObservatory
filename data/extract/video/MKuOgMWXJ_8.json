@@ -1,0 +1,296 @@
+{
+  "video_id": "MKuOgMWXJ_8",
+  "item_id": "video/yt-microsoft/MKuOgMWXJ_8",
+  "title": "What's New: Sales Validation Sample Agent for Business Central",
+  "duration_s": 267,
+  "systems": [
+    "copilot",
+    "sales"
+  ],
+  "topics": [
+    "sales validation agent",
+    "agent setup",
+    "permissions",
+    "sample agent",
+    "sales order",
+    "order release",
+    "task tracking",
+    "credit usage"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and accessing the sales validation agent",
+      "t_start": 0,
+      "t_end": 37.9
+    },
+    {
+      "title": "Agent setup, profile, permissions and instructions",
+      "t_start": 37.9,
+      "t_end": 97
+    },
+    {
+      "title": "Preparing data and running the agent",
+      "t_start": 97,
+      "t_end": 143.5
+    },
+    {
+      "title": "Invoking the agent and tracking the task",
+      "t_start": 143.5,
+      "t_end": 181.5
+    },
+    {
+      "title": "Agent execution, order processing and results review",
+      "t_start": 181.5,
+      "t_end": 248.5
+    },
+    {
+      "title": "Cost tracking and conclusion",
+      "t_start": 248.5,
+      "t_end": 267
+    }
+  ],
+  "features": [
+    {
+      "name": "Sales Validation Agent",
+      "description": "A sample agent shipped out of the box that validates open sales orders and determines if they can be released for shipment. It checks orders against release criteria and provides a summary of actions taken.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 6.7,
+      "t_end": 248.5,
+      "is_demoed": true,
+      "caveats": [
+        "User must prepare data before running agent",
+        "Only sample currently available in the wizard",
+        "Agent requires specific task formatting with shipment date"
+      ],
+      "tags": [
+        "agent",
+        "sales order",
+        "validation",
+        "sample"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent Configuration Card",
+      "description": "A configuration interface where users can review agent profile, permissions, instructions, and customize settings for the sales validation agent.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 51.4,
+      "t_end": 97,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "configuration",
+        "setup",
+        "agent"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent Dedicated Profile",
+      "description": "A limited UI profile assigned to the agent that restricts its interface to only the tasks it is supposed to perform.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 64.6,
+      "t_end": 77.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "profile",
+        "permissions",
+        "agent"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Reduced Permission Sets",
+      "description": "Agent access control that limits permissions to only the specific tasks the agent needs to perform, reducing security risk.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 77.9,
+      "t_end": 97,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "permissions",
+        "security",
+        "agent"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Agent Instructions",
+      "description": "Customizable instructions that define how the agent behaves. Users can edit instructions to tweak agent behavior and assign specific tasks.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 97,
+      "t_end": 166.7,
+      "is_demoed": true,
+      "caveats": [
+        "Instructions should follow specific formatting conventions as documented",
+        "Format for sales validation agent: run process and shipment date"
+      ],
+      "tags": [
+        "instructions",
+        "configuration",
+        "agent"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Task Tracking UI",
+      "description": "A user interface component that allows users to track the progress and steps of an agent task in real-time as it executes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 181.5,
+      "t_end": 220.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "task tracking",
+        "ui",
+        "agent"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Outgoing Message Review",
+      "description": "A feature that allows users to review and approve agent-generated messages summarizing completed actions, including which sales orders were released and which did not meet criteria.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 225,
+      "t_end": 235,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "review",
+        "message",
+        "output"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent Credit Usage Tracking",
+      "description": "A mechanism that displays how many API credits were consumed by an agent run, allowing users to monitor and manage the cost of agent operations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 248.5,
+      "t_end": 261,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "credits",
+        "cost",
+        "tracking"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "More Sample Agents Coming",
+      "description": "Microsoft has announced plans to build and release additional sample agents beyond the current sales validation agent.",
+      "status": "announced",
+      "status_evidence_t": 37.9,
+      "status_evidence_quote": "We are planning to build more and they will appear in this list here",
+      "status_evidence_verified": true,
+      "t_start": 37.9,
+      "t_end": 51.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "roadmap",
+        "sample agents"
+      ],
+      "system": "copilot"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Sales Orders",
+      "t": 194.6
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Nicola",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 6.7,
+      "text": "a sample agent that we have shipped out of the box that you can use to see how to build an agent within the",
+      "why_it_matters": "Confirms the sales validation agent is generally available as a shipped sample",
+      "check": "exact"
+    },
+    {
+      "t": 37.9,
+      "text": "We are planning to build more and they will appear in this list here",
+      "why_it_matters": "Microsoft has announced additional sample agents are coming in the future",
+      "check": "exact"
+    },
+    {
+      "t": 77.9,
+      "text": "we have also lowered the permissions to only the task that it is supposed to do. So it has a reduced permission set",
+      "why_it_matters": "Shows the security approach - agents operate with minimal required permissions",
+      "check": "exact"
+    },
+    {
+      "t": 107.9,
+      "text": "the sales validation agent is checking for the open orders and seeing if it is able to release them to be shipped",
+      "why_it_matters": "Defines the core capability of the agent - validating and releasing sales orders",
+      "check": "exact"
+    },
+    {
+      "t": 143.5,
+      "text": "the agent is being started by saying run process and shipment date",
+      "why_it_matters": "Documents the required task format for invoking the sales validation agent",
+      "check": "exact"
+    },
+    {
+      "t": 248.5,
+      "text": "you can see how many credits we have spent doing these checks on all of the opening sales orders",
+      "why_it_matters": "Demonstrates cost tracking visibility for agent operations",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 37.9,
+      "kind": "coming-later",
+      "text": "We are planning to build more and they will appear in this list here"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 1,
+    "evidence_unverified": 8
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.039715
+    }
+  ]
+}

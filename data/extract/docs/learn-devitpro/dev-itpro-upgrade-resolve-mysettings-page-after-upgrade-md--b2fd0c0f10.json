@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/upgrade/resolve-mysettings-page-after-upgrade.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/resolve-mysettings-page-after-upgrade",
+  "title": "Resolving My Settings Page After a Database Conversion",
+  "blob": "fba9c228dd7214c272c25bef695b02bb89c53c52",
+  "summary": "Resolving My Settings page after converting a Dynamics NAV Corfù database. Modify Codeunit 40 LogInManagement with OpenSettings function and update page 9176 My Settings GetTimeZone function.",
+  "systems": [
+    "administration",
+    "development"
+  ],
+  "topics": [
+    "database conversion",
+    "settings page",
+    "upgrade",
+    "my settings"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "LogInManagement"
+    },
+    {
+      "type": "page",
+      "name": "My Settings"
+    }
+  ],
+  "features": [
+    "OpenSettings function",
+    "GetTimeZone function",
+    "time zone lookup"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004221,
+      "pages_in_call": 7
+    }
+  ]
+}

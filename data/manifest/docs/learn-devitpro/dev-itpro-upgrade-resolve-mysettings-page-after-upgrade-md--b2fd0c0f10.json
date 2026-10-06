@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/resolve-mysettings-page-after-upgrade",
   "published_at": "2026-06-02T11:43:36.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "fba9c228dd7214c272c25bef695b02bb89c53c52",
       "words": 106,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:12:17.111Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.004221
+    },
+    "summarized": {
+      "at": "2026-10-06T18:12:39.977Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:12:39.978Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:12:39.979Z",
+      "page": false
     }
   },
   "input_hash": "fba9c228dd7214c272c25bef695b02bb89c53c52",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "fba9c228dd7214c272c25bef695b02bb89c53c52"
+  "output_hash": "1ed4a5df489fc03da8dbb559a0cc3776aa7308288136d77bb6e2d73fbaca2e9b"
 }

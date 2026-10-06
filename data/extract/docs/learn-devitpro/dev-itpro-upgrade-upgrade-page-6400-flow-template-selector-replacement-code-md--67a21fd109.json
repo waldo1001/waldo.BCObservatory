@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/upgrade/upgrade-page-6400-flow-template-selector-replacement-code.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-page-6400-flow-template-selector-replacement-code",
+  "title": "Page 6400 Flow Template Selector Replacement Code for C/AL to AL conversion",
+  "blob": "4c8d319b5ed057bd2104b772e784024f0396df0f",
+  "summary": "Replacement AL code for page 6400 Flow Template Selector to fix compilation errors when converting version 14 C/AL to version 15 AL.",
+  "systems": [
+    "development",
+    "integration"
+  ],
+  "topics": [
+    "code conversion",
+    "flow templates",
+    "page replacement",
+    "power automate"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Flow Template Selector"
+    }
+  ],
+  "features": [
+    "template search",
+    "flow addin control",
+    "environment selection",
+    "error handling"
+  ],
+  "versions": [
+    "version 14",
+    "version 15"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004221,
+      "pages_in_call": 7
+    }
+  ]
+}
