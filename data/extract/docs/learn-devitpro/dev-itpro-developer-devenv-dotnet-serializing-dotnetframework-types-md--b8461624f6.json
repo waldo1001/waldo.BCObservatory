@@ -1,0 +1,36 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-dotnet-serializing-dotnetframework-types.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-dotnet-serializing-dotnetframework-types",
+  "title": "Serializing .NET framework types",
+  "blob": "5e17c5d4e2e8fab234168919396283056b2622dc",
+  "summary": "Serializing .NET framework types explains how to make .NET objects serializable for communication between Business Central client and server using SerializableAttribute or ISerializable interface.",
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    ".net interoperability",
+    "serialization",
+    "dotnet",
+    "client-server communication",
+    "type conversion"
+  ],
+  "objects": [],
+  "features": [
+    "basic serialization",
+    "custom serialization",
+    "SerializableAttribute",
+    "ISerializable interface",
+    "NonSerializedAttribute"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005156,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-webservices-publish-failure-trace",
   "published_at": "2025-05-06T19:27:54.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "0e552116b6687945f4087dfa9d96129bf4fb49d9",
       "words": 503,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:33:05.526Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005156
+    },
+    "summarized": {
+      "at": "2026-10-06T19:33:28.246Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:33:28.247Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:33:28.248Z",
+      "page": false
     }
   },
   "input_hash": "0e552116b6687945f4087dfa9d96129bf4fb49d9",
@@ -42,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "0e552116b6687945f4087dfa9d96129bf4fb49d9"
+  "output_hash": "b121a84bb0504613c7dd34fae016554214a65c4f32fa72a920bcff38b07b6b52"
 }

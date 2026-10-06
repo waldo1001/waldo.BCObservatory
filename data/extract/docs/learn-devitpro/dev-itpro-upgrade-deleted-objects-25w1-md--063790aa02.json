@@ -1,0 +1,483 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/upgrade/deleted-objects-25w1.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/deleted-objects-25w1",
+  "title": "Deleted objects in the Base App and first-party apps",
+  "blob": "725ca3e384d445c7aefaeecca52db48ad1217fbc",
+  "summary": "2025 release wave 1 (v26) permanently deletes over 150 obsolete tables and fields from the Base Application and first-party apps to improve database performance, unify codebase across regions, and reduce technical debt. Lists table and field objects deleted in the Base App and localized versions across W1, AT, APAC, BE, CH, and CZ for Business Central version 25.0 upgrade.",
+  "systems": [
+    "administration",
+    "platform",
+    "development"
+  ],
+  "topics": [
+    "deleted objects",
+    "obsolete",
+    "database cleanup",
+    "v26",
+    "breaking changes",
+    "obsoletions",
+    "upgrade",
+    "base app",
+    "localization",
+    "field removal"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Job Queue Entry"
+    },
+    {
+      "type": "table",
+      "name": "Job Queue Log Entry"
+    },
+    {
+      "type": "table",
+      "name": "Isolated Certificate"
+    },
+    {
+      "type": "table",
+      "name": "Notification Entry"
+    },
+    {
+      "type": "table",
+      "name": "Notification Setup"
+    },
+    {
+      "type": "table",
+      "name": "Power BI Report Configuration"
+    },
+    {
+      "type": "table",
+      "name": "Power BI Report Buffer"
+    },
+    {
+      "type": "table",
+      "name": "Power BI Report Uploads"
+    },
+    {
+      "type": "table",
+      "name": "User Security Status"
+    },
+    {
+      "type": "table",
+      "name": "Email Item"
+    },
+    {
+      "type": "table",
+      "name": "XML Buffer"
+    },
+    {
+      "type": "table",
+      "name": "Experience Tier Setup"
+    },
+    {
+      "type": "table",
+      "name": "Application Area Setup"
+    },
+    {
+      "type": "table",
+      "name": "Image Analysis Setup"
+    },
+    {
+      "type": "table",
+      "name": "Service Shipment Line"
+    },
+    {
+      "type": "table",
+      "name": "Service Invoice Line"
+    },
+    {
+      "type": "table",
+      "name": "Service Cr.Memo Line"
+    },
+    {
+      "type": "table",
+      "name": "Service Line"
+    },
+    {
+      "type": "table",
+      "name": "Sales & Receivables Setup"
+    },
+    {
+      "type": "table",
+      "name": "Sales Shipment Line"
+    },
+    {
+      "type": "table",
+      "name": "Sales Invoice Line"
+    },
+    {
+      "type": "table",
+      "name": "Sales Invoice Header"
+    },
+    {
+      "type": "table",
+      "name": "Sales Cr.Memo Line"
+    },
+    {
+      "type": "table",
+      "name": "Sales Cr.Memo Header"
+    },
+    {
+      "type": "table",
+      "name": "Return Receipt Line"
+    },
+    {
+      "type": "table",
+      "name": "Sales Line"
+    },
+    {
+      "type": "table",
+      "name": "Sales Header"
+    },
+    {
+      "type": "table",
+      "name": "Customer"
+    },
+    {
+      "type": "table",
+      "name": "Sales Line Archive"
+    },
+    {
+      "type": "table",
+      "name": "Sales Header Archive"
+    },
+    {
+      "type": "table",
+      "name": "Vendor"
+    },
+    {
+      "type": "table",
+      "name": "Purchases & Payables Setup"
+    },
+    {
+      "type": "table",
+      "name": "Return Shipment Line"
+    },
+    {
+      "type": "table",
+      "name": "Purch. Rcpt. Line"
+    },
+    {
+      "type": "table",
+      "name": "Purch. Inv. Line"
+    },
+    {
+      "type": "table",
+      "name": "Purch. Inv. Header"
+    },
+    {
+      "type": "table",
+      "name": "Purch. Cr. Memo Line"
+    },
+    {
+      "type": "table",
+      "name": "Purchase Line"
+    },
+    {
+      "type": "table",
+      "name": "Purchase Header"
+    },
+    {
+      "type": "table",
+      "name": "Purchase Line Archive"
+    },
+    {
+      "type": "table",
+      "name": "Time Sheet Detail"
+    },
+    {
+      "type": "table",
+      "name": "Resource"
+    },
+    {
+      "type": "table",
+      "name": "Job"
+    },
+    {
+      "type": "table",
+      "name": "Booking Sync"
+    },
+    {
+      "type": "table",
+      "name": "O365 Device Setup Instructions"
+    },
+    {
+      "type": "table",
+      "name": "Transfer Shipment Line"
+    },
+    {
+      "type": "table",
+      "name": "Transfer Receipt Line"
+    },
+    {
+      "type": "table",
+      "name": "Transfer Line"
+    },
+    {
+      "type": "table",
+      "name": "Inventory Setup"
+    },
+    {
+      "type": "table",
+      "name": "Requisition Line"
+    },
+    {
+      "type": "table",
+      "name": "Item Ledger Entry"
+    },
+    {
+      "type": "table",
+      "name": "Standard Item Journal Line"
+    },
+    {
+      "type": "table",
+      "name": "Item Journal Line"
+    },
+    {
+      "type": "table",
+      "name": "Item Category"
+    },
+    {
+      "type": "table",
+      "name": "Item"
+    },
+    {
+      "type": "table",
+      "name": "Nonstock Item"
+    },
+    {
+      "type": "table",
+      "name": "Item Reference"
+    },
+    {
+      "type": "table",
+      "name": "Intrastat Setup"
+    },
+    {
+      "type": "table",
+      "name": "Graph Mail Setup"
+    },
+    {
+      "type": "table",
+      "name": "Sales Quote Entity Buffer"
+    },
+    {
+      "type": "table",
+      "name": "Sales Invoice Entity Aggregate"
+    },
+    {
+      "type": "table",
+      "name": "CRM Integration Record"
+    },
+    {
+      "type": "table",
+      "name": "CRM Synch. Conflict Buffer"
+    },
+    {
+      "type": "table",
+      "name": "CRM Salesorder"
+    },
+    {
+      "type": "table",
+      "name": "CRM Quote"
+    },
+    {
+      "type": "table",
+      "name": "CRM Invoice"
+    },
+    {
+      "type": "table",
+      "name": "CRM Customeraddress"
+    },
+    {
+      "type": "table",
+      "name": "CRM Contact"
+    },
+    {
+      "type": "table",
+      "name": "CRM Connection Setup"
+    },
+    {
+      "type": "table",
+      "name": "CRM Account"
+    },
+    {
+      "type": "table",
+      "name": "Employee"
+    },
+    {
+      "type": "table",
+      "name": "Unit of Measure"
+    },
+    {
+      "type": "table",
+      "name": "Shipment Method"
+    },
+    {
+      "type": "table",
+      "name": "Payment Terms"
+    },
+    {
+      "type": "table",
+      "name": "Company Information"
+    },
+    {
+      "type": "table",
+      "name": "Country/Region"
+    },
+    {
+      "type": "table",
+      "name": "Fixed Asset"
+    },
+    {
+      "type": "table",
+      "name": "VAT Product Posting Group"
+    },
+    {
+      "type": "table",
+      "name": "VAT Business Posting Group"
+    },
+    {
+      "type": "table",
+      "name": "VAT Statement Report Line"
+    },
+    {
+      "type": "table",
+      "name": "VAT Report Setup"
+    },
+    {
+      "type": "table",
+      "name": "VAT Report Header"
+    },
+    {
+      "type": "table",
+      "name": "VAT Clause"
+    },
+    {
+      "type": "table",
+      "name": "Tax Group"
+    },
+    {
+      "type": "table",
+      "name": "Tax Area"
+    },
+    {
+      "type": "table",
+      "name": "General Ledger Setup"
+    },
+    {
+      "type": "table",
+      "name": "Gen. Journal Line"
+    },
+    {
+      "type": "table",
+      "name": "Gen. Journal Batch"
+    },
+    {
+      "type": "table",
+      "name": "My Account"
+    },
+    {
+      "type": "table",
+      "name": "G/L Account"
+    },
+    {
+      "type": "table",
+      "name": "Dimension"
+    },
+    {
+      "type": "table",
+      "name": "Currency"
+    },
+    {
+      "type": "table",
+      "name": "Incoming Document Attachment"
+    },
+    {
+      "type": "table",
+      "name": "Incoming Document"
+    },
+    {
+      "type": "table",
+      "name": "Marketing Setup"
+    },
+    {
+      "type": "table",
+      "name": "Contact"
+    },
+    {
+      "type": "table",
+      "name": "Cash Flow Setup"
+    },
+    {
+      "type": "table",
+      "name": "Payment Method"
+    },
+    {
+      "type": "table",
+      "name": "Bank Account Posting Group"
+    },
+    {
+      "type": "table",
+      "name": "Bank Account"
+    },
+    {
+      "type": "table",
+      "name": "Dimension Value"
+    },
+    {
+      "type": "table",
+      "name": "Exchange Object"
+    },
+    {
+      "type": "table",
+      "name": "G/L Entry"
+    },
+    {
+      "type": "table",
+      "name": "Customer Template"
+    }
+  ],
+  "features": [
+    "table deletion",
+    "field deletion",
+    "Obsolete::Removed state",
+    "database optimization",
+    "unified base applications",
+    "version 25.0",
+    "W1 base app",
+    "localized apps",
+    "upgrade preparation",
+    "deleted tables",
+    "deleted fields",
+    "deleted table extensions"
+  ],
+  "versions": [
+    "2025 release wave 1",
+    "v26",
+    "25.0"
+  ],
+  "parts": 3,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004493,
+      "pages_in_call": 3
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.091412,
+      "pages_in_call": 1
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.011392,
+      "pages_in_call": 6
+    }
+  ]
+}

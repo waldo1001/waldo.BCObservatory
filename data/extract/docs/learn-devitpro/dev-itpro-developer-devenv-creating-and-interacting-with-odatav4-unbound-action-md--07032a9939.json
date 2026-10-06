@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-creating-and-interacting-with-odatav4-unbound-action.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-creating-and-interacting-with-odatav4-unbound-action",
+  "title": "Creating and interacting with an OData V4 unbound action",
+  "blob": "70c6fe7b343cd4618a1d315980b98178f94de808",
+  "summary": "Guide for creating OData V4 unbound actions in Business Central, enabling reusable operations callable via OData requests without binding to a specific entity.",
+  "systems": [
+    "integration",
+    "development"
+  ],
+  "topics": [
+    "odata",
+    "web services",
+    "unbound actions",
+    "soap migration",
+    "rest api"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "MiscOperations"
+    }
+  ],
+  "features": [
+    "unbound actions",
+    "OData V4",
+    "web service registration",
+    "procedure exposure",
+    "JSON parameter handling"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.011392,
+      "pages_in_call": 6
+    }
+  ]
+}

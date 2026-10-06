@@ -1,0 +1,52 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-read-isolation.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-read-isolation",
+  "title": "Record instance isolation level",
+  "blob": "28d3e8f1232128b38df6e84b878208a4c2fa38ee",
+  "summary": "Record instance isolation level controls database transaction isolation on individual record instances to improve performance by limiting locks to only what is necessary while preventing concurrent data integrity issues.",
+  "systems": [
+    "platform",
+    "development"
+  ],
+  "topics": [
+    "database locking",
+    "transaction isolation",
+    "performance",
+    "record instance",
+    "readisolation method"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "ReadIsolation method"
+    },
+    {
+      "type": "other",
+      "name": "LockTable method"
+    },
+    {
+      "type": "other",
+      "name": "IsolationLevel option type"
+    }
+  ],
+  "features": [
+    "ReadIsolation",
+    "IsolationLevel::Default",
+    "IsolationLevel::ReadUncommitted",
+    "IsolationLevel::ReadCommitted",
+    "IsolationLevel::RepeatableRead",
+    "IsolationLevel::UpdLock",
+    "record instance isolation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004493,
+      "pages_in_call": 3
+    }
+  ]
+}

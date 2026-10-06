@@ -1,0 +1,88 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/upgrade/deprecated-features-na-bank-rec.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-na-bank-rec",
+  "title": "Deprecated bank reconciliation and deposits features in the North American version",
+  "blob": "b97f0788e686207379639027de3a02cfccde4218",
+  "summary": "Deprecated bank reconciliation and deposits features in the North American version describes the removal of NA bank reconciliation worksheet and deposits features in 2023 release wave 2, with migration path to standard reconciliations.",
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "bank reconciliation",
+    "deposits",
+    "deprecated features",
+    "north america",
+    "migration"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Bank Rec. Worksheet"
+    },
+    {
+      "type": "report",
+      "name": "Bank Rec. Test Report"
+    },
+    {
+      "type": "report",
+      "name": "Bank Rec. Process Lines"
+    },
+    {
+      "type": "page",
+      "name": "Deposit"
+    },
+    {
+      "type": "page",
+      "name": "Deposit List"
+    },
+    {
+      "type": "page",
+      "name": "Deposits"
+    },
+    {
+      "type": "page",
+      "name": "Deposit Subform"
+    },
+    {
+      "type": "table",
+      "name": "Deposit Header"
+    },
+    {
+      "type": "codeunit",
+      "name": "Deposit-Post"
+    },
+    {
+      "type": "codeunit",
+      "name": "Deposit-Post + Print"
+    },
+    {
+      "type": "codeunit",
+      "name": "Deposit-Post (Yes/No)"
+    },
+    {
+      "type": "report",
+      "name": "Deposit Test Report"
+    }
+  ],
+  "features": [
+    "bank reconciliation worksheet",
+    "deposits",
+    "bank ledger entries",
+    "bank deposits",
+    "posted reconciliations"
+  ],
+  "versions": [
+    "2023 release wave 2"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003843,
+      "pages_in_call": 8
+    }
+  ]
+}

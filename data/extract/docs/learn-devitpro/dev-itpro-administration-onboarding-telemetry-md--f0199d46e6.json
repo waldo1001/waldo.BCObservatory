@@ -1,0 +1,68 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/onboarding-telemetry.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/onboarding-telemetry",
+  "title": "Measure onboarding progress using telemetry",
+  "blob": "0a86d8b8998992387b8f7824ae45dfeb5baff0ce",
+  "summary": "Measure onboarding progress using telemetry describes automatic signals emitted when companies complete onboarding milestones like sales and purchases, with criteria based on posted documents and methods to extend signals.",
+  "systems": [
+    "administration",
+    "reporting",
+    "sales"
+  ],
+  "topics": [
+    "telemetry",
+    "onboarding signals",
+    "metrics",
+    "progress tracking",
+    "business processes"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Sales Invoice Header"
+    },
+    {
+      "type": "table",
+      "name": "Purch. Inv. Header"
+    },
+    {
+      "type": "table",
+      "name": "Cust. Ledger Entry"
+    },
+    {
+      "type": "table",
+      "name": "Vendor Ledger Entry"
+    },
+    {
+      "type": "enum",
+      "name": "Onboarding Signal Type"
+    },
+    {
+      "type": "interface",
+      "name": "Onboarding Signal"
+    },
+    {
+      "type": "codeunit",
+      "name": "Onboarding Signal"
+    }
+  ],
+  "features": [
+    "onboarding signals",
+    "sales signal",
+    "purchase signal",
+    "payment signals",
+    "signal extension",
+    "telemetry events"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003843,
+      "pages_in_call": 8
+    }
+  ]
+}

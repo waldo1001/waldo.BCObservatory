@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-organizing-promoted-actions",
   "published_at": "2025-05-06T19:28:05.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "03b0fb04990cd2129d30f3ee99ce57e5e6698a63",
       "words": 856,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:33:05.521Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005156
+    },
+    "summarized": {
+      "at": "2026-10-06T19:33:26.421Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:33:26.422Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:33:26.423Z",
+      "page": false
     }
   },
   "input_hash": "03b0fb04990cd2129d30f3ee99ce57e5e6698a63",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "03b0fb04990cd2129d30f3ee99ce57e5e6698a63"
+  "output_hash": "9f5b9878ee6205f18f5c2f25560345979544e7b0b1631d8eaa987cf656614cc4"
 }

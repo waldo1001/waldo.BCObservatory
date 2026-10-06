@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-onafterdocumentready-event.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-onafterdocumentready-event",
+  "title": "OnAfterDocumentReady Event",
+  "blob": "d64d1641e452822f85aabc5fb581e5f2e1242d0d",
+  "summary": "OnAfterDocumentReady event enables document patching scenarios and allows modification of generated report artifacts before they are persisted or printed by subscribing to the ReportManagement codeunit.",
+  "systems": [
+    "reporting",
+    "development"
+  ],
+  "topics": [
+    "report event",
+    "document patching",
+    "report artifacts",
+    "stream handling"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "ReportManagement"
+    }
+  ],
+  "features": [
+    "OnAfterDocumentReady event",
+    "report payload",
+    "document stream modification",
+    "SaveAs method",
+    "SendTo actions",
+    "print capability"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004493,
+      "pages_in_call": 3
+    }
+  ]
+}

@@ -1,0 +1,473 @@
+{
+  "video_id": "snVsG69X-kw",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 8.8,
+      "end": 28.9,
+      "text": "welcome to the third episode of under the hood so in back in April 2018 we released the first version of business Central in the cloud that was the first time we had business Central as a true SAS offering as true SAS service and uh since then we often got the question how many"
+    },
+    {
+      "t": 28.9,
+      "end": 49,
+      "text": "users can business Central handle in the cloud so today in this episode we are going to answer that question and to help him with that have Christian with me hi Christian hello so Christian you know a little bit about Cloud Technologies right yes I would say so yeah so you've been working with the with these"
+    },
+    {
+      "t": 49,
+      "end": 69.3,
+      "text": "business Central and and the whole Cloud thing since the very beginning right since day one of when window Sasha was still a new thing and we thought that would be an interesting technology yeah I was part of that Journey so very early you y you more than 10 years ago yeah you started experimenting with with Asia technology so it's fair to say you an expert"
+    },
+    {
+      "t": 69.3,
+      "end": 89.4,
+      "text": "in in in Cloud Technologies right maybe yes yeah so today we are going to go really under the hood you're going to see some things that you don't normally see with business Central because um some of the Machinery that is in the cloud is not publicly documented but we are going to talk a little bit about it with Christian today so let's start with topology"
+    },
+    {
+      "t": 89.4,
+      "end": 109.5,
+      "text": "let's start with so how how is that different from for example on Prim yeah so on Prim you would maybe typically have uh the NST installed on one machine a physical machine and the database maybe on a separate machine or maybe on the same machine uh in a simple setup like this and they would be very close to each other and you would manage everything"
+    },
+    {
+      "t": 109.5,
+      "end": 129.5,
+      "text": "in the cloud we do uh things differently first of all we Microsoft host everything and we have uh we use a Technologies so as you can see in this picture I've Illustrated cre a very simp simplistic picture of our topology in the cloud so that's how it looks like in the cloud that's how it looks like very very simplified so but enough to explain what we're going to"
+    },
+    {
+      "t": 129.5,
+      "end": 149.7,
+      "text": "talk about okay so we have a VM cluster technically it's a virtual machine scale set that has a number of VMS and all our VMS are configured in the same way they run the web server and they run the NST and we typically have uh well we have from five VMS and up in such a cluster"
+    },
+    {
+      "t": 149.7,
+      "end": 169.7,
+      "text": "and then you have users logging into to the in the browser and you have systems that call our apis and when they call we have a low balance that we implemented that understands business Central and sessions and all and and things like that and it decides which VM should handle the request and it forwards the request to the right VM so"
+    },
+    {
+      "t": 169.7,
+      "end": 189.9,
+      "text": "it's not always the same NST so to speak that that the the that handles the request no so two sessions can be for the same customer for the same environment can be handled by two different BMS when you are when you have a UI session that is you know that lives for minutes or hours or more uh it will stay on the same"
+    },
+    {
+      "t": 189.9,
+      "end": 209.9,
+      "text": "VM though because we don't move an existing session from one VM to another so what happen what happened when um there are many users on on on the cluster like this like doing things at the same time yes so we have those VMS that we have uh let's say we have five VMS and uh as more and more users log into the system or"
+    },
+    {
+      "t": 209.9,
+      "end": 230.3,
+      "text": "maybe we have uh job cues running or apis being called uh over time uh the load will increase on the virtual machine like say in the morning people come in the Lo load is very low but over time the load increases um so at some point uh we we say"
+    },
+    {
+      "t": 230.3,
+      "end": 250.6,
+      "text": "you know this is too much for a given VM we we are not comfortable with sending more traffic to the VM so I can illustrate what happens so our uh Lo balancer continuously keeps an eye on these VM so it looks at the CPU load for example it looks at memory it looks at other things too but I'm just using CPU here for illustration purposes"
+    },
+    {
+      "t": 250.6,
+      "end": 270.8,
+      "text": "so it will it will always know what the CPU load is on each VM and then we say we have set a threshold at 60% and if VM goes above 60% CPU load we say it's it's getting starting to become overloaded even though 60% is far away from 100% why did we choose 60% there's no rule for this it's"
+    },
+    {
+      "t": 270.8,
+      "end": 291,
+      "text": "uh based on experience uh it's low enough that we have a good reaction time it's far away from 100% but we also want to of course utilize the VMS so we don't want to set it too low either so it's like the compromise we still have 40% available still have a lot of of capacity left at this point okay"
+    },
+    {
+      "t": 291,
+      "end": 311,
+      "text": "but when this happens what our low balance I will say is let's give that VM a break and not send new sessions to it so the existing as as I explained before existing sessions we don't move them they keep running but any new session will go to let's say vm1 or vm3 and and thereby we give vm2 a"
+    },
+    {
+      "t": 311,
+      "end": 331,
+      "text": "break and and as the load as the sessions on this VM start to finish what they were doing the load we should expect the load to drop on the VM below 60% again okay so so what happens if um if all VMS get busy like if there's really a lot of activi everybody's working you know"
+    },
+    {
+      "t": 331,
+      "end": 351.2,
+      "text": "hard doing a lot of sales order or something and all VMS get above 60% what what what happens then yeah it's it happens all the time I just if that happens uh we add more VMS as simple as that okay so we have as many we have like practically infinite number of VMS the asure cloud right it is and a normal VM cluster we always"
+    },
+    {
+      "t": 351.2,
+      "end": 371.8,
+      "text": "have at least five VMS but it's very normal that we have 10 or 20 or 30 or 40 VMS in a cluster so yeah it can scale as needed and what happens when then when everybody goes home afterwards and then with all this VM they do nothing yes so we have so we might scale out aggressively at more more VMS very aggressively"
+    },
+    {
+      "t": 371.8,
+      "end": 392.1,
+      "text": "we also scale in again uh we do that you know very slowly so so but we will slow slowly remove VMS again so we add more you add VMS faster then we remove them yes so we want to see H we have had a very low load on the cluster as a whole for a long time it's now safe to remove a VM so we do that"
+    },
+    {
+      "t": 392.1,
+      "end": 412.2,
+      "text": "okay okay so I have some illustrations to to show you how how this works in sort of in real life to give you a feel for for how it really works so these are real life um data these are actual clusters yes this these are actual clusters so here we have a cluster with uh nine VM so each VM is represented by a color and this"
+    },
+    {
+      "t": 412.2,
+      "end": 432.3,
+      "text": "is a cluster in the US and the time was uh 5:35 UTC time so it means it was very late evening in the US close to midnight and as we can expect there's not a lot uh happening that at time of day in the US so the VMS are not doing much the turquaz one is doing a bit of work"
+    },
+    {
+      "t": 432.3,
+      "end": 452.4,
+      "text": "but the others are not doing almost anything but it's still about 20% or something so it's not very it's not a lot of no work no they they're not doing much and so if we go one minute uh ahead we can see that all of a sudden something's happening something's happening the blue VM and the orange VM start to do a lot of work we we cannot say what"
+    },
+    {
+      "t": 452.4,
+      "end": 472.4,
+      "text": "type of work it is from this picture it can be job cues it can be users logging in in the evening also be B API calls maybe they have some integration that runs yeah maybe they copy some data in the badge thing or something could be yeah but still we are at what 50% load on those two VMS if we go one minute uh further ahead we can see the load continues to"
+    },
+    {
+      "t": 472.4,
+      "end": 492.5,
+      "text": "rise but still below the 60% still fine one minute later we can see that the blue VM crossed line and as I explained before at this point the low balancer will say no more new sessions on this uh VM is the instead it will create new VMS on another VM and it looks like it picked the the purple"
+    },
+    {
+      "t": 492.5,
+      "end": 512.6,
+      "text": "VM in this case so does it have to be over 60 for like one second or two second it's just which one like for a millisecond are we going to add a VM no uh no we're not going to add VMS as that aggressively for for deciding to use another VM yes it's immediate if we see it's above 60% we will start to use another"
+    },
+    {
+      "t": 512.6,
+      "end": 532.8,
+      "text": "one we have we want to react very quickly to this so if we go 1 minute further ahead we can see as expected the blue one starts to drop again because uh it finished the work that it was doing and we didn't send new work to it so it starts to to go down again yeah but we can also see the orange one and the purple one they"
+    },
+    {
+      "t": 532.8,
+      "end": 553,
+      "text": "got cross the line now and the low balance already reacted and sent traffic now to the I think I think dark blue and dark green VMS here and so they are starting to do some of the work and uh and so it goes the next minute they they all dropped and maybe this was it I don't know what happens after this but maybe that was just a"
+    },
+    {
+      "t": 553,
+      "end": 573.1,
+      "text": "five minute burst of activity in the US uh in the evening but it doesn't matter we don't need to know we don't need to know yeah so this is how it works so it kind of it might hover above 60% for a little while see goes maybe to 66% at its worst here and that's fine still plenty to go until we reach 100"
+    },
+    {
+      "t": 573.1,
+      "end": 593.4,
+      "text": "and uh yeah that's how it works and I also have an illustration about um how we scale out yeah just to give you a feel for how that works yeah let's see that so here we have another cluster this one has 24 VMS so this in Sweden this in Sweden yes and we can see the time is 808 in the morning UTC time so that would be 9:00 a.m."
+    },
+    {
+      "t": 593.4,
+      "end": 613.8,
+      "text": "approximately in Sweden and if we go one minute forward we can see all of a sudden I like some coordinated action in Sweden I don't know they all start they people come to work they have that their coffee and now they probably start working right yes that's the time they come to work in Sweden apparently um and they start to do some work and we can see some VMS have crossed the line above"
+    },
+    {
+      "t": 613.8,
+      "end": 634.2,
+      "text": "60% and and if we move minutes ahead ahead we can see yeah it's getting you know it's getting all the VMS are getting pretty close to 60% some are above and some are not uh but you know this the model works the same way so we can see see that it hovers around 60% when a VM goes above uh"
+    },
+    {
+      "t": 634.2,
+      "end": 654.3,
+      "text": "it the low balancer redirect some traffic to other VM so therefore they will all start to hover around 60% but but what what we can see here is we are getting close to the point where we not we're not we need to add more VMS basically because if they are all above 60% it's it's too much and we need to have more VMS"
+    },
+    {
+      "t": 654.3,
+      "end": 674.7,
+      "text": "and this happens we have an algorithm and we're tuning that all the time but in this case we can see in our Telemetry that at 812 it uh it said enough is enough we need to have more VMS okay so we all all all the time looking at the algorithm and we started with one model and we fine tuning in all the time to make to provide the best experience"
+    },
+    {
+      "t": 674.7,
+      "end": 694.7,
+      "text": "for customers right yes exactly so at a12 we say we need three more VMS again the algorithm which we change from time to time it in this case it would say three more VMS is the right number so it requests from Asia to have three more VMS how long time did that take yeah we can see in"
+    },
+    {
+      "t": 694.7,
+      "end": 714.7,
+      "text": "this case it took 10 minutes and then 11 minutes before we got the last two VM so okay after 11 minutes we have three VMS that are ready now it's it's okay yeah it's enough because we still have in a whole cluster with 24 VMS we still have 40% buffer yeah above the 60% that they so just to be"
+    },
+    {
+      "t": 714.7,
+      "end": 735.2,
+      "text": "clear it's not like people are waiting 10 minutes for the work to be done they still have VMS uh they are they're a bit busy uh so they continue working as they don't see anything in in in this case there were there were no Pro problems at all because each VM still had a 40% buffer so as we know from our from our own laptops"
+    },
+    {
+      "t": 735.2,
+      "end": 755.2,
+      "text": "you know that's fine it's fine no problem right and yeah because we have this big buffer it's also plenty of time to to create new VM so we can handle a sudden burst in in traffic even even if they are pretty loaded we can handle a burst okay so what you're saying basically is that in in terms of VMS and compute there's"
+    },
+    {
+      "t": 755.2,
+      "end": 775.2,
+      "text": "there's no problem we always have capacity yeah I would say uh we we are pretty mature in this area and uh yeah capacity is rarely the source of a performance problem so how about database how about the database can that be also a bottle leg for performance absolutely it means pretty much the same picture and I have an illustration"
+    },
+    {
+      "t": 775.2,
+      "end": 795.9,
+      "text": "of that too so we monitor our our databases as well mhm and we monitor CPU load IO Data IO log IO and other things and if we see that it gets above a certain threshold we say that database needs more capacity and then we give it more capacity we also have an algorithm there for yes"
+    },
+    {
+      "t": 795.9,
+      "end": 816,
+      "text": "that that monitor certain matrics to scale the database as well and I have an example here of a database where uh you can see that you know the database was not doing anything uh until suddenly it started to do something so so maybe they had some kind of a bad job so that's also real world this is real world yeah um and they you know they run and"
+    },
+    {
+      "t": 816,
+      "end": 836.4,
+      "text": "then they pause for a minute or two and then they run again and it goes to 85% perhaps CPU so again it's not like it's a it's it's suffering right it has necessary capacity but we're not comfortable with this situation so we decide at some point to to add more capacity to this"
+    },
+    {
+      "t": 836.4,
+      "end": 856.7,
+      "text": "to this database so after 30 minutes we see this is enough is enough we want to add more capacity and so we do and uh and the pattern from this for this database seems to some continue in some form you can see they do some more rounds of this pattern yeah two more rounds or something like that"
+    },
+    {
+      "t": 856.7,
+      "end": 876.9,
+      "text": "I'm not sure it's the same thing that's happening but but it looks like it's it's the same could be the same because the the CPU load dropped to approximately half of what it was before and and we doubl the capacity of the database continuing doing some some work on this database it adds up yeah so um so you're saying there's no capacity"
+    },
+    {
+      "t": 876.9,
+      "end": 897,
+      "text": "problem with the compute and is we also because we can scale and uh we can also scale the database if there's a lot of activity so how come we hear reports every now and then that uh our customers they have you know they think they experience BC as being slow so how how come if if we don't have you're saying we don't you know we have this practically"
+    },
+    {
+      "t": 897,
+      "end": 917.7,
+      "text": "infinite amount of resources in the cloud so how come users are experiencing sometime slow performance yeah the so the source of a performance problem can be uh a million things okay but uh we have some uh things we see all the time that are sources of these problems and it has typically has to do with Al code and the way"
+    },
+    {
+      "t": 917.7,
+      "end": 937.9,
+      "text": "it uses the database okay because many many problems are because of database uh Pro you know queries so mostly database yeah mostly code exactly okay yeah and I have an illustration to to show you uh the typical problems we see okay so here we have again the VM clusters that run the AL"
+    },
+    {
+      "t": 937.9,
+      "end": 958.3,
+      "text": "code and we have a database um and the three categories are the first one is logging database logging which we are all familiar with so one session takes a lock on a record for example and another session another user wants to take the same lock but they can't so they have to wait and and while they are waiting you know the UI"
+    },
+    {
+      "t": 958.3,
+      "end": 978.7,
+      "text": "uh is slow uh so that's one source of problems people stepping on each other's toes so to speak but that's not a cloud problem is it no no that's uh just just how databases work also something we we we know from the from the on Prem world yes exactly the other category is long running queries so this typically happens when you have a lot of data like you have a table with"
+    },
+    {
+      "t": 978.7,
+      "end": 999.1,
+      "text": "many millions of rows and then maybe you do a search uh and you're missing an index typically so you have to read all the rows or the database has to read all the rows mhm and that can be slow okay and the last category is uh many short queries so for example if you iterate over you have maybe thousands of sales"
+    },
+    {
+      "t": 999.1,
+      "end": 1019.1,
+      "text": "orders or sales lines and somehow in your code you have an iteration over these and for every iteration you make a database yeah so even if the database each database call is just one millisecond if you have thousands of them it adds up to to multiple seconds right and so you can Fe it in the UI so"
+    },
+    {
+      "t": 1019.1,
+      "end": 1039.4,
+      "text": "those are the three sources of performance problems we see most often so are they are the patterns which are actually worse in the cloud than on Prem uh yeah so you can see all these patterns uh on Prem as well but uh this the the third category many short queries"
+    },
+    {
+      "t": 1039.4,
+      "end": 1059.4,
+      "text": "I would say it's probably typically worse in the cloud and that is because as I explained in the beginning on Prem the database and the NST are practically to yes so the latency there is zero M but in the cloud with buildings Data Center buildings far apart there can be a latency typically less than a"
+    },
+    {
+      "t": 1059.4,
+      "end": 1079.5,
+      "text": "millisecond but it's there yeah times a million it's becomes significant so something you wouldn't be seeing in the in the collocated environment on Prem becomes actually a problem in the cloud it can it can happen yes so yeah so the recommendation is to to to try to avoid that which will also help of course on Prem so"
+    },
+    {
+      "t": 1079.5,
+      "end": 1099.8,
+      "text": "it's just a good thing to not do unnecessary to do that on Prem as well too so what what um so how can um how can I troubleshoot these this performance how can our our developers troubleshoot these issues this performance issues so over over time we've build up a number of tools and and I want to highlight four tools today"
+    },
+    {
+      "t": 1099.8,
+      "end": 1120.2,
+      "text": "and the first tool is the incline performance profiler which is my go-to tool for these kinds of things um then we have two pages in The in the product that you can just open the database locks page and the database missing indexes page and finally have we have Telemetry with application insights where you can also troubleshoot some"
+    },
+    {
+      "t": 1120.2,
+      "end": 1139.3,
+      "text": "performance problems okay we'll put some links in the in in the comments to for the documentation of of these of these tools so yeah yeah yeah so um so let's start with the uh in in client performance profile tell us a little more about it this is this is a tool which is"
+    },
+    {
+      "t": 1139.3,
+      "end": 1152.8,
+      "text": "um in in the product yep it's in the product anybody any user can can open it you don't need to install anything it's it's just there it's one of the nice things about it it's it's always there uh so yeah no no preparation no"
+    },
+    {
+      "t": 1152.8,
+      "end": 1173.3,
+      "text": "installation let's look at it so this is how it looks I in the lower left hand corner I've Illustrated how you open it you go to the help and support page and then analyze performance and then it opens up and uh it's very simple to use so you click Start then you uh repeat the slow scenario"
+    },
+    {
+      "t": 1173.3,
+      "end": 1193.4,
+      "text": "in this case I tried to post the sales order it took almost six seconds which is pretty slow so you turn it on you turn the profile on and you run your scenario that that you You observe is slow and then you press stop okay and then it gives you the result and in this case it said it took 6 seconds and it shows also immediately that it's the base application"
+    },
+    {
+      "t": 1193.4,
+      "end": 1213.7,
+      "text": "that is using all the time and a few other extensions are also using a bit of the time and if you want more details you can toggle this toggle below and uh you can see for example which method was using a lot you get a Tre view for example of the call Stacks in your code"
+    },
+    {
+      "t": 1213.7,
+      "end": 1234,
+      "text": "in your Al code and you can see where the time was spent pinpoint the exact method where so if I have if I let's say I have so in your example it's the B app right but if let's say I have a um a bunch of extensions installed on my system and then I will be able to to see which extension is giving problem performance"
+    },
+    {
+      "t": 1234,
+      "end": 1254.6,
+      "text": "would the first graph here immediately you will see let's say you installed an appsource app and it has some bad Al code you will immediately be able to see this from this picture so pretty powerful tool M right I think so um so you mentioned also um database lock yes"
+    },
+    {
+      "t": 1254.6,
+      "end": 1274.7,
+      "text": "yes so if you if you have a if you think you have a database a problem with locks in the database we have this page in the in the product database locks page again you can just go and open it product it's just there yeah in this case we don't have any locks in the system but if you have locks it might look something like this so"
+    },
+    {
+      "t": 1274.7,
+      "end": 1294.7,
+      "text": "how it works is when we open it up we ask SQL uh what locks are currently being held in this database and who is waiting to get a lock right now and if you press F5 it's going to ask SQL again and say now the it looks like this so you get a point time view on locks and"
+    },
+    {
+      "t": 1294.7,
+      "end": 1314.9,
+      "text": "waiting for locks in the database so in this case we can see n wil has been granted a lock on a key of the mixer table and he was on the mixer list page uh and it was the onaction trigger that did it for example right this is a an example right and you can see that deah is currently waiting for lock"
+    },
+    {
+      "t": 1314.9,
+      "end": 1335.2,
+      "text": "so she's probably not happy right now because she's waiting to get a lck so now you already know more about why has to wait so you wear in the col in that case the trigger you can go in the trigger and try to uh to optimize the the Cod take the lock hold the lock for shorter or maybe avoid it all together"
+    },
+    {
+      "t": 1335.2,
+      "end": 1355.4,
+      "text": "okay okay so um so that that's was about the Locking and um around the database there was also something about indexes and missing indexes so we have the database missing indexes page and here I don't have a good example I only have this example where it's one of our tables system tables that was missing"
+    },
+    {
+      "t": 1355.4,
+      "end": 1375.8,
+      "text": "in index which we didn't add it so you will not see that again um so the way this works is when you run a database in Asia Asia SQL will monitor your database and it will do this thought experiments where it will say what if I add this index what would that do to Performance how often is"
+    },
+    {
+      "t": 1375.8,
+      "end": 1395.8,
+      "text": "how many queries would it help how much faster would they execute the positives but also how expensive will it be to maintain this index because it it is not for free to have an index it has to be it's one more thing to maintain for the database and that's something that SQL does by itself in the background you don't have to do anything you don't have to turn it on or anything"
+    },
+    {
+      "t": 1395.8,
+      "end": 1409,
+      "text": "something that SQL it's a SQL of it's a feature of SQL right it is a feature of SQL it just does it in in the background and what we can do similar to the database logs is we can query into SQL and say what recommendations"
+    },
+    {
+      "t": 1409,
+      "end": 1429.2,
+      "text": "in terms of indexes do you have and that's is what you can see in this in this view so the reason I I don't have a good example is because you need to actually run for some days and have a problem for it to to to make that conclusion and say I recommend this so as a partner if you if you have a customer database"
+    },
+    {
+      "t": 1429.2,
+      "end": 1449.5,
+      "text": "I encourage you to go and look and maybe you will see some real uh recommendations yeah and when you actually add that index it usually makes a a big difference it can it can make in the world yeah all right and then uh so that was that was about the database and finally you also mention application insights application insights"
+    },
+    {
+      "t": 1449.5,
+      "end": 1469.9,
+      "text": "yes so this is uh yeah something I recommend all fers to do is enable application insights on the environments which they can do in in the business Central admin Center um you learn a lot about what's going what's going on in the service because as we run whenever something interesting happens we emit an event to your application insights"
+    },
+    {
+      "t": 1469.9,
+      "end": 1490,
+      "text": "application insights is a is a Microsoft product which is um not only for BC but a lot of other products are using it right you can use it for practically anything yeah it's it's a very uh popular yeah uh and a service also MH um and so here we have an example where we can see that we get"
+    },
+    {
+      "t": 1490,
+      "end": 1510.3,
+      "text": "an event that a SQL statement was executed we can see that it took 4 milliseconds which is not super fast also very slow uh and a note here um normally we would not emit these events when a SQL query takes less than 750 milliseconds because"
+    },
+    {
+      "t": 1510.3,
+      "end": 1530.3,
+      "text": "if we did we would just overflow the application insides because this happens many times so how do I by the way how do I enable application inside how do I turn it up yeah so that's that's that's what I have Illustrated in the lower left corner you can do that in a UI session today that's a trick you go and enable additional logging and for for the"
+    },
+    {
+      "t": 1530.3,
+      "end": 1550.6,
+      "text": "duration of this session it will emit all SQL statements to your avigation ins so you will see a lot of of events in your appication insights but now you can query it so if you have a suspicion that you are doing many calls and you're not quite sure what they are you can enable this and you can see if this is really the case and you can"
+    },
+    {
+      "t": 1550.6,
+      "end": 1570.8,
+      "text": "sum the durations and see yeah this is the reason it took 5 Seconds you can also see further details you can see the ex SQL statement and you can see where in the code it was executed so now you are well suited to maybe go and fix the problem so pretty much in all the the tools you you mentioned here we can trace Trace"
+    },
+    {
+      "t": 1570.8,
+      "end": 1590.9,
+      "text": "all the way back trace the problem all the way back to the code and and and see where where the problem is yeah so they these are troubleshooting tools right they pinpoint the problem they don't necessarily say how you can solve it you need to find a solution you have to use your own skills there yeah yeah so question um"
+    },
+    {
+      "t": 1590.9,
+      "end": 1611,
+      "text": "how many users can BC handle in the cloud so so we don't have a hard limit so you can have we have customers with hundreds or thousands of users um adding more users it's not really a problem because we just scale out and add more capacity except for one area which"
+    },
+    {
+      "t": 1611,
+      "end": 1631,
+      "text": "is uh locking where the more users you have yeah that work at the same time the more likely they are to step on each other's toes and uh you know one does something and the other has to wait for the first thing to finish and uh again this has a lot to do with how the AL code is written so yeah if you can rewrite it in a way"
+    },
+    {
+      "t": 1631,
+      "end": 1651.1,
+      "text": "that it does less locking then it will also unlock uh scalability in terms of more users so I guess the answer is it depends it depends it depends a lot but do you have some examples of what actually the seual can handle and we also have a a website now that you can go and look at uh yourself and I I I took a few examples from it um so"
+    },
+    {
+      "t": 1651.1,
+      "end": 1671.2,
+      "text": "the last example here is number of users as I mentioned we have customers with more than thousand of us more than thousand users many many customers with more than 100 users so not a problem some other examples and there are more in the in the article so this article is um or a"
+    },
+    {
+      "t": 1671.2,
+      "end": 1691.6,
+      "text": "scalability guide that we released recently we'll put some Link in the description so you can take a look at it and these examples are in there these examples are in there and these are examples of of real customers that did something or have something like for example the first line 5,000 sales invoices posted in one hour it's a real example"
+    },
+    {
+      "t": 1691.6,
+      "end": 1711.6,
+      "text": "from some customer I don't know we don't know who it is but we can see that a customer posted that many invoices in one hour and there are more examples here there also examples of how many API calls you can call which uh which is quite a lot I think so in most customers will will find that this is plenty"
+    },
+    {
+      "t": 1711.6,
+      "end": 1732.1,
+      "text": "and that's maybe also one of the goals with this is to give some uh confidence to to Partners that they can bring large customers like if you a partner and you have a customer that maybe makes uh needs to post a thousand sales invoices in an hour maybe you look at this number and you say that's probably not going to be a problem because we have other customers"
+    },
+    {
+      "t": 1732.1,
+      "end": 1752.2,
+      "text": "that do much more than that and so they should be comfortable to bring that customer to the cloud but but still if if I'm a partner and I have I have this this customer with many many users and I know they are going to do some um pretty intensive operation simultaneously on on BC so I'm a little bit worried about maybe"
+    },
+    {
+      "t": 1752.2,
+      "end": 1772.3,
+      "text": "a particular scenario U it could be something like I don't know time registration I know that they they have some you know load very you know High Peak High load um um periods where where there's a lot of activity on the St where is there anything I can do to get more confidence yes so if you if you are concerned uh if you are bringing a large customer"
+    },
+    {
+      "t": 1772.3,
+      "end": 1792.6,
+      "text": "and you are want to make absolutely sure that they will run fine from the day one in the cloud you can test it out so you can simulate we have a toolkit for that it's called the performance toolkit and it is assigned one of the main goals is to just to do the what if scenario what if I have a customer that does this many sales orders with this many"
+    },
+    {
+      "t": 1792.6,
+      "end": 1813,
+      "text": "users and whatever scenario they might have you can simulate it you can simulate it to say I have 10 users they do 10 sales orders per hour each uh or whatever the scenario might be and then you can run it and uh you can run it in the cloud so in our service can you run with like a thousand users if you want yeah in principle"
+    },
+    {
+      "t": 1813,
+      "end": 1833,
+      "text": "yes yes yeah um and U while it runs you can also log in yourself right it's running in an environment just like any other environment you can log in and you can see you can use the database lock space for example yeah the tools all the tools you mentioned before can you use to uh troubleshoot the system to see what locks are being held maybe you"
+    },
+    {
+      "t": 1833,
+      "end": 1853.5,
+      "text": "use that to to go and change some code uh you can see Telemetry you can also just log in yourself and see how does it feel what if I also now create a sales order and post it does it feel fast while many users are doing the same thing in the background so you you can you can boost your confidence"
+    },
+    {
+      "t": 1853.5,
+      "end": 1875,
+      "text": "for that customer by by using this performance toolkit all right thank thank you Christian welcome I hope you found this useful again we'll put some links in the description with all the tools that um that Christian talked about and also to the scalability guide thank you for watching and see you next time"
+    }
+  ],
+  "markers": [],
+  "word_count": 5943
+}

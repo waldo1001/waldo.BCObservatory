@@ -1,0 +1,59 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-extend-exchange-rates.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extend-exchange-rates",
+  "title": "Extending currency exchange rate adjustments",
+  "blob": "7f04532c7a39e36acbb34794338f828578dd5b69",
+  "summary": "Extending currency exchange rate adjustments explains new objects and capabilities for adjusting exchange rates introduced in 2023 release wave 2, allowing compliance with local regulations and business requirements.",
+  "systems": [
+    "finance",
+    "development"
+  ],
+  "topics": [
+    "exchange rates",
+    "currency adjustments",
+    "extensions",
+    "regulations",
+    "localization"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Adjust Exchange Rates"
+    },
+    {
+      "type": "report",
+      "name": "Exch. Rate Adjustment"
+    },
+    {
+      "type": "codeunit",
+      "name": "Exch. Rate. Adjmt. Process"
+    },
+    {
+      "type": "table",
+      "name": "Exch. Rate. Adjmt. Parameters"
+    },
+    {
+      "type": "table",
+      "name": "Exch. Rate. Adjmt. Ledger Entry"
+    }
+  ],
+  "features": [
+    "exchange rate adjustments",
+    "preview entries",
+    "detailed history",
+    "regional compliance"
+  ],
+  "versions": [
+    "2023 release wave 2"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003843,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-dotnet-serializing-dotnetframework-types",
   "published_at": "2025-05-06T19:27:58.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "5e17c5d4e2e8fab234168919396283056b2622dc",
       "words": 822,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:33:05.523Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005156
+    },
+    "summarized": {
+      "at": "2026-10-06T19:33:26.427Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:33:26.428Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:33:26.430Z",
+      "page": false
     }
   },
   "input_hash": "5e17c5d4e2e8fab234168919396283056b2622dc",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "5e17c5d4e2e8fab234168919396283056b2622dc"
+  "output_hash": "5f8931d681669f280041148c4f292f01e9154cf817c69b40f7e7055503f6d854"
 }

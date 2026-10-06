@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-be",
   "published_at": "2025-05-06T19:27:44.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "b3e606036c4d28b94a65e0cb7f8c6a91fd1ab027",
       "words": 163,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:33:26.414Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003843
+    },
+    "summarized": {
+      "at": "2026-10-06T19:33:28.267Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:33:28.268Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:33:28.269Z",
+      "page": false
     }
   },
   "input_hash": "b3e606036c4d28b94a65e0cb7f8c6a91fd1ab027",
@@ -39,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b3e606036c4d28b94a65e0cb7f8c6a91fd1ab027"
+  "output_hash": "ebf776c60392152544e07b3c5d6d2475413ebf8044adc983bf2f171fc7b5f205"
 }

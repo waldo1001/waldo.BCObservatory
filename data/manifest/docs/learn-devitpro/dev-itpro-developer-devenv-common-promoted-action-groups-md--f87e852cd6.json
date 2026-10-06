@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-common-promoted-action-groups",
   "published_at": "2025-05-06T19:28:05.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "d46c6c95437daad9b337b1e9763cc1459293f9ec",
       "words": 681,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:33:05.520Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005156
+    },
+    "summarized": {
+      "at": "2026-10-06T19:33:05.527Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:33:05.528Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:33:05.529Z",
+      "page": false
     }
   },
   "input_hash": "d46c6c95437daad9b337b1e9763cc1459293f9ec",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d46c6c95437daad9b337b1e9763cc1459293f9ec"
+  "output_hash": "2bdd3a52bef63a222a1d7e9cb986f4f794b59fe1c669d02f321c8b5d77a1ecd8"
 }

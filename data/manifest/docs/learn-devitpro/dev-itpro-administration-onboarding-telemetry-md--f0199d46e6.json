@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/onboarding-telemetry",
   "published_at": "2025-05-06T19:27:44.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "0a86d8b8998992387b8f7824ae45dfeb5baff0ce",
       "words": 517,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:33:26.413Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 7,
+      "cost_usd": 0.003843
+    },
+    "summarized": {
+      "at": "2026-10-06T19:33:28.252Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:33:28.252Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:33:28.253Z",
+      "page": false
     }
   },
   "input_hash": "0a86d8b8998992387b8f7824ae45dfeb5baff0ce",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "0a86d8b8998992387b8f7824ae45dfeb5baff0ce"
+  "output_hash": "3c442f0abf75681bebc9a3a0ae2a2e9237441dc91530ac0a0c2dd211cd29e8d2"
 }

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-na-bank-rec",
   "published_at": "2025-05-06T19:27:37.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "b97f0788e686207379639027de3a02cfccde4218",
       "words": 560,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:33:26.417Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 12,
+      "cost_usd": 0.003843
+    },
+    "summarized": {
+      "at": "2026-10-06T19:33:28.275Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:33:28.276Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:33:28.277Z",
+      "page": false
     }
   },
   "input_hash": "b97f0788e686207379639027de3a02cfccde4218",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b97f0788e686207379639027de3a02cfccde4218"
+  "output_hash": "87a4728f0cac56bc629495ac973236dca82982d1947d6b46826841ceabfdd0d0"
 }

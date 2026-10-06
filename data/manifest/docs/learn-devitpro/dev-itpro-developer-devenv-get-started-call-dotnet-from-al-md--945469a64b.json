@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-get-started-call-dotnet-from-al",
   "published_at": "2025-05-06T19:27:58.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "7388ffaef1c30bee296651eba2debde96cb0b20c",
       "words": 573,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:33:05.525Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005156
+    },
+    "summarized": {
+      "at": "2026-10-06T19:33:26.435Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:33:26.436Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:33:26.437Z",
+      "page": false
     }
   },
   "input_hash": "7388ffaef1c30bee296651eba2debde96cb0b20c",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7388ffaef1c30bee296651eba2debde96cb0b20c"
+  "output_hash": "066df491a7bfae13e5698c09a0bca1a005e119184d0f3c1f5e99733ab403d16d"
 }

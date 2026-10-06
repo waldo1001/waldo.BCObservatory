@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/onboarding-welcome-banner",
   "published_at": "2025-05-06T19:27:44.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "5a193cb8d4ca809fa697d47b69f17d30e1b83219",
       "words": 694,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:33:26.414Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003843
+    },
+    "summarized": {
+      "at": "2026-10-06T19:33:28.264Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:33:28.265Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:33:28.266Z",
+      "page": false
     }
   },
   "input_hash": "5a193cb8d4ca809fa697d47b69f17d30e1b83219",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "5a193cb8d4ca809fa697d47b69f17d30e1b83219"
+  "output_hash": "1a8ccd8505b92a26f78080fd16e2987ccd02859861c8395734180305e9352292"
 }

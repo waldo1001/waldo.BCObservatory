@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "Business Central Under the Hood episode 3: How Many Users Can Business Central Handle in the Cloud?",
   "url": "https://www.youtube.com/watch?v=snVsG69X-kw",
-  "published_at": null,
+  "published_at": "2024-05-31T14:00:06.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T19:33:08.654Z",
+      "captions": "auto:en-orig",
+      "duration_s": 1875
+    },
+    "captioned": {
+      "at": "2026-10-06T19:33:18.738Z",
+      "path": "data/captions/microsoft/snVsG69X-kw.vtt",
+      "vtt_sha256": "20d37d26f2513eeb72a77e2f5ad48856633b36943fd95c11da60ebfad1bf456f",
+      "segments": 93,
+      "words": 5943,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -19,7 +33,14 @@
   "meta": {
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 396,
-    "duration_s": 1876,
-    "via": "reconcile"
-  }
+    "duration_s": 1875,
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "20d37d26f2513eeb72a77e2f5ad48856633b36943fd95c11da60ebfad1bf456f"
 }
