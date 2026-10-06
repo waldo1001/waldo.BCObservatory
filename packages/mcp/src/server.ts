@@ -10,9 +10,10 @@
  * Tools: search, ls, cat, get_object, diff_object, localization, whats_new, blog_footprint, feedback.
  */
 import { createHash } from "node:crypto";
-import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
+import { existsSync, mkdirSync, readFileSync, realpathSync, writeFileSync } from "node:fs";
 import { homedir } from "node:os";
 import { join, resolve } from "node:path";
+import { fileURLToPath } from "node:url";
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 import MiniSearch from "minisearch";
@@ -199,7 +200,11 @@ export function createServer(): McpServer {
   return server;
 }
 
-const isMain = process.argv[1] && resolve(process.argv[1]).replace(/\.ts$/, ".js").endsWith(join("dist", "server.js")) || process.argv[1]?.endsWith("server.ts");
-if (isMain) {
+/** Started as a program (npx, bin symlink, node dist/server.js, tsx src/server.ts) rather than imported by a test. */
+function isMain(): boolean {
+  if (!process.argv[1]) return false;
+  try { return realpathSync(process.argv[1]) === realpathSync(fileURLToPath(import.meta.url)); } catch { return false; }
+}
+if (isMain()) {
   await createServer().connect(new StdioServerTransport());
 }

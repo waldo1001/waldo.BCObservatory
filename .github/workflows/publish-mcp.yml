@@ -30,4 +30,12 @@ jobs:
       - run: npm run typecheck
       - run: npx tsx --test tests/unit/mcp.test.ts
       - run: npm run build --workspace=bc-observatory
-      - run: npm publish --workspace=bc-observatory --access public
+      - name: Publish unless this version is already on npm
+        run: |
+          set -euo pipefail
+          version=$(node -p "require('./packages/mcp/package.json').version")
+          if npm view "bc-observatory@$version" version >/dev/null 2>&1; then
+            echo "bc-observatory@$version is already on npm; bump packages/mcp/package.json to release"
+            exit 0
+          fi
+          npm publish --workspace=bc-observatory --access public
