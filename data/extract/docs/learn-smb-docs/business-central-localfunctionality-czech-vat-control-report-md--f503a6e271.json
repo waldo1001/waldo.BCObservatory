@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/vat-control-report.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/vat-control-report",
+  "title": "VAT Control Report [CZ]",
+  "blob": "006ce22c0b1cba50c815b7dac636a8aaf4bbb231",
+  "summary": "VAT Control Report for Czech Republic provides a VAT Control Report Card page to manage periodic VAT reporting with support for period selection, line suggestion, testing, export, and closing functions.",
+  "systems": [
+    "localization",
+    "finance"
+  ],
+  "topics": [
+    "vat",
+    "czech",
+    "tax reporting",
+    "control report",
+    "vat posting groups"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "VAT Control Report Card"
+    },
+    {
+      "type": "report",
+      "name": "VAT Control Report - Test"
+    }
+  ],
+  "features": [
+    "Control Report Lines Suggestion",
+    "VAT Control Report Card",
+    "Control performance testing",
+    "Export functionality",
+    "Close lines function",
+    "VAT date filtering"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00277,
+      "pages_in_call": 8
+    }
+  ]
+}

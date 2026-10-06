@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=fdP1HKBEDjA",
   "published_at": "2024-08-26T13:50:20.000Z",
   "language": "en",
-  "state": "extracted",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
@@ -38,6 +38,26 @@
         "claude-haiku-4-5-20251001"
       ],
       "cost_usd": 0.014088
+    },
+    "summarized": {
+      "at": "2026-10-06T19:23:19.081Z",
+      "path": "data/summary/video/fdP1HKBEDjA.json",
+      "prompt": "summarize-video@2",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": 0.0123404
+    },
+    "linked": {
+      "at": "2026-10-06T19:23:20.722Z",
+      "systems": [
+        "sales",
+        "finance"
+      ],
+      "topics": 6,
+      "objects_as_heard": 5
+    },
+    "published": {
+      "at": "2026-10-06T19:23:20.735Z",
+      "path": "content/videos/fdP1HKBEDjA.md"
     }
   },
   "input_hash": null,
@@ -55,5 +75,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "5c635da018034f11e9f63bf3bd8fd23398619070d467796cf3d15b0c51f65c38"
+  "output_hash": "85582f4952e7dcb6a563d75089b55569b830d4c79351b7dc7f8385c76541f955"
 }

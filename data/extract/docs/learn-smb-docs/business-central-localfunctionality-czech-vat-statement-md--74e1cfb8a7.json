@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/vat-statement.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/vat-statement",
+  "title": "Czech local functionality - VAT statement",
+  "blob": "fde5a153362a0ee7c900ba30aa8791ca432f9f94",
+  "summary": "VAT Statement for Czech Republic extends the standard VAT Statement report with features for EU triangular trade reporting, VAT period filtering, multiple statement types, XML export, and comments and attachments.",
+  "systems": [
+    "localization",
+    "finance",
+    "reporting"
+  ],
+  "topics": [
+    "vat",
+    "czech",
+    "statement",
+    "eu triangular trade",
+    "vat periods",
+    "tax reporting"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "VAT Statement"
+    }
+  ],
+  "features": [
+    "Stat. Reporting Setup",
+    "Row Division and Multiplication operations",
+    "VAT advance setup",
+    "EU Triangular Trade filtering",
+    "Amount rounding",
+    "VAT period filtering",
+    "Multiple statement types (Recapitulative, Corrective, Supplementary)",
+    "XML export with comments"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00277,
+      "pages_in_call": 8
+    }
+  ]
+}

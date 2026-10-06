@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/vat-statement",
   "published_at": "2025-06-17T15:00:08.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "fde5a153362a0ee7c900ba30aa8791ca432f9f94",
       "words": 182,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:23:14.164Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.00277
+    },
+    "summarized": {
+      "at": "2026-10-06T19:23:14.177Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:23:14.178Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:23:14.178Z",
+      "page": false
     }
   },
   "input_hash": "fde5a153362a0ee7c900ba30aa8791ca432f9f94",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "fde5a153362a0ee7c900ba30aa8791ca432f9f94"
+  "output_hash": "fa9e8634a0084f375646ed5b7f09a36e43ba6d63e07ff3688cf50f1611210bcb"
 }

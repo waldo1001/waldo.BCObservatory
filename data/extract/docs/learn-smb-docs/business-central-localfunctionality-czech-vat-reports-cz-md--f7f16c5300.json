@@ -1,0 +1,59 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/vat-reports-cz.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/vat-reports-cz",
+  "title": "Czech local functionality - VAT reports for Czech",
+  "blob": "92e765628287f1385b6e3867a1999cd211206afa",
+  "summary": "VAT reports for Czech Republic includes five specialized reports for VAT compliance including calculation, documentation, and lists for sales and purchase advance letters.",
+  "systems": [
+    "localization",
+    "finance",
+    "reporting"
+  ],
+  "topics": [
+    "vat",
+    "czech",
+    "tax reports",
+    "advance letters",
+    "sales",
+    "purchasing"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Calc. and Post VAT Settlement"
+    },
+    {
+      "type": "report",
+      "name": "Documentation for VAT"
+    },
+    {
+      "type": "report",
+      "name": "VAT Document List"
+    },
+    {
+      "type": "report",
+      "name": "VAT List on Sales Adv. Letter"
+    },
+    {
+      "type": "report",
+      "name": "VAT List on Purch. Adv. Letter"
+    }
+  ],
+  "features": [
+    "VAT Settlement calculation",
+    "VAT documentation",
+    "VAT document listing",
+    "Advance letter VAT lists"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00277,
+      "pages_in_call": 8
+    }
+  ]
+}

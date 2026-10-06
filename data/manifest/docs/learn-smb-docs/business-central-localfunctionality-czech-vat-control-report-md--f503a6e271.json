@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/vat-control-report",
   "published_at": "2025-06-17T15:00:08.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "006ce22c0b1cba50c815b7dac636a8aaf4bbb231",
       "words": 185,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:23:14.162Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.00277
+    },
+    "summarized": {
+      "at": "2026-10-06T19:23:14.171Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:23:14.172Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:23:14.173Z",
+      "page": false
     }
   },
   "input_hash": "006ce22c0b1cba50c815b7dac636a8aaf4bbb231",
@@ -42,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "006ce22c0b1cba50c815b7dac636a8aaf4bbb231"
+  "output_hash": "ae2c769f6ae29bcec8a1c577427347519b5b9cae6952699ba46786d3abe4d51e"
 }

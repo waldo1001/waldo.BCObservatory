@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/vies-cz",
   "published_at": "2025-06-17T15:00:08.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "a93d8df752248e9bc591c0394376645ea88d4362",
       "words": 118,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:23:14.164Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.00277
+    },
+    "summarized": {
+      "at": "2026-10-06T19:23:14.179Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:23:14.180Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:23:14.181Z",
+      "page": false
     }
   },
   "input_hash": "a93d8df752248e9bc591c0394376645ea88d4362",
@@ -42,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a93d8df752248e9bc591c0394376645ea88d4362"
+  "output_hash": "8ebca1fd4fab61d4b9f7d009e2e63c9841d1f306f63924d3f3bb34895081845b"
 }

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/payables-make-payments",
   "published_at": "2025-06-17T11:45:28.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "4c99dda367cad4586a61de384d0483f2faad9dce",
       "words": 423,
       "forms": 7
+    },
+    "extracted": {
+      "at": "2026-10-06T19:23:14.166Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.00277
+    },
+    "summarized": {
+      "at": "2026-10-06T19:23:14.184Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:23:14.185Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:23:14.186Z",
+      "page": false
     }
   },
   "input_hash": "4c99dda367cad4586a61de384d0483f2faad9dce",
@@ -78,5 +97,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "4c99dda367cad4586a61de384d0483f2faad9dce"
+  "output_hash": "571659b0730b510ee78e82b30f99627021040b181434fa1b62e13e59ba7b4449"
 }

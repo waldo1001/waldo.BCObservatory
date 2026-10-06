@@ -1,0 +1,55 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-create-a-wrapper-module.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-create-a-wrapper-module",
+  "title": "Create a .NET Wrapper Module",
+  "blob": "0bb30a5a6ee50e26ba15512869b73731099e7727",
+  "summary": "Creating a .NET wrapper module describes how to contribute wrapper modules to Business Central using codeunits and temporary tables to expose .NET functionality in AL, with Regex module as an example.",
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    ".net wrapper",
+    "codeunit",
+    "al development",
+    "system module",
+    "regex"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Regex"
+    },
+    {
+      "type": "codeunit",
+      "name": "Regex Impl."
+    },
+    {
+      "type": "table",
+      "name": "Matches"
+    },
+    {
+      "type": "table",
+      "name": "Regex Options"
+    }
+  ],
+  "features": [
+    ".NET method wrapping",
+    "Facade pattern",
+    "Temporary table modeling",
+    "Argument-table pattern",
+    "Constructor handling",
+    "BCApps repository"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00277,
+      "pages_in_call": 8
+    }
+  ]
+}

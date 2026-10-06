@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/cartera-module",
   "published_at": "2025-06-03T18:06:52.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "4e09b5dd89b65193e7656e53babb19e1f147806f",
       "words": 113,
       "forms": 54
+    },
+    "extracted": {
+      "at": "2026-10-06T19:23:12.812Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003091
+    },
+    "summarized": {
+      "at": "2026-10-06T19:23:12.871Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:23:12.873Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:23:12.874Z",
+      "page": false
     }
   },
   "input_hash": "4e09b5dd89b65193e7656e53babb19e1f147806f",
@@ -313,5 +332,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "4e09b5dd89b65193e7656e53babb19e1f147806f"
+  "output_hash": "f9c6c276994a0b004bedc3c11767883c7072ce8b79249e4609e86570951d3df8"
 }

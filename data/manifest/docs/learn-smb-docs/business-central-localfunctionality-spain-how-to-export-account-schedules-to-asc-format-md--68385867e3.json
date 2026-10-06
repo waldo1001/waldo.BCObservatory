@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-export-account-schedules-to-asc-format",
   "published_at": "2025-06-04T07:37:00.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "d8a6fac0fb83817e2f72ab21b82c3138401a2c99",
       "words": 128,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:23:12.800Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.003091
+    },
+    "summarized": {
+      "at": "2026-10-06T19:23:12.863Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:23:12.864Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:23:12.865Z",
+      "page": false
     }
   },
   "input_hash": "d8a6fac0fb83817e2f72ab21b82c3138401a2c99",
@@ -40,5 +59,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d8a6fac0fb83817e2f72ab21b82c3138401a2c99"
+  "output_hash": "7b47479883cc2cd8f86123f48bb3865de1e8f49dfd895aacf63fc99b409b9647"
 }

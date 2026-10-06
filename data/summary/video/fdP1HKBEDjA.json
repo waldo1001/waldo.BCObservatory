@@ -1,0 +1,26 @@
+{
+  "video_id": "fdP1HKBEDjA",
+  "item_id": "video/yt-microsoft/fdP1HKBEDjA",
+  "summary": "Entering receivables invoices and credit memos in Dynamics GP compared with Business Central, using sales journals and sales invoices. Evidence for how GP receivables transaction entry maps to Business Central sales journal batches and the Sales Invoices page.",
+  "overview": "The video shows how invoices and credit memos are entered in Dynamics GP with the Receivables Transaction Entry window and the Apply Sales Document window. It then shows the same tasks in Business Central.\n\nIn Business Central, the demo first uses sales journals with batches that have default sales accounts. It then shows sales invoices as an alternative, which can combine services and inventory items on one document. The video runs about 5 minutes.",
+  "key_points": [
+    "In GP, an invoice is entered in the receivables transaction entry window by selecting the customer, entering the amount and posting.",
+    "In GP, credit memos are applied to original invoices by selecting outstanding invoices in the Apply Sales Document window.",
+    "In Business Central, receivables invoices can be created in Sales Journals using a batch with a default sales account and document type Invoice.",
+    "Before posting a sales journal, the GL entries can be previewed to see the accounts receivable and other posting accounts.",
+    "Credit memos in Business Central sales journals use a batch with a separate number series, document type Credit Memo, and the apply entry process against invoices.",
+    "The Sales Invoices page is another option and can include GL accounts and inventory items on the same transaction for combined billing."
+  ],
+  "audience": [
+    "functional consultant",
+    "end user",
+    "administrator"
+  ],
+  "extraction_hash": "5c635da018034f11e9f63bf3bd8fd23398619070d467796cf3d15b0c51f65c38",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0123404
+  }
+}

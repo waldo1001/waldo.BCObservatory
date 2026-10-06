@@ -1,0 +1,50 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/year-close-operations.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/year-close-operations",
+  "title": "Year Closing Operations [CZ]",
+  "blob": "caa7e49fe87f2898cc0ebd1a123d0b90d2dc6d43",
+  "summary": "Year closing operations for Czech Republic provides reports to close and open profit and loss accounts and balance sheet accounts in compliance with Czech accounting legislation.",
+  "systems": [
+    "localization",
+    "finance"
+  ],
+  "topics": [
+    "czech",
+    "year closing",
+    "fiscal year",
+    "accounting",
+    "general ledger",
+    "balance sheet"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Close Income Statement"
+    },
+    {
+      "type": "report",
+      "name": "Close Balance Sheet"
+    },
+    {
+      "type": "report",
+      "name": "Open Balance Sheet"
+    }
+  ],
+  "features": [
+    "Close Income Statement",
+    "Close Balance Sheet",
+    "Open Balance Sheet",
+    "General Journal line creation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00277,
+      "pages_in_call": 8
+    }
+  ]
+}

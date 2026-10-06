@@ -1,0 +1,48 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/payables-make-payments.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/payables-make-payments",
+  "title": "Overview of tasks to manage payments to vendors",
+  "blob": "4c99dda367cad4586a61de384d0483f2faad9dce",
+  "summary": "Overview of tasks to manage vendor payments covers posting payment journals, suggesting vendor payments, printing checks, exporting to bank files, and applying payments automatically.",
+  "systems": [
+    "purchasing",
+    "finance",
+    "integration"
+  ],
+  "topics": [
+    "payments",
+    "vendors",
+    "checks",
+    "bank",
+    "cash management",
+    "payables",
+    "reconciliation"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Payment Journal"
+    }
+  ],
+  "features": [
+    "Payment Journal posting",
+    "Suggest Vendor Payments",
+    "Computer Check printing",
+    "Check voiding",
+    "Bank file export",
+    "Automatic payment application",
+    "SEPA Credit Transfer",
+    "Positive Pay"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00277,
+      "pages_in_call": 8
+    }
+  ]
+}

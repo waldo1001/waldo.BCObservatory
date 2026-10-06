@@ -1,0 +1,45 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/vies-cz.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/vies-cz",
+  "title": "Czech local functionality - Vies",
+  "blob": "a93d8df752248e9bc591c0394376645ea88d4362",
+  "summary": "VIES reporting for Czech Republic implements EU sales declaration requirements with features for state reporting setup, VAT posting group selection, history tracking, line suggestion, corrective declarations, and electronic file export.",
+  "systems": [
+    "localization",
+    "finance",
+    "reporting"
+  ],
+  "topics": [
+    "vies",
+    "czech",
+    "vat",
+    "eu",
+    "sales declaration",
+    "tax authorities"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "VAT Posting Setup"
+    }
+  ],
+  "features": [
+    "State reporting setup",
+    "VAT posting group selection",
+    "VIES reporting history",
+    "Line suggestion",
+    "Corrective declarations",
+    "Electronic file export"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00277,
+      "pages_in_call": 8
+    }
+  ]
+}
