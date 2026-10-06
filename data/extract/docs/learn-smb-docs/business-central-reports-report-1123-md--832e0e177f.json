@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-1123.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1123",
+  "title": "Cost Acctg. Stmt. per Period (report)",
+  "blob": "1e9bd29edd746a80a6978bd3c18b365680be9ef4",
+  "summary": "The Cost Acctg. Stmt. per Period report summarizes posted cost entries grouped by periods to monitor spending trends and variances over time.",
+  "systems": [
+    "finance"
+  ],
+  "topics": [
+    "cost accounting",
+    "financial reporting",
+    "period analysis"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Cost Acctg. Stmt. per Period"
+    }
+  ],
+  "features": [
+    "cost entry grouping by period",
+    "date filtering",
+    "cost dimensions",
+    "trend analysis",
+    "period comparison"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.001247,
+      "pages_in_call": 7
+    }
+  ]
+}

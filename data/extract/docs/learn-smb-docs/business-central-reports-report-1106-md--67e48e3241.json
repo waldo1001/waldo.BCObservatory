@@ -1,0 +1,38 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-1106.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1106",
+  "title": "Resource Utilization (report)",
+  "blob": "8a05909e4db739dcf6cea36c4ef17660e27ce408",
+  "summary": "The Resource Utilization report displays capacity, usage quantities, and remaining balance for project resources in their base unit of measure.",
+  "systems": [
+    "projects"
+  ],
+  "topics": [
+    "resource utilization",
+    "project reports",
+    "capacity tracking"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Resource Utilization"
+    }
+  ],
+  "features": [
+    "capacity quantities",
+    "usage quantities",
+    "balance remaining",
+    "unit of measure"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.001247,
+      "pages_in_call": 7
+    }
+  ]
+}

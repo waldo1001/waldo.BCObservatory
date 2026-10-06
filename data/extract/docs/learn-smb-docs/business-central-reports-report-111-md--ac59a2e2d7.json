@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-111.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-111",
+  "title": "Customer - Top 10 list (report)",
+  "blob": "e309101ea9d14173fc5c87eb994ae1c4f0b9b35c",
+  "summary": "The Customer - Top 10 list report identifies top customers by sales transactions and balances within a period, with bar or pie chart visualization options.",
+  "systems": [
+    "sales"
+  ],
+  "topics": [
+    "customer analysis",
+    "sales trends",
+    "top customers"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Customer - Top 10 list"
+    }
+  ],
+  "features": [
+    "customer ranking by sales",
+    "transaction filtering",
+    "balance overview",
+    "chart visualization",
+    "sales volume analysis"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.001247,
+      "pages_in_call": 7
+    }
+  ]
+}

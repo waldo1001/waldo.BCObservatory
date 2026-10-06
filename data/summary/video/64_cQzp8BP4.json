@@ -1,0 +1,27 @@
+{
+  "video_id": "64_cQzp8BP4",
+  "item_id": "video/yt-microsoft/64_cQzp8BP4",
+  "summary": "Concurrent inventory posting in Business Central (BC25, 2025 release wave 1): a feature key lets multiple users post item ledger and value entries at once, using number sequences instead of table locking. Covers the item register number field, deferred automatic cost posting to GL, and developer guidance.",
+  "overview": "The video explains a new feature in BC25 wave 1 that lets several users or sessions post item ledger entries and value entries at the same time. Before, only one session could insert into the item ledger at a time. The feature replaces table locking with number sequences for entry numbers, and the same rules extend to project ledger and resource ledger entries.\n\nIt also shows the supporting changes: a new item register number field on ledger entries so drill-down from the item register still works when from and to entry numbers overlap, and automatic cost posting that is deferred to the end of the batch so the GL is not locked during inventory posting. The video includes a GL locking demonstration, guidance for developers handling custom entries, and performance benchmarks.",
+  "key_points": [
+    "The feature is enabled through a feature key named for letting multiple users post item ledger entries and value entries at the same time. It is off by default and is planned to be on by default in three releases.",
+    "There is no upgrade step, and the speaker says there is no penalty to switch it on and off to try it out.",
+    "Entry numbers come from number sequences, so numbers can be assigned out of order and unused numbers can be lost, like a bakery number dispenser.",
+    "Ledger entries get a new item register number field. Drill-down from the item register filters on it, and old entries have value zero for backwards compatibility.",
+    "Automatic cost posting to the GL is deferred to the end of the batch. Only one user can post to the GL at a time, so one of two concurrent batches still waits for the other at the GL.",
+    "Project ledger and resource ledger entries follow the same concurrent posting rules as item ledger entries.",
+    "Developers with custom entries should review the developer guidance and event handling chapter."
+  ],
+  "audience": [
+    "developer",
+    "administrator",
+    "functional consultant"
+  ],
+  "extraction_hash": "b97405beb41eeb15a087a183da3e762d4ad5a3b72d51b114fcbb81c1669823a8",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.015120399999999999
+  }
+}

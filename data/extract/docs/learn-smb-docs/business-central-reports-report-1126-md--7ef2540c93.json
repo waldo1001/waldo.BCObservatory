@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-1126.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1126",
+  "title": "Cost Acctg. Statement (report)",
+  "blob": "8edda82fe1bf93501e25f1eb2bbda418bbab04e8",
+  "summary": "The Cost Acctg. Statement report provides a summarized view of posted cost data across dimensions like departments and cost centers for cost distribution analysis.",
+  "systems": [
+    "finance"
+  ],
+  "topics": [
+    "cost accounting",
+    "financial reporting",
+    "cost analysis"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Cost Acctg. Statement"
+    }
+  ],
+  "features": [
+    "cost data summary",
+    "dimension filtering",
+    "period filtering",
+    "cost type filtering",
+    "cost object filtering"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.001247,
+      "pages_in_call": 7
+    }
+  ]
+}

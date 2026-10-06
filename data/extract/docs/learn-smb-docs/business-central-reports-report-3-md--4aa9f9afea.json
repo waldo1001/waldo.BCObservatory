@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-3.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-3",
+  "title": "G/L Register (report)",
+  "blob": "0ecd07ba047f28a68b517a5a197ecc9dce30dbfe",
+  "summary": "G/L Register report displays posted general ledger batches with entry numbers, posting dates, user IDs, and source descriptions, supporting audit trails and posting verification.",
+  "systems": [
+    "finance",
+    "reporting"
+  ],
+  "topics": [
+    "general ledger",
+    "audit trail",
+    "posting activity",
+    "transaction tracing"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "G/L Register"
+    }
+  ],
+  "features": [
+    "posted batch listing",
+    "entry number display",
+    "user activity tracking",
+    "source filtering",
+    "date range filtering"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002041,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-19.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-19",
+  "title": "VAT- VIES Declaration Tax Auth (report)",
+  "blob": "19a321ccca90ac5b6148137c14c3de52e35ae58b",
+  "summary": "VAT- VIES Declaration Tax Auth report generates intra-community sales declarations for EU VIES system submission, ensuring compliance with EU cross-border sales regulations.",
+  "systems": [
+    "finance",
+    "localization",
+    "reporting"
+  ],
+  "topics": [
+    "vat",
+    "vies",
+    "eu compliance",
+    "tax reporting",
+    "intra-community sales"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "VAT- VIES Declaration Tax Auth"
+    }
+  ],
+  "features": [
+    "VIES declaration generation",
+    "EU regulation compliance",
+    "sales by customer compilation",
+    "VAT number verification",
+    "country code validation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002041,
+      "pages_in_call": 8
+    }
+  ]
+}

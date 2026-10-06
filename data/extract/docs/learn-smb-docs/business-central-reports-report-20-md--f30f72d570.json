@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-20.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-20",
+  "title": "Calculate and Post Tax Settlement (report)",
+  "blob": "ac13049f165dd1243fe2418ebf8f5d60a88b7ed0",
+  "summary": "Calculate and Post Tax Settlement report automates VAT settlement by calculating net VAT amounts due or refundable and posting settlement journal entries at the end of filing periods.",
+  "systems": [
+    "finance",
+    "reporting"
+  ],
+  "topics": [
+    "vat settlement",
+    "tax compliance",
+    "journal posting",
+    "vat calculation"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Calculate and Post Tax Settlement"
+    }
+  ],
+  "features": [
+    "VAT settlement calculation",
+    "journal entry posting",
+    "period-end processing",
+    "VAT obligation tracking",
+    "refund processing"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002041,
+      "pages_in_call": 8
+    }
+  ]
+}

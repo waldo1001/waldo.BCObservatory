@@ -1,0 +1,38 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-1105.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1105",
+  "title": "Resource Statistics (report)",
+  "blob": "2540b6fa42cc5946ae1333115bfc25bce514de6e",
+  "summary": "The Resource Statistics report shows project usage and sales amounts in local currency with percentage invoiced data for each resource.",
+  "systems": [
+    "projects"
+  ],
+  "topics": [
+    "resource statistics",
+    "project reports",
+    "usage tracking"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Resource Statistics"
+    }
+  ],
+  "features": [
+    "project usage amounts",
+    "sales amounts",
+    "percentage invoiced",
+    "resource totals"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.001247,
+      "pages_in_call": 7
+    }
+  ]
+}

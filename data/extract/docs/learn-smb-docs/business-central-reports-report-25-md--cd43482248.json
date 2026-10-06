@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-25.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-25",
+  "title": "Financial Reporting (report)",
+  "blob": "e408d8b8217bded9f77c2f48f55b88e28280c6bc",
+  "summary": "Financial Report displays general ledger transactions for a period grouped by user-defined row and column layouts, providing insights into financial data from the chart of accounts.",
+  "systems": [
+    "finance",
+    "reporting"
+  ],
+  "topics": [
+    "general ledger",
+    "financial reporting",
+    "account analysis",
+    "budget comparison"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Financial Report"
+    }
+  ],
+  "features": [
+    "general ledger transaction display",
+    "custom report definition",
+    "budget comparison",
+    "account schedule configuration"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002041,
+      "pages_in_call": 8
+    }
+  ]
+}

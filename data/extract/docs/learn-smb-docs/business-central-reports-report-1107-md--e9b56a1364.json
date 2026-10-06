@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-1107.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1107",
+  "title": "Resource - Cost Breakdown (report)",
+  "blob": "ecde7768dadb6ad91522464d3d3a67e09805bede",
+  "summary": "The Resource - Cost Breakdown report shows usage ledger entries with quantities, direct costs, and total costs per resource, organized by new pages per resource.",
+  "systems": [
+    "projects"
+  ],
+  "topics": [
+    "resource costs",
+    "project reports",
+    "cost analysis"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Resource - Cost Breakdown"
+    }
+  ],
+  "features": [
+    "resource ledger entries",
+    "quantity display",
+    "direct costs",
+    "total costs",
+    "posting date filter"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.001247,
+      "pages_in_call": 7
+    }
+  ]
+}

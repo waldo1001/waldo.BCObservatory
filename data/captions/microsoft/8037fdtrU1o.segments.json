@@ -1,0 +1,103 @@
+{
+  "video_id": "8037fdtrU1o",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 5.1,
+      "end": 25.3,
+      "text": "welcome everyone my name is Austine and I'm going to tell you what's new with the contoso demo tool in this release and the generation and maintainability of demo data if you have you know used the old way of generating demo data um and extending demo data with the rapid start packages you will be pretty familiar with"
+    },
+    {
+      "t": 25.3,
+      "end": 45.3,
+      "text": "some of these pains and why we decided to go this route um as you may know this packages were like a big monolith we either bring everything in or you bring nothing so if you had to do a demo about small feature um you had to bring the whole shebang with you uh and if you had to extend"
+    },
+    {
+      "t": 45.3,
+      "end": 65.5,
+      "text": "it maybe you wanted to bring a new feature to demo together with that one or maybe you wanted to uptake some of the changes that we made to demo data um then it was very painful because you have to regenerate that package you can just just modify it or extend it easily same thing with um translations if you had to do this demo in a different"
+    },
+    {
+      "t": 65.5,
+      "end": 80.2,
+      "text": "country in a different language you needed to create a copy of that package with everything translated which then will mean that it will multiply and then it will be much more difficult to actually maintain and uptake new changes to them you have to do it in many many"
+    },
+    {
+      "t": 80.2,
+      "end": 100.8,
+      "text": "places because it's file based there was no very good story about version and Source control um and we didn't support historical data as part of these packages so you needed posted documents to be part of your demo you had to find different ways to do it with some postprocessing after the fact"
+    },
+    {
+      "t": 100.8,
+      "end": 121,
+      "text": "so many partners will end up with something akin to this right many different versions of the same package maybe the first one works very well with the demo number one the second one works very well with the demo number two but they don't mix very well together and you have yet another package for each of the languages that you actually want to demo this on so this was very very difficult and costly to"
+    },
+    {
+      "t": 121,
+      "end": 141.3,
+      "text": "maintain so when we designed this new tool we kept all of these things in mind so we wanted to break down this monolith package so how would we do that well we we broke it down into these different modules following the the name spaces in basap and you can install this independently uh some of them maybe are completely"
+    },
+    {
+      "t": 141.3,
+      "end": 161.4,
+      "text": "independent so you can just install this a small piece to do a demon know sustainability um but you can Define also dependencies among them so if you want to demo something in the sales area and you're requireed to have finances set up and inventory set up uh then you can Define dependencies among them and the tool will handle the installation if you need to"
+    },
+    {
+      "t": 161.4,
+      "end": 181.5,
+      "text": "you want to install um this particular module for your demo it will pick up all everything on the on the tree of dependencies and install it automatically for you we wanted to because it's we wanted to solve this issue with source source control and versioning to make it easier to extend and maintain and go back to previous versions and things"
+    },
+    {
+      "t": 181.5,
+      "end": 201.6,
+      "text": "like this we just made it code so you can see in here that it's much easier to read we have a code unit that is about creating a unit of measure and then you can clearly see what is being created in there and you can create more and expand it easily um because it's code it also brings other benefits as well right like we talked about the translation before now you can handle the"
+    },
+    {
+      "t": 201.6,
+      "end": 221.6,
+      "text": "translation the same way you handle um in in your applications so use a translation file and you can much easier to do this instead of having to maintain very very different versions it also natively means that this goes into Source control this is actually in in GitHub in a app extensions you can actually see the"
+    },
+    {
+      "t": 221.6,
+      "end": 241.9,
+      "text": "whole code of this tool and the demo data we generate you can read it you can come and suggest some changes improvements find tell us that we have a bug or something like this and eventually we want to move all of this code into BC apps and make it fully open source so anyone can come and contribute you can bring your own modules in into into demo data generation"
+    },
+    {
+      "t": 241.9,
+      "end": 262.5,
+      "text": "you can fix issues you can solve that problem that has been bagging you for a while in in the demo data that we ship um also that story with the historical data we we broke down if you go into one of these modules and you will see all of these different layering um we have you can develop independently the setup data for the module"
+    },
+    {
+      "t": 262.5,
+      "end": 282.6,
+      "text": "the the master data that that defines this this feature but also the transactions and the historical data so you can e spand those individually if you want you know more volume data or um if you want to do you need posted documents and uh you can clearly just create the historical data for those and"
+    },
+    {
+      "t": 282.6,
+      "end": 302.8,
+      "text": "you can do cool things because it's it's code now right so if you for example need that this demo requires that the historical data FS within fits within the same quarter or the same fiscal year you can just do that you can write the code and it will continually follow follow you so if you have to do this demo two years from now to a c customer the data will just be ready for you"
+    },
+    {
+      "t": 302.8,
+      "end": 322.9,
+      "text": "within the same fiscal quarter instead of like being obsoleted that is basically it that's what we did we managed to break down this monolith we managed to make everything code so it's easier to develop and expand and extend and upgrade and all of these things so we want to now we're working on the next steps"
+    },
+    {
+      "t": 322.9,
+      "end": 343,
+      "text": "where do we go from here so we would love to hear from you and actually this is already available as part of 20 5.3 because we needed it to unblock another great feature flexible update management that you can see in this launch event I totally recommend to go and check that video and uh we look forward for you to go and play with this try"
+    },
+    {
+      "t": 343,
+      "end": 366,
+      "text": "it around add it to your pipelines see how you will push it to production and let us know how we you know make this even better together um so reach out to us through the usual channels social media Viva and whatever else we can we can talk to each other uh that was it thank you very much and have a lovely day"
+    }
+  ],
+  "markers": [
+    {
+      "t": 0,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 1161
+}
