@@ -5,6 +5,7 @@ import { latestRun } from "../lib/state";
 export const GET: APIRoute = async () => {
   const run = latestRun();
   const videos = (await getCollection("videos")).length;
+  const topics = (await getCollection("topics")).length;
   const site = `${import.meta.env.SITE}${import.meta.env.BASE_URL}`;
   const text = [
     "# BC Observatory",
@@ -17,7 +18,8 @@ export const GET: APIRoute = async () => {
     "",
     "## Sections",
     "",
-    ...(videos ? [`- [Videos](${site}videos/llms.txt): ${videos} Business Central videos as timestamped evidence (summary, chapters, features with verified status quotes)`] : ["- (no sections yet)"]),
+    ...(topics ? [`- [Topics](${site}topics/llms.txt): ${topics} topic hubs seeded from the Microsoft Learn TOCs, linking out to Learn`] : []),
+    ...(videos ? [`- [Videos](${site}videos/llms.txt): ${videos} Business Central videos as timestamped evidence (summary, chapters, features with verified status quotes)`] : []),
     "",
     "## Start here",
     "",
