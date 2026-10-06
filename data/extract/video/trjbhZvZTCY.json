@@ -1,0 +1,178 @@
+{
+  "video_id": "trjbhZvZTCY",
+  "item_id": "video/yt-microsoft/trjbhZvZTCY",
+  "title": "#BCTalent in EMEA: Bridging The Talent Gap Together",
+  "duration_s": 105,
+  "systems": [
+    "hr",
+    "development"
+  ],
+  "topics": [
+    "talent development",
+    "workforce training",
+    "ai skills",
+    "retention",
+    "team upskilling",
+    "gen z recruitment",
+    "ai agents",
+    "business process expertise"
+  ],
+  "chapters": [
+    {
+      "title": "BC Talent Program Impact",
+      "t_start": 0,
+      "t_end": 15.9
+    },
+    {
+      "title": "Program Results and Metrics",
+      "t_start": 15.9,
+      "t_end": 29
+    },
+    {
+      "title": "AI's Role in Workforce Development",
+      "t_start": 29,
+      "t_end": 40.4
+    },
+    {
+      "title": "AI Skills and Team Development",
+      "t_start": 40.4,
+      "t_end": 51.4
+    },
+    {
+      "title": "Three Strategies for AI Powerhouse",
+      "t_start": 51.4,
+      "t_end": 76
+    },
+    {
+      "title": "Gen Z and Future Talent",
+      "t_start": 76,
+      "t_end": 87.2
+    },
+    {
+      "title": "Call to Action",
+      "t_start": 87.2,
+      "t_end": 105
+    }
+  ],
+  "features": [
+    {
+      "name": "BC Talent Program",
+      "description": "A program launched three years ago to address talent challenges and build the next generation of Business Central professionals. The program has onboarded over 700 new professionals with a 91% retention rate, with billable staff ready in 10 weeks.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1.4,
+      "t_end": 15.9,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "talent",
+        "training",
+        "retention",
+        "workforce"
+      ],
+      "system": "hr"
+    },
+    {
+      "name": "AI Skills Development for Business Central",
+      "description": "A strategy to futureproof Business Central teams by developing AI fluency in professionals who understand industry and business processes. Aims to create autonomous AI agents while upskilling existing staff and recruiting Gen Z talent with native AI knowledge.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 40.4,
+      "t_end": 87.2,
+      "is_demoed": false,
+      "caveats": [
+        "Strategy focused on preparation and future readiness rather than current implementation"
+      ],
+      "tags": [
+        "ai",
+        "upskilling",
+        "agents",
+        "team development"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Senior Staff Time Savings",
+      "description": "Senior staff can save up to 80% of their training time when not having to train junior professionals through the BC Talent program.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 15.9,
+      "t_end": 29,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "efficiency",
+        "training",
+        "time savings"
+      ],
+      "system": "hr"
+    }
+  ],
+  "objects": [],
+  "presenters": [
+    {
+      "name": "VC Talent Representative",
+      "confidence": "low"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 1.4,
+      "text": "Three years ago, we started on a journey to respond to the talent challenges out there and build the next generation of Business Central",
+      "why_it_matters": "Establishes when the BC Talent program launched and its foundational mission to address talent gaps in Business Central.",
+      "check": "exact"
+    },
+    {
+      "t": 15.9,
+      "text": "We've onboarded more than 700 new professionals with a 91% retention rate billable in 10 weeks.",
+      "why_it_matters": "Key metric demonstrating the program's success with specific retention rate and time-to-billability numbers.",
+      "check": "exact"
+    },
+    {
+      "t": 15.9,
+      "text": "senior staff can save up to 80% of their time not having to train juniors.",
+      "why_it_matters": "Quantifies the efficiency gain for existing staff through the program, showing ROI impact on business operations.",
+      "check": "exact"
+    },
+    {
+      "t": 29,
+      "text": "AI is reshaping every product, experience, and profession, including ours. But don't worry, AI won't replace your people.",
+      "why_it_matters": "Addresses the key concern about AI's role in workforce strategy, positioning it as complementary rather than replacement.",
+      "check": "exact"
+    },
+    {
+      "t": 51.4,
+      "text": "To create autonomous AI agents, you need people who understand industry and business processes and can blend that with AI fluency.",
+      "why_it_matters": "States the key requirement for AI agent development: combining domain expertise with AI skills.",
+      "check": "exact"
+    },
+    {
+      "t": 76,
+      "text": "We can help them turn that knowledge into business central expertise. so you can hire them.",
+      "why_it_matters": "Describes the strategy to convert Gen Z's native AI knowledge into Business Central competency for recruitment.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 3
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.011135999999999998
+    }
+  ]
+}

@@ -1,0 +1,456 @@
+{
+  "video_id": "VoiUhPb6HQ0",
+  "item_id": "video/yt-bcmusings/VoiUhPb6HQ0",
+  "title": "Manufacturing version 27: use Gitlens & Github BC code history to detect the code differences",
+  "duration_s": 1407,
+  "systems": [
+    "manufacturing",
+    "reporting",
+    "development"
+  ],
+  "topics": [
+    "manufacturing reports",
+    "version history",
+    "code changes",
+    "github",
+    "gitlens",
+    "al-go",
+    "bc code history repository",
+    "layout changes",
+    "rdlc to excel",
+    "visual studio code",
+    "where used report",
+    "manufacturing analytics"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to Business Central 2025 Wave 2 and manufacturing changes",
+      "t_start": 0,
+      "t_end": 153
+    },
+    {
+      "title": "Microsoft Dynamics Business Central YouTube channel and manufacturing analytics video",
+      "t_start": 153,
+      "t_end": 273.1
+    },
+    {
+      "title": "Manufacturing reports and identifying changes",
+      "t_start": 273.1,
+      "t_end": 390.7
+    },
+    {
+      "title": "Stefan Maron's GitHub BC code history repository",
+      "t_start": 390.7,
+      "t_end": 515.6
+    },
+    {
+      "title": "Cloning the repository and navigating to manufacturing reports",
+      "t_start": 515.6,
+      "t_end": 667.9
+    },
+    {
+      "title": "Installing GitLens extension for Visual Studio Code",
+      "t_start": 667.9,
+      "t_end": 740
+    },
+    {
+      "title": "Comparing version 26 and 27 changes using file history",
+      "t_start": 740,
+      "t_end": 856.5
+    },
+    {
+      "title": "Report rendering options and data export",
+      "t_start": 856.5,
+      "t_end": 921.1
+    },
+    {
+      "title": "Running and analyzing the Where Used report",
+      "t_start": 921.1,
+      "t_end": 1008
+    },
+    {
+      "title": "Code changes in Where Used report structure",
+      "t_start": 1008,
+      "t_end": 1101.8
+    },
+    {
+      "title": "Quantity Explosion of BOM report updates",
+      "t_start": 1101.8,
+      "t_end": 1225
+    },
+    {
+      "title": "Manufacturing analytics and personas",
+      "t_start": 1225,
+      "t_end": 1287.3
+    },
+    {
+      "title": "Ad hoc analysis, Excel export features, and conclusion",
+      "t_start": 1287.3,
+      "t_end": 1407
+    }
+  ],
+  "features": [
+    {
+      "name": "Manufacturing reporting changes in BC 2025 Wave 2",
+      "description": "Significant changes to reports included with the manufacturing module, including word layouts, Excel layouts, some obsoletions, and documentation updates for in-line and Microsoft Learn documentation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 24.5,
+      "t_end": 273.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "manufacturing",
+        "reporting",
+        "wave 2",
+        "version 27"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Production Order Work in Progress report",
+      "description": "A report showing production order work in progress, mentioned as part of the new analytics in manufacturing.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 333.4,
+      "t_end": 348.7,
+      "is_demoed": true,
+      "caveats": [
+        "Available as both PowerBI report and AL report"
+      ],
+      "tags": [
+        "manufacturing",
+        "reporting",
+        "analytics"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Production Order Statistics report",
+      "description": "A report for production order statistics.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 348.7,
+      "t_end": 373.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "manufacturing",
+        "reporting"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Production Order List report",
+      "description": "A new report for production orders.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 360.6,
+      "t_end": 373.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "manufacturing",
+        "reporting",
+        "new"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Stefan Maron BC code history repository",
+      "description": "A GitHub repository maintained by MVP Stefan Maron that contains Business Central source code per version and per country, allowing developers to see what has changed between versions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 404.1,
+      "t_end": 515.6,
+      "is_demoed": true,
+      "caveats": [
+        "Includes branches for versions 15 through 27",
+        "Available for multiple countries (CZ, DK, etc.) and W1 world one"
+      ],
+      "tags": [
+        "code history",
+        "github",
+        "repository",
+        "developer tools"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "GitLens Visual Studio Code extension",
+      "description": "A Visual Studio Code extension that enables developers to view file history and compare changes between versions in the BC code repository.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 94,
+      "t_end": 719.4,
+      "is_demoed": true,
+      "caveats": [
+        "Must be installed from extensions menu",
+        "Provides file history and diff capabilities"
+      ],
+      "tags": [
+        "gitlens",
+        "visual studio code",
+        "developer tools",
+        "file history"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "RDLC layout removal and Excel layout default",
+      "description": "Microsoft removed the default RDLC layout in reports and made Excel the default layout for version 27. The RDLC layout is marked as obsolete.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 755.6,
+      "t_end": 1033.4,
+      "is_demoed": true,
+      "caveats": [
+        "RDLC layout may still appear if Business Central installation is not clean",
+        "Browser report viewer is no longer available by default",
+        "Excel layout becomes the only option",
+        "No in-browser report viewer available"
+      ],
+      "tags": [
+        "layout change",
+        "rdlc",
+        "excel",
+        "report rendering",
+        "version 27"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Report data export to data set only",
+      "description": "Users can send report data to get only the data set without layout rendering by using the Send To option.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 889.4,
+      "t_end": 899.7,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "data export",
+        "send to",
+        "report data"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Manufacturing analytics site",
+      "description": "A manufacturing analytics site showing personas (staff, management, leadership) and reports useful for each type of user, with resources worked on by Kenny's team.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1242.2,
+      "t_end": 1276.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "manufacturing",
+        "analytics",
+        "personas",
+        "reports"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Ad hoc analysis on manufacturing ledger pages",
+      "description": "Users can perform ad hoc analysis on manufacturing data on ledger list pages, with the ability to turn analysis on for specific data sets like item ledger entries.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1287.3,
+      "t_end": 1332.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "ad hoc analysis",
+        "ledger",
+        "manufacturing data"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Open in Excel from list pages",
+      "description": "List pages support opening data directly in Excel for further analysis and manipulation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1343.4,
+      "t_end": 1353.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "excel export",
+        "list pages",
+        "analysis"
+      ],
+      "system": "reporting"
+    }
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Production Order Work in Progress",
+      "t": 333.4
+    },
+    {
+      "type": "report",
+      "name": "Production Order Statistics",
+      "t": 360.6
+    },
+    {
+      "type": "report",
+      "name": "Production Order List",
+      "t": 360.6
+    },
+    {
+      "type": "report",
+      "name": "Where Used Top Level",
+      "t": 655.2
+    },
+    {
+      "type": "report",
+      "name": "Where Used",
+      "t": 830.1
+    },
+    {
+      "type": "report",
+      "name": "Quantity Explosion of BOM",
+      "t": 1101.8
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Kenny Pontopidan",
+      "confidence": "high"
+    },
+    {
+      "name": "Stefan Maron",
+      "confidence": "high"
+    },
+    {
+      "name": "Kenny",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 2.6,
+      "text": "we continue today with what's new in Business Central 2025 wave 2 uh also known as version 27",
+      "why_it_matters": "Establishes the version and release context for all changes discussed",
+      "check": "exact"
+    },
+    {
+      "t": 12.7,
+      "text": "the changes uh that uh have affected uh manufacturing module and those changes are uh quite significant in terms of uh uh the reports",
+      "why_it_matters": "Highlights that manufacturing reports represent a major change area in this release",
+      "check": "exact"
+    },
+    {
+      "t": 81.1,
+      "text": "developers mostly developers uh can figure out what's been changed between uh a previous version and the current version",
+      "why_it_matters": "Defines the key use case for the tools and techniques being presented",
+      "check": "exact"
+    },
+    {
+      "t": 242.9,
+      "text": "It's uh less than 15 minutes. Uh it's actually less than 10 minutes. um and it will give you a good um overview of",
+      "why_it_matters": "References the manufacturing analytics video as a concise overview of reporting improvements",
+      "check": "exact"
+    },
+    {
+      "t": 495.6,
+      "text": "we have code repository branches for code repository for versions from 15 all the way to 27",
+      "why_it_matters": "Shows the comprehensive version coverage available in Stefan's repository",
+      "check": "exact"
+    },
+    {
+      "t": 788.7,
+      "text": "Microsoft removed the default layout RDLC and they made now the default layout the Excel layout",
+      "why_it_matters": "Explains a specific and significant change in report rendering between versions 26 and 27",
+      "check": "exact"
+    },
+    {
+      "t": 838,
+      "text": "We see now that the RDSC layout uh it's probably gone because now we see only download uh which pretty much means we're we're",
+      "why_it_matters": "Demonstrates the practical impact of the layout change on end-user experience",
+      "check": "exact"
+    },
+    {
+      "t": 889.4,
+      "text": "If you only want to get the data set, then you would go to send to and you get only the data only.",
+      "why_it_matters": "Documents a new data export capability allowing users to extract raw data without layout rendering.",
+      "check": "exact"
+    },
+    {
+      "t": 1033.4,
+      "text": "Microsoft got rid of the RDLC layout and it replaced RDLC layout with the Excel layout.",
+      "why_it_matters": "Summarizes the core change across multiple reports in the version 27 release.",
+      "check": "exact"
+    },
+    {
+      "t": 1086.2,
+      "text": "the RDLC layout is obsoleted and also we got a bunch of labels which are used in the Excel uh layout.",
+      "why_it_matters": "Indicates obsolescence of RDLC support and new label system for Excel layouts.",
+      "check": "exact"
+    },
+    {
+      "t": 1242.2,
+      "text": "there is a aka ms website for manufacturing work with what's um manufacturing analytics which um",
+      "why_it_matters": "Announces availability of manufacturing analytics resources for all user types.",
+      "check": "fuzzy"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 878.7,
+      "kind": "other",
+      "text": "It's possible that you might see the RDLC layout if your installation of Business Central is not clean."
+    }
+  ],
+  "checks": {
+    "quotes_kept": 11,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 11
+  },
+  "windows": 2,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.024312
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.020081
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.022751
+    }
+  ]
+}

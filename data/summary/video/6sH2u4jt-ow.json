@@ -1,0 +1,27 @@
+{
+  "video_id": "6sH2u4jt-ow",
+  "item_id": "video/yt-microsoft/6sH2u4jt-ow",
+  "summary": "Offloading Business Central document attachments to external storage (blob storage, file share, SharePoint): setup with external file accounts and file scenarios, upload and delete policies, nightly job queue, and the backup risk the customer takes on.",
+  "overview": "The video walks through storing document attachments outside the Business Central database. It starts with setting up an external file account, then assigns it to the Document Attachments External Storage scenario, enables the feature and sets the required root folder.\n\nIt then covers upload and delete policies: a job queue that runs at 1:00 a.m. by default, immediate delete after upload, delayed delete with a date formula (7 days in the example), and whether external files are deleted when an attachment is removed in Business Central. An upload is demoed and checked in Business Central. The video closes with the storage sync feature for existing attachments and restoring attachments back from external storage. It warns that the feature is used at the customer's own risk, because backups of offloaded files become the customer's responsibility.",
+  "key_points": [
+    "Setup uses the External File Accounts and File Scenarios pages, with the Document Attachments External Storage scenario assigned through Assign Scenarios.",
+    "A root folder must be configured or the external storage will not work.",
+    "The scheduled upload job queue runs each night at 1:00 a.m. by default and must be explicitly enabled in the additional scenario setup.",
+    "Immediate delete after upload conflicts with delayed delete: enabling immediate delete makes the delayed delete option non-editable.",
+    "Delayed delete keeps files in Business Central for a period set by a date formula; the example shows 7 days.",
+    "If the option to delete external files is off, files stay on external storage after the attachment is deleted in Business Central.",
+    "Once files are offloaded, backups are the customer's responsibility, and files deleted on external storage are no longer available in Business Central."
+  ],
+  "audience": [
+    "administrator",
+    "functional consultant",
+    "partner"
+  ],
+  "extraction_hash": "af6b52f1c2f37d5a93160dbe589d7af8c89ab12e1b43240b3ca177e7ea702b94",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0153504
+  }
+}

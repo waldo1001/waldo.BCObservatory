@@ -1,0 +1,27 @@
+{
+  "video_id": "VoiUhPb6HQ0",
+  "item_id": "video/yt-bcmusings/VoiUhPb6HQ0",
+  "summary": "Manufacturing report changes in Business Central version 27 (2025 Wave 2), and how to find code differences between versions using Stefan Maron's BC code history repository on GitHub with the GitLens extension in Visual Studio Code. Demonstrates the Where Used and Quantity Explosion of BOM reports, where RDLC layout is obsoleted and Excel becomes the default.",
+  "overview": "The video covers what changed in the manufacturing module reports in version 27, including word layouts, Excel layouts, some obsoletions and documentation updates. The presenter shows how to clone the BC code history repository by MVP Stefan Maron, open the manufacturing reports, install GitLens in Visual Studio Code, and compare version 26 and 27 through file history.\n\nThe presenter then runs the Where Used report and reviews code changes in it and in Quantity Explosion of BOM. In these reports Microsoft removed the default RDLC layout and made Excel the default. The video ends with the manufacturing analytics site, ad hoc analysis on ledger pages and opening list pages in Excel.",
+  "key_points": [
+    "Stefan Maron's GitHub BC code history repository has branches for versions 15 through 27, per country and for W1.",
+    "GitLens in Visual Studio Code gives file history and diffs, so you can compare version 26 and 27 of a report file.",
+    "In version 27 the default RDLC layout was removed from the reports shown and Excel is the default; the RDLC layout is marked obsolete and new labels support the Excel layout.",
+    "The browser report viewer is no longer available by default, so only a download appears; RDLC may still show if the installation is not clean.",
+    "Send To lets you get only the data set of a report without layout rendering.",
+    "Reports covered include Where Used, Where Used Top Level, Quantity Explosion of BOM, Production Order Work in Progress, Production Order Statistics and Production Order List.",
+    "Ad hoc analysis can be turned on for ledger list pages such as item ledger entries, and list pages can be opened in Excel."
+  ],
+  "audience": [
+    "developer",
+    "functional consultant",
+    "administrator"
+  ],
+  "extraction_hash": "1c815ad0e7fee81ca5c45a7a61ff1e68d2a1f0bbd74ae10b9ba54a63f854b078",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0185624
+  }
+}

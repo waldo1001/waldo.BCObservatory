@@ -1,0 +1,46 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/upgrade/upgrade-unmodified-application-v16-to-v17.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-unmodified-application-v16-to-v17",
+  "title": "Upgrading Version 16 Base Application to Version 17",
+  "blob": "47105e2b50106cedb690fe2c61bbb3a6afa08cf1",
+  "summary": "Upgrading from version 16 to version 17 involves database conversion, license import, and extension publishing. Use this for single-tenant or multitenant deployments of the 2020 release wave 1 base application.",
+  "systems": [
+    "platform",
+    "administration",
+    "development"
+  ],
+  "topics": [
+    "upgrade",
+    "version 16",
+    "version 17",
+    "database conversion",
+    "extensions",
+    "multitenant"
+  ],
+  "objects": [],
+  "features": [
+    "Database backup and restoration",
+    "Extension uninstallation",
+    "Database conversion to new platform",
+    "Server instance configuration",
+    "License import",
+    "Extension publishing and synchronization",
+    "Data upgrade",
+    "Control add-in upgrade"
+  ],
+  "versions": [
+    "2020 release wave 1",
+    "version 16",
+    "version 17"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.017043,
+      "pages_in_call": 2
+    }
+  ]
+}

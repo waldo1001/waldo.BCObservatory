@@ -1,0 +1,865 @@
+{
+  "video_id": "jfvUkNa4gyg",
+  "item_id": "video/yt-stefanmaron/jfvUkNa4gyg",
+  "title": "AL Development using Claude Code - The Business Central Coding Stream",
+  "duration_s": 2785,
+  "systems": [
+    "development",
+    "platform",
+    "copilot"
+  ],
+  "topics": [
+    "al development",
+    "cloud code",
+    "ai agents",
+    "agent orchestration",
+    "code generation",
+    "code review",
+    "diagnostics",
+    "requirements engineering",
+    "solution planning",
+    "testing",
+    "refactoring",
+    "interface patterns"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and setup",
+      "t_start": 0,
+      "t_end": 176.4
+    },
+    {
+      "title": "Cloud Code basics and limitations with one-off prompts",
+      "t_start": 176.4,
+      "t_end": 255.7
+    },
+    {
+      "title": "Personal configuration and marketplace plugins",
+      "t_start": 255.7,
+      "t_end": 395.8
+    },
+    {
+      "title": "Agent-based workflow commands",
+      "t_start": 395.8,
+      "t_end": 545.2
+    },
+    {
+      "title": "Planning phase with approval gates",
+      "t_start": 545.2,
+      "t_end": 683.8
+    },
+    {
+      "title": "Document-driven approach and context management",
+      "t_start": 683.8,
+      "t_end": 815.6
+    },
+    {
+      "title": "Folder structure, agent architecture and requirements engineer guidance",
+      "t_start": 815.6,
+      "t_end": 965.9
+    },
+    {
+      "title": "AL compile wrapper tool and code review diagnostics agents",
+      "t_start": 965.9,
+      "t_end": 1152.9
+    },
+    {
+      "title": "Real-world project session and interface pattern discussion",
+      "t_start": 1152.9,
+      "t_end": 1440.7
+    },
+    {
+      "title": "Iterative planning with prompt generation and solution plan",
+      "t_start": 1440.7,
+      "t_end": 1787.7
+    },
+    {
+      "title": "Multi-phase developer agent execution with code review and diagnostics",
+      "t_start": 1787.7,
+      "t_end": 2048.9
+    },
+    {
+      "title": "Code changes diagnostics analysis and compilation verification",
+      "t_start": 2048.9,
+      "t_end": 2299.8
+    },
+    {
+      "title": "AI development workflow testing approach and benefits of agent architecture",
+      "t_start": 2299.8,
+      "t_end": 2537.6
+    },
+    {
+      "title": "AI agents versus manual coding and stream wrap-up",
+      "t_start": 2537.6,
+      "t_end": 2785
+    }
+  ],
+  "features": [
+    {
+      "name": "Cloud Code",
+      "description": "An AI development agent tool that behaves similarly to Copilot or other AI assistance tools, used for AL development.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 79.7,
+      "t_end": 103.2,
+      "is_demoed": true,
+      "caveats": [
+        "Not the only AI tool available",
+        "Struggles with complex AL development without structured approach"
+      ],
+      "tags": [
+        "ai agent",
+        "development tool",
+        "al"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Cloud Code plugins marketplace",
+      "description": "A library of plugins that can be installed to package entire solutions, prompts and agents, with marketplace discovery capabilities.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 320.3,
+      "t_end": 395.8,
+      "is_demoed": true,
+      "caveats": [
+        "Marketplace registration process may have changed",
+        "Installation process not clearly documented in all cases"
+      ],
+      "tags": [
+        "plugins",
+        "marketplace",
+        "extensibility"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Agent-based development workflow",
+      "description": "A structured development process using multiple agents for planning, development, code review, diagnostics, documentation and testing with approval gates between phases.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 220.1,
+      "t_end": 534.8,
+      "is_demoed": true,
+      "caveats": [
+        "Configuration provided as-is",
+        "Not all features tested or actively used by presenter",
+        "Interview command placement flexible"
+      ],
+      "tags": [
+        "agents",
+        "workflow",
+        "automation"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Planning agent with requirements and solution planning",
+      "description": "First phase agent that creates requirements documents and solution documents with separate requirements engineer and solution planning sub-agents running with approval gates between them.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 467,
+      "t_end": 670.9,
+      "is_demoed": true,
+      "caveats": [
+        "Initially had separate steps but presenter consolidated them",
+        "Requires manual approval to proceed"
+      ],
+      "tags": [
+        "planning",
+        "requirements",
+        "approval gates"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Develop agent with code review and diagnostics",
+      "description": "Development phase agent that generates AL code, runs code review, and executes diagnostics with the compiler and code cups to identify and fix issues.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 484.7,
+      "t_end": 859.2,
+      "is_demoed": true,
+      "caveats": [
+        "Cannot easily execute tests"
+      ],
+      "tags": [
+        "code generation",
+        "code review",
+        "diagnostics"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Document-driven development approach",
+      "description": "A workflow where all results are saved to markdown files in a folder structure, allowing sessions to be closed and resumed later while maintaining context clarity and enabling other agents to pick up from documentation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 694.5,
+      "t_end": 815.6,
+      "is_demoed": true,
+      "caveats": [
+        "Requires discipline in file organization"
+      ],
+      "tags": [
+        "documentation",
+        "context management",
+        "session continuity"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Agent-based orchestration for Cloud Code",
+      "description": "Main session orchestrates multiple agents that read context from files, reducing the need for the main session to know all details and enabling longer coding sessions with distributed context.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 785.9,
+      "t_end": 848.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "agent orchestration",
+        "context management",
+        "session design"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AL Compile Wrapper Tool",
+      "description": "Open source tool that simplifies AL compilation by automatically detecting VS Code extension folders, reusing the compiler, finding package caches and analyzers without requiring manual specification of complex compiler flags.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 965.9,
+      "t_end": 1047.1,
+      "is_demoed": true,
+      "caveats": [
+        "Requires being in a project directory"
+      ],
+      "tags": [
+        "compilation",
+        "automation",
+        "developer experience"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Requirements Engineer Agent",
+      "description": "Agent that analyzes codebases to identify non-testable procedures and creates comprehensive refactoring plans to improve testability of existing code. Produces large requirements documents and authoring requirements from specifications.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 875.8,
+      "t_end": 1654.1,
+      "is_demoed": true,
+      "caveats": [
+        "Produces documents with some lingering questions requiring manual answers",
+        "Burned significant tokens for large document generation"
+      ],
+      "tags": [
+        "testing",
+        "refactoring",
+        "code analysis",
+        "requirements",
+        "documentation"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Code Review Agent",
+      "description": "Agent that reviews code to enforce development patterns like DRY and SOLID principles, treating warnings and infos as acceptable in diagnostics. Performs automated code review in separate sessions identifying non-blocking issues.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1062.9,
+      "t_end": 2037.6,
+      "is_demoed": true,
+      "caveats": [
+        "Still working on fully implementing DRY and SOLID patterns",
+        "Assumes warnings and infos in diagnostics are acceptable",
+        "Issues are categorized and require confirmation before developer agent applies fixes"
+      ],
+      "tags": [
+        "code quality",
+        "design patterns",
+        "code review",
+        "quality assurance"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Diagnostics Fixer Agent",
+      "description": "Agent that automatically fixes diagnostic issues including lint interop warnings before code review, reducing manual cleanup work. Applies fixes for warnings and errors identified by the AL compiler.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1116.9,
+      "t_end": 2048.9,
+      "is_demoed": true,
+      "caveats": [
+        "Diagnostic rule configuration may need tweaking to catch all desired fixes",
+        "Currently catches main issues but leaves many info-level items"
+      ],
+      "tags": [
+        "diagnostics",
+        "automation",
+        "code quality"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Interface wrapper pattern for testability",
+      "description": "Design pattern using interface wrappers to mock dependencies in unit tests, avoiding single instance true when not needed and allowing code units to be assigned to interfaces.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1344.1,
+      "t_end": 1467,
+      "is_demoed": true,
+      "caveats": [
+        "Should avoid single instance pattern when possible"
+      ],
+      "tags": [
+        "testing",
+        "interface patterns",
+        "mocking"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Iterative refactoring with context preservation",
+      "description": "Workflow pattern where Cloud Code generates prompts and context files for the next planning iteration after exploring code, allowing clean context restart while preserving previous work in archive.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1488.8,
+      "t_end": 1577.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "iterative development",
+        "context management",
+        "workflow"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Solution planning agent",
+      "description": "Agent that creates solution plans defining needed interfaces and procedures without writing full AL code. Produces approximately 700-line plans with architectural guidance.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1654.1,
+      "t_end": 1752.6,
+      "is_demoed": true,
+      "caveats": [
+        "Still includes some AL code despite instructions to avoid it",
+        "Instructions need refinement"
+      ],
+      "tags": [
+        "agent",
+        "solution planning",
+        "architecture"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Multi-phase developer agent",
+      "description": "A developer agent that implements code in sequential phases, responding to mid-execution prompts for corrections and changes. Ran six phases with variable execution times and dynamically adjusted naming conventions based on live feedback.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1787.7,
+      "t_end": 1913.8,
+      "is_demoed": true,
+      "caveats": [
+        "Requires manual review and prompt corrections mid-execution",
+        "Access modifiers needed adjustment from local to internal for test app support"
+      ],
+      "tags": [
+        "agent",
+        "code generation",
+        "iterative development"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AL compiler JSON output",
+      "description": "The AL compiler can output diagnostics directly to JSON format in a folder, making it easier for cloud code to process diagnostics without relying on command output.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2115.6,
+      "t_end": 2167.6,
+      "is_demoed": true,
+      "caveats": [
+        "Requires configuration in compiler settings",
+        "Currently produces many info-level items"
+      ],
+      "tags": [
+        "compiler",
+        "diagnostics",
+        "output formatting"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Interface parameters with dependency injection",
+      "description": "The developer agent successfully implemented interface parameters for internal procedures to enable dependency injection patterns, allowing refactored code to maintain testability.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2197,
+      "t_end": 2262.7,
+      "is_demoed": true,
+      "caveats": [
+        "Question remains whether very short local procedures with interface parameters should be tested"
+      ],
+      "tags": [
+        "refactoring",
+        "design patterns",
+        "testing"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Unpolluted context with agent architecture",
+      "description": "Agent-based development keeps context clean by having each agent start with only its specific instructions and relevant documents, preventing context pollution and sidetracking from previous iterations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2416.9,
+      "t_end": 2454.3,
+      "is_demoed": true,
+      "caveats": [
+        "Each agent knows general documents and its specific instructions but not previous context"
+      ],
+      "tags": [
+        "agent architecture",
+        "context management",
+        "workflow"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Cloud Profiles for AI Agent Configuration",
+      "description": "Capability to take everything or use parts of cloud profiles including prompts and agents as needed.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2341.8,
+      "t_end": 2354.6,
+      "is_demoed": false,
+      "caveats": [
+        "Requires iterations"
+      ],
+      "tags": [
+        "ai agents",
+        "configuration"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent Context Isolation",
+      "description": "AI agents start with clean context containing only MCP server knowledge, general documents, and specific instructions, preventing distraction from prior conversation history.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2427,
+      "t_end": 2465.6,
+      "is_demoed": true,
+      "caveats": [
+        "Limited to specific agent scope"
+      ],
+      "tags": [
+        "context management",
+        "ai agents",
+        "mcp servers"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent File-Based Output Strategy",
+      "description": "Agents write detailed findings to files and return only summaries to the main session, preventing context bloat and enabling longer development sessions without restart.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2484.1,
+      "t_end": 2524.2,
+      "is_demoed": true,
+      "caveats": [
+        "Requires manual file-based approach",
+        "Not automatic in all scenarios"
+      ],
+      "tags": [
+        "ai agents",
+        "context management",
+        "file handling"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Extended Agent Session Runtime",
+      "description": "Ability to run uninterrupted AI agent sessions for over one hour with context staying at 69 percent utilization through strategic output management.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2465.6,
+      "t_end": 2485.1,
+      "is_demoed": true,
+      "caveats": [
+        "Depends on proper agent configuration and file output strategy"
+      ],
+      "tags": [
+        "ai agents",
+        "performance",
+        "context management"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent-Driven Development Orchestration",
+      "description": "Approach where developers orchestrate AI agents to write and refactor code rather than writing manually, focusing on reviewing and testing instead of typing.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2557,
+      "t_end": 2631.8,
+      "is_demoed": true,
+      "caveats": [
+        "Small bug fixes may still be faster to code manually",
+        "Requires careful review and testing"
+      ],
+      "tags": [
+        "ai agents",
+        "development workflow",
+        "code review"
+      ],
+      "system": "development"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Business Sentinel",
+      "t": 176.4
+    },
+    {
+      "type": "codeunit",
+      "name": "helper code units",
+      "t": 1314
+    },
+    {
+      "type": "codeunit",
+      "name": "resolver code units",
+      "t": 1326.5
+    },
+    {
+      "type": "other",
+      "name": "requirements engineer",
+      "t": 1577.6
+    },
+    {
+      "type": "other",
+      "name": "solution plan",
+      "t": 1654.1
+    },
+    {
+      "type": "other",
+      "name": "developer agent",
+      "t": 1787.7
+    },
+    {
+      "type": "other",
+      "name": "code review agent",
+      "t": 1951.6
+    },
+    {
+      "type": "other",
+      "name": "diagnostic fixer",
+      "t": 2037.6
+    },
+    {
+      "type": "other",
+      "name": "MCP servers",
+      "t": 2437.4
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Max",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 90,
+      "text": "It's a uh an AI development agent, I believe is the term for it. And it behaves in a way similar to Copilot or",
+      "why_it_matters": "Defines Cloud Code's positioning and capabilities as an AI development tool comparable to other assistants.",
+      "check": "exact"
+    },
+    {
+      "t": 198,
+      "text": "those one-off prompts do not really work well if you get into development that is a little bit more complex, right?",
+      "why_it_matters": "Explains the limitation that prompted the shift to agent-based workflow for complex AL development.",
+      "check": "exact"
+    },
+    {
+      "t": 240.3,
+      "text": "I've worked on my take on implementing this kind of development workflow using agents based on what he's he's shown there.",
+      "why_it_matters": "Describes the source and inspiration for the agent-based approach discussed throughout the session.",
+      "check": "exact"
+    },
+    {
+      "t": 277.2,
+      "text": "But um in general this is just the config I use. So just in at the very beginning a disclaimer of this is like",
+      "why_it_matters": "Establishes that the published configuration is provided without guarantees or support.",
+      "check": "exact"
+    },
+    {
+      "t": 620.2,
+      "text": "Here what it does it runs the two planning agents with approval gates. So first it runs the requirements engineer and then it runs",
+      "why_it_matters": "Details the specific structure and sequence of the planning phase with built-in approval checkpoints.",
+      "check": "exact"
+    },
+    {
+      "t": 694.5,
+      "text": "We are document driven. What I wanted to achieve is that I can at any point stop implementing like when when it's done with",
+      "why_it_matters": "Explains the design philosophy enabling session continuity and context preservation through document-driven workflows.",
+      "check": "exact"
+    },
+    {
+      "t": 768.6,
+      "text": "What this does is it writes stuff down to the files and then it returns just a summary to the main session you're interacting",
+      "why_it_matters": "Describes the context optimization strategy that enables longer Cloud Code sessions by off-loading details to files.",
+      "check": "exact"
+    },
+    {
+      "t": 796.8,
+      "text": "the main session is just orchestrating the agents a little bit and maybe having the conversation with you, but it's not responsible of knowing",
+      "why_it_matters": "Explains the architectural advantage of distributed agent context for enabling longer sessions than traditional single-agent approaches.",
+      "check": "exact"
+    },
+    {
+      "t": 859.2,
+      "text": "the compiler runs with all the a um code cups running. So it can uh look at the diagnostics, fix them and then we",
+      "why_it_matters": "Shows how agents handle compilation diagnostics as part of the workflow chain, automating error detection and fixing.",
+      "check": "exact"
+    },
+    {
+      "t": 1011,
+      "text": "you just run al compile. It automatically detects your VS code folders with the extension folder. It grabs the latest one, reuses the compiler",
+      "why_it_matters": "Demonstrates the simplification of AL compilation from complex manual flags to automatic detection, making it practical for AI agents.",
+      "check": "exact"
+    },
+    {
+      "t": 1102.1,
+      "text": "it really helps with putting out um first of all code that works. Uh and or at least compiles and is not that bad",
+      "why_it_matters": "Indicates the code review agent produces functional, compilable output despite ongoing improvements to design pattern enforcement.",
+      "check": "exact"
+    },
+    {
+      "t": 1185.8,
+      "text": "So today I took some time and had it uh rerun or analyze the code for testability.",
+      "why_it_matters": "Shows real-world application of agents to existing codebases for identifying testability issues before refactoring.",
+      "check": "exact"
+    },
+    {
+      "t": 1454.8,
+      "text": "Now I don't want to do single instance. Can we just create an interface wrapper for the posting? So you can mock it in",
+      "why_it_matters": "Demonstrates iterative design decisions where developer guides agents away from anti-patterns toward testable interface-based designs.",
+      "check": "exact"
+    },
+    {
+      "t": 1577.6,
+      "text": "it started planning. It ran for 3 minute, burned more 50,000 tokens in the uh with the requirements engineer and ...",
+      "why_it_matters": "Provides concrete metrics on agent execution time and token consumption for multi-phase planning workflows.",
+      "check": "exact"
+    },
+    {
+      "t": 1577.6,
+      "text": "It ran for 3 minute, burned more 50,000 tokens in the uh with the requirements engineer and it put out the requirements document",
+      "why_it_matters": "Quantifies the computational cost and time investment in AI-driven requirements engineering",
+      "check": "exact"
+    },
+    {
+      "t": 1804.6,
+      "text": "So it started six phases because it's a large implementation. It runs the developer for each phase se sequentially.",
+      "why_it_matters": "Shows how complex implementations are broken into manageable sequential phases for agent execution",
+      "check": "exact"
+    },
+    {
+      "t": 1865.8,
+      "text": "while this was running I prompted uh I I wrote this prompt I send it and then it cues up so as soon as",
+      "why_it_matters": "Demonstrates that agents can queue and process corrections mid-execution without stopping the workflow",
+      "check": "exact"
+    },
+    {
+      "t": 2048.9,
+      "text": "1 hour 1 minute to to do all those changes and it touched uh 42 files. It wrote 8,000 lines, ...",
+      "why_it_matters": "Quantifies the scale of refactoring performed automatically by the agent workflow",
+      "check": "exact"
+    },
+    {
+      "t": 2093.8,
+      "text": "Uh, Max. This is the smaller Max version. Um, with like for 100 bucks or something a month. Um, but I'm almost at the",
+      "why_it_matters": "Indicates the cost-benefit tradeoff of using Claude's pricing tiers for development work",
+      "check": "exact"
+    },
+    {
+      "t": 2372.6,
+      "text": "Yes, this is absolutely work in progress. I did not create tests while writing the code.",
+      "why_it_matters": "Explicitly states the development is work in progress and tests are not yet implemented, indicating an incomplete state.",
+      "check": "exact"
+    },
+    {
+      "t": 2385.1,
+      "text": "I didn't do testdriven development. So this is my um take on getting to a point where I have all the tests to then",
+      "why_it_matters": "Describes the testing strategy as post-development rather than test-driven, planned after customer go-live",
+      "check": "exact"
+    },
+    {
+      "t": 2437.4,
+      "text": "the agent starts with a clean with clean context basically. So let's look at the developer. Um, it has it knows about MCP servers",
+      "why_it_matters": "Explains the key architectural benefit of agents - clean context separation preventing context pollution",
+      "check": "exact"
+    },
+    {
+      "t": 2437.4,
+      "text": "the agent starts with a clean with clean context basically. So let's look at the developer.",
+      "why_it_matters": "Describes a key architectural benefit of AI agents - isolated context prevents distraction and maintains focus.",
+      "check": "exact"
+    },
+    {
+      "t": 2465.6,
+      "text": "this ran for over an hour. It did all of those changes and I'm at 69% context while I started at 20%",
+      "why_it_matters": "Quantifies the extended runtime capability achieved through agent-based development, demonstrating practical feasibility.",
+      "check": "exact"
+    },
+    {
+      "t": 2512.6,
+      "text": "I've implemented this strict rule that they return just a few lines and they write everything else to file.",
+      "why_it_matters": "Reveals a specific strategy to maintain context health by limiting agent returns to the main session.",
+      "check": "exact"
+    },
+    {
+      "t": 2573.4,
+      "text": "my knowledge about business central in general and AL development is much more worth than me physically typing in the lines of code.",
+      "why_it_matters": "States the core rationale for shifting from manual coding to agent orchestration - leveraging expertise where it matters most.",
+      "check": "exact"
+    },
+    {
+      "t": 2731.3,
+      "text": "It was the first time I had a runtime of like over 1 hour of uninterrupted runtime basically and also with like more or",
+      "why_it_matters": "Milestone achievement showing agents can sustain hour-long sessions with acceptable output quality.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 277.2,
+      "kind": "other",
+      "text": "this is like provided as is"
+    },
+    {
+      "t": 452.9,
+      "kind": "other",
+      "text": "not all of this is really working or even used by me or tested"
+    },
+    {
+      "t": 1091,
+      "kind": "subject-to-change",
+      "text": "I still I'm still working on that. It's it's not really following those. And it also assumes that warnings and ..."
+    },
+    {
+      "t": 1752.6,
+      "kind": "subject-to-change",
+      "text": "There's still AL code in there. So my instructions still need refinement."
+    },
+    {
+      "t": 2354.6,
+      "kind": "subject-to-change",
+      "text": "I've not yet investigated um how how to make it uh control itself more"
+    },
+    {
+      "t": 2372.6,
+      "kind": "not-in-this-release",
+      "text": "this is not yet live this app this is for a customer as I said and um this is still ..."
+    },
+    {
+      "t": 2372.6,
+      "kind": "other",
+      "text": "this is absolutely work in progress. I did not create tests while writing the code"
+    },
+    {
+      "t": 2403,
+      "kind": "other",
+      "text": "this is not yet live this app this is still on the drawing board so not done tests will be done soon"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 27,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 22
+  },
+  "windows": 4,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.023423
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.025644
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.028165000000000003
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.0301554
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.039083
+    }
+  ]
+}

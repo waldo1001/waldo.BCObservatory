@@ -1,0 +1,219 @@
+{
+  "video_id": "KmuTVkodRXM",
+  "item_id": "video/yt-bcmusings/KmuTVkodRXM",
+  "title": "All new goodies about AL Namespace in BC 2025 wave 2",
+  "duration_s": 637,
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "al namespace",
+    "record id formatting",
+    "system reflection",
+    "all objects with captions",
+    "page extensions",
+    "fully qualified names",
+    "analysis mode"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and overview of AL namespace",
+      "t_start": 0,
+      "t_end": 24.8
+    },
+    {
+      "title": "Comparing BC26 and BC27 - the new AL namespace field",
+      "t_start": 24.8,
+      "t_end": 97.4
+    },
+    {
+      "title": "Finding AL namespace in All Objects with Captions table",
+      "t_start": 97.4,
+      "t_end": 212.6
+    },
+    {
+      "title": "Creating extensions and using System Reflection namespace",
+      "t_start": 212.6,
+      "t_end": 299
+    },
+    {
+      "title": "Demonstrating AL namespace in analysis mode",
+      "t_start": 299,
+      "t_end": 384.1
+    },
+    {
+      "title": "Using AL namespace with Record ID formatting",
+      "t_start": 384.1,
+      "t_end": 458.5
+    },
+    {
+      "title": "Evaluating Record ID against fully qualified namespaces",
+      "t_start": 458.5,
+      "t_end": 572.6
+    },
+    {
+      "title": "Summary and conclusion",
+      "t_start": 572.6,
+      "t_end": 637
+    }
+  ],
+  "features": [
+    {
+      "name": "AL namespace field in All Objects with Captions table",
+      "description": "A new text 500 field called AL namespace has been added to the All Objects with Captions table in BC27, providing visibility into the namespace of each AL object.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 24.8,
+      "t_end": 159.2,
+      "is_demoed": true,
+      "caveats": [
+        "The field is not visible on the standard page 9174 in the base application, but can be added via page extension since the page is extensible"
+      ],
+      "tags": [
+        "al namespace",
+        "all objects with captions",
+        "table field",
+        "bc27"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Record ID formatting with AL namespace",
+      "description": "Record ID variables can now be formatted to display the fully qualified AL namespace of the record using format type 9, showing which namespace a record belongs to.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 384.1,
+      "t_end": 478.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "record id",
+        "formatting",
+        "al namespace",
+        "format type 9"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Record ID evaluation against fully qualified namespace",
+      "description": "Developers can now evaluate a Record ID variable against a specific fully qualified namespace to test whether a record belongs to a particular namespace.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 478.7,
+      "t_end": 572.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "record id",
+        "namespace evaluation",
+        "fully qualified name"
+      ],
+      "system": "development"
+    }
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "All Objects with Captions",
+      "t": 24.8
+    },
+    {
+      "type": "page",
+      "name": "All Objects with Captions",
+      "t": 59.8
+    },
+    {
+      "type": "page",
+      "name": "All Objects with Caption",
+      "t": 87.2
+    },
+    {
+      "type": "page",
+      "name": "All Objects with Caption (page 9174)",
+      "t": 169.7
+    },
+    {
+      "type": "table",
+      "name": "Sample",
+      "t": 366
+    },
+    {
+      "type": "report",
+      "name": "Data Also Sample",
+      "t": 366
+    },
+    {
+      "type": "page",
+      "name": "Customer List",
+      "t": 430.7
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 24.8,
+      "text": "the table is called all objects with captions. uh and the new field is called uh al namespace.",
+      "why_it_matters": "Establishes the core subject of the video - the new AL namespace field added to the All Objects with Captions table",
+      "check": "exact"
+    },
+    {
+      "t": 87.2,
+      "text": "if we switch to bc27 and we go to the same page all object with caption",
+      "why_it_matters": "Demonstrates this is a new feature in BC27, distinguishing it from BC26",
+      "check": "fuzzy"
+    },
+    {
+      "t": 145.4,
+      "text": "al name space it's a text 500 field and it was also added to the dropdown to the uh group field group",
+      "why_it_matters": "Specifies the field type and that it was added to the field group for visibility",
+      "check": "exact"
+    },
+    {
+      "t": 286.2,
+      "text": "the table is part of namespace system reflection. So that's how that's how it goes.",
+      "why_it_matters": "Explains that All Objects with Captions table belongs to the System Reflection namespace",
+      "check": "exact"
+    },
+    {
+      "t": 412.1,
+      "text": "now that it will display the type the al name space of that record id in which a al name space that",
+      "why_it_matters": "Describes the new capability to format Record ID with AL namespace information",
+      "check": "fuzzy"
+    },
+    {
+      "t": 523.2,
+      "text": "So the fully qualifying name for customer is that one Microsoft sales customer.",
+      "why_it_matters": "Shows example of fully qualified namespace naming convention for records",
+      "check": "exact"
+    },
+    {
+      "t": 586.2,
+      "text": "microsoft is introducing the new uh field dl name space in all objects with caption table and uh",
+      "why_it_matters": "Summary of the two main new capabilities introduced for AL namespace in BC27",
+      "check": "fuzzy"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 3
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.019086
+    }
+  ]
+}

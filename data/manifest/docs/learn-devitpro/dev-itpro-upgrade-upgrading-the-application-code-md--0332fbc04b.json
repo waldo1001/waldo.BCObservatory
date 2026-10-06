@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/Upgrading-the-Application-Code",
   "published_at": "2026-06-02T11:43:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "bd578ff18d39dc0ae933fb3b56c17045d206089f",
       "words": 3468,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:21:01.347Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.023604
+    },
+    "summarized": {
+      "at": "2026-10-06T18:21:03.241Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:21:03.242Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:21:03.243Z",
+      "page": false
     }
   },
   "input_hash": "bd578ff18d39dc0ae933fb3b56c17045d206089f",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "bd578ff18d39dc0ae933fb3b56c17045d206089f"
+  "output_hash": "95a859b8129965c480d95e76e599bbdf67875542c650075056b5197bbae1875a"
 }

@@ -1,0 +1,220 @@
+{
+  "video_id": "zE6uElxwSMQ",
+  "item_id": "video/yt-microsoft/zE6uElxwSMQ",
+  "title": "Carglass Sweden",
+  "duration_s": 111,
+  "systems": [
+    "sales",
+    "integration",
+    "administration"
+  ],
+  "topics": [
+    "cloud migration",
+    "booking management",
+    "customer satisfaction",
+    "data access",
+    "branch coordination",
+    "real-time visibility",
+    "scalability"
+  ],
+  "chapters": [
+    {
+      "title": "Carglass company background and business context",
+      "t_start": 0,
+      "t_end": 15.8
+    },
+    {
+      "title": "Migration drivers - scalability and cloud adoption",
+      "t_start": 15.8,
+      "t_end": 29.4
+    },
+    {
+      "title": "Business challenges with coordination and bookings",
+      "t_start": 29.4,
+      "t_end": 40.2
+    },
+    {
+      "title": "Business Central improvements to booking workflows",
+      "t_start": 40.2,
+      "t_end": 53.9
+    },
+    {
+      "title": "Platform consolidation within Microsoft ecosystem",
+      "t_start": 53.9,
+      "t_end": 70.7
+    },
+    {
+      "title": "Data migration and integration as key success factors",
+      "t_start": 70.7,
+      "t_end": 82.1
+    },
+    {
+      "title": "Results - performance gains and customer satisfaction impact",
+      "t_start": 82.1,
+      "t_end": 111
+    }
+  ],
+  "features": [
+    {
+      "name": "Automated technician scheduling with booking system",
+      "description": "Customers can view suggested next available time slots at the closest branch and technicians are automatically reserved when bookings are placed.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 40.2,
+      "t_end": 53.9,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "booking",
+        "scheduling",
+        "automation",
+        "customer-facing"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Real-time booking visibility across branches",
+      "description": "Booking information is instantly available in a unified overview, providing visibility across multiple branches and improving coordination.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 40.2,
+      "t_end": 53.9,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "visibility",
+        "real-time",
+        "coordination",
+        "branch-management"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Cloud-based Business Central ERP",
+      "description": "Migration from on-premises ERP solution to cloud-based Business Central to meet scalability, data access, and collaboration requirements.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 15.8,
+      "t_end": 29.4,
+      "is_demoed": false,
+      "caveats": [
+        "migration of data from on-premises is required"
+      ],
+      "tags": [
+        "cloud",
+        "migration",
+        "erp",
+        "scalability"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Enhanced booking system performance",
+      "description": "Booking site and booking board functionality runs faster in the cloud with real-time data access compared to the previous on-premises system.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 82.1,
+      "t_end": 95,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "performance",
+        "cloud-benefits",
+        "real-time",
+        "booking"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Data integration and smart connectivity",
+      "description": "Connecting and making data smart through integration is identified as the key game changer beyond just migrating data from on-premises to cloud.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 82.1,
+      "t_end": 95,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "integration",
+        "data-connectivity",
+        "intelligent-systems"
+      ],
+      "system": "integration"
+    }
+  ],
+  "objects": [],
+  "presenters": [
+    {
+      "name": "Carl (Carglass representative)",
+      "confidence": "low"
+    },
+    {
+      "name": "Cosmo representative",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 15.8,
+      "text": "We needed a system that could keep up with our ambitions in terms of scalability, data access and collaboration.",
+      "why_it_matters": "Articulates the core business requirements driving the migration decision.",
+      "check": "exact"
+    },
+    {
+      "t": 29.4,
+      "text": "We have over a hundred of repair shops across Sweden or branches as we like to call them.",
+      "why_it_matters": "Establishes the scale and complexity of the organization requiring cloud-based coordination.",
+      "check": "exact"
+    },
+    {
+      "t": 40.2,
+      "text": "customers have suggested the next available time slot for the closest branch and a technician is automatically reserved when the booking is placed",
+      "why_it_matters": "Demonstrates the automated workflow improvement achieved with Business Central.",
+      "check": "exact"
+    },
+    {
+      "t": 53.9,
+      "text": "The information is then instantly available in the dimeuler overview and this is a huge improvement compared to the previous way of working.",
+      "why_it_matters": "Shows the real-time visibility benefit delivered by cloud migration.",
+      "check": "exact"
+    },
+    {
+      "t": 82.1,
+      "text": "Connecting data and making it smart, it's the actual game changer.",
+      "why_it_matters": "Highlights that integration and data connectivity are critical beyond just migration.",
+      "check": "exact"
+    },
+    {
+      "t": 95,
+      "text": "The booking site and the booking board runs much faster and we get access to data in real time.",
+      "why_it_matters": "Quantifies the performance and access improvements from cloud-based Business Central.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 5
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.012580999999999998
+    }
+  ]
+}

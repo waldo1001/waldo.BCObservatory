@@ -1,0 +1,116 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/upgrade/Upgrading-the-Data.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/Upgrading-the-Data",
+  "title": "Upgrading the Data to in Single-Tenant Deployment",
+  "blob": "4f46652f87184d05c4131c5b41b15f969de07c16",
+  "summary": "Upgrading the Data describes the single-tenant data upgrade process to convert old database structures to work with new Business Central versions by running upgrade codeunits and synchronizing the database schema.",
+  "systems": [
+    "administration",
+    "development"
+  ],
+  "topics": [
+    "data upgrade",
+    "single-tenant deployment",
+    "schema synchronization",
+    "upgrade toolkit",
+    "data migration",
+    "extension upgrade"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Server Instance"
+    },
+    {
+      "type": "table",
+      "name": "Debugger Breakpoint"
+    },
+    {
+      "type": "table",
+      "name": "Job Queue"
+    },
+    {
+      "type": "table",
+      "name": "DO Payment Connection Details"
+    },
+    {
+      "type": "table",
+      "name": "DO Payment Connection Setup"
+    },
+    {
+      "type": "table",
+      "name": "DO Payment Credit Card"
+    },
+    {
+      "type": "table",
+      "name": "DO Payment Credit Card Number"
+    },
+    {
+      "type": "table",
+      "name": "DO Payment Trans. Log Entry"
+    },
+    {
+      "type": "table",
+      "name": "Notification Template"
+    },
+    {
+      "type": "codeunit",
+      "name": "Company Initialization"
+    },
+    {
+      "type": "codeunit",
+      "name": "130400 CAL Test Runner"
+    },
+    {
+      "type": "codeunit",
+      "name": "130402 CAL Command Line Test Runner"
+    },
+    {
+      "type": "page",
+      "name": "Permission Sets"
+    },
+    {
+      "type": "page",
+      "name": "Control Add-ins"
+    },
+    {
+      "type": "xmlport",
+      "name": "9171"
+    },
+    {
+      "type": "xmlport",
+      "name": "9172"
+    },
+    {
+      "type": "xmlport",
+      "name": "9173 Export Permission Sets"
+    },
+    {
+      "type": "xmlport",
+      "name": "9174 Import Tenant Permissions"
+    }
+  ],
+  "features": [
+    "data conversion",
+    "schema synchronization",
+    "upgrade codeunits",
+    "extension publishing",
+    "symbol generation",
+    "permission set import/export",
+    "encryption key import",
+    "control add-in upgrade",
+    "V2 extension upgrade",
+    "local functionality extensions"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.023604,
+      "pages_in_call": 2
+    }
+  ]
+}

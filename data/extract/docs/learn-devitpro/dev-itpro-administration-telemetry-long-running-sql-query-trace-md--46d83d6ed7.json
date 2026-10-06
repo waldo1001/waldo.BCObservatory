@@ -1,0 +1,46 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-long-running-sql-query-trace.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-long-running-sql-query-trace",
+  "title": "Analyzing Long Running Operation (SQL Query) Telemetry",
+  "blob": "feddb1b1220f3796f7112a7aa456cd5e8c743042",
+  "summary": "Analyzing Long Running Operation (SQL Query) Telemetry documents how to monitor and analyze SQL queries that exceed 750 milliseconds execution time in Application Insights, helping tune slow queries and improve performance.",
+  "systems": [
+    "administration",
+    "platform",
+    "development"
+  ],
+  "topics": [
+    "telemetry",
+    "sql queries",
+    "performance monitoring",
+    "application insights",
+    "long running queries",
+    "database tuning"
+  ],
+  "objects": [],
+  "features": [
+    "Additional logging",
+    "Long Running SQL Query Telemetry",
+    "Azure Application Insights integration",
+    "AL Stack Trace",
+    "SQL Query Analysis",
+    "Long Running Query Threshold",
+    "CustomDimensions reporting"
+  ],
+  "versions": [
+    "16.1",
+    "17.4",
+    "18.6",
+    "2020 release wave 1"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006341,
+      "pages_in_call": 2
+    }
+  ]
+}

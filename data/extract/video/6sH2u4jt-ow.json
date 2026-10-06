@@ -1,0 +1,286 @@
+{
+  "video_id": "6sH2u4jt-ow",
+  "item_id": "video/yt-microsoft/6sH2u4jt-ow",
+  "title": "What's Cooking in Business Central: Storing Document Attachments outside the Database",
+  "duration_s": 279,
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "external storage",
+    "document attachments",
+    "blob storage",
+    "file share",
+    "sharepoint",
+    "file scenarios",
+    "backup responsibility",
+    "job queue",
+    "storage sync"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and External File Accounts Setup",
+      "t_start": 0,
+      "t_end": 32.9
+    },
+    {
+      "title": "Configuring Document Attachments External Storage Scenario",
+      "t_start": 32.9,
+      "t_end": 65.4
+    },
+    {
+      "title": "Enabling External Storage and Setting Root Folder",
+      "t_start": 65.4,
+      "t_end": 103.4
+    },
+    {
+      "title": "Upload and Delete Policy Configuration",
+      "t_start": 103.4,
+      "t_end": 161
+    },
+    {
+      "title": "Deletion Options and Feature Readiness",
+      "t_start": 161,
+      "t_end": 187.8
+    },
+    {
+      "title": "Uploading Document Attachments to External Storage",
+      "t_start": 187.8,
+      "t_end": 215.4
+    },
+    {
+      "title": "Verifying Upload and Retention in Business Central",
+      "t_start": 215.4,
+      "t_end": 250.3
+    },
+    {
+      "title": "Storage Sync and Migration Features",
+      "t_start": 250.3,
+      "t_end": 279
+    }
+  ],
+  "features": [
+    {
+      "name": "External Storage for Document Attachments",
+      "description": "Feature that allows offloading document attachments from the Business Central database to external storage such as blob storage, file share, or SharePoint. Files are automatically migrated based on configured policies.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 5.1,
+      "t_end": 176.2,
+      "is_demoed": true,
+      "caveats": [
+        "Users are using this feature at their own risk",
+        "Once files are offloaded to external storage, Business Central is not responsible for backups",
+        "If files are deleted on external storage, they will not be available in Business Central",
+        "Root folder must be configured for the storage to work"
+      ],
+      "tags": [
+        "external storage",
+        "document attachments",
+        "blob storage",
+        "file share",
+        "sharepoint"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Scheduled Upload with Job Queue",
+      "description": "Automated job queue that runs each night at 1:00 a.m. by default to automatically offload all document attachments from the database to external storage.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 128.3,
+      "t_end": 161,
+      "is_demoed": false,
+      "caveats": [
+        "Must be explicitly enabled in additional scenario setup"
+      ],
+      "tags": [
+        "job queue",
+        "scheduled upload",
+        "automation"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Immediate Delete After Upload Policy",
+      "description": "Policy option to immediately delete files from Business Central after they have been uploaded to external storage. When enabled, the delayed delete option becomes non-editable.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 113.9,
+      "t_end": 128.3,
+      "is_demoed": false,
+      "caveats": [
+        "Conflicts with delayed delete option",
+        "Once enabled, delayed delete becomes non-editable"
+      ],
+      "tags": [
+        "delete policy",
+        "upload policy"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Delayed Delete with Date Formula",
+      "description": "Policy option that keeps files in Business Central for a specified period using a date formula before automatic deletion. Default example shown is 7 days.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 113.9,
+      "t_end": 145,
+      "is_demoed": true,
+      "caveats": [
+        "Becomes non-editable if immediate delete is enabled"
+      ],
+      "tags": [
+        "delete policy",
+        "date formula",
+        "retention"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Delete External Files on Attachment Deletion",
+      "description": "Optional policy that controls whether external files are deleted when attachments are removed from Business Central. When disabled, files remain on external storage even after deletion in Business Central.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 161,
+      "t_end": 176.2,
+      "is_demoed": false,
+      "caveats": [
+        "When disabled, files remain on external storage after Business Central deletion"
+      ],
+      "tags": [
+        "delete policy",
+        "external files"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Storage Sync Feature",
+      "description": "Feature that allows offloading of existing document attachments already stored in the Business Central database to external storage.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 250.3,
+      "t_end": 260.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "storage sync",
+        "migration",
+        "existing attachments"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Restore Attachments from External Storage",
+      "description": "Feature allowing users to retrieve and restore document attachments from external storage back to the Business Central database.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 260.4,
+      "t_end": 279,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "restore",
+        "download",
+        "retrieval"
+      ],
+      "system": "administration"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "External File Accounts",
+      "t": 16.2
+    },
+    {
+      "type": "page",
+      "name": "File Scenarios",
+      "t": 32.9
+    },
+    {
+      "type": "page",
+      "name": "Assign Scenarios",
+      "t": 32.9
+    },
+    {
+      "type": "page",
+      "name": "Sales Orders",
+      "t": 187.8
+    },
+    {
+      "type": "page",
+      "name": "Document Attachments External Storage",
+      "t": 45.2
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 45.2,
+      "text": "you are using this feature as it is and on your own risk because once the files are offloaded it is your responsibility to",
+      "why_it_matters": "Clarifies that users assume responsibility for backups and maintenance when using external storage, establishing a critical liability boundary.",
+      "check": "exact"
+    },
+    {
+      "t": 65.4,
+      "text": "If files get deleted on external storage they will also not be available anymore for business central environment.",
+      "why_it_matters": "Establishes that deletion on external storage is permanent and cannot be recovered from Business Central, a key operational risk.",
+      "check": "exact"
+    },
+    {
+      "t": 145,
+      "text": "This option automatically offloads all your document attachments from your database by creating a job queue which will be run each night at 100",
+      "why_it_matters": "Describes the automation mechanism and default timing for the scheduled upload feature, important for planning and operations.",
+      "check": "exact"
+    },
+    {
+      "t": 260.4,
+      "text": "you can also bring them back just select from external storage and the system will download all those document attachments back to Business Central",
+      "why_it_matters": "Describes the restore capability, showing that the feature is reversible and provides data migration flexibility in both directions.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 45.2,
+      "kind": "other",
+      "text": "you are using this feature as it is and on your own risk because once the files are offloaded it is your responsibility to make proper backups and maintain those files"
+    },
+    {
+      "t": 65.4,
+      "kind": "other",
+      "text": "If files get deleted on external storage they will also not be available anymore for business central environment"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 4,
+    "quotes_dropped": 1,
+    "evidence_verified": 0,
+    "evidence_unverified": 7
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.01722
+    }
+  ]
+}

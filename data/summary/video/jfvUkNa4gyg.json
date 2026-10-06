@@ -1,0 +1,26 @@
+{
+  "video_id": "jfvUkNa4gyg",
+  "item_id": "video/yt-stefanmaron/jfvUkNa4gyg",
+  "summary": "Stefan Maron's coding stream shows an agent-based AL development workflow in Claude Code (named \"Cloud Code\" in the facts), with planning, developer, code review and diagnostics agents, approval gates, and file-based context. It includes a real session that refactored a customer project for testability, with caveats about work in progress and as-is config.",
+  "overview": "Stefan Maron explains why one-off prompts break down for more complex AL development and presents his own agent-based workflow. A planning phase runs a requirements engineer and a solution planner with approval gates. A developer agent then writes the code, followed by code review and diagnostics agents. Results are saved as markdown files, so a session can be stopped and resumed, and each agent starts with a clean context. He also shows an open source AL compile wrapper and the AL compiler's JSON diagnostics output.\n\nIn a real customer project session, he had the agents analyze existing code for testability and plan a refactoring that uses interface wrappers instead of single instance codeunits. The developer agent ran six phases for over an hour, touched 42 files and wrote about 8,000 lines. The main context rose from 20% to 69%. He says the configuration is provided as-is, that parts of it are untested, and that the project had no tests written yet.",
+  "key_points": [
+    "Agents write detailed findings to files and return only a short summary to the main session. This kept context at 69% (started at 20%) during a run of over one hour.",
+    "The planning phase runs a requirements engineer and then a solution planner, with manual approval between them. The solution plan was about 700 lines and still contained some AL code despite instructions to avoid it.",
+    "The requirements engineer run took about 3 minutes and used more than 50,000 tokens to produce a large requirements document.",
+    "The developer agent ran six phases in sequence, with code review and diagnostics. It took 1 hour 1 minute, touched 42 files and wrote about 8,000 lines. Access modifiers had to change from local to internal to support the test app.",
+    "The AL compile wrapper detects the VS Code extension folder, reuses the compiler and finds the package caches and analyzers. It must be run from a project directory.",
+    "The AL compiler can write diagnostics to JSON in a folder, which Claude Code can process more easily. It requires compiler settings and currently produces many info-level items.",
+    "For testability, he used an interface wrapper (for example around posting) so it can be mocked, instead of single instance codeunits. The agents cannot easily execute tests."
+  ],
+  "audience": [
+    "developer",
+    "partner"
+  ],
+  "extraction_hash": "a18eb73352c41bda1b60b1ce513ad5ff191453476f6e28e70aad02c42250c47b",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0312444
+  }
+}

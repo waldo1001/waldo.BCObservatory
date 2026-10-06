@@ -1,0 +1,857 @@
+{
+  "video_id": "1ft4o9lQzsU",
+  "item_id": "video/yt-areopa/1ft4o9lQzsU",
+  "title": "20260126 - Excel Report Layouts: From Basics to Refreshable, Real-Time Reporting",
+  "duration_s": 3000,
+  "systems": [
+    "reporting",
+    "inventory",
+    "integration"
+  ],
+  "topics": [
+    "excel report layouts",
+    "data contract",
+    "metadata",
+    "refreshable reports",
+    "power query",
+    "odata",
+    "onedrive integration",
+    "api connections",
+    "permissions",
+    "multilingual reports",
+    "pivot tables",
+    "conditional formatting"
+  ],
+  "chapters": [
+    {
+      "title": "Welcome and housekeeping",
+      "t_start": 0,
+      "t_end": 191
+    },
+    {
+      "title": "Presenter introduction: Tanya Bickski",
+      "t_start": 191,
+      "t_end": 311.9
+    },
+    {
+      "title": "Excel reports vs standard reports and agenda",
+      "t_start": 311.9,
+      "t_end": 398
+    },
+    {
+      "title": "Goals and benefits of Excel report layouts",
+      "t_start": 398,
+      "t_end": 519
+    },
+    {
+      "title": "Why use Excel report layouts: interactivity and collaboration",
+      "t_start": 519,
+      "t_end": 648.2
+    },
+    {
+      "title": "End user empowerment and Excel skills",
+      "t_start": 648.2,
+      "t_end": 766.6
+    },
+    {
+      "title": "Real-world use cases: physical inventory, certificates, and tracking changes",
+      "t_start": 766.6,
+      "t_end": 1030.1
+    },
+    {
+      "title": "Four-step process to create Excel layouts",
+      "t_start": 1030.1,
+      "t_end": 1066.8
+    },
+    {
+      "title": "Step 1: Getting the Excel workbook with data contract",
+      "t_start": 1066.8,
+      "t_end": 1234.2
+    },
+    {
+      "title": "System Excel sheets and metadata tables explained",
+      "t_start": 1234.2,
+      "t_end": 1474
+    },
+    {
+      "title": "Step 2: Laying out data using Excel features and Copilot",
+      "t_start": 1474,
+      "t_end": 1588
+    },
+    {
+      "title": "OneDrive integration and uploading Excel layouts to Business Central",
+      "t_start": 1588,
+      "t_end": 1874.3
+    },
+    {
+      "title": "Testing and running Excel report layouts",
+      "t_start": 1874.3,
+      "t_end": 1951.8
+    },
+    {
+      "title": "Refreshable Excel layouts and API structure",
+      "t_start": 1951.8,
+      "t_end": 2067.9
+    },
+    {
+      "title": "Connecting to Business Central via OData and Power Query",
+      "t_start": 2067.9,
+      "t_end": 2193.7
+    },
+    {
+      "title": "Building dynamic refreshable reports with environment variables",
+      "t_start": 2193.7,
+      "t_end": 2325.4
+    },
+    {
+      "title": "Q&A on environment variables, permissions, API configuration, and security",
+      "t_start": 2325.4,
+      "t_end": 2544
+    },
+    {
+      "title": "Sheet protection, password security, and refreshable Excel reports",
+      "t_start": 2544,
+      "t_end": 2715
+    },
+    {
+      "title": "Four-step process and key takeaways",
+      "t_start": 2715,
+      "t_end": 2810
+    },
+    {
+      "title": "Call to action, implementation strategy, resources, and closing",
+      "t_start": 2810,
+      "t_end": 3000
+    }
+  ],
+  "features": [
+    {
+      "name": "Excel report layouts",
+      "description": "Built-in functionality in Business Central that allows users to create Excel-based report layouts from any existing report data set without coding experience. Enables interactive data analysis with pivot tables, filters, conditional formatting, and advanced Excel capabilities.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 398,
+      "t_end": 1671,
+      "is_demoed": true,
+      "caveats": [
+        "Not designed primarily for printing",
+        "Requires user understanding of Excel to maximize capabilities",
+        "Data contract must start at cell A1",
+        "Cannot modify column names in data sheet",
+        "System sheets typically hidden by default"
+      ],
+      "tags": [
+        "reporting",
+        "excel",
+        "no-code",
+        "interactive",
+        "data layouts",
+        "customization"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Power Query integration for refreshable reports",
+      "description": "Ability to combine data from multiple sources including Business Central and external databases using Power Query within Excel reports. Enables refreshable, real-time reporting scenarios using APIs and environmental variables.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 442.8,
+      "t_end": 2325.4,
+      "is_demoed": true,
+      "caveats": [
+        "Requires custom APIs for some scenarios",
+        "More complex than basic Excel reports",
+        "Company ID may contain curly brackets requiring data cleanup"
+      ],
+      "tags": [
+        "power-query",
+        "data-integration",
+        "refreshable",
+        "multi-source",
+        "api integration"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Data contract in Excel layouts",
+      "description": "The data sheet containing field names from the report data set that tie back to Business Central. Must include at least one column, must start at cell A1, and cannot be modified except by developers adding new columns.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1066.8,
+      "t_end": 1215.8,
+      "is_demoed": true,
+      "caveats": [
+        "Must not be modified by end users",
+        "Must start at cell A1",
+        "Can only include columns in the report data set"
+      ],
+      "tags": [
+        "data contract",
+        "schema",
+        "excel layouts"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "System Excel sheets and metadata",
+      "description": "Hidden system sheets that provide metadata about reports including report AL metadata, request metadata, request page filters, caption data, translation data, and aggregated metadata. Contains information about tenant, environment, company, and language settings.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1234.2,
+      "t_end": 1474,
+      "is_demoed": true,
+      "caveats": [
+        "Hidden by default",
+        "Not intended for end user modification",
+        "Can be hidden but cannot be secured from users"
+      ],
+      "tags": [
+        "metadata",
+        "system sheets",
+        "multilingual",
+        "report configuration",
+        "security"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Named formulas for metadata access",
+      "description": "Pre-built XLOOKUPs in Excel that allow easy access to aggregated metadata such as company ID, environment name, and tenant entry ID without typing out complex formulas.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1474,
+      "t_end": 1521.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "formulas",
+        "xlookup",
+        "metadata access"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Excel native features in report layouts",
+      "description": "Support for using Excel's built-in features such as grouping, subtotals, conditional formatting, removing duplicates, and analysis tools within Excel report layouts to post-process data from Business Central.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1521.8,
+      "t_end": 1588,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "excel features",
+        "formatting",
+        "data analysis",
+        "pivot tables",
+        "grouping"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Copilot integration in Excel reports",
+      "description": "Ability to use Copilot within Excel to analyze data from Business Central reports, look at trends, leverage KPIs, and perform forecasting or what-if analysis.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1554.6,
+      "t_end": 1574.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "copilot",
+        "ai",
+        "data analysis",
+        "excel"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "OneDrive integration for Excel reports",
+      "description": "Administrator setup wizard to integrate OneDrive with Business Central, allowing Excel reports to be stored in cloud-shared locations rather than downloaded to user computers. Enables comments, sharing, and data protection features. When OneDrive is configured, the workbook downloads to OneDrive and opens in browser; otherwise it downloads to the user's device.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1588,
+      "t_end": 1671,
+      "is_demoed": false,
+      "caveats": [
+        "Popups must not be blocked",
+        "External sharing settings in SharePoint must be reviewed"
+      ],
+      "tags": [
+        "onedrive",
+        "cloud storage",
+        "sharing",
+        "collaboration",
+        "setup wizard"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Physical inventory Excel reports",
+      "description": "Physical inventory list report exported to Excel with quantity calculated and item tracking numbers, allowing users to filter by location or item and work easily in Excel instead of printing. Can be customized to import results back into Business Central journals.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 766.6,
+      "t_end": 872.1,
+      "is_demoed": true,
+      "caveats": [
+        "Customization may be needed for import back into Business Central"
+      ],
+      "tags": [
+        "physical inventory",
+        "excel reports",
+        "inventory management",
+        "use-case",
+        "digital-first"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Multilingual Excel report layouts",
+      "description": "Support for translation data and caption mapping that allows Excel report layouts to automatically display in the user's language at runtime. Uses translation data which leverages the user's language to translate strings that don't exist as captions in the report object.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1403,
+      "t_end": 1460.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "multilingual",
+        "translation",
+        "localization",
+        "excel"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Office 365 collaboration for Excel reports",
+      "description": "Excel reports can be stored in SharePoint and leveraged with Office 365 suite features, enabling real-time collaboration on Excel reports with co-workers.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 622.2,
+      "t_end": 637.5,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "collaboration",
+        "office-365",
+        "sharepoint",
+        "real-time"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Excel layout import and validation",
+      "description": "Users can import Excel layout files back into Business Central after design and formula work. The system validates that the Excel file is not password protected, the data worksheet exists with correct naming, and columns in the data contract are validated on import.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1689.1,
+      "t_end": 1861.7,
+      "is_demoed": true,
+      "caveats": [
+        "Excel file cannot be password protected",
+        "Data worksheet must exist and be properly named",
+        "Columns are validated against data contract",
+        "System may fail or get confused during processing if data is present"
+      ],
+      "tags": [
+        "import",
+        "validation",
+        "layout upload",
+        "data contract"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Excel report layout testing and execution",
+      "description": "Users select an Excel layout from the report layout screen and run it. If OneDrive is configured, the workbook downloads to OneDrive and opens in browser; otherwise it downloads to the user's device. The server generates the dataset, applies filters and options, loads the Excel layout file, and inserts data into the data contract.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1874.3,
+      "t_end": 1951.8,
+      "is_demoed": true,
+      "caveats": [
+        "Data mapping must be correct when loading into data contract"
+      ],
+      "tags": [
+        "testing",
+        "execution",
+        "data mapping",
+        "onedrive integration"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Refreshable Excel report layouts",
+      "description": "Refreshable Excel report layouts use APIs and Power Query to create a connection back to Business Central. Users can open Excel and refresh data to pull current information from Business Central without re-running the report. Business Central provides environment information via aggregated metadata sheet.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1951.8,
+      "t_end": 2325.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "power query",
+        "odata",
+        "real-time refresh",
+        "api integration"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Business Central API structure and authentication",
+      "description": "APIs follow a standard structure: API.Central.dynamics.com/2.0/[tenant-id]/[environment-name]/api/[publisher]/[group]/[API]. Users connect via OData feed in Excel Power Query using organizational account authentication. Out-of-the-box APIs like sales orders do not require publisher name and API group; these are only needed for custom APIs.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2007.4,
+      "t_end": 2544,
+      "is_demoed": true,
+      "caveats": [
+        "Requires organizational account sign-in",
+        "May reprompt for connection authentication"
+      ],
+      "tags": [
+        "api",
+        "odata",
+        "authentication",
+        "power query",
+        "custom api",
+        "configuration"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Dynamic API connection using environment variables",
+      "description": "Users can build dynamic API connections in Power Query using variables that extract environment information from the aggregated metadata sheet (tenant ID, environment name, company ID). This allows easy switching between sandbox and production environments by reading report request parameters.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2193.7,
+      "t_end": 2325.4,
+      "is_demoed": true,
+      "caveats": [
+        "Company ID may contain curly brackets requiring data cleanup"
+      ],
+      "tags": [
+        "environment variables",
+        "dynamic connections",
+        "sandbox",
+        "production",
+        "variables",
+        "metadata"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Custom APIs for Excel reports",
+      "description": "Users can build Excel reports using custom APIs created for specific business purposes. Example shown is a custom API for sales order item categories with publisher and API group designation that can be called from Power Query.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2285.8,
+      "t_end": 2311.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "custom api",
+        "sales",
+        "power query"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Permissions and API access for Excel reports",
+      "description": "Excel reports using APIs require users to have read permissions on tables used in the report. When connecting via API, users must have table permissions configured.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2403.2,
+      "t_end": 2445.7,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "permissions",
+        "api",
+        "security",
+        "administration"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Sheet protection and password limitations",
+      "description": "Sheets cannot be password protected when uploading Excel layouts to Business Central because Business Central needs to access the data sheets for updates. Password protection is only possible with refreshable Excel reports stored externally on OneDrive or computer.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2544,
+      "t_end": 2680,
+      "is_demoed": true,
+      "caveats": [
+        "only applies to traditional Excel layouts; refreshable reports can be password protected externally"
+      ],
+      "tags": [
+        "security",
+        "password protection",
+        "sheets",
+        "refreshable"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Excel report layout four-step process",
+      "description": "Creating Excel report layouts follows four steps: get Excel workbook with data contract from Business Central, layout data using Excel features, import layout file back into Business Central, and test the layout.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2714.5,
+      "t_end": 2810,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "process",
+        "steps",
+        "import",
+        "testing",
+        "workflow"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Existing report data sets export to Excel",
+      "description": "Any report data set already existing within Business Central can be easily exported to Excel without code required. Custom APIs and report data sets enable building exactly the data needed.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2739,
+      "t_end": 2810,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "export",
+        "data sets",
+        "no code",
+        "custom apis"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Excel data analytical capabilities for reporting",
+      "description": "Leveraging Excel's built-in data analytical capabilities such as pivot tables, conditional formatting, and grouping to enhance reporting capabilities and create data-driven reporting experiences from Business Central data.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2770.1,
+      "t_end": 2810,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "analytics",
+        "pivot tables",
+        "formatting",
+        "grouping",
+        "data-driven"
+      ],
+      "system": "reporting"
+    }
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Physical inventory list",
+      "t": 790.6
+    },
+    {
+      "type": "report",
+      "name": "inventory order details",
+      "t": 1081.2
+    },
+    {
+      "type": "api",
+      "name": "sales order item categories",
+      "t": 2285.8
+    },
+    {
+      "type": "api",
+      "name": "sales orders API",
+      "t": 2517.3
+    },
+    {
+      "type": "table",
+      "name": "item ledger entries",
+      "t": 2840
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Tanya Bickski",
+      "confidence": "high"
+    },
+    {
+      "name": "BB",
+      "confidence": "high"
+    },
+    {
+      "name": "Bert",
+      "confidence": "medium"
+    },
+    {
+      "name": "Ron",
+      "confidence": "medium"
+    },
+    {
+      "name": "Tanya Burkski",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 398,
+      "text": "Excel report layouts use the built-in functionality of Business Central. So being able to not only leverage data sets that ...",
+      "why_it_matters": "Establishes that Excel reports are a native BC feature requiring no external add-ons, making them accessible and simple to implement.",
+      "check": "exact"
+    },
+    {
+      "t": 419.1,
+      "text": "Excel reports don't require any coding experience. So everything that I'm kind of going through today, I didn't have to write any custom code.",
+      "why_it_matters": "Clarifies the no-code nature of Excel reports out of the box, lowering the barrier to entry for end users and non-developers.",
+      "check": "exact"
+    },
+    {
+      "t": 476,
+      "text": "Where we've kind of been limited with reporting in the past is your data is presented to you kind of in that like flat",
+      "why_it_matters": "Identifies the key limitation of RDLC/Word reports that Excel layouts overcome through richer data presentation capabilities.",
+      "check": "exact"
+    },
+    {
+      "t": 489.9,
+      "text": "When we give the data over to Excel, we're able to use pivot tables. were able to use really the whole, you know, experience",
+      "why_it_matters": "Highlights the advanced analytical features available in Excel reports that go beyond traditional BC report types.",
+      "check": "exact"
+    },
+    {
+      "t": 576.9,
+      "text": "You can actually mix and match your data from multiple sources using Power Query. So this is kind of that refreshable Excel reports experience.",
+      "why_it_matters": "Explains how Power Query enables multi-source data integration and real-time reporting scenarios with Excel layouts.",
+      "check": "exact"
+    },
+    {
+      "t": 648.2,
+      "text": "The biggest thing about Excel reports is that it enables the end user to be involved in their layout creation and maintenance. So it's",
+      "why_it_matters": "Identifies end user empowerment as a key benefit, reducing dependency on developer resources for report modifications.",
+      "check": "exact"
+    },
+    {
+      "t": 790.6,
+      "text": "the physical inventory list is a report out of the box in Business Central. So what we did is we checked the options to",
+      "why_it_matters": "Demonstrates that physical inventory reporting is a built-in feature that can be easily customized for Excel export.",
+      "check": "exact"
+    },
+    {
+      "t": 841.8,
+      "text": "especially in the digital age of trying to get away from printing everything, being able to run your physical inventory count to Excel is",
+      "why_it_matters": "Explains the business value proposition of Excel reports as a digital alternative to printing.",
+      "check": "exact"
+    },
+    {
+      "t": 1144.2,
+      "text": "This is technically stored inside of a data table. So this table needs to have the name data and the your data contract needs",
+      "why_it_matters": "Specifies the technical requirements for the data contract sheet structure and naming.",
+      "check": "exact"
+    },
+    {
+      "t": 1184.6,
+      "text": "your data contract must start in the first cell. So A1 of the data sheet.",
+      "why_it_matters": "Provides a critical constraint for Excel layout creation that must be strictly followed.",
+      "check": "exact"
+    },
+    {
+      "t": 1269.8,
+      "text": "the most important is the aggregated metadata. So this has technically four different tables within it.",
+      "why_it_matters": "Identifies the aggregated metadata as the most important system sheet for understanding report configuration and context.",
+      "check": "exact"
+    },
+    {
+      "t": 1554.6,
+      "text": "now use like co-pilot within Excel. So you know asking co-pilot to help us analyze the data that we were ...",
+      "why_it_matters": "Shows integration of AI capabilities into Excel reporting for advanced data analysis and forecasting.",
+      "check": "exact"
+    },
+    {
+      "t": 1615.1,
+      "text": "An administrator would search for the one drive setup inside business central and walk through this wizard to set up one drive with business",
+      "why_it_matters": "Describes the OneDrive integration feature and how administrators can enable cloud-based report storage.",
+      "check": "exact"
+    },
+    {
+      "t": 1771.5,
+      "text": "when you're importing your layout, you want to make sure that your Excel file is not password protected because Business Central is going to",
+      "why_it_matters": "Critical requirement for successful Excel layout import that could prevent uploads if not followed.",
+      "check": "exact"
+    },
+    {
+      "t": 1966.2,
+      "text": "refreshable Excel report layouts are where the report serves as a connection back to Business Central by calling Business Central APIs within Excel using",
+      "why_it_matters": "Defines the core capability of refreshable Excel reports and distinguishes them from basic static Excel layouts.",
+      "check": "exact"
+    },
+    {
+      "t": 2007.4,
+      "text": "APIs have this structure. They all start with API. Central.dynamics.com. We're going to use the 2.0 version of APIs.",
+      "why_it_matters": "Specifies the exact API endpoint structure and version that users must use for Business Central connections from Excel.",
+      "check": "exact"
+    },
+    {
+      "t": 2124.6,
+      "text": "you're going to want to click organizational account and sign in. So, this is basically just a way for you to get that data",
+      "why_it_matters": "Explains the authentication method required to connect Excel to Business Central APIs and establish proper security context.",
+      "check": "exact"
+    },
+    {
+      "t": 2205.8,
+      "text": "when we run Excel report from Business Central, it's going to give us all of the environment information that we need to connect back",
+      "why_it_matters": "Explains how Business Central provides metadata to enable dynamic, environment-aware connections from Excel.",
+      "check": "snapped"
+    },
+    {
+      "t": 2374.1,
+      "text": "I created essentially variables that are looking at that report request environment name, the tenant enter ID, and the company ID.",
+      "why_it_matters": "Shows the technical approach to reusing metadata in Power Query for Excel reports.",
+      "check": "exact"
+    },
+    {
+      "t": 2422.7,
+      "text": "that user is connecting via an API. So I think you would have to have permissions like with that that table",
+      "why_it_matters": "Clarifies that API-based Excel report access is subject to table-level permissions in Business Central, though presenter acknowledges uncertainty on this topic.",
+      "check": "exact"
+    },
+    {
+      "t": 2422.7,
+      "text": "that user is connecting via an API. So I think you would have to have permissions like with that that table.",
+      "why_it_matters": "Clarifies that Excel reports via API require user permissions on underlying tables, a key security consideration.",
+      "check": "exact"
+    },
+    {
+      "t": 2530.9,
+      "text": "out of the box ones no you don't need a publisher and the API group. It would just be for like custom APIs where",
+      "why_it_matters": "Explains the difference in API configuration required for out-of-the-box versus custom APIs, an important technical detail.",
+      "check": "exact"
+    },
+    {
+      "t": 2588.3,
+      "text": "this data still needs to be accessed by Business Central when it's uploaded. So, I guess the only way that you could you could",
+      "why_it_matters": "Explains the security limitation for traditional layouts and the alternative using refreshable reports for password protection.",
+      "check": "exact"
+    },
+    {
+      "t": 2725.9,
+      "text": "create an Excel layout in four easy steps. So you get your Excel workbook with the data contract. Your layout your data as you",
+      "why_it_matters": "Summarizes the core process for creating Excel report layouts, establishing the foundation discussed throughout the session.",
+      "check": "exact"
+    },
+    {
+      "t": 2758.1,
+      "text": "you can start with any report data set that already exists within Business Central. You can then, you know, easily export your report data",
+      "why_it_matters": "Emphasizes the low barrier to entry for Excel reports using existing data sets without requiring development.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 25.8,
+      "kind": "other",
+      "text": "Moving from RDLC to Excel is what we see in the Microsoft BC central team."
+    },
+    {
+      "t": 1645.3,
+      "kind": "other",
+      "text": "one caveat is just making sure that your your popups are not blocked. And you'll just want to review external ..."
+    },
+    {
+      "t": 2435.3,
+      "kind": "other",
+      "text": "I can definitely though look into that and and share like on LinkedIn or something once we dive into that further"
+    },
+    {
+      "t": 2435.3,
+      "kind": "subject-to-change",
+      "text": "I haven't necessarily dove into too much. I can definitely though look into that and and share like on LinkedIn ..."
+    },
+    {
+      "t": 2475,
+      "kind": "subject-to-change",
+      "text": "I don't necessarily know that there's a way to secure it."
+    }
+  ],
+  "checks": {
+    "quotes_kept": 25,
+    "quotes_dropped": 1,
+    "evidence_verified": 0,
+    "evidence_unverified": 22
+  },
+  "windows": 4,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.022934999999999997
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.028049
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.026406
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.026355999999999997
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.039094000000000004
+    }
+  ]
+}

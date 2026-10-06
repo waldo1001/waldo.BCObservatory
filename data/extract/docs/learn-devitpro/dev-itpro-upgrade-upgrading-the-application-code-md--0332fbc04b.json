@@ -1,0 +1,53 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/upgrade/Upgrading-the-Application-Code.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/Upgrading-the-Application-Code",
+  "title": "Upgrade Application Code",
+  "blob": "bd578ff18d39dc0ae933fb3b56c17045d206089f",
+  "summary": "Upgrading Application Code describes how to merge code from different versions of Business Central applications by comparing and merging three database versions (original, modified, target) using PowerShell cmdlets and tools to create an upgraded application.",
+  "systems": [
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "application upgrade",
+    "code merge",
+    "version upgrade",
+    "object migration",
+    "c/side development",
+    "fob files"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Company Initialization"
+    },
+    {
+      "type": "xmlport",
+      "name": "9171"
+    },
+    {
+      "type": "xmlport",
+      "name": "9172"
+    }
+  ],
+  "features": [
+    "Merge-NAVApplicationObject cmdlet",
+    "Compare-NAVApplicationObject cmdlet",
+    "Update-NAVApplicationObject cmdlet",
+    "Export-NAVApplicationObject cmdlet",
+    "object text file merging",
+    "conflict resolution",
+    "schema synchronization"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.023604,
+      "pages_in_call": 2
+    }
+  ]
+}

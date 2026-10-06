@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-stop-session-trace.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-stop-session-trace",
+  "title": "Analyzing Stopped Session Telemetry",
+  "blob": "4be759c3b43bd1f6d311cc03e81eeb7e39147908",
+  "summary": "Analyzing Stopped Session Telemetry documents how to monitor and record when background sessions are stopped in Business Central using the StopSession method or admin center through Application Insights.",
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "telemetry",
+    "background sessions",
+    "session management",
+    "application insights",
+    "stopsession method",
+    "admin center"
+  ],
+  "objects": [],
+  "features": [
+    "StopSession method invocation tracking",
+    "Session stopped telemetry",
+    "Background session monitoring",
+    "Admin center session cancellation",
+    "Stack trace capture",
+    "ClientType tracking"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006341,
+      "pages_in_call": 2
+    }
+  ]
+}

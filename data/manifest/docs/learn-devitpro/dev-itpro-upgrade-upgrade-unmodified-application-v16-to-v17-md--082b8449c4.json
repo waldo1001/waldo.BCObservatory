@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-unmodified-application-v16-to-v17",
   "published_at": "2026-06-02T11:43:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "47105e2b50106cedb690fe2c61bbb3a6afa08cf1",
       "words": 2102,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:21:01.342Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.017043
+    },
+    "summarized": {
+      "at": "2026-10-06T18:21:01.351Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:21:01.352Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:21:01.354Z",
+      "page": false
     }
   },
   "input_hash": "47105e2b50106cedb690fe2c61bbb3a6afa08cf1",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "47105e2b50106cedb690fe2c61bbb3a6afa08cf1"
+  "output_hash": "feb2acef77c220b33ea94443bd1f62399bf18c6d432d1c85ff16ce83b86061cd"
 }
