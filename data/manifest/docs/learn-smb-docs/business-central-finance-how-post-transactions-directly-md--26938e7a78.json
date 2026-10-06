@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-post-transactions-directly",
   "published_at": "2025-10-03T11:42:28.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "6a791d02de7d0b35b9b0f8664b81c7eb57141d31",
       "words": 333,
       "forms": 2
+    },
+    "extracted": {
+      "at": "2026-10-06T19:02:34.481Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003625
+    },
+    "summarized": {
+      "at": "2026-10-06T19:02:34.500Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:02:34.501Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:02:34.502Z",
+      "page": false
     }
   },
   "input_hash": "6a791d02de7d0b35b9b0f8664b81c7eb57141d31",
@@ -49,5 +68,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6a791d02de7d0b35b9b0f8664b81c7eb57141d31"
+  "output_hash": "11421f1aa84cc4eb08f0f3d52e934f26c6109a227565bd30bcb46d4ab32acd01"
 }

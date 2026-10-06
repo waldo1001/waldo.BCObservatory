@@ -1,0 +1,38 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/sales-powerbi-sales-by-location.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-by-location",
+  "title": "Sales by Location (Power BI Report)",
+  "blob": "65c7bc95166c7a47b1a333faba518fd772c4047b",
+  "summary": "Sales by Location Power BI report displays sales performance metrics including total sales, quantity sold, and cost of goods sold broken down by location to help leadership track revenue and resource allocation.",
+  "systems": [
+    "sales",
+    "reporting"
+  ],
+  "topics": [
+    "power bi",
+    "sales analytics",
+    "location performance",
+    "revenue tracking",
+    "cost analysis"
+  ],
+  "objects": [],
+  "features": [
+    "Sales (LCY)",
+    "Sales Quantity",
+    "Adjusted Cost (LCY)",
+    "Cost Amount Non-Inv",
+    "Adjusted Profit (LCY)",
+    "Adjusted Profit Margin"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003625,
+      "pages_in_call": 8
+    }
+  ]
+}

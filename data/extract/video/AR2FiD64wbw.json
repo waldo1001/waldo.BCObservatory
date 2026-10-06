@@ -1,0 +1,262 @@
+{
+  "video_id": "AR2FiD64wbw",
+  "item_id": "video/yt-microsoft/AR2FiD64wbw",
+  "title": "What's New: Shopify Connector (2024 release wave 2) in 2 minutes",
+  "duration_s": 130,
+  "systems": [
+    "integration",
+    "sales",
+    "inventory"
+  ],
+  "topics": [
+    "shopify connector",
+    "meta fields",
+    "data synchronization",
+    "language translation",
+    "pricing",
+    "discounts",
+    "shipping",
+    "payment methods",
+    "reconciliation",
+    "sales invoices"
+  ],
+  "chapters": [
+    {
+      "title": "Shopify Connector Overview and Meta Fields",
+      "t_start": 0,
+      "t_end": 22
+    },
+    {
+      "title": "Meta Fields and Language Translation Support",
+      "t_start": 22,
+      "t_end": 42.1
+    },
+    {
+      "title": "Company Catalogs and Pricing Synchronization",
+      "t_start": 42.1,
+      "t_end": 62.4
+    },
+    {
+      "title": "Shipping Fee Mapping and Flexibility",
+      "t_start": 62.4,
+      "t_end": 82.5
+    },
+    {
+      "title": "Payment Methods and Transaction Reconciliation",
+      "t_start": 82.5,
+      "t_end": 102.8
+    },
+    {
+      "title": "Posted Sales Invoice Synchronization",
+      "t_start": 102.8,
+      "t_end": 130
+    }
+  ],
+  "features": [
+    {
+      "name": "Meta Fields Import/Export",
+      "description": "Import or export meta fields linked to products or variants in Shopify and use them for custom mappings between Shopify and Business Central.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 22,
+      "t_end": 41.5,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "meta fields",
+        "shopify",
+        "data synchronization"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Language Translation Synchronization",
+      "description": "Synchronize translations with a new languages action by importing languages from Shopify and adding them to items in Business Central so the Shopify store can display product descriptions in different languages.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 22,
+      "t_end": 41.5,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "languages",
+        "translations",
+        "shopify"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Company Catalogs Pricing Sync",
+      "description": "Use company catalogs in Business Central to synchronize company-specific prices and discounts, ensuring each company sees their negotiated prices and discounts when they log into the Shopify store.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 42.1,
+      "t_end": 61.5,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "pricing",
+        "discounts",
+        "company catalogs",
+        "shopify"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Customer-Specific Discounts and Orders",
+      "description": "Assign specific discounts to individual customers in Business Central and create customer-specific orders in Shopify with personalized pricing.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 42.1,
+      "t_end": 61.5,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "discounts",
+        "customers",
+        "personalized pricing",
+        "shopify"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Enhanced Shipping Fee Mapping",
+      "description": "Map shipping fee information from Shopify to Business Central more accurately with flexibility to choose from different types of shipping charges such as item or order charges and specify shipping agent and service.",
+      "status": "ga",
+      "status_evidence_t": 62.4,
+      "status_evidence_quote": "you can now map shipping fee information from Shopify to business Central more accurately and with more flexibility",
+      "status_evidence_verified": true,
+      "t_start": 62.4,
+      "t_end": 81.5,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "shipping",
+        "fees",
+        "mapping",
+        "shopify"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Shipping Methods in Sales Orders",
+      "description": "Create sales orders in Business Central and see shipping charges and shipment methods such as agent and agent service directly in sales documents.",
+      "status": "ga",
+      "status_evidence_t": 82.5,
+      "status_evidence_quote": "you can then make sales orders with business Central and see see the shipping charges and shipment methods",
+      "status_evidence_verified": true,
+      "t_start": 82.5,
+      "t_end": 102.5,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "shipping",
+        "sales orders",
+        "methods"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Payment Method Reconciliation",
+      "description": "Reconcile transactions with different payment methods like gift cards and credit cards by posting receipt journals and reconciling transactions directly in Business Central.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 82.5,
+      "t_end": 102.5,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "payment methods",
+        "reconciliation",
+        "gift cards",
+        "credit cards"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Posted Sales Invoice Synchronization",
+      "description": "Synchronize posted sales invoices to Shopify using filters to select invoices for specific customers and companies, allowing you to see orders in Shopify with payment and fulfillment status details.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 102.8,
+      "t_end": 130,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "sales invoices",
+        "synchronization",
+        "shopify",
+        "filtering"
+      ],
+      "system": "sales"
+    }
+  ],
+  "objects": [],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 1.5,
+      "text": "the Shopify connector allows you to synchronize data such as items inventory and customers between Shopify and business Central",
+      "why_it_matters": "Establishes the core purpose of the Shopify connector for data synchronization across platforms.",
+      "check": "exact"
+    },
+    {
+      "t": 22,
+      "text": "now you can import or export meta Fields linked to products or variants in Shopify and use them to do custom mappings",
+      "why_it_matters": "Highlights new capability for meta fields that enables flexible custom data mapping between systems.",
+      "check": "exact"
+    },
+    {
+      "t": 42.1,
+      "text": "with Shopify you can use company cataloges and business Central to synchronize company specific prices and discounts",
+      "why_it_matters": "Describes new company-level pricing synchronization for multi-company scenarios.",
+      "check": "exact"
+    },
+    {
+      "t": 62.4,
+      "text": "you can now map shipping fee information from Shopify to business Central more accurately and with more flexibility",
+      "why_it_matters": "Indicates enhanced shipping fee mapping capabilities with more control and accuracy.",
+      "check": "exact"
+    },
+    {
+      "t": 82.5,
+      "text": "we've also added a new way to reconcile transactions with different payment methods like gift cards and credit cards",
+      "why_it_matters": "Introduces new payment method reconciliation feature for diverse payment types.",
+      "check": "exact"
+    },
+    {
+      "t": 102.8,
+      "text": "you can now easily synchronize posted sales invoices to Shopify you can use the filters and select to post the invoices",
+      "why_it_matters": "Announces new invoice synchronization capability with filtering options for targeted posting.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 2,
+    "evidence_unverified": 6
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.015224
+    }
+  ]
+}

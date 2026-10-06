@@ -1,0 +1,33 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-how-post-transactions-directly.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-post-transactions-directly",
+  "title": "Record expenses or income directly in G/L",
+  "blob": "6a791d02de7d0b35b9b0f8664b81c7eb57141d31",
+  "summary": "Post transactions directly to the general ledger using general journals for financial transactions like employee expenses, reimbursements, and direct G/L account entries.",
+  "systems": [
+    "finance"
+  ],
+  "topics": [
+    "general ledger",
+    "journal posting",
+    "financial transactions",
+    "expense recording"
+  ],
+  "objects": [],
+  "features": [
+    "General journal posting",
+    "Employee expense recording",
+    "Journal reverse posting"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003625,
+      "pages_in_call": 8
+    }
+  ]
+}

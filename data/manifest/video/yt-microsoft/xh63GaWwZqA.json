@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "Adjust Cost Allocations Before Posting",
   "url": "https://www.youtube.com/watch?v=xh63GaWwZqA",
-  "published_at": null,
+  "published_at": "2024-12-12T03:45:03.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T19:02:26.111Z",
+      "captions": "auto:en-orig",
+      "duration_s": 84
+    },
+    "captioned": {
+      "at": "2026-10-06T19:02:36.260Z",
+      "path": "data/captions/microsoft/xh63GaWwZqA.vtt",
+      "vtt_sha256": "00c2e85a095a215cf50e2952ff6f9d84dcd5720cce777c70578b745f6ba078b3",
+      "segments": 5,
+      "words": 192,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -19,7 +33,14 @@
   "meta": {
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 310,
-    "duration_s": 85,
-    "via": "reconcile"
-  }
+    "duration_s": 84,
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "00c2e85a095a215cf50e2952ff6f9d84dcd5720cce777c70578b745f6ba078b3"
 }

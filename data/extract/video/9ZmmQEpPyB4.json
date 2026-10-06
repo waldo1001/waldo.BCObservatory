@@ -1,0 +1,200 @@
+{
+  "video_id": "9ZmmQEpPyB4",
+  "item_id": "video/yt-microsoft/9ZmmQEpPyB4",
+  "title": "Let It Snow: How To Use Themable Layouts in Business Central (2024)",
+  "duration_s": 320,
+  "systems": [
+    "reporting",
+    "sales"
+  ],
+  "topics": [
+    "themeable layouts",
+    "report layouts",
+    "word layout",
+    "office themes",
+    "watermarks",
+    "seasonal design",
+    "sales quote",
+    "no-code customization"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction - Marketing department's themed quote vision",
+      "t_start": 0,
+      "t_end": 37.6
+    },
+    {
+      "title": "Report layouts page and themeable layouts feature",
+      "t_start": 37.6,
+      "t_end": 58
+    },
+    {
+      "title": "Exploring the standard blue themeable quote layout",
+      "t_start": 58,
+      "t_end": 118.8
+    },
+    {
+      "title": "Word layout editing and Office themes responsiveness",
+      "t_start": 118.8,
+      "t_end": 159.6
+    },
+    {
+      "title": "Using Abts font and creating custom watermark with pixel art",
+      "t_start": 159.6,
+      "t_end": 200
+    },
+    {
+      "title": "Generating snowflake images and adding watermarks in Word",
+      "t_start": 200,
+      "t_end": 240.3
+    },
+    {
+      "title": "Uploading custom layout to Business Central",
+      "t_start": 240.3,
+      "t_end": 290
+    },
+    {
+      "title": "Testing themed layout and seasonal layout strategy",
+      "t_start": 290,
+      "t_end": 320
+    }
+  ],
+  "features": [
+    {
+      "name": "Themeable layouts",
+      "description": "New feature in 2024 Release Wave 2 that allows layouts for reports like sales quotes, confirmations, and invoices to be responsive to Office themes without developer involvement.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 58,
+      "t_end": 78,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "themeable layouts",
+        "report design",
+        "no-code",
+        "office themes"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Abts font in Office",
+      "description": "New font in Office that is available in Business Central Online as of December 2024.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 159.6,
+      "t_end": 180,
+      "is_demoed": true,
+      "caveats": [
+        "Available as of December 2024"
+      ],
+      "tags": [
+        "font",
+        "office theme",
+        "business central online"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Word layout watermark support",
+      "description": "Ability to add custom watermarks to Word layouts for reports, including picture watermarks for themed designs.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 180,
+      "t_end": 240.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "watermark",
+        "word layout",
+        "design customization"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Seasonal layout switching",
+      "description": "Ability to set different themed layouts as default for different seasons or periods and switch between them.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 290,
+      "t_end": 310.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "layout switching",
+        "seasonal customization",
+        "default layout"
+      ],
+      "system": "reporting"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Report Layouts",
+      "t": 37.6
+    },
+    {
+      "type": "report",
+      "name": "Sales Quote",
+      "t": 58
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 37.6,
+      "text": "the marketing department can do just this in a few minutes with no need for a developer",
+      "why_it_matters": "Demonstrates that themeable layouts enable non-developers to customize report designs",
+      "check": "exact"
+    },
+    {
+      "t": 58,
+      "text": "in version 2024 release Wave 2 we added what we call themeable layouts",
+      "why_it_matters": "Establishes the introduction of themeable layouts as a new feature in this release",
+      "check": "exact"
+    },
+    {
+      "t": 118.8,
+      "text": "if you choose design and themes this layout is responsive to the different office themes so the look and feel the fonts the colors",
+      "why_it_matters": "Explains the core benefit of themeable layouts - they respond to Office themes without code",
+      "check": "exact"
+    },
+    {
+      "t": 159.6,
+      "text": "the new abts font in office that also came is is available in business Central online as of December 2024",
+      "why_it_matters": "Specifies the Abts font availability date and platform for Business Central Online",
+      "check": "exact"
+    },
+    {
+      "t": 290,
+      "text": "we can choose this as a default layout for December or January and then when we get to another season we can simply add",
+      "why_it_matters": "Shows practical use case of switching between themed layouts seasonally",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 5,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 4
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.012422
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "video_id": "AR2FiD64wbw",
+  "item_id": "video/yt-microsoft/AR2FiD64wbw",
+  "summary": "Shopify connector changes in Business Central 2024 release wave 2: meta fields import/export, language translation sync, company catalog pricing and discounts, shipping fee mapping, payment method reconciliation, and posted sales invoice sync to Shopify. A 2-minute overview published 2024-12-17.",
+  "overview": "The video is a short walkthrough of what changed in the Shopify connector in 2024 release wave 2. The connector synchronizes data such as items, inventory and customers between Shopify and Business Central.\n\nIt covers meta fields linked to products or variants, translations through a new languages action, company catalogs for company-specific prices and discounts, customer-specific discounts and orders, more flexible shipping fee mapping, reconciliation of payments such as gift cards and credit cards, and syncing posted sales invoices to Shopify with filters.",
+  "key_points": [
+    "Meta fields linked to Shopify products or variants can be imported or exported and used for custom mappings between Shopify and Business Central.",
+    "A new languages action imports languages from Shopify so they can be added to items in Business Central, letting the Shopify store show product descriptions in different languages.",
+    "Company catalogs in Business Central synchronize company-specific prices and discounts, so each company sees its negotiated prices when logging into the Shopify store.",
+    "Individual customers can be given specific discounts in Business Central, and customer-specific orders with personalized pricing can be created in Shopify.",
+    "Shipping fee mapping from Shopify lets you choose the charge type, such as item charge or order charge, and specify shipping agent and service. Charges and shipment methods appear in sales documents.",
+    "Transactions paid by methods such as gift cards and credit cards can be reconciled by posting receipt journals and reconciling in Business Central.",
+    "Posted sales invoices can be synced to Shopify using filters for specific customers and companies, showing orders with payment and fulfillment status."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "partner"
+  ],
+  "extraction_hash": "4196a992bc56c6ce81f966896bda9b5d7633ccc4a6aefb7732cf6af6a11a2746",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.014612400000000001
+  }
+}

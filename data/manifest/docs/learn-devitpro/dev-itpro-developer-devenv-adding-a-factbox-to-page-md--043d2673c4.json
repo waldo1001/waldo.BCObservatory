@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-adding-a-factbox-to-page",
   "published_at": "2025-10-03T11:02:58.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "846ea4efd81a170bcda86b90fb71173502df579e",
       "words": 1481,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:02:34.482Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003625
+    },
+    "summarized": {
+      "at": "2026-10-06T19:02:34.503Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:02:36.249Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:02:36.250Z",
+      "page": false
     }
   },
   "input_hash": "846ea4efd81a170bcda86b90fb71173502df579e",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "846ea4efd81a170bcda86b90fb71173502df579e"
+  "output_hash": "48e0482ba6dad210bb34797f70b8b2dda8732848dd7d779a97306423cc8785cb"
 }

@@ -1,0 +1,37 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/sales-powerbi-sales-by-salesperson.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-by-salesperson",
+  "title": "Sales by Salesperson (Power BI Report)",
+  "blob": "bc82f566860e4aa331eb3a14a6b8bf5f20438e2c",
+  "summary": "Sales by Salesperson Power BI report tracks sales performance for each salesperson, showing total sales amount and quantity by customer and items sold to help management identify top performers and support underperformers.",
+  "systems": [
+    "sales",
+    "reporting"
+  ],
+  "topics": [
+    "power bi",
+    "salesperson performance",
+    "sales analytics",
+    "revenue tracking",
+    "gross profit"
+  ],
+  "objects": [],
+  "features": [
+    "Sales (LCY)",
+    "Sales Quantity",
+    "Adjusted Profit (LCY)",
+    "Adjusted Profit Margin",
+    "Estimated Value"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003625,
+      "pages_in_call": 8
+    }
+  ]
+}

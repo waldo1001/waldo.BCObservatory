@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/sales-powerbi-sales-overview.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-overview",
+  "title": "Sales Overview (Power BI report)",
+  "blob": "3020ae891e6987a0bd8c5fbefe3f54d3da97cb5f",
+  "summary": "Sales Overview Power BI report provides executives with a high-level summary of sales activities including outstanding orders, shipped-but-not-invoiced orders, and posted invoices with top customers and items analysis.",
+  "systems": [
+    "sales",
+    "reporting"
+  ],
+  "topics": [
+    "power bi",
+    "sales summary",
+    "sales analytics",
+    "executive dashboard",
+    "kpi tracking"
+  ],
+  "objects": [],
+  "features": [
+    "Sales (LCY)",
+    "Adjusted Cost (LCY)",
+    "Adjusted Profit (LCY)",
+    "Adjusted Profit Margin",
+    "Outstanding Invoices (LCY)",
+    "Outstanding Orders (LCY)",
+    "Shipped Not Invoiced (LCY)"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003625,
+      "pages_in_call": 8
+    }
+  ]
+}

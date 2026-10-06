@@ -1,0 +1,27 @@
+{
+  "video_id": "QT3RKx9rGJA",
+  "item_id": "video/yt-microsoft/QT3RKx9rGJA",
+  "summary": "AL Go for GitHub January 2025 office hour: covers conditional settings on build mode, preprocessor symbols, removal of \"this build\" artifacts, versioning strategy 3, and incremental builds (in preview). Also covers NuGet dependencies, self-hosted runners, code signing with net sign, and local dev containers.",
+  "overview": "This is a 62-minute AL Go for GitHub office hour, published 2025-02-03. It opens with the changes in the latest release (6.3): conditional settings based on build mode, preprocessor symbols, removal of \"this build\" artifacts, and versioning strategy 3, where major, minor and build come from app.json and only the revision comes from the run number.\n\nThe rest is Q&A. Topics include compiler folder builds, using a workflow from another branch, scheduled publish to environment, incremental builds, NuGet feeds and dependency artifacts, self-hosted runners, configuration packages and test data, code signing, telemetry, single sign-on, Key Vault credentials, and multi-project repositories with local development.",
+  "key_points": [
+    "Conditional settings can override the settings file when a given build mode is active, for example next major.",
+    "With versioning strategy 3, major, minor and build come from app.json and only the revision comes from the run number. Run attempts no longer increment the version on rebuild.",
+    "The temporary \"this build\" artifacts for multi-project repositories are removed. Normal artifacts are now produced and can be used to test before a pull request is approved.",
+    "Incremental builds, which build only changed apps and the apps that depend on them, were described as a pull request expected to reach preview within a few weeks. Changes to low-level apps still rebuild dependents.",
+    "Self-hosted runners for all workflows are configured with two settings: the GitHub Runner setting for build jobs and runs-on for other workflows. The update AL-Go system files workflow always uses a GitHub-hosted runner.",
+    "Code signing uses dotnet sign (net sign). The team will not accept pull requests proposing other signing approaches, but may accept settings that support additional CA vaults.",
+    "Local dev environments work for only one project at a time. They need GitHub permissions to read all dependencies, and GitHub packages are not supported there."
+  ],
+  "audience": [
+    "developer",
+    "administrator",
+    "partner"
+  ],
+  "extraction_hash": "b60a867577688a9470d1e1a1fad1731f3b9afd0f4f4e3270fb9196d97ab95b36",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0372284
+  }
+}
