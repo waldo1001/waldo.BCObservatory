@@ -15,7 +15,7 @@ check "user" bash -c '[[ "$(id -un)" == bcobs ]] && id -un'
 check "node" node -v
 check "claude version" bash -c "v=\$(claude --version | cut -d' ' -f1); [[ -z '$pin' || \$v == '$pin' ]] && echo \$v || { echo \"claude \$v, pinned $pin\"; exit 1; }"
 check "yt-dlp" yt-dlp --version
-check "deno" bash -c 'deno --version | head -1'
+check "deno" bash -c 'set -o pipefail; deno --version | head -1'
 check "env file mode" bash -c "[[ \$(stat -f %Lp '$ENV_FILE') == 600 ]] && echo 600"
 check "npm ci (no scripts, no secrets)" bash -c 'npm ci --ignore-scripts --no-audit --no-fund --silent && echo installed'
 check "claude -p ping" withenv "npm run -s llm:ping"
