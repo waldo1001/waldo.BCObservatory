@@ -1,0 +1,26 @@
+{
+  "video_id": "lcu53ikOk7s",
+  "item_id": "video/yt-microsoft/lcu53ikOk7s",
+  "summary": "Safeguarding G/L accounts from deletion in Business Central through settings on the General Ledger Setup page: Check G/L Account Usage, Check G/L Account Deletion After, and Block Deletion of G/L Account. Covers retention-driven restrictions on deleting accounts that have transactions.",
+  "overview": "A G/L account can be deleted even if it has had transactions, as long as certain conditions hold. The video recommends changing settings on the General Ledger Setup page to restrict when deletions can occur.\n\nIt walks through three settings. Check G/L Account Usage blocks deletion of accounts used in setup tables such as posting setup. Check G/L Account Deletion After sets a date, which supports data retention requirements, and the demo sets it to December 31st, 2017. Block Deletion of G/L Account, used together with that date field, blocks deletion outright to enforce a mandatory retention period.",
+  "key_points": [
+    "Settings are configured on the General Ledger Setup page.",
+    "Without restrictions, an account can be deleted even if it has had transactions on it, as long as it has no setup usage as described in the video.",
+    "Check G/L Account Usage blocks any attempt to delete an account that is used in setup tables, such as posting setup.",
+    "Check G/L Account Deletion After takes a date after which deleting accounts with transactions is not allowed, to support regulatory data retention.",
+    "Example: for a 5-year retention requirement with a fiscal year matching the calendar year, specify the date after which deletions should not occur.",
+    "In the demo the date was set to December 31st, 2017, so deletion is only allowed if the transactions happened before that date.",
+    "Block Deletion of G/L Account must be combined with Check G/L Account Deletion After to block deletion outright."
+  ],
+  "audience": [
+    "administrator",
+    "functional consultant"
+  ],
+  "extraction_hash": "5daf211260dbf480412896be859cf4f0b8772aaffc402f65e2193120531f0921",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.011876399999999999
+  }
+}

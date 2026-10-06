@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "Introducing: Shopify and Dynamics 365 Business Central (2023)",
   "url": "https://www.youtube.com/watch?v=e5Dr3jzCLM8",
-  "published_at": null,
+  "published_at": "2023-12-18T09:41:09.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:36:49.143Z",
+      "captions": "auto:en-orig",
+      "duration_s": 119
+    },
+    "captioned": {
+      "at": "2026-10-06T21:36:58.411Z",
+      "path": "data/captions/microsoft/e5Dr3jzCLM8.vtt",
+      "vtt_sha256": "72c67c404c9cd503af99396b316c01de21d41bd95a5f578ba0f8486c6f5a3004",
+      "segments": 8,
+      "words": 281,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -19,7 +33,14 @@
   "meta": {
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 486,
-    "duration_s": 120,
-    "via": "reconcile"
-  }
+    "duration_s": 119,
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "72c67c404c9cd503af99396b316c01de21d41bd95a5f578ba0f8486c6f5a3004"
 }
