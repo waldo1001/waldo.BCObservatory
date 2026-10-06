@@ -1,0 +1,35 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/Accounting-for-personal-income-tax-payments.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/Accounting-for-personal-income-tax-payments",
+  "title": "Accounting for personal income tax payments in Russia",
+  "blob": "ca084090ffb3cb1dd2174aa06613aac5d3d7017f",
+  "summary": "Accounting for personal income tax payments in Russia automates tax calculation during payroll, creates debt entries for employees, and generates payment orders to tax authorities with mandatory reporting.",
+  "systems": [
+    "hr",
+    "finance"
+  ],
+  "topics": [
+    "personal income tax",
+    "payroll",
+    "tax payments",
+    "russia local"
+  ],
+  "objects": [],
+  "features": [
+    "Tax accrual calculation",
+    "Tax payment processing",
+    "Mandatory reporting",
+    "Supplier-tax authority registration"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002808,
+      "pages_in_call": 8
+    }
+  ]
+}

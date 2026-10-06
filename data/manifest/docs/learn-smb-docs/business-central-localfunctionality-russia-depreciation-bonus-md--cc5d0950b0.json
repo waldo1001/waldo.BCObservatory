@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/depreciation-bonus",
   "published_at": "2025-08-07T14:51:39.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "ee1285f58f33216e8452ccd82e38fe95177c12c3",
       "words": 416,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:13:38.450Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 5,
+      "cost_usd": 0.002808
+    },
+    "summarized": {
+      "at": "2026-10-06T19:13:47.615Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:13:47.616Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:13:47.617Z",
+      "page": false
     }
   },
   "input_hash": "ee1285f58f33216e8452ccd82e38fe95177c12c3",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ee1285f58f33216e8452ccd82e38fe95177c12c3"
+  "output_hash": "6d9f68650d24e5b1ec8bc3f395f63cb2f9caf54900c0d733ebe47a0c4f4427e7"
 }

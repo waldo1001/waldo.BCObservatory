@@ -1,0 +1,261 @@
+{
+  "video_id": "_1LhwG2ZgFw",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 7.1,
+      "end": 27.6,
+      "text": "good day I Alexa D bransky I'm a senior software engineer on the business Central team hi my name is jayen topa I'm also a senior software developer with the business Central team today I will share the latest news about the sales line suggestion with cap pilot which is a assistant"
+    },
+    {
+      "t": 27.6,
+      "end": 46.8,
+      "text": "designed to streamline the creation of sales quotes orders and invoices using natural language or structured data it helps easily add lines to the new sales documents either from item list or from previously created"
+    },
+    {
+      "t": 46.8,
+      "end": 63.8,
+      "text": "documents thanks to the available feedback we got and to more powerful capabilities of kilot we've made several improvements to the feature to extend this functionality and to make it work faster and more"
+    },
+    {
+      "t": 63.8,
+      "end": 83.8,
+      "text": "reliable so let me walk you through these improvements first we've improved the product search by better keyword extraction let me Dem how it works now I have the sales order here and I want to use a sales line suggestion feature first I'm asking the"
+    },
+    {
+      "t": 83.8,
+      "end": 100,
+      "text": "cap pilot about six guest chairs and a couple of desks and this example I made a mistake of not having a wi space between guest and chairs here and let's see how kilot deals with"
+    },
+    {
+      "t": 100,
+      "end": 118.6,
+      "text": "this and it did it right it recognizes that guest chair in in one word actually means guest and chair in in two words here and it puts the right quantity to both items let me give you a couple of more examples of a context"
+    },
+    {
+      "t": 118.6,
+      "end": 128.1,
+      "text": "understanding now I'm asking the kilot for a small coffee maker let's see what it"
+    },
+    {
+      "t": 128.1,
+      "end": 144.1,
+      "text": "suggests and gives me a small coffee machine for personal use you can see the picture right over here but let's slightly change the query here I need a bigger coffee"
+    },
+    {
+      "t": 145.4,
+      "end": 157.8,
+      "text": "maker now it offers the bigger machine the third request I'm giving the cap pilot is I need a big coffee maker"
+    },
+    {
+      "t": 157.8,
+      "end": 162.8,
+      "text": "for commercial"
+    },
+    {
+      "t": 163.1,
+      "end": 178.5,
+      "text": "use and that's a big one that I got here these examples show how cap pilot understand the context of my queries now what number two is that product search now works up to 10 times"
+    },
+    {
+      "t": 178.5,
+      "end": 201.3,
+      "text": "faster for for example for a database with 40,000 items the search time has decreased from 60 seconds to just 56 seconds let me give you a brief example here I'm requesting for two desks black and green chairs six H and lamps for these"
+    },
+    {
+      "t": 201.3,
+      "end": 206.5,
+      "text": "desks I click"
+    },
+    {
+      "t": 207.3,
+      "end": 228,
+      "text": "generate and I took a system to 3 seconds to give me the results and you can see that it recognize the context of these desks and suggest with me two lamps as I have two desks it gives me two lamps one lamp for each desks and six each black and green"
+    },
+    {
+      "t": 228,
+      "end": 248,
+      "text": "chairs the third point is with add the ability to search for blanket orders as a source to do as a source document to copy from and the important thing here is that it doesn't merely copy from the blanket order it establishes direct link to the blanket order"
+    },
+    {
+      "t": 248,
+      "end": 266.6,
+      "text": "line so you won't exceed quantity in the blanket order so here I'm typing get items from the blanket order previously I have created the blanket order for this specific customer we click generate"
+    },
+    {
+      "t": 266.6,
+      "end": 283.1,
+      "text": "here and now we retrieve two two lines from the blanket order and here's the link to the blanket order then we change the quantity say five and five insert these lines into sales"
+    },
+    {
+      "t": 283.1,
+      "end": 289.2,
+      "text": "order and then ship the sales"
+    },
+    {
+      "t": 290.5,
+      "end": 298.6,
+      "text": "order now if we go to the linked blanket orders"
+    },
+    {
+      "t": 298.6,
+      "end": 318.9,
+      "text": "here we will see our blanket order that we have linked to and the shipped quantity our five and five what we shipped in the sales order we've just created with the sales line suggestion feature so I won't be able to ship more than five for this first item"
+    },
+    {
+      "t": 318.9,
+      "end": 330.1,
+      "text": "and 10 pieces for the second item the fourth Point here is we can narrow the search down to specific document"
+    },
+    {
+      "t": 330.1,
+      "end": 350.2,
+      "text": "in other words you can search items not from all item list but from the previously from those items that are included in the document you specify let me Demo it how it works in my example I have a sales quote that contains chair and a lamp now I'm"
+    },
+    {
+      "t": 350.2,
+      "end": 356,
+      "text": "asking the sales line for a coffee"
+    },
+    {
+      "t": 357.2,
+      "end": 373.2,
+      "text": "machine it works as it should it suggest me the coffee machine from the item list then I'm asking a coffee machine from the sales quote sq1 is a number of my sales"
+    },
+    {
+      "t": 373.2,
+      "end": 386.2,
+      "text": "quote and it give me nothing because I don't have a coffee machine in the sales quote let's ask the copilot what do I have in the sales quote"
+    },
+    {
+      "t": 389.7,
+      "end": 403.7,
+      "text": "I can see that in that sales quote I have a ram chair green and a lamp then I'm asking the compilot to give me just shair from the sales"
+    },
+    {
+      "t": 405.9,
+      "end": 426.5,
+      "text": "quote and it's adjust me the chair that I've chosen next we've added the support of units of measure now any units of measure you have set up for your item is it's piece bottles kilos pallets it will be all considered by the sales line suggestion feature"
+    },
+    {
+      "t": 426.5,
+      "end": 441,
+      "text": "here I'm asking the sales line feature for coffee beans I need Brazil which is delivered in either bags or packs here I'm asking for two bags and two more"
+    },
+    {
+      "t": 442.4,
+      "end": 452.4,
+      "text": "packs and the capil gives me two lines here one line for two bags and one line for two pieces which is"
+    },
+    {
+      "t": 452.4,
+      "end": 472.6,
+      "text": "fair lastly but the most prominent feature is we have added the file support so that you can query SLS with the structured data and let me hand it over to chatton who will tell you more about this new feature thank you Alexi now I'm going to talk little bit about uh sales line suggestion from attachments"
+    },
+    {
+      "t": 472.6,
+      "end": 492.6,
+      "text": "uh currently we support only CSV file type and in the future we hope we'll have support for other file types as but for now it's only CSV the whole process of co-pilot you know generating suggestions from um CSV file is a twostep process uh in the first step it uh co-pilot analyzes the CSV"
+    },
+    {
+      "t": 492.6,
+      "end": 513.1,
+      "text": "file that has been uploaded and uh you know and extracts key information and know information like uh what column has um product information what column has information about quantity and unit of measure and also you know how is the CSV structured is it U separated or tab separated you know what is the column separator"
+    },
+    {
+      "t": 513.1,
+      "end": 533.2,
+      "text": "basically all this kind of U key information is extracted and passed it on to um The Next Step which is uh paring the CSV based on the extracted information and calling the fine product capability that Alexi talked about just now and at the end you what you see is U you know sales line"
+    },
+    {
+      "t": 533.2,
+      "end": 554,
+      "text": "suggestions that uh the co-pilot produces so let me quickly show you a demo to illustrate uh the feature all right for the demo I have a sales quote here which you can see on the screen um and I have received a CSV from my customer or or some external Source I'll upload the CSV and get the suggestion from the"
+    },
+    {
+      "t": 554,
+      "end": 574.3,
+      "text": "copilot the CSV that I'll be using U looks something like this you can see there's a lot of information in the CSV including the information that copilot is interested in which is U item information quantity and unit of measure and um yeah those are the information that will be fetched from the CSV and uh let's go ahead and upload"
+    },
+    {
+      "t": 574.3,
+      "end": 594.4,
+      "text": "the CSV so as usual I'll go to the SE sales line um action uh where we had added a new U action called attach using with you can upload the CSV file so this was the file so now it's U up being uploaded the it's going"
+    },
+    {
+      "t": 594.4,
+      "end": 614.6,
+      "text": "through First Step which is extracting the key information uh from the CSV file once once the information is extracted it it's presented to the user in a friendly way uh you can see the copilot detected that the file has a tap column separator and uh we also have a list of all the columns from the CSV"
+    },
+    {
+      "t": 614.6,
+      "end": 635.1,
+      "text": "and the copilot s for the mapping for example the column with name itm is mapped to product meaning it's a product information uh you know the column quantities is uh mapped to the quantity and likewise unit of measure is map to unit of measure so this is a"
+    },
+    {
+      "t": 635.1,
+      "end": 655.1,
+      "text": "session from co-pilot and of course the user can go ahead and change these uh mappings if the user thinks the copilot got it wrong so user can basically open um you know the column action and select the mapping or change the mapping or reset whatever it's already done to help the user"
+    },
+    {
+      "t": 655.1,
+      "end": 675.2,
+      "text": "in this process uh we also have actions um under column values where the user can go and check the the the values that's in the CSV file so this will help the user to make a more informed decision about the mapping so now the user is happy with all the mapping that has been"
+    },
+    {
+      "t": 675.2,
+      "end": 695.2,
+      "text": "done uh then user can go ahead and uh click on the generate and this takes um it to the second uh stage which is uh you know passing the file based on um the information that we provided and uh sending it to the fine product uh feature or capability and getting the suggestions you can see"
+    },
+    {
+      "t": 695.2,
+      "end": 713,
+      "text": "that um there were 20 lines in the Cs file and we got 20 sessions and you could also see that the performance was quite good in getting reading 20 lines and getting sus for all 20 lines um from here of course um the user can"
+    },
+    {
+      "t": 713,
+      "end": 726.2,
+      "text": "change uh change the quantity you know unit of measure or you know remove the line completely or user can always go back here and change the mappings and"
+    },
+    {
+      "t": 726.2,
+      "end": 746.4,
+      "text": "regenerate so once um the user is happy with the session the user can go ahead with uh click on the insert so now it has added all the things to your sales quote so when you click on that insert uh action it also means that the mapping that was used to generate"
+    },
+    {
+      "t": 746.4,
+      "end": 766.8,
+      "text": "the the suggestions were correct in the that case uh we save the or we cach the mapping against the column header sorry the CSV header uh value meaning in the future if a similar CSV is uploaded with the same um header structure then the mapping is used from U from the database"
+    },
+    {
+      "t": 766.8,
+      "end": 779.4,
+      "text": "where it's cached so that copilot need not analyze the CSV again and um go through the whole process of uh you know generating the mapping so you can directly load it from uh uh from the cache"
+    },
+    {
+      "t": 779.4,
+      "end": 799.9,
+      "text": "so um this what we wanted to show you um this brings us to the end of uh this presentation uh as usual we we love feedback from you please uh uh get in touch with us through any of these channels that you see on the screen and let us know what you feel about this uh features and um uh"
+    },
+    {
+      "t": 799.9,
+      "end": 813,
+      "text": "what kind of changes you'd like to have for this feature u in in the future so saying that um I would like to say thank you and have a nice day thank you"
+    }
+  ],
+  "markers": [
+    {
+      "t": 1.04,
+      "text": "[Music]"
+    },
+    {
+      "t": 7.11,
+      "text": "[Music]"
+    },
+    {
+      "t": 7.12,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 1903
+}

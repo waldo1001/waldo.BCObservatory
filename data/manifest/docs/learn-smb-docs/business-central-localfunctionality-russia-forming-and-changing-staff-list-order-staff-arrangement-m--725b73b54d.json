@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/Forming-and-changing-Staff-List-Order-Staff-Arrangement",
   "published_at": "2025-08-07T14:51:39.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "79c05226d1cd0fd4d501b22ea312d1a894f461a4",
       "words": 440,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:13:38.452Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.002808
+    },
+    "summarized": {
+      "at": "2026-10-06T19:13:49.440Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:13:49.441Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:13:49.442Z",
+      "page": false
     }
   },
   "input_hash": "79c05226d1cd0fd4d501b22ea312d1a894f461a4",
@@ -40,5 +59,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "79c05226d1cd0fd4d501b22ea312d1a894f461a4"
+  "output_hash": "a01301416808396aa226d1c2ba93f613a4bd7ddbea1e2789ae4d4538756f0fe0"
 }

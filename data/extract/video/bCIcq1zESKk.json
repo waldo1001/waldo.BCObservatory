@@ -1,0 +1,300 @@
+{
+  "video_id": "bCIcq1zESKk",
+  "item_id": "video/yt-microsoft/bCIcq1zESKk",
+  "title": "What's New: Item Substitution with Copilot (2024 release wave 2)",
+  "duration_s": 759,
+  "systems": [
+    "copilot",
+    "inventory",
+    "sales"
+  ],
+  "topics": [
+    "item substitution",
+    "copilot",
+    "ai",
+    "semantic search",
+    "confidence scoring",
+    "responsible ai",
+    "llm",
+    "embedding",
+    "product information"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and agenda",
+      "t_start": 0,
+      "t_end": 52.9
+    },
+    {
+      "title": "Existing functionality and Copilot enhancement",
+      "t_start": 52.9,
+      "t_end": 122.6
+    },
+    {
+      "title": "Technical design and confidence scoring",
+      "t_start": 122.6,
+      "t_end": 265.1
+    },
+    {
+      "title": "Activation and feature toggle",
+      "t_start": 265.1,
+      "t_end": 319.1
+    },
+    {
+      "title": "Live demo of item substitution",
+      "t_start": 319.1,
+      "t_end": 562.7
+    },
+    {
+      "title": "Limitations and constraints",
+      "t_start": 562.7,
+      "t_end": 618
+    },
+    {
+      "title": "Related features and sessions",
+      "t_start": 618,
+      "t_end": 680.5
+    },
+    {
+      "title": "Copilot availability, deployment, and safety standards",
+      "t_start": 680.5,
+      "t_end": 759
+    }
+  ],
+  "features": [
+    {
+      "name": "Item substitution with Copilot",
+      "description": "Copilot feature that automatically suggests substitute items based on the primary item's description, using LLM to extract keywords and embeddings to re-rank results with confidence scores.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 52.9,
+      "t_end": 618,
+      "is_demoed": true,
+      "caveats": [
+        "Requires good item description for effective results",
+        "Tested in English only, untested in other languages",
+        "Consolidated table for search is updated periodically with potential delays",
+        "Only available in cloud version of Business Central, not on-premise",
+        "Part of the planned functionality was postponed for future release"
+      ],
+      "tags": [
+        "item substitution",
+        "copilot",
+        "ai",
+        "semantic search",
+        "confidence scoring",
+        "inventory"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Suggest with Copilot action",
+      "description": "User action on the item substitution page that triggers Copilot to generate a list of substitute item candidates with confidence scores.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 122.6,
+      "t_end": 245,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "copilot",
+        "item substitution",
+        "ui action"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Search mode options",
+      "description": "Three search modes for item substitution results: Balance (default, at least one main search term required), Permissive (any search term sufficient), and Precise (all search terms required).",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 483.2,
+      "t_end": 524.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "item substitution",
+        "search modes",
+        "copilot"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Prompt customization",
+      "description": "Users can adjust the search prompt to refine substitution suggestions, such as adding additional criteria like color to narrow results.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 472.9,
+      "t_end": 483.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "item substitution",
+        "prompt",
+        "copilot"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Sales line suggestion with Copilot",
+      "description": "Related Copilot feature that suggests sales lines, released in the previous wave with new enhancements in this release.",
+      "status": "ga",
+      "status_evidence_t": 648.3,
+      "status_evidence_quote": "This functionality was released already in the previous wave",
+      "status_evidence_verified": true,
+      "t_start": 635.2,
+      "t_end": 648.3,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "copilot",
+        "sales",
+        "suggestions"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Data search enhancement",
+      "description": "Platform team delivered data search improvements used by item substitution feature and available across the product.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 648.3,
+      "t_end": 665.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "data search",
+        "platform",
+        "performance"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Create product information capability toggle",
+      "description": "Copilot and AI capabilities page setting to enable item substitution feature. Named 'create product information' as placeholder for larger feature set initially planned.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 265.1,
+      "t_end": 308.4,
+      "is_demoed": false,
+      "caveats": [
+        "Initial planned functionality was partially postponed to future release due to responsible AI standards verification"
+      ],
+      "tags": [
+        "copilot",
+        "ai capabilities",
+        "feature toggle"
+      ],
+      "system": "administration"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "item substitutions",
+      "t": 341.6
+    },
+    {
+      "type": "page",
+      "name": "Copilot and AI capabilities",
+      "t": 265.1
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Predrag Maricic",
+      "confidence": "high"
+    },
+    {
+      "name": "Volodymyr Synchuk",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 64.8,
+      "text": "Existing item substitution functionality is designed for users to be able to define alternative item in case when the primary item is out of",
+      "why_it_matters": "Explains the core business problem and existing solution that Copilot enhances",
+      "check": "exact"
+    },
+    {
+      "t": 182.5,
+      "text": "we are committed to provide results which should be reliable and that's why we are using LLM to do re-ranking of the results",
+      "why_it_matters": "Reveals the design choice to use LLM for result ranking to ensure reliability",
+      "check": "exact"
+    },
+    {
+      "t": 295.2,
+      "text": "due to very strict and diligent process of verifying feature against the against the reliable AI standards, we had to postpone one one piece",
+      "why_it_matters": "Indicates responsible AI verification delayed part of the originally planned feature set",
+      "check": "exact"
+    },
+    {
+      "t": 562.7,
+      "text": "you need to have quite good description of the item so it has a meaning and yeah",
+      "why_it_matters": "States key limitation - feature quality depends on item description quality",
+      "check": "fuzzy"
+    },
+    {
+      "t": 680.5,
+      "text": "All these Copilot features are coming with no cost with existing Business Central license",
+      "why_it_matters": "Clarifies that Copilot features have no additional licensing cost",
+      "check": "exact"
+    },
+    {
+      "t": 690.8,
+      "text": "copilot features are only available in our cloud version of business central while on premise on prem versions are unfortunately without",
+      "why_it_matters": "States deployment limitation - Copilot cloud-only, not available on-premise",
+      "check": "fuzzy"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 279.4,
+      "kind": "other",
+      "text": "This sentence looks like a bug, but it's actually not. The initial idea was to deliver more functionalities around item substitution"
+    },
+    {
+      "t": 295.2,
+      "kind": "coming-later",
+      "text": "due to very strict and diligent process of verifying feature against reliable AI standards, we had to postpone one piece of this functionality for the future"
+    },
+    {
+      "t": 579.2,
+      "kind": "other",
+      "text": "we tested it in English only. It should work on all other languages, but just to mention that we did testing only in English"
+    },
+    {
+      "t": 690.8,
+      "kind": "other",
+      "text": "Copilot features are only available in our cloud version of Business Central, while on-premise on-prem versions are unfortunately without Copilot functionalities"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 2,
+    "evidence_verified": 1,
+    "evidence_unverified": 6
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.025823
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/Vendor-Tax-Agent-scheme.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/Vendor-Tax-Agent-scheme",
+  "title": "Vendor tax agent scheme in Russia",
+  "blob": "358ede4277b4351fde1724d970662c2701fbd7e7",
+  "summary": "Vendor tax agent scheme in Russia manages VAT handling for vendors with tax agent roles, supporting both internal funds and vendor funds payment sources through agreement configuration and payment journal operations.",
+  "systems": [
+    "purchasing",
+    "finance"
+  ],
+  "topics": [
+    "tax agents",
+    "vat payments",
+    "vendor agreements",
+    "russia local"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Payment Journal"
+    },
+    {
+      "type": "page",
+      "name": "VAT Settlement Worksheet"
+    }
+  ],
+  "features": [
+    "VAT payment from internal funds",
+    "VAT payment from vendor funds",
+    "Agreement posting",
+    "Multi-currency prepayment",
+    "Tax Authority payments"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002808,
+      "pages_in_call": 8
+    }
+  ]
+}

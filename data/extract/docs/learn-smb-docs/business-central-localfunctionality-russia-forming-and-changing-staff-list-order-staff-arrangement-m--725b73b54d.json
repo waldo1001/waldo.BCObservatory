@@ -1,0 +1,48 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/Forming-and-changing-Staff-List-Order-Staff-Arrangement.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/Forming-and-changing-Staff-List-Order-Staff-Arrangement",
+  "title": "Forming and changing staff in Russia",
+  "blob": "79c05226d1cd0fd4d501b22ea312d1a894f461a4",
+  "summary": "Forming and changing staff in Russia allows HR managers to create and modify staff lists through staff list orders, manage position and organizational unit actions, and generate archived staff lists and staff arrangement reports.",
+  "systems": [
+    "hr"
+  ],
+  "topics": [
+    "staff management",
+    "organizational structure",
+    "hr orders",
+    "russia local"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Staff list Order"
+    },
+    {
+      "type": "page",
+      "name": "Staff List"
+    },
+    {
+      "type": "page",
+      "name": "Archived Staff List"
+    }
+  ],
+  "features": [
+    "Staff list modification",
+    "Position management",
+    "Organizational unit management",
+    "Staff list archiving",
+    "Staff arrangement report generation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002808,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "video_id": "bCIcq1zESKk",
+  "item_id": "video/yt-microsoft/bCIcq1zESKk",
+  "summary": "Item substitution with Copilot in Business Central (2024 release wave 2): Copilot suggests substitute items from the primary item's description, using an LLM for keywords and embeddings to re-rank with confidence scores. Covers the Suggest with Copilot action, search modes, prompt changes, activation and limits (cloud only, English tested).",
+  "overview": "The video explains how Copilot extends the existing item substitution function, which lets users define alternative items when a primary item is out of stock. Copilot now proposes substitute candidates from the primary item's description. An LLM extracts keywords, a search runs over a consolidated table, and embeddings re-rank the results with confidence scores.\n\nA live demo shows the Suggest with Copilot action on the item substitutions page, the three search modes, and prompt adjustment such as adding a color. The session also covers enabling the feature on the Copilot and AI capabilities page, limitations, related features such as sales line suggestion, and Copilot availability and responsible AI standards.",
+  "key_points": [
+    "The Suggest with Copilot action on the item substitutions page generates substitute item candidates with confidence scores.",
+    "The feature is enabled with the 'create product information' toggle on the Copilot and AI capabilities page. The name is a placeholder for a larger feature set, part of which was postponed to a later release after responsible AI verification.",
+    "Search modes: Balance (default, at least one main search term required), Permissive (any search term is enough), Precise (all search terms required).",
+    "Users can edit the prompt to narrow results, for example by adding a color.",
+    "Results depend on a good item description. The consolidated search table is updated periodically, so delays are possible.",
+    "Tested in English only. It should work in other languages but was not tested.",
+    "Copilot features are cloud only, not available on-premise. They come at no extra cost with an existing Business Central license."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "end user",
+    "decision maker"
+  ],
+  "extraction_hash": "e6fb3e0b301745e9f205b1ce13345cd871db4c57cf784effcbe63bef7838d49f",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0150624
+  }
+}

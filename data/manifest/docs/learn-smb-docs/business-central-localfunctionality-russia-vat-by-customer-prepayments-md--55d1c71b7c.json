@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/VAT-by-Customer-prepayments",
   "published_at": "2025-08-08T07:13:57.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "1bb0e8251dc98bad5b49f922362efdee30fd7ba5",
       "words": 258,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:13:38.447Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.002808
+    },
+    "summarized": {
+      "at": "2026-10-06T19:13:47.607Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:13:47.608Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:13:47.609Z",
+      "page": false
     }
   },
   "input_hash": "1bb0e8251dc98bad5b49f922362efdee30fd7ba5",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "1bb0e8251dc98bad5b49f922362efdee30fd7ba5"
+  "output_hash": "e12d5ef405e9775e26035bd11169e17d72427bc6a06625ec4a38b4d6e0fc4c0b"
 }

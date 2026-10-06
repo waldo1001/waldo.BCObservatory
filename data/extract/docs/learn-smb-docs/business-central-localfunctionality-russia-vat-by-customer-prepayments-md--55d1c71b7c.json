@@ -1,0 +1,48 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/VAT-by-Customer-prepayments.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/VAT-by-Customer-prepayments",
+  "title": "VAT by customer prepayment in Russia",
+  "blob": "1bb0e8251dc98bad5b49f922362efdee30fd7ba5",
+  "summary": "VAT by customer prepayment in Russia handles the creation of VAT invoices and records when customers provide prepayments, supporting both unrealized VAT setup and prepayment return processes with corrective entries.",
+  "systems": [
+    "sales",
+    "finance"
+  ],
+  "topics": [
+    "vat processing",
+    "prepayments",
+    "customer invoices",
+    "russia local"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "General Ledger Setup"
+    },
+    {
+      "type": "page",
+      "name": "VAT Posting setup"
+    },
+    {
+      "type": "page",
+      "name": "Customer ledger entries"
+    }
+  ],
+  "features": [
+    "Unrealized VAT setup",
+    "VAT posting configuration",
+    "Prepayment processing",
+    "Corrective entry generation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002808,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/Establishment-of-charges-and-deductions-to-the-employee.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/Establishment-of-charges-and-deductions-to-the-employee",
+  "title": "Establishment of charges and deductions in Russia",
+  "blob": "534268c10e19bf5b51616b41c5b3b52cd52a4f94",
+  "summary": "Establishment of charges and deductions in Russia uses Employee Journal to record bonuses, fines, benefits, deductions, and assistance for employees, with automatic inclusion in payroll based on start and end dates.",
+  "systems": [
+    "hr"
+  ],
+  "topics": [
+    "payroll",
+    "employee charges",
+    "deductions",
+    "russia local"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Employee Journal"
+    },
+    {
+      "type": "page",
+      "name": "Employee Ledger Entries"
+    },
+    {
+      "type": "page",
+      "name": "Employee Card"
+    }
+  ],
+  "features": [
+    "Charge recording",
+    "Deduction management",
+    "Payroll element codes",
+    "Charge closure and updates",
+    "Wage period assignment"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002808,
+      "pages_in_call": 8
+    }
+  ]
+}

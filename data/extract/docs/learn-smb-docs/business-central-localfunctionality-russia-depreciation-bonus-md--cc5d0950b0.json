@@ -1,0 +1,57 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/depreciation-bonus.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/depreciation-bonus",
+  "title": "Depreciation bonus in Russia",
+  "blob": "ee1285f58f33216e8452ccd82e38fe95177c12c3",
+  "summary": "Depreciation bonus in Russia is an accelerated depreciation method for fixed assets at 10% or 30% rates applied in tax accounting, configured through tax registers and applied selectively to asset acquisitions and capital investments.",
+  "systems": [
+    "fixed-assets",
+    "finance"
+  ],
+  "topics": [
+    "depreciation",
+    "tax accounting",
+    "fixed assets",
+    "russia local"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Depreciation Group"
+    },
+    {
+      "type": "page",
+      "name": "Tax Register Setup"
+    },
+    {
+      "type": "page",
+      "name": "Fixed Asset Journal"
+    },
+    {
+      "type": "page",
+      "name": "Fixed Asset G/L Journal"
+    },
+    {
+      "type": "codeunit",
+      "name": "Cancel FA Ledger Entries"
+    }
+  ],
+  "features": [
+    "Depreciation bonus calculation",
+    "Tax difference setup",
+    "Bonus recovery periods",
+    "Bonus cancellation",
+    "Depreciation basis selection"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002808,
+      "pages_in_call": 8
+    }
+  ]
+}

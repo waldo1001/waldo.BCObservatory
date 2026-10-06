@@ -1,0 +1,64 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/general-ledger-correspondence.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/general-ledger-correspondence",
+  "title": "General ledger correspondence in Russia",
+  "blob": "b310e92cc9b82a6fa3defd2f0b42bd4173b73547",
+  "summary": "General ledger correspondence in Russia creates correspondence transactions between GL accounts for audit trails, supports automatic posting, and provides analysis reports showing account turnovers and correspondence entries.",
+  "systems": [
+    "finance",
+    "reporting"
+  ],
+  "topics": [
+    "general ledger",
+    "correspondence",
+    "audit trails",
+    "russia local"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "General Ledger Setup"
+    },
+    {
+      "type": "page",
+      "name": "General Ledger - Correspondence"
+    },
+    {
+      "type": "page",
+      "name": "G/L Correspondence Entries"
+    },
+    {
+      "type": "report",
+      "name": "General Ledger - Correspondence"
+    },
+    {
+      "type": "report",
+      "name": "G/L Corresp. Journal Order"
+    },
+    {
+      "type": "report",
+      "name": "G/L Corresp Entries Analysis"
+    },
+    {
+      "type": "codeunit",
+      "name": "Create G/L Correspondence"
+    }
+  ],
+  "features": [
+    "Correspondence transaction creation",
+    "Automatic GL correspondence",
+    "Account turnover analysis",
+    "Correspondence entry reporting"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002808,
+      "pages_in_call": 8
+    }
+  ]
+}

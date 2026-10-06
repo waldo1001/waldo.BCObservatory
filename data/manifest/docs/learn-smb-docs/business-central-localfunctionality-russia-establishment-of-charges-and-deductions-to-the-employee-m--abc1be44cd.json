@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/Establishment-of-charges-and-deductions-to-the-employee",
   "published_at": "2025-08-07T14:51:39.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "534268c10e19bf5b51616b41c5b3b52cd52a4f94",
       "words": 642,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:13:38.451Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.002808
+    },
+    "summarized": {
+      "at": "2026-10-06T19:13:47.618Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:13:49.437Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:13:49.439Z",
+      "page": false
     }
   },
   "input_hash": "534268c10e19bf5b51616b41c5b3b52cd52a4f94",
@@ -39,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "534268c10e19bf5b51616b41c5b3b52cd52a4f94"
+  "output_hash": "406be226c08ce1ab7e171f01aa59bc70d8f5a769107469f11cb45e06d91c79f9"
 }
