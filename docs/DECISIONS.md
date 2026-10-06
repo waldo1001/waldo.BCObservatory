@@ -264,3 +264,12 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   `page customer list`, `field:Posting Date`; the indexes load when the palette first opens. Why: with 16k object
   pages, "jump to table 18" and "which tables have a Posting Date field" are the two moves a developer makes most,
   and the full-text search index (7 MB, summaries) is the wrong tool for both. Agents can use the same files.
+- **D47 The codebase atlas replaces the flat object lists on /objects/.** A squarified treemap
+  (`site/src/scripts/atlas.ts`) of the objects by namespace (Microsoft > Sales > Customer; objects without a
+  namespace fall under their app), drawn in the browser from `index/objects.json`, which gained four columns for it
+  (introduced major, changed-in majors, Learn pages, countries). Size = objects; colour = the galaxy system of the
+  namespace, or a lens (changed in BC29, changed in BC30, introduced since BC29, obsolete share, Learn coverage,
+  country overrides) as brightness. Filters: type, app, introduced, obsolete, name; a click zooms into a namespace
+  (`?ns=`), and a filterable table lists what is in view. The per-type pages and llms.txt stay for agents and links.
+  Why: 16k objects in id-sorted lists of 4,000 rows gave no sense of where the code is, what changes, or what is
+  documented; the atlas answers those at a glance and in the galaxy's visual language.

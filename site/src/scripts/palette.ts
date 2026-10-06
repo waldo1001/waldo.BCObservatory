@@ -3,7 +3,7 @@
  * `table 18`, `cu 80`, `Customer`, `page customer list` and `field:Posting Date` all work. The compact indexes
  * (index/objects.json, index/fields.json) load when the palette first opens, never with the page.
  */
-type Row = [string, string, number | null, string, string | null, string | null, string | null]; // pk, type, id, name, app, ns, obsolete
+type Row = [string, string, number | null, string, string | null, string | null, string | null, ...unknown[]]; // pk, type, id, name, app, ns, obsolete (+ atlas columns)
 interface Hit { row: Row; note?: string; rank: number }
 
 const ABBR: Record<string, string> = { t: "table", te: "tableextension", p: "page", pe: "pageextension", c: "codeunit", cu: "codeunit", r: "report", q: "query", e: "enum", ee: "enumextension", x: "xmlport", i: "interface", ps: "permissionset" };

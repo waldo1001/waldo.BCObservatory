@@ -1,14 +1,54 @@
 ---
 import { getCollection } from "astro:content";
 import List from "../../layouts/List.astro";
-const base = import.meta.env.BASE_URL;
+import { NS_SYSTEM } from "../../../../pipeline/lib/systems";
 const all = await getCollection("objects");
 const counts = new Map<string, number>();
 for (const e of all) counts.set(e.data.object_type, (counts.get(e.data.object_type) ?? 0) + 1);
+const base = import.meta.env.BASE_URL;
+const majors = ["28", "29", "30"];
 ---
-<List section="objects" title="AL objects · BC Observatory" description="Every W1 and first-party app object of Business Central, extracted from the code.">
+<List section="objects" title="AL objects · BC Observatory" description="Every W1 and first-party app object of Business Central, extracted from the code: a zoomable atlas by namespace.">
   <p class="eyebrow">AL objects</p>
-  <h1>{all.length} objects</h1>
-  <p class="lede">Extracted from the code (names, ids, signatures, properties; no code bodies): fields, keys, procedures, events, subscriptions, obsolete state, versions, countries that replace them and the Learn pages that name them. Agents: <a href={`${base}objects/llms.txt`}>llms.txt</a>.</p>
-  <ul>{[...counts].sort((a, b) => b[1] - a[1]).map(([t, n]) => <li><a href={`${base}objects/${t}/`}>{t}</a> <span class="meta">{n}</span></li>)}</ul>
+  <h1>{all.length.toLocaleString("en")} objects</h1>
+  <p class="lede">Extracted from the code (names, ids, signatures, properties; no code bodies): fields, keys, procedures, events, subscriptions, relations, obsolete state, versions, countries that replace them and the Learn pages that name them. Agents: <a href={`${base}objects/llms.txt`}>llms.txt</a>, <a href={`${base}index/objects.json`}>objects.json</a>. Press <kbd>Ctrl</kbd>+<kbd>K</kbd> anywhere to jump to an object.</p>
+  <section class="atlas" data-base={base} data-systems={JSON.stringify(NS_SYSTEM)} aria-label="Codebase atlas">
+    <form class="atlas-bar" onsubmit="return false">
+      <label>Lens <select name="lens"><option value="system">galaxy system</option><option value="changed29">changed in BC29</option><option value="changed30">changed in BC30 (vNext)</option><option value="introduced">introduced in BC29+</option><option value="obsolete">obsolete share</option><option value="learn">documented on Learn</option><option value="countries">replaced by countries</option></select></label>
+      <label>Type <select name="type"><option value="">all</option></select></label>
+      <label>App <select name="app"><option value="">all</option></select></label>
+      <label>Introduced <select name="intro"><option value="">any</option><option value="old">before BC{majors[0]}</option>{majors.slice(1).map((m) => <option value={m}>BC{m}</option>)}</select></label>
+      <label class="chk"><input type="checkbox" name="obsolete" /> obsolete only</label>
+      <label>Name <input type="search" name="name" placeholder="customer, Microsoft.Sales" /></label>
+    </form>
+    <nav class="atlas-crumbs mono-meta" aria-label="Namespace"></nav>
+    <div class="atlas-canvas"><canvas aria-label="Treemap of the objects by namespace"></canvas><div class="atlas-tip" hidden></div></div>
+    <p class="atlas-legend meta">Loading the objects index...</p>
+    <h2 class="section-title">Objects <small class="atlas-count"></small></h2>
+    <div class="table-scroll"><table class="atlas-table"><thead><tr><th>Object</th><th>Namespace</th><th>App</th><th>Versions, Learn, countries</th></tr></thead><tbody></tbody></table></div>
+    <p><button type="button" class="btn" data-more hidden>Show more</button></p>
+  </section>
+  <h2>Per type</h2>
+  <ul class="rows type-list">{[...counts].sort((a, b) => b[1] - a[1]).map(([t, n]) => <li><a href={`${base}objects/${t}/`}>{t}</a> <span class="mono-meta">{n.toLocaleString("en")}</span></li>)}</ul>
 </List>
+<script>
+  import { mountAtlas } from "../../scripts/atlas";
+  const el = document.querySelector<HTMLElement>("section.atlas");
+  if (el) mountAtlas(el);
+</script>
+<style>
+  .atlas { margin-top: 24px; }
+  .atlas-bar { display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: end; margin-bottom: 10px; }
+  .atlas-bar label { display: grid; gap: 4px; font-size: 12px; color: var(--muted); }
+  .atlas-bar label.chk { grid-auto-flow: column; align-items: center; align-self: center; padding-top: 16px; }
+  .atlas-bar select, .atlas-bar input[type=search] { background: var(--surface); color: var(--text); border: 1px solid var(--line-strong); border-radius: var(--r-card); font: 400 14px var(--font-ui); padding: 7px 9px; min-height: 36px; }
+  .atlas-crumbs { margin: 6px 0; }
+  .atlas-crumbs :global(button) { background: none; border: 0; padding: 2px 0; color: var(--link); font: inherit; cursor: pointer; }
+  .atlas-crumbs :global(button:last-child) { color: var(--text); }
+  .atlas-canvas { position: relative; }
+  .atlas canvas { display: block; width: 100%; height: 480px; border: 1px solid var(--line); border-radius: var(--r-panel); }
+  .atlas-tip { position: absolute; left: 0; top: 0; pointer-events: none; font: 500 12px var(--font-mono); color: var(--text); background: color-mix(in srgb, var(--surface) 92%, transparent); border: 1px solid var(--line); border-radius: var(--r-badge); padding: 3px 7px; white-space: nowrap; }
+  .atlas-table { min-width: 720px; }
+  .type-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 0 24px; }
+  .type-list li { display: flex; justify-content: space-between; }
+</style>

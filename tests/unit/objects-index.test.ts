@@ -20,6 +20,7 @@ test("objects.json has one compact row per object page; fields.json maps field n
   assert.deepEqual(r, { objects: 3, fields: 2 });
   const o = JSON.parse(readFileSync(join(dataDir, "index/objects.json"), "utf8"));
   assert.deepEqual(o.rows.map((x: unknown[]) => x.slice(0, 4)), [["interface/i-price-calc", "interface", null, "I Price Calc"], ["table/18", "table", 18, "Customer"], ["table/36", "table", 36, "Sales Header"]]);
+  assert.deepEqual(o.rows[1].slice(7), [null, "", 0, 0], "introduced unknown (present since the oldest snapshot), no changes, no Learn pages, no countries");
   const f = JSON.parse(readFileSync(join(dataDir, "index/fields.json"), "utf8"));
   assert.equal(f.major, "29");
   assert.deepEqual(f.fields["posting date"], ["table/18", "table/36"]);

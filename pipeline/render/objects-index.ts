@@ -12,8 +12,11 @@ import { objectKey } from "../code/extract.js";
 import { iterSnapshot, snapshotDir } from "../code/job.js";
 import { APPS } from "../code/diff.js";
 
-/** [page key, type, id, name, app, namespace, obsolete state] */
-export type ObjectRow = [string, string, number | null, string, string | null, string | null, string | null];
+/**
+ * [page key, type, id, name, app, namespace, obsolete state, introduced major | null, changed-in majors ("29 30"),
+ *  Learn pages naming it, countries replacing it]. The palette reads the first seven, the atlas all of them.
+ */
+export type ObjectRow = [string, string, number | null, string, string | null, string | null, string | null, string | null, string, number, number];
 export interface ObjectsIndex { schema: "bcobs-objects@1"; count: number; rows: ObjectRow[] }
 export interface FieldsIndex { schema: "bcobs-fields@1"; major: string | null; count: number; fields: Record<string, string[]> }
 
@@ -26,7 +29,8 @@ export function renderObjectsIndex(contentDir: string, dataDir: string): { objec
     try { fm = matter(readText(f)).data; } catch { continue; }
     if (fm.type !== "object") continue;
     const pk = relative(root, f).replace(/\.md$/, "");
-    rows.push([pk, String(fm.object_type), fm.object_id ?? null, String(fm.name), fm.app ?? null, fm.namespace ?? null, fm.obsolete?.state ?? null]);
+    rows.push([pk, String(fm.object_type), fm.object_id ?? null, String(fm.name), fm.app ?? null, fm.namespace ?? null, fm.obsolete?.state ?? null,
+      fm.versions?.introduced ?? null, (fm.changed_in ?? []).join(" "), (fm.links?.learn ?? []).length, (fm.countries ?? []).length]);
     pageOfKey.set(objectKey({ type: fm.object_type, id: fm.object_id ?? null, name: String(fm.name) }), pk);
   }
   rows.sort((a, b) => a[0].localeCompare(b[0]));

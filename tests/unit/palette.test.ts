@@ -2,7 +2,7 @@ import { test } from "node:test";
 import assert from "node:assert/strict";
 import { findObjects } from "../../site/src/scripts/palette.js";
 
-type Row = [string, string, number | null, string, string | null, string | null, string | null];
+type Row = [string, string, number | null, string, string | null, string | null, string | null, ...unknown[]];
 const rows: Row[] = [
   ["table/18", "table", 18, "Customer", "Base Application", "Microsoft.Sales.Customer", null],
   ["table/1800", "table", 1800, "Customer Ledger Setup", "Base Application", null, null],
