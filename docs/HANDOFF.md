@@ -41,9 +41,13 @@ Deliberate deviations from PLAN, all small:
      the nightly now works through the 82 remaining seed videos (12/night in reduced mode, ~$0.075 each).
    - A status stands only when its verbatim evidence states it; launch-event videos mostly say "introduced", so
      their features read "status not stated" until roadmap stubs (step 5) supply real status.
-   - Open: Microsoft channel reconcile (`yt-dlp --flat-playlist`) + caption fetch handlers (`fetched`,
-     `captioned`, Mini only); Opus `reviewed` handler (flagged videos wait at `linked`); Astro route that renders
-     `content/videos` and links the section from the root `llms.txt`.
+   - Done (same day): Microsoft channel reconcile (weekly `yt-dlp --flat-playlist`, 444 more videos, undated until
+     `fetched`), caption fetch (`pipeline/caption/{ytdlp,fetch}.ts`, official tier only), Astro routes `/videos/`,
+     `/videos/<id>/`, `/videos/<id>.md`, `/videos/llms.txt`, root `llms.txt` Sections block.
+   - Open: Opus `reviewed` handler (flagged videos wait at `linked`); community video captions (need `check:leak`,
+     D08); `no-captions` skips are terminal for now (PLAN wants a weekly retry).
+   - Nightly per night (reduced mode, no usage token): 40 captions (2 yt-dlp calls each, 5-10 s apart), 12 videos
+     extracted + summarized + published. 82 seed + 444 reconciled videos ≈ 6 weeks at that pace; full quotas halve it.
    - Measured (claude -p, 2.1.287): Haiku extraction 9-min video $0.036 / 27 s, 35-min video $0.16 (4 calls);
      Sonnet summary ~$0.04. `npm run nightly -- --pillars video --only yt-microsoft --quota 2 --no-guard` is the
      local end-to-end check.

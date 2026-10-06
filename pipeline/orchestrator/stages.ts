@@ -2,8 +2,7 @@
  * Stage handlers per pillar, consumed by the executor (execute.ts). A pillar/stage without a handler is left
  * where it is. M1 adds them pillar by pillar: videos first (D18), then Learn docs, then roadmap stubs and hubs.
  *
- * Video: `fetched`/`captioned` take official (Microsoft) videos only until community captions can be pushed to the
- * vault. `reviewed` (Opus, flagged items) is not wired yet: flagged videos wait at `linked`.
+ * Video: `fetched`/`captioned` take official (Microsoft) videos only until the leak scanner exists (D08). `reviewed` (Opus, flagged items) is not wired yet: flagged videos wait at `linked`.
  */
 import { captionedHandler, fetchedHandler } from "../caption/fetch.js";
 import { extractedHandler } from "../extract/video.js";
