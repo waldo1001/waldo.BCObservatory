@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-setup-sl",
   "published_at": "2025-02-08T02:55:35.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "9c0050cb88ae16d89f6d49f70aca1a4a049b9104",
       "words": 1005,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:43:52.194Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.006174
+    },
+    "summarized": {
+      "at": "2026-10-06T19:43:52.202Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:43:52.203Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:43:52.203Z",
+      "page": false
     }
   },
   "input_hash": "9c0050cb88ae16d89f6d49f70aca1a4a049b9104",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9c0050cb88ae16d89f6d49f70aca1a4a049b9104"
+  "output_hash": "ad5fc89a4e340859bd3203e462ba474ce97a438ee9315aa5e1508ff110bdd32d"
 }

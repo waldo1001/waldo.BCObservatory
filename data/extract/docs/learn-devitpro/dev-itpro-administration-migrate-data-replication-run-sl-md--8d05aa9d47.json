@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/migrate-data-replication-run-SL.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-data-replication-run-SL",
+  "title": "Run and manage data replication for Dynamics SL cloud migration",
+  "blob": "f047f32e9c3f275bdf29e4425cf299230d393d02",
+  "summary": "Running data replication moves data from an on-premises Dynamics SL database to Business Central online. Use this to replicate data, monitor migration progress, manage errors, pause or stop replication.",
+  "systems": [
+    "integration",
+    "administration"
+  ],
+  "topics": [
+    "dynamics sl migration",
+    "data replication",
+    "cloud migration",
+    "migration log",
+    "telemetry"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Cloud Migration Management"
+    }
+  ],
+  "features": [
+    "Run data replication",
+    "migration log monitoring",
+    "pause migration",
+    "abandon migration",
+    "error handling",
+    "data replication status"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006174,
+      "pages_in_call": 8
+    }
+  ]
+}

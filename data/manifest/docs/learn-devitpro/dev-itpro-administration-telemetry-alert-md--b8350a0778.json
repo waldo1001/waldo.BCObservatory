@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-alert",
   "published_at": "2024-11-21T09:54:17.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,13 @@
       "blob": "cfe58fd1562cfc41d3ef72b595ecf5ad9b2222ee",
       "words": 659,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:44:08.537Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003679
     }
   },
   "input_hash": "cfe58fd1562cfc41d3ef72b595ecf5ad9b2222ee",
@@ -42,5 +49,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "cfe58fd1562cfc41d3ef72b595ecf5ad9b2222ee"
+  "output_hash": "d05d189e77d03065b1785abf683f720baac940e9fcdec9b14c6cd7e870105af1"
 }

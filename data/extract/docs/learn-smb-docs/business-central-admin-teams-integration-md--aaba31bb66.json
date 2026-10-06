@@ -1,0 +1,55 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/admin-teams-integration.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/admin-teams-integration",
+  "title": "Managing Microsoft Teams Integration with Business Central| Microsoft Docs",
+  "blob": "f186752f09cbc78cc52e227fcc1aeb6c5a29bd79",
+  "summary": "Managing Microsoft Teams integration controls how Business Central app features work in Teams, including licensing requirements, permissions, card data visibility, and app deployment. Configure Teams app setup policies, data retention, and compliance settings as an administrator.",
+  "systems": [
+    "integration",
+    "administration"
+  ],
+  "topics": [
+    "teams integration",
+    "app management",
+    "permissions",
+    "data visibility",
+    "compliance",
+    "messaging policies",
+    "centralized deployment"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "2718 Page Summary Provider"
+    },
+    {
+      "type": "page",
+      "name": "Teams App Centralized Deployment"
+    },
+    {
+      "type": "page",
+      "name": "Card Settings"
+    }
+  ],
+  "features": [
+    "Teams licensing",
+    "contact search",
+    "card sharing",
+    "record summary visibility",
+    "centralized deployment",
+    "messaging policies",
+    "information barriers",
+    "data loss prevention"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006174,
+      "pages_in_call": 8
+    }
+  ]
+}

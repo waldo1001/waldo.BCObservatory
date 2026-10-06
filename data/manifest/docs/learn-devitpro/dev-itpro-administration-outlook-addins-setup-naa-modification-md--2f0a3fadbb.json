@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/outlook-addins-setup-naa-modification",
   "published_at": "2025-01-31T13:14:09.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "d6150a015dc7637d35fc2a931044d5de510c907f",
       "words": 338,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:43:52.197Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.006174
+    },
+    "summarized": {
+      "at": "2026-10-06T19:44:04.172Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:44:04.173Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:44:04.173Z",
+      "page": false
     }
   },
   "input_hash": "d6150a015dc7637d35fc2a931044d5de510c907f",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d6150a015dc7637d35fc2a931044d5de510c907f"
+  "output_hash": "de17227b4d41b620dc9c74f56bdd985a8d736bac37aa4d2ed8e7c08fbcd5c90d"
 }

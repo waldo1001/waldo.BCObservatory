@@ -1,0 +1,308 @@
+{
+  "video_id": "gAzmWJg9Z5g",
+  "item_id": "video/yt-microsoft/gAzmWJg9Z5g",
+  "title": "What's New: Key Updates in Learning Content (docs) for Systems Architects and Integration Developers",
+  "duration_s": 675,
+  "systems": [
+    "integration",
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "integration overview",
+    "microsoft 365 apps",
+    "power platform",
+    "dataverse",
+    "azure services",
+    "web services",
+    "rest apis",
+    "documentation",
+    "connector",
+    "al development"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Overview",
+      "t_start": 0,
+      "t_end": 51.6
+    },
+    {
+      "title": "Integration Overview and Documentation Structure",
+      "t_start": 51.6,
+      "t_end": 162.8
+    },
+    {
+      "title": "New Integration Landing Page and Navigation",
+      "t_start": 162.8,
+      "t_end": 242.6
+    },
+    {
+      "title": "Microsoft 365, Office Apps, and Power Platform Integrations",
+      "t_start": 242.6,
+      "t_end": 310.2
+    },
+    {
+      "title": "Dynamics Products, Dataverse, and Azure Services Integrations",
+      "t_start": 310.2,
+      "t_end": 390.2
+    },
+    {
+      "title": "Microsoft Entra, Infrastructure Services, and Web Services",
+      "t_start": 390.2,
+      "t_end": 465.8
+    },
+    {
+      "title": "Key Takeaways and Documentation Best Practices",
+      "t_start": 465.8,
+      "t_end": 563.3
+    },
+    {
+      "title": "Related Sessions and Resources",
+      "t_start": 563.3,
+      "t_end": 675
+    }
+  ],
+  "features": [
+    {
+      "name": "Integration Overview Documentation",
+      "description": "New comprehensive guidance and documentation for understanding how integrations work between Business Central and various services and products, including foundational services, Microsoft 365 apps, Power Platform, Dynamics products, and Azure services.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 31.2,
+      "t_end": 162.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "documentation",
+        "integration",
+        "architecture"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "New Integration Landing Page (aka.ms/bc-integration)",
+      "description": "A new dedicated landing page providing an overview of all integration topics with navigation to detailed documentation for each integration class including Microsoft 365, Power Platform, Dynamics products, Azure services, and web services.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 183.1,
+      "t_end": 242.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "landing page",
+        "documentation",
+        "navigation"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Microsoft 365 and Office Apps Integration Documentation",
+      "description": "Documentation covering integrations with Excel, Word, Outlook and other Microsoft 365 and Office applications, including diagrams showing data flow to and from Business Central.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 242.6,
+      "t_end": 263,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "microsoft 365",
+        "office apps",
+        "integration"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Power Platform Integration Documentation",
+      "description": "Documentation covering Power Platform integrations primarily using REST APIs with the Power Platform connector, including detailed guidance for Power Platform products integration.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 277.8,
+      "t_end": 297.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "power platform",
+        "rest apis",
+        "connector"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Dynamics Products and Dataverse Integration Documentation",
+      "description": "Documentation covering integration methods with Dynamics products and Dataverse including connectors, data synchronization, virtualization, change events, and new business events.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 310.2,
+      "t_end": 349.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "dataverse",
+        "dynamics",
+        "data synchronization"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Azure Services Integration Support",
+      "description": "Documentation covering various Azure services integrations including Application Insights telemetry, Blob Services, File Services, Azure Functions, with support through HTTP client data type in AL and system modules encapsulating Azure APIs.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 349.9,
+      "t_end": 390.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "azure",
+        "application insights",
+        "telemetry"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Microsoft Entra and Infrastructure Services Documentation",
+      "description": "Documentation covering Microsoft Entra for authentication and authorization, Universal Print, and upcoming Microsoft Purview for audit functionality.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 390.2,
+      "t_end": 424.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "microsoft entra",
+        "authentication",
+        "audit"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Network Access Restriction with Security Service Tags",
+      "description": "Capability to restrict network access to and from Business Central using security service tags as part of Microsoft Entra and infrastructure services.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 424.9,
+      "t_end": 445.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "network security",
+        "security service tags"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Web Services Documentation Update",
+      "description": "Updated documentation covering three ways to integrate with web services including REST APIs as the recommended method, OData and SOAP as legacy methods, with coverage of security, troubleshooting, performance and errors.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 445.2,
+      "t_end": 485.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "web services",
+        "rest apis",
+        "odata",
+        "soap"
+      ],
+      "system": "integration"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Connect apps",
+      "t": 142.2
+    },
+    {
+      "type": "other",
+      "name": "HTTP client data type",
+      "t": 349.9
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 31.2,
+      "text": "in this video I will show you some new guidance or documentation around Integrations to and from business Central",
+      "why_it_matters": "Sets the scope and purpose of the entire presentation - documenting integration guidance for architects and developers.",
+      "check": "exact"
+    },
+    {
+      "t": 51.6,
+      "text": "this piece of documentation or guidance is here for you to understand how Integrations work not necessarily why",
+      "why_it_matters": "Clarifies the focus of the documentation: practical how-to guidance for implementing integrations rather than business case justification.",
+      "check": "exact"
+    },
+    {
+      "t": 81.8,
+      "text": "understand first of all what's possible and also how to troubleshoot this should you encounter any issues",
+      "why_it_matters": "Explains the dual purpose of the integration guidance: enabling implementations and supporting problem resolution.",
+      "check": "exact"
+    },
+    {
+      "t": 183.1,
+      "text": "there's a new landing page called aka.ms slbc integration let's take a look and uh see how how it",
+      "why_it_matters": "Introduces a key resource - a new centralized landing page for all integration documentation.",
+      "check": "exact"
+    },
+    {
+      "t": 445.2,
+      "text": "business Central supports three different ways to integrate to web services rest apis which is what you should use",
+      "why_it_matters": "Establishes REST APIs as the recommended integration method while acknowledging legacy OData and SOAP options.",
+      "check": "exact"
+    },
+    {
+      "t": 509.7,
+      "text": "whenever you start something new try to go to docs and start your learning",
+      "why_it_matters": "Emphasizes Microsoft's strategy to consolidate integration guidance in official documentation rather than dispersing it elsewhere.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 529.8,
+      "text": "if you're an expert on something and you know this is not in docs then do a a pull request and help others",
+      "why_it_matters": "Invites community contributions to improve documentation through pull requests, showing an open governance model.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 404.8,
+      "kind": "coming-later",
+      "text": "upcoming also Microsoft purview for audit uh purposes or audit functionality"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 9
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.024444
+    }
+  ]
+}

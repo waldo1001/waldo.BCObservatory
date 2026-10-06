@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/service-overview",
   "published_at": "2024-12-31T01:43:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "e84f6e150b3b218aee9fab20ace16c74af6514c7",
       "words": 1474,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:43:52.198Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.006174
+    },
+    "summarized": {
+      "at": "2026-10-06T19:44:04.177Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:44:04.179Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:44:04.180Z",
+      "page": false
     }
   },
   "input_hash": "e84f6e150b3b218aee9fab20ace16c74af6514c7",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e84f6e150b3b218aee9fab20ace16c74af6514c7"
+  "output_hash": "0dac3482ad0d83dbe205914b3f6d45b008d9695b890ab4e89addae2fc06af377"
 }

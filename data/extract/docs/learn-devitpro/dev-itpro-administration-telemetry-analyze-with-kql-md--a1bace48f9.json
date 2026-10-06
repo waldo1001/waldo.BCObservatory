@@ -1,0 +1,44 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-analyze-with-kql.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-analyze-with-kql",
+  "title": "Analyze and monitor telemetry with KQL",
+  "blob": "34988f0b0a2f1d5f630dda8f3acdbad0922ee590",
+  "summary": "Analyzing telemetry with Kusto Query Language (KQL) enables querying Business Central telemetry stored in Application Insights. Provides KQL examples for analyzing report usage, session tracking, user activity, and converting timestamps across timezones.",
+  "systems": [
+    "reporting",
+    "development"
+  ],
+  "topics": [
+    "kusto query language",
+    "kql",
+    "application insights",
+    "telemetry",
+    "log analytics",
+    "report analysis",
+    "session tracking"
+  ],
+  "objects": [],
+  "features": [
+    "Kusto queries",
+    "Application Insights",
+    "Log Analytics",
+    "traces table",
+    "pageViews table",
+    "custom dimensions",
+    "session tracking",
+    "user activity analysis"
+  ],
+  "versions": [
+    "version 24"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006174,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/migration-manage-gp.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-manage-gp",
+  "title": "Managing Dynamics GP cloud migration",
+  "blob": "5faae8cfc505244462dcb8de7732578c0213ed9e",
+  "summary": "Managing Dynamics GP cloud migration describes how to use the Cloud Migration Management page in Business Central online or the cloud migration API to set up, run, track, and manage data migration from on-premises Dynamics GP to cloud.",
+  "systems": [
+    "integration",
+    "administration"
+  ],
+  "topics": [
+    "dynamics gp migration",
+    "cloud migration",
+    "data replication",
+    "migration management",
+    "on-premises to cloud"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Cloud Migration Management"
+    }
+  ],
+  "features": [
+    "Migration Log",
+    "Migration Information tiles",
+    "Run Migration Now",
+    "Run Data Upgrade Now",
+    "Reset Cloud Data",
+    "Disable Cloud Migration",
+    "GP Company Migration Configuration",
+    "Azure Data Lake integration"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003679,
+      "pages_in_call": 8
+    }
+  ]
+}

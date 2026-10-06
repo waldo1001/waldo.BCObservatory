@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-teams-integration",
   "published_at": "2025-01-28T07:22:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "f186752f09cbc78cc52e227fcc1aeb6c5a29bd79",
       "words": 1388,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T19:43:52.197Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.006174
+    },
+    "summarized": {
+      "at": "2026-10-06T19:44:04.175Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:44:04.176Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:44:04.176Z",
+      "page": false
     }
   },
   "input_hash": "f186752f09cbc78cc52e227fcc1aeb6c5a29bd79",
@@ -51,5 +70,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f186752f09cbc78cc52e227fcc1aeb6c5a29bd79"
+  "output_hash": "330322b547d65936e4f9e0c43d90316dae922d9fccc0a3b1ba25e56756f587e3"
 }

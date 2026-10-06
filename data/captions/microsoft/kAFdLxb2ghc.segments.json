@@ -1,0 +1,581 @@
+{
+  "video_id": "kAFdLxb2ghc",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 16.6,
+      "end": 36.9,
+      "text": "welcome to busy cental lunch event 2024 release Wave 1 today we will talk what is new in our module E documents and before we start first let's introduce ourselves so my colleague hello I am Manos and I am a software engineer at business Central"
+    },
+    {
+      "t": 36.9,
+      "end": 56.9,
+      "text": "and today I have with me yeah my name is Alexander toic and I'm product manager and both of us we work on this nice amazing functionality about the documents and now this is the second wave so we want to show what is really new here agenda for today is actually this is really short uh we will first remind you what we"
+    },
+    {
+      "t": 56.9,
+      "end": 70.8,
+      "text": "deliver previous wave some overview after that we'll be Focus what is new briefly but the most important is to show you full demo end to endend scenario so you can see in in the practice what is really"
+    },
+    {
+      "t": 70.8,
+      "end": 90.8,
+      "text": "new okay um before we start with all these new things I want to remind you may we decided last wave to start with um e documents uh module we were thinking if we will start as a part of Bas app or not and our decision was no we will go with a new app so we deliver e"
+    },
+    {
+      "t": 90.8,
+      "end": 111.2,
+      "text": "doent core app but if you can see this light blue in a Bas app yes some part of e doents are still in the B app and this is because we didn't want to make some breaking changes for existing U electronic document Solutions because we have many of partner based localizations in some non microsof supported countries"
+    },
+    {
+      "t": 111.2,
+      "end": 131.3,
+      "text": "that we already have uh introduced invoicing so we didn't want to make all these breaking changes so we adapted what was necessary in a Bas app but our f focus our main focus was on um e doent core app uh we try to put what is really common in this app but then on the front on the front on top"
+    },
+    {
+      "t": 131.3,
+      "end": 151.3,
+      "text": "of that app we made another app for connection with third party um access points service providers together with this app we we cannot say 100% sure but in general we are looking to have more than 80% of all features you will need in documents after that some small things"
+    },
+    {
+      "t": 151.3,
+      "end": 171.9,
+      "text": "adaptions are still related with uh specific localizations maybe something is missing here and we are listening your feedback so if we need to improve something and we know that we need to improve some things to add some new features and we are doing this and yes this is what we are talking today about that uh but let's look this is uh basic framework"
+    },
+    {
+      "t": 171.9,
+      "end": 192.2,
+      "text": "common and plus integration with external Services what you expected and what Microsoft is doing on top of that we already deliver some localizations and we are planning to deliver more localization on top of that as a independent local uh apps and we expect this from Partners as well from you to make your own localizations and not only"
+    },
+    {
+      "t": 192.2,
+      "end": 212.4,
+      "text": "localizations sometimes you want to extend Microsoft localization for example in Denmark or Belgium whenever we have and you can add some specific industry U industry Solutions on top of that maybe some additional documents or even if you look in these third party access points if you are uh isv if you are provider you can enable some additional documents"
+    },
+    {
+      "t": 212.4,
+      "end": 224.5,
+      "text": "maybe you will enable quotes or orders exchange all these documents so we are good with that we have good framework and we deliver uh the basic functionality about invoices but now you can build more if you"
+    },
+    {
+      "t": 224.5,
+      "end": 244.9,
+      "text": "need uh I don't want to explain all these details what we have um in our solution uh about all corter models how we support in general we can support two coordinate three coordin four coordinate models and let's imagine that four coordinate model is the most complicated one and I just want to remind you not about how exchange uh how we exchange"
+    },
+    {
+      "t": 244.9,
+      "end": 265.4,
+      "text": "uh documents but how we exchanging messages because this is important and this is especially important when we talk about this um uh third partyy access providers so we are exchanging different type of messages through them and in general let's imagine now we are sender we are seller and we have our internal messaging"
+    },
+    {
+      "t": 265.4,
+      "end": 285.4,
+      "text": "system inside the busy Central we assume something similar exists in a receiver RP or if our receiver is busy Central user we are pretty sure it exists there we know we made it so in in uh inside the business Central we have internal messages system but then this messages system"
+    },
+    {
+      "t": 285.4,
+      "end": 301.6,
+      "text": "communicate with uh access points with third party services and now in some cases uh we are connected with defit third party access uh points because as a payo or some other rule in some situations"
+    },
+    {
+      "t": 301.6,
+      "end": 321.8,
+      "text": "government uh governments do not allow us to connect directly with their services in some countries this is possible so we cannot say all the time when we can directly connect or not but in general in almost all these situation we have communication with some services so now we have communication in in both directions"
+    },
+    {
+      "t": 321.8,
+      "end": 342,
+      "text": "when receiver get uh document they need to approve or reject so they're sending this uh message to receiver access points in the time our um bus Central as a seller we communicate all the time with our access point listening and expecting some new message to get and if receiver approve this message"
+    },
+    {
+      "t": 342,
+      "end": 362.2,
+      "text": "will be exchanged between receiver access point and our access point that means cender access point and we will listening we will collect this information and get it back to busy Central this is important understanding how all this messaging are functional so this is important part this is not only sending anding documents messaging is important we need to know if our customer"
+    },
+    {
+      "t": 362.2,
+      "end": 382.4,
+      "text": "receive rejected or some other status document so now I will go further what is new I will briefly explain what is new because my colleague magos will explain much more in details in the Demo First what we deliver we deliver P format support why because of your feedback when we created"
+    },
+    {
+      "t": 382.4,
+      "end": 397.8,
+      "text": "first framework we didn't support any format so you uh you were expected to build your own format you want to use and and based on your feedback we conclude this is not the best design not Design This is the not the best user experience because"
+    },
+    {
+      "t": 397.8,
+      "end": 418,
+      "text": "you um needed something to test it so now we decided let's bring P B3 because this is the most used format globally and we went one step further we say if you want to deliver this let's make in both of types we can communicate different types of formats so you can see uh good Role Models"
+    },
+    {
+      "t": 418,
+      "end": 438.3,
+      "text": "so you can decide what is better for you we deliver this as a code so pure code you have in a code how to communicate in PayPal how to create actually payp uh documents how to use it but we also added data exchange definition so if you choose data exchange definition you will get additional fasta where you need to map uh all your incoming"
+    },
+    {
+      "t": 438.3,
+      "end": 458.6,
+      "text": "and incoming and delivering documents purchas documents with a specific definitions then we have the next thing is about connection I mentioned all these messages with external access points but now what is about we created this app uh as a connect of with third party"
+    },
+    {
+      "t": 458.6,
+      "end": 478.7,
+      "text": "Services there is uh authentication model communication model as I already uh show messaging model so all of these things are inside this app currently we are supporting only one access point but we are planning to add more access points there and completing functionality is extendable so you can easily build your own app and we will talk a little bit more on the"
+    },
+    {
+      "t": 478.7,
+      "end": 499,
+      "text": "end about how how to extend how to build your own app to use uh this functionality uh for your services especially this is some local service you can easily extend it uh what is important more uh not this this is only that is possible to extend uh you can easily um connect"
+    },
+    {
+      "t": 499,
+      "end": 519.2,
+      "text": "uh with a setup with uh choosing everything there or you can pre-configure when you run service you can automatically get all information so you just need to enter your credit itial and it will work and of course as we are using third party access points for the moment then you choose from non-integration to this one current integration or"
+    },
+    {
+      "t": 519.2,
+      "end": 539.7,
+      "text": "eventually tomorrow more integration you will get consent this is required because you are moving outside of busy Central what else we deliver some localizations and this is not where we stop in this moment we deliver localization for Denmark both formas obl and P so you can choose both of them"
+    },
+    {
+      "t": 539.7,
+      "end": 559.7,
+      "text": "um in Danish um uh environment when you go to uh document types you can choose payal document exchange and obl in Belgium we deliver payal format so this is currently uh fully compliant with Danish and Belgium uh requirements and regulations but now we are"
+    },
+    {
+      "t": 559.7,
+      "end": 570.6,
+      "text": "planning additional localizations I cannot say exactly when uh it depends of enforcement from country to country but minimum what we are planning in next two week"
+    },
+    {
+      "t": 570.6,
+      "end": 591.2,
+      "text": "um we have uh planed German localization Spanish localization and Australian New Zealand localization as well actually for Australia New Zealand uh we are using PayPal but this is not B3 so we need to adapt PayPal format for Australia New Zealand and this is something what we are planning to do but even more we already have um from previous um"
+    },
+    {
+      "t": 591.2,
+      "end": 611.6,
+      "text": "uh times we have some Legacy e documents in voice hisory documents in Italy and Mexico so we are planning in following period to upgrade Italian and Mexican functionality to new e documents so everything depends uh we will challenge ourself and Depends uh how we did a great job or not"
+    },
+    {
+      "t": 611.6,
+      "end": 631.9,
+      "text": "or we need to improve something more but we want to upgrade our existing function our existing localization and to make new localizations what else one big feature uh we had an let's say small issue with previous one uh make making sales invoice sales electronic"
+    },
+    {
+      "t": 631.9,
+      "end": 652,
+      "text": "invoice it was let's say easy you create you post sales document we have some uh let's say visard the background we will create this in a payal format we will send and let's say this is easy not so bad not so complicated but when it comes to purchase process it becomes uh much more complicated and what"
+    },
+    {
+      "t": 652,
+      "end": 672.3,
+      "text": "we can see more and more countries enforcing uh electronic invoicing they do not enforce immediately to have from this year for example sales uh invoice in electronic but they are enforcing to receive invoices so this purchase part was extremely important for us in this first relas we could create when you when you get uh electronic"
+    },
+    {
+      "t": 672.3,
+      "end": 692.5,
+      "text": "document we could uh create automation to automatically create purchase invoices in busy Central but we couldn't handle with purchase orders and it was a problem if you are working with a lot of inventory you want to have already created purchase order and now you need to match and it was a problem problem we didn't have it but now again based on your feedback it was"
+    },
+    {
+      "t": 692.5,
+      "end": 713,
+      "text": "one of the most important things you asked and we deliver this functionality now with the new new release you can match without any problem actually what you can do if there is um no purchase order in your system and you decide you want to create purchase order for this vendor"
+    },
+    {
+      "t": 713,
+      "end": 733.1,
+      "text": "system will automatically create new purchase order based on the same rules as for purchase invoice it just depends how you will set up your vendor but if for this vendor there is some existing purchase order system will map incoming electronic documents with this existing purchase order and matching will work one to one one to many many to one so you will see in"
+    },
+    {
+      "t": 733.1,
+      "end": 753.2,
+      "text": "demo how you can do it um of course we build co-pilot on top of that but all the time there are some reasons uh if you cannot use copilot so you still you you can use manually matching so you are not blocked if if you cannot use copilot for some reason and"
+    },
+    {
+      "t": 753.2,
+      "end": 773.3,
+      "text": "I'm planning to finish my part of presentation but before that I want to emphasize one important thing ktoo demo tool in the beginning we had uh some just few modules there but we decided let's bring more and more to uh to partner and to customer to test it now we deliver e documents demo"
+    },
+    {
+      "t": 773.3,
+      "end": 793.4,
+      "text": "data so we have full module for e doents um uh with e information what you have there we have uh new items and pretty big uh big number of items so you can make good examples there and what is more this is ready for completely ready for sales process we already"
+    },
+    {
+      "t": 793.4,
+      "end": 813.6,
+      "text": "have configured customers with the workflow so you can just post uh sales invoice and you can track how it look like in a sales process in documents what is happening with logs so and you will see uh from my colleague in demo but this is already ready for purchase prod process what you have there already imported files you do not need to make some"
+    },
+    {
+      "t": 813.6,
+      "end": 833.6,
+      "text": "uh PayPal files to test it you will have already created electron incoming electronic documents with um imported files so you can easily test manually matching or even even matching with co-pilot so everything is there what is important just to to know before enable you need to have because there dependency you need to uh first enable comma"
+    },
+    {
+      "t": 833.6,
+      "end": 853.7,
+      "text": "module and Warehouse module after that you need to enable e doent module and everything will work everything will be there so you can just start and use it and okay that was about what is new briefly what is new now Magnus please make it much better it's a great demo I know you prepared thanks"
+    },
+    {
+      "t": 853.7,
+      "end": 874.5,
+      "text": "Alexander yeah I got the the fun role of actually demoing a lot of the the stuff that we have for you I will start where Alexander left us off with the the demo data that we have for the eent framework so to do so I will go to contoso demo tool I will open it up and here we can see the new e doent contoso module that we have added for this release"
+    },
+    {
+      "t": 874.5,
+      "end": 891.6,
+      "text": "and this module uh provides you as Alexander briefly explained with some new items that you can use as well as all the setup that we need today for the demo for both sales and purchase processes so I'm going to go ahead and click generate this shouldn't take very"
+    },
+    {
+      "t": 891.6,
+      "end": 911.9,
+      "text": "long and while that's generating I can also uh just briefly say that this will also create a default e document service that we're going to be using today so really there is not a lot you have to to set up if you want to test it out yourself just go here generate the the demo data and you should be uh getting started very very fast so"
+    },
+    {
+      "t": 911.9,
+      "end": 932.6,
+      "text": "with that done let's go to the E doent Services we have them here and we can see that we now have a new new service that we can use and I will just open it up and we will take a look here we can see that the the document format that we are actually providing in the framework is the pebble format"
+    },
+    {
+      "t": 932.6,
+      "end": 953,
+      "text": "and this is something that is in two types of solutions one of them is a code solution which is based on pre existing XML ports we had in the product and we also decided to add a data exchange version or data exchange solution so to speak and this we will go and and select and I'll show you how to set it up"
+    },
+    {
+      "t": 953,
+      "end": 973.1,
+      "text": "so under the data exchange definition uh we will now have to go and actually set up uh what types of documents we want to to use with the data exchange and today I'm doing two things I'm doing a a sales process and I'm doing a purchase process and to do so I need to define a sales invoice and for"
+    },
+    {
+      "t": 973.1,
+      "end": 993.3,
+      "text": "that sales invoice I need to go under the export data exchange definition and I need to select sales invoice export here and this is one of the formats that we provide for you out of the box for free super cool and then we can also go and create for purchase process a purchase enice will just selected"
+    },
+    {
+      "t": 993.3,
+      "end": 1013.5,
+      "text": "and then for the import data exchange definition I'll have to go and select the format that is called E doent P invoice import and that's essentially all you need to configure for for getting this to work with the data exchange one thing you do need to to know and need to do is also to go to supported document"
+    },
+    {
+      "t": 1013.5,
+      "end": 1034,
+      "text": "Types on the document service here and here you need to select those types of do ments that should work together with this service you can see we are already pre-filled for sales and services so I'm just going to go ahead and also add purchase invoice and purchase credit memo like this"
+    },
+    {
+      "t": 1034,
+      "end": 1054.2,
+      "text": "and that's essentially everything you need to to get started trying this out yourself one thing I will note and as Alexander also briefly mentioned before today we don't have a a service integration you can see it's set to no integration normally when you have a a service in a production environment you would have set up some kind of uh service"
+    },
+    {
+      "t": 1054.2,
+      "end": 1074.2,
+      "text": "integration implementation here to an and external uh third party but uh today we won't send or receive any documents we already have those from from generating the demo data so that's super nice you don't need to deal with that all that I will now do the sales uh process and to start that I will go to"
+    },
+    {
+      "t": 1074.2,
+      "end": 1093.8,
+      "text": "one of our customers because one thing I do need to do is I need to make sure that on this customer we have a document sending profile uh selected that has eents enabled and of course in the demo data we are also providing this for you so you can just use the eents document sending"
+    },
+    {
+      "t": 1093.8,
+      "end": 1114,
+      "text": "profile that's it now we can go and create a sales invoice and uh because we're using pble I I need to fill in a reference number for today's demo I'm just going to use 1 2 3 4 it doesn't really matter but normally you would actually have a reference to an order here if if you need that and then I'm"
+    },
+    {
+      "t": 1114,
+      "end": 1127.5,
+      "text": "going to select a desk and I'm going to just put one in quantity here and that's essentially everything I need I'm just going to post the invoice that should be rather"
+    },
+    {
+      "t": 1127.5,
+      "end": 1147.6,
+      "text": "fast let's see yes and uh now we can go to the posted invoice and what happened in in the background because the framework is actually running in background jobs and what we are providing with the demo data is that we have actually added a a workflow that is enabled um that is connected to the E"
+    },
+    {
+      "t": 1147.6,
+      "end": 1167.7,
+      "text": "doent service that we are also providing and basically we will subscribe to the posting routine and whenever you post a supported document type for uh for this service we will pick it up and run this workflow execute the workflow and essentially that will then export the the sales invoice in the"
+    },
+    {
+      "t": 1167.7,
+      "end": 1187.9,
+      "text": "format that you select selected um had you had a a service integration at the end it would also have uh send it off uh to that so if we go to the related Tab and click under e doents open E doent we will now have a e doent that we can inspect here we can see under"
+    },
+    {
+      "t": 1187.9,
+      "end": 1208,
+      "text": "the document field that it is pointing to the sales invoice it is processed we can even see what workflow was executed with as well as the service status right so here we have the E documents service that we we are using today and we can see that the status of this is exported if we"
+    },
+    {
+      "t": 1208,
+      "end": 1228.7,
+      "text": "look under the locks here we have only a single lock today this is that it was exported but every step of the way would be be locked so that you can easily audit what is going on with a e doent um we can also see that it actually has a file size and this allows you to when there is a file size you can go under the export"
+    },
+    {
+      "t": 1228.7,
+      "end": 1248.8,
+      "text": "file action and actually download uh the output and inspect it if you want to so I will not do that but I will close this one and uh just briefly mentioned that if we had a service integration uh it would also contain a log that would say that it was sent somewhere or it was pending to be sent"
+    },
+    {
+      "t": 1248.8,
+      "end": 1266.8,
+      "text": "or um depending on on how you have your implementation and that's it all of this happened in the background the user that is uh that's posting the invoice doesn't have to go and look at this uh as set it happens in a background uh job but now we showed you where you can find it if you're"
+    },
+    {
+      "t": 1266.8,
+      "end": 1286.9,
+      "text": "interested then we're going to shift gears a little bit I'm going to jump back to the RO Center and we're going to look at a purchase process which is where we actually invested a lot of the time uh this wave with what Alexander mentioned matching e doent lines to purchase orders that's a really cool process uh so so we will look at that"
+    },
+    {
+      "t": 1286.9,
+      "end": 1307,
+      "text": "one and one thing that we added uh on the role Center is these new Q cards under the E doent activities here you can see that we have uh one of them called matched uh purchase orders and this is essentially purchase orders in the system where we have received an e document from outside received"
+    },
+    {
+      "t": 1307,
+      "end": 1327.1,
+      "text": "it into the system and we managed to find that that there is a link to one of your existing purchase orders and we automatically link it and then we make you aware here that this now there is an action for you to go and actually match the E doent lines to the purchase order lines so I'll click these and uh and we can then see we have these"
+    },
+    {
+      "t": 1327.1,
+      "end": 1338.3,
+      "text": "six and this is all generated by our fantastic demo data uh so you don't need to set a lot of stuff up you can just go directly and try out this scenario um from the RO"
+    },
+    {
+      "t": 1338.3,
+      "end": 1358.4,
+      "text": "Center and as you can see uh we have this uh this action called map e document in the top um which I will click in a second but before I do so uh for this environment I'm on I haven't enabled our co-pilot features if you're interested in uh the new co-pilot stuff we're doing I think personally it's very cool"
+    },
+    {
+      "t": 1358.4,
+      "end": 1379.2,
+      "text": "I would definitely recommend you to watch another session we have called e invoicing with co-pilot um it is like uh super interesting to see this process I'm about to do manually can be done with a simple click almost it saves you a lot of time and something we're very excited to ship"
+    },
+    {
+      "t": 1379.2,
+      "end": 1395.3,
+      "text": "um so definitely go check out that session it's uh it's worth it after of course you watch the rest of this so uh I'll go and and click map e document will open up the matching page and now I'll just briefly explain what you're seeing here"
+    },
+    {
+      "t": 1395.3,
+      "end": 1415.4,
+      "text": "um if you have seen bank reconciliation matching before this is built around the same concept so it should be pretty familiar to you if not uh on the left we have our e doent lines this is what we have read in from from file um and on the right we have our purchase order lines and the task for the user in this"
+    },
+    {
+      "t": 1415.4,
+      "end": 1435.5,
+      "text": "sense is to match everything that is on the left to something that is on the right such that you can go and update the purchase order and do either full or partial invoice uh so let's take a look um we can see on the E doent imported lines here that we have a field quantity and we have a field matched"
+    },
+    {
+      "t": 1435.5,
+      "end": 1455.5,
+      "text": "quantity right so our task is to actually have a a match quantity that is equal to quantity um so it's a very cool stuff you can multi select three or more if you want I know that these first three lines line 10,000 20,000 and 30,000 are all something that is related to the"
+    },
+    {
+      "t": 1455.5,
+      "end": 1475.8,
+      "text": "Precision grind home um of course I prepared the demo so I will click these two and then I will go under the matching action here and click uh match manually and this will then highlight them um a green color means that it's a it's a complete match uh we can see that the available quantity was 15"
+    },
+    {
+      "t": 1475.8,
+      "end": 1495.9,
+      "text": "meaning there was 15 we could assign to we've now assigned 10 because the quantity to invoice is updated to 10 we can also see that match quantity on the left here is uh the same as quantity and we can even go and click this to inspect in more detail what the match is uh so let's try that we see that"
+    },
+    {
+      "t": 1495.9,
+      "end": 1515.9,
+      "text": "we have a match between line 30 ,000 to 10 10,000 we are showing you what the two descriptions are because sometimes the descriptions are not similar this is something that the copal really strong helping us with if we have items that are not exactly the same but similar we can also see that we have a a"
+    },
+    {
+      "t": 1515.9,
+      "end": 1536.1,
+      "text": "match quantity and as well what is the cost of the E document or what was the cost on the eent line and what was the cost on the purchase order line sometimes in in this case they are the same sometimes they can be different and that is okay we do allow you for you to do a matching where the cost is not uh exactly the same we will notify"
+    },
+    {
+      "t": 1536.1,
+      "end": 1548.2,
+      "text": "you just to make sure that that is actually what you want and if you go ahead and apply to purchase order we will then update the the purchase order lines with that cost you received such that you can invoice"
+    },
+    {
+      "t": 1548.2,
+      "end": 1568.7,
+      "text": "correctly so I'll close this um and I'll just quickly mention as Alexander also said we we allow for a a many to one that I Illustrated here selecting three matching to one you can also do a many uh or one to many let's say where you select multiple purchase order lines and and only match to a single uh"
+    },
+    {
+      "t": 1568.7,
+      "end": 1588.8,
+      "text": "e doent line but the last one here I am just going to match uh the luxury grinder to Smart grind home uh and this is a one to one symbol and now everything on the left is green that is good that means that we have matched all of them and the final thing for me to do is uh simply to to go to"
+    },
+    {
+      "t": 1588.8,
+      "end": 1608.8,
+      "text": "home and click apply to purchase order as I said this will then update the purchase order lines to give them um the correct cost as well as discount um it will also update the quantity to invoice and the final thing we will do is that we will update the the vendor invoice number let's see that go to here you can see that the"
+    },
+    {
+      "t": 1608.8,
+      "end": 1629,
+      "text": "vendor invoice number is now updated with the document number as well as the document date has also been updated to reflect what was on the document and that's it that's essentially the PO the purchase process in a nutshell um you could go ahead and and post it I won't do that now I'll will hand it back to my colleague Alexander who will tell us a little bit more"
+    },
+    {
+      "t": 1629,
+      "end": 1649.3,
+      "text": "about if you want to extend and build on top of our framework y great demo Magus thank you and as you can see a really big automation even if you're doing manually you just need to connect there and system will automatically collect all this information from incoming document to uh do vendor document number they update all lines"
+    },
+    {
+      "t": 1649.3,
+      "end": 1669.3,
+      "text": "this is this is still big automation even if you're are doing manually and this is the most important not only big automation this is not no now this is not even blocker so now you can use everything as a standard is used earlier in busy Central together with e documents okay instead of uh wrapping up um we would like to extend this topic"
+    },
+    {
+      "t": 1669.3,
+      "end": 1689.6,
+      "text": "for a few minutes because this is important uh we want to show you and we want to encourage you to extend this function ality maybe some additional features even we will continue to invest adding some additional features there but much more probably much more important making localization especially in partner based"
+    },
+    {
+      "t": 1689.6,
+      "end": 1709.7,
+      "text": "uh localization countries so the most of our supporting countries uh have partner-based localization so make your localization on top the solution this is much better than anything else you used earlier uh making even if you have some electronic invoicing inside this is much better using this framework there are much more more automation so you can just"
+    },
+    {
+      "t": 1709.7,
+      "end": 1730,
+      "text": "add format connection to service and it will work and um this is one part another part is if you uh access uh access point service provider if you're P provider or a local service provider build your own app for a connector to your services and it will be easy used"
+    },
+    {
+      "t": 1730,
+      "end": 1750,
+      "text": "for all other partners so uh you can see this link and there is documentation how to extend this document functionality when you go there you will find that we have document format interface for create and receive documents you can understand this is in in one or another Direction what is happening in documents then we"
+    },
+    {
+      "t": 1750,
+      "end": 1770,
+      "text": "have integration interface for sending receiving messaging this is what we already talked about and there are some set of e doent hel helper code units so you can find a lot of interesting information a lot of important information there of course all the time we we can say we can improve it and give us the feedback and we will try"
+    },
+    {
+      "t": 1770,
+      "end": 1790.4,
+      "text": "to improve documentation to make it much better for you and now uh I will again I will give a word for my colle Magnus to explain in a few minutes little bit more technically what we have there and how you can use these interfaces yeah I think we should also mention that if you build your own extension on top you get the co-pilot feature as well natively it will work"
+    },
+    {
+      "t": 1790.4,
+      "end": 1810.5,
+      "text": "so that's super cool let's uh recap a little bit of the process that I showed you for for both sales and vice versa process uh purchase so essentially we have a BC document that we need to to send to some Authority endpoint uh usually and we created the E documents such that"
+    },
+    {
+      "t": 1810.5,
+      "end": 1830.6,
+      "text": "you take a business Central document you use an an export um format to create this into a electronic document version and then we have our service integration um or integration implementation that then decides how we send this out to Authority endpoint and vice versa when we receive something again"
+    },
+    {
+      "t": 1830.6,
+      "end": 1850.7,
+      "text": "we're using the integration implementation to actually get the data from a a provider into a electronic document and then we use a import document format to translate that back into a a business Central document what the framework provides out of the box for export and import is that"
+    },
+    {
+      "t": 1850.7,
+      "end": 1870.8,
+      "text": "you can also uh do these field mappings so say that you before you export or before you import you want to translate some uh some values you can do so uh in under the service you can specify this as a setting and Define it yourself um as we saw when I did the post the sales invoice everything is running in background"
+    },
+    {
+      "t": 1870.8,
+      "end": 1882.4,
+      "text": "job so it's not disturbing it's not requiring anything from from those people that are are invoicing or working with the documents on a day-to-day basis everything is running smoothly in the"
+    },
+    {
+      "t": 1882.4,
+      "end": 1902.4,
+      "text": "background then we also make sure that we lock everything and again this is because that you can all audit what is happening with the E document so there is a trail so you can see exactly uh what is the current state of a specific electronic document we also allow you to set up a retention policies so that you can actually decide for how long"
+    },
+    {
+      "t": 1902.4,
+      "end": 1922.4,
+      "text": "you want to store Data before we clean it up because some of these tables can get quite big and that's maybe not in the best interest uh for you finally we also do uh error handling for you in the framework um should there be a runtime error in the Al code then we will catch it um and"
+    },
+    {
+      "t": 1922.4,
+      "end": 1942.7,
+      "text": "uh basically um if you want to allow or tell the users about um some error that you you want to throw or want to uh yeah do you can basically um use our helper code units to uh yeah to lock errors uh that will then be presented on the E doent page"
+    },
+    {
+      "t": 1942.7,
+      "end": 1962.8,
+      "text": "finally we have a dashboard and that you saw before I used it the Q cards where you can then gauge what is the the current status of the of the E documents are there any that you need to take action on for instance do we have any new purchase orders that are are matched right this is all something that we provide uh what we ask of you if you're"
+    },
+    {
+      "t": 1962.8,
+      "end": 1983.4,
+      "text": "interested in building uh on top of this uh the things I just mentioned they are here in in blue then we have our two interfaces both for import export that's one interface where you define how specifically you want to to read data out of BC and back into as well as how you want to communicate uh that is the integration implementation"
+    },
+    {
+      "t": 1983.4,
+      "end": 2003.5,
+      "text": "that you will make so that is the the core framework and then of course the localization like the Danish one that we also shipped uh we actually just Implement these two interfaces um and and that's it it's a very straightforward simple thing to do one thing that we also allow you to do is to uh build a setup with it sometimes there are"
+    },
+    {
+      "t": 2003.5,
+      "end": 2023.5,
+      "text": "some administrative setups that you need to do for a service you can then uh add this on top to to make it easier for for the users that you're building the extension for and with that I will uh hand it back to you Alexander to close out the session thank you Magnus as you can see uh we have definitely great"
+    },
+    {
+      "t": 2023.5,
+      "end": 2043.7,
+      "text": "documentation and great idea how to extend it and of course if you again if you find something is missing please contact us we are more than open to help all Partners to build their own apps and to extend the functionality and now uh we just want to call you to watch some other presentations as Magnus already mentioned"
+    },
+    {
+      "t": 2043.7,
+      "end": 2064.6,
+      "text": "we have introducing to e invoicing matching with co-pilot great session uh this part about matching what magot is playing but this time with copilot fully automated a really useful usage of co-piloting great examples and additional one is if you are coming from Denmark uh we updated"
+    },
+    {
+      "t": 2064.6,
+      "end": 2085.2,
+      "text": "um uh new session with Danish bookkeeping Act features because there are some new things in the meantime happened from uh previous pre previous uh wave so we want to be clear about that even if you had the office hour we want to give more information about uh new Danish bookkeeping act and now please"
+    },
+    {
+      "t": 2085.2,
+      "end": 2106.1,
+      "text": "use our Yammer AK msbc Yammer we have our channels there different channels we are open for communication for feedback whatever you want to communicate directly with product group then we are open communication fitter or X um please join our office hours every month we have good uh office hours"
+    },
+    {
+      "t": 2106.1,
+      "end": 2126.3,
+      "text": "and use BC BC ideas akms BC ideas we are really we are we are looking every time every time when you publish when you put some idea some of program managers we are getting this ideas in our devop so we know what you're asking we are tracking uh we are looking to to deliver this we cannot"
+    },
+    {
+      "t": 2126.3,
+      "end": 2146.8,
+      "text": "deliver everything of course but we looking to deliver as more as possible and we are looking on your feedback on your ideas on votes and so on and if you cannot remember all these URLs please do not forget this one akms BC all so going there you can find not only these four links but much more dozens of different links"
+    },
+    {
+      "t": 2146.8,
+      "end": 2166.8,
+      "text": "with a very important and interesting resources about busy Cal and yeah we can say this is everything for uh what we plan for this session uh we can say thank you but we hope we will see you on live Q&A one week after this Louch event so we will"
+    },
+    {
+      "t": 2166.8,
+      "end": 2181.6,
+      "text": "be open both Magnus and I we will be there and you can ask everything in life face to face we will talk so use this opportunity once more thank you thank"
+    },
+    {
+      "t": 2181.6,
+      "end": 2183,
+      "text": "you"
+    }
+  ],
+  "markers": [
+    {
+      "t": 0.22,
+      "text": "[Music]"
+    },
+    {
+      "t": 16.55,
+      "text": "[Music]"
+    },
+    {
+      "t": 16.56,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 6361
+}

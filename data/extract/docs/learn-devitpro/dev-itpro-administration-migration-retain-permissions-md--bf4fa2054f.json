@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/migration-retain-permissions.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-retain-permissions",
+  "title": "Retain permissions",
+  "blob": "dc7e149679b16aeb6a956b3252ff5745950c0d76",
+  "summary": "Retain permissions during cloud migration explains how to preserve user permission sets during data migration from on-premises to Business Central online, using the Cloud Migration Management page or a custom extension.",
+  "systems": [
+    "administration",
+    "integration"
+  ],
+  "topics": [
+    "cloud migration",
+    "permissions",
+    "user access",
+    "intelligent cloud"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Cloud Migration Management"
+    },
+    {
+      "type": "codeunit",
+      "name": "Hybrid Deployment"
+    }
+  ],
+  "features": [
+    "Enable/Disable Removing Permissions from Users",
+    "Intelligent Cloud permission set",
+    "OnBeforeResetUsersToIntelligentCloudPermissions event"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003679,
+      "pages_in_call": 8
+    }
+  ]
+}

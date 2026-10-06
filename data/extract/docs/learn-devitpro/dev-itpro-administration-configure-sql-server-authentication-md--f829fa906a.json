@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/configure-sql-server-authentication.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/configure-sql-server-authentication",
+  "title": "Configure Business Central Database Authentication",
+  "blob": "fec2cf3ccd1365b65f02ab6215b9f930d988e5be",
+  "summary": "Configuring Business Central database authentication sets up SQL Server authentication for server instances to connect to databases. Covers encryption key setup, SQL authentication configuration on databases, and server instance configuration for both single-tenant and multitenant deployments.",
+  "systems": [
+    "platform",
+    "administration"
+  ],
+  "topics": [
+    "sql server authentication",
+    "windows authentication",
+    "database authentication",
+    "encryption key",
+    "multitenant deployment",
+    "sql server credentials"
+  ],
+  "objects": [],
+  "features": [
+    "SQL Server authentication",
+    "Windows authentication",
+    "encryption key setup",
+    "mixed authentication mode",
+    "database credentials",
+    "encryption on connections",
+    "multitenant authentication"
+  ],
+  "versions": [
+    "version 20"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006174,
+      "pages_in_call": 8
+    }
+  ]
+}

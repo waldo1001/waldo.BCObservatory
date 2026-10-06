@@ -1,0 +1,28 @@
+{
+  "video_id": "gAzmWJg9Z5g",
+  "item_id": "video/yt-microsoft/gAzmWJg9Z5g",
+  "summary": "Walkthrough of the new Business Central integration documentation and its landing page (aka.ms/bc-integration). It covers Microsoft 365 apps, Power Platform, Dynamics products and Dataverse, Azure services, Microsoft Entra, infrastructure services and web services, with REST APIs as the recommended web service method.",
+  "overview": "The video shows new guidance in Business Central docs on integrations to and from Business Central. The material is meant to explain how integrations work, what is possible, and how to troubleshoot problems. A new landing page at aka.ms/bc-integration gives an overview and links to detailed articles for each integration class.\n\nThe walkthrough goes through Microsoft 365 and Office apps, Power Platform, Dynamics products and Dataverse, Azure services, Microsoft Entra and infrastructure services, and web services. It ends with advice to start learning in docs and to submit a pull request when you know something that is missing.",
+  "key_points": [
+    "The integration landing page is at aka.ms/bc-integration and links to articles for each integration class.",
+    "The docs aim to explain how integrations work and how to troubleshoot them, not why to choose them.",
+    "Power Platform integration relies mainly on REST APIs through the Power Platform connector.",
+    "Dynamics products and Dataverse docs cover connectors, data synchronization, virtualization, change events and new business events.",
+    "Azure integrations include Application Insights telemetry, Blob and File services and Azure Functions, supported by the HTTP client data type in AL and system modules that wrap Azure APIs.",
+    "Web services offer three methods: REST APIs (recommended), and OData and SOAP as legacy methods.",
+    "Microsoft Entra, Universal Print and network restriction with security service tags are covered; Microsoft Purview for audit is described as upcoming."
+  ],
+  "audience": [
+    "developer",
+    "functional consultant",
+    "administrator",
+    "partner"
+  ],
+  "extraction_hash": "049e9ccf2d93130501a23e8c44b213e5b925b2f186343d0bf37c29c13ea817fd",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0158344
+  }
+}

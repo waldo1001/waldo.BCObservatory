@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloud-migration-azure-data-lake-gp",
   "published_at": "2024-11-21T09:54:17.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "d3024e936d70e248448833ecb574c204c4c98529",
       "words": 591,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:43:52.200Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.006174
+    },
+    "summarized": {
+      "at": "2026-10-06T19:44:04.184Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:44:04.185Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:44:04.186Z",
+      "page": false
     }
   },
   "input_hash": "d3024e936d70e248448833ecb574c204c4c98529",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d3024e936d70e248448833ecb574c204c4c98529"
+  "output_hash": "ae8fce3e782388e724d57d9724a0a7147ab688b983932b9d4045382c1b87534e"
 }

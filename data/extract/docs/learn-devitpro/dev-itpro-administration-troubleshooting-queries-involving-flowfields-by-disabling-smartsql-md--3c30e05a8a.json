@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/Troubleshooting-Queries-Involving-FlowFields-By-Disabling-SmartSQL.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/Troubleshooting-Queries-Involving-FlowFields-By-Disabling-SmartSQL",
+  "title": "Troubleshooting: Long Running SQL Queries Involving FlowFields",
+  "blob": "f6f76fffca3b0f5c9fbac49ef00be381949c76c0",
+  "summary": "Long running FlowField queries describes how to troubleshoot performance issues with FlowFields by disabling SmartSQL optimization and using Query Store or SQL Profiler to identify slow subqueries.",
+  "systems": [
+    "platform"
+  ],
+  "topics": [
+    "flowfields",
+    "smartsql",
+    "query performance",
+    "troubleshooting",
+    "sql optimization"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Customer List"
+    }
+  ],
+  "features": [
+    "SmartSQL optimization",
+    "SIFT calculations",
+    "Disable SmartSQL",
+    "MaintainSIFTIndex property",
+    "OUTER APPLY queries"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003679,
+      "pages_in_call": 8
+    }
+  ]
+}

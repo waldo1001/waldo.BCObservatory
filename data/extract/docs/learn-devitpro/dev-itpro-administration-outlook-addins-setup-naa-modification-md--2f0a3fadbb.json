@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/outlook-addins-setup-naa-modification.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/outlook-addins-setup-naa-modification",
+  "title": "Modifying Outlook add-in setup for Nested App Authentication (NAA).",
+  "blob": "d6150a015dc7637d35fc2a931044d5de510c907f",
+  "summary": "Modifying Outlook add-in setup for Nested App Authentication (NAA) updates Business Central to use NAA after Exchange Online deprecated legacy tokens on February 1, 2025. Requires upgrading to specific cumulative updates, creating app registrations, and configuring web server instances.",
+  "systems": [
+    "integration",
+    "administration"
+  ],
+  "topics": [
+    "outlook add-in",
+    "nested app authentication",
+    "naa",
+    "exchange online",
+    "app registration",
+    "microsoft entra"
+  ],
+  "objects": [],
+  "features": [
+    "Nested App Authentication",
+    "app registration",
+    "legacy Exchange Online tokens",
+    "web server configuration"
+  ],
+  "versions": [
+    "25.3",
+    "24.9",
+    "23.15"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006174,
+      "pages_in_call": 8
+    }
+  ]
+}

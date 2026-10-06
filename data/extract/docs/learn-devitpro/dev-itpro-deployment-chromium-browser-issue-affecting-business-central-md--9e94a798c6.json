@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/deployment/chromium-browser-issue-affecting-business-central.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/chromium-browser-issue-affecting-business-central",
+  "title": "Chromium browser issue affecting Business Central",
+  "blob": "d6e27b08186c14e8772c82e4b81dfe4f28877e8b",
+  "summary": "Chromium browser issue affecting Business Central documents a UI glitch in Business Central 2021 wave 2 and later when using Chromium-based browsers like Chrome and Edge, with fixes in July 2022 cumulative updates.",
+  "systems": [
+    "platform",
+    "administration"
+  ],
+  "topics": [
+    "chromium",
+    "browser compatibility",
+    "ui glitches",
+    "web client",
+    "workaround"
+  ],
+  "objects": [],
+  "features": [
+    "desktopPreview.css modification",
+    "tablet.css modification",
+    "phone.css modification",
+    "transform: translateZ(0) fix"
+  ],
+  "versions": [
+    "2022 release wave 1 version 20.3",
+    "2021 release wave 2 version 19.9",
+    "2021 release wave 1 version 18.15",
+    "Spring 2019 Update version 14.38",
+    "Dynamics NAV 2018"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003679,
+      "pages_in_call": 8
+    }
+  ]
+}

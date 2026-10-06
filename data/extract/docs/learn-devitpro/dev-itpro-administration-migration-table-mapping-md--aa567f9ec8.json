@@ -1,0 +1,49 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/migration-table-mapping.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-table-mapping",
+  "title": "Define migration table mappings",
+  "blob": "d004a596001ad42bd42a2720e459c63f222283ea",
+  "summary": "Define migration table mappings describes how to configure table relationships between on-premises and online environments during cloud migration, including renaming tables and moving fields to extensions.",
+  "systems": [
+    "integration",
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "cloud migration",
+    "table mapping",
+    "data mapping",
+    "field mapping",
+    "table extensions"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Migration Table Mapping"
+    },
+    {
+      "type": "codeunit",
+      "name": "Hybrid Cloud Management"
+    }
+  ],
+  "features": [
+    "Rename tables during migration",
+    "Move fields to table extensions",
+    "Source and destination table mapping",
+    "Import and Export table mappings",
+    "ReplicateData property",
+    "OnInsertDefaultTableMappings event",
+    "Restore Default Mappings"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003679,
+      "pages_in_call": 8
+    }
+  ]
+}

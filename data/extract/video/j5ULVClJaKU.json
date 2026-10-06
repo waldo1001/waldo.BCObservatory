@@ -1,0 +1,580 @@
+{
+  "video_id": "j5ULVClJaKU",
+  "item_id": "video/yt-microsoft/j5ULVClJaKU",
+  "title": "Introducing: Chat with Copilot ( 2024 release wave 1)",
+  "duration_s": 1508,
+  "systems": [
+    "copilot",
+    "administration",
+    "development"
+  ],
+  "topics": [
+    "chat interface",
+    "record search",
+    "documentation lookup",
+    "conversational queries",
+    "business central online",
+    "licensing",
+    "extensibility",
+    "custom objects",
+    "responsible ai",
+    "data privacy",
+    "regional rollout",
+    "field-level help"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to Chat with Copilot",
+      "t_start": 0,
+      "t_end": 149.5
+    },
+    {
+      "title": "Chat demo - finding records and answering questions",
+      "t_start": 149.5,
+      "t_end": 370.7
+    },
+    {
+      "title": "Conversation features and follow-up questions",
+      "t_start": 370.7,
+      "t_end": 490.3
+    },
+    {
+      "title": "How to formulate effective questions for Copilot",
+      "t_start": 490.3,
+      "t_end": 625.1
+    },
+    {
+      "title": "Documentation search and product help capabilities",
+      "t_start": 625.1,
+      "t_end": 753.5
+    },
+    {
+      "title": "Availability, licensing, and extensibility",
+      "t_start": 753.5,
+      "t_end": 793.9
+    },
+    {
+      "title": "Rollout, Regional Availability, and Licensing",
+      "t_start": 793.9,
+      "t_end": 916.4
+    },
+    {
+      "title": "Chat Extensibility and Data Sources",
+      "t_start": 916.4,
+      "t_end": 957.1
+    },
+    {
+      "title": "Trust, Data Protection, and Responsible AI",
+      "t_start": 957.1,
+      "t_end": 1059.1
+    },
+    {
+      "title": "Demo Setup and Configuration Tips",
+      "t_start": 1059.1,
+      "t_end": 1199.2
+    },
+    {
+      "title": "Live Demo: Field-Level Help with Chat",
+      "t_start": 1199.2,
+      "t_end": 1333.5
+    },
+    {
+      "title": "Feedback Mechanisms and Additional Resources",
+      "t_start": 1333.5,
+      "t_end": 1414.6
+    },
+    {
+      "title": "Extensibility Options and Closing Remarks",
+      "t_start": 1414.6,
+      "t_end": 1508
+    }
+  ],
+  "features": [
+    {
+      "name": "Chat with Copilot",
+      "description": "An AI-powered chat assistant integrated into Business Central that allows users to find records through natural language queries, get answers to business process questions by searching official documentation, and receive field-level help. Launched with major update 24.0 and rolling out gradually across regions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 17.1,
+      "t_end": 1333.5,
+      "is_demoed": true,
+      "caveats": [
+        "Only available for Business Central online, not on-premises or private cloud",
+        "Not available to Canadian customers due to compliance reasons",
+        "English only in early rollout",
+        "Cannot be extended or modified with custom capabilities",
+        "Not aware of current page context during early rollout",
+        "Documentation search limited to Business Central docs, not general web search",
+        "Does not generate AL code or display code in chat pane",
+        "Cannot answer questions about custom fields or company-specific processes",
+        "Can only find data based on available filters and fields"
+      ],
+      "tags": [
+        "chat",
+        "copilot",
+        "ai assistant",
+        "record search",
+        "documentation",
+        "field-level help",
+        "conversational ai",
+        "business central assistant",
+        "help documentation"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Record finding capability",
+      "description": "Copilot can quickly find relevant records from the database by constructing filters on appropriate pages based on natural language queries, presenting results as interactive tiles.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 149.5,
+      "t_end": 550.9,
+      "is_demoed": true,
+      "caveats": [
+        "Works by looking up relevant page and constructing filters",
+        "Can handle loose formulations but benefits from explicit specification of record type"
+      ],
+      "tags": [
+        "record search",
+        "filtering",
+        "queries",
+        "demo"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Conversational query refinement",
+      "description": "Users can ask follow-up questions in the chat to narrow down or modify results, with Copilot understanding the conversation history and context from previous queries.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 458,
+      "t_end": 645.1,
+      "is_demoed": true,
+      "caveats": [
+        "During early rollout, not aware of current page context unless explicitly mentioned"
+      ],
+      "tags": [
+        "conversation",
+        "follow-up questions",
+        "context awareness"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Documentation search",
+      "description": "Copilot can search official Business Central documentation to answer product-related questions about processes and terminology, providing links to relevant documentation pages.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 625.1,
+      "t_end": 753.5,
+      "is_demoed": true,
+      "caveats": [
+        "Limited to Business Central documentation only, not general web search",
+        "Will decline to answer if information is not in documentation"
+      ],
+      "tags": [
+        "documentation",
+        "product help",
+        "learning"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Custom object support",
+      "description": "Chat can find records in custom objects, custom tables, and custom list pages without requiring additional effort from partners.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 834.8,
+      "t_end": 896.2,
+      "is_demoed": false,
+      "caveats": [
+        "Chat itself is not extensible - cannot modify or add new capabilities",
+        "Custom fields and company-specific knowledge sources are not supported"
+      ],
+      "tags": [
+        "custom objects",
+        "extensibility",
+        "add-ons",
+        "partner solutions"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Shared results to Teams",
+      "description": "Records found by Copilot can be shared to Teams for collaboration with coworkers.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 353,
+      "t_end": 370.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "teams integration",
+        "sharing",
+        "collaboration"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "No Additional Cost for Chat and Copilot",
+      "description": "Chat and Copilot in Business Central are included with Business Central licenses at no additional cost and no minimum number of seats is required.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 814.7,
+      "t_end": 834.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "licensing",
+        "pricing"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Chat Extensibility Not Available",
+      "description": "Chat cannot be extended, modified, overridden, or have new capabilities added to it during preview. The product aspires to unlock extensibility in the future.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 834.8,
+      "t_end": 854.9,
+      "is_demoed": false,
+      "caveats": [
+        "Extensibility not possible in current version"
+      ],
+      "tags": [
+        "extensibility",
+        "limitations"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Responsible AI Standards in Chat",
+      "description": "Chat is designed with Microsoft's responsible AI standards including fairness, reliability, safety, inclusiveness, transparency, and accountability. Features grounding checks to avoid fabrications and provides citations to sources.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 957.1,
+      "t_end": 1059.1,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "responsible ai",
+        "safety",
+        "transparency",
+        "accuracy"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Data Protection and Permissions in Chat",
+      "description": "Chat respects user permission sets and will not provide access to data the user does not have permission to access. User data is not used to train foundation AI models.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 977.6,
+      "t_end": 1018.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "data privacy",
+        "security",
+        "permissions",
+        "compliance"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Chat Demo Environment Setup via CDX",
+      "description": "Partners can use CDX (Customer Digital Experiences) to quickly spin up a new tenant with admin and test user credentials for demoing Chat with Copilot. US environments provide immediate access to chat.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1059.1,
+      "t_end": 1099.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "partner enablement",
+        "demo environment",
+        "cdx"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Copilot Capabilities Page for Admins",
+      "description": "A single page in the admin center that provides transparency on which generative AI features are available in a particular environment, including whether Chat is active.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1119.8,
+      "t_end": 1139.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "admin configuration",
+        "transparency",
+        "feature discovery"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Azure OpenAI Regional Consent",
+      "description": "Some environments may require admin consent to allow Business Central to contact Azure OpenAI Service in a different geographic region, as data may need to be sent outside the user's geographic boundary.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1139.8,
+      "t_end": 1180,
+      "is_demoed": false,
+      "caveats": [
+        "Required in some regions",
+        "Data may be sent to Azure OpenAI outside geographic boundary"
+      ],
+      "tags": [
+        "azure openai",
+        "compliance",
+        "data residency",
+        "admin consent"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Chat Field-Level Help Feature",
+      "description": "Users can click on a field in Business Central to immediately get context-sensitive help from Copilot Chat, explaining what the field represents and how it works, without leaving the application.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1219.4,
+      "t_end": 1293.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "field-level help",
+        "in-app assistance",
+        "learning",
+        "ux"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Chat Feedback Mechanism",
+      "description": "Users can provide feedback on Chat responses through thumbs up or thumbs down buttons in the chat pane. This feedback helps the product team identify areas for improvement without using data for training foundation models.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1333.5,
+      "t_end": 1354.1,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "feedback",
+        "user engagement",
+        "quality improvement"
+      ],
+      "system": "copilot"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "posted sales invoices list",
+      "t": 417.8
+    },
+    {
+      "type": "page",
+      "name": "sales orders",
+      "t": 530.9
+    },
+    {
+      "type": "page",
+      "name": "vehicles list page",
+      "t": 875.4
+    },
+    {
+      "type": "page",
+      "name": "general ledger",
+      "t": 1219.4
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Sam van lout",
+      "confidence": "high"
+    },
+    {
+      "name": "Mike borch cardana",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 37.2,
+      "text": "we're excited to announce uh the ability to chat with Microsoft co-pilot within Dynamics 365 business Central uh will enter public preview in 2024",
+      "why_it_matters": "Establishes the status and timeline for the Chat with Copilot feature - it is entering public preview in 2024 Wave 1.",
+      "check": "exact"
+    },
+    {
+      "t": 37.2,
+      "text": "co-pilot is the the AI powered assistant that empowers people to express themselves in their own words uh to find records as well as",
+      "why_it_matters": "Defines the core capabilities and design philosophy of Copilot chat - natural language interaction for record finding and guidance.",
+      "check": "snapped"
+    },
+    {
+      "t": 550.9,
+      "text": "essentially it looks up uh the relevant page uh for your ask and then tries to construct a filter on this page uh to",
+      "why_it_matters": "Explains the technical approach Copilot uses to find records - page lookup and filter construction, which helps users formulate better queries.",
+      "check": "exact"
+    },
+    {
+      "t": 733,
+      "text": "rather than trying to fabricate some answer it will say that there's no information in the documentation on how to do this",
+      "why_it_matters": "Shows design philosophy - Copilot will not hallucinate answers and is grounded in official documentation only.",
+      "check": "exact"
+    },
+    {
+      "t": 773.8,
+      "text": "co-pilot in business Central in general is available exclusively for business Central online which means you won't find it on business Central deployed to",
+      "why_it_matters": "Critical limitation - Chat is only available for Business Central online deployments, not on-premises or private cloud.",
+      "check": "exact"
+    },
+    {
+      "t": 793.9,
+      "text": "roll out starts with our us customers uh and then throughout the release wave over a number of weeks and months we'll make that",
+      "why_it_matters": "Specifies regional rollout strategy and notes that Canadian customers cannot use chat due to compliance requirements.",
+      "check": "exact"
+    },
+    {
+      "t": 793.9,
+      "text": "um that means you'll find it with major update 24.0 or later uh roll out starts with our us customers uh and then throughout",
+      "why_it_matters": "Establishes the official release version and rollout schedule for Chat with Copilot, indicating GA status and phased availability.",
+      "check": "exact"
+    },
+    {
+      "t": 814.7,
+      "text": "chat and in fact co-pilot in business Central in general is available with business Central licenses at no additional cost",
+      "why_it_matters": "Establishes pricing - no additional cost for chat beyond standard Business Central licensing.",
+      "check": "exact"
+    },
+    {
+      "t": 834.8,
+      "text": "you cannot extend modify override or add new capabilities to chat um we certainly aspire to unlock this in the future but for now",
+      "why_it_matters": "Key limitation on extensibility - partners cannot extend or modify chat capabilities during preview.",
+      "check": "exact"
+    },
+    {
+      "t": 875.4,
+      "text": "chat can find records in your custom objects your tables and your list Pages uh so if you for example have added the the",
+      "why_it_matters": "Clarifies that custom objects and partner solutions work with Chat without requiring additional configuration, reducing implementation effort.",
+      "check": "exact"
+    },
+    {
+      "t": 977.6,
+      "text": "your data is not used to train the foundation AI models and your data is protected by the most comprehensive Enterprise compliance and security",
+      "why_it_matters": "Addresses key privacy and compliance concerns by explicitly stating data is not used for training and is protected by enterprise security controls.",
+      "check": "exact"
+    },
+    {
+      "t": 977.6,
+      "text": "the queries you type in co-pilot chat uh will uh respect the users permission uh sets that have been assigned",
+      "why_it_matters": "Confirms that Chat enforces role-based access controls, ensuring users cannot access data beyond their permissions.",
+      "check": "snapped"
+    },
+    {
+      "t": 1059.1,
+      "text": "we always recommend for demos that you use CDX uh customer digital experiences um just go to aka.ms CDX uh sign in with your",
+      "why_it_matters": "Provides clear guidance for partners to quickly set up demo environments with immediate access to Chat functionality.",
+      "check": "exact"
+    },
+    {
+      "t": 1240.1,
+      "text": "we've made it really easy with a single click to be able to get more information from co-pilot when the Tool tip just doesn't",
+      "why_it_matters": "Highlights the ease of use design decision for field-level help, demonstrating in-context assistance without leaving the application.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 37.2,
+      "kind": "preview",
+      "text": "ability to chat with Microsoft co-pilot within Dynamics 365 business Central uh will enter public preview in 2024 release Wave 1"
+    },
+    {
+      "t": 611.4,
+      "kind": "preview",
+      "text": "while copal is in preview uh it's not aware of the the context of your current page"
+    },
+    {
+      "t": 773.8,
+      "kind": "preview",
+      "text": "because this is in preview there's a few key points we really want you to understand"
+    },
+    {
+      "t": 793.9,
+      "kind": "subject-to-change",
+      "text": "chat will not be available to Canadian customers uh due to compliance reasons"
+    },
+    {
+      "t": 793.9,
+      "kind": "other",
+      "text": "uh due to compliance reasons chat will not be available to Canadian customers"
+    },
+    {
+      "t": 814.7,
+      "kind": "preview",
+      "text": "chat is available in English only while in preview"
+    },
+    {
+      "t": 834.8,
+      "kind": "preview",
+      "text": "you cannot extend modify override or add new capabilities to chat um we certainly aspire to unlock this in the future but for now in preview um this is not possible"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 14,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 15
+  },
+  "windows": 2,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.027776000000000002
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.031653
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.025602
+    }
+  ]
+}

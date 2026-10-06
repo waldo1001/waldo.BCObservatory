@@ -1,0 +1,44 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/service-overview.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/service-overview",
+  "title": "Service overview for Business Central online",
+  "blob": "e84f6e150b3b218aee9fab20ace16c74af6514c7",
+  "summary": "Service overview describes Business Central online architecture built on Azure microservices, global availability, high availability through geo-redundancy, backup/restore capabilities, service updates twice yearly, and compliance certifications. Suitable for understanding service infrastructure and reliability.",
+  "systems": [
+    "platform",
+    "administration"
+  ],
+  "topics": [
+    "service overview",
+    "azure architecture",
+    "high availability",
+    "disaster recovery",
+    "backups",
+    "geo-redundancy",
+    "availability zones",
+    "service updates",
+    "compliance"
+  ],
+  "objects": [],
+  "features": [
+    "multitenant architecture",
+    "Azure SQL Database",
+    "99.99% availability",
+    "28-day backups",
+    "automatic restore",
+    "geo-redundant backups",
+    "availability zones",
+    "release waves"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006174,
+      "pages_in_call": 8
+    }
+  ]
+}
