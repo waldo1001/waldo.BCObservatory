@@ -139,7 +139,7 @@ async function run(opts: NightlyOptions, deps: NightlyDeps): Promise<RunReport> 
       if (item) manifest.save(skip(item, s.reason));
     }
     const execution = await executePlan({
-      work: plan.work, quotas, budget: cfg, manifest, handlers: deps.handlers ?? STAGE_HANDLERS,
+      work: plan.work, quotas, budget: cfg, manifest, dataDir: opts.dataDir, handlers: deps.handlers ?? STAGE_HANDLERS,
       started, clock: deps.clock ?? (() => new Date()), readUsage: opts.guard ? deps.readUsage : undefined,
     });
     report.execution = execution;

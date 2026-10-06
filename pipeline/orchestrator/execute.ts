@@ -27,7 +27,7 @@ export interface StageResult {
   /** Ends the item as skipped (e.g. "no-captions") instead of advancing. */
   skip?: string;
 }
-export interface StageContext { now: () => Date; manifest: Manifest }
+export interface StageContext { now: () => Date; manifest: Manifest; dataDir: string }
 export type StageHandler = (item: ManifestItem, ctx: StageContext) => Promise<StageResult>;
 export type StageHandlers = Partial<Record<Pillar, Partial<Record<Stage, StageHandler>>>>;
 
@@ -51,6 +51,7 @@ export interface ExecuteOptions {
   quotas: Record<string, number>;
   budget: Pick<Budget, "window" | "usage_guard" | "headroom_scale" | "reduced_factor" | "retry">;
   manifest: Manifest;
+  dataDir: string;
   handlers: StageHandlers;
   started: Date;
   clock: () => Date;
@@ -120,7 +121,7 @@ export async function executePlan(o: ExecuteOptions): Promise<ExecutionReport> {
       touched = true;
       const key = `${item.pillar}:${stage}`;
       try {
-        const res: StageResult = await handler(item, { now: o.clock, manifest: o.manifest });
+        const res: StageResult = await handler(item, { now: o.clock, manifest: o.manifest, dataDir: o.dataDir });
         r.stages_run[key] = (r.stages_run[key] ?? 0) + 1;
         if (res.skip) {
           item = skip(item, res.skip);

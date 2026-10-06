@@ -72,6 +72,9 @@ test("arguments: subscription CLI flags, no tools, never --bare", () => {
   assert.equal(args[args.indexOf("--tools") + 1], "");
   assert.equal(args[args.indexOf("--output-format") + 1], "stream-json");
   assert.ok(args.includes("--verbose") && args.includes("--strict-mcp-config") && args.includes("--no-session-persistence"));
+  assert.ok(!args.includes("--effort"));
+  const low = buildArgs("sys", schema, "haiku", 1, "low");
+  assert.equal(low[low.indexOf("--effort") + 1], "low");
 });
 
 test("child environment drops API keys and base URLs, keeps the OAuth token", () => {
@@ -79,6 +82,8 @@ test("child environment drops API keys and base URLs, keeps the OAuth token", ()
   assert.equal(env.CLAUDE_CODE_OAUTH_TOKEN, "oauth");
   for (const k of ["ANTHROPIC_API_KEY", "ANTHROPIC_BASE_URL", "ANTHROPIC_AUTH_TOKEN", "CLAUDECODE"]) assert.equal(env[k], undefined, k);
   assert.equal(env.DISABLE_AUTOUPDATER, "1");
+  assert.equal(env.MAX_THINKING_TOKENS, undefined);
+  assert.equal(childEnv({ PATH: "/bin" }, 0).MAX_THINKING_TOKENS, "0");
 });
 
 test("model attribution picks the entry with the most output tokens", () => {
@@ -117,6 +122,8 @@ test("miss calls the CLI once, caches hashes not prompts, then hits the cache", 
   assert.ok(!log[0].env.includes("ANTHROPIC_API_KEY"), "API key leaked into the child env");
   assert.ok(!log[0].cwd.startsWith(ROOT), "child ran inside the repo and would load its CLAUDE.md");
   assert.equal(log[0].args[log[0].args.indexOf("--model") + 1], "haiku");
+  assert.equal(log[0].args[log[0].args.indexOf("--effort") + 1], "low", "facts run at low effort (config/models.json)");
+  assert.ok(log[0].env.includes("MAX_THINKING_TOKENS"), "facts run without thinking (config/models.json)");
   const [entry] = cacheEntries();
   const raw = JSON.stringify(entry);
   assert.ok(!raw.includes("COMMUNITY FULL TEXT"), "prompt text stored in the cache");

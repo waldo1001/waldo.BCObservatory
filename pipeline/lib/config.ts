@@ -61,5 +61,5 @@ export interface Budget {
   yt_dlp: { sleep_seconds_min: number; sleep_seconds_max: number };
 }
 export const budget = () => loadConfig<Budget>("budget");
-export const models = () => loadConfig<{ roles: Record<string, string>; max_budget_usd_per_call: Record<string, number>; timeout_minutes: Record<string, number> }>("models");
+export const models = () => loadConfig<{ roles: Record<string, string>; max_budget_usd_per_call: Record<string, number>; timeout_minutes: Record<string, number>; effort?: Record<string, string>; max_thinking_tokens?: Record<string, number> }>("models");
 export const taxonomy = () => loadConfig<{ systems: { id: string; label: string; aliases: string[] }[] }>("taxonomy");

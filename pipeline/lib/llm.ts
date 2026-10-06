@@ -164,16 +164,27 @@ export function attributeModel(modelUsage: Record<string, ModelUsageEntry> | und
   }
   return best;
 }
-export function cacheKey(req: Pick<LlmRequest, "promptVersion" | "system" | "prompt" | "schema">, model: string): string {
-  return sha256(JSON.stringify({ v: String(req.promptVersion), model, system: req.system, prompt: req.prompt, schema: req.schema }));
+/** How hard the model thinks: --effort and MAX_THINKING_TOKENS per role. Part of the cache key. */
+export interface Thinking { effort?: string; tokens?: number }
+export function cacheKey(req: Pick<LlmRequest, "promptVersion" | "system" | "prompt" | "schema">, model: string, thinking: Thinking = {}): string {
+  const t = { ...(thinking.effort ? { effort: thinking.effort } : {}), ...(thinking.tokens !== undefined ? { thinking: thinking.tokens } : {}) };
+  return sha256(JSON.stringify({ v: String(req.promptVersion), model, system: req.system, prompt: req.prompt, schema: req.schema, ...t }));
+}
+/** From config/models.json; LLM_EFFORT_<ROLE> and LLM_THINKING_<ROLE> override. */
+export function resolveThinking(role: Role): Thinking {
+  const cfg = models();
+  const envTokens = process.env[`LLM_THINKING_${role.toUpperCase()}`];
+  const tokens = envTokens !== undefined && envTokens !== "" ? Number(envTokens) : cfg.max_thinking_tokens?.[role];
+  return { effort: process.env[`LLM_EFFORT_${role.toUpperCase()}`] ?? cfg.effort?.[role], ...(tokens !== undefined && Number.isFinite(tokens) ? { tokens } : {}) };
 }
 /** Read at call time so tests and the Mini's env file can point it elsewhere. */
 export function cacheRoot(): string {
   return process.env.BCOBS_LLM_CACHE_DIR ?? LLM_CACHE_DIR;
 }
 /** CLI arguments. Never contains --bare. */
-export function buildArgs(system: string, schema: Record<string, unknown>, model: string, budgetUsd: number): string[] {
+export function buildArgs(system: string, schema: Record<string, unknown>, model: string, budgetUsd: number, effort?: string): string[] {
   return [
+    ...(effort ? ["--effort", effort] : []),
     "-p", "--model", model, "--tools", "", "--strict-mcp-config", "--no-session-persistence",
     "--disable-slash-commands", "--permission-prompts", "none", "--system-prompt", system,
     "--output-format", "stream-json", "--verbose", "--json-schema", JSON.stringify(schema),
@@ -181,17 +192,19 @@ export function buildArgs(system: string, schema: Record<string, unknown>, model
   ];
 }
 /** Allowlisted child environment: subscription OAuth token yes, API keys and base URLs never. */
-export function childEnv(src: NodeJS.ProcessEnv = process.env): NodeJS.ProcessEnv {
+export function childEnv(src: NodeJS.ProcessEnv = process.env, thinkingTokens?: number): NodeJS.ProcessEnv {
   const env: NodeJS.ProcessEnv = {};
   for (const k of ENV_ALLOW) if (src[k] !== undefined) env[k] = src[k];
   env.CLAUDE_CODE_ENABLE_TELEMETRY = "0";
   env.DISABLE_AUTOUPDATER = "1"; // the pinned CLI version stays pinned (config/tooling.json)
+  if (thinkingTokens !== undefined) env.MAX_THINKING_TOKENS = String(thinkingTokens);
   return env;
 }
 
 export async function complete<T = unknown>(req: LlmRequest): Promise<LlmResult<T>> {
   const model = resolveModel(req.role, req.model);
-  const key = cacheKey(req, model);
+  const thinking = resolveThinking(req.role);
+  const key = cacheKey(req, model, thinking);
   const path = resolve(cacheRoot(), req.stage, `${key}.json`);
   if (exists(path)) {
     const entry = readJson<LlmCacheEntry<T>>(path);
@@ -215,7 +228,7 @@ export async function complete<T = unknown>(req: LlmRequest): Promise<LlmResult<
     assertAllowance(); // also between retries: a retry is a new paid call
     let raw: RawResult;
     try {
-      raw = await callCli(req.system, prompt, req.schema, model, budgetUsd, timeoutMs);
+      raw = await callCli(req.system, prompt, req.schema, model, budgetUsd, timeoutMs, thinking);
     } catch (e) {
       if (e instanceof LlmInfraError) throw e;
       lastErr = errText(e);
@@ -252,7 +265,7 @@ export async function ping(role: Role = "smoke"): Promise<{ ok: boolean; request
   const model = resolveModel(role);
   const started = Date.now();
   const schema = { type: "object", properties: { reply: { type: "string" } }, required: ["reply"], additionalProperties: false };
-  const raw = await callCli("Answer with the single word ok in the reply field.", "ping", schema, model, 0.5, 120_000);
+  const raw = await callCli("Answer with the single word ok in the reply field.", "ping", schema, model, 0.5, 120_000, resolveThinking(role));
   const real = attributeModel(raw.modelUsage) ?? raw.initModel ?? model;
   const mismatch = familyMismatch(model, real);
   return { ok: !mismatch, requested_model: model, model: real, api_key_source: raw.apiKeySource, ...(mismatch ? { model_mismatch: mismatch } : {}), duration_ms: Date.now() - started };
@@ -319,14 +332,14 @@ export function parseStream(stdout: string): { init?: any; result?: any } {
   return { init, result };
 }
 
-async function callCli(system: string, prompt: string, schema: Record<string, unknown>, model: string, budgetUsd: number, timeoutMs: number): Promise<RawResult> {
+async function callCli(system: string, prompt: string, schema: Record<string, unknown>, model: string, budgetUsd: number, timeoutMs: number, thinking: Thinking = {}): Promise<RawResult> {
   const bin = process.env.BCOBS_CLAUDE_BIN ?? "claude";
   const cwd = resolve(tmpdir(), "bc-observatory-llm");
   ensureDir(cwd);
   stats.calls++;
   let res: { stdout: string; stderr: string; code: number | null };
   try {
-    res = await run(bin, buildArgs(system, schema, model, budgetUsd), prompt, timeoutMs, cwd);
+    res = await run(bin, buildArgs(system, schema, model, budgetUsd, thinking.effort), prompt, timeoutMs, cwd, childEnv(process.env, thinking.tokens));
   } catch (e: any) {
     if (e?.code === "ENOENT") throw new LlmInfraError(`claude CLI not found (${bin})`);
     throw e;
@@ -364,9 +377,9 @@ function parseJsonLoose(text: string): unknown {
   throw new Error("no JSON object in model output");
 }
 
-function run(cmd: string, args: string[], stdin: string, timeoutMs: number, cwd: string): Promise<{ stdout: string; stderr: string; code: number | null }> {
+function run(cmd: string, args: string[], stdin: string, timeoutMs: number, cwd: string, env: NodeJS.ProcessEnv): Promise<{ stdout: string; stderr: string; code: number | null }> {
   return new Promise((resolvePromise, reject) => {
-    const child = spawn(cmd, args, { cwd, stdio: ["pipe", "pipe", "pipe"], env: childEnv() });
+    const child = spawn(cmd, args, { cwd, stdio: ["pipe", "pipe", "pipe"], env });
     let stdout = "", stderr = "";
     const timer = setTimeout(() => { child.kill("SIGKILL"); reject(new Error(`timeout after ${timeoutMs} ms`)); }, timeoutMs);
     child.stdout.on("data", (d) => (stdout += d));

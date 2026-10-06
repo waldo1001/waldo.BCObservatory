@@ -1,11 +1,29 @@
 {
-  "$comment": "Tiered model use. Values are claude CLI aliases; LLM_MODEL_<ROLE> env vars override. Never pass --bare to claude -p: it ignores subscription OAuth.",
+  "$comment": "Tiered model use. Values are claude CLI aliases; LLM_MODEL_<ROLE> env vars override. Never pass --bare to claude -p: it ignores subscription OAuth. effort maps to claude -p --effort; max_thinking_tokens sets MAX_THINKING_TOKENS for the child (facts: 0 measured 3x cheaper and 4x faster on a 9-minute video with equal quality).",
   "roles": {
     "facts": "haiku",
     "prose": "sonnet",
     "review": "opus",
     "smoke": "haiku"
   },
-  "max_budget_usd_per_call": { "facts": 1, "prose": 3, "review": 6 },
-  "timeout_minutes": { "facts": 5, "prose": 10, "review": 15 }
+  "max_budget_usd_per_call": {
+    "facts": 1,
+    "prose": 3,
+    "review": 6
+  },
+  "timeout_minutes": {
+    "facts": 5,
+    "prose": 10,
+    "review": 15
+  },
+  "effort": {
+    "facts": "low",
+    "prose": "medium",
+    "review": "high",
+    "smoke": "low"
+  },
+  "max_thinking_tokens": {
+    "facts": 0,
+    "smoke": 0
+  }
 }
