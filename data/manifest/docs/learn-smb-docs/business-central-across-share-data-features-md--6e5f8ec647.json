@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-share-data-features",
   "published_at": "2025-10-29T13:40:09.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "8ac071c9bbe10dfc20482da4333e365f40011c0f",
       "words": 805,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:59:36.757Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003654
+    },
+    "summarized": {
+      "at": "2026-10-06T18:59:36.809Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:59:36.815Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:59:36.819Z",
+      "page": false
     }
   },
   "input_hash": "8ac071c9bbe10dfc20482da4333e365f40011c0f",
@@ -38,5 +57,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "8ac071c9bbe10dfc20482da4333e365f40011c0f"
+  "output_hash": "2c00a5947e2f244b28704fcb375bf0dadc414fe572d4ca175a124939104791de"
 }

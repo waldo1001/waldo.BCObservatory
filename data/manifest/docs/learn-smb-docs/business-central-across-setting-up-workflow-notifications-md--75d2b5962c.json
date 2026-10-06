@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-setting-up-workflow-notifications",
   "published_at": "2025-10-29T13:40:09.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "fdfff362671d0f4b59a85d29eb5d9129c5e0cef5",
       "words": 463,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:59:36.756Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 4,
+      "cost_usd": 0.003654
+    },
+    "summarized": {
+      "at": "2026-10-06T18:59:36.785Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:59:36.794Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:59:36.802Z",
+      "page": false
     }
   },
   "input_hash": "fdfff362671d0f4b59a85d29eb5d9129c5e0cef5",
@@ -39,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "fdfff362671d0f4b59a85d29eb5d9129c5e0cef5"
+  "output_hash": "60c9c8ff0bc83a0ff3b9eec0d2314f3abfaf40303d69b43ad4b24edf1faf2b68"
 }

@@ -1,0 +1,577 @@
+{
+  "video_id": "RfHVHa_Qiqk",
+  "item_id": "video/yt-microsoft/RfHVHa_Qiqk",
+  "title": "Business Central Under the Hood episode 8: AI Small Language Models and Fine-tuning",
+  "duration_s": 1875,
+  "systems": [
+    "copilot",
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "small language models",
+    "fine-tuning",
+    "model distillation",
+    "phi models",
+    "parameters",
+    "cost optimization",
+    "supervised fine-tuning",
+    "prompt engineering",
+    "ai testing",
+    "sales order agent",
+    "accuracy measurement",
+    "data generation"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and AI Journey",
+      "t_start": 0,
+      "t_end": 110.9
+    },
+    {
+      "title": "Claus's Background: From Business Central to Power BI",
+      "t_start": 110.9,
+      "t_end": 232.5
+    },
+    {
+      "title": "Large Language Models: Size, Parameters, and Cost",
+      "t_start": 232.5,
+      "t_end": 355
+    },
+    {
+      "title": "Small Language Models and Phi Series",
+      "t_start": 355,
+      "t_end": 476.1
+    },
+    {
+      "title": "SLM Capabilities and Home Deployment",
+      "t_start": 476.1,
+      "t_end": 557
+    },
+    {
+      "title": "Fine-tuning: Pre-training, Supervised Fine-tuning, and Specialization",
+      "t_start": 557,
+      "t_end": 697.8
+    },
+    {
+      "title": "Fine-tuning Use Cases: Specialization and Model Distillation",
+      "t_start": 697.8,
+      "t_end": 819.2
+    },
+    {
+      "title": "Cost Savings and Small Language Models in Business Central",
+      "t_start": 819.2,
+      "t_end": 960.8
+    },
+    {
+      "title": "Testing AI Features and Non-determinism",
+      "t_start": 960.8,
+      "t_end": 1099
+    },
+    {
+      "title": "Data Generation and Seed Data for Testing",
+      "t_start": 1099,
+      "t_end": 1173.2
+    },
+    {
+      "title": "Testing the Sales Order Agent Output",
+      "t_start": 1173.2,
+      "t_end": 1290
+    },
+    {
+      "title": "Fine-tuning with Test Case Data",
+      "t_start": 1290,
+      "t_end": 1391.7
+    },
+    {
+      "title": "Accuracy Comparison: GPT-4 vs GPT-4 Mini",
+      "t_start": 1391.7,
+      "t_end": 1513.6
+    },
+    {
+      "title": "Fine-tuned GPT-4 Mini Results and Cost Analysis",
+      "t_start": 1513.6,
+      "t_end": 1675
+    },
+    {
+      "title": "Advice for Partners on Small Language Models",
+      "t_start": 1675,
+      "t_end": 1755.6
+    },
+    {
+      "title": "Speed Advantages and Best Practices for Fine-tuning",
+      "t_start": 1755.6,
+      "t_end": 1875
+    }
+  ],
+  "features": [
+    {
+      "name": "Small Language Models",
+      "description": "Smaller AI models with fewer parameters (measured in billions) that can perform tasks comparable to large language models. Phi 4 has 14 billion parameters and outperforms GPT-3, runs on single GPU, and can even run on home computers. Approximately 10 times faster than larger models in generating responses.",
+      "status": "ga",
+      "status_evidence_t": 455.9,
+      "status_evidence_quote": "was released um this december with i think 14 billion parameters",
+      "status_evidence_verified": true,
+      "t_start": 232.5,
+      "t_end": 960.8,
+      "is_demoed": false,
+      "caveats": [
+        "Not as good at reasoning as larger models",
+        "Limited world knowledge",
+        "Slower when run on home graphics cards"
+      ],
+      "tags": [
+        "small language models",
+        "phi models",
+        "cost efficient",
+        "performance",
+        "latency"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Fine-tuning for Business Central",
+      "description": "Specialized training technique that adjusts a pre-trained language model using examples from specific domains like invoice classification to chart of accounts. Allows LLMs to perform specialized tasks they weren't originally good at. Can be applied to smaller models as a cost-effective alternative to GPT-4.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 536.9,
+      "t_end": 1695,
+      "is_demoed": true,
+      "caveats": [
+        "Requires skills and is an involved process",
+        "Should only attempt after trying prompt engineering first",
+        "Risk of overfitting to training data - models may not generalize to different customer data with different master data",
+        "Requires varied data generation for production deployment beyond test scenarios"
+      ],
+      "tags": [
+        "fine-tuning",
+        "specialized tasks",
+        "invoice classification",
+        "model optimization",
+        "training data"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Model Distillation",
+      "description": "Cost-saving technique where output from a larger model like GPT-4 is used to train a smaller model like GPT-4 mini to behave the same way. The larger model acts as the teacher and the smaller model as the student. Achieves 10-15x cost savings.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 778.7,
+      "t_end": 879.8,
+      "is_demoed": false,
+      "caveats": [
+        "Requires the larger model to work well on the specific use case first"
+      ],
+      "tags": [
+        "model distillation",
+        "cost savings",
+        "teacher-student",
+        "cost reduction"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Phi Model Series",
+      "description": "Microsoft's series of small language models released over time. Phi 1 had 1.3 billion parameters released a year and a half ago, and Phi 4 with 14 billion parameters was released in December. These models outperform GPT-3 and are on par with GPT-4 for many simple tasks.",
+      "status": "ga",
+      "status_evidence_t": 435.7,
+      "status_evidence_quote": "Microsoft for example introduced this or have we have done this series of five Phi models the first one was released a year and",
+      "status_evidence_verified": true,
+      "t_start": 435.7,
+      "t_end": 476.1,
+      "is_demoed": false,
+      "caveats": [
+        "Limited knowledge about world facts",
+        "Not ideal for tasks requiring reasoning"
+      ],
+      "tags": [
+        "phi models",
+        "microsoft",
+        "small language models"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "AI test toolkit",
+      "description": "Framework for testing AI features using data-driven tests with AL assertions to verify AI agent behavior and accuracy metrics. Supports both AL-based assertions for structured output validation and LLM-based testing for natural language output quality.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 960.8,
+      "t_end": 1290,
+      "is_demoed": true,
+      "caveats": [
+        "requires careful data set management to avoid overfitting"
+      ],
+      "tags": [
+        "testing framework",
+        "data-driven tests",
+        "accuracy measurement",
+        "natural language validation"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Data generation for AI testing",
+      "description": "Using LLMs to generate synthetic test data by taking seed examples and creating variations to build large test datasets for AI features.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1099,
+      "t_end": 1173.2,
+      "is_demoed": true,
+      "caveats": [
+        "requires careful seed data curation"
+      ],
+      "tags": [
+        "synthetic data",
+        "test data generation",
+        "seed data"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Sales order agent",
+      "description": "An agent that processes customer emails, generates sales quotes, and responds with generated emails. Features both AL-based assertions for quote validation and LLM-based testing for email quality. Uses execute task steps to control Business Central navigation.",
+      "status": "preview",
+      "status_evidence_t": 1173.2,
+      "status_evidence_quote": "it's a feature which is in preview uh you we actually generate we have the LM generating a reply to the customer",
+      "status_evidence_verified": true,
+      "t_start": 1173.2,
+      "t_end": 1290,
+      "is_demoed": true,
+      "caveats": [
+        "relies on both AL-based and LLM-based validation",
+        "email generation quality must be validated"
+      ],
+      "tags": [
+        "sales order agent",
+        "email processing",
+        "quote generation",
+        "agent control"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Execute task steps for agent control",
+      "description": "Core functionality where the agent determines what to do next in Business Central, including deciding where to click and which fields to fill out based on LLM reasoning.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1371.5,
+      "t_end": 1513.6,
+      "is_demoed": true,
+      "caveats": [
+        "complex task requiring LLM training",
+        "accuracy varies significantly between models"
+      ],
+      "tags": [
+        "agent control",
+        "business central navigation",
+        "field interaction"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "GPT-4 Mini fine-tuning optimization",
+      "description": "Fine-tuned GPT-4 Mini achieving over 90% accuracy on execute task steps, outperforming full GPT-4 while maintaining significantly lower costs. Fine-tuning uses successful test case runs as training data, extracting input-output pairs from execute task steps where the agent interacts with Business Central.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1290,
+      "t_end": 1614.3,
+      "is_demoed": true,
+      "caveats": [
+        "preliminary results",
+        "trained on limited data set",
+        "risk of overfitting to specific customer and item names",
+        "may not generalize to different customer datasets"
+      ],
+      "tags": [
+        "model optimization",
+        "gpt-4 mini",
+        "cost reduction",
+        "fine-tuning",
+        "sales order agent",
+        "training data"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Cost-accuracy tradeoff analysis",
+      "description": "Comparison showing GPT-4 costs 22 cents for 10 emails at 85% accuracy, GPT-4 Mini costs 1 cent with 30% accuracy, and fine-tuned GPT-4 Mini achieves sweet spot with 90% accuracy at modest cost increase.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1654.8,
+      "t_end": 1675,
+      "is_demoed": true,
+      "caveats": [
+        "based on preliminary testing",
+        "costs may vary with scale"
+      ],
+      "tags": [
+        "cost optimization",
+        "accuracy tradeoff",
+        "pricing comparison"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Prompt engineering for cost reduction",
+      "description": "Recommendation to start with prompt engineering techniques like few-shot prompting and Chain of Thought before considering fine-tuning, as initial cost-saving step.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1715.2,
+      "t_end": 1735.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "prompt engineering",
+        "cost optimization",
+        "first step"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Data quality requirements for fine-tuning",
+      "description": "Fine-tuning quality depends critically on having representative, accurate training data that is not reused in test sets to avoid overfitting. Good tooling exists in AI Foundry but data preparation is the main work.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1816.4,
+      "t_end": 1856.6,
+      "is_demoed": false,
+      "caveats": [
+        "Data generation for varied scenarios is challenging and resource-intensive",
+        "Avoiding overfitting requires careful separation of training and test data"
+      ],
+      "tags": [
+        "data quality",
+        "best practices",
+        "overfitting",
+        "fine-tuning"
+      ],
+      "system": "development"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Phi models",
+      "t": 455.9
+    },
+    {
+      "type": "other",
+      "name": "AI Foundry",
+      "t": 900.4
+    },
+    {
+      "type": "other",
+      "name": "AI toolkit",
+      "t": 920.6
+    },
+    {
+      "type": "other",
+      "name": "AI test toolkit",
+      "t": 1059.5
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Claus",
+      "confidence": "high"
+    },
+    {
+      "name": "Claus Marius Hansen",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 50.7,
+      "text": "i started working on ai and machine learning in 2005 so it's 20 years ago so before",
+      "why_it_matters": "Establishes Claus's deep expertise in AI predating modern LLMs and large language models.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 293.9,
+      "text": "um this is 4 years ago that that had 175 billion parameters",
+      "why_it_matters": "Provides concrete reference point for the scale of large language models and their parameter counts.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 455.9,
+      "text": "was released um this december with i think 14 billion parameters and that uh outperforms it clearly outperforms something like",
+      "why_it_matters": "Demonstrates that small language models can match or exceed performance of much larger models while using far fewer resources.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 496.3,
+      "text": "these 14 billion that that's small enough that you can run it efficiently on a single GPU so it means that it's so you",
+      "why_it_matters": "Shows the practical accessibility of small language models compared to large models requiring multiple expensive GPUs.",
+      "check": "snapped"
+    },
+    {
+      "t": 637.3,
+      "text": "we can do the same as open AI does on this pre-trained LM and we can also do it in a more efficient way",
+      "why_it_matters": "Indicates Business Central can leverage fine-tuning techniques similar to what large model providers use.",
+      "check": "snapped"
+    },
+    {
+      "t": 738.3,
+      "text": "you would do that only if you find out that the model is not doing a good job to start with",
+      "why_it_matters": "Establishes that fine-tuning should be a last resort after prompt engineering attempts have been exhausted.",
+      "check": "exact"
+    },
+    {
+      "t": 819.2,
+      "text": "you take a big model and uh which performs for your particular application well yes and you take the output of that and then",
+      "why_it_matters": "Defines model distillation as the core technique for reducing AI costs by using smaller models trained on larger model outputs.",
+      "check": "exact"
+    },
+    {
+      "t": 859.5,
+      "text": "the difference between in pricing of dg4 for example in tpg4 mini is is a factor 10 15",
+      "why_it_matters": "Quantifies the substantial cost savings achievable through model distillation and smaller model selection.",
+      "check": "exact"
+    },
+    {
+      "t": 1019,
+      "text": "for um the sales order agent that we are releasing now we have a measure of accuracy that is um you know given an",
+      "why_it_matters": "Demonstrates the testing strategy for AI agents by defining accuracy as correct email processing and quote generation.",
+      "check": "exact"
+    },
+    {
+      "t": 1331.3,
+      "text": "we have test cases so we have hundreds of test cases that run mhm and if these test cases pass that's actually a good",
+      "why_it_matters": "Reveals the innovative approach of using existing test cases as training data for fine-tuning models.",
+      "check": "exact"
+    },
+    {
+      "t": 1473.1,
+      "text": "uh um here on the left we ran through 10 emails and in approximately 85% of the cases gbgo did the right thing so",
+      "why_it_matters": "Provides concrete accuracy metric showing GPT-4 performance on the execute task step challenge.",
+      "check": "exact"
+    },
+    {
+      "t": 1513.6,
+      "text": "tt4 mini achieves around 30% accuracy so that's a quite a significant drop and so useless",
+      "why_it_matters": "Demonstrates the significant accuracy gap between large and small models on complex tasks without fine-tuning.",
+      "check": "exact"
+    },
+    {
+      "t": 1533.8,
+      "text": "if we do that we get more than 90% accuracy on on these execute task steps which is pretty good and in this case",
+      "why_it_matters": "Shows that fine-tuning can make small models exceed large model performance while maintaining cost benefits.",
+      "check": "exact"
+    },
+    {
+      "t": 1614.3,
+      "text": "risk that when we have been training with this data then small the small language model that get fine tune is very good at",
+      "why_it_matters": "Demonstrates the core overfitting problem - models trained on specific customer data may not generalize to different business contexts.",
+      "check": "exact"
+    },
+    {
+      "t": 1654.8,
+      "text": "gbgo uh achieved around 85 85% accuracy but it cost um around 22 cents to run these these 10 emails in this case whereas",
+      "why_it_matters": "Establishes the cost baseline comparison showing GPT-4 at 22 cents versus smaller models at 1 cent for the same task.",
+      "check": "exact"
+    },
+    {
+      "t": 1675,
+      "text": "dg4 mini then the fun version then hits kind of a sweet spot because it's it's a little bit more expensive than dg4 mini",
+      "why_it_matters": "Shows the key value proposition - fine-tuned small models achieve GPT-4 accuracy at 10x lower cost.",
+      "check": "exact"
+    },
+    {
+      "t": 1715.2,
+      "text": "the first thing to do is always prom prompt engineering you know few shot prompting Chain of Thought and and all those things",
+      "why_it_matters": "Establishes the recommended starting point before investing in fine-tuning work.",
+      "check": "exact"
+    },
+    {
+      "t": 1735.6,
+      "text": "if there is a feature uh that uses gg4 um that has high accuracy but is expensive yeah then that's that's and you have",
+      "why_it_matters": "Describes the scenario where fine-tuning makes sense - existing features with high accuracy but high cost.",
+      "check": "exact"
+    },
+    {
+      "t": 1775.7,
+      "text": "if you have a scenario where you need speed MH then it's also Factor 10 or so faster so yeah so from from you",
+      "why_it_matters": "Speed is an additional benefit beyond cost savings when using smaller models.",
+      "check": "snapped"
+    },
+    {
+      "t": 1836.6,
+      "text": "you have to you know have good data you have to make sure that it's representative that it's accurate you have to make sure",
+      "why_it_matters": "Critical best practices for fine-tuning that determine success or failure of the model.",
+      "check": "snapped"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 455.9,
+      "kind": "other",
+      "text": "phi4 was released this December with I think 14 billion parameters"
+    },
+    {
+      "t": 1173.2,
+      "kind": "preview",
+      "text": "it's a feature which is in preview"
+    },
+    {
+      "t": 1553.8,
+      "kind": "subject-to-change",
+      "text": "these are preliminary uh results um so I think in order to fully you know bake this and and and ship it we we need to train this dt4 mini on more data"
+    },
+    {
+      "t": 1573.9,
+      "kind": "subject-to-change",
+      "text": "there's a risk that because we have these data so it's you know we have toys and and and so the toys have certain names and that's the items we have and the customers have certain names so there's a risk that because we have been training with this data then small the small language model"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 20,
+    "quotes_dropped": 1,
+    "evidence_verified": 3,
+    "evidence_unverified": 9
+  },
+  "windows": 3,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.024045
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.031735
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.015157999999999998
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.030628999999999997
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/across-set-up-data-exchange.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/across-set-up-data-exchange",
+  "title": "Set up data exchange to send and receive files",
+  "blob": "1f64f107b77c5b4964544a8f2dec14d41fdb922f",
+  "summary": "Set up the data exchange framework to enable electronic document exchange, bank file conversion, and data imports/exports in Business Central.",
+  "systems": [
+    "integration",
+    "finance",
+    "purchasing"
+  ],
+  "topics": [
+    "data exchange",
+    "electronic documents",
+    "bank files",
+    "data mapping",
+    "document exchange"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Currencies"
+    },
+    {
+      "type": "page",
+      "name": "Posting Exchange Definition"
+    }
+  ],
+  "features": [
+    "document exchange service",
+    "ocr service",
+    "currency exchange rates",
+    "sepa credit transfer",
+    "sepa direct debit",
+    "bank statement service",
+    "intrastat reporting",
+    "data exchange definitions"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002605,
+      "pages_in_call": 8
+    }
+  ]
+}

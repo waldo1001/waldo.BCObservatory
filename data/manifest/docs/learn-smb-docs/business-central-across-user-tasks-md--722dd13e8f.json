@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-user-tasks",
   "published_at": "2025-10-29T13:40:09.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "75ad73eb28659369c62f3544189769a2f396b2ca",
       "words": 711,
       "forms": 7
+    },
+    "extracted": {
+      "at": "2026-10-06T18:59:36.774Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 4,
+      "cost_usd": 0.003654
+    },
+    "summarized": {
+      "at": "2026-10-06T18:59:36.839Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:59:36.840Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:59:36.842Z",
+      "page": false
     }
   },
   "input_hash": "75ad73eb28659369c62f3544189769a2f396b2ca",
@@ -76,5 +95,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "75ad73eb28659369c62f3544189769a2f396b2ca"
+  "output_hash": "0d111468e3a8b9100aab34ef032227bb9cd4c2359dd950198818e60146526278"
 }

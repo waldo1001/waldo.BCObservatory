@@ -1,0 +1,59 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/across-user-tasks.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/across-user-tasks",
+  "title": "Assigning and managing tasks",
+  "blob": "75ad73eb28659369c62f3544189769a2f396b2ca",
+  "summary": "Defining and managing user tasks for tracking work items like finance checklists and sales follow-ups, with task assignment to individuals or groups and links to relevant pages.",
+  "systems": [
+    "administration",
+    "finance",
+    "sales"
+  ],
+  "topics": [
+    "user tasks",
+    "task management",
+    "task groups",
+    "work tracking",
+    "checklists"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "User Tasks"
+    },
+    {
+      "type": "page",
+      "name": "User Task Groups"
+    },
+    {
+      "type": "report",
+      "name": "Delete User Tasks"
+    },
+    {
+      "type": "page",
+      "name": "Posted Sales Invoices"
+    }
+  ],
+  "features": [
+    "create tasks",
+    "assign tasks",
+    "task groups",
+    "start date",
+    "due date",
+    "page links",
+    "task completion",
+    "bulk delete",
+    "pending tasks"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003654,
+      "pages_in_call": 8
+    }
+  ]
+}

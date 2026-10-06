@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-report-selections",
   "published_at": "2025-10-29T13:40:09.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "5242840c4a799a23623daf4edd6039af9637f465",
       "words": 524,
       "forms": 10
+    },
+    "extracted": {
+      "at": "2026-10-06T18:59:26.626Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 10,
+      "cost_usd": 0.002605
+    },
+    "summarized": {
+      "at": "2026-10-06T18:59:34.945Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:59:34.946Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:59:34.947Z",
+      "page": false
     }
   },
   "input_hash": "5242840c4a799a23623daf4edd6039af9637f465",
@@ -89,5 +108,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "5242840c4a799a23623daf4edd6039af9637f465"
+  "output_hash": "a397319c182e504e8aa4677497babb6cd1f0a2a9b68779bd70fc2babc9425cf6"
 }

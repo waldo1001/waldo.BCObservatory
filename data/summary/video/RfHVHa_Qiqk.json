@@ -1,0 +1,28 @@
+{
+  "video_id": "RfHVHa_Qiqk",
+  "item_id": "video/yt-microsoft/RfHVHa_Qiqk",
+  "summary": "Small language models and fine-tuning for Business Central AI features, shown with the sales order agent. Compares GPT-4, GPT-4 mini and a fine-tuned GPT-4 mini on accuracy and cost, using preliminary results from test cases.",
+  "overview": "Episode 8 of Business Central Under the Hood explains what small language models are, how the Phi series relates to larger models, and how fine-tuning and model distillation can lower the cost of AI features. It then applies this to the sales order agent, which is in preview.\n\nThe demo covers generating test data from seed examples, running test cases with the AI test toolkit, and using successful runs as fine-tuning data for GPT-4 mini. Results are preliminary and the speaker warns about overfitting to the toy data. The closing advice for partners is to try prompt engineering first and to treat data quality as the main work.",
+  "key_points": [
+    "Small language models have fewer parameters (billions). Phi 4 has 14 billion, runs on a single GPU, and is described as outperforming GPT-3. They are weaker at reasoning and world knowledge, and are about 10 times faster.",
+    "Model distillation uses a larger model such as GPT-4 as teacher to train a smaller one such as GPT-4 mini. The price difference between them is a factor of 10-15. The larger model must already work well on the use case.",
+    "Sales order agent test on 10 emails: GPT-4 reached about 85% accuracy at about 22 cents, and GPT-4 mini reached about 30% at about 1 cent. Fine-tuned GPT-4 mini reached over 90% on execute task steps at a modest cost increase over plain GPT-4 mini.",
+    "Fine-tuning data came from successful test case runs, taking input-output pairs from the execute task steps. Hundreds of test cases measure accuracy.",
+    "The fine-tuned results are preliminary and trained on a limited data set. The model may overfit to the toy customer and item names and not generalize to other customers' master data.",
+    "Try prompt engineering first (few-shot prompting, Chain of Thought). Fine-tune only if the model does not do a good job. Training data must be representative, accurate and kept separate from test data.",
+    "Data generation with an LLM takes seed examples and creates variations to build larger test datasets. Seed data needs careful curation."
+  ],
+  "audience": [
+    "developer",
+    "partner",
+    "functional consultant",
+    "decision maker"
+  ],
+  "extraction_hash": "9136784485424e699f401e15872872ebea122d7d8f864a18786f1a4305abce66",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.024864400000000002
+  }
+}

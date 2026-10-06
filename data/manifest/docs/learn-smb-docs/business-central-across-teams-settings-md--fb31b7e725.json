@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-teams-settings",
   "published_at": "2025-10-29T13:40:09.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "67b82a6f401489afb8040008ede61e54a7fa0357",
       "words": 211,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:59:36.761Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003654
+    },
+    "summarized": {
+      "at": "2026-10-06T18:59:36.828Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:59:36.829Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:59:36.830Z",
+      "page": false
     }
   },
   "input_hash": "67b82a6f401489afb8040008ede61e54a7fa0357",
@@ -44,5 +63,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "67b82a6f401489afb8040008ede61e54a7fa0357"
+  "output_hash": "548530bca9026606db38d46278adeadcf917997fdb219ac51d50aa7115bb6529"
 }

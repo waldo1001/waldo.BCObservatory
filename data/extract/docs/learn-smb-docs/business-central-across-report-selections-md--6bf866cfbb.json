@@ -1,0 +1,78 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/across-report-selections.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/across-report-selections",
+  "title": "Report selection in Business Central",
+  "blob": "5242840c4a799a23623daf4edd6039af9637f465",
+  "summary": "Configure default reports and layouts for printing and emailing sales, purchase, service, and other business documents in Business Central.",
+  "systems": [
+    "sales",
+    "purchasing",
+    "service"
+  ],
+  "topics": [
+    "report selection",
+    "document printing",
+    "email layouts",
+    "document layouts"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Report Selection - Sales"
+    },
+    {
+      "type": "page",
+      "name": "Report Selection - Project"
+    },
+    {
+      "type": "page",
+      "name": "Report Selection - Service"
+    },
+    {
+      "type": "page",
+      "name": "Report Selection - Purchase"
+    },
+    {
+      "type": "page",
+      "name": "Report Selection - Cash Flow"
+    },
+    {
+      "type": "page",
+      "name": "Report Selection - Warehouse"
+    },
+    {
+      "type": "page",
+      "name": "Report Selection - Inventory"
+    },
+    {
+      "type": "page",
+      "name": "Report Selection - Bank Account"
+    },
+    {
+      "type": "page",
+      "name": "Report Selection - Production Order"
+    },
+    {
+      "type": "page",
+      "name": "Report Selection - Reminder/Finance Charge"
+    }
+  ],
+  "features": [
+    "report selection",
+    "document layouts",
+    "email body",
+    "email attachment",
+    "check layouts"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002605,
+      "pages_in_call": 8
+    }
+  ]
+}

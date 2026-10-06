@@ -1,0 +1,56 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/across-setting-up-workflow-notifications.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/across-setting-up-workflow-notifications",
+  "title": "Setting up approval workflow notifications",
+  "blob": "fdfff362671d0f4b59a85d29eb5d9129c5e0cef5",
+  "summary": "Setting up approval workflow notifications that alert users when their attention is required for workflow steps, including approver notifications, schedules, email customization, and sender notifications.",
+  "systems": [
+    "administration",
+    "integration"
+  ],
+  "topics": [
+    "approval workflow",
+    "notifications",
+    "workflow setup",
+    "email",
+    "job queue"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Approval User Setup"
+    },
+    {
+      "type": "page",
+      "name": "Notification Schedule"
+    },
+    {
+      "type": "page",
+      "name": "Workflow Responses"
+    },
+    {
+      "type": "report",
+      "name": "Notification Email"
+    }
+  ],
+  "features": [
+    "approver notification",
+    "notification schedules",
+    "email customization",
+    "response options",
+    "sender notification",
+    "workflow notifications",
+    "job queue integration"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003654,
+      "pages_in_call": 8
+    }
+  ]
+}

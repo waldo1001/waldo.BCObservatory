@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-quickbooks-to-business-edition",
   "published_at": "2025-10-29T13:40:09.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "b3265b0ae6b33da2d21d014764a701a636575386",
       "words": 181,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T18:59:26.625Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002605
+    },
+    "summarized": {
+      "at": "2026-10-06T18:59:34.941Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:59:34.943Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:59:34.944Z",
+      "page": false
     }
   },
   "input_hash": "b3265b0ae6b33da2d21d014764a701a636575386",
@@ -49,5 +68,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b3265b0ae6b33da2d21d014764a701a636575386"
+  "output_hash": "6fd9ba5672a4914c2e4afeb84c4b9c5d56f61cef79cebf6bfd051ed77e0cfeb0"
 }

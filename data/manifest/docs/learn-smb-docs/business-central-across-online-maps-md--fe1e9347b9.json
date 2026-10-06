@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-online-maps",
   "published_at": "2025-10-29T13:40:09.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "6d697dc2780eb48eae112d0f51234af55abaf540",
       "words": 221,
       "forms": 12
+    },
+    "extracted": {
+      "at": "2026-10-06T18:59:26.624Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002605
+    },
+    "summarized": {
+      "at": "2026-10-06T18:59:34.938Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:59:34.939Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:59:34.940Z",
+      "page": false
     }
   },
   "input_hash": "6d697dc2780eb48eae112d0f51234af55abaf540",
@@ -96,5 +115,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6d697dc2780eb48eae112d0f51234af55abaf540"
+  "output_hash": "06e85673b48582fa220207bf6137b8b4110cb5ee312326743a297a00a759d0d3"
 }

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-share-onedrive",
   "published_at": "2025-10-29T13:40:09.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "9d96ea6bc2b98c9db9245ab491e0a9c68de8d4e6",
       "words": 961,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:59:36.759Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003654
+    },
+    "summarized": {
+      "at": "2026-10-06T18:59:36.821Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:59:36.822Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:59:36.823Z",
+      "page": false
     }
   },
   "input_hash": "9d96ea6bc2b98c9db9245ab491e0a9c68de8d4e6",
@@ -39,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9d96ea6bc2b98c9db9245ab491e0a9c68de8d4e6"
+  "output_hash": "4f202001235710899a6cfded6372f093ae86897f915c4c400847375df32f7b4b"
 }

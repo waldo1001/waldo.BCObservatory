@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-link-doc-dates-to-posting-dates",
   "published_at": "2025-10-29T13:40:09.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "6c7eb9e048e4188669c9402a1cfe8af93c189e61",
       "words": 13,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:59:26.621Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002605
+    },
+    "summarized": {
+      "at": "2026-10-06T18:59:26.630Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:59:26.631Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:59:26.631Z",
+      "page": false
     }
   },
   "input_hash": "6c7eb9e048e4188669c9402a1cfe8af93c189e61",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6c7eb9e048e4188669c9402a1cfe8af93c189e61"
+  "output_hash": "57cdc2eab332ab903005cb18a198e47de4e517e45368c16bebb747033b7e1bcc"
 }

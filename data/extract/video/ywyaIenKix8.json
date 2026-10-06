@@ -1,0 +1,174 @@
+{
+  "video_id": "ywyaIenKix8",
+  "item_id": "video/yt-microsoft/ywyaIenKix8",
+  "title": "Subscription Billing",
+  "duration_s": 58,
+  "systems": [
+    "finance",
+    "sales"
+  ],
+  "topics": [
+    "subscription billing",
+    "recurring billing",
+    "revenue recognition",
+    "usage-based billing",
+    "contract management",
+    "billing frequency",
+    "subscription renewal",
+    "recurring billing process"
+  ],
+  "chapters": [
+    {
+      "title": "Subscription billing feature introduction",
+      "t_start": 0,
+      "t_end": 12
+    },
+    {
+      "title": "Contract and subscription management capabilities",
+      "t_start": 12,
+      "t_end": 23.4
+    },
+    {
+      "title": "Recurring billing and revenue recognition",
+      "t_start": 23.4,
+      "t_end": 37.7
+    },
+    {
+      "title": "Usage-based billing and licensing",
+      "t_start": 37.7,
+      "t_end": 58
+    }
+  ],
+  "features": [
+    {
+      "name": "Subscription billing feature set",
+      "description": "New feature that provides tools to manage subscriptions with proper contract documentation, including management of terms, services, billing frequency, renewals, and termination conditions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3.2,
+      "t_end": 23.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "subscription management",
+        "contract documentation",
+        "billing terms"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Recurring billing process",
+      "description": "Allows you to run the recurring billing process in a way that can be adapted to your billing rhythm and get subscription bills on time.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 23.4,
+      "t_end": 37.7,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "recurring billing",
+        "billing rhythm",
+        "timely billing"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Subscription revenue recognition",
+      "description": "Enables recognition of subscription revenue that follows your reporting cadence in finance.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 23.4,
+      "t_end": 37.7,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "revenue recognition",
+        "reporting",
+        "financial reporting"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Usage-based billing",
+      "description": "Enables running usage-based billing for subscriptions by importing quantities and prices for the recurring billing process via CSV file or custom API.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 37.7,
+      "t_end": 58,
+      "is_demoed": false,
+      "caveats": [
+        "requires CSV file or custom API for importing quantities and prices"
+      ],
+      "tags": [
+        "usage-based billing",
+        "csv import",
+        "custom api"
+      ],
+      "system": "sales"
+    }
+  ],
+  "objects": [],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 3.2,
+      "text": "we have added a new subscription billing feature set it gives you the tools to manage subscriptions ensuring contracts are properly documented",
+      "why_it_matters": "Introduces the core new feature and its primary purpose of managing subscriptions with proper documentation.",
+      "check": "exact"
+    },
+    {
+      "t": 3.2,
+      "text": "manage with the correct term for the services billing frequency renewals terms and termination conditions",
+      "why_it_matters": "Specifies the key subscription attributes that can be managed with this feature.",
+      "check": "exact"
+    },
+    {
+      "t": 23.4,
+      "text": "you to run the recurring billing process in a way that can be adapted to your billing Rhythm and get subscription build on time",
+      "why_it_matters": "Emphasizes flexibility in billing cycles and the benefit of timely billing for subscriptions.",
+      "check": "exact"
+    },
+    {
+      "t": 23.4,
+      "text": "it also allows you to recognize subscription Revenue that follows your reporting Cadence in finance",
+      "why_it_matters": "Highlights revenue recognition capability aligned with financial reporting requirements.",
+      "check": "exact"
+    },
+    {
+      "t": 37.7,
+      "text": "subscription billing enables you to run usage based billing for your subscriptions by importing quantities and prices",
+      "why_it_matters": "Describes the usage-based billing capability and data import mechanism.",
+      "check": "exact"
+    },
+    {
+      "t": 37.7,
+      "text": "subscription billing is part of the essential business Central license",
+      "why_it_matters": "Confirms the general availability status and licensing tier for the feature.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 4
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.010165
+    }
+  ]
+}
