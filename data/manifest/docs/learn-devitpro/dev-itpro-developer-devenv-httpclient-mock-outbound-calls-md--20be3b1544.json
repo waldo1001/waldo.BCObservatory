@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-httpclient-mock-outbound-calls",
   "published_at": "2025-06-02T09:20:01.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "dac2b19a35128232caf13fd28b6df149ea807391",
       "words": 728,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:24:06.473Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.003046
+    },
+    "summarized": {
+      "at": "2026-10-06T19:24:06.507Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:24:06.508Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:24:06.509Z",
+      "page": false
     }
   },
   "input_hash": "dac2b19a35128232caf13fd28b6df149ea807391",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "dac2b19a35128232caf13fd28b6df149ea807391"
+  "output_hash": "1d6d960821f9f2e2447a7a0a5e5e89ca421969871dcb7cd3b171cbdcb7b0f415"
 }

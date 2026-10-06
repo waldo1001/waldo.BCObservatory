@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-permissionset-ext-object.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-permissionset-ext-object",
+  "title": "Permission Set Extension Object",
+  "blob": "58e5db9231cbb70ddb3dedc8a47eb37c13bb2c0d",
+  "summary": "Permission set extension objects add permissions to existing permission sets in extensions, enabling automatic permission assignment when extensions are installed.",
+  "systems": [
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "permissions",
+    "extensions",
+    "security",
+    "permission sets"
+  ],
+  "objects": [
+    {
+      "type": "permissionset",
+      "name": "Sales Person"
+    }
+  ],
+  "features": [
+    "permission set extensions",
+    "additive permissions",
+    "elevated privileges",
+    "extension install"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003046,
+      "pages_in_call": 8
+    }
+  ]
+}

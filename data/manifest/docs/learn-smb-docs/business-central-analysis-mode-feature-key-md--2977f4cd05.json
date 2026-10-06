@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/analysis-mode-feature-key",
   "published_at": "2025-05-28T07:59:04.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "a922268c2ff09b9e1a8892d1489c1b63d997c591",
       "words": 134,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:24:06.476Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003046
+    },
+    "summarized": {
+      "at": "2026-10-06T19:24:08.201Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:24:08.203Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:24:08.204Z",
+      "page": false
     }
   },
   "input_hash": "a922268c2ff09b9e1a8892d1489c1b63d997c591",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a922268c2ff09b9e1a8892d1489c1b63d997c591"
+  "output_hash": "9e159d7c91302ee077ff6fd61e4f0099256ead2486495235dfdf57f24b994149"
 }

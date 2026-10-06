@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-permissionset-ext-object",
   "published_at": "2025-06-02T09:25:09.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "58e5db9231cbb70ddb3dedc8a47eb37c13bb2c0d",
       "words": 316,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:24:06.472Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.003046
+    },
+    "summarized": {
+      "at": "2026-10-06T19:24:06.504Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:24:06.505Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:24:06.506Z",
+      "page": false
     }
   },
   "input_hash": "58e5db9231cbb70ddb3dedc8a47eb37c13bb2c0d",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "58e5db9231cbb70ddb3dedc8a47eb37c13bb2c0d"
+  "output_hash": "bc5b87a4ada1ea1ea98fd8350b6dff468069445eb2162b384b89129e801b57ae"
 }

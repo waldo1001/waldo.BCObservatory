@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-void-electronic-payments",
   "published_at": "2025-06-03T18:06:52.000Z",
   "language": "en",
-  "state": "extracted",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -24,6 +24,18 @@
       "parts": 1,
       "objects": 2,
       "cost_usd": 0.002403
+    },
+    "summarized": {
+      "at": "2026-10-06T19:24:06.490Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:24:06.491Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:24:06.492Z",
+      "page": false
     }
   },
   "input_hash": "6aed3b4d1a8e47d95bfa52a9248e40e9d94baf2f",

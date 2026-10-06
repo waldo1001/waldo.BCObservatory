@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-304.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-304",
+  "title": "Vendor - Detail Trial Balance (report)",
+  "blob": "3e18117680053503b8d8dd48fd23d58c619d6a89",
+  "summary": "The Vendor - Detail Trial Balance report shows vendor balances, transactions within a period, and closing balance for reconciliation and cash flow analysis.",
+  "systems": [
+    "purchasing",
+    "finance"
+  ],
+  "topics": [
+    "vendor",
+    "trial balance",
+    "reconciliation",
+    "cash flow"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Vendor - Detail Trial Balance"
+    }
+  ],
+  "features": [
+    "opening balance",
+    "closing balance",
+    "date filter",
+    "vendor currency",
+    "transaction details"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003046,
+      "pages_in_call": 8
+    }
+  ]
+}

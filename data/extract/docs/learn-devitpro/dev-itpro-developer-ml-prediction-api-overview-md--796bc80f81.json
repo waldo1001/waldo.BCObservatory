@@ -1,0 +1,49 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/ml-prediction-api-overview.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/ml-prediction-api-overview",
+  "title": "Prediction API overview",
+  "blob": "63a37c1319327a2d27dca3c5225435a7bd070cec",
+  "summary": "The Prediction API is a machine learning API that supports regression and classification tasks like late payment prediction, customer churn, and quote conversion.",
+  "systems": [
+    "copilot",
+    "integration"
+  ],
+  "topics": [
+    "machine learning",
+    "prediction",
+    "api",
+    "regression",
+    "classification"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "ML Prediction Management"
+    },
+    {
+      "type": "table",
+      "name": "ML Prediction Parameters"
+    }
+  ],
+  "features": [
+    "train method",
+    "predict method",
+    "evaluate method",
+    "plotmodel method",
+    "Initialize method",
+    "SetRecord method",
+    "AddFeature method",
+    "SetLabel method"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003046,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/ml-prediction-api-overview",
   "published_at": "2025-05-28T20:31:57.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "63a37c1319327a2d27dca3c5225435a7bd070cec",
       "words": 1062,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:24:06.475Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.003046
+    },
+    "summarized": {
+      "at": "2026-10-06T19:24:06.512Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:24:08.197Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:24:08.199Z",
+      "page": false
     }
   },
   "input_hash": "63a37c1319327a2d27dca3c5225435a7bd070cec",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "63a37c1319327a2d27dca3c5225435a7bd070cec"
+  "output_hash": "61c9a28f99b03ad9266761e1a65955ce520e5ddf4998a067950457cb6de62861"
 }

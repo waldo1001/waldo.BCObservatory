@@ -1,0 +1,45 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-httpclient-mock-outbound-calls.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-httpclient-mock-outbound-calls",
+  "title": "Mock outbound HttpClient web service calls during testing",
+  "blob": "dac2b19a35128232caf13fd28b6df149ea807391",
+  "summary": "Mock outbound HttpClient calls during testing allows simulating external web service responses without actual endpoints, available on-premises only.",
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "testing",
+    "httpclient",
+    "web services",
+    "mocking"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "DocumentService"
+    },
+    {
+      "type": "codeunit",
+      "name": "DocumentServiceTest"
+    }
+  ],
+  "features": [
+    "HttpClientHandler attribute",
+    "HandlerFunctions attribute",
+    "TestHttpRequestPolicy",
+    "BlockOutboundRequests",
+    "AllowOutboundFromHandler",
+    "AllowAllOutboundRequests"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003046,
+      "pages_in_call": 8
+    }
+  ]
+}

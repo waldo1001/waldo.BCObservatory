@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-set-up-bank-ccc-codes",
   "published_at": "2025-06-03T18:06:52.000Z",
   "language": "en",
-  "state": "extracted",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -24,6 +24,18 @@
       "parts": 1,
       "objects": 4,
       "cost_usd": 0.002403
+    },
+    "summarized": {
+      "at": "2026-10-06T19:24:06.481Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:24:06.482Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:24:06.483Z",
+      "page": false
     }
   },
   "input_hash": "07be2ef1e3ca40fac92045b23e5e8bc8994c6e42",
