@@ -1,0 +1,347 @@
+# BC Observatory: Permission set extension objects
+
+343 objects, by id.
+
+- [Permission set extension 630 "Data Archive - View"](630.md): DataArchive
+- [Permission set extension 649 "Reten. Pol. Admin - BaseApp"](649.md): Base Application
+- [Permission set extension 688 "D365 BASIC ISV - Paym. Prac."](688.md): PaymentPractices
+- [Permission set extension 689 "D365 BASIC - Paym. Prac."](689.md): PaymentPractices
+- [Permission set extension 690 "D365 READ - Paym. Prac."](690.md): PaymentPractices
+- [Permission set extension 691 "D365 TEAM MEMBER - Paym. Prac."](691.md): PaymentPractices
+- [Permission set extension 692 "INTELLIGENT CLOUD - Paym. Prac."](692.md): PaymentPractices
+- [Permission set extension 693 "LOCAL - Paym. Prac."](693.md): PaymentPractices
+- [Permission set extension 1632 "D365 BASIC ISVQuickBooks Data Migration"](1632.md): QBMigration
+- [Permission set extension 1681 "D365 BASIC ISV - Email Logging"](1681.md): EmailLogging
+- [Permission set extension 1682 "D365 BUS FULL ACCESS - Email Logging"](1682.md): EmailLogging
+- [Permission set extension 1683 "D365 BUS PREMIUM - Email Logging"](1683.md): EmailLogging
+- [Permission set extension 1684 "D365 FULL ACCESS - Email Logging"](1684.md): EmailLogging
+- [Permission set extension 1685 "D365 READ - Email Logging"](1685.md): EmailLogging
+- [Permission set extension 1686 "D365 TEAM MEMBER - Email Logging"](1686.md): EmailLogging
+- [Permission set extension 1687 "INTELLIGENT CLOUD - Email Logging"](1687.md): EmailLogging
+- [Permission set extension 1688 "D365 BASIC - Email Logging"](1688.md): EmailLogging
+- [Permission set extension 1691 "D365 BASIC ISV - Bank Deposits"](1691.md): BankDeposits
+- [Permission set extension 1692 "D365 BUS FULL ACCESS - Bank Deposits"](1692.md): BankDeposits
+- [Permission set extension 1693 "D365 BUS PREMIUM - Bank Deposits"](1693.md): BankDeposits
+- [Permission set extension 1694 "D365 FULL ACCESS - Bank Deposits"](1694.md): BankDeposits
+- [Permission set extension 1695 "D365 READ - Bank Deposits"](1695.md): BankDeposits
+- [Permission set extension 1696 "D365 TEAM MEMBER - Bank Deposits"](1696.md): BankDeposits
+- [Permission set extension 1697 "INTELLIGENT CLOUD - Bank Deposits"](1697.md): BankDeposits
+- [Permission set extension 1698 "D365 BASIC - Bank Deposits"](1698.md): BankDeposits
+- [Permission set extension 2163 "D365 BUS PREMIUM - Statistical Accounts"](2163.md): StatisticalAccounts
+- [Permission set extension 2165 "D365 READ - Statistical Accounts"](2165.md): StatisticalAccounts
+- [Permission set extension 2529 "Service Receivables Doc.- Post"](2529.md): Base Application
+- [Permission set extension 2627 "INTELLIGENT CLOUD - Statistical Account"](2627.md): StatisticalAccounts
+- [Permission set extension 2629 "D365 BASIC - Statistical Accounts"](2629.md): StatisticalAccounts
+- [Permission set extension 2630 "D365 BASIC ISV - Statistical Accounts"](2630.md): StatisticalAccounts
+- [Permission set extension 2631 "D365 BUS FULL ACCESS - Statistical Accounts"](2631.md): StatisticalAccounts
+- [Permission set extension 2632 "D365 FULL ACCESS - Statistical Accounts"](2632.md): StatisticalAccounts
+- [Permission set extension 2633 "D365 TEAM MEMBER - Statistical Accounts"](2633.md): StatisticalAccounts
+- [Permission set extension 2680 "Data Search Setup"](2680.md): DataSearch
+- [Permission set extension 2681 "Data Search"](2681.md): DataSearch
+- [Permission set extension 2750 "D365 BASIC ISV - Microsoft Universal Print"](2750.md): MicrosoftUniversalPrint
+- [Permission set extension 2751 "D365 BASIC - Microsoft Universal Print"](2751.md): MicrosoftUniversalPrint
+- [Permission set extension 2752 "D365 BUS FULL ACCESS - Microsoft Universal Print"](2752.md): MicrosoftUniversalPrint
+- [Permission set extension 2753 "D365 BUS PREMIUM - Microsoft Universal Print"](2753.md): MicrosoftUniversalPrint
+- [Permission set extension 2754 "D365 FULL ACCESS - Microsoft Universal Print"](2754.md): MicrosoftUniversalPrint
+- [Permission set extension 2755 "D365 READ - Microsoft Universal Print"](2755.md): MicrosoftUniversalPrint
+- [Permission set extension 2756 "D365 TEAM MEMBER - Microsoft Universal Print"](2756.md): MicrosoftUniversalPrint
+- [Permission set extension 2757 "INTELLIGENT CLOUD - Microsoft Universal Print"](2757.md): MicrosoftUniversalPrint
+- [Permission set extension 3216 "D365 BUS PREMIUM - Late Payment Prediction"](3216.md): LatePaymentPredictor
+- [Permission set extension 3503 "D365 FULL ACCESS - Late Payment Prediction"](3503.md): LatePaymentPredictor
+- [Permission set extension 3777 "INTELLIGENT CLOUD - Essential Business Headlines"](3777.md): EssentialBusinessHeadlines
+- [Permission set extension 3998 "D365 BUS FULL ACCESSQuickBooks Data Migration"](3998.md): QBMigration
+- [Permission set extension 4000 "D365 BASIC - HBD"](4000.md): HybridBaseDeployment
+- [Permission set extension 4001 "D365 BASIC ISV - HBD"](4001.md): HybridBaseDeployment
+- [Permission set extension 4002 "D365 TEAM MEMBER - HBD"](4002.md): HybridBaseDeployment
+- [Permission set extension 4003 "INTELLIGENT CLOUD - HBD"](4003.md): HybridBaseDeployment
+- [Permission set extension 4018 "D365 BASIC - HBCL"](4018.md): HybridBCLast
+- [Permission set extension 4019 "D365 BASIC ISV - HBCL"](4019.md): HybridBCLast
+- [Permission set extension 4020 "D365 TEAM MEMBER - HBCL"](4020.md): HybridBCLast
+- [Permission set extension 4021 "INTELLIGENT CLOUD - HBCL"](4021.md): HybridBCLast
+- [Permission set extension 4025 "D365 BASIC - HGP"](4025.md): HybridGP
+- [Permission set extension 4026 "D365 BASIC ISV - HGP"](4026.md): HybridGP
+- [Permission set extension 4027 "D365 TEAM MEMBER - HGP"](4027.md): HybridGP
+- [Permission set extension 4028 "INTELLIGENT CLOUD - HGP"](4028.md): HybridGP
+- [Permission set extension 4209 "D365 TEAM MEMBERImage Analyzer"](4209.md): ImageAnalysis
+- [Permission set extension 4350 "AgentAdmin"](4350.md): AgentDesignExperience
+- [Permission set extension 4400 "D365 BASIC ISV - FE Reports"](4400.md): ExcelReports
+- [Permission set extension 4401 "D365 BUS FULL ACCESS - FE Reports"](4401.md): ExcelReports
+- [Permission set extension 4402 "D365 BUS PREMIUM - FE Reports"](4402.md): ExcelReports
+- [Permission set extension 4403 "D365 FULL ACCESS - FE Reports"](4403.md): ExcelReports
+- [Permission set extension 4404 "D365 READ - FE Reports"](4404.md): ExcelReports
+- [Permission set extension 4499 "D365 BUS FULL ACCESS - Essential Business Headlines"](4499.md): EssentialBusinessHeadlines
+- [Permission set extension 4506 "Email - Edit - ORA"](4506.md): Email - Outlook REST API
+- [Permission set extension 4507 "Email - Admin - ORA"](4507.md): Email - Outlook REST API
+- [Permission set extension 4511 "Email - Edit - SMTP"](4511.md): Email - SMTP Connector
+- [Permission set extension 4512 "Email - Admin - SMTP"](4512.md): Email - SMTP Connector
+- [Permission set extension 4560 "File Storage - Admin - Ext. Blob Storage"](4560.md): External File Storage - Azure Blob Service Connector
+- [Permission set extension 4561 "File Storage - Edit - Ext. Blob Storage"](4561.md): External File Storage - Azure Blob Service Connector
+- [Permission set extension 4570 "File Storage - Admin - Ext. File Share"](4570.md): External File Storage - Azure File Service Connector
+- [Permission set extension 4571 "File Storage - Edit - Ext. File Share"](4571.md): External File Storage - Azure File Service Connector
+- [Permission set extension 4580 "File Storage - Admin - Ext. SharePoint"](4580.md): External File Storage - SharePoint Connector
+- [Permission set extension 4581 "File Storage - Edit - Ext. SharePoint"](4581.md): External File Storage - SharePoint Connector
+- [Permission set extension 4616 "Email - SMTP API"](4616.md): Email - SMTP API
+- [Permission set extension 4621 "File Storage - Admin - Ext. SFTP"](4621.md): External File Storage - SFTP Connector
+- [Permission set extension 4622 "File Storage - Edit - Ext. SFTP"](4622.md): External File Storage - SFTP Connector
+- [Permission set extension 4668 "D365 BASIC - Sales and Inventory Forecast"](4668.md): SalesAndInventoryForecast
+- [Permission set extension 4700 "D365 BASIC ISV - VAT Group Management"](4700.md): VATGroupManagement
+- [Permission set extension 4701 "D365 BASIC - VAT Group Management"](4701.md): VATGroupManagement
+- [Permission set extension 4702 "D365 BUS FULL ACCESS - VAT Group Management"](4702.md): VATGroupManagement
+- [Permission set extension 4703 "D365 BUS PREMIUM - VAT Group Management"](4703.md): VATGroupManagement
+- [Permission set extension 4704 "D365 FULL ACCESS - VAT Group Management"](4704.md): VATGroupManagement
+- [Permission set extension 4705 "D365 READ - VAT Group Management"](4705.md): VATGroupManagement
+- [Permission set extension 4706 "D365 TEAM MEMBER - VAT Group Management"](4706.md): VATGroupManagement
+- [Permission set extension 4707 "INTELLIGENT CLOUD - VAT Group Management"](4707.md): VATGroupManagement
+- [Permission set extension 4810 "D365 BASIC - Intr. Core"](4810.md): Intrastat
+- [Permission set extension 4811 "D365 BASIC ISV - Intr. Core"](4811.md): Intrastat
+- [Permission set extension 4812 "D365 READ - Intr. Core"](4812.md): Intrastat
+- [Permission set extension 4813 "D365 TEAM MEMBER - Intr. Core"](4813.md): Intrastat
+- [Permission set extension 4814 "INTELLIGENT CLOUD - Intr. Core"](4814.md): Intrastat
+- [Permission set extension 4815 "LOCAL - Intr. Core"](4815.md): Intrastat
+- [Permission set extension 4850 "D365 BASIC - AAC"](4850.md): AutomaticAccountCodes
+- [Permission set extension 4851 "D365 BASIC ISV - AAC"](4851.md): AutomaticAccountCodes
+- [Permission set extension 4852 "D365 BUS FULL ACCESS - AAC"](4852.md): AutomaticAccountCodes
+- [Permission set extension 4853 "D365 BUS PREMIUM - AAC"](4853.md): AutomaticAccountCodes
+- [Permission set extension 4854 "D365 FULL ACCESS - AAC"](4854.md): AutomaticAccountCodes
+- [Permission set extension 4855 "D365 READ - AAC"](4855.md): AutomaticAccountCodes
+- [Permission set extension 4856 "D365 TEAM MEMBER - AAC"](4856.md): AutomaticAccountCodes
+- [Permission set extension 4857 "INTELLIGENT CLOUD - AAC"](4857.md): AutomaticAccountCodes
+- [Permission set extension 5012 "LOCAL - Serv. Decl."](5012.md): ServiceDeclaration
+- [Permission set extension 5013 "D365 BASIC - Serv. Decl."](5013.md): ServiceDeclaration
+- [Permission set extension 5014 "D365 BASIC ISV - Serv. Decl."](5014.md): ServiceDeclaration
+- [Permission set extension 5015 "D365 READ - Serv. Decl."](5015.md): ServiceDeclaration
+- [Permission set extension 5016 "D365 TEAM MEMBER - Serv. Decl."](5016.md): ServiceDeclaration
+- [Permission set extension 5017 "INTELLIGENT CLOUD - Serv. Decl."](5017.md): ServiceDeclaration
+- [Permission set extension 5260 "D365 BASIC - Audit Export"](5260.md): AuditFileExport
+- [Permission set extension 5261 "D365 BASIC ISV - Audit Export"](5261.md): AuditFileExport
+- [Permission set extension 5262 "D365 READ - Audit Export"](5262.md): AuditFileExport
+- [Permission set extension 5263 "D365 TEAM MEMBER - Audit Exp."](5263.md): AuditFileExport
+- [Permission set extension 5264 "INTELLIGENT CLOUD - Audit Exp."](5264.md): AuditFileExport
+- [Permission set extension 5265 "LOCAL - Audit Export"](5265.md): AuditFileExport
+- [Permission set extension 5280 "D365 BASIC - SAF-T"](5280.md): SAF-T
+- [Permission set extension 5281 "D365 BASIC ISV - SAF-T"](5281.md): SAF-T
+- [Permission set extension 5282 "D365 READ - SAF-T"](5282.md): SAF-T
+- [Permission set extension 5283 "D365 TEAM MEMBER - SAF-T"](5283.md): SAF-T
+- [Permission set extension 5284 "INTELLIGENT CLOUD - SAF-T"](5284.md): SAF-T
+- [Permission set extension 5285 "LOCAL - SAF-T"](5285.md): SAF-T
+- [Permission set extension 5503 "D365 AUTOMATION - APIV1"](5503.md): APIV1
+- [Permission set extension 5579 "D365 BASIC - Dig. Voucher"](5579.md): EnforcedDigitalVouchers
+- [Permission set extension 5580 "D365 BASIC ISV - Dig. Voucher"](5580.md): EnforcedDigitalVouchers
+- [Permission set extension 5581 "D365 READ - Dig. Voucher"](5581.md): EnforcedDigitalVouchers
+- [Permission set extension 5582 "D365 TEAM MEMBER - Dig. Voucher"](5582.md): EnforcedDigitalVouchers
+- [Permission set extension 5586 "INTELLIGENT CLOUD - Dig. Voucher"](5586.md): EnforcedDigitalVouchers
+- [Permission set extension 5650 "D365 BASIC ISV - Send To Email Printer"](5650.md): SendToEmailPrinter
+- [Permission set extension 5651 "D365 BASIC - Send To Email Printer"](5651.md): SendToEmailPrinter
+- [Permission set extension 5652 "D365 BUS FULL ACCESS - Send To Email Printer"](5652.md): SendToEmailPrinter
+- [Permission set extension 5653 "D365 BUS PREMIUM - Send To Email Printer"](5653.md): SendToEmailPrinter
+- [Permission set extension 5654 "D365 FULL ACCESS - Send To Email Printer"](5654.md): SendToEmailPrinter
+- [Permission set extension 5655 "D365 READ - Send To Email Printer"](5655.md): SendToEmailPrinter
+- [Permission set extension 5656 "D365 TEAM MEMBER - Send To Email Printer"](5656.md): SendToEmailPrinter
+- [Permission set extension 5657 "INTELLIGENT CLOUD - Send To Email Printer"](5657.md): SendToEmailPrinter
+- [Permission set extension 5900 "SERV D365 ACCOUNTANTS"](5900.md): Base Application
+- [Permission set extension 5901 "SERV D365 AUTOMATION"](5901.md): Base Application
+- [Permission set extension 5902 "SERV D365 Basic - Edit"](5902.md): Base Application
+- [Permission set extension 5903 "SERV D365 Basic Read"](5903.md): Base Application
+- [Permission set extension 5905 "SERV D365 BASIC ISV"](5905.md): Base Application
+- [Permission set extension 5906 "SERV D365 BUS FULL ACCESS"](5906.md): Base Application
+- [Permission set extension 5907 "SERV D365 CUSTOMER, EDIT"](5907.md): Base Application
+- [Permission set extension 5908 "SERV D365 CUSTOMER VIEW"](5908.md): Base Application
+- [Permission set extension 5909 "SERV D365 ITEM AVAIL CALC"](5909.md): Base Application
+- [Permission set extension 5910 "SERV D365 ITEM EDIT"](5910.md): Base Application
+- [Permission set extension 5911 "SERV D365 SETUP"](5911.md): Base Application
+- [Permission set extension 5912 "SERV D365 READ"](5912.md): Base Application
+- [Permission set extension 5913 "SERV D365 TEAM MEMBER"](5913.md): Base Application
+- [Permission set extension 5914 "SERV D365 VENDOR, EDIT"](5914.md): Base Application
+- [Permission set extension 5915 "SERV D365 INTELLIGENT CLOUD"](5915.md): Base Application
+- [Permission set extension 5917 "SERV D365PREM SMG EDIT"](5917.md): Base Application
+- [Permission set extension 5918 "SERV D365PREM SMG VIEW"](5918.md): Base Application
+- [Permission set extension 5919 "SERV D365PREM SMG SETUP"](5919.md): Base Application
+- [Permission set extension 6091 "D365 AUTOMATION - FATS"](6091.md): DataCorrectionFA
+- [Permission set extension 6092 "D365 BASIC ISV - FATS"](6092.md): DataCorrectionFA
+- [Permission set extension 6093 "D365 BUS FULL ACCESS - FATS"](6093.md): DataCorrectionFA
+- [Permission set extension 6094 "D365 BUS PREMIUM - FATS"](6094.md): DataCorrectionFA
+- [Permission set extension 6095 "D365 FA, EDIT - FATS"](6095.md): DataCorrectionFA
+- [Permission set extension 6096 "D365 FULL ACCESS - FATS"](6096.md): DataCorrectionFA
+- [Permission set extension 6100 "D365 READ - E-Doc. Core"](6100.md): EDocument
+- [Permission set extension 6101 "D365 TEAM MEMBER - E-Doc. Core"](6101.md): EDocument
+- [Permission set extension 6103 "D365 BUS PREMIUM - E-Document"](6103.md): EDocument
+- [Permission set extension 6105 "D365 BUS FULL ACCESS - E-Document"](6105.md): EDocument
+- [Permission set extension 6203 "D365 BASIC - Transact. Storage"](6203.md): TransactionStorage
+- [Permission set extension 6210 "D365 BUS FULL ACCESS Sustainability"](6210.md): Sustainability
+- [Permission set extension 6211 "D365 TEAM MEMBER Sustainability"](6211.md): Sustainability
+- [Permission set extension 6212 "Sust. Power BI Reports"](6212.md): Sustainability
+- [Permission set extension 6215 "D365 BASIC Sustainability"](6215.md): Sustainability
+- [Permission set extension 6216 "D365 READ Sustainability"](6216.md): Sustainability
+- [Permission set extension 6323 "D365 FULL ACCESS - Sales and Inventory Forecast"](6323.md): SalesAndInventoryForecast
+- [Permission set extension 6465 "Service G/L Accounts - Edit"](6465.md): Base Application
+- [Permission set extension 6466 "Service Foundation UI"](6466.md): Base Application
+- [Permission set extension 6467 "Service G/L Accounts - View"](6467.md): Base Application
+- [Permission set extension 6468 "Service Inventory - Edit"](6468.md): Base Application
+- [Permission set extension 6469 "Service Jobs - Edit"](6469.md): Base Application
+- [Permission set extension 6470 "Service Vendor - Edit"](6470.md): Base Application
+- [Permission set extension 6471 "Service Contact - Edit"](6471.md): Base Application
+- [Permission set extension 6472 "Service Resources - Edit"](6472.md): Base Application
+- [Permission set extension 6473 "Service Customer - Edit"](6473.md): Base Application
+- [Permission set extension 6474 "Service Customer - View"](6474.md): Base Application
+- [Permission set extension 6558 "D365 TEAM MEMBER - PayPal Payments Standard"](6558.md): PayPalPaymentsStandard
+- [Permission set extension 6610 "FS D365 AUTOMATION"](6610.md): FieldServiceIntegration
+- [Permission set extension 6611 "FS D365 DYN CRM MGT"](6611.md): FieldServiceIntegration
+- [Permission set extension 6612 "FS D365 DYN CRM READ"](6612.md): FieldServiceIntegration
+- [Permission set extension 6613 "FS D365 READ"](6613.md): FieldServiceIntegration
+- [Permission set extension 6614 "FS D365 TEAM MEMBER"](6614.md): FieldServiceIntegration
+- [Permission set extension 6615 "FS INTELLIGENT CLOUD"](6615.md): FieldServiceIntegration
+- [Permission set extension 6616 "FS D365 BASIC"](6616.md): FieldServiceIntegration
+- [Permission set extension 6617 "FS D365 BASIC ISV"](6617.md): FieldServiceIntegration
+- [Permission set extension 6618 "FS D365 BUS FULL ACCESS"](6618.md): FieldServiceIntegration
+- [Permission set extension 6619 "FS D365 BUS PREMIUM"](6619.md): FieldServiceIntegration
+- [Permission set extension 6620 "FS D365 FULL ACCESS"](6620.md): FieldServiceIntegration
+- [Permission set extension 6784 "D365 BUS FULL ACCESS WHT"](6784.md): WithholdingTax
+- [Permission set extension 6785 "D365 READ WHT"](6785.md): WithholdingTax
+- [Permission set extension 6786 "D365 Team Member WHT"](6786.md): WithholdingTax
+- [Permission set extension 6787 "D365 BASIC WHT"](6787.md): WithholdingTax
+- [Permission set extension 6820 "D365 READImage Analyzer"](6820.md): ImageAnalysis
+- [Permission set extension 6848 "D365 BASIC - PayPal Payments Standard"](6848.md): PayPalPaymentsStandard
+- [Permission set extension 6900 "D365 BASIC Expense Management"](6900.md): ExpenseAgent
+- [Permission set extension 6901 "D365 BUS FULL ACCESS Expense Management"](6901.md): ExpenseAgent
+- [Permission set extension 6902 "D365 READ Expense Management"](6902.md): ExpenseAgent
+- [Permission set extension 6903 "D365 TEAM MEMBER Expense Management"](6903.md): ExpenseAgent
+- [Permission set extension 7233 "D365 BASIC - Master Data Mgt."](7233.md): MasterDataManagement
+- [Permission set extension 7234 "D365 BASIC ISV - Master Data Mgt."](7234.md): MasterDataManagement
+- [Permission set extension 7235 "D365 BUS FULL ACCESS - Master Data Mgt."](7235.md): MasterDataManagement
+- [Permission set extension 7236 "D365 BUS PREMIUM - Master Data Mgt."](7236.md): MasterDataManagement
+- [Permission set extension 7237 "D365 FULL ACCESS - Master Data Mgt."](7237.md): MasterDataManagement
+- [Permission set extension 7238 "D365 READ - Master Data Mgt."](7238.md): MasterDataManagement
+- [Permission set extension 7239 "INTELLIGENT CLOUD - Master Data Mgt."](7239.md): MasterDataManagement
+- [Permission set extension 7240 "D365 TEAM MEMBER - Master Data Mgt."](7240.md): MasterDataManagement
+- [Permission set extension 7372 "Security Ext"](7372.md): Base Application
+- [Permission set extension 7454 "D365 BASIC ExciseTaxes"](7454.md): ExciseTaxes
+- [Permission set extension 7455 "D365 BUS FULL ACCESS ExciseTaxes"](7455.md): ExciseTaxes
+- [Permission set extension 7456 "D365 READ ExciseTaxes"](7456.md): ExciseTaxes
+- [Permission set extension 7457 "D365 TEAM MEMBER ExciseTaxes"](7457.md): ExciseTaxes
+- [Permission set extension 7695 "D365 BASIC - Essential Business Headlines"](7695.md): EssentialBusinessHeadlines
+- [Permission set extension 8001 "Sub. Billing D365 Basic"](8001.md): Subscription Billing
+- [Permission set extension 8005 "Sub. Bill. Power BI Reports"](8005.md): Subscription Billing
+- [Permission set extension 8051 "Sub. Billing D365 Setup"](8051.md): Subscription Billing
+- [Permission set extension 8055 "Sub. Billing D365 Team Member"](8055.md): Subscription Billing
+- [Permission set extension 8309 "INTELLIGENT CLOUD - Late Payment Prediction"](8309.md): LatePaymentPredictor
+- [Permission set extension 8850 "D365 BASIC ISV - SBSI"](8850.md): SimplifiedBankStatementImport
+- [Permission set extension 8851 "D365 BASIC - SBSI"](8851.md): SimplifiedBankStatementImport
+- [Permission set extension 8852 "D365 BUS FULL ACCESS - SBSI"](8852.md): SimplifiedBankStatementImport
+- [Permission set extension 8853 "D365 BUS PREMIUM - SBSI"](8853.md): SimplifiedBankStatementImport
+- [Permission set extension 8854 "D365 FULL ACCESS - SBSI"](8854.md): SimplifiedBankStatementImport
+- [Permission set extension 8855 "D365 READ - SBSI"](8855.md): SimplifiedBankStatementImport
+- [Permission set extension 8856 "D365 TEAM MEMBER - SBSI"](8856.md): SimplifiedBankStatementImport
+- [Permission set extension 8857 "INTELLIGENT CLOUD - SBSI"](8857.md): SimplifiedBankStatementImport
+- [Permission set extension 8858 "D365 ACC PAYABLE - SBSI"](8858.md): SimplifiedBankStatementImport
+- [Permission set extension 8859 "D365 ACC RECEIVABLE - SBSI"](8859.md): SimplifiedBankStatementImport
+- [Permission set extension 8860 "D365 BANKING - SBSI"](8860.md): SimplifiedBankStatementImport
+- [Permission set extension 8861 "D365 FINANCIAL REP - SBSI"](8861.md): SimplifiedBankStatementImport
+- [Permission set extension 8862 "D365 SETUP - SBSI"](8862.md): SimplifiedBankStatementImport
+- [Permission set extension 9453 "D365 BUS PREMIUMImage Analyzer"](9453.md): ImageAnalysis
+- [Permission set extension 10639 "D365 BASIC ISV - Essential Business Headlines"](10639.md): EssentialBusinessHeadlines
+- [Permission set extension 16230 "D365 BUS PREMIUM - Sales and Inventory Forecast"](16230.md): SalesAndInventoryForecast
+- [Permission set extension 16491 "D365 TEAM MEMBERQuickBooks Data Migration"](16491.md): QBMigration
+- [Permission set extension 17957 "D365 BASIC ISV - PayPal Payments Standard"](17957.md): PayPalPaymentsStandard
+- [Permission set extension 19147 "D365 FULL ACCESS - Essential Business Headlines"](19147.md): EssentialBusinessHeadlines
+- [Permission set extension 19759 "D365 READ - Essential Business Headlines"](19759.md): EssentialBusinessHeadlines
+- [Permission set extension 20100 "D365 BASIC - AMC"](20100.md): AMCBanking365Fundamentals
+- [Permission set extension 20101 "D365 BASIC ISV - AMC"](20101.md): AMCBanking365Fundamentals
+- [Permission set extension 20102 "D365 BUS FULL ACCESS - AMC"](20102.md): AMCBanking365Fundamentals
+- [Permission set extension 20103 "D365 BUS PREMIUM - AMC"](20103.md): AMCBanking365Fundamentals
+- [Permission set extension 20104 "D365 FULL ACCESS - AMC"](20104.md): AMCBanking365Fundamentals
+- [Permission set extension 20105 "D365 READ - AMC"](20105.md): AMCBanking365Fundamentals
+- [Permission set extension 20106 "D365 TEAM MEMBER - AMC"](20106.md): AMCBanking365Fundamentals
+- [Permission set extension 20107 "INTELLIGENT CLOUD - AMC"](20107.md): AMCBanking365Fundamentals
+- [Permission set extension 20108 "D365 BANKING - AMC"](20108.md): AMCBanking365Fundamentals
+- [Permission set extension 20130 "D365 BASIC ISV - Tax Engine"](20130.md): INTaxEngine
+- [Permission set extension 20131 "D365 BASIC - Tax Engine"](20131.md): INTaxEngine
+- [Permission set extension 20132 "D365 BUS FULL ACCESS - Tax Engine"](20132.md): INTaxEngine
+- [Permission set extension 20133 "D365 BUS PREMIUM - Tax Engine"](20133.md): INTaxEngine
+- [Permission set extension 20134 "D365 FULL ACCESS - Tax Engine"](20134.md): INTaxEngine
+- [Permission set extension 20135 "D365 READ - Tax Engine"](20135.md): INTaxEngine
+- [Permission set extension 20136 "D365 TEAM MEMBER - Tax Engine"](20136.md): INTaxEngine
+- [Permission set extension 20137 "INTELLIGENT CLOUD - Tax Engine"](20137.md): INTaxEngine
+- [Permission set extension 20369 "D365 BUS FULL ACCESS - PayPal Payments Standard"](20369.md): PayPalPaymentsStandard
+- [Permission set extension 20400 "D365 BASIC ISV - QltyMgmt"](20400.md): Quality Management
+- [Permission set extension 20401 "D365 BUS FULL ACCESS - QltyMgmt"](20401.md): Quality Management
+- [Permission set extension 20402 "Administrator - QltyMgmt"](20402.md): Quality Management
+- [Permission set extension 20403 "D365 READ - QltyMgmt"](20403.md): Quality Management
+- [Permission set extension 20500 "D365 READ - Subcontracting"](20500.md): Subcontracting
+- [Permission set extension 20501 "D365 BUS FULL ACCESS - Subcontracting"](20501.md): Subcontracting
+- [Permission set extension 20502 "D365 BASIC - Subcontracting"](20502.md): Subcontracting
+- [Permission set extension 20766 "D365 AUTOMATION - APIV2"](20766.md): APIV2
+- [Permission set extension 20875 "D365 READQuickBooks Data Migration"](20875.md): QBMigration
+- [Permission set extension 22212 "INTELLIGENT CLOUD - Review G/L Entries"](22212.md): ReviewGLEntries
+- [Permission set extension 22213 "D365 TEAM MEMBER - Review G/L Entries"](22213.md): ReviewGLEntries
+- [Permission set extension 22214 "D365 READ - Review G/L Entries"](22214.md): ReviewGLEntries
+- [Permission set extension 22215 "D365 FULL ACCESS - Review G/L Entries"](22215.md): ReviewGLEntries
+- [Permission set extension 22216 "D365 BUS PREMIUM - Review G/L Entries"](22216.md): ReviewGLEntries
+- [Permission set extension 22217 "D365 BUS FULL ACCESS - Review G/L Entries"](22217.md): ReviewGLEntries
+- [Permission set extension 22218 "D365 BASIC - Review G/L Entries"](22218.md): ReviewGLEntries
+- [Permission set extension 22219 "D365 BASIC ISV - Review G/L Entries"](22219.md): ReviewGLEntries
+- [Permission set extension 26131 "D365 BASIC ISV - Late Payment Prediction"](26131.md): LatePaymentPredictor
+- [Permission set extension 26134 "D365 FULL ACCESSQuickBooks Data Migration"](26134.md): QBMigration
+- [Permission set extension 27224 "INTELLIGENT CLOUDQuickBooks Data Migration"](27224.md): QBMigration
+- [Permission set extension 27453 "INTELLIGENT CLOUDImage Analyzer"](27453.md): ImageAnalysis
+- [Permission set extension 28528 "D365 TEAM MEMBER - Sales and Inventory Forecast"](28528.md): SalesAndInventoryForecast
+- [Permission set extension 28676 "D365 BUS FULL ACCESS - Late Payment Prediction"](28676.md): LatePaymentPredictor
+- [Permission set extension 29582 "D365 BASIC ISVImage Analyzer"](29582.md): ImageAnalysis
+- [Permission set extension 30100 "Shpfy D365 BASIC"](30100.md): Shopify
+- [Permission set extension 30300 "D365 BASIC ISV - Reports Finance"](30300.md): APIReportsFinance
+- [Permission set extension 30301 "D365 BUS FULL ACCESS - Reports Finance"](30301.md): APIReportsFinance
+- [Permission set extension 30302 "D365 BUS PREMIUM - Reports Finance"](30302.md): APIReportsFinance
+- [Permission set extension 30303 "D365 READ - Reports Finance"](30303.md): APIReportsFinance
+- [Permission set extension 30304 "D365 FULL ACCESS - Reports Finance"](30304.md): APIReportsFinance
+- [Permission set extension 30305 "D365 TEAM MEMBER - Reports Finance"](30305.md): APIReportsFinance
+- [Permission set extension 30958 "D365 TEAM MEMBER - Essential Business Headlines"](30958.md): EssentialBusinessHeadlines
+- [Permission set extension 31135 "D365 BASICImage Analyzer"](31135.md): ImageAnalysis
+- [Permission set extension 32397 "D365 READ - Sales and Inventory Forecast"](32397.md): SalesAndInventoryForecast
+- [Permission set extension 33975 "D365 BUS PREMIUM - PayPal Payments Standard"](33975.md): PayPalPaymentsStandard
+- [Permission set extension 35981 "D365 BUS FULL ACCESSImage Analyzer"](35981.md): ImageAnalysis
+- [Permission set extension 36950 "D365 BASIC PowerBI Reports"](36950.md): PowerBIReports
+- [Permission set extension 36951 "D365 BUS FULL ACCESS PowerBI Reports"](36951.md): PowerBIReports
+- [Permission set extension 36952 "D365 READ PowerBI Reports"](36952.md): PowerBIReports
+- [Permission set extension 36953 "D365 TEAM MEMBER PowerBI Reports"](36953.md): PowerBIReports
+- [Permission set extension 37050 "D365 BUS PREMIUM - Essential Business Headlines"](37050.md): EssentialBusinessHeadlines
+- [Permission set extension 38237 "D365 BASIC - Late Payment Prediction"](38237.md): LatePaymentPredictor
+- [Permission set extension 40900 "D365 Basic Ext."](40900.md): DynamicsGPHistoricalData
+- [Permission set extension 40901 "D365 Full Access Ext."](40901.md): DynamicsGPHistoricalData
+- [Permission set extension 42789 "D365 FULL ACCESSImage Analyzer"](42789.md): ImageAnalysis
+- [Permission set extension 42800 "SL D365 Basic Ext."](42800.md): DynamicsSLHistoricalData
+- [Permission set extension 42801 "SL D365 Full Access Ext."](42801.md): DynamicsSLHistoricalData
+- [Permission set extension 44603 "D365 BUS PREMIUMQuickBooks Data Migration"](44603.md): QBMigration
+- [Permission set extension 44784 "D365 READ - PayPal Payments Standard"](44784.md): PayPalPaymentsStandard
+- [Permission set extension 44824 "D365 BUS FULL ACCESS - Sales and Inventory Forecast"](44824.md): SalesAndInventoryForecast
+- [Permission set extension 45614 "INTELLIGENT CLOUD - PayPal Payments Standard"](45614.md): PayPalPaymentsStandard
+- [Permission set extension 46049 "D365 BASICQuickBooks Data Migration"](46049.md): QBMigration
+- [Permission set extension 46656 "D365 BASIC ISV - Sales and Inventory Forecast"](46656.md): SalesAndInventoryForecast
+- [Permission set extension 47000 "SLINTELLIGENT CLOUD - MSL"](47000.md): HybridSL
+- [Permission set extension 47001 "SLD365 BASIC - MSL"](47001.md): HybridSL
+- [Permission set extension 47002 "SLD365 BASIC ISV - MSL"](47002.md): HybridSL
+- [Permission set extension 47003 "SLD365 TEAM MEMBER - MSL"](47003.md): HybridSL
+- [Permission set extension 48056 "INTELLIGENT CLOUD - Sales and Inventory Forecast"](48056.md): SalesAndInventoryForecast
+- [Permission set extension 48840 "D365 FULL ACCESS - PayPal Payments Standard"](48840.md): PayPalPaymentsStandard
+- [Permission set extension 99000750 "MFG D365 AUTOMATION"](99000750.md): Base Application
+- [Permission set extension 99000751 "MFG D365 Basic - Edit"](99000751.md): Base Application
+- [Permission set extension 99000752 "MFG D365 Basic - Read"](99000752.md): Base Application
+- [Permission set extension 99000753 "MFG D365 BASIC ISV"](99000753.md): Base Application
+- [Permission set extension 99000754 "MFG D365 BUS FULL ACCESS"](99000754.md): Base Application
+- [Permission set extension 99000755 "MFG D365 ITEM AVAIL CALC"](99000755.md): Base Application
+- [Permission set extension 99000756 "MFG D365 ITEM, EDIT"](99000756.md): Base Application
+- [Permission set extension 99000757 "MFG D365 READ"](99000757.md): Base Application
+- [Permission set extension 99000758 "MFG D365 SETUP"](99000758.md): Base Application
+- [Permission set extension 99000759 "MFG D365 TEAM MEMBER"](99000759.md): Base Application
+- [Permission set extension 99000760 "MFG D365 VENDOR, EDIT"](99000760.md): Base Application
+- [Permission set extension 99000761 "MFG D365 INTELLIGENT CLOUD"](99000761.md): Base Application
+- [Permission set extension 99000765 "MFG D365 PREM VIEW"](99000765.md): Base Application
+- [Permission set extension 99000766 "MFG D365 PREM EDIT"](99000766.md): Base Application
+- [Permission set extension 99000770 "Mfg. Foundation UI"](99000770.md): Base Application
+- [Permission set extension 99000771 "Mfg. Inventory - Edit"](99000771.md): Base Application
+- [Permission set extension 99000772 "Mfg. Inventory - View"](99000772.md): Base Application
+- [Permission set extension 99000773 "Mfg. Item Journals - Edit"](99000773.md): Base Application
+- [Permission set extension 99000774 "Mfg. Item Journals - Post"](99000774.md): Base Application
+- [Permission set extension 99000775 "Mfg. Payables Documents Edit"](99000775.md): Base Application
+- [Permission set extension 99000776 "Mfg. Payables Documents Post"](99000776.md): Base Application
+- [Permission set extension 99000777 "Mfg. Vendor - Edit"](99000777.md): Base Application
+- [Permission set extension 99000778 "Mfg Receivables Documents Edit"](99000778.md): Base Application
+- [Permission set extension 99000779 "Mfg. Receivables Documents Post"](99000779.md): Base Application

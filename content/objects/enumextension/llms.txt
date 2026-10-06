@@ -1,0 +1,115 @@
+# BC Observatory: Enum extension objects
+
+111 objects, by id.
+
+- [Enum extension 60 "Auto Format Ext"](60.md): Base Application
+- [Enum extension 327 "No. Series Copilot Cap."](327.md): Business Foundation
+- [Enum extension 482 "JQ Report Output Type Ext"](482.md): Base Application
+- [Enum extension 900 "Asm. Whse. Req. Source Doc."](900.md): Base Application
+- [Enum extension 901 "Asm. Whse. Reference Doc. Type"](901.md): Base Application
+- [Enum extension 902 "Asm. Whse. Act. Source Doc."](902.md): Base Application
+- [Enum extension 903 "Asm. Replenishment System"](903.md): Base Application
+- [Enum extension 904 "Asm. Item Replenishment System"](904.md): Base Application
+- [Enum extension 1690 "Gen. Journal Template Type Ext"](1690.md): BankDeposits
+- [Enum extension 1691 "Report Selection Usage Ext"](1691.md): BankDeposits
+- [Enum extension 1814 "Assisted Setup Group- BaseApp"](1814.md): Base Application
+- [Enum extension 1876 "Manual Setup Category Ext"](1876.md): Base Application
+- [Enum extension 2015 "Entity Text Capability"](2015.md): System Application
+- [Enum extension 2611 "Feature To Update - BaseApp"](2611.md): Base Application
+- [Enum extension 2620 "Stat Acc Analysis Dim. Option"](2620.md): StatisticalAccounts
+- [Enum extension 2622 "Stat. Acc. Line Totaling Type"](2622.md): StatisticalAccounts
+- [Enum extension 2625 "Stat. Acc. Rev. Entry"](2625.md): StatisticalAccounts
+- [Enum extension 2630 "Stat. Analys. Acc. Source"](2630.md): StatisticalAccounts
+- [Enum extension 2632 "StatAccBreakdownAccount"](2632.md): StatisticalAccounts
+- [Enum extension 2650 "Email Printer Scenario"](2650.md): SendToEmailPrinter
+- [Enum extension 3303 "PA Copilot Capability"](3303.md): PayablesAgent
+- [Enum extension 3304 "PA Agent Metadata"](3304.md): PayablesAgent
+- [Enum extension 3711 "Video Category - BaseApp"](3711.md): Base Application
+- [Enum extension 3996 "Retention Policy Log Category Schedule"](3996.md): Base Application
+- [Enum extension 3999 "Reten. Pol. Doc. Archive Fltrng."](3999.md): Base Application
+- [Enum extension 4350 "Custom Agent Capability"](4350.md): AgentDesignExperience
+- [Enum extension 4351 "Custom Agent Metadata Provider"](4351.md): AgentDesignExperience
+- [Enum extension 4400 "SOA Metadata Provider"](4400.md): SalesOrderAgent
+- [Enum extension 4450 "Sales Validation Agent Sample"](4450.md): AgentSamples
+- [Enum extension 4501 "Current User Connector"](4501.md): Email - Current User Connector
+- [Enum extension 4504 "Microsoft 365 Connector"](4504.md): Email - Microsoft 365 Connector
+- [Enum extension 4511 "SMTP Connector"](4511.md): Email - SMTP Connector
+- [Enum extension 4560 "Ext. Blob Storage Connector"](4560.md): External File Storage - Azure Blob Service Connector
+- [Enum extension 4570 "Ext. File Share Connector"](4570.md): External File Storage - Azure File Service Connector
+- [Enum extension 4580 "Ext. SharePoint Connector"](4580.md): External File Storage - SharePoint Connector
+- [Enum extension 4586 "SOA Capability"](4586.md): SalesOrderAgent
+- [Enum extension 4621 "Ext. SFTP Connector"](4621.md): External File Storage - SFTP Connector
+- [Enum extension 5022 "Serv. Decl. VAT Rep. Conf"](5022.md): ServiceDeclaration
+- [Enum extension 5050 "Asm. Doc.Att.Ent.Buf.Doc.Type"](5050.md): Base Application
+- [Enum extension 5051 "Invt.Att.Ent.Buf.Doc.Type"](5051.md): Base Application
+- [Enum extension 5052 "Project Att.Ent.Buf.Doc.Type"](5052.md): Base Application
+- [Enum extension 5053 "Purchase Att.Ent.Buf.Doc.Type"](5053.md): Base Application
+- [Enum extension 5054 "Sales Att.Ent.Buf.Doc.Type"](5054.md): Base Application
+- [Enum extension 5212 "Sust. Contoso Demo Data Module"](5212.md): SustainabilityContosoCoffeeDemoDataset
+- [Enum extension 5236 "Stat. Contoso Demo Data Module"](5236.md): ESGStatisticalAccountsDemoTool
+- [Enum extension 5280 "Audit File Export Format SAF-T"](5280.md): SAF-T
+- [Enum extension 5282 "Audit Export Data Type SAF-T"](5282.md): SAF-T
+- [Enum extension 5283 "Partner Type SAF-T"](5283.md): SAF-T
+- [Enum extension 5825 "Marketing Text Scenario"](5825.md): Base Application
+- [Enum extension 5900 "Serv.Cust.ReportSelectionSales"](5900.md): Base Application
+- [Enum extension 6101 "E-Doc. Send. Profile Elec. Doc"](6101.md): EDocument
+- [Enum extension 6102 "E-Doc. Event Category"](6102.md): EDocument
+- [Enum extension 6103 "E-Doc. Sending Prof. Att. Type"](6103.md): EDocument
+- [Enum extension 6164 "E-Document Copilot Capability"](6164.md): EDocument
+- [Enum extension 6210 "Sustain. Account Comment Line"](6210.md): Sustainability
+- [Enum extension 6211 "Sust. Sch. Line Totaling Type"](6211.md): Sustainability
+- [Enum extension 6212 "Sust. Acc. Sch. Amount Type"](6212.md): Sustainability
+- [Enum extension 6213 "Sust. Analysis Account Source"](6213.md): Sustainability
+- [Enum extension 6214 "Sust. PBI Deployable Report"](6214.md): Sustainability
+- [Enum extension 6215 "Sust. PBI Report Setup"](6215.md): Sustainability
+- [Enum extension 6290 "Sustainability Copilot Capab."](6290.md): SustainabilityCopilotSuggestion
+- [Enum extension 6450 "Serv. Report Selection Usage"](6450.md): Base Application
+- [Enum extension 6451 "Serv. Reservation Summary Type"](6451.md): Base Application
+- [Enum extension 6452 "Serv. Supply Document Type"](6452.md): Base Application
+- [Enum extension 6457 "Serv. Unplanned Demand Type"](6457.md): Base Application
+- [Enum extension 6458 "Serv. Order. Prom. Source Type"](6458.md): Base Application
+- [Enum extension 6460 "Serv. Whse. Jnl. Source Doc."](6460.md): Base Application
+- [Enum extension 6461 "Serv. Whse. Req. Source Doc."](6461.md): Base Application
+- [Enum extension 6462 "Serv. Whse. Act. Source Doc."](6462.md): Base Application
+- [Enum extension 6464 "Serv. Electr.Doc.Format Usage"](6464.md): Base Application
+- [Enum extension 6784 "WHT Report Selection Usage Ext"](6784.md): WithholdingTax
+- [Enum extension 6901 "Exp. Attachment Document Type"](6901.md): ExpenseAgent
+- [Enum extension 6915 "Report Selection Usage Ext"](6915.md): ExpenseAgent
+- [Enum extension 6968 "Expense Copilot Capability"](6968.md): ExpenseAgent
+- [Enum extension 6998 "EA Agent Metadata"](6998.md): ExpenseAgent
+- [Enum extension 7014 "Serv. Price Asset Type"](7014.md): Base Application
+- [Enum extension 7107 "Exp. Spend Request Doc. Type"](7107.md): ExpenseAgent
+- [Enum extension 7230 "Data Synch. Table Mapping Type"](7230.md): MasterDataManagement
+- [Enum extension 7250 "Bank Rec. Copilot Capability"](7250.md): BankAccRecWithAI
+- [Enum extension 7275 "Sales Lines Copilot Capability"](7275.md): SalesLinesSuggestions
+- [Enum extension 7330 "Create Product Info Capability"](7330.md): CreateProductInformationWithCopilot
+- [Enum extension 7412 "Sust. Excise Document Type"](7412.md): ExciseTaxes
+- [Enum extension 8001 "Sub. Billing Sales Line Type"](8001.md): Subscription Billing
+- [Enum extension 8102 "PBI Sub. Billing Report Setup"](8102.md): Subscription Billing
+- [Enum extension 8103 "PBI Sub. Billing Depl. Report"](8103.md): Subscription Billing
+- [Enum extension 8360 "Financial Email Scenario"](8360.md): Base Application
+- [Enum extension 8750 "DA Ext. Storage-File Scenario"](8750.md): External Storage - Document Attachments
+- [Enum extension 8891 "Base Email Scenario"](8891.md): Base Application
+- [Enum extension 8892 "Serv. Email Scenario"](8892.md): Base Application
+- [Enum extension 8900 "Email Address Entity"](8900.md): Base Application
+- [Enum extension 20370 "First Party Signals"](20370.md): OnboardingSignals
+- [Enum extension 20400 "Qlty. Manual Setup Category"](20400.md): Quality Management
+- [Enum extension 20401 "Qlty. Approval Document Type"](20401.md): Quality Management
+- [Enum extension 20402 "Qlty. Report Selection Usage"](20402.md): Quality Management
+- [Enum extension 20403 "QltyEventCategory"](20403.md): Quality Management
+- [Enum extension 20500 "Subc. ReqWkshTempType Ext."](20500.md): Subcontracting
+- [Enum extension 30100 "ShopifySignupContext"](30100.md): Shopify
+- [Enum extension 36950 "Power BI Deployable Report"](36950.md): PowerBIReports
+- [Enum extension 38500 "External Events Category"](38500.md): ExternalEvents
+- [Enum extension 46850 "BC14 Migration Provider Ext"](46850.md): HybridBC14
+- [Enum extension 46851 "BC14 Warning Type Ext"](46851.md): HybridBC14
+- [Enum extension 99000750 "Mfg. Report Selection Usage"](99000750.md): Base Application
+- [Enum extension 99000770 "Mfg. Whse. Req. Source Doc."](99000770.md): Base Application
+- [Enum extension 99000771 "Mfg. Whse. Reference Doc. Type"](99000771.md): Base Application
+- [Enum extension 99000772 "Mfg. Whse. Destination Type"](99000772.md): Base Application
+- [Enum extension 99000775 "Mfg. Whse. Pick Document Type"](99000775.md): Base Application
+- [Enum extension 99000776 "Mfg. Whse. Pick Rqst. Doc. Type"](99000776.md): Base Application
+- [Enum extension 99000780 "Mfg. Whse. PutAway Rqst. Doc. Type"](99000780.md): Base Application
+- [Enum extension 99000783 "Mfg. Item Journal Templ. Type"](99000783.md): Base Application
+- [Enum extension 99000801 "Mfg. Attachment Document Type"](99000801.md): Base Application
+- [Enum extension 99000802 "Mfg. Standard Cost Source Type"](99000802.md): Base Application

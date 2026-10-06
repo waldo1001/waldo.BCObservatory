@@ -1,0 +1,1126 @@
+# BC Observatory: Enum objects
+
+1122 objects, by id.
+
+- [Enum 5 "Interest Calculation Method"](5.md): Base Application
+- [Enum 6 "Gen. Journal Document Type"](6.md): Base Application
+- [Enum 8 "Country/Region Address Format"](8.md): Base Application
+- [Enum 12 "VAT Statement Report Selection"](12.md): Base Application
+- [Enum 13 "VAT Statement Report Period Selection"](13.md): Base Application
+- [Enum 14 "Location Default Bin Selection"](14.md): Base Application
+- [Enum 15 "G/L Account Category"](15.md): Base Application
+- [Enum 16 "G/L Account Type"](16.md): Base Application
+- [Enum 18 "G/L Account Income/Balance"](18.md): Base Application
+- [Enum 19 "Item Price Profit Calculation"](19.md): Base Application
+- [Enum 20 "G/L Account Report Type"](20.md): Base Application
+- [Enum 25 "Show Empty Amount Type"](25.md): Base Application
+- [Enum 27 "Item Type"](27.md): Base Application
+- [Enum 28 "Costing Method"](28.md): Base Application
+- [Enum 30 "Automatic Cost Adjustment Type"](30.md): Base Application
+- [Enum 35 "Default Posting Date"](35.md): Base Application
+- [Enum 36 "Sales Document Type"](36.md): Base Application
+- [Enum 37 "Sales Line Type"](37.md): Base Application
+- [Enum 38 "Purchase Document Type"](38.md): Base Application
+- [Enum 39 "Purchase Line Type"](39.md): Base Application
+- [Enum 40 "Item Journal Entry Type"](40.md): Base Application
+- [Enum 41 "Navigate After Posting"](41.md): Base Application
+- [Enum 43 "Purchase Comment Document Type"](43.md): Base Application
+- [Enum 44 "Sales Comment Document Type"](44.md): Base Application
+- [Enum 48 "Invt. Posting Buffer Account Type"](48.md): Base Application
+- [Enum 49 "Invoice Posting Line Type"](49.md): Base Application
+- [Enum 50 "Show Currency"](50.md): Base Application
+- [Enum 51 "Currency Symbol Position"](51.md): Base Application
+- [Enum 53 "Gen. Journal Recurring Method"](53.md): Base Application
+- [Enum 57 "General Posting Type"](57.md): Base Application
+- [Enum 58 "Batch Processing Artifact Type"](58.md): Base Application
+- [Enum 59 "Auto Format"](59.md): System Application
+- [Enum 61 "Electronic Document Format Usage"](61.md): Base Application
+- [Enum 62 "Document Sending Profile Usage"](62.md): Base Application
+- [Enum 63 "Document Sending Profile Attachment Type"](63.md): Base Application
+- [Enum 64 "Doc. Sending Profile Elec.Doc."](64.md): Base Application
+- [Enum 65 "Doc. Sending Profile Disk"](65.md): Base Application
+- [Enum 66 "Doc. Sending Profile Send To"](66.md): Base Application
+- [Enum 73 "Planning Surplus Type"](73.md): Base Application
+- [Enum 77 "Report Selection Usage"](77.md): Base Application
+- [Enum 78 "Item Ledger Entry Type"](78.md): Base Application
+- [Enum 79 "Item Ledger Document Type"](79.md): Base Application
+- [Enum 80 "Invoice Posting Policy"](80.md): Base Application
+- [Enum 81 "Gen. Journal Account Type"](81.md): Base Application
+- [Enum 82 "Gen. Journal Source Type"](82.md): Base Application
+- [Enum 83 "Item Journal Template Type"](83.md): Base Application
+- [Enum 84 "IC Journal Account Type"](84.md): Base Application
+- [Enum 85 "Acc. Schedule Line Totaling Type"](85.md): Base Application
+- [Enum 87 "Email Body Layout Type"](87.md): Base Application
+- [Enum 89 "Gen. Journal Template Type"](89.md): Base Application
+- [Enum 90 "Inventory Order Type"](90.md): Base Application
+- [Enum 91 "BOM Component Type"](91.md): Base Application
+- [Enum 96 "Payment Balance Account Type"](96.md): Base Application
+- [Enum 97 "Comment Line Table Name"](97.md): Base Application
+- [Enum 98 "G/L Setup VAT Calculation"](98.md): Base Application
+- [Enum 100 "Reserve Method"](100.md): Base Application
+- [Enum 101 "Item Substitute Type"](101.md): Base Application
+- [Enum 102 "Item Substitution Type"](102.md): Base Application
+- [Enum 103 "Import Consolidation Data"](103.md): Base Application
+- [Enum 104 "Cost Entry Type"](104.md): Base Application
+- [Enum 106 "Cost Variance Type"](106.md): Base Application
+- [Enum 107 "IC Partner Reference Type"](107.md): Base Application
+- [Enum 108 "IC Partner Inbox Type"](108.md): Base Application
+- [Enum 109 "Net Cust/Vend Balances Order"](109.md): Base Application
+- [Enum 113 "Matrix Page Step Type"](113.md): Base Application
+- [Enum 114 "G/L Budget Matrix Dimensions"](114.md): Base Application
+- [Enum 124 "Sales Document IC Status"](124.md): Base Application
+- [Enum 125 "Purchase Document IC Status"](125.md): Base Application
+- [Enum 129 "IC Direction Type"](129.md): Base Application
+- [Enum 130 "Incoming Document Status"](130.md): Base Application
+- [Enum 131 "Incoming Doc. Selection Action"](131.md): Base Application
+- [Enum 133 "Incoming Document Type"](133.md): Base Application
+- [Enum 134 "Partner Type"](134.md): Base Application
+- [Enum 135 "Attachment Entity Buffer Document Type"](135.md): Base Application
+- [Enum 136 "Dimension Set Entry Buffer Parent Type"](136.md): Base Application
+- [Enum 138 "Attachment Entity Buffer Type"](138.md): Base Application
+- [Enum 139 "Customer Blocked"](139.md): Base Application
+- [Enum 140 "Vendor Blocked"](140.md): Base Application
+- [Enum 141 "Incoming Related Document Type"](141.md): Base Application
+- [Enum 150 "Signup Context"](150.md): System Application
+- [Enum 180 "Reversal Entry Type"](180.md): Base Application
+- [Enum 204 "Alt. Cust. VAT Reg. Consist."](204.md): Base Application
+- [Enum 205 "Alt. Cust VAT Reg. Doc."](205.md): Base Application
+- [Enum 206 "Ship-To Alt. Cust. VAT Reg."](206.md): Base Application
+- [Enum 207 "Res. Journal Line Source Type"](207.md): Base Application
+- [Enum 208 "Res. Journal Line Entry Type"](208.md): Base Application
+- [Enum 210 "Job Journal Line Entry Type"](210.md): Base Application
+- [Enum 220 "Business Unit File Format"](220.md): Base Application
+- [Enum 229 "Sales Order Print Option"](229.md): Base Application
+- [Enum 230 "Sales Invoice Print Option"](230.md): Base Application
+- [Enum 232 "Customer Apply Calculation Type"](232.md): Base Application
+- [Enum 233 "Vendor Apply Calculation Type"](233.md): Base Application
+- [Enum 234 "Customer Apply-to Type"](234.md): Base Application
+- [Enum 235 "Vendor Apply-to Type"](235.md): Base Application
+- [Enum 240 "VAT Registration Log Account Type"](240.md): Base Application
+- [Enum 241 "VAT Reg. No. Srv. Template Account Type"](241.md): Base Application
+- [Enum 242 "VAT Reg. Log Details Status"](242.md): Base Application
+- [Enum 243 "VAT Reg. Log Details Field"](243.md): Base Application
+- [Enum 244 "VAT Reg. Log Details Field Status"](244.md): Base Application
+- [Enum 246 "Requisition Line Type"](246.md): Base Application
+- [Enum 247 "Req. Worksheet Template Type"](247.md): Base Application
+- [Enum 252 "Tax System Type"](252.md): Base Application
+- [Enum 253 "Tax Identification Type"](253.md): Base Application
+- [Enum 254 "Tax Calculation Type"](254.md): Base Application
+- [Enum 255 "VAT Reporting Date"](255.md): Base Application
+- [Enum 256 "VAT Statement Line Type"](256.md): Base Application
+- [Enum 257 "VAT Date Type"](257.md): Base Application
+- [Enum 258 "VAT Statement Line Amount Type"](258.md): Base Application
+- [Enum 259 "VAT Reporting Date Usage"](259.md): Base Application
+- [Enum 260 "VAT Period Control"](260.md): Base Application
+- [Enum 261 "VAT Reconciliation Amount Type"](261.md): Base Application
+- [Enum 264 "Intrastat Source Type"](264.md): Base Application, obsolete 26.0
+- [Enum 265 "Document Entry Document Type"](265.md): Base Application
+- [Enum 266 "Intrastat VAT No. On File"](266.md): Base Application
+- [Enum 272 "Bank Payment Type"](272.md): Base Application
+- [Enum 279 "Extended Text Table Name"](279.md): Base Application
+- [Enum 296 "Reminder Source Type"](296.md): Base Application
+- [Enum 297 "Reminder Line Type"](297.md): Base Application
+- [Enum 298 "Reminder Text Position"](298.md): Base Application
+- [Enum 299 "Reminder Comment Line Type"](299.md): Base Application
+- [Enum 300 "Allocation Rules Impl."](300.md): Base Application
+- [Enum 301 "Reservation Demand Type"](301.md): Base Application
+- [Enum 302 "Reminder/Fin.ChargeEntry Type"](302.md): Base Application
+- [Enum 306 "Report Selection Usage Sales"](306.md): Base Application
+- [Enum 314 "Direct Transfer Posting Type"](314.md): Base Application
+- [Enum 330 "Fix Exch. Rate Amount Type"](330.md): Base Application
+- [Enum 331 "Column Layout Type"](331.md): Base Application
+- [Enum 332 "Column Layout Entry Type"](332.md): Base Application
+- [Enum 333 "Account Schedule Amount Type"](333.md): Base Application
+- [Enum 334 "Column Layout Show"](334.md): Base Application
+- [Enum 337 "Reservation Status"](337.md): Base Application
+- [Enum 338 "Reservation Summary Type"](338.md): Base Application
+- [Enum 339 "Reservation Binding"](339.md): Base Application
+- [Enum 340 "Reservation Planning Flexibility"](340.md): Base Application
+- [Enum 341 "Inventory Planning Flexibility"](341.md): Base Application
+- [Enum 342 "Reservation From Stock"](342.md): Base Application
+- [Enum 344 "Navigate Contact Type"](344.md): Base Application
+- [Enum 345 "Navigate Search Type"](345.md): Base Application
+- [Enum 347 "Report Selection Usage Purchase"](347.md): Base Application
+- [Enum 352 "Default Dimension Parent Type"](352.md): Base Application
+- [Enum 353 "Default Dimension Value Posting Type"](353.md): Base Application
+- [Enum 354 "Item Availability Type"](354.md): Base Application
+- [Enum 362 "Analysis Period Type"](362.md): Base Application
+- [Enum 363 "Analysis Amount Type"](363.md): Base Application
+- [Enum 364 "Analysis Rounding Factor"](364.md): Base Application
+- [Enum 379 "Detailed CV Ledger Entry Type"](379.md): Base Application
+- [Enum 385 "Report Selection Usage Bank"](385.md): Base Application
+- [Enum 397 "No. Series Implementation"](397.md): Business Foundation
+- [Enum 404 "Consolidation Method"](404.md): Base Application
+- [Enum 405 "Change Log Entry Type"](405.md): Base Application
+- [Enum 414 "IC Transaction Document Type"](414.md): Base Application
+- [Enum 421 "Sales Bill-to Options"](421.md): Base Application
+- [Enum 422 "Sales Ship-to Options"](422.md): Base Application
+- [Enum 423 "Purchase Order Ship-to Options"](423.md): Base Application
+- [Enum 424 "Purchase Order Pay-to Options"](424.md): Base Application
+- [Enum 426 "Payment Tolerance Account Type"](426.md): Base Application
+- [Enum 427 "IC Outbox Sales Document Type"](427.md): Base Application
+- [Enum 429 "IC Outbox Purchase Document Type"](429.md): Base Application
+- [Enum 430 "IC Transaction Source Type"](430.md): Base Application
+- [Enum 434 "IC Sales Document Type"](434.md): Base Application
+- [Enum 435 "IC Inbox Sales Document Type"](435.md): Base Application
+- [Enum 436 "IC Purchase Document Type"](436.md): Base Application
+- [Enum 437 "IC Inbox Purchase Document Type"](437.md): Base Application
+- [Enum 438 "IC Outb. Sales Item No. Type"](438.md): Base Application
+- [Enum 439 "IC Outb. Purch. Item No. Type"](439.md): Base Application
+- [Enum 454 "Approval Document Type"](454.md): Base Application
+- [Enum 455 "Approval Status"](455.md): Base Application
+- [Enum 457 "Workflow Approval Limit Type"](457.md): Base Application
+- [Enum 458 "Workflow Approval Type"](458.md): Base Application
+- [Enum 460 "Workflow Approver Type"](460.md): Base Application
+- [Enum 465 "Workflow Approver Limit Type"](465.md): Base Application
+- [Enum 466 "Approval Workflow Type"](466.md): Base Application
+- [Enum 470 "Job Queue Priority"](470.md): Base Application
+- [Enum 477 "Report Inbox Output Type"](477.md): Base Application
+- [Enum 479 "Business Chart Data Type"](479.md): System Application
+- [Enum 482 "Job Queue Report Output Type"](482.md): Base Application
+- [Enum 483 "Setup Report Output Type"](483.md): Base Application
+- [Enum 484 "Business Chart Type"](484.md): System Application
+- [Enum 485 "Document Job Queue Status"](485.md): Base Application
+- [Enum 486 "Job Chart Type"](486.md): Base Application
+- [Enum 487 "Inc. Doc. Job Queue Status"](487.md): Base Application
+- [Enum 500 "Deposits Page Setup Key"](500.md): Base Application
+- [Enum 501 "Prompt Interaction"](501.md): System Application
+- [Enum 502 "ItemCostPriceFieldOption"](502.md): Base Application
+- [Enum 520 "Reservation Date Filter"](520.md): Base Application
+- [Enum 524 "Report Selection Usage Reminder"](524.md): Base Application
+- [Enum 532 "IC Data Exchange Type"](532.md): Base Application
+- [Enum 562 "VAT Clause Document Type"](562.md): Base Application
+- [Enum 584 "Report Selection Usage VAT"](584.md): Base Application
+- [Enum 590 "G/L Source Currency Posting"](590.md): Base Application
+- [Enum 595 "Exch. Rate Adjustment Type"](595.md): Base Application
+- [Enum 596 "Exch. Rate Adjmt. Account Type"](596.md): Base Application
+- [Enum 597 "Exch. Rate Adjmt. Dimensions"](597.md): Base Application
+- [Enum 680 "Paym. Prac. Reporting Scheme"](680.md): PaymentPractices
+- [Enum 685 "Paym. Prac. Aggregation Type"](685.md): PaymentPractices
+- [Enum 686 "Paym. Prac. Header Type"](686.md): PaymentPractices
+- [Enum 700 "VAT Report Status"](700.md): Base Application
+- [Enum 701 "VAT Return Status"](701.md): Base Application
+- [Enum 711 "Sales Document Exchange Status"](711.md): Base Application
+- [Enum 712 "Service Document Exchange Status"](712.md): Base Application
+- [Enum 727 "Analysis Dimension Option"](727.md): Base Application
+- [Enum 740 "VAT Report Configuration"](740.md): Base Application
+- [Enum 747 "Analysis Show Amount Type"](747.md): Base Application
+- [Enum 748 "Analysis Show Amount Field"](748.md): Base Application
+- [Enum 763 "Account Schedule Chart Type"](763.md): Base Application
+- [Enum 764 "ColumnHeaderDateType"](764.md): Base Application
+- [Enum 780 "Supply Document Type"](780.md): Base Application
+- [Enum 800 "Docs - Retention Period Def."](800.md): Base Application
+- [Enum 802 "Online Map Table Selection"](802.md): Base Application
+- [Enum 815 "Sales Invoice Posting"](815.md): Base Application
+- [Enum 816 "Purchase Invoice Posting"](816.md): Base Application
+- [Enum 817 "Service Invoice Posting"](817.md): Base Application
+- [Enum 841 "Cash Flow Account Type"](841.md): Base Application
+- [Enum 842 "Cash Flow Table Name"](842.md): Base Application
+- [Enum 847 "Cash Flow Source Type"](847.md): Base Application
+- [Enum 851 "Acc. Schedule Line Show"](851.md): Base Application
+- [Enum 900 "Asm. Consump. Whse. Handling"](900.md): Base Application
+- [Enum 901 "Assembly Document Type"](901.md): Base Application
+- [Enum 904 "Assemble-to-Order Link Type"](904.md): Base Application
+- [Enum 906 "Assembly Comment Document Type"](906.md): Base Application
+- [Enum 910 "Assembly Policy"](910.md): Base Application
+- [Enum 914 "Posted Assembly Link Type"](914.md): Base Application
+- [Enum 920 "Period Type"](920.md): Base Application
+- [Enum 921 "Period Formula Range"](921.md): Base Application
+- [Enum 950 "Time Sheet Status"](950.md): Base Application
+- [Enum 952 "Time Sheet Line Type"](952.md): Base Application
+- [Enum 953 "Time Sheet Action"](953.md): Base Application
+- [Enum 960 "Posting Group Change Method"](960.md): Base Application
+- [Enum 1000 "Job Consump. Whse. Handling"](1000.md): Base Application
+- [Enum 1001 "Job Task Type"](1001.md): Base Application
+- [Enum 1002 "Job Line Type"](1002.md): Base Application
+- [Enum 1003 "Job Planning Line Line Type"](1003.md): Base Application
+- [Enum 1004 "Task Billing Method"](1004.md): Base Application
+- [Enum 1005 "Job Archive Option"](1005.md): Base Application
+- [Enum 1018 "Job WIP Buffer Type"](1018.md): Base Application
+- [Enum 1022 "Job Planning Line Invoice Document Type"](1022.md): Base Application
+- [Enum 1023 "Job Planning Line Type"](1023.md): Base Application
+- [Enum 1025 "Job Journal Line Type"](1025.md): Base Application
+- [Enum 1026 "Job Ledger Entry Type"](1026.md): Base Application
+- [Enum 1035 "Job WIP Recognized Costs Type"](1035.md): Base Application
+- [Enum 1036 "Job WIP Recognized Sales Type"](1036.md): Base Application
+- [Enum 1048 "Job Planning Line Status"](1048.md): Base Application
+- [Enum 1080 "Financial Report Period Type"](1080.md): Base Application
+- [Enum 1081 "Fin. Report Logo Position"](1081.md): Base Application
+- [Enum 1082 "Fin. Report Logo Position Def."](1082.md): Base Application
+- [Enum 1083 "Fin. Report Negative Format"](1083.md): Base Application
+- [Enum 1103 "Cost Account Type"](1103.md): Base Application
+- [Enum 1107 "Cost Register Source"](1107.md): Base Application
+- [Enum 1114 "Cost Center Subtype"](1114.md): Base Application
+- [Enum 1117 "Cost Allocation Target Base"](1117.md): Base Application
+- [Enum 1118 "Cost Allocation Target Period"](1118.md): Base Application
+- [Enum 1119 "Cost Allocation Target Type"](1119.md): Base Application
+- [Enum 1140 "OAuth 2.0 Code Challenge"](1140.md): Base Application
+- [Enum 1173 "Attachment Document Type"](1173.md): Base Application
+- [Enum 1174 "Document Attachment File Type"](1174.md): Base Application
+- [Enum 1207 "Credit Transfer Account Type"](1207.md): Base Application
+- [Enum 1222 "Data Exchange Definition Type"](1222.md): Base Application
+- [Enum 1236 "Transformation Rule Group"](1236.md): Base Application
+- [Enum 1237 "Transformation Rule Type"](1237.md): Base Application
+- [Enum 1238 "Extract From Date Type"](1238.md): Base Application
+- [Enum 1248 "Matching Ledger Account Type"](1248.md): Base Application
+- [Enum 1249 "Bank Acc. Statement Line Type"](1249.md): Base Application
+- [Enum 1252 "Bank Rec. Match Confidence"](1252.md): Base Application
+- [Enum 1253 "Pmt. Appl. Related Party Name Matching"](1253.md): Base Application
+- [Enum 1254 "Bank Acc. Rec. Stmt. Type"](1254.md): Base Application
+- [Enum 1285 "RSA Signature Padding"](1285.md): System Application
+- [Enum 1286 "X509 Content Type"](1286.md): System Application
+- [Enum 1289 "Http Request Type"](1289.md): System Application
+- [Enum 1303 "Correct Sales Inv. Error Type"](1303.md): Base Application
+- [Enum 1313 "Correct Purch. Inv. Error Type"](1313.md): Base Application
+- [Enum 1366 "Monitor Field Notification"](1366.md): Base Application
+- [Enum 1367 "Field Log Entry Feature"](1367.md): Base Application
+- [Enum 1370 "Batch Posting Parameter Type"](1370.md): Base Application
+- [Enum 1380 "Error Handling Options"](1380.md): Base Application
+- [Enum 1381 "Application Method"](1381.md): Base Application
+- [Enum 1445 "Hash Algorithm"](1445.md): System Application
+- [Enum 1446 "SignatureAlgorithm"](1446.md): System Application
+- [Enum 1465 "SymmetricAlgorithm"](1465.md): System Application
+- [Enum 1480 "Excel Filter Node Type"](1480.md): System Application
+- [Enum 1481 "Edit in Excel Filter Type"](1481.md): System Application
+- [Enum 1490 "Edit in Excel Edm Type"](1490.md): System Application
+- [Enum 1491 "Edit in Excel Filter Collection Type"](1491.md): System Application
+- [Enum 1511 "Notification Entry Type"](1511.md): Base Application
+- [Enum 1512 "Notification Schedule Type"](1512.md): Base Application
+- [Enum 1514 "Notification Method Type"](1514.md): Base Application
+- [Enum 1535 "Approval Action"](1535.md): Base Application
+- [Enum 1562 "Resource Type"](1562.md): Base Application
+- [Enum 1563 "Privacy Notice Approval State"](1563.md): System Application
+- [Enum 1570 "Posting Preview Type"](1570.md): Base Application
+- [Enum 1610 "PEPPOL Processing Type"](1610.md): Base Application, obsolete 29.0
+- [Enum 1619 "Job Status"](1619.md): Base Application
+- [Enum 1624 "Job Blocked"](1624.md): Base Application
+- [Enum 1670 "Option Lookup Type"](1670.md): Base Application
+- [Enum 1682 "Email Logging App Type"](1682.md): EmailLogging
+- [Enum 1700 "Deferral Calculation Method"](1700.md): Base Application
+- [Enum 1701 "Deferral Calculation Start Date"](1701.md): Base Application
+- [Enum 1702 "Deferral Document Type"](1702.md): Base Application
+- [Enum 1800 "Company Setup Status"](1800.md): Base Application
+- [Enum 1815 "Assisted Setup Group"](1815.md): System Application
+- [Enum 1875 "Manual Setup Category"](1875.md): System Application
+- [Enum 1888 "Environment Type"](1888.md): System Application
+- [Enum 1890 "Reminder Text Source Type"](1890.md): Base Application
+- [Enum 1908 "Image Encoding"](1908.md): System Application
+- [Enum 1909 "Media Type"](1909.md): System Application
+- [Enum 1921 "Profiling Aggregation Type"](1921.md): System Application
+- [Enum 1925 "Sampling Interval"](1925.md): System Application
+- [Enum 1932 "Perf. Profile Activity Type"](1932.md): System Application
+- [Enum 1990 "Guided Experience Type"](1990.md): System Application
+- [Enum 1991 "Guided Experience Object Type"](1991.md): System Application
+- [Enum 1993 "Checklist Completion Requirements"](1993.md): System Application
+- [Enum 1994 "Checklist Item Status"](1994.md): System Application
+- [Enum 1995 "Checklist Status"](1995.md): System Application
+- [Enum 1996 "Spotlight Tour Type"](1996.md): System Application
+- [Enum 1997 "Spotlight Tour Text"](1997.md): System Application
+- [Enum 2004 "Azure AI Service"](2004.md): Base Application
+- [Enum 2010 "Entity Text Format"](2010.md): System Application
+- [Enum 2011 "Entity Text Tone"](2011.md): System Application
+- [Enum 2012 "Entity Text Emphasis"](2012.md): System Application
+- [Enum 2014 "Entity Text Actions"](2014.md): System Application
+- [Enum 2021 "Image Analysis Type"](2021.md): Base Application
+- [Enum 2023 "Image Analysis Provider"](2023.md): Base Application
+- [Enum 2301 "Tenant License State"](2301.md): System Application
+- [Enum 2350 "Http Method"](2350.md): System Application
+- [Enum 2351 "Rest Client Exception"](2351.md): System Application
+- [Enum 2504 "Extension Deploy To"](2504.md): System Application
+- [Enum 2505 "Extension Sync Mode"](2505.md): System Application
+- [Enum 2610 "Feature Status"](2610.md): System Application
+- [Enum 2611 "Feature To Update"](2611.md): System Application
+- [Enum 2616 "Printer Paper Kind"](2616.md): System Application
+- [Enum 2617 "Printer Paper Source Kind"](2617.md): System Application
+- [Enum 2618 "Printer Unit"](2618.md): System Application
+- [Enum 2619 "Printer Type"](2619.md): System Application
+- [Enum 2650 "Email Printer Paper Unit"](2650.md): SendToEmailPrinter
+- [Enum 2670 "Destination Account Type"](2670.md): Base Application
+- [Enum 2671 "Breakdown Account Type"](2671.md): Base Application
+- [Enum 2674 "Allocation Account Period"](2674.md): Base Application
+- [Enum 2716 "Summary Type"](2716.md): System Application
+- [Enum 2750 "Universal Printer Paper Unit"](2750.md): MicrosoftUniversalPrint
+- [Enum 2751 "Universal Printer Orientation"](2751.md): MicrosoftUniversalPrint
+- [Enum 2915 "Action Container Type"](2915.md): System Application
+- [Enum 3060 "UriKind"](3060.md): System Application
+- [Enum 3062 "Uri Query Duplicate Behaviour"](3062.md): System Application
+- [Enum 3109 "PDF Save Format"](3109.md): System Application
+- [Enum 3110 "PDF Attach. Data Relationship"](3110.md): System Application
+- [Enum 3111 "Activity Log Type"](3111.md): System Application
+- [Enum 3303 "PA KPI Scenario"](3303.md): PayablesAgent
+- [Enum 3304 "PA Billing Operation"](3304.md): PayablesAgent
+- [Enum 3305 "PA Email Review Policy"](3305.md): PayablesAgent
+- [Enum 3306 "PA Setup Change Impact"](3306.md): PayablesAgent
+- [Enum 3307 "PA Sender Policy"](3307.md): PayablesAgent
+- [Enum 3612 "Sales Document Status"](3612.md): Base Application
+- [Enum 3657 "Sales Header Shipping Advice"](3657.md): Base Application
+- [Enum 3687 "Low-Level Code Run Mode"](3687.md): Base Application
+- [Enum 3710 "Video Category"](3710.md): System Application
+- [Enum 3812 "Purchase Document Status"](3812.md): Base Application
+- [Enum 3900 "Retention Period Enum"](3900.md): System Application
+- [Enum 3901 "Retention Policy Log Category"](3901.md): System Application
+- [Enum 3902 "Retention Policy Log Message Type"](3902.md): System Application
+- [Enum 3903 "Reten. Pol. Filtering"](3903.md): System Application
+- [Enum 3904 "Reten. Pol. Deleting"](3904.md): System Application
+- [Enum 3962 "RegexOptions"](3962.md): System Application
+- [Enum 3971 "Image Format"](3971.md): System Application
+- [Enum 3972 "Rotate Flip Type"](3972.md): System Application
+- [Enum 4009 "Migration Table Type"](4009.md): HybridBaseDeployment
+- [Enum 4010 "Custom Migration Provider"](4010.md): HybridBaseDeployment
+- [Enum 4350 "Agent Import Action"](4350.md): AgentDesignExperience
+- [Enum 4351 "Agent Import Diag Severity"](4351.md): AgentDesignExperience
+- [Enum 4352 "Agent Template Type"](4352.md): AgentDesignExperience
+- [Enum 4353 "Custom Agent Sample"](4353.md): AgentDesignExperience
+- [Enum 4511 "SMTP Authentication"](4511.md): Email - SMTP Connector
+- [Enum 4512 "SMTP Connector Sender Type"](4512.md): Email - SMTP Connector
+- [Enum 4560 "Ext. Blob Storage Auth. Type"](4560.md): External File Storage - Azure Blob Service Connector
+- [Enum 4570 "Ext. File Share Auth. Type"](4570.md): External File Storage - Azure File Service Connector
+- [Enum 4585 "Ext. SharePoint Auth Type"](4585.md): External File Storage - SharePoint Connector
+- [Enum 4586 "SOA Billing Operation"](4586.md): SalesOrderAgent
+- [Enum 4592 "SOA Availability Level"](4592.md): SalesOrderAgent
+- [Enum 4593 "SOA Input Message Review"](4593.md): SalesOrderAgent
+- [Enum 4594 "SOA Email Attachment Status"](4594.md): SalesOrderAgent
+- [Enum 4611 "SMTP Authentication Types"](4611.md): Email - SMTP API
+- [Enum 4621 "Ext. SFTP Auth Type"](4621.md): External File Storage - SFTP Connector
+- [Enum 4690 "Recurrence - Day of Week"](4690.md): System Application
+- [Enum 4691 "Recurrence - Month"](4691.md): System Application
+- [Enum 4692 "Recurrence - Pattern"](4692.md): System Application
+- [Enum 4693 "Recurrence - Ordinal No."](4693.md): System Application
+- [Enum 4694 "Recurrence - Monthly Pattern"](4694.md): System Application
+- [Enum 4700 "VAT Group Authentication Type OnPrem"](4700.md): VATGroupManagement, obsolete 25.0
+- [Enum 4701 "VAT Group Role"](4701.md): VATGroupManagement
+- [Enum 4703 "VAT Group BC Version"](4703.md): VATGroupManagement
+- [Enum 4704 "VAT Group Auth Type OnPrem"](4704.md): VATGroupManagement
+- [Enum 4705 "VAT Group Auth Type Saas"](4705.md): VATGroupManagement
+- [Enum 4750 "App Recommended By"](4750.md): RecommendedApps
+- [Enum 4810 "Intrastat Report Source Type"](4810.md): Intrastat
+- [Enum 4811 "Intrastat Report Line Type"](4811.md): Intrastat
+- [Enum 4812 "Intrastat Report Status"](4812.md): Intrastat
+- [Enum 4813 "Intrastat Report Type"](4813.md): Intrastat
+- [Enum 4814 "Intrastat Report Periodicity"](4814.md): Intrastat
+- [Enum 4815 "Intrastat Report Stat. System"](4815.md): Intrastat
+- [Enum 4816 "Intrastat Report Contact Type"](4816.md): Intrastat
+- [Enum 4817 "Intrastat Report Shpt. Base"](4817.md): Intrastat
+- [Enum 4818 "Intrastat Report VAT No. Base"](4818.md): Intrastat
+- [Enum 4819 "Intrastat Report VAT File Fmt"](4819.md): Intrastat
+- [Enum 4820 "Intrastat Report Line Type Sel"](4820.md): Intrastat
+- [Enum 4821 "Intrastat Report Suppl. Weight"](4821.md): Intrastat
+- [Enum 4822 "Default Ctry. Code-Item Track."](4822.md): Intrastat
+- [Enum 4823 "Intr. Rep. Purch. VAT No. Base"](4823.md): Intrastat
+- [Enum 4824 "Intr. Report Sales Info Base"](4824.md): Intrastat
+- [Enum 4825 "Intr. Report Purch. Info Base"](4825.md): Intrastat
+- [Enum 4826 "Intr. Rep. Proj. VAT No. Base"](4826.md): Intrastat
+- [Enum 4853 "AAC Page Setup Key"](4853.md): AutomaticAccountCodes, obsolete 22.0
+- [Enum 4881 "EU3 Party Trade Filter"](4881.md): EU3PartyTradePurchase
+- [Enum 5000 "Financial Report View Layout"](5000.md): Base Application
+- [Enum 5001 "Analysis Negative Format"](5001.md): Base Application
+- [Enum 5013 "Serv. Decl. Status"](5013.md): ServiceDeclaration
+- [Enum 5023 "Serv. Decl. VAT Reg. No. Type"](5023.md): ServiceDeclaration
+- [Enum 5050 "Contact Type"](5050.md): Base Application
+- [Enum 5056 "Contact Business Relation"](5056.md): Base Application
+- [Enum 5057 "Contact Business Relation Link To Table"](5057.md): Base Application
+- [Enum 5059 "Office Contact Type"](5059.md): Base Application
+- [Enum 5061 "Rlshp. Mgt. Comment Line Table Name"](5061.md): Base Application
+- [Enum 5062 "Attachment Storage Type"](5062.md): Base Application
+- [Enum 5069 "Salutation Formula Name"](5069.md): Base Application
+- [Enum 5070 "Salutation Formula Salutation Type"](5070.md): Base Application
+- [Enum 5076 "Correspondence Type"](5076.md): Base Application
+- [Enum 5077 "Segment Line Wizard Step"](5077.md): Base Application
+- [Enum 5078 "Interaction Evaluation"](5078.md): Base Application
+- [Enum 5079 "Setup Attachment Storage Type"](5079.md): Base Application
+- [Enum 5080 "Task Type"](5080.md): Base Application
+- [Enum 5081 "Task Status"](5081.md): Base Application
+- [Enum 5082 "Interaction Template Wizard Action"](5082.md): Base Application
+- [Enum 5083 "Interaction Delivery Status"](5083.md): Base Application
+- [Enum 5084 "Profile Quest. Cont. Class. Field"](5084.md): Base Application
+- [Enum 5085 "Profile Quest. Cust. Class. Field"](5085.md): Base Application
+- [Enum 5086 "Profile Quest. Vend. Class. Field"](5086.md): Base Application
+- [Enum 5087 "Profile Questionnaire Contact Type"](5087.md): Base Application
+- [Enum 5088 "Profile Questionnaire Priority"](5088.md): Base Application
+- [Enum 5089 "Profile Answer Priority"](5089.md): Base Application
+- [Enum 5090 "Profile Questionnaire Line Type"](5090.md): Base Application
+- [Enum 5091 "Opportunity Action Taken"](5091.md): Base Application
+- [Enum 5092 "Opportunity Status"](5092.md): Base Application
+- [Enum 5093 "Opportunity Priority"](5093.md): Base Application
+- [Enum 5094 "Opportunity Table Type"](5094.md): Base Application
+- [Enum 5095 "Opportunity Output"](5095.md): Base Application
+- [Enum 5096 "Opportunity Document Type"](5096.md): Base Application
+- [Enum 5097 "Segment Criteria Line Action"](5097.md): Base Application
+- [Enum 5098 "Duplicate Search String Part"](5098.md): Base Application
+- [Enum 5099 "Interaction Log Entry Document Type"](5099.md): Base Application
+- [Enum 5123 "Contoso Demo Data Level"](5123.md): ContosoCoffeeDemoDataset
+- [Enum 5160 "Contoso Demo Data Module"](5160.md): ContosoCoffeeDemoDataset
+- [Enum 5200 "Employee Status"](5200.md): Base Application
+- [Enum 5208 "Human Resources Comment Table Name"](5208.md): Base Application
+- [Enum 5224 "Employee Gender"](5224.md): Base Application
+- [Enum 5260 "Standard Account Type"](5260.md): AuditFileExport
+- [Enum 5261 "G/L Acc. Mapping Period Type"](5261.md): AuditFileExport
+- [Enum 5262 "Audit File Export Format"](5262.md): AuditFileExport
+- [Enum 5263 "Audit Data Check Status"](5263.md): AuditFileExport
+- [Enum 5264 "Audit File Export Data Type"](5264.md): AuditFileExport
+- [Enum 5265 "Audit File Export Data Class"](5265.md): AuditFileExport
+- [Enum 5280 "SAF-T Modification"](5280.md): SAF-T
+- [Enum 5334 "CDS Payment Terms Code"](5334.md): Base Application
+- [Enum 5335 "CDS Shipment Method Code"](5335.md): Base Application
+- [Enum 5336 "CDS Shipping Agent Code"](5336.md): Base Application
+- [Enum 5337 "Integration Deletion Conflict Resolution"](5337.md): Base Application
+- [Enum 5338 "Integration Update Conflict Resolution"](5338.md): Base Application
+- [Enum 5339 "Integration Table Mapping Type"](5339.md): Base Application
+- [Enum 5397 "CDS Transformation Direction"](5397.md): Base Application
+- [Enum 5400 "Transfer Direction"](5400.md): Base Application
+- [Enum 5402 "Unit Group Source Type"](5402.md): Base Application
+- [Enum 5405 "Production Order Status"](5405.md): Base Application
+- [Enum 5407 "Prod. Order Source Type"](5407.md): Base Application
+- [Enum 5409 "Unit Cost Calculation Type"](5409.md): Base Application
+- [Enum 5417 "Flushing Method"](5417.md): Base Application
+- [Enum 5419 "Replenishment System"](5419.md): Base Application
+- [Enum 5420 "Item Replenishment System"](5420.md): Base Application
+- [Enum 5421 "SKU Replenishment System"](5421.md): Base Application
+- [Enum 5428 "Flushing Method Routing"](5428.md): Base Application
+- [Enum 5429 "Flushing Method Filter"](5429.md): Base Application
+- [Enum 5440 "Reordering Policy"](5440.md): Base Application
+- [Enum 5442 "Manufacturing Policy"](5442.md): Base Application
+- [Enum 5444 "Quantity Calculation Formula"](5444.md): Base Application
+- [Enum 5468 "Picture Entity Parent Type"](5468.md): Base Application
+- [Enum 5477 "Invoice Entity Aggregate Status"](5477.md): Base Application
+- [Enum 5478 "Invoice Line Agg. Line Type"](5478.md): Base Application
+- [Enum 5495 "Sales Order Entity Buffer Status"](5495.md): Base Application
+- [Enum 5496 "Purchase Order Entity Buffer Status"](5496.md): Base Application
+- [Enum 5504 "Tax Buffer Type"](5504.md): Base Application
+- [Enum 5505 "Sales Quote Entity Buffer Status"](5505.md): Base Application
+- [Enum 5507 "Sales Cr. Memo Entity Buffer Status"](5507.md): Base Application
+- [Enum 5508 "Purch. Cr. Memo Entity Status"](5508.md): Base Application
+- [Enum 5510 "Employee Time Reg. Status"](5510.md): Base Application
+- [Enum 5511 "Employee Working Type"](5511.md): Base Application
+- [Enum 5512 "Employee Engagement Type"](5512.md): Base Application
+- [Enum 5520 "Unplanned Demand Type"](5520.md): Base Application
+- [Enum 5523 "Demand Order Source Type"](5523.md): Base Application
+- [Enum 5524 "Planning Create Source Type"](5524.md): Base Application
+- [Enum 5525 "Planning Create Purchase Order"](5525.md): Base Application
+- [Enum 5526 "Planning Create Prod. Order"](5526.md): Base Application
+- [Enum 5527 "Planning Create Transfer Order"](5527.md): Base Application
+- [Enum 5528 "Planning Create Assembly Order"](5528.md): Base Application
+- [Enum 5530 "Inventory Event Buffer Type"](5530.md): Base Application
+- [Enum 5531 "Inventory Page Data Type"](5531.md): Base Application
+- [Enum 5557 "Licenses"](5557.md): Base Application
+- [Enum 5579 "Digital Voucher Entry Type"](5579.md): EnforcedDigitalVouchers
+- [Enum 5580 "Digital Voucher Check Type"](5580.md): EnforcedDigitalVouchers
+- [Enum 5601 "FA Ledger Entry FA Posting Type"](5601.md): Base Application
+- [Enum 5602 "FA Journal Line FA Posting Type"](5602.md): Base Application
+- [Enum 5603 "Gen. Journal Line FA Posting Type"](5603.md): Base Application
+- [Enum 5604 "Reversal Entry FA Posting Type"](5604.md): Base Application
+- [Enum 5605 "FA Journal Line Document Type"](5605.md): Base Application
+- [Enum 5606 "FA Posting Group Account Type"](5606.md): Base Application
+- [Enum 5607 "Purchase FA Posting Type"](5607.md): Base Application
+- [Enum 5610 "FA Depreciation Method"](5610.md): Base Application
+- [Enum 5611 "FA Depr. Method Internal"](5611.md): Base Application
+- [Enum 5614 "FA Posting Type Setup Type"](5614.md): Base Application
+- [Enum 5615 "FA Allocation Type"](5615.md): Base Application
+- [Enum 5617 "FA Register Called From"](5617.md): Base Application
+- [Enum 5619 "FA Component Type"](5619.md): Base Application
+- [Enum 5621 "FA Journal Type"](5621.md): Base Application
+- [Enum 5631 "FA Ledger Posting Category"](5631.md): Base Application
+- [Enum 5700 "Pick Bin Policy"](5700.md): Base Application
+- [Enum 5701 "Put-away Bin Policy"](5701.md): Base Application
+- [Enum 5702 "SKU Creation Method"](5702.md): Base Application
+- [Enum 5719 "Nonstock Item No. Format"](5719.md): Base Application
+- [Enum 5726 "Item Reference Type"](5726.md): Base Application
+- [Enum 5740 "Transfer Order Post"](5740.md): Base Application
+- [Enum 5747 "Transfer Routes Show"](5747.md): Base Application
+- [Enum 5748 "Inventory Comment Document Type"](5748.md): Base Application
+- [Enum 5754 "Report Selection Usage Inventory"](5754.md): Base Application
+- [Enum 5767 "Warehouse Activity Type"](5767.md): Base Application
+- [Enum 5768 "Warehouse Activity Source Document"](5768.md): Base Application
+- [Enum 5769 "Warehouse Activity Document Type"](5769.md): Base Application
+- [Enum 5770 "Warehouse Request Source Document"](5770.md): Base Application
+- [Enum 5771 "Warehouse Request Type"](5771.md): Base Application
+- [Enum 5772 "Warehouse Worksheet Document Type"](5772.md): Base Application
+- [Enum 5773 "Warehouse Journal Document Type"](5773.md): Base Application
+- [Enum 5774 "Warehouse Action Type"](5774.md): Base Application
+- [Enum 5775 "Non-Invt. Item Whse. Policy"](5775.md): Base Application
+- [Enum 5779 "Whse. Reference Document Type"](5779.md): Base Application
+- [Enum 5800 "Cost Adjustment Run Status"](5800.md): Base Application
+- [Enum 5801 "Cost Adjustment Logging Level"](5801.md): Base Application
+- [Enum 5802 "Item Cost Source/Recipient"](5802.md): Base Application
+- [Enum 5804 "Average Cost Calculation Type"](5804.md): Base Application
+- [Enum 5805 "Purchase Applies-to Document Type"](5805.md): Base Application
+- [Enum 5806 "Average Cost Period Type"](5806.md): Base Application
+- [Enum 5809 "Sales Applies-to Document Type"](5809.md): Base Application
+- [Enum 5817 "Matched Order Line Source"](5817.md): Base Application
+- [Enum 5820 "Receipt on Invoice Policy"](5820.md): Base Application
+- [Enum 5821 "Item Statistics Line Option"](5821.md): Base Application
+- [Enum 5822 "Item Statistics Column Option"](5822.md): Base Application
+- [Enum 5841 "Standard Cost Source Type"](5841.md): Base Application
+- [Enum 5842 "Cost Adjmt. Action Msg. Type"](5842.md): Base Application
+- [Enum 5848 "Average Cost Entry Point Impl."](5848.md): Base Application
+- [Enum 5850 "Invt. Doc. Document Type"](5850.md): Base Application
+- [Enum 5851 "Invt. Doc. Document Type From"](5851.md): Base Application
+- [Enum 5870 "BOM Type"](5870.md): Base Application
+- [Enum 5871 "Capacity Type"](5871.md): Base Application
+- [Enum 5872 "Capacity Type Routing"](5872.md): Base Application
+- [Enum 5873 "Capacity Type Journal"](5873.md): Base Application
+- [Enum 5874 "BOM Structure Show By"](5874.md): Base Application
+- [Enum 5875 "Phys. Invt. Order Status"](5875.md): Base Application
+- [Enum 5877 "BOM Tree Type"](5877.md): Base Application
+- [Enum 5895 "Inventory Adjustment Impl."](5895.md): Base Application
+- [Enum 5898 "Inventory Value Calc. Per"](5898.md): Base Application
+- [Enum 5899 "Inventory Value Calc. Base"](5899.md): Base Application
+- [Enum 5900 "Service Document Type"](5900.md): Base Application
+- [Enum 5902 "Service Line Type"](5902.md): Base Application
+- [Enum 5903 "Service Priority"](5903.md): Base Application
+- [Enum 5907 "Service Ledger Entry Type"](5907.md): Base Application
+- [Enum 5908 "Service Ledger Entry Entry Type"](5908.md): Base Application
+- [Enum 5909 "Service Ledger Entry Document Type"](5909.md): Base Application
+- [Enum 5910 "Service Hour Contract Type"](5910.md): Base Application
+- [Enum 5912 "Service Document Status"](5912.md): Base Application
+- [Enum 5914 "Service Log Document Type"](5914.md): Base Application
+- [Enum 5915 "Service Loaner Document Type"](5915.md): Base Application
+- [Enum 5916 "Service Doc. Release Status"](5916.md): Base Application
+- [Enum 5918 "Service Comment Table Name"](5918.md): Base Application
+- [Enum 5919 "Service Comment Line Type"](5919.md): Base Application
+- [Enum 5929 "Service Comment Table Subtype"](5929.md): Base Application
+- [Enum 5930 "Archive Service Quotes"](5930.md): Base Application
+- [Enum 5932 "Report Selection Usage Service"](5932.md): Base Application
+- [Enum 5937 "Service Destination Document Type"](5937.md): Base Application
+- [Enum 5938 "Service Source Document Type"](5938.md): Base Application
+- [Enum 5940 "Service Item Status"](5940.md): Base Application
+- [Enum 5941 "Service Item Shipment Type"](5941.md): Base Application
+- [Enum 5942 "Service Item Component Type"](5942.md): Base Application
+- [Enum 5943 "Replaced Service Item Component Type"](5943.md): Base Application
+- [Enum 5944 "Service Item Log Document Type"](5944.md): Base Application
+- [Enum 5945 "Report Selection Usage Job"](5945.md): Base Application
+- [Enum 5946 "Troubleshooting Item Type"](5946.md): Base Application
+- [Enum 5947 "Service Item Blocked"](5947.md): Base Application
+- [Enum 5956 "Resource Skill Type"](5956.md): Base Application
+- [Enum 5957 "Resource Skill Source Type"](5957.md): Base Application
+- [Enum 5958 "Resource Skill Assigned From"](5958.md): Base Application
+- [Enum 5965 "Service Contract Type"](5965.md): Base Application
+- [Enum 5966 "Service Contract Type From"](5966.md): Base Application
+- [Enum 5967 "Service Contract Status"](5967.md): Base Application
+- [Enum 5968 "Service Contract Change Status"](5968.md): Base Application
+- [Enum 5969 "Service Contract Quote Type"](5969.md): Base Application
+- [Enum 5970 "Service Contract Change Type"](5970.md): Base Application
+- [Enum 5973 "Service Contract Discount Type"](5973.md): Base Application
+- [Enum 5997 "Service Contract Header Invoice Period"](5997.md): Base Application
+- [Enum 5998 "Service Line Discount Type"](5998.md): Base Application
+- [Enum 6057 "Contract Line Selection"](6057.md): Base Application
+- [Enum 6100 "Import E-Doc. Proc. Status"](6100.md): EDocument
+- [Enum 6101 "E-Document Format"](6101.md): EDocument
+- [Enum 6102 "E-Document Direction"](6102.md): EDocument
+- [Enum 6103 "Structure Received E-Doc."](6103.md): EDocument
+- [Enum 6104 "E-Document Structured Format"](6104.md): EDocument, obsolete 26.0
+- [Enum 6105 "E-Doc. Create Purchase Invoice"](6105.md): EDocument
+- [Enum 6106 "E-Document Service Status"](6106.md): EDocument
+- [Enum 6107 "E-Doc. Process Draft"](6107.md): EDocument
+- [Enum 6108 "E-Document Status"](6108.md): EDocument
+- [Enum 6109 "E-Doc. Read into Draft"](6109.md): EDocument
+- [Enum 6110 "E-Doc. Proc. Customizations"](6110.md): EDocument
+- [Enum 6111 "E-Doc PO Match Warning"](6111.md): EDocument
+- [Enum 6112 "E-Doc. PO M. Config. Receipt"](6112.md): EDocument
+- [Enum 6113 "E-Doc. PO M. Configuration"](6113.md): EDocument
+- [Enum 6114 "Import E-Document Steps"](6114.md): EDocument
+- [Enum 6115 "E-Doc. Payment Occurrence Type"](6115.md): EDocument
+- [Enum 6121 "E-Document Type"](6121.md): EDocument
+- [Enum 6123 "E-Document Source Type"](6123.md): EDocument
+- [Enum 6126 "E-Document Notification Type"](6126.md): EDocument
+- [Enum 6127 "Export Eligibility Evaluator"](6127.md): EDocument
+- [Enum 6128 "E-Document Processing Phase"](6128.md): EDocument
+- [Enum 6132 "E-Doc. Automatic Processing"](6132.md): EDocument
+- [Enum 6133 "E-Document Batch Mode"](6133.md): EDocument
+- [Enum 6134 "E-Doc. File Format"](6134.md): EDocument
+- [Enum 6151 "Service Integration"](6151.md): EDocument
+- [Enum 6156 "E-Document Import Process"](6156.md): EDocument
+- [Enum 6162 "E-Doc. Purch.Def. Posting Date"](6162.md): EDocument
+- [Enum 6166 "E-Doc. Supp. Type Direction"](6166.md): EDocument
+- [Enum 6170 "Integration Action Type"](6170.md): EDocument
+- [Enum 6177 "EDoc Line Matching Scope"](6177.md): EDocument, obsolete 27.0
+- [Enum 6185 "EDoc Vendor Matching Scope"](6185.md): EDocument, obsolete 27.0
+- [Enum 6200 "Allow Non-Deductible VAT Type"](6200.md): Base Application
+- [Enum 6201 "Trans. Storage Export Status"](6201.md): TransactionStorage
+- [Enum 6210 "Calculation Foundation"](6210.md): Sustainability
+- [Enum 6211 "Sustainability Account Type"](6211.md): Sustainability
+- [Enum 6212 "Emission Scope"](6212.md): Sustainability
+- [Enum 6213 "Sustainability Jnl. Doc. Type"](6213.md): Sustainability
+- [Enum 6214 "Sustain. Jnl. Recur. Method"](6214.md): Sustainability
+- [Enum 6215 "Sust. Certificate Type"](6215.md): Sustainability
+- [Enum 6216 "Emission Type"](6216.md): Sustainability
+- [Enum 6217 "Water/Waste Intensity Type"](6217.md): Sustainability
+- [Enum 6218 "Water Type"](6218.md): Sustainability
+- [Enum 6219 "Sust. Value Type"](6219.md): Sustainability
+- [Enum 6220 "Sust. Carbon Tracking Method"](6220.md): Sustainability
+- [Enum 6221 "Sust. ESG Reporting Field Type"](6221.md): Sustainability
+- [Enum 6222 "Sust. ESG Value Settings"](6222.md): Sustainability
+- [Enum 6223 "Sust. ESG Rounding Factor"](6223.md): Sustainability
+- [Enum 6224 "Sust. Source of Emission"](6224.md): Sustainability
+- [Enum 6225 "Sust. EPR Category"](6225.md): Sustainability
+- [Enum 6226 "Sust. Excise Jnl. Tax Type"](6226.md): Sustainability
+- [Enum 6227 "Sust. Item Mat. Comp. Status"](6227.md): Sustainability
+- [Enum 6228 "Sust. Excise Jnl. Entry Type"](6228.md): Sustainability
+- [Enum 6229 "Sust. Excise Document Type"](6229.md): Sustainability
+- [Enum 6230 "Sust. Excise Jnl. Source Type"](6230.md): Sustainability
+- [Enum 6231 "Sust. Excise Jnl. Partner Type"](6231.md): Sustainability
+- [Enum 6232 "Sustainability Document Type"](6232.md): Sustainability
+- [Enum 6233 "Sust. Emission Basis"](6233.md): Sustainability
+- [Enum 6234 "EUDR Commodity"](6234.md): Sustainability
+- [Enum 6236 "Sales Document Type From"](6236.md): Base Application
+- [Enum 6238 "Purchase Document Type From"](6238.md): Base Application
+- [Enum 6239 "Product Classification Type"](6239.md): Sustainability
+- [Enum 6292 "Source CO2 Emission Confidence"](6292.md): SustainabilityCopilotSuggestion
+- [Enum 6305 "Power BI Upload Status"](6305.md): Base Application
+- [Enum 6313 "Power BI Element Type"](6313.md): Base Application
+- [Enum 6315 "Power BI Filter Operator"](6315.md): Base Application
+- [Enum 6316 "Power BI Deployable Report"](6316.md): Base Application
+- [Enum 6317 "Power BI Deployment Status"](6317.md): Base Application
+- [Enum 6318 "Power BI Deployment Outcome"](6318.md): Base Application
+- [Enum 6401 "FS Work Order Line Post Rule"](6401.md): Base Application
+- [Enum 6402 "FS Work Order Line Synch. Rule"](6402.md): Base Application
+- [Enum 6427 "E-Doc. Response Type"](6427.md): EDocument
+- [Enum 6429 "E-Doc. Message Status"](6429.md): EDocument
+- [Enum 6436 "E-Document Message Type"](6436.md): EDocument
+- [Enum 6510 "Item Tracking Run Mode"](6510.md): Base Application
+- [Enum 6511 "Item Tracking Lines Controls"](6511.md): Base Application
+- [Enum 6533 "Item Charge E-Invoice Mapping"](6533.md): EDocument
+- [Enum 6534 "Item Charge E-Doc. Structure"](6534.md): EDocument
+- [Enum 6535 "Item Charge Mapping Override"](6535.md): EDocument
+- [Enum 6539 "E-Doc. Payment Occ. Status"](6539.md): EDocument
+- [Enum 6560 "Document Line Source Type"](6560.md): Base Application
+- [Enum 6565 "Item Tracking Type"](6565.md): Base Application
+- [Enum 6566 "Item Tracking Entry Type"](6566.md): Base Application
+- [Enum 6567 "Item Tracking Comment Type"](6567.md): Base Application
+- [Enum 6610 "FS Work Order Line Post Rule"](6610.md): FieldServiceIntegration
+- [Enum 6611 "FS Work Order Line Synch. Rule"](6611.md): FieldServiceIntegration
+- [Enum 6612 "FS Integration Type"](6612.md): FieldServiceIntegration
+- [Enum 6670 "Returns Related Document Type"](6670.md): Base Application
+- [Enum 6750 "Reminder Action"](6750.md): Base Application
+- [Enum 6751 "Reminder Log Status"](6751.md): Base Application
+- [Enum 6752 "Reminder Automation Error Type"](6752.md): Base Application
+- [Enum 6753 "Reminder Action Schedule"](6753.md): Base Application
+- [Enum 6784 "Withholding Party Type"](6784.md): WithholdingTax
+- [Enum 6785 "Withholding Calculation Base"](6785.md): WithholdingTax
+- [Enum 6786 "Withholding Calculation Method"](6786.md): WithholdingTax
+- [Enum 6787 "Withholding Threshold Base"](6787.md): WithholdingTax
+- [Enum 6788 "WHT Threshold Period Type"](6788.md): WithholdingTax
+- [Enum 6840 "Spend Request Document Type"](6840.md): Base Application
+- [Enum 6841 "Spend Request Status"](6841.md): Base Application
+- [Enum 6843 "Spend Request Required"](6843.md): Base Application
+- [Enum 6900 "Expense Communication Channel"](6900.md): ExpenseAgent
+- [Enum 6901 "Credit Card Feed Status"](6901.md): ExpenseAgent
+- [Enum 6902 "Credit Card Issuer"](6902.md): ExpenseAgent
+- [Enum 6903 "Expense Email Access Option"](6903.md): ExpenseAgent
+- [Enum 6904 "Expense Exchange Rate"](6904.md): ExpenseAgent
+- [Enum 6905 "Expense Detail Needed"](6905.md): ExpenseAgent
+- [Enum 6906 "Expense Report Frequency"](6906.md): ExpenseAgent
+- [Enum 6907 "Expense Status"](6907.md): ExpenseAgent
+- [Enum 6908 "Expense Justification"](6908.md): ExpenseAgent
+- [Enum 6909 "Expense OCR Status"](6909.md): ExpenseAgent
+- [Enum 6910 "Expense Report Status"](6910.md): ExpenseAgent
+- [Enum 6911 "Expense Rule Condition Type"](6911.md): ExpenseAgent
+- [Enum 6912 "Expense Reimbursement Type"](6912.md): ExpenseAgent
+- [Enum 6913 "Exp. Full Per Diem Calculation"](6913.md): ExpenseAgent
+- [Enum 6914 "Expense Attachment Enforcement"](6914.md): ExpenseAgent
+- [Enum 6915 "Expense Partial Day Rules"](6915.md): ExpenseAgent
+- [Enum 6916 "Expense Reports Grouping"](6916.md): ExpenseAgent
+- [Enum 6917 "Day of Week"](6917.md): ExpenseAgent
+- [Enum 6918 "Expense Approval Action"](6918.md): ExpenseAgent
+- [Enum 6919 "Expense Vendor Status"](6919.md): ExpenseAgent
+- [Enum 6920 "Exp. Report Comment Doc. Type"](6920.md): ExpenseAgent
+- [Enum 6921 "Expense VAT Spec Source"](6921.md): ExpenseAgent
+- [Enum 6922 "Expense Activity Event Type"](6922.md): ExpenseAgent
+- [Enum 6923 "Expense Activity Initiator"](6923.md): ExpenseAgent
+- [Enum 6924 "Expense Activity Actor Role"](6924.md): ExpenseAgent
+- [Enum 6968 "Expense Agent Cons. Source"](6968.md): ExpenseAgent
+- [Enum 6978 "Expense Line Type"](6978.md): ExpenseAgent
+- [Enum 6982 "Expense Age Handling"](6982.md): ExpenseAgent
+- [Enum 6983 "Expense Project Visibility"](6983.md): ExpenseAgent
+- [Enum 6984 "Expense Capability"](6984.md): ExpenseAgent
+- [Enum 6985 "EA Notification Type"](6985.md): ExpenseAgent
+- [Enum 6986 "Expense Participant Type"](6986.md): ExpenseAgent
+- [Enum 6987 "Expense Report Rounding Type"](6987.md): ExpenseAgent, obsolete 29.0
+- [Enum 6988 "Expense Reclaim Status"](6988.md): ExpenseAgent
+- [Enum 6989 "Expense Policy Status"](6989.md): ExpenseAgent
+- [Enum 6990 "Expense Policy Subject"](6990.md): ExpenseAgent
+- [Enum 7000 "Price Calculation Method"](7000.md): Base Application
+- [Enum 7001 "Price Amount Type"](7001.md): Base Application
+- [Enum 7002 "Price Source Group"](7002.md): Base Application
+- [Enum 7003 "Price Source Type"](7003.md): Base Application
+- [Enum 7004 "Price Asset Type"](7004.md): Base Application
+- [Enum 7005 "Price Status"](7005.md): Base Application
+- [Enum 7006 "Sales Price Source Type"](7006.md): Base Application
+- [Enum 7007 "Purchase Price Source Type"](7007.md): Base Application
+- [Enum 7008 "Job Price Source Type"](7008.md): Base Application
+- [Enum 7009 "Price Type"](7009.md): Base Application
+- [Enum 7011 "Price Calculation Handler"](7011.md): Base Application
+- [Enum 7012 "Pricing Implementation"](7012.md): Base Application
+- [Enum 7021 "Sales Line Discount Type"](7021.md): Base Application
+- [Enum 7023 "Sales Price Type"](7023.md): Base Application
+- [Enum 7055 "Withholding Selection Mode"](7055.md): ExpenseWithholdingTax
+- [Enum 7108 "Exp. Spend Req. Line Type"](7108.md): ExpenseAgent
+- [Enum 7113 "Analysis Value Type"](7113.md): Base Application
+- [Enum 7114 "Analysis Line Type"](7114.md): Base Application
+- [Enum 7118 "Analysis Column Type"](7118.md): Base Application
+- [Enum 7120 "ContactSyncDirection"](7120.md): Base Application
+- [Enum 7130 "Analysis Area Type"](7130.md): Base Application
+- [Enum 7131 "Analysis Source Type"](7131.md): Base Application
+- [Enum 7133 "Analysis Account Source"](7133.md): Base Application
+- [Enum 7158 "Sales Analysis Matrix Dimensions"](7158.md): Base Application
+- [Enum 7207 "Dataverse Cloud"](7207.md): Base Application
+- [Enum 7239 "MDM Data Source Type"](7239.md): MasterDataManagement
+- [Enum 7275 "File Handler Type"](7275.md): SalesLinesSuggestions
+- [Enum 7276 "Search Confidence"](7276.md): SalesLinesSuggestions
+- [Enum 7277 "Search Style"](7277.md): SalesLinesSuggestions
+- [Enum 7278 "Column Action"](7278.md): SalesLinesSuggestions
+- [Enum 7279 "Document Lookup Types"](7279.md): SalesLinesSuggestions
+- [Enum 7280 "Column Type"](7280.md): SalesLinesSuggestions
+- [Enum 7300 "Whse. Activity Sorting Method"](7300.md): Base Application
+- [Enum 7301 "Warehouse Receipt Sorting Method"](7301.md): Base Application
+- [Enum 7302 "Warehouse Internal Sorting Method"](7302.md): Base Application
+- [Enum 7303 "Warehouse Shipment Sorting Method"](7303.md): Base Application
+- [Enum 7309 "Warehouse Journal Template Type"](7309.md): Base Application
+- [Enum 7310 "Warehouse Destination Type"](7310.md): Base Application
+- [Enum 7311 "Warehouse Journal Source Document"](7311.md): Base Application
+- [Enum 7312 "Warehouse Worksheet Template Type"](7312.md): Base Application
+- [Enum 7313 "Warehouse Destination Type 2"](7313.md): Base Application
+- [Enum 7320 "Warehouse Shipment Status"](7320.md): Base Application
+- [Enum 7323 "Warehouse Shipment Posted Source Document"](7323.md): Base Application
+- [Enum 7324 "Warehouse Put-away Request Document Type"](7324.md): Base Application
+- [Enum 7325 "Warehouse Pick Request Document Type"](7325.md): Base Application
+- [Enum 7331 "Search Confidence"](7331.md): CreateProductInformationWithCopilot
+- [Enum 7332 "Search Style"](7332.md): CreateProductInformationWithCopilot
+- [Enum 7345 "Warehouse Pick Document Type"](7345.md): Base Application
+- [Enum 7350 "Missing SKU Planning Policy"](7350.md): Base Application
+- [Enum 7351 "SKU Creation Policy"](7351.md): Base Application
+- [Enum 7352 "Warehouse Putaway Document Type"](7352.md): Base Application
+- [Enum 7355 "Report Selection Warehouse Usage"](7355.md): Base Application
+- [Enum 7412 "Excise Entry Type"](7412.md): ExciseTaxes
+- [Enum 7413 "Excise Source Type"](7413.md): ExciseTaxes
+- [Enum 7414 "Excise Tax Basis"](7414.md): ExciseTaxes
+- [Enum 7415 "Excise Calculation Type"](7415.md): ExciseTaxes
+- [Enum 7416 "Excise Bonded Handling"](7416.md): ExciseTaxes
+- [Enum 7417 "Excise Bonded Loc. Treatment"](7417.md): ExciseTaxes
+- [Enum 7568 "Geolocation Status"](7568.md): System Application
+- [Enum 7580 "Onboarding Signal Type"](7580.md): Base Application
+- [Enum 7602 "Calendar Source Type"](7602.md): Base Application
+- [Enum 7771 "AOAI Resource Utilization"](7771.md): System Application
+- [Enum 7772 "AOAI Chat Roles"](7772.md): System Application
+- [Enum 7773 "AOAI Model Type"](7773.md): System Application
+- [Enum 7774 "Copilot Availability"](7774.md): System Application
+- [Enum 7775 "Copilot Status"](7775.md): System Application
+- [Enum 7776 "AOAI Tool Invoke Preference"](7776.md): System Application
+- [Enum 7777 "AOAI Function Response Status"](7777.md): System Application
+- [Enum 7778 "Azure AI Service Type"](7778.md): System Application
+- [Enum 7779 "ADI Model Type"](7779.md): System Application
+- [Enum 7785 "Copilot Quota Usage Type"](7785.md): System Application
+- [Enum 7786 "Copilot Billing Type"](7786.md): System Application
+- [Enum 7787 "AOAI Policy"](7787.md): System Application
+- [Enum 7788 "AOAI Policy Harms Severity"](7788.md): System Application
+- [Enum 7900 "Error Message Status"](7900.md): ErrorMessagesWithRecommendations
+- [Enum 7901 "Error Msg. Fix Implementation"](7901.md): ErrorMessagesWithRecommendations
+- [Enum 8000 "Serv. Start Date For Inv. Pick"](8000.md): Subscription Billing
+- [Enum 8001 "Contract Invoice Text Type"](8001.md): Subscription Billing
+- [Enum 8002 "Contract Origin Name Type"](8002.md): Subscription Billing
+- [Enum 8003 "Price Update Method"](8003.md): Subscription Billing
+- [Enum 8004 "Type Of Price Update"](8004.md): Subscription Billing
+- [Enum 8005 "Period Calculation"](8005.md): Subscription Billing
+- [Enum 8006 "Processing Step"](8006.md): Subscription Billing
+- [Enum 8007 "Usage Based Pricing"](8007.md): Subscription Billing
+- [Enum 8008 "Usage Based Billing Doc. Type"](8008.md): Subscription Billing
+- [Enum 8009 "Connect To SO Method"](8009.md): Subscription Billing
+- [Enum 8010 "Additional Processing Type"](8010.md): Subscription Billing
+- [Enum 8011 "Billing Cycle"](8011.md): Subscription Billing
+- [Enum 8012 "Processing Status"](8012.md): Subscription Billing
+- [Enum 8013 "Usage Data Reference Type"](8013.md): Subscription Billing
+- [Enum 8014 "Usage Data Subscription Status"](8014.md): Subscription Billing
+- [Enum 8015 "Usage Data Supplier Type"](8015.md): Subscription Billing
+- [Enum 8016 "Vendor Invoice Per"](8016.md): Subscription Billing
+- [Enum 8017 "Process"](8017.md): Subscription Billing
+- [Enum 8018 "Service Object Availability"](8018.md): Subscription Billing
+- [Enum 8019 "Service Object Type"](8019.md): Subscription Billing
+- [Enum 8020 "Create Contract Deferrals"](8020.md): Subscription Billing
+- [Enum 8021 "Invoice Detail Origin"](8021.md): Subscription Billing
+- [Enum 8022 "Sub. Billing Automation"](8022.md): Subscription Billing
+- [Enum 8051 "Invoicing Via"](8051.md): Subscription Billing
+- [Enum 8052 "Calculation Base Type"](8052.md): Subscription Billing
+- [Enum 8053 "Service Partner"](8053.md): Subscription Billing
+- [Enum 8054 "Rec. Billing Document Type"](8054.md): Subscription Billing
+- [Enum 8055 "Contract Line Type"](8055.md): Subscription Billing
+- [Enum 8056 "Item Service Commitment Type"](8056.md): Subscription Billing
+- [Enum 8057 "Customer Rec. Billing Grouping"](8057.md): Subscription Billing
+- [Enum 8058 "Vendor Rec. Billing Grouping"](8058.md): Subscription Billing
+- [Enum 8059 "Contract Billing Grouping"](8059.md): Subscription Billing
+- [Enum 8060 "Contract Detail Overview"](8060.md): Subscription Billing
+- [Enum 8061 "Date Formula Type"](8061.md): Subscription Billing
+- [Enum 8350 "MCP Config Warning Type"](8350.md): System Application
+- [Enum 8351 "MCP Server Feature"](8351.md): System Application
+- [Enum 8363 "Dimension Perspective Type"](8363.md): Base Application
+- [Enum 8390 "Financial Report Format"](8390.md): Base Application
+- [Enum 8391 "Fin. Rep. Aud. Log Date Filter"](8391.md): Base Application
+- [Enum 8511 "Over-Receipt Approval Status"](8511.md): Base Application
+- [Enum 8619 "Config. Template Line Type"](8619.md): Base Application
+- [Enum 8703 "Feature Uptake Status"](8703.md): System Application
+- [Enum 8704 "AL Telemetry Scope"](8704.md): System Application
+- [Enum 8761 "BarcodeFailure"](8761.md): System Application
+- [Enum 8888 "Email Status"](8888.md): System Application
+- [Enum 8890 "Email Scenario"](8890.md): System Application
+- [Enum 8891 "Email Action"](8891.md): System Application
+- [Enum 8901 "Email Recipient Type"](8901.md): System Application
+- [Enum 8908 "Email Relation Type"](8908.md): System Application
+- [Enum 8909 "Email Relation Origin"](8909.md): System Application
+- [Enum 8930 "Email View Policy"](8930.md): System Application
+- [Enum 8945 "Email Address Entity"](8945.md): System Application
+- [Enum 8950 "AFS Operation"](8950.md): System Application
+- [Enum 8951 "AFS Write"](8951.md): System Application
+- [Enum 8952 "AFS File Last Write Time"](8952.md): System Application
+- [Enum 8953 "AFS Property"](8953.md): System Application
+- [Enum 8954 "AFS File Resource Type"](8954.md): System Application
+- [Enum 8955 "AFS File Attribute"](8955.md): System Application
+- [Enum 8956 "AFS File Permission Copy Mode"](8956.md): System Application
+- [Enum 8957 "AFS Lease Action"](8957.md): System Application
+- [Enum 9002 "Permission"](9002.md): Base Application
+- [Enum 9005 "User Plan Experience"](9005.md): System Application
+- [Enum 9010 "Azure AD Update Type"](9010.md): System Application
+- [Enum 9017 "Azure AD Permission Change Action"](9017.md): System Application
+- [Enum 9040 "Date Compression Period Length"](9040.md): Base Application
+- [Enum 9041 "Data Administration Guide Page"](9041.md): Base Application
+- [Enum 9042 "ABS Blob Access Tier"](9042.md): System Application
+- [Enum 9043 "ABS Blob Public Access"](9043.md): System Application
+- [Enum 9044 "ABS Block List Type"](9044.md): System Application
+- [Enum 9045 "ABS Blob Expiry Option"](9045.md): System Application
+- [Enum 9046 "ABS Rehydrate Priority"](9046.md): System Application
+- [Enum 9047 "ABS Blob Type"](9047.md): System Application
+- [Enum 9048 "ABS Operation"](9048.md): System Application
+- [Enum 9049 "ABS Lease Action"](9049.md): System Application
+- [Enum 9050 "ABS Blob Resource Type"](9050.md): System Application
+- [Enum 9060 "Storage Service API Version"](9060.md): System Application
+- [Enum 9062 "SAS Service Type"](9062.md): System Application
+- [Enum 9063 "SAS Resource Type"](9063.md): System Application
+- [Enum 9064 "SAS Permission"](9064.md): System Application
+- [Enum 9120 "Company Data Type (Internal)"](9120.md): Base Application, obsolete 25.2
+- [Enum 9121 "Company Data Type (Production)"](9121.md): Base Application, obsolete 25.2
+- [Enum 9122 "Company Data Type (Sandbox)"](9122.md): Base Application, obsolete 25.2
+- [Enum 9125 "Company Demo Data Type"](9125.md): Base Application
+- [Enum 9190 "Severity"](9190.md): Base Application
+- [Enum 9197 "Creation Type"](9197.md): Base Application
+- [Enum 9198 "Rounding Type"](9198.md): Base Application
+- [Enum 9203 "Barcode Font Provider"](9203.md): System Application
+- [Enum 9204 "Barcode Symbology"](9204.md): System Application
+- [Enum 9205 "Barcode Symbology 2D"](9205.md): System Application
+- [Enum 9206 "Barcode Font Provider 2D"](9206.md): System Application
+- [Enum 9207 "Barcode Image Provider 2D"](9207.md): System Application
+- [Enum 9209 "Item Analysis Dimension Type"](9209.md): Base Application
+- [Enum 9210 "Item Analysis Value Type"](9210.md): Base Application
+- [Enum 9211 "Item Analysis Show Type"](9211.md): Base Application
+- [Enum 9238 "Item Budget Dimension Type"](9238.md): Base Application
+- [Enum 9245 "Demand Forecast Type"](9245.md): Base Application
+- [Enum 9254 "Dim Type Checked"](9254.md): Base Application
+- [Enum 9350 "Graph API Version"](9350.md): System Application
+- [Enum 9351 "Graph ConflictBehavior"](9351.md): System Application
+- [Enum 9352 "Graph OData Query Parameter"](9352.md): System Application
+- [Enum 9353 "Graph Request Header"](9353.md): System Application
+- [Enum 9450 "Ext. File Storage Connector"](9450.md): System Application
+- [Enum 9451 "File Scenario"](9451.md): System Application
+- [Enum 9452 "Ext. File Storage File Type"](9452.md): System Application
+- [Enum 9453 "File Account Entry Type"](9453.md): System Application
+- [Enum 9510 "Email Parameter Type"](9510.md): Base Application
+- [Enum 9515 "Azure AD User Update Entity"](9515.md): System Application
+- [Enum 9560 "Document Sharing Intent"](9560.md): System Application
+- [Enum 9561 "Document Sharing Source"](9561.md): System Application
+- [Enum 9562 "Doc. Sharing Conflict Behavior"](9562.md): System Application
+- [Enum 9656 "Custom Report Layout Type"](9656.md): Base Application
+- [Enum 9657 "Custom Report Selection Sales"](9657.md): Base Application
+- [Enum 9658 "Report Selection Usage Vendor"](9658.md): Base Application
+- [Enum 9701 "Cues And KPIs Style"](9701.md): System Application
+- [Enum 9750 "OData Protocol Version"](9750.md): System Application
+- [Enum 9751 "Client Type"](9751.md): System Application
+- [Enum 9760 "SFTP Exception Type"](9760.md): System Application
+- [Enum 9863 "Permission Set Copy Type"](9863.md): System Application
+- [Enum 9883 "Permission Set Scope"](9883.md): Base Application
+- [Enum 9987 "Word Templates Save Format"](9987.md): System Application
+- [Enum 20100 "AMCBankWebLogStatus"](20100.md): AMCBanking365Fundamentals
+- [Enum 20101 "AMCBankOwnreference"](20101.md): AMCBanking365Fundamentals
+- [Enum 20130 "Database Symbol"](20130.md): INTaxEngine
+- [Enum 20131 "Symbol Data Type"](20131.md): INTaxEngine
+- [Enum 20132 "Symbol Type"](20132.md): INTaxEngine
+- [Enum 20133 "System Symbol"](20133.md): INTaxEngine
+- [Enum 20140 "Conditional Operator"](20140.md): INTaxEngine
+- [Enum 20156 "Action Group Type"](20156.md): INTaxEngine
+- [Enum 20157 "Action Type"](20157.md): INTaxEngine
+- [Enum 20158 "Arithmetic Operator"](20158.md): INTaxEngine
+- [Enum 20159 "Container Action Type"](20159.md): INTaxEngine
+- [Enum 20232 "Transaction Value Type"](20232.md): INTaxEngine
+- [Enum 20233 "Column Type"](20233.md): INTaxEngine
+- [Enum 20246 "Rounding Direction"](20246.md): INTaxEngine
+- [Enum 20258 "Tax Type Status"](20258.md): INTaxEngine
+- [Enum 20283 "Switch Case Action Type"](20283.md): INTaxEngine
+- [Enum 20286 "Use Case Status"](20286.md): INTaxEngine
+- [Enum 20334 "Posting Field Symbol"](20334.md): INTaxEngine
+- [Enum 20350 "Connectivity Apps Category"](20350.md): ConnectivityApps
+- [Enum 20351 "Conn. Apps Country/Region"](20351.md): ConnectivityApps
+- [Enum 20352 "Connectivity Apps Localization"](20352.md): ConnectivityApps
+- [Enum 20400 "Qlty. Target Type"](20400.md): Quality Management
+- [Enum 20402 "Qlty. Inspect. Creation Option"](20402.md): Quality Management
+- [Enum 20403 "Qlty. Inspect. Search Criteria"](20403.md): Quality Management
+- [Enum 20406 "Qlty. Production Order Trigger"](20406.md): Quality Management
+- [Enum 20407 "Qlty. Update Source Behavior"](20407.md): Quality Management
+- [Enum 20413 "Qlty. Result Copy Behavior"](20413.md): Quality Management
+- [Enum 20414 "Qlty. Result Condition Type"](20414.md): Quality Management
+- [Enum 20415 "Qlty. Test Value Type"](20415.md): Quality Management
+- [Enum 20416 "Qlty. Result Visibility"](20416.md): Quality Management
+- [Enum 20417 "Qlty. Result Finish Allowed"](20417.md): Quality Management
+- [Enum 20418 "Qlty. Item Tracking Behavior"](20418.md): Quality Management
+- [Enum 20419 "Qlty. Inspection Create Status"](20419.md): Quality Management
+- [Enum 20420 "Qlty. Add. Picture Handling"](20420.md): Quality Management
+- [Enum 20422 "Qlty. Inspection Status"](20422.md): Quality Management
+- [Enum 20426 "Qlty. Report Selection Usage"](20426.md): Quality Management
+- [Enum 20427 "Qlty. Item Trkg Block Behavior"](20427.md): Quality Management
+- [Enum 20434 "Qlty. Result Category"](20434.md): Quality Management
+- [Enum 20435 "Qlty. Line Failure State"](20435.md): Quality Management
+- [Enum 20437 "Qlty. Insp. Selection Criteria"](20437.md): Quality Management
+- [Enum 20438 "Qlty. Warehouse Trigger"](20438.md): Quality Management
+- [Enum 20440 "Qlty. Case Sensitivity"](20440.md): Quality Management
+- [Enum 20442 "Prod. Trigger Output Condition"](20442.md): Quality Management
+- [Enum 20449 "Qlty. Item Adj. Post Behavior"](20449.md): Quality Management
+- [Enum 20450 "Qlty. Whse. Receipt Trigger"](20450.md): Quality Management
+- [Enum 20451 "Qlty. Transfer Buffer Status"](20451.md): Quality Management
+- [Enum 20452 "Qlty. Purchase Order Trigger"](20452.md): Quality Management
+- [Enum 20453 "Qlty. Sales Return Trigger"](20453.md): Quality Management
+- [Enum 20454 "Qlty. Transfer Order Trigger"](20454.md): Quality Management
+- [Enum 20455 "Qlty. Transfer Document Type"](20455.md): Quality Management
+- [Enum 20456 "Qlty. Disposition Action"](20456.md): Quality Management
+- [Enum 20457 "Qlty. Assembly Trigger"](20457.md): Quality Management
+- [Enum 20458 "Qlty. Quantity Behavior"](20458.md): Quality Management
+- [Enum 20459 "Qlty. Gen. Rule Act. Trigger"](20459.md): Quality Management
+- [Enum 20460 "Qlty. Gen. Rule Intent"](20460.md): Quality Management
+- [Enum 20461 "Qlty. Certainty"](20461.md): Quality Management
+- [Enum 20463 "Qlty. Sample Size Source"](20463.md): Quality Management
+- [Enum 20464 "Qlty. Config. Test Priority"](20464.md): Quality Management
+- [Enum 20500 "Component Supply Method"](20500.md): Subcontracting
+- [Enum 20501 "Transfer Source Type"](20501.md): Subcontracting
+- [Enum 20503 "Components at Location"](20503.md): Subcontracting
+- [Enum 20507 "Subc. Purchase Line Type"](20507.md): Subcontracting
+- [Enum 20508 "WIP Ledger Entry Type"](20508.md): Subcontracting
+- [Enum 20509 "WIP Document Type"](20509.md): Subcontracting
+- [Enum 22201 "G/L Account Review Policy"](22201.md): ReviewGLEntries
+- [Enum 22202 "G/L Entry Reviewer"](22202.md): ReviewGLEntries
+- [Enum 22203 "Review Policy Type"](22203.md): ReviewGLEntries
+- [Enum 30100 "Shpfy Import Action"](30100.md): Shopify
+- [Enum 30101 "Shpfy Mapping Direction"](30101.md): Shopify
+- [Enum 30102 "Shpfy Metafield Value Type"](30102.md): Shopify, obsolete 26.0
+- [Enum 30103 "Shpfy Synchronization Type"](30103.md): Shopify
+- [Enum 30104 "Shpfy County Source"](30104.md): Shopify
+- [Enum 30105 "Shpfy Customer Import Range"](30105.md): Shopify
+- [Enum 30106 "Shpfy Customer Mapping"](30106.md): Shopify
+- [Enum 30107 "Shpfy Customer State"](30107.md): Shopify
+- [Enum 30108 "Shpfy Name Source"](30108.md): Shopify
+- [Enum 30109 "Shpfy Tax By"](30109.md): Shopify
+- [Enum 30110 "Shpfy Tax Type"](30110.md): Shopify
+- [Enum 30111 "Shpfy GraphQL Type"](30111.md): Shopify
+- [Enum 30112 "Shpfy Fulfillment Status"](30112.md): Shopify
+- [Enum 30113 "Shpfy Order Fulfill. Status"](30113.md): Shopify
+- [Enum 30114 "Shpfy Payment Trans. Source"](30114.md): Shopify
+- [Enum 30115 "Shpfy Allocation Method"](30115.md): Shopify
+- [Enum 30116 "Shpfy Cancel Reason"](30116.md): Shopify
+- [Enum 30117 "Shpfy Financial Status"](30117.md): Shopify
+- [Enum 30118 "Shpfy Processing Method"](30118.md): Shopify
+- [Enum 30119 "Shpfy Shipment Status"](30119.md): Shopify
+- [Enum 30120 "Shpfy Target Selection"](30120.md): Shopify
+- [Enum 30121 "Shpfy Target Type"](30121.md): Shopify
+- [Enum 30122 "Shpfy Tracking Companies"](30122.md): Shopify
+- [Enum 30123 "Shpfy Value Type"](30123.md): Shopify
+- [Enum 30124 "Shpfy Inventory Management"](30124.md): Shopify
+- [Enum 30125 "Shpfy Inventory Policy"](30125.md): Shopify
+- [Enum 30126 "Shpfy Risk Level"](30126.md): Shopify
+- [Enum 30127 "Shpfy Payment Trans. Type"](30127.md): Shopify
+- [Enum 30128 "Shpfy Payout Status"](30128.md): Shopify
+- [Enum 30129 "Shpfy Cr. Prod. Status Value"](30129.md): Shopify
+- [Enum 30130 "Shpfy Product Status"](30130.md): Shopify
+- [Enum 30131 "Shpfy Remove Product Action"](30131.md): Shopify
+- [Enum 30132 "Shpfy SKU Mapping"](30132.md): Shopify
+- [Enum 30133 "Shpfy Transaction Status"](30133.md): Shopify
+- [Enum 30134 "Shpfy Transaction Type"](30134.md): Shopify
+- [Enum 30135 "Shpfy Stock Calculation"](30135.md): Shopify
+- [Enum 30136 "Shpfy Return Status"](30136.md): Shopify
+- [Enum 30137 "Shpfy Return Decline Reason"](30137.md): Shopify
+- [Enum 30138 "Shpfy Return Reason"](30138.md): Shopify
+- [Enum 30139 "Shpfy ReturnRefund ProcessType"](30139.md): Shopify
+- [Enum 30140 "Shpfy Restock Type"](30140.md): Shopify
+- [Enum 30141 "Shpfy Logging Mode"](30141.md): Shopify
+- [Enum 30142 "Shpfy Source Document Type"](30142.md): Shopify
+- [Enum 30143 "Shpfy Document Type"](30143.md): Shopify
+- [Enum 30144 "Shpfy Shop Document Type"](30144.md): Shopify
+- [Enum 30145 "Shpfy Order Return Status"](30145.md): Shopify
+- [Enum 30146 "Shpfy Bulk Operation Type"](30146.md): Shopify
+- [Enum 30147 "Shpfy Bulk Operation Status"](30147.md): Shopify
+- [Enum 30148 "Shpfy Default Cont. Permission"](30148.md): Shopify
+- [Enum 30149 "Shpfy Company Import Range"](30149.md): Shopify
+- [Enum 30150 "Shpfy Order Purchasing Entity"](30150.md): Shopify
+- [Enum 30151 "Shpfy Company Mapping"](30151.md): Shopify
+- [Enum 30152 "Shpfy Delivery Method Type"](30152.md): Shopify
+- [Enum 30153 "Shpfy Dispute Reason"](30153.md): Shopify
+- [Enum 30154 "Shpfy Dispute Status"](30154.md): Shopify
+- [Enum 30155 "Shpfy Dispute Type"](30155.md): Shopify
+- [Enum 30156 "Shpfy Metafield Owner Type"](30156.md): Shopify
+- [Enum 30157 "Shpfy Metafield Weight Type"](30157.md): Shopify
+- [Enum 30158 "Shpfy Metafield Volume Type"](30158.md): Shopify
+- [Enum 30159 "Shpfy Metafield Type"](30159.md): Shopify
+- [Enum 30160 "Shpfy Metafield Dimension Type"](30160.md): Shopify
+- [Enum 30161 "Shpfy Resource Type"](30161.md): Shopify
+- [Enum 30162 "Shpfy Return Location Priority"](30162.md): Shopify
+- [Enum 30163 "Shpfy Weight Unit"](30163.md): Shopify
+- [Enum 30164 "Shpfy Assessment Sentiment"](30164.md): Shopify
+- [Enum 30165 "Shpfy Variant Create Strategy"](30165.md): Shopify
+- [Enum 30166 "Shpfy Comp. Tax Id Mapping"](30166.md): Shopify
+- [Enum 30167 "Shpfy Webhook Topic"](30167.md): Shopify
+- [Enum 30168 "Shpfy Staff Account Type"](30168.md): Shopify
+- [Enum 30169 "Shpfy Catalog Type"](30169.md): Shopify
+- [Enum 30170 "Shpfy Return Line Type"](30170.md): Shopify
+- [Enum 30171 "Shpfy Currency Handling"](30171.md): Shopify
+- [Enum 30178 "Shpfy FF Request Status"](30178.md): Shopify
+- [Enum 30179 "Shpfy Incl. in Product Sync"](30179.md): Shopify
+- [Enum 36950 "Account Category Type"](36950.md): PowerBIReports
+- [Enum 36961 "PBI Report Setup"](36961.md): PowerBIReports
+- [Enum 37200 "PEPPOL 3.0 Format"](37200.md): PEPPOL
+- [Enum 37201 "PEPPOL 3.0 Purchase"](37201.md): PEPPOL
+- [Enum 40010 "Cloud Migration Warning Type"](40010.md): HybridBaseDeployment
+- [Enum 40011 "GP Item Desc. 2 Source"](40011.md): HybridGP
+- [Enum 40020 "Migration Mapping Type"](40020.md): HybridBaseDeployment
+- [Enum 40900 "Hist. Sales Trx. Type"](40900.md): DynamicsGPHistoricalData
+- [Enum 40901 "Hist. Sales Trx. Status"](40901.md): DynamicsGPHistoricalData
+- [Enum 40902 "Hist. Source Type"](40902.md): DynamicsGPHistoricalData
+- [Enum 40903 "Hist. Receivables Doc. Type"](40903.md): DynamicsGPHistoricalData
+- [Enum 40904 "Hist. Payables Doc. Type"](40904.md): DynamicsGPHistoricalData
+- [Enum 40905 "Hist. Inventory Doc. Type"](40905.md): DynamicsGPHistoricalData
+- [Enum 40906 "Hist. Purchase Recv. Doc. Type"](40906.md): DynamicsGPHistoricalData
+- [Enum 40907 "Hist. Migration Step Type"](40907.md): DynamicsGPHistoricalData
+- [Enum 40908 "Hist. Inventory Qty. Type"](40908.md): DynamicsGPHistoricalData
+- [Enum 42800 "SL Hist. Migration Step Type"](42800.md): DynamicsSLHistoricalData
+- [Enum 46882 "BC14 Migration Step"](46882.md): HybridBC14
+- [Enum 46884 "BC14 Post Migration Action"](46884.md): HybridBC14
+- [Enum 46885 "BC14 Migration Validation"](46885.md): HybridBC14
+- [Enum 46886 "BC14 Setup Migrator"](46886.md): HybridBC14
+- [Enum 46887 "BC14 Master Migrator"](46887.md): HybridBC14
+- [Enum 46888 "BC14 Transaction Migrator"](46888.md): HybridBC14
+- [Enum 46889 "BC14 Historical Migrator"](46889.md): HybridBC14
+- [Enum 48534 "Fabric Table Claim Source"](48534.md): MicrosoftFabricMirroring
+- [Enum 99000700 "Prod. Consump. Whse. Handling"](99000700.md): Base Application
+- [Enum 99000701 "Prod. Output Whse. Handling"](99000701.md): Base Application
+- [Enum 99000763 "Routing Time Type"](99000763.md): Base Application
+- [Enum 99000764 "Routing Status"](99000764.md): Base Application
+- [Enum 99000765 "Prod. Order Routing Status"](99000765.md): Base Application
+- [Enum 99000770 "Mfg. Comment Table Name"](99000770.md): Base Application
+- [Enum 99000771 "BOM Status"](99000771.md): Base Application
+- [Enum 99000772 "Production BOM Line Type"](99000772.md): Base Application
+- [Enum 99000773 "Order Tracking Policy"](99000773.md): Base Application
+- [Enum 99000774 "Item Production Blocked"](99000774.md): Base Application
+- [Enum 99000802 "Capacity Unit of Measure"](99000802.md): Base Application
+- [Enum 99000849 "Action Message Type"](99000849.md): Base Application
+- [Enum 99000880 "Order Promising Line Source Type"](99000880.md): Base Application
+- [Enum 99000884 "Create Production Order Type"](99000884.md): Base Application
+- [Enum 99000885 "Create Production Order Status"](99000885.md): Base Application
+- [Enum 99000905 "Requisition Ref. Order Type"](99000905.md): Base Application
+- [Enum 99000915 "Planning Line Origin Type"](99000915.md): Base Application
+- [Enum 99000917 "Report Selection Usage Prod."](99000917.md): Base Application
+- [Enum 99001010 "Prod. Definition Display"](99001010.md): Base Application
+- [Enum 99001011 "Prod. Definition Mode"](99001011.md): Base Application
+- [Enum 99001012 "Prod. Definition Source"](99001012.md): Base Application
+- [Enum 99001028 "Prod. Definition Scenario"](99001028.md): Base Application
+- [Enum 99001031 "Prod. Definition Save Target"](99001031.md): Base Application

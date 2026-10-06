@@ -1,0 +1,198 @@
+# BC Observatory: Interface objects
+
+194 objects, by id.
+
+- [Interface "AI Service Name"](ai-service-name.md): System Application
+- [Interface "Allocate Reservation"](allocate-reservation.md): Base Application
+- [Interface "Alt. Cust. VAT Reg. Consist."](alt-cust-vat-reg-consist.md): Base Application
+- [Interface "Alt. Cust. VAT Reg. Doc."](alt-cust-vat-reg-doc.md): Base Application
+- [Interface "AOAI Function"](aoai-function.md): System Application
+- [Interface "AppSource Product Manager Dependencies"](appsource-product-manager-dependencies.md): System Application
+- [Interface "Audit File Export Data Check"](audit-file-export-data-check.md): AuditFileExport
+- [Interface "Audit File Export Data Handling"](audit-file-export-data-handling.md): AuditFileExport
+- [Interface "Average Cost Entry Point"](average-cost-entry-point.md): Base Application
+- [Interface "Azure Functions Authentication"](azure-functions-authentication.md): System Application
+- [Interface "Barcode Font Encoder"](barcode-font-encoder.md): System Application
+- [Interface "Barcode Font Encoder 2D"](barcode-font-encoder-2d.md): System Application
+- [Interface "Barcode Font Provider"](barcode-font-provider.md): System Application
+- [Interface "Barcode Font Provider 2D"](barcode-font-provider-2d.md): System Application
+- [Interface "Barcode Image Encoder 2D"](barcode-image-encoder-2d.md): System Application
+- [Interface "Barcode Image Provider 2D"](barcode-image-provider-2d.md): System Application
+- [Interface "BC14 Migration Validation"](bc14-migration-validation.md): HybridBC14
+- [Interface "BC14 Migrator"](bc14-migrator.md): HybridBC14
+- [Interface "BC14 Post Migration Action"](bc14-post-migration-action.md): HybridBC14
+- [Interface "Cloud Migration Warning"](cloud-migration-warning.md): HybridBaseDeployment
+- [Interface "Consolidation Method"](consolidation-method.md): Base Application
+- [Interface "Contact Business Relation Link"](contact-business-relation-link.md): Base Application
+- [Interface "Contoso Demo Data Module"](contoso-demo-data-module.md): ContosoCoffeeDemoDataset
+- [Interface "Contract Price Update"](contract-price-update.md): Subscription Billing
+- [Interface "Cost Adjustment With Params"](cost-adjustment-with-params.md): Base Application
+- [Interface "CreateStandardDataSAFT"](createstandarddatasaft.md): SAF-T
+- [Interface "Custom Migration Provider"](custom-migration-provider.md): HybridBaseDeployment
+- [Interface "Custom Migration Table Mapping"](custom-migration-table-mapping.md): HybridBaseDeployment
+- [Interface "Data Archive Provider"](data-archive-provider.md): System Application
+- [Interface "DataCheckSAFT"](datachecksaft.md): SAF-T
+- [Interface "DataUpgradeSAFT"](dataupgradesaft.md): SAF-T
+- [Interface "Dataverse Cloud Endpoints"](dataverse-cloud-endpoints.md): Base Application
+- [Interface "Default Email Rate Limit"](default-email-rate-limit.md): System Application
+- [Interface "Digital Voucher Check"](digital-voucher-check.md): EnforcedDigitalVouchers
+- [Interface "DocumentLookupSubType"](documentlookupsubtype.md): SalesLinesSuggestions
+- [Interface "Documents - Retention Period"](documents-retention-period.md): Base Application
+- [Interface "E-Document"](e-document.md): EDocument
+- [Interface "E-Document Integration"](e-document-integration.md): EDocument, obsolete 26.0
+- [Interface "Edit in Excel Field Filter v2"](edit-in-excel-field-filter-v2.md): System Application
+- [Interface "Email - OAuth Client v2"](email-oauth-client-v2.md): Email - Outlook REST API
+- [Interface "Email - Outlook API Client v2"](email-outlook-api-client-v2.md): Email - Outlook REST API, obsolete 28.0
+- [Interface "Email - Outlook API Client v3"](email-outlook-api-client-v3.md): Email - Outlook REST API, obsolete 26.0
+- [Interface "Email - Outlook API Client v4"](email-outlook-api-client-v4.md): Email - Outlook REST API, obsolete 28.0
+- [Interface "Email - Outlook API Client v5"](email-outlook-api-client-v5.md): Email - Outlook REST API
+- [Interface "Email - Outlook API Client v6"](email-outlook-api-client-v6.md): Email - Outlook REST API
+- [Interface "Email Connector"](email-connector.md): System Application
+- [Interface "Email Connector v2"](email-connector-v2.md): System Application, obsolete 26.0
+- [Interface "Email Connector v3"](email-connector-v3.md): System Application, obsolete 28.0
+- [Interface "Email Connector v4"](email-connector-v4.md): System Application
+- [Interface "Email Connector v5"](email-connector-v5.md): System Application
+- [Interface "Email Logging API Client"](email-logging-api-client.md): EmailLogging
+- [Interface "Email Logging Message"](email-logging-message.md): EmailLogging
+- [Interface "Email Logging OAuth Client"](email-logging-oauth-client.md): EmailLogging
+- [Interface "Email View Policy"](email-view-policy.md): System Application
+- [Interface "ErrorMessageFix"](errormessagefix.md): ErrorMessagesWithRecommendations
+- [Interface "External File Storage Connector"](external-file-storage-connector.md): System Application
+- [Interface "Feature Data Update"](feature-data-update.md): System Application
+- [Interface "Feature Management"](feature-management.md): System Application
+- [Interface "File Handler"](file-handler.md): SalesLinesSuggestions
+- [Interface "File Scenario"](file-scenario.md): System Application
+- [Interface "G/L Entry Reviewer"](g-l-entry-reviewer.md): ReviewGLEntries
+- [Interface "Graph Authorization"](graph-authorization.md): System Application
+- [Interface "Http Authentication"](http-authentication.md): System Application
+- [Interface "Http Client Handler"](http-client-handler.md): System Application
+- [Interface "HTTP Diagnostics"](http-diagnostics.md): System Application
+- [Interface "IBlobToStructuredDataConverter"](iblobtostructureddataconverter.md): EDocument, obsolete 26.0
+- [Interface "IBlobType"](iblobtype.md): EDocument, obsolete 26.0
+- [Interface "IC Data Exchange"](ic-data-exchange.md): Base Application
+- [Interface "IConsentManager"](iconsentmanager.md): EDocument
+- [Interface "ICustomAgentSample"](icustomagentsample.md): AgentDesignExperience
+- [Interface "ICustomAgentSampleTaskTemplate"](icustomagentsampletasktemplate.md): AgentDesignExperience
+- [Interface "ICustomerProvider"](icustomerprovider.md): EDocument
+- [Interface "IDimensionPerspective"](idimensionperspective.md): Base Application
+- [Interface "IDocumentAction"](idocumentaction.md): EDocument
+- [Interface "IDocumentReceiver"](idocumentreceiver.md): EDocument
+- [Interface "IDocumentResponseHandler"](idocumentresponsehandler.md): EDocument
+- [Interface "IDocumentSender"](idocumentsender.md): EDocument
+- [Interface "IEDocAISystem"](iedocaisystem.md): EDocument
+- [Interface "IEDocFileFormat"](iedocfileformat.md): EDocument
+- [Interface "IEDocMessageBuilder"](iedocmessagebuilder.md): EDocument
+- [Interface "IEDocResponseProvider"](iedocresponseprovider.md): EDocument
+- [Interface "IEDocumentCreatePurchaseCreditMemo"](iedocumentcreatepurchasecreditmemo.md): EDocument
+- [Interface "IEDocumentCreatePurchaseInvoice"](iedocumentcreatepurchaseinvoice.md): EDocument
+- [Interface "IEDocumentCreateSalesOrder"](iedocumentcreatesalesorder.md): EDocument
+- [Interface "IEDocumentFinishDraft"](iedocumentfinishdraft.md): EDocument
+- [Interface "IEDocumentStatus"](iedocumentstatus.md): EDocument
+- [Interface "IExportEligibilityEvaluator"](iexporteligibilityevaluator.md): EDocument
+- [Interface "IItemProvider"](iitemprovider.md): EDocument
+- [Interface "Image Analysis Provider"](image-analysis-provider.md): Base Application
+- [Interface "IMDM Data Source"](imdm-data-source.md): MasterDataManagement
+- [Interface "IMDM Source Transport"](imdm-source-transport.md): MasterDataManagement
+- [Interface "IMessageResponseHandler"](imessageresponsehandler.md): EDocument
+- [Interface "IMessageSender"](imessagesender.md): EDocument
+- [Interface "Import Consolidation Data"](import-consolidation-data.md): Base Application
+- [Interface "Inventory Adjustment"](inventory-adjustment.md): Base Application
+- [Interface "Invoice Posting"](invoice-posting.md): Base Application
+- [Interface "IPdfDocumentHandler"](ipdfdocumenthandler.md): Base Application
+- [Interface "IPrepareDraft"](ipreparedraft.md): EDocument
+- [Interface "IProcessStructuredData"](iprocessstructureddata.md): EDocument
+- [Interface "IProcessStructuredDataSales"](iprocessstructureddatasales.md): EDocument
+- [Interface "IPurchaseLineAccountProvider"](ipurchaselineaccountprovider.md): EDocument, obsolete 27.0
+- [Interface "IPurchaseLineProvider"](ipurchaselineprovider.md): EDocument
+- [Interface "IPurchaseOrderProvider"](ipurchaseorderprovider.md): EDocument
+- [Interface "IReceivedDocumentMarker"](ireceiveddocumentmarker.md): EDocument
+- [Interface "ISalesLineProvider"](isaleslineprovider.md): EDocument
+- [Interface "ISentDocumentActions"](isentdocumentactions.md): EDocument
+- [Interface "ISFTP Client"](isftp-client.md): System Application
+- [Interface "ISFTP File"](isftp-file.md): System Application
+- [Interface "iSMTP Client"](ismtp-client.md): Email - SMTP API
+- [Interface "IStructuredDataType"](istructureddatatype.md): EDocument
+- [Interface "IStructuredFormatReader"](istructuredformatreader.md): EDocument
+- [Interface "IStructureReceivedEDocument"](istructurereceivededocument.md): EDocument
+- [Interface "IUnitOfMeasureProvider"](iunitofmeasureprovider.md): EDocument
+- [Interface "IVendorProvider"](ivendorprovider.md): EDocument
+- [Interface "Job Queue Report Runner"](job-queue-report-runner.md): Base Application
+- [Interface "Line With Price"](line-with-price.md): Base Application
+- [Interface "MCP Config Warning"](mcp-config-warning.md): System Application
+- [Interface "MCP Server Features"](mcp-server-features.md): System Application
+- [Interface "No. Series - Single"](no-series-single.md): Business Foundation
+- [Interface "Onboarding Signal"](onboarding-signal.md): Base Application
+- [Interface "PaymentPracticeDataGenerator"](paymentpracticedatagenerator.md): PaymentPractices
+- [Interface "PaymentPracticeLinesAggregator"](paymentpracticelinesaggregator.md): PaymentPractices
+- [Interface "PaymentPracticeSchemeHandler"](paymentpracticeschemehandler.md): PaymentPractices
+- [Interface "PBI Report Setup"](pbi-report-setup.md): PowerBIReports
+- [Interface "PEPPOL Attachment Provider"](peppol-attachment-provider.md): PEPPOL
+- [Interface "PEPPOL Delivery Info Provider"](peppol-delivery-info-provider.md): PEPPOL
+- [Interface "PEPPOL Document Info Provider"](peppol-document-info-provider.md): PEPPOL
+- [Interface "PEPPOL Line Info Provider"](peppol-line-info-provider.md): PEPPOL
+- [Interface "PEPPOL Monetary Info Provider"](peppol-monetary-info-provider.md): PEPPOL
+- [Interface "PEPPOL Party Info Provider"](peppol-party-info-provider.md): PEPPOL
+- [Interface "PEPPOL Payment Info Provider"](peppol-payment-info-provider.md): PEPPOL
+- [Interface "PEPPOL PO Delivery Period"](peppol-po-delivery-period.md): PEPPOL
+- [Interface "PEPPOL PO Line Delivery Period"](peppol-po-line-delivery-period.md): PEPPOL
+- [Interface "PEPPOL Posted Document Iterator"](peppol-posted-document-iterator.md): PEPPOL
+- [Interface "PEPPOL Purchase Attachment Provider"](peppol-purchase-attachment-provider.md): PEPPOL
+- [Interface "PEPPOL Purchase Delivery Info Provider"](peppol-purchase-delivery-info-provider.md): PEPPOL
+- [Interface "PEPPOL Purchase Document Info Provider"](peppol-purchase-document-info-provider.md): PEPPOL
+- [Interface "PEPPOL Purchase Line Info Provider"](peppol-purchase-line-info-provider.md): PEPPOL
+- [Interface "PEPPOL Purchase Monetary Info Provider"](peppol-purchase-monetary-info-provider.md): PEPPOL
+- [Interface "PEPPOL Purchase Party Info Provider"](peppol-purchase-party-info-provider.md): PEPPOL
+- [Interface "PEPPOL Purchase Payment Info Provider"](peppol-purchase-payment-info-provider.md): PEPPOL
+- [Interface "PEPPOL Purchase Tax Info Provider"](peppol-purchase-tax-info-provider.md): PEPPOL
+- [Interface "PEPPOL Remit. Advice Info Provider"](peppol-remit-advice-info-provider.md): PEPPOL
+- [Interface "PEPPOL Tax Info Provider"](peppol-tax-info-provider.md): PEPPOL
+- [Interface "PEPPOL30 Validation"](peppol30-validation.md): PEPPOL
+- [Interface "Posting Group Change Method"](posting-group-change-method.md): Base Application
+- [Interface "Power BI Deployable Report"](power-bi-deployable-report.md): Base Application
+- [Interface "Power BI Service Provider"](power-bi-service-provider.md): Base Application
+- [Interface "Power BI Upload Tracker"](power-bi-upload-tracker.md): Base Application
+- [Interface "Power BI Uploadable Report"](power-bi-uploadable-report.md): Base Application
+- [Interface "Price Asset"](price-asset.md): Base Application
+- [Interface "Price Calculation"](price-calculation.md): Base Application
+- [Interface "Price Source"](price-source.md): Base Application
+- [Interface "Price Source Group"](price-source-group.md): Base Application
+- [Interface "Qlty. Disposition"](qlty-disposition.md): Quality Management
+- [Interface "Record Reference"](record-reference.md): System Application
+- [Interface "Reminder Action"](reminder-action.md): Base Application
+- [Interface "Reten. Pol. Deleting"](reten-pol-deleting.md): System Application
+- [Interface "Reten. Pol. Filtering"](reten-pol-filtering.md): System Application
+- [Interface "Retention Period"](retention-period.md): System Application
+- [Interface "SalesAzureOpenAITools"](salesazureopenaitools.md): SalesLinesSuggestions
+- [Interface "Secret Provider v2"](secret-provider-v2.md): System Application
+- [Interface "SharePoint Authorization"](sharepoint-authorization.md): System Application
+- [Interface "Ship-To Alt. Cust. VAT Reg."](ship-to-alt-cust-vat-reg.md): Base Application
+- [Interface "Shpfy Extended IDocument Source"](shpfy-extended-idocument-source.md): Shopify
+- [Interface "Shpfy Extended Stock Calculation"](shpfy-extended-stock-calculation.md): Shopify
+- [Interface "Shpfy IBulk Operation"](shpfy-ibulk-operation.md): Shopify
+- [Interface "Shpfy ICompany Mapping"](shpfy-icompany-mapping.md): Shopify
+- [Interface "Shpfy ICounty"](shpfy-icounty.md): Shopify
+- [Interface "Shpfy ICounty From Json"](shpfy-icounty-from-json.md): Shopify
+- [Interface "Shpfy ICreate Translation"](shpfy-icreate-translation.md): Shopify
+- [Interface "Shpfy ICreateProductStatusValue"](shpfy-icreateproductstatusvalue.md): Shopify
+- [Interface "Shpfy ICustomer Mapping"](shpfy-icustomer-mapping.md): Shopify
+- [Interface "Shpfy ICustomer Name"](shpfy-icustomer-name.md): Shopify
+- [Interface "Shpfy IDocument Source"](shpfy-idocument-source.md): Shopify
+- [Interface "Shpfy IFind Company Mapping"](shpfy-ifind-company-mapping.md): Shopify
+- [Interface "Shpfy IMetafield Owner Type"](shpfy-imetafield-owner-type.md): Shopify
+- [Interface "Shpfy IMetafield Type"](shpfy-imetafield-type.md): Shopify
+- [Interface "Shpfy IOpenBCDocument"](shpfy-iopenbcdocument.md): Shopify
+- [Interface "Shpfy IOpenShopifyDocument"](shpfy-iopenshopifydocument.md): Shopify
+- [Interface "Shpfy IRemoveProductAction"](shpfy-iremoveproductaction.md): Shopify
+- [Interface "Shpfy IReturnRefund Process"](shpfy-ireturnrefund-process.md): Shopify
+- [Interface "Shpfy IStock Available"](shpfy-istock-available.md): Shopify
+- [Interface "Shpfy Stock Calculation"](shpfy-stock-calculation.md): Shopify
+- [Interface "Shpfy Tax Registration Id Mapping"](shpfy-tax-registration-id-mapping.md): Shopify
+- [Interface "Signature Algorithm v2"](signature-algorithm-v2.md): System Application
+- [Interface "SMTP Auth"](smtp-auth.md): Email - SMTP API
+- [Interface "SMTP Authentication"](smtp-authentication.md): Email - SMTP Connector
+- [Interface "Storage Service Authorization"](storage-service-authorization.md): System Application
+- [Interface "SymmetricAlgorithm"](symmetricalgorithm.md): System Application
+- [Interface "Telemetry Logger"](telemetry-logger.md): System Application
+- [Interface "Transformation Rule"](transformation-rule.md): Base Application
+- [Interface "Usage Data Processing"](usage-data-processing.md): Subscription Billing
+- [Interface "XmlDataHandlingSAFT"](xmldatahandlingsaft.md): SAF-T

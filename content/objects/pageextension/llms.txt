@@ -1,0 +1,908 @@
+# BC Observatory: Page extension objects
+
+904 objects, by id.
+
+- [Page extension 45 "GLSourceCodesExt"](45.md): Base Application
+- [Page extension 46 "InvSourceCodesExt"](46.md): Base Application
+- [Page extension 60 "ShowCurrencyGenLedgSetup"](60.md): Base Application
+- [Page extension 240 "ResSourceCodesExt"](240.md): Base Application
+- [Page extension 241 "ProjectSourceCodesExt"](241.md): Base Application
+- [Page extension 279 "SourceCodeSetupExt"](279.md): Base Application
+- [Page extension 324 "No. Series Ext."](324.md): Business Foundation
+- [Page extension 418 "No. Series Check"](418.md): Base Application
+- [Page extension 681 "Paym. Prac. Vend. Ledg. Entr."](681.md): PaymentPractices
+- [Page extension 682 "Schedule a Report Ext"](682.md): Base Application
+- [Page extension 705 "Error Messages Extension"](705.md): Base Application
+- [Page extension 706 "Error Messages Part Extension"](706.md): Base Application
+- [Page extension 711 "Activity Log Extension"](711.md): Base Application
+- [Page extension 774 "Plan User Details"](774.md): System Application
+- [Page extension 775 "BaseApp User Details"](775.md): Base Application
+- [Page extension 904 "Asm. Item Card"](904.md): Base Application
+- [Page extension 905 "Asm. Item List"](905.md): Base Application
+- [Page extension 930 "Asm. Sales Marketing Mgr. RC"](930.md): Base Application
+- [Page extension 935 "Asm. Item Tracking Code Card"](935.md): Base Application
+- [Page extension 1150 "COHUB Accountant Role Center"](1150.md): CompanyHub
+- [Page extension 1151 "COHUB Bookkeeper Role Center"](1151.md): CompanyHub
+- [Page extension 1152 "COHUB Business Manager RC"](1152.md): CompanyHub
+- [Page extension 1440 "Headlines RC Bus. Mgr. Ext."](1440.md): EssentialBusinessHeadlines
+- [Page extension 1441 "Headlines RC Order Proc. Ext."](1441.md): EssentialBusinessHeadlines
+- [Page extension 1442 "Headlines RC Accountant Ext."](1442.md): EssentialBusinessHeadlines
+- [Page extension 1443 "Headlines RC Project Mgr. Ext"](1443.md): EssentialBusinessHeadlines
+- [Page extension 1444 "Headlines RC Rel. Mgt. Ext."](1444.md): EssentialBusinessHeadlines
+- [Page extension 1445 "Headlines RC Admin. Ext."](1445.md): EssentialBusinessHeadlines
+- [Page extension 1446 "Headlines RC Team Member Ext."](1446.md): EssentialBusinessHeadlines
+- [Page extension 1700 "SalesReceivablesSetupExt"](1700.md): BankDeposits
+- [Page extension 1701 "SourceCodeSetupExt"](1701.md): BankDeposits
+- [Page extension 1702 "BankAccountCardExt"](1702.md): BankDeposits
+- [Page extension 1703 "BankAccountListExt"](1703.md): BankDeposits
+- [Page extension 1704 "BankAccountLedgerEntriesExt"](1704.md): BankDeposits
+- [Page extension 1705 "AccountManagerActivitiesExt"](1705.md): BankDeposits
+- [Page extension 1707 "BookkeeperActivitiesExt"](1707.md): BankDeposits
+- [Page extension 1708 "Navigate Ext."](1708.md): BankDeposits
+- [Page extension 1758 "Data Classification Wiz. Ext."](1758.md): Base Application
+- [Page extension 1854 "ItemCardForecastExtension"](1854.md): SalesAndInventoryForecast
+- [Page extension 1855 "ItemListForecastExtension"](1855.md): SalesAndInventoryForecast
+- [Page extension 1856 "PurchaseOrderForecastExtension"](1856.md): SalesAndInventoryForecast
+- [Page extension 1857 "PurchaseInvoiceForecastExt"](1857.md): SalesAndInventoryForecast
+- [Page extension 1953 "LP - Overdue Customers Ext."](1953.md): LatePaymentPredictor
+- [Page extension 1955 "LPP Sales Quote"](1955.md): LatePaymentPredictor
+- [Page extension 1956 "LPP Sales Order"](1956.md): LatePaymentPredictor
+- [Page extension 1957 "LPP Sales Invoice"](1957.md): LatePaymentPredictor
+- [Page extension 1958 "LPP Customer Ledger Entries"](1958.md): LatePaymentPredictor
+- [Page extension 1959 "LP Activities"](1959.md): LatePaymentPredictor
+- [Page extension 2025 "Image Analysis Setup Ext"](2025.md): ImageAnalysis
+- [Page extension 2026 "Item Picture Analyzer Ext"](2026.md): ImageAnalysis
+- [Page extension 2510 "Extension Subscribers"](2510.md): Base Application
+- [Page extension 2515 "AppSourceExtensionManagement"](2515.md): System Application
+- [Page extension 2620 "Stat. Acc. BC Role Center"](2620.md): StatisticalAccounts
+- [Page extension 2625 "StatAccAnalysisView"](2625.md): StatisticalAccounts
+- [Page extension 2626 "Stat. Acc. Analysis By Dim."](2626.md): StatisticalAccounts
+- [Page extension 2651 "Email Printer Management"](2651.md): SendToEmailPrinter
+- [Page extension 2751 "Universal Printer Management"](2751.md): MicrosoftUniversalPrint
+- [Page extension 3305 "AgentTaskList"](3305.md): PayablesAgent
+- [Page extension 3309 "PA Purchase Invoice List"](3309.md): PayablesAgent
+- [Page extension 3311 "PAAccPayablesAdministratorRC"](3311.md): PayablesAgent
+- [Page extension 3312 "PABusinessManagerRC"](3312.md): PayablesAgent
+- [Page extension 3997 "Reten. Pol. Setup Lines Ext."](3997.md): Base Application
+- [Page extension 3998 "Reten. Pol. Setup Card Ext."](3998.md): Base Application
+- [Page extension 3999 "Reten. Pol. Setup List Ext."](3999.md): Base Application
+- [Page extension 4009 "Hybrid O365 Activities"](4009.md): HybridBaseDeployment
+- [Page extension 4011 "Hybrid Accountant Activities"](4011.md): HybridBaseDeployment
+- [Page extension 4014 "Hybrid Cloud Wizard Extension"](4014.md): HybridGP
+- [Page extension 4015 "Intelligent Cloud Extension"](4015.md): HybridGP
+- [Page extension 4022 "SendPmtJnlRemitAdvice"](4022.md): UKSendRemittanceAdvice
+- [Page extension 4023 "SendVendLedgerEntryRemitAdvice"](4023.md): UKSendRemittanceAdvice
+- [Page extension 4318 "Agent User Subform"](4318.md): System Application, obsolete 28.0
+- [Page extension 4350 "Custom Agent Acc Control"](4350.md): AgentDesignExperience
+- [Page extension 4351 "Agent Task List"](4351.md): AgentDesignExperience
+- [Page extension 4352 "Agent Task Message List"](4352.md): AgentDesignExperience
+- [Page extension 4353 "Agent Card"](4353.md): AgentDesignExperience
+- [Page extension 4354 "Agent List"](4354.md): AgentDesignExperience
+- [Page extension 4355 "Agent Task Log Entry List"](4355.md): AgentDesignExperience
+- [Page extension 4400 "Sales Quote Ext"](4400.md): SalesOrderAgent
+- [Page extension 4401 "EXR Accountant Role Center"](4401.md): ExcelReports
+- [Page extension 4402 "EXT Bus. Manager Role Center"](4402.md): ExcelReports
+- [Page extension 4403 "EXT Company Detail"](4403.md): ExcelReports
+- [Page extension 4405 "EXRARRoleCenter"](4405.md): ExcelReports
+- [Page extension 4406 "EXRFinRoleCenter"](4406.md): ExcelReports
+- [Page extension 4407 "Fixed Asset List"](4407.md): ExcelReports
+- [Page extension 4408 "Business Unit List"](4408.md): ExcelReports
+- [Page extension 4409 "Sales Quote Sub. Ext"](4409.md): SalesOrderAgent
+- [Page extension 4410 "Sales Order Ext"](4410.md): SalesOrderAgent
+- [Page extension 4411 "SOA Contact List Ext"](4411.md): SalesOrderAgent
+- [Page extension 4412 "EXR Order Processor RC"](4412.md): ExcelReports
+- [Page extension 4414 "EXR Sales Invoice List"](4414.md): ExcelReports
+- [Page extension 4415 "EXR Sales Manager RC"](4415.md): ExcelReports
+- [Page extension 4416 "EXR Sales & Marketing Mgr. RC"](4416.md): ExcelReports
+- [Page extension 4417 "EXR Sales & Rel. Mgr. RC"](4417.md): ExcelReports
+- [Page extension 4418 "EXR Vendor List"](4418.md): ExcelReports
+- [Page extension 4419 "EXR Purchase Credit Memos"](4419.md): ExcelReports
+- [Page extension 4420 "EXR Purchasing Manager RC"](4420.md): ExcelReports
+- [Page extension 4421 "EXR Purchasing Agent RC"](4421.md): ExcelReports
+- [Page extension 4422 "EXR Fixed Asset Card"](4422.md): ExcelReports
+- [Page extension 4423 "EXR Accounting Manager RC"](4423.md): ExcelReports
+- [Page extension 4425 "EXR Accounting Periods"](4425.md): ExcelReports
+- [Page extension 4426 "EXR Bank Account List"](4426.md): ExcelReports
+- [Page extension 4427 "EXR Chart of Accounts"](4427.md): ExcelReports
+- [Page extension 4428 "EXR Currency Card"](4428.md): ExcelReports
+- [Page extension 4429 "EXR General Journal Batches"](4429.md): ExcelReports
+- [Page extension 4430 "EXR G/L Account Card"](4430.md): ExcelReports
+- [Page extension 4431 "EXR G/L Account List"](4431.md): ExcelReports
+- [Page extension 4432 "EXR G/L Registers"](4432.md): ExcelReports
+- [Page extension 4433 "EXR Budget"](4433.md): ExcelReports
+- [Page extension 4434 "EXR G/L Budget Names"](4434.md): ExcelReports
+- [Page extension 4435 "EXR Reminder"](4435.md): ExcelReports
+- [Page extension 4436 "EXR Acc. Rec. Admin RC"](4436.md): ExcelReports
+- [Page extension 4437 "EXR Acc. Pay. Coordinator RC"](4437.md): ExcelReports
+- [Page extension 4438 "EXR Customer List"](4438.md): ExcelReports
+- [Page extension 4439 "EXR CEO and President RC"](4439.md): ExcelReports
+- [Page extension 4440 "EXR Small Business Owner RC"](4440.md): ExcelReports
+- [Page extension 4441 "EXR Sales Credit Memos"](4441.md): ExcelReports
+- [Page extension 4442 "EXR Bookkeeper RC"](4442.md): ExcelReports
+- [Page extension 4511 "SMTP EMailOutbox"](4511.md): Email - SMTP Connector, obsolete 28.0
+- [Page extension 4512 "SMTP Sent Email"](4512.md): Email - SMTP Connector, obsolete 28.0
+- [Page extension 4513 "SMTP Email Accounts Ext."](4513.md): Email - SMTP Connector, obsolete 28.0
+- [Page extension 4700 "VAT Period List Extension"](4700.md): VATGroupManagement
+- [Page extension 4701 "VAT Report Extension"](4701.md): VATGroupManagement
+- [Page extension 4702 "VAT Report List Extension"](4702.md): VATGroupManagement
+- [Page extension 4703 "VAT Report Setup Extension"](4703.md): VATGroupManagement
+- [Page extension 4704 "VAT Rep. Stmt. Sub. Extension"](4704.md): VATGroupManagement
+- [Page extension 4810 "Intrastat Report ErrMsg. Part"](4810.md): Intrastat
+- [Page extension 4811 "Intrastat Report FA Card"](4811.md): Intrastat
+- [Page extension 4812 "Intrastat Report Item Card"](4812.md): Intrastat
+- [Page extension 4813 "Intrastat Report Cust. Card"](4813.md): Intrastat
+- [Page extension 4814 "Intrastat Report Vendor Card"](4814.md): Intrastat
+- [Page extension 4815 "Intrastat Report Account RC"](4815.md): Intrastat
+- [Page extension 4816 "Intrastat Report Bus.Man. RC"](4816.md): Intrastat
+- [Page extension 4817 "Intrastat Rep. Cust. Tem. Card"](4817.md): Intrastat
+- [Page extension 4818 "Intrastat Rep. Vend. Tem. Card"](4818.md): Intrastat
+- [Page extension 4823 "Intrastat Report Tariff Nmbs."](4823.md): Intrastat
+- [Page extension 4824 "Intrastat Report Item Templ."](4824.md): Intrastat
+- [Page extension 4825 "Intr. Rep. Lot No. Info Card"](4825.md): Intrastat
+- [Page extension 4826 "Intr. Rep. Lot No. Info List"](4826.md): Intrastat
+- [Page extension 4827 "Intr. Rep. Pack No. Info Card"](4827.md): Intrastat
+- [Page extension 4829 "Intr. Rep. Ser. No. Info Card"](4829.md): Intrastat
+- [Page extension 4830 "Intr. Rep. Ser. No. Info List"](4830.md): Intrastat
+- [Page extension 4831 "Intr. Report Item Tr. Lines"](4831.md): Intrastat
+- [Page extension 4854 "AutoAcc General Journal"](4854.md): AutomaticAccountCodes
+- [Page extension 4855 "AutoAcc G/L Account Card"](4855.md): AutomaticAccountCodes
+- [Page extension 4856 "AA Post. Purch. Inv. Subform"](4856.md): AutomaticAccountCodes
+- [Page extension 4857 "AA Post Sales Cr. Memo Subform"](4857.md): AutomaticAccountCodes
+- [Page extension 4858 "AA Post. Sales Invoice Subform"](4858.md): AutomaticAccountCodes
+- [Page extension 4859 "AutoAcc Purchase Order Subform"](4859.md): AutomaticAccountCodes
+- [Page extension 4860 "AA Purch. Return Order Subform"](4860.md): AutomaticAccountCodes
+- [Page extension 4861 "AA Purch. Cr. Memo Subform"](4861.md): AutomaticAccountCodes
+- [Page extension 4862 "AutoAcc Purch. Invoice Subform"](4862.md): AutomaticAccountCodes
+- [Page extension 4863 "AutoAcc Sales Cr. Memo Subform"](4863.md): AutomaticAccountCodes
+- [Page extension 4864 "AutoAcc Sales Invoice Subform"](4864.md): AutomaticAccountCodes
+- [Page extension 4865 "AutoAcc Sales Order Subform"](4865.md): AutomaticAccountCodes
+- [Page extension 4866 "AA Sales Return Order Subform"](4866.md): AutomaticAccountCodes
+- [Page extension 4867 "AA Post. Prc. Cr. Memo Subform"](4867.md): AutomaticAccountCodes
+- [Page extension 4881 "EU3 VAT Statement"](4881.md): EU3PartyTradePurchase
+- [Page extension 4882 "EU3 VAT Stat. Prev. Line"](4882.md): EU3PartyTradePurchase
+- [Page extension 4883 "EU3 Blanket Purch. Order"](4883.md): EU3PartyTradePurchase
+- [Page extension 4884 "EU3 Posted Purch. Invoice"](4884.md): EU3PartyTradePurchase
+- [Page extension 4885 "EU3 Purch. Cr. Memo"](4885.md): EU3PartyTradePurchase
+- [Page extension 4886 "EU3 Purch. Invoice"](4886.md): EU3PartyTradePurchase
+- [Page extension 4887 "EU3 Purch. Order"](4887.md): EU3PartyTradePurchase
+- [Page extension 4888 "EU3 Purch. Quote"](4888.md): EU3PartyTradePurchase
+- [Page extension 4889 "EU3 Purch. Return Order"](4889.md): EU3PartyTradePurchase
+- [Page extension 4890 "EU3 Posted Purch. Cr. Memo"](4890.md): EU3PartyTradePurchase
+- [Page extension 4891 "EU3 VAT Setup"](4891.md): EU3PartyTradePurchase
+- [Page extension 5012 "Serv. Decl. Item Card"](5012.md): ServiceDeclaration
+- [Page extension 5013 "Serv. Decl. Item Charges"](5013.md): ServiceDeclaration
+- [Page extension 5014 "SD Purch. Ret. Order Subform"](5014.md): ServiceDeclaration
+- [Page extension 5015 "SD Purch. Cr. Memo Subform"](5015.md): ServiceDeclaration
+- [Page extension 5016 "SD Purch. Inv. Subform"](5016.md): ServiceDeclaration
+- [Page extension 5017 "Serv. Decl. Resource Card"](5017.md): ServiceDeclaration
+- [Page extension 5018 "SD Sales Cr. Memo Subform"](5018.md): ServiceDeclaration
+- [Page extension 5019 "SD Sales Invoice Subform"](5019.md): ServiceDeclaration
+- [Page extension 5020 "SD Sales Ret. Order Subform"](5020.md): ServiceDeclaration
+- [Page extension 5021 "SD Sales Invoice"](5021.md): ServiceDeclaration
+- [Page extension 5022 "SD Sales Cr. Memo"](5022.md): ServiceDeclaration
+- [Page extension 5023 "SD Sales Return Order"](5023.md): ServiceDeclaration
+- [Page extension 5024 "SD Purch. Invoice"](5024.md): ServiceDeclaration
+- [Page extension 5025 "SD Purch. Cr. Memo"](5025.md): ServiceDeclaration
+- [Page extension 5026 "SD Purch. Return Order"](5026.md): ServiceDeclaration
+- [Page extension 5027 "SD Posted Sales Inv. Subform"](5027.md): ServiceDeclaration
+- [Page extension 5028 "SD Pstd. Sales Cr.Memo Subform"](5028.md): ServiceDeclaration
+- [Page extension 5029 "SD Posted Purch. Inv. Subform"](5029.md): ServiceDeclaration
+- [Page extension 5030 "SD Pstd. Purch. Cr.Memo Sbfrm"](5030.md): ServiceDeclaration
+- [Page extension 5031 "SD Sales Order"](5031.md): ServiceDeclaration
+- [Page extension 5032 "SD Sales Order Subform"](5032.md): ServiceDeclaration
+- [Page extension 5033 "SD Posted Sales Invoice"](5033.md): ServiceDeclaration
+- [Page extension 5034 "SD Posted Purch. Invoice"](5034.md): ServiceDeclaration
+- [Page extension 5035 "SD Posted Sales Cr. Memo"](5035.md): ServiceDeclaration
+- [Page extension 5036 "SD Posted Purch. Cr. Memo"](5036.md): ServiceDeclaration
+- [Page extension 5037 "Serv. Decl. Value Entries"](5037.md): ServiceDeclaration
+- [Page extension 5038 "SD Purchase Order"](5038.md): ServiceDeclaration
+- [Page extension 5039 "SD Purchase Order Subform"](5039.md): ServiceDeclaration
+- [Page extension 5040 "SD Serv. Order"](5040.md): ServiceDeclaration
+- [Page extension 5041 "SD Serv. Invoice Subform"](5041.md): ServiceDeclaration
+- [Page extension 5042 "SD Serv. Invoice"](5042.md): ServiceDeclaration
+- [Page extension 5043 "SD Serv. Cr. Memo Subform"](5043.md): ServiceDeclaration
+- [Page extension 5044 "SD Serv. Cr. Memo"](5044.md): ServiceDeclaration
+- [Page extension 5045 "SD Serv. Order Archive"](5045.md): ServiceDeclaration
+- [Page extension 5046 "SD Posted Serv. Inv. Subform"](5046.md): ServiceDeclaration
+- [Page extension 5047 "SD Posted Serv. Invoice"](5047.md): ServiceDeclaration
+- [Page extension 5048 "SD Posted Serv. Cr. Memo"](5048.md): ServiceDeclaration
+- [Page extension 5049 "SD Service Lines"](5049.md): ServiceDeclaration
+- [Page extension 5240 "Company Creation Wizard Ext"](5240.md): ContosoCoffeeDemoDataset
+- [Page extension 5250 "SD Pstd. Serv. Cr.Memo Subform"](5250.md): ServiceDeclaration
+- [Page extension 5251 "Serv. Decl. Res. Ledg. Entries"](5251.md): ServiceDeclaration
+- [Page extension 5279 "Accessible Companies Contoso"](5279.md): ContosoCoffeeDemoDataset
+- [Page extension 5280 "Company Contact SAF-T"](5280.md): SAF-T
+- [Page extension 5281 "Source Codes SAF-T"](5281.md): SAF-T
+- [Page extension 5282 "Dimensions SAF-T"](5282.md): SAF-T
+- [Page extension 5283 "Audit Export Doc. Card SAF-T"](5283.md): SAF-T
+- [Page extension 5285 "Audit File Export Setup SAF-T"](5285.md): SAF-T
+- [Page extension 5583 "Digital Voucher G/L Entries"](5583.md): EnforcedDigitalVouchers
+- [Page extension 5584 "Incoming Doc. Sales Cr. Memo"](5584.md): EnforcedDigitalVouchers
+- [Page extension 5585 "Incoming Doc. Sales Inv."](5585.md): EnforcedDigitalVouchers
+- [Page extension 5586 "Incoming Doc. Sales Order"](5586.md): EnforcedDigitalVouchers
+- [Page extension 5588 "Dig. Voucher Serv. Order"](5588.md): EnforcedDigitalVouchers
+- [Page extension 5589 "Dig. Voucher Serv. Invoice"](5589.md): EnforcedDigitalVouchers
+- [Page extension 5590 "Dig. Voucher Serv. Cr. Memo"](5590.md): EnforcedDigitalVouchers
+- [Page extension 5591 "Dig. Voucher Pstd. Serv. Inv."](5591.md): EnforcedDigitalVouchers
+- [Page extension 5592 "Dig.Vouch. Pstd. Serv.Cr.Memo"](5592.md): EnforcedDigitalVouchers
+- [Page extension 5593 "Digital Voucher Purch. Order"](5593.md): EnforcedDigitalVouchers
+- [Page extension 5594 "Dig. Voucher Purch. Ret. Order"](5594.md): EnforcedDigitalVouchers
+- [Page extension 5617 "FASourceCodesExt"](5617.md): Base Application
+- [Page extension 5636 "InsSourceCodesExt"](5636.md): Base Application
+- [Page extension 5840 "Cost Adjmt. Inventory Setup"](5840.md): Base Application
+- [Page extension 5900 "ServiceContractList"](5900.md): Base Application
+- [Page extension 5901 "ServiceLedgerEntries"](5901.md): Base Application
+- [Page extension 6100 "E-Doc. Purchase Invoices"](6100.md): EDocument
+- [Page extension 6101 "E-Document Sending Profile"](6101.md): EDocument
+- [Page extension 6102 "EDocDocumentAttachmentDetails"](6102.md): EDocument
+- [Page extension 6103 "E-Doc. Posted Sales Shipment"](6103.md): EDocument
+- [Page extension 6104 "E-Doc. Location Card"](6104.md): EDocument
+- [Page extension 6105 "E-Doc. Select Sending Options"](6105.md): EDocument
+- [Page extension 6106 "E-Doc. Posted Transfer Shpmnt."](6106.md): EDocument
+- [Page extension 6107 "E-Doc. A/P Admin Activities"](6107.md): EDocument
+- [Page extension 6108 "E-Document Vendor Templ. Card"](6108.md): EDocument
+- [Page extension 6109 "E-Doc. Posted Purch. Invoices"](6109.md): EDocument
+- [Page extension 6110 "E-Doc. Payment Journal"](6110.md): EDocument
+- [Page extension 6111 "E-Doc. Cust. Ledger Entries"](6111.md): EDocument
+- [Page extension 6112 "E-Doc. Vendor Ledger Entries"](6112.md): EDocument
+- [Page extension 6113 "E-Doc. Payment Registration"](6113.md): EDocument
+- [Page extension 6125 "EDocAccountantRC"](6125.md): EDocument
+- [Page extension 6128 "E-Doc. Sales Invoice"](6128.md): EDocument
+- [Page extension 6129 "E-Doc. Purchase Invoice"](6129.md): EDocument
+- [Page extension 6130 "E-Doc. Service Invoice"](6130.md): EDocument
+- [Page extension 6131 "E-Doc. Sales Order"](6131.md): EDocument
+- [Page extension 6132 "E-Doc. Purchase Order"](6132.md): EDocument
+- [Page extension 6133 "E-Doc. Sales Credit Memo"](6133.md): EDocument
+- [Page extension 6134 "EDocWorkflowResponseOptions"](6134.md): EDocument
+- [Page extension 6135 "E-Doc. Service Credit Memo"](6135.md): EDocument
+- [Page extension 6136 "E-Doc. Service Order"](6136.md): EDocument
+- [Page extension 6137 "E-Doc. Purchase Order List"](6137.md): EDocument
+- [Page extension 6138 "E-Doc. Purchase Credit Memo"](6138.md): EDocument
+- [Page extension 6140 "E-Doc. Fin. Charge Memo"](6140.md): EDocument
+- [Page extension 6141 "E-Doc. Reminder"](6141.md): EDocument
+- [Page extension 6142 "E-Doc. Posted Service Inv."](6142.md): EDocument
+- [Page extension 6143 "E-Doc. Posted Service Cr. Memo"](6143.md): EDocument
+- [Page extension 6144 "E-Doc. Posted Sales Inv."](6144.md): EDocument
+- [Page extension 6145 "E-Doc. Posted Sales Cr. Memo"](6145.md): EDocument
+- [Page extension 6146 "E-Doc. Posted Purch. Inv."](6146.md): EDocument
+- [Page extension 6147 "E-Doc. Posted Purch. Cr. Memo"](6147.md): EDocument
+- [Page extension 6148 "E-Doc. Issued Reminder"](6148.md): EDocument
+- [Page extension 6149 "E-Doc. Issued Fin. Charge Memo"](6149.md): EDocument
+- [Page extension 6157 "E-Doc. Ship Rec. WMS RC"](6157.md): EDocument
+- [Page extension 6158 "E-Doc. Inv. Manager RC"](6158.md): EDocument
+- [Page extension 6160 "E-Doc. Bus. Manager RC"](6160.md): EDocument
+- [Page extension 6161 "E-Doc. Vendor Page"](6161.md): EDocument
+- [Page extension 6162 "E-Doc. Purch. Payables Setup"](6162.md): EDocument
+- [Page extension 6163 "E-Doc. Customer Card"](6163.md): EDocument
+- [Page extension 6164 "Posted Sales Invoice with QR"](6164.md): EDocument
+- [Page extension 6165 "E-Doc. Company Information"](6165.md): EDocument
+- [Page extension 6168 "PostedSalesCrdMemoWithQR"](6168.md): EDocument
+- [Page extension 6170 "Posted Service Invoice with QR"](6170.md): EDocument
+- [Page extension 6172 "Posted Service CrMemo with QR"](6172.md): EDocument
+- [Page extension 6210 "Sust. User Setup"](6210.md): Sustainability
+- [Page extension 6211 "Sust. Purch. Order Subform"](6211.md): Sustainability
+- [Page extension 6212 "Sust. Pstd Purch. Inv. Subform"](6212.md): Sustainability
+- [Page extension 6213 "Sust. Pstd Cr. Memo. Subform"](6213.md): Sustainability
+- [Page extension 6214 "Sust. Purch. Inv. Subform"](6214.md): Sustainability
+- [Page extension 6215 "Sust. Purch. Cr. Memo Subform"](6215.md): Sustainability
+- [Page extension 6216 "Sust. Purch. Ret. Ord. Subform"](6216.md): Sustainability
+- [Page extension 6217 "Sust. Purch. Order Stats."](6217.md): Sustainability
+- [Page extension 6218 "Sust. Purch. Statistics"](6218.md): Sustainability
+- [Page extension 6219 "Sust. Purch. Cr. Memo. Stats."](6219.md): Sustainability
+- [Page extension 6220 "Sust. Purch. Invoice Stats."](6220.md): Sustainability
+- [Page extension 6221 "Sust. Vendor Card"](6221.md): Sustainability
+- [Page extension 6222 "Sust. Item Card"](6222.md): Sustainability
+- [Page extension 6223 "Sust. Analysis View Entries"](6223.md): Sustainability
+- [Page extension 6224 "Sust. General Journal"](6224.md): Sustainability
+- [Page extension 6225 "Sust. Posted General Journal"](6225.md): Sustainability
+- [Page extension 6226 "Sust. Responsibility Center"](6226.md): Sustainability
+- [Page extension 6227 "Sust. G/L Account Card"](6227.md): Sustainability
+- [Page extension 6228 "Sust. Item Category Card"](6228.md): Sustainability
+- [Page extension 6229 "Sust. Item Charges"](6229.md): Sustainability
+- [Page extension 6230 "Sust. Resource Card"](6230.md): Sustainability
+- [Page extension 6231 "Sust. Work Center Card"](6231.md): Sustainability
+- [Page extension 6232 "Sust. Machine Center Card"](6232.md): Sustainability
+- [Page extension 6233 "Sust. Sales Order Subform"](6233.md): Sustainability
+- [Page extension 6234 "Sust. Sales Cr. Memo Subform"](6234.md): Sustainability
+- [Page extension 6235 "Sust. Sales Ret. Ord. Subform"](6235.md): Sustainability
+- [Page extension 6236 "Sust. Sales Invoice Subform"](6236.md): Sustainability
+- [Page extension 6237 "Sust. Pstd Sales Cr. Memo. Sub"](6237.md): Sustainability
+- [Page extension 6238 "Sust. Pstd Sales Inv. Subform"](6238.md): Sustainability
+- [Page extension 6239 "Sust. Sales Order Stats."](6239.md): Sustainability
+- [Page extension 6240 "Sust. Sales Invoice Stats."](6240.md): Sustainability
+- [Page extension 6241 "Sust. Sales Cr. Memo. Stats."](6241.md): Sustainability
+- [Page extension 6242 "Sust. Sales Statistics"](6242.md): Sustainability
+- [Page extension 6243 "Sust. Production BOM Lines"](6243.md): Sustainability
+- [Page extension 6244 "Sust. Prod. BOM Version Lines"](6244.md): Sustainability
+- [Page extension 6245 "Sust. Routing Lines"](6245.md): Sustainability
+- [Page extension 6246 "Sust. Routing Version Lines"](6246.md): Sustainability
+- [Page extension 6247 "Sust. Prod. Order Components"](6247.md): Sustainability
+- [Page extension 6248 "Sust. Prod. Order Routing"](6248.md): Sustainability
+- [Page extension 6249 "Sust. Rel. Prod. Order Lines"](6249.md): Sustainability
+- [Page extension 6250 "Sust. Production Journal"](6250.md): Sustainability
+- [Page extension 6251 "Sust. Consumption Journal"](6251.md): Sustainability
+- [Page extension 6252 "Sustainability Manager RC"](6252.md): Sustainability
+- [Page extension 6253 "Sust. Assembly Order Subform"](6253.md): Sustainability
+- [Page extension 6254 "Sust. Pstd Assembly Order Sub."](6254.md): Sustainability
+- [Page extension 6255 "Sust. Posted Assembly Order"](6255.md): Sustainability
+- [Page extension 6256 "Sust. Work Center List"](6256.md): Sustainability
+- [Page extension 6257 "Sust. Machine Center List"](6257.md): Sustainability
+- [Page extension 6258 "Sust. Assembly Order"](6258.md): Sustainability
+- [Page extension 6259 "Sust. Transfer Order Subform"](6259.md): Sustainability
+- [Page extension 6260 "Sust. Transfer Shpt Subform"](6260.md): Sustainability
+- [Page extension 6261 "Sust. PBI Reports Setup"](6261.md): Sustainability
+- [Page extension 6262 "Sust. Transfer Statistics"](6262.md): Sustainability
+- [Page extension 6263 "Sust. Transfer Shpt. Stats."](6263.md): Sustainability
+- [Page extension 6264 "Sust. PBI Assisted Setup"](6264.md): Sustainability
+- [Page extension 6265 "Sust. Capacity Ledger Entries"](6265.md): Sustainability
+- [Page extension 6266 "Sust. Output Journal"](6266.md): Sustainability
+- [Page extension 6267 "Sust. Released Prod. Orders"](6267.md): Sustainability
+- [Page extension 6268 "Sust. Released Prod. Order"](6268.md): Sustainability
+- [Page extension 6269 "Sust. Finished Prod. Orders"](6269.md): Sustainability
+- [Page extension 6270 "Sust. Finished Prod. Order"](6270.md): Sustainability
+- [Page extension 6271 "Sust. Item List"](6271.md): Sustainability
+- [Page extension 6272 "Sust. Production BOM List"](6272.md): Sustainability
+- [Page extension 6273 "Sust. Production BOM"](6273.md): Sustainability
+- [Page extension 6276 "Sust. Fin. Prod. Order Lines"](6276.md): Sustainability
+- [Page extension 6277 "Sust. Resource List"](6277.md): Sustainability
+- [Page extension 6278 "Sust. Routing"](6278.md): Sustainability
+- [Page extension 6279 "Sust. Routing List"](6279.md): Sustainability
+- [Page extension 6280 "Sust. Item Charge Assign Purch"](6280.md): Sustainability
+- [Page extension 6281 "Sust. Job G/L Journal"](6281.md): Sustainability
+- [Page extension 6282 "Sust. Job Card"](6282.md): Sustainability
+- [Page extension 6283 "Sust. Job Journal"](6283.md): Sustainability
+- [Page extension 6284 "Sust. Job Task Lines Subform"](6284.md): Sustainability
+- [Page extension 6285 "Sust. Job Statistics"](6285.md): Sustainability
+- [Page extension 6286 "Sust. Job Task Statistics"](6286.md): Sustainability
+- [Page extension 6287 "Sust. Job List"](6287.md): Sustainability
+- [Page extension 6288 "Sust. Item Journal"](6288.md): Sustainability
+- [Page extension 6289 "Sust. Item Reclass. Journal"](6289.md): Sustainability
+- [Page extension 6290 "Sustainability Journal"](6290.md): SustainabilityCopilotSuggestion
+- [Page extension 6291 "Sustain. Account Subcategories"](6291.md): SustainabilityCopilotSuggestion
+- [Page extension 6292 "Sustainability Ledger Entries"](6292.md): SustainabilityCopilotSuggestion
+- [Page extension 6293 "Sustain. Account Categories"](6293.md): SustainabilityCopilotSuggestion
+- [Page extension 6294 "Sust. FA Reclass. Journal"](6294.md): Sustainability
+- [Page extension 6295 "Sust. Fixed Asset Card"](6295.md): Sustainability
+- [Page extension 6300 "Sust. Pstd Serv. Cr. Memo. Sub"](6300.md): Sustainability
+- [Page extension 6301 "Sust. Pstd Serv. Inv. Subform"](6301.md): Sustainability
+- [Page extension 6302 "Sust. Service Cr. Memo Subform"](6302.md): Sustainability
+- [Page extension 6303 "Sust. Service Invoice Subform"](6303.md): Sustainability
+- [Page extension 6304 "Sust. Service Cr. Memo. Stats."](6304.md): Sustainability
+- [Page extension 6305 "Sust. Service Invoice Stats."](6305.md): Sustainability
+- [Page extension 6306 "Sust. Service Order Stats."](6306.md): Sustainability
+- [Page extension 6307 "Sust. Service Statistics"](6307.md): Sustainability
+- [Page extension 6308 "Sust. Service Lines"](6308.md): Sustainability
+- [Page extension 6309 "Sust. Service Quote Lines"](6309.md): Sustainability
+- [Page extension 6310 "Sust. Service Order Subform"](6310.md): Sustainability
+- [Page extension 6311 "Sust. Pstd. Serv. Shpt. Subfm."](6311.md): Sustainability
+- [Page extension 6313 "Sust. Pstd. Serv. Cr. Subfm."](6313.md): Sustainability
+- [Page extension 6314 "Sust. FA Ledger Entries"](6314.md): Sustainability
+- [Page extension 6315 "Sust. Fixed Asset Journal"](6315.md): Sustainability
+- [Page extension 6316 "Sust. Fixed Asset G/L Journal"](6316.md): Sustainability
+- [Page extension 6317 "Sust. FA Ledger Entries Prev."](6317.md): Sustainability
+- [Page extension 6319 "EUDR Lot No. Information Card"](6319.md): Sustainability
+- [Page extension 6322 "EUDR Posted Purch. Rcpt Sub."](6322.md): Sustainability
+- [Page extension 6323 "EUDR Posted Purch. Rcpt Lines"](6323.md): Sustainability
+- [Page extension 6347 "Sust. Business Manager RC"](6347.md): Sustainability
+- [Page extension 6349 "Sust. Sales Quote Subform"](6349.md): Sustainability
+- [Page extension 6450 "Serv. Customer Card"](6450.md): Base Application
+- [Page extension 6451 "Serv. Customer List"](6451.md): Base Application
+- [Page extension 6452 "Serv. Item Card"](6452.md): Base Application
+- [Page extension 6453 "Serv. Item List"](6453.md): Base Application
+- [Page extension 6454 "Serv. Stockkeeping Unit Card"](6454.md): Base Application
+- [Page extension 6455 "Serv. Resource Card"](6455.md): Base Application
+- [Page extension 6456 "Serv. Resource List"](6456.md): Base Application
+- [Page extension 6457 "Serv. Resource Groups"](6457.md): Base Application
+- [Page extension 6458 "Serv. Location Card"](6458.md): Base Application
+- [Page extension 6459 "Serv. Location List"](6459.md): Base Application
+- [Page extension 6460 "Serv. Resource Capacity Matrix"](6460.md): Base Application
+- [Page extension 6461 "Serv. Data Administration"](6461.md): Base Application
+- [Page extension 6462 "Serv. Job Resource Manager RC"](6462.md): Base Application
+- [Page extension 6463 "Serv. Purchasing Manager RC"](6463.md): Base Application
+- [Page extension 6464 "Serv. Item Templ. Card"](6464.md): Base Application
+- [Page extension 6465 "Serv. Res. Gr. Avail. Lines"](6465.md): Base Application
+- [Page extension 6466 "Serv. Ship-to Address"](6466.md): Base Application
+- [Page extension 6467 "Serv. Source Code Setup"](6467.md): Base Application
+- [Page extension 6468 "Serv. Extended Text"](6468.md): Base Application
+- [Page extension 6469 "Serv. Manager Timesheet"](6469.md): Base Application
+- [Page extension 6470 "Serv. Administrator Main RC"](6470.md): Base Application
+- [Page extension 6471 "Serv. Administrator RC"](6471.md): Base Application
+- [Page extension 6472 "Serv. Warehouse Manager RC"](6472.md): Base Application
+- [Page extension 6473 "Serv. Cash Flow Setup"](6473.md): Base Application
+- [Page extension 6474 "Serv. ItemAvailbyLocationLines"](6474.md): Base Application
+- [Page extension 6475 "Serv. SourceDocumentFilterCard"](6475.md): Base Application
+- [Page extension 6476 "Serv. ItemAvailbyVariantLines"](6476.md): Base Application
+- [Page extension 6477 "Serv. Timesheet Archive"](6477.md): Base Application
+- [Page extension 6478 "Serv. VAT Rate Change Setup"](6478.md): Base Application
+- [Page extension 6479 "Serv. Timesheet Archive Subf."](6479.md): Base Application
+- [Page extension 6480 "Serv. Cash Flow Avail. Lines"](6480.md): Base Application
+- [Page extension 6481 "Serv. Cash Flow Forecast Stat."](6481.md): Base Application
+- [Page extension 6482 "Serv. CFForecastStatFactBox"](6482.md): Base Application
+- [Page extension 6483 "Serv. ItemAvailabilityLines"](6483.md): Base Application
+- [Page extension 6484 "Serv. Time Sheet Line List"](6484.md): Base Application
+- [Page extension 6485 "Serv. ItemAvailbyUOMLines"](6485.md): Base Application
+- [Page extension 6486 "Serv. Timesheet Lines"](6486.md): Base Application
+- [Page extension 6487 "Serv. Timesheet Lines Subf."](6487.md): Base Application
+- [Page extension 6488 "Serv. Available Credit"](6488.md): Base Application
+- [Page extension 6489 "Serv. Customer Statistics"](6489.md): Base Application
+- [Page extension 6490 "Serv. Customer Stat. FactBox"](6490.md): Base Application
+- [Page extension 6491 "Serv. Workflow Customer Entity"](6491.md): Base Application
+- [Page extension 6492 "Serv. Customer Templ. Card"](6492.md): Base Application
+- [Page extension 6493 "Serv. Workflow Item Entity"](6493.md): Base Application
+- [Page extension 6495 "Serv. Res. Availability Lines"](6495.md): Base Application
+- [Page extension 6496 "Serv. Manager Timesheet Arch."](6496.md): Base Application
+- [Page extension 6497 "Serv. Customer Lookup"](6497.md): Base Application
+- [Page extension 6537 "E-Doc. Item Charges"](6537.md): EDocument
+- [Page extension 6610 "FS Job Task Card"](6610.md): FieldServiceIntegration
+- [Page extension 6611 "FS Job Task Lines"](6611.md): FieldServiceIntegration
+- [Page extension 6612 "FS Resource Card"](6612.md): FieldServiceIntegration
+- [Page extension 6613 "FS Resource List"](6613.md): FieldServiceIntegration
+- [Page extension 6614 "FS Service Order"](6614.md): FieldServiceIntegration
+- [Page extension 6615 "FS Job Project Manager RC"](6615.md): FieldServiceIntegration
+- [Page extension 6616 "FS Project Manager Activities"](6616.md): FieldServiceIntegration
+- [Page extension 6617 "FS Job Task List"](6617.md): FieldServiceIntegration
+- [Page extension 6618 "FS Job Journal"](6618.md): FieldServiceIntegration
+- [Page extension 6619 "FS Service Item Card"](6619.md): FieldServiceIntegration
+- [Page extension 6620 "FS Service Item List"](6620.md): FieldServiceIntegration
+- [Page extension 6621 "FS Service Manager RC"](6621.md): FieldServiceIntegration
+- [Page extension 6622 "FS Service Connections"](6622.md): FieldServiceIntegration
+- [Page extension 6623 "FS Location List"](6623.md): FieldServiceIntegration
+- [Page extension 6624 "FS Service Orders"](6624.md): FieldServiceIntegration
+- [Page extension 6625 "FS Service Order Types"](6625.md): FieldServiceIntegration
+- [Page extension 6627 "FS Service Order Subform"](6627.md): FieldServiceIntegration
+- [Page extension 6628 "FS Service Lines"](6628.md): FieldServiceIntegration
+- [Page extension 6635 "ReturnReasonsExt"](6635.md): Base Application
+- [Page extension 6784 "Withholding Vendor Card"](6784.md): WithholdingTax
+- [Page extension 6785 "Withholding Item Card"](6785.md): WithholdingTax
+- [Page extension 6786 "Withholding GL Account Card"](6786.md): WithholdingTax
+- [Page extension 6787 "Withholding Purch Ord Subform"](6787.md): WithholdingTax
+- [Page extension 6788 "Withholding GL Setup"](6788.md): WithholdingTax
+- [Page extension 6789 "WHT Purch. Invoice Subform"](6789.md): WithholdingTax
+- [Page extension 6790 "WHT Purch. Cr. Memo Subform"](6790.md): WithholdingTax
+- [Page extension 6791 "WHT Purch. Invoice Statistics"](6791.md): WithholdingTax
+- [Page extension 6792 "WHT Purch. Cr. Memo Statistics"](6792.md): WithholdingTax
+- [Page extension 6793 "Withholding G/L Registers"](6793.md): WithholdingTax
+- [Page extension 6794 "Withholding Purch Setup"](6794.md): WithholdingTax
+- [Page extension 6795 "WithholdingSourceCodeSetup"](6795.md): WithholdingTax
+- [Page extension 6796 "Withholding Purchase Order"](6796.md): WithholdingTax
+- [Page extension 6797 "Withholding Purchase Invoice"](6797.md): WithholdingTax
+- [Page extension 6798 "Withholding Posted Purch Inv"](6798.md): WithholdingTax
+- [Page extension 6799 "Withholding General Journal"](6799.md): WithholdingTax
+- [Page extension 6800 "Withholding Payment Journal"](6800.md): WithholdingTax
+- [Page extension 6801 "WHT Employee Card"](6801.md): WithholdingTax
+- [Page extension 6900 "Exp. Project Ledg. Entries"](6900.md): ExpenseAgent
+- [Page extension 6901 "Exp. Employee Posting Groups"](6901.md): ExpenseAgent
+- [Page extension 6902 "Expense Spend Request Card"](6902.md): ExpenseAgent
+- [Page extension 6903 "Expense Spend Request List"](6903.md): ExpenseAgent
+- [Page extension 6976 "Source Code Setup"](6976.md): ExpenseAgent
+- [Page extension 6977 "Exp. Approval User Setup"](6977.md): ExpenseAgent
+- [Page extension 6995 "EA Agent Card"](6995.md): ExpenseAgent
+- [Page extension 7049 "Price Calc. Update Parameters"](7049.md): Base Application
+- [Page extension 7055 "WHT Expense Categories"](7055.md): ExpenseWithholdingTax
+- [Page extension 7056 "WHT Tax Posting Setup"](7056.md): ExpenseWithholdingTax
+- [Page extension 7058 "WHT General Journal"](7058.md): ExpenseWithholdingTax
+- [Page extension 7253 "BankAccReconciliationExt"](7253.md): BankAccRecWithAI
+- [Page extension 7254 "BankAccReconciliationListExt"](7254.md): BankAccRecWithAI
+- [Page extension 7277 "Sales Invoice Sub Form Ext"](7277.md): SalesLinesSuggestions
+- [Page extension 7278 "Sales Order Sub Form Ext"](7278.md): SalesLinesSuggestions
+- [Page extension 7279 "Sales Quote Sub Form Ext"](7279.md): SalesLinesSuggestions
+- [Page extension 7313 "WhseSourceCodesExt"](7313.md): Base Application
+- [Page extension 7330 "Item Substitution Entry Ext."](7330.md): CreateProductInformationWithCopilot
+- [Page extension 7331 "Item Card Ext."](7331.md): CreateProductInformationWithCopilot
+- [Page extension 7412 "Excise Fixed Asset Card Ext"](7412.md): ExciseTaxes
+- [Page extension 7413 "Excise Journal Batch Ext"](7413.md): ExciseTaxes
+- [Page extension 7414 "Excise Journal Line Ext"](7414.md): ExciseTaxes
+- [Page extension 7415 "Excise Item Card Ext"](7415.md): ExciseTaxes
+- [Page extension 7416 "Excise Tax Trans Log Ext"](7416.md): ExciseTaxes
+- [Page extension 7417 "Excise Location Card Ext"](7417.md): ExciseTaxes
+- [Page extension 7419 "Excise Item Ledger Entries Ext"](7419.md): ExciseTaxes
+- [Page extension 7900 "ErrorMessagesRecommendationExt"](7900.md): ErrorMessagesWithRecommendations
+- [Page extension 8000 "Contract Sales H. Sell Factbox"](8000.md): Subscription Billing
+- [Page extension 8001 "Contr. Vendor H. Buy FactBox"](8001.md): Subscription Billing
+- [Page extension 8002 "Contract Contact List"](8002.md): Subscription Billing
+- [Page extension 8003 "Contract Contact Card"](8003.md): Subscription Billing
+- [Page extension 8004 "Vendor Item Catalog"](8004.md): Subscription Billing
+- [Page extension 8005 "Item Vendor Catalog"](8005.md): Subscription Billing
+- [Page extension 8006 "Item Reference Entries"](8006.md): Subscription Billing
+- [Page extension 8007 "Customer Ledger Entries"](8007.md): Subscription Billing
+- [Page extension 8008 "Vendor Ledger Entries"](8008.md): Subscription Billing
+- [Page extension 8009 "Blanket Sales Order Subform"](8009.md): Subscription Billing
+- [Page extension 8010 "Blanket Sales Order Arch. Sub."](8010.md): Subscription Billing
+- [Page extension 8011 "SubBill PBI Reports Setup"](8011.md): Subscription Billing
+- [Page extension 8012 "Purchase Invoice"](8012.md): Subscription Billing
+- [Page extension 8013 "Sub. Billing Role Center"](8013.md): Subscription Billing
+- [Page extension 8014 "SubBill PBI Assisted Setup"](8014.md): Subscription Billing
+- [Page extension 8015 "User Setup"](8015.md): Subscription Billing
+- [Page extension 8016 "Acc. Payable Activities"](8016.md): Subscription Billing
+- [Page extension 8017 "Acc. Payable Administrator RC"](8017.md): Subscription Billing
+- [Page extension 8018 "Sales Rel. Mgr. RC Sub. Bill."](8018.md): Subscription Billing
+- [Page extension 8019 "Sales Mkt. Mgr. RC SubBill"](8019.md): Subscription Billing
+- [Page extension 8051 "Customer Card"](8051.md): Subscription Billing
+- [Page extension 8052 "Customer List"](8052.md): Subscription Billing
+- [Page extension 8053 "General Ledger Setup"](8053.md): Subscription Billing, obsolete 26.0
+- [Page extension 8054 "Item Card"](8054.md): Subscription Billing
+- [Page extension 8055 "Item List"](8055.md): Subscription Billing
+- [Page extension 8056 "Vendor Card"](8056.md): Subscription Billing
+- [Page extension 8057 "Vendor List"](8057.md): Subscription Billing
+- [Page extension 8058 "Sales Invoice List"](8058.md): Subscription Billing
+- [Page extension 8059 "Sales Credit Memos"](8059.md): Subscription Billing
+- [Page extension 8060 "Posted Sales Invoices"](8060.md): Subscription Billing
+- [Page extension 8061 "Posted Sales Credit Memos"](8061.md): Subscription Billing
+- [Page extension 8062 "Sales Invoice Subform"](8062.md): Subscription Billing
+- [Page extension 8063 "Sales Cr. Memo Subform"](8063.md): Subscription Billing
+- [Page extension 8064 "Posted Sales Invoice Subform"](8064.md): Subscription Billing
+- [Page extension 8065 "Posted Sales Cr. Memo Subform"](8065.md): Subscription Billing
+- [Page extension 8066 "Sales Invoice"](8066.md): Subscription Billing
+- [Page extension 8067 "Sales Credit Memo"](8067.md): Subscription Billing
+- [Page extension 8068 "Posted Sales Invoice"](8068.md): Subscription Billing
+- [Page extension 8069 "Posted Sales Credit Memo"](8069.md): Subscription Billing
+- [Page extension 8070 "General Posting Setup"](8070.md): Subscription Billing
+- [Page extension 8071 "Purch Invoice Subform"](8071.md): Subscription Billing
+- [Page extension 8072 "Purch Cr. Memo Subform"](8072.md): Subscription Billing
+- [Page extension 8073 "Posted Purch Inv. Subform"](8073.md): Subscription Billing
+- [Page extension 8074 "Posted Purch Cr. Memo Subform"](8074.md): Subscription Billing
+- [Page extension 8075 "Sales Quote Subform"](8075.md): Subscription Billing
+- [Page extension 8076 "Sales Order Subform"](8076.md): Subscription Billing
+- [Page extension 8077 "Sales Line FactBox"](8077.md): Subscription Billing
+- [Page extension 8078 "Sales Quote Archive Subform"](8078.md): Subscription Billing
+- [Page extension 8079 "Sales Order Archive Subform"](8079.md): Subscription Billing
+- [Page extension 8080 "Business Manager RC"](8080.md): Subscription Billing
+- [Page extension 8081 "Service Dispatcher RC"](8081.md): Subscription Billing, obsolete 26.0
+- [Page extension 8082 "Order Processor RC"](8082.md): Subscription Billing, obsolete 26.0
+- [Page extension 8083 "Job Project Manager RC"](8083.md): Subscription Billing, obsolete 26.0
+- [Page extension 8084 "Sales Marketing Mgr. RC"](8084.md): Subscription Billing, obsolete 26.0
+- [Page extension 8085 "General Posting Setup Card"](8085.md): Subscription Billing
+- [Page extension 8086 "Source Code Setup"](8086.md): Subscription Billing
+- [Page extension 8087 "General Ledger Entries"](8087.md): Subscription Billing
+- [Page extension 8095 "Item Templ. Card"](8095.md): Subscription Billing
+- [Page extension 8700 "Table Information Ext."](8700.md): Base Application
+- [Page extension 8850 "Bank Account Card Extension"](8850.md): SimplifiedBankStatementImport
+- [Page extension 8851 "Bank Exp. Imp. Setup Extension"](8851.md): SimplifiedBankStatementImport
+- [Page extension 8900 "Email Address Lookup"](8900.md): Base Application
+- [Page extension 9177 "Accessible Companies"](9177.md): Base Application
+- [Page extension 9202 "Advanced Settings Ext."](9202.md): Base Application
+- [Page extension 9204 "User Settings"](9204.md): Base Application
+- [Page extension 9206 "User Personalization"](9206.md): Base Application
+- [Page extension 9207 "Plan Configuration List Ext."](9207.md): Base Application
+- [Page extension 9208 "Plan Configuration Card Ext."](9208.md): Base Application
+- [Page extension 9800 "Users Perf. Factboxes"](9800.md): Base Application
+- [Page extension 9801 "Users Customization"](9801.md): Base Application
+- [Page extension 9805 "Approval Job Queue Entries"](9805.md): Base Application
+- [Page extension 9806 "Approval Job Queue Entry Card"](9806.md): Base Application
+- [Page extension 9807 "User Card Perf. Factboxes"](9807.md): Base Application
+- [Page extension 9808 "User Card Customization"](9808.md): Base Application
+- [Page extension 9862 "User Subform Permissions"](9862.md): System Application
+- [Page extension 9866 "Sec. Group Members Drilldown"](9866.md): Base Application
+- [Page extension 9871 "BaseApp Security Groups"](9871.md): Base Application
+- [Page extension 20103 "AMC Bank Bank Account Card"](20103.md): AMCBanking365Fundamentals, obsolete 28.0
+- [Page extension 20104 "AMC Bank Paym. Meth. Page Ext"](20104.md): AMCBanking365Fundamentals, obsolete 28.0
+- [Page extension 20108 "AMC Bank Credit Trf. Reg. Ext"](20108.md): AMCBanking365Fundamentals, obsolete 28.0
+- [Page extension 20110 "AMC Bank Stmt Line Det. Ext"](20110.md): AMCBanking365Fundamentals, obsolete 28.0
+- [Page extension 20111 "AMC Bank Bank Account Page Ext"](20111.md): AMCBanking365Fundamentals, obsolete 28.0
+- [Page extension 20232 "Customer Card Ext"](20232.md): INTaxEngine
+- [Page extension 20233 "Item Card Ext"](20233.md): INTaxEngine
+- [Page extension 20234 "Location Card Ext"](20234.md): INTaxEngine
+- [Page extension 20241 "Gen Journal Ext"](20241.md): INTaxEngine
+- [Page extension 20242 "Payment Journal Ext"](20242.md): INTaxEngine
+- [Page extension 20243 "Posted Purchase Cr. Memo Ext"](20243.md): INTaxEngine
+- [Page extension 20244 "Posted Purchase Invoice Ext"](20244.md): INTaxEngine
+- [Page extension 20245 "Posted Sales Cr. Memo Ext"](20245.md): INTaxEngine
+- [Page extension 20246 "Posted Sales Invoice Ext"](20246.md): INTaxEngine
+- [Page extension 20247 "Posted Transfer Receipt Ext"](20247.md): INTaxEngine
+- [Page extension 20248 "Posted Transfer Shipment Ext"](20248.md): INTaxEngine
+- [Page extension 20249 "Purchase Credit Memo Ext"](20249.md): INTaxEngine
+- [Page extension 20250 "Purchase Invoice Ext"](20250.md): INTaxEngine
+- [Page extension 20251 "Purchase Order Ext"](20251.md): INTaxEngine
+- [Page extension 20252 "Purchase Quote Ext"](20252.md): INTaxEngine
+- [Page extension 20253 "Purchase Return Order Ext"](20253.md): INTaxEngine
+- [Page extension 20254 "Purch. Journal Ext"](20254.md): INTaxEngine
+- [Page extension 20255 "Sales Credit Memo Extension"](20255.md): INTaxEngine
+- [Page extension 20256 "Sales Invoice Ext"](20256.md): INTaxEngine
+- [Page extension 20257 "Sales Journal Ext"](20257.md): INTaxEngine
+- [Page extension 20258 "Sales Order Ext"](20258.md): INTaxEngine
+- [Page extension 20259 "Sales Quote Ext"](20259.md): INTaxEngine
+- [Page extension 20260 "Sales Return Order Ext"](20260.md): INTaxEngine
+- [Page extension 20261 "Transfer Order Ext"](20261.md): INTaxEngine
+- [Page extension 20262 "Vendor Card Ext"](20262.md): INTaxEngine
+- [Page extension 20263 "Tax Settings Ext."](20263.md): INTaxEngine
+- [Page extension 20271 "Purchase Blanket Order Ext"](20271.md): INTaxEngine
+- [Page extension 20272 "Sales Blanket Order Ext"](20272.md): INTaxEngine
+- [Page extension 20283 "Posted Purch. Cr. Stats Ext"](20283.md): INTaxEngine
+- [Page extension 20284 "Posted Purch. Inv. Stats Ext"](20284.md): INTaxEngine
+- [Page extension 20285 "Posted Sales Cr. Stats Ext"](20285.md): INTaxEngine
+- [Page extension 20286 "Posted Sales Stats Ext"](20286.md): INTaxEngine
+- [Page extension 20287 "Purchase Stats Ext"](20287.md): INTaxEngine
+- [Page extension 20288 "Purch Credit Memo Stat Ext"](20288.md): INTaxEngine
+- [Page extension 20289 "Sales Order Statistics Ext"](20289.md): INTaxEngine
+- [Page extension 20290 "Sales Stats Ext"](20290.md): INTaxEngine
+- [Page extension 20291 "Transfer Receipt Stats Ext"](20291.md): INTaxEngine
+- [Page extension 20292 "Transfer Shipment Stats Ext"](20292.md): INTaxEngine
+- [Page extension 20293 "Transfer Statistics Ext"](20293.md): INTaxEngine
+- [Page extension 20350 "Bank Account Card Ext."](20350.md): ConnectivityApps
+- [Page extension 20351 "Bank Account List Ext."](20351.md): ConnectivityApps
+- [Page extension 20352 "Bank Acc. Reconciliation Ext."](20352.md): ConnectivityApps
+- [Page extension 20353 "Headline RC Bus. Manager Ext."](20353.md): ConnectivityApps
+- [Page extension 20354 "Headline RC Accountant Ext."](20354.md): ConnectivityApps
+- [Page extension 20355 "Payment Journal Ext."](20355.md): ConnectivityApps
+- [Page extension 20356 "Pmt. Recon. Journal Ext."](20356.md): ConnectivityApps
+- [Page extension 20357 "Extension Management Ext."](20357.md): ConnectivityApps
+- [Page extension 20400 "Qlty. Prod. Order Routing"](20400.md): Quality Management
+- [Page extension 20401 "Qlty. Output Journal"](20401.md): Quality Management
+- [Page extension 20402 "Qlty. Purchase Order Subform"](20402.md): Quality Management
+- [Page extension 20403 "Qlty. Workflow Resp. Options"](20403.md): Quality Management
+- [Page extension 20404 "Qlty. Business Manager RC"](20404.md): Quality Management, obsolete 28.0
+- [Page extension 20405 "Qlty. Sales Order Subform"](20405.md): Quality Management
+- [Page extension 20406 "Qlty. Sales Return Order Subf."](20406.md): Quality Management
+- [Page extension 20407 "Qlty. Purch. Ret. Order Subf."](20407.md): Quality Management
+- [Page extension 20408 "Qlty. Consumption Journal"](20408.md): Quality Management
+- [Page extension 20409 "Qlty. Item Tracking Summary"](20409.md): Quality Management
+- [Page extension 20410 "Qlty. Item Avail. by Lot No."](20410.md): Quality Management
+- [Page extension 20411 "Qlty. Lot No. Info. List"](20411.md): Quality Management
+- [Page extension 20412 "Qlty. Lot No. Info. Card"](20412.md): Quality Management
+- [Page extension 20413 "Qlty. Serial No. Info. List"](20413.md): Quality Management
+- [Page extension 20414 "Qlty. Serial No. Info. Card"](20414.md): Quality Management
+- [Page extension 20415 "Qlty. Purchasing Agent RC"](20415.md): Quality Management
+- [Page extension 20416 "Qlty. Shop Supervisor RC"](20416.md): Quality Management
+- [Page extension 20417 "Qlty. Machine Operator RC"](20417.md): Quality Management
+- [Page extension 20418 "Qlty. Item Tracking Lines"](20418.md): Quality Management
+- [Page extension 20419 "Qlty. Package No. Info. List"](20419.md): Quality Management
+- [Page extension 20420 "Qlty. Package No. Info. Card"](20420.md): Quality Management
+- [Page extension 20421 "Qlty. Whse. Basic RC"](20421.md): Quality Management
+- [Page extension 20423 "Qlty. Transfer Order"](20423.md): Quality Management
+- [Page extension 20424 "Qlty. Posted Direct Transfer"](20424.md): Quality Management
+- [Page extension 20425 "Qlty. Posted Transfer Shipment"](20425.md): Quality Management
+- [Page extension 20426 "Qlty. Posted Transfer Receipt"](20426.md): Quality Management
+- [Page extension 20427 "Qlty. Warehouse Entries"](20427.md): Quality Management
+- [Page extension 20428 "Qlty. Item Tracing"](20428.md): Quality Management
+- [Page extension 20429 "Qlty. Item Tracking Entries"](20429.md): Quality Management
+- [Page extension 20430 "Qlty. Item Card"](20430.md): Quality Management
+- [Page extension 20431 "Qlty. Item List"](20431.md): Quality Management
+- [Page extension 20432 "Qlty. Item Variants"](20432.md): Quality Management
+- [Page extension 20433 "Qlty. Item Variant Card"](20433.md): Quality Management
+- [Page extension 20501 "Subc. ILEntries"](20501.md): Subcontracting
+- [Page extension 20502 "Subc. CapLEntries"](20502.md): Subcontracting
+- [Page extension 20503 "Subc. Prod. Order Rtng."](20503.md): Subcontracting
+- [Page extension 20504 "Subc. Rel. Prod. Order"](20504.md): Subcontracting
+- [Page extension 20505 "Subc. Rel. Prod. Orders"](20505.md): Subcontracting
+- [Page extension 20506 "Subc. Work Center Card"](20506.md): Subcontracting
+- [Page extension 20507 "Subc. Work Center List"](20507.md): Subcontracting
+- [Page extension 20508 "Subc. Routing Lines"](20508.md): Subcontracting
+- [Page extension 20509 "Subc. Routing Version Lines"](20509.md): Subcontracting
+- [Page extension 20510 "Subc. Prod BOM Lines"](20510.md): Subcontracting
+- [Page extension 20511 "Subc. Planning Comp"](20511.md): Subcontracting
+- [Page extension 20512 "Subc. Prod Order Comp"](20512.md): Subcontracting
+- [Page extension 20513 "Subc. ProdOrderCompLine"](20513.md): Subcontracting
+- [Page extension 20514 "Subc. ProdBOMVersionLines"](20514.md): Subcontracting
+- [Page extension 20515 "Subc. Standard Tasks"](20515.md): Subcontracting
+- [Page extension 20516 "Subc. Vendor Card"](20516.md): Subcontracting
+- [Page extension 20517 "Subc. Vendor List"](20517.md): Subcontracting
+- [Page extension 20518 "Subc. Item Card"](20518.md): Subcontracting
+- [Page extension 20519 "Subc. Item List"](20519.md): Subcontracting
+- [Page extension 20523 "Subc. Purch. Order"](20523.md): Subcontracting
+- [Page extension 20524 "Subc. PO Subform"](20524.md): Subcontracting
+- [Page extension 20525 "Subc. PurchOrderList"](20525.md): Subcontracting
+- [Page extension 20526 "Subc. Transfer Order"](20526.md): Subcontracting
+- [Page extension 20527 "Subc. Pstd. Transfer Shpt"](20527.md): Subcontracting
+- [Page extension 20528 "Subc. Pstd. Transfer Rcpt"](20528.md): Subcontracting
+- [Page extension 20529 "Subc. Trans. Order Sub."](20529.md): Subcontracting
+- [Page extension 20530 "Subc. Transfer Lines"](20530.md): Subcontracting
+- [Page extension 20531 "Subc. Pstd. Direct Trans."](20531.md): Subcontracting
+- [Page extension 20532 "Subc. PstdDirectTransfSub"](20532.md): Subcontracting
+- [Page extension 20533 "Subc. Whse Rcpt Subform Ext."](20533.md): Subcontracting
+- [Page extension 20534 "Subc. Whse Rcpt Lines Ext."](20534.md): Subcontracting
+- [Page extension 20535 "Subc. Purchasing Manager RC"](20535.md): Subcontracting
+- [Page extension 20536 "Subc. Manufacturing Manager RC"](20536.md): Subcontracting
+- [Page extension 20537 "Subc. Prod. Planner Activities"](20537.md): Subcontracting
+- [Page extension 20538 "Subc. Prod. Planner RoleCenter"](20538.md): Subcontracting
+- [Page extension 20539 "Subc. Shop S. Mfg Foundation"](20539.md): Subcontracting
+- [Page extension 20540 "Subc. Shop Super. Role Center"](20540.md): Subcontracting
+- [Page extension 20541 "Subc. Purch. Agent Role Center"](20541.md): Subcontracting
+- [Page extension 20542 "Subc. Manufacturing Setup"](20542.md): Subcontracting
+- [Page extension 20543 "Subc. Finished Prod. Orders"](20543.md): Subcontracting
+- [Page extension 20544 "Subc.Change Status Prod. Order"](20544.md): Subcontracting
+- [Page extension 20545 "Subc. Pstd. Whse Rcpt Sub"](20545.md): Subcontracting
+- [Page extension 20546 "Subc. Pstd. Whse Shipm Sub"](20546.md): Subcontracting
+- [Page extension 20547 "Subc. Whse Shipm. Subform Ext."](20547.md): Subcontracting
+- [Page extension 20548 "Subc. Finished Prod. Order"](20548.md): Subcontracting
+- [Page extension 20549 "Subc. Shop Super. Activities"](20549.md): Subcontracting
+- [Page extension 20550 "Subc. ShopSuperbasicActivity"](20550.md): Subcontracting
+- [Page extension 20551 "Subc. Transfer Orders"](20551.md): Subcontracting
+- [Page extension 20552 "Subc. Pstd. Transfer Shpts."](20552.md): Subcontracting
+- [Page extension 20553 "Subc. Pstd. Transfer Rcpts."](20553.md): Subcontracting
+- [Page extension 20554 "Subc. Pstd. Direct Transfers"](20554.md): Subcontracting
+- [Page extension 20576 "Subc. Pstd. Invt. Pick"](20576.md): Subcontracting
+- [Page extension 20577 "Subc. Pstd. Invt. Putaway"](20577.md): Subcontracting
+- [Page extension 20600 "Accountant Activities BF"](20600.md): BasicExperience
+- [Page extension 20601 "Accountant Role Center BF"](20601.md): BasicExperience
+- [Page extension 20602 "Acc Manager RoleCenter BF"](20602.md): BasicExperience
+- [Page extension 20603 "Acc Payables Coordinator RC BF"](20603.md): BasicExperience
+- [Page extension 20604 "Acc Receivables Adm RC BF"](20604.md): BasicExperience
+- [Page extension 20605 "Administrator Role Center BF"](20605.md): BasicExperience
+- [Page extension 20606 "Bookkeeper Role Center BF"](20606.md): BasicExperience
+- [Page extension 20607 "BusinessManagerRoleCenter BF"](20607.md): BasicExperience
+- [Page extension 20608 "Business Relations BF"](20608.md): BasicExperience
+- [Page extension 20609 "CEO and President RC BF"](20609.md): BasicExperience
+- [Page extension 20610 "Contact Alt. Address List BF"](20610.md): BasicExperience
+- [Page extension 20611 "Contact Card BF"](20611.md): BasicExperience
+- [Page extension 20612 "Contact List BF"](20612.md): BasicExperience
+- [Page extension 20613 "Contact Statistics FactBox BF"](20613.md): BasicExperience
+- [Page extension 20614 "Contact Through BF"](20614.md): BasicExperience
+- [Page extension 20615 "Customer Card BF"](20615.md): BasicExperience
+- [Page extension 20616 "Customer List BF"](20616.md): BasicExperience
+- [Page extension 20617 "Customer Statistics FactBox BF"](20617.md): BasicExperience
+- [Page extension 20620 "Finance Manager Role Center BF"](20620.md): BasicExperience
+- [Page extension 20621 "Item Availability Check BF"](20621.md): BasicExperience
+- [Page extension 20622 "Item Card BF"](20622.md): BasicExperience
+- [Page extension 20623 "Item Charge Ass. (Purch) BF"](20623.md): BasicExperience
+- [Page extension 20624 "Item Charge Ass. (Sales) BF"](20624.md): BasicExperience
+- [Page extension 20625 "Item List BF"](20625.md): BasicExperience
+- [Page extension 20626 "Job Project Manager RC BF"](20626.md): BasicExperience
+- [Page extension 20627 "Manufacturing Manager RC BF"](20627.md): BasicExperience
+- [Page extension 20628 "Name Details BF"](20628.md): BasicExperience
+- [Page extension 20629 "O365 Activities BF"](20629.md): BasicExperience
+- [Page extension 20630 "Order Processor Role Center BF"](20630.md): BasicExperience
+- [Page extension 20631 "Purchase Agent Activities BF"](20631.md): BasicExperience
+- [Page extension 20632 "Purchase Quote BF"](20632.md): BasicExperience
+- [Page extension 20633 "Purchase Quotes BF"](20633.md): BasicExperience
+- [Page extension 20634 "Purch Agent Role Center BF"](20634.md): BasicExperience
+- [Page extension 20635 "Purchasing Manager RC BF"](20635.md): BasicExperience
+- [Page extension 20636 "Purch Invoice Subform BF"](20636.md): BasicExperience
+- [Page extension 20637 "PurchOrder From SalesOrder BF"](20637.md): BasicExperience
+- [Page extension 20638 "Reminder BF"](20638.md): BasicExperience
+- [Page extension 20639 "Resource Card BF"](20639.md): BasicExperience
+- [Page extension 20640 "Resource List BF"](20640.md): BasicExperience
+- [Page extension 20641 "Sales & Mark Manager RC BF"](20641.md): BasicExperience
+- [Page extension 20642 "Sales Hist. Sell-to FactBox BF"](20642.md): BasicExperience
+- [Page extension 20643 "Sales Invoice Subform BF"](20643.md): BasicExperience
+- [Page extension 20644 "Sales List Archive BF"](20644.md): BasicExperience
+- [Page extension 20645 "Sales Manager Role Center BF"](20645.md): BasicExperience
+- [Page extension 20646 "Sales Order Archive BF"](20646.md): BasicExperience
+- [Page extension 20647 "Salesperson/Purchaser Card BF"](20647.md): BasicExperience
+- [Page extension 20648 "Salespersons/Purchasers BF"](20648.md): BasicExperience
+- [Page extension 20649 "Salesperson Statistics BF"](20649.md): BasicExperience
+- [Page extension 20650 "Sales Quote BF"](20650.md): BasicExperience
+- [Page extension 20651 "Sales Quote Archive BF"](20651.md): BasicExperience
+- [Page extension 20652 "Sales Quotes BF"](20652.md): BasicExperience
+- [Page extension 20653 "Sales&Relationship Mgr Act BF"](20653.md): BasicExperience
+- [Page extension 20654 "Sales Relation ship Mgr RC BF"](20654.md): BasicExperience
+- [Page extension 20655 "Service Dispatcher RC BF"](20655.md): BasicExperience
+- [Page extension 20656 "Shipping Agents BF"](20656.md): BasicExperience
+- [Page extension 20657 "Small Business Owner Act BF"](20657.md): BasicExperience
+- [Page extension 20658 "Small Business Owner RC BF"](20658.md): BasicExperience
+- [Page extension 20659 "SO Processor Activities BF"](20659.md): BasicExperience
+- [Page extension 20660 "Team Member Role Center BF"](20660.md): BasicExperience
+- [Page extension 20661 "Vendor Card BF"](20661.md): BasicExperience
+- [Page extension 20662 "Vendor Hist. Buy-from FB BF"](20662.md): BasicExperience
+- [Page extension 20663 "Vendor List BF"](20663.md): BasicExperience
+- [Page extension 20664 "Vendor Statistics FactBox BF"](20664.md): BasicExperience
+- [Page extension 20665 "Warehouse Manager RC BF"](20665.md): BasicExperience
+- [Page extension 20666 "Web Sources BF"](20666.md): BasicExperience
+- [Page extension 20667 "Whse. Basic Role Center BF"](20667.md): BasicExperience
+- [Page extension 20668 "Whse Ship & Receive Act. BF"](20668.md): BasicExperience
+- [Page extension 20669 "Whse. WMS Role Center BF"](20669.md): BasicExperience
+- [Page extension 22204 "General Ledger Entries Review"](22204.md): ReviewGLEntries
+- [Page extension 22205 "G/L Account Card Review Option"](22205.md): ReviewGLEntries
+- [Page extension 22220 "Chart of Accounts Review"](22220.md): ReviewGLEntries
+- [Page extension 30101 "Shpfy Business Manager RC"](30101.md): Shopify
+- [Page extension 30102 "Shpfy Order Processor RC"](30102.md): Shopify
+- [Page extension 30104 "Shpfy Sales & Rel. Mgr. RC"](30104.md): Shopify
+- [Page extension 30106 "Shpfy Posted Sales Invoice"](30106.md): Shopify
+- [Page extension 30107 "Shpfy Posted Sales Invoices"](30107.md): Shopify
+- [Page extension 30108 "Shpfy Post. Sales Shipment"](30108.md): Shopify
+- [Page extension 30109 "Shpfy Post. Sales Shipm. Lines"](30109.md): Shopify
+- [Page extension 30110 "Shpfy Post. Sales Shipments"](30110.md): Shopify
+- [Page extension 30111 "Shpfy Post. Sal. Inv. Subform"](30111.md): Shopify
+- [Page extension 30112 "Shpfy Sales Invoice List"](30112.md): Shopify
+- [Page extension 30113 "Shpfy Sales Invoice"](30113.md): Shopify
+- [Page extension 30114 "Shpfy Sales Invoice Subform"](30114.md): Shopify
+- [Page extension 30115 "Shpfy Sales Order"](30115.md): Shopify
+- [Page extension 30116 "Shpfy Sales Order List"](30116.md): Shopify
+- [Page extension 30117 "Shpfy Sales Order Subform"](30117.md): Shopify
+- [Page extension 30118 "Shpfy Shipping Agents"](30118.md): Shopify
+- [Page extension 30119 "Shpfy Item Card"](30119.md): Shopify
+- [Page extension 30120 "Shpfy Item List"](30120.md): Shopify
+- [Page extension 30121 "Shpfy Sales Credit Memos"](30121.md): Shopify
+- [Page extension 30122 "Shpfy Sales Credit Memo"](30122.md): Shopify
+- [Page extension 30123 "Shpfy Sales Shipment Update"](30123.md): Shopify
+- [Page extension 30124 "Shpfy Cash Receipt Journal"](30124.md): Shopify
+- [Page extension 30125 "Shpfy Sales Invoice Update"](30125.md): Shopify
+- [Page extension 30126 "Shpfy Posted Sales Cr. Memos"](30126.md): Shopify
+- [Page extension 30127 "Shpfy Item Attributes"](30127.md): Shopify
+- [Page extension 30128 "Shpfy Item Attribute Card"](30128.md): Shopify
+- [Page extension 36950 "Administrator Main Role Center"](36950.md): PowerBIReports
+- [Page extension 36951 "A/P Administrator RC"](36951.md): PowerBIReports
+- [Page extension 36953 "Business Manager Role Center"](36953.md): PowerBIReports
+- [Page extension 36954 "Order Processor Role Center"](36954.md): PowerBIReports
+- [Page extension 36955 "Purchasing Agent Role Center"](36955.md): PowerBIReports
+- [Page extension 36956 "Whse. Basic Role Center"](36956.md): PowerBIReports
+- [Page extension 36957 "Power BI Job Project Manager"](36957.md): PowerBIReports
+- [Page extension 36958 "Production Planner Role Center"](36958.md): PowerBIReports
+- [Page extension 36959 "Finance Manager Role Center"](36959.md): PowerBIReports
+- [Page extension 36960 "Sales & Marketing Manager RC"](36960.md): PowerBIReports
+- [Page extension 36961 "Purchasing Manager Role Center"](36961.md): PowerBIReports
+- [Page extension 36962 "Warehouse Manager Role Center"](36962.md): PowerBIReports
+- [Page extension 36963 "Project Manager Role Center"](36963.md): PowerBIReports
+- [Page extension 36964 "Manufacturing Manager RC"](36964.md): PowerBIReports
+- [Page extension 36965 "PBI Report Deployments Ext."](36965.md): PowerBIReports
+- [Page extension 37221 "PEPPOL VAT Clauses"](37221.md): PEPPOL
+- [Page extension 41004 "Chart of Accounts Ext."](41004.md): DynamicsGPHistoricalData
+- [Page extension 41018 "Customer List Ext."](41018.md): DynamicsGPHistoricalData
+- [Page extension 41019 "Vendor List Ext."](41019.md): DynamicsGPHistoricalData
+- [Page extension 41020 "Item List Ext."](41020.md): DynamicsGPHistoricalData
+- [Page extension 41021 "Hist. Sales Factbox Ext."](41021.md): DynamicsGPHistoricalData
+- [Page extension 41022 "Hist. Vendor Factbox Ext."](41022.md): DynamicsGPHistoricalData
+- [Page extension 42800 "SL Hist. G/L Account Card"](42800.md): DynamicsSLHistoricalData
+- [Page extension 42801 "SL Hist. Chart of Accounts"](42801.md): DynamicsSLHistoricalData
+- [Page extension 42802 "SL Hist. Customer List"](42802.md): DynamicsSLHistoricalData
+- [Page extension 42803 "SL Hist. Customer Card"](42803.md): DynamicsSLHistoricalData
+- [Page extension 42804 "SL Hist. Vendor List"](42804.md): DynamicsSLHistoricalData
+- [Page extension 42805 "SL Hist. Vendor Card"](42805.md): DynamicsSLHistoricalData
+- [Page extension 42806 "SL Hist. Project List"](42806.md): DynamicsSLHistoricalData
+- [Page extension 42807 "SL Hist. Project Card"](42807.md): DynamicsSLHistoricalData
+- [Page extension 46870 "BC14 Cloud Migration Mgmt Ext"](46870.md): HybridBC14
+- [Page extension 47001 "SL Cloud Migration Mgmt. Ext."](47001.md): HybridSL
+- [Page extension 47002 "SL Hybrid Cloud Wizard Ext."](47002.md): HybridSL
+- [Page extension 99000750 "Mfg. Item Card"](99000750.md): Base Application
+- [Page extension 99000751 "Mfg. Item List"](99000751.md): Base Application
+- [Page extension 99000752 "Mfg. Item Templ. Card"](99000752.md): Base Application
+- [Page extension 99000753 "Mfg. Item Lookup"](99000753.md): Base Application
+- [Page extension 99000754 "Mfg. Stockkeeping Unit Card"](99000754.md): Base Application
+- [Page extension 99000755 "Mfg. Stockkeeping Unit List"](99000755.md): Base Application
+- [Page extension 99000756 "Mfg. Location Card"](99000756.md): Base Application
+- [Page extension 99000757 "Mfg. BOM Cost Shares"](99000757.md): Base Application
+- [Page extension 99000758 "Mfg. ItemReplenishmentFactBox"](99000758.md): Base Application
+- [Page extension 99000759 "Mfg. Cost Adjustment Overview"](99000759.md): Base Application
+- [Page extension 99000760 "Mfg. BlanketPurchOrderArchSub"](99000760.md): Base Application
+- [Page extension 99000761 "Mfg. Purchasing Manager RC"](99000761.md): Base Application
+- [Page extension 99000762 "Mfg. PurchQuoteArchiveSubform"](99000762.md): Base Application
+- [Page extension 99000763 "Mfg. PurchOrderArchiveSubf"](99000763.md): Base Application
+- [Page extension 99000764 "Mfg. PurchReturnOrderArchSubf"](99000764.md): Base Application
+- [Page extension 99000765 "Mfg. Purchase Order Subform"](99000765.md): Base Application
+- [Page extension 99000766 "Mfg. Purchase Quote Subform"](99000766.md): Base Application
+- [Page extension 99000767 "Mfg. Item Availability Lines"](99000767.md): Base Application
+- [Page extension 99000768 "Mfg. Purch. Cr. Memo Subform"](99000768.md): Base Application
+- [Page extension 99000769 "Mfg. Purch. Invoice Subform"](99000769.md): Base Application
+- [Page extension 99000770 "Mfg. Warehouse Manager RC"](99000770.md): Base Application
+- [Page extension 99000771 "Mfg. Whse. Basic Role Center"](99000771.md): Base Application
+- [Page extension 99000772 "Mfg. Whse. WMS Role Center"](99000772.md): Base Application
+- [Page extension 99000773 "Mfg. Whse. Worker WMS RC"](99000773.md): Base Application
+- [Page extension 99000774 "Mfg. Item Avail. by UOM Lines"](99000774.md): Base Application
+- [Page extension 99000775 "Mfg. ItemAvailByVariantLines"](99000775.md): Base Application
+- [Page extension 99000776 "Mfg. Movement Worksheet"](99000776.md): Base Application
+- [Page extension 99000777 "DF Sales Marketing Mgr. RC"](99000777.md): Base Application
+- [Page extension 99000778 "Mfg. Administrator RC"](99000778.md): Base Application
+- [Page extension 99000779 "Mfg. Administrator Main RC"](99000779.md): Base Application
+- [Page extension 99000780 "Mfg. Finance Manager RC"](99000780.md): Base Application
+- [Page extension 99000781 "Mfg. Get Receipt Lines"](99000781.md): Base Application
+- [Page extension 99000782 "Mfg. Get Return Shipment Lines"](99000782.md): Base Application
+- [Page extension 99000783 "Mfg. PostedPurchCrMemoLines"](99000783.md): Base Application
+- [Page extension 99000784 "Mfg. PostedPurchRcptSubform"](99000784.md): Base Application
+- [Page extension 99000785 "Mfg. PurchReturnOrderSubform"](99000785.md): Base Application
+- [Page extension 99000786 "Mfg. PostedPurchReceiptLines"](99000786.md): Base Application
+- [Page extension 99000787 "Mfg. Item Ledger Entries"](99000787.md): Base Application
+- [Page extension 99000788 "Mfg. Value Entries"](99000788.md): Base Application
+- [Page extension 99000789 "Mfg. PostedPurchCrMemoSubform"](99000789.md): Base Application
+- [Page extension 99000790 "Mfg. PostedReturnShipmentLines"](99000790.md): Base Application
+- [Page extension 99000791 "Mfg. PostedReturnShipmentSubf"](99000791.md): Base Application
+- [Page extension 99000792 "Mfg. Purch. Receipt Lines"](99000792.md): Base Application
+- [Page extension 99000793 "Mfg. Return Shipment Lines"](99000793.md): Base Application
+- [Page extension 99000794 "Mfg. VAT Rate Change Setup"](99000794.md): Base Application
+- [Page extension 99000795 "Mfg. Item Variant Card"](99000795.md): Base Application
+- [Page extension 99000796 "Mfg. Item Variants"](99000796.md): Base Application
+- [Page extension 99000797 "Mfg. Req. Worksheet"](99000797.md): Base Application
+- [Page extension 99000798 "DF Purchasing Manager RC"](99000798.md): Base Application
+- [Page extension 99000802 "Mfg. Capacity Ledger Entries"](99000802.md): Base Application
+- [Page extension 99000815 "Mfg. ItemAvailByLocationLines"](99000815.md): Base Application
+- [Page extension 99000830 "Mfg. Workflow - Item Entity"](99000830.md): Base Application
+- [Page extension 99000831 "Mfg. PurchDocumentLineEntity"](99000831.md): Base Application
+- [Page extension 99000832 "Mfg. Order Planning"](99000832.md): Base Application
+- [Page extension 99000834 "Mfg. Planning Component List"](99000834.md): Base Application
+- [Page extension 99000835 "Mfg. Location Card Part"](99000835.md): Base Application
+- [Page extension 99000836 "Mfg. Planning Components"](99000836.md): Base Application
+- [Page extension 99000837 "Mfg. Recurring Req. Worksheet"](99000837.md): Base Application
+- [Page extension 99000841 "Mfg. Standard Cost Worksheet"](99000841.md): Base Application
+- [Page extension 99000852 "Mfg. Planning Worksheet"](99000852.md): Base Application
+- [Page extension 99000860 "Mfg. Planning Wksh. Line List"](99000860.md): Base Application
+- [Page extension 99000861 "Mfg. Data Administration"](99000861.md): Base Application
+- [Page extension 99000883 "Mfg. Sales Order Planning"](99000883.md): Base Application
+- [Page extension 99000900 "Mfg. Item Tracking Code Card"](99000900.md): Base Application

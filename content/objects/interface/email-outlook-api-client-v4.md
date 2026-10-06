@@ -1,0 +1,100 @@
+---
+id: object/interface/email-outlook-api-client-v4
+type: object
+title: Interface "Email - Outlook API Client v4"
+summary: Interface "Email - Outlook API Client v4" in Email - Outlook REST API (System.Email). 5 public procedures. Introduced in BC29, still in BC30. Obsolete (Pending since 28.0).
+tier: official
+language: en
+tags:
+  - interface
+  - email - outlook rest api
+versions:
+  introduced: "29"
+  last_changed: null
+  deprecated: "28.0"
+review:
+  state: unreviewed
+  by: null
+  at: null
+  flags: []
+generated:
+  at: "2026-10-06T17:21:46.353Z"
+  pipeline: 0.2.0
+  prompts: {}
+  input_hash: e149bc17da46c42509dded831b4398254dc7c4d94f0a9b6fea23210349f6b494
+evidence:
+  - kind: code
+    url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/Email%20-%20Outlook%20REST%20API/app/src/EmailOutlookAPIClientv4.Interface.al
+    title: src/Apps/W1/Email - Outlook REST API/app/src/EmailOutlookAPIClientv4.Interface.al (releases/29.x)
+    date: null
+    commit: d7c9c667c671da2cda3a0738b18ed99ca4181765
+    t: null
+    quote: null
+links:
+  learn: []
+  objects: []
+  features: []
+  topics: []
+  localizations: []
+  videos: []
+  posts: []
+  guidelines: []
+object_type: interface
+object_id: null
+name: Email - Outlook API Client v4
+namespace: System.Email
+app: Email - Outlook REST API
+extends: null
+first_version: "29"
+last_version: "30"
+present_in:
+  - "29"
+  - "30"
+changed_in: []
+source_major: "29"
+obsolete:
+  state: Pending
+  tag: "28.0"
+  reason: This interface is deprecated. Please use the Email - Outlook API Client v5 interface instead.
+countries: []
+ms_search_form_ids: []
+counts:
+  fields: 0
+  procedures: 5
+  events: 0
+  subscribers: 0
+---
+
+# Interface "Email - Outlook API Client v4"
+
+> Interface "Email - Outlook API Client v4" in Email - Outlook REST API (System.Email). 5 public procedures. Introduced in BC29, still in BC30. Obsolete (Pending since 28.0).
+
+Email - Outlook REST API · System.Email · BC29-30 · [source at d7c9c667](https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/Email%20-%20Outlook%20REST%20API/app/src/EmailOutlookAPIClientv4.Interface.al) · facts from BC29
+
+## Properties
+
+| Property | Value |
+|---|---|
+| ObsoleteState | Pending |
+| ObsoleteTag | 28.0 |
+| ObsoleteReason | This interface is deprecated. Please use the Email - Outlook API Client v5 interface instead. |
+
+## Procedures
+
+- `RetrieveEmails(AccessToken: SecretText; OutlookAccount: Record "Email - Outlook Account"; var Filters: Record "Email Retrieval Filters" temporary): JsonArray`: Retrieves the emails from the Outlook API.
+- `RetrieveEmail(AccessToken: SecretText; EmailAddress: Text[250]; ExternalMessageId: Text; var Filters: Record "Email Retrieval Filters" temporary): JsonObject`: Retrieves an email from the Outlook API.
+- `CreateDraftReply(AccessToken: SecretText; EmailAddress: Text[250]; ExternalMessageId: Text): Text`: Creates a draft reply to a specific email.
+- `ReplyEmail(AccessToken: SecretText; EmailAddress: Text[250]; ExternalMessageId: Text; MessageJsonText: Text)`: Replies to an email.
+- `MarkEmailAsRead(AccessToken: SecretText; EmailAddress: Text[250]; ExternalMessageId: Text)`: Marks an email as read.
+
+## Across versions
+
+- Present in: BC29, BC30
+- Changed (declaration) in: none
+- Obsolete: Pending since 28.0, "This interface is deprecated. Please use the Email - Outlook API Client v5 interface instead."
+
+## Deprecations
+
+- object: Pending 28.0 (#if not CLEAN28), "This interface is deprecated. Please use the Email - Outlook API Client v5 interface instead."
+
+Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).

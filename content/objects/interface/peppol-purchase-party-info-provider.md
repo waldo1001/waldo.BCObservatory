@@ -1,0 +1,87 @@
+---
+id: object/interface/peppol-purchase-party-info-provider
+type: object
+title: Interface "PEPPOL Purchase Party Info Provider"
+summary: Interface "PEPPOL Purchase Party Info Provider" in PEPPOL (Microsoft.Peppol). 8 public procedures. Introduced in BC29, still in BC30.
+tier: official
+language: en
+tags:
+  - interface
+  - peppol
+versions:
+  introduced: "29"
+  last_changed: null
+  deprecated: null
+review:
+  state: unreviewed
+  by: null
+  at: null
+  flags: []
+generated:
+  at: "2026-10-06T17:21:46.353Z"
+  pipeline: 0.2.0
+  prompts: {}
+  input_hash: 046964a038ae731accb2b6e58e11bb12a6a1cee46f1171eeaaad9811a598b1c3
+evidence:
+  - kind: code
+    url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/PEPPOL/app/src/Interfaces/PEPPOLPurchasePartyInfoProvider.Interface.al
+    title: src/Apps/W1/PEPPOL/app/src/Interfaces/PEPPOLPurchasePartyInfoProvider.Interface.al (releases/29.x)
+    date: null
+    commit: d7c9c667c671da2cda3a0738b18ed99ca4181765
+    t: null
+    quote: null
+links:
+  learn: []
+  objects: []
+  features: []
+  topics: []
+  localizations: []
+  videos: []
+  posts: []
+  guidelines: []
+object_type: interface
+object_id: null
+name: PEPPOL Purchase Party Info Provider
+namespace: Microsoft.Peppol
+app: PEPPOL
+extends: null
+first_version: "29"
+last_version: "30"
+present_in:
+  - "29"
+  - "30"
+changed_in: []
+source_major: "29"
+obsolete: null
+countries: []
+ms_search_form_ids: []
+counts:
+  fields: 0
+  procedures: 8
+  events: 0
+  subscribers: 0
+---
+
+# Interface "PEPPOL Purchase Party Info Provider"
+
+> Interface "PEPPOL Purchase Party Info Provider" in PEPPOL (Microsoft.Peppol). 8 public procedures. Introduced in BC29, still in BC30.
+
+PEPPOL · Microsoft.Peppol · BC29-30 · [source at d7c9c667](https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/PEPPOL/app/src/Interfaces/PEPPOLPurchasePartyInfoProvider.Interface.al) · facts from BC29
+
+## Procedures
+
+- `GetAccountingSupplierPartyInfoBIS(var SupplierEndpointID: Text; var SupplierSchemeID: Text; var SupplierName: Text)`
+- `GetAccountingSupplierPartyLegalEntityBIS(var PartyLegalEntityRegName: Text; var PartyLegalEntityCompanyID: Text; var PartyLegalEntitySchemeID: Text; var SupplierRegAddrCityName: Text; var SupplierRegAddrCountryIdCode: Text; var SupplRegAddrCountryIdListId: Text)`: Gets accounting supplier (buyer) party legal entity information for PEPPOL BIS format from company information.
+- `GetAccountingSupplierPartyTaxScheme(var CompanyID: Text; var CompanyIDSchemeID: Text; var TaxSchemeID: Text)`: Gets accounting supplier (buyer) party tax scheme information from company information.
+- `GetSellerSupplierPartyInfoBIS(PurchaseHeader: Record "Purchase Header"; var SellerSupplierPartyEndpointId: Text; var SellerSupplierPartySchemeID: Text; var SellerSupplierPartySupplierName: Text)`: Gets seller supplier (vendor) party information for BIS format from the purchase header.
+- `GetSellerSupplierPartyPostalAddr(PurchaseHeader: Record "Purchase Header"; var SellerSupplierStreetName: Text; var SellerSupplierAdditionalStreetName: Text; var SellerSupplierPartyCityName: Text; var SellerSupplierPartyPostalZone: Text; var SellerSupplierPartyCountrySubentity: Text; var SellerSupplierPartyIdentificationCode: Text; var ListID: Text)`: Gets seller supplier (vendor) party postal address information from the purchase header.
+- `GetSellerSupplierPartyContact(PurchaseHeader: Record "Purchase Header"; var ContactName: Text; var ContactPhone: Text; var ContactTelefax: Text; var ContactEmail: Text)`: Gets seller supplier (vendor) party contact information from the purchase header.
+- `GetBuyerCustomerPartyPostalAddr(PurchaseHeader: Record "Purchase Header"; var StreetName: Text; var BuyerCustomerAdditionalStreetName: Text; var CityName: Text; var PostalZone: Text; var CountrySubentity: Text; var IdentificationCode: Text; var ListID: Text)`: Gets buyer customer party postal address information from the purchase header.
+- `GetBuyerCustomerPartyContact(PurchaseHeader: Record "Purchase Header"; var BuyerCustomerPartyContactName: Text; var BuyerCustomerPartyContactPhone: Text; var BuyerCustomerPartyContactEmail: Text)`: Gets buyer customer party contact information from the purchase header.
+
+## Across versions
+
+- Present in: BC29, BC30
+- Changed (declaration) in: none
+
+Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).

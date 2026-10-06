@@ -1,0 +1,81 @@
+---
+id: object/interface/email-oauth-client-v2
+type: object
+title: Interface "Email - OAuth Client v2"
+summary: Interface "Email - OAuth Client v2" in Email - Outlook REST API (System.Email). 2 public procedures. Introduced in BC29, still in BC30.
+tier: official
+language: en
+tags:
+  - interface
+  - email - outlook rest api
+versions:
+  introduced: "29"
+  last_changed: null
+  deprecated: null
+review:
+  state: unreviewed
+  by: null
+  at: null
+  flags: []
+generated:
+  at: "2026-10-06T17:21:46.353Z"
+  pipeline: 0.2.0
+  prompts: {}
+  input_hash: 5a53864c6284fa6bdb0796ffc4537b2962189cb497e4b5347785ea9a274ba07d
+evidence:
+  - kind: code
+    url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/Email%20-%20Outlook%20REST%20API/app/src/EmailOAuthClientv2.Interface.al
+    title: src/Apps/W1/Email - Outlook REST API/app/src/EmailOAuthClientv2.Interface.al (releases/29.x)
+    date: null
+    commit: d7c9c667c671da2cda3a0738b18ed99ca4181765
+    t: null
+    quote: null
+links:
+  learn: []
+  objects: []
+  features: []
+  topics: []
+  localizations: []
+  videos: []
+  posts: []
+  guidelines: []
+object_type: interface
+object_id: null
+name: Email - OAuth Client v2
+namespace: System.Email
+app: Email - Outlook REST API
+extends: null
+first_version: "29"
+last_version: "30"
+present_in:
+  - "29"
+  - "30"
+changed_in: []
+source_major: "29"
+obsolete: null
+countries: []
+ms_search_form_ids: []
+counts:
+  fields: 0
+  procedures: 2
+  events: 0
+  subscribers: 0
+---
+
+# Interface "Email - OAuth Client v2"
+
+> Interface "Email - OAuth Client v2" in Email - Outlook REST API (System.Email). 2 public procedures. Introduced in BC29, still in BC30.
+
+Email - Outlook REST API · System.Email · BC29-30 · [source at d7c9c667](https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/Email%20-%20Outlook%20REST%20API/app/src/EmailOAuthClientv2.Interface.al) · facts from BC29
+
+## Procedures
+
+- `GetAccessToken(var AccessToken: SecretText)`
+- `TryGetAccessToken(var AccessToken: SecretText): Boolean`: Retrieves the Access token for the current user to connect to Outlook API.
+
+## Across versions
+
+- Present in: BC29, BC30
+- Changed (declaration) in: none
+
+Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).

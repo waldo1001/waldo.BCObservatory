@@ -1,0 +1,817 @@
+# BC Observatory: Permission set objects
+
+813 objects, by id.
+
+- [Permission set 1 "Bus. Found. - Obj."](1.md): Business Foundation
+- [Permission set 2 "Bus. Found. - Read"](2.md): Business Foundation
+- [Permission set 3 "Bus. Found. - View"](3.md): Business Foundation
+- [Permission set 4 "Bus. Found. - Edit"](4.md): Business Foundation
+- [Permission set 5 "Bus. Found. - Admin"](5.md): Business Foundation
+- [Permission set 21 "System Application - Read"](21.md): System Application
+- [Permission set 22 "System Application - Edit"](22.md): System Application
+- [Permission set 23 "Internal BaseApp Obj. - Exec"](23.md): Base Application
+- [Permission set 31 "SUPER"](31.md): System Application
+- [Permission set 43 "Language - Edit"](43.md): System Application
+- [Permission set 64 "Application Objects - Exec"](64.md): System Application
+- [Permission set 65 "System Objects - Exec"](65.md): System Application
+- [Permission set 66 "System Tables - Basic"](66.md): System Application
+- [Permission set 68 "System Execute - Basic"](68.md): System Application
+- [Permission set 69 "System Application - Basic"](69.md): System Application
+- [Permission set 75 "System Application - View"](75.md): System Application
+- [Permission set 87 "Metadata - Read"](87.md): System Application
+- [Permission set 88 "Permissions & Licenses - Read"](88.md): System Application
+- [Permission set 89 "Permissions & Licenses - Edit"](89.md): System Application
+- [Permission set 91 "User Personalization - Edit"](91.md): System Application
+- [Permission set 92 "User Personalization - Read"](92.md): System Application
+- [Permission set 93 "Company - Edit"](93.md): System Application
+- [Permission set 94 "Company - Read"](94.md): System Application
+- [Permission set 95 "Session - Read"](95.md): System Application
+- [Permission set 96 "Session - Edit"](96.md): System Application
+- [Permission set 97 "Webhook - Edit"](97.md): System Application
+- [Permission set 98 "Webhook - Read"](98.md): System Application
+- [Permission set 99 "Reporting - Edit"](99.md): System Application
+- [Permission set 101 "Media - Read"](101.md): System Application
+- [Permission set 102 "Media - View"](102.md): System Application
+- [Permission set 111 "Power BI - Read"](111.md): System Application
+- [Permission set 150 "System Initialization - Exec"](150.md): System Application
+- [Permission set 151 "System App - Basic"](151.md): System Application
+- [Permission set 152 "User Permissions - Read"](152.md): System Application
+- [Permission set 153 "User Permissions - View"](153.md): System Application
+- [Permission set 154 "System Application - Admin"](154.md): System Application
+- [Permission set 155 "System App - Admin"](155.md): System Application
+- [Permission set 160 "SECURITY"](160.md): System Application
+- [Permission set 161 "LOGIN"](161.md): System Application
+- [Permission set 162 "SECURITY (System)"](162.md): System Application
+- [Permission set 164 "Language - Objects"](164.md): System Application
+- [Permission set 166 "User Permissions - Objects"](166.md): System Application
+- [Permission set 191 "D365 SETUP"](191.md): Base Application
+- [Permission set 200 "D365 IC Partner Edit"](200.md): Base Application
+- [Permission set 207 "D365 BASIC"](207.md): Base Application
+- [Permission set 208 "D365 Basic - Edit"](208.md): Base Application
+- [Permission set 209 "D365 Basic - Read"](209.md): Base Application
+- [Permission set 219 "System Application - Objects"](219.md): System Application
+- [Permission set 230 "Audit Codes - Objects"](230.md): Business Foundation
+- [Permission set 231 "Audit Codes - Read"](231.md): Business Foundation
+- [Permission set 232 "Audit Codes - View"](232.md): Business Foundation
+- [Permission set 233 "Audit Codes - Admin"](233.md): Business Foundation
+- [Permission set 242 "D365 JOURNALS, EDIT"](242.md): Base Application
+- [Permission set 257 "Contact - Edit"](257.md): Base Application
+- [Permission set 258 "RM-CONT, EDIT"](258.md): OnPrem Permissions
+- [Permission set 291 "Capacity Journals - Post"](291.md): Base Application
+- [Permission set 292 "MFG-CAP. JNL, POST"](292.md): OnPrem Permissions
+- [Permission set 300 "No. Series - Objects"](300.md): Business Foundation
+- [Permission set 301 "No. Series - Read"](301.md): Business Foundation
+- [Permission set 303 "No. Series - View"](303.md): Business Foundation
+- [Permission set 304 "No. Series - Admin"](304.md): Business Foundation
+- [Permission set 312 "Recievables Documents - View"](312.md): Base Application
+- [Permission set 313 "S&R-POSTED S/I/R/C"](313.md): OnPrem Permissions
+- [Permission set 330 "No. Series Copilot - Objects"](330.md): Business Foundation
+- [Permission set 358 "Object Selection - Read"](358.md): System Application
+- [Permission set 366 "D365 HR, SETUP"](366.md): Base Application
+- [Permission set 386 "Resources Journals - Edit"](386.md): Base Application
+- [Permission set 387 "RES-JOURNAL"](387.md): OnPrem Permissions
+- [Permission set 388 "ADCS - Admin"](388.md): Base Application
+- [Permission set 389 "ADCS SETUP"](389.md): OnPrem Permissions
+- [Permission set 407 "Manufacturing Pr. Order - View"](407.md): Base Application
+- [Permission set 408 "MFG-PROD.ORDER"](408.md): OnPrem Permissions
+- [Permission set 413 "Manufacturing Planning - View"](413.md): Base Application
+- [Permission set 414 "TROUBLESHOOT TOOLS"](414.md): System Application
+- [Permission set 415 "Export Report Excel"](415.md): System Application
+- [Permission set 444 "BaseApp Objects - Exec"](444.md): Base Application
+- [Permission set 447 "Record Link Management - Read"](447.md): System Application
+- [Permission set 448 "D365 JOBS, VIEW"](448.md): Base Application
+- [Permission set 459 "Record Link Management - View"](459.md): System Application
+- [Permission set 460 "D365PREM SMG, VIEW"](460.md): Base Application
+- [Permission set 505 "Fixed Assets Journals - Edit"](505.md): Base Application
+- [Permission set 506 "FA-JOURNAL"](506.md): OnPrem Permissions
+- [Permission set 514 "MFG-PLANNING, CREATE"](514.md): OnPrem Permissions
+- [Permission set 516 "General Ledger Budget - View"](516.md): Base Application
+- [Permission set 517 "G/L-BUDGET"](517.md): OnPrem Permissions
+- [Permission set 535 "Language - View"](535.md): System Application
+- [Permission set 552 "Payables Req Worksheet - Edit"](552.md): Base Application
+- [Permission set 553 "P&P-REQ WKSH"](553.md): OnPrem Permissions
+- [Permission set 566 "Todo - Read"](566.md): Base Application
+- [Permission set 567 "RM-TODO"](567.md): OnPrem Permissions
+- [Permission set 617 "D365 DYN CRM MGT"](617.md): Base Application
+- [Permission set 618 "D365 DYN CRM READ"](618.md): Base Application
+- [Permission set 629 "Data Archive - Read"](629.md): DataArchive
+- [Permission set 632 "Data Archive - View"](632.md): DataArchive
+- [Permission set 633 "DataArchive - Objects"](633.md): DataArchive
+- [Permission set 650 "Reten. Pol. Setup - BaseApp"](650.md): Base Application
+- [Permission set 654 "Resources Registers - Read"](654.md): Base Application
+- [Permission set 655 "RES-REGISTER"](655.md): OnPrem Permissions
+- [Permission set 681 "D365 JOURNALS, POST"](681.md): Base Application
+- [Permission set 685 "Paym. Prac. Objects"](685.md): PaymentPractices
+- [Permission set 686 "Paym. Prac. Read"](686.md): PaymentPractices
+- [Permission set 687 "Paym. Prac. Edit"](687.md): PaymentPractices
+- [Permission set 732 "D365 BASIC ISV"](732.md): Base Application
+- [Permission set 738 "D365 Fin Cons Setup"](738.md): Base Application
+- [Permission set 739 "D365 Fin. Consolid"](739.md): Base Application
+- [Permission set 773 "User Details - Objects"](773.md): System Application
+- [Permission set 774 "Azure AD Plan - Objects"](774.md): System Application
+- [Permission set 775 "User Details - View"](775.md): System Application
+- [Permission set 810 "Web Service Management - Obj."](810.md): System Application
+- [Permission set 856 "Manufacturing Pr. Order - Edit"](856.md): Base Application
+- [Permission set 857 "MFG-PROD.ORDER, EDIT"](857.md): OnPrem Permissions
+- [Permission set 862 "Payables Documents - Post"](862.md): Base Application
+- [Permission set 863 "P&P-Q/O/I/R/C, POST"](863.md): OnPrem Permissions
+- [Permission set 865 "D365 CUSTOMER, VIEW"](865.md): Base Application
+- [Permission set 910 "D365 WHSE, VIEW"](910.md): Base Application
+- [Permission set 949 "Inventory Analysis - Edit"](949.md): Base Application
+- [Permission set 950 "Opportunity - Edit"](950.md): Base Application
+- [Permission set 951 "RM-OPP, EDIT"](951.md): OnPrem Permissions
+- [Permission set 952 "INVT-ANALYSIS, EDIT"](952.md): OnPrem Permissions
+- [Permission set 959 "D365 BUS FULL ACCESS"](959.md): Base Application
+- [Permission set 1001 "LOCAL"](1001.md): Base Application
+- [Permission set 1002 "LOCAL READ"](1002.md): Base Application
+- [Permission set 1044 "D365 READ"](1044.md): Base Application
+- [Permission set 1083 "Bank Accounts - View"](1083.md): Base Application
+- [Permission set 1084 "G/L-BANK ACC"](1084.md): OnPrem Permissions
+- [Permission set 1087 "Jobs - Read"](1087.md): Base Application
+- [Permission set 1088 "JOB-JOBS"](1088.md): OnPrem Permissions
+- [Permission set 1159 "D365PREM MFG, VIEW"](1159.md): Base Application
+- [Permission set 1258 "Cryptography Mgt. - Objects"](1258.md): System Application
+- [Permission set 1297 "Sales Tax - Admin"](1297.md): Base Application
+- [Permission set 1298 "STAX-SETUP"](1298.md): OnPrem Permissions
+- [Permission set 1347 "Job Queue - View"](1347.md): Base Application
+- [Permission set 1348 "JOBQUEUERUN"](1348.md): OnPrem Permissions
+- [Permission set 1432 "Satisfaction Survey - Read"](1432.md): System Application
+- [Permission set 1433 "Satisfaction Survey - View"](1433.md): System Application
+- [Permission set 1439 "Headlines - Read"](1439.md): System Application
+- [Permission set 1480 "Edit in Excel-Admin"](1480.md): System Application
+- [Permission set 1481 "Edit in Excel - Read"](1481.md): System Application
+- [Permission set 1482 "Edit in Excel - View"](1482.md): System Application
+- [Permission set 1488 "Edit in Excel - Objects"](1488.md): System Application
+- [Permission set 1562 "D365 IC, EDIT"](1562.md): Base Application
+- [Permission set 1563 "Privacy Notice - Objects"](1563.md): System Application
+- [Permission set 1564 "Privacy Notice - Read"](1564.md): System Application
+- [Permission set 1565 "Priv. Notice - Admin"](1565.md): System Application
+- [Permission set 1566 "Priv. Notice - View"](1566.md): System Application
+- [Permission set 1680 "Email Logging - Obj."](1680.md): EmailLogging
+- [Permission set 1681 "Email Logging - Read"](1681.md): EmailLogging
+- [Permission set 1682 "Email Logging - Admin"](1682.md): EmailLogging
+- [Permission set 1690 "Bank Deposits - Objects"](1690.md): BankDeposits
+- [Permission set 1698 "Inventory Analysis - View"](1698.md): Base Application
+- [Permission set 1699 "INVT-ANALYSIS"](1699.md): OnPrem Permissions
+- [Permission set 1701 "Bank Deposits - Read"](1701.md): BankDeposits
+- [Permission set 1702 "Bank Deposits - View"](1702.md): BankDeposits
+- [Permission set 1703 "Bank Deposits"](1703.md): BankDeposits
+- [Permission set 1750 "Data Classification - Read"](1750.md): System Application
+- [Permission set 1751 "Data Classification - Edit"](1751.md): System Application
+- [Permission set 1752 "Data Classification - Objects"](1752.md): System Application
+- [Permission set 1778 "D365 ADCS, EDIT"](1778.md): Base Application
+- [Permission set 1817 "Advanced Settings - Objects"](1817.md): System Application
+- [Permission set 1825 "D365 HR, VIEW"](1825.md): Base Application
+- [Permission set 1887 "Environment Cleanup - Read"](1887.md): System Application
+- [Permission set 1921 "Performance Profiler - Objects"](1921.md): System Application
+- [Permission set 1922 "Perf. Profiler Tables - View"](1922.md): System Application
+- [Permission set 1923 "Perf. Profiler Tables - Edit"](1923.md): System Application
+- [Permission set 1927 "Data Cleanup - Objects"](1927.md): System Application
+- [Permission set 1928 "Data Cleanup - View"](1928.md): System Application
+- [Permission set 1929 "Data Cleanup - Admin"](1929.md): System Application
+- [Permission set 1991 "Guided Experience - Read"](1991.md): System Application
+- [Permission set 1992 "Guided Experience - View"](1992.md): System Application
+- [Permission set 1993 "Guided Experience - Edit"](1993.md): System Application
+- [Permission set 1994 "Guided Experience - Objects"](1994.md): System Application
+- [Permission set 2010 "Entity Text - Objects"](2010.md): System Application
+- [Permission set 2011 "Entity Text - View"](2011.md): System Application
+- [Permission set 2012 "Entity Text - Edit"](2012.md): System Application
+- [Permission set 2018 "Fixed Assets Journals - Post"](2018.md): Base Application
+- [Permission set 2019 "FA-JOURNAL, POST"](2019.md): OnPrem Permissions
+- [Permission set 2046 "D365 COSTACC, SETUP"](2046.md): Base Application
+- [Permission set 2066 "Data Exchange - Admin"](2066.md): Base Application
+- [Permission set 2067 "DATAEXCH-SETUP"](2067.md): OnPrem Permissions
+- [Permission set 2073 "D365 COSTACC, EDIT"](2073.md): Base Application
+- [Permission set 2084 "Employee - Read"](2084.md): Base Application
+- [Permission set 2085 "HR-EMPLOYEE"](2085.md): OnPrem Permissions
+- [Permission set 2118 "General Ledger Journals - Post"](2118.md): Base Application
+- [Permission set 2119 "G/L-JOURNAL, POST"](2119.md): OnPrem Permissions
+- [Permission set 2132 "Inventory Transfer - Read"](2132.md): Base Application
+- [Permission set 2133 "INVT-POSTED TRANSFER"](2133.md): OnPrem Permissions
+- [Permission set 2143 "D365 COMPANY HUB"](2143.md): CompanyHub
+- [Permission set 2144 "Company Hub - Objects"](2144.md): CompanyHub
+- [Permission set 2145 "D365 APIV2"](2145.md): APIV2
+- [Permission set 2146 "D365 APIV1"](2146.md): APIV1
+- [Permission set 2147 "D365 Automation APIV2"](2147.md): APIV2
+- [Permission set 2148 "D365 Automation APIV1"](2148.md): APIV1
+- [Permission set 2300 "Tenant License State - Read"](2300.md): System Application
+- [Permission set 2332 "D365 GLOBAL DIM MGT"](2332.md): Base Application
+- [Permission set 2345 "Intrastat - Edit"](2345.md): Base Application
+- [Permission set 2346 "INTRASTAT-PERIODIC"](2346.md): OnPrem Permissions
+- [Permission set 2381 "D365 FA, VIEW"](2381.md): Base Application
+- [Permission set 2393 "Dynamics CRM - Admin"](2393.md): Base Application
+- [Permission set 2394 "DYNAMICS CRM SETUP"](2394.md): OnPrem Permissions
+- [Permission set 2398 "Relationship Mgt - Edit"](2398.md): Base Application
+- [Permission set 2399 "RM-PERIODIC"](2399.md): OnPrem Permissions
+- [Permission set 2406 "Map - Admin"](2406.md): Base Application
+- [Permission set 2407 "MAP-SETUP"](2407.md): OnPrem Permissions
+- [Permission set 2500 "Extension Management - Read"](2500.md): System Application
+- [Permission set 2501 "Extension Management - View"](2501.md): System Application
+- [Permission set 2502 "Exten. Mgt. - Admin"](2502.md): System Application
+- [Permission set 2504 "Extension Management - Objects"](2504.md): System Application
+- [Permission set 2521 "Confidential - Edit"](2521.md): Base Application
+- [Permission set 2522 "HR-CONFIDENTIAL"](2522.md): OnPrem Permissions
+- [Permission set 2529 "Recievables Documents - Post"](2529.md): Base Application
+- [Permission set 2530 "S&R-Q/O/I/R/C, POST"](2530.md): OnPrem Permissions
+- [Permission set 2538 "Capacity Journals - Edit"](2538.md): Base Application
+- [Permission set 2539 "MFG-CAP. JNL"](2539.md): OnPrem Permissions
+- [Permission set 2543 "VAT Rate Change Log - Edit"](2543.md): Base Application
+- [Permission set 2544 "VAT-RC-LOG, DELETE"](2544.md): OnPrem Permissions
+- [Permission set 2581 "D365 PROFILE MGT"](2581.md): Base Application
+- [Permission set 2609 "Feature Key - Objects"](2609.md): System Application
+- [Permission set 2610 "Feature Key - Read"](2610.md): System Application
+- [Permission set 2611 "Feature Key - Admin"](2611.md): System Application
+- [Permission set 2612 "Feature Key - View"](2612.md): System Application
+- [Permission set 2613 "Web Services - Admin"](2613.md): Base Application
+- [Permission set 2614 "WS-SETUP"](2614.md): OnPrem Permissions
+- [Permission set 2615 "Feature Mgt. - Admin"](2615.md): System Application
+- [Permission set 2616 "Printer Management - Read"](2616.md): System Application
+- [Permission set 2617 "Printer Management - Objects"](2617.md): System Application
+- [Permission set 2625 "Statistical Accounts - Edit"](2625.md): StatisticalAccounts
+- [Permission set 2626 "Statistical Accounts - Objects"](2626.md): StatisticalAccounts
+- [Permission set 2627 "Statistical Accounts - Read"](2627.md): StatisticalAccounts
+- [Permission set 2628 "Statistical Accounts"](2628.md): StatisticalAccounts
+- [Permission set 2694 "Manufacturing Planning - Edit"](2694.md): Base Application
+- [Permission set 2695 "MFG-PLANNING"](2695.md): OnPrem Permissions
+- [Permission set 2698 "Employee - Edit"](2698.md): Base Application
+- [Permission set 2699 "HR-EMPLOYEE, EDIT"](2699.md): OnPrem Permissions
+- [Permission set 2715 "Page Summary Provider - Read"](2715.md): System Application
+- [Permission set 2716 "Page Summary Provider - Obj."](2716.md): System Application
+- [Permission set 2718 "Page Summary - Admin"](2718.md): System Application
+- [Permission set 2752 "UniversalPrint - Objects"](2752.md): MicrosoftUniversalPrint
+- [Permission set 2757 "UniversalPrint - Edit"](2757.md): MicrosoftUniversalPrint
+- [Permission set 2758 "MS Universal Print - Admin"](2758.md): MicrosoftUniversalPrint
+- [Permission set 2759 "UniversalPrint - Read"](2759.md): MicrosoftUniversalPrint
+- [Permission set 2800 "RapidStart - Edit"](2800.md): Base Application
+- [Permission set 2801 "RAPIDSTART"](2801.md): OnPrem Permissions
+- [Permission set 2805 "Service Items - View"](2805.md): Base Application
+- [Permission set 2806 "SM-SERVITEM"](2806.md): OnPrem Permissions
+- [Permission set 2816 "Recievables Reg. - Read"](2816.md): Base Application
+- [Permission set 2817 "S&R-REGISTER"](2817.md): OnPrem Permissions
+- [Permission set 2909 "D365 PURCH DOC, POST"](2909.md): Base Application
+- [Permission set 2911 "D365 ACCOUNTANTS"](2911.md): Base Application
+- [Permission set 2912 "D365 ASSEMBLY, VIEW"](2912.md): Base Application
+- [Permission set 2913 "D365 FIN. & PURCH."](2913.md): Base Application
+- [Permission set 2914 "Administrator"](2914.md): Base Application
+- [Permission set 2916 "Page Action Provider - Read"](2916.md): System Application
+- [Permission set 2917 "D365 FINANCE"](2917.md): Base Application
+- [Permission set 2918 "D365 SALES"](2918.md): Base Application
+- [Permission set 2919 "D365 ITEM AVAIL CALC"](2919.md): Base Application
+- [Permission set 2928 "Inventory - Admin"](2928.md): Base Application
+- [Permission set 2929 "INVT-SETUP"](2929.md): OnPrem Permissions
+- [Permission set 2980 "D365 DIM CORRECTION"](2980.md): Base Application
+- [Permission set 2981 "D365 DIM CHANGE GLO"](2981.md): Base Application
+- [Permission set 3008 "Cost Accounting - Admin"](3008.md): Base Application
+- [Permission set 3009 "COST"](3009.md): OnPrem Permissions
+- [Permission set 3100 "D365 OPPORTUNITY MGT"](3100.md): Base Application
+- [Permission set 3125 "Campaign - Edit"](3125.md): Base Application
+- [Permission set 3126 "RM-CAMPAIGN, EDIT"](3126.md): OnPrem Permissions
+- [Permission set 3178 "Release Document - Edit"](3178.md): Base Application
+- [Permission set 3179 "RELEASE DOCUMENT"](3179.md): OnPrem Permissions
+- [Permission set 3239 "D365 IC, SETUP"](3239.md): Base Application
+- [Permission set 3242 "D365 HR, EDIT"](3242.md): Base Application
+- [Permission set 3285 "Outlook Sync - Admin"](3285.md): Base Application
+- [Permission set 3286 "OSYNCHADMIN"](3286.md): OnPrem Permissions
+- [Permission set 3300 "Resources Journals - Post"](3300.md): Base Application
+- [Permission set 3301 "RES-JOURNAL, POST"](3301.md): OnPrem Permissions
+- [Permission set 3303 "Payables Ag. - Run"](3303.md): PayablesAgent
+- [Permission set 3304 "Payables Ag. - Adm."](3304.md): PayablesAgent
+- [Permission set 3305 "Payables Ag. - Read"](3305.md): PayablesAgent
+- [Permission set 3306 "Payables Ag. - Excluded"](3306.md): PayablesAgent
+- [Permission set 3414 "Jobs Journals - Post"](3414.md): Base Application
+- [Permission set 3415 "JOB-JOURNAL, POST"](3415.md): OnPrem Permissions
+- [Permission set 3423 "Insurance Registers - Read"](3423.md): Base Application
+- [Permission set 3424 "FA-INS REGISTER"](3424.md): OnPrem Permissions
+- [Permission set 3439 "SEPA Credit Transfers - Edit"](3439.md): Base Application
+- [Permission set 3450 "SEPA CRED. TRF."](3450.md): OnPrem Permissions
+- [Permission set 3505 "Global Dimensions - Edit"](3505.md): Base Application
+- [Permission set 3506 "GLOBAL DIM MGT"](3506.md): OnPrem Permissions
+- [Permission set 3544 "Dynamics CRM - Edit"](3544.md): Base Application
+- [Permission set 3545 "DYNAMICS CRM MANAGE"](3545.md): OnPrem Permissions
+- [Permission set 3560 "Payables Registers - Read"](3560.md): Base Application
+- [Permission set 3561 "P&P-REGISTER"](3561.md): OnPrem Permissions
+- [Permission set 3587 "Changelog - Admin"](3587.md): Base Application
+- [Permission set 3588 "CHANGELOG-SETUP"](3588.md): OnPrem Permissions
+- [Permission set 3600 "Service Management - Admin"](3600.md): Base Application
+- [Permission set 3601 "SM-SETUP"](3601.md): OnPrem Permissions
+- [Permission set 3602 "Payables Journals - Post"](3602.md): Base Application
+- [Permission set 3603 "P&P-JOURNAL, POST"](3603.md): OnPrem Permissions
+- [Permission set 3627 "Item Journals - Edit"](3627.md): Base Application
+- [Permission set 3628 "INVT-ITEM JNL"](3628.md): OnPrem Permissions
+- [Permission set 3632 "Account Schedules - Edit"](3632.md): Base Application
+- [Permission set 3668 "D365 FA, SETUP"](3668.md): Base Application
+- [Permission set 3691 "Consumption Journals - Post"](3691.md): Base Application
+- [Permission set 3692 "MFG-CONS. JNL, POST"](3692.md): OnPrem Permissions
+- [Permission set 3706 "General Ledger Budget - Edit"](3706.md): Base Application
+- [Permission set 3707 "G/L-BUDGET, EDIT"](3707.md): OnPrem Permissions
+- [Permission set 3711 "Translation - Read"](3711.md): System Application
+- [Permission set 3712 "Translation - Edit"](3712.md): System Application
+- [Permission set 3713 "Translation - Objects"](3713.md): System Application
+- [Permission set 3723 "Recievables - Admin"](3723.md): Base Application
+- [Permission set 3724 "S&R-SETUP"](3724.md): OnPrem Permissions
+- [Permission set 3814 "D365 IC, VIEW"](3814.md): Base Application
+- [Permission set 3846 "Fixed Assets - Edit"](3846.md): Base Application
+- [Permission set 3847 "FA-FIXED ASSET, EDIT"](3847.md): OnPrem Permissions
+- [Permission set 3871 "Jobs Registers - Read"](3871.md): Base Application
+- [Permission set 3872 "JOB-REGISTER"](3872.md): OnPrem Permissions
+- [Permission set 3900 "Retention Policy - Read"](3900.md): System Application
+- [Permission set 3901 "Retention Policy - View"](3901.md): System Application
+- [Permission set 3902 "Retention Policy - Admin"](3902.md): System Application
+- [Permission set 3904 "Retention Pol. Admin"](3904.md): System Application
+- [Permission set 3905 "Retention Pol. View"](3905.md): System Application
+- [Permission set 3906 "Retention Policy - Objects"](3906.md): System Application
+- [Permission set 3914 "Prepayment - View"](3914.md): Base Application
+- [Permission set 3915 "PREPAY-USER"](3915.md): OnPrem Permissions
+- [Permission set 3922 "Intercompany - Edit"](3922.md): Base Application
+- [Permission set 3923 "IC-SEND/RECEIVE"](3923.md): OnPrem Permissions
+- [Permission set 4005 "HBD - Edit"](4005.md): HybridBaseDeployment
+- [Permission set 4006 "HBD - Objects"](4006.md): HybridBaseDeployment
+- [Permission set 4007 "HBD - Read"](4007.md): HybridBaseDeployment
+- [Permission set 4022 "UKSRA - Objects"](4022.md): UKSendRemittanceAdvice, obsolete 29.0
+- [Permission set 4029 "HybridGP - Objects"](4029.md): HybridGP
+- [Permission set 4031 "HybridGP - Edit"](4031.md): HybridGP
+- [Permission set 4032 "HybridGP - Read"](4032.md): HybridGP
+- [Permission set 4101 "BLOB Storage - Exec"](4101.md): System Application
+- [Permission set 4103 "General Ledger Journals - Edit"](4103.md): Base Application
+- [Permission set 4104 "G/L-JOURNAL"](4104.md): OnPrem Permissions
+- [Permission set 4123 "General Ledger Accounts - View"](4123.md): Base Application
+- [Permission set 4124 "G/L-ACCOUNT"](4124.md): OnPrem Permissions
+- [Permission set 4184 "Job Queue - Admin"](4184.md): Base Application
+- [Permission set 4185 "JOBQUEUESETUP"](4185.md): OnPrem Permissions
+- [Permission set 4210 "ImageAnalysis - Edit"](4210.md): ImageAnalysis
+- [Permission set 4211 "ImageAnalysis - Objects"](4211.md): ImageAnalysis
+- [Permission set 4212 "ImageAnalysis - Read"](4212.md): ImageAnalysis
+- [Permission set 4222 "Absense - Edit"](4222.md): Base Application
+- [Permission set 4223 "HR-ABSENCE"](4223.md): OnPrem Permissions
+- [Permission set 4273 "BASIC"](4273.md): OnPrem Permissions
+- [Permission set 4300 "Agent - Objects"](4300.md): System Application
+- [Permission set 4305 "Agent - Admin"](4305.md): Base Application
+- [Permission set 4306 "Agent - Diagnostics"](4306.md): Base Application
+- [Permission set 4339 "Service Items - Edit"](4339.md): Base Application
+- [Permission set 4340 "SM-SERVITEM,EDIT"](4340.md): OnPrem Permissions
+- [Permission set 4384 "Intrastat - Admin"](4384.md): Base Application
+- [Permission set 4386 "INTRASTAT-SETUP"](4386.md): OnPrem Permissions
+- [Permission set 4401 "Excel Reports - Objects"](4401.md): ExcelReports
+- [Permission set 4405 "SOA - Edit"](4405.md): SalesOrderAgent
+- [Permission set 4406 "SOA - Objects"](4406.md): SalesOrderAgent
+- [Permission set 4407 "SOA - Read"](4407.md): SalesOrderAgent
+- [Permission set 4423 "General Ledger - Admin"](4423.md): Base Application
+- [Permission set 4424 "G/L-SETUP"](4424.md): OnPrem Permissions
+- [Permission set 4426 "Excel Export Action"](4426.md): System Application
+- [Permission set 4445 "Resources - Read"](4445.md): Base Application
+- [Permission set 4446 "RES-RESOURCE"](4446.md): OnPrem Permissions
+- [Permission set 4450 "Time Sheets - Edit"](4450.md): Base Application
+- [Permission set 4451 "RES-TS USER"](4451.md): OnPrem Permissions
+- [Permission set 4462 "Contact - View"](4462.md): Base Application
+- [Permission set 4463 "RM-CONT"](4463.md): OnPrem Permissions
+- [Permission set 4465 "Insurance Journals - Post"](4465.md): Base Application
+- [Permission set 4466 "FA-INS JOURNAL, POST"](4466.md): OnPrem Permissions
+- [Permission set 4470 "Record Link Management - Obj."](4470.md): System Application
+- [Permission set 4472 "Warehouse Management - Edit"](4472.md): Base Application
+- [Permission set 4473 "WM-PERIODIC"](4473.md): OnPrem Permissions
+- [Permission set 4501 "EmailCurUser-Objects"](4501.md): Email - Current User Connector
+- [Permission set 4503 "Email Conn. - Objects"](4503.md): Email - Microsoft 365 Connector
+- [Permission set 4507 "Email ORA - Edit"](4507.md): Email - Outlook REST API
+- [Permission set 4508 "Email ORA - Objects"](4508.md): Email - Outlook REST API
+- [Permission set 4509 "Email ORA - Read"](4509.md): Email - Outlook REST API
+- [Permission set 4522 "Todo - Edit"](4522.md): Base Application
+- [Permission set 4523 "RM-TODO, EDIT"](4523.md): OnPrem Permissions
+- [Permission set 4560 "Ext. Blob Stor. - Objects"](4560.md): External File Storage - Azure Blob Service Connector
+- [Permission set 4561 "Ext. Blob Stor. - Read"](4561.md): External File Storage - Azure Blob Service Connector
+- [Permission set 4562 "Ext. Blob Stor. - Edit"](4562.md): External File Storage - Azure Blob Service Connector
+- [Permission set 4570 "Ext. File Share - Objects"](4570.md): External File Storage - Azure File Service Connector
+- [Permission set 4571 "Ext. File Share - Read"](4571.md): External File Storage - Azure File Service Connector
+- [Permission set 4572 "Ext. File Share - Edit"](4572.md): External File Storage - Azure File Service Connector
+- [Permission set 4580 "Ext. SharePoint - Objects"](4580.md): External File Storage - SharePoint Connector
+- [Permission set 4581 "Ext. SharePoint - Read"](4581.md): External File Storage - SharePoint Connector
+- [Permission set 4582 "Ext. SharePoint - Edit"](4582.md): External File Storage - SharePoint Connector
+- [Permission set 4592 "Human Resources - Admin"](4592.md): Base Application
+- [Permission set 4593 "HR-SETUP"](4593.md): OnPrem Permissions
+- [Permission set 4615 "Email - SMTP API - Objects"](4615.md): Email - SMTP API
+- [Permission set 4621 "Ext. SFTP - Edit"](4621.md): External File Storage - SFTP Connector
+- [Permission set 4622 "Ext. SFTP - Objects"](4622.md): External File Storage - SFTP Connector
+- [Permission set 4623 "Ext. SFTP - Read"](4623.md): External File Storage - SFTP Connector
+- [Permission set 4656 "Dynamics Online Setup"](4656.md): Base Application
+- [Permission set 4657 "DOLSETUP"](4657.md): OnPrem Permissions
+- [Permission set 4667 "Warehouse Documents - Read"](4667.md): Base Application
+- [Permission set 4668 "WM-POSTED PA/P"](4668.md): OnPrem Permissions
+- [Permission set 4671 "Output Journals - Post"](4671.md): Base Application
+- [Permission set 4672 "MFG-OUTP. JNL, POST"](4672.md): OnPrem Permissions
+- [Permission set 4708 "VAT Group Represent."](4708.md): VATGroupManagement
+- [Permission set 4709 "VAT Group Member"](4709.md): VATGroupManagement
+- [Permission set 4710 "VATGroupManagement - Edit"](4710.md): VATGroupManagement
+- [Permission set 4711 "VATGroupManagement - Objects"](4711.md): VATGroupManagement
+- [Permission set 4712 "VATGroupManagement - Read"](4712.md): VATGroupManagement
+- [Permission set 4716 "D365 BUS PREMIUM"](4716.md): Base Application
+- [Permission set 4736 "Physical Invt Journals - Edit"](4736.md): Base Application
+- [Permission set 4737 "Dynamics CRM - View"](4737.md): Base Application
+- [Permission set 4738 "DYNAMICS CRM VIEW"](4738.md): OnPrem Permissions
+- [Permission set 4739 "INVT-PHYS INV JNL"](4739.md): OnPrem Permissions
+- [Permission set 4751 "RecommApps - Edit"](4751.md): RecommendedApps
+- [Permission set 4752 "RecommApps - Objects"](4752.md): RecommendedApps
+- [Permission set 4753 "RecommApps - Read"](4753.md): RecommendedApps
+- [Permission set 4766 "Contoso Demo - Read"](4766.md): ContosoCoffeeDemoDataset
+- [Permission set 4767 "Contoso Demo - Edit"](4767.md): ContosoCoffeeDemoDataset
+- [Permission set 4768 "Contoso Demo - Objects"](4768.md): ContosoCoffeeDemoDataset
+- [Permission set 4773 "TEST TOOL"](4773.md): Base Application
+- [Permission set 4784 "D365 WHSE, SETUP"](4784.md): Base Application
+- [Permission set 4788 "Opportunity - Read"](4788.md): Base Application
+- [Permission set 4789 "RM-OPP"](4789.md): OnPrem Permissions
+- [Permission set 4810 "Intrastat Core - Objects"](4810.md): Intrastat
+- [Permission set 4811 "Intr. Core - Read"](4811.md): Intrastat
+- [Permission set 4812 "Intr. Core - Edit"](4812.md): Intrastat
+- [Permission set 4842 "Service Management - Edit"](4842.md): Base Application
+- [Permission set 4843 "SM-PERIODIC"](4843.md): OnPrem Permissions
+- [Permission set 4850 "AAC - Objects"](4850.md): AutomaticAccountCodes
+- [Permission set 4851 "AAC - Read"](4851.md): AutomaticAccountCodes
+- [Permission set 4852 "AAC - Edit"](4852.md): AutomaticAccountCodes
+- [Permission set 4855 "Manufacturing - Admin"](4855.md): Base Application
+- [Permission set 4856 "MFG-SETUP"](4856.md): OnPrem Permissions
+- [Permission set 4880 "EU3PartyTrade - Objects"](4880.md): EU3PartyTradePurchase
+- [Permission set 4936 "Inventory - Periodic"](4936.md): Base Application
+- [Permission set 4937 "INVT-PERIODIC"](4937.md): OnPrem Permissions
+- [Permission set 4969 "Resources - Admin"](4969.md): Base Application
+- [Permission set 4970 "Customer - View"](4970.md): Base Application
+- [Permission set 4971 "S&R-CUSTOMER"](4971.md): OnPrem Permissions
+- [Permission set 4972 "RES-SETUP"](4972.md): OnPrem Permissions
+- [Permission set 5010 "Serv. Decl. - Read"](5010.md): ServiceDeclaration
+- [Permission set 5011 "Serv. Decl. - Edit"](5011.md): ServiceDeclaration
+- [Permission set 5017 "Serv. Decl. - Objects"](5017.md): ServiceDeclaration
+- [Permission set 5047 "SEPA Direct Debit - Edit"](5047.md): Base Application
+- [Permission set 5048 "SEPA DIR. DEB."](5048.md): OnPrem Permissions
+- [Permission set 5053 "Manufacturing Design - Edit"](5053.md): Base Application
+- [Permission set 5054 "MFG-DESIGN, EDIT"](5054.md): OnPrem Permissions
+- [Permission set 5058 "Manufacturing CRP - Read"](5058.md): Base Application
+- [Permission set 5059 "MFG-CRP"](5059.md): OnPrem Permissions
+- [Permission set 5107 "Insurance - Edit"](5107.md): Base Application
+- [Permission set 5108 "FA-INSURANCE, EDIT"](5108.md): OnPrem Permissions
+- [Permission set 5117 "D365 AUTOMATION"](5117.md): Base Application
+- [Permission set 5127 "Inventory Transfer - Post"](5127.md): Base Application
+- [Permission set 5128 "INVT-TRANSFER, POST"](5128.md): OnPrem Permissions
+- [Permission set 5260 "Audit Export - Read"](5260.md): AuditFileExport
+- [Permission set 5261 "Audit Export - Edit"](5261.md): AuditFileExport
+- [Permission set 5262 "Audit Export - Objects"](5262.md): AuditFileExport
+- [Permission set 5263 "Ext. Events - Objects"](5263.md): Base Application
+- [Permission set 5264 "Ext. Events - Subscr"](5264.md): Base Application
+- [Permission set 5267 "D365 INV DOC, POST"](5267.md): Base Application
+- [Permission set 5269 "D365 COSTACC, VIEW"](5269.md): Base Application
+- [Permission set 5271 "D365PREM MFG, EDIT"](5271.md): Base Application
+- [Permission set 5280 "SAF-T - Edit"](5280.md): SAF-T
+- [Permission set 5281 "SAF-T - Read"](5281.md): SAF-T
+- [Permission set 5282 "SAF-T Objects"](5282.md): SAF-T
+- [Permission set 5289 "D365 ACC. PAYABLE"](5289.md): Base Application
+- [Permission set 5377 "Page Inspection"](5377.md): Base Application
+- [Permission set 5378 "Page Inspection - Objects"](5378.md): Base Application
+- [Permission set 5401 "Consumption Journals - Edit"](5401.md): Base Application
+- [Permission set 5402 "MFG-CONS. JNL"](5402.md): OnPrem Permissions
+- [Permission set 5417 "Account Schedules - View"](5417.md): Base Application
+- [Permission set 5521 "Email SMTP - Edit"](5521.md): Email - SMTP Connector
+- [Permission set 5522 "Email SMTP - Objects"](5522.md): Email - SMTP Connector
+- [Permission set 5523 "Email SMTP - Read"](5523.md): Email - SMTP Connector
+- [Permission set 5540 "Service Documents - View"](5540.md): Base Application
+- [Permission set 5541 "SM-POSTED S/I/C"](5541.md): OnPrem Permissions
+- [Permission set 5577 "Insurance Journals - Edit"](5577.md): Base Application
+- [Permission set 5578 "FA-INS JOURNAL"](5578.md): OnPrem Permissions
+- [Permission set 5583 "Digital Voucher - Objects"](5583.md): EnforcedDigitalVouchers
+- [Permission set 5584 "Dig. Voucher - Edit"](5584.md): EnforcedDigitalVouchers
+- [Permission set 5585 "Dig. Voucher - Read"](5585.md): EnforcedDigitalVouchers
+- [Permission set 5600 "Vendor - View"](5600.md): Base Application
+- [Permission set 5601 "P&P-VENDOR"](5601.md): OnPrem Permissions
+- [Permission set 5656 "D365 CASH FLOW"](5656.md): Base Application
+- [Permission set 5658 "SendToEmailPrinter - Edit"](5658.md): SendToEmailPrinter
+- [Permission set 5659 "SendToEmailPrinter - Objects"](5659.md): SendToEmailPrinter
+- [Permission set 5660 "SendToEmailPrinter - Read"](5660.md): SendToEmailPrinter
+- [Permission set 5679 "Jobs - View"](5679.md): Base Application
+- [Permission set 5680 "JOB-PERIODIC"](5680.md): OnPrem Permissions
+- [Permission set 5729 "D365 CUSTOMER, EDIT"](5729.md): Base Application
+- [Permission set 5759 "D365 BANKING"](5759.md): Base Application
+- [Permission set 5768 "Service Contract - Edit"](5768.md): Base Application
+- [Permission set 5769 "SM-CONTRACT,EDIT"](5769.md): OnPrem Permissions
+- [Permission set 5783 "MERGE DUPLICATES"](5783.md): Base Application
+- [Permission set 5807 "D365 PURCH DOC, EDIT"](5807.md): Base Application
+- [Permission set 5863 "Item Budget - View"](5863.md): Base Application
+- [Permission set 5864 "INVT-BUDGET"](5864.md): OnPrem Permissions
+- [Permission set 5888 "Warehouse Documents - Edit"](5888.md): Base Application
+- [Permission set 5889 "WM-R/PA/A/P/S"](5889.md): OnPrem Permissions
+- [Permission set 5947 "D365 ITEM, EDIT"](5947.md): Base Application
+- [Permission set 5951 "Payables Documents - View"](5951.md): Base Application
+- [Permission set 5952 "P&P-POSTED R/I/S/C"](5952.md): OnPrem Permissions
+- [Permission set 5972 "D365 RAPIDSTART"](5972.md): Base Application
+- [Permission set 6006 "D365 WEBHOOK SUBSCR"](6006.md): Base Application
+- [Permission set 6090 "Troubleshoot FA Ledger Entries"](6090.md): DataCorrectionFA
+- [Permission set 6091 "FATS - Edit"](6091.md): DataCorrectionFA
+- [Permission set 6092 "Payables - Admin"](6092.md): Base Application
+- [Permission set 6093 "P&P-SETUP"](6093.md): OnPrem Permissions
+- [Permission set 6095 "FATS - Read"](6095.md): DataCorrectionFA
+- [Permission set 6097 "FATS - Objects"](6097.md): DataCorrectionFA
+- [Permission set 6098 "Outlook Sync. - View"](6098.md): Base Application
+- [Permission set 6099 "OSYNCHUSER"](6099.md): OnPrem Permissions
+- [Permission set 6100 "E-Doc. Core - Objects"](6100.md): EDocument
+- [Permission set 6101 "E-Doc. Core - Read"](6101.md): EDocument
+- [Permission set 6102 "E-Doc. Core - Edit"](6102.md): EDocument, obsolete 27.0
+- [Permission set 6103 "E-Doc. Core - Basic"](6103.md): EDocument, obsolete 27.0
+- [Permission set 6104 "E-Doc. Core - Admin"](6104.md): EDocument
+- [Permission set 6105 "E-Doc. Core - User"](6105.md): EDocument
+- [Permission set 6121 "INTELLIGENT CLOUD"](6121.md): Base Application
+- [Permission set 6124 "Jobs - Admin"](6124.md): Base Application
+- [Permission set 6125 "JOB-SETUP"](6125.md): OnPrem Permissions
+- [Permission set 6148 "Manufacturing Design - View"](6148.md): Base Application
+- [Permission set 6149 "MFG-DESIGN"](6149.md): OnPrem Permissions
+- [Permission set 6200 "Trans. Stor. - Read"](6200.md): TransactionStorage
+- [Permission set 6201 "Transact. Storage Objects"](6201.md): TransactionStorage
+- [Permission set 6202 "Trans. Stor. - Edit"](6202.md): TransactionStorage
+- [Permission set 6207 "Recievables Journals - Post"](6207.md): Base Application
+- [Permission set 6208 "S&R-JOURNAL, POST"](6208.md): OnPrem Permissions
+- [Permission set 6210 "Sustainability - Objects"](6210.md): Sustainability
+- [Permission set 6211 "Sustainability Read"](6211.md): Sustainability
+- [Permission set 6212 "Sustainability Admin"](6212.md): Sustainability
+- [Permission set 6213 "Sustainability Edit"](6213.md): Sustainability
+- [Permission set 6218 "D365 ASSEMBLY, EDIT"](6218.md): Base Application
+- [Permission set 6219 "D365 Agent"](6219.md): Base Application
+- [Permission set 6280 "Sust. Copilot Admin"](6280.md): SustainabilityCopilotSuggestion
+- [Permission set 6281 "Sust. Copilot Edit"](6281.md): SustainabilityCopilotSuggestion
+- [Permission set 6282 "Sust. Copilot Objects"](6282.md): SustainabilityCopilotSuggestion
+- [Permission set 6283 "Sust. Copilot Read"](6283.md): SustainabilityCopilotSuggestion
+- [Permission set 6408 "D365 JOBS, SETUP"](6408.md): Base Application
+- [Permission set 6423 "Relationship Mgt - Admin"](6423.md): Base Application
+- [Permission set 6424 "RM-SETUP"](6424.md): OnPrem Permissions
+- [Permission set 6427 "Resources - Edit"](6427.md): Base Application
+- [Permission set 6428 "RES-RESOURCE, EDIT"](6428.md): OnPrem Permissions
+- [Permission set 6431 "Changelog - Read"](6431.md): Base Application
+- [Permission set 6432 "CHANGELOG-VIEW"](6432.md): OnPrem Permissions
+- [Permission set 6524 "D365PREM SMG, SETUP"](6524.md): Base Application
+- [Permission set 6555 "D365 VENDOR, VIEW"](6555.md): Base Application
+- [Permission set 6585 "D365 ADCS, VIEW"](6585.md): Base Application
+- [Permission set 6607 "Role Configuration - Edit"](6607.md): Base Application
+- [Permission set 6608 "ROLECONFIG"](6608.md): OnPrem Permissions
+- [Permission set 6610 "FS - Edit"](6610.md): FieldServiceIntegration
+- [Permission set 6611 "FS - Read"](6611.md): FieldServiceIntegration
+- [Permission set 6612 "FS - Objects"](6612.md): FieldServiceIntegration
+- [Permission set 6710 "Web Service Management - Read"](6710.md): System Application
+- [Permission set 6711 "Web Service Management - View"](6711.md): System Application
+- [Permission set 6712 "Web Service Management - Admin"](6712.md): System Application
+- [Permission set 6719 "Jobs - Edit"](6719.md): Base Application
+- [Permission set 6720 "General Ledger - Edit"](6720.md): Base Application
+- [Permission set 6721 "G/L-PERIODIC"](6721.md): OnPrem Permissions
+- [Permission set 6722 "JOB-JOBS, EDIT"](6722.md): OnPrem Permissions
+- [Permission set 6784 "WHT - Admin"](6784.md): WithholdingTax
+- [Permission set 6785 "WHT - Read"](6785.md): WithholdingTax
+- [Permission set 6786 "WHT - Objects"](6786.md): WithholdingTax
+- [Permission set 6787 "WHT - Edit"](6787.md): WithholdingTax
+- [Permission set 6850 "D365PREM SMG, EDIT"](6850.md): Base Application
+- [Permission set 6867 "Item Budget - Edit"](6867.md): Base Application
+- [Permission set 6868 "INVT-BUDGET, EDIT"](6868.md): OnPrem Permissions
+- [Permission set 6895 "Insurance - Read"](6895.md): Base Application
+- [Permission set 6896 "FA-INSURANCE"](6896.md): OnPrem Permissions
+- [Permission set 6904 "Expense Management - Objects"](6904.md): ExpenseAgent
+- [Permission set 6905 "Expense Mgmt. Admin"](6905.md): ExpenseAgent
+- [Permission set 6906 "Expense Mgmt. Edit"](6906.md): ExpenseAgent
+- [Permission set 6907 "Expense Mgmt. Read"](6907.md): ExpenseAgent
+- [Permission set 6912 "G/L Registers - Read"](6912.md): Base Application
+- [Permission set 6913 "G/L-REGISTER"](6913.md): OnPrem Permissions
+- [Permission set 6946 "Foundation UI"](6946.md): Base Application
+- [Permission set 6947 "FOUNDATION"](6947.md): OnPrem Permissions
+- [Permission set 6948 "D365 FULL ACCESS"](6948.md): Base Application
+- [Permission set 6950 "Expense Agent"](6950.md): ExpenseAgent
+- [Permission set 6952 "Expense Agent - Objects"](6952.md): ExpenseAgent
+- [Permission set 6953 "Expense Agent - Data"](6953.md): ExpenseAgent
+- [Permission set 6955 "Expense Agent - Data Depen."](6955.md): ExpenseAgent
+- [Permission set 7012 "Dataverse - Edit"](7012.md): Base Application
+- [Permission set 7013 "MS DATAVERSE MANAGE"](7013.md): OnPrem Permissions
+- [Permission set 7052 "Fixed Assets - Read"](7052.md): Base Application
+- [Permission set 7053 "FA-FIXED ASSET"](7053.md): OnPrem Permissions
+- [Permission set 7058 "Exp. Withholding Tax"](7058.md): ExpenseWithholdingTax
+- [Permission set 7071 "Recievables - Edit"](7071.md): Base Application
+- [Permission set 7072 "S&R-PERIODIC"](7072.md): OnPrem Permissions
+- [Permission set 7111 "Document Approvals - Edit"](7111.md): Base Application
+- [Permission set 7112 "DOC-APP-USER"](7112.md): OnPrem Permissions
+- [Permission set 7209 "D365 SNAPSHOT DEBUG"](7209.md): System Application
+- [Permission set 7210 "D365 ATTACH DEBUG"](7210.md): System Application
+- [Permission set 7230 "Master Data Mgt. - Objects"](7230.md): MasterDataManagement
+- [Permission set 7231 "Master Data Mgt. - Read"](7231.md): MasterDataManagement
+- [Permission set 7232 "Master Data Mgt. - View"](7232.md): MasterDataManagement
+- [Permission set 7233 "Master Data Mgt."](7233.md): MasterDataManagement
+- [Permission set 7242 "MDM Cross-Env Read"](7242.md): MasterDataManagement
+- [Permission set 7368 "SUPER (DATA)"](7368.md): System Application
+- [Permission set 7371 "Vendor - Edit"](7371.md): Base Application
+- [Permission set 7372 "Security - Baseapp"](7372.md): Base Application
+- [Permission set 7373 "P&P-VENDOR, EDIT"](7373.md): OnPrem Permissions
+- [Permission set 7450 "ExciseTaxes - Objects"](7450.md): ExciseTaxes
+- [Permission set 7451 "ExciseTaxes - Read"](7451.md): ExciseTaxes
+- [Permission set 7452 "ExciseTaxes - Edit"](7452.md): ExciseTaxes
+- [Permission set 7453 "ExciseTaxes - Admin"](7453.md): ExciseTaxes
+- [Permission set 7561 "Manufacturing CRP - Admin"](7561.md): Base Application
+- [Permission set 7562 "MFG-CRP SETUP"](7562.md): OnPrem Permissions
+- [Permission set 7568 "Fixed Assets - Admin"](7568.md): Base Application
+- [Permission set 7569 "FA-SETUP"](7569.md): OnPrem Permissions
+- [Permission set 7576 "D365 FINANCIAL REP."](7576.md): Base Application
+- [Permission set 7665 "Time Sheets - Post"](7665.md): Base Application
+- [Permission set 7666 "RES-TS MANAGER"](7666.md): OnPrem Permissions
+- [Permission set 7682 "Time Sheets - Admin"](7682.md): Base Application
+- [Permission set 7683 "RES-TS ADMINISTRATOR"](7683.md): OnPrem Permissions
+- [Permission set 7685 "ADCS - Read"](7685.md): Base Application
+- [Permission set 7686 "ADCS ALL"](7686.md): OnPrem Permissions
+- [Permission set 7785 "Bank Accounts - Edit"](7785.md): Base Application
+- [Permission set 7786 "G/L-BANK ACC, EDIT"](7786.md): OnPrem Permissions
+- [Permission set 7787 "Jobs Journals - Edit"](7787.md): Base Application
+- [Permission set 7788 "JOB-JOURNAL"](7788.md): OnPrem Permissions
+- [Permission set 7862 "D365 ACC. RECEIVABLE"](7862.md): Base Application
+- [Permission set 7871 "Outlook Sync. - Edit"](7871.md): Base Application
+- [Permission set 7872 "OSYNCHPUSER"](7872.md): OnPrem Permissions
+- [Permission set 7931 "D365 TEAM MEMBER"](7931.md): Base Application
+- [Permission set 7946 "Payables Documents - Edit"](7946.md): Base Application
+- [Permission set 7947 "P&P-Q/O/I/R/C"](7947.md): OnPrem Permissions
+- [Permission set 8001 "Sub. Billing Objects"](8001.md): Subscription Billing
+- [Permission set 8051 "Sub. Billing Admin"](8051.md): Subscription Billing
+- [Permission set 8052 "Sub. Billing All"](8052.md): Subscription Billing, obsolete 26.0
+- [Permission set 8053 "Sub. Billing User"](8053.md): Subscription Billing
+- [Permission set 8054 "Sub. Billing Basic"](8054.md): Subscription Billing
+- [Permission set 8310 "LatePayment - Edit"](8310.md): LatePaymentPredictor
+- [Permission set 8311 "LatePayment - Objects"](8311.md): LatePaymentPredictor
+- [Permission set 8312 "LatePayment - Read"](8312.md): LatePaymentPredictor
+- [Permission set 8322 "Service Documents - Post"](8322.md): Base Application
+- [Permission set 8323 "SM-Q/O/I/C,POST"](8323.md): OnPrem Permissions
+- [Permission set 8335 "VSC Intgr. - Admin"](8335.md): System Application
+- [Permission set 8350 "MCP - Objects"](8350.md): System Application
+- [Permission set 8351 "MCP - Read"](8351.md): System Application
+- [Permission set 8352 "MCP - Admin"](8352.md): System Application
+- [Permission set 8383 "D365 BACKUP/RESTORE"](8383.md): System Application
+- [Permission set 8462 "D365 INV, SETUP"](8462.md): Base Application
+- [Permission set 8562 "Inventory - Edit"](8562.md): Base Application
+- [Permission set 8563 "INVT-ITEM/BOM, EDIT"](8563.md): OnPrem Permissions
+- [Permission set 8583 "D365 RM SETUP"](8583.md): Base Application
+- [Permission set 8611 "Service Documents - Edit"](8611.md): Base Application
+- [Permission set 8612 "SM-Q/O/I/C"](8612.md): OnPrem Permissions
+- [Permission set 8620 "CashFlow - Admin"](8620.md): Base Application
+- [Permission set 8621 "CASHFLOW"](8621.md): OnPrem Permissions
+- [Permission set 8651 "Recievables Documents - Edit"](8651.md): Base Application
+- [Permission set 8652 "S&R-Q/O/I/R/C"](8652.md): OnPrem Permissions
+- [Permission set 8689 "Fixed Assets - View"](8689.md): Base Application
+- [Permission set 8690 "FA-PERIODIC"](8690.md): OnPrem Permissions
+- [Permission set 8700 "Table Information - Read"](8700.md): System Application
+- [Permission set 8701 "Table Information - View"](8701.md): System Application
+- [Permission set 8702 "Table Information - Objects"](8702.md): System Application
+- [Permission set 8707 "D365 ITEM, VIEW"](8707.md): Base Application
+- [Permission set 8708 "Dataverse - Admin"](8708.md): Base Application
+- [Permission set 8709 "MS DATAVERSE SETUP"](8709.md): OnPrem Permissions
+- [Permission set 8751 "DA Ext. Stor. Admin"](8751.md): External Storage - Document Attachments
+- [Permission set 8783 "Dataverse - View"](8783.md): Base Application
+- [Permission set 8784 "MS DATAVERSE VIEW"](8784.md): OnPrem Permissions
+- [Permission set 8785 "Recievables Journals - Edit"](8785.md): Base Application
+- [Permission set 8786 "S&R-JOURNAL"](8786.md): OnPrem Permissions
+- [Permission set 8787 "D365 FA, EDIT"](8787.md): Base Application
+- [Permission set 8802 "D365 MONITOR FIELDS"](8802.md): Base Application
+- [Permission set 8823 "Item Journals - Post"](8823.md): Base Application
+- [Permission set 8824 "Payables Journals - Edit"](8824.md): Base Application
+- [Permission set 8825 "P&P-JOURNAL"](8825.md): OnPrem Permissions
+- [Permission set 8826 "INVT-ITEM JNL, POST"](8826.md): OnPrem Permissions
+- [Permission set 8850 "Simplified Bank Stat. Import"](8850.md): SimplifiedBankStatementImport
+- [Permission set 8857 "SBSI - Edit"](8857.md): SimplifiedBankStatementImport
+- [Permission set 8858 "SBSI - Objects"](8858.md): SimplifiedBankStatementImport
+- [Permission set 8860 "SBSI - Read"](8860.md): SimplifiedBankStatementImport
+- [Permission set 8881 "Document Approvals - Admin"](8881.md): Base Application
+- [Permission set 8882 "DOC-APP-SETUP"](8882.md): OnPrem Permissions
+- [Permission set 8900 "Email - Read"](8900.md): System Application
+- [Permission set 8901 "Email - Edit"](8901.md): System Application
+- [Permission set 8902 "Email - Admin"](8902.md): System Application
+- [Permission set 8906 "Email - Objects"](8906.md): System Application
+- [Permission set 8917 "Warehouse Management - Admin"](8917.md): Base Application
+- [Permission set 8918 "WM-SETUP"](8918.md): OnPrem Permissions
+- [Permission set 8929 "Changelog - Edit"](8929.md): Base Application
+- [Permission set 8930 "CHANGELOG-DELETE"](8930.md): OnPrem Permissions
+- [Permission set 8933 "Service Contract - Read"](8933.md): Base Application
+- [Permission set 8934 "SM-CONTRACT"](8934.md): OnPrem Permissions
+- [Permission set 8992 "D365 WHSE, EDIT"](8992.md): Base Application
+- [Permission set 9004 "Azure AD Plan - Admin"](9004.md): System Application
+- [Permission set 9010 "AAD User Management - Objects"](9010.md): System Application
+- [Permission set 9011 "Azure AD User - Read"](9011.md): System Application
+- [Permission set 9016 "Azure AD Plan - Read"](9016.md): System Application
+- [Permission set 9018 "Azure AD Plan - View"](9018.md): System Application
+- [Permission set 9020 "Security Groups - Read"](9020.md): System Application
+- [Permission set 9022 "Security Groups - Admin"](9022.md): System Application
+- [Permission set 9024 "Azure AD User - View"](9024.md): System Application
+- [Permission set 9031 "Security Groups - Objects"](9031.md): System Application
+- [Permission set 9100 "SharePoint API - Objects"](9100.md): System Application
+- [Permission set 9111 "General Ledger Accounts - Edit"](9111.md): Base Application
+- [Permission set 9112 "G/L-ACCOUNT, EDIT"](9112.md): OnPrem Permissions
+- [Permission set 9171 "Default Role Center - Read"](9171.md): System Application
+- [Permission set 9172 "Default Role Center - View"](9172.md): System Application
+- [Permission set 9173 "Output Journals - Edit"](9173.md): Base Application
+- [Permission set 9174 "MFG-OUTP. JNL"](9174.md): OnPrem Permissions
+- [Permission set 9175 "User Settings - Objects"](9175.md): System Application
+- [Permission set 9176 "User Settings - View"](9176.md): System Application
+- [Permission set 9195 "OCR - Admin"](9195.md): Base Application
+- [Permission set 9196 "OCR-SETUP"](9196.md): OnPrem Permissions
+- [Permission set 9202 "Advanced Settings - View"](9202.md): System Application
+- [Permission set 9221 "Customer - Edit"](9221.md): Base Application
+- [Permission set 9222 "S&R-CUSTOMER, EDIT"](9222.md): OnPrem Permissions
+- [Permission set 9257 "Inventory Registers - Read"](9257.md): Base Application
+- [Permission set 9258 "INVT-ITEM REGISTER"](9258.md): OnPrem Permissions
+- [Permission set 9276 "VAT Report - Edit"](9276.md): Base Application
+- [Permission set 9277 "VATREPORT"](9277.md): OnPrem Permissions
+- [Permission set 9298 "Webhook Subscription - Edit"](9298.md): Base Application
+- [Permission set 9299 "WEBHOOK SUBSCRIPTION"](9299.md): OnPrem Permissions
+- [Permission set 9322 "Manufacturing CRP - Edit"](9322.md): Base Application
+- [Permission set 9323 "MFG-CRP, EDIT"](9323.md): OnPrem Permissions
+- [Permission set 9338 "Resources - Periodic"](9338.md): Base Application
+- [Permission set 9339 "RES-PERIODIC"](9339.md): OnPrem Permissions
+- [Permission set 9346 "Inventory - View"](9346.md): Base Application
+- [Permission set 9347 "INVT-ITEM/BOM"](9347.md): OnPrem Permissions
+- [Permission set 9412 "Prepayment - Admin"](9412.md): Base Application
+- [Permission set 9413 "PREPAY-SETUP"](9413.md): OnPrem Permissions
+- [Permission set 9425 "Warehouse Documents - Post"](9425.md): Base Application
+- [Permission set 9426 "WM-R/PA/A/P/S, POST"](9426.md): OnPrem Permissions
+- [Permission set 9450 "File Storage - Admin"](9450.md): System Application
+- [Permission set 9451 "File Storage - Read"](9451.md): System Application
+- [Permission set 9452 "File Storage - Objects"](9452.md): System Application
+- [Permission set 9453 "File Storage - Edit"](9453.md): System Application
+- [Permission set 9515 "AAD User Management - Exec"](9515.md): System Application
+- [Permission set 9556 "D365 INV DOC, CREATE"](9556.md): Base Application
+- [Permission set 9557 "Table Key - Objects"](9557.md): System Application
+- [Permission set 9560 "Document Sharing - Objects"](9560.md): System Application
+- [Permission set 9598 "Campaign - Read"](9598.md): Base Application
+- [Permission set 9599 "RM-CAMPAIGN"](9599.md): OnPrem Permissions
+- [Permission set 9630 "Automate - Exec"](9630.md): System Application
+- [Permission set 9631 "Data Analysis - Exec"](9631.md): System Application
+- [Permission set 9632 "Add Related Fields"](9632.md): System Application
+- [Permission set 9651 "PageScripting - Rec"](9651.md): System Application
+- [Permission set 9656 "PageScripting - Play"](9656.md): System Application
+- [Permission set 9680 "Copilot Sys Features"](9680.md): System Application
+- [Permission set 9701 "Cues and KPIs - Read"](9701.md): System Application
+- [Permission set 9702 "Cues and KPIs - View"](9702.md): System Application
+- [Permission set 9703 "Cues and KPIs - Edit"](9703.md): System Application
+- [Permission set 9704 "Cues and KPIs - Objects"](9704.md): System Application
+- [Permission set 9714 "Inventory Transfer - Edit"](9714.md): Base Application
+- [Permission set 9715 "INVT-TRANSFER"](9715.md): OnPrem Permissions
+- [Permission set 9762 "SFTP - Admin"](9762.md): System Application
+- [Permission set 9783 "D365 SALES DOC, EDIT"](9783.md): Base Application
+- [Permission set 9806 "Field Selection - Read"](9806.md): System Application
+- [Permission set 9843 "User Selection - Read"](9843.md): System Application
+- [Permission set 9844 "User Selection - Objects"](9844.md): System Application
+- [Permission set 9862 "Permission Sets - Objects"](9862.md): System Application
+- [Permission set 9886 "D365 JOBS, EDIT"](9886.md): Base Application
+- [Permission set 9918 "Fixed Assets Reg. - Read"](9918.md): Base Application
+- [Permission set 9919 "FA-REGISTER"](9919.md): OnPrem Permissions
+- [Permission set 9921 "D365 VENDOR, EDIT"](9921.md): Base Application
+- [Permission set 9931 "D365 ASSEMBLY, SETUP"](9931.md): Base Application
+- [Permission set 9977 "D365 SALES DOC, POST"](9977.md): Base Application
+- [Permission set 9986 "Word Templates - Read"](9986.md): System Application
+- [Permission set 9987 "Word Templates - Edit"](9987.md): System Application
+- [Permission set 9988 "Word Templates - Objects"](9988.md): System Application
+- [Permission set 19149 "EssentialHeadlines - Edit"](19149.md): EssentialBusinessHeadlines
+- [Permission set 19150 "EssentialHeadlines - Objects"](19150.md): EssentialBusinessHeadlines
+- [Permission set 19151 "EssentialHeadlines - Read"](19151.md): EssentialBusinessHeadlines
+- [Permission set 20109 "AMC Banking- Objects"](20109.md): AMCBanking365Fundamentals, obsolete 28.0
+- [Permission set 20111 "AMC Banking - Edit"](20111.md): AMCBanking365Fundamentals
+- [Permission set 20114 "AMC Banking - Read"](20114.md): AMCBanking365Fundamentals
+- [Permission set 20130 "Adv Objects - Tax Engine"](20130.md): INTaxEngine
+- [Permission set 20138 "D365 Access - IN Tax Engine"](20138.md): INTaxEngine
+- [Permission set 20139 "D365 Read Access - Tax Engine"](20139.md): INTaxEngine
+- [Permission set 20350 "Connectivity Apps - Edit"](20350.md): ConnectivityApps
+- [Permission set 20351 "Connectivity Apps - Read"](20351.md): ConnectivityApps
+- [Permission set 20352 "Connectivity Apps - Objects"](20352.md): ConnectivityApps
+- [Permission set 20401 "QltyMgmt - Read"](20401.md): Quality Management
+- [Permission set 20404 "QltyMgmt - Inspector"](20404.md): Quality Management
+- [Permission set 20405 "QltyMgmt - Admin"](20405.md): Quality Management
+- [Permission set 20406 "QltyMgmt - Objects"](20406.md): Quality Management
+- [Permission set 20407 "QltyMgmt - I. Create"](20407.md): Quality Management
+- [Permission set 20501 "Subcontract. - Objs"](20501.md): Subcontracting
+- [Permission set 20502 "Subcontract. - Read"](20502.md): Subcontracting
+- [Permission set 20503 "Subcontract. - Edit"](20503.md): Subcontracting
+- [Permission set 22217 "D365 GL Review"](22217.md): ReviewGLEntries
+- [Permission set 22218 "Review G/L Entries - Objects"](22218.md): ReviewGLEntries
+- [Permission set 22219 "Review G/L Entries - Read"](22219.md): ReviewGLEntries
+- [Permission set 22220 "Review G/L Entries - View"](22220.md): ReviewGLEntries
+- [Permission set 27225 "QBMigration - Edit"](27225.md): QBMigration
+- [Permission set 27226 "QBMigration - Objects"](27226.md): QBMigration
+- [Permission set 27227 "QBMigration - Read"](27227.md): QBMigration
+- [Permission set 30100 "Shpfy - Read"](30100.md): Shopify
+- [Permission set 30101 "Shpfy Indirect Perm"](30101.md): Shopify
+- [Permission set 30102 "Shpfy - Edit"](30102.md): Shopify
+- [Permission set 30103 "Shpfy - Admin"](30103.md): Shopify
+- [Permission set 30104 "Shpfy - Objects"](30104.md): Shopify
+- [Permission set 30300 "API Reports Finance - Objects"](30300.md): APIReportsFinance
+- [Permission set 30400 "D365 Intercompany CE"](30400.md): CrossEnvironmentIntercompany
+- [Permission set 30401 "Execute All Objects"](30401.md): CrossEnvironmentIntercompany
+- [Permission set 30402 "Data Access IC CE"](30402.md): CrossEnvironmentIntercompany
+- [Permission set 36950 "PowerBI Report Admin"](36950.md): PowerBIReports
+- [Permission set 36951 "PowerBi Report Basic"](36951.md): PowerBIReports
+- [Permission set 36955 "Power BI Embedded - Objects"](36955.md): PowerBIReports
+- [Permission set 40900 "GP Historical Trx."](40900.md): DynamicsGPHistoricalData
+- [Permission set 40901 "GP Payroll Detail"](40901.md): DynamicsGPHistoricalData
+- [Permission set 42801 "SL Historical Querys"](42801.md): DynamicsSLHistoricalData
+- [Permission set 45615 "PayPal - Edit"](45615.md): PayPalPaymentsStandard
+- [Permission set 45616 "PayPal - Objects"](45616.md): PayPalPaymentsStandard
+- [Permission set 45617 "PayPal - Read"](45617.md): PayPalPaymentsStandard
+- [Permission set 46850 "BC14 Migration Admin"](46850.md): HybridBC14
+- [Permission set 46851 "BC14MigrationViewer"](46851.md): HybridBC14
+- [Permission set 46882 "BC14 Historical Data"](46882.md): HybridBC14HistoricalData
+- [Permission set 47004 "SL Migration - Edit"](47004.md): HybridSL
+- [Permission set 47005 "SL Migration-Objects"](47005.md): HybridSL
+- [Permission set 47006 "SL Migration - Read"](47006.md): HybridSL
+- [Permission set 48057 "SalesForecast - Edit"](48057.md): SalesAndInventoryForecast
+- [Permission set 48058 "SalesForecast - Objects"](48058.md): SalesAndInventoryForecast
+- [Permission set 48059 "SalesForecast - Read"](48059.md): SalesAndInventoryForecast
+- [Permission set 48530 "Fabric Exp Admin"](48530.md): MicrosoftFabricMirroring
+- [Permission set 48531 "Fabric Exp Read"](48531.md): MicrosoftFabricMirroring
+- [Permission set 48532 "Fabric Exp Activate"](48532.md): MicrosoftFabricMirroring

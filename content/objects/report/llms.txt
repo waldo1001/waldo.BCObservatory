@@ -1,0 +1,759 @@
+# BC Observatory: Report objects
+
+755 objects, by id.
+
+- [Report 1 "Chart of Accounts"](1.md): Base Application
+- [Report 2 "General Journal - Test"](2.md): Base Application
+- [Report 3 "G/L Register"](3.md): Base Application
+- [Report 4 "Detail Trial Balance"](4.md): Base Application
+- [Report 5 "Receivables-Payables"](5.md): Base Application
+- [Report 6 "Trial Balance"](6.md): Base Application, obsolete 28.0
+- [Report 7 "Trial Balance/Previous Year"](7.md): Base Application
+- [Report 8 "Budget"](8.md): Base Application
+- [Report 9 "Trial Balance/Budget"](9.md): Base Application, obsolete 28.0
+- [Report 10 "Closing Trial Balance"](10.md): Base Application
+- [Report 11 "G/L - VAT Reconciliation"](11.md): Base Application
+- [Report 12 "VAT Statement"](12.md): Base Application
+- [Report 13 "VAT Register"](13.md): Base Application
+- [Report 14 "Consolidation - Test Database"](14.md): Base Application
+- [Report 15 "Consolidation - Test File"](15.md): Base Application
+- [Report 16 "G/L Consolidation Eliminations"](16.md): Base Application
+- [Report 17 "Consolidated Trial Balance"](17.md): Base Application
+- [Report 18 "Consolidated Trial Balance (4)"](18.md): Base Application
+- [Report 19 "VAT- VIES Declaration Tax Auth"](19.md): Base Application
+- [Report 20 "Calc. and Post VAT Settlement"](20.md): Base Application
+- [Report 23 "G/L Document Nos."](23.md): Base Application
+- [Report 24 "Sales Taxes Collected"](24.md): Base Application
+- [Report 25 "Account Schedule"](25.md): Base Application
+- [Report 26 "Copy Account Schedule"](26.md): Base Application
+- [Report 27 "Dimensions - Total"](27.md): Base Application
+- [Report 28 "Dimensions - Detail"](28.md): Base Application
+- [Report 29 "Export Acc. Sched. to Excel"](29.md): Base Application
+- [Report 30 "Check Value Posting"](30.md): Base Application
+- [Report 31 "VAT Exceptions"](31.md): Base Application
+- [Report 32 "VAT Registration No. Check"](32.md): Base Application
+- [Report 33 "Reconcile Cust. and Vend. Accs"](33.md): Base Application
+- [Report 34 "Change Payment Tolerance"](34.md): Base Application
+- [Report 35 "Document Entries"](35.md): Base Application
+- [Report 36 "Fiscal Year Balance"](36.md): Base Application
+- [Report 37 "Balance Comp. - Prev. Year"](37.md): Base Application
+- [Report 38 "Trial Balance by Period"](38.md): Base Application
+- [Report 39 "Copy Financial Report"](39.md): Base Application
+- [Report 81 "Import Budget from Excel"](81.md): Base Application
+- [Report 82 "Export Budget to Excel"](82.md): Base Application
+- [Report 84 "Update Analysis Views"](84.md): Base Application
+- [Report 85 "Copy - VAT Posting Setup"](85.md): Base Application
+- [Report 86 "Adjust Add. Reporting Currency"](86.md): Base Application
+- [Report 87 "Copy - General Posting Setup"](87.md): Base Application
+- [Report 88 "VAT- VIES Declaration Disk"](88.md): Base Application
+- [Report 90 "Import Consolidation from DB"](90.md): Base Application
+- [Report 91 "Export Consolidation"](91.md): Base Application
+- [Report 92 "Import Consolidation from File"](92.md): Base Application
+- [Report 93 "Create Fiscal Year"](93.md): Base Application
+- [Report 94 "Close Income Statement"](94.md): Base Application
+- [Report 95 "Date Compress VAT Entries"](95.md): Base Application
+- [Report 96 "Copy G/L Budget"](96.md): Base Application
+- [Report 97 "Date Compr. G/L Budget Entries"](97.md): Base Application
+- [Report 98 "Date Compress General Ledger"](98.md): Base Application
+- [Report 99 "Delete Empty G/L Registers"](99.md): Base Application
+- [Report 101 "Customer - List"](101.md): Base Application, obsolete 28.0
+- [Report 103 "Customer Register"](103.md): Base Application
+- [Report 104 "Customer - Detail Trial Bal."](104.md): Base Application
+- [Report 105 "Customer - Summary Aging"](105.md): Base Application
+- [Report 106 "Customer Detailed Aging"](106.md): Base Application
+- [Report 107 "Customer - Order Summary"](107.md): Base Application
+- [Report 108 "Customer - Order Detail"](108.md): Base Application
+- [Report 109 "Customer - Summary Aging Simp."](109.md): Base Application
+- [Report 110 "Customer - Labels"](110.md): Base Application
+- [Report 111 "Customer - Top 10 List"](111.md): Base Application, obsolete 28.0
+- [Report 112 "Sales Statistics"](112.md): Base Application, obsolete 28.0
+- [Report 113 "Customer/Item Sales"](113.md): Base Application
+- [Report 114 "Salesperson - Sales Statistics"](114.md): Base Application
+- [Report 115 "Salesperson - Commission"](115.md): Base Application
+- [Report 116 "Statement"](116.md): Base Application
+- [Report 117 "Reminder"](117.md): Base Application
+- [Report 118 "Finance Charge Memo"](118.md): Base Application
+- [Report 119 "Customer - Sales List"](119.md): Base Application, obsolete 28.0
+- [Report 120 "Aged Accounts Receivable"](120.md): Base Application, obsolete 28.0
+- [Report 121 "Customer - Balance to Date"](121.md): Base Application
+- [Report 122 "Reminder - Test"](122.md): Base Application
+- [Report 123 "Finance Charge Memo - Test"](123.md): Base Application
+- [Report 129 "Customer - Trial Balance"](129.md): Base Application
+- [Report 130 "EC Sales List"](130.md): Base Application
+- [Report 150 "Transfer GL Entries to CA"](150.md): Base Application
+- [Report 151 "Balance Sheet"](151.md): Base Application
+- [Report 152 "Calculate Low Level Code"](152.md): Base Application
+- [Report 153 "Customer Statement"](153.md): Base Application
+- [Report 154 "Income Statement"](154.md): Base Application
+- [Report 155 "Statement of Cashflows"](155.md): Base Application
+- [Report 156 "Retained Earnings Statement"](156.md): Base Application
+- [Report 172 "Create Recurring Sales Inv."](172.md): Base Application
+- [Report 186 "Update Finance Charge Text"](186.md): Base Application
+- [Report 187 "Update Reminder Text"](187.md): Base Application
+- [Report 188 "Create Reminders"](188.md): Base Application
+- [Report 189 "Suggest Reminder Lines"](189.md): Base Application
+- [Report 190 "Issue Reminders"](190.md): Base Application
+- [Report 191 "Create Finance Charge Memos"](191.md): Base Application
+- [Report 192 "Suggest Fin. Charge Memo Lines"](192.md): Base Application
+- [Report 193 "Issue Finance Charge Memos"](193.md): Base Application
+- [Report 198 "Date Compress Customer Ledger"](198.md): Base Application
+- [Report 199 "Net Customer/Vendor Balances"](199.md): Base Application
+- [Report 202 "Sales Document - Test"](202.md): Base Application
+- [Report 208 "Sales - Shipment"](208.md): Base Application
+- [Report 209 "Sales Reservation Avail."](209.md): Base Application, obsolete 28.0
+- [Report 210 "Blanket Sales Order"](210.md): Base Application
+- [Report 211 "Customer - Payment Receipt"](211.md): Base Application
+- [Report 212 "Sales Prepmt. Document Test"](212.md): Base Application
+- [Report 214 "Pick Instruction"](214.md): Base Application
+- [Report 215 "Archived Sales Quote"](215.md): Base Application
+- [Report 216 "Archived Sales Order"](216.md): Base Application
+- [Report 291 "Delete Invd Blnkt Sales Orders"](291.md): Base Application
+- [Report 292 "Copy Sales Document"](292.md): Base Application
+- [Report 295 "Combine Shipments"](295.md): Base Application
+- [Report 296 "Batch Post Sales Orders"](296.md): Base Application
+- [Report 297 "Batch Post Sales Invoices"](297.md): Base Application
+- [Report 298 "Batch Post Sales Credit Memos"](298.md): Base Application
+- [Report 299 "Delete Invoiced Sales Orders"](299.md): Base Application
+- [Report 300 "Carry Out Reservation"](300.md): Base Application
+- [Report 301 "Vendor - List"](301.md): Base Application, obsolete 28.0
+- [Report 302 "Get Demand To Reserve"](302.md): Base Application
+- [Report 303 "Vendor Register"](303.md): Base Application
+- [Report 304 "Vendor - Detail Trial Balance"](304.md): Base Application
+- [Report 305 "Vendor - Summary Aging"](305.md): Base Application, obsolete 28.0
+- [Report 307 "Vendor - Order Summary"](307.md): Base Application
+- [Report 308 "Vendor - Order Detail"](308.md): Base Application
+- [Report 309 "Vendor - Purchase List"](309.md): Base Application
+- [Report 310 "Vendor - Labels"](310.md): Base Application
+- [Report 311 "Vendor - Top 10 List"](311.md): Base Application, obsolete 28.0
+- [Report 312 "Purchase Statistics"](312.md): Base Application
+- [Report 313 "Vendor/Item Purchases"](313.md): Base Application
+- [Report 317 "Vendor Pre-Payment Journal"](317.md): Base Application
+- [Report 319 "Payments on Hold"](319.md): Base Application, obsolete 28.0
+- [Report 320 "Vendor Item Catalog"](320.md): Base Application
+- [Report 321 "Vendor - Balance to Date"](321.md): Base Application
+- [Report 322 "Aged Accounts Payable"](322.md): Base Application, obsolete 28.0
+- [Report 323 "ECSL Report Request Page"](323.md): Base Application
+- [Report 329 "Vendor - Trial Balance"](329.md): Base Application
+- [Report 330 "Audit Trail"](330.md): Base Application
+- [Report 357 "Copy Company"](357.md): Base Application
+- [Report 393 "Suggest Vendor Payments"](393.md): Base Application
+- [Report 394 "Suggest Employee Payments"](394.md): Base Application
+- [Report 398 "Date Compress Vendor Ledger"](398.md): Base Application
+- [Report 399 "Remittance Advice - Journal"](399.md): Base Application
+- [Report 400 "Remittance Advice - Entries"](400.md): Base Application
+- [Report 402 "Purchase Document - Test"](402.md): Base Application
+- [Report 404 "Purchase - Quote"](404.md): Base Application
+- [Report 405 "Order"](405.md): Base Application
+- [Report 406 "Purchase - Invoice"](406.md): Base Application
+- [Report 407 "Purchase - Credit Memo"](407.md): Base Application
+- [Report 408 "Purchase - Receipt"](408.md): Base Application
+- [Report 409 "Purchase Reservation Avail."](409.md): Base Application
+- [Report 410 "Blanket Purchase Order"](410.md): Base Application
+- [Report 411 "Vendor - Payment Receipt"](411.md): Base Application
+- [Report 412 "Purchase Prepmt. Doc. - Test"](412.md): Base Application
+- [Report 413 "Self Billing Invoice"](413.md): Base Application
+- [Report 415 "Archived Purchase Quote"](415.md): Base Application
+- [Report 416 "Archived Purchase Order"](416.md): Base Application
+- [Report 417 "Arch.Purch. Return Order"](417.md): Base Application
+- [Report 418 "Arch. Sales Return Order"](418.md): Base Application
+- [Report 482 "Update Dim. Set Glbl. Dim. No."](482.md): Base Application
+- [Report 491 "Delete Invd Blnkt Purch Orders"](491.md): Base Application
+- [Report 492 "Copy Purchase Document"](492.md): Base Application
+- [Report 493 "Carry Out Action Msg. - Req."](493.md): Base Application
+- [Report 496 "Batch Post Purchase Orders"](496.md): Base Application
+- [Report 497 "Batch Post Purchase Invoices"](497.md): Base Application
+- [Report 498 "Batch Post Purch. Credit Memos"](498.md): Base Application
+- [Report 499 "Delete Invoiced Purch. Orders"](499.md): Base Application
+- [Report 503 "Foreign Currency Balance"](503.md): Base Application
+- [Report 508 "Change Log Setup List"](508.md): Base Application
+- [Report 509 "Change Log Entries"](509.md): Base Application
+- [Report 510 "Change Log - Delete"](510.md): Base Application
+- [Report 511 "Complete IC Inbox Action"](511.md): Base Application
+- [Report 512 "IC Transactions"](512.md): Base Application
+- [Report 513 "Move IC Trans. to Partner Comp"](513.md): Base Application
+- [Report 596 "Exch. Rate Adjustment"](596.md): Base Application
+- [Report 597 "G/L Currency Revaluation"](597.md): Base Application
+- [Report 600 "Approval User Setup Test"](600.md): Base Application
+- [Report 685 "Payment Practice"](685.md): PaymentPractices
+- [Report 698 "Get Sales Orders"](698.md): Base Application
+- [Report 699 "Calculate Plan - Req. Wksh."](699.md): Base Application
+- [Report 701 "Inventory - List"](701.md): Base Application
+- [Report 702 "Inventory Posting - Test"](702.md): Base Application
+- [Report 703 "Item Register - Quantity"](703.md): Base Application
+- [Report 704 "Inventory - Transaction Detail"](704.md): Base Application
+- [Report 705 "Inventory Availability"](705.md): Base Application
+- [Report 706 "Status"](706.md): Base Application
+- [Report 707 "Inventory - Availability Plan"](707.md): Base Application, obsolete 28.0
+- [Report 708 "Inventory Order Details"](708.md): Base Application
+- [Report 709 "Inventory Purchase Orders"](709.md): Base Application
+- [Report 711 "Inventory - Top 10 List"](711.md): Base Application
+- [Report 712 "Inventory - Sales Statistics"](712.md): Base Application
+- [Report 713 "Inventory - Customer Sales"](713.md): Base Application
+- [Report 714 "Inventory - Vendor Purchases"](714.md): Base Application
+- [Report 715 "Price List"](715.md): Base Application
+- [Report 716 "Inventory Cost and Price List"](716.md): Base Application
+- [Report 717 "Inventory - Reorders"](717.md): Base Application
+- [Report 718 "Inventory - Sales Back Orders"](718.md): Base Application
+- [Report 719 "Inv. Availability Plan"](719.md): Base Application
+- [Report 720 "Item/Vendor Catalog"](720.md): Base Application
+- [Report 721 "Inventory - Cost Variance"](721.md): Base Application
+- [Report 722 "Phys. Inventory List"](722.md): Base Application
+- [Report 723 "Item - ABC Analysis"](723.md): Base Application
+- [Report 740 "VAT Report Print"](740.md): Base Application
+- [Report 741 "VAT Report Suggest Lines"](741.md): Base Application
+- [Report 742 "VAT Report Request Page"](742.md): Base Application
+- [Report 743 "VAT Reconciliation Report"](743.md): Base Application
+- [Report 750 "Save as Standard Gen. Journal"](750.md): Base Application
+- [Report 751 "Save as Standard Item Journal"](751.md): Base Application
+- [Report 752 "Work Order"](752.md): Base Application
+- [Report 780 "Certificate of Supply"](780.md): Base Application
+- [Report 789 "Delete Phys. Inventory Ledger"](789.md): Base Application
+- [Report 790 "Calculate Inventory"](790.md): Base Application
+- [Report 794 "Adjust Item Costs/Prices"](794.md): Base Application
+- [Report 795 "Adjust Cost - Item Entries"](795.md): Base Application
+- [Report 799 "Delete Empty Item Registers"](799.md): Base Application
+- [Report 801 "Assembly BOMs"](801.md): Base Application
+- [Report 809 "Where-Used List"](809.md): Base Application
+- [Report 810 "Assembly BOM - Raw Materials"](810.md): Base Application
+- [Report 811 "Assembly BOM - Subassemblies"](811.md): Base Application
+- [Report 812 "Assembly BOM - End Items"](812.md): Base Application
+- [Report 813 "Inventory Picking List"](813.md): Base Application
+- [Report 840 "Suggest Worksheet Lines"](840.md): Base Application
+- [Report 846 "Cash Flow Date List"](846.md): Base Application
+- [Report 852 "Cash Flow Dimensions - Detail"](852.md): Base Application
+- [Report 900 "Batch Post Assembly Orders"](900.md): Base Application
+- [Report 901 "Copy Assembly Document"](901.md): Base Application
+- [Report 902 "Assembly Order"](902.md): Base Application
+- [Report 910 "Posted Assembly Order"](910.md): Base Application
+- [Report 915 "Assemble to Order - Sales"](915.md): Base Application
+- [Report 950 "Create Time Sheets"](950.md): Base Application
+- [Report 951 "Suggest Res. Jnl. Lines"](951.md): Base Application
+- [Report 952 "Suggest Job Jnl. Lines"](952.md): Base Application
+- [Report 953 "Move Time Sheets to Archive"](953.md): Base Application
+- [Report 960 "Copy Column Layout"](960.md): Base Application
+- [Report 1001 "Inventory Valuation"](1001.md): Base Application
+- [Report 1002 "Post Inventory Cost to G/L"](1002.md): Base Application
+- [Report 1003 "Post Invt. Cost to G/L - Test"](1003.md): Base Application
+- [Report 1004 "Close Inventory Period - Test"](1004.md): Base Application
+- [Report 1005 "Job Journal - Test"](1005.md): Base Application
+- [Report 1006 "Job - Planning Lines"](1006.md): Base Application
+- [Report 1007 "Job - Transaction Detail"](1007.md): Base Application
+- [Report 1008 "Job Analysis"](1008.md): Base Application
+- [Report 1009 "Job Actual To Budget"](1009.md): Base Application
+- [Report 1010 "Job WIP To G/L"](1010.md): Base Application
+- [Report 1011 "Job Suggested Billing"](1011.md): Base Application
+- [Report 1012 "Jobs per Customer"](1012.md): Base Application
+- [Report 1013 "Items per Job"](1013.md): Base Application
+- [Report 1014 "Jobs per Item"](1014.md): Base Application
+- [Report 1015 "Job Register"](1015.md): Base Application
+- [Report 1016 "Job Quote"](1016.md): Base Application
+- [Report 1017 "Job Task Quote"](1017.md): Base Application
+- [Report 1085 "Job Post WIP to G/L"](1085.md): Base Application
+- [Report 1086 "Job Calculate WIP"](1086.md): Base Application
+- [Report 1087 "Change Job Dates"](1087.md): Base Application
+- [Report 1088 "Job Split Planning Line"](1088.md): Base Application
+- [Report 1090 "Job Calc. Remaining Usage"](1090.md): Base Application
+- [Report 1091 "Job Transfer To Planning Lines"](1091.md): Base Application
+- [Report 1092 "Job Transfer to Credit Memo"](1092.md): Base Application
+- [Report 1093 "Job Create Sales Invoice"](1093.md): Base Application
+- [Report 1094 "Job Transfer to Sales Invoice"](1094.md): Base Application
+- [Report 1095 "Update Job Item Cost"](1095.md): Base Application
+- [Report 1101 "Resource - List"](1101.md): Base Application
+- [Report 1102 "Resource Journal - Test"](1102.md): Base Application
+- [Report 1103 "Resource Register"](1103.md): Base Application
+- [Report 1105 "Resource Statistics"](1105.md): Base Application
+- [Report 1106 "Resource Usage"](1106.md): Base Application
+- [Report 1107 "Resource - Cost Breakdown"](1107.md): Base Application
+- [Report 1115 "Resource - Price List"](1115.md): Base Application
+- [Report 1123 "Cost Acctg. Stmt. per Period"](1123.md): Base Application
+- [Report 1125 "Cost Types Details"](1125.md): Base Application
+- [Report 1126 "Cost Acctg. Statement"](1126.md): Base Application
+- [Report 1127 "Cost Acctg. Analysis"](1127.md): Base Application
+- [Report 1128 "Cost Acctg. Journal"](1128.md): Base Application
+- [Report 1129 "Cost Allocations"](1129.md): Base Application
+- [Report 1130 "Delete Cost Entries"](1130.md): Base Application
+- [Report 1131 "Cost Allocation"](1131.md): Base Application
+- [Report 1133 "Cost Acctg. Statement/Budget"](1133.md): Base Application
+- [Report 1134 "Copy Cost Budget"](1134.md): Base Application
+- [Report 1135 "Copy G/L Budget to Cost Acctg."](1135.md): Base Application
+- [Report 1136 "Copy Cost Acctg. Budget to G/L"](1136.md): Base Application
+- [Report 1137 "Transfer Budget to Actual"](1137.md): Base Application
+- [Report 1138 "Cost Acctg. Balance/Budget"](1138.md): Base Application
+- [Report 1139 "Delete Cost Budget Entries"](1139.md): Base Application
+- [Report 1140 "Update Cost Acctg. Dimensions"](1140.md): Base Application
+- [Report 1141 "Delete Old Cost Entries"](1141.md): Base Application
+- [Report 1142 "Export Cost Budget to Excel"](1142.md): Base Application
+- [Report 1143 "Import Cost Budget from Excel"](1143.md): Base Application
+- [Report 1144 "Cost Register"](1144.md): Base Application
+- [Report 1170 "User Task Utility"](1170.md): Base Application
+- [Report 1191 "Suggest Res. Price Chg. (Res.)"](1191.md): Base Application
+- [Report 1192 "Suggest Res. Price Chg.(Price)"](1192.md): Base Application
+- [Report 1193 "Implement Res. Price Change"](1193.md): Base Application
+- [Report 1195 "Adjust Resource Costs/Prices"](1195.md): Base Application
+- [Report 1198 "Date Compress Resource Ledger"](1198.md): Base Application
+- [Report 1199 "Delete Empty Res. Registers"](1199.md): Base Application
+- [Report 1200 "Create Direct Debit Collection"](1200.md): Base Application
+- [Report 1201 "Post Direct Debit Collection"](1201.md): Base Application
+- [Report 1235 "Get File Structure"](1235.md): Base Application
+- [Report 1252 "Match Bank Entries"](1252.md): Base Application
+- [Report 1301 "Print ASCII File"](1301.md): Base Application
+- [Report 1302 "Standard Sales - Pro Forma Inv"](1302.md): Base Application
+- [Report 1303 "Standard Sales - Draft Invoice"](1303.md): Base Application
+- [Report 1304 "Standard Sales - Quote"](1304.md): Base Application
+- [Report 1305 "Standard Sales - Order Conf."](1305.md): Base Application
+- [Report 1306 "Standard Sales - Invoice"](1306.md): Base Application
+- [Report 1307 "Standard Sales - Credit Memo"](1307.md): Base Application
+- [Report 1308 "Standard Sales - Shipment"](1308.md): Base Application
+- [Report 1309 "Standard Sales - Return Rcpt."](1309.md): Base Application
+- [Report 1316 "Standard Statement"](1316.md): Base Application
+- [Report 1320 "Notification Email"](1320.md): Base Application
+- [Report 1322 "Standard Purchase - Order"](1322.md): Base Application
+- [Report 1393 "Cancel Issued Reminders"](1393.md): Base Application
+- [Report 1395 "Cancel Issued Fin.Charge Memos"](1395.md): Base Application
+- [Report 1401 "Check"](1401.md): Base Application
+- [Report 1402 "Bank Account - List"](1402.md): Base Application
+- [Report 1403 "Bank Account Register"](1403.md): Base Application
+- [Report 1404 "Bank Acc. - Detail Trial Bal."](1404.md): Base Application
+- [Report 1405 "Bank Account - Labels"](1405.md): Base Application
+- [Report 1406 "Bank Account - Check Details"](1406.md): Base Application
+- [Report 1407 "Bank Account Statement"](1407.md): Base Application
+- [Report 1408 "Bank Acc. Recon. - Test"](1408.md): Base Application
+- [Report 1409 "Posted Payment Reconciliation"](1409.md): Base Application
+- [Report 1495 "Delete Check Ledger Entries"](1495.md): Base Application
+- [Report 1496 "Suggest Bank Acc. Recon. Lines"](1496.md): Base Application
+- [Report 1497 "Trans. Bank Rec. to Gen. Jnl."](1497.md): Base Application
+- [Report 1498 "Date Compress Bank Acc. Ledger"](1498.md): Base Application
+- [Report 1509 "Send Overdue Appr. Notif."](1509.md): Base Application
+- [Report 1510 "Copy Workflow"](1510.md): Base Application
+- [Report 1511 "Delegate Approval Requests"](1511.md): Base Application
+- [Report 1690 "Bank Deposit"](1690.md): BankDeposits
+- [Report 1691 "Bank Deposit Test Report"](1691.md): BankDeposits
+- [Report 1700 "Deferral Summary - G/L"](1700.md): Base Application
+- [Report 1701 "Deferral Summary - Sales"](1701.md): Base Application
+- [Report 1702 "Deferral Summary - Purchasing"](1702.md): Base Application
+- [Report 1826 "Consolidation - Test"](1826.md): Base Application
+- [Report 2500 "Day Book VAT Entry"](2500.md): Base Application
+- [Report 2501 "Day Book Cust. Ledger Entry"](2501.md): Base Application
+- [Report 2502 "Day Book Vendor Ledger Entry"](2502.md): Base Application
+- [Report 4402 "EXR Aged Accounts Rec Excel"](4402.md): ExcelReports
+- [Report 4403 "EXR Aged Acc Payable Excel"](4403.md): ExcelReports
+- [Report 4404 "EXR Vendor Top List"](4404.md): ExcelReports
+- [Report 4405 "EXR Trial Balance Excel"](4405.md): ExcelReports
+- [Report 4406 "EXR Trial BalanceBudgetExcel"](4406.md): ExcelReports
+- [Report 4407 "EXR Trial Bal. Prev Year Excel"](4407.md): ExcelReports
+- [Report 4408 "EXR Trial Bal by Period Excel"](4408.md): ExcelReports
+- [Report 4409 "EXR Customer Top List"](4409.md): ExcelReports
+- [Report 4410 "EXR Consolidated Trial Balance"](4410.md): ExcelReports
+- [Report 4411 "EXR Fixed Asset Details Excel"](4411.md): ExcelReports
+- [Report 4412 "EXR Fixed Asset Analysis Excel"](4412.md): ExcelReports
+- [Report 4413 "EXR Fixed Asset Projected"](4413.md): ExcelReports
+- [Report 4414 "SOA Sample Order"](4414.md): SalesOrderAgent
+- [Report 4810 "Intrastat Report Get Lines"](4810.md): Intrastat
+- [Report 5050 "Contact - List"](5050.md): Base Application
+- [Report 5051 "Contact - Company Summary"](5051.md): Base Application
+- [Report 5053 "Contact - Person Summary"](5053.md): Base Application
+- [Report 5055 "Contact - Cover Sheet"](5055.md): Base Application
+- [Report 5056 "Contact - Labels"](5056.md): Base Application
+- [Report 5057 "Salesperson - Tasks"](5057.md): Base Application
+- [Report 5058 "Salesperson - Opportunities"](5058.md): Base Application
+- [Report 5059 "Team - Tasks"](5059.md): Base Application
+- [Report 5060 "Campaign - Details"](5060.md): Base Application
+- [Report 5061 "Opportunity - List"](5061.md): Base Application
+- [Report 5062 "Sales Cycle - Analysis"](5062.md): Base Application
+- [Report 5063 "Segment - Contacts"](5063.md): Base Application
+- [Report 5064 "Segment - Cover Sheet"](5064.md): Base Application
+- [Report 5065 "Segment - Labels"](5065.md): Base Application
+- [Report 5066 "Questionnaire - Handouts"](5066.md): Base Application
+- [Report 5067 "Questionnaire - Test"](5067.md): Base Application
+- [Report 5068 "Opportunity - Details"](5068.md): Base Application
+- [Report 5084 "Email Merge"](5084.md): Base Application
+- [Report 5085 "Contact Cover Sheet"](5085.md): Base Application
+- [Report 5172 "Delete Expired Sales Quotes"](5172.md): Base Application
+- [Report 5174 "Archived Blanket Purch. Order"](5174.md): Base Application
+- [Report 5176 "Archived Blanket Sales Order"](5176.md): Base Application
+- [Report 5181 "Relocate Attachments"](5181.md): Base Application
+- [Report 5182 "Delete Opportunities"](5182.md): Base Application
+- [Report 5183 "Resend Attachments"](5183.md): Base Application
+- [Report 5184 "Apply Mailing Group"](5184.md): Base Application
+- [Report 5185 "Log Segment"](5185.md): Base Application
+- [Report 5186 "Remove Contacts"](5186.md): Base Application
+- [Report 5187 "Generate Dupl. Search String"](5187.md): Base Application
+- [Report 5188 "Delete Tasks"](5188.md): Base Application
+- [Report 5189 "Delete Campaign Entries"](5189.md): Base Application
+- [Report 5190 "Delete Interaction Log Entries"](5190.md): Base Application
+- [Report 5191 "Delete Logged Segments"](5191.md): Base Application
+- [Report 5193 "Create Conts. from Bank Accs."](5193.md): Base Application
+- [Report 5194 "Create Conts. from Vendors"](5194.md): Base Application
+- [Report 5195 "Create Conts. from Customers"](5195.md): Base Application
+- [Report 5196 "Remove Contacts - Refine"](5196.md): Base Application
+- [Report 5197 "Remove Contacts - Reduce"](5197.md): Base Application
+- [Report 5198 "Add Contacts"](5198.md): Base Application
+- [Report 5199 "Update Contact Classification"](5199.md): Base Application
+- [Report 5200 "Employee - Labels"](5200.md): Base Application
+- [Report 5201 "Employee - List"](5201.md): Base Application
+- [Report 5202 "Employee - Misc. Article Info."](5202.md): Base Application
+- [Report 5203 "Employee - Confidential Info."](5203.md): Base Application
+- [Report 5204 "Employee - Staff Absences"](5204.md): Base Application
+- [Report 5205 "Employee - Absences by Causes"](5205.md): Base Application
+- [Report 5206 "Employee - Qualifications"](5206.md): Base Application
+- [Report 5207 "Employee - Addresses"](5207.md): Base Application
+- [Report 5208 "Employee - Relatives"](5208.md): Base Application
+- [Report 5209 "Employee - Birthdays"](5209.md): Base Application
+- [Report 5210 "Employee - Phone Nos."](5210.md): Base Application
+- [Report 5211 "Employee - Unions"](5211.md): Base Application
+- [Report 5212 "Employee - Contracts"](5212.md): Base Application
+- [Report 5213 "Employee - Alt. Addresses"](5213.md): Base Application
+- [Report 5260 "Copy G/L Account Mapping"](5260.md): AuditFileExport
+- [Report 5405 "Calc. Consumption"](5405.md): Base Application
+- [Report 5500 "Prod. Order Comp. and Routing"](5500.md): Base Application
+- [Report 5600 "Fixed Asset - Analysis"](5600.md): Base Application, obsolete 28.0
+- [Report 5601 "Fixed Asset - List"](5601.md): Base Application
+- [Report 5602 "Fixed Asset Journal - Test"](5602.md): Base Application
+- [Report 5603 "Fixed Asset Register"](5603.md): Base Application
+- [Report 5604 "Fixed Asset - Details"](5604.md): Base Application, obsolete 28.0
+- [Report 5605 "Fixed Asset - Book Value 01"](5605.md): Base Application
+- [Report 5606 "Fixed Asset - Book Value 02"](5606.md): Base Application
+- [Report 5607 "Fixed Asset - Projected Value"](5607.md): Base Application, obsolete 28.0
+- [Report 5608 "Fixed Asset - Acquisition List"](5608.md): Base Application
+- [Report 5610 "Fixed Asset - G/L Analysis"](5610.md): Base Application
+- [Report 5611 "FA Posting Group - Net Change"](5611.md): Base Application
+- [Report 5620 "Insurance - Analysis"](5620.md): Base Application
+- [Report 5621 "Insurance - List"](5621.md): Base Application
+- [Report 5622 "Insurance Journal - Test"](5622.md): Base Application
+- [Report 5623 "Insurance Register"](5623.md): Base Application
+- [Report 5624 "Insurance - Coverage Details"](5624.md): Base Application
+- [Report 5625 "Insurance - Tot. Value Insured"](5625.md): Base Application
+- [Report 5626 "Insurance - Uninsured FAs"](5626.md): Base Application
+- [Report 5630 "Maintenance - Analysis"](5630.md): Base Application
+- [Report 5633 "Maintenance Register"](5633.md): Base Application
+- [Report 5634 "Maintenance - Details"](5634.md): Base Application
+- [Report 5635 "Maintenance - Next Service"](5635.md): Base Application
+- [Report 5636 "Fixed Asset Document Nos."](5636.md): Base Application
+- [Report 5683 "Create Sum of Digits Table"](5683.md): Base Application
+- [Report 5684 "Copy FA Entries to G/L Budget"](5684.md): Base Application
+- [Report 5685 "Copy Fixed Asset"](5685.md): Base Application
+- [Report 5686 "Cancel FA Entries"](5686.md): Base Application
+- [Report 5687 "Copy Depreciation Book"](5687.md): Base Application
+- [Report 5688 "Cancel FA Ledger Entries"](5688.md): Base Application
+- [Report 5689 "Create FA Depreciation Books"](5689.md): Base Application
+- [Report 5690 "Index Fixed Assets"](5690.md): Base Application
+- [Report 5691 "Index Insurance"](5691.md): Base Application
+- [Report 5692 "Calculate Depreciation"](5692.md): Base Application
+- [Report 5693 "Delete Empty FA Registers"](5693.md): Base Application
+- [Report 5695 "Delete Empty Insurance Reg."](5695.md): Base Application
+- [Report 5696 "Date Compress FA Ledger"](5696.md): Base Application
+- [Report 5697 "Date Compress Insurance Ledger"](5697.md): Base Application
+- [Report 5698 "Date Compress Maint. Ledger"](5698.md): Base Application
+- [Report 5700 "Catalog Item Sales"](5700.md): Base Application
+- [Report 5701 "Item Substitutions"](5701.md): Base Application
+- [Report 5702 "Inventory - Inbound Transfer"](5702.md): Base Application
+- [Report 5703 "Transfer Order"](5703.md): Base Application
+- [Report 5704 "Transfer Shipment"](5704.md): Base Application
+- [Report 5705 "Transfer Receipt"](5705.md): Base Application
+- [Report 5706 "Create Stockkeeping Unit"](5706.md): Base Application
+- [Report 5707 "Batch Post Transfer Orders"](5707.md): Base Application
+- [Report 5708 "Create Warehouse Shipment"](5708.md): Base Application
+- [Report 5751 "Put-away List"](5751.md): Base Application
+- [Report 5752 "Picking List"](5752.md): Base Application
+- [Report 5753 "Get Source Documents"](5753.md): Base Application
+- [Report 5754 "Create Pick"](5754.md): Base Application
+- [Report 5755 "Delete Registered Whse. Docs."](5755.md): Base Application
+- [Report 5756 "Create Warehouse Location"](5756.md): Base Application
+- [Report 5757 "Items with Negative Inventory"](5757.md): Base Application, obsolete 28.0
+- [Report 5800 "Delete Item Data"](5800.md): Base Application
+- [Report 5801 "Invt. Valuation - Cost Spec."](5801.md): Base Application
+- [Report 5802 "Inventory Valuation - WIP"](5802.md): Base Application
+- [Report 5803 "Reset Cost Is Adjusted"](5803.md): Base Application
+- [Report 5804 "Adjust Cost - Item Buckets"](5804.md): Base Application
+- [Report 5805 "Item Register - Value"](5805.md): Base Application
+- [Report 5806 "Item Charges - Specification"](5806.md): Base Application
+- [Report 5807 "Item Age Composition - Qty."](5807.md): Base Application, obsolete 28.0
+- [Report 5808 "Item Age Composition - Value"](5808.md): Base Application
+- [Report 5809 "Item Expiration - Quantity"](5809.md): Base Application
+- [Report 5810 "Costing Errors Detection"](5810.md): Base Application
+- [Report 5811 "Calc. Inventory Value - Test"](5811.md): Base Application
+- [Report 5812 "Revaluation Posting - Test"](5812.md): Base Application
+- [Report 5848 "Cost Shares Breakdown"](5848.md): Base Application
+- [Report 5850 "Copy Invt. Document"](5850.md): Base Application
+- [Report 5851 "Suggest Item Standard Cost"](5851.md): Base Application
+- [Report 5852 "Suggest Capacity Standard Cost"](5852.md): Base Application
+- [Report 5853 "Copy Standard Cost Worksheet"](5853.md): Base Application
+- [Report 5854 "Roll Up Standard Cost"](5854.md): Base Application
+- [Report 5855 "Implement Standard Cost Change"](5855.md): Base Application
+- [Report 5871 "Item - Able to Make (Timeline)"](5871.md): Base Application
+- [Report 5872 "BOM Cost Share Distribution"](5872.md): Base Application
+- [Report 5875 "Phys. Invt. Order Diff. List"](5875.md): Base Application
+- [Report 5876 "Posted Phys. Invt. Order Diff."](5876.md): Base Application
+- [Report 5877 "Phys. Invt. Order - Test"](5877.md): Base Application
+- [Report 5878 "Phys. Invt. Recording"](5878.md): Base Application
+- [Report 5879 "Posted Phys. Invt. Recording"](5879.md): Base Application
+- [Report 5880 "Calc. Phys. Invt. Order Lines"](5880.md): Base Application
+- [Report 5881 "Make Phys. Invt. Recording"](5881.md): Base Application
+- [Report 5882 "Copy Phys. Invt. Order"](5882.md): Base Application
+- [Report 5883 "Copy Phys. Invt. Recording"](5883.md): Base Application
+- [Report 5884 "Calc. Phys. Invt. Order Count"](5884.md): Base Application
+- [Report 5885 "Calc. Phys. Invt. Order (Bins)"](5885.md): Base Application
+- [Report 5899 "Calculate Inventory Value"](5899.md): Base Application
+- [Report 5900 "Service Order"](5900.md): Base Application
+- [Report 5901 "Service Item Line Labels"](5901.md): Base Application
+- [Report 5902 "Service Quote"](5902.md): Base Application
+- [Report 5904 "Service Tasks"](5904.md): Base Application
+- [Report 5908 "Service Order - Response Time"](5908.md): Base Application
+- [Report 5909 "Service Profit (Resp. Centers)"](5909.md): Base Application
+- [Report 5910 "Service Profit (Serv. Orders)"](5910.md): Base Application
+- [Report 5911 "Service - Invoice"](5911.md): Base Application
+- [Report 5912 "Service - Credit Memo"](5912.md): Base Application
+- [Report 5913 "Service - Shipment"](5913.md): Base Application
+- [Report 5914 "Delete Invoiced Service Orders"](5914.md): Base Application
+- [Report 5915 "Service Document - Test"](5915.md): Base Application
+- [Report 5916 "Service Certificate of Supply"](5916.md): Base Application
+- [Report 5935 "Service Items"](5935.md): Base Application
+- [Report 5936 "Service Item Worksheet"](5936.md): Base Application
+- [Report 5937 "Service Items Out of Warranty"](5937.md): Base Application
+- [Report 5938 "Service Profit (Service Items)"](5938.md): Base Application
+- [Report 5939 "Service Item - Resource Usage"](5939.md): Base Application
+- [Report 5955 "Dispatch Board"](5955.md): Base Application
+- [Report 5956 "Service Load Level"](5956.md): Base Application
+- [Report 5970 "Service Contract"](5970.md): Base Application
+- [Report 5971 "Service Contract-Detail"](5971.md): Base Application
+- [Report 5972 "Service Contract Quote"](5972.md): Base Application
+- [Report 5973 "Service Contract Quote-Detail"](5973.md): Base Application
+- [Report 5974 "Contract Quotes to Be Signed"](5974.md): Base Application
+- [Report 5976 "Service Profit (Contracts)"](5976.md): Base Application
+- [Report 5977 "Service Contract - Customer"](5977.md): Base Application
+- [Report 5978 "Serv. Contract - Salesperson"](5978.md): Base Application
+- [Report 5979 "Copy Service Document"](5979.md): Base Application
+- [Report 5980 "Maintenance Visit - Planning"](5980.md): Base Application
+- [Report 5981 "Contr. Gain/Loss - Resp. Ctr."](5981.md): Base Application
+- [Report 5982 "Maintenance Performance"](5982.md): Base Application
+- [Report 5983 "Contract Gain/Loss Entries"](5983.md): Base Application
+- [Report 5984 "Contract Invoicing"](5984.md): Base Application
+- [Report 5985 "Contract Price Update - Test"](5985.md): Base Application
+- [Report 5986 "Prepaid Contr. Entries - Test"](5986.md): Base Application
+- [Report 5987 "Expired Contract Lines - Test"](5987.md): Base Application
+- [Report 5988 "Contr. Serv. Orders - Test"](5988.md): Base Application
+- [Report 6001 "Batch Post Service Orders"](6001.md): Base Application
+- [Report 6002 "Delete Service Document Log"](6002.md): Base Application
+- [Report 6004 "Batch Post Service Invoices"](6004.md): Base Application
+- [Report 6005 "Batch Post Service Cr. Memos"](6005.md): Base Application
+- [Report 6006 "Delete Service Email Queue"](6006.md): Base Application
+- [Report 6007 "Insert Fault/Resol. Relations"](6007.md): Base Application
+- [Report 6010 "Delete Service Item Log"](6010.md): Base Application
+- [Report 6030 "Create Contract Invoices"](6030.md): Base Application
+- [Report 6031 "Update Contract Prices"](6031.md): Base Application
+- [Report 6032 "Post Prepaid Contract Entries"](6032.md): Base Application
+- [Report 6033 "Get Prepaid Contract Entries"](6033.md): Base Application
+- [Report 6034 "Remove Lines from Contract"](6034.md): Base Application
+- [Report 6035 "Upd. Disc.% on Contract"](6035.md): Base Application
+- [Report 6036 "Create Contract Service Orders"](6036.md): Base Application
+- [Report 6037 "Change Customer in Contract"](6037.md): Base Application
+- [Report 6080 "Serv. Pricing Profitability"](6080.md): Base Application
+- [Report 6102 "E-Doc Sample Purchase Invoice"](6102.md): EDocument
+- [Report 6210 "Emission By Category"](6210.md): Sustainability
+- [Report 6211 "Emission Per Facility"](6211.md): Sustainability
+- [Report 6212 "Total Emissions"](6212.md): Sustainability
+- [Report 6213 "Batch Update Carbon Emission"](6213.md): Sustainability
+- [Report 6214 "Sust. Calculate CO2e"](6214.md): Sustainability
+- [Report 6215 "Sust. Item Calculate CO2e"](6215.md): Sustainability
+- [Report 6216 "Sust. Prod. BOM Calculate CO2e"](6216.md): Sustainability
+- [Report 6217 "Sust. Resource Calculate CO2e"](6217.md): Sustainability
+- [Report 6218 "Sust. Routing Calculate CO2e"](6218.md): Sustainability
+- [Report 6219 "Sust. Track Item of Concern"](6219.md): Sustainability
+- [Report 6220 "Sust. CSRD Preparation"](6220.md): Sustainability
+- [Report 6221 "Sust. Adjust Emissions"](6221.md): Sustainability
+- [Report 6222 "EUDR Sales Invoice"](6222.md): Sustainability
+- [Report 6250 "Auto Posting Errors"](6250.md): Base Application
+- [Report 6520 "Item Tracing Specification"](6520.md): Base Application
+- [Report 6521 "Item Tracking Appendix"](6521.md): Base Application
+- [Report 6529 "Item Tracking Navigate"](6529.md): Base Application
+- [Report 6562 "Calc. Invt. Doc. Whse. Adjmt."](6562.md): Base Application
+- [Report 6625 "Item GTIN Label"](6625.md): Base Application
+- [Report 6626 "Reference No Label"](6626.md): Base Application
+- [Report 6627 "SN Label"](6627.md): Base Application
+- [Report 6628 "Lot No Label"](6628.md): Base Application
+- [Report 6631 "Return Order Confirmation"](6631.md): Base Application
+- [Report 6636 "Purchase - Return Shipment"](6636.md): Base Application
+- [Report 6641 "Return Order"](6641.md): Base Application
+- [Report 6646 "Sales - Return Receipt"](6646.md): Base Application
+- [Report 6651 "Delete Invd Sales Ret. Orders"](6651.md): Base Application
+- [Report 6653 "Combine Return Receipts"](6653.md): Base Application
+- [Report 6655 "Batch Post Sales Return Orders"](6655.md): Base Application
+- [Report 6661 "Delete Invd Purch. Ret. Orders"](6661.md): Base Application
+- [Report 6665 "Batch Post Purch. Ret. Orders"](6665.md): Base Application
+- [Report 6697 "Create Ret.-Related Documents"](6697.md): Base Application
+- [Report 6698 "Move Negative Purchase Lines"](6698.md): Base Application
+- [Report 6699 "Move Negative Sales Lines"](6699.md): Base Application
+- [Report 6784 "WHT Calc. and Post Settlement"](6784.md): WithholdingTax
+- [Report 6785 "WHT Annual Information Return"](6785.md): WithholdingTax
+- [Report 6786 "WHT Certificate Creditable tax"](6786.md): WithholdingTax
+- [Report 6787 "WHT Monthly Remittance Return"](6787.md): WithholdingTax
+- [Report 6788 "WHT Purch. - Invoice"](6788.md): WithholdingTax
+- [Report 6789 "WHT Purch. - Cr. Memo"](6789.md): WithholdingTax
+- [Report 6790 "Withholding Tax Certificate"](6790.md): WithholdingTax
+- [Report 6850 "Spend Request Document"](6850.md): Base Application
+- [Report 6950 "Expense Report Details"](6950.md): ExpenseAgent
+- [Report 6951 "Expense Report Cover Page"](6951.md): ExpenseAgent
+- [Report 6952 "Expense Report Summary Page"](6952.md): ExpenseAgent
+- [Report 7050 "Item Price List"](7050.md): Base Application
+- [Report 7051 "Suggest Item Price on Wksh."](7051.md): Base Application
+- [Report 7052 "Suggest Sales Price on Wksh."](7052.md): Base Application
+- [Report 7053 "Implement Price Change"](7053.md): Base Application
+- [Report 7054 "Res. Price List"](7054.md): Base Application
+- [Report 7110 "Renumber Analysis Lines"](7110.md): Base Application
+- [Report 7112 "Analysis Report"](7112.md): Base Application
+- [Report 7113 "Export Analysis Rep. to Excel"](7113.md): Base Application
+- [Report 7114 "Run Sales Analysis Line Templ."](7114.md): Base Application
+- [Report 7115 "Run Purch. Analysis Line Temp."](7115.md): Base Application
+- [Report 7116 "Run Invt. Analysis Line Temp."](7116.md): Base Application
+- [Report 7117 "Run Sales Analysis Col. Temp."](7117.md): Base Application
+- [Report 7118 "Run Purch. Analysis Col. Temp."](7118.md): Base Application
+- [Report 7119 "Run Invt. Analysis Col. Temp."](7119.md): Base Application
+- [Report 7130 "Item Budget"](7130.md): Base Application
+- [Report 7131 "Import Item Budget from Excel"](7131.md): Base Application
+- [Report 7132 "Export Item Budget to Excel"](7132.md): Base Application
+- [Report 7139 "Date Comp. Item Budget Entries"](7139.md): Base Application
+- [Report 7150 "Item Dimensions - Detail"](7150.md): Base Application
+- [Report 7151 "Item Dimensions - Total"](7151.md): Base Application
+- [Report 7300 "Calculate Bin Replenishment"](7300.md): Base Application
+- [Report 7301 "Movement List"](7301.md): Base Application
+- [Report 7302 "Whse. Invt.-Registering - Test"](7302.md): Base Application
+- [Report 7303 "Warehouse Register - Quantity"](7303.md): Base Application
+- [Report 7304 "Get Outbound Source Documents"](7304.md): Base Application
+- [Report 7305 "Whse.-Source - Create Document"](7305.md): Base Application
+- [Report 7306 "Get Inbound Source Documents"](7306.md): Base Application
+- [Report 7307 "Whse. Phys. Inventory List"](7307.md): Base Application
+- [Report 7308 "Whse. - Posted Receipt"](7308.md): Base Application
+- [Report 7309 "Whse. - Posted Shipment"](7309.md): Base Application
+- [Report 7310 "Calculate Bins"](7310.md): Base Application
+- [Report 7311 "Bin Creation Wksh. Report"](7311.md): Base Application
+- [Report 7312 "Bin Content Create Wksh Report"](7312.md): Base Application
+- [Report 7313 "Whse. Shipment Status"](7313.md): Base Application
+- [Report 7314 "Whse. Change Unit of Measure"](7314.md): Base Application
+- [Report 7315 "Calculate Whse. Adjustment"](7315.md): Base Application
+- [Report 7316 "Whse. - Receipt"](7316.md): Base Application
+- [Report 7317 "Whse. - Shipment"](7317.md): Base Application
+- [Report 7318 "Whse.-Shipment - Create Pick"](7318.md): Base Application
+- [Report 7319 "Warehouse Bin List"](7319.md): Base Application
+- [Report 7320 "Whse. Adjustment Bin"](7320.md): Base Application
+- [Report 7321 "Inventory Movement"](7321.md): Base Application
+- [Report 7322 "Inventory Put-away List"](7322.md): Base Application
+- [Report 7323 "Create Invt Put-away/Pick/Mvmt"](7323.md): Base Application
+- [Report 7380 "Calculate Phys. Invt. Counting"](7380.md): Base Application
+- [Report 7390 "Whse. Calculate Inventory"](7390.md): Base Application
+- [Report 7391 "Whse. Get Bin Content"](7391.md): Base Application
+- [Report 7398 "Date Compress Whse. Entries"](7398.md): Base Application
+- [Report 7399 "Delete Empty Whse. Registers"](7399.md): Base Application
+- [Report 7412 "Create Excise Tax Jnl. Entries"](7412.md): ExciseTaxes
+- [Report 8000 "Select Contract Renewal"](8000.md): Subscription Billing
+- [Report 8001 "Create Service Objects"](8001.md): Subscription Billing
+- [Report 8002 "Cr. Serv. Comm. And Contr. L."](8002.md): Subscription Billing
+- [Report 8003 "Create Customer Contracts"](8003.md): Subscription Billing
+- [Report 8004 "Overview Of Contract Comp"](8004.md): Subscription Billing
+- [Report 8005 "Create Contract Analysis"](8005.md): Subscription Billing
+- [Report 8051 "Contract Deferrals Release"](8051.md): Subscription Billing
+- [Report 8052 "Cust. Contr. Def. Analysis"](8052.md): Subscription Billing
+- [Report 8053 "Vend Contr. Def. Analysis"](8053.md): Subscription Billing
+- [Report 8313 "Get License Permissions"](8313.md): Base Application
+- [Report 8360 "Financial Report Export Email"](8360.md): Base Application
+- [Report 8371 "Fin. Rep. Package Export Email"](8371.md): Base Application
+- [Report 8610 "Create G/L Acc. Journal Lines"](8610.md): Base Application
+- [Report 8611 "Create Customer Journal Lines"](8611.md): Base Application
+- [Report 8612 "Create Vendor Journal Lines"](8612.md): Base Application
+- [Report 8613 "Create Item Journal Lines"](8613.md): Base Application
+- [Report 8614 "Get Config. Tables"](8614.md): Base Application
+- [Report 8615 "Copy Package"](8615.md): Base Application
+- [Report 8616 "Get Package Tables"](8616.md): Base Application
+- [Report 8621 "Config. Package - Process"](8621.md): Base Application
+- [Report 8752 "DA External Storage Sync"](8752.md): External Storage - Document Attachments
+- [Report 8753 "DA External Storage Migration"](8753.md): External Storage - Document Attachments
+- [Report 9000 "Add/Subtract Permission Set"](9000.md): Base Application
+- [Report 9091 "Combine Service Shipments"](9091.md): Base Application
+- [Report 9200 "Void/Transmit Elec. Pmnts"](9200.md): Base Application
+- [Report 9802 "Copy Permission Set"](9802.md): Base Application
+- [Report 9810 "Change Password"](9810.md): System Application
+- [Report 20400 "Qlty. Create Inspection"](20400.md): Quality Management
+- [Report 20401 "Qlty. Certificate of Analysis"](20401.md): Quality Management
+- [Report 20402 "Qlty. Inspection Copy Template"](20402.md): Quality Management
+- [Report 20403 "Qlty. Non-Conformance"](20403.md): Quality Management
+- [Report 20404 "Qlty. Move Inventory"](20404.md): Quality Management
+- [Report 20405 "Qlty. General Purpose Inspect."](20405.md): Quality Management
+- [Report 20406 "Qlty. Create Internal Put-away"](20406.md): Quality Management
+- [Report 20408 "Qlty. Create Negative Adjmt."](20408.md): Quality Management
+- [Report 20409 "Qlty. Change Item Tracking"](20409.md): Quality Management
+- [Report 20410 "Qlty. Create Transfer Order"](20410.md): Quality Management
+- [Report 20411 "Qlty. Create Purchase Return"](20411.md): Quality Management
+- [Report 20412 "Qlty. Schedule Inspection"](20412.md): Quality Management
+- [Report 20501 "Subc. Create Transf. Order"](20501.md): Subcontracting
+- [Report 20502 "Subc. Create SubCReturnOrder"](20502.md): Subcontracting
+- [Report 20504 "Subc. Dispatching List"](20504.md): Subcontracting
+- [Report 20505 "Subc. Calculate Subcontracts"](20505.md): Subcontracting
+- [Report 30100 "Shpfy Sync Customers"](30100.md): Shopify
+- [Report 30101 "Shpfy Create Location Filter"](30101.md): Shopify
+- [Report 30102 "Shpfy Sync Stock to Shopify"](30102.md): Shopify
+- [Report 30103 "Shpfy Create Sales Orders"](30103.md): Shopify
+- [Report 30104 "Shpfy Sync Orders from Shopify"](30104.md): Shopify
+- [Report 30105 "Shpfy Sync Payments"](30105.md): Shopify
+- [Report 30106 "Shpfy Add Item to Shopify"](30106.md): Shopify
+- [Report 30107 "Shpfy Sync Images"](30107.md): Shopify
+- [Report 30108 "Shpfy Sync Products"](30108.md): Shopify
+- [Report 30109 "Shpfy Sync Shipm. to Shopify"](30109.md): Shopify
+- [Report 30110 "Shpfy Sync Countries"](30110.md): Shopify
+- [Report 30111 "Shpfy Translator"](30111.md): Shopify
+- [Report 30112 "Shpfy Add Customer to Shopify"](30112.md): Shopify
+- [Report 30113 "Shpfy Add Company to Shopify"](30113.md): Shopify
+- [Report 30114 "Shpfy Sync Companies"](30114.md): Shopify
+- [Report 30115 "Shpfy Sync Catalogs"](30115.md): Shopify
+- [Report 30116 "Shpfy Sync Catalog Prices"](30116.md): Shopify
+- [Report 30117 "Shpfy Add Item As Variant"](30117.md): Shopify
+- [Report 30118 "Shpfy Suggest Payments"](30118.md): Shopify
+- [Report 30119 "Shpfy Sync Invoices to Shpfy"](30119.md): Shopify
+- [Report 30120 "Shpfy Sync Disputes"](30120.md): Shopify
+- [Report 30121 "Shpfy Add Cust. As Locations"](30121.md): Shopify
+- [Report 99000753 "Quantity Explosion of BOM"](99000753.md): Base Application
+- [Report 99000754 "Rolled-up Cost Shares"](99000754.md): Base Application
+- [Report 99000755 "Single-level Cost Shares"](99000755.md): Base Application
+- [Report 99000756 "Detailed Calculation"](99000756.md): Base Application
+- [Report 99000757 "Where-Used (Top Level)"](99000757.md): Base Application
+- [Report 99000758 "Compare List"](99000758.md): Base Application, obsolete 27.0
+- [Report 99000759 "Work Center List"](99000759.md): Base Application, obsolete 26.0
+- [Report 99000760 "Machine Center List"](99000760.md): Base Application, obsolete 26.0
+- [Report 99000761 "Prod. Order - Routing List"](99000761.md): Base Application
+- [Report 99000762 "Prod. Order - Job Card"](99000762.md): Base Application
+- [Report 99000763 "Prod. Order - List"](99000763.md): Base Application
+- [Report 99000764 "Prod. Order - Precalc. Time"](99000764.md): Base Application
+- [Report 99000765 "Prod. Order - Mat. Requisition"](99000765.md): Base Application
+- [Report 99000766 "Prod. Order - Picking List"](99000766.md): Base Application
+- [Report 99000767 "Prod. Order - Calculation"](99000767.md): Base Application, obsolete 27.0
+- [Report 99000768 "Prod. Order - Detailed Calc."](99000768.md): Base Application
+- [Report 99000769 "Output Item Label"](99000769.md): Base Application
+- [Report 99000780 "Capacity Task List"](99000780.md): Base Application
+- [Report 99000783 "Work Center Load"](99000783.md): Base Application, obsolete 27.0
+- [Report 99000784 "Machine Center Load"](99000784.md): Base Application, obsolete 27.0
+- [Report 99000785 "Work Center Load/Bar"](99000785.md): Base Application, obsolete 27.0
+- [Report 99000786 "Machine Center Load/Bar"](99000786.md): Base Application, obsolete 27.0
+- [Report 99000787 "Routing Sheet"](99000787.md): Base Application
+- [Report 99000788 "Prod. Order - Shortage List"](99000788.md): Base Application
+- [Report 99000789 "Subcontractor - Dispatch List"](99000789.md): Base Application
+- [Report 99000791 "Production Order Statistics"](99000791.md): Base Application
+- [Report 99000792 "Work/Machine Center Load"](99000792.md): Base Application
+- [Report 99000794 "Compare Production Cost Shares"](99000794.md): Base Application
+- [Report 99001014 "Update Unit Cost"](99001014.md): Base Application
+- [Report 99001015 "Calculate Subcontracts"](99001015.md): Base Application, obsolete 28.0
+- [Report 99001017 "Calculate Plan - Plan. Wksh."](99001017.md): Base Application
+- [Report 99001020 "Carry Out Action Msg. - Plan."](99001020.md): Base Application
+- [Report 99001021 "Refresh Planning Demand"](99001021.md): Base Application
+- [Report 99001023 "Get Action Messages"](99001023.md): Base Application
+- [Report 99001025 "Refresh Production Order"](99001025.md): Base Application
+- [Report 99001026 "Replan Production Order"](99001026.md): Base Application
+- [Report 99001041 "Delete Expired Components"](99001041.md): Base Application
+- [Report 99001043 "Exchange Production BOM Item"](99001043.md): Base Application
+- [Report 99001045 "Calc. Machine Center Calendar"](99001045.md): Base Application
+- [Report 99001046 "Calculate Work Center Calendar"](99001046.md): Base Application
+- [Report 99001047 "Recalculate Calendar"](99001047.md): Base Application
+- [Report 99001048 "Planning Availability"](99001048.md): Base Application, obsolete 27.0
+- [Report 99003800 "Reg. Abs. (from Machine Ctr.)"](99003800.md): Base Application
+- [Report 99003801 "Implement Registered Absence"](99003801.md): Base Application
+- [Report 99003802 "Copy Production Order Document"](99003802.md): Base Application
+- [Report 99003803 "Copy Production Forecast"](99003803.md): Base Application
+- [Report 99003804 "Demand Forecast"](99003804.md): Base Application, obsolete 27.0
+- [Report 99003805 "Reg. Abs. (from Work Center)"](99003805.md): Base Application

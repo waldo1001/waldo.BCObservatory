@@ -1,0 +1,81 @@
+---
+id: object/interface/peppol-posted-document-iterator
+type: object
+title: Interface "PEPPOL Posted Document Iterator"
+summary: Interface "PEPPOL Posted Document Iterator" in PEPPOL (Microsoft.Peppol). 2 public procedures. Introduced in BC29, still in BC30.
+tier: official
+language: en
+tags:
+  - interface
+  - peppol
+versions:
+  introduced: "29"
+  last_changed: null
+  deprecated: null
+review:
+  state: unreviewed
+  by: null
+  at: null
+  flags: []
+generated:
+  at: "2026-10-06T17:21:46.353Z"
+  pipeline: 0.2.0
+  prompts: {}
+  input_hash: dee4c6c7b6933c274e42481a1615067c48cee089443f336d85b0ae7856bfb2e3
+evidence:
+  - kind: code
+    url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/PEPPOL/app/src/Interfaces/PEPPOLPostedDocumentIterator.Interface.al
+    title: src/Apps/W1/PEPPOL/app/src/Interfaces/PEPPOLPostedDocumentIterator.Interface.al (releases/29.x)
+    date: null
+    commit: d7c9c667c671da2cda3a0738b18ed99ca4181765
+    t: null
+    quote: null
+links:
+  learn: []
+  objects: []
+  features: []
+  topics: []
+  localizations: []
+  videos: []
+  posts: []
+  guidelines: []
+object_type: interface
+object_id: null
+name: PEPPOL Posted Document Iterator
+namespace: Microsoft.Peppol
+app: PEPPOL
+extends: null
+first_version: "29"
+last_version: "30"
+present_in:
+  - "29"
+  - "30"
+changed_in: []
+source_major: "29"
+obsolete: null
+countries: []
+ms_search_form_ids: []
+counts:
+  fields: 0
+  procedures: 2
+  events: 0
+  subscribers: 0
+---
+
+# Interface "PEPPOL Posted Document Iterator"
+
+> Interface "PEPPOL Posted Document Iterator" in PEPPOL (Microsoft.Peppol). 2 public procedures. Introduced in BC29, still in BC30.
+
+PEPPOL · Microsoft.Peppol · BC29-30 · [source at d7c9c667](https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/PEPPOL/app/src/Interfaces/PEPPOLPostedDocumentIterator.Interface.al) · facts from BC29
+
+## Procedures
+
+- `GetNextPostedHeaderAsSalesHeader(var PostedRecRef: RecordRef; var SalesHeader: Record "Sales Header"): Boolean`
+- `GetNextPostedLineAsSalesLine(var PostedLineRecRef: RecordRef; var SalesLine: Record "Sales Line"): Boolean`: Gets the next posted document line record and transfers its fields to a Sales Line buffer.
+
+## Across versions
+
+- Present in: BC29, BC30
+- Changed (declaration) in: none
+
+Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).

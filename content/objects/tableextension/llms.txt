@@ -1,0 +1,476 @@
+# BC Observatory: Table extension objects
+
+472 objects, by id.
+
+- [Table extension 60 "ShowCurrencyGenLedgSetup"](60.md): Base Application
+- [Table extension 230 "ObsoleteSourceCodeExt"](230.md): Business Foundation
+- [Table extension 242 "ObsoleteSourceCodeSetupExt"](242.md): Business Foundation
+- [Table extension 243 "SourceCodeSetupExt"](243.md): Base Application
+- [Table extension 308 "NoSeriesObsolete"](308.md): Business Foundation
+- [Table extension 309 "NoSeriesLineObsolete"](309.md): Business Foundation
+- [Table extension 472 "Job Queue Entry Ext."](472.md): Base Application
+- [Table extension 681 "Paym. Prac. Vend. Ledg. Entry"](681.md): PaymentPractices
+- [Table extension 705 "Error Message Extension"](705.md): Base Application
+- [Table extension 774 "Plan User Details"](774.md): System Application
+- [Table extension 903 "Asm. Warehouse Request"](903.md): Base Application
+- [Table extension 904 "Asm. Whse. Pick Request"](904.md): Base Application
+- [Table extension 905 "Asm. Item"](905.md): Base Application
+- [Table extension 906 "Asm. Requisition Line"](906.md): Base Application
+- [Table extension 907 "Asm. Item Journal Line"](907.md): Base Application
+- [Table extension 910 "Asm. Item Tracking Code"](910.md): Base Application
+- [Table extension 958 "Asm. BOM Buffer"](958.md): Base Application
+- [Table extension 979 "Asm. Whse. Worksheet Line"](979.md): Base Application
+- [Table extension 990 "Asm. Inventory Adjmt. Entry"](990.md): Base Application
+- [Table extension 1680 "Attachment Internet Message Id"](1680.md): EmailLogging
+- [Table extension 1694 "SalesReceivablesSetupExtension"](1694.md): BankDeposits
+- [Table extension 1695 "SourceCodeSetupExtension"](1695.md): BankDeposits
+- [Table extension 1696 "FinanceCueExt"](1696.md): BankDeposits
+- [Table extension 1854 "ItemForecastExtension"](1854.md): SalesAndInventoryForecast
+- [Table extension 1952 "CustomerLedgerEntryLPP"](1952.md): LatePaymentPredictor
+- [Table extension 1959 "LPP Sales Header"](1959.md): LatePaymentPredictor
+- [Table extension 2025 "MS - Image Analyzer Setup"](2025.md): ImageAnalysis
+- [Table extension 2625 "StatAccAnalysisView"](2625.md): StatisticalAccounts
+- [Table extension 2630 "StatAccSourceCodeSetup"](2630.md): StatisticalAccounts
+- [Table extension 3308 "PA E-Doc Sample Purch. Inv."](3308.md): PayablesAgent
+- [Table extension 3999 "Reten. Pol. Setup Line Ext."](3999.md): Base Application
+- [Table extension 4001 "NAV Hybrid Replication Summary"](4001.md): HybridBCLast
+- [Table extension 4006 "Hybrid Activites Cue"](4006.md): HybridBaseDeployment
+- [Table extension 4007 "Hybrid Finance Cue"](4007.md): HybridBaseDeployment
+- [Table extension 4038 "BC Last Cloud Setup"](4038.md): HybridBCLast
+- [Table extension 4412 "SOA Item Ext"](4412.md): SalesOrderAgent
+- [Table extension 4700 "VAT Report Header Extension"](4700.md): VATGroupManagement
+- [Table extension 4701 "VAT Report Setup Extension"](4701.md): VATGroupManagement
+- [Table extension 4703 "VAT Stmt. Rep. Line Extension"](4703.md): VATGroupManagement
+- [Table extension 4762 "Additional Demo Data"](4762.md): ContosoCoffeeDemoDataset
+- [Table extension 4810 "Intrastat Report Fixed Asset"](4810.md): Intrastat
+- [Table extension 4811 "Intrastat Report Item"](4811.md): Intrastat
+- [Table extension 4812 "Intrastat Report Contact"](4812.md): Intrastat
+- [Table extension 4813 "Intrastat Report Vendor"](4813.md): Intrastat
+- [Table extension 4814 "Intrastat Report Customer"](4814.md): Intrastat
+- [Table extension 4815 "Intrastat Report Sales Head."](4815.md): Intrastat
+- [Table extension 4816 "Intrastat Report Serv. Head."](4816.md): Intrastat
+- [Table extension 4817 "Intrastat Report Purch. Head."](4817.md): Intrastat
+- [Table extension 4818 "Intrastat Report GL Setup"](4818.md): Intrastat
+- [Table extension 4819 "Intrastat Report Tariff Number"](4819.md): Intrastat
+- [Table extension 4820 "Intrastat Report Item Templ."](4820.md): Intrastat
+- [Table extension 4821 "Intr. Rep. Lot No. Info"](4821.md): Intrastat
+- [Table extension 4822 "Intrastat Report Cust. Templ."](4822.md): Intrastat
+- [Table extension 4823 "Intr. Rep. Serial No. Info"](4823.md): Intrastat
+- [Table extension 4825 "Intrastat Report Country "](4825.md): Intrastat
+- [Table extension 4826 "Intrastat Report Trsf. Header"](4826.md): Intrastat
+- [Table extension 4827 "Intrastat Report Vendor Templ."](4827.md): Intrastat
+- [Table extension 4851 "AutoAcc Gen. Journal Line"](4851.md): AutomaticAccountCodes
+- [Table extension 4852 "AutoAcc G/L Account"](4852.md): AutomaticAccountCodes
+- [Table extension 4853 "AutoAcc. Invoice Post. Buffer"](4853.md): AutomaticAccountCodes
+- [Table extension 4854 "AutoAcc Invoice Posting Buffer"](4854.md): AutomaticAccountCodes
+- [Table extension 4855 "Auto Posted Gen. Journal Line"](4855.md): AutomaticAccountCodes
+- [Table extension 4856 "AutoAcc Purchase Line"](4856.md): AutomaticAccountCodes
+- [Table extension 4857 "AutoAcc Purch. Cr. Memo Line"](4857.md): AutomaticAccountCodes
+- [Table extension 4858 "AutoAcc Purch. Inv. Line"](4858.md): AutomaticAccountCodes
+- [Table extension 4859 "AutoAcc Purch. Rcpt. Line"](4859.md): AutomaticAccountCodes
+- [Table extension 4860 "AutoAcc Sales Cr.Memo Line"](4860.md): AutomaticAccountCodes
+- [Table extension 4862 "AutoAcc Sales Invoice Line"](4862.md): AutomaticAccountCodes
+- [Table extension 4863 "AutoAcc Sales Line"](4863.md): AutomaticAccountCodes
+- [Table extension 4864 "AutoAcc Sales Shipment Line"](4864.md): AutomaticAccountCodes
+- [Table extension 4881 "EU3 VAT Statement Line"](4881.md): EU3PartyTradePurchase
+- [Table extension 4882 "EU3 Purch. Cr. Memo Hdr."](4882.md): EU3PartyTradePurchase
+- [Table extension 4883 "EU3 Purch. Inv. Header"](4883.md): EU3PartyTradePurchase
+- [Table extension 4884 "EU3 Purchase Header"](4884.md): EU3PartyTradePurchase
+- [Table extension 4886 "EU3 VAT Setup"](4886.md): EU3PartyTradePurchase
+- [Table extension 5012 "Serv. Decl. Item"](5012.md): ServiceDeclaration
+- [Table extension 5013 "Serv. Decl. Item Charge"](5013.md): ServiceDeclaration
+- [Table extension 5014 "Serv. Decl. Item Jnl. Line"](5014.md): ServiceDeclaration
+- [Table extension 5015 "Serv. Decl. Item Ledg. Entry"](5015.md): ServiceDeclaration
+- [Table extension 5016 "Serv. Decl. Purch. Header"](5016.md): ServiceDeclaration
+- [Table extension 5017 "Serv. Decl. Purch. Line"](5017.md): ServiceDeclaration
+- [Table extension 5018 "Serv. Decl. Resource"](5018.md): ServiceDeclaration
+- [Table extension 5019 "Serv. Decl. Sales Header"](5019.md): ServiceDeclaration
+- [Table extension 5020 "Serv. Decl. Sales Line"](5020.md): ServiceDeclaration
+- [Table extension 5021 "Serv. Decl. Value Entry"](5021.md): ServiceDeclaration
+- [Table extension 5022 "Serv. Decl. Sales Inv. Line"](5022.md): ServiceDeclaration
+- [Table extension 5023 "SD Sales Cr. Memo Line"](5023.md): ServiceDeclaration
+- [Table extension 5024 "SD Purch. Inv. Line"](5024.md): ServiceDeclaration
+- [Table extension 5025 "SD Purch. Cr. Memo Line"](5025.md): ServiceDeclaration
+- [Table extension 5027 "Serv. Decl. Sales Inv. Header"](5027.md): ServiceDeclaration
+- [Table extension 5028 "SD Sales Cr.Memo Header"](5028.md): ServiceDeclaration
+- [Table extension 5029 "Serv. Decl. Purch. Inv. Header"](5029.md): ServiceDeclaration
+- [Table extension 5030 "SD Purch. Cr.Memo Header"](5030.md): ServiceDeclaration
+- [Table extension 5031 "Serv. Decl. Serv. Header"](5031.md): ServiceDeclaration
+- [Table extension 5032 "Serv. Decl. Serv. Inv. Header"](5032.md): ServiceDeclaration
+- [Table extension 5033 "Serv. Decl. Serv. Inv. Line"](5033.md): ServiceDeclaration
+- [Table extension 5034 "Serv. Decl. Serv. Line"](5034.md): ServiceDeclaration
+- [Table extension 5035 "SD Serv. Cr. Memo Line"](5035.md): ServiceDeclaration
+- [Table extension 5036 "SD Serv. Cr.Memo Header"](5036.md): ServiceDeclaration
+- [Table extension 5037 "Serv. Decl. Res. Ledg. Entry"](5037.md): ServiceDeclaration
+- [Table extension 5038 "Serv. Decl. Res. Jnl. Line"](5038.md): ServiceDeclaration
+- [Table extension 5039 "Serv. Decl. Serv. Hdr. Arch."](5039.md): ServiceDeclaration
+- [Table extension 5040 "Serv. Decl. Serv. Line Archive"](5040.md): ServiceDeclaration
+- [Table extension 5280 "Company Contact SAF-T"](5280.md): SAF-T
+- [Table extension 5281 "Source Code SAF-T"](5281.md): SAF-T
+- [Table extension 5282 "Dimension SAF-T"](5282.md): SAF-T
+- [Table extension 5283 "Audit File Export Setup SAF-T"](5283.md): SAF-T
+- [Table extension 5284 "Audit File Export Header SAF-T"](5284.md): SAF-T
+- [Table extension 5285 "VAT Posting Setup SAF-T"](5285.md): SAF-T
+- [Table extension 5582 "Dig. Voucher Inc. Doc. Attach."](5582.md): EnforcedDigitalVouchers
+- [Table extension 5825 "Serv. UndoSalesShptLineParams"](5825.md): Base Application
+- [Table extension 5840 "Cost Adjmt. Inventory Setup"](5840.md): Base Application
+- [Table extension 6091 "FA Setup Entries with issues"](6091.md): DataCorrectionFA
+- [Table extension 6100 "E-Document Sending Profile"](6100.md): EDocument
+- [Table extension 6101 "E-Doc. Gen. Journal Line"](6101.md): EDocument
+- [Table extension 6102 "E-Doc. Location"](6102.md): EDocument
+- [Table extension 6108 "E-Document Vendor Template"](6108.md): EDocument
+- [Table extension 6134 "EDocWorkflowStepArgument"](6134.md): EDocument
+- [Table extension 6135 "EDocWorkflowStepArgumentArch"](6135.md): EDocument
+- [Table extension 6160 "E-Doc. Attachment"](6160.md): EDocument
+- [Table extension 6162 "E-Doc. Purch. Payables Setup"](6162.md): EDocument
+- [Table extension 6165 "E-Document Vendor"](6165.md): EDocument
+- [Table extension 6166 "Posted Sales Invoice with QR"](6166.md): EDocument
+- [Table extension 6167 "PostedSalesCrdMemoWithQR"](6167.md): EDocument
+- [Table extension 6168 "E-Doc. Purchase Line"](6168.md): EDocument
+- [Table extension 6169 "E-Doc. Purchase Header"](6169.md): EDocument
+- [Table extension 6170 "Posted Service Invoice with QR"](6170.md): EDocument
+- [Table extension 6171 "Posted Service CrMemo with QR"](6171.md): EDocument
+- [Table extension 6172 "E-Doc. Sales Header"](6172.md): EDocument
+- [Table extension 6173 "E-Doc. Company Information"](6173.md): EDocument
+- [Table extension 6210 "User Setup - TabExt"](6210.md): Sustainability
+- [Table extension 6211 "Sustainability Purch. Line"](6211.md): Sustainability
+- [Table extension 6212 "Sustainability Purch. Header"](6212.md): Sustainability
+- [Table extension 6213 "Sust. Purch. Cr. Memo Line"](6213.md): Sustainability
+- [Table extension 6214 "Sust. Purch. Inv. Line"](6214.md): Sustainability
+- [Table extension 6215 "Sust. Purch. Ret. Shpt. Line"](6215.md): Sustainability
+- [Table extension 6216 "Sust. Purch. Rcpt. Line"](6216.md): Sustainability
+- [Table extension 6217 "Sust. Purch. Inv. Header"](6217.md): Sustainability
+- [Table extension 6218 "Sust. Purch. Cr. Memo Header"](6218.md): Sustainability
+- [Table extension 6219 "Sust. Vendor"](6219.md): Sustainability
+- [Table extension 6220 "Sust. Item"](6220.md): Sustainability
+- [Table extension 6221 "Sust. Acc. Schedule Line"](6221.md): Sustainability
+- [Table extension 6222 "Sust. Analysis Entry Buff."](6222.md): Sustainability
+- [Table extension 6223 "Sust. Analysis View Entry"](6223.md): Sustainability
+- [Table extension 6224 "Sust. Gen. Journal Line"](6224.md): Sustainability
+- [Table extension 6225 "Sust. Posted Gen. Journal Line"](6225.md): Sustainability
+- [Table extension 6226 "Responsibility Center - TabExt"](6226.md): Sustainability
+- [Table extension 6227 "Sust. G/L Account"](6227.md): Sustainability
+- [Table extension 6228 "Sust. Item Category"](6228.md): Sustainability
+- [Table extension 6229 "Sust. Item Charge"](6229.md): Sustainability
+- [Table extension 6230 "Sust. Resource"](6230.md): Sustainability
+- [Table extension 6231 "Sust. Work Center"](6231.md): Sustainability
+- [Table extension 6232 "Sust. Machine Center"](6232.md): Sustainability
+- [Table extension 6233 "Sust. Item Journal Line"](6233.md): Sustainability
+- [Table extension 6234 "Sustainability Sales Header"](6234.md): Sustainability
+- [Table extension 6235 "Sustainability Sales Line"](6235.md): Sustainability
+- [Table extension 6236 "Sust. Sales Cr. Memo Header"](6236.md): Sustainability
+- [Table extension 6237 "Sust. Sales Cr. Memo Line"](6237.md): Sustainability
+- [Table extension 6238 "Sust. Sales Invoice Header"](6238.md): Sustainability
+- [Table extension 6239 "Sust. Sales Invoice Line"](6239.md): Sustainability
+- [Table extension 6240 "Sust. Sales Ret. Rcpt. Line"](6240.md): Sustainability
+- [Table extension 6241 "Sust. Sales Shipment Line"](6241.md): Sustainability
+- [Table extension 6242 "Sust. Production Order"](6242.md): Sustainability
+- [Table extension 6243 "Sust. Production BOM Line"](6243.md): Sustainability
+- [Table extension 6245 "Sust. Routing Line"](6245.md): Sustainability
+- [Table extension 6246 "Sust. Prod. Order Component"](6246.md): Sustainability
+- [Table extension 6247 "Sust. Prod. Order Routing Line"](6247.md): Sustainability
+- [Table extension 6248 "Sust. Prod. Order Line"](6248.md): Sustainability
+- [Table extension 6249 "Sustainability Transfer Header"](6249.md): Sustainability
+- [Table extension 6250 "Sust. Transfer Line"](6250.md): Sustainability
+- [Table extension 6251 "Sustainability Assembly Header"](6251.md): Sustainability
+- [Table extension 6252 "Sust. Assembly Line"](6252.md): Sustainability
+- [Table extension 6253 "Sust. Posted Assembly Header"](6253.md): Sustainability
+- [Table extension 6254 "Sust. Posted Assembly Line"](6254.md): Sustainability
+- [Table extension 6255 "Sust. Transfer Shipment Header"](6255.md): Sustainability
+- [Table extension 6256 "Sust. Transfer Shipment Line"](6256.md): Sustainability
+- [Table extension 6257 "Sust. Job"](6257.md): Sustainability
+- [Table extension 6258 "Sust. Job Journal Line"](6258.md): Sustainability
+- [Table extension 6259 "Sust. Capacity Ledger Entry"](6259.md): Sustainability
+- [Table extension 6260 "Sust. Job Task"](6260.md): Sustainability
+- [Table extension 6261 "Sust. Item Ledger Entry"](6261.md): Sustainability
+- [Table extension 6262 "Power BI Setup - Sust."](6262.md): Sustainability
+- [Table extension 6263 "Sust. FA Ledger Entry"](6263.md): Sustainability
+- [Table extension 6264 "Sust. FA Journal Line"](6264.md): Sustainability
+- [Table extension 6265 "Sust. FA Reclass. Journal Line"](6265.md): Sustainability
+- [Table extension 6266 "Sust. FA Depreciation Book"](6266.md): Sustainability
+- [Table extension 6267 "Sust. Fixed Asset"](6267.md): Sustainability
+- [Table extension 6270 "Sustainability Service Header"](6270.md): Sustainability
+- [Table extension 6271 "Sustainability Service Line"](6271.md): Sustainability
+- [Table extension 6272 "Sust. Service Cr. Memo Header"](6272.md): Sustainability
+- [Table extension 6273 "Sust. Service Cr. Memo Line"](6273.md): Sustainability
+- [Table extension 6274 "Sust. Service Invoice Header"](6274.md): Sustainability
+- [Table extension 6275 "Sust. Service Invoice Line"](6275.md): Sustainability
+- [Table extension 6276 "Sust. Service Shipment Line"](6276.md): Sustainability
+- [Table extension 6277 "Sust. Service Item Line"](6277.md): Sustainability
+- [Table extension 6278 "Sust. Serv. Shipment Item Line"](6278.md): Sustainability
+- [Table extension 6279 "Sust. Resource Journal Line"](6279.md): Sustainability
+- [Table extension 6280 "Sust. Item Charge Assign Purch"](6280.md): Sustainability
+- [Table extension 6281 "Sust. Invoice Posting Buffer"](6281.md): Sustainability
+- [Table extension 6288 "EUDR Lot No. Information"](6288.md): Sustainability
+- [Table extension 6290 "Sustainability Journal Line"](6290.md): SustainabilityCopilotSuggestion
+- [Table extension 6291 "Sustain. Account Subcategory"](6291.md): SustainabilityCopilotSuggestion
+- [Table extension 6292 "Sustainability Ledger Entry"](6292.md): SustainabilityCopilotSuggestion
+- [Table extension 6293 "Sustain. Account Category"](6293.md): SustainabilityCopilotSuggestion
+- [Table extension 6408 "Serv. Sales Line Archive"](6408.md): Base Application
+- [Table extension 6450 "Serv. Customer"](6450.md): Base Application
+- [Table extension 6451 "Serv. Customer Templ."](6451.md): Base Application
+- [Table extension 6452 "Serv. Item"](6452.md): Base Application
+- [Table extension 6453 "Serv. Item Templ."](6453.md): Base Application
+- [Table extension 6454 "Serv. Stockkeeping Unit"](6454.md): Base Application
+- [Table extension 6455 "Serv. Responsibility Center"](6455.md): Base Application
+- [Table extension 6456 "Serv. Resource"](6456.md): Base Application
+- [Table extension 6457 "Serv. Resource Group"](6457.md): Base Application
+- [Table extension 6458 "Serv. Job Journal Line"](6458.md): Base Application
+- [Table extension 6459 "Serv. Job Ledger Entry"](6459.md): Base Application
+- [Table extension 6460 "Serv. Job Planning Line"](6460.md): Base Application
+- [Table extension 6461 "Serv. Job Planning Line Arch."](6461.md): Base Application
+- [Table extension 6462 "Serv. Time Sheet Detail"](6462.md): Base Application
+- [Table extension 6463 "Serv. Time Sheet Detail Arch."](6463.md): Base Application
+- [Table extension 6464 "Serv. Time Sheet Line"](6464.md): Base Application
+- [Table extension 6465 "Serv. Time Sheet Line Arch."](6465.md): Base Application
+- [Table extension 6466 "Serv. Ship-To Address"](6466.md): Base Application
+- [Table extension 6467 "Serv. Source Code Setup"](6467.md): Base Application
+- [Table extension 6468 "Serv. Extended Text Header"](6468.md): Base Application
+- [Table extension 6469 "Serv. Reason Code"](6469.md): Base Application
+- [Table extension 6470 "Serv. Cash Flow Forecast Entry"](6470.md): Base Application
+- [Table extension 6471 "Serv. Cash Flow Setup"](6471.md): Base Application
+- [Table extension 6472 "Serv. Cash Flow Worksheet Line"](6472.md): Base Application
+- [Table extension 6473 "Serv. Dtld. Price Calc. Setup"](6473.md): Base Application
+- [Table extension 6474 "Serv. Price List Line"](6474.md): Base Application
+- [Table extension 6475 "Serv. Price Worksheet Line"](6475.md): Base Application
+- [Table extension 6476 "Serv. Error Handl. Parameters"](6476.md): Base Application
+- [Table extension 6477 "Serv. Certificate of Supply"](6477.md): Base Application
+- [Table extension 6478 "Serv. VAT Rate Change Setup"](6478.md): Base Application
+- [Table extension 6479 "Serv. Warehouse Source Filter"](6479.md): Base Application
+- [Table extension 6484 "Serv. PriceList Line Ext."](6484.md): Base Application
+- [Table extension 6536 "E-Doc. Item Charge"](6536.md): EDocument
+- [Table extension 6610 "FS Job"](6610.md): FieldServiceIntegration
+- [Table extension 6611 "FS Job Task"](6611.md): FieldServiceIntegration
+- [Table extension 6612 "FS Service Item"](6612.md): FieldServiceIntegration
+- [Table extension 6613 "FS Job Cue"](6613.md): FieldServiceIntegration
+- [Table extension 6614 "FS Location"](6614.md): FieldServiceIntegration
+- [Table extension 6615 "FS Service Header"](6615.md): FieldServiceIntegration
+- [Table extension 6616 "FS Service Line"](6616.md): FieldServiceIntegration
+- [Table extension 6617 "FS CRM Product"](6617.md): FieldServiceIntegration
+- [Table extension 6618 "FS Integration Record"](6618.md): FieldServiceIntegration
+- [Table extension 6619 "FS Service Order Type"](6619.md): FieldServiceIntegration
+- [Table extension 6620 "FS Service Item Line"](6620.md): FieldServiceIntegration
+- [Table extension 6635 "ObsoleteReturnReasonExt"](6635.md): Business Foundation
+- [Table extension 6637 "ReturnReasonExt"](6637.md): Base Application
+- [Table extension 6784 "Withholding Vendor Ext"](6784.md): WithholdingTax
+- [Table extension 6785 "Withholding Item Ext"](6785.md): WithholdingTax
+- [Table extension 6786 "Withholding GL Account Ext"](6786.md): WithholdingTax
+- [Table extension 6787 "Withholding Fixed Asset Ext"](6787.md): WithholdingTax
+- [Table extension 6788 "Withholding Purch. Header Ext"](6788.md): WithholdingTax
+- [Table extension 6789 "Withholding Purch. Line Ext"](6789.md): WithholdingTax
+- [Table extension 6790 "Withholding GL Setup Ext"](6790.md): WithholdingTax
+- [Table extension 6791 "Withholding Purch Inv Line Ext"](6791.md): WithholdingTax
+- [Table extension 6792 "Withholding Vend Led Entry Ext"](6792.md): WithholdingTax
+- [Table extension 6793 "Withholding Gen. Jnl. Line Ext"](6793.md): WithholdingTax
+- [Table extension 6794 "WithholdingPurchCrMemoLineExt"](6794.md): WithholdingTax
+- [Table extension 6795 "Withholding G/L Register Ext"](6795.md): WithholdingTax
+- [Table extension 6796 "Withholding Purch Setup Ext"](6796.md): WithholdingTax
+- [Table extension 6797 "WHT Check Ledg. Entry Ext"](6797.md): WithholdingTax
+- [Table extension 6798 "Withholding Purch. Inv. Header"](6798.md): WithholdingTax
+- [Table extension 6799 "WHT Purch. Cr. Memo Hdr."](6799.md): WithholdingTax
+- [Table extension 6800 "WHT Purch. Rcpt. Header"](6800.md): WithholdingTax
+- [Table extension 6801 "WHT Return Shipment Header"](6801.md): WithholdingTax
+- [Table extension 6802 "WHT Invoice Posting Buffer"](6802.md): WithholdingTax
+- [Table extension 6803 "WHT Purchase Header Archive"](6803.md): WithholdingTax
+- [Table extension 6804 "WHT Vend Posting Group Ext"](6804.md): WithholdingTax
+- [Table extension 6805 "Withholding Vendor Templ."](6805.md): WithholdingTax
+- [Table extension 6806 "WithholdingSourceCodeSetupExt"](6806.md): WithholdingTax
+- [Table extension 6807 "WHT Company Info Ext"](6807.md): WithholdingTax
+- [Table extension 6808 "WHT VAT Amount Line Ext"](6808.md): WithholdingTax
+- [Table extension 6809 "WHT Employee Ext"](6809.md): WithholdingTax
+- [Table extension 6810 "WHT Empl. Ledger Entry Ext"](6810.md): WithholdingTax
+- [Table extension 6900 "Exp. Employee Posting Group"](6900.md): ExpenseAgent
+- [Table extension 6901 "Exp - Sales Line - Ext"](6901.md): ExpenseAgent
+- [Table extension 6902 "Exp. Document Attachment Ext"](6902.md): ExpenseAgent
+- [Table extension 6903 "User Setup Ext"](6903.md): ExpenseAgent
+- [Table extension 6904 "Exp - Sales Shpt Line - Ext"](6904.md): ExpenseAgent
+- [Table extension 6905 "Exp - Sales Inv Line - Ext"](6905.md): ExpenseAgent
+- [Table extension 6906 "Exp. Project Ledg. Entry Ext"](6906.md): ExpenseAgent
+- [Table extension 6907 "Exp. Job Jnl. Line Ext"](6907.md): ExpenseAgent
+- [Table extension 6908 "Expense Spend Request"](6908.md): ExpenseAgent
+- [Table extension 6975 "Source Code Setup"](6975.md): ExpenseAgent
+- [Table extension 6976 "Gen. Journal Line"](6976.md): ExpenseAgent
+- [Table extension 7049 "Feature Price Calc. Parameters"](7049.md): Base Application
+- [Table extension 7055 "WHT Expense Category Ext"](7055.md): ExpenseWithholdingTax
+- [Table extension 7056 "WHT Tax Posting Setup Ext"](7056.md): ExpenseWithholdingTax
+- [Table extension 7057 "WHT Threshold Accumulator Ext"](7057.md): ExpenseWithholdingTax
+- [Table extension 7109 "Exp. Spend Req. Detail"](7109.md): ExpenseAgent
+- [Table extension 7110 "Expense Employee"](7110.md): ExpenseAgent
+- [Table extension 7234 "MasterDataMgtFieldMapping"](7234.md): MasterDataManagement
+- [Table extension 7235 "MasterDataMgtTableMapping"](7235.md): MasterDataManagement
+- [Table extension 7244 "MDM Customer"](7244.md): MasterDataManagement
+- [Table extension 7245 "MDM Vendor"](7245.md): MasterDataManagement
+- [Table extension 7246 "MDM Contact"](7246.md): MasterDataManagement
+- [Table extension 7250 "MDM Post Code"](7250.md): MasterDataManagement
+- [Table extension 7251 "MDM Currency Exch. Rate"](7251.md): MasterDataManagement
+- [Table extension 7410 "Item Subst. Suggestion"](7410.md): CreateProductInformationWithCopilot
+- [Table extension 7412 "Sustainability Batch Excise"](7412.md): ExciseTaxes
+- [Table extension 7413 "Excise Journal Line Ext"](7413.md): ExciseTaxes
+- [Table extension 7414 "Excise Taxes Trans. Log Ext"](7414.md): ExciseTaxes
+- [Table extension 7415 "Excise Item Ledger Entry Ext"](7415.md): ExciseTaxes
+- [Table extension 7416 "Excise FA Ledger Entry Ext"](7416.md): ExciseTaxes
+- [Table extension 7417 "Excise Item Ext"](7417.md): ExciseTaxes
+- [Table extension 7418 "Excise Fixed Asset Ext"](7418.md): ExciseTaxes
+- [Table extension 7419 "Excise Location Ext"](7419.md): ExciseTaxes
+- [Table extension 7900 "Error Message Ext."](7900.md): ErrorMessagesWithRecommendations
+- [Table extension 8000 "Contracts Contact"](8000.md): Subscription Billing
+- [Table extension 8001 "Contracts Customer"](8001.md): Subscription Billing
+- [Table extension 8002 "Vendor"](8002.md): Subscription Billing
+- [Table extension 8003 "Cust. Ledger Entry"](8003.md): Subscription Billing
+- [Table extension 8004 "Vendor Ledger Entry"](8004.md): Subscription Billing
+- [Table extension 8005 "Item Attribute Value"](8005.md): Subscription Billing
+- [Table extension 8006 "Item Attribute Value Selection"](8006.md): Subscription Billing
+- [Table extension 8007 "Item Attribute Value Mapping"](8007.md): Subscription Billing
+- [Table extension 8008 "Usage Based Item Reference"](8008.md): Subscription Billing
+- [Table extension 8009 "Usage Based Item Vendor"](8009.md): Subscription Billing
+- [Table extension 8010 "Sales Shipment Line"](8010.md): Subscription Billing
+- [Table extension 8012 "User Setup"](8012.md): Subscription Billing
+- [Table extension 8051 "General Ledger Setup"](8051.md): Subscription Billing
+- [Table extension 8052 "Item"](8052.md): Subscription Billing
+- [Table extension 8053 "Sales Header"](8053.md): Subscription Billing
+- [Table extension 8054 "Sales Line"](8054.md): Subscription Billing
+- [Table extension 8055 "Sales Invoice Header"](8055.md): Subscription Billing
+- [Table extension 8056 "Sales Invoice Line"](8056.md): Subscription Billing
+- [Table extension 8057 "Sales Cr. Memo Header"](8057.md): Subscription Billing
+- [Table extension 8058 "Sales Cr. Memo Line"](8058.md): Subscription Billing
+- [Table extension 8060 "Purch. Inv. Line"](8060.md): Subscription Billing
+- [Table extension 8061 "Purchase Header"](8061.md): Subscription Billing
+- [Table extension 8062 "Purch. Inv. Header"](8062.md): Subscription Billing
+- [Table extension 8063 "Purch. Cr. Memo Hdr."](8063.md): Subscription Billing
+- [Table extension 8064 "Purch Cr. Memo Line"](8064.md): Subscription Billing
+- [Table extension 8065 "Purchase Line"](8065.md): Subscription Billing
+- [Table extension 8066 "General Posting Setup"](8066.md): Subscription Billing
+- [Table extension 8067 "G/L Entry"](8067.md): Subscription Billing
+- [Table extension 8068 "Sales Line Archive"](8068.md): Subscription Billing
+- [Table extension 8069 "Source Code Setup"](8069.md): Subscription Billing
+- [Table extension 8070 "Gen. Journal Line"](8070.md): Subscription Billing
+- [Table extension 8095 "Item Templ."](8095.md): Subscription Billing
+- [Table extension 8750 "Document Attachment Ext.Stor."](8750.md): External Storage - Document Attachments
+- [Table extension 8900 "Email Address Lookup"](8900.md): Base Application
+- [Table extension 9900 "Email Item Attach Document"](9900.md): Base Application
+- [Table extension 20103 "AMC Bank Bank Account ext."](20103.md): AMCBanking365Fundamentals
+- [Table extension 20104 "AMC Bank Paym. Method Ext"](20104.md): AMCBanking365Fundamentals
+- [Table extension 20105 "AMC Bank Credit Trs. Entry Ext"](20105.md): AMCBanking365Fundamentals
+- [Table extension 20106 "AMC Bank Activity Log ext."](20106.md): AMCBanking365Fundamentals
+- [Table extension 20107 "AMC Bank Credit Trs. Reg. Ext"](20107.md): AMCBanking365Fundamentals
+- [Table extension 20108 "AMC Bank Paym. Exp. Data Ext"](20108.md): AMCBanking365Fundamentals
+- [Table extension 20334 "Gen. Journal Line Posting Ext"](20334.md): INTaxEngine
+- [Table extension 20402 "Qlty. Application Area Setup"](20402.md): Quality Management
+- [Table extension 20403 "Qlty. Entry Summary"](20403.md): Quality Management
+- [Table extension 20404 "Qlty. Avail. Info. Buffer"](20404.md): Quality Management
+- [Table extension 20405 "Qlty. Lot No. Information"](20405.md): Quality Management
+- [Table extension 20406 "Qlty. Serial No. Information"](20406.md): Quality Management
+- [Table extension 20407 "Qlty. Package No. Information"](20407.md): Quality Management
+- [Table extension 20409 "Qlty. Transfer Header"](20409.md): Quality Management
+- [Table extension 20410 "Qlty. Direct Trans. Header"](20410.md): Quality Management
+- [Table extension 20411 "Qlty. Transfer Shipment Header"](20411.md): Quality Management
+- [Table extension 20412 "Qlty. Transfer Receipt Header"](20412.md): Quality Management
+- [Table extension 20500 "Subc. Item Ledger Entry"](20500.md): Subcontracting
+- [Table extension 20501 "Subc. Manufacturing Setup"](20501.md): Subcontracting
+- [Table extension 20502 "Subc. Prod Order Comp Ext."](20502.md): Subcontracting
+- [Table extension 20503 "Subc. Planning Comp Ext."](20503.md): Subcontracting
+- [Table extension 20504 "Subc. Cap Ledger Entry Ext."](20504.md): Subcontracting
+- [Table extension 20505 "Subc. Production Order Ext."](20505.md): Subcontracting
+- [Table extension 20506 "Subc. ProdOrderRtngLine Ext."](20506.md): Subcontracting
+- [Table extension 20507 "Subc. Vendor"](20507.md): Subcontracting
+- [Table extension 20508 "Subc. Item Journal Line Ext."](20508.md): Subcontracting
+- [Table extension 20509 "Subc. Purchase Header"](20509.md): Subcontracting
+- [Table extension 20510 "Subc. RequisitionLine"](20510.md): Subcontracting
+- [Table extension 20511 "Subc. Purchase Header Arch"](20511.md): Subcontracting
+- [Table extension 20512 "Subc. Purchase Line"](20512.md): Subcontracting
+- [Table extension 20513 "Subc. Purch. Rcpt. Line"](20513.md): Subcontracting
+- [Table extension 20514 "Subc. Purch. Inv. Line"](20514.md): Subcontracting
+- [Table extension 20515 "Subc. Purch. CrMemo Line"](20515.md): Subcontracting
+- [Table extension 20516 "Subc. Purchase Line Archive"](20516.md): Subcontracting
+- [Table extension 20517 "Subc. Transfer Line"](20517.md): Subcontracting
+- [Table extension 20518 "Subc. Transfer Rcpt. Line Ext"](20518.md): Subcontracting
+- [Table extension 20519 "Subc. Transfer Shpt. Line Ext"](20519.md): Subcontracting
+- [Table extension 20520 "Subc. Transfer Header"](20520.md): Subcontracting
+- [Table extension 20521 "Subc. Trans Rcpt Header Ext."](20521.md): Subcontracting
+- [Table extension 20522 "Subc. Trans Shpt Header Ext."](20522.md): Subcontracting
+- [Table extension 20523 "Subc. DirectTrans. Line Ext"](20523.md): Subcontracting
+- [Table extension 20524 "Subc. DirectTransHeader Ext."](20524.md): Subcontracting
+- [Table extension 20525 "Subc. Warehouse Receipt Line"](20525.md): Subcontracting
+- [Table extension 20526 "Subc. Posted Whse Receipt Line"](20526.md): Subcontracting
+- [Table extension 20527 "Subc. Warehouse Shipment Line"](20527.md): Subcontracting
+- [Table extension 20528 "Subc. Pstd. Whse Shipment Line"](20528.md): Subcontracting
+- [Table extension 20529 "Subc. Manufacturing Cue"](20529.md): Subcontracting
+- [Table extension 20530 "Subc. Planning Rtng. Line"](20530.md): Subcontracting
+- [Table extension 20531 "Subc. Prod BOM Line Ext."](20531.md): Subcontracting
+- [Table extension 20560 "Subc. Routing Line"](20560.md): Subcontracting
+- [Table extension 20571 "Subc. Application Area Setup"](20571.md): Subcontracting
+- [Table extension 20572 "Subc. Warehouse Activity Line"](20572.md): Subcontracting
+- [Table extension 20574 "Subc. Posted Invt. Pick Line"](20574.md): Subcontracting
+- [Table extension 20575 "Subc. Posted Invt. Put-away"](20575.md): Subcontracting
+- [Table extension 20600 "Application Area Setup BF"](20600.md): BasicExperience
+- [Table extension 20601 "Experience Tier Setup BF"](20601.md): BasicExperience
+- [Table extension 22210 "G/L Account Review Policy"](22210.md): ReviewGLEntries
+- [Table extension 22211 "G/L Entry Review"](22211.md): ReviewGLEntries
+- [Table extension 30101 "Shpfy Sales Header"](30101.md): Shopify
+- [Table extension 30102 "Shpfy Sales Invoice Header"](30102.md): Shopify
+- [Table extension 30103 "Shpfy Sales Invoice Line"](30103.md): Shopify
+- [Table extension 30104 "Shpfy Sales Line"](30104.md): Shopify
+- [Table extension 30105 "Shpfy Shipping Agent"](30105.md): Shopify
+- [Table extension 30106 "Shpfy Sales Shipment Header"](30106.md): Shopify
+- [Table extension 30107 "Shpfy Sales Shipment Line"](30107.md): Shopify
+- [Table extension 30108 "Shpfy Sales Cr.Memo Header"](30108.md): Shopify
+- [Table extension 30109 "Shpfy Sales Cr.Memo Line"](30109.md): Shopify
+- [Table extension 30110 "Shpfy Return Receipt Header"](30110.md): Shopify
+- [Table extension 30111 "Shpfy Return Receipt Line"](30111.md): Shopify
+- [Table extension 30112 "Shpfy Item Attribute"](30112.md): Shopify
+- [Table extension 30199 "Shpfy Signup Context Values"](30199.md): Shopify
+- [Table extension 30200 "Shpfy Feature Data Update"](30200.md): Shopify
+- [Table extension 30201 "Shpfy Cust. Ledger Entry"](30201.md): Shopify
+- [Table extension 30202 "Shpfy Gen. Journal Line"](30202.md): Shopify
+- [Table extension 30203 "Shpfy Sales Header Archive"](30203.md): Shopify
+- [Table extension 30204 "Shpfy Sales Line Archive"](30204.md): Shopify
+- [Table extension 36950 "Accounting Period"](36950.md): PowerBIReports
+- [Table extension 36953 "Setup - Finance"](36953.md): PowerBIReports
+- [Table extension 36954 "Setup - Manufacturing"](36954.md): PowerBIReports
+- [Table extension 36955 "Setup - Projects"](36955.md): PowerBIReports
+- [Table extension 36956 "Setup - Purchases"](36956.md): PowerBIReports
+- [Table extension 36957 "Setup - Sustainability"](36957.md): PowerBIReports
+- [Table extension 36958 "Setup - Sales"](36958.md): PowerBIReports
+- [Table extension 36960 "Setup - Inventory"](36960.md): PowerBIReports
+- [Table extension 36961 "Setup - Subscription Billing"](36961.md): PowerBIReports
+- [Table extension 36962 "PBI Deployment Buffer Ext."](36962.md): PowerBIReports
+- [Table extension 37221 "PEPPOL VAT Clause"](37221.md): PEPPOL
+- [Table extension 46898 "BC14 Data Migration Error Ext"](46898.md): HybridBC14
+- [Table extension 99000750 "Mfg. Item"](99000750.md): Base Application
+- [Table extension 99000751 "Mfg. Purchase Line"](99000751.md): Base Application
+- [Table extension 99000752 "Mfg. Purchase Line Archive"](99000752.md): Base Application
+- [Table extension 99000753 "Mfg. Item Variant"](99000753.md): Base Application
+- [Table extension 99000754 "Mfg. Purch. Invoice Line"](99000754.md): Base Application
+- [Table extension 99000755 "Mfg. Purch. Receipt Line"](99000755.md): Base Application
+- [Table extension 99000756 "Mfg. Purch. Cr. Memo Line"](99000756.md): Base Application
+- [Table extension 99000757 "Mfg. Item Templ."](99000757.md): Base Application
+- [Table extension 99000758 "Mfg. Item Journal Line"](99000758.md): Base Application
+- [Table extension 99000759 "Mfg. Stockkeeping Unit"](99000759.md): Base Application
+- [Table extension 99000761 "Mfg. Location"](99000761.md): Base Application
+- [Table extension 99000762 "Mfg. Reg. Whse. Activity Line"](99000762.md): Base Application
+- [Table extension 99000763 "Mfg. Return Shipment Line"](99000763.md): Base Application
+- [Table extension 99000768 "Mfg. Std. Item Journal Line"](99000768.md): Base Application
+- [Table extension 99000770 "Mfg. Warehouse Activity Header"](99000770.md): Base Application
+- [Table extension 99000771 "Mfg. Warehouse Activity Line"](99000771.md): Base Application
+- [Table extension 99000773 "Mfg. Posted Invt. Pick Header"](99000773.md): Base Application
+- [Table extension 99000774 "Mfg. Posted Invt. Pick Line"](99000774.md): Base Application
+- [Table extension 99000775 "Mfg. Posted InvtPutaway Header"](99000775.md): Base Application
+- [Table extension 99000776 "Mfg. Posted Invt Putaway Line"](99000776.md): Base Application
+- [Table extension 99000777 "Mfg. Reg Invt Movement Hdr"](99000777.md): Base Application
+- [Table extension 99000778 "Mfg. Reg. Invt. Movement Line"](99000778.md): Base Application
+- [Table extension 99000779 "Mfg. Whse. Worksheet Line"](99000779.md): Base Application
+- [Table extension 99000780 "Mfg. Warehouse Request"](99000780.md): Base Application
+- [Table extension 99000781 "Mfg. Warehouse Source Filter"](99000781.md): Base Application
+- [Table extension 99000782 "Mfg. Whse. Pick Request"](99000782.md): Base Application
+- [Table extension 99000785 "Mfg. VAT Rate Change Setup"](99000785.md): Base Application
+- [Table extension 99000787 "Mfg. Item Ledger Entry"](99000787.md): Base Application
+- [Table extension 99000788 "Mfg. Value Entry"](99000788.md): Base Application
+- [Table extension 99000800 "Mfg. Inventory Adjmt. Entry"](99000800.md): Base Application
+- [Table extension 99000801 "Mfg. Capacity Ledger Entry"](99000801.md): Base Application
+- [Table extension 99000802 "Mfg. Standard Cost Worksheet"](99000802.md): Base Application
+- [Table extension 99000820 "Mfg. BOM Buffer"](99000820.md): Base Application
+- [Table extension 99000821 "Mfg. Compare Cost Shares Buf"](99000821.md): Base Application
+- [Table extension 99000829 "Mfg. Planning Component"](99000829.md): Base Application
+- [Table extension 99000850 "Mfg. Planning Assignment"](99000850.md): Base Application
+- [Table extension 99000860 "Mfg. Requisition Line"](99000860.md): Base Application
+- [Table extension 99000900 "Mfg. Item Tracking Code"](99000900.md): Base Application

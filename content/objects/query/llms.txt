@@ -1,0 +1,386 @@
+# BC Observatory: Query objects
+
+382 objects, by id.
+
+- [Query 1 "Distinct Items Sold"](1.md): Base Application
+- [Query 2 "Customer Interaction Stats."](2.md): Base Application
+- [Query 3 "Customer Sales per Period"](3.md): Base Application
+- [Query 4 "Distinct Items Purchased"](4.md): Base Application
+- [Query 19 "VAT Entries Base Amt. Sum"](19.md): Base Application
+- [Query 21 "Cust. Ledg. Entry Remain. Amt."](21.md): Base Application
+- [Query 22 "Cust. Remain. Amt. By Due Date"](22.md): Base Application
+- [Query 25 "Vend. Ledg. Entry Remain. Amt."](25.md): Base Application
+- [Query 33 "Recon. Cust. Posting Gr. Sum"](33.md): Base Application
+- [Query 34 "Recon. Vend. Posting Gr. Sum"](34.md): Base Application
+- [Query 35 "Customer Debit Credit Amount"](35.md): Base Application
+- [Query 36 "Vendor Debit Credit Amount"](36.md): Base Application
+- [Query 37 "RemQtyBaseInvtItemSalesLine"](37.md): Base Application
+- [Query 39 "RemQtyBaseInvtItemPurchaseLine"](39.md): Base Application
+- [Query 50 "Power BI Customer List"](50.md): Base Application
+- [Query 51 "Power BI Vendor List"](51.md): Base Application
+- [Query 52 "Power BI Item Purchase List"](52.md): Base Application
+- [Query 53 "Power BI GL Amount List"](53.md): Base Application
+- [Query 54 "Power BI Jobs List"](54.md): Base Application
+- [Query 55 "Power BI Sales List"](55.md): Base Application
+- [Query 56 "Power BI Purchase List"](56.md): Base Application
+- [Query 57 "Power BI Item Sales List"](57.md): Base Application
+- [Query 58 "Power BI GL Budgeted Amount"](58.md): Base Application
+- [Query 59 "Power BI Top Cust. Overview"](59.md): Base Application
+- [Query 60 "Power BI Sales Hdr. Cust."](60.md): Base Application
+- [Query 61 "Power BI Cust. Item Ledg. Ent."](61.md): Base Application
+- [Query 62 "Power BI Cust. Ledger Entries"](62.md): Base Application
+- [Query 63 "Power BI Vendor Ledger Entries"](63.md): Base Application
+- [Query 64 "Power BI Purchase Hdr. Vendor"](64.md): Base Application
+- [Query 65 "Power BI Vend. Item Ledg. Ent."](65.md): Base Application
+- [Query 100 "Top Customer Overview"](100.md): Base Application
+- [Query 101 "Sales Dashboard"](101.md): Base Application
+- [Query 102 "Item Sales by Customer"](102.md): Base Application
+- [Query 103 "Item Sales and Profit"](103.md): Base Application
+- [Query 104 "Sales Orders by Sales Person"](104.md): Base Application
+- [Query 105 "Sales Opportunities"](105.md): Base Application
+- [Query 106 "Segment Lines"](106.md): Base Application
+- [Query 115 "Sales Shipped Not Invoiced LCY"](115.md): Base Application, obsolete 28.0
+- [Query 123 "Fixed Assets Analysis"](123.md): Base Application
+- [Query 124 "Sales Order Analysis"](124.md): Base Application
+- [Query 130 "Posted Docs. With No Inc. Doc."](130.md): Base Application
+- [Query 133 "Inc. Doc. Atts. Ready for OCR"](133.md): Base Application
+- [Query 134 "OCR Vendors"](134.md): Base Application
+- [Query 135 "OCR Vendor Bank Accounts"](135.md): Base Application
+- [Query 141 "EU VAT Entries"](141.md): Base Application
+- [Query 200 "Purchase Invoices By Order"](200.md): Base Application
+- [Query 201 "Sales Invoices By Order"](201.md): Base Application
+- [Query 202 "Service Invoices By Order"](202.md): Base Application
+- [Query 203 "Item Ledger Entry Types"](203.md): Base Application
+- [Query 204 "Purch. Cr. Memos By Ret. Order"](204.md): Base Application
+- [Query 205 "Sales Cr. Memos By Ret. Order"](205.md): Base Application
+- [Query 250 "G/L Entry Dimensions"](250.md): Base Application
+- [Query 251 "G/L Budget Entry Dimensions"](251.md): Base Application
+- [Query 252 "Analysis View Entry Dimensions"](252.md): Base Application
+- [Query 253 "Analysis View Budg. Entry Dims"](253.md): Base Application
+- [Query 256 "CF Forecast Entry Dimensions"](256.md): Base Application
+- [Query 257 "Dimension Sets"](257.md): Base Application
+- [Query 260 "Dimension Set Entries"](260.md): Base Application
+- [Query 261 "G/L Entries"](261.md): Base Application
+- [Query 262 "Cust. Ledger Entries"](262.md): Base Application
+- [Query 263 "Vendor Ledger Entries"](263.md): Base Application
+- [Query 264 "Bank Account Ledger Entries"](264.md): Base Application
+- [Query 265 "Item Ledger Entries"](265.md): Base Application
+- [Query 266 "Value Entries"](266.md): Base Application
+- [Query 267 "FA Ledger Entries"](267.md): Base Application
+- [Query 268 "Job Ledger Entries"](268.md): Base Application
+- [Query 269 "Res. Ledger Entries"](269.md): Base Application
+- [Query 270 "G/L Budget Entries"](270.md): Base Application
+- [Query 302 "Item Application Entries"](302.md): Base Application
+- [Query 303 "Item Application Entries Inb."](303.md): Base Application
+- [Query 304 "Item Application Entries Outb."](304.md): Base Application
+- [Query 410 "Analysis View Source"](410.md): Base Application
+- [Query 472 "Failed Job Queue Entry"](472.md): Base Application
+- [Query 486 "ProjectsAnalysis"](486.md): Base Application
+- [Query 487 "Project Planning Analysis"](487.md): Base Application
+- [Query 488 "Purch. Order Perf. Analysis"](488.md): Base Application
+- [Query 520 "Item By Lot No. Res."](520.md): Base Application
+- [Query 521 "Item By Lot No. Item Ledg."](521.md): Base Application
+- [Query 522 "Qty. Reserved From Item Ledger"](522.md): Base Application
+- [Query 523 "Sales Reserv. From Item Ledger"](523.md): Base Application
+- [Query 760 "Trailing Sales Order Qry"](760.md): Base Application
+- [Query 762 "Acc. Sched. Line Desc. Count"](762.md): Base Application
+- [Query 763 "Colm. Layt. Colm. Header Count"](763.md): Base Application
+- [Query 770 "Analysis Line Desc. Count"](770.md): Base Application
+- [Query 771 "Analysis Column Header Count"](771.md): Base Application
+- [Query 774 "Users in Plans"](774.md): System Application
+- [Query 775 "Plan"](775.md): System Application
+- [Query 776 "Device"](776.md): System Application
+- [Query 777 "Role Center from Plans"](777.md): System Application
+- [Query 901 "RemQtyBaseInvtItemAssemblyLine"](901.md): Base Application
+- [Query 984 "Get Time Sheet Lines"](984.md): Base Application
+- [Query 985 "Get Time Sheet Archive Lines"](985.md): Base Application
+- [Query 986 "Time Sheet Line Status Count"](986.md): Base Application
+- [Query 1003 "RemQtyBaseInvtItemJobPlannLine"](1003.md): Base Application
+- [Query 1033 "GetJobPlanningLines"](1033.md): Base Application
+- [Query 1038 "Job Task by Bill-to Customer"](1038.md): Base Application
+- [Query 1232 "Data Exch. Field Details"](1232.md): Base Application
+- [Query 1302 "Sales Outstd. Amount On VAT"](1302.md): Base Application
+- [Query 1310 "Cust. Ledg. Entry Sales"](1310.md): Base Application
+- [Query 1311 "Top 10 Customer Sales"](1311.md): Base Application
+- [Query 1312 "Num CustLedgEntries per Cust"](1312.md): Base Application
+- [Query 1313 "Purch. Outstd. Amount On VAT"](1313.md): Base Application
+- [Query 1316 "Value Item Ledger Entries"](1316.md): Base Application
+- [Query 1319 "Sales by Cust. Grp. Chart Mgt."](1319.md): Base Application
+- [Query 1440 "Best Sold Item Headline"](1440.md): EssentialBusinessHeadlines
+- [Query 1441 "Top Customer Headline"](1441.md): EssentialBusinessHeadlines
+- [Query 1442 "Sales Increase Headline"](1442.md): EssentialBusinessHeadlines
+- [Query 1501 "Workflow Instance"](1501.md): Base Application
+- [Query 1502 "Workflow Definition"](1502.md): Base Application
+- [Query 1511 "User IDs by Notification Type"](1511.md): Base Application
+- [Query 1850 "Sales Forecast Query"](1850.md): SalesAndInventoryForecast
+- [Query 1950 "LPP Sales Invoice Header Input"](1950.md): LatePaymentPredictor
+- [Query 2400 "Account Summary"](2400.md): SmartList
+- [Query 2401 "General Ledger Entries"](2401.md): SmartList
+- [Query 2402 "Bank Acct Ledger Entries"](2402.md): SmartList
+- [Query 2403 "GL Entries with Dimensions"](2403.md): SmartList
+- [Query 2450 "Customer Ship To Addresses"](2450.md): SmartList
+- [Query 2451 "CustomerAndSalesperson"](2451.md): SmartList
+- [Query 2452 "Blocked Customers"](2452.md): SmartList
+- [Query 2453 "CustomersWithCreditLimit"](2453.md): SmartList
+- [Query 2454 "Unposted Sales Trx Quotes"](2454.md): SmartList
+- [Query 2455 "Unposted Sales Trx Orders"](2455.md): SmartList
+- [Query 2456 "Unposted Sales Trx Invoices"](2456.md): SmartList
+- [Query 2457 "Unposted Sales Trx Returns"](2457.md): SmartList
+- [Query 2458 "Unposted Sales Trx Credit Memo"](2458.md): SmartList
+- [Query 2459 "Unposted Sales Trx Blnkt Ordr"](2459.md): SmartList
+- [Query 2460 "Posted Sales Invoices"](2460.md): SmartList
+- [Query 2461 "Posted Sales Credit Memos"](2461.md): SmartList
+- [Query 2462 "Unposted Sales Line Quotes"](2462.md): SmartList
+- [Query 2463 "Posted Sales I Line Item"](2463.md): SmartList
+- [Query 2464 "Posted Sales C Memo Line Item"](2464.md): SmartList
+- [Query 2465 "Customer And Contact"](2465.md): SmartList
+- [Query 2467 "Unposted Sales Line Orders"](2467.md): SmartList
+- [Query 2468 "Unposted Sales Line Invoices"](2468.md): SmartList
+- [Query 2469 "Unposted Sales Line Returns"](2469.md): SmartList
+- [Query 2470 "Unposted Sales Line Crdt Memo"](2470.md): SmartList
+- [Query 2471 "Unposted Sales Line Blkt Ordr"](2471.md): SmartList
+- [Query 2500 "Vendor Order Addresses"](2500.md): SmartList
+- [Query 2501 "Vendor And Purchaser"](2501.md): SmartList
+- [Query 2502 "Blocked Vendors"](2502.md): SmartList
+- [Query 2504 "Vendor Balance"](2504.md): SmartList
+- [Query 2506 "Purchasing Rcpt Line Items"](2506.md): SmartList
+- [Query 2507 "Purchase Orders"](2507.md): SmartList
+- [Query 2508 "Purchase Order Line Items"](2508.md): SmartList
+- [Query 2510 "Purchasing Trx Invoices"](2510.md): SmartList
+- [Query 2511 "Purchasing Trx Crdt Memos"](2511.md): SmartList
+- [Query 2512 "Blanket Purchase Orders"](2512.md): SmartList
+- [Query 2513 "Blanket Purchase Order Lines"](2513.md): SmartList
+- [Query 2514 "Purchasing Inv Line Items"](2514.md): SmartList
+- [Query 2515 "Purchasing Cr Memo Line Items"](2515.md): SmartList
+- [Query 2550 "Items"](2550.md): SmartList
+- [Query 2552 "Item Quantities"](2552.md): SmartList
+- [Query 2553 "Item Purchase Receipts"](2553.md): SmartList
+- [Query 2554 "Items By Location"](2554.md): SmartList
+- [Query 2556 "Negative Quantity Items"](2556.md): SmartList
+- [Query 2557 "Items Overdue For Count"](2557.md): SmartList
+- [Query 2558 "Items Due For Count"](2558.md): SmartList
+- [Query 2900 "Item With Variants"](2900.md): Base Application
+- [Query 2901 "Item With Locations"](2901.md): Base Application
+- [Query 2902 "Item With Variants & Locations"](2902.md): Base Application
+- [Query 3000 "GPHistAllSalesTrx"](3000.md): DynamicsGPHistorySmartLists
+- [Query 3001 "GPHistSalesInvoices"](3001.md): DynamicsGPHistorySmartLists
+- [Query 3002 "GPHistSalesOrders"](3002.md): DynamicsGPHistorySmartLists
+- [Query 3003 "GPHistSalesQuotes"](3003.md): DynamicsGPHistorySmartLists
+- [Query 3004 "GPHistSalesReturns"](3004.md): DynamicsGPHistorySmartLists
+- [Query 3005 "GPHistReceivablesTrx"](3005.md): DynamicsGPHistorySmartLists
+- [Query 3006 "GPOpenReceivablesTrx"](3006.md): DynamicsGPHistorySmartLists
+- [Query 3007 "GPHistSalesLineItems"](3007.md): DynamicsGPHistorySmartLists
+- [Query 3008 "GPHistPayablesTrx"](3008.md): DynamicsGPHistorySmartLists
+- [Query 3009 "GPHistReceivingsTrx"](3009.md): DynamicsGPHistorySmartLists
+- [Query 3010 "GPHistReceivingsLineItems"](3010.md): DynamicsGPHistorySmartLists
+- [Query 3011 "GPHistInventoryTrx"](3011.md): DynamicsGPHistorySmartLists
+- [Query 3303 "PA Posted Purch. Inv. Users"](3303.md): PayablesAgent
+- [Query 3688 "BOM Component Items"](3688.md): Base Application
+- [Query 3689 "Item Production BOMs"](3689.md): Base Application
+- [Query 3691 "Production BOM & Line Details"](3691.md): Base Application
+- [Query 4000 "Hybrid Tables For Replication"](4000.md): HybridBaseDeployment
+- [Query 4001 "Hybrid Enabled Co Rep. Details"](4001.md): HybridBaseDeployment
+- [Query 4002 "Hybrid Unique Table Status"](4002.md): HybridBaseDeployment
+- [Query 4098 "GP Item Transaction Average"](4098.md): HybridGP
+- [Query 4099 "GP Item Transaction"](4099.md): HybridGP
+- [Query 4101 "GP Item Transaction Standard"](4101.md): HybridGP
+- [Query 4401 "EXR Top Vendor Balance"](4401.md): ExcelReports
+- [Query 4402 "EXR Top Vendor Purchase"](4402.md): ExcelReports
+- [Query 4403 "EXR Top Customer Balance"](4403.md): ExcelReports
+- [Query 4404 "EXR Top Customer Sales"](4404.md): ExcelReports
+- [Query 4405 "EXR Trial Balance"](4405.md): ExcelReports
+- [Query 4406 "EXR Trial Balance Budget"](4406.md): ExcelReports
+- [Query 4407 "EXR Trial Balance BU"](4407.md): ExcelReports
+- [Query 4700 "VAT Group Submission Status"](4700.md): VATGroupManagement
+- [Query 5001 "Locations from items Sales"](5001.md): Base Application
+- [Query 5002 "Locations from items Purch"](5002.md): Base Application
+- [Query 5280 "Qty. Item Ledger Entry SAF-T"](5280.md): SAF-T
+- [Query 5281 "Cust. Ledger Entry SAF-T"](5281.md): SAF-T
+- [Query 5282 "Vendor Ledger Entry SAF-T"](5282.md): SAF-T
+- [Query 5283 "Item Ledger Entry SAF-T"](5283.md): SAF-T
+- [Query 5284 "G/L Entry SAF-T"](5284.md): SAF-T
+- [Query 5285 "FA Ledger Entry SAF-T"](5285.md): SAF-T
+- [Query 5286 "G/L Entry By Trans. SAF-T"](5286.md): SAF-T
+- [Query 5400 "Delayed Prod. Orders - by Cost"](5400.md): Base Application
+- [Query 5401 "Pending Prod. Orders - by Cost"](5401.md): Base Application
+- [Query 5402 "Top-10 Prod. Orders - by Cost"](5402.md): Base Application
+- [Query 5403 "My Prod. Orders - By Cost"](5403.md): Base Application
+- [Query 5404 "My Delayed Prod. Orders"](5404.md): Base Application
+- [Query 5407 "RemQtyBaseInvtItemProdOrdComp"](5407.md): Base Application
+- [Query 5480 "Customer Sales Entity"](5480.md): Base Application
+- [Query 5481 "Vendor Purchases Entity"](5481.md): Base Application
+- [Query 5502 "Tax Groups For Tax Areas"](5502.md): Base Application
+- [Query 5741 "RemQtyBaseInvtItemTransferLine"](5741.md): Base Application
+- [Query 5756 "Grouped Item Ledger Entries"](5756.md): Base Application
+- [Query 5833 "Item to Value Entries"](5833.md): Base Application
+- [Query 5840 "Avg. Cost Entry Points Not Adj"](5840.md): Base Application
+- [Query 5842 "Residual Amount - Items"](5842.md): Base Application
+- [Query 5896 "Calculate Actual Material Cost"](5896.md): Base Application
+- [Query 5900 "Service Analysis"](5900.md): Base Application
+- [Query 5902 "RemQtyBaseInvtItemServiceLine"](5902.md): Base Application
+- [Query 6100 "E-Doc. Line by Receipt"](6100.md): EDocument
+- [Query 6210 "Country Region - PBI API"](6210.md): Sustainability
+- [Query 6211 "Emission Fees - PBI API"](6211.md): Sustainability
+- [Query 6212 "Employee Absence - PBI API"](6212.md): Sustainability
+- [Query 6213 "EmployeeLedgerEntry - PBI API"](6213.md): Sustainability
+- [Query 6214 "Employee Quali - PBI API"](6214.md): Sustainability
+- [Query 6215 "Employees - PBI API"](6215.md): Sustainability
+- [Query 6216 "Resp Centre - PBI API"](6216.md): Sustainability
+- [Query 6217 "SusSub Act Category - PBI API"](6217.md): Sustainability
+- [Query 6218 "Sust Account Cat - PBI API"](6218.md): Sustainability
+- [Query 6219 "Sust Accounts - PBI API"](6219.md): Sustainability
+- [Query 6220 "Sustainability Goals - PBI API"](6220.md): Sustainability
+- [Query 6221 "Sust Ledger Entries - PBI API"](6221.md): Sustainability
+- [Query 6502 "Items With Expiration Date"](6502.md): Base Application
+- [Query 6610 "FS Item Avail. by Location"](6610.md): FieldServiceIntegration
+- [Query 7079 "Expense Projects List"](7079.md): ExpenseAgent, obsolete 29.0
+- [Query 7080 "Expense User Assigned Plan Ln"](7080.md): ExpenseAgent, obsolete 29.0
+- [Query 7081 "Expense User Assigned Projects"](7081.md): ExpenseAgent, obsolete 29.0
+- [Query 7082 "Expense Per Diem Locations"](7082.md): ExpenseAgent
+- [Query 7089 "Expense Project Tasks Qry"](7089.md): ExpenseAgent
+- [Query 7111 "Travel Request Employees"](7111.md): ExpenseAgent
+- [Query 7150 "Item Analysis View Source"](7150.md): Base Application
+- [Query 7300 "Lot Numbers by Bin"](7300.md): Base Application
+- [Query 7301 "Whse. Employees at Locations"](7301.md): Base Application
+- [Query 7302 "Bin Content by Item Tracking"](7302.md): Base Application
+- [Query 7314 "CalcRsvQtyOnPicksShipsWithIT"](7314.md): Base Application
+- [Query 7315 "CalcQtyOnBlockedITOnSNQuery"](7315.md): Base Application
+- [Query 7316 "CalcQtyOnBlockedITOnLNQuery"](7316.md): Base Application
+- [Query 7317 "CalcQtyOnBlockedITOnPNQuery"](7317.md): Base Application
+- [Query 7318 "CalcQtyInWhseEntries"](7318.md): Base Application
+- [Query 7319 "CalcPickableQtyFromWhseEntry"](7319.md): Base Application
+- [Query 7320 "CalcQtyInReservEntry"](7320.md): Base Application
+- [Query 7321 "Summarized Stock By Item Trkg."](7321.md): Base Application
+- [Query 7323 "CalcOutstandQtyOnWhseActLine"](7323.md): Base Application
+- [Query 7345 "Avail Qty. (Base) In QC Bins"](7345.md): Base Application
+- [Query 7346 "Whse. Entry Tracking Distinct"](7346.md): Base Application
+- [Query 8000 "Overdue Customer Serv. Comm."](8000.md): Subscription Billing, obsolete 26.0
+- [Query 8001 "Overdue Vendor Serv. Comm."](8001.md): Subscription Billing, obsolete 26.0
+- [Query 8888 "Outbox Emails"](8888.md): System Application
+- [Query 8889 "Sent Emails"](8889.md): System Application
+- [Query 8890 "Email Related Record"](8890.md): System Application
+- [Query 9059 "Service Header Doc. Type Count"](9059.md): Base Application
+- [Query 9060 "Count Sales Orders"](9060.md): Base Application
+- [Query 9063 "Count Purchase Orders"](9063.md): Base Application
+- [Query 9088 "Top 10 Vendor Purchases"](9088.md): Base Application
+- [Query 9089 "Purchase by Vendor Group"](9089.md): Base Application
+- [Query 9150 "My Customers"](9150.md): Base Application
+- [Query 9151 "My Vendors"](9151.md): Base Application
+- [Query 9152 "My Items"](9152.md): Base Application, obsolete 27.0
+- [Query 9153 "Non-Inventory Telemetry"](9153.md): Base Application
+- [Query 20000 "APIV1 - Customer Sales"](20000.md): APIV1
+- [Query 20001 "APIV1 - Vendor Purchases"](20001.md): APIV1
+- [Query 20401 "Qlty. Inspection Values"](20401.md): Quality Management
+- [Query 20402 "Qlty. Item Ledger By Location"](20402.md): Quality Management
+- [Query 30000 "APIV2 - Customer Sales"](30000.md): APIV2
+- [Query 30001 "APIV2 - Vendor Purchases"](30001.md): APIV2
+- [Query 30300 "API Finance - GL Entry"](30300.md): APIReportsFinance
+- [Query 30301 "API Fin - Dtld Cust Ledg Entry"](30301.md): APIReportsFinance
+- [Query 30302 "API Fin - Cust Ledg Entry"](30302.md): APIReportsFinance
+- [Query 30303 "API Fin - Vend Ledg Entry"](30303.md): APIReportsFinance
+- [Query 30304 "API Fin - Dtld Vend Ledg Entry"](30304.md): APIReportsFinance
+- [Query 30305 "API Finance - GL Budget Entry"](30305.md): APIReportsFinance
+- [Query 36950 "PowerBI Dimension Set Entries"](36950.md): PowerBIReports
+- [Query 36951 "PowerBI Dimension Sets"](36951.md): PowerBIReports
+- [Query 36952 "Dimensions"](36952.md): PowerBIReports
+- [Query 36953 "Items - PBI API"](36953.md): PowerBIReports
+- [Query 36954 "Account Categories"](36954.md): PowerBIReports
+- [Query 36955 "G\L Entries - Balance Sheet"](36955.md): PowerBIReports
+- [Query 36956 "G/L Entries - Closing"](36956.md): PowerBIReports, obsolete 26.0
+- [Query 36957 "Customer Ledger Entries"](36957.md): PowerBIReports
+- [Query 36958 "G/L Account Categories"](36958.md): PowerBIReports
+- [Query 36959 "G/L Accounts"](36959.md): PowerBIReports
+- [Query 36960 "G/L Budget Entries - PBI API"](36960.md): PowerBIReports
+- [Query 36961 "G/L Budgets"](36961.md): PowerBIReports
+- [Query 36962 "G/L Entries - Income Statement"](36962.md): PowerBIReports, obsolete 26.0
+- [Query 36963 "Vendor Ledg. Entries - PBI API"](36963.md): PowerBIReports
+- [Query 36964 "Assembly Headers - Order"](36964.md): PowerBIReports
+- [Query 36965 "Assembly Lines - Item"](36965.md): PowerBIReports
+- [Query 36966 "Bins"](36966.md): PowerBIReports
+- [Query 36967 "Value Entries - Item"](36967.md): PowerBIReports
+- [Query 36968 "Item Ledger Entries - PBI API"](36968.md): PowerBIReports
+- [Query 36969 "Job Planning Lines - Item"](36969.md): PowerBIReports
+- [Query 36970 "Planning Components"](36970.md): PowerBIReports
+- [Query 36971 "Prod. Order Comp. - Invt."](36971.md): PowerBIReports
+- [Query 36972 "Prod. Order Lines - Invt."](36972.md): PowerBIReports
+- [Query 36973 "Purchase Lines - Outstanding"](36973.md): PowerBIReports
+- [Query 36974 "Requisition Lines"](36974.md): PowerBIReports
+- [Query 36975 "Sales Lines - Outstanding"](36975.md): PowerBIReports
+- [Query 36976 "Service Lines - Order"](36976.md): PowerBIReports
+- [Query 36977 "Transfer Lines"](36977.md): PowerBIReports
+- [Query 36978 "Warehouse Activity Lines"](36978.md): PowerBIReports
+- [Query 36979 "Warehouse Entries"](36979.md): PowerBIReports
+- [Query 36980 "Whse. Journal Lines - From Bin"](36980.md): PowerBIReports
+- [Query 36981 "Whse. Journal Lines - To Bin"](36981.md): PowerBIReports
+- [Query 36982 "Zones"](36982.md): PowerBIReports
+- [Query 36983 "Calendar Entries"](36983.md): PowerBIReports
+- [Query 36984 "Capacity Ledger Entries"](36984.md): PowerBIReports
+- [Query 36985 "Machine Centers"](36985.md): PowerBIReports
+- [Query 36986 "Item Ledger Entries - Prod."](36986.md): PowerBIReports
+- [Query 36987 "Prod. Order Capacity Needs"](36987.md): PowerBIReports
+- [Query 36988 "Prod. Order Comp. - Manuf."](36988.md): PowerBIReports
+- [Query 36989 "Prod. Order Lines - Manuf."](36989.md): PowerBIReports
+- [Query 36990 "Prod. Order Routing Lines"](36990.md): PowerBIReports
+- [Query 36991 "Work Centers"](36991.md): PowerBIReports
+- [Query 36992 "Job Ledger Entries - PBI API"](36992.md): PowerBIReports
+- [Query 36993 "Job Planning Lines"](36993.md): PowerBIReports
+- [Query 36994 "Job Tasks"](36994.md): PowerBIReports
+- [Query 36995 "Jobs"](36995.md): PowerBIReports
+- [Query 36996 "Purch. Lines - Job Outstanding"](36996.md): PowerBIReports
+- [Query 36997 "Purch. Lines - Job Received"](36997.md): PowerBIReports
+- [Query 36998 "Purch. Lines - Item Outstd."](36998.md): PowerBIReports
+- [Query 36999 "Item Budget Entries - Purch."](36999.md): PowerBIReports
+- [Query 37000 "Value Entries - Purch."](37000.md): PowerBIReports, obsolete 27.0
+- [Query 37001 "Purch. Lines - Item Received"](37001.md): PowerBIReports
+- [Query 37002 "Item Budget Names"](37002.md): PowerBIReports
+- [Query 37003 "Sales Line - Item Outstanding"](37003.md): PowerBIReports
+- [Query 37004 "Item Budget Entries - Sales"](37004.md): PowerBIReports
+- [Query 37005 "Value Entries - Sales"](37005.md): PowerBIReports, obsolete 27.0
+- [Query 37006 "Sales Line - Item Shipped"](37006.md): PowerBIReports
+- [Query 37007 "Manufacturing Setup - PBI API"](37007.md): PowerBIReports
+- [Query 37008 "Prod. Orders - PBI API"](37008.md): PowerBIReports
+- [Query 37009 "Routing Links - PBI API"](37009.md): PowerBIReports
+- [Query 37010 "Routings - PBI API"](37010.md): PowerBIReports
+- [Query 37011 "Manuf. Value Entries - PBI API"](37011.md): PowerBIReports
+- [Query 37012 "Work Center Groups - PBI API"](37012.md): PowerBIReports
+- [Query 37013 "Close Income Source - PBI API"](37013.md): PowerBIReports
+- [Query 37014 "G/L Income Statement - PBI API"](37014.md): PowerBIReports
+- [Query 37015 "Inventory by Location"](37015.md): Base Application
+- [Query 37016 "Dynamic Dimensions - PBI API"](37016.md): PowerBIReports
+- [Query 37017 "Opportunity - PBI API"](37017.md): PowerBIReports
+- [Query 37018 "Opportunity Entries - PBI API"](37018.md): PowerBIReports
+- [Query 37019 "Sales Line - PBI API"](37019.md): PowerBIReports, obsolete 27.0
+- [Query 37020 "Inv. Adj. Ent Order - PBI API"](37020.md): PowerBIReports
+- [Query 37022 "ABC Analysis Setup - PBI API"](37022.md): PowerBIReports
+- [Query 37023 "Purch. Value Entries - PBI API"](37023.md): PowerBIReports
+- [Query 37024 "Sales Line V2 - PBI API"](37024.md): PowerBIReports
+- [Query 37025 "Sales Value Entries - PBI API"](37025.md): PowerBIReports
+- [Query 37070 "Resources - PBI API"](37070.md): PowerBIReports
+- [Query 37071 "Sales Cr Project Ledger Entry"](37071.md): PowerBIReports
+- [Query 37073 "Purchase Lines - PBI API"](37073.md): PowerBIReports
+- [Query 37074 "Sales Invoice Lines - PBI API"](37074.md): PowerBIReports
+- [Query 37107 "Purchase Invoice Lines"](37107.md): PowerBIReports
+- [Query 37108 "Purchase Credit Lines"](37108.md): PowerBIReports
+- [Query 37109 "Sales Credit Lines - PBI API"](37109.md): PowerBIReports
+- [Query 37110 "Sales Inv Project Ledger Entry"](37110.md): PowerBIReports
+- [Query 40100 "GP Populate Item Transactions"](40100.md): HybridGP
+- [Query 40101 "GP Item Aggregate"](40101.md): HybridGP
+- [Query 42800 "SL Hist. Shippers"](42800.md): DynamicsSLHistoricalData
+- [Query 42801 "SL Hist. InventoryTransactions"](42801.md): DynamicsSLHistoricalData
+- [Query 42802 "SL Hist. OpenARDocuments"](42802.md): DynamicsSLHistoricalData
+- [Query 42803 "SL Hist. APDocuments"](42803.md): DynamicsSLHistoricalData
+- [Query 42804 "SL Hist. ARDocuments"](42804.md): DynamicsSLHistoricalData
+- [Query 42805 "SL Hist. POReceiptLineItems"](42805.md): DynamicsSLHistoricalData
+- [Query 42806 "SL Hist. POReceiptDocuments"](42806.md): DynamicsSLHistoricalData
+- [Query 42807 "SL Hist. ARInvoiceDocuments"](42807.md): DynamicsSLHistoricalData
+- [Query 42808 "SL Hist. SalesOrderLineItems"](42808.md): DynamicsSLHistoricalData
+- [Query 42809 "SL Hist. SalesOrders"](42809.md): DynamicsSLHistoricalData
+- [Query 42810 "SL Hist. SalesOrderQuotes"](42810.md): DynamicsSLHistoricalData
+- [Query 42811 "SL Hist. SalesOrderReturns"](42811.md): DynamicsSLHistoricalData
+- [Query 42812 "SL Hist. ShipperLineItems"](42812.md): DynamicsSLHistoricalData
+- [Query 42813 "SL Hist. ARTransactions"](42813.md): DynamicsSLHistoricalData, obsolete 28.0
+- [Query 42814 "SL Hist. APTransactions"](42814.md): DynamicsSLHistoricalData, obsolete 28.0
+- [Query 42815 "SL Hist. GLTransactions"](42815.md): DynamicsSLHistoricalData, obsolete 28.0
+- [Query 42816 "SL Hist. Batch"](42816.md): DynamicsSLHistoricalData
+- [Query 47000 "SL Inventory QtyOnHand All"](47000.md): HybridSL
+- [Query 47001 "SL AcctHist Active Accounts"](47001.md): HybridSL

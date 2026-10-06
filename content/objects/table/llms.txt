@@ -1,0 +1,2628 @@
+# BC Observatory: Table objects
+
+2624 objects, by id.
+
+- [Table 3 "Payment Terms"](3.md): Base Application
+- [Table 4 "Currency"](4.md): Base Application
+- [Table 5 "Finance Charge Terms"](5.md): Base Application
+- [Table 6 "Customer Price Group"](6.md): Base Application
+- [Table 7 "Standard Text"](7.md): Base Application
+- [Table 8 "Language"](8.md): System Application
+- [Table 9 "Country/Region"](9.md): Base Application
+- [Table 10 "Shipment Method"](10.md): Base Application
+- [Table 11 "Country/Region Translation"](11.md): Base Application
+- [Table 13 "Salesperson/Purchaser"](13.md): Base Application
+- [Table 14 "Location"](14.md): Base Application
+- [Table 15 "G/L Account"](15.md): Base Application
+- [Table 17 "G/L Entry"](17.md): Base Application
+- [Table 18 "Customer"](18.md): Base Application
+- [Table 19 "Cust. Invoice Disc."](19.md): Base Application
+- [Table 21 "Cust. Ledger Entry"](21.md): Base Application
+- [Table 23 "Vendor"](23.md): Base Application
+- [Table 24 "Vendor Invoice Disc."](24.md): Base Application
+- [Table 25 "Vendor Ledger Entry"](25.md): Base Application
+- [Table 27 "Item"](27.md): Base Application
+- [Table 30 "Item Translation"](30.md): Base Application
+- [Table 31 "Item Picture Buffer"](31.md): Base Application
+- [Table 32 "Item Ledger Entry"](32.md): Base Application
+- [Table 33 "Intercompany Setup Diagnostic"](33.md): Base Application
+- [Table 36 "Sales Header"](36.md): Base Application
+- [Table 37 "Sales Line"](37.md): Base Application
+- [Table 38 "Purchase Header"](38.md): Base Application
+- [Table 39 "Purchase Line"](39.md): Base Application
+- [Table 42 "Rounding Method"](42.md): Base Application
+- [Table 43 "Purch. Comment Line"](43.md): Base Application
+- [Table 44 "Sales Comment Line"](44.md): Base Application
+- [Table 45 "G/L Register"](45.md): Base Application
+- [Table 46 "Item Register"](46.md): Base Application
+- [Table 47 "Aging Band Buffer"](47.md): Base Application
+- [Table 48 "Invt. Posting Buffer"](48.md): Base Application
+- [Table 49 "Invoice Post. Buffer"](49.md): Base Application, obsolete 27.0
+- [Table 50 "Accounting Period"](50.md): Base Application
+- [Table 51 "User Time Register"](51.md): Base Application
+- [Table 52 "Batch Processing Parameter"](52.md): Base Application
+- [Table 53 "Accounting Period Buffer"](53.md): Base Application
+- [Table 54 "Batch Processing Session Map"](54.md): Base Application
+- [Table 55 "Invoice Posting Buffer"](55.md): Base Application
+- [Table 56 "Invoice Posting Parameters"](56.md): Base Application
+- [Table 57 "G/L Transaction"](57.md): Base Application
+- [Table 58 "Batch Processing Artifact"](58.md): Base Application
+- [Table 60 "Document Sending Profile"](60.md): Base Application
+- [Table 61 "Electronic Document Format"](61.md): Base Application
+- [Table 62 "Record Export Buffer"](62.md): Base Application
+- [Table 63 "Account Use Buffer"](63.md): Base Application
+- [Table 64 "Merge Duplicates Buffer"](64.md): Base Application
+- [Table 65 "Merge Duplicates Line Buffer"](65.md): Base Application
+- [Table 66 "Merge Duplicates Conflict"](66.md): Base Application
+- [Table 77 "Report Selections"](77.md): Base Application
+- [Table 78 "Printer Selection"](78.md): Base Application
+- [Table 79 "Company Information"](79.md): Base Application
+- [Table 80 "Gen. Journal Template"](80.md): Base Application
+- [Table 81 "Gen. Journal Line"](81.md): Base Application
+- [Table 82 "Item Journal Template"](82.md): Base Application
+- [Table 83 "Item Journal Line"](83.md): Base Application
+- [Table 84 "Acc. Schedule Name"](84.md): Base Application
+- [Table 85 "Acc. Schedule Line"](85.md): Base Application
+- [Table 86 "Exch. Rate Adjmt. Reg."](86.md): Base Application
+- [Table 87 "Date Compr. Register"](87.md): Base Application
+- [Table 88 "Financial Report"](88.md): Base Application
+- [Table 89 "Financial Report User Filters"](89.md): Base Application
+- [Table 90 "BOM Component"](90.md): Base Application
+- [Table 91 "User Setup"](91.md): Base Application
+- [Table 92 "Customer Posting Group"](92.md): Base Application
+- [Table 93 "Vendor Posting Group"](93.md): Base Application
+- [Table 94 "Inventory Posting Group"](94.md): Base Application
+- [Table 95 "G/L Budget Name"](95.md): Base Application
+- [Table 96 "G/L Budget Entry"](96.md): Base Application
+- [Table 97 "Comment Line"](97.md): Base Application
+- [Table 98 "General Ledger Setup"](98.md): Base Application
+- [Table 99 "Item Vendor"](99.md): Base Application
+- [Table 109 "Net Balances Parameters"](109.md): Base Application
+- [Table 110 "Sales Shipment Header"](110.md): Base Application
+- [Table 111 "Sales Shipment Line"](111.md): Base Application
+- [Table 112 "Sales Invoice Header"](112.md): Base Application
+- [Table 113 "Sales Invoice Line"](113.md): Base Application
+- [Table 114 "Sales Cr.Memo Header"](114.md): Base Application
+- [Table 115 "Sales Cr.Memo Line"](115.md): Base Application
+- [Table 120 "Purch. Rcpt. Header"](120.md): Base Application
+- [Table 121 "Purch. Rcpt. Line"](121.md): Base Application
+- [Table 122 "Purch. Inv. Header"](122.md): Base Application
+- [Table 123 "Purch. Inv. Line"](123.md): Base Application
+- [Table 124 "Purch. Cr. Memo Hdr."](124.md): Base Application
+- [Table 125 "Purch. Cr. Memo Line"](125.md): Base Application
+- [Table 130 "Incoming Document"](130.md): Base Application
+- [Table 131 "Incoming Documents Setup"](131.md): Base Application
+- [Table 132 "Incoming Document Approver"](132.md): Base Application
+- [Table 133 "Incoming Document Attachment"](133.md): Base Application
+- [Table 134 "Posted Docs. With No Inc. Buf."](134.md): Base Application
+- [Table 135 "Acc. Sched. KPI Web Srv. Setup"](135.md): Base Application
+- [Table 136 "Acc. Sched. KPI Web Srv. Line"](136.md): Base Application
+- [Table 137 "Inc. Doc. Attachment Overview"](137.md): Base Application
+- [Table 138 "Unlinked Attachment"](138.md): Base Application
+- [Table 140 "License Agreement"](140.md): Base Application
+- [Table 141 "Bus. Unit Consolidation Data"](141.md): Base Application
+- [Table 142 "Dispute Status"](142.md): Base Application
+- [Table 143 "ECSL VAT Report Line Relation"](143.md): Base Application
+- [Table 150 "Signup Context Values"](150.md): System Application
+- [Table 152 "Resource Group"](152.md): Base Application
+- [Table 156 "Resource"](156.md): Base Application
+- [Table 160 "Res. Capacity Entry"](160.md): Base Application
+- [Table 167 "Job"](167.md): Base Application
+- [Table 169 "Job Ledger Entry"](169.md): Base Application
+- [Table 170 "Standard Sales Code"](170.md): Base Application
+- [Table 171 "Standard Sales Line"](171.md): Base Application
+- [Table 172 "Standard Customer Sales Code"](172.md): Base Application
+- [Table 173 "Standard Purchase Code"](173.md): Base Application
+- [Table 174 "Standard Purchase Line"](174.md): Base Application
+- [Table 175 "Standard Vendor Purchase Code"](175.md): Base Application
+- [Table 179 "Reversal Entry"](179.md): Base Application
+- [Table 180 "G/L Account Where-Used"](180.md): Base Application
+- [Table 181 "Posted Gen. Journal Line"](181.md): Base Application
+- [Table 182 "Posted Gen. Journal Batch"](182.md): Base Application
+- [Table 183 "Copy Gen. Journal Parameters"](183.md): Base Application
+- [Table 184 "Payment Rec. Related Entry"](184.md): Base Application
+- [Table 185 "Pmt. Rec. Applied-to Entry"](185.md): Base Application
+- [Table 186 "Exch. Rate Adjmt. Ledg. Entry"](186.md): Base Application
+- [Table 187 "VAT Posting Parameters"](187.md): Base Application
+- [Table 189 "VAT Setup"](189.md): Base Application
+- [Table 197 "Acc. Sched. KPI Buffer"](197.md): Base Application
+- [Table 200 "Work Type"](200.md): Base Application
+- [Table 201 "Resource Price"](201.md): Base Application
+- [Table 202 "Resource Cost"](202.md): Base Application
+- [Table 203 "Res. Ledger Entry"](203.md): Base Application
+- [Table 204 "Unit of Measure"](204.md): Base Application
+- [Table 205 "Resource Unit of Measure"](205.md): Base Application
+- [Table 206 "Res. Journal Template"](206.md): Base Application
+- [Table 207 "Res. Journal Line"](207.md): Base Application
+- [Table 208 "Job Posting Group"](208.md): Base Application
+- [Table 209 "Job Journal Template"](209.md): Base Application
+- [Table 210 "Job Journal Line"](210.md): Base Application
+- [Table 212 "Job Posting Buffer"](212.md): Base Application
+- [Table 213 "Alt. Cust. VAT Reg."](213.md): Base Application
+- [Table 220 "Business Unit"](220.md): Base Application
+- [Table 221 "Gen. Jnl. Allocation"](221.md): Base Application
+- [Table 222 "Ship-to Address"](222.md): Base Application
+- [Table 223 "Drop Shpt. Post. Buffer"](223.md): Base Application
+- [Table 224 "Order Address"](224.md): Base Application
+- [Table 225 "Post Code"](225.md): Base Application
+- [Table 226 "VAT Reg. No. Srv. Template"](226.md): Base Application
+- [Table 227 "VAT Registration Log Details"](227.md): Base Application
+- [Table 230 "Source Code"](230.md): Business Foundation
+- [Table 231 "Reason Code"](231.md): Business Foundation
+- [Table 232 "Gen. Journal Batch"](232.md): Base Application
+- [Table 233 "Item Journal Batch"](233.md): Base Application
+- [Table 236 "Res. Journal Batch"](236.md): Base Application
+- [Table 237 "Job Journal Batch"](237.md): Base Application
+- [Table 240 "Resource Register"](240.md): Base Application
+- [Table 241 "Job Register"](241.md): Base Application
+- [Table 242 "Source Code Setup"](242.md): Business Foundation
+- [Table 243 "VAT Reg. No. Lookup Quota"](243.md): Base Application
+- [Table 244 "Req. Wksh. Template"](244.md): Base Application
+- [Table 245 "Requisition Wksh. Name"](245.md): Base Application
+- [Table 246 "Requisition Line"](246.md): Base Application
+- [Table 247 "Intrastat Setup"](247.md): Base Application, obsolete 25.0
+- [Table 248 "VAT Reg. No. Srv Config"](248.md): Base Application
+- [Table 249 "VAT Registration Log"](249.md): Base Application
+- [Table 250 "Gen. Business Posting Group"](250.md): Base Application
+- [Table 251 "Gen. Product Posting Group"](251.md): Base Application
+- [Table 252 "General Posting Setup"](252.md): Base Application
+- [Table 253 "G/L Entry - VAT Entry Link"](253.md): Base Application
+- [Table 254 "VAT Entry"](254.md): Base Application
+- [Table 255 "VAT Statement Template"](255.md): Base Application
+- [Table 256 "VAT Statement Line"](256.md): Base Application
+- [Table 257 "VAT Statement Name"](257.md): Base Application
+- [Table 258 "Transaction Type"](258.md): Base Application
+- [Table 259 "Transport Method"](259.md): Base Application
+- [Table 260 "Tariff Number"](260.md): Base Application
+- [Table 261 "Intrastat Jnl. Template"](261.md): Base Application, obsolete 25.0
+- [Table 262 "Intrastat Jnl. Batch"](262.md): Base Application, obsolete 25.0
+- [Table 263 "Intrastat Jnl. Line"](263.md): Base Application, obsolete 25.0
+- [Table 264 "Currency Amount"](264.md): Base Application
+- [Table 265 "Document Entry"](265.md): Base Application
+- [Table 266 "Customer Amount"](266.md): Base Application
+- [Table 267 "Vendor Amount"](267.md): Base Application
+- [Table 268 "Item Amount"](268.md): Base Application
+- [Table 269 "G/L Account Net Change"](269.md): Base Application
+- [Table 270 "Bank Account"](270.md): Base Application
+- [Table 271 "Bank Account Ledger Entry"](271.md): Base Application
+- [Table 272 "Check Ledger Entry"](272.md): Base Application
+- [Table 273 "Bank Acc. Reconciliation"](273.md): Base Application
+- [Table 274 "Bank Acc. Reconciliation Line"](274.md): Base Application
+- [Table 275 "Bank Account Statement"](275.md): Base Application
+- [Table 276 "Bank Account Statement Line"](276.md): Base Application
+- [Table 277 "Bank Account Posting Group"](277.md): Base Application
+- [Table 278 "Job Journal Quantity"](278.md): Base Application
+- [Table 279 "Extended Text Header"](279.md): Base Application
+- [Table 280 "Extended Text Line"](280.md): Base Application
+- [Table 281 "Phys. Inventory Ledger Entry"](281.md): Base Application
+- [Table 282 "Entry/Exit Point"](282.md): Base Application
+- [Table 283 "Line Number Buffer"](283.md): Base Application
+- [Table 284 "Area"](284.md): Base Application
+- [Table 285 "Transaction Specification"](285.md): Base Application
+- [Table 286 "Territory"](286.md): Base Application
+- [Table 287 "Customer Bank Account"](287.md): Base Application
+- [Table 288 "Vendor Bank Account"](288.md): Base Application
+- [Table 289 "Payment Method"](289.md): Base Application
+- [Table 290 "VAT Amount Line"](290.md): Base Application
+- [Table 291 "Shipping Agent"](291.md): Base Application
+- [Table 292 "Reminder Terms"](292.md): Base Application
+- [Table 293 "Reminder Level"](293.md): Base Application
+- [Table 294 "Reminder Text"](294.md): Base Application
+- [Table 295 "Reminder Header"](295.md): Base Application
+- [Table 296 "Reminder Line"](296.md): Base Application
+- [Table 297 "Issued Reminder Header"](297.md): Base Application
+- [Table 298 "Issued Reminder Line"](298.md): Base Application
+- [Table 299 "Reminder Comment Line"](299.md): Base Application
+- [Table 300 "Reminder/Fin. Charge Entry"](300.md): Base Application
+- [Table 301 "Finance Charge Text"](301.md): Base Application
+- [Table 302 "Finance Charge Memo Header"](302.md): Base Application
+- [Table 303 "Finance Charge Memo Line"](303.md): Base Application
+- [Table 304 "Issued Fin. Charge Memo Header"](304.md): Base Application
+- [Table 305 "Issued Fin. Charge Memo Line"](305.md): Base Application
+- [Table 306 "Fin. Charge Comment Line"](306.md): Base Application
+- [Table 307 "Inventory Buffer"](307.md): Base Application
+- [Table 308 "No. Series"](308.md): Business Foundation
+- [Table 309 "No. Series Line"](309.md): Business Foundation
+- [Table 310 "No. Series Relationship"](310.md): Business Foundation
+- [Table 311 "Sales & Receivables Setup"](311.md): Base Application
+- [Table 312 "Purchases & Payables Setup"](312.md): Base Application
+- [Table 313 "Inventory Setup"](313.md): Base Application
+- [Table 314 "Resources Setup"](314.md): Base Application
+- [Table 315 "Jobs Setup"](315.md): Base Application
+- [Table 316 "Tax Area Translation"](316.md): Base Application
+- [Table 317 "Payable Vendor Ledger Entry"](317.md): Base Application
+- [Table 318 "Tax Area"](318.md): Base Application
+- [Table 319 "Tax Area Line"](319.md): Base Application
+- [Table 320 "Tax Jurisdiction"](320.md): Base Application
+- [Table 321 "Tax Group"](321.md): Base Application
+- [Table 322 "Tax Detail"](322.md): Base Application
+- [Table 323 "VAT Business Posting Group"](323.md): Base Application
+- [Table 324 "VAT Product Posting Group"](324.md): Base Application
+- [Table 325 "VAT Posting Setup"](325.md): Base Application
+- [Table 326 "Tax Setup"](326.md): Base Application
+- [Table 327 "Tax Jurisdiction Translation"](327.md): Base Application
+- [Table 328 "Currency for Fin. Charge Terms"](328.md): Base Application
+- [Table 329 "Currency for Reminder Level"](329.md): Base Application
+- [Table 330 "Currency Exchange Rate"](330.md): Base Application
+- [Table 331 "Adjust Exchange Rate Buffer"](331.md): Base Application
+- [Table 332 "Currency Total Buffer"](332.md): Base Application
+- [Table 333 "Column Layout Name"](333.md): Base Application
+- [Table 334 "Column Layout"](334.md): Base Application
+- [Table 335 "Resource Price Change"](335.md): Base Application
+- [Table 336 "Tracking Specification"](336.md): Base Application
+- [Table 337 "Reservation Entry"](337.md): Base Application
+- [Table 338 "Entry Summary"](338.md): Base Application
+- [Table 339 "Item Application Entry"](339.md): Base Application
+- [Table 340 "Customer Discount Group"](340.md): Base Application
+- [Table 341 "Item Discount Group"](341.md): Base Application
+- [Table 342 "Acc. Sched. Cell Value"](342.md): Base Application
+- [Table 343 "Item Application Entry History"](343.md): Base Application
+- [Table 344 "VAT Reporting Code"](344.md): Base Application
+- [Table 345 "Reservation Wksh. Batch"](345.md): Base Application
+- [Table 346 "Reservation Wksh. Line"](346.md): Base Application
+- [Table 347 "Close Income Statement Buffer"](347.md): Base Application
+- [Table 348 "Dimension"](348.md): Base Application
+- [Table 349 "Dimension Value"](349.md): Base Application
+- [Table 350 "Dimension Combination"](350.md): Base Application
+- [Table 351 "Dimension Value Combination"](351.md): Base Application
+- [Table 352 "Default Dimension"](352.md): Base Application
+- [Table 353 "Dimension ID Buffer"](353.md): Base Application
+- [Table 354 "Default Dimension Priority"](354.md): Base Application
+- [Table 355 "Dimension Set ID Filter Line"](355.md): Base Application
+- [Table 356 "Dim. Value per Account"](356.md): Base Application
+- [Table 357 "Gen. Jnl. Dim. Filter"](357.md): Base Application
+- [Table 359 "Reservation Worksheet Log"](359.md): Base Application
+- [Table 360 "Dimension Buffer"](360.md): Base Application
+- [Table 361 "Analysis by Dim. Parameters"](361.md): Base Application
+- [Table 362 "ECSL VAT Report Line"](362.md): Base Application
+- [Table 363 "Analysis View"](363.md): Base Application
+- [Table 364 "Analysis View Filter"](364.md): Base Application
+- [Table 365 "Analysis View Entry"](365.md): Base Application
+- [Table 366 "Analysis View Budget Entry"](366.md): Base Application
+- [Table 367 "Dimension Code Buffer"](367.md): Base Application
+- [Table 368 "Dimension Selection Buffer"](368.md): Base Application
+- [Table 369 "Selected Dimension"](369.md): Base Application
+- [Table 370 "Excel Buffer"](370.md): Base Application
+- [Table 371 "Budget Buffer"](371.md): Base Application
+- [Table 372 "Payment Buffer"](372.md): Base Application, obsolete 25.0
+- [Table 373 "Dimension Entry Buffer"](373.md): Base Application
+- [Table 374 "G/L Acc. Budget Buffer"](374.md): Base Application
+- [Table 375 "Dimension Code Amount Buffer"](375.md): Base Application
+- [Table 376 "G/L Account (Analysis View)"](376.md): Base Application
+- [Table 377 "Object Translation"](377.md): Base Application
+- [Table 378 "Report List Translation"](378.md): Base Application
+- [Table 379 "Detailed Cust. Ledg. Entry"](379.md): Base Application
+- [Table 380 "Detailed Vendor Ledg. Entry"](380.md): Base Application
+- [Table 381 "VAT Registration No. Format"](381.md): Base Application
+- [Table 382 "CV Ledger Entry Buffer"](382.md): Base Application
+- [Table 383 "Detailed CV Ledg. Entry Buffer"](383.md): Base Application
+- [Table 384 "Reconcile CV Acc Buffer"](384.md): Base Application
+- [Table 385 "Dimension Posting Buffer"](385.md): Base Application
+- [Table 386 "Entry No. Amount Buffer"](386.md): Base Application
+- [Table 387 "Allocation Policy"](387.md): Base Application
+- [Table 388 "Dimension Translation"](388.md): Base Application
+- [Table 390 "Availability at Date"](390.md): Base Application
+- [Table 391 "No. Series Generation"](391.md): Business Foundation
+- [Table 392 "No. Series Generation Detail"](392.md): Business Foundation
+- [Table 402 "Change Log Setup"](402.md): Base Application
+- [Table 403 "Change Log Setup (Table)"](403.md): Base Application
+- [Table 404 "Change Log Setup (Field)"](404.md): Base Application
+- [Table 405 "Change Log Entry"](405.md): Base Application
+- [Table 410 "IC G/L Account"](410.md): Base Application
+- [Table 411 "IC Dimension"](411.md): Base Application
+- [Table 412 "IC Dimension Value"](412.md): Base Application
+- [Table 413 "IC Partner"](413.md): Base Application
+- [Table 414 "IC Outbox Transaction"](414.md): Base Application
+- [Table 415 "IC Outbox Jnl. Line"](415.md): Base Application
+- [Table 416 "Handled IC Outbox Trans."](416.md): Base Application
+- [Table 417 "Handled IC Outbox Jnl. Line"](417.md): Base Application
+- [Table 418 "IC Inbox Transaction"](418.md): Base Application
+- [Table 419 "IC Inbox Jnl. Line"](419.md): Base Application
+- [Table 420 "Handled IC Inbox Trans."](420.md): Base Application
+- [Table 421 "Handled IC Inbox Jnl. Line"](421.md): Base Application
+- [Table 422 "IC Bank Account"](422.md): Base Application
+- [Table 423 "IC Inbox/Outbox Jnl. Line Dim."](423.md): Base Application
+- [Table 424 "IC Comment Line"](424.md): Base Application
+- [Table 426 "IC Outbox Sales Header"](426.md): Base Application
+- [Table 427 "IC Outbox Sales Line"](427.md): Base Application
+- [Table 428 "IC Outbox Purchase Header"](428.md): Base Application
+- [Table 429 "IC Outbox Purchase Line"](429.md): Base Application
+- [Table 430 "Handled IC Outbox Sales Header"](430.md): Base Application
+- [Table 431 "Handled IC Outbox Sales Line"](431.md): Base Application
+- [Table 432 "Handled IC Outbox Purch. Hdr"](432.md): Base Application
+- [Table 433 "Handled IC Outbox Purch. Line"](433.md): Base Application
+- [Table 434 "IC Inbox Sales Header"](434.md): Base Application
+- [Table 435 "IC Inbox Sales Line"](435.md): Base Application
+- [Table 436 "IC Inbox Purchase Header"](436.md): Base Application
+- [Table 437 "IC Inbox Purchase Line"](437.md): Base Application
+- [Table 438 "Handled IC Inbox Sales Header"](438.md): Base Application
+- [Table 439 "Handled IC Inbox Sales Line"](439.md): Base Application
+- [Table 440 "Handled IC Inbox Purch. Header"](440.md): Base Application
+- [Table 441 "Handled IC Inbox Purch. Line"](441.md): Base Application
+- [Table 442 "IC Document Dimension"](442.md): Base Application
+- [Table 443 "IC Setup"](443.md): Base Application
+- [Table 444 "IC API Log"](444.md): Base Application
+- [Table 450 "Bar Chart Buffer"](450.md): Base Application
+- [Table 454 "Approval Entry"](454.md): Base Application
+- [Table 455 "Approval Comment Line"](455.md): Base Application
+- [Table 456 "Posted Approval Entry"](456.md): Base Application
+- [Table 457 "Posted Approval Comment Line"](457.md): Base Application
+- [Table 458 "Overdue Approval Entry"](458.md): Base Application
+- [Table 459 "Sales Prepayment %"](459.md): Base Application
+- [Table 460 "Purchase Prepayment %"](460.md): Base Application
+- [Table 461 "Prepayment Inv. Line Buffer"](461.md): Base Application
+- [Table 462 "Payment Term Translation"](462.md): Base Application
+- [Table 463 "Shipment Method Translation"](463.md): Base Application
+- [Table 466 "Payment Method Translation"](466.md): Base Application
+- [Table 467 "Workflow Webhook Entry"](467.md): Base Application
+- [Table 468 "Workflow Webhook Notification"](468.md): Base Application
+- [Table 469 "Workflow Webhook Subscription"](469.md): Base Application
+- [Table 471 "Job Queue Category"](471.md): Base Application
+- [Table 472 "Job Queue Entry"](472.md): Base Application
+- [Table 473 "Report Inbox Item Buffer"](473.md): Base Application
+- [Table 474 "Job Queue Log Entry"](474.md): Base Application
+- [Table 475 "Vendor Payment Buffer"](475.md): Base Application
+- [Table 476 "Report Inbox File Buffer"](476.md): Base Application
+- [Table 477 "Report Inbox"](477.md): Base Application
+- [Table 478 "Report Inbox Company Buffer"](478.md): Base Application
+- [Table 479 "Job Queue Entry Buffer"](479.md): Base Application
+- [Table 480 "Dimension Set Entry"](480.md): Base Application
+- [Table 481 "Dimension Set Tree Node"](481.md): Base Application
+- [Table 482 "Reclas. Dimension Set Buffer"](482.md): Base Application
+- [Table 483 "Change Global Dim. Log Entry"](483.md): Base Application
+- [Table 484 "Change Global Dim. Header"](484.md): Base Application
+- [Table 485 "Business Chart Buffer"](485.md): Base Application
+- [Table 486 "Business Chart Map"](486.md): Base Application
+- [Table 487 "Business Chart User Setup"](487.md): Base Application
+- [Table 491 "Parallel Session Entry"](491.md): Base Application
+- [Table 500 "Deposits Page Setup"](500.md): Base Application, obsolete 27.0
+- [Table 502 "Reminder Attachment Text"](502.md): Base Application
+- [Table 503 "Reminder Email Text"](503.md): Base Application
+- [Table 504 "Reminder Attachment Text Line"](504.md): Base Application
+- [Table 520 "Availability Info. Buffer"](520.md): Base Application
+- [Table 532 "Company Size"](532.md): Base Application
+- [Table 550 "VAT Rate Change Setup"](550.md): Base Application
+- [Table 551 "VAT Rate Change Conversion"](551.md): Base Application
+- [Table 552 "VAT Rate Change Log Entry"](552.md): Base Application
+- [Table 560 "VAT Clause"](560.md): Base Application
+- [Table 561 "VAT Clause Translation"](561.md): Base Application
+- [Table 562 "VAT Clause by Doc. Type"](562.md): Base Application
+- [Table 563 "VAT Clause by Doc. Type Trans."](563.md): Base Application
+- [Table 570 "G/L Account Category"](570.md): Base Application
+- [Table 572 "Finance Charge Interest Rate"](572.md): Base Application
+- [Table 579 "Apply Unapply Parameters"](579.md): Base Application
+- [Table 589 "G/L Account Source Currency"](589.md): Base Application
+- [Table 595 "Exch. Rate Adjmt. Buffer"](595.md): Base Application
+- [Table 596 "Exch. Rate Adjmt. Parameters"](596.md): Base Application
+- [Table 600 "Data Archive"](600.md): DataArchive
+- [Table 601 "Data Archive Table"](601.md): DataArchive
+- [Table 602 "Data Archive Media Field"](602.md): DataArchive
+- [Table 603 "Buffer IC Comment Line"](603.md): Base Application
+- [Table 604 "Buffer IC Document Dimension"](604.md): Base Application
+- [Table 605 "Buffer IC Inbox Jnl. Line"](605.md): Base Application
+- [Table 606 "Buffer IC Inbox Purchase Line"](606.md): Base Application
+- [Table 607 "Buffer IC Inbox Purch Header"](607.md): Base Application
+- [Table 608 "Buffer IC Inbox Sales Header"](608.md): Base Application
+- [Table 609 "Buffer IC Inbox Sales Line"](609.md): Base Application
+- [Table 610 "Buffer IC Inbox Transaction"](610.md): Base Application
+- [Table 611 "Buffer IC InOut Jnl. Line Dim."](611.md): Base Application
+- [Table 612 "IC Outgoing Notification"](612.md): Base Application
+- [Table 613 "IC Incoming Notification"](613.md): Base Application
+- [Table 685 "Payment Period"](685.md): PaymentPractices
+- [Table 686 "Payment Practice Data"](686.md): PaymentPractices
+- [Table 687 "Payment Practice Header"](687.md): PaymentPractices
+- [Table 688 "Payment Practice Line"](688.md): PaymentPractices
+- [Table 700 "Error Message"](700.md): Base Application
+- [Table 701 "Error Message Register"](701.md): Base Application
+- [Table 710 "Activity Log"](710.md): Base Application
+- [Table 719 "Availability Plan Buffer"](719.md): Base Application
+- [Table 725 "Custom Address Format"](725.md): Base Application
+- [Table 726 "Custom Address Format Line"](726.md): Base Application
+- [Table 727 "Analysis by Dim. User Param."](727.md): Base Application
+- [Table 728 "Copy Item Parameters"](728.md): Base Application
+- [Table 729 "Copy Item Buffer"](729.md): Base Application
+- [Table 730 "Standard Address"](730.md): Base Application
+- [Table 737 "VAT Return Period"](737.md): Base Application
+- [Table 740 "VAT Report Header"](740.md): Base Application
+- [Table 741 "VAT Report Line"](741.md): Base Application
+- [Table 742 "VAT Statement Report Line"](742.md): Base Application
+- [Table 743 "VAT Report Setup"](743.md): Base Application
+- [Table 744 "VAT Report Line Relation"](744.md): Base Application
+- [Table 745 "VAT Report Error Log"](745.md): Base Application
+- [Table 746 "VAT Reports Configuration"](746.md): Base Application
+- [Table 747 "VAT Report Archive"](747.md): Base Application
+- [Table 749 "Date Lookup Buffer"](749.md): Base Application
+- [Table 750 "Standard General Journal"](750.md): Base Application
+- [Table 751 "Standard General Journal Line"](751.md): Base Application
+- [Table 752 "Standard Item Journal"](752.md): Base Application
+- [Table 753 "Standard Item Journal Line"](753.md): Base Application
+- [Table 760 "Trailing Sales Orders Setup"](760.md): Base Application
+- [Table 762 "Account Schedules Chart Setup"](762.md): Base Application
+- [Table 763 "Acc. Sched. Chart Setup Line"](763.md): Base Application
+- [Table 764 "Fin. Report Excel Template"](764.md): Base Application
+- [Table 770 "Analysis Report Chart Setup"](770.md): Base Application
+- [Table 771 "Analysis Report Chart Line"](771.md): Base Application
+- [Table 774 "User Details"](774.md): System Application
+- [Table 777 "Online Bank Acc. Link"](777.md): Base Application
+- [Table 780 "Certificate of Supply"](780.md): Base Application
+- [Table 800 "Online Map Setup"](800.md): Base Application
+- [Table 801 "Online Map Parameter Setup"](801.md): Base Application
+- [Table 806 "Geolocation"](806.md): Base Application
+- [Table 812 "API Overview Buffer"](812.md): Base Application
+- [Table 823 "Name/Value Buffer"](823.md): Base Application
+- [Table 832 "Workflows Entries Buffer"](832.md): Base Application
+- [Table 840 "Cash Flow Forecast"](840.md): Base Application
+- [Table 841 "Cash Flow Account"](841.md): Base Application
+- [Table 842 "Cash Flow Account Comment"](842.md): Base Application
+- [Table 843 "Cash Flow Setup"](843.md): Base Application
+- [Table 846 "Cash Flow Worksheet Line"](846.md): Base Application
+- [Table 847 "Cash Flow Forecast Entry"](847.md): Base Application
+- [Table 849 "Cash Flow Manual Revenue"](849.md): Base Application
+- [Table 850 "Cash Flow Manual Expense"](850.md): Base Application
+- [Table 852 "Cash Flow Azure AI Buffer"](852.md): Base Application
+- [Table 856 "Cash Flow Report Selection"](856.md): Base Application
+- [Table 869 "Cash Flow Chart Setup"](869.md): Base Application
+- [Table 880 "Excel Template Storage"](880.md): Base Application
+- [Table 900 "Assembly Header"](900.md): Base Application
+- [Table 901 "Assembly Line"](901.md): Base Application
+- [Table 904 "Assemble-to-Order Link"](904.md): Base Application
+- [Table 905 "Assembly Setup"](905.md): Base Application
+- [Table 906 "Assembly Comment Line"](906.md): Base Application
+- [Table 910 "Posted Assembly Header"](910.md): Base Application
+- [Table 911 "Posted Assembly Line"](911.md): Base Application
+- [Table 914 "Posted Assemble-to-Order Link"](914.md): Base Application
+- [Table 915 "ATO Sales Buffer"](915.md): Base Application
+- [Table 920 "Res. Gr. Availability Buffer"](920.md): Base Application
+- [Table 921 "Item Turnover Buffer"](921.md): Base Application
+- [Table 922 "G/L Acc. Balance/Budget Buffer"](922.md): Base Application
+- [Table 923 "Customer Sales Buffer"](923.md): Base Application
+- [Table 924 "Vendor Purchase Buffer"](924.md): Base Application
+- [Table 925 "Item Availability Buffer"](925.md): Base Application
+- [Table 926 "G/L Acc. Balance Buffer"](926.md): Base Application
+- [Table 927 "Receivables-Payables Buffer"](927.md): Base Application
+- [Table 928 "Res. Availability Buffer"](928.md): Base Application
+- [Table 929 "Bank Account Balance Buffer"](929.md): Base Application
+- [Table 930 "Cash Flow Availability Buffer"](930.md): Base Application
+- [Table 931 "Service Item Trend Buffer"](931.md): Base Application
+- [Table 932 "Contract Trend Buffer"](932.md): Base Application
+- [Table 933 "Load Buffer"](933.md): Base Application
+- [Table 950 "Time Sheet Header"](950.md): Base Application
+- [Table 951 "Time Sheet Line"](951.md): Base Application
+- [Table 952 "Time Sheet Detail"](952.md): Base Application
+- [Table 953 "Time Sheet Comment Line"](953.md): Base Application
+- [Table 954 "Time Sheet Header Archive"](954.md): Base Application
+- [Table 955 "Time Sheet Line Archive"](955.md): Base Application
+- [Table 956 "Time Sheet Detail Archive"](956.md): Base Application
+- [Table 957 "Time Sheet Cmt. Line Archive"](957.md): Base Application
+- [Table 958 "Time Sheet Posting Entry"](958.md): Base Application
+- [Table 959 "Time Sheet Chart Setup"](959.md): Base Application
+- [Table 960 "Alt. Customer Posting Group"](960.md): Base Application
+- [Table 961 "Alt. Vendor Posting Group"](961.md): Base Application
+- [Table 962 "Alt. Employee Posting Group"](962.md): Base Application
+- [Table 980 "Payment Registration Setup"](980.md): Base Application
+- [Table 981 "Payment Registration Buffer"](981.md): Base Application
+- [Table 983 "Document Search Result"](983.md): Base Application
+- [Table 1001 "Job Task"](1001.md): Base Application
+- [Table 1002 "Job Task Dimension"](1002.md): Base Application
+- [Table 1003 "Job Planning Line"](1003.md): Base Application
+- [Table 1004 "Job WIP Entry"](1004.md): Base Application
+- [Table 1005 "Job WIP G/L Entry"](1005.md): Base Application
+- [Table 1006 "Job WIP Method"](1006.md): Base Application
+- [Table 1007 "Job WIP Warning"](1007.md): Base Application
+- [Table 1008 "Job Assigned Resource"](1008.md): Base Application
+- [Table 1012 "Job Resource Price"](1012.md): Base Application
+- [Table 1013 "Job Item Price"](1013.md): Base Application
+- [Table 1014 "Job G/L Account Price"](1014.md): Base Application
+- [Table 1015 "Job Entry No."](1015.md): Base Application
+- [Table 1017 "Job Buffer"](1017.md): Base Application
+- [Table 1018 "Job WIP Buffer"](1018.md): Base Application
+- [Table 1019 "Job Difference Buffer"](1019.md): Base Application
+- [Table 1020 "Job Usage Link"](1020.md): Base Application
+- [Table 1021 "Job WIP Total"](1021.md): Base Application
+- [Table 1022 "Job Planning Line Invoice"](1022.md): Base Application
+- [Table 1034 "Job Planning Line - Calendar"](1034.md): Base Application
+- [Table 1050 "Additional Fee Setup"](1050.md): Base Application
+- [Table 1051 "Sorting Table"](1051.md): Base Application
+- [Table 1052 "Reminder Terms Translation"](1052.md): Base Application
+- [Table 1053 "Line Fee Note on Report Hist."](1053.md): Base Application
+- [Table 1060 "Payment Service Setup"](1060.md): Base Application
+- [Table 1062 "Payment Reporting Argument"](1062.md): Base Application
+- [Table 1070 "MS - PayPal Standard Account"](1070.md): PayPalPaymentsStandard
+- [Table 1071 "MS - PayPal Standard Template"](1071.md): PayPalPaymentsStandard
+- [Table 1077 "MS - PayPal Transaction"](1077.md): PayPalPaymentsStandard
+- [Table 1100 "Cost Journal Template"](1100.md): Base Application
+- [Table 1101 "Cost Journal Line"](1101.md): Base Application
+- [Table 1102 "Cost Journal Batch"](1102.md): Base Application
+- [Table 1103 "Cost Type"](1103.md): Base Application
+- [Table 1104 "Cost Entry"](1104.md): Base Application
+- [Table 1105 "Cost Register"](1105.md): Base Application
+- [Table 1106 "Cost Allocation Source"](1106.md): Base Application
+- [Table 1107 "Cost Allocation Target"](1107.md): Base Application
+- [Table 1108 "Cost Accounting Setup"](1108.md): Base Application
+- [Table 1109 "Cost Budget Entry"](1109.md): Base Application
+- [Table 1110 "Cost Budget Name"](1110.md): Base Application
+- [Table 1111 "Cost Budget Register"](1111.md): Base Application
+- [Table 1112 "Cost Center"](1112.md): Base Application
+- [Table 1113 "Cost Object"](1113.md): Base Application
+- [Table 1114 "Cost Budget Buffer"](1114.md): Base Application
+- [Table 1140 "OAuth 2.0 Setup"](1140.md): Base Application
+- [Table 1150 "Report Totals Buffer"](1150.md): Base Application
+- [Table 1151 "COHUB Company KPI"](1151.md): CompanyHub
+- [Table 1152 "COHUB Enviroment"](1152.md): CompanyHub
+- [Table 1153 "COHUB Company Endpoint"](1153.md): CompanyHub
+- [Table 1154 "COHUB User Task"](1154.md): CompanyHub
+- [Table 1155 "COHUB Group"](1155.md): CompanyHub
+- [Table 1156 "COHUB Group Company Summary"](1156.md): CompanyHub
+- [Table 1170 "User Task"](1170.md): Base Application
+- [Table 1173 "Document Attachment"](1173.md): Base Application
+- [Table 1175 "User Task Group"](1175.md): Base Application
+- [Table 1176 "User Task Group Member"](1176.md): Base Application
+- [Table 1180 "Data Privacy Entities"](1180.md): System Application
+- [Table 1181 "Data Privacy Records"](1181.md): Base Application
+- [Table 1182 "Journal User Preferences"](1182.md): Base Application
+- [Table 1200 "Bank Export/Import Setup"](1200.md): Base Application
+- [Table 1205 "Credit Transfer Register"](1205.md): Base Application
+- [Table 1206 "Credit Transfer Entry"](1206.md): Base Application
+- [Table 1207 "Direct Debit Collection"](1207.md): Base Application
+- [Table 1208 "Direct Debit Collection Entry"](1208.md): Base Application
+- [Table 1209 "Credit Trans Re-export History"](1209.md): Base Application
+- [Table 1210 "SWIFT Code"](1210.md): Base Application
+- [Table 1213 "Data Exchange Type"](1213.md): Base Application
+- [Table 1214 "Intermediate Data Import"](1214.md): Base Application
+- [Table 1220 "Data Exch."](1220.md): Base Application
+- [Table 1221 "Data Exch. Field"](1221.md): Base Application
+- [Table 1222 "Data Exch. Def"](1222.md): Base Application
+- [Table 1223 "Data Exch. Column Def"](1223.md): Base Application
+- [Table 1224 "Data Exch. Mapping"](1224.md): Base Application
+- [Table 1225 "Data Exch. Field Mapping"](1225.md): Base Application
+- [Table 1226 "Payment Export Data"](1226.md): Base Application
+- [Table 1227 "Data Exch. Line Def"](1227.md): Base Application
+- [Table 1228 "Payment Jnl. Export Error Text"](1228.md): Base Application
+- [Table 1229 "Payment Export Remittance Text"](1229.md): Base Application
+- [Table 1230 "SEPA Direct Debit Mandate"](1230.md): Base Application
+- [Table 1231 "Positive Pay Entry"](1231.md): Base Application
+- [Table 1232 "Positive Pay Entry Detail"](1232.md): Base Application
+- [Table 1233 "Data Exch. Table Filter"](1233.md): Base Application
+- [Table 1234 "CSV Buffer"](1234.md): Base Application
+- [Table 1235 "XML Buffer"](1235.md): Base Application
+- [Table 1236 "JSON Buffer"](1236.md): Base Application
+- [Table 1237 "Transformation Rule"](1237.md): Base Application
+- [Table 1238 "Data Exch. Field Grouping"](1238.md): Base Application
+- [Table 1239 "Data Exch. FlowField Gr. Buff."](1239.md): Base Application
+- [Table 1240 "Positive Pay Header"](1240.md): Base Application
+- [Table 1241 "Positive Pay Detail"](1241.md): Base Application
+- [Table 1242 "Positive Pay Footer"](1242.md): Base Application
+- [Table 1248 "Ledger Entry Matching Buffer"](1248.md): Base Application
+- [Table 1249 "Bank Stmt Multiple Match Line"](1249.md): Base Application
+- [Table 1250 "Bank Statement Matching Buffer"](1250.md): Base Application
+- [Table 1251 "Text-to-Account Mapping"](1251.md): Base Application
+- [Table 1252 "Bank Pmt. Appl. Rule"](1252.md): Base Application
+- [Table 1253 "Bank Pmt. Appl. Settings"](1253.md): Base Application
+- [Table 1255 "Direct Debit Collection Buffer"](1255.md): Base Application
+- [Table 1262 "Isolated Certificate"](1262.md): Base Application
+- [Table 1263 "No. Series Tenant"](1263.md): Business Foundation
+- [Table 1265 "Data Exch. Field Mapping Buf."](1265.md): Base Application
+- [Table 1270 "OCR Service Setup"](1270.md): Base Application
+- [Table 1271 "OCR Service Document Template"](1271.md): Base Application
+- [Table 1275 "Doc. Exch. Service Setup"](1275.md): Base Application
+- [Table 1280 "Bank Clearing Standard"](1280.md): Base Application
+- [Table 1284 "Outstanding Bank Transaction"](1284.md): Base Application
+- [Table 1293 "Payment Application Proposal"](1293.md): Base Application
+- [Table 1294 "Applied Payment Entry"](1294.md): Base Application
+- [Table 1295 "Posted Payment Recon. Hdr"](1295.md): Base Application
+- [Table 1296 "Posted Payment Recon. Line"](1296.md): Base Application
+- [Table 1299 "Payment Matching Details"](1299.md): Base Application
+- [Table 1302 "Dimensions Template"](1302.md): Base Application
+- [Table 1304 "Sales Price and Line Disc Buff"](1304.md): Base Application
+- [Table 1306 "User Preference"](1306.md): Base Application
+- [Table 1307 "O365 Device Setup Instructions"](1307.md): Base Application
+- [Table 1308 "O365 Getting Started Page Data"](1308.md): Base Application
+- [Table 1309 "O365 Getting Started"](1309.md): Base Application
+- [Table 1310 "Chart Definition"](1310.md): Base Application
+- [Table 1311 "Last Used Chart"](1311.md): Base Application
+- [Table 1312 "Trial Balance Setup"](1312.md): Base Application
+- [Table 1313 "Activities Cue"](1313.md): Base Application
+- [Table 1314 "User Tours"](1314.md): Base Application
+- [Table 1315 "Purch. Price Line Disc. Buff."](1315.md): Base Application
+- [Table 1317 "Trial Balance Cache Info"](1317.md): Base Application
+- [Table 1318 "Trial Balance Cache"](1318.md): Base Application
+- [Table 1319 "Sales by Cust. Grp.Chart Setup"](1319.md): Base Application
+- [Table 1328 "Top Customers By Sales Buffer"](1328.md): Base Application
+- [Table 1360 "MS - WorldPay Standard Account"](1360.md): WorldPayPaymentsStandard, obsolete 26.0
+- [Table 1361 "MS - WorldPay Std. Template"](1361.md): WorldPayPaymentsStandard, obsolete 26.0
+- [Table 1366 "Field Monitoring Setup"](1366.md): Base Application
+- [Table 1367 "MS - WorldPay Transaction"](1367.md): WorldPayPaymentsStandard, obsolete 26.0
+- [Table 1381 "Customer Templ."](1381.md): Base Application
+- [Table 1382 "Item Templ."](1382.md): Base Application
+- [Table 1383 "Vendor Templ."](1383.md): Base Application
+- [Table 1384 "Employee Templ."](1384.md): Base Application
+- [Table 1400 "Service Connection"](1400.md): Base Application
+- [Table 1430 "Role Center Notifications"](1430.md): Base Application
+- [Table 1431 "Named Forward Link"](1431.md): Base Application
+- [Table 1432 "Net Promoter Score Setup"](1432.md): System Application, obsolete 28.0
+- [Table 1433 "Net Promoter Score"](1433.md): System Application, obsolete 28.0
+- [Table 1436 "Ess. Business Headline Per Usr"](1436.md): EssentialBusinessHeadlines
+- [Table 1437 "Headline Details Per User"](1437.md): EssentialBusinessHeadlines
+- [Table 1458 "RC Headlines User Data"](1458.md): Base Application
+- [Table 1470 "Product Video Buffer"](1470.md): System Application
+- [Table 1480 "Edit in Excel Settings"](1480.md): System Application
+- [Table 1500 "Workflow Buffer"](1500.md): Base Application
+- [Table 1501 "Workflow"](1501.md): Base Application
+- [Table 1502 "Workflow Step"](1502.md): Base Application
+- [Table 1504 "Workflow Step Instance"](1504.md): Base Application
+- [Table 1505 "Workflow - Table Relation"](1505.md): Base Application
+- [Table 1506 "Workflow Table Relation Value"](1506.md): Base Application
+- [Table 1507 "Workflow Step Buffer"](1507.md): Base Application
+- [Table 1508 "Workflow Category"](1508.md): Base Application
+- [Table 1509 "WF Event/Response Combination"](1509.md): Base Application
+- [Table 1511 "Notification Entry"](1511.md): Base Application
+- [Table 1512 "Notification Setup"](1512.md): Base Application
+- [Table 1513 "Notification Schedule"](1513.md): Base Application
+- [Table 1514 "Sent Notification Entry"](1514.md): Base Application
+- [Table 1515 "Dynamic Request Page Entity"](1515.md): Base Application
+- [Table 1516 "Dynamic Request Page Field"](1516.md): Base Application
+- [Table 1518 "My Notifications"](1518.md): Base Application
+- [Table 1519 "Notification Context"](1519.md): Base Application
+- [Table 1520 "Workflow Event"](1520.md): Base Application
+- [Table 1521 "Workflow Response"](1521.md): Base Application
+- [Table 1522 "Workflow Event Queue"](1522.md): Base Application
+- [Table 1523 "Workflow Step Argument"](1523.md): Base Application
+- [Table 1524 "Workflow Rule"](1524.md): Base Application
+- [Table 1525 "Workflow - Record Change"](1525.md): Base Application
+- [Table 1526 "Workflow Record Change Archive"](1526.md): Base Application
+- [Table 1530 "Workflow Step Instance Archive"](1530.md): Base Application
+- [Table 1531 "Workflow Step Argument Archive"](1531.md): Base Application
+- [Table 1540 "Workflow User Group"](1540.md): Base Application
+- [Table 1541 "Workflow User Group Member"](1541.md): Base Application
+- [Table 1542 "Workflow Webhook Sub Buffer"](1542.md): Base Application
+- [Table 1543 "Flow Service Configuration"](1543.md): Base Application
+- [Table 1544 "Flow User Environment Buffer"](1544.md): Base Application
+- [Table 1545 "Flow User Environment Config"](1545.md): Base Application
+- [Table 1550 "Restricted Record"](1550.md): Base Application
+- [Table 1570 "G/L Entry Posting Preview"](1570.md): Base Application
+- [Table 1571 "VAT Entry Posting Preview"](1571.md): Base Application
+- [Table 1572 "Approval Entry Buffer"](1572.md): Base Application
+- [Table 1573 "Workflow Approvers Buffer"](1573.md): Base Application
+- [Table 1600 "Office Add-in Context"](1600.md): Base Application
+- [Table 1601 "Office Add-in Setup"](1601.md): Base Application
+- [Table 1602 "Exchange Object"](1602.md): Base Application
+- [Table 1606 "Office Invoice"](1606.md): Base Application
+- [Table 1610 "Office Add-in"](1610.md): Base Application
+- [Table 1612 "Office Admin. Credentials"](1612.md): Base Application
+- [Table 1615 "Office Job Journal"](1615.md): Base Application
+- [Table 1620 "Office Document Selection"](1620.md): Base Application
+- [Table 1626 "Office Contact Details"](1626.md): Base Application
+- [Table 1637 "Office Suggested Line Item"](1637.md): Base Application
+- [Table 1638 "Invoiced Booking Item"](1638.md): Base Application
+- [Table 1650 "Curr. Exch. Rate Update Setup"](1650.md): Base Application
+- [Table 1660 "Payroll Setup"](1660.md): Base Application
+- [Table 1661 "Import G/L Transaction"](1661.md): Base Application
+- [Table 1662 "Payroll Import Buffer"](1662.md): Base Application
+- [Table 1670 "Option Lookup Buffer"](1670.md): Base Application
+- [Table 1680 "Email Logging Setup"](1680.md): EmailLogging
+- [Table 1690 "Bank Deposit Header"](1690.md): BankDeposits
+- [Table 1691 "Posted Bank Deposit Header"](1691.md): BankDeposits
+- [Table 1692 "Posted Bank Deposit Line"](1692.md): BankDeposits
+- [Table 1693 "Bank Acc. Comment Line"](1693.md): BankDeposits
+- [Table 1700 "Deferral Template"](1700.md): Base Application
+- [Table 1701 "Deferral Header"](1701.md): Base Application
+- [Table 1702 "Deferral Line"](1702.md): Base Application
+- [Table 1704 "Posted Deferral Header"](1704.md): Base Application
+- [Table 1705 "Posted Deferral Line"](1705.md): Base Application
+- [Table 1706 "Deferral Posting Buffer"](1706.md): Base Application
+- [Table 1738 "OData Initialized Status"](1738.md): Base Application
+- [Table 1750 "Fields Sync Status"](1750.md): System Application
+- [Table 1754 "Field Content Buffer"](1754.md): System Application
+- [Table 1797 "Data Migration Error"](1797.md): Base Application
+- [Table 1798 "Data Migration Parameters"](1798.md): Base Application
+- [Table 1799 "Data Migration Status"](1799.md): Base Application
+- [Table 1800 "Data Migrator Registration"](1800.md): Base Application
+- [Table 1801 "Data Migration Entity"](1801.md): Base Application
+- [Table 1802 "Assisted Company Setup Status"](1802.md): Base Application
+- [Table 1804 "Approval Workflow Wizard"](1804.md): Base Application
+- [Table 1806 "Data Migration Setup"](1806.md): Base Application
+- [Table 1827 "Business Unit Setup"](1827.md): Base Application
+- [Table 1828 "Business Unit Information"](1828.md): Base Application
+- [Table 1829 "Consolidation Account"](1829.md): Base Application
+- [Table 1830 "Consolidation Process"](1830.md): Base Application
+- [Table 1831 "Bus. Unit In Cons. Process"](1831.md): Base Application
+- [Table 1833 "Consolidation Setup"](1833.md): Base Application
+- [Table 1834 "Consolidation Log Entry"](1834.md): Base Application
+- [Table 1850 "MS - Sales Forecast"](1850.md): SalesAndInventoryForecast
+- [Table 1851 "MS - Sales Forecast Parameter"](1851.md): SalesAndInventoryForecast
+- [Table 1853 "MS - Sales Forecast Setup"](1853.md): SalesAndInventoryForecast
+- [Table 1877 "VAT Setup Posting Groups"](1877.md): Base Application
+- [Table 1878 "VAT Assisted Setup Templates"](1878.md): Base Application
+- [Table 1879 "VAT Assisted Setup Bus. Grp."](1879.md): Base Application
+- [Table 1900 "Cancelled Document"](1900.md): Base Application
+- [Table 1911 "MigrationQB Account"](1911.md): QBMigration
+- [Table 1912 "MigrationQB Customer"](1912.md): QBMigration
+- [Table 1913 "MigrationQB CustomerTrans"](1913.md): QBMigration
+- [Table 1914 "MigrationQB Vendor"](1914.md): QBMigration
+- [Table 1915 "MigrationQB VendorTrans"](1915.md): QBMigration
+- [Table 1916 "MigrationQB Item"](1916.md): QBMigration
+- [Table 1917 "MigrationQB Config"](1917.md): QBMigration
+- [Table 1918 "MigrationQB Account Setup"](1918.md): QBMigration
+- [Table 1921 "Profiling Node"](1921.md): System Application
+- [Table 1950 "LP Machine Learning Setup"](1950.md): LatePaymentPredictor
+- [Table 1951 "LP ML Input Data"](1951.md): LatePaymentPredictor
+- [Table 1990 "Guided Experience Item"](1990.md): System Application
+- [Table 1991 "Checklist Item"](1991.md): System Application
+- [Table 1992 "Checklist Item Role"](1992.md): System Application
+- [Table 1993 "Checklist Item User"](1993.md): System Application
+- [Table 1994 "User Checklist Status"](1994.md): System Application
+- [Table 1995 "Checklist Item Buffer"](1995.md): System Application
+- [Table 1996 "Checklist Setup"](1996.md): System Application
+- [Table 1997 "Spotlight Tour Text"](1997.md): System Application
+- [Table 1998 "Primary Guided Experience Item"](1998.md): System Application
+- [Table 2000 "Time Series Buffer"](2000.md): Base Application
+- [Table 2001 "Time Series Forecast"](2001.md): Base Application
+- [Table 2004 "Azure AI Usage"](2004.md): Base Application
+- [Table 2010 "Azure OpenAi Settings"](2010.md): System Application, obsolete 27.0
+- [Table 2020 "Image Analysis Setup"](2020.md): Base Application
+- [Table 2023 "Image Analysis Scenario"](2023.md): Base Application
+- [Table 2028 "MS - Image Analyzer Tags"](2028.md): ImageAnalysis
+- [Table 2029 "MS - Img. Analyzer Blacklist"](2029.md): ImageAnalysis
+- [Table 2100 "Sales Document Icon"](2100.md): Base Application
+- [Table 2114 "O365 HTML Template"](2114.md): Base Application
+- [Table 2119 "O365 Payment Service Logo"](2119.md): Base Application
+- [Table 2121 "O365 Brand Color"](2121.md): Base Application
+- [Table 2151 "Upd Analysis View Entry Buffer"](2151.md): Base Application
+- [Table 2160 "Calendar Event"](2160.md): Base Application, obsolete 27.0
+- [Table 2161 "Calendar Event User Config."](2161.md): Base Application, obsolete 27.0
+- [Table 2224 "Remit Address"](2224.md): Base Application
+- [Table 2225 "Remit Address Buffer"](2225.md): Base Application
+- [Table 2250 "Vendor Ledger Entry Buffer"](2250.md): Base Application
+- [Table 2400 "Sync Setup"](2400.md): SyncBase, obsolete 27.0
+- [Table 2401 "Sync Change"](2401.md): SyncBase, obsolete 27.0
+- [Table 2402 "Sync Mapping"](2402.md): SyncBase, obsolete 27.0
+- [Table 2503 "Extension Installation"](2503.md): System Application
+- [Table 2508 "Extension Deployment Status"](2508.md): System Application
+- [Table 2509 "Extension Pending Setup"](2509.md): System Application
+- [Table 2515 "AppSource Product"](2515.md): System Application
+- [Table 2580 "Dim Correction Blocked Setup"](2580.md): Base Application
+- [Table 2581 "Dim Correction Change"](2581.md): Base Application
+- [Table 2582 "Dimension Correction"](2582.md): Base Application
+- [Table 2583 "Dim Correction Entry Log"](2583.md): Base Application
+- [Table 2584 "Dim Correction Set Buffer"](2584.md): Base Application
+- [Table 2585 "Dim Correct Selection Criteria"](2585.md): Base Application
+- [Table 2587 "Invalidated Dim Correction"](2587.md): Base Application
+- [Table 2609 "Feature Key Buffer"](2609.md): System Application
+- [Table 2610 "Feature Data Update Status"](2610.md): System Application
+- [Table 2611 "Feature Dependency"](2611.md): System Application
+- [Table 2620 "Stat. Acc. Balance Buffer"](2620.md): StatisticalAccounts
+- [Table 2630 "Statistical Acc. Journal Batch"](2630.md): StatisticalAccounts
+- [Table 2631 "Statistical Acc. Journal Line"](2631.md): StatisticalAccounts
+- [Table 2632 "Statistical Account"](2632.md): StatisticalAccounts
+- [Table 2633 "Statistical Ledger Entry"](2633.md): StatisticalAccounts
+- [Table 2650 "Email Printer Settings"](2650.md): SendToEmailPrinter
+- [Table 2670 "Allocation Account"](2670.md): Base Application
+- [Table 2671 "Alloc. Account Distribution"](2671.md): Base Application
+- [Table 2672 "Allocation Line"](2672.md): Base Application
+- [Table 2673 "Alloc. Acc. Manual Override"](2673.md): Base Application
+- [Table 2680 "Data Search Result"](2680.md): DataSearch
+- [Table 2681 "Data Search Setup (Table)"](2681.md): DataSearch
+- [Table 2682 "Data Search Setup (Field)"](2682.md): DataSearch
+- [Table 2711 "Bank Acc. Rec. Match Buffer"](2711.md): Base Application
+- [Table 2718 "Page Summary Settings"](2718.md): System Application
+- [Table 2719 "Page Summary Parameters"](2719.md): System Application
+- [Table 2751 "Universal Printer Settings"](2751.md): MicrosoftUniversalPrint
+- [Table 2752 "Universal Print Share Buffer"](2752.md): MicrosoftUniversalPrint
+- [Table 2900 "Forecast Item Variant Loc"](2900.md): Base Application
+- [Table 3303 "Payables Agent Setup"](3303.md): PayablesAgent
+- [Table 3304 "Payables Agent KPI"](3304.md): PayablesAgent
+- [Table 3305 "PA Demo File"](3305.md): PayablesAgent, obsolete 28.0
+- [Table 3306 "PA Billing Log"](3306.md): PayablesAgent, obsolete 28.0
+- [Table 3307 "PA Billing Task Setup"](3307.md): PayablesAgent, obsolete 28.0
+- [Table 3308 "PA Known Sender"](3308.md): PayablesAgent
+- [Table 3320 "PA Email Cleanup Setup"](3320.md): PayablesAgent
+- [Table 3321 "PA Email Duplicate Buffer"](3321.md): PayablesAgent
+- [Table 3563 "Allowed Language"](3563.md): System Application
+- [Table 3703 "Environment Information"](3703.md): System Application
+- [Table 3712 "Translation"](3712.md): System Application
+- [Table 3713 "Translation Buffer"](3713.md): System Application
+- [Table 3900 "Retention Period"](3900.md): System Application
+- [Table 3901 "Retention Policy Setup"](3901.md): System Application
+- [Table 3902 "Retention Policy Setup Line"](3902.md): System Application
+- [Table 3903 "Retention Policy Allowed Table"](3903.md): System Application
+- [Table 3905 "Retention Policy Log Entry"](3905.md): System Application
+- [Table 3906 "Reten. Pol. Filtering Param"](3906.md): System Application
+- [Table 3907 "Reten. Pol. Deleting Param"](3907.md): System Application
+- [Table 3963 "Captures"](3963.md): System Application
+- [Table 3964 "Groups"](3964.md): System Application
+- [Table 3965 "Matches"](3965.md): System Application
+- [Table 3966 "Regex Options"](3966.md): System Application
+- [Table 4000 "Hybrid Product Type"](4000.md): HybridBaseDeployment
+- [Table 4001 "Hybrid Replication Summary"](4001.md): HybridBaseDeployment
+- [Table 4002 "Hybrid Replication Detail"](4002.md): HybridBaseDeployment
+- [Table 4003 "Intelligent Cloud Setup"](4003.md): HybridBaseDeployment
+- [Table 4005 "Hybrid Company"](4005.md): HybridBaseDeployment
+- [Table 4007 "User Mapping Source"](4007.md): HybridBaseDeployment
+- [Table 4008 "Post Migration Checklist"](4008.md): HybridBaseDeployment
+- [Table 4009 "Migration Table Mapping"](4009.md): HybridBaseDeployment
+- [Table 4015 "GP Migration Errors"](4015.md): HybridGP
+- [Table 4016 "GP Item Location"](4016.md): HybridGP
+- [Table 4018 "Source Table Mapping"](4018.md): HybridBCLast
+- [Table 4019 "Intelligent Cloud Not Migrated"](4019.md): HybridBaseDeployment
+- [Table 4020 "Hybrid BC Last Setup"](4020.md): HybridBCLast
+- [Table 4022 "User Mapping Work"](4022.md): HybridBaseDeployment
+- [Table 4024 "GP Configuration"](4024.md): HybridGP
+- [Table 4025 "GP Codes"](4025.md): HybridGP
+- [Table 4026 "GP Payment Terms"](4026.md): HybridGP
+- [Table 4027 "GP Posting Accounts"](4027.md): HybridGP
+- [Table 4028 "GP Segments"](4028.md): HybridGP
+- [Table 4035 "GPIVBinQtyTransferHist"](4035.md): HybridGP
+- [Table 4036 "GPIVDistributionHist"](4036.md): HybridGP
+- [Table 4037 "Stg Incoming Document"](4037.md): HybridBCLast, obsolete 27.0
+- [Table 4038 "GPIVSerialLotNumberHist"](4038.md): HybridGP
+- [Table 4039 "GPIVTrxAmountsHist"](4039.md): HybridGP
+- [Table 4040 "GP Segment Name"](4040.md): HybridGP
+- [Table 4044 "GP Company Migration Settings"](4044.md): HybridGP
+- [Table 4048 "GP Customer Address"](4048.md): HybridGP
+- [Table 4049 "GP Vendor Address"](4049.md): HybridGP
+- [Table 4050 "GPIVTrxBinQtyHist"](4050.md): HybridGP
+- [Table 4051 "GPIVTrxDetailHist"](4051.md): HybridGP
+- [Table 4052 "GPIVTrxHist"](4052.md): HybridGP
+- [Table 4053 "GPPMHist"](4053.md): HybridGP
+- [Table 4054 "GPPOPBinQtyHist"](4054.md): HybridGP
+- [Table 4055 "GPPOPDistributionHist"](4055.md): HybridGP
+- [Table 4056 "GPPOPLandedCostHist"](4056.md): HybridGP
+- [Table 4057 "GPPOPPOHist"](4057.md): HybridGP
+- [Table 4058 "GPPOPPOLineHist"](4058.md): HybridGP
+- [Table 4059 "GPPOPPOTaxHist"](4059.md): HybridGP
+- [Table 4060 "GPPOPReceiptApply"](4060.md): HybridGP
+- [Table 4061 "GPPOPReceiptHist"](4061.md): HybridGP
+- [Table 4062 "GPPOPReceiptLineHist"](4062.md): HybridGP
+- [Table 4063 "GPPOPSerialLotHist"](4063.md): HybridGP
+- [Table 4064 "GPPOPTaxHist"](4064.md): HybridGP
+- [Table 4065 "GPRMHist"](4065.md): HybridGP
+- [Table 4066 "GPRMOpen"](4066.md): HybridGP
+- [Table 4067 "GPSOPBinQuantityWorkHist"](4067.md): HybridGP
+- [Table 4068 "GPSOPCommissionsWorkHist"](4068.md): HybridGP
+- [Table 4069 "GPSOPDepositHist"](4069.md): HybridGP
+- [Table 4070 "GPSOPDistributionWorkHist"](4070.md): HybridGP
+- [Table 4071 "GPSOPLineCommentWorkHist"](4071.md): HybridGP
+- [Table 4072 "GPSOPPaymentWorkHist"](4072.md): HybridGP
+- [Table 4073 "GPSOPProcessHoldWorkHist"](4073.md): HybridGP
+- [Table 4074 "GPSOPSerialLotWorkHist"](4074.md): HybridGP
+- [Table 4075 "GPSOPTaxesWorkHist"](4075.md): HybridGP
+- [Table 4076 "GPSOPTrackingNumbersWorkHist"](4076.md): HybridGP
+- [Table 4077 "GPSOPTrxAmountsHist"](4077.md): HybridGP
+- [Table 4078 "GPSOPTrxHist"](4078.md): HybridGP
+- [Table 4079 "GPSOPUserDefinedWorkHist"](4079.md): HybridGP
+- [Table 4080 "GPSOPWorkflowWorkHist"](4080.md): HybridGP
+- [Table 4081 "GPIVLotAttributeHist"](4081.md): HybridGP
+- [Table 4090 "GP Account"](4090.md): HybridGP
+- [Table 4091 "GP GLTransactions"](4091.md): HybridGP
+- [Table 4092 "GP Fiscal Periods"](4092.md): HybridGP
+- [Table 4093 "GP Customer"](4093.md): HybridGP
+- [Table 4094 "GP Customer Transactions"](4094.md): HybridGP
+- [Table 4095 "GP Item"](4095.md): HybridGP
+- [Table 4096 "GP Vendor"](4096.md): HybridGP
+- [Table 4097 "GP Vendor Transactions"](4097.md): HybridGP
+- [Table 4104 "GP Item Transactions"](4104.md): HybridGP
+- [Table 4150 "Temp Blob"](4150.md): System Application
+- [Table 4151 "Persistent Blob"](4151.md): System Application
+- [Table 4300 "Agent JSON Buffer"](4300.md): System Application
+- [Table 4310 "Agent Setup Buffer"](4310.md): System Application
+- [Table 4325 "SOA Setup"](4325.md): SalesOrderAgent
+- [Table 4331 "Agent Creation Control Lookup"](4331.md): System Application
+- [Table 4350 "Custom Agent Setup"](4350.md): AgentDesignExperience
+- [Table 4351 "Custom Agents Sample Buffer"](4351.md): AgentDesignExperience
+- [Table 4352 "Custom Agent Instructions Log"](4352.md): AgentDesignExperience
+- [Table 4353 "Agent Import Buffer"](4353.md): AgentDesignExperience
+- [Table 4354 "Agent Import Diagnostic"](4354.md): AgentDesignExperience
+- [Table 4355 "Custom Agent Info"](4355.md): AgentDesignExperience
+- [Table 4356 "Agent Message Template"](4356.md): AgentDesignExperience
+- [Table 4357 "Agent Task Template"](4357.md): AgentDesignExperience
+- [Table 4358 "Agent Task Template Buffer"](4358.md): AgentDesignExperience
+- [Table 4359 "Custom Agents Wizard Setup"](4359.md): AgentDesignExperience
+- [Table 4401 "EXR Aging Report Buffer"](4401.md): ExcelReports
+- [Table 4402 "EXR Trial Balance Buffer"](4402.md): ExcelReports
+- [Table 4404 "EXR Top Vendor Report Buffer"](4404.md): ExcelReports
+- [Table 4405 "EXR Top Customer Report Buffer"](4405.md): ExcelReports
+- [Table 4508 "Email - Outlook Account"](4508.md): Email - Outlook REST API
+- [Table 4509 "Email - Outlook API Setup"](4509.md): Email - Outlook REST API
+- [Table 4511 "SMTP Account"](4511.md): Email - SMTP Connector
+- [Table 4560 "Ext. Blob Storage Account"](4560.md): External File Storage - Azure Blob Service Connector
+- [Table 4570 "Ext. File Share Account"](4570.md): External File Storage - Azure File Service Connector
+- [Table 4580 "Ext. SharePoint Account"](4580.md): External File Storage - SharePoint Connector
+- [Table 4585 "SOA Email"](4585.md): SalesOrderAgent
+- [Table 4586 "SOA Billing Log"](4586.md): SalesOrderAgent, obsolete 28.0
+- [Table 4587 "SOA Billing Task Setup"](4587.md): SalesOrderAgent, obsolete 28.0
+- [Table 4588 "SOA Task Contact Override"](4588.md): SalesOrderAgent
+- [Table 4589 "SOA Reply Attempt"](4589.md): SalesOrderAgent
+- [Table 4592 "SOA KPI Entry"](4592.md): SalesOrderAgent
+- [Table 4593 "SOA KPI"](4593.md): SalesOrderAgent, obsolete 29.0
+- [Table 4594 "SOA Task"](4594.md): SalesOrderAgent
+- [Table 4596 "SOA KPI Summary"](4596.md): SalesOrderAgent
+- [Table 4621 "Ext. SFTP Account"](4621.md): External File Storage - SFTP Connector
+- [Table 4690 "Recurrence Schedule"](4690.md): System Application
+- [Table 4700 "VAT Group Approved Member"](4700.md): VATGroupManagement
+- [Table 4701 "VAT Group Calculation"](4701.md): VATGroupManagement
+- [Table 4702 "VAT Group Submission Header"](4702.md): VATGroupManagement
+- [Table 4703 "VAT Group Submission Line"](4703.md): VATGroupManagement
+- [Table 4750 "Recommended Apps"](4750.md): RecommendedApps
+- [Table 4760 "Manufacturing Demo Data Setup"](4760.md): ContosoCoffeeDemoDataset, obsolete 26.0
+- [Table 4761 "Manufacturing Demo Account"](4761.md): ContosoCoffeeDemoDataset, obsolete 26.0
+- [Table 4762 "Whse. Demo Account"](4762.md): ContosoCoffeeDemoDataset, obsolete 26.0
+- [Table 4763 "Whse Demo Data Setup"](4763.md): ContosoCoffeeDemoDataset, obsolete 26.0
+- [Table 4764 "Warehouse Module Setup"](4764.md): ContosoCoffeeDemoDataset
+- [Table 4765 "Service Module Setup"](4765.md): ContosoCoffeeDemoDataset
+- [Table 4766 "Manufacturing Module Setup"](4766.md): ContosoCoffeeDemoDataset
+- [Table 4767 "FA Module Setup"](4767.md): ContosoCoffeeDemoDataset
+- [Table 4768 "Contoso Coffee Demo Data Setup"](4768.md): ContosoCoffeeDemoDataset
+- [Table 4769 "Contoso GL Account"](4769.md): ContosoCoffeeDemoDataset
+- [Table 4770 "Human Resources Module Setup"](4770.md): ContosoCoffeeDemoDataset
+- [Table 4771 "Jobs Module Setup"](4771.md): ContosoCoffeeDemoDataset
+- [Table 4772 "Finance Module Setup"](4772.md): ContosoCoffeeDemoDataset
+- [Table 4810 "Intrastat Report Setup"](4810.md): Intrastat
+- [Table 4811 "Intrastat Report Header"](4811.md): Intrastat
+- [Table 4812 "Intrastat Report Line"](4812.md): Intrastat
+- [Table 4813 "Intrastat Report Checklist"](4813.md): Intrastat
+- [Table 4850 "Automatic Account Header"](4850.md): AutomaticAccountCodes
+- [Table 4851 "Automatic Account Line"](4851.md): AutomaticAccountCodes
+- [Table 4857 "Auto. Acc. Page Setup"](4857.md): AutomaticAccountCodes, obsolete 25.0
+- [Table 5010 "Service Declaration Setup"](5010.md): ServiceDeclaration
+- [Table 5011 "Service Transaction Type"](5011.md): ServiceDeclaration
+- [Table 5023 "Service Declaration Header"](5023.md): ServiceDeclaration
+- [Table 5024 "Service Declaration Line"](5024.md): ServiceDeclaration
+- [Table 5025 "Service Declaration Buffer"](5025.md): ServiceDeclaration
+- [Table 5049 "Contact Information Buffer"](5049.md): Base Application
+- [Table 5050 "Contact"](5050.md): Base Application
+- [Table 5051 "Contact Alt. Address"](5051.md): Base Application
+- [Table 5052 "Contact Alt. Addr. Date Range"](5052.md): Base Application
+- [Table 5053 "Business Relation"](5053.md): Base Application
+- [Table 5054 "Contact Business Relation"](5054.md): Base Application
+- [Table 5055 "Mailing Group"](5055.md): Base Application
+- [Table 5056 "Contact Mailing Group"](5056.md): Base Application
+- [Table 5057 "Industry Group"](5057.md): Base Application
+- [Table 5058 "Contact Industry Group"](5058.md): Base Application
+- [Table 5059 "Web Source"](5059.md): Base Application
+- [Table 5060 "Contact Web Source"](5060.md): Base Application
+- [Table 5061 "Rlshp. Mgt. Comment Line"](5061.md): Base Application
+- [Table 5062 "Attachment"](5062.md): Base Application
+- [Table 5063 "Interaction Group"](5063.md): Base Application
+- [Table 5064 "Interaction Template"](5064.md): Base Application
+- [Table 5065 "Interaction Log Entry"](5065.md): Base Application
+- [Table 5066 "Job Responsibility"](5066.md): Base Application
+- [Table 5067 "Contact Job Responsibility"](5067.md): Base Application
+- [Table 5068 "Salutation"](5068.md): Base Application
+- [Table 5069 "Salutation Formula"](5069.md): Base Application
+- [Table 5070 "Organizational Level"](5070.md): Base Application
+- [Table 5071 "Campaign"](5071.md): Base Application
+- [Table 5072 "Campaign Entry"](5072.md): Base Application
+- [Table 5073 "Campaign Status"](5073.md): Base Application
+- [Table 5074 "Delivery Sorter"](5074.md): Base Application
+- [Table 5075 "Logged Segment"](5075.md): Base Application
+- [Table 5076 "Segment Header"](5076.md): Base Application
+- [Table 5077 "Segment Line"](5077.md): Base Application
+- [Table 5078 "Segment History"](5078.md): Base Application
+- [Table 5079 "Marketing Setup"](5079.md): Base Application
+- [Table 5080 "To-do"](5080.md): Base Application
+- [Table 5081 "Activity"](5081.md): Base Application
+- [Table 5082 "Activity Step"](5082.md): Base Application
+- [Table 5083 "Team"](5083.md): Base Application
+- [Table 5084 "Team Salesperson"](5084.md): Base Application
+- [Table 5085 "Contact Duplicate"](5085.md): Base Application
+- [Table 5086 "Cont. Duplicate Search String"](5086.md): Base Application
+- [Table 5087 "Profile Questionnaire Header"](5087.md): Base Application
+- [Table 5088 "Profile Questionnaire Line"](5088.md): Base Application
+- [Table 5089 "Contact Profile Answer"](5089.md): Base Application
+- [Table 5090 "Sales Cycle"](5090.md): Base Application
+- [Table 5091 "Sales Cycle Stage"](5091.md): Base Application
+- [Table 5092 "Opportunity"](5092.md): Base Application
+- [Table 5093 "Opportunity Entry"](5093.md): Base Application
+- [Table 5094 "Close Opportunity Code"](5094.md): Base Application
+- [Table 5095 "Duplicate Search String Setup"](5095.md): Base Application
+- [Table 5096 "Segment Wizard Filter"](5096.md): Base Application
+- [Table 5097 "Segment Criteria Line"](5097.md): Base Application
+- [Table 5098 "Saved Segment Criteria"](5098.md): Base Application
+- [Table 5099 "Saved Segment Criteria Line"](5099.md): Base Application
+- [Table 5100 "Communication Method"](5100.md): Base Application
+- [Table 5101 "Contact Value"](5101.md): Base Application
+- [Table 5102 "RM Matrix Management"](5102.md): Base Application
+- [Table 5103 "Interaction Tmpl. Language"](5103.md): Base Application
+- [Table 5104 "Segment Interaction Language"](5104.md): Base Application
+- [Table 5106 "Interaction Merge Data"](5106.md): Base Application
+- [Table 5107 "Sales Header Archive"](5107.md): Base Application
+- [Table 5108 "Sales Line Archive"](5108.md): Base Application
+- [Table 5109 "Purchase Header Archive"](5109.md): Base Application
+- [Table 5110 "Purchase Line Archive"](5110.md): Base Application
+- [Table 5111 "Rating"](5111.md): Base Application
+- [Table 5113 "Contact Dupl. Details Buffer"](5113.md): Base Application
+- [Table 5122 "Interaction Template Setup"](5122.md): Base Application
+- [Table 5123 "Inter. Log Entry Comment Line"](5123.md): Base Application
+- [Table 5124 "Current Salesperson"](5124.md): Base Application
+- [Table 5125 "Purch. Comment Line Archive"](5125.md): Base Application
+- [Table 5126 "Sales Comment Line Archive"](5126.md): Base Application
+- [Table 5127 "Deferral Header Archive"](5127.md): Base Application
+- [Table 5128 "Deferral Line Archive"](5128.md): Base Application
+- [Table 5135 "Job Archive"](5135.md): Base Application
+- [Table 5136 "Job Task Archive"](5136.md): Base Application
+- [Table 5137 "Job Planning Line Archive"](5137.md): Base Application
+- [Table 5138 "Comment Line Archive"](5138.md): Base Application
+- [Table 5140 "Job Assigned Resource Archive"](5140.md): Base Application
+- [Table 5161 "Contoso Demo Data Module"](5161.md): ContosoCoffeeDemoDataset
+- [Table 5169 "Contoso Module Dependency"](5169.md): ContosoCoffeeDemoDataset
+- [Table 5196 "To-do Interaction Language"](5196.md): Base Application
+- [Table 5199 "Attendee"](5199.md): Base Application
+- [Table 5200 "Employee"](5200.md): Base Application
+- [Table 5201 "Alternative Address"](5201.md): Base Application
+- [Table 5202 "Qualification"](5202.md): Base Application
+- [Table 5203 "Employee Qualification"](5203.md): Base Application
+- [Table 5204 "Relative"](5204.md): Base Application
+- [Table 5205 "Employee Relative"](5205.md): Base Application
+- [Table 5206 "Cause of Absence"](5206.md): Base Application
+- [Table 5207 "Employee Absence"](5207.md): Base Application
+- [Table 5208 "Human Resource Comment Line"](5208.md): Base Application
+- [Table 5209 "Union"](5209.md): Base Application
+- [Table 5210 "Cause of Inactivity"](5210.md): Base Application
+- [Table 5211 "Employment Contract"](5211.md): Base Application
+- [Table 5212 "Employee Statistics Group"](5212.md): Base Application
+- [Table 5213 "Misc. Article"](5213.md): Base Application
+- [Table 5214 "Misc. Article Information"](5214.md): Base Application
+- [Table 5215 "Confidential"](5215.md): Base Application
+- [Table 5216 "Confidential Information"](5216.md): Base Application
+- [Table 5217 "Grounds for Termination"](5217.md): Base Application
+- [Table 5218 "Human Resources Setup"](5218.md): Base Application
+- [Table 5219 "HR Confidential Comment Line"](5219.md): Base Application
+- [Table 5220 "Human Resource Unit of Measure"](5220.md): Base Application
+- [Table 5221 "Employee Posting Group"](5221.md): Base Application
+- [Table 5222 "Employee Ledger Entry"](5222.md): Base Application
+- [Table 5223 "Detailed Employee Ledger Entry"](5223.md): Base Application
+- [Table 5224 "Payable Employee Ledger Entry"](5224.md): Base Application
+- [Table 5225 "Employee Payment Buffer"](5225.md): Base Application
+- [Table 5226 "Nationality"](5226.md): Base Application
+- [Table 5260 "G/L Account Mapping Header"](5260.md): AuditFileExport
+- [Table 5261 "G/L Account Mapping Line"](5261.md): AuditFileExport
+- [Table 5262 "Standard Account Category"](5262.md): AuditFileExport
+- [Table 5263 "Standard Account"](5263.md): AuditFileExport
+- [Table 5264 "Audit File Export Setup"](5264.md): AuditFileExport
+- [Table 5265 "Audit File Export Header"](5265.md): AuditFileExport
+- [Table 5266 "Audit File Export Line"](5266.md): AuditFileExport
+- [Table 5267 "Audit File"](5267.md): AuditFileExport
+- [Table 5268 "Audit File Export Format Setup"](5268.md): AuditFileExport
+- [Table 5269 "Audit Export Data Type Setup"](5269.md): AuditFileExport
+- [Table 5280 "Missing Field SAF-T"](5280.md): SAF-T
+- [Table 5281 "Source Code SAF-T"](5281.md): SAF-T
+- [Table 5296 "EService Demo Data Setup"](5296.md): ContosoCoffeeDemoDataset
+- [Table 5310 "Item Statistics Cache"](5310.md): Base Application
+- [Table 5320 "Exchange Folder"](5320.md): Base Application
+- [Table 5324 "Exchange Service Setup"](5324.md): Base Application
+- [Table 5325 "Table Config Template"](5325.md): Base Application
+- [Table 5326 "Int. Table Config Template"](5326.md): Base Application
+- [Table 5327 "Coupling Fields Buffer"](5327.md): Base Application
+- [Table 5328 "CRM Synch Status"](5328.md): Base Application
+- [Table 5329 "CRM Redirect"](5329.md): Base Application
+- [Table 5330 "CRM Connection Setup"](5330.md): Base Application
+- [Table 5331 "CRM Integration Record"](5331.md): Base Application
+- [Table 5332 "Coupling Record Buffer"](5332.md): Base Application
+- [Table 5333 "Coupling Field Buffer"](5333.md): Base Application, obsolete 25.0
+- [Table 5334 "CRM Option Mapping"](5334.md): Base Application
+- [Table 5335 "Integration Table Mapping"](5335.md): Base Application
+- [Table 5336 "Integration Field Mapping"](5336.md): Base Application
+- [Table 5337 "Temp Integration Field Mapping"](5337.md): Base Application
+- [Table 5338 "Integration Synch. Job"](5338.md): Base Application
+- [Table 5339 "Integration Synch. Job Errors"](5339.md): Base Application
+- [Table 5340 "CRM Systemuser"](5340.md): Base Application
+- [Table 5341 "CRM Account"](5341.md): Base Application
+- [Table 5342 "CRM Contact"](5342.md): Base Application
+- [Table 5343 "CRM Opportunity"](5343.md): Base Application
+- [Table 5344 "CRM Post"](5344.md): Base Application
+- [Table 5345 "CRM Transactioncurrency"](5345.md): Base Application
+- [Table 5346 "CRM Pricelevel"](5346.md): Base Application
+- [Table 5347 "CRM Productpricelevel"](5347.md): Base Application
+- [Table 5348 "CRM Product"](5348.md): Base Application
+- [Table 5349 "CRM Incident"](5349.md): Base Application
+- [Table 5350 "CRM Incidentresolution"](5350.md): Base Application
+- [Table 5351 "CRM Quote"](5351.md): Base Application
+- [Table 5352 "CRM Quotedetail"](5352.md): Base Application
+- [Table 5353 "CRM Salesorder"](5353.md): Base Application
+- [Table 5354 "CRM Salesorderdetail"](5354.md): Base Application
+- [Table 5355 "CRM Invoice"](5355.md): Base Application
+- [Table 5356 "CRM Invoicedetail"](5356.md): Base Application
+- [Table 5357 "CRM Contract"](5357.md): Base Application
+- [Table 5358 "CDS Failed Option Mapping"](5358.md): Base Application, obsolete 25.0
+- [Table 5359 "CRM Team"](5359.md): Base Application
+- [Table 5360 "CRM Customeraddress"](5360.md): Base Application
+- [Table 5361 "CRM Uom"](5361.md): Base Application
+- [Table 5362 "CRM Uomschedule"](5362.md): Base Application
+- [Table 5363 "CRM Organization"](5363.md): Base Application
+- [Table 5364 "CRM Businessunit"](5364.md): Base Application
+- [Table 5365 "CRM Discount"](5365.md): Base Application
+- [Table 5366 "CRM Discounttype"](5366.md): Base Application
+- [Table 5367 "CRM Account Statistics"](5367.md): Base Application
+- [Table 5368 "CRM NAV Connection"](5368.md): Base Application
+- [Table 5369 "CRM Appmodule"](5369.md): Base Application
+- [Table 5370 "CRM Synch. Job Status Cue"](5370.md): Base Application
+- [Table 5371 "CDS Available Virtual Table"](5371.md): Base Application
+- [Table 5372 "CDS Av. Virtual Table Buffer"](5372.md): Base Application
+- [Table 5373 "CRM Full Synch. Review Line"](5373.md): Base Application
+- [Table 5374 "CRM Synch. Conflict Buffer"](5374.md): Base Application
+- [Table 5376 "CDS BC Table Relation"](5376.md): Base Application
+- [Table 5378 "Synth. Relation Mapping Buffer"](5378.md): Base Application
+- [Table 5380 "Man. Integration Table Mapping"](5380.md): Base Application
+- [Table 5381 "Man. Integration Field Mapping"](5381.md): Base Application, obsolete 27.0
+- [Table 5383 "Integration Field"](5383.md): Base Application
+- [Table 5384 "Man. Int. Field Mapping"](5384.md): Base Application
+- [Table 5385 "CRM Annotation"](5385.md): Base Application
+- [Table 5387 "CRM Post Buffer"](5387.md): Base Application
+- [Table 5388 "CRM Post Configuration"](5388.md): Base Application
+- [Table 5389 "CRM Role"](5389.md): Base Application
+- [Table 5390 "CRM Systemuserroles"](5390.md): Base Application
+- [Table 5391 "CRM Annotation Buffer"](5391.md): Base Application
+- [Table 5392 "CRM Annotation Coupling"](5392.md): Base Application
+- [Table 5393 "CDS Company"](5393.md): Base Application
+- [Table 5394 "CDS Solution"](5394.md): Base Application
+- [Table 5395 "Dataverse Entity Change"](5395.md): Base Application
+- [Table 5396 "CDS Teamroles"](5396.md): Base Application
+- [Table 5397 "CDS Teammembership"](5397.md): Base Application
+- [Table 5398 "CDS Field Security Profile"](5398.md): Base Application
+- [Table 5399 "CDS System User Profiles"](5399.md): Base Application
+- [Table 5400 "Unit Group"](5400.md): Base Application
+- [Table 5401 "Item Variant"](5401.md): Base Application
+- [Table 5402 "Unit of Measure Translation"](5402.md): Base Application
+- [Table 5404 "Item Unit of Measure"](5404.md): Base Application
+- [Table 5405 "Production Order"](5405.md): Base Application
+- [Table 5406 "Prod. Order Line"](5406.md): Base Application
+- [Table 5407 "Prod. Order Component"](5407.md): Base Application
+- [Table 5408 "Prod. Ord. Line Tracking Buff."](5408.md): Base Application
+- [Table 5409 "Prod. Order Routing Line"](5409.md): Base Application
+- [Table 5410 "Prod. Order Capacity Need"](5410.md): Base Application
+- [Table 5411 "Prod. Order Routing Tool"](5411.md): Base Application
+- [Table 5412 "Prod. Order Routing Personnel"](5412.md): Base Application
+- [Table 5413 "Prod. Order Rtng Qlty Meas."](5413.md): Base Application
+- [Table 5414 "Prod. Order Comment Line"](5414.md): Base Application
+- [Table 5415 "Prod. Order Rtng Comment Line"](5415.md): Base Application
+- [Table 5416 "Prod. Order Comp. Cmt Line"](5416.md): Base Application
+- [Table 5430 "Planning Error Log"](5430.md): Base Application
+- [Table 5433 "Tenant Config. Package File"](5433.md): Base Application
+- [Table 5440 "Supply What-If Scenario"](5440.md): Base Application
+- [Table 5441 "What-If Impact"](5441.md): Base Application
+- [Table 5447 "API Extension Upload"](5447.md): Base Application
+- [Table 5466 "API Entities Setup"](5466.md): Base Application
+- [Table 5468 "Picture Entity"](5468.md): Base Application
+- [Table 5475 "Sales Invoice Entity Aggregate"](5475.md): Base Application
+- [Table 5476 "Sales Invoice Line Aggregate"](5476.md): Base Application
+- [Table 5477 "Purch. Inv. Entity Aggregate"](5477.md): Base Application
+- [Table 5478 "Purch. Inv. Line Aggregate"](5478.md): Base Application
+- [Table 5480 "Tax Group Buffer"](5480.md): Base Application
+- [Table 5487 "Balance Sheet Buffer"](5487.md): Base Application
+- [Table 5488 "Trial Balance Entity Buffer"](5488.md): Base Application
+- [Table 5489 "Dimension Set Entry Buffer"](5489.md): Base Application
+- [Table 5490 "Onboarding Signal"](5490.md): Base Application
+- [Table 5491 "Onboarding Signal Buffer"](5491.md): Base Application
+- [Table 5495 "Sales Order Entity Buffer"](5495.md): Base Application
+- [Table 5496 "Purchase Order Entity Buffer"](5496.md): Base Application
+- [Table 5499 "Aged Report Entity"](5499.md): Base Application
+- [Table 5502 "Tax Rate Buffer"](5502.md): Base Application
+- [Table 5503 "Acc. Schedule Line Entity"](5503.md): Base Application
+- [Table 5504 "Tax Area Buffer"](5504.md): Base Application
+- [Table 5505 "Sales Quote Entity Buffer"](5505.md): Base Application
+- [Table 5507 "Sales Cr. Memo Entity Buffer"](5507.md): Base Application
+- [Table 5508 "Purch. Cr. Memo Entity Buffer"](5508.md): Base Application
+- [Table 5509 "Attachment Entity Buffer"](5509.md): Base Application
+- [Table 5510 "Employee Time Reg Buffer"](5510.md): Base Application
+- [Table 5520 "Unplanned Demand"](5520.md): Base Application
+- [Table 5525 "Manufacturing User Template"](5525.md): Base Application
+- [Table 5530 "Inventory Event Buffer"](5530.md): Base Application
+- [Table 5531 "Inventory Page Data"](5531.md): Base Application
+- [Table 5540 "Timeline Event"](5540.md): Base Application
+- [Table 5541 "Timeline Event Change"](5541.md): Base Application
+- [Table 5555 "Permission Conflicts Overview"](5555.md): Base Application
+- [Table 5557 "Permission Conflicts"](5557.md): Base Application
+- [Table 5579 "Digital Voucher Entry Setup"](5579.md): EnforcedDigitalVouchers
+- [Table 5580 "Voucher Entry Source Code"](5580.md): EnforcedDigitalVouchers
+- [Table 5581 "Digital Voucher Setup"](5581.md): EnforcedDigitalVouchers
+- [Table 5600 "Fixed Asset"](5600.md): Base Application
+- [Table 5601 "FA Ledger Entry"](5601.md): Base Application
+- [Table 5603 "FA Setup"](5603.md): Base Application
+- [Table 5604 "FA Posting Type Setup"](5604.md): Base Application
+- [Table 5605 "FA Journal Setup"](5605.md): Base Application
+- [Table 5606 "FA Posting Group"](5606.md): Base Application
+- [Table 5607 "FA Class"](5607.md): Base Application
+- [Table 5608 "FA Subclass"](5608.md): Base Application
+- [Table 5609 "FA Location"](5609.md): Base Application
+- [Table 5610 "Adv. Bonus Depreciation Setup"](5610.md): Base Application
+- [Table 5611 "Depreciation Book"](5611.md): Base Application
+- [Table 5612 "FA Depreciation Book"](5612.md): Base Application
+- [Table 5615 "FA Allocation"](5615.md): Base Application
+- [Table 5616 "Maintenance Registration"](5616.md): Base Application
+- [Table 5617 "FA Register"](5617.md): Base Application
+- [Table 5619 "FA Journal Template"](5619.md): Base Application
+- [Table 5620 "FA Journal Batch"](5620.md): Base Application
+- [Table 5621 "FA Journal Line"](5621.md): Base Application
+- [Table 5622 "FA Reclass. Journal Template"](5622.md): Base Application
+- [Table 5623 "FA Reclass. Journal Batch"](5623.md): Base Application
+- [Table 5624 "FA Reclass. Journal Line"](5624.md): Base Application
+- [Table 5625 "Maintenance Ledger Entry"](5625.md): Base Application
+- [Table 5626 "Maintenance"](5626.md): Base Application
+- [Table 5628 "Insurance"](5628.md): Base Application
+- [Table 5629 "Ins. Coverage Ledger Entry"](5629.md): Base Application
+- [Table 5630 "Insurance Type"](5630.md): Base Application
+- [Table 5633 "Insurance Journal Template"](5633.md): Base Application
+- [Table 5634 "Insurance Journal Batch"](5634.md): Base Application
+- [Table 5635 "Insurance Journal Line"](5635.md): Base Application
+- [Table 5636 "Insurance Register"](5636.md): Base Application
+- [Table 5637 "FA G/L Posting Buffer"](5637.md): Base Application
+- [Table 5640 "Main Asset Component"](5640.md): Base Application
+- [Table 5641 "FA Buffer Projection"](5641.md): Base Application
+- [Table 5642 "Depreciation Table Header"](5642.md): Base Application
+- [Table 5643 "Depreciation Table Line"](5643.md): Base Application
+- [Table 5644 "FA Posting Type"](5644.md): Base Application
+- [Table 5645 "FA Date Type"](5645.md): Base Application
+- [Table 5646 "Depreciation Table Buffer"](5646.md): Base Application
+- [Table 5647 "FA Matrix Posting Type"](5647.md): Base Application
+- [Table 5649 "FA Posting Group Buffer"](5649.md): Base Application
+- [Table 5650 "Total Value Insured"](5650.md): Base Application
+- [Table 5700 "Stockkeeping Unit"](5700.md): Base Application
+- [Table 5701 "Stockkeeping Unit Comment Line"](5701.md): Base Application
+- [Table 5712 "Copy Location Buffer"](5712.md): Base Application
+- [Table 5714 "Responsibility Center"](5714.md): Base Application
+- [Table 5715 "Item Substitution"](5715.md): Base Application
+- [Table 5716 "Substitution Condition"](5716.md): Base Application
+- [Table 5718 "Nonstock Item"](5718.md): Base Application
+- [Table 5719 "Nonstock Item Setup"](5719.md): Base Application
+- [Table 5720 "Manufacturer"](5720.md): Base Application
+- [Table 5721 "Purchasing"](5721.md): Base Application
+- [Table 5722 "Item Category"](5722.md): Base Application
+- [Table 5740 "Transfer Header"](5740.md): Base Application
+- [Table 5741 "Transfer Line"](5741.md): Base Application
+- [Table 5742 "Transfer Route"](5742.md): Base Application
+- [Table 5744 "Transfer Shipment Header"](5744.md): Base Application
+- [Table 5745 "Transfer Shipment Line"](5745.md): Base Application
+- [Table 5746 "Transfer Receipt Header"](5746.md): Base Application
+- [Table 5747 "Transfer Receipt Line"](5747.md): Base Application
+- [Table 5748 "Inventory Comment Line"](5748.md): Base Application
+- [Table 5763 "Whse. Post Parameters"](5763.md): Base Application
+- [Table 5765 "Warehouse Request"](5765.md): Base Application
+- [Table 5766 "Warehouse Activity Header"](5766.md): Base Application
+- [Table 5767 "Warehouse Activity Line"](5767.md): Base Application
+- [Table 5768 "Whse. Cross-Dock Opportunity"](5768.md): Base Application
+- [Table 5769 "Warehouse Setup"](5769.md): Base Application
+- [Table 5770 "Warehouse Comment Line"](5770.md): Base Application
+- [Table 5771 "Warehouse Source Filter"](5771.md): Base Application
+- [Table 5772 "Registered Whse. Activity Hdr."](5772.md): Base Application
+- [Table 5773 "Registered Whse. Activity Line"](5773.md): Base Application
+- [Table 5774 "Warehouse Pick Summary"](5774.md): Base Application
+- [Table 5777 "Item Reference"](5777.md): Base Application
+- [Table 5790 "Shipping Agent Services"](5790.md): Base Application
+- [Table 5800 "Item Charge"](5800.md): Base Application
+- [Table 5801 "Cost Adj. Item Bucket"](5801.md): Base Application
+- [Table 5802 "Value Entry"](5802.md): Base Application
+- [Table 5803 "Item Journal Buffer"](5803.md): Base Application
+- [Table 5804 "Avg. Cost Adjmt. Entry Point"](5804.md): Base Application
+- [Table 5805 "Item Charge Assignment (Purch)"](5805.md): Base Application
+- [Table 5806 "Cost Adjustment Log"](5806.md): Base Application
+- [Table 5807 "Cost Adjustment Detailed Log"](5807.md): Base Application
+- [Table 5808 "Cost Adjustment Parameter"](5808.md): Base Application
+- [Table 5809 "Item Charge Assignment (Sales)"](5809.md): Base Application
+- [Table 5810 "Rounding Residual Buffer"](5810.md): Base Application
+- [Table 5811 "Post Value Entry to G/L"](5811.md): Base Application
+- [Table 5812 "Item Application Trace"](5812.md): Base Application
+- [Table 5813 "Inventory Posting Setup"](5813.md): Base Application
+- [Table 5814 "Inventory Period"](5814.md): Base Application
+- [Table 5815 "Inventory Period Entry"](5815.md): Base Application
+- [Table 5816 "Cost Adjustment Trace Log"](5816.md): Base Application
+- [Table 5817 "Matched Order Line"](5817.md): Base Application
+- [Table 5818 "Detailed Matched Order Line"](5818.md): Base Application
+- [Table 5819 "Posted Matched Order Line"](5819.md): Base Application
+- [Table 5820 "Cost Element Buffer"](5820.md): Base Application
+- [Table 5821 "Item Statistics Buffer"](5821.md): Base Application
+- [Table 5822 "Invt. Post to G/L Test Buffer"](5822.md): Base Application
+- [Table 5823 "G/L - Item Ledger Relation"](5823.md): Base Application
+- [Table 5824 "Item ABC Buffer"](5824.md): Base Application
+- [Table 5825 "Undo Sales Shpt. Line Params"](5825.md): Base Application
+- [Table 5830 "Availability Calc. Overview"](5830.md): Base Application
+- [Table 5832 "Capacity Ledger Entry"](5832.md): Base Application
+- [Table 5834 "Marketing Text Attributes"](5834.md): Base Application
+- [Table 5835 "Marketing Text Suggestion"](5835.md): Base Application
+- [Table 5840 "Standard Cost Worksheet Name"](5840.md): Base Application
+- [Table 5841 "Standard Cost Worksheet"](5841.md): Base Application
+- [Table 5842 "Cost Adjmt. Action Message"](5842.md): Base Application
+- [Table 5845 "Inventory Report Header"](5845.md): Base Application
+- [Table 5846 "Inventory Report Entry"](5846.md): Base Application
+- [Table 5847 "Average Cost Calc. Overview"](5847.md): Base Application
+- [Table 5848 "Cost Share Buffer"](5848.md): Base Application
+- [Table 5850 "Invt. Document Header"](5850.md): Base Application
+- [Table 5851 "Invt. Document Line"](5851.md): Base Application
+- [Table 5852 "Invt. Receipt Header"](5852.md): Base Application
+- [Table 5853 "Invt. Receipt Line"](5853.md): Base Application
+- [Table 5854 "Invt. Shipment Header"](5854.md): Base Application
+- [Table 5855 "Invt. Shipment Line"](5855.md): Base Application
+- [Table 5856 "Direct Trans. Header"](5856.md): Base Application
+- [Table 5857 "Direct Trans. Line"](5857.md): Base Application
+- [Table 5870 "BOM Buffer"](5870.md): Base Application
+- [Table 5871 "Memoized Result"](5871.md): Base Application
+- [Table 5872 "Item Availability by Date"](5872.md): Base Application
+- [Table 5873 "Compare Cost Shares Buffer"](5873.md): Base Application
+- [Table 5874 "BOM Warning Log"](5874.md): Base Application
+- [Table 5875 "Phys. Invt. Order Header"](5875.md): Base Application
+- [Table 5876 "Phys. Invt. Order Line"](5876.md): Base Application
+- [Table 5877 "Phys. Invt. Record Header"](5877.md): Base Application
+- [Table 5878 "Phys. Invt. Record Line"](5878.md): Base Application
+- [Table 5879 "Pstd. Phys. Invt. Order Hdr"](5879.md): Base Application
+- [Table 5880 "Pstd. Phys. Invt. Order Line"](5880.md): Base Application
+- [Table 5881 "Pstd. Phys. Invt. Record Hdr"](5881.md): Base Application
+- [Table 5882 "Pstd. Phys. Invt. Record Line"](5882.md): Base Application
+- [Table 5883 "Phys. Invt. Comment Line"](5883.md): Base Application
+- [Table 5884 "Pstd. Phys. Invt. Tracking"](5884.md): Base Application
+- [Table 5885 "Phys. Invt. Tracking"](5885.md): Base Application, obsolete 27.0
+- [Table 5886 "Exp. Phys. Invt. Tracking"](5886.md): Base Application, obsolete 27.0
+- [Table 5887 "Pstd. Exp. Phys. Invt. Track"](5887.md): Base Application, obsolete 27.0
+- [Table 5888 "Phys. Invt. Count Buffer"](5888.md): Base Application
+- [Table 5890 "Error Buffer"](5890.md): Base Application
+- [Table 5895 "Inventory Adjustment Buffer"](5895.md): Base Application
+- [Table 5896 "Inventory Adjmt. Entry (Order)"](5896.md): Base Application
+- [Table 5900 "Service Header"](5900.md): Base Application
+- [Table 5901 "Service Item Line"](5901.md): Base Application
+- [Table 5902 "Service Line"](5902.md): Base Application
+- [Table 5903 "Service Order Type"](5903.md): Base Application
+- [Table 5904 "Service Item Group"](5904.md): Base Application
+- [Table 5905 "Service Cost"](5905.md): Base Application
+- [Table 5906 "Service Comment Line"](5906.md): Base Application
+- [Table 5907 "Service Ledger Entry"](5907.md): Base Application
+- [Table 5908 "Warranty Ledger Entry"](5908.md): Base Application
+- [Table 5909 "Service Shipment Buffer"](5909.md): Base Application
+- [Table 5910 "Service Hour"](5910.md): Base Application
+- [Table 5911 "Service Mgt. Setup"](5911.md): Base Application
+- [Table 5912 "Service Document Log"](5912.md): Base Application
+- [Table 5913 "Loaner"](5913.md): Base Application
+- [Table 5914 "Loaner Entry"](5914.md): Base Application
+- [Table 5915 "Fault Area"](5915.md): Base Application
+- [Table 5916 "Symptom Code"](5916.md): Base Application
+- [Table 5917 "Fault Reason Code"](5917.md): Base Application
+- [Table 5918 "Fault Code"](5918.md): Base Application
+- [Table 5919 "Resolution Code"](5919.md): Base Application
+- [Table 5920 "Fault/Resol. Cod. Relationship"](5920.md): Base Application
+- [Table 5921 "Fault Area/Symptom Code"](5921.md): Base Application
+- [Table 5927 "Repair Status"](5927.md): Base Application
+- [Table 5928 "Service Status Priority Setup"](5928.md): Base Application
+- [Table 5929 "Service Shelf"](5929.md): Base Application
+- [Table 5933 "Service Order Posting Buffer"](5933.md): Base Application
+- [Table 5934 "Service Register"](5934.md): Base Application
+- [Table 5935 "Service Email Queue"](5935.md): Base Application
+- [Table 5936 "Service Document Register"](5936.md): Base Application
+- [Table 5940 "Service Item"](5940.md): Base Application
+- [Table 5941 "Service Item Component"](5941.md): Base Application
+- [Table 5942 "Service Item Log"](5942.md): Base Application
+- [Table 5943 "Troubleshooting Header"](5943.md): Base Application
+- [Table 5944 "Troubleshooting Line"](5944.md): Base Application
+- [Table 5945 "Troubleshooting Setup"](5945.md): Base Application
+- [Table 5950 "Service Order Allocation"](5950.md): Base Application
+- [Table 5952 "Resource Location"](5952.md): Base Application
+- [Table 5954 "Work-Hour Template"](5954.md): Base Application
+- [Table 5955 "Skill Code"](5955.md): Base Application
+- [Table 5956 "Resource Skill"](5956.md): Base Application
+- [Table 5957 "Service Zone"](5957.md): Base Application
+- [Table 5958 "Resource Service Zone"](5958.md): Base Application
+- [Table 5964 "Service Contract Line"](5964.md): Base Application
+- [Table 5965 "Service Contract Header"](5965.md): Base Application
+- [Table 5966 "Contract Group"](5966.md): Base Application
+- [Table 5967 "Contract Change Log"](5967.md): Base Application
+- [Table 5968 "Service Contract Template"](5968.md): Base Application
+- [Table 5969 "Contract Gain/Loss Entry"](5969.md): Base Application
+- [Table 5970 "Filed Service Contract Header"](5970.md): Base Application
+- [Table 5971 "Filed Contract Line"](5971.md): Base Application
+- [Table 5972 "Contract/Service Discount"](5972.md): Base Application
+- [Table 5973 "Service Contract Account Group"](5973.md): Base Application
+- [Table 5974 "Filed Serv. Contract Cmt. Line"](5974.md): Base Application
+- [Table 5975 "Filed Contract Service Hour"](5975.md): Base Application
+- [Table 5976 "Filed Contract/Serv. Discount"](5976.md): Base Application
+- [Table 5989 "Service Shipment Item Line"](5989.md): Base Application
+- [Table 5990 "Service Shipment Header"](5990.md): Base Application
+- [Table 5991 "Service Shipment Line"](5991.md): Base Application
+- [Table 5992 "Service Invoice Header"](5992.md): Base Application
+- [Table 5993 "Service Invoice Line"](5993.md): Base Application
+- [Table 5994 "Service Cr.Memo Header"](5994.md): Base Application
+- [Table 5995 "Service Cr.Memo Line"](5995.md): Base Application
+- [Table 5996 "Standard Service Code"](5996.md): Base Application
+- [Table 5997 "Standard Service Line"](5997.md): Base Application
+- [Table 5998 "Standard Service Item Gr. Code"](5998.md): Base Application
+- [Table 6010 "Service Header Archive"](6010.md): Base Application
+- [Table 6011 "Service Item Line Archive"](6011.md): Base Application
+- [Table 6012 "Service Line Archive"](6012.md): Base Application
+- [Table 6013 "Service Comment Line Archive"](6013.md): Base Application
+- [Table 6014 "Service Order Allocat. Archive"](6014.md): Base Application
+- [Table 6025 "Invt. Order Tracking"](6025.md): Base Application
+- [Table 6026 "Exp. Invt. Order Tracking"](6026.md): Base Application
+- [Table 6027 "Pstd.Exp.Invt.Order.Tracking"](6027.md): Base Application
+- [Table 6060 "Hybrid Deployment Setup"](6060.md): Base Application
+- [Table 6080 "Service Price Group"](6080.md): Base Application
+- [Table 6081 "Serv. Price Group Setup"](6081.md): Base Application
+- [Table 6082 "Service Price Adjustment Group"](6082.md): Base Application
+- [Table 6083 "Serv. Price Adjustment Detail"](6083.md): Base Application
+- [Table 6084 "Service Line Price Adjmt."](6084.md): Base Application
+- [Table 6090 "FA Ledg. Entry w. Issue"](6090.md): DataCorrectionFA
+- [Table 6100 "E-Document Purchase Header"](6100.md): EDocument
+- [Table 6101 "E-Document Purchase Line"](6101.md): EDocument
+- [Table 6102 "E-Document Header Mapping"](6102.md): EDocument
+- [Table 6103 "E-Document Service"](6103.md): EDocument
+- [Table 6104 "Service Participant"](6104.md): EDocument
+- [Table 6105 "E-Document Line Mapping"](6105.md): EDocument
+- [Table 6106 "E-Doc. Import Parameters"](6106.md): EDocument
+- [Table 6107 "E-Documents Setup"](6107.md): EDocument, obsolete 28.0
+- [Table 6108 "E-Doc. Vendor Assign. History"](6108.md): EDocument
+- [Table 6109 "EDoc. Purch. Line Field Setup"](6109.md): EDocument, obsolete 26.0
+- [Table 6110 "E-Document Line - Field"](6110.md): EDocument
+- [Table 6111 "EDoc Line Match Buffer"](6111.md): EDocument
+- [Table 6112 "ED Purchase Line Field Setup"](6112.md): EDocument
+- [Table 6113 "EDoc Historical Matching Setup"](6113.md): EDocument, obsolete 27.0
+- [Table 6114 "E-Doc. Purchase Line PO Match"](6114.md): EDocument
+- [Table 6115 "E-Doc PO Match Warning"](6115.md): EDocument
+- [Table 6116 "E-Doc. PO Matching Setup"](6116.md): EDocument
+- [Table 6117 "E-Doc. Finalized PO Match"](6117.md): EDocument
+- [Table 6118 "E-Doc. Mapping"](6118.md): EDocument
+- [Table 6120 "E-Doc Sample Purch. Inv File"](6120.md): EDocument
+- [Table 6121 "E-Document"](6121.md): EDocument
+- [Table 6122 "E-Doc. Service Supported Type"](6122.md): EDocument
+- [Table 6123 "E-Doc. Mapping Log"](6123.md): EDocument
+- [Table 6124 "E-Document Log"](6124.md): EDocument
+- [Table 6125 "E-Doc. Data Storage"](6125.md): EDocument
+- [Table 6126 "E-Document Notification"](6126.md): EDocument
+- [Table 6127 "E-Document Integration Log"](6127.md): EDocument
+- [Table 6129 "EDoc Historical Match Buffer"](6129.md): EDocument
+- [Table 6130 "E-Doc. File Content API Buffer"](6130.md): EDocument
+- [Table 6138 "E-Document Service Status"](6138.md): EDocument
+- [Table 6139 "E-Doc. Service Data Exch. Def."](6139.md): EDocument
+- [Table 6140 "E-Doc. Purchase Line History"](6140.md): EDocument
+- [Table 6141 "E-Doc. Record Link"](6141.md): EDocument
+- [Table 6153 "E-Document Sales Header"](6153.md): EDocument
+- [Table 6154 "E-Document Sales Line"](6154.md): EDocument
+- [Table 6163 "E-Doc. PO Match Prop. Buffer"](6163.md): EDocument, obsolete 29.0
+- [Table 6164 "E-Doc. Order Match"](6164.md): EDocument
+- [Table 6165 "E-Doc. Imported Line"](6165.md): EDocument
+- [Table 6166 "EDoc QR Buffer"](6166.md): EDocument
+- [Table 6201 "Transaction Storage Setup"](6201.md): TransactionStorage
+- [Table 6202 "Transact. Storage Task Entry"](6202.md): TransactionStorage
+- [Table 6203 "Transact. Storage Export State"](6203.md): TransactionStorage
+- [Table 6204 "Transact. Storage Table Entry"](6204.md): TransactionStorage
+- [Table 6205 "Trans. Storage Export Data"](6205.md): TransactionStorage
+- [Table 6206 "FS Resource Pay Type"](6206.md): Base Application, obsolete 28.0
+- [Table 6210 "Sustainability Account"](6210.md): Sustainability
+- [Table 6211 "Sustain. Account Category"](6211.md): Sustainability
+- [Table 6212 "Sustain. Account Subcategory"](6212.md): Sustainability
+- [Table 6213 "Sustainability Jnl. Batch"](6213.md): Sustainability
+- [Table 6214 "Sustainability Jnl. Line"](6214.md): Sustainability
+- [Table 6215 "Sustainability Jnl. Template"](6215.md): Sustainability
+- [Table 6216 "Sustainability Ledger Entry"](6216.md): Sustainability
+- [Table 6217 "Sustainability Setup"](6217.md): Sustainability
+- [Table 6218 "Sustainability Scorecard"](6218.md): Sustainability
+- [Table 6219 "Sustainability Goal"](6219.md): Sustainability
+- [Table 6220 "Sustainability Cue"](6220.md): Sustainability
+- [Table 6221 "Sustainability Goal Cue"](6221.md): Sustainability
+- [Table 6222 "Sustainability Certificate"](6222.md): Sustainability
+- [Table 6223 "Sust. Certificate Standard"](6223.md): Sustainability
+- [Table 6224 "Sust. Certificate Area"](6224.md): Sustainability
+- [Table 6225 "Sust. Account (Analysis View)"](6225.md): Sustainability
+- [Table 6226 "Emission Fee"](6226.md): Sustainability
+- [Table 6227 "Sustainability Value Entry"](6227.md): Sustainability
+- [Table 6228 "Sust. ESG Reporting Template"](6228.md): Sustainability
+- [Table 6229 "Sust. ESG Reporting Name"](6229.md): Sustainability
+- [Table 6230 "Sust. ESG Reporting Line"](6230.md): Sustainability
+- [Table 6231 "Sust. Posted ESG Report Header"](6231.md): Sustainability
+- [Table 6232 "Sust. Posted ESG Report Line"](6232.md): Sustainability
+- [Table 6233 "Sustainability Energy Source"](6233.md): Sustainability
+- [Table 6234 "Sustainability Carbon Pricing"](6234.md): Sustainability
+- [Table 6235 "Sustainability EPR Material"](6235.md): Sustainability
+- [Table 6236 "Sust. Item Mat. Comp. Header"](6236.md): Sustainability
+- [Table 6237 "Sust. Item Mat. Comp. Line"](6237.md): Sustainability
+- [Table 6238 "Sust. Excise Journal Template"](6238.md): Sustainability
+- [Table 6239 "Sust. Excise Journal Batch"](6239.md): Sustainability
+- [Table 6240 "Sust. Excise Jnl. Line"](6240.md): Sustainability
+- [Table 6241 "Sust. Excise Taxes Trans. Log"](6241.md): Sustainability
+- [Table 6242 "Sust. Assessment"](6242.md): Sustainability
+- [Table 6243 "Sust. Assessment Req. Fact"](6243.md): Sustainability
+- [Table 6244 "Sust. Assessment Requirement"](6244.md): Sustainability
+- [Table 6245 "Sust. Concept"](6245.md): Sustainability
+- [Table 6246 "Sust. ESG Fact"](6246.md): Sustainability
+- [Table 6247 "Sust. Range Period"](6247.md): Sustainability
+- [Table 6248 "Sust. Requirement Concept"](6248.md): Sustainability
+- [Table 6249 "Sust. Standard"](6249.md): Sustainability
+- [Table 6250 "Sust. Item Emission Buffer"](6250.md): Sustainability
+- [Table 6251 "Sust. Unit"](6251.md): Sustainability
+- [Table 6252 "Sust. ESG Reporting Unit"](6252.md): Sustainability
+- [Table 6253 "Sust. ESG Standard"](6253.md): Sustainability
+- [Table 6254 "Sust. Standard Requirement"](6254.md): Sustainability
+- [Table 6255 "Sust. ESG Range Period"](6255.md): Sustainability
+- [Table 6256 "Sust. ESG Standard Requirement"](6256.md): Sustainability
+- [Table 6257 "Sust. ESG Concept"](6257.md): Sustainability
+- [Table 6258 "Sust. ESG Requirement Concept"](6258.md): Sustainability
+- [Table 6259 "Sustainability Disclaimer"](6259.md): Sustainability
+- [Table 6260 "Sust. Jnl. Line G/L Entry"](6260.md): Sustainability
+- [Table 6261 "Sust. G/L - Sust. Ledger Rel."](6261.md): Sustainability
+- [Table 6290 "Sustain. Emission Suggestion"](6290.md): SustainabilityCopilotSuggestion
+- [Table 6291 "Emission Source Setup"](6291.md): SustainabilityCopilotSuggestion
+- [Table 6292 "Source CO2 Emission"](6292.md): SustainabilityCopilotSuggestion
+- [Table 6293 "Source CO2 Emission Buffer"](6293.md): SustainabilityCopilotSuggestion
+- [Table 6294 "Sust. Formula Buffer"](6294.md): SustainabilityCopilotSuggestion
+- [Table 6300 "Azure AD App Setup"](6300.md): Base Application
+- [Table 6301 "Power BI Report Configuration"](6301.md): Base Application, obsolete 26.0
+- [Table 6302 "Power BI Report Buffer"](6302.md): Base Application, obsolete 26.0
+- [Table 6303 "Azure AD Mgt. Setup"](6303.md): Base Application
+- [Table 6304 "Power BI User Configuration"](6304.md): Base Application, obsolete 26.0
+- [Table 6305 "Power BI Chart Buffer"](6305.md): Base Application
+- [Table 6306 "Power BI Report Labels"](6306.md): Base Application
+- [Table 6307 "Power BI Report Uploads"](6307.md): Base Application
+- [Table 6309 "Power BI Service Status Setup"](6309.md): Base Application, obsolete 25.0
+- [Table 6310 "Power BI Customer Reports"](6310.md): Base Application
+- [Table 6312 "Power BI Displayed Element"](6312.md): Base Application
+- [Table 6313 "Power BI Selection Element"](6313.md): Base Application
+- [Table 6314 "Power BI Context Settings"](6314.md): Base Application
+- [Table 6315 "Power BI Filter"](6315.md): Base Application
+- [Table 6316 "Power BI Deployment"](6316.md): Base Application
+- [Table 6317 "Power BI Deployment State"](6317.md): Base Application
+- [Table 6318 "Power BI Deployment Buffer"](6318.md): Base Application
+- [Table 6320 "Product Classification Code"](6320.md): Sustainability
+- [Table 6325 "Power BI User Status"](6325.md): Base Application, obsolete 26.0
+- [Table 6400 "FS Work Order"](6400.md): Base Application, obsolete 28.0
+- [Table 6402 "FS Work Order Product"](6402.md): Base Application, obsolete 28.0
+- [Table 6403 "FS Work Order Incident"](6403.md): Base Application, obsolete 28.0
+- [Table 6404 "FS Project Task"](6404.md): Base Application, obsolete 28.0
+- [Table 6406 "FS Work Order Service"](6406.md): Base Application, obsolete 28.0
+- [Table 6408 "FS Work Order Substatus"](6408.md): Base Application, obsolete 28.0
+- [Table 6409 "FS Work Order Type"](6409.md): Base Application, obsolete 28.0
+- [Table 6410 "FS Bookable Resource"](6410.md): Base Application, obsolete 28.0
+- [Table 6412 "FS Bookable Resource Booking"](6412.md): Base Application, obsolete 28.0
+- [Table 6413 "FS BookableResourceBookingHdr"](6413.md): Base Application, obsolete 28.0
+- [Table 6418 "FS Connection Setup"](6418.md): Base Application, obsolete 28.0
+- [Table 6420 "FS Customer Asset"](6420.md): Base Application, obsolete 28.0
+- [Table 6422 "FS Customer Asset Category"](6422.md): Base Application, obsolete 28.0
+- [Table 6432 "E-Document Message"](6432.md): EDocument
+- [Table 6433 "E-Doc. Payment Occurrence"](6433.md): EDocument
+- [Table 6434 "E-Doc. External Reference"](6434.md): EDocument
+- [Table 6502 "Item Tracking Code"](6502.md): Base Application
+- [Table 6504 "Serial No. Information"](6504.md): Base Application
+- [Table 6505 "Lot No. Information"](6505.md): Base Application
+- [Table 6506 "Item Tracking Comment"](6506.md): Base Application
+- [Table 6507 "Item Entry Relation"](6507.md): Base Application
+- [Table 6508 "Value Entry Relation"](6508.md): Base Application
+- [Table 6509 "Whse. Item Entry Relation"](6509.md): Base Application
+- [Table 6515 "Package No. Information"](6515.md): Base Application
+- [Table 6520 "Item Tracing Buffer"](6520.md): Base Application
+- [Table 6521 "Item Tracing History Buffer"](6521.md): Base Application
+- [Table 6529 "Record Buffer"](6529.md): Base Application
+- [Table 6550 "Whse. Item Tracking Line"](6550.md): Base Application
+- [Table 6565 "Item Tracking Setup"](6565.md): Base Application
+- [Table 6610 "FS Bookable Resource"](6610.md): FieldServiceIntegration
+- [Table 6611 "FS Bookable Resource Booking"](6611.md): FieldServiceIntegration
+- [Table 6612 "FS BookableResourceBookingHdr"](6612.md): FieldServiceIntegration
+- [Table 6613 "FS Customer Asset"](6613.md): FieldServiceIntegration
+- [Table 6614 "FS Customer Asset Category"](6614.md): FieldServiceIntegration
+- [Table 6615 "FS Project Task"](6615.md): FieldServiceIntegration
+- [Table 6616 "FS Resource Pay Type"](6616.md): FieldServiceIntegration
+- [Table 6617 "FS Work Order"](6617.md): FieldServiceIntegration
+- [Table 6618 "FS Work Order Incident"](6618.md): FieldServiceIntegration
+- [Table 6619 "FS Work Order Product"](6619.md): FieldServiceIntegration
+- [Table 6620 "FS Work Order Service"](6620.md): FieldServiceIntegration
+- [Table 6621 "FS Work Order Substatus"](6621.md): FieldServiceIntegration
+- [Table 6622 "FS Work Order Type"](6622.md): FieldServiceIntegration
+- [Table 6623 "FS Connection Setup"](6623.md): FieldServiceIntegration
+- [Table 6624 "FS Warehouse"](6624.md): FieldServiceIntegration
+- [Table 6625 "FS Incident Type"](6625.md): FieldServiceIntegration
+- [Table 6627 "FS Booking Status"](6627.md): FieldServiceIntegration
+- [Table 6635 "Return Reason"](6635.md): Business Foundation
+- [Table 6650 "Return Shipment Header"](6650.md): Base Application
+- [Table 6651 "Return Shipment Line"](6651.md): Base Application
+- [Table 6660 "Return Receipt Header"](6660.md): Base Application
+- [Table 6661 "Return Receipt Line"](6661.md): Base Application
+- [Table 6670 "Returns-Related Document"](6670.md): Base Application
+- [Table 6700 "Exchange Sync"](6700.md): Base Application
+- [Table 6701 "Exchange Contact"](6701.md): Base Application, obsolete 28.0
+- [Table 6702 "Booking Sync"](6702.md): Base Application
+- [Table 6703 "Booking Service"](6703.md): Base Application
+- [Table 6704 "Booking Mailbox"](6704.md): Base Application
+- [Table 6705 "Booking Staff"](6705.md): Base Application
+- [Table 6706 "Booking Service Mapping"](6706.md): Base Application
+- [Table 6707 "Booking Item"](6707.md): Base Application
+- [Table 6710 "Tenant Web Service OData"](6710.md): System Application
+- [Table 6711 "Tenant Web Service Columns"](6711.md): System Application
+- [Table 6712 "Tenant Web Service Filter"](6712.md): System Application
+- [Table 6721 "Booking Mgr. Setup"](6721.md): Base Application
+- [Table 6750 "Reminder Action"](6750.md): Base Application
+- [Table 6751 "Reminder Action Group"](6751.md): Base Application
+- [Table 6752 "Reminder Action Log"](6752.md): Base Application
+- [Table 6753 "Reminder Action Group Log"](6753.md): Base Application
+- [Table 6754 "Reminder Automation Error"](6754.md): Base Application
+- [Table 6755 "Send Reminders Setup"](6755.md): Base Application
+- [Table 6756 "Issue Reminders Setup"](6756.md): Base Application
+- [Table 6757 "Create Reminders Setup"](6757.md): Base Application
+- [Table 6784 "Wthldg. Tax Bus. Post. Group"](6784.md): WithholdingTax
+- [Table 6785 "Wthldg. Tax Prod. Post. Group"](6785.md): WithholdingTax
+- [Table 6786 "Withholding Tax Posting Setup"](6786.md): WithholdingTax
+- [Table 6787 "Withholding Tax Revenue Types"](6787.md): WithholdingTax
+- [Table 6788 "Withholding Tax Entry"](6788.md): WithholdingTax
+- [Table 6789 "Withholding Tax Cert. Buffer"](6789.md): WithholdingTax
+- [Table 6790 "Temp Withholding Tax Entry"](6790.md): WithholdingTax
+- [Table 6791 "Withholding Tax Posting Buffer"](6791.md): WithholdingTax
+- [Table 6792 "Withholding Tax Group"](6792.md): WithholdingTax
+- [Table 6793 "Withholding Tax Group Line"](6793.md): WithholdingTax
+- [Table 6794 "WHT Threshold Accumulator"](6794.md): WithholdingTax
+- [Table 6840 "Spend Request"](6840.md): Base Application
+- [Table 6841 "Spend Request Detail"](6841.md): Base Application
+- [Table 6845 "Spend Request To G/L Link"](6845.md): Base Application
+- [Table 6900 "Expense"](6900.md): ExpenseAgent
+- [Table 6901 "Expense Report Comment Line"](6901.md): ExpenseAgent
+- [Table 6902 "Expense Itemization"](6902.md): ExpenseAgent
+- [Table 6903 "Expense Rule Violation"](6903.md): ExpenseAgent
+- [Table 6904 "Expense Participant"](6904.md): ExpenseAgent
+- [Table 6905 "Expense Per Diem"](6905.md): ExpenseAgent
+- [Table 6906 "Expense Report Header"](6906.md): ExpenseAgent
+- [Table 6907 "Expense Report Line"](6907.md): ExpenseAgent
+- [Table 6908 "Expense Report Line Particip."](6908.md): ExpenseAgent
+- [Table 6909 "Expense Report Line Per Diem"](6909.md): ExpenseAgent
+- [Table 6910 "Expense Report Rule Violation"](6910.md): ExpenseAgent
+- [Table 6911 "Expense Report Line Item"](6911.md): ExpenseAgent
+- [Table 6912 "Expense Ledger Entry"](6912.md): ExpenseAgent
+- [Table 6913 "Expense Payment Method"](6913.md): ExpenseAgent
+- [Table 6914 "Expense Capabilities Buffer"](6914.md): ExpenseAgent
+- [Table 6915 "Posted Expense Report Header"](6915.md): ExpenseAgent
+- [Table 6916 "Posted Expense Report Line"](6916.md): ExpenseAgent
+- [Table 6917 "Posted Exp. Rep. Line Particip"](6917.md): ExpenseAgent
+- [Table 6918 "Expense VAT Specification"](6918.md): ExpenseAgent
+- [Table 6919 "Posted Exp. Rep. Line Item"](6919.md): ExpenseAgent
+- [Table 6920 "Posted Exp. Rep. Line Per Diem"](6920.md): ExpenseAgent
+- [Table 6921 "Expense Category"](6921.md): ExpenseAgent
+- [Table 6922 "Expense Report Line VAT Spec."](6922.md): ExpenseAgent
+- [Table 6923 "Expense User"](6923.md): ExpenseAgent
+- [Table 6924 "Expense Group"](6924.md): ExpenseAgent
+- [Table 6925 "Expense Location"](6925.md): ExpenseAgent
+- [Table 6926 "Expense Rule Condition"](6926.md): ExpenseAgent
+- [Table 6927 "Expense Rule Header"](6927.md): ExpenseAgent
+- [Table 6928 "Expense Posting Group"](6928.md): ExpenseAgent
+- [Table 6929 "Expense Subcategory"](6929.md): ExpenseAgent
+- [Table 6930 "Expense Agent Setup"](6930.md): ExpenseAgent
+- [Table 6931 "Expense Team"](6931.md): ExpenseAgent
+- [Table 6932 "Expense Approval Setup"](6932.md): ExpenseAgent
+- [Table 6933 "Expense Agent Status"](6933.md): ExpenseAgent
+- [Table 6934 "Posted Exp. Rep. Line VAT Spec"](6934.md): ExpenseAgent
+- [Table 6935 "EA Scheduler Task"](6935.md): ExpenseAgent
+- [Table 6936 "EA Email"](6936.md): ExpenseAgent
+- [Table 6937 "Expense Vendor"](6937.md): ExpenseAgent
+- [Table 6938 "Traveler"](6938.md): ExpenseAgent
+- [Table 6939 "Mileage Rate Setup"](6939.md): ExpenseAgent
+- [Table 6942 "EA Email Attachment"](6942.md): ExpenseAgent
+- [Table 6943 "Expense Agent Access Control"](6943.md): ExpenseAgent
+- [Table 6950 "EA KPI"](6950.md): ExpenseAgent
+- [Table 6951 "EA KPI Entry"](6951.md): ExpenseAgent
+- [Table 6968 "Expense Agent Consumption"](6968.md): ExpenseAgent, obsolete 29.0
+- [Table 6969 "Expense Agent Env. Consumption"](6969.md): ExpenseAgent
+- [Table 6984 "EA Outbox Email"](6984.md): ExpenseAgent
+- [Table 6986 "Tenant Feedback Setting"](6986.md): ExpenseAgent
+- [Table 7000 "Price List Header"](7000.md): Base Application
+- [Table 7001 "Price List Line"](7001.md): Base Application
+- [Table 7002 "Sales Price"](7002.md): Base Application
+- [Table 7003 "Price Asset"](7003.md): Base Application
+- [Table 7004 "Sales Line Discount"](7004.md): Base Application
+- [Table 7005 "Price Source"](7005.md): Base Application
+- [Table 7006 "Price Calculation Setup"](7006.md): Base Application
+- [Table 7007 "Price Calculation Buffer"](7007.md): Base Application
+- [Table 7008 "Dtld. Price Calculation Setup"](7008.md): Base Application
+- [Table 7009 "Duplicate Price Line"](7009.md): Base Application
+- [Table 7012 "Purchase Price"](7012.md): Base Application
+- [Table 7013 "Contact Sync Queue"](7013.md): Base Application
+- [Table 7014 "Purchase Line Discount"](7014.md): Base Application
+- [Table 7015 "Sales Price Access"](7015.md): Base Application
+- [Table 7016 "Sales Discount Access"](7016.md): Base Application
+- [Table 7017 "Purchase Price Access"](7017.md): Base Application
+- [Table 7018 "Purchase Discount Access"](7018.md): Base Application
+- [Table 7021 "Price Line Filters"](7021.md): Base Application
+- [Table 7022 "Price Worksheet Line"](7022.md): Base Application
+- [Table 7023 "Sales Price Worksheet"](7023.md): Base Application
+- [Table 7030 "Campaign Target Group"](7030.md): Base Application
+- [Table 7059 "WHT Exp. Report Buffer"](7059.md): ExpenseWithholdingTax
+- [Table 7088 "Expense Project Buf"](7088.md): ExpenseAgent
+- [Table 7092 "Expense Policy"](7092.md): ExpenseAgent
+- [Table 7096 "Expense Policy Evaluation"](7096.md): ExpenseAgent
+- [Table 7100 "Expense Activity Log Entry"](7100.md): ExpenseAgent
+- [Table 7101 "Contact Sync Folder"](7101.md): Base Application
+- [Table 7105 "Posted Exp. Policy Evaluation"](7105.md): ExpenseAgent
+- [Table 7106 "Exp. Policy To Eval Buffer"](7106.md): ExpenseAgent
+- [Table 7107 "O365 Contact"](7107.md): Base Application, obsolete 29.0
+- [Table 7108 "Expense Vehicle Type"](7108.md): ExpenseAgent
+- [Table 7110 "Analysis Field Value"](7110.md): Base Application
+- [Table 7111 "Analysis Report Name"](7111.md): Base Application
+- [Table 7112 "Analysis Line Template"](7112.md): Base Application
+- [Table 7113 "Analysis Type"](7113.md): Base Application
+- [Table 7114 "Analysis Line"](7114.md): Base Application
+- [Table 7116 "Analysis Column Template"](7116.md): Base Application
+- [Table 7118 "Analysis Column"](7118.md): Base Application
+- [Table 7121 "Contact Sync User"](7121.md): Base Application
+- [Table 7122 "Outlook Contacts"](7122.md): Base Application
+- [Table 7132 "Item Budget Name"](7132.md): Base Application
+- [Table 7134 "Item Budget Entry"](7134.md): Base Application
+- [Table 7136 "Item Budget Buffer"](7136.md): Base Application
+- [Table 7152 "Item Analysis View"](7152.md): Base Application
+- [Table 7153 "Item Analysis View Filter"](7153.md): Base Application
+- [Table 7154 "Item Analysis View Entry"](7154.md): Base Application
+- [Table 7156 "Item Analysis View Budg. Entry"](7156.md): Base Application
+- [Table 7158 "Analysis Dim. Selection Buffer"](7158.md): Base Application
+- [Table 7159 "Analysis Selected Dimension"](7159.md): Base Application
+- [Table 7160 "ABC Analysis Setup"](7160.md): Base Application
+- [Table 7190 "Sales Shipment Buffer"](7190.md): Base Application
+- [Table 7200 "CDS Connection Setup"](7200.md): Base Application
+- [Table 7201 "CDS Coupled Business Unit"](7201.md): Base Application
+- [Table 7202 "CDS Environment"](7202.md): Base Application
+- [Table 7203 "CRM Payment Terms"](7203.md): Base Application
+- [Table 7204 "CRM Freight Terms"](7204.md): Base Application
+- [Table 7205 "CRM Shipping Method"](7205.md): Base Application
+- [Table 7206 "CRM Company"](7206.md): Base Application
+- [Table 7207 "CRM BC Virtual Table Config."](7207.md): Base Application
+- [Table 7230 "Master Data Management Setup"](7230.md): MasterDataManagement
+- [Table 7231 "Master Data Mgt. Coupling"](7231.md): MasterDataManagement
+- [Table 7233 "Master Data Full Synch. R. Ln."](7233.md): MasterDataManagement
+- [Table 7234 "Master Data Mgt. Subscriber"](7234.md): MasterDataManagement
+- [Table 7250 "Bank Acc. Rec. AI Proposal"](7250.md): BankAccRecWithAI
+- [Table 7251 "Bank Acc. Rec. AI Prop. Buf."](7251.md): BankAccRecWithAI
+- [Table 7252 "Trans. to G/L Acc. Jnl. Batch"](7252.md): BankAccRecWithAI
+- [Table 7275 "Sales Line AI Suggestions"](7275.md): SalesLinesSuggestions
+- [Table 7276 "Search API Response"](7276.md): SalesLinesSuggestions
+- [Table 7277 "Attachment Mapping"](7277.md): SalesLinesSuggestions
+- [Table 7278 "Mapping Cache"](7278.md): SalesLinesSuggestions
+- [Table 7300 "Zone"](7300.md): Base Application
+- [Table 7301 "Warehouse Employee"](7301.md): Base Application
+- [Table 7302 "Bin Content"](7302.md): Base Application
+- [Table 7303 "Bin Type"](7303.md): Base Application
+- [Table 7304 "Warehouse Class"](7304.md): Base Application
+- [Table 7305 "Special Equipment"](7305.md): Base Application
+- [Table 7307 "Put-away Template Header"](7307.md): Base Application
+- [Table 7308 "Put-away Template Line"](7308.md): Base Application
+- [Table 7309 "Warehouse Journal Template"](7309.md): Base Application
+- [Table 7310 "Warehouse Journal Batch"](7310.md): Base Application
+- [Table 7311 "Warehouse Journal Line"](7311.md): Base Application
+- [Table 7312 "Warehouse Entry"](7312.md): Base Application
+- [Table 7313 "Warehouse Register"](7313.md): Base Application
+- [Table 7316 "Warehouse Receipt Header"](7316.md): Base Application
+- [Table 7317 "Warehouse Receipt Line"](7317.md): Base Application
+- [Table 7318 "Posted Whse. Receipt Header"](7318.md): Base Application
+- [Table 7319 "Posted Whse. Receipt Line"](7319.md): Base Application
+- [Table 7320 "Warehouse Shipment Header"](7320.md): Base Application
+- [Table 7321 "Warehouse Shipment Line"](7321.md): Base Application
+- [Table 7322 "Posted Whse. Shipment Header"](7322.md): Base Application
+- [Table 7323 "Posted Whse. Shipment Line"](7323.md): Base Application
+- [Table 7324 "Whse. Put-away Request"](7324.md): Base Application
+- [Table 7325 "Whse. Pick Request"](7325.md): Base Application
+- [Table 7326 "Whse. Worksheet Line"](7326.md): Base Application
+- [Table 7327 "Whse. Worksheet Name"](7327.md): Base Application
+- [Table 7328 "Whse. Worksheet Template"](7328.md): Base Application
+- [Table 7330 "Bin Content Buffer"](7330.md): Base Application
+- [Table 7331 "Whse. Internal Put-away Header"](7331.md): Base Application
+- [Table 7332 "Whse. Internal Put-away Line"](7332.md): Base Application
+- [Table 7333 "Whse. Internal Pick Header"](7333.md): Base Application
+- [Table 7334 "Whse. Internal Pick Line"](7334.md): Base Application
+- [Table 7335 "Bin Template"](7335.md): Base Application
+- [Table 7336 "Bin Creation Wksh. Template"](7336.md): Base Application
+- [Table 7337 "Bin Creation Wksh. Name"](7337.md): Base Application
+- [Table 7338 "Bin Creation Worksheet Line"](7338.md): Base Application
+- [Table 7339 "Search API Response"](7339.md): CreateProductInformationWithCopilot
+- [Table 7340 "Posted Invt. Put-away Header"](7340.md): Base Application
+- [Table 7341 "Posted Invt. Put-away Line"](7341.md): Base Application
+- [Table 7342 "Posted Invt. Pick Header"](7342.md): Base Application
+- [Table 7343 "Posted Invt. Pick Line"](7343.md): Base Application
+- [Table 7344 "Registered Invt. Movement Hdr."](7344.md): Base Application
+- [Table 7345 "Registered Invt. Movement Line"](7345.md): Base Application
+- [Table 7346 "Internal Movement Header"](7346.md): Base Application
+- [Table 7347 "Internal Movement Line"](7347.md): Base Application
+- [Table 7351 "Lot Bin Buffer"](7351.md): Base Application
+- [Table 7354 "Bin"](7354.md): Base Application
+- [Table 7355 "Report Selection Warehouse"](7355.md): Base Application
+- [Table 7360 "Reservation Entry Buffer"](7360.md): Base Application
+- [Table 7380 "Phys. Invt. Item Selection"](7380.md): Base Application
+- [Table 7381 "Phys. Invt. Counting Period"](7381.md): Base Application
+- [Table 7389 "Warehouse Reason Code"](7389.md): Base Application
+- [Table 7390 "Create Pick Parameters"](7390.md): Base Application
+- [Table 7412 "Excise Tax Type"](7412.md): ExciseTaxes
+- [Table 7413 "Excise Tax Item/FA Rate"](7413.md): ExciseTaxes
+- [Table 7414 "Excise Tax Entry Permission"](7414.md): ExciseTaxes
+- [Table 7415 "Item Excise Tax"](7415.md): ExciseTaxes
+- [Table 7416 "Excise Tax Rate"](7416.md): ExciseTaxes
+- [Table 7499 "Item From Picture Buffer"](7499.md): Base Application
+- [Table 7500 "Item Attribute"](7500.md): Base Application
+- [Table 7501 "Item Attribute Value"](7501.md): Base Application
+- [Table 7502 "Item Attribute Translation"](7502.md): Base Application
+- [Table 7503 "Item Attr. Value Translation"](7503.md): Base Application
+- [Table 7504 "Item Attribute Value Selection"](7504.md): Base Application
+- [Table 7505 "Item Attribute Value Mapping"](7505.md): Base Application
+- [Table 7506 "Filter Item Attributes Buffer"](7506.md): Base Application
+- [Table 7507 "Item Var. Attr. Value Mapping"](7507.md): Base Application
+- [Table 7600 "Base Calendar"](7600.md): Base Application
+- [Table 7601 "Base Calendar Change"](7601.md): Base Application
+- [Table 7602 "Customized Calendar Change"](7602.md): Base Application
+- [Table 7603 "Customized Calendar Entry"](7603.md): Base Application
+- [Table 7604 "Where Used Base Calendar"](7604.md): Base Application
+- [Table 7700 "Miniform Header"](7700.md): Base Application
+- [Table 7701 "Miniform Line"](7701.md): Base Application
+- [Table 7702 "Miniform Function Group"](7702.md): Base Application
+- [Table 7703 "Miniform Function"](7703.md): Base Application
+- [Table 7704 "Item Identifier"](7704.md): Base Application
+- [Table 7710 "ADCS User"](7710.md): Base Application
+- [Table 7775 "Copilot Settings"](7775.md): System Application
+- [Table 7880 "MS-QBD Setup"](7880.md): Base Application
+- [Table 8000 "Field Translation"](8000.md): Subscription Billing
+- [Table 8001 "Sub. Contract Renewal Line"](8001.md): Subscription Billing
+- [Table 8002 "Planned Subscription Line"](8002.md): Subscription Billing
+- [Table 8003 "Price Update Template"](8003.md): Subscription Billing
+- [Table 8004 "Sub. Contr. Price Update Line"](8004.md): Subscription Billing
+- [Table 8005 "Item Templ. Sub. Package"](8005.md): Subscription Billing
+- [Table 8006 "Usage Data Billing"](8006.md): Subscription Billing
+- [Table 8007 "Overdue Subscription Line"](8007.md): Subscription Billing
+- [Table 8008 "Imported Subscription Header"](8008.md): Subscription Billing
+- [Table 8009 "Imported Subscription Line"](8009.md): Subscription Billing
+- [Table 8010 "Imported Cust. Sub. Contract"](8010.md): Subscription Billing
+- [Table 8011 "Usage Data Blob"](8011.md): Subscription Billing
+- [Table 8012 "Usage Data Supp. Customer"](8012.md): Subscription Billing
+- [Table 8013 "Usage Data Import"](8013.md): Subscription Billing
+- [Table 8014 "Usage Data Supplier"](8014.md): Subscription Billing
+- [Table 8015 "Usage Data Supplier Reference"](8015.md): Subscription Billing
+- [Table 8016 "Usage Data Supp. Subscription"](8016.md): Subscription Billing
+- [Table 8017 "Generic Import Settings"](8017.md): Subscription Billing
+- [Table 8018 "Usage Data Generic Import"](8018.md): Subscription Billing
+- [Table 8019 "Sub. Contr. Analysis Entry"](8019.md): Subscription Billing
+- [Table 8020 "Sales Service Commitment Buff."](8020.md): Subscription Billing
+- [Table 8021 "Usage Data Billing Metadata"](8021.md): Subscription Billing
+- [Table 8022 "Contract Billing Err. Log"](8022.md): Subscription Billing
+- [Table 8051 "Subscription Contract Setup"](8051.md): Subscription Billing
+- [Table 8052 "Customer Subscription Contract"](8052.md): Subscription Billing
+- [Table 8053 "Subscription Contract Type"](8053.md): Subscription Billing
+- [Table 8054 "Sub. Package Line Template"](8054.md): Subscription Billing
+- [Table 8055 "Subscription Package"](8055.md): Subscription Billing
+- [Table 8056 "Subscription Package Line"](8056.md): Subscription Billing
+- [Table 8057 "Subscription Header"](8057.md): Subscription Billing
+- [Table 8058 "Item Subscription Package"](8058.md): Subscription Billing
+- [Table 8059 "Subscription Line"](8059.md): Subscription Billing
+- [Table 8060 "Billing Template"](8060.md): Subscription Billing
+- [Table 8061 "Billing Line"](8061.md): Subscription Billing
+- [Table 8062 "Cust. Sub. Contract Line"](8062.md): Subscription Billing
+- [Table 8063 "Vendor Subscription Contract"](8063.md): Subscription Billing
+- [Table 8064 "Billing Line Archive"](8064.md): Subscription Billing
+- [Table 8065 "Vend. Sub. Contract Line"](8065.md): Subscription Billing
+- [Table 8066 "Cust. Sub. Contract Deferral"](8066.md): Subscription Billing
+- [Table 8068 "Sales Subscription Line"](8068.md): Subscription Billing
+- [Table 8069 "Sales Sub. Line Archive"](8069.md): Subscription Billing
+- [Table 8070 "Subscription Billing Cue"](8070.md): Subscription Billing
+- [Table 8072 "Vend. Sub. Contract Deferral"](8072.md): Subscription Billing
+- [Table 8073 "Subscription Line Archive"](8073.md): Subscription Billing
+- [Table 8350 "MCP API Publisher Group"](8350.md): System Application
+- [Table 8351 "MCP Entra Application"](8351.md): System Application
+- [Table 8352 "MCP Config Warning"](8352.md): System Application
+- [Table 8353 "MCP System Tool"](8353.md): System Application
+- [Table 8354 "MCP API Version"](8354.md): System Application
+- [Table 8355 "MCP Server Feature"](8355.md): System Application
+- [Table 8357 "MCP API Object Buffer"](8357.md): System Application
+- [Table 8360 "Financial Report Schedule"](8360.md): Base Application
+- [Table 8361 "Financial Report Export Log"](8361.md): Base Application
+- [Table 8362 "Financial Report Recipient"](8362.md): Base Application
+- [Table 8363 "Dimension Perspective Name"](8363.md): Base Application
+- [Table 8364 "Dimension Perspective Line"](8364.md): Base Application
+- [Table 8371 "Financial Report Package"](8371.md): Base Application
+- [Table 8372 "Fin. Report Package Report"](8372.md): Base Application
+- [Table 8373 "Fin. Report Package Schedule"](8373.md): Base Application
+- [Table 8374 "Fin. Report Package Recipient"](8374.md): Base Application
+- [Table 8375 "Fin. Rep. Package Export Log"](8375.md): Base Application
+- [Table 8383 "Dimensions Field Map"](8383.md): Base Application
+- [Table 8390 "Financial Report Audit Log"](8390.md): Base Application
+- [Table 8391 "Financial Report Category"](8391.md): Base Application
+- [Table 8395 "Financial Report Status"](8395.md): Base Application
+- [Table 8400 "Record Set Definition"](8400.md): Base Application
+- [Table 8401 "Record Set Tree"](8401.md): Base Application
+- [Table 8402 "Record Set Buffer"](8402.md): Base Application
+- [Table 8450 "Field Buffer"](8450.md): Base Application
+- [Table 8452 "Advanced Intrastat Checklist"](8452.md): Base Application, obsolete 25.0
+- [Table 8460 "G/L Acc. Cat. Buffer"](8460.md): Base Application
+- [Table 8510 "Over-Receipt Code"](8510.md): Base Application
+- [Table 8610 "Config. Questionnaire"](8610.md): Base Application
+- [Table 8611 "Config. Question Area"](8611.md): Base Application
+- [Table 8612 "Config. Question"](8612.md): Base Application
+- [Table 8613 "Config. Package Table"](8613.md): Base Application
+- [Table 8614 "Config. Package Record"](8614.md): Base Application
+- [Table 8615 "Config. Package Data"](8615.md): Base Application
+- [Table 8616 "Config. Package Field"](8616.md): Base Application
+- [Table 8617 "Config. Package Error"](8617.md): Base Application
+- [Table 8618 "Config. Template Header"](8618.md): Base Application
+- [Table 8619 "Config. Template Line"](8619.md): Base Application
+- [Table 8620 "Config. Tmpl. Selection Rules"](8620.md): Base Application
+- [Table 8621 "Config. Selection"](8621.md): Base Application
+- [Table 8622 "Config. Line"](8622.md): Base Application
+- [Table 8623 "Config. Package"](8623.md): Base Application
+- [Table 8624 "Config. Related Field"](8624.md): Base Application
+- [Table 8625 "Config. Related Table"](8625.md): Base Application
+- [Table 8626 "Config. Package Filter"](8626.md): Base Application
+- [Table 8627 "Config. Setup"](8627.md): Base Application
+- [Table 8629 "Config. Field Map"](8629.md): Base Application
+- [Table 8630 "Config. Media Buffer"](8630.md): Base Application
+- [Table 8631 "Config. Table Processing Rule"](8631.md): Base Application
+- [Table 8632 "Config. Record For Processing"](8632.md): Base Application
+- [Table 8650 "DataExch-RapidStart Buffer"](8650.md): Base Application
+- [Table 8700 "Table Information Cache"](8700.md): System Application
+- [Table 8701 "Company Size Cache"](8701.md): System Application
+- [Table 8703 "Feature Uptake"](8703.md): System Application
+- [Table 8750 "DA External Storage Setup"](8750.md): External Storage - Document Attachments
+- [Table 8850 "Bank Statement Import Preview"](8850.md): SimplifiedBankStatementImport
+- [Table 8883 "Email Categories"](8883.md): System Application
+- [Table 8884 "Email Folders"](8884.md): System Application
+- [Table 8885 "Email Retrieval Filters"](8885.md): System Application
+- [Table 8886 "Email Inbox"](8886.md): System Application
+- [Table 8887 "Email Connector Logo"](8887.md): System Application
+- [Table 8888 "Email Outbox"](8888.md): System Application
+- [Table 8889 "Sent Email"](8889.md): System Application
+- [Table 8890 "Email Retry"](8890.md): System Application
+- [Table 8900 "Email Message"](8900.md): System Application
+- [Table 8901 "Email Error"](8901.md): System Application
+- [Table 8902 "Email Account"](8902.md): System Application
+- [Table 8903 "Email Recipient"](8903.md): System Application
+- [Table 8904 "Email Message Attachment"](8904.md): System Application
+- [Table 8905 "Email Connector"](8905.md): System Application
+- [Table 8906 "Email Scenario"](8906.md): System Application
+- [Table 8907 "Email Account Scenario"](8907.md): System Application
+- [Table 8909 "Email Related Record"](8909.md): System Application
+- [Table 8910 "Email Related Attachment"](8910.md): System Application
+- [Table 8911 "Email Scenario Attachments"](8911.md): System Application
+- [Table 8912 "Email Rate Limit"](8912.md): System Application
+- [Table 8913 "Email Attachments"](8913.md): System Application
+- [Table 8930 "Email View Policy"](8930.md): System Application
+- [Table 8944 "Email Address Lookup"](8944.md): System Application
+- [Table 8950 "AFS Directory Content"](8950.md): System Application
+- [Table 8951 "AFS Handle"](8951.md): System Application
+- [Table 9000 "User Group"](9000.md): Base Application, obsolete 25.0
+- [Table 9001 "User Group Member"](9001.md): Base Application, obsolete 25.0
+- [Table 9002 "User Group Access Control"](9002.md): Base Application, obsolete 25.0
+- [Table 9003 "User Group Permission Set"](9003.md): Base Application, obsolete 25.0
+- [Table 9004 "Plan"](9004.md): System Application
+- [Table 9005 "User Plan"](9005.md): System Application
+- [Table 9007 "User Group Plan"](9007.md): Base Application, obsolete 25.0
+- [Table 9008 "User Login"](9008.md): System Application
+- [Table 9009 "Permission Set Buffer"](9009.md): Base Application
+- [Table 9010 "Azure AD User Update Buffer"](9010.md): System Application
+- [Table 9011 "User Environment Login"](9011.md): System Application
+- [Table 9012 "AAD Application"](9012.md): Base Application
+- [Table 9016 "Permission Set In Plan Buffer"](9016.md): System Application
+- [Table 9017 "Plan Configuration"](9017.md): System Application
+- [Table 9018 "Custom Permission Set In Plan"](9018.md): System Application
+- [Table 9019 "Default Permission Set In Plan"](9019.md): System Application
+- [Table 9020 "Security Group"](9020.md): System Application
+- [Table 9021 "Security Group Member Buffer"](9021.md): System Application
+- [Table 9022 "Security Group Buffer"](9022.md): System Application
+- [Table 9040 "Date Compr. Settings Buffer"](9040.md): Base Application
+- [Table 9041 "Date Compr. Retain Fields"](9041.md): Base Application
+- [Table 9042 "Team Member Cue"](9042.md): Base Application
+- [Table 9043 "ABS Container Content"](9043.md): System Application
+- [Table 9044 "ABS Container"](9044.md): System Application
+- [Table 9045 "Acc. Payable Performance Chart"](9045.md): Base Application
+- [Table 9046 "Account Payable Cue"](9046.md): Base Application
+- [Table 9048 "Custom User Group In Plan"](9048.md): PlanConfiguration, obsolete 25.0
+- [Table 9050 "Warehouse Basic Cue"](9050.md): Base Application
+- [Table 9051 "Warehouse WMS Cue"](9051.md): Base Application
+- [Table 9052 "Service Cue"](9052.md): Base Application
+- [Table 9053 "Sales Cue"](9053.md): Base Application
+- [Table 9054 "Finance Cue"](9054.md): Base Application
+- [Table 9055 "Purchase Cue"](9055.md): Base Application
+- [Table 9056 "Manufacturing Cue"](9056.md): Base Application
+- [Table 9057 "Job Cue"](9057.md): Base Application
+- [Table 9058 "Warehouse Worker WMS Cue"](9058.md): Base Application
+- [Table 9059 "Administration Cue"](9059.md): Base Application
+- [Table 9060 "SB Owner Cue"](9060.md): Base Application
+- [Table 9061 "RapidStart Services Cue"](9061.md): Base Application
+- [Table 9062 "User Security Status"](9062.md): Base Application
+- [Table 9063 "Relationship Mgmt. Cue"](9063.md): Base Application
+- [Table 9064 "SAS Parameters"](9064.md): System Application
+- [Table 9065 "Job Queue Role Center Cue"](9065.md): Base Application
+- [Table 9066 "Job Queue Notification Setup"](9066.md): Base Application
+- [Table 9067 "Job Queue Notified Admin"](9067.md): Base Application
+- [Table 9070 "Accounting Services Cue"](9070.md): Base Application
+- [Table 9080 "Error Handling Parameters"](9080.md): Base Application
+- [Table 9088 "Top Vendors By Purchase"](9088.md): Base Application
+- [Table 9089 "Purch. by Vend.Grp.Chart Setup"](9089.md): Base Application
+- [Table 9090 "Autocomplete Address"](9090.md): Base Application
+- [Table 9091 "Postcode Service Config"](9091.md): Base Application
+- [Table 9100 "SharePoint File"](9100.md): System Application
+- [Table 9103 "SharePoint List Item"](9103.md): System Application
+- [Table 9104 "SharePoint List Item Atch"](9104.md): System Application
+- [Table 9105 "SharePoint List"](9105.md): System Application
+- [Table 9106 "SharePoint Folder"](9106.md): System Application
+- [Table 9130 "SharePoint Graph List"](9130.md): System Application
+- [Table 9131 "SharePoint Graph List Item"](9131.md): System Application
+- [Table 9132 "SharePoint Graph Drive Item"](9132.md): System Application
+- [Table 9133 "SharePoint Graph Drive"](9133.md): System Application
+- [Table 9144 "Approvals Activities Cue"](9144.md): Base Application
+- [Table 9150 "My Customer"](9150.md): Base Application
+- [Table 9151 "My Vendor"](9151.md): Base Application
+- [Table 9152 "My Item"](9152.md): Base Application
+- [Table 9153 "My Account"](9153.md): Base Application
+- [Table 9154 "My Job"](9154.md): Base Application
+- [Table 9155 "My Time Sheets"](9155.md): Base Application
+- [Table 9160 "TempStack"](9160.md): Base Application
+- [Table 9165 "Support Contact Information"](9165.md): Base Application
+- [Table 9171 "Profile Import"](9171.md): Base Application
+- [Table 9172 "User Settings"](9172.md): System Application
+- [Table 9175 "Designer Diagnostic"](9175.md): Base Application
+- [Table 9176 "Experience Tier Setup"](9176.md): Base Application
+- [Table 9177 "Experience Tier Buffer"](9177.md): Base Application
+- [Table 9178 "Application Area Setup"](9178.md): Base Application
+- [Table 9179 "Application Area Buffer"](9179.md): Base Application
+- [Table 9180 "Generic Chart Setup"](9180.md): Base Application
+- [Table 9181 "Generic Chart Filter"](9181.md): Base Application
+- [Table 9182 "Generic Chart Y-Axis"](9182.md): Base Application
+- [Table 9183 "Generic Chart Query Column"](9183.md): Base Application
+- [Table 9185 "Generic Chart Captions Buffer"](9185.md): Base Application
+- [Table 9186 "Generic Chart Memo Buffer"](9186.md): Base Application
+- [Table 9190 "Terms And Conditions"](9190.md): Base Application
+- [Table 9191 "Terms And Conditions State"](9191.md): Base Application
+- [Table 9197 "Profile Designer Diagnostic"](9197.md): Base Application
+- [Table 9203 "Barcode Encode Settings"](9203.md): System Application
+- [Table 9204 "Barcode Encode Settings 2D"](9204.md): System Application
+- [Table 9222 "Application User Settings"](9222.md): System Application
+- [Table 9260 "Customer Experience Survey"](9260.md): System Application, obsolete 27.0
+- [Table 9400 "Media Repository"](9400.md): Base Application
+- [Table 9450 "File Account"](9450.md): System Application
+- [Table 9451 "Ext. File Storage Connector"](9451.md): System Application
+- [Table 9452 "File Storage Connector Logo"](9452.md): System Application
+- [Table 9453 "File Account Scenario"](9453.md): System Application
+- [Table 9454 "File Scenario"](9454.md): System Application
+- [Table 9455 "File Account Content"](9455.md): System Application
+- [Table 9500 "Email Item"](9500.md): Base Application
+- [Table 9501 "Sequence No. Preview State"](9501.md): Base Application
+- [Table 9510 "Email Parameter"](9510.md): Base Application
+- [Table 9551 "Document Service Cache"](9551.md): Base Application, obsolete 26.0
+- [Table 9555 "Record Selection Buffer"](9555.md): System Application
+- [Table 9560 "Document Sharing"](9560.md): System Application
+- [Table 9600 "XML Schema"](9600.md): Base Application
+- [Table 9610 "XML Schema Element"](9610.md): Base Application
+- [Table 9611 "XML Schema Restriction"](9611.md): Base Application
+- [Table 9612 "Referenced XML Schema"](9612.md): Base Application
+- [Table 9650 "Custom Report Layout"](9650.md): Base Application
+- [Table 9651 "Report Layout Selection"](9651.md): Base Application
+- [Table 9656 "Report Layout Update Log"](9656.md): Base Application
+- [Table 9657 "Custom Report Selection"](9657.md): Base Application
+- [Table 9701 "Cue Setup"](9701.md): System Application
+- [Table 9760 "SFTP Folder Content"](9760.md): System Application
+- [Table 9802 "Permission Set Link"](9802.md): Base Application
+- [Table 9804 "Recorded Event Buffer"](9804.md): Base Application
+- [Table 9805 "Table Filter"](9805.md): Base Application
+- [Table 9852 "Permission Buffer"](9852.md): Base Application
+- [Table 9861 "Permission Set Relation Buffer"](9861.md): System Application
+- [Table 9862 "PermissionSet Buffer"](9862.md): System Application
+- [Table 9865 "Permission Lookup Buffer"](9865.md): System Application
+- [Table 9883 "Perm. Set Assignment Buffer"](9883.md): Base Application
+- [Table 9900 "Web Service Aggregate"](9900.md): System Application
+- [Table 9981 "Word Template Custom Field"](9981.md): System Application
+- [Table 9987 "Word Templates Table"](9987.md): System Application
+- [Table 9988 "Word Template"](9988.md): System Application
+- [Table 9989 "Word Template Field"](9989.md): System Application
+- [Table 9990 "Word Templates Related Table"](9990.md): System Application
+- [Table 9991 "Word Templates Related Buffer"](9991.md): System Application
+- [Table 9994 "API Data Upgrade"](9994.md): Base Application
+- [Table 9996 "Upgrade Tag Backup"](9996.md): System Application
+- [Table 9999 "Upgrade Tags"](9999.md): System Application
+- [Table 12145 "No. Series Line Sales"](12145.md): Business Foundation, obsolete 27.0
+- [Table 12146 "No. Series Line Purchase"](12146.md): Business Foundation, obsolete 27.0
+- [Table 20100 "AMC Bank Banks"](20100.md): AMCBanking365Fundamentals, obsolete 28.0
+- [Table 20101 "AMC Banking Setup"](20101.md): AMCBanking365Fundamentals, obsolete 28.0
+- [Table 20102 "AMC Bank Pmt. Type"](20102.md): AMCBanking365Fundamentals, obsolete 28.0
+- [Table 20130 "Script Symbol"](20130.md): INTaxEngine
+- [Table 20131 "Script Symbol Member Value"](20131.md): INTaxEngine
+- [Table 20132 "Script Symbol Value"](20132.md): INTaxEngine
+- [Table 20140 "Lookup Field Filter"](20140.md): INTaxEngine
+- [Table 20141 "Lookup Field Sorting"](20141.md): INTaxEngine
+- [Table 20142 "Lookup Table Filter"](20142.md): INTaxEngine
+- [Table 20143 "Lookup Table Sorting"](20143.md): INTaxEngine
+- [Table 20144 "Script Symbol Lookup"](20144.md): INTaxEngine
+- [Table 20156 "Action Comment"](20156.md): INTaxEngine
+- [Table 20157 "Action Concatenate"](20157.md): INTaxEngine
+- [Table 20158 "Action Concatenate Line"](20158.md): INTaxEngine
+- [Table 20159 "Action Container"](20159.md): INTaxEngine
+- [Table 20160 "Action Convert Case"](20160.md): INTaxEngine
+- [Table 20161 "Action Date Calculation"](20161.md): INTaxEngine
+- [Table 20162 "Action Date To DateTime"](20162.md): INTaxEngine
+- [Table 20163 "Action Extract Date Part"](20163.md): INTaxEngine
+- [Table 20164 "Action Extract DateTime Part"](20164.md): INTaxEngine
+- [Table 20165 "Action Ext. Substr. From Index"](20165.md): INTaxEngine
+- [Table 20166 "Action Ext. Substr. From Pos."](20166.md): INTaxEngine
+- [Table 20167 "Action Find Date Interval"](20167.md): INTaxEngine
+- [Table 20168 "Action Find Substring"](20168.md): INTaxEngine
+- [Table 20171 "Action If Statement"](20171.md): INTaxEngine
+- [Table 20172 "Action Length Of String"](20172.md): INTaxEngine
+- [Table 20173 "Action Loop N Times"](20173.md): INTaxEngine
+- [Table 20174 "Action Loop Through Rec. Field"](20174.md): INTaxEngine
+- [Table 20175 "Action Loop Through Records"](20175.md): INTaxEngine
+- [Table 20176 "Action Loop With Condition"](20176.md): INTaxEngine
+- [Table 20177 "Action Message"](20177.md): INTaxEngine
+- [Table 20178 "Action Number Calculation"](20178.md): INTaxEngine
+- [Table 20179 "Action Number Expression"](20179.md): INTaxEngine
+- [Table 20180 "Action Number Expr. Token"](20180.md): INTaxEngine
+- [Table 20181 "Action Replace Substring"](20181.md): INTaxEngine
+- [Table 20182 "Action Round Number"](20182.md): INTaxEngine
+- [Table 20183 "Action Set Variable"](20183.md): INTaxEngine
+- [Table 20184 "Action String Expression"](20184.md): INTaxEngine
+- [Table 20185 "Action String Expr. Token"](20185.md): INTaxEngine
+- [Table 20186 "Script Action"](20186.md): INTaxEngine
+- [Table 20190 "Tax Test Condition"](20190.md): INTaxEngine
+- [Table 20191 "Tax Test Condition Item"](20191.md): INTaxEngine
+- [Table 20200 "Script Context"](20200.md): INTaxEngine
+- [Table 20201 "Script Editor Line"](20201.md): INTaxEngine
+- [Table 20202 "Script Record Variable"](20202.md): INTaxEngine
+- [Table 20203 "Script Variable"](20203.md): INTaxEngine
+- [Table 20232 "Entity Attribute Mapping"](20232.md): INTaxEngine
+- [Table 20233 "Record Attribute Mapping"](20233.md): INTaxEngine
+- [Table 20234 "Tax Attribute Value Mapping"](20234.md): INTaxEngine
+- [Table 20241 "Tax Attribute"](20241.md): INTaxEngine
+- [Table 20242 "Tax Attribute Value"](20242.md): INTaxEngine
+- [Table 20246 "Tax Component"](20246.md): INTaxEngine
+- [Table 20247 "Tax Component Formula"](20247.md): INTaxEngine
+- [Table 20248 "Tax Component Formula Token"](20248.md): INTaxEngine
+- [Table 20251 "Tax Rate"](20251.md): INTaxEngine
+- [Table 20252 "Tax Rate Column Setup"](20252.md): INTaxEngine
+- [Table 20253 "Tax Rate Value"](20253.md): INTaxEngine
+- [Table 20254 "Tax Rate Filter"](20254.md): INTaxEngine
+- [Table 20256 "Tax Acc. Period Setup"](20256.md): INTaxEngine
+- [Table 20257 "Tax Entity"](20257.md): INTaxEngine
+- [Table 20258 "Tax Type"](20258.md): INTaxEngine
+- [Table 20261 "Tax Transaction Value"](20261.md): INTaxEngine
+- [Table 20283 "Switch Case"](20283.md): INTaxEngine
+- [Table 20284 "Switch Statement"](20284.md): INTaxEngine
+- [Table 20285 "Tax Component Expression"](20285.md): INTaxEngine
+- [Table 20286 "Tax Component Expr. Token"](20286.md): INTaxEngine
+- [Table 20287 "Tax Table Relation"](20287.md): INTaxEngine
+- [Table 20295 "Use Case Tree Node"](20295.md): INTaxEngine
+- [Table 20301 "Tax Component Summary"](20301.md): INTaxEngine
+- [Table 20306 "Tax Use Case"](20306.md): INTaxEngine
+- [Table 20307 "Use Case Attribute Mapping"](20307.md): INTaxEngine
+- [Table 20308 "Use Case Component Calculation"](20308.md): INTaxEngine
+- [Table 20309 "Use Case Rate Column Relation"](20309.md): INTaxEngine
+- [Table 20334 "Tax Insert Record"](20334.md): INTaxEngine
+- [Table 20335 "Tax Insert Record Field"](20335.md): INTaxEngine
+- [Table 20336 "Transaction Posting Buffer"](20336.md): INTaxEngine
+- [Table 20337 "Tax Posting Keys Buffer"](20337.md): INTaxEngine
+- [Table 20338 "Tax Posting Setup"](20338.md): INTaxEngine
+- [Table 20350 "Connectivity App"](20350.md): ConnectivityApps
+- [Table 20351 "Conn. App Country/Region"](20351.md): ConnectivityApps
+- [Table 20352 "Connectivity App Logo"](20352.md): ConnectivityApps
+- [Table 20353 "Connectivity App Description"](20353.md): ConnectivityApps
+- [Table 20360 "Use Case Archival Log Entry"](20360.md): INTaxEngine
+- [Table 20361 "Upgraded Use Cases"](20361.md): INTaxEngine
+- [Table 20362 "Tax Type Archival Log Entry"](20362.md): INTaxEngine
+- [Table 20363 "Upgraded Tax Types"](20363.md): INTaxEngine
+- [Table 20364 "Tax Engine Notification"](20364.md): INTaxEngine
+- [Table 20400 "Qlty. Management Setup"](20400.md): Quality Management
+- [Table 20401 "Qlty. Test"](20401.md): Quality Management
+- [Table 20402 "Qlty. Inspection Template Hdr."](20402.md): Quality Management
+- [Table 20403 "Qlty. Inspection Template Line"](20403.md): Quality Management
+- [Table 20404 "Qlty. Inspection Gen. Rule"](20404.md): Quality Management
+- [Table 20405 "Qlty. Inspection Header"](20405.md): Quality Management
+- [Table 20406 "Qlty. Inspection Line"](20406.md): Quality Management
+- [Table 20407 "Qlty. Inspect. Source Config."](20407.md): Quality Management
+- [Table 20408 "Qlty. Test Lookup Value"](20408.md): Quality Management
+- [Table 20409 "Qlty. Inspect. Src. Fld. Conf."](20409.md): Quality Management
+- [Table 20411 "Qlty. Inspection Result"](20411.md): Quality Management
+- [Table 20412 "Qlty. I. Result Condit. Conf."](20412.md): Quality Management
+- [Table 20414 "Qlty. Mgmt. Role Center Cue"](20414.md): Quality Management
+- [Table 20423 "Qlty. Related Transfers Buffer"](20423.md): Quality Management
+- [Table 20424 "Qlty. Disposition Buffer"](20424.md): Quality Management
+- [Table 20435 "Qlty. Workflow Config. Value"](20435.md): Quality Management
+- [Table 20500 "Subcontractor Price"](20500.md): Subcontracting
+- [Table 20560 "Subcontractor WIP Ledger Entry"](20560.md): Subcontracting
+- [Table 20572 "Subc. Standard Task Comment"](20572.md): Subcontracting
+- [Table 20573 "Subc. Routing Comment Line"](20573.md): Subcontracting
+- [Table 20574 "Subc. Prod. Rtng. Comment"](20574.md): Subcontracting
+- [Table 22216 "G/L Entry Review Entry"](22216.md): ReviewGLEntries, obsolete 27.0
+- [Table 22217 "G/L Entry Review Setup"](22217.md): ReviewGLEntries
+- [Table 22218 "G/L Entry Review Log"](22218.md): ReviewGLEntries
+- [Table 30100 "Shpfy Cue"](30100.md): Shopify
+- [Table 30101 "Shpfy Metafield"](30101.md): Shopify
+- [Table 30102 "Shpfy Shop"](30102.md): Shopify
+- [Table 30103 "Shpfy Synchronization Info"](30103.md): Shopify
+- [Table 30104 "Shpfy Tag"](30104.md): Shopify
+- [Table 30105 "Shpfy Customer"](30105.md): Shopify
+- [Table 30106 "Shpfy Customer Address"](30106.md): Shopify
+- [Table 30107 "Shpfy Customer Template"](30107.md): Shopify
+- [Table 30108 "Shpfy Province"](30108.md): Shopify, obsolete 25.0
+- [Table 30109 "Shpfy Tax Area"](30109.md): Shopify
+- [Table 30110 "Shpfy Gift Card"](30110.md): Shopify
+- [Table 30111 "Shpfy Order Fulfillment"](30111.md): Shopify
+- [Table 30112 "Shpfy Shop Inventory"](30112.md): Shopify
+- [Table 30113 "Shpfy Shop Location"](30113.md): Shopify
+- [Table 30114 "Shpfy Data Capture"](30114.md): Shopify
+- [Table 30115 "Shpfy Log Entry"](30115.md): Shopify
+- [Table 30116 "Shpfy Order Attribute"](30116.md): Shopify
+- [Table 30117 "Shpfy Order Disc.Appl."](30117.md): Shopify
+- [Table 30118 "Shpfy Order Header"](30118.md): Shopify
+- [Table 30119 "Shpfy Order Line"](30119.md): Shopify
+- [Table 30120 "Shpfy Order Payment Gateway"](30120.md): Shopify
+- [Table 30121 "Shpfy Orders to Import"](30121.md): Shopify
+- [Table 30122 "Shpfy Order Tax Line"](30122.md): Shopify
+- [Table 30123 "Shpfy Order Risk"](30123.md): Shopify
+- [Table 30124 "Shpfy Payment Transaction"](30124.md): Shopify
+- [Table 30125 "Shpfy Payout"](30125.md): Shopify
+- [Table 30126 "Shpfy Inventory Item"](30126.md): Shopify
+- [Table 30127 "Shpfy Product"](30127.md): Shopify
+- [Table 30128 "Shpfy Shop Collection Map"](30128.md): Shopify, obsolete 28.0
+- [Table 30129 "Shpfy Variant"](30129.md): Shopify
+- [Table 30130 "Shpfy Order Shipping Charges"](30130.md): Shopify
+- [Table 30131 "Shpfy Shipment Method Mapping"](30131.md): Shopify
+- [Table 30132 "Shpfy Credit Card Company"](30132.md): Shopify
+- [Table 30133 "Shpfy Order Transaction"](30133.md): Shopify
+- [Table 30134 "Shpfy Payment Method Mapping"](30134.md): Shopify
+- [Table 30135 "Shpfy Transaction Gateway"](30135.md): Shopify
+- [Table 30136 "Shpfy Staff Member"](30136.md): Shopify
+- [Table 30137 "Shpfy Initial Import Line"](30137.md): Shopify
+- [Table 30138 "Shpfy Registered Store New"](30138.md): Shopify
+- [Table 30139 "Shpfy Fulfillment Line"](30139.md): Shopify
+- [Table 30140 "Shpfy Templates Warnings"](30140.md): Shopify, obsolete 25.0
+- [Table 30141 "Shpfy Return Line"](30141.md): Shopify
+- [Table 30142 "Shpfy Refund Header"](30142.md): Shopify
+- [Table 30143 "Shpfy FulFillment Order Header"](30143.md): Shopify
+- [Table 30144 "Shpfy FulFillment Order Line"](30144.md): Shopify
+- [Table 30145 "Shpfy Refund Line"](30145.md): Shopify
+- [Table 30146 "Shpfy Doc. Link To Doc."](30146.md): Shopify
+- [Table 30147 "Shpfy Return Header"](30147.md): Shopify
+- [Table 30148 "Shpfy Bulk Operation"](30148.md): Shopify
+- [Table 30149 "Shpfy Order Line Attribute"](30149.md): Shopify
+- [Table 30150 "Shpfy Company"](30150.md): Shopify
+- [Table 30151 "Shpfy Company Location"](30151.md): Shopify
+- [Table 30152 "Shpfy Catalog"](30152.md): Shopify
+- [Table 30153 "Shpfy Catalog Price"](30153.md): Shopify
+- [Table 30154 "Shpfy Suggest Payment"](30154.md): Shopify
+- [Table 30155 "Shpfy Dispute"](30155.md): Shopify
+- [Table 30156 "Shpfy Language"](30156.md): Shopify
+- [Table 30157 "Shpfy Translation"](30157.md): Shopify
+- [Table 30158 "Shpfy Payment Terms"](30158.md): Shopify
+- [Table 30159 "Shpfy Skipped Record"](30159.md): Shopify
+- [Table 30160 "Shpfy Sales Channel"](30160.md): Shopify
+- [Table 30161 "Shpfy Invoice Header"](30161.md): Shopify
+- [Table 30162 "Shpfy Refund Shipping Line"](30162.md): Shopify
+- [Table 30163 "Shpfy Product Collection"](30163.md): Shopify
+- [Table 30400 "Shpfy Market Catalog Relation"](30400.md): Shopify
+- [Table 30432 "User Permissions Buffer"](30432.md): Base Application
+- [Table 36950 "Dimension Set Entry"](36950.md): PowerBIReports, obsolete 25.0
+- [Table 36951 "PowerBI Reports Setup"](36951.md): PowerBIReports
+- [Table 36952 "Working Day"](36952.md): PowerBIReports
+- [Table 36953 "Account Category"](36953.md): PowerBIReports
+- [Table 36954 "PowerBI Flat Dim. Set Entry"](36954.md): PowerBIReports
+- [Table 36955 "PBI C. Income St. Source Code"](36955.md): PowerBIReports
+- [Table 37202 "PEPPOL 3.0 Setup"](37202.md): PEPPOL
+- [Table 37203 "Remit. Advice Buffer"](37203.md): PEPPOL
+- [Table 40025 "Cloud Migration ADL Setup"](40025.md): HybridBaseDeployment
+- [Table 40026 "Replication Run Completed Arg"](40026.md): HybridBaseDeployment
+- [Table 40027 "Hybrid Company Status"](40027.md): HybridBaseDeployment
+- [Table 40028 "Hybrid DA Approval"](40028.md): HybridBaseDeployment
+- [Table 40029 "Replication Record Link Buffer"](40029.md): HybridBaseDeployment
+- [Table 40030 "Record Link Mapping"](40030.md): HybridBaseDeployment
+- [Table 40031 "Cloud Migration Warning"](40031.md): HybridBaseDeployment
+- [Table 40032 "Hybrid Table Status"](40032.md): HybridBaseDeployment
+- [Table 40033 "Migration Setup Table Mapping"](40033.md): HybridBaseDeployment
+- [Table 40034 "Replication Table Mapping"](40034.md): HybridBaseDeployment
+- [Table 40035 "Custom Migration Table Buffer"](40035.md): HybridBaseDeployment
+- [Table 40041 "Cloud Migration Override Log"](40041.md): HybridBaseDeployment
+- [Table 40042 "Validation Suite"](40042.md): HybridBaseDeployment
+- [Table 40043 "Migration Validation Error"](40043.md): HybridBaseDeployment
+- [Table 40044 "Validation Suite Line"](40044.md): HybridBaseDeployment
+- [Table 40045 "Validation Progress"](40045.md): HybridBaseDeployment
+- [Table 40099 "GP Checkbook MSTR"](40099.md): HybridGP
+- [Table 40100 "GP Bank MSTR"](40100.md): HybridGP
+- [Table 40101 "GP Checkbook Transactions"](40101.md): HybridGP
+- [Table 40102 "GP POPPOHeader"](40102.md): HybridGP, obsolete 25.0
+- [Table 40103 "GP POPPOLine"](40103.md): HybridGP, obsolete 25.0
+- [Table 40105 "GP Company Additional Settings"](40105.md): HybridGP
+- [Table 40107 "GP SY40100"](40107.md): HybridGP
+- [Table 40108 "GP SY40101"](40108.md): HybridGP
+- [Table 40109 "GP CM20600"](40109.md): HybridGP
+- [Table 40110 "GP MC40200"](40110.md): HybridGP
+- [Table 40111 "GP SY06000"](40111.md): HybridGP
+- [Table 40112 "GP PM00100"](40112.md): HybridGP
+- [Table 40113 "GP PM00200"](40113.md): HybridGP
+- [Table 40114 "GP RM00101"](40114.md): HybridGP
+- [Table 40115 "GP RM00201"](40115.md): HybridGP
+- [Table 40116 "GP IV00101"](40116.md): HybridGP
+- [Table 40117 "GP IV40400"](40117.md): HybridGP
+- [Table 40137 "GP POP10100"](40137.md): HybridGP
+- [Table 40138 "GP POP10110"](40138.md): HybridGP
+- [Table 40139 "GP PM00204"](40139.md): HybridGP
+- [Table 40140 "GP Known Countries"](40140.md): HybridGP
+- [Table 40141 "GP Migration Error Overview"](40141.md): HybridGP
+- [Table 40142 "GP PM10200"](40142.md): HybridGP
+- [Table 40143 "GP PM30300"](40143.md): HybridGP
+- [Table 40144 "GP RM20201"](40144.md): HybridGP
+- [Table 40145 "GP RM30201"](40145.md): HybridGP
+- [Table 40150 "GP Upgrade Settings"](40150.md): HybridGP
+- [Table 40198 "GP GL00103"](40198.md): HybridGP
+- [Table 40199 "GP GL00104"](40199.md): HybridGP
+- [Table 40900 "Hist. G/L Account"](40900.md): DynamicsGPHistoricalData
+- [Table 40901 "Hist. Gen. Journal Line"](40901.md): DynamicsGPHistoricalData
+- [Table 40902 "Hist. Sales Trx. Header"](40902.md): DynamicsGPHistoricalData
+- [Table 40903 "Hist. Sales Trx. Line"](40903.md): DynamicsGPHistoricalData
+- [Table 40904 "Hist. Receivables Document"](40904.md): DynamicsGPHistoricalData
+- [Table 40905 "Hist. Payables Document"](40905.md): DynamicsGPHistoricalData
+- [Table 40906 "Hist. Inventory Trx. Header"](40906.md): DynamicsGPHistoricalData
+- [Table 40907 "Hist. Inventory Trx. Line"](40907.md): DynamicsGPHistoricalData
+- [Table 40908 "Hist. Purchase Recv. Header"](40908.md): DynamicsGPHistoricalData
+- [Table 40909 "Hist. Purchase Recv. Line"](40909.md): DynamicsGPHistoricalData
+- [Table 40910 "Hist. Migration Step Status"](40910.md): DynamicsGPHistoricalData
+- [Table 40912 "Hist. Migration Current Status"](40912.md): DynamicsGPHistoricalData
+- [Table 40913 "Hist. Payables Apply"](40913.md): DynamicsGPHistoricalData
+- [Table 40914 "Hist. Receivables Apply"](40914.md): DynamicsGPHistoricalData
+- [Table 40915 "Hist. Invt. Trx. SerialLot"](40915.md): DynamicsGPHistoricalData
+- [Table 40916 "Hist. Recv. Trx. SerialLot"](40916.md): DynamicsGPHistoricalData
+- [Table 40917 "Hist. Payroll Details"](40917.md): DynamicsGPHistoricalData
+- [Table 41000 "GP GL00105"](41000.md): HybridGP
+- [Table 41001 "GP GL20000"](41001.md): HybridGP
+- [Table 41002 "GP GL30000"](41002.md): HybridGP
+- [Table 41003 "GP BM30200"](41003.md): HybridGP
+- [Table 41004 "GP Hist. Source Progress"](41004.md): HybridGP
+- [Table 41005 "GP Hist. Source Error"](41005.md): HybridGP
+- [Table 41006 "GP Migration Warnings"](41006.md): HybridGP
+- [Table 41007 "GP IV00104"](41007.md): HybridGP
+- [Table 41008 "GP PM00101"](41008.md): HybridGP
+- [Table 41009 "GP PM00203"](41009.md): HybridGP
+- [Table 41010 "GP PO Validation Buffer"](41010.md): HybridGP
+- [Table 42800 "SL Hist. APAdjust"](42800.md): DynamicsSLHistoricalData
+- [Table 42801 "SL Hist. APDoc"](42801.md): DynamicsSLHistoricalData, obsolete 28.0
+- [Table 42802 "SL Hist. APTran"](42802.md): DynamicsSLHistoricalData, obsolete 28.0
+- [Table 42803 "SL Hist. ARAdjust"](42803.md): DynamicsSLHistoricalData
+- [Table 42804 "SL Hist. ARDoc"](42804.md): DynamicsSLHistoricalData, obsolete 28.0
+- [Table 42805 "SL Hist. ARTran"](42805.md): DynamicsSLHistoricalData, obsolete 28.0
+- [Table 42806 "SL Hist. Batch"](42806.md): DynamicsSLHistoricalData
+- [Table 42807 "SL Hist. LotSerT"](42807.md): DynamicsSLHistoricalData, obsolete 28.0
+- [Table 42808 "SL Hist. INTran"](42808.md): DynamicsSLHistoricalData, obsolete 28.0
+- [Table 42809 "SL Hist. POReceipt"](42809.md): DynamicsSLHistoricalData
+- [Table 42810 "SL Hist. POTran"](42810.md): DynamicsSLHistoricalData
+- [Table 42811 "SL Hist. PurchOrd"](42811.md): DynamicsSLHistoricalData
+- [Table 42812 "SL Hist. PurOrdDet"](42812.md): DynamicsSLHistoricalData
+- [Table 42813 "SL Hist. SOHeader"](42813.md): DynamicsSLHistoricalData
+- [Table 42814 "SL Hist. SOLine"](42814.md): DynamicsSLHistoricalData
+- [Table 42815 "SL Hist. SOShipHeader"](42815.md): DynamicsSLHistoricalData
+- [Table 42816 "SL Hist. SOShipLine"](42816.md): DynamicsSLHistoricalData
+- [Table 42817 "SL Hist. SOShipLot"](42817.md): DynamicsSLHistoricalData
+- [Table 42818 "SL Hist. SOType"](42818.md): DynamicsSLHistoricalData
+- [Table 42819 "SL Hist. GLTran"](42819.md): DynamicsSLHistoricalData, obsolete 28.0
+- [Table 42820 "SL Hist. Migration Step Status"](42820.md): DynamicsSLHistoricalData
+- [Table 42821 "SL Hist. Migration Cur. Status"](42821.md): DynamicsSLHistoricalData
+- [Table 42822 "SL Hist. GLSetup"](42822.md): DynamicsSLHistoricalData
+- [Table 42823 "SL Hist. GLTran Archive"](42823.md): DynamicsSLHistoricalData
+- [Table 42824 "SL Hist. APTran Archive"](42824.md): DynamicsSLHistoricalData
+- [Table 42825 "SL Hist. ARTran Archive"](42825.md): DynamicsSLHistoricalData
+- [Table 42826 "SL Hist. APDoc Archive"](42826.md): DynamicsSLHistoricalData
+- [Table 42827 "SL Hist. ARDoc Archive"](42827.md): DynamicsSLHistoricalData
+- [Table 42828 "SL Hist. INTran Archive"](42828.md): DynamicsSLHistoricalData
+- [Table 42829 "SL Hist. LotSerT Archive"](42829.md): DynamicsSLHistoricalData
+- [Table 42830 "SL Hist. PJTran"](42830.md): DynamicsSLHistoricalData
+- [Table 42831 "SL Hist. PJTranEx"](42831.md): DynamicsSLHistoricalData
+- [Table 42832 "SL Hist. PJProj"](42832.md): DynamicsSLHistoricalData
+- [Table 42833 "SL Hist. PJEmploy"](42833.md): DynamicsSLHistoricalData
+- [Table 46855 "BC14CompanyMigrationInfo"](46855.md): HybridBC14
+- [Table 46856 "BC14 Global Migration Settings"](46856.md): HybridBC14
+- [Table 46860 "BC14 Customer"](46860.md): HybridBC14
+- [Table 46861 "BC14 Item"](46861.md): HybridBC14
+- [Table 46862 "BC14 G/L Account"](46862.md): HybridBC14
+- [Table 46863 "BC14 Vendor"](46863.md): HybridBC14
+- [Table 46868 "BC14 G/L Entry"](46868.md): HybridBC14
+- [Table 46880 "BC14 Posted Sales Inv Header"](46880.md): HybridBC14
+- [Table 46881 "BC14 Posted Sales Inv Line"](46881.md): HybridBC14
+- [Table 46882 "BC14 Arch. Sales Inv. Header"](46882.md): HybridBC14HistoricalData
+- [Table 46883 "BC14 Arch. Sales Inv. Line"](46883.md): HybridBC14HistoricalData
+- [Table 46884 "BC14 Old G/L Entry"](46884.md): HybridBC14HistoricalData
+- [Table 46885 "BC14 Dimension Value"](46885.md): HybridBC14
+- [Table 46886 "BC14 Old Cust. Ledg. Entry"](46886.md): HybridBC14HistoricalData
+- [Table 46888 "BC14 Old Vendor Ledg. Entry"](46888.md): HybridBC14HistoricalData
+- [Table 46890 "BC14 Dimension"](46890.md): HybridBC14
+- [Table 46891 "BC14 Pmt. Terms"](46891.md): HybridBC14
+- [Table 46892 "BC14 Payment Method"](46892.md): HybridBC14
+- [Table 46893 "BC14 Currency"](46893.md): HybridBC14
+- [Table 46894 "BC14 Currency Exchange Rate"](46894.md): HybridBC14
+- [Table 46895 "BC14 Accounting Period"](46895.md): HybridBC14
+- [Table 46896 "BC14 Inventory Posting Group"](46896.md): HybridBC14
+- [Table 46898 "BC14 Inventory Posting Setup"](46898.md): HybridBC14
+- [Table 46899 "BC14 Old Item Ledg. Entry"](46899.md): HybridBC14HistoricalData
+- [Table 46900 "BC14 Country/Region"](46900.md): HybridBC14
+- [Table 46901 "BC14 Post Code"](46901.md): HybridBC14
+- [Table 46902 "BC14 Language"](46902.md): HybridBC14
+- [Table 46903 "BC14 Unit of Measure"](46903.md): HybridBC14
+- [Table 46904 "BC14 Customer Posting Group"](46904.md): HybridBC14
+- [Table 46905 "BC14 Vendor Posting Group"](46905.md): HybridBC14
+- [Table 46906 "BC14 Gen. Bus. Posting Group"](46906.md): HybridBC14
+- [Table 46907 "BC14 Gen. Prod. Posting Group"](46907.md): HybridBC14
+- [Table 46908 "BC14 VAT Bus. Posting Group"](46908.md): HybridBC14
+- [Table 46909 "BC14 VAT Prod. Posting Group"](46909.md): HybridBC14
+- [Table 46910 "BC14 General Posting Setup"](46910.md): HybridBC14
+- [Table 46911 "BC14 VAT Posting Setup"](46911.md): HybridBC14
+- [Table 46912 "BC14 Salesperson/Purchaser"](46912.md): HybridBC14
+- [Table 46913 "BC14 Shipment Method"](46913.md): HybridBC14
+- [Table 46914 "BC14 Territory"](46914.md): HybridBC14
+- [Table 46915 "BC14 Item Category"](46915.md): HybridBC14
+- [Table 46916 "BC14 Item Tracking Code"](46916.md): HybridBC14
+- [Table 46917 "BC14 Tariff Number"](46917.md): HybridBC14
+- [Table 46918 "BC14 Location"](46918.md): HybridBC14
+- [Table 46919 "BC14 Reason Code"](46919.md): HybridBC14
+- [Table 46920 "BC14 Source Code"](46920.md): HybridBC14
+- [Table 46921 "BC14 Cust. Price Group"](46921.md): HybridBC14
+- [Table 46922 "BC14 Customer Discount Group"](46922.md): HybridBC14
+- [Table 46923 "BC14 Item Discount Group"](46923.md): HybridBC14
+- [Table 46924 "BC14 Finance Charge Terms"](46924.md): HybridBC14
+- [Table 46925 "BC14 Reminder Terms"](46925.md): HybridBC14
+- [Table 46926 "BC14 Reminder Level"](46926.md): HybridBC14
+- [Table 46927 "BC14 Reminder Text"](46927.md): HybridBC14
+- [Table 46928 "BC14 No. Series"](46928.md): HybridBC14
+- [Table 46929 "BC14 No. Series Line"](46929.md): HybridBC14
+- [Table 46930 "BC14 Item Attribute"](46930.md): HybridBC14
+- [Table 46931 "BC14 Item Attribute Value"](46931.md): HybridBC14
+- [Table 46932 "BC14 Customer Bank Account"](46932.md): HybridBC14
+- [Table 46933 "BC14 Vendor Bank Account"](46933.md): HybridBC14
+- [Table 46934 "BC14 Ship-to Address"](46934.md): HybridBC14
+- [Table 46935 "BC14 BOM Component"](46935.md): HybridBC14
+- [Table 46936 "BC14 Resource"](46936.md): HybridBC14
+- [Table 46937 "BC14 Cust. Ledger Entry"](46937.md): HybridBC14
+- [Table 46938 "BC14 Detailed Cust. LE"](46938.md): HybridBC14
+- [Table 46941 "BC14 Vendor Ledger Entry"](46941.md): HybridBC14
+- [Table 46942 "BC14 Detailed Vendor LE"](46942.md): HybridBC14
+- [Table 46945 "BC14 Item Ledger Entry"](46945.md): HybridBC14
+- [Table 46946 "BC14 Value Entry"](46946.md): HybridBC14
+- [Table 47000 "SL Account Staging"](47000.md): HybridSL
+- [Table 47001 "SL Hist. Source Progress"](47001.md): HybridSL
+- [Table 47002 "SL Period List Work Table"](47002.md): HybridSL
+- [Table 47003 "SL Hist. Source Error"](47003.md): HybridSL
+- [Table 47004 "SLGLAcctBalByPeriod"](47004.md): HybridSL
+- [Table 47005 "SL Fiscal Periods"](47005.md): HybridSL
+- [Table 47006 "SL Account"](47006.md): HybridSL
+- [Table 47007 "SL AcctHist"](47007.md): HybridSL
+- [Table 47008 "SL Segments"](47008.md): HybridSL
+- [Table 47009 "SL GLSetup"](47009.md): HybridSL
+- [Table 47010 "SL AR_Balances"](47010.md): HybridSL
+- [Table 47011 "SL ARSetup"](47011.md): HybridSL
+- [Table 47012 "SL Customer"](47012.md): HybridSL
+- [Table 47013 "SL SOSetup"](47013.md): HybridSL
+- [Table 47014 "SL INSetup"](47014.md): HybridSL
+- [Table 47015 "SL Inventory"](47015.md): HybridSL, obsolete 28.0
+- [Table 47016 "SL InventoryADG"](47016.md): HybridSL
+- [Table 47017 "SL Migration Config"](47017.md): HybridSL
+- [Table 47018 "SL Account Staging Setup"](47018.md): HybridSL
+- [Table 47019 "SL Codes"](47019.md): HybridSL
+- [Table 47020 "SL ItemCost"](47020.md): HybridSL, obsolete 28.0
+- [Table 47021 "SL APDoc"](47021.md): HybridSL, obsolete 28.0
+- [Table 47022 "SL APTran"](47022.md): HybridSL, obsolete 28.0
+- [Table 47023 "SL APAdjust"](47023.md): HybridSL
+- [Table 47024 "SL ARDoc"](47024.md): HybridSL, obsolete 28.0
+- [Table 47025 "SL ARTran"](47025.md): HybridSL, obsolete 28.0
+- [Table 47026 "SL ARAdjust"](47026.md): HybridSL
+- [Table 47027 "SL Batch"](47027.md): HybridSL
+- [Table 47028 "SL INTran"](47028.md): HybridSL, obsolete 28.0
+- [Table 47029 "SL LotSerT"](47029.md): HybridSL, obsolete 28.0
+- [Table 47030 "SL Migration Errors"](47030.md): HybridSL
+- [Table 47031 "SL PurOrdDet"](47031.md): HybridSL
+- [Table 47032 "SL POReceipt"](47032.md): HybridSL
+- [Table 47033 "SL POTran"](47033.md): HybridSL
+- [Table 47034 "SL SOHeader"](47034.md): HybridSL, obsolete 29.0
+- [Table 47035 "SL SOLine"](47035.md): HybridSL, obsolete 29.0
+- [Table 47036 "SL SOShipHeader"](47036.md): HybridSL
+- [Table 47037 "SL SOShipLine"](47037.md): HybridSL
+- [Table 47038 "SL SOShipLot"](47038.md): HybridSL
+- [Table 47039 "SL PurchOrd"](47039.md): HybridSL
+- [Table 47040 "SL Payment Terms"](47040.md): HybridSL
+- [Table 47041 "SL ItemSite"](47041.md): HybridSL, obsolete 28.0
+- [Table 47042 "SL LotSerMst"](47042.md): HybridSL, obsolete 28.0
+- [Table 47043 "SL FlexDef"](47043.md): HybridSL
+- [Table 47044 "SL SegDef"](47044.md): HybridSL
+- [Table 47045 "SL Terms"](47045.md): HybridSL
+- [Table 47046 "SL AP_Balances"](47046.md): HybridSL
+- [Table 47047 "SL APSetup"](47047.md): HybridSL
+- [Table 47048 "SL POSetup"](47048.md): HybridSL
+- [Table 47049 "SL Vendor"](47049.md): HybridSL
+- [Table 47050 "SL GLTran"](47050.md): HybridSL, obsolete 28.0
+- [Table 47051 "SL SOType"](47051.md): HybridSL, obsolete 29.0
+- [Table 47052 "SL Company Migration Settings"](47052.md): HybridSL
+- [Table 47053 "SL Segment Name"](47053.md): HybridSL
+- [Table 47054 "SL AccountTransactions"](47054.md): HybridSL
+- [Table 47055 "SL POAddress"](47055.md): HybridSL
+- [Table 47056 "SL SOAddress"](47056.md): HybridSL
+- [Table 47057 "SL Site"](47057.md): HybridSL
+- [Table 47058 "SL SalesTax"](47058.md): HybridSL
+- [Table 47059 "SL PJAddr"](47059.md): HybridSL
+- [Table 47060 "SL PJCode"](47060.md): HybridSL
+- [Table 47061 "SL Company Additional Settings"](47061.md): HybridSL
+- [Table 47062 "SL Migration Warnings"](47062.md): HybridSL
+- [Table 47063 "SL Migration Error Overview"](47063.md): HybridSL
+- [Table 47064 "SL Upgrade Settings"](47064.md): HybridSL
+- [Table 47065 "SL PJEmploy"](47065.md): HybridSL, obsolete 28.0
+- [Table 47066 "SL PJEmpPjt"](47066.md): HybridSL, obsolete 28.0
+- [Table 47067 "SL PJEquip"](47067.md): HybridSL, obsolete 28.0
+- [Table 47068 "SL PJPent"](47068.md): HybridSL, obsolete 28.0
+- [Table 47069 "SL PJProj"](47069.md): HybridSL, obsolete 28.0
+- [Table 47070 "SL PJEQRate"](47070.md): HybridSL, obsolete 28.0
+- [Table 47071 "SL CustClass"](47071.md): HybridSL
+- [Table 47072 "SL VendClass"](47072.md): HybridSL
+- [Table 47073 "SL APDoc Buffer"](47073.md): HybridSL
+- [Table 47074 "SL ARDoc Buffer"](47074.md): HybridSL
+- [Table 47075 "SL APTran Buffer"](47075.md): HybridSL
+- [Table 47076 "SL ARTran Buffer"](47076.md): HybridSL
+- [Table 47077 "SL GLTran Buffer"](47077.md): HybridSL
+- [Table 47078 "SL PJProj Buffer"](47078.md): HybridSL
+- [Table 47079 "SL PJEmploy Buffer"](47079.md): HybridSL
+- [Table 47080 "SL PJEquip Buffer"](47080.md): HybridSL
+- [Table 47081 "SL PJEmpPjt Buffer"](47081.md): HybridSL
+- [Table 47082 "SL PJEQRate Buffer"](47082.md): HybridSL
+- [Table 47083 "SL PJPent Buffer"](47083.md): HybridSL
+- [Table 47084 "SL Inventory Buffer"](47084.md): HybridSL
+- [Table 47085 "SL ItemCost Buffer"](47085.md): HybridSL
+- [Table 47086 "SL ItemSite Buffer"](47086.md): HybridSL
+- [Table 47087 "SL LotSerMst Buffer"](47087.md): HybridSL
+- [Table 47088 "SL INTran Buffer"](47088.md): HybridSL
+- [Table 47089 "SL LotSerT Buffer"](47089.md): HybridSL
+- [Table 47090 "SL CASetup"](47090.md): HybridSL
+- [Table 47091 "SL Post Migration Data Log"](47091.md): HybridSL
+- [Table 47093 "SL CashSumD"](47093.md): HybridSL
+- [Table 47094 "SL CashAcct"](47094.md): HybridSL
+- [Table 47095 "SL Address"](47095.md): HybridSL
+- [Table 47096 "SL PurchOrd Buffer"](47096.md): HybridSL
+- [Table 47097 "SL PurOrdDet Buffer"](47097.md): HybridSL
+- [Table 47098 "SL INUnit"](47098.md): HybridSL
+- [Table 47099 "SL SOHeader Buffer"](47099.md): HybridSL
+- [Table 47100 "SL SOLine Buffer"](47100.md): HybridSL
+- [Table 47101 "SL SOType Buffer"](47101.md): HybridSL
+- [Table 47104 "SL ProductClass"](47104.md): HybridSL
+- [Table 47105 "SL PJTran"](47105.md): HybridSL
+- [Table 47106 "SL PJTranEx"](47106.md): HybridSL
+- [Table 48500 "Fabric Config Package Line"](48500.md): MicrosoftFabricMirroring
+- [Table 48501 "Fabric Config Package"](48501.md): MicrosoftFabricMirroring
+- [Table 48533 "Fabric Table Claim"](48533.md): MicrosoftFabricMirroring
+- [Table 130400 "CAL Test Suite"](130400.md): Base Application
+- [Table 130401 "CAL Test Line"](130401.md): Base Application
+- [Table 130402 "CAL Test Codeunit"](130402.md): Base Application
+- [Table 130403 "CAL Test Enabled Codeunit"](130403.md): Base Application
+- [Table 130404 "CAL Test Method"](130404.md): Base Application
+- [Table 130405 "CAL Test Result"](130405.md): Base Application
+- [Table 130406 "CAL Test Coverage Map"](130406.md): Base Application
+- [Table 130415 "Semi-Manual Test Wizard"](130415.md): Base Application
+- [Table 130416 "Semi-Manual Execution Log"](130416.md): Base Application
+- [Table 99000750 "Work Shift"](99000750.md): Base Application
+- [Table 99000751 "Shop Calendar"](99000751.md): Base Application
+- [Table 99000752 "Shop Calendar Working Days"](99000752.md): Base Application
+- [Table 99000753 "Shop Calendar Holiday"](99000753.md): Base Application
+- [Table 99000754 "Work Center"](99000754.md): Base Application
+- [Table 99000756 "Work Center Group"](99000756.md): Base Application
+- [Table 99000757 "Calendar Entry"](99000757.md): Base Application
+- [Table 99000758 "Machine Center"](99000758.md): Base Application
+- [Table 99000760 "Calendar Absence Entry"](99000760.md): Base Application
+- [Table 99000761 "Stop"](99000761.md): Base Application
+- [Table 99000762 "Scrap"](99000762.md): Base Application
+- [Table 99000763 "Routing Header"](99000763.md): Base Application
+- [Table 99000764 "Routing Line"](99000764.md): Base Application
+- [Table 99000765 "Manufacturing Setup"](99000765.md): Base Application
+- [Table 99000770 "Manufacturing Comment Line"](99000770.md): Base Application
+- [Table 99000771 "Production BOM Header"](99000771.md): Base Application
+- [Table 99000772 "Production BOM Line"](99000772.md): Base Application
+- [Table 99000773 "Family"](99000773.md): Base Application
+- [Table 99000774 "Family Line"](99000774.md): Base Application
+- [Table 99000775 "Routing Comment Line"](99000775.md): Base Application
+- [Table 99000776 "Production BOM Comment Line"](99000776.md): Base Application
+- [Table 99000777 "Routing Link"](99000777.md): Base Application
+- [Table 99000778 "Standard Task"](99000778.md): Base Application
+- [Table 99000779 "Production BOM Version"](99000779.md): Base Application
+- [Table 99000780 "Capacity Unit of Measure"](99000780.md): Base Application
+- [Table 99000781 "Standard Task Tool"](99000781.md): Base Application
+- [Table 99000782 "Standard Task Personnel"](99000782.md): Base Application
+- [Table 99000783 "Standard Task Description"](99000783.md): Base Application
+- [Table 99000784 "Standard Task Quality Measure"](99000784.md): Base Application
+- [Table 99000785 "Quality Measure"](99000785.md): Base Application
+- [Table 99000786 "Routing Version"](99000786.md): Base Application
+- [Table 99000788 "Production Matrix BOM Line"](99000788.md): Base Application
+- [Table 99000789 "Production Matrix BOM Entry"](99000789.md): Base Application
+- [Table 99000790 "Where-Used Line"](99000790.md): Base Application
+- [Table 99000799 "Order Tracking Entry"](99000799.md): Base Application
+- [Table 99000800 "Sales Planning Line"](99000800.md): Base Application
+- [Table 99000802 "Routing Tool"](99000802.md): Base Application
+- [Table 99000803 "Routing Personnel"](99000803.md): Base Application
+- [Table 99000805 "Routing Quality Measure"](99000805.md): Base Application
+- [Table 99000829 "Planning Component"](99000829.md): Base Application
+- [Table 99000830 "Planning Routing Line"](99000830.md): Base Application
+- [Table 99000832 "Item Availability Line"](99000832.md): Base Application
+- [Table 99000846 "Planning Buffer"](99000846.md): Base Application
+- [Table 99000848 "Registered Absence"](99000848.md): Base Application
+- [Table 99000849 "Action Message Entry"](99000849.md): Base Application
+- [Table 99000850 "Planning Assignment"](99000850.md): Base Application
+- [Table 99000851 "Production Forecast Name"](99000851.md): Base Application
+- [Table 99000852 "Production Forecast Entry"](99000852.md): Base Application
+- [Table 99000853 "Inventory Profile"](99000853.md): Base Application
+- [Table 99000854 "Inventory Profile Track Buffer"](99000854.md): Base Application
+- [Table 99000855 "Untracked Planning Element"](99000855.md): Base Application
+- [Table 99000865 "Planning Parameters"](99000865.md): Base Application
+- [Table 99000866 "Capacity Constrained Resource"](99000866.md): Base Application
+- [Table 99000875 "Order Promising Setup"](99000875.md): Base Application
+- [Table 99000880 "Order Promising Line"](99000880.md): Base Application
