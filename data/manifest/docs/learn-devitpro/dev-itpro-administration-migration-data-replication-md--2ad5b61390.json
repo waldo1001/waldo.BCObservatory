@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-data-replication",
   "published_at": "2026-02-11T08:28:04.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "023afd7e60da7f613f413abee7751f3ca43c1cee",
       "words": 732,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:49:44.227Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.00543
+    },
+    "summarized": {
+      "at": "2026-10-06T18:49:49.222Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:49:49.223Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:49:51.076Z",
+      "page": false
     }
   },
   "input_hash": "023afd7e60da7f613f413abee7751f3ca43c1cee",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "023afd7e60da7f613f413abee7751f3ca43c1cee"
+  "output_hash": "5533aca22f4c524f3f56e3a59e6c8d97c76b2bf04aaac8e1f4eedcb835699bf2"
 }

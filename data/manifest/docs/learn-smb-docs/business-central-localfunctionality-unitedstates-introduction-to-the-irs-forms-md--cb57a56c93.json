@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/introduction-to-the-irs-forms",
   "published_at": "2026-02-04T17:33:48.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "e9c8d71adc7f7939fbba8546d203142d03b3499d",
       "words": 502,
       "forms": 4
+    },
+    "extracted": {
+      "at": "2026-10-06T18:49:44.232Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.00543
+    },
+    "summarized": {
+      "at": "2026-10-06T18:49:51.089Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:49:51.090Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:49:51.091Z",
+      "page": false
     }
   },
   "input_hash": "e9c8d71adc7f7939fbba8546d203142d03b3499d",
@@ -61,5 +80,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e9c8d71adc7f7939fbba8546d203142d03b3499d"
+  "output_hash": "2081c57dd9786e7d4b06c2c69a91c8f89d93b30f029148e46c7b29e8242318a9"
 }

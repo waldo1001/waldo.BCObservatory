@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-101.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-101",
+  "title": "Customer List (report)",
+  "blob": "134d86538e7408b9163a451b1ee5b12918643018",
+  "summary": "Customer List report shows basic customer information including posting groups, discount groups, finance charge and payment details. Use it to maintain customer information and prepare customer account summaries or sales reports.",
+  "systems": [
+    "sales",
+    "crm"
+  ],
+  "topics": [
+    "reporting",
+    "customer management",
+    "accounts receivable",
+    "sales data"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Customer List"
+    }
+  ],
+  "features": [
+    "customer posting group",
+    "discount group",
+    "finance charge information",
+    "payment information"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005488,
+      "pages_in_call": 8
+    }
+  ]
+}

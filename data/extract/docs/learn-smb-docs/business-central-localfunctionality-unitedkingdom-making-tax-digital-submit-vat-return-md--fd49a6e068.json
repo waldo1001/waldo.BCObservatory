@@ -1,0 +1,101 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/UnitedKingdom/making-tax-digital-submit-vat-return.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/making-tax-digital-submit-vat-return",
+  "title": "Making Tax Digital - Submitting VAT Returns",
+  "blob": "b31f28fb0d524ad65e46103c1aaaf020fe9eb6de",
+  "summary": "Explains Making Tax Digital for VAT in United Kingdom, including setup with HMRC service connection, retrieving VAT obligations, creating and submitting VAT returns, and retrieving VAT liabilities and payments.",
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "vat reporting",
+    "making tax digital",
+    "hmrc integration",
+    "united kingdom",
+    "vat return"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Service Connections"
+    },
+    {
+      "type": "page",
+      "name": "HMRC VAT Setup"
+    },
+    {
+      "type": "page",
+      "name": "VAT Return Periods"
+    },
+    {
+      "type": "page",
+      "name": "VAT Return"
+    },
+    {
+      "type": "page",
+      "name": "VAT Report Setup"
+    },
+    {
+      "type": "page",
+      "name": "VAT Liabilities"
+    },
+    {
+      "type": "page",
+      "name": "VAT Payments"
+    },
+    {
+      "type": "report",
+      "name": "VAT Return"
+    },
+    {
+      "type": "codeunit",
+      "name": "745"
+    },
+    {
+      "type": "codeunit",
+      "name": "10531"
+    },
+    {
+      "type": "codeunit",
+      "name": "10532"
+    },
+    {
+      "type": "codeunit",
+      "name": "10533"
+    },
+    {
+      "type": "codeunit",
+      "name": "10534"
+    },
+    {
+      "type": "codeunit",
+      "name": "10535"
+    },
+    {
+      "type": "codeunit",
+      "name": "10536"
+    }
+  ],
+  "features": [
+    "Retrieve VAT obligations",
+    "Create VAT return",
+    "Suggest lines",
+    "Release VAT return",
+    "Submit VAT return",
+    "Get VAT liabilities",
+    "Get VAT payments",
+    "Fraud prevention data"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00543,
+      "pages_in_call": 8
+    }
+  ]
+}

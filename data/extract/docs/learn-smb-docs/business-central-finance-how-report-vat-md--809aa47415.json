@@ -1,0 +1,55 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-how-report-vat.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-report-vat",
+  "title": "Submit VAT reports to tax authorities",
+  "blob": "8803317937d9221ce474254d29ab3043972210ee",
+  "summary": "Submit VAT reports to tax authorities describes VAT reporting features including EC Sales List and VAT Return reports for different regions. It explains setup, submission, and VAT settlement processes.",
+  "systems": [
+    "finance",
+    "administration",
+    "localization"
+  ],
+  "topics": [
+    "vat reporting",
+    "tax compliance",
+    "regulatory reporting",
+    "vat settlement"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "EC Sales List"
+    },
+    {
+      "type": "report",
+      "name": "VAT Return"
+    },
+    {
+      "type": "page",
+      "name": "VAT Entries"
+    },
+    {
+      "type": "page",
+      "name": "VAT Return Periods"
+    }
+  ],
+  "features": [
+    "EC Sales List report",
+    "VAT Return report",
+    "VAT settlement",
+    "service connection",
+    "test mode",
+    "error validation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005488,
+      "pages_in_call": 8
+    }
+  ]
+}

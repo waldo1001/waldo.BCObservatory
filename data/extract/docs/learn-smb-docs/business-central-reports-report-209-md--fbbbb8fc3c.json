@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-209.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-209",
+  "title": "Sales Reservation Avail. (report)",
+  "blob": "4401238efa9a3c388b4b9786546df2c2d59ccdfc",
+  "summary": "Sales Reservation Avail. report shows item availability for shipment on sales documents based on inventory reservations. When printed, it allows updating quantities to ship and helps determine which sales orders to fulfill based on inventory.",
+  "systems": [
+    "sales",
+    "inventory",
+    "warehouse"
+  ],
+  "topics": [
+    "reporting",
+    "inventory management",
+    "sales fulfillment",
+    "reservations"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Sales Reservation Avail."
+    }
+  ],
+  "features": [
+    "item availability",
+    "inventory reservations",
+    "quantity to ship",
+    "shipment status",
+    "document status"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005488,
+      "pages_in_call": 8
+    }
+  ]
+}

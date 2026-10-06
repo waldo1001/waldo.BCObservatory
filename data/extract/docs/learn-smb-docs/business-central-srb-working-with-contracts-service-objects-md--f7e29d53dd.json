@@ -1,0 +1,48 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/SRB/working-with-contracts/service-objects.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/SRB/working-with-contracts/service-objects",
+  "title": "Subscriptions",
+  "blob": "3fbf1500c9855a7eb401d866d393257db9dac1cd",
+  "summary": "Subscriptions represent a history of products sold to customers with recurring billing information including item details, customer data, quantity, dates, and subscription lines with pricing and terms.",
+  "systems": [
+    "sales",
+    "service",
+    "integration"
+  ],
+  "topics": [
+    "subscriptions",
+    "recurring billing",
+    "sales commitments",
+    "item tracking",
+    "contract management"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Subscriptions"
+    },
+    {
+      "type": "page",
+      "name": "Subscription Attribute Values"
+    }
+  ],
+  "features": [
+    "subscription creation",
+    "serial number tracking",
+    "subscription attributes",
+    "subscription lines",
+    "pricing management",
+    "quantity changes"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005488,
+      "pages_in_call": 8
+    }
+  ]
+}

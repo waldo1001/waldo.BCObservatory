@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/migrate-data-replication-run.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-data-replication-run",
+  "title": "Run and manage data replication",
+  "blob": "3d274b99de8d052bac03247091f30661d1e52440",
+  "summary": "Run and manage data replication from on-premises database to online Business Central environment using Cloud Migration Management page, including diagnostic runs, monitoring progress, and troubleshooting errors.",
+  "systems": [
+    "integration",
+    "administration"
+  ],
+  "topics": [
+    "cloud migration",
+    "data replication",
+    "on-premises migration",
+    "diagnostic run",
+    "migration monitoring"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Cloud Migration Management"
+    }
+  ],
+  "features": [
+    "Create diagnostics run",
+    "Run data replication",
+    "Monitor migration progress",
+    "Migration Log tracking",
+    "Abandon migration",
+    "Pause migration"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00543,
+      "pages_in_call": 8
+    }
+  ]
+}

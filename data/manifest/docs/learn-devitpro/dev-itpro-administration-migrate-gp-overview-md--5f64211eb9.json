@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-gp-overview",
   "published_at": "2026-02-11T08:28:04.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "4eb73bd943db53e85a18714cccf5d95ce08091b2",
       "words": 1690,
       "forms": 2
+    },
+    "extracted": {
+      "at": "2026-10-06T18:49:44.225Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.00543
+    },
+    "summarized": {
+      "at": "2026-10-06T18:49:49.218Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:49:49.219Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:49:49.220Z",
+      "page": false
     }
   },
   "input_hash": "4eb73bd943db53e85a18714cccf5d95ce08091b2",
@@ -49,5 +68,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "4eb73bd943db53e85a18714cccf5d95ce08091b2"
+  "output_hash": "001f16e09ccd255f69094e7d37cf0c55ba8237fded68fdc95036a5754f831cc2"
 }

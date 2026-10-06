@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/migrate-gp-overview.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-gp-overview",
+  "title": "Migrate on-premises GP data to Business Central online overview",
+  "blob": "4eb73bd943db53e85a18714cccf5d95ce08091b2",
+  "summary": "End-to-end overview of migrating Dynamics GP on-premises data to Business Central online, including assessment, preparation, cloud migration setup, data replication, upgrade, validation, and completion phases.",
+  "systems": [
+    "integration",
+    "administration"
+  ],
+  "topics": [
+    "dynamics gp migration",
+    "cloud migration",
+    "data replication",
+    "on-premises",
+    "azure data factory"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Cloud Migration Management"
+    }
+  ],
+  "features": [
+    "Migration assessment tool",
+    "Data replication",
+    "Company configuration",
+    "Data upgrade",
+    "Data validation",
+    "Intelligent Cloud permission set"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00543,
+      "pages_in_call": 8
+    }
+  ]
+}

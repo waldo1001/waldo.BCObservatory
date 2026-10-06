@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-119.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-119",
+  "title": "Customer - Sales list (report)",
+  "blob": "1937bd31bea809535f268806f84d913114235787",
+  "summary": "Customer - Sales list report displays customer sales for a specified period in local currency. You can filter by minimum sales amount and optionally include address details for each customer.",
+  "systems": [
+    "sales",
+    "finance"
+  ],
+  "topics": [
+    "reporting",
+    "sales analysis",
+    "customer sales",
+    "tax compliance"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Customer - Sales list"
+    }
+  ],
+  "features": [
+    "sales amount filtering",
+    "minimum sales threshold",
+    "address details",
+    "currency conversion",
+    "date filtering"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005488,
+      "pages_in_call": 8
+    }
+  ]
+}

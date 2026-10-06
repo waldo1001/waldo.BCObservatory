@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/making-tax-digital-submit-vat-return",
   "published_at": "2026-02-09T13:28:10.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "b31f28fb0d524ad65e46103c1aaaf020fe9eb6de",
       "words": 2131,
       "forms": 7
+    },
+    "extracted": {
+      "at": "2026-10-06T18:49:44.229Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 15,
+      "cost_usd": 0.00543
+    },
+    "summarized": {
+      "at": "2026-10-06T18:49:51.081Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:49:51.082Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:49:51.082Z",
+      "page": false
     }
   },
   "input_hash": "b31f28fb0d524ad65e46103c1aaaf020fe9eb6de",
@@ -75,5 +94,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b31f28fb0d524ad65e46103c1aaaf020fe9eb6de"
+  "output_hash": "a2d8514008633f53a354e5264c3e57270e0adab45b5dbdb858b9f96bcbd6cb03"
 }

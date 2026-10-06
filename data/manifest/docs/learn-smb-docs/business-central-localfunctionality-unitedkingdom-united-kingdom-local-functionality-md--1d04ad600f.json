@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/united-kingdom-local-functionality",
   "published_at": "2026-02-09T13:28:10.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "b1879b0c8f1debd9da96306dc97c5b10cbbf82f5",
       "words": 234,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:49:44.230Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00543
+    },
+    "summarized": {
+      "at": "2026-10-06T18:49:51.084Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:49:51.085Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:49:51.086Z",
+      "page": false
     }
   },
   "input_hash": "b1879b0c8f1debd9da96306dc97c5b10cbbf82f5",
@@ -37,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b1879b0c8f1debd9da96306dc97c5b10cbbf82f5"
+  "output_hash": "31f957ac2b5b33072cb0fc1b012e51dde98b620e512ab2f8e7d3b3b85305345b"
 }

@@ -1,0 +1,46 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/ad-hoc-analysis-sales.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-sales",
+  "title": "Ad-hoc analysis of sales data",
+  "blob": "eddf43f9d3194dc219a4ef8183f2769f7ede5a0e",
+  "summary": "Ad-hoc analysis of sales data feature enables interactive analysis of sales information directly from list pages using the Data Analysis feature. It provides quick fact-checking and custom views without running predefined reports.",
+  "systems": [
+    "sales",
+    "reporting"
+  ],
+  "topics": [
+    "data analysis",
+    "sales analysis",
+    "interactive analysis",
+    "accounts receivable"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Sales Orders"
+    },
+    {
+      "type": "page",
+      "name": "Customer Ledger Entries"
+    }
+  ],
+  "features": [
+    "analysis mode",
+    "pivot tables",
+    "row groups",
+    "column labels",
+    "filtering",
+    "custom tabs"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005488,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/SRB/sales/sales-service-commitments",
   "published_at": "2026-02-06T12:32:44.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "ccb630236680287833a1a952c1b560af51f96614",
       "words": 1286,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T18:49:44.231Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.00543
+    },
+    "summarized": {
+      "at": "2026-10-06T18:49:51.087Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:49:51.087Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:49:51.088Z",
+      "page": false
     }
   },
   "input_hash": "ccb630236680287833a1a952c1b560af51f96614",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ccb630236680287833a1a952c1b560af51f96614"
+  "output_hash": "2e184bd5d8c8ce0f69a0d1686315b5921c0a99733eaafb3e3e09bc31a33e7b92"
 }

@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/SRB/sales/sales-service-commitments.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/SRB/sales/sales-service-commitments",
+  "title": "Sales with subscription lines",
+  "blob": "ccb630236680287833a1a952c1b560af51f96614",
+  "summary": "Sales with subscription lines enables recording monetary agreements with customers by creating sales quotes or orders with recurring billing subscription lines that transfer to subscriptions upon shipment.",
+  "systems": [
+    "sales"
+  ],
+  "topics": [
+    "subscription billing",
+    "sales orders",
+    "recurring billing",
+    "subscription lines",
+    "contracts"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Subscription Contract Setup"
+    }
+  ],
+  "features": [
+    "Assign subscription lines",
+    "Print subscription lines",
+    "Shipping subscription lines",
+    "Inventory picks",
+    "Archive documents",
+    "Contract renewal"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00543,
+      "pages_in_call": 8
+    }
+  ]
+}

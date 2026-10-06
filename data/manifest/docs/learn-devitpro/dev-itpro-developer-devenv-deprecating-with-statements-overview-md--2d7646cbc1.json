@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-deprecating-with-statements-overview",
   "published_at": "2026-02-09T15:30:51.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "f316485836472d21f916ab2c4b3e0ff0a3e04acd",
       "words": 1118,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:49:44.228Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00543
+    },
+    "summarized": {
+      "at": "2026-10-06T18:49:51.078Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:49:51.079Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:49:51.080Z",
+      "page": false
     }
   },
   "input_hash": "f316485836472d21f916ab2c4b3e0ff0a3e04acd",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f316485836472d21f916ab2c4b3e0ff0a3e04acd"
+  "output_hash": "1fca236e8ab772b0b64d530b7517d8e1edb1c4a6b8cb5f7b0bf06ba6853185c7"
 }

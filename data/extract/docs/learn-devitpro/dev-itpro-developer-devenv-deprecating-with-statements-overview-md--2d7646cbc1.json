@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-deprecating-with-statements-overview.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-deprecating-with-statements-overview",
+  "title": "Deprecating explicit and implicit with statements",
+  "blob": "f316485836472d21f916ab2c4b3e0ff0a3e04acd",
+  "summary": "Explains deprecation of explicit and implicit 'with' statements in AL code and provides solutions using pragmas, qualifications, and NoImplicitWith flag for safer code during platform upgrades.",
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "al language",
+    "with statements",
+    "code deprecation",
+    "pragmas",
+    "symbol lookup"
+  ],
+  "objects": [],
+  "features": [
+    "Explicit with statement deprecation",
+    "Implicit with statement deprecation",
+    "AL0604 warning",
+    "AL0606 warning",
+    "pragma directive",
+    "NoImplicitWith flag"
+  ],
+  "versions": [
+    "2022 release wave 2"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00543,
+      "pages_in_call": 8
+    }
+  ]
+}

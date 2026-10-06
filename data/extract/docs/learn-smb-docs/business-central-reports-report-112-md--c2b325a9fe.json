@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-112.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-112",
+  "title": "Sales Statistics (report)",
+  "blob": "09db3513a6f362c00fed3c3a7d66643a2adfd0aa",
+  "summary": "Sales Statistics report shows sales amounts, profit, discounts, and profit percentage for each customer across three selectable periods. It displays original and adjusted costs and profits reflecting item cost changes.",
+  "systems": [
+    "sales",
+    "finance"
+  ],
+  "topics": [
+    "reporting",
+    "sales analysis",
+    "profitability",
+    "customer performance"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Sales Statistics"
+    }
+  ],
+  "features": [
+    "sales amounts",
+    "profit calculation",
+    "invoice discount",
+    "payment discount",
+    "profit percentage",
+    "cost adjustment"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005488,
+      "pages_in_call": 8
+    }
+  ]
+}

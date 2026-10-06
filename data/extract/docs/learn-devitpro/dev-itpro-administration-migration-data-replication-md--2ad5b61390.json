@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/migration-data-replication.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-data-replication",
+  "title": "Data replication overview",
+  "blob": "023afd7e60da7f613f413abee7751f3ca43c1cee",
+  "summary": "Describes data replication process from on-premises to Business Central online including large and small table flows, Azure BLOB storage, Azure Data Factory, company initialization, and rerunning replication with change tracking.",
+  "systems": [
+    "integration",
+    "administration"
+  ],
+  "topics": [
+    "data replication",
+    "azure data factory",
+    "cloud migration",
+    "change tracking",
+    "company initialization"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Cloud Migration Management"
+    },
+    {
+      "type": "page",
+      "name": "Hybrid Companies"
+    }
+  ],
+  "features": [
+    "Large table flow",
+    "Small table flow",
+    "Azure BLOB storage",
+    "Integration runtime",
+    "Change tracking",
+    "Company initialization"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00543,
+      "pages_in_call": 8
+    }
+  ]
+}
