@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/teams-access-with-m365-license",
   "published_at": "2025-05-02T07:40:20.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "a3afc3076114fdd888c7c85bfeedf72829774091",
       "words": 199,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:43:16.892Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002277
+    },
+    "summarized": {
+      "at": "2026-10-06T19:43:19.026Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:43:19.026Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:43:19.027Z",
+      "page": false
     }
   },
   "input_hash": "a3afc3076114fdd888c7c85bfeedf72829774091",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a3afc3076114fdd888c7c85bfeedf72829774091"
+  "output_hash": "71c97e61952e7d7f50849ac02a5628b929399a19c3353ef630b4187d90d4cb4b"
 }

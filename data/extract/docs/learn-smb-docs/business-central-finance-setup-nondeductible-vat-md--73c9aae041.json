@@ -1,0 +1,48 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-setup-nondeductible-vat.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-setup-nondeductible-vat",
+  "title": "Set up nondeductible VAT",
+  "blob": "083e9f830a0ba9dbcaa63c37ccef034d07869b9f",
+  "summary": "Set up nondeductible VAT to handle value-added tax that isn't deductible from a purchaser's VAT liability. Configure which costs include nondeductible VAT and specify posting accounts and percentages in VAT Posting Setup.",
+  "systems": [
+    "finance"
+  ],
+  "topics": [
+    "vat",
+    "tax",
+    "deductibility",
+    "posting accounts",
+    "cost management"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "VAT Setup"
+    },
+    {
+      "type": "table",
+      "name": "VAT Posting Setup"
+    }
+  ],
+  "features": [
+    "Enable Non-Deductible VAT",
+    "Use For Item Cost",
+    "Use For Fixed Asset Cost",
+    "Use For Job Cost",
+    "Show Non-Ded. VAT In Lines",
+    "Allow Non-Deductible VAT",
+    "Non-Deductible VAT %",
+    "Non-Deductible Purchase VAT Account"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004095,
+      "pages_in_call": 8
+    }
+  ]
+}

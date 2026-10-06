@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-customizing-overview",
   "published_at": "2025-05-02T07:40:20.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "6b6546a06304b619261512954ef38d2b66b5fe29",
       "words": 320,
       "forms": 2
+    },
+    "extracted": {
+      "at": "2026-10-06T19:43:16.894Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002277
+    },
+    "summarized": {
+      "at": "2026-10-06T19:43:19.033Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:43:19.034Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:43:20.832Z",
+      "page": false
     }
   },
   "input_hash": "6b6546a06304b619261512954ef38d2b66b5fe29",
@@ -51,5 +70,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6b6546a06304b619261512954ef38d2b66b5fe29"
+  "output_hash": "d7f41d1234adad9a419607d9382124829138d3122951cf4e1eb5c3e0aeb8d68d"
 }

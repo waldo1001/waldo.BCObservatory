@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/install-desktop-app",
   "published_at": "2025-05-02T07:40:20.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "3baaff5a5a435126199179c38abd13040cb8d402",
       "words": 659,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:43:19.017Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.004095
+    },
+    "summarized": {
+      "at": "2026-10-06T19:43:20.847Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:43:20.848Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:43:20.849Z",
+      "page": false
     }
   },
   "input_hash": "3baaff5a5a435126199179c38abd13040cb8d402",
@@ -38,5 +57,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "3baaff5a5a435126199179c38abd13040cb8d402"
+  "output_hash": "42996d23c96a1e7d69a3350119541e6c25eab7f7f5f3d1b4eeeceb525ef26ab6"
 }

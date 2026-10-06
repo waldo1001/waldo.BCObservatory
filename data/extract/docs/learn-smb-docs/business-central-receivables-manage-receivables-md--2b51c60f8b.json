@@ -1,0 +1,59 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/receivables-manage-receivables.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/receivables-manage-receivables",
+  "title": "Overview of tasks to manage receivables",
+  "blob": "5b935dee077f19eb53ac4faf7c4de14f0e4b2f1b",
+  "summary": "Manage receivables by applying payments to customer ledger entries, reconciling bank accounts, collecting outstanding balances, and setting up automatic payment application rules. Use Payment Reconciliation Journal, Payment Registration, or Cash Receipt Journal.",
+  "systems": [
+    "sales",
+    "finance"
+  ],
+  "topics": [
+    "receivables",
+    "payment reconciliation",
+    "bank reconciliation",
+    "customer ledger",
+    "payment application"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Payment Reconciliation Journal"
+    },
+    {
+      "type": "page",
+      "name": "Bank Account Reconciliations"
+    },
+    {
+      "type": "page",
+      "name": "Payment Registration"
+    },
+    {
+      "type": "page",
+      "name": "Cash Receipt Journal"
+    },
+    {
+      "type": "page",
+      "name": "Payment Application Rules"
+    }
+  ],
+  "features": [
+    "Payment Reconciliation Journal",
+    "Bank Account Reconciliations",
+    "Payment Registration",
+    "Cash Receipt Journal",
+    "Automatic payment matching",
+    "Payment Application Rules"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004095,
+      "pages_in_call": 8
+    }
+  ]
+}

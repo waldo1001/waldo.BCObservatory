@@ -1,0 +1,28 @@
+{
+  "video_id": "qP0id91bIlA",
+  "item_id": "video/yt-microsoft/qP0id91bIlA",
+  "summary": "Design guidance for generative AI experiences in Business Central (2024 release wave 1): the three-stage prompt dialogue page type, undo and preview safeguards, human-in-the-loop design, and the Copilot menu. Demos cover suggesting sales lines and mapping e-document lines to purchase order lines.",
+  "overview": "The session explains how to design Copilot features in Business Central. It covers how AI is positioned as a collaborator with the user, how to build user trust, and how to manage AI risk with preview and undo. It separates two kinds of value: action (faster or more efficient work) and insight (getting to knowledge).\n\nOn the technical side, it introduces the prompt dialogue page type with input, generating and output modes, plus prompt options, system actions for generate and cancel, and the prompt guide. It also shows where Copilot actions appear: the Copilot menu on list pages, a floating overlay, dialogues and subpages. Demos include suggesting sales lines from free text and mapping e-document lines to purchase order lines.",
+  "key_points": [
+    "The prompt dialogue has three stages: input mode, generating mode and output mode. Input mode can be skipped when all needed data already exists, as in the e-document line mapping demo.",
+    "Prefer structured data where you have it, since it can save clicks. Unstructured input adds uncertainty in interpretation.",
+    "Undo principle: the system must provide a preview or a way to completely undo what AI suggested. Generated output must go only to temporary tables, with no side effects on permanent data.",
+    "Developers supply AL code for the generate system action and must make the cancel action clear all traces of the output.",
+    "Prompt options must be option fields and should never be required. Only the prompt itself can be required.",
+    "The Copilot menu appears on all list pages and the floating overlay shows the topmost action, which users can hide. Cards and documents do not have the menu yet, but prompt actions can be placed on subpages and in dialogues.",
+    "Copilot and AI capabilities page: currently supports English only, so English must be selected as the language. It is available from version 24 (2024 Wave 1). There is no partner extensibility for chat."
+  ],
+  "audience": [
+    "developer",
+    "functional consultant",
+    "partner",
+    "administrator"
+  ],
+  "extraction_hash": "04fb68f81957c23b28e79f44ba4827015a56b4dce5db9d11c9e52ccdb23ad43a",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0271584
+  }
+}

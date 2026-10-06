@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/track-kpis-with-power-bi-metrics",
   "published_at": "2025-05-02T07:40:20.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "a1b5701e2669cd8ac23cd0784449908f8c469a3d",
       "words": 263,
       "forms": 2
+    },
+    "extracted": {
+      "at": "2026-10-06T19:43:16.893Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002277
+    },
+    "summarized": {
+      "at": "2026-10-06T19:43:19.029Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:43:19.031Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:43:19.032Z",
+      "page": false
     }
   },
   "input_hash": "a1b5701e2669cd8ac23cd0784449908f8c469a3d",
@@ -53,5 +72,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a1b5701e2669cd8ac23cd0784449908f8c469a3d"
+  "output_hash": "c8428f26c5580ba7f22f58d7eba4bce75297de552a965a345e32ad3d484c93a0"
 }

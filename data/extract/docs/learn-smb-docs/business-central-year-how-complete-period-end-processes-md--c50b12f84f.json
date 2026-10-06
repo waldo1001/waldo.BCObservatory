@@ -1,0 +1,44 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/year-how-complete-period-end-processes.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/year-how-complete-period-end-processes",
+  "title": "Optional activities for closing periods",
+  "blob": "7fe3bc3a7889dce296f561110002c0b0926d144f",
+  "summary": "Checklist of period-end closing tasks for general ledger, sales, purchases, fixed assets, and tax including reconciliation and batch jobs.",
+  "systems": [
+    "finance",
+    "sales",
+    "purchasing"
+  ],
+  "topics": [
+    "period closing",
+    "reconciliation",
+    "adjustments",
+    "reporting",
+    "tax"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Financial Reports"
+    }
+  ],
+  "features": [
+    "posting period specification",
+    "general ledger adjustments",
+    "reconciliation",
+    "financial reporting",
+    "tax statements",
+    "batch jobs"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002277,
+      "pages_in_call": 8
+    }
+  ]
+}

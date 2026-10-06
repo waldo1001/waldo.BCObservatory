@@ -1,0 +1,58 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/receivables-collect-outstanding-balances.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/receivables-collect-outstanding-balances",
+  "title": "Collect outstanding balances",
+  "blob": "6d4464650cbc271e2fe51ad6d4b6a25b4160014b",
+  "summary": "Collect outstanding customer balances using statements, reminders, finance charge memos, and Copilot for Finance in Outlook. Automate creation and posting of reminders and finance charges to recover overdue amounts.",
+  "systems": [
+    "sales",
+    "finance",
+    "copilot"
+  ],
+  "topics": [
+    "collections",
+    "reminders",
+    "finance charges",
+    "outstanding balances",
+    "customer statements",
+    "copilot"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Customer Statement"
+    },
+    {
+      "type": "page",
+      "name": "Finance Charge Memos"
+    },
+    {
+      "type": "page",
+      "name": "Reminder/Fin. Charge Entries"
+    },
+    {
+      "type": "page",
+      "name": "Finance Charge Terms"
+    }
+  ],
+  "features": [
+    "Customer Statement report",
+    "Reminders",
+    "Finance Charge Memos",
+    "Finance Charge Terms",
+    "Copilot for Finance in Outlook",
+    "Dispute Status",
+    "Promise to Pay"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004095,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/year-how-complete-period-end-processes",
   "published_at": "2025-05-02T07:40:20.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "7fe3bc3a7889dce296f561110002c0b0926d144f",
       "words": 257,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:43:16.897Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.002277
+    },
+    "summarized": {
+      "at": "2026-10-06T19:43:20.843Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:43:20.844Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:43:20.845Z",
+      "page": false
     }
   },
   "input_hash": "7fe3bc3a7889dce296f561110002c0b0926d144f",
@@ -42,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7fe3bc3a7889dce296f561110002c0b0926d144f"
+  "output_hash": "84aeac1d8c8029d8c9827981051e0fc4585672a9c5b6a539f842af32cd03a61e"
 }

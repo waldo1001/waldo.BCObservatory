@@ -1,0 +1,559 @@
+{
+  "video_id": "mHrY_OI0qNo",
+  "item_id": "video/yt-microsoft/mHrY_OI0qNo",
+  "title": "Introducing: AI-Powered Analysis with Copilot (2024 release wave 1)",
+  "duration_s": 1387,
+  "systems": [
+    "copilot",
+    "reporting",
+    "finance"
+  ],
+  "topics": [
+    "ai-powered analysis",
+    "copilot",
+    "analysis assist",
+    "natural language",
+    "ad hoc analytics",
+    "pivot tables",
+    "data insights",
+    "list analysis",
+    "filtering",
+    "grouping",
+    "responsible ai",
+    "preview capability"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to Copilot in Business Central",
+      "t_start": 0,
+      "t_end": 77.9
+    },
+    {
+      "title": "Analytics Needs and the BI Triangle",
+      "t_start": 77.9,
+      "t_end": 159.5
+    },
+    {
+      "title": "Announcing Analysis Assist with Copilot",
+      "t_start": 159.5,
+      "t_end": 219.9
+    },
+    {
+      "title": "Demo: Basic Analysis with Columns",
+      "t_start": 219.9,
+      "t_end": 280.3
+    },
+    {
+      "title": "Adding Sorting and Multiple Iterations",
+      "t_start": 280.3,
+      "t_end": 358
+    },
+    {
+      "title": "Filtering and Semantic Understanding",
+      "t_start": 358,
+      "t_end": 466
+    },
+    {
+      "title": "Grouping, Renaming, and Tab Management",
+      "t_start": 466,
+      "t_end": 632.5
+    },
+    {
+      "title": "Data Privacy Discussion",
+      "t_start": 632.5,
+      "t_end": 693.1
+    },
+    {
+      "title": "Real-World Customer Analysis Example and Copilot Mechanics",
+      "t_start": 693.1,
+      "t_end": 941.8
+    },
+    {
+      "title": "Availability and Deployment Requirements",
+      "t_start": 941.8,
+      "t_end": 1002.9
+    },
+    {
+      "title": "Responsible AI and Data Safety Principles",
+      "t_start": 1002.9,
+      "t_end": 1101.6
+    },
+    {
+      "title": "How to Access and Troubleshoot Copilot Features",
+      "t_start": 1101.6,
+      "t_end": 1214.6
+    },
+    {
+      "title": "Feedback Collection and Other Copilot Capabilities",
+      "t_start": 1214.6,
+      "t_end": 1330.6
+    },
+    {
+      "title": "Closing Remarks and Call to Action",
+      "t_start": 1330.6,
+      "t_end": 1387
+    }
+  ],
+  "features": [
+    {
+      "name": "Analysis Assist",
+      "description": "Copilot-powered capability that helps users create analytical views using natural language. Users describe what analysis they want, and Copilot generates the appropriate columns, filtering, sorting, and grouping without requiring manual clicks and keystrokes.",
+      "status": "preview",
+      "status_evidence_t": 139.1,
+      "status_evidence_quote": "that's why we're excited to announce the public preview of analysis assist",
+      "status_evidence_verified": true,
+      "t_start": 139.1,
+      "t_end": 1101.6,
+      "is_demoed": true,
+      "caveats": [
+        "Only works on lists that already support analyzing data",
+        "Only works with fields visible on the current page or table",
+        "Does not join data across multiple tables",
+        "Available on list pages and worksheets only",
+        "Business Central Online only, not on-premises",
+        "English language only at this stage",
+        "Not available in Canada for regulatory reasons",
+        "Requires version 24.0 or later",
+        "User must have permission to analyze",
+        "Copilot may suggest features the user did not ask for",
+        "Draft tabs marked with dotted line until saved",
+        "Tab only saves when explicitly confirmed",
+        "Copilot may add more columns than requested when pivoting",
+        "Requires Copilot to correctly infer the intended field",
+        "AI is sometimes incorrect",
+        "Users should review generated content before committing"
+      ],
+      "tags": [
+        "natural language",
+        "ad hoc analysis",
+        "copilot",
+        "lists",
+        "insights",
+        "pivot",
+        "data exploration",
+        "layout configuration"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Analyze List Action",
+      "description": "New copilot menu action at the top of lists that opens a dialog allowing users to specify what kind of analysis they want using natural language input.",
+      "status": "preview",
+      "status_evidence_t": 139.1,
+      "status_evidence_quote": "the public preview of analysis assist",
+      "status_evidence_verified": true,
+      "t_start": 239.9,
+      "t_end": 280.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "ui",
+        "copilot",
+        "lists"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Draft Tab Management",
+      "description": "Generated analysis tabs start in draft mode with a dotted underline, allowing users to iterate and refine. Users can navigate between iterations using back and forward arrows, or keep and save the final version.",
+      "status": "preview",
+      "status_evidence_t": 139.1,
+      "status_evidence_quote": "the public preview of analysis assist",
+      "status_evidence_verified": true,
+      "t_start": 320.6,
+      "t_end": 398.2,
+      "is_demoed": true,
+      "caveats": [
+        "Tab only saves when explicitly confirmed"
+      ],
+      "tags": [
+        "ui",
+        "draft mode",
+        "iterations"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Semantic Understanding for Filters",
+      "description": "Copilot can understand user intent even when terminology differs. For example, when user said replacement but the field is substitution, Copilot figured out the mapping and applied the correct filter.",
+      "status": "preview",
+      "status_evidence_t": 139.1,
+      "status_evidence_quote": "the public preview of analysis assist",
+      "status_evidence_verified": true,
+      "t_start": 418.3,
+      "t_end": 466,
+      "is_demoed": true,
+      "caveats": [
+        "Requires Copilot to correctly infer the intended field"
+      ],
+      "tags": [
+        "semantic understanding",
+        "filtering",
+        "nlp"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Prompt Guide",
+      "description": "Helper interface showing users example prompts for common analysis operations including grouping, pivoting, showing fields, sorting, filtering, freezing columns, and renaming tabs.",
+      "status": "preview",
+      "status_evidence_t": 139.1,
+      "status_evidence_quote": "the public preview of analysis assist",
+      "status_evidence_verified": true,
+      "t_start": 502,
+      "t_end": 522.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "ui",
+        "guidance",
+        "prompts"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Grouping and Pivoting",
+      "description": "Copilot can create analysis grouped or pivoted by specified fields. Users can ask to group by vendor, reformat as pivot, or add other structural transformations to data.",
+      "status": "preview",
+      "status_evidence_t": 139.1,
+      "status_evidence_quote": "the public preview of analysis assist",
+      "status_evidence_verified": true,
+      "t_start": 522.4,
+      "t_end": 632.5,
+      "is_demoed": true,
+      "caveats": [
+        "Copilot may add more columns than requested when pivoting"
+      ],
+      "tags": [
+        "grouping",
+        "pivoting",
+        "copilot"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Data Privacy in Analysis Assist",
+      "description": "Copilot does not send customer data to generate analyses. Only the schema (description of available columns) is sent, and Copilot generates the analysis structure which is then populated with data client-side.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 652.5,
+      "t_end": 673,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "privacy",
+        "data security",
+        "architecture"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Copilot availability and deployment",
+      "description": "Copilot features are available exclusively for Business Central Online, released with 2024 Wave 1 (version 24.0 or later), rolled out for most localizations except Canada, and available in English language only at no additional cost with the Business Central license.",
+      "status": "ga",
+      "status_evidence_t": 982.7,
+      "status_evidence_quote": "this has been released with 2024 release Wave 1 so you'll need to upgrade to version 24.0 or later",
+      "status_evidence_verified": true,
+      "t_start": 961.8,
+      "t_end": 1002.9,
+      "is_demoed": false,
+      "caveats": [
+        "Business Central Online only",
+        "English language only",
+        "Not available in Canada",
+        "Requires version 24.0 or later"
+      ],
+      "tags": [
+        "deployment",
+        "licensing",
+        "localization",
+        "version requirement"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Responsible AI and data safety",
+      "description": "Copilot is designed on Microsoft's responsible AI standards. Customer data is not used to train AI models, security and privacy controls are in place, and only generated layouts are created without new data generation. Users can review and approve all Copilot-generated content before saving.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1020.7,
+      "t_end": 1101.6,
+      "is_demoed": false,
+      "caveats": [
+        "AI is sometimes incorrect",
+        "Users should review generated content before committing"
+      ],
+      "tags": [
+        "responsible ai",
+        "data privacy",
+        "security",
+        "compliance",
+        "trust"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Copilot feature enablement and troubleshooting",
+      "description": "Admins can control Copilot features via the Copilot and AI capabilities page. Features require opt-in for data movement outside geographic boundaries in regions where Azure OpenAI is not available. Permission sets govern user ability to analyze lists.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1101.6,
+      "t_end": 1214.6,
+      "is_demoed": false,
+      "caveats": [
+        "Azure OpenAI service available in limited regions only",
+        "Customers must opt-in to data movement outside geographic boundaries",
+        "Language must be set to English",
+        "Specific permission set required for analyze capability"
+      ],
+      "tags": [
+        "admin control",
+        "feature enablement",
+        "azure openai regions",
+        "permissions",
+        "troubleshooting"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Copilot for sales document entry",
+      "description": "Copilot helps users get more efficient with entering sales lines in sales documents.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1249.5,
+      "t_end": 1269.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "sales",
+        "document entry",
+        "efficiency"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Copilot chat for data discovery and learning",
+      "description": "Users can chat with Copilot to find data in Business Central, learn new skills, ask how to do things, and explain concepts.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1249.5,
+      "t_end": 1269.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "chat",
+        "data discovery",
+        "learning",
+        "skills"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Copilot for electronic invoice matching",
+      "description": "Copilot assists with electronic invoice matching capabilities.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1269.8,
+      "t_end": 1290.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "invoices",
+        "matching",
+        "electronic"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Excel reports for finance and sales",
+      "description": "New Excel reports for finance and sales with Copilot integration to help users draft multilingual Excel reports. Includes new Excel layout capabilities for developers.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1290.2,
+      "t_end": 1310.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "excel",
+        "reports",
+        "finance",
+        "sales",
+        "multilanguage"
+      ],
+      "system": "reporting"
+    }
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Item",
+      "t": 239.9
+    },
+    {
+      "type": "table",
+      "name": "Customer Ledger",
+      "t": 693.1
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Mike Borj Cardon",
+      "confidence": "high"
+    },
+    {
+      "name": "Thomas Jensen",
+      "confidence": "high"
+    },
+    {
+      "name": "Kenny Paban",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 139.1,
+      "text": "that's why we're excited to announce the public preview of analysis assist",
+      "why_it_matters": "Establishes status as public preview",
+      "check": "exact"
+    },
+    {
+      "t": 159.5,
+      "text": "with this new capability helps uh reduce the time it takes to get to identifying Trends uh anomalies in your business data uh simply",
+      "why_it_matters": "Describes the core value proposition of Analysis Assist - natural language interface for analytics",
+      "check": "exact"
+    },
+    {
+      "t": 179.6,
+      "text": "by describing in a simple sentence how you want to structure your data uh you quickly get to insights instead of spending the time",
+      "why_it_matters": "Articulates the productivity improvement from moving from manual clicks to natural language input",
+      "check": "exact"
+    },
+    {
+      "t": 199.9,
+      "text": "more people across the organization can uh make datadriven decisions themselves",
+      "why_it_matters": "Explains the business impact - democratizing analytics to non-power-users",
+      "check": "exact"
+    },
+    {
+      "t": 652.5,
+      "text": "we don't send any of your data to co-pilot because that's not what's needed the only thing we actually send to co-pilot is the",
+      "why_it_matters": "Critical data privacy statement addressing customer concerns about data transmission",
+      "check": "exact"
+    },
+    {
+      "t": 722.9,
+      "text": "we just in a natural language sentence told copile what we wanted and uh now it comes back wow with an analysis with the",
+      "why_it_matters": "Demonstrates how unstructured natural language can generate structured analysis without explicit field specification",
+      "check": "exact"
+    },
+    {
+      "t": 861.3,
+      "text": "I kind of like the idea that co-pilot helped me get started with my analysis but in the end I was in control",
+      "why_it_matters": "Demonstrates the design philosophy of Copilot as an assistant that enhances user control rather than replacing user decision-making in analysis tasks.",
+      "check": "exact"
+    },
+    {
+      "t": 901.4,
+      "text": "co-pilot at this stage in preview will only work with fields that are shown on the page on the list page itself",
+      "why_it_matters": "Clearly states the functional limitation and preview status of the Analysis Assist feature, indicating it is constrained to visible page fields.",
+      "check": "exact"
+    },
+    {
+      "t": 921.5,
+      "text": "co-pilot here and the ability to analyze that list is available on all virtually all list pages and I believe worksheets as well in",
+      "why_it_matters": "Establishes the broad scope of where Copilot analysis is available across the application, including custom pages.",
+      "check": "exact"
+    },
+    {
+      "t": 982.7,
+      "text": "this has been released with 2024 release Wave 1 so you'll need to upgrade to version 24.0 or later",
+      "why_it_matters": "Provides explicit version requirement and release timing information for deployment planning.",
+      "check": "exact"
+    },
+    {
+      "t": 1002.9,
+      "text": "at this stage co-pilot is available uh with your business Central license at no additional cost",
+      "why_it_matters": "Clarifies the licensing model and pricing, indicating Copilot is included with standard Business Central licenses.",
+      "check": "exact"
+    },
+    {
+      "t": 1020.7,
+      "text": "our promise to our customers is that their data is their data we do not use that data to train the AI models",
+      "why_it_matters": "Articulates the core responsible AI principle governing data usage and customer trust in the Copilot implementation.",
+      "check": "exact"
+    },
+    {
+      "t": 1081.2,
+      "text": "ai is sometimes incorrect and that's why we always give our users the opportunity to review what co pilot has generated before",
+      "why_it_matters": "Acknowledges AI limitations and establishes the review-before-commit requirement to maintain accuracy and user control.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 1173.9,
+      "text": "because Azure open AI service is only available in uh certain regions but not all some of our customers on some environments will need",
+      "why_it_matters": "Explains regional constraints on Azure OpenAI service availability and the opt-in requirement for cross-boundary data movement.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 139.1,
+      "kind": "preview",
+      "text": "the public preview of analysis assist"
+    },
+    {
+      "t": 901.4,
+      "kind": "preview",
+      "text": "co-pilot at this stage in preview will only work with fields that are shown on the page"
+    },
+    {
+      "t": 982.7,
+      "kind": "not-in-this-release",
+      "text": "it's also being rolled out for uh all environment localizations with the exception of Canada for regulatory reasons"
+    },
+    {
+      "t": 982.7,
+      "kind": "preview",
+      "text": "it's also available in preview in English language only"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 14,
+    "quotes_dropped": 0,
+    "evidence_verified": 7,
+    "evidence_unverified": 7
+  },
+  "windows": 2,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.025238999999999998
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.026820999999999998
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.024266
+    }
+  ]
+}

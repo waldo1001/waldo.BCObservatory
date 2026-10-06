@@ -1,0 +1,49 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/sales-setup-sales.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/sales-setup-sales",
+  "title": "Overview of tasks to configure sales processes",
+  "blob": "9235184d3f6c00181fdc1970820167f216448fac",
+  "summary": "Overview of sales setup tasks required to configure sales policies, customer management, and document handling before managing sales processes.",
+  "systems": [
+    "sales",
+    "finance",
+    "administration"
+  ],
+  "topics": [
+    "sales setup",
+    "customer configuration",
+    "payment methods",
+    "sales documents",
+    "discounts",
+    "salespeople"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Sales & Receivables"
+    }
+  ],
+  "features": [
+    "customer registration",
+    "payment service extensions",
+    "sales pricing and discounts",
+    "salesperson setup",
+    "document sending profiles",
+    "VAT verification",
+    "shipment methods",
+    "shipping agents",
+    "report selection",
+    "invoice posting policy"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002277,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -1,0 +1,218 @@
+{
+  "video_id": "gHcgL469x_E",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 17.6,
+      "end": 34.6,
+      "text": "Hi and welcome to this session on what's new in financial management. The topic is consolidation improvements for this release. My name is Brian Nielsen. I'm a program manager in the Business Central team and with me I have Joshua who's an engineer in the same team."
+    },
+    {
+      "t": 34.6,
+      "end": 49.7,
+      "text": "And we will demonstrate some of the new capabilities. In consolidation um we have focused on improvements that will help you manage currencies when you're doing consolidation."
+    },
+    {
+      "t": 49.7,
+      "end": 67,
+      "text": "In order to do so, we have introduced a consolidation status list so you can see what have already happened. Um you'll be able to while you're in the process of uh executing consolidation, you will be able to look up currency exchange rate and maybe modify them."
+    },
+    {
+      "t": 67,
+      "end": 80.7,
+      "text": "So it fits with with what you're currently doing. Um if you're recovering from mistakes uh you will be able to look up the last closing rate uh while you're also doing uh consolidation."
+    },
+    {
+      "t": 80.7,
+      "end": 93.9,
+      "text": "So that helps you enormously when you're trying to do recovery. And then in the whole process we have introduced some validation so you don't accidentally make mistakes. Uh consolidation is a a tricky thing."
+    },
+    {
+      "t": 93.9,
+      "end": 109.2,
+      "text": "Um but Joshua will uh take you through uh consolidation. We have a setup where we have one consolidation company and we have two subsidiaries. And um Joshua, if you can run consolidation for February in this company."
+    },
+    {
+      "t": 109.2,
+      "end": 121.6,
+      "text": "Yeah, sure. So as Brian said, we have here uh consolidation company. And I have two business units. One in USD dollars and one in euros."
+    },
+    {
+      "t": 121.6,
+      "end": 136.2,
+      "text": "So we have now this consolidation runs status and we have we can see now that we have run this twice before. One for January for each of the business units and we can also see which companies were running each consolidation."
+    },
+    {
+      "t": 136.2,
+      "end": 148.6,
+      "text": "Here we see that both were but here we had an error for example. And we can see what was the error. Right? In this case we forgot to set up the exchange rate losses account but now I have done that and we can run it again."
+    },
+    {
+      "t": 148.6,
+      "end": 160.4,
+      "text": "Okay, so now let's consolidate this business units for the next period for February. So we can set the starting and ending date, document number and so on."
+    },
+    {
+      "t": 160.4,
+      "end": 171.4,
+      "text": "Select the companies that we want to consolidate. We added this last consolidation ending date so whenever you consolidate it will show up here the date that you did that in."
+    },
+    {
+      "t": 171.4,
+      "end": 183.9,
+      "text": "And then you can configure the exchange rates. So yeah, let's have a look at how that looks. So whenever you click one of these, you will be shown"
+    },
+    {
+      "t": 183.9,
+      "end": 204,
+      "text": "the the things that you would configure usually in the business unit card, you can configure them now here. And you can set the average currency factor whenever when you have a consolidation you want to specify two different currency factors, the ones that you use for your balance sheet which is the closing currency factor and the ones that you use for your income statement which is the average currency"
+    },
+    {
+      "t": 204,
+      "end": 215.3,
+      "text": "factor. And the last closing currency factor is usually set by the last run. So in this case, it was the one we did on January. So"
+    },
+    {
+      "t": 215.3,
+      "end": 227.5,
+      "text": "this is all good. This is automatically set when you run a consolidation. We can see it here if we go to exchange rates and we see that for February we need an exchange rate of 1 to 1 to 4."
+    },
+    {
+      "t": 227.5,
+      "end": 238.6,
+      "text": "So we can verify that that is the case here and it's all good. So, let's go ahead and run the consolidation."
+    },
+    {
+      "t": 238.6,
+      "end": 249.9,
+      "text": "And that's it. So, now we can see, if we go to our financial report that we have prepared for consolidation, that the data for"
+    },
+    {
+      "t": 249.9,
+      "end": 263.5,
+      "text": "the month of February is uh properly extracted from the subsidiaries. Okay. Thank you, Joshua. So, consolidation with currencies is a lot easier in this release."
+    },
+    {
+      "t": 263.5,
+      "end": 280.6,
+      "text": "You have a list of uh status from previous runs, so you can see what has been performed. You can dig into details on that. When you're doing consolidation, you can actually change the exchange rate being used while you're in the process of doing the consolidation."
+    },
+    {
+      "t": 280.6,
+      "end": 294,
+      "text": "You'll be able to look up the rates. Uh you can change them. And we put in some validation, so you don't accidentally uh start running a consolidation for something you have already done consolidation for."
+    },
+    {
+      "t": 294,
+      "end": 309.8,
+      "text": "This is all good. Um but mistakes still happen sometimes for various reasons. Let's say that in our two companies, we have discovered a a small mistake, and we really want to redo February."
+    },
+    {
+      "t": 309.8,
+      "end": 323,
+      "text": "We have done March already, and now we want to do quality reporting, but we discovered that there was a small mistake in the data from one of the companies. So, we want to redo February and March."
+    },
+    {
+      "t": 323,
+      "end": 340.1,
+      "text": "And that is sometimes a tricky process because when you're doing consolidation on balance sheet items, you need to revalue the balance from the previous period. And you know, in order to do that correctly, you need to know what closing rate has been used in the"
+    },
+    {
+      "t": 340.1,
+      "end": 354.8,
+      "text": "previous run. And when you're going back in time and trying to redo stuff, uh it's sometimes hard to remember what rate was used. You can see it from the the different entries, but they are using the reciprocal value."
+    },
+    {
+      "t": 354.8,
+      "end": 369.4,
+      "text": "Uh, so we thought, let's let's just help you with with picking the right rate and and moving forward faster. So, um we made a mistake. Joshua, can you recover and redo February and maybe also March again?"
+    },
+    {
+      "t": 369.4,
+      "end": 380.1,
+      "text": "Sure. So, as Brian said, um I have already uh configured the consolidation for March and I already performed it."
+    },
+    {
+      "t": 380.1,
+      "end": 392.1,
+      "text": "Here Here you can see it. But, there was a mistake in February and we want to re-import. So, how should we go ahead and do that? So, if we consolidate"
+    },
+    {
+      "t": 392.1,
+      "end": 398.4,
+      "text": "and we want to say that we want to do the month of February,"
+    },
+    {
+      "t": 398.4,
+      "end": 412,
+      "text": "it will by default, if you notice, not select this because it detects that you have already consolidated these companies. But, if you want to do so, then you can, which is the case because we want to rerun for this company."
+    },
+    {
+      "t": 412,
+      "end": 428.6,
+      "text": "And it also tells you that the last consolidation ending date is in March. So, you have to be aware. And now, when we want to configure the currency exchange rates, it will show you this warning saying that you have already drawn this uh for this period."
+    },
+    {
+      "t": 428.6,
+      "end": 439.6,
+      "text": "So, you can select from previous consolidations the currency exchange rates that you have used. As Brian said, the exchange rates were okay. It was just that there was some missing data."
+    },
+    {
+      "t": 439.6,
+      "end": 453.1,
+      "text": "So, we just want to rerun that. So, we can just select this currency exchange rates that we used back in February. And here is a list of the previous exchange rates. It doesn't show the ones from March because that one was not used back then."
+    },
+    {
+      "t": 453.1,
+      "end": 465,
+      "text": "So, you can choose which one which exchange rates to use. So, we can see that in February we we used these exchange rates. And you can select which exchange rates do you want to transfer from there."
+    },
+    {
+      "t": 465,
+      "end": 479.8,
+      "text": "In this case, we want all because they were all okay. And the last closing currency factor is the one corresponding to the period of January, and that will make the entries the adjustment entries of the on the balance accounts to be correct."
+    },
+    {
+      "t": 479.8,
+      "end": 487.2,
+      "text": "So, okay. Let's say okay. And"
+    },
+    {
+      "t": 487.2,
+      "end": 495.3,
+      "text": "Yeah. That's it. So, now you will go ahead and see the financial report."
+    },
+    {
+      "t": 495.3,
+      "end": 505.5,
+      "text": "And this is the totals for a balance sheet account, for example, and we can drill down and see what entries do we have here."
+    },
+    {
+      "t": 505.5,
+      "end": 516.5,
+      "text": "So, these two entries are the ones that get invalidated after the rerun is done. Here is the transferred from the business unit with the corresponding exchange rates."
+    },
+    {
+      "t": 516.5,
+      "end": 534.2,
+      "text": "And this is the adjustment done due to the different uh reruns that we have done. Thank you, Joshua. So, with this release, we've made some improvements to manage currencies during consolidation, and we also added uh a small capability to look up previous runs and select the rates that were used,"
+    },
+    {
+      "t": 534.2,
+      "end": 548.4,
+      "text": "either all of them or selectively, so that recovering from mistakes during consolidation uh is an easier task. We will make a few more improvements over the next one or two releases to make it an even smoother process,"
+    },
+    {
+      "t": 548.4,
+      "end": 562.5,
+      "text": "giving you more overview. Um but in the meantime, if you have feedback, you can of course contact us in uh various ways, but I would always uh emphasize, if you have ideas for improvements to the product,"
+    },
+    {
+      "t": 562.5,
+      "end": 572,
+      "text": "go to BC Ideas and submit or vote on other people's ideas. Thank you for joining this session."
+    }
+  ],
+  "markers": [],
+  "word_count": 1461
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports-bi-reporting",
   "published_at": "2025-05-02T07:40:20.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "6ab4800c75f6b2af329d196bc5a0a766ecaf22dd",
       "words": 1100,
       "forms": 70
+    },
+    "extracted": {
+      "at": "2026-10-06T19:43:19.022Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.004095
+    },
+    "summarized": {
+      "at": "2026-10-06T19:43:20.864Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:43:20.865Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:43:20.866Z",
+      "page": false
     }
   },
   "input_hash": "6ab4800c75f6b2af329d196bc5a0a766ecaf22dd",
@@ -388,5 +407,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6ab4800c75f6b2af329d196bc5a0a766ecaf22dd"
+  "output_hash": "b28e1027e239d9d37532f73278d267f4636c67f2f4ae5ab82cd5c03540e5044c"
 }

@@ -1,0 +1,28 @@
+{
+  "video_id": "mHrY_OI0qNo",
+  "item_id": "video/yt-microsoft/mHrY_OI0qNo",
+  "summary": "Analysis Assist with Copilot in Business Central, in public preview with 2024 release wave 1 (version 24.0 or later). Users describe an analysis in natural language and Copilot builds columns, filters, sorting and grouping on list pages. Covers limits, availability, data privacy and admin requirements.",
+  "overview": "The video introduces Analysis Assist, a Copilot capability in preview that lets users describe the analysis they want in a sentence instead of clicking through columns, filters, sorting and grouping by hand. The demo uses an Analyze action at the top of a list, shows draft tabs that can be iterated with back and forward arrows, and shows Copilot mapping the word \"replacement\" to a \"substitution\" field. A Prompt Guide lists example prompts.\n\nIt also covers availability and safety. Copilot is for Business Central Online, version 24.0 or later, English only, and not in Canada. Only the schema is sent to Copilot, not customer data. Admins manage features on the Copilot and AI capabilities page. Other 2024 wave 1 Copilot items are briefly mentioned: sales line entry, chat, electronic invoice matching, and Excel reports.",
+  "key_points": [
+    "Analysis Assist is in preview. It works only on lists that already support analyzing data, on list pages and worksheets, using fields visible on the page.",
+    "It does not join data across tables. Copilot may add columns or features that were not requested, for example when pivoting.",
+    "Requires Business Central Online, version 24.0 or later, English language, and the user's permission to analyze. Not available in Canada. No extra cost with the license.",
+    "Generated tabs start as drafts with a dotted line. The tab is saved only when the user confirms it.",
+    "Only the schema (column descriptions) is sent to Copilot, not customer data. Customer data is not used to train models.",
+    "Where Azure OpenAI is not available in the region, customers must opt in to data movement outside the geographic boundary. Admins control features on the Copilot and AI capabilities page.",
+    "Review Copilot output before saving, because AI is sometimes incorrect."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "end user",
+    "decision maker"
+  ],
+  "extraction_hash": "1b71ac282a69d90da37006a3195466a9a4f74ce581f1e17b08002d605a96ac6b",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0224344
+  }
+}

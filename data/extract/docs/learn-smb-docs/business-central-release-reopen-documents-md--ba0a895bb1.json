@@ -1,0 +1,36 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/release-reopen-documents.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/release-reopen-documents",
+  "title": "Release and reopen sales and purchase documents",
+  "blob": "5ca28456a097095cd2d91075cf0c92179c4fcf14",
+  "summary": "Release sales and purchase documents to move them to the next processing stage. Reopen released documents to make changes before reposting. Released orders are included in availability calculations.",
+  "systems": [
+    "sales",
+    "purchasing"
+  ],
+  "topics": [
+    "document status",
+    "release",
+    "reopen",
+    "availability",
+    "workflow"
+  ],
+  "objects": [],
+  "features": [
+    "Release document",
+    "Reopen document",
+    "Status field",
+    "Warehouse handling"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004095,
+      "pages_in_call": 8
+    }
+  ]
+}

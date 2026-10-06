@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/release-reopen-documents",
   "published_at": "2025-05-02T07:40:20.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "5ca28456a097095cd2d91075cf0c92179c4fcf14",
       "words": 290,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:43:19.020Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.004095
+    },
+    "summarized": {
+      "at": "2026-10-06T19:43:20.859Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:43:20.860Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:43:20.860Z",
+      "page": false
     }
   },
   "input_hash": "5ca28456a097095cd2d91075cf0c92179c4fcf14",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "5ca28456a097095cd2d91075cf0c92179c4fcf14"
+  "output_hash": "6a3c6bc0660aa8fa28609318da3d6393d3bde4dd670d64edb3a0240edfc10390"
 }

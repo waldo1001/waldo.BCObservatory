@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/set-up-use-irs1096-form",
   "published_at": "2025-05-02T07:40:20.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "23722d984837bcc6215ba382b3ec17057a884c9f",
       "words": 1225,
       "forms": 3
+    },
+    "extracted": {
+      "at": "2026-10-06T19:43:19.018Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 4,
+      "cost_usd": 0.004095
+    },
+    "summarized": {
+      "at": "2026-10-06T19:43:20.850Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:43:20.851Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:43:20.852Z",
+      "page": false
     }
   },
   "input_hash": "23722d984837bcc6215ba382b3ec17057a884c9f",
@@ -55,5 +74,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "23722d984837bcc6215ba382b3ec17057a884c9f"
+  "output_hash": "f7977853fb8b9cbf6dc56285c5c7fb753b56ae30fb9a79418c3453e749e5384f"
 }

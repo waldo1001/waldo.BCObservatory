@@ -1,0 +1,56 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/UnitedStates/set-up-use-irs1096-form.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/set-up-use-irs1096-form",
+  "title": "Set up and use the IRS 1096 form [US]",
+  "blob": "23722d984837bcc6215ba382b3ec17057a884c9f",
+  "summary": "Set up and use the IRS Form 1096 to transmit paper 1099 tax forms to the IRS. Configure the feature through Feature Management, specify form number series, and create, correct, and print 1096 forms for each tax period.",
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "irs",
+    "form 1096",
+    "tax forms",
+    "paper forms",
+    "united states"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "1096 Forms"
+    },
+    {
+      "type": "page",
+      "name": "Feature management"
+    },
+    {
+      "type": "page",
+      "name": "Company Information"
+    },
+    {
+      "type": "page",
+      "name": "Purchases & Payables Setup"
+    }
+  ],
+  "features": [
+    "Enable Form 1096",
+    "IRS 1096 Form No. Series",
+    "Create forms",
+    "Replace forms",
+    "Release form",
+    "Print form",
+    "Form corrections"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004095,
+      "pages_in_call": 8
+    }
+  ]
+}

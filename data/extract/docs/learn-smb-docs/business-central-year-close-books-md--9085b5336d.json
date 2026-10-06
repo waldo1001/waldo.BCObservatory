@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/year-close-books.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/year-close-books",
+  "title": "Closing the books",
+  "blob": "8f6dea9ae5755a0549ccf056ca7c57086e72e275",
+  "summary": "Process for closing fiscal years and accounting periods including period closure, adjusting entries, income statement transfer, and year-end closing entries.",
+  "systems": [
+    "finance"
+  ],
+  "topics": [
+    "year-end closing",
+    "accounting periods",
+    "adjusting entries",
+    "income statement",
+    "retained earnings"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Accounting Periods"
+    }
+  ],
+  "features": [
+    "close accounting periods",
+    "register prior-year entries",
+    "close income statement",
+    "post year-end closing entry",
+    "period filtering"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002277,
+      "pages_in_call": 8
+    }
+  ]
+}
