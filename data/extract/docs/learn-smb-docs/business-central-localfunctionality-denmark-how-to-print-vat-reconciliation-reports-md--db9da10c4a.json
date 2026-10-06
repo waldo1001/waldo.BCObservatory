@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Denmark/how-to-print-vat-reconciliation-reports.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/how-to-print-vat-reconciliation-reports",
+  "title": "How to print VAT reconciliation reports [DK]",
+  "blob": "63b8618c12154e217a4067b2ce1deaf9979cba1f",
+  "summary": "The VAT Reconciliation report in Denmark shows general ledger account balances grouped by VAT type, with options to display transaction details and include non-VAT transactions for VAT settlement reconciliation.",
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "vat reconciliation",
+    "denmark",
+    "general ledger",
+    "reporting",
+    "vat settlement"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "VAT Reconciliation"
+    }
+  ],
+  "features": [
+    "VAT amount grouping",
+    "transaction detail display",
+    "non-VAT transaction inclusion",
+    "account balance reporting"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002828,
+      "pages_in_call": 7
+    }
+  ]
+}

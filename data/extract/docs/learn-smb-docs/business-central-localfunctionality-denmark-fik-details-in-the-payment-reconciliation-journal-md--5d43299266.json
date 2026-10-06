@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Denmark/fik-details-in-the-payment-reconciliation-journal.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/fik-details-in-the-payment-reconciliation-journal",
+  "title": "FIK details in the payment reconciliation journal",
+  "blob": "f56b1c824411b4cecca80a538a5116c917763db5",
+  "summary": "The Payment Reconciliation Journal shows FIK transaction text codes to describe automatic payment application results under the Danish FIK standard. Transaction text values indicate matching amounts, partial payments, excess amounts, missing or duplicate FIK numbers, and already-paid invoices.",
+  "systems": [
+    "sales",
+    "localization"
+  ],
+  "topics": [
+    "fik standard",
+    "payment reconciliation",
+    "automatic application",
+    "denmark",
+    "transaction text"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Payment Reconciliation Journal"
+    }
+  ],
+  "features": [
+    "matching amount detection",
+    "partial payment tracking",
+    "excess amount identification",
+    "duplicate FIK detection",
+    "invoice payment status verification"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002828,
+      "pages_in_call": 7
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Finland/how-to-print-vat-information-on-invoices.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Finland/how-to-print-vat-information-on-invoices",
+  "title": "How to print VAT information on invoices [FI]",
+  "blob": "4cd923a8e7008a79c548453f3d31cc92910cad2d",
+  "summary": "Print VAT information on invoices in Finland using VAT posting groups to display tax details for each item on sales invoices. Enables tax compliance by showing VAT amounts at line level on documents.",
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "vat information",
+    "invoices",
+    "finland",
+    "tax reporting",
+    "posting groups"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "VAT Posting Group"
+    }
+  ],
+  "features": [
+    "VAT information printing",
+    "sales invoice VAT details"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002032,
+      "pages_in_call": 7
+    }
+  ]
+}

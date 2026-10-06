@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/ui-extensions-payroll-data-definitions-dk",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "60873674e6b67daf5e5dd2bf85803f96570141ce",
       "words": 274,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T19:32:03.552Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.002828
+    },
+    "summarized": {
+      "at": "2026-10-06T19:32:03.571Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:32:03.572Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:32:03.573Z",
+      "page": false
     }
   },
   "input_hash": "60873674e6b67daf5e5dd2bf85803f96570141ce",
@@ -45,5 +64,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "60873674e6b67daf5e5dd2bf85803f96570141ce"
+  "output_hash": "ac7601240b21c3d2a43bdc351c47737010b8615d585f5e7257da92f7e7f329ca"
 }

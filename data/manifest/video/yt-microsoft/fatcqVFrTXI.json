@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "Comparing Entering Receivables Transactions in Dynamics SL to Dynamics 365 Business Central",
   "url": "https://www.youtube.com/watch?v=fatcqVFrTXI",
-  "published_at": null,
+  "published_at": "2024-07-26T13:24:04.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T19:32:01.363Z",
+      "captions": "auto:en-orig",
+      "duration_s": 265
+    },
+    "captioned": {
+      "at": "2026-10-06T19:32:08.031Z",
+      "path": "data/captions/microsoft/fatcqVFrTXI.vtt",
+      "vtt_sha256": "2f71f3b4ab80d73f403a48da582430964eadc1b949c0180579ca55594a33b977",
+      "segments": 24,
+      "words": 581,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -19,7 +33,14 @@
   "meta": {
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 392,
-    "duration_s": 266,
-    "via": "reconcile"
-  }
+    "duration_s": 265,
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "2f71f3b4ab80d73f403a48da582430964eadc1b949c0180579ca55594a33b977"
 }

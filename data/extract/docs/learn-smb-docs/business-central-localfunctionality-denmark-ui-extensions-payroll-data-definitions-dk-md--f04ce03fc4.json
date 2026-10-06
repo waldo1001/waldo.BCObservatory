@@ -1,0 +1,46 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Denmark/ui-extensions-payroll-data-definitions-dk.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/ui-extensions-payroll-data-definitions-dk",
+  "title": "Payroll Data Definitions [DK]",
+  "blob": "60873674e6b67daf5e5dd2bf85803f96570141ce",
+  "summary": "The Payroll Data Definitions extension imports payroll transactions from Danish providers like Danløn and Dataløn. Map payroll transaction types to general ledger accounts and import provider files through the general journal.",
+  "systems": [
+    "hr",
+    "localization"
+  ],
+  "topics": [
+    "payroll",
+    "denmark",
+    "data import",
+    "general ledger",
+    "payroll providers"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "General Ledger Setup"
+    },
+    {
+      "type": "page",
+      "name": "General Journals"
+    }
+  ],
+  "features": [
+    "payroll file import",
+    "data exchange definitions",
+    "provider integration",
+    "general ledger posting",
+    "transaction mapping"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002828,
+      "pages_in_call": 7
+    }
+  ]
+}

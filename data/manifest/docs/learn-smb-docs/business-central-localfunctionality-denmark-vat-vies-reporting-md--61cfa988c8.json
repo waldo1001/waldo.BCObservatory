@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/vat-vies-reporting",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "e2da850c47aea5244e1bfda9a0f689a70022a0cd",
       "words": 244,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:32:01.320Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.002032
+    },
+    "summarized": {
+      "at": "2026-10-06T19:32:01.328Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:32:01.330Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:32:01.331Z",
+      "page": false
     }
   },
   "input_hash": "e2da850c47aea5244e1bfda9a0f689a70022a0cd",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e2da850c47aea5244e1bfda9a0f689a70022a0cd"
+  "output_hash": "19acfe80b2257716d788c1d690fde292b46f1f3dc7d3c32b947ee352e3e4918d"
 }

@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Finland/electronic-banking-in-finland.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Finland/electronic-banking-in-finland",
+  "title": "Electronic banking in Finland",
+  "blob": "d35601391253f9c0d076a5e126db013bc41daa07",
+  "summary": "Electronic banking in Finland supports domestic and foreign payment processing through LM03 and LUM2 formats. Enables automated linking of customer payments to invoices and export of vendor payments via bank transfer files.",
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "electronic banking",
+    "payments",
+    "finland",
+    "domestic payments",
+    "foreign payments"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Bank Payments to Send"
+    }
+  ],
+  "features": [
+    "domestic customer payments",
+    "foreign payments",
+    "bank reference files",
+    "payment file export",
+    "reference numbers",
+    "electronic payment processing"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002032,
+      "pages_in_call": 7
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Finland/how-to-set-up-automatic-account-posting-groups",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "5ef27c9ef6f50919e83ad6831b139ffe4bf98c66",
       "words": 23,
       "forms": 2
+    },
+    "extracted": {
+      "at": "2026-10-06T19:32:01.326Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002032
+    },
+    "summarized": {
+      "at": "2026-10-06T19:32:01.347Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:32:01.348Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:32:01.349Z",
+      "page": false
     }
   },
   "input_hash": "5ef27c9ef6f50919e83ad6831b139ffe4bf98c66",
@@ -49,5 +68,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "5ef27c9ef6f50919e83ad6831b139ffe4bf98c66"
+  "output_hash": "1b921772fbe2a3b30a8d5ff9e7235a9961f7e801022644e45527b731f683cb6d"
 }

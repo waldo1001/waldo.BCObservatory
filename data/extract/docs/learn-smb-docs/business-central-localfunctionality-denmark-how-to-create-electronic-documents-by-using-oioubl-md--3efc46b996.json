@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Denmark/how-to-create-electronic-documents-by-using-oioubl.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/how-to-create-electronic-documents-by-using-oioubl",
+  "title": "Create Electronic Documents in an OIOUBL format",
+  "blob": "53b2871690e015020129251226cbbdd0ad027a03",
+  "summary": "Create electronic invoices, credit memos, reminders, and finance charge memos in OIOUBL format for Danish public sector customers. Set up customers and required fields, then post sales or service documents and generate the electronic XML file.",
+  "systems": [
+    "sales",
+    "localization"
+  ],
+  "topics": [
+    "oioubl",
+    "electronic documents",
+    "denmark",
+    "invoicing",
+    "xml"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Sales Invoices"
+    },
+    {
+      "type": "page",
+      "name": "Posted Sales Invoices"
+    }
+  ],
+  "features": [
+    "electronic invoice generation",
+    "credit memo creation",
+    "reminder generation",
+    "external document numbering",
+    "GLN support",
+    "OIOUBL account codes"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002828,
+      "pages_in_call": 7
+    }
+  ]
+}

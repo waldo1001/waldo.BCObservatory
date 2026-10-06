@@ -1,0 +1,128 @@
+{
+  "video_id": "fatcqVFrTXI",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 0.7,
+      "end": 15.1,
+      "text": "In this video, we will look at how to enter an accounts receivable invoice and credit memo in Dynamics SL and compare that process to the experience for entering these entries in Dynamics 365 Business Central."
+    },
+    {
+      "t": 15.1,
+      "end": 23.9,
+      "text": "In the SL system, navigate to the accounts receivable module and then invoice and memo."
+    },
+    {
+      "t": 24.2,
+      "end": 31.8,
+      "text": "In invoice and memo, I'll begin by entering an invoice for our customer Trey Research."
+    },
+    {
+      "t": 31.8,
+      "end": 39.3,
+      "text": "Once I enter the customer's ID, I can enter the details of the invoice."
+    },
+    {
+      "t": 39.3,
+      "end": 45.4,
+      "text": "Once everything is entered, save and release the batch."
+    },
+    {
+      "t": 45.4,
+      "end": 58.3,
+      "text": "In our example, let's say a credit memo now needs to be applied to the invoice we just entered. In the same invoice and memo screen, change the document type to credit memo."
+    },
+    {
+      "t": 58.3,
+      "end": 66.6,
+      "text": "Select Trey Research and then enter $90 credit."
+    },
+    {
+      "t": 68.3,
+      "end": 73.4,
+      "text": "Save and release the batch."
+    },
+    {
+      "t": 73.9,
+      "end": 85.3,
+      "text": "Now that we have an invoice and a credit memo, we need to apply the credit memo to the earlier invoice. From the accounts receivable module menu, select payment application."
+    },
+    {
+      "t": 85.3,
+      "end": 96.4,
+      "text": "In payment application, select customer Trey Research and then change the type to equal credit memo. In the number field, select the credit memo entered earlier."
+    },
+    {
+      "t": 96.4,
+      "end": 102.3,
+      "text": "Notice in the grid the outstanding invoice from earlier is available."
+    },
+    {
+      "t": 102.3,
+      "end": 118.2,
+      "text": "In the grid, select the invoice line and enter the $90 amount to be applied. Populate the payment application batch, save and release. Now let's look at how we can enter an invoice and credit memo in Dynamics 365 Central."
+    },
+    {
+      "t": 118.2,
+      "end": 132,
+      "text": "There are a couple different ways to enter a customer invoice in Business Central. You can navigate to the sales journal from the role center, search for sales journals, then in sales journals, you can enter multiple entries for multiple customers."
+    },
+    {
+      "t": 132,
+      "end": 145.2,
+      "text": "For our example, we will enter a single customer invoice using the sales invoice screen. Navigate to sales invoice. From the role center, select sales from the top menu and then sales invoice."
+    },
+    {
+      "t": 145.2,
+      "end": 156.1,
+      "text": "In sales invoice, select new from the action menu bar. In sales invoice, select customer name Trey Research. In the grid area, enter a line."
+    },
+    {
+      "t": 156.1,
+      "end": 167.5,
+      "text": "Notice you can enter an invoice line for several options allowing you to invoice for items and services in a single invoice. In this example, I will select item."
+    },
+    {
+      "t": 167.5,
+      "end": 178.9,
+      "text": "In the number field, select an item from the drop-down list and populate the remaining fields to complete the invoice. From the top action menu, select post and then preview posting."
+    },
+    {
+      "t": 178.9,
+      "end": 188.5,
+      "text": "If you want to verify the posting entries prior to the posting process. Now, post the invoice."
+    },
+    {
+      "t": 188.5,
+      "end": 201.8,
+      "text": "A credit memo can also be entered and applied to entries in sales journal by selecting the credit memo line type. But in our example, we will enter a credit memo in sales credit memo."
+    },
+    {
+      "t": 201.8,
+      "end": 216.9,
+      "text": "From the role center action menu, select sales and then sales credit memo. In the sales credit memo list, select new. In sales credit memo screen, select our customer, Trey Research."
+    },
+    {
+      "t": 216.9,
+      "end": 232.7,
+      "text": "In the general fast tab, select show more. You can see the fields available to select the applies to doc type and applies to doc number. This allows you to enter and apply the credit memo in one entry."
+    },
+    {
+      "t": 232.7,
+      "end": 244.7,
+      "text": "Go to lines. Keep the type equal item. Set the number to the item we selected in the invoice earlier and in amount of $90."
+    },
+    {
+      "t": 244.7,
+      "end": 254.8,
+      "text": "From the action menu, select post. Preview posting to verify the entries are being applied to the selected invoice."
+    },
+    {
+      "t": 254.8,
+      "end": 265,
+      "text": "Now, post the invoice. To learn more about Business Central, see the following resources."
+    }
+  ],
+  "markers": [],
+  "word_count": 581
+}

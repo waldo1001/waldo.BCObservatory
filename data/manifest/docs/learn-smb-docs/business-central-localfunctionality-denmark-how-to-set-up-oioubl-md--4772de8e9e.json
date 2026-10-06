@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/how-to-set-up-oioubl",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "6a9baad18e77f8beb2a315d01ea6953cb73d88f1",
       "words": 738,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:32:03.550Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 4,
+      "cost_usd": 0.002828
+    },
+    "summarized": {
+      "at": "2026-10-06T19:32:03.565Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:32:03.566Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:32:03.567Z",
+      "page": false
     }
   },
   "input_hash": "6a9baad18e77f8beb2a315d01ea6953cb73d88f1",
@@ -39,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6a9baad18e77f8beb2a315d01ea6953cb73d88f1"
+  "output_hash": "f6bd593f7bfb38bb8bdd21612405c4aa2b2c5f23b356bf9cdc58b831923cb21b"
 }

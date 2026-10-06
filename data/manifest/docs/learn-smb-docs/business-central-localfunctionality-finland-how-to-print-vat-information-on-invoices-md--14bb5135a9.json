@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Finland/how-to-print-vat-information-on-invoices",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "4cd923a8e7008a79c548453f3d31cc92910cad2d",
       "words": 127,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:32:01.325Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.002032
+    },
+    "summarized": {
+      "at": "2026-10-06T19:32:01.344Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:32:01.345Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:32:01.346Z",
+      "page": false
     }
   },
   "input_hash": "4cd923a8e7008a79c548453f3d31cc92910cad2d",
@@ -40,5 +59,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "4cd923a8e7008a79c548453f3d31cc92910cad2d"
+  "output_hash": "013ce37b2d6924d83dd393907095d9aaecc9031b62d4e27a5b230019e6ed316a"
 }

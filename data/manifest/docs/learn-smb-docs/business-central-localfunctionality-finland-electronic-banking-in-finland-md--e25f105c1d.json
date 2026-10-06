@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Finland/electronic-banking-in-finland",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "d35601391253f9c0d076a5e126db013bc41daa07",
       "words": 397,
       "forms": 6
+    },
+    "extracted": {
+      "at": "2026-10-06T19:32:01.322Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.002032
+    },
+    "summarized": {
+      "at": "2026-10-06T19:32:01.337Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:32:01.338Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:32:01.339Z",
+      "page": false
     }
   },
   "input_hash": "d35601391253f9c0d076a5e126db013bc41daa07",
@@ -71,5 +90,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d35601391253f9c0d076a5e126db013bc41daa07"
+  "output_hash": "cd0f7847a24cf2f65d342bc6eba19ef1798ef5e9e043cb651b5f157b55622dce"
 }

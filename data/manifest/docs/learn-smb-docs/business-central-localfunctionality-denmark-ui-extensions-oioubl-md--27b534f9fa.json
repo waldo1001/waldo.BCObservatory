@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/ui-extensions-oioubl",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "bd3e84dba7c1c16f9f19082c6541f582cc1e2f91",
       "words": 209,
       "forms": 3
+    },
+    "extracted": {
+      "at": "2026-10-06T19:32:03.551Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002828
+    },
+    "summarized": {
+      "at": "2026-10-06T19:32:03.568Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:32:03.569Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:32:03.570Z",
+      "page": false
     }
   },
   "input_hash": "bd3e84dba7c1c16f9f19082c6541f582cc1e2f91",
@@ -57,5 +76,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "bd3e84dba7c1c16f9f19082c6541f582cc1e2f91"
+  "output_hash": "4d7154404c6619d2cad4575ce4ad9cb0327d3d9f21b3349dd6bed10a1040d407"
 }

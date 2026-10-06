@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Finland/how-to-set-up-bank-reference-files",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "07b7a495b8537632c97b92d2e7e32835f79eee89",
       "words": 316,
       "forms": 6
+    },
+    "extracted": {
+      "at": "2026-10-06T19:32:01.327Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.002032
+    },
+    "summarized": {
+      "at": "2026-10-06T19:32:01.351Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:32:01.352Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:32:01.353Z",
+      "page": false
     }
   },
   "input_hash": "07b7a495b8537632c97b92d2e7e32835f79eee89",
@@ -69,5 +88,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "07b7a495b8537632c97b92d2e7e32835f79eee89"
+  "output_hash": "f2f358b3acde880d1cbe5a6ee498bcc152f2f5334877df65b7f9347ea2f4c2a8"
 }

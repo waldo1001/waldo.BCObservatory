@@ -1,0 +1,53 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Canada/work-gifi-codes.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Canada/work-gifi-codes",
+  "title": "GIFI Codes in Canada",
+  "blob": "843a0b02c55951db3f5ff1bf18b74f5870bc514e",
+  "summary": "GIFI codes classify Canadian financial information for tax reporting. Set up GIFI codes in Business Central, associate them with general ledger accounts, and export balance information for tax preparation software.",
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "gifi codes",
+    "tax reporting",
+    "general ledger",
+    "canada",
+    "financial classification"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "GIFI Codes"
+    },
+    {
+      "type": "page",
+      "name": "Chart of Accounts"
+    },
+    {
+      "type": "report",
+      "name": "Account Balances by GIFI Code"
+    },
+    {
+      "type": "page",
+      "name": "Export GIFI Info. to Excel"
+    }
+  ],
+  "features": [
+    "GIFI code assignment",
+    "account balance reporting",
+    "Excel export",
+    "tax filing support"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002828,
+      "pages_in_call": 7
+    }
+  ]
+}

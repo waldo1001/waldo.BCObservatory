@@ -1,0 +1,55 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Denmark/how-to-set-up-oioubl.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/how-to-set-up-oioubl",
+  "title": "Set Up the OIOUBL Extension for Electronic Invoicing | Microsoft Docs",
+  "blob": "6a9baad18e77f8beb2a315d01ea6953cb73d88f1",
+  "summary": "Set up OIOUBL for creating electronic documents to Danish public sector customers. Configure payment terms, item charges, OIOUBL profiles, and customer settings including GLN numbers and account codes.",
+  "systems": [
+    "sales",
+    "localization"
+  ],
+  "topics": [
+    "oioubl",
+    "setup",
+    "denmark",
+    "electronic invoicing",
+    "customer configuration"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Payment Terms"
+    },
+    {
+      "type": "page",
+      "name": "Customers"
+    },
+    {
+      "type": "page",
+      "name": "Item Charges"
+    },
+    {
+      "type": "page",
+      "name": "Sales & Receivables Setup"
+    }
+  ],
+  "features": [
+    "OIOUBL profile selection",
+    "payment terms configuration",
+    "item charge setup",
+    "customer GLN registration",
+    "account code assignment",
+    "profile code requirement"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002828,
+      "pages_in_call": 7
+    }
+  ]
+}

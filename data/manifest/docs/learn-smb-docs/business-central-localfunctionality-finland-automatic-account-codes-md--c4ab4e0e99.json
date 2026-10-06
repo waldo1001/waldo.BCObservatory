@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Finland/automatic-account-codes",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "9e5b2a45521bba0e89527a8635457fa57fd9966c",
       "words": 23,
       "forms": 2
+    },
+    "extracted": {
+      "at": "2026-10-06T19:32:01.321Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002032
+    },
+    "summarized": {
+      "at": "2026-10-06T19:32:01.333Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:32:01.334Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:32:01.335Z",
+      "page": false
     }
   },
   "input_hash": "9e5b2a45521bba0e89527a8635457fa57fd9966c",
@@ -54,5 +73,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9e5b2a45521bba0e89527a8635457fa57fd9966c"
+  "output_hash": "086534f4e37e0ac8f268563c74c98f17b6e1ced650a32baf3f2b8cc4b8b85345"
 }
