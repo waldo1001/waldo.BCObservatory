@@ -16,8 +16,8 @@ Milestone **M0 bootstrap**: all code is written and committed (session 2, 2026-1
 | 3 manifest / queue / budget + usage guard | done | `pipeline/lib/{manifest,queue,budget}.ts`, `infra/mini/usage-guard.ts` |
 | 4 ingest + orchestrator | done; live dry run: 40 sources, 0 failures, about 9.5k items in 9 s | `pipeline/ingest/*`, `pipeline/orchestrator/nightly.ts` |
 | 5 Mini provisioning scripts | written; `10-brew` ran (uv only); gated steps 20-80 not run | `infra/mini/*`, `docs/RUNBOOK.md` |
-| 6 workflows + `setup-github.sh` | written; settings not applied yet | `.github/workflows/*`, `scripts/setup-github.sh` |
-| 7 placeholder site | builds locally on Node 22 | `site/` |
+| 6 workflows + `setup-github.sh` | settings applied, private vault created; pr-validate and pages green on GitHub | `.github/workflows/*`, `scripts/setup-github.sh` |
+| 7 placeholder site | live at https://waldo1001.github.io/waldo.BCObservatory/ | `site/` |
 
 Deliberate deviations from PLAN, all small:
 - Docs and guidelines share `pipeline/ingest/git-content.ts` (keys = repo path, input hash = git blob id); no per-file
@@ -30,11 +30,10 @@ Deliberate deviations from PLAN, all small:
 
 ## Next steps (M0, in order)
 
-1. Owner: apply `scripts/setup-github.sh --yes --vault` (or approve it being run): Pages from Actions, GitHub-owned
-   actions only, read-only token, fork PR approval, squash only, private vault repo.
+1. Done 2026-10-06: `scripts/setup-github.sh --yes --vault` applied; commits pushed; Pages deployed.
 2. Owner, in a terminal (sudo password, browser for the token), from the repo root:
    `infra/mini/remote.sh --sudo 20-worker-user.sh --yes` (prints the vault deploy key; add it with write access),
-   `claude setup-token`, `... 30-claude.sh --yes` (paste at the hidden prompt), `... 35-tools.sh --yes`,
+   `claude setup-token`, `... 30-claude.sh --yes` (paste at the hidden prompt; press Enter at the usage-token prompt, deferred to M1), `... 35-tools.sh --yes`,
    `... 40-runner.sh "$(gh api -X POST repos/waldo1001/waldo.BCObservatory/actions/runners/registration-token -q .token)" --yes`,
    `... 50-daemon.sh --yes`, `... 60-vault.sh --yes`, `... 70-power.sh --yes`, then `... 80-verify.sh`.
 3. Dispatch `nightly.yml` once (`stages: ingest`), check the run report commit and the Pages deploy, then let the
