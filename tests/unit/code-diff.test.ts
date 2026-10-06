@@ -4,8 +4,8 @@ import { mkdtempSync, readFileSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { validate } from "../../pipeline/lib/schema.js";
-import { extractSource, loadParser, type AlObject } from "../../pipeline/code/extract.js";
-import { countryDiff, deprecations, refreshCodeDerived, timelines, versionDiff } from "../../pipeline/code/diff.js";
+import { EXTRACTOR_VERSION, extractSource, loadParser, type AlObject } from "../../pipeline/code/extract.js";
+import { countryDiff, DERIVED_VERSION, deprecations, refreshCodeDerived, timelines, versionDiff } from "../../pipeline/code/diff.js";
 import { writeSnapshot } from "../../pipeline/code/job.js";
 
 async function objs(src: string, version: string, country = "w1"): Promise<AlObject[]> {
@@ -69,6 +69,22 @@ test("country diff: replaced W1 objects with detail, country-only objects added,
   assert.deepEqual(d.objects.find((o) => o.key === "table/18")!.fields!.map((f) => f.name), ["Name"]);
 });
 
+test("country and version diffs pair objects by app when two W1 apps share a key (table 242 moved to Business Foundation)", async () => {
+  const parser = await loadParser();
+  const app = (src: string, version: string, appName: string, country = "w1") =>
+    extractSource(parser, src, { version, country, layer: country === "w1" ? "base" : "overlay", app: appName, file: "x.al" });
+  const bf = `table 242 "Source Code Setup" { fields { field(1; "Primary Key"; Code[10]) { } } }`;
+  const moved = `table 242 "Source Code Setup" { ObsoleteState = Moved; fields { field(1; "Primary Key"; Code[10]) { } field(2; Sales; Code[10]) { } } }`;
+  // Base Application last, so a key-only lookup would also land on it: the order must not matter
+  const w1 = [...app(moved, "29", "Base Application"), ...app(bf, "29", "Business Foundation")];
+  const be = app(moved.replace("field(2; Sales; Code[10]) { }", "field(2; Sales; Code[10]) { } field(11300; \"BE Code\"; Code[10]) { }"), "29", "Base Application", "be");
+  const d = countryDiff(w1, be, [], ref("29"), ref("29", "be"));
+  assert.deepEqual(d.objects[0].fields!.map((f) => `${f.change}:${f.name}`), ["added:BE Code"]);
+  const w1next = [...app(moved.replace("Code[10]) { } }", "Code[20]) { } }"), "30", "Base Application"), ...app(bf, "30", "Business Foundation")];
+  const v = versionDiff(w1, w1next, ref("29"), ref("30"));
+  assert.deepEqual(v.objects.map((o) => `${o.key}:${o.change}:${(o.fields ?? []).map((f) => f.name).join(",")}`), ["table/242:changed:Sales"]);
+});
+
 test("timelines and the deprecation radar", async () => {
   const [a, b] = [await objs(V28, "28"), await objs(V29, "29")];
   const tl = timelines([{ version: "28", objects: a }, { version: "29", objects: b }]);
@@ -88,6 +104,6 @@ test("refresh writes diffs, timelines and radar once, and again only when a snap
   const r1 = refreshCodeDerived(dataDir, ["28", "29", "30"]);
   assert.deepEqual([r1.version_diffs, r1.country_diffs, r1.deprecations, r1.timelines], [1, 1, 2, 2]);
   const diff = JSON.parse(readFileSync(join(dataDir, "code/diffs/version/28__29.json"), "utf8"));
-  assert.deepEqual([diff.from.commit, diff.to.commit, diff.inputs], ["c28", "c29", [2, ["c28", "c29", "1", "1"]]]);
+  assert.deepEqual([diff.from.commit, diff.to.commit, diff.inputs], ["c28", "c29", [DERIVED_VERSION, ["c28", "c29", EXTRACTOR_VERSION, EXTRACTOR_VERSION]]]);
   assert.equal(refreshCodeDerived(dataDir, ["28", "29"]).written, 0, "unchanged inputs: nothing rewritten");
 });

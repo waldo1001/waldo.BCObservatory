@@ -84,8 +84,11 @@ function knownObjects(dataDir: string, majors: string[]): Map<string, Known> {
   const known = new Map<string, Known>();
   for (const m of majors) {
     for (const cc of countriesWithW1(dataDir, m)) {
+      const seen = new Set<string>();
       for (const o of readSnapshot(dataDir, m, cc)) {
         const k = objectKey(o);
+        if (seen.has(k)) continue; // a Moved copy of the same key: the live object (sorted first) describes it
+        seen.add(k);
         const e = known.get(k) ?? known.set(k, { name: o.name, versions: new Set(), countries: new Set(), obsolete: null }).get(k)!;
         e.versions.add(m);
         e.countries.add(cc);

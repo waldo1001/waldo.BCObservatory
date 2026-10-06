@@ -21,8 +21,11 @@ const versions = (code: Record<string, SourceCodeConfig>) => ({
   repos: { bcapps: "https://github.com/microsoft/BCApps", sandbox_history: "https://github.com/x/history" }, code,
 });
 
-/** A BCApps-shaped checkout: W1 → DACH → DE, BE on W1; DE excludes one W1 file. */
-function bcappsRepo(): string {
+/**
+ * A BCApps-shaped checkout: W1 → DACH → DE, BE on W1; DE excludes one W1 file. `moved`: table 242 lives in the System
+ * Application (standing in for Business Foundation) with an obsolete Moved copy in W1 and BE.
+ */
+function bcappsRepo(moved = false): string {
   const dir = mkdtempSync(join(tmpdir(), "bcobs-bcapps-"));
   const L = (p: string) => join(dir, "src/Layers", p);
   writeJson(L(".config/layers_config.json"), { BaseApp: { W1: null, DACH: { baseLayer: "W1" }, DE: { baseLayer: "DACH" }, BE: { baseLayer: "W1" } } });
@@ -36,6 +39,12 @@ function bcappsRepo(): string {
   writeText(L("DE/BaseApp/Vendor.Table.al"), al("table", 23, "Vendor")); // identical to W1: not an overlay
   writeJson(L("DE/.layer/excluded_view_files.json"), [".layer\\excluded_view_files.json", "BaseApp\\Intrastat.Page.al", "AlCosting\\X.al"]);
   writeText(L("BE/BaseApp/BeOnly.Report.al"), al("report", 11300, "BE Only"));
+  if (moved) {
+    const copy = (extra = "") => al("table", 242, "Source Code Setup", `ObsoleteState = Moved;\nfields { field(1; "Primary Key"; Code[10]) { } field(2; Sales; Code[10]) { } ${extra} }`);
+    writeText(join(dir, "src/System Application/App/SourceCodeSetup.Table.al"), al("table", 242, "Source Code Setup", "fields { field(1; \"Primary Key\"; Code[10]) { } }"));
+    writeText(L("W1/BaseApp/SourceCodeSetup.Table.al"), copy());
+    writeText(L("BE/BaseApp/SourceCodeSetup.Table.al"), copy("field(11300; \"BE Code\"; Code[10]) { }"));
+  }
   const g = (...a: string[]) => execFileSync("git", a, { cwd: dir, stdio: "pipe" });
   g("init", "-q"); g("add", "-A"); g("-c", "user.name=t", "-c", "user.email=t@e", "commit", "-q", "-m", "x");
   return dir;
@@ -87,4 +96,21 @@ test("BCApps job: W1 in full, countries as overlays through their layer chain, s
   assert.deepEqual([dem.chain, dem.added, dem.replaced, dem.absent], [["w1", "dach", "de"], 1, 1, ["page/742"]]);
   assert.deepEqual(readSnapshot(dataDir, "29", "be").map((o) => `${o.type}/${o.id}`), ["report/11300"]);
   assert.deepEqual(Object.keys((r as any).data.countries), ["be", "de"]);
+});
+
+test("BCApps job: an object shipped by two apps keeps both copies; a country copy is compared with its own app's copy", async () => {
+  const repo = bcappsRepo(true);
+  const dataDir = join(mkdtempSync(join(tmpdir(), "bcobs-codedata-")), "data");
+  const cacheDir = mkdtempSync(join(tmpdir(), "bcobs-cache-"));
+  const deps = { cacheDir, checkout: async (_url: string, _branch: string, _paths: string[], dir: string) => { execFileSync("ln", ["-s", repo, dir]); return "abc"; } };
+  execFileSync("mkdir", ["-p", join(cacheDir, "code")]);
+  const it = item("bcapps", "29");
+  await run(codeFetched(deps))(it, { dataDir } as any);
+  await run(codeExtracted(deps))(it, { dataDir } as any);
+  const copies = readSnapshot(dataDir, "29", "w1").filter((o) => o.type === "table" && o.id === 242);
+  assert.deepEqual(copies.map((o) => `${o.app}:${o.fields.length}`), ["System Application:1", "Base Application:2"], "both copies, the live one first");
+  const be = readSnapshot(dataDir, "29", "be").find((o) => o.id === 242)!;
+  const bem = readJson<any>(join(snapshotDir(dataDir, "29", "be"), "manifest.json"));
+  assert.equal(be.app, "Base Application");
+  assert.deepEqual([bem.added, bem.replaced], [1, 1], "report 11300 is new; table 242 replaces the Base Application copy");
 });

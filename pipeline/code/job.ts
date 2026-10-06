@@ -118,7 +118,15 @@ const appVersion = (dir: string) => {
   try { return String(JSON.parse(readFileSync(join(dir, "app.json"), "utf8")).version ?? "") || null; } catch { return null; }
 };
 
-/** Extract every .al file under each app folder. Later apps never shadow earlier ones (keys are app-scoped by type/id). */
+/**
+ * Map key of an extracted object: app plus type/id. A type/id can ship twice in W1 while an object moves between apps
+ * (table 242 "Source Code Setup": Business Foundation, and the obsolete Moved copy in the Base Application); both are
+ * kept so a country layer's copy is compared with the copy of its own app.
+ */
+export const appKey = (o: AlObject) => `${o.app ?? ""}|${objectKey(o)}`;
+const isMoved = (o: AlObject) => o.properties?.ObsoleteState === "Moved";
+
+/** Extract every .al file under each app folder, keyed by appKey. */
 export async function extractApps(root: string, apps: CodeApp[], ctx: { version: string; country: string; layer: "base" | "overlay"; docs: boolean }): Promise<{ objects: Map<string, AlObject>; files: number; errors: number; build: string | null }> {
   const parser = await loadParser();
   const objects = new Map<string, AlObject>();
@@ -132,7 +140,7 @@ export async function extractApps(root: string, apps: CodeApp[], ctx: { version:
       if (++files % 200 === 0) await new Promise((r) => setImmediate(r));
       for (const o of extractSource(parser, readFileSync(f, "utf8"), { version: ctx.version, country: ctx.country, layer: ctx.layer, app: a.app, file: relative(root, f), docs: ctx.docs })) {
         if (o.parse_error) errors++;
-        objects.set(objectKey(o), o);
+        objects.set(appKey(o), o);
       }
     }
   }
@@ -150,7 +158,7 @@ export function overlay(w1: Map<string, AlObject>, country: Map<string, AlObject
     objects.push({ ...o, layer: "overlay" });
   }
   // absent only makes sense when the country view is complete (Code History branches), limited to its apps
-  const absent = scope ? [...w1.keys()].filter((k) => scope.has(w1.get(k)!.app ?? "") && !country.has(k)).sort() : [];
+  const absent = scope ? [...w1.keys()].filter((k) => scope.has(w1.get(k)!.app ?? "") && !country.has(k)).map((k) => objectKey(w1.get(k)!)).sort() : [];
   return { objects, added, replaced, absent };
 }
 
@@ -172,7 +180,8 @@ export function writeSnapshot(dataDir: string, objects: AlObject[], m: Omit<Snap
   for (const o of objects) byType.set(o.type, [...(byType.get(o.type) ?? []), { ...o, commit: null, build: null }]);
   const shards: string[] = [];
   for (const [type, list] of [...byType].sort(([a], [b]) => a.localeCompare(b))) {
-    list.sort((a, b) => cmpKey(objectKey(a), objectKey(b)));
+    // a Moved copy sorts after the live object of the same key, so readers that take the first one get the live one
+    list.sort((a, b) => cmpKey(objectKey(a), objectKey(b)) || Number(isMoved(a)) - Number(isMoved(b)));
     let n = 1, buf: string[] = [], size = 0;
     const flush = () => { if (!buf.length) return; const name = `objects-${type}-${n++}.jsonl`; writeText(join(dir, name), buf.join("")); shards.push(name); buf = []; size = 0; };
     for (const o of list) {
@@ -267,11 +276,11 @@ export function codeExtracted(deps: CodeDeps): StageHandler {
             if (++files % 200 === 0) await new Promise((r) => setImmediate(r));
             for (const o of extractSource(parser, readFileSync(f.abs, "utf8"), { version: job.major, country: cc, layer: "overlay", app: job.cfg.country_app, file: relative(root, f.abs), docs: job.cfg.docs })) {
               if (o.parse_error) errors++;
-              country.set(objectKey(o), o);
+              country.set(appKey(o), o);
             }
           }
           const ov = overlay(w1.objects, country);
-          const absent = [...view.excluded].flatMap((rel) => w1ByFile.get(rel) ?? []).filter((k) => !country.has(k)).sort();
+          const absent = [...view.excluded].flatMap((rel) => w1ByFile.get(rel) ?? []).filter((k) => !country.has(k)).map((k) => objectKey(w1.objects.get(k)!)).sort();
           writeSnapshot(ctx.dataDir, ov.objects, { ...base, major: job.major, country: cc, layer: "overlay", branch: job.branch, commit, build: w1.build, apps: [job.cfg.country_app], files, parse_errors: errors, added: ov.added, replaced: ov.replaced, absent, chain: chain.map((l) => l.toLowerCase()) });
           countries[cc] = { added: ov.added, replaced: ov.replaced, absent: absent.length };
         }

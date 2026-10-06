@@ -1,8 +1,10 @@
 /**
  * Code pillar discovery: one code-job item per (source repo, BC major) from config/versions.json.
- * `git ls-remote` only; the head commit is the input hash, so a new build makes the job stale (M2 extracts).
+ * `git ls-remote` only; the head commit plus the extractor version is the input hash, so a new build or an extractor
+ * fix makes the job stale (M2 extracts).
  */
 import type { SourceDef } from "../lib/config.js";
+import { EXTRACTOR_VERSION } from "../code/extract.js";
 import { lsRemote } from "../lib/git.js";
 import { newResult, tally, type IngestContext, type SourceResult } from "./types.js";
 
@@ -23,7 +25,7 @@ export async function ingestCode(source: SourceDef, ctx: IngestContext): Promise
     if (!sha) { missing.push(branch); continue; }
     const { change } = ctx.manifest.discover({
       pillar: "code", source: source.id, key: major, tier: source.tier, title: `${source.name} ${branch} (BC${major})`,
-      url: `https://github.com/${source.repo}/tree/${branch}`, published_at: null, input_hash: sha,
+      url: `https://github.com/${source.repo}/tree/${branch}`, published_at: null, input_hash: `${sha}:x${EXTRACTOR_VERSION}`,
       meta: { major, branch, sha },
     }, ctx.now);
     tally(r, change);

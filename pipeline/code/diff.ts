@@ -22,7 +22,7 @@ import { iterSnapshot, readSnapshot, snapshotDir, type SnapshotManifest } from "
 
 const log = logger("code-diff");
 /** Bump when a derived file's shape changes: it is part of every file's inputs, so all of them are rewritten. */
-export const DERIVED_VERSION = 2;
+export const DERIVED_VERSION = 3;
 
 export interface MemberChange { id: string; name: string; change: "added" | "removed" | "changed"; from?: unknown; to?: unknown }
 export interface ObjectDiff {
@@ -88,28 +88,46 @@ function summarize(objects: ObjectDiff[]): Record<string, unknown> {
   return { objects: objects.length, by_change: by, fields_added: fields, events_added: events, procedures_added: procedures, objects_obsoleted: obsoleted };
 }
 
+/**
+ * Objects by key. A key can occur twice in W1: an object moved between apps ships in both while the old copy is
+ * obsolete (table 242 "Source Code Setup": Business Foundation, plus the Moved copy in the Base Application).
+ */
+function byKey(objs: AlObject[]): Map<string, AlObject[]> {
+  const m = new Map<string, AlObject[]>();
+  for (const o of objs) {
+    const k = objectKey(o);
+    m.set(k, [...(m.get(k) ?? []), o]);
+  }
+  return m;
+}
+
+/** The counterpart of `o` among same-key candidates: the same app, else the only candidate. */
+const counterpart = (cands: AlObject[] | undefined, o: AlObject) => cands?.find((c) => c.app === o.app) ?? (cands?.length === 1 ? cands[0] : undefined);
+
 /** W1 of one major against W1 of the next. */
 export function versionDiff(a: AlObject[], b: AlObject[], from: Ref, to: Ref): AlDiff {
-  const A = new Map(a.map((o) => [objectKey(o), o])), B = new Map(b.map((o) => [objectKey(o), o]));
+  const A = byKey(a), B = byKey(b);
   const objects: ObjectDiff[] = [];
-  for (const [k, o] of B) {
-    const prev = A.get(k);
-    if (!prev) objects.push({ key: k, name: o.name, change: "added" });
-    else if (prev.hash !== o.hash) objects.push(objectDiff(prev, o, "changed"));
+  for (const [k, bs] of B) {
+    if (!A.has(k)) { objects.push({ key: k, name: bs[0].name, change: "added" }); continue; }
+    for (const o of bs) {
+      const prev = counterpart(A.get(k), o);
+      if (prev && prev.hash !== o.hash) objects.push(objectDiff(prev, o, "changed"));
+    }
   }
-  for (const [k, o] of A) if (!B.has(k)) objects.push({ key: k, name: o.name, change: "removed" });
+  for (const [k, as] of A) if (!B.has(k)) objects.push({ key: k, name: as[0].name, change: "removed" });
   objects.sort((x, y) => x.key.localeCompare(y.key, "en", { numeric: true }));
   return { schema: "al-diff@1", kind: "version", from, to, summary: summarize(objects), objects };
 }
 
 /** A country overlay against W1 of the same major: what the country brings. */
 export function countryDiff(w1: AlObject[], overlay: AlObject[], absent: string[], from: Ref, to: Ref): AlDiff {
-  const W = new Map(w1.map((o) => [objectKey(o), o]));
+  const W = byKey(w1);
   const objects: ObjectDiff[] = overlay.map((o) => {
-    const base = W.get(objectKey(o));
+    const base = counterpart(W.get(objectKey(o)), o);
     return base ? objectDiff(base, o, "replaced") : { key: objectKey(o), name: o.name, change: "added" as const };
   });
-  for (const k of absent) objects.push({ key: k, name: W.get(k)?.name ?? k, change: "removed" });
+  for (const k of absent) objects.push({ key: k, name: W.get(k)?.[0].name ?? k, change: "removed" });
   objects.sort((x, y) => x.key.localeCompare(y.key, "en", { numeric: true }));
   return { schema: "al-diff@1", kind: "country", from, to, summary: summarize(objects), objects };
 }
@@ -124,6 +142,7 @@ export function timelines(snapshots: { version: string; objects: AlObject[] }[])
     const seen = new Set<string>();
     for (const o of objects) {
       const k = objectKey(o);
+      if (seen.has(k)) continue; // a Moved copy of the same key (it sorts after the live object)
       seen.add(k);
       const t = life.get(k);
       const obs = o.obsolete ? `${o.obsolete.state}|${o.obsolete.tag ?? ""}` : null;
