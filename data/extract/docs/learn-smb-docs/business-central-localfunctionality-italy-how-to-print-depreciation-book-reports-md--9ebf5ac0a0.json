@@ -1,0 +1,44 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Italy/how-to-print-depreciation-book-reports.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-print-depreciation-book-reports",
+  "title": "How to Print Depreciation Book Reports [IT]",
+  "blob": "bf5928910dd4cf4c657958ef25c23636046f4962",
+  "summary": "Print Depreciation Book reports in Italy showing fixed asset changes by year and item class. Use this after setting up depreciation methods and entering assets.",
+  "systems": [
+    "fixed-assets",
+    "localization"
+  ],
+  "topics": [
+    "depreciation",
+    "fixed assets",
+    "italy",
+    "reporting"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Depreciation Book"
+    },
+    {
+      "type": "page",
+      "name": "Fixed Assets"
+    }
+  ],
+  "features": [
+    "Depreciation Book report",
+    "Print per Fixed Asset option",
+    "Starting Date filter",
+    "Ending Date filter"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002785,
+      "pages_in_call": 8
+    }
+  ]
+}

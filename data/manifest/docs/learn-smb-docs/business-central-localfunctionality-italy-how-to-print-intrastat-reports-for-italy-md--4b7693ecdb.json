@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-print-intrastat-reports-for-italy",
   "published_at": "2025-05-27T05:15:04.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "8776951090d241ef7985ddfebcb05208d57616e7",
       "words": 371,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T19:24:11.141Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.002785
+    },
+    "summarized": {
+      "at": "2026-10-06T19:24:11.160Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:24:11.161Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:24:11.162Z",
+      "page": false
     }
   },
   "input_hash": "8776951090d241ef7985ddfebcb05208d57616e7",
@@ -47,5 +66,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "8776951090d241ef7985ddfebcb05208d57616e7"
+  "output_hash": "bd9494d5405475b38ace7e8730f9dca7fb8208fffbeed236b539c79bee4bb5e2"
 }

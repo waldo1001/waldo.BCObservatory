@@ -1,0 +1,49 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Italy/how-to-print-intrastat-reports-for-italy.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-print-intrastat-reports-for-italy",
+  "title": "Set up and Print Intrastat Reports for Italy",
+  "blob": "8776951090d241ef7985ddfebcb05208d57616e7",
+  "summary": "Set up and print monthly and quarterly Intrastat reports for Italy with corrective entry support. Use this for submitting intra-community trade information to authorities.",
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "intrastat",
+    "trade reporting",
+    "italy",
+    "customs",
+    "corrective reports"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Intrastat Make Disk Tax Auth"
+    },
+    {
+      "type": "page",
+      "name": "Intrastat Report"
+    }
+  ],
+  "features": [
+    "Periodicity selection",
+    "Type selection (Purchases/Sales)",
+    "File Disk No.",
+    "Include Intra-Community Entries",
+    "Corrective Entry field",
+    "Corrected Intrastat Report No."
+  ],
+  "versions": [
+    "2022 release wave 2"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002785,
+      "pages_in_call": 8
+    }
+  ]
+}

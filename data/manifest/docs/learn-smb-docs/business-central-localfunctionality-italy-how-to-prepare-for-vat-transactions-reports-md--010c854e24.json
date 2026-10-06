@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-prepare-for-vat-transactions-reports",
   "published_at": "2025-05-27T05:15:04.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "21b60ca878d8a9f57e6d85d8515f9cbdd300cac6",
       "words": 384,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:24:11.137Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.002785
+    },
+    "summarized": {
+      "at": "2026-10-06T19:24:11.150Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:24:11.151Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:24:11.153Z",
+      "page": false
     }
   },
   "input_hash": "21b60ca878d8a9f57e6d85d8515f9cbdd300cac6",
@@ -40,5 +59,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "21b60ca878d8a9f57e6d85d8515f9cbdd300cac6"
+  "output_hash": "86f54daac22c2b7de37d30d087995e23f779670fdeef1f8ea526e02d641d720f"
 }

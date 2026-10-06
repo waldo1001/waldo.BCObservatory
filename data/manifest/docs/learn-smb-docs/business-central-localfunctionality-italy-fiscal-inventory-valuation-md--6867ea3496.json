@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/fiscal-inventory-valuation",
   "published_at": "2025-05-27T05:15:04.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "a7bb2cd208456ba39aca28537a73430268a510ca",
       "words": 370,
       "forms": 5
+    },
+    "extracted": {
+      "at": "2026-10-06T19:24:13.023Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 7,
+      "cost_usd": 0.002778
+    },
+    "summarized": {
+      "at": "2026-10-06T19:24:19.618Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:24:19.619Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:24:19.620Z",
+      "page": false
     }
   },
   "input_hash": "a7bb2cd208456ba39aca28537a73430268a510ca",
@@ -66,5 +85,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a7bb2cd208456ba39aca28537a73430268a510ca"
+  "output_hash": "8d50ff5aa59a7c63616010ce03d915e6a7c2fc9673f9638c94a2f7b5864e4514"
 }

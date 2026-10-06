@@ -1,0 +1,78 @@
+{
+  "video_id": "V2mfuDh8Kfk",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 0.3,
+      "end": 21.2,
+      "text": "in this video we're going to talk about segments and accounts in GP and then look at how that information can be migrated and used in business Central an organization's chart of accounts is made up of a list of natural accounts sometimes called main accounts most companies want to be able to analyze transactions that are posted to their natural accounts"
+    },
+    {
+      "t": 21.2,
+      "end": 40.8,
+      "text": "categorizing transactions can help to better understand a company's expenses and revenues primarily their profit and loss accounts companies may want to C categorize Revenue by region and Market segment and expenses by department and projects this can be done through the use of segments and GP and dimensions in business"
+    },
+    {
+      "t": 40.8,
+      "end": 61,
+      "text": "Central first let's go to the account format in GP and see how segments and the main account are defined the account format is created using a combination of segments and the main account the account format will be used to build out the chart of accounts we currently have our format broken into three different segments including division"
+    },
+    {
+      "t": 61,
+      "end": 82.9,
+      "text": "account and Department each have a specific position and length in the format next let's look at the segments and what the values are for those segments if I select my division segment I can then click on the lookup to see all the various divisions that I've set up in my"
+    },
+    {
+      "t": 83.3,
+      "end": 103.7,
+      "text": "organization finally if we go to the account window we can see how the account format is used to build out the chart of accounts if we pull up our 36520 account we can see that this is the travel expense account for our sales division now let's look at how the main account and segments can be migrated"
+    },
+    {
+      "t": 103.7,
+      "end": 123.8,
+      "text": "to business Central in the cloud migration Setup Wizard you can indicate which segments you would like to be Global Dimensions similar to segments dimensions and business Central let you categorize and analyze transactions posted to the chart of accounts instead of creating separate ledger accounts for each division or Department"
+    },
+    {
+      "t": 123.8,
+      "end": 144.2,
+      "text": "Dimensions can be used in combination with your main account to analyze information and reduce the need for large and complex chart of accounts business Central has two Global Dimensions these should be the most common segments as you can easily sort and filter on these Dimensions the remainder of your segments will be migrated as shortcut"
+    },
+    {
+      "t": 144.2,
+      "end": 159.5,
+      "text": "dimensions in business Central let's see where those global and shortcut dimensions are defined to navigate to the general ledger setup we will select the search icon and enter general ledger setup and choose that from the search"
+    },
+    {
+      "t": 159.5,
+      "end": 176.6,
+      "text": "results in this setup window we can see that the division and Department segments I selected in the cloud migration have been set up as Global Dimensions if I had more than those segments in GP the remaining segments would have come over as shortcut dimensions in business"
+    },
+    {
+      "t": 176.6,
+      "end": 190.1,
+      "text": "Central next let's navigate to the dimension window where you can see these existing dimensions and create new ones later on should you want to start analyzing additional information in business"
+    },
+    {
+      "t": 190.1,
+      "end": 203.6,
+      "text": "Central if I select my division Dimension and go to Dimension values I can see all my segment values from GP have been migrated over I could also create additional ones in the"
+    },
+    {
+      "t": 203.6,
+      "end": 223.8,
+      "text": "future finally let's see how the chart of accounts looks in business Central now that it's been migrating over in my chart of accounts all the main accounts that I had defined in GP are now my chart of accounts and I can still see all my transaction amounts by the various segments let's again look at that trible"
+    },
+    {
+      "t": 223.8,
+      "end": 244.2,
+      "text": "expense account that we had looked at in GP if I want to drill back on the balance I can see all my department and division segments with the amounts broken out for each similar to how it looks in GP and that's a quick look at segments and dimensions in GP and business"
+    },
+    {
+      "t": 244.2,
+      "end": 252,
+      "text": "Central to learn more about business Central see the following resources"
+    }
+  ],
+  "markers": [],
+  "word_count": 665
+}

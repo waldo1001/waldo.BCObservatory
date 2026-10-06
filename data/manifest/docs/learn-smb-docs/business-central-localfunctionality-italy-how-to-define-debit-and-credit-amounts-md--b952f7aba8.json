@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-define-debit-and-credit-amounts",
   "published_at": "2025-05-27T05:15:04.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "951ccc5c020cf5d5fbf36799534e257f1de7cd2b",
       "words": 141,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:24:13.025Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.002778
+    },
+    "summarized": {
+      "at": "2026-10-06T19:24:19.627Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:24:19.628Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:24:19.629Z",
+      "page": false
     }
   },
   "input_hash": "951ccc5c020cf5d5fbf36799534e257f1de7cd2b",
@@ -44,5 +63,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "951ccc5c020cf5d5fbf36799534e257f1de7cd2b"
+  "output_hash": "1dc2053b0ea238dccde3db64ded88281e83b9e9a4fb0ae4ca0635616dc59f706"
 }

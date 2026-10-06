@@ -1,0 +1,46 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Italy/how-to-export-vat-transactions-reports.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-export-vat-transactions-reports",
+  "title": "How to export VAT transactions reports [IT]",
+  "blob": "75021d003ebc3093b9921e4741ed4bf4cf67f5e0",
+  "summary": "Export VAT Transactions reports to tax authorities in Italy by releasing, exporting as .ccf files, and submitting receipt numbers. Use this when preparing VAT reports for Italian compliance.",
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "vat reporting",
+    "tax compliance",
+    "italy",
+    "export",
+    "submitted reports"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "VAT Reports"
+    },
+    {
+      "type": "page",
+      "name": "VAT Report Setup"
+    }
+  ],
+  "features": [
+    "Export VAT Transactions batch job",
+    "Detailed Export option",
+    "Modify Submitted Reports",
+    "Incl. in Report checkbox",
+    "Receipt number tracking"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002785,
+      "pages_in_call": 8
+    }
+  ]
+}

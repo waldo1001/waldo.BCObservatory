@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-export-vat-transactions-reports",
   "published_at": "2025-05-27T05:15:04.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "75021d003ebc3093b9921e4741ed4bf4cf67f5e0",
       "words": 535,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:24:11.134Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.002785
+    },
+    "summarized": {
+      "at": "2026-10-06T19:24:11.143Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:24:11.144Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:24:11.145Z",
+      "page": false
     }
   },
   "input_hash": "75021d003ebc3093b9921e4741ed4bf4cf67f5e0",
@@ -40,5 +59,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "75021d003ebc3093b9921e4741ed4bf4cf67f5e0"
+  "output_hash": "065dc5c52f200b3a6cdf4cee0c782f2b7bf32eb553aa13cadc2e06b930ec312a"
 }

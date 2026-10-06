@@ -1,0 +1,69 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Italy/fiscal-inventory-valuation.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/fiscal-inventory-valuation",
+  "title": "Fiscal Inventory Valuation",
+  "blob": "a7bb2cd208456ba39aca28537a73430268a510ca",
+  "summary": "Fiscal inventory valuation in Italian version calculates annual inventory monetary value using multiple cost methods: year average, weighted average, FIFO, LIFO, and discrete LIFO. Set up on Item Card and Item Costing Setup pages, then run batch jobs for year-end calculations.",
+  "systems": [
+    "inventory",
+    "localization",
+    "finance"
+  ],
+  "topics": [
+    "italy",
+    "inventory valuation",
+    "cost methods",
+    "fiscal reporting",
+    "year-end"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Item Costing Setup"
+    },
+    {
+      "type": "page",
+      "name": "Item Card"
+    },
+    {
+      "type": "page",
+      "name": "Before Start Item Cost"
+    },
+    {
+      "type": "page",
+      "name": "Subcontracting Prices"
+    },
+    {
+      "type": "page",
+      "name": "Item Cost History List"
+    },
+    {
+      "type": "report",
+      "name": "Fiscal Inventory Valuation"
+    },
+    {
+      "type": "report",
+      "name": "LIFO Valuation"
+    }
+  ],
+  "features": [
+    "year average cost",
+    "weighted average cost",
+    "FIFO cost",
+    "LIFO cost",
+    "discrete LIFO cost",
+    "year-end cost calculation",
+    "competence year"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002778,
+      "pages_in_call": 8
+    }
+  ]
+}

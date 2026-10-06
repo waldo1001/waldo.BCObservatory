@@ -1,0 +1,59 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Italy/how-to-issue-vendor-payments-and-customer-bills.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-issue-vendor-payments-and-customer-bills",
+  "title": "Issue Vendor Payments and Customer Bills (IT)",
+  "blob": "5f7ee30d08b220557bdd3d329602ecf97fbbf116",
+  "summary": "Issue vendor payments and customer bills using SEPA Credit Transfer and SEPA Direct Debit standards in Italy. Use this for processing SEPA-based payments and collections.",
+  "systems": [
+    "purchasing",
+    "sales",
+    "finance"
+  ],
+  "topics": [
+    "sepa payments",
+    "vendor payments",
+    "customer bills",
+    "italy",
+    "payment export"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Bank Account Card"
+    },
+    {
+      "type": "page",
+      "name": "Vendor Bank Account List"
+    },
+    {
+      "type": "page",
+      "name": "Vendor Bill Card"
+    },
+    {
+      "type": "page",
+      "name": "Vendor Bill List Issued"
+    },
+    {
+      "type": "page",
+      "name": "Vendor Bill List Sent Card"
+    }
+  ],
+  "features": [
+    "SEPA Credit Transfer",
+    "SEPA Direct Debit",
+    "Export Bill List to File",
+    "File Export Errors FactBox",
+    "TRASFBANC payment method"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002785,
+      "pages_in_call": 8
+    }
+  ]
+}

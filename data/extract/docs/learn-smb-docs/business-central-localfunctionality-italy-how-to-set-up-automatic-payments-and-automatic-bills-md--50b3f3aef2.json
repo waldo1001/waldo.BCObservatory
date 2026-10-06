@@ -1,0 +1,60 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Italy/how-to-set-up-automatic-payments-and-automatic-bills.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-set-up-automatic-payments-and-automatic-bills",
+  "title": "Automatic Payments and Automatic Bills [IT]",
+  "blob": "313f31be756dd998d83ae19e4839ca4e3bed6875",
+  "summary": "Set up automatic payments and automatic bills in the Italian version by configuring bank information, sales and receivables setup, and bill codes for payment methods. Enables processing of customer and vendor bills automatically.",
+  "systems": [
+    "purchasing",
+    "sales",
+    "localization"
+  ],
+  "topics": [
+    "italy",
+    "automatic payments",
+    "bills",
+    "bank setup",
+    "payment methods"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Company Information"
+    },
+    {
+      "type": "page",
+      "name": "Sales & Receivables Setup"
+    },
+    {
+      "type": "page",
+      "name": "Payment Methods"
+    },
+    {
+      "type": "page",
+      "name": "Bill"
+    },
+    {
+      "type": "page",
+      "name": "Bank Account Card"
+    }
+  ],
+  "features": [
+    "automatic payments",
+    "automatic bills",
+    "payment export format",
+    "SEPA direct debit",
+    "bill codes",
+    "bank account setup"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002778,
+      "pages_in_call": 8
+    }
+  ]
+}

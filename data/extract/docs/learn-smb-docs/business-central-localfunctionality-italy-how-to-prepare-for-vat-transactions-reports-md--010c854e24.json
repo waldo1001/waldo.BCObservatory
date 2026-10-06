@@ -1,0 +1,46 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Italy/how-to-prepare-for-vat-transactions-reports.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-prepare-for-vat-transactions-reports",
+  "title": "Prepare for VAT transactions reports [IT]",
+  "blob": "21b60ca878d8a9f57e6d85d8515f9cbdd300cac6",
+  "summary": "Set up VAT posting to prepare for periodic VAT transaction reports required by Italian tax authorities. Use this to configure individual person details, residency status, and tax representatives.",
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "vat setup",
+    "tax reporting",
+    "italy",
+    "transaction reporting",
+    "foreign trade"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "VAT Posting Setup"
+    },
+    {
+      "type": "page",
+      "name": "Customers"
+    }
+  ],
+  "features": [
+    "VAT Transaction Report Amount",
+    "Individual Person flag",
+    "Resident flag",
+    "Tax Representative assignment",
+    "Foreign Trade FastTab"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002785,
+      "pages_in_call": 8
+    }
+  ]
+}

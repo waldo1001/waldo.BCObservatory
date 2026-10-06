@@ -1,0 +1,58 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Italy/how-to-print-and-reprint-g-l-books-and-vat-registers.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-print-and-reprint-g-l-books-and-vat-registers",
+  "title": "Print and reprint G-L books VAT registers [IT]",
+  "blob": "4937784fe89cf96c4bd1de080f881cbf174020b6",
+  "summary": "Print and reprint G/L Book and VAT Register fiscal reports in Italy with progressive page numbering. Use this to generate official ledger and VAT reports for tax authorities.",
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "g/l reports",
+    "vat registers",
+    "italy",
+    "fiscal reporting",
+    "page numbering"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "G/L Book - Print"
+    },
+    {
+      "type": "report",
+      "name": "VAT Register - Print"
+    },
+    {
+      "type": "page",
+      "name": "General Ledger Setup"
+    },
+    {
+      "type": "page",
+      "name": "G/L Book Reprint Info"
+    },
+    {
+      "type": "page",
+      "name": "VAT Register Reprint Info"
+    }
+  ],
+  "features": [
+    "Progressive page numbering",
+    "Reprint functionality",
+    "Report Type selection",
+    "Last Printed Page tracking",
+    "Company Information printing"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002785,
+      "pages_in_call": 8
+    }
+  ]
+}

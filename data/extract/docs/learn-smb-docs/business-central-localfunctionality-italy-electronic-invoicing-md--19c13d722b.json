@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Italy/electronic-invoicing.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/electronic-invoicing",
+  "title": "Electronic Invoicing [FatturaPA]",
+  "blob": "015178100b8e6de900eea93170299282f72b7dbf",
+  "summary": "Electronic invoicing (FatturaPA) in Italian version enables invoicing to public administration through the Sistema di Interscambio (SDI) platform. Set up Fattura Setup page with VAT business groups and document types for invoices, credit memos, self-billing, and prepayments.",
+  "systems": [
+    "sales",
+    "localization"
+  ],
+  "topics": [
+    "italy",
+    "electronic invoicing",
+    "fatturapa",
+    "sdi platform",
+    "public administration"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Fattura Setup"
+    },
+    {
+      "type": "page",
+      "name": "Fattura Document Type List"
+    }
+  ],
+  "features": [
+    "FatturaPA",
+    "SDI platform",
+    "self-billing",
+    "prepayment invoices",
+    "XML export",
+    "credit memo handling"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002778,
+      "pages_in_call": 8
+    }
+  ]
+}

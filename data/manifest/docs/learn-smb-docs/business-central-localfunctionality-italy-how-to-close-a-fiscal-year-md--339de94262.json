@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-close-a-fiscal-year",
   "published_at": "2025-05-27T05:15:04.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "6c91e1ac475548aa1b316cf40794d211f2ccc74c",
       "words": 475,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:24:13.024Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.002778
+    },
+    "summarized": {
+      "at": "2026-10-06T19:24:19.621Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:24:19.622Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:24:19.623Z",
+      "page": false
     }
   },
   "input_hash": "6c91e1ac475548aa1b316cf40794d211f2ccc74c",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6c91e1ac475548aa1b316cf40794d211f2ccc74c"
+  "output_hash": "f972e0bc3ae36e81d0eff09f349ba7b969717330650e1c0bd9fee1778ecaf61a"
 }

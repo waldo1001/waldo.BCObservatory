@@ -1,0 +1,25 @@
+{
+  "video_id": "Dkd8_cGzIvc",
+  "item_id": "video/yt-microsoft/Dkd8_cGzIvc",
+  "summary": "Entering customer cash receipts in Business Central compared with Dynamics GP, published 2024-08-26. Shows two ways to record customer payments: the Cash Receipt Journals page and the Customer Register Payments page, including applying to invoices and posting a lumpsum payment.",
+  "overview": "The video starts with how receivables cash receipts are entered in Dynamics GP, then shows the equivalent process in Dynamics 365 Business Central. It is a short demo aimed at users moving from GP.\n\nIn Business Central, the presenter records a payment in Cash Receipt Journals by selecting the customer and choosing outstanding invoices from the apply to document number lookup. The amount and date received default automatically. The presenter then shows the Customer Register Payments window, which lists outstanding invoices for all customers, can be filtered by customer, and lets you select several invoices and post them as one lumpsum payment.",
+  "key_points": [
+    "Open Cash Receipt Journals by using the search icon and entering cash receipts journals.",
+    "In a cash receipt journal, select the customer, then use the apply to document number column to pick outstanding invoices from a lookup.",
+    "Business Central defaults the payment amount and the date received when a payment is applied to an invoice.",
+    "The Customer Register Payments page is an alternative way to record customer payments.",
+    "Customer Register Payments shows outstanding invoices for all customers and can be filtered by customer.",
+    "When a customer pays several invoices at once, select multiple invoices in Customer Register Payments and post them as a lumpsum payment."
+  ],
+  "audience": [
+    "functional consultant",
+    "end user"
+  ],
+  "extraction_hash": "f33300721a0bb84014fc2281c25b4c54d3b7c438dab2477045c5122e8e0aa7bb",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0116064
+  }
+}

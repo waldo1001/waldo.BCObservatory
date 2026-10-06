@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-print-depreciation-book-reports",
   "published_at": "2025-05-27T05:15:04.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "bf5928910dd4cf4c657958ef25c23636046f4962",
       "words": 207,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:24:11.139Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.002785
+    },
+    "summarized": {
+      "at": "2026-10-06T19:24:11.157Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:24:11.158Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:24:11.159Z",
+      "page": false
     }
   },
   "input_hash": "bf5928910dd4cf4c657958ef25c23636046f4962",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "bf5928910dd4cf4c657958ef25c23636046f4962"
+  "output_hash": "3691b5620be9d73491faef70fbc1ee7340b627fea335281974ecd28c612f9652"
 }

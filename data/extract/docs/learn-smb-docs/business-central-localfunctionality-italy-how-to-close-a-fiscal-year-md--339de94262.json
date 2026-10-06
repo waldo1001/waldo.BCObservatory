@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Italy/how-to-close-a-fiscal-year.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-close-a-fiscal-year",
+  "title": "How to Close a Fiscal Year",
+  "blob": "6c91e1ac475548aa1b316cf40794d211f2ccc74c",
+  "summary": "Close a fiscal year in Italian version by closing accounting periods, generating year-end closing entries using Close Income Statement batch job, and posting the entries to the general journal. Includes options for business units and dimensions.",
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "italy",
+    "fiscal year closing",
+    "year-end",
+    "income statement",
+    "accounting period"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Accounting Periods"
+    },
+    {
+      "type": "codeunit",
+      "name": "Close Income Statement"
+    },
+    {
+      "type": "page",
+      "name": "General Journals"
+    }
+  ],
+  "features": [
+    "fiscal year closing",
+    "income statement closing",
+    "closing entries",
+    "balance sheet transfer",
+    "business unit filtering",
+    "dimension filtering"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002778,
+      "pages_in_call": 8
+    }
+  ]
+}

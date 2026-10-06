@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-print-withholding-tax-reports",
   "published_at": "2025-05-27T05:15:04.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "0a3bcd1cc60cb4ff06c47a2d543b166c98cadbfa",
       "words": 162,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T19:24:11.142Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.002785
+    },
+    "summarized": {
+      "at": "2026-10-06T19:24:11.163Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:24:11.165Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:24:11.166Z",
+      "page": false
     }
   },
   "input_hash": "0a3bcd1cc60cb4ff06c47a2d543b166c98cadbfa",
@@ -45,5 +64,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "0a3bcd1cc60cb4ff06c47a2d543b166c98cadbfa"
+  "output_hash": "634051b742520d5bddbaf97b1105598b21345aedae155a66c14e2fe6ff8ab79e"
 }

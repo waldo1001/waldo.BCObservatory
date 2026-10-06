@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/electronic-invoicing",
   "published_at": "2025-05-27T05:15:04.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "015178100b8e6de900eea93170299282f72b7dbf",
       "words": 281,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:24:13.022Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.002778
+    },
+    "summarized": {
+      "at": "2026-10-06T19:24:19.616Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:24:19.616Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:24:19.617Z",
+      "page": false
     }
   },
   "input_hash": "015178100b8e6de900eea93170299282f72b7dbf",
@@ -39,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "015178100b8e6de900eea93170299282f72b7dbf"
+  "output_hash": "20cc3c72a1aaa02b234575c4c2c442bdd17280f4f2258cd0ddbc3a7add2caef1"
 }

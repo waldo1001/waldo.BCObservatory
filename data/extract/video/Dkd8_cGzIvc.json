@@ -1,0 +1,178 @@
+{
+  "video_id": "Dkd8_cGzIvc",
+  "item_id": "video/yt-microsoft/Dkd8_cGzIvc",
+  "title": "Comparing entering Customer Cash Receipts in Dynamics GP to Dynamics 365 Business Central (2024)",
+  "duration_s": 175,
+  "systems": [
+    "finance",
+    "sales"
+  ],
+  "topics": [
+    "cash receipts",
+    "customer payments",
+    "customer receivables",
+    "invoice application",
+    "payment posting",
+    "cash receipt journals",
+    "register payments"
+  ],
+  "chapters": [
+    {
+      "title": "Cash receipts entry in Dynamics GP",
+      "t_start": 0,
+      "t_end": 50.9
+    },
+    {
+      "title": "Cash receipt journals in Business Central",
+      "t_start": 50.9,
+      "t_end": 93.4
+    },
+    {
+      "title": "Customer register payments window",
+      "t_start": 93.4,
+      "t_end": 150
+    },
+    {
+      "title": "Streamlined payment process and summary",
+      "t_start": 150,
+      "t_end": 175
+    }
+  ],
+  "features": [
+    {
+      "name": "Cash Receipt Journals",
+      "description": "A feature in Business Central that allows users to record customer payments by selecting the customer, navigating to the apply to document number column, selecting outstanding invoices from a lookup, and automatically defaulting the payment amount.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 50.9,
+      "t_end": 93.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "cash receipts",
+        "customer payments",
+        "journal",
+        "receivables"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Customer Register Payments Window",
+      "description": "An alternative window in Business Central for recording customer payments that displays all outstanding invoices for all customers, allows filtering by customer, selecting multiple invoices, and posting as a lumpsum payment.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 93.4,
+      "t_end": 150,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "register payments",
+        "customer payments",
+        "invoices",
+        "filtering"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Automatic Amount and Date Defaulting",
+      "description": "Business Central automatically defaults the payment amount and date received when a customer payment is recorded against an invoice.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 85.7,
+      "t_end": 133.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "automatic defaulting",
+        "payment amount",
+        "user experience"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Lumpsum Payment Posting",
+      "description": "Business Central allows posting multiple invoice payments as a single lumpsum payment by selecting multiple invoices and posting them together.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 150,
+      "t_end": 170.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "multiple invoices",
+        "posting",
+        "lumpsum"
+      ],
+      "system": "finance"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Cash Receipt Journals",
+      "t": 50.9
+    },
+    {
+      "type": "page",
+      "name": "Customer Register Payments",
+      "t": 93.4
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 2.3,
+      "text": "in this video we're going to look at how to enter in receivables cash receipts and Dynamics GP and compare that to the experience",
+      "why_it_matters": "Sets the scope of the comparison between the two products for cash receipt processing.",
+      "check": "exact"
+    },
+    {
+      "t": 50.9,
+      "text": "to create customer payments in business Central we'll select the search icon and enter in cash receipts journals",
+      "why_it_matters": "Describes the primary method for entering cash receipts in Business Central.",
+      "check": "exact"
+    },
+    {
+      "t": 93.4,
+      "text": "in addition to cash receipts journals you can also use the customer reg register payments window to record customer payments",
+      "why_it_matters": "Identifies an alternative method for recording payments in Business Central.",
+      "check": "exact"
+    },
+    {
+      "t": 150,
+      "text": "if the customer was sending a payment for more than one invoice I can select multiple invoices in the window and then back under",
+      "why_it_matters": "Explains how Business Central handles multiple invoice payments in a single transaction.",
+      "check": "exact"
+    },
+    {
+      "t": 150,
+      "text": "business Central provides a simple and easy way to record customer payments allowing for a more streamlined cash receipt process",
+      "why_it_matters": "States the design benefit of Business Central's payment recording functionality.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 5,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 4
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.011373999999999999
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Italy/how-to-print-withholding-tax-reports.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-print-withholding-tax-reports",
+  "title": "Print withholding tax reports (IT)",
+  "blob": "0a3bcd1cc60cb4ff06c47a2d543b166c98cadbfa",
+  "summary": "Print Withholding Taxes reports listing withholding taxes payable to the Italian government. Use this to generate reports by month and year with optional detail level and final printing designation.",
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "withholding taxes",
+    "italy",
+    "tax reporting"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Withholding Taxes"
+    }
+  ],
+  "features": [
+    "Reference Month field",
+    "Reference Year field",
+    "Print Details option",
+    "Final Printing checkbox"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002785,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Italy/how-to-set-up-alternate-depreciation-methods.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-set-up-alternate-depreciation-methods",
+  "title": "How to set up alternate depreciation methods",
+  "blob": "13bfaa148eeeff7e9fbd8d938fe9ad29a8ca3126",
+  "summary": "Set up alternate depreciation methods including anticipated, accelerated, and reduced depreciation using depreciation tables. Use this to define custom fixed asset depreciation rates by period.",
+  "systems": [
+    "fixed-assets",
+    "localization"
+  ],
+  "topics": [
+    "depreciation",
+    "fixed assets",
+    "italy",
+    "depreciation methods"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Depreciation Tables"
+    },
+    {
+      "type": "page",
+      "name": "Depreciation Table List"
+    }
+  ],
+  "features": [
+    "Anticipated depreciation",
+    "Accelerated depreciation",
+    "Reduced depreciation",
+    "Period Depreciation %",
+    "Total Depreciation %",
+    "No. of Units in Period"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002785,
+      "pages_in_call": 8
+    }
+  ]
+}

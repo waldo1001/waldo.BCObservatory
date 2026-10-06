@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-set-up-automatic-payments-and-automatic-bills",
   "published_at": "2025-05-27T05:37:18.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "313f31be756dd998d83ae19e4839ca4e3bed6875",
       "words": 526,
       "forms": 2
+    },
+    "extracted": {
+      "at": "2026-10-06T19:24:13.020Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 5,
+      "cost_usd": 0.002778
+    },
+    "summarized": {
+      "at": "2026-10-06T19:24:19.609Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:24:19.610Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:24:19.611Z",
+      "page": false
     }
   },
   "input_hash": "313f31be756dd998d83ae19e4839ca4e3bed6875",
@@ -52,5 +71,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "313f31be756dd998d83ae19e4839ca4e3bed6875"
+  "output_hash": "d41f1c6de26ce24c560eaa65e2cb1160ccb887f3b790eee39b71cbabdfa4d48e"
 }

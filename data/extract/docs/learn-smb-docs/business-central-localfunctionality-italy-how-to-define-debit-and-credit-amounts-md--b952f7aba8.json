@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Italy/how-to-define-debit-and-credit-amounts.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-define-debit-and-credit-amounts",
+  "title": "How to Define Debit and Credit Amounts",
+  "blob": "951ccc5c020cf5d5fbf36799534e257f1de7cd2b",
+  "summary": "Define debit and credit amounts in General Journal, Customer Ledger Entry, and Vendor Ledger Entry tables in Italian version. Debit and credit amounts must match to enable posting and saving.",
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "italy",
+    "general journal",
+    "debit credit",
+    "accounting entries"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "General Journal"
+    },
+    {
+      "type": "table",
+      "name": "Cust. Ledger Entry"
+    },
+    {
+      "type": "table",
+      "name": "Vendor Ledger Entry"
+    }
+  ],
+  "features": [
+    "debit amount",
+    "credit amount",
+    "journal entry validation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002778,
+      "pages_in_call": 8
+    }
+  ]
+}

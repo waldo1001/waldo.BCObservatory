@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-set-up-alternate-depreciation-methods",
   "published_at": "2025-05-27T05:15:04.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "13bfaa148eeeff7e9fbd8d938fe9ad29a8ca3126",
       "words": 227,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:24:11.143Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.002785
+    },
+    "summarized": {
+      "at": "2026-10-06T19:24:11.167Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:24:11.168Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:24:11.169Z",
+      "page": false
     }
   },
   "input_hash": "13bfaa148eeeff7e9fbd8d938fe9ad29a8ca3126",
@@ -42,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "13bfaa148eeeff7e9fbd8d938fe9ad29a8ca3126"
+  "output_hash": "75b86b68dba837d069d600d58e9695d304e0f089d4e842a6aa97a17e9254efb2"
 }
