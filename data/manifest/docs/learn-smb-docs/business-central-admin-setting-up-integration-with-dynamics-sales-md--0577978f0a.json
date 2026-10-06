@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-setting-up-integration-with-dynamics-sales",
   "published_at": "2025-05-06T19:33:04.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "0ed9e33732ddd86073a7e5a17c820c7e654fc290",
       "words": 845,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:32:21.506Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.004224
+    },
+    "summarized": {
+      "at": "2026-10-06T19:32:21.541Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:32:21.542Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:32:21.543Z",
+      "page": false
     }
   },
   "input_hash": "0ed9e33732ddd86073a7e5a17c820c7e654fc290",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "0ed9e33732ddd86073a7e5a17c820c7e654fc290"
+  "output_hash": "71f1bac3feae765348322d49ceb0b6b50ac114211a1a05a60f52f1a45bc664a5"
 }

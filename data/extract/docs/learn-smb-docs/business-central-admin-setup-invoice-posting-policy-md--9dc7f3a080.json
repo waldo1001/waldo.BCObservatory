@@ -1,0 +1,44 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/admin-setup-invoice-posting-policy.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/admin-setup-invoice-posting-policy",
+  "title": "Define an invoice posting policy for users",
+  "blob": "0541b65ee40825d1d70bddcd9a2b8342d1506272",
+  "summary": "Defining invoice posting policies for users to restrict or require posting of sales and purchase invoices together with shipments or receipts.",
+  "systems": [
+    "sales",
+    "purchasing",
+    "administration"
+  ],
+  "topics": [
+    "invoice posting",
+    "user policy",
+    "posting rules",
+    "sales orders",
+    "purchase orders"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "User Setup"
+    }
+  ],
+  "features": [
+    "Invoice posting policy",
+    "Sales invoice posting policy",
+    "Purchase invoice posting policy",
+    "Prohibited posting",
+    "Mandatory posting",
+    "Allowed posting"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004224,
+      "pages_in_call": 8
+    }
+  ]
+}

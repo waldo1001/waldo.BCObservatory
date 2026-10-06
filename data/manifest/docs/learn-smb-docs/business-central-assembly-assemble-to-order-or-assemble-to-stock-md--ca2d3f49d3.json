@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/assembly-assemble-to-order-or-assemble-to-stock",
   "published_at": "2025-05-06T19:33:04.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "b6afc3d318e877eca624d0bf24c367af15477c3c",
       "words": 1027,
       "forms": 21
+    },
+    "extracted": {
+      "at": "2026-10-06T19:32:23.276Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.002831
+    },
+    "summarized": {
+      "at": "2026-10-06T19:32:23.291Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:32:23.294Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:32:23.299Z",
+      "page": false
     }
   },
   "input_hash": "b6afc3d318e877eca624d0bf24c367af15477c3c",
@@ -144,5 +163,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b6afc3d318e877eca624d0bf24c367af15477c3c"
+  "output_hash": "5607b8b205f6ed1e1972eb41ea16076db1562cbb657b64b0e31497a82da046bd"
 }

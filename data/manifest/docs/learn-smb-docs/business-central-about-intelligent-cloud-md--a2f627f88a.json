@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/about-intelligent-cloud",
   "published_at": "2025-05-06T19:33:04.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "969f65ddfbe9fe387c6f462fdfc7f71e7b0f7839",
       "words": 222,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T19:32:18.000Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002476
+    },
+    "summarized": {
+      "at": "2026-10-06T19:32:21.520Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:32:21.521Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:32:21.522Z",
+      "page": false
     }
   },
   "input_hash": "969f65ddfbe9fe387c6f462fdfc7f71e7b0f7839",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "969f65ddfbe9fe387c6f462fdfc7f71e7b0f7839"
+  "output_hash": "8d336cf466df887e87aaa3ab914ea98283a6a1fa080786f3c5c0a7b3fc38fc7f"
 }

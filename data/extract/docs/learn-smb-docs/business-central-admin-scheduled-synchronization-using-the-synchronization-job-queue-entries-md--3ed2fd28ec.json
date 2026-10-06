@@ -1,0 +1,55 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/admin-scheduled-synchronization-using-the-synchronization-job-queue-entries",
+  "title": "Synchronizing Business Central and Dataverse",
+  "blob": "c182223d0d137c850400840b3885f3d807adce15",
+  "summary": "Scheduling automatic synchronization between Business Central and Microsoft Dataverse using job queue entries to sync customers, vendors, contacts, currencies, and salespeople with configurable frequency and coupling rules.",
+  "systems": [
+    "integration",
+    "administration"
+  ],
+  "topics": [
+    "dataverse synchronization",
+    "job queue",
+    "data sync",
+    "master data",
+    "integration table mapping"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Job Queue Entries"
+    },
+    {
+      "type": "page",
+      "name": "Integration Table Mappings"
+    },
+    {
+      "type": "page",
+      "name": "Integration Synchronization Log"
+    },
+    {
+      "type": "page",
+      "name": "Integration Synchronization Errors"
+    }
+  ],
+  "features": [
+    "Scheduled synchronization",
+    "Bidirectional sync",
+    "Integration table mapping",
+    "Inactivity timeout",
+    "Record coupling",
+    "Synchronization job queue"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004224,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/assembly-reports",
   "published_at": "2025-05-06T19:33:04.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "b433166a3f8fa63f8eb9058af1450861c903edce",
       "words": 62,
       "forms": 29
+    },
+    "extracted": {
+      "at": "2026-10-06T19:32:23.277Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002831
+    },
+    "summarized": {
+      "at": "2026-10-06T19:32:23.308Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:32:23.316Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:32:23.318Z",
+      "page": false
     }
   },
   "input_hash": "b433166a3f8fa63f8eb9058af1450861c903edce",
@@ -183,5 +202,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b433166a3f8fa63f8eb9058af1450861c903edce"
+  "output_hash": "a8b5137aa7b66ca56c42a70acca90ab2e5b22c3f32737b98152a0c06e956a1cb"
 }

@@ -1,0 +1,52 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/assembly-assemble-to-order-or-assemble-to-stock.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/assembly-assemble-to-order-or-assemble-to-stock",
+  "title": "Understanding Assemble to Order and Assemble to Stock",
+  "blob": "b6afc3d318e877eca624d0bf24c367af15477c3c",
+  "summary": "Assemble to order and assemble to stock are two processes for managing assembly items in Business Central, with different approaches for customized items versus standard inventory.",
+  "systems": [
+    "assembly",
+    "sales",
+    "inventory"
+  ],
+  "topics": [
+    "assembly",
+    "assemble to order",
+    "assemble to stock",
+    "inventory management",
+    "sales orders",
+    "components",
+    "bom"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Assemble-to-Order Lines"
+    },
+    {
+      "type": "page",
+      "name": "Item Card"
+    }
+  ],
+  "features": [
+    "assemble to order",
+    "assemble to stock",
+    "assembly policy",
+    "component reservation",
+    "sales order linking",
+    "quantity to assemble",
+    "partial shipments",
+    "inventory combination"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002831,
+      "pages_in_call": 8
+    }
+  ]
+}

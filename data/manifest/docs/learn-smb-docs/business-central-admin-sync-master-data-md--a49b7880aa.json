@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-sync-master-data",
   "published_at": "2025-05-06T19:33:04.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "e0d56bf8ba9de2266d19296e520870966ea39601",
       "words": 1008,
       "forms": 6
+    },
+    "extracted": {
+      "at": "2026-10-06T19:32:21.509Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.004224
+    },
+    "summarized": {
+      "at": "2026-10-06T19:32:23.251Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:32:23.252Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:32:23.253Z",
+      "page": false
     }
   },
   "input_hash": "e0d56bf8ba9de2266d19296e520870966ea39601",
@@ -66,5 +85,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e0d56bf8ba9de2266d19296e520870966ea39601"
+  "output_hash": "438d83ac3bff6dbcd200da7c61e605f5f5e860310bf7d79f68a339ac921f7f11"
 }

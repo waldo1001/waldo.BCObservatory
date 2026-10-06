@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-sustainability",
   "published_at": "2025-05-06T19:33:04.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "e635bfa8d6fe9e089efa46ff9bc31b9bc487733d",
       "words": 800,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T19:32:18.001Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.002476
+    },
+    "summarized": {
+      "at": "2026-10-06T19:32:21.524Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:32:21.525Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:32:21.526Z",
+      "page": false
     }
   },
   "input_hash": "e635bfa8d6fe9e089efa46ff9bc31b9bc487733d",
@@ -48,5 +67,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e635bfa8d6fe9e089efa46ff9bc31b9bc487733d"
+  "output_hash": "d713d13dab52ea8bbac274be68df30ade352dea347f800a066f60d2358e25658"
 }

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/create-new-routing",
   "published_at": "2025-05-06T19:33:04.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "c6f1addd348bdb389bc3b2ac2f5c34984ee548e7",
       "words": 229,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:32:23.289Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002831
+    },
+    "summarized": {
+      "at": "2026-10-06T19:32:23.379Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:32:23.379Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:32:23.380Z",
+      "page": false
     }
   },
   "input_hash": "c6f1addd348bdb389bc3b2ac2f5c34984ee548e7",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c6f1addd348bdb389bc3b2ac2f5c34984ee548e7"
+  "output_hash": "d139a12305181e89c53b6b8dcd2c82e8522b15a9923a0ed4cd838e7da11f0a09"
 }

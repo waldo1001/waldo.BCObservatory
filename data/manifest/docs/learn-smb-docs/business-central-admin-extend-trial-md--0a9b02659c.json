@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-extend-trial",
   "published_at": "2025-05-06T19:33:04.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "7c53e333ff7f9e675774f05b576a4bae97223147",
       "words": 510,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:32:18.002Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002476
+    },
+    "summarized": {
+      "at": "2026-10-06T19:32:21.527Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:32:21.528Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:32:21.528Z",
+      "page": false
     }
   },
   "input_hash": "7c53e333ff7f9e675774f05b576a4bae97223147",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7c53e333ff7f9e675774f05b576a4bae97223147"
+  "output_hash": "931556394016cf81ef70bc6ba2bfc5186576306f446b2ae489817192d9a36912"
 }

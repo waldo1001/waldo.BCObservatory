@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/ad-hoc-analysis-sustainability.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-sustainability",
+  "title": "Ad-hoc analysis of sustainability data",
+  "blob": "e635bfa8d6fe9e089efa46ff9bc31b9bc487733d",
+  "summary": "Ad-hoc analysis of sustainability data uses the Data Analysis feature to analyze sustainability ledger entries directly from list pages with pivot tables and multiple analysis scenarios.",
+  "systems": [
+    "sustainability",
+    "reporting"
+  ],
+  "topics": [
+    "sustainability",
+    "data analysis",
+    "emissions",
+    "ledger entries",
+    "ad-hoc analysis"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Sustainability Ledger Entries"
+    }
+  ],
+  "features": [
+    "Data Analysis feature",
+    "pivot mode",
+    "emission analysis",
+    "sustainability reporting"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002476,
+      "pages_in_call": 8
+    }
+  ]
+}

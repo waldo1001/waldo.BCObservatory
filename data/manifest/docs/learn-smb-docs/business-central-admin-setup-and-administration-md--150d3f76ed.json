@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-setup-and-administration",
   "published_at": "2025-05-06T19:33:04.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "3e0e4590d491c56a75acd010df288553f4b21dd5",
       "words": 652,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:32:21.507Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.004224
+    },
+    "summarized": {
+      "at": "2026-10-06T19:32:23.246Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:32:23.247Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:32:23.248Z",
+      "page": false
     }
   },
   "input_hash": "3e0e4590d491c56a75acd010df288553f4b21dd5",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "3e0e4590d491c56a75acd010df288553f4b21dd5"
+  "output_hash": "206c26e38e5f8c28d2e2568738a6bf2426bfbfb05aa9cc1ba9f93163989b7883"
 }

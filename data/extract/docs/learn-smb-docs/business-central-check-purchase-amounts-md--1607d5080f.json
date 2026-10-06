@@ -1,0 +1,44 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/check-purchase-amounts.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/check-purchase-amounts",
+  "title": "Check amounts on purchase invoices and credit memos",
+  "blob": "4069d10020bf8b28f4cc4266a140fbd08d9bd0d3",
+  "summary": "Check amounts on purchase invoices and credit memos validates that document total amounts including VAT match the sum of purchase lines before posting.",
+  "systems": [
+    "purchasing",
+    "finance"
+  ],
+  "topics": [
+    "purchase invoices",
+    "credit memos",
+    "vat",
+    "amount validation",
+    "invoicing"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Purchases & Payables Setup"
+    }
+  ],
+  "features": [
+    "amount validation",
+    "vat checking",
+    "purchase invoice totals",
+    "credit memo totals",
+    "document amount verification"
+  ],
+  "versions": [
+    "2025 release wave 1"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002831,
+      "pages_in_call": 8
+    }
+  ]
+}

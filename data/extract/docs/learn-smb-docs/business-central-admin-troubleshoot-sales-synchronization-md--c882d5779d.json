@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/admin-troubleshoot-sales-synchronization.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/admin-troubleshoot-sales-synchronization",
+  "title": "Troubleshooting Synchronization Errors",
+  "blob": "1d2d09e352d307fbca52bd8e4506aba35de812fd",
+  "summary": "Troubleshooting common synchronization errors between Business Central and Dataverse, including permission issues, coupled record problems, connection timeouts, and administration mode restrictions.",
+  "systems": [
+    "integration",
+    "administration"
+  ],
+  "topics": [
+    "synchronization errors",
+    "dataverse integration",
+    "troubleshooting",
+    "coupled records",
+    "permissions"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Integration Synchronization Errors"
+    }
+  ],
+  "features": [
+    "Synchronization error diagnosis",
+    "Permission debugging",
+    "Record coupling validation",
+    "Session timeout recovery",
+    "Administration mode handling",
+    "Error call stack information"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004224,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/admin-upgrade-sales-to-cds.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/admin-upgrade-sales-to-cds",
+  "title": "Upgrading an Integration with Dynamics 365 Sales",
+  "blob": "fd14b19bdb31a67b3fd4c0a7dd2771487acbccc1",
+  "summary": "Upgrading an existing Dynamics 365 Sales integration to use Microsoft Dataverse by disconnecting the legacy connection and reconnecting through Dataverse with default synchronization settings.",
+  "systems": [
+    "integration",
+    "crm",
+    "administration"
+  ],
+  "topics": [
+    "integration upgrade",
+    "dataverse migration",
+    "sales integration",
+    "connection setup"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Microsoft Dynamics 365 Connection Setup"
+    },
+    {
+      "type": "page",
+      "name": "Dataverse Connection Setup"
+    },
+    {
+      "type": "page",
+      "name": "Sales Connection Setup"
+    }
+  ],
+  "features": [
+    "Integration upgrade",
+    "Dataverse connection",
+    "Sales integration",
+    "Business Central Integration Solution",
+    "Default synchronization setup"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004224,
+      "pages_in_call": 8
+    }
+  ]
+}

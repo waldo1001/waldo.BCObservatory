@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-responding-to-requests-about-personal-data",
   "published_at": "2025-05-06T19:33:04.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "8f22104d1d6150e963d3e73b24e549cb18c825bc",
       "words": 1178,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:32:21.504Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.004224
+    },
+    "summarized": {
+      "at": "2026-10-06T19:32:21.511Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:32:21.512Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:32:21.513Z",
+      "page": false
     }
   },
   "input_hash": "8f22104d1d6150e963d3e73b24e549cb18c825bc",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "8f22104d1d6150e963d3e73b24e549cb18c825bc"
+  "output_hash": "19d708f5a2d48c6aa61fba738d391cb066bf7bdc15828335ac3a40bb78939085"
 }

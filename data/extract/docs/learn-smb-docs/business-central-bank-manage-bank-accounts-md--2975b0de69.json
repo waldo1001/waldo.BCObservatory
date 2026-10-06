@@ -1,0 +1,55 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/bank-manage-bank-accounts.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/bank-manage-bank-accounts",
+  "title": "Manage bank accounts",
+  "blob": "d34e620549a628194409f5a0115d4a4f3cf1012c",
+  "summary": "Bank account reconciliation in Business Central matches internal bank account entries with bank statements to ensure cash records are accurate and to identify missing payments and errors.",
+  "systems": [
+    "finance",
+    "administration"
+  ],
+  "topics": [
+    "bank reconciliation",
+    "bank accounts",
+    "payment reconciliation",
+    "cash management",
+    "bank statements"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Bank Acc. Reconciliation"
+    },
+    {
+      "type": "page",
+      "name": "Payment Reconciliation Journal"
+    },
+    {
+      "type": "page",
+      "name": "Bank Rec. Worksheet"
+    },
+    {
+      "type": "page",
+      "name": "General Ledger Setup"
+    }
+  ],
+  "features": [
+    "bank reconciliation",
+    "bank statement import",
+    "automatic matching",
+    "bank account ledger entries",
+    "payment reconciliation",
+    "check processing"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002831,
+      "pages_in_call": 8
+    }
+  ]
+}

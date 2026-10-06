@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-troubleshoot-sales-synchronization",
   "published_at": "2025-05-06T19:33:04.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "1d2d09e352d307fbca52bd8e4506aba35de812fd",
       "words": 714,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:32:21.510Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.004224
+    },
+    "summarized": {
+      "at": "2026-10-06T19:32:23.254Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:32:23.255Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:32:23.255Z",
+      "page": false
     }
   },
   "input_hash": "1d2d09e352d307fbca52bd8e4506aba35de812fd",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "1d2d09e352d307fbca52bd8e4506aba35de812fd"
+  "output_hash": "3b1d0b8357b4aaf0cb52c56353ebdced3facd643a13009ac6193ab19def2dadd"
 }

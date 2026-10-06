@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-scheduled-synchronization-using-the-synchronization-job-queue-entries",
   "published_at": "2025-05-06T19:33:04.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "c182223d0d137c850400840b3885f3d807adce15",
       "words": 1080,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:32:21.505Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 4,
+      "cost_usd": 0.004224
+    },
+    "summarized": {
+      "at": "2026-10-06T19:32:21.538Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:32:21.539Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:32:21.540Z",
+      "page": false
     }
   },
   "input_hash": "c182223d0d137c850400840b3885f3d807adce15",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c182223d0d137c850400840b3885f3d807adce15"
+  "output_hash": "b341ebdb549f09be881051150354bd295e7ec80555167cc5dbbc354ba2bfb6f2"
 }

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/bank-setup-banking",
   "published_at": "2025-05-06T19:33:04.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "f2d2ce08fd42a6e3c4439fe24373060474bfdfe3",
       "words": 162,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T19:32:23.280Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002831
+    },
+    "summarized": {
+      "at": "2026-10-06T19:32:23.367Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:32:23.367Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:32:23.368Z",
+      "page": false
     }
   },
   "input_hash": "f2d2ce08fd42a6e3c4439fe24373060474bfdfe3",
@@ -48,5 +67,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f2d2ce08fd42a6e3c4439fe24373060474bfdfe3"
+  "output_hash": "bab563e580f405c6277fa037e15ef83be839d3d1053b58599f4df1d7dc49c9da"
 }
