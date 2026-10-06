@@ -1,0 +1,29 @@
+{
+  "video_id": "YX9UfUF0EsA",
+  "item_id": "video/yt-mibuso/YX9UfUF0EsA",
+  "summary": "M365 Copilot Chat replacing the existing Copilot chat in Business Central: first version is read-only, needs a Copilot license for full capability, and is planned for BC 29 and later. Covers architecture, agentic loop, admin controls, permissions and open questions on free access.",
+  "overview": "Microsoft presenters explain how M365 Copilot Chat becomes the home for Copilot experiences in Business Central and completely replaces the current BC Copilot chat. They trace the move from chat to agents and immersive experiences, then demo querying BC data with citations, page and record context, attachments, rich content, exporting analysis to Word, and carrying a conversation into other Microsoft 365 apps.\n\nThe session also covers the tools and agentic loop behind multi-step queries, permission handling (tools run as the user), admin portal controls, licensing, version limits, preview access and extensibility through Copilot Studio. Several items, such as free limited access for BC-only users, credit consumption and write actions, are stated as still to be determined.",
+  "key_points": [
+    "M365 Copilot Chat completely replaces the existing Copilot chat in Business Central; the old chat goes away.",
+    "First version is read-only: it can query and analyze BC data and give guidance, but cannot create or change records.",
+    "BC data is queried only when chat is used inside Business Central, not from Outlook or Teams, though chat history carries over to those apps.",
+    "Tools run as the signed-in user, so existing permission sets and access controls still apply. Admins control access via the Copilot and agent capabilities page and M365 admin portal settings.",
+    "Full capability needs a Copilot license. Limited free access for BC-only users is being investigated, and credit consumption details are still TBD.",
+    "Planned for public release in BC 29 (somewhere between October and April, dates unconfirmed). Not planned for BC 28 and earlier or on-premises. Currently private preview for MVPs; partners may get early access sandboxes with a partner sandbox license.",
+    "Users cannot add their own tools now; extensibility is through Copilot Studio agents. Partners should add tooltips and use clear names and page names so Copilot can use their extensions."
+  ],
+  "audience": [
+    "administrator",
+    "functional consultant",
+    "partner",
+    "decision maker",
+    "developer"
+  ],
+  "extraction_hash": "1830ea597f5e57490ad44f7c5e590a6a69e4d249da91f08dde48956f627a0a55",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0367884
+  }
+}

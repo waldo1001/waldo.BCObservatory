@@ -1,0 +1,234 @@
+{
+  "video_id": "sIWz2yPqLpo",
+  "item_id": "video/yt-saurav/sIWz2yPqLpo",
+  "title": "Business Central BC29: Control Global Symbol Versions",
+  "duration_s": 954,
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "al symbols",
+    "global symbol download",
+    "version control",
+    "app.json",
+    "minor version enforcement",
+    "al-go",
+    "development workflow"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Overview",
+      "t_start": 0,
+      "t_end": 50.5
+    },
+    {
+      "title": "What are AL Symbols",
+      "t_start": 50.5,
+      "t_end": 130
+    },
+    {
+      "title": "Traditional Symbol Download Methods",
+      "t_start": 130,
+      "t_end": 290
+    },
+    {
+      "title": "Global Symbol Download in BC 28",
+      "t_start": 290,
+      "t_end": 380
+    },
+    {
+      "title": "Problem with Version Resolution",
+      "t_start": 380,
+      "t_end": 580
+    },
+    {
+      "title": "BC 29 Global Source Enforce Minor Version",
+      "t_start": 580,
+      "t_end": 745
+    },
+    {
+      "title": "Use Cases and Scenarios",
+      "t_start": 745,
+      "t_end": 830
+    },
+    {
+      "title": "Summary and Key Takeaways",
+      "t_start": 830,
+      "t_end": 954
+    }
+  ],
+  "features": [
+    {
+      "name": "Global Symbol Download",
+      "description": "Feature introduced in BC 28 that allows AL developers to download symbols from a global source without relying on a Docker environment or Business Central client instance.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 290,
+      "t_end": 380,
+      "is_demoed": true,
+      "caveats": [
+        "Symbols downloaded from global source are read-only versions without code",
+        "only major version is respected in version 28"
+      ],
+      "tags": [
+        "symbols",
+        "global source",
+        "bc28",
+        "development"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Global Source Enforce Minor Version",
+      "description": "New feature in BC 29 that constrains global symbol downloads to the major and minor version specified in app.json, while still getting the newest available patch within that minor version.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 580.4,
+      "t_end": 745,
+      "is_demoed": true,
+      "caveats": [
+        "Must be enabled in settings or workspace configuration",
+        "Default behavior in BC 28 was disabled"
+      ],
+      "tags": [
+        "minor version",
+        "version enforcement",
+        "bc29",
+        "symbols"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Minor Version Boundary Control",
+      "description": "Setting that allows projects to maintain minor version boundaries for symbol resolution while still benefiting from newer patches within the same minor version.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 580.4,
+      "t_end": 830,
+      "is_demoed": true,
+      "caveats": [
+        "Requires manual configuration in settings",
+        "Requires understanding of major and minor version semantics"
+      ],
+      "tags": [
+        "version boundary",
+        "patch management",
+        "development",
+        "control"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AL Extension Settings Configuration",
+      "description": "Method to configure symbol download behavior through settings.json or user settings with al.enforce.minor.version parameter for version control.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 656.8,
+      "t_end": 726.6,
+      "is_demoed": true,
+      "caveats": [
+        "Can be set at user, workspace, or user settings level",
+        "Workspace settings recommended for team environments"
+      ],
+      "tags": [
+        "configuration",
+        "settings",
+        "development"
+      ],
+      "system": "development"
+    }
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Customer",
+      "t": 109.5
+    },
+    {
+      "type": "page",
+      "name": "Customer Card",
+      "t": 109.5
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Saurav Dhyani",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 16.9,
+      "text": "Now, with Business Central 2026 release wave two, Microsoft is giving AL developer more control over which symbols are downloaded",
+      "why_it_matters": "Announces the key benefit of BC29 - increased developer control over symbol resolution",
+      "check": "exact"
+    },
+    {
+      "t": 28.6,
+      "text": "Now, in BC 29, you can restrict global symbol resolution to a major or to a and minor versions specified in your app.json",
+      "why_it_matters": "Describes the core capability of the new BC29 feature for version restriction",
+      "check": "exact"
+    },
+    {
+      "t": 251.7,
+      "text": "The minimum version of the dependent extension. So, the way download symbol to work, it looks for the minimum version that your app can",
+      "why_it_matters": "Explains the fundamental mechanism of how symbol resolution worked before BC29",
+      "check": "exact"
+    },
+    {
+      "t": 327.9,
+      "text": "starting 2026 release wave one, obviously 28, Microsoft introduced an ability to download symbols from global source",
+      "why_it_matters": "Establishes that global symbol download was introduced in BC28 release wave one",
+      "check": "exact"
+    },
+    {
+      "t": 580.4,
+      "text": "in version 29, Microsoft enforce minor version by introducing global source enforce minor version",
+      "why_it_matters": "Defines the exact change introduced in BC29 addressing version resolution problems",
+      "check": "exact"
+    },
+    {
+      "t": 592.4,
+      "text": "When this option is enabled, global symbol download are constrained to the major and minor version specified on your app.json",
+      "why_it_matters": "Explains the behavior when the new BC29 feature is enabled",
+      "check": "exact"
+    },
+    {
+      "t": 850.2,
+      "text": "With global source enforced minor version enabled, the major version comes from app.json, the minor version is also respected",
+      "why_it_matters": "Summarizes how BC29 controls both major and minor version selection",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 877.4,
+      "kind": "other",
+      "text": "when you download from global symbols, the only thing that you will not get when you get into AL Explorer ..."
+    }
+  ],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 4
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    }
+  ]
+}

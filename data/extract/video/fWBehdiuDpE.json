@@ -1,0 +1,261 @@
+{
+  "video_id": "fWBehdiuDpE",
+  "item_id": "video/yt-hougaard/fWBehdiuDpE",
+  "title": "Translate your app with an LLM in Business Central",
+  "duration_s": 773,
+  "systems": [
+    "development",
+    "platform",
+    "integration"
+  ],
+  "topics": [
+    "app translation",
+    "llm integration",
+    "claude",
+    "al build tool",
+    "xliff files",
+    "localization",
+    "developer comments",
+    "context-aware translation"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and motivation for LLM-based translation",
+      "t_start": 0,
+      "t_end": 105.7
+    },
+    {
+      "title": "Setting up translation with labels in Hello World app",
+      "t_start": 105.7,
+      "t_end": 194.6
+    },
+    {
+      "title": "AL Build tool and translation workflow overview",
+      "t_start": 194.6,
+      "t_end": 295.8
+    },
+    {
+      "title": "Claude configuration and caching with Microsoft translations",
+      "t_start": 295.8,
+      "t_end": 382.7
+    },
+    {
+      "title": "Demonstrating translations in Danish and German",
+      "t_start": 382.7,
+      "t_end": 554.3
+    },
+    {
+      "title": "Using developer comments for context-aware translations",
+      "t_start": 554.3,
+      "t_end": 742.7
+    },
+    {
+      "title": "Conclusion and call to action",
+      "t_start": 742.7,
+      "t_end": 773
+    }
+  ],
+  "features": [
+    {
+      "name": "LLM-based app translation using Claude",
+      "description": "Tool that integrates Claude LLM into the AL Build pipeline to automatically translate Business Central app labels into multiple languages using context from system prompts.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 81.5,
+      "t_end": 322.9,
+      "is_demoed": true,
+      "caveats": [
+        "Requires setting up AL Build tool",
+        "Claude API key needed",
+        "Stores translations in local database to avoid repeated LLM calls"
+      ],
+      "tags": [
+        "translation",
+        "llm",
+        "claude",
+        "automation"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Translation file (XLIFF) support in app.json",
+      "description": "Feature flag called 'translate file' in app.json that enables generation of translation files in XLIFF format containing source text and target translation placeholders.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 143.4,
+      "t_end": 194.6,
+      "is_demoed": true,
+      "caveats": [
+        "Only translatable content must be defined as labels, not strings"
+      ],
+      "tags": [
+        "translation",
+        "xliff",
+        "localization",
+        "app-json"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AL Build with translation task",
+      "description": "Python-based AL Build tool that runs translation tasks on XLIFF files, including updating app versions, compiling, and calling LLM translation services with system prompts.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 214.3,
+      "t_end": 280.4,
+      "is_demoed": true,
+      "caveats": [
+        "Multiple tasks in AL Build configuration",
+        "Runs sequentially; parallel translation mentioned as not in current version"
+      ],
+      "tags": [
+        "al-build",
+        "automation",
+        "pipeline",
+        "translation"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Context injection through system prompts",
+      "description": "Ability to provide detailed system prompts to the LLM describing the app purpose, target users, and domain context to improve translation quality and appropriateness.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 295.8,
+      "t_end": 322.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "context",
+        "system-prompt",
+        "translation-quality"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Microsoft translation database integration",
+      "description": "Local database that stores approved Microsoft translations for common labels to ensure consistency and reduce wrong translations by reusing Microsoft's localized terminology.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 359.3,
+      "t_end": 382.7,
+      "is_demoed": true,
+      "caveats": [
+        "Only applies to recognized Microsoft labels"
+      ],
+      "tags": [
+        "translation",
+        "database",
+        "consistency"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Developer comments for translation guidance",
+      "description": "Developers can add comments to labels that are passed to the LLM to provide additional context or special instructions for how to translate specific text, such as tone or domain-specific guidance.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 570.4,
+      "t_end": 700.3,
+      "is_demoed": true,
+      "caveats": [
+        "Comments were previously unused for translation but now fed to LLM"
+      ],
+      "tags": [
+        "developer-comments",
+        "context",
+        "guidance"
+      ],
+      "system": "development"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "app.json",
+      "t": 143.4
+    },
+    {
+      "type": "other",
+      "name": "XLIFF file",
+      "t": 280.4
+    },
+    {
+      "type": "other",
+      "name": "AL Build",
+      "t": 214.3
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Eric",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 81.5,
+      "text": "maybe I can I can get an LLM. Maybe I can get Claude or ChatGPT. Because they're pretty good at translations.",
+      "why_it_matters": "Shows motivation for using LLMs versus traditional machine translation services that had quality issues.",
+      "check": "exact"
+    },
+    {
+      "t": 143.4,
+      "text": "for stuff to actually get translated we need to turn on a feature in the app json called translate file",
+      "why_it_matters": "Explains the required setup step to enable translation file generation.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 295.8,
+      "text": "this is an app for Business Central. It's adding extended functionality to common finance areas. The target user is finance controller that speaks fluent",
+      "why_it_matters": "Example of system prompt context that improves translation quality by telling the LLM the domain and target audience.",
+      "check": "exact"
+    },
+    {
+      "t": 359.3,
+      "text": "and stored them in my database so if if if we have customer number that's a microsoft label",
+      "why_it_matters": "Shows caching strategy to avoid re-translating known terms and ensure Microsoft terminology consistency.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 657,
+      "text": "the time you spend translating is not insignificant. Um so, I was working on a version that would just translate 10 uh 15 uh",
+      "why_it_matters": "Indicates performance considerations and that parallel translation is a future enhancement not yet implemented.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 674,
+      "kind": "not-in-this-release",
+      "text": "I was working on a version that would just translate 10 uh 15 uh translations in in parallel, but uh ..."
+    }
+  ],
+  "checks": {
+    "quotes_kept": 5,
+    "quotes_dropped": 1,
+    "evidence_verified": 0,
+    "evidence_unverified": 6
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/cloud-migration-custom-migration.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloud-migration-custom-migration",
+  "title": "Custom migration from any SQL source",
+  "blob": "ab432a0068769017c709377cf60fe6a0e37c23f4",
+  "summary": "Set up custom migrations from any SQL-based source to Business Central online using no-code mappings, custom migration apps, or by extending the BC14 reimplementation tool.",
+  "systems": [
+    "integration",
+    "administration",
+    "development"
+  ],
+  "topics": [
+    "cloud migration",
+    "custom migration",
+    "data mapping",
+    "sql source",
+    "table mappings"
+  ],
+  "objects": [
+    {
+      "type": "interface",
+      "name": "Custom Migration Provider"
+    },
+    {
+      "type": "interface",
+      "name": "Custom Migration Table Mapping"
+    },
+    {
+      "type": "enum",
+      "name": "Custom Migration Provider"
+    },
+    {
+      "type": "table",
+      "name": "Replication Table Mapping"
+    },
+    {
+      "type": "table",
+      "name": "Migration Setup Table Mapping"
+    }
+  ],
+  "features": [
+    "no-code custom migration",
+    "table mappings",
+    "replication mappings",
+    "setup mappings",
+    "custom migration provider interface",
+    "custom migration table mapping interface"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005993,
+      "pages_in_call": 8
+    }
+  ]
+}

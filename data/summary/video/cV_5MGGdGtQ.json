@@ -1,0 +1,27 @@
+{
+  "video_id": "cV_5MGGdGtQ",
+  "item_id": "video/yt-hougaard/cV_5MGGdGtQ",
+  "summary": "KPI cards in the Advanced Spreadsheets and Reporting app for Business Central: a demo of a basic card, auto card type, compare value, target bar or donut, trend display and status with warning and critical levels. Useful for building KPI dashboards in spreadsheets.",
+  "overview": "Erik Hougaard shows how to format KPIs as cards using the Advanced Spreadsheets and Reporting app for Business Central. He starts with a basic KPI card and the auto card type, which formats the card based on the settings you have defined.\n\nHe then adds a compare value to show whether the main value is above or below another value, a target visualization (for example a target of 1,200 with 83% reached), a trend display, and a status indicator with warning and critical levels. The video ends by suggesting the cards as building blocks for a dashboard of KPIs.",
+  "key_points": [
+    "A KPI card can show a value, a comparison, a trend, a target and a status.",
+    "Card type auto formats the card depending on the settings you have defined.",
+    "A compare value shows whether the main value is above or below the comparison value.",
+    "The target visualization shows progress as a percentage, in the demo a target of 1,200 with 83% reached, and can be a bar or a donut chart.",
+    "The trend display shows movement over time without a full chart with numbers.",
+    "Status uses warning and critical levels; the two can be combined and the direction can be changed.",
+    "Without specified levels, the status in the demo showed as on track."
+  ],
+  "audience": [
+    "functional consultant",
+    "developer",
+    "end user"
+  ],
+  "extraction_hash": "349d8033bc6fecd9b1efef92dc6bec34342087aa6676a23bbb8b3fce7542a226",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.012306399999999999
+  }
+}

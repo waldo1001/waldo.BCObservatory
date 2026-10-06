@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/migrate-bc14-reimplementation.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-bc14-reimplementation",
+  "title": "Business Central 14 Reimplementation tool for cloud migration",
+  "blob": "db99008154b8bb4cf526fce533b3fcc7d88bd2d1",
+  "summary": "Migrate essential business data only from Business Central version 14 on-premises to online using the reimplementation tool without requiring customization conversion.",
+  "systems": [
+    "administration",
+    "integration"
+  ],
+  "topics": [
+    "cloud migration",
+    "bc14",
+    "reimplementation",
+    "data migration",
+    "clean start"
+  ],
+  "objects": [],
+  "features": [
+    "essential business data migration",
+    "master data migration",
+    "opening balances",
+    "setup data",
+    "custom table migration",
+    "module disable settings"
+  ],
+  "versions": [
+    "version 14"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005993,
+      "pages_in_call": 8
+    }
+  ]
+}

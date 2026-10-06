@@ -1,0 +1,28 @@
+{
+  "video_id": "LerAo-GGl8U",
+  "item_id": "video/yt-mibuso/LerAo-GGl8U",
+  "summary": "Business Central admin MCP server (in public preview): a remote, stateless MCP server exposing Admin API functionality to AI agents, with Entra ID and OAuth 2.1 authentication. Evidence for setup in VS Code and Copilot Studio, the multi-tenant MCP proxy sample, and the excluded destructive operations.",
+  "overview": "The session explains MCP as a protocol that wraps APIs in JSON RPC with natural language descriptions, then shows how the Business Central admin MCP server applies it to administration. The server is remote, stateless, SaaS-only and close in design to the Admin Center API. Authentication uses Entra ID with OAuth 2.1 and a well-known discovery endpoint.\n\nDemos cover a single-tenant setup in Visual Studio Code, where the agent discovers 42 tools and queries environments, quotas and database usage, and investigates a failed upgrade. A Copilot Studio custom connector is set up with an Entra app registration. For partners with many customer tenants, an MCP proxy sample from the BC Tech GitHub repository is used with GitHub Copilot CLI. The Q&A covers multi-tenant authentication, extension limits and on-premises support.",
+  "key_points": [
+    "The admin MCP server is in public preview, is SaaS-only and does not cover on-premises.",
+    "In VS Code the server is added in settings and the agent discovered 42 tools; no custom client is needed for the admin flow.",
+    "Destructive operations are deliberately not exposed: no uninstalling apps, deleting or renaming environments, setting or clearing security groups, or linking/unlinking Power Platform. This may be reconsidered later.",
+    "Publishing extensions is not part of the admin API; the team says it would like to add it, with no timeline given.",
+    "Copilot Studio needs an Entra app registration, a manual redirect URI and a custom MCP connector with OAuth endpoints, client credentials and scopes. Only delegated flows work, so a user must sign in interactively.",
+    "For partners with many tenants, the BC Tech repository has an MCP proxy sample that adds a tenant ID parameter and per-tenant authentication tools, and stores authentication data encrypted on the local machine.",
+    "The proxy sample can be changed to use S2S authentication, but this needs code changes and an application setup. It is sample code, not a turnkey solution."
+  ],
+  "audience": [
+    "administrator",
+    "partner",
+    "developer",
+    "functional consultant"
+  ],
+  "extraction_hash": "4147e55229f3c50f4661deed3498654791d2b6b76223ef0d847a3d99280f289b",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0291744
+  }
+}

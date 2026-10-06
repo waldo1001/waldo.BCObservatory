@@ -1,0 +1,28 @@
+{
+  "video_id": "MNwTt06ZxwY",
+  "item_id": "video/yt-mibuso/MNwTt06ZxwY",
+  "summary": "Building, testing and shipping agents in Business Central: creating and configuring agents in the client (27.4 and newer), model selection in version 28, task simulation, exporting definitions, packaging agents as extensions for production, the AL agent metadata interfaces, and AI evaluation tools for tests.",
+  "overview": "The session from BC TechDays presents agents as a first-party product in Business Central. It walks through creating an agent instance in the client, setting name, language, region and user access, and iterating on profile, permissions and instructions. It then shows testing with task simulation, task templates and the task log, including user intervention steps.\n\nThe second half covers shipping. Agents created with instructions in the client cannot run in production, so they are exported and packaged as an extension, with the speaker saying production is supported from version 28. The AL side covers the agent metadata provider enum, the factory and metadata interfaces, and the Copilot capability as a feature gate. The session closes with AI evaluation tools: data-driven, turn-based tests, YAML data sets, an agent test library, credit budgets and run history, available in sandbox only.",
+  "key_points": [
+    "Agents created with instructions in the client cannot run in production. They must be packaged as an extension and published to the production environment; the speaker says production is supported from version 28.",
+    "Model choice is a dropdown in version 28 (GPT-4, GPT-4.1, with GPT-5 newer). In 27.4 the agent models list is not shown. Models differ in cost, and the speaker expects availability to grow as more models are validated.",
+    "Test agents with task simulation (for email: subject, from, message, attachments) and reusable task templates. The task log shows each run's steps, tools used, and user intervention requests.",
+    "Export the agent definition from the agents list to collect profile, permissions, instructions, locale and version. Instructions can also be downloaded on their own for an extension.",
+    "Disabling the Copilot capability deactivates all agent instances that use it. Re-enabling it restores them.",
+    "AI evaluation tools run in sandbox only, use your own data sets, and can feed CI/CD. Agent tests are turn-based, use YAML data sets and an AI test type code unit, and depend on the AI development toolkit evaluation extension.",
+    "Budget limits exist at environment and company level. They block new tasks but let running tasks finish, so spend can slightly exceed the limit. Test credit figures cover test framework tokens, not the agents' own tokens."
+  ],
+  "audience": [
+    "developer",
+    "functional consultant",
+    "administrator",
+    "partner"
+  ],
+  "extraction_hash": "cde0d93f9a734082ba30b7646e49e8e63b519d634e8cb093ec893d934da6ca18",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0366644
+  }
+}

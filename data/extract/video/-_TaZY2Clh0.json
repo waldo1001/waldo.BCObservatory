@@ -1,0 +1,1546 @@
+{
+  "video_id": "-_TaZY2Clh0",
+  "item_id": "video/yt-mibuso/-_TaZY2Clh0",
+  "title": "Concurrency in Business Central: Parallel processes without deadlocks and timeouts",
+  "duration_s": 5755,
+  "systems": [
+    "platform",
+    "development"
+  ],
+  "topics": [
+    "concurrency",
+    "locking",
+    "database",
+    "isolation levels",
+    "lock types",
+    "lock compatibility",
+    "deadlocks",
+    "timeouts",
+    "sql server",
+    "lock escalation",
+    "intent locks",
+    "update locks"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and session overview",
+      "t_start": 0,
+      "t_end": 187.8
+    },
+    {
+      "title": "Locks and basic definitions",
+      "t_start": 187.8,
+      "t_end": 291
+    },
+    {
+      "title": "Lock isolation levels and lock status",
+      "t_start": 291,
+      "t_end": 480
+    },
+    {
+      "title": "Lock types and isolation levels",
+      "t_start": 480,
+      "t_end": 643.3
+    },
+    {
+      "title": "Lock compatibility matrix",
+      "t_start": 643.3,
+      "t_end": 906.7
+    },
+    {
+      "title": "Lock sequence: intent locks, pages, and records",
+      "t_start": 906.7,
+      "t_end": 1047.4
+    },
+    {
+      "title": "Lock escalation and table-level locking",
+      "t_start": 1047.4,
+      "t_end": 1204.1
+    },
+    {
+      "title": "Lock table misconception and obsolescence",
+      "t_start": 1204.1,
+      "t_end": 1275.8
+    },
+    {
+      "title": "Types of deadlocks: circular and conversion deadlocks",
+      "t_start": 1275.8,
+      "t_end": 1492.7
+    },
+    {
+      "title": "Demo setup and lock observation tools",
+      "t_start": 1492.7,
+      "t_end": 1806.6
+    },
+    {
+      "title": "Scenarios: sequential modification and lock escalation",
+      "t_start": 1806.6,
+      "t_end": 1932.9
+    },
+    {
+      "title": "Read committed isolation, lock timeout, and SaaS behavior",
+      "t_start": 1932.9,
+      "t_end": 2108.2
+    },
+    {
+      "title": "Repeatable read lock escalation and takeaways",
+      "t_start": 2108.2,
+      "t_end": 2345.4
+    },
+    {
+      "title": "Looping vs bulk operations and chunking strategy",
+      "t_start": 2345.4,
+      "t_end": 2639.2
+    },
+    {
+      "title": "The if-not-is-empty pattern myth",
+      "t_start": 2639.2,
+      "t_end": 2783.4
+    },
+    {
+      "title": "Guard rails, escalation scenarios, and classic deadlock patterns",
+      "t_start": 2783.4,
+      "t_end": 3071
+    },
+    {
+      "title": "Repeatable read deadlock conflicts and lock contention",
+      "t_start": 3071,
+      "t_end": 3302.6
+    },
+    {
+      "title": "Cinema ticket booking extension use case",
+      "t_start": 3302.6,
+      "t_end": 3440.7
+    },
+    {
+      "title": "SEMAPHORE lock approach and number sequence alternative",
+      "t_start": 3440.7,
+      "t_end": 3743.3
+    },
+    {
+      "title": "Auto increment approach and sequential validation",
+      "t_start": 3743.3,
+      "t_end": 4039.6
+    },
+    {
+      "title": "Number sequence validation and locking by entity code",
+      "t_start": 4039.6,
+      "t_end": 4395
+    },
+    {
+      "title": "Table scan problems and primary key redesign",
+      "t_start": 4395,
+      "t_end": 4680.6
+    },
+    {
+      "title": "Lock strategy optimization and lock placement",
+      "t_start": 4680.6,
+      "t_end": 4851.8
+    },
+    {
+      "title": "Q&A: lock thresholds, chunk sizing, and IsEmpty diagnostics",
+      "t_start": 4851.8,
+      "t_end": 5049
+    },
+    {
+      "title": "Sequential GUIDs, number series, and buffered insert problems",
+      "t_start": 5049,
+      "t_end": 5320
+    },
+    {
+      "title": "Caching, scale-out scenarios, and session identification",
+      "t_start": 5320,
+      "t_end": 5461.2
+    },
+    {
+      "title": "Avoiding excessive commits and optimistic locking approaches",
+      "t_start": 5461.2,
+      "t_end": 5755
+    }
+  ],
+  "features": [
+    {
+      "name": "Lock timeout settings",
+      "description": "Default lock timeout is 10 seconds in on-premise environments and 35 seconds in SaaS instances. When a session waiting for a lock exceeds this timeout, it is dropped with an error message.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 401.9,
+      "t_end": 462.2,
+      "is_demoed": false,
+      "caveats": [
+        "SQL query timeout in Business Central is around 30 minutes"
+      ],
+      "tags": [
+        "lock timeout",
+        "on-premise",
+        "saas",
+        "configuration"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Read uncommitted isolation level",
+      "description": "Default isolation level for get or find set functions which executes a select query with read uncommitted table hint. No locks are requested but allows possible dirty reads.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 511,
+      "t_end": 556.3,
+      "is_demoed": false,
+      "caveats": [
+        "Allows dirty reads of inconsistent or uncommitted data"
+      ],
+      "tags": [
+        "isolation level",
+        "read uncommitted",
+        "select query",
+        "no locking"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Read committed isolation level",
+      "description": "Isolation level that issues short-lived shared locks on every record being read. Locks are acquired for a fraction of a second only to verify access is allowed before being immediately released.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 556.3,
+      "t_end": 631.2,
+      "is_demoed": false,
+      "caveats": [
+        "Behavior differs between on-premise and cloud: on-premise uses locks by default, cloud with read committed snapshot isolation uses non-locking reads"
+      ],
+      "tags": [
+        "isolation level",
+        "read committed",
+        "shared lock",
+        "on-premise vs cloud"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Repeatable read isolation level",
+      "description": "Isolation level where shared lock is acquired and held until the end of the transaction until it is committed or rolled back.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 643.3,
+      "t_end": 657.7,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "isolation level",
+        "repeatable read",
+        "shared lock",
+        "transaction"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Update lock isolation level",
+      "description": "Lock type applied when calling lock table or read isolation update lock. Used to indicate intent to modify a record.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 657.7,
+      "t_end": 671.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "isolation level",
+        "update lock",
+        "lock table"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Exclusive lock",
+      "description": "Lock type acquired on any record being modified through modify, insert, or delete operations. Ensures no other sessions can access the record while it is being modified or deleted.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 671.8,
+      "t_end": 729.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "exclusive lock",
+        "modify",
+        "insert",
+        "delete",
+        "data modification"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Lock compatibility matrix",
+      "description": "Matrix from SQL Server documentation that defines which lock types can coexist on the same resource. The crossing of rows and columns indicates if simultaneous access can be allowed between two sessions holding or requesting different lock types.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 729.8,
+      "t_end": 897.8,
+      "is_demoed": false,
+      "caveats": [
+        "This is a reduced version; full table available in Microsoft SQL Server documentation"
+      ],
+      "tags": [
+        "compatibility matrix",
+        "lock types",
+        "concurrent access",
+        "sql server"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Intent lock hierarchy",
+      "description": "Lock sequence applies intent locks on table level first, then data page level, and finally record-level locks. Intent locks of any type are always compatible with each other.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 906.7,
+      "t_end": 1047.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "locking",
+        "lock sequence",
+        "intent locks"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Lock escalation threshold",
+      "description": "When reading approximately 5,000 records with long-living locks, lock escalation occurs, converting row-level locks to a table-level update lock. This is the only way to completely lock a table.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1082,
+      "t_end": 1189.6,
+      "is_demoed": false,
+      "caveats": [
+        "The 5,000 number is approximate and can be higher"
+      ],
+      "tags": [
+        "lock escalation",
+        "table locks",
+        "performance"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Lock table statement",
+      "description": "Lock table statement is obsolete and outdated. It has more or less the same effect as applying update lock with read isolation but creates unexpected side effects.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1204.1,
+      "t_end": 1275.8,
+      "is_demoed": false,
+      "caveats": [
+        "Obsolete functionality kept for backward compatibility"
+      ],
+      "tags": [
+        "lock table",
+        "deprecated",
+        "sql server"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Circular deadlock detection",
+      "description": "SQL Server lock monitor checks for circular deadlock situations approximately every 5 seconds. When two or more transactions hold locks on different records and request incompatible locks on each other's resources, deadlock occurs.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1291.5,
+      "t_end": 1413.3,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "deadlock",
+        "lock monitor",
+        "sql server"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Lock conversion deadlock",
+      "description": "A second type of deadlock on a single record that occurs when two transactions read the same record with repeatable read isolation and both attempt to convert shared locks to exclusive locks.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1413.3,
+      "t_end": 1480.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "deadlock",
+        "repeatable read",
+        "lock conversion"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Transaction retry monitoring interface",
+      "description": "Custom page that acts as a window into the database, showing concurrent background sessions performing operations and their lock states extracted from SQL Server DMV tr_locks management view.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1506,
+      "t_end": 1673.1,
+      "is_demoed": true,
+      "caveats": [
+        "Requires on-premise configuration for direct database queries"
+      ],
+      "tags": [
+        "demo",
+        "monitoring",
+        "concurrency"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Lock hierarchy and lock types",
+      "description": "Demonstration of SQL Server lock hierarchy including intent exclusive locks on table, data pages, and exclusive locks on individual records. Shows how locks escalate through different levels.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1673.1,
+      "t_end": 1696.3,
+      "is_demoed": true,
+      "caveats": [
+        "SQL Server behavior specific",
+        "demonstrated on on-premise configuration"
+      ],
+      "tags": [
+        "lock types",
+        "intent locks",
+        "exclusive locks",
+        "table locks"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Lock timeout with concurrent operations",
+      "description": "When a session holds a table-level exclusive lock due to escalation, other sessions attempting to access the table encounter lock timeouts because they cannot obtain intent locks.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1849.2,
+      "t_end": 1910.6,
+      "is_demoed": true,
+      "caveats": [
+        "occurs when operations overlap or interleave",
+        "timeout is the error message users see"
+      ],
+      "tags": [
+        "deadlocks",
+        "timeouts",
+        "lock escalation",
+        "concurrent access"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Read committed snapshot isolation",
+      "description": "On SaaS instances, read committed snapshot isolation is enabled by default, allowing read operations to work without blocking on table-level exclusive locks held by concurrent write operations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2011.4,
+      "t_end": 2092.4,
+      "is_demoed": true,
+      "caveats": [
+        "only on SaaS by default",
+        "on-premise requires manual configuration",
+        "has own side effects like right skew"
+      ],
+      "tags": [
+        "snapshot isolation",
+        "read committed",
+        "saas",
+        "on-premise differences"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Repeatable read lock escalation",
+      "description": "Lock escalation can occur with shared locks during repeatable read isolation when reading a large range of records, preventing concurrent modifications outside that range.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2137.7,
+      "t_end": 2255.8,
+      "is_demoed": true,
+      "caveats": [
+        "occurs with repeatable read isolation",
+        "affects both read and write operations"
+      ],
+      "tags": [
+        "repeatable read",
+        "shared locks",
+        "lock escalation",
+        "isolation levels"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Modify in loop pattern",
+      "description": "Alternative to bulk modify all operations where records are modified one at a time in a loop to avoid lock escalation by staying below the 5000 lock threshold per statement.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2345.4,
+      "t_end": 2449.5,
+      "is_demoed": true,
+      "caveats": [
+        "performance trade-off for safety",
+        "demonstration in this window shows incomplete/failed attempt"
+      ],
+      "tags": [
+        "loop operations",
+        "lock escalation avoidance",
+        "performance considerations",
+        "best practices"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "SaaS vs on-premise concurrency behavior differences",
+      "description": "Concurrency behavior differs significantly between SaaS and on-premise deployments due to different default isolation levels and configurations, requiring testing in both environments.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2011.4,
+      "t_end": 2108.2,
+      "is_demoed": true,
+      "caveats": [
+        "on-premise defaults differ from SaaS",
+        "requires dual testing strategy"
+      ],
+      "tags": [
+        "saas",
+        "on-premise",
+        "testing",
+        "concurrency",
+        "isolation levels"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Record-level modify in loops",
+      "description": "Modifying records one-by-one in a loop instead of using modify all avoids escalation but causes significant performance degradation, taking 2.5 to 3 seconds versus 30 to 50 milliseconds for bulk operations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2368.2,
+      "t_end": 2556.1,
+      "is_demoed": true,
+      "caveats": [
+        "Very slow performance",
+        "Holds 20,000 individual granular locks"
+      ],
+      "tags": [
+        "performance",
+        "locking",
+        "modification strategy"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Chunked update strategy",
+      "description": "Splitting large updates into smaller chunks below the escalation threshold balances performance and concurrency by avoiding full table locks while maintaining reasonable speed.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2556.1,
+      "t_end": 2639.2,
+      "is_demoed": true,
+      "caveats": [
+        "Requires careful tuning of chunk size",
+        "Needs monitoring of escalation threshold"
+      ],
+      "tags": [
+        "performance",
+        "locking",
+        "batching",
+        "concurrency"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "If-not-is-empty guard rail pattern",
+      "description": "A common pattern where code checks if a range is empty before calling modify all or delete all, historically applied to prevent locking issues but often used unnecessarily.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2658.3,
+      "t_end": 2783.4,
+      "is_demoed": false,
+      "caveats": [
+        "Often applied randomly without proper understanding",
+        "May provide false sense of security"
+      ],
+      "tags": [
+        "coding pattern",
+        "guard rails",
+        "anti-pattern"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Lock escalation with repeatable read",
+      "description": "When repeatable read isolation level is used, shared locks can escalate to table-level locks, preventing subsequent modify all or delete all operations that require intent exclusive locks.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2893.5,
+      "t_end": 2946.5,
+      "is_demoed": true,
+      "caveats": [
+        "Escalation happens when there is risk from different session",
+        "Intent exclusive lock incompatible with shared table lock"
+      ],
+      "tags": [
+        "escalation",
+        "isolation level",
+        "table locks",
+        "intent locks"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Classic update lock deadlock",
+      "description": "A deadlock occurs when two sessions acquire update locks on different records and then attempt to lock each other's records, causing circular wait. The database randomly terminates one session based on rollback cost.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3020.1,
+      "t_end": 3071,
+      "is_demoed": true,
+      "caveats": [
+        "Session termination is somewhat random",
+        "Depends on deadlock priority and rollback cost estimation"
+      ],
+      "tags": [
+        "deadlock",
+        "update lock",
+        "circular wait"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Repeatable read conversion deadlock",
+      "description": "Two sessions both read the same record with repeatable read, then both attempt to modify it. One session succeeds in converting to update lock and then exclusive lock, while the other is terminated due to conflicting lock conversions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3154.3,
+      "t_end": 3180.9,
+      "is_demoed": true,
+      "caveats": [
+        "Lock conversion from shared to update to exclusive",
+        "Simultaneous conversion attempts cause deadlock"
+      ],
+      "tags": [
+        "deadlock",
+        "repeatable read",
+        "lock conversion"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "SEMAPHORE lock for entry posting",
+      "description": "Classic Dynamics NAV approach where each session posting a new entry locks the last entry, does its posting, inserts the new record, releases the lock, and commits the transaction. This serializes the entire process.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3472.4,
+      "t_end": 3598.5,
+      "is_demoed": true,
+      "caveats": [
+        "Creates lock timeouts under high load",
+        "Completely serializes the posting process",
+        "Clients must wait in a long queue"
+      ],
+      "tags": [
+        "semaphore",
+        "locking",
+        "serialization",
+        "entry posting"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Number sequence for entry numbering",
+      "description": "Alternative approach where entry numbers are obtained from a number sequence instead of reading and locking the last entry. The number sequence is non-locking, allowing all sessions to get the next number simultaneously.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3641.2,
+      "t_end": 3728.7,
+      "is_demoed": true,
+      "caveats": [
+        "Still requires setting up a number series with number sequence underneath"
+      ],
+      "tags": [
+        "number sequences",
+        "non-locking",
+        "concurrency",
+        "entry posting"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Auto increment primary key for entries",
+      "description": "Using auto increment on the primary key field instead of number sequence or manual locking. Allows all sessions to post simultaneously in one second.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3743.3,
+      "t_end": 3877.7,
+      "is_demoed": true,
+      "caveats": [
+        "Disables insert buffering completely",
+        "Each insert immediately translates to SQL statement instead of being buffered",
+        "Can cause performance loss with high-volume entry generation like multi-line sales invoices",
+        "Does not provide validation for duplicate entries or business logic checks"
+      ],
+      "tags": [
+        "auto increment",
+        "primary key",
+        "insert buffering",
+        "concurrency"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Availability checking with validation",
+      "description": "Adding validation functions to check availability before posting entries, such as verifying seat availability in the cinema ticket booking scenario. Works reliably with serialized SEMAPHORE lock approach because no concurrent actions occur simultaneously.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3891.7,
+      "t_end": 4004.2,
+      "is_demoed": true,
+      "caveats": [
+        "Cannot be reliably used with non-locking approaches like number sequences or auto increment without additional race condition handling"
+      ],
+      "tags": [
+        "validation",
+        "availability check",
+        "business logic",
+        "serialization"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Sequential record insertion with validation",
+      "description": "Approach where records are inserted one by one sequentially with availability checks in between. Provides absolute reliability that no concurrent conflicts occur but results in very slow performance.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3956.1,
+      "t_end": 4023.1,
+      "is_demoed": true,
+      "caveats": [
+        "very slow performance",
+        "no true parallelism"
+      ],
+      "tags": [
+        "serialization",
+        "validation",
+        "reliability"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Number sequence with validation",
+      "description": "Attempting to add validation checks using number sequence fields. Allows parallel execution but shared locks acquired during reads permit other sessions to see stale data, allowing duplicate entries to be created despite validation logic.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 4050.4,
+      "t_end": 4187.2,
+      "is_demoed": true,
+      "caveats": [
+        "unreliable - allows duplicates",
+        "shared locks permit stale reads",
+        "simultaneous reads bypass validation"
+      ],
+      "tags": [
+        "race condition",
+        "unreliable",
+        "shared locks"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Update lock by entity code",
+      "description": "Attempting to acquire update locks on the last entry for a specific entity (cinema code), allowing sessions booking different entities to run in parallel while serializing within each entity. Can cause table scan problems when SQL Server chooses scan-based execution plans.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 4287,
+      "t_end": 4516,
+      "is_demoed": true,
+      "caveats": [
+        "table scans cause unintended lock blocking",
+        "can serialize different entities unexpectedly",
+        "difficult to debug in production",
+        "not recommended for production use"
+      ],
+      "tags": [
+        "update lock",
+        "table scan",
+        "problematic pattern"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Segmented primary key design",
+      "description": "Redesigning the primary key to include the entity code (cinema code) as the leading column, causing data to be physically clustered by entity on storage. This enables parallel access across entities while avoiding table scan lock problems.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 4558.5,
+      "t_end": 4667.8,
+      "is_demoed": true,
+      "caveats": [
+        "improved performance over previous approach but still uses entry table"
+      ],
+      "tags": [
+        "primary key design",
+        "data segmentation",
+        "clustering"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Dedicated lock table for allocation",
+      "description": "Creating a separate allocation table (cinema allocation) with entity code and seat number as the primary key, moving the symbol for lock away from the heavily-accessed entry table. Sessions lock the allocation record before validating and inserting entries.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 4691.4,
+      "t_end": 4797.8,
+      "is_demoed": true,
+      "caveats": [
+        "requires additional table design",
+        "lock held only during critical section"
+      ],
+      "tags": [
+        "lock table",
+        "allocation",
+        "separation of concerns"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "IsEmpty checks as symptom vs root cause treatment",
+      "description": "IsEmpty checks on locked tables are perceived as a quick fix but often mask underlying design problems. Using IsEmpty is fast but developers may be treating symptoms rather than addressing the real concurrency issue.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 4966.9,
+      "t_end": 5036.8,
+      "is_demoed": false,
+      "caveats": [
+        "Performance of IsEmpty is not the issue",
+        "Problem is architectural misuse"
+      ],
+      "tags": [
+        "locks",
+        "code patterns",
+        "diagnostics"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Sequential GUID implementation in Business Central",
+      "description": "GUID used as primary key in Business Central is sequential, not random, following a newer algorithm (version 5 or 6) that ensures sequential ordering to reduce SQL page scanning and locking.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 5087.5,
+      "t_end": 5138.3,
+      "is_demoed": false,
+      "caveats": [
+        "Only applies to GUIDs in Business Central",
+        "Version number not precisely recalled by speaker"
+      ],
+      "tags": [
+        "guid",
+        "primary key",
+        "sql optimization"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Lock threshold estimation at 5000 blocks",
+      "description": "SQL Server lock count threshold is approximately 5000 blocks including table metadata and data pages. Exact lock count cannot be determined precisely, but developers can use approximation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 4878,
+      "t_end": 4961.2,
+      "is_demoed": false,
+      "caveats": [
+        "Only approximation possible",
+        "Includes metadata and table structure locks"
+      ],
+      "tags": [
+        "locks",
+        "sql server",
+        "performance threshold"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "If Not Inserted pattern and buffered insert impact",
+      "description": "Using If Not Inserted to check for duplicate records breaks buffered insert optimization, forcing immediate execution of insert queries instead of batching them, and adds error handling overhead.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 5239.5,
+      "t_end": 5309.8,
+      "is_demoed": false,
+      "caveats": [
+        "Microsoft code in BC28 has begun removing this pattern in some places",
+        "Error handling adds additional latency"
+      ],
+      "tags": [
+        "number series",
+        "insert optimization",
+        "buffered insert"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Cache synchronization in scale-out scenarios",
+      "description": "Inserts are always cached, but in scale-out or multi-instance deployments, cache synchronizes approximately every 30 seconds, creating window of data inconsistency.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 5344.1,
+      "t_end": 5387.8,
+      "is_demoed": false,
+      "caveats": [
+        "Only applies to scale-out or multiple NST instances",
+        "Synchronization timing is approximate"
+      ],
+      "tags": [
+        "caching",
+        "scale-out",
+        "synchronization"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Connection pooling prevents session-lock association",
+      "description": "Business Central connection pooling makes it impossible to directly associate a BC session with a specific SQL connection in AL code, as connections can change between transactions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 5400.8,
+      "t_end": 5429.4,
+      "is_demoed": false,
+      "caveats": [
+        "Limitation of AL language",
+        "Requires workarounds for diagnostics"
+      ],
+      "tags": [
+        "connection pooling",
+        "diagnostics",
+        "sql"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Optimistic locking vs pessimistic locking tradeoff",
+      "description": "Optimistic locking approach assumes resource availability and checks on insert via primary key constraint rather than acquiring locks beforehand, potentially reducing lock contention but increasing failed insert probability.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 5547,
+      "t_end": 5564.2,
+      "is_demoed": false,
+      "caveats": [
+        "Trade-off between lock contention and retry rate",
+        "Higher chance of failed inserts with optimistic approach"
+      ],
+      "tags": [
+        "locking strategy",
+        "concurrency",
+        "design patterns"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Avoiding excessive commits in bulk operations",
+      "description": "Frequent commits during bulk operations break buffered insert optimization and cause performance degradation. Should minimize commits during data operations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 5461.2,
+      "t_end": 5540,
+      "is_demoed": false,
+      "caveats": [
+        "Requires careful transaction management"
+      ],
+      "tags": [
+        "commit strategy",
+        "database performance",
+        "buffered insert"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Find set with update lock parameter",
+      "description": "The Find Set method with a boolean parameter controls whether update locks are acquired when reading records. True applies FOR UPDATE table hint acquiring update locks, False uses read uncommitted or committed isolation levels depending on Business Central version.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 5647.1,
+      "t_end": 5747.1,
+      "is_demoed": false,
+      "caveats": [
+        "Behavior differs between Business Central versions 25-26 and earlier versions"
+      ],
+      "tags": [
+        "find set",
+        "update locks",
+        "database locking"
+      ],
+      "system": "development"
+    }
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "tr_locks",
+      "t": 1569.9
+    },
+    {
+      "type": "table",
+      "name": "abstract table",
+      "t": 1617.2
+    },
+    {
+      "type": "other",
+      "name": "modify all",
+      "t": 2368.2
+    },
+    {
+      "type": "other",
+      "name": "find set",
+      "t": 2723.8
+    },
+    {
+      "type": "other",
+      "name": "find first",
+      "t": 2723.8
+    },
+    {
+      "type": "other",
+      "name": "delete all",
+      "t": 2696.4
+    },
+    {
+      "type": "other",
+      "name": "modify",
+      "t": 2795.6
+    },
+    {
+      "type": "table",
+      "name": "entry table",
+      "t": 3398.4
+    },
+    {
+      "type": "codeunit",
+      "name": "posting routine",
+      "t": 3429.7
+    },
+    {
+      "type": "other",
+      "name": "check availability function",
+      "t": 3956.1
+    },
+    {
+      "type": "codeunit",
+      "name": "entry",
+      "t": 3956.1
+    },
+    {
+      "type": "table",
+      "name": "cinema allocation",
+      "t": 4711.4
+    },
+    {
+      "type": "table",
+      "name": "cinema layout",
+      "t": 4711.4
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Alexander",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 381.8,
+      "text": "the first session that's locking a table and holding it can hold it well indefinitely long not indefinitely because it's limited only by the",
+      "why_it_matters": "Clarifies that an active lock holder is not subject to lock timeout, only to SQL query timeout, whereas a session waiting for a lock is subject to lock timeout limits.",
+      "check": "snapped"
+    },
+    {
+      "t": 434.5,
+      "text": "10 seconds by default on on premise environments and 35 seconds in SAS, right? As the log timeout settings in business central.",
+      "why_it_matters": "Specifies the exact lock timeout values that differ between on-premise and cloud deployments, critical for understanding when lock conflicts cause errors.",
+      "check": "exact"
+    },
+    {
+      "t": 599,
+      "text": "when we run our code on premise and that's uh quite an important differentiation on premises with a default uh configuration of SQL server",
+      "why_it_matters": "Highlights a critical difference in behavior: on-premise and cloud environments have different default lock behavior with read committed isolation level.",
+      "check": "exact"
+    },
+    {
+      "t": 778.6,
+      "text": "this is the key to understanding the concurrency uh how database engine decides uh if record can be accessed or any uh resource can",
+      "why_it_matters": "Emphasizes that the lock compatibility matrix is essential to understanding concurrent access rules in the database.",
+      "check": "exact"
+    },
+    {
+      "t": 816.1,
+      "text": "when the database engine decides if this access concurrent access can be granted uh it basically does something like this",
+      "why_it_matters": "Explains the fundamental mechanism by which SQL Server evaluates lock compatibility for concurrent transactions",
+      "check": "exact"
+    },
+    {
+      "t": 933.6,
+      "text": "when we run get, find whatever uh with any type of lock, the first thing the datab database engine is going to do even",
+      "why_it_matters": "Describes the hierarchical lock sequence that prevents escalation at inappropriate levels",
+      "check": "exact"
+    },
+    {
+      "t": 1124.1,
+      "text": "it reaches the escalation threshold uh which is approximately 5,000 uh simultaneously acquired logs uh from the same SQL statement ...",
+      "why_it_matters": "Provides specific numeric threshold for when lock escalation converts row locks to table locks",
+      "check": "exact"
+    },
+    {
+      "t": 1251.7,
+      "text": "Still don't use it lock log table the effect of the log table is more or less the same as uh as applying uh",
+      "why_it_matters": "Clarifies that lock table statement is deprecated and should not be used in modern versions",
+      "check": "exact"
+    },
+    {
+      "t": 1344.5,
+      "text": "that's why SQL server has a lock monitor which approximately every 5 seconds checks uh for these type of logs",
+      "why_it_matters": "Explains SQL Server's automatic deadlock detection mechanism and its timing",
+      "check": "exact"
+    },
+    {
+      "t": 1361.8,
+      "text": "deadlock is a type of log that cannot be resolved automatically on its own. So database engine has to intervene and roll back one",
+      "why_it_matters": "Defines deadlock and establishes the maximum time before SQL Server intervenes",
+      "check": "exact"
+    },
+    {
+      "t": 1413.3,
+      "text": "there is another type of a deadlock where we can that can be locked actually on a single row single record probably in older",
+      "why_it_matters": "Identifies lock conversion deadlock as a distinct deadlock type that can occur on single records",
+      "check": "exact"
+    },
+    {
+      "t": 1673.1,
+      "text": "session number one is holding a lock on the object intent intent exclusive lock on the object on the table",
+      "why_it_matters": "Establishes the hierarchical nature of SQL Server locks, showing how table-level intent locks form the foundation of the locking hierarchy.",
+      "check": "exact"
+    },
+    {
+      "t": 1849.2,
+      "text": "the result session number two we can't save your changes that is the message that I was trying to recall",
+      "why_it_matters": "Identifies the timeout error message users encounter when lock escalation prevents concurrent access, a critical operational issue.",
+      "check": "exact"
+    },
+    {
+      "t": 1870.4,
+      "text": "now session number one is holding instead of 15,000 records it's holding one single one big exclusive log on the ...",
+      "why_it_matters": "Explains the core mechanism of lock escalation where many row-level locks convert to a single table-level lock, dramatically limiting concurrency.",
+      "check": "exact"
+    },
+    {
+      "t": 2023.8,
+      "text": "I have read committed snapshot isolation on and any read committed any read committed request is now actually using the snapshot",
+      "why_it_matters": "Demonstrates the key difference in SaaS configuration that prevents read operations from blocking on exclusive locks.",
+      "check": "exact"
+    },
+    {
+      "t": 2092.4,
+      "text": "if we intend to run our code on SAS and on on on premise we need to test concurrency in both because behavior will",
+      "why_it_matters": "Critical guidance that SaaS and on-premise deployments require separate concurrency testing due to fundamental configuration differences.",
+      "check": "exact"
+    },
+    {
+      "t": 2318.2,
+      "text": "lo is escalated when a single single SQL statement acquires uh more than 5,000 logs",
+      "why_it_matters": "Specifies the exact threshold that triggers lock escalation, providing a concrete technical limit developers must understand.",
+      "check": "exact"
+    },
+    {
+      "t": 2368.2,
+      "text": "modifying uh the same 15,000 records but uh instead of doing it in a single call of modify all it ...",
+      "why_it_matters": "Presents a specific design pattern to avoid lock escalation by keeping individual statements below the 5000 lock threshold.",
+      "check": "snapped"
+    },
+    {
+      "t": 2519.9,
+      "text": "it was uh like 30 to 50 milliseconds to update 15,000 records in just one modify all right",
+      "why_it_matters": "Establishes baseline performance for bulk modify operations, critical context for comparing looping overhead.",
+      "check": "exact"
+    },
+    {
+      "t": 2540.1,
+      "text": "here when I try to do it in the loop uh it takes nearly 3 seconds or 2.5 whatever it's way way slower",
+      "why_it_matters": "Demonstrates the severe performance penalty of record-by-record modification despite avoiding escalation.",
+      "check": "exact"
+    },
+    {
+      "t": 2571.9,
+      "text": "uh maybe the solution could be splitting our updates uh into multiple small smaller chunks just keeping it below the escalation threshold",
+      "why_it_matters": "Proposes the optimal middle-ground strategy between safety and performance.",
+      "check": "exact"
+    },
+    {
+      "t": 2932.5,
+      "text": "That's the only case. Uh I can say that when this pattern actually could make sense.",
+      "why_it_matters": "Establishes that the if-not-is-empty guard rail pattern has very limited valid use cases.",
+      "check": "exact"
+    },
+    {
+      "t": 2962.2,
+      "text": "Maybe why is the escalation in the first place? Why why it's here in the first place? Maybe it shouldn't be.",
+      "why_it_matters": "Questions fundamental design approach to locking, suggesting avoidance rather than guard rails.",
+      "check": "exact"
+    },
+    {
+      "t": 3071,
+      "text": "the database engine chooses at random which which session to to terminate",
+      "why_it_matters": "Explains unpredictable behavior in deadlock resolution, critical for understanding system reliability.",
+      "check": "exact"
+    },
+    {
+      "t": 3472.4,
+      "text": "classic dynamics nav approach entry type table uh and simo for lock acquired on the last on the last entry",
+      "why_it_matters": "Establishes the foundational SEMAPHORE lock pattern for entry posting that has been widely used in Business Central for serialization",
+      "check": "exact"
+    },
+    {
+      "t": 3531.4,
+      "text": "every session logs the last entry number waits for exactly one second until the next one can start its process",
+      "why_it_matters": "Demonstrates how SEMAPHORE locking causes complete serialization of posting operations, affecting performance",
+      "check": "exact"
+    },
+    {
+      "t": 3585,
+      "text": "They have their tickets booked, entry is posted until some moment in time when we hit the lock time out, right? We start hitting",
+      "why_it_matters": "Shows practical consequences of SEMAPHORE locking under high load - lock timeouts affect multiple concurrent sessions simultaneously",
+      "check": "exact"
+    },
+    {
+      "t": 3641.2,
+      "text": "multiple posting routines in BC are now using uh number sequences, right?",
+      "why_it_matters": "Indicates that Business Central has adopted number sequences as a modern alternative to SEMAPHORE locking for improved concurrency",
+      "check": "exact"
+    },
+    {
+      "t": 3713.8,
+      "text": "It's all posted simultaneously. Uh number sequence is non-locking, right? All every session can uh can get the next number ...",
+      "why_it_matters": "Demonstrates the performance advantage of number sequences - all sessions complete in parallel without lock contention",
+      "check": "exact"
+    },
+    {
+      "t": 3783.2,
+      "text": "when business central inserts anything when when actually we call from al code call the insert function it doesn't immediately translate to the insert",
+      "why_it_matters": "Explains how Business Central insert buffering works and why auto increment disables this optimization",
+      "check": "exact"
+    },
+    {
+      "t": 3863.4,
+      "text": "business central sales functionality when we post a sales invoice with few thousand lines maybe we can lose on performance significantly",
+      "why_it_matters": "Identifies a specific scenario where auto increment can harm performance - multi-line invoice posting",
+      "check": "exact"
+    },
+    {
+      "t": 3943.1,
+      "text": "why our symbol for lock is so uh maybe you and so so widely used in business central because it's uh very reliable very",
+      "why_it_matters": "Explains why SEMAPHORE locking remains prevalent despite performance limitations - it provides guaranteed reliability for validation and business logic",
+      "check": "exact"
+    },
+    {
+      "t": 3975.4,
+      "text": "in this sequential action all we need to do is just add this function somewhere in the middle and",
+      "why_it_matters": "Establishes the design principle that sequential processing guarantees correctness but at the cost of performance",
+      "check": "fuzzy"
+    },
+    {
+      "t": 4152.2,
+      "text": "they read uh the table they find that yeah record doesn't exist simultaneously because uh shared step",
+      "why_it_matters": "Explains the fundamental isolation level problem: shared locks allow concurrent reads of old data, bypassing validation",
+      "check": "fuzzy"
+    },
+    {
+      "t": 4197.3,
+      "text": "one very reliable, very stable but very slow. Another one very fast all of the sessions executed uh simultaneously within one second but very",
+      "why_it_matters": "Summarizes the fundamental tradeoff between correctness and performance in the cinema ticket scenario",
+      "check": "exact"
+    },
+    {
+      "t": 4435.8,
+      "text": "sql server decides that the best execution plan for this kind of query is a scan and it does in my case uh",
+      "why_it_matters": "Demonstrates the hidden danger of update lock strategies: table scans cause unintended lock escalation and serialization",
+      "check": "fuzzy"
+    },
+    {
+      "t": 4516,
+      "text": "although it looks like now this solution worked in fact it's something that in production will have many more problems. So not not something",
+      "why_it_matters": "Explicit rejection of the update lock approach as unreliable in production despite working in the demo",
+      "check": "exact"
+    },
+    {
+      "t": 4569.8,
+      "text": "records whenever we end uh save a record insert a record in the table it",
+      "why_it_matters": "Explains how redesigning primary keys to include partition key leads to physical data segmentation that prevents table scan problems",
+      "check": "fuzzy"
+    },
+    {
+      "t": 4809,
+      "text": "the key point of this last part is just uh there are different ways of thinking about what we want to lock and how",
+      "why_it_matters": "Establishes core design principle that lock strategy is flexible and depends on specific business logic, not a one-size-fits-all solution",
+      "check": "exact"
+    },
+    {
+      "t": 4912.8,
+      "text": "Yes, approximation. There's no way to tell it exactly because SQL server actually counts all type of logs.",
+      "why_it_matters": "Explains the practical limitation that lock counts are estimates, not deterministic values, which affects tuning strategies",
+      "check": "exact"
+    },
+    {
+      "t": 4977.8,
+      "text": "Very low. Really low. It's very normally it's really fast.",
+      "why_it_matters": "Clarifies that IsEmpty performance cost is negligible, making it unsuitable as a performance scapegoat for real problems",
+      "check": "exact"
+    },
+    {
+      "t": 5036.8,
+      "text": "Uh when the real problem can be something else. It's not we're trying to uh like treat the symptoms instead of curing the disease.",
+      "why_it_matters": "Emphasizes the importance of root cause analysis over pattern-based quick fixes in concurrency issues",
+      "check": "exact"
+    },
+    {
+      "t": 5120.6,
+      "text": "that's actually used I don't remember the version actually of it it's number GI version five or six I don't remember it is actually",
+      "why_it_matters": "Confirms Business Central uses sequential GUIDs which reduce SQL page scanning and lock escalation",
+      "check": "exact"
+    },
+    {
+      "t": 5277.4,
+      "text": "It actually breaks uh the fun the buffered insert. So it's uh whenever you have if you analyze the return result of of insert,",
+      "why_it_matters": "Identifies specific performance cost of If Not Inserted pattern: loss of insert batching optimization",
+      "check": "exact"
+    },
+    {
+      "t": 5376.6,
+      "text": "Probably cash synchronizes every 30 seconds but within 30 seconds you can expect uh like disparities in cash.",
+      "why_it_matters": "Reveals data consistency window in scale-out scenarios, critical for understanding eventual consistency",
+      "check": "exact"
+    },
+    {
+      "t": 5505.8,
+      "text": "maybe also well education I can I can say what what what can I say maybe show some examples when when this commit can",
+      "why_it_matters": "Identifies education and practical examples as solutions to understand the dangers of frequent commits in database design",
+      "check": "exact"
+    },
+    {
+      "t": 5547,
+      "text": "you don't acquire lock beforehand and check for availability, but you just assume the ticket is available and then you rely on uh when",
+      "why_it_matters": "Describes alternative optimistic locking strategy with different contention vs failure rate tradeoff than pessimistic locking",
+      "check": "exact"
+    },
+    {
+      "t": 5580.1,
+      "text": "I'm quite positive about the optimistic approach. It can work. Uh I was uh a bit maybe I should have in my in my",
+      "why_it_matters": "Endorses optimistic locking as viable while acknowledging the demo needed clearer explanation of the demonstrated approach",
+      "check": "exact"
+    },
+    {
+      "t": 5594.8,
+      "text": "It's more of a bit pessimistic approach and I was thinking about some cases where this lock is uh not possible rather uh and",
+      "why_it_matters": "Describes a real-world scenario where pessimistic locking is needed for immediate external communication of sales",
+      "check": "exact"
+    },
+    {
+      "t": 5680.8,
+      "text": "find set with uh true for update uh effect on locking it will issue select with four four uh four for update table hint",
+      "why_it_matters": "Explains the SQL-level mechanism: Find Set with true parameter generates FOR UPDATE table hint to acquire update locks",
+      "check": "exact"
+    },
+    {
+      "t": 5727.4,
+      "text": "And nothing happened before. uh if there is there has been any modification on the same record within the same transaction it will be",
+      "why_it_matters": "Documents version-specific behavior change: BC 25-26 use read committed, older versions use for update locks for modified records",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 599,
+      "kind": "other",
+      "text": "on premise and that's uh quite an important differentiation on premises with a default uh configuration of SQL server uh ..."
+    },
+    {
+      "t": 1965.3,
+      "kind": "other",
+      "text": "I'm running this on on on a local uh on premise server with a default configuration the SQL development developer ..."
+    },
+    {
+      "t": 1985.3,
+      "kind": "other",
+      "text": "for the sake of the experiment, enable it"
+    },
+    {
+      "t": 2077.3,
+      "kind": "other",
+      "text": "It has its own like cave and side effects notably right skew maybe I will show that as well"
+    },
+    {
+      "t": 3771.6,
+      "kind": "other",
+      "text": "first just to one disclaimer about auto increment. We probably already noticed my comments here, right? What's the downside of of using auto increment?"
+    },
+    {
+      "t": 4395,
+      "kind": "other",
+      "text": "it's not a good idea either and it's kind of leads to problems that are quite difficult to demonstrate and ..."
+    },
+    {
+      "t": 4516,
+      "kind": "other",
+      "text": "although it looks like now this solution worked in fact it's something that in production will have many more problems. ..."
+    },
+    {
+      "t": 5251.7,
+      "kind": "subject-to-change",
+      "text": "in BC28 that they changed it on one place uh by not using that anymore if not insert"
+    },
+    {
+      "t": 5727.4,
+      "kind": "subject-to-change",
+      "text": "from version 25 or 26 it will be recommitted in older previous versions will be uh for update update lock. ..."
+    }
+  ],
+  "checks": {
+    "quotes_kept": 51,
+    "quotes_dropped": 1,
+    "evidence_verified": 0,
+    "evidence_unverified": 43
+  },
+  "windows": 8,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    }
+  ]
+}

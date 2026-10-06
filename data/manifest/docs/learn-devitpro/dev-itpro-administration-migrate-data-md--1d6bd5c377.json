@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-data",
   "published_at": "2026-06-19T12:45:51.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "186f6e7c8d173400e30a0d2f83a4cb12ff70049f",
       "words": 316,
       "forms": 2
+    },
+    "extracted": {
+      "at": "2026-10-06T17:50:59.022Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005993
+    },
+    "summarized": {
+      "at": "2026-10-06T17:50:59.067Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T17:50:59.068Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T17:50:59.070Z",
+      "page": false
     }
   },
   "input_hash": "186f6e7c8d173400e30a0d2f83a4cb12ff70049f",
@@ -49,5 +68,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "186f6e7c8d173400e30a0d2f83a4cb12ff70049f"
+  "output_hash": "a8e61dfcedff8283e9d05b4dcdde4dddcb61d233f3c4eff40f20c9898b74b983"
 }

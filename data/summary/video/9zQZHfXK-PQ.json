@@ -1,0 +1,27 @@
+{
+  "video_id": "9zQZHfXK-PQ",
+  "item_id": "video/yt-mibuso/9zQZHfXK-PQ",
+  "summary": "Spec-driven AL development with GitHub Copilot for Business Central: a docs-to-code workflow using agents, skills and living documentation in a Git repo. The session demos user stories, specs, architecture decisions, change control notices, release notes and SharePoint sync via GitHub Actions.",
+  "overview": "The session argues that documentation usually falls behind as projects evolve, and that this causes misunderstandings between customer and team. The speakers propose a docs-to-code approach: requirements, user stories, specifications and architecture decisions are captured and approved first, kept in a GitHub repository, and used as the source of truth for Copilot agents. They stress that the agents have no accountability, so humans must review and own every document.\n\nThe demo walks through a sequential agent framework (business consultant, architect, analyst, developer) and Copilot skills that enforce output structure. It covers user story generation, Word templates filled by a Python script, SharePoint delivery with GitHub Actions, a change control notice with customer approval, model selection, release notes and testing steps. The speakers say the framework is not perfect and should be adapted to each organization. The Q&A covers Jira, branching, screenshots and proof of concepts.",
+  "key_points": [
+    "Documentation is kept in the Git repository, updated before development starts and changed with each commit, so decisions are traceable to who made them and when.",
+    "The agent workflow is sequential: business consultant, architect, analyst (SWOT analysis), then developer agents that write atomic task plans. All generated documents need human review.",
+    "Copilot skills give structured, consistent output where plain prompting does not. The demo includes skills for user stories, technical specs, architecture documents, change control, phase plans and release notes.",
+    "A change control notice summarizes architecture decisions, specs, feasibility and risk, and needs customer sign-off before implementation begins.",
+    "Suggested model use: strong models such as Claude Opus for consultant, architect and skill creation, and a smaller model such as Claude Haiku for implementation once tasks are well specified.",
+    "Symlinks let several repositories share a standard agentic framework, which requires a protected main branch. GitHub Actions syncs user story documents to SharePoint when changes are pushed to main.",
+    "Release notes are generated from repository context and include testing steps and limitations. Screenshots still need manual capture."
+  ],
+  "audience": [
+    "developer",
+    "functional consultant",
+    "decision maker"
+  ],
+  "extraction_hash": "2485fa8bdc9c90d784ed5e672fd6b9a65f8483256b10843cfb64c886cefefa19",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.043426400000000004
+  }
+}

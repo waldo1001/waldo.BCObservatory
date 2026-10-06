@@ -1,0 +1,27 @@
+{
+  "video_id": "-_TaZY2Clh0",
+  "item_id": "video/yt-mibuso/-_TaZY2Clh0",
+  "summary": "Business Central concurrency session covering SQL Server lock types, isolation levels, lock escalation at about 5,000 locks, and deadlocks, with demos of loops, chunking, SEMAPHORE locks, number sequences and auto increment in a cinema booking case. Lock timeout defaults are 10 seconds on-premise and 35 seconds in SaaS.",
+  "overview": "The session explains how the database engine decides whether a resource can be accessed: lock types, isolation levels, the compatibility matrix, and the intent lock sequence from table to page to record. It then covers lock escalation (about 5,000 locks from one statement), the obsolete LOCKTABLE statement, circular deadlocks and conversion deadlocks. Demos on an on-premise SQL Server use a custom page that reads lock state from the SQL Server lock DMV.\n\nThe second half compares ways to update and insert under load. Modify in a loop avoids escalation but took about 2.5 to 3 seconds versus 30 to 50 ms for modify all on 15,000 records. A cinema ticket booking case compares a SEMAPHORE-style lock on the last entry, number sequences, auto increment, locking by entity code, a segmented primary key and a dedicated allocation table. The Q&A covers IsEmpty checks, sequential GUIDs, buffered insert, scale-out caching, optimistic locking and commits.",
+  "key_points": [
+    "Default lock timeout is 10 seconds on-premise and 35 seconds in SaaS; a session that waits longer is dropped with an error.",
+    "Lock escalation to a table-level lock happens at roughly 5,000 locks from a single SQL statement. The number is approximate because SQL Server counts all lock types.",
+    "SaaS has read committed snapshot isolation on by default, on-premise does not. Concurrency behavior differs, so test in both.",
+    "Modify in a loop avoids escalation but was much slower (2.5 to 3 s vs 30 to 50 ms for 15,000 records). Chunking below the escalation threshold is the proposed compromise and needs tuning.",
+    "Deadlocks are circular (different records, checked by the lock monitor about every 5 seconds) or conversion deadlocks (two repeatable read sessions converting shared locks to exclusive on one record).",
+    "Number sequences do not lock, but adding availability validation on top allowed duplicate bookings. Auto increment turns off insert buffering.",
+    "Locking by entity code can cause table scans that block other entities. A segmented primary key with the entity code first, or a dedicated allocation table, was shown as the fix."
+  ],
+  "audience": [
+    "developer",
+    "administrator",
+    "functional consultant"
+  ],
+  "extraction_hash": "3f9712092d8f69ff96d37e3e3d1c7faabac034d798ebaa1b39e988525cdd3b16",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0492044
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "video_id": "9CW5mydS9Vs",
+  "item_id": "video/yt-mibuso/9CW5mydS9Vs",
+  "summary": "Microsoft session on testing Business Central apps: propagated dependencies, test explorer support in AL, new test codeunit properties, internal visible to, AI test agents, and data-driven AI tests and evals. Also covers CI/CD test selection, MCP-based test execution and token consumption. Native data-driven tests are not yet in the product.",
+  "overview": "The session from BC TechDays covers deterministic testing in AL and then moves to testing AI features. It demos propagated dependencies for refactoring apps without breaking external contracts, the application test library, internal visible to for test facades, and test explorer support that runs and debugs tests in the editor without a custom AL test runner. New test codeunit properties cover required permissions, test type and test isolation.\n\nThe second half covers AI. It shows an agent that writes tests interactively in GitHub Copilot Chat, and it separates AI tests from agent tests. AI tests use data sets of input, prompt, model and expected-outcome permutations, with repeated runs because results are non-deterministic. It also covers test selection by type and coverage, MCP server execution, token consumption tracking and model choice for cost.",
+  "key_points": [
+    "Propagated dependencies lift dependencies as proxies in the manifest so apps can be split without breaking external contracts. They work for one level only and cannot point to another propagated dependency.",
+    "Test explorer support in AL runs and debugs tests in the editor, with results, call stacks and assert messages inline. It needs codeunits marked with the test attribute.",
+    "New test codeunit properties cover required test permissions, test type (unit or integration) and required test isolation, to support test explorer and CI/CD pipelines.",
+    "Internal visible to exposes internal procedures to specified apps, for example test facades. Anyone can specify an app ID in production, which the speaker flags as a security concern.",
+    "AI tests use data sets with permutations of inputs, prompts, models and expected outcomes, and are rerun several times because AI output is non-deterministic. Copilot feature tests run in the eval suite, not the standard test tool.",
+    "Native data-driven tests with test data source attributes and a custom context interface are not part of the product yet. They may be in a pre-release.",
+    "Running tests from VS Code fails differently from client execution for tests that use GUI-related code. This is a known issue, and the classic test runner is needed for now."
+  ],
+  "audience": [
+    "developer",
+    "functional consultant",
+    "partner"
+  ],
+  "extraction_hash": "26c80fe428afca147d70b2c9954ba76b03da6665a254bfbc24a2d385e78f04d2",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0305464
+  }
+}

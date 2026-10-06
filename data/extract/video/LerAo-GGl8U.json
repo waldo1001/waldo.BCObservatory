@@ -1,0 +1,796 @@
+{
+  "video_id": "LerAo-GGl8U",
+  "item_id": "video/yt-mibuso/LerAo-GGl8U",
+  "title": "Microsoft presents: Next level administration skills with the admin MCP server and agents",
+  "duration_s": 2744,
+  "systems": [
+    "administration",
+    "copilot",
+    "development"
+  ],
+  "topics": [
+    "mcp server",
+    "admin center api",
+    "oauth 2.1",
+    "agents",
+    "multi-tenant administration",
+    "vs code setup",
+    "entra id",
+    "public preview",
+    "github copilot",
+    "custom connectors",
+    "json rpc",
+    "extension management"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and agenda overview",
+      "t_start": 0,
+      "t_end": 77.2
+    },
+    {
+      "title": "MCP protocol fundamentals and architecture",
+      "t_start": 77.2,
+      "t_end": 159
+    },
+    {
+      "title": "MCP types, remote servers, and stateless design",
+      "t_start": 159,
+      "t_end": 234.6
+    },
+    {
+      "title": "Admin MCP authentication, endpoints, and API exposure",
+      "t_start": 234.6,
+      "t_end": 318.7
+    },
+    {
+      "title": "Public preview status and safety boundaries",
+      "t_start": 318.7,
+      "t_end": 353.2
+    },
+    {
+      "title": "Demo 1 setup: Visual Studio Code and admin MCP connection",
+      "t_start": 353.2,
+      "t_end": 502.5
+    },
+    {
+      "title": "Demo 1: Querying environments, quotas, and usage via agent",
+      "t_start": 502.5,
+      "t_end": 620.1
+    },
+    {
+      "title": "Demo 1: Investigating failed upgrades and security limitations",
+      "t_start": 620.1,
+      "t_end": 786.5
+    },
+    {
+      "title": "Demo: Agent-driven environment operations",
+      "t_start": 786.5,
+      "t_end": 979.4
+    },
+    {
+      "title": "Technical overview of Admin MCP authentication",
+      "t_start": 979.4,
+      "t_end": 1080.2
+    },
+    {
+      "title": "Setting up Admin MCP in Copilot Studio",
+      "t_start": 1080.2,
+      "t_end": 1185
+    },
+    {
+      "title": "Entra application registration and permissions",
+      "t_start": 1185,
+      "t_end": 1281.5
+    },
+    {
+      "title": "Configuring custom MCP connector in Copilot Studio",
+      "t_start": 1281.5,
+      "t_end": 1539.8
+    },
+    {
+      "title": "Testing the connector and creating agents with Propeller Studio",
+      "t_start": 1539.8,
+      "t_end": 1764.2
+    },
+    {
+      "title": "Single-tenant limitations and multi-tenant scenario introduction",
+      "t_start": 1764.2,
+      "t_end": 1834.7
+    },
+    {
+      "title": "Authentication architecture and multi-tenancy explanation",
+      "t_start": 1834.7,
+      "t_end": 1967.2
+    },
+    {
+      "title": "MCP proxy solution and BC Tech repository walkthrough",
+      "t_start": 1967.2,
+      "t_end": 2073.2
+    },
+    {
+      "title": "Setting up GitHub Copilot with multi-tenant MCP proxy",
+      "t_start": 2073.2,
+      "t_end": 2218.1
+    },
+    {
+      "title": "Multi-tenant agent execution and authentication persistence",
+      "t_start": 2218.1,
+      "t_end": 2415.5
+    },
+    {
+      "title": "Getting started and public preview announcement",
+      "t_start": 2415.5,
+      "t_end": 2485.6
+    },
+    {
+      "title": "Q&A - Multi-tenant setup and authentication flows",
+      "t_start": 2485.6,
+      "t_end": 2596.6
+    },
+    {
+      "title": "Q&A - Extension limitations and API coverage",
+      "t_start": 2596.6,
+      "t_end": 2656.4
+    },
+    {
+      "title": "Q&A - On-premises support and environment provisioning",
+      "t_start": 2656.4,
+      "t_end": 2744
+    }
+  ],
+  "features": [
+    {
+      "name": "Admin MCP Server for Business Central",
+      "description": "A remote MCP server that exposes Business Central Admin API functionality to AI agents and clients. It is stateless, uses HTTP protocol, and leverages Entra ID with OAuth 2.1 for authentication. The server is similar in design to the existing Admin Center API.",
+      "status": "preview",
+      "status_evidence_t": 318.7,
+      "status_evidence_quote": "this is a public preview and um we are hoping to open up more more APIs and more scenarios going forward",
+      "status_evidence_verified": true,
+      "t_start": 180.5,
+      "t_end": 979.4,
+      "is_demoed": true,
+      "caveats": [
+        "Certain destructive operations are not exposed for security reasons",
+        "Cannot uninstall applications or delete environments via MCP",
+        "Cannot set or clear security groups",
+        "Cannot rename environments or link/unlink Power Platform",
+        "Limited to SaaS, not on-premises",
+        "Does not support publishing extensions",
+        "May reconsider adding excluded APIs in future"
+      ],
+      "tags": [
+        "mcp",
+        "admin api",
+        "stateless",
+        "http",
+        "oauth 2.1",
+        "entra id",
+        "multi-tenant",
+        "authentication"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Model Context Protocol (MCP) Fundamentals",
+      "description": "MCP is described as a USB-C protocol for providing tools and resources to AI agents. Created by Anthropic and adopted by major companies, it wraps APIs in JSON RPC with natural language descriptions. It is transport-agnostic and can use HTTP, stdio, or other connections.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 118.7,
+      "t_end": 180.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "mcp",
+        "anthropic",
+        "protocol",
+        "json rpc",
+        "agents"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "OAuth 2.1 Authentication for Admin MCP",
+      "description": "Admin MCP uses Entra ID with OAuth 2.1 protocol, which is OAuth 2.0 with less secure flows removed and some flows hardened. The well-known discovery endpoint enables seamless client setup and connection.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 246.8,
+      "t_end": 273.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "oauth 2.1",
+        "entra id",
+        "authentication",
+        "discovery endpoint",
+        "security"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Multi-Tenant Administration via MCP",
+      "description": "MCP enables partner-supported multi-tenant administration scenarios with sample implementations provided in the BC Tech open-source repository on GitHub.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 62,
+      "t_end": 2073.2,
+      "is_demoed": true,
+      "caveats": [
+        "Only samples provided; not a complete turnkey solution",
+        "Requires understanding of code and adaptation to specific needs"
+      ],
+      "tags": [
+        "multi-tenant",
+        "partners",
+        "github",
+        "samples",
+        "open-source",
+        "proxy",
+        "bc-tech"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Admin MCP Setup in Visual Studio Code",
+      "description": "Single-tenant scenario demonstrating seamless MCP server configuration in VS Code settings. Includes discovery of 42 available tools and natural language agent interaction to query environments, quotas, and database usage.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 389.1,
+      "t_end": 590,
+      "is_demoed": true,
+      "caveats": [
+        "Demonstration environment with sample data"
+      ],
+      "tags": [
+        "vs code",
+        "single-tenant",
+        "agent",
+        "discovery",
+        "http"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "MCP Agent-Assisted Environment Diagnostics",
+      "description": "AI agent can automatically discover and investigate failed upgrades, identify problematic extensions, determine root causes in code, and propose remediation steps by analyzing operations and code repositories.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 595.4,
+      "t_end": 760,
+      "is_demoed": true,
+      "caveats": [
+        "Agent investigation depends on access to source code and error details",
+        "Agent cannot directly uninstall applications for security reasons"
+      ],
+      "tags": [
+        "diagnostics",
+        "agent",
+        "upgrade failures",
+        "root cause analysis",
+        "code investigation"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent-driven environment uninstall and upgrade",
+      "description": "The admin MCP agent can uninstall extensions and schedule environment upgrades using natural language commands. The agent verifies uninstallation before triggering upgrades.",
+      "status": "preview",
+      "status_evidence_t": 799.9,
+      "status_evidence_quote": "This is a security measure for our public preview.",
+      "status_evidence_verified": true,
+      "t_start": 786.5,
+      "t_end": 979.4,
+      "is_demoed": true,
+      "caveats": [
+        "Agent cannot uninstall extensions by design",
+        "Uninstallation must be manual or scheduled"
+      ],
+      "tags": [
+        "agent automation",
+        "extension management",
+        "environment upgrade"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Admin MCP Server authentication flow",
+      "description": "Admin MCP server exposes tools and a well-known authentication endpoint. VS Code and Copilot Studio authenticate via Entra to obtain tokens and cache credentials for subsequent API calls.",
+      "status": "preview",
+      "status_evidence_t": 799.9,
+      "status_evidence_quote": "This is a security measure for our public preview.",
+      "status_evidence_verified": true,
+      "t_start": 992.3,
+      "t_end": 1067.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "mcp",
+        "authentication",
+        "entra",
+        "well-known endpoint"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Copilot Studio MCP custom connector setup",
+      "description": "Users can create custom MCP connectors in Copilot Studio by registering an Entra application, specifying OAuth 2.0 endpoints, client credentials, and scopes. The connector supports JSON RPC calls to the Admin MCP server.",
+      "status": "preview",
+      "status_evidence_t": 799.9,
+      "status_evidence_quote": "This is a security measure for our public preview.",
+      "status_evidence_verified": true,
+      "t_start": 1281.5,
+      "t_end": 1539.8,
+      "is_demoed": true,
+      "caveats": [
+        "Requires Entra application registration",
+        "Requires manual configuration of redirect URI"
+      ],
+      "tags": [
+        "mcp connector",
+        "oauth 2.0",
+        "entra",
+        "copilot studio"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent tool invocation via MCP",
+      "description": "Agents in Copilot Studio can invoke tools from the Admin MCP server using JSON RPC protocol. Agents can query available tools and execute operations like listing Business Central environments.",
+      "status": "preview",
+      "status_evidence_t": 799.9,
+      "status_evidence_quote": "This is a security measure for our public preview.",
+      "status_evidence_verified": true,
+      "t_start": 1539.8,
+      "t_end": 1764.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "agent tools",
+        "json rpc",
+        "mcp",
+        "environment queries"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Admin MCP server connection",
+      "description": "Ability to create and verify connections to the admin MCP server using JSON RPC protocol and list available tools.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1562.8,
+      "t_end": 1616.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "mcp",
+        "json-rpc",
+        "admin center"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Agent integration with MCP tools in Propeller Studio",
+      "description": "Agents in Propeller Studio can call MCP tools to list Business Central environments and manage delegated flows authentication.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1616.9,
+      "t_end": 1764.2,
+      "is_demoed": true,
+      "caveats": [
+        "Only delegated flows supported, no S2S",
+        "Requires interactive user sign-in"
+      ],
+      "tags": [
+        "agents",
+        "capella studio",
+        "delegated flows"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "MCP proxy for multi-tenant partner scenarios",
+      "description": "A thin wrapper around admin MCP that enables partners to manage multiple customer tenants through a single proxy, adding tenant ID parameter and tenant-specific authentication tools.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1834.7,
+      "t_end": 2073.2,
+      "is_demoed": true,
+      "caveats": [
+        "Available as sample code in BC Tech repository",
+        "Requires local or cloud deployment",
+        "Requires S2S authentication requires additional configuration if applications already exist in customer tenants"
+      ],
+      "tags": [
+        "multi-tenancy",
+        "partner",
+        "proxy",
+        "bc-tech",
+        "authentication"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Encrypted authentication data persistence",
+      "description": "MCP proxy saves authentication data in encrypted form locally on the machine to avoid repeated authentication per tenant.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2364.5,
+      "t_end": 2392.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "authentication",
+        "encryption",
+        "persistence"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "GitHub Copilot CLI with MCP",
+      "description": "GitHub Copilot CLI can be configured with MCP tools to execute administrative queries across multiple tenants using the proxy setup.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2073.2,
+      "t_end": 2218.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "github-copilot",
+        "cli",
+        "multi-tenancy"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "S2S authentication option for MCP proxy",
+      "description": "MCP proxy sample code can be modified to use S2S token flows instead of delegated flows for application-based authentication.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2443.4,
+      "t_end": 2459.6,
+      "is_demoed": false,
+      "caveats": [
+        "Requires modification of sample code",
+        "Requires application setup"
+      ],
+      "tags": [
+        "s2s",
+        "authentication",
+        "application"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Admin MCP samples in BC Tech GitHub repository",
+      "description": "Sample code and partners implementation guidance for admin MCP available in the BC Tech repository on GitHub.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2433,
+      "t_end": 2485.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "samples",
+        "github",
+        "documentation"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Extension uninstall limitation",
+      "description": "The admin MCP deliberately does not expose extension uninstall functionality as a destructive API for safety reasons.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2596.6,
+      "t_end": 2622.6,
+      "is_demoed": true,
+      "caveats": [
+        "May be reconsidered for future releases"
+      ],
+      "tags": [
+        "extension-management",
+        "limitation",
+        "safety"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Publish extension API limitation",
+      "description": "Publishing extensions is not currently part of the admin API, but the team is working to add this capability in the future.",
+      "status": "announced",
+      "status_evidence_t": 2633.7,
+      "status_evidence_quote": "we would like to add it to admin API. So, it most likely will appear in in the future.",
+      "status_evidence_verified": true,
+      "t_start": 2622.6,
+      "t_end": 2644.4,
+      "is_demoed": false,
+      "caveats": [
+        "No specific timeline provided"
+      ],
+      "tags": [
+        "extension-management",
+        "api",
+        "roadmap"
+      ],
+      "system": "administration"
+    }
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Demo PTE codeunit",
+      "t": 651.4
+    },
+    {
+      "type": "other",
+      "name": "BC admin center",
+      "t": 2240.5
+    },
+    {
+      "type": "other",
+      "name": "CP tools",
+      "t": 2240.5
+    },
+    {
+      "type": "other",
+      "name": "get environments tool",
+      "t": 2392.4
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Yuri",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 118.7,
+      "text": "MCP is sort of like a USB-C protocol for providing tools and resources for AI agents.",
+      "why_it_matters": "Establishes the core concept and analogy for understanding MCP's purpose and ubiquity",
+      "check": "exact"
+    },
+    {
+      "t": 134,
+      "text": "it's just an API that is wrapped in a JSON RPC too and provided to agents with a sort of natural language description that",
+      "why_it_matters": "Explains how MCP enables agent understanding and invocation of APIs through natural language",
+      "check": "exact"
+    },
+    {
+      "t": 194.8,
+      "text": "we are kind of providing the very very close experience to admin API that we already have in Business Central for administrative purposes",
+      "why_it_matters": "Clarifies that Admin MCP mirrors existing Admin API design patterns",
+      "check": "exact"
+    },
+    {
+      "t": 286.6,
+      "text": "we're exposing uh uh all things that are already available on Admin API except some that are considered as a uh disruptive destructive changes",
+      "why_it_matters": "Defines the scope of MCP API exposure and rationale for restrictions",
+      "check": "exact"
+    },
+    {
+      "t": 318.7,
+      "text": "this is a public preview and um we are hoping to open up more more APIs and more scenarios going forward",
+      "why_it_matters": "Establishes public preview status and indicates future API expansion roadmap",
+      "check": "exact"
+    },
+    {
+      "t": 490.8,
+      "text": "it has discovered 42 tools that we have available",
+      "why_it_matters": "Quantifies the scope of Admin MCP capabilities currently exposed to agents",
+      "check": "exact"
+    },
+    {
+      "t": 786.5,
+      "text": "the agent cannot uninstall it, and that's by design. This is a security measure for our public preview.",
+      "why_it_matters": "Explains why destructive operations are intentionally restricted in the preview",
+      "check": "exact"
+    },
+    {
+      "t": 786.5,
+      "text": "the agent cannot uninstall it, and that's by design.",
+      "why_it_matters": "Documents a deliberate security constraint preventing agents from uninstalling extensions without manual intervention.",
+      "check": "exact"
+    },
+    {
+      "t": 799.9,
+      "text": "This is a security measure for our public preview.",
+      "why_it_matters": "Confirms the Admin MCP agent and its capabilities are in public preview status.",
+      "check": "exact"
+    },
+    {
+      "t": 922.2,
+      "text": "after the agent confirms that the application is uninstalled, he can go and actually schedule the upgrade for this environment um as soon as",
+      "why_it_matters": "Shows the agent's capability to orchestrate multi-step administrative workflows: verify uninstall, then trigger upgrade.",
+      "check": "exact"
+    },
+    {
+      "t": 1018.6,
+      "text": "we are exposing a list of tools. Um and besides that, we are exposing a well-known endpoint there that will ...",
+      "why_it_matters": "Explains the MCP server's design to support standard authentication patterns via well-known endpoints.",
+      "check": "exact"
+    },
+    {
+      "t": 1253.3,
+      "text": "This is a delegated uh scope which means it's not a scope, it will be a like a user call so to speak. So,",
+      "why_it_matters": "Clarifies that the Admin MCP uses delegated OAuth flow, requiring user interactivity and on-behalf-of authentication.",
+      "check": "exact"
+    },
+    {
+      "t": 1552.4,
+      "text": "all calls to the API essentially uh are HTTP post calls that we're doing. And again, it's a JSON RPC.",
+      "why_it_matters": "Documents the protocol used: JSON RPC over HTTP POST for all Admin MCP server communications.",
+      "check": "exact"
+    },
+    {
+      "t": 1606,
+      "text": "we received 200 response, which means it's okay. And uh there are essentially there's a list of tools available for us.",
+      "why_it_matters": "Confirms successful MCP server connection and tool discovery",
+      "check": "exact"
+    },
+    {
+      "t": 1753.5,
+      "text": "They're only limited to the like delegated flows, which means there must be a user who is signing in interactively and getting the token",
+      "why_it_matters": "Defines the authentication limitation for Propeller Studio connections",
+      "check": "exact"
+    },
+    {
+      "t": 1806.8,
+      "text": "imagine that uh if you are a partner, like you have multiple tenants, uh multiple customers, and you have even maybe GDA relationships between",
+      "why_it_matters": "Describes the multi-tenant partner scenario that motivates the MCP proxy solution",
+      "check": "exact"
+    },
+    {
+      "t": 1834.7,
+      "text": "what we did for now is we provided a sample like as an MCP proxy that can be used to like unblock this scenario",
+      "why_it_matters": "Announces the availability of MCP proxy as a sample for partner multi-tenancy",
+      "check": "exact"
+    },
+    {
+      "t": 1877,
+      "text": "There is no parameter or anything that we take as as a as a ground truth. It's only in the token because this is",
+      "why_it_matters": "Explains the security model where tenant identity comes from the token",
+      "check": "exact"
+    },
+    {
+      "t": 2364.5,
+      "text": "after first time that we have authenticated, this wrapper is saving this um authentication data in encrypted form uh locally on your machine. And",
+      "why_it_matters": "Describes authentication persistence to reduce repeated login requirements",
+      "check": "exact"
+    },
+    {
+      "t": 2364.5,
+      "text": "this wrapper is saving this um authentication data in encrypted form uh locally on your machine",
+      "why_it_matters": "Explains that authentication tokens are cached locally in encrypted form, reducing the need for repeated authentication.",
+      "check": "exact"
+    },
+    {
+      "t": 2443.4,
+      "text": "you can even use them S2S authentication if you have the application and you uh, change this sample a little bit to use S2S",
+      "why_it_matters": "Indicates S2S authentication is a possible future enhancement but not currently implemented",
+      "check": "exact"
+    },
+    {
+      "t": 2474.8,
+      "text": "this is a a public preview. It's version one. Maybe we will enable more scenarios or add more um, tools and ways to use",
+      "why_it_matters": "Establishes the current status of admin MCP as public preview and signals potential future enhancements.",
+      "check": "exact"
+    },
+    {
+      "t": 2543.3,
+      "text": "you don't need to create any clients for that purpose. If you are using the admin flow.",
+      "why_it_matters": "Clarifies that multi-tenant scenarios via the proxy do not require creating additional client IDs when using admin credentials.",
+      "check": "exact"
+    },
+    {
+      "t": 2609.8,
+      "text": "We deliberately removed or kind of did not implement, so to speak, um these dangerous, so so to speak, APIs or destructive APIs.",
+      "why_it_matters": "Explains that extension uninstall and other destructive operations are intentionally excluded from admin MCP for safety.",
+      "check": "exact"
+    },
+    {
+      "t": 2669,
+      "text": "This one specifically is for administration in SaaS. So, this is only for SaaS.",
+      "why_it_matters": "Clarifies that admin MCP is currently limited to Business Central online (SaaS) and not available for on-premises deployments.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 62,
+      "kind": "preview",
+      "text": "that we enabled for our partners by providing some samples on our open-source BC Tech repository on GitHub"
+    },
+    {
+      "t": 318.7,
+      "kind": "preview",
+      "text": "this is a public preview and um we are hoping to open up more more APIs and more scenarios going forward"
+    },
+    {
+      "t": 799.9,
+      "kind": "preview",
+      "text": "This is a security measure for our public preview."
+    },
+    {
+      "t": 2443.4,
+      "kind": "not-in-this-release",
+      "text": "you can even use them S2S authentication if you have the application and you uh, change this sample a little ..."
+    },
+    {
+      "t": 2474.8,
+      "kind": "preview",
+      "text": "this is a a public preview. It's version one."
+    },
+    {
+      "t": 2609.8,
+      "kind": "other",
+      "text": "We deliberately removed or kind of did not implement these dangerous APIs or destructive APIs. But we might reconsider maybe adding this going forward."
+    },
+    {
+      "t": 2633.7,
+      "kind": "coming-later",
+      "text": "we would like to add it to admin API. So, it most likely will appear in in the future."
+    }
+  ],
+  "checks": {
+    "quotes_kept": 25,
+    "quotes_dropped": 1,
+    "evidence_verified": 6,
+    "evidence_unverified": 10
+  },
+  "windows": 4,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    }
+  ]
+}

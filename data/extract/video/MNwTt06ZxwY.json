@@ -1,0 +1,1167 @@
+{
+  "video_id": "MNwTt06ZxwY",
+  "item_id": "video/yt-mibuso/MNwTt06ZxwY",
+  "title": "Microsoft presents: Building and shipping agents in Business Central",
+  "duration_s": 2752,
+  "systems": [
+    "copilot",
+    "development",
+    "sales"
+  ],
+  "topics": [
+    "agents",
+    "agent configuration",
+    "permissions",
+    "profiles",
+    "instructions",
+    "task simulation",
+    "testing",
+    "agent models",
+    "export",
+    "user access",
+    "task logging",
+    "agent deployment"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to agents as a first-party product",
+      "t_start": 0,
+      "t_end": 111.8
+    },
+    {
+      "title": "Agent configuration: name, language, region, and user access",
+      "t_start": 111.8,
+      "t_end": 242.5
+    },
+    {
+      "title": "Profiles, permissions, and instructions - iterative improvement",
+      "t_start": 242.5,
+      "t_end": 369.8
+    },
+    {
+      "title": "Model selection and agent configuration options",
+      "t_start": 369.8,
+      "t_end": 428.2
+    },
+    {
+      "title": "Testing agents with task simulation and templates",
+      "t_start": 428.2,
+      "t_end": 543.9
+    },
+    {
+      "title": "Task execution analysis: agent actions and user interventions",
+      "t_start": 543.9,
+      "t_end": 764.4
+    },
+    {
+      "title": "Exporting and managing agent definitions",
+      "t_start": 764.4,
+      "t_end": 928.2
+    },
+    {
+      "title": "Moving agents to production via extensions",
+      "t_start": 928.2,
+      "t_end": 1000.5
+    },
+    {
+      "title": "Agent template and project structure",
+      "t_start": 1000.5,
+      "t_end": 1083.2
+    },
+    {
+      "title": "Copilot capabilities and agent lifecycle management",
+      "t_start": 1083.2,
+      "t_end": 1159.8
+    },
+    {
+      "title": "Agent metadata provider and factory interface",
+      "t_start": 1159.8,
+      "t_end": 1352
+    },
+    {
+      "title": "Agent metadata runtime configuration and optional interface methods",
+      "t_start": 1352,
+      "t_end": 1473.3
+    },
+    {
+      "title": "Evolving agents for production complexity and user intervention",
+      "t_start": 1473.3,
+      "t_end": 1614
+    },
+    {
+      "title": "AI evaluation tools, testing, and quality tracking",
+      "t_start": 1614,
+      "t_end": 2752
+    }
+  ],
+  "features": [
+    {
+      "name": "Agent creation and configuration",
+      "description": "Users can create agent instances by clicking an agent button, defining instance names, descriptions, and configuring language and region settings to control how the agent operates in different locales and time zones.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 111.8,
+      "t_end": 180.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "agent creation",
+        "configuration",
+        "locale settings"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Manage user access for agents",
+      "description": "Agents can be shared with other users with configurable permissions. Users can be granted the ability to assign tasks to an agent or to configure the agent and assign additional users.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 180.2,
+      "t_end": 242.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "user access",
+        "permissions",
+        "agent sharing"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Profiles and permissions configuration",
+      "description": "Users must configure profiles and permissions to control what data agents can see and what actions they can perform. These settings require iterative re-evaluation as agents mature to ensure appropriate access levels.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 242.5,
+      "t_end": 295.7,
+      "is_demoed": true,
+      "caveats": [
+        "Requires careful iteration to avoid over-granting permissions"
+      ],
+      "tags": [
+        "permissions",
+        "profiles",
+        "access control",
+        "iterative development"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent instructions configuration",
+      "description": "Users can define and iteratively refine agent instructions that specify guidelines and purpose. Instructions can be created, tweaked, and improved over time using prompting best practices and with assistance from Copilots or other agents.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 312.2,
+      "t_end": 359.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "instructions",
+        "prompting",
+        "iterative refinement"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent model selection",
+      "description": "Users can choose between different AI models for their agents, including GPT-4 and GPT-4.1, with a newer GPT-5 option available. Model selection is presented as a dropdown in version 28 and allows users to optimize for cost and capability.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 369.8,
+      "t_end": 418,
+      "is_demoed": true,
+      "caveats": [
+        "Different models have different costs"
+      ],
+      "tags": [
+        "model selection",
+        "gpt-4",
+        "gpt-5",
+        "version 28"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent task simulation and testing",
+      "description": "Users can test agents by creating task simulations that replicate incoming signals. For email-based tasks, users specify subject, from address, message, and attachments. Task details depend on the scenario and business process events the agent should respond to.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 428.2,
+      "t_end": 487.8,
+      "is_demoed": true,
+      "caveats": [
+        "Task construction depends on the specific scenario and triggering signal"
+      ],
+      "tags": [
+        "task simulation",
+        "testing",
+        "email processing"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Task templates",
+      "description": "Users can create and reuse task templates that quickly generate test tasks with predefined parameters. This allows rapid iteration of agent testing by changing parameters and re-running tasks multiple times.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 487.8,
+      "t_end": 533.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "task templates",
+        "testing",
+        "iteration"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Task log and execution tracking",
+      "description": "The task log displays all iterations of test tasks and allows navigation between different task runs. Users can view detailed step-by-step information about agent actions, including what the agent saw, tools it used, and decisions it made.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 533.5,
+      "t_end": 664.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "task log",
+        "execution tracking",
+        "troubleshooting"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent tools and capabilities",
+      "description": "Agents have access to tools that define what actions they can perform, such as navigate. The tools are displayed during task execution and help the agent determine available actions based on its profile and permissions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 626.1,
+      "t_end": 664.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "tools",
+        "agent capabilities",
+        "actions"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "User intervention in agent workflows",
+      "description": "Agents can request user intervention when they need feedback or approval. The task log shows user intervention steps with access to relevant documents and attachments that the agent created for user review.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 704.4,
+      "t_end": 753.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "user intervention",
+        "approval workflows"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Download agent instructions",
+      "description": "Users can download just the agent instructions to include in an extension they want to ship as part of their solution.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 775.3,
+      "t_end": 803.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "export",
+        "instructions",
+        "extension deployment"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Export agent definition",
+      "description": "Users can export complete agent definitions from the agents list, which collects all configuration information including profile, permissions, instructions, locale, and version details. This enables sharing and deployment of agent configurations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 803.6,
+      "t_end": 928.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "export",
+        "agent definition",
+        "deployment",
+        "configuration sharing"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Production agent deployment via extensions",
+      "description": "From version 2008 onwards, agents can be run in production environments by creating an extension and publishing it to production. Agents created with instructions in the client cannot run in production; they must be packaged as extensions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 945,
+      "t_end": 1000.5,
+      "is_demoed": false,
+      "caveats": [
+        "Agents with instructions in client cannot run in production",
+        "Extension must be published to production environment"
+      ],
+      "tags": [
+        "production",
+        "extension",
+        "deployment"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent template for AL projects",
+      "description": "A project template available through the new project command that provides a complete scaffold including instructions, configuration, files, and documentation for developing agents. The template includes a readme file explaining implementation details and file organization.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1000.5,
+      "t_end": 1083.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "template",
+        "scaffold",
+        "project setup",
+        "development"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Copilot capability feature gate",
+      "description": "Copilot capabilities act as feature gates for agents. Disabling a copilot capability deactivates all agent instances using that capability, making them completely unavailable to users. Re-enabling the capability restores agent availability.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1083.2,
+      "t_end": 1159.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "feature gate",
+        "capability management",
+        "lifecycle control"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent metadata provider enumeration",
+      "description": "Core enumeration interface that tells the platform about agents, how to create them, and how tasks are executed. Enables the platform to understand agent capabilities and behavior.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1159.8,
+      "t_end": 1217.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "interface",
+        "metadata",
+        "agent core"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Agent factory interface",
+      "description": "Interface that allows creation of agent instances and linking to copilot capabilities. Includes Show Can Create Agent method to determine visibility and discoverability of agents to users based on custom logic like role or existing instances.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1217.2,
+      "t_end": 1265.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "factory",
+        "instance creation",
+        "discoverability"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Agent metadata interface for runtime configuration",
+      "description": "Configures runtime behavior of agent instances including display settings, initials, custom setup pages, and optional summary card page ID to show agent processing status and customer value.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1352,
+      "t_end": 1398.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "runtime",
+        "display",
+        "customization"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Take agent task execution interface",
+      "description": "Optional interface for intercepting and managing task execution flow. Allows custom logic to run as the agent processes tasks.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1398.2,
+      "t_end": 1430.1,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "execution",
+        "interception",
+        "optional"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Optional interface methods",
+      "description": "New AL language feature allowing default implementations and optional methods in interfaces. Enables selective implementation of interface methods, making only required methods mandatory.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1430.1,
+      "t_end": 1473.3,
+      "is_demoed": false,
+      "caveats": [
+        "Coming in next versions"
+      ],
+      "tags": [
+        "al language",
+        "interfaces",
+        "optional methods"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Complex agent scenarios with user intervention",
+      "description": "Support for realistic agent workflows requiring multiple steps including verification of original invoices, resolution checks, credit memo creation, user approval requests, and feedback loops for continuous refinement.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1473.3,
+      "t_end": 1614,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "workflow",
+        "user interaction",
+        "intervention loops"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "AI evaluation tools for agents",
+      "description": "Testing framework that allows running tests using own data sets to measure accuracy and relevance of agents. Can be integrated with CI/CD pipelines to track quality over time and detect regressions. Available in sandbox only for testing before production deployment.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1614,
+      "t_end": 1673.8,
+      "is_demoed": true,
+      "caveats": [
+        "Available in sandbox only",
+        "Testing tool meant to be run before going to production"
+      ],
+      "tags": [
+        "agent testing",
+        "quality assurance",
+        "ci-cd",
+        "ai evaluation"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Copilot credit consumption visibility in tests",
+      "description": "Explicit showing of Copilot credit cost for executing tasks in test execution. Shows total tokens consumed by test framework, including LLM-as-judge calls if used for quality assessment.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1649.8,
+      "t_end": 1662.4,
+      "is_demoed": true,
+      "caveats": [
+        "Does not show actual tokens consumed by agents themselves, only test framework tokens"
+      ],
+      "tags": [
+        "copilot credits",
+        "cost tracking",
+        "transparency"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent instance experimentation",
+      "description": "Ability to publish the same agent multiple times with different models and instructions, then change them one at a time to determine which configuration works best for a scenario.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1662.4,
+      "t_end": 1673.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "agent configuration",
+        "experimentation",
+        "model selection"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "AI evals suite page",
+      "description": "Generic tooling for running AI tests. Supports multiple eval types including Copilot, agent, and MCP. Displays test results grouped by scenarios with execution metrics.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1687.3,
+      "t_end": 1741.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "ai evaluation",
+        "test interface",
+        "agent testing"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Budget controls for agent tests",
+      "description": "Two-level limit system for controlling Copilot credit spending. Environment-level limit applies across all companies, and company-level limit per company. Prevents execution of new tasks when limits are reached but allows running tasks to complete.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1814.4,
+      "t_end": 1870.5,
+      "is_demoed": true,
+      "caveats": [
+        "Limits prevent new task execution but do not stop in-progress tasks",
+        "May result in going slightly over budget due to incomplete task execution"
+      ],
+      "tags": [
+        "budget management",
+        "cost control",
+        "copilot credits"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent task drill-down and troubleshooting",
+      "description": "Detailed view of individual test execution with error messages, stack traces, inputs, outputs in JSON format, and link to full agent tasks page for deeper troubleshooting of tool usage and agent behavior.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1882.9,
+      "t_end": 1957.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "troubleshooting",
+        "debugging",
+        "agent tasks",
+        "error analysis"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Copilot credit consumption visibility for non-admins",
+      "description": "Changed from admin-only functionality to allow users with access to specific agents to see credit consumption for those agents only. Full overview remains admin-only.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2013.4,
+      "t_end": 2030,
+      "is_demoed": true,
+      "caveats": [
+        "Only agent admin can see full overview of all agents"
+      ],
+      "tags": [
+        "permissions",
+        "transparency",
+        "copilot credits"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Test run history and trend tracking",
+      "description": "History view showing previous test runs with accuracy metrics and Copilot credit consumption over time, enabling tracking of trends and improvements.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2043.6,
+      "t_end": 2067.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "trend tracking",
+        "quality metrics",
+        "history"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Turn-based test design pattern",
+      "description": "Test architecture where each agent input starts a new turn. Test design involves setting up turn data, executing agent processing, verifying outcome, then deciding to continue or stop before final turn completion.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2067.2,
+      "t_end": 2112.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "test design",
+        "turn-based",
+        "architecture",
+        "agent interaction"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "AI development toolkit evaluation extension",
+      "description": "Extension that bundles test code units, data sets, and config files. Propagates dependencies on AI test toolkit and agent test library, providing utilities for creating turns, executing them, and handling intervention requests.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2179.7,
+      "t_end": 2212.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "development",
+        "extension",
+        "test libraries",
+        "dependencies"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Agent test library",
+      "description": "New library app providing utilities for creating turns and executing them, handling intervention requests, and other capabilities needed for writing agent tests.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2202.1,
+      "t_end": 2212.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "development",
+        "test library",
+        "agent testing"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Data-driven agent test approach",
+      "description": "Agent tests use data sets containing turn definitions for agent inputs and expected data for what agents should create or perform. Configuration files bundle data sets with code units for execution.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2151.4,
+      "t_end": 2179.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "test design",
+        "data-driven",
+        "configuration"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AI test suite XML configuration standard",
+      "description": "XML-based well-known standard for defining AI test suites with one-to-one mapping to AI eval suite. Includes code, description, frequency, test type, and connections between code units and data sets.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2316,
+      "t_end": 2371.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "configuration",
+        "xml",
+        "test standard"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AI test type code unit",
+      "description": "Test code unit using new test type property set to AI test. Uses initialize method for setup and calls agent test context to retrieve user security ID of the test agent instance.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2398,
+      "t_end": 2456.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "development",
+        "al code",
+        "test framework"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AI test type property",
+      "description": "A new property for code units that defines the test type as AI test, enabling agent testing capabilities within the test framework.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2356.5,
+      "t_end": 2427.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "agent testing",
+        "test type",
+        "al code"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Agent test context code unit",
+      "description": "A library code unit that provides context about the current test being executed, including methods to get agent user security ID and interact with YAML-defined data sets.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2442.3,
+      "t_end": 2500.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "test context",
+        "agent configuration",
+        "user security"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "YAML-based test data sets",
+      "description": "Test data configured in YAML files containing suite setup actions with free-format key-value pairs that can be referenced in AL code through the AI test context library.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2500.6,
+      "t_end": 2579.3,
+      "is_demoed": true,
+      "caveats": [
+        "Configuration moves from AL code into data sets"
+      ],
+      "tags": [
+        "yaml",
+        "data configuration",
+        "test setup"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Run turn and wait method",
+      "description": "A library method in the agent code unit that executes turns for agent testing, creating tasks for the agent and running until the agent completes the turn.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2579.3,
+      "t_end": 2641.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "turn execution",
+        "test loop",
+        "agent execution"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Data-driven agent test framework",
+      "description": "A complete framework for creating parameterized agent tests using data sets, enabling multiple test scenarios with shared test code and configuration-driven test variations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2641.8,
+      "t_end": 2699.3,
+      "is_demoed": true,
+      "caveats": [
+        "Requires Dependabot development toolkit"
+      ],
+      "tags": [
+        "data-driven testing",
+        "test scenarios",
+        "framework"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Agent debugging with break on next",
+      "description": "Debug tooling that allows stepping through agent execution using break on next and specific launch configuration, requiring the user ID from the agent list page.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2699.3,
+      "t_end": 2741.4,
+      "is_demoed": false,
+      "caveats": [
+        "Requires agent user ID from agent list page"
+      ],
+      "tags": [
+        "debugging",
+        "breakpoint",
+        "launch configuration"
+      ],
+      "system": "development"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "agent",
+      "t": 111.8
+    },
+    {
+      "type": "other",
+      "name": "agent models list",
+      "t": 382.1
+    },
+    {
+      "type": "other",
+      "name": "task template",
+      "t": 487.6
+    },
+    {
+      "type": "other",
+      "name": "task log",
+      "t": 533.5
+    },
+    {
+      "type": "other",
+      "name": "agents list",
+      "t": 803.6
+    },
+    {
+      "type": "enum",
+      "name": "agent metadata provider",
+      "t": 1175
+    },
+    {
+      "type": "interface",
+      "name": "factory",
+      "t": 1217.2
+    },
+    {
+      "type": "interface",
+      "name": "agent metadata",
+      "t": 1352
+    },
+    {
+      "type": "interface",
+      "name": "take agent task execution",
+      "t": 1398.2
+    },
+    {
+      "type": "page",
+      "name": "AI evals suite pages",
+      "t": 1687.3
+    },
+    {
+      "type": "codeunit",
+      "name": "agent test context",
+      "t": 2442.3
+    },
+    {
+      "type": "codeunit",
+      "name": "AI test context",
+      "t": 2483.5
+    },
+    {
+      "type": "codeunit",
+      "name": "agent",
+      "t": 2602.9
+    },
+    {
+      "type": "page",
+      "name": "agent list",
+      "t": 2725.9
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Blazhe",
+      "confidence": "medium"
+    },
+    {
+      "name": "Stefan",
+      "confidence": "high"
+    },
+    {
+      "name": "Quintin",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 4.1,
+      "text": "Agents are no longer just experiments. They're becoming a first-party product inside of Business Central.",
+      "why_it_matters": "Establishes the product status - agents are moving from experimental to a core, supported feature.",
+      "check": "exact"
+    },
+    {
+      "t": 90.4,
+      "text": "This is all available for you today. You can look at it in the client. Um from 27.4 and newer.",
+      "why_it_matters": "Specifies the version availability - all demonstrated features are GA in 27.4 and later.",
+      "check": "exact"
+    },
+    {
+      "t": 157.5,
+      "text": "Maybe this instance of my agent needs to work in a certain locale. Maybe it's a US decimal points or it's a European decimal",
+      "why_it_matters": "Explains the business need for locale and region configuration in agent instances.",
+      "check": "exact"
+    },
+    {
+      "t": 256.6,
+      "text": "As you mature the agent, you need to come back and figure out if the agent is seeing too much or not seeing enough",
+      "why_it_matters": "Describes the iterative nature of agent development and the importance of managing permissions over time.",
+      "check": "exact"
+    },
+    {
+      "t": 382.1,
+      "text": "27.4, you wouldn't even see this agent models list. That would be for 28 where you have now this drop ...",
+      "why_it_matters": "Clarifies version differences - model selection is a version 28 feature not available in 27.4.",
+      "check": "exact"
+    },
+    {
+      "t": 456.2,
+      "text": "Sometimes it's an event that happened in the system, like customer created or invoice posted or some other business process",
+      "why_it_matters": "Provides examples of business events that can trigger agent task processing.",
+      "check": "exact"
+    },
+    {
+      "t": 764.4,
+      "text": "I've iterated on the instructions, profile, and all of these things. So, now I want to do something with it. Right? I want to",
+      "why_it_matters": "Marks the transition from testing to deployment, showing the iterative development workflow.",
+      "check": "exact"
+    },
+    {
+      "t": 853.6,
+      "text": "exporting the agent definition is kind of collecting all the information about this agent instance, the profile it's using, the permissions it's using, of",
+      "why_it_matters": "Establishes that agent definitions are portable and include comprehensive configuration data for recreating agents across environments.",
+      "check": "exact"
+    },
+    {
+      "t": 974.4,
+      "text": "from 20 eight we support that you run these agents in production also",
+      "why_it_matters": "Clarifies the version requirement and production readiness of agent deployments.",
+      "check": "exact"
+    },
+    {
+      "t": 985.1,
+      "text": "you cannot run the the agents that we just created with the with instructions in the client from a production environment",
+      "why_it_matters": "Critical limitation: client-side agents require extension packaging for production use.",
+      "check": "exact"
+    },
+    {
+      "t": 1123.5,
+      "text": "it actually deactivates these agents completely. They're completely gone now. Because this feature is now blocked",
+      "why_it_matters": "Demonstrates the power of copilot capabilities as feature gates for agent lifecycle management.",
+      "check": "exact"
+    },
+    {
+      "t": 1175,
+      "text": "we have an enumeration here called an agent metadata provider. This is the core of an agent",
+      "why_it_matters": "Identifies the fundamental architecture component for agent definition and behavior.",
+      "check": "exact"
+    },
+    {
+      "t": 1265.6,
+      "text": "you can have your own code running to decide whether the current user has um the possibility to see the discover that agent and",
+      "why_it_matters": "Shows that agent discoverability is customizable and rule-based rather than uniform.",
+      "check": "exact"
+    },
+    {
+      "t": 1614,
+      "text": "we've shipped now the ability to evaluate agents for using the AI evaluation tools",
+      "why_it_matters": "Indicates that agent evaluation testing capabilities are now generally available as a shipped feature for production use.",
+      "check": "exact"
+    },
+    {
+      "t": 1632.8,
+      "text": "you can now run tests using your own data sets and measure accuracy and relevance for them. And if you're integrating this with your",
+      "why_it_matters": "Establishes comprehensive testing capabilities with integration into development pipelines for continuous quality assurance.",
+      "check": "exact"
+    },
+    {
+      "t": 1673.8,
+      "text": "this is available in sandbox only since this is a testing tool, but you'd be running this before going to production",
+      "why_it_matters": "Clarifies the environment restriction for testing tools and their intended use in the development lifecycle.",
+      "check": "exact"
+    },
+    {
+      "t": 1827.3,
+      "text": "we've implemented two different limits. So, there's one on the environment level where you can say that across all companies, I do not want",
+      "why_it_matters": "Shows the budget control mechanisms available for managing Copilot credit spending across testing infrastructure.",
+      "check": "exact"
+    },
+    {
+      "t": 1854.7,
+      "text": "these limits are preventing the execution of new tasks and new tests, which means that if you have some tests that are running, when",
+      "why_it_matters": "Explains an important caveat about how budget limits work - they stop new executions but allow in-progress tasks to complete.",
+      "check": "exact"
+    },
+    {
+      "t": 1981.5,
+      "text": "we're not surfacing here the actual tokens that were consumed by the agents. What you see for agent test here are the tokens consumed",
+      "why_it_matters": "Clarifies a distinction between agent tokens and test framework tokens that is important for understanding credit consumption reporting.",
+      "check": "exact"
+    },
+    {
+      "t": 2013.4,
+      "text": "This used to be a functionality that was only for agent admins or for administrators in general, but we changed it as part of",
+      "why_it_matters": "Indicates a change in permissions model to allow non-admin users visibility into agent credit usage for agents they can access.",
+      "check": "exact"
+    },
+    {
+      "t": 2067.2,
+      "text": "this is turn-based. Every time the agent gets an input, a new turn starts",
+      "why_it_matters": "Establishes the core architectural pattern for agent testing that designers must understand when creating test scenarios.",
+      "check": "exact"
+    },
+    {
+      "t": 2179.7,
+      "text": "you would have to take a dependency on this extension, which is named uh AI development toolkit evaluation",
+      "why_it_matters": "Names the specific extension required for developers to access agent testing capabilities in their extensions.",
+      "check": "exact"
+    },
+    {
+      "t": 2371.4,
+      "text": "we're really investing into moving all the test configuration into those data sets and not so much into the AL code",
+      "why_it_matters": "Shows a design decision to separate configuration from code, making tests more maintainable and reusable.",
+      "check": "exact"
+    },
+    {
+      "t": 2456.6,
+      "text": "it's giving you back the user security ID of the agent I've set here on the side",
+      "why_it_matters": "Explains how the framework identifies which agent instance to test through security context.",
+      "check": "exact"
+    },
+    {
+      "t": 2525.8,
+      "text": "elements action type and action data are part of the framework so you can reuse them freely",
+      "why_it_matters": "Clarifies the balance between framework-defined and user-defined test configuration elements.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 2602.9,
+      "text": "This run turn and wait method will execute what is here",
+      "why_it_matters": "Identifies the primary method for driving test execution through agent turns.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 382.1,
+      "kind": "subject-to-change",
+      "text": "I expect that when we validate more and more models, we will increase the availability here"
+    },
+    {
+      "t": 1430.1,
+      "kind": "coming-later",
+      "text": "This is a feature that's coming up. Actually, Quintin here worked on it, and he's a he's ready to release ..."
+    },
+    {
+      "t": 1673.8,
+      "kind": "preview",
+      "text": "this is available in sandbox only since this is a testing tool, but you'd be running this before going to production"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 26,
+    "quotes_dropped": 2,
+    "evidence_verified": 0,
+    "evidence_unverified": 41
+  },
+  "windows": 4,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    }
+  ]
+}

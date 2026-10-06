@@ -1,0 +1,1562 @@
+{
+  "video_id": "9zQZHfXK-PQ",
+  "item_id": "video/yt-mibuso/9zQZHfXK-PQ",
+  "title": "From Code to Docs: Using GitHub Copilot to Automate Business Central Documentation",
+  "duration_s": 5001,
+  "systems": [
+    "development",
+    "copilot",
+    "integration"
+  ],
+  "topics": [
+    "documentation automation",
+    "github copilot",
+    "spec-driven development",
+    "al development",
+    "user stories",
+    "architecture decisions",
+    "living artifacts",
+    "version control",
+    "change control",
+    "release notes",
+    "testing documentation",
+    "agent framework"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and speaker introductions",
+      "t_start": 0,
+      "t_end": 107.9
+    },
+    {
+      "title": "Session overview and presentation structure",
+      "t_start": 107.9,
+      "t_end": 173.7
+    },
+    {
+      "title": "The uncomfortable truth about documentation",
+      "t_start": 173.7,
+      "t_end": 303
+    },
+    {
+      "title": "How projects evolve and documentation falls behind",
+      "t_start": 303,
+      "t_end": 445
+    },
+    {
+      "title": "Consequences of lacking documentation",
+      "t_start": 445,
+      "t_end": 591.9
+    },
+    {
+      "title": "The comfortable truth and need for documentation throughout lifecycle",
+      "t_start": 591.9,
+      "t_end": 655.2
+    },
+    {
+      "title": "Traditional code-to-docs approach limitations",
+      "t_start": 655.2,
+      "t_end": 773.4
+    },
+    {
+      "title": "New docs-to-code approach with GitHub Copilot",
+      "t_start": 773.4,
+      "t_end": 909.4
+    },
+    {
+      "title": "From docs to code paradigm shift",
+      "t_start": 909.4,
+      "t_end": 984.5
+    },
+    {
+      "title": "Spec-driven development vs rapid coding",
+      "t_start": 984.5,
+      "t_end": 1099.4
+    },
+    {
+      "title": "Problems with AI agents without specifications",
+      "t_start": 1099.4,
+      "t_end": 1243.8
+    },
+    {
+      "title": "Main characteristics of spec-driven development",
+      "t_start": 1243.8,
+      "t_end": 1348.6
+    },
+    {
+      "title": "Living artifacts and documentation requirements",
+      "t_start": 1348.6,
+      "t_end": 1495.1
+    },
+    {
+      "title": "Keeping documentation alive in GitHub",
+      "t_start": 1495.1,
+      "t_end": 1677
+    },
+    {
+      "title": "Documentation as source of truth for agents",
+      "t_start": 1677,
+      "t_end": 1820.9
+    },
+    {
+      "title": "Agent framework overview and accountability",
+      "t_start": 1820.9,
+      "t_end": 1969.4
+    },
+    {
+      "title": "Business consultant and architect agent roles",
+      "t_start": 1969.4,
+      "t_end": 2099.5
+    },
+    {
+      "title": "Analysis documents and customer decision-making",
+      "t_start": 2099.5,
+      "t_end": 2198.5
+    },
+    {
+      "title": "Developer agents and sequential workflow",
+      "t_start": 2198.5,
+      "t_end": 2300.5
+    },
+    {
+      "title": "Agent skills and documentation consistency",
+      "t_start": 2300.5,
+      "t_end": 2457
+    },
+    {
+      "title": "Documentation skills and development lifecycle",
+      "t_start": 2457,
+      "t_end": 2499
+    },
+    {
+      "title": "Moving from PowerPoint to code and Visual Studio",
+      "t_start": 2499,
+      "t_end": 2615.4
+    },
+    {
+      "title": "AL Development Collection extension and baseline",
+      "t_start": 2615.4,
+      "t_end": 2673.8
+    },
+    {
+      "title": "Copilot skill collection and open source community",
+      "t_start": 2673.8,
+      "t_end": 2746.1
+    },
+    {
+      "title": "Biceps framework and document delivery to SharePoint",
+      "t_start": 2746.1,
+      "t_end": 2823
+    },
+    {
+      "title": "Symlinks for managing multiple agent frameworks",
+      "t_start": 2823,
+      "t_end": 2966.5
+    },
+    {
+      "title": "Standardizing agentic framework across teams",
+      "t_start": 2966.5,
+      "t_end": 3087.9
+    },
+    {
+      "title": "User story generation and decomposition from requirements",
+      "t_start": 3087.9,
+      "t_end": 3262.9
+    },
+    {
+      "title": "Converting requirements to formatted user stories with templates",
+      "t_start": 3262.9,
+      "t_end": 3410.4
+    },
+    {
+      "title": "Documentation organization, templates, and SharePoint integration",
+      "t_start": 3410.4,
+      "t_end": 3555.3
+    },
+    {
+      "title": "Specifications and architecture decision documentation",
+      "t_start": 3555.3,
+      "t_end": 3671.5
+    },
+    {
+      "title": "Feasibility analysis, risk assessment, and quality review process",
+      "t_start": 3671.5,
+      "t_end": 3807.4
+    },
+    {
+      "title": "Change control notice creation and customer approval",
+      "t_start": 3807.4,
+      "t_end": 3940.8
+    },
+    {
+      "title": "Customer approval handoff and developer phase with AI model selection",
+      "t_start": 3940.8,
+      "t_end": 4051.4
+    },
+    {
+      "title": "Phase implementation results, release notes generation, and testing documentation",
+      "t_start": 4051.4,
+      "t_end": 4254.5
+    },
+    {
+      "title": "Testing strategy and available resources",
+      "t_start": 4254.5,
+      "t_end": 4403
+    },
+    {
+      "title": "Recommended tools and GitHub repositories",
+      "t_start": 4403,
+      "t_end": 4534.1
+    },
+    {
+      "title": "Q&A: Project management approach",
+      "t_start": 4534.1,
+      "t_end": 4661.8
+    },
+    {
+      "title": "Q&A: Release notes with screenshots and available tools",
+      "t_start": 4661.8,
+      "t_end": 4738.2
+    },
+    {
+      "title": "Q&A: Specification branching, integration, and branch management",
+      "t_start": 4738.2,
+      "t_end": 4805
+    },
+    {
+      "title": "Branch deletion strategy, commit history tracking, and closing remarks",
+      "t_start": 4805,
+      "t_end": 4902
+    },
+    {
+      "title": "Discussion on prototypes vs documentation and proof of concepts",
+      "t_start": 4902,
+      "t_end": 5001
+    }
+  ],
+  "features": [
+    {
+      "name": "GitHub Copilot for documentation automation",
+      "description": "Using GitHub Copilot to generate and maintain documentation alongside code development, enabling a docs-to-code approach where documentation is created and approved early in the development process rather than at the end.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 655.2,
+      "t_end": 897.7,
+      "is_demoed": false,
+      "caveats": [
+        "Session involves a live demo that may not have executed successfully"
+      ],
+      "tags": [
+        "documentation",
+        "automation",
+        "code generation",
+        "github copilot"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Docs-to-code development methodology",
+      "description": "A new approach to development that starts with well-structured documentation and requirements, uses that documentation to guide code generation with Copilot assistance, ensuring documentation and code stay synchronized throughout the development lifecycle.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 773.4,
+      "t_end": 897.7,
+      "is_demoed": false,
+      "caveats": [
+        "Not yet demonstrated in this window",
+        "methodology still being introduced"
+      ],
+      "tags": [
+        "methodology",
+        "documentation",
+        "development process",
+        "best practices"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Spec-driven development framework",
+      "description": "A development methodology that starts with clear specifications and uses them to guide code generation and maintain living documentation throughout the development lifecycle.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 937.8,
+      "t_end": 1099.4,
+      "is_demoed": false,
+      "caveats": [
+        "Not a new approach, originated in NASA in the 1960s-1980s"
+      ],
+      "tags": [
+        "spec-driven development",
+        "methodology",
+        "specifications"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Living artifacts in repositories",
+      "description": "Documentation artifacts stored in Git repositories that remain alive and updated throughout the development lifecycle, changing with every decision and release.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1348.6,
+      "t_end": 1677,
+      "is_demoed": false,
+      "caveats": [
+        "Different documentation requirements for different project types; internal vs customer projects may need different artifacts"
+      ],
+      "tags": [
+        "living artifacts",
+        "documentation",
+        "github",
+        "repository"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "AI agents with specification context",
+      "description": "AI agents that rely on clear specifications to provide better solutions, avoiding unreliable rapid coding approaches when developing enterprise solutions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 984.5,
+      "t_end": 1243.8,
+      "is_demoed": false,
+      "caveats": [
+        "Without proper specifications, AI agents can produce unreliable solutions"
+      ],
+      "tags": [
+        "ai agents",
+        "specifications",
+        "enterprise solutions"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Living documentation in Git repository",
+      "description": "Documentation stored in GitHub repository alongside code, updated before development, and modified with every commit. Creates an evolving record of changes and decisions throughout the project lifecycle.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1495.1,
+      "t_end": 1677,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "documentation",
+        "version-control",
+        "git",
+        "change-tracking"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Decision tracking with reviewer attribution",
+      "description": "Every architectural decision is captured in Git commits with full history of who made the decision, when, and in what context. Code review gates help catch architectural issues before merge.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1700.2,
+      "t_end": 1773.4,
+      "is_demoed": false,
+      "caveats": [
+        "Requires discipline in commit messages and review processes"
+      ],
+      "tags": [
+        "decision-history",
+        "code-review",
+        "accountability",
+        "traceability"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Documentation as single source of truth for agents",
+      "description": "Specifications and documentation serve as the manifest and source of truth that drives AI agents. High quality documentation is prerequisite for agents to work well. Code is generated from documentation, not vice versa.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1804.1,
+      "t_end": 1835.7,
+      "is_demoed": false,
+      "caveats": [
+        "Documentation quality directly impacts agent effectiveness",
+        "Requires treating documentation as primary artifact"
+      ],
+      "tags": [
+        "documentation",
+        "agents",
+        "specifications",
+        "source-of-truth"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Business consultant agent",
+      "description": "First agent in the workflow that captures messy requirements and reviews Microsoft Learn to understand what exists in Business Central and what needs customization. Prevents suggesting creation of already-existing features.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1846,
+      "t_end": 1935,
+      "is_demoed": false,
+      "caveats": [
+        "Agent does not have accountability",
+        "Requires human review of generated documents",
+        "Cannot be trusted without validation"
+      ],
+      "tags": [
+        "requirements",
+        "business-consultant",
+        "agent-role",
+        "knowledge-base"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Architect agent for specs and architecture documents",
+      "description": "Second agent that converts user stories into technical specifications and creates architecture documents showing overall solution design and integration with extensions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1935,
+      "t_end": 2066,
+      "is_demoed": false,
+      "caveats": [
+        "Creates overview but not complete ground details",
+        "Requires human review",
+        "Framework is flexible and may need customization"
+      ],
+      "tags": [
+        "specifications",
+        "architecture",
+        "technical-documentation",
+        "agent-role"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Analyst agent with SWAT analysis",
+      "description": "Agent that creates analysis documents including SWAT analysis covering strengths, weaknesses, opportunities and threats of the solution. Provides customer with understanding of risks and benefits before implementation decision.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2076.1,
+      "t_end": 2144.1,
+      "is_demoed": false,
+      "caveats": [
+        "Requires human expertise to validate SWAT assessment",
+        "Important for customer go/no-go decisions"
+      ],
+      "tags": [
+        "analysis",
+        "swat",
+        "risk-assessment",
+        "customer-communication"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Developer agent with plans",
+      "description": "Agent that breaks down specs into lower-level atomic task plans with specific objects to be created and triggers needed. Works with slower models due to atomic level of detail.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2198.5,
+      "t_end": 2262,
+      "is_demoed": false,
+      "caveats": [
+        "Sequential workflow for single user story",
+        "Can work in parallel if no dependencies",
+        "Requires review before production"
+      ],
+      "tags": [
+        "development",
+        "planning",
+        "task-breakdown",
+        "atomic-tasks"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "GitHub Copilot skills for documentation",
+      "description": "Structured skills that provide output schema validation and constraints for consistent documentation generation. Prevents hallucination and ensures specific output format requirements are met.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2338.3,
+      "t_end": 2442.3,
+      "is_demoed": false,
+      "caveats": [
+        "Skills approach required for consistency",
+        "Simple prompting insufficient for reliable outputs",
+        "Skills needed for both development and documentation"
+      ],
+      "tags": [
+        "copilot-skills",
+        "consistency",
+        "output-schema",
+        "ai-control"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "GitHub Copilot skills",
+      "description": "Copilot skills provide control over AI output by allowing specification of output aspects and generation of clarifying questions, moving beyond simple prompting to structured guidance.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2359.5,
+      "t_end": 2426.4,
+      "is_demoed": false,
+      "caveats": [
+        "requires more structured setup than simple prompting"
+      ],
+      "tags": [
+        "copilot",
+        "skills",
+        "ai control"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Documentation skill",
+      "description": "A skill for covering documentation generation for development lifecycle, including user story generator, technical spec generator, architecture document generator, facility generator, change control, phase plan, and release note generator.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2442.3,
+      "t_end": 2487.2,
+      "is_demoed": true,
+      "caveats": [
+        "multiple skills can be combined into one for each document type"
+      ],
+      "tags": [
+        "documentation",
+        "development",
+        "ai-generated"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AL Development Collection extension",
+      "description": "Open source community framework that provides starting point for AL development with pre-built agents, skills, and instructions that can be customized and adapted to specific needs.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2601.1,
+      "t_end": 2673.8,
+      "is_demoed": true,
+      "caveats": [
+        "may require customization",
+        "available for both on-premises and cloud"
+      ],
+      "tags": [
+        "extension",
+        "open source",
+        "baseline"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Copilot skill collection",
+      "description": "Open source repository where developers can download free skills, upload ideas, and collaborate on documentation and development skills with community members.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2700.6,
+      "t_end": 2746.1,
+      "is_demoed": true,
+      "caveats": [
+        "community-driven maintenance"
+      ],
+      "tags": [
+        "copilot",
+        "skills",
+        "open source",
+        "community"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Biceps framework integration",
+      "description": "Development framework similar to Terraform that allows deployment of resources in organization and integration with external services like SharePoint for document delivery.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2746.1,
+      "t_end": 2795.9,
+      "is_demoed": false,
+      "caveats": [
+        "used for SharePoint integration",
+        "delivers documents in Word format instead of Markdown"
+      ],
+      "tags": [
+        "biceps",
+        "infrastructure",
+        "sharepoint",
+        "deployment"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Symlinks for agent management",
+      "description": "Tool that dynamically links files and folders from different repositories, allowing agents and instructions from shared frameworks to be accessed across multiple projects without duplication.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2795.9,
+      "t_end": 2941.8,
+      "is_demoed": true,
+      "caveats": [
+        "enables dynamic branch changes",
+        "supports multiple departmental frameworks"
+      ],
+      "tags": [
+        "symlinks",
+        "repository management",
+        "agents"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Multi-department agentic framework standardization",
+      "description": "Approach using symlinks to maintain a standard agentic framework across development teams and departments, allowing individual repositories to reference shared agents and instructions while enabling branch switching for version control.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2955,
+      "t_end": 3041.8,
+      "is_demoed": true,
+      "caveats": [
+        "requires protected main branch",
+        "central repository access needed"
+      ],
+      "tags": [
+        "agentic framework",
+        "standardization",
+        "multi-department"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "User story generation from requirements",
+      "description": "Automated generation of multiple user stories from initial customer requirements documents using Copilot skills, converting functional sessions into structured user story format.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3087.9,
+      "t_end": 3222.9,
+      "is_demoed": true,
+      "caveats": [
+        "requires structured initial requirements capture"
+      ],
+      "tags": [
+        "user stories",
+        "automation",
+        "requirements",
+        "functional"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Skills-based document formatting with templates",
+      "description": "A Python script-based skill that transforms requirements and markdown documentation into well-structured word documents using templates with placeholders, supporting multiple languages.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3297.5,
+      "t_end": 3410.4,
+      "is_demoed": true,
+      "caveats": [
+        "Requires template maintenance",
+        "Requires consistent markdown input",
+        "Placeholder system requires proper setup"
+      ],
+      "tags": [
+        "documentation",
+        "templates",
+        "markdown",
+        "automation",
+        "word"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "GitHub Actions integration for SharePoint documentation sync",
+      "description": "Automated process that syncs generated user story documents from GitHub repository to SharePoint when changes are pushed to main branch.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3526.2,
+      "t_end": 3567.1,
+      "is_demoed": true,
+      "caveats": [
+        "Requires GitHub Actions setup",
+        "Requires SharePoint access configuration"
+      ],
+      "tags": [
+        "github actions",
+        "sharepoint",
+        "automation",
+        "ci-cd"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "User story decomposition from requirements",
+      "description": "Process of breaking down large requirements documents into structured user stories with clear acceptance criteria and business value.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3201,
+      "t_end": 3262.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "requirements",
+        "user stories",
+        "documentation"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Architecture decision documentation with human-in-the-loop",
+      "description": "Specification documents where architects and consultants explicitly record design decisions including enum vs table choices, flow design patterns, and architectural patterns, with agent-assisted but human-validated content.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3577.4,
+      "t_end": 3671.5,
+      "is_demoed": true,
+      "caveats": [
+        "Requires architect ownership and validation",
+        "Human decision-making is critical for correctness"
+      ],
+      "tags": [
+        "architecture",
+        "specifications",
+        "design decisions",
+        "human-in-the-loop"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Feasibility analysis and risk assessment in specifications",
+      "description": "Detailed analysis within specification documents including hour estimations at 100 euros per person rate, SWOT analysis, and risk assessment to build customer confidence in proposed changes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3725.5,
+      "t_end": 3807.4,
+      "is_demoed": true,
+      "caveats": [
+        "Requires accurate estimation experience",
+        "Risk assessment accuracy depends on domain knowledge"
+      ],
+      "tags": [
+        "feasibility",
+        "risk assessment",
+        "estimation",
+        "swot"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Change Control Notice with approval workflow",
+      "description": "Summary document synthesizing architecture decisions, specifications, feasibility analysis, and risk assessment with customer approval section and mermaid diagrams for technical structure visualization.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3827.9,
+      "t_end": 3940.8,
+      "is_demoed": true,
+      "caveats": [
+        "Requires customer sign-off before implementation",
+        "Mermaid diagrams add complexity"
+      ],
+      "tags": [
+        "change control",
+        "approval",
+        "ccn",
+        "customer sign-off"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AI model selection strategy for task complexity",
+      "description": "Recommended practice of using strong models like Claude Opus for creating detailed specifications and task definitions, then using smaller models like Claude Haiku for implementation tasks.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3993.8,
+      "t_end": 4019.5,
+      "is_demoed": false,
+      "caveats": [
+        "Cost-benefit analysis needed for larger teams",
+        "Task specification quality critical for smaller model success"
+      ],
+      "tags": [
+        "ai models",
+        "claude opus",
+        "claude haiku",
+        "prompt engineering"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Release notes generation with AI",
+      "description": "Automated skill that grabs all context from the repository of what has been developed and committed in each phase, generating release notes with JSON data for filling documents.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 4121.5,
+      "t_end": 4227.1,
+      "is_demoed": true,
+      "caveats": [
+        "release notes are simplistic",
+        "screenshots need manual addition or external tools"
+      ],
+      "tags": [
+        "release notes",
+        "documentation",
+        "automation",
+        "github copilot"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Testing documentation in release notes",
+      "description": "Release notes include testing steps section explaining how users can test the delivered features, even for simplistic phases.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 4210.8,
+      "t_end": 4254.5,
+      "is_demoed": true,
+      "caveats": [
+        "limitations are documented as well"
+      ],
+      "tags": [
+        "testing",
+        "documentation",
+        "release notes"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Feature limitation documentation",
+      "description": "Release notes document limitations and development status, such as features not yet created or constraints from defined enums preventing certain status values.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 4238,
+      "t_end": 4254.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "documentation",
+        "limitations",
+        "release notes"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Test-driven development integration",
+      "description": "Framework encourages incorporating TDD into the development workflow where test features are created in parallel with production features.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 4302.1,
+      "t_end": 4352.6,
+      "is_demoed": false,
+      "caveats": [
+        "not integrated into the current presentation scope"
+      ],
+      "tags": [
+        "testing",
+        "tdd",
+        "development",
+        "quality assurance"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "ALDC tool",
+      "description": "A development tool recommended for AL development work.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 4438.6,
+      "t_end": 4454.3,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "development",
+        "tools",
+        "al development"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AL Copilot Skills",
+      "description": "Skills for GitHub Copilot tailored to AL development workflows.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 4438.6,
+      "t_end": 4454.3,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "copilot",
+        "skills",
+        "al development"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "OpenSpec framework",
+      "description": "A framework that can be implemented through extensions or used as a foundation to create custom frameworks.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 4464.5,
+      "t_end": 4480.9,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "framework",
+        "specifications",
+        "extensions"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "GitHub Actions for CI-CD",
+      "description": "GitHub Actions integration for synchronizing development workflows.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 4464.5,
+      "t_end": 4480.9,
+      "is_demoed": false,
+      "caveats": [
+        "synchronization takes time"
+      ],
+      "tags": [
+        "github",
+        "ci-cd",
+        "automation"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Specification-driven development approach",
+      "description": "A methodology that completes documentation and specifications before development starts, providing clear structure for features and implementation phases.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3940.8,
+      "t_end": 4607.8,
+      "is_demoed": true,
+      "caveats": [
+        "can adapt to both waterfall and agile methodologies"
+      ],
+      "tags": [
+        "specifications",
+        "development methodology",
+        "documentation"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Automated video-to-script generation for release notes",
+      "description": "Tools that can record a video and automatically generate a script to provide to customers as documentation.",
+      "status": "unclear",
+      "status_evidence_t": 4706.8,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 4706.8,
+      "t_end": 4720.4,
+      "is_demoed": false,
+      "caveats": [
+        "Tools mentioned are external and not specific to Business Central"
+      ],
+      "tags": [
+        "documentation",
+        "automation",
+        "release notes"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Screenshot automation in documentation workflows",
+      "description": "Capability to automate placement of screenshots in documents, though manual screenshot capture is still required.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 4720.4,
+      "t_end": 4738.2,
+      "is_demoed": false,
+      "caveats": [
+        "Manual screenshot capture still required",
+        "Automation only covers placement in documents"
+      ],
+      "tags": [
+        "documentation",
+        "screenshots",
+        "automation"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Jira integration with specification documents",
+      "description": "Capability to update Jira using generated specifications through MCPs or PowerShell injection.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 4783.3,
+      "t_end": 4795.1,
+      "is_demoed": false,
+      "caveats": [
+        "Requires pre-existing Jira setup",
+        "Multiple integration methods available (MCPs, PowerShell, etc.)"
+      ],
+      "tags": [
+        "jira",
+        "integration",
+        "specification",
+        "mcp"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Branch-based specification management",
+      "description": "Workflow where specifications are maintained on feature branches and tied to commits when merged to main branch for history tracking.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 4760,
+      "t_end": 4837.6,
+      "is_demoed": false,
+      "caveats": [
+        "Not presented as tight integration",
+        "Branch deletion is optional but recommended for efficiency"
+      ],
+      "tags": [
+        "git",
+        "branch management",
+        "specifications",
+        "documentation"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Proof of concept approach for validation",
+      "description": "Strategy to build and demonstrate prototypes to customers for validation before full development, with defined scope and cost agreements.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 4925.5,
+      "t_end": 4994.2,
+      "is_demoed": false,
+      "caveats": [
+        "Only recommended for new or innovative technologies",
+        "Requires upfront agreement on scope, time, and cost with customer"
+      ],
+      "tags": [
+        "proof of concept",
+        "customer communication",
+        "validation",
+        "development approach"
+      ],
+      "system": "development"
+    }
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "codeunit",
+      "t": 292.4
+    },
+    {
+      "type": "other",
+      "name": "user story generator skill",
+      "t": 2457
+    },
+    {
+      "type": "other",
+      "name": "technical spec generator skill",
+      "t": 2457
+    },
+    {
+      "type": "other",
+      "name": "MADM file",
+      "t": 3168.5
+    },
+    {
+      "type": "enum",
+      "name": "enum",
+      "t": 3627.8
+    },
+    {
+      "type": "table",
+      "name": "related table",
+      "t": 3627.8
+    },
+    {
+      "type": "enum",
+      "name": "status",
+      "t": 4238
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Fernando Espano",
+      "confidence": "high"
+    },
+    {
+      "name": "Raul",
+      "confidence": "medium"
+    },
+    {
+      "name": "Fernando",
+      "confidence": "high"
+    },
+    {
+      "name": "Aresto",
+      "confidence": "medium"
+    },
+    {
+      "name": "Jeremy",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 235.1,
+      "text": "nobody cares or likes to document me both",
+      "why_it_matters": "Establishes the core problem that developers and organizations neglect documentation as a necessary practice.",
+      "check": "exact"
+    },
+    {
+      "t": 313.6,
+      "text": "yes we are going to stop how a project start. Yeah, when we are starting our project, we have clear requirements.",
+      "why_it_matters": "Shows projects begin with clear structure but documentation discipline is needed from the start, not added later.",
+      "check": "exact"
+    },
+    {
+      "t": 413.2,
+      "text": "And sorry guys, this is not the problem. The problem is that you end up with an pineapple when you should have an apple.",
+      "why_it_matters": "Illustrates how requirements drift during development causes delivered solutions to differ significantly from original specifications.",
+      "check": "exact"
+    },
+    {
+      "t": 551.8,
+      "text": "the point is the problem is not that we are flexible to add to up to the customer's needs. The problem is we do",
+      "why_it_matters": "Clarifies that the issue is not flexibility itself but lack of structured documentation processes for change.",
+      "check": "exact"
+    },
+    {
+      "t": 591.9,
+      "text": "good solutions need good documentation not just at the beginning but throughout all the journey",
+      "why_it_matters": "Establishes the fundamental principle that documentation must be maintained continuously across the entire project lifecycle.",
+      "check": "exact"
+    },
+    {
+      "t": 787.2,
+      "text": "with this new approach we capture and approve documentation at the first step of the of the process",
+      "why_it_matters": "Describes the new docs-to-code methodology where documentation quality is established early and Copilot leverages it for code generation.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 829,
+      "text": "we are taking a proactive structure and automated way of working that will end with a great final stave of documentation that it will",
+      "why_it_matters": "Describes the core value proposition of automating documentation generation while maintaining quality and usefulness for customers.",
+      "check": "exact"
+    },
+    {
+      "t": 909.4,
+      "text": "we move to from docs to code and generating codes along the generating the proper documents along the way",
+      "why_it_matters": "Articulates the fundamental paradigm shift from traditional code-first to documentation-first development approach.",
+      "check": "exact"
+    },
+    {
+      "t": 1032.7,
+      "text": "stop following that idea of pipe coding which is not for us. We are really good professionals. We provide enterprise solutions to our customers",
+      "why_it_matters": "Clarifies that rapid unstructured coding is inappropriate for enterprise solutions, requiring spec-driven approach instead.",
+      "check": "exact"
+    },
+    {
+      "t": 1182.2,
+      "text": "the big issue in a project does not come from an error in a job queue. It comes from a mis of understanding of",
+      "why_it_matters": "Identifies the root cause of project failures as misalignment of requirements rather than technical coding errors.",
+      "check": "exact"
+    },
+    {
+      "t": 1256.6,
+      "text": "we have a specification first approach okay we need to define what we're going to build from the scratch we have to be able",
+      "why_it_matters": "Emphasizes the critical importance of clear upfront specifications as the foundation for spec-driven development.",
+      "check": "exact"
+    },
+    {
+      "t": 1337.7,
+      "text": "the quality of your code depends on the quality of your specifications",
+      "why_it_matters": "States the core principle linking specification quality directly to code quality outcomes.",
+      "check": "exact"
+    },
+    {
+      "t": 1598.6,
+      "text": "one of the problems that we have in in the projects and we saw it before is like at some point we make decisions",
+      "why_it_matters": "Identifies the core problem that the Git-based documentation approach solves - keeping documentation synchronized with code decisions",
+      "check": "exact"
+    },
+    {
+      "t": 1616.2,
+      "text": "we are keeping documentation inside the repository inside the repo on GitHub and we updating before we start developing",
+      "why_it_matters": "Explains how living artifacts maintain documentation-code synchronization throughout development lifecycle.",
+      "check": "exact"
+    },
+    {
+      "t": 1820.9,
+      "text": "In business central SD documentation is not generated is not generated from code. Code is generated from documentation.",
+      "why_it_matters": "Establishes the fundamental principle that documentation is the source of truth, with code derived from it rather than vice versa",
+      "check": "exact"
+    },
+    {
+      "t": 1949,
+      "text": "Most of the agents own artifacts but these guys these agents do not have accountability of their actions. Okay, they do not.",
+      "why_it_matters": "Critical caveat that agents are tools without accountability and humans must review all generated documents",
+      "check": "exact"
+    },
+    {
+      "t": 1969.4,
+      "text": "You cannot save time on not reviewing your documents because later on when it goes to the code, it fails in a way that",
+      "why_it_matters": "Emphasizes the risk of skipping documentation review and the importance of quality assurance",
+      "check": "exact"
+    },
+    {
+      "t": 2158.6,
+      "text": "when we provide all this information the customer the customer have enough information for him to decide if this is a go or no",
+      "why_it_matters": "Describes how comprehensive documentation enables informed customer decision-making before development begins",
+      "check": "exact"
+    },
+    {
+      "t": 2223.5,
+      "text": "one agent is just working at a time correct this is a sequential model yeah it's like a like some kind of seleation of",
+      "why_it_matters": "Clarifies the workflow model uses sequential agent execution with separation of duties",
+      "check": "exact"
+    },
+    {
+      "t": 2359.5,
+      "text": "single one is consistency. We do not have consistency by design. They just hallucinate when they feel like okay",
+      "why_it_matters": "Identifies the core problem with AI-generated content - lack of consistency and unpredictable behavior - which skills are designed to solve.",
+      "check": "exact"
+    },
+    {
+      "t": 2376.1,
+      "text": "I move from just prompting prompting and expecting anything to appear there to have a degree of control I I did not have before",
+      "why_it_matters": "Explains the key benefit of Copilot skills - providing control and predictability versus unstructured prompting.",
+      "check": "exact"
+    },
+    {
+      "t": 2426.4,
+      "text": "skills from my perspective is the next step for implementing good solutions",
+      "why_it_matters": "Positions Copilot skills as essential evolution beyond simple prompting for reliable AI-generated documentation",
+      "check": "snapped"
+    },
+    {
+      "t": 2442.3,
+      "text": "we support all of our development soft with skills and we also do support all of documentation life cycle with the skills",
+      "why_it_matters": "Establishes that skills are used comprehensively across both development and documentation in the presented approach.",
+      "check": "exact"
+    },
+    {
+      "t": 2487.2,
+      "text": "This is just for just development. This is not just a documentation skill anyways",
+      "why_it_matters": "Clarifies that the portfolio of skills extends beyond documentation to cover multiple aspects of development.",
+      "check": "exact"
+    },
+    {
+      "t": 2627,
+      "text": "this is a community has been created uh it's open source first in source and created by a colleague of us",
+      "why_it_matters": "Indicates the AL Development Collection is an open source community project, establishing its governance model.",
+      "check": "exact"
+    },
+    {
+      "t": 2734.2,
+      "text": "you have a place where you download free skills that have sense for what you're doing is that you have a place where you",
+      "why_it_matters": "Describes the Copilot skill collection as a collaborative platform with bidirectional community contribution.",
+      "check": "exact"
+    },
+    {
+      "t": 2966.5,
+      "text": "So in this scenario you can establish like a standard of the agentic framework that you're going to use in your development team and",
+      "why_it_matters": "Shows how symlinks enable standardization of agentic frameworks across teams for consistency and maintainability.",
+      "check": "exact"
+    },
+    {
+      "t": 3188.5,
+      "text": "142 lines is nothing for what we're talking about.",
+      "why_it_matters": "Establishes that even substantial requirement documents are manageable for documentation automation approaches.",
+      "check": "exact"
+    },
+    {
+      "t": 3201,
+      "text": "we just move from that initial requirement we run the functional consultant and we end up with something that it was like this",
+      "why_it_matters": "Demonstrates the practical outcome of using skills to convert raw requirements into structured user stories.",
+      "check": "exact"
+    },
+    {
+      "t": 3285.7,
+      "text": "I mean, this is what the consultant is going to provide to you. Do you think they are going to read it?",
+      "why_it_matters": "Identifies the core problem that documentation templates and formatting solve - customers won't engage with unformatted technical documentation.",
+      "check": "exact"
+    },
+    {
+      "t": 3627.8,
+      "text": "You own it. I if I want to create an enum where is supposed to be a related table, I take that decision.",
+      "why_it_matters": "Establishes human accountability in architecture decisions despite AI-assisted documentation generation.",
+      "check": "exact"
+    },
+    {
+      "t": 3701,
+      "text": "is so important that if you take the wrong decisions later on it will take you a crazy amount of time to roll back",
+      "why_it_matters": "Justifies the need for thorough specification review before implementation begins.",
+      "check": "exact"
+    },
+    {
+      "t": 3767.5,
+      "text": "A short analysis is providing the customer much more confidence uh than it normally does when you say hey this amount of hours this",
+      "why_it_matters": "Demonstrates how comprehensive feasibility analysis in specifications builds customer trust.",
+      "check": "exact"
+    },
+    {
+      "t": 3807.4,
+      "text": "whatever you are doing even when you all are really good professional have risks.",
+      "why_it_matters": "Underscores importance of risk assessment documentation even for high-quality professional work.",
+      "check": "exact"
+    },
+    {
+      "t": 3940.8,
+      "text": "Once all of this has happened, we give it to the customer, they approve it, then and only then and please only then you",
+      "why_it_matters": "Establishes the critical approval gate before development begins, making customer sign-off mandatory.",
+      "check": "exact"
+    },
+    {
+      "t": 4005.3,
+      "text": "you use strong models like oppus for creating a strong skills and then you run it with a haiku or with a set.",
+      "why_it_matters": "Articulates cost-effective AI model selection strategy for different phases of documentation and development work.",
+      "check": "exact"
+    },
+    {
+      "t": 4019.5,
+      "text": "So here's the same suggestions strong tasks. My suggestion is uh architect oppus uh consultant probably oppus definitely and when you move to analyst",
+      "why_it_matters": "Recommends using stronger AI models (Opus) for complex tasks like architecture and analysis, with cost optimization for developers.",
+      "check": "exact"
+    },
+    {
+      "t": 4076.1,
+      "text": "And why does it look so bad? You will ask me. Well, wrong instructions bring you wrong formats.",
+      "why_it_matters": "Demonstrates that AI output quality depends directly on instruction clarity and precision.",
+      "check": "exact"
+    },
+    {
+      "t": 4131.6,
+      "text": "So same here skill for the release note grabs all the context in your repo has been developed in this phase and you have",
+      "why_it_matters": "Describes the automated release notes generation capability that contextualizes all committed changes from development phases.",
+      "check": "exact"
+    },
+    {
+      "t": 4254.5,
+      "text": "So how many of you provide release notes on your development for your customers?",
+      "why_it_matters": "Highlights a best practice often overlooked in development workflows, establishing release notes as standard practice.",
+      "check": "exact"
+    },
+    {
+      "t": 4585.4,
+      "text": "Well um that's kind of a good questions because um I do not think spectator development fully fits any of that two categories.",
+      "why_it_matters": "Clarifies that specification-driven development is a flexible methodology not bound to waterfall or agile exclusively.",
+      "check": "exact"
+    },
+    {
+      "t": 4693.8,
+      "text": "Um as I said this firmware is not perfect and I can say it many times. Uh you can add it manually.",
+      "why_it_matters": "Acknowledges framework limitations and positions it as a foundation for customization rather than a complete solution.",
+      "check": "exact"
+    },
+    {
+      "t": 4706.8,
+      "text": "there is also tools that can uh you can record a video and it will generate a script and provide to your customer if",
+      "why_it_matters": "Shows external tooling exists for automating script generation from video recordings for customer documentation.",
+      "check": "exact"
+    },
+    {
+      "t": 4783.3,
+      "text": "You can update Jira using that specs. You indeed can do it if you are already working with Jira. You can do it also",
+      "why_it_matters": "Demonstrates integration capability between specification documents and Jira issue tracking through multiple methods.",
+      "check": "exact"
+    },
+    {
+      "t": 4807.8,
+      "text": "I don't really mind you probably for efficiency would want to delete it because at the end the history still lives on the main",
+      "why_it_matters": "Clarifies Git workflow decision that branch deletion is optional as commit history is preserved on main.",
+      "check": "exact"
+    },
+    {
+      "t": 4825.6,
+      "text": "That's the one that you really want to track the decisions that you made are approved when I push to main",
+      "why_it_matters": "Emphasizes that main branch serves as the source of truth for tracking approved decisions and specifications.",
+      "check": "exact"
+    },
+    {
+      "t": 4902.2,
+      "text": "we are finding that documents are are not a very good vehicle to present something to the customer",
+      "why_it_matters": "Raises concern that pure documentation may not effectively communicate requirements to customers.",
+      "check": "exact"
+    },
+    {
+      "t": 4935.9,
+      "text": "proof of concepts are quite useful when you are talking about new technologies",
+      "why_it_matters": "Identifies when proof of concepts add value - specifically for innovative or new technology implementations.",
+      "check": "exact"
+    },
+    {
+      "t": 4954.1,
+      "text": "when you are developing on on busy unless you are doing something crazy innovative uh I could suggest you to to stick to the",
+      "why_it_matters": "Recommends against premature prototyping for standard development work to preserve resources and token usage.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 173.7,
+      "kind": "preview",
+      "text": "a live demo no video. So let's see if everything works well."
+    },
+    {
+      "t": 1869.4,
+      "kind": "other",
+      "text": "this is a framework we have been developing is good for us. Doesn't need to be hood for you. You can adapt it to your organization."
+    },
+    {
+      "t": 2017.4,
+      "kind": "other",
+      "text": "we are providing a framework that we are working. It fit all operations doesn't need to fit yours. You can rethink this."
+    },
+    {
+      "t": 3924.4,
+      "kind": "other",
+      "text": "all of these I'm showing you is not perfect you can adapt it to your organizations and provide more value to your customers"
+    },
+    {
+      "t": 4109.2,
+      "kind": "other",
+      "text": "It works. Is it maintainable? uh perhaps not that much but it's something you need to try and you need to do it in a control way before you moving into your day by day use"
+    },
+    {
+      "t": 4268.1,
+      "kind": "other",
+      "text": "making it this way instead of putting your developer to just gr it down or having it without the skill ..."
+    },
+    {
+      "t": 4693.8,
+      "kind": "other",
+      "text": "this firmware is not perfect and I can say it many times. Uh you can add it manually"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 49,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 39
+  },
+  "windows": 7,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    }
+  ]
+}

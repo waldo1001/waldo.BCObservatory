@@ -1,0 +1,542 @@
+{
+  "video_id": "Vo5DgXnKiPo",
+  "item_id": "video/yt-mibuso/Vo5DgXnKiPo",
+  "title": "Microsoft presents: Large scale development with AL-Go",
+  "duration_s": 1713,
+  "systems": [
+    "platform",
+    "development"
+  ],
+  "topics": [
+    "al-go",
+    "devops",
+    "large-scale development",
+    "custom templates",
+    "workflow management",
+    "repository management",
+    "custom jobs",
+    "broken window theory",
+    "pipeline consistency",
+    "telemetry",
+    "application insights",
+    "github copilot cli"
+  ],
+  "chapters": [
+    {
+      "title": "Scale challenges and repository management",
+      "t_start": 0,
+      "t_end": 71.9
+    },
+    {
+      "title": "The broken window theory in software",
+      "t_start": 71.9,
+      "t_end": 163.1
+    },
+    {
+      "title": "Broken windows at scale and telemetry data",
+      "t_start": 163.1,
+      "t_end": 283.5
+    },
+    {
+      "title": "Managing consistency through settings",
+      "t_start": 283.5,
+      "t_end": 442
+    },
+    {
+      "title": "Custom jobs and AL-Go workflow extensions",
+      "t_start": 442,
+      "t_end": 567.4
+    },
+    {
+      "title": "Custom templates for repository management",
+      "t_start": 567.4,
+      "t_end": 895.2
+    },
+    {
+      "title": "Telemetry with Application Insights",
+      "t_start": 895.2,
+      "t_end": 1096.6
+    },
+    {
+      "title": "AL-Go telemetry dashboard in Azure Data Explorer",
+      "t_start": 1096.6,
+      "t_end": 1181.2
+    },
+    {
+      "title": "GitHub Copilot CLI and custom dashboards",
+      "t_start": 1181.2,
+      "t_end": 1438.5
+    },
+    {
+      "title": "Q&A: templates, settings, and configuration",
+      "t_start": 1438.5,
+      "t_end": 1604.3
+    },
+    {
+      "title": "Q&A: template variations and hierarchies",
+      "t_start": 1604.3,
+      "t_end": 1713
+    }
+  ],
+  "features": [
+    {
+      "name": "AL-Go custom jobs",
+      "description": "AL-Go now offers a way to extend workflows with custom jobs that can be added to YAML files without being overwritten during system updates. Users can add custom job definitions to their workflow files to extend AL-Go's base behavior.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 442,
+      "t_end": 567.4,
+      "is_demoed": true,
+      "caveats": [
+        "Users might depend on jobs that no longer exist in future versions",
+        "Users might pick names for custom jobs that AL-Go picks in the future"
+      ],
+      "tags": [
+        "custom jobs",
+        "workflow extension",
+        "yaml"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "AL-Go custom templates",
+      "description": "A new capability to manage custom AL-Go templates across multiple repositories from a central repository. Organizations can point multiple end repositories to a custom template repository and propagate common jobs, scripts, and settings across all repositories using a single update operation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 567.4,
+      "t_end": 895.2,
+      "is_demoed": true,
+      "caveats": [
+        "Custom template repositories should typically not have AL-Go code in them"
+      ],
+      "tags": [
+        "custom templates",
+        "repository management",
+        "settings propagation"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "AL-Go organizational settings",
+      "description": "AL-Go supports managing settings at multiple levels including user, project, repository, and organizational levels. Moving settings to organizational level helps standardize configuration across repositories.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 343.9,
+      "t_end": 442,
+      "is_demoed": false,
+      "caveats": [
+        "Many configurable settings can make it hard to manage consistency"
+      ],
+      "tags": [
+        "settings",
+        "configuration",
+        "standardization"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Template file propagation",
+      "description": "Automatic propagation of settings from custom templates to end repositories when running update ecosystem files, preventing duplicate management across multiple repositories.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 836.4,
+      "t_end": 872,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "templates",
+        "automation",
+        "file management"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "AL-Go telemetry module",
+      "description": "AL-Go ships with telemetry module that emits data to Application Insights, tracking workflow outcomes, individual action durations, error messages, and test results.",
+      "status": "ga",
+      "status_evidence_t": 950.2,
+      "status_evidence_quote": "AL Go ships with a telemetry module as well, so you can hook into that and and emit telemetry to application insights",
+      "status_evidence_verified": true,
+      "t_start": 950.2,
+      "t_end": 1036.8,
+      "is_demoed": true,
+      "caveats": [
+        "Requires Application Insights setup",
+        "Requires partner telemetry connection string configuration"
+      ],
+      "tags": [
+        "telemetry",
+        "application insights",
+        "monitoring"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Partner telemetry connection string setting",
+      "description": "AL-Go configuration setting for connecting to Application Insights, which can be set in templates and propagated to custom template repositories.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 978.8,
+      "t_end": 991.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "telemetry",
+        "settings",
+        "application insights"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "AL-Go Azure Data Explorer dashboard",
+      "description": "Starter dashboard template using AL-Go telemetry data, providing views into workflow status, pipeline performance, error messages, runner types, and AL-Go version maintenance across multiple repositories.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1060.4,
+      "t_end": 1181.2,
+      "is_demoed": true,
+      "caveats": [
+        "Starter point only, not comprehensive",
+        "Requires 5 minutes setup time",
+        "Requires manual import of JSON configuration file"
+      ],
+      "tags": [
+        "telemetry",
+        "dashboard",
+        "azure data explorer",
+        "monitoring"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "GitHub Copilot CLI desktop app",
+      "description": "Desktop application that organizes GitHub Copilot CLI sessions and repositories, providing centralized management and ability to build custom UIs for AL-Go operations and dashboards.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1223.4,
+      "t_end": 1369.7,
+      "is_demoed": true,
+      "caveats": [
+        "Still runs GitHub Copilot CLI behind the scenes",
+        "Custom UI building requires prompts"
+      ],
+      "tags": [
+        "github copilot",
+        "ui",
+        "automation",
+        "repository management"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Custom Copilot canvas UIs",
+      "description": "Ability to create custom user interfaces within GitHub Copilot app using prompts, enabling personal AL-Go control centers and automated task management for PR reviews and pipeline failures.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1283.6,
+      "t_end": 1430.8,
+      "is_demoed": true,
+      "caveats": [
+        "Requires GitHub Copilot integration",
+        "Customization needed per user preference"
+      ],
+      "tags": [
+        "github copilot",
+        "ui",
+        "automation",
+        "custom dashboards"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Agent-assisted CI/CD investigation",
+      "description": "Ability to delegate CI/CD failure investigation to an agent within Copilot app, starting a new session to interactively investigate why workflows are failing.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1335.9,
+      "t_end": 1369.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "github copilot",
+        "agent",
+        "cicd",
+        "investigation"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Versioning strategy configuration via GitHub organization variables",
+      "description": "AL-Go supports assigning versioning strategy through GitHub organization variables as an alternative to template configuration, allowing global configuration across repositories.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1565.8,
+      "t_end": 1604.3,
+      "is_demoed": false,
+      "caveats": [
+        "Variable name not recalled during session",
+        "Templates are preferred for version control"
+      ],
+      "tags": [
+        "configuration",
+        "versioning",
+        "github",
+        "variables"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Template repositories for AL-Go configuration",
+      "description": "AL-Go uses template repositories that provide version-controlled configuration and can be assigned to GitHub organizations for consistent project setup.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1578.1,
+      "t_end": 1604.3,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "templates",
+        "version control",
+        "al-go"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "AppSource and beer tenant extension templates",
+      "description": "AL-Go provides separate templates for AppSource extensions and beer tenant extensions, with minor functional differences between them and approximately 95% shared content.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1631.2,
+      "t_end": 1653.5,
+      "is_demoed": false,
+      "caveats": [
+        "Historical reasons for separate templates",
+        "Minor feature divergence"
+      ],
+      "tags": [
+        "templates",
+        "appsource",
+        "extensions"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Template hierarchy and nested template composition",
+      "description": "Question raised about support for multiple levels of templates to allow core template changes to cascade to derived templates without individual modifications.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1673.6,
+      "t_end": 1703,
+      "is_demoed": false,
+      "caveats": [
+        "Not initially designed for this use case",
+        "Uncertain if it works with current architecture"
+      ],
+      "tags": [
+        "templates",
+        "hierarchy",
+        "repository structure"
+      ],
+      "system": "platform"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Code Cop",
+      "t": 386.8
+    },
+    {
+      "type": "other",
+      "name": "copilot instructions",
+      "t": 685.7
+    },
+    {
+      "type": "other",
+      "name": "algo settings file",
+      "t": 664
+    },
+    {
+      "type": "other",
+      "name": "AL-Go template repo settings do not edit.json",
+      "t": 836.4
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Yonas",
+      "confidence": "medium"
+    },
+    {
+      "name": "Alex",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 21.9,
+      "text": "talking about large-scale development with Elgo and like internally we have about 100 different repositories",
+      "why_it_matters": "Establishes the scale at which Microsoft internally uses AL-Go, providing context for the challenges being discussed.",
+      "check": "exact"
+    },
+    {
+      "t": 34.7,
+      "text": "The biggest one has about 100 a bit of over 100 PRs per day.",
+      "why_it_matters": "Demonstrates the high volume of changes in large-scale development, quantifying the CI/CD infrastructure challenge.",
+      "check": "exact"
+    },
+    {
+      "t": 130.4,
+      "text": "if you left a building with a broken window unrepaired over time, people would assume no one cared, no one would look after it,",
+      "why_it_matters": "Explains the broken window theory that forms the foundation for understanding pipeline and code quality decay at scale.",
+      "check": "exact"
+    },
+    {
+      "t": 163.1,
+      "text": "if small issues are left unfixed in software over time, the team implicitly kind of accepts a lower standard on the code",
+      "why_it_matters": "Applies the broken window theory to software development, explaining how quality degrades in large organizations.",
+      "check": "exact"
+    },
+    {
+      "t": 244.1,
+      "text": "about 12% of you guys of the organizations out there, they have more than 50 repositories, Elgo repositories.",
+      "why_it_matters": "Provides telemetry data on AL-Go adoption at large scales, quantifying the number of organizations affected.",
+      "check": "exact"
+    },
+    {
+      "t": 474,
+      "text": "Okay, so Argo for GitHub now offers a way for you to extend the workflows that we provide with your own custom jobs.",
+      "why_it_matters": "Announces a new capability for extending AL-Go workflows, addressing the need for customization at scale.",
+      "check": "exact"
+    },
+    {
+      "t": 765.6,
+      "text": "next time you ran up the AL Go system files, we would just wipe it because we consider these files like these are files",
+      "why_it_matters": "Explains the shift in AL-Go's approach to allow user-managed customizations that persist across updates.",
+      "check": "exact"
+    },
+    {
+      "t": 824.8,
+      "text": "now you can also point it to your own repository. So, in this case, in my end repo, I'm going to point it to",
+      "why_it_matters": "Shows that AL-Go has moved beyond just PT and AppSource templates, allowing custom repository management",
+      "check": "exact"
+    },
+    {
+      "t": 849.8,
+      "text": "that just propagates automatically when you run update ecosystem files. So, if you were to change something, it also pops up in here next",
+      "why_it_matters": "Demonstrates automatic synchronization of template changes across multiple repositories, solving the multi-repo management challenge",
+      "check": "exact"
+    },
+    {
+      "t": 950.2,
+      "text": "AL Go ships with a telemetry module as well, so you can hook into that and and emit telemetry to application insights",
+      "why_it_matters": "Core feature for monitoring multiple AL-Go repositories at scale through Application Insights integration",
+      "check": "exact"
+    },
+    {
+      "t": 1145.6,
+      "text": "Well, you know, you can also see that in telemetry. They are indeed taking very long. Um so, you can see that here. You",
+      "why_it_matters": "Shows practical use of telemetry for performance tracking and regression detection across multiple repositories",
+      "check": "exact"
+    },
+    {
+      "t": 1369.7,
+      "text": "So this kind of takes you away from this very repo-centric problem in in GitHub and gives you a tool ...",
+      "why_it_matters": "Explains how GitHub Copilot app solves the cross-repository visibility problem that telemetry alone addresses",
+      "check": "exact"
+    },
+    {
+      "t": 1475.4,
+      "text": "Yeah, so we're we're kind of hoping that GitHub will solve this problem for us, right? This is really a GitHub problem that it's",
+      "why_it_matters": "Indicates the presenters see GitHub repo-centricity as root cause and expect future GitHub features to address it",
+      "check": "exact"
+    },
+    {
+      "t": 1578.1,
+      "text": "if you have the template, I think from my point of view, templates are better because they're version controlled, right?",
+      "why_it_matters": "Shows best practice recommendation: version control over environment variables for AL-Go settings management",
+      "check": "exact"
+    },
+    {
+      "t": 1604.3,
+      "text": "The transparency if you put it in source control is just much better.",
+      "why_it_matters": "Reinforces the preference for template-based configuration due to improved transparency and auditability",
+      "check": "exact"
+    },
+    {
+      "t": 1653.5,
+      "text": "There's a bit of functionality in the AppSource one that isn't in the PT one. But yeah, I don't know. Well, I mean, it's",
+      "why_it_matters": "Quantifies the difference between AppSource and beer tenant templates, indicating they are largely equivalent",
+      "check": "exact"
+    },
+    {
+      "t": 1691.7,
+      "text": "I don't think we built it initially for that. But I actually think we got the question once.",
+      "why_it_matters": "Indicates template hierarchy feature was not part of the original design, though requested by users",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 1181.2,
+      "kind": "other",
+      "text": "from time to time we also have to deprecate some settings in Ailgo and when we do that we'll emit telemetry uh, as warnings"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 17,
+    "quotes_dropped": 0,
+    "evidence_verified": 1,
+    "evidence_unverified": 13
+  },
+  "windows": 3,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    }
+  ]
+}

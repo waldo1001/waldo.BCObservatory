@@ -1,0 +1,242 @@
+{
+  "video_id": "cV_5MGGdGtQ",
+  "item_id": "video/yt-hougaard/cV_5MGGdGtQ",
+  "title": "Make your KPIs look sharp and dazzling in Business Central (Advanced Spreadsheets and Reporting)",
+  "duration_s": 386,
+  "systems": [
+    "reporting",
+    "development"
+  ],
+  "topics": [
+    "kpi cards",
+    "spreadsheet reporting",
+    "data visualization",
+    "dashboard design",
+    "compare values",
+    "trend display",
+    "status indicators",
+    "warning levels"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to KPI cards",
+      "t_start": 0,
+      "t_end": 20.6
+    },
+    {
+      "title": "Creating a basic KPI card",
+      "t_start": 20.6,
+      "t_end": 52.5
+    },
+    {
+      "title": "KPI card formatting and auto type",
+      "t_start": 52.5,
+      "t_end": 116.5
+    },
+    {
+      "title": "Comparing values and setting labels",
+      "t_start": 116.5,
+      "t_end": 188.6
+    },
+    {
+      "title": "Target visualization and trend display",
+      "t_start": 188.6,
+      "t_end": 249.6
+    },
+    {
+      "title": "Status indicators and warning levels",
+      "t_start": 249.6,
+      "t_end": 360.3
+    },
+    {
+      "title": "Summary and call to action",
+      "t_start": 360.3,
+      "t_end": 386
+    }
+  ],
+  "features": [
+    {
+      "name": "KPI card",
+      "description": "A visual formatting feature for displaying key performance indicators in spreadsheets with various display options including values, comparisons, trends, targets, and status indicators.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 42.4,
+      "t_end": 360.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "kpi",
+        "visualization",
+        "formatting",
+        "dashboard"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "KPI card auto type",
+      "description": "A card type setting that automatically formats KPI cards based on defined settings to optimize presentation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 96.9,
+      "t_end": 116.5,
+      "is_demoed": true,
+      "caveats": [
+        "behavior depends on configured settings"
+      ],
+      "tags": [
+        "auto-formatting",
+        "card type"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "KPI compare value",
+      "description": "A feature allowing comparison of a main value against another value to show relative performance, with indication of whether performance is above or below the comparison target.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 116.5,
+      "t_end": 188.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "comparison",
+        "relative performance"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "KPI target bar visualization",
+      "description": "A visual representation showing a target value as a bar or donut chart, displaying progress toward the target as a percentage.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 188.6,
+      "t_end": 214.9,
+      "is_demoed": true,
+      "caveats": [
+        "can be displayed as bar or donut chart"
+      ],
+      "tags": [
+        "target",
+        "progress visualization",
+        "donut chart"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "KPI trend display",
+      "description": "A feature for showing trend data in KPI cards as a visual representation of movement over time, without displaying a full chart.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 214.9,
+      "t_end": 284.4,
+      "is_demoed": true,
+      "caveats": [
+        "displays movement but not as a full chart with numbers"
+      ],
+      "tags": [
+        "trend",
+        "movement visualization"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "KPI status with warning levels",
+      "description": "A status indicator feature that shows KPI status based on warning and critical thresholds, alerting users when values fall below specified limits.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 284.4,
+      "t_end": 360.3,
+      "is_demoed": true,
+      "caveats": [
+        "warning and critical levels can be combined",
+        "direction can be changed"
+      ],
+      "tags": [
+        "status",
+        "warning",
+        "critical",
+        "thresholds"
+      ],
+      "system": "reporting"
+    }
+  ],
+  "objects": [],
+  "presenters": [
+    {
+      "name": "Eric",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 0.6,
+      "text": "How to make your KPIs look sharp and dazzling with the advanced spreadsheet and reporting app for Business Central.",
+      "why_it_matters": "Sets the topic and identifies the product - advanced spreadsheet and reporting app for Business Central.",
+      "check": "exact"
+    },
+    {
+      "t": 96.9,
+      "text": "So right now we have just set it to card type auto so it will try to depending on what settings you have the",
+      "why_it_matters": "Explains the auto formatting capability of KPI cards that adjusts display based on configuration.",
+      "check": "exact"
+    },
+    {
+      "t": 127.4,
+      "text": "So, if we go back into the KPI card and then we select the um the compare value.",
+      "why_it_matters": "Demonstrates how to configure comparison functionality in KPI cards.",
+      "check": "exact"
+    },
+    {
+      "t": 201.4,
+      "text": "Uh so, now we get a target bar saying hey, the target is 1,200. We are 83% there.",
+      "why_it_matters": "Shows concrete example of target visualization displaying progress as a percentage.",
+      "check": "exact"
+    },
+    {
+      "t": 295.8,
+      "text": "So, the last one is a status. Um And right now we're on track. Because we have not really specified what we are uh",
+      "why_it_matters": "Explains status indicators depend on defined thresholds or comparison points.",
+      "check": "exact"
+    },
+    {
+      "t": 360.3,
+      "text": "If you want to build a dashboard of nice KPIs, you can use this to format them super nice and have all this extra",
+      "why_it_matters": "Describes the intended use case - building dashboards with formatted KPIs.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 370.8,
+      "kind": "other",
+      "text": "If you want to try it out yourself, follow the links below and you can try the advanced advanced spreadsheet ..."
+    }
+  ],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 6
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    }
+  ]
+}

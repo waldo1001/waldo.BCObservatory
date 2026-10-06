@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-nav",
   "published_at": "2026-06-19T12:45:51.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "1d504bc44da560ef908596e1138ddd3059224f5f",
       "words": 958,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T17:50:59.023Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005993
+    },
+    "summarized": {
+      "at": "2026-10-06T17:50:59.071Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T17:50:59.073Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T17:50:59.074Z",
+      "page": false
     }
   },
   "input_hash": "1d504bc44da560ef908596e1138ddd3059224f5f",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "1d504bc44da560ef908596e1138ddd3059224f5f"
+  "output_hash": "3e08478048723d4e14074572ce53e9193e3be4f103e4bcccc0ca31bea13a3cc1"
 }

@@ -1,0 +1,27 @@
+{
+  "video_id": "1x3QyBX3swg",
+  "item_id": "video/yt-mibuso/1x3QyBX3swg",
+  "summary": "Business Central index management: a page for enabling and disabling table indexes, per-company control, index usage, size and fragmentation statistics, and how the DAMS maintenance service rebuilds indexes and creates tuning-advisor indexes. Also covers extension fields merging into base tables in version 29 (early access preview).",
+  "overview": "The session from BC TechDays shows a new index management page where indexes on a table can be viewed, disabled immediately and enabled on demand. In SaaS, enabling happens overnight in local time; in Docker and on-premises it is immediate. Primary keys, system ID, SIFT and unique indexes cannot be disabled. Indexes can be defined with enable false in AL and enabled per company for company tables, but the method to enable them in setup code is currently on-premises scope only.\n\nThe talk also covers usage statistics (seek, scan, lookup, update counts since the last database restart), per-index storage, fragmentation, and the missing indexes advisor. It explains DAMS, which rebuilds indexes above about 25% fragmentation, updates statistics and runs the Database Tuning Advisor, and notes about 40,000 databases have DAMS-created indexes. It closes with extension fields merging into base tables in version 29 (early access preview, no shipping date promised), a version 28 record length warning, open questions on maintenance windows, and plans for SIFT management and wider API scope.",
+  "key_points": [
+    "Disabled indexes take effect immediately; enabling is done overnight in SaaS (local time) but immediately in Docker and on-premises.",
+    "Primary keys, system ID, SIFT and unique indexes cannot be disabled. Non-AL-defined indexes that are disabled are deleted and cannot be re-enabled, though SQL Server-generated ones can be recreated.",
+    "Usage statistics (seek, scan, lookup, update, last used) reset on database restart, so they are more meaningful after long uptime. They only cover existing indexes; the missing indexes advisor shows suggestions.",
+    "Per-company enabling applies to company tables only. Use cases are just-in-time enabling for yearly closing and disabling indexes on backup companies to cut storage and write cost.",
+    "DAMS rebuilds large indexes with fragmentation above about 25% nightly at low priority, updates statistics, and runs the Database Tuning Advisor. Backup companies can slow the nightly fragmentation checks.",
+    "Version 29 early access preview merges extension fields into base tables, allowing keys on extension fields and cutting inserts from two SQL inserts to one. Upgrade may take longer and no shipping date is promised.",
+    "A version 28 change will warn when a database is close to the SQL Server record max length limit."
+  ],
+  "audience": [
+    "administrator",
+    "developer",
+    "partner"
+  ],
+  "extraction_hash": "e04ffa09a97b5ae4fb565ce728869aedf341165a837236edf269b7ffa5a36da3",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0331124
+  }
+}

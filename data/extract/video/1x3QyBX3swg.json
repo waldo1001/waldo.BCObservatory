@@ -1,0 +1,908 @@
+{
+  "video_id": "1x3QyBX3swg",
+  "item_id": "video/yt-mibuso/1x3QyBX3swg",
+  "title": "Microsoft presents: Index management",
+  "duration_s": 2434,
+  "systems": [
+    "platform",
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "index management",
+    "sql server indexes",
+    "storage optimization",
+    "index usage statistics",
+    "index maintenance",
+    "telemetry",
+    "performance tuning",
+    "fragmentation",
+    "missing indexes",
+    "disabled indexes",
+    "per-company indexes",
+    "just-in-time enabling"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to Index Management",
+      "t_start": 0,
+      "t_end": 151.9
+    },
+    {
+      "title": "Finding and Discovering Index Management",
+      "t_start": 151.9,
+      "t_end": 232.9
+    },
+    {
+      "title": "Demo: Enabling and Disabling Indexes",
+      "t_start": 232.9,
+      "t_end": 319
+    },
+    {
+      "title": "Index Management Rules and Telemetry",
+      "t_start": 319,
+      "t_end": 404.2
+    },
+    {
+      "title": "Benefits and Costs of Indexes",
+      "t_start": 404.2,
+      "t_end": 612.4
+    },
+    {
+      "title": "When to Disable Indexes and Storage Impact",
+      "t_start": 612.4,
+      "t_end": 756.8
+    },
+    {
+      "title": "Index Usage Statistics and Fragmentation Analysis",
+      "t_start": 756.8,
+      "t_end": 1003.1
+    },
+    {
+      "title": "Missing Indexes and Per-Company Index Enabling",
+      "t_start": 1003.1,
+      "t_end": 1218.6
+    },
+    {
+      "title": "Just-in-Time Enabling, Archived Data, and Auto-Created Indexes",
+      "t_start": 1218.6,
+      "t_end": 1496.8
+    },
+    {
+      "title": "DAMS Maintenance and User Feedback",
+      "t_start": 1496.8,
+      "t_end": 1748.8
+    },
+    {
+      "title": "Version 29 Preview: Extension Fields Merging",
+      "t_start": 1748.8,
+      "t_end": 1933
+    },
+    {
+      "title": "Early Access and Index Management UI",
+      "t_start": 1933,
+      "t_end": 2097.8
+    },
+    {
+      "title": "Maintenance Windows, SIFT Indexes, and Include Columns",
+      "t_start": 2097.8,
+      "t_end": 2334.6
+    },
+    {
+      "title": "On-Premises Scope and Future API Expansion",
+      "t_start": 2334.6,
+      "t_end": 2434
+    }
+  ],
+  "features": [
+    {
+      "name": "Index Management Page",
+      "description": "A new hidden page that allows users to view and manage indexes on tables, showing index key names and detailed information about each index.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 124.4,
+      "t_end": 186.6,
+      "is_demoed": true,
+      "caveats": [
+        "Page location is not well discoverable",
+        "Non-AL defined indexes shown but naming may change"
+      ],
+      "tags": [
+        "index management",
+        "hidden page",
+        "discovery"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Enable/Disable Indexes",
+      "description": "Users can disable indexes immediately and enable them on-demand. In SaaS environments, enabling happens overnight in local time. In Docker and on-premises, changes happen immediately.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 256.2,
+      "t_end": 329.3,
+      "is_demoed": true,
+      "caveats": [
+        "Non-AL defined indexes cannot be re-enabled once removed",
+        "Primary keys, system ID, sift, and unique indexes cannot be disabled",
+        "Per-company enabling for company tables only"
+      ],
+      "tags": [
+        "index control",
+        "performance",
+        "maintenance",
+        "requested feature"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Per-Company Index Management",
+      "description": "For company tables, indexes can now be managed on a per-company basis, allowing selective enable/disable at the company level. Indexes can be defined with enable false in AL and selectively enabled at runtime for specific companies.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 353.9,
+      "t_end": 1205.8,
+      "is_demoed": true,
+      "caveats": [
+        "Method to enable indices as part of setup code is currently on-prem scope only",
+        "Cloud scope availability is being considered for future release"
+      ],
+      "tags": [
+        "company tables",
+        "per-company configuration",
+        "per-company",
+        "configuration",
+        "runtime-enabling",
+        "item-tracking"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Index Usage Statistics",
+      "description": "New visibility into index usage through seek, scan, lookup, and update counts that show how often SQL Server uses each index. Statistics are cumulative since the last database restart and include timestamps showing when SQL Server last used each index.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 774.4,
+      "t_end": 897.5,
+      "is_demoed": true,
+      "caveats": [
+        "Statistics reset on database restart",
+        "Placeholder date formatting in current version",
+        "Requires sufficient time window to be meaningful",
+        "Usage stats reflect back to the last time the database was restarted",
+        "Data becomes more useful after extended periods since restart"
+      ],
+      "tags": [
+        "usage statistics",
+        "telemetry",
+        "performance analysis",
+        "index-usage",
+        "monitoring"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Index Storage Information on Table Information Page",
+      "description": "The table information page now shows aggregate size of all indexes alongside data size, helping users understand storage consumption by indexes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 124.4,
+      "t_end": 151.9,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "storage visibility",
+        "table information"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Index storage metrics",
+      "description": "Display of per-index storage consumption to identify indices consuming excessive disk space.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 939.3,
+      "t_end": 955.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "storage",
+        "monitoring",
+        "optimization"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Index fragmentation metrics",
+      "description": "Display of fragmentation percentage for indices, with note that this metric is less important on modern SSDs compared to spinning disk drives.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 965.6,
+      "t_end": 1003.1,
+      "is_demoed": true,
+      "caveats": [
+        "Fragmentation metric is less critical on SSDs than on spinning disk drives",
+        "Not consequential for datasets under 1,000 rows"
+      ],
+      "tags": [
+        "fragmentation",
+        "storage",
+        "optimization"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Telemetry for Index Changes",
+      "description": "Users can check telemetry to see if indexes have been disabled and track when they were applied, enabling performance troubleshooting.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 404.2,
+      "t_end": 452.7,
+      "is_demoed": false,
+      "caveats": [
+        "Telemetry does not show immediate performance impact when index changes are applied overnight"
+      ],
+      "tags": [
+        "telemetry",
+        "troubleshooting"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Non-AL Defined Indexes",
+      "description": "System automatically creates and maintains non-AL defined indexes on tables. These indexes may appear in the index management page but have different management rules than AL-defined indexes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 199.6,
+      "t_end": 221.3,
+      "is_demoed": false,
+      "caveats": [
+        "Final naming may differ from current preview",
+        "Cannot be re-enabled once removed"
+      ],
+      "tags": [
+        "automatic indexes",
+        "system-generated"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Database missing indexes advisor",
+      "description": "Feature showing which indexes SQL Server wishes it had to improve query planning, providing suggestions for potential new indices.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1041.7,
+      "t_end": 1074.6,
+      "is_demoed": false,
+      "caveats": [
+        "Index usage stats can only reflect on indices that already exist"
+      ],
+      "tags": [
+        "missing-indexes",
+        "suggestions",
+        "tuning"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Just-in-time index enabling",
+      "description": "Ability to enable indices temporarily for specific periods like yearly closing cycles, disabled most of the year to reduce storage and write costs.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1262.9,
+      "t_end": 1321.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "just-in-time",
+        "periodic",
+        "closing",
+        "tax-reports"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Disabled index management for archived data",
+      "description": "Strategy to disable indices on backup companies to reduce storage costs, applicable to archived or backed-up company copies.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1321.2,
+      "t_end": 1365.3,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "archiving",
+        "backup",
+        "storage-reduction"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Auto-created index cleanup",
+      "description": "Ability to disable automatically created indices that were generated during setup or testing and are no longer needed after customer deployment.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1376.5,
+      "t_end": 1435.4,
+      "is_demoed": false,
+      "caveats": [
+        "Indices not defined in a key in AL that are disabled will be deleted",
+        "SQL Server-generated indices can be recreated if needed"
+      ],
+      "tags": [
+        "cleanup",
+        "auto-created-indices",
+        "maintenance"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "DAMS - Data Administration and Management Service",
+      "description": "Automatic service running behind the scenes that handles database maintenance, monitoring, and tuning including index rebuild, statistics updates, and database advisor recommendations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1435.4,
+      "t_end": 1616.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "dams",
+        "automatic-maintenance",
+        "administration",
+        "automatic",
+        "performance",
+        "tuning"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Automatic index rebuild",
+      "description": "DAMS performs nightly fragmentation and page density calculations for large tables, rebuilding indices with greater than 25% fragmentation during off-hours with low priority.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1461,
+      "t_end": 1534.5,
+      "is_demoed": false,
+      "caveats": [
+        "Checking fragmentation levels for large companies takes time each night",
+        "Backup companies can negatively impact nightly maintenance performance"
+      ],
+      "tags": [
+        "rebuild",
+        "fragmentation",
+        "maintenance",
+        "nightly"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Automatic statistics updates",
+      "description": "Statistics are automatically updated both on a nightly basis and when SQL Server detects after n amount of changes to data.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1482.1,
+      "t_end": 1496.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "statistics",
+        "updates",
+        "automatic"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "DAMS re-index stats table",
+      "description": "Table that stores index rebuild information from DAMS operations to track maintenance history and optimize future runs.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1534.5,
+      "t_end": 1562.2,
+      "is_demoed": false,
+      "caveats": [
+        "Backup companies can negatively impact nightly fragmentation checking performance"
+      ],
+      "tags": [
+        "dams",
+        "re-index-stats",
+        "tracking"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Automatic Database Tuning Advisor",
+      "description": "DAMS runs Database Tuning Advisor tool investigating top consuming queries when CPU usage is high, automatically generating indices it recommends, typically prefixed with _DTA or _NCI.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1562.2,
+      "t_end": 1642,
+      "is_demoed": false,
+      "caveats": [
+        "Approximately 40,000 databases have auto-created indices from DAMS",
+        "DAMS re-index stats table itself is identified as missing an index"
+      ],
+      "tags": [
+        "tuning-advisor",
+        "auto-created",
+        "dta",
+        "automatic"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Extension fields merging to base tables in version 29",
+      "description": "In version 29, extension fields will be merged back into the base table in SQL schema instead of being stored in separate companion tables. This allows creating keys on extension fields and improves runtime operations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1779.4,
+      "t_end": 1838.9,
+      "is_demoed": true,
+      "caveats": [
+        "No exact shipping date promised",
+        "Upgrade may take longer with many table extensions and data",
+        "Theoretical record max length concern identified but rare"
+      ],
+      "tags": [
+        "version 29",
+        "performance",
+        "schema change"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Index management upgrade performance impact",
+      "description": "Runtime operations will be faster with merged extension fields. Inserts reduce from two SQL inserts to one by removing joins. Upgrade itself may take longer than other major versions when merging extensions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1887,
+      "t_end": 1933,
+      "is_demoed": false,
+      "caveats": [
+        "Amount of data to move is main concern",
+        "Mileage will vary based on customer settings"
+      ],
+      "tags": [
+        "performance",
+        "upgrade",
+        "sql"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Indexes list part page",
+      "description": "A page for managing indexes created and published as open source in BC apps repository. Users can contribute improvements via pull request.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1990.7,
+      "t_end": 2004.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "ui",
+        "open source",
+        "management"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Record length validation in version 28",
+      "description": "Change rolling out to version 28 that validates whether databases are close to the SQL Server record max length limit and issues a warning, prompting consideration of removing extensions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2083.6,
+      "t_end": 2108.2,
+      "is_demoed": false,
+      "caveats": [
+        "Only four databases found with potential issue in telemetry",
+        "No dual mode offered - must choose to remove extensions if needed"
+      ],
+      "tags": [
+        "validation",
+        "warning",
+        "v28"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Index maintenance window scheduling",
+      "description": "System currently does not follow upgrade window for index maintenance. Proposal under consideration to allow specifying a maintenance window for index operations and other system tasks. Job queue entries could also be scheduled to run in maintenance window.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2153.7,
+      "t_end": 2241.7,
+      "is_demoed": false,
+      "caveats": [
+        "Currently separate from upgrade window and non-configurable",
+        "Some app service-wide constraints prevent making all tenants happy simultaneously",
+        "Still being evaluated for feasibility"
+      ],
+      "tags": [
+        "scheduling",
+        "maintenance",
+        "requested"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "SIFT index management in future",
+      "description": "SIFT indexes remain relevant for flow fields and subindex fields. Include columns feature can replace SIFT indexes in many cases by adding include columns to well-defined indexes. Full management of SIFT indexes planned for future addition to index management feature.",
+      "status": "announced",
+      "status_evidence_t": 2313.8,
+      "status_evidence_quote": "the full management of sift indexes we plan to add that to the index management later",
+      "status_evidence_verified": true,
+      "t_start": 2265.8,
+      "t_end": 2334.6,
+      "is_demoed": false,
+      "caveats": [
+        "Delivery iterative based on feedback",
+        "Include columns feature is underutilized"
+      ],
+      "tags": [
+        "sift",
+        "future",
+        "include columns"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Index virtual provider API expansion to cloud",
+      "description": "Index virtual provider and related APIs currently scope on-premises only. Plan to enable these features moving forward for cloud, with filtering by table to avoid expensive operations across all indexes and tables.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2346.6,
+      "t_end": 2428.4,
+      "is_demoed": false,
+      "caveats": [
+        "Currently on-premises only in version 20.4",
+        "Concerns about making it too easy for users to hurt themselves",
+        "Requires filtering by table due to performance cost"
+      ],
+      "tags": [
+        "api",
+        "telemetry",
+        "cloud expansion"
+      ],
+      "system": "integration"
+    }
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Item Ledger Entry",
+      "t": 67.5
+    },
+    {
+      "type": "page",
+      "name": "Table Information",
+      "t": 124.4
+    },
+    {
+      "type": "table",
+      "name": "GL Entry",
+      "t": 467
+    },
+    {
+      "type": "table",
+      "name": "Change Log",
+      "t": 679.7
+    },
+    {
+      "type": "table",
+      "name": "DAMS re-index stats",
+      "t": 1534.5
+    },
+    {
+      "type": "table",
+      "name": "change log entry",
+      "t": 1683.6
+    },
+    {
+      "type": "table",
+      "name": "value entry",
+      "t": 1683.6
+    },
+    {
+      "type": "table",
+      "name": "Dams re-index stats table",
+      "t": 1629.3
+    },
+    {
+      "type": "page",
+      "name": "indexes list part page",
+      "t": 2021.6
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Mads Gram",
+      "confidence": "high"
+    },
+    {
+      "name": "Preetham",
+      "confidence": "high"
+    },
+    {
+      "name": "Jens",
+      "confidence": "high"
+    },
+    {
+      "name": "Giulio",
+      "confidence": "high"
+    },
+    {
+      "name": "Jesper",
+      "confidence": "high"
+    },
+    {
+      "name": "Stefan",
+      "confidence": "low"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 43.8,
+      "text": "indexes, you know, I think most of you probably know that keys get mapped down to indexes in SQL. But yeah, it was a",
+      "why_it_matters": "Establishes that index management has been hidden in Business Central until now.",
+      "check": "exact"
+    },
+    {
+      "t": 110.9,
+      "text": "We have sift indices for example and the reason why I don't talk about them here is because in the first version of this",
+      "why_it_matters": "States what is explicitly not included in the first version of index management.",
+      "check": "exact"
+    },
+    {
+      "t": 319,
+      "text": "You can disable them immediately, as you saw. You can enable them immediately in Docker locally, on prem. Uh but in SaaS, we'll be",
+      "why_it_matters": "Describes the key operational difference in how index changes are applied across deployment models.",
+      "check": "exact"
+    },
+    {
+      "t": 388.2,
+      "text": "primary keys, system ID, sift, and unique indexes cannot be disabled. It would be a semantic like well, semantic in a different meaning, but",
+      "why_it_matters": "Clarifies critical limitations on which indexes users cannot modify to prevent data integrity issues.",
+      "check": "exact"
+    },
+    {
+      "t": 712.3,
+      "text": "We have uh 1.8 GB for 7 million um in the actual data. And then we have what is that? ...",
+      "why_it_matters": "Demonstrates with real-world data why index storage management is critical for customers with large datasets.",
+      "check": "exact"
+    },
+    {
+      "t": 795.6,
+      "text": "this data reflects every single time that SQL Server, the query planner, went in and realized this index, I want to use that for",
+      "why_it_matters": "Explains the foundational concept that index usage statistics show operation frequency, not row count, which is critical for correct interpretation.",
+      "check": "exact"
+    },
+    {
+      "t": 858.4,
+      "text": "The usage stats reflect back to the last time the database was restarted. So, in this case, well, you can't see it, but you",
+      "why_it_matters": "Explains the scope and reset point for index usage statistics, critical for interpreting the data correctly.",
+      "check": "exact"
+    },
+    {
+      "t": 922.7,
+      "text": "exporting it to Excel on a schedule basis is probably the best approach here",
+      "why_it_matters": "Recommended workaround for persisting index statistics across database restarts before permanent capture capability is available.",
+      "check": "exact"
+    },
+    {
+      "t": 1124,
+      "text": "You can now define indexes that are enable false. I mean, you could do that before, but they were just kind of useless. But",
+      "why_it_matters": "Marks a capability change - disabled indices are now functional for selective per-company enabling rather than being wasted resources.",
+      "check": "exact"
+    },
+    {
+      "t": 1447.4,
+      "text": "We call it DAMS, the data administration and management service, which behind the scenes takes care of some of the maintenance, monitoring, and tuning",
+      "why_it_matters": "Introduces the comprehensive automatic maintenance system that handles index management without explicit customer intervention.",
+      "check": "exact"
+    },
+    {
+      "t": 1512.4,
+      "text": "if the index is sufficiently large and it has a fragmentation greater than, I think it's currently 25%, then it'll qualify for rebuilds",
+      "why_it_matters": "Specifies the exact fragmentation threshold for automatic index rebuilds, a key tuning parameter.",
+      "check": "exact"
+    },
+    {
+      "t": 1616.8,
+      "text": "We have about 40,000 databases where Dams have created indexes. So, most likely all of your customers have automatically created indexes",
+      "why_it_matters": "Demonstrates scale and prevalence of automatic index creation across the Business Central customer base.",
+      "check": "exact"
+    },
+    {
+      "t": 1616.8,
+      "text": "We have about 40,000 databases where Dams have created indexes. So, most likely all of your customers have automatically created indexes.",
+      "why_it_matters": "Demonstrates the scale and widespread adoption of automatic index generation across Business Central customers.",
+      "check": "exact"
+    },
+    {
+      "t": 1713.2,
+      "text": "we keep getting this feedback that can you please allow us to disable indexes, right? I don't know how many times I've heard it",
+      "why_it_matters": "Shows that index disable capability was the most frequently requested feature from customers and partners.",
+      "check": "exact"
+    },
+    {
+      "t": 1802.8,
+      "text": "if all the testing goes well, this is without I'm not promising an exact shipping date, but we actually have it out in the",
+      "why_it_matters": "Indicates version 29 extension field merging is in preview but shipping date is uncertain and contingent on testing.",
+      "check": "exact"
+    },
+    {
+      "t": 1898.5,
+      "text": "Inserts had to do two SQL inserts, now they do one. We're removing the join.",
+      "why_it_matters": "Quantifies the performance benefit of merging extension fields - reduced from two inserts to one SQL operation.",
+      "check": "exact"
+    },
+    {
+      "t": 2083.6,
+      "text": "We are rolling out a change to 28, which will actually validate whether you're close to the limit, and you will get a warning",
+      "why_it_matters": "Confirms version 28 adds record length validation as proactive safeguard for merged extension tables.",
+      "check": "exact"
+    },
+    {
+      "t": 2153.7,
+      "text": "The design is right now the answer is no. We don't follow the upgrade window. We follow a a separate window.",
+      "why_it_matters": "Clarifies that index maintenance currently operates on its own schedule independent of customer-configured upgrade windows.",
+      "check": "exact"
+    },
+    {
+      "t": 2313.8,
+      "text": "the full management of sift indexes we plan to add that to the index management later so you can also modify that",
+      "why_it_matters": "States that SIFT index management is a planned future addition to the index management feature set.",
+      "check": "exact"
+    },
+    {
+      "t": 2387.8,
+      "text": "we start with this as scope on prem because we're chickens. Um and yes, the plan is of course to enable some of these",
+      "why_it_matters": "Acknowledges current on-premises limitation and confirms plan to expand APIs to cloud in future.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 110.9,
+      "kind": "not-in-this-release",
+      "text": "sift indices for example and the reason why I don't talk about them here is because in the first version ..."
+    },
+    {
+      "t": 199.6,
+      "kind": "subject-to-change",
+      "text": "non AL defined index or it will be called something different maybe when you see it"
+    },
+    {
+      "t": 292.7,
+      "kind": "subject-to-change",
+      "text": "when you enable an index, it doesn't happen immediately. It happens overnight, except if you are on my magical machine here, which is a local development"
+    },
+    {
+      "t": 1003.1,
+      "kind": "coming-later",
+      "text": "will you be covering what we plan to add later or Ah. No, no, no. Maybe a little later"
+    },
+    {
+      "t": 1218.6,
+      "kind": "subject-to-change",
+      "text": "Right now, unfortunately, the method is on prem only, scope on prem. But that is something we are thinking very much about changing"
+    },
+    {
+      "t": 1228.8,
+      "kind": "preview",
+      "text": "we're a little chicken. Because we'll we just want to make to experiment with it in our own app first ..."
+    },
+    {
+      "t": 1779.4,
+      "kind": "preview",
+      "text": "if you take the early access preview build now, this is possible. No, actually this is not possible yet because ..."
+    },
+    {
+      "t": 1802.8,
+      "kind": "preview",
+      "text": "we actually have it out in the early access preview now. We're merging back the extension fields into the base table"
+    },
+    {
+      "t": 1802.8,
+      "kind": "subject-to-change",
+      "text": "if all the testing goes well, this is without I'm not promising an exact shipping date"
+    },
+    {
+      "t": 1910.3,
+      "kind": "preview",
+      "text": "if it comes in version 29, this feature might take longer than other majors because we have to do that again"
+    },
+    {
+      "t": 1933,
+      "kind": "preview",
+      "text": "When so, this is available in early access preview, we'll also be spinning preview clusters later when we get closer to the release"
+    },
+    {
+      "t": 2313.8,
+      "kind": "coming-later",
+      "text": "the full management of sift indexes we plan to add that to the index management later"
+    },
+    {
+      "t": 2387.8,
+      "kind": "coming-later",
+      "text": "the plan is of course to enable some of these moving forward"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 20,
+    "quotes_dropped": 1,
+    "evidence_verified": 1,
+    "evidence_unverified": 24
+  },
+  "windows": 3,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    }
+  ]
+}

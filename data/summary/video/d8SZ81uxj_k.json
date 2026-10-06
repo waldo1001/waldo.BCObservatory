@@ -1,0 +1,28 @@
+{
+  "video_id": "d8SZ81uxj_k",
+  "item_id": "video/yt-areopa/d8SZ81uxj_k",
+  "summary": "Jeremy Visa, a Business Central MVP from Sweden, shares speaker development lessons from six years of speaking. It covers talk structure with anchors and accordion topics, slides as memory anchors, a four-gate preparation workflow with Claude, and AI-based talk evaluation with a local eval kit.",
+  "overview": "Jeremy Visa, a Business Central MVP out of Sweden, describes how he became a speaker, starting with his first time on stage in 2022. He argues that a deck is only a receipt, and that each talk should start from what a person should leave thinking or with. He also warns against becoming a \"meat proxy\" who passes AI output along without adding value.\n\nThe session covers practical methods. Talks are built from anchors and accordion topics that can stretch or shrink without losing the plot. Slides serve as prompts, not scripts. He demonstrates a four-gate preparation workflow with Claude (24 conversation turns for this talk), Copilot fixing 237 font issues in PowerPoint, and a local talk eval kit that uses Whisper to report pace, fillers and pauses. He also covers co-speaking, demo pacing and rehearsal tactics.",
+  "key_points": [
+    "Structure a talk as anchors at known moments, with accordion topics at the end of each moment so you can flex timing without losing the narrative.",
+    "Use slides as prompts for memory, not scripts. This takes practice. Write talks as small individual pieces, for example on index cards or post-its.",
+    "Four-gate preparation: time blocking and brainstorming, markdown slide layout, deck building, then review, practice and delivery. Each stage has its own cost of change.",
+    "For live demos, pre-record AI agent sessions, because responses can take 30-60 seconds and connections can be flaky. Preload snippets with the Windows multi-clipboard. Record long demos and play them back at 2x speed.",
+    "The talk eval kit runs a local model and uses Whisper to transcribe. It reports words per minute, fillers, pauses and engagement, and compares you with other speakers. Its suggestions may not fit your style.",
+    "Copilot fixed 237 glitchy font issues in a PowerPoint deck in about 30 seconds. You need to know the shape of the output you want.",
+    "Co-speaking is recommended for new speakers, because a seasoned co-speaker can hold the audience and the moment when things go wrong."
+  ],
+  "audience": [
+    "end user",
+    "developer",
+    "functional consultant",
+    "partner"
+  ],
+  "extraction_hash": "b5ef8205a8dfdf8455834a64ffa01555eeced5da3a65e4af795ecce0fff56d8b",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0269704
+  }
+}

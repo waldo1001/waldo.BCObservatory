@@ -1,0 +1,302 @@
+{
+  "video_id": "-vCiEloR61U",
+  "item_id": "video/yt-saurav/-vCiEloR61U",
+  "title": "Business Central 29: New ModuleInfo Properties Explained",
+  "duration_s": 642,
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "moduleinfo",
+    "app manifest",
+    "metadata access",
+    "al development",
+    "help links",
+    "privacy statement",
+    "ula",
+    "context sensitive help",
+    "version 29",
+    "runtime 18.0"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Problem Overview",
+      "t_start": 0,
+      "t_end": 99.8
+    },
+    {
+      "title": "What is ModuleInfo and New Properties",
+      "t_start": 99.8,
+      "t_end": 206.6
+    },
+    {
+      "title": "Use Cases and Benefits",
+      "t_start": 206.6,
+      "t_end": 270.1
+    },
+    {
+      "title": "Version 28 Implementation and Accessing App Info",
+      "t_start": 270.1,
+      "t_end": 405.8
+    },
+    {
+      "title": "Version 29 Enhancements and Demo Comparison",
+      "t_start": 405.8,
+      "t_end": 570.4
+    },
+    {
+      "title": "Summary and Call to Action",
+      "t_start": 570.4,
+      "t_end": 642
+    }
+  ],
+  "features": [
+    {
+      "name": "ModuleInfo help property",
+      "description": "New property added to ModuleInfo type that returns the help link of a specified application, allowing programmatic access to application help documentation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 153.5,
+      "t_end": 164.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "moduleinfo",
+        "help documentation",
+        "metadata access"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "ModuleInfo ULA property",
+      "description": "New property that returns the application end user license agreement link, accessible programmatically from AL code.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 164.9,
+      "t_end": 175.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "moduleinfo",
+        "license agreement",
+        "metadata access"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "ModuleInfo privacy statement property",
+      "description": "New property that returns the privacy statement link for a particular application, accessible programmatically from AL.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 175.2,
+      "t_end": 180.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "moduleinfo",
+        "privacy statement",
+        "metadata access"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "ModuleInfo context sensitive help URL property",
+      "description": "New property that provides the help URL in the user locale for a particular application, enabling localized help access.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 180.4,
+      "t_end": 193.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "moduleinfo",
+        "context sensitive help",
+        "localization"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "ModuleInfo type enhancements",
+      "description": "ModuleInfo is an AL type that provides information about an application or extension, expanded in version 29 with four new properties for accessing app manifest metadata programmatically.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 99.8,
+      "t_end": 193.3,
+      "is_demoed": true,
+      "caveats": [
+        "Requires Runtime 18.0 or later"
+      ],
+      "tags": [
+        "moduleinfo",
+        "metadata access",
+        "app manifest"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "ModuleDependencyInfo type",
+      "description": "New data type introduced for accessing dependency information from ModuleInfo, allowing AL developers to iterate through and inspect extension dependencies defined in app.json.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 368.1,
+      "t_end": 394,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "moduleinfo",
+        "dependencies",
+        "metadata"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "NavApp.GetCurrentModuleInfo function",
+      "description": "AL function that retrieves ModuleInfo for the currently executing application or extension without requiring an app GUID.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 308.1,
+      "t_end": 328.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "moduleinfo",
+        "functions",
+        "metadata access"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "NavApp.GetModuleInfo function",
+      "description": "AL function that retrieves ModuleInfo for a specific application by providing an app GUID parameter.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 294.3,
+      "t_end": 308.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "moduleinfo",
+        "functions",
+        "metadata access"
+      ],
+      "system": "development"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "ModuleInfo",
+      "t": 99.8
+    },
+    {
+      "type": "other",
+      "name": "NavApp.GetCurrentModuleInfo",
+      "t": 115.8
+    },
+    {
+      "type": "other",
+      "name": "NavApp.GetModuleInfo",
+      "t": 115.8
+    },
+    {
+      "type": "other",
+      "name": "ModuleDependencyInfo",
+      "t": 368.1
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Sarrahani",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 14,
+      "text": "in version 29 the module info type that has been expanded with four new properties that give AL developer access to help",
+      "why_it_matters": "This is the core announcement of what the video demonstrates - the four new ModuleInfo properties available in version 29.",
+      "check": "exact"
+    },
+    {
+      "t": 83.2,
+      "text": "in version 29 with runtime 18.0 and later we have a much cleaner way to retrieve some of this meta ...",
+      "why_it_matters": "Establishes the version and runtime requirements for these new features and indicates they provide improved functionality over prior versions.",
+      "check": "exact"
+    },
+    {
+      "t": 99.8,
+      "text": "module info is an al type that provides information about an application or extension or module whatever you want to call it",
+      "why_it_matters": "Defines what ModuleInfo is and clarifies its purpose as a vehicle for accessing application metadata.",
+      "check": "exact"
+    },
+    {
+      "t": 153.5,
+      "text": "The first one is help. This returns the help link of specified application.",
+      "why_it_matters": "Lists the first of four new properties and its purpose for programmatic access to help documentation.",
+      "check": "exact"
+    },
+    {
+      "t": 243.5,
+      "text": "because this information comes from the application metadata which will be refreshed whenever the extension get updated, you don't have to hardcode those values",
+      "why_it_matters": "Explains the design benefit - dynamic metadata binding means values are automatically current without code changes.",
+      "check": "exact"
+    },
+    {
+      "t": 354.1,
+      "text": "Because dependency is an array in your app.json. If for some reason you want to see the dependencies of this ...",
+      "why_it_matters": "Introduces ModuleDependencyInfo as a supporting type for working with extension dependencies programmatically.",
+      "check": "exact"
+    },
+    {
+      "t": 530.8,
+      "text": "if you try to access the same from version 29 the module info you'll get a lot more details from it which is other",
+      "why_it_matters": "Directly compares version 28 to version 29 capabilities, showing the expansion of accessible metadata.",
+      "check": "exact"
+    },
+    {
+      "t": 570.4,
+      "text": "in business central 29 Microsoft added four useful properties to model info which are named as help ula privacy statement and contextsensitive help URL",
+      "why_it_matters": "Provides the complete summary of the four new properties and their exact names in the API.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 83.2,
+      "kind": "other",
+      "text": "in version 29 with runtime 18.0 and later we have a much cleaner way to retrieve some of this meta ..."
+    }
+  ],
+  "checks": {
+    "quotes_kept": 8,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 8
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    }
+  ]
+}

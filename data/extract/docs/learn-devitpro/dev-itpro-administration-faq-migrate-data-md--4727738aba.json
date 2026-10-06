@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/faq-migrate-data.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/faq-migrate-data",
+  "title": "FAQ about Migrating to Business Central Online",
+  "blob": "f4a5f68b135246cf6e321af2ddafe888f5e0e65f",
+  "summary": "Answer common questions about Business Central cloud migration including system requirements, data limits, SQL connection strings, self-hosted integration runtime, permissions, and data replication.",
+  "systems": [
+    "administration",
+    "integration"
+  ],
+  "topics": [
+    "cloud migration",
+    "faq",
+    "integration runtime",
+    "sql connection",
+    "data replication",
+    "permissions",
+    "extensions"
+  ],
+  "objects": [],
+  "features": [
+    "self-hosted integration runtime",
+    "azure data factory",
+    "sql connection string",
+    "intelligent cloud permission set",
+    "extension data migration",
+    "data compression"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005993,
+      "pages_in_call": 8
+    }
+  ]
+}

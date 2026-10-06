@@ -1,0 +1,37 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-metadata-embeddings-trace.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-metadata-embeddings-trace",
+  "title": "Analyzing metadata embeddings telemetry",
+  "blob": "05930b7f4c61efd2666759ec1969881af8d61235",
+  "summary": "Monitor metadata embedding generation for AI-based features by tracking telemetry events that indicate success, failure, scheduling, and start of embedding generation for extensions.",
+  "systems": [
+    "copilot",
+    "administration",
+    "development"
+  ],
+  "topics": [
+    "telemetry",
+    "metadata embeddings",
+    "ai features",
+    "extension monitoring",
+    "application insights"
+  ],
+  "objects": [],
+  "features": [
+    "metadata embedding generation succeeded",
+    "metadata embedding generation failed",
+    "metadata embedding generation scheduled",
+    "metadata embedding generation started"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005993,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/migrate-nav.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-nav",
+  "title": "Migrate Dynamics NAV to Business Central online",
+  "blob": "1d504bc44da560ef908596e1138ddd3059224f5f",
+  "summary": "Migrate Dynamics NAV on-premises to Business Central online by upgrading to BC14 first, then converting C/AL customizations to AL extensions, or using the BC14 reimplementation tool.",
+  "systems": [
+    "administration",
+    "integration",
+    "development"
+  ],
+  "topics": [
+    "cloud migration",
+    "dynamics nav",
+    "upgrade path",
+    "customization conversion",
+    "al extensions"
+  ],
+  "objects": [],
+  "features": [
+    "full migration path",
+    "bc14 reimplementation",
+    "c/al to al conversion",
+    "upgrade route",
+    "data preparation",
+    "localization support"
+  ],
+  "versions": [
+    "version 14",
+    "version 25"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005993,
+      "pages_in_call": 8
+    }
+  ]
+}
