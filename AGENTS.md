@@ -13,10 +13,16 @@ cross-referenced, agent-first knowledge base. This file is the entry point for h
 3. Cite evidence, never memory: each page's `evidence` array carries the source URL, date, commit SHA or video
    second. Quote at most what the page quotes. Never invent object IDs, field numbers or version numbers; the code
    pillar under `data/code/` is the ground truth for those.
-4. Version applicability matters: check `versions.introduced` / `versions.deprecated` and the object timelines in
-   `data/code/timelines/`. A localization (BE, NL, ...) is an overlay on W1; see `content/localizations/`.
-5. Prefer the indexes for lookups: `data/index/objects.json`, `features.json`, `sources.json`, `search.json`.
-   The MCP server (`packages/mcp`, `npx bc-observatory`) wraps exactly these files.
+4. Version applicability matters: object pages carry `present_in`, `changed_in` and `versions` (an object already in
+   the oldest snapshot has `introduced: null`: it may be much older); timelines per type are in
+   `data/code/timelines/`, version diffs in `data/code/diffs/version/`. A localization (BE, NL, ...) is an overlay on
+   W1; see `content/localizations/` and `data/code/diffs/country/`.
+5. Sections: `topics/` (Learn hubs), `objects/<type>/<id>` (AL objects of W1 and Microsoft's first-party apps,
+   BC28-30), `localizations/`, `features/` (Microsoft 365 roadmap), `videos/`, `posts/` (community, derived),
+   `sources/` (footprints), `digests/` (weekly, with the deprecation radar). Lookups: `data/index/pages-*.json` +
+   `index-manifest.json` (every page's metadata), `data/index/docs-objects.json` (Learn page <-> object by exact id),
+   `data/code/drift.json`, `data/graph/` (the galaxy). The MCP server (`packages/mcp`, `npx bc-observatory`) serves
+   exactly these: search, ls, cat, get_object, diff_object, localization, whats_new, blog_footprint, feedback.
 
 ## If you are an agent (or human) changing this repository
 

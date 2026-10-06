@@ -1,0 +1,21 @@
+---
+import { existsSync, readFileSync } from "node:fs";
+import { resolve } from "node:path";
+import Base from "../../layouts/Base.astro";
+const p = resolve(process.cwd(), "..", "data", "code", "drift.json");
+const d = existsSync(p) ? JSON.parse(readFileSync(p, "utf8")) : { missing: [], obsolete_documented: [], new_undocumented: [] };
+const base = import.meta.env.BASE_URL;
+const obj = (k: string) => `${base}objects/${k}/`;
+---
+<Base title="Drift · BC Observatory" description="Where Microsoft Learn and the Business Central code disagree.">
+  <p class="eyebrow">Drift report</p>
+  <h1>Learn and the code</h1>
+  <p class="lede">Learn pages name the objects they document (ms.search.form); the API reference names its API pages. Joined to the code of BC{d.majors?.join(", BC")} by exact id. Data: <code>data/code/drift.json</code>.</p>
+  <h2>Obsolete objects still documented ({d.obsolete_documented.length})</h2>
+  <ul>{d.obsolete_documented.map((o: any) => <li><a href={obj(o.key)}>{o.key} "{o.name}"</a> <span class="meta">{o.state}{o.tag ? ` since ${o.tag}` : ""}</span> · {o.docs.slice(0, 3).map((x: any) => <a href={x.url}>{x.title}</a>)}</li>)}</ul>
+  <h2>New pages and reports without docs ({d.new_undocumented.length})</h2>
+  <ul>{d.new_undocumented.map((o: any) => <li><a href={obj(o.key)}>{o.key} "{o.name}"</a> <span class="meta">new in BC{o.since}</span></li>)}</ul>
+  <h2>Documented objects not found in any snapshot ({d.missing.length})</h2>
+  <p class="meta">Mostly objects of country apps or apps outside the extracted set; some are removed objects.</p>
+  <ul>{d.missing.slice(0, 300).map((o: any) => <li>{o.key} · {o.docs.slice(0, 2).map((x: any) => <a href={x.url}>{x.title}</a>)}</li>)}</ul>
+</Base>
