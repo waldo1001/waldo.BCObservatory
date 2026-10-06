@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/copilot-overview.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/copilot-overview",
+  "title": "Copilot FAQ",
+  "blob": "cf753b186deccb607ab7dd25c8a44f8d8ff6444e",
+  "summary": "Copilot in Business Central is an AI assistant included free with licenses that helps users with creativity, productivity, and task automation. It operates online only, respects user data permissions, and supports various features like chat, analysis assist, and forecasting without requiring training on customer data.",
+  "systems": [
+    "copilot",
+    "integration",
+    "platform"
+  ],
+  "topics": [
+    "copilot overview",
+    "ai assistant",
+    "security and privacy",
+    "data governance",
+    "responsible ai",
+    "licensing",
+    "web search"
+  ],
+  "objects": [],
+  "features": [
+    "Chat with Copilot",
+    "Analysis assist",
+    "Autofill with Copilot",
+    "Marketing text suggestions",
+    "Item substitution suggestions",
+    "E-document mapping",
+    "Bank reconciliation assist",
+    "Sales line suggestions",
+    "Number series suggestions",
+    "Web search capability"
+  ],
+  "versions": [
+    "26.3"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.009184,
+      "pages_in_call": 4
+    }
+  ]
+}

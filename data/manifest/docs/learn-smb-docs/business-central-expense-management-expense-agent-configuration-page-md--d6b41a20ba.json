@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-configuration-page",
   "published_at": "2026-10-05T08:46:22.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "4113fa79cb352d92ce10500f312d51013c0e6fc0",
       "words": 1784,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T12:39:35.681Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.009184
+    },
+    "summarized": {
+      "at": "2026-10-06T12:39:35.687Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T12:39:35.687Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T12:39:35.688Z",
+      "page": false
     }
   },
   "input_hash": "4113fa79cb352d92ce10500f312d51013c0e6fc0",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "4113fa79cb352d92ce10500f312d51013c0e6fc0"
+  "output_hash": "c6d9b8ba617456945a33b1f1c8032eb3ac83456eca4929f569c5081edf5b090e"
 }

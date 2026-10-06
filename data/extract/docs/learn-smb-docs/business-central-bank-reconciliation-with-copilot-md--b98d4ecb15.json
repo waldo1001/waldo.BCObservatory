@@ -1,0 +1,53 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/bank-reconciliation-with-copilot.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/bank-reconciliation-with-copilot",
+  "title": "Reconcile bank accounts with Copilot (preview)",
+  "blob": "9742a9bd69cc7723734545b7804a8bf5e77fd9ae",
+  "summary": "Bank account reconciliation assist uses AI-powered Copilot to match unmatched bank transactions with ledger entries and suggest G/L accounts for posting differences, supplementing the automatch operation.",
+  "systems": [
+    "finance",
+    "copilot"
+  ],
+  "topics": [
+    "bank reconciliation",
+    "copilot",
+    "payment matching",
+    "ledger entries",
+    "ai-assisted"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Bank Acc. Reconciliation"
+    },
+    {
+      "type": "page",
+      "name": "Bank Account Reconciliations"
+    },
+    {
+      "type": "page",
+      "name": "Text-to-Account Mapping"
+    }
+  ],
+  "features": [
+    "Improved transaction matching with AI",
+    "Suggested G/L accounts for unmatched transactions",
+    "Auto-match operation",
+    "Post if fully applied option",
+    "Match proposals review and save"
+  ],
+  "versions": [
+    "2025 release wave 1",
+    "2025 release wave 2"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.008599,
+      "pages_in_call": 4
+    }
+  ]
+}

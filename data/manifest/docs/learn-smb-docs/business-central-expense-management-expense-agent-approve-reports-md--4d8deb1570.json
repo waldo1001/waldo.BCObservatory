@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-approve-reports",
   "published_at": "2026-10-05T08:46:22.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "aa66446205594d20a69374ece8871e3c9ce38584",
       "words": 431,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T12:39:35.680Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.009184
+    },
+    "summarized": {
+      "at": "2026-10-06T12:39:35.686Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T12:39:35.687Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T12:39:35.687Z",
+      "page": false
     }
   },
   "input_hash": "aa66446205594d20a69374ece8871e3c9ce38584",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "aa66446205594d20a69374ece8871e3c9ce38584"
+  "output_hash": "7e4d6cea4723dd0017fcbc43d3b1b6708784c58f91358c643f491a0aaf72566b"
 }

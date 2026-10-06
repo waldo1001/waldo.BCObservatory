@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/copilot-overview",
   "published_at": "2026-10-05T08:46:22.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "cf753b186deccb607ab7dd25c8a44f8d8ff6444e",
       "words": 1242,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T12:39:35.680Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.009184
+    },
+    "summarized": {
+      "at": "2026-10-06T12:39:35.685Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T12:39:35.685Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T12:39:35.685Z",
+      "page": false
     }
   },
   "input_hash": "cf753b186deccb607ab7dd25c8a44f8d8ff6444e",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "cf753b186deccb607ab7dd25c8a44f8d8ff6444e"
+  "output_hash": "36fc9da261c34af9a7c1baa8eecc26735aff795ee330145d88923d6470470e90"
 }

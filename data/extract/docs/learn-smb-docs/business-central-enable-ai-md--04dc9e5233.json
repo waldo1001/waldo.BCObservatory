@@ -1,0 +1,50 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/enable-ai.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/enable-ai",
+  "title": "Configure Copilot and agent capabilities",
+  "blob": "2210b85711db1f8a37311cb3cd9dd94c59086ec3",
+  "summary": "Administrators configure and control Copilot and agent capabilities in Business Central through the Copilot & agent capabilities page, managing feature activation, user access via permissions, data movement across geographies, and feedback settings.",
+  "systems": [
+    "copilot",
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "copilot configuration",
+    "agent setup",
+    "permissions",
+    "access control",
+    "data governance",
+    "feature activation",
+    "user management"
+  ],
+  "objects": [],
+  "features": [
+    "Feature activation and deactivation",
+    "User permission management",
+    "Data movement across geographies",
+    "Bing Search for enhanced results",
+    "Feedback controls",
+    "Agent model selection",
+    "Sales Order Agent",
+    "Payables Agent",
+    "Expense Agent",
+    "Bank reconciliation assist",
+    "Analysis assist",
+    "Autofill"
+  ],
+  "versions": [
+    "28",
+    "29"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.009184,
+      "pages_in_call": 4
+    }
+  ]
+}

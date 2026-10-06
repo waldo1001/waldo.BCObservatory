@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/chat-with-copilot-legacy.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/chat-with-copilot-legacy",
+  "title": "Chat with Copilot (legacy)",
+  "blob": "d34895a96eb73d554fd2801f7c789a69331af990",
+  "summary": "Chat with Copilot (legacy) explains how to use Copilot in Business Central version 28 to ask questions about company data, find records, get task guidance, and aggregate data using natural language.",
+  "systems": [
+    "copilot"
+  ],
+  "topics": [
+    "copilot",
+    "chat",
+    "natural language",
+    "data retrieval",
+    "legacy"
+  ],
+  "objects": [],
+  "features": [
+    "Find business data using natural language",
+    "Data aggregation and analysis tabs",
+    "Task guidance and explanations",
+    "Field tooltip explanations",
+    "Prompt guides and suggestions",
+    "Analysis tabs for grouped data"
+  ],
+  "versions": [
+    "version 28"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.008599,
+      "pages_in_call": 4
+    }
+  ]
+}

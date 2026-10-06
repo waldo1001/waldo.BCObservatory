@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/chat-with-copilot.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/chat-with-copilot",
+  "title": "Use Microsoft Copilot in Business Central (preview)",
+  "blob": "de613fe193090a7e4be97fb247fd27708e29deaa",
+  "summary": "Microsoft Copilot in Business Central (preview) enables users to ask questions about company data and get AI-powered assistance with read-only access, available starting in version 29 with agent integration.",
+  "systems": [
+    "copilot",
+    "integration"
+  ],
+  "topics": [
+    "copilot",
+    "preview",
+    "ai assistant",
+    "natural language",
+    "data access"
+  ],
+  "objects": [],
+  "features": [
+    "Natural language question answering",
+    "Business Central data access",
+    "Agent support in Copilot",
+    "Citation-based navigation",
+    "Feedback controls",
+    "Work IQ integration",
+    "Suggested questions"
+  ],
+  "versions": [
+    "version 29"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.008599,
+      "pages_in_call": 4
+    }
+  ]
+}

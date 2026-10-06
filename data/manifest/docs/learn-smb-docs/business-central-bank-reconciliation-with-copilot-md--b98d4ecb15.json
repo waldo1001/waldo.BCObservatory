@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/bank-reconciliation-with-copilot",
   "published_at": "2026-10-05T08:46:22.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "9742a9bd69cc7723734545b7804a8bf5e77fd9ae",
       "words": 1735,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T12:39:35.655Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.008599
+    },
+    "summarized": {
+      "at": "2026-10-06T12:39:35.681Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T12:39:35.681Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T12:39:35.682Z",
+      "page": false
     }
   },
   "input_hash": "9742a9bd69cc7723734545b7804a8bf5e77fd9ae",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9742a9bd69cc7723734545b7804a8bf5e77fd9ae"
+  "output_hash": "51a7f2181c7529179c5d427e58b9fea10d2a336c8dc339e77f990cb8cf379491"
 }
