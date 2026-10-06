@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/statutory-reports",
   "published_at": "2025-08-07T14:51:39.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "fe322a781a87346a6711bd96cb80586ccf6d0863",
       "words": 383,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:14:51.907Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 7,
+      "cost_usd": 0.002563
+    },
+    "summarized": {
+      "at": "2026-10-06T19:15:27.666Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:15:27.667Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:15:29.499Z",
+      "page": false
     }
   },
   "input_hash": "fe322a781a87346a6711bd96cb80586ccf6d0863",
@@ -42,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "fe322a781a87346a6711bd96cb80586ccf6d0863"
+  "output_hash": "1f5f6f5942d6d934321d41549a8798f6b65ceffaea0c80e5ecfbb85092abd405"
 }

@@ -1,0 +1,49 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/undepreciable-fixed-assets.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/undepreciable-fixed-assets",
+  "title": "Undepreciable fixed assets in Russia",
+  "blob": "0b85e744640b5bdd149dd5254246e2cc23d1513e",
+  "summary": "Undepreciable fixed assets in Russia can be repaid with their full acquisition amount at release and tracked with quantity records. Create depreciation books and quantity books to manage fixed assets that are fully written off upon release.",
+  "systems": [
+    "fixed-assets",
+    "localization"
+  ],
+  "topics": [
+    "undepreciable fixed assets",
+    "depreciation",
+    "quantity records",
+    "russia",
+    "release orders"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Fixed Asset Card"
+    },
+    {
+      "type": "table",
+      "name": "FA Releases"
+    },
+    {
+      "type": "table",
+      "name": "FA Release Act"
+    }
+  ],
+  "features": [
+    "undepreciable fixed assets",
+    "quantity books",
+    "depreciation books",
+    "fixed asset release"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002603,
+      "pages_in_call": 7
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/powerplatform/power-automate-overview",
   "published_at": "2025-08-06T09:36:10.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "b1a88a00cad053dee8346a6d26e20f7d979d62bb",
       "words": 775,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:15:27.645Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002603
+    },
+    "summarized": {
+      "at": "2026-10-06T19:15:29.524Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:15:29.525Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:15:29.526Z",
+      "page": false
     }
   },
   "input_hash": "b1a88a00cad053dee8346a6d26e20f7d979d62bb",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b1a88a00cad053dee8346a6d26e20f7d979d62bb"
+  "output_hash": "7fce1cf5ccb26a85d7d7b8587706c8f4debb05e218f94a3ac0c899d43dff2e23"
 }

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/special-codes-company-information-customers-vendors",
   "published_at": "2025-08-07T14:51:39.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "811b8ea3d4029eca2f19ba572e81c3645111e116",
       "words": 145,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:14:51.906Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002563
+    },
+    "summarized": {
+      "at": "2026-10-06T19:15:27.661Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:15:27.662Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:15:27.665Z",
+      "page": false
     }
   },
   "input_hash": "811b8ea3d4029eca2f19ba572e81c3645111e116",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "811b8ea3d4029eca2f19ba572e81c3645111e116"
+  "output_hash": "f08681ac64ade0fa29b1a8767c82cba2094b75e60fcdebbdc1225d640da12d2f"
 }

@@ -1,0 +1,27 @@
+{
+  "video_id": "WvG4EOHQuiw",
+  "item_id": "video/yt-microsoft/WvG4EOHQuiw",
+  "summary": "Field Service integration to Service Management in Business Central (2024 release wave 2): setup, new table mappings, inventory availability by location, service order and work order synchronization, consumption tracking, and invoicing. Covers prerequisites such as premium experience, Dataverse and virtual tables.",
+  "overview": "The video demonstrates how Business Central's service management module integrates with Dynamics 365 Field Service. It is aimed at companies that do regular maintenance or repairs. It walks through prerequisites, the assisted setup choice between integrating to projects, service management or both, and the new integration table mappings for location, service order, service item line and service order type.\n\nIt then shows inventory availability by location, the alignment of service orders with work orders, estimated and consumed quantities, and the work order status flow through completion, synchronization back to Business Central and service invoice posting. Disclaimers in the video say parts of the feature arrive with update one of 2024 release wave 2 (the November update).",
+  "key_points": [
+    "Prerequisites: premium experience enabled in company information (service management is part of it), plus connections to Dataverse and to sales.",
+    "The Field Service Integration Setup assisted setup lets you integrate to projects, to service management, or to both. Inventory availability by location is a toggle there and needs virtual tables enabled.",
+    "New mappings are added for location, service order, service item line and service order type. Location sync is one-way from Business Central to Field Service. In-transit locations and locations with mandatory warehouse pick are excluded.",
+    "Enabling the integration locks some Service Management Setup settings: one service line per order is disabled, service order type becomes mandatory, archiving of service orders is turned on, and numbering can differ from Field Service.",
+    "Service orders sync automatically to work orders through a background task. Work orders from Field Service sync back only when the 'integrate to service' flag is checked.",
+    "Service item lines align with work order incidents. Estimated quantities and duration sync until the work order reaches scheduled status. Quantity to ship, consume and invoice keep syncing afterward.",
+    "Work order statuses: in progress, completed in Field Service, finished once synced to Business Central, and posted after the service invoice is posted. A posted work order is locked."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "partner"
+  ],
+  "extraction_hash": "afd54289cd4f27ea3b17f6f9353634f714e9e16d2952acc6885442aa98e2298c",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.022568400000000002
+  }
+}

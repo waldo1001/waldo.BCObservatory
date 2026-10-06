@@ -1,0 +1,176 @@
+{
+  "video_id": "UQmuMPRlHek",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 6.6,
+      "end": 27,
+      "text": "hi there my name is Mike and if you're a business Central admin this video is just for you I'm going to show you how easily you can configure co-pilot in business Central co-pilot is the AI powered assistant that helps people improve productivity boost creativity and eliminate those tedious tasks so whether you're using co-pilot to reconcile"
+    },
+    {
+      "t": 27,
+      "end": 47.1,
+      "text": "your bank statements or get to Data Insights fostter or maybe get answers to get unblocked quickly and do things in business Central there's a co-pilot for everyone in your organization if you want to see co-pilot and action check out the links I put below this video that will give you these really nice bite-sized videos that you can watch about what it can do in all of its different features so"
+    },
+    {
+      "t": 47.1,
+      "end": 67.1,
+      "text": "best of all co-pilot is currently included with your business Central online licenses at no additional cost so what are you waiting for let's dive in and get things set up so here's the first bit of good news co-pilot is just ready to use out of the box no complex setup required no lengthy uh model"
+    },
+    {
+      "t": 67.1,
+      "end": 87.3,
+      "text": "training required it simply works as soon as you deploy your business Central environment let me show you on my newly created environment what that looks like so here I have a US environment I'm on the items list and co-pilot already lights up and uh suggests you know it's assistance to help me out with this task where I can analyze"
+    },
+    {
+      "t": 87.3,
+      "end": 107.6,
+      "text": "this list so the key Point here is is as soon as you deploy a new Sandbox a new production environment co-pilot is ready to use if you sign up for a free trial of business Central as well co-pilot is ready to use if you're a customer upgrading from let's say uh update 24.5 to update 25 uh then"
+    },
+    {
+      "t": 107.6,
+      "end": 120,
+      "text": "co-pilot again is ready to use unless you've switched things off yourself I'll talk about that in a moment so the key thing here is it's ready to use out of the box no complex setup is required"
+    },
+    {
+      "t": 120,
+      "end": 140.4,
+      "text": "now we know that admins especially love fine grain control over everything in business Central so for that there's the co-pilot and AI capabilities page let's do a quick search for co-pilot in business Central the page will appear right here and as an admin I get transparency and control over copilot"
+    },
+    {
+      "t": 140.4,
+      "end": 160.6,
+      "text": "from this one place now notice how all the features all the capabilities of co-pilot are listed here uh we have some generally available features but then also some features in preview as well and these are clearly labeled as production ready previews and what that means is it's actually safe to use these in production with"
+    },
+    {
+      "t": 160.6,
+      "end": 180.7,
+      "text": "users across your organization as well you'll also notice that uh there's a publisher listed here too so some of these are published by Microsoft uh but there's also a third-party publisher as well fabric cam so what is this particular feature well this came from one of the addin apps that I've installed or from an extension that I've installed but"
+    },
+    {
+      "t": 180.7,
+      "end": 201.2,
+      "text": "essentially um one of those apps that I installed extends co-pilot in business Central with all new capabilities and they show up right here as well in the same list now notice also how all of these are active in fact every time we add a new feature a new capability that is active by default on your environment"
+    },
+    {
+      "t": 201.2,
+      "end": 221.3,
+      "text": "but if you're just not ready to work with that feature yet uh you can always deactivate it so let's take this one here as an example I'll hit deactivate I'll give a reason why we're not ready well maybe this one is just not relevant to our B business and from this point forward uh it is instantly inactive and users can't access that"
+    },
+    {
+      "t": 221.3,
+      "end": 241.3,
+      "text": "at all now remember that these settings are per environment which means that when you make a change here it affects all users in all companies within that environment so there you have it the co-pilot and AI capabilities is the single page where you get visibility into all those capabilities no matter where they came"
+    },
+    {
+      "t": 241.3,
+      "end": 261.4,
+      "text": "from or how they're installed and you also get to control what's active and deactivated as well now our customers often ask us is copilot available in my country is it available in my favorite language let's demystify some of that so first of all generally speaking every co-pilot feature is available in all"
+    },
+    {
+      "t": 261.4,
+      "end": 281.4,
+      "text": "business Central languages however only a subset of those only some of those languages have been rigorously verified and tested by Microsoft those we call the supported languages so keep in mind that we encourage our users to use co-pilot capabilities in those supported languages uh but you can still use them in any other business Central Language"
+    },
+    {
+      "t": 281.4,
+      "end": 297.8,
+      "text": "just bear in mind that when you do that with an unsupported language um it may not perform as expected and quality may vary depending on the context in which you use it as well now each feature defines its own set of supported languages and that's an important"
+    },
+    {
+      "t": 297.8,
+      "end": 317.9,
+      "text": "point the other thing is country so country or geographical uh availability of these features uh generally speaking um every co-pilot capability is available in all countries in all geographies now there are a few exceptions to that rule and I would just want to illustrate that directly in business Central so"
+    },
+    {
+      "t": 317.9,
+      "end": 337.9,
+      "text": "here I'm on my us environment uh as you can see up here from the company badge and you can see I've got a couple of features that are available in this uh in this environment and chat is one of those features but if I switch now to my German environment deployed in Germany you can see how chat is actually absent here"
+    },
+    {
+      "t": 337.9,
+      "end": 358.2,
+      "text": "so there will be some features uh that are just not available for certain environment country localizations simply put if it's not available it won't appear in this list so if you're looking for the full list of Which languages and which GEOS are supported for every single co-pilot feature in business Central"
+    },
+    {
+      "t": 358.2,
+      "end": 378.2,
+      "text": "I put a link below this video which will take you right there give you all of that information all your questions will be answered now we know that admins always want to know how and where business data is used now keep in mind that co-pilot uses Ai and more specifically it's powered by the Azure open aai Service uh"
+    },
+    {
+      "t": 378.2,
+      "end": 399,
+      "text": "which is part of the Azure cloud and is designed for Enterprise use with the security privacy compliance that you expect from Azure now that Azure open AI service isn't available in all regions for business Central um so for that I want to illustrate the difference uh from region to region back in business Central here"
+    },
+    {
+      "t": 399,
+      "end": 419.1,
+      "text": "so here I am back in my German environment which is of course deployed to my Germany Azure Data Center and notice here how I have a switch which allows data movement and that's because there isn't an Azure opening eye service in that same region uh so for co-pilot to operate to function uh it needs to actually contact Azure open"
+    },
+    {
+      "t": 419.1,
+      "end": 439.2,
+      "text": "a service fish which resides in a different region in this case it's in either Sweden or in Switzerland but as an administrator I have the power to decide if that is something I'm comfortable with so I can choose to turn it off uh or turn it on um and if you want to know exactly which region it's going to connect with"
+    },
+    {
+      "t": 439.2,
+      "end": 459.3,
+      "text": "I've also dropped a link down below this video where you can see the entire mapping of azure uh regions in terms of where your environment is deployed along with where Azure opening ey service is actually located and where it connects to now when data flows across geographies as it says here data moves uh across out of out of your region"
+    },
+    {
+      "t": 459.3,
+      "end": 479.3,
+      "text": "um it's only a small amount of data and it's the prompt and the response that you're using while you're interacting with co-pilot so this doesn't mean that the entire database is moving out of region it's really just a minimal amount of data that is used what during those interactions with co-pilot now let's contrast this with what the same screen looks"
+    },
+    {
+      "t": 479.3,
+      "end": 499.7,
+      "text": "like like on my us-based environment so here you can see that there actually is no switch uh to allow data movement and that's simply because in some regions there is the Azure openi Service uh available to work with business Central so here are us customers as well as our customers in a couple of other regions like India"
+    },
+    {
+      "t": 499.7,
+      "end": 519.8,
+      "text": "Australia as well as United Kingdom um don't need to actually opt into anything data remains within that region and I've summ that for you here again use the link to see the entire table of mappings between aure regions that will make it a lot more clear for your specific case now of course part of"
+    },
+    {
+      "t": 519.8,
+      "end": 539.9,
+      "text": "data governance is security and we know you care about security so when you use co-pilot when a user puts co-pilot to work um co-pilot runs under the user's same context which means all the data governance controls for security for privacy and so on they apply to co-pilot as well U now if you want to restrict"
+    },
+    {
+      "t": 539.9,
+      "end": 560,
+      "text": "which co-pilot features your users can actually access we've documented the uh list of permissions the specific permissions you can apply or deny as well for your users to control that um down to every single feature it's not every feature that has that permission but here you can see uh a couple of tips on how to do that now when"
+    },
+    {
+      "t": 560,
+      "end": 580.1,
+      "text": "you bet on the Microsoft cloud uh our promise to you is that your data is your data your customer data and what that means is that we don't use the data from co-pilot to train the AI models to the benefits of others and we don't go and look at your prompts either not unless you give us your explicit consent uh so we want to make sure that you"
+    },
+    {
+      "t": 580.1,
+      "end": 600.1,
+      "text": "feel safe and understand that this is a compliant system based on Azure uh where we keep your data as safe and compliant as possible all right well I hope you're as excited as we are about co-pilot and are ready to put that to work in your organization if you like this video just like And subscribe to our Channel you get a whole load more of these kind of videos and thank you so much"
+    },
+    {
+      "t": 600.1,
+      "end": 604,
+      "text": "for watching"
+    }
+  ],
+  "markers": [
+    {
+      "t": 1.04,
+      "text": "[Music]"
+    },
+    {
+      "t": 6.59,
+      "text": "[Music]"
+    },
+    {
+      "t": 6.6,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 1786
+}

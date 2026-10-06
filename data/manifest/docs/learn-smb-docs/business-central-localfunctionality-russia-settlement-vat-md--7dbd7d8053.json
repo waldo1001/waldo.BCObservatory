@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/Settlement-VAT",
   "published_at": "2025-08-07T14:51:39.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "97e047d8ea31e6d6313bb914d00c3a88b25c067c",
       "words": 295,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:14:51.905Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002563
+    },
+    "summarized": {
+      "at": "2026-10-06T19:15:27.657Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:15:27.658Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:15:27.660Z",
+      "page": false
     }
   },
   "input_hash": "97e047d8ea31e6d6313bb914d00c3a88b25c067c",
@@ -42,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "97e047d8ea31e6d6313bb914d00c3a88b25c067c"
+  "output_hash": "49d92f4efacad4af82b4ae4d67fea317e5220c35f854a62e405e35f5673da6c8"
 }

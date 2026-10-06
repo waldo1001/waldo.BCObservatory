@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/VAT-reinstatement.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/VAT-reinstatement",
+  "title": "VAT reinstatement in Russia",
+  "blob": "192d6ea5503510778e53834737b6f72d44e4e7d5",
+  "summary": "VAT reinstatement in Russia handles cases where previously deducted VAT must be returned to the budget. Use the VAT Reinstatement Worksheet to identify documents requiring VAT restoration and adjust amounts with configurable factors.",
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "vat reinstatement",
+    "input vat",
+    "vat deduction",
+    "russia",
+    "vat accounting"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "VAT Reinstatement Worksheet"
+    }
+  ],
+  "features": [
+    "VAT reinstatement",
+    "transit VAT",
+    "manual VAT settlement",
+    "realized VAT amount",
+    "VAT reinstatement worksheet"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002603,
+      "pages_in_call": 7
+    }
+  ]
+}

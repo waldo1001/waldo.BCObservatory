@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/tax-accounting",
   "published_at": "2025-08-07T14:51:39.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "035b456824736830491ba9ee2f8d48794741befe",
       "words": 380,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:14:51.908Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002563
+    },
+    "summarized": {
+      "at": "2026-10-06T19:15:29.501Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:15:29.502Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:15:29.503Z",
+      "page": false
     }
   },
   "input_hash": "035b456824736830491ba9ee2f8d48794741befe",
@@ -39,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "035b456824736830491ba9ee2f8d48794741befe"
+  "output_hash": "3ec66ca9b8736323fdc7370e71cddc0f43b247a49659f61120cb67fd38d6dd80"
 }

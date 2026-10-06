@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/VAT-reinstatement",
   "published_at": "2025-08-07T14:51:39.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "192d6ea5503510778e53834737b6f72d44e4e7d5",
       "words": 374,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:15:27.643Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.002603
+    },
+    "summarized": {
+      "at": "2026-10-06T19:15:29.519Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:15:29.521Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:15:29.522Z",
+      "page": false
     }
   },
   "input_hash": "192d6ea5503510778e53834737b6f72d44e4e7d5",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "192d6ea5503510778e53834737b6f72d44e4e7d5"
+  "output_hash": "dbc65f9e44b82779c369cbdb22679fe949ef1d93b3afbd1ddf27b0704c06f427"
 }

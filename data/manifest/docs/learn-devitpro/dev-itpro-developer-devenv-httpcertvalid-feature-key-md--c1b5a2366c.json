@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-httpcertvalid-feature-key",
   "published_at": "2025-08-05T10:45:00.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "9e5b02de29c7bdd28b03aaad02fca8d034f17b24",
       "words": 120,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:15:27.647Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002603
+    },
+    "summarized": {
+      "at": "2026-10-06T19:15:29.527Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:15:29.528Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:15:29.529Z",
+      "page": false
     }
   },
   "input_hash": "9e5b02de29c7bdd28b03aaad02fca8d034f17b24",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9e5b02de29c7bdd28b03aaad02fca8d034f17b24"
+  "output_hash": "4fc3cfb26b0b5b6d59e9e2563f1d9ad3e4e4a3edf635acd7dd7d8f4b42e7bccd"
 }

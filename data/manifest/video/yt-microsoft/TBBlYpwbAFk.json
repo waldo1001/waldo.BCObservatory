@@ -5,12 +5,39 @@
   "tier": "official",
   "title": "What's New: Environment-Level Access Controls for Delegated Administrators (2024 release wave 2)",
   "url": "https://www.youtube.com/watch?v=TBBlYpwbAFk",
-  "published_at": null,
+  "published_at": "2024-10-08T15:00:34.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T19:14:55.212Z",
+      "captions": "auto:en-orig",
+      "duration_s": 384
+    },
+    "captioned": {
+      "at": "2026-10-06T19:15:02.205Z",
+      "path": "data/captions/microsoft/TBBlYpwbAFk.vtt",
+      "vtt_sha256": "dff4cd58edf4661f228ceeca75b677c941e1c6aa711a26d818e8aa5956a635ae",
+      "segments": 19,
+      "words": 1018,
+      "lang": "en-orig",
+      "kind": "auto"
+    },
+    "extracted": {
+      "at": "2026-10-06T19:15:24.234Z",
+      "path": "data/extract/video/TBBlYpwbAFk.json",
+      "prompt": "extract-video@1",
+      "windows": 1,
+      "features": 5,
+      "quotes": 7,
+      "quotes_dropped": 0,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.015908
     }
   },
   "input_hash": null,
@@ -19,7 +46,14 @@
   "meta": {
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 344,
-    "duration_s": 385,
-    "via": "reconcile"
-  }
+    "duration_s": 384,
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "4089dbd81c57aa14e59b1cadf7398e334c768e8ac1ac1da2bf8addd089a0a647"
 }

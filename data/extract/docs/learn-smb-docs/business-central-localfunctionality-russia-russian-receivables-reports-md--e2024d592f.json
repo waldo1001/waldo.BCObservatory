@@ -1,0 +1,63 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/russian-receivables-reports.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/russian-receivables-reports",
+  "title": "Receivables reports in Russia",
+  "blob": "8c33f0ef3353c8a37e1208636f7f7d65ff77c395",
+  "summary": "Russian receivables reports include customer general ledger turnover, accounting card, turnover, posting group turnover, entries analysis, and reconciliation act reports for analyzing customer accounts and balances.",
+  "systems": [
+    "sales",
+    "localization"
+  ],
+  "topics": [
+    "receivables",
+    "customer reporting",
+    "russia",
+    "general ledger",
+    "turnover analysis"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Customer General Ledger Turnover"
+    },
+    {
+      "type": "report",
+      "name": "Customer Accounting Card"
+    },
+    {
+      "type": "report",
+      "name": "Customer Turnover"
+    },
+    {
+      "type": "report",
+      "name": "Customer Posting Group Turnover"
+    },
+    {
+      "type": "report",
+      "name": "Customer Entries Analysis"
+    },
+    {
+      "type": "report",
+      "name": "Customer - Reconciliation Act"
+    }
+  ],
+  "features": [
+    "rounding precision",
+    "zero value replacement",
+    "zero line exclusion",
+    "agreement printing",
+    "detail levels",
+    "currency selection"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002563,
+      "pages_in_call": 8
+    }
+  ]
+}

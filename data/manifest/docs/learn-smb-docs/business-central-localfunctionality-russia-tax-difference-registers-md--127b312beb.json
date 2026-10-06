@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/tax-difference-registers",
   "published_at": "2025-08-07T14:51:39.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "3a8b0f2832a5befb0869330b6f15851c9002303c",
       "words": 112,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:14:51.909Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002563
+    },
+    "summarized": {
+      "at": "2026-10-06T19:15:29.504Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:15:29.505Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:15:29.506Z",
+      "page": false
     }
   },
   "input_hash": "3a8b0f2832a5befb0869330b6f15851c9002303c",
@@ -40,5 +59,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "3a8b0f2832a5befb0869330b6f15851c9002303c"
+  "output_hash": "9192f5a77b553d7deccdd917fb9d1f2fa44c375ecceaa10fbb3b27ab89a4cbec"
 }

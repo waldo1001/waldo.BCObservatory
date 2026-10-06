@@ -1,0 +1,116 @@
+{
+  "video_id": "TBBlYpwbAFk",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 6.4,
+      "end": 26.7,
+      "text": "hello everyone my name is Ricardo and I am a software engineer in the contol plane team in business Central and uh we deal a lot with Administration scenarios and indeed today I'm here to talk to you about a new feature that is going to be introduced with the business Central 2024 Wave 2 and that is the ability to control the environment access"
+    },
+    {
+      "t": 26.7,
+      "end": 46.7,
+      "text": "and administration by partner so without further Ado let's just jump straight into the demo so that we can see this feature live in action okay so I am logged in into the usual tenant admin Center as an internal administrator in this case and I have my list of environments here on the environments"
+    },
+    {
+      "t": 46.7,
+      "end": 67,
+      "text": "list page so we can see that I have two different production environments for two different localizations one is for Germany and one is for us and as a customer I would like to achieve a setup where I have two different partners one that could manage the German environment and one that could manage the US"
+    },
+    {
+      "t": 67,
+      "end": 87.1,
+      "text": "environment and each of them should not be able to manage the other environments so how can I achieve this now with this new feature so we're going to have a new setting here available on the environment Details page that is called partner access and right now the value is set to all Partners this is exactly the default value that applies and has always applied"
+    },
+    {
+      "t": 87.1,
+      "end": 107.2,
+      "text": "until now so let's see how uh internal admin administrators can change this in the future so if I click on modify a new fly out opens and the text here explains exactly what is the impact of the toggles that I have ability to control right now so as I said this is a default setup but if I want to more granular control"
+    },
+    {
+      "t": 107.2,
+      "end": 127.6,
+      "text": "the level of access of this environment to the different partners that I have um a relationship with then I can untoggle this setting here the second one and that will give me an additional list uh that shows up here in the bottom of all the foreign tenants that have some kind of access to my customer"
+    },
+    {
+      "t": 127.6,
+      "end": 147.6,
+      "text": "tenant what does that mean so um if a tenant has a gdap relationship with my customer tenant then it will show as access type gup or if a tenant has some kind of application Level access to my customer tenant meaning that it is home to uh servic to service application"
+    },
+    {
+      "t": 147.6,
+      "end": 167.8,
+      "text": "multi-tenant application that has permissions for business Central granted in my customer tenant then it will show as access type app so in this case I said this is the German environment and I would only like the German partner identified by this tenant ID to have access to control and administer"
+    },
+    {
+      "t": 167.8,
+      "end": 188,
+      "text": "and view this environment in the admin Center and also being able to access the actual environment so log into that as in this case a service to service application then I would just toggle this app this tenant actually and just press save so when I press save this setting"
+    },
+    {
+      "t": 188,
+      "end": 208.4,
+      "text": "is applied and now we can see that the partner access is set to selected Partners so only the external tenants that I have explicitly opted in for this feature will have access to view and administer this environment so let's say that I want to revert this setting back to the default value that as it used to be then I can just toggle this again"
+    },
+    {
+      "t": 208.4,
+      "end": 228.5,
+      "text": "press save this will access to all the partner tenants but if I optionally want to instead disable partner access entirely meaning that I want this environment only to be accessible and administered by internal administrator internal administrators then I can just un toogle"
+    },
+    {
+      "t": 228.5,
+      "end": 248.6,
+      "text": "this first toggle here at the top this will disable the feature allog together and if I press save then the partner access is set to off so again this will only Grant access to this environment to internal administrators so there is a couple of good to know considerations regarding"
+    },
+    {
+      "t": 248.6,
+      "end": 269,
+      "text": "this feature first of all that the partner access settings affect the authentication of delegated users and foreign multi-tenant applications so both of these set of um users or applications will be affected in terms of authentication what does it mean so we said explicitly that both"
+    },
+    {
+      "t": 269,
+      "end": 289,
+      "text": "the environment access in terms of loging to the environment will be impacted so these restricted partner tenants will not be able to log in if they have not been explicitly allow listed for this environment and the ability to view and administer the environment in the tenant arm Center will also"
+    },
+    {
+      "t": 289,
+      "end": 303.2,
+      "text": "be impacted so the uh restricted Partners will not be able to view environments and any related settings and will not be able to administer perform any admin administrative operations on these"
+    },
+    {
+      "t": 303.2,
+      "end": 323.4,
+      "text": "environments then again this is a feature that acts on top of the requirement of having the tenant level access consents set up properly so it does not replace the need for setting up the gup relationships for external partner tenants or setting up app registrations and admin consent for"
+    },
+    {
+      "t": 323.4,
+      "end": 343.4,
+      "text": "uh external applications so this is still a requirement for this feature to work so on top of having this relationships and admin consent set up correctly then I can um react on that and further restrict the access controls for the partners that I prefer the other consideration is that um at"
+    },
+    {
+      "t": 343.4,
+      "end": 363.8,
+      "text": "the moment we have a limitation for being able to restrict the environment access on a given environment for up to 10 entra tenants let it be uh tenants uh that belong to Partners or tenants home to external foreign multi-tenant application so the ability to control the um environment"
+    },
+    {
+      "t": 363.8,
+      "end": 384,
+      "text": "level access is only available to internal administrators then the partner tenants uh will be affected in terms of authentication so thank you very much for listening this was all about this feature we hope you're going to enjoy that and have a great rest for the day thank you"
+    }
+  ],
+  "markers": [
+    {
+      "t": 0.97,
+      "text": "[Music]"
+    },
+    {
+      "t": 6.43,
+      "text": "[Music]"
+    },
+    {
+      "t": 6.44,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 1018
+}

@@ -1,0 +1,362 @@
+{
+  "video_id": "UQmuMPRlHek",
+  "item_id": "video/yt-microsoft/UQmuMPRlHek",
+  "title": "What's New: Setting Up Copilot in Business Central - Tips for Admins (2024 release wave 2)",
+  "duration_s": 604,
+  "systems": [
+    "copilot",
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "copilot setup",
+    "ai capabilities",
+    "data governance",
+    "azure openai",
+    "regional availability",
+    "language support",
+    "permissions",
+    "security",
+    "data privacy"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to Copilot capabilities",
+      "t_start": 0,
+      "t_end": 47.1
+    },
+    {
+      "title": "Copilot ready out of the box",
+      "t_start": 47.1,
+      "t_end": 120
+    },
+    {
+      "title": "Copilot and AI capabilities page",
+      "t_start": 120,
+      "t_end": 241.3
+    },
+    {
+      "title": "Language support and requirements",
+      "t_start": 241.3,
+      "t_end": 297.8
+    },
+    {
+      "title": "Geographic availability",
+      "t_start": 297.8,
+      "t_end": 358.2
+    },
+    {
+      "title": "Data governance and Azure OpenAI regions",
+      "t_start": 358.2,
+      "t_end": 459.3
+    },
+    {
+      "title": "Regional data handling and permissions",
+      "t_start": 459.3,
+      "t_end": 520
+    },
+    {
+      "title": "Security, privacy and data protection",
+      "t_start": 520,
+      "t_end": 604
+    }
+  ],
+  "features": [
+    {
+      "name": "Copilot for Business Central",
+      "description": "AI-powered assistant included with Business Central online licenses at no additional cost that helps users improve productivity, boost creativity, and eliminate tedious tasks like bank reconciliation and getting data insights.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 6.6,
+      "t_end": 107.6,
+      "is_demoed": true,
+      "caveats": [
+        "Feature availability varies by language and geography",
+        "Some languages are unsupported and may not perform as expected"
+      ],
+      "tags": [
+        "productivity",
+        "ai-assistant",
+        "included"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Copilot and AI capabilities page",
+      "description": "An admin page that provides transparency and control over all Copilot features and capabilities, allowing admins to see which features are generally available or in preview, view publishers, and activate or deactivate features per environment.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 120,
+      "t_end": 241.3,
+      "is_demoed": true,
+      "caveats": [
+        "Settings are per environment affecting all users and companies",
+        "Extensions from third-party publishers may add capabilities"
+      ],
+      "tags": [
+        "admin control",
+        "feature management",
+        "transparency"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Production ready preview features",
+      "description": "Copilot features marked as preview are labeled as production ready previews and are safe to use in production with users across the organization.",
+      "status": "preview",
+      "status_evidence_t": 140.4,
+      "status_evidence_quote": "we have some generally available features but then also some features in preview as well and these are clearly labeled as production ready previews",
+      "status_evidence_verified": true,
+      "t_start": 140.4,
+      "t_end": 160.6,
+      "is_demoed": false,
+      "caveats": [
+        "Features are labeled to distinguish preview from GA"
+      ],
+      "tags": [
+        "preview",
+        "production-ready"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Feature deactivation capability",
+      "description": "Admins can deactivate individual Copilot features per environment with a reason, making them instantly inactive and inaccessible to users.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 201.2,
+      "t_end": 221.3,
+      "is_demoed": true,
+      "caveats": [
+        "Changes affect all users in all companies within that environment"
+      ],
+      "tags": [
+        "admin control",
+        "feature management"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Copilot language support",
+      "description": "Copilot features are available in all Business Central languages, but only a subset are rigorously verified and tested by Microsoft as supported languages. Unsupported languages may not perform as expected.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 241.3,
+      "t_end": 297.8,
+      "is_demoed": false,
+      "caveats": [
+        "Each feature defines its own set of supported languages",
+        "Unsupported languages may not perform as expected and quality may vary"
+      ],
+      "tags": [
+        "language support",
+        "localization"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Geographic availability of Copilot features",
+      "description": "Copilot capabilities are available in all countries and geographies with a few exceptions. Features that are not available for certain environment country localizations will not appear in the Copilot and AI capabilities list.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 297.9,
+      "t_end": 358.2,
+      "is_demoed": true,
+      "caveats": [
+        "Some features are not available in certain country localizations",
+        "Features unavailable in a region will not appear in the list"
+      ],
+      "tags": [
+        "geographic availability",
+        "localization"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Azure OpenAI Service integration",
+      "description": "Copilot is powered by the Azure OpenAI Service which is part of the Azure cloud and designed for enterprise use with security, privacy, and compliance features.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 358.2,
+      "t_end": 378.2,
+      "is_demoed": false,
+      "caveats": [
+        "Azure OpenAI Service is not available in all regions for Business Central"
+      ],
+      "tags": [
+        "azure",
+        "ai-infrastructure"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Data movement control",
+      "description": "In regions without local Azure OpenAI Service, admins have a switch to control whether data can move to a different region where the service is available. Only minimal prompt and response data is moved, not the entire database.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 399,
+      "t_end": 459.3,
+      "is_demoed": true,
+      "caveats": [
+        "Only available as an option in regions without local Azure OpenAI Service",
+        "Data moves to regions like Sweden or Switzerland in certain cases"
+      ],
+      "tags": [
+        "data governance",
+        "regional data handling"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Copilot security and user context",
+      "description": "Copilot runs under the user's same security context, meaning all data governance controls for security and privacy apply to Copilot as well.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 519.8,
+      "t_end": 560,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "security",
+        "data governance"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Copilot feature permissions",
+      "description": "Admins can control which Copilot features users can access through specific permissions that can be applied or denied for each feature, allowing fine-grain control down to the individual feature level.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 539.9,
+      "t_end": 560,
+      "is_demoed": false,
+      "caveats": [
+        "Not every feature has individual permissions available"
+      ],
+      "tags": [
+        "permissions",
+        "admin control"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Data privacy - no AI model training",
+      "description": "Microsoft does not use Copilot data to train AI models for the benefit of others and does not examine user prompts without explicit consent.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 560,
+      "t_end": 580.1,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "privacy",
+        "data protection"
+      ],
+      "system": "platform"
+    }
+  ],
+  "objects": [],
+  "presenters": [
+    {
+      "name": "Mike",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 47.1,
+      "text": "co-pilot is currently included with your business Central online licenses at no additional cost",
+      "why_it_matters": "Establishes that Copilot is included with standard licenses, removing cost as a barrier to adoption",
+      "check": "exact"
+    },
+    {
+      "t": 47.1,
+      "text": "co-pilot is just ready to use out of the box no complex setup required",
+      "why_it_matters": "Clarifies that admins do not need to perform complex configuration or model training to enable Copilot",
+      "check": "exact"
+    },
+    {
+      "t": 87.3,
+      "text": "as soon as you deploy a new Sandbox a new production environment co-pilot is ready to use",
+      "why_it_matters": "Confirms that Copilot is enabled by default on new environments and during upgrades",
+      "check": "exact"
+    },
+    {
+      "t": 140.4,
+      "text": "features in preview as well and these are clearly labeled as production ready previews and what that means is it's actually safe to use",
+      "why_it_matters": "Clarifies the status of preview features and their production readiness",
+      "check": "exact"
+    },
+    {
+      "t": 261.4,
+      "text": "only a subset of those only some of those languages have been rigorously verified and tested by Microsoft those we call the supported languages",
+      "why_it_matters": "Distinguishes between available and fully supported languages for Copilot features",
+      "check": "exact"
+    },
+    {
+      "t": 399,
+      "text": "there isn't an Azure opening eye service in that same region uh so for co-pilot to operate to function uh it needs to actually",
+      "why_it_matters": "Explains why data movement controls are necessary in certain regions",
+      "check": "exact"
+    },
+    {
+      "t": 459.3,
+      "text": "it's only a small amount of data and it's the prompt and the response that you're using while you're interacting with co-pilot",
+      "why_it_matters": "Clarifies the scope of data that moves across regions when using Copilot",
+      "check": "exact"
+    },
+    {
+      "t": 560,
+      "text": "we don't use the data from co-pilot to train the AI models to the benefits of others",
+      "why_it_matters": "Addresses privacy concerns by confirming that user data is not used for model training",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 140.4,
+      "kind": "preview",
+      "text": "some features in preview as well and these are clearly labeled as production ready previews"
+    },
+    {
+      "t": 281.4,
+      "kind": "subject-to-change",
+      "text": "when you do that with an unsupported language um it may not perform as expected and quality may vary"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 8,
+    "quotes_dropped": 0,
+    "evidence_verified": 1,
+    "evidence_unverified": 10
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.027646000000000004
+    }
+  ]
+}

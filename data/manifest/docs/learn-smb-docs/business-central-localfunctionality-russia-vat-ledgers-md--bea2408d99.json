@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/vat-ledgers",
   "published_at": "2025-08-07T14:51:39.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "3ce07513dcc06463f6a7d4a1336582e3e57ab472",
       "words": 308,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:15:27.642Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.002603
+    },
+    "summarized": {
+      "at": "2026-10-06T19:15:29.515Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:15:29.516Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:15:29.517Z",
+      "page": false
     }
   },
   "input_hash": "3ce07513dcc06463f6a7d4a1336582e3e57ab472",
@@ -42,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "3ce07513dcc06463f6a7d4a1336582e3e57ab472"
+  "output_hash": "edfc63fc5d8b2a246070f65ce464568e90d9458a01a4b2ad2a78334ed6da1c19"
 }

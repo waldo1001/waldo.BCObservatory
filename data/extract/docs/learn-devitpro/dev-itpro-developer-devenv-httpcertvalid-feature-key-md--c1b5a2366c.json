@@ -1,0 +1,37 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-httpcertvalid-feature-key.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-httpcertvalid-feature-key",
+  "title": "HttpServerCertificateValidation feature key",
+  "blob": "9e5b02de29c7bdd28b03aaad02fca8d034f17b24",
+  "summary": "HttpServerCertificateValidation feature key controls server certificate validation for HTTP requests. In version 27, this feature is removed and certificate validation is enforced by default; use HttpClient.UseServerCertificateValidation method to disable if needed.",
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "http server certificate validation",
+    "feature key",
+    "httpclient",
+    "certificate validation",
+    "al development"
+  ],
+  "objects": [],
+  "features": [
+    "HttpServerCertificateValidation",
+    "server certificate validation",
+    "HttpClient.UseServerCertificateValidation method"
+  ],
+  "versions": [
+    "version 27"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002603,
+      "pages_in_call": 7
+    }
+  ]
+}

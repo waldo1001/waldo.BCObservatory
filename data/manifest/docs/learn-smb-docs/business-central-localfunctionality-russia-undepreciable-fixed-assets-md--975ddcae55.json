@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/undepreciable-fixed-assets",
   "published_at": "2025-08-07T14:51:39.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "0b85e744640b5bdd149dd5254246e2cc23d1513e",
       "words": 237,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:15:27.641Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.002603
+    },
+    "summarized": {
+      "at": "2026-10-06T19:15:29.510Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:15:29.511Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:15:29.513Z",
+      "page": false
     }
   },
   "input_hash": "0b85e744640b5bdd149dd5254246e2cc23d1513e",
@@ -40,5 +59,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "0b85e744640b5bdd149dd5254246e2cc23d1513e"
+  "output_hash": "3db514d8422a022236e2429574ca1cc46f83b6a0fccc2808353301a84d1a41cb"
 }

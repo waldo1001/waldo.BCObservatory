@@ -1,0 +1,46 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/vat-ledgers.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/vat-ledgers",
+  "title": "VAT ledgers in Russia",
+  "blob": "3ce07513dcc06463f6a7d4a1336582e3e57ab472",
+  "summary": "VAT ledgers in Russia create and print VAT purchase and sales ledgers with additional sheets. Set up VAT posting groups and number series, then use batch jobs to add lines and print ledgers for VAT tracking.",
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "vat ledgers",
+    "vat purchase ledger",
+    "vat sales ledger",
+    "russia",
+    "vat posting"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Sales Return Order"
+    },
+    {
+      "type": "table",
+      "name": "Sales Credit Memo"
+    }
+  ],
+  "features": [
+    "VAT purchase ledger",
+    "VAT sales ledger",
+    "additional sheets",
+    "VAT posting groups",
+    "VAT ledger types"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002603,
+      "pages_in_call": 7
+    }
+  ]
+}

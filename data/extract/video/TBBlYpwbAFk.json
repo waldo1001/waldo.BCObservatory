@@ -1,0 +1,254 @@
+{
+  "video_id": "TBBlYpwbAFk",
+  "item_id": "video/yt-microsoft/TBBlYpwbAFk",
+  "title": "What's New: Environment-Level Access Controls for Delegated Administrators (2024 release wave 2)",
+  "duration_s": 384,
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "delegated administrator access",
+    "partner access control",
+    "environment-level security",
+    "gdap",
+    "tenant isolation",
+    "multi-tenant application access",
+    "admin center",
+    "authentication restrictions"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to environment access control feature",
+      "t_start": 0,
+      "t_end": 26.7
+    },
+    {
+      "title": "Demo setup: tenant admin center and production environments",
+      "t_start": 26.7,
+      "t_end": 67
+    },
+    {
+      "title": "Partner access setting and modification interface",
+      "t_start": 67,
+      "t_end": 107.2
+    },
+    {
+      "title": "Understanding access types: GDAP and application-level access",
+      "t_start": 107.2,
+      "t_end": 147.6
+    },
+    {
+      "title": "Configuring selected partners for environment access",
+      "t_start": 147.6,
+      "t_end": 188
+    },
+    {
+      "title": "Reverting settings and disabling partner access entirely",
+      "t_start": 188,
+      "t_end": 228.5
+    },
+    {
+      "title": "Impact on authentication and relationship with tenant-level access",
+      "t_start": 228.5,
+      "t_end": 303.2
+    },
+    {
+      "title": "Limitations and administrative access control restrictions",
+      "t_start": 303.2,
+      "t_end": 384
+    }
+  ],
+  "features": [
+    {
+      "name": "Partner access control by environment",
+      "description": "A new feature allowing internal administrators to control which partner tenants can access and administer specific environments. Can be set to all partners, selected partners, or off.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 6.4,
+      "t_end": 228.5,
+      "is_demoed": true,
+      "caveats": [
+        "Requires proper tenant-level access consents and GDAP relationships to already be set up",
+        "Limited to restricting access for up to 10 Entra tenants per environment",
+        "Only available for internal administrators to configure",
+        "Affects both login access and admin center visibility"
+      ],
+      "tags": [
+        "delegated administrator",
+        "partner access",
+        "environment security",
+        "tenant isolation"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "All partners access mode",
+      "description": "The default partner access setting that grants access to all external partner tenants with GDAP relationships or application-level access.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 67,
+      "t_end": 188,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "default setting",
+        "backward compatible"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Selected partners access mode",
+      "description": "An access control mode that allows internal administrators to explicitly choose which partner tenants can access a specific environment, using a list of available foreign tenants.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 107.2,
+      "t_end": 188,
+      "is_demoed": true,
+      "caveats": [
+        "Requires GDAP relationships or application-level access to already exist",
+        "Maximum of 10 Entra tenants can be allowed per environment"
+      ],
+      "tags": [
+        "granular control",
+        "explicit allowlisting"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Partner access disabled mode",
+      "description": "A setting that disables partner access entirely, restricting environment access and administration to internal administrators only.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 208.4,
+      "t_end": 228.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "complete restriction",
+        "internal only access"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Environment details page partner access setting",
+      "description": "A new setting on the environment details page in the tenant admin center that controls partner access levels with a modify interface.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 67,
+      "t_end": 107.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "ui",
+        "admin center",
+        "settings"
+      ],
+      "system": "administration"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "environments list page",
+      "t": 46.7
+    },
+    {
+      "type": "page",
+      "name": "environment Details page",
+      "t": 67
+    },
+    {
+      "type": "page",
+      "name": "tenant admin Center",
+      "t": 26.7
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Ricardo",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 6.4,
+      "text": "a new feature that is going to be introduced with the business Central 2024 Wave 2 and that is the ability to control the",
+      "why_it_matters": "Establishes the core purpose and release timing of the feature being discussed",
+      "check": "exact"
+    },
+    {
+      "t": 67,
+      "text": "partner access and right now the value is set to all Partners this is exactly the default value that applies and has always applied",
+      "why_it_matters": "Confirms backward compatibility and default behavior of the new setting",
+      "check": "exact"
+    },
+    {
+      "t": 127.6,
+      "text": "if a tenant has a gdap relationship with my customer tenant then it will show as access type gup or if a tenant has",
+      "why_it_matters": "Explains the two types of external tenant access that can be controlled",
+      "check": "snapped"
+    },
+    {
+      "t": 188,
+      "text": "selected Partners so only the external tenants that I have explicitly opted in for this feature will have access to view and administer this",
+      "why_it_matters": "Describes how the selected partners mode allows granular control over environment access",
+      "check": "exact"
+    },
+    {
+      "t": 248.6,
+      "text": "the partner access settings affect the authentication of delegated users and foreign multi-tenant applications so both of these set of um users or applications",
+      "why_it_matters": "Clarifies the scope of impact on both user authentication and application access",
+      "check": "exact"
+    },
+    {
+      "t": 303.2,
+      "text": "this is a feature that acts on top of the requirement of having the tenant level access consents set up properly so it does",
+      "why_it_matters": "Important caveat that the feature requires existing access infrastructure to already be in place",
+      "check": "exact"
+    },
+    {
+      "t": 343.4,
+      "text": "we have a limitation for being able to restrict the environment access on a given environment for up to 10 entra tenants",
+      "why_it_matters": "States a concrete technical limitation of the feature",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 303.2,
+      "kind": "subject-to-change",
+      "text": "this is a feature that acts on top of the requirement of having the tenant level access consents set up properly so it does not replace the need for setting up the gup relationships for external partner tenants or setting up app registrations and admin consent for uh external applications so this is still a requirement"
+    },
+    {
+      "t": 343.4,
+      "kind": "other",
+      "text": "at the moment we have a limitation for being able to restrict the environment access on a given environment for up to 10 entra tenants"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 5
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.015908
+    }
+  ]
+}

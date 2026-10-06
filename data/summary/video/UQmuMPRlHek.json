@@ -1,0 +1,27 @@
+{
+  "video_id": "UQmuMPRlHek",
+  "item_id": "video/yt-microsoft/UQmuMPRlHek",
+  "summary": "Admin setup of Copilot in Business Central (2024 release wave 2): the Copilot and AI capabilities page, per-environment feature deactivation, language and geographic availability, Azure OpenAI data movement between regions, feature permissions, and data privacy.",
+  "overview": "The video explains what administrators need to know to manage Copilot in Business Central. Copilot is included with Business Central online licenses at no additional cost and is ready to use in new sandbox and production environments without complex setup.\n\nIt then walks through the Copilot and AI capabilities page, where admins see each feature, its publisher and whether it is generally available or in preview, and can activate or deactivate features per environment. It covers language support, geographic availability, the data movement switch for regions without a local Azure OpenAI Service, feature-level permissions, and the security and privacy position.",
+  "key_points": [
+    "Copilot is included with Business Central online licenses at no additional cost and works out of the box in new sandbox and production environments.",
+    "The Copilot and AI capabilities page lets admins see publishers, whether each feature is generally available or in preview, and activate or deactivate features per environment.",
+    "Deactivating a feature requires a reason, takes effect immediately, and applies to all users in all companies of that environment.",
+    "Features marked as preview are labeled production ready previews, described in the video as safe to use in production.",
+    "Copilot is available in all Business Central languages, but only a verified subset is supported. Each feature defines its own supported languages, and unsupported languages may give lower quality.",
+    "Features not available for an environment's country localization do not appear in the Copilot and AI capabilities list.",
+    "In regions without a local Azure OpenAI Service, admins have a switch to allow data movement to another region (for example Sweden or Switzerland). Only the prompt and response are moved, not the database."
+  ],
+  "audience": [
+    "administrator",
+    "functional consultant",
+    "decision maker"
+  ],
+  "extraction_hash": "787690b25c4073e9a55bfd9dc50a8aad2bdb08eaff42ceefeb9f60c6108305c6",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0179024
+  }
+}

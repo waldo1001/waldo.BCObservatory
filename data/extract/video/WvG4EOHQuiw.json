@@ -1,0 +1,506 @@
+{
+  "video_id": "WvG4EOHQuiw",
+  "item_id": "video/yt-microsoft/WvG4EOHQuiw",
+  "title": "What's New: Field Service Integration to Service Management (2024 release wave 2)",
+  "duration_s": 1277,
+  "systems": [
+    "service",
+    "integration",
+    "inventory"
+  ],
+  "topics": [
+    "field service integration",
+    "service management",
+    "work order synchronization",
+    "inventory availability",
+    "virtual tables",
+    "integration table mappings",
+    "service contracts",
+    "work order incidents",
+    "location synchronization",
+    "consumption tracking",
+    "material management",
+    "invoicing"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Overview",
+      "t_start": 0,
+      "t_end": 83.6
+    },
+    {
+      "title": "Setup, Timing, and Prerequisites",
+      "t_start": 83.6,
+      "t_end": 144.2
+    },
+    {
+      "title": "Enabling Premium Experience and Integration Setup",
+      "t_start": 144.2,
+      "t_end": 282.9
+    },
+    {
+      "title": "Mandatory Settings and Integration Table Mappings",
+      "t_start": 282.9,
+      "t_end": 371
+    },
+    {
+      "title": "Inventory Availability by Location",
+      "t_start": 371,
+      "t_end": 551.3
+    },
+    {
+      "title": "Service Order and Work Order Alignment (Part 1)",
+      "t_start": 551.3,
+      "t_end": 783.4
+    },
+    {
+      "title": "Service Order and Work Order Alignment (Part 2)",
+      "t_start": 783.4,
+      "t_end": 904.7
+    },
+    {
+      "title": "Consumption and Material Tracking",
+      "t_start": 904.7,
+      "t_end": 1026.3
+    },
+    {
+      "title": "Work Order Completion and Invoicing",
+      "t_start": 1026.3,
+      "t_end": 1108.8
+    },
+    {
+      "title": "Bidirectional Synchronization Summary",
+      "t_start": 1108.8,
+      "t_end": 1277
+    }
+  ],
+  "features": [
+    {
+      "name": "Field Service Integration to Service Management",
+      "description": "Integration between Business Central's service management module and Dynamics 365 Field Service, allowing companies to manage service tasks, handle consumption, and align financial transactions. Enables technicians and dispatchers to check inventory availability in field service based on data from Business Central.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 5.9,
+      "t_end": 144.2,
+      "is_demoed": true,
+      "caveats": [
+        "Requires premium experience to be enabled in company information",
+        "Requires connection to dataverse",
+        "Requires connection to sales",
+        "Service management module is part of premium experience"
+      ],
+      "tags": [
+        "field service",
+        "service management",
+        "integration",
+        "maintenance",
+        "repairs"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Integration Type Selection",
+      "description": "New setting in the assisted setup guide that allows configuring integration either to projects or to service management module or to both. Provides toggle to enable inventory availability by location.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 201.6,
+      "t_end": 242.2,
+      "is_demoed": true,
+      "caveats": [
+        "Virtual tables must be enabled to use inventory availability feature",
+        "Setting available in field service integration setup page"
+      ],
+      "tags": [
+        "setup",
+        "integration",
+        "configuration"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "New Integration Table Mappings",
+      "description": "Added location, service order, service item line, and service order type integration table mappings when field service integration to service management is enabled. Extends existing field service to projects integration table mappings.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 242.2,
+      "t_end": 371,
+      "is_demoed": true,
+      "caveats": [
+        "Location mapping is unidirectional from Business Central to field service",
+        "In transit locations excluded from synchronization",
+        "Locations with mandatory warehouse pick excluded"
+      ],
+      "tags": [
+        "integration",
+        "table mappings",
+        "synchronization"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Inventory Availability by Location",
+      "description": "Technicians and dispatchers can check inventory availability at specific warehouses or at technician's desk in field service based on data from Business Central inventory management. Uses location to warehouse mapping synchronization and a new API exposed as a virtual table with synthetic relation to synced products.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 371,
+      "t_end": 551.3,
+      "is_demoed": true,
+      "caveats": [
+        "Unidirectional synchronization from Business Central to field service",
+        "In transit and warehouse pick mandatory locations excluded",
+        "Requires location to warehouse mapping synchronization",
+        "Requires virtual tables to be enabled"
+      ],
+      "tags": [
+        "inventory",
+        "availability",
+        "location",
+        "warehouse",
+        "synchronization"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Service Order and Work Order Alignment",
+      "description": "Bidirectional synchronization between service orders in Business Central and work orders in field service. Service orders synchronize automatically with work orders. Work orders from field service can sync back to Business Central when 'integrate to service' flag is checked. Service orders can originate from service contracts or various field service sources like opportunities and cases.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 551.3,
+      "t_end": 904.7,
+      "is_demoed": true,
+      "caveats": [
+        "Background task automatically synchronizes service orders to work orders",
+        "Work order synchronization back to Business Central requires integrate to service flag",
+        "Service item lines are aligned with work order incidents",
+        "Estimated quantities and duration sync only until work order reaches scheduled status",
+        "Requires 'Integrate to Service' flag to be checked on work orders",
+        "Conditional bidirectional synchronization based on work order status"
+      ],
+      "tags": [
+        "service order",
+        "work order",
+        "synchronization",
+        "bidirectional",
+        "field service",
+        "opportunities",
+        "cases"
+      ],
+      "system": "service"
+    },
+    {
+      "name": "Service Management Setup Changes",
+      "description": "When field service integration is enabled, certain service management setup settings become locked. One service line per order is disabled, service order type is made mandatory, archiving of service orders is turned on, and service order numbering requires manual flag to ensure numbering does not need to match field service.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 282.9,
+      "t_end": 351,
+      "is_demoed": false,
+      "caveats": [
+        "Multiple customer assets per work order requires disabling one service line per order",
+        "Service order type mandatory on both sides",
+        "Numbering may differ between field service and Business Central"
+      ],
+      "tags": [
+        "service management",
+        "setup",
+        "configuration"
+      ],
+      "system": "service"
+    },
+    {
+      "name": "Location Mandatory Setup",
+      "description": "Location becomes a mandatory setup requirement when inventory availability feature is enabled. Ensures location information is properly synchronized between Business Central and field service.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 351,
+      "t_end": 371,
+      "is_demoed": false,
+      "caveats": [
+        "Only required when inventory availability feature is enabled"
+      ],
+      "tags": [
+        "setup",
+        "location",
+        "mandatory"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Service Item Lines and Work Order Incidents Alignment",
+      "description": "Service item lines are aligned with work order incidents. One or multiple customer assets can be associated with work order incidents, allowing one or more service item lines on a service order.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 843.9,
+      "t_end": 864.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "service item",
+        "work order",
+        "incidents",
+        "customer assets"
+      ],
+      "system": "service"
+    },
+    {
+      "name": "Estimated Quantities and Duration Synchronization",
+      "description": "Service lines sync estimated quantities and duration to work orders to indicate to the dispatcher what needs to be done. Synchronization continues up until the work order reaches scheduled status.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 864.1,
+      "t_end": 904.7,
+      "is_demoed": true,
+      "caveats": [
+        "Synchronization stops at scheduled status",
+        "Quantity to ship, consume, and invoice continue to sync after scheduled status"
+      ],
+      "tags": [
+        "quantities",
+        "duration",
+        "estimated",
+        "synchronization"
+      ],
+      "system": "service"
+    },
+    {
+      "name": "Consumption and Material Tracking",
+      "description": "Technicians can track material and service consumption during work order execution. The dispatcher can monitor quantity to ship and quantity to consume updates synchronized from field service.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 904.7,
+      "t_end": 1026.3,
+      "is_demoed": true,
+      "caveats": [
+        "Manual or automatic synchronization from Dataverse"
+      ],
+      "tags": [
+        "consumption",
+        "materials",
+        "parts",
+        "tracking"
+      ],
+      "system": "service"
+    },
+    {
+      "name": "Work Order Status Workflow",
+      "description": "Work orders progress through statuses: in progress when technician arrives, completed when work is done in field service, finished when synchronized to Business Central, and posted after invoicing.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 925.3,
+      "t_end": 1108.8,
+      "is_demoed": true,
+      "caveats": [
+        "Work order is locked for further editing once posted"
+      ],
+      "tags": [
+        "work order status",
+        "workflow",
+        "booking status"
+      ],
+      "system": "service"
+    },
+    {
+      "name": "Service Invoice Posting",
+      "description": "Once work order is completed and consumption data is confirmed, back office can post service invoice. After posting, the work order status is updated to posted in field service.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1067.7,
+      "t_end": 1108.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "invoicing",
+        "service invoice",
+        "posting"
+      ],
+      "system": "service"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Field Service Integration Setup",
+      "t": 221.9
+    },
+    {
+      "type": "table",
+      "name": "Integration Table Mappings",
+      "t": 242.2
+    },
+    {
+      "type": "other",
+      "name": "Location Integration Table Mapping",
+      "t": 262.8
+    },
+    {
+      "type": "other",
+      "name": "Project Task Integration Table Mapping",
+      "t": 262.8
+    },
+    {
+      "type": "other",
+      "name": "Service Order Integration Table Mapping",
+      "t": 262.8
+    },
+    {
+      "type": "other",
+      "name": "Service Item Line Integration Table Mapping",
+      "t": 262.8
+    },
+    {
+      "type": "other",
+      "name": "Service Order Type Integration Table Mapping",
+      "t": 262.8
+    },
+    {
+      "type": "page",
+      "name": "Service Management Setup",
+      "t": 299.9
+    },
+    {
+      "type": "page",
+      "name": "Service Orders",
+      "t": 571.3
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Ian",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 26.1,
+      "text": "integrating business Central with Dynamics 365 field service is of particular value to companies that do regular maintenance or or they do repairs of",
+      "why_it_matters": "Clarifies the primary use case and business value of the integration for maintenance and repair services.",
+      "check": "exact"
+    },
+    {
+      "t": 83.6,
+      "text": "this is a feature that is becoming available in a first update or a November update of 2024 release wave one",
+      "why_it_matters": "Establishes the timeline and availability window for this feature in the release schedule.",
+      "check": "exact"
+    },
+    {
+      "t": 144.2,
+      "text": "service management module is a part of the premium experience so the first thing that you will need to do in order even to",
+      "why_it_matters": "Identifies a critical prerequisite that service management requires premium experience licensing.",
+      "check": "exact"
+    },
+    {
+      "t": 489.8,
+      "text": "location to Warehouse map synchronization this is a unidirectional synchronization meaning the business Central given that it's a system of record for inventory is",
+      "why_it_matters": "Explains the synchronization direction and data ownership model for inventory information.",
+      "check": "exact"
+    },
+    {
+      "t": 591.4,
+      "text": "the moment you actually create a service order it is going to get it is going to start synchronizing in there",
+      "why_it_matters": "Describes the automatic synchronization behavior when service orders are created in Business Central.",
+      "check": "exact"
+    },
+    {
+      "t": 803.8,
+      "text": "there's a b directional synchronization of of those things so means that service orders can come either as a result of service contracts and",
+      "why_it_matters": "Clarifies that synchronization flows both directions and service orders can originate from either system.",
+      "check": "exact"
+    },
+    {
+      "t": 823.9,
+      "text": "there's actually a new fl that is called integrate to service which you need to",
+      "why_it_matters": "This flag is a required control point for enabling work order synchronization from Field Service to Business Central.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 864.1,
+      "text": "estimated quantities and duration uh synchronized uh to indicate uh to the dispatcher that this is something to uh look at and the important",
+      "why_it_matters": "Identifies a specific synchronization limit where estimated quantities stop syncing once work orders reach scheduled status.",
+      "check": "exact"
+    },
+    {
+      "t": 884.6,
+      "text": "estimated quantities and the quantity field actually just gets synchronized to work order up until the work order reaches the scheduled status that's when",
+      "why_it_matters": "Defines the synchronization boundaries for quantities based on work order status.",
+      "check": "exact"
+    },
+    {
+      "t": 1140,
+      "text": "it is sort of a conditional b directional synchronization so what you saw that we had use quantities and durations",
+      "why_it_matters": "Clarifies that bidirectional sync is conditional on work order status, not always active.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 1237.4,
+      "text": "this feature is going to get going to become available with update one of 2024 release wave",
+      "why_it_matters": "Confirms the availability and release timeline for this integration.",
+      "check": "fuzzy"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 83.6,
+      "kind": "preview",
+      "text": "this is a feature that is becoming available in a first update or a November update of 2024 release wave one"
+    },
+    {
+      "t": 221.9,
+      "kind": "preview",
+      "text": "inventory availability by location in order to do that you will also need to have the virtual tables uh enabled"
+    },
+    {
+      "t": 1237.4,
+      "kind": "coming-later",
+      "text": "this feature is going to get going to become available with update one of 2024 release wave 2 meaning November update"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 11,
+    "quotes_dropped": 1,
+    "evidence_verified": 0,
+    "evidence_unverified": 12
+  },
+  "windows": 2,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.028637000000000003
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.020501000000000002
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.022015
+    }
+  ]
+}

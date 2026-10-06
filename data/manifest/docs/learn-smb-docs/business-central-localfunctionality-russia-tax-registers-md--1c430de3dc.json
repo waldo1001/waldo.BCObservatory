@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/tax-registers",
   "published_at": "2025-08-07T14:51:39.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "12649255b1bd69982efc8b32f964e3c419354bfd",
       "words": 123,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:15:27.640Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.002603
+    },
+    "summarized": {
+      "at": "2026-10-06T19:15:29.507Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:15:29.508Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:15:29.509Z",
+      "page": false
     }
   },
   "input_hash": "12649255b1bd69982efc8b32f964e3c419354bfd",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "12649255b1bd69982efc8b32f964e3c419354bfd"
+  "output_hash": "047d169256c2a5c399b21c09ac4a37e582318c96c09b9ab5ab7c656c8099c174"
 }

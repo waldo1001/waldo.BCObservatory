@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/tax-accounting.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/tax-accounting",
+  "title": "Tax accounting in Russia",
+  "blob": "035b456824736830491ba9ee2f8d48794741befe",
+  "summary": "Tax accounting in Russia tracks taxable profits and losses using tax registers, fixed asset depreciation, and tax codes with analytic and synthetic register types based on financial database entries.",
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "tax accounting",
+    "russia",
+    "tax registers",
+    "fixed assets",
+    "tax tracking"
+  ],
+  "objects": [],
+  "features": [
+    "analytic tax registers",
+    "synthetic tax registers",
+    "general ledger entry tracking",
+    "fixed asset entry",
+    "item entry",
+    "future expense entry",
+    "accumulation registers"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002563,
+      "pages_in_call": 8
+    }
+  ]
+}
