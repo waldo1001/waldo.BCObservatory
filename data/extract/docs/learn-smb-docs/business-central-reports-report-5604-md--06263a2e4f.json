@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-5604.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5604",
+  "title": "Fixed Asset Details (report)",
+  "blob": "efbec707ed2f7964a882bcf4475ae41b5673b7a9",
+  "summary": "The Fixed Asset Details report displays fixed asset ledger entries with detailed information about acquisition cost, depreciation, and book value for each fixed asset, with optional inclusion of reversed entries.",
+  "systems": [
+    "fixed-assets",
+    "reporting"
+  ],
+  "topics": [
+    "fixed asset details",
+    "acquisition cost",
+    "depreciation",
+    "book value",
+    "ledger entries"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Fixed Asset Details"
+    }
+  ],
+  "features": [
+    "acquisition cost",
+    "depreciation information",
+    "book value",
+    "reversed entries filter"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002169,
+      "pages_in_call": 8
+    }
+  ]
+}

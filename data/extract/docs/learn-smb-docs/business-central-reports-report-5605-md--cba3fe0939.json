@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-5605.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5605",
+  "title": "Fixed Asset Book Value 01 (report)",
+  "blob": "5748cf65e84f1db1eefbf43227f1fee74b4c7e4e",
+  "summary": "The Fixed Asset Book Value 01 report shows acquisition cost, depreciation value, and book value for individual and grouped assets with optional budget depreciation calculations and landscape orientation output.",
+  "systems": [
+    "fixed-assets",
+    "reporting"
+  ],
+  "topics": [
+    "book value",
+    "acquisition cost",
+    "depreciation",
+    "fixed asset groups",
+    "budget report"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Fixed Asset Book Value 01"
+    }
+  ],
+  "features": [
+    "book value analysis",
+    "depreciation calculation",
+    "group totals",
+    "budget report",
+    "landscape orientation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002169,
+      "pages_in_call": 8
+    }
+  ]
+}

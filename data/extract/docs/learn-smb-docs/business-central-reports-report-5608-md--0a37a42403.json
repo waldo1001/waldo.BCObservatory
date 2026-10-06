@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-5608.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5608",
+  "title": "Fixed Asset - Acquisition List (report)",
+  "blob": "690ac78aa7321b36c97a63a8e231317afa7a4da8",
+  "summary": "The Fixed Asset - Acquisition List report lists all fixed assets acquired in a given date range with details like asset number, description, employee, location, serial number, and acquisition date.",
+  "systems": [
+    "fixed-assets",
+    "reporting"
+  ],
+  "topics": [
+    "acquisition list",
+    "fixed assets",
+    "acquisition date",
+    "location tracking",
+    "serial numbers"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Fixed Asset - Acquisition List"
+    }
+  ],
+  "features": [
+    "acquisition tracking",
+    "date range filtering",
+    "created but not acquired assets",
+    "location codes",
+    "employee responsibility"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002169,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-5603.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5603",
+  "title": "Fixed Asset Register (report)",
+  "blob": "5c0558cb32df982835d18cec782cd2b3a9a23714",
+  "summary": "The Fixed Asset Register report shows posted fixed asset ledger entries sorted by register numbers, displaying transaction details like posting dates, document numbers, depreciation books, and amounts for auditing and documentation.",
+  "systems": [
+    "fixed-assets",
+    "reporting",
+    "finance"
+  ],
+  "topics": [
+    "fixed asset transactions",
+    "register report",
+    "posted entries",
+    "depreciation",
+    "auditing"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Fixed Asset Register"
+    }
+  ],
+  "features": [
+    "post and print",
+    "filter by fixed asset",
+    "analyze transactions",
+    "reconcile with general ledger"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002169,
+      "pages_in_call": 8
+    }
+  ]
+}

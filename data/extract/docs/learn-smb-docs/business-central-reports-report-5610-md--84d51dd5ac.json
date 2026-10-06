@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-5610.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5610",
+  "title": "Fixed Asset G/L Analysis (report)",
+  "blob": "3765d9ad7a291495e9ebd6865486a507bca9df34",
+  "summary": "The Fixed Asset G/L Analysis report shows analysis of fixed assets with various data types for individual assets and groups, calculated from fixed asset ledger entries and reconcilable with general ledger entries.",
+  "systems": [
+    "fixed-assets",
+    "reporting",
+    "finance"
+  ],
+  "topics": [
+    "g/l analysis",
+    "fixed assets",
+    "ledger entries",
+    "general ledger reconciliation",
+    "posting setup"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Fixed Asset G/L Analysis"
+    }
+  ],
+  "features": [
+    "G/L account analysis",
+    "fixed asset groups",
+    "posting date calculation",
+    "general ledger integration",
+    "reconciliation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002169,
+      "pages_in_call": 8
+    }
+  ]
+}

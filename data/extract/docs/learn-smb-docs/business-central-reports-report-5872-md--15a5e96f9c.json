@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-5872.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5872",
+  "title": "BOM Cost Share Distribution (report)",
+  "blob": "d1be8386458b56a7987b95138bf447771fe7405f",
+  "summary": "The BOM Cost Share Distribution report illustrates how an assembled or produced item's cost is distributed through its bill of materials using pie charts for material/labor and direct/indirect cost proportions.",
+  "systems": [
+    "manufacturing",
+    "assembly"
+  ],
+  "topics": [
+    "bom",
+    "cost analysis",
+    "manufacturing",
+    "assembly",
+    "reporting"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "BOM Cost Share Distribution"
+    },
+    {
+      "type": "page",
+      "name": "BOM Cost Shares"
+    }
+  ],
+  "features": [
+    "cost distribution",
+    "material costs",
+    "labor costs",
+    "manufacturing overhead",
+    "cost share details",
+    "direct/indirect costs"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.001267,
+      "pages_in_call": 8
+    }
+  ]
+}

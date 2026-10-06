@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-5633.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5633",
+  "title": "Maintenance Register (report)",
+  "blob": "178b45051f630cef3283355db88e971231a3bc13",
+  "summary": "The Maintenance Register report displays posted maintenance entries sorted by register number for fixed assets, with filtering options and the ability to print during the posting process.",
+  "systems": [
+    "fixed-assets"
+  ],
+  "topics": [
+    "maintenance",
+    "fixed assets",
+    "reporting",
+    "ledger entries",
+    "posting"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Maintenance Register"
+    }
+  ],
+  "features": [
+    "filter by register",
+    "post and print",
+    "posted maintenance entries"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.001267,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-5606.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5606",
+  "title": "Fixed Asset Book Value 02 (report)",
+  "blob": "f1695eef421eec7dc80a48038c6e5bcdaa35f342",
+  "summary": "The Fixed Asset Book Value 02 report shows the breakdown of fixed asset book value by changes in acquisition, depreciation, and appreciation within a period, including additions and disposals with optional group totals.",
+  "systems": [
+    "fixed-assets",
+    "reporting"
+  ],
+  "topics": [
+    "book value",
+    "depreciation",
+    "acquisitions",
+    "disposals",
+    "reclassification"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Fixed Asset Book Value 02"
+    }
+  ],
+  "features": [
+    "book value breakdown",
+    "acquisition changes",
+    "depreciation analysis",
+    "disposal tracking",
+    "reclassification entries",
+    "budget report"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002169,
+      "pages_in_call": 8
+    }
+  ]
+}

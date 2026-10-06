@@ -1,0 +1,181 @@
+{
+  "video_id": "2_yYu3RgYwo",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 7.5,
+      "end": 24.3,
+      "text": "Welcome to this busy central launch event 20125 release day one. In this session, we will introduce uh you to one small but very nice feature in sustainability using default values on different master data."
+    },
+    {
+      "t": 24.3,
+      "end": 44.2,
+      "text": "When I say different values, different sustainability values. Okay, to start with that first what do you need to do? You need to move to sustainability setup to enable these default values and why you need to do that because just imagine you do not want to use sustainability or you do not want to use maybe these default values."
+    },
+    {
+      "t": 44.2,
+      "end": 57.7,
+      "text": "So in this case for you it will be business as usual because by default it will be disabled only if you want to use you will system will automatically change us your experience and you will see some new fields."
+    },
+    {
+      "t": 57.7,
+      "end": 71.4,
+      "text": "So what you need to do in sustainability setup you will find procurement fast tab and there you will find four different uh fields for general ledger uh enablement item resource and working machine center enablement."
+    },
+    {
+      "t": 71.4,
+      "end": 86.4,
+      "text": "You will find fifth one for item charge but currently this is disabled by default. You cannot enable in this moment. I will explain why. So what do you need to do? You just need to enable these fields and all these default values will be visible on these different master data."
+    },
+    {
+      "t": 86.4,
+      "end": 106,
+      "text": "So what you will get on GL account you will get only sustainability account as default value. So you can add only sustainability account there because there is no reason to add emission values in in general edure account because all the time probably you will have different uh values when you want to post something."
+    },
+    {
+      "t": 106,
+      "end": 121.6,
+      "text": "But for all other uh cards on item card, resource card, B and machine center cards, you can set up uh either uh not either both uh sustainability account and three the different gas emissions default values."
+    },
+    {
+      "t": 121.6,
+      "end": 134.4,
+      "text": "You can change them later when you're working, but you will have default values there all the time. And as I promise uh to explain for item charge in this moment, you can see this is uh gray uh on the screen."
+    },
+    {
+      "t": 134.4,
+      "end": 150.2,
+      "text": "Item charge is not enabled yet in this moment. It will be part of next wave because completely uh functionality about value chain is currently public preview. So we didn't want to enable uh before we completely uh finish this uh functionality."
+    },
+    {
+      "t": 150.2,
+      "end": 162.2,
+      "text": "So this is just for you to know what you can expect. So in next way we will enable item charge. So now I will move to my colleague Melissa so she can show you how it works in the practice."
+    },
+    {
+      "t": 162.2,
+      "end": 172.3,
+      "text": "Thank you Alexander. Now let's show you the demo. Let's start from the item setup. I will go to item list and take one item."
+    },
+    {
+      "t": 172.3,
+      "end": 185.2,
+      "text": "We'll take the first one. And now we need to move to sustainability group part and add default sustainability"
+    },
+    {
+      "t": 185.2,
+      "end": 203,
+      "text": "account. These default emission fields are related to replenishment system field. So if our replenishment system is set to production order or assembly, these fields are non-editable and system will calculate them."
+    },
+    {
+      "t": 203,
+      "end": 216.6,
+      "text": "But if we change it to the purchase, these fields are now editable and we can update them manually. I will add some values for carbon equivalent per unit field."
+    },
+    {
+      "t": 216.6,
+      "end": 227.3,
+      "text": "Uh as our item is the new one, we haven't used it yet. Uh we need to update this field using action calculate carbon"
+    },
+    {
+      "t": 227.3,
+      "end": 241.9,
+      "text": "equivalent. I will run the action. And once it is done, we can see that the field is updated. Now let's move to resources and do the same setup."
+    },
+    {
+      "t": 241.9,
+      "end": 257.7,
+      "text": "There I will take one resource. In sustainability group we add default sustainability account and also we update default gas emissions"
+    },
+    {
+      "t": 257.7,
+      "end": 271,
+      "text": "fields. Here we also need to run action calculate carbon equivalent in order to update our field. Once it is done, we can move to charts of account."
+    },
+    {
+      "t": 271,
+      "end": 286.8,
+      "text": "The same action calculate carbon equivalent exist also on the list. But running it on the list, it will update all resources. I will move to charts of accounts and do the setup for one jail account."
+    },
+    {
+      "t": 286.8,
+      "end": 296.8,
+      "text": "I will take my GL account. And here you can see that I already added a default sustainability"
+    },
+    {
+      "t": 296.8,
+      "end": 307.7,
+      "text": "account. Now once we finish the settings we can go to purchase invoice. I have already created the one."
+    },
+    {
+      "t": 307.7,
+      "end": 322.5,
+      "text": "Now I can update it and add some lines. I will add our item. And here you can see that the default sustainability account has been transferred from the item card."
+    },
+    {
+      "t": 322.5,
+      "end": 337.1,
+      "text": "I will add quantity and unit cost. And when we move to emissions fields, we can see that default emission fields are transfer also from the item card."
+    },
+    {
+      "t": 337.1,
+      "end": 351,
+      "text": "These fields are only default values, but we can modify them. So we can change sustainability account to different one and also emissions can be changed."
+    },
+    {
+      "t": 351,
+      "end": 366.2,
+      "text": "Now let's add one resource. I will choose the resource that we already set. Here you can see the sustainability account number is transfer from the resource card."
+    },
+    {
+      "t": 366.2,
+      "end": 376.3,
+      "text": "And when we add quantity and unit cost other default values are also"
+    },
+    {
+      "t": 376.3,
+      "end": 387.2,
+      "text": "updated. I will add one more line. It is GL account. I will choose my GL account."
+    },
+    {
+      "t": 387.2,
+      "end": 402.8,
+      "text": "And here we can also see that sustainability account number has been updated based on GL account setup. But we don't have for GL accounts we don't have default values for total emissions."
+    },
+    {
+      "t": 402.8,
+      "end": 416.2,
+      "text": "So we need to add them manually here. Uh this feature now we presented on purchase invoice but it is also available on other"
+    },
+    {
+      "t": 416.2,
+      "end": 427.6,
+      "text": "uh documents such as purchase order, purchase return order or purchase credit me. Uh that concludes my part. Now I will hand it back to Alexander to continue."
+    },
+    {
+      "t": 427.6,
+      "end": 439.7,
+      "text": "Thank you Melissa for showing this demo and uh we are on the end of this session. Before I close this session, I would like to invite you to watch another uh sustainability and other sessions as well."
+    },
+    {
+      "t": 439.7,
+      "end": 453,
+      "text": "But we have this year eight different sustainability recordings. So please watch all of them if you're interesting in sustainability topic. So thank you for watching this video."
+    }
+  ],
+  "markers": [
+    {
+      "t": 0,
+      "text": "[Music]"
+    },
+    {
+      "t": 7.51,
+      "text": "[Music]"
+    },
+    {
+      "t": 7.52,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 1018
+}

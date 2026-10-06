@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-5635.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5635",
+  "title": "Maintenance - Next Service (report)",
+  "blob": "42dc5e51e74bb2d0d129b981d6dc5c973aaa33a4",
+  "summary": "The Maintenance - Next Service report shows the next planned service and repair dates for each asset, sourced from the Next Service Date field on the Fixed Asset Card page, with period filtering options.",
+  "systems": [
+    "fixed-assets"
+  ],
+  "topics": [
+    "maintenance",
+    "fixed assets",
+    "service planning",
+    "reporting"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Maintenance - Next Service"
+    },
+    {
+      "type": "page",
+      "name": "Fixed Asset Card"
+    }
+  ],
+  "features": [
+    "next service date",
+    "period filtering",
+    "service planning"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.001267,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-5636.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5636",
+  "title": "Fixed Asset Document Nos. (report)",
+  "blob": "12aacba80a96896aa308cda66128f08921e50192",
+  "summary": "The Fixed Asset Document Nos. report lists fixed asset ledger entries sorted by document type and number, including source codes and descriptions, with warnings for gaps in number series.",
+  "systems": [
+    "fixed-assets"
+  ],
+  "topics": [
+    "fixed assets",
+    "ledger entries",
+    "document numbering",
+    "reporting"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Fixed Asset Document Nos."
+    }
+  ],
+  "features": [
+    "document type sorting",
+    "number series validation",
+    "ledger entries",
+    "gap detection"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.001267,
+      "pages_in_call": 8
+    }
+  ]
+}

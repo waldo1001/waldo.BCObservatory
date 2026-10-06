@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-5634.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5634",
+  "title": "Maintenance - Details (report)",
+  "blob": "047ecaac5e25c7917aa6d654c0c5ae1acfbb1353",
+  "summary": "The Maintenance - Details report provides detailed information about maintenance ledger entries posted to each fixed asset for a specified depreciation book, with an option to include reversed entries.",
+  "systems": [
+    "fixed-assets"
+  ],
+  "topics": [
+    "maintenance",
+    "fixed assets",
+    "ledger entries",
+    "depreciation book",
+    "reporting"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Maintenance - Details"
+    }
+  ],
+  "features": [
+    "maintenance ledger entries",
+    "depreciation book filtering",
+    "reversed entries"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.001267,
+      "pages_in_call": 8
+    }
+  ]
+}
