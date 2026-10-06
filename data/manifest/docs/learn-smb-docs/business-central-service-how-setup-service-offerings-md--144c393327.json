@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/service-how-setup-service-offerings",
   "published_at": "2025-10-19T17:26:21.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "3d699e506e5e6c7533907daeef8f6ba83bbccae3",
       "words": 173,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:00:33.292Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003425
+    },
+    "summarized": {
+      "at": "2026-10-06T19:00:34.495Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:00:34.496Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:00:34.496Z",
+      "page": false
     }
   },
   "input_hash": "3d699e506e5e6c7533907daeef8f6ba83bbccae3",
@@ -39,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "3d699e506e5e6c7533907daeef8f6ba83bbccae3"
+  "output_hash": "1794d6334fab15d577e09938a0187b10c5f1dfe9a546a0e3207080d11595382c"
 }

@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/service-how-setup-loaner-program.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/service-how-setup-loaner-program",
+  "title": "How to set up loaners | Microsoft Docs",
+  "blob": "a2414e9811e3b3e461f7412689f166ea9f318402",
+  "summary": "Set up a loaner program to provide customers with temporary replacement items during service repairs. Create loaner cards with descriptions and serial numbers, and track loan receipts.",
+  "systems": [
+    "service"
+  ],
+  "topics": [
+    "loaner program",
+    "service management",
+    "loaner items"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Loaners"
+    },
+    {
+      "type": "page",
+      "name": "Service Mgt. Setup"
+    }
+  ],
+  "features": [
+    "loaner tracking",
+    "loaner cards",
+    "loan receipts",
+    "loaner comments"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003425,
+      "pages_in_call": 8
+    }
+  ]
+}

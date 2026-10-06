@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/service-how-to-create-service-quotes",
   "published_at": "2025-10-19T17:26:21.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "332ce5241b0c06817d117dc6b9455520ebc34c4c",
       "words": 259,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:00:35.794Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00489
+    },
+    "summarized": {
+      "at": "2026-10-06T19:00:37.608Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:00:37.610Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:00:37.611Z",
+      "page": false
     }
   },
   "input_hash": "332ce5241b0c06817d117dc6b9455520ebc34c4c",
@@ -42,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "332ce5241b0c06817d117dc6b9455520ebc34c4c"
+  "output_hash": "1065769daaeb9bc48c8ebb42ebb09d53dfc73408a2122fd829761bdc76cf5e62"
 }

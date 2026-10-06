@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/service-how-setup-work-service-hours",
   "published_at": "2025-10-19T17:26:21.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "f0f1c2d8144f2a40cd7e80199a289001023c97e0",
       "words": 554,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:00:35.788Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00489
+    },
+    "summarized": {
+      "at": "2026-10-06T19:00:37.590Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:00:37.592Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:00:37.593Z",
+      "page": false
     }
   },
   "input_hash": "f0f1c2d8144f2a40cd7e80199a289001023c97e0",
@@ -44,5 +63,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f0f1c2d8144f2a40cd7e80199a289001023c97e0"
+  "output_hash": "9fbe0467a0eff8f8b97b385be2bd4d1389e12b0055fd6eb4c522272958e126fc"
 }

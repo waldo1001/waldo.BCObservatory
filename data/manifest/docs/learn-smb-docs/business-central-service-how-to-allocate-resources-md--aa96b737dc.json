@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/service-how-to-allocate-resources",
   "published_at": "2025-10-19T17:26:21.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "a7d3e44c46922af25a2a5b684f2681edb388d31d",
       "words": 1913,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:00:35.789Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00489
+    },
+    "summarized": {
+      "at": "2026-10-06T19:00:37.594Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:00:37.595Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:00:37.596Z",
+      "page": false
     }
   },
   "input_hash": "a7d3e44c46922af25a2a5b684f2681edb388d31d",
@@ -42,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a7d3e44c46922af25a2a5b684f2681edb388d31d"
+  "output_hash": "a53e4c733e0a9bd26f27310003c14cfe73d00d334285ba3656c43d95c98695b6"
 }

@@ -1,0 +1,64 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/service-how-create-invoices.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/service-how-create-invoices",
+  "title": "Create invoices or credit memos for services",
+  "blob": "7acef106978e5dc9204cb9ec658ddfbeb406730e",
+  "summary": "Create service invoices and credit memos for service contracts, orders, or manual entries. Use this to invoice service contracts periodically, post invoices from service orders, combine posted shipment lines, or create credit memos and corrections.",
+  "systems": [
+    "service",
+    "sales",
+    "finance"
+  ],
+  "topics": [
+    "invoicing",
+    "service orders",
+    "service contracts",
+    "credit memos",
+    "service management"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Create Service Contract Invoices"
+    },
+    {
+      "type": "page",
+      "name": "Service Contract"
+    },
+    {
+      "type": "page",
+      "name": "Service Orders"
+    },
+    {
+      "type": "page",
+      "name": "Service Invoices"
+    },
+    {
+      "type": "page",
+      "name": "Service Credit Memos"
+    },
+    {
+      "type": "page",
+      "name": "Service Mgt. Setup"
+    }
+  ],
+  "features": [
+    "invoice service contracts",
+    "post service invoices",
+    "service credit memos",
+    "get shipment lines",
+    "delete service invoices",
+    "correct invoice errors"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003425,
+      "pages_in_call": 8
+    }
+  ]
+}

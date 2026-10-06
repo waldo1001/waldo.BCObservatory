@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/service-how-setup-service-coding",
   "published_at": "2025-10-19T17:26:21.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "6342ef29902942f38c344c787f9bdfba19030177",
       "words": 256,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:00:33.289Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.003425
+    },
+    "summarized": {
+      "at": "2026-10-06T19:00:34.485Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:00:34.486Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:00:34.487Z",
+      "page": false
     }
   },
   "input_hash": "6342ef29902942f38c344c787f9bdfba19030177",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6342ef29902942f38c344c787f9bdfba19030177"
+  "output_hash": "c345eb38a81a173b059eb9454c0230da18f8cb29c0e6ff10586aee1cc3e5c2e1"
 }

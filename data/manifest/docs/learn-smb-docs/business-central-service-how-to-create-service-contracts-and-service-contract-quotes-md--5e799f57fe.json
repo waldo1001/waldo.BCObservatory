@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/service-how-to-create-service-contracts-and-service-contract-quotes",
   "published_at": "2025-10-19T17:26:21.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "1937d0dd5f5858be2383980e9be9e991ddc1ad81",
       "words": 2756,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:00:35.792Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00489
+    },
+    "summarized": {
+      "at": "2026-10-06T19:00:37.602Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:00:37.603Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:00:37.604Z",
+      "page": false
     }
   },
   "input_hash": "1937d0dd5f5858be2383980e9be9e991ddc1ad81",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "1937d0dd5f5858be2383980e9be9e991ddc1ad81"
+  "output_hash": "58c92c4afd9598f9e0b7c2825db279727bee654a521081c8ba00d05dc70e6e5d"
 }

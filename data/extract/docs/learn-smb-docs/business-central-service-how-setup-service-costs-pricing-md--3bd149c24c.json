@@ -1,0 +1,57 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/service-how-setup-service-costs-pricing.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/service-how-setup-service-costs-pricing",
+  "title": "Set up pricing and costs for services",
+  "blob": "32e0b89b7825eb1c158ed534f288060b5e9aff90",
+  "summary": "Set up service pricing by creating service price groups and adjustment groups to customize pricing for service items, repairs, and orders. Configure additional service costs and default fees.",
+  "systems": [
+    "service",
+    "finance"
+  ],
+  "topics": [
+    "pricing",
+    "service costs",
+    "price groups",
+    "price adjustments",
+    "service fees"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Service Price Groups"
+    },
+    {
+      "type": "page",
+      "name": "Service Price Adjustment Groups"
+    },
+    {
+      "type": "page",
+      "name": "Service Costs"
+    },
+    {
+      "type": "page",
+      "name": "Service Setup"
+    }
+  ],
+  "features": [
+    "service price groups",
+    "price adjustments",
+    "adjustment types",
+    "service costs",
+    "starting fees",
+    "travel costs",
+    "default costs",
+    "price approval"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003425,
+      "pages_in_call": 8
+    }
+  ]
+}

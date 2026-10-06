@@ -1,0 +1,27 @@
+{
+  "video_id": "dSPRY1_f1S0",
+  "item_id": "video/yt-microsoft/dSPRY1_f1S0",
+  "summary": "AL Go for GitHub February 2025 office hour: preview features after version 6.3 (GitHub app authentication, secrets in install apps, incremental builds), workflow concurrency, test app deployment to sandboxes, upcoming deprecations, and Q&A on build performance, runtime packages and container helper.",
+  "overview": "The session covers what is new in AL Go for GitHub. Version 6.3 is the latest shipped version, and everything shown on top of it is in preview. Topics include GitHub app authentication to replace personal access tokens, secret references in install apps settings, and incremental builds that build and publish only modified apps.\n\nThe team also covers workflow concurrency, pushing test apps to online environments, and a deprecation schedule with dates in April and October. The Q&A deals with private repos, telemetry, the future move away from container helper, runtime packages, scheduled deployments, and ways to shorten build and test times.",
+  "key_points": [
+    "GitHub app authentication is in preview and uses an app ID and private key instead of personal access tokens. GitHub packages still needs a fine-grained token, and create release does not yet work with it. GitHub apps are not supported in 6.1 and are expected to be generally available in 6.4.",
+    "Secrets can be referenced with dollar sign and curly brackets in install apps and install test apps settings, so they are not exposed in source code or logs (preview).",
+    "Incremental builds are not enabled by default, except on pull requests. They can be configured per trigger (push, pull request, schedule), in modified apps or modified projects mode. They are branch-specific, and release branches do not yet use releases as baseline.",
+    "Incremental builds should be combined with workflow concurrency settings, which go in conditional settings or a workflow-specific settings file.",
+    "Deprecations: clean mode pre-processor symbols change after April 1st (use conditional settings with build modes). The always build all projects setting changes after October 1st. The dynamic schedule setting moves to a workflow-specific workflow schedule setting after October 1st.",
+    "Pushing test apps to online environments needs a new version of the test libraries, expected no earlier than April 1st and probably October. AI tests are not ready for automated CI/CD runs, partly because of cost.",
+    "To speed up builds for projects without tests, set use compiler folder to true together with do not publish apps (3-4 minutes versus 15-20 for the standard container build). This prevents test execution. Running tests in online sandboxes is being worked on but is not possible now."
+  ],
+  "audience": [
+    "developer",
+    "administrator",
+    "partner"
+  ],
+  "extraction_hash": "2828c9290b129e7450ac02abffce19b5633d83d8993b9f2d9a091c04c256e06f",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0367584
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/service-how-setup-resource-allocation.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/service-how-setup-resource-allocation",
+  "title": "Set up resource allocation | Microsoft Docs",
+  "blob": "bdc31c12b07eab1184854df86c59cbdc8ccfacb5",
+  "summary": "Set up resource allocation to match service personnel with appropriate skills and geographic zones to customer requirements. Define skills, zones, and resource capacity to ensure qualified technicians are assigned to service tasks.",
+  "systems": [
+    "service"
+  ],
+  "topics": [
+    "resource allocation",
+    "service skills",
+    "service zones",
+    "resource management",
+    "capacity planning"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Skills"
+    },
+    {
+      "type": "page",
+      "name": "Service Items"
+    },
+    {
+      "type": "page",
+      "name": "Resources"
+    },
+    {
+      "type": "page",
+      "name": "Zones"
+    },
+    {
+      "type": "page",
+      "name": "Customers"
+    },
+    {
+      "type": "page",
+      "name": "Service Management Setup"
+    },
+    {
+      "type": "page",
+      "name": "Resource Capacity"
+    },
+    {
+      "type": "page",
+      "name": "Service Item Group"
+    }
+  ],
+  "features": [
+    "skill setup",
+    "resource skills",
+    "service zones",
+    "zone assignment",
+    "resource capacity",
+    "skill codes",
+    "resource qualification warnings"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003425,
+      "pages_in_call": 8
+    }
+  ]
+}

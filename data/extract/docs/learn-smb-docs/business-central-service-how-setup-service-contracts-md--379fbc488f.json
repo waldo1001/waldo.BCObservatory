@@ -1,0 +1,60 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/service-how-setup-service-contracts.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/service-how-setup-service-contracts",
+  "title": "Set up service contracts",
+  "blob": "c32b03e80fc41f86328540c42b545ac78f380a6f",
+  "summary": "Set up service contracts by configuring contract groups, account groups, templates, and customer templates. Define contract terms, invoicing details, and discounts before creating service contracts.",
+  "systems": [
+    "service",
+    "sales"
+  ],
+  "topics": [
+    "service contracts",
+    "contract templates",
+    "contract groups",
+    "contract accounts",
+    "customer templates"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Service Contract Groups"
+    },
+    {
+      "type": "page",
+      "name": "Serv. Contract Account Groups"
+    },
+    {
+      "type": "page",
+      "name": "Service Contract Templates"
+    },
+    {
+      "type": "page",
+      "name": "Customer Templates"
+    },
+    {
+      "type": "page",
+      "name": "Service Mgt. Setup"
+    }
+  ],
+  "features": [
+    "contract groups",
+    "account groups",
+    "contract templates",
+    "customer templates",
+    "contract discounts",
+    "contract invoicing",
+    "prepaid contracts"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003425,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -1,0 +1,1135 @@
+{
+  "video_id": "dSPRY1_f1S0",
+  "item_id": "video/yt-microsoft/dSPRY1_f1S0",
+  "title": "AL Go for GitHub February Office Hour",
+  "duration_s": 3359,
+  "systems": [
+    "platform",
+    "development"
+  ],
+  "topics": [
+    "al-go",
+    "github app authentication",
+    "incremental builds",
+    "workflow concurrency",
+    "security",
+    "secrets management",
+    "preview features",
+    "ci/cd pipeline",
+    "test apps",
+    "online deployment",
+    "deprecation",
+    "telemetry"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and agenda",
+      "t_start": 0,
+      "t_end": 61.5
+    },
+    {
+      "title": "Overview of preview features and release notes",
+      "t_start": 61.5,
+      "t_end": 169.2
+    },
+    {
+      "title": "GitHub app authentication for improved security",
+      "t_start": 169.2,
+      "t_end": 444.7
+    },
+    {
+      "title": "Secrets in install apps and embedded credentials",
+      "t_start": 444.7,
+      "t_end": 569.5
+    },
+    {
+      "title": "Incremental builds feature overview and demonstration",
+      "t_start": 569.5,
+      "t_end": 833.4
+    },
+    {
+      "title": "Workflow concurrency, test apps deployment, and deprecation changes",
+      "t_start": 833.4,
+      "t_end": 1092.3
+    },
+    {
+      "title": "Deprecation timeline and schedule setting migration",
+      "t_start": 1092.3,
+      "t_end": 1184.7
+    },
+    {
+      "title": "Q&A: Private repos, GitHub apps, build logic, telemetry, and container helper",
+      "t_start": 1184.7,
+      "t_end": 1594.2
+    },
+    {
+      "title": "Container helper, AL Go architecture, and trusted signing",
+      "t_start": 1594.2,
+      "t_end": 1880
+    },
+    {
+      "title": "Override functions and incremental builds optimization",
+      "t_start": 1880,
+      "t_end": 2107.6
+    },
+    {
+      "title": "AL Go adoption metrics, migration strategies, and runtime packages",
+      "t_start": 2107.6,
+      "t_end": 2375.7
+    },
+    {
+      "title": "Repository management and template capabilities",
+      "t_start": 2375.7,
+      "t_end": 2536.5
+    },
+    {
+      "title": "Federated credentials, AppSource runtime packages, and scheduled deployments",
+      "t_start": 2536.5,
+      "t_end": 2854.4
+    },
+    {
+      "title": "Pipeline performance optimization and build time reduction strategies",
+      "t_start": 2854.4,
+      "t_end": 3118
+    },
+    {
+      "title": "Testing performance and compiler optimization insights",
+      "t_start": 3118,
+      "t_end": 3280.9
+    },
+    {
+      "title": "Closing remarks and next office hour schedule",
+      "t_start": 3280.9,
+      "t_end": 3359
+    }
+  ],
+  "features": [
+    {
+      "name": "GitHub app authentication",
+      "description": "Service-to-service authentication method for AL Go using GitHub app ID and private key instead of personal access tokens, reducing security risk of token exposure.",
+      "status": "preview",
+      "status_evidence_t": 81.7,
+      "status_evidence_quote": "everything that you'll see here is in preview um so we'll go through what's new",
+      "status_evidence_verified": true,
+      "t_start": 169.2,
+      "t_end": 424.4,
+      "is_demoed": true,
+      "caveats": [
+        "GitHub packages still requires fine-grained tokens",
+        "Create release functionality does not yet work with GitHub app authentication"
+      ],
+      "tags": [
+        "github",
+        "authentication",
+        "security",
+        "tokens"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Embed secrets in install apps",
+      "description": "Ability to use secret references with dollar sign and curly brackets in install apps and install test apps settings to avoid exposing secrets in source code or logs.",
+      "status": "preview",
+      "status_evidence_t": 81.7,
+      "status_evidence_quote": "everything that you'll see here is in preview",
+      "status_evidence_verified": true,
+      "t_start": 444.7,
+      "t_end": 569.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "secrets",
+        "security",
+        "install apps",
+        "credentials"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Incremental builds",
+      "description": "Performance enhancement that builds and publishes only modified apps instead of complete builds, reducing build and publish time and avoiding republishing unchanged apps. Apps maintain version numbers reflecting when they were built.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 569.5,
+      "t_end": 833.4,
+      "is_demoed": true,
+      "caveats": [
+        "Not enabled by default",
+        "Can be configured per trigger type (push, pull request, schedule)",
+        "Modified apps or modified projects mode options",
+        "Requires workflow concurrency configuration for optimal performance",
+        "Branch-specific only",
+        "Release branches currently do not use releases as baseline for incremental builds"
+      ],
+      "tags": [
+        "incremental builds",
+        "performance",
+        "optimization",
+        "ci/cd",
+        "app versioning",
+        "publishing"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Workflow concurrency",
+      "description": "Ability to manage workflow execution when using incremental builds, preventing concurrent builds when changes are made and restarting builds with latest changes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 833.4,
+      "t_end": 948.4,
+      "is_demoed": false,
+      "caveats": [
+        "Needs to be set in conditional settings or workflow-specific settings file"
+      ],
+      "tags": [
+        "workflow",
+        "concurrency",
+        "incremental builds",
+        "pipeline",
+        "settings"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Push test apps to online environments",
+      "description": "Optional ability to push test apps to online environments as part of the AL Go workflow. Ability to publish test apps to sandbox environments for running AI tests and other test toolkits on demand, avoiding cost of running tests on every build.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 169.2,
+      "t_end": 1077.4,
+      "is_demoed": false,
+      "caveats": [
+        "AI tests not yet ready for automated CI/CD runs",
+        "Requires new version of test libraries (expected October or later, not before April 1st) to deploy test apps",
+        "Current test libraries have insecure functionality blocking online deployment",
+        "Includes settings to exclude specific app IDs",
+        "Does not support dependencies to test libraries"
+      ],
+      "tags": [
+        "test apps",
+        "online environments",
+        "deployment",
+        "ai tests",
+        "sandbox"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Include test apps in sandbox environment setting",
+      "description": "Deploy setting that automatically deploys all test apps and dependencies to sandbox when deploying apps. Allows exclusion of specific app IDs.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1010,
+      "t_end": 1043.3,
+      "is_demoed": false,
+      "caveats": [
+        "Does not support dependencies to test libraries"
+      ],
+      "tags": [
+        "test apps",
+        "deployment",
+        "settings"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "MS AL-Go deprecations documentation",
+      "description": "Published list of functionality changes that require setting adjustments, with defined timelines for when changes take effect.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1092.3,
+      "t_end": 1184.7,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "deprecation",
+        "settings",
+        "documentation"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Clean mode pre-processor symbols deprecation",
+      "description": "Changes to in effect after April 1st replacing clean mode pre-processor symbols with conditional settings using build modes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1112.5,
+      "t_end": 1133.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "deprecation",
+        "pre-processor symbols",
+        "settings"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Always build all projects setting deprecation",
+      "description": "Setting deprecated in favor of setting onpo request to false in incremental bills, effective after October 1st.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1133.2,
+      "t_end": 1153.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "deprecation",
+        "incremental builds"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Workflow schedule setting migration",
+      "description": "Dynamic setting key for schedule and workflow name will change to workflow-specific setting called workflow schedule, effective after October 1st.",
+      "status": "announced",
+      "status_evidence_t": 1133.2,
+      "status_evidence_quote": "the setting where like the schedule and the workflow name is is a like a dynamic setting key name uh will be changed to",
+      "status_evidence_verified": true,
+      "t_start": 1133.2,
+      "t_end": 1170,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "deprecation",
+        "workflow settings"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Private repository support in AL-Go",
+      "description": "AL-Go can be forked into a private org that supports private repos and deploys template repos from a fork into private repos in the same private fork.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1209.5,
+      "t_end": 1268.6,
+      "is_demoed": false,
+      "caveats": [
+        "Customization capabilities for indirect templates still in PR and not yet available"
+      ],
+      "tags": [
+        "private repos",
+        "al-go",
+        "fork"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "GitHub apps support",
+      "description": "GitHub apps are currently not supported in version 6.1 and require updating to preview, with general availability in version 6.4.",
+      "status": "preview",
+      "status_evidence_t": 1335.8,
+      "status_evidence_quote": "GitHub abs are currently not supported in version 6.1 you would need to update to um is it 6.3 or preview preview preview right",
+      "status_evidence_verified": true,
+      "t_start": 1335.8,
+      "t_end": 1361.6,
+      "is_demoed": false,
+      "caveats": [
+        "Not available in 6.1",
+        "Currently in preview"
+      ],
+      "tags": [
+        "github apps",
+        "version support"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Last known good build detection",
+      "description": "Build system identifies last good build as the last successful build on the same branch, using it as baseline for determining what apps need rebuilding.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1367,
+      "t_end": 1436.8,
+      "is_demoed": false,
+      "caveats": [
+        "Branch-specific only",
+        "Release branches currently do not use releases as baseline for incremental builds"
+      ],
+      "tags": [
+        "incremental builds",
+        "branch logic"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Container Helper Telemetry",
+      "description": "Streaming telemetry improvements for container helper that provide more detailed diagnostic information. Discussion of enabling old container helper telemetry as a potential enhancement.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1573.8,
+      "t_end": 1594.2,
+      "is_demoed": false,
+      "caveats": [
+        "may require issue creation to enable"
+      ],
+      "tags": [
+        "telemetry",
+        "container",
+        "diagnostics"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "AL Go Architecture Transition",
+      "description": "Future plan to stop using container helper and create a different mechanism for building over the next two to three years as AL Go evolves.",
+      "status": "announced",
+      "status_evidence_t": 1637.1,
+      "status_evidence_quote": "in the future the the as go algo will stop using container hel so over the next two to three years algo will will",
+      "status_evidence_verified": true,
+      "t_start": 1637.1,
+      "t_end": 1674.2,
+      "is_demoed": false,
+      "caveats": [
+        "timeline is two to three years",
+        "overrides and customizations will change"
+      ],
+      "tags": [
+        "architecture",
+        "roadmap",
+        "container",
+        "build-mechanism"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Override Functions for Run Pipeline",
+      "description": "Container helper settings and override functions that allow customization of the build pipeline, including the ability to place custom scripts in the AL Go folder.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1806.4,
+      "t_end": 1848,
+      "is_demoed": false,
+      "caveats": [
+        "requires knowledge of container helper settings documentation"
+      ],
+      "tags": [
+        "customization",
+        "overrides",
+        "pipeline",
+        "container"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Trusted Signing in AL Go",
+      "description": "Support for trusted signing on Azure as an alternative to certificate-based signing within containers, using keyboard-based certificate storage.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1859.2,
+      "t_end": 1880,
+      "is_demoed": false,
+      "caveats": [
+        "old mechanism inside container is harder to maintain"
+      ],
+      "tags": [
+        "signing",
+        "security",
+        "azure",
+        "certificates"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "AL Go GitHub Adoption Metrics",
+      "description": "Telemetry shows approximately 2,500 repositories using AL Go for GitHub with running workflows, and the majority are on the latest version.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2022.4,
+      "t_end": 2039,
+      "is_demoed": false,
+      "caveats": [
+        "telemetry cannot identify specific updating users",
+        "only aggregate statistics available"
+      ],
+      "tags": [
+        "telemetry",
+        "adoption",
+        "metrics",
+        "github"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Runtime Packages without Full Dependencies",
+      "description": "Request for runtime packages capability that doesn't require full app dependencies, only symbols. The team determined the AL compiler won't deliver this, so they must create workflows to automate runtime package creation with full dependencies.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2321.8,
+      "t_end": 2375.7,
+      "is_demoed": false,
+      "caveats": [
+        "full apps of dependencies are still required",
+        "automation workflows needed but not yet automated"
+      ],
+      "tags": [
+        "runtime-packages",
+        "dependencies",
+        "compiler",
+        "roadmap"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Template Capabilities for Repository Management",
+      "description": "Customization capabilities and indirect templates allowing creation of templates for app repositories to standardize configuration across multiple repositories.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2404.4,
+      "t_end": 2428.1,
+      "is_demoed": false,
+      "caveats": [
+        "under investigation",
+        "details limited"
+      ],
+      "tags": [
+        "templates",
+        "repositories",
+        "customization",
+        "management"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "PowerBI Dashboards for Repository Monitoring",
+      "description": "Partners creating PowerBI dashboards to monitor and manage multiple AL Go repositories, potentially using telemetry or GitHub APIs.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2428.1,
+      "t_end": 2448.6,
+      "is_demoed": false,
+      "caveats": [
+        "unclear whether using telemetry or GitHub APIs",
+        "community-driven efforts"
+      ],
+      "tags": [
+        "dashboards",
+        "monitoring",
+        "powerbi",
+        "repositories"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Federated credentials for Azure subscriptions",
+      "description": "Support for federated credentials to connect GitHub to Azure subscriptions, avoiding the need to store credentials. Currently still requires Azure credentials to be created initially.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2536.5,
+      "t_end": 2579.3,
+      "is_demoed": false,
+      "caveats": [
+        "still requires Azure credentials to be created",
+        "may need additional GitHub to ADO functionality"
+      ],
+      "tags": [
+        "federated credentials",
+        "security",
+        "azure"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Runtime packages for AppSource apps",
+      "description": "Ability to expose runtime packages for AppSource apps is not supported currently due to IP protection concerns. Being explored with opt-in mechanism for partners.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2617.8,
+      "t_end": 2691.1,
+      "is_demoed": false,
+      "caveats": [
+        "IP protection concerns",
+        "potential legal issues with existing partners",
+        "opt-in model not yet implemented"
+      ],
+      "tags": [
+        "runtime packages",
+        "appsource",
+        "ip protection"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Multiple NuGet feeds support",
+      "description": "Partners want ability to define multiple NuGet feeds to share different runtime packages with different partners. This feature is being requested and considered.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2691.1,
+      "t_end": 2741.6,
+      "is_demoed": false,
+      "caveats": [
+        "might be an easy fix but not yet implemented"
+      ],
+      "tags": [
+        "nuget feeds",
+        "appsource",
+        "partner management"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Scheduled deployment outside working hours",
+      "description": "Ability to schedule deployments to environments at specific times outside working hours using a YAML file in GitHub workflows. Partners are deploying Friday evenings at specific times.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2758.6,
+      "t_end": 2820.8,
+      "is_demoed": false,
+      "caveats": [
+        "not available in UI settings yet",
+        "requires manual YAML file addition"
+      ],
+      "tags": [
+        "scheduled deployment",
+        "workflow",
+        "automation"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Custom build checks in AL Go",
+      "description": "Ability to implement custom build checks beyond what AL Go provides. Users need to write their own workflows similar to what BC apps repository does.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2820.8,
+      "t_end": 2854.4,
+      "is_demoed": false,
+      "caveats": [
+        "not built into AL Go",
+        "requires custom workflow creation"
+      ],
+      "tags": [
+        "build checks",
+        "workflow",
+        "customization"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Container-based build optimization",
+      "description": "Standard AL Go setup uses containers for building taking 15-20 minutes. Looking at ways to optimize by using different project structures and only using containers for tests.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2977.2,
+      "t_end": 3050.1,
+      "is_demoed": false,
+      "caveats": [
+        "current standard process is slow",
+        "optimizations require multiple projects"
+      ],
+      "tags": [
+        "container builds",
+        "performance optimization",
+        "build time"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Use compiler folder setting",
+      "description": "Setting called use compiler folder that when set to true combined with do not publish apps reduces build time to 3-4 minutes but prevents test execution.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3010.4,
+      "t_end": 3050.1,
+      "is_demoed": false,
+      "caveats": [
+        "prevents test execution",
+        "only for projects without tests"
+      ],
+      "tags": [
+        "build optimization",
+        "performance",
+        "compiler"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Multi-project build and test strategy",
+      "description": "Strategy to build all apps fast using compiler folder in one project, then run tests in separate projects for faster feedback on build failures.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3050.1,
+      "t_end": 3070.5,
+      "is_demoed": false,
+      "caveats": [
+        "requires multiple repository projects"
+      ],
+      "tags": [
+        "build optimization",
+        "multi-project",
+        "testing"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Online sandbox testing for AL Go",
+      "description": "Ability to run tests in online sandboxes instead of containers is being worked on but not currently possible in AL Go.",
+      "status": "announced",
+      "status_evidence_t": 3087.8,
+      "status_evidence_quote": "run the tests in online sandboxes which is not possible right now but it's something we are we've been working on",
+      "status_evidence_verified": true,
+      "t_start": 3087.8,
+      "t_end": 3118,
+      "is_demoed": false,
+      "caveats": [
+        "not yet available",
+        "still in development"
+      ],
+      "tags": [
+        "online sandboxes",
+        "testing",
+        "performance"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Compiler folder optimization",
+      "description": "Using compiler folder to fail fast in testing, though total setup time remains the same as tests must still deploy and run.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3169.7,
+      "t_end": 3190.2,
+      "is_demoed": false,
+      "caveats": [
+        "total setup time is not reduced",
+        "tests must still deploy and run"
+      ],
+      "tags": [
+        "compiler",
+        "testing",
+        "performance",
+        "optimization"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Testing performance improvements investigation",
+      "description": "The team is aware of testing performance concerns and is looking into what can be done better.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3190.2,
+      "t_end": 3205.4,
+      "is_demoed": false,
+      "caveats": [
+        "no specific timeline or commitment given"
+      ],
+      "tags": [
+        "testing",
+        "performance",
+        "roadmap",
+        "investigation"
+      ],
+      "system": "platform"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "AO office hours 2025-2",
+      "t": 207.9
+    },
+    {
+      "type": "other",
+      "name": "MS AL-Go deprecations",
+      "t": 1092.3
+    },
+    {
+      "type": "other",
+      "name": "SBC container app PS1",
+      "t": 1834.2
+    },
+    {
+      "type": "other",
+      "name": "GitHub App",
+      "t": 2536.5
+    },
+    {
+      "type": "other",
+      "name": "BC apps repository",
+      "t": 2834.2
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Freddy Christensen",
+      "confidence": "high"
+    },
+    {
+      "name": "Alexander",
+      "confidence": "medium"
+    },
+    {
+      "name": "Maran",
+      "confidence": "low"
+    },
+    {
+      "name": "Johannes",
+      "confidence": "high"
+    },
+    {
+      "name": "Emanuel",
+      "confidence": "medium"
+    },
+    {
+      "name": "Florian",
+      "confidence": "high"
+    },
+    {
+      "name": "Florence",
+      "confidence": "high"
+    },
+    {
+      "name": "Alberto",
+      "confidence": "low"
+    },
+    {
+      "name": "Peter",
+      "confidence": "medium"
+    },
+    {
+      "name": "CHR",
+      "confidence": "low"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 81.7,
+      "text": "everything that you'll see here is in preview um so we'll go through what's new",
+      "why_it_matters": "Establishes that all features discussed are currently in preview status, not yet generally available.",
+      "check": "exact"
+    },
+    {
+      "t": 127.8,
+      "text": "version 6.3 is the latest version that has shipped and everything that is on top of that is right now in preview",
+      "why_it_matters": "Clarifies the version numbering system and how to identify preview versus released features in the repo.",
+      "check": "exact"
+    },
+    {
+      "t": 219.2,
+      "text": "GitHub app authentication uh is really all about hardening uh security for AO for GitHub",
+      "why_it_matters": "Explains the primary motivation for GitHub app authentication as a security improvement over personal access tokens.",
+      "check": "exact"
+    },
+    {
+      "t": 239.4,
+      "text": "access token god access with no expiration it impersonates the user that creates the token has access to all the repository",
+      "why_it_matters": "Describes the security risks of classic personal access tokens with no expiration and full repository access.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 585,
+      "text": "incremental builds not really because the build time takes a lot of time but mostly because the publishing time takes a lot of time",
+      "why_it_matters": "Identifies publishing time as the primary performance bottleneck that incremental builds addresses.",
+      "check": "exact"
+    },
+    {
+      "t": 605.5,
+      "text": "you don't publish apps that have just a new version number but but hasn't really been updated",
+      "why_it_matters": "Explains the key benefit of incremental builds in avoiding unnecessary republication of unchanged apps.",
+      "check": "exact"
+    },
+    {
+      "t": 696.5,
+      "text": "by default it's only enabled on pull requests and that's because it was already enabled on pull requests earlier",
+      "why_it_matters": "Documents the default configuration and backwards compatibility approach for incremental builds rollout.",
+      "check": "exact"
+    },
+    {
+      "t": 813.2,
+      "text": "the actual apps have the version number of when they were built and as such when they try to publish those to an online",
+      "why_it_matters": "Explains how app versioning prevents redundant deployments in incremental build workflows.",
+      "check": "exact"
+    },
+    {
+      "t": 927.6,
+      "text": "the workflow concurrency is described very well uh in in settings or in GitHub where you'll have the the ability to differentiate whether you",
+      "why_it_matters": "Clarifies the flexibility of workflow concurrency configuration options for different build strategies.",
+      "check": "exact"
+    },
+    {
+      "t": 989.2,
+      "text": "the primary reason for not running AI tests uh on every single build is a matter of uh of cost because it's not cheap",
+      "why_it_matters": "Explains the design decision to publish test apps on-demand rather than run tests automatically on every build.",
+      "check": "snapped"
+    },
+    {
+      "t": 1043.3,
+      "text": "they do expect in um I don't know exactly it's probably not going to be uh before April 1st but it's probably going to",
+      "why_it_matters": "Provides timeline for test libraries that support online deployment, affecting when test apps can be deployed.",
+      "check": "exact"
+    },
+    {
+      "t": 1112.5,
+      "text": "changes to in effect after April 1st is the clean mode pre-processor symbols instead of of using that you will have to use conditional",
+      "why_it_matters": "Announces a specific deprecation deadline and migration path for build configuration.",
+      "check": "exact"
+    },
+    {
+      "t": 1133.2,
+      "text": "that's going to be in effect uh after October 1st is the setting called Always build all projects uh instead of that you should",
+      "why_it_matters": "Specifies another deprecation timeline and the recommended replacement setting for build behavior.",
+      "check": "exact"
+    },
+    {
+      "t": 1335.8,
+      "text": "GitHub abs are currently not supported in version 6.1 you would need to update to um is it 6.3 or preview preview preview right",
+      "why_it_matters": "States current version support status and roadmap for GitHub apps feature.",
+      "check": "exact"
+    },
+    {
+      "t": 1637.1,
+      "text": "in the future the the as go algo will stop using container hel so over the next two to three years algo will will",
+      "why_it_matters": "Announces major architectural change to AL-Go's build infrastructure moving away from container helper.",
+      "check": "exact"
+    },
+    {
+      "t": 1834.2,
+      "text": "if you place a file called SBC container app PS1 in the algo folder uh then this this script will be run whenever you",
+      "why_it_matters": "Demonstrates the override mechanism available today for customizing build pipeline behavior in AL Go.",
+      "check": "exact"
+    },
+    {
+      "t": 2022.4,
+      "text": "approximately 2,500 repositories can we can see in Telemetry that are using a gr for GitHub uh or that has been running workflows and",
+      "why_it_matters": "Quantifies AL Go adoption at scale with 2,500+ repositories and shows high update compliance among users.",
+      "check": "exact"
+    },
+    {
+      "t": 2142.3,
+      "text": "they're always surprised about how how easy it is to use they go for GitHub because they don't have to like maintain workflows and",
+      "why_it_matters": "Highlights the value proposition of AL Go - significant time savings by eliminating manual workflow maintenance.",
+      "check": "exact"
+    },
+    {
+      "t": 2194.3,
+      "text": "if everybody using custom buil cicd Solutions then everybody would have to like enable page scripting enable AI test toolkits and all of the",
+      "why_it_matters": "Articulates the advantage of standardized AL Go over custom solutions - features are added once to AL Go and available to all users.",
+      "check": "exact"
+    },
+    {
+      "t": 2321.8,
+      "text": "I was originally waiting for the modern Dev team to or the developer tools team to uh to create the fun functionality in the",
+      "why_it_matters": "Explains a key limitation decision - runtime packages cannot be created without full dependencies, affecting workflow design in AL Go.",
+      "check": "exact"
+    },
+    {
+      "t": 2341.8,
+      "text": "we have to create the runtime packages um as we do now meaning that really what we need to do is to create some",
+      "why_it_matters": "Indicates current limitations and planned approach for runtime package automation in AL Go.",
+      "check": "exact"
+    },
+    {
+      "t": 2559.2,
+      "text": "we did create support for Federated credentials but that still requires you to have the ash credentials created",
+      "why_it_matters": "Shows current state of federated credentials support and remaining security limitations.",
+      "check": "exact"
+    },
+    {
+      "t": 2617.8,
+      "text": "runtime packages is not a guaranteed um it's not guaranteed you can you can unpack the runtime packages you can find find the the",
+      "why_it_matters": "Clarifies the security limitations and risks of runtime packages for IP protection.",
+      "check": "exact"
+    },
+    {
+      "t": 2671.1,
+      "text": "if you like in your resource exposure policy in app Json or wherever you would say it is allowed for Microsoft to share runtime",
+      "why_it_matters": "Describes potential opt-in mechanism for AppSource partners to allow runtime package sharing.",
+      "check": "exact"
+    },
+    {
+      "t": 3010.4,
+      "text": "if you're not using tests you can just set the um the setting called use compiler folder to true and then do not publish",
+      "why_it_matters": "Provides specific build time optimization numbers and settings for AL Go projects without tests.",
+      "check": "exact"
+    },
+    {
+      "t": 3087.8,
+      "text": "run the tests in online sandboxes which is not possible right now but it's something we are we've been working on",
+      "why_it_matters": "Indicates future development direction for improving AL Go test performance with online sandboxes.",
+      "check": "exact"
+    },
+    {
+      "t": 3169.7,
+      "text": "you could could get it to fail fast by by using compiler folder but it will have to deploy and run the test anyway",
+      "why_it_matters": "Explains the limitations of compiler folder optimization - it doesn't reduce total setup time because tests must still deploy and run",
+      "check": "exact"
+    },
+    {
+      "t": 3190.2,
+      "text": "we're aware of that and and definitely looking to see whether there are things we can do better on",
+      "why_it_matters": "Signals the team's commitment to investigating performance improvements without making specific commitments",
+      "check": "exact"
+    },
+    {
+      "t": 3317.8,
+      "text": "we'll be back in a month from now last Tuesday of March that's going to be morning time at 800 a.m. uh Central European",
+      "why_it_matters": "Specifies the schedule for the next office hour, indicating regular monthly community engagement",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 81.7,
+      "kind": "preview",
+      "text": "everything that you'll see here is in preview um so we'll go through what's new and then open up for discussion"
+    },
+    {
+      "t": 127.8,
+      "kind": "preview",
+      "text": "version 6.3 is the latest version that has shipped and everything that is on top of that is right now in preview"
+    },
+    {
+      "t": 391.5,
+      "kind": "subject-to-change",
+      "text": "GitHub packages is something that GitHub is missing so you still need to create a fine grain token for that"
+    },
+    {
+      "t": 411.6,
+      "kind": "subject-to-change",
+      "text": "create release doesn't work uh I do have a fix that I need to test whether that's that's a fix for that but right now it does not work"
+    },
+    {
+      "t": 948.4,
+      "kind": "preview",
+      "text": "we are not at this point in time ready to like run AI tests uh on like cicd or automated"
+    },
+    {
+      "t": 1043.3,
+      "kind": "coming-later",
+      "text": "they do expect in um I don't know exactly it's probably not going to be uh before April 1st but it's probably going to be for October um that they have a new version of the test libraries"
+    },
+    {
+      "t": 1112.5,
+      "kind": "subject-to-change",
+      "text": "changes to in effect after April 1st is the clean mode pre-processor symbols"
+    },
+    {
+      "t": 1133.2,
+      "kind": "subject-to-change",
+      "text": "that's going to be in effect uh after October 1st is the setting called Always build all projects"
+    },
+    {
+      "t": 1335.8,
+      "kind": "preview",
+      "text": "right now it's in preview right now and will be available 6.4"
+    },
+    {
+      "t": 1637.1,
+      "kind": "coming-later",
+      "text": "in the future the the as go algo will stop using container hel so over the next two to three years algo will will create a a different mechanism"
+    },
+    {
+      "t": 2341.8,
+      "kind": "not-in-this-release",
+      "text": "I was originally waiting for the modern Dev team to or the developer tools team to uh to create the fun functionality in the AL compiler to create onetime packages without the need to have all dependencies in full apps but could utilize symbols of dependencies it seems like they're not going to deliver that"
+    },
+    {
+      "t": 2650.2,
+      "kind": "coming-later",
+      "text": "we've talked about two different mechanisms talked about the ability for partners to opt in"
+    },
+    {
+      "t": 2721.2,
+      "kind": "other",
+      "text": "right now it go on support to might be an easy fix to do"
+    },
+    {
+      "t": 3087.8,
+      "kind": "coming-later",
+      "text": "run the tests in online sandboxes which is not possible right now but it's something we are we've been working on"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 29,
+    "quotes_dropped": 1,
+    "evidence_verified": 6,
+    "evidence_unverified": 26
+  },
+  "windows": 5,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.023226
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.0555967
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.025909999999999996
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.051637899999999994
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.008107999999999999
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.046232999999999996
+    }
+  ]
+}

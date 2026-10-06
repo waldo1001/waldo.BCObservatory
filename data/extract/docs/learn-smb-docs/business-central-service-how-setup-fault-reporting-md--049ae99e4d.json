@@ -1,0 +1,59 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/service-how-setup-fault-reporting.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/service-how-setup-fault-reporting",
+  "title": "Set up fault reporting in Service Management",
+  "blob": "b3e5ee0b46e756f0b0a190ddbd6b1eca074ac522",
+  "summary": "Set up fault reporting standards for service items by defining fault codes, symptom codes, areas, and reason codes. Configure the fault reporting level and establish fault-to-resolution relationships to track common repair methods.",
+  "systems": [
+    "service"
+  ],
+  "topics": [
+    "fault reporting",
+    "service setup",
+    "fault codes",
+    "symptom codes",
+    "repair codes"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Service Setup"
+    },
+    {
+      "type": "page",
+      "name": "Fault Codes"
+    },
+    {
+      "type": "page",
+      "name": "Symptom Codes"
+    },
+    {
+      "type": "page",
+      "name": "Fault/Resolution Code Relationships"
+    },
+    {
+      "type": "codeunit",
+      "name": "Insert Fault/Resol. Codes Relationships"
+    }
+  ],
+  "features": [
+    "fault reporting levels",
+    "fault codes",
+    "symptom codes",
+    "fault area codes",
+    "fault reason codes",
+    "fault/resolution relationships",
+    "warranty tracking"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003425,
+      "pages_in_call": 8
+    }
+  ]
+}

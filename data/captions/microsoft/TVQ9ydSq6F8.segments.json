@@ -1,0 +1,121 @@
+{
+  "video_id": "TVQ9ydSq6F8",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 5.9,
+      "end": 26.3,
+      "text": "have you ever wanted to package data in your business Central extension it could be any data it could be test data it could be sample data to pre-populate some records with it could be configuration files um well if you've ever wanted to do something like that I have something cooking for you or actually it's cooked"
+    },
+    {
+      "t": 26.3,
+      "end": 37.6,
+      "text": "if you are using business Central 25.2 or later um and to illustrate how this works uh let me show you I have this new extension"
+    },
+    {
+      "t": 37.6,
+      "end": 57.8,
+      "text": "here and it is in the spirit of cooking a list of recipes and you can specify a name of a dish which Cuisine it belongs to and optionally an image uh that uh represents the dish and here I have an action to load some data"
+    },
+    {
+      "t": 57.8,
+      "end": 78,
+      "text": "ha now I have a whole bunch of dishes um pre-populated and also some of them even have blob data associated with it how did I do this did I hide these images as base 64 strings in a text uh variable um did I hardcode all of these I did not"
+    },
+    {
+      "t": 78,
+      "end": 98.8,
+      "text": "and I'm going to show you how this works with resources now let's switch over to visual studio code where all the fun happens so I have uh in my Al files I'll go to the AL first uh in my Al files I've got well the first few objects aren't very interesting I've just got like a table to store the um"
+    },
+    {
+      "t": 98.8,
+      "end": 118.8,
+      "text": "fields that I want I have a page to display what I want to display but the most interesting thing here is the load action how did I load all those records now I'm not going to go through all the ours uh but what I want to call out here the first thing here is this function nav app.get Resource as Json um and this"
+    },
+    {
+      "t": 118.8,
+      "end": 139.1,
+      "text": "is how we interact with resources there's a bunch of convenience functions like this so if I go and na app.get resource so we have get resource get Resource as Json get Resource as text they're used for different things um get Resource as Json get Resource as text they should be self-explanatory um gets a resource as a Json"
+    },
+    {
+      "t": 139.1,
+      "end": 159.8,
+      "text": "object and get Resource as a text and then you have get resource for arbitrary things um if I uh look at this I I see that I'm reading a resource called recipe index Json and those of you with an astute eye can see that I actually have this file here under the resources folder um I also have a bunch of images for some of them"
+    },
+    {
+      "t": 159.8,
+      "end": 180,
+      "text": "and how do I say hey this folder should be the folder which I select my resources uh it's very simple in the app. Json there is a new property called resource folders and you just specify whichever folder you want uh you may notice that this is an array uh this means you can specify multiple"
+    },
+    {
+      "t": 180,
+      "end": 200.1,
+      "text": "resource folders if you want up to you um I've just got my my single folder with a subfolder underneath uh and so the first thing I do is I read the Json object from using get resources at Json then I'm not going to go over the how the J how I interact with the Json but I just iterate over it get"
+    },
+    {
+      "t": 200.1,
+      "end": 213.4,
+      "text": "a whole bunch of values out of it and then I also want to know hey do I have an image associated with this dish and the way I do that is with another function that you can use to intera with resources and that is nav app."
+    },
+    {
+      "t": 213.4,
+      "end": 233.4,
+      "text": "list resources um as you can see here I've got images uh Ward J uh basically it means um give me all the resources that match uh this pattern um if you don't do a w cut you can also do something like this you can also do uh just get me everything in the"
+    },
+    {
+      "t": 233.4,
+      "end": 253.7,
+      "text": "images folder that also works or you can say get me everything if you pass nothing inside you will get abs every single resource available to your app and here I'm just reading the resource as into an instream and then later on I'm just copying that instream into the records"
+    },
+    {
+      "t": 253.7,
+      "end": 268,
+      "text": "blob um and that was it it is that simple um if I want to add more images I can just throw more images into the folder uh if I want to add more records just add more lines to my Json file here and it works"
+    },
+    {
+      "t": 268,
+      "end": 288,
+      "text": "now there are some important limitations with resources that you should be aware of the first and most important limitation is that resources can only be accessed within the app that owns them this means if I have another app that depends on this app I cannot access these resources directly I cannot"
+    },
+    {
+      "t": 288,
+      "end": 308.2,
+      "text": "use nav app get resource recipe index or Json to get the recipe index from this app so need per app um the other thing is that we treat resources as code what does this mean uh whenever you run into uh resource exposure policies so um if you specify"
+    },
+    {
+      "t": 308.2,
+      "end": 328.8,
+      "text": "allow downloading Source resources will be downloaded with the source code um if you set this to false it will not be included in the source code um and on top of that there are some limitations I don't remember of them off the top of my head but luckily I have also documented them so there's this very nice page here"
+    },
+    {
+      "t": 328.8,
+      "end": 348.8,
+      "text": "adding an access resources in business Central extensions and here you can see exactly what I just mentioned how to what the um how to specify it the functions you have to use um but here the limits so any single resource file can be up to 16 megabytes the total size of all"
+    },
+    {
+      "t": 348.8,
+      "end": 368.9,
+      "text": "resource files has to be under 256 for a single extension and you can have up to 256 files in an extension we may change this as we collect uh data on usage just to optimize our system but this is what the limits are for now um yeah and that is everything for my demonstration of"
+    },
+    {
+      "t": 368.9,
+      "end": 378.9,
+      "text": "resources and I hope to see you using resources in your extensions as well thank you very much for joining me"
+    }
+  ],
+  "markers": [
+    {
+      "t": 1.18,
+      "text": "[Music]"
+    },
+    {
+      "t": 5.869,
+      "text": "[Music]"
+    },
+    {
+      "t": 5.879,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 1059
+}
