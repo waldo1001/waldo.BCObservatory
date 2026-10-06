@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-client-add-in-exceptions",
   "published_at": "2025-05-06T19:27:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "dddaeb96e3ce99c664c2da723d4a2aec10759930",
       "words": 372,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:33:47.710Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003903
+    },
+    "summarized": {
+      "at": "2026-10-06T19:33:47.803Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:33:47.805Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:33:47.807Z",
+      "page": false
     }
   },
   "input_hash": "dddaeb96e3ce99c664c2da723d4a2aec10759930",
@@ -42,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "dddaeb96e3ce99c664c2da723d4a2aec10759930"
+  "output_hash": "fb000c04a0bf1f1180afc55aae053922687bf948c73278dc84a9553d3f183ff3"
 }

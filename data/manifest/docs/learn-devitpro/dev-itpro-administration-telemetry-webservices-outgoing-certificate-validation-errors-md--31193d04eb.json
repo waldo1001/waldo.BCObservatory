@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-webservices-outgoing-certificate-validation-errors",
   "published_at": "2025-05-06T19:27:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "a9ca0e304f6cc081a4d3ccfffd749bd92407de02",
       "words": 312,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:33:47.716Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003903
+    },
+    "summarized": {
+      "at": "2026-10-06T19:33:47.827Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:33:47.830Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:33:47.832Z",
+      "page": false
     }
   },
   "input_hash": "a9ca0e304f6cc081a4d3ccfffd749bd92407de02",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a9ca0e304f6cc081a4d3ccfffd749bd92407de02"
+  "output_hash": "e9790c663b3105475ba0d614cf8a65947c55958621aace86bf876840222d2f1c"
 }

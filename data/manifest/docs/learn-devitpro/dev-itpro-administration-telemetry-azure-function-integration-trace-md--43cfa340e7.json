@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-azure-function-integration-trace",
   "published_at": "2025-05-06T19:27:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "afa4704b220de0c844e42d0644e627cd4d700e51",
       "words": 405,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:33:47.708Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003903
+    },
+    "summarized": {
+      "at": "2026-10-06T19:33:47.797Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:33:47.798Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:33:47.801Z",
+      "page": false
     }
   },
   "input_hash": "afa4704b220de0c844e42d0644e627cd4d700e51",
@@ -39,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "afa4704b220de0c844e42d0644e627cd4d700e51"
+  "output_hash": "91bbf336951c8efcda3b12a90eb56fc22531a0a65c21118cb049786cc092afc0"
 }

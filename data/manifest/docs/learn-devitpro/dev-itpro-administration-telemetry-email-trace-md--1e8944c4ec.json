@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-email-trace",
   "published_at": "2025-05-06T19:27:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "59f14a7af695451520523c6a9b6d54d853fead89",
       "words": 650,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:33:47.711Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.003903
+    },
+    "summarized": {
+      "at": "2026-10-06T19:33:47.810Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:33:47.811Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:33:47.813Z",
+      "page": false
     }
   },
   "input_hash": "59f14a7af695451520523c6a9b6d54d853fead89",
@@ -42,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "59f14a7af695451520523c6a9b6d54d853fead89"
+  "output_hash": "ddf57faad0b64c8d05292693dff2edb8b5c9cafc87c48fc21ae62caa02992b6f"
 }
