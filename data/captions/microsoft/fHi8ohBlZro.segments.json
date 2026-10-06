@@ -1,0 +1,116 @@
+{
+  "video_id": "fHi8ohBlZro",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 6.4,
+      "end": 21.2,
+      "text": "hello I'm Barrick nutson and in this session we are going to look at what we've done for the job queue in this wave and I would say with this wave we technically already released it but it belongs to this"
+    },
+    {
+      "t": 21.2,
+      "end": 32.3,
+      "text": "wave I'm briefly touching upon what is the job queue because most people use it uh and then what's different here in wave"
+    },
+    {
+      "t": 32.3,
+      "end": 52.8,
+      "text": "two so first of all it's not so much a q as it is a way to schedule background tasks and we have a system command as you can see in the screen where we create a task and then we specify which code you need to run which code you to call if it if you have an error"
+    },
+    {
+      "t": 52.8,
+      "end": 73.4,
+      "text": "when to run it uh and which record to process but it's also an application feature where we in the application have um there are two examples on the screen maybe we want to run a report or a code unit maybe there are some parameters maybe we want to re to reschedule it when it's done so we can have a"
+    },
+    {
+      "t": 73.4,
+      "end": 93.8,
+      "text": "recurrence and there's one particular field that we are going to touch upon in this presentation which is the um category code job Q category and that's used for if you want only one of these jobs to run at the same time is typically"
+    },
+    {
+      "t": 93.8,
+      "end": 104.7,
+      "text": "used for sales and purchase order posting where you only can post one sales order or purchase order at the same time if you want to avoid"
+    },
+    {
+      "t": 104.7,
+      "end": 125.3,
+      "text": "locking um otherwise you don't need this field so how does it work or how did it work before so the job starts and the first thing we do is that we look at does it have a category code like the one which I just showed"
+    },
+    {
+      "t": 125.3,
+      "end": 139.6,
+      "text": "uh if no then we just run the task and we're done if yes there is a category code then we check does anyone else with the same category run no then we run and we're done otherwise"
+    },
+    {
+      "t": 139.6,
+      "end": 159.4,
+      "text": "we figura figuratively hang up and try again later actually just like when you try to call the pizza delivery uh or the doctor so you you make a try if it's busy you try again later and that works"
+    },
+    {
+      "t": 159.4,
+      "end": 179.5,
+      "text": "fine if very few people schedule this at the same time but if there a long Q it means you need to call very often like the pizza delivery or doctor you need to try many times before you get through but also it means that the"
+    },
+    {
+      "t": 179.5,
+      "end": 199.9,
+      "text": "execu Fusion order is random even you were the first to call or sorry the second to call obviously uh you may also be the last to get through and again if there's a long queue we'll have to reschedule a lot again similar to you needing to call a lot of times before you finally get through"
+    },
+    {
+      "t": 199.9,
+      "end": 210.8,
+      "text": "and it's this specific thing that we have changed um now so if you remember this schema"
+    },
+    {
+      "t": 210.8,
+      "end": 228.2,
+      "text": "then so the normal flow is the same but if there's a category and someone else is running then we go to sleep so we set status to waiting and we schedule a task that is not ready and then we actually don't do anything"
+    },
+    {
+      "t": 228.2,
+      "end": 248.8,
+      "text": "more the process that was running remember and someone else was running at this time when they're done they will go out and say activate next next in Q meaning you or someone else uh and then they're done and you can start your"
+    },
+    {
+      "t": 248.8,
+      "end": 267.2,
+      "text": "turn so this is more like actually lining up in a queue as supposed as you're supposed to um and we also get the correct execution order because you know you have a number and you keep that number in a"
+    },
+    {
+      "t": 267.2,
+      "end": 287.3,
+      "text": "queue so if you're first in your Al first out uh and finally since we are to pick the next number down here we can actually introduce priority we can allow someone to skip the queue because we actually did have a customer who had a lot"
+    },
+    {
+      "t": 287.3,
+      "end": 298,
+      "text": "of sales postings and purchase postings all with very very large orders thousands of lines so each single order would be"
+    },
+    {
+      "t": 298,
+      "end": 318,
+      "text": "minutes and some sometimes they would have queued up half an hour uh of worth of uh jobs waiting but they may have a you know something very urgent that they want to prioritize maybe the truck was waiting outside or whatever so that's why we"
+    },
+    {
+      "t": 318,
+      "end": 338,
+      "text": "introduced priority as well within that category uh and that's basically it so the the only thing we did we added a new status code waiting and that Corr responds to sleeping if you will thank you that's it"
+    }
+  ],
+  "markers": [
+    {
+      "t": 0.97,
+      "text": "[Music]"
+    },
+    {
+      "t": 6.389,
+      "text": "[Music]"
+    },
+    {
+      "t": 6.399,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 788
+}

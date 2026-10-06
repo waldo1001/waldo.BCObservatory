@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/Gate-Entry-Inward_Transactions",
   "published_at": "2025-08-08T14:20:58.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "f6f2f9459e870847b73e586e89ecd5e7a169efe8",
       "words": 781,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:12:59.308Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 9,
+      "cost_usd": 0.006497
+    },
+    "summarized": {
+      "at": "2026-10-06T19:13:12.549Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:13:12.551Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:13:12.552Z",
+      "page": false
     }
   },
   "input_hash": "f6f2f9459e870847b73e586e89ecd5e7a169efe8",
@@ -44,5 +63,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f6f2f9459e870847b73e586e89ecd5e7a169efe8"
+  "output_hash": "caa0a8c21403100fe9f9855bebff477c4842c87ba9891973d4135ec86e421535"
 }

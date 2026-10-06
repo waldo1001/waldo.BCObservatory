@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-formatter",
   "published_at": "2025-08-08T08:48:46.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "ca3978c2aff27518c07740d8295194549bef89d1",
       "words": 230,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:13:10.647Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003796
+    },
+    "summarized": {
+      "at": "2026-10-06T19:13:12.572Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:13:12.573Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:13:12.574Z",
+      "page": false
     }
   },
   "input_hash": "ca3978c2aff27518c07740d8295194549bef89d1",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ca3978c2aff27518c07740d8295194549bef89d1"
+  "output_hash": "77e13e552d260804645e18da2e63f55e6af12485fbb5fc6895b40e70fb7f9382"
 }

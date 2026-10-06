@@ -1,0 +1,558 @@
+{
+  "video_id": "jJxBswIy_Xw",
+  "item_id": "video/yt-microsoft/jJxBswIy_Xw",
+  "title": "What's New: Subscription Billing (2024 release wave 2)",
+  "duration_s": 1544,
+  "systems": [
+    "sales",
+    "finance",
+    "reporting"
+  ],
+  "topics": [
+    "subscription billing",
+    "recurring invoicing",
+    "service commitments",
+    "deferrals",
+    "revenue recognition",
+    "contracts",
+    "billing proposals",
+    "pricing",
+    "automation",
+    "usage-based billing",
+    "contract management",
+    "data import"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to Subscription Billing Module",
+      "t_start": 0,
+      "t_end": 120.8
+    },
+    {
+      "title": "Key Concepts: Deferrals, Pricing, and Automation",
+      "t_start": 120.8,
+      "t_end": 201.1
+    },
+    {
+      "title": "Demo Overview and Sales Order Setup",
+      "t_start": 201.1,
+      "t_end": 250.1
+    },
+    {
+      "title": "Hardware and Maintenance Service Configuration",
+      "t_start": 250.1,
+      "t_end": 323.8
+    },
+    {
+      "title": "Service Commitments and Order Confirmation",
+      "t_start": 323.8,
+      "t_end": 443.6
+    },
+    {
+      "title": "Contract Creation and Assignment",
+      "t_start": 443.6,
+      "t_end": 525.5
+    },
+    {
+      "title": "Billing Proposal Generation and Invoice Creation",
+      "t_start": 525.5,
+      "t_end": 623
+    },
+    {
+      "title": "Deferral Entries and Revenue Recognition",
+      "t_start": 623,
+      "t_end": 737
+    },
+    {
+      "title": "Deferral Release and Sales Process Workflow",
+      "t_start": 737,
+      "t_end": 972.4
+    },
+    {
+      "title": "Extending Contracts and Creating Billing Proposals",
+      "t_start": 972.4,
+      "t_end": 1086.2
+    },
+    {
+      "title": "Reporting and Usage-Based Billing Overview",
+      "t_start": 1086.2,
+      "t_end": 1147
+    },
+    {
+      "title": "Usage-Based Billing: Data Import and Invoice Creation",
+      "t_start": 1147,
+      "t_end": 1301.2
+    },
+    {
+      "title": "Usage Data Mapping and Contract Workflows",
+      "t_start": 1301.2,
+      "t_end": 1544
+    }
+  ],
+  "features": [
+    {
+      "name": "Subscription and Recurring Billing Module",
+      "description": "A new module for subscription and recurring invoice handling with concepts including contracts, service commitments, and billing proposals. Allows flexible generation of invoices for extended periods.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 6.5,
+      "t_end": 120.8,
+      "is_demoed": true,
+      "caveats": [
+        "requires understanding of new concepts and terminology",
+        "requires setup of contracts and service commitments before billing"
+      ],
+      "tags": [
+        "subscription",
+        "recurring",
+        "invoicing",
+        "new module"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Contracts and Service Commitments",
+      "description": "New concept where contracts specify recurring service commitments that define what will be invoiced such as tickets, minutes, usage, or recurring services. Supports multiple linked service commitments.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 45,
+      "t_end": 85.2,
+      "is_demoed": true,
+      "caveats": [
+        "service commitments must be assigned to contract before billing"
+      ],
+      "tags": [
+        "contracts",
+        "service commitments",
+        "billing"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Billing Proposals and Schedules",
+      "description": "System can generate billing proposals or schedules once a contract is set up. Allows flexibility to generate next invoice, multiple invoices, or extended period invoices. Supports filtering by contracts and periods.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 85.2,
+      "t_end": 1086.2,
+      "is_demoed": true,
+      "caveats": [
+        "requires contract setup first",
+        "Existing lines tied to documents cannot be easily deleted"
+      ],
+      "tags": [
+        "billing proposals",
+        "schedules",
+        "invoicing"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Space Billing Feature",
+      "description": "Allows quantities and prices to be imported from external systems into contracts to automate the recurring billing process. Enables integration with external data sources.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 105.4,
+      "t_end": 120.8,
+      "is_demoed": false,
+      "caveats": [
+        "not demoed in this session"
+      ],
+      "tags": [
+        "space billing",
+        "external systems",
+        "import"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Deferrals System",
+      "description": "Revenue deferral system for subscription invoices. When posting an annual or multi-period invoice, deferrals are created automatically. Revenue can be recognized in individual periods and posted to GL or expense accounts.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 141.2,
+      "t_end": 847.8,
+      "is_demoed": true,
+      "caveats": [
+        "deferral entries need to be released via batch job to post to GL"
+      ],
+      "tags": [
+        "deferrals",
+        "revenue recognition",
+        "accounting",
+        "contracts"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Contract Price Management",
+      "description": "System supports managing prices and updating contracts. Price calculation types available include item price and item price with discounts.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 181,
+      "t_end": 201.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "pricing",
+        "contract management"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Contract Renewals",
+      "description": "System supports renewal of contracts with some automation capabilities. Allows extending contracts for continued recurring billing.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 181,
+      "t_end": 201.1,
+      "is_demoed": false,
+      "caveats": [
+        "renewals automation level not detailed"
+      ],
+      "tags": [
+        "renewals",
+        "automation"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Power BI Embedded Reporting",
+      "description": "Power BI app for embedded reporting for subscription billing module coming in minor release 25.2. Will provide analytics and visualization of subscription data.",
+      "status": "announced",
+      "status_evidence_t": 181,
+      "status_evidence_quote": "later on in the minor release I think it's 25.2 we will have a popi app which means we will have embedded reporting for",
+      "status_evidence_verified": true,
+      "t_start": 181,
+      "t_end": 1147,
+      "is_demoed": false,
+      "caveats": [
+        "scheduled for 25.2 release"
+      ],
+      "tags": [
+        "reporting",
+        "power bi",
+        "analytics"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Excel Reports for Subscription Billing",
+      "description": "Excel reports for subscription billing data to support quick analysis and custom reporting. Coming in 25.2 release.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 181,
+      "t_end": 1147,
+      "is_demoed": false,
+      "caveats": [
+        "scheduled for 25.2 release"
+      ],
+      "tags": [
+        "reporting",
+        "excel",
+        "analytics"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Service Commitment Price Calculation",
+      "description": "Service commitments support different price calculation types such as item price or item price including discounts. Prices can be calculated as a percentage of the base item price.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 323.8,
+      "t_end": 380.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "pricing",
+        "service commitments",
+        "calculations"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Billing Base Period and Rhythm Configuration",
+      "description": "Contracts can be configured with billing base periods and billing rhythms such as annual. Allows setting how frequently and for what duration invoices will be generated.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 323.8,
+      "t_end": 380.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "billing",
+        "contracts",
+        "periods"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Subscription Order Confirmation Layout",
+      "description": "Separate word layout for subscription billing order confirmations that displays both unit prices and recurring service prices to customers.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 400.7,
+      "t_end": 443.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "order confirmation",
+        "layouts",
+        "sales"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Deferral Release Batch Job",
+      "description": "Batch job for releasing deferral entries and moving revenue from deferral accounts to GL accounts. Allows selective release of deferrals by date range to control revenue recognition timing.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 737,
+      "t_end": 827.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "deferrals",
+        "batch job",
+        "revenue recognition"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Contract Extension with Service Commitments",
+      "description": "Ability to extend existing customer contracts by adding new service commitments rather than arbitrary line items. Allows customers to add services like premium support to existing subscriptions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 888.1,
+      "t_end": 972.4,
+      "is_demoed": true,
+      "caveats": [
+        "Only service commitments that support recurring billing can be added"
+      ],
+      "tags": [
+        "contract management",
+        "service commitments"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Usage-Based Billing Data Import",
+      "description": "Import external usage data like support tickets, consumption minutes, articles read, or electricity usage to feed into recurring invoices. Supports file-based import with step-by-step or batch processing options.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1147,
+      "t_end": 1301.2,
+      "is_demoed": true,
+      "caveats": [
+        "Requires setup of data supplier and item references before import"
+      ],
+      "tags": [
+        "usage-based billing",
+        "data import",
+        "recurring billing"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Usage Data Processing and Invoice Creation",
+      "description": "Process imported usage data to create billing data and generate customer or vendor invoices. System allows step-by-step processing for troubleshooting or batch processing for normal operations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1206.2,
+      "t_end": 1301.2,
+      "is_demoed": true,
+      "caveats": [
+        "System can delete data if mistakes are made during processing"
+      ],
+      "tags": [
+        "usage-based billing",
+        "invoice creation"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Automatic Contract Mapping for Usage Data",
+      "description": "When importing usage data without pre-existing contracts, system identifies the service commitment but provides error messages allowing users to create or extend contracts as needed.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1301.2,
+      "t_end": 1457,
+      "is_demoed": true,
+      "caveats": [
+        "Requires users to perform contract extensions after error resolution"
+      ],
+      "tags": [
+        "usage-based billing",
+        "contract mapping"
+      ],
+      "system": "sales"
+    }
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Customer Contract Deferrals",
+      "t": 643.1
+    },
+    {
+      "type": "page",
+      "name": "Contract Deferral Release",
+      "t": 757.2
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Brian Nelson",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 24.8,
+      "text": "we have added a new module um for subscription and for subscription handling for recurring invoicing",
+      "why_it_matters": "Confirms subscription billing is a new module with dedicated functionality for handling recurring invoices, not just a feature add-on.",
+      "check": "exact"
+    },
+    {
+      "t": 45,
+      "text": "there's a concept of contracts which you would normally expect when you have uh a subscription you have a contract for what it is",
+      "why_it_matters": "Establishes contracts as the foundational concept for subscription billing, similar to real-world subscription models.",
+      "check": "exact"
+    },
+    {
+      "t": 85.2,
+      "text": "you can generate uh billing proposals uh or schedules uh once you have a contract once you have a setup uh you can get",
+      "why_it_matters": "Shows flexibility in billing proposal generation - can do single or multiple invoices for flexible periods.",
+      "check": "exact"
+    },
+    {
+      "t": 141.2,
+      "text": "but you in your accounting system you only recognize the the revenue for the individual periods so there is a deferrals um system for",
+      "why_it_matters": "Explains the business need for deferrals - addresses revenue recognition for multi-period subscriptions.",
+      "check": "exact"
+    },
+    {
+      "t": 181,
+      "text": "later on in the minor release I think it's 25.2 we will have a popi app which means we will have embedded reporting for",
+      "why_it_matters": "Announces future reporting capabilities coming in 25.2 minor release, indicating roadmap for analytics.",
+      "check": "exact"
+    },
+    {
+      "t": 359.8,
+      "text": "the billing uh base period is 12 months so it's annual and the billing rhythm is also uh annual which makes uh sense of",
+      "why_it_matters": "Demonstrates how billing periods and rhythms are configured for subscription contracts.",
+      "check": "exact"
+    },
+    {
+      "t": 663.2,
+      "text": "they're here and um they're ready to be released is a field whether they are released or not whether they have been moved to",
+      "why_it_matters": "Shows how deferrals are split into individual periods and tracks their release status for GL posting.",
+      "check": "exact"
+    },
+    {
+      "t": 868,
+      "text": "when you post the invoice because it's an annual uh subscription uh deferral entries are created and you can then release them",
+      "why_it_matters": "Establishes the core deferral mechanism for revenue recognition in subscription billing",
+      "check": "exact"
+    },
+    {
+      "t": 925.9,
+      "text": "you cannot just add any random uh line to a contract you can only add uh service commitments like things that we can uh",
+      "why_it_matters": "Defines the constraint that contracts only support recurring billing items, not arbitrary products",
+      "check": "exact"
+    },
+    {
+      "t": 1086.2,
+      "text": "in the 25.2 minor we will provide Excel reports so you can get your data out and do analysis and you'll also uh see",
+      "why_it_matters": "Announces future reporting capabilities beyond the current release",
+      "check": "exact"
+    },
+    {
+      "t": 1127,
+      "text": "the data for the individual invoices are based uh off of some external data um usually what the End customer assumes it could be",
+      "why_it_matters": "Explains the types of external consumption data that usage-based billing can handle",
+      "check": "exact"
+    },
+    {
+      "t": 1335.2,
+      "text": "because I process data without having having a contract already uh the system will give me an error and I can just click on",
+      "why_it_matters": "Shows the workflow for handling cases where contracts do not yet exist for incoming usage data",
+      "check": "exact"
+    },
+    {
+      "t": 1478.6,
+      "text": "it's a new module there are some new terminology uh but it supports uh recurring billing for uh Services you can start from an",
+      "why_it_matters": "Clarifies that subscription billing is a new module with multiple entry points for different business models",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 181,
+      "kind": "coming-later",
+      "text": "later on in the minor release I think it's 25.2 we will have a popi app which means we will have embedded reporting for the subscription billing module"
+    },
+    {
+      "t": 1106.2,
+      "kind": "coming-later",
+      "text": "in the 25.2 minor we will provide Excel reports and powerbi embed app"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 13,
+    "quotes_dropped": 0,
+    "evidence_verified": 1,
+    "evidence_unverified": 16
+  },
+  "windows": 2,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.031236
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.023078
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.031240999999999998
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-optimize-replication",
   "published_at": "2025-08-15T13:56:35.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "87159fe082ddcc444e51b13eda238ea1eb5e6cae",
       "words": 1456,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:12:59.303Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.006497
+    },
+    "summarized": {
+      "at": "2026-10-06T19:12:59.312Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:12:59.313Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:12:59.314Z",
+      "page": false
     }
   },
   "input_hash": "87159fe082ddcc444e51b13eda238ea1eb5e6cae",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "87159fe082ddcc444e51b13eda238ea1eb5e6cae"
+  "output_hash": "a09c11bc74ad33a245d01df4b075b8a44fe55fa1509dba7ec43fd27d061e9551"
 }

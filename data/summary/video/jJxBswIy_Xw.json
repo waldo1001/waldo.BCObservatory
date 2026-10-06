@@ -1,0 +1,27 @@
+{
+  "video_id": "jJxBswIy_Xw",
+  "item_id": "video/yt-microsoft/jJxBswIy_Xw",
+  "summary": "Subscription Billing module in Business Central (2024 release wave 2): contracts, service commitments, billing proposals, deferrals and usage-based billing, shown in a demo. It also notes that Excel reports and a Power BI embedded app are planned for minor release 25.2.",
+  "overview": "The video introduces the new Subscription Billing module for recurring invoicing. It explains the new concepts (contracts, service commitments, billing proposals, deferrals) and walks through a demo: a sales order with hardware and maintenance services, order confirmation, contract creation and assignment, billing proposal and invoice creation, and deferral entries and their release.\n\nThe second half covers extending a contract with service commitments, reporting, and usage-based billing. The usage-based part shows importing external usage data, processing it into billing data and invoices, and mapping it to contracts. Excel reports and a Power BI embedded app are mentioned as coming in minor release 25.2.",
+  "key_points": [
+    "Contracts hold service commitments that define what is invoiced (tickets, minutes, usage or recurring services). Commitments must be assigned to a contract before billing.",
+    "Billing proposals can be generated once a contract is set up. They can cover the next invoice, several invoices or an extended period, and can be filtered by contract and period.",
+    "The demo contract uses a 12-month billing base period and an annual billing rhythm.",
+    "Posting an annual invoice creates deferral entries automatically. A batch job releases them by date range to move revenue to GL accounts.",
+    "Only service commitments that support recurring billing can be added to an existing contract. Arbitrary lines cannot be added.",
+    "Usage-based billing imports external usage data from a file. It needs a data supplier and item references set up first, and processing can run step by step or as a batch.",
+    "If usage data is processed without a matching contract, the system gives an error. From there the user can create or extend a contract."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "decision maker"
+  ],
+  "extraction_hash": "40dfeaa4b73a6a51d42087c320dedccda63222e75189b32a0c22a805bb8d5f36",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0222164
+  }
+}

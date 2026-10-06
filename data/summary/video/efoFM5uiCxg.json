@@ -1,0 +1,27 @@
+{
+  "video_id": "efoFM5uiCxg",
+  "item_id": "video/yt-microsoft/efoFM5uiCxg",
+  "summary": "Job queue notifications in Business Central 2024 release wave 2: an assisted setup for recipients, methods and failure thresholds, an in-product notification strip and role center tiles, and external notifications through business events and Power Automate. The external part is in preview.",
+  "overview": "The video covers how Business Central can notify users when critical background processes such as job queues stop or fail. Administrators use an assisted setup guide with three steps: choose recipients, choose notification methods (in-product or external), and set frequency thresholds.\n\nUsers see a notification strip in their role center and three extra job queue tiles for failed, in-progress and pending tasks. Admins can see other users' job queue tasks. External notifications use the job queue task failed business event with a Power Automate template, and the video also covers new job queue APIs. The external part is in preview because business events are still in preview.",
+  "key_points": [
+    "The assisted setup guide has three steps: select notification recipients, choose notification methods (in-product or external), and set frequency thresholds.",
+    "Thresholds reduce notification fatigue, for example notifying only after 3-5 consecutive failures instead of every failure.",
+    "The in-product notification strip in the role center lets users show details, inspect failed tasks, restart jobs manually, and disable notifications in My Settings.",
+    "Three role center tiles show tasks failed, in progress, and pending or waiting. Color-coded indicators follow the admin's failed-task thresholds.",
+    "Designated job queue notification administrators see their own job queue tasks and those of other users.",
+    "External notifications use the job queue task failed business event and a Power Automate template that can email through Outlook. This part is in preview because business events are in preview.",
+    "New APIs for job queue entries (with a restart bound action) and job queue log entries can be used from Power Automate flows."
+  ],
+  "audience": [
+    "administrator",
+    "functional consultant",
+    "developer"
+  ],
+  "extraction_hash": "e4f8305233e47a8b9b8ab95c333d613b5fc417f92c4a3e5424d45f91d354428b",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0164544
+  }
+}

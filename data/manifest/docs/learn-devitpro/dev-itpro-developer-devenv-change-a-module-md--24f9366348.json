@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-change-a-module",
   "published_at": "2025-08-08T08:59:17.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "497cab5100080e33c8b3bab9e6c1370b6ba586a4",
       "words": 576,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:13:10.646Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.003796
+    },
+    "summarized": {
+      "at": "2026-10-06T19:13:12.570Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:13:12.571Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:13:12.571Z",
+      "page": false
     }
   },
   "input_hash": "497cab5100080e33c8b3bab9e6c1370b6ba586a4",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "497cab5100080e33c8b3bab9e6c1370b6ba586a4"
+  "output_hash": "fca50b12da41a36dbc179466f6582b72c45ec2bbe07c832a02f36e678fb0f4cb"
 }

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TCS-206C-1H-Overview",
   "published_at": "2025-08-08T14:20:58.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "8dc3df67880aab023943de6dbcf5f18394bccc27",
       "words": 438,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:13:10.641Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003796
+    },
+    "summarized": {
+      "at": "2026-10-06T19:13:12.557Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:13:12.558Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:13:12.559Z",
+      "page": false
     }
   },
   "input_hash": "8dc3df67880aab023943de6dbcf5f18394bccc27",
@@ -42,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "8dc3df67880aab023943de6dbcf5f18394bccc27"
+  "output_hash": "c8b99150998b5f451906bebd2cad2c799a8331d281c8b16fc22e52186180c834"
 }

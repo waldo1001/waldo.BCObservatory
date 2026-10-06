@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=fdzTWZyT6mI",
   "published_at": "2024-10-08T15:00:45.000Z",
   "language": "en",
-  "state": "captioned",
+  "state": "linked",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
@@ -25,11 +25,42 @@
       "words": 3029,
       "lang": "en-orig",
       "kind": "auto"
+    },
+    "extracted": {
+      "at": "2026-10-06T19:12:59.767Z",
+      "path": "data/extract/video/fdzTWZyT6mI.json",
+      "prompt": "extract-video@1",
+      "windows": 1,
+      "features": 11,
+      "quotes": 3,
+      "quotes_dropped": 3,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.029305
+    },
+    "summarized": {
+      "at": "2026-10-06T19:13:07.415Z",
+      "path": "data/summary/video/fdzTWZyT6mI.json",
+      "prompt": "summarize-video@2",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": 0.0160344
+    },
+    "linked": {
+      "at": "2026-10-06T19:13:07.417Z",
+      "systems": [
+        "finance",
+        "sales"
+      ],
+      "topics": 10,
+      "objects_as_heard": 5
     }
   },
   "input_hash": null,
   "attempts": 0,
-  "flags": [],
+  "flags": [
+    "quote-check"
+  ],
   "meta": {
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 336,
@@ -42,5 +73,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "43edb049cf1d23d69d1a7c1909a2a9c89abdd7618bf59850a45ffe4480779bc8"
+  "output_hash": "126e5acebcec9485cd04670ed72f2b4a0f79b92173b9e88cd4b9b3a78bebca57"
 }

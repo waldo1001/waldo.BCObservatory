@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-TDS-on-Advance-Payment-Application-to-Purchase-Invoice",
   "published_at": "2025-08-08T14:20:58.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "3a9be0878cee82d3fe67e81882b47d3f3a154d66",
       "words": 544,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:12:59.311Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.006497
+    },
+    "summarized": {
+      "at": "2026-10-06T19:13:12.555Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:13:12.556Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:13:12.557Z",
+      "page": false
     }
   },
   "input_hash": "3a9be0878cee82d3fe67e81882b47d3f3a154d66",
@@ -42,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "3a9be0878cee82d3fe67e81882b47d3f3a154d66"
+  "output_hash": "4d7d46a0bfe6e840e817cfd98ed1d1e28c9dfbf0d51d5ba4b5b18c74b346a169"
 }

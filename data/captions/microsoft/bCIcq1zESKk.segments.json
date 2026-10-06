@@ -1,0 +1,298 @@
+{
+  "video_id": "bCIcq1zESKk",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 7,
+      "end": 19.4,
+      "text": "Welcome to the presentation what's new item substitution with Copilot one of the sessions of the Business Central launch event. My name is Predrag Maricic and today with me Volodymyr Synchuk."
+    },
+    {
+      "t": 19.4,
+      "end": 30.9,
+      "text": "Um together we will try to explain how Copilot can actually help with making item substitutions in Business Central. The agenda is quite short."
+    },
+    {
+      "t": 30.9,
+      "end": 41.7,
+      "text": "We will try to take a look on the existing functionality and how Copilot is changing the experience. After that we're going to take a look under the hood and see how we designed this functionality."
+    },
+    {
+      "t": 41.7,
+      "end": 52.9,
+      "text": "Volodymyr will put the Copilot in action and show you demo and after that we will just provide some general instructions and information about Copilot in Business Central."
+    },
+    {
+      "t": 52.9,
+      "end": 64.8,
+      "text": "So it's no secret that Business Central is investing heavily to get more AI experience in the product and item substitution is one of the features from that family."
+    },
+    {
+      "t": 64.8,
+      "end": 78.2,
+      "text": "Existing item substitution functionality is designed for users to be able to define alternative item in case when the primary item is out of stock or simply needs to be replaced."
+    },
+    {
+      "t": 78.2,
+      "end": 91.8,
+      "text": "So the idea is to accelerate the whole inventory process and in order to do that user would need to go to the item and then choose substitution from the list of the existing items."
+    },
+    {
+      "t": 91.8,
+      "end": 105,
+      "text": "That would mean trying to find similar items from the huge list and just imagine having my bike store with thousands of different items. Some of them could be different just by color or by producer."
+    },
+    {
+      "t": 105,
+      "end": 122.6,
+      "text": "Essentially the process could be very time-consuming and error-prone. So how about being able to go to a Business Central, choose item and then just say Business Central, can you find some substitution candidates so that I can choose from it?"
+    },
+    {
+      "t": 122.6,
+      "end": 139.7,
+      "text": "So that's exactly what Copilot is is trying to help with. So with the new functionality, user will be able to choose action to to suggest with Copilot and then get automatically suggestion for each of these items."
+    },
+    {
+      "t": 139.7,
+      "end": 154.4,
+      "text": "Let's now take a look on how we develop this functionality. So the first challenge for us was actually to collect all the item related information. As you can see on this slide, the information was scattered across different tables."
+    },
+    {
+      "t": 154.4,
+      "end": 164.8,
+      "text": "So we had to go to each of those tables and create consolidate consolidated table which contains information shown on this slide."
+    },
+    {
+      "t": 164.8,
+      "end": 182.5,
+      "text": "This obviously was done to improve performance and after that point, we are getting all that information and sending to Copilot to define keywords and synonyms which then be used to to to do filtering and find appropriate items."
+    },
+    {
+      "t": 182.5,
+      "end": 195.2,
+      "text": "Not only that, so after that we are committed to provide results which should be reliable and that's why we are using LLM to do re-ranking of the results."
+    },
+    {
+      "t": 195.2,
+      "end": 206,
+      "text": "Basically define which items are the most similar to the original item. Um So how how how about confidence?"
+    },
+    {
+      "t": 206,
+      "end": 220.9,
+      "text": "It is very important for us to build that trust between the product and and user. And there are a lot of rumors and comments about AI generated results and of course we want to present that to users and make sure that user also understand"
+    },
+    {
+      "t": 220.9,
+      "end": 234.9,
+      "text": "level of confidence that Business Central is providing with those results. So imagine situation where we have related item which is not quite the same as the original one, but there are similarities."
+    },
+    {
+      "t": 234.9,
+      "end": 245,
+      "text": "Um We still want to be able to show that to the user, but as you can see on this screenshot, the second item is on the list with the with lower confidence."
+    },
+    {
+      "t": 245,
+      "end": 265.1,
+      "text": "We want to let user know that this one is probably not the perfect match, but it's still something that user can choose. There are also additional capabilities to make this functionality flexible enough for user that Vladimir will demonstrate a bit later."
+    },
+    {
+      "t": 265.1,
+      "end": 279.4,
+      "text": "Now, let's take a look on how we can activate item substitution feature. So, similar like other Copilot capabilities, there is page called Copilot and AI capabilities, and in order to activate item substitution feature,"
+    },
+    {
+      "t": 279.4,
+      "end": 295.2,
+      "text": "it is needed to enable item called create product information. So, yes, this sentence looks like a bug, but it's actually not. The initial idea of for us was to deliver a bit more functionalities around item substitution,"
+    },
+    {
+      "t": 295.2,
+      "end": 308.4,
+      "text": "so not only the item substitution. However, due to very strict and diligent process of verifying feature against the against the reliable AI standards,"
+    },
+    {
+      "t": 308.4,
+      "end": 319.1,
+      "text": "we had to postpone one one piece of this functionality for for the future. But now it's time to put Copilot in action."
+    },
+    {
+      "t": 319.1,
+      "end": 333.1,
+      "text": "So, Vladimir, can you please show how this feature looks like right now? Yes, thank you, Pradeep. Let's have a quick look how our item substitution with Copilot works."
+    },
+    {
+      "t": 333.1,
+      "end": 341.6,
+      "text": "So, we start like from item list, we pick let's pick guest chair."
+    },
+    {
+      "t": 341.6,
+      "end": 351.9,
+      "text": "And then as always, we go to item substitutions. And here we have our new magic button. So, let's see what we are getting here."
+    },
+    {
+      "t": 351.9,
+      "end": 364.9,
+      "text": "What's happening behind the scene is we are taking item description and we are sending it to LLM to extract search keywords like both main search terms and additional search terms."
+    },
+    {
+      "t": 364.9,
+      "end": 376.4,
+      "text": "And then based on those search terms, we do search in actually all fields that project mentioned before. And then we get a list of items, a list of candidates."
+    },
+    {
+      "t": 376.4,
+      "end": 389.9,
+      "text": "So, after that we do re-ranking using embedding to get like the best results. So, as you can see for our Gesture black, we got some chairs, Gesture on top."
+    },
+    {
+      "t": 389.9,
+      "end": 403.3,
+      "text": "Uh but we also got something which is called conference table. And why is that? Uh let's try to see."
+    },
+    {
+      "t": 403.3,
+      "end": 409.7,
+      "text": "I'm going to open this conference table item."
+    },
+    {
+      "t": 410.7,
+      "end": 416.2,
+      "text": "And I know that it should"
+    },
+    {
+      "t": 416.2,
+      "end": 421.1,
+      "text": "have some extended text."
+    },
+    {
+      "t": 421.2,
+      "end": 438.4,
+      "text": "And here we have a statement that we recommend our Gesture with this product. So, as product mentioned before, since we are doing search through all these additional fields and tables, this table also is getting to the candidates."
+    },
+    {
+      "t": 438.4,
+      "end": 448.5,
+      "text": "And then uh apparently embedding decided that it's good enough to be included into the result. Uh but let's see"
+    },
+    {
+      "t": 448.5,
+      "end": 458.6,
+      "text": "let's check our confidence in that I'm going to switch the mode. So, now we can see that Gesture"
+    },
+    {
+      "t": 458.6,
+      "end": 472.9,
+      "text": "they are having high score and high confidence and conference table has low score. In this example, what if instead of guest chair, our main criteria is to have a black chair?"
+    },
+    {
+      "t": 472.9,
+      "end": 483.2,
+      "text": "In that case, we can just adjust some prompt and do any chair black and then generate result."
+    },
+    {
+      "t": 483.2,
+      "end": 500.6,
+      "text": "So, we get our black chair on top with a high score. We also have different modes of search. Balance, which is by default, make sure that at least one of the main search terms is included in the result of search."
+    },
+    {
+      "t": 500.6,
+      "end": 511.9,
+      "text": "And then additional search terms are optional. Permissive you can use if any search terms is enough for item to be included into candidates."
+    },
+    {
+      "t": 511.9,
+      "end": 524.2,
+      "text": "And then precise mode if if you want all the search terms to be included. Let me just show you how the precise mode works."
+    },
+    {
+      "t": 524.2,
+      "end": 537.6,
+      "text": "So, in that case, we got one result, which is black chair, and that should be enough. So, I'm going to insert this one into item substitution. And let me show you one more trick is"
+    },
+    {
+      "t": 537.6,
+      "end": 550.6,
+      "text": "I want to create a new item where I will not mention chair at all. So, let's call it seat for one person black."
+    },
+    {
+      "t": 550.6,
+      "end": 562.7,
+      "text": "And then let's try to get substitution with Copilot for this one. It is Now, we got all our chairs even though we did not mention chairs."
+    },
+    {
+      "t": 562.7,
+      "end": 579.2,
+      "text": "So, this is Yeah, we can insert them all. I should also probably mention some limitations that we have with this product is that first and probably the most important that you need to have quite good description of the item."
+    },
+    {
+      "t": 579.2,
+      "end": 590,
+      "text": "So, it has a meaning and yeah, uh embedding vector can be built in a good way for that one. Uh we also tested it in English only."
+    },
+    {
+      "t": 590,
+      "end": 605.5,
+      "text": "It should work on all other languages, but just to mention that we did testing only in English. And there is also since we have um consolidated table for the all fields that we use in search,"
+    },
+    {
+      "t": 605.5,
+      "end": 618,
+      "text": "it is updated periodically, but there might be some delay after you update the item or insert a new one. So, you have to wait a little bit before you can use"
+    },
+    {
+      "t": 618,
+      "end": 635.2,
+      "text": "substitution for this item that you updated or created. Thank you, Frederick. Thank you so much Vladimir. Bunch of exciting scenarios that Vladimir showed, but some of the topics we actually didn't manage to cover in this session."
+    },
+    {
+      "t": 635.2,
+      "end": 648.3,
+      "text": "So, that's why I would like also to draw your attention on couple more topics that you can find in other sessions. So, part of my team also developed the other feature called sales line suggestion with Copilot."
+    },
+    {
+      "t": 648.3,
+      "end": 665.6,
+      "text": "This functionality was released already in the previous wave, but there are there are couple of new exciting things in this in that functionality. Platform team also delivered data search which we are using and that also could be nice resource for you to learn how we are improving data search across the product."
+    },
+    {
+      "t": 665.6,
+      "end": 680.5,
+      "text": "Then analyze assist with Copilot and then for admins how to set up Copilot in Business Central. And finally for developers, there are good resource on how to extend Copilot within the Business Central using AL AL code."
+    },
+    {
+      "t": 680.5,
+      "end": 690.8,
+      "text": "Finally, I would like to address couple of questions that we are usually getting. All these Copilot features are coming with no cost with existing Business Central"
+    },
+    {
+      "t": 690.8,
+      "end": 705.4,
+      "text": "license. Also for partners um it it is probably useful to know that Copilot features are only available in our cloud version of Business Central, while on-premise on-prem versions are unfortunately"
+    },
+    {
+      "t": 705.4,
+      "end": 718.4,
+      "text": "without, um, without Copilot functionalities. Um, and then finally, there is always question of, how does Copilot, um, features in BC approach safety?"
+    },
+    {
+      "t": 718.4,
+      "end": 728.8,
+      "text": "So, you already heard that, um, we we spent quite a lot of time to get the functionality aligned, uh, with responsible AI standards."
+    },
+    {
+      "t": 728.8,
+      "end": 746.4,
+      "text": "That includes safety, security, privacy, um, transparency, and accountability. So, for more specifically for this feature, for item substitution with Copilot, we spent significantly more time going through different reviews and testing than for development itself."
+    },
+    {
+      "t": 746.4,
+      "end": 759,
+      "text": "So, Microsoft Business Central is fully committed to to get aligned with those standards. I hope you enjoyed this session, and thank you very much for watching it."
+    }
+  ],
+  "markers": [],
+  "word_count": 1730
+}

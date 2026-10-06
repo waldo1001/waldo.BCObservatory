@@ -1,0 +1,38 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/TCS-206C-1H-Overview.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TCS-206C-1H-Overview",
+  "title": "Setting up Tax Collected at Source for the section 206C(1H)",
+  "blob": "8dc3df67880aab023943de6dbcf5f18394bccc27",
+  "summary": "Tax Collected at Source (TCS) for Section 206C(1H) describes how to set up TCS collection requirements for Indian sales transactions exceeding INR 50,00,000 threshold with different rates for PAN and non-PAN customers.",
+  "systems": [
+    "sales",
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "tax collected at source",
+    "tcs",
+    "section 206c",
+    "india",
+    "tax rates"
+  ],
+  "objects": [],
+  "features": [
+    "TCS Nature of Collection",
+    "TCS Rates setup",
+    "Threshold Amount",
+    "PAN/Non-PAN differentiation",
+    "Calc. Over & Above Threshold"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003796,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-change-a-module.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-change-a-module",
+  "title": "Change a module in the System Application",
+  "blob": "497cab5100080e33c8b3bab9e6c1370b6ba586a4",
+  "summary": "Change a Module in System Application explains how to modify existing AL modules following architecture guidelines while maintaining backward compatibility and adding tests.",
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "al development",
+    "module",
+    "system application",
+    "git",
+    "testing"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Base64ConvertImpl"
+    },
+    {
+      "type": "codeunit",
+      "name": "Base64Convert"
+    },
+    {
+      "type": "codeunit",
+      "name": "Base64ConvertTest"
+    }
+  ],
+  "features": [
+    "Module architecture",
+    "Breaking changes prevention",
+    "Test validation",
+    "Git workflow"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003796,
+      "pages_in_call": 8
+    }
+  ]
+}

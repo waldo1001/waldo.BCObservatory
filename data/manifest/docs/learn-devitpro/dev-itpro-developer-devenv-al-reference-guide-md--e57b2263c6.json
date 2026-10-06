@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-reference-guide",
   "published_at": "2025-08-08T08:48:46.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "6f01be331c9cd30e903c6ac3f3ccdb2437705744",
       "words": 172,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:13:10.648Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003796
+    },
+    "summarized": {
+      "at": "2026-10-06T19:13:12.575Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:13:12.576Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:13:12.576Z",
+      "page": false
     }
   },
   "input_hash": "6f01be331c9cd30e903c6ac3f3ccdb2437705744",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6f01be331c9cd30e903c6ac3f3ccdb2437705744"
+  "output_hash": "5f050fd7283788fc88eef6b7aa99e3be1fe93810235250073f324d871e9c1ced"
 }

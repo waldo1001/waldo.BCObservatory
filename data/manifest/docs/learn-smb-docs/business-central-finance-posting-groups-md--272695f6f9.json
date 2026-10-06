@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-posting-groups",
   "published_at": "2025-08-13T11:04:33.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "b6f9f25693cdb6915f1b6229c04148e656690bea",
       "words": 2009,
       "forms": 2
+    },
+    "extracted": {
+      "at": "2026-10-06T19:12:59.308Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 18,
+      "cost_usd": 0.006497
+    },
+    "summarized": {
+      "at": "2026-10-06T19:13:10.663Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:13:10.665Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:13:10.666Z",
+      "page": false
     }
   },
   "input_hash": "b6f9f25693cdb6915f1b6229c04148e656690bea",
@@ -49,5 +68,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b6f9f25693cdb6915f1b6229c04148e656690bea"
+  "output_hash": "6a1cabc2fd49f59a1361a5a7f62a9ee2d7f428d3f32d486a69ee7b6ab55a33de"
 }

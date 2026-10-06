@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "What's New: Item Substitution with Copilot (2024 release wave 2)",
   "url": "https://www.youtube.com/watch?v=bCIcq1zESKk",
-  "published_at": null,
+  "published_at": "2024-10-08T15:00:41.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T19:13:02.365Z",
+      "captions": "auto:en-orig",
+      "duration_s": 759
+    },
+    "captioned": {
+      "at": "2026-10-06T19:13:12.634Z",
+      "path": "data/captions/microsoft/bCIcq1zESKk.vtt",
+      "vtt_sha256": "376f1033a3dd0e63a4759ffcbc903111e82291fef46eae89167f0fe42c4e7c23",
+      "segments": 58,
+      "words": 1730,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -19,7 +33,14 @@
   "meta": {
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 338,
-    "duration_s": 760,
-    "via": "reconcile"
-  }
+    "duration_s": 759,
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "376f1033a3dd0e63a4759ffcbc903111e82291fef46eae89167f0fe42c4e7c23"
 }

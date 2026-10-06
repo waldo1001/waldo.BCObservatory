@@ -1,0 +1,76 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/Gate-Entry-Inward_Transactions.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/Gate-Entry-Inward_Transactions",
+  "title": "Gate Entry Inward Transactions",
+  "blob": "f6f2f9459e870847b73e586e89ecd5e7a169efe8",
+  "summary": "Create and attach inward gate entries in Business Central India localization to track goods entry for purchase orders, transfer orders, and sales return orders with complete document workflow.",
+  "systems": [
+    "localization",
+    "warehouse",
+    "purchasing"
+  ],
+  "topics": [
+    "gate entry",
+    "inward transactions",
+    "india localization",
+    "warehouse receipt",
+    "goods tracking"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Inward Gate Entry List"
+    },
+    {
+      "type": "page",
+      "name": "Inward Gate Entry"
+    },
+    {
+      "type": "page",
+      "name": "Posted Inward Gate Entry"
+    },
+    {
+      "type": "page",
+      "name": "Purchase Order"
+    },
+    {
+      "type": "page",
+      "name": "Purchase Invoice"
+    },
+    {
+      "type": "page",
+      "name": "Transfer Order"
+    },
+    {
+      "type": "page",
+      "name": "Sales Return Order"
+    },
+    {
+      "type": "page",
+      "name": "Sales Credit Memo"
+    },
+    {
+      "type": "page",
+      "name": "Warehouse Receipts"
+    }
+  ],
+  "features": [
+    "Inward gate entry creation",
+    "Source type tracking",
+    "Challan number recording",
+    "Gate entry attachment",
+    "Posted entry viewing",
+    "Warehouse receipt integration"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006497,
+      "pages_in_call": 8
+    }
+  ]
+}

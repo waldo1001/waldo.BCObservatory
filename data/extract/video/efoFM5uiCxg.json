@@ -1,0 +1,360 @@
+{
+  "video_id": "efoFM5uiCxg",
+  "item_id": "video/yt-microsoft/efoFM5uiCxg",
+  "title": "What's New: Get Notified of Issues with Job Queues (2024 release wave 2)",
+  "duration_s": 979,
+  "systems": [
+    "administration",
+    "platform",
+    "integration"
+  ],
+  "topics": [
+    "job queue notifications",
+    "background processing",
+    "in-product notifications",
+    "business events",
+    "power automate",
+    "assisted setup",
+    "notification thresholds",
+    "external notifications"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to Job Queue Notifications",
+      "t_start": 0,
+      "t_end": 47.4
+    },
+    {
+      "title": "Setting Up Job Queue Notifications",
+      "t_start": 47.4,
+      "t_end": 87.4
+    },
+    {
+      "title": "Configuring Notification Recipients",
+      "t_start": 87.4,
+      "t_end": 148.4
+    },
+    {
+      "title": "Choosing Notification Methods",
+      "t_start": 148.4,
+      "t_end": 229.1
+    },
+    {
+      "title": "Setting Notification Frequency and Thresholds",
+      "t_start": 229.1,
+      "t_end": 330.2
+    },
+    {
+      "title": "In-Product Notifications Experience",
+      "t_start": 330.2,
+      "t_end": 411.4
+    },
+    {
+      "title": "Role Center Task Tiles and Visual Indicators",
+      "t_start": 411.4,
+      "t_end": 532.8
+    },
+    {
+      "title": "Admin vs User Notification Views",
+      "t_start": 532.8,
+      "t_end": 647.2
+    },
+    {
+      "title": "External Notifications with Business Events and Power Automate",
+      "t_start": 647.2,
+      "t_end": 812.8
+    },
+    {
+      "title": "Demonstration and New APIs",
+      "t_start": 812.8,
+      "t_end": 979
+    }
+  ],
+  "features": [
+    {
+      "name": "Job Queue Notifications",
+      "description": "Business Central can notify users in product or through external channels when critical background processes stop or fail. Administrators can set up who gets notified, how they are notified, and how frequently notifications are sent.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 7,
+      "t_end": 330.2,
+      "is_demoed": true,
+      "caveats": [
+        "External business events feature is in preview"
+      ],
+      "tags": [
+        "notifications",
+        "job queue",
+        "background processing",
+        "administration"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Job Queue Notification Assisted Setup Guide",
+      "description": "A guided setup experience that walks administrators through three steps: selecting notification recipients, choosing notification methods (in-product or external), and setting notification frequency thresholds.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 67.4,
+      "t_end": 291.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "assisted setup",
+        "configuration",
+        "notifications"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "In-Product Notification Strip",
+      "description": "Users see a notification strip in their role center when background processing tasks fail or experience issues. The strip allows users to show more details, inspect failed tasks, restart jobs manually, and disable notifications via My Settings.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 330.2,
+      "t_end": 411.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "notifications",
+        "role center",
+        "user interface"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Job Queue Task Tiles in Role Center",
+      "description": "Three additional queue tiles show job queue task status: tasks failed, tasks in progress, and tasks pending or waiting. Visual indicators using color-coded queues reflect admin-configured thresholds for failed tasks.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 411.4,
+      "t_end": 512.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "role center",
+        "task tiles",
+        "visual indicators"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Job Queue Notification Administrator Role",
+      "description": "Designated users can be set as job queue notification administrators who see their own job queue tasks and can also access and view job queue tasks and statuses of other users, allowing centralized monitoring.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 532.8,
+      "t_end": 593.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "administration",
+        "permissions",
+        "notifications"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "External Notifications with Business Events",
+      "description": "Notifications can be sent to users outside of Business Central by orchestrating business events through Power Automate. A power automate template is available that can send emails to Outlook when job queues fail.",
+      "status": "preview",
+      "status_evidence_t": 208.8,
+      "status_evidence_quote": "this part of the feature is uh currently in preview mainly because the business events are uh still in preview and we are taking",
+      "status_evidence_verified": true,
+      "t_start": 647.2,
+      "t_end": 792.7,
+      "is_demoed": true,
+      "caveats": [
+        "Depends on business events being in preview"
+      ],
+      "tags": [
+        "business events",
+        "power automate",
+        "external notifications"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Job Queue Entry API",
+      "description": "New API for job queue entries that includes a restart bound action that can be called automatically from Power Automate flows, enabling programmatic job restarts.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 881.5,
+      "t_end": 901.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "api",
+        "job queue",
+        "restart"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Job Queue Log Entries API",
+      "description": "New API for accessing job queue log entries, enabling external systems and flows to retrieve detailed information about job queue execution history.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 881.5,
+      "t_end": 921.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "api",
+        "job queue",
+        "logs"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Job Queue Task Failed Business Event",
+      "description": "Business event that triggers when a job queue task fails, enabling integration with external systems through Power Automate and other connectors.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 881.5,
+      "t_end": 941.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "business events",
+        "notifications"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Power Automate Template for Job Queue Notifications",
+      "description": "Pre-built Power Automate template available in Business Central gallery for orchestrating external job queue notifications, with built-in parameters for environment, company, and recipient configuration.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 716.8,
+      "t_end": 941.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "power automate",
+        "template",
+        "notifications"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Notification Frequency Thresholds",
+      "description": "Administrators can configure notification thresholds to avoid notification fatigue for transient issues. For example, notifications can be set to trigger only after 3-5 consecutive failures rather than on every failure.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 229.1,
+      "t_end": 291.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "thresholds",
+        "configuration",
+        "notifications"
+      ],
+      "system": "administration"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Job Queue Entries",
+      "t": 687.9
+    },
+    {
+      "type": "other",
+      "name": "Job Queue Entry",
+      "t": 881.5
+    },
+    {
+      "type": "other",
+      "name": "Job Queue Log Entries",
+      "t": 901.8
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Evan Colaege",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 7,
+      "text": "with 2024 release Wave 2 business Central can notify uh users in product or help admin help administrators orchestrate notifications when critical business processes",
+      "why_it_matters": "Establishes the core purpose and scope of the feature in the 2024 release wave 2",
+      "check": "exact"
+    },
+    {
+      "t": 47.4,
+      "text": "being notified about such situations can help you react quickly and resolve the issues",
+      "why_it_matters": "Explains the business value of job queue notifications for issue resolution",
+      "check": "exact"
+    },
+    {
+      "t": 208.8,
+      "text": "this part of the feature is uh currently in preview mainly because the business events are uh still in preview and we are taking",
+      "why_it_matters": "Clarifies that external notifications via business events are in preview status due to business events dependency",
+      "check": "exact"
+    },
+    {
+      "t": 269.4,
+      "text": "if this thing actually fails you know three to five times then go ahead and uh and notify me",
+      "why_it_matters": "Shows how administrators can configure thresholds to avoid notification noise from transient issues",
+      "check": "exact"
+    },
+    {
+      "t": 532.8,
+      "text": "those users uh see uh their own uh job queue tasks so the job cues that they have run but they can also see",
+      "why_it_matters": "Explains the difference in visibility between regular users and job queue notification administrators",
+      "check": "exact"
+    },
+    {
+      "t": 881.5,
+      "text": "we've added a couple of job Q apis to support us with that we have an we now have an API for job queue",
+      "why_it_matters": "Announces new APIs that enable programmatic job queue management and automation",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 208.8,
+      "kind": "preview",
+      "text": "this part of the feature is uh currently in preview mainly because the business events are uh still in preview"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 1,
+    "evidence_unverified": 10
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.029918
+    }
+  ]
+}

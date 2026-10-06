@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TCS-Overview",
   "published_at": "2025-08-08T14:20:58.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "b5575db0ed15ad2fa5918fb2d95f7e4c9e38fe74",
       "words": 1376,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:13:10.642Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003796
+    },
+    "summarized": {
+      "at": "2026-10-06T19:13:12.560Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:13:12.561Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:13:12.562Z",
+      "page": false
     }
   },
   "input_hash": "b5575db0ed15ad2fa5918fb2d95f7e4c9e38fe74",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b5575db0ed15ad2fa5918fb2d95f7e4c9e38fe74"
+  "output_hash": "a39488cd9f731c6efdb2d533dbb9e2a12eedaeb57c3b546a067607656167c30d"
 }

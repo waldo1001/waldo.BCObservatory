@@ -1,0 +1,102 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/types-of-events-for-extensibility.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/types-of-events-for-extensibility",
+  "title": "Types of events for extensibility",
+  "blob": "5bbe9f791c73c0b29e863d2a903af8afd6757a1a",
+  "summary": "Types of events for extensibility in Business Central AL development, including business events, OnBefore/OnAfter events, verify events, isolated events, switch events, skip events, and handled events, with quality rankings and usage guidance.",
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "events",
+    "extensibility",
+    "al development",
+    "integration events",
+    "event quality",
+    "customization"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Approvals Mgmt."
+    },
+    {
+      "type": "codeunit",
+      "name": "Sales-Post"
+    },
+    {
+      "type": "table",
+      "name": "Assembly Header"
+    },
+    {
+      "type": "codeunit",
+      "name": "CustCont-Update"
+    },
+    {
+      "type": "codeunit",
+      "name": "Gen. Jnl.-Post Line"
+    },
+    {
+      "type": "codeunit",
+      "name": "Bank Acc. Reconciliation Post"
+    },
+    {
+      "type": "codeunit",
+      "name": "Create Reminders Action Job"
+    },
+    {
+      "type": "codeunit",
+      "name": "Create Aut. Event Handler"
+    },
+    {
+      "type": "xmlport",
+      "name": "Data Exch. Import - CSV"
+    },
+    {
+      "type": "table",
+      "name": "Bank Acc. Reconciliation"
+    },
+    {
+      "type": "codeunit",
+      "name": "Process Bank Acc. Rec Lines"
+    },
+    {
+      "type": "table",
+      "name": "Sales Header"
+    },
+    {
+      "type": "codeunit",
+      "name": "FA Insert Ledger Entry"
+    },
+    {
+      "type": "page",
+      "name": "Sales Order"
+    },
+    {
+      "type": "table",
+      "name": "Payment Service Setup"
+    }
+  ],
+  "features": [
+    "Business events",
+    "OnBefore/OnAfter events",
+    "Verify events",
+    "Isolated events",
+    "Switch events",
+    "Skip events",
+    "Handled events",
+    "Discovery events"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006497,
+      "pages_in_call": 8
+    }
+  ]
+}

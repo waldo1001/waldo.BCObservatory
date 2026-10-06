@@ -1,0 +1,28 @@
+{
+  "video_id": "fdzTWZyT6mI",
+  "item_id": "video/yt-microsoft/fdzTWZyT6mI",
+  "summary": "Multiple VAT numbers for customers in Business Central (2024 release wave 2), in public preview and expected in version 25.0. Covers setup of alternative VAT registrations per country, use in sales documents, VAT entries, VAT return and settlement filters, and extensibility interfaces.",
+  "overview": "The video explains why companies operating in several European Union countries need more than one VAT registration number per customer, described as a legal requirement. It shows how to define alternative VAT registrations per country, with optional VAT and general business posting groups, either from the customer card or in a dedicated table and page.\n\nThe demos show a notification when a ship-to address with a different country is created, sales orders picking up the VAT number for the ship-to country with a confirmation dialog, custom addresses, and the new country region filter in VAT return and VAT settlement. The video also covers three interfaces developers can use to customize the behavior. The feature currently applies to customers only, not vendors or the company.",
+  "key_points": [
+    "Status: public preview, stated to be available in version 25.0.",
+    "Each customer can have one alternative VAT number per country, with optional VAT and general business posting groups.",
+    "Creating a ship-to address with a different country code triggers a notification to create an alternative VAT registration if none exists.",
+    "Sales documents use the alternative VAT number based on the ship-to country; a confirmation dialog shows the change and the user can disable it.",
+    "A new VAT country region code field in sales documents is posted to VAT entries so they can be filtered by country.",
+    "VAT return suggest lines and the calculate and post VAT settlement batch job get a country region filter; the VAT return filter supports multiple countries and exclusion.",
+    "Limited to customers for now; vendors and company are not yet covered. Three interfaces allow custom logic for ship-to country changes, consistency checks and sales document behavior."
+  ],
+  "audience": [
+    "functional consultant",
+    "developer",
+    "administrator",
+    "partner"
+  ],
+  "extraction_hash": "11e1aac9dee7ccbeba8bba2e92ac9fd7a5e21deb9fe5a9d1450f831b513129bb",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0160344
+  }
+}

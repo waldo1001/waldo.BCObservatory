@@ -1,0 +1,52 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/GST-TDS-on-Advance-Payment-Application-to-Purchase-Invoice.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-TDS-on-Advance-Payment-Application-to-Purchase-Invoice",
+  "title": "GST and TDS on Vendor Advance Payments",
+  "blob": "3a9be0878cee82d3fe67e81882b47d3f3a154d66",
+  "summary": "GST and TDS on vendor advance payments in Business Central India localization, handling GST and TDS liability at time of advance payment with GL entry examples and invoice application.",
+  "systems": [
+    "localization",
+    "purchasing",
+    "finance"
+  ],
+  "topics": [
+    "gst",
+    "tds",
+    "vendor advance payment",
+    "india localization",
+    "tax liability",
+    "invoice application"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Bank Payment Voucher"
+    },
+    {
+      "type": "page",
+      "name": "Cash Payment Voucher"
+    },
+    {
+      "type": "page",
+      "name": "Purchase Invoice"
+    }
+  ],
+  "features": [
+    "GST on advance payment",
+    "TDS calculation",
+    "Interim GST accounts",
+    "Advance payment application",
+    "Invoice GST adjustment"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006497,
+      "pages_in_call": 8
+    }
+  ]
+}

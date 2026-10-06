@@ -1,0 +1,364 @@
+{
+  "video_id": "fdzTWZyT6mI",
+  "item_id": "video/yt-microsoft/fdzTWZyT6mI",
+  "title": "Introducing: Multiple VAT Numbers for Customers (2024 release wave 2)",
+  "duration_s": 1066,
+  "systems": [
+    "finance",
+    "sales"
+  ],
+  "topics": [
+    "multiple vat numbers",
+    "customers",
+    "vat registration",
+    "ship-to addresses",
+    "sales documents",
+    "posting groups",
+    "european union",
+    "vat entries",
+    "configuration",
+    "extensibility"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and business requirement",
+      "t_start": 0,
+      "t_end": 46.2
+    },
+    {
+      "title": "Why multiple VAT numbers are needed",
+      "t_start": 46.2,
+      "t_end": 107
+    },
+    {
+      "title": "Setup scenarios and configuration",
+      "t_start": 107,
+      "t_end": 228.4
+    },
+    {
+      "title": "Sales documents and VAT number application",
+      "t_start": 228.4,
+      "t_end": 348.8
+    },
+    {
+      "title": "VAT entries and alternative registration page",
+      "t_start": 348.8,
+      "t_end": 430
+    },
+    {
+      "title": "Demo - setup from customer card",
+      "t_start": 430,
+      "t_end": 583.8
+    },
+    {
+      "title": "Demo - applying VAT numbers to sales orders",
+      "t_start": 583.8,
+      "t_end": 704.8
+    },
+    {
+      "title": "Demo - custom addresses and VAT reporting",
+      "t_start": 704.8,
+      "t_end": 846.1
+    },
+    {
+      "title": "Architecture and extensibility",
+      "t_start": 846.1,
+      "t_end": 998.9
+    },
+    {
+      "title": "Summary and call to action",
+      "t_start": 998.9,
+      "t_end": 1066
+    }
+  ],
+  "features": [
+    {
+      "name": "Multiple VAT numbers for customers",
+      "description": "Customers can have alternative VAT registration numbers for different countries they operate in. One VAT number per country per customer, with optional VAT and general business posting groups.",
+      "status": "preview",
+      "status_evidence_t": 1019.6,
+      "status_evidence_quote": "this is available in a public preview and it will be available for 25.0 version",
+      "status_evidence_verified": true,
+      "t_start": 46.2,
+      "t_end": 228.4,
+      "is_demoed": true,
+      "caveats": [
+        "Only one VAT number per customer per country",
+        "Currently limited to customers, not yet for vendors or company"
+      ],
+      "tags": [
+        "vat registration",
+        "customers",
+        "multi-country",
+        "legal requirement"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Alternative customer VAT registration table",
+      "description": "A configuration table where users can define all customers and the countries they operate in, storing VAT registration numbers and business posting groups per country.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 107,
+      "t_end": 147.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "setup",
+        "configuration",
+        "vat registration"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Automatic VAT notification on ship-to address creation",
+      "description": "When creating a ship-to address with a different country code, the system notifies users to create alternative VAT registration if not already configured.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 167.4,
+      "t_end": 228.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "notification",
+        "ship-to address",
+        "automatic"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "VAT number application in sales documents",
+      "description": "Sales documents automatically use the configured alternative VAT number based on the selected ship-to address country. Users receive a confirmation dialog showing the VAT number change before accepting.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 248.5,
+      "t_end": 368.8,
+      "is_demoed": true,
+      "caveats": [
+        "Confirmation dialog can be disabled by user"
+      ],
+      "tags": [
+        "sales documents",
+        "confirmation dialog",
+        "automatic application"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "VAT country region code field in documents",
+      "description": "New field VAT country region code added to sales documents alongside VAT registration number, posted to VAT entries for filtering by country.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 328.8,
+      "t_end": 368.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "vat entries",
+        "new field",
+        "reporting"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Custom address option in sales documents",
+      "description": "Users can manually enter a custom ship-to address instead of selecting from configured alternatives, with manual country selection triggering VAT number lookup.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 704.8,
+      "t_end": 745,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "custom address",
+        "manual entry",
+        "flexibility"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Country region filter in VAT return",
+      "description": "New country region filter field in VAT return suggest lines functionality allowing filtering by single or multiple countries, with exclusion option.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 805.7,
+      "t_end": 826.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "vat return",
+        "filtering",
+        "reporting"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Country region filter in VAT settlement",
+      "description": "Country region filter field added to calculate and post VAT settlement batch job for filtering VAT entries by country.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 826.1,
+      "t_end": 846.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "vat settlement",
+        "filtering",
+        "batch job"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Ship-to alternate customer VAT registration interface",
+      "description": "Interface allowing developers to implement custom logic for handling country changes on ship-to addresses through the handle country change method.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 886.8,
+      "t_end": 927.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "extensibility",
+        "interface",
+        "al development"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Alternative customer VAT registration consistency interface",
+      "description": "Interface for implementing custom logic to ensure alternative VAT registrations are only configured for countries different from the customer base country.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 937.5,
+      "t_end": 958.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "extensibility",
+        "interface",
+        "consistency"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Alternative customer VAT registration document interface",
+      "description": "Interface with multiple methods for customizing VAT number behavior in sales documents on record initialization, customer copy, address change, and country change scenarios.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 978.6,
+      "t_end": 998.9,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "extensibility",
+        "interface",
+        "sales documents"
+      ],
+      "system": "development"
+    }
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "alternative customer VAT registration",
+      "t": 107
+    },
+    {
+      "type": "page",
+      "name": "alternative customer VAT registration",
+      "t": 389.4
+    },
+    {
+      "type": "interface",
+      "name": "ship to alternate customer VAT registration",
+      "t": 906.9
+    },
+    {
+      "type": "interface",
+      "name": "alternative customer VAT registration consist",
+      "t": 937.5
+    },
+    {
+      "type": "interface",
+      "name": "alternative customer VAT registration Doc",
+      "t": 978.6
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Alexander",
+      "confidence": "high"
+    },
+    {
+      "name": "Arthur",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 46.2,
+      "text": "this is a legal requirement when companies operate in different countries across the european union",
+      "why_it_matters": "Explains the primary business driver for the feature - VAT registration compliance across multiple countries",
+      "check": "fuzzy"
+    },
+    {
+      "t": 998.9,
+      "text": "and if you want to change any part of it you can do that with your",
+      "why_it_matters": "Highlights that developers can customize VAT behavior through multiple interfaces",
+      "check": "fuzzy"
+    },
+    {
+      "t": 1019.6,
+      "text": "this is available in a public preview and it will be available for 25.0 version so it will be immediately in our major",
+      "why_it_matters": "Confirms public preview status and general availability timeline for version 25.0",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 66.5,
+      "kind": "not-in-this-release",
+      "text": "it can be applied to customers for vendors for company as well but we had to start from somewhere so we couldn't deliver everything in one hit"
+    },
+    {
+      "t": 1019.6,
+      "kind": "preview",
+      "text": "this is available in a public preview and it will be available for 25.0 version"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 3,
+    "quotes_dropped": 3,
+    "evidence_verified": 1,
+    "evidence_unverified": 0
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.029304999999999998
+    }
+  ]
+}

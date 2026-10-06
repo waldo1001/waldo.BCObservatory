@@ -1,0 +1,112 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-posting-groups.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-posting-groups",
+  "title": "Posting group setup",
+  "blob": "b6f9f25693cdb6915f1b6229c04148e656690bea",
+  "summary": "Posting groups setup and configuration for mapping entities to general ledger accounts in Business Central, covering general, specific, and tax posting groups with examples and troubleshooting.",
+  "systems": [
+    "finance"
+  ],
+  "topics": [
+    "posting groups",
+    "general ledger accounts",
+    "setup",
+    "configuration",
+    "tax posting",
+    "financial posting"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Gen. Business Posting Groups"
+    },
+    {
+      "type": "page",
+      "name": "Gen. Product Posting Groups"
+    },
+    {
+      "type": "page",
+      "name": "General Posting Setup"
+    },
+    {
+      "type": "page",
+      "name": "Customer Posting Groups"
+    },
+    {
+      "type": "page",
+      "name": "Vendor Posting Groups"
+    },
+    {
+      "type": "page",
+      "name": "Inventory Posting Groups"
+    },
+    {
+      "type": "page",
+      "name": "Bank Account Posting Groups"
+    },
+    {
+      "type": "page",
+      "name": "FA Posting Groups"
+    },
+    {
+      "type": "page",
+      "name": "Sales & Receivable Setup"
+    },
+    {
+      "type": "page",
+      "name": "Service Management Setup"
+    },
+    {
+      "type": "page",
+      "name": "Purchase & Payables Setup"
+    },
+    {
+      "type": "page",
+      "name": "Human Resources Setup"
+    },
+    {
+      "type": "page",
+      "name": "Tax Business Posting Groups"
+    },
+    {
+      "type": "table",
+      "name": "Gen. Product Posting Group"
+    },
+    {
+      "type": "table",
+      "name": "Customer Posting Group"
+    },
+    {
+      "type": "table",
+      "name": "Inventory Posting Group"
+    },
+    {
+      "type": "table",
+      "name": "FA Posting Group"
+    },
+    {
+      "type": "table",
+      "name": "Vendor Posting Group"
+    }
+  ],
+  "features": [
+    "General posting groups",
+    "Specific posting groups",
+    "Tax posting groups",
+    "Alternative posting groups",
+    "Multiple posting groups support",
+    "G/L account validation",
+    "Change log auditing"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006497,
+      "pages_in_call": 8
+    }
+  ]
+}

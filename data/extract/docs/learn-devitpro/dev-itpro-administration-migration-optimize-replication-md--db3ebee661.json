@@ -1,0 +1,53 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/migration-optimize-replication.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-optimize-replication",
+  "title": "Optimizing cloud migration performance",
+  "blob": "87159fe082ddcc444e51b13eda238ea1eb5e6cae",
+  "summary": "Practical steps to improve cloud migration performance for large Business Central databases, including deploying to Azure SQL Database, monitoring resources, reducing companies per migration batch, and managing API upgrades.",
+  "systems": [
+    "administration",
+    "platform",
+    "integration"
+  ],
+  "topics": [
+    "cloud migration",
+    "performance optimization",
+    "azure sql database",
+    "data replication",
+    "api upgrade",
+    "database management"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Cloud Migration Setup"
+    },
+    {
+      "type": "page",
+      "name": "Cloud Migration Management"
+    },
+    {
+      "type": "page",
+      "name": "Data Administration"
+    }
+  ],
+  "features": [
+    "Azure SQL Database deployment",
+    "CPU and memory monitoring",
+    "Company batch migration",
+    "Statistics and index optimization",
+    "API data upgrade skipping",
+    "Capacity management"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006497,
+      "pages_in_call": 8
+    }
+  ]
+}
