@@ -1,0 +1,53 @@
+{
+  "item_id": "blog/aardvarklabs-blog/3950",
+  "url": "https://aardvarklabs.blog/2026/09/11/mastering-the-business-central-administration-api-a-complete-guide-for-saas-admins/",
+  "title": "Mastering the Business Central Administration API: A Complete Guide for SaaS Admins",
+  "source": "aardvarklabs-blog",
+  "published_at": "2026-09-11T12:00:00.000Z",
+  "words": 1147,
+  "summary": "The Business Central Administration API enables SaaS admins to automate environment management tasks using scripts instead of the Administration Center. This first part covers authentication setup, app registration in Azure, and making initial API calls to retrieve environments, installed apps, and available updates.",
+  "key_points": [
+    "Set up Azure app registration with AdminCenter.ReadWrite.All permissions and authorize it in the Business Central Admin Center",
+    "Authenticate using OAuth 2.0 client credentials flow to obtain bearer tokens for API calls",
+    "Query environments to see details like friendly name, type, version, database size, and hosting location",
+    "Retrieve installed apps and available updates for each environment",
+    "Check for reported service outages using the support endpoint"
+  ],
+  "systems": [
+    "administration",
+    "platform",
+    "integration"
+  ],
+  "topics": [
+    "administration api",
+    "saas",
+    "automation",
+    "powershell",
+    "authentication",
+    "app registration",
+    "azure entra"
+  ],
+  "objects": [],
+  "features": [
+    "Business Central Administration API",
+    "environment management",
+    "app discovery",
+    "update checking",
+    "outage reporting"
+  ],
+  "versions": [
+    "27.5",
+    "28.0",
+    "28.4"
+  ],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.012116,
+    "posts_in_call": 1
+  },
+  "quotes": []
+}

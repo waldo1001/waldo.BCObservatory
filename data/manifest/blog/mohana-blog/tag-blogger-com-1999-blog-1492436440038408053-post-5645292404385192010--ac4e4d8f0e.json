@@ -7,13 +7,39 @@
   "url": "http://mohana-dynamicsnav.blogspot.com/2026/09/pinned-comment-lines-for-microsoft.html",
   "published_at": "2026-09-12T05:48:35.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:29:12.162Z",
+      "path": "vault:posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-5645292404385192010--ac4e4d8f0e.md",
+      "words": 840
+    },
+    "extracted": {
+      "at": "2026-10-06T21:29:20.724Z",
+      "prompt": "extract-post@1",
+      "quotes": 3,
+      "trimmed": 0,
+      "cost_usd": 0.006484
+    },
+    "summarized": {
+      "at": "2026-10-06T21:29:20.725Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:29:20.726Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:29:20.730Z",
+      "path": "content/posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-5645292404385192010--ac4e4d8f0e.md"
     }
   },
   "input_hash": "2026-09-12T05:48:35.830Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "25bb291d613e678e8f1ea07aaf95dcd1791b3a91d99bf9488ef0000eade38904"
 }

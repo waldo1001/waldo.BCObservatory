@@ -1,0 +1,58 @@
+{
+  "item_id": "blog/demiliani-com/15914",
+  "url": "https://demiliani.com/2026/09/14/dynamics-365-business-central-locking-down-isolatedstorage-reads/",
+  "title": "Dynamics 365 Business Central: locking down IsolatedStorage reads.",
+  "source": "demiliani-com",
+  "published_at": "2026-09-14T07:34:58.000Z",
+  "words": 409,
+  "summary": "Starting with runtime version 18.0, the IsolatedStorage.Get method accepts an optional IsolationLevel parameter to prevent race conditions during concurrent read-modify-write operations. The new UpdLock isolation level holds an update lock on a key's row during reads, blocking other sessions until the transaction completes, protecting sensitive data like secret keys, feature flags, and cached tokens from concurrent corruption.",
+  "key_points": [
+    "IsolatedStorage.Get now accepts an optional IsolationLevel parameter to control how the key row is locked during reads",
+    "IsolationLevel::UpdLock holds an update lock until the transaction ends, preventing other sessions from reading or writing the same key",
+    "This protects read-modify-write patterns commonly used for secret keys, feature flags, and cached tokens",
+    "Available in runtime version 18.0 and later; earlier versions require alternative locking strategies"
+  ],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "isolatedstorage",
+    "concurrency",
+    "locking",
+    "al development",
+    "race conditions",
+    "data protection"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "IsolatedStorage"
+    }
+  ],
+  "features": [
+    "IsolatedStorage locking",
+    "isolation levels",
+    "update locks",
+    "concurrent access control",
+    "read-modify-write transactions"
+  ],
+  "versions": [
+    "18.0"
+  ],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005678,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "two sessions read the same key at the same time, both compute a new value, and one of them silently overwrites the other.",
+      "why_it_matters": "Describes the core race condition problem that the new feature solves"
+    }
+  ]
+}

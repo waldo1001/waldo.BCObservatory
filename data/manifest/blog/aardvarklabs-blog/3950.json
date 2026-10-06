@@ -7,13 +7,39 @@
   "url": "https://aardvarklabs.blog/2026/09/11/mastering-the-business-central-administration-api-a-complete-guide-for-saas-admins/",
   "published_at": "2026-09-11T12:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:29:21.162Z",
+      "path": "vault:posts/aardvarklabs-blog/3950.md",
+      "words": 1147
+    },
+    "extracted": {
+      "at": "2026-10-06T21:29:29.336Z",
+      "prompt": "extract-post@1",
+      "quotes": 0,
+      "trimmed": 0,
+      "cost_usd": 0.012116
+    },
+    "summarized": {
+      "at": "2026-10-06T21:29:29.337Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:29:29.338Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:29:29.341Z",
+      "path": "content/posts/aardvarklabs-blog/3950.md"
     }
   },
   "input_hash": "2026-09-02T02:18:44.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "106bfe2db8f99963c368b55fe1dd52390561481d6a0a6722937ae4177f441fda"
 }

@@ -1,0 +1,1623 @@
+{
+  "video_id": "TY82NR2hGEg",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 18.5,
+      "end": 32,
+      "text": "Hi and welcome to this launch event session on what's new in developer tools. You probably know us by now but my name is Peter Borring and with me today I have Stephen Balslev and Espen uh Kristoffersen."
+    },
+    {
+      "t": 32,
+      "end": 42.7,
+      "text": "And as always we have a pretty packed agenda. We'll have Stephen start out talking about some of the investments we've done with the VS Code extension itself."
+    },
+    {
+      "t": 42.7,
+      "end": 53.2,
+      "text": "And and and related scenarios. Espen will come and talk about the introduction of namespaces which is a which is a huge thing."
+    },
+    {
+      "t": 53.2,
+      "end": 63.8,
+      "text": "And he'll continue talking about tools for documenting apps. Then I'll talk about investments we've done to investigate and troubleshoot."
+    },
+    {
+      "t": 63.8,
+      "end": 73.9,
+      "text": "And then we'll hear about improvements for the AL language and for code authoring. I'll do a small intro to GitHub Copilot chat."
+    },
+    {
+      "t": 73.9,
+      "end": 87.7,
+      "text": "And end off with an update on AppSource and AppSource transact really. But maybe we should start with Stephen. Please tell us more about the new scenarios in our Visual Studio Code extension."
+    },
+    {
+      "t": 87.7,
+      "end": 102.2,
+      "text": "Yes, let's talk about that one first. When you install the AL language extension you now have the option to install or switch to a pre-release version. With the pre-release you get early access to bug fixes, previews, and future functionality."
+    },
+    {
+      "t": 102.2,
+      "end": 116,
+      "text": "You can also use the pre-release as an alternative to unpacking and manually installing the AL language extension from Business Central inside our preview builds. Within the Visual Studio Code extension page it's super easy to switch between versions."
+    },
+    {
+      "t": 116,
+      "end": 132.6,
+      "text": "You can go from a release version to a pre-release version, try something out, and come back to the release version quite easily. One thing we introduced with the preview functionality is the ability to install the AL language extension on Linux."
+    },
+    {
+      "t": 132.6,
+      "end": 146.7,
+      "text": "With our mission to empower every AL developer out there, we now have the option to use the AL language extension from your favorite Linux subsystem. Including using it on Windows subsystem for Linux."
+    },
+    {
+      "t": 146.7,
+      "end": 160.7,
+      "text": "So, I I encourage all the Linux fans out there to try it out and give us feedback on GitHub. But, let's have a look at it. So, before doing this, I pre-configured my WSL."
+    },
+    {
+      "t": 160.7,
+      "end": 171.7,
+      "text": "And I installed Visual Studio Code, I installed the the .NET framework, and I installed Edge browser. So, now I'm ready to start coding. I can just do WSL to start it up."
+    },
+    {
+      "t": 171.7,
+      "end": 185.8,
+      "text": "I can start VS Code. And now you'll notice that I have Visual Studio Code for Linux. So, down here somewhere we have a Visual Studio Code icon, and it has a nice little penguin on it,"
+    },
+    {
+      "t": 185.8,
+      "end": 201.1,
+      "text": "which is really cool. So, I can run Visual Studio Code from Linux on my Windows machine here using the Windows subsystem for Linux. And of course, I have installed my AL language extension, and in this I have installed the pre-release version,"
+    },
+    {
+      "t": 201.1,
+      "end": 212.3,
+      "text": "so I can get started. This is all I need to to have in order to get started with cloud development, and I'll do just that. So, let's see. AL Go."
+    },
+    {
+      "t": 212.3,
+      "end": 222.4,
+      "text": "Let's do a new project. Let's make it for the this release here. We have a Hello World. I want to use a cloud sandbox."
+    },
+    {
+      "t": 222.4,
+      "end": 234.9,
+      "text": "And then I need to download some samples. Okay, that didn't work. So, I need to change the the sandbox here to my preview sandbox, we're still in preview."
+    },
+    {
+      "t": 234.9,
+      "end": 246.4,
+      "text": "There we go. And I'll download the symbols. Once the symbols are downloaded, I can set my breakpoint and I can start debugging."
+    },
+    {
+      "t": 246.4,
+      "end": 257.8,
+      "text": "And because I've installed Edge for Linux, the Edge browser will pop up and I can start debugging."
+    },
+    {
+      "t": 257.8,
+      "end": 271.8,
+      "text": "And we'll see it starts here on the page as I would expect normal debugging capabilities now from Linux. So, go check it out. Try the AL extension for Linux and let us know what you think."
+    },
+    {
+      "t": 271.8,
+      "end": 284.4,
+      "text": "Another thing we added as a preview is syntax highlighting for DevOps. You can now install an extension that will allow you to get color coding on AL code when you have it in DevOps."
+    },
+    {
+      "t": 284.4,
+      "end": 295.3,
+      "text": "Also, go try this out and let us know what you think about it. With that, over to you Espen to talk about namespaces. Thank you, Stephen."
+    },
+    {
+      "t": 295.3,
+      "end": 304.1,
+      "text": "My name is Espen and I'm going to talk to you about one of the major new features in the AL language, namespaces."
+    },
+    {
+      "t": 304.1,
+      "end": 318.5,
+      "text": "A namespace is a way of organizing different names or identifiers that belongs to a certain group or context. It's a common way to organize information not only in programming languages, but also in the real world."
+    },
+    {
+      "t": 318.5,
+      "end": 331.3,
+      "text": "Think about books in a library. The author can be considered a namespace. It's a way to disambiguate books with the same name and is normally used when the books are organized on the shelves."
+    },
+    {
+      "t": 331.3,
+      "end": 343.1,
+      "text": "Imagine Raymond Chandler's great novel The Big Sleep from 1939. In a library or a bookstore, it would be in the crime section under Chandler, Raymond."
+    },
+    {
+      "t": 343.1,
+      "end": 354.6,
+      "text": "Another author that writes a book with the same name about how to improve your nightly sleep. It may be found on the health section and that author's name."
+    },
+    {
+      "t": 354.6,
+      "end": 364.8,
+      "text": "As humans, we tend to structure information in a hierarchical system. Think about the file system on on your computer. An example from our world would be the customer table."
+    },
+    {
+      "t": 364.8,
+      "end": 375.8,
+      "text": "The customer is an entity that you sell to. It makes sense to put that in a name space called sales together with all other AL objects related to selling."
+    },
+    {
+      "t": 375.8,
+      "end": 389.1,
+      "text": "Grouping of objects makes it easier to discover objects and items belonging to a specific group. In the bookstore examples, if you're looking for a book that is a crime novel, you know what section to start in."
+    },
+    {
+      "t": 389.1,
+      "end": 404.2,
+      "text": "The hard part is, of course, to create a good taxonomies taxonomy of your objects. There's probably not one single right way to do it, but even the good ones can provide you with a lot of help."
+    },
+    {
+      "t": 404.2,
+      "end": 418.2,
+      "text": "Name spaces can also help reducing name clashes. Again, looking for book named The Big Sleep by an author named Chandler Raymond, um in the crime section will most likely only yield a single hit."
+    },
+    {
+      "t": 418.2,
+      "end": 429.4,
+      "text": "This is the same in our domain. So, let's look at a small demo here. This is a small example without name spaces."
+    },
+    {
+      "t": 429.4,
+      "end": 444.2,
+      "text": "And the way we have built the name space feature is that you opt in by actually declaring a name space. This piece piece of code, even when I hover over the individual objects here, they are showing that the"
+    },
+    {
+      "t": 444.2,
+      "end": 455.2,
+      "text": "base application I'm using here is actually name spaced. This is the environment information code unit and it's in the system.environment name space."
+    },
+    {
+      "t": 455.2,
+      "end": 467.2,
+      "text": "But everything compiles. I can deploy this to a service which already is name spaced. But let me add my own namespace to this and let's see what is happening."
+    },
+    {
+      "t": 467.2,
+      "end": 480.4,
+      "text": "You declare a namespace as the first line in a in a source file or the first non-comment line. And if I choose to put this in Microsoft.Demo,"
+    },
+    {
+      "t": 480.4,
+      "end": 492.7,
+      "text": "let me just correct the casing here. You can see what happens here immediately. All the places where I reference another object, I get an error because they cannot be found."
+    },
+    {
+      "t": 492.7,
+      "end": 507,
+      "text": "The only objects which can be found here now in this code unit is objects from the same namespace. And actually, I have already created another code unit which I put in the Microsoft.Demo namespace."
+    },
+    {
+      "t": 507,
+      "end": 519.5,
+      "text": "So, what do I do now? Luckily, we have added a number of code actions. And the one I'm using for here is either add a using statement."
+    },
+    {
+      "t": 519.5,
+      "end": 531.1,
+      "text": "That's a a way to say, \"I want all the objects from the in this case Microsoft.Sales.Customer namespace available in this code unit.\" So, I can choose that."
+    },
+    {
+      "t": 531.1,
+      "end": 541.2,
+      "text": "And it adds a namespace for me. And suddenly, you can see here the customer is now no longer an error, but is actually found."
+    },
+    {
+      "t": 541.2,
+      "end": 555.2,
+      "text": "What is also interesting here that you actually are able to get some more information here about for instance, that the application method is an enum defined in the Receivable Payables"
+    },
+    {
+      "t": 555.2,
+      "end": 567.2,
+      "text": "namespace, which is a sub namespace of Microsoft.Finance. So, it already here you get some more information about what this actually is."
+    },
+    {
+      "t": 567.2,
+      "end": 578.9,
+      "text": "And let me continue here. And as you noted, I had another option. That was to fully qualify the name. And in this case, it's the system environment"
+    },
+    {
+      "t": 578.9,
+      "end": 589.5,
+      "text": "that is the namespace for environment information. Let's Let me do fully qualify. And as you can see immediately, the code action helps me here and is adding"
+    },
+    {
+      "t": 589.5,
+      "end": 601.5,
+      "text": "the environment information. This goes for all the other cases here where I have used objects. This one I choose to qualify fully or at the using statement."
+    },
+    {
+      "t": 601.5,
+      "end": 616,
+      "text": "And you can see this is also the case when you do the the syntax where you actually navigate to an object name. I have only the enums which are either in"
+    },
+    {
+      "t": 616,
+      "end": 627.8,
+      "text": "in the Microsoft demo namespace or in the Microsoft sales.customer available here. But I can choose to either fully qualify or add a using statement."
+    },
+    {
+      "t": 627.8,
+      "end": 639.2,
+      "text": "So, I will fully qualify fully qualify this as well. Like this. And suddenly I have actually fixed this code unit to work with namespaces."
+    },
+    {
+      "t": 639.2,
+      "end": 651.6,
+      "text": "And I can deploy this if I want to. So, namespace is the syntax, as I already said. This has to be the first real statement in a source file."
+    },
+    {
+      "t": 651.6,
+      "end": 665,
+      "text": "It covers all the objects in the file. You can only have one namespace per file. And you can nest namespaces in the declaration, which means that in this case, it's it's the namespace system.environment"
+    },
+    {
+      "t": 665,
+      "end": 677.1,
+      "text": "where environment is a sub namespace of system. The identifiers used in namespaces must be CLS compliant, which means that they have to start with a underscore"
+    },
+    {
+      "t": 677.1,
+      "end": 687.2,
+      "text": "or a a letter. You can have the same namespace in many files, and you can have the same namespace in multiple modules."
+    },
+    {
+      "t": 687.2,
+      "end": 697.6,
+      "text": "It's not tied to specific module. The using directives, they are immediately after the namespace declaration."
+    },
+    {
+      "t": 697.6,
+      "end": 709.2,
+      "text": "And the using directives brings all the objects declared in that namespace into scope, which means I can use them in this source file. There's no ordering."
+    },
+    {
+      "t": 709.2,
+      "end": 724.2,
+      "text": "But when we look for an object, we will look first in your own namespace, which means that in this case, if I declared a environment information code unit in my own directions demo namespace,"
+    },
+    {
+      "t": 724.2,
+      "end": 741.3,
+      "text": "it will be picked before any of those brought in from the using statements. In situations where I want to pick a specific object and make sure that it's not being confused with an object in another namespace brought in with a using statement,"
+    },
+    {
+      "t": 741.3,
+      "end": 759.1,
+      "text": "I can use choose to use fully qualified names as you saw before. In some cases, this is a better way of specifying names because that means that there will be no way that this object can be"
+    },
+    {
+      "t": 759.1,
+      "end": 774.1,
+      "text": "ambiguous with another object in a different namespace. And if you have a large source file where you use a number of objects only a single time, this may be the better solution."
+    },
+    {
+      "t": 774.1,
+      "end": 785.6,
+      "text": "When we introduce namespaces, we have two rules, and those rules are also to preserve compat- compatibility with with old code."
+    },
+    {
+      "t": 785.6,
+      "end": 796.7,
+      "text": "So, you can only have one object of a kind with the same name in the module. Which means that kind name and and module is unique."
+    },
+    {
+      "t": 796.7,
+      "end": 810.2,
+      "text": "And you can only have one object of a kind with the same name in a namespace, which also means that kind and fully qual- fully qualified name is also unique."
+    },
+    {
+      "t": 811.2,
+      "end": 822.4,
+      "text": "And here's some bad news for now. We still have a fixes. Um we would like to lift some of the restrictions and"
+    },
+    {
+      "t": 822.4,
+      "end": 834,
+      "text": "for instance, one of those we are looking at is new name spaced object can have names without a fixes. Which will take a little bit longer is member of on objects."
+    },
+    {
+      "t": 834,
+      "end": 844.2,
+      "text": "Um but it's this introduction of name spaces is for us a way of moving at in a directions without a fixes."
+    },
+    {
+      "t": 844.2,
+      "end": 848.5,
+      "text": "But it may take a while."
+    },
+    {
+      "t": 848.5,
+      "end": 860.8,
+      "text": "Name spaces, how should you proceed with this? You should wait with name spacing your own code until all your dependencies are name spaced."
+    },
+    {
+      "t": 860.8,
+      "end": 877.8,
+      "text": "The reason for that is that if you have a dependency on a module which is not yet name spaced and you start name spacing your own code, it will break when your dependency is being name spaced because suddenly it will not be able to find"
+    },
+    {
+      "t": 877.8,
+      "end": 888.1,
+      "text": "the the object you previously referred to. So wait until all your dependencies are name spaced. That's important."
+    },
+    {
+      "t": 888.1,
+      "end": 898.4,
+      "text": "Choose a unique name for your name spaces. And the good practice is to choose something that start with your company name, product, area, feature."
+    },
+    {
+      "t": 898.4,
+      "end": 908.6,
+      "text": "But you should make sure that the root is definitely your own. It should be stable and non version specific"
+    },
+    {
+      "t": 908.6,
+      "end": 918.7,
+      "text": "because renaming a name space is a breaking change. If you move an object from one name space to another, those who referred to the object where it were before"
+    },
+    {
+      "t": 918.7,
+      "end": 931.6,
+      "text": "will be broken. Yes, and it should be your own your root. Don't use system, don't use Microsoft, don't use utility common or other"
+    },
+    {
+      "t": 931.6,
+      "end": 943.5,
+      "text": "other names which can be confused or used by others. Choose your own and company name is a good name."
+    },
+    {
+      "t": 944.1,
+      "end": 954.7,
+      "text": "So, namespaces, the value of namespaces is one of the values are discoverability and navigability."
+    },
+    {
+      "t": 954.7,
+      "end": 966.3,
+      "text": "And luckily we have a good place to surface this. So, if you actually want to discover what is in different namespaces, you can use the AL Explorer. Now we have the group by namespace"
+    },
+    {
+      "t": 966.3,
+      "end": 977,
+      "text": "um feature that allows you to simply see a tree view of the namespaces that you have in your in in the your app and dependent app."
+    },
+    {
+      "t": 977,
+      "end": 991.7,
+      "text": "So, it's easy to figure out what is in the Microsoft sales but custom namespace for instance. You can look at all the objects there and and see what is related. And often you will have a need to find a related object to a certain area."
+    },
+    {
+      "t": 991.7,
+      "end": 1002.8,
+      "text": "Go use AL Explorer for that. We have also added here, as you can see, namespaces a column so you can also get some information about where this actually belongs."
+    },
+    {
+      "t": 1002.8,
+      "end": 1016.4,
+      "text": "What is this object related to? It's a good and valuable information. And this actually is a good segue to the next topic, AL Doc, because that's also about discoverability"
+    },
+    {
+      "t": 1016.4,
+      "end": 1030.4,
+      "text": "and a way of investigating what is in a in in in your source file and other source files including our base app. So, let's talk about our new documentation tool, AL Doc."
+    },
+    {
+      "t": 1030.4,
+      "end": 1046.3,
+      "text": "AL Doc produces reference documentation from source. So, what is reference documentation? It's a special kind of documentation. Reference documentation provides details about programming elements associated with technologies and languages,"
+    },
+    {
+      "t": 1046.3,
+      "end": 1057.6,
+      "text": "including class libraries, object model, programming language language constructs. And this is because consistency is essential in reference documentation."
+    },
+    {
+      "t": 1057.6,
+      "end": 1070.6,
+      "text": "You want the same layout, standard design, predictable heading structure, so you know what you're looking at, for instance, a In our case, our world now, a table."
+    },
+    {
+      "t": 1070.6,
+      "end": 1080.8,
+      "text": "You would get the fields, you get the keys, you get the methods, information in the same way for all tables being documented."
+    },
+    {
+      "t": 1080.8,
+      "end": 1096.6,
+      "text": "And you also want to have links with related information. This is also a common feature. And this is something that screams automation because I mean, we already have something which is structured."
+    },
+    {
+      "t": 1096.6,
+      "end": 1107.1,
+      "text": "The information is big. I mean, in our case, the base app is very big, but it's also structured. So, if we can use this structure to generate"
+    },
+    {
+      "t": 1107.1,
+      "end": 1118.4,
+      "text": "documentation, it's a good thing. And reference documentation, it improves discoverability. Good"
+    },
+    {
+      "t": 1118.4,
+      "end": 1131.6,
+      "text": "documentation can help you, us, ramp up new developers. It can help other partners using your source code or our source code."
+    },
+    {
+      "t": 1131.6,
+      "end": 1144.7,
+      "text": "And it can serve as an anchor point for more information as as being an entry point for navigating onto more specific, more detailed information that could be some"
+    },
+    {
+      "t": 1144.7,
+      "end": 1155,
+      "text": "very elaborate examples or something like that. Already today, for the AL language, we are generating reference documentation."
+    },
+    {
+      "t": 1155,
+      "end": 1166.3,
+      "text": "We're doing that for our base methods. You have probably already seen that, and our enums defined as a part of the core compiler."
+    },
+    {
+      "t": 1166.3,
+      "end": 1180.1,
+      "text": "But now we actually want to take this one step further and extend our reference documentation to also cover our application, but also give you the opportunity to use it for your own application."
+    },
+    {
+      "t": 1180.1,
+      "end": 1193,
+      "text": "So, what are we talking about here? It's source as documentation. For a couple of a couple of years ago, we added XML documentation comment to the AL language."
+    },
+    {
+      "t": 1193,
+      "end": 1203.8,
+      "text": "And the biggest uh uptake of this for our own is in the system application, where this piece of uh documentation is from."
+    },
+    {
+      "t": 1203.8,
+      "end": 1214.8,
+      "text": "As you can see here, it already contains some valuable information, which is interesting to use in documentation."
+    },
+    {
+      "t": 1214.8,
+      "end": 1230.8,
+      "text": "And as you can see here, today we we only surface this information in IntelliSense in in um in the code editor here. Two examples. I mean, either when hovering or also when using the signature help."
+    },
+    {
+      "t": 1230.8,
+      "end": 1244.5,
+      "text": "What we want to do is something like this, where we use it to generate online documentation. So, you can see here, there's already a summary. Let's put that in a summary under the share method."
+    },
+    {
+      "t": 1244.5,
+      "end": 1259.8,
+      "text": "There parameter information there. Put there. The structure of the method definition in this case. Show the syntax, but also use the um information to create the name the variable near or the parameter list."
+    },
+    {
+      "t": 1259.8,
+      "end": 1272.8,
+      "text": "We'll we'll help there. And there's even a sample code here. A piece small piece of sample um added to this, and that's also surfaced."
+    },
+    {
+      "t": 1273.5,
+      "end": 1283.6,
+      "text": "This tool has two purposes. It's one tool called AL Doc, but it allows us to create reference documentation for all our first-party apps."
+    },
+    {
+      "t": 1283.6,
+      "end": 1295.8,
+      "text": "We're starting slowly, but we plan to do it for all our apps. And then we would like to allow you as our partners to do the same for your code base to help your"
+    },
+    {
+      "t": 1295.8,
+      "end": 1313.4,
+      "text": "own partners or maybe internal developers as a ramp up. Help them understand the code. It's a good practice and it also makes you think about whenever you write a comment, how can you help someone else?"
+    },
+    {
+      "t": 1313.5,
+      "end": 1326.9,
+      "text": "Let's talk a little bit about how it works and then I will demo it. This is all about transforming information stored in an app file into HTML as a static website."
+    },
+    {
+      "t": 1326.9,
+      "end": 1339.1,
+      "text": "And we have added this new tool AL Doc. It resides in the V6 next to the ALC and it has two primary commands. One which is called AL Doc init."
+    },
+    {
+      "t": 1339.1,
+      "end": 1350.8,
+      "text": "The init command initializes a a folder with the needed templates to show"
+    },
+    {
+      "t": 1350.8,
+      "end": 1361.5,
+      "text": "AL documentation reference documentation. That's a one-time only and you will only need to call that if you want to initialize the"
+    },
+    {
+      "t": 1361.5,
+      "end": 1376.9,
+      "text": "your documentation repo once again. The other one AL Doc build, that is the command you will run whenever you have made changes or you want to update your documentation from a .app file."
+    },
+    {
+      "t": 1376.9,
+      "end": 1390.1,
+      "text": "And the output of that is YAML files. It create YAML files for the individual objects, for the module, and for other things, which is containing the structure"
+    },
+    {
+      "t": 1390.1,
+      "end": 1401,
+      "text": "together with the documentation you wrote in your comments. It's just a text format. Then this is fed into the DocFX tool."
+    },
+    {
+      "t": 1401,
+      "end": 1415,
+      "text": "DocFX is a open source project initiated by Microsoft, but it's open source. And that is a project that combines templates, YAML, and markdown into HTML."
+    },
+    {
+      "t": 1415,
+      "end": 1428.7,
+      "text": "And it also has a build method. And when the build method is running with a configuration, it processes the YAML, markdown, and templates, and creates a static website."
+    },
+    {
+      "t": 1428.7,
+      "end": 1436.5,
+      "text": "Let's look at how that works. I have here"
+    },
+    {
+      "t": 1436.5,
+      "end": 1452.7,
+      "text": "a small piece of code. Actually, let me start with how showing you how it looks today. This is a GitHub repo, and I have initiated it with initialized it with the"
+    },
+    {
+      "t": 1452.7,
+      "end": 1465,
+      "text": "Bing Maps sample that Freddy Christensen have created. I have enriched it a little bit with some comments and name spaced it because we are after all we are modern now."
+    },
+    {
+      "t": 1465,
+      "end": 1472,
+      "text": "But otherwise, this is just following following the aka.ms/algopte"
+    },
+    {
+      "t": 1472,
+      "end": 1482.4,
+      "text": "and upload the sample. What I did after that was that I actually enabled"
+    },
+    {
+      "t": 1482.4,
+      "end": 1492.8,
+      "text": "GitHub pages. GitHub pages is a way for you to have some documentation next to your GitHub project."
+    },
+    {
+      "t": 1492.8,
+      "end": 1503.2,
+      "text": "I chose here to use the docs folder as a subfolder where I want to put my documentation. And I created that one in my repo."
+    },
+    {
+      "t": 1503.2,
+      "end": 1512.9,
+      "text": "And then I created another folder called dog effects, which I initialized with AL Doc."
+    },
+    {
+      "t": 1512.9,
+      "end": 1529.8,
+      "text": "And then I run the tool as I described before. And what it gives me is actually this nice documentation ready-made. I have an overview here with some information from the um this is actually mostly from the manifest."
+    },
+    {
+      "t": 1529.8,
+      "end": 1543,
+      "text": "And then I have references here. And you can see this is namespaces. I named this namespace that with Freddy K and Bing Maps. There's a setup sub namespace here"
+    },
+    {
+      "t": 1543,
+      "end": 1553.5,
+      "text": "where I can go to settings. Not a lot of comments in there. See in the setup, there's a little more. And you can see there's a bunch of methods here already."
+    },
+    {
+      "t": 1553.5,
+      "end": 1561.9,
+      "text": "The structure's there. Nice. There's a lot of comments. But let's see. Let's try to add a comment."
+    },
+    {
+      "t": 1561.9,
+      "end": 1572.9,
+      "text": "So, let's try to add some documentation to the Bing Maps GeoCode code unit. So, I'll write a documentation comment."
+    },
+    {
+      "t": 1572.9,
+      "end": 1585,
+      "text": "And already here, this is Copilot coming with a suggestion. We can stick with that saying this is not It's fine. We'll go with that. So, I save this."
+    },
+    {
+      "t": 1585,
+      "end": 1597.9,
+      "text": "I build it. It's quick. Local build. And then I go to the terminal window here. And as I mentioned before, there is a build command for AL Doc."
+    },
+    {
+      "t": 1597.9,
+      "end": 1608.3,
+      "text": "I have already run the AL init, so I'm just going to do the the build. And it's fairly fast even on large projects because"
+    },
+    {
+      "t": 1608.3,
+      "end": 1624.6,
+      "text": "Yeah. Quick. Done. There's a warning. Not a problem here. And then I run the build here for DocFX, which is the one that takes the YAML, which was produced before, and now creates HTML."
+    },
+    {
+      "t": 1624.6,
+      "end": 1634.7,
+      "text": "Let's see. Takes a little bit longer. It's also done. And then notice up here, this is a Git repo, right?"
+    },
+    {
+      "t": 1634.7,
+      "end": 1647.3,
+      "text": "So, there's some changes. First of all, there's this change here. Oops. Which is obviously the one I created. Then I have this file."
+    },
+    {
+      "t": 1647.3,
+      "end": 1659.3,
+      "text": "This is actually the HTML file um for the for the code unit. And as you can see here, suddenly my comment is in here."
+    },
+    {
+      "t": 1659.3,
+      "end": 1671.1,
+      "text": "And the cross-reference also contains this information. Shouldn't worry a lot about that. Then what I'll do now, add this."
+    },
+    {
+      "t": 1671.1,
+      "end": 1675.1,
+      "text": "Commit."
+    },
+    {
+      "t": 1675.9,
+      "end": 1688.4,
+      "text": "Thanks. Then I can commit and push this, which means that when I commit this into my repo, what happens is actually"
+    },
+    {
+      "t": 1688.4,
+      "end": 1695.4,
+      "text": "if I go back here, and"
+    },
+    {
+      "t": 1697.3,
+      "end": 1708.2,
+      "text": "see now there's a small orange thing here. And uh there's something here about deployments. So, already now it's actually processing"
+    },
+    {
+      "t": 1708.2,
+      "end": 1711.6,
+      "text": "my changes."
+    },
+    {
+      "t": 1711.6,
+      "end": 1718,
+      "text": "And see the changes like that."
+    },
+    {
+      "t": 1718.7,
+      "end": 1725.9,
+      "text": "go back here. Should be"
+    },
+    {
+      "t": 1726.2,
+      "end": 1730.8,
+      "text": "almost done."
+    },
+    {
+      "t": 1733.2,
+      "end": 1746.5,
+      "text": "And let's see if we go to code units to your code this and"
+    },
+    {
+      "t": 1747.2,
+      "end": 1763.2,
+      "text": "I have here the comment I just wrote. In this case, I did all this manually, but we will add this to a So it's a part of AL Go for GitHub and you can choose an opt-in for automatically having"
+    },
+    {
+      "t": 1763.2,
+      "end": 1774.8,
+      "text": "documentation like this generated. That was all I had. And Peter? Thank you, Asbjørn. It's great to see that we finally have namespace support in AL."
+    },
+    {
+      "t": 1774.8,
+      "end": 1789.6,
+      "text": "And AL Doc will really help with getting up-to-date documentation on apps. And both of these helps with discoverability. And speaking of that, let's talk about additional investments in making it easier to discover, investigate, and troubleshoot Business Central."
+    },
+    {
+      "t": 1789.6,
+      "end": 1804.8,
+      "text": "So, imagine that you want to investigate how a certain functionality works. Uh or you need to troubleshoot an issue in production or in a sandbox environment."
+    },
+    {
+      "t": 1804.8,
+      "end": 1815.2,
+      "text": "So, that involves um provisioning a Visual Studio Code workspace uh and project to investigate and troubleshoot a customer environment."
+    },
+    {
+      "t": 1815.2,
+      "end": 1827.6,
+      "text": "Uh and it also involves knowledge and a lot of manual steps. You need to open VS Code, uh you need to create the project, figure out the details about the environment, the connection uh string, the name, etc."
+    },
+    {
+      "t": 1827.6,
+      "end": 1841.2,
+      "text": "Uh you might need to find a session ID if you want to debug, create a launch configuration with this information, figure out what apps are involved uh in the scenario to create dependencies to those in an app.json."
+    },
+    {
+      "t": 1841.2,
+      "end": 1855.3,
+      "text": "You need to authenticate and you need to download symbols. So that that could take work and be hard to figure out and it takes time. And so imagine if you could automate this to increase developer productivity"
+    },
+    {
+      "t": 1855.3,
+      "end": 1867.1,
+      "text": "to empower tech-savvy consultants to investigate apps and do light troubleshooting with limited Visual Studio Code knowledge. And to empower support"
+    },
+    {
+      "t": 1867.1,
+      "end": 1877.3,
+      "text": "to also troubleshoot faster and to lower time to mitigate. So let's see how we can do that with some great new functionality."
+    },
+    {
+      "t": 1877.3,
+      "end": 1888.3,
+      "text": "Let me switch to the web client. So let's have a look at a customer in Business Central. And I would like to investigate"
+    },
+    {
+      "t": 1888.3,
+      "end": 1902,
+      "text": "this page a little bit more. So I'm going to use my normal investigation tool which is the page inspector. And I can open that with control alt F1 or from the help and support page."
+    },
+    {
+      "t": 1902,
+      "end": 1913.1,
+      "text": "And as you probably know you can open the the table and view the data and you can see the fields etc. But we have a new option now called explore page in Visual Studio Code."
+    },
+    {
+      "t": 1913.1,
+      "end": 1925,
+      "text": "And so let's try that out. So I'm I'm going to click that. And so what happens now is that Visual Studio Code will open up. It will create a dummy project."
+    },
+    {
+      "t": 1925,
+      "end": 1936.6,
+      "text": "It will create an app.json in that dummy project with references to the extensions that are required for the page. So in the page inspector you might know there's an extension tab."
+    },
+    {
+      "t": 1936.6,
+      "end": 1950.9,
+      "text": "It will be those extensions listed in that tab. Then it will create a launch.json configuration that we see here both for a normal debugging session, a normal attach and we see also the session in there."
+    },
+    {
+      "t": 1950.9,
+      "end": 1963.1,
+      "text": "It will actually authenticate. First time you authenticate you need to do you know a special signing process with two factor with code basically not two factor but with a code in the client but I skipped that."
+    },
+    {
+      "t": 1963.1,
+      "end": 1976,
+      "text": "It will download the symbols and then it will ask if I want to debug Snapchat debug regular debugging or or not debug. And just for now let's not debug right let's see what happened in VS code."
+    },
+    {
+      "t": 1976,
+      "end": 1993.2,
+      "text": "So it knew that I was on the customer page so it opened up the source for the customer card. Um and apart from seeing all of the name space and using statements that we heard uh um Espen talked about you can actually also see all of the code for the page."
+    },
+    {
+      "t": 1993.2,
+      "end": 2004.2,
+      "text": "You can see the field you can see any field validation you can see the properties etc. etc. Uh so this is a you know really fast way to get in and investigate"
+    },
+    {
+      "t": 2004.2,
+      "end": 2025,
+      "text": "the source behind of the code for a page. So uh let's let's you know dig a little further maybe we want to understand what happens on the the table behind the page so we have the source table being the customer and I can actually you know I can control click with a hyperlink to go to customer or do F12"
+    },
+    {
+      "t": 2025,
+      "end": 2041,
+      "text": "and jump to the customer table and I can see any kind of field validation or other logic on the table here as well. We also added a new feature in the previous release which was the AL Explorer."
+    },
+    {
+      "t": 2041,
+      "end": 2055.2,
+      "text": "So let's open that. And we can go and find our customer card. And we can see that the customer card is in the actually that doesn't see that let me just"
+    },
+    {
+      "t": 2055.2,
+      "end": 2072.6,
+      "text": "minimize. Uh it doesn't show that well here but it's in the Microsoft sales dot customer name space. And so we could group by name space for example and we could drill into that and you know oh I have to just remove this so we can see everything."
+    },
+    {
+      "t": 2072.6,
+      "end": 2082.8,
+      "text": "Uh we can drill into the uh sales and the customer name space and see what else in that. So this is a great way to discover. Again, I only had one click from the client."
+    },
+    {
+      "t": 2082.8,
+      "end": 2092.9,
+      "text": "I came in here. As long as it's the extensions which were used on the page, I can see the content. I could see for example that we have a customer list. That looks interesting."
+    },
+    {
+      "t": 2092.9,
+      "end": 2103.8,
+      "text": "I could I could run it and see it in the client, you know, quickly jump to the client to see the list. So that's maybe not that exciting, but it's going to show the list. We can see that later."
+    },
+    {
+      "t": 2103.8,
+      "end": 2115.5,
+      "text": "Uh I can also jump to the source, right? Directly from here, jump to the now customer list source. All of this just with a single click. Now, we talked about debugging also."
+    },
+    {
+      "t": 2115.5,
+      "end": 2131.7,
+      "text": "So while the first scenario here might be, you know, that's that could be a consultant who wanted to go in and do light investigation reading AL, figuring out how a trigger logic or validation worked, part of specification also in that process to understand how things works."
+    },
+    {
+      "t": 2131.7,
+      "end": 2142,
+      "text": "It could also be a developer. Uh the next scenario here about uh troubleshooting, that could be all of the roles. It could be a developer or a consultant doing light troubleshooting or support for that matter."
+    },
+    {
+      "t": 2142,
+      "end": 2154.5,
+      "text": "But again, we're in VS Code. We did exactly the same as we saw before. Uh we can switch to debug mode. It will do that automatically if I had entered the regular debugging or the snapshot debug that we saw before."
+    },
+    {
+      "t": 2154.5,
+      "end": 2167.1,
+      "text": "Uh but as I said, as part of creating Visual Studio Code, it created three configurations. So I have one for just attaching and it put in the session ID of my client."
+    },
+    {
+      "t": 2167.1,
+      "end": 2183.2,
+      "text": "Uh normally you would find that in help and support in a troubleshoot section and put that in manually, but here it's it's set up for you automatically. It also creates a snapshot profile here. That's if you want to do uh troubleshooting directly in production, you cannot use the the normal debugger,"
+    },
+    {
+      "t": 2183.2,
+      "end": 2194.7,
+      "text": "but you need to do snapshots. It could also be that you want to do um profiling, right? So, then you would use the snapshot here. And then maybe you just want to look at the symbol. So, that's a that's a request for that."
+    },
+    {
+      "t": 2194.7,
+      "end": 2208.3,
+      "text": "But in the debugger, you can pick between the different launch. Let's do a normal debugging. So, I'm just going to use the chosen a chat request and I can use this play button to start debugging and that will now attach to the client that I have."
+    },
+    {
+      "t": 2208.3,
+      "end": 2219,
+      "text": "We see the session down here. So, let's switch back to the client. And let's say yes, so this is the list that you saw before, but let's go back to the card."
+    },
+    {
+      "t": 2219,
+      "end": 2231,
+      "text": "Let's say that I had a problem when I entered in phone number a string, you know, this not that exciting, but just to trigger an exception and hit the debugger, right? So, I'm just going to do FFF"
+    },
+    {
+      "t": 2231,
+      "end": 2246.4,
+      "text": "and return and that will actually hit the debugger, right? So, here we are exactly at the line where we have the validation. Still, I didn't do anything in VS. You remember back from before, I just in page inspector pressed the ability to explore the page in Visual Studio Code."
+    },
+    {
+      "t": 2246.4,
+      "end": 2258.6,
+      "text": "Uh and then I can step through the code and debug here. But wait, there's more. If we go back to the client, let me just stop this debugging session."
+    },
+    {
+      "t": 2258.6,
+      "end": 2271.8,
+      "text": "If we go back to the client, let's just revert this issue. So, you can actually also explore from a field. So, we have a list of the table fields."
+    },
+    {
+      "t": 2271.8,
+      "end": 2284.3,
+      "text": "So, let's just say that I was still interested in my phone number field, which is this one. You see it highlighted over here. In the drop down for the field, you now have an explore field in VS Code."
+    },
+    {
+      "t": 2284.3,
+      "end": 2297.4,
+      "text": "If I click that, it will, you know, again provision VS Code, download everything, create launch configuration, etc., but it will bring me to the source code for the table field in the table."
+    },
+    {
+      "t": 2297.4,
+      "end": 2315.7,
+      "text": "So, I can inspect it there, right? So, I have two options here, page and table. And the last option is that if you go to the help and support page that you probably know, under the troubleshooting session section, you have a new option to attach debugger to this session."
+    },
+    {
+      "t": 2315.7,
+      "end": 2329.7,
+      "text": "It's basically going to do the same again, but it will it will only put in the base and system application or extensions as as dependencies in the VS Code project and as symbols for you to explore, right?"
+    },
+    {
+      "t": 2329.7,
+      "end": 2342.4,
+      "text": "Because it doesn't have any context like in the page that we had before. So just to see a quick overview of what you could do here, you could explore the page in Visual Studio Code from the page in inspector"
+    },
+    {
+      "t": 2342.4,
+      "end": 2353.8,
+      "text": "under the page section. Again, you could do the same under the field to see the table field and you could go to the help and support section and open or attach from there."
+    },
+    {
+      "t": 2353.8,
+      "end": 2372.6,
+      "text": "So we have some permissions that you need to have to do this. So for the attaching help and support, that will show always, but the options in the page inspector will only appear if you have the troubleshooting tools permission."
+    },
+    {
+      "t": 2372.6,
+      "end": 2387.4,
+      "text": "And that's similar to some other functionality in the page inspector. And just to recap again what happened in Visual Studio Code is that we provision it. If you don't have the AL Visual Studio Code extension installed, we will suggest it and and stop."
+    },
+    {
+      "t": 2387.4,
+      "end": 2397.7,
+      "text": "We'll create a dummy project with all the content necessary and ask you whether you want to troubleshoot or just investigate. So some best practices on this."
+    },
+    {
+      "t": 2397.7,
+      "end": 2409.9,
+      "text": "Initially, you need to be patient. You know, downloading symbols can take time, so just wait until everything finishes up and it asks whether you want to debug or not. You need to have access to the source code to view it."
+    },
+    {
+      "t": 2409.9,
+      "end": 2420.5,
+      "text": "You know, if you don't have if it's under IP protection, just like today, it will just show you empty source, right? It will try to protect the uh the the extension IP. Still."
+    },
+    {
+      "t": 2420.5,
+      "end": 2434.6,
+      "text": "Um we generate projects, so they will accumulate. So, you know, you should occasionally delete these so they don't uh aggregate up. Um also, when you work on this, if you already have VS Code open and you initiate this,"
+    },
+    {
+      "t": 2434.6,
+      "end": 2444.9,
+      "text": "you can actually reuse the currently open VS Code and you can choose whether you want to reuse the symbols as well if they haven't changed or or or download new versions of them."
+    },
+    {
+      "t": 2444.9,
+      "end": 2456.5,
+      "text": "Uh and you can even We'll talk about that later, but you can even now also have a shared uh symbols path where you can reuse uh symbols, so you don't have to spend time on downloading them. As I said, we support both production and sandboxes."
+    },
+    {
+      "t": 2456.5,
+      "end": 2473.8,
+      "text": "You can only debug in the latter. And again, as I said, um this is a quick way also for using the AL profiler from within Visual Studio Code instead of the inline profiler if you want to have, you know, fine-grained details with instrumentation."
+    },
+    {
+      "t": 2473.8,
+      "end": 2486.9,
+      "text": "So, we have some future ideas. Uh building on top of this, there's no commits right now, but, you know, it would be great if instead of opening up locally on VS Code and sort of that content switching that you can actually open it up in the cloud in CodeSpaces."
+    },
+    {
+      "t": 2486.9,
+      "end": 2498.4,
+      "text": "And also, as we saw now, it works on symbols and fetching the source from the the NST, but it would also be great if it can actually integrate uh with uh GitHub and pull source from there."
+    },
+    {
+      "t": 2498.4,
+      "end": 2510.5,
+      "text": "Either for the specific version deployed um on the on the server that you have attached to or to pull the latest if you just want to have it as a starting point and then go and develop on that extension."
+    },
+    {
+      "t": 2510.5,
+      "end": 2522.2,
+      "text": "It would also be great if you could get symbols for all extensions in one go if you just want to investigate or for a specific set of extensions, maybe from the extension uh management page, uh for example."
+    },
+    {
+      "t": 2522.2,
+      "end": 2534.1,
+      "text": "But try this out. Uh it's available in the preview. When you watch this, it's available in uh you know, the launch. And give us feedback and uh etc. and ideas and on on Viva, the former Yema."
+    },
+    {
+      "t": 2534.1,
+      "end": 2545.4,
+      "text": "So a couple of additional comments on this in the error details, you you know, you know I have this ability to copy the details and that also shows the call stack."
+    },
+    {
+      "t": 2545.4,
+      "end": 2560.2,
+      "text": "You can see that in purple at the bottom right. That's another way of getting some context about where the problem is. Also inside of the debugging experience in the debug console, we now support intellisense."
+    },
+    {
+      "t": 2560.2,
+      "end": 2571.9,
+      "text": "So if you want to evaluate something, we saw before that I type FFF in the phone number. If I wanted to evaluate that, I could get intellisense on phone number in the console and and just, you know,"
+    },
+    {
+      "t": 2571.9,
+      "end": 2587.5,
+      "text": "it's great for discoverability of what is in available during debugging but also just productivity to not type it, right? And it works on fields and locals and globals and on member symbols. But we don't have any evaluation of methods that is supported for this."
+    },
+    {
+      "t": 2587.5,
+      "end": 2599.3,
+      "text": "So um I talked about the AL profiler. Let's recap just a little bit. So some releases ago we introduced a couple of great tools to investigate performance."
+    },
+    {
+      "t": 2599.3,
+      "end": 2609.5,
+      "text": "There was profiling tools. So we had an in-client performance profiler that was accessible to customers, consultants and developers."
+    },
+    {
+      "t": 2609.5,
+      "end": 2625.8,
+      "text": "And we also had an AL profiler in VS code that allowed more sort of detailed information for developers. In the in-client profiler always and as an option in the Visual Studio Code AL profiler,"
+    },
+    {
+      "t": 2625.8,
+      "end": 2640.2,
+      "text": "we're using something that is called sampling to to record what is happening. And in this example, you can see that it looks like, you know, we have a sampling just a little bit above 100 milliseconds in both places."
+    },
+    {
+      "t": 2640.2,
+      "end": 2651.8,
+      "text": "And just, you know, quickly to recap sampling, basically what sampling means is that when we look at what is happening, we look at fixed interval. That's what we call the sampling rate or the sampling interval, right?"
+    },
+    {
+      "t": 2651.8,
+      "end": 2664.3,
+      "text": "And so, if you imagine multiple methods um running, we can only see what is running when we're looking at the sampling point. And so, that gives like a high-level view of what is running."
+    },
+    {
+      "t": 2664.3,
+      "end": 2678.5,
+      "text": "There is an alternative, which is only available from profiling in VS Code, and that's called instrumentation, and that basically looks continuously. But, in the in-client profiler, and as an option in the profiler, you can use sampling, right?"
+    },
+    {
+      "t": 2678.5,
+      "end": 2690.8,
+      "text": "And in this release, we are giving you the option. So, the default for now has been 100 ms. We're now giving you the option to go a little lower than that, 50 ms, or higher, 150 ms."
+    },
+    {
+      "t": 2690.8,
+      "end": 2701.8,
+      "text": "So, that can give you more granularity to see smaller operations, or to limit the amount of data and only focus on the large um you know, that that that where time is spent, basically."
+    },
+    {
+      "t": 2701.8,
+      "end": 2720.2,
+      "text": "In the in-client profiler, there's a new settings button that will allow you to choose this. And in Visual Studio Code, when you're using the profiling type sampling, you have an option called profile sampling interval, where you can set the value between these three options."
+    },
+    {
+      "t": 2720.2,
+      "end": 2735.1,
+      "text": "So, let's bring Stefan back and talk about the investments that we have in AL language. Let's start this off by talking about the biggest thing, the most noticeable thing in the language changed this release,"
+    },
+    {
+      "t": 2735.1,
+      "end": 2745.3,
+      "text": "and that is of course the namespaces that has been talked about. You can declare namespaces to encapsulate your objects, add using statements to get easy access to objects in that namespace,"
+    },
+    {
+      "t": 2745.3,
+      "end": 2762,
+      "text": "and use fully qualified names where needed, for example, to resolve name conflicts. Moving on to something maybe less noticeable in the the changes we've done, and that is the fact that we now allow you to implicitly convert variants to dictionaries and lists."
+    },
+    {
+      "t": 2762,
+      "end": 2774.1,
+      "text": "And as part of that we added two new methods in the variant type, is dictionary and is list. Another big change is a new data type called secure text."
+    },
+    {
+      "t": 2774.1,
+      "end": 2790.6,
+      "text": "This is a new variable and parameter data type type you can use to protect the data it holds from being debugged. It does not protect it from being shared outside of Business Central, but it protects you protects it as you are debugging using the Business Central debugger."
+    },
+    {
+      "t": 2790.6,
+      "end": 2803.9,
+      "text": "This applies to normal debugging as well as snapshot debugging. You construct the secure text data in a non-debuggable method, and then you can pass it on to relevant methods without having to worry about it being exposed."
+    },
+    {
+      "t": 2803.9,
+      "end": 2817.7,
+      "text": "Let's see how that could look like. Here I have a demo project that I'm going to try and run. So, I'm going to run the debugger. And it will publish my application to a sandbox."
+    },
+    {
+      "t": 2817.7,
+      "end": 2827.9,
+      "text": "And from here I can invoke this action that will do some work with secret text. So, let's see how that works."
+    },
+    {
+      "t": 2827.9,
+      "end": 2839.1,
+      "text": "I'm going to click this process data action. And yes, my debugger breaks here. So, now I can start debugging and let's see where we can use secret text here."
+    },
+    {
+      "t": 2839.1,
+      "end": 2853.6,
+      "text": "I'll start by going into this method. So, I'll do the step into. And then I'll step over the setup here. Here I have a new variable called a header value and it is the type secret text."
+    },
+    {
+      "t": 2853.6,
+      "end": 2864.8,
+      "text": "It's going to be set using a function from this provider called get API key, and I can see that the get API key returns secret text here. So, this is interesting."
+    },
+    {
+      "t": 2864.8,
+      "end": 2883.6,
+      "text": "As this value is created inside this get API key function, I would expect that it has been marked with non-debuggable, and I can verify that by looking at the source or I can just click the step into and see that it actually steps over because I can't debug into this function."
+    },
+    {
+      "t": 2883.6,
+      "end": 2895.8,
+      "text": "So, now I have a value that is of type secret text. And if I go and look at the value using the hover, I'll see hidden value. If I go look at the locals here,"
+    },
+    {
+      "t": 2895.8,
+      "end": 2908.9,
+      "text": "I will see hidden value. And even if I go down here and check the header value, it's still a hidden value. So, I can't get to this value no matter what I do. But I do I can't put it in a function here, so I can call this function."
+    },
+    {
+      "t": 2908.9,
+      "end": 2920.9,
+      "text": "Let's see what that does. So, this is a function that will create a request message for me that I can use to send data outside of Business Central. In a normal scenario, you would set a request URI like this."
+    },
+    {
+      "t": 2920.9,
+      "end": 2937.3,
+      "text": "And you you can also get out the request URI. And as you can see in the locals, we can now see the value of this request URI. So, it's not really hidden. But we now have the option to hide the URL in case you have, for example, an API key in your URL."
+    },
+    {
+      "t": 2937.3,
+      "end": 2949.8,
+      "text": "So, here I have a situation where I used to set secret request URI. And again again, I'm calling a function that I expect is marked with non-debuggable and is returning a secret text."
+    },
+    {
+      "t": 2949.8,
+      "end": 2963.2,
+      "text": "You can see it here. It's returning a secret text. So, if I press the left F11 here, it will step over it and not step into it. If I then go and try and get out this request URI like this,"
+    },
+    {
+      "t": 2963.2,
+      "end": 2974.2,
+      "text": "I will see that the request URI can't be fetched. It will still be empty here. So, there's no way to get the secret out of the URI. We also have headers for these things. And you can add a normal header."
+    },
+    {
+      "t": 2974.2,
+      "end": 2980.4,
+      "text": "You can also add a header using a secure a secret text."
+    },
+    {
+      "t": 2980.4,
+      "end": 2991.9,
+      "text": "And again, you can get out the headers. If it's a normal header, you can get it out and you can see the header values. Yeah, we got out the thing that we put in."
+    },
+    {
+      "t": 2991.9,
+      "end": 3003.7,
+      "text": "We can clear that. We can try and get out the value that is a secret text. And no, we cannot do that. The reason why I put this in an if statement is because this will actually not find this value."
+    },
+    {
+      "t": 3003.7,
+      "end": 3014,
+      "text": "So, it'll throw an exception. I can of course also use the secret text in a body. So, I can put it in the content of my message."
+    },
+    {
+      "t": 3014,
+      "end": 3026.4,
+      "text": "Now, I'm done creating this nice little request message and I can pass that back to my method here. And now it's important to remember that this method returned an object that contains secret data."
+    },
+    {
+      "t": 3026.4,
+      "end": 3039.8,
+      "text": "It's not a secret text uh variable here, but it has secret data in here. So, I shouldn't return this in a public function. I should keep it within the scope of my extension, within the privacy of my extension."
+    },
+    {
+      "t": 3039.8,
+      "end": 3050.6,
+      "text": "You can't get to it from debugging. But, if somebody else got this message object and change the URL, they could send it somewhere else and expose the data. So, keep it for yourself, so to speak."
+    },
+    {
+      "t": 3050.6,
+      "end": 3061.6,
+      "text": "Of course, you can continue using this and you can send it on uh to other methods within your application and you can keep the data safe from any prying eyes you doing debugging."
+    },
+    {
+      "t": 3061.6,
+      "end": 3075.6,
+      "text": "So, that's the secret text. Let's move on to field groups. For a while now, you've been able to add fields to an existing field group, but many have noticed that it's impossible to add fields to a field group that doesn't exist in the base object."
+    },
+    {
+      "t": 3075.6,
+      "end": 3087.8,
+      "text": "In this example here, it would be impossible for me to add a brick field group to the GL entry table, simply because there is no brick field group to begin with in the base application."
+    },
+    {
+      "t": 3087.8,
+      "end": 3101.1,
+      "text": "Now, we made it possible for you to add fields to a field group that doesn't exist, thereby enabling the scenario where we want to add a field group for bricks, so you can show your GL entries in a nice way."
+    },
+    {
+      "t": 3101.1,
+      "end": 3114.8,
+      "text": "The add last continues to append fields either to an empty field group or to the existing field group and it continues to exclude duplicates. So, if two extensions are adding the same field, the field will only appear once."
+    },
+    {
+      "t": 3114.8,
+      "end": 3132.1,
+      "text": "On table fields, you now also have the option to control if a field can be used in profile customization. Previously, you had to add a field to the page in order for it to be used in profile customization, but now you can also choose from table fields if you have the right permissions."
+    },
+    {
+      "t": 3132.1,
+      "end": 3143.8,
+      "text": "With the allow in customization property, you can control if a certain field should never be possible to add in a profile customization. On pages, you also have more control."
+    },
+    {
+      "t": 3143.8,
+      "end": 3156.2,
+      "text": "Here, you can now set the analysis mode enabled to false on that specific list page where detailed analysis capabilities are not usable."
+    },
+    {
+      "t": 3156.2,
+      "end": 3171.2,
+      "text": "We have two new extended data types. The barcode extended data type can be set on fields where you want the scanner button to appear when you're using a device, making it much easier for people to enter data using their device camera."
+    },
+    {
+      "t": 3171.2,
+      "end": 3185.4,
+      "text": "We also have the rich text extended data type that enables you to add rich content capabilities to your fields. It requires multi-line to be set to true and it must be within a group of its own or you will not get the rich content editor."
+    },
+    {
+      "t": 3185.4,
+      "end": 3199.4,
+      "text": "But, let's pause a little here. Rich content fields are actually more than just a way of formatting the display of the field. It gives you the capability that you would expect from a rich text editor, like formatting, adding images, links,"
+    },
+    {
+      "t": 3199.4,
+      "end": 3216,
+      "text": "and so forth, making it ideal for very rich content creation. At this point, it does have some restrictions, like the fact that it needs to be alone in its own group, so you cannot use it in a repeater or in in an existing group with other fields."
+    },
+    {
+      "t": 3216,
+      "end": 3229,
+      "text": "Likewise, you cannot currently customize the toolbar. And you have limited limited personalization capabilities. As a developer, you also need to know that it requires backing by types without size, like text."
+    },
+    {
+      "t": 3229,
+      "end": 3244.2,
+      "text": "And the rich content value is HTML with inline images. In the coming releases, we'll continue to work on the rich text editor and its capabilities, so I'm sure we'll talk about this soon again."
+    },
+    {
+      "t": 3244.2,
+      "end": 3256.1,
+      "text": "Now it's time for queries. We made it possible to use queries in run object for actions, and now you can set the usage category to have a query show up in the tell me when a user search for it."
+    },
+    {
+      "t": 3256.1,
+      "end": 3267,
+      "text": "And with the about title and about text, you can build rich teaching tips, all of which can help your users get the most out of the queries you've built."
+    },
+    {
+      "t": 3267,
+      "end": 3283.4,
+      "text": "Combining data for use in Excel reports used to be difficult and often resulted in complicated matrix-like data tables in Excel. Now with the Excel layout multiple data sheets property, you can split up each data item into its own data sheet."
+    },
+    {
+      "t": 3283.4,
+      "end": 3294.4,
+      "text": "With multiple data sheets, you significantly reduce the complexity and improve not only the size of the report, but also the rendering performance and the complexity of authoring."
+    },
+    {
+      "t": 3294.4,
+      "end": 3305.8,
+      "text": "Individual data sets also allows you to get the most out of modeling and building with power pivot in Excel. Speaking of power, Peter, what about AL coding powers?"
+    },
+    {
+      "t": 3305.8,
+      "end": 3315.8,
+      "text": "Yeah, what about code authoring? So, just like with the AL language, we have a collection of enhancements to make everyday code authoring more productive."
+    },
+    {
+      "t": 3315.8,
+      "end": 3332.6,
+      "text": "So, let's uh jump straight into it. Uh Visual Studio Code supports an editor concept called inlay hints, and these are additional information inline in source code to help you understand what the code does."
+    },
+    {
+      "t": 3332.6,
+      "end": 3349,
+      "text": "And in this release, we're adding the ability to get inlay hints for AL parameter names and for return types. And so here is an example that I marked out where you see that we're calling a method process document with true false true."
+    },
+    {
+      "t": 3349,
+      "end": 3364.8,
+      "text": "And you might wonder, what does that method do? Of course you can you know, navigate to it you know, to figure it out, but you can with the inlay hints enabled, you can use control alt and you can then switch and then the editor will insert"
+    },
+    {
+      "t": 3364.8,
+      "end": 3381.3,
+      "text": "basically the the names of the parameters, right? So here you see that instead of true false true, we can see that it's include um start date and include end date and the delete when done parameters that you set in this way."
+    },
+    {
+      "t": 3381.3,
+      "end": 3392.3,
+      "text": "And the names there of course comes from the parameter definition on on this method. And if you see the line below, you can even see that we also show the return value, right?"
+    },
+    {
+      "t": 3392.3,
+      "end": 3409.7,
+      "text": "So for the line below, you see that integer at the end is the return value for this method. So this really helps quickly toggle and this will happen for all of the code in the view, not just for one for the one method that you are looking at, but for everything in in the editor view."
+    },
+    {
+      "t": 3409.7,
+      "end": 3424.2,
+      "text": "And so to enable this, you first need to enable it as a feature in Visual Studio Code. And so there's a setting the editor dot inlay hint dot enabled where you can set the the standard behavior."
+    },
+    {
+      "t": 3424.2,
+      "end": 3435.8,
+      "text": "Do you want it to be off or always on or do you want to have a behavior where you use a shortcut key to hide it or to show it, right? So that's that's what you can choose."
+    },
+    {
+      "t": 3435.8,
+      "end": 3447.4,
+      "text": "And then in Visual Studio Code, you can also then um influence how these inlay hints are shown. You can decide the the font family and size and and the padding here."
+    },
+    {
+      "t": 3447.4,
+      "end": 3460.1,
+      "text": "But then you also have to enable it for AL, right? So we have a property or two properties in the AL inlay hints collection for enabling whether you want to see it on function return types or for the parameter names, right?"
+    },
+    {
+      "t": 3460.1,
+      "end": 3467.8,
+      "text": "So, to to have this functionality, enable it in VS Code and for AL."
+    },
+    {
+      "t": 3467.8,
+      "end": 3483.2,
+      "text": "Okay, another feature that we build is that if you're working with with labels, right? You might be using them for user messages. When you are using that label variable, maybe you want to see what is inside that that label,"
+    },
+    {
+      "t": 3483.2,
+      "end": 3497.5,
+      "text": "right? And so, instead of having to navigate to that or use peak definition, you can now just hover over that. So, in this example, you see that we hover over the user message in the message call and you can see that the label value is user message."
+    },
+    {
+      "t": 3497.5,
+      "end": 3508.5,
+      "text": "So, that's makes it a little bit easier to see label values. Another IntelliSense investment is when you have multiple overloads,"
+    },
+    {
+      "t": 3508.5,
+      "end": 3524.7,
+      "text": "we then pick you know, we are smarter at picking the recommended signature. So, before you would have to scroll through those different options. In this scenario, you see that there's, you know, six options and this is showing the first of those six options when we call process,"
+    },
+    {
+      "t": 3524.7,
+      "end": 3537.2,
+      "text": "but now we will try to match the parameters that you specified so far and then reorder the suggestions here to the ones that is, you know, the first basically our best match to what you've written so far."
+    },
+    {
+      "t": 3537.2,
+      "end": 3547.3,
+      "text": "And then we order the remaining ones in the order based on on the provided parameters. So, that just just make it easier for you to work with"
+    },
+    {
+      "t": 3547.3,
+      "end": 3564,
+      "text": "with um with methods with with overloads, right? Also, again, IntelliSense when you're working with methods that accept keys, like the set current keys, we now also list the available keys in the IntelliSense,"
+    },
+    {
+      "t": 3564,
+      "end": 3577.7,
+      "text": "right? So, in this scenario, you see I started typing and I get the key suggestions. We still also allow, of course, specific fields to select those if you want to, for instance, short on those."
+    },
+    {
+      "t": 3577.7,
+      "end": 3588.5,
+      "text": "Now, commonly when you want to understand the relationship in source, you can use the find all references functionality in Visual Studio Code."
+    },
+    {
+      "t": 3588.5,
+      "end": 3601.3,
+      "text": "And we have improved that to now also work on trigger and system methods and trigger events. That's a portal on page and table fields, on page actions, and on table methods, triggers, and events."
+    },
+    {
+      "t": 3601.3,
+      "end": 3618,
+      "text": "And we will now, you know, find only the the references that are truly relevant, right? So, if you are looking, for instance, at a trigger here, the the on insert trigger, for example, on the customer, you can see that the reference count in the code lens at the top there,"
+    },
+    {
+      "t": 3618,
+      "end": 3629.8,
+      "text": "the 17, shows how much, you know, how many places this is used. And you can then use the find all references to go through and view all of these uses, right?"
+    },
+    {
+      "t": 3629.8,
+      "end": 3641.6,
+      "text": "So, then again, that is something that improves your productivity to see these relations. When we then talk about project handling, we heard asks for,"
+    },
+    {
+      "t": 3641.6,
+      "end": 3654.2,
+      "text": "for, you know, ever since the first day, when you use the AL Go command to create a new default project, it uses the document folders in Windows, right? And so, we have the suggestion, can we create a user setting for that?"
+    },
+    {
+      "t": 3654.2,
+      "end": 3670.5,
+      "text": "And now we have done. So, in the you can now override and decide the default folder that you would like to have for, for your projects, or the default root location."
+    },
+    {
+      "t": 3670.5,
+      "end": 3680.6,
+      "text": "Similarly, for projects, when you are building apps, then we put those typically, or normally today, in the project folder."
+    },
+    {
+      "t": 3680.6,
+      "end": 3690.8,
+      "text": "But uh maybe you want to reuse those and support uh having an output folder, right? And now we we support that. So, in the AL."
+    },
+    {
+      "t": 3690.8,
+      "end": 3705,
+      "text": "uh compilation options, you can now specify an out folder for uh your app. And that, as I said, is usual usual, for instance, for sharing apps across projects or even workspaces."
+    },
+    {
+      "t": 3705,
+      "end": 3717.2,
+      "text": "Now, the uh project will still contain a node for the output file, but it could physically then be located outside of the project itself."
+    },
+    {
+      "t": 3717.2,
+      "end": 3731.2,
+      "text": "So, let's uh have a quick demo uh on uh GitHub Copilot Chat. I mean, in our last uh launch event session back in April, Stefan showcased some examples of using the GitHub Copilot while authoring AL code."
+    },
+    {
+      "t": 3731.2,
+      "end": 3749.7,
+      "text": "And let's have a look at the more recent GitHub Copilot Chat, which is an interactive chat experience inside of uh Visual Studio Code. It's basically an extension uh that uh you install, and it will give you a chat uh window where you can interact um ask questions also about your code,"
+    },
+    {
+      "t": 3749.7,
+      "end": 3761.2,
+      "text": "and you will also have some inline functionality uh in your editor for interacting. So, before we go there, you know, what is it? As I said, it's a chat interface."
+    },
+    {
+      "t": 3761.2,
+      "end": 3773,
+      "text": "Uh it can answer a wide range of coding-related questions. Um Typical use cases could be, you know, explaining code, proposing code fixes, answering code questions."
+    },
+    {
+      "t": 3773,
+      "end": 3784.3,
+      "text": "In general, also, you could use it to generate uh unit test cases. In In general, again, this is an assistant tool, right? It's not a replacement uh for human programming."
+    },
+    {
+      "t": 3784.3,
+      "end": 3794.8,
+      "text": "And so, you remember to uh review the generated content, especially for AL, because the training material is based on open-source uh code, and for AL, that's fairly limited."
+    },
+    {
+      "t": 3794.8,
+      "end": 3806.6,
+      "text": "What is there, you know, the the the results there uh really vary, but it's just super interesting to try out. You know, give us a feedback on it. I put in a link here about how to start and pricing, etc."
+    },
+    {
+      "t": 3806.6,
+      "end": 3820.5,
+      "text": "But, let's just switch to the Visual Studio Code and show a quick uh demo of this. I am in Visual Studio uh Code. I have a project open. This is one of our AppSource apps, the convert temperature sample app."
+    },
+    {
+      "t": 3820.5,
+      "end": 3831.8,
+      "text": "Uh and I've installed GitHub Copilot, and you see it starts up asking me uh what you uh you know, what it can help with me. And it also suggests down here that I can use a forward slash to see the commands, right?"
+    },
+    {
+      "t": 3831.8,
+      "end": 3848.1,
+      "text": "And it it can offer me help or to write test or to simplify code or fix it or explain, etc. It can also help me create a a workspace. And so, you know, you can you can ask it questions about uh you know, what is a code unit"
+    },
+    {
+      "t": 3848.1,
+      "end": 3862.8,
+      "text": "in AL, and it will try to answer that. So, that's sort of the chat experience of this. Now, another uh option that you can use is that you can uh for example, mark uh some text in source, and you can right-click,"
+    },
+    {
+      "t": 3862.8,
+      "end": 3877.9,
+      "text": "and you can select Copilot, and you can have it try to explain that. And that's kind of interesting if you do not know the source code. Uh you know, in this case, it's it's fairly simple, but it will actually it it's pretty good at explaining"
+    },
+    {
+      "t": 3877.9,
+      "end": 3896.8,
+      "text": "uh source code. Um so, I think I think that's probably the the nicest uh capability right now. You could do the same here and have it generate uh for example, uh doc comments here that you can have then uh be part of the AL doc updates that you saw Esben uh show."
+    },
+    {
+      "t": 3896.8,
+      "end": 3911.4,
+      "text": "Okay. So, that was what I wanted to show. Try it out. Now, give us feedback. Uh again, it might not give correct results, but use it where it gives you some uh some uh some value, and then it will improve over time."
+    },
+    {
+      "t": 3911.4,
+      "end": 3925,
+      "text": "Yeah, and to get started, as I said, I added some links here on billing and how to install and you can go and play with this yourself. So, let's end out with just an update on AppSource and specifically transactability."
+    },
+    {
+      "t": 3925,
+      "end": 3937.4,
+      "text": "You probably heard about that. We have the first wave of functionality with a per user pricing model that support direct sales channel in Microsoft AppSource."
+    },
+    {
+      "t": 3937.4,
+      "end": 3947.8,
+      "text": "So, that's primarily credit card. That is as I'm talking now in public preview, but on October 9th, that will actually go into GA."
+    },
+    {
+      "t": 3947.8,
+      "end": 3965.7,
+      "text": "And then we are working on having CSP support is actually built but we're in the in the in the middle of a private preview with select partners on this, but that is also going to come out also as we have talked about earlier."
+    },
+    {
+      "t": 3965.7,
+      "end": 3976.4,
+      "text": "Um we don't have a session on transact for this release wave because Kurt and myself did one for release wave one and that's more or less up to date."
+    },
+    {
+      "t": 3976.4,
+      "end": 3989.1,
+      "text": "So, you can go into aka.ms/bcpartnerportal and you can find the a recording from the last launch event under events. So, that is the transact capabilities for Business Central apps."
+    },
+    {
+      "t": 3989.1,
+      "end": 4005.1,
+      "text": "As I said, we also have the sample app that you can look at that's interesting for seeing how we created the entitlements that sort of create the mapping between the licenses that you create in Partner Center for your offer and then the permissions that you then grant in the app in Business Central."
+    },
+    {
+      "t": 4005.1,
+      "end": 4015.5,
+      "text": "Um and I also added a link here to an updated docs page on these entitlements that you would have to use to map."
+    },
+    {
+      "t": 4015.5,
+      "end": 4026.6,
+      "text": "Then we have additional developer resources. There's been some collaboration with partners that has led to updating much more detail with examples, etc."
+    },
+    {
+      "t": 4026.6,
+      "end": 4037.5,
+      "text": "The HTTP client, the reporting, the extensibility, um learn topics. We also have a big investment in the performance tool kit that you can go and read off."
+    },
+    {
+      "t": 4037.5,
+      "end": 4055.5,
+      "text": "And then we have the aka.ms/bciicons, which has an overview of icons that you can use as part of developing for for AL or in AL for BC. So, there's a number that that you know, most other sessions make sense, but there's a number of sessions in the launch event that you know,"
+    },
+    {
+      "t": 4055.5,
+      "end": 4069.6,
+      "text": "specifically for developers. We have the what's new in AL go for GitHub about the whole CCD stories. So, Freddy will talk about that. As I said, there's one on performance tool kit that's super important for making you know, testing and making sure that your app performs well."
+    },
+    {
+      "t": 4069.6,
+      "end": 4081,
+      "text": "Related to that and related to troubleshooting is of course what's new in telemetry. Uh then for some of the language features, we have the session around creating customer-centric onboarding experiences."
+    },
+    {
+      "t": 4081,
+      "end": 4095.3,
+      "text": "And last but not least, what is new in Power BI and reporting for developers. And as with any launch session and just in general, if you have questions, you can go to Yammer, you know, join the discussions on our Twitter account,"
+    },
+    {
+      "t": 4095.3,
+      "end": 4107.6,
+      "text": "use the aka.ms/bcall to get one landing page with a lot of links to useful resources. When you have ideas, submit them to us and join our themed BC office hours."
+    },
+    {
+      "t": 4107.6,
+      "end": 4111.8,
+      "text": "Thank you."
+    }
+  ],
+  "markers": [],
+  "word_count": 10530
+}

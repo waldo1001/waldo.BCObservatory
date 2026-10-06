@@ -7,13 +7,39 @@
   "url": "https://www.sauravdhyani.com/2026/09/business-central-version-29-recently.html",
   "published_at": "2026-09-11T05:30:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:29:29.836Z",
+      "path": "vault:posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-9211406592049654259--a1caabf98a.md",
+      "words": 660
+    },
+    "extracted": {
+      "at": "2026-10-06T21:29:36.574Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": 0.005248
+    },
+    "summarized": {
+      "at": "2026-10-06T21:29:36.575Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:29:36.576Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:29:38.655Z",
+      "path": "content/posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-9211406592049654259--a1caabf98a.md"
     }
   },
   "input_hash": "2026-09-11T05:30:00.203Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "732cb002dca6e53df13ed4d21a1b5f2ee1ad064df53cd39c777db502fd66ecb6"
 }

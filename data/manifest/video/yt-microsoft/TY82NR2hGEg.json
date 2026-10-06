@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "What's New: Business Central Developer Tools (2023 release wave 2)",
   "url": "https://www.youtube.com/watch?v=TY82NR2hGEg",
-  "published_at": null,
+  "published_at": "2023-12-28T10:01:41.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:28:56.496Z",
+      "captions": "auto:en-orig",
+      "duration_s": 4112
+    },
+    "captioned": {
+      "at": "2026-10-06T21:29:05.420Z",
+      "path": "data/captions/microsoft/TY82NR2hGEg.vtt",
+      "vtt_sha256": "48866b9500344012e3006719df514c38a3510f5e6dbe75353dcd49fc57c63659",
+      "segments": 323,
+      "words": 10530,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -20,6 +34,13 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 471,
     "duration_s": 4112,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "48866b9500344012e3006719df514c38a3510f5e6dbe75353dcd49fc57c63659"
 }

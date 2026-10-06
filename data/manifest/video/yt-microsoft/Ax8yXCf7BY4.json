@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "What's New: Legislation and Localization (2023 release wave 2)",
   "url": "https://www.youtube.com/watch?v=Ax8yXCf7BY4",
-  "published_at": null,
+  "published_at": "2023-12-22T14:52:32.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:29:14.647Z",
+      "captions": "auto:en-orig",
+      "duration_s": 1304
+    },
+    "captioned": {
+      "at": "2026-10-06T21:29:23.132Z",
+      "path": "data/captions/microsoft/Ax8yXCf7BY4.vtt",
+      "vtt_sha256": "cce55863f9c08a61ff434ea0dda8d90113e502a1107f37a5a92332c12660a4f9",
+      "segments": 71,
+      "words": 3204,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -19,7 +33,14 @@
   "meta": {
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 472,
-    "duration_s": 1305,
-    "via": "reconcile"
-  }
+    "duration_s": 1304,
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "cce55863f9c08a61ff434ea0dda8d90113e502a1107f37a5a92332c12660a4f9"
 }

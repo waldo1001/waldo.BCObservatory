@@ -1,0 +1,93 @@
+{
+  "item_id": "blog/gerardorenteria-blog/15390",
+  "url": "https://gerardorenteria.blog/2026/09/14/new-application-ideas-of-dynamics-365-business-central-2026-aug/",
+  "title": "New Application Ideas of Dynamics 365 Business Central (2026 AUG)",
+  "source": "gerardorenteria-blog",
+  "published_at": "2026-09-14T18:16:22.000Z",
+  "words": 923,
+  "summary": "A collection of feature improvement ideas for Dynamics 365 Business Central submitted by users across multiple areas including agents, development, financial management, inventory, and localization. The post organizes suggestions for enhancements spanning August 2026.",
+  "key_points": [
+    "Multiple feature requests across copilot/agents, data migrations, and development tools",
+    "Financial management improvements include fixed payment tolerance, bonus depreciation, and VAT validation",
+    "Inventory and manufacturing enhancements covering item tracking, safety stock calculations, and variant management",
+    "Development-focused ideas for AL extensions, performance optimization, and new functions",
+    "General system improvements for job queues, workflow approvals, and multi-company security"
+  ],
+  "systems": [
+    "copilot",
+    "finance",
+    "inventory"
+  ],
+  "topics": [
+    "feature requests",
+    "improvement ideas",
+    "user suggestions",
+    "dynamics 365",
+    "business central",
+    "enhancements",
+    "agile feedback"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Incoming Document Attachment"
+    },
+    {
+      "type": "table",
+      "name": "Reservation Entry"
+    },
+    {
+      "type": "other",
+      "name": "Payment Reconciliation Journal"
+    },
+    {
+      "type": "other",
+      "name": "General Journal"
+    },
+    {
+      "type": "other",
+      "name": "Payment Journal"
+    },
+    {
+      "type": "other",
+      "name": "Voucher Pages"
+    },
+    {
+      "type": "other",
+      "name": "Analysis View"
+    }
+  ],
+  "features": [
+    "Payables agent",
+    "Purchase document approval",
+    "Expense receipt duplication prevention",
+    "ENTRA user synchronization",
+    "Item tracking",
+    "Safety stock calculation",
+    "Fixed payment tolerance",
+    "Job queue visibility"
+  ],
+  "versions": [
+    "28.3",
+    "2026-AUG"
+  ],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006609,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "Would any of these ideas improve Business Central?",
+      "why_it_matters": "Frames the purpose of the post as soliciting community feedback on potential system enhancements"
+    },
+    {
+      "text": "Here is a list of some of them.",
+      "why_it_matters": "Introduces the comprehensive collection of user-submitted improvement requests organized by functional area"
+    }
+  ]
+}

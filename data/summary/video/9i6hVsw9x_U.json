@@ -1,0 +1,27 @@
+{
+  "video_id": "9i6hVsw9x_U",
+  "item_id": "video/yt-microsoft/9i6hVsw9x_U",
+  "summary": "Installing preview versions of AppSource apps in Business Central: how publishers set a preview key in Partner Center and share an install URL, and how administrators install, update and monitor previews. Covers sandbox-only installation, the highest-version rule, breaking changes between previews, and telemetry.",
+  "overview": "The video explains how AppSource publishers can make preview versions of their extensions available to selected customers before public release. Publishers specify a preview (hide) key in Partner Center, or get one generated automatically if they do not set one during submission. They then build an installation URL that contains the tenant ID, app ID and preview key.\n\nIt also covers the administrator side. Previews can only be installed on sandbox environments and can be updated to higher previews or to public versions. Operations on extensions are logged to telemetry, including whether an installed app is a preview or public version.",
+  "key_points": [
+    "Publishers set a preview (hide) key in Partner Center; if none is given at marketplace submission, one is generated automatically and the publisher is opted in.",
+    "The install URL contains the tenant ID, app ID and preview key, and customers use it to install a preview.",
+    "Only a preview that is the highest version of the extension can be installed. If a public version is higher, the public version is installed even when the link has a preview key.",
+    "Previews install only on sandbox environments, not production. Sandboxes with preview versions cannot be copied or restored to production.",
+    "Publishers can run simultaneous previews for different offers with different preview keys, even when the offers contain the same apps.",
+    "Breaking changes are allowed between preview versions, but must not be introduced to the latest public version.",
+    "A preview can be updated to a higher preview through a link with the preview key, or to a public version through the link without the key or from the admin center. Installed previews are also promoted automatically to higher public versions according to the app update guidance setting."
+  ],
+  "audience": [
+    "partner",
+    "developer",
+    "administrator"
+  ],
+  "extraction_hash": "b70fe2253826a14068c93676753184c2ca3ecc119f6bfd12daeef331e42b5d42",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0151264
+  }
+}

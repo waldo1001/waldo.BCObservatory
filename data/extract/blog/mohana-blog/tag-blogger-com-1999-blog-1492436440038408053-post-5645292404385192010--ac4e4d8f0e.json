@@ -1,0 +1,72 @@
+{
+  "item_id": "blog/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-5645292404385192010",
+  "url": "http://mohana-dynamicsnav.blogspot.com/2026/09/pinned-comment-lines-for-microsoft.html",
+  "title": "Pinned Comment Lines for Microsoft Dynamics 365 Business Central",
+  "source": "mohana-blog",
+  "published_at": "2026-09-12T05:48:35.000Z",
+  "words": 840,
+  "summary": "An extension that displays pinned comments as on-screen notifications when customers, vendors, or items are accessed, ensuring important notes reach users where decisions are made instead of remaining hidden in the comment sheet.",
+  "key_points": [
+    "Pinned comments show notifications when customer, vendor, or item cards open and when documents referencing them are accessed",
+    "Comments are marked as pinned with a single checkbox; existing comment functionality remains unchanged with no data migration required",
+    "Three new fields added to comments: Pinned checkbox, optional Pin Until date for expiration, and Pin Severity for Information or Warning levels",
+    "Notifications combine multiple pinned comments into one banner and respect standard Business Central notification settings allowing users to disable them",
+    "Automated processes like batch posting and API calls are unaffected as notifications show only to users in the client"
+  ],
+  "systems": [
+    "sales",
+    "purchasing",
+    "inventory"
+  ],
+  "topics": [
+    "comments",
+    "notifications",
+    "customer management",
+    "vendor management",
+    "item management",
+    "extension",
+    "workflow"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Pinned Comment Lines extension"
+    }
+  ],
+  "features": [
+    "pinned comments",
+    "on-screen notifications",
+    "pin severity levels",
+    "pin expiration dates",
+    "notification filtering",
+    "comment consolidation",
+    "customer notifications",
+    "vendor notifications"
+  ],
+  "versions": [
+    "26"
+  ],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006484,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "A pinned comment raises an on-screen notification whenever that customer, vendor, or item comes into play when the card is opened.",
+      "why_it_matters": "Explains the core functionality of making important notes visible at the point of work rather than hidden behind multiple clicks"
+    },
+    {
+      "text": "This is not a replacement notes system: there is no new table, no separate editor, and no data to migrate.",
+      "why_it_matters": "Shows the extension integrates seamlessly with existing comment functionality without requiring data changes or new infrastructure"
+    },
+    {
+      "text": "Notifications are shown only to users working in the client. Batch posting, job queue entries, API calls, and web service integrations are unaffected.",
+      "why_it_matters": "Demonstrates the extension is safe for automated processes and won't interfere with system automation"
+    }
+  ]
+}

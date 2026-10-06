@@ -1,0 +1,293 @@
+{
+  "video_id": "9i6hVsw9x_U",
+  "item_id": "video/yt-microsoft/9i6hVsw9x_U",
+  "title": "AppSource App Previews",
+  "duration_s": 252,
+  "systems": [
+    "integration",
+    "administration",
+    "development"
+  ],
+  "topics": [
+    "appsource",
+    "preview versions",
+    "app installation",
+    "marketplace",
+    "sandbox environments",
+    "partner center",
+    "preview key",
+    "telemetry"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to AppSource Preview Versions",
+      "t_start": 0,
+      "t_end": 19.8
+    },
+    {
+      "title": "Overview for Publishers and Administrators",
+      "t_start": 19.8,
+      "t_end": 34.2
+    },
+    {
+      "title": "Setting Up Preview Keys and Installation URL",
+      "t_start": 34.2,
+      "t_end": 72.6
+    },
+    {
+      "title": "AppSource Publishers - Preview Version Behavior",
+      "t_start": 72.6,
+      "t_end": 112.6
+    },
+    {
+      "title": "Publishing Options and Breaking Changes Policy",
+      "t_start": 112.6,
+      "t_end": 169.2
+    },
+    {
+      "title": "Administrator Capabilities and Environment Restrictions",
+      "t_start": 169.2,
+      "t_end": 210.4
+    },
+    {
+      "title": "Telemetry and Closing Remarks",
+      "t_start": 210.4,
+      "t_end": 252
+    }
+  ],
+  "features": [
+    {
+      "name": "Preview Key for AppSource Apps",
+      "description": "Publishers can specify a hide key (preview key) in Partner Center that customers can use to access preview listings and versions of their AppSource extensions before public release.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 34.2,
+      "t_end": 60.7,
+      "is_demoed": true,
+      "caveats": [
+        "Preview versions must be the highest version of the extension",
+        "If a public version is higher, the public version will be installed instead"
+      ],
+      "tags": [
+        "appsource",
+        "preview",
+        "marketplace",
+        "publisher"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Preview Version Installation URL",
+      "description": "Publishers generate a URL containing the tenant ID, app ID, and preview key that customers can use to install preview versions of extensions on their environments.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 48.8,
+      "t_end": 72.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "appsource",
+        "installation",
+        "preview",
+        "url"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Automatic Preview Key Generation",
+      "description": "If publishers do not specify a preview key during marketplace submission, an automatically generated preview key is created for them, which means they opt into the preview feature automatically.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 112.6,
+      "t_end": 122.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "appsource",
+        "preview",
+        "marketplace",
+        "publisher"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Simultaneous Preview Versions",
+      "description": "Publishers can run simultaneous preview versions for different offers with different preview keys, even if those offers have the same apps, allowing for custom behavior testing.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 122.8,
+      "t_end": 135.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "appsource",
+        "preview",
+        "versioning"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Breaking Changes in Preview Versions",
+      "description": "Publishers are allowed to perform breaking changes between preview versions of their extensions without affecting the latest public version, providing flexibility during testing.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 135.2,
+      "t_end": 152.1,
+      "is_demoed": false,
+      "caveats": [
+        "Breaking changes must not be introduced to the latest public version"
+      ],
+      "tags": [
+        "appsource",
+        "preview",
+        "versioning",
+        "breaking-changes"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Sandbox-Only Preview Installation",
+      "description": "Preview versions can only be installed on sandbox environments, not on production environments. Sandbox environments with preview versions cannot be copied or restored to production.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 169.2,
+      "t_end": 185.8,
+      "is_demoed": false,
+      "caveats": [
+        "Sandbox environments with preview versions cannot be copied or restored to production"
+      ],
+      "tags": [
+        "appsource",
+        "preview",
+        "sandbox",
+        "environment"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Preview to Public Version Updates",
+      "description": "Preview versions can be updated to higher preview versions using an install link with a preview key, or to public versions either via the link without the preview key or directly from admin center.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 185.8,
+      "t_end": 200.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "appsource",
+        "preview",
+        "versioning",
+        "updates"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Automatic Public Version Promotion",
+      "description": "Installed preview versions are automatically updated to higher public versions based on the app update guidance setting when the environment is updated.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 200.4,
+      "t_end": 210.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "appsource",
+        "preview",
+        "automatic-update",
+        "admin-center"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Preview Version Telemetry Logging",
+      "description": "Operations on extensions are now logged to telemetry, tracking whether installed apps are in preview versions or publicly available, allowing administrators to trace the type of apps in their environment.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 210.4,
+      "t_end": 225.1,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "appsource",
+        "telemetry",
+        "logging",
+        "monitoring"
+      ],
+      "system": "administration"
+    }
+  ],
+  "objects": [],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 3.3,
+      "text": "We will explore today the capabilities of installing preview versions of AppSource apps in Business Central and see how you can leverage this to",
+      "why_it_matters": "Establishes the core purpose of the video - demonstrating how to test preview versions before public release.",
+      "check": "exact"
+    },
+    {
+      "t": 90.6,
+      "text": "We are currently only supporting to install preview versions which are the highest version of your extension",
+      "why_it_matters": "Key constraint that limits which preview versions can be installed when multiple versions exist.",
+      "check": "exact"
+    },
+    {
+      "t": 101.2,
+      "text": "If you have public version that is higher, even if you're giving a link with a preview key to your customers, this public version",
+      "why_it_matters": "Clarifies behavior when both preview and public versions exist - public takes precedence.",
+      "check": "exact"
+    },
+    {
+      "t": 135.2,
+      "text": "You will be allowed to perform breaking changes between preview versions of your extensions",
+      "why_it_matters": "Important design decision allowing publishers to make breaking changes without affecting public versions.",
+      "check": "exact"
+    },
+    {
+      "t": 169.2,
+      "text": "previews can only be installed on sandbox environments. You cannot install them on production environments",
+      "why_it_matters": "Critical restriction that protects production environments from preview stability risks.",
+      "check": "exact"
+    },
+    {
+      "t": 200.4,
+      "text": "Installed preview versions are automatically updated to higher public version with app update guidance setting",
+      "why_it_matters": "Describes automatic promotion mechanism that transitions sandboxes from preview to public versions.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 9
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.017266
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "item_id": "blog/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-2501623073598492643",
+  "url": "http://mohana-dynamicsnav.blogspot.com/2026/09/how-i-recreated-extension-upload.html",
+  "title": "How I Recreated the Extension Upload Experience in Business Central",
+  "source": "mohana-blog",
+  "published_at": "2026-09-14T11:33:10.000Z",
+  "words": 583,
+  "summary": "A custom app recreates the deprecated in-product extension upload functionality by calling the Business Central admin center API from AL. It provides a familiar interface for managing extensions with deployment scheduling, schema sync options, and comprehensive logging of all installation operations.",
+  "key_points": [
+    "In-product extension upload and the extensionUpload API are deprecated and will be removed in 2027 release wave 1 (version 30)",
+    "The PTE Extension Management app provides an upload page with deployment scheduling, schema sync control, and uninstall capabilities",
+    "Setup requires creating an Azure app registration, configuring API permissions, and registering the app in Business Central with the Exten. Mgt. - Admin permission set",
+    "The app includes an Installation Status tracker, Scheduled Installs view, and a Deployment Log showing all attempts with user, status, operation ID, and response details"
+  ],
+  "systems": [
+    "administration",
+    "development"
+  ],
+  "topics": [
+    "extension management",
+    "app deployment",
+    "admin center api",
+    "deprecation",
+    "azure integration"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Extension Management"
+    },
+    {
+      "type": "page",
+      "name": "Installed Extensions (Admin Center)"
+    },
+    {
+      "type": "page",
+      "name": "Installation Status"
+    },
+    {
+      "type": "page",
+      "name": "MPA Deploy Setup"
+    },
+    {
+      "type": "page",
+      "name": "Microsoft Entra Applications"
+    }
+  ],
+  "features": [
+    "extension upload",
+    "deployment scheduling",
+    "schema sync",
+    "uninstall with data deletion",
+    "installation status tracking",
+    "scheduled installs",
+    "deployment logging",
+    "admin center api integration"
+  ],
+  "versions": [
+    "30"
+  ],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006252,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "Microsoft has deprecated the in-product upload on the Extension Management page and the Automation API extensionUpload endpoint.",
+      "why_it_matters": "Critical change notification that the current extension upload method will no longer be available after 2027 release wave 1"
+    },
+    {
+      "text": "The supported replacement is the Business Central admin center API so I built an app that calls it from AL.",
+      "why_it_matters": "Explains the recommended path forward and demonstrates how to implement it using an AL-based solution"
+    },
+    {
+      "text": "Deployment Log - every attempt, with user, environment, HTTP status, operation ID, and the raw response body.",
+      "why_it_matters": "Highlights the comprehensive auditing and troubleshooting capability built into the custom solution"
+    }
+  ]
+}

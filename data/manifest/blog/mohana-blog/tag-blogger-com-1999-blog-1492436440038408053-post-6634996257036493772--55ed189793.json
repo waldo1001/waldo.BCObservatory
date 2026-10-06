@@ -7,13 +7,39 @@
   "url": "http://mohana-dynamicsnav.blogspot.com/2026/09/you-cant-see-your-stale-documents-and.html",
   "published_at": "2026-09-11T12:28:34.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:29:19.236Z",
+      "path": "vault:posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-6634996257036493772--55ed189793.md",
+      "words": 888
+    },
+    "extracted": {
+      "at": "2026-10-06T21:29:28.709Z",
+      "prompt": "extract-post@1",
+      "quotes": 0,
+      "trimmed": 0,
+      "cost_usd": 0.007089
+    },
+    "summarized": {
+      "at": "2026-10-06T21:29:28.710Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:29:28.711Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:29:28.714Z",
+      "path": "content/posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-6634996257036493772--55ed189793.md"
     }
   },
   "input_hash": "2026-09-11T12:28:34.071Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "8e5de66b8efca678501c15b4ca1793cc939902b4c89c1838bc8f8c4f52c16530"
 }
