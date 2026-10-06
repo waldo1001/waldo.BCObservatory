@@ -1,0 +1,27 @@
+{
+  "video_id": "4EnvGMwbuBY",
+  "item_id": "video/yt-microsoft/4EnvGMwbuBY",
+  "summary": "Subaccount segments in Dynamics SL compared with dimensions in Business Central after migration. Covers the SL flex key (up to eight segments), choosing global dimensions in the SL company migration configuration tool, two global dimensions plus shortcut dimensions, and analysis on the chart of accounts.",
+  "overview": "The video explains how subaccount segments in Dynamics SL map to dimensions in Business Central. In SL, up to eight segments are defined in the flex key definition screen, each with a position and length, and combined with main accounts to record and report financial data. Companies use them to categorize revenue by region and market segment, and expenses by department and project.\n\nIt then shows the migration. In the SL company migration configuration tool you choose which segments become global dimensions. The rest become shortcut dimensions. The demo covers general ledger setup, dimension values, and the chart of accounts, where balances are broken out by dimension and can be drilled into.",
+  "key_points": [
+    "Dynamics SL allows up to eight subaccount segments, defined in the flex key definition screen with a position and length for each.",
+    "In the SL company migration configuration tool, you select which segments are migrated as global dimensions in Business Central.",
+    "Business Central has only two global dimensions. Remaining segments are migrated as shortcut dimensions.",
+    "General ledger setup shows the configured global dimensions. In the demo, reporting unit and company segment appear as global dimensions after migration.",
+    "Dimension values can be viewed and new ones created from the specific dimension.",
+    "The chart of accounts shows migrated main accounts with balances broken out by dimensions such as reporting unit and company segment, with drill-back for analysis.",
+    "Dimensions categorize and analyze transactions on the chart of accounts instead of creating separate ledger accounts."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "partner"
+  ],
+  "extraction_hash": "69618574773514f23216194d81757a86a64121430db7a5e4cbbad0c6a0d931e1",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0133224
+  }
+}

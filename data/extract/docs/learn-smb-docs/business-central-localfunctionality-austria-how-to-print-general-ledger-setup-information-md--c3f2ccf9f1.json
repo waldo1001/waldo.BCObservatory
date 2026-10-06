@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Austria/how-to-print-general-ledger-setup-information.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Austria/how-to-print-general-ledger-setup-information",
+  "title": "Print general ledger setup information [AT]",
+  "blob": "df3a1519c9146e9a438cee8c8882e4703b8e11dd",
+  "summary": "Print a G/L Setup Information report in the Austrian version to review and verify master data, posting groups, VAT setup, and number series before daily operations.",
+  "systems": [
+    "finance",
+    "administration"
+  ],
+  "topics": [
+    "general ledger",
+    "austria",
+    "setup verification",
+    "reporting",
+    "master data",
+    "gdpdu"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "G/L Setup Information"
+    }
+  ],
+  "features": [
+    "general ledger setup reporting",
+    "posting group verification",
+    "VAT setup review",
+    "number series validation",
+    "Grundsätze zum Datenzugriff und zur Prüfbarkeit digitaler Unterlagen compliance"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.001196,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Austria/vat-reporting",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "45f85e71c3049a5074582bba3ae61751841cbea1",
       "words": 157,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:31:07.229Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.001196
+    },
+    "summarized": {
+      "at": "2026-10-06T19:31:07.248Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:31:07.248Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:31:07.249Z",
+      "page": false
     }
   },
   "input_hash": "45f85e71c3049a5074582bba3ae61751841cbea1",
@@ -40,5 +59,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "45f85e71c3049a5074582bba3ae61751841cbea1"
+  "output_hash": "714597c50dfe1e10fbcc4f84ef66f430310cc86e4106dca91c8a769458858186"
 }

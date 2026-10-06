@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Austria/how-to-print-vendor-payments-list-reports",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "ba4ca06ad7b2209e823f92addd0a4001f1ee2272",
       "words": 221,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:31:07.226Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.001196
+    },
+    "summarized": {
+      "at": "2026-10-06T19:31:07.241Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:31:07.241Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:31:07.242Z",
+      "page": false
     }
   },
   "input_hash": "ba4ca06ad7b2209e823f92addd0a4001f1ee2272",
@@ -39,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ba4ca06ad7b2209e823f92addd0a4001f1ee2272"
+  "output_hash": "79c4ac13fa832e8a7fba545413a328ec2842ada22f5f0ee9d48d5958bda8536d"
 }

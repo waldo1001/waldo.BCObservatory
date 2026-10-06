@@ -1,0 +1,46 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Austria/vat-reporting.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Austria/vat-reporting",
+  "title": "VAT reporting in the Austrian version",
+  "blob": "45f85e71c3049a5074582bba3ae61751841cbea1",
+  "summary": "Generate and report VAT information in the Austrian version through VAT Statement AT and VAT-VIES Declaration XML reports for EU compliance and tax authority submission.",
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "vat reporting",
+    "austria",
+    "vies",
+    "tax compliance",
+    "xml"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "VAT Statement AT"
+    },
+    {
+      "type": "report",
+      "name": "VAT-VIES Declaration XML Report"
+    }
+  ],
+  "features": [
+    "VAT statement generation",
+    "VIES reporting",
+    "XML file export",
+    "Finanz Online Portal integration",
+    "multiple format support"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.001196,
+      "pages_in_call": 8
+    }
+  ]
+}

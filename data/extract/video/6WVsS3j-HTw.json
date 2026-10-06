@@ -1,0 +1,163 @@
+{
+  "video_id": "6WVsS3j-HTw",
+  "item_id": "video/yt-microsoft/6WVsS3j-HTw",
+  "title": "Comparing Entering Customer Cash Receipts in Dynamics SL to Dynamics 365 Business Central",
+  "duration_s": 195,
+  "systems": [
+    "finance",
+    "sales"
+  ],
+  "topics": [
+    "cash receipts",
+    "customer payments",
+    "payment application",
+    "receivables",
+    "posting",
+    "invoice application",
+    "dynamics sl comparison"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction",
+      "t_start": 0,
+      "t_end": 14
+    },
+    {
+      "title": "Cash Receipts in Dynamics SL",
+      "t_start": 14,
+      "t_end": 56.4
+    },
+    {
+      "title": "Cash Receipts Journal in Business Central",
+      "t_start": 56.4,
+      "t_end": 113.4
+    },
+    {
+      "title": "Customer Register Payments Window",
+      "t_start": 113.4,
+      "t_end": 171.6
+    },
+    {
+      "title": "Summary and Resources",
+      "t_start": 171.6,
+      "t_end": 195
+    }
+  ],
+  "features": [
+    {
+      "name": "Cash Receipts Journal",
+      "description": "A journal in Business Central for recording customer payments where users can select a customer, enter payment amount, and apply it to specific invoices through a lookup feature.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 56.4,
+      "t_end": 101,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "cash receipts",
+        "customer payments",
+        "payment application"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Customer Register Payments Window",
+      "description": "An alternative window in Business Central that displays all outstanding invoices for all customers, allowing users to filter by customer and select multiple invoices to post as a lump sum payment.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 113.4,
+      "t_end": 171.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "customer payments",
+        "payment application",
+        "lump sum"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Apply to Documents Lookup",
+      "description": "A lookup feature in the cash receipts journal that allows users to view and select outstanding invoices for a customer, with automatic population of payment amounts.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 87.5,
+      "t_end": 101,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "invoice lookup",
+        "payment application",
+        "automatic defaults"
+      ],
+      "system": "sales"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Cash Receipts Journals",
+      "t": 63
+    },
+    {
+      "type": "other",
+      "name": "Customer Register Payments",
+      "t": 122.6
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 1.5,
+      "text": "we're going to look at how to enter in receivables, cash receipts in Dynamics SL, and compare that to the experience of entering those",
+      "why_it_matters": "Sets up the comparison between two systems for cash receipt processes.",
+      "check": "exact"
+    },
+    {
+      "t": 63,
+      "text": "To create customer payments in Business Central, we'll select the search icon and enter in the cash receipts journals.",
+      "why_it_matters": "Describes the first method for recording customer payments in Business Central.",
+      "check": "exact"
+    },
+    {
+      "t": 113.4,
+      "text": "In addition to cash receipts journals, you can also use the customer register payments window to record customer payments.",
+      "why_it_matters": "Indicates there are multiple approaches available for recording customer payments.",
+      "check": "exact"
+    },
+    {
+      "t": 160.6,
+      "text": "If the customer was sending a payment for more than one invoice, I can select multiple invoices",
+      "why_it_matters": "Shows flexibility for handling payments covering multiple invoices.",
+      "check": "exact"
+    },
+    {
+      "t": 171.6,
+      "text": "Business Central provides a simple and easy way to record customer payments, allowing for a more streamlined cash receipt process.",
+      "why_it_matters": "Characterizes the overall design philosophy and benefits of the Business Central payment recording approach.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 5,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 3
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.01066
+    }
+  ]
+}

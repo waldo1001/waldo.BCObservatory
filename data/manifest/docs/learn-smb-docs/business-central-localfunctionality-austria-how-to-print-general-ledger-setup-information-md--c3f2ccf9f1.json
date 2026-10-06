@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Austria/how-to-print-general-ledger-setup-information",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "df3a1519c9146e9a438cee8c8882e4703b8e11dd",
       "words": 291,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:31:07.224Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.001196
+    },
+    "summarized": {
+      "at": "2026-10-06T19:31:07.234Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:31:07.235Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:31:07.236Z",
+      "page": false
     }
   },
   "input_hash": "df3a1519c9146e9a438cee8c8882e4703b8e11dd",
@@ -39,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "df3a1519c9146e9a438cee8c8882e4703b8e11dd"
+  "output_hash": "27d6f657474d5d12d2e8b7b7094b5ae3569ca9aea19f2eda19393f53efff191d"
 }

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Austria/how-to-issue-delivery-reminders",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "d2832d84a2f9160dbdcb6d96472a920fece1f10a",
       "words": 27,
       "forms": 5
+    },
+    "extracted": {
+      "at": "2026-10-06T19:31:07.223Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.001196
+    },
+    "summarized": {
+      "at": "2026-10-06T19:31:07.231Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:31:07.232Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:31:07.233Z",
+      "page": false
     }
   },
   "input_hash": "d2832d84a2f9160dbdcb6d96472a920fece1f10a",
@@ -66,5 +85,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d2832d84a2f9160dbdcb6d96472a920fece1f10a"
+  "output_hash": "937724faf311c1436c4d771f83af8a3d1bdccb695700462d98f98040cbf6eaaf"
 }

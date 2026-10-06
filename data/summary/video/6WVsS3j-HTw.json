@@ -1,0 +1,27 @@
+{
+  "video_id": "6WVsS3j-HTw",
+  "item_id": "video/yt-microsoft/6WVsS3j-HTw",
+  "summary": "Entering customer cash receipts in Dynamics SL compared with Business Central, which offers two ways to record customer payments: the Cash Receipts Journal and the Customer Register Payments window. Covers applying payments to invoices and posting. Aimed at users moving from Dynamics SL.",
+  "overview": "The 3-minute video, published 2024-07-26, first shows how receivables cash receipts are entered in Dynamics SL. It then shows the same task in Dynamics 365 Business Central.\n\nIn Business Central, the presenter opens the cash receipts journals through the search icon, selects a customer, enters the payment amount and applies it to invoices through a lookup. The video then shows the Customer Register Payments window, which lists outstanding invoices for all customers. Users can filter by customer and select several invoices to post as one lump sum payment.",
+  "key_points": [
+    "To create customer payments in Business Central, use the search icon and enter cash receipts journals.",
+    "In the Cash Receipts Journal you select a customer, enter the payment amount and apply it to specific invoices.",
+    "The Apply to Documents lookup shows a customer's outstanding invoices and populates payment amounts automatically.",
+    "The Customer Register Payments window is an alternative way to record customer payments.",
+    "That window shows outstanding invoices for all customers and can be filtered by customer.",
+    "If a customer pays several invoices at once, you can select multiple invoices and post them as a lump sum payment.",
+    "The video compares the Business Central experience with entering receivables cash receipts in Dynamics SL."
+  ],
+  "audience": [
+    "functional consultant",
+    "end user",
+    "decision maker"
+  ],
+  "extraction_hash": "ee030050d0693113297f365f76811b499bd0cbacdbdf2c8846fe3b6c0a96280c",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0112024
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Austria/how-to-print-vendor-payments-list-reports.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Austria/how-to-print-vendor-payments-list-reports",
+  "title": "How to Print Vendor Payments List Reports [AT]",
+  "blob": "ba4ca06ad7b2209e823f92addd0a4001f1ee2272",
+  "summary": "Print the Vendor Payments List report in the Austrian version to view vendor payments sorted by vendor or chronologically with various layout options including standard, foreign currency amounts, and posting information.",
+  "systems": [
+    "purchasing"
+  ],
+  "topics": [
+    "vendor payments",
+    "austria",
+    "reporting",
+    "payment processing"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Vendor Payments List"
+    }
+  ],
+  "features": [
+    "vendor payment reporting",
+    "chronological sorting",
+    "vendor grouping",
+    "foreign currency amounts",
+    "posting information display"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.001196,
+      "pages_in_call": 8
+    }
+  ]
+}
