@@ -1,0 +1,669 @@
+{
+  "video_id": "kbRTIWH-nio",
+  "item_id": "video/yt-microsoft/kbRTIWH-nio",
+  "title": "What's New: Introducing the Business Foundation and the No. Series Module (2024 release wave 1)",
+  "duration_s": 2043,
+  "systems": [
+    "platform",
+    "development",
+    "finance"
+  ],
+  "topics": [
+    "business foundation",
+    "modules",
+    "number series",
+    "componentization",
+    "extensibility",
+    "system application",
+    "application redirection",
+    "table movement",
+    "open source",
+    "api design",
+    "batch processing",
+    "backwards compatibility"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Background",
+      "t_start": 0,
+      "t_end": 110.8
+    },
+    {
+      "title": "The Shift from Customization to Extensibility",
+      "t_start": 110.8,
+      "t_end": 184.8
+    },
+    {
+      "title": "Challenges with the Extensibility Model",
+      "t_start": 184.8,
+      "t_end": 318.6
+    },
+    {
+      "title": "Introduction to Modules and System Application",
+      "t_start": 318.6,
+      "t_end": 446.5
+    },
+    {
+      "title": "Advantages of Modules and SOLID Principles",
+      "t_start": 446.5,
+      "t_end": 560.7
+    },
+    {
+      "title": "Breaking Changes and Technical Solutions",
+      "t_start": 560.7,
+      "t_end": 703.4
+    },
+    {
+      "title": "Business Foundation Architecture and Design",
+      "t_start": 703.4,
+      "t_end": 828.3
+    },
+    {
+      "title": "Open Source Development and Number Series Selection",
+      "t_start": 828.3,
+      "t_end": 949.4
+    },
+    {
+      "title": "Number Series Page Enhancements and UI Improvements",
+      "t_start": 949.4,
+      "t_end": 1050.9
+    },
+    {
+      "title": "Actionable Error Messages and Workflow Improvements",
+      "t_start": 1050.9,
+      "t_end": 1151.9
+    },
+    {
+      "title": "New Number Series API and Batch Processing",
+      "t_start": 1151.9,
+      "t_end": 1471.9
+    },
+    {
+      "title": "Custom Implementations, Extension Interface, and Backwards Compatibility",
+      "t_start": 1471.9,
+      "t_end": 1669.2
+    },
+    {
+      "title": "API Usage Patterns, Batch Processing Simplification, and Code Examples",
+      "t_start": 1669.2,
+      "t_end": 1935.9
+    },
+    {
+      "title": "Copilot Support, Componentization, and Closing Remarks",
+      "t_start": 1935.9,
+      "t_end": 2043
+    }
+  ],
+  "features": [
+    {
+      "name": "Business Foundation",
+      "description": "A new horizontal layer positioned between the base application and system application containing functionally coherent modules for general ERP concepts. Developed with zero depth and includes capabilities like number series management, address management, currency management, and dimension management.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 746.4,
+      "t_end": 868.8,
+      "is_demoed": false,
+      "caveats": [
+        "No localizations planned for business foundation modules; localizations will be built as extensions",
+        "Business foundation is just beginning with number series module as the first example"
+      ],
+      "tags": [
+        "architecture",
+        "modularization",
+        "horizontal layer",
+        "erp concepts"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Number Series Module",
+      "description": "The first module launched within the business foundation. Chosen because it has high uptake across the product, is not too big or too small, and serves as a starting point for the modularization effort. Developed as true open source with 246 community conversations and 250 commits.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 788.2,
+      "t_end": 949.4,
+      "is_demoed": true,
+      "caveats": [
+        "This is the first module in the business foundation; others are planned but not yet released"
+      ],
+      "tags": [
+        "number series",
+        "first module",
+        "high uptake",
+        "general erp",
+        "open source",
+        "github"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Non-breaking Table Movement Between Apps",
+      "description": "A new capability introduced in 2024 wave 1 that allows tables to be moved between apps without requiring upgrade code or causing dependent apps to break. This was a prerequisite for the business foundation modularization effort.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 703.4,
+      "t_end": 746.4,
+      "is_demoed": false,
+      "caveats": [
+        "This only applies to table movement; other breaking changes may still occur"
+      ],
+      "tags": [
+        "table movement",
+        "non-breaking change",
+        "technical capability"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Application Redirection",
+      "description": "A technical solution that groups logical layers under an application umbrella, allowing objects to move between apps within the application without requiring dependent apps to update their dependencies.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 601.6,
+      "t_end": 642,
+      "is_demoed": false,
+      "caveats": [
+        "This was introduced in earlier releases before 2024 wave 1"
+      ],
+      "tags": [
+        "dependency management",
+        "technical solution",
+        "breaking changes"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Deprecation Scheme",
+      "description": "A formal process for communicating when features or APIs will be removed or changed, allowing partners to plan their updates accordingly.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 642,
+      "t_end": 703.4,
+      "is_demoed": false,
+      "caveats": [
+        "Deprecation is treated as a last resort due to the work it imposes on partners"
+      ],
+      "tags": [
+        "breaking changes",
+        "api management",
+        "communication"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "System Application",
+      "description": "A logical layer introduced several years before 2024 wave 1 as a collection of small modules combining into a new layer. It addressed the original monolithic architecture of Dynamics NAV by breaking functionality into smaller, functionally coherent modules.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 318.6,
+      "t_end": 446.5,
+      "is_demoed": false,
+      "caveats": [
+        "System application itself introduced breaking changes when first released",
+        "The system application model is being refined with new capabilities like the business foundation"
+      ],
+      "tags": [
+        "modularization",
+        "architecture",
+        "logical layer"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Module Architecture and Design Pattern",
+      "description": "A design pattern for building coherent, encapsulated features with stable APIs. Modules separate concerns, hide implementation details via access modifiers, expose stable facades with XML documentation, and support SOLID principles like single responsibility and open-closed principle.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 355.6,
+      "t_end": 538.6,
+      "is_demoed": false,
+      "caveats": [
+        "Individual versioning and effective upgrading for modules are prepared for but not yet implemented"
+      ],
+      "tags": [
+        "architecture pattern",
+        "encapsulation",
+        "stable apis",
+        "solid principles"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Number Series Page UI Enhancements",
+      "description": "New features on the Number Series page including open lines fact box, relationship fact box, promoted actions, and ability to see expiring number series that have no open lines or are in warning state.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 949.4,
+      "t_end": 1050.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "number series",
+        "ui improvements",
+        "fact boxes"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Actionable Error Messages for Number Series",
+      "description": "New API provides actionable error messages that allow users to directly navigate to and fix number series issues without leaving their current context. Demonstrated with customer creation when number series has reached its limit.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1030.9,
+      "t_end": 1151.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "error handling",
+        "user experience",
+        "actionable messages"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "New Number Series API (Codeunit-based)",
+      "description": "Redesigned API split into two main codeunits: Number Series codeunit for standard operations (get next number, peek next number, get last number used) and Number Series Batch codeunit for high-performance batch operations. Replaces confusing legacy implementation with multiple similar function names.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1151.9,
+      "t_end": 1471.9,
+      "is_demoed": true,
+      "caveats": [
+        "Old legacy API remains functional until version 27 for backwards compatibility"
+      ],
+      "tags": [
+        "api redesign",
+        "codeunits",
+        "batch processing"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Number Series Implementation Enum and Interface",
+      "description": "Extensibility mechanism allowing custom number series implementations. Developers can add custom implementations via Number Series Implementation enum that conforms to a simple interface with peek next number, get next number, get last number used, and gaps indication methods.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1471.9,
+      "t_end": 1573.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "extensibility",
+        "enum",
+        "custom implementations"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Backwards Compatibility for Number Series API",
+      "description": "Old legacy number series code has been obsoleted with version 24 and will be removed in version 27. No breaking changes; old functionality remains operational during the transition period. Microsoft has already converted all internal code to use the new API.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1573.5,
+      "t_end": 1669.2,
+      "is_demoed": false,
+      "caveats": [
+        "Deprecated - will be removed in version 27"
+      ],
+      "tags": [
+        "backwards compatibility",
+        "deprecation",
+        "migration"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Simulate Get Next Number",
+      "description": "Functionality to simulate the next number in a sequence without modifying the state, useful for calculating what the next document number should be.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1801,
+      "t_end": 1842.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "number series",
+        "api",
+        "document numbering"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Number Series Batch Processing Simplification",
+      "description": "Simplified batch processing that eliminates the previous limitation of 100 number series in cache and handles line changes and date changes automatically.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1669.2,
+      "t_end": 1729.7,
+      "is_demoed": true,
+      "caveats": [
+        "Previous implementation had 100 number series limitation"
+      ],
+      "tags": [
+        "number series",
+        "batch processing",
+        "performance",
+        "simplification"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Copilot Support for Number Series Module",
+      "description": "Community-contributed copilot support for the new number series module being developed by MVP Dimitri Catson, with pull requests and discussion available on GitHub issue 659.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1957.3,
+      "t_end": 1997.3,
+      "is_demoed": false,
+      "caveats": [
+        "Not yet implemented",
+        "Community contribution in progress"
+      ],
+      "tags": [
+        "copilot",
+        "ai",
+        "number series",
+        "community"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Componentization of Base Application",
+      "description": "Ongoing effort to break down the base application into modular components, with future modules to be determined and developed on GitHub.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1997.3,
+      "t_end": 2008.8,
+      "is_demoed": false,
+      "caveats": [
+        "Future modules not yet determined",
+        "Development ongoing on GitHub"
+      ],
+      "tags": [
+        "componentization",
+        "modular architecture",
+        "github development"
+      ],
+      "system": "platform"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "System Application",
+      "t": 339
+    },
+    {
+      "type": "other",
+      "name": "Business Foundation",
+      "t": 746.4
+    },
+    {
+      "type": "other",
+      "name": "Number Series Module",
+      "t": 808.3
+    },
+    {
+      "type": "table",
+      "name": "tables (general reference)",
+      "t": 715.8
+    },
+    {
+      "type": "table",
+      "name": "Number Series",
+      "t": 949.4
+    },
+    {
+      "type": "page",
+      "name": "Number Series",
+      "t": 949.4
+    },
+    {
+      "type": "codeunit",
+      "name": "Number Series",
+      "t": 1293
+    },
+    {
+      "type": "codeunit",
+      "name": "Number Series Batch",
+      "t": 1293
+    },
+    {
+      "type": "enum",
+      "name": "Number Series Implementation",
+      "t": 1491.9
+    },
+    {
+      "type": "interface",
+      "name": "Number Series Implementation",
+      "t": 1512.4
+    },
+    {
+      "type": "codeunit",
+      "name": "Number Series Management",
+      "t": 1172
+    },
+    {
+      "type": "interface",
+      "name": "Number Series Batch",
+      "t": 1709.3
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Jesper Schulz V",
+      "confidence": "high"
+    },
+    {
+      "name": "Andreas",
+      "confidence": "high"
+    },
+    {
+      "name": "Yesa",
+      "confidence": "medium"
+    },
+    {
+      "name": "Dimitri Catson",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 121.3,
+      "text": "local versions were all built as modifications to our W1 the so-called worldwide version",
+      "why_it_matters": "Explains the starting point - the old monolithic architecture where localization was done through modifications rather than modular extensions",
+      "check": "exact"
+    },
+    {
+      "t": 205,
+      "text": "an app uh but you don't really have access to the right places where you can hook into the base",
+      "why_it_matters": "Identifies a core challenge in the extensibility model that drove the need for a new modular architecture",
+      "check": "fuzzy"
+    },
+    {
+      "t": 355.6,
+      "text": "module is just a set of objects the difference to other sets of objects though is that these need to be functionally coherent",
+      "why_it_matters": "Defines what makes a module different from a regular set of objects - functional coherence is the key property",
+      "check": "exact"
+    },
+    {
+      "t": 426.4,
+      "text": "we provide you with a facade which is a stable API that is not going to change",
+      "why_it_matters": "Clarifies that modules provide stable, documented APIs through facades rather than requiring access to internal implementation",
+      "check": "exact"
+    },
+    {
+      "t": 715.8,
+      "text": "with 2024 wave 1 um that's a thing of the past at least in this version Microsoft is able to move tables between apps",
+      "why_it_matters": "Announces a major technical capability that enables the business foundation modularization without breaking dependent apps",
+      "check": "exact"
+    },
+    {
+      "t": 746.4,
+      "text": "the business Foundation which squeezes neatly in between the base application and the system application",
+      "why_it_matters": "Describes the architectural positioning of the business foundation as a new horizontal layer",
+      "check": "exact"
+    },
+    {
+      "t": 767.5,
+      "text": "it is a horizontal Erp related functionality which is used by all on none of the application domains",
+      "why_it_matters": "Clarifies that business foundation contains general ERP concepts used across all domains",
+      "check": "snapped"
+    },
+    {
+      "t": 828.3,
+      "text": "everything that you see here today was developed as true open source it's the first module that we developed as true open source",
+      "why_it_matters": "Announces a significant shift to open source development model for this module, representing a new approach to feature development",
+      "check": "exact"
+    },
+    {
+      "t": 888.9,
+      "text": "number Series has a high uptake around the product so that means it's useful both for us and for you as partners",
+      "why_it_matters": "Explains why Number Series was selected as the first Business Foundation module.",
+      "check": "exact"
+    },
+    {
+      "t": 1030.9,
+      "text": "we've actually in the new API that we've introduced all the error messages are now actionable error messages",
+      "why_it_matters": "Highlights a key design improvement in the new Number Series API that improves developer and user experience.",
+      "check": "exact"
+    },
+    {
+      "t": 1192.1,
+      "text": "we have the function get next number get next number three to get next number we have get next number one we have get",
+      "why_it_matters": "Illustrates the confusing proliferation of similar function names in the legacy API that motivated the redesign.",
+      "check": "exact"
+    },
+    {
+      "t": 1273,
+      "text": "now instead we have split this into two code units that we want to use so we have the number series and number series",
+      "why_it_matters": "Describes the core architectural solution to replace the confusing legacy API with clear, focused codeunits.",
+      "check": "exact"
+    },
+    {
+      "t": 1593.7,
+      "text": "the old Legacy code has been obsoleted with version 24 and will be removed with version 27",
+      "why_it_matters": "Establishes the deprecation timeline for the old API, giving partners time to migrate.",
+      "check": "exact"
+    },
+    {
+      "t": 1669.2,
+      "text": "we have this number series management which is an array of 100 uh yeah number series managements",
+      "why_it_matters": "Explains the previous limitation that prompted the new simplified API design.",
+      "check": "exact"
+    },
+    {
+      "t": 1709.3,
+      "text": "all you need to do is create a number series Batch get the next number and save State at the end",
+      "why_it_matters": "Shows how the new API simplifies the developer experience compared to the legacy approach.",
+      "check": "exact"
+    },
+    {
+      "t": 1902.3,
+      "text": "do get next number series and try get next number they are going away because they make no sense",
+      "why_it_matters": "Direct call to action emphasizing that old methods are being deprecated and developers need to migrate immediately.",
+      "check": "exact"
+    },
+    {
+      "t": 1957.3,
+      "text": "we didn't get around to do the co-pilot support quite yet um but our MVP Demitri catson picked up on that",
+      "why_it_matters": "Indicates copilot support is not yet available but is being developed by the community.",
+      "check": "exact"
+    },
+    {
+      "t": 1977.3,
+      "text": "you can see the entire discussion going on and very very soon theit is going to post this first pull request",
+      "why_it_matters": "Shows the open development model and invites community participation in the copilot implementation.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 497.9,
+      "kind": "other",
+      "text": "at some point they also will allow for individual versioning and effective upgrading we're not there yet but at least they are prepared for that"
+    },
+    {
+      "t": 682.6,
+      "kind": "other",
+      "text": "deprecation scheme where we're going to tell inversion this and this and that this is going away and this is coming"
+    },
+    {
+      "t": 1593.7,
+      "kind": "not-in-this-release",
+      "text": "old Legacy code has been obsoleted with version 24 and will be removed with version 27"
+    },
+    {
+      "t": 1593.7,
+      "kind": "subject-to-change",
+      "text": "the old Legacy code has been obsoleted with version 24 and will be removed with version 27"
+    },
+    {
+      "t": 1957.3,
+      "kind": "coming-later",
+      "text": "we didn't get around to do the co-pilot support quite yet"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 18,
+    "quotes_dropped": 1,
+    "evidence_verified": 0,
+    "evidence_unverified": 16
+  },
+  "windows": 3,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.028425
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.025152
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.021189
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.034718700000000005
+    }
+  ]
+}

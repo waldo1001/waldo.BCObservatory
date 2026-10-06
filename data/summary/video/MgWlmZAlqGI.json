@@ -1,0 +1,27 @@
+{
+  "video_id": "MgWlmZAlqGI",
+  "item_id": "video/yt-microsoft/MgWlmZAlqGI",
+  "summary": "Time sheet entry and approval changes in Business Central 2024 release wave 1: self-service tiles, context-aware submit and reopen, dynamic columns, conditional formatting, F8 copy, extended copy, details factbox, time submission policy, and manager approval changes for projects.",
+  "overview": "The video covers what changed in time sheets in 2024 release wave 1, for both employees entering time and managers approving it. On the entry side it shows a new self-service tile that opens the current time sheet by work date, context-aware submit and reopen actions, a status column that turns red and italic when data is missing, and columns that show or hide based on company setup.\n\nIt also covers copying values with keyboard shortcuts and copying lines from open or submitted time sheets, plus a details factbox on time sheet lines. A time submission policy controls how empty lines are handled on submission. For managers, the manager time sheet by projects page shows more detail, and approval now applies only to selected time sheets by default. Both workflows are demonstrated.",
+  "key_points": [
+    "A new self-service tile opens the current time sheet based on the work date, and a separate tile covers new time sheets with no lines started.",
+    "Submit and reopen actions are context-aware, which avoids errors being thrown when they should not be.",
+    "The status column on time sheet lines shows red and italic when required data is missing.",
+    "Project, project task, cause of absence and chargeable columns show or hide depending on the company's setup.",
+    "F8 copies values from the previous line, and lines can be copied from open or submitted time sheets, with specific lines selectable.",
+    "The time submission policy sets whether empty lines are skipped on submission or kept with warnings, and the existing behavior stays available.",
+    "In manager time sheets by projects, resource number and name, weekend columns, line totals and header and line comments are shown, and some fields can be added via personalization."
+  ],
+  "audience": [
+    "functional consultant",
+    "end user",
+    "administrator"
+  ],
+  "extraction_hash": "1a319fee72ba353c15fba608b14da90907a5ac549758e1edb597695b80d10837",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0162564
+  }
+}

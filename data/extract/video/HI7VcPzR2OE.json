@@ -1,0 +1,305 @@
+{
+  "video_id": "HI7VcPzR2OE",
+  "item_id": "video/yt-microsoft/HI7VcPzR2OE",
+  "title": "What's New: Financial Management - Overview (2024 release wave 1)",
+  "duration_s": 713,
+  "systems": [
+    "finance",
+    "reporting",
+    "sales"
+  ],
+  "topics": [
+    "gl revaluation",
+    "currency posting",
+    "excel reports",
+    "consolidation",
+    "collection management",
+    "recurring journals",
+    "employee ledger",
+    "accounts receivable",
+    "reminders automation",
+    "financial reports"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Overview of Financial Management Improvements",
+      "t_start": 0,
+      "t_end": 80.5
+    },
+    {
+      "title": "GL Revaluation and Currency Code Features",
+      "t_start": 80.5,
+      "t_end": 202.6
+    },
+    {
+      "title": "New Excel Reports for Financial Analysis",
+      "t_start": 202.6,
+      "t_end": 332
+    },
+    {
+      "title": "Consolidation and Currency Management",
+      "t_start": 332,
+      "t_end": 407.9
+    },
+    {
+      "title": "Collection Management and Accounts Receivable",
+      "t_start": 407.9,
+      "t_end": 521.4
+    },
+    {
+      "title": "Recurring Journals with Zero Lines",
+      "t_start": 521.4,
+      "t_end": 593.5
+    },
+    {
+      "title": "Employee Ledger Currency Support",
+      "t_start": 593.5,
+      "t_end": 675
+    },
+    {
+      "title": "Conclusion and Call to Action",
+      "t_start": 675,
+      "t_end": 713
+    }
+  ],
+  "features": [
+    {
+      "name": "GL Revaluation and Currency Code on GL Entries",
+      "description": "Allows specification of accepted currencies for each GL account. Users can restrict currencies to local only, allow multiple currencies, or allow any currency. Includes an adjustment badge job to create revaluation entries that can be reviewed before posting.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 100.7,
+      "t_end": 202.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "gl accounts",
+        "currency",
+        "revaluation",
+        "journal posting"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Excel Reports for Financial Data",
+      "description": "Eight new Excel reports in the first batch including trial balances, accounts receivable, accounts payable, and customer/vendor lists. Reports are aggregated with multiple report pages and optional pivot tables. Total roadmap includes 25-30 reports.",
+      "status": "preview",
+      "status_evidence_t": 202.6,
+      "status_evidence_quote": "suffixed with a preview tag because we expect to make changes to them and small improvements",
+      "status_evidence_verified": true,
+      "t_start": 202.6,
+      "t_end": 332,
+      "is_demoed": true,
+      "caveats": [
+        "aggregated data, not full database copy",
+        "detailed data will come in minor releases",
+        "restrictions and limitations on data volume"
+      ],
+      "tags": [
+        "excel",
+        "reports",
+        "aggregated",
+        "financial analysis"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Consolidation Currency Management",
+      "description": "Improved consolidation process with ability to look up and manage currency exchange rates during consolidation runs. Users can recover from mistakes by looking up previous runs and picking rates from prior consolidations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 372.4,
+      "t_end": 407.9,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "consolidation",
+        "currency",
+        "exchange rates"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Collection Management Role Center",
+      "description": "New role center for accounts receivable administrator with navigation and cues for tracking outstanding invoices, balances, and collection activities. Part of broader effort to improve collection and accounts receivable processes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 407.9,
+      "t_end": 521.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "role center",
+        "accounts receivable",
+        "collection",
+        "navigation"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Reminder Process Improvements",
+      "description": "Enhanced reminder setup and sending process with ability to tailor email text for different reminder levels. Added automation for creating and sending reminders to reduce manual effort.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 407.9,
+      "t_end": 521.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "reminders",
+        "automation",
+        "email",
+        "collection"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Zero Lines in Recurring Journals",
+      "description": "Ability to keep zero-amount lines in general recurring journals when using the fixed method. Previously blocked as an error, this now allows users to maintain recurring lines for payroll, accruals, and revenue recognition even when zero-amount in a given period.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 521.4,
+      "t_end": 593.5,
+      "is_demoed": false,
+      "caveats": [
+        "only applies to fixed method recurring journals",
+        "zero lines are ignored during posting, not posted as zero"
+      ],
+      "tags": [
+        "recurring journals",
+        "journal posting",
+        "zero lines"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Currency Posting to Employee Ledger",
+      "description": "Enables currency selection and posting to employee ledgers, similar to customer and vendor functionality. Allows tracking of employee transactions in foreign currencies and adjustment of balances if needed. Shows currency information in general ledger.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 593.5,
+      "t_end": 675,
+      "is_demoed": false,
+      "caveats": [
+        "feature was introduced a few years back with local currency only"
+      ],
+      "tags": [
+        "employee ledger",
+        "currency",
+        "reimbursement"
+      ],
+      "system": "finance"
+    }
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "GL Account Card",
+      "t": 100.7
+    },
+    {
+      "type": "table",
+      "name": "GL Account",
+      "t": 162.1
+    },
+    {
+      "type": "page",
+      "name": "Chart of Accounts",
+      "t": 182.4
+    },
+    {
+      "type": "page",
+      "name": "General Journal",
+      "t": 521.4
+    },
+    {
+      "type": "page",
+      "name": "Recurring Journals",
+      "t": 533.5
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Brian Neilson",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 100.7,
+      "text": "in the gl account card you will now be able to specify when you're posting a journal or a",
+      "why_it_matters": "Describes the core new functionality for GL revaluation and currency control at the account level, addressing a top community request.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 202.6,
+      "text": "suffixed with a preview tag because we expect to make changes to them and small improvements um in this first release there",
+      "why_it_matters": "Sets expectations that the new Excel reports are in preview status and subject to change, establishing their maturity level.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 223.4,
+      "text": "there are eight uh I know that we are working on the next 12 uh reports and the complete list is somewhere between 25",
+      "why_it_matters": "Provides the roadmap for Excel reports, indicating significant expansion beyond the initial 8 reports in this release.",
+      "check": "exact"
+    },
+    {
+      "t": 261.1,
+      "text": "Excel reports uh can manage a lot of data but there are still some restriction and limitations so we have uh in in the",
+      "why_it_matters": "Explains design decisions around what data is included in the Excel reports, acknowledging technical constraints.",
+      "check": "exact"
+    },
+    {
+      "t": 500.5,
+      "text": "we added automation for reminders and that will help you create issue and sending out reminders so you basically don't have to do anything",
+      "why_it_matters": "Highlights automation as a key improvement to reduce manual effort in the collection management process.",
+      "check": "exact"
+    },
+    {
+      "t": 573.5,
+      "text": "now when you post we will just keep the line it will it won't be posted as a zero line it will",
+      "why_it_matters": "Clarifies the behavior of zero lines in recurring journals - they are kept but not posted, distinguishing from the balance method.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 674.8,
+      "text": "the GL revaluation or currency code on GL uh is from BC ideas the uh currency code uh with employee ledgers is also from",
+      "why_it_matters": "Demonstrates that features are driven by community feedback from BC ideas, validating the importance of user input.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 202.6,
+      "kind": "preview",
+      "text": "they are suffixed with a preview tag because we expect to make changes to them and small improvements"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 1,
+    "evidence_unverified": 6
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.02478
+    }
+  ]
+}

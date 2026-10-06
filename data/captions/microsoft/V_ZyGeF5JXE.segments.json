@@ -1,0 +1,313 @@
+{
+  "video_id": "V_ZyGeF5JXE",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 19.1,
+      "end": 30.8,
+      "text": "welcome my name is BU Koto and my name is Monica alja and together we work at Microsoft engineering team that develops business Central here in Copenhagen Denmark"
+    },
+    {
+      "t": 30.8,
+      "end": 50.8,
+      "text": "today in this session we'll talk about improvements in our integration with Power Platform business Central is well connected with Power Platform already and we will talk about power automate new features that we uh delivered this wave we'll talk about power pages and few other areas as well several tools"
+    },
+    {
+      "t": 50.8,
+      "end": 70.8,
+      "text": "uh are part of Power Platform starting with co-pilot studio power apps power automate powerbi power pages and several uh supporting Technologies data verse AI Builder and connectors connectors are very important because those allow you to connect to different systems yes exactly and we have more than"
+    },
+    {
+      "t": 70.8,
+      "end": 91.4,
+      "text": "thousand connectors built in already and of course those include the business Central connectors as well we'll start with our integration with power automate and the improvements that we made in that area business Central is already uh well or nicely connected with power automate it allows you to build automations"
+    },
+    {
+      "t": 91.4,
+      "end": 111.8,
+      "text": "and and and different workflows uh in different categories approval flows automated flows and and even custom actions based on power automate and we have a nice um single entry point single UI to start building flows uh with power automate starting from with within business Central"
+    },
+    {
+      "t": 111.8,
+      "end": 131.8,
+      "text": "you can work on approval uh workflows uh so you think about a scenario where you approve documents using teams or Outlook uh you can work on automated flows that run in the background for instance process processing some emails processing uh invoices coming from different third- party systems and you can think"
+    },
+    {
+      "t": 131.8,
+      "end": 150.6,
+      "text": "about building an action that is based on a flow for instance sending an an update to a customer using email or or some other means that's right and from this wave onwards we don't need feature management this is the default view that we will get so the single entry point will always be available"
+    },
+    {
+      "t": 150.6,
+      "end": 171.1,
+      "text": "yes and whatever you choose uh whichever option you choose you will end up uh looking at different templates and the templates that we have in our our catalog and in in that Spirit we have improved plenty of of areas in in our experience in our templates and the first thing that you will notice is that we have right now improved the"
+    },
+    {
+      "t": 171.1,
+      "end": 191.2,
+      "text": "approval uh workflows uh and that means we have right now added an ability for power automate to Access Data from business Central for approvers and pull it into the flow uh you will see that in a demo in a moment we have also improved the workflows"
+    },
+    {
+      "t": 191.2,
+      "end": 211.2,
+      "text": "and the templates uh based on environment and Company so this is right now sent from business Central to power automate and I think the best way is to see it in a demo yes so let's see what improvements we have made with approval templates so let's assume the scenario where we want to do an approval setup for"
+    },
+    {
+      "t": 211.2,
+      "end": 232.9,
+      "text": "sales orders so let's just go ahead to the sales order card page and here under the automate menu we can see the single entry point that BL just mentioned and this will be the default behavior all of these will open the gallery of templates under the appropriate category so let's just go ahead and create the approval"
+    },
+    {
+      "t": 232.9,
+      "end": 248.2,
+      "text": "flow and now we can see a list of templates that are available for sales order approval I'll just go ahead and select one of them and you can see that it is figuring out all the connections that are needed for this"
+    },
+    {
+      "t": 248.2,
+      "end": 268.6,
+      "text": "flow and here are the new improvements that we have made in this wave so as you can see this is only asking for approvals title and not the environment and the company or for that matter even the approve who the approver is how is that possible because from this wave we are actually"
+    },
+    {
+      "t": 268.6,
+      "end": 288.7,
+      "text": "sending all this information information from business Central already so we are defaulting these parameters depending on where you are running the setup from so in this case the environment will be sandbox for for example and cronis Company and the approval will be honored from approval user setup table so let me just go ahead and create this"
+    },
+    {
+      "t": 288.7,
+      "end": 308.7,
+      "text": "flow and add an appropriate title so now the flow is created so we are now in power automate and we can see the flow that we just created and as you can see this is the same flow that you might have seen in previous releases but now we have made some improvements for example we"
+    },
+    {
+      "t": 308.7,
+      "end": 328.4,
+      "text": "have added this new action called get approver which is the action that is responsible to dynamically fetch the approver of the requester of the approval request how do we get this information we get this information from approval user setup table so let's just see how the setup table looks"
+    },
+    {
+      "t": 328.4,
+      "end": 348.5,
+      "text": "like and and this is how the setup looks like so for example in case of Megan gradia is the approver and so on so this table will be honored by the action that we just have introduced in the approval template and these are the new changes no more parameters and approval is also fetched from BC super can we"
+    },
+    {
+      "t": 348.5,
+      "end": 369.3,
+      "text": "see that in action then yes but after we introduce AI in the flow super let's uh switch back to the presentation then and talk about Ai and in this wave we added added a little bit of that logic into our approval templates and you will see that in a moment in a demo uh but what is important"
+    },
+    {
+      "t": 369.3,
+      "end": 389.6,
+      "text": "is to mention that AI Builder uh is one of the components in Power Platform that incl introduced special actions that includes GPT logic you can use those actions to build any flow uh of your choice but we have used them all for templates uh related to business Central and to to business scenarios"
+    },
+    {
+      "t": 389.6,
+      "end": 409.9,
+      "text": "we will be adding later in this wave several templates starting from the ones that you that you see on screen that include GPT logic and the interesting one is actually something that um enhances the approval approval of s sales orders where uh Azure open AI GPT action"
+    },
+    {
+      "t": 409.9,
+      "end": 430,
+      "text": "can summarize the sales ORD so let's see that in action so in this demo you're going to see a new template that we have introduced that uses the GPT action so let's just see how it looks like so under the approval flow we can see that there is a new GPT action uh template and for the"
+    },
+    {
+      "t": 430,
+      "end": 450.2,
+      "text": "sake of time I have just followed the steps and created a flow already so let's see how the flow looks like so this is the flow that uses the GPT action and it's similar to the approval flow that we have seen before but now it also introduces a new action here uh that creates the summary for the sales order"
+    },
+    {
+      "t": 450.2,
+      "end": 470.2,
+      "text": "details using GPT using a prompt so what it does behind the scenes it actually takes the sales order header and sales order lines and creates a summary that helps approver decide the approval status for the request that is being made let's see this in action for this to work I would like to request BL to act as"
+    },
+    {
+      "t": 470.2,
+      "end": 490.4,
+      "text": "Megan and send an approval request okay so here I'm acting as Megan I'm on the list of sales orders opening the second one and I you can see that the sales orderer has a couple of lines here and uh uh request approval action so I'm using the request approval action to request approval from my from"
+    },
+    {
+      "t": 490.4,
+      "end": 510.5,
+      "text": "my admin I'm the approver for Megan as per the approval user setup and I have been working in teams now so I got a notification that Megan has sent me a request let's see how the request looks like so I can see that the request is for the sales order and then there is a very nice summary"
+    },
+    {
+      "t": 510.5,
+      "end": 530.5,
+      "text": "generated by GPT action that tells me all the details that I need to know about the sales order before making the decision to approve or reject this request it tells me not only the order number but who who the customer has been where is the address of that customer what were the lines what was the price of each of the line"
+    },
+    {
+      "t": 530.5,
+      "end": 550.7,
+      "text": "and so on and that to in simple easy to understand natural language so I understand this is the valid request and I'll just go ahead and approve it and that's how simple it was thank you Monica so as you have seen in this amazing demo we are giving you additional templates using GPT technology it will be later in the wave"
+    },
+    {
+      "t": 550.7,
+      "end": 570.8,
+      "text": "at the moment you're listening to this recording or viewing this this video you might see those actions or those those templates already in your uh business Central template Gallery but there will be more of those coming later uh in the wave and what is important about power automated templates is that you can edit the flow that"
+    },
+    {
+      "t": 570.8,
+      "end": 590.8,
+      "text": "is created uh as as a output of that template you can add a little bit different logic according to to your requests you can also change the uh The Prompt for instance that is used in this GPT action if you want to do a different summary of of the sales order as an example and so on and so"
+    },
+    {
+      "t": 590.8,
+      "end": 611,
+      "text": "on this is really really powerful and and and opens uh additional possibilities for you uh to extend business Central with with GPT all right let's talk about uh additional improvement in our connector this is a new action uh we have a new action in the connector which is called find one record"
+    },
+    {
+      "t": 611,
+      "end": 631,
+      "text": "and uh it might be a bit confusing but currently we already have a an action that is called find records uh that action is already available and very popular it's very powerful um but it has um it has some challenges so first of all you need to understand the o data query syntax not"
+    },
+    {
+      "t": 631,
+      "end": 651,
+      "text": "everyone is is so familiar with with this how to find specific data and it also returns always a collection of Records even if only one record is what you requested this is a bit problematic if you're building more complicated flows using power automate so let's make your life easier we are introducing"
+    },
+    {
+      "t": 651,
+      "end": 671.1,
+      "text": "a new action that allows you to find just one record uh with a friendly user interface friendly settings and that record is retrieve together um in one go so imagine a very simple scenario where we would like to build an action in business Central that sends um"
+    },
+    {
+      "t": 671.1,
+      "end": 691.3,
+      "text": "a sales order a latest sales order of a given customer to your colleagues via teams and of course you can build it right now using power automate actions uh in our connector but with this new find one record it is much simple isn't it Monica yes let's see how simple it is in demo"
+    },
+    {
+      "t": 691.3,
+      "end": 711.8,
+      "text": "so here we have the flow to send the latest sales order for a given customer and it's a very simple flow because now we have added a new action called fine one record as blasa just explained and this action actually allows to find the latest sales order given on the customer number that we have"
+    },
+    {
+      "t": 711.8,
+      "end": 731.9,
+      "text": "selected you can add multiple new conditions if needed and you can also select which order to use for a given field so you can say it's either ascending or descending for for example uh post code and so on and this was the new action let's"
+    },
+    {
+      "t": 731.9,
+      "end": 747.8,
+      "text": "see it in running so we are in the customers list now and we have the action to send the latest sales order which is promoted so let's just go ahead and use this send the latest sales order for adim"
+    },
+    {
+      "t": 747.8,
+      "end": 767.9,
+      "text": "customer and what this will do is actually it will allow me the option to run the flow behind this action so now that I've have clicked run flow I'm expecting that it will find the last sales order for adum and send the Adaptive card for it on teams let's see how it looks in teams so"
+    },
+    {
+      "t": 767.9,
+      "end": 788.1,
+      "text": "here in teams I can see that the card has been sent for the last sales order for adopting Corporation that's how simple it was to create the flow with this new action let's talk about a few other updates in our connector we have made some additional improvements as always we have added a way to default the API"
+    },
+    {
+      "t": 788.1,
+      "end": 808.1,
+      "text": "route in our actions making it even easier for you to create uh flows we have updated some tool tips we have made the triggers available in the new Power automate designer as you have seen in some of the demos uh and one other change that we want to talk about is that we have hidden the V2 actions the old actions"
+    },
+    {
+      "t": 808.1,
+      "end": 828.5,
+      "text": "that were available in our connector before uh and that uh is important for all of you who might still be using those V2 actions in your flows your flows will continue to run is that correct Monica yes PL the existing flows that use the V2 actions will continue to run but we have of course a plan to deprecate"
+    },
+    {
+      "t": 828.5,
+      "end": 849.5,
+      "text": "V2 actions fully in in the next uh in the next year so please uh edit your flows and change them to the current set of actions which are V3 actions yes and it's very important to note that this has nothing to do with V2 apis this is only about V2 actions in the connector we are not deprecating V2 apis"
+    },
+    {
+      "t": 849.5,
+      "end": 869.7,
+      "text": "this is a very good point Monica so maybe we should talk about the difference a little bit of history and what those V2 and V3 actions are in our connector so V2 actions as you can see the old V2 actions that are currently hidden they used only the old apis the V1 apis"
+    },
+    {
+      "t": 869.7,
+      "end": 890.4,
+      "text": "from business Central they were limited to set of apis provided by Microsoft only the current V3 actions the actions that are currently uh the only ones the only choice for you actually uh when you're creating flows are very flexible uh you have this new field API category where you can choose the category"
+    },
+    {
+      "t": 890.4,
+      "end": 910.7,
+      "text": "and of course you have apis coming from Microsoft the standard V2 apis as Monica said v2.0 apis actually uh but but you have also custom apis various apis coming from Microsoft from partners and so on uh and as well on top of that also the end points that are needed for workflows so"
+    },
+    {
+      "t": 910.7,
+      "end": 931.4,
+      "text": "plenty of of options to choose from and this is the future this is what you should be using going forward yes in fact we have plans of deprecating v1.0 apis okay that is even uh better in terms of messaging you guys need to switch to V3 actions and start using the new apis and start moving forward"
+    },
+    {
+      "t": 931.4,
+      "end": 951.7,
+      "text": "let's talk about few other things that we have uh worked on in this wave we have actually for power ups a new sample for uh allowing you to build a scenario I have actually this app loaded on my device here this is a sample app that you can take from GitHub and show uh to your customers"
+    },
+    {
+      "t": 951.7,
+      "end": 973,
+      "text": "it's a different way of selling a scenario where you are selling coffee machines using mixed reality where you can measure space and so on you might have seen the demo of this app uh that we uh that we did on one of our conferences last year and this this sample is right now available for you to"
+    },
+    {
+      "t": 973,
+      "end": 993.1,
+      "text": "download we also are working right now on linking data verse environments to business Central environment this new feature is already available in business Central admin Center and you probably have seen it in our release plans it allows you to select one of the data vers environment uh as a designated one and linked and we"
+    },
+    {
+      "t": 993.1,
+      "end": 1013.2,
+      "text": "already are uh using that or honoring that also in our power automate setup yes if the power automate environment that you have linked to business Central is not the default one we actually use that one as the default when the user has not done the power automate environment setup in business Central we also"
+    },
+    {
+      "t": 1013.2,
+      "end": 1033.2,
+      "text": "show this in for example data verse assisted setup and it will be also seen whether it's a link or not in the power automate assisted setup thanks Monica another area that we need to talk about is power pages and our integration with power Pages my colleague sand vinaro has another session"
+    },
+    {
+      "t": 1033.2,
+      "end": 1053.9,
+      "text": "in this event when he is explaining all the new stuff that we have delivered in this uh integration currently in this wave so I would very much encourage you to tune in to that recording let's talk about one more important feature in our uh integration that is copilot in power automate"
+    },
+    {
+      "t": 1053.9,
+      "end": 1073.9,
+      "text": "we are making your life life of creators even easier where you can use natural language to create Automation and that feature is coming as preview later in this wave we have a separate recording in this event where we talk a little bit more in detail about this particular feature so please tune into that one uh"
+    },
+    {
+      "t": 1073.9,
+      "end": 1094.4,
+      "text": "when you're interested we also would like to talk about our integration with co-pilot Studio One of the tools from Power Platform family allowing you to build co-pilots or Bots and that is already integrated with business Central through our connector through Power automate actions and also through plugins"
+    },
+    {
+      "t": 1094.4,
+      "end": 1107.8,
+      "text": "that are available in copilot Studio we will be covering more about copilot studio and our integration uh in the coming events uh so please tune in to more news about our integration with copilot"
+    },
+    {
+      "t": 1107.8,
+      "end": 1128.2,
+      "text": "Studio and I think at the end of this uh recording we need to mention that there are a couple of additional sessions worth uh to watch as I mentioned the um session about power automate and co-pilot which uh uh which we recorded together there is also a session that talks about integration with data verse"
+    },
+    {
+      "t": 1128.2,
+      "end": 1148.4,
+      "text": "that my colleagues recorded and that mentions the virtual tables technology also very important for Power Platform uh for Power Platform integration there is also a session uh from keny that talks about updates in our documentation and that also mentions uh integration with Power Platform worth worth checking out"
+    },
+    {
+      "t": 1148.4,
+      "end": 1168.5,
+      "text": "of course and as always all the general uh business Central resources are available at aka.ms slbc all uh all the other links that you see on screen and nothing has changed there please go to ideas to submit new ideas talk to us uh using Yammer or tune in to"
+    },
+    {
+      "t": 1168.5,
+      "end": 1183.8,
+      "text": "one of our open uh office hours uh meetings that we organize every couple of months for Power Platform specifically and I think that will be it from this uh session thank you very much thank you very"
+    },
+    {
+      "t": 1183.8,
+      "end": 1185,
+      "text": "much"
+    }
+  ],
+  "markers": [
+    {
+      "t": 0.22,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 3219
+}

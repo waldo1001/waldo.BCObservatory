@@ -1,0 +1,333 @@
+{
+  "video_id": "MgWlmZAlqGI",
+  "item_id": "video/yt-microsoft/MgWlmZAlqGI",
+  "title": "What's New: Entering and Approving Time Sheets (2024 release wave 1)",
+  "duration_s": 745,
+  "systems": [
+    "projects",
+    "service",
+    "hr"
+  ],
+  "topics": [
+    "time sheet entry",
+    "time sheet approval",
+    "context-aware actions",
+    "conditional formatting",
+    "dynamic columns",
+    "copy functionality",
+    "time submission policy",
+    "manager approval",
+    "keyboard shortcuts",
+    "personalization"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and overview",
+      "t_start": 0,
+      "t_end": 56
+    },
+    {
+      "title": "Quick access and error prevention for time sheet entry",
+      "t_start": 56,
+      "t_end": 117.2
+    },
+    {
+      "title": "Dynamic columns and conditional formatting",
+      "t_start": 117.2,
+      "t_end": 176.1
+    },
+    {
+      "title": "Copying time sheets and details factbox",
+      "t_start": 176.1,
+      "t_end": 236.5
+    },
+    {
+      "title": "Demo: Employee time sheet entry workflow",
+      "t_start": 236.5,
+      "t_end": 397.9
+    },
+    {
+      "title": "Time submission policy for empty lines",
+      "t_start": 397.9,
+      "t_end": 457.6
+    },
+    {
+      "title": "Manager time sheet approval enhancements",
+      "t_start": 457.6,
+      "t_end": 554.5
+    },
+    {
+      "title": "Demo: Manager time sheet approval workflow",
+      "t_start": 554.5,
+      "t_end": 665.8
+    },
+    {
+      "title": "Related sessions and conclusion",
+      "t_start": 665.8,
+      "t_end": 745
+    }
+  ],
+  "features": [
+    {
+      "name": "New time sheet tile in self-service",
+      "description": "A new tile in self-service role centers that takes users directly to their current time sheet based on the work date, and a separate tile for new time sheets with no lines started.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 56,
+      "t_end": 96.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "quick access",
+        "self-service",
+        "navigation"
+      ],
+      "system": "projects"
+    },
+    {
+      "name": "Context-aware submit and reopen actions",
+      "description": "Submit and reopen actions are now context-aware to prevent errors from being thrown when they shouldn't be, avoiding unnecessary error situations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 96.9,
+      "t_end": 117.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "error prevention",
+        "validation",
+        "user experience"
+      ],
+      "system": "projects"
+    },
+    {
+      "name": "Conditional formatting for status column",
+      "description": "The status column on time sheet lines uses conditional formatting to display in red and italic when required data is missing, making it easier to spot what needs to be entered.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 96.9,
+      "t_end": 137.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "visual feedback",
+        "error prevention",
+        "conditional formatting"
+      ],
+      "system": "projects"
+    },
+    {
+      "name": "Dynamic column visibility based on setup",
+      "description": "Columns in time sheet lines such as project, project task, cause of absence, and chargeable are now dynamically shown or hidden based on the company's setup to reduce clutter and improve readability.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 117.2,
+      "t_end": 157.4,
+      "is_demoed": true,
+      "caveats": [
+        "Columns are dependent on company configuration"
+      ],
+      "tags": [
+        "dynamic columns",
+        "personalization",
+        "setup-driven"
+      ],
+      "system": "projects"
+    },
+    {
+      "name": "Keyboard shortcuts for copying time sheet values",
+      "description": "Users can now use keyboard shortcuts like F8 to easily copy values from the previous time sheet line, improving data entry efficiency.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 157.4,
+      "t_end": 176.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "keyboard shortcuts",
+        "productivity",
+        "data entry"
+      ],
+      "system": "projects"
+    },
+    {
+      "name": "Enhanced time sheet copy functionality",
+      "description": "Extended capability to copy time sheet lines from previous time sheets with options to select from open or submitted time sheets and pick specific lines to copy.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 176.1,
+      "t_end": 216.4,
+      "is_demoed": true,
+      "caveats": [
+        "Can copy from open or submitted time sheets"
+      ],
+      "tags": [
+        "copy functionality",
+        "selection",
+        "efficiency"
+      ],
+      "system": "projects"
+    },
+    {
+      "name": "Time sheet line details factbox",
+      "description": "A details factbox is now available in all places where time sheet lines are shown, allowing users to view data and comments related to the resource, project, or tasks.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 196.3,
+      "t_end": 236.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "details view",
+        "factbox",
+        "comments"
+      ],
+      "system": "projects"
+    },
+    {
+      "name": "Time submission policy",
+      "description": "A new time submission policy allows setup to control whether empty lines in time sheets should be skipped during submission or kept with warnings, maintaining backwards compatibility.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 437.3,
+      "t_end": 477.9,
+      "is_demoed": false,
+      "caveats": [
+        "Backwards compatibility maintained with existing behavior option"
+      ],
+      "tags": [
+        "policy",
+        "setup",
+        "empty lines",
+        "validation"
+      ],
+      "system": "projects"
+    },
+    {
+      "name": "Enhanced manager time sheet details for projects",
+      "description": "Manager time sheets by projects now display additional details including resource number, resource name, weekend work columns, totals per line, and comments from both header and lines.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 477.9,
+      "t_end": 538.9,
+      "is_demoed": true,
+      "caveats": [
+        "Some fields can be added through personalization"
+      ],
+      "tags": [
+        "approval details",
+        "manager view",
+        "additional information"
+      ],
+      "system": "projects"
+    },
+    {
+      "name": "Selective time sheet approval by default",
+      "description": "Changed the default behavior when approving time sheets so that only the selected time sheets are approved by default, reducing errors and turnaround time.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 554.5,
+      "t_end": 584.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "approval",
+        "safety",
+        "user feedback"
+      ],
+      "system": "projects"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "manager time sheets by projects",
+      "t": 477.9
+    },
+    {
+      "type": "page",
+      "name": "time sheet line details",
+      "t": 196.3
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Ian ktic",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 15.4,
+      "text": "the improvements that we've made in time sheets area is basically evolves around how to get more and how to be more productive while",
+      "why_it_matters": "Sets the core focus of the improvements on both employee productivity and manager efficiency.",
+      "check": "snapped"
+    },
+    {
+      "t": 96.9,
+      "text": "we've actually made uh submit and reopen uh actions context aware so that you don't get in in the situations where the errors are",
+      "why_it_matters": "Demonstrates a key design decision to prevent user errors through intelligent action behavior.",
+      "check": "exact"
+    },
+    {
+      "t": 137.3,
+      "text": "these columns are now basically dependent on your company's setup so in case you haven't set up causes of absence or you're not working",
+      "why_it_matters": "Explains the dynamic column visibility feature that reduces clutter based on configuration.",
+      "check": "exact"
+    },
+    {
+      "t": 437.3,
+      "text": "we've noticed while looking at our Telemetry is there's a lot of a lot of Errors where uh that get produced by the empty",
+      "why_it_matters": "Shows the data-driven approach that motivated the time submission policy feature.",
+      "check": "exact"
+    },
+    {
+      "t": 477.9,
+      "text": "project managers now have way way more detail in their uh manager time sheet by jobs or by projects available while approving uh time",
+      "why_it_matters": "Highlights significant new information available to managers for approval decisions.",
+      "check": "exact"
+    },
+    {
+      "t": 554.5,
+      "text": "the default uh the default setting of approval is only for the selected time sheets that sort of avoids we got feedback that that",
+      "why_it_matters": "Shows user feedback drove a safety-first design decision for approval defaults.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 10
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.026985
+    }
+  ]
+}

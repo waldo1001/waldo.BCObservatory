@@ -1,0 +1,673 @@
+{
+  "video_id": "WI_3mjpQ2JU",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 17.5,
+      "end": 37.5,
+      "text": "hello and welcome to our busy Center lunch event about um our new 2024 release wave 1 today will present you what is new related with automated IRS 1089 reporting this is amazing topic but keep in mind this is"
+    },
+    {
+      "t": 37.5,
+      "end": 57.3,
+      "text": "local topic only for the United States Market uh let's first introduce ourself uh together with me today I have Arthur Vel software engineer who made the biggest part of this functionality and on my side my name is Alexander toic I'm product manager responsible for this feature"
+    },
+    {
+      "t": 57.3,
+      "end": 77.3,
+      "text": "so let's first explain shortly what we talk today I will first make some short introduction and it will be mostly related what did we have earlier why we decided to move uh to new app to make design then we will explain you New Concept of this app uh not"
+    },
+    {
+      "t": 77.3,
+      "end": 97.3,
+      "text": "only concept but all new values we'll get uh with this redesign because this is not only technical redesign we are bringing new values there shortly briefly explain U main features an overview why briefly because ar2 will show full demo end to end scenario with all these details so you will see in"
+    },
+    {
+      "t": 97.3,
+      "end": 117.4,
+      "text": "a practice how it works so let's start with the introduction um let's remind us what form 1089 is if you didn't work earlier with that I hope you are but if not form 1089 is one of several IRS text forms used as a mention only United States uh 1089"
+    },
+    {
+      "t": 117.4,
+      "end": 138.3,
+      "text": "form is recorded entity or person other than your employee uh gave or paid you a money that means that payer must fill 1089 form and send copy to the receiver in our case it be sented to vendor and the other side to IRS so pair can file"
+    },
+    {
+      "t": 138.3,
+      "end": 157.7,
+      "text": "in two ways um pair can print and mail paper forms that means printing on original uh preprinted uh IRS forms and and send this to IRS and send the same copy to the vendor and other option is electronically through"
+    },
+    {
+      "t": 157.7,
+      "end": 178,
+      "text": "IIs or information return intake system that means fully automatically um printing on prep printed forms and mailing uh to IRS and vendors this is something what we had earlier let's say we still have this inside the BS Centra but this is old feature and now with new app"
+    },
+    {
+      "t": 178,
+      "end": 189.1,
+      "text": "you can use this fully integrated ation together with electronically sending through IRS ir and um emailing to your"
+    },
+    {
+      "t": 189.1,
+      "end": 209.2,
+      "text": "customers now uh when we talk about what we had let's remind you we had 1089 setup in 1089 setup we had some codes and rules uh only for the current year so you could you couldn't have um active boat years for example now uh 2024 and"
+    },
+    {
+      "t": 209.2,
+      "end": 229.2,
+      "text": "uh previous 2024 or the next one so you could have only one a year and U updated wait for Microsoft so there is process cons it was not so complicated to uh to have all these details you had to wait Microsoft and this is good and bad you had to wait because uh you had to wait Microsoft finish"
+    },
+    {
+      "t": 229.2,
+      "end": 249.4,
+      "text": "with with everything and then to refresh and what after refresh after refresh once updated there is no way back so you had to report earlier you had to finish with the last year and then you need to refresh with the new data and you can continue to work with new data and yeah this is I said all the time good and bad"
+    },
+    {
+      "t": 249.4,
+      "end": 269.5,
+      "text": "what we had more we had a really easy window setup it was a really easy straightforward uh you you had to open vendor to set up this vendor 1089 liable you had to uh choose 1089 code default code for this vendor and yes Defender should be nature person and you had option to have only"
+    },
+    {
+      "t": 269.5,
+      "end": 289.7,
+      "text": "one 1089 code per vendor you could change this on document but in general only 1089 per Vendor by default process was let's say easy but sometimes it could be complicated uh you had to post purchase invoice and then you had payment you had to register payment and that's"
+    },
+    {
+      "t": 289.7,
+      "end": 309.8,
+      "text": "it but what could what could happen you didn't configure properly vendor so you didn't have proper IRS code there so in this case you could eventually go to vendor Ledger entries if you know for this situation so you couldn't just update on vendor no you had to update on vendor site but you need to go to vendor Ledger entries to"
+    },
+    {
+      "t": 309.8,
+      "end": 330,
+      "text": "find all these entries and manually to change vendor entries yes it was possible but definitely not the best process you could imagine but yeah we had it and when we finish with everything so you could register all these details you had to print forms print reports uh stand reports and the forms"
+    },
+    {
+      "t": 330,
+      "end": 345.9,
+      "text": "so again just to remind you had to use standard 10 IRS forms and this is where all headaches are starting yes you had print you had to print it was let's say straight for a process not such a big problem"
+    },
+    {
+      "t": 345.9,
+      "end": 366,
+      "text": "but as again just remind you original forms not PDFs we could uh download from ours side oursite only original forms so this is um maybe easy on the first site but when Microsoft had to adjust these phones for printing every year"
+    },
+    {
+      "t": 366,
+      "end": 386,
+      "text": "we could expect one field here and there changing sometime some things and Microsoft couldn't start um updating report layout before we get original first we had to get all changes then we had to get original form to order from IRS original form so we could test printing original forms then in depend from printer to printer and all"
+    },
+    {
+      "t": 386,
+      "end": 406.3,
+      "text": "the time we had issues something like that just missed you know all these boxes with address with the uh x with numbers and sometimes this is a problem about uh report layout design sometimes this is a problem how you configure your printer and all the time it had a problem this is just one of examples all"
+    },
+    {
+      "t": 406.3,
+      "end": 427.1,
+      "text": "youc uh 2021 year this is just all example but this is how things were going and it was the most annoying especially it was in a tough period you had to report not too late not to pay fees so so this is uh something what we wanted to change and what we did with the New"
+    },
+    {
+      "t": 427.1,
+      "end": 447.1,
+      "text": "Concept we wanted to create to redesign and um not only to R redesign because we wanted when we looked in BC ideas I think that uh five six different ideas about different types of redesign was already required from um our partners maybe customers as well I don't know all these old names so"
+    },
+    {
+      "t": 447.1,
+      "end": 467.3,
+      "text": "it was required from your side and and now we decided to redesign but every time when we want to redesign this is not just making all these features in a different way as a app we wanted to bring some new value to to you and now let's see first completely process flow how it will break in the future first"
+    },
+    {
+      "t": 467.3,
+      "end": 487.3,
+      "text": "we are starting with setting up what you need to do you need to set up your vendors it will be a little bit different we want to give you little bit more space what you can configure there you will see later uh in AR demos then G yeah you need to post documents and you need to register payments so this is the same thing this is uh something we are enforced by the law but after setting"
+    },
+    {
+      "t": 487.3,
+      "end": 507.7,
+      "text": "up we need to calculate so we are starting to work we have already documents uh end of year so end of year we need to calculate everything we need to run 10 10 calculation but now how we calculate we are taking information from setup now we still have setup 1089 actually this is uh IRS setup"
+    },
+    {
+      "t": 507.7,
+      "end": 528,
+      "text": "but what we have there um now we have IRS setup with different periods so you can have different setups for one year another year next year so you do not need to update and uh if you forget to calculate something from previous year you are in trouble no you can have all this uh reporting information in a parallel you just need to to choose"
+    },
+    {
+      "t": 528,
+      "end": 548.1,
+      "text": "what is active here for you then we have there 1089 forms form boxes and everything so when you R calculation we assume we you have all documents and payment register now we have uh all all this uh setup information about 1089 reports and system will just calculate it and then you calculate what you will get now first value you"
+    },
+    {
+      "t": 548.1,
+      "end": 568.2,
+      "text": "will get not first this is now second value because after setup you will get 1089 for documents now we have documents with header and lines uh you will see a little bit more why this is important why this is benefit uh first when we go to the next stage to review you can much easier review earlier you could"
+    },
+    {
+      "t": 568.2,
+      "end": 589,
+      "text": "you could calculate and you could report what you calculated it was really complicated to to check if everything was okay if you miss some documents or from some reason you need to adjust some information now we have this form we have actually this document so you can check all details and if everything is okay we can handle with different statuses and"
+    },
+    {
+      "t": 589,
+      "end": 609,
+      "text": "more important after reporting we will have 1089 forms in a history so you can check history from previous year previous years and of course you can conf your retention policy if you have thousands of forms and you are taking care about your database space yeah you can you can configure retention policy and you can"
+    },
+    {
+      "t": 609,
+      "end": 630.6,
+      "text": "remove old I don't know for example more than three years old forms whatever you decide now we have next stage to schedule and your schedule you can schedule if file any delivering what is important how it work now we are reporting directly to through e file through"
+    },
+    {
+      "t": 630.6,
+      "end": 650.7,
+      "text": "IIs uh platform so we are reporting there uh it will be configure you just need to have your credentials there and system will send automatically electronically why this is important I didn't mention previously you could print now you cannot use pre-printed forms but this is important because even now uh you"
+    },
+    {
+      "t": 650.7,
+      "end": 670.8,
+      "text": "could print only if you have up to 10 uh reports per year so this is a really small number if you have if you had more you had to report through platform so earlier you you had to prepare file and to report manually now we automated fully it will be automatically when you decide to report it will be reported to IRS then"
+    },
+    {
+      "t": 670.8,
+      "end": 686.6,
+      "text": "we have second part we need to print uh forms and to send to our vendors so how it it work we will print not on preprinted forms we will use uh PL paper uh we'll create 1099 PDF copy"
+    },
+    {
+      "t": 686.6,
+      "end": 706.6,
+      "text": "substitutions what it means you will have all the details you have on a regular 1089 but it is the copy substitution because law uh enable us to use this copy substitution we just need to have all details we we have in our standard printed forms and we can use this um copy substitutions if you"
+    },
+    {
+      "t": 706.6,
+      "end": 720.2,
+      "text": "are report directly to IRS through their apis and now what is even more important for these copy substitutions you are in control of that you can see on the left side 1089 layout setup"
+    },
+    {
+      "t": 720.2,
+      "end": 740.4,
+      "text": "um actually this is not the right name for this setup I just wanted to make it as simpler here on um uh this chart you can you will get by Microsoft already configure reports but if there is some changes and you cannot wait to Microsoft Microsoft finish and update the new in X minor all these details you can easily add just new box"
+    },
+    {
+      "t": 740.4,
+      "end": 756.5,
+      "text": "put description what is in this box uh say okay in this box I will collect uh this value from this place so this is now much much easier for you and it will be much easier for Microsoft Microsoft can provide much much faster support"
+    },
+    {
+      "t": 756.5,
+      "end": 777,
+      "text": "and um not having all these issues in Communications uh preparing layout this is every time it come to layout 1 mm left and right up and down this is really complicated now it will be much much straightforward so this is not complex uh topic and now okay we have PDFs what we'll do with the PDFs"
+    },
+    {
+      "t": 777,
+      "end": 797.1,
+      "text": "we are enabling on vendors if vendor accept consent to receive these documents electronically we can fully automate once when you report you can put in a background process and send all emails if you have thousands of uh vendors you will send automatically thousands of emails to them and"
+    },
+    {
+      "t": 797.1,
+      "end": 817.4,
+      "text": "that's it you reported but if some of your vendors do not want to uh give you content you still have printing for manually delivering so you can again you can start a process to print all these uh forms on a plain paper and then you can use standard mailing process for execution uh"
+    },
+    {
+      "t": 817.4,
+      "end": 837.7,
+      "text": "I want to emphasize one thing here because this is uh something what we will um do in this major but some things will come in next few minors and what it means this black box uh connection with uh IRS through Iris uh portal will come in next few minors"
+    },
+    {
+      "t": 837.7,
+      "end": 857.9,
+      "text": "uh now I cannot promise exactly uh date because we are waiting some confirmation from IRS as soon as we get we will finish this part but what I can say it will be before your reporting period because now we have more than enough time to have everything ready for end of year but idea is not to deliver this on the end of here we want to deliver"
+    },
+    {
+      "t": 857.9,
+      "end": 869.4,
+      "text": "this as soon as possible so you can test all these things how it works in the practice okay let's look briefly main features make an overview"
+    },
+    {
+      "t": 869.4,
+      "end": 889.8,
+      "text": "uh before I show you few print screens I want to show you how you can enable this functionality when you start with feature management this is only one way process so once you start you have first to choose data transfer and data transfer will uh offer you two options first is if you're already user you are using busy Central"
+    },
+    {
+      "t": 889.8,
+      "end": 909.9,
+      "text": "you can choose transfer existing 1089 data from your base app and if you choose you need to choose which year is your active year and system will just use everything what you had earlier and transfer to IRS reporting periods and codes so you will have uh brand new data in new app copied from existing this is not one to one"
+    },
+    {
+      "t": 909.9,
+      "end": 929.9,
+      "text": "because this is I said different design but it works second option is you do not want to use your existing data you want to create for a new setup so you can choose default data and we are providing default data for the for the next year so you can create just default setup and why"
+    },
+    {
+      "t": 929.9,
+      "end": 950,
+      "text": "and yes and again you will get all this reporting Pags and CS everything what is needed why this one is important maybe you will use standard uh data upgrade transfer from existing data in a most situation but when you have new customers when you enable new customers you cannot transfer from existing data so in this case for any uh of new companies"
+    },
+    {
+      "t": 950,
+      "end": 970,
+      "text": "new customers you will use this create with new setup so they will get all fresh new and correct data for working what we have in 1089 forms and four boxes first you will see we have this IRS reporting periods as I mentioned we have starting and ending dat so we can have uh more um"
+    },
+    {
+      "t": 970,
+      "end": 990.6,
+      "text": "uh different periods in the same time you need to use you need to mention what is active period but you can have different periods for reporting then you can use different types of supported forms for each of the on 1089 forms then you have 1089 form boxes where you can specify um the different uh situations"
+    },
+    {
+      "t": 990.6,
+      "end": 1010.9,
+      "text": "minimum reportable amounts everything what is related with amounts next you need to configure vendors this time it will be not direct to vendor card you have IRS setup for vendor so when you run IRS setup uh you can change U your default codes you can use different um uh uh 1089"
+    },
+    {
+      "t": 1010.9,
+      "end": 1031.3,
+      "text": "1089 codes and um in different periods uh uh vendor can be eligible for different 1089 codes okay on one can be default but you can you will have much more space much more options using this setup and then 1099 document you can see example of this document now as I said we have header we have"
+    },
+    {
+      "t": 1031.3,
+      "end": 1052,
+      "text": "lines uh this exists as a document what is important to remember one form for is one document and you have more form boxes and it means one more for example you have miscellanous and yes for this form it can be only one you cannot have for example neck and miscellanous in the same document because uh they different uh form types for printing"
+    },
+    {
+      "t": 1052,
+      "end": 1072.1,
+      "text": "but one document is for one form but you can have more different form boxes as form boxes can him different uh uh amounts reportable amounts and so on so this is important to find um you can find all uh details included in these calculated amounts after we explain how you can configure to"
+    },
+    {
+      "t": 1072.1,
+      "end": 1092.4,
+      "text": "to have it or to not have but this is on you how you will make a setup and yes you can handle with different status when you create you will see status is open then you can continue with different statuses some of statuses will come automatically some of them will be manually made and when you finish with this you need to print and send"
+    },
+    {
+      "t": 1092.4,
+      "end": 1102.6,
+      "text": "just to remind you once again you will not print original preprinted form by IRS so you will not order uh from IRS uh original forms anymore"
+    },
+    {
+      "t": 1102.6,
+      "end": 1123.4,
+      "text": "now um you will deliver to IRS through uh integration with Iris apis in as I said in next few minors and for vendors you can print copy B and two uh C is for you uh but again on a plain paper as a substitutions"
+    },
+    {
+      "t": 1123.4,
+      "end": 1143.6,
+      "text": "with all details we have original even all these instructions you have there you will see after we show how to configure instruction so everything is there everything what we have original form this is just design is a bit different but everything what exists in original form it will be printed there so after that you can send via email or physical mail uh you can"
+    },
+    {
+      "t": 1143.6,
+      "end": 1163.6,
+      "text": "uh configure IRS and respons a person for emailing this is important we can use standard vendor email but if you have for example commercial email for this vendor and you want to send um on different email now you can enable different email so you can have IRS responsible person for email so you can send directly to this person it"
+    },
+    {
+      "t": 1163.6,
+      "end": 1183.6,
+      "text": "will be much easier to have additional option for sending and we have t number and this this is really important because um you should you should secure this te number especially when we sending VI maale even uh male physical mail but especially Emil now what we can uh what we can"
+    },
+    {
+      "t": 1183.6,
+      "end": 1203.8,
+      "text": "do we can make a setup Yeah by default you can print original tetin uh your company te and your vendor team that's okay but you can use a setup to hide this is allow by the low only four last digits to be showed you can uh you can choose to make this setup only for your vendors or for your company vendors alog"
+    },
+    {
+      "t": 1203.8,
+      "end": 1223.8,
+      "text": "together so you can secure this T number and you can easily use emailing for this uh dis spender without any security issue um yes you have this 10894 statements setup so all these form boxes you can set up by you and you have IRS form instruction setup so you can easily"
+    },
+    {
+      "t": 1223.8,
+      "end": 1244.1,
+      "text": "in make instructions and for emailing you will see you can you will get some default uh email how how you can send but you can change by yourself I I I will keep this for AR to show now when he starts so now I think I finish with all my slides and I will give uh display"
+    },
+    {
+      "t": 1244.1,
+      "end": 1264.4,
+      "text": "and Stage my colleague Arthur to show you full endtoend demo Arthur um as Alexander mentioned the feature is available uh in the feature management uh so unless you enable the feature uh you still going to use the old 1099 base application and after you enable"
+    },
+    {
+      "t": 1264.4,
+      "end": 1277.7,
+      "text": "the feature in the feature Management in one company uh it is basically enabled for all the companies so the other way of um setting up the feature will be opening the assisted"
+    },
+    {
+      "t": 1277.7,
+      "end": 1297.8,
+      "text": "setup and from the assisted setup you can find the setup and IRS forms feature and when you click this one you can see the guide page uh on the first step we explain uh what is all about what you want to get on the next one uh there are exactly a few options Alexander management so"
+    },
+    {
+      "t": 1297.8,
+      "end": 1318,
+      "text": "first of all create new setup this is for the fresh installation if you're a new customer and the second one will be transfer existing data if you already have some data in the old 1099 base application feature and you want to transfer this data to the new IRS forms app uh and of course we want to do this perer reporting here"
+    },
+    {
+      "t": 1318,
+      "end": 1338,
+      "text": "um let me specify reporting here I want to use create new setup option and go next the next step will be a few options for the IRS forms apps the first one is called collect details for line uh this is important if you want to see some kind of the details uh of the form document line"
+    },
+    {
+      "t": 1338,
+      "end": 1358.8,
+      "text": "I will show you when the form document is ready uh what this option means and the next options it's called protect T and this is exactly to make uh tax indication number on the printing forms more secure uh by default the option is none but you can always select protect TNN for vendors"
+    },
+    {
+      "t": 1358.8,
+      "end": 1379,
+      "text": "or for vendors and the company and let's choose exactly this option and that will be the last step uh so the IR forms is completed at that point now let's open the page uh that is called IRS reporting periods and here we can uh see the"
+    },
+    {
+      "t": 1379,
+      "end": 1399.2,
+      "text": "IRS reporting period and from here we can open all the necessary setups forms vendor setups adjustments and the documents and let's start one by one uh when I click forms uh I can see all the usual forms uh like you had previously in 1099 Bas application"
+    },
+    {
+      "t": 1399.2,
+      "end": 1419.6,
+      "text": "but right now it is important that all these forms are connected to the IRS reporting period uh and then from the uh for I can open the form boxes and you can see the usual list of all the form boxes with the minimum reportable amount uh as you can see all the data is generated automatically"
+    },
+    {
+      "t": 1419.6,
+      "end": 1440.6,
+      "text": "from the guide page let me go back uh also you can notice two actions here the first one is called edit statement and this is the uh exactly the flexible setup Alexander management for printing form so here you can specify the setup of how you want your printing forms to work"
+    },
+    {
+      "t": 1440.6,
+      "end": 1461.3,
+      "text": "uh you can specify the print value type filter expression Rog totaling so this is really flexible and in case you want to print uh your form differently uh the next one is called edit instructions and this is also the part for the um printing form here you can uh set up all the printing instructions"
+    },
+    {
+      "t": 1461.3,
+      "end": 1481.3,
+      "text": "uh for header for every single box and I will show you where exactly you have these instructions uh on the printing form um let me go back uh the next will be let me skip the vendor setup I will go to the adjustments uh this is also the usual feature but here you can do this for"
+    },
+    {
+      "t": 1481.3,
+      "end": 1501.8,
+      "text": "the reporting here uh let me choose the vendor and let me choose the four missios and Miss 01 and the amount 100 so I'm setting up the adjustment for this vendor for this code and what is important for this reporting here let me go back"
+    },
+    {
+      "t": 1501.8,
+      "end": 1522,
+      "text": "and then let me show you how you can create the new reporting periods so let's say you want to set up the new reporting period And I guess you're curious how you want to get all the forms and vendors and adjustments of course you don't need to create all those manually for this you have the special action"
+    },
+    {
+      "t": 1522,
+      "end": 1542.3,
+      "text": "that is called copy setup prom uh so once you created the period you click copy set set up from and here you need to specify the from period when we open the list we can see all the periods except of course this one uh we can select 2026 and then click"
+    },
+    {
+      "t": 1542.3,
+      "end": 1562.2,
+      "text": "okay and then we can see some details so what exactly being copied we can see that four forms 47 form boxes vendor boxer adjustments and form statement Lines been copied and of course we can check this we can click forms and we can see absolute the same forms copied from the other"
+    },
+    {
+      "t": 1562.2,
+      "end": 1583.4,
+      "text": "period um now let me continue with the 2026 and open the important part of the setup that is called vendor setup and once again this is setup per reporting period I'm going to choose the vendor right here and I'm going to choose the code and the um form box"
+    },
+    {
+      "t": 1583.4,
+      "end": 1603.6,
+      "text": "um what is important that we added here and we you didn't have in the previous version of the feature you don't need to add all the vendors here manually as you can imagine you can have thousands of vendors and you need to type all of that manually one by one you don't need to do this and let me show you how you can make"
+    },
+    {
+      "t": 1603.6,
+      "end": 1623.8,
+      "text": "your life a little bit easier there is an action that is called Suggest and when you click this you can specify the filters for the vendors to add those vendors to the vendor form box setup and I have already made a setup for a few vendors let me choose the partner type person and then"
+    },
+    {
+      "t": 1623.8,
+      "end": 1640,
+      "text": "I only want to consider uh domestic vendors uh domestic and when I click okay uh I can see that are few vendors added to my form so you don't need to add them"
+    },
+    {
+      "t": 1640,
+      "end": 1660.2,
+      "text": "manually and of course yeah let me continue the specification of the form uh number on the form box number the other important part uh of this vendor form box setup uh is in the action that is called propagate so imagine that you already posted some invoices and payments for a certain"
+    },
+    {
+      "t": 1660.2,
+      "end": 1680.4,
+      "text": "vendor but you didn't have a setup for example you just forgot to assign uh a specific IRS code to this vendor but you already have the entries so now what you want to do you want to have you want to take this form and form boxes and you want to propagate these changes to existing vendor Ledger and you don't want to open vendor Ledger"
+    },
+    {
+      "t": 1680.4,
+      "end": 1700.7,
+      "text": "entries and you don't want to go one by one to each invoice and specify okay this invoice miscellanous one this invoice missell one as well you want to do this automatically and for this you have the action that is called propagate uh so you choose your vendor setup uh the dates will be taken from the reporting period"
+    },
+    {
+      "t": 1700.7,
+      "end": 1720.8,
+      "text": "and here you can uh select what exactly you want to consider do you want to consider purchase documents or or you want to consider vendor Ledger entries which are already posted entries or you want to consider both so once you do this and once you click okay those documents and those entries uh will be filled in"
+    },
+    {
+      "t": 1720.8,
+      "end": 1741.3,
+      "text": "with the form uh miscellaneous 01 that is it with the vendor form box setup uh let me show you how does it work in the vendor card so when I go to the vendor card and and that is the important to show you"
+    },
+    {
+      "t": 1741.3,
+      "end": 1761.4,
+      "text": "uh the fields that been added in scope of this IRS forms app first of all you can see uh the miscellanous code here in the vendor card of course you don't need to set up in the vendor card this is only the non-editable fields and you can click here and you will be look"
+    },
+    {
+      "t": 1761.4,
+      "end": 1781.5,
+      "text": "up to the vendor form box setup from here so this is just for the visibility the usual way of showing you what is the code is assigned to the vendor then right below you can see two fields that is important for the emailing Story the first one this called receiving 1099 eform consent"
+    },
+    {
+      "t": 1781.5,
+      "end": 1799.9,
+      "text": "so this one should be enabled if you want to send emails with IRS forms to your vendor so if it's not enabled you won't be able to do this and the next one is called email for IRS uh so these emails will be used to send uh PDF forms to to your"
+    },
+    {
+      "t": 1799.9,
+      "end": 1812.2,
+      "text": "vendor now let me create the purchase invoice for this vendor and show you that the data is taken from the vendor formbox"
+    },
+    {
+      "t": 1812.2,
+      "end": 1832.6,
+      "text": "setup the bries invoice is created I'm going to assign vendor invoice now and below in the header you can notice that okay we have the form number and form box number on the those vales taken from the setup and of of course you can change them I can select any miscellaneous forms"
+    },
+    {
+      "t": 1832.6,
+      "end": 1852.7,
+      "text": "I want for example I can select 02 right here I can change the default setup um you can also notice that I have specified the payment method uh code is called cash so in this case it will be a little bit easier for me I don't need to create payment uh manually so once I create and post"
+    },
+    {
+      "t": 1852.7,
+      "end": 1864.8,
+      "text": "purchase invoice I can get straight to the form documents creation um let me finish with the purchase"
+    },
+    {
+      "t": 1865.2,
+      "end": 1875.3,
+      "text": "invoice I want to specify direct unit cost more than minium reportable amount and I want to post this purchase"
+    },
+    {
+      "t": 1875.3,
+      "end": 1895.6,
+      "text": "invoice let me go back to the IRS reporting uh periods and from here uh I can open the documents and I want create the form documents for this vendor and for this docent when I click create forms here we can have the period prepopulated from the reporting period and you can"
+    },
+    {
+      "t": 1895.6,
+      "end": 1916.2,
+      "text": "create the form documents for all vendors and for all forms if those two filters are blank or you can choose specific vendor or you can choose specific form so form documents will be created only for those and the important uh option is replace so once the form document is created you can notice that okay these numbers are not correct"
+    },
+    {
+      "t": 1916.2,
+      "end": 1933.9,
+      "text": "so I want to probably change something in the vendor Ledger entries probably I need to change some I want to post additional document and then I can use the option replace to recreate the existing form document let me click okay here and we can notice that we have the form"
+    },
+    {
+      "t": 1933.9,
+      "end": 1954,
+      "text": "document and I'm going to open this form document so this is exactly what Alexander mentioned so this is very different from the previous experience in the previous experience you posted vend Ledger entries and then you just print the report so you were not aware about uh the values and the values where they've been"
+    },
+    {
+      "t": 1954,
+      "end": 1974,
+      "text": "taken from uh right now you have this information so you can notice that you can look up to the calculated amount in the line when I do this uh I can see the 1099 form document line details and this is the list of the vendor Ledger entries connected"
+    },
+    {
+      "t": 1974,
+      "end": 1991.4,
+      "text": "to the certain lines so this is exactly the detalization that was missing in the previous version of the feature of course you have the amount here minimum reportable amount uh you can have adjustment amount and the important field that is called including"
+    },
+    {
+      "t": 1991.4,
+      "end": 2011.4,
+      "text": "1099 uh as you know uh 1099 works in the way that if the amount is more than minimum reportable amount then we need to include this in the report but if it's below the minimum report amount then we not going to include this and in the previous version of the feature uh you are not quite"
+    },
+    {
+      "t": 2011.4,
+      "end": 2031.7,
+      "text": "sure okay do I have the amount more than minimum or less than minimum amount right now you can see all the lines here but based on the this field including 1099 you can understand okay so I'm going to include this code in 1099 report or I don't want to include this in 1099 report so we all have this information"
+    },
+    {
+      "t": 2031.7,
+      "end": 2051.8,
+      "text": "right now as well now the next step will be the submission of the 109 report we want to send this electronically uh this is part is not implemented yet and that will be available in the one of the next releases uh but we want you to test the"
+    },
+    {
+      "t": 2051.8,
+      "end": 2072.6,
+      "text": "other features which is printing and mailing and the important part is that the form document needs to be in the submitted State and for that we have implemented the temporary solution with the action that is called Market submitted so you mark your form document as submitted and you can notice that the status right now is submitted"
+    },
+    {
+      "t": 2072.6,
+      "end": 2092.8,
+      "text": "and only when the status is submitted you can print your document and you can ml once again so this part will be changed instead of Markus submitted action in the future releases you will have the action that is called just submit and the data will be sent electronically to ARs and after that what you can do you can print"
+    },
+    {
+      "t": 2092.8,
+      "end": 2113.4,
+      "text": "your form document uh you can click print and here you can choose the report type copy B copy C and copy 2 those are options uh Alexander explained uh let me preview this form and talk a little bit more about this"
+    },
+    {
+      "t": 2113.4,
+      "end": 2133.6,
+      "text": "one in the top of this printing form we can have the type it's called copy B so if you select copy CN or copy 2 you will have the different uh label on the top and then below you have the usual section for the vendor information and for the company information"
+    },
+    {
+      "t": 2133.6,
+      "end": 2153.7,
+      "text": "uh on the left side you have all the details uh name address basically everything um and the important part is the tax identification number you can notice right here that those values are protected so you only see the last four digits below you can see"
+    },
+    {
+      "t": 2153.7,
+      "end": 2174.2,
+      "text": "uh the miscellaneous code we have only miscellaneous 02 and the amount and on the very last page you can see the instructions for recipients so those are taken exactly from the flexible setup that is called edit instructions text so you can see them right here if something is wrong"
+    },
+    {
+      "t": 2174.2,
+      "end": 2194.3,
+      "text": "you can change them and the changes will be reflected on this page let me go back and show you the last part of my presentation emailing uh you can notice in the header of the form doent that we have the consent uh from the vendor for receiving 1099 forms electronically"
+    },
+    {
+      "t": 2194.3,
+      "end": 2214.6,
+      "text": "we have the vendor email here and that means that we can successfully email our PDFs um PDF forms to this vendor when I click Send email I can also choose two options copy b or copy two so these are only options which make sense for the vendor let me choose copy B"
+    },
+    {
+      "t": 2214.6,
+      "end": 2235.4,
+      "text": "uh I want to click okay and I want to send you can notice that uh now we have the options copy B send change to true so by this option you can notice that okay I already emailed this vendor with this PDF form and I have already set up emailing uh feature here"
+    },
+    {
+      "t": 2235.4,
+      "end": 2256,
+      "text": "I want to show you how that would work on the vendor form box I have the new email right here uh and here I have the email subject that 1099 form code copy for your records we have some email body saying okay uh uh we want to send you some 1099 forms"
+    },
+    {
+      "t": 2256,
+      "end": 2270.7,
+      "text": "and here I have the attachment is PDF and I want to download this and show you that this is exactly the printing form I have presented previously the important part is that the"
+    },
+    {
+      "t": 2270.7,
+      "end": 2291,
+      "text": "emailing uh subject an emailing body this is not the hardcoded text this is something that you can set up in the IRS forms app and I will show you where exactly you can set this up uh the page is called IRS form setup you can open it and here you can find the IML email"
+    },
+    {
+      "t": 2291,
+      "end": 2311.7,
+      "text": "subject you can change this and the email body and this one this is reach control text so you can format this text uh in the way uh you want this so this is very flexible you can change this text as well and that concludes my presentation back to you Alexander"
+    },
+    {
+      "t": 2311.7,
+      "end": 2332.1,
+      "text": "wow um thank you Arthur for great presentation and yeah uh let's shortly wrap up new and modern user uh experience new features uh configurable reporting uh much more option better security more transparency for users and great automation so this is definitely great"
+    },
+    {
+      "t": 2332.1,
+      "end": 2352.1,
+      "text": "functionality you will see yeah you need to change uh how you're working with n 9 reporting but this is much much better much more options so you can easily do uh many things you couldn't earlier so AR to once more thank you for a great presentation and I just wanted to mention one one small thing"
+    },
+    {
+      "t": 2352.1,
+      "end": 2371.5,
+      "text": "before I forget maybe you noticed during R2 presentation on a few uh setup page we didn't had IRS 1089 form setup we had IRS uh form setup and a few places it was just IRS with without 1099 now I just want to explain"
+    },
+    {
+      "t": 2371.5,
+      "end": 2391.8,
+      "text": "um we were thinking uh maybe in the future we will introduce more IRS uh things now this is not promising do not understand me wrongly we just wanted to predict maybe it will be in the future so we do not want in the future if we do this to create uh second IRS and third IRS"
+    },
+    {
+      "t": 2391.8,
+      "end": 2411.8,
+      "text": "set up for different purpose so you will find 1089 only on a fors what is exclusively for 1089 reporting but for all others we are we kept only IRS setup or IRS form setup something like that so we can reuse this form eventually if we upgrade this functionality with some other um uh"
+    },
+    {
+      "t": 2411.8,
+      "end": 2432.2,
+      "text": "reporting or uh whatever is related with IRS so this is not something what we are what we are planning to do right now but just to make good foundation so in a future we can easily uh extend it if needed uh before I close this session I just want to remind you on a great BS Center resources"
+    },
+    {
+      "t": 2432.2,
+      "end": 2452.4,
+      "text": "first um join us on our Yammer Channel AK msbc Yammer you can talk with you can talk you can exchange messages with us you can give us feedback you can very often get some early test uh uh environment there so we we are open there full transparency we can talk about all issues"
+    },
+    {
+      "t": 2452.4,
+      "end": 2472.5,
+      "text": "or all good things you have so please join us then yeah we are more the open to discuss publicly so no problem Twitter or X or some other channels uh you can see details here uh but more official from Microsoft side join us on our monthly BC office hours there are many many different and interesting topics and"
+    },
+    {
+      "t": 2472.5,
+      "end": 2493,
+      "text": "again you will be uh you have opportunity to talk to ask to discuss with us about some features and if you have something is missing in V Central in 1089 feature on some other features never mind what about just submitter idea AK msbc idea so we are really listening all this idea"
+    },
+    {
+      "t": 2493,
+      "end": 2513.3,
+      "text": "and to be honest this new functionality came because came here because of your ideas that means we couldn't deliver immediately but maybe it was better because we collected much more different ideas and now I think we deliver a really great amazing functionality and if you forget all these you different URLs please do not forget this one akbc"
+    },
+    {
+      "t": 2513.3,
+      "end": 2533.6,
+      "text": "all because this is a place where you can find not only this um information this links but much more dozens and dozens different links before I say thank you uh I want to call you and to enourage you to join us Q&A session it will take approximately seven days after BC lunch event six seven days I'm not 100% sure uh"
+    },
+    {
+      "t": 2533.6,
+      "end": 2553.7,
+      "text": "but you will be invited definitely and what is important you will have this time you will have enough time to watch all this videos so you will collect what is uh important what we maybe missed in our presentation uh some other ideas so you will have collection all this information so when you have Q&A you can ask you can ask face"
+    },
+    {
+      "t": 2553.7,
+      "end": 2567.4,
+      "text": "to face through messages whatever you prefer so please join us there and we will be more than open transparent to discuss both Arthur and I in this case so thank you very much for watching this"
+    },
+    {
+      "t": 2567.4,
+      "end": 2569,
+      "text": "session"
+    }
+  ],
+  "markers": [
+    {
+      "t": 0.22,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 7003
+}

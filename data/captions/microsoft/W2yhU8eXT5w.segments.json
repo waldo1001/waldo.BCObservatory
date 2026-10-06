@@ -1,0 +1,443 @@
+{
+  "video_id": "W2yhU8eXT5w",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 17.9,
+      "end": 30.9,
+      "text": "hi my name is claudo I'm a soft engineer working on business Central here in copen and today I'm joined by my colleague chthon hi my name is Chan toaya I'm also a soft trade engineer working business Central in Copenhagen"
+    },
+    {
+      "t": 30.9,
+      "end": 49.4,
+      "text": "in this session we are going to be talking about the new capabilities that we are bringing to the business Central mobile app and mainly we are going to be talking about some new additions that we brought to you via the control addin API some new warehousing scenarios and lastly we are going to be showing some"
+    },
+    {
+      "t": 49.4,
+      "end": 70.1,
+      "text": "Demos in the previous release we have brought to you some new features on the business Central mobile app namely we brought to you the barcod scanning functionality tell me and searching data and we also mentioned that we were working on bringing support for work worksheet pages on phone and we did so in this"
+    },
+    {
+      "t": 70.1,
+      "end": 90.5,
+      "text": "release the worksheet pages on mobile phones are a simplified version of what we already have for desktop and tablet they are simplified meaning that there's a shorter header section of course you also have all the worksheet lines on the same page that you're used to and a full summary section and"
+    },
+    {
+      "t": 90.5,
+      "end": 110.9,
+      "text": "uh to edit the data one would have to Simply tap on the desired area of the line it's really important to mention that we haven't done any changes to the desktop and tablet worksheet pages and this functionality will work out of the box if you have already been implemented uh already um the worksheet pages in business Central however"
+    },
+    {
+      "t": 110.9,
+      "end": 121.6,
+      "text": "we are um advising you to check how they look like and make sure that uh uh you have the desired user interface"
+    },
+    {
+      "t": 121.6,
+      "end": 142,
+      "text": "in the last release we brought to you native barcode scanning capability so we developed the Integrations with both the camera uh barcode scanning capability but also with laser scanning devices nevertheless unfortunately due to some uh technical limitations we were not able to make these available on SAS"
+    },
+    {
+      "t": 142,
+      "end": 162,
+      "text": "but we did listen to your feedback as partners and we did so in this release in terms of of the supported barcode types The Matrix Remains the Same as you can see on the right side side pane you can see all the barcode types that we support for the camera barcod scanning and then when it comes"
+    },
+    {
+      "t": 162,
+      "end": 180.8,
+      "text": "to the laser one of course it's bound to the device that you are using and now let's go through a summary of the mobile app capabilities for barcode scanning in the first scenario probably as you already know um we offer a UI button that indicates barcode scanning functionality"
+    },
+    {
+      "t": 180.8,
+      "end": 200.8,
+      "text": "in the second scenario it is based on the same native functionality as the first scenario however we intend to provide a developers with a more customiz customizable experience and therefore we are bringing this capability in Al where developers can uptake it and do"
+    },
+    {
+      "t": 200.8,
+      "end": 221.2,
+      "text": "uh some certain implementations based on the context on it and then the third scenario um this is something that we specifically tailored for laser barcode scanners these are used for example for warehouse workers who are using the app to scan multiple products scenario number one consists of um adding a UI"
+    },
+    {
+      "t": 221.2,
+      "end": 241.5,
+      "text": "button that acts as an action to trigger the camera barcode scanning functionality is is it is really easy to addit to a page or an exist or a new La page all you have to do is to annotate a field of type code and text with the property extended data type equals barcode once you've done so this will instruct the mobile"
+    },
+    {
+      "t": 241.5,
+      "end": 262.1,
+      "text": "client to show the barcode scanning button when the page is rendered on a supported device the second scenario represents uh the same native capability for barcode scanning and that is using the camera uh Barcode Scanner um but we allow a developers to build a more customizable experience"
+    },
+    {
+      "t": 262.1,
+      "end": 282.5,
+      "text": "for example it can be started from a roll center queue an action a button a link or some automated logic when a page is open for example and once a barcod barcodes it scanned then it just Returns the value to Al for for further code processing in the previous release we were not able to make this capability available"
+    },
+    {
+      "t": 282.5,
+      "end": 302.5,
+      "text": "on SAS due to some technical limitations however in this release we are bringing you a new alapi based on controll D that is supposed to replace the donet based API and therefore making this feature available on SAS and now let's see um an example of this API also"
+    },
+    {
+      "t": 302.5,
+      "end": 323.1,
+      "text": "you if you want to see how that looks like you can just scan the QR code but let's look at how it looks like we've added the new API to our open source GitHub repo namely BC apps and you can find it under the control addin name camera Barcode Scanner provider addin the addin has uh multiple procedures"
+    },
+    {
+      "t": 323.1,
+      "end": 343.3,
+      "text": "and multiple events the procedures are meant to interact with the camera barod scanning capability via the request bar code request bar code async and then the events are the following when uh when there's a successful barcode scanning event the barcode available event will be called"
+    },
+    {
+      "t": 343.3,
+      "end": 363.5,
+      "text": "uh and will take two arguments the barcode and the format of the barcode and in case of a failure of course the event barcode failure will be called uh lastly when mounting this controller in on a page when rendering it on a page the controller in ready with the flag is supported with be called denoting whether"
+    },
+    {
+      "t": 363.5,
+      "end": 383.6,
+      "text": "or not the capability is available on the users mobile now let's see a demo with this new capability Chan thanks laio uh for the demo today I'll be using a data logic memo 10 Android device which is a native uh uh Barcode Scanner which can do both uh"
+    },
+    {
+      "t": 383.6,
+      "end": 403.7,
+      "text": "camera barcode scanning and also laser one on this device have um uh installed business mobile app which I'm going to use for the demo so as clao mentioned uh with the scenario 2 uh it's about camera barcode scanning to Showcase that one I'm going to open um item journal and then try to"
+    },
+    {
+      "t": 403.7,
+      "end": 423.8,
+      "text": "do a positive adjustment of some of our items in that process I'm going to uh enter item tracking lines so let's get to the mobile app now so on the mobile app um you can see that I have tagged item Journal already in this release we also uh worked on um you know improving the brick layouts for all of our"
+    },
+    {
+      "t": 423.8,
+      "end": 444.7,
+      "text": "um uh you know worksheet Pages as Claudia mentioned earlier now that we support uh worksheet pages on mobile devices it was time for us to make the brick layout uh and make it make the user experience more appealing so this how the um the user sorry item Journal looks like"
+    },
+    {
+      "t": 444.7,
+      "end": 465.1,
+      "text": "and you can see on the bottom right corner there show details if you press that one you can see see the fact boxes that are on the item journal page so let's get back to the item Journal so here uh we have two lines so one is U we are you know positively adjusting uh s semi-automatic uh coffee machine"
+    },
+    {
+      "t": 465.1,
+      "end": 485.4,
+      "text": "which is a Serial tracked item and the next line is a hold roasted beans from Indonesia and it's a lot tracked item so in both the cases we are trying to positively adjust it by five quantity so so because these are item tracked so we need to fill in the item tracking lines before proceeding with this item"
+    },
+    {
+      "t": 485.4,
+      "end": 505.6,
+      "text": "Journal so let's uh get and set the item tracking lines to set the item tracking lines I have selected the first line and we have action called item tracking lines clicking that opens U the item tracking lines page so this is the page where we have enabled the uh the camera"
+    },
+    {
+      "t": 505.6,
+      "end": 525.6,
+      "text": "Barcode Scanner capability when there's action called scan multiple invoking that one camera starts U actively looking for barcodes so in this uh on this line if you remember it is um it is a serially track serial track item so we'll start by scanning this serial numbers so I'll click on"
+    },
+    {
+      "t": 525.6,
+      "end": 545.6,
+      "text": "scan multiple and uh obviously it will ask if we are going to scan serial number Lot number package number in this case is serial so once we do that one the camera starts looking for U the bar codes that was one you can see that the camera after processing the first one it"
+    },
+    {
+      "t": 545.6,
+      "end": 557.5,
+      "text": "moves on to the second one and that was um so item quantity is five here so let's scan five"
+    },
+    {
+      "t": 557.5,
+      "end": 578.4,
+      "text": "items four and the last one being all right now you saw that U all five five coffee machines were scanned in and at the at the end when uh it has fulfilled all the item uh tracking requirements then we show this message saying that the item tracking is defined"
+    },
+    {
+      "t": 578.4,
+      "end": 591.6,
+      "text": "and we can move on to the next line so next line will be our whole roasted U be from Indonesia so here again we are going to go to item tracking"
+    },
+    {
+      "t": 591.6,
+      "end": 603.6,
+      "text": "line so here um because this is a lot track item we going to scan some U lot numbers so scan multiple again and this time we are going to select Lot"
+    },
+    {
+      "t": 603.6,
+      "end": 619.9,
+      "text": "number so this uh let's look at the QR code so that was one and you can see that uh the quantity is getting incremented for the same Lot"
+    },
+    {
+      "t": 619.9,
+      "end": 639.9,
+      "text": "number all right so even this uh line is fulfilled so now uh the user can go ahead with this item journal and process this one first further so this was uh the demo for the scenario 2 that Claudio uh just explained and uh you know if you want to enable this uh kind of"
+    },
+    {
+      "t": 639.9,
+      "end": 659.9,
+      "text": "capability that is uh the cameras uh Barcode Scanner capability in your app and on your page let's look at how the code would look like so uh what I'll do is uh first I'll take you through how the code used to be in the previous release and then I will show you how uh we have changed the code in this release uh by using"
+    },
+    {
+      "t": 659.9,
+      "end": 679.9,
+      "text": "the control uh addins so the code you're looking is uh this is how it would look if you wanted the camera Barcode Scanner capability you would uh first Define uh the net object called camera Barcode Scanner provider so once you have um you know declared this variable the next thing is to"
+    },
+    {
+      "t": 679.9,
+      "end": 690.6,
+      "text": "uh you know see if uh in the runtime to see if uh the camera scanning capabili is available on this uh device so that you can do by calling the EAS available"
+    },
+    {
+      "t": 690.6,
+      "end": 711.1,
+      "text": "uh function on the camera barcode do scan provider object which becomes your step two in a way and uh once you find that it is supported then you go ahead and uh uh create an instance of the object which will be three once you have done um you know step three then you need to U you know"
+    },
+    {
+      "t": 711.1,
+      "end": 731.8,
+      "text": "to actively look for uh the barcode scanner you need to activate the camera by calling uh the request barcode BAS sync just uh like we are doing this uh like this in the in the example so once you do this the camera opens on the the device and starts looking for the barcodes and once you"
+    },
+    {
+      "t": 731.8,
+      "end": 751.8,
+      "text": "gets a successful hit then it will uh come to the trigger called Barcode Scanner provider barcode available yeah here you get the barcode that was read and also the format and your step five is to process this one so this are um you know this how the code was in"
+    },
+    {
+      "t": 751.8,
+      "end": 772.3,
+      "text": "the previous release if you wanted this capability and moving from previous release to this release we moved away from net to to uh using the control addin in the current release uh this how the code would look like uh to add this capability on your page you would uh first start by adding"
+    },
+    {
+      "t": 772.3,
+      "end": 792.4,
+      "text": "uh the control add in on your page so uh here you can see we have added the control adding the camera Barcode Scanner provider adding on the on this page and once you add this one the next step for you is to uh find out if uh the camera Barcode Scanner is available on this environment or on the device so that you can"
+    },
+    {
+      "t": 792.4,
+      "end": 812.6,
+      "text": "do um inside the control adding ready so these where uh the es supported argument brings in that information if uh the barcode scanner is available or not depending on that that one you take the next step so here um if it's available the the next thing is to actually activate the"
+    },
+    {
+      "t": 812.6,
+      "end": 833.1,
+      "text": "camera to um start scanning which you're you know in like in the previous case we going to do in the action by calling request barcode async on the control addin which will be your step three so once you do this one as H with the as with the net variable the camera start scanning uh for"
+    },
+    {
+      "t": 833.1,
+      "end": 853.1,
+      "text": "any barcodes once it gets hit it uh calls the barcode available U trigger and the barcode comes in and this is where you handle the barcode or process the barcode and in U like item tracking lines if you want to have U The Continuous scanning kind of U uh experience then uh you basically call the request"
+    },
+    {
+      "t": 853.1,
+      "end": 873.6,
+      "text": "barcode async again after processing U the barcode you already got so this how you get uh The Continuous scanning kind of U experience so these are What U uh looks the scenario two looks uh in code back to Claudia thank you ch now let's talk about scen number three in this scenario we are going to be focusing"
+    },
+    {
+      "t": 873.6,
+      "end": 893.6,
+      "text": "on integration with dedicated barcode scanners uh that are mainly mainly used by people in warehouses and it's important to mention that in order to update this functionality it requires configurations at two levels first level would be a configuration at the device level so in order to have this capability available in"
+    },
+    {
+      "t": 893.6,
+      "end": 913.9,
+      "text": "the BC app one would actually need to configure the laser bcode Scanner with the BC application uh and we also have a documentation for you about how to do that and also it's really important to mention that this capability is available only on Android OS devices then the second level of"
+    },
+    {
+      "t": 913.9,
+      "end": 934.1,
+      "text": "uh configuration that uh an Al developer would have to do is to uh implement the scanning capability in Al um and in order to do so you would have to explicitly start listening for incoming bar codes on an page and then you have to do that only once and"
+    },
+    {
+      "t": 934.1,
+      "end": 954.1,
+      "text": "as the user keeps on scanning then uh barcode barcode data would be will be sent to that page of course one can actually register multiple barcode scanning events on multiple Pages however it would always be sent the data would be always sent to the topmost"
+    },
+    {
+      "t": 954.1,
+      "end": 974.3,
+      "text": "page similar as in the previous scenario we were not able to make the capability available in the last release on SAS but with the addition of the new alapi based on the control D which are meant to replace the net based apis we are also bringing you this capability on"
+    },
+    {
+      "t": 974.3,
+      "end": 994.4,
+      "text": "SS and let's take a look how the API looks like you can already see that this API looks similar to the previous apis that we saw except that this is meant only for integration with the laser dedicated barcode scanning device it consists of two procedures which are meant to request or register"
+    },
+    {
+      "t": 994.4,
+      "end": 1014.5,
+      "text": "a page to start listening to incoming barcode scanning events and then once uh a barcode is scanned the event barcode received will be called and we'll have the subsequent data uh meaning the barcode data and the type of the format similar as in the previous uh controll in this this"
+    },
+    {
+      "t": 1014.5,
+      "end": 1034.5,
+      "text": "controlled in also has an event controlled in ready which denotes whether or not the users uh device is supporting this capability and now let's see a demo with this scenario Chan uh for this demo um U you know as the as the scenario three which is the barcode scanner the laser based Barcode Scanner"
+    },
+    {
+      "t": 1034.5,
+      "end": 1054.9,
+      "text": "is the mainly aimed at U the warehouse workers the scenario I'm going to show now is also U uh you know warehouse worker related so uh you can on the screen you can see um um a ni and pick which is on U warehouse worker um role Center so when I open that one you can see there is a pig document"
+    },
+    {
+      "t": 1054.9,
+      "end": 1075,
+      "text": "in in this release what we have done is also add uh gestures to many of the warehouse related U lists so that it's easier for warehouse worker to use the gesture do different actions that are relevant for those uh list pages so in this uh page you can see we have um gesture you know which is a"
+    },
+    {
+      "t": 1075,
+      "end": 1095.2,
+      "text": "right swipe to assign the pig document uh to yourself so once once I do that one it appears in U my pick um list and now I can work on this so when I uh open this one this is what you see so for people uh who don't know what Warehouse pick is it is a document with a set of instruction for the warehouse"
+    },
+    {
+      "t": 1095.2,
+      "end": 1115.2,
+      "text": "worker uh to move items from uh one bin in a location to another bin so for example if you're in the manufacturing you might want the components that use for manufacturing in the consumption bin so the warehouse pick might be to move uh the components from uh your storage bin to"
+    },
+    {
+      "t": 1115.2,
+      "end": 1135.3,
+      "text": "your consumption bin and if you're selling an item then moving the item from uh from a storage bin to uh shipment bin might be covered in the warehouse pick so this uh pick that we have created looks like this it is sorted by action type which means all the uh the Tes and are"
+    },
+    {
+      "t": 1135.3,
+      "end": 1155.3,
+      "text": "together and all the place so that the warehouse worker can go to the storage and handle all the take lines so that U things are put on the trolley and take it to the destination and do the place operation so let's uh go ahead and do the take operation now yeah this is how the warehouse pick document U looks like so it has"
+    },
+    {
+      "t": 1155.3,
+      "end": 1175.4,
+      "text": "uh you know three take lines and three Place lines so basically you're moving U the items from one bin on in the location to another bin so if you look at uh the T the first take Line This is for taking the item S100 which is a semi-automatic U coffee machine and uh it should be moved from U"
+    },
+    {
+      "t": 1175.4,
+      "end": 1195.6,
+      "text": "you know bin w1001 so and U we have action called scan executing which it opens the line details so this is the page we are built uh to show only the relevant information for the warehouse worker so the first section shows you the line information basically"
+    },
+    {
+      "t": 1195.6,
+      "end": 1210.8,
+      "text": "it's a action type take and what you should take and from which bin and the second part is what you're going to enter now so this is the serial track item so let's go ahead and uh scan a serial number which I have it here"
+    },
+    {
+      "t": 1210.8,
+      "end": 1230.8,
+      "text": "so you could uh see that U it was quite fast and the quantity to handle is set to one and the serial number is also set so when we scan and set information about serial or lot or package on on the take line we also transferred that on to the place line to make it easier"
+    },
+    {
+      "t": 1230.8,
+      "end": 1250,
+      "text": "for the warehouse worker so once um you know this is done this uh because out standing quantity is same as quantity to handle this line is fulfilled so let's move to the next line so here again it's another line for the same item so let's go ahead and"
+    },
+    {
+      "t": 1250,
+      "end": 1270.1,
+      "text": "scan again so the serial number is filled earlier I mentioned that we show only the relevant information so here you can see because it's a Serial track item we show the serial number for a lot tracked item we show the lot number and likewise for a package number for package tracked items so now that uh we have scanned two of this"
+    },
+    {
+      "t": 1270.1,
+      "end": 1282,
+      "text": "coffee machine the next one is the roasted beans which is lot track let's go and uh you know scan some uh lot"
+    },
+    {
+      "t": 1282.7,
+      "end": 1302.8,
+      "text": "numbers yep I did uh five scans you can see that it was quite fast and uh quantity to handle has been set to five and the lot number has been set now the vas worker can take these items to the the destination bins and do the similar activity on the place lines"
+    },
+    {
+      "t": 1302.8,
+      "end": 1322.8,
+      "text": "and then he's uh or he or she is able to uh register the weos pick so this was the demo right and um if you want to have this kind of capability in your app then let's see how the code would look like so like in the previous case I'll start by showing how uh the code looked in the previous release and"
+    },
+    {
+      "t": 1322.8,
+      "end": 1343,
+      "text": "then I'll move on to the how the code looks uh now so in the previous relase again even this capability was exposed through a net object so you would uh you would uh you know Define or declare this variable barcode scanner on your page which will give you this capability and once you uh add that one"
+    },
+    {
+      "t": 1343,
+      "end": 1363.3,
+      "text": "the next step would be to see if it's uh the barcode scanner is available or not that you do it by use available function on the on the net object and once you you know find that it is available then you create which will be your step three and then request Barcode Scanner async will be called"
+    },
+    {
+      "t": 1363.3,
+      "end": 1383.8,
+      "text": "which U again puts the the scanner into the listening mode to listen to any incoming U incoming barcodes so you can see that uh this is once you do the request Barcode Scanner async it's already in The Continuous scanning mode you don't have to uh call these things again so whenever there is a successful"
+    },
+    {
+      "t": 1383.8,
+      "end": 1404,
+      "text": "um uh barcode rate it comes to the barcode received um barcode received trigger and this is where uh you you uh you know handle or you process the barcode and which will be your stepy so this is how it Wass and uh let's see how the code looks in this release again even in this"
+    },
+    {
+      "t": 1404,
+      "end": 1424,
+      "text": "case uh we moved away from the net comp to the control adding as a step one you need to Define your or add the control adding onto the page in the user control uh section which will be your step one and uh the way you find out"
+    },
+    {
+      "t": 1424,
+      "end": 1444.2,
+      "text": "if uh the barcode scanner is available on the device or not is by you know looking at the is supported uh argument that comes in uh once you know that it is supported then you go uh go ahead and call the request Barcode Scanner a sync which again you know starts the barcode scanner in you know in the listening mode and it's listening for any barcode"
+    },
+    {
+      "t": 1444.2,
+      "end": 1464.2,
+      "text": "U that that is scanned from the device and you now once the barcode is read it comes to the barcode received U trigger and that's where you uh that's where you process the barcodes so uh and uh once you add the control add in and start listening the the listening"
+    },
+    {
+      "t": 1464.2,
+      "end": 1484.5,
+      "text": "part uh is uh uh you know it's actively listening until you uh the page is closed and yeah this is what I wanted to show as part of this one back to uh Cloud you thank you Chan for the amazing demos uh now let's talk a bit more about the new controllin API the new controlin API is based"
+    },
+    {
+      "t": 1484.5,
+      "end": 1505.2,
+      "text": "on the existing controll Adin that has have been available in Al for a while now but these controll Adin are special in the sense that they are only uh and can be only used to interact with client extens ility methods such as barcode scanning functionality from a security perspective it is really important to mention"
+    },
+    {
+      "t": 1505.2,
+      "end": 1516,
+      "text": "that they are a close system meaning that uh they can only interact with uh the barcode scanning functionality or any other client extensibility"
+    },
+    {
+      "t": 1516,
+      "end": 1536.1,
+      "text": "methods and it's only us Microsoft who can provide this type of addings and you as partners can update the functionality and build your experiences uh based on them from a UI perspective they are UI less meaning that there's no if frame associated with these control edins as you"
+    },
+    {
+      "t": 1536.1,
+      "end": 1557.2,
+      "text": "might be already used with your current control edins and therefore since there's no iframe styling properties are also not applied we also know that control edins are usually used to do some computation via JavaScript however these type of control edins do not support that at"
+    },
+    {
+      "t": 1557.2,
+      "end": 1577.6,
+      "text": "all going through the next slide um it's really important to mention that the net based apis are still supported meaning that if you already have uptaken any barcode scanning functionality in your application these are still going to be uh"
+    },
+    {
+      "t": 1577.6,
+      "end": 1597.9,
+      "text": "supported however uh we plan to migrate all the that net based apis to control Adin and therefore we strongly encourage to update any new barcode scanning functionality in your app using the controllin API and in the upcoming releases we are also going to be making"
+    },
+    {
+      "t": 1597.9,
+      "end": 1618.2,
+      "text": "other client and Sensibility methods such as the location provider to be available via the control addins in terms of the resources for the mobile app here I have three links that you can use to either see some code samples some documentation or to even download the BC"
+    },
+    {
+      "t": 1618.2,
+      "end": 1638.4,
+      "text": "mobile app and start using or implementing these capabilities that we just talked about in this presentation furthermore we are always looking forward to receive your feedback and therefore reach to us on any social media platform that we are using for example Twitter or if you have some ideas around these capabilities"
+    },
+    {
+      "t": 1638.4,
+      "end": 1653.8,
+      "text": "that we presented in this uh presentation please do some meet them on BC ideas thank you for watching the presentation uh about the business center mobile app and we are looking forward to see what you're going to be building with these new"
+    },
+    {
+      "t": 1653.8,
+      "end": 1659,
+      "text": "capabilities this is it thank you"
+    }
+  ],
+  "markers": [
+    {
+      "t": 0.22,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 4470
+}

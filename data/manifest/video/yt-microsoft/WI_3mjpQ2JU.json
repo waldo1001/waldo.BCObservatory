@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "What's New: Automated IRS1099 Reporting (2024 release wave 1)",
   "url": "https://www.youtube.com/watch?v=WI_3mjpQ2JU",
-  "published_at": null,
+  "published_at": "2024-04-04T13:30:14.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T19:47:59.453Z",
+      "captions": "auto:en-orig",
+      "duration_s": 2569
+    },
+    "captioned": {
+      "at": "2026-10-06T19:48:07.319Z",
+      "path": "data/captions/microsoft/WI_3mjpQ2JU.vtt",
+      "vtt_sha256": "4022b3deb8fdfb4a3672ea966afb11897396925a3fc3f90427a553cad3fbb32e",
+      "segments": 132,
+      "words": 7003,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -20,6 +34,13 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 440,
     "duration_s": 2569,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "4022b3deb8fdfb4a3672ea966afb11897396925a3fc3f90427a553cad3fbb32e"
 }

@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "What's new: Business Central Mobile App and Barcode Scanning (2024 release wave 1)",
   "url": "https://www.youtube.com/watch?v=W2yhU8eXT5w",
-  "published_at": null,
+  "published_at": "2024-04-04T13:30:12.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T19:48:28.810Z",
+      "captions": "auto:en-orig",
+      "duration_s": 1659
+    },
+    "captioned": {
+      "at": "2026-10-06T19:48:38.357Z",
+      "path": "data/captions/microsoft/W2yhU8eXT5w.vtt",
+      "vtt_sha256": "a1f9020e35a4d8e713b35e403a742f53c07d3101eef60167b797b9019c97da2a",
+      "segments": 86,
+      "words": 4470,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -20,6 +34,13 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 442,
     "duration_s": 1659,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a1f9020e35a4d8e713b35e403a742f53c07d3101eef60167b797b9019c97da2a"
 }

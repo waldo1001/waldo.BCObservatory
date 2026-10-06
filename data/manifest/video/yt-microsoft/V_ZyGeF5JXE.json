@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "What's New: Business Central Integration with Power Platform",
   "url": "https://www.youtube.com/watch?v=V_ZyGeF5JXE",
-  "published_at": null,
+  "published_at": "2024-04-04T13:30:14.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T19:48:16.730Z",
+      "captions": "auto:en-orig",
+      "duration_s": 1185
+    },
+    "captioned": {
+      "at": "2026-10-06T19:48:21.702Z",
+      "path": "data/captions/microsoft/V_ZyGeF5JXE.vtt",
+      "vtt_sha256": "db01135acad812b99f6dd14f8c06a02cb083a63bd2f22e0ace0fd6d58803a8dc",
+      "segments": 60,
+      "words": 3219,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -20,6 +34,13 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 441,
     "duration_s": 1185,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "db01135acad812b99f6dd14f8c06a02cb083a63bd2f22e0ace0fd6d58803a8dc"
 }
