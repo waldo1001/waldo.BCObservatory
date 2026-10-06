@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-financial-report-lifecycle-trace",
   "published_at": "2026-05-04T01:20:00.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "5c117831c315d1e31b2e3331e87b43af3c7abbec",
       "words": 1440,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:41:53.342Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.007495
+    },
+    "summarized": {
+      "at": "2026-10-06T18:41:53.353Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:41:53.354Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:41:53.355Z",
+      "page": false
     }
   },
   "input_hash": "5c117831c315d1e31b2e3331e87b43af3c7abbec",
@@ -42,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "5c117831c315d1e31b2e3331e87b43af3c7abbec"
+  "output_hash": "b0f85c15ce38ad5eac889ec60fafce99368610f638d44e8eeeef7bbdd35d3a1e"
 }

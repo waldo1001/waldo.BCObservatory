@@ -1,0 +1,54 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/ai/ai-agent-sdk-convert-agent.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-agent-sdk-convert-agent",
+  "title": "Convert an agent to AL code (preview)",
+  "blob": "1be3f92cdae064ba688455eaf150473c4a9a47a0",
+  "summary": "Convert a prototyped agent to AL code by exporting agent settings and packaging them in an AL application. Implement instructions, permission sets, profiles, and triggering logic.",
+  "systems": [
+    "development",
+    "copilot"
+  ],
+  "topics": [
+    "agents",
+    "al code",
+    "agent development",
+    "permission sets",
+    "profiles"
+  ],
+  "objects": [
+    {
+      "type": "interface",
+      "name": "IAgentFactory"
+    },
+    {
+      "type": "table",
+      "name": "Access Control Buffer"
+    },
+    {
+      "type": "table",
+      "name": "All Profile"
+    },
+    {
+      "type": "codeunit",
+      "name": "Agent"
+    }
+  ],
+  "features": [
+    "Agent export",
+    "Permission set configuration",
+    "Default profile setup",
+    "Agent user settings",
+    "Localization settings"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007495,
+      "pages_in_call": 6
+    }
+  ]
+}

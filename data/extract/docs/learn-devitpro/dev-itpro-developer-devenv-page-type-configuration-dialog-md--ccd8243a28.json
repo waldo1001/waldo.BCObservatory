@@ -1,0 +1,52 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-page-type-configuration-dialog.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-type-configuration-dialog",
+  "title": "The ConfigurationDialog Page Type (preview)",
+  "blob": "279a18ad952bc32bab3569379efd3dc4e50fc1b1",
+  "summary": "The ConfigurationDialog page type enables developers to create focused configuration dialogs for setting up application settings and agent preferences. Use this when building configuration interfaces for agents and AI-powered capabilities in Business Central.",
+  "systems": [
+    "copilot",
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "page type",
+    "configuration",
+    "dialog",
+    "agent",
+    "ui design",
+    "temporary data",
+    "validation"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Agent Configuration"
+    },
+    {
+      "type": "page",
+      "name": "Agent Setup Part"
+    }
+  ],
+  "features": [
+    "ConfigurationDialog page type",
+    "temporary data sources",
+    "modal dialog interface",
+    "system actions (OK, Cancel)",
+    "Content area with groups and fields",
+    "AgentSetupPart",
+    "toggle controls on cards",
+    "instructional text"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.01505,
+      "pages_in_call": 2
+    }
+  ]
+}

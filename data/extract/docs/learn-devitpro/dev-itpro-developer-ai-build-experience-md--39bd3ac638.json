@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/ai-build-experience.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/ai-build-experience",
+  "title": "Build a Copilot user experience with the PromptDialog page",
+  "blob": "4e52c7cfcf0fedf64c5e66aff9d2510b7276d08e",
+  "summary": "Build Copilot user experiences using PromptDialog page type with three modes: prompt mode for input, generate mode for AI processing, and content mode for results review and save/discard actions.",
+  "systems": [
+    "copilot",
+    "development"
+  ],
+  "topics": [
+    "copilot",
+    "promptdialog page",
+    "user experience",
+    "ai integration",
+    "page type"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "PromptDialog"
+    }
+  ],
+  "features": [
+    "Prompt mode",
+    "Generate mode",
+    "Content mode",
+    "System actions (Generate, Regenerate, OK, Cancel)",
+    "Dialog customization"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007495,
+      "pages_in_call": 6
+    }
+  ]
+}

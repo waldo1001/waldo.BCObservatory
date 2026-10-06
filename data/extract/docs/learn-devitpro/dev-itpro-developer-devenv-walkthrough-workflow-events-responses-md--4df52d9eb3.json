@@ -1,0 +1,112 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-walkthrough-workflow-events-responses.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-walkthrough-workflow-events-responses",
+  "title": "Walkthrough: Implementing New Workflow Events and Responses",
+  "blob": "672f32a931a868e9aa5cc52f1283b9b28c57b565",
+  "summary": "This walkthrough describes how to implement new workflow events and workflow responses in Business Central by extending application code and registering the involved objects through event subscribers. Use this when a business scenario requires workflow functionality not supported by default.",
+  "systems": [
+    "development",
+    "administration",
+    "integration"
+  ],
+  "topics": [
+    "workflow",
+    "event",
+    "response",
+    "extension",
+    "codeunit",
+    "table relation",
+    "event subscriber"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Workflow Event Handling"
+    },
+    {
+      "type": "codeunit",
+      "name": "Workflow Response Handling"
+    },
+    {
+      "type": "codeunit",
+      "name": "Workflow Management"
+    },
+    {
+      "type": "codeunit",
+      "name": "Workflow Setup"
+    },
+    {
+      "type": "table",
+      "name": "Workflow Event"
+    },
+    {
+      "type": "table",
+      "name": "Workflow Response"
+    },
+    {
+      "type": "table",
+      "name": "Workflow Step Instance"
+    },
+    {
+      "type": "table",
+      "name": "Workflow Step Argument"
+    },
+    {
+      "type": "table",
+      "name": "WF Event/Response Combination"
+    },
+    {
+      "type": "table",
+      "name": "Workflow Table Relation"
+    },
+    {
+      "type": "table",
+      "name": "Purchase Header"
+    },
+    {
+      "type": "page",
+      "name": "Workflow"
+    },
+    {
+      "type": "page",
+      "name": "Workflow Event Conditions"
+    },
+    {
+      "type": "page",
+      "name": "Workflow Response Options"
+    },
+    {
+      "type": "page",
+      "name": "Workflow-Event-Response-Combinations"
+    },
+    {
+      "type": "page",
+      "name": "Workflow-Event-Hierarchies"
+    },
+    {
+      "type": "page",
+      "name": "Workflow Table-Relations"
+    }
+  ],
+  "features": [
+    "workflow event creation",
+    "workflow response creation",
+    "event subscription",
+    "event raising",
+    "workflow event/response combinations",
+    "workflow event hierarchies",
+    "workflow table relations",
+    "response options"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.01505,
+      "pages_in_call": 2
+    }
+  ]
+}

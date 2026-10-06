@@ -1,0 +1,279 @@
+{
+  "video_id": "W003w36Isto",
+  "item_id": "video/yt-microsoft/W003w36Isto",
+  "title": "What's New: Reporting (For Developers) (2025 release wave 1)",
+  "duration_s": 797,
+  "systems": [
+    "reporting",
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "report layouts",
+    "al features",
+    "layout validation",
+    "word layouts",
+    "excel layouts",
+    "obsoleting",
+    "metadata",
+    "rdl",
+    "developer documentation",
+    "layout properties"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and overview",
+      "t_start": 0,
+      "t_end": 31.1
+    },
+    {
+      "title": "New AL layout features: overriding properties and obsoleting",
+      "t_start": 31.1,
+      "t_end": 120.5
+    },
+    {
+      "title": "Runtime layout features in report layouts page",
+      "t_start": 120.5,
+      "t_end": 197.1
+    },
+    {
+      "title": "Layout management: validation, Excel properties, and troubleshooting",
+      "t_start": 197.1,
+      "t_end": 373.7
+    },
+    {
+      "title": "Word layout enhancements and metadata features",
+      "t_start": 373.7,
+      "t_end": 620.1
+    },
+    {
+      "title": "Word layout example and rendering",
+      "t_start": 620.1,
+      "t_end": 672.2
+    },
+    {
+      "title": "Developer documentation for obsoleting reports",
+      "t_start": 672.2,
+      "t_end": 797
+    }
+  ],
+  "features": [
+    {
+      "name": "Override Excel multiple data sheets property at layout level",
+      "description": "Developers can now override the Excel layout multiple data sheets property at the layout level in AL, allowing individual layouts to have different settings than the report default without affecting existing customer layouts.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 31.1,
+      "t_end": 155.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "excel",
+        "layout properties",
+        "al"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Obsolete report layouts using AL",
+      "description": "Developers can now mark report layouts as obsolete using the obsolete tag in AL, similar to deprecating other AL objects, with support for obsolete state and reason.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 47.9,
+      "t_end": 120.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "obsoleting",
+        "al",
+        "layouts"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Set Excel layout properties in report layouts page",
+      "description": "Users can now set the Excel layout multiple data sheets property directly when creating or editing layouts in the report layouts page, in addition to the AL-level setting.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 174.6,
+      "t_end": 258.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "excel",
+        "layout properties",
+        "ui"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Validate report layouts",
+      "description": "A new validate action allows users and developers to check if report layouts have any issues. Currently validates RDL layouts in 26.0; Word and Excel validation coming in a next minor release.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 269.8,
+      "t_end": 373.7,
+      "is_demoed": true,
+      "caveats": [
+        "Only RDL layout validation in 26.0",
+        "Word and Excel validation coming in next minor release"
+      ],
+      "tags": [
+        "layout validation",
+        "rdl"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Show layout info action",
+      "description": "A new action shows detailed information about report layouts including system ID, type, creator, modifier, obsolete status, and last modified details. System ID can be matched with telemetry custom dimension for troubleshooting.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 269.8,
+      "t_end": 347.4,
+      "is_demoed": true,
+      "caveats": [
+        "Creator and modifier information only populated for user-imported or user-created layouts, not extension or app-provided layouts"
+      ],
+      "tags": [
+        "layout troubleshooting",
+        "telemetry",
+        "system id"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Standard BC report information in Word layouts",
+      "description": "Word layouts now have access to standard metadata and request information through a new BC report information section in the XML mapping, including report name, title, help text, environment, company, user, language, and date/time hierarchy.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 373.7,
+      "t_end": 620.1,
+      "is_demoed": true,
+      "caveats": [
+        "Requires manual mapping in Word XML"
+      ],
+      "tags": [
+        "word layouts",
+        "metadata",
+        "report information"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Word layout date/time hierarchy",
+      "description": "Word layouts can now access a structured hierarchy of year, month, day, hour, and minute from the request metadata, allowing developers to format dates and times in custom ways without hard-coding.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 541.1,
+      "t_end": 620.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "word layouts",
+        "date formatting",
+        "metadata"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Obsoleting reports developer documentation",
+      "description": "Updated developer documentation provides guidance on obsoleting both report layouts and reports in general, including how to communicate changes to users through request pages, help panes, and layout pickers, plus telemetry tracking.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 672.2,
+      "t_end": 787.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "documentation",
+        "obsoleting",
+        "user communication"
+      ],
+      "system": "development"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "number series report",
+      "t": 233.9
+    },
+    {
+      "type": "other",
+      "name": "BC report information",
+      "t": 512.2
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 31.1,
+      "text": "you can first of all override any choice of Excel layout multiple data sheets property that has been set on the report.",
+      "why_it_matters": "This is a new capability for developers to control layout behavior at the layout level rather than only at the report level.",
+      "check": "exact"
+    },
+    {
+      "t": 280.6,
+      "text": "The system ID is all is in particularly useful if you have telemetry because this system ID is also the one that is locked",
+      "why_it_matters": "Shows how layout management integrates with telemetry for troubleshooting and monitoring.",
+      "check": "exact"
+    },
+    {
+      "t": 357.8,
+      "text": "the first major release is only rdl layout that will be validated in a next minor",
+      "why_it_matters": "Clarifies the validation feature status and roadmap for Word and Excel support.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 501.1,
+      "text": "We're not going to dive into that. Instead you see a new kit on the block here. BC report information.",
+      "why_it_matters": "Introduces the key new feature for Word layouts that simplifies access to standard report metadata.",
+      "check": "exact"
+    },
+    {
+      "t": 609.5,
+      "text": "You don't have to use that anymore. Uh you can just use them in a standard fashion.",
+      "why_it_matters": "Highlights how the new metadata features reduce the need for custom AL coding in report layouts.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 357.8,
+      "kind": "coming-later",
+      "text": "For now for the 26.0 the first major release is only RDL layout that will be validated in a next minor. Uh we will also add validation for word and excel."
+    }
+  ],
+  "checks": {
+    "quotes_kept": 5,
+    "quotes_dropped": 1,
+    "evidence_verified": 0,
+    "evidence_unverified": 8
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.024409
+    }
+  ]
+}

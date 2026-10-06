@@ -1,0 +1,27 @@
+{
+  "video_id": "W003w36Isto",
+  "item_id": "video/yt-microsoft/W003w36Isto",
+  "summary": "Report layout changes for developers in Business Central 2025 release wave 1: AL overrides for Excel layout properties, obsoleting layouts in AL, a Validate action (RDL only in 26.0), a Show layout info action, and BC report information in Word layouts.",
+  "overview": "The video covers what is new for developers working with report layouts in 2025 release wave 1. It starts with AL changes: overriding the Excel multiple data sheets property per layout and marking layouts obsolete with an obsolete state and reason.\n\nIt then moves to the report layouts page, where the Excel property can be set, a Validate action checks layouts, and a Show layout info action supports troubleshooting. The last part covers Word layouts, which get a BC report information section in the XML mapping with a date/time hierarchy, and the updated developer documentation on obsoleting reports.",
+  "key_points": [
+    "Developers can override the Excel layout multiple data sheets property at the individual layout level in AL, without affecting existing customer layouts.",
+    "Report layouts can be marked obsolete in AL with the obsolete tag, including obsolete state and reason.",
+    "The Validate action currently checks RDL layouts only in 26.0. Word and Excel validation is announced for a next minor release.",
+    "Show layout info displays system ID, type, creator, modifier, obsolete status and last modified details. The system ID matches the telemetry custom dimension.",
+    "Creator and modifier are filled in only for user-imported or user-created layouts, not extension or app-provided ones.",
+    "Word layouts get a BC report information section in the XML mapping (report name, title, help text, environment, company, user, language, date/time). It must be mapped manually in Word XML.",
+    "The date/time hierarchy (year, month, day, hour, minute) lets Word layouts format dates and times without hard-coding."
+  ],
+  "audience": [
+    "developer",
+    "functional consultant",
+    "administrator"
+  ],
+  "extraction_hash": "0bc5ddf8e7ce5adc53b5b03d1d6277dbf291732a610aa705793980ccffaec142",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0157744
+  }
+}

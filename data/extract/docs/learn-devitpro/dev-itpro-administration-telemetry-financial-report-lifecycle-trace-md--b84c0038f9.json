@@ -1,0 +1,37 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-financial-report-lifecycle-trace.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-financial-report-lifecycle-trace",
+  "title": "Analyzing financial report lifecycle trace telemetry",
+  "blob": "5c117831c315d1e31b2e3331e87b43af3c7abbec",
+  "summary": "Analyze telemetry data on financial report lifecycle events including creation, modification, copying, export, import, and deletion of row, column, and report definitions. Use KQL queries to track changes and debug issues.",
+  "systems": [
+    "reporting",
+    "administration"
+  ],
+  "topics": [
+    "telemetry",
+    "financial reporting",
+    "lifecycle events",
+    "kql queries",
+    "diagnostics"
+  ],
+  "objects": [],
+  "features": [
+    "Financial report row definitions",
+    "Financial report column definitions",
+    "Financial report definitions",
+    "Lifecycle telemetry events",
+    "KQL code samples"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007495,
+      "pages_in_call": 6
+    }
+  ]
+}

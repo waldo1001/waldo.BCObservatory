@@ -1,0 +1,38 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/ai-prepare-app-help-copilot.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/ai-prepare-app-help-copilot",
+  "title": "Prepare your app Help for Copilot (preview)",
+  "blob": "e77341b5b1ef83fd282fbde313c1dd6536daf81a",
+  "summary": "Prepare app help content for Copilot by ensuring online documentation is publicly reachable, properly indexed, English-language, and configured in the app.json Help property. Optimize content structure and add favicon for brand visibility in Copilot responses.",
+  "systems": [
+    "copilot",
+    "development"
+  ],
+  "topics": [
+    "copilot help content",
+    "documentation",
+    "seo indexing",
+    "app.json",
+    "content optimization"
+  ],
+  "objects": [],
+  "features": [
+    "Help URL configuration",
+    "Bing indexing",
+    "HTTPS requirement",
+    "Public access verification",
+    "Brand favicon",
+    "Content structure optimization"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007495,
+      "pages_in_call": 6
+    }
+  ]
+}

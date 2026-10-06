@@ -1,0 +1,1618 @@
+{
+  "video_id": "_JkZCp64jNw",
+  "item_id": "video/yt-microsoft/_JkZCp64jNw",
+  "title": "Business Central Launch Event 2025 Release Wave 1 - Recording of Live Opening",
+  "duration_s": 3312,
+  "systems": [
+    "copilot",
+    "sales",
+    "finance"
+  ],
+  "topics": [
+    "sales order agent",
+    "payables agent",
+    "ai",
+    "agentic framework",
+    "public preview",
+    "agent billing",
+    "e-documents",
+    "copilot autofill",
+    "copilot summarize",
+    "sustainability emissions",
+    "powerbi reports",
+    "shopify integration"
+  ],
+  "chapters": [
+    {
+      "title": "Welcome and Event Overview",
+      "t_start": 0,
+      "t_end": 74.3
+    },
+    {
+      "title": "Content Structure and Video Format Changes",
+      "t_start": 74.3,
+      "t_end": 173.4
+    },
+    {
+      "title": "Video Access and Q&A Sessions",
+      "t_start": 173.4,
+      "t_end": 236
+    },
+    {
+      "title": "Major Announcements and Business Central URL",
+      "t_start": 236,
+      "t_end": 325
+    },
+    {
+      "title": "Release Highlights and AI Investments",
+      "t_start": 325,
+      "t_end": 443.9
+    },
+    {
+      "title": "Sales Order Agent Overview and Expansion",
+      "t_start": 443.9,
+      "t_end": 540.5
+    },
+    {
+      "title": "Sales Order Agent Features and Enhancements",
+      "t_start": 540.5,
+      "t_end": 652.6
+    },
+    {
+      "title": "Sales Order Agent Billing Model",
+      "t_start": 652.6,
+      "t_end": 745.9
+    },
+    {
+      "title": "Payables Agent Demo and E-document Connectors",
+      "t_start": 745.9,
+      "t_end": 953.1
+    },
+    {
+      "title": "Copilot Autofill for Faster Data Entry",
+      "t_start": 953.1,
+      "t_end": 1032.9
+    },
+    {
+      "title": "Copilot Summarize Feature for Card Pages",
+      "t_start": 1032.9,
+      "t_end": 1093.9
+    },
+    {
+      "title": "Sustainability Module Expansion and Copilot Emissions",
+      "t_start": 1093.9,
+      "t_end": 1170
+    },
+    {
+      "title": "E-documents and Regulatory Compliance",
+      "t_start": 1170,
+      "t_end": 1238.8
+    },
+    {
+      "title": "Manufacturing Improvements and Production Order Management",
+      "t_start": 1238.8,
+      "t_end": 1334.6
+    },
+    {
+      "title": "PowerBI and Excel Reports Across Application Areas",
+      "t_start": 1334.6,
+      "t_end": 1469.4
+    },
+    {
+      "title": "Shopify Integration, Subscription Billing, and Analysis Mode",
+      "t_start": 1469.4,
+      "t_end": 1580.1
+    },
+    {
+      "title": "Field Service Integration and User Experience Improvements",
+      "t_start": 1580.1,
+      "t_end": 1677.8
+    },
+    {
+      "title": "PDF Viewing, Fact Boxes, and Capability Guide Expansion",
+      "t_start": 1677.8,
+      "t_end": 1809.4
+    },
+    {
+      "title": "New Pit Stacks and Release Overview",
+      "t_start": 1809.4,
+      "t_end": 1888.3
+    },
+    {
+      "title": "Flexible Update Management and Version Scheduling",
+      "t_start": 1888.3,
+      "t_end": 1991.5
+    },
+    {
+      "title": "Extension Management in Admin Center",
+      "t_start": 1991.5,
+      "t_end": 2096.7
+    },
+    {
+      "title": "Tenant Discovery Endpoint for Scaling Across Customers",
+      "t_start": 2096.7,
+      "t_end": 2179.5
+    },
+    {
+      "title": "Encryption and Customer-Managed Keys",
+      "t_start": 2179.5,
+      "t_end": 2251.9
+    },
+    {
+      "title": "Word-based Report Customization Add-on",
+      "t_start": 2251.9,
+      "t_end": 2343.4
+    },
+    {
+      "title": "Inventory Cost Adjustment and Developer Capabilities",
+      "t_start": 2343.4,
+      "t_end": 2525.5
+    },
+    {
+      "title": "Development Tools: Resources, JSON, YAML, and Mocking",
+      "t_start": 2525.5,
+      "t_end": 2616.5
+    },
+    {
+      "title": "PowerBI Immersive Page Type and UI Integration",
+      "t_start": 2616.5,
+      "t_end": 2681.3
+    },
+    {
+      "title": "Developer Productivity: Web Client, VS Code, and Source Control",
+      "t_start": 2681.3,
+      "t_end": 2760.2
+    },
+    {
+      "title": "Posting Performance and Concurrency Improvements",
+      "t_start": 2760.2,
+      "t_end": 2889.6
+    },
+    {
+      "title": "Performance Optimization and Database Diagnostics",
+      "t_start": 2889.6,
+      "t_end": 2989.7
+    },
+    {
+      "title": "AL-Go for GitHub and DevOps Pipeline Enhancements",
+      "t_start": 2989.7,
+      "t_end": 3109.9
+    },
+    {
+      "title": "Release Summary and Security Investment",
+      "t_start": 3109.9,
+      "t_end": 3312
+    }
+  ],
+  "features": [
+    {
+      "name": "Sales Order Agent",
+      "description": "An AI-powered agent that reads emails, understands customer requests for sales quotes, creates quotes in Business Central with multiple lines, matches pricing and SKUs, generates emails while staying within permissions and working securely.",
+      "status": "preview",
+      "status_evidence_t": 505,
+      "status_evidence_quote": "all of this is now available for you to try in the priv in the public preview and we have expanded this p public",
+      "status_evidence_verified": true,
+      "t_start": 443.9,
+      "t_end": 540.5,
+      "is_demoed": false,
+      "caveats": [
+        "Expanded to multiple countries but not worldwide yet",
+        "Early preview stage with ongoing feedback incorporation"
+      ],
+      "tags": [
+        "agent",
+        "sales",
+        "ai",
+        "quote",
+        "preview"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Sales Order Agent Item Availability Feature",
+      "description": "A dedicated capability allowing the sales order agent and end users to check and assess item availability based on location, requested delivery date, and quantity.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 555.7,
+      "t_end": 599.5,
+      "is_demoed": false,
+      "caveats": [
+        "Part of sales order agent public preview"
+      ],
+      "tags": [
+        "availability",
+        "item",
+        "agent",
+        "sales"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Sales Order Agent Email Insights",
+      "description": "Enhancement to the agent-generated emails to include availability information, discounts, and pricing details in AI-generated templates.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 599.5,
+      "t_end": 636.2,
+      "is_demoed": false,
+      "caveats": [
+        "Developed based on private preview feedback"
+      ],
+      "tags": [
+        "email",
+        "agent",
+        "insights",
+        "preview"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Sales Order Agent Auto-Create Customer",
+      "description": "Capability for the agent to automatically generate a customer if it cannot find one, using email box information for testing and operational purposes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 636.2,
+      "t_end": 652.6,
+      "is_demoed": false,
+      "caveats": [
+        "Applies only when customer is not found"
+      ],
+      "tags": [
+        "customer",
+        "agent",
+        "automation"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Sales Order Agent PDF Preview",
+      "description": "Ability to preview PDFs within Business Central, with benefits to both the sales order agent and end users.",
+      "status": "preview",
+      "status_evidence_t": 652.6,
+      "status_evidence_quote": "Ability to review the the PDF. By the way, spoiler alert, you can preview PDFs now and agent benefits from that",
+      "status_evidence_verified": true,
+      "t_start": 652.6,
+      "t_end": 664.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "pdf",
+        "preview",
+        "document"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent Billing Capability",
+      "description": "A consumption-based billing model for agent usage where agents are monetized in consumption units called messages. Messages are charged when events occur and the agent performs operations like creating emails or quotes, available as prepaid capacity packs or pay-as-you-go.",
+      "status": "preview",
+      "status_evidence_t": 664.6,
+      "status_evidence_quote": "this is something new which is entering into the world of business central is a is a agent billing capability while in private preview",
+      "status_evidence_verified": true,
+      "t_start": 664.6,
+      "t_end": 718.7,
+      "is_demoed": false,
+      "caveats": [
+        "Introduced while in private preview",
+        "Consumption model with messages as the unit"
+      ],
+      "tags": [
+        "billing",
+        "consumption",
+        "agent",
+        "pricing"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Payables Agent",
+      "description": "An AI-powered agent that reads incoming invoices using Azure intelligence, captures invoice information from PDFs, allocates charges to accounts using AI knowledge, splits items by variance, handles prepaid items with deferral codes, and automates the invoice entry process similar to a bookkeeper or accountant.",
+      "status": "preview",
+      "status_evidence_t": 898.2,
+      "status_evidence_quote": "So that's uh coming in business central right now. If we talk about coming uh in business central it's in private preview",
+      "status_evidence_verified": true,
+      "t_start": 745.9,
+      "t_end": 898.2,
+      "is_demoed": true,
+      "caveats": [
+        "In private preview",
+        "Some components also in private preview including e-document connector"
+      ],
+      "tags": [
+        "agent",
+        "payables",
+        "invoice",
+        "ai",
+        "automation"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "E-Document Connector",
+      "description": "Component supporting PDF, SharePoint, OneDrive, and various connectors for e-document processing.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 898.2,
+      "t_end": 918.2,
+      "is_demoed": false,
+      "caveats": [
+        "In private preview"
+      ],
+      "tags": [
+        "e-documents",
+        "connector",
+        "preview"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Purchase Document Draft Page",
+      "description": "New page that displays captured invoice data in a full readable overview in Business Central after being read and processed.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 918.2,
+      "t_end": 934.4,
+      "is_demoed": false,
+      "caveats": [
+        "Part of private preview",
+        "New page"
+      ],
+      "tags": [
+        "e-documents",
+        "purchase documents",
+        "ui"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Payables Agent Public Preview",
+      "description": "Agent will be available in public preview later this year to process invoices, read from PDF, and use intelligent accounting knowledge to put items in the right accounts and inventory.",
+      "status": "announced",
+      "status_evidence_t": 934.4,
+      "status_evidence_quote": "Later this year, you're going to see a public preview of that agent being able to process these invoices",
+      "status_evidence_verified": true,
+      "t_start": 934.4,
+      "t_end": 953.1,
+      "is_demoed": false,
+      "caveats": [
+        "Coming end of this year",
+        "Later this year"
+      ],
+      "tags": [
+        "payables agent",
+        "coming later",
+        "public preview"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Copilot Autofill",
+      "description": "Copilot feature that auto-fills fields on card pages based on frequent choices, recently used values, web search via Bing, and contextual information to enable faster data entry.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 970.9,
+      "t_end": 1032.9,
+      "is_demoed": true,
+      "caveats": [
+        "Works on any cart page"
+      ],
+      "tags": [
+        "copilot",
+        "autofill",
+        "data entry"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Copilot Summarize",
+      "description": "Copilot feature that generates summaries of card pages by finding interesting information, drilling down into related records like invoices, and adding comments to help users learn more about customers, vendors, or items.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1044.5,
+      "t_end": 1093.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "copilot",
+        "summarize",
+        "card pages",
+        "customer info"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Sustainability Module Expansion",
+      "description": "Expansion of the sustainability module to track water and waste, capture scope 3 emissions from suppliers that can be automated, and provide emissions reporting capabilities.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1093.9,
+      "t_end": 1137.1,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "sustainability",
+        "emissions",
+        "water waste"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "Copilot Suggest Emissions",
+      "description": "Copilot feature that suggests emissions values for sustainability tracking by analyzing contextual information like vehicle type, hotel stays, or flight routes to calculate appropriate emission factors.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1137.1,
+      "t_end": 1170,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "copilot",
+        "sustainability",
+        "emissions",
+        "automation"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "E-Document Send by Email",
+      "description": "Capability to send e-documents via email for countries that have not mandated server-based electronic document exchange but still require electronic document transmission.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1207,
+      "t_end": 1218,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "e-documents",
+        "compliance",
+        "regulatory"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Copilot Order Matching for E-Documents",
+      "description": "Copilot enhancement that matches orders better and records item references when processing e-documents, reducing future need for Copilot matching.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1218,
+      "t_end": 1238.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "copilot",
+        "e-documents",
+        "order matching"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Block Production Order Output",
+      "description": "Manufacturing feature allowing users to block the output of production orders to prevent production of items that have stopped selling.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1279.4,
+      "t_end": 1299.5,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "manufacturing",
+        "production orders",
+        "inventory control"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Cancel and Reopen Production Orders",
+      "description": "Manufacturing feature enabling users to cancel or reopen production orders with automatic stock adjustments, replacing a manual process that previously took hours.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1299.5,
+      "t_end": 1317.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "manufacturing",
+        "production orders",
+        "automation"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "PowerBI Reports Expansion",
+      "description": "Expansion of PowerBI reports across all application areas in Business Central with improved layouts and filtering capabilities for areas including manufacturing route planning.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1334.6,
+      "t_end": 1354.7,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "powerbi",
+        "reports",
+        "analytics"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Shopify Sales Channel Selection",
+      "description": "Capability allowing users to select which sales channels products are available on, enabling products to be sold online or at point of sale independently.",
+      "status": "ga",
+      "status_evidence_t": 1406.6,
+      "status_evidence_quote": "One of the things we released uh recently uh as you can see here, one of them is um the capability for example to",
+      "status_evidence_verified": true,
+      "t_start": 1406.6,
+      "t_end": 1419.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "shopify",
+        "sales channels",
+        "e-commerce"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Shopify Metafields for Customers",
+      "description": "Support for Shopify metafields on customer records, allowing custom fields defined in Shopify to be brought into Business Central for richer customer information.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1432.7,
+      "t_end": 1454.4,
+      "is_demoed": false,
+      "caveats": [
+        "Metafields for products were in previous release"
+      ],
+      "tags": [
+        "shopify",
+        "integration",
+        "customer data"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Subscription Billing Improvements",
+      "description": "Improvements to subscription billing feature including terminology updates, UI enhancements, improved onboarding, and new PowerBI reports including churn analysis.",
+      "status": "ga",
+      "status_evidence_t": 1482.5,
+      "status_evidence_quote": "subscription billing um was just released. So we got some feedback, a little bit of the terminology. We don't call it service anymore",
+      "status_evidence_verified": true,
+      "t_start": 1469.4,
+      "t_end": 1514.4,
+      "is_demoed": false,
+      "caveats": [
+        "Recently released, now getting improvements"
+      ],
+      "tags": [
+        "subscription billing",
+        "powerbi",
+        "churn analysis"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Financial Reports Filtering and Layouts",
+      "description": "Enhancement to financial reports enabling users to easily filter, change layouts, save, and reuse custom report configurations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1534.4,
+      "t_end": 1546.9,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "financial reports",
+        "filtering",
+        "layouts"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Analysis Fields from Related Pages",
+      "description": "Capability to add fields from related pages or anything related via a table to analysis views, allowing users to pick these fields to build rich analysis views.",
+      "status": "announced",
+      "status_evidence_t": 1565.5,
+      "status_evidence_quote": "coming in one of the minor releases is the capability of actually adding fields from related pages",
+      "status_evidence_verified": true,
+      "t_start": 1565.5,
+      "t_end": 1580.1,
+      "is_demoed": false,
+      "caveats": [
+        "Coming in a minor release"
+      ],
+      "tags": [
+        "analysis",
+        "related fields",
+        "reporting"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Field Service Work Order Integration",
+      "description": "Integration enabling service orders to be synchronized with Field Service work orders, with additional improvements to the service module.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1598.4,
+      "t_end": 1634.7,
+      "is_demoed": false,
+      "caveats": [
+        "Requires Field Service subscription"
+      ],
+      "tags": [
+        "field service",
+        "service order",
+        "work order",
+        "integration"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "PDF Viewing of Attachments",
+      "description": "Users can now view PDF attachments directly in the Business Central client without needing to download and open them separately.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1677.8,
+      "t_end": 1689.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "attachments",
+        "pdf",
+        "user experience"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Resizing of Fact Boxes",
+      "description": "Users can now resize fact boxes on pages to optimize screen estate usage and improve visibility of field labels.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1677.8,
+      "t_end": 1695.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "fact boxes",
+        "ui",
+        "user experience"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Optimized Screen Estate Usage and Field Label Visibility",
+      "description": "Improvements to display of field labels that were previously cut off, allowing users to quickly understand cart page contents at a glance.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1695.8,
+      "t_end": 1709.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "ui",
+        "labels",
+        "accessibility"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Community Code Contributions",
+      "description": "Business Central product receives contributions from external developers with internal review processes, totaling 159 contributions in this release.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1739,
+      "t_end": 1754.5,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "community",
+        "contributions",
+        "open source"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Capability Guide Expansion",
+      "description": "Business Central capability guide expanded by 100 percent, now describing every feature area of Business Central with areas previously not mentioned now included.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1766.5,
+      "t_end": 1796.7,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "documentation",
+        "capability guide",
+        "reference"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "New Pit Stacks - Power Platform and Subscription",
+      "description": "New pit stacks for power platform and subscription that describe the value delivered in Business Central across releases.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1820.3,
+      "t_end": 1832.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "documentation",
+        "power platform",
+        "subscription"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Business Central URL",
+      "description": "The announcement of business central.com domain, which auto-redirects to the appropriate region or country for users and partners to access Business Central information.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 282,
+      "t_end": 325,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "branding",
+        "url",
+        "announcement"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Flexible Update Management",
+      "description": "Customers can reschedule environment updates to different available versions of Business Central, including minor updates, next major updates, and planned future updates, providing flexibility for partners and customers to prepare before upgrades.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1959.1,
+      "t_end": 2002.7,
+      "is_demoed": true,
+      "caveats": [
+        "No option to postpone updates beyond extended grace period",
+        "Updates still occur automatically after the extended window"
+      ],
+      "tags": [
+        "update management",
+        "version scheduling",
+        "flexibility"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Create New Environments from Any Available Version",
+      "description": "Partners can create new environments based on any available version from the version dropdown, supporting cloud migration and testing projects.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2002.7,
+      "t_end": 2017.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "environments",
+        "version selection",
+        "testing"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Unified Extensions Management in Admin Center",
+      "description": "All extensions - global extensions, per-tenant extensions, and dev extensions - are now available in a single view in the Business Central admin center with unified administration API for listing, uninstalling, and automating management.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2050.2,
+      "t_end": 2096.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "extensions",
+        "administration",
+        "admin center",
+        "api"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Tenant Discovery Endpoint",
+      "description": "New API endpoint allowing partners to find all tenants and environments that granted access to their application, enabling bulk automation of admin operations across multiple customer environments.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2107.2,
+      "t_end": 2179.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "api",
+        "tenant management",
+        "multi-tenant",
+        "automation"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Customer-Managed Encryption Keys",
+      "description": "Organizations can bring their own managed encryption key to encrypt Business Central data on top of existing encryption layers, meeting regional and government requirements.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2215.8,
+      "t_end": 2251.9,
+      "is_demoed": false,
+      "caveats": [
+        "Designed for government organizations and regional requirements",
+        "Optional feature"
+      ],
+      "tags": [
+        "encryption",
+        "security",
+        "compliance",
+        "keys"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Word-Based Report Customization Add-on",
+      "description": "Add-on enabling report customization using Microsoft Word for layout design, control visibility management, font changes, and selection of frequently-used report properties like company name and report run date.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2251.9,
+      "t_end": 2343.4,
+      "is_demoed": true,
+      "caveats": [
+        "Requires Microsoft Word"
+      ],
+      "tags": [
+        "reporting",
+        "word",
+        "customization",
+        "layout"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Iterative Inventory Cost Adjustments",
+      "description": "Enhanced inventory cost adjustment process allowing users to adjust inventory period by period or item by item with granular control and forced adjustments for entries considered incorrect.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2343.4,
+      "t_end": 2409.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "inventory",
+        "cost adjustment",
+        "item",
+        "period"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Cost Adjustment Self-Diagnostics and Insights",
+      "description": "Tooling that runs diagnostics on setup and transactions to provide hints and practical guidance for cost adjustment runs, helping partners support customers and customers optimize cost adjustment processes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2423.6,
+      "t_end": 2453.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "inventory",
+        "diagnostics",
+        "cost adjustment",
+        "support"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Moving Fields and Tables Between Extensions",
+      "description": "Developers can now move fields and tables between extensions to help with refactoring and modernization of apps. This capability was previously available only for Microsoft Teams.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2453.8,
+      "t_end": 2513.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "refactoring",
+        "modernization",
+        "extensions"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Resource Packaging with App Code",
+      "description": "Developers can now package resources together with apps in the same extension where the code is presented, improving organization and deployment.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2513.4,
+      "t_end": 2554.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "resources",
+        "packaging",
+        "extensions"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "JSON and YAML Tooling",
+      "description": "Easier tools for working with JSON formats and YAML, which are industry standards in modern development.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2541.9,
+      "t_end": 2554.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "json",
+        "yaml",
+        "tooling"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "API Call Mocking for Testing",
+      "description": "Developers can mock external services and API calls, writing code that pretends to communicate with external web services and receives pre-prepared responses to test integration scenarios reliably.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2554.6,
+      "t_end": 2595,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "mocking",
+        "api",
+        "testing",
+        "integration"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "PowerBI Immersive Page Type",
+      "description": "A new page type that embeds PowerBI with minimal UI chrome, allowing the PowerBI control to take full space while maintaining the Business Central user experience. Also useful for embedding other controls like POS terminals.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2616.5,
+      "t_end": 2671.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "powerbi",
+        "page type",
+        "ui",
+        "controls"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Direct Jump from Apps List to Source Code",
+      "description": "Developers can stamp the source code into the app definition and jump directly from the list of apps into the source code within their source control system.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2698.6,
+      "t_end": 2713.3,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "developer-productivity",
+        "source-control",
+        "vs-code"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Automatic Launch Configuration Generation",
+      "description": "Tool automatically generates Visual Studio Code launch configurations to connect to an environment, simplifying setup of the development environment.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2713.3,
+      "t_end": 2730.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "vs-code",
+        "launch-configuration",
+        "development-setup"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "One-Click App Dependency Listing",
+      "description": "Developers can click a button to get a complete list of all dependencies of a specific app, then import that list into their app definition.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2730.2,
+      "t_end": 2745.5,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "dependencies",
+        "developer-productivity"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Posting Table Concurrency Refactoring",
+      "description": "Multiple posting tables have been refactored to allow much more concurrent operations. Tables include item ledger entry, value entry, and job ledger entry. Running multiple batch jobs in parallel can achieve 4.7 invoices per second throughput compared to 1 invoice per second with a single batch.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2760.2,
+      "t_end": 2885.8,
+      "is_demoed": false,
+      "caveats": [
+        "throughput improvements vary from data to database"
+      ],
+      "tags": [
+        "posting",
+        "concurrency",
+        "performance",
+        "throughput"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Skip Invisible Flowfield Calculation",
+      "description": "System now skips calculation of flowfields that are not visible on the page, making pages more responsive and faster to open.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2916.4,
+      "t_end": 2929.5,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "performance",
+        "flowfields",
+        "page-responsiveness"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Faster Company Copying",
+      "description": "The process of copying a company has been made much faster.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2929.5,
+      "t_end": 2943,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "performance",
+        "administration"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Enhanced Database Statistics Page",
+      "description": "Database way statistics page and index missing indexes page now provide more insights to help troubleshoot performance and understand which suggested index provides better impact at lower cost.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2943,
+      "t_end": 2955.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "performance",
+        "database",
+        "diagnostics",
+        "troubleshooting"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Service Startup and Scaling Improvements",
+      "description": "NST startup is much faster, scaling is more rapid and aggressive to address demand peaks, memory management has improved, and the system is leaner overall.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2967.5,
+      "t_end": 2989.7,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "performance",
+        "infrastructure",
+        "scaling"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "AL-Go for GitHub Build Optimization",
+      "description": "Apps that have not been changed are not re-built and re-published, making developer pipelines much faster and more efficient.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3046.5,
+      "t_end": 3057.5,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "al-go",
+        "devops",
+        "build-performance"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Page Scripting Tests in AL-Go",
+      "description": "Developers can use page scripting tests and import automated tests into online environments through AL-Go for GitHub.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3070.6,
+      "t_end": 3084.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "al-go",
+        "testing",
+        "devops"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "2025 Release Wave 1 Highlights",
+      "description": "High-level overview of capabilities introduced in the 2025 release wave 1, with detailed descriptions, screenshots, and videos available on the aka.msbc release plan.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3124.3,
+      "t_end": 3139.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "release",
+        "wave 1",
+        "2025"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Security Investments in Business Central",
+      "description": "The product team invests 50 percent of its efforts into security, representing the largest investment focus area alongside other product improvements.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3165.1,
+      "t_end": 3177.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "security",
+        "investment",
+        "priority"
+      ],
+      "system": "administration"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "roll center",
+      "t": 770.6
+    },
+    {
+      "type": "other",
+      "name": "allocation account",
+      "t": 836.2
+    },
+    {
+      "type": "other",
+      "name": "deferral code",
+      "t": 858
+    },
+    {
+      "type": "page",
+      "name": "purchase document draft page",
+      "t": 918.2
+    },
+    {
+      "type": "page",
+      "name": "customer card",
+      "t": 984.8
+    },
+    {
+      "type": "page",
+      "name": "analysis views",
+      "t": 1565.5
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Maya",
+      "confidence": "high"
+    },
+    {
+      "name": "Yanik",
+      "confidence": "high"
+    },
+    {
+      "name": "Yanik Ba",
+      "confidence": "medium"
+    },
+    {
+      "name": "Dmitri Shadv",
+      "confidence": "low"
+    },
+    {
+      "name": "Christina",
+      "confidence": "high"
+    },
+    {
+      "name": "Demetri",
+      "confidence": "medium"
+    },
+    {
+      "name": "Stan",
+      "confidence": "high"
+    },
+    {
+      "name": "Yanni",
+      "confidence": "high"
+    },
+    {
+      "name": "Dimitri",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 74.3,
+      "text": "Hot of the press, it's less than an hour ago that we actually shipped Business Central 2025 release wave 1.",
+      "why_it_matters": "Establishes the timing of the product release relative to the launch event.",
+      "check": "exact"
+    },
+    {
+      "t": 150.8,
+      "text": "we actually have 60 plus videos byite-sized for you guys at home. And we have an amount of 10 hours that you guys can",
+      "why_it_matters": "Quantifies the learning content available, showing the scope of new features and improvements.",
+      "check": "exact"
+    },
+    {
+      "t": 357.1,
+      "text": "we talk about the sales order agent. And that was the number of agents spun up by you trying it out in the very",
+      "why_it_matters": "Demonstrates early adoption with 200 agents deployed by customers in preview.",
+      "check": "exact"
+    },
+    {
+      "t": 505,
+      "text": "all of this is now available for you to try in the priv in the public preview and we have expanded this p public",
+      "why_it_matters": "Confirms sales order agent is in public preview and expanding geographic availability.",
+      "check": "exact"
+    },
+    {
+      "t": 516.7,
+      "text": "the sales order agent is going to many more countries around the world. So it's gone into Canada, United States, Australia, Great Britain, New",
+      "why_it_matters": "Lists specific countries where sales order agent public preview is available.",
+      "check": "exact"
+    },
+    {
+      "t": 687.5,
+      "text": "The a the agent is going to be uh monetized in a consumption unit which is called message.",
+      "why_it_matters": "Establishes the billing model for agent usage based on message consumption.",
+      "check": "exact"
+    },
+    {
+      "t": 729.9,
+      "text": "this was just the beginning of Business Central agentic story. So, we're moving beyond the first agent already now.",
+      "why_it_matters": "Signals multiple agents planned beyond the sales order agent, indicating broader agentic strategy.",
+      "check": "exact"
+    },
+    {
+      "t": 836.2,
+      "text": "the payables agent has taken that information and used AI to first of all put the design on an allocation account allocating between design",
+      "why_it_matters": "Demonstrates how the payables agent uses AI and business knowledge to intelligently allocate invoice line items across accounting dimensions.",
+      "check": "exact"
+    },
+    {
+      "t": 898.2,
+      "text": "So that's uh coming in business central right now. If we talk about coming uh in business central it's in private preview",
+      "why_it_matters": "Confirms payables agent is in private preview and available in current release.",
+      "check": "exact"
+    },
+    {
+      "t": 934.4,
+      "text": "Later this year, you're going to see a public preview of that agent being able to process these invoices",
+      "why_it_matters": "Announces timeline for payables agent public preview coming end of the calendar year.",
+      "check": "exact"
+    },
+    {
+      "t": 1108,
+      "text": "it now uh takes care of water and waste in this release but also the most important uh scope 3 emissions which are the",
+      "why_it_matters": "Describes major sustainability module expansion adding water, waste, and scope 3 supplier emissions tracking.",
+      "check": "exact"
+    },
+    {
+      "t": 1180.6,
+      "text": "There's 60 countries around the world right now that mandates um electronic document exchange. 20 more coming uh soon",
+      "why_it_matters": "Quantifies regulatory drivers for e-document investment with 60 mandating countries now and 20 more anticipated.",
+      "check": "exact"
+    },
+    {
+      "t": 1279.4,
+      "text": "you can now block the output of uh production orders so that you don't produce items that you basically stop selling that was not",
+      "why_it_matters": "Highlights new manufacturing capability addressing business need to prevent production of discontinued items.",
+      "check": "exact"
+    },
+    {
+      "t": 1482.5,
+      "text": "subscription billing um was just released. So we got some feedback, a little bit of the terminology. We don't call it service anymore",
+      "why_it_matters": "Notes that subscription billing was recently released and is receiving feedback-driven improvements in terminology and UI.",
+      "check": "exact"
+    },
+    {
+      "t": 1565.5,
+      "text": "One of the things that we're missing which is now as you can see soon coming. It's coming in one of the minor releases",
+      "why_it_matters": "Announces upcoming analysis mode enhancement to add related table fields, scheduled for a minor release.",
+      "check": "exact"
+    },
+    {
+      "t": 1618.7,
+      "text": "it's very important of course to have a great integration to field service because field service uh frontline workers um as it says material",
+      "why_it_matters": "Explains the strategic importance of Field Service integration targeting a large global market segment.",
+      "check": "exact"
+    },
+    {
+      "t": 1782.6,
+      "text": "It's basically expanded by 100% uh with this release meaning that we are now describing every feature area of Business Central.",
+      "why_it_matters": "Quantifies the scope expansion of capability guide documentation covering all feature areas.",
+      "check": "exact"
+    },
+    {
+      "t": 1971.1,
+      "text": "you can schedule environments to any available version of business central u that is a minor update and next major update but also to",
+      "why_it_matters": "Details the version selection flexibility available in flexible update management for scheduling.",
+      "check": "exact"
+    },
+    {
+      "t": 2017.5,
+      "text": "with all of this flexibility, there will be no opportunity and possibility and tooling. We wiped away that piece of functionality in our service.",
+      "why_it_matters": "Critical limitation: customers cannot postpone updates beyond the extended grace period despite flexible scheduling options.",
+      "check": "exact"
+    },
+    {
+      "t": 2073.8,
+      "text": "on this screenshot you see three worlds joining together the global extensions the per tenant extensions and dev extensions in the same view",
+      "why_it_matters": "Shows unification of three extension types into single admin center interface for simplified management.",
+      "check": "exact"
+    },
+    {
+      "t": 2251.9,
+      "text": "partners spending a lot of time building reports to our you know in our studies up to 25% of implementation time can be spent",
+      "why_it_matters": "Quantifies implementation effort spent on report customization, justifying Word-based customization add-on.",
+      "check": "exact"
+    },
+    {
+      "t": 2367.1,
+      "text": "This is a really critical process for so many organizations out there.",
+      "why_it_matters": "Establishes the importance of accurate inventory evaluation as a foundational business process.",
+      "check": "exact"
+    },
+    {
+      "t": 2397.8,
+      "text": "you can adjust your inventory period by period or even item by item. So the granularity is spectacular with this tool.",
+      "why_it_matters": "Describes the granular control levels now available for inventory cost adjustments.",
+      "check": "exact"
+    },
+    {
+      "t": 2397.8,
+      "text": "with this release, additional capabilities were included with Business Central which allows you for example to do iterative adjustments",
+      "why_it_matters": "Confirms that iterative inventory cost adjustments are a new capability in this release.",
+      "check": "exact"
+    },
+    {
+      "t": 2488.6,
+      "text": "moving fields and tables between extensions is a huge help to all of you doing refactoring of your apps",
+      "why_it_matters": "Highlights a major development capability enabling developers to refactor and modernize their extensions.",
+      "check": "exact"
+    },
+    {
+      "t": 2832.6,
+      "text": "If you run one batch job worth 1,000 sales invoices uh you can get around one invoice posted per second",
+      "why_it_matters": "Establishes baseline performance metrics for posting before concurrency improvements.",
+      "check": "exact"
+    },
+    {
+      "t": 2843.3,
+      "text": "If you run five botches botches of 1,000 invoices, your throughput will increase to 4.7 invoices per second",
+      "why_it_matters": "Demonstrates significant throughput improvement from concurrent posting, showing 4.7x improvement in parallel scenarios.",
+      "check": "exact"
+    },
+    {
+      "t": 2916.4,
+      "text": "We made it possible to skip calculation of invisible flow fields because it makes a complete sense",
+      "why_it_matters": "Explains the design rationale for a performance optimization that improves page responsiveness.",
+      "check": "exact"
+    },
+    {
+      "t": 3046.5,
+      "text": "we are not uh we are not re rebuilding and republishing the apps which have not been changed",
+      "why_it_matters": "Describes a critical AL-Go for GitHub optimization that speeds up development pipelines.",
+      "check": "exact"
+    },
+    {
+      "t": 3124.3,
+      "text": "This was the highlevel overview of the capabilities which 2025 release wave 1 brings to us.",
+      "why_it_matters": "Summarizes the entire release scope and directs viewers to the official release plan documentation.",
+      "check": "exact"
+    },
+    {
+      "t": 3165.1,
+      "text": "I know that 50% of our investments go into security. Yes. Then there is a quarter of investments into all everything else",
+      "why_it_matters": "Provides insight into product investment priorities, with security consuming 50 percent of resources.",
+      "check": "exact"
+    },
+    {
+      "t": 3165.1,
+      "text": "I mean I know that 50% of our investments go into security.",
+      "why_it_matters": "Quantifies the product team's strategic priority allocation, showing security as the dominant investment focus.",
+      "check": "exact"
+    },
+    {
+      "t": 3177.6,
+      "text": "What we haven't covered now is of course what we spend our time on. That was writing and producing the business central song.",
+      "why_it_matters": "Introduces the entertainment segment as a concluding element of the launch event.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 505,
+      "kind": "preview",
+      "text": "available for you to try in the priv in the public preview"
+    },
+    {
+      "t": 664.6,
+      "kind": "preview",
+      "text": "agent billing capability while in private preview"
+    },
+    {
+      "t": 898.2,
+      "kind": "preview",
+      "text": "coming in business central it's in private preview"
+    },
+    {
+      "t": 934.4,
+      "kind": "coming-later",
+      "text": "Later this year, you're going to see a public preview"
+    },
+    {
+      "t": 1565.5,
+      "kind": "coming-later",
+      "text": "soon coming. It's coming in one of the minor releases"
+    },
+    {
+      "t": 2873.9,
+      "kind": "other",
+      "text": "the team asked me to put all of the asterises around the 324% percentages. it differs from data to data, from database to database"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 33,
+    "quotes_dropped": 0,
+    "evidence_verified": 8,
+    "evidence_unverified": 49
+  },
+  "windows": 5,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.030018
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.040954000000000004
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.035037
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.034865
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.008154999999999999
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.1232159
+    }
+  ]
+}

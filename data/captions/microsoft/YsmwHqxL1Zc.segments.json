@@ -1,0 +1,113 @@
+{
+  "video_id": "YsmwHqxL1Zc",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 5.9,
+      "end": 26.1,
+      "text": "for decades companies have automated their accounts payable processes it's a decade old problem all the way back to the beginning of the computer basically along the way different technology has emerged that helps companies streamline these processes more ed better connectivity"
+    },
+    {
+      "t": 26.1,
+      "end": 46.7,
+      "text": "the emergence of e invoicing and RPA and even AI with optical character recognition OCR but even the combination of all of these Technologies still don't do that last mile of handling an invoice all the stuff that a human would normally have to do because the knowledge of the accounting of how to"
+    },
+    {
+      "t": 46.7,
+      "end": 66.7,
+      "text": "register an invoice correctly within your system for this company in this industry in this country so all of these questions today typically needs to be handled by u a human or they rely on on some tedious mapping and setup that relies on data being the same every time you receive a certain"
+    },
+    {
+      "t": 66.7,
+      "end": 86.7,
+      "text": "invoice this is a great case for generative AI to solve we're happy to introduce the payables agent the agent that will streamline this accounting payables process from start to finish this is a great case for generative AI generative AI is able to unlock that last mile of"
+    },
+    {
+      "t": 86.7,
+      "end": 102.3,
+      "text": "accounting knowledge that is typically needed to process an invoice to completion we imagine that the agent is able to automate the entire flow from receiving invoices from various channels to ending up with a posted"
+    },
+    {
+      "t": 102.3,
+      "end": 122.5,
+      "text": "invoice and accounting knowledge can be applied at various stages across this process you can also imagine we could use AI to ask questions like is this even a real invoice this is fraud is there any anomalies how do we typically handle this invoice in this company and so on there are many many different"
+    },
+    {
+      "t": 122.5,
+      "end": 142.7,
+      "text": "use cases many places where we can apply intelligence now it's important to say that even though this is an agent that ideally could be automated 100% it's designed for human oversight we can decide and you can decide where to bring in humans into the loop where it adds"
+    },
+    {
+      "t": 142.7,
+      "end": 157.3,
+      "text": "value that is subjective you might find Value in being involved in certain decisions and we might think there's value in some other decisions we intend to make this configurable so you can decide where to be in the"
+    },
+    {
+      "t": 157.3,
+      "end": 171.9,
+      "text": "loop to make this story a reality to make the PES agent a reality we needed to do some work on some building blocks inside business Central the first one of those is the new e doent connector for Microsoft"
+    },
+    {
+      "t": 171.9,
+      "end": 192.6,
+      "text": "365 it's a connector that you enable through an e doent service that enables you to import p PDF attachments from a Microsoft 365 mailbox or from SharePoint or from one drive that gives you great options for sourcing PDF invoices from these"
+    },
+    {
+      "t": 192.6,
+      "end": 212.8,
+      "text": "channels another component we've been working on is a new inbound e doent list page this is your go-to page for every e doent that you receive whether they come in through SharePoint or Outlook or electronic invoicing even it's important to say here that the accounting intelligence that we buil into to"
+    },
+    {
+      "t": 212.8,
+      "end": 223.1,
+      "text": "this agent not only support PDFs it also supports any other incoming vendor invoice from E invoicing channels for"
+    },
+    {
+      "t": 223.1,
+      "end": 243.2,
+      "text": "example the third thing we are building as well to support the agent is a new purchase document draft page this page is where the agent will suggest how to register the invoice where it will suggest if you need to defer an expense or split up an expense uh across departments and"
+    },
+    {
+      "t": 243.2,
+      "end": 263.4,
+      "text": "so on it's also here you get a preview of the PDF that you can view in full screen or in the fact box as shown here we may do some adjustments to this page as it's in early stages right now so this is where the bulk of our development is at the moment but this page is where users or agents can go and assess"
+    },
+    {
+      "t": 263.4,
+      "end": 276.4,
+      "text": "a draft invoice and then decide to finalize it so it becomes a real purchase invoice document all of these components are necessar to build the payables agent"
+    },
+    {
+      "t": 276.4,
+      "end": 296.4,
+      "text": "story but it's still in development we aim for this agent to be available for public preview somewhere in the second half of 2025 with the scope of features you see here one of the most important things here is the intelligent accounting that we built into the agent basically taking the accounting knowledge that typically"
+    },
+    {
+      "t": 296.4,
+      "end": 316.6,
+      "text": "reside in the minds of bookkeepers and accountants and learning from that we want to be able to create purchase invoices to begin with and we want to make it easy for you to configure human in the loop moments but we also know it cannot stop there we need to have a good story for supporting other e doents like the E invoices"
+    },
+    {
+      "t": 316.6,
+      "end": 330.8,
+      "text": "I mentioned before and we also definitely want to support purchase order matching so you get an invoice in and you map it to purchase orders and do that three-way matching that we all love and of course approving"
+    },
+    {
+      "t": 330.8,
+      "end": 351.2,
+      "text": "invoices is a crucial part for eyes approval or whatever is a good fit in your business we want to be able to support that as well with an easy way to see the original PDF document and there we hope to bring some scenarios alive that also enables you to approve outside of business"
+    },
+    {
+      "t": 351.2,
+      "end": 360,
+      "text": "inal a lot of great things to come with the pbl's agent stay tuned for more information"
+    }
+  ],
+  "markers": [
+    {
+      "t": 0,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 914
+}

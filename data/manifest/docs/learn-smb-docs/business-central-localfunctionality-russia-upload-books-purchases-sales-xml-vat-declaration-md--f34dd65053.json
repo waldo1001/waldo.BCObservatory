@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/upload-books-purchases-sales-xml-vat-declaration",
   "published_at": "2026-05-04T02:42:00.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "79bb550855712f6b96231830fb93a01cc010d5b0",
       "words": 551,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:41:53.341Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.007495
+    },
+    "summarized": {
+      "at": "2026-10-06T18:41:53.350Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:41:53.351Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:41:53.352Z",
+      "page": false
     }
   },
   "input_hash": "79bb550855712f6b96231830fb93a01cc010d5b0",
@@ -44,5 +63,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "79bb550855712f6b96231830fb93a01cc010d5b0"
+  "output_hash": "51eb7b72e93fd2cbfe6ef4cc815b008adb541a0b0601581daf6a23cc145ae560"
 }

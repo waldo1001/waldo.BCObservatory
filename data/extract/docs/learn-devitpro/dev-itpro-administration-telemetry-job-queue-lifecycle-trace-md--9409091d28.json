@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-job-queue-lifecycle-trace.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-job-queue-lifecycle-trace",
+  "title": "Analyzing Job Queue Lifecycle Trace Telemetry",
+  "blob": "41bf01f70f7798cdf1e2a395c31a222706ea983b",
+  "summary": "Analyze job queue lifecycle telemetry events to monitor when job queue entries are enqueued, started, finished, failed, or cancelled. Use KQL queries to troubleshoot failures and set up alerts.",
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "job queue",
+    "telemetry",
+    "performance monitoring",
+    "troubleshooting",
+    "alerts"
+  ],
+  "objects": [],
+  "features": [
+    "Job queue enqueue events",
+    "Job queue error tracking",
+    "Retry attempts monitoring",
+    "Recurring job queues",
+    "Scheduled task tracking"
+  ],
+  "versions": [
+    "2020 release wave 2",
+    "version 17.2"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007495,
+      "pages_in_call": 6
+    }
+  ]
+}
