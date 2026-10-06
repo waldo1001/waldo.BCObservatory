@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-17.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-17",
+  "title": "Consolidated Trial Balance (report)",
+  "blob": "3d8498b14bb5db6e1003819f760a4e37f707d40e",
+  "summary": "Consolidated Trial Balance report summarizes general ledger account balances from multiple companies into one unified view for group-level financial analysis.",
+  "systems": [
+    "finance",
+    "reporting"
+  ],
+  "topics": [
+    "consolidation",
+    "trial balance",
+    "multi-company",
+    "financial analysis"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Consolidated Trial Balance"
+    }
+  ],
+  "features": [
+    "multi-company balances",
+    "consolidated view",
+    "intercompany eliminations"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.001862,
+      "pages_in_call": 8
+    }
+  ]
+}

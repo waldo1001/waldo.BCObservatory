@@ -1,0 +1,28 @@
+{
+  "video_id": "6NuJOL8DEqA",
+  "item_id": "video/yt-microsoft/6NuJOL8DEqA",
+  "summary": "Updated Manufacturing Power BI app in Business Central 2025 release wave 1: reworked Work Center Load, Expected Capacity Need and Finished Production Order Breakdown reports, new Work Center and Machine Center statistics reports, a routing lines Gantt chart, and planned hiding of two utilization reports in version 26.1.",
+  "overview": "The video presents a large update to manufacturing analytics in the Business Central Power BI app, part of 2025 release wave 1. The stated aim is to modernize legacy manufacturing reports and add Power BI specific visualizations, using feedback from subject matter experts and the partner community. The new reports are said to surface in the app in version 26.1.\n\nThe demo covers updated reports (work center load, expected capacity need, finished production order breakdown), two statistics reports migrated from legacy reports, and a Gantt chart of production order routing lines. The presenter shows the raw Power BI report because the embedded experience was still being finished at recording. The video also says the current and historical utilization reports will likely be hidden in 26.1 and removed later.",
+  "key_points": [
+    "New reports in the manufacturing Power BI app are stated to arrive in version 26.1.",
+    "Work Center Load report: color scheme of allocated time and available capacity, better layout for several work centers, statistics table below.",
+    "Expected Capacity Need report covers work centers and machine centers, with drill-down to order line level.",
+    "Finished Production Order Breakdown report now focuses on KPIs and cost breakdown: actual cost, capacity overhead cost and overhead cost.",
+    "Work Center and Machine Center statistics reports are migrated from legacy reports. Work center capacity shows in minutes, which can be changed with access to the Power BI file.",
+    "Production Order Routing Lines Gantt chart has a timeline view and focus mode. The demo used refreshed data in the Power BI report, not live data.",
+    "Current utilization and historical utilization reports will likely be hidden in 26.1 and removed in a later release."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "partner",
+    "developer"
+  ],
+  "extraction_hash": "2cfdd0235f31e3311e345cfca72bae229f2e995572d610e3c92aa5e523e0d567",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0170364
+  }
+}

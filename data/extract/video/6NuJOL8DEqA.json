@@ -1,0 +1,323 @@
+{
+  "video_id": "6NuJOL8DEqA",
+  "item_id": "video/yt-microsoft/6NuJOL8DEqA",
+  "title": "What's New: Manufacturing Analytics (Updated Power BI App) Electronic Documents(2025 release wave 1)",
+  "duration_s": 627,
+  "systems": [
+    "manufacturing",
+    "reporting",
+    "platform"
+  ],
+  "topics": [
+    "power bi app",
+    "manufacturing analytics",
+    "updated reports",
+    "work center load",
+    "expected capacity",
+    "production order breakdown",
+    "gantt chart",
+    "statistics reports",
+    "machine center",
+    "deprecation"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Investment Pillars",
+      "t_start": 0,
+      "t_end": 55.5
+    },
+    {
+      "title": "Guiding Themes and Modernization Vision",
+      "t_start": 55.5,
+      "t_end": 116.2
+    },
+    {
+      "title": "Overview of Updated Reports",
+      "t_start": 116.2,
+      "t_end": 156.5
+    },
+    {
+      "title": "Demo of Updated Reports",
+      "t_start": 156.5,
+      "t_end": 252.3
+    },
+    {
+      "title": "New Statistical Reports",
+      "t_start": 252.3,
+      "t_end": 354.4
+    },
+    {
+      "title": "Production Order Routing Gantt Chart",
+      "t_start": 354.4,
+      "t_end": 450.8
+    },
+    {
+      "title": "Report Summary and Deprecations",
+      "t_start": 450.8,
+      "t_end": 532.3
+    },
+    {
+      "title": "Learning Resources and Conclusion",
+      "t_start": 532.3,
+      "t_end": 627
+    }
+  ],
+  "features": [
+    {
+      "name": "Work Center Load Report",
+      "description": "Updated report showing better visualization across work centers with color scheme of allocated time and available capacity, improved layout for multiple work centers, and detailed statistics table below.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 116.2,
+      "t_end": 196.8,
+      "is_demoed": true,
+      "caveats": [
+        "embedded experience still being finished up",
+        "shown in raw Power BI rather than embedded"
+      ],
+      "tags": [
+        "work center",
+        "capacity",
+        "visualization"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Expected Capacity Need Report",
+      "description": "Enhanced report showing analytics and insights both by work center and machine center, with drill-down capability to order line level details.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 217,
+      "t_end": 252.3,
+      "is_demoed": true,
+      "caveats": [
+        "drill-down to line level detail capability added"
+      ],
+      "tags": [
+        "capacity",
+        "machine center",
+        "work center"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Finished Production Order Breakdown Report",
+      "description": "Report updated with KPI focus and cost breakdown showing actual costs, capacity overhead cost, and overhead cost associated with production orders.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 252.3,
+      "t_end": 293,
+      "is_demoed": true,
+      "caveats": [
+        "new focus on cost breakdown"
+      ],
+      "tags": [
+        "costs",
+        "production order",
+        "kpi"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Work Center Statistics Report",
+      "description": "New statistical report migrated from legacy manufacturing reports showing detailed work center statistics including capacity in minutes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 313.3,
+      "t_end": 354.4,
+      "is_demoed": true,
+      "caveats": [
+        "capacity units in minutes but customizable via Power BI file access",
+        "table-like format from legacy report migration"
+      ],
+      "tags": [
+        "statistics",
+        "work center",
+        "capacity"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Machine Center Statistics Report",
+      "description": "New statistical report showing machine center statistics including allocated time, center output, scrap, scrap percentage, and stop time.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 334,
+      "t_end": 390.4,
+      "is_demoed": true,
+      "caveats": [
+        "migrated from legacy reports",
+        "requires scrolling to see all measures"
+      ],
+      "tags": [
+        "statistics",
+        "machine center",
+        "scrap"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Production Order Routing Lines Gantt Chart",
+      "description": "New visual report displaying production order lines or routing lines in Gantt chart format with interactive timeline view and focus mode capability.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 390.4,
+      "t_end": 450.8,
+      "is_demoed": true,
+      "caveats": [
+        "not on live data",
+        "data refreshed in Power BI report",
+        "may need more live versions"
+      ],
+      "tags": [
+        "gantt chart",
+        "routing",
+        "visual"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Manufacturing Power BI App Update",
+      "description": "Comprehensive update to manufacturing Power BI app incorporating feedback from subject matter experts and partner community, modernizing legacy reports and adding Power BI specific visualizations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 5.4,
+      "t_end": 450.8,
+      "is_demoed": true,
+      "caveats": [
+        "embedded experience still being finished up at time of recording"
+      ],
+      "tags": [
+        "power bi",
+        "analytics",
+        "modernization"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Current Utilization Report Deprecation",
+      "description": "Current utilization report will be hidden in version 26.1 and removed in a later release as part of the manufacturing Power BI app modernization.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 471.5,
+      "t_end": 511.8,
+      "is_demoed": false,
+      "caveats": [
+        "deprecation is planned but not yet certain"
+      ],
+      "tags": [
+        "deprecation",
+        "legacy"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Historical Utilization Report Deprecation",
+      "description": "Historical utilization report will be hidden in version 26.1 and removed in a later release as part of the manufacturing Power BI app modernization.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 471.5,
+      "t_end": 511.8,
+      "is_demoed": false,
+      "caveats": [
+        "deprecation is planned but not yet certain"
+      ],
+      "tags": [
+        "deprecation",
+        "legacy"
+      ],
+      "system": "manufacturing"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Production Order Routing Lines Gantt chart",
+      "t": 95.8
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 5.4,
+      "text": "in 2025 release Wave 1 we are releasing a really big change or update to the manufacturing analytics",
+      "why_it_matters": "Establishes the scope and scale of the manufacturing analytics update in this release.",
+      "check": "exact"
+    },
+    {
+      "t": 35.2,
+      "text": "note that all of this is coming in version 26.1 new reports surfacing in the powerbi app for manufacturing",
+      "why_it_matters": "Specifies the exact version number where these features will be available.",
+      "check": "exact"
+    },
+    {
+      "t": 75.7,
+      "text": "we have uh this vision of modernizing in the Legacy reports in in manufacturing and simply making as much of the analytical analytical power",
+      "why_it_matters": "Explains the core strategy of migrating legacy report functionality to Power BI.",
+      "check": "exact"
+    },
+    {
+      "t": 95.8,
+      "text": "we added a report that give you a Gant visualization of your pro production order routing lines",
+      "why_it_matters": "Highlights a new capability leveraging Power BI's visual strengths not available in legacy reports.",
+      "check": "exact"
+    },
+    {
+      "t": 313.3,
+      "text": "you can see capacity in minutes uh that is something that that you can change but you have to get access to the powerbi",
+      "why_it_matters": "Indicates customization options and limitations in the Power BI report.",
+      "check": "exact"
+    },
+    {
+      "t": 471.5,
+      "text": "we will also likely deprecate uh these two current utilization and historical utilization likely just hide them in in this version and then remove",
+      "why_it_matters": "Communicates the planned deprecation of legacy reports.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 450.8,
+      "kind": "preview",
+      "text": "right now and when we record this that part we're still finishing up so that's why I'm I'm showing the raw pay powerbi um in this updated app"
+    },
+    {
+      "t": 471.5,
+      "kind": "subject-to-change",
+      "text": "we will also likely deprecate uh these two current utilization and historical utilization likely just hide them in in this version and then remove them in a later one"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 9
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.023737
+    }
+  ]
+}

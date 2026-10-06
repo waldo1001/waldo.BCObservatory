@@ -1,0 +1,131 @@
+{
+  "video_id": "6B6F38AswE8",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 6.1,
+      "end": 26.5,
+      "text": "welcome to this business Central launch event video about what's next in Alo for GitHub my name is Freddy Christensen I'm a technical evangelist out of Micosoft Copenhagen and I'm here to tell you about like where are we going in the near future I usually have a few slides about this in my launch event"
+    },
+    {
+      "t": 26.5,
+      "end": 46.9,
+      "text": "uh video as the last thing and I usually have like a disclaimer saying no promises no dates when I looked at this like agenda says listen to partner feedback uh follow new security recommendations and other things saying no promises kind of sounds like that would be wrong"
+    },
+    {
+      "t": 46.9,
+      "end": 65.9,
+      "text": "we definitely need to listen to partner feedback we definitely need to follow new security recommendations so some of these things are musthaves some of these things are stuff that we are definitely going to do but I can't give you a date yet but anyway let's have a look at new security"
+    },
+    {
+      "t": 65.9,
+      "end": 86.5,
+      "text": "recommendations and I don't have any specifics here but um the the evil words of the past is why mess with stuff that works like growing up in the 80s that was what we said like if it works don't fix it today it's a different world"
+    },
+    {
+      "t": 86.5,
+      "end": 106.6,
+      "text": "like Microsoft spends billions of dollars every year on security and and they impose all of these findings and security on all the teams inside of Microsoft we every single month get stuff that we have to implement in our devops pipelines in our devops system in order to make sure that we are secure"
+    },
+    {
+      "t": 106.6,
+      "end": 124.8,
+      "text": "and our products are secure for our customers to use them now ALG goo for GitHub will benefit from all of these Investments and provide a secure and reliable platform for partners to use and that is one of the reasons why you should bet on a go for"
+    },
+    {
+      "t": 124.8,
+      "end": 144.8,
+      "text": "GitHub one of the things we've been working on for quite some while is indirect templates and customizations um there's a PR open on that has been open for quite some time there's a few partners that are actually testing out this as we go what the feature is going I I actually think I've talked about this feature uh last year in"
+    },
+    {
+      "t": 144.8,
+      "end": 164.8,
+      "text": "the launch event video as something that is coming but now I think we are closer to actually being able to to deliver this it's going to allow for indirect or potentially private templates for your repository now if you're a partner and you want to to create uh customer specific"
+    },
+    {
+      "t": 164.8,
+      "end": 184.9,
+      "text": "uh customizations of a specific kind for a specific type of customer you might even have a an indirect template for for this category of customers or another template for your appsource apps where you have some of your set settings some of your custom jobs custom steps uh built into that template so"
+    },
+    {
+      "t": 184.9,
+      "end": 205.2,
+      "text": "you don't have to do any modifications on the final repositories um it's quite a big PR U but but it's all about the update ELO system files that will run and and be able to merge custom jobs and custom steps into uh into into your"
+    },
+    {
+      "t": 205.2,
+      "end": 225.4,
+      "text": "uh templates and then into your repositories I think the final thing we need in this one is figuring out exactly what we do with settings because like default settings we want to be able to to specify those in the indirect template also and that doesn't really work with the current PR so there's a few few hours"
+    },
+    {
+      "t": 225.4,
+      "end": 246,
+      "text": "of work to go there but but I expect this one to to make it in in probably April or May I said no dates oh I just gave a date I expect that okay we want to find analyze new get support so new get support what's missing there well"
+    },
+    {
+      "t": 246,
+      "end": 266.1,
+      "text": "two things comes to mind generate and publish runtime packages as new get uh that part is something that I very frequently hear from Partners they miss a a a an efficient way of doing that and the second thing we need is more testing more adoption more roll out we"
+    },
+    {
+      "t": 266.1,
+      "end": 282.6,
+      "text": "need all Partners to publish their apps as net to share with other partners that is big on the agenda for Al go for GitHub in the future another thing we're working on is running tests and Page scripting tests on online"
+    },
+    {
+      "t": 282.6,
+      "end": 302.6,
+      "text": "environments um in this release we have released a functionality that can publish test and test apps and stuff like that to online environments we also want to be able to specify when publishing to a Sandbox that you want to run the tests or maybe run the scripting test so when publishing to"
+    },
+    {
+      "t": 302.6,
+      "end": 322.8,
+      "text": "a QA environment where customer needs to to do the final testing on your app you can run all the page scripting tests as part of your cicd not part of the cicd pipeline probably but part of the publishing effort uh either as continuous deployment or as manual deployment um"
+    },
+    {
+      "t": 322.8,
+      "end": 343,
+      "text": "and then running all the the the page scripting tests making sure that all all the recorded tests Works before actually spending time on testing the functionality uh of your your Fe your your features move away from BC container hel I've talked about this a few times"
+    },
+    {
+      "t": 343,
+      "end": 363,
+      "text": "as well and we're getting closer and closer we will be moving away from BC from using BC container helper in Al go for GitHub right now BC container helpers is a huge pile of cool functionality that a lot of partners are using for all kinds of things um what we're going to do is we're we're not going to remove"
+    },
+    {
+      "t": 363,
+      "end": 383.1,
+      "text": "BC container helper from the power shell gallery or anything like that but we are going to stop supporting it at some point in time until that date what we're going to do is we're going to take devops relevant features and Implement those in probably Powershell modules that will be part of Alo or GitHub actions or whatever"
+    },
+    {
+      "t": 383.1,
+      "end": 400.3,
+      "text": "and then algo will stop using container helper for these things uh there there's a long way probably two three years before we we're going to get through with all of these things um but we at this time we we"
+    },
+    {
+      "t": 400.3,
+      "end": 420.3,
+      "text": "seriously uh recommend that Partners move to a managed devop solution if they have if if partners are running right now A devop solution that they're managing themselves based on BC container Helper and and the cicd Hands-On lab they will at some point in time have a lot of work to do in order to"
+    },
+    {
+      "t": 420.3,
+      "end": 438,
+      "text": "to to get going on a new platform um today moving to algo for GitHub or another managed devop solution might not be as big of a change as as you think thanks for watching the video and see you next time"
+    }
+  ],
+  "markers": [
+    {
+      "t": 0,
+      "text": "[Music]"
+    },
+    {
+      "t": 6.11,
+      "text": "[Music]"
+    },
+    {
+      "t": 6.12,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 1140
+}

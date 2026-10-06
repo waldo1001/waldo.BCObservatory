@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-1316.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1316",
+  "title": "Customer Statement (report)",
+  "blob": "676c26ceb4d64dad227acf04bce5606ded43d238",
+  "summary": "Customer Statement report shows outstanding balances and transactions for a customer during a specified period, with optional aging band analysis for accounts receivable and collections management.",
+  "systems": [
+    "sales",
+    "finance",
+    "reporting"
+  ],
+  "topics": [
+    "customer statements",
+    "receivables",
+    "aging analysis",
+    "collections"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Customer Statement"
+    }
+  ],
+  "features": [
+    "aging band intervals",
+    "overdue amounts section",
+    "open items filter",
+    "scheduled statements",
+    "statement style options"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.001862,
+      "pages_in_call": 8
+    }
+  ]
+}

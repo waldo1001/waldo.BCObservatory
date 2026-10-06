@@ -1,0 +1,291 @@
+{
+  "video_id": "64_cQzp8BP4",
+  "item_id": "video/yt-microsoft/64_cQzp8BP4",
+  "title": "What's New: Concurrent Inventory Posting (2025 release wave 1)",
+  "duration_s": 675,
+  "systems": [
+    "inventory",
+    "finance",
+    "projects"
+  ],
+  "topics": [
+    "concurrent posting",
+    "number sequences",
+    "item ledger",
+    "locking",
+    "automatic cost posting",
+    "feature management",
+    "item register",
+    "performance",
+    "backwards compatibility"
+  ],
+  "chapters": [
+    {
+      "title": "Concurrent inventory posting overview and feature management",
+      "t_start": 0,
+      "t_end": 102.4
+    },
+    {
+      "title": "Project and resource ledgers, and legacy locking mechanism",
+      "t_start": 102.4,
+      "t_end": 176.7
+    },
+    {
+      "title": "Number sequences and item register drill-down design",
+      "t_start": 176.7,
+      "t_end": 322.9
+    },
+    {
+      "title": "Automatic cost posting and GL locking demonstration",
+      "t_start": 322.9,
+      "t_end": 443.1
+    },
+    {
+      "title": "Developer guidance and event handling for custom entries",
+      "t_start": 443.1,
+      "t_end": 595
+    },
+    {
+      "title": "Performance benchmarks and real-world benefits",
+      "t_start": 595,
+      "t_end": 675
+    }
+  ],
+  "features": [
+    {
+      "name": "Enable multiple users to post item ledger entries and value entries at the same time",
+      "description": "New feature in BC25 wave 1 that allows concurrent posting to item and value ledger entries instead of serialized posting. Uses number sequences instead of table locking.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 33.2,
+      "t_end": 102.4,
+      "is_demoed": true,
+      "caveats": [
+        "Off by default",
+        "Will be set on by default in three releases",
+        "Backwards compatibility maintained with item register number filtering"
+      ],
+      "tags": [
+        "concurrent posting",
+        "feature management",
+        "item ledger",
+        "value entries"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Concurrent posting for project ledger entries",
+      "description": "Same concurrent posting capability extended to project ledger and resource ledger entries following the same rules as item ledger concurrent posting.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 113.8,
+      "t_end": 125.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "concurrent posting",
+        "project ledger",
+        "resource ledger"
+      ],
+      "system": "projects"
+    },
+    {
+      "name": "Number sequence-based entry numbering for concurrent posting",
+      "description": "Replaces table locking with number sequences to generate entry numbers, allowing multiple sessions to insert simultaneously. Uses get next entry number functions on entry tables.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 191.3,
+      "t_end": 229.7,
+      "is_demoed": true,
+      "caveats": [
+        "Unused numbers can be lost",
+        "Similar to bakery number dispenser model"
+      ],
+      "tags": [
+        "number sequences",
+        "entry numbering",
+        "posting algorithm"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Item register number field for drill-down filtering",
+      "description": "New field added to ledger entries to track which register they belong to, enabling drill-down from item register to entries when from and to entry numbers overlap due to concurrent posting.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 261,
+      "t_end": 322.9,
+      "is_demoed": true,
+      "caveats": [
+        "Zero value for backwards compatibility with old entries",
+        "Overlapping from and to numbers in registers"
+      ],
+      "tags": [
+        "item register",
+        "drill-down",
+        "backwards compatibility"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Deferred automatic cost posting to GL",
+      "description": "Postpones GL posting from individual item journal lines until the end of the batch to prevent GL locking during inventory posting, allowing concurrent inventory operations while still maintaining GL integrity.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 333.8,
+      "t_end": 443.1,
+      "is_demoed": true,
+      "caveats": [
+        "Users are still locked when posting to GL",
+        "Only one user can post to GL at a time"
+      ],
+      "tags": [
+        "automatic cost posting",
+        "gl posting",
+        "locking",
+        "performance"
+      ],
+      "system": "finance"
+    }
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "item ledger",
+      "t": 33.2
+    },
+    {
+      "type": "table",
+      "name": "project ledger",
+      "t": 113.8
+    },
+    {
+      "type": "table",
+      "name": "job ledger",
+      "t": 113.8
+    },
+    {
+      "type": "table",
+      "name": "resource ledgers",
+      "t": 113.8
+    },
+    {
+      "type": "table",
+      "name": "item register",
+      "t": 261
+    },
+    {
+      "type": "table",
+      "name": "value entries",
+      "t": 275.9
+    },
+    {
+      "type": "table",
+      "name": "value entry",
+      "t": 532.6
+    },
+    {
+      "type": "other",
+      "name": "inventory setup",
+      "t": 242.6
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Bardock Nuden",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 33.2,
+      "text": "In BC25 or earlier only one user or session can insert into item lure at the same time",
+      "why_it_matters": "Establishes the problem that concurrent inventory posting solves - only serialized posting was previously possible",
+      "check": "exact"
+    },
+    {
+      "t": 65,
+      "text": "Now two users or many user basically uh can insert and if you look closer you can see that both of these are counting",
+      "why_it_matters": "Demonstrates the new concurrent posting capability in BC25 wave 1",
+      "check": "exact"
+    },
+    {
+      "t": 80.3,
+      "text": "we have added a new feature key for enable multiple users to post item ledger entries and value entries at the same time",
+      "why_it_matters": "States the exact feature key name and confirms it is a new addition",
+      "check": "exact"
+    },
+    {
+      "t": 91.4,
+      "text": "It's off by default. Um, we will set it on by default in three releases.",
+      "why_it_matters": "Establishes default state and timeline for automatic enablement",
+      "check": "exact"
+    },
+    {
+      "t": 205.8,
+      "text": "instead of incrementing the counter the next entry number we just ask for the next entry number which may not be you know 1",
+      "why_it_matters": "Explains the technical design change from table locking to number sequences",
+      "check": "exact"
+    },
+    {
+      "t": 290.1,
+      "text": "we also filter on the register number because all the entries now have a new field called item register number",
+      "why_it_matters": "Describes the new field added to support drill-down when entry numbers overlap",
+      "check": "exact"
+    },
+    {
+      "t": 614.2,
+      "text": "if we post one batch it took you know ballpark of 20 seconds and if we post two um batches as we just demoed",
+      "why_it_matters": "Provides performance benchmark showing two concurrent batches take nearly the same time as one batch",
+      "check": "exact"
+    },
+    {
+      "t": 649.1,
+      "text": "one will always be slower than I mean one of them will always have to wait for the other for the GL. But the",
+      "why_it_matters": "Clarifies that GL posting is still sequential but the main benefit is no longer blocking all other users",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 91.4,
+      "kind": "other",
+      "text": "It's off by default"
+    },
+    {
+      "t": 91.4,
+      "kind": "coming-later",
+      "text": "we will set it on by default in three releases"
+    },
+    {
+      "t": 102.4,
+      "kind": "other",
+      "text": "there's no upgrade. there's no no penalty to go back and forth to try it out"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 8,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 5
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.023402
+    }
+  ]
+}

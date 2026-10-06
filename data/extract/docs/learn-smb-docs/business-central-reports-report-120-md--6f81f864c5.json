@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-120.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-120",
+  "title": "Aged Accounts Receivables (report)",
+  "blob": "f9b79f845876b15da4eb17570bef155a37b5a6ff",
+  "summary": "Aged Accounts Receivables report shows outstanding customer invoices, credit memos, and payments organized into aging periods with percentage calculations.",
+  "systems": [
+    "sales",
+    "finance",
+    "reporting"
+  ],
+  "topics": [
+    "accounts receivable",
+    "customer aging",
+    "outstanding balances",
+    "collections",
+    "credit analysis"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Aged Accounts Receivables"
+    }
+  ],
+  "features": [
+    "aging period calculation",
+    "customer balance summarization",
+    "detailed document breakdown",
+    "percentage of outstanding amounts",
+    "payment history analysis"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002187,
+      "pages_in_call": 7
+    }
+  ]
+}

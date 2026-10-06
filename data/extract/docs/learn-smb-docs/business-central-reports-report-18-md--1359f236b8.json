@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-18.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-18",
+  "title": "Consolidated Trial Balance (4) (report)",
+  "blob": "5f00449fa485b410387bebe1fd09b7eb6dd20a66",
+  "summary": "Consolidated Trial Balance (4) report provides a four-column layout showing local company balances, converted values, eliminations, and consolidated totals for detailed consolidation analysis.",
+  "systems": [
+    "finance",
+    "reporting"
+  ],
+  "topics": [
+    "consolidation",
+    "trial balance",
+    "multi-company",
+    "currency conversion"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Consolidated Trial Balance (4)"
+    }
+  ],
+  "features": [
+    "four-column layout",
+    "local balances",
+    "currency conversion",
+    "consolidation adjustments",
+    "intercompany eliminations"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.001862,
+      "pages_in_call": 8
+    }
+  ]
+}

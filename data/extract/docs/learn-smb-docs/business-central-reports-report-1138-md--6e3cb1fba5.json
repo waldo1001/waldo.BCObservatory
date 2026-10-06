@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-1138.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1138",
+  "title": "Cost Acctg. Balance/Budget (report)",
+  "blob": "f0491c5f66b4759313cb73a15551b53568a814cf",
+  "summary": "Cost Acctg. Balance/Budget report summarizes balances in cost and budget accounts with filtering options to support financial planning and control.",
+  "systems": [
+    "finance",
+    "reporting"
+  ],
+  "topics": [
+    "cost accounting",
+    "budget management",
+    "cost balances",
+    "financial planning",
+    "cost control"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Cost Acctg. Balance/Budget"
+    }
+  ],
+  "features": [
+    "cost and budget balance summary",
+    "fiscal year filtering",
+    "cost type filtering",
+    "budget version filtering",
+    "variance comparison"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002187,
+      "pages_in_call": 7
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-1133.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1133",
+  "title": "Cost Acctg. Statement/Budget (report)",
+  "blob": "dad4339d3f3f301d332443ef915ab19f8b6b0605",
+  "summary": "Cost Acctg. Statement/Budget report compares actual costs against budgeted targets with variance analysis by cost center in amount and percentage.",
+  "systems": [
+    "finance",
+    "reporting"
+  ],
+  "topics": [
+    "cost accounting",
+    "budget variance",
+    "cost performance",
+    "budgeting",
+    "financial planning"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Cost Acctg. Statement/Budget"
+    }
+  ],
+  "features": [
+    "actual vs budget comparison",
+    "variance analysis by cost center",
+    "percentage variance calculation",
+    "budget planning support",
+    "cost dimension analysis"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002187,
+      "pages_in_call": 7
+    }
+  ]
+}

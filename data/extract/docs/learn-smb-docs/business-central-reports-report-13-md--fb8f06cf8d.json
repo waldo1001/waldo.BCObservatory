@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-13.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-13",
+  "title": "VAT Register (report)",
+  "blob": "57e5e0498be331bddb91a825070c8ca7690bc0ff",
+  "summary": "VAT Register report lists all posted VAT transactions from sales, purchases, and journals with filtering options to provide visibility and enable tax compliance verification.",
+  "systems": [
+    "finance",
+    "reporting"
+  ],
+  "topics": [
+    "vat management",
+    "tax compliance",
+    "vat transactions",
+    "audit",
+    "tax reporting"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "VAT Register"
+    }
+  ],
+  "features": [
+    "VAT transaction listing",
+    "filtering by posting date",
+    "filtering by VAT business posting group",
+    "filtering by document number",
+    "tax audit support"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002187,
+      "pages_in_call": 7
+    }
+  ]
+}

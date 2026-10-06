@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "What's Next: AL-Go for GitHub (2025 release wave 1)",
   "url": "https://www.youtube.com/watch?v=6B6F38AswE8",
-  "published_at": null,
+  "published_at": "2025-04-01T15:00:10.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T18:52:52.386Z",
+      "captions": "auto:en-orig",
+      "duration_s": 438
+    },
+    "captioned": {
+      "at": "2026-10-06T18:52:59.094Z",
+      "path": "data/captions/microsoft/6B6F38AswE8.vtt",
+      "vtt_sha256": "47413a7a3c0eb9105d9488bc5224153ebb47e9e8ca1d81be789e62064935aa95",
+      "segments": 22,
+      "words": 1140,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -19,7 +33,14 @@
   "meta": {
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 282,
-    "duration_s": 439,
-    "via": "reconcile"
-  }
+    "duration_s": 438,
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "47413a7a3c0eb9105d9488bc5224153ebb47e9e8ca1d81be789e62064935aa95"
 }

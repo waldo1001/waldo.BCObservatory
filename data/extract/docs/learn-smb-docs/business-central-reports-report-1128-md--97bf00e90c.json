@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-1128.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1128",
+  "title": "Cost Acctg. Journal (report)",
+  "blob": "16e5c5bb73ff8bf4025159e8b02a67e5580bbe1c",
+  "summary": "Cost Acctg. Journal report displays journalized cost entries with amounts, posting dates, and dimensions to validate that cost transactions were properly recorded.",
+  "systems": [
+    "finance",
+    "reporting"
+  ],
+  "topics": [
+    "cost accounting",
+    "journal entries",
+    "transaction validation",
+    "cost postings",
+    "audit"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Cost Acctg. Journal"
+    }
+  ],
+  "features": [
+    "cost entry review",
+    "filtering by date",
+    "filtering by entry number",
+    "transaction validation",
+    "audit support"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002187,
+      "pages_in_call": 7
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-120",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,13 @@
       "blob": "f9b79f845876b15da4eb17570bef155a37b5a6ff",
       "words": 752,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T18:52:59.199Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.002187
     }
   },
   "input_hash": "f9b79f845876b15da4eb17570bef155a37b5a6ff",
@@ -43,5 +50,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f9b79f845876b15da4eb17570bef155a37b5a6ff"
+  "output_hash": "3396f32becb2e652a2c5063cabcf6dcd43d0fc2543db1c7f7c1637ff2bed0c6a"
 }
