@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-11.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-11",
+  "title": "G/L - VAT Reconciliation (report)",
+  "blob": "a3d89ceaf456107a79447d59cdb317edb82942f7",
+  "summary": "G/L - VAT Reconciliation report compares VAT postings in the general ledger to underlying VAT entries to ensure transaction-level support for reported VAT amounts and audit readiness.",
+  "systems": [
+    "finance",
+    "reporting"
+  ],
+  "topics": [
+    "vat reconciliation",
+    "tax compliance",
+    "general ledger",
+    "audit readiness"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "G/L - VAT Reconciliation"
+    }
+  ],
+  "features": [
+    "vat posting verification",
+    "vat entry validation",
+    "tax filing support",
+    "audit preparation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.001229,
+      "pages_in_call": 8
+    }
+  ]
+}

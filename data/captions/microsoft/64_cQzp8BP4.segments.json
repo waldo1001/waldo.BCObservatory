@@ -1,0 +1,253 @@
+{
+  "video_id": "64_cQzp8BP4",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 5.8,
+      "end": 23,
+      "text": "Welcome to this what's new session in Dynamics Business Central uh 2025 way one. I'm Bardock Nuden one of the application architects um and I'm going to talk about concurrency in inventory"
+    },
+    {
+      "t": 23,
+      "end": 33.2,
+      "text": "posting and from a feature point of view that is actually all there is to know. So the remainder of this content is for"
+    },
+    {
+      "t": 33.2,
+      "end": 47.6,
+      "text": "developers. In BC25 or earlier only one user or session can insert into item lure at the same time and in this case I have started"
+    },
+    {
+      "t": 47.6,
+      "end": 65,
+      "text": "two journal item journal postings and if you look closer you will be able to see that one of them is progressing and the other is not. nothing happens on the left right side and if you wait long enough you may see that you get a lock timeout."
+    },
+    {
+      "t": 65,
+      "end": 80.3,
+      "text": "So that is in previous versions. Now two users or many user basically uh can insert and if you look closer you can see that both of these are counting and progressing."
+    },
+    {
+      "t": 80.3,
+      "end": 91.4,
+      "text": "How do you enable it? Well, we have in feature management, we have added a new feature key for enable multiple users to post item ledger entries and value entries at the same time."
+    },
+    {
+      "t": 91.4,
+      "end": 102.4,
+      "text": "Basically, that's that could be the entire documentation. It's off by default. Um, we will set it on by default in three"
+    },
+    {
+      "t": 102.4,
+      "end": 113.8,
+      "text": "releases. And you can also turn this on and off as you will. There's no upgrade. there's no no penalty to go back and forth to try it out."
+    },
+    {
+      "t": 113.8,
+      "end": 125.6,
+      "text": "And there's more because while we were at it, we actually did it also to the U project ledger or job ledger as it was was called and resource ledgers. Same rules as the others."
+    },
+    {
+      "t": 125.6,
+      "end": 138.4,
+      "text": "And which tables does this encompass? It's um all the item ledger related tables and there are a lot as you can see but also as I said resource and project"
+    },
+    {
+      "t": 138.4,
+      "end": 149.4,
+      "text": "entries. So how did it work in BC25 and previously? Usually when we post something we have two functions."
+    },
+    {
+      "t": 149.4,
+      "end": 162.3,
+      "text": "We have some kind of init function and this is more more a general thing and then we post or insert or whatever we call those functions. And what we do there is we start out with a lock table."
+    },
+    {
+      "t": 162.3,
+      "end": 176.7,
+      "text": "Then we find the last entry which puts a semaphore lock if you will on that table. And from now on only you can update the uh"
+    },
+    {
+      "t": 176.7,
+      "end": 191.3,
+      "text": "ledgers. And then we take whatever entry number that was and save it in a counter. And whenever we want to insert a new entry, we just increment this counter and assign it to the entry number."
+    },
+    {
+      "t": 191.3,
+      "end": 205.8,
+      "text": "I mean you know know all this and insert. So this is how it was and only one user can do anything at the same time. Now you can see in the init some ledger the code is gone."
+    },
+    {
+      "t": 205.8,
+      "end": 219.5,
+      "text": "There's no locking here and instead of incrementing the counter the next entry number we just ask for the next entry number which may not be you know 1 + 1 where we use a number sequence."
+    },
+    {
+      "t": 219.5,
+      "end": 229.7,
+      "text": "And when you think of number sequences, you can think of bit like you know this number dispenser that you would see at a pharmacy or a bakery."
+    },
+    {
+      "t": 229.7,
+      "end": 242.6,
+      "text": "So with this design multiple sessions can insert at the same time but also unused numbers are lost just like if you decide you don't want to wait at the"
+    },
+    {
+      "t": 242.6,
+      "end": 261,
+      "text": "bakery. Of course um the code in some ledger is still there because you can turn this feature on and off. So you will see this statement you know if inventory setup do use leg legacy posting that would be sprinkled around um in code."
+    },
+    {
+      "t": 261,
+      "end": 275.9,
+      "text": "And you might think now what about the item register? Because if different transactions um insert at the same time then then what about this from and two entry numbers."
+    },
+    {
+      "t": 275.9,
+      "end": 290.1,
+      "text": "So you can see that with the last two uh registers we have the from and two numbers are indeed overlapping a lot actually both for the itemage entries and for the value entries."
+    },
+    {
+      "t": 290.1,
+      "end": 310.3,
+      "text": "So how do we you know do a drill down? Well, you can see that first of all we do as we usually do. We filter on the entry number but now we also filter on the register number because all the entries now have a new field called item register"
+    },
+    {
+      "t": 310.3,
+      "end": 322.9,
+      "text": "number. You may also wonder why do we say zero or 102 in this case. That's for backwards compatibility. So if you have old entries, item register number won't be filled in."
+    },
+    {
+      "t": 322.9,
+      "end": 333.8,
+      "text": "It'll be zero. But then in those cases, the to and from entry numbers are correct. I they're always correct, but sequential."
+    },
+    {
+      "t": 333.8,
+      "end": 351.1,
+      "text": "Then we have automatic cost posting. one of our enemies for locking because um many users, most actually have this flag on in inventory setup because they want the general ledger to reflect what they have on inventory."
+    },
+    {
+      "t": 351.1,
+      "end": 367,
+      "text": "And the effect is that when you post item journals for instance, same for sales order, purchase orders, whatever. Um, we call out to the item journal post line which then calls out to GL post to post the finance."
+    },
+    {
+      "t": 367,
+      "end": 377.6,
+      "text": "That means that immediately you start posting an item journal, you would also lock the GL, meaning people cannot do payments and other GL stuff. And of course, we do that for every line."
+    },
+    {
+      "t": 377.6,
+      "end": 393.3,
+      "text": "But so what we did did for BC26 was that we basically do the same as before, but we postpone it till the end. meaning that several users can do it at the same time except they will of course be locked for the GL part."
+    },
+    {
+      "t": 393.3,
+      "end": 404.3,
+      "text": "And maybe now is time to see it in action. See, so I have created some item journal batches here. There's"
+    },
+    {
+      "t": 404.3,
+      "end": 415.8,
+      "text": "one. There's another. And instead of posting, I'll just preview because a preview post is the same as posting all the way except that it rolls back at the end."
+    },
+    {
+      "t": 415.8,
+      "end": 426.1,
+      "text": "But as as goes for locking, it will do the same. So if I click preview posting here and here, maybe you can see it, maybe not."
+    },
+    {
+      "t": 426.1,
+      "end": 443.1,
+      "text": "But both both of them are counting now. And at one point, one of them will get to the GL posting. That will happen now maybe. So now you can see one of them is posting to GL while the other one is waiting because only one can still post to GL"
+    },
+    {
+      "t": 443.1,
+      "end": 461.4,
+      "text": "and there the first one finished. Now the second one can finish its job and of course if the right one took would take more than 30 seconds then we would get the lock time out of course and the other then to what about you as a developer?"
+    },
+    {
+      "t": 461.4,
+      "end": 481.4,
+      "text": "So what if you are adding entries? Um well you need to adopt to the same patterns as we have meaning using um the number sequences which again is meaning get you can use the get next entry number functions on the entry tables and you would also need to specify"
+    },
+    {
+      "t": 481.4,
+      "end": 492.9,
+      "text": "the item register number in those entry tables at least if you want the drill down from registers to work. And what happens if you don't and still turn on this feature?"
+    },
+    {
+      "t": 492.9,
+      "end": 503.9,
+      "text": "Well, you might get you might get or no, you will get a record with entry number something already exists and then you have a call from your"
+    },
+    {
+      "t": 503.9,
+      "end": 518.6,
+      "text": "customer. However, we try to be a bit more robust or resilient. So before each batch, we actually check that our number sequence is aligned with the table."
+    },
+    {
+      "t": 518.6,
+      "end": 532.6,
+      "text": "Meaning that if you running are running some old style code that has posted something then we make sure that it's in sync before we start"
+    },
+    {
+      "t": 532.6,
+      "end": 550.1,
+      "text": "posting. But then there are the events where you add entries during event calls. So this is one of them an example and uh you can see that in this case we pass on the value entry number that you are expected to increment in case you insert uh a value entry."
+    },
+    {
+      "t": 550.1,
+      "end": 568.6,
+      "text": "So to safeguard that we save the current value entry number and after the event we check whether it was changed. So that function there first it compares the value entry number and if there's no change it'll just exit."
+    },
+    {
+      "t": 568.6,
+      "end": 579.5,
+      "text": "Then it checks for whether this feature is on or not and if it is it will go and make sure that the counter or the"
+    },
+    {
+      "t": 579.5,
+      "end": 595,
+      "text": "um number sequence for in this case value entry fits the table. But even so there may be race conditions where you know somebody has just inserted something old style and then somebody else runs uh the new code."
+    },
+    {
+      "t": 595,
+      "end": 614.2,
+      "text": "And finally does this matter? I mean how does it perform? So basically the same scenarios just saw but in PR with automatic cost posting on different items so we don't have any interference there with the indexes and whatnot."
+    },
+    {
+      "t": 614.2,
+      "end": 635,
+      "text": "So if we post one batch it took you know ballpark of 20 seconds and if we post two um batches as we just demoed it will take in this case 23 seconds but don't put too much in the exact into the exact"
+    },
+    {
+      "t": 635,
+      "end": 649.1,
+      "text": "numbers. Um which gives you a gain of 2/3 in this case. Um, and remember after one has after the both have finished posting the inventory, they need to post to GL one at a time."
+    },
+    {
+      "t": 649.1,
+      "end": 660.2,
+      "text": "So, one will always be slower than I mean one of them will always have to wait for the other for the GL. But the real gain is that the second user isn't locked out now."
+    },
+    {
+      "t": 660.2,
+      "end": 671,
+      "text": "You should be able to do transfer orders and whatnot while other people are working with purchase orders and yeah, stuff."
+    },
+    {
+      "t": 671,
+      "end": 675,
+      "text": "That's it. Thank you."
+    }
+  ],
+  "markers": [
+    {
+      "t": 0,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 1625
+}

@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-1015.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1015",
+  "title": "Project Register (report)",
+  "blob": "02f27840b48a5fad27c1a1fae4474f72eb96b2ab",
+  "summary": "Project Register report shows one or more selected project registers with filtering capability, and can be configured to print automatically when posting from project journal templates.",
+  "systems": [
+    "projects",
+    "reporting"
+  ],
+  "topics": [
+    "project reports",
+    "register entries",
+    "project posting",
+    "filtering"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Project Register"
+    }
+  ],
+  "features": [
+    "register entry filtering",
+    "automatic printing on post",
+    "project journal integration"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.001229,
+      "pages_in_call": 8
+    }
+  ]
+}

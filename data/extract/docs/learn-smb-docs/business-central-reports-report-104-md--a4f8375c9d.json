@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-104.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-104",
+  "title": "Customer - Detail Trial Balance (report)",
+  "blob": "eef3919b17476dfa86386ff8b2cced0dd377ef63",
+  "summary": "Customer - Detail Trial Balance report shows customer ledger entries filtered by a specified date to verify completeness and accuracy of customer transactions for accounting, financial analysis, and customer service purposes.",
+  "systems": [
+    "sales",
+    "finance",
+    "reporting"
+  ],
+  "topics": [
+    "customer ledger",
+    "trial balance",
+    "accounts receivable",
+    "transaction verification"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Customer - Detail Trial Balance"
+    }
+  ],
+  "features": [
+    "date-filtered ledger entries",
+    "transaction verification",
+    "discrepancy identification",
+    "financial statement preparation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.001229,
+      "pages_in_call": 8
+    }
+  ]
+}

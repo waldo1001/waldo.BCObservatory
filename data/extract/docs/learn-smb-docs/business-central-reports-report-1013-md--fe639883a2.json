@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-1013.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1013",
+  "title": "Items per Project (report)",
+  "blob": "d882a837eee40bc22fbe7ec065b32f655af6551c",
+  "summary": "Items per Project report displays an overview of items used in projects with accumulated cost values and supports custom filtering for reporting needs.",
+  "systems": [
+    "projects",
+    "inventory",
+    "reporting"
+  ],
+  "topics": [
+    "project reports",
+    "item analysis",
+    "project costing",
+    "cost tracking"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Items per Project"
+    }
+  ],
+  "features": [
+    "item overview",
+    "accumulated cost values",
+    "custom filtering"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.001229,
+      "pages_in_call": 8
+    }
+  ]
+}

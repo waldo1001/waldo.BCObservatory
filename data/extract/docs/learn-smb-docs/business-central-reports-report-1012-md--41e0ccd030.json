@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-1012.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1012",
+  "title": "Projects per Customer (report)",
+  "blob": "df5b9423ca1e1976d6ba0735a8f851a0fb34834e",
+  "summary": "Projects per Customer report groups all projects by bill-to customer, comparing scheduled price, completion percentage, invoiced price, and invoiced amounts with subtotals per customer.",
+  "systems": [
+    "projects",
+    "sales",
+    "reporting"
+  ],
+  "topics": [
+    "project reports",
+    "customer analysis",
+    "project costing",
+    "invoice tracking"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Projects per Customer"
+    }
+  ],
+  "features": [
+    "project grouping by customer",
+    "scheduled price comparison",
+    "completion percentage",
+    "invoiced amount tracking"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.001229,
+      "pages_in_call": 8
+    }
+  ]
+}
