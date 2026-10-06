@@ -1,0 +1,48 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Norway/how-to-import-payment-return-data.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-import-payment-return-data",
+  "title": "How to import payment return data [NO]",
+  "blob": "4f2703d515c8f8730fa67c7ab938c5cb08a796fc",
+  "summary": "Import payment return data in Norway from remittance payment orders and view settlement information including bank references and remittance warnings.",
+  "systems": [
+    "purchasing",
+    "localization"
+  ],
+  "topics": [
+    "remittance payments",
+    "payment returns",
+    "settlement",
+    "norway"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Rem. payment order – import"
+    },
+    {
+      "type": "page",
+      "name": "Return Files"
+    },
+    {
+      "type": "page",
+      "name": "Settlement Info"
+    }
+  ],
+  "features": [
+    "payment return import",
+    "settlement information",
+    "return file processing",
+    "error handling"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002455,
+      "pages_in_call": 8
+    }
+  ]
+}

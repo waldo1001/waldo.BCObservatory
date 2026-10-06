@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/electronic-payments-to-vendors-in-norway",
   "published_at": "2025-05-21T08:13:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "fbdc82f7a5a93521ebe53e243548fb0a21df64c8",
       "words": 431,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:24:58.266Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002577
+    },
+    "summarized": {
+      "at": "2026-10-06T19:24:58.275Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:24:58.279Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:24:58.280Z",
+      "page": false
     }
   },
   "input_hash": "fbdc82f7a5a93521ebe53e243548fb0a21df64c8",
@@ -42,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "fbdc82f7a5a93521ebe53e243548fb0a21df64c8"
+  "output_hash": "c8d116018a7e05e8d68170672d7bc1af373ce2ff452e5c053a426cd0f8d2b8c1"
 }

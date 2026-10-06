@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Norway/how-to-print-the-ocr-journal-test-report.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-print-the-ocr-journal-test-report",
+  "title": "Print the OCR journal - Test report",
+  "blob": "c63676b449a55e894bd848f17f4ffa23bb4f1b60",
+  "summary": "Print the OCR Journal - Test report in Norway to validate imported payment transactions in the cash receipt journal and identify warnings before posting.",
+  "systems": [
+    "finance",
+    "reporting",
+    "localization"
+  ],
+  "topics": [
+    "ocr",
+    "testing",
+    "payment validation",
+    "norway"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "OCR Journal - Test"
+    }
+  ],
+  "features": [
+    "OCR testing",
+    "error detection",
+    "dimension reporting",
+    "payment validation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002455,
+      "pages_in_call": 8
+    }
+  ]
+}

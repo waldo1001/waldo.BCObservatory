@@ -1,0 +1,25 @@
+{
+  "video_id": "vpJg1BxIrs0",
+  "item_id": "video/yt-microsoft/vpJg1BxIrs0",
+  "summary": "Dynamics GP segments map to Business Central dimensions: GP segments migrate through the cloud migration tool, default dimensions are set on vendors, purchase invoices are previewed and posted, and results are checked in the trial balance dimension report.",
+  "overview": "The video compares how Dynamics GP handles segments on transactions with how Business Central handles dimensions. It starts with posting a transaction with segments in GP, then explains that those segments migrate to Business Central as dimensions so transactions can still be categorized.\n\nThe demo uses a vendor migrated from GP with the cloud migration tool. A default dimension is assigned to the vendor, a purchase invoice picks it up, the posting is previewed, and the invoice is posted. The result is then viewed in the trial balance dimension report, sliced by a dimension such as division.",
+  "key_points": [
+    "Segments defined in GP migrate to Business Central as dimensions through the cloud migration tool.",
+    "Default dimensions can be assigned to a vendor and default onto purchase transactions for that vendor.",
+    "Setting the dimension value posting to code mandatory enforces that a dimension value exists on transactions for that entity. Without it, the dimension is used for defaulting only.",
+    "Posting preview before posting a journal lets you verify accounts and dimension values, similar to the distributions button in GP.",
+    "The trial balance dimension report shows amounts posted to main accounts and can be analyzed by dimensions such as division, similar to GP segment reporting."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "partner"
+  ],
+  "extraction_hash": "2b3e41dec7979208ba54fce002dd6c3d026b08c160d2d4b547e707c0b3505cf7",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.012140399999999999
+  }
+}

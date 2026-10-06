@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Norway/how-to-create-recurring-orders.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-create-recurring-orders",
+  "title": "How to Create Recurring Orders [NO]",
+  "blob": "5c869583925ff8d176a5292af0f41254644ee137",
+  "summary": "Create Recurring Orders in Norway processes blanket orders based on selected options and generates new sales orders as a periodic activity using the Create Recurring Orders batch job.",
+  "systems": [
+    "sales",
+    "localization"
+  ],
+  "topics": [
+    "recurring orders",
+    "blanket orders",
+    "norway",
+    "sales orders"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Create Recurring Orders"
+    }
+  ],
+  "features": [
+    "Processing Date",
+    "Create only latest",
+    "recurring order creation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002577,
+      "pages_in_call": 8
+    }
+  ]
+}

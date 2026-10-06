@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Norway/how-to-print-a-vat-reconciliation-report.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-print-a-vat-reconciliation-report",
+  "title": "Print a VAT reconciliation report [NO]",
+  "blob": "24ef4286021e3b8fe4ea2e3d1e5c920abd982081",
+  "summary": "Print the VAT Reconciliation report in Norway to show reconciliation settlement for base and VAT amounts by general ledger account and VAT type.",
+  "systems": [
+    "finance",
+    "reporting",
+    "localization"
+  ],
+  "topics": [
+    "vat",
+    "reconciliation",
+    "reporting",
+    "norway"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "VAT Reconciliation"
+    }
+  ],
+  "features": [
+    "VAT reconciliation",
+    "transaction details",
+    "VAT type categorization"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002455,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Norway/how-to-export-remittance-payments.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-export-remittance-payments",
+  "title": "Export remittance payments [NO]",
+  "blob": "53e46bd9237f6378e19567da87296839ab536419",
+  "summary": "Export remittance payments in Norway to a bank file using SEPA or local payment standards like Telepay and BBS, configured through the Bank Account Card.",
+  "systems": [
+    "purchasing",
+    "localization"
+  ],
+  "topics": [
+    "remittance payments",
+    "payment export",
+    "sepa",
+    "norway"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Payment Journal"
+    },
+    {
+      "type": "page",
+      "name": "Bank Account Card"
+    },
+    {
+      "type": "report",
+      "name": "Remittance - export (bank)"
+    },
+    {
+      "type": "report",
+      "name": "Remittance - export (BBS)"
+    }
+  ],
+  "features": [
+    "payment export",
+    "SEPA payment standard",
+    "Telepay format",
+    "BBS format",
+    "payment file export"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002455,
+      "pages_in_call": 8
+    }
+  ]
+}

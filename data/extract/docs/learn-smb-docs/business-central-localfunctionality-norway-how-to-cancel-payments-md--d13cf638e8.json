@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Norway/how-to-cancel-payments.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-cancel-payments",
+  "title": "Cancel payments [NO]",
+  "blob": "048e4282060880dbe746dea3fdc58c71c23c4c75",
+  "summary": "Cancel Payments in Norway allows cancellation of open payment orders and unsettled individual payments in remittance payment orders or Waiting Journal when payments fail or are incorrect.",
+  "systems": [
+    "purchasing",
+    "localization"
+  ],
+  "topics": [
+    "payment cancellation",
+    "remittance",
+    "norway",
+    "payment orders"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Remittance Payment Order"
+    },
+    {
+      "type": "page",
+      "name": "Waiting Journal"
+    }
+  ],
+  "features": [
+    "payment order cancellation",
+    "individual payment cancellation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002577,
+      "pages_in_call": 8
+    }
+  ]
+}

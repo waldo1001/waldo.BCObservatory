@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-create-electronic-documents-for-ehf",
   "published_at": "2025-05-21T08:13:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "b7fdc71004ed918a3f88babb7996beae9e6182bf",
       "words": 406,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:24:58.271Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.002577
+    },
+    "summarized": {
+      "at": "2026-10-06T19:24:58.330Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:24:58.336Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:24:58.337Z",
+      "page": false
     }
   },
   "input_hash": "b7fdc71004ed918a3f88babb7996beae9e6182bf",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b7fdc71004ed918a3f88babb7996beae9e6182bf"
+  "output_hash": "a137653eaf7599ce3388cc0c7a500d3eaf29a4b9d37ab1529a4a09ba2e638d9f"
 }

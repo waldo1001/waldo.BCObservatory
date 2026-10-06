@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Norway/how-to-calculate-proportional-vat.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-calculate-proportional-vat",
+  "title": "Calculate proportional VAT [NO]",
+  "blob": "dd825c3c9eed4ae68bf9fa3cd7bbe0963b10a91f",
+  "summary": "Calculate Proportional VAT in Norway allows deduction of mixed deductible and non-deductible VAT by setting a proportional VAT percentage in VAT Posting Setup based on historical usage data.",
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "vat",
+    "proportional vat",
+    "deduction",
+    "norway",
+    "tax"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "VAT Posting Setup"
+    }
+  ],
+  "features": [
+    "Calc. Prop. Deduction VAT",
+    "Proportional Deduction VAT %"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002577,
+      "pages_in_call": 8
+    }
+  ]
+}

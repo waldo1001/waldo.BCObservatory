@@ -1,0 +1,38 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Norway/how-to-create-manual-remittance-payments.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-create-manual-remittance-payments",
+  "title": "Create manual remittance payments [NO]",
+  "blob": "692dd707ec4dacf5b47c98c34094e52679730651",
+  "summary": "Create Manual Remittance Payments in Norway allows manual payment creation through the Payment Info page with Initialize Payment Info action, either linked to vendor ledger entries or as independent payments.",
+  "systems": [
+    "purchasing",
+    "localization"
+  ],
+  "topics": [
+    "remittance payments",
+    "manual payments",
+    "norway",
+    "payment creation"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Payment Info"
+    }
+  ],
+  "features": [
+    "Initialize Payment Info",
+    "manual payment creation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002577,
+      "pages_in_call": 8
+    }
+  ]
+}

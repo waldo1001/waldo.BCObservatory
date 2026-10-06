@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Norway/how-to-apply-general-ledger-entries-in-closed-periods.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-apply-general-ledger-entries-in-closed-periods",
+  "title": "How to Apply General Ledger Entries in Closed Periods",
+  "blob": "c8c37359f7bf2e8d3f1ba52630b611f43e988473",
+  "summary": "Applying General Ledger Entries in Closed Periods in Norway allows users to apply entries outside the allowed posting period by enabling the Application always Allowed setting in General Ledger Setup and User Setup.",
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "general ledger",
+    "closed periods",
+    "application",
+    "norway",
+    "posting"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "General Ledger Setup"
+    },
+    {
+      "type": "page",
+      "name": "User Setup"
+    }
+  ],
+  "features": [
+    "Application always Allowed"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002577,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-delete-remittance-payment-orders",
   "published_at": "2025-05-21T08:13:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "44c67f682c9733094121a8428e25015e511c20b6",
       "words": 178,
       "forms": 6
+    },
+    "extracted": {
+      "at": "2026-10-06T19:24:56.448Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.002455
+    },
+    "summarized": {
+      "at": "2026-10-06T19:24:56.457Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:24:56.458Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:24:56.459Z",
+      "page": false
     }
   },
   "input_hash": "44c67f682c9733094121a8428e25015e511c20b6",
@@ -70,5 +89,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "44c67f682c9733094121a8428e25015e511c20b6"
+  "output_hash": "6d16bc30c5d3d0771c510b74768bd33524cfa7b0f63e210e3e2da189836cd2cd"
 }

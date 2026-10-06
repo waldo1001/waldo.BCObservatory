@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-create-remittance-suggestions",
   "published_at": "2025-05-21T08:13:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "8508170a1356e19d0d588000154c21380b000afc",
       "words": 321,
       "forms": 6
+    },
+    "extracted": {
+      "at": "2026-10-06T19:24:56.447Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.002455
+    },
+    "summarized": {
+      "at": "2026-10-06T19:24:56.454Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:24:56.455Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:24:56.456Z",
+      "page": false
     }
   },
   "input_hash": "8508170a1356e19d0d588000154c21380b000afc",
@@ -72,5 +91,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "8508170a1356e19d0d588000154c21380b000afc"
+  "output_hash": "29d2387a6baf01755aff30b4eaba22e43cd62f7426a7d64028c31ec150971937"
 }

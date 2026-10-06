@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-apply-general-ledger-entries-in-closed-periods",
   "published_at": "2025-05-21T08:13:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "c8c37359f7bf2e8d3f1ba52630b611f43e988473",
       "words": 162,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:24:58.267Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.002577
+    },
+    "summarized": {
+      "at": "2026-10-06T19:24:58.282Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:24:58.283Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:24:58.286Z",
+      "page": false
     }
   },
   "input_hash": "c8c37359f7bf2e8d3f1ba52630b611f43e988473",
@@ -40,5 +59,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c8c37359f7bf2e8d3f1ba52630b611f43e988473"
+  "output_hash": "30fd425b62daebb33a814e50bfa735e85f315cc1a0a2bbe4a68a0d437bfe61ac"
 }

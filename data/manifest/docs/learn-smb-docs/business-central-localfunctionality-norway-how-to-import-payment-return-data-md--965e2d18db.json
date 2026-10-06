@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-import-payment-return-data",
   "published_at": "2025-05-21T08:13:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "4f2703d515c8f8730fa67c7ab938c5cb08a796fc",
       "words": 306,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:24:56.451Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.002455
+    },
+    "summarized": {
+      "at": "2026-10-06T19:24:58.242Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:24:58.243Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:24:58.244Z",
+      "page": false
     }
   },
   "input_hash": "4f2703d515c8f8730fa67c7ab938c5cb08a796fc",
@@ -40,5 +59,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "4f2703d515c8f8730fa67c7ab938c5cb08a796fc"
+  "output_hash": "970d455015cf5302000ab100d1c07fe834ccc2e233867fbe0214582486197830"
 }

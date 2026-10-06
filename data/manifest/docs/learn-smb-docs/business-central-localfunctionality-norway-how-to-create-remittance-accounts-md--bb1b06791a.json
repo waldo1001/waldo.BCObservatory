@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-create-remittance-accounts",
   "published_at": "2025-05-21T08:13:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "2957d6409ae12caa11f099f482432c3a7817d184",
       "words": 597,
       "forms": 6
+    },
+    "extracted": {
+      "at": "2026-10-06T19:24:58.274Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.002577
+    },
+    "summarized": {
+      "at": "2026-10-06T19:24:58.350Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:24:58.350Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:24:58.351Z",
+      "page": false
     }
   },
   "input_hash": "2957d6409ae12caa11f099f482432c3a7817d184",
@@ -71,5 +90,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "2957d6409ae12caa11f099f482432c3a7817d184"
+  "output_hash": "14c64773a6c92ee44f763624f77b768fdd11bccf6b8f9fe4d1d9b8abcb18e4a0"
 }

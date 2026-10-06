@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Norway/how-to-import-and-post-ocr-payments.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-import-and-post-ocr-payments",
+  "title": "Import and post OCR payments [NO]",
+  "blob": "d0b49d155e54f203832b53622936ef74873232dc",
+  "summary": "Import and post OCR (optical character recognition) payments in Norway to a cash receipt journal after setting up the journal template to balance by document number.",
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "ocr payments",
+    "cash receipts",
+    "payment import",
+    "norway"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Cash Receipt Journals"
+    },
+    {
+      "type": "page",
+      "name": "OCR Payment-BBS"
+    }
+  ],
+  "features": [
+    "OCR payment import",
+    "cash receipt journal",
+    "KID numbers"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002455,
+      "pages_in_call": 8
+    }
+  ]
+}

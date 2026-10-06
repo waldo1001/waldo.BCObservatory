@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-import-and-post-ocr-payments",
   "published_at": "2025-05-21T08:13:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "d0b49d155e54f203832b53622936ef74873232dc",
       "words": 236,
       "forms": 2
+    },
+    "extracted": {
+      "at": "2026-10-06T19:24:56.450Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.002455
+    },
+    "summarized": {
+      "at": "2026-10-06T19:24:56.464Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:24:58.239Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:24:58.241Z",
+      "page": false
     }
   },
   "input_hash": "d0b49d155e54f203832b53622936ef74873232dc",
@@ -51,5 +70,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d0b49d155e54f203832b53622936ef74873232dc"
+  "output_hash": "795c9c37fc9de64773b4ec44570a8357ffc2ff6d1fcfb95ddd6324a43186f37d"
 }

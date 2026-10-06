@@ -1,0 +1,49 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Norway/how-to-create-electronic-documents-for-ehf.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-create-electronic-documents-for-ehf",
+  "title": "How to Create Electronic Documents for EHF",
+  "blob": "b7fdc71004ed918a3f88babb7996beae9e6182bf",
+  "summary": "Create Electronic Documents for EHF generates XML files for invoices, credit memos, reminders, and finance charge memos for public sector customers in Norway after posting with required fields like GLN No. and Account Code.",
+  "systems": [
+    "sales",
+    "localization"
+  ],
+  "topics": [
+    "electronic invoicing",
+    "ehf",
+    "norway",
+    "xml",
+    "public sector"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Sales Invoices"
+    },
+    {
+      "type": "page",
+      "name": "Posted Sales Invoices"
+    },
+    {
+      "type": "page",
+      "name": "Sales & Receivables Setup"
+    }
+  ],
+  "features": [
+    "E-Invoice checkbox",
+    "GLN No.",
+    "Account Code",
+    "XML file creation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002577,
+      "pages_in_call": 8
+    }
+  ]
+}

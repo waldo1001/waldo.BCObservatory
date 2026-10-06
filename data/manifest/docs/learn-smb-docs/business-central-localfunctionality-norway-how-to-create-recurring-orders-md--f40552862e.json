@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-create-recurring-orders",
   "published_at": "2025-05-21T08:13:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "5c869583925ff8d176a5292af0f41254644ee137",
       "words": 144,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:24:58.273Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.002577
+    },
+    "summarized": {
+      "at": "2026-10-06T19:24:58.345Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:24:58.347Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:24:58.348Z",
+      "page": false
     }
   },
   "input_hash": "5c869583925ff8d176a5292af0f41254644ee137",
@@ -39,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "5c869583925ff8d176a5292af0f41254644ee137"
+  "output_hash": "ad57c51e05f2fefb58db1ffafc5908431893dba99fa70f22c953795d3aefbffb"
 }

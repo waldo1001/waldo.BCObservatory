@@ -1,0 +1,45 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Norway/how-to-create-remittance-accounts.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-create-remittance-accounts",
+  "title": "Create remittance accounts [NO]",
+  "blob": "2957d6409ae12caa11f099f482432c3a7817d184",
+  "summary": "Create Remittance Accounts in Norway establishes bank-specific accounts for domestic and foreign vendor payments with configuration for agreements, payment types, and financial posting parameters.",
+  "systems": [
+    "purchasing",
+    "localization"
+  ],
+  "topics": [
+    "remittance accounts",
+    "bank accounts",
+    "norway",
+    "payment setup"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Remittance Account Overview"
+    },
+    {
+      "type": "page",
+      "name": "Remittance Account Card"
+    }
+  ],
+  "features": [
+    "domestic payments",
+    "foreign payments",
+    "payment instr type",
+    "BBS integration",
+    "currency handling"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002577,
+      "pages_in_call": 8
+    }
+  ]
+}
