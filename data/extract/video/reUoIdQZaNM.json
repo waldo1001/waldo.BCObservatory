@@ -1,0 +1,661 @@
+{
+  "video_id": "reUoIdQZaNM",
+  "item_id": "video/yt-areopa/reUoIdQZaNM",
+  "title": "20260209 - Chaos to Clarity - Visualizing AL architecture for scalable Business Central solutions",
+  "duration_s": 3076,
+  "systems": [
+    "development",
+    "integration",
+    "platform"
+  ],
+  "topics": [
+    "al architecture",
+    "c4 model",
+    "software architecture diagrams",
+    "interfaces",
+    "bridge app pattern",
+    "design principles",
+    "system design",
+    "visualization",
+    "al extension design",
+    "documentation",
+    "abstraction levels",
+    "component design"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Housekeeping",
+      "t_start": 0,
+      "t_end": 162.3
+    },
+    {
+      "title": "Presenter Background and Journey",
+      "t_start": 162.3,
+      "t_end": 249.1
+    },
+    {
+      "title": "Evolution from NAV to Modern Architecture",
+      "t_start": 249.1,
+      "t_end": 363.1
+    },
+    {
+      "title": "The Challenge - Interfaces and Bridge Apps",
+      "t_start": 363.1,
+      "t_end": 467.4
+    },
+    {
+      "title": "Searching for Clarity through Diagrams",
+      "t_start": 467.4,
+      "t_end": 565
+    },
+    {
+      "title": "Exploring Architecture Diagram Types",
+      "t_start": 565,
+      "t_end": 680.9
+    },
+    {
+      "title": "Introduction to the C4 Model",
+      "t_start": 680.9,
+      "t_end": 895.3
+    },
+    {
+      "title": "C4 Model Levels and Mapping to AL Architecture",
+      "t_start": 895.3,
+      "t_end": 1038.4
+    },
+    {
+      "title": "System Context View and Diagram Principles",
+      "t_start": 1038.4,
+      "t_end": 1173.9
+    },
+    {
+      "title": "Container and Component Views with Design Decisions",
+      "t_start": 1173.9,
+      "t_end": 1440.1
+    },
+    {
+      "title": "Communicating Architecture to Stakeholders",
+      "t_start": 1440.1,
+      "t_end": 1591.8
+    },
+    {
+      "title": "Practical Application to Business Central Solution",
+      "t_start": 1591.8,
+      "t_end": 1876.3
+    },
+    {
+      "title": "Detailed Solution Hub Design Patterns and Testing",
+      "t_start": 1876.3,
+      "t_end": 2070.3
+    },
+    {
+      "title": "AI and Architecture Design Integration",
+      "t_start": 2070.3,
+      "t_end": 2216.3
+    },
+    {
+      "title": "Tooling Recommendations and AI-Assisted Validation",
+      "t_start": 2216.3,
+      "t_end": 3076
+    }
+  ],
+  "features": [
+    {
+      "name": "C4 Model for Architecture Visualization",
+      "description": "A defined set of abstractions and diagrams created by Simon Brown for visualizing software architecture. Uses four levels - software system, container, component, and code - to provide clarity without ambiguity. Mapped to Business Central extensions, PTEs, and AL namespaces.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 753.3,
+      "t_end": 1038.4,
+      "is_demoed": true,
+      "caveats": [
+        "External to Business Central, from broader software architecture community",
+        "C4 containers do not directly relate to Docker containers",
+        "diagrams can be created with various tools like draw.io, not just original C4 notation"
+      ],
+      "tags": [
+        "architecture visualization",
+        "design methodology",
+        "software patterns",
+        "modeling",
+        "documentation",
+        "c4 model"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Bridge App Pattern for System Integration",
+      "description": "An architectural approach for building connector applications between Business Central and other systems. Allows switching between different project solutions or ERP systems without losing data. External systems connect through interchangeable connector apps that decouple from specific project modules.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 407,
+      "t_end": 1876.3,
+      "is_demoed": true,
+      "caveats": [
+        "Described conceptually rather than demonstrated in early sessions",
+        "Presenter found implementation challenging in practice",
+        "requires careful API design",
+        "interchangeability depends on consistent data models"
+      ],
+      "tags": [
+        "integration pattern",
+        "system connector",
+        "architecture design",
+        "architectural pattern",
+        "interoperability"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "AL Interfaces",
+      "description": "A core AL language concept for building scalable solutions. Used in enum-based integration provider patterns with interfaces providing different implementations, supporting extensibility through solid principles.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 348.7,
+      "t_end": 2039.8,
+      "is_demoed": true,
+      "caveats": [
+        "Difficult learning curve for developers from NAV background"
+      ],
+      "tags": [
+        "al development",
+        "solid principles",
+        "code abstraction",
+        "enum",
+        "open-closed principle"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Architecture Diagram Documentation",
+      "description": "Practice of documenting design decisions within architecture diagrams, such as specifying data formats (JSON, XML) used in system communication, to prevent confusion when reading code.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1328.5,
+      "t_end": 1405.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "architecture",
+        "documentation",
+        "design decisions"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Code Architecture Reflection",
+      "description": "Practice of verifying that implemented code actually reflects the designed architecture, and using tools to derive architecture diagrams from the code to map against the intended design.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1395.4,
+      "t_end": 2824.5,
+      "is_demoed": false,
+      "caveats": [
+        "tools to derive diagrams from code are recommended but not specified",
+        "Does not require constant diagram updates"
+      ],
+      "tags": [
+        "architecture",
+        "code quality",
+        "design validation",
+        "github copilot",
+        "code architecture"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Stakeholder Architecture Communication",
+      "description": "Using architecture diagrams at appropriate abstraction levels to communicate with different stakeholders - system context and container levels for business executives, deeper levels for developers.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1520.6,
+      "t_end": 1591.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "communication",
+        "stakeholders",
+        "architecture",
+        "abstraction"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Solution hub module",
+      "description": "A customization module that provides customer solution information including data about systems in use and projects being worked on. Developed as a PTE (partner-developed extension) without using app source apps.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1697,
+      "t_end": 1726.7,
+      "is_demoed": false,
+      "caveats": [
+        "developed as customization, not app source"
+      ],
+      "tags": [
+        "custom module",
+        "pte",
+        "solution management"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "EROC connector",
+      "description": "A bridge app that sends and receives data from an external EROC system, connecting it to the solution hub module. Allows time entries from external project systems to be imported into Business Central.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1832.6,
+      "t_end": 1876.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "connector",
+        "external integration",
+        "time entries"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Projects integration module",
+      "description": "A module within solution hub that handles data flow between Business Central projects and external systems, allowing users to register time against project numbers. Designed to work with different project providers through interfaces and enums.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1888.4,
+      "t_end": 1972.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "module design",
+        "project management",
+        "integration",
+        "data flow"
+      ],
+      "system": "projects"
+    },
+    {
+      "name": "Enum-based integration provider pattern",
+      "description": "Uses an enum to define integration providers and interfaces to provide different implementations. Allows new providers to be added without modifying existing code, supporting extensibility through solid principles.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1996.6,
+      "t_end": 2039.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "enum",
+        "interface",
+        "solid principles",
+        "open-closed principle"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Architecture clarity improves AI prompts",
+      "description": "Clear architectural design with well-defined components and consistent naming conventions leads to better Copilot prompts with less ambiguity, resulting in more accurate code suggestions and faster automation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2070.3,
+      "t_end": 2119.1,
+      "is_demoed": false,
+      "caveats": [
+        "requires clear data model and naming conventions"
+      ],
+      "tags": [
+        "ai",
+        "copilot",
+        "prompts",
+        "architecture"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Structurizr DSL for architecture as code",
+      "description": "A domain-specific language that allows capturing architecture diagrams as code. Supports C4 model notation and enables model-driven view generation where changes to the model propagate to all derived diagrams.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2261.8,
+      "t_end": 2549.3,
+      "is_demoed": true,
+      "caveats": [
+        "requires learning DSL syntax",
+        "still needs export step to update diagrams",
+        "Requires manual creation of DSL file from diagrams"
+      ],
+      "tags": [
+        "dsl",
+        "architecture-as-code",
+        "c4 model",
+        "diagramming",
+        "structurizer",
+        "visualization"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Copilot architecture validation",
+      "description": "Using Copilot to review architecture diagrams and check if they follow SOLID principles, including dependency inversion, open-closed principle, and single responsibility principle. Can validate diagrams against solid principles and provide architectural feedback.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2362.1,
+      "t_end": 2430.2,
+      "is_demoed": true,
+      "caveats": [
+        "Copilot has concerns when it doesn't see all of the code",
+        "AI cannot see all code",
+        "primarily validates visual diagrams",
+        "text-based suggestions harder to read"
+      ],
+      "tags": [
+        "ai",
+        "copilot",
+        "solid principles",
+        "validation",
+        "architecture"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Structurizer playground",
+      "description": "Web-based playground at structurizer.com that allows creating and visualizing C4 model architecture diagrams with zoom capabilities to explore different levels of the solution.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2497.8,
+      "t_end": 2549.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "structurizer",
+        "c4 model",
+        "visualization",
+        "web tool"
+      ],
+      "system": "platform"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "EROC",
+      "t": 407
+    },
+    {
+      "type": "other",
+      "name": "solution component",
+      "t": 1012
+    },
+    {
+      "type": "other",
+      "name": "solution hub",
+      "t": 1697
+    },
+    {
+      "type": "other",
+      "name": "EROC connector",
+      "t": 1832.6
+    },
+    {
+      "type": "other",
+      "name": "projects integration module",
+      "t": 1899.8
+    },
+    {
+      "type": "enum",
+      "name": "integration provider",
+      "t": 1996.6
+    },
+    {
+      "type": "interface",
+      "name": "integration interface",
+      "t": 1996.6
+    },
+    {
+      "type": "other",
+      "name": "C4 model",
+      "t": 2508.6
+    },
+    {
+      "type": "other",
+      "name": "Structurizer",
+      "t": 2508.6
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Christian Lind",
+      "confidence": "high"
+    },
+    {
+      "name": "Ted Johnston",
+      "confidence": "high"
+    },
+    {
+      "name": "Alex",
+      "confidence": "medium"
+    },
+    {
+      "name": "Simon",
+      "confidence": "medium"
+    },
+    {
+      "name": "Espen",
+      "confidence": "medium"
+    },
+    {
+      "name": "Camille",
+      "confidence": "medium"
+    },
+    {
+      "name": "Jeremy",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 259.5,
+      "text": "I would consider myself as a NAV dinosaur. I started in consulting with the finance consulting",
+      "why_it_matters": "Establishes the presenter's background transitioning from NAV to modern Business Central development and architecture practices.",
+      "check": "exact"
+    },
+    {
+      "t": 363.1,
+      "text": "there was a large comet uh hitting me and that was interfaces",
+      "why_it_matters": "Identifies interfaces as a major learning challenge for developers transitioning from NAV to modern AL development.",
+      "check": "exact"
+    },
+    {
+      "t": 447.1,
+      "text": "this concept of a bridge app uh sounded very very intriguing",
+      "why_it_matters": "Shows the bridge app pattern as a recognized architectural approach from BC Tech Days 2022 for connecting external systems to Business Central.",
+      "check": "exact"
+    },
+    {
+      "t": 488.3,
+      "text": "too much design up front is dump. No design up front is even dumber.",
+      "why_it_matters": "Establishes the philosophy that proper upfront design is necessary but balance is critical - sets context for why visualization and planning are important.",
+      "check": "exact"
+    },
+    {
+      "t": 824.3,
+      "text": "The definition that Simon is doing the C4 model is a defined set of abstractions and a defined set of diagrams",
+      "why_it_matters": "Explains the core principle of C4 model - providing common abstractions to eliminate ambiguity in architecture diagrams.",
+      "check": "exact"
+    },
+    {
+      "t": 824.3,
+      "text": "the C4 model is a defined set of abstractions and a defined set of diagrams",
+      "why_it_matters": "Defines the core principle of C4 as a structured approach to architecture documentation",
+      "check": "exact"
+    },
+    {
+      "t": 847.3,
+      "text": "a common set of abstractions is blocking those um ambiguity that you saw on the screens before",
+      "why_it_matters": "Describes how standardized abstractions solve the problem of unclear architecture visualization that plagued earlier diagram approaches.",
+      "check": "exact"
+    },
+    {
+      "t": 871.2,
+      "text": "the model itself for the abstraction level differentiates four levels as is C C4",
+      "why_it_matters": "Establishes that the C4 model has exactly four hierarchical levels for architecture description",
+      "check": "exact"
+    },
+    {
+      "t": 925.8,
+      "text": "It is not Docker. Um that is a common um mistake or something you have to take care of.",
+      "why_it_matters": "Clarifies a critical misconception about C4 containers being different from Docker containers",
+      "check": "exact"
+    },
+    {
+      "t": 986.6,
+      "text": "when you have those four levels and map the levels we see in our world we have on the software system level the business",
+      "why_it_matters": "Shows how C4 levels directly map to Business Central architecture",
+      "check": "exact"
+    },
+    {
+      "t": 1405.6,
+      "text": "another main theme in this C4 model is does the code reflect the architecture",
+      "why_it_matters": "Identifies a key practice - verifying implementation matches architectural design",
+      "check": "exact"
+    },
+    {
+      "t": 1555.6,
+      "text": "not deeper but it helped a lot to make clear how many modules do we have to take care of regarding the switch to",
+      "why_it_matters": "Demonstrates practical value of using appropriate abstraction levels for business communication",
+      "check": "exact"
+    },
+    {
+      "t": 1604.9,
+      "text": "I tried to to use it and I modeled this solution using draw.io diagrams",
+      "why_it_matters": "Shows the practical tool choice for visualizing complex architecture and communicating it to stakeholders",
+      "check": "exact"
+    },
+    {
+      "t": 1726.7,
+      "text": "This is a container and this is a PTE. So we doesn't use any apps source app for it. We're developing it as a",
+      "why_it_matters": "Clarifies the architectural decision to build as PTE rather than app source, affecting extensibility and deployment",
+      "check": "exact"
+    },
+    {
+      "t": 1768.2,
+      "text": "I was thinking about this concept of bridge apps. What is the case when I don't put everything into one PTE",
+      "why_it_matters": "Identifies the architectural problem that bridge apps solve: modularity and interchangeability",
+      "check": "exact"
+    },
+    {
+      "t": 2081.2,
+      "text": "better architecture means better prompts because when I have those clarity in my head those prompts I gave the AI",
+      "why_it_matters": "Establishes the relationship between architectural clarity and effective AI-assisted development",
+      "check": "exact"
+    },
+    {
+      "t": 2261.8,
+      "text": "Simon invented this structurizer DSL. So that is um a domain specific language for the domain of software architecture",
+      "why_it_matters": "Introduces architecture-as-code approach that enables model-driven diagram generation",
+      "check": "exact"
+    },
+    {
+      "t": 2395,
+      "text": "dependency inversion principle well implemented. We're using L interfaces with ENM implementations is textbook correct",
+      "why_it_matters": "Shows Copilot validating that the design follows solid principles correctly",
+      "check": "exact"
+    },
+    {
+      "t": 2395,
+      "text": "dependency inversion principle well implemented. We're using L interfaces with ENM implementations is textbook correct open close principle good foundation",
+      "why_it_matters": "Demonstrates how Copilot validates architecture against SOLID principles and provides specific feedback on design pattern implementation.",
+      "check": "exact"
+    },
+    {
+      "t": 2597.3,
+      "text": "So that is really a state which I wished I had nine months ago. um using the copilot functions to bringing together the graphics",
+      "why_it_matters": "Highlights the value of combining Copilot with DSL-based diagrams as a retrospective tool for architecture clarity.",
+      "check": "exact"
+    },
+    {
+      "t": 2643.5,
+      "text": "So that was my journey giving me a tool with the C4 model to u get a little bit more clarity in my head",
+      "why_it_matters": "Summarizes the core value proposition of the C4 model approach - transforming chaos into clarity for maintainable solutions.",
+      "check": "exact"
+    },
+    {
+      "t": 2717.8,
+      "text": "Um for the code I I would say um the structure of the folders or the name spaces is the level I would uh",
+      "why_it_matters": "Clarifies the presenter's approach to representing code-level architecture using folder structures rather than detailed code diagrams.",
+      "check": "exact"
+    },
+    {
+      "t": 2797.8,
+      "text": "Um and with the capability of GitHub copilot who can check if this code structure is still in line with your architecture. Um, you",
+      "why_it_matters": "Explains a practical approach to maintain architecture alignment using Copilot without requiring constant diagram maintenance.",
+      "check": "exact"
+    },
+    {
+      "t": 2847.5,
+      "text": "uh that is a good question because uh I have to say it depends um and the C4 model enabled me to think through",
+      "why_it_matters": "Shows how C4 model helps in decision-making about architecture refactoring before implementation.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 24,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 14
+  },
+  "windows": 4,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.020113
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.021096999999999998
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.025804
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.020953
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.026118000000000002
+    }
+  ]
+}

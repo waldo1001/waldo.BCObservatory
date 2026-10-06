@@ -1,0 +1,1221 @@
+{
+  "video_id": "ecYXnXULijI",
+  "item_id": "video/yt-stefanmaron/ecYXnXULijI",
+  "title": "Let's Build a Plug & Play Claude Code Setup for AL Development - The Business Central Coding Stream",
+  "duration_s": 4982,
+  "systems": [
+    "development",
+    "platform",
+    "copilot"
+  ],
+  "topics": [
+    "dev containers",
+    "cloud code",
+    "al development",
+    "docker",
+    "authentication",
+    "wsl",
+    "windows",
+    "ai coding",
+    "claude agent",
+    "dockerfile",
+    "github copilot",
+    "github actions"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and context on Cloud Code setup",
+      "t_start": 0,
+      "t_end": 122
+    },
+    {
+      "title": "Dev container configuration goals and voice prompting approach",
+      "t_start": 122,
+      "t_end": 229.4
+    },
+    {
+      "title": "Bypass permission flag and containment strategy",
+      "t_start": 229.4,
+      "t_end": 312
+    },
+    {
+      "title": "Claude agent research on Cloud Code authentication",
+      "t_start": 312,
+      "t_end": 445.6
+    },
+    {
+      "title": "Agent preferences and authentication approach options",
+      "t_start": 445.6,
+      "t_end": 535.5
+    },
+    {
+      "title": "Interactive questions and Dockerfile creation",
+      "t_start": 535.5,
+      "t_end": 667.2
+    },
+    {
+      "title": "Generated files and WSL Windows compatibility check",
+      "t_start": 667.2,
+      "t_end": 788
+    },
+    {
+      "title": "Testing Cloud Code for Dev Container and GitHub Integration",
+      "t_start": 788,
+      "t_end": 1095.4
+    },
+    {
+      "title": "Resolving Local File System Path Issues",
+      "t_start": 1095.4,
+      "t_end": 1308.2
+    },
+    {
+      "title": "Publishing to GitHub and Testing Authentication",
+      "t_start": 1308.2,
+      "t_end": 1482.5
+    },
+    {
+      "title": "Autonomous Copilot Assistance and Dev Container Rebuild",
+      "t_start": 1482.5,
+      "t_end": 1870.9
+    },
+    {
+      "title": "Cloud Code login and authentication challenges",
+      "t_start": 1870.9,
+      "t_end": 2105.3
+    },
+    {
+      "title": "Dedicated AL config folder and mounted directory approach",
+      "t_start": 2105.3,
+      "t_end": 2286.9
+    },
+    {
+      "title": "Authentication strategy and Docker Volume Mounting Strategy",
+      "t_start": 2286.9,
+      "t_end": 2581.8
+    },
+    {
+      "title": "VS Code Dev Container Configuration and Testing Shared Folder Approach",
+      "t_start": 2581.8,
+      "t_end": 2906
+    },
+    {
+      "title": "Container Rebuild and Cloud Code Authentication Setup",
+      "t_start": 2906,
+      "t_end": 3340.6
+    },
+    {
+      "title": "Testing Credential Persistence and MVP Validation",
+      "t_start": 3340.6,
+      "t_end": 3628.3
+    },
+    {
+      "title": "Multi-Subscription Support and Git Repository Sanitization",
+      "t_start": 3628.3,
+      "t_end": 3902.8
+    },
+    {
+      "title": "Git remote safety and credential persistence approach",
+      "t_start": 3902.8,
+      "t_end": 4289.2
+    },
+    {
+      "title": "Testing git operations and VS Code authentication",
+      "t_start": 4289.2,
+      "t_end": 4582.8
+    },
+    {
+      "title": "GitHub authentication and Anthropic dev container discovery",
+      "t_start": 4582.8,
+      "t_end": 4809.9
+    },
+    {
+      "title": "Anthropic dev container design and closing remarks",
+      "t_start": 4809.9,
+      "t_end": 4982
+    }
+  ],
+  "features": [
+    {
+      "name": "Dev container script for AL development",
+      "description": "Building a dev container configuration with Ubuntu base image to provide Cloud Code installation and authentication, with plans to restrict dangerous command execution within the container.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 122,
+      "t_end": 312,
+      "is_demoed": true,
+      "caveats": [
+        "Authentication method still being determined",
+        "Requires WSL compatibility testing",
+        "Bypass permission flag used only in development"
+      ],
+      "tags": [
+        "dev containers",
+        "docker",
+        "al development",
+        "security"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Claude voice prompting in development workflow",
+      "description": "Using voice transcription with Whisper to input prompts to Claude instead of typing, allowing verbal specification of development requirements.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 160.4,
+      "t_end": 229.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "voice input",
+        "transcription",
+        "ai",
+        "workflow"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Bypass permission flag for Cloud Code",
+      "description": "A dangerously flag that removes the need to manually approve every command Cloud Code wants to execute, enabling automated setup but at security risk outside containers.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 240.7,
+      "t_end": 299.7,
+      "is_demoed": true,
+      "caveats": [
+        "Dangerous in non-sandboxed environments",
+        "Should only be used within dev containers"
+      ],
+      "tags": [
+        "security",
+        "automation",
+        "cloud code"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Claude agent sub-agent task delegation",
+      "description": "Built-in capability for Claude to spawn sub-agents to research specific topics and handle complex subtasks autonomously based on unstructured prompts.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 312,
+      "t_end": 418.2,
+      "is_demoed": true,
+      "caveats": [
+        "Limited visibility into background sub-agent work"
+      ],
+      "tags": [
+        "ai agents",
+        "task delegation",
+        "claude"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Opus configuration for thorough analysis",
+      "description": "Option to configure Claude Opus for more careful and thorough analysis over speed, accepting longer completion times for higher accuracy on first attempt.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 454.4,
+      "t_end": 492,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "claude",
+        "configuration",
+        "ai model"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Cloud Code authentication binding approaches",
+      "description": "Three viable approaches for authentication: binding Cloud Code from host to share existing credentials, using API key environment variable, or combined approaches.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 535.5,
+      "t_end": 579.6,
+      "is_demoed": false,
+      "caveats": [
+        "Best approach still undecided"
+      ],
+      "tags": [
+        "authentication",
+        "cloud code",
+        "credentials"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Interactive Claude prompting within sessions",
+      "description": "Claude can ask users interactive questions during task completion without interrupting the main session, allowing real-time refinement of requirements.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 535.5,
+      "t_end": 621.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "claude",
+        "interaction",
+        "ai"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Dockerfile generation for dev containers",
+      "description": "Claude generated a Dockerfile based on Ubuntu with Cloud Code installation, path configuration, dev container JSON settings, and environment variable binding.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 667.2,
+      "t_end": 738.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "docker",
+        "dockerfile",
+        "dev containers",
+        "al development"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "WSL Windows compatibility verification",
+      "description": "Claude verified that the generated dev container bindings and environment key setup are compatible with Windows Subsystem for Linux without requiring changes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 738.2,
+      "t_end": 883.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "wsl",
+        "windows",
+        "compatibility",
+        "cross-platform"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Dev Container Feature",
+      "description": "Cloud Code suggested using dev container features to distribute Docker, Docker CLI, and GitHub CLI in a composable way, offering a recommended approach for sharing development environment configurations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 916.7,
+      "t_end": 1095.4,
+      "is_demoed": true,
+      "caveats": [
+        "Local file system path resolution issues encountered",
+        "Authentication did not pass through correctly with Dockerfile approach",
+        "GitHub Actions release workflow did not run successfully"
+      ],
+      "tags": [
+        "dev-container",
+        "docker",
+        "configuration",
+        "setup"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "GitHub Copilot autonomous problem solving",
+      "description": "GitHub Copilot in VS Code demonstrated autonomous capabilities including checking repository status, identifying issues in GitHub Actions workflows, committing and pushing changes, and automatically attempting to fix problems without explicit instructions for each step.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1482.5,
+      "t_end": 1679,
+      "is_demoed": true,
+      "caveats": [
+        "Issues may require manual intervention such as creating secrets or access tokens",
+        "Release action did not complete successfully on first attempt"
+      ],
+      "tags": [
+        "copilot",
+        "automation",
+        "github-integration",
+        "ai-assistance"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Dev Container CLI",
+      "description": "A command-line interface tool for managing dev containers, discovered during the setup process for testing container configurations locally and with GitHub URLs.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1137.8,
+      "t_end": 1200,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "dev-container",
+        "cli",
+        "tooling"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Dev container with Arch Linux base",
+      "description": "Dev container setup using Arch Linux (Omakhi or Omakhali) as the base image for Business Central AL development, built on Arch Linux instead of traditional distributions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1703.8,
+      "t_end": 1870.9,
+      "is_demoed": true,
+      "caveats": [
+        "Dockerfile may not be needed when container is reused",
+        "Container reuse requires rebuild without cache"
+      ],
+      "tags": [
+        "dev containers",
+        "arch linux",
+        "docker",
+        "al development"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Cloud Code transcription with imperfect speech-to-text",
+      "description": "Cloud Code uses Whisper for speech-to-text transcription but does not accurately transcribe words; however it still understands intent and functions correctly despite transcription errors.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1925.6,
+      "t_end": 1937.1,
+      "is_demoed": true,
+      "caveats": [
+        "Transcription accuracy is imperfect",
+        "Only works if Cloud Code understands intent despite errors"
+      ],
+      "tags": [
+        "cloud code",
+        "speech-to-text",
+        "whisper",
+        "ai"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Cloud Code authentication persistence in dev containers",
+      "description": "Cloud Code login credentials do not persist across dev container rebuilds; users must re-authenticate each time they start a new session, even with the same container configuration.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1870.9,
+      "t_end": 1986.6,
+      "is_demoed": true,
+      "caveats": [
+        "Authentication does not persist between container sessions",
+        "Initial setup requires selecting theme and logging in"
+      ],
+      "tags": [
+        "cloud code",
+        "authentication",
+        "dev containers",
+        "credentials"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Mounted docker volume for shared AL development configuration",
+      "description": "Strategy to mount a dedicated docker volume for AL-specific Cloud Code configuration that is shared across dev containers, avoiding need to authenticate repeatedly and centralizing AL development settings.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2105.3,
+      "t_end": 2286.9,
+      "is_demoed": false,
+      "caveats": [
+        "Approach is still being evaluated",
+        "Need to verify if authentication can be mounted correctly",
+        "Requires single authentication within container to persist"
+      ],
+      "tags": [
+        "docker volumes",
+        "configuration",
+        "authentication",
+        "dev containers",
+        "al development"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "User-level AL development instructions in Cloud Code",
+      "description": "Proposed architecture separating user-level instructions specific to AL development from project-specific instructions, avoiding duplication of AL development guidance across multiple projects.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2431.8,
+      "t_end": 2449.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "cloud code",
+        "instructions",
+        "configuration",
+        "al development"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Voice recording to clipboard shortcut",
+      "description": "A shortcut that records voice, runs it through Whisper, and pastes the transcribed text to clipboard for use in any application.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2350.2,
+      "t_end": 2367.5,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "voice input",
+        "whisper integration",
+        "automation"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Docker volume for dev container authentication",
+      "description": "A shared docker volume approach to handle authentication credentials across multiple dev containers, avoiding separate authentication in each container.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2377.8,
+      "t_end": 2581.8,
+      "is_demoed": true,
+      "caveats": [
+        "requires mounting .local/share/cloud folder",
+        "cloud code may write files to other directories not captured"
+      ],
+      "tags": [
+        "docker",
+        "dev container",
+        "credential management",
+        "architecture"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Cloud Code dev container configuration",
+      "description": "Testing mounting of .local/share/cloud folder to persist authentication and configuration across dev container rebuilds.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2570.8,
+      "t_end": 2744.3,
+      "is_demoed": true,
+      "caveats": [
+        "authentication still requires manual onboarding after rebuild",
+        "cloud code does not properly persist all authentication state"
+      ],
+      "tags": [
+        "docker",
+        "dev container",
+        "cloud code",
+        "authentication",
+        "vs code"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Cloud Code authorization callback",
+      "description": "Manual authorization flow for cloud code involving URL copying, code exchange, and manual entry since automatic callback does not work reliably.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2835.1,
+      "t_end": 3063.6,
+      "is_demoed": true,
+      "caveats": [
+        "callback mechanism does not work",
+        "requires manual URL copying and code pasting"
+      ],
+      "tags": [
+        "authentication",
+        "cloud code",
+        "user experience"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Cloud trace JSON authentication storage",
+      "description": "Investigation into whether cloud trace JSON file contains authentication information and exploration of mounting authentication separately from other configuration files.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3155,
+      "t_end": 3229.5,
+      "is_demoed": true,
+      "caveats": [
+        "cloud trace JSON does not directly contain authentication information",
+        "authentication stored in separate location not yet identified"
+      ],
+      "tags": [
+        "cloud code",
+        "authentication",
+        "file structure",
+        "docker mounting"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Docker volume mounting for cloud authentication",
+      "description": "A mechanism to persist Azure cloud code authentication credentials in Docker volumes that are created on first use, allowing developers to authenticate once and reuse credentials without passing authentication from the host machine.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3155,
+      "t_end": 3628.3,
+      "is_demoed": true,
+      "caveats": [
+        "Users still need to confirm some questions during authentication",
+        "Requires container to be running to inspect volume contents"
+      ],
+      "tags": [
+        "docker",
+        "volumes",
+        "authentication",
+        "credentials",
+        "mvp"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Multi-subscription dev container support",
+      "description": "Dev containers can use different Azure subscriptions than the host machine by naming mounts differently for different projects, allowing teams to separate and share project subscriptions independently.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3671.6,
+      "t_end": 3751.3,
+      "is_demoed": false,
+      "caveats": [
+        "Requires manual naming of mounts for different projects"
+      ],
+      "tags": [
+        "subscriptions",
+        "dev-containers",
+        "multi-tenant",
+        "configuration"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "AL-specific directory mounting",
+      "description": "A planned enhancement to mount an AL-specific directory within the dev container that keeps cloud code configuration separate from general home directory files.",
+      "status": "announced",
+      "status_evidence_t": 3835.6,
+      "status_evidence_quote": "cloud AL specific directory will be the next thing",
+      "status_evidence_verified": true,
+      "t_start": 3835.6,
+      "t_end": 3851.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "directory-structure",
+        "configuration",
+        "planned"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Git remote sanitization for dev containers",
+      "description": "A security approach to remove GitHub remote URLs from git repositories in dev containers to protect against potential code destruction if cloud code malfunctions while disconnected from the remote.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3851.8,
+      "t_end": 3902.8,
+      "is_demoed": false,
+      "caveats": [
+        "Approach is still exploratory and may need refinement"
+      ],
+      "tags": [
+        "security",
+        "git",
+        "repository-protection",
+        "dev-containers"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Git credential stripping in dev containers",
+      "description": "Removing Git credentials from the dev container while keeping them persistent on the host machine, preventing them from being passed into the container.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 4020.2,
+      "t_end": 4166.2,
+      "is_demoed": true,
+      "caveats": [
+        "credential stripping implementation appears incomplete as pull and push still worked after removal"
+      ],
+      "tags": [
+        "security",
+        "git",
+        "dev containers",
+        "credentials"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Sudo support in dev container post-start commands",
+      "description": "Ability to run sudo commands during the dev container post-start phase, with consideration for the - dangerously-bypass-all-permission flag.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 4247.7,
+      "t_end": 4264,
+      "is_demoed": false,
+      "caveats": [
+        "unclear if this is an intended or supported approach"
+      ],
+      "tags": [
+        "dev containers",
+        "permissions",
+        "configuration"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Anthropic dev container template",
+      "description": "A pre-built dev container from Anthropic designed for Claude Code setup that could serve as a base for AL development environments.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 4736.5,
+      "t_end": 4752.8,
+      "is_demoed": false,
+      "caveats": [
+        "not currently being used in this setup; unclear why"
+      ],
+      "tags": [
+        "dev containers",
+        "anthropic",
+        "claude",
+        "templates"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Anthropic dev container for AL development",
+      "description": "An Anthropic-published dev container designed specifically for AL development use cases that whitelists only Anthropic APIs and blocks everything else to encapsulate cloud code securely.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 4809.9,
+      "t_end": 4824.7,
+      "is_demoed": false,
+      "caveats": [
+        "Dev container is being published by Anthropic, not a Business Central feature"
+      ],
+      "tags": [
+        "dev container",
+        "docker",
+        "anthropic",
+        "al development"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AL development commands in Docker container",
+      "description": "Plans to build AL compile command, publish command, and run tests command baked into a Docker container for a complete ready-to-go AL development environment.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 4851.4,
+      "t_end": 4876.5,
+      "is_demoed": false,
+      "caveats": [
+        "Still in development, described as part one of a two-part series"
+      ],
+      "tags": [
+        "al",
+        "docker",
+        "compile",
+        "publish",
+        "testing"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Two-part dev container series",
+      "description": "The presenter plans to continue building a complete AL development dev container as a multi-part video series, with the first part already available on GitHub.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 4836.9,
+      "t_end": 4887.1,
+      "is_demoed": false,
+      "caveats": [
+        "Plans subject to presenter's availability"
+      ],
+      "tags": [
+        "dev container",
+        "series",
+        "al-go",
+        "streaming"
+      ],
+      "system": "platform"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Cloud Code",
+      "t": 55.1
+    },
+    {
+      "type": "other",
+      "name": "Dockerfile",
+      "t": 172.8
+    },
+    {
+      "type": "other",
+      "name": "dev container JSON file",
+      "t": 723.7
+    },
+    {
+      "type": "other",
+      "name": "Sentinel project",
+      "t": 988.6
+    },
+    {
+      "type": "other",
+      "name": "release pipeline",
+      "t": 1084.1
+    },
+    {
+      "type": "other",
+      "name": "dev container template",
+      "t": 1095.4
+    },
+    {
+      "type": "other",
+      "name": "GitHub repository",
+      "t": 1668.9
+    },
+    {
+      "type": "other",
+      "name": "Whisper",
+      "t": 2338.6
+    },
+    {
+      "type": "other",
+      "name": "credentials.json",
+      "t": 3359.6
+    },
+    {
+      "type": "other",
+      "name": "cloud trace JSON",
+      "t": 3182.7
+    },
+    {
+      "type": "other",
+      "name": "dev container JSON",
+      "t": 3682.5
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Claude Code",
+      "confidence": "high"
+    },
+    {
+      "name": "GitHub Copilot",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 67.9,
+      "text": "my Cloud markdown my instructions on how to do AI development, also like the the profile I have with the agent",
+      "why_it_matters": "Establishes the context that this is about automating AI-assisted AL development workflows with reusable Claude agent configurations.",
+      "check": "exact"
+    },
+    {
+      "t": 134.6,
+      "text": "the idea is to build a dev container script",
+      "why_it_matters": "Clearly states the main goal of the stream - creating a reusable dev container setup for AL development.",
+      "check": "exact"
+    },
+    {
+      "t": 240.7,
+      "text": "I have bypass permission set on. This is a dangerously do not do this in live or something uh uh flag",
+      "why_it_matters": "Identifies a security risk that the containerization strategy is designed to mitigate.",
+      "check": "exact"
+    },
+    {
+      "t": 286.8,
+      "text": "I want to encapsulate this inside a dev container, because then it can screw up and completely destroy this com- completely container, but it",
+      "why_it_matters": "Explains the containment strategy and rationale for using dev containers with dangerous operations.",
+      "check": "exact"
+    },
+    {
+      "t": 322.8,
+      "text": "This is a built-in sub agent the task thing, if you haven't worked with this. So, it decided to do ...",
+      "why_it_matters": "Describes Claude's autonomous agent capability to spawn sub-agents for research based on natural language prompts.",
+      "check": "exact"
+    },
+    {
+      "t": 535.5,
+      "text": "For authentication, there are three viable approaches. We can bind the Cloud Code from the host, share your existing auth credentials and settings from",
+      "why_it_matters": "Identifies the authentication options Claude discovered for the dev container setup.",
+      "check": "exact"
+    },
+    {
+      "t": 700,
+      "text": "So, what it created, it created the Dockerfile based on the Ubuntu container. It does a install of Cloud Code.",
+      "why_it_matters": "Shows that Claude successfully generated working infrastructure code for the dev container.",
+      "check": "exact"
+    },
+    {
+      "t": 797.9,
+      "text": "We have like six people on the stream watching me explain stuff while I prompt Cloud Code to do stuff.",
+      "why_it_matters": "Demonstrates live AI-assisted development workflow where multiple viewers observe the tool generating code and configurations.",
+      "check": "exact"
+    },
+    {
+      "t": 932.3,
+      "text": "The dev container feature. Uh Docker and Docker GitHub CLI etc. all distributed most composable.",
+      "why_it_matters": "Identifies the recommended approach for dev container configuration using distributed, composable features.",
+      "check": "exact"
+    },
+    {
+      "t": 1353.1,
+      "text": "They not arise when published. The issue is purely about local file system resolution.",
+      "why_it_matters": "Clarifies that path resolution issues are local-only and will not occur when the configuration is published to GitHub.",
+      "check": "exact"
+    },
+    {
+      "t": 1444.8,
+      "text": "This seems to work. So, the install worked.",
+      "why_it_matters": "Confirms successful installation of the dev container, though authentication still requires work.",
+      "check": "exact"
+    },
+    {
+      "t": 1618.3,
+      "text": "This um level of autonomously I have never seen with uh with the GitHub Copilot in VS Code.",
+      "why_it_matters": "Expresses surprise at the autonomous capabilities of GitHub Copilot in fixing issues without explicit step-by-step instructions.",
+      "check": "exact"
+    },
+    {
+      "t": 1663.1,
+      "text": "It notices or it checks the runs on that repository, sees that there is an issue, and proceeds to fix that on its own.",
+      "why_it_matters": "Describes Copilot's autonomous debugging process: identifying workflow issues and attempting corrections without user direction.",
+      "check": "exact"
+    },
+    {
+      "t": 1668.9,
+      "text": "it checks the runs on that repository, sees that there is an issue, and proceeds to fix that on its own",
+      "why_it_matters": "Demonstrates autonomous AI capability of GitHub Copilot to detect and fix CI/CD issues without human intervention",
+      "check": "exact"
+    },
+    {
+      "t": 1679,
+      "text": "I think that's pretty first of all impressive and second of all um helpful",
+      "why_it_matters": "Establishes the value proposition of autonomous AI assistance for development workflows",
+      "check": "exact"
+    },
+    {
+      "t": 1838.2,
+      "text": "I do use Linux for BC development already since, I don't know, 3 or 4 years or something, so um this now is Omakhi",
+      "why_it_matters": "Indicates long-term use of Linux for Business Central development and introduces Arch Linux as a base for dev containers",
+      "check": "exact"
+    },
+    {
+      "t": 1886.6,
+      "text": "the login isn't carrying through correctly",
+      "why_it_matters": "Identifies a critical limitation - Cloud Code authentication does not persist across dev container sessions",
+      "check": "exact"
+    },
+    {
+      "t": 1937.1,
+      "text": "cloud code doesn't really care. It still works, so it knows what I mean",
+      "why_it_matters": "Shows that Cloud Code's AI understands intent despite imperfect speech-to-text transcription, maintaining functionality",
+      "check": "exact"
+    },
+    {
+      "t": 2041.1,
+      "text": "it would be ideal if we could uh pass through the authentication in at the container because that was really what hindered me when",
+      "why_it_matters": "Identifies authentication pass-through as a key pain point for practical dev container usage in AL development",
+      "check": "exact"
+    },
+    {
+      "t": 2256,
+      "text": "if we would mount a separate separate uh cloud folder dedicated to AL development and maybe even ship one with the dev container",
+      "why_it_matters": "Proposes a solution architecture to centralize AL-specific configuration and potentially solve authentication issues",
+      "check": "exact"
+    },
+    {
+      "t": 2420,
+      "text": "why would authenticate once from within the dev dev container behave differently than my already pre-authenticated credentials from my host environment?",
+      "why_it_matters": "Identifies the core architectural problem being addressed with the docker volume approach for credential persistence.",
+      "check": "exact"
+    },
+    {
+      "t": 2431.8,
+      "text": "I don't want to have separate cloud MD instruction files in every project that explains how AL development works",
+      "why_it_matters": "Explains the design decision to separate AL-specific instructions from project-specific ones to reduce duplication.",
+      "check": "exact"
+    },
+    {
+      "t": 2551.9,
+      "text": "if we also mount this one that might actually solution.",
+      "why_it_matters": "Proposes the shared folder mounting strategy as a potential solution to the authentication persistence problem.",
+      "check": "exact"
+    },
+    {
+      "t": 2952.6,
+      "text": "unfortunately, it still prompts me to unboard. So it's writing some files somewhere which are not in either of those two directory.",
+      "why_it_matters": "Reveals that cloud code authentication state is not fully captured by the two mounted directories, indicating incomplete understanding of file locations.",
+      "check": "exact"
+    },
+    {
+      "t": 3155,
+      "text": "we're still busy with figuring out how to give the cloud code authentication to the dev container.",
+      "why_it_matters": "Clearly states the ongoing challenge and primary objective of this development session.",
+      "check": "exact"
+    },
+    {
+      "t": 3165.2,
+      "text": "we did a test that logged which files were written into the home directory, and now it's just working.",
+      "why_it_matters": "Indicates successful debugging of cloud code authentication file placement in dev containers.",
+      "check": "exact"
+    },
+    {
+      "t": 3213,
+      "text": "the cloud trace JSON on the in the home directory itself doesn't contain uh the authentication information directly",
+      "why_it_matters": "Clarifies that authentication data is stored separately from the cloud trace file, requiring a different mounting strategy.",
+      "check": "exact"
+    },
+    {
+      "t": 3646.3,
+      "text": "now we do have uh Docker volumes that get created uh the first time um you use this template. Then you have to authenticate",
+      "why_it_matters": "Describes the MVP solution for credential persistence without passing authentication from the host.",
+      "check": "exact"
+    },
+    {
+      "t": 3671.6,
+      "text": "theoretically, your dev containers could use a different subscription than your your main one.",
+      "why_it_matters": "Explains a key benefit of volume-based credential storage for multi-subscription scenarios.",
+      "check": "exact"
+    },
+    {
+      "t": 3739.5,
+      "text": "it loses flexibility. And I think onboarding once is perfectly fine. Just onboarding over and over again would be annoying.",
+      "why_it_matters": "Design rationale for choosing mounted volumes over host-passed authentication.",
+      "check": "exact"
+    },
+    {
+      "t": 3851.8,
+      "text": "cloud code should be able to run with dangerously skip all permissions, bypass permissions inside the container in a safe way",
+      "why_it_matters": "Justifies the need for git remote sanitization as a security precaution.",
+      "check": "exact"
+    },
+    {
+      "t": 4020.2,
+      "text": "Since the workspace is host, running Git remote remove origin inside the container also removes it host.",
+      "why_it_matters": "Explains why blindly removing Git remotes in containers breaks host configuration, a key security design decision.",
+      "check": "exact"
+    },
+    {
+      "t": 4153.2,
+      "text": "the all the credential stuff is persistent on the host, just doesn't pass into the dev container",
+      "why_it_matters": "States the intended security architecture for credential handling between host and container.",
+      "check": "exact"
+    },
+    {
+      "t": 4361.8,
+      "text": "something is still lacking from the credential cleaner",
+      "why_it_matters": "Indicates that the credential stripping implementation is incomplete or not working as intended.",
+      "check": "exact"
+    },
+    {
+      "t": 4582.8,
+      "text": "I committed the changes to the dev container JSON and pushed it via interface of VS Code, and that also worked.",
+      "why_it_matters": "Shows that VS Code's built-in authentication bypassed the credential stripping mechanism.",
+      "check": "exact"
+    },
+    {
+      "t": 4638.7,
+      "text": "I am authenticated against GitHub, right? In VS Code.",
+      "why_it_matters": "Identifies that VS Code maintains its own authentication separate from Git credential management.",
+      "check": "exact"
+    },
+    {
+      "t": 4736.5,
+      "text": "there is a dev container from Anthropic that is designed for this",
+      "why_it_matters": "Introduces availability of an Anthropic-provided dev container template as a potential solution.",
+      "check": "exact"
+    },
+    {
+      "t": 4809.9,
+      "text": "this is going to be the way Anthropic publish a dev container, which is exactly designed for this use case",
+      "why_it_matters": "Explains the decision to use Anthropic's official dev container rather than a custom base, showing the strategic alignment with Anthropic's tooling.",
+      "check": "exact"
+    },
+    {
+      "t": 4824.7,
+      "text": "It only white lists the Anthropic APIs and blocks everything else. So, that way we really encapsulate cloud code in the container",
+      "why_it_matters": "Describes the security and isolation strategy for the dev container, limiting API access to Anthropic services only.",
+      "check": "exact"
+    },
+    {
+      "t": 4836.9,
+      "text": "this is probably going to be part one from at least a two-part series",
+      "why_it_matters": "Indicates that the work shown is incomplete and the presenter has plans to continue with additional functionality in future streams.",
+      "check": "exact"
+    },
+    {
+      "t": 4851.4,
+      "text": "I have plans to bake my um instructions into this Docker container. I have also built the AL compile command and a publish and",
+      "why_it_matters": "Details the planned features for the dev container, showing what AL development commands are being integrated.",
+      "check": "exact"
+    },
+    {
+      "t": 4898.6,
+      "text": "this is already on GitHub in the current state. I will continue to push there. If you want to check it out, you can",
+      "why_it_matters": "Indicates the code is publicly available on GitHub for interested viewers to access and follow development progress.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 240.7,
+      "kind": "other",
+      "text": "bypass permission set on. This is a dangerously do not do this in live or something"
+    },
+    {
+      "t": 1482.5,
+      "kind": "preview",
+      "text": "It's not done yet. I still work on this"
+    },
+    {
+      "t": 2256,
+      "kind": "coming-later",
+      "text": "if we would mount a separate separate uh cloud folder dedicated to AL development and maybe even ship one with the dev container"
+    },
+    {
+      "t": 2286.9,
+      "kind": "subject-to-change",
+      "text": "Would it be possible to have to like let or initiate authentication inside the dev container and then have it persist"
+    },
+    {
+      "t": 2431.8,
+      "kind": "coming-later",
+      "text": "user level instructions basically that are AL specific... in the future of the"
+    },
+    {
+      "t": 3835.6,
+      "kind": "coming-later",
+      "text": "cloud AL specific directory will be the next thing"
+    },
+    {
+      "t": 4322.6,
+      "kind": "other",
+      "text": "not sure if that's something we're supposed to do"
+    },
+    {
+      "t": 4836.9,
+      "kind": "coming-later",
+      "text": "this is probably going to be part one from at least a two-part series"
+    },
+    {
+      "t": 4851.4,
+      "kind": "coming-later",
+      "text": "I will build this live on stream, so what I did now, I will continue"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 42,
+    "quotes_dropped": 0,
+    "evidence_verified": 1,
+    "evidence_unverified": 24
+  },
+  "windows": 7,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.026131
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.018457
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.023051
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.019069999999999997
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.018559
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.015767
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.011674
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.052424
+    }
+  ]
+}

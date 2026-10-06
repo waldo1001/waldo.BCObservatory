@@ -1,0 +1,1369 @@
+{
+  "video_id": "tMqCSibSRug",
+  "item_id": "video/yt-stefanmaron/tMqCSibSRug",
+  "title": "ALCops: LinterCop's Successor for Business Central AL Code Analysis (feat Arthur van de Vondervoort)",
+  "duration_s": 4566,
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "alcops",
+    "lintercop",
+    "code analysis",
+    "code cops",
+    "al language",
+    "linting rules",
+    "github rate limits",
+    "rule domains",
+    "migration",
+    "test automation",
+    "code fixes",
+    "rule severity"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and LinterCop background",
+      "t_start": 0,
+      "t_end": 106.8
+    },
+    {
+      "title": "Motivation for ALCops: identifying cracks in LinterCop",
+      "t_start": 106.8,
+      "t_end": 188.9
+    },
+    {
+      "title": "Problems with LinterCop: GitHub rate limits and scope creep",
+      "t_start": 188.9,
+      "t_end": 310
+    },
+    {
+      "title": "Design issues: rule domains and the Swiss Army knife problem",
+      "t_start": 310,
+      "t_end": 466.5
+    },
+    {
+      "title": "ALCops development timeline and LinterCop transition",
+      "t_start": 466.5,
+      "t_end": 591.5
+    },
+    {
+      "title": "LinterCop sunset: ending development and maintenance",
+      "t_start": 591.5,
+      "t_end": 721.3
+    },
+    {
+      "title": "Technical challenges with AL language version dependencies",
+      "t_start": 721.3,
+      "t_end": 826.9
+    },
+    {
+      "title": "Six-cop architecture: LinterCop, PlatformCop, and ApplicationCop",
+      "t_start": 826.9,
+      "t_end": 902
+    },
+    {
+      "title": "Test automation cop and design philosophy",
+      "t_start": 902,
+      "t_end": 1051.6
+    },
+    {
+      "title": "Test validation rules and dialogue handling",
+      "t_start": 1051.6,
+      "t_end": 1129.3
+    },
+    {
+      "title": "Documentation cop and formatting cop structure",
+      "t_start": 1129.3,
+      "t_end": 1256.9
+    },
+    {
+      "title": "Application cop rules and architectural decisions",
+      "t_start": 1256.9,
+      "t_end": 1356.4
+    },
+    {
+      "title": "Severity levels and code fix implementation review",
+      "t_start": 1356.4,
+      "t_end": 1438.6
+    },
+    {
+      "title": "Code fixes expansion and rule description improvements",
+      "t_start": 1438.6,
+      "t_end": 1549.9
+    },
+    {
+      "title": "Migration documentation and LinterCop to ALCops transition",
+      "t_start": 1549.9,
+      "t_end": 1660.3
+    },
+    {
+      "title": "Migration strategy and avoiding breaking changes",
+      "t_start": 1660.3,
+      "t_end": 1785.9
+    },
+    {
+      "title": "Deeper analysis and rule behavior improvements",
+      "t_start": 1785.9,
+      "t_end": 1877.8
+    },
+    {
+      "title": "VS Code extension setup and configuration",
+      "t_start": 1877.8,
+      "t_end": 1955.3
+    },
+    {
+      "title": "MCP server integration and code fix automation",
+      "t_start": 1955.3,
+      "t_end": 2103.8
+    },
+    {
+      "title": "ALCops MCP server early stage status and capabilities",
+      "t_start": 2103.8,
+      "t_end": 2212.7
+    },
+    {
+      "title": "GitHub repository structure and NuGet package management",
+      "t_start": 2212.7,
+      "t_end": 2351.1
+    },
+    {
+      "title": "Severity levels and breaking pipeline prevention",
+      "t_start": 2351.1,
+      "t_end": 2428.8
+    },
+    {
+      "title": "Single Nougat package for all AL versions",
+      "t_start": 2428.8,
+      "t_end": 2520
+    },
+    {
+      "title": "Single-file solution using reflection for multi-version support",
+      "t_start": 2520,
+      "t_end": 2670.6
+    },
+    {
+      "title": "Nougat packaging and VS Code extension implementation",
+      "t_start": 2670.6,
+      "t_end": 2808.5
+    },
+    {
+      "title": "AL-Go helper, version detection, and pipeline configuration",
+      "t_start": 2808.5,
+      "t_end": 2916
+    },
+    {
+      "title": "Transfer fields rule improvements and community contributions",
+      "t_start": 2916,
+      "t_end": 3013.4
+    },
+    {
+      "title": "Dynamic transfer fields detection using code analysis",
+      "t_start": 3013.4,
+      "t_end": 3229.6
+    },
+    {
+      "title": "Transfer fields analysis across versions and localizations",
+      "t_start": 3229.6,
+      "t_end": 3438.6
+    },
+    {
+      "title": "Transfer fields analysis results and rule documentation",
+      "t_start": 3438.6,
+      "t_end": 3520.2
+    },
+    {
+      "title": "Try functions rule design and challenges",
+      "t_start": 3520.2,
+      "t_end": 3710.2
+    },
+    {
+      "title": "Community feedback and rule development process",
+      "t_start": 3710.2,
+      "t_end": 3803.4
+    },
+    {
+      "title": "LinterCop deprecation and migration timeline",
+      "t_start": 3803.4,
+      "t_end": 4013.1
+    },
+    {
+      "title": "Enum to option field conversion discussion",
+      "t_start": 4013.1,
+      "t_end": 4124.1
+    },
+    {
+      "title": "AL Cops rule for implicit conversion analysis",
+      "t_start": 4124.1,
+      "t_end": 4309.3
+    },
+    {
+      "title": "Design rationale for conversion warnings",
+      "t_start": 4309.3,
+      "t_end": 4426.6
+    },
+    {
+      "title": "Session closing and audience engagement",
+      "t_start": 4426.6,
+      "t_end": 4566
+    }
+  ],
+  "features": [
+    {
+      "name": "ALCops",
+      "description": "New code analysis initiative that succeeds LinterCop, broken down into six different specialized code cops. Focuses on modernizing the approach to AL code analysis with separate cops for different domains.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 120.4,
+      "t_end": 4556.9,
+      "is_demoed": true,
+      "caveats": [
+        "Still in early stages",
+        "Not yet fully documented",
+        "Released this week so may contain bugs"
+      ],
+      "tags": [
+        "code analysis",
+        "successor",
+        "modular design",
+        "six code cops",
+        "refactoring"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "LinterCop",
+      "description": "Previous code analysis tool for AL that is being transitioned to ALCops. Had nearly 100 rules focused on code quality and cyclomatic complexity. Will continue to work but no new features will be implemented.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 59,
+      "t_end": 4013.1,
+      "is_demoed": false,
+      "caveats": [
+        "No longer receiving new features",
+        "Version compatibility issues with AL language 16.4",
+        "GitHub rate limit issues from May 2025",
+        "Deprecated repository - no new rules will be added",
+        "Will be maintained for a few more months through end of year"
+      ],
+      "tags": [
+        "legacy",
+        "code quality",
+        "cyclomatic complexity",
+        "linting",
+        "deprecation",
+        "end of life"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Platform Cop",
+      "description": "One of the six specialized code cops in ALCops that focuses directly on the AL language itself without looking at Business Central implementation details.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 826.9,
+      "t_end": 902,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "code analysis",
+        "al language",
+        "platform"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "GitHub rate limiting issue",
+      "description": "In May 2025, GitHub updated rate limits for unauthorized requests from 60,000 to 60 requests per hour per public IP, causing LinterCop DLL file downloads to fail in DevOps pipelines.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 236.8,
+      "t_end": 291.1,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "github",
+        "rate limits",
+        "devops",
+        "infrastructure"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "AL language version compatibility",
+      "description": "LinterCop has issues supporting AL language 16.4 because the VS Code marketplace only has 16.3, and dev tools have 16.2. Business Central 27.4 requires AL 16.4.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 742.6,
+      "t_end": 802.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "versioning",
+        "compatibility",
+        "infrastructure"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "LinterCop trimmed down",
+      "description": "LinterCop is now part of ALCops but has been trimmed down to focus solely on code quality rather than serving as a subscriber. Removed non-quality-related rules.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 847.9,
+      "t_end": 863.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "lintercop",
+        "code quality",
+        "focus"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Test Automation Cop",
+      "description": "A new separate code cop for test automation rules, developed based on community feedback. Includes rules like detecting unnecessary assert true statements. Still under development with more rules planned.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 922.4,
+      "t_end": 1051.6,
+      "is_demoed": false,
+      "caveats": [
+        "Rules for test automation still being developed",
+        "Currently has limited rule set",
+        "Approximately five rules created so far"
+      ],
+      "tags": [
+        "test automation",
+        "rules",
+        "preview"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Test dialogue validation rules",
+      "description": "Planned diagnostics for test automation to validate that confirm dialogues are properly checked not just for existence but for their content. Will warn when test code validates dialogue presence but not dialogue content.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1051.6,
+      "t_end": 1115.8,
+      "is_demoed": false,
+      "caveats": [
+        "Not currently implemented",
+        "Still in planning stage"
+      ],
+      "tags": [
+        "test automation",
+        "dialogue",
+        "validation"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Documentation Cop",
+      "description": "Code cop focused on AL documentation practices. Includes rules for code comments justifying commits and transaction boundaries between functions. Less focused on tooltips.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1129.3,
+      "t_end": 1157.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "documentation",
+        "comments"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Formatting Cop",
+      "description": "Code cop for code formatting standards and practices in AL code.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1129.3,
+      "t_end": 1139.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "formatting"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "ApplicationCop",
+      "description": "Code cop focused on coding standards specific to Business Central implementation. Covers rules like proper code unit implementation patterns and Business Central-specific coding standards.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 902,
+      "t_end": 1268.2,
+      "is_demoed": true,
+      "caveats": [
+        "Contains some UI-related rules that might be better separated",
+        "Possible future restructuring to separate UI rules"
+      ],
+      "tags": [
+        "business central",
+        "coding standards",
+        "application"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Comprehensive rule review and severity adjustment",
+      "description": "All rules underwent intensive review for severity levels, enabled settings, and descriptions. Previous LinterCop restricted new rules to info level to avoid breaking pipelines. New ALCops architecture allows higher severity levels for better code quality enforcement.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1329.5,
+      "t_end": 1411.6,
+      "is_demoed": false,
+      "caveats": [
+        "Previous LinterCop limited new rules to info severity to avoid breaking existing pipelines"
+      ],
+      "tags": [
+        "severity",
+        "rules",
+        "review"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Expanded code fix implementation",
+      "description": "Increased code fixes from approximately five or six to 30 total across all rules. Code fixes allow single-click automatic resolution of flagged issues. Some rules cannot have code fixes due to complexity.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1438.6,
+      "t_end": 1505.6,
+      "is_demoed": true,
+      "caveats": [
+        "Not all rules can have code fixes due to complexity",
+        "Some require Copilot or manual intervention"
+      ],
+      "tags": [
+        "code fixes",
+        "automation"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Improved rule descriptions for AI agents",
+      "description": "All rule descriptions have been enhanced to be more understandable to AI agents and coding agents. Rule titles and messages in VS Code have been improved to provide better context for both humans and AI.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1520.3,
+      "t_end": 1549.9,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "descriptions",
+        "ai",
+        "agents"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AI-assisted rule development approach",
+      "description": "Used Copilot and cloud code to develop and improve ALCops. Evolved from manual copy-pasting to using AI agents with tools integration for more efficient development. Hybrid approach combining developer intent with AI assistance.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1549.9,
+      "t_end": 1638.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "copilot",
+        "ai",
+        "development"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "LinterCop to ALCops migration documentation",
+      "description": "Provided documentation guide for users migrating from LinterCop to ALCops. Includes mapping of old LinterCop codes to new ALCops structure and documentation for existing rule sets.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1648.5,
+      "t_end": 1693.1,
+      "is_demoed": true,
+      "caveats": [
+        "95 percent rule coverage, some rules still being migrated",
+        "Some rule implementations may need adjustment"
+      ],
+      "tags": [
+        "migration",
+        "documentation",
+        "rule-sets"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "ALCops deeper rule analysis",
+      "description": "ALCops provides improved rule checking that goes deeper into AL code analysis than LinterCop, potentially surfacing new warnings on previously-resolved diagnostics.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1757.5,
+      "t_end": 1800.3,
+      "is_demoed": true,
+      "caveats": [
+        "May reveal previously-hidden issues",
+        "Requires validation that rule behaviors match expectations"
+      ],
+      "tags": [
+        "analysis",
+        "rule-improvements",
+        "diagnostics"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "ALCops VS Code extension",
+      "description": "VS Code extension for ALCops that allows users to select and configure which code cops to run, supporting granular control over linting and formatting rules.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1877.8,
+      "t_end": 1943.1,
+      "is_demoed": true,
+      "caveats": [
+        "Cannot run LinterCop and ALCops simultaneously due to shared diagnostic IDs",
+        "LinterCop must be disabled in VS Code to use ALCops"
+      ],
+      "tags": [
+        "vs-code",
+        "extension",
+        "configuration"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "ALCops MCP server",
+      "description": "Model Context Protocol server for ALCops that enables coding agents to analyze code and apply quick fixes programmatically, integrating with cloud code and copilot CLI.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1955.3,
+      "t_end": 2192.4,
+      "is_demoed": true,
+      "caveats": [
+        "Early stage implementation",
+        "Still undergoing testing and improvement",
+        "Quick fix application mechanism recently changed from LLM-mediated to programmatic",
+        "MCP server is at version 0.1 alpha, version 1.0 expected in next couple of weeks"
+      ],
+      "tags": [
+        "mcp",
+        "agents",
+        "copilot-integration"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "ALCops MCP quick fix automation",
+      "description": "MCP server applies Microsoft-provided quick fixes directly via programmatic script rather than through LLM interpretation, preventing potential issues with code transformation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2103.8,
+      "t_end": 2172.4,
+      "is_demoed": false,
+      "caveats": [
+        "Late change made to implementation",
+        "Still subject to testing and improvement"
+      ],
+      "tags": [
+        "quick-fixes",
+        "automation",
+        "mcp"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "ALCops NuGet package distribution",
+      "description": "ALCops now distributed via NuGet instead of direct GitHub releases, enabling easier installation as a dotnet tool and better version control in pipelines.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2270.8,
+      "t_end": 2332.8,
+      "is_demoed": true,
+      "caveats": [
+        "Replaces previous GitHub release-based distribution"
+      ],
+      "tags": [
+        "nuget",
+        "package-management",
+        "distribution"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "ALCops semantic versioning",
+      "description": "Implements semantic versioning for analyzers allowing pipelines to pin specific versions and gradually upgrade, preventing breaking changes from new rules.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2319.1,
+      "t_end": 2351.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "versioning",
+        "package-management",
+        "pipeline"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Severity level configuration for new rules",
+      "description": "Rules can be introduced with warning or error severity levels to prevent breaking pipelines, allowing users to choose which analyzer version to use.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2351.1,
+      "t_end": 2371.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "severity",
+        "pipeline",
+        "breaking changes"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Single Nougat package for multiple AL versions",
+      "description": "One Nougat package file now works across all AL versions of Business Central by using reflection to target the same .NET framework version, eliminating the need to build separate DLLs for each version.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2520,
+      "t_end": 2658.1,
+      "is_demoed": true,
+      "caveats": [
+        "Uses reflection for version detection",
+        "Targeting same .NET version (8.0 for versions 16-17)"
+      ],
+      "tags": [
+        "nougat",
+        "packaging",
+        "reflection",
+        "multi-version"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AL language version as primary driver",
+      "description": "Changed from using VSX file version as the driver to using AL language version and target framework as the primary driver for version compatibility determination.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2588.1,
+      "t_end": 2631.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "versioning",
+        "driver",
+        "language"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AL-Go helper for Nougat package installation",
+      "description": "An AL-Go helper has been created to dynamically grab the correct Nougat feed and files for pipelines, defaulting to .NET 8.0 for version 16.0 or higher, with parameter support for earlier .NET Standard 2.1 versions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2808.5,
+      "t_end": 2846.2,
+      "is_demoed": true,
+      "caveats": [
+        "Assumes version 16.0 or higher by default",
+        "May require custom implementation for some pipeline tools like ALOps or Alpaka"
+      ],
+      "tags": [
+        "al-go",
+        "helper",
+        "pipeline",
+        "nougat"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Dynamic transfer fields rule detection",
+      "description": "An analyzer that dynamically detects transfer fields in code by parsing the base application and creating a JSON output showing source and target tables, replacing the previous static list of 200 hardcoded transfer field rule pairs.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3013.4,
+      "t_end": 3229.6,
+      "is_demoed": true,
+      "caveats": [
+        "Covers more scenarios and may throw new warnings or errors",
+        "Requires code analysis instead of text parsing",
+        "Analyzer must handle cryptically named variables and implicit transfers"
+      ],
+      "tags": [
+        "transfer-fields",
+        "dynamic",
+        "analyzer",
+        "rules"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Transfer fields analyzer",
+      "description": "Custom analyzer that identifies transfer fields in AL code by parsing the base application and determining source and target tables. The analyzer creates JSON output mapping the source and target objects and their locations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3209.4,
+      "t_end": 3324.5,
+      "is_demoed": true,
+      "caveats": [
+        "Analyzer must handle cryptically named variables and implicit transfers",
+        "Initial implementation was a quick solution with room for improvements"
+      ],
+      "tags": [
+        "transfer fields",
+        "static analysis",
+        "custom analyzer",
+        "base application"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Transfer fields rule improvements",
+      "description": "Enhanced transfer fields detection to support localization-specific fields, namespace handling, unidirectional coupling checks, and type-to-length analysis. Increased detected couplings from 200 to almost 400 across all versions and countries.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3303.4,
+      "t_end": 3438.6,
+      "is_demoed": true,
+      "caveats": [
+        "Improvements include handling of namespaces and unidirectional couplings",
+        "Split into two separate rules checking type versus object and field names"
+      ],
+      "tags": [
+        "transfer fields",
+        "rule enhancement",
+        "coupling detection",
+        "localization"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Try functions rule",
+      "description": "Proposed rule to detect improper use of try functions in AL code, specifically identifying database modifications that are not rolled back within try functions. Implementation challenged by method chaining and external event subscribers.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3503.9,
+      "t_end": 3747.7,
+      "is_demoed": false,
+      "caveats": [
+        "Rule not yet implemented",
+        "Challenge of tracking method chaining across multiple levels",
+        "Difficulty determining if modifications occur within try function context",
+        "May raise false positives if external event subscribers are involved",
+        "Proposed to start with community discussion or GitHub issue"
+      ],
+      "tags": [
+        "try functions",
+        "database modifications",
+        "method chaining",
+        "proposed rule"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "LinterCop deprecation",
+      "description": "LinterCop repository is officially deprecated and will not receive new updates. The tool is currently on life support and will eventually be replaced by ALCops. Users are encouraged to migrate gradually.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3875.4,
+      "t_end": 4013.1,
+      "is_demoed": false,
+      "caveats": [
+        "LinterCop will be maintained for a few more months but no new rules will be added",
+        "Timeline is approximate; depends on breaking changes in Business Central",
+        "No exact end date specified for LinterCop support"
+      ],
+      "tags": [
+        "lintercop",
+        "deprecation",
+        "alcops migration",
+        "end of life"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Linter Cop Maintenance and Support Window",
+      "description": "The speaker commits to maintaining Linter Cop for at least a few months to end of year to allow developers time to migrate to AL Cops. Internal company use and lack of migration to AL Ops yet requires continued support.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3908.6,
+      "t_end": 3988.6,
+      "is_demoed": false,
+      "caveats": [
+        "Difficult to set exact timeline",
+        "Depends on language evolution",
+        "May not resolve all problems"
+      ],
+      "tags": [
+        "linter cop",
+        "maintenance",
+        "transition period"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AL Cops Implicit Conversion Validation Rule",
+      "description": "AL Cops includes a rule that validates implicit conversions between enum and option fields. The rule requires explicit conversion to integer type rather than allowing implicit conversion to prevent accidental wrong field assignments.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 4158.2,
+      "t_end": 4298.4,
+      "is_demoed": true,
+      "caveats": [
+        "Applies to implicit enum to option conversions",
+        "May trigger on certain system tables",
+        "Pragma can be used to suppress the diagnostic"
+      ],
+      "tags": [
+        "al cops",
+        "implicit conversion",
+        "enum",
+        "option",
+        "validation rule"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AL Cops Conversion Diagnostic for Error Prevention",
+      "description": "The diagnostic rule helps developers prevent mistakes when converting enum values to option or integer fields by requiring explicit intent declaration. The warning works both ways - enum to option and integer to enum.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 4239.3,
+      "t_end": 4406.6,
+      "is_demoed": true,
+      "caveats": [
+        "Not a hard prohibition",
+        "Designed to help catch accidental wrong field assignments",
+        "Developers can use pragmas to override"
+      ],
+      "tags": [
+        "al cops",
+        "conversion",
+        "diagnostic",
+        "implicit conversion",
+        "error prevention"
+      ],
+      "system": "development"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "ALCops",
+      "t": 826.9
+    },
+    {
+      "type": "other",
+      "name": "LinterCop",
+      "t": 847.9
+    },
+    {
+      "type": "other",
+      "name": "PlatformCop",
+      "t": 876.8
+    },
+    {
+      "type": "other",
+      "name": "ApplicationCop",
+      "t": 902
+    },
+    {
+      "type": "other",
+      "name": "Test Automation Cop",
+      "t": 922.4
+    },
+    {
+      "type": "other",
+      "name": "Documentation Cop",
+      "t": 1129.3
+    },
+    {
+      "type": "other",
+      "name": "Formatting Cop",
+      "t": 1129.3
+    },
+    {
+      "type": "other",
+      "name": "MCP server",
+      "t": 1985.6
+    },
+    {
+      "type": "other",
+      "name": "AL cups extension",
+      "t": 1888.3
+    },
+    {
+      "type": "other",
+      "name": "account scheduling",
+      "t": 3209.4
+    },
+    {
+      "type": "other",
+      "name": "result line",
+      "t": 3209.4
+    },
+    {
+      "type": "table",
+      "name": "Object table",
+      "t": 4192.7
+    },
+    {
+      "type": "other",
+      "name": "shipment line",
+      "t": 4075.1
+    },
+    {
+      "type": "other",
+      "name": "sales line",
+      "t": 4075.1
+    },
+    {
+      "type": "other",
+      "name": "purchase lines",
+      "t": 4075.1
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Arthur van de Vondervoort",
+      "confidence": "high"
+    },
+    {
+      "name": "Luke",
+      "confidence": "medium"
+    },
+    {
+      "name": "Moderator",
+      "confidence": "low"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 82,
+      "text": "we're almost at the 100. I think we're now at like 90 95 rules somethingish",
+      "why_it_matters": "Establishes the scale of LinterCop's rule set before the transition to ALCops",
+      "check": "exact"
+    },
+    {
+      "t": 130.4,
+      "text": "that started around I think 3 months, four months agoish. um that I saw some some things I wanted to change and I saw",
+      "why_it_matters": "Explains the motivation for ALCops as a response to identified problems in LinterCop",
+      "check": "exact"
+    },
+    {
+      "t": 174.2,
+      "text": "that's called AL Cops. Um that's the the uh growing further from from the business central club you've started",
+      "why_it_matters": "Names the new initiative and clarifies it builds on LinterCop foundation",
+      "check": "exact"
+    },
+    {
+      "t": 236.8,
+      "text": "In May of 2025 um GitHub updated the rate limits for and uh important part unauthorized request",
+      "why_it_matters": "Documents specific external factor that contributed to LinterCop's problems",
+      "check": "exact"
+    },
+    {
+      "t": 400.9,
+      "text": "it felt it coming like a Swiss Army knife. This is central interop and you could pull everything out it",
+      "why_it_matters": "Describes the core design problem ALCops aims to solve through modularization",
+      "check": "exact"
+    },
+    {
+      "t": 706.9,
+      "text": "support is there that it uh will work as of today. Um but I'm not implementing new features anymore",
+      "why_it_matters": "Clarifies the transition strategy: LinterCop stays functional but enters maintenance mode",
+      "check": "exact"
+    },
+    {
+      "t": 837.7,
+      "text": "I've broken down into six different code cups. Um on left or below you still see the lint cup",
+      "why_it_matters": "Describes the core architectural change in ALCops: modular specialized cops replacing monolithic LinterCop",
+      "check": "exact"
+    },
+    {
+      "t": 837.7,
+      "text": "I've broken down into six different code cups",
+      "why_it_matters": "Describes the fundamental architectural change from single LinterCop to six separate specialized code cops",
+      "check": "exact"
+    },
+    {
+      "t": 847.9,
+      "text": "lop is now a part of the al cup. Um, but I trimmed it down and only focused on on what Lin Cup I",
+      "why_it_matters": "Clarifies that LinterCop is now part of ALCops but has been reduced in scope to focus purely on code quality",
+      "check": "exact"
+    },
+    {
+      "t": 902,
+      "text": "the application cop that will look more at the coding standards more focused on business central and the platform cop is specific for the",
+      "why_it_matters": "Explains the architectural separation between ApplicationCop and PlatformCop to create abstraction between AL language rules and Business Central-specific standards",
+      "check": "exact"
+    },
+    {
+      "t": 1374.6,
+      "text": "We didn't dare to do a warning or or error because then we could break out um pipelines that are out there. That's the",
+      "why_it_matters": "Explains why previous LinterCop rules were restricted to info severity level to avoid breaking customer pipelines",
+      "check": "exact"
+    },
+    {
+      "t": 1477.9,
+      "text": "I'm up to I think 30 code fixes to total. That means 30 30 rules that have code fix, right?",
+      "why_it_matters": "Documents the significant expansion in code fix implementation from previous five or six to 30 total rules with fixes",
+      "check": "exact"
+    },
+    {
+      "t": 1520.3,
+      "text": "I improved all the the descriptions of the rules also so that the description um has more of the line that an agentic a",
+      "why_it_matters": "Highlights focus on making rule descriptions understandable to both humans and AI agents to improve Copilot effectiveness",
+      "check": "exact"
+    },
+    {
+      "t": 1625.5,
+      "text": "I want to quickly have a solution um uh without doing anything manually because that will take for like 100 rules every uh everything",
+      "why_it_matters": "Explains the driver for AI-assisted rule migration over manual approaches at scale.",
+      "check": "exact"
+    },
+    {
+      "t": 1638.2,
+      "text": "It's a little bit an hybrid combination of uh what do I want to change and and let the agent help me to to",
+      "why_it_matters": "Describes the development approach of using AI agents as tools while maintaining developer control over the ALCops project goals",
+      "check": "exact"
+    },
+    {
+      "t": 1693.1,
+      "text": "I think I have most of the rules there and we're like 95%.",
+      "why_it_matters": "Quantifies the migration coverage of ALCops relative to LinterCop rules.",
+      "check": "exact"
+    },
+    {
+      "t": 1785.9,
+      "text": "So if you move over to the alops it's quite possible that you find new uh warnings or diagnostics that you thought you solved",
+      "why_it_matters": "Sets expectations that ALCops migration requires validation due to improved analysis depth.",
+      "check": "exact"
+    },
+    {
+      "t": 1817.4,
+      "text": "I would yeah that would be my advice uh is certainly in this uh this time spec because I released it this week maybe",
+      "why_it_matters": "Advises cautious adoption due to recent release and potential undiscovered bugs.",
+      "check": "exact"
+    },
+    {
+      "t": 1899,
+      "text": "It's not supported to have and the AL cups running at the same time because uh I reused for the lint cop the same",
+      "why_it_matters": "Specifies a technical incompatibility requiring migration planning.",
+      "check": "exact"
+    },
+    {
+      "t": 2103.8,
+      "text": "All Microsoft provided quick fixes are then also exposed to the MCP through the MCP to your to your coding agent.",
+      "why_it_matters": "Clarifies how agents can leverage built-in quick fixes for automated code remediation.",
+      "check": "exact"
+    },
+    {
+      "t": 2192.4,
+      "text": "Because like I said this is brand new. We just delivered it a few days ago. So um it's also in an early stage",
+      "why_it_matters": "Confirms MCP server is in preview stage with recent delivery.",
+      "check": "exact"
+    },
+    {
+      "t": 2351.1,
+      "text": "It also helps for me to also introduce new rules but maybe have an warning or even an error as as an uh standard",
+      "why_it_matters": "Explains how new analyzer rules can be introduced without breaking existing pipelines by allowing users to control severity levels and choose which analyzer version to run.",
+      "check": "exact"
+    },
+    {
+      "t": 2381.8,
+      "text": "the MCP server is uh currently at 01 uh the alpha I want to release um so next couple weeks I would expect some",
+      "why_it_matters": "Establishes the current preview status of the MCP server and timeline for version 1.0 release.",
+      "check": "exact"
+    },
+    {
+      "t": 2520,
+      "text": "What we now have is um one file that will work for all the uh AL versions of uh Business Central",
+      "why_it_matters": "Key achievement showing elimination of version-specific builds through single Nougat package approach.",
+      "check": "exact"
+    },
+    {
+      "t": 2643.7,
+      "text": "using heavily on reflection that if I create one file it as long as I'm targeting uh the same uh net version the one",
+      "why_it_matters": "Explains the technical mechanism enabling single-file solution across multiple AL versions using reflection.",
+      "check": "exact"
+    },
+    {
+      "t": 2808.5,
+      "text": "For a go I've created an helper um where you can then grab uh installer and that will then grab for you the the",
+      "why_it_matters": "Describes the AL-Go helper that automates correct Nougat feed selection for pipelines.",
+      "check": "exact"
+    },
+    {
+      "t": 3079.7,
+      "text": "I have a code analyzer so it and analyze code for me. So why shouldn't I let the code analyzer analyze what transfer fields",
+      "why_it_matters": "Demonstrates shift from hardcoded rules to dynamic analysis, improving coverage of transfer field scenarios.",
+      "check": "exact"
+    },
+    {
+      "t": 3143.7,
+      "text": "the base app to find transfer fields and their source and target tables because i mean finding the transfer fields is easy right",
+      "why_it_matters": "Explains the complexity of analyzing transfer fields and why text parsing alone is insufficient.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 3314.4,
+      "text": "We had like we said about 200 couplings um increased now to um almost 400",
+      "why_it_matters": "Shows measurable progress in transfer fields detection, doubling the number of discovered couplings through improved analysis.",
+      "check": "exact"
+    },
+    {
+      "t": 3381,
+      "text": "Also rule will also now look at the unidirectional coupling because if you have like for example going from a text with a length",
+      "why_it_matters": "Illustrates intelligent rule design that understands field compatibility based on type and length characteristics.",
+      "check": "exact"
+    },
+    {
+      "t": 3406.3,
+      "text": "We have one rule now that will check only the type and another rule we will check the the object name the field name",
+      "why_it_matters": "Explains the architectural decision to split transfer field validation into separate rules for type and field name checking.",
+      "check": "exact"
+    },
+    {
+      "t": 3894.7,
+      "text": "To be honest I'm I find difficult to get a time path on it because if there really is a a huge breaking change",
+      "why_it_matters": "Candid assessment of LinterCop's maintenance status and uncertainty about long-term support due to evolving Business Central.",
+      "check": "exact"
+    },
+    {
+      "t": 3920.8,
+      "text": "We're internally also not jumped over to the alops net uh yet. So no I want to have it working",
+      "why_it_matters": "Shows current internal dependencies on Linter Cop driving continued maintenance despite planned deprecation",
+      "check": "exact"
+    },
+    {
+      "t": 3957.9,
+      "text": "as long as I can make it uh edit the a little cop work without having to uh review or or implement a lot",
+      "why_it_matters": "Specifies the maintenance commitment timeline for Linter Cop transition",
+      "check": "exact"
+    },
+    {
+      "t": 3988.6,
+      "text": "I'm trying to uh keep up the the current LIO as long as possible uh in the air",
+      "why_it_matters": "Commitment to maintaining LinterCop for several more months to give users time to migrate to ALCops.",
+      "check": "snapped"
+    },
+    {
+      "t": 4013.1,
+      "text": "The repos itself is deprecated. So it won't receive any new new updates anymore",
+      "why_it_matters": "Formal statement of LinterCop repository deprecation with no new features planned.",
+      "check": "exact"
+    },
+    {
+      "t": 4039.4,
+      "text": "the pipelines are still running means if if there's a new um version of the AL language coming out. Um Lindops will also provide",
+      "why_it_matters": "Clarifies that while no new rules are added, infrastructure will maintain compatibility with future AL language versions",
+      "check": "exact"
+    },
+    {
+      "t": 4253.3,
+      "text": "I expected you to convert the enim to an as integer as the option set will also be handled as an integer value",
+      "why_it_matters": "Explains the design rationale for requiring explicit type conversion in AL Cops rules",
+      "check": "exact"
+    },
+    {
+      "t": 4298.4,
+      "text": "there are no link between those two objects. So implicitly set it as an integer. that you also know I'm going to pass the",
+      "why_it_matters": "Justifies why implicit conversion between enum and option types requires explicit declaration for safety",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 591.5,
+      "kind": "other",
+      "text": "we're not going to do any more development on on this"
+    },
+    {
+      "t": 1040.2,
+      "kind": "coming-later",
+      "text": "It's on my backlog to to develop in test automation cop rules"
+    },
+    {
+      "t": 1094.5,
+      "kind": "not-in-this-release",
+      "text": "There isn't a rule currently today that will help you get a warning or a diagnostic for test dialogue validation"
+    },
+    {
+      "t": 1817.4,
+      "kind": "preview",
+      "text": "I released it this week maybe should be some bugs I didn't uh find as of today"
+    },
+    {
+      "t": 1837.3,
+      "kind": "preview",
+      "text": "so jumping today is is uh could be of course but is is quite uh could be quite an an ..."
+    },
+    {
+      "t": 2089.1,
+      "kind": "subject-to-change",
+      "text": "that's yeah still the subject for for testing and probably improvement"
+    },
+    {
+      "t": 2192.4,
+      "kind": "preview",
+      "text": "this is brand new. We just delivered it a few days ago. So um it's also in an early stage"
+    },
+    {
+      "t": 2381.8,
+      "kind": "preview",
+      "text": "MCP server is currently at 0.1 alpha"
+    },
+    {
+      "t": 2401.9,
+      "kind": "coming-later",
+      "text": "Version 1.0 expected in next couple weeks after fine tuning"
+    },
+    {
+      "t": 2855,
+      "kind": "subject-to-change",
+      "text": "Not ready as of today for some pipeline tools, hoping in next couple weeks or something maybe first draft"
+    },
+    {
+      "t": 3520.2,
+      "kind": "coming-later",
+      "text": "Currently no rule in place for try functions but the idea was there in business central interop already"
+    },
+    {
+      "t": 3894.7,
+      "kind": "subject-to-change",
+      "text": "LinterCop currently on life support with uncertain timeframe for continued support"
+    },
+    {
+      "t": 3941.4,
+      "kind": "subject-to-change",
+      "text": "I'm not sure how longer I see all those like at the beginning I said I see all the crack ..."
+    },
+    {
+      "t": 4002.3,
+      "kind": "not-in-this-release",
+      "text": "The repos itself is deprecated. So it won't receive any new new updates anymore"
+    },
+    {
+      "t": 4002.3,
+      "kind": "subject-to-change",
+      "text": "there probably won't be any new rules on the llinter anymore. Right. Correct. So um that was also the deprecation"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 39,
+    "quotes_dropped": 1,
+    "evidence_verified": 0,
+    "evidence_unverified": 34
+  },
+  "windows": 6,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.0219739
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.028845999999999997
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.026742999999999996
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.024708
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.022189
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.056251999999999996
+    }
+  ]
+}

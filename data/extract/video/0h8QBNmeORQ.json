@@ -1,0 +1,162 @@
+{
+  "video_id": "0h8QBNmeORQ",
+  "item_id": "video/yt-microsoft/0h8QBNmeORQ",
+  "title": "Microsoft Sizzle: Business Central Agents In Action",
+  "duration_s": 98,
+  "systems": [
+    "copilot",
+    "sales",
+    "finance"
+  ],
+  "topics": [
+    "sales order agent",
+    "payables agent",
+    "workflow automation",
+    "agentic ai",
+    "order processing",
+    "invoice classification",
+    "custom agents",
+    "business productivity"
+  ],
+  "chapters": [
+    {
+      "title": "Business Central Overview and AI Evolution",
+      "t_start": 0,
+      "t_end": 12.4
+    },
+    {
+      "title": "Introduction to Sales Order and Payables Agents",
+      "t_start": 12.4,
+      "t_end": 25.5
+    },
+    {
+      "title": "Sales Order Agent Capabilities",
+      "t_start": 25.5,
+      "t_end": 37.6
+    },
+    {
+      "title": "Payables Agent Workflow Automation",
+      "t_start": 37.6,
+      "t_end": 59
+    },
+    {
+      "title": "Building Custom Agents and Integration",
+      "t_start": 59,
+      "t_end": 71.3
+    },
+    {
+      "title": "Security, Scale and Future Vision",
+      "t_start": 71.3,
+      "t_end": 98
+    }
+  ],
+  "features": [
+    {
+      "name": "Sales Order Agent",
+      "description": "Automates order processing by eliminating manual entry, checking inventory, generating quotes, and ensuring fast and accurate customer fulfillment.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 25.5,
+      "t_end": 37.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "order processing",
+        "automation",
+        "inventory",
+        "workflow"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Payables Agent",
+      "description": "Reads vendor invoices, classifies invoice lines, assigns them to appropriate accounts, and routes them for approval to streamline finance team workflows.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 37.6,
+      "t_end": 59,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "invoice processing",
+        "automation",
+        "approval routing",
+        "finance"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Custom Agents Framework",
+      "description": "Users can build their own agents to automate unique workflows, connect to other Microsoft tools, and customize agents to fit their business with security, transparency, and configurability.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 59,
+      "t_end": 71.3,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "custom agents",
+        "extensibility",
+        "workflow customization",
+        "integration"
+      ],
+      "system": "copilot"
+    }
+  ],
+  "objects": [],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 12.4,
+      "text": "the next evolution of business agility is here. Workflow automation with Sales Order Agent and Payables Agent",
+      "why_it_matters": "Establishes the status and positioning of the two main agents as available features for workflow automation",
+      "check": "exact"
+    },
+    {
+      "t": 25.5,
+      "text": "Sales Order Agent takes the hassle out of order processing. No more manual entry or chasing down details",
+      "why_it_matters": "Describes the specific benefit and scope of the Sales Order Agent functionality",
+      "check": "exact"
+    },
+    {
+      "t": 48.6,
+      "text": "It reads vendor invoices, classifies invoice lines, assigns to the appropriate accounts, and routes them for approval",
+      "why_it_matters": "Details the specific workflow steps the Payables Agent performs in invoice processing",
+      "check": "exact"
+    },
+    {
+      "t": 59,
+      "text": "you can start building your own agents today",
+      "why_it_matters": "Confirms that custom agent building capability is available now, not future functionality",
+      "check": "exact"
+    },
+    {
+      "t": 71.3,
+      "text": "Automate your unique workflows. Connect to other Microsoft tools and customize agents to fit your business perfectly",
+      "why_it_matters": "Emphasizes the scope of customization and integration capabilities available to customers",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 5,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 3
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.009906000000000002
+    }
+  ]
+}

@@ -1,0 +1,838 @@
+{
+  "video_id": "D7GxnNiGQ14",
+  "item_id": "video/yt-areopa/D7GxnNiGQ14",
+  "title": "20260223 - If You Can’t Make It Fast, Make It Feel Fast",
+  "duration_s": 3407,
+  "systems": [
+    "platform",
+    "manufacturing",
+    "warehouse"
+  ],
+  "topics": [
+    "background processing",
+    "job queue",
+    "page background task",
+    "task scheduler",
+    "user experience",
+    "performance optimization",
+    "parallel execution",
+    "error handling",
+    "auto-scaling",
+    "nst nodes",
+    "load balancing",
+    "asynchronous processing"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Housekeeping",
+      "t_start": 0,
+      "t_end": 135
+    },
+    {
+      "title": "Presenters Henrik and Stefan Introductions",
+      "t_start": 135,
+      "t_end": 339.7
+    },
+    {
+      "title": "Session Objectives and Agenda",
+      "t_start": 339.7,
+      "t_end": 472.9
+    },
+    {
+      "title": "Baggage Claim Example - Perception Over Reality",
+      "t_start": 472.9,
+      "t_end": 561.9
+    },
+    {
+      "title": "User Experience vs Performance Philosophy",
+      "t_start": 561.9,
+      "t_end": 660.5
+    },
+    {
+      "title": "Real World Medical Device Manufacturing Case Study",
+      "t_start": 660.5,
+      "t_end": 894.4
+    },
+    {
+      "title": "Production order processing optimization strategy",
+      "t_start": 894.4,
+      "t_end": 987.8
+    },
+    {
+      "title": "Background processing design principles and results",
+      "t_start": 987.8,
+      "t_end": 1156.9
+    },
+    {
+      "title": "Background and parallel processing toolkit overview",
+      "t_start": 1156.9,
+      "t_end": 1369.4
+    },
+    {
+      "title": "Page background task capabilities and design",
+      "t_start": 1369.4,
+      "t_end": 1461.3
+    },
+    {
+      "title": "Page background task demo and comparison",
+      "t_start": 1461.3,
+      "t_end": 1628.2
+    },
+    {
+      "title": "Start Session Capabilities and Demo",
+      "t_start": 1628.2,
+      "t_end": 1800.2
+    },
+    {
+      "title": "Task Scheduler Overview and Methods",
+      "t_start": 1800.2,
+      "t_end": 1899
+    },
+    {
+      "title": "Task Scheduler Demo with Error Handling",
+      "t_start": 1899,
+      "t_end": 2075.6
+    },
+    {
+      "title": "Task Scheduler Usage in Base App",
+      "t_start": 2075.6,
+      "t_end": 2179.8
+    },
+    {
+      "title": "Job Queue Overview and Architecture",
+      "t_start": 2179.8,
+      "t_end": 2315
+    },
+    {
+      "title": "Job Queue Best Practices and Configuration",
+      "t_start": 2315,
+      "t_end": 2512.8
+    },
+    {
+      "title": "Practical Job Queue Examples with Error Handling",
+      "t_start": 2512.8,
+      "t_end": 2642.3
+    },
+    {
+      "title": "Multi-Level Job Queue Workflows and Session Distribution",
+      "t_start": 2642.3,
+      "t_end": 2821.4
+    },
+    {
+      "title": "Load Balancing and Horizontal Scaling",
+      "t_start": 2821.4,
+      "t_end": 2985.4
+    },
+    {
+      "title": "Q&A on Session Limits and Job Queue Best Practices",
+      "t_start": 2985.4,
+      "t_end": 3227.9
+    },
+    {
+      "title": "Closing Remarks and Next Steps",
+      "t_start": 3227.9,
+      "t_end": 3407
+    }
+  ],
+  "features": [
+    {
+      "name": "Page Background Tasks",
+      "description": "A mechanism for loading field values and page calculations asynchronously after the page opens, preventing delays to page opening procedures. Read-only by design, session-specific, with separate error handling and page object integration.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1369.4,
+      "t_end": 1628.2,
+      "is_demoed": true,
+      "caveats": [
+        "read-only by design",
+        "not schedulable",
+        "does not survive server restarts",
+        "session cancelled if record changed or page closed",
+        "not suitable for list pages",
+        "deeply integrated on page objects only",
+        "only works for field calculations on pages"
+      ],
+      "tags": [
+        "background processing",
+        "performance",
+        "tools",
+        "page design",
+        "async loading",
+        "ui thread"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Start Session",
+      "description": "The oldest background processing mechanism built as the foundation for other background tasks. Allows running codeunits in another session with read and write capabilities but no error logging or scheduling. Can be started anywhere in code.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1228.1,
+      "t_end": 1800.2,
+      "is_demoed": true,
+      "caveats": [
+        "no scheduling capability",
+        "no error logging",
+        "no error handling",
+        "limited to codeunits only",
+        "cancelled if server crashes",
+        "runs on same server instance and user context",
+        "limited parameters - can only specify another company",
+        "runs in same user context"
+      ],
+      "tags": [
+        "start session",
+        "background processing",
+        "codeunit",
+        "no error handling",
+        "parallel execution",
+        "background sessions",
+        "transactions"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Task Scheduler",
+      "description": "A background processing mechanism built on top of start session that adds data writing capability, one-time scheduling, failure codeunit for error handling, and server restart persistence. Backed by scheduled tasks table and works across server instances.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1272,
+      "t_end": 1899,
+      "is_demoed": true,
+      "caveats": [
+        "no logging out of the box",
+        "not user configurable",
+        "one-time scheduling only",
+        "backed by table called schedule tasks",
+        "worker picks up tasks across server instances"
+      ],
+      "tags": [
+        "task scheduler",
+        "background processing",
+        "error handling",
+        "persistent",
+        "one-time scheduling",
+        "task scheduling",
+        "persistence",
+        "multi-instance",
+        "worker pattern"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Job Queue",
+      "description": "The most complete background processing mechanism with recurring scheduling, automatic logging, and a user interface for configuration and management. Built on top of task scheduler. Includes locking capability and job queue dispatcher.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1335.8,
+      "t_end": 2454.8,
+      "is_demoed": false,
+      "caveats": [
+        "user interface not great for general users",
+        "requires knowledgeable users",
+        "dialogue confirms and errors are suppressed",
+        "recurring jobs can fail silently"
+      ],
+      "tags": [
+        "job queue",
+        "background processing",
+        "recurring scheduling",
+        "logging",
+        "user configurable",
+        "locking",
+        "job queue entry",
+        "dispatcher",
+        "recurring tasks"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Job Queue Categories",
+      "description": "Organizational feature for job queue entries that allows grouping and filtering of tasks. Prevents heavy processes from blocking other job queue entries by enabling parallel processing of different workload types.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2401.1,
+      "t_end": 2512.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "job queue",
+        "organization",
+        "filtering",
+        "categories",
+        "performance optimization"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Job Queue Record ID and Parameter String",
+      "description": "Job queue entries support specifying a record ID to process and a parameter string, enabling flexible processing of specific records and passing data through the queuing mechanism.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2501.1,
+      "t_end": 2512.8,
+      "is_demoed": true,
+      "caveats": [
+        "Parameter string described as a hack but works effectively"
+      ],
+      "tags": [
+        "job queue",
+        "record processing",
+        "parameters"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Job Queue Error Handling",
+      "description": "Job queue entries that fail to process are recorded with error messages, allowing selective error handling and preventing one failed entry from blocking other entries in the queue.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2524.3,
+      "t_end": 2642.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "job queue",
+        "error handling",
+        "resilience"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Task Scheduler Failure Handler",
+      "description": "Error handling mechanism for scheduled tasks that captures error context including error text and call stack, logs failures to execution log table with status, allowing reactions to task failures.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1899,
+      "t_end": 2075.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "error handling",
+        "logging",
+        "failure tracking"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Multi-Level Job Queue Workflows",
+      "description": "Job queue entries can trigger other job queue entries in sequence, enabling complex multi-step workflows where invoice creation triggers posting and posting triggers payment processing.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2642.3,
+      "t_end": 2821.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "job queue",
+        "workflows",
+        "automation"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Warehouse Request Architecture",
+      "description": "A deferred warehouse processing approach where the system creates a warehouse request on order release instead of immediately creating picks, allowing the warehouse activity creation to run asynchronously.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 842.8,
+      "t_end": 894.4,
+      "is_demoed": true,
+      "caveats": [
+        "Only applies when warehousing functionality is enabled"
+      ],
+      "tags": [
+        "warehouse",
+        "background processing",
+        "architecture",
+        "order release"
+      ],
+      "system": "warehouse"
+    },
+    {
+      "name": "Production order asynchronous planning",
+      "description": "A design pattern that offloads production order planning to a background job queue entry rather than executing synchronously during order release, improving perceived performance for users.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 917.4,
+      "t_end": 1046.4,
+      "is_demoed": false,
+      "caveats": [
+        "depends on warehouse request creation flow",
+        "requires production order planning request table"
+      ],
+      "tags": [
+        "asynchronous processing",
+        "production order",
+        "background job",
+        "user experience"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Business Central Online Compute Node Distribution",
+      "description": "Business Central online runs 99.81% of sessions on compute-only nodes (NSTs) that do not host user sessions, allowing background tasks and job queues to execute on dedicated infrastructure.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2724.8,
+      "t_end": 2760.2,
+      "is_demoed": false,
+      "caveats": [
+        "Quote appears to have transcription error with 99.81% and 81%"
+      ],
+      "tags": [
+        "architecture",
+        "online",
+        "nst",
+        "compute nodes"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Automatic NST Scaling",
+      "description": "Business Central online automatically spins up new compute nodes (NSTs) when existing nodes reach capacity thresholds, distributing sessions across multiple nodes to balance load.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2771.8,
+      "t_end": 2804.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "auto-scaling",
+        "load balancing",
+        "platform"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Session Limit - Start Session",
+      "description": "Business Central online has a limit of 5 background sessions actively running per user and can queue up to 100 sessions per user in the cloud.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3052.1,
+      "t_end": 3102.6,
+      "is_demoed": false,
+      "caveats": [
+        "Speaker notes this is most recent information and recommends checking documentation",
+        "Changed from per-tenant/per-environment to per-user model"
+      ],
+      "tags": [
+        "limits",
+        "sessions",
+        "configuration"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Auto-Scaling Limited to Task Scheduler and Job Queue",
+      "description": "Auto-scaling on multiple NSTs applies only to task scheduler and job queue usage, not to page background tasks which run on the same NST.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3133.7,
+      "t_end": 3155.4,
+      "is_demoed": false,
+      "caveats": [
+        "Page background tasks and start session always run on same NST as the page"
+      ],
+      "tags": [
+        "auto-scaling",
+        "job queue",
+        "task scheduler",
+        "sessions"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Page Background Tasks for API Calls",
+      "description": "Discussion of using page background tasks to handle slow API calls. Guidance indicates this approach works for read-only API calls but may cause issues with write operations if tasks get cancelled.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3246.2,
+      "t_end": 3310,
+      "is_demoed": false,
+      "caveats": [
+        "should only be used for read operations",
+        "write operations may encounter issues if tasks are cancelled",
+        "blog post mentioned but not fully endorsed"
+      ],
+      "tags": [
+        "page background tasks",
+        "api calls",
+        "performance",
+        "read operations"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Code Examples Repository",
+      "description": "Code examples from the webinar presentation are available on Stefan's GitHub repository for attendees to access.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3123.1,
+      "t_end": 3403,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "code examples",
+        "github",
+        "resources"
+      ],
+      "system": "development"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "warehouse request",
+      "t": 855.5
+    },
+    {
+      "type": "other",
+      "name": "warehouse activity",
+      "t": 874.1
+    },
+    {
+      "type": "other",
+      "name": "pick ticket",
+      "t": 894.4
+    },
+    {
+      "type": "table",
+      "name": "production order planning request",
+      "t": 929.1
+    },
+    {
+      "type": "table",
+      "name": "schedule tasks",
+      "t": 1824.1
+    },
+    {
+      "type": "table",
+      "name": "job q lock entry table",
+      "t": 2131.6
+    },
+    {
+      "type": "codeunit",
+      "name": "change global dimension functionality",
+      "t": 2113.4
+    },
+    {
+      "type": "codeunit",
+      "name": "find customers to process",
+      "t": 2379.9
+    },
+    {
+      "type": "table",
+      "name": "job Q entry",
+      "t": 2401.1
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Henrik Halverson",
+      "confidence": "high"
+    },
+    {
+      "name": "Stefan Moran",
+      "confidence": "high"
+    },
+    {
+      "name": "Andrew",
+      "confidence": "high"
+    },
+    {
+      "name": "Arthur",
+      "confidence": "medium"
+    },
+    {
+      "name": "Bquake",
+      "confidence": "low"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 180,
+      "text": "the phrase perception is reality is it's about how do does a person perceives something that is happening",
+      "why_it_matters": "Establishes the core philosophy of the entire presentation - focusing on how users perceive system speed rather than actual performance",
+      "check": "exact"
+    },
+    {
+      "t": 546.1,
+      "text": "They just made it feel shorter basically because they the passengers were busy walking",
+      "why_it_matters": "The key insight from the baggage claim example - keeping users occupied makes them perceive shorter wait times",
+      "check": "exact"
+    },
+    {
+      "t": 561.9,
+      "text": "user experience over performance. And and that's basically the name of the game here",
+      "why_it_matters": "Henrik explicitly states the central design principle that guides the session's approach to solving performance problems",
+      "check": "exact"
+    },
+    {
+      "t": 580.3,
+      "text": "A lot of people will spend hours and days trying to optimize a process. maybe gain 2 seconds if the process is 2 minutes",
+      "why_it_matters": "Illustrates why the traditional optimization approach can be unproductive when small gains don't justify the effort",
+      "check": "exact"
+    },
+    {
+      "t": 685.1,
+      "text": "we did production planning on every order. And we did that on release. Uh, and we ended up with, you know, two minute weights,",
+      "why_it_matters": "Real example of performance problems caused by doing too much synchronously on order release",
+      "check": "exact"
+    },
+    {
+      "t": 842.8,
+      "text": "if you use warehousing, we don't create the pick right away. We create a warehouse request basically saying whenever you get a chance",
+      "why_it_matters": "Demonstrates the solution pattern - deferring heavy processing to background tasks improves perceived performance for users",
+      "check": "exact"
+    },
+    {
+      "t": 958.2,
+      "text": "this is what what what I've always been preaching a user experience over performance in this case here for the user they enter the",
+      "why_it_matters": "Establishes the core design philosophy: prioritize perceived user responsiveness over absolute system performance by moving work to the background.",
+      "check": "exact"
+    },
+    {
+      "t": 1007.8,
+      "text": "they turned out to be slow when we moved it into a a job queue or uh we actually saw that each production order",
+      "why_it_matters": "Demonstrates that serial background job execution can be faster per task than parallel execution due to reduced resource contention and deadlocks.",
+      "check": "exact"
+    },
+    {
+      "t": 1123.4,
+      "text": "they basically encourage you to uh offload the execution from the uh UI to the background and basically don't let the user wait",
+      "why_it_matters": "Cites official documentation guidance to always move long-running operations to background processing to avoid blocking the user.",
+      "check": "exact"
+    },
+    {
+      "t": 1172.3,
+      "text": "It was I think we have it quite a while. Calling it new I think is is not correct anymore.",
+      "why_it_matters": "Confirms page background task is generally available and has been in the product for some time.",
+      "check": "exact"
+    },
+    {
+      "t": 1195.8,
+      "text": "it's meant to do um page calculations or loading data from the database for pages but not in the UI thread the user is",
+      "why_it_matters": "Defines the primary use case and limitation of page background task to non-blocking background calculations.",
+      "check": "exact"
+    },
+    {
+      "t": 1228.1,
+      "text": "start session I think is the oldest one I would guess uh because it's the foundation for everything else",
+      "why_it_matters": "Establishes the architectural hierarchy of background processing features in Business Central.",
+      "check": "exact"
+    },
+    {
+      "t": 1381.8,
+      "text": "the session gets cancelled if the record is changed or the page is closed",
+      "why_it_matters": "Critical caveat for page background task usage - tasks are tied to page state and will abort on user navigation.",
+      "check": "exact"
+    },
+    {
+      "t": 1613.7,
+      "text": "the page background task doesn't interfere with page opening. The page opens immediately and just the numbers get loaded afterwards",
+      "why_it_matters": "Demonstrates the performance benefit of page background tasks - they improve perceived page responsiveness by deferring heavy calculations.",
+      "check": "exact"
+    },
+    {
+      "t": 1628.2,
+      "text": "We do have uh read and write capabilities. Um but we are limited to running a code unit.",
+      "why_it_matters": "Specifies the scope of start session - can modify data but only for codeunit execution, not function or interface calls.",
+      "check": "exact"
+    },
+    {
+      "t": 1628.2,
+      "text": "Start session can be started anywhere in code. We are not limited to page objects",
+      "why_it_matters": "Clarifies that start session is a flexible general-purpose mechanism not constrained to page objects, expanding parallel execution possibilities.",
+      "check": "exact"
+    },
+    {
+      "t": 1641.5,
+      "text": "we are limited to running a code unit. We cannot run functions or interfaces or whatever else",
+      "why_it_matters": "Important constraint on start session - can only execute codeunits, not individual functions, limiting granularity of parallel execution.",
+      "check": "exact"
+    },
+    {
+      "t": 1763,
+      "text": "what we are expecting is a parallel execution time of about 8 seconds. Sequentially it would take just the sum of everything. So about",
+      "why_it_matters": "Quantifies the performance gain from parallel execution using start session - nearly 3x speedup in the demo scenario.",
+      "check": "exact"
+    },
+    {
+      "t": 1824.1,
+      "text": "it's backed by a table uh I think it's called schedule tasks um and in the end there is a worker working on that",
+      "why_it_matters": "Explains the persistence and distributed execution model of task scheduler - table-backed with worker pattern enables multi-instance support.",
+      "check": "exact"
+    },
+    {
+      "t": 2326.9,
+      "text": "when I create a recurring job show entry it should never ever ever give an error",
+      "why_it_matters": "States a critical design principle for job queue - recurring jobs must be robust against errors or silent failures can halt business processes.",
+      "check": "exact"
+    },
+    {
+      "t": 2339.5,
+      "text": "how many of us have not had issues with a client where the job queue stopped running. Nobody really knew about it",
+      "why_it_matters": "Highlights a common production issue - silent job queue failures cause business process disruptions that may go unnoticed.",
+      "check": "exact"
+    },
+    {
+      "t": 2437.8,
+      "text": "category is great in the sense of when you are processing job queue entries instead of so when you are flooding the",
+      "why_it_matters": "Explains how job categories prevent heavy processes from blocking other job queue entries and allow parallel processing.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 2743.8,
+      "text": "81 of sessions run on compute only nodes which are nsts which are not meant to host any user sessions",
+      "why_it_matters": "Shows that Business Central online dedicates separate infrastructure for background processing, keeping user sessions unaffected.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 2804.2,
+      "text": "Business Central online does auto balance basically load balance the sessions onto multiple NSTs automatically and as far as I know that that is",
+      "why_it_matters": "Confirms automatic load balancing is built-in and available by default for all online tenants without configuration.",
+      "check": "exact"
+    },
+    {
+      "t": 2875.8,
+      "text": "we have to make it feel fast, right? So, the key it's not about just the the speed, it's about the perception",
+      "why_it_matters": "Articulates the core design principle that user perception of responsiveness matters more than absolute speed.",
+      "check": "exact"
+    },
+    {
+      "t": 2972.9,
+      "text": "the page background task and start session should run on the same server. Task schedule and job queue on any server basically",
+      "why_it_matters": "Clarifies the architectural differences between session types and their deployment constraints.",
+      "check": "exact"
+    },
+    {
+      "t": 3064.3,
+      "text": "we have five background sessions actively running per user and we can cue up to 100 sessions per user uh in the cloud",
+      "why_it_matters": "Provides concrete limits for background session usage in Business Central online.",
+      "check": "exact"
+    },
+    {
+      "t": 3133.7,
+      "text": "the autoscaling only applies to task shadow and job queue usage not to page background and paid uh background uh sessions",
+      "why_it_matters": "Clarifies that auto-scaling benefits are limited to specific session types and does not apply universally.",
+      "check": "exact"
+    },
+    {
+      "t": 3133.7,
+      "text": "Yes, they they are on Stefan's GitHub.",
+      "why_it_matters": "Confirms that code examples from the presentation are publicly available for attendees and the community.",
+      "check": "exact"
+    },
+    {
+      "t": 3155.4,
+      "text": "Yes that's correct. Yeah indeed it was also mentioned on the conclusion slides.",
+      "why_it_matters": "Clarifies that autoscaling limitation to job queue and task scheduler was explicitly documented in the presentation.",
+      "check": "exact"
+    },
+    {
+      "t": 3215.4,
+      "text": "I've I've had uh recurring job cues generate um um I mean hundreds and hundreds of job queue entries to to be processed so",
+      "why_it_matters": "Provides real-world evidence that large volumes of job queue entries do not cause performance problems.",
+      "check": "exact"
+    },
+    {
+      "t": 3272.8,
+      "text": "depends on what the API calls do, right? If they read, I I I would say probably fine. If they write, you might run",
+      "why_it_matters": "Establishes clear guidance on when page background tasks are safe for API calls - read-only operations are acceptable, writes may fail.",
+      "check": "exact"
+    },
+    {
+      "t": 3341,
+      "text": "if you cannot do it by code it's is really you've got got great tools to you to do like the job cure task",
+      "why_it_matters": "Summarizes that job queue and task scheduler provide alternative solutions when code-based optimizations are not feasible.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 452,
+      "kind": "other",
+      "text": "this session is not meant to be a detailed deep dive technical and deep dive onto any of these these different tools"
+    },
+    {
+      "t": 3052.1,
+      "kind": "subject-to-change",
+      "text": "most recent information is that we have five background sessions actively running per user and we can cue up to ..."
+    }
+  ],
+  "checks": {
+    "quotes_kept": 33,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 17
+  },
+  "windows": 5,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.021557
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.023448
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.024149999999999998
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.02682
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.010921
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.032119
+    }
+  ]
+}

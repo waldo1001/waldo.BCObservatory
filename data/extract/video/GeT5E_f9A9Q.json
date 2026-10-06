@@ -1,0 +1,262 @@
+{
+  "video_id": "GeT5E_f9A9Q",
+  "item_id": "video/yt-microsoft/GeT5E_f9A9Q",
+  "title": "Introducing MCP Server Configurations for Business Central (Part 2)",
+  "duration_s": 590,
+  "systems": [
+    "copilot",
+    "integration",
+    "administration"
+  ],
+  "topics": [
+    "mcp server",
+    "configurations",
+    "agent permissions",
+    "api pages",
+    "dynamic tool mode",
+    "bound actions",
+    "security"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and prerequisites",
+      "t_start": 0,
+      "t_end": 70.1
+    },
+    {
+      "title": "MCP authentication and permission model",
+      "t_start": 70.1,
+      "t_end": 142.5
+    },
+    {
+      "title": "MCP configurations and available tools",
+      "t_start": 142.5,
+      "t_end": 294
+    },
+    {
+      "title": "Bound actions and configuration summary",
+      "t_start": 294,
+      "t_end": 371.4
+    },
+    {
+      "title": "Configuration benefits and vision",
+      "t_start": 371.4,
+      "t_end": 453
+    },
+    {
+      "title": "Call to action and next steps",
+      "t_start": 453,
+      "t_end": 495.3
+    },
+    {
+      "title": "Resources and community links",
+      "t_start": 495.3,
+      "t_end": 590
+    }
+  ],
+  "features": [
+    {
+      "name": "MCP Server Configurations",
+      "description": "Ability to create named configurations in Business Central to control what data and functionality is exposed through MCP, allowing you to specify which API pages and actions are available, limit access to read-only or enable write/delete operations.",
+      "status": "preview",
+      "status_evidence_t": 432.2,
+      "status_evidence_quote": "the MCP server is currently in preview this is work in progress",
+      "status_evidence_verified": true,
+      "t_start": 109.2,
+      "t_end": 391.8,
+      "is_demoed": true,
+      "caveats": [
+        "Currently only supports API pages, expansion planned",
+        "Copilot Studio supports up to 70 tools"
+      ],
+      "tags": [
+        "mcp",
+        "configurations",
+        "security",
+        "permissions"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Dynamic Tool Mode",
+      "description": "Instead of preloading all tools into the MCP server, dynamic tool mode allows tools to be discovered on demand using an action search tool.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 170.4,
+      "t_end": 260.9,
+      "is_demoed": false,
+      "caveats": [
+        "Tools are not available from the beginning when enabled",
+        "Limited by LLM tool capacity"
+      ],
+      "tags": [
+        "mcp",
+        "tools",
+        "configuration"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Discover Additional Objects",
+      "description": "A toggle setting that allows the MCP client to find API pages which are not explicitly listed in the available tools configuration.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 240.5,
+      "t_end": 260.9,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "mcp",
+        "api pages",
+        "discovery"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Bound Actions in MCP",
+      "description": "Any method or bound action exposed as part of an API page can also be called by the LLM or agent, exposed in the same way as in normal OData APIs.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 308,
+      "t_end": 328.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "mcp",
+        "bound actions",
+        "odata"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "MCP Read-Only Default",
+      "description": "The default MCP configuration grants read access only, ensuring agents cannot inadvertently change data without explicit configuration.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 84.9,
+      "t_end": 131.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "mcp",
+        "security",
+        "read-only",
+        "default"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "MCP Authentication Model",
+      "description": "MCP uses the same authentication and permission model as APIs, including support for entitlements and permissions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 70.1,
+      "t_end": 84.9,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "mcp",
+        "authentication",
+        "permissions"
+      ],
+      "system": "copilot"
+    }
+  ],
+  "objects": [],
+  "presenters": [
+    {
+      "name": "Kenny Ponabidan",
+      "confidence": "medium"
+    },
+    {
+      "name": "Yen Smaller Peterson",
+      "confidence": "low"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 35.1,
+      "text": "prerequisites for this video if it is that you must have enabled your MCP server in public preview",
+      "why_it_matters": "Establishes the prerequisite that MCP server must be enabled via feature management flag before using configurations.",
+      "check": "exact"
+    },
+    {
+      "t": 84.9,
+      "text": "the default configuration, it only grant read access. So it's not like you open up uh want to try something out and then the",
+      "why_it_matters": "Defines the security boundary: default read-only access prevents unintended data modifications by agents.",
+      "check": "exact"
+    },
+    {
+      "t": 228.8,
+      "text": "currently C-pilot Studio supports up to 70 tools. If you look at all the API pages in the system, you can easily extend to",
+      "why_it_matters": "Identifies a key constraint in tool availability that makes MCP configurations necessary for practical use.",
+      "check": "exact"
+    },
+    {
+      "t": 260.9,
+      "text": "the default configuration that you see actually corresponds to having no tools selected but both dynamic tool mode and discover additional objects set to",
+      "why_it_matters": "Clarifies the default MCP configuration behavior and its relationship to dynamic tool discovery.",
+      "check": "exact"
+    },
+    {
+      "t": 308,
+      "text": "it's not only CRUD operations but anything in your API page that is exposed as a bound action or a method can also be",
+      "why_it_matters": "Explains that MCP supports more than basic CRUD operations, including bound actions and custom methods.",
+      "check": "exact"
+    },
+    {
+      "t": 371.4,
+      "text": "it allows you to start with lowrisk readonly scenarios and then as you gain trust in the LLM's abilities you can open up for",
+      "why_it_matters": "Describes the strategic design of MCP configurations to enable gradual adoption with risk management.",
+      "check": "exact"
+    },
+    {
+      "t": 432.2,
+      "text": "the MCP server is currently in preview this is work in progress and you saw make all functionality available we have started with API",
+      "why_it_matters": "States the preview status and roadmap indicating future expansion beyond API pages.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 35.1,
+      "kind": "preview",
+      "text": "you must have enabled your MCP server in public preview"
+    },
+    {
+      "t": 432.2,
+      "kind": "preview",
+      "text": "the MCP server is currently in preview this is work in progress"
+    },
+    {
+      "t": 453,
+      "kind": "coming-later",
+      "text": "we have started with API pages and are going to expand from in there. So, look for more videos later"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 1,
+    "evidence_unverified": 5
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.021953999999999998
+    }
+  ]
+}

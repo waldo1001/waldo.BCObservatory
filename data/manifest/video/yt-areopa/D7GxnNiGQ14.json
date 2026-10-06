@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=D7GxnNiGQ14",
   "published_at": "2026-02-24T14:26:55.000Z",
   "language": "en",
-  "state": "captioned",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -25,6 +25,41 @@
       "words": 7648,
       "lang": "en-orig",
       "kind": "auto"
+    },
+    "extracted": {
+      "at": "2026-10-06T18:16:26.698Z",
+      "path": "data/extract/video/D7GxnNiGQ14.json",
+      "prompt": "extract-video@1",
+      "windows": 5,
+      "trimmed_for_policy": 1,
+      "features": 17,
+      "quotes": 33,
+      "quotes_dropped": 0,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.139015
+    },
+    "summarized": {
+      "at": "2026-10-06T18:16:34.395Z",
+      "path": "data/summary/video/D7GxnNiGQ14.json",
+      "prompt": "summarize-video@2",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": 0.0282284
+    },
+    "linked": {
+      "at": "2026-10-06T18:16:34.396Z",
+      "systems": [
+        "platform",
+        "manufacturing",
+        "warehouse"
+      ],
+      "topics": 12,
+      "objects_as_heard": 9
+    },
+    "published": {
+      "at": "2026-10-06T18:16:34.409Z",
+      "path": "content/videos/D7GxnNiGQ14.md"
     }
   },
   "input_hash": null,
@@ -40,5 +75,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6b00bb90d18563c73ccaf23b51db0748ccff702c612fc2b955a2f201c3e31640"
+  "output_hash": "16edd8554f6a92f438a4923963388d51e90709618c971ad36df7254a7b914fe9"
 }

@@ -1,0 +1,359 @@
+{
+  "video_id": "C5cmG3sNjUg",
+  "item_id": "video/yt-microsoft/C5cmG3sNjUg",
+  "title": "MCP Server for Business Central - Advanced Topics (Part 3)",
+  "duration_s": 1095,
+  "systems": [
+    "copilot",
+    "integration",
+    "development"
+  ],
+  "topics": [
+    "mcp server",
+    "agents",
+    "api pages",
+    "dynamic tools",
+    "static tools",
+    "odata",
+    "business central",
+    "copilot studio",
+    "instructions",
+    "tool descriptions",
+    "about text",
+    "mcp configurations"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and MCP Server Overview",
+      "t_start": 0,
+      "t_end": 113.9
+    },
+    {
+      "title": "Default vs Named Configurations",
+      "t_start": 113.9,
+      "t_end": 208
+    },
+    {
+      "title": "Dynamic Tools System",
+      "t_start": 208,
+      "t_end": 373.8
+    },
+    {
+      "title": "API Page Design and Tool Types",
+      "t_start": 373.8,
+      "t_end": 486.4
+    },
+    {
+      "title": "Tool Limits and Discovery Strategy",
+      "t_start": 486.4,
+      "t_end": 603.2
+    },
+    {
+      "title": "Agent Best Practices and Instructions",
+      "t_start": 603.2,
+      "t_end": 763.3
+    },
+    {
+      "title": "Model Selection and Instruction Examples",
+      "t_start": 763.3,
+      "t_end": 832.4
+    },
+    {
+      "title": "Other MCP Hosts and Proxy Setup",
+      "t_start": 832.4,
+      "t_end": 927.2
+    },
+    {
+      "title": "Vision, Call to Action, and Resources",
+      "t_start": 927.2,
+      "t_end": 1095
+    }
+  ],
+  "features": [
+    {
+      "name": "MCP Server for Business Central",
+      "description": "An MCP server that exposes all built-in APIs for data and allows custom APIs to be added, enabling agents to interact with Business Central through an MCP connector.",
+      "status": "preview",
+      "status_evidence_t": 45.9,
+      "status_evidence_quote": "It's currently in public preview.",
+      "status_evidence_verified": true,
+      "t_start": 75.5,
+      "t_end": 92.1,
+      "is_demoed": true,
+      "caveats": [
+        "Custom APIs can be added with preview version",
+        "May open up for API queries in the future"
+      ],
+      "tags": [
+        "mcp server",
+        "api exposure",
+        "agents"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Default Configuration Mode",
+      "description": "MCP configuration that provides three dynamic tools available: action search, describe, and invoke, allowing agents to discover and call tools without pre-loading the full tool list.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 124.7,
+      "t_end": 156.9,
+      "is_demoed": true,
+      "caveats": [
+        "Limited to three tools: search, describe, invoke"
+      ],
+      "tags": [
+        "dynamic tools",
+        "discovery",
+        "default mode"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Named Configurations",
+      "description": "Specific MCP configurations that pre-load explicit tool lists for targeted business processes, eliminating the need for tool search and enabling direct tool access by the language model.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 156.9,
+      "t_end": 197.4,
+      "is_demoed": true,
+      "caveats": [
+        "Subject to tool count limits",
+        "Can fill up model context if too many tools are included"
+      ],
+      "tags": [
+        "static tools",
+        "configurations",
+        "specific apis"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Dynamic Tools System with Semantic Search",
+      "description": "System where MCP client passes keywords to BC actions search tool, performs semantic search to find top relevant tools, then language model calls describe and invoke to interact with API pages using OData protocol.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 221.4,
+      "t_end": 298.5,
+      "is_demoed": true,
+      "caveats": [
+        "Limited by maximum tool support of different MCP hosts"
+      ],
+      "tags": [
+        "semantic search",
+        "dynamic tools",
+        "odata"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "About Text for API Pages",
+      "description": "Metadata property added to API pages that provides descriptive text to help agents reason better over what APIs are able to do, allowing specific and detailed descriptions to guide language models.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 373.8,
+      "t_end": 421,
+      "is_demoed": false,
+      "caveats": [
+        "Requires manual creation or AI assistance for generation",
+        "Different from UI-based teaching tips"
+      ],
+      "tags": [
+        "api pages",
+        "metadata",
+        "tool descriptions"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "API Page Tool Naming Convention",
+      "description": "Tool names include object type and ID appended for uniqueness, with descriptive action text, description, and about text to guide language models in understanding tool capabilities.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 298.5,
+      "t_end": 348.5,
+      "is_demoed": true,
+      "caveats": [
+        "Must maintain unique names across tool list"
+      ],
+      "tags": [
+        "tool naming",
+        "api pages",
+        "metadata"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Discover Additional Objects Feature",
+      "description": "Setting that enables discovery of readonly API pages beyond a core set, providing agents with broader data access but potentially increasing confusion and consuming model context.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 486.4,
+      "t_end": 550.3,
+      "is_demoed": false,
+      "caveats": [
+        "Increases probability of model errors",
+        "Consumes more of model context space",
+        "May degrade performance"
+      ],
+      "tags": [
+        "discovery",
+        "readonly apis",
+        "configuration"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "MCP Proxy for Other Hosts",
+      "description": "Sample code solution for routing requests and handling authentication when using MCP server with hosts other than Copilot Studio, available on BCTech samples as bcmcp proxy.",
+      "status": "announced",
+      "status_evidence_t": 897,
+      "status_evidence_quote": "we expect to release an update in the near future which will make the setup much easier and remove the need for the MCP",
+      "status_evidence_verified": true,
+      "t_start": 832.4,
+      "t_end": 897,
+      "is_demoed": false,
+      "caveats": [
+        "Only shipped as sample code, not production ready",
+        "Will be replaced by simpler solution in near future",
+        "Not a permanent part of Business Central product"
+      ],
+      "tags": [
+        "proxy",
+        "authentication",
+        "mcp hosts"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Copilot Studio Support",
+      "description": "Copilot Studio is the primary MCP host where the MCP server for Business Central journey started, with approximately 70 tools maximum supported.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 124.7,
+      "t_end": 156.9,
+      "is_demoed": true,
+      "caveats": [
+        "Maximum tool limit around 70 tools",
+        "Limit likely to change in future"
+      ],
+      "tags": [
+        "copilot studio",
+        "mcp host",
+        "tool limits"
+      ],
+      "system": "copilot"
+    }
+  ],
+  "objects": [
+    {
+      "type": "api",
+      "name": "Job Q Log Entries",
+      "t": 322
+    },
+    {
+      "type": "other",
+      "name": "bcmcp proxy",
+      "t": 873.4
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Kenny Pontopidan",
+      "confidence": "high"
+    },
+    {
+      "name": "Yen Smaller Peterson",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 75.5,
+      "text": "currently the MCP server exposes all the built-in APIs for data. You can also add your custom APIs.",
+      "why_it_matters": "Defines the scope of MCP server capabilities and extensibility.",
+      "check": "exact"
+    },
+    {
+      "t": 102.5,
+      "text": "We might open up for API queries in the future. So stay in tuned for that.",
+      "why_it_matters": "Signals planned expansion beyond API pages to include API queries.",
+      "check": "exact"
+    },
+    {
+      "t": 197.4,
+      "text": "there is a limit to how many tools you can have which is why we have introduced the um dynamic tools system.",
+      "why_it_matters": "Explains the key design decision behind dynamic tools in response to tool limits.",
+      "check": "exact"
+    },
+    {
+      "t": 585.8,
+      "text": "right now when we record this video, Microsoft Copilot Studio is around 70 tools. That of course uh will likely change in the future.",
+      "why_it_matters": "Specifies current tool limit and acknowledges it may change.",
+      "check": "exact"
+    },
+    {
+      "t": 897,
+      "text": "we expect to release an update in the near future which will make the setup much easier and remove the need for the MCP",
+      "why_it_matters": "Announces planned simplification for other MCP host support.",
+      "check": "exact"
+    },
+    {
+      "t": 939,
+      "text": "Make all functionality available in business central functional available to AI and agents and of course do it in a secure reliable way.",
+      "why_it_matters": "States the core vision for the MCP server for Business Central.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 45.9,
+      "kind": "preview",
+      "text": "It's currently in public preview."
+    },
+    {
+      "t": 102.5,
+      "kind": "coming-later",
+      "text": "We might open up for API queries in the future."
+    },
+    {
+      "t": 897,
+      "kind": "subject-to-change",
+      "text": "we expect to release an update in the near future which will make the setup much easier and remove the need for the MCP proxy"
+    },
+    {
+      "t": 916.6,
+      "kind": "other",
+      "text": "It's not a part of the product. It's a sample. It's delivered as is."
+    }
+  ],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 1,
+    "evidence_verified": 2,
+    "evidence_unverified": 0
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.028663
+    }
+  ]
+}

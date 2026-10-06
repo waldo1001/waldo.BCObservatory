@@ -1,0 +1,28 @@
+{
+  "video_id": "jqVt0hYDfz0",
+  "item_id": "video/yt-microsoft/jqVt0hYDfz0",
+  "summary": "Analysis views defined in the Business Central web client can be exported as JSON and delivered in AL extensions through a definition_file property on a page extension. The video demos this on the sales order list. The feature is announced for the next release.",
+  "overview": "The video shows how to create and configure an analysis view in the web client, then use Share and Export definition to get it as a JSON file. A developer then adds the view to a page extension in AL using the definition_file property that points to that JSON file. The demo uses the sales order list.\n\nAfter the extension is deployed, the view appears for users with a lock icon showing it comes from an extension. These views are read-only, but users can duplicate them to get editable copies, hide them from a menu, and manage hidden views in personalization mode. The video also shows page customizations with analysis views assigned to profiles or profile extensions, and view descriptions that explain how to use each tab.",
+  "key_points": [
+    "Analysis tabs built in the web client can be exported with Share and Export definition, which gives a JSON file.",
+    "In AL, a page extension adds the analysis view through a definition_file property pointing to the JSON file.",
+    "The export-to-extension capability and the definition property are announced for the next release.",
+    "Analysis views from extensions show a lock icon and are read-only: they cannot be filtered, sorted or grouped.",
+    "Users can duplicate a read-only view to get an editable copy with full filtering and pivoting.",
+    "Views can be hidden from a menu option, and shown or hidden again in personalization mode.",
+    "Page customizations with analysis views can be assigned to profiles or profile extensions, and views can carry descriptions."
+  ],
+  "audience": [
+    "developer",
+    "functional consultant",
+    "administrator",
+    "partner"
+  ],
+  "extraction_hash": "b5d2cb500ea1fed368ee93ce4133c5c3ccb1b4fc26da60675eb4d34718b07622",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0137304
+  }
+}

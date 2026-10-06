@@ -1,0 +1,120 @@
+{
+  "video_id": "y8WfOiJYDPs",
+  "item_id": "video/yt-microsoft/y8WfOiJYDPs",
+  "title": "#BCTalent Stories: GraVoc",
+  "duration_s": 97,
+  "systems": [
+    "administration",
+    "development"
+  ],
+  "topics": [
+    "migration",
+    "gp to bc transition",
+    "cross-skill program",
+    "consultant training",
+    "team development",
+    "customer migration"
+  ],
+  "chapters": [
+    {
+      "title": "The shift from GP to Business Central",
+      "t_start": 0,
+      "t_end": 14
+    },
+    {
+      "title": "Building team skills across platforms",
+      "t_start": 14,
+      "t_end": 25.3
+    },
+    {
+      "title": "Joining the cross-skill program",
+      "t_start": 25.3,
+      "t_end": 36
+    },
+    {
+      "title": "Program necessity for business growth",
+      "t_start": 36,
+      "t_end": 48.9
+    },
+    {
+      "title": "Team adoption and enthusiasm",
+      "t_start": 48.9,
+      "t_end": 62.5
+    },
+    {
+      "title": "Supporting consultant development",
+      "t_start": 62.5,
+      "t_end": 77
+    },
+    {
+      "title": "Strategic success through the program",
+      "t_start": 77,
+      "t_end": 97
+    }
+  ],
+  "features": [
+    {
+      "name": "Cross-skill program",
+      "description": "A Microsoft program designed to help partners transition consultants from Dynamics GP to Business Central, enabling them to support customer migrations from GP to BC.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 25.3,
+      "t_end": 77,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "partner program",
+        "training",
+        "migration support",
+        "consultant enablement"
+      ],
+      "system": "administration"
+    }
+  ],
+  "objects": [],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 36,
+      "text": "We have 100 GP customers to move in 4 years, so the cross-skill program is essential to our growth.",
+      "why_it_matters": "Quantifies the business imperative: the company has a major migration volume that requires the cross-skill program to be successful.",
+      "check": "exact"
+    },
+    {
+      "t": 48.9,
+      "text": "I did not think that the cross-skill program would be this easy. The people that went through the training are raising their hands.",
+      "why_it_matters": "Shows the program exceeded expectations in terms of ease of adoption and participant enthusiasm.",
+      "check": "exact"
+    },
+    {
+      "t": 62.5,
+      "text": "they want to hit the ground running our people really feel like we're behind them and supporting them in telling them",
+      "why_it_matters": "Demonstrates that the program creates engagement and a sense of company investment in employee development.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 77,
+      "text": "Cross-skill program sets up Grayhawk for success in the future by putting us in the best position to help our customers succeed.",
+      "why_it_matters": "States the strategic value proposition: enables the partner to better serve customers during migration.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 4,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 1
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.008436
+    }
+  ]
+}

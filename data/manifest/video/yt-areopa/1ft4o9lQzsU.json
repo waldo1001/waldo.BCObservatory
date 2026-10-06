@@ -7,16 +7,38 @@
   "url": "https://www.youtube.com/watch?v=1ft4o9lQzsU",
   "published_at": "2026-01-28T10:55:47.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T18:16:35.104Z",
+      "captions": "auto:en-orig",
+      "duration_s": 3000
+    },
+    "captioned": {
+      "at": "2026-10-06T18:16:56.992Z",
+      "path": "vault:captions/community/yt-areopa/1ft4o9lQzsU.vtt",
+      "vtt_sha256": "30c336495ee4bcbcaea6b2f90d6b4e3e7c79af79cb8abafe6983dc593aa127af",
+      "segments": 213,
+      "words": 7242,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
   "attempts": 0,
   "flags": [],
   "meta": {
-    "channel_id": "UCWL0RbbT6ILzzCd6Ix7t0AQ"
-  }
+    "channel_id": "UCWL0RbbT6ILzzCd6Ix7t0AQ",
+    "duration_s": 3000,
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "30c336495ee4bcbcaea6b2f90d6b4e3e7c79af79cb8abafe6983dc593aa127af"
 }

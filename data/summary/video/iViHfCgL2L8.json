@@ -1,0 +1,28 @@
+{
+  "video_id": "iViHfCgL2L8",
+  "item_id": "video/yt-microsoft/iViHfCgL2L8",
+  "summary": "Business Central MCP server, in public preview since version 27.1, exposes Business Central to AI agents through the Model Context Protocol. The video shows setup with Copilot Studio, the feature management switch, and the default read-only configuration with three capabilities.",
+  "overview": "The video introduces the Model Context Protocol, an open protocol that standardizes how applications provide context to LLMs, and explains the host, client and server architecture. It states the goal of making all Business Central functionality available to AI and agents, including both well-defined repetitive tasks and fuzzy tasks.\n\nA demo connects Copilot Studio, the first-iteration target client, to Business Central through a model context protocol connector. The presenter enables the MCP server on the feature management page and tests queries. Write scenarios through MCP configurations and further setup are left to following videos.",
+  "key_points": [
+    "The Business Central MCP server was announced in public preview in October, in version 27.1.",
+    "Copilot Studio is the primary client in the first iteration. Agents connect through a model context protocol connector.",
+    "In preview, the MCP server must be enabled on the feature management page by switching it on for all users. The presenter says this will likely change at general availability.",
+    "With no configuration specified, you get a default configuration with read-only access to all API pages.",
+    "The default configuration has three capabilities: look for actions, describe an action, and invoke an action.",
+    "Write scenarios need explicit MCP configurations, which are covered in the following videos.",
+    "The presenter says setup takes about one minute."
+  ],
+  "audience": [
+    "functional consultant",
+    "developer",
+    "administrator",
+    "partner"
+  ],
+  "extraction_hash": "38859b2ff304144e9a852dcc70d80bcec43153e37de52717ed0da1f69c9e0142",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0146464
+  }
+}

@@ -1,0 +1,279 @@
+{
+  "video_id": "jqVt0hYDfz0",
+  "item_id": "video/yt-microsoft/jqVt0hYDfz0",
+  "title": "What's Cooking in Business Central: Delivering Analysis Views in AL Extensions",
+  "duration_s": 416,
+  "systems": [
+    "reporting",
+    "development",
+    "sales"
+  ],
+  "topics": [
+    "analysis views",
+    "al extensions",
+    "export definition",
+    "json",
+    "page extension",
+    "profile customization",
+    "data analysis",
+    "duplicating views",
+    "personalization"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to Analysis Views Feature",
+      "t_start": 0,
+      "t_end": 48.9
+    },
+    {
+      "title": "Creating and Configuring Analysis Views",
+      "t_start": 48.9,
+      "t_end": 135.3
+    },
+    {
+      "title": "Exporting Analysis Views and JSON Definition",
+      "t_start": 135.3,
+      "t_end": 187.2
+    },
+    {
+      "title": "Implementing Analysis Views in AL Extensions",
+      "t_start": 187.2,
+      "t_end": 266.1
+    },
+    {
+      "title": "Deploying and Using Extension Analysis Views",
+      "t_start": 266.1,
+      "t_end": 314.6
+    },
+    {
+      "title": "Duplicating, Hiding and Managing Analysis Views",
+      "t_start": 314.6,
+      "t_end": 388.2
+    },
+    {
+      "title": "Conclusion",
+      "t_start": 388.2,
+      "t_end": 416
+    }
+  ],
+  "features": [
+    {
+      "name": "Analysis Views Export to AL Extensions",
+      "description": "Ability to export analysis tabs defined in web client as JSON files and deliver them with AL extensions. This allows persisting analysis tabs, sharing them across users and environments, and creating predefined analysis views based on common scenarios.",
+      "status": "announced",
+      "status_evidence_t": 5.3,
+      "status_evidence_quote": "For today, I'm going to show you a new feature that is coming up with the next release.",
+      "status_evidence_verified": true,
+      "t_start": 5.3,
+      "t_end": 48.9,
+      "is_demoed": true,
+      "caveats": [
+        "Analysis views from extensions are read-only",
+        "Users can duplicate read-only views to create editable versions"
+      ],
+      "tags": [
+        "analysis views",
+        "export",
+        "extensions",
+        "json"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Analysis View Descriptions",
+      "description": "New capability to add descriptions to analysis views that provide context and help users understand how to use each tab.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 86,
+      "t_end": 123.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "analysis views",
+        "descriptions",
+        "metadata"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Analysis View Definition Property in AL",
+      "description": "New AL syntax for adding analysis views to page extensions using a definition_file property that points to a JSON file containing the analysis view configuration.",
+      "status": "announced",
+      "status_evidence_t": 172.7,
+      "status_evidence_quote": "this new syntax that is also coming up with this release uh for analysis views.",
+      "status_evidence_verified": true,
+      "t_start": 172.7,
+      "t_end": 205.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "al syntax",
+        "page extension",
+        "json",
+        "definition file"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Analysis View Customization via Page Customization",
+      "description": "Ability to create page customizations with analysis views and assign them to profiles or profile extensions to tailor analysis tabs for different user groups.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 220.3,
+      "t_end": 240.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "customization",
+        "profiles",
+        "analysis views"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Analysis View Lock Icon for Extension Origins",
+      "description": "Analysis views delivered via extensions display a lock icon to indicate they come from an extension and are not editable by users.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 297.2,
+      "t_end": 314.6,
+      "is_demoed": true,
+      "caveats": [
+        "Read-only views cannot be filtered, sorted, or grouped"
+      ],
+      "tags": [
+        "analysis views",
+        "extensions",
+        "read-only"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Analysis View Duplication",
+      "description": "Users can duplicate read-only analysis views from extensions to create their own editable copies for advanced data analysis with full filtering and pivoting capabilities.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 325.5,
+      "t_end": 341.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "analysis views",
+        "duplication",
+        "data analysis"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Analysis View Hide and Personalization",
+      "description": "Users can hide analysis views through a menu option, and hidden views can be managed through personalization mode with options to show or hide specific views.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 348.9,
+      "t_end": 388.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "analysis views",
+        "personalization",
+        "hide"
+      ],
+      "system": "reporting"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "sales order list",
+      "t": 48.9
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Unknown Presenter",
+      "confidence": "low"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 5.3,
+      "text": "I'm going to show you a new feature that is coming up with the next release.",
+      "why_it_matters": "Establishes that this is an announced feature coming in a future release, not yet generally available.",
+      "check": "exact"
+    },
+    {
+      "t": 20.7,
+      "text": "you will now be able to export those analysis tabs that you have defined from web client and deliver them with your own AL",
+      "why_it_matters": "Describes the core capability of exporting analysis views for distribution via extensions.",
+      "check": "exact"
+    },
+    {
+      "t": 33.3,
+      "text": "This makes it easier to persist these analysis tabs and also share them with other users and other environments.",
+      "why_it_matters": "Explains the key benefits of the feature: persistence and sharing across environments.",
+      "check": "exact"
+    },
+    {
+      "t": 96.4,
+      "text": "This is also something that we have added with this release.",
+      "why_it_matters": "Confirms that analysis view descriptions are part of this upcoming release.",
+      "check": "exact"
+    },
+    {
+      "t": 135.3,
+      "text": "I can go into share and export definition. And here I will just get my analysis tab in the shape of a JSON file.",
+      "why_it_matters": "Describes the export mechanism that produces a JSON file for including in extensions.",
+      "check": "exact"
+    },
+    {
+      "t": 187.2,
+      "text": "The only difference here is that I have the definition file property.",
+      "why_it_matters": "Identifies the key new AL property for implementing analysis views in extensions.",
+      "check": "exact"
+    },
+    {
+      "t": 297.2,
+      "text": "it contains a um a lock icon, which will indicate that it comes from the extension, and also indicate that this analysis view is",
+      "why_it_matters": "Explains the visual indicator and behavior constraint for extension-provided analysis views.",
+      "check": "exact"
+    },
+    {
+      "t": 373.1,
+      "text": "I can always go into personalization mode, like we do with other controls, such as views.",
+      "why_it_matters": "Shows that analysis view management follows the same personalization patterns as other page controls.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 5.3,
+      "kind": "coming-later",
+      "text": "new feature that is coming up with the next release"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 8,
+    "quotes_dropped": 0,
+    "evidence_verified": 2,
+    "evidence_unverified": 5
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.0358705
+    }
+  ]
+}

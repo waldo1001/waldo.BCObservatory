@@ -1,0 +1,27 @@
+{
+  "video_id": "D7GxnNiGQ14",
+  "item_id": "video/yt-areopa/D7GxnNiGQ14",
+  "summary": "Background processing options in Business Central (page background tasks, start session, task scheduler, job queue) and how to use them so users do not wait. Covers capabilities, limits, error handling, a production order and warehouse request case, and load balancing across NST nodes online.",
+  "overview": "The session argues for user experience over raw performance: if a process cannot be made fast, move work out of the UI thread so the user does not wait. It opens with a baggage claim example and a medical device manufacturing case where production planning on every order release caused two-minute waits. Moving that planning into a job queue entry, and using a warehouse request instead of creating picks immediately, improved perceived speed.\n\nThe presenters then compare four tools in order of capability: page background tasks, start session, task scheduler and job queue. Demos cover parallel execution, the task scheduler failure handler, job queue categories, record ID and parameter string, multi-level job queue chains, and load balancing across NST nodes. The Q&A covers session limits and use of page background tasks for API calls. Code examples are on Stefan's GitHub.",
+  "key_points": [
+    "Page background tasks load field values and page calculations after the page opens. They are read-only, session-specific, cancelled if the record changes or the page closes, not suitable for list pages, and do not survive server restarts.",
+    "Start session runs a codeunit in another session with read and write access. It has no scheduling, no error logging and no error handling, and it is cancelled if the server crashes.",
+    "Task scheduler is built on start session. It adds one-time scheduling, a failure codeunit that receives error text and call stack, and persistence across server restarts. It is backed by a scheduled tasks table and has no logging out of the box.",
+    "Job queue adds recurring scheduling, automatic logging and a UI. Recurring entries can fail silently, so error handling matters. Categories keep heavy processes from blocking other entries.",
+    "Job queue entries can carry a record ID and a parameter string (described as a hack that works), and can trigger other entries, for example invoice creation, then posting, then payment.",
+    "Stated limit in the cloud: 5 background sessions running per user and up to 100 queued per user. The speaker says this is the latest information and recommends checking the documentation.",
+    "Auto-scaling across NSTs applies to task scheduler and job queue only. Page background tasks and start session run on the same NST as the page. Page background tasks for API calls are fine for reads but risky for writes."
+  ],
+  "audience": [
+    "developer",
+    "functional consultant",
+    "administrator"
+  ],
+  "extraction_hash": "5e9f7fb236ec70d9372a55fce21ee3be475e4bbdb6762383ba39b701953b2cb8",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0282284
+  }
+}

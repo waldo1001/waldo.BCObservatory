@@ -7,16 +7,38 @@
   "url": "https://www.youtube.com/watch?v=jfvUkNa4gyg",
   "published_at": "2026-01-28T02:26:31.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T18:17:12.399Z",
+      "captions": "auto:en-orig",
+      "duration_s": 2785
+    },
+    "captioned": {
+      "at": "2026-10-06T18:17:22.026Z",
+      "path": "vault:captions/community/yt-stefanmaron/jfvUkNa4gyg.vtt",
+      "vtt_sha256": "973877f9272bf8300a8c77c38c7da0dfefc0adbd0f281f65528b5c1548e149bc",
+      "segments": 219,
+      "words": 6174,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
   "attempts": 0,
   "flags": [],
   "meta": {
-    "channel_id": "UC96RLsspoArRJu6dhwkOsWQ"
-  }
+    "channel_id": "UC96RLsspoArRJu6dhwkOsWQ",
+    "duration_s": 2785,
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "973877f9272bf8300a8c77c38c7da0dfefc0adbd0f281f65528b5c1548e149bc"
 }

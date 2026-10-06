@@ -1,0 +1,27 @@
+{
+  "video_id": "tMqCSibSRug",
+  "item_id": "video/yt-stefanmaron/tMqCSibSRug",
+  "summary": "ALCops is the successor to LinterCop for AL code analysis in Business Central, split into six cops (including PlatformCop, ApplicationCop, Test Automation, Documentation, Formatting). The video covers why LinterCop is deprecated, migration, NuGet distribution, the VS Code extension and an early 0.1 alpha MCP server.",
+  "overview": "Arthur van de Vondervoort explains why he moved from LinterCop to ALCops. The reasons given are GitHub rate limits that broke DLL downloads in pipelines since May 2025, AL 16.4 version compatibility problems, and a design that had grown into a \"Swiss Army knife\". LinterCop now only covers code quality, and its repository is deprecated with no new rules planned.\n\nThe session shows the six-cop structure, expanded code fixes (about 30 rules), rewritten rule descriptions aimed at AI agents, and a migration guide. It also covers NuGet distribution with semantic versioning, a single package for all AL versions, an AL-Go helper, a dynamic transfer fields analyzer, and the MCP server. The speaker states that ALCops was released that week and may contain bugs.",
+  "key_points": [
+    "LinterCop problems named: since May 2025 GitHub unauthenticated rate limits dropped from 60,000 to 60 requests per hour per IP, breaking DLL downloads in DevOps pipelines; AL 16.4 support was also an issue.",
+    "ALCops splits analysis into six cops; LinterCop is kept inside it but trimmed to code quality only.",
+    "LinterCop and ALCops cannot run together in VS Code because they share diagnostic IDs; disable LinterCop to use ALCops.",
+    "Expect new warnings after migrating: ALCops analyzes deeper, and the migration guide covers about 95 percent of the rules.",
+    "Distribution is via NuGet with semantic versioning, so pipelines can pin a version. One package works across AL versions using reflection, and an AL-Go helper fetches the right feed.",
+    "Code fixes grew from about five or six to 30 rules. The MCP server is at 0.1 alpha, applies Microsoft quick fixes programmatically, and 1.0 is expected within a couple of weeks.",
+    "LinterCop repository is deprecated with no new rules; it is maintained for a few more months (through end of year), with no firm end date."
+  ],
+  "audience": [
+    "developer",
+    "administrator",
+    "functional consultant"
+  ],
+  "extraction_hash": "87c9ad623c6e13729571c7e2f599daefa351ef31191eb3ffeca494fa8d8854e8",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0429584
+  }
+}
