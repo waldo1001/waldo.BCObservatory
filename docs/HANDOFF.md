@@ -87,8 +87,11 @@ Deliberate deviations from PLAN, all small:
   deploy key (`infra/mini/60-vault.sh`, M0 gate 6), so no new security step. Community videos (7 channels, ~105
   discovered) now compete for the `captions`/`video_extract` quotas newest first. Weekly `no-captions` retry done.
 - Weekly retry for `no-captions` skips; usage-guard token (D16) when a durable source exists.
-- M2 code pillar: tree-sitter-al extractor, 28/29 W1 + country overlays, docs↔objects via `ms.search.form`
-  (1,146 pages, 2,152 ids already recorded), object hubs for the generated reference pages.
+- M2 code pillar, in progress (D27, D28): extractor (`pipeline/code/extract.ts`), code job
+  (`pipeline/code/job.ts`, code items in the nightly, quota `code_jobs`), snapshots 28/29/30 W1 + overlays in
+  `data/code/`, version and country diffs, timelines, deprecation radar (`pipeline/code/diff.ts`, nightly post-pass).
+  Next: docs↔objects via `ms.search.form` (1,146 pages, 2,152 ids recorded) + drift report, object pages,
+  localization hubs (BE, NL narratives first), deprecation radar page.
 
 ## Execution notes (2026-10-06)
 

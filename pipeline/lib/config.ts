@@ -56,7 +56,7 @@ export interface Budget {
   headroom_scale: { min_headroom_pct: number; factor: number; facts_only?: boolean }[];
   reduced_factor: number;
   concurrency?: number;
-  /** Checkpoint commits during stage execution (D28): after this many advanced item stages... */
+  /** Checkpoint commits during stage execution (D26): after this many advanced item stages... */
   checkpoint_items?: number;
   /** ...or after this many minutes, whichever comes first; both 0 = only the final commit. */
   checkpoint_minutes?: number;

@@ -110,3 +110,15 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   only when the caller says the source's license allows (BCApps, MIT). Pages/reports/queries get properties,
   procedures and triggers; layout and datasets are v0.2. Measured on BCApps releases/29.x W1 BaseApp: 8,137 files,
   8,057 objects, 0 parse errors, 7.7 s on the laptop; every record passes al-object@1.
+- **D28 Code snapshots per BC major, countries as overlays, derived diffs.** One code item per major's
+  `snapshot_source` (config/versions.json: BCApps for 29/30, Code History for 28 whose BCApps branch has no Base App)
+  is checked out sparse, blobless, depth 1 and extracted into `data/code/<major>/<cc>/objects-<type>-<n>.jsonl`
+  (≤ 10 MB shards, sorted by object key) + `manifest.json`. W1 = Base Application, System Application, Business
+  Foundation. Countries are overlays: objects new in, or changed by, the country; BCApps countries are assembled
+  through their layer chain (`layers_config.json`: AT on DACH on W1) with each layer's excluded files; regional bases
+  (APAC, DACH, NA) are not countries; Code History countries are explicit (BE, NL). Shards carry no per-object
+  commit/build (manifest only), and the content hash ignores location, procedure lines and doc comments, so a new
+  commit rewrites only changed objects and an unchanged declaration hashes the same across majors. Derived each
+  night when inputs change: version diffs (28→29→30), country diffs, timelines per object type (one file per type,
+  not per object), and the deprecation radar (Obsolete* + CLEAN guards; `clean_version` is the guard's version, not
+  a removal date). Measured: 29 = 9,435 W1 objects + 22 countries in 44 s; all snapshots 334 MB raw, derived 22 MB.

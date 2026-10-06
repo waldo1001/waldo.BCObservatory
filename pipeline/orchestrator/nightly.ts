@@ -47,6 +47,7 @@ import { renderVideoIndex, rerenderVideoPages } from "../render/video.js";
 import { renderTopics } from "../render/topic.js";
 import { renderFeatureIndex, rerenderFeaturePages } from "../render/feature.js";
 import { linkRoadmap, type LinkRun } from "../link/roadmap.js";
+import { refreshCodeDerived, type CodeDerivedRun } from "../code/diff.js";
 import { reviewCoverage, type CoverageReviewRun } from "../review/coverage.js";
 import { buildTopicHubs, mirrorReader } from "../link/toc.js";
 import { refreshNarratives } from "../summarize/hub.js";
@@ -106,7 +107,9 @@ export interface RunReport {
   execution?: ExecutionReport;
   roadmap_links?: Omit<LinkRun, "errors"> & { pages: number; review?: Omit<CoverageReviewRun, "errors"> };
   hubs?: { topics: number; narrated: number; refreshed: number; failed: number; backlog: number; stopped: string; reviewed?: number; review_fixed?: number; review_rejected?: number; review_backlog?: number };
-  /** Checkpoint commits made during stage execution (D28). */
+  /** Code diffs, timelines and deprecation radar recomputed from the snapshots (D26). */
+  code?: CodeDerivedRun;
+  /** Checkpoint commits made during stage execution (D26). */
   checkpoints?: number;
   /** check:leak before the commit (D08); findings block the commit. */
   leak?: { vault: LeakReport["vault"]; raw_docs: number; files_scanned: number; findings: number; blocked: boolean };
@@ -205,6 +208,11 @@ async function run(opts: NightlyOptions, deps: NightlyDeps): Promise<RunReport> 
     });
     if (ck) { await ck.stop(); report.checkpoints = ck.count(); }
     report.execution = execution;
+    try {
+      report.code = refreshCodeDerived(opts.dataDir, Object.keys(loadConfig<VersionsConfig>("versions").majors));
+    } catch (e) {
+      errors.push(`code derived: ${(e as Error).message.slice(0, 300)}`);
+    }
     report.roadmap_links = await refreshRoadmapLinks(manifest, opts, deps.sources, errors, {
       quota: execution.stop_reason === "done" ? quotas.roadmap_links ?? 0 : 0,
       reviewQuota: execution.stop_reason === "done" ? quotas.coverage_reviews ?? 0 : 0, deadline: new Date(execution.deadline),
@@ -433,7 +441,7 @@ async function pushVault(vaultDir: string, message: string): Promise<void> {
 }
 
 /**
- * D28: during stage execution, commit and push what is done after every `everyItems` advanced item stages, or after
+ * D26: during stage execution, commit and push what is done after every `everyItems` advanced item stages, or after
  * `everyMs` when work is slow, so commits stay small, progress shows up in the history, and a killed run (job
  * timeout, reboot, cancel) loses at most one batch: the next run's checkout cleans the workspace, so uncommitted work
  * would be gone. Each checkpoint passes the leak gate first (a finding skips it; the final commit then blocks as
