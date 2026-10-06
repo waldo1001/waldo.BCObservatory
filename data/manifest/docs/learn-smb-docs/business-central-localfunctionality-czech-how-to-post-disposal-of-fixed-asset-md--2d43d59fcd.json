@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-post-disposal-of-fixed-asset",
   "published_at": "2025-06-17T15:00:08.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "8cda296d005512bf5dafe21cdd7ec59ff7a3267f",
       "words": 138,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:22:17.204Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.001166
+    },
+    "summarized": {
+      "at": "2026-10-06T19:22:17.236Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:22:17.237Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:22:17.238Z",
+      "page": false
     }
   },
   "input_hash": "8cda296d005512bf5dafe21cdd7ec59ff7a3267f",
@@ -40,5 +59,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "8cda296d005512bf5dafe21cdd7ec59ff7a3267f"
+  "output_hash": "35349d549ef9a27de348653df06d2d56d5e190ae6d0364f8e4f0a5959e1c1669"
 }

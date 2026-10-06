@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/best-practices",
   "published_at": "2025-06-17T15:00:08.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "4fe33c464cd77202010eadfe8f28cb0459b48476",
       "words": 133,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:22:17.294Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.001304
+    },
+    "summarized": {
+      "at": "2026-10-06T19:22:17.314Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:22:17.321Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:22:17.324Z",
+      "page": false
     }
   },
   "input_hash": "4fe33c464cd77202010eadfe8f28cb0459b48476",
@@ -44,5 +63,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "4fe33c464cd77202010eadfe8f28cb0459b48476"
+  "output_hash": "c79dc25499a88ae89d6d1871969d7bd9b6e1ce02520e5ee32e03748d2f4e0cd1"
 }

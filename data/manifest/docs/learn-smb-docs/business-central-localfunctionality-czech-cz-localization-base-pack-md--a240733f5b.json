@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/cz-localization-base-pack",
   "published_at": "2025-06-17T15:00:08.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "41cedfd588fbc6175f8e782eb089e93089ebd866",
       "words": 119,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:22:17.305Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.001304
+    },
+    "summarized": {
+      "at": "2026-10-06T19:22:17.339Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:22:17.341Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:22:17.342Z",
+      "page": false
     }
   },
   "input_hash": "41cedfd588fbc6175f8e782eb089e93089ebd866",
@@ -39,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "41cedfd588fbc6175f8e782eb089e93089ebd866"
+  "output_hash": "b008c44d41a8b36c31ca4e0dcbd86e2f68bd401f5503d43e7cf89294acfc3ceb"
 }

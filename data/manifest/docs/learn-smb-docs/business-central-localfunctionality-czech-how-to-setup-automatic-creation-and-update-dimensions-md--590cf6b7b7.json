@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-setup-automatic-creation-and-update-dimensions",
   "published_at": "2025-06-17T15:00:08.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "a503f2fe7fcab88cc4784d075e93164cdf903c3b",
       "words": 26,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:22:17.213Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.001166
+    },
+    "summarized": {
+      "at": "2026-10-06T19:22:17.254Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:22:17.256Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:22:17.257Z",
+      "page": false
     }
   },
   "input_hash": "a503f2fe7fcab88cc4784d075e93164cdf903c3b",
@@ -40,5 +59,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a503f2fe7fcab88cc4784d075e93164cdf903c3b"
+  "output_hash": "d2849e3f5206004a28f6354e8ba850fbf08f6ab6f483fac90197d934b80f9d9c"
 }

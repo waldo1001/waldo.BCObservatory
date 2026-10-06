@@ -1,0 +1,151 @@
+{
+  "video_id": "4Te11l2BxmQ",
+  "item_id": "video/yt-microsoft/4Te11l2BxmQ",
+  "title": "Simplify Bank Reconciliation with Copilot in Dynamics 365 Business Central (2024)",
+  "duration_s": 68,
+  "systems": [
+    "finance",
+    "copilot"
+  ],
+  "topics": [
+    "bank reconciliation",
+    "copilot",
+    "transaction matching",
+    "gl account suggestions",
+    "automated matching",
+    "recurring payments"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to Bank Reconciliation Challenge",
+      "t_start": 0,
+      "t_end": 24.4
+    },
+    {
+      "title": "Copilot Analysis and Transaction Matching",
+      "t_start": 24.4,
+      "t_end": 44.4
+    },
+    {
+      "title": "GL Account Suggestions and Recurring Patterns",
+      "t_start": 44.4,
+      "t_end": 68
+    }
+  ],
+  "features": [
+    {
+      "name": "Copilot for Bank Reconciliation",
+      "description": "AI-powered assistant that analyzes bank statements and helps reconcile transactions. Copilot uses built-in rules and Power AI to compare transaction descriptions, amounts, and dates to find matches in ledger entries.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 4.2,
+      "t_end": 65,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "bank reconciliation",
+        "copilot",
+        "automated matching"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Consolidated Transaction Detection",
+      "description": "Copilot can match transactions even when multiple charges are consolidated into a single bank entry, helping identify complex reconciliation scenarios.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 24.4,
+      "t_end": 44.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "transaction matching",
+        "consolidated entries"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "GL Account Suggestions",
+      "description": "Copilot suggests GL accounts for unmatched transactions that were not previously accounted for, such as interest charges or bank fees, improving financial record accuracy.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 44.4,
+      "t_end": 49.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "gl accounts",
+        "unmatched transactions",
+        "account matching"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Recurring Payment Pattern Recognition",
+      "description": "Copilot learns and saves transaction patterns for recurring payments, allowing users to quickly apply these patterns for subsequent reconciliation cycles.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 44.4,
+      "t_end": 65,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "recurring payments",
+        "transaction patterns"
+      ],
+      "system": "finance"
+    }
+  ],
+  "objects": [],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 4.2,
+      "text": "Microsoft co-pilot and Dynamics 365 business Central is your AI powered bookkeeping assistant that helps you turn a tedious monthly chore into a quick",
+      "why_it_matters": "Establishes the core value proposition of Copilot for bank reconciliation as an AI-powered solution that reduces manual effort.",
+      "check": "exact"
+    },
+    {
+      "t": 24.4,
+      "text": "co-pilot Compares transaction descriptions amounts and dates to find matches in your Ledger entries even when multiple charges are Consolidated into a single entry",
+      "why_it_matters": "Demonstrates Copilot's capability to handle complex reconciliation scenarios with consolidated transactions.",
+      "check": "exact"
+    },
+    {
+      "t": 44.4,
+      "text": "co-pilot also suggests GL accounts to post remaining transactions to improving the accuracy of your financial records",
+      "why_it_matters": "Shows how Copilot improves financial accuracy by automatically suggesting appropriate GL accounts for unmatched transactions.",
+      "check": "exact"
+    },
+    {
+      "t": 44.4,
+      "text": "if you've discovered a recurring payment co-pilot helps you save the transaction pattern for the next time",
+      "why_it_matters": "Highlights the learning capability that makes future reconciliations faster by recognizing recurring payment patterns.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 4,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 4
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.013825
+    }
+  ]
+}

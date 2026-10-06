@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/general-ledger-entries-application",
   "published_at": "2025-06-17T15:00:08.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "9ea3ab59dae317b2dc480f1a7f3587ff8d833904",
       "words": 244,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:22:17.313Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 4,
+      "cost_usd": 0.001304
+    },
+    "summarized": {
+      "at": "2026-10-06T19:22:17.352Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:22:17.354Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:22:17.355Z",
+      "page": false
     }
   },
   "input_hash": "9ea3ab59dae317b2dc480f1a7f3587ff8d833904",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9ea3ab59dae317b2dc480f1a7f3587ff8d833904"
+  "output_hash": "0e14144dd87e30e440f33d9ae9026a96f7cb5a0f3ecb010a2b0aa01c9bd10b15"
 }

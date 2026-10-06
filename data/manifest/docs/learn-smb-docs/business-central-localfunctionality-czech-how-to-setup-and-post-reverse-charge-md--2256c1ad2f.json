@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-setup-and-post-reverse-charge",
   "published_at": "2025-06-17T15:00:08.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "0afda5fe5da6714041eff79653d49c935c782ee2",
       "words": 126,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:22:17.207Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.001166
+    },
+    "summarized": {
+      "at": "2026-10-06T19:22:17.247Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:22:17.249Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:22:17.251Z",
+      "page": false
     }
   },
   "input_hash": "0afda5fe5da6714041eff79653d49c935c782ee2",
@@ -45,5 +64,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "0afda5fe5da6714041eff79653d49c935c782ee2"
+  "output_hash": "68c1ffcf958db5a85595c6432d63e90dbfab9d1e88f048927ced982bc2c87d9b"
 }

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/customers-vendors-reconciliations",
   "published_at": "2025-06-17T15:00:08.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "ec5e61dad802f2d4c0f0427c080ff0cfa62a549b",
       "words": 80,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:22:17.300Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.001304
+    },
+    "summarized": {
+      "at": "2026-10-06T19:22:17.334Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:22:17.336Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:22:17.337Z",
+      "page": false
     }
   },
   "input_hash": "ec5e61dad802f2d4c0f0427c080ff0cfa62a549b",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ec5e61dad802f2d4c0f0427c080ff0cfa62a549b"
+  "output_hash": "b74c2f7fb2af875cb8f4e98f9333f20d4f5a672c68ea885d38f38a4fb8c0b0ff"
 }
