@@ -1,0 +1,80 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/walkthrough-planning-supplies-automatically.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/walkthrough-planning-supplies-automatically",
+  "title": "Walkthrough - Planning supplies automatically",
+  "blob": "80023d57614a46c6a920bf8091fc028b923294b9",
+  "summary": "Walkthrough demonstrating automatic supply planning using Master Production Schedule (MPS) and Material Requirements Planning (MRP) to calculate purchase and production orders based on demand.",
+  "systems": [
+    "manufacturing",
+    "purchasing",
+    "inventory"
+  ],
+  "topics": [
+    "supply planning",
+    "mps",
+    "mrp",
+    "production orders",
+    "purchase orders",
+    "demand forecasting",
+    "order tracking"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Stockkeeping Units"
+    },
+    {
+      "type": "page",
+      "name": "Sales Orders"
+    },
+    {
+      "type": "page",
+      "name": "Planning Worksheet"
+    },
+    {
+      "type": "page",
+      "name": "Calculate Plan - Plan. Wksh."
+    },
+    {
+      "type": "page",
+      "name": "Order Tracking"
+    },
+    {
+      "type": "page",
+      "name": "Untracked Planning Elements"
+    },
+    {
+      "type": "page",
+      "name": "Item List"
+    },
+    {
+      "type": "page",
+      "name": "Carry Out Action Msg.-Plan."
+    },
+    {
+      "type": "page",
+      "name": "Firm Planned Prod. Order"
+    }
+  ],
+  "features": [
+    "MPS calculation",
+    "MRP calculation",
+    "Regenerative planning",
+    "Net change planning",
+    "Order tracking",
+    "Action messages",
+    "Planning parameters",
+    "Lot-for-lot policy"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.010471,
+      "pages_in_call": 6
+    }
+  ]
+}

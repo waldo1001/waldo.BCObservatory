@@ -1,0 +1,63 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/warehouse-how-ship-items.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/warehouse-how-ship-items",
+  "title": "Ship items",
+  "blob": "3a68c20116e15080c8647c00d729235dfb574066",
+  "summary": "Shipping items with warehouse shipments covers four methods for outbound processes, including creation via push or pull fashion from source documents. Addresses bin assignment, cross-docking, and assemble-to-order scenarios.",
+  "systems": [
+    "warehouse",
+    "inventory",
+    "sales"
+  ],
+  "topics": [
+    "shipping",
+    "warehouse shipments",
+    "outbound",
+    "picking",
+    "bins",
+    "source documents",
+    "assemble-to-order"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Warehouse Shipments"
+    },
+    {
+      "type": "page",
+      "name": "Source Documents - Outbound"
+    },
+    {
+      "type": "page",
+      "name": "Filters to Get Source Docs."
+    },
+    {
+      "type": "page",
+      "name": "Location Card"
+    },
+    {
+      "type": "page",
+      "name": "Pick Worksheet"
+    }
+  ],
+  "features": [
+    "Warehouse shipments",
+    "Get Source Documents",
+    "Use Filters to Get Source Documents",
+    "Qty. to Ship",
+    "Create Pick",
+    "Cross-docking",
+    "Assemble-to-order items"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00481,
+      "pages_in_call": 7
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/walkthrough-conducting-a-sales-campaign",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,13 @@
       "blob": "125d2c6851e8a3765a75c350df180456f0194824",
       "words": 1874,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:12:04.166Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 9,
+      "cost_usd": 0.010471
     }
   },
   "input_hash": "125d2c6851e8a3765a75c350df180456f0194824",
@@ -35,5 +42,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "125d2c6851e8a3765a75c350df180456f0194824"
+  "output_hash": "f2a4c57badaaf8d9fdfeb7724489dd46419da2d92c746ec67d52281091fa0d12"
 }

@@ -1,0 +1,59 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/warehouse-how-receive-items.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/warehouse-how-receive-items",
+  "title": "Receive items",
+  "blob": "7b096e2a19ae93838c6ae43c7eb73272c9f8cfec",
+  "summary": "Receiving items with warehouse receipts covers four methods for inbound processes, including push and pull approaches for creating warehouse receipts from source documents like purchase orders. Details zone and bin code assignment.",
+  "systems": [
+    "warehouse",
+    "inventory",
+    "purchasing"
+  ],
+  "topics": [
+    "receiving",
+    "warehouse receipts",
+    "inbound",
+    "bins",
+    "zones",
+    "source documents",
+    "over-receipt"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Warehouse Receipts"
+    },
+    {
+      "type": "page",
+      "name": "Source Documents - Inbound"
+    },
+    {
+      "type": "page",
+      "name": "Filters to Get Source Docs. - Inbound"
+    },
+    {
+      "type": "page",
+      "name": "Location Card"
+    }
+  ],
+  "features": [
+    "Warehouse receipts",
+    "Get Source Documents",
+    "Use Filters to Get Source Documents",
+    "Qty. to Receive",
+    "Over-Receipt Quantity",
+    "Cross-docking",
+    "Bin assignment"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00481,
+      "pages_in_call": 7
+    }
+  ]
+}

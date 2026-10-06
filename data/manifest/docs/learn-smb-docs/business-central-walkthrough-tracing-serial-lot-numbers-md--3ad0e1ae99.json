@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/walkthrough-tracing-serial-lot-numbers",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,13 @@
       "blob": "3fed9a623300b4ef637bc86ca896d81c5d447939",
       "words": 2686,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:12:06.042Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 11,
+      "cost_usd": 0.015488
     }
   },
   "input_hash": "3fed9a623300b4ef637bc86ca896d81c5d447939",
@@ -35,5 +42,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "3fed9a623300b4ef637bc86ca896d81c5d447939"
+  "output_hash": "52fbd5982479c1adeaca8c8afab44822f78e55d69089667184d2bf538d33359e"
 }

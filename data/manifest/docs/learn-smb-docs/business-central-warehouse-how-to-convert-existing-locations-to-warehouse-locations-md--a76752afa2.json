@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-convert-existing-locations-to-warehouse-locations",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "47dfb44afab952ab1d4e4ae0578dca2d3c154bfe",
       "words": 452,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T19:11:50.299Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.00481
+    },
+    "summarized": {
+      "at": "2026-10-06T19:11:52.979Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:11:52.979Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:11:52.980Z",
+      "page": false
     }
   },
   "input_hash": "47dfb44afab952ab1d4e4ae0578dca2d3c154bfe",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "47dfb44afab952ab1d4e4ae0578dca2d3c154bfe"
+  "output_hash": "5a1104e146762f0b355514f56ad83fdd0680b97fb7a94965088bc5ec1506fbc1"
 }

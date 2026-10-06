@@ -1,0 +1,65 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/walkthrough-receiving-and-putting-away-in-advanced-warehousing.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/walkthrough-receiving-and-putting-away-in-advanced-warehousing",
+  "title": "Receiving and Putting Away in Advanced Warehousing",
+  "blob": "d5d52c90d27367225cf388b2cf29d2ea6491b29b",
+  "summary": "Walkthrough for advanced warehouse configurations demonstrating receiving and putting away items using warehouse receipt and warehouse put-away documents with directed put-away and pick.",
+  "systems": [
+    "warehouse",
+    "inventory"
+  ],
+  "topics": [
+    "warehouse receipt",
+    "warehouse put-away",
+    "inbound processing",
+    "bin management",
+    "receiving",
+    "directed put-away and pick"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Locations"
+    },
+    {
+      "type": "page",
+      "name": "Purchase Orders"
+    },
+    {
+      "type": "page",
+      "name": "Warehouse Receipts"
+    },
+    {
+      "type": "page",
+      "name": "Filters to Get Source Docs."
+    },
+    {
+      "type": "page",
+      "name": "Warehouse Put-away"
+    },
+    {
+      "type": "page",
+      "name": "Put-Aways"
+    }
+  ],
+  "features": [
+    "Warehouse receipt posting",
+    "Warehouse put-away registration",
+    "Directed put-away and pick",
+    "Bin codes",
+    "Receiving bin",
+    "Split put-away lines",
+    "Multiple inbound orders"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.010471,
+      "pages_in_call": 6
+    }
+  ]
+}

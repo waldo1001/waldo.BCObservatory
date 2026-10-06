@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/walkthrough-selling-assembling-and-shipping-kits",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,13 @@
       "blob": "b1681080e25599b9dc25cff8958c294013877477",
       "words": 3822,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:12:06.042Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 13,
+      "cost_usd": 0.015488
     }
   },
   "input_hash": "b1681080e25599b9dc25cff8958c294013877477",
@@ -35,5 +42,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b1681080e25599b9dc25cff8958c294013877477"
+  "output_hash": "e386d588a537bd34adddc16e67d70d801fe46b5caebb508ab6c08cefb83d98c8"
 }

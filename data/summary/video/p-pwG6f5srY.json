@@ -1,0 +1,27 @@
+{
+  "video_id": "p-pwG6f5srY",
+  "item_id": "video/yt-microsoft/p-pwG6f5srY",
+  "summary": "Shopify Connector changes in Business Central 2024 release wave 2: meta field import, translation sync, adding items as variants, customer-specific B2B catalog pricing, API version 2024-07, item charges for shipping, posted sales invoice sync and Shopify payment reconciliation including gift cards.",
+  "overview": "The video walks through the Shopify connector updates in 2024 release wave 2, grouped into product information management and order handling. Product-side topics include meta fields, translations, variants, pricing, API version and weight units.\n\nOrder-side topics include return location priority, item charges for shipping, syncing posted sales invoices to Shopify, and reconciling payments, including multiple payment types and gift cards, through a new cash receipt journal action. The presenter also describes a customer-specific pricing feature contributed by a merchant and partner through GitHub.",
+  "key_points": [
+    "Meta fields defined on Shopify products or variants are imported into Business Central. Mapping them to Business Central data needs a custom extension.",
+    "Translations can be synced from Business Central to Shopify for the languages you select. Item descriptions, extended text and attributes are translated when products are added.",
+    "A new action adds Business Central items to Shopify as variants of an existing product. Title control on the Shopify API side is limited.",
+    "Business Central customers can be linked to Shopify B2B catalogs for customer-specific prices and discounts. The field must be made visible through personalization.",
+    "The connector uses Shopify API version 2024-07 and supports up to 2000 variants per product. The 2000-variant limit can only be tested in development stores on the latest Shopify version.",
+    "Shipping charge mapping now accepts item charges as well as GL accounts. A new return location priority setting chooses between the default return location and the original order location, and falls back to the default if the original is not found.",
+    "Posted sales invoices can be synced to Shopify once posted invoice sync and payment terms mapping are set up. The 'Suggest Shopify payments' action in cash receipt journals pulls gateway transactions, handles refunds as negative amounts, and supports gift card reconciliation."
+  ],
+  "audience": [
+    "functional consultant",
+    "developer",
+    "administrator"
+  ],
+  "extraction_hash": "cf150a73daf6336281b1c761e13f20297d23b9f2f394668560d4eab2eb0b6190",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0234744
+  }
+}

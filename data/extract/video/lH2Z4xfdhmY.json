@@ -1,0 +1,286 @@
+{
+  "video_id": "lH2Z4xfdhmY",
+  "item_id": "video/yt-microsoft/lH2Z4xfdhmY",
+  "title": "What’s New: Data Search Improvements (For Developers) (2024 release wave 2)",
+  "duration_s": 670,
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "modern search",
+    "full-text search",
+    "optimized for text search property",
+    "page search",
+    "lookup",
+    "company-wide search",
+    "performance",
+    "al development",
+    "set filter method",
+    "double and operator"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Modern Search Overview",
+      "t_start": 0,
+      "t_end": 52.8
+    },
+    {
+      "title": "Enabling Modern Search with optimized for text search Property",
+      "t_start": 52.8,
+      "t_end": 113
+    },
+    {
+      "title": "Modern Search in Item Lists and Page Search",
+      "t_start": 113,
+      "t_end": 204.8
+    },
+    {
+      "title": "Search Performance Comparison and Company-wide Search",
+      "t_start": 204.8,
+      "t_end": 312.8
+    },
+    {
+      "title": "Modern Search in Lookup and Full-Text Index Generation",
+      "t_start": 312.8,
+      "t_end": 393.6
+    },
+    {
+      "title": "Technical Implementation and API Usage",
+      "t_start": 393.6,
+      "t_end": 536
+    },
+    {
+      "title": "Page Inspector and Filter Syntax Considerations",
+      "t_start": 536,
+      "t_end": 642.6
+    },
+    {
+      "title": "Conclusion and Summary",
+      "t_start": 642.6,
+      "t_end": 670
+    }
+  ],
+  "features": [
+    {
+      "name": "Modern Search",
+      "description": "A new search mechanism that searches for all words rather than any substring within a word, providing significantly faster search results and matching user expectations from other search engines. Applies to page search, lookup, and company-wide search.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 21.4,
+      "t_end": 92.9,
+      "is_demoed": true,
+      "caveats": [
+        "Requires optimized for text search property to be enabled on table fields",
+        "Legacy search still available via star prefix",
+        "Behavior changes based on user enabling modern search and field optimization"
+      ],
+      "tags": [
+        "search",
+        "performance",
+        "full-text",
+        "index"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "optimized for text search Property",
+      "description": "A new table field property that enables modern search functionality on specific fields. Should be applied to primary key fields, descriptive text fields, and identifying fields that users want to search on.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 52.8,
+      "t_end": 92.9,
+      "is_demoed": false,
+      "caveats": [
+        "Should not be added to fields where there are thousands of rows or grouping mechanisms",
+        "Can be applied on both table fields and table extension fields"
+      ],
+      "tags": [
+        "property",
+        "field",
+        "indexing"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Modern Search in Item Lists",
+      "description": "Modern search functionality applied to item lookup pages, allowing users to search for items by word without requiring exact substring matching or specific punctuation, with significantly improved performance.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 123.8,
+      "t_end": 204.8,
+      "is_demoed": true,
+      "caveats": [
+        "Legacy search can still be enabled and used with star prefix syntax",
+        "Word order does not matter in search"
+      ],
+      "tags": [
+        "item",
+        "search",
+        "lookup",
+        "performance"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Double And Filter Operator",
+      "description": "New filter operator for the set filter method in the record API that enables full-text search matching on fields with optimized for text search property enabled.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 485.3,
+      "t_end": 642.6,
+      "is_demoed": true,
+      "caveats": [
+        "Falls back to case-insensitive contain search if field does not have optimized for text search enabled",
+        "Syntax can be complex when combining multiple search terms",
+        "Behavior changes based on whether modern search is enabled and field optimization"
+      ],
+      "tags": [
+        "api",
+        "filter",
+        "al development",
+        "syntax"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Full-Text Search Index Generation",
+      "description": "The synchronization engine automatically generates and regenerates a full-text search index for tables when indexed fields are added or changed. Creates one index per table using neutral language word breakers.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 393.6,
+      "t_end": 427,
+      "is_demoed": false,
+      "caveats": [
+        "Index is language independent using only standard word breakers like space and dash",
+        "Creates one index per table with indexed fields"
+      ],
+      "tags": [
+        "indexing",
+        "full-text",
+        "synchronization",
+        "sql"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Star Prefix for Legacy Search",
+      "description": "Users can prefix search queries with a double star to force legacy substring-based search behavior instead of modern word-based search, useful for finding partial IDs or when legacy behavior is preferred.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 263.5,
+      "t_end": 312.8,
+      "is_demoed": true,
+      "caveats": [
+        "Legacy search is slower than modern search",
+        "Available in page search, lookup, and company-wide search"
+      ],
+      "tags": [
+        "search",
+        "legacy",
+        "user control"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Company-wide Search with Modern Search",
+      "description": "Modern search functionality extends to company-wide search across all data, using modern search for fields with optimized for text search property while maintaining existing behavior for non-indexed fields.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 283.6,
+      "t_end": 373.4,
+      "is_demoed": true,
+      "caveats": [
+        "Fields without optimized for text search property still use legacy search behavior",
+        "Performance may vary depending on which fields are indexed"
+      ],
+      "tags": [
+        "search",
+        "company-wide",
+        "performance"
+      ],
+      "system": "platform"
+    }
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "data search and table code unit",
+      "t": 621.9
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Jens M Peterson",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 21.4,
+      "text": "in this release we have added a method to search for all words rather than any substring in a word it's a significantly faster",
+      "why_it_matters": "Establishes the core feature and its performance advantage over legacy substring search.",
+      "check": "exact"
+    },
+    {
+      "t": 52.8,
+      "text": "you use the new property optimized for text search equals true on your table Fields you can put it on your table fields or",
+      "why_it_matters": "Shows how developers enable modern search on fields they want indexed for better search performance.",
+      "check": "exact"
+    },
+    {
+      "t": 92.9,
+      "text": "you should add this to fields that the users want to find not to fields which where there are thousands of them or where",
+      "why_it_matters": "Provides design guidance on which fields should be optimized to avoid indexing unnecessary data.",
+      "check": "snapped"
+    },
+    {
+      "t": 464.5,
+      "text": "the modern search on the other hand Builds an index on every word and now you have an index lookup into those words and",
+      "why_it_matters": "Explains the technical reason why modern search is significantly faster than legacy search.",
+      "check": "snapped"
+    },
+    {
+      "t": 485.3,
+      "text": "you can also use it on the record API it is built into the set filter method so you can now use the new",
+      "why_it_matters": "Shows that modern search capabilities extend beyond the UI to the AL API for programmatic access.",
+      "check": "exact"
+    },
+    {
+      "t": 601.8,
+      "text": "the syntax can be a little hard to grasp you saw the trick with using the page inspector to show the generated filters",
+      "why_it_matters": "Acknowledges complexity in double-and syntax and provides developer tools to understand generated filters.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 7
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.022757
+    }
+  ]
+}

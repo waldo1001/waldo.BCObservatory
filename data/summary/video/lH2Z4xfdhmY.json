@@ -1,0 +1,27 @@
+{
+  "video_id": "lH2Z4xfdhmY",
+  "item_id": "video/yt-microsoft/lH2Z4xfdhmY",
+  "summary": "Modern search in Business Central (2024 release wave 2) for developers: searches for all words instead of substrings, is enabled per field with the optimized for text search property, and applies to page search, lookup and company-wide search. Covers the new double and filter operator in SetFilter and full-text index generation.",
+  "overview": "The video explains modern search, which matches all words rather than any substring in a word and is significantly faster than the legacy search. It is demonstrated in item lists, page search, lookup and company-wide search, with a performance comparison against legacy search.\n\nFor developers, it shows how to enable modern search by setting the optimized for text search property on table and table extension fields. It also covers how the synchronization engine generates the full-text index, how the new double and filter operator works in the SetFilter method of the record API, and how the page inspector helps check generated filters, since the syntax can be hard to grasp.",
+  "key_points": [
+    "Set optimized for text search = true on table fields or table extension fields to enable modern search on them.",
+    "Apply the property to primary key, descriptive text and identifying fields users search on; avoid fields with thousands of rows or grouping use.",
+    "Modern search matches all words, word order does not matter, and it is faster than legacy substring search.",
+    "Prefix a query with a double star to force legacy substring search in page search, lookup and company-wide search.",
+    "The SetFilter method has a new double and filter operator for full-text matching; on fields without the property it falls back to a case-insensitive contains search.",
+    "The synchronization engine creates and regenerates one full-text index per table with indexed fields, using language-neutral word breakers such as space and dash.",
+    "Company-wide search uses modern search only for fields with the property; other fields keep legacy behavior."
+  ],
+  "audience": [
+    "developer",
+    "functional consultant",
+    "administrator"
+  ],
+  "extraction_hash": "40eb84a5b5cfd2471d226d5b59ad5585bb1e71ac7745010894aaed2e934e49d2",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.015584400000000002
+  }
+}

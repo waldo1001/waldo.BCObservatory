@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/walkthrough-calculating-work-in-process-for-a-job",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "8173121894e31c5f32c12e627d96a834830152a9",
       "words": 1464,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:12:04.164Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 8,
+      "cost_usd": 0.010471
+    },
+    "summarized": {
+      "at": "2026-10-06T19:12:06.043Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:12:06.044Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:12:06.045Z",
+      "page": false
     }
   },
   "input_hash": "8173121894e31c5f32c12e627d96a834830152a9",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "8173121894e31c5f32c12e627d96a834830152a9"
+  "output_hash": "4636ade9a71ea9cc94f4a402baaf85937b0d5c744289dddaeced9fe6c7d48272"
 }

@@ -1,0 +1,56 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/warehouse-how-to-create-individual-bins.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-create-individual-bins",
+  "title": "Create bins",
+  "blob": "45063818bb8948b0e0cd513d045afa8c9e3f9c8f",
+  "summary": "Creating bins in a warehouse can be done individually from the location card or in bulk using the Bin Creation Worksheet with automatic generation based on rack, section, and level templates.",
+  "systems": [
+    "warehouse",
+    "inventory"
+  ],
+  "topics": [
+    "bins",
+    "bin creation",
+    "warehouse layout",
+    "bin codes",
+    "warehouse configuration",
+    "bin templates"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Locations"
+    },
+    {
+      "type": "page",
+      "name": "Bins"
+    },
+    {
+      "type": "page",
+      "name": "Bin Creation Worksheet"
+    },
+    {
+      "type": "page",
+      "name": "Calculate Bins"
+    }
+  ],
+  "features": [
+    "Bin Creation Worksheet",
+    "Calculate Bins",
+    "Dedicated bins",
+    "Bin templates",
+    "Bin codes",
+    "Bin naming"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00481,
+      "pages_in_call": 7
+    }
+  ]
+}

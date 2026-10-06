@@ -1,0 +1,29 @@
+{
+  "video_id": "2isrH3RcSK8",
+  "item_id": "video/yt-microsoft/2isrH3RcSK8",
+  "summary": "Business Central 2024 release wave 2 launch event opening (recorded 2024-10-09): an overview of Copilot, finance, subscription billing, sustainability, Power Platform, search, admin, developer, AI-building and performance changes in that release.",
+  "overview": "The recording of the live opening of the 2024 release wave 2 launch event walks through the release in 16 chapters. It starts with Copilot (default on, Copilot Chat for analysis views in 20 additional languages, Copilot for Finance, item substitution and number series generation) and moves to subscription billing, Power BI reports, sustainability, projects, service, Shopify and Field Service.\n\nIt then covers Power Automate, modern search in preview, column resizing and access keys, Word reporting, and 156 community contributions. The later chapters cover administrators (flexible update management, partner access per environment, audit logging to Microsoft 365), developers (AL-Go for GitHub, AL improvements, code navigation, AI toolkit, AI testing, managed AI resources) and performance work (profiler scheduling, job queue order, warehouse ledger posting, page scripting in pipelines).",
+  "key_points": [
+    "Copilot is default on without setup; an admin page controls which Copilot capabilities are enabled in the company.",
+    "Copilot Chat builds analysis views from questions and is available in 20 additional languages.",
+    "Modern search is in preview and is expected to leave preview the following month. It uses full-text search in partner-marked columns, and legacy search stays available for comprehensive searching.",
+    "Flexible update management, coming in preview, extends the update postponement window from 60 days to 5 months.",
+    "Partners (delegated admins) can be assigned to specific environments, and administrative actions are logged to the Microsoft 365 unified audit log.",
+    "AL-Go for GitHub adds security hardening, ISV app compatibility testing and performance baseline testing.",
+    "An AI testing toolkit is in preview and works with Azure AI Studio. Managed AI resources for ISVs are in private preview, with expansion to public preview planned."
+  ],
+  "audience": [
+    "functional consultant",
+    "developer",
+    "administrator",
+    "partner",
+    "decision maker"
+  ],
+  "extraction_hash": "0a14c339edcfcff242282d3337861752141b6d6de92fba29604a97d1c8cb9166",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0346404
+  }
+}

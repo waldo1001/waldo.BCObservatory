@@ -1,0 +1,56 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-move-items-ad-hoc-in-basic-warehousing",
+  "title": "Move Items Unplanned in Basic Warehouse Configurations",
+  "blob": "ac504546bcfb84ef0a5dffab9e266f8eb884d428",
+  "summary": "Moving items internally in basic warehouse configurations without source document demand uses Internal Movement page or Item Reclassification Journal to reorganize inventory and handle movements to production areas.",
+  "systems": [
+    "warehouse",
+    "inventory"
+  ],
+  "topics": [
+    "internal movements",
+    "item movements",
+    "unplanned movements",
+    "bin movements",
+    "reclassification",
+    "basic warehousing"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Internal Movements"
+    },
+    {
+      "type": "page",
+      "name": "Inventory Movement"
+    },
+    {
+      "type": "page",
+      "name": "Item Reclassification Journal"
+    },
+    {
+      "type": "page",
+      "name": "Bin Contents List"
+    }
+  ],
+  "features": [
+    "Internal Movements",
+    "Create Inventory Movement",
+    "Inventory Movement",
+    "Item Reclassification Journal",
+    "Bin Contents List",
+    "Split Line"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00481,
+      "pages_in_call": 7
+    }
+  ]
+}

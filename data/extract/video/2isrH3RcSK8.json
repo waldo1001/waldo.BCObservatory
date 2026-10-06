@@ -1,0 +1,1199 @@
+{
+  "video_id": "2isrH3RcSK8",
+  "item_id": "video/yt-microsoft/2isrH3RcSK8",
+  "title": "Business Central Launch Event 2024 Release Wave 2 - Recording of Live Opening",
+  "duration_s": 2355,
+  "systems": [
+    "copilot",
+    "platform",
+    "development"
+  ],
+  "topics": [
+    "copilot chat",
+    "analysis views",
+    "copilot for finance",
+    "subscription billing",
+    "power bi reports",
+    "sustainability tracking",
+    "shopify integration",
+    "field service",
+    "power automate",
+    "search",
+    "keyboard access keys",
+    "word reporting"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Event Overview",
+      "t_start": 0,
+      "t_end": 127.2
+    },
+    {
+      "title": "AI-Powered Business and Copilot Investments",
+      "t_start": 127.2,
+      "t_end": 187.9
+    },
+    {
+      "title": "Copilot Chat and Analysis Capabilities",
+      "t_start": 187.9,
+      "t_end": 363.9
+    },
+    {
+      "title": "Copilot for Finance and Item Management",
+      "t_start": 363.9,
+      "t_end": 516.3
+    },
+    {
+      "title": "Subscription Billing and Analytics",
+      "t_start": 516.3,
+      "t_end": 656.8
+    },
+    {
+      "title": "Sustainability, Projects, Service, and Shopify",
+      "t_start": 656.8,
+      "t_end": 776.4
+    },
+    {
+      "title": "Power Platform and Search Improvements",
+      "t_start": 776.4,
+      "t_end": 937.7
+    },
+    {
+      "title": "Word Reporting and Community Contributions",
+      "t_start": 937.7,
+      "t_end": 1039.2
+    },
+    {
+      "title": "Flexible Update Management for Administrators",
+      "t_start": 1039.2,
+      "t_end": 1160
+    },
+    {
+      "title": "Partner Access Control and Admin Audit Logging",
+      "t_start": 1160,
+      "t_end": 1278.6
+    },
+    {
+      "title": "AL-Go for GitHub and AL Language Improvements",
+      "t_start": 1278.6,
+      "t_end": 1501.7
+    },
+    {
+      "title": "Code Navigation and AI Toolkit for Copilot Development",
+      "t_start": 1501.7,
+      "t_end": 1660.4
+    },
+    {
+      "title": "AI Testing and Managed AI Resources",
+      "t_start": 1660.4,
+      "t_end": 1904.9
+    },
+    {
+      "title": "Performance Improvements and Optimization",
+      "t_start": 1904.9,
+      "t_end": 2141.4
+    },
+    {
+      "title": "Page Scripting and DevOps Enhancements",
+      "t_start": 2141.4,
+      "t_end": 2218.4
+    },
+    {
+      "title": "Closing Remarks and Q&A",
+      "t_start": 2218.4,
+      "t_end": 2355
+    }
+  ],
+  "features": [
+    {
+      "name": "Copilot enabled by default",
+      "description": "Copilot is now default on without requiring setup, with an admin page to control which capabilities are enabled or disabled in the company.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 187.9,
+      "t_end": 207.9,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "copilot",
+        "default configuration",
+        "admin control"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Copilot Chat for data inquiries",
+      "description": "Chat feature that helps users query data by generating analysis views linked to analysis tabs, and can work with current pages like customer or item lists.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 207.9,
+      "t_end": 302.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "chat",
+        "analysis views",
+        "data inquiry",
+        "context-aware"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Copilot Chat multilingual support",
+      "description": "Chat with copilot is now available in 20 additional languages, enabling users to interact and build analysis views in their own language.",
+      "status": "ga",
+      "status_evidence_t": 343.6,
+      "status_evidence_quote": "adding 20 languages with this release it's now available in all these languages",
+      "status_evidence_verified": true,
+      "t_start": 343.6,
+      "t_end": 363.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "multilingual",
+        "20 languages",
+        "globalization"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Copilot for Finance app",
+      "description": "Separate Microsoft app focused on finance scenarios, helping collection teams respond to and summarize emails, handle disputes and dispute status, and synchronize payment promise dates back to Business Central.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 363.9,
+      "t_end": 403.9,
+      "is_demoed": true,
+      "caveats": [
+        "More capabilities coming from the finance team",
+        "Teams experience still being built"
+      ],
+      "tags": [
+        "finance",
+        "email handling",
+        "dispute management",
+        "collections"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Copilot item substitution generation",
+      "description": "When creating a new item, users can select substitutions and click generate to have copilot suggest other cheap items, saving time on item setup.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 424.5,
+      "t_end": 461.3,
+      "is_demoed": true,
+      "caveats": [
+        "Also available for Dimensions, unit of measure, and variance"
+      ],
+      "tags": [
+        "item setup",
+        "substitutions",
+        "productivity",
+        "generation"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Copilot number series generation",
+      "description": "MVP contribution allowing copilot to automatically suggest and generate number series setup when starting with a blank number series, including names and starting numbers.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 461.3,
+      "t_end": 516.3,
+      "is_demoed": true,
+      "caveats": [
+        "Contribution from a community MVP"
+      ],
+      "tags": [
+        "number series",
+        "setup",
+        "automation",
+        "github contribution"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Subscription billing",
+      "description": "New capability area for setting up service contracts, billing periods, and revenue recognition for subscriptions, including handling subscriptions that cross fiscal year boundaries.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 516.3,
+      "t_end": 556.5,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "subscription",
+        "billing",
+        "revenue recognition",
+        "contracts"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Power BI reports expansion",
+      "description": "70+ new Power BI reports covering all business areas including manufacturing expansion, available for viewing analytics and business metrics like income and profit.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 576.9,
+      "t_end": 617.4,
+      "is_demoed": false,
+      "caveats": [
+        "More areas like manufacturing being explored for future additions"
+      ],
+      "tags": [
+        "power bi",
+        "reports",
+        "analytics",
+        "out-of-box"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Financial reports and definitions",
+      "description": "12 additional financial reports with expanded row and column definitions that users can select and customize to build their own financial reports.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 617.4,
+      "t_end": 656.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "financial reports",
+        "row definitions",
+        "column definitions",
+        "customization"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Sustainability tracking module",
+      "description": "Rich sustainability tracking module for recording greenhouse gases, carbon credits, with row centers, scorecards, and goals to help meet government reporting requirements.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 655.8,
+      "t_end": 696,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "sustainability",
+        "esg",
+        "carbon tracking",
+        "greenhouse gases",
+        "reporting"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "Project and Service management improvements",
+      "description": "Extended capabilities in projects and service management including extended text archiving based on customer feedback and needs from other product areas.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 696,
+      "t_end": 736.1,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "projects",
+        "service",
+        "archiving",
+        "extended text"
+      ],
+      "system": "service"
+    },
+    {
+      "name": "Shopify integration improvements",
+      "description": "Continued improvements to Shopify integration with faster sales cycles, supporting the 2.5 million active Shopify shops in the market with better e-commerce integration.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 716,
+      "t_end": 756.4,
+      "is_demoed": false,
+      "caveats": [
+        "Ongoing improvements as Shopify adds new features"
+      ],
+      "tags": [
+        "shopify",
+        "integration",
+        "e-commerce",
+        "sales cycle"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Frontline workers integration with Dynamics 365 Field Service",
+      "description": "Integration with Microsoft Dynamics 365 Field Service for service orders, providing both back office and front office capabilities for businesses doing service work with frontline workers.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 756.4,
+      "t_end": 796.4,
+      "is_demoed": false,
+      "caveats": [
+        "Started in last release with projects"
+      ],
+      "tags": [
+        "frontline workers",
+        "field service",
+        "service orders",
+        "integration"
+      ],
+      "system": "service"
+    },
+    {
+      "name": "Power BI embedded in Business Central",
+      "description": "Power BI reports are now embedded directly in Business Central, allowing users to work with rich reports without leaving the product.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 796.4,
+      "t_end": 816.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "power bi",
+        "embedded",
+        "reports",
+        "user experience"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Power Automate integration improvements",
+      "description": "Continued improvements to power automate integration for building flows and workflows for any business process inside Business Central.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 816.4,
+      "t_end": 837,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "power automate",
+        "workflows",
+        "flows",
+        "automation"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Job queue notifications via Power Automate",
+      "description": "Users can now receive job queue notifications when there are challenges and build flows to send notifications to the right users in the company.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 837,
+      "t_end": 857.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "job queue",
+        "notifications",
+        "power automate",
+        "workflows"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Keyboard access keys in multiple languages",
+      "description": "French access keys are now available in all supported languages in this release, enabling keyboard-productive users to work in their preferred language.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 857.4,
+      "t_end": 877.5,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "keyboard shortcuts",
+        "access keys",
+        "multilingual",
+        "french"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Modern search in preview",
+      "description": "New modern search capability in preview using full-text search in partner-marked columns, offering faster performance with character matching compared to legacy search.",
+      "status": "preview",
+      "status_evidence_t": 877.5,
+      "status_evidence_quote": "it's in preview uh right now in this month it will come out uh in next month",
+      "status_evidence_verified": true,
+      "t_start": 877.5,
+      "t_end": 897.7,
+      "is_demoed": false,
+      "caveats": [
+        "Will come out of preview next month",
+        "Legacy search still available for comprehensive searching"
+      ],
+      "tags": [
+        "search",
+        "full-text",
+        "performance",
+        "modern"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Column resizing without personalization",
+      "description": "Users can now resize columns in the moment on the current screen without entering personalization mode. Previously, column resizing required personalization and affected all devices.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 917.7,
+      "t_end": 937.7,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "column resizing",
+        "ui",
+        "personalization"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Word reporting conditional formatting",
+      "description": "Word document reports in Business Central now support conditional formatting. Users can hide fields based on conditions and switch between different word layouts for richer reporting experiences.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 937.7,
+      "t_end": 978.9,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "word reporting",
+        "conditional formatting",
+        "documents"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Community contributions",
+      "description": "156 community contributions were included in this release across connectors, horizontal capabilities, business features, sensibility events, bug fixes, and AI and copilot features.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 978.9,
+      "t_end": 999,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "community",
+        "github",
+        "contributions"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Flexible update management",
+      "description": "Administrators can now postpone updates for a longer period. The scheduling window extends from 60 days to 5 months, allowing customers to find the right moment to apply updates while maintaining solution compatibility.",
+      "status": "preview",
+      "status_evidence_t": 1079.3,
+      "status_evidence_quote": "this capability is coming out in preview and what is it this is ability for the administrators to postpone the updates",
+      "status_evidence_verified": true,
+      "t_start": 1079.3,
+      "t_end": 1160,
+      "is_demoed": false,
+      "caveats": [
+        "Coming out in preview",
+        "Microsoft encourages staying on latest versions"
+      ],
+      "tags": [
+        "update management",
+        "administration",
+        "flexibility"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Partner access assignment to specific environments",
+      "description": "Administrators can now assign partners to specific environments in the tenant admin center. Delegated admins will only have access to the assigned environment, useful when working across multiple environments in different countries.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1180,
+      "t_end": 1220.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "partner access",
+        "admin center",
+        "environment control"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Administrative audit logging to Microsoft 365",
+      "description": "All administrative requests and actions performed in the admin center and application are now logged to Microsoft 365 unified audit log. Business Central is now part of the Microsoft auditing solution portfolio.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1240.4,
+      "t_end": 1261,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "audit",
+        "admin logging",
+        "compliance"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "AL-Go for GitHub security hardening",
+      "description": "AL-Go for GitHub has been enhanced with security hardening, allowing users to run pipelines more securely and operate in a more protected environment.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1299.3,
+      "t_end": 1319.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "al-go",
+        "security",
+        "devops"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "AL-Go ISV app compatibility testing",
+      "description": "AL-Go for GitHub now enables easy testing of solution compatibility with all dependent ISV apps. If ISVs plug into the system and share symbols, developers can test compatibility with current and future versions any time.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1319.4,
+      "t_end": 1360,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "al-go",
+        "compatibility testing",
+        "isv apps"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "AL-Go performance baseline testing",
+      "description": "AL-Go for GitHub enables setting up environments to create baselines for performance tests. Developers can run tests to measure current performance and use it as a baseline for future changes to track performance impact.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1380.6,
+      "t_end": 1421,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "al-go",
+        "performance",
+        "baseline testing"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "AL interface improvements",
+      "description": "AL language and Visual Studio Code development environment have received multiple improvements. Interface improvements make building extensible solutions easier.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1441.4,
+      "t_end": 1461.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "al language",
+        "interfaces",
+        "development"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Query object save as JSON",
+      "description": "Support for save as JSON on the query object has been added to AL language development environment.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1461.6,
+      "t_end": 1481.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "al language",
+        "query object",
+        "json"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Page extension settings modifications",
+      "description": "Capabilities to modify and update settings for page extensions allowing inserts, modifies, and deletes have been added to AL language.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1461.6,
+      "t_end": 1481.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "al language",
+        "page extensions",
+        "settings"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Code navigation with GitHub integration",
+      "description": "Consultants and power users can navigate from the Business Central UI to code behind pages. The flow can now open in Visual Studio Code to interact with GitHub repositories, ensuring code is current and safely saved.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1501.7,
+      "t_end": 1562.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "code navigation",
+        "github",
+        "debugging"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AI toolkit for copilot development",
+      "description": "AI toolkit is a development tool for partners and ISVs to design AI-infused scenarios in Business Central. It includes samples, code, and a prompt dialogue with built-in capabilities.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1579.2,
+      "t_end": 1599.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "ai toolkit",
+        "copilot",
+        "development"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Copilot actions on more pages",
+      "description": "Copilot actions are now available on many more pages, allowing developers to infuse them into other elements of Business Central.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1639.9,
+      "t_end": 1660.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "copilot",
+        "actions",
+        "pages"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Prompt dialogue error messages in UI",
+      "description": "The prompt dialogue can now surface messages and error messages from code directly into the UI of the prompt dialogue, eliminating annoying popups and providing a user-friendly experience.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1639.9,
+      "t_end": 1660.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "copilot",
+        "error handling",
+        "ui"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "AI usage telemetry for ISVs and partners",
+      "description": "Partners and ISVs can now emit and monitor telemetry for AI usage to understand how customers are using AI features in their solutions, with no customer data included.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1660.4,
+      "t_end": 1721.5,
+      "is_demoed": false,
+      "caveats": [
+        "no customer data emitted",
+        "pure metadata only"
+      ],
+      "tags": [
+        "telemetry",
+        "ai toolkit",
+        "analytics"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "AI testing toolkit for copilot solutions",
+      "description": "New testing tool for copilot builders to test AI features with test suites and data sets, designed to work with different prompts and verify expected outcomes.",
+      "status": "preview",
+      "status_evidence_t": 1803.7,
+      "status_evidence_quote": "so please take a look at the preview which we published at aka.ms BC ups",
+      "status_evidence_verified": true,
+      "t_start": 1741.5,
+      "t_end": 1823.8,
+      "is_demoed": false,
+      "caveats": [
+        "works in combination with Azure AI Studio"
+      ],
+      "tags": [
+        "testing",
+        "ai toolkit",
+        "copilot",
+        "preview"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Azure AI Studio integration for harm testing",
+      "description": "Integration with Azure AI Studio to test for harm and malicious intent in AI solutions, ensuring code and prompts are ready for unwanted input.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1783.1,
+      "t_end": 1823.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "testing",
+        "ai safety",
+        "azure ai studio"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Managed AI resources private preview",
+      "description": "ISVs and solution providers can use Microsoft-managed AI resources instead of bringing their own Azure AI subscriptions, eliminating the need to manage AI infrastructure at scale.",
+      "status": "preview",
+      "status_evidence_t": 1884.8,
+      "status_evidence_quote": "we are gradually coming to the place where we would like to expand this private preview into the public preview so there will definitely",
+      "status_evidence_verified": true,
+      "t_start": 1844,
+      "t_end": 1904.9,
+      "is_demoed": false,
+      "caveats": [
+        "currently private preview",
+        "planned expansion to public preview"
+      ],
+      "tags": [
+        "managed ai",
+        "azure",
+        "preview"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Scheduled client performance profiler",
+      "description": "Ability to schedule client performance profiler runs in the background to capture performance bottlenecks at specific times, available from the help and support page.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1959.4,
+      "t_end": 2019.7,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "performance",
+        "profiling",
+        "troubleshooting"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Modern search performance improvement",
+      "description": "New modern search provides significant performance improvements for searching items in list pages, drill downs, and lookups, especially for large datasets with hundreds of thousands of items.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2019.7,
+      "t_end": 2060.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "search",
+        "performance",
+        "inventory"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Job queue priority and execution order",
+      "description": "Job queue execution is now guaranteed to process jobs in first-in-first-out order, and priority can be assigned through job queue categories for higher priority jobs.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2060.2,
+      "t_end": 2100.7,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "job queue",
+        "priority",
+        "performance"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Warehouse ledger entry posting pattern refactor",
+      "description": "New pattern for posting to warehouse ledger entries that significantly reduces locking and increases concurrency, allowing much higher throughput in warehouse scenarios.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2100.7,
+      "t_end": 2141.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "warehouse",
+        "posting",
+        "concurrency",
+        "performance"
+      ],
+      "system": "warehouse"
+    },
+    {
+      "name": "Page scripting in pipelines",
+      "description": "Page scripting tool now supports running recorded user interface tests in CI/CD pipelines with recurrent scheduling, in addition to recording and replaying tests in the UI.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2176.6,
+      "t_end": 2218.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "page scripting",
+        "testing",
+        "pipelines",
+        "devops"
+      ],
+      "system": "development"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Analysis View",
+      "t": 228
+    },
+    {
+      "type": "other",
+      "name": "Customer page",
+      "t": 248
+    },
+    {
+      "type": "other",
+      "name": "Customer list",
+      "t": 248
+    },
+    {
+      "type": "other",
+      "name": "Item list",
+      "t": 248
+    },
+    {
+      "type": "other",
+      "name": "Dimensions",
+      "t": 444.8
+    },
+    {
+      "type": "other",
+      "name": "Unit of measure",
+      "t": 444.8
+    },
+    {
+      "type": "other",
+      "name": "Variance",
+      "t": 444.8
+    },
+    {
+      "type": "other",
+      "name": "Number series",
+      "t": 461.3
+    },
+    {
+      "type": "other",
+      "name": "query object",
+      "t": 1461.6
+    },
+    {
+      "type": "table",
+      "name": "Warehouse Ledger Entry",
+      "t": 2121
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Lilman",
+      "confidence": "medium"
+    },
+    {
+      "name": "Maya",
+      "confidence": "medium"
+    },
+    {
+      "name": "Yanik Bower",
+      "confidence": "high"
+    },
+    {
+      "name": "Dimitri JV",
+      "confidence": "medium"
+    },
+    {
+      "name": "Yanik",
+      "confidence": "high"
+    },
+    {
+      "name": "Dimitri",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 87,
+      "text": "we have accommodated this in this release so we will both have the short bsize one which will both go with detail what is",
+      "why_it_matters": "Indicates the release has been structured with both bite-sized and detailed video content to meet different learning preferences.",
+      "check": "exact"
+    },
+    {
+      "t": 187.9,
+      "text": "you can now start using co-pilot without having to set up anything that basically means it's default on",
+      "why_it_matters": "Shows copilot is now enabled by default, a major accessibility improvement for users.",
+      "check": "exact"
+    },
+    {
+      "t": 343.6,
+      "text": "adding 20 languages with this release it's now available in all these languages",
+      "why_it_matters": "Demonstrates significant multilingual expansion for copilot chat capabilities across the release.",
+      "check": "exact"
+    },
+    {
+      "t": 516.3,
+      "text": "subscription billing it's quite interesting I mean both you customers out there but also Partners listening in",
+      "why_it_matters": "Marks subscription billing as a new complete capability area rather than just a feature improvement.",
+      "check": "exact"
+    },
+    {
+      "t": 576.9,
+      "text": "it is expected that when you open business Central that you can see the generic like you know income what's my turnover what's my",
+      "why_it_matters": "Shows major expansion of out-of-box Power BI reporting with 70+ reports to meet user expectations.",
+      "check": "exact"
+    },
+    {
+      "t": 675.9,
+      "text": "we built a rich sustainability tracking module inside business Central with row center with scorecards with goals uh recording greenhouse gases both carbon credits",
+      "why_it_matters": "Indicates sustainability is now a core built-in module responding to regulatory requirements worldwide.",
+      "check": "exact"
+    },
+    {
+      "t": 796.4,
+      "text": "we actually in this release making it much easier to work with them embedded inside business Central so you don't in many cases need",
+      "why_it_matters": "Demonstrates a key usability improvement where Power BI reports are now embedded directly in Business Central, reducing the need to switch applications.",
+      "check": "exact"
+    },
+    {
+      "t": 877.5,
+      "text": "it's in preview uh right now in this month it will come out uh in next month",
+      "why_it_matters": "Establishes modern search is currently in preview and scheduled for general availability in the next month.",
+      "check": "exact"
+    },
+    {
+      "t": 877.5,
+      "text": "search it's in preview uh right now in this month it will come out uh in next month but that's basically the possibility to",
+      "why_it_matters": "Clarifies the status and timeline of the modern search feature, indicating it is in preview but will be released next month.",
+      "check": "exact"
+    },
+    {
+      "t": 978.9,
+      "text": "there's are actually 156 Community uh contribut tions in this release so thank you again to everybody out there that has contributed through GitHub",
+      "why_it_matters": "Quantifies the community contribution effort in this release, demonstrating strong open-source engagement and ecosystem participation.",
+      "check": "exact"
+    },
+    {
+      "t": 1079.3,
+      "text": "this capability is coming out in preview and what is it this is ability for the administrators to postpone the updates to for a",
+      "why_it_matters": "Announces the new flexible update management feature in preview status, which addresses a major customer need for update scheduling flexibility.",
+      "check": "exact"
+    },
+    {
+      "t": 1099.5,
+      "text": "you can see that it goes from 60 days to 5 months this is how long you can uh keep working on the on",
+      "why_it_matters": "Provides the concrete metric of the flexible update management extension from 60 days to 5 months, showing significant improvement in scheduling flexibility.",
+      "check": "exact"
+    },
+    {
+      "t": 1220.4,
+      "text": "you can assign the partner of record the delegated admin to a specific environment and they will only have access to that specific environment",
+      "why_it_matters": "Describes a new capability for environment-level partner access control, addressing security concerns for multi-environment customer scenarios.",
+      "check": "snapped"
+    },
+    {
+      "t": 1319.4,
+      "text": "we also added a fantastic capability for you to easily test your Solutions uh for compatibility with all of the isv apps which you",
+      "why_it_matters": "Highlights a new AL-Go feature that enables ISV app compatibility testing, reducing risk for developers working with multiple extensions.",
+      "check": "exact"
+    },
+    {
+      "t": 1501.7,
+      "text": "we wanted to make it much easier for you to navigate from the beautiful fantastic AI uh sorry AI as well and UI of",
+      "why_it_matters": "Describes the code navigation feature for consultants and power users, bridging the gap between UI and underlying implementation for troubleshooting and learning.",
+      "check": "exact"
+    },
+    {
+      "t": 1579.2,
+      "text": "Microsoft uh is not the only one who is excited which is excited about AI all of you Partners jumped in and wanted to",
+      "why_it_matters": "Explains the motivation for the AI Toolkit - partners were already building AI solutions and needed tools to do so effectively.",
+      "check": "exact"
+    },
+    {
+      "t": 1681,
+      "text": "there's absolutely no customer data emitted with this Telemetry so it is a pure metadata uh pure knowledge about you know which actions were",
+      "why_it_matters": "Critical privacy statement about AI telemetry - reassures ISVs and customers that no sensitive data is shared.",
+      "check": "exact"
+    },
+    {
+      "t": 1803.7,
+      "text": "please take a look at the preview which we published at aka.ms BC ups",
+      "why_it_matters": "Indicates the AI testing toolkit is in preview and provides access path for developers to try it.",
+      "check": "exact"
+    },
+    {
+      "t": 1884.8,
+      "text": "we are gradually coming to the place where we would like to expand this private preview into the public preview",
+      "why_it_matters": "Signals planned progression of managed AI resources from private to public preview status.",
+      "check": "exact"
+    },
+    {
+      "t": 2040,
+      "text": "many of you are working with hundreds of thousands of items in your inventory and search was not performing uh in those circumstances",
+      "why_it_matters": "Validates the performance problem the modern search feature addresses for large-scale deployments.",
+      "check": "exact"
+    },
+    {
+      "t": 2080.3,
+      "text": "the first job that comes in that is the job that is going to be uh processed the moment that the service has resources",
+      "why_it_matters": "Clarifies the new FIFO guarantee for job queue execution in this release.",
+      "check": "exact"
+    },
+    {
+      "t": 2100.7,
+      "text": "we refactored the process of posting into warehouse ledger entry which is an amazing story",
+      "why_it_matters": "Describes significant concurrency improvement in warehouse operations through new posting pattern.",
+      "check": "fuzzy"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 877.5,
+      "kind": "preview",
+      "text": "search it's in preview uh right now in this month it will come out uh in next month"
+    },
+    {
+      "t": 1079.3,
+      "kind": "preview",
+      "text": "this capability is coming out in preview"
+    },
+    {
+      "t": 1119.8,
+      "kind": "subject-to-change",
+      "text": "we still encourage many of you to and all of you to keep latest to make sure that your Solutions are easily updatable"
+    },
+    {
+      "t": 1803.7,
+      "kind": "preview",
+      "text": "please take a look at the preview which we published at aka.ms BC ups"
+    },
+    {
+      "t": 1884.8,
+      "kind": "coming-later",
+      "text": "we are gradually coming to the place where we would like to expand this private preview into the public preview so there will definitely be a further announcements on this topic"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 22,
+    "quotes_dropped": 0,
+    "evidence_verified": 5,
+    "evidence_unverified": 38
+  },
+  "windows": 3,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.036788
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.040981
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.028801
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.0922251
+    }
+  ]
+}

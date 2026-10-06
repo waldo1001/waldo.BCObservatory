@@ -1,0 +1,58 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/warehouse-how-to-cross-dock-items.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-cross-dock-items",
+  "title": "Cross-Dock Items",
+  "blob": "2a1fb0ec64fdab5d4adacc0248dd58df9abaeeec",
+  "summary": "Cross-docking items are received and shipped without full storage, using cross-dock bins and zones. The feature automatically picks cross-docked items first and calculates quantities for optimal warehouse efficiency.",
+  "systems": [
+    "warehouse",
+    "inventory",
+    "manufacturing"
+  ],
+  "topics": [
+    "cross-docking",
+    "bins",
+    "zones",
+    "put-away",
+    "receiving",
+    "picking",
+    "production"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Warehouse Receipts"
+    },
+    {
+      "type": "page",
+      "name": "Cross-Dock Opportunities"
+    },
+    {
+      "type": "page",
+      "name": "Location Card"
+    },
+    {
+      "type": "page",
+      "name": "Stockkeeping Unit Card"
+    }
+  ],
+  "features": [
+    "Use Cross-Docking",
+    "Cross-Dock Bin Code",
+    "Calculate Cross-Dock",
+    "Cross-dock zones",
+    "Cross-Dock Due Date Calc.",
+    "Qty. to Cross-Dock"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00481,
+      "pages_in_call": 7
+    }
+  ]
+}

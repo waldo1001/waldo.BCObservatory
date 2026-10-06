@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-assign-default-bins-to-items",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "d9a4e16c24b4ac8942d7e7f573a6a97739e59b9f",
       "words": 309,
       "forms": 3
+    },
+    "extracted": {
+      "at": "2026-10-06T19:11:50.298Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.00481
+    },
+    "summarized": {
+      "at": "2026-10-06T19:11:52.974Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:11:52.976Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:11:52.977Z",
+      "page": false
     }
   },
   "input_hash": "d9a4e16c24b4ac8942d7e7f573a6a97739e59b9f",
@@ -51,5 +70,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d9a4e16c24b4ac8942d7e7f573a6a97739e59b9f"
+  "output_hash": "e86e0b48706180bf41e968b95439b50aa4391f8e27875672829b2ebe583c5e41"
 }

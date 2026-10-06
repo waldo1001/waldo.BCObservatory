@@ -1,0 +1,60 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/walkthrough-receiving-and-putting-away-in-basic-warehousing.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/walkthrough-receiving-and-putting-away-in-basic-warehousing",
+  "title": "Walkthrough - Receive and put away in basic warehouse configurations",
+  "blob": "42fcd58b592e8d179bcfd106e506a43f0a8a51e4",
+  "summary": "Walkthrough for basic warehouse configurations demonstrating receiving and putting away items using inventory put-away documents with bin handling.",
+  "systems": [
+    "warehouse",
+    "inventory"
+  ],
+  "topics": [
+    "inventory put-away",
+    "basic warehousing",
+    "receiving",
+    "bin setup",
+    "default bins",
+    "warehouse movement"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Locations"
+    },
+    {
+      "type": "page",
+      "name": "Bins"
+    },
+    {
+      "type": "page",
+      "name": "Bin Content"
+    },
+    {
+      "type": "page",
+      "name": "Purchase Orders"
+    },
+    {
+      "type": "page",
+      "name": "Inventory Put-aways"
+    }
+  ],
+  "features": [
+    "Inventory put-away",
+    "Default bins",
+    "Fixed bins",
+    "Bin content setup",
+    "Autofill quantity handling",
+    "Receive and put-away posting"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.010471,
+      "pages_in_call": 6
+    }
+  ]
+}

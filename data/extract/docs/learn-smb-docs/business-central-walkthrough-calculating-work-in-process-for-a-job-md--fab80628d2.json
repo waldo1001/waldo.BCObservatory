@@ -1,0 +1,72 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/walkthrough-calculating-work-in-process-for-a-job.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/walkthrough-calculating-work-in-process-for-a-job",
+  "title": "Walkthrough - Calculating work in process for a project",
+  "blob": "8173121894e31c5f32c12e627d96a834830152a9",
+  "summary": "Walkthrough for calculating work in process (WIP) for projects, covering WIP calculation methods, selecting which project tasks to include, posting to general ledger, and reversing WIP postings.",
+  "systems": [
+    "projects",
+    "finance",
+    "reporting"
+  ],
+  "topics": [
+    "wip calculation",
+    "project accounting",
+    "cost recognition",
+    "general ledger posting",
+    "project costing"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Project"
+    },
+    {
+      "type": "page",
+      "name": "Project Task Lines"
+    },
+    {
+      "type": "page",
+      "name": "Project WIP Cockpit"
+    },
+    {
+      "type": "page",
+      "name": "Project WIP Warnings"
+    },
+    {
+      "type": "page",
+      "name": "Project WIP Entries"
+    },
+    {
+      "type": "page",
+      "name": "Project Calculate WIP"
+    },
+    {
+      "type": "page",
+      "name": "Project Post WIP to G/L"
+    },
+    {
+      "type": "page",
+      "name": "Project WIP G/L Entries"
+    }
+  ],
+  "features": [
+    "WIP calculation methods",
+    "Cost Value method",
+    "WIP-Total field",
+    "WIP posting to G/L",
+    "WIP reversal",
+    "Recognition costs"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.010471,
+      "pages_in_call": 6
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "video_id": "hn92Al_x-s8",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 6.6,
+      "end": 19.5,
+      "text": "hi my name is Kenny paban and in this 2024 release Wave 2 video we're going to talk about report layout in general so life cycle of layouts"
+    },
+    {
+      "t": 19.5,
+      "end": 39.9,
+      "text": "Telemetry and a few more things like fonts so let's get started in this section we're going to talk about some new actions you got on the report layouts page get custom XML for word create a new empty layout and also how to update layouts with latest metadata"
+    },
+    {
+      "t": 39.9,
+      "end": 60,
+      "text": "so let me show you what this is about so in business Central I will just quickly navigate to report layout page here we go and you notice if you've been here before that there are a few new actions first"
+    },
+    {
+      "t": 60,
+      "end": 80.1,
+      "text": "first of all let's take the scenario where your customer comes with a Word document for how they would like their sales invoice to look but that word document doesn't have the word metadata with the with the report fields and so on so how can you uh how can you come"
+    },
+    {
+      "t": 80.1,
+      "end": 90.7,
+      "text": "about that let's uh just find sales invoice and uh this report 1306 if I"
+    },
+    {
+      "t": 90.7,
+      "end": 111.3,
+      "text": "pick on up here in the menu the export report schema this is a new action if I click this I will get an XML file downloaded now let's go and see how we can inject this metadata into the word document from our customer"
+    },
+    {
+      "t": 111.3,
+      "end": 131.4,
+      "text": "so here in word I let's just pretend that we use this template invoice template maybe they just like that invoice from office and they this they say this is kind of how we would like our invoice to look like and um then we would like to map our report fields"
+    },
+    {
+      "t": 131.4,
+      "end": 151.4,
+      "text": "to this layout the way to do that is open the developer menu and open the XML mapping Pane and you notice here that we don't have the report definition yet but we can now click add new part and uh get to the document"
+    },
+    {
+      "t": 151.4,
+      "end": 164.2,
+      "text": "that we downloaded let's just try downloads here and find that XML we just got from business Central and if we go back here now we have our standard sales"
+    },
+    {
+      "t": 164.2,
+      "end": 184.4,
+      "text": "invoice data set report metadata from business Central and we're ready to map this to um to the document so that was the first use case of getting the the XML word from business Central that you can start from scratch with a Word document and then upload that to business Central the second"
+    },
+    {
+      "t": 184.4,
+      "end": 205,
+      "text": "thing is what if you already have a report but you would like to have a new layout for that report in Word Excel and so on how do you do that well let's just pick the general journal test report here and if I choose new up here as the action"
+    },
+    {
+      "t": 205,
+      "end": 225.3,
+      "text": "I can uh maybe I can just give it a name let's say word layout and I would like to create a new word layout and I can I can now choose this option create a blank layout from the report object I could also make an Excel"
+    },
+    {
+      "t": 225.3,
+      "end": 241.6,
+      "text": "or ADL layout from this and click okay and now I have my word layout if I export this and open it open the word file I now have"
+    },
+    {
+      "t": 241.6,
+      "end": 261.6,
+      "text": "um if I go to developer tab and open XML pane I now have the general journal metadata and I can start writing my report let's say that you have an app that with some layout and you would like to create a new one uh this can get you started with an empty layout the last"
+    },
+    {
+      "t": 261.6,
+      "end": 281.8,
+      "text": "the third demo is about updating a layout with recent metadata so the scenario is that you have a layout in here but maybe someone added a report extension that adds more to the data set um how how do you then get your layout"
+    },
+    {
+      "t": 281.8,
+      "end": 302.2,
+      "text": "updated with the recent version of the metadata well there's a new action here that says uh update and Export layout where you simply choose this and now you get a copy of uh of this layout injected with the lay latest"
+    },
+    {
+      "t": 302.2,
+      "end": 313.3,
+      "text": "metadata here's a neat little trick we added to the Excel layout feature if you ever tried to look up things from uh the request"
+    },
+    {
+      "t": 313.3,
+      "end": 333.4,
+      "text": "metadata tab in uh in Excel you quickly get into writing formulas like this one xook up company name blah blah blah and no one loves writing these they're complicated so we tried to make this a little better or a little easier with what we call named formulas let"
+    },
+    {
+      "t": 333.4,
+      "end": 353.4,
+      "text": "me show you how to do that all right so here in business Central I will choose Excel reports and just pick any of the preview reports that we added in the last wave maybe it's a customer top 10 and I will say which customer I want maybe I I I"
+    },
+    {
+      "t": 353.4,
+      "end": 362.5,
+      "text": "just want all my customers that's fine download it and here we get it in Excel I can open it up"
+    },
+    {
+      "t": 362.5,
+      "end": 381.6,
+      "text": "I will need to enable the content because we use power query right so here you can see I have my top customer list this is just a title but if you look up here you can see that the Kronos USA is a very complicated vook up"
+    },
+    {
+      "t": 381.6,
+      "end": 394.3,
+      "text": "formula um so Kronos USA is just hiding down here if I unhide all my worksheets and just pick aggregated"
+    },
+    {
+      "t": 394.3,
+      "end": 414.6,
+      "text": "metadata you can see the company name is here on the requests property down here Kronos us us this is these are all the values that came when I ran the report and um I would just like to get to this but I don't like to write a v look up or X look up like that so instead"
+    },
+    {
+      "t": 414.6,
+      "end": 429.7,
+      "text": "I can simply say equals and then I can say report request page and I can say company name there you go and now you have krona USA as report request."
+    },
+    {
+      "t": 429.7,
+      "end": 450.2,
+      "text": "compan name so hopefully this will save you a lot of time when you write your reports anything you need to pick from the aggregated metadata worksheet is something you can simply use with these named formulas where do they hide if I go to formulas and go to name manager you can see all of them here"
+    },
+    {
+      "t": 450.2,
+      "end": 462.6,
+      "text": "that uh all these named formulas are just synonyms for these complicated X lookups so that's what named formulas is all"
+    },
+    {
+      "t": 462.6,
+      "end": 482.6,
+      "text": "about in this release wave we also added life cycle Telemetry for report layout changes on the report layouts page so you now get Telemetry when a user changed the default layout if they change layout properties if they export"
+    },
+    {
+      "t": 482.6,
+      "end": 499.8,
+      "text": "replace or delete a layout and you can see all the event IDs in provines here if you want to do your own kql samples or try to analyze this Telemetry this URL here"
+    },
+    {
+      "t": 499.8,
+      "end": 513.1,
+      "text": "aka.ms slbc Telemetry samples is where we normally have kql samples on our BCT Tech repo and there's a new s Le file here report layout life cycle."
+    },
+    {
+      "t": 513.1,
+      "end": 533.2,
+      "text": "kql so you can try out this Telemetry yourself this silly last section with the title all the little things we now did to make General reporting easier I'll just mention three things you can set the report file name within an event if you use vs code"
+    },
+    {
+      "t": 533.2,
+      "end": 553.4,
+      "text": "there's a new snippet and then we have some methods that are going to be obsoleted and I'll show you talk about that so in case you want to set the file name for reports that are downloaded there's a new event in town called onet file name and you simply uh subscribe to"
+    },
+    {
+      "t": 553.4,
+      "end": 573.5,
+      "text": "that and and then you can set uh the file name um in your in your um event subscriber the second thing is if you use vs code there's a new snippet for data link item called or data item so you just say t"
+    },
+    {
+      "t": 573.5,
+      "end": 578.9,
+      "text": "data item or and then you get it"
+    },
+    {
+      "t": 578.9,
+      "end": 599.4,
+      "text": "there and the last is that we're going to deprecate report. word layout rdlc layout and Excel layout because these don't make any sense anymore in a world where a report can have multiple layouts so if you rely on these you should move"
+    },
+    {
+      "t": 599.4,
+      "end": 619.6,
+      "text": "your layout to the rendering section in the report object um and then yeah because you simply can't rely on a report having only one of each of these all right that's all we have about document layouts and Reporting in general but if you're more interested"
+    },
+    {
+      "t": 619.6,
+      "end": 637,
+      "text": "in diving into the new cool things with with word check out this video where we'll go much more into details about the new word adding and all the new things you can do if you lay out your documents with word thank you"
+    }
+  ],
+  "markers": [
+    {
+      "t": 0.98,
+      "text": "[Music]"
+    },
+    {
+      "t": 6.63,
+      "text": "[Music]"
+    },
+    {
+      "t": 6.64,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 1462
+}

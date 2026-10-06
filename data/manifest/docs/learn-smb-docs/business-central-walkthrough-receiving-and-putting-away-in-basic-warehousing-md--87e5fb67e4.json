@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/walkthrough-receiving-and-putting-away-in-basic-warehousing",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,13 @@
       "blob": "42fcd58b592e8d179bcfd106e506a43f0a8a51e4",
       "words": 909,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:12:06.041Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 5,
+      "cost_usd": 0.010471
     }
   },
   "input_hash": "42fcd58b592e8d179bcfd106e506a43f0a8a51e4",
@@ -35,5 +42,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "42fcd58b592e8d179bcfd106e506a43f0a8a51e4"
+  "output_hash": "97ff56d1a42d392cb491d28c912f0dc2b1fd6fad33a15627d48d658676bd200a"
 }

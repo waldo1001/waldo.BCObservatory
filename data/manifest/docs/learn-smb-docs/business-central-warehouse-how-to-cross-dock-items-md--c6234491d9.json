@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-cross-dock-items",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "2a1fb0ec64fdab5d4adacc0248dd58df9abaeeec",
       "words": 1604,
       "forms": 5
+    },
+    "extracted": {
+      "at": "2026-10-06T19:11:50.301Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 4,
+      "cost_usd": 0.00481
+    },
+    "summarized": {
+      "at": "2026-10-06T19:11:52.984Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:11:52.985Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:11:52.985Z",
+      "page": false
     }
   },
   "input_hash": "2a1fb0ec64fdab5d4adacc0248dd58df9abaeeec",
@@ -61,5 +80,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "2a1fb0ec64fdab5d4adacc0248dd58df9abaeeec"
+  "output_hash": "c6edeebfdc3f31d8dfdf7ae396cf63e5175c7210d2892d7ceba547d6759fdd8b"
 }

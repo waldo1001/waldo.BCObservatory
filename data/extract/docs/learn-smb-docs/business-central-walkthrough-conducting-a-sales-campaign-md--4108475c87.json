@@ -1,0 +1,77 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/walkthrough-conducting-a-sales-campaign.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/walkthrough-conducting-a-sales-campaign",
+  "title": "Walkthrough conducting a sales campaign",
+  "blob": "125d2c6851e8a3765a75c350df180456f0194824",
+  "summary": "Walkthrough for planning and executing a sales and marketing campaign, including setting up campaigns, creating contact segments with filters, managing mailing interactions, and registering campaign responses.",
+  "systems": [
+    "crm",
+    "sales"
+  ],
+  "topics": [
+    "campaign management",
+    "segment creation",
+    "contact filtering",
+    "marketing automation",
+    "campaign responses",
+    "data mining"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Campaigns"
+    },
+    {
+      "type": "page",
+      "name": "Segments"
+    },
+    {
+      "type": "page",
+      "name": "Add Contacts"
+    },
+    {
+      "type": "page",
+      "name": "Save Segment Criteria"
+    },
+    {
+      "type": "page",
+      "name": "Remove Contacts – Reduce"
+    },
+    {
+      "type": "page",
+      "name": "Segment Interaction Languages"
+    },
+    {
+      "type": "page",
+      "name": "Log Segment"
+    },
+    {
+      "type": "page",
+      "name": "Logged Segments"
+    },
+    {
+      "type": "page",
+      "name": "Interaction Templates"
+    }
+  ],
+  "features": [
+    "Campaign setup",
+    "Segment filtering by job responsibility",
+    "Contact reduction",
+    "Correspondence templates",
+    "Email and hard copy delivery",
+    "Interaction logging",
+    "Campaign response tracking"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.010471,
+      "pages_in_call": 6
+    }
+  ]
+}

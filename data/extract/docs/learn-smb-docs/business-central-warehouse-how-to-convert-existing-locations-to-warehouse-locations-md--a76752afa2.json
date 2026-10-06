@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/warehouse-how-to-convert-existing-locations-to-warehouse-locations.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-convert-existing-locations-to-warehouse-locations",
+  "title": "Convert Existing Locations to Warehouse Locations",
+  "blob": "47dfb44afab952ab1d4e4ae0578dca2d3c154bfe",
+  "summary": "Converting existing inventory locations to warehouse locations enables zones and bins, with a batch job creating initial warehouse entries for items in inventory. Requires clearing negative inventory before conversion.",
+  "systems": [
+    "warehouse",
+    "inventory"
+  ],
+  "topics": [
+    "warehouse conversion",
+    "location setup",
+    "adjustment bins",
+    "zones",
+    "bins",
+    "warehouse entries"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Create Warehouse Location"
+    }
+  ],
+  "features": [
+    "Create Warehouse Location batch job",
+    "Adjustment Bin Code",
+    "Warehouse physical inventory",
+    "Warehouse adjustment bin",
+    "Warehouse entries"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00481,
+      "pages_in_call": 7
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/warehouse-how-receive-items",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "7b096e2a19ae93838c6ae43c7eb73272c9f8cfec",
       "words": 1070,
       "forms": 8
+    },
+    "extracted": {
+      "at": "2026-10-06T19:11:50.295Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 4,
+      "cost_usd": 0.00481
+    },
+    "summarized": {
+      "at": "2026-10-06T19:11:50.306Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:11:50.308Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:11:50.309Z",
+      "page": false
     }
   },
   "input_hash": "7b096e2a19ae93838c6ae43c7eb73272c9f8cfec",
@@ -76,5 +95,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7b096e2a19ae93838c6ae43c7eb73272c9f8cfec"
+  "output_hash": "933e67460ce96daa66d0ac9cba24ab0371f5f8f9e5265e18b4b17b333bb42f8f"
 }

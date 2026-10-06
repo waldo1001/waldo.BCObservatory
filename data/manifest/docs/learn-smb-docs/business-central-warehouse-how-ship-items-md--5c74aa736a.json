@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/warehouse-how-ship-items",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "3a68c20116e15080c8647c00d729235dfb574066",
       "words": 1371,
       "forms": 7
+    },
+    "extracted": {
+      "at": "2026-10-06T19:11:50.297Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 5,
+      "cost_usd": 0.00481
+    },
+    "summarized": {
+      "at": "2026-10-06T19:11:52.969Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:11:52.970Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:11:52.972Z",
+      "page": false
     }
   },
   "input_hash": "3a68c20116e15080c8647c00d729235dfb574066",
@@ -71,5 +90,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "3a68c20116e15080c8647c00d729235dfb574066"
+  "output_hash": "3d4e4c0a48a8f635695e9fae549882b5e0982646b602954091e7c3e805d16228"
 }

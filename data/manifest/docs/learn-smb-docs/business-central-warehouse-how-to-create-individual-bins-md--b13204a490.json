@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-create-individual-bins",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "45063818bb8948b0e0cd513d045afa8c9e3f9c8f",
       "words": 854,
       "forms": 6
+    },
+    "extracted": {
+      "at": "2026-10-06T19:11:50.300Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 4,
+      "cost_usd": 0.00481
+    },
+    "summarized": {
+      "at": "2026-10-06T19:11:52.981Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:11:52.982Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:11:52.983Z",
+      "page": false
     }
   },
   "input_hash": "45063818bb8948b0e0cd513d045afa8c9e3f9c8f",
@@ -66,5 +85,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "45063818bb8948b0e0cd513d045afa8c9e3f9c8f"
+  "output_hash": "349f4e93003069ef225faca4cf57cdea492f47e712f93a001c8f4b9dafaaac69"
 }

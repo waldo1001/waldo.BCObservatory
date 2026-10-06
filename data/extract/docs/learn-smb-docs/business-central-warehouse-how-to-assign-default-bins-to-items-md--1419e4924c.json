@@ -1,0 +1,45 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/warehouse-how-to-assign-default-bins-to-items.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-assign-default-bins-to-items",
+  "title": "Assign Default Bins to Items",
+  "blob": "d9a4e16c24b4ac8942d7e7f573a6a97739e59b9f",
+  "summary": "Assigning default bins to items streamlines transactions by suggesting default bins during shipments, receipts, and internal movements. Default bins are created and managed on the Bin Content page.",
+  "systems": [
+    "warehouse",
+    "inventory"
+  ],
+  "topics": [
+    "bins",
+    "default bins",
+    "bin content",
+    "item setup",
+    "warehouse configuration"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Bin Content Creation Worksheet"
+    },
+    {
+      "type": "page",
+      "name": "Bin Contents"
+    }
+  ],
+  "features": [
+    "Default bins",
+    "Bin Content Creation Worksheet",
+    "Default Bin checkbox",
+    "Bin assignment automation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00481,
+      "pages_in_call": 7
+    }
+  ]
+}

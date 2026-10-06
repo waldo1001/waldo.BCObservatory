@@ -1,0 +1,96 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/walkthrough-selling-assembling-and-shipping-kits.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/walkthrough-selling-assembling-and-shipping-kits",
+  "title": "Selling, Assembling, and Shipping Kits",
+  "blob": "b1681080e25599b9dc25cff8958c294013877477",
+  "summary": "This walkthrough demonstrates selling, assembling, and shipping kits in advanced warehouse configurations, covering assemble-to-order and assemble-to-stock scenarios, component tracking, and warehouse shipment posting.",
+  "systems": [
+    "assembly",
+    "sales",
+    "warehouse"
+  ],
+  "topics": [
+    "assemble-to-order",
+    "assemble-to-stock",
+    "assembly items",
+    "kits",
+    "warehouse shipment",
+    "inventory",
+    "component management"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Warehouse Shipment"
+    },
+    {
+      "type": "page",
+      "name": "Assembly Order"
+    },
+    {
+      "type": "page",
+      "name": "Sales Order"
+    },
+    {
+      "type": "page",
+      "name": "Warehouse Employees"
+    },
+    {
+      "type": "page",
+      "name": "Locations"
+    },
+    {
+      "type": "page",
+      "name": "Manufacturing Setup"
+    },
+    {
+      "type": "page",
+      "name": "Items"
+    },
+    {
+      "type": "page",
+      "name": "Assembly BOM"
+    },
+    {
+      "type": "page",
+      "name": "Assemble-to-Order Lines"
+    },
+    {
+      "type": "page",
+      "name": "Planning Worksheet"
+    },
+    {
+      "type": "page",
+      "name": "Picks"
+    },
+    {
+      "type": "page",
+      "name": "Whse. Item Journals"
+    },
+    {
+      "type": "page",
+      "name": "Item Journal"
+    }
+  ],
+  "features": [
+    "assemble-to-order",
+    "assemble-to-stock",
+    "assembly BOM",
+    "component availability",
+    "warehouse shipment posting",
+    "inventory picks",
+    "advanced warehouse configuration",
+    "sales customization"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.015488,
+      "pages_in_call": 2
+    }
+  ]
+}

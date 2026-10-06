@@ -1,0 +1,86 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/walkthrough-tracing-serial-lot-numbers.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/walkthrough-tracing-serial-lot-numbers",
+  "title": "Walkthrough - Tracing Serial-Lot Numbers",
+  "blob": "3fed9a623300b4ef637bc86ca896d81c5d447939",
+  "summary": "This walkthrough demonstrates how to trace serial and lot numbers through purchase, production, and sales transactions to identify defective items and manage recalls using the Item Tracing and Find Entries features.",
+  "systems": [
+    "inventory",
+    "sales",
+    "purchasing"
+  ],
+  "topics": [
+    "item tracing",
+    "serial numbers",
+    "lot numbers",
+    "defect management",
+    "item tracking",
+    "traceability"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Item Tracing"
+    },
+    {
+      "type": "page",
+      "name": "Items"
+    },
+    {
+      "type": "page",
+      "name": "Item Units of Measure"
+    },
+    {
+      "type": "page",
+      "name": "Purchase Orders"
+    },
+    {
+      "type": "page",
+      "name": "Item Tracking Lines"
+    },
+    {
+      "type": "page",
+      "name": "Released Prod. Orders"
+    },
+    {
+      "type": "page",
+      "name": "Production Journal"
+    },
+    {
+      "type": "page",
+      "name": "Sales Orders"
+    },
+    {
+      "type": "page",
+      "name": "Find entries"
+    },
+    {
+      "type": "page",
+      "name": "Production BOM List"
+    },
+    {
+      "type": "page",
+      "name": "Production BOM"
+    }
+  ],
+  "features": [
+    "item tracing",
+    "serial number tracking",
+    "lot number tracking",
+    "usage to origin tracing",
+    "origin to usage tracing",
+    "find entries",
+    "defect tracking"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.015488,
+      "pages_in_call": 2
+    }
+  ]
+}

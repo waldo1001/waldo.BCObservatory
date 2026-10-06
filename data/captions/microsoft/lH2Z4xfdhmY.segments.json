@@ -1,0 +1,198 @@
+{
+  "video_id": "lH2Z4xfdhmY",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 6.2,
+      "end": 21.4,
+      "text": "welcome to this launch event session on what's new in data search Improvement particularly targeting developers my name is Jens M Peterson and I'm an engineering manager in the business Central"
+    },
+    {
+      "t": 21.4,
+      "end": 41.4,
+      "text": "team first what is modern search well in this release we have added a method to search for all words rather than any substring in a word it's a significantly faster way of searching and it also tends to match more what"
+    },
+    {
+      "t": 41.4,
+      "end": 52.8,
+      "text": "you've gotten to expect from other search engines and this applies this new search mechanism applies to Page search lookup and companywide"
+    },
+    {
+      "t": 52.8,
+      "end": 72.8,
+      "text": "search the way you enable your data to be searched using modern search is that you use the new property optimized for text search equals true on your table Fields you can put it on your table fields or you"
+    },
+    {
+      "t": 72.8,
+      "end": 92.9,
+      "text": "can put it on your table extension Fields you would want to add this to the following types of fields the primary key Fields descriptive text fields that uniquely describes this item or other fields identifying the row which could"
+    },
+    {
+      "t": 92.9,
+      "end": 113,
+      "text": "be a name or something and generally you should add this to fields that the users want to find not to fields which where there are thousands of them or where it's a grouping mechanism so let's take a look at how this actually looks in the product first"
+    },
+    {
+      "t": 113,
+      "end": 123.4,
+      "text": "you may want to check that you actually have this feature enabled you do that in feature management"
+    },
+    {
+      "t": 123.8,
+      "end": 144.5,
+      "text": "and in here you can see this line use optimize text search in lists and in this case it is enabled all right so with this enable let's take a look at how it works so if I go to items and in this case I have filled up the database"
+    },
+    {
+      "t": 144.5,
+      "end": 157.7,
+      "text": "with half a million random items to actually see the performance difference between the two so if I look for beans"
+    },
+    {
+      "t": 157.7,
+      "end": 173.7,
+      "text": "roasted notice the speed and also note that the ordering of words doesn't matter so now it has found all the whole roasted beans or Colombia now if we were to do this or if I want to find for"
+    },
+    {
+      "t": 173.7,
+      "end": 184.5,
+      "text": "Brazil this is it it finds it now the user can switch between the two two types of search because you can enable Legacy"
+    },
+    {
+      "t": 184.5,
+      "end": 204.8,
+      "text": "search and now it actually takes a while because now it actually tries to search I just want to do that again and it actually doesn't find it in this case because there was a comma between beans and Brazil so in order to find it using Legacy search you would need to actually type the comma so there is"
+    },
+    {
+      "t": 204.8,
+      "end": 223.3,
+      "text": "a performance difference where I would expect users to feel this the most is in sales orders if I go down to a sales order down here and I now need to type in an item I'm just going to delete the existing"
+    },
+    {
+      "t": 223.3,
+      "end": 243.4,
+      "text": "item and first I'm going to try using Legacy search so now I'm going to type beans comma Brazil and you can see it takes a little while you actually get the spinning wheel you still have the spinning wheel and now it has found it now let's try the same thing with modern search I'm"
+    },
+    {
+      "t": 243.4,
+      "end": 263.5,
+      "text": "just going to delete this and now I'm going to type again beans Brazil and you can see that it's a lot faster now you might have some users who are used to typing in parts of an ID I know"
+    },
+    {
+      "t": 263.5,
+      "end": 283.6,
+      "text": "that in this data set there is a button which is sp- bomb 1303 and there might be users that are used to just typing 1303 so we've actually made it possible to switch directly by using the star star 1303 this will search"
+    },
+    {
+      "t": 283.6,
+      "end": 301.2,
+      "text": "in the Legacy way so it is a bit slower but it will actually find the SP bomb 1303 a third place where you can see modern search in action is when you search company data if I go for B means"
+    },
+    {
+      "t": 301.2,
+      "end": 312.8,
+      "text": "Brazil and I search company data it has already found these items because it uses the new modern search but also"
+    },
+    {
+      "t": 312.8,
+      "end": 333.2,
+      "text": "here you can type a star to actually get the old behavior and I need to start the search and that takes a little longer and it actually also found some customers with 1303 the modern search is enabled on in Page search when the table has optimized"
+    },
+    {
+      "t": 333.2,
+      "end": 353.4,
+      "text": "for text search fields and the user can select the behavior using the drop-down or by typing star modern search also shows up in lookup if the table has optimized for teex search fields and the again the user can select and this time this time using"
+    },
+    {
+      "t": 353.4,
+      "end": 373.4,
+      "text": "the co wheel in the lookup page or by typing star and modern search is enabled in when you search in company data where it will use modern search for Fields with optimized for Tech search but if you include fields which are not part of the tech search"
+    },
+    {
+      "t": 373.4,
+      "end": 393.6,
+      "text": "index then you will still get the other behav the existing behavior and unfortunately also the existing performance again you can use the contain search by typing the star under the hood what happens is that the synchronization engine which updates the SQL schema"
+    },
+    {
+      "t": 393.6,
+      "end": 406.9,
+      "text": "will generate a full text search index and regenerated it whenever the list of indexed fields change it'll create one index per table with indexed"
+    },
+    {
+      "t": 406.9,
+      "end": 427,
+      "text": "fields we are creating this as a neutral language index meaning we only have the standard word breakers for instance space and dash so it is not language dependent if you want to know more about how full teex search works in general you can see the link"
+    },
+    {
+      "t": 427,
+      "end": 444.4,
+      "text": "here at the bottom which is a link to the documentation for full teex search in SQL now you might wonder why this is so much faster well the Legacy search does a case insensitive contain"
+    },
+    {
+      "t": 444.4,
+      "end": 464.5,
+      "text": "search so it basically makes it possible for SQL Server to use indexes so it always requires you to read the full table or the full index to find it and you will have seen this in Long running queries Telemetry where you see queries"
+    },
+    {
+      "t": 464.5,
+      "end": 485.3,
+      "text": "with collate statements which normally comes from the Page search functionality the modern search on the other hand Builds an index on every word and now you have an index lookup into those words and in general index lookups are just an order of magnitude"
+    },
+    {
+      "t": 485.3,
+      "end": 505.6,
+      "text": "faster now it's not only in the UI that you can make use of modern search you can also use it on the record API it is built into the set filter method so you can now use the new operator and and for calling set filter there is an example down"
+    },
+    {
+      "t": 505.6,
+      "end": 522,
+      "text": "here field ref. set filter and and and string star it will find a matching word if you want to find a beginning of a word you add a wild card at the end the star which has been done here"
+    },
+    {
+      "t": 522,
+      "end": 536,
+      "text": "if the field you're searching is not one of those which have optimized for text search equals true then it'll revert back to the existing Behavior using case insensitive contain"
+    },
+    {
+      "t": 536,
+      "end": 556,
+      "text": "search which where you can see the Syntax for here here now if you want to see how this actually how this syntax actually looks let's take a look at the the product again in order to see the syntax of set filter you can make use of the page"
+    },
+    {
+      "t": 556,
+      "end": 568.1,
+      "text": "inspection pane over here you can see the page filters and you can see the filters that the UI actually applies when you use the Page search if I type"
+    },
+    {
+      "t": 568.1,
+      "end": 585.8,
+      "text": "beans here you can see over here that the filter term on the the number field and the description field is and and beans Star as we talked about before and if I do beans"
+    },
+    {
+      "t": 585.8,
+      "end": 601.8,
+      "text": "brail then you can now see the double end and then there's an end in between and the double end with both beans and Brazil so it can get a little involved but this is a good way to play around to actually see the actual"
+    },
+    {
+      "t": 601.8,
+      "end": 621.9,
+      "text": "syntax there are some considerations when you use the double and filter operator for using the text search first of all the syntax can be a little hard to grasp you saw the trick with using the page inspector to show the generated filters you can see samples of the code in the data search and"
+    },
+    {
+      "t": 621.9,
+      "end": 642.6,
+      "text": "table code unit the scenarios where you want to use this would be where you implement specific features for helping the user finding elements you would normally avoid using this for explicit business logic where you're better off using existing equals filters Etc"
+    },
+    {
+      "t": 642.6,
+      "end": 662.6,
+      "text": "also because the behavior here changes based on whether the user has enabled This Modern search and also on whether the field has been optimized for Tech search with that I hope you'll get a lot of fun out of the modern search"
+    },
+    {
+      "t": 662.6,
+      "end": 670,
+      "text": "and that your customers will be happy with the improved performance thank you"
+    }
+  ],
+  "markers": [],
+  "word_count": 1511
+}

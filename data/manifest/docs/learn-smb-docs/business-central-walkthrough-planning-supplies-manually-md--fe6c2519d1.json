@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/walkthrough-planning-supplies-manually",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,13 @@
       "blob": "accc500e0298b7a40fa2dffbd4ad597567bc00eb",
       "words": 2090,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:12:06.039Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 7,
+      "cost_usd": 0.010471
     }
   },
   "input_hash": "accc500e0298b7a40fa2dffbd4ad597567bc00eb",
@@ -35,5 +42,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "accc500e0298b7a40fa2dffbd4ad597567bc00eb"
+  "output_hash": "c5438ed6fff15456144bbd291a19ff675bb0aa5d837ddf2bd672f87c881684e3"
 }

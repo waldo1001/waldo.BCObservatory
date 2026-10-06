@@ -1,0 +1,69 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/walkthrough-planning-supplies-manually.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/walkthrough-planning-supplies-manually",
+  "title": "Walkthrough - Planning Supplies Manually",
+  "blob": "accc500e0298b7a40fa2dffbd4ad597567bc00eb",
+  "summary": "Walkthrough for manual supply planning using the Order Planning page to create purchase orders for components, transfer orders for sales demand, and production orders for multilevel items.",
+  "systems": [
+    "manufacturing",
+    "purchasing",
+    "sales"
+  ],
+  "topics": [
+    "manual planning",
+    "order planning",
+    "purchase orders",
+    "transfer orders",
+    "production orders",
+    "multilevel manufacturing"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Order Planning"
+    },
+    {
+      "type": "page",
+      "name": "Make Supply Orders"
+    },
+    {
+      "type": "page",
+      "name": "Item Vendor Catalog"
+    },
+    {
+      "type": "page",
+      "name": "Get Alternative Supply"
+    },
+    {
+      "type": "page",
+      "name": "Planning Components"
+    },
+    {
+      "type": "page",
+      "name": "Prod. Order Components"
+    },
+    {
+      "type": "page",
+      "name": "Firm Planned Prod. Orders"
+    }
+  ],
+  "features": [
+    "Order Planning page",
+    "Manual order creation",
+    "Replenishment system selection",
+    "Component planning",
+    "Multilevel production",
+    "Plan calculation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.010471,
+      "pages_in_call": 6
+    }
+  ]
+}
