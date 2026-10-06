@@ -1,0 +1,12 @@
+node_modules/
+site/dist/
+site/.astro/
+.env
+.env.*
+*.log
+.DS_Store
+tmp/
+# never in the public repo: the vault is a separate private repository
+vault/
+# local runtime caches (git mirrors, yt-dlp archive, LLM cache mirror live outside the repo on the Mini)
+.cache/

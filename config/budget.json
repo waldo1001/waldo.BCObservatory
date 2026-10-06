@@ -1,0 +1,18 @@
+{
+  "$comment": "Nightly budget. Usage thresholds mirror Jarvis (same subscription). Quotas are items per run; llm_calls_max caps a run. Headroom scaling: >=40% full, >=20% half, <10% facts-only.",
+  "window": { "start_local": "01:00", "hard_stop_local": "06:35", "timezone": "Europe/Brussels" },
+  "usage_guard": { "max_5h_pct": 60, "max_7d_pct": 70, "recheck_every_llm_calls": 25, "on_unavailable": "reduced" },
+  "quotas": {
+    "captions": 40,
+    "video_extract": 25,
+    "docs": 60,
+    "posts": 40,
+    "guidelines": 20,
+    "code_jobs": 1,
+    "hub_refresh": 15,
+    "opus_reviews": 10,
+    "llm_calls_max": 450
+  },
+  "retry": { "max_attempts": 5, "backoff_hours_base": 2 },
+  "yt_dlp": { "sleep_seconds_min": 5, "sleep_seconds_max": 10 }
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://waldo1001.github.io/waldo.BCObservatory/schemas/al-diff.json",
+  "title": "Structured diff between two code snapshots (al-diff@1)",
+  "type": "object",
+  "required": ["schema", "kind", "from", "to", "summary", "objects"],
+  "properties": {
+    "schema": { "const": "al-diff@1" },
+    "kind": { "enum": ["version", "country"] },
+    "from": { "$ref": "#/$defs/ref" }, "to": { "$ref": "#/$defs/ref" },
+    "summary": { "type": "object" },
+    "objects": { "type": "array", "items": { "type": "object", "required": ["key", "name", "change"], "properties": {
+      "key": { "type": "string", "description": "<type>/<id or name>" }, "name": { "type": "string" },
+      "change": { "enum": ["added", "removed", "changed", "replaced"] },
+      "properties": { "type": "array" }, "fields": { "type": "array" }, "procedures": { "type": "array" }, "events": { "type": "array" }, "keys": { "type": "array" },
+      "obsolete": { "type": "object" }
+    } } }
+  },
+  "$defs": { "ref": { "type": "object", "required": ["version", "country"], "properties": { "version": { "type": "string" }, "country": { "type": "string" }, "commit": { "type": ["string", "null"] } } } }
+}

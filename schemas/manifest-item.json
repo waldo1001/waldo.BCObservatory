@@ -1,0 +1,37 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://waldo1001.github.io/waldo.BCObservatory/schemas/manifest-item.json",
+  "title": "Pipeline manifest item (one file per source item)",
+  "type": "object",
+  "required": ["id", "pillar", "source", "tier", "title", "url", "state", "stages", "attempts"],
+  "additionalProperties": false,
+  "properties": {
+    "id": { "type": "string", "description": "<pillar>/<source>/<itemKey>" },
+    "pillar": { "enum": ["docs", "code", "guidelines", "video", "blog", "roadmap"] },
+    "source": { "type": "string" },
+    "tier": { "enum": ["official", "community"] },
+    "title": { "type": "string" },
+    "url": { "type": "string" },
+    "published_at": { "type": ["string", "null"], "format": "date-time" },
+    "language": { "type": "string" },
+    "state": { "enum": ["discovered", "fetched", "captioned", "extracted", "summarized", "linked", "reviewed", "published", "failed", "skipped", "stale"] },
+    "stages": {
+      "type": "object", "additionalProperties": false,
+      "patternProperties": {
+        "^(discovered|fetched|captioned|extracted|summarized|linked|reviewed|published)$": {
+          "type": "object", "required": ["at"], "additionalProperties": true,
+          "properties": { "at": { "type": "string", "format": "date-time" } }
+        }
+      }
+    },
+    "input_hash": { "type": ["string", "null"] },
+    "output_hash": { "type": ["string", "null"] },
+    "attempts": { "type": "integer", "minimum": 0 },
+    "last_error": { "type": ["string", "null"] },
+    "retry_after": { "type": ["string", "null"], "format": "date-time" },
+    "flags": { "type": "array", "items": { "type": "string" } },
+    "review": { "type": "object", "properties": { "state": { "enum": ["unreviewed", "reviewed", "flagged"] }, "by": { "type": ["string", "null"] }, "at": { "type": ["string", "null"] } } },
+    "skip": { "type": ["string", "null"], "description": "horizon|policy|no-captions|..." },
+    "meta": { "type": "object", "description": "pillar-specific discovery data (video duration, doc paths, commit, ...)" }
+  }
+}

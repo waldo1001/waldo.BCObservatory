@@ -1,0 +1,12 @@
+{
+  "$comment": "Country layers are discovered from BCApps src/Layers/* (29+) and from StefanMaron country branches (<29). narrative_priority decides where Sonnet/Opus spend tokens first; everything is extracted deterministically.",
+  "w1": "W1",
+  "narrative_priority": ["BE", "NL"],
+  "known": ["AT", "AU", "BE", "CA", "CH", "CZ", "DE", "DK", "ES", "FI", "FR", "GB", "IN", "IS", "IT", "MX", "NL", "NO", "NZ", "SE", "US"],
+  "learn_local_functionality": {
+    "AT": "Austria", "AU": "Australia", "BE": "Belgium", "CA": "Canada", "CH": "Switzerland", "CZ": "Czech",
+    "DE": "Germany", "DK": "Denmark", "ES": "Spain", "FI": "Finland", "FR": "France", "GB": "UnitedKingdom",
+    "IN": "India", "IS": "Iceland", "IT": "Italy", "MX": "Mexico", "NL": "Netherlands", "NO": "Norway",
+    "NZ": "NewZealand", "SE": "Sweden", "US": "UnitedStates"
+  }
+}

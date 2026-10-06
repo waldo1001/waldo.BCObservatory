@@ -1,0 +1,36 @@
+{
+  "name": "bc-observatory",
+  "version": "0.1.0",
+  "private": true,
+  "description": "BC Observatory: an agent-first, cross-referenced knowledge base of Microsoft Dynamics 365 Business Central, woven from docs, code, guidelines, videos and blogs.",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "workspaces": ["site", "packages/*"],
+  "scripts": {
+    "nightly": "tsx pipeline/orchestrator/nightly.ts",
+    "ingest": "tsx pipeline/orchestrator/nightly.ts --stages ingest",
+    "guard": "tsx infra/mini/usage-guard.ts",
+    "validate:sources": "tsx pipeline/validate/sources-cli.ts",
+    "validate:content": "tsx pipeline/validate/content-cli.ts",
+    "check:leak": "tsx pipeline/validate/leak-cli.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test tests/**/*.test.ts",
+    "site:dev": "npm --workspace site run dev",
+    "site:build": "npm --workspace site run build"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.23.0",
+    "typescript": "^5.9.0"
+  },
+  "dependencies": {
+    "ajv": "^8.17.0",
+    "ajv-formats": "^3.0.1",
+    "cheerio": "^1.0.0",
+    "fast-xml-parser": "^5.0.0",
+    "gray-matter": "^4.0.3",
+    "minisearch": "^7.1.0",
+    "yaml": "^2.8.0"
+  }
+}

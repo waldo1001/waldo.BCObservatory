@@ -1,0 +1,11 @@
+{
+  "$comment": "Tiered model use. Values are claude CLI aliases; LLM_MODEL_<ROLE> env vars override. Never pass --bare to claude -p: it ignores subscription OAuth.",
+  "roles": {
+    "facts": "haiku",
+    "prose": "sonnet",
+    "review": "opus",
+    "smoke": "haiku"
+  },
+  "max_budget_usd_per_call": { "facts": 1, "prose": 3, "review": 6 },
+  "timeout_minutes": { "facts": 5, "prose": 10, "review": 15 }
+}

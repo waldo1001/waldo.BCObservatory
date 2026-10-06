@@ -1,0 +1,305 @@
+# BC Observatory source registry.
+# Add your blog or channel with a pull request. Validation: npm run validate:sources (schemas/sources.json + policy rules).
+# Rules: tier is official only for Microsoft-owned sources. full_text: true needs tier official OR a consent block
+# that points at the pull request where the author opted in. Everything else is stored as summary + short quotes + links.
+version: 1
+defaults:
+  tier: community
+  full_text: false
+  language: en
+  backfill:
+    months: 18
+  enabled: true
+
+sources:
+  # ---------------------------------------------------------------- official: Microsoft Learn (CC BY 4.0)
+  - id: learn-smb-docs
+    kind: docs-git
+    name: Microsoft Learn - Business Central business functionality
+    url: https://learn.microsoft.com/dynamics365/business-central/
+    tier: official
+    full_text: true
+    repo: MicrosoftDocs/dynamics365smb-docs
+    branch: main
+    paths: [business-central/]
+    license: CC-BY-4.0
+    backfill: { all: true }
+  - id: learn-devitpro
+    kind: docs-git
+    name: Microsoft Learn - Business Central developer and IT pro
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/
+    tier: official
+    full_text: true
+    repo: MicrosoftDocs/dynamics365smb-devitpro-pb
+    branch: main
+    paths: [dev-itpro/]
+    license: CC-BY-4.0
+    backfill: { all: true }
+
+  # ---------------------------------------------------------------- official: roadmap (release plans retired Sept 2026)
+  - id: m365-roadmap
+    kind: roadmap-api
+    name: Microsoft 365 / AI at Work roadmap - Business Central items
+    url: https://www.microsoft.com/microsoft-365/roadmap
+    tier: official
+    full_text: true
+    fetch:
+      api: https://www.microsoft.com/releasecommunications/api/v1/m365
+      feed: https://www.microsoft.com/releasecommunications/api/v1/m365/rss
+      product_filter: Dynamics 365 Business Central
+
+  # ---------------------------------------------------------------- official: guidelines
+  - id: bcquality
+    kind: guidelines-git
+    name: microsoft/BCQuality knowledge base
+    url: https://github.com/microsoft/BCQuality
+    tier: official
+    full_text: true
+    repo: microsoft/BCQuality
+    branch: main
+    paths: [microsoft/, community/]
+    license: MIT
+  - id: alguidelines
+    kind: guidelines-git
+    name: microsoft/alguidelines (alguidelines.dev) - link index only
+    url: https://alguidelines.dev
+    tier: official
+    full_text: false
+    repo: microsoft/alguidelines
+    branch: main
+    paths: [content/]
+    license: MIT
+    mode: links-only
+
+  # ---------------------------------------------------------------- official: source code
+  - id: bcapps
+    kind: code-git
+    name: microsoft/BCApps
+    url: https://github.com/microsoft/BCApps
+    tier: official
+    full_text: false
+    repo: microsoft/BCApps
+    license: MIT
+    mode: metadata-only
+  - id: sandbox-history
+    kind: code-git
+    name: StefanMaron/MSDyn365BC.Sandbox.Code.History
+    url: https://github.com/StefanMaron/MSDyn365BC.Sandbox.Code.History
+    tier: official
+    full_text: false
+    repo: StefanMaron/MSDyn365BC.Sandbox.Code.History
+    license: none
+    mode: metadata-only
+  - id: onprem-history
+    kind: code-git
+    name: StefanMaron/MSDyn365BC.Code.History
+    url: https://github.com/StefanMaron/MSDyn365BC.Code.History
+    tier: official
+    full_text: false
+    repo: StefanMaron/MSDyn365BC.Code.History
+    license: none
+    mode: metadata-only
+
+  # ---------------------------------------------------------------- official: YouTube
+  - id: yt-microsoft
+    kind: youtube
+    name: Microsoft Dynamics 365 Business Central (YouTube)
+    url: https://www.youtube.com/@MicrosoftDynamics365BC
+    channel_id: UCLErzd6kpQ0DAJSGsGjtxbA
+    tier: official
+    full_text: true
+    backfill: { all: true }
+
+  # ---------------------------------------------------------------- community: YouTube
+  - id: yt-hougaard
+    kind: youtube
+    name: Erik Hougaard
+    url: https://www.youtube.com/channel/UCcJCTa4PvbOQj50y_HJSxXw
+    channel_id: UCcJCTa4PvbOQj50y_HJSxXw
+    author: { name: Erik Hougaard, mvp: true }
+  - id: yt-saurav
+    kind: youtube
+    name: Saurav Dhyani
+    url: https://www.youtube.com/channel/UC2SnEeamdCLN98MXFprKd_w
+    channel_id: UC2SnEeamdCLN98MXFprKd_w
+    author: { name: Saurav Dhyani, mvp: true }
+  - id: yt-areopa
+    kind: youtube
+    name: Areopa webinars
+    url: https://www.youtube.com/channel/UCWL0RbbT6ILzzCd6Ix7t0AQ
+    channel_id: UCWL0RbbT6ILzzCd6Ix7t0AQ
+    author: { name: Areopa (Steven Renders) }
+  - id: yt-mibuso
+    kind: youtube
+    name: mibuso.com / BC TechDays
+    url: https://www.youtube.com/channel/UCeFUrL4JZsOa39TQVmrw2ww
+    channel_id: UCeFUrL4JZsOa39TQVmrw2ww
+    author: { name: mibuso (Luc Van Dyck) }
+  - id: yt-stefanmaron
+    kind: youtube
+    name: Stefan Maron
+    url: https://www.youtube.com/channel/UC96RLsspoArRJu6dhwkOsWQ
+    channel_id: UC96RLsspoArRJu6dhwkOsWQ
+    author: { name: Stefan Maron, mvp: true }
+  - id: yt-bcmusings
+    kind: youtube
+    name: Business Central Musings
+    url: https://www.youtube.com/channel/UCcjRDxd_tl4UckLy-30pt3g
+    channel_id: UCcjRDxd_tl4UckLy-30pt3g
+    author: { name: Silviu Virlan, mvp: true }
+  - id: yt-dynamicscorner
+    kind: youtube
+    name: Dynamics Corner podcast
+    url: https://www.youtube.com/channel/UCiC0ZMYcrfBCUIicN1DwbJQ
+    channel_id: UCiC0ZMYcrfBCUIicN1DwbJQ
+    author: { name: Dynamics Corner }
+
+  # ---------------------------------------------------------------- community: blogs (derived unless opted in)
+  - id: waldo-be
+    kind: blog
+    name: waldo's blog
+    url: https://www.waldo.be
+    author: { name: waldo (Eric Wauters), mvp: true, github: waldo1001 }
+    full_text: true
+    consent: { evidence: "https://github.com/waldo1001/waldo.BCObservatory", at: 2026-10-06, note: "repository owner; example opt-in" }
+    fetch: { feed: https://www.waldo.be/feed/, rest: https://www.waldo.be/wp-json/wp/v2/posts }
+  - id: stefanmaron-com
+    kind: blog
+    name: Stefan Maron
+    url: https://stefanmaron.com
+    author: { name: Stefan Maron, mvp: true, github: StefanMaron }
+    fetch: { feed: https://stefanmaron.com/index.xml }
+  - id: kauffmann-nl
+    kind: blog
+    name: Kauffmann @ Dynamics 365 Business Central
+    url: https://www.kauffmann.nl
+    author: { name: Arend-Jan Kauffmann, mvp: true }
+    fetch: { feed: https://www.kauffmann.nl/feed/, rest: https://www.kauffmann.nl/wp-json/wp/v2/posts }
+  - id: demiliani-com
+    kind: blog
+    name: Stefano Demiliani
+    url: https://demiliani.com
+    author: { name: Stefano Demiliani, mvp: true }
+    fetch: { feed: https://demiliani.com/feed/, rest: https://demiliani.com/wp-json/wp/v2/posts }
+  - id: freddysblog
+    kind: blog
+    name: Freddys blog
+    url: https://freddysblog.com
+    author: { name: Freddy Kristiansen }
+    fetch: { feed: https://freddysblog.com/feed.xml }
+  - id: jpearson-blog
+    kind: blog
+    name: James Pearson
+    url: https://jpearson.blog
+    author: { name: James Pearson }
+    fetch: { feed: https://jpearson.blog/feed/, rest: https://jpearson.blog/wp-json/wp/v2/posts }
+  - id: katson-com
+    kind: blog
+    name: Katson.com
+    url: https://katson.com
+    author: { name: Dmitry Katson, mvp: true }
+    fetch: { feed: https://www.katson.com/feed/ }
+  - id: sauravdhyani-com
+    kind: blog
+    name: Saurav Dhyani
+    url: https://www.sauravdhyani.com
+    author: { name: Saurav Dhyani, mvp: true }
+    fetch: { feed: https://www.sauravdhyani.com/feeds/posts/default }
+  - id: gerardorenteria-blog
+    kind: blog
+    name: Gerardo Renteria
+    url: https://gerardorenteria.blog
+    language: es
+    author: { name: Gerardo Renteria }
+    fetch: { feed: https://gerardorenteria.blog/feed/, rest: https://gerardorenteria.blog/wp-json/wp/v2/posts }
+  - id: bertverbeek-nl
+    kind: blog
+    name: Discover MS BC - Bert Verbeek
+    url: https://www.bertverbeek.nl
+    author: { name: Bert Verbeek }
+    fetch: { feed: https://www.bertverbeek.nl/feed/, rest: https://www.bertverbeek.nl/wp-json/wp/v2/posts }
+  - id: kine-cz
+    kind: blog
+    name: Kine's info
+    url: https://blog.kine.cz
+    author: { name: Kamil Sacek, mvp: true }
+    fetch: { feed: https://blog.kine.cz/index.xml }
+  - id: keytogoodcode-com
+    kind: blog
+    name: Key to Good Code
+    url: https://www.keytogoodcode.com
+    author: { name: Alexander Drogin }
+    fetch: { scrape: https://www.keytogoodcode.com/ }
+  - id: olofsimren-com
+    kind: blog
+    name: Olof Simren
+    url: https://www.olofsimren.com
+    author: { name: Olof Simren }
+    fetch: { feed: https://www.olofsimren.com/feed/, rest: https://www.olofsimren.com/wp-json/wp/v2/posts }
+  - id: mohana-blog
+    kind: blog
+    name: Mohana's Dynamics NAV & BC blog
+    url: https://mohana-dynamicsnav.blogspot.com
+    author: { name: Mohana Yadav }
+    fetch: { feed: http://feeds.feedburner.com/blogspot/Mohana }
+  - id: duiliotacconi-com
+    kind: blog
+    name: Duilio Tacconi
+    url: https://duiliotacconi.com
+    author: { name: Duilio Tacconi, mvp: true }
+    fetch: { feed: https://duiliotacconi.com/feed/, rest: https://duiliotacconi.com/wp-json/wp/v2/posts }
+  - id: thinkaboutit-be
+    kind: blog
+    name: think about IT - Steven Renders
+    url: https://thinkaboutit.be
+    author: { name: Steven Renders }
+    fetch: { feed: https://thinkaboutit.be/feed/, rest: https://thinkaboutit.be/wp-json/wp/v2/posts, user_agent: browser }
+  - id: thatnavguy-com
+    kind: blog
+    name: That NAV Guy
+    url: https://thatnavguy.com
+    author: { name: Teddy Herryanto, mvp: true }
+    fetch: { feed: https://thatnavguy.com/rss.xml }
+  - id: dvlprlife-com
+    kind: blog
+    name: DvlprLife
+    url: https://www.dvlprlife.com
+    author: { name: Brad Prendergast }
+    fetch: { feed: https://www.dvlprlife.com/feed/, rest: https://www.dvlprlife.com/wp-json/wp/v2/posts }
+  - id: tine-staric-net
+    kind: blog
+    name: Tech Adventures in Business Central
+    url: https://tine.staric.net
+    author: { name: Tine Staric }
+    fetch: { feed: https://tine.staric.net/feed.xml }
+  - id: aardvarklabs-blog
+    kind: blog
+    name: Aardvark Labs
+    url: https://aardvarklabs.blog
+    author: { name: Marcel Chabot }
+    fetch: { feed: https://aardvarklabs.blog/feed/, rest: https://aardvarklabs.blog/wp-json/wp/v2/posts }
+  - id: vondervoort-be
+    kind: blog
+    name: Vondervoort.be
+    url: https://www.vondervoort.be
+    author: { name: Arthur van de Vondervoort }
+    fetch: { feed: https://www.vondervoort.be/index.php/feed/, rest: https://www.vondervoort.be/index.php/wp-json/wp/v2/posts }
+  - id: thedynamicsexplorer-com
+    kind: blog
+    name: The Dynamics Explorer
+    url: https://thedynamicsexplorer.com
+    author: { name: Gavin Whittaker }
+    fetch: { feed: https://thedynamicsexplorer.com/feed/, rest: https://thedynamicsexplorer.com/wp-json/wp/v2/posts }
+  - id: vld-bc-com
+    kind: blog
+    name: Volodymyr Dvernytskyi
+    url: https://vld-bc.com
+    author: { name: Volodymyr Dvernytskyi }
+    fetch: { scrape: https://vld-bc.com/blog }
+
+  # ---------------------------------------------------------------- discovery (suggestions only, never content)
+  - id: wingate-combined
+    kind: discovery
+    name: D365BC Combined (Andy Wingate)
+    url: https://blog.wingate365.com/2024/05/dynamics-365-bc-blog-feed.html
+    fetch: { feed: https://feed.informer.com/digests/MBQAFIPSON/feeder.rss }

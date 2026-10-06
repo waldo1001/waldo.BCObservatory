@@ -1,0 +1,15 @@
+{
+  "$comment": "Which BC versions the code pillar snapshots in full. Older versions are kept as diffs only (v0.2+). Base App exists in microsoft/BCApps only from 29.0; 28.x Base App comes from StefanMaron's history repos.",
+  "snapshot": ["28", "29", "30"],
+  "narrative_order": ["29", "28", "30"],
+  "majors": {
+    "28": { "label": "2026 release wave 1 (BC28)", "bcapps_branch": "releases/28.x", "bcapps_has_baseapp": false, "sandbox_branch": "w1-28", "onprem_branch": "w1-28" },
+    "29": { "label": "2026 release wave 2 (BC29)", "bcapps_branch": "releases/29.x", "bcapps_has_baseapp": true,  "sandbox_branch": "w1-29", "onprem_branch": "w1-29" },
+    "30": { "label": "2027 release wave 1 (BC30, vNext)", "bcapps_branch": "main", "bcapps_has_baseapp": true, "sandbox_branch": "w1-30-vNext", "onprem_branch": null, "vnext": true }
+  },
+  "repos": {
+    "bcapps": "https://github.com/microsoft/BCApps",
+    "sandbox_history": "https://github.com/StefanMaron/MSDyn365BC.Sandbox.Code.History",
+    "onprem_history": "https://github.com/StefanMaron/MSDyn365BC.Code.History"
+  }
+}

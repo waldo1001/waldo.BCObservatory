@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://waldo1001.github.io/waldo.BCObservatory/schemas/frontmatter.base.json",
+  "title": "Frontmatter shared by every generated page",
+  "type": "object",
+  "required": ["id", "type", "title", "summary", "tier", "language", "review", "generated", "evidence", "links"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^(topic|feature|object|localization|source|video|post|digest)/[a-z0-9][a-z0-9/_.-]*$" },
+    "type": { "enum": ["topic", "feature", "object", "localization", "source", "video", "post", "digest"] },
+    "title": { "type": "string", "minLength": 1 },
+    "summary": { "type": "string", "minLength": 1, "maxLength": 600 },
+    "tier": { "enum": ["official", "community", "mixed"] },
+    "language": { "type": "string", "pattern": "^[a-z]{2}$" },
+    "tags": { "type": "array", "items": { "type": "string" } },
+    "system": { "type": "string", "description": "galaxy system id from config/taxonomy.json" },
+    "versions": { "type": "object", "properties": { "introduced": { "type": ["string", "null"] }, "last_changed": { "type": ["string", "null"] }, "deprecated": { "type": ["string", "null"] } } },
+    "review": {
+      "type": "object", "required": ["state"],
+      "properties": { "state": { "enum": ["unreviewed", "reviewed", "flagged"] }, "by": { "type": ["string", "null"] }, "at": { "type": ["string", "null"] }, "flags": { "type": "array", "items": { "type": "string" } } }
+    },
+    "generated": {
+      "type": "object", "required": ["at", "pipeline"],
+      "properties": { "at": { "type": "string" }, "pipeline": { "type": "string" }, "prompts": { "type": "object" }, "input_hash": { "type": ["string", "null"] } }
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "object", "required": ["kind", "url"],
+        "properties": {
+          "kind": { "enum": ["learn", "code", "video", "blog", "guideline", "roadmap"] },
+          "url": { "type": "string" }, "title": { "type": "string" }, "date": { "type": ["string", "null"] },
+          "commit": { "type": ["string", "null"] }, "t": { "type": ["integer", "null"] },
+          "quote": { "type": ["string", "null"], "maxLength": 240 }
+        }
+      }
+    },
+    "links": {
+      "type": "object",
+      "properties": {
+        "learn": { "type": "array", "items": { "type": "string" } }, "objects": { "type": "array", "items": { "type": "string" } },
+        "features": { "type": "array", "items": { "type": "string" } }, "topics": { "type": "array", "items": { "type": "string" } },
+        "localizations": { "type": "array", "items": { "type": "string" } }, "videos": { "type": "array", "items": { "type": "string" } },
+        "posts": { "type": "array", "items": { "type": "string" } }, "guidelines": { "type": "array", "items": { "type": "string" } }
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://waldo1001.github.io/waldo.BCObservatory/schemas/graph.json",
+  "title": "Galaxy graph (nodes with baked layout, typed edges)",
+  "type": "object",
+  "required": ["version", "generated_at", "layout", "nodes", "edges"],
+  "properties": {
+    "version": { "const": 1 },
+    "generated_at": { "type": "string" },
+    "layout": { "type": "string", "description": "e.g. d3-force@seed:42" },
+    "systems": { "type": "array", "items": { "type": "object", "required": ["id", "label"], "properties": { "id": { "type": "string" }, "label": { "type": "string" }, "x": { "type": "number" }, "y": { "type": "number" }, "r": { "type": "number" } } } },
+    "nodes": {
+      "type": "array",
+      "items": {
+        "type": "object", "required": ["id", "type", "label", "tier", "group", "weight", "url"],
+        "properties": {
+          "id": { "type": "string" },
+          "type": { "enum": ["topic", "feature", "object", "localization", "source", "video", "post", "guideline", "version", "author"] },
+          "label": { "type": "string" }, "tier": { "enum": ["official", "community", "mixed"] },
+          "group": { "type": "string", "description": "galaxy system id" }, "weight": { "type": "number" },
+          "url": { "type": "string" }, "x": { "type": "number" }, "y": { "type": "number" },
+          "lit_at": { "type": ["string", "null"], "description": "last content date; drives the newly-lit effect" }
+        }
+      }
+    },
+    "edges": {
+      "type": "array",
+      "items": {
+        "type": "object", "required": ["s", "t", "type"],
+        "properties": {
+          "s": { "type": "string" }, "t": { "type": "string" },
+          "type": { "enum": ["mentions", "documents", "demonstrates", "discusses", "implements", "extends", "subscribes", "calls", "localizes", "deprecates", "introduced_in", "relates", "authored"] },
+          "w": { "type": "number" }, "ev": { "type": "array", "items": { "type": "string" } }
+        }
+      }
+    }
+  }
+}

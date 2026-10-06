@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://waldo1001.github.io/waldo.BCObservatory/schemas/al-object.json",
+  "title": "Extracted AL object (al-object@1), one JSONL line per object",
+  "type": "object",
+  "required": ["schema", "version", "country", "layer", "type", "id", "name", "file", "hash"],
+  "properties": {
+    "schema": { "const": "al-object@1" },
+    "version": { "type": "string" }, "build": { "type": ["string", "null"] },
+    "country": { "type": "string" }, "layer": { "enum": ["base", "overlay"] },
+    "app": { "type": ["string", "null"] }, "namespace": { "type": ["string", "null"] },
+    "type": { "enum": ["table", "tableextension", "page", "pageextension", "codeunit", "report", "reportextension", "query", "xmlport", "enum", "enumextension", "interface", "permissionset", "permissionsetextension", "entitlement", "profile", "controladdin", "pagecustomization", "dotnet"] },
+    "id": { "type": ["integer", "null"] }, "name": { "type": "string" }, "extends": { "type": ["string", "null"] },
+    "file": { "type": "string" }, "file_hash": { "type": ["string", "null"] }, "commit": { "type": ["string", "null"] },
+    "properties": { "type": "object" },
+    "obsolete": { "$ref": "#/$defs/obsolete" },
+    "fields": { "type": "array", "items": { "type": "object", "required": ["id", "name", "type"], "properties": { "id": { "type": "integer" }, "name": { "type": "string" }, "type": { "type": "string" }, "properties": { "type": "object" }, "tooltip": { "type": ["string", "null"] }, "obsolete": { "$ref": "#/$defs/obsolete" } } } },
+    "keys": { "type": "array", "items": { "type": "object", "properties": { "name": { "type": "string" }, "fields": { "type": "array", "items": { "type": "string" } }, "clustered": { "type": "boolean" } } } },
+    "procedures": { "type": "array", "items": { "type": "object", "required": ["name", "scope"], "properties": {
+      "name": { "type": "string" }, "scope": { "enum": ["global", "local", "internal", "protected"] },
+      "params": { "type": "array", "items": { "type": "object", "properties": { "name": { "type": "string" }, "type": { "type": "string" }, "var": { "type": "boolean" } } } },
+      "returns": { "type": ["string", "null"] },
+      "attributes": { "type": "array", "items": { "type": "object", "properties": { "name": { "type": "string" }, "args": { "type": "array" } } } },
+      "event": { "enum": ["integration", "business", "internal", "subscriber", null] },
+      "subscribes_to": { "type": ["object", "null"], "properties": { "object_type": { "type": "string" }, "object_name": { "type": "string" }, "event": { "type": "string" }, "element": { "type": ["string", "null"] } } },
+      "obsolete": { "$ref": "#/$defs/obsolete" }, "doc": { "type": ["string", "null"] }, "line": { "type": "integer" }
+    } } },
+    "triggers": { "type": "array", "items": { "type": "string" } },
+    "hash": { "type": "string" }
+  },
+  "$defs": {
+    "obsolete": { "type": ["object", "null"], "properties": { "state": { "enum": ["Pending", "Removed", "No"] }, "tag": { "type": ["string", "null"] }, "reason": { "type": ["string", "null"] } } }
+  }
+}
