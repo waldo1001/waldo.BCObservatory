@@ -98,6 +98,14 @@
         "errors": { "type": "array", "items": { "type": "string" } }
       }
     },
+    "hubs": {
+      "type": "object",
+      "required": ["topics", "narrated", "refreshed", "failed", "backlog", "stopped"],
+      "properties": {
+        "topics": { "type": "integer" }, "narrated": { "type": "integer" }, "refreshed": { "type": "integer" },
+        "failed": { "type": "integer" }, "backlog": { "type": "integer" }, "stopped": { "type": "string" }
+      }
+    },
     "items_changed": { "type": "integer" },
     "errors": { "type": "array", "items": { "type": "string" } }
   }
