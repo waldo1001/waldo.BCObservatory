@@ -84,6 +84,20 @@
         "allowance_usd": { "type": "number" }, "binding": { "enum": ["night", "week"] }, "exhausted": { "type": "boolean" }
       }
     },
+    "execution": {
+      "type": "object",
+      "required": ["stop_reason", "deadline", "items_touched", "stages_run", "advanced", "skipped", "failed_attempts", "failed_final", "no_handler", "quota_charged", "regards", "errors"],
+      "properties": {
+        "stop_reason": { "enum": ["done", "hard-stop", "llm-calls-max", "spend-cap", "guard-skip", "aborted"] },
+        "deadline": { "type": "string", "format": "date-time" },
+        "items_touched": { "type": "integer" }, "advanced": { "type": "integer" }, "skipped": { "type": "integer" },
+        "failed_attempts": { "type": "integer" }, "failed_final": { "type": "integer" }, "no_handler": { "type": "integer" },
+        "stages_run": { "type": "object", "additionalProperties": { "type": "integer" } },
+        "quota_charged": { "type": "object", "additionalProperties": { "type": "integer" } },
+        "regards": { "type": "array", "items": { "type": "object", "required": ["at_calls", "decision", "status"] } },
+        "errors": { "type": "array", "items": { "type": "string" } }
+      }
+    },
     "items_changed": { "type": "integer" },
     "errors": { "type": "array", "items": { "type": "string" } }
   }

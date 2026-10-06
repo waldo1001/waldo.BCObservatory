@@ -29,8 +29,10 @@ Deliberate deviations from PLAN, all small:
    `complete()` throws `LlmBudgetExhausted` once that is used up. Caps agreed with the owner: **$10/night, $50/week**
    (API-equivalent dollars, `config/budget.json` `spend_caps`). The usage-guard token (D16) is added on top later,
    when a source exists that does not silently expire.
-2. **Stage executor** in `pipeline/orchestrator/nightly.ts`: run planned items through their next stages within
-   quotas, re-guard every 25 LLM calls, hard stop 06:35 local, `fail()` backoff per item, infra errors abort.
+2. ~~**Stage executor**~~ Done 2026-10-06: `pipeline/orchestrator/execute.ts` runs planned items through every stage
+   that has a handler in `pipeline/orchestrator/stages.ts` (empty until a pillar lands), charging each quota once
+   per item. Stops: hard stop (06:35 local, or the window length for a daytime dispatch), `llm_calls_max`, spend
+   cap, re-guard skip every 25 calls; infra errors abort, item errors `fail()` with backoff. Report: `execution`.
 3. **Videos first (D18).** Seed import of the 84 VTTs from `prev/data/transcripts/raw` (`pipeline/caption/import-seed.ts`,
    46 carry `[videoId]`, 38 need id resolution + an override map), Microsoft channel reconcile
    (`yt-dlp --flat-playlist`) + caption fetch, Haiku extraction (port `prev/pipeline/02-extract`), quote check,

@@ -1,6 +1,6 @@
 /**
- * Nightly orchestrator (PLAN 4.3). M0 scope: lock, recover a killed run, usage guard, deterministic ingest,
- * newest-first plan (reported, not executed: zero LLM calls), run report, commit, push.
+ * Nightly orchestrator (PLAN 4.3): lock, recover a killed run, usage guard, spend allowance (D17), deterministic
+ * ingest, newest-first plan, stage execution within quotas (execute.ts), run report, commit, push.
  * A budget skip still writes and commits the run report: that heartbeat keeps the schedule alive.
  *
  *   npm run nightly -- [--dry-run] [--commit] [--push] [--no-guard] [--stages ingest|all]
@@ -28,7 +28,9 @@ import { planQueue } from "../lib/queue.js";
 import { validateOrThrow } from "../lib/schema.js";
 import { knownHosts, runIngest } from "../ingest/index.js";
 import type { IngestContext, VersionsConfig } from "../ingest/types.js";
+import { executePlan, type ExecutionReport, type StageHandlers } from "./execute.js";
 import { acquireLock } from "./lock.js";
+import { STAGE_HANDLERS } from "./stages.js";
 
 const log = logger("nightly");
 export const PIPELINE_VERSION = "0.1.0";
@@ -51,6 +53,10 @@ export interface NightlyDeps {
   readUsage: () => Promise<PlanUsage | PlanUsageUnavailable>;
   sources: SourceDef[];
   repoUrl?: (repo: string) => string;
+  /** Stage handlers; defaults to STAGE_HANDLERS. */
+  handlers?: StageHandlers;
+  /** Wall clock for the hard stop; defaults to real time. */
+  clock?: () => Date;
 }
 type GuardReport = Omit<GuardDecision, "decision"> & { decision: GuardDecision["decision"] | "disabled" };
 export interface RunReport {
@@ -62,6 +68,7 @@ export interface RunReport {
   llm: ReturnType<typeof llmStats> & { day_cost_usd?: number };
   /** Own metering (D17): caps, spend before this run, and what this run was allowed to spend. */
   spend?: SpendAllowance & { exhausted: boolean };
+  execution?: ExecutionReport;
   items_changed: number; errors: string[];
 }
 
@@ -131,9 +138,15 @@ async function run(opts: NightlyOptions, deps: NightlyDeps): Promise<RunReport> 
       const item = manifest.get(s.id);
       if (item) manifest.save(skip(item, s.reason));
     }
+    const execution = await executePlan({
+      work: plan.work, quotas, budget: cfg, manifest, handlers: deps.handlers ?? STAGE_HANDLERS,
+      started, clock: deps.clock ?? (() => new Date()), readUsage: opts.guard ? deps.readUsage : undefined,
+    });
+    report.execution = execution;
+    errors.push(...execution.errors);
     report.plan = {
-      quotas, work: plan.work.length, executed: 0, skips: plan.skips.length, quota_use: plan.quota_use,
-      note: "planned only: stage execution (caption, extract, summarize, link, review) arrives with M1",
+      quotas, work: plan.work.length, executed: execution.items_touched, skips: plan.skips.length, quota_use: plan.quota_use,
+      note: `stopped: ${execution.stop_reason}`,
     };
   } else {
     report.plan = { quotas: {}, work: 0, executed: 0, note: "ingest only" };
@@ -141,6 +154,7 @@ async function run(opts: NightlyOptions, deps: NightlyDeps): Promise<RunReport> 
 
   report.llm = llmStats();
   if (opts.dryRun) report.status = "dry-run";
+  else if (report.execution?.stop_reason === "aborted") report.status = "aborted";
   else if (results.length && totals.failed === results.length) report.status = "aborted";
   else if (totals.failed) report.status = "partial";
   return finish(report, opts);
