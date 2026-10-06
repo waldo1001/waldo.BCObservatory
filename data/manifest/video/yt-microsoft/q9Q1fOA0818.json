@@ -5,12 +5,17 @@
   "tier": "official",
   "title": "Microsoft Dynamics 365 Business Central",
   "url": "https://www.youtube.com/watch?v=q9Q1fOA0818",
-  "published_at": null,
+  "published_at": "2023-10-24T13:51:05.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:56:53.627Z",
+      "captions": "auto:en-orig",
+      "duration_s": 193
     }
   },
   "input_hash": null,
@@ -19,7 +24,13 @@
   "meta": {
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 525,
-    "duration_s": 194,
-    "via": "reconcile"
-  }
+    "duration_s": 193,
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null
 }

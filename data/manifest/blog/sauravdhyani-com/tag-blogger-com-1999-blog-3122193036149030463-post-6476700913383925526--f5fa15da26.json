@@ -7,13 +7,39 @@
   "url": "https://www.sauravdhyani.com/2026/06/automating-posting-periods-in-business.html",
   "published_at": "2026-06-03T05:30:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:56:44.014Z",
+      "path": "vault:posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-6476700913383925526--f5fa15da26.md",
+      "words": 279
+    },
+    "extracted": {
+      "at": "2026-10-06T21:56:51.299Z",
+      "prompt": "extract-post@1",
+      "quotes": 3,
+      "trimmed": 0,
+      "cost_usd": 0.005381
+    },
+    "summarized": {
+      "at": "2026-10-06T21:56:51.300Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:56:51.301Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:56:51.305Z",
+      "path": "content/posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-6476700913383925526--f5fa15da26.md"
     }
   },
   "input_hash": "2026-06-03T05:30:00.112Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e19e3e9de9539b9339044f330bd2ba258d49807b7a12edced97f2d484580d966"
 }

@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "What's New: Reservation Worksheet and Fulfillment Suggestions (2023 release wave 2)",
   "url": "https://www.youtube.com/watch?v=198d9piIoE0",
-  "published_at": null,
+  "published_at": "2023-10-25T06:22:20.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:56:39.081Z",
+      "captions": "auto:en-orig",
+      "duration_s": 1033
+    },
+    "captioned": {
+      "at": "2026-10-06T21:56:45.660Z",
+      "path": "data/captions/microsoft/198d9piIoE0.vtt",
+      "vtt_sha256": "42157ebbf712356dbf8373cd232a8d71ab1873aa79cae90b331a6891983c9328",
+      "segments": 56,
+      "words": 2432,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -19,7 +33,14 @@
   "meta": {
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 524,
-    "duration_s": 1034,
-    "via": "reconcile"
-  }
+    "duration_s": 1033,
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "42157ebbf712356dbf8373cd232a8d71ab1873aa79cae90b331a6891983c9328"
 }

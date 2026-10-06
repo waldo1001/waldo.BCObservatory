@@ -7,13 +7,39 @@
   "url": "https://aardvarklabs.blog/2026/06/05/boost-business-central-development-with-skills-in-visual-studio-code/",
   "published_at": "2026-06-05T12:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:56:03.864Z",
+      "path": "vault:posts/aardvarklabs-blog/3564.md",
+      "words": 283
+    },
+    "extracted": {
+      "at": "2026-10-06T21:56:10.078Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": 0.004654
+    },
+    "summarized": {
+      "at": "2026-10-06T21:56:10.080Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:56:10.081Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:56:10.085Z",
+      "path": "content/posts/aardvarklabs-blog/3564.md"
     }
   },
   "input_hash": "2026-05-26T23:34:47.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "df1169618ab085f8ec8ea25a3b8e14ac137fa720b7425bf5943cf27277269712"
 }

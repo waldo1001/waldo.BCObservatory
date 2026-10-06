@@ -7,7 +7,7 @@
   "url": "https://www.dvlprlife.com/2026/06/weekly-review-business-central-al-development-may-31-june-6-2026/",
   "published_at": "2026-06-09T13:57:01.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -16,6 +16,24 @@
       "at": "2026-10-06T21:55:49.537Z",
       "path": "vault:posts/dvlprlife-com/https-www-dvlprlife-com-2026-06-weekly-review-business-central-al-development-may-31-june-6-2026--8c97173165.md",
       "words": 838
+    },
+    "extracted": {
+      "at": "2026-10-06T21:56:00.725Z",
+      "prompt": "extract-post@1",
+      "quotes": 3,
+      "trimmed": 0,
+      "cost_usd": 0.007795
+    },
+    "summarized": {
+      "at": "2026-10-06T21:56:00.726Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:56:00.727Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:56:00.733Z",
+      "path": "content/posts/dvlprlife-com/https-www-dvlprlife-com-2026-06-weekly-review-business-central-al-development-may-31-june-6-2026--8c97173165.md"
     }
   },
   "input_hash": null,
@@ -23,5 +41,5 @@
   "flags": [],
   "last_error": null,
   "retry_after": null,
-  "output_hash": "903d258ada7a0809620c6ea5292fc8172d1a30d9aed6fc10eab1ab7f1b66aa2e"
+  "output_hash": "b84f60246cbba345f091e70184370a96cbb392196e3862acc2720c58b3d7d2c8"
 }

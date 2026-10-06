@@ -5,12 +5,17 @@
   "tier": "official",
   "title": "#BCTalent coming your way...",
   "url": "https://www.youtube.com/watch?v=QXuxHhW25oU",
-  "published_at": null,
+  "published_at": "2023-11-01T17:03:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:56:31.001Z",
+      "captions": null,
+      "duration_s": 29
     }
   },
   "input_hash": null,
@@ -19,7 +24,12 @@
   "meta": {
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 523,
-    "duration_s": 30,
-    "via": "reconcile"
-  }
+    "duration_s": 29,
+    "via": "reconcile",
+    "captions_track": null
+  },
+  "last_error": null,
+  "retry_after": null,
+  "skip": "no-captions",
+  "skipped_at": "2026-10-06T21:56:31.003Z"
 }

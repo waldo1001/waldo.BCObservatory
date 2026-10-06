@@ -1,0 +1,55 @@
+{
+  "item_id": "blog/gerardorenteria-blog/14730",
+  "url": "https://gerardorenteria.blog/2026/06/04/%f0%9f%aa%b6-how-to-slim-down-the-prompt-and-spend-fewer-credits-in-github-copilot/",
+  "title": "🪶 How to slim down the prompt and spend fewer credits in Github Copilot",
+  "source": "gerardorenteria-blog",
+  "published_at": "2026-06-04T21:45:06.000Z",
+  "words": 2140,
+  "summary": "GitHub Copilot switched to token-based billing on June 1, 2026. The post explains how to reduce credit spending through context optimization (cleaning tools and extensions), developing efficient chat habits (shorter threads, avoiding redundant file pasting), selecting appropriate models and reasoning effort levels, and matching task complexity to the right mode (Ask, Plan, or Agent).",
+  "key_points": [
+    "Token costs vary significantly: cached reads are cheapest, outputs are most expensive; each factor in the cost formula (context size, iterations, model price, reasoning effort) is controllable",
+    "Environment cleanup reduces context bloat by disabling unused tools, extensions, and MCP servers that silently inject artifacts into every message",
+    "Chat habits matter: keep threads short (12-15 turns or 80-120K tokens), close chats when changing topics, reference files with # instead of pasting full content, and paste text rather than requesting URLs to be read",
+    "Match models and modes to task complexity: lightweight models for factual questions in Ask mode are cheapest; save powerful models and high reasoning effort for deep bugs and architecture decisions",
+    "Diagnosis before iteration: if results are weak, improve the prompt first (cheap), then increase reasoning effort, then upgrade the model; blind repetition wastes credits and rarely converges"
+  ],
+  "systems": [
+    "development",
+    "copilot"
+  ],
+  "topics": [
+    "github copilot",
+    "token billing",
+    "cost optimization",
+    "ai credits",
+    "chat efficiency",
+    "model selection",
+    "context management"
+  ],
+  "objects": [],
+  "features": [
+    "GitHub AI Credits token-based billing",
+    "Chat modes (Ask, Plan, Agent)",
+    "Model selection and reasoning effort adjustment",
+    "VS Code profiles for environment isolation",
+    "Tool and extension management",
+    "Cache optimization for token reuse",
+    "Billing preview feature"
+  ],
+  "versions": [],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.015522,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "Repetir el mismo prompt esperando que mejore solo rara vez converge y siempre cuesta.",
+      "why_it_matters": "Cautions against blind iteration as a problem-solving strategy, emphasizing the need to diagnose issues before retrying"
+    }
+  ]
+}

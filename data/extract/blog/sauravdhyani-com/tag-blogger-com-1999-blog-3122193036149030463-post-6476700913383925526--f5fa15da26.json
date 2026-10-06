@@ -1,0 +1,74 @@
+{
+  "item_id": "blog/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-6476700913383925526",
+  "url": "https://www.sauravdhyani.com/2026/06/automating-posting-periods-in-business.html",
+  "title": "Automating Posting Periods in Business Central with Date Formulas",
+  "source": "sauravdhyani-com",
+  "published_at": "2026-06-03T05:30:00.000Z",
+  "words": 279,
+  "summary": "Date formulas enable automatic posting period adjustments in Business Central based on today's date instead of fixed dates. This feature applies to General Ledger Setup, User Setup, and General Journal Templates, reducing manual updates and posting errors.",
+  "key_points": [
+    "Date formulas are dynamic expressions that calculate allowed posting ranges relative to today's date",
+    "Date formulas can be applied to General Ledger Setup, User Setup, and General Journal Templates",
+    "Posting restrictions are validated in priority order: User Setup first, then General Ledger Setup, then General Journal Template",
+    "Formulas support relative date calculations like current month, rolling days, and multi-period ranges",
+    "Fixed dates and date formulas can be mixed, allowing one boundary to be dynamic and the other static"
+  ],
+  "systems": [
+    "finance",
+    "administration"
+  ],
+  "topics": [
+    "posting periods",
+    "date formulas",
+    "business central 2026",
+    "wave 1",
+    "automation",
+    "general ledger"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "General Ledger Setup"
+    },
+    {
+      "type": "table",
+      "name": "User Setup"
+    },
+    {
+      "type": "table",
+      "name": "General Journal Templates"
+    }
+  ],
+  "features": [
+    "Date formulas for posting restrictions",
+    "Dynamic posting windows",
+    "Automated posting period management",
+    "Relative date calculations"
+  ],
+  "versions": [
+    "2026 Wave 1"
+  ],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005381,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "Date formulas are dynamic expressions that calculate allowed posting ranges relative to today's date.",
+      "why_it_matters": "This explains the core concept of how date formulas work as smart boundaries that move with time rather than being static."
+    },
+    {
+      "text": "Posting restrictions are validated in this order: User Setup, General Ledger Setup, General Journal Template.",
+      "why_it_matters": "Understanding the priority of checks is critical for implementing posting restrictions correctly when multiple levels are configured."
+    },
+    {
+      "text": "You can combine formulas with fixed dates - one boundary can be dynamic, the other fixed.",
+      "why_it_matters": "This flexibility allows organizations to implement hybrid approaches that mix static and dynamic posting period controls."
+    }
+  ]
+}

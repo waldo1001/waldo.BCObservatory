@@ -7,13 +7,39 @@
   "url": "https://www.sauravdhyani.com/2026/06/directions-asia-2026-recap-key.html",
   "published_at": "2026-06-08T05:30:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:56:01.106Z",
+      "path": "vault:posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-818643009386692123--56430d970b.md",
+      "words": 2216
+    },
+    "extracted": {
+      "at": "2026-10-06T21:56:10.338Z",
+      "prompt": "extract-post@1",
+      "quotes": 3,
+      "trimmed": 0,
+      "cost_usd": 0.012647
+    },
+    "summarized": {
+      "at": "2026-10-06T21:56:10.339Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:56:10.340Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:56:10.344Z",
+      "path": "content/posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-818643009386692123--56430d970b.md"
     }
   },
   "input_hash": "2026-06-08T05:30:00.114Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "87efac196949fcda64e6c1d320cd090470ab92636ee1c38c678e3e9eb21277fc"
 }

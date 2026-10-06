@@ -1,0 +1,28 @@
+{
+  "video_id": "tCmDKBszA1w",
+  "item_id": "video/yt-microsoft/tCmDKBszA1w",
+  "summary": "E-Document Core in Business Central (2023 release wave 2): a global extension that packages common e-invoicing functionality for W1 and country localizations. The video covers communication models, a demo of setup, sending and receiving, and the roadmap for access-point apps and local localizations.",
+  "overview": "The session explains the context of continuous transaction control and e-invoicing, then compares two-corner, three-corner and four-corner communication models. It presents the E-Document Core app as a shared foundation, with interfaces for creating and importing documents, endpoint integration, background jobs, field mapping, error handling, logging and retention policies. Local flavors and partner extensions are built on top.\n\nA demo shows E-Document Service, Workflow and Document Sending Profile setup, sending a sales invoice with status tracking and logs, and receiving documents through a background job into purchase invoices. It also shows error handling for item references and an import to journal lines. The roadmap covers an e-document global service app and a third-party access points app, both announced, and localizations that depend on country enforcement dates, with Denmark and Belgium first.",
+  "key_points": [
+    "The first release focuses on invoicing. Other document types are to follow, and the presenters expect at least two more releases of new features.",
+    "E-Document Core is a global extension used by W1 and the localizations. It will not fit 100% of file formats and requirements at first, so local flavors are added on top.",
+    "Setup in the demo uses an E-Document Service, an E-Document Workflow and a Document Sending Profile. Workflows can send to multiple services.",
+    "Status tracking shows service-level status, logs, mapping details and communication logs. Manual actions allow send, recreate, cancel and get approval after errors.",
+    "Receiving works through a background job that creates purchase invoices, mapping items by item reference. It only creates new documents and cannot update existing purchase orders. Updating existing orders is planned.",
+    "If an item is not found, you can map text to an account instead. You can also import to journal lines, which needs a manual vendor-to-account mapping.",
+    "The third-party access points app is announced for the end of the year. A Microsoft e-document global service app is announced, aimed at at least 80% of required features. Denmark and Belgium come first, and the roadmap may change with government enforcement dates."
+  ],
+  "audience": [
+    "functional consultant",
+    "developer",
+    "partner",
+    "administrator"
+  ],
+  "extraction_hash": "949ed2ae93c0563bda4a3822413cd263742e383c0bcea5e5d37c22766fae5a3d",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0293504
+  }
+}

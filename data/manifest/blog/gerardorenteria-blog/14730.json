@@ -7,13 +7,39 @@
   "url": "https://gerardorenteria.blog/2026/06/04/%f0%9f%aa%b6-how-to-slim-down-the-prompt-and-spend-fewer-credits-in-github-copilot/",
   "published_at": "2026-06-04T21:45:06.000Z",
   "language": "es",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:56:10.831Z",
+      "path": "vault:posts/gerardorenteria-blog/14730.md",
+      "words": 2140
+    },
+    "extracted": {
+      "at": "2026-10-06T21:56:22.486Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": 0.015522
+    },
+    "summarized": {
+      "at": "2026-10-06T21:56:22.487Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:56:22.488Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:56:22.491Z",
+      "path": "content/posts/gerardorenteria-blog/14730.md"
     }
   },
   "input_hash": "2026-06-04T21:45:16.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "4debffb987849a85579cd1dfe51a36802654110385caa411a8f8503011847a41"
 }

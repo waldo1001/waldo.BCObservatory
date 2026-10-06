@@ -1,0 +1,910 @@
+{
+  "video_id": "tCmDKBszA1w",
+  "item_id": "video/yt-microsoft/tCmDKBszA1w",
+  "title": "What's New: E-Invoicing (2023 release wave 2)",
+  "duration_s": 2219,
+  "systems": [
+    "localization",
+    "sales",
+    "purchasing"
+  ],
+  "topics": [
+    "e-invoicing",
+    "e-documents",
+    "electronic documents",
+    "continuous transaction control",
+    "four-corner model",
+    "access points",
+    "localization strategy",
+    "platform architecture",
+    "partner extensibility",
+    "extensions",
+    "workflow",
+    "document sending"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Session Agenda",
+      "t_start": 0,
+      "t_end": 64.8
+    },
+    {
+      "title": "CTC and Electronic Invoicing Context",
+      "t_start": 64.8,
+      "t_end": 134.1
+    },
+    {
+      "title": "Existing Solutions and Strategic Direction",
+      "t_start": 134.1,
+      "t_end": 254.8
+    },
+    {
+      "title": "Government Enforcement and Business Requirements",
+      "t_start": 254.8,
+      "t_end": 372.8
+    },
+    {
+      "title": "E-Invoicing Communication Models",
+      "t_start": 372.8,
+      "t_end": 515
+    },
+    {
+      "title": "Four-Corner Model and Messaging System",
+      "t_start": 515,
+      "t_end": 687.4
+    },
+    {
+      "title": "E-Document Core architecture and extensibility",
+      "t_start": 687.4,
+      "t_end": 941.5
+    },
+    {
+      "title": "Building e-document applications on e-document core",
+      "t_start": 941.5,
+      "t_end": 1083.5
+    },
+    {
+      "title": "Setup and configuration demo",
+      "t_start": 1083.5,
+      "t_end": 1312.3
+    },
+    {
+      "title": "Sending e-invoices and status tracking",
+      "t_start": 1312.3,
+      "t_end": 1549.5
+    },
+    {
+      "title": "Receiving e-documents and importing purchase invoices",
+      "t_start": 1549.5,
+      "t_end": 1715.8
+    },
+    {
+      "title": "Error handling and alternative import options",
+      "t_start": 1715.8,
+      "t_end": 1912.1
+    },
+    {
+      "title": "Features covered in this release",
+      "t_start": 1912.1,
+      "t_end": 1996.6
+    },
+    {
+      "title": "Roadmap, localization strategy and access points",
+      "t_start": 1996.6,
+      "t_end": 2138.4
+    },
+    {
+      "title": "Closing remarks and additional resources",
+      "t_start": 2138.4,
+      "t_end": 2219
+    }
+  ],
+  "features": [
+    {
+      "name": "E-Document Core App",
+      "description": "A global extension for all countries that provides the foundation for electronic invoicing capabilities across Business Central. It will be used in W1 and all country localizations, packaging common e-document functionality including interfaces for creating and importing documents, integrating with endpoints, background jobs, field mapping logic, error handling, logging, and retention policies.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 687.4,
+      "t_end": 1050.9,
+      "is_demoed": true,
+      "caveats": [
+        "Not 100% fit for all file formats and requirements initially",
+        "Local flavors and specific localizations will be added on top"
+      ],
+      "tags": [
+        "core architecture",
+        "global extension",
+        "platform foundation",
+        "framework",
+        "extensibility"
+      ],
+      "system": "localization"
+    },
+    {
+      "name": "Electronic Invoicing",
+      "description": "A core functionality enabling continuous transaction control and real-time invoicing reporting to authorities. The first release focuses on invoicing with plans to continue with other documents.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 114,
+      "t_end": 174.4,
+      "is_demoed": false,
+      "caveats": [
+        "First release focuses on invoicing primarily",
+        "Other document types to follow later"
+      ],
+      "tags": [
+        "e-invoicing",
+        "ctc",
+        "core feature"
+      ],
+      "system": "localization"
+    },
+    {
+      "name": "Two-Corner Model",
+      "description": "Direct communication between sender and receiver for electronic invoices. Involves creating an electronic document and sending it via email or other means without a service provider intermediary.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 372.8,
+      "t_end": 412.9,
+      "is_demoed": false,
+      "caveats": [
+        "Works in countries where direct communication is voluntary",
+        "Too simple for countries requiring service provider involvement"
+      ],
+      "tags": [
+        "communication model",
+        "direct sending"
+      ],
+      "system": "localization"
+    },
+    {
+      "name": "Three-Corner Model",
+      "description": "Communication via a service provider where the sender delivers documents to the service provider who then delivers to the receiver. Requires specific format and API communication with the service provider.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 412.9,
+      "t_end": 453.4,
+      "is_demoed": false,
+      "caveats": [
+        "Requires specific format for service provider",
+        "More complex than two-corner model"
+      ],
+      "tags": [
+        "communication model",
+        "service provider",
+        "api integration"
+      ],
+      "system": "localization"
+    },
+    {
+      "name": "Four-Corner Model",
+      "description": "Model where sender and receiver both have access points that communicate with each other and government authorities. Sender delivers to their access point, which communicates with receiver access point, which delivers to receiver.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 453.4,
+      "t_end": 555.2,
+      "is_demoed": false,
+      "caveats": [
+        "Most complex model requiring access points on both sides",
+        "Can send additional file formats to customer beyond government requirements"
+      ],
+      "tags": [
+        "communication model",
+        "access points",
+        "government reporting"
+      ],
+      "system": "localization"
+    },
+    {
+      "name": "E-Document Messaging System",
+      "description": "An asynchronous service handling message exchange between access points. Handles initial confirmation of document receipt, approval or rejection responses from customers, and delivery of status messages back to the sender.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 587,
+      "t_end": 687.4,
+      "is_demoed": false,
+      "caveats": [
+        "Requires asynchronous implementation",
+        "Handles complex multi-stage message flow between parties"
+      ],
+      "tags": [
+        "messaging",
+        "access points",
+        "validation",
+        "async"
+      ],
+      "system": "localization"
+    },
+    {
+      "name": "E-Document Global Service App",
+      "description": "An additional app to be provided by Microsoft ready to connect with third-party access points. Based on e-document core and designed to provide minimum 80% of required features.",
+      "status": "announced",
+      "status_evidence_t": 765.8,
+      "status_evidence_quote": "we will soon provide additional e doent global app ready to connect with a third party services this have will be based on our",
+      "status_evidence_verified": true,
+      "t_start": 765.8,
+      "t_end": 786.1,
+      "is_demoed": false,
+      "caveats": [
+        "Coming soon, not yet released",
+        "Will provide minimum 80% of required features"
+      ],
+      "tags": [
+        "third-party integration",
+        "access points",
+        "roadmap"
+      ],
+      "system": "localization"
+    },
+    {
+      "name": "Local E-Document Localizations",
+      "description": "Country-specific implementations built on top of the e-document core. Can include file format specifications, service integrations, and new tables and fields as required by local regulations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 804.5,
+      "t_end": 824.7,
+      "is_demoed": false,
+      "caveats": [
+        "Scope varies by country requirements",
+        "Not limited to the three example countries shown"
+      ],
+      "tags": [
+        "localization",
+        "country-specific",
+        "compliance"
+      ],
+      "system": "localization"
+    },
+    {
+      "name": "Partner Extensibility Framework",
+      "description": "Partners can extend the e-document core app and Microsoft localizations with additional features including industry-specific functionality and new capabilities.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 845.1,
+      "t_end": 926.2,
+      "is_demoed": false,
+      "caveats": [
+        "Technical documentation to be provided in following period"
+      ],
+      "tags": [
+        "extensibility",
+        "partners",
+        "customization"
+      ],
+      "system": "localization"
+    },
+    {
+      "name": "Third-Party Access Point Integration",
+      "description": "Third-party access point providers will be able to extend e-document features. Different providers have different feature sets which Microsoft does not plan to deliver directly.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 865.6,
+      "t_end": 926.2,
+      "is_demoed": false,
+      "caveats": [
+        "Each access point provider has different feature sets",
+        "Microsoft will not deliver provider-specific features"
+      ],
+      "tags": [
+        "third-party",
+        "access points",
+        "integration"
+      ],
+      "system": "localization"
+    },
+    {
+      "name": "E-Document Service setup",
+      "description": "Allows configuration of document services with document formats, service integrations, batch processing support, import parameters, and field mapping rules for transforming exported and imported documents.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1095.5,
+      "t_end": 1194,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "setup",
+        "configuration",
+        "services"
+      ],
+      "system": "localization"
+    },
+    {
+      "name": "E-Document Workflow",
+      "description": "Workflow functionality to define events and responses for e-documents, including when documents are created and which service to send them to, with support for multiple service destinations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1218.8,
+      "t_end": 1276,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "workflow",
+        "automation",
+        "document routing"
+      ],
+      "system": "localization"
+    },
+    {
+      "name": "Document Sending Profile",
+      "description": "Configuration that specifies which e-document service flow to use for documents, enabling electronic document processing for customers.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1276,
+      "t_end": 1296.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "document sending",
+        "profiles",
+        "setup"
+      ],
+      "system": "localization"
+    },
+    {
+      "name": "E-Document status tracking",
+      "description": "Real-time status view for e-documents in the processing pipeline, with detailed service-level status, logs showing chronological events, mapping details, and communication logs between Business Central and services.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1337,
+      "t_end": 1462.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "status tracking",
+        "monitoring",
+        "logs"
+      ],
+      "system": "localization"
+    },
+    {
+      "name": "Manual e-document actions",
+      "description": "Options to manually send, recreate, cancel, or get approval for e-documents when automatic processing encounters errors, allowing recovery from service issues.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1529.3,
+      "t_end": 1549.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "error handling",
+        "manual actions",
+        "recovery"
+      ],
+      "system": "localization"
+    },
+    {
+      "name": "E-document receiving via background job",
+      "description": "Automated receiving of e-documents through background job processing, which pulls documents from configured receiving endpoints and automatically creates purchase invoices with field mapping from external documents.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1586.4,
+      "t_end": 1715.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "receiving",
+        "background jobs",
+        "automation"
+      ],
+      "system": "localization"
+    },
+    {
+      "name": "Import electronic documents to purchase invoice",
+      "description": "Receive e-documents and automatically create purchase invoices from them, with automatic mapping of items based on item references.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1620.5,
+      "t_end": 1715.8,
+      "is_demoed": true,
+      "caveats": [
+        "Only for creating new purchase orders, not updating existing ones",
+        "Item mapping required or must use alternative mapping methods"
+      ],
+      "tags": [
+        "purchase invoice",
+        "import",
+        "item mapping"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Error handling with item references",
+      "description": "When an item cannot be found during import, the system shows an error and allows bypassing it by mapping text to accounts instead of items.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1715.8,
+      "t_end": 1806.6,
+      "is_demoed": true,
+      "caveats": [
+        "GUI must allow viewing errors",
+        "Manual remapping required when items not found"
+      ],
+      "tags": [
+        "error handling",
+        "item mapping",
+        "troubleshooting"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Import to journal lines",
+      "description": "Alternative option to create journal lines instead of purchase invoice documents when needed, with mapping of vendor charges to specific accounts.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1806.6,
+      "t_end": 1912.1,
+      "is_demoed": true,
+      "caveats": [
+        "Requires manual configuration of vendor to account mapping"
+      ],
+      "tags": [
+        "journal",
+        "import",
+        "alternative routing"
+      ],
+      "system": "localization"
+    },
+    {
+      "name": "Sales invoices to e-invoices",
+      "description": "Create electronic invoices from sales invoices and sales orders for sending.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1945.8,
+      "t_end": 1956.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "sales invoice",
+        "sales order",
+        "e-invoice"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Credit memo handling",
+      "description": "Electronic document handling for credit memos from both sales and purchase side.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1956.4,
+      "t_end": 1976.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "credit memo",
+        "sales",
+        "purchase"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Configurable local features and messages",
+      "description": "E-document features are configurable at local level; basic features in global app but most configuration and messaging depends on local market requirements.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1976.6,
+      "t_end": 1996.6,
+      "is_demoed": false,
+      "caveats": [
+        "Local functionality required for country-specific features"
+      ],
+      "tags": [
+        "localization",
+        "configuration",
+        "extensibility"
+      ],
+      "system": "localization"
+    },
+    {
+      "name": "Update existing purchase orders",
+      "description": "Planned feature to update existing purchase orders with partial invoices from e-documents.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2017.3,
+      "t_end": 2057.6,
+      "is_demoed": false,
+      "caveats": [
+        "Not available in current release"
+      ],
+      "tags": [
+        "purchase order",
+        "roadmap",
+        "partial invoicing"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Third-party access points app",
+      "description": "New app on top of e-document core for third-party access point communication, planned for end of year.",
+      "status": "announced",
+      "status_evidence_t": 2017.3,
+      "status_evidence_quote": "we are preparing this third party access points app it will be already until the end of this year as a new app on",
+      "status_evidence_verified": true,
+      "t_start": 2017.3,
+      "t_end": 2037.4,
+      "is_demoed": false,
+      "caveats": [
+        "Separate app from core e-document functionality"
+      ],
+      "tags": [
+        "access points",
+        "roadmap",
+        "integration"
+      ],
+      "system": "localization"
+    },
+    {
+      "name": "Country-specific localizations",
+      "description": "E-invoicing localizations for multiple countries based on local enforcement dates and regulatory requirements.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2037.4,
+      "t_end": 2077.8,
+      "is_demoed": false,
+      "caveats": [
+        "Delivery depends on country enforcement dates",
+        "Not all countries confirmed yet"
+      ],
+      "tags": [
+        "localization",
+        "denmark",
+        "belgium",
+        "roadmap"
+      ],
+      "system": "localization"
+    },
+    {
+      "name": "Access point provider options",
+      "description": "Customers and partners can choose which certified access point provider to use based on country requirements; Microsoft provides integration with third-party certified providers.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2077.8,
+      "t_end": 2138.4,
+      "is_demoed": false,
+      "caveats": [
+        "Access point certification requirements vary by country",
+        "Some countries provide uncertified endpoints, others require certified services"
+      ],
+      "tags": [
+        "access points",
+        "localization",
+        "integration",
+        "certification"
+      ],
+      "system": "localization"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "E-Document Service",
+      "t": 1111.6
+    },
+    {
+      "type": "other",
+      "name": "E-Document Workflow",
+      "t": 1218.8
+    },
+    {
+      "type": "other",
+      "name": "Document Sending Profile",
+      "t": 1276
+    },
+    {
+      "type": "other",
+      "name": "Posted Sales Invoice page",
+      "t": 1337
+    },
+    {
+      "type": "other",
+      "name": "E-Document page",
+      "t": 1337
+    },
+    {
+      "type": "other",
+      "name": "E-Document Service Status",
+      "t": 1377.3
+    },
+    {
+      "type": "other",
+      "name": "E-Document Logs",
+      "t": 1397.9
+    },
+    {
+      "type": "other",
+      "name": "Communication Logs",
+      "t": 1444.1
+    },
+    {
+      "type": "other",
+      "name": "document service",
+      "t": 1586.4
+    },
+    {
+      "type": "other",
+      "name": "job queue",
+      "t": 1620.5
+    },
+    {
+      "type": "other",
+      "name": "item reference",
+      "t": 1685.8
+    },
+    {
+      "type": "other",
+      "name": "map text to account",
+      "t": 1773.7
+    },
+    {
+      "type": "other",
+      "name": "GL account",
+      "t": 1793.4
+    },
+    {
+      "type": "other",
+      "name": "GL entry",
+      "t": 1890.9
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Vladimir Magnus",
+      "confidence": "medium"
+    },
+    {
+      "name": "Magnus",
+      "confidence": "high"
+    },
+    {
+      "name": "Vladimir",
+      "confidence": "medium"
+    },
+    {
+      "name": "Alexander",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 64.8,
+      "text": "CTC new acronym and relatively new term and it stands for continuous transaction control as a this term is used to describe mandator real",
+      "why_it_matters": "Defines the core regulatory requirement driving e-invoicing adoption across multiple countries",
+      "check": "exact"
+    },
+    {
+      "t": 114,
+      "text": "the name of our model from evoice into e documents in the first release we will be focused on a invoicing on",
+      "why_it_matters": "Clarifies the naming change and release strategy, showing focus on invoicing as the primary capability",
+      "check": "fuzzy"
+    },
+    {
+      "t": 174.4,
+      "text": "solution was create one core electronic invoicing or electronic document system as a global app for all countries it will not be 100%",
+      "why_it_matters": "Explains the strategic decision to build a unified global solution rather than country-specific implementations",
+      "check": "exact"
+    },
+    {
+      "t": 234.7,
+      "text": "this road map is maybe not 100% accurate as governments are changing their enforcement date all the time it was accurate in one moment",
+      "why_it_matters": "Sets expectation that the roadmap is subject to change due to government enforcement date volatility",
+      "check": "exact"
+    },
+    {
+      "t": 336.6,
+      "text": "only 6 of 187 participants say that they do not need it they do not need electronic invoice in the bus center",
+      "why_it_matters": "Provides market research evidence that 94% of Business Central users want e-invoicing capability",
+      "check": "fuzzy"
+    },
+    {
+      "t": 745.6,
+      "text": "the biggest part of our e doent core app is an extension and this is a global extension for all countries it will be",
+      "why_it_matters": "Details the architectural approach as a global extension to maintain consistency across all implementations",
+      "check": "exact"
+    },
+    {
+      "t": 786.1,
+      "text": "these apps made by Microsoft should provide minimum 80% of required features maybe even more but minimum 80%",
+      "why_it_matters": "Sets expectation for the minimum functionality coverage of the global e-document apps",
+      "check": "exact"
+    },
+    {
+      "t": 804.5,
+      "text": "Microsoft will provide specific local ations um in some countries it can be only file format but sometimes it can be in service integration",
+      "why_it_matters": "Clarifies the scope of Microsoft localization support varies by country, ranging from file formats to full service integrations and schema changes.",
+      "check": "exact"
+    },
+    {
+      "t": 906,
+      "text": "BS Central B Cent handle what is required by default what is required to deliver invoicing and other documents to receive to exchange messages",
+      "why_it_matters": "Defines the baseline functionality Business Central provides for e-invoicing versus what third-party access point providers deliver.",
+      "check": "exact"
+    },
+    {
+      "t": 1010,
+      "text": "we did the heavy lifting we package all of that in E doent core application and that's a framework to speed up your productivity",
+      "why_it_matters": "Explains the value proposition of the e-document core as a reusable framework that partners can build on.",
+      "check": "exact"
+    },
+    {
+      "t": 1030.7,
+      "text": "all you need to do basically we package the we created interface for creating and importing documents and for integrating with an endpoint to",
+      "why_it_matters": "Shows the interface-based design of e-document core that allows partners to implement only format-specific and endpoint-specific logic.",
+      "check": "exact"
+    },
+    {
+      "t": 1357.2,
+      "text": "the electronic document status is set to process this gives you a real-time View at where the document is in the in the pipeline",
+      "why_it_matters": "Demonstrates real-time visibility into document processing status, a key operational feature for users.",
+      "check": "exact"
+    },
+    {
+      "t": 1529.3,
+      "text": "we give you the option to use manual actions as you can see here we can actually send the document we can recreate the",
+      "why_it_matters": "Shows resilience features for recovery from service failures, allowing manual intervention when automatic processing fails.",
+      "check": "exact"
+    },
+    {
+      "t": 1654.7,
+      "text": "we didn't get any error so we already created a purchase invoice out of the document",
+      "why_it_matters": "Demonstrates automatic purchase invoice creation from e-documents on successful import",
+      "check": "exact"
+    },
+    {
+      "t": 1945.8,
+      "text": "from purchase side you can import um uh your electronic documents to purchase inv voice and purchase order but only if you want to",
+      "why_it_matters": "States the current capability limitation that purchase orders cannot be updated with partial invoices",
+      "check": "exact"
+    },
+    {
+      "t": 1956.4,
+      "text": "you can uh you can import to journal as well",
+      "why_it_matters": "Reveals an undocumented alternative routing option for e-document imports",
+      "check": "exact"
+    },
+    {
+      "t": 1976.6,
+      "text": "this is configurable you can configure really on a really good level and you can extend if you need for your local markets",
+      "why_it_matters": "Emphasizes the extensibility and local configuration capabilities of the e-document solution",
+      "check": "exact"
+    },
+    {
+      "t": 1996.6,
+      "text": "we don't want to finish in one releasee electronic document because this is complex story and we will continue in next minimum two releases",
+      "why_it_matters": "Confirms ongoing development with commitment to improvements over at least two more releases",
+      "check": "exact"
+    },
+    {
+      "t": 2017.3,
+      "text": "we are preparing this third party access points app it will be already until the end of this year as a new app on",
+      "why_it_matters": "Announces planned third-party access point app delivery timeline",
+      "check": "exact"
+    },
+    {
+      "t": 2037.4,
+      "text": "updating existing purchase order that means in a case you already have created purchase order and now you will get purchase invoice for just",
+      "why_it_matters": "Describes the planned first major roadmap feature for partial invoice updates",
+      "check": "exact"
+    },
+    {
+      "t": 2057.6,
+      "text": "Denmark and Belgium will come first but all other countries depends on a enforcement dates on a local markets",
+      "why_it_matters": "Sets expectations for localization delivery priority based on regulatory timelines",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 234.7,
+      "kind": "subject-to-change",
+      "text": "this road map is maybe not 100% accurate as governments are changing their enforcement date all the time"
+    },
+    {
+      "t": 765.8,
+      "kind": "coming-later",
+      "text": "we will soon provide additional e doent global app ready to connect with a third party services"
+    },
+    {
+      "t": 804.5,
+      "kind": "subject-to-change",
+      "text": "eventually maybe even new tables and Fields if necessary it depends from requirement local requirements"
+    },
+    {
+      "t": 1945.8,
+      "kind": "not-in-this-release",
+      "text": "from purchase side you can import um uh your electronic documents to purchase inv voice and purchase order but only if you want to create new purchase order not to update existing one"
+    },
+    {
+      "t": 1996.6,
+      "kind": "coming-later",
+      "text": "we will continue in next minimum two releases to deliver uh new features"
+    },
+    {
+      "t": 2017.3,
+      "kind": "coming-later",
+      "text": "third party access points app it will be already until the end of this year as a new app"
+    },
+    {
+      "t": 2037.4,
+      "kind": "coming-later",
+      "text": "updating existing purchase order that means in a case you already have created purchase order and now you will get purchase invoice for just part of this purchase order and to map it this is something what we are planning to deliver as a first"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 21,
+    "quotes_dropped": 0,
+    "evidence_verified": 2,
+    "evidence_unverified": 24
+  },
+  "windows": 3,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.029259
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.02803
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.027471000000000002
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.04428
+    }
+  ]
+}

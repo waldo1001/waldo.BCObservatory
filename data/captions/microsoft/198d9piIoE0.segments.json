@@ -1,0 +1,301 @@
+{
+  "video_id": "198d9piIoE0",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 19,
+      "end": 31.1,
+      "text": "hello and thank you I'm Andre Pano and I will be doing demos for you today in this release we continue our investment into warehouse in Inventory management and we also added"
+    },
+    {
+      "t": 31.1,
+      "end": 50.4,
+      "text": "num of features some were added by internal R&D team but we also received a lot of valuable contributions from the community you can find all the details in the release notes it also contains screenshots but in this session I will focus on one or actually number of scenarios around"
+    },
+    {
+      "t": 50.4,
+      "end": 70.4,
+      "text": "reservation and we will try to find answers on questions how you as a user can find the answer what is the status of existing demand document where demand document can be sales order or production consumption or assembly order or jobs and and so on and once you figured out that this document is ready"
+    },
+    {
+      "t": 70.4,
+      "end": 90.8,
+      "text": "for shipment or for consumption how to move it to the next stage and start processing maybe even in automatic mode without your uh involvement and because these two will be very much dependent on the reservation status then the next question or how do how to do reservations"
+    },
+    {
+      "t": 90.8,
+      "end": 105.7,
+      "text": "in the most efficient way let's see let's start with exploring how would you do this in the classical way so for example you create sales order and we click new and pick our favorite"
+    },
+    {
+      "t": 105.7,
+      "end": 125.8,
+      "text": "customer which will be of course AUM Corporation and some item I created special items to demonstrate that this is a oalt way of doing things all right right let's pick some quantity the next field which is important to populate for processing"
+    },
+    {
+      "t": 125.8,
+      "end": 145.9,
+      "text": "will be uh date so it will be either requested delivery date if your customer knows when they want things to be available for example if it's part of the bigger project like construction or building something huge and they need stuff in the delivered in specific time or they don't care but they would like to ask like as soon"
+    },
+    {
+      "t": 145.9,
+      "end": 164.2,
+      "text": "as possible and in this case you can use our already available order promising functionality for example let's choose a capable to promise and let's system to calculate when things will be available if we will place order right now okay in couple of weeks"
+    },
+    {
+      "t": 164.2,
+      "end": 181,
+      "text": "accept and now the only thing is to wait yeah wait till date uh comes and then you need to check if customer calls you and ask like what is the status then you need to find the document and in some situation you can explore the reservation"
+    },
+    {
+      "t": 181,
+      "end": 201.2,
+      "text": "okay there is no hope this request is still in form of requisition line so nobody actually submitted to to order uh to vendor not good uh too many clicks especially if there are so many so many lines so what can we do better first of all the good indicator that something can be really shipped"
+    },
+    {
+      "t": 201.2,
+      "end": 221.6,
+      "text": "or used if it is already available in in stock in warehous so why not to check it and if you have things already reserved then we added a new field which shows reserved from stock in a very simple way it has three options none nothing is reserved from stock partial if some quantity"
+    },
+    {
+      "t": 221.6,
+      "end": 242,
+      "text": "is reserved from stock others are either not reserved at all or are reserved from a different source for example from uh production output and they still need to be produced or fully if this is also an option if everything is available reserved and it means you can just go and do so this is per line"
+    },
+    {
+      "t": 242,
+      "end": 262.1,
+      "text": "if you have multiple lines probably you would like to understand the overall uh situation in this case we added this control also in the statistic pages of the different documents we will take a look at it in details later so Reserve from stock relating to the whole document like okay in this"
+    },
+    {
+      "t": 262.1,
+      "end": 282.6,
+      "text": "specific document nothing to to be shipped because nothing is available Okay so in some replenishment mechanism reservation created automatically what it is assembly to order which are automatically reserved capable to promise which creates a supply linked to this demand and reserved for it"
+    },
+    {
+      "t": 282.6,
+      "end": 302.6,
+      "text": "also you can do it if planning mechanism is order or in some cases you can activate reservation like manually but but what if you're using a lot for lot planning policy or if you uh prefer to deal with a reorder Point replenishment mechanism then you"
+    },
+    {
+      "t": 302.6,
+      "end": 322.9,
+      "text": "need then reservation is not there you need to reserve manually and this might be a not that easy task not anymore with a new page which is called reservation worksheet you can do it in dramatically less number of clicks let's start by choosing get demand action"
+    },
+    {
+      "t": 322.9,
+      "end": 343.2,
+      "text": "and in this request page we will ignore it for now and press okay and what do we see here we see that system actually gather different demand it can be sales transfer job assembly production orders and all of them need to be uh reserved but also"
+    },
+    {
+      "t": 343.2,
+      "end": 356.8,
+      "text": "they have items which are both available on stock and not reserved for something else so like okay this is a good situation let me change"
+    },
+    {
+      "t": 358.5,
+      "end": 378.9,
+      "text": "sorting and let's start processing how do we do that we put seven here then we h no of course not we are not doing it one by one we have probably couple of actions to automate this process let's me press allocate button and what happened magic yeah so multiple lines"
+    },
+    {
+      "t": 378.9,
+      "end": 399,
+      "text": "where we received recommended quantity to Reserve System decided to do it in a safe way you can see that uh you can see for example for this line we have a lot available and we have very limited demand so like 100% can be covered yeah in this case system allocate stuff it also"
+    },
+    {
+      "t": 399,
+      "end": 419,
+      "text": "does it full allocation if a quantity is enough even if there are multiple demands but what if quantity is not enough for one or if it doesn't know how to allocate available quantity among different supplies is Skip but let's go and take a look"
+    },
+    {
+      "t": 419,
+      "end": 434.6,
+      "text": "in the allocation policies basically it's not only option like this is a basic one which is run by default and it executes the safest allocation you can also add additional one which is in this case is"
+    },
+    {
+      "t": 434.6,
+      "end": 454.8,
+      "text": "equally and uh guess what it equally distributes things you can combine multiple stuff today it's only two we plan to add more you can also add more allocation rules which better fit your company processes and rules all right let's run it again and we can see that"
+    },
+    {
+      "t": 454.8,
+      "end": 474.8,
+      "text": "now all 10 allocated even if we needed 12 and here for this four demands we received 15 quantity each for each line that looks equal enough okay but before we move forward and actually do reservation let me show you"
+    },
+    {
+      "t": 474.8,
+      "end": 495.1,
+      "text": "batches in some companies more than one person is doing allocation and they have different preferences so let's take a look at the bdch which is not that simple it has additional settings available for example you can apply different filters and focus on specific type of demand somebody prefers to do allocation only for production"
+    },
+    {
+      "t": 495.1,
+      "end": 514.7,
+      "text": "orders because they are responsible for this area others sales orders or maybe you don't want to system to suggest reservation for some orders or some demand in the uh future like okay you have order with a due date in 12 months maybe it's not"
+    },
+    {
+      "t": 514.7,
+      "end": 535,
+      "text": "uh good idea to reserve it right now so you can put some uh period like starting and end date uh instructing which uh documents should be included into the reservation also you can focus on items we have a cool filter capability which allows you to filter"
+    },
+    {
+      "t": 535,
+      "end": 555.2,
+      "text": "not only by number but basically by any field you can have in the the item table including custom Fields so the same mechanism we have in the demand for cast today plus location somebody responsible per specific location also you can Define different allocation policies and if"
+    },
+    {
+      "t": 555.2,
+      "end": 571.8,
+      "text": "and there combin combinations for bches okay let's select this one and go home get demand and in this case I will uh first of all I will show you that uh filters are copied from the"
+    },
+    {
+      "t": 571.8,
+      "end": 584,
+      "text": "bdch okay and I will activate allocate after populate toggle which will do clicking instead of me so I just need to run the stuff and"
+    },
+    {
+      "t": 584,
+      "end": 598.1,
+      "text": "uh my location my items are proposed and you can see that system already allocated as much as possible including equal allocation of partially available items"
+    },
+    {
+      "t": 598.1,
+      "end": 618.3,
+      "text": "okay we also use accept toggle when we deal with reservations so let's select these four lines and mark them as also accepted because we would like to apply this change and click make reservation you can also decide if you want to apply"
+    },
+    {
+      "t": 618.3,
+      "end": 639,
+      "text": "reservation for specific document type I will go continue with all all right click okay everything is reserved that was uh long story but very efficient way in reality to reserve things from the stock this is very important information from the stock"
+    },
+    {
+      "t": 639,
+      "end": 659,
+      "text": "all right how can we use this information right now of course statistics is updated we will take at it later but let's start with something which was part of the product for a long time but now we can take a look at this uh report again so we are interested in sales"
+    },
+    {
+      "t": 659,
+      "end": 667.6,
+      "text": "lines on yellow location and let's take a"
+    },
+    {
+      "t": 667.9,
+      "end": 688.4,
+      "text": "preview probably makes sense to zoom a little bit and scroll down okay so I have my very special items which is called reserved fully partially or not reserved and you can see it is has a different status how how it is available how it is reserved and system shows the information so if you are not using any advanced"
+    },
+    {
+      "t": 688.4,
+      "end": 708.6,
+      "text": "uh function it you can use this report to update quantity in order lines like the same way as it was possible before but now with reservation available if you use more advanced techniques for example you prefer to use Warehouse shipments uh in this case we added a special report which"
+    },
+    {
+      "t": 708.6,
+      "end": 727.4,
+      "text": "has two purposes purpose number one it can use filters for example let's pick full option for Reserve from stock uh uh filter option what does it mean it will"
+    },
+    {
+      "t": 727.8,
+      "end": 747.8,
+      "text": "create Warehouse shipment for yellow locations but only include lines which are completely reserved let's click okay and let's go and explore created Warehouse shipments okay I have two of those and this one has fully reserved item and the second also has fully reserved item only even"
+    },
+    {
+      "t": 747.8,
+      "end": 768.3,
+      "text": "if we remember that the spec the second order contained three lines originally including partially and not reserved item so this is like option number one to automate so you can push Warehouse receipts for processing to Warehouse team directly so no need to actually go and analyze each sales document individually uh the same"
+    },
+    {
+      "t": 768.3,
+      "end": 784.3,
+      "text": "functionality kind of the same functionality also available in the basic Warehouse when when we talk about inventory PS I will select inventory pick Reserve from stock full and partial partial and filter by location"
+    },
+    {
+      "t": 784.3,
+      "end": 798,
+      "text": "yellow some might be curious how I'm going to use and Warehouse receipts and inventory pcks from the same location this is also something which changes in this version let me click"
+    },
+    {
+      "t": 798,
+      "end": 814.3,
+      "text": "okay and inventory PS were created let's open them and explore okay in this case I have PS for jobs and this is a fully reserved let's scroll to the next one one this one is fully and partially reserved and if I will go to original Source"
+    },
+    {
+      "t": 814.3,
+      "end": 833.3,
+      "text": "document for example to job card I can check first of all uh statistics yeah in general the document is partially available because some lines are fully some lines are partially let's take a"
+    },
+    {
+      "t": 833.3,
+      "end": 843.7,
+      "text": "look and some lines are not reserved at all what about quantity yeah quantity res reserved you can see looks different"
+    },
+    {
+      "t": 843.7,
+      "end": 863.8,
+      "text": "okay uh let's go back to to very basic scenarios when you do not use Warehouse handling for example for consumption let's go to consumption Journal which is part of manufacturing model and calculate consumption and we can also have the same filter here for example we will"
+    },
+    {
+      "t": 863.8,
+      "end": 883.9,
+      "text": "focus on full reservation status let's click okay and we will get two lines if I will drill down to the list of components in this specific order you will see yeah we have three components but only one accordingly to its name is fully reserved all right we can go also to the order and"
+    },
+    {
+      "t": 883.9,
+      "end": 904,
+      "text": "let me demonstrate you my favorite feature from a client added into this release show details uh let's open the order and we can also take a look at the statistics here again Reserve from St partial added into multiple places so you can check the reservation status basically"
+    },
+    {
+      "t": 904,
+      "end": 924.2,
+      "text": "on any document so what we figured it out so now you can check status of the demand document uh based on its reservation status much easier you just check the statistic page but you don't need to do it in reality because you can configure your system to run"
+    },
+    {
+      "t": 924.2,
+      "end": 941.3,
+      "text": "some task into background in the Via job queue and push documents to the next stage for example create Warehouse shipments or create inventory pck or even to do uh update quantity to to ship or quantity to"
+    },
+    {
+      "t": 941.3,
+      "end": 954.8,
+      "text": "consume in documents and because both of them are based on reservation we figure it out how to use reservation worksheet to do reservations in a very efficient"
+    },
+    {
+      "t": 954.8,
+      "end": 974.7,
+      "text": "way as I mentioned during demonstration I'm using yellow look location for different kind of Warehouse handling if you want to know more take a look at what's new in warehouse management and if you're already interested in Warehouse handling it makes sense to check another session where we demonstrating new barcode scanning capabilities on mobile"
+    },
+    {
+      "t": 974.7,
+      "end": 994.7,
+      "text": "device also I would like to mention different resources and let's start by submit your idea even if it looks like one directional because it has one directional Arrow vot placed there and ideas really matters we have a more chatty conversation in a different for it's called"
+    },
+    {
+      "t": 994.7,
+      "end": 1016.2,
+      "text": "Yammer the the first link on the on the left please also join and then you can participate in the design decisions uh discussions and uh impact on what and how is implemented for the product and get also early information up front uh many resources the all"
+    },
+    {
+      "t": 1016.2,
+      "end": 1032.2,
+      "text": "valuable links are links available here if you use this link BC all thank you and let's stay in"
+    },
+    {
+      "t": 1032.2,
+      "end": 1033,
+      "text": "touch"
+    }
+  ],
+  "markers": [
+    {
+      "t": 3.58,
+      "text": "[Music]"
+    },
+    {
+      "t": 18.95,
+      "text": "[Music]"
+    },
+    {
+      "t": 18.96,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 2432
+}

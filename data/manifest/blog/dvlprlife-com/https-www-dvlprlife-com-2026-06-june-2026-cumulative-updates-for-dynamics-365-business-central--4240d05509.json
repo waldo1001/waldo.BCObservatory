@@ -7,13 +7,39 @@
   "url": "https://www.dvlprlife.com/2026/06/june-2026-cumulative-updates-for-dynamics-365-business-central/",
   "published_at": "2026-06-08T12:32:29.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:55:53.326Z",
+      "path": "vault:posts/dvlprlife-com/https-www-dvlprlife-com-2026-06-june-2026-cumulative-updates-for-dynamics-365-business-central--4240d05509.md",
+      "words": 152
+    },
+    "extracted": {
+      "at": "2026-10-06T21:56:00.264Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": 0.004942
+    },
+    "summarized": {
+      "at": "2026-10-06T21:56:00.266Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:56:00.267Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:56:00.271Z",
+      "path": "content/posts/dvlprlife-com/https-www-dvlprlife-com-2026-06-june-2026-cumulative-updates-for-dynamics-365-business-central--4240d05509.md"
     }
   },
   "input_hash": null,
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ab7cb68e5e70f836fb67e5fed7c0cb6072f955816d740138065971fd5e697c41"
 }

@@ -1,0 +1,411 @@
+{
+  "video_id": "7rIHz0zrgWU",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 18.7,
+      "end": 39.4,
+      "text": "welcome to this business Central launch event session in the 2023 release Wave 2 watch new in Telemetry in this session I'm going to talk a little bit about different insights you can get from Telemetry data so focusing on performance and errors"
+    },
+    {
+      "t": 39.4,
+      "end": 54.4,
+      "text": "talking a little bit about a new data that is coming soon in wave in 20 version 23 or later or in a minus to 23 some tips and tricks and finally resources for you to go home and do"
+    },
+    {
+      "t": 54.4,
+      "end": 74.4,
+      "text": "more for performance since the last launch event video for wave one we added AI assisted performance analysis to the powerp app so business Central is released twice a year in these two release waves and the minor updates to"
+    },
+    {
+      "t": 74.4,
+      "end": 94.9,
+      "text": "business Central come in typically for the online service four different miners the powerbi uh app and the Telemetry is released pretty much on a monthly schedule so what you see here in this session is what ever was released since May 2023 so"
+    },
+    {
+      "t": 94.9,
+      "end": 114.9,
+      "text": "the first is AI assisted performance analysis each page in the performance report now have ai assistance um so there's a generated summary there is key insights uh and other things and I'll walk you through these um to kind of give you an idea of how you can"
+    },
+    {
+      "t": 114.9,
+      "end": 135.6,
+      "text": "use this the first uh is that there is a a text representation a summary in English of of of whatever is happening in this report and this is for all the reports or the pages in the in the performance report this might not show any data it might not show anything interesting"
+    },
+    {
+      "t": 135.6,
+      "end": 155.2,
+      "text": "uh because this really depends on what the AI what kind of data the AI has available if you don't have a lot of data it might just not show you if it has a lot of variety and variance in that data it might show you some insights so so don't dispair if there's nothing here for you to"
+    },
+    {
+      "t": 155.2,
+      "end": 175.6,
+      "text": "analyze the next key thing is uh is something called key influencers a visual that is on all these report Pages the key influencers will analyze the data and and and pick up patterns so for instance for this data set the AI picked"
+    },
+    {
+      "t": 175.6,
+      "end": 196,
+      "text": "that apparently that that there is um one app here where there's a regression uh there's a performance regression and you can see uh this app compared to other apps and um and maybe there's something interesting there you can then click on whatever insights uh or Dimension"
+    },
+    {
+      "t": 196,
+      "end": 216.7,
+      "text": "to this is interesting and then the report will filter to that uh below and you can kind of investigate further as a human what the AI assisted you that this might be interesting so key influencers is one another uh similar analysis is top segments again the AI will do a segmentation"
+    },
+    {
+      "t": 216.7,
+      "end": 237.1,
+      "text": "of all the data and look for patterns in in different clusters and present you these clusters then you can click on a segment and and that would filter the rest of the report to to that segment the third type of analysis that we added is helping you to do root course analysis"
+    },
+    {
+      "t": 237.1,
+      "end": 257.2,
+      "text": "so this is called a decomposition tree and this is an the the AI part of this is that the AI will actually suggest high or low values that influence this thing whatever that thing you are investigating is uh in this report we're looking at page views and for page views"
+    },
+    {
+      "t": 257.2,
+      "end": 270.6,
+      "text": "we want to see what influence the the load time of pages and then the AI would suggest the most likely thing that explains uh things which in this uh case here was the table information"
+    },
+    {
+      "t": 270.6,
+      "end": 290.8,
+      "text": "page if I then click the high value it would find the next Dimension to this problem and then finally these are not really AI but these are just for your convenience before you dive into the detailed report there is now a top 10 slowest and at um both on a tabular form and on a on a graph"
+    },
+    {
+      "t": 290.8,
+      "end": 302.2,
+      "text": "where you can then kind of see what are the my top 10 most urgent things to fix again you can click one of these and the report will filter to"
+    },
+    {
+      "t": 302.2,
+      "end": 322.2,
+      "text": "that okay so that was AI then a few small things we added is that for API calls when you call into business Central with o data and API we have a queuing mechanism in the server to make sure that you cannot flood the the server with traffic and and and degrade"
+    },
+    {
+      "t": 322.2,
+      "end": 342.1,
+      "text": "performance for everyone will actually queue up these calls in Telemetry you now have uh data about how how much time did your API call spent in the que and these Q time statistics are now also showing on the incoming web service calls uh performance"
+    },
+    {
+      "t": 342.1,
+      "end": 362.5,
+      "text": "page for long running Al we added both the total and exclusive time uh in in this um in this data meaning that you can you can kind of filter away uh time spent in modal dialogues and others to see either what was the total time spent"
+    },
+    {
+      "t": 362.5,
+      "end": 382.7,
+      "text": "as seen from the user but also what was the kind of the tuning potential which is the exclusive time and for a long running Al Telemetry we also added SQL statistics so for long running Al you can also easily see whether this this long runn Al is also doing long running operations"
+    },
+    {
+      "t": 382.7,
+      "end": 403.1,
+      "text": "on SQL for job cues we added the job que entry description to Telemetry so now the job queue performance reports have a hierarchy here on object Name ID type and description so it should be easy to for you to kind of see job queue entries"
+    },
+    {
+      "t": 403.1,
+      "end": 423.1,
+      "text": "um that that take a long time and then finally for reporting uh we also added now a section to the powerbi report on both how long time it takes to generate the data set as well as how long time it took to render the report"
+    },
+    {
+      "t": 423.1,
+      "end": 439.8,
+      "text": "so in case you want to dive into performance of reports it could be that it's either the data set or the layout uh that where time is spent and you can now use this visual to find that and uh and investigate"
+    },
+    {
+      "t": 439.8,
+      "end": 459.8,
+      "text": "further the second insights is errors so in the error Telemetry and the reporting on that we added a lot of troubleshooting guides in docs to help you troubleshoot uh web service errors and these uh come with with support in the powerp apps"
+    },
+    {
+      "t": 459.8,
+      "end": 479.8,
+      "text": "so first there is improved filtering on HTTP status codes and also visuals that that show you errors in uh incoming web service requests based on HTTP status so you combine this report with a new troubleshooting guide in docs for each of these status Cod codes"
+    },
+    {
+      "t": 479.8,
+      "end": 499.9,
+      "text": "HP status codes you can now see in docs kind of what does a 400 code mean and how what can I do about it so there's also suggested Solutions directly in docs so you can you can now go from the insights in powerbi into docs and see okay if I get this error what should I do go"
+    },
+    {
+      "t": 499.9,
+      "end": 520,
+      "text": "back to your developers and ask them to go fix things if you do work with web services and call in web services it's really important that you set the user agent when you call business Central because if you do so these user agents will"
+    },
+    {
+      "t": 520,
+      "end": 540.1,
+      "text": "then show up in your powerbi error report on web services here so you can kind of see this particular web service call failed and it was this a this was this client over here this whatever client could be powerbi power automate your own client ient"
+    },
+    {
+      "t": 540.1,
+      "end": 560.2,
+      "text": "if you put that uh user agent in there you can actually see where to troubleshoot in your code you also get exceptions from the server as well as Diagnostics message from the server the AL call stack as well so that helps you troubleshoot even further um so which"
+    },
+    {
+      "t": 560.2,
+      "end": 573.7,
+      "text": "client your web service client is getting is having a problem and why as a new thing in this release actually this was backported so it's already available in 22."
+    },
+    {
+      "t": 573.7,
+      "end": 587.3,
+      "text": "X um web service metadata wrong metadata in the past could actually fail the full web service stack for an environment not anymore so from version 22."
+    },
+    {
+      "t": 587.3,
+      "end": 608.2,
+      "text": "X we will only fail the actual service calls that where there's a metadata problem so with this Telemetry and this report you can now find these points that uh that are failing um and then fix them and go to your developers and say look this is a problem you need to go"
+    },
+    {
+      "t": 608.2,
+      "end": 628.4,
+      "text": "fix similarly similarly to uh to incoming web services the the pages for outgoing web services also have improved filtering on status codes and new visuals that also show uh status codes um based on uh on endpoint use that together with the troubleshooting guide"
+    },
+    {
+      "t": 628.4,
+      "end": 649.2,
+      "text": "go to develop velers and ask them to fix things in this case the developer is likely to be the service you're calling out to and not uh in your Al code it could but it yeah that's probably where the I would go we got support for aser functions in a system module last year and now we have also"
+    },
+    {
+      "t": 649.2,
+      "end": 667.4,
+      "text": "Telemetry on usage and errors of aure functions and a report to support that so if you call out to aure functions from Al um there's now also a supporting report that can show you uh errors and you can use that to alert and and fix"
+    },
+    {
+      "t": 667.4,
+      "end": 679.4,
+      "text": "things for email module if you're using SMTP you probably should um there's an new there's new uh Telemetry data from version"
+    },
+    {
+      "t": 679.4,
+      "end": 699.7,
+      "text": "22.3 and this uh this new error signal for SMTP is now reflected in the error report on email here so so that you can use this CT to troubleshoot email errors and hopefully also alert on this so that you uh that that you make sure that you your customer's email integration"
+    },
+    {
+      "t": 699.7,
+      "end": 719.7,
+      "text": "actually works for job queue similar to to Performance um we have descriptions um so job Q entry descriptions is part of telemetry we also have u a better way for you to find non retriable job queue exceptions because what we will do do"
+    },
+    {
+      "t": 719.7,
+      "end": 739.8,
+      "text": "on the server for job cues is if the type of exception that uh for a failed job queue is fatal we will stop the job queue that means you would need to kind of go figure which job cues were stopped and will not uh we don't want to retry things"
+    },
+    {
+      "t": 739.8,
+      "end": 754.8,
+      "text": "where it's obvious that it will fail again so you get these new uh visuals to show you non retriable job que exec fusions and also a way to filter this report uh to find"
+    },
+    {
+      "t": 754.8,
+      "end": 775,
+      "text": "those um and as I mentioned job Q description is also part of the job que error Telemetry and also part of the job que error report there's also um one thing is stopping job cues if they fail due to non retriable exceptions we actually also stop job Q"
+    },
+    {
+      "t": 775,
+      "end": 795.2,
+      "text": "entries if they exceed the number of retries and and then you need to find out what's going on and and then fix it and then enable again and this new signal is also showed in the in the job queue error report so you can find these repeatable job queue fails and then"
+    },
+    {
+      "t": 795.2,
+      "end": 815.4,
+      "text": "um and then yeah go figure where they are go change the code and get them enabled again if you use the feature Telemetry module which you should as an Al developer uh there's an easier way to troubleshoot feature errors um if you use the lock"
+    },
+    {
+      "t": 815.4,
+      "end": 835.6,
+      "text": "lock error function in the feature module uh we now also show you not only the AL cold stack but we also pass the top and bottom of this to make sure that you can see uh what code failed and in which parts did the failure occur and then finally on all job queue sorry"
+    },
+    {
+      "t": 835.6,
+      "end": 855.6,
+      "text": "on all error Pages we made it easier if there are no no if there's no data to show we now show this green Banner that state oh no data is available this is great no connect errors and so on so so if you see these green uh banners that means that this part of the error"
+    },
+    {
+      "t": 855.6,
+      "end": 875.6,
+      "text": "report is green there's no nothing to show all right what is coming soon um as I mentioned we ship tet whenever it's ready in the Sur um so there's no need to postpone to the next major if something can be uh put"
+    },
+    {
+      "t": 875.6,
+      "end": 892.7,
+      "text": "in in in a minor update or even a platform update in the online service so that that means that these are Telemetry things that is likely to come within the next few months the first is change lock re life cycle events"
+    },
+    {
+      "t": 892.7,
+      "end": 913.7,
+      "text": "so um this whenever a table or field is added or removed from change lock you would get a notification or an event here you could use this to set up alerts in case an administrator suddenly enables Telemetry on a ton of things um or after the fact let's say that you have a performance"
+    },
+    {
+      "t": 913.7,
+      "end": 932.9,
+      "text": "um problem reported from Friday you can go into this change report once it's in in Telemetry and in the in the powerp app and Co there's a lot of Chang log changes to the configuration on Friday that could be the the cause of this performance"
+    },
+    {
+      "t": 932.9,
+      "end": 952.9,
+      "text": "regression for pended extensions there are two new classes of signal the first is related to the the UI where an administrator can upload um pte directly or pendent extensions directly in the client we now have these validations um validation signal"
+    },
+    {
+      "t": 952.9,
+      "end": 973,
+      "text": "on that which means that if you alert on that you can actually see whether a customer is trying to upload pendant extensions and and this is failing these these validations fail and maybe go help them what's probably much more impactful is that we also in"
+    },
+    {
+      "t": 973,
+      "end": 989.6,
+      "text": "the service not on premises validate um pended extensions on environment against next major so we actually try to compile them on the next major and then this Telemetry is then"
+    },
+    {
+      "t": 989.6,
+      "end": 1009.8,
+      "text": "uh send whether these compilation validations succeed or fail so that means once you get this you can start alerting on customers where they will be blocked to upgrade to the next major so I think there this alerting on that can help a lot on getting more reactive"
+    },
+    {
+      "t": 1009.8,
+      "end": 1030.2,
+      "text": "um proactive probably on on uh on potential upgrade bloggers for your customers and then finally business events is the the new kit on the Block for for for version 23 and of course business events will have coverage with Telemetry"
+    },
+    {
+      "t": 1030.2,
+      "end": 1041.1,
+      "text": "um so there's there so you can also start monitoring your business events usage and errors and so on uh with"
+    },
+    {
+      "t": 1041.1,
+      "end": 1061.2,
+      "text": "Telemetry all right a few tips and tricks we have a new page for onboarding signal so there's onboarding cemetry in business Central uh and now you can also see follow up uh on that in powerbi could be that this is something that helps your onboarding uh for the project manager"
+    },
+    {
+      "t": 1061.2,
+      "end": 1081.3,
+      "text": "for controlling onboarding you can see how environments start and finish onboarding criteria across all customers for the isvs in the room um the administration report inventory page you can now see which major version of business Central your app is"
+    },
+    {
+      "t": 1081.3,
+      "end": 1095.8,
+      "text": "installed on uh so you can kind of see where your customers are on the base app of business Central uh and then of course see your app whether you need to fix things in older"
+    },
+    {
+      "t": 1095.8,
+      "end": 1115.9,
+      "text": "versions okay so if you kind of liked all the powerbi uh reports maybe that's something for you um this is where you get stuff first of all the the the powerp app on environments is available on appsource it's called business Central usage"
+    },
+    {
+      "t": 1115.9,
+      "end": 1134.1,
+      "text": "analytics um and the counterpart for isvs is the app usage analytics so both of these apps are available on appsource um and they're free you just need a powerbi pro license to consume and and"
+    },
+    {
+      "t": 1134.1,
+      "end": 1154.2,
+      "text": "refresh um specifically for powerbi the document ation of that is under aka.ms slbc Telemetry and under that section there's a the full article about uh powerbi how to enable powerbi so how to install the apps how to configure the"
+    },
+    {
+      "t": 1154.2,
+      "end": 1165,
+      "text": "apps how to use the apps so go check that out if this is a new territory for you a new thing we added in documentation also under"
+    },
+    {
+      "t": 1165,
+      "end": 1185,
+      "text": "aka.ms slbc Telemetry is um a walkthrough example if you are new to kql kql is the query language for Telemetry custo query language we now added a few a full walk through examples uh taking you from not being able to write"
+    },
+    {
+      "t": 1185,
+      "end": 1205,
+      "text": "kql into a small report uh we are going taking you through analizing report analytics so go check that out if you want to start your journey on analyzing kql it's not super complicated um and we'll hold your hand through this and after that"
+    },
+    {
+      "t": 1205,
+      "end": 1225.3,
+      "text": "you'll be able to kind of slice and dice data in a different way that what you would do with with powerbi and I always when I talk about alerting uh it's important that you also check out to be proactive uh alert on Telemetry you can do it in two different ways one is"
+    },
+    {
+      "t": 1225.3,
+      "end": 1245.5,
+      "text": "just no code with powerbi uh it's called powerbi metrics you can set up a scorecard you can follow certain metrics you can get alerted in teams no developer is involved you can have your own scorecard track things your way and then if you want to be a little bit more complicated or have other"
+    },
+    {
+      "t": 1245.5,
+      "end": 1265.7,
+      "text": "needs uh you can you can do what we call low code alerting with kql either use power automate or a power app or whatever you like Power shell I don't care um and then you need to have alerting conditions what would you like to alert on these are expressed with kql and there are tons"
+    },
+    {
+      "t": 1265.7,
+      "end": 1283.7,
+      "text": "of samples on that available on BCT Tech um and then you kind of just need to have to set up whatever tool you're using how often do you run these queries and which channels you want to alert in so check out our documentation on"
+    },
+    {
+      "t": 1283.7,
+      "end": 1303.9,
+      "text": "alerting uh on docs so go do most important thing if you haven't enabled Cy go do it in deploy an a application resource make sure that you have your cost control uh done that's part of the docs and then added to the environment it also works"
+    },
+    {
+      "t": 1303.9,
+      "end": 1324.1,
+      "text": "on Prem the second thing is install the powerbi apps it requires a powerbi pro license and this gives you insights into usage errors performance and changes to environments or to apps the third go do is I think you should start being proactive set up"
+    },
+    {
+      "t": 1324.1,
+      "end": 1345,
+      "text": "alerts either with powerbi metrics with no code or some low code with power automate logic apps or your own solution but the most important is number four get data driven you start using data to um to drive decisions in your partner practice and"
+    },
+    {
+      "t": 1345,
+      "end": 1366.1,
+      "text": "this even though this session was maybe a little bit about TR shooting you can use Telemetry data to get data driven on your pre-sales on your go lives on your operations support and ongoing sales for customers so the full life cycle of a customer you can cover that with datadriven decisions and I hope you"
+    },
+    {
+      "t": 1366.1,
+      "end": 1381.8,
+      "text": "will other relevant launch event sessions if you are into this topic I would uh strongly consider you especially for onboarding to uh to to go go to the watch new creating customer Centric onboarding"
+    },
+    {
+      "t": 1381.8,
+      "end": 1401.8,
+      "text": "experiences and a counterpart for that or maybe a a followup on that is is uh performance testing before go live with the performance toolkit we actually invested a lot in these two to make the onboarding experience better and the performance toolkit is a way to do concurrency testing"
+    },
+    {
+      "t": 1401.8,
+      "end": 1413,
+      "text": "and use it like can the system handle this load and of course the way to analyze all of this performance data is telemetry and"
+    },
+    {
+      "t": 1413,
+      "end": 1433,
+      "text": "powerbi resources um as always take your questions or discussions to Yammer um if it's shorter things or join the conversation on X Twitter um BC all is the the one and only AKA link you need aka.ms slbc all"
+    },
+    {
+      "t": 1433,
+      "end": 1453,
+      "text": "all the other short links are available there if you have great ideas also for t and other things uh the BC ideas short URL is where you should go and of course everything we talk about here in the launch event is something we also discuss in office hours where you can also ask questions and comments so uh"
+    },
+    {
+      "t": 1453,
+      "end": 1473.2,
+      "text": "so go to aka. msbc office hours to uh to see when is the next available office hour I do believe all the recordings for previous office hours are there as well and with that thank you so much for joining this session on Telemetry I hope you have a great business Central launch event and watch all"
+    },
+    {
+      "t": 1473.2,
+      "end": 1478,
+      "text": "the other videos thank you"
+    }
+  ],
+  "markers": [
+    {
+      "t": 1.07,
+      "text": "[Music]"
+    },
+    {
+      "t": 18.67,
+      "text": "[Music]"
+    },
+    {
+      "t": 18.68,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 3546
+}

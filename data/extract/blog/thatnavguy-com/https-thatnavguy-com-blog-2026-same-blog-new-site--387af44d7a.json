@@ -1,0 +1,48 @@
+{
+  "item_id": "blog/thatnavguy-com/https://thatnavguy.com/blog/2026/same-blog-new-site/",
+  "url": "https://thatnavguy.com/blog/2026/same-blog-new-site/",
+  "title": "Same Blog, New Site",
+  "source": "thatnavguy-com",
+  "published_at": "2026-06-04T00:00:00.000Z",
+  "words": 216,
+  "summary": "That NAV Guy migrated his blog from WordPress to a static site built with Astro, GitHub, and Vercel. The change improves site performance and simplifies maintenance while preserving all existing content and series.",
+  "key_points": [
+    "Blog migrated from WordPress to Astro-generated static HTML for faster load times and easier deployment",
+    "Two hundred posts from 2019 onward were converted from WordPress XML to Markdown files",
+    "All existing content including BC Friday Tips and the UX Series remain accessible",
+    "Site now hosted on GitHub with Vercel deployment for instant updates"
+  ],
+  "systems": [],
+  "topics": [
+    "blog",
+    "website migration",
+    "astro",
+    "static site"
+  ],
+  "objects": [],
+  "features": [],
+  "versions": [],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004345,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "WordPress has served me well, but I had been wanting to move to a simpler static HTML.",
+      "why_it_matters": "Explains the motivation behind choosing a simpler, more performant platform over a traditional CMS"
+    },
+    {
+      "text": "Astro generates pure static HTML. It's modern, pages load fast, deployment is instant.",
+      "why_it_matters": "Highlights the technical benefits of static site generation for performance and deployment speed"
+    },
+    {
+      "text": "Everything that matters. BC Friday Tips continues. The UX Series is still here.",
+      "why_it_matters": "Assures readers that valuable content remains accessible despite the platform change"
+    }
+  ]
+}

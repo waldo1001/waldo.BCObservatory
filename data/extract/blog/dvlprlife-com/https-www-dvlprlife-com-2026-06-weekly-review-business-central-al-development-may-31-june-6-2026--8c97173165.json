@@ -1,0 +1,89 @@
+{
+  "item_id": "blog/dvlprlife-com/https://www.dvlprlife.com/2026/06/weekly-review-business-central-al-development-may-31-june-6-2026/",
+  "url": "https://www.dvlprlife.com/2026/06/weekly-review-business-central-al-development-may-31-june-6-2026/",
+  "title": "Weekly Review: Business Central AL Development – May 31–June 6, 2026",
+  "source": "dvlprlife-com",
+  "published_at": "2026-06-09T13:57:01.000Z",
+  "words": 838,
+  "summary": "This weekly community review highlights four key posts from May 31 - June 6, 2026: BC 28.1's new model switcher for AI agents defaulting to GPT-5.3-chat, where to download standard Power BI reports after the GitHub repo closure, using date formulas to automate posting period restrictions, and cost optimization strategies for GitHub Copilot now that it bills by token usage instead of per-request.",
+  "key_points": [
+    "BC 28.1 introduces a model switcher on the Agents page with Auto as default, plus AL APIs (SetModelId, GetModelId, etc.) for code-defined agents; GPT-5.3-chat suits conversational work while GPT-4.1-latest excels at data parsing",
+    "Standard BC Power BI reports are now distributed via template apps in Power BI (not GitHub); each app works per company, requiring Power BI Pro license",
+    "Date formulas in posting period restrictions (G/L Setup, User Setup, Journal Templates) support dynamic ranges like <-CM> to <CM> or <-30D> to <0D>, validated in order with User Setup checked first",
+    "GitHub Copilot pricing shifted to token-based credits; cost formula is context size × iterations × model price; trimming Configure Tools, using file references with #, and rotating chats at 12 - 15 turns reduce spend"
+  ],
+  "systems": [
+    "copilot",
+    "development",
+    "reporting"
+  ],
+  "topics": [
+    "ai agents",
+    "model selection",
+    "power bi",
+    "posting periods",
+    "date formulas",
+    "github copilot",
+    "prompt optimization",
+    "token pricing"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Agent"
+    },
+    {
+      "type": "page",
+      "name": "Agents"
+    },
+    {
+      "type": "table",
+      "name": "General Ledger Setup"
+    },
+    {
+      "type": "table",
+      "name": "User Setup"
+    },
+    {
+      "type": "table",
+      "name": "General Journal Templates"
+    }
+  ],
+  "features": [
+    "Agent model switcher",
+    "GPT-5.3-chat default model",
+    "Power BI template apps",
+    "Date formula support in posting periods",
+    "Dynamic posting-period restrictions",
+    "GitHub Copilot token-based billing",
+    "Prompt context optimization",
+    "AI model selection APIs"
+  ],
+  "versions": [
+    "BC 28.1",
+    "BC 2026 Wave 1"
+  ],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.007795,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "BC 28.1, Microsoft has flipped the default AI model for Agents and the Managed AI service to GPT-5.3-chat.",
+      "why_it_matters": "Signals BC's shift to a more capable default model for agent-based AI workloads, with the model switcher API giving developers control over the choice."
+    },
+    {
+      "text": "Formulas are accepted on General Ledger Setup, User Setup, and General Journal Templates, and validation runs in that order.",
+      "why_it_matters": "Clarifies the validation hierarchy for date formulas in posting periods, essential for predictable behavior when users and templates have conflicting rules."
+    },
+    {
+      "text": "Cache-read tokens are cheapest, output tokens are most expensive.",
+      "why_it_matters": "Reveals the cost structure of GitHub Copilot's token-based pricing model, helping developers prioritize which prompts and caching strategies minimize spend."
+    }
+  ]
+}
