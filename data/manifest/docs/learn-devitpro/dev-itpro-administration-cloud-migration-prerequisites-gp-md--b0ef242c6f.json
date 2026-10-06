@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloud-migration-prerequisites-gp",
   "published_at": "2026-05-07T16:44:22.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "c305dc595549b2ed469806bd520f85541c873308",
       "words": 572,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:38:01.864Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.008526
+    },
+    "summarized": {
+      "at": "2026-10-06T18:38:01.889Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:38:01.890Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:38:01.890Z",
+      "page": false
     }
   },
   "input_hash": "c305dc595549b2ed469806bd520f85541c873308",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c305dc595549b2ed469806bd520f85541c873308"
+  "output_hash": "9d6ee55d4790c011e1c94f748a8e5eff802fefa1fc8baf2d002c22b20519b4c3"
 }

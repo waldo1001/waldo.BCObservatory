@@ -1,0 +1,296 @@
+{
+  "video_id": "zCmzehADz2s",
+  "item_id": "video/yt-microsoft/zCmzehADz2s",
+  "title": "What's New: Power BI (for Subscription Billing) (2025 release wave 1)",
+  "duration_s": 497,
+  "systems": [
+    "reporting",
+    "sales",
+    "finance"
+  ],
+  "topics": [
+    "power bi",
+    "subscription billing",
+    "recurring revenue",
+    "churn analysis",
+    "kpi dashboard",
+    "revenue forecasting",
+    "drill-through reports",
+    "customer analytics"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to new Power BI app for subscription billing",
+      "t_start": 0,
+      "t_end": 31.9
+    },
+    {
+      "title": "Subscription billing overview and KPI dashboard",
+      "t_start": 31.9,
+      "t_end": 77.7
+    },
+    {
+      "title": "Churn analysis and recurring revenue metrics",
+      "t_start": 77.7,
+      "t_end": 170.1
+    },
+    {
+      "title": "Revenue development and churn decomposition reports",
+      "t_start": 170.1,
+      "t_end": 293
+    },
+    {
+      "title": "AI-assisted analysis and manual churn investigation",
+      "t_start": 293,
+      "t_end": 359.8
+    },
+    {
+      "title": "Revenue reports by item, customer, and sales staff",
+      "t_start": 359.8,
+      "t_end": 420.1
+    },
+    {
+      "title": "Revenue forecast report and conclusion",
+      "t_start": 420.1,
+      "t_end": 497
+    }
+  ],
+  "features": [
+    {
+      "name": "Power BI app for subscription billing",
+      "description": "A new analytical Power BI application for the subscription billing module with KPI overview, drill-through capabilities to details, and multiple revenue and churn analysis reports.",
+      "status": "announced",
+      "status_evidence_t": 19.1,
+      "status_evidence_quote": "Note that this will be not released in April, but in 26.1",
+      "status_evidence_verified": true,
+      "t_start": 31.9,
+      "t_end": 485.2,
+      "is_demoed": true,
+      "caveats": [
+        "Coming in May 26.1, not April 2025"
+      ],
+      "tags": [
+        "power bi",
+        "subscription billing",
+        "analytics",
+        "reporting"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Subscription billing overview page",
+      "description": "Main overview page in the Power BI app showing recurring revenue, active customers, and various subscription metrics with KPI overview and drill-through to customer contact details.",
+      "status": "announced",
+      "status_evidence_t": 19.1,
+      "status_evidence_quote": "Note that this will be not released in April, but in 26.1",
+      "status_evidence_verified": true,
+      "t_start": 52.2,
+      "t_end": 77.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "kpi",
+        "overview",
+        "drill-through"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Churn visual and analysis",
+      "description": "A churn visual showing monthly churn rates and churn decomposition chart to understand different types of churn and downgrades with key contributors analysis.",
+      "status": "announced",
+      "status_evidence_t": 19.1,
+      "status_evidence_quote": "Note that this will be not released in April, but in 26.1",
+      "status_evidence_verified": true,
+      "t_start": 113.8,
+      "t_end": 306.6,
+      "is_demoed": true,
+      "caveats": [
+        "AI explanation may not work well with flat datasets"
+      ],
+      "tags": [
+        "churn",
+        "analytics",
+        "ai-assisted"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Revenue year-over-year report",
+      "description": "Report showing revenue tracked year-over-year to compare current year performance against previous year data.",
+      "status": "announced",
+      "status_evidence_t": 19.1,
+      "status_evidence_quote": "Note that this will be not released in April, but in 26.1",
+      "status_evidence_verified": true,
+      "t_start": 180.3,
+      "t_end": 209.6,
+      "is_demoed": true,
+      "caveats": [
+        "Useful once sufficient data is available"
+      ],
+      "tags": [
+        "revenue",
+        "year-over-year",
+        "comparison"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Revenue development report",
+      "description": "Report showing changes for new subscriptions, churn, and downgrades with color coding to visualize subscription changes.",
+      "status": "announced",
+      "status_evidence_t": 19.1,
+      "status_evidence_quote": "Note that this will be not released in April, but in 26.1",
+      "status_evidence_verified": true,
+      "t_start": 209.6,
+      "t_end": 247.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "revenue",
+        "churn",
+        "downgrade"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Revenue by item report",
+      "description": "Report showing monthly recurring revenue broken down by different items in subscriptions.",
+      "status": "announced",
+      "status_evidence_t": 19.1,
+      "status_evidence_quote": "Note that this will be not released in April, but in 26.1",
+      "status_evidence_verified": true,
+      "t_start": 359.8,
+      "t_end": 372.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "revenue",
+        "by-item"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Revenue by customer report",
+      "description": "Report showing monthly recurring revenue broken down by customer dimension.",
+      "status": "announced",
+      "status_evidence_t": 19.1,
+      "status_evidence_quote": "Note that this will be not released in April, but in 26.1",
+      "status_evidence_verified": true,
+      "t_start": 359.8,
+      "t_end": 372.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "revenue",
+        "by-customer"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Revenue by sales staff report",
+      "description": "Report showing monthly recurring revenue sold by different salespeople with drill-through to transaction details and customer subscription contracts.",
+      "status": "announced",
+      "status_evidence_t": 19.1,
+      "status_evidence_quote": "Note that this will be not released in April, but in 26.1",
+      "status_evidence_verified": true,
+      "t_start": 372.4,
+      "t_end": 420.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "revenue",
+        "by-sales-staff",
+        "drill-through"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Revenue forecast report",
+      "description": "Report providing forecast of future monthly revenue and costs based on sales forecast and cost forecast data.",
+      "status": "announced",
+      "status_evidence_t": 19.1,
+      "status_evidence_quote": "Note that this will be not released in April, but in 26.1",
+      "status_evidence_verified": true,
+      "t_start": 431.3,
+      "t_end": 457,
+      "is_demoed": true,
+      "caveats": [
+        "Does not take churn percentages into account"
+      ],
+      "tags": [
+        "revenue",
+        "forecast",
+        "cost"
+      ],
+      "system": "reporting"
+    }
+  ],
+  "objects": [],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 19.1,
+      "text": "Note that this will be not released in April, but in 26.1. So, you have to wait an extra month for this.",
+      "why_it_matters": "Specifies the exact release timing for the Power BI app - coming in May 26.1, not April 2025.",
+      "check": "exact"
+    },
+    {
+      "t": 97.3,
+      "text": "This is something that is all over this app. And um I think when you look at a subscription billing there there basically two",
+      "why_it_matters": "Explains that drill-through capability is a core design principle throughout the app for detailed analysis.",
+      "check": "exact"
+    },
+    {
+      "t": 113.8,
+      "text": "The first one is of course that you need to have recurring revenue. But the second thing also very important for subscription businesses is",
+      "why_it_matters": "Establishes the two key business metrics the app focuses on - recurring revenue and churn management.",
+      "check": "exact"
+    },
+    {
+      "t": 259.8,
+      "text": "You also have your churn rate KPI here, which in this case is your monthly uh churn rate, which is 34%.",
+      "why_it_matters": "Shows that the app displays specific KPIs like monthly churn rate as a key metric for business health.",
+      "check": "exact"
+    },
+    {
+      "t": 445.7,
+      "text": "Note that this report does not take churn percentages into account. So just so you're aware of that.",
+      "why_it_matters": "Important caveat about the revenue forecast report's limitations regarding churn consideration.",
+      "check": "exact"
+    },
+    {
+      "t": 470.8,
+      "text": "Remember that it's coming in May in 26.1. um you get a total of let's see 14 new reports.",
+      "why_it_matters": "Confirms the release timing and total number of reports included in the new Power BI app.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 19.1,
+      "kind": "coming-later",
+      "text": "Note that this will be not released in April, but in 26.1. So, you have to wait an extra month for this."
+    },
+    {
+      "t": 445.7,
+      "kind": "other",
+      "text": "Note that this report does not take churn percentages into account."
+    }
+  ],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 9,
+    "evidence_unverified": 0
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.022535
+    }
+  ]
+}

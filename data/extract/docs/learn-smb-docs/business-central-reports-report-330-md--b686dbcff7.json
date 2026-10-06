@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-330.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-330",
+  "title": "Audit Trail (report)",
+  "blob": "ae845150e2c5882961b8c1cb7bd6b559c209634b",
+  "summary": "Audit Trail report provides detailed register and entry trace for auditing, showing G/L register creation details and individual entry information including reversed entries.",
+  "systems": [
+    "finance",
+    "reporting"
+  ],
+  "topics": [
+    "audit trail",
+    "general ledger",
+    "compliance",
+    "transaction tracking",
+    "financial audit"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Audit Trail"
+    }
+  ],
+  "features": [
+    "G/L register tracking",
+    "Entry history",
+    "Reversed entry tracking",
+    "User accountability",
+    "Compliance documentation",
+    "Period-end review"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006874,
+      "pages_in_call": 5
+    }
+  ]
+}

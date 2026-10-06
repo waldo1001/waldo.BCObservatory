@@ -1,0 +1,38 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/prepare-for-cookie-samesite-policy.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/prepare-for-cookie-samesite-policy",
+  "title": "Cookie samesite policy",
+  "blob": "6540233f2a90b4ea2cceebec9242b929f5cc2b55",
+  "summary": "Preparing for browser cookie SameSite policy changes requires upgrading Dynamics NAV or Business Central platforms to specific cumulative updates to maintain user authentication and access.",
+  "systems": [
+    "platform",
+    "administration"
+  ],
+  "topics": [
+    "security",
+    "cookies",
+    "browser compatibility",
+    "authentication",
+    "samesite policy"
+  ],
+  "objects": [],
+  "features": [
+    "SameSite cookie attribute",
+    "Federated authentication",
+    "Cross-domain hosting",
+    "Microsoft Entra authentication",
+    "Load balancer configuration",
+    "Chrome and Edge compatibility"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006874,
+      "pages_in_call": 5
+    }
+  ]
+}

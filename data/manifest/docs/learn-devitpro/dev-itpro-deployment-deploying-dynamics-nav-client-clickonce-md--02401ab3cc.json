@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/Deploying-dynamics-nav-client-clickonce",
   "published_at": "2026-05-10T07:20:00.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "2778d763ac2fd11b6ab15c3ac38ec01ddc4886c5",
       "words": 3503,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:38:01.862Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.008526
+    },
+    "summarized": {
+      "at": "2026-10-06T18:38:01.882Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:38:01.883Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:38:01.884Z",
+      "page": false
     }
   },
   "input_hash": "2778d763ac2fd11b6ab15c3ac38ec01ddc4886c5",
@@ -37,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "2778d763ac2fd11b6ab15c3ac38ec01ddc4886c5"
+  "output_hash": "e06322cab07f0d4314141adf213075e123c6f74058e97cb3377b91f4406bbc32"
 }

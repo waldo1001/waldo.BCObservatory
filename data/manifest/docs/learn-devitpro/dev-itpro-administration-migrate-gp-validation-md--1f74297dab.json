@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-gp-validation",
   "published_at": "2026-05-11T21:05:57.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "184e870b22ca084fd56253e300b15cf21bda7c76",
       "words": 571,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:38:01.857Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.006874
+    },
+    "summarized": {
+      "at": "2026-10-06T18:38:01.869Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:38:01.870Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:38:01.871Z",
+      "page": false
     }
   },
   "input_hash": "184e870b22ca084fd56253e300b15cf21bda7c76",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "184e870b22ca084fd56253e300b15cf21bda7c76"
+  "output_hash": "ab081557d117073d2b575f5afcd1277a0eac918e55b86a8ac07751ac33413a8a"
 }

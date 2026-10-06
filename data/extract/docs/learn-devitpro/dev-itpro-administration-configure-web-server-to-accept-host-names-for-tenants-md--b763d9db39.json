@@ -1,0 +1,36 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/configure-web-server-to-accept-host-names-for-tenants.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/configure-web-server-to-accept-host-names-for-tenants",
+  "title": "Web Client Configuration for Tenants",
+  "blob": "e6e800f556645b30ea62238dfce859a7f5d2f103",
+  "summary": "Configuring the Business Central web server to accept host names for tenants in multitenant deployments by enabling URL rewrite rules in the web.config file.",
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "web server",
+    "multitenant",
+    "url rewrite",
+    "host names",
+    "configuration"
+  ],
+  "objects": [],
+  "features": [
+    "URL rewrite rule",
+    "host name configuration",
+    "multitenant architecture",
+    "IIS integration"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.008526,
+      "pages_in_call": 3
+    }
+  ]
+}

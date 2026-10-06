@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/business-events-overview",
   "published_at": "2026-05-12T03:05:00.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "bf4954809fff0d543f8d2a97b82d1c2b60e75be1",
       "words": 2578,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:38:01.855Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.006874
+    },
+    "summarized": {
+      "at": "2026-10-06T18:38:01.865Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:38:01.866Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:38:01.867Z",
+      "page": false
     }
   },
   "input_hash": "bf4954809fff0d543f8d2a97b82d1c2b60e75be1",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "bf4954809fff0d543f8d2a97b82d1c2b60e75be1"
+  "output_hash": "c41bf8f0e419bffc4a63afb664e969b97cb126a21cd0da74f6a6e27bfe8a9292"
 }

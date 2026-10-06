@@ -1,0 +1,27 @@
+{
+  "video_id": "xr8C3c6WhOI",
+  "item_id": "video/yt-microsoft/xr8C3c6WhOI",
+  "summary": "AL-Go for GitHub added page scripting test support in workflows (using the BC replay npm module from 2024 Wave 2), a result visualizer, deployment of test apps to sandbox environments, and exclusion of apps by ID during deployment. Demoed in a 2025 release wave 1 What's New video.",
+  "overview": "The video covers AL-Go for GitHub changes focused on quality and testability in 2025 release wave 1. The first part shows how page scripting tests run in the AL-Go workflow with the BC replay npm module, how recordings are configured in project settings, and how results appear in a visualizer with downloadable artifacts.\n\nThe second part covers deploying test apps alongside production apps to sandbox environments, excluding apps by ID, and how test apps are handled in custom deployment scripts. The presenter notes that automatically running tests is covered only in a first version for this presentation.",
+  "key_points": [
+    "Page scripting tests run in the AL-Go workflow through the BC replay npm module, which shipped in 2024 Wave 2.",
+    "Page scripting recordings must be generated in Business Central first. Project settings point to the recording folders, with support for multiple folders, pattern matching and yml files.",
+    "The test result visualizer shows pass/fail status and downloadable artifacts. Video of a failed test needs extended logs.",
+    "Deploying test apps to an environment applies to sandbox environments only and needs the online environment prepared.",
+    "A new setting excludes apps by ID during deployment, given as an array of app IDs.",
+    "AL-Go automatically excludes test apps that depend on libraries not available in AppSource. It checks AppSource availability only.",
+    "With the include test apps setting on, test apps are passed to custom deployment scripts. The script author must install the dependencies."
+  ],
+  "audience": [
+    "developer",
+    "administrator",
+    "functional consultant"
+  ],
+  "extraction_hash": "66c418f1c8c8c79219438aff9e551d2e4b8740b4e2fb993366eedb4288f9ec29",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0146504
+  }
+}

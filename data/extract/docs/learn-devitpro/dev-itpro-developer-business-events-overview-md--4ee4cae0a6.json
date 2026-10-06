@@ -1,0 +1,46 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/business-events-overview.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/business-events-overview",
+  "title": "Business events on Business Central (preview)",
+  "blob": "bf4954809fff0d543f8d2a97b82d1c2b60e75be1",
+  "summary": "Business events in Business Central (preview) enable partners and customers to notify and trigger external systems when actions occur in Business Central, integrating with Dataverse and Power Automate.",
+  "systems": [
+    "integration",
+    "copilot"
+  ],
+  "topics": [
+    "business events",
+    "dataverse",
+    "power automate",
+    "webhooks",
+    "external systems",
+    "event subscriptions"
+  ],
+  "objects": [
+    {
+      "type": "permissionset",
+      "name": "Ext. Events – Subscr"
+    }
+  ],
+  "features": [
+    "Business event subscriptions",
+    "Dataverse integration",
+    "Power Automate flows",
+    "Custom business events",
+    "External webhooks",
+    "Event catalog"
+  ],
+  "versions": [
+    "2023 release wave 1"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006874,
+      "pages_in_call": 5
+    }
+  ]
+}

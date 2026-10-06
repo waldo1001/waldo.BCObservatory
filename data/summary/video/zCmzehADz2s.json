@@ -1,0 +1,27 @@
+{
+  "video_id": "zCmzehADz2s",
+  "item_id": "video/yt-microsoft/zCmzehADz2s",
+  "summary": "Power BI app for Business Central Subscription Billing, announced for 26.1 in May and not April 2025. Demoed reports cover a KPI overview, churn analysis, revenue development, revenue by sales staff and a revenue forecast. The video mentions 14 new reports in total.",
+  "overview": "The video, from the 2025 release wave 1 What's New series, presents a new Power BI app for the subscription billing module. It is announced for 26.1 in May, one month later than the April release.\n\nThe demo walks through the overview page with recurring revenue, active customers and a monthly churn rate KPI, then churn visuals and a churn decomposition chart. It continues with revenue year-over-year, revenue development, revenue by item, customer and sales staff, and a revenue forecast. Drill-through to customer contact details and contract details is shown in several places.",
+  "key_points": [
+    "The Power BI app for subscription billing is announced for 26.1 in May, not the April 2025 release.",
+    "The app includes 14 new reports in total.",
+    "The overview page shows recurring revenue, active customers and a monthly churn rate KPI, with drill-through to customer contact details.",
+    "The churn visual and decomposition chart separate types of churn and downgrades. The AI explanation may not work well on flat datasets.",
+    "The revenue development report shows new subscriptions, churn and downgrades with color coding.",
+    "Revenue by sales staff drills through to transaction details and customer subscription contracts.",
+    "The revenue forecast report uses sales and cost forecast data and does not take churn percentages into account."
+  ],
+  "audience": [
+    "functional consultant",
+    "decision maker",
+    "administrator"
+  ],
+  "extraction_hash": "4948b2c7a8fbf4c064d8d9e9a55b26f9fbd9dd84524bb0bffae50a32f57ea50f",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0140564
+  }
+}

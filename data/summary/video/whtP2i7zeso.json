@@ -1,0 +1,26 @@
+{
+  "video_id": "whtP2i7zeso",
+  "item_id": "video/yt-microsoft/whtP2i7zeso",
+  "summary": "Intrastat enhancements in Business Central 2025 release wave 1: mandatory fields for sales, service and purchase Intrastat documents, a document option for picking the VAT number (ship-to based), and a Document check fact box on the sales order. A demo shows setup, validation and posting.",
+  "overview": "The video presents improvements to existing Intrastat functionality in 2025 release wave 1. It covers two main features: setting mandatory fields on Intrastat documents, and support for multiple VAT numbers per customer when reporting.\n\nThe demo configures mandatory fields (transaction type and transfer method are the examples), creates a sales order, enables the Document check fact box to see missing values, then posts the document and generates the Intrastat report. The presenter also mentions further technical improvements with no UI changes, possibly in version 26.12, with details to come in documentation.",
+  "key_points": [
+    "Mandatory fields can be set for sales, service and purchase Intrastat documents, so posting is blocked until the required information is entered. Configuration is needed per document type.",
+    "The demo uses transaction type and transfer method as the mandatory field examples.",
+    "A new document option in Intrastat setup picks the VAT registration number directly from the posted document, based on the ship-to address. It complements the existing sell-to and bill-to customer options.",
+    "Using this requires VAT numbers to be configured per address, and it ties into the new multiple VAT numbers functionality for customers.",
+    "The Document check fact box must be enabled. It then lists the missing mandatory field values on the sales order before posting.",
+    "Further technical improvements to Intrastat are announced with no UI changes, possibly in version 26.12. Details are to be published in documentation."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "end user"
+  ],
+  "extraction_hash": "94941a4d67b2abca3e9642ddf335ec150d2d4b4921978d46a39483bee9940f5f",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0135804
+  }
+}

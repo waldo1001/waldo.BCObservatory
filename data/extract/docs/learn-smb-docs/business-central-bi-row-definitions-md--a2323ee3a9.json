@@ -1,0 +1,45 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/bi-row-definitions.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/bi-row-definitions",
+  "title": "Row definitions in Financial Reporting",
+  "blob": "35e616fd253da963cf90f619829e8cf258f94350",
+  "summary": "Row definitions in Financial Reporting enable calculations and subtotals that cannot be made directly in the chart of accounts, supporting formulas, account categories, and various totaling types.",
+  "systems": [
+    "finance",
+    "reporting"
+  ],
+  "topics": [
+    "financial reporting",
+    "row definitions",
+    "calculations",
+    "account categories",
+    "formulas",
+    "balance sheet"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "G/L Account Categories"
+    }
+  ],
+  "features": [
+    "Row formulas",
+    "Account category support",
+    "Formatting options",
+    "Conditional display",
+    "Cash flow accounts",
+    "Cost type integration",
+    "Export to Excel"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006874,
+      "pages_in_call": 5
+    }
+  ]
+}

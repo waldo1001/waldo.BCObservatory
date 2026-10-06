@@ -1,0 +1,280 @@
+{
+  "video_id": "xr8C3c6WhOI",
+  "item_id": "video/yt-microsoft/xr8C3c6WhOI",
+  "title": "What's New : AL-Go for GitHub on Quality and Testability (2025 release wave 1)",
+  "duration_s": 361,
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "al-go",
+    "page scripting tests",
+    "bc replay module",
+    "test automation",
+    "test apps deployment",
+    "github workflow",
+    "testability"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Page Scripting Tests Overview",
+      "t_start": 0,
+      "t_end": 25.6
+    },
+    {
+      "title": "Page Scripting Test Support and BC Replay Module",
+      "t_start": 25.6,
+      "t_end": 66.5
+    },
+    {
+      "title": "Page Scripting Test Demo and Configuration",
+      "t_start": 66.5,
+      "t_end": 154.4
+    },
+    {
+      "title": "Test Result Visualization",
+      "t_start": 154.4,
+      "t_end": 195.6
+    },
+    {
+      "title": "Test Apps Deployment Feature Overview",
+      "t_start": 195.6,
+      "t_end": 240.8
+    },
+    {
+      "title": "Test Apps Deployment Demo",
+      "t_start": 240.8,
+      "t_end": 315.4
+    },
+    {
+      "title": "Custom Deployment Scripts and Conclusion",
+      "t_start": 315.4,
+      "t_end": 361
+    }
+  ],
+  "features": [
+    {
+      "name": "Page Scripting Tests in AL-Go Workflow",
+      "description": "Support for running page scripting tests in AL-Go for GitHub workflow using the BC replay npm module released in Business Central 2024 Wave 2.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 25.6,
+      "t_end": 103.2,
+      "is_demoed": true,
+      "caveats": [
+        "Requires BC replay npm module from 2024 Wave 2",
+        "Page scripting recording must be generated in Business Central first"
+      ],
+      "tags": [
+        "page scripting",
+        "testing",
+        "bc replay",
+        "workflow"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Page Scripting Test Result Visualizer",
+      "description": "Visual display of page scripting test results in AL-Go showing pass/fail status with downloadable artifacts including video recordings of test failures.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 154.4,
+      "t_end": 174.9,
+      "is_demoed": true,
+      "caveats": [
+        "Requires extended logs to view video of test execution"
+      ],
+      "tags": [
+        "test results",
+        "visualization",
+        "failure analysis"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Deploy Test Apps to Sandbox",
+      "description": "Feature to deploy test apps alongside production apps to sandbox environments during deployment process in AL-Go settings.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 195.6,
+      "t_end": 240.8,
+      "is_demoed": true,
+      "caveats": [
+        "Only for sandbox environments",
+        "Requires preparation of online environment",
+        "Test apps with external dependencies may be auto-excluded"
+      ],
+      "tags": [
+        "test deployment",
+        "sandbox",
+        "test apps"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Exclude Apps by ID During Deployment",
+      "description": "Ability to exclude specific apps by their ID during deployment to environments using the exclude app IDs array setting in AL-Go configuration.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 226.7,
+      "t_end": 277.2,
+      "is_demoed": true,
+      "caveats": [
+        "Must specify app IDs as array in configuration",
+        "Test apps with missing dependencies are automatically excluded"
+      ],
+      "tags": [
+        "app exclusion",
+        "deployment",
+        "configuration"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Automatic Test App Dependency Resolution",
+      "description": "AL-Go automatically detects and excludes test apps that depend on libraries not available in AppSource gallery during deployment.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 315.4,
+      "t_end": 335.4,
+      "is_demoed": true,
+      "caveats": [
+        "Only detects AppSource availability",
+        "Applies to both standard and custom deployment scripts"
+      ],
+      "tags": [
+        "dependency resolution",
+        "test apps",
+        "appsource"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Page Scripting Test Settings Configuration",
+      "description": "Configuration options in project settings to point to page scripting recording folders with support for multiple folders and pattern matching.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 113.2,
+      "t_end": 134,
+      "is_demoed": true,
+      "caveats": [
+        "Supports yml file type recordings",
+        "Requires recordings to be generated externally in Business Central"
+      ],
+      "tags": [
+        "configuration",
+        "page scripting",
+        "pattern matching"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Custom Deployment Script Test App Support",
+      "description": "Test apps are passed to custom deployment scripts when include test apps setting is enabled, allowing script authors to handle dependency installation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 335.4,
+      "t_end": 355.7,
+      "is_demoed": false,
+      "caveats": [
+        "Requires custom script implementation to handle test apps",
+        "Script author responsible for dependency management"
+      ],
+      "tags": [
+        "custom scripts",
+        "deployment",
+        "test apps"
+      ],
+      "system": "platform"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "BC replay npm module",
+      "t": 46.3
+    },
+    {
+      "type": "other",
+      "name": "page scripting test settings",
+      "t": 113.2
+    },
+    {
+      "type": "other",
+      "name": "test result visualizer",
+      "t": 154.4
+    },
+    {
+      "type": "other",
+      "name": "page scripting test result visualizer",
+      "t": 154.4
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Freddy Christensen",
+      "confidence": "high"
+    },
+    {
+      "name": "Sebastian",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 25.6,
+      "text": "we actually added support for page scripting tests",
+      "why_it_matters": "Identifies the main new feature of this release - page scripting test support in AL-Go",
+      "check": "fuzzy"
+    },
+    {
+      "t": 46.3,
+      "text": "half a year ago in version 2024 Wave 2 we shipped the BC replay npm module with that module it's possible to to run",
+      "why_it_matters": "Provides timeline and dependency information for the page scripting test capability",
+      "check": "exact"
+    },
+    {
+      "t": 226.7,
+      "text": "we now also have the option to exclude apps by ID when you deploy",
+      "why_it_matters": "Introduces new deployment configuration capability for filtering which apps to deploy",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 195.6,
+      "kind": "not-in-this-release",
+      "text": "number two is automatically running tests for this presentation we have implemented the first version"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 3,
+    "quotes_dropped": 2,
+    "evidence_verified": 0,
+    "evidence_unverified": 7
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.016231000000000002
+    }
+  ]
+}

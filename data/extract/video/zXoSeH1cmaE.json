@@ -1,0 +1,439 @@
+{
+  "video_id": "zXoSeH1cmaE",
+  "item_id": "video/yt-microsoft/zXoSeH1cmaE",
+  "title": "What's New: Power BI (for Sales) (2025 release wave 1)",
+  "duration_s": 1236,
+  "systems": [
+    "reporting",
+    "sales",
+    "crm"
+  ],
+  "topics": [
+    "power bi",
+    "sales analytics",
+    "sales lifecycle",
+    "profitability",
+    "opportunity analysis",
+    "quote analysis",
+    "return order analysis",
+    "demographics",
+    "sales decomposition",
+    "key influencers",
+    "ai-assisted analysis",
+    "statistical models"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Sales Lifecycle Overview",
+      "t_start": 0,
+      "t_end": 105
+    },
+    {
+      "title": "Opportunity, Quote, and Return Order Analysis Reports",
+      "t_start": 105,
+      "t_end": 248.2
+    },
+    {
+      "title": "Profitability Analysis by Customer and Item",
+      "t_start": 248.2,
+      "t_end": 388
+    },
+    {
+      "title": "Sales Profitability by Salesperson and Overview",
+      "t_start": 388,
+      "t_end": 562
+    },
+    {
+      "title": "Demographics and Geographic Analysis",
+      "t_start": 562,
+      "t_end": 723.6
+    },
+    {
+      "title": "AI-Assisted Data Analysis and Key Sales Influencers",
+      "t_start": 723.6,
+      "t_end": 1003.5
+    },
+    {
+      "title": "Sales Segmentation Report and AI-Generated Insights",
+      "t_start": 1003.5,
+      "t_end": 1100
+    },
+    {
+      "title": "Summary of Seven New Reports in Version 26.1",
+      "t_start": 1100,
+      "t_end": 1139.3
+    },
+    {
+      "title": "Documentation and Analytics Framework Overview",
+      "t_start": 1139.3,
+      "t_end": 1236
+    }
+  ],
+  "features": [
+    {
+      "name": "Enhanced Power BI Sales App",
+      "description": "An updated Power BI application for sales in version 26.1 that expands on the previous version by adding seven new reports and updating existing reports covering the full sales lifecycle, profitability analysis, demographics, and AI-assisted insights.",
+      "status": "ga",
+      "status_evidence_t": 1100,
+      "status_evidence_quote": "we ship in version 26.1",
+      "status_evidence_verified": true,
+      "t_start": 5.7,
+      "t_end": 1218.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "power bi",
+        "sales",
+        "version 26.1"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Opportunity Overview Report",
+      "description": "New report providing analysis of opportunities with KPIs, value by status, sales cycle view, funnel by stages, and geographic representation with estimated value by location.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 105,
+      "t_end": 166.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "opportunity",
+        "crm",
+        "kpi",
+        "geographic"
+      ],
+      "system": "crm"
+    },
+    {
+      "name": "Sales Quote Overview Report",
+      "description": "Enhanced report showing sales quotes by customer including profit analysis, sales staff tracking, and quote trends over time to provide a holistic view of quoting activity.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 187.4,
+      "t_end": 248.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "sales quote",
+        "profit",
+        "salesperson",
+        "customer"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Return Order Overview Report",
+      "description": "New report tracking return orders showing wasted sales amounts, missing profit opportunities, which customers return most, reasons for returns, and return trends over time.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 248.2,
+      "t_end": 308.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "return order",
+        "sales quality",
+        "customer analysis"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Sales by Customer Report with Pareto Analysis",
+      "description": "Enhanced report showing customer profitability with new Pareto analysis visual that identifies which customer segments generate specific percentages of profit, plus profit margin metrics and geographic sales breakdown.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 308.6,
+      "t_end": 387.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "customer",
+        "pareto",
+        "profit",
+        "geographic"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Sales by Item Report with Category and Profitability Analysis",
+      "description": "Updated report with new visuals showing sales by item category over time to identify seasonality patterns and a bubble chart visual for item profitability comparing sales quantity against sales amount with profit margin indicators.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 387.4,
+      "t_end": 502.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "item",
+        "profitability",
+        "category",
+        "bubble chart"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Sales by Salesperson Report with Profitability Metrics",
+      "description": "Enhanced existing report showing sales metrics, profit, margin by salesperson, opportunities overview in the CRM module, and bubble chart analysis of salesperson profitability to evaluate sales staff performance beyond revenue.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 502.1,
+      "t_end": 581.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "salesperson",
+        "profitability",
+        "performance",
+        "margin"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Sales Overview Page with Breakdown Visualization",
+      "description": "Updated existing report showing top five customers and sales amount by salesperson with breakdown display separating negative amounts from revenue-generating amounts.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 581.6,
+      "t_end": 663.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "sales overview",
+        "customer",
+        "credit memo",
+        "return order"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Sales by Location Report with Map",
+      "description": "Existing report enhanced with map visualization showing geographic distribution of customers and revenue, with bubble size indicating sales amounts by geography.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 663.2,
+      "t_end": 703.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "geography",
+        "location",
+        "map",
+        "customer"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Sales Demographics Report",
+      "description": "New report analyzing customer and sales composition by geography showing customer count by location in map format, sales metrics by amount and profit by item category and customer posting group.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 703.4,
+      "t_end": 743.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "demographics",
+        "geography",
+        "customer count",
+        "posting group"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Sales Decomposition Report with AI-Assisted Analysis",
+      "description": "New report using statistical data mining techniques to analyze sales contributors through a tree structure, showing automated identification of high or low value contributors across different dimensions like location and salesperson.",
+      "status": "ga",
+      "status_evidence_t": 1100,
+      "status_evidence_quote": "we ship in version 26.1",
+      "status_evidence_verified": true,
+      "t_start": 760.2,
+      "t_end": 855.7,
+      "is_demoed": true,
+      "caveats": [
+        "Uses proven data mining techniques rather than generative AI"
+      ],
+      "tags": [
+        "sales decomposition",
+        "ai",
+        "statistics",
+        "tree analysis"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Key Sales Influencers Report",
+      "description": "New report using statistical model to provide AI-assisted insights answering questions about what influences document types, such as what characteristics influence a document to be a sales invoice versus credit memo or return shipment, with likelihood multipliers and impact analysis.",
+      "status": "ga",
+      "status_evidence_t": 1100,
+      "status_evidence_quote": "we ship in version 26.1",
+      "status_evidence_verified": true,
+      "t_start": 876.2,
+      "t_end": 991.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "key influencers",
+        "ai",
+        "statistical model",
+        "sales invoice"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Sales Segmentation Report",
+      "description": "AI-powered segmentation of sales data finding significant segments based on factors like location, product, and salesperson with AI-generated learn more details and segment exploration capabilities.",
+      "status": "ga",
+      "status_evidence_t": 1100,
+      "status_evidence_quote": "we ship in version 26.1",
+      "status_evidence_verified": true,
+      "t_start": 1003.5,
+      "t_end": 1079.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "power bi",
+        "ai-assisted",
+        "segmentation"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Sales Analytics Documentation and Guidance",
+      "description": "Comprehensive documentation covering Power BI KPIs, ad hoc analysis with data analysis on lists and queries, and legacy and new Excel reports for sales, accessible via documentation links.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1139.3,
+      "t_end": 1218.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "documentation",
+        "sales analytics",
+        "power bi"
+      ],
+      "system": "reporting"
+    }
+  ],
+  "objects": [],
+  "presenters": [
+    {
+      "name": "Kenny",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 5.7,
+      "text": "in version 26.1 we come with an enhanced powerp app that makes the great app you have from last semester even better",
+      "why_it_matters": "Establishes that this is an update to existing Power BI functionality and indicates version 26.1 is when these changes become available.",
+      "check": "exact"
+    },
+    {
+      "t": 25.8,
+      "text": "we changed or we focused on four different topics or themes in the powerbi sales app in the version 2025 release way one",
+      "why_it_matters": "Clarifies the scope of changes in the 2025 release wave 1, organized around four main themes.",
+      "check": "exact"
+    },
+    {
+      "t": 86,
+      "text": "in the last wave the sales app was focusing on sales orders and sales invoices and in this wave we kind of move left",
+      "why_it_matters": "Explains the strategic shift from the previous release to expand analysis coverage across the full sales lifecycle including opportunities and returns.",
+      "check": "exact"
+    },
+    {
+      "t": 288.6,
+      "text": "not only how much we sell and the amount we sell for but also is it actually making money",
+      "why_it_matters": "Articulates the shift from revenue-focused reporting to profitability-focused analysis as a core theme of the update.",
+      "check": "exact"
+    },
+    {
+      "t": 743.7,
+      "text": "it can be generative AI what you're going to see here is applications of like very like old and but Prov proven data mining",
+      "why_it_matters": "Clarifies that the AI-assisted features use statistical data mining rather than generative AI, setting expectations appropriately.",
+      "check": "exact"
+    },
+    {
+      "t": 780.5,
+      "text": "if i choose the next part here i can either simply choose my own analysis not ai assisted",
+      "why_it_matters": "Shows that AI-assisted analysis is optional and users can choose their own analysis dimensions or let the model suggest high or low value contributors.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 855.7,
+      "text": "that's the sales decomposition AI assisted report",
+      "why_it_matters": "Identifies the specific feature name and confirms AI-assisted capability for sales decomposition analysis",
+      "check": "exact"
+    },
+    {
+      "t": 876.2,
+      "text": "the next report is actually two different reports in one it's called key sales influencers",
+      "why_it_matters": "Clarifies that the key sales influencers feature includes two related report types within a single offering",
+      "check": "exact"
+    },
+    {
+      "t": 916.5,
+      "text": "whenever Jim Olive here is involed evolved you can see that there is a 1.6 times higher likelihood that you make a sale",
+      "why_it_matters": "Demonstrates the statistical impact metrics the key influencers report provides to identify sales drivers",
+      "check": "exact"
+    },
+    {
+      "t": 1100,
+      "text": "we ship in version 26.1 as you can see we have seven new reports coming",
+      "why_it_matters": "Confirms shipping status as GA and provides quantitative count of new reports included in the enhanced Power BI app",
+      "check": "exact"
+    },
+    {
+      "t": 1139.3,
+      "text": "all of this is documented in our documentation for users",
+      "why_it_matters": "Indicates comprehensive documentation availability for the sales analytics features",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 11,
+    "quotes_dropped": 0,
+    "evidence_verified": 4,
+    "evidence_unverified": 10
+  },
+  "windows": 2,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.027538
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.017118
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.02098
+    }
+  ]
+}

@@ -1,0 +1,256 @@
+{
+  "video_id": "whtP2i7zeso",
+  "item_id": "video/yt-microsoft/whtP2i7zeso",
+  "title": "What's New: Enhancements in Intrastat (2025 release wave 1)",
+  "duration_s": 326,
+  "systems": [
+    "localization",
+    "finance",
+    "integration"
+  ],
+  "topics": [
+    "intrastat",
+    "mandatory fields",
+    "vat numbers",
+    "regulatory compliance",
+    "document validation",
+    "sales order",
+    "intercompany reporting"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Intrastat improvements commitment",
+      "t_start": 0,
+      "t_end": 46.4
+    },
+    {
+      "title": "Feature 1: Setting mandatory fields",
+      "t_start": 46.4,
+      "t_end": 87
+    },
+    {
+      "title": "Feature 2: Multiple VAT numbers for customers",
+      "t_start": 87,
+      "t_end": 107
+    },
+    {
+      "title": "Demo setup and VAT number options",
+      "t_start": 107,
+      "t_end": 140.2
+    },
+    {
+      "title": "Configuring mandatory fields in demo",
+      "t_start": 140.2,
+      "t_end": 172.2
+    },
+    {
+      "title": "Creating sales order and validation",
+      "t_start": 172.2,
+      "t_end": 219.3
+    },
+    {
+      "title": "Posting document and generating report",
+      "t_start": 219.3,
+      "t_end": 247
+    },
+    {
+      "title": "Demo completion and additional improvements",
+      "t_start": 247,
+      "t_end": 287.4
+    },
+    {
+      "title": "Technical improvements and closing",
+      "t_start": 287.4,
+      "t_end": 326
+    }
+  ],
+  "features": [
+    {
+      "name": "Mandatory fields for Intrastat documents",
+      "description": "New functionality to set mandatory fields for sales, service, and purchase Intrastat documents before posting. This prevents users from submitting incomplete information when creating Intrastat reports.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 46.4,
+      "t_end": 87,
+      "is_demoed": true,
+      "caveats": [
+        "Configuration required per document type",
+        "Applies to transaction type and transfer method examples shown"
+      ],
+      "tags": [
+        "intrastat",
+        "document validation",
+        "mandatory fields",
+        "regulatory"
+      ],
+      "system": "localization"
+    },
+    {
+      "name": "Multiple VAT numbers support for Intrastat",
+      "description": "New support for multiple VAT registration numbers for customers when reporting to Intrastat. Allows picking VAT number directly from the posted document based on ship-to address, complementing existing sell-to and bill-to options.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 87,
+      "t_end": 107,
+      "is_demoed": true,
+      "caveats": [
+        "Requires proper VAT number configuration per address",
+        "Integration with new multiple VAT functionality for customers"
+      ],
+      "tags": [
+        "intrastat",
+        "vat",
+        "multiple vat numbers",
+        "document option"
+      ],
+      "system": "localization"
+    },
+    {
+      "name": "Document option for VAT number selection",
+      "description": "New document-level option to pick VAT registration number directly from the posted document for Intrastat reporting, replacing previous sell-to or bill-to customer options.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 120.1,
+      "t_end": 140.2,
+      "is_demoed": true,
+      "caveats": [
+        "Requires configuration in Intrastat setup",
+        "Works with ship-to address VAT numbers"
+      ],
+      "tags": [
+        "intrastat",
+        "vat",
+        "document posting",
+        "configuration"
+      ],
+      "system": "localization"
+    },
+    {
+      "name": "Document check fact box for Intrastat validation",
+      "description": "Visual fact box that displays missing mandatory field values before posting, allowing users to identify and correct errors immediately on the sales order.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 182.6,
+      "t_end": 198.5,
+      "is_demoed": true,
+      "caveats": [
+        "Must be enabled for use",
+        "Shows all missing mandatory fields configured in setup"
+      ],
+      "tags": [
+        "intrastat",
+        "document validation",
+        "user interface",
+        "error detection"
+      ],
+      "system": "localization"
+    },
+    {
+      "name": "Technical improvements to Intrastat (future)",
+      "description": "Additional technical improvements to Intrastat functionality that will be delivered but are not visible on the user interface. Further details to be published in documentation.",
+      "status": "announced",
+      "status_evidence_t": 287.4,
+      "status_evidence_quote": "some other technical improvements will come related to interstat uh probably 26.12",
+      "status_evidence_verified": true,
+      "t_start": 287.4,
+      "t_end": 307.5,
+      "is_demoed": false,
+      "caveats": [
+        "Timeline uncertain - possibly version 26.12",
+        "No user interface changes expected",
+        "Details to be published in documentation"
+      ],
+      "tags": [
+        "intrastat",
+        "technical",
+        "backend improvements",
+        "regulatory"
+      ],
+      "system": "localization"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Intrastat report",
+      "t": 247
+    },
+    {
+      "type": "other",
+      "name": "Document check fact box",
+      "t": 182.6
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Alexander",
+      "confidence": "high"
+    },
+    {
+      "name": "Vamir",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 6.2,
+      "text": "we want to show you our standard commitment to improve existing features so not only delivering new uh features",
+      "why_it_matters": "Demonstrates Microsoft's philosophy of iterating on existing Intrastat features based on feedback, not just adding new capabilities.",
+      "check": "snapped"
+    },
+    {
+      "t": 46.4,
+      "text": "this is required even for older interstat functionalities to set up some mandatory fields on your documents",
+      "why_it_matters": "Explains the business rationale behind mandatory field enforcement - preventing data quality issues in Intrastat submissions.",
+      "check": "exact"
+    },
+    {
+      "t": 120.1,
+      "text": "V number will be picked directly from the posted document",
+      "why_it_matters": "Clarifies the new document option for VAT selection, providing an alternative to sell-to or bill-to customer options.",
+      "check": "exact"
+    },
+    {
+      "t": 182.6,
+      "text": "we can enable a document checked fact box so we can see our error missing uh values straight away",
+      "why_it_matters": "Shows how users get immediate validation feedback before posting, improving data quality for Intrastat reporting.",
+      "check": "exact"
+    },
+    {
+      "t": 287.4,
+      "text": "some other technical improvements will come related to interstat uh probably 26.12",
+      "why_it_matters": "Indicates that additional backend improvements are planned beyond the two main features, with possible availability in version 26.12.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 287.4,
+      "kind": "coming-later",
+      "text": "some other technical improvements will come related to interstat uh probably 26.12"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 5,
+    "quotes_dropped": 0,
+    "evidence_verified": 1,
+    "evidence_unverified": 4
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.014792
+    }
+  ]
+}
