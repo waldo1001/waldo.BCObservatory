@@ -1,0 +1,29 @@
+{
+  "video_id": "UIL8ej7mSKQ",
+  "item_id": "video/yt-microsoft/UIL8ej7mSKQ",
+  "summary": "Business Central 2025 release wave 2 AI updates: sales order agent improvements (automatic email processing, shipping addresses, alternative dates, natural language guidance, availability in five European countries), the Payables agent in public preview, and the MCP server for Business Central in public preview.",
+  "overview": "A three-minute overview of the AI-related changes in Business Central 2025 release wave 2. It starts with the sales order agent, which can now process emails from registered customers without manual approval to read the request. A user still reviews and approves before anything is sent. It also covers shipping address lookup, alternative delivery dates and natural language guidance.\n\nThe video then covers the Payables agent, which handles vendor invoices from email attachments and is in public preview in four English-speaking countries. It closes with the public preview of the MCP server for Business Central, which lets external agent builders such as Microsoft Copilot Studio or third-party platforms work with Business Central data.",
+  "key_points": [
+    "The sales order agent can be configured to process incoming emails from registered customers automatically, with no manual approval to start. A user reviews and approves before the quote or order is sent.",
+    "The agent recognizes requested shipping addresses and finds them among the addresses already registered for the customer, then records the address on the quote. Addresses must be pre-registered in Business Central.",
+    "If a requested shipping date cannot be met, the agent suggests alternative dates the company can promise.",
+    "When the agent cannot resolve a scenario, users can give natural language instructions to guide it instead of restarting the process.",
+    "The sales order agent is generally available in Denmark, Spain, Germany, France and Italy.",
+    "The Payables agent is in public preview in four English-speaking countries, with general availability described as coming soon. It reads invoice attachments from emails, classifies expenses, uses purchase history and creates purchase invoice documents. The finance team reviews before posting.",
+    "The MCP server for Business Central is in public preview. It lets agent builders such as Copilot Studio or third-party platforms build custom agents that access Business Central data from Microsoft 365, Teams, Outlook or other systems."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "decision maker",
+    "partner",
+    "developer"
+  ],
+  "extraction_hash": "895e6280bddd3b1564cd264a271dacbdcad254ad44f688976b2df444a47cf1ba",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0155524
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "video_id": "OnC0a5zy-oQ",
+  "item_id": "video/yt-microsoft/OnC0a5zy-oQ",
+  "title": "What's Cooking in Business Central: Managing Feature Management through an API",
+  "duration_s": 78,
+  "systems": [
+    "integration",
+    "administration",
+    "development"
+  ],
+  "topics": [
+    "feature management",
+    "api",
+    "automation",
+    "get request",
+    "activate bound action",
+    "deactivate bound action",
+    "advanced tell me"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to Feature Management API",
+      "t_start": 0,
+      "t_end": 18
+    },
+    {
+      "title": "Getting Available Features with GET Request",
+      "t_start": 18,
+      "t_end": 28.1
+    },
+    {
+      "title": "Activating Features with API",
+      "t_start": 28.1,
+      "t_end": 38.4
+    },
+    {
+      "title": "Deactivating Features and Verification",
+      "t_start": 38.4,
+      "t_end": 52.7
+    },
+    {
+      "title": "Summary and Benefits",
+      "t_start": 52.7,
+      "t_end": 78
+    }
+  ],
+  "features": [
+    {
+      "name": "Feature Management API",
+      "description": "Automation API support for feature management in Business Central that allows invoking get requests to retrieve available features and their status, and bound actions to activate or deactivate features.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 5.2,
+      "t_end": 68.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "api",
+        "feature management",
+        "automation"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Get Request for Feature List",
+      "description": "API capability to invoke a get request to retrieve a list of all available features and their current status.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 18,
+      "t_end": 28.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "api",
+        "get request",
+        "features"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Activate Bound Action",
+      "description": "API bound action to activate a feature, such as advanced tell me, for all users in the system.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 28.1,
+      "t_end": 38.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "api",
+        "activate",
+        "bound action"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Deactivate Bound Action",
+      "description": "API bound action to deactivate a feature in feature management.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 52.7,
+      "t_end": 62,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "api",
+        "deactivate",
+        "bound action"
+      ],
+      "system": "integration"
+    }
+  ],
+  "objects": [],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 5.2,
+      "text": "we have just added automation API support to make handling features easier and more efficient",
+      "why_it_matters": "States the new capability and its purpose: automation API for feature management",
+      "check": "exact"
+    },
+    {
+      "t": 18,
+      "text": "You can invoke a get request to get a list of all the available features and their current status",
+      "why_it_matters": "Describes the primary capability to retrieve features and their status via GET request",
+      "check": "exact"
+    },
+    {
+      "t": 28.1,
+      "text": "we can activate this feature by invoking the activate bound action",
+      "why_it_matters": "Explains how to activate features using the API bound action",
+      "check": "exact"
+    },
+    {
+      "t": 38.4,
+      "text": "Once we invoke it, you can issue again another get request to verify that the feature has been enabled",
+      "why_it_matters": "Shows the pattern of using GET requests to verify API actions have taken effect",
+      "check": "exact"
+    },
+    {
+      "t": 52.7,
+      "text": "You could also deactivate the feature by invoking the deactivate bound action",
+      "why_it_matters": "Describes the complementary deactivate capability via bound action",
+      "check": "exact"
+    },
+    {
+      "t": 68.2,
+      "text": "It's fast, it's clean, it saves you valuable time",
+      "why_it_matters": "States the benefits of using the feature management API",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 4
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.010467
+    }
+  ]
+}

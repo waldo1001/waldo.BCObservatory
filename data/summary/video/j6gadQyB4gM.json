@@ -1,0 +1,26 @@
+{
+  "video_id": "j6gadQyB4gM",
+  "item_id": "video/yt-microsoft/j6gadQyB4gM",
+  "summary": "Custom email signatures in the Business Central Sales Order Agent: how to enable the option in the agent setup, what content a signature can hold, and how the system validates it on save. The signature is appended to the agent's first reply.",
+  "overview": "This short video from September 2025 shows how to define a custom signature that the sales order agent includes in the messages it generates. The signature can belong to a specific sales consultant or be a generic company signature.\n\nThe video walks through finding the setting in the agent configuration, entering the signature content, and saving it. On save, the system validates the content to catch anything harmful or inappropriate. Once set, the agent behaves as usual when replying to customers, with the signature appended to its first reply.",
+  "key_points": [
+    "To set it up, go to the agent section, select the agent, click Setup, move to the final panel and enable the signature option.",
+    "The signature can be specific to a sales consultant or a generic company signature.",
+    "Content can include text, images, hyperlinks, or other elements used in a professional email signature.",
+    "On save, the system validates the content for harmful or inappropriate material and does not save the signature if issues are found.",
+    "The signature is appended only to the first reply from the agent to customer input.",
+    "Apart from the added signature, the agent behaves as usual."
+  ],
+  "audience": [
+    "administrator",
+    "functional consultant",
+    "end user"
+  ],
+  "extraction_hash": "e3a0db037aac68c51f0eaf41a63b443754623d73d1c2b693b2e8b07c3b95fb7a",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.009652399999999998
+  }
+}

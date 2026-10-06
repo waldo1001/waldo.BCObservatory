@@ -1,0 +1,131 @@
+{
+  "video_id": "j6gadQyB4gM",
+  "item_id": "video/yt-microsoft/j6gadQyB4gM",
+  "title": "What's Cooking in Business Central: Custom Email Signatures in the Sales Order Agent",
+  "duration_s": 78,
+  "systems": [
+    "copilot",
+    "sales"
+  ],
+  "topics": [
+    "sales order agent",
+    "custom signatures",
+    "email signatures",
+    "agent configuration",
+    "signature validation"
+  ],
+  "chapters": [
+    {
+      "title": "Overview of Custom Signature Feature",
+      "t_start": 0,
+      "t_end": 20.2
+    },
+    {
+      "title": "Enabling and Accessing Signature Setup",
+      "t_start": 20.2,
+      "t_end": 31.9
+    },
+    {
+      "title": "Configuring Signature Content",
+      "t_start": 31.9,
+      "t_end": 44.8
+    },
+    {
+      "title": "Validation and Implementation",
+      "t_start": 44.8,
+      "t_end": 78
+    }
+  ],
+  "features": [
+    {
+      "name": "Custom Email Signatures in Sales Order Agent",
+      "description": "Ability to define a custom signature that will be automatically included in all generated messages from the sales order agent. The signature can be specific to a sales consultant or a generic company signature and can include text, images, hyperlinks, or other professional email elements.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 5,
+      "t_end": 62.9,
+      "is_demoed": true,
+      "caveats": [
+        "Signature is appended only to the first reply from the agent",
+        "System validates content to prevent harmful or inappropriate material"
+      ],
+      "tags": [
+        "sales order agent",
+        "email signatures",
+        "customization",
+        "communication"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Signature Content Validation",
+      "description": "The system automatically validates signature content upon save to ensure nothing harmful or inappropriate has been included, preventing the signature from being saved if issues are detected.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 44.8,
+      "t_end": 62.9,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "validation",
+        "security",
+        "content moderation"
+      ],
+      "system": "copilot"
+    }
+  ],
+  "objects": [],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 5,
+      "text": "The ability to define a custom signature that will be automatically included in all generated messages.",
+      "why_it_matters": "Defines the core feature of custom email signatures being introduced for the sales order agent.",
+      "check": "exact"
+    },
+    {
+      "t": 20.2,
+      "text": "navigate to the agent section, select your agent, and click on setup. Then move to the final panel and enable the option label.",
+      "why_it_matters": "Specifies the exact steps to access and enable the custom signature feature in the agent configuration.",
+      "check": "exact"
+    },
+    {
+      "t": 31.9,
+      "text": "This can include text, images, hyperlinks, or any other elements you typically use in your professional email signature.",
+      "why_it_matters": "Lists the types of content supported in custom signatures, providing design flexibility for users.",
+      "check": "exact"
+    },
+    {
+      "t": 44.8,
+      "text": "the system will automatically validate the content to ensure nothing harmful or inappropriate has been included",
+      "why_it_matters": "Explains the security mechanism in place to prevent malicious or inappropriate signature content.",
+      "check": "exact"
+    },
+    {
+      "t": 62.9,
+      "text": "whenever the agent responds to customer input, it will behave as usual, but now with your custom signature appended to the first reply",
+      "why_it_matters": "Clarifies that the signature is added only to the first reply and describes the consistent application of the feature.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 5,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 2
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.009049
+    }
+  ]
+}

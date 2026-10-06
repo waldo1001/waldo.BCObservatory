@@ -1,0 +1,277 @@
+{
+  "video_id": "UIL8ej7mSKQ",
+  "item_id": "video/yt-microsoft/UIL8ej7mSKQ",
+  "title": "Dynamics 365 Business Central 2025 Release Wave 2",
+  "duration_s": 202,
+  "systems": [
+    "copilot",
+    "sales",
+    "finance"
+  ],
+  "topics": [
+    "sales order agent",
+    "payables agent",
+    "ai automation",
+    "email processing",
+    "invoice automation",
+    "mcp server",
+    "natural language",
+    "european availability"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to Wave 2 AI enhancements",
+      "t_start": 0,
+      "t_end": 11.5
+    },
+    {
+      "title": "Sales order agent overview",
+      "t_start": 11.5,
+      "t_end": 26.3
+    },
+    {
+      "title": "Automatic email processing and shipping addresses",
+      "t_start": 26.3,
+      "t_end": 52.7
+    },
+    {
+      "title": "Alternative dates and natural language guidance",
+      "t_start": 52.7,
+      "t_end": 81.9
+    },
+    {
+      "title": "Sales order agent European availability",
+      "t_start": 81.9,
+      "t_end": 98.2
+    },
+    {
+      "title": "Payables agent introduction and capabilities",
+      "t_start": 98.2,
+      "t_end": 130.2
+    },
+    {
+      "title": "Payables agent status and benefits",
+      "t_start": 130.2,
+      "t_end": 152.1
+    },
+    {
+      "title": "MCP server for Business Central",
+      "t_start": 152.1,
+      "t_end": 182.9
+    },
+    {
+      "title": "Conclusion and call to action",
+      "t_start": 182.9,
+      "t_end": 202
+    }
+  ],
+  "features": [
+    {
+      "name": "Sales order agent automatic email processing",
+      "description": "The sales order agent can now automatically process incoming emails from registered customers without manual approval, extracting details and creating quotes or orders instantly with user review and approval before sending.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 26.3,
+      "t_end": 40.2,
+      "is_demoed": false,
+      "caveats": [
+        "requires registered customers",
+        "user review required before sending"
+      ],
+      "tags": [
+        "email automation",
+        "sales order agent",
+        "customer requests"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Sales order agent multiple shipping addresses",
+      "description": "The sales order agent recognizes requests for specific shipping addresses and searches for them among addresses registered for the customer, then records the address on the generated quote.",
+      "status": "ga",
+      "status_evidence_t": 52.7,
+      "status_evidence_quote": "The agent now recognizes requests for a specific shipping address, searching for it among the addresses registered for that customer",
+      "status_evidence_verified": true,
+      "t_start": 52.7,
+      "t_end": 69.8,
+      "is_demoed": false,
+      "caveats": [
+        "requires addresses to be pre-registered in Business Central"
+      ],
+      "tags": [
+        "shipping",
+        "sales order agent",
+        "address handling"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Sales order agent alternative delivery dates",
+      "description": "When a customer requests a shipping date that cannot be met, the sales order agent suggests alternative dates the company can promise based on delivery capability.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 69.8,
+      "t_end": 81.9,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "delivery dates",
+        "sales order agent",
+        "scheduling"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Sales order agent natural language guidance",
+      "description": "If the sales order agent encounters a scenario it cannot resolve independently, users can provide natural language instructions to guide it forward without restarting the entire process.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 81.9,
+      "t_end": 98.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "natural language",
+        "sales order agent",
+        "guidance"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Sales order agent European availability",
+      "description": "The sales order agent and its latest capabilities are now available in Denmark, Spain, Germany, France, and Italy for European customers.",
+      "status": "ga",
+      "status_evidence_t": 98.2,
+      "status_evidence_quote": "the sales order agent and its latest capabilities are now available in Denmark, Spain, Germany, France, and Italy",
+      "status_evidence_verified": true,
+      "t_start": 98.2,
+      "t_end": 109.5,
+      "is_demoed": false,
+      "caveats": [
+        "limited to five European countries"
+      ],
+      "tags": [
+        "sales order agent",
+        "localization",
+        "europe"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Payables agent",
+      "description": "The Payables Agent automates vendor invoice processing by consuming invoice attachments from emails, classifying expenses using AI and accounting knowledge, creating purchase invoice documents, and leveraging purchase history for accurate registration.",
+      "status": "preview",
+      "status_evidence_t": 140.2,
+      "status_evidence_quote": "It's currently in public preview across four English-speaking countries with general availability coming soon.",
+      "status_evidence_verified": true,
+      "t_start": 109.5,
+      "t_end": 140.2,
+      "is_demoed": false,
+      "caveats": [
+        "limited to four English-speaking countries",
+        "requires finance team review before posting"
+      ],
+      "tags": [
+        "payables",
+        "invoice automation",
+        "ai",
+        "payables agent"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "MCP server for Business Central",
+      "description": "MCP server for Business Central enables external agent builders like Microsoft Copilot Studio or third-party platforms to securely access Business Central data using the MCP protocol, allowing custom agents to interact with Business Central from Microsoft 365, Teams, Outlook, or other systems.",
+      "status": "preview",
+      "status_evidence_t": 152.1,
+      "status_evidence_quote": "we're introducing the public preview of MCP server for Business Central",
+      "status_evidence_verified": true,
+      "t_start": 152.1,
+      "t_end": 182.9,
+      "is_demoed": false,
+      "caveats": [
+        "requires MCP protocol support",
+        "integration with external platforms"
+      ],
+      "tags": [
+        "mcp",
+        "integration",
+        "copilot",
+        "custom agents"
+      ],
+      "system": "integration"
+    }
+  ],
+  "objects": [],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 26.3,
+      "text": "you can now configure the agent to automatically process incoming emails from your registered customers",
+      "why_it_matters": "Indicates the sales order agent can handle automatic email processing, a key productivity feature in Wave 2",
+      "check": "exact"
+    },
+    {
+      "t": 40.2,
+      "text": "No manual approval required. The agent reads the request, extracts the details, and gets to work instantly.",
+      "why_it_matters": "Clarifies the automation level - the agent operates independently until sending a response to the customer",
+      "check": "exact"
+    },
+    {
+      "t": 140.2,
+      "text": "It's currently in public preview across four English-speaking countries with general availability coming soon.",
+      "why_it_matters": "Establishes the Payables Agent status as preview with limited geographic availability and future GA planned",
+      "check": "exact"
+    },
+    {
+      "t": 152.1,
+      "text": "we're introducing the public preview of MCP server for Business Central, unlocking powerful new possibilities",
+      "why_it_matters": "Announces the MCP server public preview, enabling external platforms to access Business Central securely",
+      "check": "exact"
+    },
+    {
+      "t": 168.6,
+      "text": "you can build custom agents that interact with Business Central from wherever your team works",
+      "why_it_matters": "Emphasizes the flexibility of MCP server enabling cross-platform custom agent development",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 140.2,
+      "kind": "preview",
+      "text": "It's currently in public preview across four English-speaking countries"
+    },
+    {
+      "t": 140.2,
+      "kind": "coming-later",
+      "text": "general availability coming soon"
+    },
+    {
+      "t": 152.1,
+      "kind": "preview",
+      "text": "we're introducing the public preview of MCP server for Business Central"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 5,
+    "quotes_dropped": 0,
+    "evidence_verified": 4,
+    "evidence_unverified": 3
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.015958
+    }
+  ]
+}

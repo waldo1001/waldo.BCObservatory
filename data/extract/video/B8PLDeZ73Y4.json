@@ -1,0 +1,240 @@
+{
+  "video_id": "B8PLDeZ73Y4",
+  "item_id": "video/yt-bcmusings/B8PLDeZ73Y4",
+  "title": "Snapshot Debugging vs AL Profiler in Business Central — When to Use Each",
+  "duration_s": 492,
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "snapshot debugging",
+    "al profiler",
+    "performance profiling",
+    "bottleneck analysis",
+    "al cpu profile",
+    "debugging tools",
+    "production environment",
+    "function calls"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction",
+      "t_start": 0,
+      "t_end": 10.7
+    },
+    {
+      "title": "Snapshot Debugging Explained",
+      "t_start": 10.7,
+      "t_end": 128.5
+    },
+    {
+      "title": "AL Profiling Introduction and Use Cases",
+      "t_start": 128.5,
+      "t_end": 183.4
+    },
+    {
+      "title": "AL CPU Profile File and Navigation",
+      "t_start": 183.4,
+      "t_end": 276.9
+    },
+    {
+      "title": "Performance Profiler Method",
+      "t_start": 276.9,
+      "t_end": 335.9
+    },
+    {
+      "title": "Scheduled Profiler for Other Users",
+      "t_start": 335.9,
+      "t_end": 367
+    },
+    {
+      "title": "Comparison and Use Case Summary",
+      "t_start": 367,
+      "t_end": 443.2
+    },
+    {
+      "title": "Conclusion",
+      "t_start": 443.2,
+      "t_end": 492
+    }
+  ],
+  "features": [
+    {
+      "name": "Snapshot Debugging",
+      "description": "A debugging method based on snapshots that allows developers to capture a session, set snap points, and navigate through code execution to analyze errors. Initialized with F7 and finished with Alt F7.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 20.8,
+      "t_end": 128.5,
+      "is_demoed": true,
+      "caveats": [
+        "Requires configuration entry in launch.json",
+        "Based on first session that connects if no session ID or user ID specified"
+      ],
+      "tags": [
+        "debugging",
+        "snapshots",
+        "error analysis",
+        "production"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AL Profiling",
+      "description": "A performance profiling method used to identify and analyze bottlenecks in code by capturing function call timings and generating an ALCPU profile file that links back to source code.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 139.2,
+      "t_end": 443.2,
+      "is_demoed": true,
+      "caveats": [
+        "Not for error debugging but for performance bottlenecks",
+        "Requires downloading and importing profile file into VS Code"
+      ],
+      "tags": [
+        "profiling",
+        "performance",
+        "bottleneck analysis",
+        "function calls"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AL CPU Profile File Format",
+      "description": "A file with extension ALCPU profile that contains a succession of function calls with timing information, showing which function calls took longer and providing links to the responsible code.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 183.4,
+      "t_end": 208.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "al cpu profile",
+        "file format",
+        "profiling output"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Performance Profiler",
+      "description": "A tool accessible via 'Analyze Performance' that captures performance data for the current user session, allowing minimization of the window to profile live processes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 291.6,
+      "t_end": 335.9,
+      "is_demoed": true,
+      "caveats": [
+        "Only captures current user session when logged in"
+      ],
+      "tags": [
+        "performance profiler",
+        "analyze performance",
+        "profiling"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Scheduled Profiler",
+      "description": "A profiling method accessible via 'Analyze Performance with Scheduled Profiler' that allows monitoring of other user sessions by specifying username, start time, and end time.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 356.7,
+      "t_end": 367,
+      "is_demoed": true,
+      "caveats": [
+        "Requires specifying start and end time window",
+        "Must download profile for analysis"
+      ],
+      "tags": [
+        "scheduled profiler",
+        "user monitoring",
+        "profiling"
+      ],
+      "system": "platform"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Customer List",
+      "t": 236.8
+    },
+    {
+      "type": "page",
+      "name": "page extension",
+      "t": 236.8
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 20.8,
+      "text": "with snapshot debugging. Um snapshot debugging is based on snapshots and um to uh generate a snapshot uh you need um you need a",
+      "why_it_matters": "Explains the fundamental requirement for snapshot debugging setup",
+      "check": "exact"
+    },
+    {
+      "t": 84.2,
+      "text": "you initialize a snapshot debugging with a key F7. Um then um then if you don't have a session ID or a user ID",
+      "why_it_matters": "Documents the keyboard shortcut and configuration options for snapshot debugging",
+      "check": "exact"
+    },
+    {
+      "t": 112.7,
+      "text": "then you execute the code uh that you want to debug and after you execute the code you uh close the snapshot uh or",
+      "why_it_matters": "Specifies the complete workflow and the Alt F7 shortcut for ending snapshot debugging",
+      "check": "exact"
+    },
+    {
+      "t": 183.4,
+      "text": "You generate the profile file. Uh the profile file is a file that has the extension ALCPU profile.",
+      "why_it_matters": "Identifies the file format used by AL profiling tools",
+      "check": "exact"
+    },
+    {
+      "t": 386.8,
+      "text": "So snapshot debugging very useful for production environments. start um a snapshot um you run your process",
+      "why_it_matters": "Clarifies that snapshot debugging is specifically designed for production environment analysis",
+      "check": "exact"
+    },
+    {
+      "t": 411.2,
+      "text": "with um AL profiler very useful not necessarily for errors but it's useful when you have bottlenecks in the system",
+      "why_it_matters": "Distinguishes the primary use case of AL profiler from snapshot debugging",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 166.9,
+      "kind": "other",
+      "text": "this is the last uh portion here and it's quite new compared to the previous uh snapshot debugging method"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 5
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.019532
+    }
+  ]
+}

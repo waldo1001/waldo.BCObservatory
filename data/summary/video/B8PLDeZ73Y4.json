@@ -1,0 +1,27 @@
+{
+  "video_id": "B8PLDeZ73Y4",
+  "item_id": "video/yt-bcmusings/B8PLDeZ73Y4",
+  "summary": "Snapshot debugging versus the AL profiler in Business Central: snapshot debugging is for investigating errors, including in production, and the AL profiler is for finding performance bottlenecks. The video demos both, plus the Performance Profiler and the Scheduled Profiler for other users' sessions.",
+  "overview": "The video compares two developer tools in Business Central. Snapshot debugging captures a session so a developer can set snap points and step through code execution to analyze errors. It is started with F7 and finished with Alt F7, and it needs a configuration entry in launch.json.\n\nThe AL profiler targets performance rather than errors. It records function call timings and produces an ALCPU profile file that links back to source code, which is opened in VS Code. The video shows two ways to capture a profile: the Performance Profiler for your own session, and the Scheduled Profiler for another user's session within a set time window. It closes with a summary of when to use each tool.",
+  "key_points": [
+    "Snapshot debugging is started with F7 and finished with Alt F7. A configuration entry in launch.json is required.",
+    "If no session ID or user ID is specified, snapshot debugging attaches to the first session that connects.",
+    "The speaker calls snapshot debugging very useful for production environments.",
+    "The AL profiler is for bottlenecks, not for debugging errors. It produces an ALCPU profile file with function call timings and links to the code.",
+    "The profile file must be downloaded and imported into VS Code for analysis.",
+    "The Performance Profiler (Analyze Performance) captures only the current user's session.",
+    "The Scheduled Profiler (Analyze Performance with Scheduled Profiler) profiles another user by username, start time and end time. The profile must be downloaded for analysis."
+  ],
+  "audience": [
+    "developer",
+    "administrator",
+    "functional consultant"
+  ],
+  "extraction_hash": "117f016d433f9922e9a3fd2f4f7b023810bd24256e7d1dbbc99059856b2a3e5b",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0136184
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "video_id": "qFGTq40UinE",
+  "item_id": "video/yt-bcmusings/qFGTq40UinE",
+  "summary": "GitHub Copilot in VS Code, run in agent mode with Claude as the LLM, analyzing an unfamiliar AL project (a subscription billing app) to produce an app blueprint and a markdown README. Shows the prompt used and the resulting functional areas, features, APIs, reports and business processes.",
+  "overview": "The video starts with basic GitHub Copilot use in VS Code for AL development: inline suggestions, the chat interface, refactoring help and creating smaller objects such as tables and pages. It then moves to a different use: understanding a project you did not write.\n\nThe presenter loads a subscription billing app, uses agent mode with Claude as the LLM, and gives a prompt that casts Copilot as a functional consultant creating the blueprint for the app. Copilot returns functional areas, core features, user actions, APIs, reports and business processes. The presenter then has it convert the analysis into a markdown README that can be committed to a GitHub or DevOps repository.",
+  "key_points": [
+    "Inline suggestions can be enabled in VS Code preferences by searching for 'next edit' and 'next suggestions'.",
+    "The Copilot chat can be opened with a keyboard shortcut or from the menu.",
+    "Project analysis was run in agent mode with Claude as the LLM on the loaded AL project.",
+    "The prompt used: 'You are a functional consultant in charge with creating the blueprint for subscription billing app'.",
+    "The generated blueprint covered functional areas, features, pages, actions, APIs, reports and business processes.",
+    "Copilot converted the analysis into a markdown README suitable for GitHub or DevOps repositories.",
+    "Blueprint quality depends on how clear and well structured the project code is."
+  ],
+  "audience": [
+    "developer",
+    "functional consultant"
+  ],
+  "extraction_hash": "876f88a3c563c840a88191b067a021c3bbc3eff9a11f455647432bdd0f921f07",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.014166399999999999
+  }
+}

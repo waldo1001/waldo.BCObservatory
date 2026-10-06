@@ -1,0 +1,226 @@
+{
+  "video_id": "7QJeTXzZaEk",
+  "item_id": "video/yt-microsoft/7QJeTXzZaEk",
+  "title": "Getting Started With Agents: Test Drive the Sales Order Agent (2025)",
+  "duration_s": 218,
+  "systems": [
+    "sales",
+    "copilot"
+  ],
+  "topics": [
+    "sales order agent",
+    "email integration",
+    "shared mailbox",
+    "ai agent",
+    "sales quotes",
+    "automation",
+    "contact creation",
+    "test drive"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to Sales and Payables Agents",
+      "t_start": 0,
+      "t_end": 17.2
+    },
+    {
+      "title": "Creating a Shared Mailbox in Microsoft 365",
+      "t_start": 17.2,
+      "t_end": 57.9
+    },
+    {
+      "title": "Linking Shared Mailbox to Outlook",
+      "t_start": 57.9,
+      "t_end": 80.6
+    },
+    {
+      "title": "Activating the Sales Order Agent in Business Central",
+      "t_start": 80.6,
+      "t_end": 116.3
+    },
+    {
+      "title": "Sending Test Email to Agent",
+      "t_start": 116.3,
+      "t_end": 145
+    },
+    {
+      "title": "Agent Processing and Quote Creation",
+      "t_start": 145,
+      "t_end": 187.8
+    },
+    {
+      "title": "Managing Email Accounts and Testing with Colleagues",
+      "t_start": 187.8,
+      "t_end": 218
+    }
+  ],
+  "features": [
+    {
+      "name": "Sales Order Agent",
+      "description": "An AI agent that monitors a shared mailbox for sales quote requests, automatically reads email details, finds items, and creates sales quotes in Business Central.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 5.8,
+      "t_end": 203.5,
+      "is_demoed": true,
+      "caveats": [
+        "Available in many countries, not necessarily all",
+        "Requires a dedicated shared mailbox for optimal results",
+        "Requires contact setup for unknown senders"
+      ],
+      "tags": [
+        "agent",
+        "sales",
+        "email",
+        "automation",
+        "ai"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Email Account Integration",
+      "description": "Business Central email account creation wizard that connects shared mailboxes or Microsoft 365 accounts to activate agents for monitoring incoming emails.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 90.9,
+      "t_end": 115,
+      "is_demoed": true,
+      "caveats": [
+        "Can use shared mailbox or personal account",
+        "Shared mailbox recommended to reduce noise"
+      ],
+      "tags": [
+        "email",
+        "integration",
+        "setup",
+        "microsoft-365"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Automatic Contact Creation from Email",
+      "description": "When an email arrives from an unknown sender, the agent can prompt the user to quickly create a new contact with details from that sender.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 145,
+      "t_end": 175.3,
+      "is_demoed": true,
+      "caveats": [
+        "Sender must be set up as a contact before quote creation"
+      ],
+      "tags": [
+        "contact",
+        "automation",
+        "crm"
+      ],
+      "system": "crm"
+    },
+    {
+      "name": "Payables Agent",
+      "description": "A companion AI agent for accounts payable processing, available alongside the sales order agent.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 5.8,
+      "t_end": 10.8,
+      "is_demoed": false,
+      "caveats": [
+        "Not demonstrated in this video",
+        "Available in many countries, not necessarily all"
+      ],
+      "tags": [
+        "agent",
+        "payables",
+        "ai"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Email Accounts Management Page",
+      "description": "A Business Central page where users can register new email accounts, create shared mailboxes for different purposes, or remove accounts no longer needed.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 187.8,
+      "t_end": 203.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "email",
+        "administration",
+        "setup"
+      ],
+      "system": "administration"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "email accounts page",
+      "t": 187.8
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 5.8,
+      "text": "The sales order agent and the payables agent already available in many countries.",
+      "why_it_matters": "Confirms that both agents are generally available now, establishing their current status in the product.",
+      "check": "exact"
+    },
+    {
+      "t": 90.9,
+      "text": "While you can also use your own account if you prefer, a dedicated shared mailbox helps ensure the agent isn't cluttered with irrelevant emails.",
+      "why_it_matters": "Explains the design decision and best practice for setting up agents to maintain focus and efficiency.",
+      "check": "exact"
+    },
+    {
+      "t": 105.4,
+      "text": "Once the account is selected, the agent activates automatically. You just need to click update to confirm.",
+      "why_it_matters": "Shows the simplicity of activation and minimal configuration needed to get the agent running.",
+      "check": "exact"
+    },
+    {
+      "t": 145,
+      "text": "Because the email is coming from you, you're probably not set up as a contact in your own business central environment.",
+      "why_it_matters": "Identifies a workflow requirement that unknown senders must be added as contacts before the agent can create quotes.",
+      "check": "exact"
+    },
+    {
+      "t": 158.4,
+      "text": "Adding any sender as a contact is quick and easy. Simply review the details and confirm to create the new contact.",
+      "why_it_matters": "Demonstrates that the agent workflow includes a streamlined process for resolving missing contact information.",
+      "check": "exact"
+    },
+    {
+      "t": 175.3,
+      "text": "The quote is created without you having to painstakingly search for and type in all that information.",
+      "why_it_matters": "Articulates the core value proposition of the agent in eliminating manual data entry work.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 5
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.032458
+    }
+  ]
+}

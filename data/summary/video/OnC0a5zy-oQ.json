@@ -1,0 +1,26 @@
+{
+  "video_id": "OnC0a5zy-oQ",
+  "item_id": "video/yt-microsoft/OnC0a5zy-oQ",
+  "summary": "Feature Management in Business Central can be handled through the automation API: a GET request lists available features and their status, and bound actions activate or deactivate a feature. The short demo (published 2025-09-05) enables and verifies \"advanced tell me\".",
+  "overview": "The video shows automation API support for feature management in Business Central. It is meant to make handling features easier and more efficient than doing it by hand.\n\nThe demo first invokes a GET request to list all available features and their current status. It then activates a feature, advanced tell me, by invoking the activate bound action, and issues another GET request to verify the feature is enabled. It finishes by showing that the deactivate bound action turns the feature off again.",
+  "key_points": [
+    "Automation API support was added for feature management.",
+    "A GET request returns all available features and their current status.",
+    "The activate bound action enables a feature, shown with advanced tell me, for all users in the system.",
+    "After activating, issue another GET request to verify the feature is enabled.",
+    "The deactivate bound action disables a feature.",
+    "Useful for scripting or automating feature changes instead of using the UI."
+  ],
+  "audience": [
+    "administrator",
+    "developer",
+    "functional consultant"
+  ],
+  "extraction_hash": "2b6ce0641d8bdabeb57c39a572cec4bd767ee5f54e2279d1b0a66b3e8b171e3e",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0093184
+  }
+}
