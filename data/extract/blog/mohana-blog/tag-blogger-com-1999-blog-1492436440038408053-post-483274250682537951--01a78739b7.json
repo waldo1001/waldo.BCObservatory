@@ -1,0 +1,75 @@
+{
+  "item_id": "blog/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-483274250682537951",
+  "url": "http://mohana-dynamicsnav.blogspot.com/2026/09/bc-29-lets-single-index-span-base-table.html",
+  "title": "BC 29 lets a single index span base table and table extension fields",
+  "source": "mohana-blog",
+  "published_at": "2026-09-07T12:50:08.000Z",
+  "words": 1031,
+  "summary": "Business Central 29 allows table extension keys to span both base table and extension fields in a single index, eliminating a long-standing constraint. This enables simpler indexing solutions for filtered lists, reporting extractions, and performance problems that previously required architectural workarounds.",
+  "key_points": [
+    "Version 29 removes the restriction that keys must contain either all base table fields or all extension fields, but not both",
+    "The change is enabled by storing all AL table fields in the same physical database table instead of separate companion tables",
+    "Cross-boundary keys solve real performance problems like filtering on base table fields while sorting on extension fields",
+    "Developers must still consider the 40-key-per-table limit and write performance costs when adding new indexes",
+    "The capability is in public preview for online sandboxes only; on-premises guidance will follow general availability in October 2026"
+  ],
+  "systems": [
+    "development",
+    "platform",
+    "reporting"
+  ],
+  "topics": [
+    "indexing",
+    "table extensions",
+    "performance",
+    "al development",
+    "database storage",
+    "bc 29"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Sales Invoice Header"
+    },
+    {
+      "type": "table",
+      "name": "Item Ledger Entry"
+    },
+    {
+      "type": "table",
+      "name": "G/L Entry"
+    },
+    {
+      "type": "table",
+      "name": "Customer"
+    }
+  ],
+  "features": [
+    "cross-boundary keys",
+    "table extension indexing",
+    "mixed-field keys",
+    "schema storage consolidation",
+    "index optimization"
+  ],
+  "versions": [
+    "29",
+    "28",
+    "23",
+    "18"
+  ],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006789,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "Every index costs writes. An index that makes one list fast makes every insert and modify on that table slower.",
+      "why_it_matters": "Critical caution for developers considering new cross-boundary indexes to avoid unforeseen performance degradation"
+    }
+  ]
+}

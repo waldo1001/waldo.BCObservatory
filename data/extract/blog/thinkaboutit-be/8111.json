@@ -1,0 +1,58 @@
+{
+  "item_id": "blog/thinkaboutit-be/8111",
+  "url": "https://thinkaboutit.be/2026/09/quick-tip-you-can-now-create-a-business-central-29-0-preview-sandbox/",
+  "title": "Quick Tip: You Can Now Create a Business Central 29.0 (Preview) Sandbox",
+  "source": "thinkaboutit-be",
+  "published_at": "2026-09-07T08:42:10.000Z",
+  "words": 269,
+  "summary": "Business Central 2026 release wave 2 (version 29.0) is now available as a preview sandbox from the admin center until early October 2026. Preview sandboxes are automatically deleted 30 days after general availability and cannot be migrated to other versions, so they serve primarily as testing windows before upgrade projects begin.",
+  "key_points": [
+    "Version 29.0 preview sandboxes can be created or updated from the admin center starting September 2026",
+    "Preview period runs from early September to early October 2026, with auto-deletion 30 days after GA",
+    "Preview environments have no migration path to other versions, making them time-limited testing windows only",
+    "Microsoft replaced separate release plan pages with the AI at Work roadmap for new capabilities",
+    "The what's new article and preview sandbox are now the most reliable sources for verifying actual wave features"
+  ],
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "preview sandbox",
+    "release wave 2",
+    "version 29.0",
+    "environment management",
+    "testing",
+    "upgrades"
+  ],
+  "objects": [],
+  "features": [
+    "Preview sandbox creation",
+    "Sandbox environment updates",
+    "AI at Work roadmap",
+    "What's new article"
+  ],
+  "versions": [
+    "29.0 (Preview)",
+    "2026 release wave 2"
+  ],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005503,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "Any sandbox still running on the preview version gets deleted automatically 30 days after general availability, so around early November.",
+      "why_it_matters": "It clarifies the limited lifespan of preview sandboxes and when users must export their testing data"
+    },
+    {
+      "text": "Microsoft has stopped publishing separate release plan pages starting this cycle. New capabilities now show up on the AI at Work roadmap instead.",
+      "why_it_matters": "It explains how to find information about new features in this release wave, shifting from release plans to the roadmap"
+    }
+  ]
+}

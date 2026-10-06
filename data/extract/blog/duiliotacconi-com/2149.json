@@ -1,0 +1,82 @@
+{
+  "item_id": "blog/duiliotacconi-com/2149",
+  "url": "https://duiliotacconi.com/2026/09/07/partial-record-vs-nst-caching-the-strange-case-of-calculate-low-level-code/",
+  "title": "Partial Record vs NST Caching : the strange case of Calculate Low Level Code",
+  "source": "duiliotacconi-com",
+  "published_at": "2026-09-07T13:41:21.000Z",
+  "words": 1413,
+  "summary": "Partial record optimization using SetLoadFields can unexpectedly cause performance regressions when combined with NST caching in Business Central. The post demonstrates how adding SetLoadFields to the Production BOM Version record in the Calculate Low Level Code report creates multiple SQL queries instead of leveraging the platform's caching mechanism, resulting in thousands of redundant database calls in large datasets.",
+  "key_points": [
+    "SetLoadFields prevents NST caching for partial records, unlike full records which are cached after first retrieval, causing repeated SQL queries",
+    "The issue manifests when querying the same partial record repeatedly in loops, as each iteration triggers a separate database call instead of reusing cached results",
+    "SetLoadFields should only be used for tables with high column counts, low retrieval ratios (under 40%), and large recordsets, not for FindFirst/FindLast/Get operations",
+    "The performance regression exists in version 27.x and 28.x, while version 23.x cached full records and avoided the problem despite identical code",
+    "Base Application SetLoadFields usage increased from 410 in v23.6 to 943 in v27.6, suggesting widespread potential for similar performance issues"
+  ],
+  "systems": [
+    "platform",
+    "manufacturing",
+    "development"
+  ],
+  "topics": [
+    "performance optimization",
+    "partial records",
+    "setloadfields",
+    "caching",
+    "nst",
+    "sql queries",
+    "production bom"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Calculate Low Level Code"
+    },
+    {
+      "type": "codeunit",
+      "name": "Low-Level Code Calculator"
+    },
+    {
+      "type": "codeunit",
+      "name": "Version Management"
+    },
+    {
+      "type": "table",
+      "name": "Production BOM Version"
+    },
+    {
+      "type": "table",
+      "name": "Item"
+    }
+  ],
+  "features": [
+    "SetLoadFields",
+    "Partial Records",
+    "NST Caching",
+    "Query Optimization",
+    "Performance Profiling",
+    "Telemetry Logging"
+  ],
+  "versions": [
+    "23.6",
+    "27.6",
+    "28.4",
+    "29",
+    "2026 Wave 2"
+  ],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.008155,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "When using partial records, the caching mechanism is somewhat hardly invoked (or not working at all).",
+      "why_it_matters": "Identifies the core issue that SetLoadFields bypasses NST caching, which is critical for understanding when partial records hurt performance"
+    }
+  ]
+}

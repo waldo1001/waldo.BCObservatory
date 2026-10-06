@@ -1,0 +1,27 @@
+{
+  "video_id": "sk5CaXnvvng",
+  "item_id": "video/yt-microsoft/sk5CaXnvvng",
+  "summary": "Business Central 2023 release wave 2 changes to web service stability: OData editable property for Edit in Excel, HTTP 503 with retry-after on queue timeout, invalid metadata handling with partner telemetry, HTTP client error handling, and delta link removal planned for 2024 wave 1.",
+  "overview": "The session covers work in 2023 release wave 2 that made Business Central web services more stable rather than faster or richer in features. Changes include OData evaluating the editable property like the UI does, a 503 response with a retry-after header when a request times out in the queue, and ignoring endpoints with invalid metadata instead of failing all web services.\n\nIt also covers telemetry and documentation improvements: a page for failing web service endpoints, user agent, HTTP status code, exception and queue time data in Power BI telemetry, troubleshooting guides, HTTP client error handling guidance, clearer SSL error messages, and socket reuse. It closes with upcoming changes: a new default schema version for custom APIs and removal of delta link support in 2024 wave 1.",
+  "key_points": [
+    "OData V4 now evaluates the editable property like the UI, including calculated properties, so pages that previously failed in Edit in Excel can work. API pages should still be preferred over normal pages exposed to OData.",
+    "When a request times out in the request queue, the server returns HTTP 503 with a retry-after header. Clients need retry logic to use it. Backported to version 22.2 and later.",
+    "Invalid metadata, such as duplicate page names from multiple extensions, now causes only the problematic endpoint to be ignored. Partner telemetry is emitted, so monitor it instead of waiting for customer reports.",
+    "Power BI telemetry now shows user agent, HTTP status codes, exceptions, AL call stacks and queue time for incoming web service calls. A telemetry page shows which web service endpoints fail and gives fix hints.",
+    "For HTTP client failures that occur before a status code is returned, use get last error text to see URL, network and certificate errors. SSL error messages are now more specific.",
+    "Socket reuse optimization for the HTTP client reduces VM port starvation with many outgoing calls. It needs no code changes and was backported to version 2.x.",
+    "Delta link support will be removed in 2024 wave 1, and the default schema version for custom APIs will change. Stop using delta links and check custom API implementations."
+  ],
+  "audience": [
+    "developer",
+    "administrator",
+    "partner"
+  ],
+  "extraction_hash": "25a657a597277bbcc91b5942b751800251743c8041923f7dcbf7c25a77f4bd7f",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0207244
+  }
+}

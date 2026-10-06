@@ -7,13 +7,39 @@
   "url": "https://thinkaboutit.be/2026/09/quick-tip-you-can-now-create-a-business-central-29-0-preview-sandbox/",
   "published_at": "2026-09-07T08:42:10.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:39:20.614Z",
+      "path": "vault:posts/thinkaboutit-be/8111.md",
+      "words": 269
+    },
+    "extracted": {
+      "at": "2026-10-06T21:39:28.816Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": 0.005503
+    },
+    "summarized": {
+      "at": "2026-10-06T21:39:28.817Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:39:28.818Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:39:28.822Z",
+      "path": "content/posts/thinkaboutit-be/8111.md"
     }
   },
   "input_hash": "2026-09-07T08:42:10.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "157d28f2f01e3e07b3b96a72860d8d850ec6930343141bbc676485ccc3237809"
 }

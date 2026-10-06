@@ -7,13 +7,39 @@
   "url": "https://tine.staric.net/blog/2026/claude-code-tiny-tips/",
   "published_at": "2026-09-07T08:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:39:27.717Z",
+      "path": "vault:posts/tine-staric-net/https-tine-staric-net-blog-2026-claude-code-tiny-tips--0373e0f774.md",
+      "words": 391
+    },
+    "extracted": {
+      "at": "2026-10-06T21:39:34.866Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": 0.00507
+    },
+    "summarized": {
+      "at": "2026-10-06T21:39:34.867Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:39:34.868Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:39:34.871Z",
+      "path": "content/posts/tine-staric-net/https-tine-staric-net-blog-2026-claude-code-tiny-tips--0373e0f774.md"
     }
   },
   "input_hash": null,
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a49db7b4b0b0a850f9ce803845a44edcfe6d2fd97ca0d863287c2ed65141c12c"
 }

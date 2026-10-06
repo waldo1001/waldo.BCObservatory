@@ -1,0 +1,756 @@
+{
+  "video_id": "a1LQ3-SCtPE",
+  "item_id": "video/yt-microsoft/a1LQ3-SCtPE",
+  "title": "What's New: Server and Database - A Faster Data Stack (2023 release wave 2)",
+  "duration_s": 1687,
+  "systems": [
+    "platform",
+    "development",
+    "finance"
+  ],
+  "topics": [
+    "table extensions",
+    "companion tables",
+    "database joins",
+    "schema redesign",
+    "cloud migration",
+    "partial records",
+    "setloadfields",
+    "performance optimization",
+    "on-premises upgrade",
+    "database views",
+    "extension schema",
+    "extension data management"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and the problem with table extensions",
+      "t_start": 0,
+      "t_end": 114.3
+    },
+    {
+      "title": "Performance issues with n-way joins and the new companion table model",
+      "t_start": 114.3,
+      "t_end": 249.3
+    },
+    {
+      "title": "Performance improvements from the new schema",
+      "t_start": 249.3,
+      "t_end": 353.1
+    },
+    {
+      "title": "Understanding the read vs. modify performance impact",
+      "t_start": 353.1,
+      "t_end": 475.3
+    },
+    {
+      "title": "Production scale and cloud migration support",
+      "t_start": 475.3,
+      "t_end": 596.4
+    },
+    {
+      "title": "On-premises and database views for ETL tools",
+      "t_start": 596.4,
+      "t_end": 674
+    },
+    {
+      "title": "SetLoadFields optimization and new base table methods",
+      "t_start": 674,
+      "t_end": 807.5
+    },
+    {
+      "title": "Key takeaways and migration guidance",
+      "t_start": 807.5,
+      "t_end": 888
+    },
+    {
+      "title": "Extension Data Management and Performance",
+      "t_start": 888,
+      "t_end": 1018.8
+    },
+    {
+      "title": "New Locking Model - Overview and Behavior",
+      "t_start": 1018.8,
+      "t_end": 1154
+    },
+    {
+      "title": "Locking Model Details - Read Committed vs Update Lock",
+      "t_start": 1154,
+      "t_end": 1320.6
+    },
+    {
+      "title": "Locking Model Rollout and Feature Management",
+      "t_start": 1320.6,
+      "t_end": 1462.6
+    },
+    {
+      "title": "Locking Model Implementation and Additional Performance Improvements",
+      "t_start": 1462.6,
+      "t_end": 1543.6
+    },
+    {
+      "title": "Upcoming Changes and Recommendations",
+      "t_start": 1543.6,
+      "t_end": 1687
+    }
+  ],
+  "features": [
+    {
+      "name": "New companion table schema for table extensions",
+      "description": "Changed the data model from storing each table extension in its own table to having one companion table that stores all extension fields, reducing the number of database joins from n to 1.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 135.2,
+      "t_end": 342.2,
+      "is_demoed": true,
+      "caveats": [
+        "Performance gains vary based on number of extensions and code organization",
+        "Only visible benefit with 2 or more extensions",
+        "Requires upgrade work for on-premises installations"
+      ],
+      "tags": [
+        "table extensions",
+        "database schema",
+        "performance",
+        "joins"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Delete operation performance improvement",
+      "description": "Delete operations are now 2 to 5 times faster with the new companion table model.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 249.3,
+      "t_end": 290.8,
+      "is_demoed": false,
+      "caveats": [
+        "Actual performance gains depend on code and data configuration"
+      ],
+      "tags": [
+        "delete",
+        "performance",
+        "benchmark"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Insert operation performance improvement",
+      "description": "Insert performance is approximately twice as fast with the new model.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 249.3,
+      "t_end": 290.8,
+      "is_demoed": false,
+      "caveats": [
+        "Performance depends on event handling and code organization"
+      ],
+      "tags": [
+        "insert",
+        "performance",
+        "benchmark"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Modify operation performance improvement",
+      "description": "Modify operations can be up to 2 times faster with the new schema.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 249.3,
+      "t_end": 290.8,
+      "is_demoed": false,
+      "caveats": [
+        "Performance gains less dramatic than reads due to event invocation"
+      ],
+      "tags": [
+        "modify",
+        "performance",
+        "benchmark"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Read operation performance improvement",
+      "description": "Read performance shows the most significant improvement, with nearly flat scaling as the number of table extensions increases, compared to the previous linear scaling.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 249.3,
+      "t_end": 394,
+      "is_demoed": true,
+      "caveats": [
+        "Performance measurement requires flushing server caches",
+        "Actual gains depend on field count and data page usage"
+      ],
+      "tags": [
+        "read",
+        "performance",
+        "scaling",
+        "benchmark"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Database size reduction from new schema",
+      "description": "The new companion table model decreases overall database size because there is only one copy of the primary key, row version, and other metadata instead of duplicates across multiple extension tables.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 249.3,
+      "t_end": 342.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "storage",
+        "database size",
+        "efficiency"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Cloud migration support for new schema",
+      "description": "Version 23 includes full cloud migration support from earlier versions to the new schema. The cloud migration tool was updated to work as a data factory and understands both the old and new data models.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 536.1,
+      "t_end": 576.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "cloud migration",
+        "data factory",
+        "upgrade"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Database views for on-premises ETL tools",
+      "description": "To support on-premises installations that have direct database integrations with ETL or BI tools, the new schema can be mimicked using database views so existing queries continue to work without changes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 596.4,
+      "t_end": 663,
+      "is_demoed": false,
+      "caveats": [
+        "Direct database access is not officially supported",
+        "Code samples are available on GitHub"
+      ],
+      "tags": [
+        "database views",
+        "on-premises",
+        "etl",
+        "integration"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "SetLoadFields continuing value with new schema",
+      "description": "SetLoadFields remains useful even with the new schema because it limits the fields loaded into memory, reducing data transfer and caching overhead, and can help hit covering indexes for performance-critical loops.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 674,
+      "t_end": 747,
+      "is_demoed": false,
+      "caveats": [
+        "Less critical for general code paths that were not previously optimized"
+      ],
+      "tags": [
+        "setloadfields",
+        "optimization",
+        "best practices"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Set-based load fields method for base table owners",
+      "description": "A new method was introduced that allows owners of base tables to set loading of all base fields at once, reducing code maintenance and still providing performance benefits.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 747,
+      "t_end": 807.5,
+      "is_demoed": true,
+      "caveats": [
+        "Example shown on VAT Entry table",
+        "Still requires careful consideration for truly performance-critical code"
+      ],
+      "tags": [
+        "setloadfields",
+        "base fields",
+        "code generation"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Set-Based Load Fields",
+      "description": "A method to optimize data reading by loading only necessary fields automatically, reducing maintenance cost and improving performance by removing joins when code inside loops changes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 787.4,
+      "t_end": 847.8,
+      "is_demoed": true,
+      "caveats": [
+        "If performance critical, manual set load fields can minimize cached data",
+        "Requires understanding of code flow if changing fields accessed in loops"
+      ],
+      "tags": [
+        "data reading",
+        "optimization",
+        "base app"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Extension Schema Performance",
+      "description": "New extension schema makes things faster for all code without requiring action, particularly benefiting read operations and logging when multiple table extensions are used.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 847.8,
+      "t_end": 888,
+      "is_demoed": false,
+      "caveats": [
+        "Single table extension may not show noticeable difference",
+        "Benefits mainly visible with two or more extensions"
+      ],
+      "tags": [
+        "extension",
+        "performance",
+        "schema"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Orphaned Extension Data Cleanup",
+      "description": "Added ability to delete orphaned extension data left behind after uninstalling extensions, now impacting performance as data is part of extension table rows. Tool placed in installed extensions section.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 906.3,
+      "t_end": 987.3,
+      "is_demoed": false,
+      "caveats": [
+        "Orphaned data now impacts database capacity and join performance",
+        "Reinstalling extension after cleanup will not restore deleted data"
+      ],
+      "tags": [
+        "extension management",
+        "database cleanup",
+        "storage"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "New Locking Model",
+      "description": "Changed locking behavior to use read committed instead of update lock for new record instances on modified tables, reducing inadvertent locking of other records and enabling more concurrent access.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1018.8,
+      "t_end": 1462.6,
+      "is_demoed": true,
+      "caveats": [
+        "Existing tenants must opt-in via feature management",
+        "Environment restart required to apply switch",
+        "May expose different concurrency issues in certain code paths",
+        "Lock table statement still available if explicit locking needed"
+      ],
+      "tags": [
+        "locking",
+        "concurrency",
+        "performance",
+        "transactions"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Read Isolation Property",
+      "description": "AL property allowing control of locking behavior on instance level, enabling opt-out from automatic update locks without using lock table statement.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1245.6,
+      "t_end": 1279.7,
+      "is_demoed": false,
+      "caveats": [
+        "Requires explicit property configuration on record instances"
+      ],
+      "tags": [
+        "locking",
+        "isolation",
+        "al property"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AutoIncrement Field Performance Optimization",
+      "description": "Fixed optimization for autoincrement fields that made wide tables slow due to inefficient parameter generation algorithm, now significantly faster even with 100 fields.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1501.6,
+      "t_end": 1521.8,
+      "is_demoed": false,
+      "caveats": [
+        "Was causing seconds of delay with 100 autoincrement fields"
+      ],
+      "tags": [
+        "fields",
+        "performance",
+        "optimization"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Set Range SQL Query Optimization",
+      "description": "Optimized SQL queries generated from set range to better enable index selection by SQL optimizer.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1521.8,
+      "t_end": 1543.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "sql",
+        "performance",
+        "indexing"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Removal of Force Order and Loop Joints Server Settings",
+      "description": "Server settings for Force Order and Loop Joints will be removed in 2024 release wave one to standardize query execution approach.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1543.6,
+      "t_end": 1564,
+      "is_demoed": false,
+      "caveats": [
+        "Coming in next release"
+      ],
+      "tags": [
+        "server settings",
+        "query execution"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Removal of App Database Write Capability",
+      "description": "On-premises ability to write to the app database will be removed in next release, eliminating app database as a concept.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1564,
+      "t_end": 1598.4,
+      "is_demoed": false,
+      "caveats": [
+        "Six months notice before enforcement"
+      ],
+      "tags": [
+        "app database",
+        "on-premises"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "New locking scheme",
+      "description": "A new locking scheme is being introduced that users should test using BCPT tests to check for errors, logging issues, or deadlocks.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1577.9,
+      "t_end": 1598.4,
+      "is_demoed": false,
+      "caveats": [
+        "requires user testing",
+        "potential for deadlocks"
+      ],
+      "tags": [
+        "locking",
+        "performance",
+        "testing"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Data cleanup and storage optimization",
+      "description": "Users can delete deleted data to save on storage and improve performance. This is part of moving away from the AppDB as a concept.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1598.4,
+      "t_end": 1618.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "data cleanup",
+        "storage",
+        "performance"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "AL language and developer tools updates",
+      "description": "New updates to AL language and developer tools are available, with a dedicated session recommended for watching.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1618.6,
+      "t_end": 1639,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "al",
+        "developer tools"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Reporting improvements with indexing",
+      "description": "New reporting features with indexing (cies) are being introduced with details to be covered in the fourth session of the server and database series.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1639,
+      "t_end": 1679.4,
+      "is_demoed": false,
+      "caveats": [
+        "details deferred to another session"
+      ],
+      "tags": [
+        "reporting",
+        "indexing",
+        "performance"
+      ],
+      "system": "reporting"
+    }
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "VAT Entry",
+      "t": 787.4
+    },
+    {
+      "type": "table",
+      "name": "Currency",
+      "t": 1071.9
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Yen",
+      "confidence": "high"
+    },
+    {
+      "name": "Kenny",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 58.4,
+      "text": "the primary key for the base is also the primary key for all companion tables that's the name we call these physical tables",
+      "why_it_matters": "Explains the original data model design before the change, establishing context for why the performance problem existed.",
+      "check": "exact"
+    },
+    {
+      "t": 94.2,
+      "text": "the SQL Server query Optimizer has a hidden Li limit around seven or eight joints where it will stop optimizing and simply use one",
+      "why_it_matters": "Identifies the specific database limitation that caused performance degradation with multiple table extensions.",
+      "check": "exact"
+    },
+    {
+      "t": 229.3,
+      "text": "now we simply have the base table and we have one companion table that stores the fields for all table extensions and this minimize",
+      "why_it_matters": "Core statement of the new schema design change that addresses the performance problem.",
+      "check": "exact"
+    },
+    {
+      "t": 270.4,
+      "text": "read performance is definitely where we see the most impact but be careful when you measure here because the NST the server caches data",
+      "why_it_matters": "Clarifies where the biggest gains are and provides guidance on how to accurately measure performance.",
+      "check": "exact"
+    },
+    {
+      "t": 515.6,
+      "text": "if you are that customer with 70 table extensions you would go from a 70 way join to a one way join",
+      "why_it_matters": "Concrete example showing the maximum observed scale of the problem and benefit of the solution in production.",
+      "check": "exact"
+    },
+    {
+      "t": 556.4,
+      "text": "all good uh version 23 exposed the mapping from previous versions We updated the tool so these as a a data Factory clows now",
+      "why_it_matters": "Confirms that migration from previous versions is fully supported despite the schema change.",
+      "check": "exact"
+    },
+    {
+      "t": 787.4,
+      "text": "maybe this uh new method will be for you as well to lower your maintenance cost on your on your code and still make",
+      "why_it_matters": "Describes the core benefit of set-based load fields - reducing maintenance burden while improving performance",
+      "check": "exact"
+    },
+    {
+      "t": 847.8,
+      "text": "the main thing here is there is no really no action on you right we we just made things faster for all code",
+      "why_it_matters": "Key takeaway that emphasizes the change is transparent to most customers and provides automatic benefits.",
+      "check": "snapped"
+    },
+    {
+      "t": 867.9,
+      "text": "there is no really no action on you right we we just made things faster for all code maybe the only action is to",
+      "why_it_matters": "Clarifies that the new extension schema requires no migration effort while delivering automatic performance benefits",
+      "check": "exact"
+    },
+    {
+      "t": 906.3,
+      "text": "if you leave data behind then it now has a performance impact because before as I mentioned it would just sit in a separate",
+      "why_it_matters": "Explains why orphaned extension data cleanup is now important - changed from neutral to performance-impacting",
+      "check": "exact"
+    },
+    {
+      "t": 1051.8,
+      "text": "before and this may not be obvious to everyone we had the um approach that the moment we entered into a right transaction then",
+      "why_it_matters": "Describes the previous locking behavior that caused inadvertent locking across record instances",
+      "check": "exact"
+    },
+    {
+      "t": 1154,
+      "text": "further reads on other um record instances pointing to the same table will now be done with a read committed",
+      "why_it_matters": "Defines the key change in the new locking model - read committed instead of update lock for unmodified instances",
+      "check": "exact"
+    },
+    {
+      "t": 1442.6,
+      "text": "for new tenants this is automatically enabled but you can flip this back and forth at at will um so that but it is",
+      "why_it_matters": "Clarifies rollout strategy and that locking model is session-wide, not user-configurable",
+      "check": "exact"
+    },
+    {
+      "t": 1564,
+      "text": "for on premises you might run with the ability to write to the app database we will remove that um possibility from the next",
+      "why_it_matters": "This announces a breaking change for on-premises deployments regarding AppDB write access that will be removed in the next release.",
+      "check": "exact"
+    },
+    {
+      "t": 1577.9,
+      "text": "the most important thing is test the new locking scheme try to run some bcpt tests and check for errors has check for logging",
+      "why_it_matters": "Provides key action items for customers to validate compatibility with new locking behavior",
+      "check": "exact"
+    },
+    {
+      "t": 1577.9,
+      "text": "test the new locking scheme try to run some bcpt tests and check for errors has check for logging or Deadlocks",
+      "why_it_matters": "Provides specific guidance for validating the new locking scheme implementation before deployment.",
+      "check": "exact"
+    },
+    {
+      "t": 1598.4,
+      "text": "if you write to the appdb stop in six months this will stop working so um this is um yeah we we're getting rid",
+      "why_it_matters": "Clear timeline for deprecation of on-premises app database write capability",
+      "check": "exact"
+    },
+    {
+      "t": 1618.6,
+      "text": "if you're watching this you also have an interest probably in the language so the developer tools watch new and Al is uh definitely",
+      "why_it_matters": "Recommends a dedicated session on AL language and developer tools updates as a next learning step.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 596.4,
+      "kind": "subject-to-change",
+      "text": "on premises since we are changing the data model there is quite a bit of data writing going on during upgrade so when you upgrade an un premise installation you should probably expect that to take a little longer"
+    },
+    {
+      "t": 642.8,
+      "kind": "other",
+      "text": "at the time of this recording we we don't have it on BCT Tech we might get a version of that on BCT Tech so let's uh let's see"
+    },
+    {
+      "t": 1320.6,
+      "kind": "subject-to-change",
+      "text": "we have added this as a feature management switch so you can enable it uh and it should be noticed of course things will still work functionally"
+    },
+    {
+      "t": 1361.4,
+      "kind": "subject-to-change",
+      "text": "you might get the another user has modified this in case you have certain code paths we have not seen issues with this in our base app but we cannot rule out"
+    },
+    {
+      "t": 1543.6,
+      "kind": "coming-later",
+      "text": "there are also a few changes that are upcoming in 2024 release way one the server settings for Force order and loop joints will be removed"
+    },
+    {
+      "t": 1564,
+      "kind": "coming-later",
+      "text": "also for on premises you might run with the ability to write to the app database we will remove that um possibility from the next release"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 18,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 22
+  },
+  "windows": 3,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.027750999999999998
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.028795
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.011785
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.031564
+    }
+  ]
+}

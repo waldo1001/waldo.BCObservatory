@@ -7,13 +7,39 @@
   "url": "https://demiliani.com/2026/09/07/dynamics-365-business-central-automatic-net-runtime-acquisition-on-al-language-extension/",
   "published_at": "2026-09-07T12:19:04.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:39:13.140Z",
+      "path": "vault:posts/demiliani-com/14222.md",
+      "words": 434
+    },
+    "extracted": {
+      "at": "2026-10-06T21:39:20.451Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": 0.005372
+    },
+    "summarized": {
+      "at": "2026-10-06T21:39:20.452Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:39:20.453Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:39:20.455Z",
+      "path": "content/posts/demiliani-com/14222.md"
     }
   },
   "input_hash": "2026-09-07T12:19:04.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "7234369e7bda7ee53fcd1347f1a024764acf644e555c7bd58acdc3738eef84b0"
 }

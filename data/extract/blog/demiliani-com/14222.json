@@ -1,0 +1,53 @@
+{
+  "item_id": "blog/demiliani-com/14222",
+  "url": "https://demiliani.com/2026/09/07/dynamics-365-business-central-automatic-net-runtime-acquisition-on-al-language-extension/",
+  "title": "Dynamics 365 Business Central: automatic .NET runtime acquisition on AL Language Extension.",
+  "source": "demiliani-com",
+  "published_at": "2026-09-07T12:19:04.000Z",
+  "words": 434,
+  "summary": "The AL Language extension now automatically downloads and installs .NET 10.0 runtime on startup instead of bundling platform-specific binaries. This reduces extension size from 500MB to under 25MB and simplifies maintenance, but creates a workaround issue with BCContainerHelper that requires users to manually install .NET 10 beforehand.",
+  "key_points": [
+    "AL Language extension uses automatic .NET Install Tool for .NET 10.0 runtime acquisition",
+    "Extension size dramatically reduced by eliminating bundled platform-specific runtime packages",
+    "Fallback mechanism to existing ASP.NET Core runtime provides graceful degradation on download failure",
+    "BCContainerHelper's auto-download logic is broken with new .NET 10 requirement, requiring manual .NET 10 installation",
+    "Windows, Linux, and macOS users should pre-install .NET 10 to avoid BCContainerHelper build failures"
+  ],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "al language extension",
+    ".net runtime",
+    "setup",
+    "troubleshooting",
+    "build tools",
+    "containerization"
+  ],
+  "objects": [],
+  "features": [
+    "Automatic .NET runtime acquisition",
+    "Graceful fallback mechanism",
+    "Extension size reduction",
+    "BCContainerHelper compatibility"
+  ],
+  "versions": [
+    ".NET 10.0"
+  ],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005372,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "The latest release of the AL Language extension switches to automatic .NET runtime acquisition via the .NET Install Tool for VS Code.",
+      "why_it_matters": "Explains the core change affecting how the extension manages runtime dependencies"
+    }
+  ]
+}

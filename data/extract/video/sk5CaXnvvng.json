@@ -1,0 +1,431 @@
+{
+  "video_id": "sk5CaXnvvng",
+  "item_id": "video/yt-microsoft/sk5CaXnvvng",
+  "title": "What's New: Server and Database - More Stable Web Services (2023 release wave 2)",
+  "duration_s": 814,
+  "systems": [
+    "integration",
+    "platform",
+    "development"
+  ],
+  "topics": [
+    "web services",
+    "odata",
+    "edit in excel",
+    "http status codes",
+    "telemetry",
+    "error handling",
+    "delta links",
+    "http client",
+    "retry strategies",
+    "metadata"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction: Web Services Stability Focus",
+      "t_start": 0,
+      "t_end": 39.2
+    },
+    {
+      "title": "Editable Property in OData and Edit in Excel",
+      "t_start": 39.2,
+      "t_end": 118.1
+    },
+    {
+      "title": "Server Return Codes and Retry Headers",
+      "t_start": 118.1,
+      "t_end": 178.5
+    },
+    {
+      "title": "Invalid Metadata Handling and Telemetry",
+      "t_start": 178.5,
+      "t_end": 259.7
+    },
+    {
+      "title": "Troubleshooting Guides and Power BI Telemetry",
+      "t_start": 259.7,
+      "t_end": 380.4
+    },
+    {
+      "title": "Web Service Queuing and Telemetry Visibility",
+      "t_start": 380.4,
+      "t_end": 432
+    },
+    {
+      "title": "HTTP Client Error Handling Best Practices",
+      "t_start": 432,
+      "t_end": 572.8
+    },
+    {
+      "title": "Error Messages and Socket Optimization",
+      "t_start": 572.8,
+      "t_end": 671.2
+    },
+    {
+      "title": "Upcoming Changes and Delta Link Deprecation",
+      "t_start": 671.2,
+      "t_end": 727.2
+    },
+    {
+      "title": "Summary and Related Sessions",
+      "t_start": 727.2,
+      "t_end": 814
+    }
+  ],
+  "features": [
+    {
+      "name": "Editable Property Support in OData for Edit in Excel",
+      "description": "OData V4 now evaluates the editable property just like the UI does, supporting not just Boolean variables but also calculated properties. This allows pages previously unusable for Edit in Excel due to calculated editable properties to now work correctly.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 39.2,
+      "t_end": 99.7,
+      "is_demoed": false,
+      "caveats": [
+        "Mainly relevant for Edit in Excel functionality which uses OData on top of UI pages",
+        "API pages should generally be used instead of normal pages exposed to OData"
+      ],
+      "tags": [
+        "odata",
+        "edit in excel",
+        "ui pages"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "HTTP 503 Return Code for Request Queue Timeout",
+      "description": "When a web service request waits in the request queue and times out, the server now returns HTTP 503 with a retry-after header, allowing clients to decide when to retry the call later.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 118.1,
+      "t_end": 158.4,
+      "is_demoed": false,
+      "caveats": [
+        "Backported to version 22.2 and later",
+        "Requires clients to implement retry logic based on the retry-after header"
+      ],
+      "tags": [
+        "http status codes",
+        "retry strategies",
+        "stability"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Invalid Metadata Handling with Telemetry Emissions",
+      "description": "When invalid metadata is detected such as duplicate page names, the problematic endpoint is now ignored rather than causing all web services to fail. Partner telemetry is emitted to alert developers without requiring customer escalation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 178.5,
+      "t_end": 219.1,
+      "is_demoed": false,
+      "caveats": [
+        "Developers should monitor telemetry rather than waiting for customer reports",
+        "Multiple extensions installed can cause duplicate metadata issues"
+      ],
+      "tags": [
+        "metadata",
+        "telemetry",
+        "stability"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Web Service Endpoints Failure Telemetry Page",
+      "description": "A new telemetry page shows which web service endpoints fail at runtime and provides hints on how to fix them. Enables proactive monitoring via Power BI alerts before customer discovery.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 219.1,
+      "t_end": 259.7,
+      "is_demoed": false,
+      "caveats": [
+        "Requires active monitoring of telemetry app"
+      ],
+      "tags": [
+        "telemetry",
+        "monitoring",
+        "troubleshooting"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Troubleshooting Guides for HTTP Status Codes",
+      "description": "New troubleshooting guide documents added to help developers understand HTTP status codes and how to fix issues. Specific guides address incoming and outgoing web service status codes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 259.7,
+      "t_end": 320,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "troubleshooting",
+        "http status codes",
+        "documentation"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "User Agent Tracking in Power BI Telemetry",
+      "description": "User agent information in web service calls now persists through telemetry, allowing developers to identify which specific web service clients are experiencing problems in Power BI reports.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 320,
+      "t_end": 340.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "telemetry",
+        "user agent",
+        "debugging"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "HTTP Status Code and Exception Telemetry in Power BI",
+      "description": "Power BI telemetry apps for both incoming and outgoing web service calls now display HTTP status codes, exceptions, and AL call stacks with improved filtering capabilities.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 340.4,
+      "t_end": 396.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "telemetry",
+        "power bi",
+        "http status codes"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Web Service Request Queuing Time Telemetry",
+      "description": "Queue time for incoming web service calls is now visible in telemetry and Power BI reports, providing statistics on server queuing delays when the system is under load.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 396.2,
+      "t_end": 432,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "telemetry",
+        "web service queuing",
+        "performance"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "HTTP Client Error Handling Documentation",
+      "description": "Extensive documentation and code examples added for HTTP client usage including setup, failure modes, error handling, retry strategies, and common HTTP error codes with suggested solutions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 432,
+      "t_end": 532.8,
+      "is_demoed": false,
+      "caveats": [
+        "Documentation covers both inbound and outbound calls"
+      ],
+      "tags": [
+        "http client",
+        "error handling",
+        "documentation"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "HTTP Client Last Error Text for Troubleshooting",
+      "description": "Get-last-error-text function now provides detailed error information for HTTP client failures before status codes are returned, such as URL errors, network errors, and certificate errors.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 532.8,
+      "t_end": 572.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "http client",
+        "error messages",
+        "troubleshooting"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Improved SSL and Certificate Error Messages",
+      "description": "SSL certificate error messages now provide specific details such as 'remote certificate is invalid' and 'padding is invalid and cannot be removed' instead of just generic inner exception references.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 572.8,
+      "t_end": 613,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "error messages",
+        "ssl",
+        "certificate"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Socket Reuse Optimization for HTTP Client",
+      "description": "HTTP client now optimizes socket usage to prevent VM port starvation when making large numbers of outgoing calls. Backported to version 2.x and requires no code changes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 633.2,
+      "t_end": 671.2,
+      "is_demoed": false,
+      "caveats": [
+        "Transparent optimization requiring no code changes",
+        "Backported to version 2.x"
+      ],
+      "tags": [
+        "http client",
+        "performance",
+        "sockets"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Custom API Schema Version Default Change",
+      "description": "The default schema version for custom APIs will be changed.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 671.2,
+      "t_end": 691.5,
+      "is_demoed": false,
+      "caveats": [
+        "Customers should check custom API implementations"
+      ],
+      "tags": [
+        "custom api",
+        "schema"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Delta Links Support Removal",
+      "description": "Delta link support is being removed from web services. Very few users currently rely on this functionality. Developers should stop using delta links and migrate to alternative approaches.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 671.2,
+      "t_end": 748,
+      "is_demoed": false,
+      "caveats": [
+        "Removal scheduled for 2024 Wave 1",
+        "Six months notice given from the time of this video"
+      ],
+      "tags": [
+        "delta links",
+        "deprecated",
+        "odata"
+      ],
+      "system": "integration"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "sales orders page",
+      "t": 59.4
+    },
+    {
+      "type": "page",
+      "name": "web service end points",
+      "t": 239.2
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Yenni",
+      "confidence": "medium"
+    },
+    {
+      "name": "Kenny",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 18.7,
+      "text": "we didn't make it faster we didn't make new features but we did actually make it a lot more stable",
+      "why_it_matters": "Sets the overall theme of the session - stability improvements rather than new features for web services.",
+      "check": "exact"
+    },
+    {
+      "t": 118.1,
+      "text": "the server now returns return code 503 if your request waits in the request queue and you end up timing out and you will",
+      "why_it_matters": "Explains a key stability improvement that enables clients to implement intelligent retry logic.",
+      "check": "exact"
+    },
+    {
+      "t": 199.1,
+      "text": "the one that causes the failure is ignored and we emit partner Telemetry so you shouldn't rely on your customer calling you anymore",
+      "why_it_matters": "Describes a shift from reactive customer reporting to proactive telemetry-based monitoring.",
+      "check": "snapped"
+    },
+    {
+      "t": 552.8,
+      "text": "we made that easier for you to troubleshoot if you use get last error text you can now simply copy that into your um",
+      "why_it_matters": "Highlights a specific improvement that makes HTTP client error debugging significantly easier.",
+      "check": "exact"
+    },
+    {
+      "t": 671.2,
+      "text": "the schema version for custom apis will change its default and we are removing the support for Delta links",
+      "why_it_matters": "Announces two upcoming breaking changes developers need to prepare for.",
+      "check": "exact"
+    },
+    {
+      "t": 727.2,
+      "text": "stop using Delta links the feature is deprecated as Yen showed in the last slide it's going to be removed in 2024 Wave 1",
+      "why_it_matters": "Provides specific timeline for delta link deprecation and removal.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 671.2,
+      "kind": "coming-later",
+      "text": "Delta links support will be removed in 2024 Wave 1"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 14
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.032179
+    }
+  ]
+}

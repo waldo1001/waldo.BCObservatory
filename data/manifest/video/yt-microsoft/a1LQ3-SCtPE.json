@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=a1LQ3-SCtPE",
   "published_at": "2023-12-18T08:59:18.000Z",
   "language": "en",
-  "state": "captioned",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
@@ -25,6 +25,19 @@
       "words": 4264,
       "lang": "en-orig",
       "kind": "auto"
+    },
+    "extracted": {
+      "at": "2026-10-06T21:39:37.130Z",
+      "path": "data/extract/video/a1LQ3-SCtPE.json",
+      "prompt": "extract-video@1",
+      "windows": 3,
+      "features": 23,
+      "quotes": 18,
+      "quotes_dropped": 0,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.099895
     }
   },
   "input_hash": null,
@@ -42,5 +55,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6e11629d2a54053f712dd51cf467c95a74895cc0a09bce85b717de4ab6825a82"
+  "output_hash": "b9f229455b0201bf2052049a0b2d114ca47694d06c4df070c293d9dab3e0234f"
 }

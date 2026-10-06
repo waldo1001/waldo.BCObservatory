@@ -7,13 +7,39 @@
   "url": "https://stefanmaron.com/posts/al-runner-autonomous-agent-weekend/",
   "published_at": "2026-09-08T05:33:56.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:38:43.646Z",
+      "path": "vault:posts/stefanmaron-com/https-stefanmaron-com-posts-al-runner-autonomous-agent-weekend--030ecee688.md",
+      "words": 1359
+    },
+    "extracted": {
+      "at": "2026-10-06T21:38:55.000Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": 0.007826
+    },
+    "summarized": {
+      "at": "2026-10-06T21:38:55.002Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:38:55.002Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:38:55.007Z",
+      "path": "content/posts/stefanmaron-com/https-stefanmaron-com-posts-al-runner-autonomous-agent-weekend--030ecee688.md"
     }
   },
   "input_hash": null,
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "8567239c1b6771e66ee7f073c30e826d3ea4e6668eee7621025d7ea7ee229135"
 }

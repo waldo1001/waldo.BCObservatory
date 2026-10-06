@@ -1,0 +1,75 @@
+{
+  "item_id": "blog/stefanmaron-com/https://stefanmaron.com/posts/al-runner-autonomous-agent-weekend/",
+  "url": "https://stefanmaron.com/posts/al-runner-autonomous-agent-weekend/",
+  "title": "AL Runner: A Weekend of Autonomous Agents, a Windows Cross-Check, and 59% of Microsoft's Tests Passing",
+  "source": "stefanmaron-com",
+  "published_at": "2026-09-08T05:33:56.000Z",
+  "words": 1359,
+  "summary": "AL Runner, a testing framework for Business Central, achieved significant progress through autonomous agent loops over a weekend, adding 832 new tests and implementing a Windows cross-check workflow that discovered platform-level differences between Linux and Windows BC instances. The suite now passes 59% of Microsoft's 40,530 base-app tests, revealing both permission configuration issues and genuine behavioral differences that need addressing.",
+  "key_points": [
+    "Autonomous agents working in coordinated loops merged 351 pull requests and added 832 tests in five days to the AL Runner test suite.",
+    "A nightly Windows workflow discovered that Linux CI had false positives; the first run caught 672 failures including 659 permission issues affecting 96 test codeunits.",
+    "Eight behavioral differences between Linux and Windows BC instances were identified and filed, including SingleInstance codeunit state loss and IsolatedStorage encryption failures on Linux.",
+    "AL Runner now passes 23,985 of Microsoft's 40,530 base-app tests (59.2%), though Microsoft itself disables 16,141 of these tests in its own pipelines.",
+    "A report MaxIteration bug in metadata reconstruction caused a test to execute 101,000 extra times; this bug was fixed at five call sites."
+  ],
+  "systems": [
+    "development",
+    "platform",
+    "administration"
+  ],
+  "topics": [
+    "al runner",
+    "autonomous agents",
+    "testing framework",
+    "linux vs windows",
+    "test coverage",
+    "platform differences"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "CertificateOfSupplyPartiallyShippedOrder"
+    },
+    {
+      "type": "other",
+      "name": "SymbolReference.json"
+    },
+    {
+      "type": "other",
+      "name": "BaseApp test surface"
+    }
+  ],
+  "features": [
+    "AL Runner testing framework",
+    "Autonomous agent loops for implementation and review",
+    "Windows and Linux cross-platform testing",
+    "Nightly automated test workflows",
+    "Permission-based test validation",
+    "Report metadata reconstruction",
+    "TestPermissions property handling",
+    "Microsoft base-app test execution"
+  ],
+  "versions": [
+    "v2.11.0"
+  ],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.007826,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "Every one of those tests pins its answer against a real BC service tier",
+      "why_it_matters": "Shows the rigor of the test suite - tests validate against actual running BC instances, not mocks, ensuring reliability."
+    },
+    {
+      "text": "59.2% is coverage of everything AL Runner can discover, not coverage of what Microsoft actually runs day to day.",
+      "why_it_matters": "Clarifies what test coverage percentages mean and that Microsoft itself disables over 40% of available tests, providing context for improvement targets."
+    }
+  ]
+}

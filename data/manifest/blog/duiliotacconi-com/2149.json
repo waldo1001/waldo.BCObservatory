@@ -7,13 +7,39 @@
   "url": "https://duiliotacconi.com/2026/09/07/partial-record-vs-nst-caching-the-strange-case-of-calculate-low-level-code/",
   "published_at": "2026-09-07T13:41:21.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:38:55.474Z",
+      "path": "vault:posts/duiliotacconi-com/2149.md",
+      "words": 1413
+    },
+    "extracted": {
+      "at": "2026-10-06T21:39:05.803Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": 0.008155
+    },
+    "summarized": {
+      "at": "2026-10-06T21:39:05.805Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:39:05.806Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:39:05.810Z",
+      "path": "content/posts/duiliotacconi-com/2149.md"
     }
   },
   "input_hash": "2026-09-07T13:41:21.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e631251099c3d3e2cf13a154d888f3fc46ce3c220472c3164dcbf0037d8da859"
 }
