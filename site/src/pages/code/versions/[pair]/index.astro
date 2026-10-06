@@ -1,0 +1,92 @@
+---
+/** One version transition (D53): what changed in the W1 code between two majors, by area, down to the members. */
+import { existsSync, readdirSync, readFileSync } from "node:fs";
+import { resolve } from "node:path";
+import List from "../../../../layouts/List.astro";
+import { area, objectsIndex, titleOf } from "../../../../lib/objects";
+interface Member { id?: number | string; name: string; change: string }
+interface ObjDiff { key: string; name: string; change: string; fields?: Member[]; procedures?: Member[]; events?: Member[]; keys?: Member[]; properties?: unknown[] }
+interface Diff { from: { version: string; commit: string }; to: { version: string; commit: string }; summary: Record<string, any>; objects: ObjDiff[] }
+const dir = resolve(process.cwd(), "..", "data", "code", "diffs", "version");
+export function getStaticPaths() {
+  const d = resolve(process.cwd(), "..", "data", "code", "diffs", "version");
+  return (existsSync(d) ? readdirSync(d).filter((f) => f.endsWith(".json")).sort() : []).map((f) => ({ params: { pair: f.slice(0, -5) }, props: { file: f } }));
+}
+const { file } = Astro.props;
+const d: Diff = JSON.parse(readFileSync(resolve(dir, file), "utf8"));
+const base = import.meta.env.BASE_URL;
+const idx = objectsIndex();
+const info = (key: string) => idx.get(key) ?? null;
+const n = (xs: Member[] | undefined, c: string) => xs?.filter((x) => x.change === c).length ?? 0;
+const memberSummary = (o: ObjDiff) => [n(o.fields, "added") && `+${n(o.fields, "added")} fields`, n(o.fields, "changed") && `${n(o.fields, "changed")} fields changed`, n(o.fields, "removed") && `-${n(o.fields, "removed")} fields`,
+  n(o.events, "added") && `+${n(o.events, "added")} events`, n(o.events, "removed") && `-${n(o.events, "removed")} events`, n(o.procedures, "added") && `+${n(o.procedures, "added")} procedures`,
+  n(o.procedures, "changed") && `${n(o.procedures, "changed")} procedures changed`, n(o.procedures, "removed") && `-${n(o.procedures, "removed")} procedures`, n(o.keys, "added") || n(o.keys, "changed") ? "keys" : "", o.properties?.length ? `${o.properties.length} properties` : ""].filter(Boolean).join(", ") || "body only";
+const grouped = (d: Diff) => {
+  const m = new Map<string, ObjDiff[]>();
+  for (const o of d.objects) { const i = info(o.key); const a = i ? area(i) : "(not in the current snapshot)"; m.set(a, [...(m.get(a) ?? []), o]); }
+  return [...m].sort((a, b) => b[1].length - a[1].length || a[0].localeCompare(b[0]));
+};
+// the object page carries every member change with its version pill: this page shows the first few and links there
+const MEMBER_CAP = 12;
+const members = (o: ObjDiff) => (["fields", "events", "procedures", "keys"] as const).flatMap((k) => (o[k] ?? []).map((m) => ({ ...m, kind: k.slice(0, -1) })));
+const label = (o: ObjDiff) => { const i = info(o.key); return i ? titleOf(i) : `${o.key} "${o.name}"`; };
+const link = (o: ObjDiff) => (info(o.key) ? `${base}objects/${o.key}/` : null);
+const sum = (d: Diff, k: string) => Object.values((d.summary.by_change?.[k] ?? {}) as Record<string, number>).reduce((a, b) => a + b, 0);
+const slug = (s: string) => s.replace(/\W+/g, "-");
+---
+<List section="objects" title={`BC${d.from.version} to BC${d.to.version} · BC Observatory`} description={`What changed in the Business Central W1 code between BC${d.from.version} and BC${d.to.version}, by area and object.`} crumb={`BC${d.from.version} to BC${d.to.version}`}>
+  <p class="eyebrow">AL objects · versions</p>
+  <h1>BC{d.from.version} to BC{d.to.version}</h1>
+  <p class="lede">Every W1 object added, removed or changed between the two majors, grouped by area (the first namespace segment), with the fields, events, procedures and keys that differ inside a changed object. Agents: <a href={`${base}code/diffs/version/${file}`}>{file}</a>. Back to the <a href={`${base}code/versions/`}>version lens</a>.</p>
+  <section class="vl">
+    <ul class="stats">
+      <li><span><b>{sum(d, "changed").toLocaleString("en")}</b>objects changed</span></li>
+      <li><span><b>{sum(d, "added").toLocaleString("en")}</b>added</span></li>
+      <li><span><b>{sum(d, "removed").toLocaleString("en")}</b>removed</span></li>
+      <li><span><b>{Number(d.summary.fields_added ?? 0).toLocaleString("en")}</b>fields added</span></li>
+      <li><span><b>{Number(d.summary.events_added ?? 0).toLocaleString("en")}</b>events added</span></li>
+      <li><span><b>{Number(d.summary.procedures_added ?? 0).toLocaleString("en")}</b>procedures added</span></li>
+      <li><span><b>{Number(d.summary.objects_obsoleted ?? 0).toLocaleString("en")}</b>newly obsolete</span></li>
+    </ul>
+    <p class="meta"><a href={`https://github.com/microsoft/BCApps/compare/${d.from.commit}...${d.to.commit}`}>{d.from.commit.slice(0, 8)}…{d.to.commit.slice(0, 8)}</a> on microsoft/BCApps</p>
+    <div class="vl-areas">
+      {grouped(d).map(([a, objs]) => (
+        <details class="vl-area" id={slug(a)} open={objs.length >= 60}>
+          <summary><span class="vl-area-name">{a}</span> <span class="mono-meta">{objs.length} objects · {objs.filter((o) => o.change === "added").length} added · {objs.filter((o) => o.change === "removed").length} removed</span></summary>
+          <ul class="rows">
+            {objs.sort((x, y) => x.key.localeCompare(y.key, "en", { numeric: true })).map((o) => (
+              <li>
+                <span class={`pill ${o.change}`}>{o.change}</span> {link(o) ? <a href={link(o)!}>{label(o)}</a> : <span>{label(o)}</span>} <span class="mono-meta">{o.change === "changed" ? memberSummary(o) : ""}</span>
+                {o.change === "changed" && members(o).length ? (
+                  <details class="vl-members"><summary>members</summary><ul>
+                    {members(o).slice(0, MEMBER_CAP).map((m) => <li><span class={`pill ${m.change}`}>{m.change}</span> <span class="mono-meta">{m.kind}</span> {m.name}</li>)}
+                    {members(o).length > MEMBER_CAP && <li class="mono-meta">{link(o) ? <a href={link(o)!}>and {members(o).length - MEMBER_CAP} more on the object page</a> : `and ${members(o).length - MEMBER_CAP} more`}</li>}
+                  </ul></details>
+                ) : null}
+              </li>
+            ))}
+          </ul>
+        </details>
+      ))}
+    </div>
+  </section>
+</List>
+<script>
+  // an area link from the version lens index addresses a closed <details>: open it, then scroll to it
+  const open = () => { const el = location.hash && document.querySelector<HTMLDetailsElement>(`details${CSS.escape(location.hash)}`); if (el) { el.open = true; el.scrollIntoView(); } };
+  open(); addEventListener("hashchange", open);
+</script>
+<!-- the selectors are all under one wrapper class, so these stay global: a scoped style costs a data-astro-cid attribute on every element, which is a quarter of a long list page (D53) -->
+<style is:global>
+  .vl .vl-areas { display: grid; gap: 8px; }
+  .vl .vl-area { border: 1px solid var(--line); border-radius: var(--r-card); background: var(--surface); }
+  .vl .vl-area > summary { cursor: pointer; padding: 10px 12px; display: flex; flex-wrap: wrap; gap: 4px 12px; align-items: baseline; min-height: 40px; }
+  .vl .vl-area-name { font-weight: 600; }
+  .vl .vl-area .rows { margin: 0; padding: 0 12px 8px; }
+  .vl .vl-area .rows li { padding: 6px 0; font-size: 14px; }
+  .vl .vl-members > summary { cursor: pointer; color: var(--link); font-size: 13px; }
+  .vl .vl-members ul { list-style: none; padding: 4px 0 0 8px; margin: 0; font-size: 13px; }
+  .vl .pill.added { color: var(--diff-added-text); background: var(--diff-added-bg); }
+  .vl .pill.removed { color: var(--diff-removed-text); background: var(--diff-removed-bg); }
+  .vl .pill.changed { color: var(--status-preview); background: var(--accent-surface); }
+</style>

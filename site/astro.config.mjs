@@ -5,5 +5,6 @@ export default defineConfig({
   site: process.env.SITE_ORIGIN ?? "https://waldo1001.github.io",
   base: process.env.SITE_BASE ?? "/waldo.BCObservatory",
   trailingSlash: "always",
-  build: { format: "directory" },
+  // one shared stylesheet instead of the same 4 KB of component CSS inlined into each of 20k+ pages (D53)
+  build: { format: "directory", inlineStylesheets: "never" },
 });

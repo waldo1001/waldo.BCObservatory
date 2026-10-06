@@ -109,7 +109,10 @@ Deliberate deviations from PLAN, all small:
   pages (D48), the event explorer and the country heatmap (D49) are done: the 2026-10-07 plan is complete except the
   deferred 2-hop neighbourhood. Localization narratives tell the story per area with links into the code (D50);
   BE and NL are written, the other 20 countries follow in the nightly (~$0.18 each). A country's own objects now have
-  pages too (D52).
+  pages too (D52). The site's bytes were then trimmed (D53): one shared stylesheet instead of the same CSS inlined
+  into 20,744 pages, `is:global` styles on the three components whose scoped `data-astro-cid-*` attributes cost
+  10-31% of a page, and the version lens split into one page per transition behind a 15 KB index. 364 MB of real
+  bytes, 18,067 pages, 17 s build.
 - Topic links (D43): videos and posts link to topic hubs, 40 calls a night (all of them during catch-up);
   `npm run link:topics -- --videos N --posts N` samples on a temp copy. No Opus review of these links yet.
 - M4 weekly digest + RSS done (D36).

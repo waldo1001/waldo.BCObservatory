@@ -1,82 +1,62 @@
 ---
-/** Version lens (D48): what changed in the W1 code between the snapshot majors, by area, down to the members. */
+/** Version lens (D48): the transitions between the snapshot majors; one page per pair carries the objects (D53). */
 import { existsSync, readdirSync, readFileSync } from "node:fs";
 import { resolve } from "node:path";
 import List from "../../../layouts/List.astro";
-import { area, objectsIndex, titleOf } from "../../../lib/objects";
-interface Member { id?: number | string; name: string; change: string }
-interface ObjDiff { key: string; name: string; change: string; fields?: Member[]; procedures?: Member[]; events?: Member[]; keys?: Member[]; properties?: unknown[] }
+import { area, objectsIndex } from "../../../lib/objects";
+interface ObjDiff { key: string; name: string; change: string }
 interface Diff { from: { version: string; commit: string }; to: { version: string; commit: string }; summary: Record<string, any>; objects: ObjDiff[] }
 const dir = resolve(process.cwd(), "..", "data", "code", "diffs", "version");
-const diffs: Diff[] = existsSync(dir) ? readdirSync(dir).filter((f) => f.endsWith(".json")).sort().map((f) => JSON.parse(readFileSync(resolve(dir, f), "utf8"))) : [];
+const files = existsSync(dir) ? readdirSync(dir).filter((f) => f.endsWith(".json")).sort() : [];
+const diffs: Diff[] = files.map((f) => JSON.parse(readFileSync(resolve(dir, f), "utf8")));
 const base = import.meta.env.BASE_URL;
 const idx = objectsIndex();
-const info = (key: string) => idx.get(key) ?? null;
-const n = (xs: Member[] | undefined, c: string) => xs?.filter((x) => x.change === c).length ?? 0;
-const memberSummary = (o: ObjDiff) => [n(o.fields, "added") && `+${n(o.fields, "added")} fields`, n(o.fields, "changed") && `${n(o.fields, "changed")} fields changed`, n(o.fields, "removed") && `-${n(o.fields, "removed")} fields`,
-  n(o.events, "added") && `+${n(o.events, "added")} events`, n(o.events, "removed") && `-${n(o.events, "removed")} events`, n(o.procedures, "added") && `+${n(o.procedures, "added")} procedures`,
-  n(o.procedures, "changed") && `${n(o.procedures, "changed")} procedures changed`, n(o.procedures, "removed") && `-${n(o.procedures, "removed")} procedures`, n(o.keys, "added") || n(o.keys, "changed") ? "keys" : "", o.properties?.length ? `${o.properties.length} properties` : ""].filter(Boolean).join(", ") || "body only";
-const grouped = (d: Diff) => {
-  const m = new Map<string, ObjDiff[]>();
-  for (const o of d.objects) { const i = info(o.key); const a = i ? area(i) : "(not in the current snapshot)"; m.set(a, [...(m.get(a) ?? []), o]); }
-  return [...m].sort((a, b) => b[1].length - a[1].length || a[0].localeCompare(b[0]));
-};
-const label = (o: ObjDiff) => { const i = info(o.key); return i ? titleOf(i) : `${o.key} "${o.name}"`; };
-const link = (o: ObjDiff) => (info(o.key) ? `${base}objects/${o.key}/` : null);
 const sum = (d: Diff, k: string) => Object.values((d.summary.by_change?.[k] ?? {}) as Record<string, number>).reduce((a, b) => a + b, 0);
+const pair = (d: Diff) => `${d.from.version}__${d.to.version}`;
+const slug = (s: string) => s.replace(/\W+/g, "-");
+// the top areas of a transition: enough to see where a major moved, the pair page carries the rest
+const TOP = 12;
+const areas = (d: Diff) => {
+  const m = new Map<string, number>();
+  for (const o of d.objects) { const i = idx.get(o.key); const a = i ? area(i) : "(not in the current snapshot)"; m.set(a, (m.get(a) ?? 0) + 1); }
+  const all = [...m].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
+  return { top: all.slice(0, TOP), rest: all.length - TOP, max: all[0]?.[1] ?? 1 };
+};
 ---
 <List section="objects" title="Version lens · BC Observatory" description="What changed in the Business Central W1 code between majors, by area and object, down to fields, events and procedures." crumb="Version lens">
   <p class="eyebrow">AL objects · versions</p>
   <h1>Version lens</h1>
-  <p class="lede">The W1 code of one major against the next, from the extracted metadata: objects added, removed and changed, and inside a changed object the fields, events, procedures and keys that differ. Grouped by area (the first namespace segment). Agents: the diff JSON per pair ({diffs.map((d, i) => <><a href={`${base}code/diffs/version/${d.from.version}__${d.to.version}.json`}>{d.from.version}__{d.to.version}.json</a>{i < diffs.length - 1 ? ", " : ""}</>)}), the <a href={`${base}code/deprecations/`}>deprecation radar</a>.</p>
+  <p class="lede">The W1 code of one major against the next, from the extracted metadata: objects added, removed and changed, and inside a changed object the fields, events, procedures and keys that differ. Pick a transition for the full list by area; the <a href={`${base}code/deprecations/`}>deprecation radar</a> is the other half of the story. Agents: the diff JSON per pair ({diffs.map((d, i) => <><a href={`${base}code/diffs/version/${pair(d)}.json`}>{pair(d)}.json</a>{i < diffs.length - 1 ? ", " : ""}</>)}).</p>
   {diffs.length === 0 && <p class="meta">No version diffs yet.</p>}
-  <nav class="vl-nav" aria-label="Version pairs">{diffs.map((d) => <a href={`#v${d.from.version}-${d.to.version}`}>BC{d.from.version} → BC{d.to.version}</a>)}</nav>
-  {diffs.map((d) => (
-    <section class="vl" id={`v${d.from.version}-${d.to.version}`} aria-labelledby={`h${d.from.version}-${d.to.version}`}>
-      <h2 class="section-title" id={`h${d.from.version}-${d.to.version}`}>BC{d.from.version} → BC{d.to.version} <small><a href={`https://github.com/microsoft/BCApps/compare/${d.from.commit}...${d.to.commit}`}>{d.from.commit.slice(0, 8)}…{d.to.commit.slice(0, 8)}</a></small></h2>
-      <ul class="stats">
-        <li><a href={`#v${d.from.version}-${d.to.version}`}><b>{sum(d, "changed").toLocaleString("en")}</b>objects changed</a></li>
-        <li><span><b>{sum(d, "added").toLocaleString("en")}</b>added</span></li>
-        <li><span><b>{sum(d, "removed").toLocaleString("en")}</b>removed</span></li>
-        <li><span><b>{Number(d.summary.fields_added ?? 0).toLocaleString("en")}</b>fields added</span></li>
-        <li><span><b>{Number(d.summary.events_added ?? 0).toLocaleString("en")}</b>events added</span></li>
-        <li><span><b>{Number(d.summary.procedures_added ?? 0).toLocaleString("en")}</b>procedures added</span></li>
-        <li><span><b>{Number(d.summary.objects_obsoleted ?? 0).toLocaleString("en")}</b>newly obsolete</span></li>
-      </ul>
-      <div class="vl-areas">
-        {grouped(d).map(([a, objs]) => (
-          <details class="vl-area" open={objs.length >= 60}>
-            <summary><span class="vl-area-name">{a}</span> <span class="mono-meta">{objs.length} objects · {objs.filter((o) => o.change === "added").length} added · {objs.filter((o) => o.change === "removed").length} removed</span></summary>
-            <ul class="rows">
-              {objs.sort((x, y) => x.key.localeCompare(y.key, "en", { numeric: true })).map((o) => (
-                <li>
-                  <span class={`pill ${o.change}`}>{o.change}</span> {link(o) ? <a href={link(o)!}>{label(o)}</a> : <span>{label(o)}</span>} <span class="mono-meta">{o.change === "changed" ? memberSummary(o) : ""}</span>
-                  {o.change === "changed" && (o.fields?.length || o.procedures?.length || o.events?.length) ? (
-                    <details class="vl-members"><summary>members</summary><ul>
-                      {(["fields", "events", "procedures", "keys"] as const).flatMap((k) => (o[k] ?? []).map((m) => <li><span class={`pill ${m.change}`}>{m.change}</span> <span class="mono-meta">{k.slice(0, -1)}</span> {m.name}</li>))}
-                    </ul></details>
-                  ) : null}
-                </li>
-              ))}
-            </ul>
-          </details>
-        ))}
-      </div>
-    </section>
-  ))}
+  {diffs.map((d) => {
+    const a = areas(d);
+    return (
+      <section class="vl">
+        <h2 class="section-title"><a href={`${base}code/versions/${pair(d)}/`}>BC{d.from.version} → BC{d.to.version}</a> <small><a href={`https://github.com/microsoft/BCApps/compare/${d.from.commit}...${d.to.commit}`}>{d.from.commit.slice(0, 8)}…{d.to.commit.slice(0, 8)}</a></small></h2>
+        <ul class="stats">
+          <li><span><b>{sum(d, "changed").toLocaleString("en")}</b>objects changed</span></li>
+          <li><span><b>{sum(d, "added").toLocaleString("en")}</b>added</span></li>
+          <li><span><b>{sum(d, "removed").toLocaleString("en")}</b>removed</span></li>
+          <li><span><b>{Number(d.summary.fields_added ?? 0).toLocaleString("en")}</b>fields added</span></li>
+          <li><span><b>{Number(d.summary.events_added ?? 0).toLocaleString("en")}</b>events added</span></li>
+          <li><span><b>{Number(d.summary.procedures_added ?? 0).toLocaleString("en")}</b>procedures added</span></li>
+          <li><span><b>{Number(d.summary.objects_obsoleted ?? 0).toLocaleString("en")}</b>newly obsolete</span></li>
+        </ul>
+        <ol class="vl-bars">
+          {a.top.map(([name, n]) => (
+            <li><a href={`${base}code/versions/${pair(d)}/#${slug(name)}`}><span class="vl-bar-n">{name}</span><span class="vl-bar" style={`--w: ${(100 * n / a.max).toFixed(1)}%`}></span><span class="mono-meta">{n}</span></a></li>
+          ))}
+        </ol>
+        {a.rest > 0 && <p class="meta"><a href={`${base}code/versions/${pair(d)}/`}>and {a.rest} more areas — open the full transition</a></p>}
+      </section>
+    );
+  })}
 </List>
 <style>
-  .vl-nav { display: flex; gap: 14px; margin: 8px 0 0; font-size: 14px; }
   .vl { margin-top: 32px; }
-  .vl-areas { display: grid; gap: 8px; }
-  .vl-area { border: 1px solid var(--line); border-radius: var(--r-card); background: var(--surface); }
-  .vl-area > summary { cursor: pointer; padding: 10px 12px; display: flex; flex-wrap: wrap; gap: 4px 12px; align-items: baseline; min-height: 40px; }
-  .vl-area-name { font-weight: 600; }
-  .vl-area .rows { margin: 0; padding: 0 12px 8px; }
-  .vl-area .rows li { padding: 6px 0; font-size: 14px; }
-  .vl-members > summary { cursor: pointer; color: var(--link); font-size: 13px; }
-  .vl-members ul { list-style: none; padding: 4px 0 0 8px; margin: 0; font-size: 13px; }
-  .pill.added { color: var(--diff-added-text); background: var(--diff-added-bg); }
-  .pill.removed { color: var(--diff-removed-text); background: var(--diff-removed-bg); }
-  .pill.changed { color: var(--status-preview); background: var(--accent-surface); }
+  .vl-bars { list-style: none; padding: 0; margin: 8px 0 0; display: grid; gap: 4px; max-width: 620px; }
+  .vl-bars a { display: grid; grid-template-columns: 190px 1fr 56px; gap: 10px; align-items: center; text-decoration: none; color: var(--text); font-size: 14px; }
+  .vl-bar-n { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .vl-bar { height: 10px; border-radius: 2px; background: linear-gradient(90deg, var(--accent) var(--w), var(--surface-raised) var(--w)); }
+  @media (max-width: 620px) { .vl-bars a { grid-template-columns: 130px 1fr 44px; } }
 </style>

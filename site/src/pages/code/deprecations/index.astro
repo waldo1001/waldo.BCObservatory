@@ -46,7 +46,7 @@ const link = (d: Dep) => (info(d.key) ? `${base}objects/${d.key}/` : null);
             {byClean.get(k)!.sort((a, b) => a.key.localeCompare(b.key, "en", { numeric: true }) || (a.member ?? "").localeCompare(b.member ?? "")).map((d) => {
               const i = info(d.key);
               return (
-                <li data-kind={d.kind} data-state={d.state ?? "guarded"} data-text={`${i ? `${area(i)} ${i.ns ?? ""} ${i.app ?? ""}` : ""} ${d.object} ${d.member ?? ""}`.toLowerCase()}>
+                <li data-kind={d.kind} data-state={d.state ?? "guarded"}>
                   <span class="mono-meta">{d.kind}</span> {link(d) ? <a href={link(d)!}>{label(d)}</a> : <span>{label(d)}</span>}{d.member && <> · <b>{d.member}</b></>}
                   <span class="row-meta"><span class={`badge status-${d.state === "Removed" ? "other" : "preview"}`}>{d.state ?? "guarded"}{d.tag ? ` ${d.tag}` : ""}</span>{d.clean.length ? <span class="mono-meta">#if not {d.clean.join(", ")}</span> : null}{i?.ns ? <span class="mono-meta">{i.ns}</span> : null}</span>
                   {d.reason && <p class="meta">{d.reason}</p>}
@@ -63,12 +63,12 @@ const link = (d: Dep) => (info(d.key) ? `${base}objects/${d.key}/` : null);
   const form = document.querySelector<HTMLFormElement>(".radar-bar");
   if (form) {
     const q = form.querySelector<HTMLInputElement>("[name=q]")!, kind = form.querySelector<HTMLSelectElement>("[name=kind]")!, state = form.querySelector<HTMLSelectElement>("[name=state]")!, count = form.querySelector<HTMLElement>(".radar-count")!;
-    const rows = [...document.querySelectorAll<HTMLElement>(".radar-group li")];
+    const rows = [...document.querySelectorAll<HTMLElement>(".radar-group li")].map((li) => ({ li, text: (li.textContent ?? "").toLowerCase() }));
     const apply = () => {
       const needle = q.value.trim().toLowerCase();
       let shown = 0;
-      for (const li of rows) {
-        const ok = (!needle || (li.dataset.text ?? "").includes(needle)) && (!kind.value || li.dataset.kind === kind.value) && (!state.value || li.dataset.state === state.value);
+      for (const { li, text } of rows) {
+        const ok = (!needle || text.includes(needle)) && (!kind.value || li.dataset.kind === kind.value) && (!state.value || li.dataset.state === state.value);
         li.hidden = !ok; if (ok) shown++;
       }
       for (const g of document.querySelectorAll<HTMLElement>(".radar-group")) g.hidden = ![...g.querySelectorAll("li")].some((li) => !(li as HTMLElement).hidden);
@@ -78,14 +78,15 @@ const link = (d: Dep) => (info(d.key) ? `${base}objects/${d.key}/` : null);
     kind.addEventListener("change", apply); state.addEventListener("change", apply);
   }
 </script>
-<style>
-  .cal { list-style: none; padding: 0; margin: 0 0 16px; display: grid; gap: 4px; max-width: 560px; }
-  .cal a { display: grid; grid-template-columns: 110px 1fr 48px; gap: 10px; align-items: center; text-decoration: none; color: var(--text); font-size: 14px; }
-  .cal-k { font: 500 13px var(--font-mono); }
-  .cal-bar { height: 10px; border-radius: 2px; background: linear-gradient(90deg, var(--accent) var(--w), var(--surface-raised) var(--w)); }
-  .radar-bar { display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: end; margin: 8px 0 16px; }
-  .radar-bar label { display: grid; gap: 4px; font-size: 12px; color: var(--muted); }
-  .radar-bar select, .radar-bar input { background: var(--surface); color: var(--text); border: 1px solid var(--line-strong); border-radius: var(--r-card); font: 400 14px var(--font-ui); padding: 7px 9px; min-height: 36px; }
-  .radar-group h3 { font-size: 17px; margin: 28px 0 8px; }
-  .radar-group li p { margin: 2px 0 0; font-size: 13px; }
+<!-- the selectors are all under one wrapper class, so these stay global: a scoped style costs a data-astro-cid attribute on every element, which is a quarter of a long list page (D53) -->
+<style is:global>
+  .radar .cal { list-style: none; padding: 0; margin: 0 0 16px; display: grid; gap: 4px; max-width: 560px; }
+  .radar .cal a { display: grid; grid-template-columns: 110px 1fr 48px; gap: 10px; align-items: center; text-decoration: none; color: var(--text); font-size: 14px; }
+  .radar .cal-k { font: 500 13px var(--font-mono); }
+  .radar .cal-bar { height: 10px; border-radius: 2px; background: linear-gradient(90deg, var(--accent) var(--w), var(--surface-raised) var(--w)); }
+  .radar .radar-bar { display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: end; margin: 8px 0 16px; }
+  .radar .radar-bar label { display: grid; gap: 4px; font-size: 12px; color: var(--muted); }
+  .radar .radar-bar select, .radar .radar-bar input { background: var(--surface); color: var(--text); border: 1px solid var(--line-strong); border-radius: var(--r-card); font: 400 14px var(--font-ui); padding: 7px 9px; min-height: 36px; }
+  .radar .radar-group h3 { font-size: 17px; margin: 28px 0 8px; }
+  .radar .radar-group li p { margin: 2px 0 0; font-size: 13px; }
 </style>

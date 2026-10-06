@@ -324,3 +324,17 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   objects index, Ctrl+K and the atlas pick them up by path. 20,744 object pages, 595 MB built, 35 s.
   Also fixed: `relativeLinks` treated a `?query` link as a path, so D50's "all objects of <area> in the diff" links
   failed validate:content; a link starting with `?` addresses the page itself.
+- **D53 The code pages pay for themselves in bytes.** D52 left the site at 595 MB and two list pages near a
+  megabyte each, both well inside the 1 GB Pages cap but slow to open over a phone connection. Four changes, no
+  facts dropped. (a) `inlineStylesheets: "never"`: Astro inlined the same ~4 KB of component CSS into each of
+  20,744 object pages; one shared stylesheet that every page then reuses from cache costs one request and saves
+  160 MB. (b) Three heavy components — `Neighbourhood.astro` and the two long list pages — declare `is:global`
+  styles under the wrapper class their selectors already carried (`.nb`, `.radar`, `.vl`). A scoped style costs a
+  `data-astro-cid-*` attribute on *every* element it covers: 31% of the version page, 25% of the radar, 10% of an
+  object page. Scoping stays wherever a selector is not already wrapper-qualified. (c) The version lens splits per
+  transition: the index is a bar chart of the top 12 areas per pair (15 KB, instant) and each pair gets its own
+  page, so a reader loads the transition they asked about instead of all of them. An area bar links to the
+  matching `<details>`, which a four-line script opens on the fragment. (d) The member list under a changed object
+  caps at 12 with a link to the object page, which carries them all with version pills anyway; the cap only bites
+  on 47 of 943 objects, so it is a guard against the next Table 38, not the saving. Result: 418 MB → 364 MB of
+  real bytes, the version landing page 904 KB → 15 KB, the heaviest single page 834 KB → 584 KB, build 17 s.

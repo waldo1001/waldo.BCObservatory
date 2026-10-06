@@ -47,7 +47,8 @@ const rings = (Object.keys(RING_LABEL) as Ring[]).filter((r) => totals[r]);
     <p class="meta">One hop, from the extracted metadata (TableRelation, CalcFormula, SourceTable, TableNo, lookup pages, extensions, event subscriptions). The sections below list everything; the diagram shows up to 40.</p>
   </section>
 )}
-<style>
+<!-- the selectors are all under one wrapper class, so these stay global: a scoped style costs a data-astro-cid attribute on every element, which is a quarter of a long list page (D53) -->
+<style is:global>
   .nb svg { width: 100%; height: auto; display: block; max-width: 760px; background: var(--g-bg); border: 1px solid var(--line); border-radius: var(--r-panel); }
   .nb .e { stroke: var(--g-edge); stroke-width: 1; }
   .nb .e.subscribers { stroke-dasharray: 3 3; }
@@ -58,7 +59,7 @@ const rings = (Object.keys(RING_LABEL) as Ring[]).filter((r) => totals[r]);
   .nb a:hover text { text-decoration: underline; }
   .nb-legend { list-style: none; padding: 0; margin: 10px 0 4px; display: flex; flex-wrap: wrap; gap: 6px 16px; font-size: 13px; }
   .nb-legend li { display: flex; align-items: center; gap: 6px; }
-  .sw { width: 14px; height: 0; border-top: 2px solid var(--g-edge); }
-  .sw.subscribers { border-top-style: dashed; }
-  .sw.learn { border-top-color: var(--ev-learn-text); }
+  .nb-legend .sw { width: 14px; height: 0; border-top: 2px solid var(--g-edge); }
+  .nb-legend .sw.subscribers { border-top-style: dashed; }
+  .nb-legend .sw.learn { border-top-color: var(--ev-learn-text); }
 </style>
