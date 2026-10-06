@@ -14,7 +14,8 @@
     "file": { "type": "string" }, "file_hash": { "type": ["string", "null"] }, "commit": { "type": ["string", "null"] },
     "properties": { "type": "object" },
     "obsolete": { "$ref": "#/$defs/obsolete" },
-    "fields": { "type": "array", "items": { "type": "object", "required": ["id", "name", "type"], "properties": { "id": { "type": "integer" }, "name": { "type": "string" }, "type": { "type": "string" }, "properties": { "type": "object" }, "tooltip": { "type": ["string", "null"] }, "obsolete": { "$ref": "#/$defs/obsolete" } } } },
+    "fields": { "type": "array", "items": { "type": "object", "required": ["id", "name", "type"], "properties": { "id": { "type": "integer" }, "name": { "type": "string" }, "type": { "type": "string" }, "properties": { "type": "object" }, "tooltip": { "type": ["string", "null"] }, "obsolete": { "$ref": "#/$defs/obsolete" }, "clean": { "$ref": "#/$defs/clean" } } } },
+    "values": { "type": "array", "description": "enum values", "items": { "type": "object", "required": ["id", "name"], "properties": { "id": { "type": "integer" }, "name": { "type": "string" }, "properties": { "type": "object" }, "obsolete": { "$ref": "#/$defs/obsolete" }, "clean": { "$ref": "#/$defs/clean" } } } },
     "keys": { "type": "array", "items": { "type": "object", "properties": { "name": { "type": "string" }, "fields": { "type": "array", "items": { "type": "string" } }, "clustered": { "type": "boolean" } } } },
     "procedures": { "type": "array", "items": { "type": "object", "required": ["name", "scope"], "properties": {
       "name": { "type": "string" }, "scope": { "enum": ["global", "local", "internal", "protected"] },
@@ -23,12 +24,16 @@
       "attributes": { "type": "array", "items": { "type": "object", "properties": { "name": { "type": "string" }, "args": { "type": "array" } } } },
       "event": { "enum": ["integration", "business", "internal", "subscriber", null] },
       "subscribes_to": { "type": ["object", "null"], "properties": { "object_type": { "type": "string" }, "object_name": { "type": "string" }, "event": { "type": "string" }, "element": { "type": ["string", "null"] } } },
-      "obsolete": { "$ref": "#/$defs/obsolete" }, "doc": { "type": ["string", "null"] }, "line": { "type": "integer" }
+      "obsolete": { "$ref": "#/$defs/obsolete" }, "doc": { "type": ["string", "null"] }, "line": { "type": "integer" },
+      "clean": { "$ref": "#/$defs/clean" }
     } } },
     "triggers": { "type": "array", "items": { "type": "string" } },
+    "clean": { "$ref": "#/$defs/clean" },
+    "parse_error": { "type": "boolean", "description": "tree-sitter reported a syntax error inside the object; its members may be incomplete" },
     "hash": { "type": "string" }
   },
   "$defs": {
+    "clean": { "type": "array", "items": { "type": "string" }, "description": "#if not CLEAN<n> guards around the element: Microsoft's marker for removal in version n" },
     "obsolete": { "type": ["object", "null"], "properties": { "state": { "enum": ["Pending", "Removed", "No"] }, "tag": { "type": ["string", "null"] }, "reason": { "type": ["string", "null"] } } }
   }
 }

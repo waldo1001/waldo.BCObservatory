@@ -100,3 +100,13 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   already committed, but a killed run (job timeout, reboot, cancel) lost everything because the next checkout cleans
   the workspace; long unlimited runs (`--unlimited`, workflow input `unlimited`) also produced one huge commit with
   no visible progress.
+- **D27 AL extractor: labelled-node walker on web-tree-sitter, shipped preprocessor branch, CLEAN tags.**
+  `pipeline/code/extract.ts` walks the tree-sitter-al grammar's labelled nodes (object_id, object_name, base_object,
+  field id/name/type, procedure parameters/return_type/modifier) instead of per-construct `.scm` queries: one place,
+  easier to test. `@sshadows/tree-sitter-al` 4.4.1 (MIT) ships the WASM; `web-tree-sitter` 0.27.0 loads it; both
+  pinned, installed with `--ignore-scripts` (no native build). Preprocessor regions follow the shipped build (no
+  symbols defined: `#if not CLEAN27` taken, its `#else` not); elements inside `#if not CLEAN<n>` /
+  `#if not CLEANSCHEMA<n>` carry `clean: [...]`, Microsoft's own removal marker, next to ObsoleteState. Doc comments
+  only when the caller says the source's license allows (BCApps, MIT). Pages/reports/queries get properties,
+  procedures and triggers; layout and datasets are v0.2. Measured on BCApps releases/29.x W1 BaseApp: 8,137 files,
+  8,057 objects, 0 parse errors, 7.7 s on the laptop; every record passes al-object@1.
