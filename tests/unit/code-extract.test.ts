@@ -63,5 +63,7 @@ test("a syntax error marks the object; the hash ignores where the object came fr
   const b = extractSource(p, fx("objects.al"), { ...ctx, file: "moved/b.al", commit: "2", build: "29.1" })[0];
   assert.equal(a.hash, b.hash);
   assert.notEqual(a.hash, extractSource(p, fx("objects.al").replace("Text[100]", "Text[120]"), ctx)[0].hash);
+  const shifted = extractSource(p, fx("objects.al").replace("keys {", "\n\n\nkeys {"), { ...ctx, docs: true })[0];
+  assert.equal(shifted.hash, a.hash, "moved lines and doc comments are not declaration changes");
   assert.deepEqual([unquote('"No."'), unquote("'it''s'"), unquote(" Name ")], ["No.", "it's", "Name"]);
 });

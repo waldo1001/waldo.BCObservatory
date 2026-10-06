@@ -220,10 +220,17 @@ function procedures(body: Node | null, withDocs: boolean): AlProcedure[] {
 
 // ---------------------------------------------------------------------------------------------- objects
 
+/**
+ * Content hash: what the object declares, not where it was found or how its code is laid out. Version, country,
+ * layer, file, commit and build are left out, and so are procedure line numbers (they move when code above them
+ * changes) and doc comments (only MIT sources keep them). An unchanged declaration hashes the same in 28 and 29
+ * (timelines, version diffs) and a country copy identical to W1 is recognised as such (overlays).
+ */
 export function objectHash(o: Omit<AlObject, "hash">): string {
-  const { file: _f, file_hash: _h, commit: _c, build: _b, ...rest } = o as AlObject;
+  const { file: _f, file_hash: _h, commit: _c, build: _b, version: _v, country: _cc, layer: _l, ...rest } = o as AlObject;
   delete (rest as Partial<AlObject>).hash;
-  return sha256(canonicalJson(rest));
+  const procedures = rest.procedures.map(({ line: _line, doc: _doc, ...p }) => p);
+  return sha256(canonicalJson({ ...rest, procedures }));
 }
 
 /** Every object declared in one file. Unknown declarations are ignored; a syntax error marks the object, not the run. */

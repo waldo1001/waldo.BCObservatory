@@ -3,9 +3,21 @@
   "snapshot": ["28", "29", "30"],
   "narrative_order": ["29", "28", "30"],
   "majors": {
-    "28": { "label": "2026 release wave 1 (BC28)", "bcapps_branch": "releases/28.x", "bcapps_has_baseapp": false, "sandbox_branch": "w1-28", "onprem_branch": "w1-28" },
-    "29": { "label": "2026 release wave 2 (BC29)", "bcapps_branch": "releases/29.x", "bcapps_has_baseapp": true,  "sandbox_branch": "w1-29", "onprem_branch": "w1-29" },
-    "30": { "label": "2027 release wave 1 (BC30, vNext)", "bcapps_branch": "main", "bcapps_has_baseapp": true, "sandbox_branch": "w1-30-vNext", "onprem_branch": null, "vnext": true }
+    "28": { "label": "2026 release wave 1 (BC28)", "bcapps_branch": "releases/28.x", "bcapps_has_baseapp": false, "sandbox_branch": "w1-28", "onprem_branch": "w1-28", "snapshot_source": "sandbox-history" },
+    "29": { "label": "2026 release wave 2 (BC29)", "bcapps_branch": "releases/29.x", "bcapps_has_baseapp": true,  "sandbox_branch": "w1-29", "onprem_branch": "w1-29", "snapshot_source": "bcapps" },
+    "30": { "label": "2027 release wave 1 (BC30, vNext)", "bcapps_branch": "main", "bcapps_has_baseapp": true, "sandbox_branch": "w1-30-vNext", "onprem_branch": null, "vnext": true, "snapshot_source": "bcapps" }
+  },
+  "code": {
+    "$comment": "What the code job extracts per snapshot source (PLAN 4.6, D27). W1 apps in full; countries as overlays (objects new or changed against W1). BCApps carries every layer in one checkout and stacks them (layers_config.json: AT on DACH on W1, each layer may exclude inherited files); regional layers (APAC, DACH, NA) are bases, not countries. Code History has one complete branch per country, so its list is explicit.",
+    "bcapps": {
+      "w1": [ { "app": "Base Application", "path": "src/Layers/W1/BaseApp" }, { "app": "System Application", "path": "src/System Application/App" }, { "app": "Business Foundation", "path": "src/Business Foundation/App" } ],
+      "layers_root": "src/Layers", "layer_app": "BaseApp", "layers_config": "src/Layers/.config/layers_config.json",
+      "country_app": "Base Application", "countries": "all", "docs": true
+    },
+    "sandbox-history": {
+      "w1": [ { "app": "Base Application", "path": "Base Application" }, { "app": "System Application", "path": "System Application" }, { "app": "Business Foundation", "path": "Business Foundation" } ],
+      "country_branch": "<cc>-<major>", "country_path": "Base Application", "country_app": "Base Application", "countries": ["be", "nl"], "docs": false
+    }
   },
   "repos": {
     "bcapps": "https://github.com/microsoft/BCApps",
