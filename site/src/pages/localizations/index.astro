@@ -1,12 +1,42 @@
 ---
 import { getCollection } from "astro:content";
+import { existsSync, readFileSync } from "node:fs";
+import { resolve } from "node:path";
 import List from "../../layouts/List.astro";
 const base = import.meta.env.BASE_URL;
 const all = (await getCollection("localizations")).sort((a, b) => a.data.title.localeCompare(b.data.title));
+// the country x area heatmap (D49): data/code/diffs/country/matrix.json
+interface Matrix { areas: string[]; countries: Record<string, { major: string; cells: Record<string, { replaced: number; added: number; removed: number; fields_added: number }> }> }
+const mp = resolve(process.cwd(), "..", "data", "code", "diffs", "country", "matrix.json");
+const matrix: Matrix | null = existsSync(mp) ? JSON.parse(readFileSync(mp, "utf8")) : null;
+const ccs = matrix ? Object.keys(matrix.countries) : [];
+const total = (a: string) => ccs.reduce((n, cc) => { const c = matrix!.countries[cc].cells[a]; return n + (c ? c.replaced + c.added : 0); }, 0);
+const areas = matrix ? [...matrix.areas].sort((x, y) => total(y) - total(x) || x.localeCompare(y)).filter((a) => total(a) > 0) : [];
+const max = Math.max(1, ...areas.flatMap((a) => ccs.map((cc) => { const c = matrix!.countries[cc].cells[a]; return c ? c.replaced + c.added : 0; })));
+const cell = (cc: string, a: string) => matrix!.countries[cc].cells[a];
 ---
 <List section="localizations" title="Localizations · BC Observatory" description="What each country layer of Business Central adds to or changes in W1.">
   <p class="eyebrow">Localizations</p>
   <h1>{all.length} country layers</h1>
   <p class="lede">From the code: objects of their own, W1 objects they change, fields and events they add. Agents: <a href={`${base}localizations/llms.txt`}>llms.txt</a>.</p>
+  {matrix && areas.length > 0 && (
+    <section aria-labelledby="heat">
+      <h2 class="section-title" id="heat">Where each country touches the code <small>W1 objects replaced + own objects, per area</small></h2>
+      <div class="table-scroll"><table class="heat">
+        <thead><tr><th>Area</th>{ccs.map((cc) => <th><a href={`${base}localizations/${cc}/`}>{cc.toUpperCase()}</a></th>)}</tr></thead>
+        <tbody>{areas.map((a) => <tr><th scope="row">{a}</th>{ccs.map((cc) => { const c = cell(cc, a); const v = c ? c.replaced + c.added : 0; return <td style={`--h: ${(v / max).toFixed(2)}`}>{v ? <a href={`${base}localizations/${cc}/?ns=${encodeURIComponent(a)}#country-diff`} title={`${cc.toUpperCase()} ${a}: ${c!.replaced} W1 objects changed, ${c!.added} own, ${c!.fields_added} fields added`}>{v}</a> : ""}</td>; })}</tr>)}</tbody>
+      </table></div>
+      <p class="meta">Darker = more objects, relative to the busiest cell. A cell opens that country's changes narrowed to the area. Agents: <a href={`${base}code/diffs/country/matrix.json`}>matrix.json</a>.</p>
+    </section>
+  )}
+  <h2 class="section-title">Countries</h2>
   <ul>{all.map((e) => <li><a href={`${base}localizations/${e.id}/`}>{e.data.title}</a> <span class="meta">BC{e.data.version} · {e.data.added_objects} own, {e.data.replaced_objects} changed</span></li>)}</ul>
 </List>
+<style>
+  .heat { font-size: 13px; min-width: 900px; }
+  .heat th { font: 500 12px var(--font-mono); text-align: center; }
+  .heat th[scope="row"] { text-align: left; font: 500 13px var(--font-ui); white-space: nowrap; }
+  .heat td { text-align: center; padding: 4px 6px; font-variant-numeric: tabular-nums; background: color-mix(in srgb, var(--accent) calc(var(--h) * 70%), transparent); }
+  .heat td a { color: var(--text); text-decoration: none; display: block; }
+  .heat td a:hover { text-decoration: underline; }
+</style>

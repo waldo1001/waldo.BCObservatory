@@ -20,14 +20,17 @@ import { logger } from "../lib/log.js";
 import { objectKey, type AlObject, type AlProcedure, type Obsolete } from "./extract.js";
 import { iterSnapshot, readSnapshot, snapshotDir, type SnapshotManifest } from "./job.js";
 import { buildRelations } from "./relations.js";
+import { areaOf } from "../lib/systems.js";
 
 const log = logger("code-diff");
 /** Bump when a derived file's shape changes: it is part of every file's inputs, so all of them are rewritten. */
-export const DERIVED_VERSION = 4;
+export const DERIVED_VERSION = 5;
 
 export interface MemberChange { id: string; name: string; change: "added" | "removed" | "changed"; from?: unknown; to?: unknown }
 export interface ObjectDiff {
   key: string; name: string; change: "added" | "removed" | "changed" | "replaced";
+  /** Namespace of the object (the newer side), for grouping by area (D49). */
+  ns?: string | null;
   properties?: { name: string; from: string | null; to: string | null }[];
   fields?: MemberChange[]; values?: MemberChange[]; procedures?: MemberChange[]; events?: MemberChange[]; keys?: MemberChange[];
   triggers?: { added: string[]; removed: string[] };
@@ -54,7 +57,7 @@ const procView = (p: AlProcedure) => ({ scope: p.scope, params: p.params, return
 
 /** Member-level difference of two versions of one object (same key). */
 export function objectDiff(a: AlObject, b: AlObject, change: ObjectDiff["change"]): ObjectDiff {
-  const d: ObjectDiff = { key: objectKey(b), name: b.name, change };
+  const d: ObjectDiff = { key: objectKey(b), name: b.name, change, ns: b.namespace ?? null };
   const props = [...new Set([...Object.keys(a.properties), ...Object.keys(b.properties)])].filter((k) => a.properties[k] !== b.properties[k]).sort()
     .map((k) => ({ name: k, from: a.properties[k] ?? null, to: b.properties[k] ?? null }));
   if (props.length) d.properties = props;
@@ -110,13 +113,13 @@ export function versionDiff(a: AlObject[], b: AlObject[], from: Ref, to: Ref): A
   const A = byKey(a), B = byKey(b);
   const objects: ObjectDiff[] = [];
   for (const [k, bs] of B) {
-    if (!A.has(k)) { objects.push({ key: k, name: bs[0].name, change: "added" }); continue; }
+    if (!A.has(k)) { objects.push({ key: k, name: bs[0].name, change: "added", ns: bs[0].namespace ?? null }); continue; }
     for (const o of bs) {
       const prev = counterpart(A.get(k), o);
       if (prev && prev.hash !== o.hash) objects.push(objectDiff(prev, o, "changed"));
     }
   }
-  for (const [k, as] of A) if (!B.has(k)) objects.push({ key: k, name: as[0].name, change: "removed" });
+  for (const [k, as] of A) if (!B.has(k)) objects.push({ key: k, name: as[0].name, change: "removed", ns: as[0].namespace ?? null });
   objects.sort((x, y) => x.key.localeCompare(y.key, "en", { numeric: true }));
   return { schema: "al-diff@1", kind: "version", from, to, summary: summarize(objects), objects };
 }
@@ -126,9 +129,9 @@ export function countryDiff(w1: AlObject[], overlay: AlObject[], absent: string[
   const W = byKey(w1);
   const objects: ObjectDiff[] = overlay.map((o) => {
     const base = counterpart(W.get(objectKey(o)), o);
-    return base ? objectDiff(base, o, "replaced") : { key: objectKey(o), name: o.name, change: "added" as const };
+    return base ? objectDiff(base, o, "replaced") : { key: objectKey(o), name: o.name, change: "added" as const, ns: o.namespace ?? null };
   });
-  for (const k of absent) objects.push({ key: k, name: W.get(k)?.[0].name ?? k, change: "removed" });
+  for (const k of absent) objects.push({ key: k, name: W.get(k)?.[0].name ?? k, change: "removed", ns: W.get(k)?.[0].namespace ?? null });
   objects.sort((x, y) => x.key.localeCompare(y.key, "en", { numeric: true }));
   return { schema: "al-diff@1", kind: "country", from, to, summary: summarize(objects), objects };
 }
@@ -198,7 +201,29 @@ function writeIfInputsChanged(path: string, inputs0: unknown, build: () => unkno
   return true;
 }
 
-export interface CodeDerivedRun { version_diffs: number; country_diffs: number; timelines: number; deprecations: number; relations?: number; written: number }
+export interface CodeDerivedRun { version_diffs: number; country_diffs: number; timelines: number; deprecations: number; relations?: number; matrix?: boolean; written: number }
+
+/** Country x area matrix (D49): per country (its newest major), per area, how many W1 objects it replaces and adds. */
+export interface CountryMatrix {
+  schema: "country-matrix@1"; areas: string[];
+  countries: Record<string, { major: string; cells: Record<string, { replaced: number; added: number; removed: number; fields_added: number }> }>;
+}
+export function countryMatrix(diffs: { cc: string; diff: AlDiff }[]): CountryMatrix {
+  const areas = new Set<string>();
+  const countries: CountryMatrix["countries"] = {};
+  for (const { cc, diff } of diffs) {
+    const cells: Record<string, { replaced: number; added: number; removed: number; fields_added: number }> = {};
+    for (const o of diff.objects) {
+      const a = areaOf(o.ns, null);
+      areas.add(a);
+      const c = (cells[a] ??= { replaced: 0, added: 0, removed: 0, fields_added: 0 });
+      if (o.change === "replaced") c.replaced++; else if (o.change === "added") c.added++; else if (o.change === "removed") c.removed++;
+      c.fields_added += o.fields?.filter((f) => f.change === "added").length ?? 0;
+    }
+    countries[cc] = { major: diff.to.version, cells: Object.fromEntries(Object.entries(cells).sort(([a], [b]) => a.localeCompare(b))) };
+  }
+  return { schema: "country-matrix@1", areas: [...areas].sort(), countries: Object.fromEntries(Object.entries(countries).sort(([a], [b]) => a.localeCompare(b))) };
+}
 
 /** Recompute everything derived from the snapshots whose inputs changed. Majors in numeric order. */
 export function refreshCodeDerived(dataDir: string, majors: string[]): CodeDerivedRun {
@@ -241,6 +266,15 @@ export function refreshCodeDerived(dataDir: string, majors: string[]): CodeDeriv
       for (const d of list) byTag[d.tag ?? "untagged"] = (byTag[d.tag ?? "untagged"] ?? 0) + 1;
       return { major: m, count: list.length, by_tag: byTag, items: list };
     })) run.written++;
+  }
+  // the matrix: every country at its newest major
+  const newest = new Map<string, { m: string; mc: SnapshotManifest }>();
+  for (const m of present) for (const cc of countriesOf(dataDir, m)) newest.set(cc, { m, mc: manifestOf(dataDir, m, cc)! });
+  if (newest.size) {
+    const mInputs = [...newest].sort(([a], [b]) => a.localeCompare(b)).map(([cc, { m, mc }]) => [cc, m, mc.commit, manifestOf(dataDir, m, "w1")!.commit]);
+    run.matrix = writeIfInputsChanged(resolve(root, "diffs", "country", "matrix.json"), mInputs, () =>
+      countryMatrix([...newest].sort(([a], [b]) => a.localeCompare(b)).map(([cc, { m }]) => ({ cc, diff: readJson<AlDiff>(resolve(root, "diffs", "country", `${m}-${cc}.json`)) }))));
+    if (run.matrix) run.written++;
   }
   const inputs = [DERIVED_VERSION, ...present.map((m) => [m, manifestOf(dataDir, m, "w1")!.commit])];
   const tlDir = resolve(root, "timelines");

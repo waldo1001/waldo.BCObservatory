@@ -1,10 +1,10 @@
 {
   "inputs": [
-    2,
+    5,
     [
-      "2e8d75cb5e193ce2899a51c5a3c1ba0dab0de1b5",
-      "2e8d75cb5e193ce2899a51c5a3c1ba0dab0de1b5",
-      "1",
+      "4dd61dc02fea2b5e9355cf8c13e43f3695a03cba",
+      "4dd61dc02fea2b5e9355cf8c13e43f3695a03cba",
+      "2",
       []
     ]
   ],
@@ -13,12 +13,12 @@
   "from": {
     "version": "30",
     "country": "w1",
-    "commit": "2e8d75cb5e193ce2899a51c5a3c1ba0dab0de1b5"
+    "commit": "4dd61dc02fea2b5e9355cf8c13e43f3695a03cba"
   },
   "to": {
     "version": "30",
     "country": "fi",
-    "commit": "2e8d75cb5e193ce2899a51c5a3c1ba0dab0de1b5"
+    "commit": "4dd61dc02fea2b5e9355cf8c13e43f3695a03cba"
   },
   "summary": {
     "objects": 92,
@@ -39,16 +39,17 @@
         "tableextension": 2
       }
     },
-    "fields_added": 159,
+    "fields_added": 79,
     "events_added": 0,
     "procedures_added": 4,
-    "objects_obsoleted": 1
+    "objects_obsoleted": 0
   },
   "objects": [
     {
       "key": "codeunit/12",
       "name": "Gen. Jnl.-Post Line",
       "change": "replaced",
+      "ns": "Microsoft.Finance.GeneralLedger.Posting",
       "procedures": [
         {
           "id": "updateimportedrefpayment(record \"gen. journal line\",record \"cust. ledger entry\")",
@@ -115,6 +116,7 @@
       "key": "codeunit/90",
       "name": "Purch.-Post",
       "change": "replaced",
+      "ns": "Microsoft.Purchases.Posting",
       "procedures": [
         {
           "id": "runonafterpostitemjnllinecopyprodorder(record \"item journal line\",record \"purchase line\",record \"purch. rcpt. header\",decimal,boolean,decimal)",
@@ -420,6 +422,7 @@
       "key": "codeunit/442",
       "name": "Sales-Post Prepayments",
       "change": "replaced",
+      "ns": "Microsoft.Sales.Posting",
       "procedures": [
         {
           "id": "postcustomerentry(record \"sales header\",record \"prepayment inv. line buffer\",record \"prepayment inv. line buffer\",option invoice,\"credit memo\",text[100],enum \"gen. journal document type\",code[20],text[35],code[10],code[20],boolean,record \"sales invoice header\")",
@@ -571,42 +574,50 @@
     {
       "key": "codeunit/13403",
       "name": "Export SEPA Payment File",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.DirectDebit"
     },
     {
       "key": "codeunit/13410",
       "name": "Serv. Document Mgt. FI",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Service.Document"
     },
     {
       "key": "codeunit/13413",
       "name": "Exp. SEPA CT pain.001.001.09",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.DirectDebit"
     },
     {
       "key": "codeunit/13461",
       "name": "Serv. Report Selection Mgt. FI",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Foundation.Reporting"
     },
     {
       "key": "codeunit/32000000",
       "name": "Ref. Payment Management",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "codeunit/32000001",
       "name": "Currency Exchange Rate",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.Currency"
     },
     {
       "key": "codeunit/32000002",
       "name": "Bank Nos Check",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.BankAccount"
     },
     {
       "key": "page/132",
       "name": "Posted Sales Invoice",
       "change": "replaced",
+      "ns": "Microsoft.Sales.History",
       "properties": [
         {
           "name": "DeleteAllowed",
@@ -619,6 +630,7 @@
       "key": "page/134",
       "name": "Posted Sales Credit Memo",
       "change": "replaced",
+      "ns": "Microsoft.Sales.History",
       "properties": [
         {
           "name": "DeleteAllowed",
@@ -630,52 +642,62 @@
     {
       "key": "page/32000000",
       "name": "Bank Reference File Setup",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Setup"
     },
     {
       "key": "page/32000001",
       "name": "Ref. Payment - Import",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "page/32000002",
       "name": "Apply Ref. Payment",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "page/32000004",
       "name": "Ref. Payment - Export",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "page/32000005",
       "name": "Payment Method Codes",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.BankAccount"
     },
     {
       "key": "page/32000006",
       "name": "Bank Payments to send",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "page/32000007",
       "name": "Input Dialog",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Setup"
     },
     {
       "key": "pageextension/13400",
       "name": "SourceCodeSetupFI",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Foundation.AuditCodes"
     },
     {
       "key": "pageextension/13410",
       "name": "Posted Service Invoice FI",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Service.History"
     },
     {
       "key": "permissionset/1001",
       "name": "LOCAL",
       "change": "replaced",
+      "ns": "System.Security.AccessControl",
       "properties": [
         {
           "name": "Assignable",
@@ -703,6 +725,7 @@
       "key": "permissionset/1002",
       "name": "LOCAL READ",
       "change": "replaced",
+      "ns": "System.Security.AccessControl",
       "properties": [
         {
           "name": "Assignable",
@@ -725,6 +748,7 @@
       "key": "report/393",
       "name": "Suggest Vendor Payments",
       "change": "replaced",
+      "ns": "Microsoft.Purchases.Payables",
       "procedures": [
         {
           "id": "getdomesticpaymentdate(integer)",
@@ -1035,6 +1059,7 @@
       "key": "report/394",
       "name": "Suggest Employee Payments",
       "change": "replaced",
+      "ns": "Microsoft.HumanResources.Payables",
       "procedures": [
         {
           "id": "clearnegative()",
@@ -1164,82 +1189,98 @@
     {
       "key": "report/13400",
       "name": "G/L Register FI",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.GeneralLedger.Reports"
     },
     {
       "key": "report/13402",
       "name": "Calc. and Post Depr. Diff.",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.FixedAssets.Depreciation"
     },
     {
       "key": "report/13403",
       "name": "Export SEPA Payment File",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.DirectDebit"
     },
     {
       "key": "report/13410",
       "name": "Service Contract (FI)",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Service.Reports"
     },
     {
       "key": "report/13411",
       "name": "Service - Invoice (FI)",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Service.History"
     },
     {
       "key": "report/13412",
       "name": "Service Contract Quote (FI)",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Service.Reports"
     },
     {
       "key": "report/13413",
       "name": "Exp. SEPA CT pain.001.001.09",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.DirectDebit"
     },
     {
       "key": "report/13414",
       "name": "Service Quote (FI)",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Service.Document"
     },
     {
       "key": "report/13416",
       "name": "Service Order (FI)",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Service.Document"
     },
     {
       "key": "report/32000000",
       "name": "Import Ref. Payment",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Reports"
     },
     {
       "key": "report/32000001",
       "name": "Ref. Payment Imported",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "report/32000003",
       "name": "Suggest Bank Payments",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "report/32000004",
       "name": "Export Ref. Payment -  LUM",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Reports"
     },
     {
       "key": "report/32000005",
       "name": "Payment",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Reports"
     },
     {
       "key": "report/32000006",
       "name": "Export Ref. Payment -  LMP",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Reports"
     },
     {
       "key": "table/3",
       "name": "Payment Terms",
       "change": "replaced",
+      "ns": "Microsoft.Foundation.PaymentTerms",
       "fields": [
         {
           "id": "32000001",
@@ -1261,6 +1302,7 @@
       "key": "table/9",
       "name": "Country/Region",
       "change": "replaced",
+      "ns": "Microsoft.Foundation.Address",
       "fields": [
         {
           "id": "13400",
@@ -1282,6 +1324,7 @@
       "key": "table/15",
       "name": "G/L Account",
       "change": "replaced",
+      "ns": "Microsoft.Finance.GeneralLedger.Account",
       "fields": [
         {
           "id": "11200",
@@ -1313,6 +1356,7 @@
       "key": "table/17",
       "name": "G/L Entry",
       "change": "replaced",
+      "ns": "Microsoft.Finance.GeneralLedger.Ledger",
       "keys": [
         {
           "id": "key8",
@@ -1447,6 +1491,7 @@
       "key": "table/21",
       "name": "Cust. Ledger Entry",
       "change": "replaced",
+      "ns": "Microsoft.Sales.Receivables",
       "fields": [
         {
           "id": "32000000",
@@ -1482,6 +1527,7 @@
       "key": "table/23",
       "name": "Vendor",
       "change": "replaced",
+      "ns": "Microsoft.Purchases.Vendor",
       "fields": [
         {
           "id": "32000000",
@@ -1504,6 +1550,7 @@
       "key": "table/25",
       "name": "Vendor Ledger Entry",
       "change": "replaced",
+      "ns": "Microsoft.Purchases.Payables",
       "fields": [
         {
           "id": "32000000",
@@ -1570,6 +1617,7 @@
       "key": "table/37",
       "name": "Sales Line",
       "change": "replaced",
+      "ns": "Microsoft.Sales.Document",
       "fields": [
         {
           "id": "11200",
@@ -1601,6 +1649,7 @@
       "key": "table/38",
       "name": "Purchase Header",
       "change": "replaced",
+      "ns": "Microsoft.Purchases.Document",
       "fields": [
         {
           "id": "32000000",
@@ -1653,6 +1702,7 @@
       "key": "table/39",
       "name": "Purchase Line",
       "change": "replaced",
+      "ns": "Microsoft.Purchases.Document",
       "fields": [
         {
           "id": "11200",
@@ -1684,6 +1734,7 @@
       "key": "table/49",
       "name": "Invoice Post. Buffer",
       "change": "replaced",
+      "ns": "Microsoft.Finance.ReceivablesPayables",
       "fields": [
         {
           "id": "11200",
@@ -1715,6 +1766,7 @@
       "key": "table/55",
       "name": "Invoice Posting Buffer",
       "change": "replaced",
+      "ns": "Microsoft.Finance.ReceivablesPayables",
       "fields": [
         {
           "id": "11200",
@@ -1746,6 +1798,7 @@
       "key": "table/79",
       "name": "Company Information",
       "change": "replaced",
+      "ns": "Microsoft.Foundation.Company",
       "fields": [
         {
           "id": "11",
@@ -1875,6 +1928,7 @@
       "key": "table/81",
       "name": "Gen. Journal Line",
       "change": "replaced",
+      "ns": "Microsoft.Finance.GeneralLedger.Journal",
       "fields": [
         {
           "id": "11201",
@@ -1979,6 +2033,7 @@
       "key": "table/111",
       "name": "Sales Shipment Line",
       "change": "replaced",
+      "ns": "Microsoft.Sales.History",
       "fields": [
         {
           "id": "11200",
@@ -2010,6 +2065,7 @@
       "key": "table/112",
       "name": "Sales Invoice Header",
       "change": "replaced",
+      "ns": "Microsoft.Sales.History",
       "fields": [
         {
           "id": "32000000",
@@ -2158,6 +2214,7 @@
       "key": "table/113",
       "name": "Sales Invoice Line",
       "change": "replaced",
+      "ns": "Microsoft.Sales.History",
       "fields": [
         {
           "id": "11200",
@@ -2189,6 +2246,7 @@
       "key": "table/115",
       "name": "Sales Cr.Memo Line",
       "change": "replaced",
+      "ns": "Microsoft.Sales.History",
       "fields": [
         {
           "id": "11200",
@@ -2220,6 +2278,7 @@
       "key": "table/121",
       "name": "Purch. Rcpt. Line",
       "change": "replaced",
+      "ns": "Microsoft.Purchases.History",
       "fields": [
         {
           "id": "11200",
@@ -2251,6 +2310,7 @@
       "key": "table/122",
       "name": "Purch. Inv. Header",
       "change": "replaced",
+      "ns": "Microsoft.Purchases.History",
       "fields": [
         {
           "id": "32000000",
@@ -2303,6 +2363,7 @@
       "key": "table/123",
       "name": "Purch. Inv. Line",
       "change": "replaced",
+      "ns": "Microsoft.Purchases.History",
       "fields": [
         {
           "id": "11200",
@@ -2334,6 +2395,7 @@
       "key": "table/125",
       "name": "Purch. Cr. Memo Line",
       "change": "replaced",
+      "ns": "Microsoft.Purchases.History",
       "fields": [
         {
           "id": "11200",
@@ -2365,6 +2427,7 @@
       "key": "table/181",
       "name": "Posted Gen. Journal Line",
       "change": "replaced",
+      "ns": "Microsoft.Finance.GeneralLedger.Journal",
       "fields": [
         {
           "id": "11201",
@@ -2469,1234 +2532,8 @@
       "key": "table/242",
       "name": "Source Code Setup",
       "change": "replaced",
-      "properties": [
-        {
-          "name": "MovedFrom",
-          "from": "437dbf0e-84ff-417a-965d-ed2bb9650972",
-          "to": null
-        },
-        {
-          "name": "MovedTo",
-          "from": null,
-          "to": "f3552374-a1f2-4356-848e-196002525837"
-        },
-        {
-          "name": "ObsoleteReason",
-          "from": null,
-          "to": "Source Code Setup is moved to Business Foundation"
-        },
-        {
-          "name": "ObsoleteState",
-          "from": null,
-          "to": "Moved"
-        },
-        {
-          "name": "ObsoleteTag",
-          "from": null,
-          "to": "25.0"
-        }
-      ],
+      "ns": "Microsoft.Foundation.AuditCodes",
       "fields": [
-        {
-          "id": "2",
-          "name": "Sales",
-          "change": "added",
-          "to": {
-            "name": "Sales",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Sales",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "3",
-          "name": "Purchases",
-          "change": "added",
-          "to": {
-            "name": "Purchases",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Purchases",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "4",
-          "name": "Inventory Post Cost",
-          "change": "added",
-          "to": {
-            "name": "Inventory Post Cost",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Inventory Post Cost",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "5",
-          "name": "Exchange Rate Adjmt.",
-          "change": "added",
-          "to": {
-            "name": "Exchange Rate Adjmt.",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Exchange Rate Adjmt.",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "6",
-          "name": "Post Recognition",
-          "change": "added",
-          "to": {
-            "name": "Post Recognition",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Post Recognition",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "7",
-          "name": "Post Value",
-          "change": "added",
-          "to": {
-            "name": "Post Value",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Post Value",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "8",
-          "name": "Close Income Statement",
-          "change": "added",
-          "to": {
-            "name": "Close Income Statement",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Close Income Statement",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "9",
-          "name": "Consolidation",
-          "change": "added",
-          "to": {
-            "name": "Consolidation",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Consolidation",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "10",
-          "name": "General Journal",
-          "change": "added",
-          "to": {
-            "name": "General Journal",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "General Journal",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "11",
-          "name": "Sales Journal",
-          "change": "added",
-          "to": {
-            "name": "Sales Journal",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Sales Journal",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "12",
-          "name": "Purchase Journal",
-          "change": "added",
-          "to": {
-            "name": "Purchase Journal",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Purchase Journal",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "13",
-          "name": "Cash Receipt Journal",
-          "change": "added",
-          "to": {
-            "name": "Cash Receipt Journal",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Cash Receipt Journal",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "14",
-          "name": "Payment Journal",
-          "change": "added",
-          "to": {
-            "name": "Payment Journal",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Payment Journal",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "16",
-          "name": "Item Journal",
-          "change": "added",
-          "to": {
-            "name": "Item Journal",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Item Journal",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "19",
-          "name": "Resource Journal",
-          "change": "added",
-          "to": {
-            "name": "Resource Journal",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Resource Journal",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "20",
-          "name": "Job Journal",
-          "change": "added",
-          "to": {
-            "name": "Job Journal",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Project Journal",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "21",
-          "name": "Sales Entry Application",
-          "change": "added",
-          "to": {
-            "name": "Sales Entry Application",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Sales Entry Application",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "22",
-          "name": "Purchase Entry Application",
-          "change": "added",
-          "to": {
-            "name": "Purchase Entry Application",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Purchase Entry Application",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "23",
-          "name": "VAT Settlement",
-          "change": "added",
-          "to": {
-            "name": "VAT Settlement",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "VAT Settlement",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "24",
-          "name": "Compress G/L",
-          "change": "added",
-          "to": {
-            "name": "Compress G/L",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Compress G/L",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "25",
-          "name": "Compress VAT Entries",
-          "change": "added",
-          "to": {
-            "name": "Compress VAT Entries",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Compress VAT Entries",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "26",
-          "name": "Compress Cust. Ledger",
-          "change": "added",
-          "to": {
-            "name": "Compress Cust. Ledger",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Compress Cust. Ledger",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "27",
-          "name": "Compress Vend. Ledger",
-          "change": "added",
-          "to": {
-            "name": "Compress Vend. Ledger",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Compress Vend. Ledger",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "28",
-          "name": "Compress Item Ledger",
-          "change": "added",
-          "to": {
-            "name": "Compress Item Ledger",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Compress Item Ledger",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "31",
-          "name": "Compress Res. Ledger",
-          "change": "added",
-          "to": {
-            "name": "Compress Res. Ledger",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Compress Res. Ledger",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "32",
-          "name": "Compress Job Ledger",
-          "change": "added",
-          "to": {
-            "name": "Compress Job Ledger",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Compress Job Ledger",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "33",
-          "name": "Item Reclass. Journal",
-          "change": "added",
-          "to": {
-            "name": "Item Reclass. Journal",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Item Reclass. Journal",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "34",
-          "name": "Phys. Inventory Journal",
-          "change": "added",
-          "to": {
-            "name": "Phys. Inventory Journal",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Phys. Inventory Journal",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "35",
-          "name": "Compress Bank Acc. Ledger",
-          "change": "added",
-          "to": {
-            "name": "Compress Bank Acc. Ledger",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Compress Bank Acc. Ledger",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "36",
-          "name": "Compress Check Ledger",
-          "change": "added",
-          "to": {
-            "name": "Compress Check Ledger",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Compress Check Ledger",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "37",
-          "name": "Financially Voided Check",
-          "change": "added",
-          "to": {
-            "name": "Financially Voided Check",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Financially Voided Check",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "38",
-          "name": "Finance Charge Memo",
-          "change": "added",
-          "to": {
-            "name": "Finance Charge Memo",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Finance Charge Memo",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "39",
-          "name": "Reminder",
-          "change": "added",
-          "to": {
-            "name": "Reminder",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Reminder",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "40",
-          "name": "Deleted Document",
-          "change": "added",
-          "to": {
-            "name": "Deleted Document",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Deleted Document",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "41",
-          "name": "Adjust Add. Reporting Currency",
-          "change": "added",
-          "to": {
-            "name": "Adjust Add. Reporting Currency",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Adjust Add. Reporting Currency",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "42",
-          "name": "Trans. Bank Rec. to Gen. Jnl.",
-          "change": "added",
-          "to": {
-            "name": "Trans. Bank Rec. to Gen. Jnl.",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Trans. Bank Rec. to Gen. Jnl.",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "43",
-          "name": "IC General Journal",
-          "change": "added",
-          "to": {
-            "name": "IC General Journal",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "IC General Journal",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "44",
-          "name": "Unapplied Empl. Entry Appln.",
-          "change": "added",
-          "to": {
-            "name": "Unapplied Empl. Entry Appln.",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Unapplied Empl. Entry Appln.",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "45",
-          "name": "Unapplied Sales Entry Appln.",
-          "change": "added",
-          "to": {
-            "name": "Unapplied Sales Entry Appln.",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Unapplied Sales Entry Appln.",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "46",
-          "name": "Unapplied Purch. Entry Appln.",
-          "change": "added",
-          "to": {
-            "name": "Unapplied Purch. Entry Appln.",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Unapplied Purch. Entry Appln.",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "47",
-          "name": "Reversal",
-          "change": "added",
-          "to": {
-            "name": "Reversal",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Reversal",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "48",
-          "name": "Employee Entry Application",
-          "change": "added",
-          "to": {
-            "name": "Employee Entry Application",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Employee Entry Application",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "49",
-          "name": "Payment Reconciliation Journal",
-          "change": "added",
-          "to": {
-            "name": "Payment Reconciliation Journal",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Payment Reconciliation Journal",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "840",
-          "name": "Cash Flow Worksheet",
-          "change": "added",
-          "to": {
-            "name": "Cash Flow Worksheet",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Cash Flow Worksheet",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "900",
-          "name": "Assembly",
-          "change": "added",
-          "to": {
-            "name": "Assembly",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Assembly",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "1000",
-          "name": "Job G/L Journal",
-          "change": "added",
-          "to": {
-            "name": "Job G/L Journal",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Project G/L Journal",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "1001",
-          "name": "Job G/L WIP",
-          "change": "added",
-          "to": {
-            "name": "Job G/L WIP",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Project G/L WIP",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "1100",
-          "name": "G/L Entry to CA",
-          "change": "added",
-          "to": {
-            "name": "G/L Entry to CA",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "G/L Entry to CA",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "1102",
-          "name": "Cost Journal",
-          "change": "added",
-          "to": {
-            "name": "Cost Journal",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Cost Journal",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "1104",
-          "name": "Cost Allocation",
-          "change": "added",
-          "to": {
-            "name": "Cost Allocation",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Cost Allocation",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "1105",
-          "name": "Transfer Budget to Actual",
-          "change": "added",
-          "to": {
-            "name": "Transfer Budget to Actual",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Transfer Budget to Actual",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "1700",
-          "name": "General Deferral",
-          "change": "added",
-          "to": {
-            "name": "General Deferral",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "General Deferral",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "1701",
-          "name": "Sales Deferral",
-          "change": "added",
-          "to": {
-            "name": "Sales Deferral",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Sales Deferral",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "1702",
-          "name": "Purchase Deferral",
-          "change": "added",
-          "to": {
-            "name": "Purchase Deferral",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Purchase Deferral",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "5400",
-          "name": "Consumption Journal",
-          "change": "added",
-          "to": {
-            "name": "Consumption Journal",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Consumption Journal",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "5402",
-          "name": "Output Journal",
-          "change": "added",
-          "to": {
-            "name": "Output Journal",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Output Journal",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "5403",
-          "name": "Flushing",
-          "change": "added",
-          "to": {
-            "name": "Flushing",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Flushing",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "5404",
-          "name": "Capacity Journal",
-          "change": "added",
-          "to": {
-            "name": "Capacity Journal",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Capacity Journal",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "5500",
-          "name": "Production Journal",
-          "change": "added",
-          "to": {
-            "name": "Production Journal",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Production Journal",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "5502",
-          "name": "Production Order",
-          "change": "added",
-          "to": {
-            "name": "Production Order",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Production Order",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "5600",
-          "name": "Fixed Asset Journal",
-          "change": "added",
-          "to": {
-            "name": "Fixed Asset Journal",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Fixed Asset Journal",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "5601",
-          "name": "Fixed Asset G/L Journal",
-          "change": "added",
-          "to": {
-            "name": "Fixed Asset G/L Journal",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Fixed Asset G/L Journal",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "5602",
-          "name": "Insurance Journal",
-          "change": "added",
-          "to": {
-            "name": "Insurance Journal",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Insurance Journal",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "5603",
-          "name": "Compress FA Ledger",
-          "change": "added",
-          "to": {
-            "name": "Compress FA Ledger",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Compress FA Ledger",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "5604",
-          "name": "Compress Maintenance Ledger",
-          "change": "added",
-          "to": {
-            "name": "Compress Maintenance Ledger",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Compress Maintenance Ledger",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "5605",
-          "name": "Compress Insurance Ledger",
-          "change": "added",
-          "to": {
-            "name": "Compress Insurance Ledger",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Compress Insurance Ledger",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "5700",
-          "name": "Transfer",
-          "change": "added",
-          "to": {
-            "name": "Transfer",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Transfer",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "5800",
-          "name": "Revaluation Journal",
-          "change": "added",
-          "to": {
-            "name": "Revaluation Journal",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Revaluation Journal",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "5801",
-          "name": "Adjust Cost",
-          "change": "added",
-          "to": {
-            "name": "Adjust Cost",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Adjust Cost",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "5850",
-          "name": "Invt. Receipt",
-          "change": "added",
-          "to": {
-            "name": "Invt. Receipt",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Item Doc. Receipt",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "5851",
-          "name": "Invt. Shipment",
-          "change": "added",
-          "to": {
-            "name": "Invt. Shipment",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Item Doc. Shipment",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "5875",
-          "name": "Phys. Invt. Orders",
-          "change": "added",
-          "to": {
-            "name": "Phys. Invt. Orders",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Phys. Invt. Orders",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "7139",
-          "name": "Compress Item Budget",
-          "change": "added",
-          "to": {
-            "name": "Compress Item Budget",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Compress Item Budget",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "7300",
-          "name": "Whse. Item Journal",
-          "change": "added",
-          "to": {
-            "name": "Whse. Item Journal",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Whse. Item Journal",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "7302",
-          "name": "Whse. Phys. Invt. Journal",
-          "change": "added",
-          "to": {
-            "name": "Whse. Phys. Invt. Journal",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Whse. Phys. Invt. Journal",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "7303",
-          "name": "Whse. Reclassification Journal",
-          "change": "added",
-          "to": {
-            "name": "Whse. Reclassification Journal",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Whse. Reclassification Journal",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "7304",
-          "name": "Whse. Put-away",
-          "change": "added",
-          "to": {
-            "name": "Whse. Put-away",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Whse. Put-away",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "7305",
-          "name": "Whse. Pick",
-          "change": "added",
-          "to": {
-            "name": "Whse. Pick",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Whse. Pick",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "7306",
-          "name": "Whse. Movement",
-          "change": "added",
-          "to": {
-            "name": "Whse. Movement",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Whse. Movement",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "7307",
-          "name": "Compress Whse. Entries",
-          "change": "added",
-          "to": {
-            "name": "Compress Whse. Entries",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Compress Whse. Entries",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
         {
           "id": "13400",
           "name": "Depr. Difference",
@@ -3712,20 +2549,13 @@
             }
           }
         }
-      ],
-      "obsolete": {
-        "from": null,
-        "to": {
-          "state": "Pending",
-          "tag": "25.0",
-          "reason": "Source Code Setup is moved to Business Foundation"
-        }
-      }
+      ]
     },
     {
       "key": "table/262",
       "name": "Intrastat Jnl. Batch",
       "change": "replaced",
+      "ns": "Microsoft.Inventory.Intrastat",
       "fields": [
         {
           "id": "13400",
@@ -3761,6 +2591,7 @@
       "key": "table/263",
       "name": "Intrastat Jnl. Line",
       "change": "replaced",
+      "ns": "Microsoft.Inventory.Intrastat",
       "fields": [
         {
           "id": "13400",
@@ -3798,6 +2629,7 @@
       "key": "table/287",
       "name": "Customer Bank Account",
       "change": "replaced",
+      "ns": "Microsoft.Sales.Customer",
       "fields": [
         {
           "id": "14",
@@ -3873,6 +2705,7 @@
       "key": "table/288",
       "name": "Vendor Bank Account",
       "change": "replaced",
+      "ns": "Microsoft.Purchases.Vendor",
       "fields": [
         {
           "id": "14",
@@ -3962,6 +2795,7 @@
       "key": "table/296",
       "name": "Reminder Line",
       "change": "replaced",
+      "ns": "Microsoft.Sales.Reminder",
       "fields": [
         {
           "id": "32000000",
@@ -3983,6 +2817,7 @@
       "key": "table/297",
       "name": "Issued Reminder Header",
       "change": "replaced",
+      "ns": "Microsoft.Sales.Reminder",
       "fields": [
         {
           "id": "32000000",
@@ -4004,6 +2839,7 @@
       "key": "table/298",
       "name": "Issued Reminder Line",
       "change": "replaced",
+      "ns": "Microsoft.Sales.Reminder",
       "fields": [
         {
           "id": "32000000",
@@ -4025,6 +2861,7 @@
       "key": "table/311",
       "name": "Sales & Receivables Setup",
       "change": "replaced",
+      "ns": "Microsoft.Sales.Setup",
       "fields": [
         {
           "id": "32000000",
@@ -4117,6 +2954,7 @@
       "key": "table/312",
       "name": "Purchases & Payables Setup",
       "change": "replaced",
+      "ns": "Microsoft.Purchases.Setup",
       "fields": [
         {
           "id": "32000000",
@@ -4139,6 +2977,7 @@
       "key": "table/317",
       "name": "Payable Vendor Ledger Entry",
       "change": "replaced",
+      "ns": "Microsoft.Purchases.Payables",
       "fields": [
         {
           "id": "32000000",
@@ -4160,6 +2999,7 @@
       "key": "table/323",
       "name": "VAT Business Posting Group",
       "change": "replaced",
+      "ns": "Microsoft.Finance.VAT.Setup",
       "fields": [
         {
           "id": "13400",
@@ -4190,6 +3030,7 @@
       "key": "table/324",
       "name": "VAT Product Posting Group",
       "change": "replaced",
+      "ns": "Microsoft.Finance.VAT.Setup",
       "fields": [
         {
           "id": "13400",
@@ -4220,6 +3061,7 @@
       "key": "table/372",
       "name": "Payment Buffer",
       "change": "replaced",
+      "ns": "Microsoft.Purchases.Payables",
       "fields": [
         {
           "id": "32000000",
@@ -4341,6 +3183,7 @@
       "key": "table/475",
       "name": "Vendor Payment Buffer",
       "change": "replaced",
+      "ns": "Microsoft.Purchases.Payables",
       "fields": [
         {
           "id": "32000000",
@@ -4468,6 +3311,7 @@
       "key": "table/1383",
       "name": "Vendor Templ.",
       "change": "replaced",
+      "ns": "Microsoft.Purchases.Vendor",
       "fields": [
         {
           "id": "14",
@@ -4515,6 +3359,7 @@
       "key": "table/5601",
       "name": "FA Ledger Entry",
       "change": "replaced",
+      "ns": "Microsoft.FixedAssets.Ledger",
       "fields": [
         {
           "id": "13400",
@@ -4556,6 +3401,7 @@
       "key": "table/5606",
       "name": "FA Posting Group",
       "change": "replaced",
+      "ns": "Microsoft.FixedAssets.FixedAsset",
       "fields": [
         {
           "id": "13400",
@@ -4592,57 +3438,68 @@
     {
       "key": "table/11203",
       "name": "Automatic Acc. Header",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.AutomaticAccounts"
     },
     {
       "key": "table/11204",
       "name": "Automatic Acc. Line",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.AutomaticAccounts"
     },
     {
       "key": "table/13400",
       "name": "Intrastat - File Setup",
-      "change": "added"
+      "change": "added",
+      "ns": null
     },
     {
       "key": "table/13401",
       "name": "Depr. Diff. Posting Buffer",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.FixedAssets.Depreciation"
     },
     {
       "key": "table/32000000",
       "name": "Reference File Setup",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Setup"
     },
     {
       "key": "table/32000001",
       "name": "Ref. Payment - Imported",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "table/32000002",
       "name": "Ref. Payment - Exported",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "table/32000003",
       "name": "Foreign Payment Types",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "table/32000004",
       "name": "Ref. Payment - Exported Buffer",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "tableextension/13400",
       "name": "SourceCodeSetupFI",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Foundation.AuditCodes"
     },
     {
       "key": "tableextension/13410",
       "name": "Service Invoice Header FI",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Service.History"
     }
   ]
 }

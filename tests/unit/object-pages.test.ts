@@ -45,6 +45,8 @@ test("object and localization pages: valid frontmatter, cross-links that resolve
   assert.deepEqual([ext.data.versions.introduced, ext.data.links.objects], ["29", ["object/table/18"]]);
   assert.deepEqual(matter(readFileSync(join(contentDir, "objects/page/21.md"), "utf8")).data.links.learn, ["https://learn/customer"]);
   const be = matter(readFileSync(join(contentDir, "localizations/be.md"), "utf8"));
+  assert.match(be.content, /## By area\n\n\| Area \| W1 objects changed \| Own objects \| Fields added \|\n\|---\|---\|---\|---\|\n\| \(no namespace\) \| 1 \| 1 \| 1 \|/);
+  assert.ok(existsSync(join(dataDir, "code/diffs/country/matrix.json")), "country matrix written by the derived step");
   assert.deepEqual([be.data.country, be.data.added_objects, be.data.replaced_objects, be.data.added_fields], ["BE", 1, 1, 1]);
   assert.ok(existsSync(join(contentDir, "objects/table/llms.txt")) && existsSync(join(contentDir, "localizations/llms.txt")));
   assert.deepEqual(validateContent(contentDir).errors, []);

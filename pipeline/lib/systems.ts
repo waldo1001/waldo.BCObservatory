@@ -16,3 +16,9 @@ export function objectSystem(namespace: string | null | undefined): string {
   for (const p of parts.slice(1)) if (NS_SYSTEM[p]) return NS_SYSTEM[p];
   return "development";
 }
+
+/** Area of an object for grouping: the first namespace segment after the vendor ("Microsoft.Sales.Customer" -> "Sales"), else its app. */
+export function areaOf(namespace: string | null | undefined, app: string | null | undefined): string {
+  if (namespace) { const p = namespace.split("."); return (p[0] === "Microsoft" || p[0] === "System" ? p[1] : p[0]) ?? p[0]; }
+  return app ?? "(no namespace)";
+}

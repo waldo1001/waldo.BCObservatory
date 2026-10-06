@@ -1,10 +1,10 @@
 {
   "inputs": [
-    2,
+    5,
     [
       "d7c9c667c671da2cda3a0738b18ed99ca4181765",
       "d7c9c667c671da2cda3a0738b18ed99ca4181765",
-      "1",
+      "2",
       []
     ]
   ],
@@ -47,13 +47,14 @@
     "fields_added": 829,
     "events_added": 92,
     "procedures_added": 337,
-    "objects_obsoleted": 1
+    "objects_obsoleted": 0
   },
   "objects": [
     {
       "key": "codeunit/11",
       "name": "Gen. Jnl.-Check Line",
       "change": "replaced",
+      "ns": "Microsoft.Finance.GeneralLedger.Journal",
       "procedures": [
         {
           "id": "checkoperationoccurreddate(record \"gen. journal line\")",
@@ -257,6 +258,7 @@
       "key": "codeunit/12",
       "name": "Gen. Jnl.-Post Line",
       "change": "replaced",
+      "ns": "Microsoft.Finance.GeneralLedger.Posting",
       "procedures": [
         {
           "id": "findnextoldcustledgentrytoapply(record \"gen. journal line\",record \"cust. ledger entry\" temporary,record \"cv ledger entry buffer\",record \"payment terms\")",
@@ -2945,6 +2947,7 @@
       "key": "codeunit/80",
       "name": "Sales-Post",
       "change": "replaced",
+      "ns": "Microsoft.Sales.Posting",
       "procedures": [
         {
           "id": "posticgenjnl(code[6])",
@@ -3399,6 +3402,7 @@
       "key": "codeunit/90",
       "name": "Purch.-Post",
       "change": "replaced",
+      "ns": "Microsoft.Purchases.Posting",
       "procedures": [
         {
           "id": "calcinvoice(record \"purchase header\",boolean)",
@@ -4143,6 +4147,7 @@
       "key": "codeunit/96",
       "name": "Purch.-Quote to Order",
       "change": "replaced",
+      "ns": "Microsoft.Purchases.Document",
       "procedures": [
         {
           "id": "insertpurchaseheader(record \"purchase header\")",
@@ -4170,6 +4175,7 @@
       "key": "codeunit/97",
       "name": "Blanket Purch. Order to Order",
       "change": "replaced",
+      "ns": "Microsoft.Purchases.Document",
       "procedures": [
         {
           "id": "insertpurchaseheader(record \"purchase header\")",
@@ -4197,6 +4203,7 @@
       "key": "codeunit/103",
       "name": "Cust. Entry-Edit",
       "change": "replaced",
+      "ns": "Microsoft.Sales.Receivables",
       "procedures": [
         {
           "id": "updatefrompaymentmethodandbill(code[10],record \"cust. ledger entry\")",
@@ -4229,6 +4236,7 @@
       "key": "codeunit/224",
       "name": "EmplEntry-Apply Posted Entries",
       "change": "replaced",
+      "ns": "Microsoft.HumanResources.Payables",
       "procedures": [
         {
           "id": "checkvatsettlement(integer,date)",
@@ -4281,6 +4289,7 @@
       "key": "codeunit/226",
       "name": "CustEntry-Apply Posted Entries",
       "change": "replaced",
+      "ns": "Microsoft.Sales.Receivables",
       "procedures": [
         {
           "id": "setcheckdim(boolean)",
@@ -4353,6 +4362,7 @@
       "key": "codeunit/227",
       "name": "VendEntry-Apply Posted Entries",
       "change": "replaced",
+      "ns": "Microsoft.Purchases.Payables",
       "procedures": [
         {
           "id": "checkvatsettlement(integer,date)",
@@ -4404,12 +4414,14 @@
     {
       "key": "codeunit/355",
       "name": "Local Navigate Handler",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Foundation.Navigate"
     },
     {
       "key": "codeunit/391",
       "name": "Shipment Header - Edit",
       "change": "replaced",
+      "ns": "Microsoft.Sales.History",
       "properties": [
         {
           "name": "Permissions",
@@ -4532,6 +4544,7 @@
       "key": "codeunit/393",
       "name": "Reminder-Issue",
       "change": "replaced",
+      "ns": "Microsoft.Sales.Reminder",
       "procedures": [
         {
           "id": "checkvatdate(record \"reminder header\")",
@@ -4559,6 +4572,7 @@
       "key": "codeunit/395",
       "name": "FinChrgMemo-Issue",
       "change": "replaced",
+      "ns": "Microsoft.Sales.FinanceCharge",
       "procedures": [
         {
           "id": "checkvatdate(record \"finance charge memo header\")",
@@ -4586,6 +4600,7 @@
       "key": "codeunit/411",
       "name": "Dimension Buffer Management",
       "change": "replaced",
+      "ns": "Microsoft.Finance.Dimension",
       "procedures": [
         {
           "id": "retrievedimensionsbyparentid(integer,record \"dimension buffer\")",
@@ -4625,6 +4640,7 @@
       "key": "codeunit/426",
       "name": "Payment Tolerance Management",
       "change": "replaced",
+      "ns": "Microsoft.Finance.ReceivablesPayables",
       "procedures": [
         {
           "id": "setincludewht()",
@@ -4725,6 +4741,7 @@
       "key": "codeunit/442",
       "name": "Sales-Post Prepayments",
       "change": "replaced",
+      "ns": "Microsoft.Sales.Posting",
       "procedures": [
         {
           "id": "getprepmtaccno(code[20],code[20])",
@@ -4922,6 +4939,7 @@
       "key": "codeunit/444",
       "name": "Purchase-Post Prepayments",
       "change": "replaced",
+      "ns": "Microsoft.Purchases.Posting",
       "procedures": [
         {
           "id": "getprepmtaccno(code[20],code[20])",
@@ -5139,6 +5157,7 @@
       "key": "codeunit/737",
       "name": "VAT Report Mgt.",
       "change": "replaced",
+      "ns": "Microsoft.Finance.VAT.Reporting",
       "procedures": [
         {
           "id": "onopenvatreturnperiodlistpageevent(record \"vat return period\")",
@@ -5645,6 +5664,7 @@
       "key": "codeunit/740",
       "name": "VAT Report Mediator",
       "change": "replaced",
+      "ns": "Microsoft.Finance.VAT.Reporting",
       "procedures": [
         {
           "id": "showrequestpage(record \"vat report header\")",
@@ -5792,6 +5812,7 @@
       "key": "codeunit/743",
       "name": "VAT Report Export",
       "change": "replaced",
+      "ns": "Microsoft.Finance.VAT.Reporting",
       "procedures": [
         {
           "id": "exportreleased(record \"vat report header\")",
@@ -5872,6 +5893,7 @@
       "key": "codeunit/744",
       "name": "VAT Report Validate",
       "change": "replaced",
+      "ns": "Microsoft.Finance.VAT.Reporting",
       "procedures": [
         {
           "id": "validatevatreportheader(record \"vat report header\")",
@@ -6131,6 +6153,7 @@
       "key": "codeunit/815",
       "name": "Sales Post Invoice",
       "change": "replaced",
+      "ns": "Microsoft.Sales.Posting",
       "procedures": [
         {
           "id": "setamountsforbalancingentry(record \"sales header\",record \"cust. ledger entry\",record \"gen. journal line\",decimal)",
@@ -6203,6 +6226,7 @@
       "key": "codeunit/816",
       "name": "Purch. Post Invoice",
       "change": "replaced",
+      "ns": "Microsoft.Purchases.Posting",
       "procedures": [
         {
           "id": "createtempfa(record \"gen. journal line\",integer)",
@@ -6247,6 +6271,7 @@
       "key": "codeunit/1004",
       "name": "Job Transfer Line",
       "change": "replaced",
+      "ns": "Microsoft.Projects.Project.Journal",
       "procedures": [
         {
           "id": "calcrevchargevatamount(record \"purchase line\")",
@@ -6354,6 +6379,7 @@
       "key": "codeunit/1221",
       "name": "SEPA CT-Fill Export Buffer",
       "change": "replaced",
+      "ns": "Microsoft.Bank.DirectDebit",
       "procedures": [
         {
           "id": "fillexportbuffer(record \"gen. journal line\",record \"payment export data\",option pain,cbi,amc)",
@@ -6416,6 +6442,7 @@
       "key": "codeunit/1222",
       "name": "SEPA CT-Prepare Source",
       "change": "replaced",
+      "ns": "Microsoft.Bank.DirectDebit",
       "procedures": [
         {
           "id": "inserttempgenjnlline(record \"gen. journal line\" temporary,record \"vendor bill header\",record \"vendor bill line\",decimal,integer)",
@@ -6498,6 +6525,7 @@
       "key": "codeunit/1232",
       "name": "SEPA DD-Prepare Source",
       "change": "replaced",
+      "ns": "Microsoft.Bank.DirectDebit",
       "procedures": [
         {
           "id": "copyfromcustbillheader(record \"direct debit collection entry\" temporary,record \"direct debit collection\")",
@@ -6555,6 +6583,7 @@
       "key": "codeunit/1313",
       "name": "Correct Posted Purch. Invoice",
       "change": "replaced",
+      "ns": "Microsoft.Purchases.History",
       "procedures": [
         {
           "id": "updatechecktotal(record \"purchase header\")",
@@ -6715,6 +6744,7 @@
       "key": "codeunit/5610",
       "name": "Calculate Depreciation",
       "change": "replaced",
+      "ns": "Microsoft.FixedAssets.Depreciation",
       "procedures": [
         {
           "id": "calculate(decimal,decimal,integer,integer,code[20],code[10],date,array[4] of decimal,date,integer,boolean,boolean,decimal,decimal,decimal)",
@@ -6812,6 +6842,7 @@
       "key": "codeunit/5611",
       "name": "Calculate Normal Depreciation",
       "change": "replaced",
+      "ns": "Microsoft.FixedAssets.Depreciation",
       "procedures": [
         {
           "id": "calculate(decimal,integer,code[20],code[10],date,array[4] of decimal,date,integer,boolean,boolean,decimal,decimal,decimal,decimal)",
@@ -6904,6 +6935,7 @@
       "key": "codeunit/5618",
       "name": "Table Depr. Calculation",
       "change": "replaced",
+      "ns": "Microsoft.FixedAssets.Depreciation",
       "procedures": [
         {
           "id": "gettablepercent(code[10],code[10],date,date,date,option normal,custom1,custom2)",
@@ -6956,6 +6988,7 @@
       "key": "codeunit/5626",
       "name": "FA General Report",
       "change": "replaced",
+      "ns": "Microsoft.FixedAssets.FixedAsset",
       "procedures": [
         {
           "id": "setaquisitiondate(record \"fixed asset\",code[10])",
@@ -7080,6 +7113,7 @@
       "key": "codeunit/5633",
       "name": "FA Jnl.-Post Batch",
       "change": "replaced",
+      "ns": "Microsoft.FixedAssets.Posting",
       "procedures": [
         {
           "id": "createcompresstable(record \"fa journal line\")",
@@ -7508,6 +7542,7 @@
       "key": "codeunit/5704",
       "name": "TransferOrder-Post Shipment",
       "change": "replaced",
+      "ns": "Microsoft.Inventory.Transfer",
       "procedures": [
         {
           "id": "postwipitemjnlline(record \"transfer line\",record \"transfer shipment header\",record \"transfer shipment line\")",
@@ -7614,6 +7649,7 @@
       "key": "codeunit/5705",
       "name": "TransferOrder-Post Receipt",
       "change": "replaced",
+      "ns": "Microsoft.Inventory.Transfer",
       "events": [
         {
           "id": "oninserttransrcptlineonbeforeupdatesubcontractpurchorderline(record \"transfer receipt header\",record \"transfer receipt line\",record \"transfer line\",boolean)",
@@ -7674,12 +7710,14 @@
     {
       "key": "codeunit/5708",
       "name": "Release Transfer Document",
-      "change": "replaced"
+      "change": "replaced",
+      "ns": "Microsoft.Inventory.Transfer"
     },
     {
       "key": "codeunit/5812",
       "name": "Calculate Standard Cost",
       "change": "replaced",
+      "ns": "Microsoft.Manufacturing.StandardCost",
       "procedures": [
         {
           "id": "calcrtngcostsku(record item,code[20],decimal,decimal,decimal,decimal)",
@@ -8214,6 +8252,7 @@
       "key": "codeunit/5980",
       "name": "Service-Post",
       "change": "replaced",
+      "ns": "Microsoft.Service.Posting",
       "procedures": [
         {
           "id": "validateincludeinvatreport(record \"service header\")",
@@ -8241,6 +8280,7 @@
       "key": "codeunit/5988",
       "name": "Serv-Documents Mgt.",
       "change": "replaced",
+      "ns": "Microsoft.Service.Posting",
       "procedures": [
         {
           "id": "finalizedeletepmttermlines()",
@@ -8289,6 +8329,7 @@
       "key": "codeunit/9181",
       "name": "Application Area Localization",
       "change": "replaced",
+      "ns": "System.Environment.Configuration",
       "procedures": [
         {
           "id": "ongetpremiumexperienceappareas(record \"application area setup\" temporary)",
@@ -8352,12 +8393,14 @@
     {
       "key": "codeunit/9997",
       "name": "Upgrade Tag Def - Country",
-      "change": "added"
+      "change": "added",
+      "ns": null
     },
     {
       "key": "codeunit/9998",
       "name": "Upgrade Tag Definitions",
       "change": "replaced",
+      "ns": "Microsoft.Upgrade",
       "procedures": [
         {
           "id": "getlegacysubcontractingupgradetag()",
@@ -8378,222 +8421,266 @@
     {
       "key": "codeunit/12100",
       "name": "Feature Management IT",
-      "change": "added"
+      "change": "added",
+      "ns": "System.Environment.Configuration"
     },
     {
       "key": "codeunit/12101",
       "name": "Withholding - Contribution",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.WithholdingTax"
     },
     {
       "key": "codeunit/12104",
       "name": "LocalApplicationManagement",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Utilities"
     },
     {
       "key": "codeunit/12109",
       "name": "Serv. Local Integration IT",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Service.Integration"
     },
     {
       "key": "codeunit/12112",
       "name": "IT - Report Management",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Utilities"
     },
     {
       "key": "codeunit/12131",
       "name": "Spesometro Export",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Reporting"
     },
     {
       "key": "codeunit/12132",
       "name": "Withholding Tax Export",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.WithholdingTax"
     },
     {
       "key": "codeunit/12133",
       "name": "Flat File Management",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft"
     },
     {
       "key": "codeunit/12134",
       "name": "Declaration of Intent Export",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Reporting"
     },
     {
       "key": "codeunit/12136",
       "name": "VATSettl ActCode FeatDataUpd",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Reporting"
     },
     {
       "key": "codeunit/12140",
       "name": "Serv. Document Mgt. IT",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Service.Document"
     },
     {
       "key": "codeunit/12148",
       "name": "No. Series IT",
-      "change": "added"
+      "change": "added",
+      "ns": null
     },
     {
       "key": "codeunit/12150",
       "name": "VAT Pmt. Comm. XML Generator",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Reporting"
     },
     {
       "key": "codeunit/12151",
       "name": "VAT Pmt. Comm. Data Lookup",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Reporting"
     },
     {
       "key": "codeunit/12152",
       "name": "SubcontractingManagement",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Manufacturing.Document"
     },
     {
       "key": "codeunit/12153",
       "name": "SubcontractingPricesMgt",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Manufacturing.Document"
     },
     {
       "key": "codeunit/12170",
       "name": "Recall Customer Bill",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "codeunit/12171",
       "name": "Vend. Bill List-Change Status",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "codeunit/12172",
       "name": "Customer Bill - Post + Print",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "codeunit/12173",
       "name": "Vendor Bill List - Post",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "codeunit/12174",
       "name": "Incl. in VAT Report Validation",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Reporting"
     },
     {
       "key": "codeunit/12175",
       "name": "Vendor Bills Floppy",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "codeunit/12176",
       "name": "Customer Bills Floppy",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "codeunit/12177",
       "name": "SEPA - DD Export Mgt.",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.DirectDebit"
     },
     {
       "key": "codeunit/12178",
       "name": "SEPA CT CBI-Check Line",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.DirectDebit"
     },
     {
       "key": "codeunit/12179",
       "name": "Export FatturaPA Document",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "codeunit/12180",
       "name": "FatturaPA Sales Validation",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "codeunit/12181",
       "name": "FatturaPA Service Validation",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "codeunit/12182",
       "name": "Datifattura Export",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Reporting"
     },
     {
       "key": "codeunit/12183",
       "name": "Datifattura Validate",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Reporting"
     },
     {
       "key": "codeunit/12184",
       "name": "Fattura Doc. Helper",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "codeunit/12185",
       "name": "Export Self-Billing Documents",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "codeunit/12186",
       "name": "Sales Invoice Header - Edit",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Sales.History"
     },
     {
       "key": "codeunit/12187",
       "name": "Service Invoice Header - Edit",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Service.History"
     },
     {
       "key": "codeunit/12188",
       "name": "Service Cr. Memo Header - Edit",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Service.History"
     },
     {
       "key": "codeunit/12189",
       "name": "Serv. Fattura Subscribers",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "codeunit/12191",
       "name": "Serv. Shipment Header - Edit",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Service.History"
     },
     {
       "key": "codeunit/12192",
       "name": "Serv. Payment Lines Mgt.",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Foundation.PaymentTerms"
     },
     {
       "key": "codeunit/12193",
       "name": "Serv. VAT Report Validation",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Reporting"
     },
     {
       "key": "codeunit/12195",
       "name": "Periodic VAT Settlement",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Reporting"
     },
     {
       "key": "codeunit/12196",
       "name": "Company Initialize IT",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Foundation.Company"
     },
     {
       "key": "codeunit/12197",
       "name": "Service Company Initialize IT",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Service.Setup"
     },
     {
       "key": "codeunit/12261",
       "name": "Service History Subscr. IT",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Service.History"
     },
     {
       "key": "codeunit/104000",
       "name": "Upgrade - BaseApp",
       "change": "replaced",
+      "ns": "Microsoft.Upgrade",
       "procedures": [
         {
           "id": "upgradenoseriesit()",
@@ -8732,17 +8819,20 @@
     {
       "key": "codeunit/104151",
       "name": "UPG.IT Detailed Ledger Entries",
-      "change": "added"
+      "change": "added",
+      "ns": null
     },
     {
       "key": "codeunit/104153",
       "name": "UPG Per. VAT Settl. Entry IT",
-      "change": "added"
+      "change": "added",
+      "ns": null
     },
     {
       "key": "codeunit/99000752",
       "name": "Check Routing Lines",
       "change": "replaced",
+      "ns": "Microsoft.Manufacturing.Routing",
       "procedures": [
         {
           "id": "checkroutinglineworkcenterfields(record \"routing line\")",
@@ -8816,6 +8906,7 @@
       "key": "codeunit/99000760",
       "name": "Mfg. Item Jnl. Check Line",
       "change": "replaced",
+      "ns": "Microsoft.Inventory.Journal",
       "procedures": [
         {
           "id": "oncheckdimensionsonaftersettablevalues(record \"item journal line\",array[10] of integer,array[10] of code[20])",
@@ -9218,6 +9309,7 @@
       "key": "codeunit/99000819",
       "name": "Mfg. Planning Line Management",
       "change": "replaced",
+      "ns": "Microsoft.Inventory.Planning",
       "procedures": [
         {
           "id": "oncalculateontransferbom(record \"requisition line\",record item,record \"planning component\",record \"planning error log\" temporary,record \"planning component\" temporary,record \"stockkeeping unit\",boolean,integer,boolean)",
@@ -9739,6 +9831,7 @@
       "key": "codeunit/99000866",
       "name": "Mfg. Requisition Line",
       "change": "replaced",
+      "ns": "Microsoft.Inventory.Requisition",
       "procedures": [
         {
           "id": "onvalidatevendornoonbeforelookupvendor(record \"requisition line\",boolean)",
@@ -9871,22 +9964,26 @@
     {
       "key": "codeunit/99008501",
       "name": "Legacy Subc. Feature Handler",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Manufacturing.Setup"
     },
     {
       "key": "codeunit/99008502",
       "name": "Legacy Subc. Upgrade",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Manufacturing.Setup"
     },
     {
       "key": "codeunit/99008503",
       "name": "Legacy Subc. Install",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Manufacturing.Setup"
     },
     {
       "key": "enum/6",
       "name": "Gen. Journal Document Type",
       "change": "replaced",
+      "ns": "Microsoft.Finance.GeneralLedger.Journal",
       "values": [
         {
           "id": "10",
@@ -9903,6 +10000,7 @@
       "key": "enum/256",
       "name": "VAT Statement Line Type",
       "change": "replaced",
+      "ns": "Microsoft.Finance.VAT.Reporting",
       "values": [
         {
           "id": "11",
@@ -9919,6 +10017,7 @@
       "key": "enum/258",
       "name": "VAT Statement Line Amount Type",
       "change": "replaced",
+      "ns": "Microsoft.Finance.VAT.Reporting",
       "values": [
         {
           "id": "5",
@@ -9935,6 +10034,7 @@
       "key": "enum/264",
       "name": "Intrastat Source Type",
       "change": "replaced",
+      "ns": "Microsoft.Inventory.Intrastat",
       "values": [
         {
           "id": "0",
@@ -9963,52 +10063,62 @@
     {
       "key": "enum/12116",
       "name": "Withholding Tax Reason",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.WithholdingTax"
     },
     {
       "key": "enum/12145",
       "name": "No. Series Type",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Foundation.NoSeries"
     },
     {
       "key": "enum/12170",
       "name": "Payment Lines Document Type",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Foundation.PaymentTerms"
     },
     {
       "key": "enum/12174",
       "name": "Customer Bill Type",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "enum/12192",
       "name": "Period Source Type",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Purchases.Setup"
     },
     {
       "key": "enum/12198",
       "name": "Fattura Code Type",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "enum/12200",
       "name": "Fattura Entry Type",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "enum/13115",
       "name": "Non-Taxable Income Type",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.WithholdingTax"
     },
     {
       "key": "enumextension/12136",
       "name": "FeatureUpd VATSettl Act. Code",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Reporting"
     },
     {
       "key": "page/41",
       "name": "Sales Quote",
       "change": "replaced",
+      "ns": "Microsoft.Sales.Document",
       "procedures": [
         {
           "id": "setisactivitycodemandatory()",
@@ -10030,6 +10140,7 @@
       "key": "page/42",
       "name": "Sales Order",
       "change": "replaced",
+      "ns": "Microsoft.Sales.Document",
       "procedures": [
         {
           "id": "setisactivitycodemandatory()",
@@ -10093,6 +10204,7 @@
       "key": "page/43",
       "name": "Sales Invoice",
       "change": "replaced",
+      "ns": "Microsoft.Sales.Document",
       "procedures": [
         {
           "id": "setisactivitycodemandatory()",
@@ -10128,6 +10240,7 @@
       "key": "page/44",
       "name": "Sales Credit Memo",
       "change": "replaced",
+      "ns": "Microsoft.Sales.Document",
       "procedures": [
         {
           "id": "setisactivitycodemandatory()",
@@ -10177,6 +10290,7 @@
       "key": "page/47",
       "name": "Sales Invoice Subform",
       "change": "replaced",
+      "ns": "Microsoft.Sales.Document",
       "procedures": [
         {
           "id": "updatesplitvatlinespage(text[100])",
@@ -10210,6 +10324,7 @@
       "key": "page/49",
       "name": "Purchase Quote",
       "change": "replaced",
+      "ns": "Microsoft.Purchases.Document",
       "procedures": [
         {
           "id": "setisactivitycodemandatory()",
@@ -10231,6 +10346,7 @@
       "key": "page/50",
       "name": "Purchase Order",
       "change": "replaced",
+      "ns": "Microsoft.Purchases.Document",
       "procedures": [
         {
           "id": "setisactivitycodemandatory()",
@@ -10308,6 +10424,7 @@
       "key": "page/51",
       "name": "Purchase Invoice",
       "change": "replaced",
+      "ns": "Microsoft.Purchases.Document",
       "procedures": [
         {
           "id": "setisactivitycodemandatory()",
@@ -10357,6 +10474,7 @@
       "key": "page/52",
       "name": "Purchase Credit Memo",
       "change": "replaced",
+      "ns": "Microsoft.Purchases.Document",
       "procedures": [
         {
           "id": "setisactivitycodemandatory()",
@@ -10406,6 +10524,7 @@
       "key": "page/96",
       "name": "Sales Cr. Memo Subform",
       "change": "replaced",
+      "ns": "Microsoft.Sales.Document",
       "procedures": [
         {
           "id": "updatesplitvatlinespage(text[100])",
@@ -10433,6 +10552,7 @@
       "key": "page/321",
       "name": "ECSL Report",
       "change": "replaced",
+      "ns": "Microsoft.Finance.VAT.Reporting",
       "properties": [
         {
           "name": "DataCaptionExpression",
@@ -10548,6 +10668,7 @@
       "key": "page/323",
       "name": "EC Sales List Reports",
       "change": "replaced",
+      "ns": "Microsoft.Finance.VAT.Reporting",
       "properties": [
         {
           "name": "ApplicationArea",
@@ -10576,6 +10697,7 @@
       "key": "page/475",
       "name": "VAT Statement Preview Line",
       "change": "replaced",
+      "ns": "Microsoft.Finance.VAT.Reporting",
       "procedures": [
         {
           "id": "updateform(record \"vat statement name\",enum \"vat statement report selection\",enum \"vat statement report period selection\",boolean,code[10])",
@@ -10896,6 +11018,7 @@
       "key": "page/507",
       "name": "Blanket Sales Order",
       "change": "replaced",
+      "ns": "Microsoft.Sales.Document",
       "procedures": [
         {
           "id": "setisactivitycodemandatory()",
@@ -10937,6 +11060,7 @@
       "key": "page/509",
       "name": "Blanket Purchase Order",
       "change": "replaced",
+      "ns": "Microsoft.Purchases.Document",
       "procedures": [
         {
           "id": "setisactivitycodemandatory()",
@@ -10978,6 +11102,7 @@
       "key": "page/740",
       "name": "VAT Report",
       "change": "replaced",
+      "ns": "Microsoft.Finance.VAT.Reporting",
       "properties": [
         {
           "name": "Caption",
@@ -11170,6 +11295,7 @@
       "key": "page/744",
       "name": "VAT Report List",
       "change": "replaced",
+      "ns": "Microsoft.Finance.VAT.Reporting",
       "properties": [
         {
           "name": "Caption",
@@ -11194,6 +11320,7 @@
       "key": "page/5660",
       "name": "Depreciation Table Lines",
       "change": "replaced",
+      "ns": "Microsoft.FixedAssets.Depreciation",
       "procedures": [
         {
           "id": "calcdeprperc(code[10])",
@@ -11235,6 +11362,7 @@
       "key": "page/5740",
       "name": "Transfer Order",
       "change": "replaced",
+      "ns": "Microsoft.Inventory.Transfer",
       "properties": [
         {
           "name": "SourceTableView",
@@ -11247,6 +11375,7 @@
       "key": "page/5742",
       "name": "Transfer Orders",
       "change": "replaced",
+      "ns": "Microsoft.Inventory.Transfer",
       "triggers": {
         "added": [
           "OnOpenPage"
@@ -11258,6 +11387,7 @@
       "key": "page/6630",
       "name": "Sales Return Order",
       "change": "replaced",
+      "ns": "Microsoft.Sales.Document",
       "procedures": [
         {
           "id": "setisactivitycodemandatory()",
@@ -11307,6 +11437,7 @@
       "key": "page/6640",
       "name": "Purchase Return Order",
       "change": "replaced",
+      "ns": "Microsoft.Purchases.Document",
       "procedures": [
         {
           "id": "setisactivitycodemandatory()",
@@ -11356,6 +11487,7 @@
       "key": "page/6650",
       "name": "Posted Return Shipment",
       "change": "replaced",
+      "ns": "Microsoft.Purchases.History",
       "triggers": {
         "added": [
           "OnModifyRecord"
@@ -11366,537 +11498,644 @@
     {
       "key": "page/12100",
       "name": "VAT Exemptions",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Setup"
     },
     {
       "key": "page/12101",
       "name": "Interest on Arrears",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.FinancialReports"
     },
     {
       "key": "page/12102",
       "name": "Subform Sent Vendor Bill Lines",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "page/12103",
       "name": "Withholding Tax Export",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.WithholdingTax"
     },
     {
       "key": "page/12104",
       "name": "Withhold Codes",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.WithholdingTax"
     },
     {
       "key": "page/12105",
       "name": "Withhold Code Lines",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.WithholdingTax"
     },
     {
       "key": "page/12106",
       "name": "Contribution Codes-INPS",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "page/12107",
       "name": "Contribution Code Lines",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "page/12108",
       "name": "Contribution Brackets",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "page/12109",
       "name": "Contribution Bracket Lines",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "page/12111",
       "name": "Show Computed Withh. Contrib.",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.WithholdingTax"
     },
     {
       "key": "page/12112",
       "name": "Withholding Tax Card",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.WithholdingTax"
     },
     {
       "key": "page/12113",
       "name": "Withholding Tax List",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.WithholdingTax"
     },
     {
       "key": "page/12114",
       "name": "Contribution Card",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "page/12115",
       "name": "Contribution List",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "page/12117",
       "name": "Before Start Item Cost",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Inventory.Costing"
     },
     {
       "key": "page/12118",
       "name": "Item Cost History List",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Inventory.Costing"
     },
     {
       "key": "page/12119",
       "name": "Customs Offices",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Inventory.Intrastat"
     },
     {
       "key": "page/12120",
       "name": "Spesometro Appointments",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Utilities"
     },
     {
       "key": "page/12121",
       "name": "Periodic VAT Settlement List",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Reporting"
     },
     {
       "key": "page/12122",
       "name": "Withholding Tax Payment List",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.WithholdingTax"
     },
     {
       "key": "page/12123",
       "name": "Periodic VAT Settlement Card",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Reporting"
     },
     {
       "key": "page/12124",
       "name": "Activity Codes",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Utilities"
     },
     {
       "key": "page/12125",
       "name": "Appointment Codes",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Utilities"
     },
     {
       "key": "page/12126",
       "name": "Annual VAT Communication",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Reporting"
     },
     {
       "key": "page/12127",
       "name": "Annual VAT Comm. Preview",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Reporting"
     },
     {
       "key": "page/12128",
       "name": "Lifo Category",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Inventory.Costing"
     },
     {
       "key": "page/12130",
       "name": "Lifo Band List",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Inventory.Costing"
     },
     {
       "key": "page/12131",
       "name": "Contribution Payment List",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "page/12132",
       "name": "Customs Authority Vendors",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Purchases.Vendor"
     },
     {
       "key": "page/12133",
       "name": "Withh. Taxes-Contribution Card",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.WithholdingTax"
     },
     {
       "key": "page/12134",
       "name": "Withholding Exceptional Events",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.WithholdingTax"
     },
     {
       "key": "page/12135",
       "name": "Computed Withholding Tax",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.WithholdingTax"
     },
     {
       "key": "page/12136",
       "name": "Computed Contribution",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "page/12137",
       "name": "Item Costing Setup",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Inventory.Costing"
     },
     {
       "key": "page/12140",
       "name": "VAT Identifier",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Setup"
     },
     {
       "key": "page/12141",
       "name": "VAT Book Entries",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Ledger"
     },
     {
       "key": "page/12143",
       "name": "GL Book Entries",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.GeneralLedger.Ledger"
     },
     {
       "key": "page/12144",
       "name": "Operation Types",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Foundation.NoSeries"
     },
     {
       "key": "page/12147",
       "name": "Customer Aging",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Sales.Reports"
     },
     {
       "key": "page/12148",
       "name": "Vendor Aging",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Purchases.Reports"
     },
     {
       "key": "page/12149",
       "name": "G/L Book Reprinting Info.",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.GeneralLedger.Setup"
     },
     {
       "key": "page/12150",
       "name": "VAT Register Reprinting Info.",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Ledger"
     },
     {
       "key": "page/12151",
       "name": "VAT Registers",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Ledger"
     },
     {
       "key": "page/12152",
       "name": "Subcontracting Order",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Manufacturing.Document"
     },
     {
       "key": "page/12153",
       "name": "Subcontracting Order Subform",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Manufacturing.Document"
     },
     {
       "key": "page/12154",
       "name": "Subcontr. Transfer Order",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Manufacturing.Document"
     },
     {
       "key": "page/12155",
       "name": "Subcontr.Transfer Ord. Subform",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Manufacturing.Document"
     },
     {
       "key": "page/12156",
       "name": "Subcontracting Prices",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Manufacturing.Document"
     },
     {
       "key": "page/12157",
       "name": "Transport Reason Codes",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Inventory.Setup"
     },
     {
       "key": "page/12158",
       "name": "Goods Appearance",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Inventory.Item"
     },
     {
       "key": "page/12159",
       "name": "Company Officials Card",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Foundation.Company"
     },
     {
       "key": "page/12160",
       "name": "Company Officials",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Foundation.Company"
     },
     {
       "key": "page/12161",
       "name": "Declaration of Intent Export",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Reporting"
     },
     {
       "key": "page/12165",
       "name": "Posted Transfer Shpt. - Update",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Inventory.Transfer"
     },
     {
       "key": "page/12166",
       "name": "Posted Service Shpt. - Update",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Service.History"
     },
     {
       "key": "page/12169",
       "name": "Company Types",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Foundation.Company"
     },
     {
       "key": "page/12170",
       "name": "Payment Terms Lines",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Foundation.PaymentTerms"
     },
     {
       "key": "page/12171",
       "name": "Payment Date Lines",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Foundation.PaymentTerms"
     },
     {
       "key": "page/12172",
       "name": "Posted Payments",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Foundation.PaymentTerms"
     },
     {
       "key": "page/12173",
       "name": "Fixed Due Dates",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Foundation.PaymentTerms"
     },
     {
       "key": "page/12174",
       "name": "Stop Payment Periods",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Foundation.PaymentTerms"
     },
     {
       "key": "page/12175",
       "name": "Customer Bill Card",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "page/12176",
       "name": "Subform Customer Bill Line",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "page/12178",
       "name": "List of Customer Bills",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "page/12179",
       "name": "ABI/CAB List",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.BankAccount"
     },
     {
       "key": "page/12180",
       "name": "Issued Customer Bill Card",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "page/12181",
       "name": "Subform Issued Cust.Bill Lines",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "page/12182",
       "name": "List of Issued Cust. Bills",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "page/12183",
       "name": "Bill Posting Group",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "page/12184",
       "name": "Bill",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "page/12185",
       "name": "Vendor Bill Card",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "page/12186",
       "name": "Subform Vendor Bill Lines",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "page/12187",
       "name": "VAT Plafond Periods",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Setup"
     },
     {
       "key": "page/12188",
       "name": "Manual vendor Payment Line",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "page/12189",
       "name": "Service Tariff Numbers",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Inventory.Intrastat"
     },
     {
       "key": "page/12190",
       "name": "Vendor Bill List Sent Card",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "page/12192",
       "name": "Posted Vendor Bill Card",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "page/12193",
       "name": "Subform Posted Vend Bill Lines",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "page/12194",
       "name": "List of Open Vendor Bills",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "page/12195",
       "name": "List of Posted Vend. Bill List",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "page/12196",
       "name": "List of Sent Vendor Bills",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "page/12197",
       "name": "Contribution Codes-INAIL",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "page/12198",
       "name": "Vendor Bill Withh. Tax",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "page/12199",
       "name": "VAT Transaction Report Amounts",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Reporting"
     },
     {
       "key": "page/12200",
       "name": "Fattura Codes",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "page/12201",
       "name": "Fattura Project Info",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "page/12202",
       "name": "VAT Transaction Nature",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.TransactionNature"
     },
     {
       "key": "page/12203",
       "name": "Self-Billing Documents",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "page/12204",
       "name": "Fattura Setup",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "page/12206",
       "name": "Fattura Document Type List",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "page/12210",
       "name": "Withholding Tax Lines",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.WithholdingTax"
     },
     {
       "key": "page/12211",
       "name": "Posted Sales Invoice - Update",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Sales.History"
     },
     {
       "key": "page/12212",
       "name": "Posted Serv. Invoice - Update",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Service.History"
     },
     {
       "key": "page/12213",
       "name": "Posted Serv. Cr. Memo - Update",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Service.History"
     },
     {
       "key": "page/12215",
       "name": "Periodic VAT Settl. Card",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Reporting"
     },
     {
       "key": "page/12216",
       "name": "Periodic VAT Settl. List",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Reporting"
     },
     {
       "key": "page/12217",
       "name": "Periodic VAT Split",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Reporting"
     },
     {
       "key": "page/35461",
       "name": "Customer Aging Matrix",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Sales.Reports"
     },
     {
       "key": "page/35463",
       "name": "Vendor Aging Matrix",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Purchases.Reports"
     },
     {
       "key": "page/35480",
       "name": "Customer Bill Information",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "page/35481",
       "name": "Issued Cust. Bill Information",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "page/35490",
       "name": "Subcontracting Order List",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Manufacturing.Document"
     },
     {
       "key": "page/35491",
       "name": "Subcontracting Transfer List",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Manufacturing.Document"
     },
     {
       "key": "page/35492",
       "name": "INPS Contribution List",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.WithholdingTax"
     },
     {
       "key": "page/35493",
       "name": "INAIL Contribution List",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.WithholdingTax"
     },
     {
       "key": "page/99000754",
       "name": "Work Center Card",
       "change": "replaced",
+      "ns": "Microsoft.Manufacturing.WorkCenter",
       "procedures": [
         {
           "id": "subcontractornoonaftervalidate()",
@@ -11918,6 +12157,7 @@
       "key": "page/99000755",
       "name": "Work Center List",
       "change": "replaced",
+      "ns": "Microsoft.Manufacturing.WorkCenter",
       "procedures": [
         {
           "id": "getselectionfilter()",
@@ -11939,6 +12179,7 @@
       "key": "page/99000765",
       "name": "Routing Lines",
       "change": "replaced",
+      "ns": "Microsoft.Manufacturing.Routing",
       "procedures": [
         {
           "id": "showsubcprices()",
@@ -11978,6 +12219,7 @@
       "key": "page/99000799",
       "name": "Standard Tasks",
       "change": "replaced",
+      "ns": "Microsoft.Manufacturing.Routing",
       "procedures": [
         {
           "id": "getselectionfilter()",
@@ -12006,6 +12248,7 @@
       "key": "page/99000886",
       "name": "Subcontracting Worksheet",
       "change": "replaced",
+      "ns": "Microsoft.Manufacturing.Journal",
       "properties": [
         {
           "name": "ApplicationArea",
@@ -12108,122 +12351,146 @@
     {
       "key": "pageextension/12140",
       "name": "Service Order Archive IT",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Service.Contract"
     },
     {
       "key": "pageextension/12141",
       "name": "Service Order Archive Lines IT",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Service.Contract"
     },
     {
       "key": "pageextension/12142",
       "name": "Service Quote Archive Lines IT",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Service.Contract"
     },
     {
       "key": "pageextension/12143",
       "name": "Service Contract IT",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Service.Contract"
     },
     {
       "key": "pageextension/12145",
       "name": "NoSeriesIT",
-      "change": "added"
+      "change": "added",
+      "ns": null
     },
     {
       "key": "pageextension/12150",
       "name": "Filed Service Contract IT",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Service.Contract"
     },
     {
       "key": "pageextension/12168",
       "name": "Posted Service Ship. Update IT",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Service.History"
     },
     {
       "key": "pageextension/12212",
       "name": "Posted Service Inv. Update IT",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Service.History"
     },
     {
       "key": "pageextension/12444",
       "name": "Service Credit Memo IT",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Service.Document"
     },
     {
       "key": "pageextension/12445",
       "name": "Service Credit Memo Subform IT",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Service.Document"
     },
     {
       "key": "pageextension/12446",
       "name": "Service Invoice IT",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Service.Document"
     },
     {
       "key": "pageextension/12447",
       "name": "Service Invoice Subform IT",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Service.Document"
     },
     {
       "key": "pageextension/12448",
       "name": "Service Item Wksh. Subform IT",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Service.Document"
     },
     {
       "key": "pageextension/12449",
       "name": "Service Lines IT",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Service.Document"
     },
     {
       "key": "pageextension/12451",
       "name": "Service Order IT",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Service.Document"
     },
     {
       "key": "pageextension/12452",
       "name": "Service Quote IT",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Service.Document"
     },
     {
       "key": "pageextension/12453",
       "name": "Posted Serv. Cr.Memo Subf. IT",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Service.History"
     },
     {
       "key": "pageextension/12454",
       "name": "Posted Service Credit Memo IT",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Service.History"
     },
     {
       "key": "pageextension/12455",
       "name": "Posted Service Credit Memos IT",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Service.History"
     },
     {
       "key": "pageextension/12456",
       "name": "Posted Service Invoice IT",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Service.History"
     },
     {
       "key": "pageextension/12458",
       "name": "Posted Service Inv. Subf. IT",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Service.History"
     },
     {
       "key": "pageextension/12460",
       "name": "Service Mgt. Setup IT",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Service.Setup"
     },
     {
       "key": "pageextension/12462",
       "name": "Posted Service Shipment IT",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Service.History"
     },
     {
       "key": "permissionset/1001",
       "name": "LOCAL",
       "change": "replaced",
+      "ns": "System.Security.AccessControl",
       "properties": [
         {
           "name": "Assignable",
@@ -12246,6 +12513,7 @@
       "key": "permissionset/1002",
       "name": "LOCAL READ",
       "change": "replaced",
+      "ns": "System.Security.AccessControl",
       "properties": [
         {
           "name": "Assignable",
@@ -12268,6 +12536,7 @@
       "key": "permissionset/9276",
       "name": "VAT Report - Edit",
       "change": "replaced",
+      "ns": "System.Security.AccessControl",
       "properties": [
         {
           "name": "Permissions",
@@ -12280,6 +12549,7 @@
       "key": "report/12",
       "name": "VAT Statement",
       "change": "replaced",
+      "ns": "Microsoft.Finance.VAT.Reporting",
       "procedures": [
         {
           "id": "calctotalamount(record \"vat statement line\",decimal)",
@@ -12832,6 +13102,7 @@
       "key": "report/20",
       "name": "Calc. and Post VAT Settlement",
       "change": "replaced",
+      "ns": "Microsoft.Finance.VAT.Reporting",
       "procedures": [
         {
           "id": "initializerequest(date,date,date,code[20],code[20],code[20],code[20],boolean,boolean)",
@@ -13768,6 +14039,7 @@
       "key": "report/202",
       "name": "Sales Document - Test",
       "change": "replaced",
+      "ns": "Microsoft.Sales.Reports",
       "procedures": [
         {
           "id": "freetypeexist()",
@@ -13810,6 +14082,7 @@
       "key": "report/740",
       "name": "VAT Report Print",
       "change": "replaced",
+      "ns": "Microsoft.Finance.VAT.Reporting",
       "properties": [
         {
           "name": "UseRequestPage",
@@ -13828,6 +14101,7 @@
       "key": "report/741",
       "name": "VAT Report Suggest Lines",
       "change": "replaced",
+      "ns": "Microsoft.Finance.VAT.Reporting",
       "properties": [
         {
           "name": "UseRequestPage",
@@ -14116,6 +14390,7 @@
       "key": "report/742",
       "name": "VAT Report Request Page",
       "change": "replaced",
+      "ns": "Microsoft.Finance.VAT.Reporting",
       "events": [
         {
           "id": "onaftersetperiodiseditable(record \"vat report header\",boolean)",
@@ -14227,6 +14502,7 @@
       "key": "report/5692",
       "name": "Calculate Depreciation",
       "change": "replaced",
+      "ns": "Microsoft.FixedAssets.Depreciation",
       "procedures": [
         {
           "id": "testdocumentno()",
@@ -14255,6 +14531,7 @@
       "key": "report/5911",
       "name": "Service - Invoice",
       "change": "replaced",
+      "ns": "Microsoft.Service.History",
       "procedures": [
         {
           "id": "cleanamountsinvatamountline()",
@@ -14276,6 +14553,7 @@
       "key": "report/5912",
       "name": "Service - Credit Memo",
       "change": "replaced",
+      "ns": "Microsoft.Service.History",
       "procedures": [
         {
           "id": "cleanamountsinvatamountline()",
@@ -14297,6 +14575,7 @@
       "key": "report/5915",
       "name": "Service Document - Test",
       "change": "replaced",
+      "ns": "Microsoft.Service.Reports",
       "procedures": [
         {
           "id": "cleanamountsinvatamountline()",
@@ -14318,6 +14597,7 @@
       "key": "report/6653",
       "name": "Combine Return Receipts",
       "change": "replaced",
+      "ns": "Microsoft.Sales.Document",
       "procedures": [
         {
           "id": "initializerequest(date,date,code[20],date,date,boolean,boolean)",
@@ -14504,257 +14784,308 @@
     {
       "key": "report/12101",
       "name": "Withholding Taxes",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.WithholdingTax"
     },
     {
       "key": "report/12102",
       "name": "Contribution",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "report/12103",
       "name": "Summary Withholding Payment",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.WithholdingTax"
     },
     {
       "key": "report/12104",
       "name": "Customer Sheet - Print",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Sales.Reports"
     },
     {
       "key": "report/12105",
       "name": "Compensation Details",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.WithholdingTax"
     },
     {
       "key": "report/12106",
       "name": "Certifications",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.WithholdingTax"
     },
     {
       "key": "report/12107",
       "name": "Calculate Interest on Arrears",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.FinancialReports"
     },
     {
       "key": "report/12108",
       "name": "VAT Register Grouped",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Reporting"
     },
     {
       "key": "report/12109",
       "name": "Account Book Sheet - Print",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.GeneralLedger.Reports"
     },
     {
       "key": "report/12110",
       "name": "Vendor Sheet - Print",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Purchases.Reports"
     },
     {
       "key": "report/12111",
       "name": "Denied Vendors List",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.FinancialReports"
     },
     {
       "key": "report/12112",
       "name": "Bank Sheet - Print",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Reports"
     },
     {
       "key": "report/12113",
       "name": "Close/Open Balance Sheet",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.GeneralLedger.Reports"
     },
     {
       "key": "report/12115",
       "name": "Calculate End Year Costs",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Inventory.Costing"
     },
     {
       "key": "report/12116",
       "name": "Vendor Account Bills List",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "report/12117",
       "name": "Customer Bills List",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "report/12119",
       "name": "Depreciation Book",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.FixedAssets.Depreciation"
     },
     {
       "key": "report/12120",
       "name": "VAT Register - Print",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Reporting"
     },
     {
       "key": "report/12121",
       "name": "G/L Book - Print",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.GeneralLedger.Reports"
     },
     {
       "key": "report/12123",
       "name": "Lifo Entries",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Inventory.Costing"
     },
     {
       "key": "report/12125",
       "name": "Exp. Annual VAT Communication",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Reporting"
     },
     {
       "key": "report/12126",
       "name": "Annual VAT Comm. - 2010",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Reporting"
     },
     {
       "key": "report/12127",
       "name": "Exp.Annual VAT Comm. - 2010",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Reporting"
     },
     {
       "key": "report/12135",
       "name": "Fiscal Inventory Valuation",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Inventory.Reports"
     },
     {
       "key": "report/12136",
       "name": "Ledger Entry Details",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Inventory.Reports"
     },
     {
       "key": "report/12137",
       "name": "LIFO Valuation",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Inventory.Costing"
     },
     {
       "key": "report/12150",
       "name": "VAT Payment Communication",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Reporting"
     },
     {
       "key": "report/12152",
       "name": "Create Subcontr.Transf. Order",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Manufacturing.Document"
     },
     {
       "key": "report/12153",
       "name": "Create Subcontr. Return Order",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Manufacturing.Document"
     },
     {
       "key": "report/12154",
       "name": "Subcontract. Transfer Shipment",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Manufacturing.Document"
     },
     {
       "key": "report/12155",
       "name": "Subcontr. Dispatching List",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Manufacturing.Document"
     },
     {
       "key": "report/12170",
       "name": "List of Bank Receipts",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Reports"
     },
     {
       "key": "report/12171",
       "name": "Closing Bank Receipts",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Reports"
     },
     {
       "key": "report/12172",
       "name": "Cust Bills Floppy",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "report/12173",
       "name": "Issued Cust Bills Floppy",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "report/12174",
       "name": "Issued Cust Bills Report",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "report/12175",
       "name": "Vendor Bills Floppy",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "report/12176",
       "name": "Suggest Customer Bills",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "report/12177",
       "name": "Suggest Vendor Bills",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "report/12178",
       "name": "Vendor Bill Report",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "report/12179",
       "name": "Issued Vendor Bill List",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "report/12180",
       "name": "Issuing Customer Bill",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "report/12181",
       "name": "VAT Exemption Register",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Reporting"
     },
     {
       "key": "report/12182",
       "name": "VAT Plafond Period",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Reporting"
     },
     {
       "key": "report/12183",
       "name": "Withholding Tax - Test",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.WithholdingTax"
     },
     {
       "key": "report/12190",
       "name": "Update VAT Transaction Data",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Reporting"
     },
     {
       "key": "report/12191",
       "name": "VAT Transaction",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Reporting"
     },
     {
       "key": "report/12193",
       "name": "Export VAT Transactions",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Reporting"
     },
     {
       "key": "report/12194",
       "name": "Declaration of Intent Report",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Reporting"
     },
     {
       "key": "report/12195",
       "name": "Datifattura Suggest Lines",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Reporting"
     },
     {
       "key": "table/3",
       "name": "Payment Terms",
       "change": "replaced",
+      "ns": "Microsoft.Foundation.PaymentTerms",
       "fields": [
         {
           "id": "2",
@@ -14921,6 +15252,7 @@
       "key": "table/9",
       "name": "Country/Region",
       "change": "replaced",
+      "ns": "Microsoft.Foundation.Address",
       "fields": [
         {
           "id": "12100",
@@ -15023,6 +15355,7 @@
       "key": "table/10",
       "name": "Shipment Method",
       "change": "replaced",
+      "ns": "Microsoft.Foundation.Shipping",
       "fields": [
         {
           "id": "12100",
@@ -15101,6 +15434,7 @@
       "key": "table/17",
       "name": "G/L Entry",
       "change": "replaced",
+      "ns": "Microsoft.Finance.GeneralLedger.Ledger",
       "fields": [
         {
           "id": "12100",
@@ -15257,6 +15591,7 @@
       "key": "table/18",
       "name": "Customer",
       "change": "replaced",
+      "ns": "Microsoft.Sales.Customer",
       "fields": [
         {
           "id": "12100",
@@ -15616,6 +15951,7 @@
       "key": "table/21",
       "name": "Cust. Ledger Entry",
       "change": "replaced",
+      "ns": "Microsoft.Sales.Receivables",
       "fields": [
         {
           "id": "12170",
@@ -16107,6 +16443,7 @@
       "key": "table/23",
       "name": "Vendor",
       "change": "replaced",
+      "ns": "Microsoft.Purchases.Vendor",
       "fields": [
         {
           "id": "12100",
@@ -16896,6 +17233,7 @@
       "key": "table/25",
       "name": "Vendor Ledger Entry",
       "change": "replaced",
+      "ns": "Microsoft.Purchases.Payables",
       "fields": [
         {
           "id": "12170",
@@ -17115,6 +17453,7 @@
       "key": "table/27",
       "name": "Item",
       "change": "replaced",
+      "ns": "Microsoft.Inventory.Item",
       "fields": [
         {
           "id": "12100",
@@ -17153,6 +17492,7 @@
       "key": "table/32",
       "name": "Item Ledger Entry",
       "change": "replaced",
+      "ns": "Microsoft.Inventory.Ledger",
       "fields": [
         {
           "id": "12180",
@@ -17329,6 +17669,7 @@
       "key": "table/36",
       "name": "Sales Header",
       "change": "replaced",
+      "ns": "Microsoft.Sales.Document",
       "fields": [
         {
           "id": "12100",
@@ -19027,6 +19368,7 @@
       "key": "table/37",
       "name": "Sales Line",
       "change": "replaced",
+      "ns": "Microsoft.Sales.Document",
       "fields": [
         {
           "id": "12101",
@@ -19264,6 +19606,7 @@
       "key": "table/38",
       "name": "Purchase Header",
       "change": "replaced",
+      "ns": "Microsoft.Purchases.Document",
       "fields": [
         {
           "id": "143",
@@ -20483,6 +20826,7 @@
       "key": "table/39",
       "name": "Purchase Line",
       "change": "replaced",
+      "ns": "Microsoft.Purchases.Document",
       "fields": [
         {
           "id": "12101",
@@ -20873,6 +21217,7 @@
       "key": "table/49",
       "name": "Invoice Post. Buffer",
       "change": "replaced",
+      "ns": "Microsoft.Finance.ReceivablesPayables",
       "fields": [
         {
           "id": "12100",
@@ -21074,6 +21419,7 @@
       "key": "table/55",
       "name": "Invoice Posting Buffer",
       "change": "replaced",
+      "ns": "Microsoft.Finance.ReceivablesPayables",
       "fields": [
         {
           "id": "12100",
@@ -21226,6 +21572,7 @@
       "key": "table/79",
       "name": "Company Information",
       "change": "replaced",
+      "ns": "Microsoft.Foundation.Company",
       "fields": [
         {
           "id": "11",
@@ -21757,6 +22104,7 @@
       "key": "table/81",
       "name": "Gen. Journal Line",
       "change": "replaced",
+      "ns": "Microsoft.Finance.GeneralLedger.Journal",
       "fields": [
         {
           "id": "12100",
@@ -22759,6 +23107,7 @@
       "key": "table/83",
       "name": "Item Journal Line",
       "change": "replaced",
+      "ns": "Microsoft.Inventory.Journal",
       "fields": [
         {
           "id": "12181",
@@ -22909,6 +23258,7 @@
       "key": "table/92",
       "name": "Customer Posting Group",
       "change": "replaced",
+      "ns": "Microsoft.Sales.Customer",
       "fields": [
         {
           "id": "12100",
@@ -22931,6 +23281,7 @@
       "key": "table/98",
       "name": "General Ledger Setup",
       "change": "replaced",
+      "ns": "Microsoft.Finance.GeneralLedger.Setup",
       "fields": [
         {
           "id": "12100",
@@ -23172,6 +23523,7 @@
       "key": "table/99",
       "name": "Item Vendor",
       "change": "replaced",
+      "ns": "Microsoft.Inventory.Item.Catalog",
       "fields": [
         {
           "id": "12100",
@@ -23194,6 +23546,7 @@
       "key": "table/110",
       "name": "Sales Shipment Header",
       "change": "replaced",
+      "ns": "Microsoft.Sales.History",
       "fields": [
         {
           "id": "12100",
@@ -23445,6 +23798,7 @@
       "key": "table/111",
       "name": "Sales Shipment Line",
       "change": "replaced",
+      "ns": "Microsoft.Sales.History",
       "fields": [
         {
           "id": "12101",
@@ -23499,6 +23853,7 @@
       "key": "table/112",
       "name": "Sales Invoice Header",
       "change": "replaced",
+      "ns": "Microsoft.Sales.History",
       "fields": [
         {
           "id": "12100",
@@ -23819,6 +24174,7 @@
       "key": "table/113",
       "name": "Sales Invoice Line",
       "change": "replaced",
+      "ns": "Microsoft.Sales.History",
       "fields": [
         {
           "id": "12101",
@@ -23888,6 +24244,7 @@
       "key": "table/114",
       "name": "Sales Cr.Memo Header",
       "change": "replaced",
+      "ns": "Microsoft.Sales.History",
       "fields": [
         {
           "id": "12100",
@@ -24196,6 +24553,7 @@
       "key": "table/115",
       "name": "Sales Cr.Memo Line",
       "change": "replaced",
+      "ns": "Microsoft.Sales.History",
       "fields": [
         {
           "id": "12101",
@@ -24297,6 +24655,7 @@
       "key": "table/120",
       "name": "Purch. Rcpt. Header",
       "change": "replaced",
+      "ns": "Microsoft.Purchases.History",
       "fields": [
         {
           "id": "12100",
@@ -24350,6 +24709,7 @@
       "key": "table/121",
       "name": "Purch. Rcpt. Line",
       "change": "replaced",
+      "ns": "Microsoft.Purchases.History",
       "fields": [
         {
           "id": "12101",
@@ -24406,6 +24766,7 @@
       "key": "table/122",
       "name": "Purch. Inv. Header",
       "change": "replaced",
+      "ns": "Microsoft.Purchases.History",
       "fields": [
         {
           "id": "12100",
@@ -24625,6 +24986,7 @@
       "key": "table/123",
       "name": "Purch. Inv. Line",
       "change": "replaced",
+      "ns": "Microsoft.Purchases.History",
       "fields": [
         {
           "id": "12101",
@@ -24696,6 +25058,7 @@
       "key": "table/124",
       "name": "Purch. Cr. Memo Hdr.",
       "change": "replaced",
+      "ns": "Microsoft.Purchases.History",
       "fields": [
         {
           "id": "12100",
@@ -24932,6 +25295,7 @@
       "key": "table/125",
       "name": "Purch. Cr. Memo Line",
       "change": "replaced",
+      "ns": "Microsoft.Purchases.History",
       "fields": [
         {
           "id": "12101",
@@ -25035,6 +25399,7 @@
       "key": "table/179",
       "name": "Reversal Entry",
       "change": "replaced",
+      "ns": "Microsoft.Finance.GeneralLedger.Reversal",
       "procedures": [
         {
           "id": "checkreversedocumenttype(integer,enum \"gen. journal document type\")",
@@ -25067,6 +25432,7 @@
       "key": "table/181",
       "name": "Posted Gen. Journal Line",
       "change": "replaced",
+      "ns": "Microsoft.Finance.GeneralLedger.Journal",
       "fields": [
         {
           "id": "12100",
@@ -25518,6 +25884,7 @@
       "key": "table/189",
       "name": "VAT Setup",
       "change": "replaced",
+      "ns": "Microsoft.Finance.VAT.Setup",
       "fields": [
         {
           "id": "2",
@@ -25565,6 +25932,7 @@
       "key": "table/221",
       "name": "Gen. Jnl. Allocation",
       "change": "replaced",
+      "ns": "Microsoft.Finance.GeneralLedger.Journal",
       "fields": [
         {
           "id": "12102",
@@ -25627,6 +25995,7 @@
       "key": "table/254",
       "name": "VAT Entry",
       "change": "replaced",
+      "ns": "Microsoft.Finance.VAT.Ledger",
       "properties": [
         {
           "name": "DrillDownPageID",
@@ -26979,6 +27348,7 @@
       "key": "table/255",
       "name": "VAT Statement Template",
       "change": "replaced",
+      "ns": "Microsoft.Finance.VAT.Reporting",
       "fields": [
         {
           "id": "16",
@@ -27059,6 +27429,7 @@
       "key": "table/256",
       "name": "VAT Statement Line",
       "change": "replaced",
+      "ns": "Microsoft.Finance.VAT.Reporting",
       "fields": [
         {
           "id": "8",
@@ -27286,6 +27657,7 @@
       "key": "table/257",
       "name": "VAT Statement Name",
       "change": "replaced",
+      "ns": "Microsoft.Finance.VAT.Reporting",
       "fields": [
         {
           "id": "12125",
@@ -27331,6 +27703,7 @@
       "key": "table/262",
       "name": "Intrastat Jnl. Batch",
       "change": "replaced",
+      "ns": "Microsoft.Inventory.Intrastat",
       "fields": [
         {
           "id": "14",
@@ -27450,6 +27823,7 @@
       "key": "table/263",
       "name": "Intrastat Jnl. Line",
       "change": "replaced",
+      "ns": "Microsoft.Inventory.Intrastat",
       "fields": [
         {
           "id": "11",
@@ -27887,6 +28261,7 @@
       "key": "table/270",
       "name": "Bank Account",
       "change": "replaced",
+      "ns": "Microsoft.Bank.BankAccount",
       "fields": [
         {
           "id": "13",
@@ -28118,6 +28493,7 @@
       "key": "table/282",
       "name": "Entry/Exit Point",
       "change": "replaced",
+      "ns": "Microsoft.Inventory.Intrastat",
       "fields": [
         {
           "id": "12100",
@@ -28153,6 +28529,7 @@
       "key": "table/287",
       "name": "Customer Bank Account",
       "change": "replaced",
+      "ns": "Microsoft.Sales.Customer",
       "fields": [
         {
           "id": "14",
@@ -28353,6 +28730,7 @@
       "key": "table/288",
       "name": "Vendor Bank Account",
       "change": "replaced",
+      "ns": "Microsoft.Purchases.Vendor",
       "fields": [
         {
           "id": "14",
@@ -28597,6 +28975,7 @@
       "key": "table/289",
       "name": "Payment Method",
       "change": "replaced",
+      "ns": "Microsoft.Bank.BankAccount",
       "fields": [
         {
           "id": "12171",
@@ -28664,6 +29043,7 @@
       "key": "table/290",
       "name": "VAT Amount Line",
       "change": "replaced",
+      "ns": "Microsoft.Finance.VAT.Calculation",
       "fields": [
         {
           "id": "12101",
@@ -28794,6 +29174,7 @@
       "key": "table/291",
       "name": "Shipping Agent",
       "change": "replaced",
+      "ns": "Microsoft.Foundation.Shipping",
       "fields": [
         {
           "id": "12180",
@@ -28893,6 +29274,7 @@
       "key": "table/302",
       "name": "Finance Charge Memo Header",
       "change": "replaced",
+      "ns": "Microsoft.Sales.FinanceCharge",
       "fields": [
         {
           "id": "12123",
@@ -28915,6 +29297,7 @@
       "key": "table/304",
       "name": "Issued Fin. Charge Memo Header",
       "change": "replaced",
+      "ns": "Microsoft.Sales.FinanceCharge",
       "fields": [
         {
           "id": "12123",
@@ -28937,58 +29320,7 @@
       "key": "table/308",
       "name": "No. Series",
       "change": "replaced",
-      "properties": [
-        {
-          "name": "DataCaptionFields",
-          "from": "\"Code\", Description",
-          "to": null
-        },
-        {
-          "name": "DrillDownPageId",
-          "from": "No. Series",
-          "to": null
-        },
-        {
-          "name": "InherentEntitlements",
-          "from": "rX",
-          "to": null
-        },
-        {
-          "name": "InherentPermissions",
-          "from": "rX",
-          "to": null
-        },
-        {
-          "name": "LookupPageId",
-          "from": "No. Series",
-          "to": null
-        },
-        {
-          "name": "MovedFrom",
-          "from": "437dbf0e-84ff-417a-965d-ed2bb9650972",
-          "to": null
-        },
-        {
-          "name": "MovedTo",
-          "from": null,
-          "to": "f3552374-a1f2-4356-848e-196002525837"
-        },
-        {
-          "name": "ObsoleteReason",
-          "from": null,
-          "to": "No. Series is moved to Business Foundation"
-        },
-        {
-          "name": "ObsoleteState",
-          "from": null,
-          "to": "Moved"
-        },
-        {
-          "name": "ObsoleteTag",
-          "from": null,
-          "to": "24.0"
-        }
-      ],
+      "ns": "Microsoft.Foundation.NoSeries",
       "fields": [
         {
           "id": "12100",
@@ -29048,26 +29380,13 @@
             }
           }
         }
-      ],
-      "obsolete": {
-        "from": null,
-        "to": {
-          "state": "Pending",
-          "tag": "24.0",
-          "reason": "No. Series is moved to Business Foundation"
-        }
-      },
-      "triggers": {
-        "added": [],
-        "removed": [
-          "OnDelete"
-        ]
-      }
+      ]
     },
     {
       "key": "table/311",
       "name": "Sales & Receivables Setup",
       "change": "replaced",
+      "ns": "Microsoft.Sales.Setup",
       "fields": [
         {
           "id": "12174",
@@ -29206,6 +29525,7 @@
       "key": "table/312",
       "name": "Purchases & Payables Setup",
       "change": "replaced",
+      "ns": "Microsoft.Purchases.Setup",
       "fields": [
         {
           "id": "12101",
@@ -29300,6 +29620,7 @@
       "key": "table/323",
       "name": "VAT Business Posting Group",
       "change": "replaced",
+      "ns": "Microsoft.Finance.VAT.Setup",
       "fields": [
         {
           "id": "12100",
@@ -29351,6 +29672,7 @@
       "key": "table/325",
       "name": "VAT Posting Setup",
       "change": "replaced",
+      "ns": "Microsoft.Finance.VAT.Setup",
       "fields": [
         {
           "id": "13",
@@ -29750,6 +30072,7 @@
       "key": "table/372",
       "name": "Payment Buffer",
       "change": "replaced",
+      "ns": "Microsoft.Purchases.Payables",
       "fields": [
         {
           "id": "12100",
@@ -29772,6 +30095,7 @@
       "key": "table/379",
       "name": "Detailed Cust. Ledg. Entry",
       "change": "replaced",
+      "ns": "Microsoft.Sales.Receivables",
       "fields": [
         {
           "id": "12100",
@@ -29972,6 +30296,7 @@
       "key": "table/380",
       "name": "Detailed Vendor Ledg. Entry",
       "change": "replaced",
+      "ns": "Microsoft.Purchases.Payables",
       "fields": [
         {
           "id": "12103",
@@ -30023,6 +30348,7 @@
       "key": "table/381",
       "name": "VAT Registration No. Format",
       "change": "replaced",
+      "ns": "Microsoft.Finance.VAT.Registration",
       "procedures": [
         {
           "id": "skiperrormsg(boolean)",
@@ -30084,6 +30410,7 @@
       "key": "table/382",
       "name": "CV Ledger Entry Buffer",
       "change": "replaced",
+      "ns": "Microsoft.Finance.ReceivablesPayables",
       "fields": [
         {
           "id": "12100",
@@ -30136,6 +30463,7 @@
       "key": "table/383",
       "name": "Detailed CV Ledg. Entry Buffer",
       "change": "replaced",
+      "ns": "Microsoft.Finance.ReceivablesPayables",
       "fields": [
         {
           "id": "6200",
@@ -30248,6 +30576,7 @@
       "key": "table/461",
       "name": "Prepayment Inv. Line Buffer",
       "change": "replaced",
+      "ns": "Microsoft.Finance.ReceivablesPayables",
       "fields": [
         {
           "id": "12101",
@@ -30358,6 +30687,7 @@
       "key": "table/475",
       "name": "Vendor Payment Buffer",
       "change": "replaced",
+      "ns": "Microsoft.Purchases.Payables",
       "fields": [
         {
           "id": "12100",
@@ -30380,6 +30710,7 @@
       "key": "table/737",
       "name": "VAT Return Period",
       "change": "replaced",
+      "ns": "Microsoft.Finance.VAT.Reporting",
       "properties": [
         {
           "name": "LookupPageID",
@@ -30581,6 +30912,7 @@
       "key": "table/740",
       "name": "VAT Report Header",
       "change": "replaced",
+      "ns": "Microsoft.Finance.VAT.Reporting",
       "fields": [
         {
           "id": "2",
@@ -31074,6 +31406,7 @@
       "key": "table/741",
       "name": "VAT Report Line",
       "change": "replaced",
+      "ns": "Microsoft.Finance.VAT.Reporting",
       "fields": [
         {
           "id": "2",
@@ -31308,6 +31641,7 @@
       "key": "table/743",
       "name": "VAT Report Setup",
       "change": "replaced",
+      "ns": "Microsoft.Finance.VAT.Reporting",
       "fields": [
         {
           "id": "21",
@@ -31427,6 +31761,7 @@
       "key": "table/846",
       "name": "Cash Flow Worksheet Line",
       "change": "replaced",
+      "ns": "Microsoft.CashFlow.Worksheet",
       "procedures": [
         {
           "id": "calculateforposteddocuments(record \"cash flow forecast\")",
@@ -31716,6 +32051,7 @@
       "key": "table/1207",
       "name": "Direct Debit Collection",
       "change": "replaced",
+      "ns": "Microsoft.Bank.DirectDebit",
       "fields": [
         {
           "id": "12000",
@@ -31766,6 +32102,7 @@
       "key": "table/1226",
       "name": "Payment Export Data",
       "change": "replaced",
+      "ns": "Microsoft.Bank.Payment",
       "fields": [
         {
           "id": "31",
@@ -31854,6 +32191,7 @@
       "key": "table/1381",
       "name": "Customer Templ.",
       "change": "replaced",
+      "ns": "Microsoft.Sales.Customer",
       "fields": [
         {
           "id": "14",
@@ -32088,6 +32426,7 @@
       "key": "table/1382",
       "name": "Item Templ.",
       "change": "replaced",
+      "ns": "Microsoft.Inventory.Item",
       "fields": [
         {
           "id": "12100",
@@ -32126,6 +32465,7 @@
       "key": "table/1383",
       "name": "Vendor Templ.",
       "change": "replaced",
+      "ns": "Microsoft.Purchases.Vendor",
       "fields": [
         {
           "id": "14",
@@ -32680,6 +33020,7 @@
       "key": "table/5050",
       "name": "Contact",
       "change": "replaced",
+      "ns": "Microsoft.CRM.Contact",
       "fields": [
         {
           "id": "12101",
@@ -32728,6 +33069,7 @@
       "key": "table/5107",
       "name": "Sales Header Archive",
       "change": "replaced",
+      "ns": "Microsoft.Sales.Archive",
       "fields": [
         {
           "id": "12100",
@@ -33106,6 +33448,7 @@
       "key": "table/5108",
       "name": "Sales Line Archive",
       "change": "replaced",
+      "ns": "Microsoft.Sales.Archive",
       "fields": [
         {
           "id": "12101",
@@ -33213,6 +33556,7 @@
       "key": "table/5109",
       "name": "Purchase Header Archive",
       "change": "replaced",
+      "ns": "Microsoft.Purchases.Archive",
       "fields": [
         {
           "id": "12100",
@@ -33703,6 +34047,7 @@
       "key": "table/5110",
       "name": "Purchase Line Archive",
       "change": "replaced",
+      "ns": "Microsoft.Purchases.Archive",
       "fields": [
         {
           "id": "12101",
@@ -33995,6 +34340,7 @@
       "key": "table/5200",
       "name": "Employee",
       "change": "replaced",
+      "ns": "Microsoft.HumanResources.Employee",
       "fields": [
         {
           "id": "57",
@@ -34085,6 +34431,7 @@
       "key": "table/5409",
       "name": "Prod. Order Routing Line",
       "change": "replaced",
+      "ns": "Microsoft.Manufacturing.Document",
       "fields": [
         {
           "id": "12180",
@@ -34271,6 +34618,7 @@
       "key": "table/5600",
       "name": "Fixed Asset",
       "change": "replaced",
+      "ns": "Microsoft.FixedAssets.FixedAsset",
       "fields": [
         {
           "id": "12100",
@@ -34322,6 +34670,7 @@
       "key": "table/5611",
       "name": "Depreciation Book",
       "change": "replaced",
+      "ns": "Microsoft.FixedAssets.Depreciation",
       "fields": [
         {
           "id": "7",
@@ -34498,6 +34847,7 @@
       "key": "table/5643",
       "name": "Depreciation Table Line",
       "change": "replaced",
+      "ns": "Microsoft.FixedAssets.Depreciation",
       "fields": [
         {
           "id": "12100",
@@ -34541,6 +34891,7 @@
       "key": "table/5740",
       "name": "Transfer Header",
       "change": "replaced",
+      "ns": "Microsoft.Inventory.Transfer",
       "fields": [
         {
           "id": "12100",
@@ -34921,6 +35272,7 @@
       "key": "table/5741",
       "name": "Transfer Line",
       "change": "replaced",
+      "ns": "Microsoft.Inventory.Transfer",
       "fields": [
         {
           "id": "12180",
@@ -35372,6 +35724,7 @@
       "key": "table/5744",
       "name": "Transfer Shipment Header",
       "change": "replaced",
+      "ns": "Microsoft.Inventory.Transfer",
       "fields": [
         {
           "id": "12100",
@@ -35766,6 +36119,7 @@
       "key": "table/5745",
       "name": "Transfer Shipment Line",
       "change": "replaced",
+      "ns": "Microsoft.Inventory.Transfer",
       "fields": [
         {
           "id": "12180",
@@ -36024,6 +36378,7 @@
       "key": "table/5746",
       "name": "Transfer Receipt Header",
       "change": "replaced",
+      "ns": "Microsoft.Inventory.Transfer",
       "fields": [
         {
           "id": "12100",
@@ -36211,6 +36566,7 @@
       "key": "table/5747",
       "name": "Transfer Receipt Line",
       "change": "replaced",
+      "ns": "Microsoft.Inventory.Transfer",
       "fields": [
         {
           "id": "12180",
@@ -36351,6 +36707,7 @@
       "key": "table/6650",
       "name": "Return Shipment Header",
       "change": "replaced",
+      "ns": "Microsoft.Purchases.History",
       "fields": [
         {
           "id": "12106",
@@ -36530,6 +36887,7 @@
       "key": "table/6660",
       "name": "Return Receipt Header",
       "change": "replaced",
+      "ns": "Microsoft.Sales.History",
       "fields": [
         {
           "id": "12100",
@@ -36566,6 +36924,7 @@
       "key": "table/6661",
       "name": "Return Receipt Line",
       "change": "replaced",
+      "ns": "Microsoft.Sales.History",
       "fields": [
         {
           "id": "12145",
@@ -36588,6 +36947,7 @@
       "key": "table/9054",
       "name": "Finance Cue",
       "change": "replaced",
+      "ns": "Microsoft.Finance.RoleCenters",
       "fields": [
         {
           "id": "12100",
@@ -36642,177 +37002,212 @@
     {
       "key": "table/12100",
       "name": "Compress Depreciation",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.FixedAssets.Depreciation"
     },
     {
       "key": "table/12101",
       "name": "Interest on Arrears",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.FinancialReports"
     },
     {
       "key": "table/12104",
       "name": "Withhold Code",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.WithholdingTax"
     },
     {
       "key": "table/12105",
       "name": "Withhold Code Line",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.WithholdingTax"
     },
     {
       "key": "table/12106",
       "name": "Contribution Code",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "table/12107",
       "name": "Contribution Code Line",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "table/12108",
       "name": "Contribution Bracket",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "table/12109",
       "name": "Contribution Bracket Line",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "table/12111",
       "name": "Computed Withholding Tax",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.WithholdingTax"
     },
     {
       "key": "table/12112",
       "name": "Computed Contribution",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "table/12113",
       "name": "Tmp Withholding Contribution",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.WithholdingTax"
     },
     {
       "key": "table/12114",
       "name": "Withholding Tax Payment",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.WithholdingTax"
     },
     {
       "key": "table/12115",
       "name": "Contribution Payment",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "table/12116",
       "name": "Withholding Tax",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.WithholdingTax"
     },
     {
       "key": "table/12117",
       "name": "Contributions",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "table/12118",
       "name": "Intra - form Buffer",
-      "change": "added"
+      "change": "added",
+      "ns": null
     },
     {
       "key": "table/12119",
       "name": "Customs Office",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Inventory.Intrastat"
     },
     {
       "key": "table/12122",
       "name": "Customs Authority Vendor",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Purchases.Vendor"
     },
     {
       "key": "table/12123",
       "name": "Check Fiscal Code Setup",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Utilities"
     },
     {
       "key": "table/12124",
       "name": "Activity Code",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Utilities"
     },
     {
       "key": "table/12125",
       "name": "Appointment Code",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Utilities"
     },
     {
       "key": "table/12126",
       "name": "Spesometro Appointment",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Utilities"
     },
     {
       "key": "table/12129",
       "name": "Lifo Category",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Inventory.Costing"
     },
     {
       "key": "table/12130",
       "name": "Lifo Band",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Inventory.Costing"
     },
     {
       "key": "table/12131",
       "name": "Item Cost History",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Inventory.Costing"
     },
     {
       "key": "table/12132",
       "name": "Item Costing Setup",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Inventory.Costing"
     },
     {
       "key": "table/12133",
       "name": "Before Start Item Cost",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Inventory.Costing"
     },
     {
       "key": "table/12134",
       "name": "Withholding Exceptional Event",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.WithholdingTax"
     },
     {
       "key": "table/12135",
       "name": "Periodic Settlement VAT Entry",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Reporting"
     },
     {
       "key": "table/12136",
       "name": "Periodic VAT Settlement Entry",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Reporting"
     },
     {
       "key": "table/12137",
       "name": "Purch. Withh. Contribution",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.WithholdingTax"
     },
     {
       "key": "table/12140",
       "name": "VAT Identifier",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Setup"
     },
     {
       "key": "table/12142",
       "name": "VAT Book Entry",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Ledger"
     },
     {
       "key": "table/12144",
       "name": "GL Book Entry",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.GeneralLedger.Ledger"
     },
     {
       "key": "table/12145",
       "name": "No. Series Line Sales",
       "change": "replaced",
+      "ns": "Microsoft.Foundation.NoSeries",
       "properties": [
         {
           "name": "InherentEntitlements",
@@ -36888,6 +37283,7 @@
       "key": "table/12146",
       "name": "No. Series Line Purchase",
       "change": "replaced",
+      "ns": "Microsoft.Foundation.NoSeries",
       "properties": [
         {
           "name": "InherentEntitlements",
@@ -36962,202 +37358,242 @@
     {
       "key": "table/12147",
       "name": "VAT Register",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Ledger"
     },
     {
       "key": "table/12148",
       "name": "VAT Register - Buffer",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Ledger"
     },
     {
       "key": "table/12149",
       "name": "Reprint Info Fiscal Reports",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.GeneralLedger.Setup"
     },
     {
       "key": "table/12152",
       "name": "Subcontractor Prices",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Manufacturing.Document"
     },
     {
       "key": "table/12153",
       "name": "Goods Appearance",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Inventory.Item"
     },
     {
       "key": "table/12154",
       "name": "Transport Reason Code",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Inventory.Setup"
     },
     {
       "key": "table/12159",
       "name": "Company Officials",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Foundation.Company"
     },
     {
       "key": "table/12169",
       "name": "Company Types",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Foundation.Company"
     },
     {
       "key": "table/12170",
       "name": "Payment Lines",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Foundation.PaymentTerms"
     },
     {
       "key": "table/12171",
       "name": "Posted Payment Lines",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Foundation.PaymentTerms"
     },
     {
       "key": "table/12172",
       "name": "Fixed Due Dates",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Foundation.PaymentTerms"
     },
     {
       "key": "table/12173",
       "name": "Deferring Due Dates",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Foundation.PaymentTerms"
     },
     {
       "key": "table/12174",
       "name": "Customer Bill Header",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "table/12175",
       "name": "Customer Bill Line",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "table/12176",
       "name": "ABI/CAB Codes",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.BankAccount"
     },
     {
       "key": "table/12177",
       "name": "Issued Customer Bill Header",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "table/12178",
       "name": "Issued Customer Bill Line",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "table/12179",
       "name": "Bill Posting Group",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "table/12180",
       "name": "Bill",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "table/12181",
       "name": "Vendor Bill Header",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "table/12182",
       "name": "Vendor Bill Line",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "table/12183",
       "name": "Posted Vendor Bill Header",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "table/12184",
       "name": "Posted Vendor Bill Line",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "table/12185",
       "name": "Vendor Bill Withholding Tax",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "table/12186",
       "name": "VAT Exemption",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Setup"
     },
     {
       "key": "table/12187",
       "name": "VAT Plafond Period",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Setup"
     },
     {
       "key": "table/12189",
       "name": "Service Tariff Number",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Inventory.Intrastat"
     },
     {
       "key": "table/12194",
       "name": "Blacklist Comm. Amount",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft"
     },
     {
       "key": "table/12195",
       "name": "VAT Transaction Report Amount",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Reporting"
     },
     {
       "key": "table/12196",
       "name": "Incl. in VAT Report Error Log",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Reporting"
     },
     {
       "key": "table/12197",
       "name": "Document Relation",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft"
     },
     {
       "key": "table/12198",
       "name": "Fattura Code",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "table/12199",
       "name": "Fattura Project Info",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "table/12202",
       "name": "VAT Transaction Nature",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.TransactionNature"
     },
     {
       "key": "table/12203",
       "name": "Fattura Header",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "table/12204",
       "name": "Fattura Line",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "table/12205",
       "name": "Fattura Setup",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "table/12206",
       "name": "Fattura Document Type",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "table/12210",
       "name": "Withholding Tax Line",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.WithholdingTax"
     },
     {
       "key": "table/99000764",
       "name": "Routing Line",
       "change": "replaced",
+      "ns": "Microsoft.Manufacturing.Routing",
       "fields": [
         {
           "id": "12180",
@@ -37188,6 +37624,7 @@
       "key": "table/99000765",
       "name": "Manufacturing Setup",
       "change": "replaced",
+      "ns": "Microsoft.Manufacturing.Setup",
       "fields": [
         {
           "id": "12180",
@@ -37243,6 +37680,7 @@
       "key": "table/99000830",
       "name": "Planning Routing Line",
       "change": "replaced",
+      "ns": "Microsoft.Manufacturing.Routing",
       "fields": [
         {
           "id": "12180",
@@ -37272,82 +37710,98 @@
     {
       "key": "tableextension/12140",
       "name": "Service Header Archive IT",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Service.Archive"
     },
     {
       "key": "tableextension/12141",
       "name": "Service Line Archive IT",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Service.Archive"
     },
     {
       "key": "tableextension/12145",
       "name": "NoSeriesIT",
-      "change": "added"
+      "change": "added",
+      "ns": null
     },
     {
       "key": "tableextension/12146",
       "name": "NoSeriesLineIT",
-      "change": "added"
+      "change": "added",
+      "ns": null
     },
     {
       "key": "tableextension/12147",
       "name": "GeneralLedgerSetupIT",
-      "change": "added"
+      "change": "added",
+      "ns": null
     },
     {
       "key": "tableextension/12150",
       "name": "Filed Serv. Contract Header IT",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Service.Contract"
     },
     {
       "key": "tableextension/12151",
       "name": "Service Contract Header IT",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Service.Contract"
     },
     {
       "key": "tableextension/12152",
       "name": "Service Header IT",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Service.Document"
     },
     {
       "key": "tableextension/12153",
       "name": "Service Line IT",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Service.Document"
     },
     {
       "key": "tableextension/12454",
       "name": "Service Cr.Memo Header IT",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Service.History"
     },
     {
       "key": "tableextension/12455",
       "name": "Service Cr.Memo Line IT",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Service.History"
     },
     {
       "key": "tableextension/12456",
       "name": "Service Invoice Header IT",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Service.History"
     },
     {
       "key": "tableextension/12457",
       "name": "Service Invoice Line IT",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Service.History"
     },
     {
       "key": "tableextension/12458",
       "name": "Service Shipment Header IT",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Service.History"
     },
     {
       "key": "tableextension/12460",
       "name": "Service Mgt. Setup IT",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Service.Setup"
     },
     {
       "key": "tableextension/99000801",
       "name": "Mfg. Capacity Ledger Entry",
       "change": "replaced",
+      "ns": "Microsoft.Manufacturing.Capacity",
       "fields": [
         {
           "id": "12180",
@@ -37501,6 +37955,7 @@
       "key": "tableextension/99000829",
       "name": "Mfg. Planning Component",
       "change": "replaced",
+      "ns": "Microsoft.Inventory.Planning",
       "events": [
         {
           "id": "onvalidateroutinglinkcodeonbeforesubcontractorprocurementcheck(record \"planning component\",record vendor,boolean)",
@@ -37557,6 +38012,7 @@
       "key": "tableextension/99000860",
       "name": "Mfg. Requisition Line",
       "change": "replaced",
+      "ns": "Microsoft.Inventory.Requisition",
       "fields": [
         {
           "id": "12180",
@@ -37847,7 +38303,8 @@
     {
       "key": "xmlport/12100",
       "name": "CBI Payment Request.00.04.00",
-      "change": "added"
+      "change": "added",
+      "ns": null
     }
   ]
 }

@@ -25,6 +25,7 @@ import { objectKey, type AlObject, type AlProcedure } from "../code/extract.js";
 import { iterSnapshot, snapshotDir, type SnapshotManifest } from "../code/job.js";
 import { APPS, deprecations, type AlDiff, type ObjectDiff } from "../code/diff.js";
 import { incoming, outgoing, type RelEdge, type Relations } from "../code/relations.js";
+import { areaOf } from "../lib/systems.js";
 import type { DocsObjects } from "../code/docs-objects.js";
 import { PIPELINE_VERSION } from "../version.js";
 import { loadLocalizationNarrative, PROMPT_VERSION as LOC_V, STAGE as LOC_STAGE, type LocalizationNarrative } from "../summarize/localization.js";
@@ -264,6 +265,18 @@ export function renderLocalizationPage(cc: string, d: AlDiff, older: { major: st
     `BC${d.to.version} · country layer against W1 · ${topic ? `Learn: [local functionality](../topics/${topic.replace(/^topic\//, "")}.md)` : "no Learn local functionality hub found"}${n ? " · narrative **unreviewed** (machine-written)" : ""}`, ""];
   if (n) lines.push("## Overview", "", n.overview, "", "## Key points", "", ...n.key_points.map((k) => `- ${k}`), "",
     `Narrative written by Sonnet from the code diff and ${n.learn_pages_used} Learn page summaries. In numbers: ${facts}`, "");
+  const byArea = new Map<string, { replaced: number; added: number; fields: number }>();
+  for (const o of d.objects) {
+    const a = areaOf(o.ns, null), c = byArea.get(a) ?? { replaced: 0, added: 0, fields: 0 };
+    if (o.change === "replaced") c.replaced++; else if (o.change === "added") c.added++;
+    c.fields += o.fields?.filter((f) => f.change === "added").length ?? 0;
+    byArea.set(a, c);
+  }
+  if (byArea.size && d.objects.some((o) => o.ns !== undefined)) {
+    lines.push("## By area", "", "| Area | W1 objects changed | Own objects | Fields added |", "|---|---|---|---|");
+    for (const [a, c] of [...byArea].sort((x, y) => y[1].replaced + y[1].added - (x[1].replaced + x[1].added) || x[0].localeCompare(y[0]))) lines.push(`| ${cell(a)} | ${c.replaced} | ${c.added} | ${c.fields} |`);
+    lines.push("");
+  }
   if (replaced.length) {
     lines.push("## W1 objects this country changes", "", "| Object | Changes |", "|---|---|");
     for (const o of replaced) { const p = hasObjectPage(o.key); lines.push(`| ${p ? `[${cell(o.key)} "${cell(o.name)}"](../objects/${p}.md)` : `${cell(o.key)} "${cell(o.name)}"`} | ${memberSummary(o)} |`); }
@@ -287,7 +300,8 @@ export function renderCodePages(dataDir: string, contentDir: string, now = new D
   // localization diffs first: object pages link the countries that have a page
   const diffDir = resolve(dataDir, "code", "diffs", "country");
   const byCountry = new Map<string, { major: string; path: string }[]>();
-  for (const f of exists(diffDir) ? readdirSync(diffDir).filter((n) => n.endsWith(".json")) : []) {
+  // <major>-<cc>.json only: matrix.json (D49) lives in the same folder
+  for (const f of exists(diffDir) ? readdirSync(diffDir).filter((n) => /^\d+-[a-z]+\.json$/.test(n)) : []) {
     const [major, cc] = f.slice(0, -5).split("-");
     byCountry.set(cc, [...(byCountry.get(cc) ?? []), { major, path: resolve(diffDir, f) }]);
   }

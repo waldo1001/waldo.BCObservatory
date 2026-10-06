@@ -1,18 +1,18 @@
 {
   "inputs": [
-    2,
+    5,
     [
       "5950db28a247b8e0180f61f704ee8f3a5e5ce569",
-      "1"
+      "2"
     ]
   ],
   "major": "28",
-  "count": 1456,
+  "count": 1464,
   "by_tag": {
     "untagged": 392,
     "23.0": 3,
-    "24.0": 7,
-    "25.0": 160,
+    "24.0": 11,
+    "25.0": 164,
     "25.2": 7,
     "26.0": 257,
     "27.0": 465,
@@ -5196,6 +5196,58 @@
       "clean_version": "27"
     },
     {
+      "key": "table/308",
+      "object": "No. Series",
+      "member": null,
+      "kind": "object",
+      "state": "Pending",
+      "tag": "24.0",
+      "reason": "No. Series is moved to Business Foundation",
+      "clean": [
+        "CLEANSCHEMA27"
+      ],
+      "clean_version": "27"
+    },
+    {
+      "key": "table/309",
+      "object": "No. Series Line",
+      "member": null,
+      "kind": "object",
+      "state": "Pending",
+      "tag": "24.0",
+      "reason": "No. Series is moved to Business Foundation",
+      "clean": [
+        "CLEANSCHEMA27"
+      ],
+      "clean_version": "27"
+    },
+    {
+      "key": "table/310",
+      "object": "No. Series Relationship",
+      "member": null,
+      "kind": "object",
+      "state": "Pending",
+      "tag": "24.0",
+      "reason": "No. Series is moved to Business Foundation",
+      "clean": [
+        "CLEANSCHEMA27"
+      ],
+      "clean_version": "27"
+    },
+    {
+      "key": "table/1263",
+      "object": "No. Series Tenant",
+      "member": null,
+      "kind": "object",
+      "state": "Pending",
+      "tag": "24.0",
+      "reason": "No. Series is moved to Business Foundation",
+      "clean": [
+        "CLEANSCHEMA27"
+      ],
+      "clean_version": "27"
+    },
+    {
       "key": "tableextension/308",
       "object": "NoSeriesObsolete",
       "member": "No. Series Type",
@@ -5355,6 +5407,45 @@
         "CLEANSCHEMA25"
       ],
       "clean_version": "25"
+    },
+    {
+      "key": "table/230",
+      "object": "Source Code",
+      "member": null,
+      "kind": "object",
+      "state": "Pending",
+      "tag": "25.0",
+      "reason": "Source Code is moved to Business Foundation",
+      "clean": [
+        "CLEANSCHEMA27"
+      ],
+      "clean_version": "27"
+    },
+    {
+      "key": "table/231",
+      "object": "Reason Code",
+      "member": null,
+      "kind": "object",
+      "state": "Pending",
+      "tag": "25.0",
+      "reason": "Reason Code is moved to Business Foundation",
+      "clean": [
+        "CLEANSCHEMA27"
+      ],
+      "clean_version": "27"
+    },
+    {
+      "key": "table/242",
+      "object": "Source Code Setup",
+      "member": null,
+      "kind": "object",
+      "state": "Pending",
+      "tag": "25.0",
+      "reason": "Source Code Setup is moved to Business Foundation",
+      "clean": [
+        "CLEANSCHEMA27"
+      ],
+      "clean_version": "27"
     },
     {
       "key": "table/247",
@@ -5771,6 +5862,19 @@
         "CLEANSCHEMA25"
       ],
       "clean_version": "25"
+    },
+    {
+      "key": "table/6635",
+      "object": "Return Reason",
+      "member": null,
+      "kind": "object",
+      "state": "Pending",
+      "tag": "25.0",
+      "reason": "Return Reason is moved to Business Foundation",
+      "clean": [
+        "CLEANSCHEMA27"
+      ],
+      "clean_version": "27"
     },
     {
       "key": "table/8452",

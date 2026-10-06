@@ -1,0 +1,38 @@
+---
+import List from "../../layouts/List.astro";
+const base = import.meta.env.BASE_URL;
+---
+<List section="objects" title="Event explorer · BC Observatory" description="Every published event of Business Central with the first-party code that subscribes to it." crumb="Events">
+  <p class="eyebrow">AL objects · events</p>
+  <h1>Event explorer</h1>
+  <p class="lede">Every integration, business and internal event the W1 code and Microsoft's first-party apps publish, with the subscribers found in that same code; table and page trigger events appear where something subscribes to them. Most events have no first-party subscriber: they exist for partners. Agents: <a href={`${base}index/events.json`}>events.json</a>.</p>
+  <section class="ev" data-base={base} aria-label="Event explorer">
+    <form class="ev-bar" onsubmit="return false">
+      <label>Kind <select name="kind"><option value="">all</option><option value="integration">integration</option><option value="business">business</option><option value="internal">internal</option><option value="trigger_event">trigger</option></select></label>
+      <label>Subscribers <select name="subs"><option value="">any</option><option value="with">with first-party subscribers</option><option value="none">none (partner-facing)</option></select></label>
+      <label>Area <select name="area"><option value="">all</option></select></label>
+      <label>Text <input type="search" name="q" placeholder="OnBeforePostSalesDoc, Sales-Post" /></label>
+    </form>
+    <ul class="stats ev-stats"></ul>
+    <div class="ev-out"><p class="meta">Loading the events index...</p></div>
+  </section>
+</List>
+<script>
+  import { mountEvents } from "../../scripts/events";
+  const el = document.querySelector<HTMLElement>("section.ev");
+  if (el) mountEvents(el);
+</script>
+<style>
+  .ev { margin-top: 16px; }
+  .ev-bar { display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: end; margin-bottom: 12px; }
+  .ev-bar label { display: grid; gap: 4px; font-size: 12px; color: var(--muted); }
+  .ev-bar select, .ev-bar input { background: var(--surface); color: var(--text); border: 1px solid var(--line-strong); border-radius: var(--r-card); font: 400 14px var(--font-ui); padding: 7px 9px; min-height: 36px; }
+  .ev-out { display: grid; gap: 8px; }
+  .ev :global(.ev-area) { border: 1px solid var(--line); border-radius: var(--r-card); background: var(--surface); }
+  .ev :global(.ev-area > summary) { cursor: pointer; padding: 10px 12px; display: flex; flex-wrap: wrap; gap: 4px 12px; align-items: baseline; min-height: 40px; }
+  .ev :global(.ev-area-name) { font-weight: 600; }
+  .ev :global(.ev-pub) { padding: 8px 12px 4px; border-top: 1px solid var(--line); }
+  .ev :global(.ev-pub .rows li) { padding: 5px 0; font-size: 14px; }
+  .ev :global(.ev-subs > summary) { cursor: pointer; color: var(--link); font-size: 13px; }
+  .ev :global(.ev-subs ul) { list-style: none; padding: 4px 0 0 8px; margin: 0; font-size: 13px; }
+</style>

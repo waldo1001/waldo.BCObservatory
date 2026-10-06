@@ -11,6 +11,7 @@ import { exists, listFiles, readText, writeText } from "../lib/fsx.js";
 import { objectKey } from "../code/extract.js";
 import { iterSnapshot, snapshotDir } from "../code/job.js";
 import { APPS } from "../code/diff.js";
+import type { Relations } from "../code/relations.js";
 
 /**
  * [page key, type, id, name, app, namespace, obsolete state, introduced major | null, changed-in majors ("29 30"),
@@ -19,8 +20,11 @@ import { APPS } from "../code/diff.js";
 export type ObjectRow = [string, string, number | null, string, string | null, string | null, string | null, string | null, string, number, number];
 export interface ObjectsIndex { schema: "bcobs-objects@1"; count: number; rows: ObjectRow[] }
 export interface FieldsIndex { schema: "bcobs-fields@1"; major: string | null; count: number; fields: Record<string, string[]> }
+/** [publisher page key, event name, kind, obsolete | null, subscribers as [page key, procedure][]] */
+export type EventRow = [string, string, string, string | null, [string, string][]];
+export interface EventsIndex { schema: "bcobs-events@1"; major: string | null; count: number; subscriptions: number; rows: EventRow[] }
 
-export function renderObjectsIndex(contentDir: string, dataDir: string): { objects: number; fields: number } {
+export function renderObjectsIndex(contentDir: string, dataDir: string): { objects: number; fields: number; events: number } {
   const rows: ObjectRow[] = [];
   const pageOfKey = new Map<string, string>();
   const root = resolve(contentDir, "objects");
@@ -54,5 +58,24 @@ export function renderObjectsIndex(contentDir: string, dataDir: string): { objec
   }
   const sorted = Object.fromEntries([...fields].sort(([a], [b]) => a.localeCompare(b)).map(([k, s]) => [k, [...s].sort()]));
   write("fields.json", { schema: "bcobs-fields@1", major, count: fields.size, fields: sorted } satisfies FieldsIndex);
-  return { objects: rows.length, fields: fields.size };
+
+  // published events with their subscribers (data/code/relations/<major>.json, D45) for the event explorer (D49)
+  const events: EventRow[] = [];
+  let subscriptions = 0;
+  const relPath = major ? resolve(dataDir, "code", "relations", `${major}.json`) : null;
+  if (relPath && exists(relPath)) {
+    const rel = JSON.parse(readText(relPath)) as Relations;
+    for (const [key, ev] of Object.entries(rel.events)) {
+      const pk = pageOfKey.get(key);
+      if (!pk) continue;
+      for (const [name, e] of Object.entries(ev)) {
+        const subs = e.subs.map((x) => [pageOfKey.get(x.s) ?? x.s, x.proc] as [string, string]);
+        subscriptions += subs.length;
+        events.push([pk, name, e.kind, e.obsolete, subs]);
+      }
+    }
+    events.sort((a, b) => a[0].localeCompare(b[0]) || a[1].localeCompare(b[1]));
+  }
+  write("events.json", { schema: "bcobs-events@1", major, count: events.length, subscriptions, rows: events } satisfies EventsIndex);
+  return { objects: rows.length, fields: fields.size, events: events.length };
 }

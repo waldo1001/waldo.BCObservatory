@@ -280,3 +280,12 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   state, and serves the JSON at `/code/deprecations/<major>.json`. Both are static HTML over data the pipeline
   already wrote (D31) and nothing read; the weekly digest links to the radar. Why: partners act on "what breaks my
   extension in BC31" and "what changed in Sales between 28 and 29", and the data sat unused in the repo.
+- **D49 Event explorer and country heatmap.** `index/events.json` (publisher page, event, kind, obsolete,
+  subscribers; from the relations of the preferred major) feeds `/events/`: every published event with the
+  first-party code that subscribes to it, by area and publisher, with filters (kind, with/without subscribers,
+  area, text). Diff objects now carry their namespace (`ns`, DERIVED_VERSION 5), `refreshCodeDerived` writes
+  `diffs/country/matrix.json` (country x area: W1 objects replaced, own objects, fields added, at each country's
+  newest major), `/localizations/` draws it as a heatmap whose cells open the country page narrowed to that area
+  (`?ns=`), and the localization markdown gains a "By area" table. The country diffs and the matrix are served under
+  `/code/diffs/country/`. Why: "who subscribes to OnBeforePostSalesDoc" and "where does BE really touch the code"
+  were questions the data could answer and no page did.

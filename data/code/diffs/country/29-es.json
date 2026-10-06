@@ -1,10 +1,10 @@
 {
   "inputs": [
-    2,
+    5,
     [
       "d7c9c667c671da2cda3a0738b18ed99ca4181765",
       "d7c9c667c671da2cda3a0738b18ed99ca4181765",
-      "1",
+      "2",
       []
     ]
   ],
@@ -46,16 +46,17 @@
         "xmlport": 2
       }
     },
-    "fields_added": 394,
+    "fields_added": 314,
     "events_added": 64,
     "procedures_added": 231,
-    "objects_obsoleted": 1
+    "objects_obsoleted": 0
   },
   "objects": [
     {
       "key": "codeunit/3",
       "name": "G/L Account-Indent",
       "change": "replaced",
+      "ns": "Microsoft.Finance.GeneralLedger.Account",
       "procedures": [
         {
           "id": "sethideprintdialog(boolean)",
@@ -83,6 +84,7 @@
       "key": "codeunit/6",
       "name": "Fiscal Year-Close",
       "change": "replaced",
+      "ns": "Microsoft.Foundation.Period",
       "procedures": [
         {
           "id": "sethideprintdialog(boolean)",
@@ -110,6 +112,7 @@
       "key": "codeunit/11",
       "name": "Gen. Jnl.-Check Line",
       "change": "replaced",
+      "ns": "Microsoft.Finance.GeneralLedger.Journal",
       "procedures": [
         {
           "id": "checktransmitted(record \"gen. journal line\")",
@@ -137,6 +140,7 @@
       "key": "codeunit/12",
       "name": "Gen. Jnl.-Post Line",
       "change": "replaced",
+      "ns": "Microsoft.Finance.GeneralLedger.Posting",
       "procedures": [
         {
           "id": "initglregisterfromcontinueposting(record \"gen. journal line\")",
@@ -3351,6 +3355,7 @@
       "key": "codeunit/13",
       "name": "Gen. Jnl.-Post Batch",
       "change": "replaced",
+      "ns": "Microsoft.Finance.GeneralLedger.Posting",
       "procedures": [
         {
           "id": "postallocations(record \"gen. journal line\",record \"gen. journal line\",boolean)",
@@ -3638,6 +3643,7 @@
       "key": "codeunit/60",
       "name": "Sales-Calc. Discount",
       "change": "replaced",
+      "ns": "Microsoft.Sales.Document",
       "procedures": [
         {
           "id": "gettotalchargeitemlineamount(enum \"sales document type\",code[20])",
@@ -3747,6 +3753,7 @@
       "key": "codeunit/70",
       "name": "Purch.-Calc.Discount",
       "change": "replaced",
+      "ns": "Microsoft.Purchases.Document",
       "procedures": [
         {
           "id": "getvendinvdisc(record \"purchase header\",decimal,boolean)",
@@ -3886,6 +3893,7 @@
       "key": "codeunit/80",
       "name": "Sales-Post",
       "change": "replaced",
+      "ns": "Microsoft.Sales.Posting",
       "procedures": [
         {
           "id": "testsalesefects(record \"sales header\",record customer)",
@@ -4018,6 +4026,7 @@
       "key": "codeunit/90",
       "name": "Purch.-Post",
       "change": "replaced",
+      "ns": "Microsoft.Purchases.Posting",
       "procedures": [
         {
           "id": "checkcorrectedinvoiceno(record \"purchase header\")",
@@ -4155,6 +4164,7 @@
       "key": "codeunit/226",
       "name": "CustEntry-Apply Posted Entries",
       "change": "replaced",
+      "ns": "Microsoft.Sales.Receivables",
       "procedures": [
         {
           "id": "checkinitialdocumenttype(record \"detailed cust. ledg. entry\",code[20],date,boolean)",
@@ -4307,6 +4317,7 @@
       "key": "codeunit/227",
       "name": "VendEntry-Apply Posted Entries",
       "change": "replaced",
+      "ns": "Microsoft.Purchases.Payables",
       "procedures": [
         {
           "id": "checkinitialdocumenttype(record \"detailed vendor ledg. entry\",code[20],date)",
@@ -4429,6 +4440,7 @@
       "key": "codeunit/232",
       "name": "Gen. Jnl.-Post+Print",
       "change": "replaced",
+      "ns": "Microsoft.Finance.GeneralLedger.Posting",
       "events": [
         {
           "id": "onbeforeglregpostingreportprint(integer,boolean,boolean,record \"g/l register\",boolean)",
@@ -4484,6 +4496,7 @@
       "key": "codeunit/398",
       "name": "Sales Tax Calculate",
       "change": "replaced",
+      "ns": "Microsoft.Finance.SalesTax",
       "procedures": [
         {
           "id": "setamount(decimal,decimal)",
@@ -4523,6 +4536,7 @@
       "key": "codeunit/424",
       "name": "Export Analysis View",
       "change": "replaced",
+      "ns": "Microsoft.Finance.Analysis",
       "procedures": [
         {
           "id": "findglaccountparent(code[20],integer)",
@@ -4575,6 +4589,7 @@
       "key": "codeunit/597",
       "name": "Exch. Rate Adjmt. Subscribers",
       "change": "replaced",
+      "ns": "Microsoft.Finance.Currency",
       "procedures": [
         {
           "id": "getlocalcustaccountno(record \"cust. ledger entry\",code[20],boolean)",
@@ -4830,6 +4845,7 @@
       "key": "codeunit/816",
       "name": "Purch. Post Invoice",
       "change": "replaced",
+      "ns": "Microsoft.Purchases.Posting",
       "procedures": [
         {
           "id": "calcpaymentdiscountposting(record \"purchase header\",record \"purchase line\",record \"purchase line\",record \"invoice posting buffer\")",
@@ -4872,6 +4888,7 @@
       "key": "codeunit/906",
       "name": "SO Activities Calculate",
       "change": "replaced",
+      "ns": "Microsoft.Sales.RoleCenters",
       "events": [
         {
           "id": "onaftercalculatecuefieldvalues(record \"sales cue\")",
@@ -4907,6 +4924,7 @@
       "key": "codeunit/1222",
       "name": "SEPA CT-Prepare Source",
       "change": "replaced",
+      "ns": "Microsoft.Bank.DirectDebit",
       "events": [
         {
           "id": "oncreatetempjnllinesonbeforetempgenjnllineinsert(record \"gen. journal line\",record \"cartera doc.\")",
@@ -4979,12 +4997,14 @@
     {
       "key": "codeunit/1883",
       "name": "Sandbox Cleanup local",
-      "change": "added"
+      "change": "added",
+      "ns": null
     },
     {
       "key": "codeunit/5342",
       "name": "CRM Synch. Helper",
       "change": "replaced",
+      "ns": "Microsoft.Integration.Dataverse",
       "procedures": [
         {
           "id": "calculateactualstatuscode(record \"cust. ledger entry\",record \"crm invoice\")",
@@ -5037,6 +5057,7 @@
       "key": "codeunit/5987",
       "name": "Serv-Posting Journals Mgt.",
       "change": "replaced",
+      "ns": "Microsoft.Service.Posting",
       "procedures": [
         {
           "id": "createbills(record \"service line\",dialog,code[20],code[35])",
@@ -5178,6 +5199,7 @@
       "key": "codeunit/5988",
       "name": "Serv-Documents Mgt.",
       "change": "replaced",
+      "ns": "Microsoft.Service.Posting",
       "procedures": [
         {
           "id": "testsalesefects(record \"service header\",record customer)",
@@ -5228,6 +5250,7 @@
       "key": "codeunit/6620",
       "name": "Copy Document Mgt.",
       "change": "replaced",
+      "ns": "Microsoft.Utilities",
       "properties": [
         {
           "name": "Permissions",
@@ -5441,272 +5464,326 @@
     {
       "key": "codeunit/9997",
       "name": "Upgrade Tag Def - Country",
-      "change": "added"
+      "change": "added",
+      "ns": null
     },
     {
       "key": "codeunit/10700",
       "name": "Due Date-Adjust",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.ReceivablesPayables"
     },
     {
       "key": "codeunit/10701",
       "name": "Elect. Pmts Management",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "codeunit/10710",
       "name": "Serv. Make 349 Declaration",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Reporting"
     },
     {
       "key": "codeunit/10721",
       "name": "Create Electronic Payments",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "codeunit/10740",
       "name": "No Taxable Mgt.",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Calculation"
     },
     {
       "key": "codeunit/10741",
       "name": "Serv. No Taxable Mgt.",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Ledger"
     },
     {
       "key": "codeunit/10750",
       "name": "SII XML Creator",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "codeunit/10751",
       "name": "SII Job Management",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "codeunit/10752",
       "name": "SII Doc. Upload Management",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "codeunit/10753",
       "name": "SII Job Upload Pending Docs.",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "codeunit/10754",
       "name": "SII Job Retry Comm. Error",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "codeunit/10755",
       "name": "SII Initial Doc. Upload",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "codeunit/10756",
       "name": "SII Management",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "codeunit/10757",
       "name": "SII Recreate Missing Entries",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "codeunit/10758",
       "name": "SII Scheme Code Mgt.",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "codeunit/10759",
       "name": "Serv. SII Management",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "codeunit/10760",
       "name": "Localization Management",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Utilities"
     },
     {
       "key": "codeunit/10762",
       "name": "Service History Subscr. ES",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Service.History"
     },
     {
       "key": "codeunit/10763",
       "name": "Service Document Subscr. ES",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Service.Document"
     },
     {
       "key": "codeunit/10765",
       "name": "Sales Invoice Header - Edit",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Sales.History"
     },
     {
       "key": "codeunit/10767",
       "name": "Purch. Cr. Memo Hdr. - Edit",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Purchases.History"
     },
     {
       "key": "codeunit/10768",
       "name": "Service Invoice Header - Edit",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Service.History"
     },
     {
       "key": "codeunit/10769",
       "name": "Service Cr. Memo Header - Edit",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Service.History"
     },
     {
       "key": "codeunit/10788",
       "name": "Sales Document Subscr. ES",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Sales.Document"
     },
     {
       "key": "codeunit/10789",
       "name": "Service Posting Subscr. ES",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Service.Posting"
     },
     {
       "key": "codeunit/10791",
       "name": "Serv. Report Selection Mgt. ES",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Foundation.Reporting"
     },
     {
       "key": "codeunit/10840",
       "name": "No Taxable - Generate Entries",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Calculation"
     },
     {
       "key": "codeunit/104100",
       "name": "UPG SII",
-      "change": "added"
+      "change": "added",
+      "ns": null
     },
     {
       "key": "codeunit/104102",
       "name": "Upg No Taxable",
-      "change": "added"
+      "change": "added",
+      "ns": null
     },
     {
       "key": "codeunit/104107",
       "name": "Upg Report Selections",
-      "change": "added"
+      "change": "added",
+      "ns": null
     },
     {
       "key": "codeunit/7000000",
       "name": "CarteraManagement",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.ReceivablesPayables"
     },
     {
       "key": "codeunit/7000001",
       "name": "G/L Reg.-Docs.",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.ReceivablesPayables"
     },
     {
       "key": "codeunit/7000003",
       "name": "BG/PO-Post and Print",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.ReceivablesPayables"
     },
     {
       "key": "codeunit/7000004",
       "name": "Document-Move",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.ReceivablesPayables"
     },
     {
       "key": "codeunit/7000005",
       "name": "Invoice-Split Payment",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.ReceivablesPayables"
     },
     {
       "key": "codeunit/7000006",
       "name": "Document-Post",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.ReceivablesPayables"
     },
     {
       "key": "codeunit/7000007",
       "name": "Document-Misc",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.ReceivablesPayables"
     },
     {
       "key": "codeunit/7000008",
       "name": "Document-Edit",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.ReceivablesPayables"
     },
     {
       "key": "codeunit/7000009",
       "name": "Posted Cartera Doc.- Edit",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.ReceivablesPayables"
     },
     {
       "key": "codeunit/7000010",
       "name": "Company-Initialize Cartera",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.ReceivablesPayables"
     },
     {
       "key": "codeunit/7000026",
       "name": "SII Purchase Subscribers",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "codeunit/7000027",
       "name": "SII Sales Subscribers",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "codeunit/7000029",
       "name": "SII VAT Subscribers",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "codeunit/7000030",
       "name": "SII DataClass EvalData Country",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Utilities"
     },
     {
       "key": "codeunit/7000034",
       "name": "Serv. SuggestWorksheetLines ES",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.CashFlow.Worksheet"
     },
     {
       "key": "codeunit/7000035",
       "name": "Serv. Invoice-Split Payment",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.ReceivablesPayables"
     },
     {
       "key": "codeunit/7000060",
       "name": "PO - Export N34.1",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Purchases.Payables"
     },
     {
       "key": "codeunit/7000089",
       "name": "Bill group - Export factoring",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Sales.Receivables"
     },
     {
       "key": "codeunit/7000090",
       "name": "Payment order - Export N34",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Purchases.Payables"
     },
     {
       "key": "codeunit/7000091",
       "name": "Bill group - Export N58",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Sales.Receivables"
     },
     {
       "key": "codeunit/7000092",
       "name": "Bill group - Export N19",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Sales.Receivables"
     },
     {
       "key": "codeunit/7000093",
       "name": "Bill group - Export N32",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Sales.Receivables"
     },
     {
       "key": "enum/6",
       "name": "Gen. Journal Document Type",
       "change": "replaced",
+      "ns": "Microsoft.Finance.GeneralLedger.Journal",
       "values": [
         {
           "id": "21",
@@ -5723,6 +5800,7 @@
       "key": "enum/77",
       "name": "Report Selection Usage",
       "change": "replaced",
+      "ns": "Microsoft.Foundation.Reporting",
       "values": [
         {
           "id": "100",
@@ -5748,6 +5826,7 @@
       "key": "enum/89",
       "name": "Gen. Journal Template Type",
       "change": "replaced",
+      "ns": "Microsoft.Finance.GeneralLedger.Journal",
       "values": [
         {
           "id": "12",
@@ -5764,6 +5843,7 @@
       "key": "enum/256",
       "name": "VAT Statement Line Type",
       "change": "replaced",
+      "ns": "Microsoft.Finance.VAT.Reporting",
       "values": [
         {
           "id": "4",
@@ -5780,6 +5860,7 @@
       "key": "enum/258",
       "name": "VAT Statement Line Amount Type",
       "change": "replaced",
+      "ns": "Microsoft.Finance.VAT.Reporting",
       "values": [
         {
           "id": "5",
@@ -5796,6 +5877,7 @@
       "key": "enum/347",
       "name": "Report Selection Usage Purchase",
       "change": "replaced",
+      "ns": "Microsoft.Purchases.Setup",
       "values": [
         {
           "id": "16",
@@ -5821,6 +5903,7 @@
       "key": "enum/379",
       "name": "Detailed CV Ledger Entry Type",
       "change": "replaced",
+      "ns": "Microsoft.Finance.ReceivablesPayables",
       "values": [
         {
           "id": "21",
@@ -5854,147 +5937,176 @@
     {
       "key": "enum/10700",
       "name": "SII Sales Special Scheme Code",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "enum/10701",
       "name": "SII Purch. Special Scheme Code",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "enum/10702",
       "name": "SII Sales Upload Scheme Code",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "enum/10703",
       "name": "SII Purch. Upload Scheme Code",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "enum/10704",
       "name": "SII Operation Date Type",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "enum/10705",
       "name": "SII Tax Period",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "enum/10706",
       "name": "SII Sales Invoice Type",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "enum/10707",
       "name": "SII Purch. Invoice Type",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "enum/10708",
       "name": "SII Sales Credit Memo Type",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "enum/10709",
       "name": "SII Purch. Credit Memo Type",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "enum/10710",
       "name": "SII ID Type",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "enum/10711",
       "name": "SII Document Status",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "enum/10712",
       "name": "SII Sales Upload Invoice Type",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "enum/10713",
       "name": "SII Purch. Upload Invoice Type",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "enum/10714",
       "name": "SII Sales Upload Credit Memo Type",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "enum/10715",
       "name": "SII Purch. Upload Cr. Memo Type",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "enum/10721",
       "name": "SII Exemption Code",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "enum/10722",
       "name": "ES Bill Type",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Sales.Receivables"
     },
     {
       "key": "enum/10723",
       "name": "ES Document Status",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Sales.Receivables"
     },
     {
       "key": "enum/10724",
       "name": "Cartera Document Status",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.ReceivablesPayables"
     },
     {
       "key": "enum/10727",
       "name": "ES Document Situation",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft"
     },
     {
       "key": "enum/10755",
       "name": "SII Doc. Upload State Document Source",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "enum/10756",
       "name": "SII Doc. Upload State Document Type",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "enum/7000000",
       "name": "Cartera Document Type",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.ReceivablesPayables"
     },
     {
       "key": "enum/7000025",
       "name": "Cartera Document Doc. Type",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.ReceivablesPayables"
     },
     {
       "key": "enum/7000026",
       "name": "Cartera Dealing Type",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.ReceivablesPayables"
     },
     {
       "key": "enum/7000045",
       "name": "Report Selection Usage Cartera",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.ReceivablesPayables"
     },
     {
       "key": "enumextension/20",
       "name": "G/L Account Report Type ES",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.GeneralLedger.Account"
     },
     {
       "key": "page/147",
       "name": "Posted Purchase Credit Memos",
       "change": "replaced",
+      "ns": "Microsoft.Purchases.History",
       "triggers": {
         "added": [
           "OnAfterGetRecord"
@@ -6006,6 +6118,7 @@
       "key": "page/151",
       "name": "Customer Statistics",
       "change": "replaced",
+      "ns": "Microsoft.Sales.Customer",
       "procedures": [
         {
           "id": "updatedocstatistics()",
@@ -6162,6 +6275,7 @@
       "key": "page/152",
       "name": "Vendor Statistics",
       "change": "replaced",
+      "ns": "Microsoft.Purchases.Vendor",
       "procedures": [
         {
           "id": "updatebillstatistics()",
@@ -6244,6 +6358,7 @@
       "key": "page/344",
       "name": "Navigate",
       "change": "replaced",
+      "ns": "Microsoft.Foundation.Navigate",
       "procedures": [
         {
           "id": "findcarteradocs(option receivable,payable)",
@@ -6350,6 +6465,7 @@
       "key": "page/425",
       "name": "Vendor Bank Account Card",
       "change": "replaced",
+      "ns": "Microsoft.Purchases.Vendor",
       "procedures": [
         {
           "id": "useforelectronicpaymentsonpush()",
@@ -6370,742 +6486,890 @@
     {
       "key": "page/10700",
       "name": "Payment Days",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.ReceivablesPayables"
     },
     {
       "key": "page/10701",
       "name": "Non-Payment Periods",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.ReceivablesPayables"
     },
     {
       "key": "page/10704",
       "name": "Transference Format",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Reporting"
     },
     {
       "key": "page/10705",
       "name": "Copy Data Transference Format",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Reporting"
     },
     {
       "key": "page/10706",
       "name": "Statistical Codes",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "page/10710",
       "name": "XML Transference Format",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Reporting"
     },
     {
       "key": "page/10734",
       "name": "G/L Account Selection",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Reporting"
     },
     {
       "key": "page/10735",
       "name": "Gen. Prod. Post. Gr. Selection",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Reporting"
     },
     {
       "key": "page/10736",
       "name": "Customer/Vendor Warnings 349",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Reporting"
     },
     {
       "key": "page/10737",
       "name": "Gen. Prod. Post. Selection 340",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Reporting"
     },
     {
       "key": "page/10738",
       "name": "Rev. Chg. Post. Selection 340",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Reporting"
     },
     {
       "key": "page/10740",
       "name": "No Taxable Entries",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Ledger"
     },
     {
       "key": "page/10744",
       "name": "340 Declaration Lines",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Reporting"
     },
     {
       "key": "page/10745",
       "name": "Operation Codes",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Reporting"
     },
     {
       "key": "page/10751",
       "name": "SII Setup",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "page/10752",
       "name": "SII History",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "page/10753",
       "name": "Recreate Missing SII Entries",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "page/10765",
       "name": "Posted Sales Invoice - Update",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Sales.History"
     },
     {
       "key": "page/10767",
       "name": "Posted Purch. Cr.Memo - Update",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Purchases.History"
     },
     {
       "key": "page/10768",
       "name": "Posted Serv. Invoice - Update",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Service.History"
     },
     {
       "key": "page/10769",
       "name": "Posted Serv. Cr. Memo - Update",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Service.History"
     },
     {
       "key": "page/10770",
       "name": "SII Sales Doc. Scheme Codes",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "page/10771",
       "name": "SII Purch. Doc. Scheme Codes",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "page/35290",
       "name": "Rec. Docs Analysis Fact Box",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.ReceivablesPayables"
     },
     {
       "key": "page/35291",
       "name": "BG Analysis Fact Box",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Sales.Receivables"
     },
     {
       "key": "page/35292",
       "name": "Post. BG Analysis LCY Fact Box",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Sales.History"
     },
     {
       "key": "page/35293",
       "name": "Post. BG Analysis Non LCY FB",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Sales.History"
     },
     {
       "key": "page/35294",
       "name": "Closed BG Analysis LCY FB",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Sales.Reports"
     },
     {
       "key": "page/35295",
       "name": "Closed BG Analysis Non LCY FB",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Sales.Reports"
     },
     {
       "key": "page/35296",
       "name": "Closed Docs Analysis LCY FB",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.ReceivablesPayables"
     },
     {
       "key": "page/35297",
       "name": "Closed Docs Analysis NonLCY FB",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.ReceivablesPayables"
     },
     {
       "key": "page/35298",
       "name": "Pmt Orders Analysis Fact Box",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Purchases.Payables"
     },
     {
       "key": "page/35299",
       "name": "Post. PO Analysis LCY Fact Box",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Purchases.History"
     },
     {
       "key": "page/35300",
       "name": "Post. PO Analysis Non LCY FB",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Purchases.History"
     },
     {
       "key": "page/35301",
       "name": "Closed PO Analysis LCY FB",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Purchases.Payables"
     },
     {
       "key": "page/35302",
       "name": "Closed PO Analysis Non LCY FB",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Purchases.Payables"
     },
     {
       "key": "page/35303",
       "name": "Bank Account Information FB",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Sales.Receivables"
     },
     {
       "key": "page/35304",
       "name": "Cartera Receiv. Statistics FB",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Sales.Receivables"
     },
     {
       "key": "page/35305",
       "name": "Cartera Payables Statistics FB",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Purchases.Payables"
     },
     {
       "key": "page/35306",
       "name": "Cartera Fact. Statistics FB",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.ReceivablesPayables"
     },
     {
       "key": "page/36848",
       "name": "Bank Cat.Post.Rec.Bills Matrix",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Sales.Receivables"
     },
     {
       "key": "page/36850",
       "name": "Bank Cat.Post.Pay.Bills Matrix",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Purchases.Payables"
     },
     {
       "key": "page/7000001",
       "name": "Receivables Cartera Docs",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Sales.Receivables"
     },
     {
       "key": "page/7000002",
       "name": "Payables Cartera Docs",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Purchases.Payables"
     },
     {
       "key": "page/7000003",
       "name": "Cartera Documents",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.ReceivablesPayables"
     },
     {
       "key": "page/7000004",
       "name": "Docs. in BG Subform",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Sales.Receivables"
     },
     {
       "key": "page/7000005",
       "name": "Docs. in Posted BG Subform",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Sales.Receivables"
     },
     {
       "key": "page/7000006",
       "name": "Posted Cartera Documents",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.ReceivablesPayables"
     },
     {
       "key": "page/7000007",
       "name": "Closed Cartera Documents",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.ReceivablesPayables"
     },
     {
       "key": "page/7000008",
       "name": "Docs. in Closed BG Subform",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Sales.Receivables"
     },
     {
       "key": "page/7000009",
       "name": "Bill Groups",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Sales.Receivables"
     },
     {
       "key": "page/7000010",
       "name": "Receivable Closed Cartera Docs",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Sales.Receivables"
     },
     {
       "key": "page/7000011",
       "name": "Bill Groups List",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Sales.Receivables"
     },
     {
       "key": "page/7000012",
       "name": "Posted Bill Groups",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Sales.History"
     },
     {
       "key": "page/7000013",
       "name": "Payable Closed Cartera Docs",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Purchases.Payables"
     },
     {
       "key": "page/7000014",
       "name": "Posted Bill Groups List",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Sales.History"
     },
     {
       "key": "page/7000015",
       "name": "Closed Bill Groups",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Sales.Receivables"
     },
     {
       "key": "page/7000017",
       "name": "Closed Bill Groups List",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Sales.Receivables"
     },
     {
       "key": "page/7000018",
       "name": "Bank Account Selection",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Sales.Receivables"
     },
     {
       "key": "page/7000019",
       "name": "Documents Analysis",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.ReceivablesPayables"
     },
     {
       "key": "page/7000020",
       "name": "Bill Groups Analysis",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Sales.Receivables"
     },
     {
       "key": "page/7000021",
       "name": "Posted Bill Groups Analysis",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Sales.History"
     },
     {
       "key": "page/7000022",
       "name": "Closed Bill Groups Analysis",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Sales.Receivables"
     },
     {
       "key": "page/7000023",
       "name": "Category Codes",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Foundation.AuditCodes"
     },
     {
       "key": "page/7000024",
       "name": "BG/PO Comment List",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.ReceivablesPayables"
     },
     {
       "key": "page/7000025",
       "name": "BG/PO Comment Sheet",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.ReceivablesPayables"
     },
     {
       "key": "page/7000026",
       "name": "Operation Fees",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.ReceivablesPayables"
     },
     {
       "key": "page/7000029",
       "name": "Documents Maturity",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.ReceivablesPayables"
     },
     {
       "key": "page/7000030",
       "name": "Documents Maturity Lines",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.ReceivablesPayables"
     },
     {
       "key": "page/7000031",
       "name": "Bill Groups Maturity",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Sales.Receivables"
     },
     {
       "key": "page/7000032",
       "name": "BG/PO Maturity Lines",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.ReceivablesPayables"
     },
     {
       "key": "page/7000033",
       "name": "Posted Bill Groups Maturity",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Sales.History"
     },
     {
       "key": "page/7000034",
       "name": "Posted Bill Gr. Maturity Lines",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Sales.History"
     },
     {
       "key": "page/7000036",
       "name": "Cartera Journal",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.ReceivablesPayables"
     },
     {
       "key": "page/7000037",
       "name": "Check Discount Credit Limit",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.ReceivablesPayables"
     },
     {
       "key": "page/7000040",
       "name": "Cartera Setup",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.ReceivablesPayables"
     },
     {
       "key": "page/7000041",
       "name": "Cartera Source Cd. Setup",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.ReceivablesPayables"
     },
     {
       "key": "page/7000044",
       "name": "Closed Documents Analysis",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.ReceivablesPayables"
     },
     {
       "key": "page/7000045",
       "name": "Report Selection - Cartera",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.ReceivablesPayables"
     },
     {
       "key": "page/7000048",
       "name": "Installments",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.ReceivablesPayables"
     },
     {
       "key": "page/7000049",
       "name": "Fee Ranges",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.ReceivablesPayables"
     },
     {
       "key": "page/7000050",
       "name": "Payment Orders",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Purchases.Payables"
     },
     {
       "key": "page/7000051",
       "name": "Payment Orders List",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Purchases.Payables"
     },
     {
       "key": "page/7000052",
       "name": "Payment Orders Maturity",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Purchases.Payables"
     },
     {
       "key": "page/7000053",
       "name": "Payment Orders Analysis",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Purchases.Payables"
     },
     {
       "key": "page/7000054",
       "name": "Posted Payment Orders",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Purchases.History"
     },
     {
       "key": "page/7000055",
       "name": "Posted Payment Orders List",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Purchases.History"
     },
     {
       "key": "page/7000057",
       "name": "Posted Payment Orders Maturity",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Purchases.History"
     },
     {
       "key": "page/7000058",
       "name": "Post. Pmt. Ord. Maturity Lin.",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Purchases.History"
     },
     {
       "key": "page/7000059",
       "name": "Post. Payment Orders Analysis",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Purchases.History"
     },
     {
       "key": "page/7000060",
       "name": "Closed Payment Orders",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Purchases.Payables"
     },
     {
       "key": "page/7000061",
       "name": "Closed Payment Orders List",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Purchases.Payables"
     },
     {
       "key": "page/7000062",
       "name": "Closed Pmt. Ord. Analysis",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Purchases.Payables"
     },
     {
       "key": "page/7000063",
       "name": "Customer Ratings",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Sales.Receivables"
     },
     {
       "key": "page/7000064",
       "name": "Posted Bill Group Select.",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Sales.History"
     },
     {
       "key": "page/7000065",
       "name": "Posted Payment Orders Select.",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Purchases.History"
     },
     {
       "key": "page/7000066",
       "name": "Bank Cat. Posted Receiv. Bills",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Sales.Receivables"
     },
     {
       "key": "page/7000067",
       "name": "Posted Bills",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.ReceivablesPayables"
     },
     {
       "key": "page/7000068",
       "name": "Posted Bills Analysis",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Sales.History"
     },
     {
       "key": "page/7000069",
       "name": "Posted Receiv. Bills Maturity",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Sales.History"
     },
     {
       "key": "page/7000070",
       "name": "Posted Bills Maturity Lin.",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Sales.History"
     },
     {
       "key": "page/7000071",
       "name": "Bank Cat. Posted Payable Bills",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Purchases.Payables"
     },
     {
       "key": "page/7000072",
       "name": "Posted Payable Bills Maturity",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Sales.History"
     },
     {
       "key": "page/7000073",
       "name": "Suffixes",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Sales.Receivables"
     },
     {
       "key": "page/7000075",
       "name": "Docs. in PO Subform",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Purchases.Payables"
     },
     {
       "key": "page/7000076",
       "name": "Docs. in Posted PO Subform",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Purchases.Payables"
     },
     {
       "key": "page/7000077",
       "name": "Docs. in Closed PO Subform",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Purchases.Payables"
     },
     {
       "key": "pageextension/10710",
       "name": "Service Order Archive ES",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Service.Contract"
     },
     {
       "key": "pageextension/10730",
       "name": "Service Order ES",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Service.Document"
     },
     {
       "key": "pageextension/10731",
       "name": "Posted Service Credit Memos ES",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Service.History"
     },
     {
       "key": "pageextension/10732",
       "name": "Posted Service Credit Memo ES",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Service.History"
     },
     {
       "key": "pageextension/10733",
       "name": "Service Invoice ES",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Service.Document"
     },
     {
       "key": "pageextension/10735",
       "name": "Service Credit Memo ES",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Service.Document"
     },
     {
       "key": "pageextension/10736",
       "name": "Posted Service Inv. Update ES",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Service.History"
     },
     {
       "key": "pageextension/10737",
       "name": "Posted Service Invoices ES",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Service.History"
     },
     {
       "key": "pageextension/10738",
       "name": "Posted Service Invoice ES",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Service.History"
     },
     {
       "key": "pageextension/7000000",
       "name": "SII Purchase Credit Memo",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "pageextension/7000001",
       "name": "SII Purchase Invoice",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "pageextension/7000002",
       "name": "SII Purchase Order",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "pageextension/7000003",
       "name": "SII Purchase Return Order",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "pageextension/7000004",
       "name": "SII Posted Purch. Credit Memo",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "pageextension/7000005",
       "name": "SII Posted Purchase Invoice",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "pageextension/7000006",
       "name": "SII Sales Credit Memo",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "pageextension/7000007",
       "name": "SII Sales Invoice",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "pageextension/7000008",
       "name": "SII Sales Order",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "pageextension/7000009",
       "name": "SII Sales Return Order",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "pageextension/7000010",
       "name": "SII Posted Sales Credit Memo",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "pageextension/7000011",
       "name": "SII Posted Sales Invoice",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "pageextension/7000027",
       "name": "SII Payment Methods",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "pageextension/7000030",
       "name": "SII O365 Activities",
-      "change": "added"
+      "change": "added",
+      "ns": null
     },
     {
       "key": "pageextension/7000031",
       "name": "SII Accountant Activities",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.RoleCenters"
     },
     {
       "key": "pageextension/7000032",
       "name": "SII Account Manager Activities",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.RoleCenters"
     },
     {
       "key": "pageextension/7000033",
       "name": "SII Acc. Payables Activities",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.RoleCenters"
     },
     {
       "key": "pageextension/7000035",
       "name": "SII Acc. Receivable Activities",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.RoleCenters"
     },
     {
       "key": "pageextension/7000036",
       "name": "SII VAT Clauses",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "pageextension/7000037",
       "name": "SII VAT Posting Setup",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "pageextension/7000039",
       "name": "SII Bookkeeper Activities",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.RoleCenters"
     },
     {
       "key": "pageextension/7000040",
       "name": "SII Finance Manager RC",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.RoleCenters"
     },
     {
       "key": "pageextension/7000041",
       "name": "SII AccountantPortal Act. Cues",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.AccountantPortal"
     },
     {
       "key": "pageextension/7000042",
       "name": "SII PostedPurchaseCreditMemos",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Purchases.History"
     },
     {
       "key": "pageextension/7000043",
       "name": "SII Posted Purchase Invoices",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Purchases.History"
     },
     {
       "key": "pageextension/7000045",
       "name": "SII VAT Posting Setup Card",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Setup"
     },
     {
       "key": "pageextension/7000046",
       "name": "SII Posted Sales Credit Memos",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Sales.History"
     },
     {
       "key": "pageextension/7000047",
       "name": "SII Posted Sales Invoices",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Sales.History"
     },
     {
       "key": "pageextension/7000048",
       "name": "SII Pstd. Sales Cr.Memo Update",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Sales.History"
     },
     {
       "key": "pageextension/7000049",
       "name": "SII SO Processor Activities",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Sales.RoleCenters"
     },
     {
       "key": "pageextension/7000051",
       "name": "SII Posted Purch.CrMemo Update",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Purchases.History"
     },
     {
       "key": "permissionset/1001",
       "name": "LOCAL",
       "change": "replaced",
+      "ns": "System.Security.AccessControl",
       "properties": [
         {
           "name": "Assignable",
@@ -7128,6 +7392,7 @@
       "key": "permissionset/1002",
       "name": "LOCAL READ",
       "change": "replaced",
+      "ns": "System.Security.AccessControl",
       "properties": [
         {
           "name": "Assignable",
@@ -7150,6 +7415,7 @@
       "key": "permissionset/1083",
       "name": "Bank Accounts - View",
       "change": "replaced",
+      "ns": "System.Security.AccessControl",
       "properties": [
         {
           "name": "Permissions",
@@ -7162,6 +7428,7 @@
       "key": "permissionset/2332",
       "name": "D365 GLOBAL DIM MGT",
       "change": "replaced",
+      "ns": "System.Security.AccessControl",
       "properties": [
         {
           "name": "Permissions",
@@ -7174,6 +7441,7 @@
       "key": "permissionset/4103",
       "name": "General Ledger Journals - Edit",
       "change": "replaced",
+      "ns": "System.Security.AccessControl",
       "properties": [
         {
           "name": "Permissions",
@@ -7185,17 +7453,20 @@
     {
       "key": "permissionsetextension/1001",
       "name": "SII LOCAL",
-      "change": "added"
+      "change": "added",
+      "ns": "System.Security.AccessControl"
     },
     {
       "key": "permissionsetextension/7000002",
       "name": "SII LOCAL READ",
-      "change": "added"
+      "change": "added",
+      "ns": "System.Security.AccessControl"
     },
     {
       "key": "report/6",
       "name": "Trial Balance",
       "change": "replaced",
+      "ns": "Microsoft.Finance.GeneralLedger.Reports",
       "procedures": [
         {
           "id": "startingperiod(date)",
@@ -7424,6 +7695,7 @@
       "key": "report/12",
       "name": "VAT Statement",
       "change": "replaced",
+      "ns": "Microsoft.Finance.VAT.Reporting",
       "procedures": [
         {
           "id": "calclinetotal2c(record \"vat statement line\",integer)",
@@ -7794,6 +8066,7 @@
       "key": "report/20",
       "name": "Calc. and Post VAT Settlement",
       "change": "replaced",
+      "ns": "Microsoft.Finance.VAT.Reporting",
       "properties": [
         {
           "name": "Permissions",
@@ -7806,6 +8079,7 @@
       "key": "report/86",
       "name": "Adjust Add. Reporting Currency",
       "change": "replaced",
+      "ns": "Microsoft.Finance.GeneralLedger.Setup",
       "properties": [
         {
           "name": "Permissions",
@@ -7818,6 +8092,7 @@
       "key": "report/94",
       "name": "Close Income Statement",
       "change": "replaced",
+      "ns": "Microsoft.Finance.GeneralLedger.Setup",
       "properties": [
         {
           "name": "Permissions",
@@ -8035,6 +8310,7 @@
       "key": "report/105",
       "name": "Customer - Summary Aging",
       "change": "replaced",
+      "ns": "Microsoft.Sales.Reports",
       "procedures": [
         {
           "id": "initializerequest(date,text[1024],boolean)",
@@ -8097,6 +8373,7 @@
       "key": "report/117",
       "name": "Reminder",
       "change": "replaced",
+      "ns": "Microsoft.Sales.Reminder",
       "procedures": [
         {
           "id": "showcashaccountingcriteria(record \"issued reminder header\")",
@@ -8131,6 +8408,7 @@
       "key": "report/118",
       "name": "Finance Charge Memo",
       "change": "replaced",
+      "ns": "Microsoft.Sales.FinanceCharge",
       "procedures": [
         {
           "id": "showcashaccountingcriteria(record \"issued fin. charge memo header\")",
@@ -8165,6 +8443,7 @@
       "key": "report/393",
       "name": "Suggest Vendor Payments",
       "change": "replaced",
+      "ns": "Microsoft.Purchases.Payables",
       "procedures": [
         {
           "id": "calculategenjnllineamountlcy(decimal)",
@@ -8192,6 +8471,7 @@
       "key": "report/405",
       "name": "Order",
       "change": "replaced",
+      "ns": "Microsoft.Purchases.Document",
       "procedures": [
         {
           "id": "showcashaccountingcriteria(record \"purchase header\")",
@@ -8226,6 +8506,7 @@
       "key": "report/406",
       "name": "Purchase - Invoice",
       "change": "replaced",
+      "ns": "Microsoft.Purchases.History",
       "procedures": [
         {
           "id": "showcashaccountingcriteria(record \"purch. inv. header\")",
@@ -8260,6 +8541,7 @@
       "key": "report/407",
       "name": "Purchase - Credit Memo",
       "change": "replaced",
+      "ns": "Microsoft.Purchases.History",
       "procedures": [
         {
           "id": "showcashaccountingcriteria(record \"purch. cr. memo hdr.\")",
@@ -8308,6 +8590,7 @@
       "key": "report/840",
       "name": "Suggest Worksheet Lines",
       "change": "replaced",
+      "ns": "Microsoft.CashFlow.Worksheet",
       "procedures": [
         {
           "id": "splitsalesinv(record \"sales header\",record \"cash flow worksheet line\",decimal,decimal)",
@@ -8419,6 +8702,7 @@
       "key": "report/1307",
       "name": "Standard Sales - Credit Memo",
       "change": "replaced",
+      "ns": "Microsoft.Sales.History",
       "procedures": [
         {
           "id": "insertvatamountline(record \"vat amount line\",record \"sales cr.memo line\",decimal)",
@@ -8481,6 +8765,7 @@
       "key": "report/1401",
       "name": "Check",
       "change": "replaced",
+      "ns": "Microsoft.Bank.Check",
       "procedures": [
         {
           "id": "addtonotext(array[2] of text[80],integer,text[80])",
@@ -8878,342 +9163,410 @@
     {
       "key": "report/10700",
       "name": "Set Period Trans. Nos.",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.GeneralLedger.Reports"
     },
     {
       "key": "report/10702",
       "name": "Customer - Annual Declaration",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Sales.Reports"
     },
     {
       "key": "report/10703",
       "name": "Vendor - Annual Declaration",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Purchases.Reports"
     },
     {
       "key": "report/10704",
       "name": "Sales Invoice Book",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Sales.Reports"
     },
     {
       "key": "report/10705",
       "name": "Purchases Invoice Book",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Purchases.Reports"
     },
     {
       "key": "report/10706",
       "name": "Account - Official Acc. Book",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.GeneralLedger.Reports"
     },
     {
       "key": "report/10707",
       "name": "Make 347 Declaration",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Reporting"
     },
     {
       "key": "report/10708",
       "name": "Make 347 Declaration Labels",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Reporting"
     },
     {
       "key": "report/10709",
       "name": "Make 349 Declaration Labels",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Reporting"
     },
     {
       "key": "report/10710",
       "name": "Make 349 Declaration",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Reporting"
     },
     {
       "key": "report/10711",
       "name": "Detail Account Statement",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.GeneralLedger.Reports"
     },
     {
       "key": "report/10712",
       "name": "Purchases - AutoInvoice",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Purchases.Document"
     },
     {
       "key": "report/10713",
       "name": "Purchases - AutoCredit Memo",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Purchases.Document"
     },
     {
       "key": "report/10714",
       "name": "AutoInvoices List",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Purchases.Reports"
     },
     {
       "key": "report/10715",
       "name": "Telematic VAT Declaration",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Reporting"
     },
     {
       "key": "report/10716",
       "name": "Official Acc.Summarized Book",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.GeneralLedger.Reports"
     },
     {
       "key": "report/10717",
       "name": "Normalized Account Schedule",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.FinancialReports"
     },
     {
       "key": "report/10718",
       "name": "XML VAT Declaration",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Reporting"
     },
     {
       "key": "report/10720",
       "name": "Export Schedules to ASC format",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.FinancialReports"
     },
     {
       "key": "report/10721",
       "name": "Export Electronic Payments",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "report/10722",
       "name": "Void Electronic Payments",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "report/10723",
       "name": "Main Accounting Book",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.GeneralLedger.Reports"
     },
     {
       "key": "report/10725",
       "name": "Detail Acc. Stat.- C&O Entries",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.GeneralLedger.Reports"
     },
     {
       "key": "report/10740",
       "name": "Long Term Sales Invoices",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Sales.Reports"
     },
     {
       "key": "report/10741",
       "name": "Long Term Purchase Invoices",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Purchases.Reports"
     },
     {
       "key": "report/10742",
       "name": "Test VAT Registration Number",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Reporting"
     },
     {
       "key": "report/10743",
       "name": "Make 340 Declaration",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Reporting"
     },
     {
       "key": "report/10746",
       "name": "Not Fully Applied Cash Pmts.",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Sales.Reports"
     },
     {
       "key": "report/10747",
       "name": "Customer - Overdue Payments",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Sales.Reports"
     },
     {
       "key": "report/10748",
       "name": "Vendor - Overdue Payments",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Purchases.Reports"
     },
     {
       "key": "report/10790",
       "name": "Service Order (ES)",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Service.Document"
     },
     {
       "key": "report/10791",
       "name": "Service Credit Memo (ES)",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Service.History"
     },
     {
       "key": "report/10792",
       "name": "Service Invoice (ES)",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Service.History"
     },
     {
       "key": "report/7000000",
       "name": "Bill Group Listing",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Sales.Receivables"
     },
     {
       "key": "report/7000001",
       "name": "Posted Bill Group Listing",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Sales.History"
     },
     {
       "key": "report/7000002",
       "name": "Closed Bill Group Listing",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Sales.Receivables"
     },
     {
       "key": "report/7000003",
       "name": "Receivable Bill",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Sales.Receivables"
     },
     {
       "key": "report/7000004",
       "name": "Bank - Summ. Bill Group",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Sales.Receivables"
     },
     {
       "key": "report/7000005",
       "name": "Bank - Risk",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Reports"
     },
     {
       "key": "report/7000006",
       "name": "Customer - Due Payments",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Sales.Reports"
     },
     {
       "key": "report/7000007",
       "name": "Vendor - Due Payments",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Purchases.Reports"
     },
     {
       "key": "report/7000008",
       "name": "Bill Group - Test",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Sales.Receivables"
     },
     {
       "key": "report/7000009",
       "name": "Payment Order - Test",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Purchases.Payables"
     },
     {
       "key": "report/7000010",
       "name": "Payment Order Listing",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Purchases.Payables"
     },
     {
       "key": "report/7000011",
       "name": "Posted Payment Order Listing",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Purchases.History"
     },
     {
       "key": "report/7000012",
       "name": "Closed Payment Order Listing",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Purchases.Payables"
     },
     {
       "key": "report/7000050",
       "name": "Notice Assignment Credits",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Sales.Reports"
     },
     {
       "key": "report/7000060",
       "name": "PO - Export N34.1",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Purchases.Payables"
     },
     {
       "key": "report/7000061",
       "name": "Void PO - Export",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Purchases.Payables"
     },
     {
       "key": "report/7000080",
       "name": "Post Payment Order",
-      "change": "added"
+      "change": "added",
+      "ns": null
     },
     {
       "key": "report/7000082",
       "name": "Settle Docs. in Posted PO",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Purchases.Payables"
     },
     {
       "key": "report/7000083",
       "name": "Redraw Payable Bills",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Purchases.Payables"
     },
     {
       "key": "report/7000084",
       "name": "Partial Settl.- Receivable",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Sales.Receivables"
     },
     {
       "key": "report/7000085",
       "name": "Partial Settl. - Payable",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Purchases.Payables"
     },
     {
       "key": "report/7000086",
       "name": "Batch Settl. Posted Bill Grs.",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Sales.Receivables"
     },
     {
       "key": "report/7000087",
       "name": "Batch Settl. Posted POs",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Purchases.Payables"
     },
     {
       "key": "report/7000089",
       "name": "Bill group - Export factoring",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Sales.Receivables"
     },
     {
       "key": "report/7000090",
       "name": "Payment order - Export N34",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Purchases.Payables"
     },
     {
       "key": "report/7000091",
       "name": "Bill group - Export N58",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Sales.Receivables"
     },
     {
       "key": "report/7000092",
       "name": "Bill group - Export N19",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Sales.Receivables"
     },
     {
       "key": "report/7000093",
       "name": "Bill group - Export N32",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Sales.Receivables"
     },
     {
       "key": "report/7000094",
       "name": "Categorize Posted Documents",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Sales.Receivables"
     },
     {
       "key": "report/7000095",
       "name": "Categorize Documents",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Sales.Receivables"
     },
     {
       "key": "report/7000096",
       "name": "Redraw Receivable Bills",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Sales.Receivables"
     },
     {
       "key": "report/7000097",
       "name": "Reject Docs.",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.ReceivablesPayables"
     },
     {
       "key": "report/7000098",
       "name": "Settle Docs. in Post. Bill Gr.",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Sales.Receivables"
     },
     {
       "key": "report/7000099",
       "name": "Post Bill Group",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Sales.Receivables"
     },
     {
       "key": "reportextension/6485",
       "name": "Serv. Suggest Worksheet Lines",
       "change": "replaced",
+      "ns": "Microsoft.CashFlow.Worksheet",
       "events": [
         {
           "id": "oninsertcflineforservicelineonbeforeinserttempcfworksheetline(record \"cash flow worksheet line\",record \"cash flow forecast\",record \"service line\",record \"service header\",boolean)",
@@ -9312,6 +9665,7 @@
       "key": "table/3",
       "name": "Payment Terms",
       "change": "replaced",
+      "ns": "Microsoft.Foundation.PaymentTerms",
       "fields": [
         {
           "id": "10710",
@@ -9513,6 +9867,7 @@
       "key": "table/4",
       "name": "Currency",
       "change": "replaced",
+      "ns": "Microsoft.Finance.Currency",
       "fields": [
         {
           "id": "7000000",
@@ -9562,6 +9917,7 @@
       "key": "table/5",
       "name": "Finance Charge Terms",
       "change": "replaced",
+      "ns": "Microsoft.Sales.FinanceCharge",
       "procedures": [
         {
           "id": "calcfinchargesamt(date,code[10],code[10],decimal,integer)",
@@ -9623,6 +9979,7 @@
       "key": "table/9",
       "name": "Country/Region",
       "change": "replaced",
+      "ns": "Microsoft.Foundation.Address",
       "fields": [
         {
           "id": "10700",
@@ -9695,6 +10052,7 @@
       "key": "table/15",
       "name": "G/L Account",
       "change": "replaced",
+      "ns": "Microsoft.Finance.GeneralLedger.Account",
       "fields": [
         {
           "id": "1",
@@ -9858,6 +10216,7 @@
       "key": "table/17",
       "name": "G/L Entry",
       "change": "replaced",
+      "ns": "Microsoft.Finance.GeneralLedger.Ledger",
       "fields": [
         {
           "id": "10723",
@@ -9988,6 +10347,7 @@
       "key": "table/18",
       "name": "Customer",
       "change": "replaced",
+      "ns": "Microsoft.Sales.Customer",
       "fields": [
         {
           "id": "10700",
@@ -10041,6 +10401,7 @@
       "key": "table/19",
       "name": "Cust. Invoice Disc.",
       "change": "replaced",
+      "ns": "Microsoft.Sales.Pricing",
       "procedures": [
         {
           "id": "getrec(code[20],code[10],date,decimal,boolean)",
@@ -10147,6 +10508,7 @@
       "key": "table/21",
       "name": "Cust. Ledger Entry",
       "change": "replaced",
+      "ns": "Microsoft.Sales.Receivables",
       "fields": [
         {
           "id": "15",
@@ -10572,6 +10934,7 @@
       "key": "table/23",
       "name": "Vendor",
       "change": "replaced",
+      "ns": "Microsoft.Purchases.Vendor",
       "fields": [
         {
           "id": "10700",
@@ -10634,6 +10997,7 @@
       "key": "table/24",
       "name": "Vendor Invoice Disc.",
       "change": "replaced",
+      "ns": "Microsoft.Purchases.Vendor",
       "procedures": [
         {
           "id": "getrec(code[20],code[10],date,decimal,boolean)",
@@ -10716,6 +11080,7 @@
       "key": "table/25",
       "name": "Vendor Ledger Entry",
       "change": "replaced",
+      "ns": "Microsoft.Purchases.Payables",
       "fields": [
         {
           "id": "91",
@@ -10938,6 +11303,7 @@
       "key": "table/27",
       "name": "Item",
       "change": "replaced",
+      "ns": "Microsoft.Inventory.Item",
       "fields": [
         {
           "id": "10700",
@@ -10963,6 +11329,7 @@
       "key": "table/32",
       "name": "Item Ledger Entry",
       "change": "replaced",
+      "ns": "Microsoft.Inventory.Ledger",
       "fields": [
         {
           "id": "10700",
@@ -10994,6 +11361,7 @@
       "key": "table/36",
       "name": "Sales Header",
       "change": "replaced",
+      "ns": "Microsoft.Sales.Document",
       "fields": [
         {
           "id": "10705",
@@ -11178,6 +11546,7 @@
       "key": "table/37",
       "name": "Sales Line",
       "change": "replaced",
+      "ns": "Microsoft.Sales.Document",
       "fields": [
         {
           "id": "10701",
@@ -11260,6 +11629,7 @@
       "key": "table/38",
       "name": "Purchase Header",
       "change": "replaced",
+      "ns": "Microsoft.Purchases.Document",
       "fields": [
         {
           "id": "10702",
@@ -11395,6 +11765,7 @@
       "key": "table/39",
       "name": "Purchase Line",
       "change": "replaced",
+      "ns": "Microsoft.Purchases.Document",
       "fields": [
         {
           "id": "10701",
@@ -11452,6 +11823,7 @@
       "key": "table/45",
       "name": "G/L Register",
       "change": "replaced",
+      "ns": "Microsoft.Finance.GeneralLedger.Ledger",
       "fields": [
         {
           "id": "10700",
@@ -11549,6 +11921,7 @@
       "key": "table/79",
       "name": "Company Information",
       "change": "replaced",
+      "ns": "Microsoft.Foundation.Company",
       "fields": [
         {
           "id": "11",
@@ -11809,6 +12182,7 @@
       "key": "table/80",
       "name": "Gen. Journal Template",
       "change": "replaced",
+      "ns": "Microsoft.Finance.GeneralLedger.Journal",
       "fields": [
         {
           "id": "18",
@@ -11893,6 +12267,7 @@
       "key": "table/81",
       "name": "Gen. Journal Line",
       "change": "replaced",
+      "ns": "Microsoft.Finance.GeneralLedger.Journal",
       "fields": [
         {
           "id": "10700",
@@ -12157,6 +12532,7 @@
       "key": "table/83",
       "name": "Item Journal Line",
       "change": "replaced",
+      "ns": "Microsoft.Inventory.Journal",
       "fields": [
         {
           "id": "10700",
@@ -12204,6 +12580,7 @@
       "key": "table/84",
       "name": "Acc. Schedule Name",
       "change": "replaced",
+      "ns": "Microsoft.Finance.FinancialReports",
       "fields": [
         {
           "id": "10700",
@@ -12225,6 +12602,7 @@
       "key": "table/85",
       "name": "Acc. Schedule Line",
       "change": "replaced",
+      "ns": "Microsoft.Finance.FinancialReports",
       "fields": [
         {
           "id": "3",
@@ -12356,6 +12734,7 @@
       "key": "table/92",
       "name": "Customer Posting Group",
       "change": "replaced",
+      "ns": "Microsoft.Sales.Customer",
       "fields": [
         {
           "id": "7000000",
@@ -12589,6 +12968,7 @@
       "key": "table/93",
       "name": "Vendor Posting Group",
       "change": "replaced",
+      "ns": "Microsoft.Purchases.Vendor",
       "fields": [
         {
           "id": "7000000",
@@ -12706,6 +13086,7 @@
       "key": "table/96",
       "name": "G/L Budget Entry",
       "change": "replaced",
+      "ns": "Microsoft.Finance.GeneralLedger.Budget",
       "fields": [
         {
           "id": "10720",
@@ -12818,6 +13199,7 @@
       "key": "table/98",
       "name": "General Ledger Setup",
       "change": "replaced",
+      "ns": "Microsoft.Finance.GeneralLedger.Setup",
       "fields": [
         {
           "id": "67",
@@ -12951,6 +13333,7 @@
       "key": "table/110",
       "name": "Sales Shipment Header",
       "change": "replaced",
+      "ns": "Microsoft.Sales.History",
       "fields": [
         {
           "id": "7000000",
@@ -13011,6 +13394,7 @@
       "key": "table/111",
       "name": "Sales Shipment Line",
       "change": "replaced",
+      "ns": "Microsoft.Sales.History",
       "fields": [
         {
           "id": "10701",
@@ -13050,6 +13434,7 @@
       "key": "table/112",
       "name": "Sales Invoice Header",
       "change": "replaced",
+      "ns": "Microsoft.Sales.History",
       "fields": [
         {
           "id": "7000000",
@@ -13211,6 +13596,7 @@
       "key": "table/113",
       "name": "Sales Invoice Line",
       "change": "replaced",
+      "ns": "Microsoft.Sales.History",
       "fields": [
         {
           "id": "10701",
@@ -13250,6 +13636,7 @@
       "key": "table/114",
       "name": "Sales Cr.Memo Header",
       "change": "replaced",
+      "ns": "Microsoft.Sales.History",
       "fields": [
         {
           "id": "10705",
@@ -13325,6 +13712,7 @@
       "key": "table/115",
       "name": "Sales Cr.Memo Line",
       "change": "replaced",
+      "ns": "Microsoft.Sales.History",
       "fields": [
         {
           "id": "10701",
@@ -13363,6 +13751,7 @@
       "key": "table/120",
       "name": "Purch. Rcpt. Header",
       "change": "replaced",
+      "ns": "Microsoft.Purchases.History",
       "fields": [
         {
           "id": "10702",
@@ -13438,6 +13827,7 @@
       "key": "table/122",
       "name": "Purch. Inv. Header",
       "change": "replaced",
+      "ns": "Microsoft.Purchases.History",
       "fields": [
         {
           "id": "10700",
@@ -13641,6 +14031,7 @@
       "key": "table/123",
       "name": "Purch. Inv. Line",
       "change": "replaced",
+      "ns": "Microsoft.Purchases.History",
       "fields": [
         {
           "id": "10701",
@@ -13679,6 +14070,7 @@
       "key": "table/124",
       "name": "Purch. Cr. Memo Hdr.",
       "change": "replaced",
+      "ns": "Microsoft.Purchases.History",
       "fields": [
         {
           "id": "10700",
@@ -13783,6 +14175,7 @@
       "key": "table/125",
       "name": "Purch. Cr. Memo Line",
       "change": "replaced",
+      "ns": "Microsoft.Purchases.History",
       "fields": [
         {
           "id": "10701",
@@ -13821,6 +14214,7 @@
       "key": "table/169",
       "name": "Job Ledger Entry",
       "change": "replaced",
+      "ns": "Microsoft.Projects.Project.Ledger",
       "fields": [
         {
           "id": "10700",
@@ -13843,6 +14237,7 @@
       "key": "table/181",
       "name": "Posted Gen. Journal Line",
       "change": "replaced",
+      "ns": "Microsoft.Finance.GeneralLedger.Journal",
       "fields": [
         {
           "id": "10700",
@@ -14201,6 +14596,7 @@
       "key": "table/220",
       "name": "Business Unit",
       "change": "replaced",
+      "ns": "Microsoft.Finance.Consolidation",
       "fields": [
         {
           "id": "10700",
@@ -14249,6 +14645,7 @@
       "key": "table/225",
       "name": "Post Code",
       "change": "replaced",
+      "ns": "Microsoft.Foundation.Address",
       "fields": [
         {
           "id": "10700",
@@ -14315,1234 +14712,8 @@
       "key": "table/242",
       "name": "Source Code Setup",
       "change": "replaced",
-      "properties": [
-        {
-          "name": "MovedFrom",
-          "from": "437dbf0e-84ff-417a-965d-ed2bb9650972",
-          "to": null
-        },
-        {
-          "name": "MovedTo",
-          "from": null,
-          "to": "f3552374-a1f2-4356-848e-196002525837"
-        },
-        {
-          "name": "ObsoleteReason",
-          "from": null,
-          "to": "Source Code Setup is moved to Business Foundation"
-        },
-        {
-          "name": "ObsoleteState",
-          "from": null,
-          "to": "Moved"
-        },
-        {
-          "name": "ObsoleteTag",
-          "from": null,
-          "to": "25.0"
-        }
-      ],
+      "ns": "Microsoft.Foundation.AuditCodes",
       "fields": [
-        {
-          "id": "2",
-          "name": "Sales",
-          "change": "added",
-          "to": {
-            "name": "Sales",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Sales",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "3",
-          "name": "Purchases",
-          "change": "added",
-          "to": {
-            "name": "Purchases",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Purchases",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "4",
-          "name": "Inventory Post Cost",
-          "change": "added",
-          "to": {
-            "name": "Inventory Post Cost",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Inventory Post Cost",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "5",
-          "name": "Exchange Rate Adjmt.",
-          "change": "added",
-          "to": {
-            "name": "Exchange Rate Adjmt.",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Exchange Rate Adjmt.",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "6",
-          "name": "Post Recognition",
-          "change": "added",
-          "to": {
-            "name": "Post Recognition",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Post Recognition",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "7",
-          "name": "Post Value",
-          "change": "added",
-          "to": {
-            "name": "Post Value",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Post Value",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "8",
-          "name": "Close Income Statement",
-          "change": "added",
-          "to": {
-            "name": "Close Income Statement",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Close Income Statement",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "9",
-          "name": "Consolidation",
-          "change": "added",
-          "to": {
-            "name": "Consolidation",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Consolidation",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "10",
-          "name": "General Journal",
-          "change": "added",
-          "to": {
-            "name": "General Journal",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "General Journal",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "11",
-          "name": "Sales Journal",
-          "change": "added",
-          "to": {
-            "name": "Sales Journal",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Sales Journal",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "12",
-          "name": "Purchase Journal",
-          "change": "added",
-          "to": {
-            "name": "Purchase Journal",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Purchase Journal",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "13",
-          "name": "Cash Receipt Journal",
-          "change": "added",
-          "to": {
-            "name": "Cash Receipt Journal",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Cash Receipt Journal",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "14",
-          "name": "Payment Journal",
-          "change": "added",
-          "to": {
-            "name": "Payment Journal",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Payment Journal",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "16",
-          "name": "Item Journal",
-          "change": "added",
-          "to": {
-            "name": "Item Journal",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Item Journal",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "19",
-          "name": "Resource Journal",
-          "change": "added",
-          "to": {
-            "name": "Resource Journal",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Resource Journal",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "20",
-          "name": "Job Journal",
-          "change": "added",
-          "to": {
-            "name": "Job Journal",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Project Journal",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "21",
-          "name": "Sales Entry Application",
-          "change": "added",
-          "to": {
-            "name": "Sales Entry Application",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Sales Entry Application",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "22",
-          "name": "Purchase Entry Application",
-          "change": "added",
-          "to": {
-            "name": "Purchase Entry Application",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Purchase Entry Application",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "23",
-          "name": "VAT Settlement",
-          "change": "added",
-          "to": {
-            "name": "VAT Settlement",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "VAT Settlement",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "24",
-          "name": "Compress G/L",
-          "change": "added",
-          "to": {
-            "name": "Compress G/L",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Compress G/L",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "25",
-          "name": "Compress VAT Entries",
-          "change": "added",
-          "to": {
-            "name": "Compress VAT Entries",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Compress VAT Entries",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "26",
-          "name": "Compress Cust. Ledger",
-          "change": "added",
-          "to": {
-            "name": "Compress Cust. Ledger",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Compress Cust. Ledger",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "27",
-          "name": "Compress Vend. Ledger",
-          "change": "added",
-          "to": {
-            "name": "Compress Vend. Ledger",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Compress Vend. Ledger",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "28",
-          "name": "Compress Item Ledger",
-          "change": "added",
-          "to": {
-            "name": "Compress Item Ledger",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Compress Item Ledger",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "31",
-          "name": "Compress Res. Ledger",
-          "change": "added",
-          "to": {
-            "name": "Compress Res. Ledger",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Compress Res. Ledger",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "32",
-          "name": "Compress Job Ledger",
-          "change": "added",
-          "to": {
-            "name": "Compress Job Ledger",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Compress Job Ledger",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "33",
-          "name": "Item Reclass. Journal",
-          "change": "added",
-          "to": {
-            "name": "Item Reclass. Journal",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Item Reclass. Journal",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "34",
-          "name": "Phys. Inventory Journal",
-          "change": "added",
-          "to": {
-            "name": "Phys. Inventory Journal",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Phys. Inventory Journal",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "35",
-          "name": "Compress Bank Acc. Ledger",
-          "change": "added",
-          "to": {
-            "name": "Compress Bank Acc. Ledger",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Compress Bank Acc. Ledger",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "36",
-          "name": "Compress Check Ledger",
-          "change": "added",
-          "to": {
-            "name": "Compress Check Ledger",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Compress Check Ledger",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "37",
-          "name": "Financially Voided Check",
-          "change": "added",
-          "to": {
-            "name": "Financially Voided Check",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Financially Voided Check",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "38",
-          "name": "Finance Charge Memo",
-          "change": "added",
-          "to": {
-            "name": "Finance Charge Memo",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Finance Charge Memo",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "39",
-          "name": "Reminder",
-          "change": "added",
-          "to": {
-            "name": "Reminder",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Reminder",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "40",
-          "name": "Deleted Document",
-          "change": "added",
-          "to": {
-            "name": "Deleted Document",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Deleted Document",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "41",
-          "name": "Adjust Add. Reporting Currency",
-          "change": "added",
-          "to": {
-            "name": "Adjust Add. Reporting Currency",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Adjust Add. Reporting Currency",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "42",
-          "name": "Trans. Bank Rec. to Gen. Jnl.",
-          "change": "added",
-          "to": {
-            "name": "Trans. Bank Rec. to Gen. Jnl.",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Trans. Bank Rec. to Gen. Jnl.",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "43",
-          "name": "IC General Journal",
-          "change": "added",
-          "to": {
-            "name": "IC General Journal",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "IC General Journal",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "44",
-          "name": "Unapplied Empl. Entry Appln.",
-          "change": "added",
-          "to": {
-            "name": "Unapplied Empl. Entry Appln.",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Unapplied Empl. Entry Appln.",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "45",
-          "name": "Unapplied Sales Entry Appln.",
-          "change": "added",
-          "to": {
-            "name": "Unapplied Sales Entry Appln.",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Unapplied Sales Entry Appln.",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "46",
-          "name": "Unapplied Purch. Entry Appln.",
-          "change": "added",
-          "to": {
-            "name": "Unapplied Purch. Entry Appln.",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Unapplied Purch. Entry Appln.",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "47",
-          "name": "Reversal",
-          "change": "added",
-          "to": {
-            "name": "Reversal",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Reversal",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "48",
-          "name": "Employee Entry Application",
-          "change": "added",
-          "to": {
-            "name": "Employee Entry Application",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Employee Entry Application",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "49",
-          "name": "Payment Reconciliation Journal",
-          "change": "added",
-          "to": {
-            "name": "Payment Reconciliation Journal",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Payment Reconciliation Journal",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "840",
-          "name": "Cash Flow Worksheet",
-          "change": "added",
-          "to": {
-            "name": "Cash Flow Worksheet",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Cash Flow Worksheet",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "900",
-          "name": "Assembly",
-          "change": "added",
-          "to": {
-            "name": "Assembly",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Assembly",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "1000",
-          "name": "Job G/L Journal",
-          "change": "added",
-          "to": {
-            "name": "Job G/L Journal",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Project G/L Journal",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "1001",
-          "name": "Job G/L WIP",
-          "change": "added",
-          "to": {
-            "name": "Job G/L WIP",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Project G/L WIP",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "1100",
-          "name": "G/L Entry to CA",
-          "change": "added",
-          "to": {
-            "name": "G/L Entry to CA",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "G/L Entry to CA",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "1102",
-          "name": "Cost Journal",
-          "change": "added",
-          "to": {
-            "name": "Cost Journal",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Cost Journal",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "1104",
-          "name": "Cost Allocation",
-          "change": "added",
-          "to": {
-            "name": "Cost Allocation",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Cost Allocation",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "1105",
-          "name": "Transfer Budget to Actual",
-          "change": "added",
-          "to": {
-            "name": "Transfer Budget to Actual",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Transfer Budget to Actual",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "1700",
-          "name": "General Deferral",
-          "change": "added",
-          "to": {
-            "name": "General Deferral",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "General Deferral",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "1701",
-          "name": "Sales Deferral",
-          "change": "added",
-          "to": {
-            "name": "Sales Deferral",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Sales Deferral",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "1702",
-          "name": "Purchase Deferral",
-          "change": "added",
-          "to": {
-            "name": "Purchase Deferral",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Purchase Deferral",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "5400",
-          "name": "Consumption Journal",
-          "change": "added",
-          "to": {
-            "name": "Consumption Journal",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Consumption Journal",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "5402",
-          "name": "Output Journal",
-          "change": "added",
-          "to": {
-            "name": "Output Journal",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Output Journal",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "5403",
-          "name": "Flushing",
-          "change": "added",
-          "to": {
-            "name": "Flushing",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Flushing",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "5404",
-          "name": "Capacity Journal",
-          "change": "added",
-          "to": {
-            "name": "Capacity Journal",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Capacity Journal",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "5500",
-          "name": "Production Journal",
-          "change": "added",
-          "to": {
-            "name": "Production Journal",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Production Journal",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "5502",
-          "name": "Production Order",
-          "change": "added",
-          "to": {
-            "name": "Production Order",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Production Order",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "5600",
-          "name": "Fixed Asset Journal",
-          "change": "added",
-          "to": {
-            "name": "Fixed Asset Journal",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Fixed Asset Journal",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "5601",
-          "name": "Fixed Asset G/L Journal",
-          "change": "added",
-          "to": {
-            "name": "Fixed Asset G/L Journal",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Fixed Asset G/L Journal",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "5602",
-          "name": "Insurance Journal",
-          "change": "added",
-          "to": {
-            "name": "Insurance Journal",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Insurance Journal",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "5603",
-          "name": "Compress FA Ledger",
-          "change": "added",
-          "to": {
-            "name": "Compress FA Ledger",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Compress FA Ledger",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "5604",
-          "name": "Compress Maintenance Ledger",
-          "change": "added",
-          "to": {
-            "name": "Compress Maintenance Ledger",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Compress Maintenance Ledger",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "5605",
-          "name": "Compress Insurance Ledger",
-          "change": "added",
-          "to": {
-            "name": "Compress Insurance Ledger",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Compress Insurance Ledger",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "5700",
-          "name": "Transfer",
-          "change": "added",
-          "to": {
-            "name": "Transfer",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Transfer",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "5800",
-          "name": "Revaluation Journal",
-          "change": "added",
-          "to": {
-            "name": "Revaluation Journal",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Revaluation Journal",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "5801",
-          "name": "Adjust Cost",
-          "change": "added",
-          "to": {
-            "name": "Adjust Cost",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Adjust Cost",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "5850",
-          "name": "Invt. Receipt",
-          "change": "added",
-          "to": {
-            "name": "Invt. Receipt",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Item Doc. Receipt",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "5851",
-          "name": "Invt. Shipment",
-          "change": "added",
-          "to": {
-            "name": "Invt. Shipment",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Item Doc. Shipment",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "5875",
-          "name": "Phys. Invt. Orders",
-          "change": "added",
-          "to": {
-            "name": "Phys. Invt. Orders",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Phys. Invt. Orders",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "7139",
-          "name": "Compress Item Budget",
-          "change": "added",
-          "to": {
-            "name": "Compress Item Budget",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Compress Item Budget",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "7300",
-          "name": "Whse. Item Journal",
-          "change": "added",
-          "to": {
-            "name": "Whse. Item Journal",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Whse. Item Journal",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "7302",
-          "name": "Whse. Phys. Invt. Journal",
-          "change": "added",
-          "to": {
-            "name": "Whse. Phys. Invt. Journal",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Whse. Phys. Invt. Journal",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "7303",
-          "name": "Whse. Reclassification Journal",
-          "change": "added",
-          "to": {
-            "name": "Whse. Reclassification Journal",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Whse. Reclassification Journal",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "7304",
-          "name": "Whse. Put-away",
-          "change": "added",
-          "to": {
-            "name": "Whse. Put-away",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Whse. Put-away",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "7305",
-          "name": "Whse. Pick",
-          "change": "added",
-          "to": {
-            "name": "Whse. Pick",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Whse. Pick",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "7306",
-          "name": "Whse. Movement",
-          "change": "added",
-          "to": {
-            "name": "Whse. Movement",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Whse. Movement",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
-        {
-          "id": "7307",
-          "name": "Compress Whse. Entries",
-          "change": "added",
-          "to": {
-            "name": "Compress Whse. Entries",
-            "type": "Code[10]",
-            "obsolete": null,
-            "clean": null,
-            "properties": {
-              "Caption": "Compress Whse. Entries",
-              "TableRelation": "Source Code"
-            }
-          }
-        },
         {
           "id": "7000000",
           "name": "Cartera Journal",
@@ -15558,20 +14729,13 @@
             }
           }
         }
-      ],
-      "obsolete": {
-        "from": null,
-        "to": {
-          "state": "Pending",
-          "tag": "25.0",
-          "reason": "Source Code Setup is moved to Business Foundation"
-        }
-      }
+      ]
     },
     {
       "key": "table/251",
       "name": "Gen. Product Posting Group",
       "change": "replaced",
+      "ns": "Microsoft.Finance.GeneralLedger.Setup",
       "fields": [
         {
           "id": "5",
@@ -15594,6 +14758,7 @@
       "key": "table/252",
       "name": "General Posting Setup",
       "change": "replaced",
+      "ns": "Microsoft.Finance.GeneralLedger.Setup",
       "fields": [
         {
           "id": "24",
@@ -15631,6 +14796,7 @@
       "key": "table/254",
       "name": "VAT Entry",
       "change": "replaced",
+      "ns": "Microsoft.Finance.VAT.Ledger",
       "fields": [
         {
           "id": "10700",
@@ -16311,6 +15477,7 @@
       "key": "table/256",
       "name": "VAT Statement Line",
       "change": "replaced",
+      "ns": "Microsoft.Finance.VAT.Reporting",
       "fields": [
         {
           "id": "10700",
@@ -16332,6 +15499,7 @@
       "key": "table/257",
       "name": "VAT Statement Name",
       "change": "replaced",
+      "ns": "Microsoft.Finance.VAT.Reporting",
       "fields": [
         {
           "id": "10700",
@@ -16355,6 +15523,7 @@
       "key": "table/259",
       "name": "Transport Method",
       "change": "replaced",
+      "ns": "Microsoft.Inventory.Intrastat",
       "fields": [
         {
           "id": "10700",
@@ -16376,6 +15545,7 @@
       "key": "table/263",
       "name": "Intrastat Jnl. Line",
       "change": "replaced",
+      "ns": "Microsoft.Inventory.Intrastat",
       "fields": [
         {
           "id": "14",
@@ -16607,6 +15777,7 @@
       "key": "table/265",
       "name": "Document Entry",
       "change": "replaced",
+      "ns": "Microsoft.Foundation.Navigate",
       "fields": [
         {
           "id": "7000000",
@@ -16628,6 +15799,7 @@
       "key": "table/270",
       "name": "Bank Account",
       "change": "replaced",
+      "ns": "Microsoft.Bank.BankAccount",
       "fields": [
         {
           "id": "13",
@@ -17708,6 +16880,7 @@
       "key": "table/271",
       "name": "Bank Account Ledger Entry",
       "change": "replaced",
+      "ns": "Microsoft.Bank.Ledger",
       "fields": [
         {
           "id": "7000000",
@@ -17729,6 +16902,7 @@
       "key": "table/272",
       "name": "Check Ledger Entry",
       "change": "replaced",
+      "ns": "Microsoft.Bank.Check",
       "fields": [
         {
           "id": "14",
@@ -17765,6 +16939,7 @@
       "key": "table/277",
       "name": "Bank Account Posting Group",
       "change": "replaced",
+      "ns": "Microsoft.Bank.BankAccount",
       "fields": [
         {
           "id": "7000000",
@@ -17847,6 +17022,7 @@
       "key": "table/284",
       "name": "Area",
       "change": "replaced",
+      "ns": "Microsoft.Inventory.Intrastat",
       "fields": [
         {
           "id": "10700",
@@ -17868,6 +17044,7 @@
       "key": "table/287",
       "name": "Customer Bank Account",
       "change": "replaced",
+      "ns": "Microsoft.Sales.Customer",
       "fields": [
         {
           "id": "14",
@@ -18060,6 +17237,7 @@
       "key": "table/288",
       "name": "Vendor Bank Account",
       "change": "replaced",
+      "ns": "Microsoft.Purchases.Vendor",
       "fields": [
         {
           "id": "14",
@@ -18266,6 +17444,7 @@
       "key": "table/289",
       "name": "Payment Method",
       "change": "replaced",
+      "ns": "Microsoft.Bank.BankAccount",
       "fields": [
         {
           "id": "7000000",
@@ -18345,6 +17524,7 @@
       "key": "table/290",
       "name": "VAT Amount Line",
       "change": "replaced",
+      "ns": "Microsoft.Finance.VAT.Calculation",
       "fields": [
         {
           "id": "10700",
@@ -18683,6 +17863,7 @@
       "key": "table/311",
       "name": "Sales & Receivables Setup",
       "change": "replaced",
+      "ns": "Microsoft.Sales.Setup",
       "fields": [
         {
           "id": "10700",
@@ -18746,6 +17927,7 @@
       "key": "table/312",
       "name": "Purchases & Payables Setup",
       "change": "replaced",
+      "ns": "Microsoft.Purchases.Setup",
       "fields": [
         {
           "id": "10700",
@@ -18823,6 +18005,7 @@
       "key": "table/324",
       "name": "VAT Product Posting Group",
       "change": "replaced",
+      "ns": "Microsoft.Finance.VAT.Setup",
       "fields": [
         {
           "id": "10703",
@@ -18846,6 +18029,7 @@
       "key": "table/325",
       "name": "VAT Posting Setup",
       "change": "replaced",
+      "ns": "Microsoft.Finance.VAT.Setup",
       "fields": [
         {
           "id": "3",
@@ -19152,6 +18336,7 @@
       "key": "table/331",
       "name": "Adjust Exchange Rate Buffer",
       "change": "replaced",
+      "ns": "Microsoft.Finance.Currency",
       "fields": [
         {
           "id": "7000000",
@@ -19202,6 +18387,7 @@
       "key": "table/363",
       "name": "Analysis View",
       "change": "replaced",
+      "ns": "Microsoft.Finance.Analysis",
       "fields": [
         {
           "id": "9",
@@ -19238,6 +18424,7 @@
       "key": "table/365",
       "name": "Analysis View Entry",
       "change": "replaced",
+      "ns": "Microsoft.Finance.Analysis",
       "fields": [
         {
           "id": "10720",
@@ -19312,6 +18499,7 @@
       "key": "table/366",
       "name": "Analysis View Budget Entry",
       "change": "replaced",
+      "ns": "Microsoft.Finance.Analysis",
       "fields": [
         {
           "id": "10720",
@@ -19404,6 +18592,7 @@
       "key": "table/379",
       "name": "Detailed Cust. Ledg. Entry",
       "change": "replaced",
+      "ns": "Microsoft.Sales.Receivables",
       "fields": [
         {
           "id": "10700",
@@ -19481,6 +18670,7 @@
       "key": "table/380",
       "name": "Detailed Vendor Ledg. Entry",
       "change": "replaced",
+      "ns": "Microsoft.Purchases.Payables",
       "fields": [
         {
           "id": "10700",
@@ -19558,6 +18748,7 @@
       "key": "table/381",
       "name": "VAT Registration No. Format",
       "change": "replaced",
+      "ns": "Microsoft.Finance.VAT.Registration",
       "fields": [
         {
           "id": "10700",
@@ -19687,6 +18878,7 @@
       "key": "table/382",
       "name": "CV Ledger Entry Buffer",
       "change": "replaced",
+      "ns": "Microsoft.Finance.ReceivablesPayables",
       "fields": [
         {
           "id": "7000000",
@@ -19771,6 +18963,7 @@
       "key": "table/383",
       "name": "Detailed CV Ledg. Entry Buffer",
       "change": "replaced",
+      "ns": "Microsoft.Finance.ReceivablesPayables",
       "fields": [
         {
           "id": "6200",
@@ -19913,6 +19106,7 @@
       "key": "table/461",
       "name": "Prepayment Inv. Line Buffer",
       "change": "replaced",
+      "ns": "Microsoft.Finance.ReceivablesPayables",
       "fields": [
         {
           "id": "10700",
@@ -19939,6 +19133,7 @@
       "key": "table/751",
       "name": "Standard General Journal Line",
       "change": "replaced",
+      "ns": "Microsoft.Finance.GeneralLedger.Journal",
       "fields": [
         {
           "id": "7000004",
@@ -19961,6 +19156,7 @@
       "key": "table/1207",
       "name": "Direct Debit Collection",
       "change": "replaced",
+      "ns": "Microsoft.Bank.DirectDebit",
       "fields": [
         {
           "id": "7000000",
@@ -20027,6 +19223,7 @@
       "key": "table/1208",
       "name": "Direct Debit Collection Entry",
       "change": "replaced",
+      "ns": "Microsoft.Bank.DirectDebit",
       "fields": [
         {
           "id": "4",
@@ -20061,6 +19258,7 @@
       "key": "table/1381",
       "name": "Customer Templ.",
       "change": "replaced",
+      "ns": "Microsoft.Sales.Customer",
       "fields": [
         {
           "id": "14",
@@ -20138,6 +19336,7 @@
       "key": "table/1382",
       "name": "Item Templ.",
       "change": "replaced",
+      "ns": "Microsoft.Inventory.Item",
       "fields": [
         {
           "id": "10700",
@@ -20163,6 +19362,7 @@
       "key": "table/1383",
       "name": "Vendor Templ.",
       "change": "replaced",
+      "ns": "Microsoft.Purchases.Vendor",
       "fields": [
         {
           "id": "14",
@@ -20228,6 +19428,7 @@
       "key": "table/5108",
       "name": "Sales Line Archive",
       "change": "replaced",
+      "ns": "Microsoft.Sales.Archive",
       "fields": [
         {
           "id": "10700",
@@ -20297,6 +19498,7 @@
       "key": "table/5110",
       "name": "Purchase Line Archive",
       "change": "replaced",
+      "ns": "Microsoft.Purchases.Archive",
       "fields": [
         {
           "id": "10700",
@@ -20366,6 +19568,7 @@
       "key": "table/5200",
       "name": "Employee",
       "change": "replaced",
+      "ns": "Microsoft.HumanResources.Employee",
       "properties": [
         {
           "name": "DataCaptionFields",
@@ -20597,6 +19800,7 @@
       "key": "table/5205",
       "name": "Employee Relative",
       "change": "replaced",
+      "ns": "Microsoft.HumanResources.Employee",
       "fields": [
         {
           "id": "4",
@@ -20679,6 +19883,7 @@
       "key": "table/9054",
       "name": "Finance Cue",
       "change": "replaced",
+      "ns": "Microsoft.Finance.RoleCenters",
       "fields": [
         {
           "id": "7000000",
@@ -20750,6 +19955,7 @@
       "key": "table/9060",
       "name": "SB Owner Cue",
       "change": "replaced",
+      "ns": "Microsoft.RoleCenters",
       "fields": [
         {
           "id": "7000000",
@@ -20820,452 +20026,542 @@
     {
       "key": "table/10700",
       "name": "Inc. Stmt. Clos. Buffer",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft"
     },
     {
       "key": "table/10701",
       "name": "Payment Day",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.ReceivablesPayables"
     },
     {
       "key": "table/10702",
       "name": "Non-Payment Period",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.ReceivablesPayables"
     },
     {
       "key": "table/10703",
       "name": "Acc. Schedule Buffer",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft"
     },
     {
       "key": "table/10704",
       "name": "Sales/Purch. Book VAT Buffer",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.ReceivablesPayables"
     },
     {
       "key": "table/10705",
       "name": "AEAT Transference Format",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Reporting"
     },
     {
       "key": "table/10706",
       "name": "Statistical Code",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "table/10710",
       "name": "AEAT Transference Format XML",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Reporting"
     },
     {
       "key": "table/10720",
       "name": "G/L Accounts Equivalence Tool",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft"
     },
     {
       "key": "table/10721",
       "name": "Historic G/L Account",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft"
     },
     {
       "key": "table/10722",
       "name": "New G/L Account",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft"
     },
     {
       "key": "table/10723",
       "name": "G/L Acc. Equiv. Tool Setup",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft"
     },
     {
       "key": "table/10724",
       "name": "History of Equivalences COA",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft"
     },
     {
       "key": "table/10725",
       "name": "Hist. G/L Account (An. View)",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft"
     },
     {
       "key": "table/10726",
       "name": "G/L Account Buffer",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Reporting"
     },
     {
       "key": "table/10727",
       "name": "Selected G/L Accounts",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Reporting"
     },
     {
       "key": "table/10730",
       "name": "Gen. Prod. Post. Group Buffer",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Reporting"
     },
     {
       "key": "table/10731",
       "name": "Selected Gen. Prod. Post. Gr.",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Reporting"
     },
     {
       "key": "table/10732",
       "name": "Customer/Vendor Warning 349",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Reporting"
     },
     {
       "key": "table/10733",
       "name": "Selected Gen. Prod. Post. 340",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Reporting"
     },
     {
       "key": "table/10734",
       "name": "Selected Rev. Charge Grp. 340",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Reporting"
     },
     {
       "key": "table/10740",
       "name": "No Taxable Entry",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Ledger"
     },
     {
       "key": "table/10743",
       "name": "Customer Cash Buffer",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Reporting"
     },
     {
       "key": "table/10744",
       "name": "340 Declaration Line",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Reporting"
     },
     {
       "key": "table/10745",
       "name": "Operation Code",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Reporting"
     },
     {
       "key": "table/10750",
       "name": "SII History",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "table/10751",
       "name": "SII Setup",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "table/10752",
       "name": "SII Doc. Upload State",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "table/10753",
       "name": "SII Session",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "table/10754",
       "name": "SII Missing Entries State",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "table/10755",
       "name": "SII Sales Document Scheme Code",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "table/10756",
       "name": "SII Purch. Doc. Scheme Code",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "table/10799",
       "name": "SII Sending State",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "table/7000002",
       "name": "Cartera Doc.",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.ReceivablesPayables"
     },
     {
       "key": "table/7000003",
       "name": "Posted Cartera Doc.",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.ReceivablesPayables"
     },
     {
       "key": "table/7000004",
       "name": "Closed Cartera Doc.",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.ReceivablesPayables"
     },
     {
       "key": "table/7000005",
       "name": "Bill Group",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Sales.Receivables"
     },
     {
       "key": "table/7000006",
       "name": "Posted Bill Group",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Sales.History"
     },
     {
       "key": "table/7000007",
       "name": "Closed Bill Group",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Sales.Receivables"
     },
     {
       "key": "table/7000008",
       "name": "BG/PO Comment Line",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.ReceivablesPayables"
     },
     {
       "key": "table/7000009",
       "name": "Category Code",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Foundation.AuditCodes"
     },
     {
       "key": "table/7000010",
       "name": "Operation Fee",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.ReceivablesPayables"
     },
     {
       "key": "table/7000011",
       "name": "Doc. Post. Buffer",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.ReceivablesPayables"
     },
     {
       "key": "table/7000012",
       "name": "BG/PO Post. Buffer",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.ReceivablesPayables"
     },
     {
       "key": "table/7000013",
       "name": "Cartera Report Selections",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.ReceivablesPayables"
     },
     {
       "key": "table/7000014",
       "name": "Customer Pmt. Address",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Sales.Receivables"
     },
     {
       "key": "table/7000015",
       "name": "Vendor Pmt. Address",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Purchases.Reports"
     },
     {
       "key": "table/7000016",
       "name": "Cartera Setup",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.ReceivablesPayables"
     },
     {
       "key": "table/7000018",
       "name": "Installment",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.ReceivablesPayables"
     },
     {
       "key": "table/7000019",
       "name": "Fee Range",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.ReceivablesPayables"
     },
     {
       "key": "table/7000020",
       "name": "Payment Order",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Purchases.Payables"
     },
     {
       "key": "table/7000021",
       "name": "Posted Payment Order",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Purchases.History"
     },
     {
       "key": "table/7000022",
       "name": "Closed Payment Order",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Purchases.Payables"
     },
     {
       "key": "table/7000023",
       "name": "Customer Rating",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Sales.Receivables"
     },
     {
       "key": "table/7000024",
       "name": "Suffix",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Sales.Receivables"
     },
     {
       "key": "tableextension/254",
       "name": "SII VAT Entry",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Ledger"
     },
     {
       "key": "tableextension/10710",
       "name": "Service Header Archive ES",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Service.Archive"
     },
     {
       "key": "tableextension/10711",
       "name": "Service Line Archive ES",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Service.Archive"
     },
     {
       "key": "tableextension/10790",
       "name": "Service Header ES",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Service.Document"
     },
     {
       "key": "tableextension/10791",
       "name": "Service Line ES",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Service.Document"
     },
     {
       "key": "tableextension/10792",
       "name": "Service Invoice Header ES",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Service.History"
     },
     {
       "key": "tableextension/10793",
       "name": "Service Invoice Line ES",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Service.History"
     },
     {
       "key": "tableextension/10794",
       "name": "Service Cr.Memo Header ES",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Service.History"
     },
     {
       "key": "tableextension/10795",
       "name": "Service Cr.Memo Line ES",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Service.History"
     },
     {
       "key": "tableextension/10796",
       "name": "Service Shipment Header ES",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Service.History"
     },
     {
       "key": "tableextension/7000000",
       "name": "SourceCodeSetupES",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Foundation.AuditCodes"
     },
     {
       "key": "tableextension/7000012",
       "name": "SII Purchase Header",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "tableextension/7000013",
       "name": "SII Purchase Line",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "tableextension/7000014",
       "name": "SII Purch. Inv. Header",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "tableextension/7000015",
       "name": "SII Purch. Inv. Line",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "tableextension/7000016",
       "name": "SII Purch. Cr. Memo Hdr.",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "tableextension/7000017",
       "name": "SII Purch. Cr. Memo Line",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "tableextension/7000018",
       "name": "SII Vendor Ledger Entry",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "tableextension/7000019",
       "name": "SII Sales Header",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "tableextension/7000020",
       "name": "SII Sales Line",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "tableextension/7000021",
       "name": "SII Sales Inv. Header",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "tableextension/7000022",
       "name": "SII Sales Inv. Line",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "tableextension/7000023",
       "name": "SII Sales Cr. Memo Header",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "tableextension/7000024",
       "name": "SII Sales Cr. Memo Line",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "tableextension/7000025",
       "name": "SII Cust. Ledger Entry",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "tableextension/7000026",
       "name": "SII Payment Method",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "tableextension/7000028",
       "name": "SII Gen. Journal Line",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "tableextension/7000029",
       "name": "SII VAT Clause",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.EServices.EDocument"
     },
     {
       "key": "tableextension/7000030",
       "name": "SII VAT Posting Setup",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Setup"
     },
     {
       "key": "tableextension/7000031",
       "name": "SII Finance Cue",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.RoleCenters"
     },
     {
       "key": "tableextension/7000040",
       "name": "SII No Taxable Entry",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Ledger"
     },
     {
       "key": "tableextension/7000043",
       "name": "SII Activities Cue",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.RoleCenters"
     },
     {
       "key": "tableextension/7000045",
       "name": "SII Purchase Cue",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Purchases.RoleCenters"
     },
     {
       "key": "tableextension/7000046",
       "name": "SII Sales Cue",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Sales.RoleCenters"
     },
     {
       "key": "xmlport/1000",
       "name": "SEPA CT pain.001.001.03",
       "change": "replaced",
+      "ns": "Microsoft.Bank.DirectDebit",
       "procedures": [
         {
           "id": "getorgidothrid(code[20])",
@@ -21293,6 +20589,7 @@
       "key": "xmlport/1001",
       "name": "SEPA CT pain.001.001.09",
       "change": "replaced",
+      "ns": "Microsoft.Bank.DirectDebit",
       "procedures": [
         {
           "id": "getorgidothrid(code[20])",
@@ -21319,12 +20616,14 @@
     {
       "key": "xmlport/10700",
       "name": "Hist. Consolid. Import/Export",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft"
     },
     {
       "key": "xmlport/10720",
       "name": "G/L Importing Tool",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft"
     }
   ]
 }

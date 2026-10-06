@@ -1,10 +1,10 @@
 {
   "inputs": [
-    2,
+    5,
     [
       "d7c9c667c671da2cda3a0738b18ed99ca4181765",
       "d7c9c667c671da2cda3a0738b18ed99ca4181765",
-      "1",
+      "2",
       []
     ]
   ],
@@ -52,6 +52,7 @@
       "key": "codeunit/12",
       "name": "Gen. Jnl.-Post Line",
       "change": "replaced",
+      "ns": "Microsoft.Finance.GeneralLedger.Posting",
       "procedures": [
         {
           "id": "realizedelayedunrealizedvat(record \"gen. journal line\")",
@@ -294,6 +295,7 @@
       "key": "codeunit/80",
       "name": "Sales-Post",
       "change": "replaced",
+      "ns": "Microsoft.Sales.Posting",
       "procedures": [
         {
           "id": "insertinvoicedshipment(code[20],integer,code[20],integer,decimal,decimal,date)",
@@ -385,12 +387,14 @@
     {
       "key": "codeunit/355",
       "name": "Local Navigate Handler",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Foundation.Navigate"
     },
     {
       "key": "codeunit/358",
       "name": "DateFilter-Calc",
       "change": "replaced",
+      "ns": "Microsoft.Foundation.Period",
       "procedures": [
         {
           "id": "verifiydatefilter(text[30])",
@@ -484,6 +488,7 @@
       "key": "codeunit/426",
       "name": "Payment Tolerance Management",
       "change": "replaced",
+      "ns": "Microsoft.Finance.ReceivablesPayables",
       "procedures": [
         {
           "id": "pmttolpaymentline(record \"payment line\")",
@@ -553,6 +558,7 @@
       "key": "codeunit/1222",
       "name": "SEPA CT-Prepare Source",
       "change": "replaced",
+      "ns": "Microsoft.Bank.DirectDebit",
       "events": [
         {
           "id": "oncreatetempjnllinesonbeforeinserttempgenjnlline(record \"gen. journal line\" temporary,record \"payment line\")",
@@ -604,6 +610,7 @@
       "key": "codeunit/1232",
       "name": "SEPA DD-Prepare Source",
       "change": "replaced",
+      "ns": "Microsoft.Bank.DirectDebit",
       "events": [
         {
           "id": "oncreatetempcollectionentriesonbeforeinsert(record \"direct debit collection entry\",record \"payment header\",record \"payment line\")",
@@ -660,6 +667,7 @@
       "key": "codeunit/1233",
       "name": "SEPA DD-Check Line",
       "change": "replaced",
+      "ns": "Microsoft.Bank.DirectDebit",
       "procedures": [
         {
           "id": "checkcollectionentry(record \"direct debit collection entry\")",
@@ -867,6 +875,7 @@
       "key": "codeunit/5600",
       "name": "FA Insert Ledger Entry",
       "change": "replaced",
+      "ns": "Microsoft.FixedAssets.Ledger",
       "procedures": [
         {
           "id": "insertfareventryforderog(option \" \",\"fixed asset\",maintenance,integer,record \"fa ledger entry\")",
@@ -968,6 +977,7 @@
       "key": "codeunit/5601",
       "name": "FA Insert G/L Account",
       "change": "replaced",
+      "ns": "Microsoft.FixedAssets.Ledger",
       "procedures": [
         {
           "id": "getglaccnofromfapostinggroup(record \"fa posting group\",enum \"fa posting group account type\",decimal)",
@@ -1030,6 +1040,7 @@
       "key": "codeunit/5605",
       "name": "Calculate Disposal",
       "change": "replaced",
+      "ns": "Microsoft.FixedAssets.FixedAsset",
       "procedures": [
         {
           "id": "calcgainloss(code[20],code[10],array[15] of decimal)",
@@ -1337,6 +1348,7 @@
       "key": "codeunit/5613",
       "name": "Calculate Acq. Cost Depr.",
       "change": "replaced",
+      "ns": "Microsoft.FixedAssets.Depreciation",
       "procedures": [
         {
           "id": "derogatorycalc(decimal,code[20],code[10],decimal)",
@@ -1386,6 +1398,7 @@
       "key": "codeunit/5626",
       "name": "FA General Report",
       "change": "replaced",
+      "ns": "Microsoft.FixedAssets.FixedAsset",
       "procedures": [
         {
           "id": "setsign(boolean)",
@@ -1420,6 +1433,7 @@
       "key": "codeunit/5632",
       "name": "FA Jnl.-Post Line",
       "change": "replaced",
+      "ns": "Microsoft.FixedAssets.Posting",
       "procedures": [
         {
           "id": "genjnlpostlinecontinue(record \"gen. journal line\",decimal,decimal,integer,integer,integer)",
@@ -1543,6 +1557,7 @@
       "key": "codeunit/5633",
       "name": "FA Jnl.-Post Batch",
       "change": "replaced",
+      "ns": "Microsoft.FixedAssets.Posting",
       "procedures": [
         {
           "id": "makederogfajnlline(record \"fa journal line\",record \"fa journal line\")",
@@ -1601,52 +1616,62 @@
     {
       "key": "codeunit/9997",
       "name": "Upgrade Tag Def - Country",
-      "change": "added"
+      "change": "added",
+      "ns": null
     },
     {
       "key": "codeunit/10801",
       "name": "RIB Key",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.BankAccount"
     },
     {
       "key": "codeunit/10802",
       "name": "FR AccSchedManagement",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.FinancialReports"
     },
     {
       "key": "codeunit/10842",
       "name": "G/L Entry Application",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.GeneralLedger.Ledger"
     },
     {
       "key": "codeunit/10860",
       "name": "Payment Management",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "codeunit/10861",
       "name": "Payment-Apply",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "codeunit/10862",
       "name": "Fiscal Year-FiscalClose",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.GeneralLedger.Reports"
     },
     {
       "key": "codeunit/10881",
       "name": "Update Dtld. CV Ledger Entries",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.ReceivablesPayables"
     },
     {
       "key": "codeunit/104101",
       "name": "UPG.FR",
-      "change": "added"
+      "change": "added",
+      "ns": null
     },
     {
       "key": "enum/8",
       "name": "Country/Region Address Format",
       "change": "replaced",
+      "ns": "Microsoft.Foundation.Address",
       "values": [
         {
           "id": "4",
@@ -1671,12 +1696,14 @@
     {
       "key": "enum/5226",
       "name": "Employee Marital Status",
-      "change": "added"
+      "change": "added",
+      "ns": null
     },
     {
       "key": "enum/5601",
       "name": "FA Ledger Entry FA Posting Type",
       "change": "replaced",
+      "ns": "Microsoft.FixedAssets.Ledger",
       "values": [
         {
           "id": "14",
@@ -1693,6 +1720,7 @@
       "key": "enum/5602",
       "name": "FA Journal Line FA Posting Type",
       "change": "replaced",
+      "ns": "Microsoft.FixedAssets.Journal",
       "values": [
         {
           "id": "12",
@@ -1709,6 +1737,7 @@
       "key": "enum/5603",
       "name": "Gen. Journal Line FA Posting Type",
       "change": "replaced",
+      "ns": "Microsoft.FixedAssets.Journal",
       "values": [
         {
           "id": "13",
@@ -1725,6 +1754,7 @@
       "key": "enum/5606",
       "name": "FA Posting Group Account Type",
       "change": "replaced",
+      "ns": "Microsoft.FixedAssets.FixedAsset",
       "values": [
         {
           "id": "12",
@@ -1741,6 +1771,7 @@
       "key": "enum/5615",
       "name": "FA Allocation Type",
       "change": "replaced",
+      "ns": "Microsoft.FixedAssets.FixedAsset",
       "values": [
         {
           "id": "12",
@@ -1756,12 +1787,14 @@
     {
       "key": "enum/10862",
       "name": "Payment Step Action Type",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "page/131",
       "name": "Posted Sales Shpt. Subform",
       "change": "replaced",
+      "ns": "Microsoft.Sales.History",
       "procedures": [
         {
           "id": "invoicelines()",
@@ -1783,6 +1816,7 @@
       "key": "page/133",
       "name": "Posted Sales Invoice Subform",
       "change": "replaced",
+      "ns": "Microsoft.Sales.History",
       "procedures": [
         {
           "id": "linesinvoiced()",
@@ -1811,6 +1845,7 @@
       "key": "page/370",
       "name": "Bank Account Card",
       "change": "replaced",
+      "ns": "Microsoft.Bank.BankAccount",
       "procedures": [
         {
           "id": "action()",
@@ -1902,147 +1937,176 @@
     {
       "key": "page/10800",
       "name": "FR Account Schedule Names",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.FinancialReports"
     },
     {
       "key": "page/10801",
       "name": "FR Account Schedule",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.FinancialReports"
     },
     {
       "key": "page/10818",
       "name": "Fiscal Year Closing Steps",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.GeneralLedger.Reports"
     },
     {
       "key": "page/10837",
       "name": "Invoices bound by Shipment",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Sales.Document"
     },
     {
       "key": "page/10838",
       "name": "Shipments bound by Invoice",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Sales.Document"
     },
     {
       "key": "page/10860",
       "name": "Payment Class List",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "page/10861",
       "name": "Payment Status List",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "page/10862",
       "name": "View/Edit Payment Line",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "page/10863",
       "name": "Payment Report",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "page/10864",
       "name": "Payment Class",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "page/10865",
       "name": "Payment Status",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "page/10866",
       "name": "Payment Steps",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "page/10867",
       "name": "Payment Step Card",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "page/10868",
       "name": "Payment Slip",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "page/10869",
       "name": "Payment Slip Subform",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "page/10870",
       "name": "Payment Slip List",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "page/10871",
       "name": "Payment Line Modification",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "page/10872",
       "name": "Payment Lines List",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "page/10873",
       "name": "Payment Steps List",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "page/10874",
       "name": "Payment Step Ledger",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "page/10875",
       "name": "Payment Addresses",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "page/10876",
       "name": "Payment Bank",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "page/10877",
       "name": "Payment Slip Archive",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "page/10878",
       "name": "Payment Slip Subform Archive",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "page/10879",
       "name": "Payment Slip List Archive",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "page/10880",
       "name": "Payment Lines Archive List",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "page/10881",
       "name": "Payment Bank Archive",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "page/10882",
       "name": "Payment Step Ledger List",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "permissionset/1001",
       "name": "LOCAL",
       "change": "replaced",
+      "ns": "System.Security.AccessControl",
       "properties": [
         {
           "name": "Assignable",
@@ -2065,6 +2129,7 @@
       "key": "permissionset/1002",
       "name": "LOCAL READ",
       "change": "replaced",
+      "ns": "System.Security.AccessControl",
       "properties": [
         {
           "name": "Assignable",
@@ -2087,6 +2152,7 @@
       "key": "report/117",
       "name": "Reminder",
       "change": "replaced",
+      "ns": "Microsoft.Sales.Reminder",
       "properties": [
         {
           "name": "DefaultRenderingLayout",
@@ -2099,6 +2165,7 @@
       "key": "report/1303",
       "name": "Standard Sales - Draft Invoice",
       "change": "replaced",
+      "ns": "Microsoft.Sales.Document",
       "procedures": [
         {
           "id": "getgoodsandservicestext()",
@@ -2174,6 +2241,7 @@
       "key": "report/1306",
       "name": "Standard Sales - Invoice",
       "change": "replaced",
+      "ns": "Microsoft.Sales.History",
       "procedures": [
         {
           "id": "getgoodsandservicestext()",
@@ -2229,6 +2297,7 @@
       "key": "report/1307",
       "name": "Standard Sales - Credit Memo",
       "change": "replaced",
+      "ns": "Microsoft.Sales.History",
       "procedures": [
         {
           "id": "getgoodsandservicestext()",
@@ -2284,6 +2353,7 @@
       "key": "report/1401",
       "name": "Check",
       "change": "replaced",
+      "ns": "Microsoft.Bank.Check",
       "procedures": [
         {
           "id": "formatnotextfr(array[2] of text[80],decimal,code[10])",
@@ -2436,6 +2506,7 @@
       "key": "report/5605",
       "name": "Fixed Asset - Book Value 01",
       "change": "replaced",
+      "ns": "Microsoft.FixedAssets.Reports",
       "procedures": [
         {
           "id": "getdeprbookinfo()",
@@ -2485,6 +2556,7 @@
       "key": "report/5606",
       "name": "Fixed Asset - Book Value 02",
       "change": "replaced",
+      "ns": "Microsoft.FixedAssets.Reports",
       "procedures": [
         {
           "id": "getdeprbookinfo()",
@@ -2534,6 +2606,7 @@
       "key": "report/5692",
       "name": "Calculate Depreciation",
       "change": "replaced",
+      "ns": "Microsoft.FixedAssets.Depreciation",
       "procedures": [
         {
           "id": "calcderogdepramount(decimal,decimal)",
@@ -2572,197 +2645,236 @@
     {
       "key": "report/10800",
       "name": "G/L Journal",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.GeneralLedger.Reports"
     },
     {
       "key": "report/10801",
       "name": "Journals",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.GeneralLedger.Reports"
     },
     {
       "key": "report/10803",
       "name": "G/L Trial Balance",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.GeneralLedger.Reports"
     },
     {
       "key": "report/10804",
       "name": "G/L Detail Trial Balance",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.GeneralLedger.Reports"
     },
     {
       "key": "report/10805",
       "name": "Customer Trial Balance FR",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Sales.Reports"
     },
     {
       "key": "report/10806",
       "name": "Customer Detail Trial Balance",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Sales.Reports"
     },
     {
       "key": "report/10807",
       "name": "Vendor Trial Balance FR",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Purchases.Reports"
     },
     {
       "key": "report/10808",
       "name": "Vendor Detail Trial Balance FR",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Purchases.Reports"
     },
     {
       "key": "report/10809",
       "name": "Bank Account Trial Balance",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Reports"
     },
     {
       "key": "report/10810",
       "name": "Bank Acc. Detail Trial Balance",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Reports"
     },
     {
       "key": "report/10811",
       "name": "FR Account Schedule",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.FinancialReports"
     },
     {
       "key": "report/10812",
       "name": "Fixed Asset-Professional Tax",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.FixedAssets.Reports"
     },
     {
       "key": "report/10813",
       "name": "Customer Journal",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Sales.Reports"
     },
     {
       "key": "report/10814",
       "name": "Vendor Journal",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Purchases.Reports"
     },
     {
       "key": "report/10815",
       "name": "Bank Account Journal",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Reports"
     },
     {
       "key": "report/10820",
       "name": "Export G/L Entries to XML",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.AuditFileExport"
     },
     {
       "key": "report/10842",
       "name": "G/L Account Statement",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.GeneralLedger.Reports"
     },
     {
       "key": "report/10843",
       "name": "Recapitulation Form",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "report/10860",
       "name": "Payment List",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "report/10861",
       "name": "GL/Cust. Ledger Reconciliation",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.GeneralLedger.Reports"
     },
     {
       "key": "report/10862",
       "name": "Suggest Vendor Payments FR",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "report/10863",
       "name": "GL/Vend. Ledger Reconciliation",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.GeneralLedger.Reports"
     },
     {
       "key": "report/10864",
       "name": "Suggest Customer Payments",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "report/10865",
       "name": "Bill",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "report/10866",
       "name": "Draft",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "report/10867",
       "name": "Remittance",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "report/10868",
       "name": "Draft notice",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "report/10869",
       "name": "Draft recapitulation",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "report/10870",
       "name": "Withdraw notice",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "report/10871",
       "name": "Withdraw recapitulation",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "report/10872",
       "name": "Duplicate parameter",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "report/10873",
       "name": "Archive Payment Slips",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "report/10876",
       "name": "EC Sales List - Services",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Reporting"
     },
     {
       "key": "report/10880",
       "name": "ETEBAC Files",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "report/10881",
       "name": "Withdraw",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "report/10882",
       "name": "Transfer",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "report/10883",
       "name": "SEPA ISO20022",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "report/10886",
       "name": "FA - Proj. Value (Derogatory)",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.FixedAssets.Reports"
     },
     {
       "key": "table/9",
       "name": "Country/Region",
       "change": "replaced",
+      "ns": "Microsoft.Foundation.Address",
       "fields": [
         {
           "id": "10800",
@@ -2784,6 +2896,7 @@
       "key": "table/10",
       "name": "Shipment Method",
       "change": "replaced",
+      "ns": "Microsoft.Foundation.Shipping",
       "procedures": [
         {
           "id": "validateshipmentmethod()",
@@ -2823,6 +2936,7 @@
       "key": "table/15",
       "name": "G/L Account",
       "change": "replaced",
+      "ns": "Microsoft.Finance.GeneralLedger.Account",
       "fields": [
         {
           "id": "10811",
@@ -2844,6 +2958,7 @@
       "key": "table/17",
       "name": "G/L Entry",
       "change": "replaced",
+      "ns": "Microsoft.Finance.GeneralLedger.Ledger",
       "fields": [
         {
           "id": "10811",
@@ -3015,6 +3130,7 @@
       "key": "table/18",
       "name": "Customer",
       "change": "replaced",
+      "ns": "Microsoft.Sales.Customer",
       "fields": [
         {
           "id": "10805",
@@ -3104,6 +3220,7 @@
       "key": "table/23",
       "name": "Vendor",
       "change": "replaced",
+      "ns": "Microsoft.Purchases.Vendor",
       "fields": [
         {
           "id": "10805",
@@ -3177,6 +3294,7 @@
       "key": "table/32",
       "name": "Item Ledger Entry",
       "change": "replaced",
+      "ns": "Microsoft.Inventory.Ledger",
       "fields": [
         {
           "id": "10800",
@@ -3208,6 +3326,7 @@
       "key": "table/36",
       "name": "Sales Header",
       "change": "replaced",
+      "ns": "Microsoft.Sales.Document",
       "fields": [
         {
           "id": "10801",
@@ -3229,6 +3348,7 @@
       "key": "table/50",
       "name": "Accounting Period",
       "change": "replaced",
+      "ns": "Microsoft.Foundation.Period",
       "fields": [
         {
           "id": "10800",
@@ -3573,6 +3693,7 @@
       "key": "table/79",
       "name": "Company Information",
       "change": "replaced",
+      "ns": "Microsoft.Foundation.Company",
       "fields": [
         {
           "id": "11",
@@ -3934,6 +4055,7 @@
       "key": "table/81",
       "name": "Gen. Journal Line",
       "change": "replaced",
+      "ns": "Microsoft.Finance.GeneralLedger.Journal",
       "fields": [
         {
           "id": "10801",
@@ -4050,6 +4172,7 @@
       "key": "table/83",
       "name": "Item Journal Line",
       "change": "replaced",
+      "ns": "Microsoft.Inventory.Journal",
       "fields": [
         {
           "id": "10800",
@@ -4081,6 +4204,7 @@
       "key": "table/98",
       "name": "General Ledger Setup",
       "change": "replaced",
+      "ns": "Microsoft.Finance.GeneralLedger.Setup",
       "fields": [
         {
           "id": "57",
@@ -4239,6 +4363,7 @@
       "key": "table/112",
       "name": "Sales Invoice Header",
       "change": "replaced",
+      "ns": "Microsoft.Sales.History",
       "fields": [
         {
           "id": "10801",
@@ -4260,6 +4385,7 @@
       "key": "table/114",
       "name": "Sales Cr.Memo Header",
       "change": "replaced",
+      "ns": "Microsoft.Sales.History",
       "fields": [
         {
           "id": "10801",
@@ -4281,6 +4407,7 @@
       "key": "table/181",
       "name": "Posted Gen. Journal Line",
       "change": "replaced",
+      "ns": "Microsoft.Finance.GeneralLedger.Journal",
       "fields": [
         {
           "id": "10801",
@@ -4374,6 +4501,7 @@
       "key": "table/254",
       "name": "VAT Entry",
       "change": "replaced",
+      "ns": "Microsoft.Finance.VAT.Ledger",
       "procedures": [
         {
           "id": "getunrealizedvatpart(decimal,decimal,decimal,decimal,decimal,boolean,boolean)",
@@ -4492,6 +4620,7 @@
       "key": "table/263",
       "name": "Intrastat Jnl. Line",
       "change": "replaced",
+      "ns": "Microsoft.Inventory.Intrastat",
       "keys": [
         {
           "id": "key3",
@@ -4560,6 +4689,7 @@
       "key": "table/270",
       "name": "Bank Account",
       "change": "replaced",
+      "ns": "Microsoft.Bank.BankAccount",
       "fields": [
         {
           "id": "13",
@@ -4709,6 +4839,7 @@
       "key": "table/271",
       "name": "Bank Account Ledger Entry",
       "change": "replaced",
+      "ns": "Microsoft.Bank.Ledger",
       "keys": [
         {
           "id": "key8",
@@ -4787,6 +4918,7 @@
       "key": "table/287",
       "name": "Customer Bank Account",
       "change": "replaced",
+      "ns": "Microsoft.Sales.Customer",
       "fields": [
         {
           "id": "14",
@@ -4932,6 +5064,7 @@
       "key": "table/288",
       "name": "Vendor Bank Account",
       "change": "replaced",
+      "ns": "Microsoft.Purchases.Vendor",
       "fields": [
         {
           "id": "14",
@@ -5077,6 +5210,7 @@
       "key": "table/317",
       "name": "Payable Vendor Ledger Entry",
       "change": "replaced",
+      "ns": "Microsoft.Purchases.Payables",
       "fields": [
         {
           "id": "10800",
@@ -5112,6 +5246,7 @@
       "key": "table/379",
       "name": "Detailed Cust. Ledg. Entry",
       "change": "replaced",
+      "ns": "Microsoft.Sales.Receivables",
       "fields": [
         {
           "id": "10801",
@@ -5134,6 +5269,7 @@
       "key": "table/380",
       "name": "Detailed Vendor Ledg. Entry",
       "change": "replaced",
+      "ns": "Microsoft.Purchases.Payables",
       "fields": [
         {
           "id": "10801",
@@ -5156,6 +5292,7 @@
       "key": "table/1207",
       "name": "Direct Debit Collection",
       "change": "replaced",
+      "ns": "Microsoft.Bank.DirectDebit",
       "fields": [
         {
           "id": "10800",
@@ -5206,6 +5343,7 @@
       "key": "table/1381",
       "name": "Customer Templ.",
       "change": "replaced",
+      "ns": "Microsoft.Sales.Customer",
       "fields": [
         {
           "id": "14",
@@ -5252,6 +5390,7 @@
       "key": "table/1383",
       "name": "Vendor Templ.",
       "change": "replaced",
+      "ns": "Microsoft.Purchases.Vendor",
       "fields": [
         {
           "id": "14",
@@ -5300,6 +5439,7 @@
       "key": "table/5050",
       "name": "Contact",
       "change": "replaced",
+      "ns": "Microsoft.CRM.Contact",
       "fields": [
         {
           "id": "10801",
@@ -5421,6 +5561,7 @@
       "key": "table/5200",
       "name": "Employee",
       "change": "replaced",
+      "ns": "Microsoft.HumanResources.Employee",
       "fields": [
         {
           "id": "57",
@@ -5505,6 +5646,7 @@
       "key": "table/5600",
       "name": "Fixed Asset",
       "change": "replaced",
+      "ns": "Microsoft.FixedAssets.FixedAsset",
       "fields": [
         {
           "id": "10810",
@@ -5528,6 +5670,7 @@
       "key": "table/5601",
       "name": "FA Ledger Entry",
       "change": "replaced",
+      "ns": "Microsoft.FixedAssets.Ledger",
       "fields": [
         {
           "id": "10800",
@@ -5602,6 +5745,7 @@
       "key": "table/5606",
       "name": "FA Posting Group",
       "change": "replaced",
+      "ns": "Microsoft.FixedAssets.FixedAsset",
       "fields": [
         {
           "id": "10800",
@@ -5746,6 +5890,7 @@
       "key": "table/5611",
       "name": "Depreciation Book",
       "change": "replaced",
+      "ns": "Microsoft.FixedAssets.Depreciation",
       "fields": [
         {
           "id": "10800",
@@ -5883,6 +6028,7 @@
       "key": "table/5612",
       "name": "FA Depreciation Book",
       "change": "replaced",
+      "ns": "Microsoft.FixedAssets.Depreciation",
       "fields": [
         {
           "id": "17",
@@ -5958,6 +6104,7 @@
       "key": "table/5624",
       "name": "FA Reclass. Journal Line",
       "change": "replaced",
+      "ns": "Microsoft.FixedAssets.Journal",
       "fields": [
         {
           "id": "10800",
@@ -5978,97 +6125,116 @@
     {
       "key": "table/10800",
       "name": "FR Acc. Schedule Name",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.FinancialReports"
     },
     {
       "key": "table/10801",
       "name": "FR Acc. Schedule Line",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.FinancialReports"
     },
     {
       "key": "table/10825",
       "name": "Shipment Invoiced",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Sales.Document"
     },
     {
       "key": "table/10860",
       "name": "Payment Class",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "table/10861",
       "name": "Payment Status",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "table/10862",
       "name": "Payment Step",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "table/10863",
       "name": "Payment Step Ledger",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "table/10864",
       "name": "Payment Post. Buffer",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "table/10865",
       "name": "Payment Header",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "table/10866",
       "name": "Payment Line",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "table/10867",
       "name": "Payment Header Archive",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "table/10868",
       "name": "Payment Line Archive",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "table/10869",
       "name": "Bank Account Buffer",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "table/10870",
       "name": "Payment Address",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     },
     {
       "key": "table/10871",
       "name": "Unreal. CV Ledg. Entry Buffer",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.ReceivablesPayables"
     },
     {
       "key": "table/10880",
       "name": "Payment Period Setup",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.Analysis"
     },
     {
       "key": "table/10881",
       "name": "Payment Application Buffer",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.Analysis"
     },
     {
       "key": "tableextension/10810",
       "name": "SourceCodeFR",
-      "change": "added"
+      "change": "added",
+      "ns": null
     },
     {
       "key": "xmlport/1000",
       "name": "SEPA CT pain.001.001.03",
       "change": "replaced",
+      "ns": "Microsoft.Bank.DirectDebit",
       "events": [
         {
           "id": "onspecifyremittancetextseparatortext(text)",
@@ -6104,6 +6270,7 @@
       "key": "xmlport/1001",
       "name": "SEPA CT pain.001.001.09",
       "change": "replaced",
+      "ns": "Microsoft.Bank.DirectDebit",
       "events": [
         {
           "id": "onspecifyremittancetextseparatortext(text)",
@@ -6138,12 +6305,14 @@
     {
       "key": "xmlport/10800",
       "name": "Export G/L Entries",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.AuditFileExport"
     },
     {
       "key": "xmlport/10863",
       "name": "Import/Export Parameters",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Bank.Payment"
     }
   ]
 }

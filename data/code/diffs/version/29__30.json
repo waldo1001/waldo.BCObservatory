@@ -1,11 +1,11 @@
 {
   "inputs": [
-    2,
+    5,
     [
       "d7c9c667c671da2cda3a0738b18ed99ca4181765",
-      "2e8d75cb5e193ce2899a51c5a3c1ba0dab0de1b5",
-      "1",
-      "1"
+      "4dd61dc02fea2b5e9355cf8c13e43f3695a03cba",
+      "2",
+      "2"
     ]
   ],
   "schema": "al-diff@1",
@@ -18,7 +18,7 @@
   "to": {
     "version": "30",
     "country": "w1",
-    "commit": "2e8d75cb5e193ce2899a51c5a3c1ba0dab0de1b5"
+    "commit": "4dd61dc02fea2b5e9355cf8c13e43f3695a03cba"
   },
   "summary": {
     "objects": 174,
@@ -55,6 +55,7 @@
       "key": "codeunit/22",
       "name": "Item Jnl.-Post Line",
       "change": "changed",
+      "ns": "Microsoft.Inventory.Posting",
       "procedures": [
         {
           "id": "postflushedconsumption(record microsoft.manufacturing.document.\"production order\",record microsoft.manufacturing.document.\"prod. order line\",record microsoft.manufacturing.document.\"prod. order component\",record microsoft.manufacturing.document.\"prod. order routing line\",record \"item journal line\")",
@@ -5066,6 +5067,7 @@
       "key": "codeunit/23",
       "name": "Item Jnl.-Post Batch",
       "change": "changed",
+      "ns": "Microsoft.Inventory.Posting",
       "procedures": [
         {
           "id": "runonbeforeselfreservedqty(record \"stockkeeping unit\",record \"item journal line\",decimal,boolean)",
@@ -5164,6 +5166,7 @@
       "key": "codeunit/90",
       "name": "Purch.-Post",
       "change": "changed",
+      "ns": "Microsoft.Purchases.Posting",
       "procedures": [
         {
           "id": "isinvoiceroundingline(code[20],record \"purch. inv. line\")",
@@ -5196,6 +5199,7 @@
       "key": "codeunit/248",
       "name": "VAT Lookup Ext. Data Hndl",
       "change": "changed",
+      "ns": "Microsoft.Finance.VAT.Registration",
       "procedures": [
         {
           "id": "checkresponsesize(codeunit \"temp blob\")",
@@ -5237,6 +5241,7 @@
       "key": "codeunit/249",
       "name": "VAT Registration Log Mgt.",
       "change": "changed",
+      "ns": "Microsoft.Finance.VAT.Registration",
       "procedures": [
         {
           "id": "validateresponseintegrity(record \"vat registration log\",dotnet xmldocument,text)",
@@ -5319,6 +5324,7 @@
       "key": "codeunit/333",
       "name": "Req. Wksh.-Make Order",
       "change": "changed",
+      "ns": "Microsoft.Inventory.Requisition",
       "procedures": [
         {
           "id": "setsimulationmode(boolean)",
@@ -5366,6 +5372,7 @@
       "key": "codeunit/347",
       "name": "Amount Auto Format",
       "change": "changed",
+      "ns": "Microsoft.Utilities",
       "procedures": [
         {
           "id": "addcurrencysymbolformatstring(text[80],text[10],enum \"currency symbol position\")",
@@ -5433,6 +5440,7 @@
       "key": "codeunit/444",
       "name": "Purchase-Post Prepayments",
       "change": "changed",
+      "ns": "Microsoft.Purchases.Posting",
       "events": [
         {
           "id": "onbeforeprepmtamount(record \"purchase line\",option invoice,\"credit memo\",statistic,decimal,boolean)",
@@ -5483,6 +5491,7 @@
       "key": "codeunit/456",
       "name": "Job Queue Management",
       "change": "changed",
+      "ns": "System.Threading",
       "procedures": [
         {
           "id": "gettaskattemptno(record \"job queue log entry\")",
@@ -5555,6 +5564,7 @@
       "key": "codeunit/457",
       "name": "Environment Information",
       "change": "changed",
+      "ns": "System.Environment",
       "procedures": [
         {
           "id": "getenvironmentdescription()",
@@ -5596,6 +5606,7 @@
       "key": "codeunit/825",
       "name": "Sales Post Invoice Events",
       "change": "changed",
+      "ns": "Microsoft.Sales.Posting",
       "procedures": [
         {
           "id": "runonpostlinesonbeforecalcsums(record \"sales header\",codeunit \"gen. jnl.-post line\",record \"sales line\",record \"sales line\",record \"invoice posting parameters\",codeunit \"job post-line\")",
@@ -5703,6 +5714,7 @@
       "key": "codeunit/827",
       "name": "Service Post Invoice Events",
       "change": "changed",
+      "ns": "Microsoft.Service.Posting",
       "procedures": [
         {
           "id": "runonpreparelineonafterfillinvoicepostingbuffer(record \"invoice posting buffer\",record \"service line\",record \"service line\",boolean)",
@@ -5757,6 +5769,7 @@
       "key": "codeunit/926",
       "name": "Assembly Line-Reserve",
       "change": "changed",
+      "ns": "Microsoft.Assembly.Document",
       "events": [
         {
           "id": "onsetsourceforreservationonbeforeupdatereservation(record \"reservation entry\",record \"assembly line\")",
@@ -5808,6 +5821,7 @@
       "key": "codeunit/929",
       "name": "Asm. Get Demand To Reserve",
       "change": "changed",
+      "ns": "Microsoft.Inventory.Tracking",
       "events": [
         {
           "id": "ongetdemandonbeforesettempassemblyline(record \"assembly line\",boolean)",
@@ -5859,6 +5873,7 @@
       "key": "codeunit/1281",
       "name": "Update Currency Exchange Rates",
       "change": "changed",
+      "ns": "Microsoft.Finance.Currency",
       "procedures": [
         {
           "id": "checkresponsesize(codeunit \"temp blob\")",
@@ -5955,6 +5970,7 @@
       "key": "codeunit/1290",
       "name": "SOAP Web Service Request Mgt.",
       "change": "changed",
+      "ns": "System.Integration",
       "procedures": [
         {
           "id": "setusedefaultcredentials(boolean)",
@@ -5989,6 +6005,7 @@
       "key": "codeunit/1297",
       "name": "Http Web Request Mgt.",
       "change": "changed",
+      "ns": "System.Integration",
       "procedures": [
         {
           "id": "setusedefaultcredentials(boolean)",
@@ -6023,6 +6040,7 @@
       "key": "codeunit/1410",
       "name": "Doc. Exch. Service Mgt.",
       "change": "changed",
+      "ns": "Microsoft.EServices.EDocument",
       "procedures": [
         {
           "id": "getvalidatedserviceurl(record \"doc. exch. service setup\")",
@@ -6125,6 +6143,7 @@
       "key": "codeunit/1482",
       "name": "Edit in Excel Impl.",
       "change": "changed",
+      "ns": "System.Integration.Excel",
       "procedures": [
         {
           "id": "checkpageissupported(integer)",
@@ -6152,6 +6171,7 @@
       "key": "codeunit/1535",
       "name": "Approvals Mgmt.",
       "change": "changed",
+      "ns": "System.Automation",
       "events": [
         {
           "id": "onbeforepreventinsertrecifopenapprovalentryexist(variant,boolean)",
@@ -6192,6 +6212,7 @@
       "key": "codeunit/1550",
       "name": "Record Restriction Mgt.",
       "change": "changed",
+      "ns": "System.Automation",
       "procedures": [
         {
           "id": "itemjournalbatchcheckitemjournallinepostrestrictions(record \"item journal line\")",
@@ -6263,6 +6284,7 @@
       "key": "codeunit/1597",
       "name": "Email Upgrade",
       "change": "changed",
+      "ns": "System.Email",
       "procedures": [
         {
           "id": "getemailinboxaddedtoallowedlistupgradetag()",
@@ -6284,6 +6306,7 @@
       "key": "codeunit/1751",
       "name": "Data Classification Eval. Data",
       "change": "changed",
+      "ns": "Microsoft.Utilities",
       "procedures": [
         {
           "id": "classifybusinessiq()",
@@ -6305,6 +6328,7 @@
       "key": "codeunit/2503",
       "name": "Extension Operation Impl",
       "change": "changed",
+      "ns": "System.Apps",
       "procedures": [
         {
           "id": "showinstallfailurestatus()",
@@ -6326,6 +6350,7 @@
       "key": "codeunit/3060",
       "name": "Uri",
       "change": "changed",
+      "ns": "System.Utilities",
       "procedures": [
         {
           "id": "areurishavesamescheme(text,text)",
@@ -6358,6 +6383,7 @@
       "key": "codeunit/3702",
       "name": "Environment Information Impl.",
       "change": "changed",
+      "ns": "System.Environment",
       "properties": [
         {
           "name": "Permissions",
@@ -6502,6 +6528,7 @@
       "key": "codeunit/3997",
       "name": "Retention Policy JQ",
       "change": "changed",
+      "ns": "System.DataAdministration",
       "procedures": [
         {
           "id": "schedulecontinuation()",
@@ -6536,12 +6563,14 @@
     {
       "key": "codeunit/4313",
       "name": "Agent Task Log Export",
-      "change": "added"
+      "change": "added",
+      "ns": "System.Agents.Troubleshooting"
     },
     {
       "key": "codeunit/4314",
       "name": "Agent Task Log Entry",
       "change": "changed",
+      "ns": "System.Agents.Troubleshooting",
       "procedures": [
         {
           "id": "isagentaction(record \"agent task log entry\")",
@@ -6634,6 +6663,7 @@
       "key": "codeunit/5330",
       "name": "CRM Integration Management",
       "change": "changed",
+      "ns": "Microsoft.Integration.Dataverse",
       "procedures": [
         {
           "id": "reschedulejobqueueentriesfortable(integer)",
@@ -6685,12 +6715,14 @@
     {
       "key": "codeunit/5407",
       "name": "Prod. Order Status Management",
-      "change": "changed"
+      "change": "changed",
+      "ns": "Microsoft.Manufacturing.Document"
     },
     {
       "key": "codeunit/5431",
       "name": "Calc. Item Plan - Plan Wksh.",
       "change": "changed",
+      "ns": "Microsoft.Manufacturing.Planning",
       "procedures": [
         {
           "id": "setsimulationmode(boolean)",
@@ -6818,12 +6850,14 @@
     {
       "key": "codeunit/5455",
       "name": "Supply What-If Planning Engine",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Inventory.Planning"
     },
     {
       "key": "codeunit/5520",
       "name": "Get Unplanned Demand",
       "change": "changed",
+      "ns": "Microsoft.Inventory.Requisition",
       "procedures": [
         {
           "id": "runonbeforegetunplannedprodordercomp(record \"unplanned demand\",record microsoft.manufacturing.document.\"prod. order component\")",
@@ -7508,6 +7542,7 @@
       "key": "codeunit/5522",
       "name": "Order Planning Mgt.",
       "change": "changed",
+      "ns": "Microsoft.Inventory.Requisition",
       "procedures": [
         {
           "id": "runonbeforereqlinemodify(record \"requisition line\",record \"requisition line\",record microsoft.manufacturing.document.\"prod. order component\")",
@@ -7596,6 +7631,7 @@
       "key": "codeunit/5530",
       "name": "Calc. Item Availability",
       "change": "changed",
+      "ns": "Microsoft.Inventory.Availability",
       "procedures": [
         {
           "id": "runonbeforerunproductionorderpage(record microsoft.manufacturing.document.\"production order\",boolean)",
@@ -7743,6 +7779,7 @@
       "key": "codeunit/5790",
       "name": "Available to Promise",
       "change": "changed",
+      "ns": "Microsoft.Inventory.Availability",
       "properties": [
         {
           "name": "Permissions",
@@ -7755,6 +7792,7 @@
       "key": "codeunit/5812",
       "name": "Calculate Standard Cost",
       "change": "changed",
+      "ns": "Microsoft.Manufacturing.StandardCost",
       "procedures": [
         {
           "id": "calcitemfornoninventoryvalue(record item)",
@@ -7826,6 +7864,7 @@
       "key": "codeunit/5870",
       "name": "Calculate BOM Tree",
       "change": "changed",
+      "ns": "Microsoft.Inventory.BOM.Tree",
       "procedures": [
         {
           "id": "generatetreeforitems(record item,record \"bom buffer\",option \" \",availability,cost)",
@@ -9555,6 +9594,7 @@
       "key": "codeunit/5895",
       "name": "Inventory Adjustment",
       "change": "changed",
+      "ns": "Microsoft.Inventory.Costing",
       "events": [
         {
           "id": "onaftersetparameters(record \"cost adjustment parameter\")",
@@ -9601,6 +9641,7 @@
       "key": "codeunit/5896",
       "name": "Calc. Inventory Adjmt. - Order",
       "change": "changed",
+      "ns": "Microsoft.Inventory.Costing",
       "procedures": [
         {
           "id": "runoncalcactualcapacitycostsonaftersetfilters(record microsoft.manufacturing.capacity.\"capacity ledger entry\",record \"inventory adjmt. entry (order)\",boolean,decimal)",
@@ -9778,6 +9819,7 @@
       "key": "codeunit/6223",
       "name": "OpenXML Management",
       "change": "changed",
+      "ns": "System.Xml",
       "procedures": [
         {
           "id": "writecellvalue(dotnet worksheetwriter,text,dotnet datarow,integer,integer,dotnet celldecorator)",
@@ -9837,6 +9879,7 @@
       "key": "codeunit/6400",
       "name": "Flow Service Management",
       "change": "changed",
+      "ns": "System.Automation",
       "procedures": [
         {
           "id": "trygetenvironmentid(text)",
@@ -9904,6 +9947,7 @@
       "key": "codeunit/6485",
       "name": "Serv. Get Demand To Reserve",
       "change": "changed",
+      "ns": "Microsoft.Inventory.Tracking",
       "events": [
         {
           "id": "ongetdemandonbeforesettempserviceline(record \"service line\",boolean)",
@@ -9954,12 +9998,14 @@
     {
       "key": "codeunit/6497",
       "name": "Serv. Planning Availability",
-      "change": "removed"
+      "change": "removed",
+      "ns": "Microsoft.Inventory.Planning"
     },
     {
       "key": "codeunit/6503",
       "name": "Item Tracking Doc. Management",
       "change": "changed",
+      "ns": "Microsoft.Inventory.Tracking",
       "procedures": [
         {
           "id": "showitemtrackingforprodordercomp(integer,code[20],integer,integer)",
@@ -10014,6 +10060,7 @@
       "key": "codeunit/6516",
       "name": "Package Management",
       "change": "changed",
+      "ns": "Microsoft.Inventory.Tracking",
       "procedures": [
         {
           "id": "itemjnlpostlineonaftersettrackingsetupfortransfer(record \"item tracking setup\",record \"item tracking setup\")",
@@ -10063,6 +10110,7 @@
       "key": "codeunit/6620",
       "name": "Copy Document Mgt.",
       "change": "changed",
+      "ns": "Microsoft.Utilities",
       "properties": [
         {
           "name": "Permissions",
@@ -10075,6 +10123,7 @@
       "key": "codeunit/6710",
       "name": "ODataUtility",
       "change": "changed",
+      "ns": "System.Integration",
       "procedures": [
         {
           "id": "createmetadatarequest(httprequestmessage)",
@@ -10109,6 +10158,7 @@
       "key": "codeunit/7201",
       "name": "CDS Integration Impl.",
       "change": "changed",
+      "ns": "Microsoft.Integration.Dataverse",
       "procedures": [
         {
           "id": "checkserveraddresshostsuffix(text)",
@@ -10136,6 +10186,7 @@
       "key": "codeunit/7208",
       "name": "Commercial Dataverse Endpoints",
       "change": "changed",
+      "ns": "Microsoft.Integration.Dataverse",
       "procedures": [
         {
           "id": "getenvironmenthostsuffix()",
@@ -10157,6 +10208,7 @@
       "key": "codeunit/7301",
       "name": "Whse. Jnl.-Register Line",
       "change": "changed",
+      "ns": "Microsoft.Warehouse.Journal",
       "procedures": [
         {
           "id": "lockiflegacyposting()",
@@ -10216,6 +10268,7 @@
       "key": "codeunit/7307",
       "name": "Whse.-Activity-Register",
       "change": "changed",
+      "ns": "Microsoft.Warehouse.Activity",
       "procedures": [
         {
           "id": "runonafterassemblylinemodify(record microsoft.assembly.document.\"assembly line\")",
@@ -10550,6 +10603,7 @@
       "key": "codeunit/7312",
       "name": "Create Pick",
       "change": "changed",
+      "ns": "Microsoft.Warehouse.Activity",
       "procedures": [
         {
           "id": "setprodordercompline(record microsoft.manufacturing.document.\"prod. order component\",integer)",
@@ -10845,6 +10899,7 @@
       "key": "codeunit/7313",
       "name": "Create Put-away",
       "change": "changed",
+      "ns": "Microsoft.Warehouse.Activity",
       "procedures": [
         {
           "id": "setcalledfromputawayworksheet(boolean)",
@@ -11815,6 +11870,7 @@
       "key": "codeunit/7321",
       "name": "Create Inventory Put-away",
       "change": "changed",
+      "ns": "Microsoft.Warehouse.Activity",
       "procedures": [
         {
           "id": "setfilterprodorderline(record microsoft.manufacturing.document.\"prod. order line\",record microsoft.manufacturing.document.\"production order\")",
@@ -12601,6 +12657,7 @@
       "key": "codeunit/7322",
       "name": "Create Inventory Pick/Movement",
       "change": "changed",
+      "ns": "Microsoft.Warehouse.Activity",
       "procedures": [
         {
           "id": "runonbeforecreatepickormovelinefromproductionloop(record \"warehouse activity header\",record microsoft.manufacturing.document.\"production order\",boolean,record microsoft.manufacturing.document.\"prod. order component\")",
@@ -13124,6 +13181,7 @@
       "key": "codeunit/7324",
       "name": "Whse.-Activity-Post",
       "change": "changed",
+      "ns": "Microsoft.Warehouse.Activity",
       "procedures": [
         {
           "id": "runonpostconsumptionlineonaftercreateitemjnlline(record \"item journal line\",record microsoft.manufacturing.document.\"prod. order line\",record \"warehouse activity line\",record \"source code setup\")",
@@ -13518,6 +13576,7 @@
       "key": "codeunit/7768",
       "name": "AOAI Deployments",
       "change": "changed",
+      "ns": "System.AI",
       "procedures": [
         {
           "id": "getgpt55chatlatest()",
@@ -13618,12 +13677,14 @@
     {
       "key": "codeunit/7769",
       "name": "AOAI Deployments Impl",
-      "change": "changed"
+      "change": "changed",
+      "ns": "System.AI"
     },
     {
       "key": "codeunit/8903",
       "name": "Email Record Reference Impl.",
       "change": "changed",
+      "ns": "System.Email",
       "properties": [
         {
           "name": "Permissions",
@@ -13636,6 +13697,7 @@
       "key": "codeunit/9033",
       "name": "Invite External Accountant",
       "change": "changed",
+      "ns": "Microsoft.AccountantPortal",
       "procedures": [
         {
           "id": "invokerequest(text,text,text,text,text)",
@@ -13773,6 +13835,7 @@
       "key": "codeunit/9510",
       "name": "Document Service Management",
       "change": "changed",
+      "ns": "Microsoft.EServices.EDocument",
       "procedures": [
         {
           "id": "initializegraphwebrequest(text,httprequestmessage,text,text)",
@@ -14049,6 +14112,7 @@
       "key": "codeunit/9998",
       "name": "Upgrade Tag Definitions",
       "change": "changed",
+      "ns": "Microsoft.Upgrade",
       "procedures": [
         {
           "id": "getshowcurrencysymbolpositionupgradetag()",
@@ -14084,6 +14148,7 @@
       "key": "codeunit/104000",
       "name": "Upgrade - BaseApp",
       "change": "changed",
+      "ns": "Microsoft.Upgrade",
       "procedures": [
         {
           "id": "setshowcurrencysymbolposition()",
@@ -14105,6 +14170,7 @@
       "key": "codeunit/104062",
       "name": "Mfg. Upgrade BaseApp",
       "change": "changed",
+      "ns": "Microsoft.Upgrade",
       "procedures": [
         {
           "id": "upgradeproddefinitiondisplaysetup()",
@@ -14154,6 +14220,7 @@
       "key": "codeunit/99000781",
       "name": "Mfg. Calculate BOM Tree",
       "change": "changed",
+      "ns": "Microsoft.Inventory.BOM.Tree",
       "procedures": [
         {
           "id": "calcroutinglinecosts(record \"routing line\",decimal,decimal,record \"bom buffer\",record item)",
@@ -14201,6 +14268,7 @@
       "key": "codeunit/99000791",
       "name": "Mfg. Page Management",
       "change": "changed",
+      "ns": "Microsoft.Utilities",
       "events": [
         {
           "id": "onaftergetserviceheaderpageid(recordref,record microsoft.service.document.\"service header\",integer)",
@@ -14257,6 +14325,7 @@
       "key": "codeunit/99000809",
       "name": "Planning Line Management",
       "change": "changed",
+      "ns": "Microsoft.Inventory.Planning",
       "procedures": [
         {
           "id": "calculateroutingfromactual(record microsoft.manufacturing.routing.\"planning routing line\",option forward,backward,boolean)",
@@ -16090,6 +16159,7 @@
       "key": "codeunit/99000813",
       "name": "Carry Out Action",
       "change": "changed",
+      "ns": "Microsoft.Inventory.Requisition",
       "procedures": [
         {
           "id": "carryoutactionsfromprodorder(record \"requisition line\",enum microsoft.manufacturing.document.\"planning create prod. order\",code[10],code[10])",
@@ -19768,6 +19838,7 @@
       "key": "codeunit/99000815",
       "name": "Reservation-Check Date Confl.",
       "change": "changed",
+      "ns": "Microsoft.Inventory.Tracking",
       "procedures": [
         {
           "id": "prodorderlinecheck(record microsoft.manufacturing.document.\"prod. order line\",boolean)",
@@ -20513,6 +20584,7 @@
       "key": "codeunit/99000833",
       "name": "Req. Line-Reserve",
       "change": "changed",
+      "ns": "Microsoft.Inventory.Requisition",
       "procedures": [
         {
           "id": "transferplanninglinetopoline(record \"requisition line\",record microsoft.manufacturing.document.\"prod. order line\",decimal,boolean)",
@@ -21016,6 +21088,7 @@
       "key": "codeunit/99000835",
       "name": "Item Jnl. Line-Reserve",
       "change": "changed",
+      "ns": "Microsoft.Inventory.Journal",
       "events": [
         {
           "id": "onsetsourceforreservationonbeforeupdatereservation(record \"reservation entry\",record \"item journal line\")",
@@ -21067,6 +21140,7 @@
       "key": "codeunit/99000836",
       "name": "Transfer Line-Reserve",
       "change": "changed",
+      "ns": "Microsoft.Inventory.Transfer",
       "events": [
         {
           "id": "onsetsourceforreservationonbeforeupdatereservation(record \"reservation entry\",record \"transfer line\")",
@@ -21118,6 +21192,7 @@
       "key": "codeunit/99000837",
       "name": "Prod. Order Line-Reserve",
       "change": "changed",
+      "ns": "Microsoft.Manufacturing.Document",
       "events": [
         {
           "id": "onsetsourceforreservationonbeforeupdatereservation(record \"reservation entry\",record \"prod. order line\")",
@@ -21169,6 +21244,7 @@
       "key": "codeunit/99000838",
       "name": "Prod. Order Comp.-Reserve",
       "change": "changed",
+      "ns": "Microsoft.Manufacturing.Document",
       "events": [
         {
           "id": "onsetsourceforreservationonbeforeupdatereservation(record \"reservation entry\",record \"prod. order component\")",
@@ -21220,6 +21296,7 @@
       "key": "codeunit/99000840",
       "name": "Plng. Component-Reserve",
       "change": "changed",
+      "ns": "Microsoft.Inventory.Planning",
       "events": [
         {
           "id": "onsetsourceforreservationonbeforeupdatereservation(record \"reservation entry\",record \"planning component\")",
@@ -21271,6 +21348,7 @@
       "key": "codeunit/99000841",
       "name": "Item Ledger Entry-Reserve",
       "change": "changed",
+      "ns": "Microsoft.Inventory.Ledger",
       "events": [
         {
           "id": "onsetitemledgentryonbeforeupdatereservation(record \"reservation entry\",record \"item ledger entry\")",
@@ -21322,6 +21400,7 @@
       "key": "codeunit/99000842",
       "name": "Service Line-Reserve",
       "change": "changed",
+      "ns": "Microsoft.Service.Document",
       "events": [
         {
           "id": "onsetsourceforreservationonbeforeupdatereservation(record \"reservation entry\",record \"service line\")",
@@ -21373,6 +21452,7 @@
       "key": "codeunit/99000846",
       "name": "Trans. Get Demand To Reserve",
       "change": "changed",
+      "ns": "Microsoft.Inventory.Tracking",
       "events": [
         {
           "id": "ongetdemandonbeforesettemptransferline(record \"transfer line\",boolean)",
@@ -21423,12 +21503,14 @@
     {
       "key": "codeunit/99000848",
       "name": "Mfg. Supply What-If Plan. Eng.",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Inventory.Planning"
     },
     {
       "key": "codeunit/99000854",
       "name": "Inventory Profile Offsetting",
       "change": "changed",
+      "ns": "Microsoft.Inventory.Tracking",
       "procedures": [
         {
           "id": "setsimulationmode(boolean)",
@@ -21956,6 +22038,7 @@
       "key": "codeunit/99000858",
       "name": "Mfg. Get Demand To Reserve",
       "change": "changed",
+      "ns": "Microsoft.Inventory.Tracking",
       "events": [
         {
           "id": "ongetdemandonbeforesettempprodordercomponent(record \"prod. order component\",boolean)",
@@ -22007,6 +22090,7 @@
       "key": "codeunit/99000869",
       "name": "Mfg. Invt. Profile Offsetting",
       "change": "changed",
+      "ns": "Microsoft.Inventory.Tracking",
       "procedures": [
         {
           "id": "isretainedinvtreservation(record \"reservation entry\",record \"reservation entry\")",
@@ -22283,6 +22367,7 @@
       "key": "codeunit/99000875",
       "name": "Prod. Order Availability Mgt.",
       "change": "changed",
+      "ns": "Microsoft.Manufacturing.Document",
       "procedures": [
         {
           "id": "transferfromforecast(record \"inventory event buffer\",record \"production forecast entry\",decimal,boolean)",
@@ -22477,6 +22562,7 @@
       "key": "codeunit/99000886",
       "name": "Capable to Promise",
       "change": "changed",
+      "ns": "Microsoft.Inventory.Availability",
       "procedures": [
         {
           "id": "reassignrefordernos(code[20])",
@@ -22645,37 +22731,44 @@
     {
       "key": "codeunit/99001015",
       "name": "Prod. Definition Version Mgmt.",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Manufacturing.Wizard"
     },
     {
       "key": "codeunit/99001016",
       "name": "Prod. Definition Temp Data",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Manufacturing.Wizard"
     },
     {
       "key": "codeunit/99001017",
       "name": "Production Definition Manager",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Manufacturing.Wizard"
     },
     {
       "key": "codeunit/99001018",
       "name": "Prod. Order Direct Creator",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Manufacturing.Wizard"
     },
     {
       "key": "codeunit/99001022",
       "name": "Prod. Def. Source Initializer",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Manufacturing.Wizard"
     },
     {
       "key": "codeunit/99001023",
       "name": "Prod. Def. ProdOrdLine Bind",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Manufacturing.Wizard"
     },
     {
       "key": "enum/51",
       "name": "Currency Symbol Position",
       "change": "changed",
+      "ns": "Microsoft.Finance.Currency",
       "values": [
         {
           "id": "0",
@@ -22717,37 +22810,44 @@
     {
       "key": "enum/5526",
       "name": "Planning Create Prod. Order",
-      "change": "changed"
+      "change": "changed",
+      "ns": "Microsoft.Manufacturing.Document"
     },
     {
       "key": "enum/99001010",
       "name": "Prod. Definition Display",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Manufacturing.Wizard"
     },
     {
       "key": "enum/99001011",
       "name": "Prod. Definition Mode",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Manufacturing.Wizard"
     },
     {
       "key": "enum/99001012",
       "name": "Prod. Definition Source",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Manufacturing.Wizard"
     },
     {
       "key": "enum/99001028",
       "name": "Prod. Definition Scenario",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Manufacturing.Wizard"
     },
     {
       "key": "enum/99001031",
       "name": "Prod. Definition Save Target",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Manufacturing.Wizard"
     },
     {
       "key": "interface/dataverse cloud endpoints",
       "name": "Dataverse Cloud Endpoints",
       "change": "changed",
+      "ns": "Microsoft.Integration.Dataverse",
       "procedures": [
         {
           "id": "getenvironmenthostsuffix()",
@@ -22769,6 +22869,7 @@
       "key": "page/1",
       "name": "Company Information",
       "change": "changed",
+      "ns": "Microsoft.Foundation.Company",
       "procedures": [
         {
           "id": "loaddescriptions()",
@@ -22790,6 +22891,7 @@
       "key": "page/490",
       "name": "Acc. Schedule Overview",
       "change": "changed",
+      "ns": "Microsoft.Finance.FinancialReports",
       "procedures": [
         {
           "id": "setpreview(text)",
@@ -22817,6 +22919,7 @@
       "key": "page/1366",
       "name": "Field Monitoring Setup",
       "change": "changed",
+      "ns": "System.Diagnostics",
       "properties": [
         {
           "name": "AboutText",
@@ -22834,6 +22937,7 @@
       "key": "page/1367",
       "name": "Monitored Field Log Entries",
       "change": "changed",
+      "ns": "System.Diagnostics",
       "properties": [
         {
           "name": "AboutText",
@@ -22851,6 +22955,7 @@
       "key": "page/1369",
       "name": "Monitored Fields Worksheet",
       "change": "changed",
+      "ns": "System.Diagnostics",
       "properties": [
         {
           "name": "AboutText",
@@ -22868,6 +22973,7 @@
       "key": "page/2515",
       "name": "AppSource Product List",
       "change": "changed",
+      "ns": "System.Apps.AppSource",
       "properties": [
         {
           "name": "Caption",
@@ -22880,6 +22986,7 @@
       "key": "page/4312",
       "name": "Agent Task Log Entry",
       "change": "changed",
+      "ns": "System.Agents.Troubleshooting",
       "procedures": [
         {
           "id": "setagentname()",
@@ -22900,17 +23007,20 @@
     {
       "key": "page/5440",
       "name": "Supply What-If Scenarios",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Inventory.Planning"
     },
     {
       "key": "page/5443",
       "name": "What-If Impacts",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Inventory.Planning"
     },
     {
       "key": "page/5734",
       "name": "Item Category Attributes",
       "change": "changed",
+      "ns": "Microsoft.Inventory.Item.Attribute",
       "procedures": [
         {
           "id": "showblankoptionattributenotification(text[250])",
@@ -22966,6 +23076,7 @@
       "key": "page/5870",
       "name": "BOM Structure",
       "change": "changed",
+      "ns": "Microsoft.Inventory.BOM",
       "procedures": [
         {
           "id": "initasmorder(record microsoft.assembly.document.\"assembly header\")",
@@ -23108,6 +23219,7 @@
       "key": "page/5871",
       "name": "Item Availability by BOM Level",
       "change": "changed",
+      "ns": "Microsoft.Inventory.Availability",
       "procedures": [
         {
           "id": "initasmorder(record microsoft.assembly.document.\"assembly header\")",
@@ -23179,6 +23291,7 @@
       "key": "page/5872",
       "name": "BOM Cost Shares",
       "change": "changed",
+      "ns": "Microsoft.Inventory.BOM",
       "procedures": [
         {
           "id": "initasmorder(record microsoft.assembly.document.\"assembly header\")",
@@ -23321,6 +23434,7 @@
       "key": "page/5939",
       "name": "Serv. Apply Customer Entries",
       "change": "changed",
+      "ns": "Microsoft.Sales.Receivables",
       "events": [
         {
           "id": "onsetapplyingcustledgentryonbeforecalctypedirectcalcapplnamount(record \"cust. ledger entry\",decimal,record \"cust. ledger entry\")",
@@ -23421,6 +23535,7 @@
       "key": "page/6873",
       "name": "Available - Invt. Doc. Lines",
       "change": "changed",
+      "ns": "Microsoft.Inventory.Document",
       "procedures": [
         {
           "id": "setassemblyline(record microsoft.assembly.document.\"assembly line\",record \"reservation entry\")",
@@ -23502,6 +23617,7 @@
       "key": "page/9219",
       "name": "Purch. Budget Overview Matrix",
       "change": "changed",
+      "ns": "Microsoft.Purchases.Analysis",
       "events": [
         {
           "id": "onbeforeonfindrecord(record \"item budget name\")",
@@ -23621,6 +23737,7 @@
       "key": "page/9239",
       "name": "Sales Budget Overview Matrix",
       "change": "changed",
+      "ns": "Microsoft.Sales.Analysis",
       "events": [
         {
           "id": "onbeforeonfindrecord(record \"item budget name\")",
@@ -23740,6 +23857,7 @@
       "key": "page/99000882",
       "name": "Change Status on Prod. Order",
       "change": "changed",
+      "ns": "Microsoft.Manufacturing.Document",
       "procedures": [
         {
           "id": "returnpostinginfo(enum \"production order status\",date,boolean)",
@@ -23789,6 +23907,7 @@
       "key": "page/99000884",
       "name": "Create Order From Sales",
       "change": "changed",
+      "ns": "Microsoft.Manufacturing.Document",
       "procedures": [
         {
           "id": "getuseproductdefinitionwizard()",
@@ -23843,32 +23962,38 @@
     {
       "key": "page/99001019",
       "name": "Temp Prod. Order Comp. List",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Manufacturing.Wizard"
     },
     {
       "key": "page/99001020",
       "name": "Temp Prod. Ord. Rtng List",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Manufacturing.Wizard"
     },
     {
       "key": "page/99001021",
       "name": "Production Definition Wizard",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Manufacturing.Wizard"
     },
     {
       "key": "page/99001029",
       "name": "Temp BOM Lines",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Manufacturing.Wizard"
     },
     {
       "key": "page/99001030",
       "name": "Temp Routing Lines",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Manufacturing.Wizard"
     },
     {
       "key": "pageextension/99000883",
       "name": "Mfg. Sales Order Planning",
       "change": "changed",
+      "ns": "Microsoft.Sales.Document",
       "procedures": [
         {
           "id": "createorders(record \"sales planning line\" temporary)",
@@ -23985,6 +24110,7 @@
       "key": "report/302",
       "name": "Get Demand To Reserve",
       "change": "changed",
+      "ns": "Microsoft.Inventory.Tracking",
       "events": [
         {
           "id": "ongetdemand(record item,record \"reservation wksh. batch\",enum \"reservation demand type\",text,text,text,text,enum \"reservation from stock\")",
@@ -24066,6 +24192,7 @@
       "key": "report/699",
       "name": "Calculate Plan - Req. Wksh.",
       "change": "changed",
+      "ns": "Microsoft.Inventory.Requisition",
       "procedures": [
         {
           "id": "initializefrommfgsetup()",
@@ -24244,6 +24371,7 @@
       "key": "report/952",
       "name": "Suggest Job Jnl. Lines",
       "change": "changed",
+      "ns": "Microsoft.Projects.TimeSheet",
       "events": [
         {
           "id": "onbeforeinserttemptimesheetline(record \"job journal line\",record \"time sheet header\",record \"time sheet line\" temporary,boolean)",
@@ -24433,6 +24561,7 @@
       "key": "report/5871",
       "name": "Item - Able to Make (Timeline)",
       "change": "changed",
+      "ns": "Microsoft.Inventory.Reports",
       "procedures": [
         {
           "id": "initasmorder(record microsoft.assembly.document.\"assembly header\")",
@@ -24504,6 +24633,7 @@
       "key": "report/7391",
       "name": "Whse. Get Bin Content",
       "change": "changed",
+      "ns": "Microsoft.Warehouse.Structure",
       "events": [
         {
           "id": "onbeforegetitemtracking(record \"bin content\",boolean,decimal,enum \"warehouse destination type 2\",record \"item journal line\",record \"transfer line\")",
@@ -24787,6 +24917,7 @@
       "key": "report/99001020",
       "name": "Carry Out Action Msg. - Plan.",
       "change": "changed",
+      "ns": "Microsoft.Inventory.Requisition",
       "procedures": [
         {
           "id": "setsimulationmode(boolean)",
@@ -24859,6 +24990,7 @@
       "key": "report/99001023",
       "name": "Get Action Messages",
       "change": "changed",
+      "ns": "Microsoft.Inventory.Requisition",
       "procedures": [
         {
           "id": "updateactionmsglist(integer,integer,code[20],code[10],integer,integer,code[10],code[10],code[10],code[20],date)",
@@ -24948,6 +25080,7 @@
       "key": "table/4",
       "name": "Currency",
       "change": "changed",
+      "ns": "Microsoft.Finance.Currency",
       "fields": [
         {
           "id": "166",
@@ -24983,6 +25116,7 @@
       "key": "table/27",
       "name": "Item",
       "change": "changed",
+      "ns": "Microsoft.Inventory.Item",
       "events": [
         {
           "id": "ongetfirstitemnofromlookuponbeforeshowselectitemerror(text,boolean)",
@@ -25023,6 +25157,7 @@
       "key": "table/32",
       "name": "Item Ledger Entry",
       "change": "changed",
+      "ns": "Microsoft.Inventory.Ledger",
       "procedures": [
         {
           "id": "getcurrencycode()",
@@ -25056,6 +25191,7 @@
       "key": "table/39",
       "name": "Purchase Line",
       "change": "changed",
+      "ns": "Microsoft.Purchases.Document",
       "procedures": [
         {
           "id": "calculateoutstandingamountexcltax()",
@@ -25086,6 +25222,7 @@
       "key": "table/79",
       "name": "Company Information",
       "change": "changed",
+      "ns": "Microsoft.Foundation.Company",
       "fields": [
         {
           "id": "7612",
@@ -25178,6 +25315,7 @@
       "key": "table/84",
       "name": "Acc. Schedule Name",
       "change": "changed",
+      "ns": "Microsoft.Finance.FinancialReports",
       "fields": [
         {
           "id": "8",
@@ -25201,6 +25339,7 @@
       "key": "table/88",
       "name": "Financial Report",
       "change": "changed",
+      "ns": "Microsoft.Finance.FinancialReports",
       "fields": [
         {
           "id": "62",
@@ -25282,6 +25421,7 @@
       "key": "table/125",
       "name": "Purch. Cr. Memo Line",
       "change": "changed",
+      "ns": "Microsoft.Purchases.History",
       "procedures": [
         {
           "id": "iscorrectivecreditmemo()",
@@ -25303,6 +25443,7 @@
       "key": "table/289",
       "name": "Payment Method",
       "change": "changed",
+      "ns": "Microsoft.Bank.BankAccount",
       "fields": [
         {
           "id": "20",
@@ -25325,6 +25466,7 @@
       "key": "table/333",
       "name": "Column Layout Name",
       "change": "changed",
+      "ns": "Microsoft.Finance.FinancialReports",
       "fields": [
         {
           "id": "8",
@@ -25348,6 +25490,7 @@
       "key": "table/339",
       "name": "Item Application Entry",
       "change": "changed",
+      "ns": "Microsoft.Inventory.Ledger",
       "procedures": [
         {
           "id": "setsearcheditemledgerentry(record \"item ledger entry\")",
@@ -25387,6 +25530,7 @@
       "key": "table/900",
       "name": "Assembly Header",
       "change": "changed",
+      "ns": "Microsoft.Assembly.Document",
       "procedures": [
         {
           "id": "showstatistics()",
@@ -25420,6 +25564,7 @@
       "key": "table/910",
       "name": "Posted Assembly Header",
       "change": "changed",
+      "ns": "Microsoft.Assembly.History",
       "procedures": [
         {
           "id": "showstatistics()",
@@ -25453,6 +25598,7 @@
       "key": "table/1504",
       "name": "Workflow Step Instance",
       "change": "changed",
+      "ns": "System.Automation",
       "keys": [
         {
           "id": "key6",
@@ -25482,12 +25628,14 @@
     {
       "key": "table/3703",
       "name": "Environment Information",
-      "change": "added"
+      "change": "added",
+      "ns": "System.Environment"
     },
     {
       "key": "table/3901",
       "name": "Retention Policy Setup",
       "change": "changed",
+      "ns": "System.DataAdministration",
       "fields": [
         {
           "id": "101",
@@ -25511,6 +25659,7 @@
       "key": "table/5222",
       "name": "Employee Ledger Entry",
       "change": "changed",
+      "ns": "Microsoft.HumanResources.Payables",
       "keys": [
         {
           "id": "closedbyentryno",
@@ -25529,6 +25678,7 @@
       "key": "table/5405",
       "name": "Production Order",
       "change": "changed",
+      "ns": "Microsoft.Manufacturing.Document",
       "fields": [
         {
           "id": "7300",
@@ -25565,6 +25715,7 @@
       "key": "table/5406",
       "name": "Prod. Order Line",
       "change": "changed",
+      "ns": "Microsoft.Manufacturing.Document",
       "fields": [
         {
           "id": "35",
@@ -25652,6 +25803,7 @@
       "key": "table/5407",
       "name": "Prod. Order Component",
       "change": "changed",
+      "ns": "Microsoft.Manufacturing.Document",
       "events": [
         {
           "id": "onbeforegetprodorderneeds(record \"prod. order component\",record \"prod. order line\",boolean)",
@@ -25697,6 +25849,7 @@
       "key": "table/5409",
       "name": "Prod. Order Routing Line",
       "change": "changed",
+      "ns": "Microsoft.Manufacturing.Document",
       "procedures": [
         {
           "id": "checkpreviousandnextfortemp()",
@@ -25757,17 +25910,20 @@
     {
       "key": "table/5440",
       "name": "Supply What-If Scenario",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Inventory.Planning"
     },
     {
       "key": "table/5441",
       "name": "What-If Impact",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Inventory.Planning"
     },
     {
       "key": "table/5525",
       "name": "Manufacturing User Template",
       "change": "changed",
+      "ns": "Microsoft.Inventory.Requisition",
       "fields": [
         {
           "id": "15",
@@ -25829,6 +25985,7 @@
       "key": "table/5769",
       "name": "Warehouse Setup",
       "change": "changed",
+      "ns": "Microsoft.Warehouse.Setup",
       "procedures": [
         {
           "id": "uselegacyposting()",
@@ -25862,6 +26019,7 @@
       "key": "table/5802",
       "name": "Value Entry",
       "change": "changed",
+      "ns": "Microsoft.Inventory.Ledger",
       "procedures": [
         {
           "id": "isavgcostexception(boolean)",
@@ -25901,6 +26059,7 @@
       "key": "table/5900",
       "name": "Service Header",
       "change": "changed",
+      "ns": "Microsoft.Service.Document",
       "procedures": [
         {
           "id": "calcinvdiscforheader()",
@@ -26216,6 +26375,7 @@
       "key": "table/5901",
       "name": "Service Item Line",
       "change": "changed",
+      "ns": "Microsoft.Service.Document",
       "procedures": [
         {
           "id": "showcomments(option general,fault,resolution,accessory,internal,\"service item loaner\")",
@@ -26255,6 +26415,7 @@
       "key": "table/5902",
       "name": "Service Line",
       "change": "changed",
+      "ns": "Microsoft.Service.Document",
       "events": [
         {
           "id": "onafterupdatevatonlinesonaftercalcvatamount(record \"service line\",record \"vat amount line\" temporary,record \"vat amount line\",decimal)",
@@ -26360,6 +26521,7 @@
       "key": "table/5990",
       "name": "Service Shipment Header",
       "change": "changed",
+      "ns": "Microsoft.Service.History",
       "procedures": [
         {
           "id": "openstatistics()",
@@ -26439,6 +26601,7 @@
       "key": "table/5992",
       "name": "Service Invoice Header",
       "change": "changed",
+      "ns": "Microsoft.Service.History",
       "procedures": [
         {
           "id": "openstatistics()",
@@ -26518,6 +26681,7 @@
       "key": "table/5994",
       "name": "Service Cr.Memo Header",
       "change": "changed",
+      "ns": "Microsoft.Service.History",
       "procedures": [
         {
           "id": "openstatistics()",
@@ -26597,6 +26761,7 @@
       "key": "table/7312",
       "name": "Warehouse Entry",
       "change": "changed",
+      "ns": "Microsoft.Warehouse.Ledger",
       "procedures": [
         {
           "id": "insertrecord(boolean)",
@@ -26636,6 +26801,7 @@
       "key": "table/7313",
       "name": "Warehouse Register",
       "change": "changed",
+      "ns": "Microsoft.Warehouse.Ledger",
       "procedures": [
         {
           "id": "insertrecord(boolean)",
@@ -26675,6 +26841,7 @@
       "key": "table/8390",
       "name": "Financial Report Audit Log",
       "change": "changed",
+      "ns": "Microsoft.Finance.FinancialReports",
       "keys": [
         {
           "id": "reportusersecurityid",
@@ -26695,6 +26862,7 @@
       "key": "table/99000764",
       "name": "Routing Line",
       "change": "changed",
+      "ns": "Microsoft.Manufacturing.Routing",
       "procedures": [
         {
           "id": "checkpreviousandnextfortemp()",
@@ -26716,6 +26884,7 @@
       "key": "table/99000765",
       "name": "Manufacturing Setup",
       "change": "changed",
+      "ns": "Microsoft.Manufacturing.Setup",
       "fields": [
         {
           "id": "35",
@@ -27251,6 +27420,7 @@
       "key": "table/99000776",
       "name": "Production BOM Comment Line",
       "change": "changed",
+      "ns": "Microsoft.Manufacturing.ProductionBOM",
       "fields": [
         {
           "id": "2",
@@ -27310,6 +27480,7 @@
       "key": "tableextension/60",
       "name": "ShowCurrencyGenLedgSetup",
       "change": "changed",
+      "ns": "Microsoft.Finance.Currency",
       "fields": [
         {
           "id": "166",
@@ -27345,12 +27516,14 @@
     {
       "key": "tableextension/6474",
       "name": "Serv. Price List Line",
-      "change": "removed"
+      "change": "removed",
+      "ns": "Microsoft.Pricing.Worksheet"
     },
     {
       "key": "tableextension/99000750",
       "name": "Mfg. Item",
       "change": "changed",
+      "ns": "Microsoft.Inventory.Item",
       "procedures": [
         {
           "id": "sethidenoninventoryvalidateonstdcost(boolean)",
@@ -27416,6 +27589,7 @@
       "key": "xmlport/5801",
       "name": "Export Item Data",
       "change": "changed",
+      "ns": "Microsoft.Inventory.Item",
       "procedures": [
         {
           "id": "collectprodorder(code[20])",

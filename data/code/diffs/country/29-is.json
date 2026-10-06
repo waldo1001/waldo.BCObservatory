@@ -1,10 +1,10 @@
 {
   "inputs": [
-    2,
+    5,
     [
       "d7c9c667c671da2cda3a0738b18ed99ca4181765",
       "d7c9c667c671da2cda3a0738b18ed99ca4181765",
-      "1",
+      "2",
       []
     ]
   ],
@@ -42,6 +42,7 @@
       "key": "permissionset/1001",
       "name": "LOCAL",
       "change": "replaced",
+      "ns": "System.Security.AccessControl",
       "properties": [
         {
           "name": "Access",
@@ -54,6 +55,7 @@
       "key": "permissionset/1002",
       "name": "LOCAL READ",
       "change": "replaced",
+      "ns": "System.Security.AccessControl",
       "properties": [
         {
           "name": "Caption",
@@ -65,22 +67,26 @@
     {
       "key": "report/10913",
       "name": "IRS notification",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Reporting"
     },
     {
       "key": "report/10940",
       "name": "VAT Reconciliation A",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Reporting"
     },
     {
       "key": "report/10941",
       "name": "VAT Balancing Report",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Reporting"
     },
     {
       "key": "table/15",
       "name": "G/L Account",
       "change": "replaced",
+      "ns": "Microsoft.Finance.GeneralLedger.Account",
       "fields": [
         {
           "id": "10900",
@@ -136,6 +142,7 @@
       "key": "table/21",
       "name": "Cust. Ledger Entry",
       "change": "replaced",
+      "ns": "Microsoft.Sales.Receivables",
       "fields": [
         {
           "id": "10900",
@@ -166,6 +173,7 @@
       "key": "table/311",
       "name": "Sales & Receivables Setup",
       "change": "replaced",
+      "ns": "Microsoft.Sales.Setup",
       "fields": [
         {
           "id": "10900",
@@ -219,6 +227,7 @@
       "key": "table/5611",
       "name": "Depreciation Book",
       "change": "replaced",
+      "ns": "Microsoft.FixedAssets.Depreciation",
       "fields": [
         {
           "id": "10900",
@@ -272,22 +281,26 @@
     {
       "key": "table/10900",
       "name": "IRS Numbers",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Setup"
     },
     {
       "key": "table/10901",
       "name": "IRS Groups",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Setup"
     },
     {
       "key": "table/10902",
       "name": "IRS Types",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance.VAT.Setup"
     },
     {
       "key": "table/10903",
       "name": "IS Core App Setup",
-      "change": "added"
+      "change": "added",
+      "ns": "Microsoft.Finance"
     }
   ]
 }
