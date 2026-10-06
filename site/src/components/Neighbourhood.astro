@@ -1,0 +1,64 @@
+---
+/**
+ * The neighbourhood of an AL object (D45): a radial diagram, built at build time as inline SVG, of the objects it
+ * relates to, the objects and pages that reference it, its extensions, its event subscribers and the Learn pages
+ * naming it. Every node is a link; the markdown sections below carry the full lists.
+ */
+import { layoutRadial, neighbourhood, RING_LABEL, type Lookup, type Ring } from "../lib/relations";
+interface Props { objectKey: string; major: string; title: string; system: string | null; lookup: (k: string) => Lookup | null; learn: { url: string; title: string }[] }
+const { objectKey, major, title, system, lookup, learn } = Astro.props;
+const base = import.meta.env.BASE_URL;
+const { nodes, totals } = neighbourhood(objectKey, major, lookup, learn);
+const W = 760, H = 420;
+const placed = layoutRadial(nodes, W, H);
+const short = (s: string) => (s.length > 30 ? `${s.slice(0, 28)}…` : s);
+// captions: heaviest first, up to 14, never two within 12px on the same side of the centre
+const labelled = new Set<typeof placed[number]>();
+const taken: { y: number; left: boolean }[] = [];
+for (const n of [...placed].sort((a, b) => b.weight - a.weight)) {
+  if (labelled.size >= 14) break;
+  const left = n.x < W / 2;
+  if (taken.some((t) => t.left === left && Math.abs(t.y - n.y) < 12)) continue;
+  taken.push({ y: n.y, left }); labelled.add(n);
+}
+const colour = (n: { system: string | null; kind: string }) => (n.kind === "learn" ? "var(--ev-learn-text)" : n.system ? `var(--sys-${n.system})` : "var(--muted)");
+const href = (n: { href: string | null; kind: string }) => (n.href ? (n.kind === "learn" ? n.href : `${base}${n.href}`) : null);
+const SECTION: Record<Ring, string> = { relates: "#relations", referenced: "#referenced-by", pages: "#pages-and-codeunits-on-this-table", extensions: "#extended-by", subscribers: "#events-published", learn: "#documented-on-microsoft-learn" };
+const rings = (Object.keys(RING_LABEL) as Ring[]).filter((r) => totals[r]);
+---
+{placed.length > 0 && (
+  <section class="nb" aria-labelledby="neighbourhood">
+    <h2 class="section-title" id="neighbourhood">Neighbourhood <small>{Object.values(totals).reduce((a, b) => a + b, 0)} connected objects and pages</small></h2>
+    <svg viewBox={`0 0 ${W} ${H}`} role="img" aria-label={`Neighbourhood of ${title}: ${rings.map((r) => `${totals[r]} ${RING_LABEL[r]}`).join(", ")}`}>
+      {placed.map((n) => <line x1={W / 2} y1={H / 2} x2={n.x.toFixed(1)} y2={n.y.toFixed(1)} class={`e ${n.ring}`} />)}
+      <circle cx={W / 2} cy={H / 2} r="8" class="me" style={system ? `fill: var(--sys-${system})` : undefined} />
+      {placed.map((n) => {
+        const h = href(n);
+        const shape = n.kind === "table" || n.kind === "tableextension"
+          ? <rect x={(n.x - n.r).toFixed(1)} y={(n.y - n.r).toFixed(1)} width={(n.r * 2).toFixed(1)} height={(n.r * 2).toFixed(1)} rx={(n.r * 0.25).toFixed(1)} style={`fill: ${colour(n)}`} />
+          : <circle cx={n.x.toFixed(1)} cy={n.y.toFixed(1)} r={n.r.toFixed(1)} style={`fill: ${colour(n)}`} />;
+        const label = labelled.has(n) ? <text x={(n.x + (n.x < W / 2 ? -n.r - 4 : n.r + 4)).toFixed(1)} y={(n.y + 4).toFixed(1)} text-anchor={n.x < W / 2 ? "end" : "start"}>{short(n.label)}</text> : null;
+        return h ? <a href={h}><title>{n.label} ({RING_LABEL[n.ring]}{n.weight > 1 ? `, ${n.weight} links` : ""})</title>{shape}{label}</a> : <g><title>{n.label}</title>{shape}{label}</g>;
+      })}
+    </svg>
+    <ul class="nb-legend">
+      {rings.map((r) => <li><span class={`sw ${r}`}></span><a href={SECTION[r]}>{RING_LABEL[r]}</a> <span class="mono-meta">{totals[r]}</span></li>)}
+    </ul>
+    <p class="meta">One hop, from the extracted metadata (TableRelation, CalcFormula, SourceTable, TableNo, lookup pages, extensions, event subscriptions). The sections below list everything; the diagram shows up to 40.</p>
+  </section>
+)}
+<style>
+  .nb svg { width: 100%; height: auto; display: block; max-width: 760px; background: var(--g-bg); border: 1px solid var(--line); border-radius: var(--r-panel); }
+  .nb .e { stroke: var(--g-edge); stroke-width: 1; }
+  .nb .e.subscribers { stroke-dasharray: 3 3; }
+  .nb .e.learn { stroke: var(--ev-learn-text); opacity: .5; }
+  .nb .me { stroke: var(--g-star-active); stroke-width: 2; fill: var(--muted); }
+  .nb text { font: 600 11px var(--font-ui); fill: var(--text); paint-order: stroke; stroke: var(--g-bg); stroke-width: 3px; stroke-linejoin: round; }
+  .nb a:hover rect, .nb a:hover circle, .nb a:focus rect, .nb a:focus circle { stroke: var(--accent-dot); stroke-width: 2; }
+  .nb a:hover text { text-decoration: underline; }
+  .nb-legend { list-style: none; padding: 0; margin: 10px 0 4px; display: flex; flex-wrap: wrap; gap: 6px 16px; font-size: 13px; }
+  .nb-legend li { display: flex; align-items: center; gap: 6px; }
+  .sw { width: 14px; height: 0; border-top: 2px solid var(--g-edge); }
+  .sw.subscribers { border-top-style: dashed; }
+  .sw.learn { border-top-color: var(--ev-learn-text); }
+</style>
