@@ -1,26 +1,57 @@
 {
-  "$comment": "Nightly budget. Usage thresholds mirror Jarvis (same subscription). Quotas are items per run; llm_calls_max caps a run. Headroom = percentage points left before the nearer usage limit; headroom_scale maps it to a quota factor (only LLM quotas scale). reduced_factor applies when usage is unreadable. spend_caps (D17) are API-equivalent dollars from claude -p total_cost_usd, metered per call: the night cap covers one run date, the week cap a rolling seven run dates summed from data/manifest/_runs.",
-  "window": { "start_local": "01:00", "hard_stop_local": "06:35", "timezone": "Europe/Brussels" },
-  "usage_guard": { "max_5h_pct": 60, "max_7d_pct": 70, "recheck_every_llm_calls": 25, "on_unavailable": "reduced" },
+  "$comment": "Nightly budget. Usage thresholds mirror Jarvis (same subscription). Quotas are items per run; llm_calls_max caps a run. Headroom = percentage points left before the nearer usage limit; headroom_scale maps it to a quota factor (only LLM quotas scale). reduced_factor applies when usage is unreadable. spend_caps (D17) are API-equivalent dollars from claude -p total_cost_usd, metered per call: the night cap covers one run date, the week cap a rolling seven run dates summed from data/manifest/_runs. Quotas raised 2026-10-06 (owner) after measuring real costs (video ~$0.075, Learn page ~$0.008, hub ~$0.045) so the spend caps, not item counts, bound a night.",
+  "window": {
+    "start_local": "01:00",
+    "hard_stop_local": "06:35",
+    "timezone": "Europe/Brussels"
+  },
+  "usage_guard": {
+    "max_5h_pct": 60,
+    "max_7d_pct": 70,
+    "recheck_every_llm_calls": 25,
+    "on_unavailable": "reduced"
+  },
   "headroom_scale": [
-    { "min_headroom_pct": 40, "factor": 1 },
-    { "min_headroom_pct": 20, "factor": 0.5 },
-    { "min_headroom_pct": 10, "factor": 0.25 },
-    { "min_headroom_pct": 0, "factor": 0.25, "facts_only": true }
+    {
+      "min_headroom_pct": 40,
+      "factor": 1
+    },
+    {
+      "min_headroom_pct": 20,
+      "factor": 0.5
+    },
+    {
+      "min_headroom_pct": 10,
+      "factor": 0.25
+    },
+    {
+      "min_headroom_pct": 0,
+      "factor": 0.25,
+      "facts_only": true
+    }
   ],
   "reduced_factor": 0.5,
-  "spend_caps": { "night_usd": 10, "week_usd": 50 },
+  "spend_caps": {
+    "night_usd": 10,
+    "week_usd": 50
+  },
   "quotas": {
-    "captions": 40,
-    "video_extract": 25,
-    "docs": 60,
+    "captions": 60,
+    "video_extract": 40,
+    "docs": 400,
     "posts": 40,
     "guidelines": 20,
     "code_jobs": 1,
-    "hub_refresh": 15,
+    "hub_refresh": 60,
     "opus_reviews": 10,
     "llm_calls_max": 450
   },
-  "retry": { "max_attempts": 5, "backoff_hours_base": 2 },
-  "yt_dlp": { "sleep_seconds_min": 5, "sleep_seconds_max": 10 }
+  "retry": {
+    "max_attempts": 5,
+    "backoff_hours_base": 2
+  },
+  "yt_dlp": {
+    "sleep_seconds_min": 5,
+    "sleep_seconds_max": 10
+  }
 }
