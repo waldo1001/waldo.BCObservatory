@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-tri-state-locking",
   "published_at": "2026-08-07T11:25:18.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "b6891c3ade6c31e29e84a2d94ec5ff5a445cb202",
       "words": 400,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T16:14:49.066Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0
+    },
+    "summarized": {
+      "at": "2026-10-06T16:14:49.083Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T16:14:49.084Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T16:14:49.085Z",
+      "page": false
     }
   },
   "input_hash": "b6891c3ade6c31e29e84a2d94ec5ff5a445cb202",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b6891c3ade6c31e29e84a2d94ec5ff5a445cb202"
+  "output_hash": "9d8371a27f33d83da94fc6c0fef7aa5ae42834a26bdfcddb84c7a44f60194d65"
 }

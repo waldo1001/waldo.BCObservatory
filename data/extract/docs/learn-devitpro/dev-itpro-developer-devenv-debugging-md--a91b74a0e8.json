@@ -1,0 +1,49 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-debugging.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-debugging",
+  "title": "Debugging in AL",
+  "blob": "fb0b8dff2f440c473527def4c6cb30c16bf5ca7f",
+  "summary": "Debugging in AL guides developers to find and correct errors using the Visual Studio Code integrated debugger, breakpoints, and database inspection capabilities to verify application behavior.",
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "debugging",
+    "breakpoints",
+    "visual studio code",
+    "sql debugging",
+    "snapshot debugging",
+    "error handling",
+    "performance analysis"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Launch JSON File"
+    }
+  ],
+  "features": [
+    "Breakpoint setting and conditional breakpoints",
+    "Break on errors configuration",
+    "Break on record changes",
+    "SQL debugging and database statistics",
+    "Database locks inspection",
+    "Web service debugging",
+    "Attach and debug next",
+    "NonDebuggable attribute restriction"
+  ],
+  "versions": [
+    "April 2019"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null,
+      "pages_in_call": 5
+    }
+  ]
+}

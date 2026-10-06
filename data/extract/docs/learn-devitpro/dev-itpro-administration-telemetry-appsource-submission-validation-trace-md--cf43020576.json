@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-appsource-submission-validation-trace.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-appsource-submission-validation-trace",
+  "title": "Analyzing Marketplace submission validation trace telemetry",
+  "blob": "98e53909765bb2f71d92b7925ad69a1cd1016ab3",
+  "summary": "This telemetry guide documents Marketplace submission validation traces emitted to Application Insights, detailing validation phases, diagnostic events, and KQL code samples for analyzing app submission results.",
+  "systems": [
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "telemetry",
+    "marketplace",
+    "appsource",
+    "validation",
+    "application insights"
+  ],
+  "objects": [],
+  "features": [
+    "validation traces",
+    "AL compiler diagnostics",
+    "AppSourceCop analyzer",
+    "diagnostic codes",
+    "KQL queries"
+  ],
+  "versions": [
+    "2021 release wave 1",
+    "version 18.4"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null,
+      "pages_in_call": 7
+    }
+  ]
+}

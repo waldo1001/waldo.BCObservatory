@@ -1,0 +1,71 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-page-background-tasks.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-background-tasks",
+  "title": "Page Background Tasks",
+  "blob": "8db775b315e8a5e7d482d2ab3cf1cb593f5a72d1",
+  "summary": "Page Background Tasks explains how to run read-only computations and long processes asynchronously in background tasks to improve page performance and responsiveness without blocking users.",
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "background tasks",
+    "async processing",
+    "page design",
+    "performance",
+    "child sessions",
+    "codeunits"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "EnqueueBackgroundTask method"
+    },
+    {
+      "type": "other",
+      "name": "GetBackgroundParameters method"
+    },
+    {
+      "type": "other",
+      "name": "SetBackgroundTaskResult method"
+    },
+    {
+      "type": "other",
+      "name": "RunPageBackgroundTask method"
+    },
+    {
+      "type": "other",
+      "name": "CancelBackgroundTask method"
+    },
+    {
+      "type": "other",
+      "name": "OnPageBackgroundTaskCompleted trigger"
+    },
+    {
+      "type": "other",
+      "name": "OnPageBackgroundTaskError trigger"
+    }
+  ],
+  "features": [
+    "Parent and child session management",
+    "Dictionary parameters for task input",
+    "Background task timeout configuration",
+    "Error level handling (Ignore, Warning, Error)",
+    "Task re-enqueuing",
+    "Conditional task cancellation",
+    "Task result handling",
+    "Performance monitoring with counters",
+    "Unit testing with TestPage.RunPageBackgroundTask"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null,
+      "pages_in_call": 5
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-task-scheduler.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-task-scheduler",
+  "title": "Task scheduler",
+  "blob": "0c951d9f99589a7f077f560726c1642cf76e4b67",
+  "summary": "Task scheduler documentation for scheduling codeunits and reports to run at specific dates and times in background sessions, with retry logic for transient errors and failure handling.",
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "task scheduler",
+    "scheduled tasks",
+    "background sessions",
+    "codeunits",
+    "retry logic",
+    "telemetry",
+    "job queue"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "TaskScheduler"
+    },
+    {
+      "type": "table",
+      "name": "Scheduled Task"
+    },
+    {
+      "type": "table",
+      "name": "Session Events"
+    }
+  ],
+  "features": [
+    "CreateTask method",
+    "SetTaskReady method",
+    "TaskExists method",
+    "CancelTask method",
+    "retriable exceptions",
+    "failure codeunits",
+    "task retry intervals",
+    "telemetry integration"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null,
+      "pages_in_call": 3
+    }
+  ]
+}

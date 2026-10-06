@@ -1,0 +1,59 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-testing-application.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-testing-application",
+  "title": "Testing the application overview",
+  "blob": "14055cd58202076e040600ed348f72c13acb81a5",
+  "summary": "Application testing overview covering test codeunits, test methods, test pages, UI handlers, and best practices for creating automated repeatable tests in Business Central.",
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "test codeunits",
+    "test methods",
+    "test pages",
+    "ui handlers",
+    "asserterror",
+    "test automation",
+    "testing best practices"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Test codeunit"
+    },
+    {
+      "type": "codeunit",
+      "name": "TestRunner codeunit"
+    },
+    {
+      "type": "page",
+      "name": "TestPage"
+    },
+    {
+      "type": "page",
+      "name": "TestRequestPage"
+    }
+  ],
+  "features": [
+    "test codeunits",
+    "test methods",
+    "test runner codeunits",
+    "test pages",
+    "UI handlers",
+    "ASSERTERROR keyword",
+    "handler methods",
+    "ConfirmHandler attribute"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null,
+      "pages_in_call": 3
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-report-object.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-report-object",
+  "title": "Report object",
+  "blob": "7171a5779a14cf36df73f12a109643b80d29af41",
+  "summary": "Report object documentation for creating and configuring AL reports used to print or display database information with multiple layout types (RDL, Word, Excel) and request pages.",
+  "systems": [
+    "development",
+    "reporting"
+  ],
+  "topics": [
+    "report design",
+    "rdl layouts",
+    "word layouts",
+    "excel layouts",
+    "report dataset",
+    "request pages",
+    "report labels"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Customer List"
+    }
+  ],
+  "features": [
+    "report layouts",
+    "RDL report designer",
+    "Word document layouts",
+    "Excel layouts",
+    "request pages",
+    "report labels",
+    "AllowScheduling property",
+    "report scheduling"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null,
+      "pages_in_call": 3
+    }
+  ]
+}

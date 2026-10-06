@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-instrument-application-for-telemetry-event-log",
   "published_at": "2026-08-07T11:25:18.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "92f0b103ba0893725df7e655971222fdd54d025f",
       "words": 578,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T16:14:48.946Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0
+    },
+    "summarized": {
+      "at": "2026-10-06T16:14:48.963Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T16:14:48.964Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T16:14:48.965Z",
+      "page": false
     }
   },
   "input_hash": "92f0b103ba0893725df7e655971222fdd54d025f",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "92f0b103ba0893725df7e655971222fdd54d025f"
+  "output_hash": "33be7b5da824fd6fdc4d114886941d6c78bc8ad082baf5614b6a0f5b8f6b3fce"
 }

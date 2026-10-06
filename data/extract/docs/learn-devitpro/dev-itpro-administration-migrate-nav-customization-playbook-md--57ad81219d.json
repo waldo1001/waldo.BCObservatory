@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/migrate-nav-customization-playbook.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-nav-customization-playbook",
+  "title": "Customization Migration Guide - Dynamics NAV to Business Central Online",
+  "blob": "849576ce5f8319e9399d8fed793aa58f480ff0b7",
+  "summary": "This migration guide covers converting C/AL customizations to AL extensions when migrating from Dynamics NAV to Business Central online, including code-conversion workflow and handling of object types.",
+  "systems": [
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "migration",
+    "nav",
+    "customization",
+    "al extensions",
+    "code conversion"
+  ],
+  "objects": [],
+  "features": [
+    "C/AL to AL conversion",
+    "Txt2Al tool",
+    "page extensions",
+    "table extensions",
+    "codeunit refactoring",
+    "event subscribers",
+    "per-tenant extensions"
+  ],
+  "versions": [
+    "version 14",
+    "version 20"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null,
+      "pages_in_call": 7
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/webservices/walkthrough-authenticate-web-services-using-oauth.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/walkthrough-authenticate-web-services-using-oauth",
+  "title": "Walkthrough: Creating a console application that use OAuth to Authenticate Business Central Web Services (OData and SOAP)",
+  "blob": "6105f8120f73263d2233ee6f286c5e2fede12bae",
+  "summary": "This walkthrough demonstrates creating a console application that uses OAuth authentication to access Business Central OData web services, requiring Microsoft Entra ID configuration and Visual Studio setup.",
+  "systems": [
+    "integration",
+    "administration"
+  ],
+  "topics": [
+    "oauth",
+    "authentication",
+    "odata",
+    "azure ad",
+    "web services",
+    "entra id"
+  ],
+  "objects": [],
+  "features": [
+    "OAuth token acquisition",
+    "Microsoft Entra ID integration",
+    "OData V4 endpoint",
+    "delegated permissions",
+    "user impersonation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null,
+      "pages_in_call": 7
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-appsource-submission-validation-trace",
   "published_at": "2026-08-04T13:24:10.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "98e53909765bb2f71d92b7925ad69a1cd1016ab3",
       "words": 2536,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T16:14:49.080Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0
+    },
+    "summarized": {
+      "at": "2026-10-06T16:14:59.859Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T16:14:59.860Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T16:14:59.861Z",
+      "page": false
     }
   },
   "input_hash": "98e53909765bb2f71d92b7925ad69a1cd1016ab3",
@@ -44,5 +63,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "98e53909765bb2f71d92b7925ad69a1cd1016ab3"
+  "output_hash": "e887a58bfe5fb62d3d7d386e279721cb979823b91516044434006c2664150566"
 }

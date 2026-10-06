@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-background-tasks",
   "published_at": "2026-08-07T11:25:18.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "8db775b315e8a5e7d482d2ab3cf1cb593f5a72d1",
       "words": 3297,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T16:14:48.948Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 7,
+      "cost_usd": 0
+    },
+    "summarized": {
+      "at": "2026-10-06T16:14:48.966Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T16:14:48.967Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T16:14:48.968Z",
+      "page": false
     }
   },
   "input_hash": "8db775b315e8a5e7d482d2ab3cf1cb593f5a72d1",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "8db775b315e8a5e7d482d2ab3cf1cb593f5a72d1"
+  "output_hash": "991977ce882cc4557eed28be13caccf358454767bde982a038762c476f2edfc4"
 }

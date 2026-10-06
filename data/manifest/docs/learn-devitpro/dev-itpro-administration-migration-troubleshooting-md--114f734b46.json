@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-troubleshooting",
   "published_at": "2026-08-04T13:24:10.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "cc9f266b5fd24df4da9395d3cc617d05a922085c",
       "words": 2044,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T16:14:49.075Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0
+    },
+    "summarized": {
+      "at": "2026-10-06T16:14:59.856Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T16:14:59.857Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T16:14:59.858Z",
+      "page": false
     }
   },
   "input_hash": "cc9f266b5fd24df4da9395d3cc617d05a922085c",
@@ -38,5 +57,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "cc9f266b5fd24df4da9395d3cc617d05a922085c"
+  "output_hash": "5f33975039aece17d5cf268a1c8df9771e7e73dac7b12ef7a616adddce442282"
 }

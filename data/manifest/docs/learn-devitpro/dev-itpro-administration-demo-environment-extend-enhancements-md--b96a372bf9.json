@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/demo-environment-extend-enhancements",
   "published_at": "2026-08-04T13:24:10.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "696b7c5c7aa97097a4b507326c5f649822c5f1ae",
       "words": 1016,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T16:14:49.070Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0
+    },
+    "summarized": {
+      "at": "2026-10-06T16:14:49.125Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T16:14:59.850Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T16:14:59.852Z",
+      "page": false
     }
   },
   "input_hash": "696b7c5c7aa97097a4b507326c5f649822c5f1ae",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "696b7c5c7aa97097a4b507326c5f649822c5f1ae"
+  "output_hash": "7feb19b9395d79d67aae003f7521a6591a99592678e6f5f773de027dea6b3ae7"
 }

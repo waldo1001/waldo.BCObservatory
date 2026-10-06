@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-instrument-application-for-telemetry-event-log.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-instrument-application-for-telemetry-event-log",
+  "title": "Creating custom telemetry events for the Event Log",
+  "blob": "92f0b103ba0893725df7e655971222fdd54d025f",
+  "summary": "Creating custom telemetry events for the Event Log describes using the obsolete SENDTRACETAG method to emit trace events to the server Event Log for monitoring with Event Viewer and other tools.",
+  "systems": [
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "telemetry",
+    "event log",
+    "monitoring",
+    "trace events",
+    "diagnostics",
+    "logging"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "SENDTRACETAG method"
+    }
+  ],
+  "features": [
+    "SENDTRACETAG method (obsolete)",
+    "Event categorization",
+    "Verbosity levels",
+    "DataClassification assignment",
+    "Event Viewer integration",
+    "TraceLevel configuration",
+    "Performance Monitor integration"
+  ],
+  "versions": [
+    "2020 release wave 2 (v17)"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null,
+      "pages_in_call": 5
+    }
+  ]
+}

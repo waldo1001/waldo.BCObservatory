@@ -1,0 +1,48 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-tri-state-locking.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-tri-state-locking",
+  "title": "Tri-state Locking in Database",
+  "blob": "b6891c3ade6c31e29e84a2d94ec5ff5a445cb202",
+  "summary": "Tri-state locking is a database performance feature enabled by default in Business Central that uses optimistic reads and shared locks after write operations instead of strict consistency locks, reducing blocking and improving concurrency.",
+  "systems": [
+    "platform",
+    "administration"
+  ],
+  "topics": [
+    "locking",
+    "concurrency",
+    "database",
+    "performance",
+    "transaction isolation"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "LockTable method"
+    }
+  ],
+  "features": [
+    "tri-state locking",
+    "optimistic reads",
+    "shared locks",
+    "update locks",
+    "feature management",
+    "legacy locking"
+  ],
+  "versions": [
+    "version 22",
+    "version 23",
+    "version 24",
+    "version 25"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null,
+      "pages_in_call": 7
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-partial-records-faq.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-partial-records-faq",
+  "title": "FAQ for Partial Records",
+  "blob": "5aa1b2c896b09dc3b564d1ac16eaf8f0371eda34",
+  "summary": "FAQ for Partial Records answers common questions about the partial records capability that optimizes data loading by selecting specific fields and using just-in-time loading for unselected fields.",
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "partial records",
+    "performance optimization",
+    "field loading",
+    "jit loading",
+    "database queries"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "AddLoadFields method"
+    },
+    {
+      "type": "other",
+      "name": "SetLoadFields method"
+    }
+  ],
+  "features": [
+    "Just-in-time (JIT) field loading",
+    "Field selection for loading",
+    "Automatic field fetching on access",
+    "Table extension optimization",
+    "Enable Partial Records server setting",
+    "Compile-time field calculation",
+    "Record modification detection"
+  ],
+  "versions": [
+    "2020 release wave 2"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null,
+      "pages_in_call": 5
+    }
+  ]
+}

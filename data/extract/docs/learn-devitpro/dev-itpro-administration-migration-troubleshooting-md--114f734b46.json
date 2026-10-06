@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/migration-troubleshooting.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-troubleshooting",
+  "title": "Troubleshooting Cloud Migration",
+  "blob": "cc9f266b5fd24df4da9395d3cc617d05a922085c",
+  "summary": "Troubleshooting guide for cloud migration issues in Business Central, covering database compatibility, change tracking, user permissions, Integration Runtime setup, version requirements, and common data problems.",
+  "systems": [
+    "administration",
+    "integration"
+  ],
+  "topics": [
+    "cloud migration",
+    "troubleshooting",
+    "integration runtime",
+    "data replication",
+    "sql server"
+  ],
+  "objects": [],
+  "features": [
+    "SQL Server compatibility",
+    "change tracking",
+    "Integration Runtime",
+    "migration user permissions",
+    "company name validation",
+    "tenant media table",
+    "cloud migration management"
+  ],
+  "versions": [
+    "version 23",
+    "version 24",
+    "version 25"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null,
+      "pages_in_call": 7
+    }
+  ]
+}

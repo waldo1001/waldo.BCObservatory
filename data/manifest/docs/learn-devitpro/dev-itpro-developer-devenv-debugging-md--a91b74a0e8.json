@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-debugging",
   "published_at": "2026-08-07T11:25:18.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "fb0b8dff2f440c473527def4c6cb30c16bf5ca7f",
       "words": 1909,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T16:14:48.943Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0
+    },
+    "summarized": {
+      "at": "2026-10-06T16:14:48.954Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T16:14:48.956Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T16:14:48.957Z",
+      "page": false
     }
   },
   "input_hash": "fb0b8dff2f440c473527def4c6cb30c16bf5ca7f",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "fb0b8dff2f440c473527def4c6cb30c16bf5ca7f"
+  "output_hash": "1e1e250d54ae783c965cbfea7ed8c6016247a9b069780095df96408cca368332"
 }
