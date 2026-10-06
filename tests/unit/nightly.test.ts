@@ -105,7 +105,7 @@ test("validate:content runs after rendering and reports without blocking", async
   mkdirSync(join(dir, "content/notes"), { recursive: true });
   writeFileSync(join(dir, "content/notes/llms.txt"), "- [gone](gone.md)\n");
   const r = await runNightly(opts(dir, { commit: true }), { http, sources: [source], handlers: NOOP, flatPlaylist: async () => [], readUsage: usage(5, 10) });
-  assert.deepEqual([r.status, r.content], ["ok", { pages: 0, errors: 1 }]);
+  assert.deepEqual([r.status, r.content], ["ok", { pages: 2, errors: 1 }], "the two digest pages (this week, last week) and one broken index link");
   assert.match(r.errors.join("\n"), /content: notes\/llms\.txt: broken link gone\.md/);
   assert.equal(lastCommit(dir), "content: nightly 2026-10-07 (2 items)");
 });
