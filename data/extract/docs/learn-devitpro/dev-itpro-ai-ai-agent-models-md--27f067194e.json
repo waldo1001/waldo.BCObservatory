@@ -1,0 +1,50 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/ai/ai-agent-models.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-agent-models",
+  "title": "AI Models for Agents (preview)",
+  "blob": "7f390018a42fad77148cf7baead4ec4d08f23624",
+  "summary": "AI models for agents in Business Central preview, covering model selection, availability, lifecycle management, and resolution order for agents created in the design experience or coded in AL.",
+  "systems": [
+    "copilot",
+    "development"
+  ],
+  "topics": [
+    "ai models",
+    "agents",
+    "model selection",
+    "model lifecycle",
+    "preview",
+    "configuration"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Agents"
+    },
+    {
+      "type": "page",
+      "name": "Agent Models"
+    }
+  ],
+  "features": [
+    "model selection",
+    "auto model selection",
+    "model lifecycle",
+    "model resolution",
+    "task-level model",
+    "agent-level model",
+    "default model",
+    "preview stage"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.01117,
+      "pages_in_call": 3
+    }
+  ]
+}

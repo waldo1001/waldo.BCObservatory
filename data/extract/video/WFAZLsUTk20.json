@@ -1,0 +1,233 @@
+{
+  "video_id": "WFAZLsUTk20",
+  "item_id": "video/yt-microsoft/WFAZLsUTk20",
+  "title": "What's New: Business Central Agent Instruction History",
+  "duration_s": 272,
+  "systems": [
+    "copilot",
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "agent instruction history",
+    "autosave",
+    "version control",
+    "instruction playground",
+    "download instructions",
+    "instruction naming",
+    "history export",
+    "agent development"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to Agent Instruction History",
+      "t_start": 0,
+      "t_end": 55
+    },
+    {
+      "title": "Accessing History Features in Business Central UI",
+      "t_start": 55,
+      "t_end": 75.9
+    },
+    {
+      "title": "Autosave Mechanism and Download Functionality",
+      "t_start": 75.9,
+      "t_end": 143.5
+    },
+    {
+      "title": "Navigating and Organizing Instruction History",
+      "t_start": 143.5,
+      "t_end": 169
+    },
+    {
+      "title": "Manual Save and Version Management",
+      "t_start": 169,
+      "t_end": 227.5
+    },
+    {
+      "title": "Summary and Export Considerations",
+      "t_start": 227.5,
+      "t_end": 272
+    }
+  ],
+  "features": [
+    {
+      "name": "Agent Instruction History Autosave",
+      "description": "Automatically saves all instructions typed in the agent playground and creates a version in the instruction history each time a task is run, ensuring no work is lost.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 17.7,
+      "t_end": 30.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "autosave",
+        "version control",
+        "agent instructions"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Manual Save to History",
+      "description": "Allows users to manually save specific instruction versions to history with custom names for easy identification and retrieval of important versions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 30.2,
+      "t_end": 43,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "manual save",
+        "versioning",
+        "naming"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Download Instructions",
+      "description": "Exports individual instruction versions to disk for backup or analysis in external tools like Visual Studio Code or Beyond Compare.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 65.2,
+      "t_end": 128.9,
+      "is_demoed": true,
+      "caveats": [
+        "Instruction history is not exported when exporting the agent",
+        "Manual download required"
+      ],
+      "tags": [
+        "export",
+        "download",
+        "backup"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "View Instruction History",
+      "description": "Displays all saved instruction versions arranged by timestamp, allowing users to quickly find and navigate through different versions of instructions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 75.9,
+      "t_end": 156.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "history view",
+        "navigation",
+        "timestamp"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Multi-select Download Versions",
+      "description": "Enables users to select multiple instruction versions and download them together as a zipped file for batch export and comparison.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 116.6,
+      "t_end": 128.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "multi-select",
+        "batch download",
+        "zip export"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Instruction Version Naming",
+      "description": "Allows users to assign custom names to instruction versions to help quickly identify what changes or functionality each version represents.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 104.4,
+      "t_end": 116.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "naming",
+        "versioning",
+        "identification"
+      ],
+      "system": "copilot"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "agent playground",
+      "t": 17.7
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Nicolola Kukria",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 17.7,
+      "text": "We are autosaving all of the instructions that you are typing in the agent playground.",
+      "why_it_matters": "Establishes that work is automatically preserved without manual intervention.",
+      "check": "exact"
+    },
+    {
+      "t": 30.2,
+      "text": "Every time when you run the task, we are going to save a version to the instruction lock.",
+      "why_it_matters": "Clarifies the trigger point for automatic version creation in instruction history.",
+      "check": "exact"
+    },
+    {
+      "t": 90,
+      "text": "We wanted to avoid saving too much and creating a too long uh list. Thus, we believe if you run a task with a",
+      "why_it_matters": "Explains the design philosophy behind selective autosave to prevent bloated history.",
+      "check": "exact"
+    },
+    {
+      "t": 128.9,
+      "text": "Because we don't have good capabilities to do the diff within the client itself. You can use this functionality to download it to disk,",
+      "why_it_matters": "Identifies a current limitation and recommends workaround using external tools.",
+      "check": "exact"
+    },
+    {
+      "t": 240.5,
+      "text": "You need to export manually as you have seen me using the download button because we are not exporting the instruction history when you",
+      "why_it_matters": "Critical limitation that instruction history must be backed up separately from agent export.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 240.5,
+      "kind": "other",
+      "text": "Instruction history is not exported when you are exporting the agent - manual download required"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 5,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 6
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    }
+  ]
+}

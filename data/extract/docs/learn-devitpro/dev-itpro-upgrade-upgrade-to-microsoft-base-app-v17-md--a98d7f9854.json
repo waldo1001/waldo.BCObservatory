@@ -1,0 +1,58 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/upgrade/upgrade-to-microsoft-base-app-v17.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-to-microsoft-base-app-v17",
+  "title": "Upgrading Customized C/AL Application to Microsoft Base Application for version 17",
+  "blob": "db7fbfd5a5a893cd9e629ee765d5289099b6aa9d",
+  "summary": "Upgrade process for customized C/AL version 14 applications to version 17 using the Microsoft Base Application, covering application code migration through extensions and data upgrade in two phases.",
+  "systems": [
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "upgrade",
+    "c/al to al migration",
+    "base application",
+    "version 17",
+    "extension migration",
+    "data upgrade"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Export-NAVApplicationObject"
+    },
+    {
+      "type": "codeunit",
+      "name": "Start-NAVDataUpgrade"
+    },
+    {
+      "type": "codeunit",
+      "name": "Sync-NAVTenant"
+    }
+  ],
+  "features": [
+    "DestinationAppsForMigration",
+    "migration.json",
+    "table migration extension",
+    "txt2al conversion tool",
+    "empty extensions",
+    "data upgrade phases",
+    "control add-ins upgrade",
+    "personalization migration"
+  ],
+  "versions": [
+    "version 14",
+    "version 17",
+    "2020 release wave 2"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.01117,
+      "pages_in_call": 3
+    }
+  ]
+}

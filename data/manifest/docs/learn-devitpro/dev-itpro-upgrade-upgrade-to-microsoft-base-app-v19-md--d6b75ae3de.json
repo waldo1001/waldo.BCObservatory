@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-to-microsoft-base-app-v19",
   "published_at": "2026-06-02T11:43:52.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "e76bf7e23a8771470e7813c8f61ec4560b9463ad",
       "words": 4303,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:09:02.746Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.023105
+    },
+    "summarized": {
+      "at": "2026-10-06T18:09:04.405Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:09:04.406Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:09:04.407Z",
+      "page": false
     }
   },
   "input_hash": "e76bf7e23a8771470e7813c8f61ec4560b9463ad",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e76bf7e23a8771470e7813c8f61ec4560b9463ad"
+  "output_hash": "94a5c0722d667abec0c3cbc8db4aa78a5f3c4abfaf1fb6fb98fc05952aa83726"
 }

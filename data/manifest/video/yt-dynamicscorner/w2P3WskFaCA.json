@@ -7,16 +7,73 @@
   "url": "https://www.youtube.com/watch?v=w2P3WskFaCA",
   "published_at": "2026-04-14T13:00:06.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T18:08:48.506Z",
+      "captions": "auto:en-orig",
+      "duration_s": 4732
+    },
+    "captioned": {
+      "at": "2026-10-06T18:08:52.785Z",
+      "path": "vault:captions/community/yt-dynamicscorner/w2P3WskFaCA.vtt",
+      "vtt_sha256": "b4c93c586b2b41b67e802bf204a78eb3609cfc5a521c9d7b2a194165410ae38e",
+      "segments": 338,
+      "words": 13691,
+      "lang": "en-orig",
+      "kind": "auto"
+    },
+    "extracted": {
+      "at": "2026-10-06T18:08:53.382Z",
+      "path": "data/extract/video/w2P3WskFaCA.json",
+      "prompt": "extract-video@1",
+      "windows": 6,
+      "trimmed_for_policy": 3,
+      "features": 28,
+      "quotes": 45,
+      "quotes_dropped": 1,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0
+    },
+    "summarized": {
+      "at": "2026-10-06T18:08:53.413Z",
+      "path": "data/summary/video/w2P3WskFaCA.json",
+      "prompt": "summarize-video@2",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": null
+    },
+    "linked": {
+      "at": "2026-10-06T18:08:53.415Z",
+      "systems": [
+        "development",
+        "platform",
+        "copilot"
+      ],
+      "topics": 12,
+      "objects_as_heard": 9
+    },
+    "published": {
+      "at": "2026-10-06T18:08:53.430Z",
+      "path": "content/videos/w2P3WskFaCA.md"
     }
   },
   "input_hash": null,
   "attempts": 0,
   "flags": [],
   "meta": {
-    "channel_id": "UCiC0ZMYcrfBCUIicN1DwbJQ"
-  }
+    "channel_id": "UCiC0ZMYcrfBCUIicN1DwbJQ",
+    "duration_s": 4732,
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "5ec050c3ed09fc0c7783a20f8d8b81bab40f79cc00ec61311ce6f0c5d194ab04"
 }

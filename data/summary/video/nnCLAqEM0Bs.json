@@ -1,0 +1,27 @@
+{
+  "video_id": "nnCLAqEM0Bs",
+  "item_id": "video/yt-microsoft/nnCLAqEM0Bs",
+  "summary": "Copilot credit consumption for Business Central agents: how to view credits charged per agent, action, capability and task, and which permission sets are needed. Covers the agents list, the agent tasks list, task-level filtering, and how credits are bundled or bought.",
+  "overview": "The video explains how to assess what it costs to run a Business Central agent each month. Copilot credits are described as Microsoft's unified currency for AI usage. Some licenses bundle free credits every month, and more can be obtained through pay-as-you-go billing or by pre-purchasing credits.\n\nThe demo opens the agents list, selects an agent and shows consumption data per action, capability and task. It then filters by task number to see all entries of a multi-turn task, and shows the agent tasks list with a total credits column. It closes with the permissions needed to see this data.",
+  "key_points": [
+    "Copilot credits are Microsoft's unified currency for AI usage; certain licenses bundle free credits each month.",
+    "Extra credits can be obtained through pay-as-you-go billing or by pre-purchasing credits.",
+    "Open the agents list, select an agent and view consumption data per action, capability and task. This works for custom-built and Microsoft-built agents.",
+    "Credit charges are decided per feature and differ per agent type. One example given: 50 credits for processing an e-document, plus 5 cents per line.",
+    "Click a task number to filter consumption to all entries of a multi-turn task.",
+    "The agent tasks list has a column on the right showing total credits consumed per task, with drill-down into entries.",
+    "Consumption data is visible only with the agent diagnostics or a super user permission set. The agent admin permission set alone is not enough."
+  ],
+  "audience": [
+    "administrator",
+    "functional consultant",
+    "decision maker"
+  ],
+  "extraction_hash": "36d78d4a877e450503fe3dc1fc1fa4f8502e0802ec05e392cf6db8955af78d0e",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": true,
+    "cost_usd": null
+  }
+}

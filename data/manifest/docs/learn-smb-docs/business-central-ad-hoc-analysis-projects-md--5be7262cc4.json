@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-projects",
   "published_at": "2026-06-10T12:35:37.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "86d675a3fafb98704703a1cc4780367f490b5e13",
       "words": 768,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T18:09:02.742Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.01117
+    },
+    "summarized": {
+      "at": "2026-10-06T18:09:02.750Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:09:02.751Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:09:02.752Z",
+      "page": false
     }
   },
   "input_hash": "86d675a3fafb98704703a1cc4780367f490b5e13",
@@ -46,5 +65,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "86d675a3fafb98704703a1cc4780367f490b5e13"
+  "output_hash": "a21377bc1cdee5d6eff333ff648a246e6566f65ba72b4d1d896ea2740b5d8da8"
 }

@@ -1,0 +1,45 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/upgrade/upgrade-to-microsoft-base-app-v20.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-to-microsoft-base-app-v20",
+  "title": "Upgrading customized C/AL application to Microsoft Base Application for version 20",
+  "blob": "a673fb4d87ccd51733f6f09ec8f46948898792db",
+  "summary": "Upgrading a customized version 14 C/AL application to version 20 using Microsoft system and base applications. Covers application code migration to extensions and data upgrade through two-phase table migration using DestinationAppsForMigration and migration.json.",
+  "systems": [
+    "development",
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "upgrade",
+    "extensions",
+    "table migration",
+    "c/al",
+    "destinationappsformigration",
+    "base application"
+  ],
+  "objects": [],
+  "features": [
+    "DestinationAppsForMigration server setting",
+    "migration.json file",
+    "table migration extension",
+    "txt2al conversion tool",
+    "extension publishing",
+    "data synchronization",
+    "permission sets as AL objects"
+  ],
+  "versions": [
+    "version 20",
+    "version 14",
+    "2022 release wave 1"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.023105,
+      "pages_in_call": 2
+    }
+  ]
+}

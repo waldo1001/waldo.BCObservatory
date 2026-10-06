@@ -1,0 +1,52 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/ad-hoc-analysis-projects.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-projects",
+  "title": "Ad-hoc analysis of projects data",
+  "blob": "86d675a3fafb98704703a1cc4780367f490b5e13",
+  "summary": "Ad-hoc analysis of project data using the Data Analysis feature to analyze project ledger entries and create custom analysis views directly from list pages without running reports.",
+  "systems": [
+    "projects",
+    "reporting"
+  ],
+  "topics": [
+    "data analysis",
+    "project management",
+    "analysis mode",
+    "ad-hoc analysis",
+    "business intelligence"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Project Ledger Entries"
+    },
+    {
+      "type": "query",
+      "name": "Project Ad-hoc Analysis"
+    },
+    {
+      "type": "page",
+      "name": "FA Ledger Entries"
+    }
+  ],
+  "features": [
+    "Data Analysis feature",
+    "Analysis mode",
+    "Pivot Mode",
+    "Column Labels",
+    "Row Groups",
+    "Values area",
+    "custom analysis tabs"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.01117,
+      "pages_in_call": 3
+    }
+  ]
+}

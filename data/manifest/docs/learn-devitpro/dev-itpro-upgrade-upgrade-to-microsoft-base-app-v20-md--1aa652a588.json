@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-to-microsoft-base-app-v20",
   "published_at": "2026-06-02T11:43:52.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "a673fb4d87ccd51733f6f09ec8f46948898792db",
       "words": 4150,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:09:02.747Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.023105
+    },
+    "summarized": {
+      "at": "2026-10-06T18:09:04.407Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:09:04.408Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:09:04.409Z",
+      "page": false
     }
   },
   "input_hash": "a673fb4d87ccd51733f6f09ec8f46948898792db",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a673fb4d87ccd51733f6f09ec8f46948898792db"
+  "output_hash": "8246686e6ed1329c3dcc82d73869980a9c950312bc973a5b959aa62ac1ef8de2"
 }

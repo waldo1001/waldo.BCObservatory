@@ -1,0 +1,275 @@
+{
+  "video_id": "nnCLAqEM0Bs",
+  "item_id": "video/yt-microsoft/nnCLAqEM0Bs",
+  "title": "What's New: Understanding Copilot Credit Consumptions for Your Business Central Agent",
+  "duration_s": 496,
+  "systems": [
+    "copilot",
+    "administration",
+    "development"
+  ],
+  "topics": [
+    "copilot credits",
+    "consumption monitoring",
+    "agent tasks",
+    "billing",
+    "permissions",
+    "copilot diagnostics",
+    "pay-as-you-go",
+    "e-documents",
+    "multi-turn tasks"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Overview",
+      "t_start": 0,
+      "t_end": 50
+    },
+    {
+      "title": "Understanding Copilot Credits",
+      "t_start": 50,
+      "t_end": 118.6
+    },
+    {
+      "title": "Accessing Consumption Data - Agent List View",
+      "t_start": 118.6,
+      "t_end": 200
+    },
+    {
+      "title": "Consumption Data Interface and Details",
+      "t_start": 200,
+      "t_end": 283
+    },
+    {
+      "title": "Filtering and Analyzing Task-Specific Consumption",
+      "t_start": 283,
+      "t_end": 341.8
+    },
+    {
+      "title": "Agent Tasks View and Permissions",
+      "t_start": 341.8,
+      "t_end": 400
+    },
+    {
+      "title": "Permission Sets and Documentation",
+      "t_start": 400,
+      "t_end": 446.6
+    },
+    {
+      "title": "Summary and Next Steps",
+      "t_start": 446.6,
+      "t_end": 496
+    }
+  ],
+  "features": [
+    {
+      "name": "Copilot credit consumption overview",
+      "description": "A feature that allows users to view and assess how much Copilot credits are consumed by agents on a monthly or per-task basis within Business Central.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 118.6,
+      "t_end": 341.8,
+      "is_demoed": true,
+      "caveats": [
+        "Consumption data visibility is restricted to users with agent diagnostics or super user permission sets",
+        "Different features consume different amounts of credits"
+      ],
+      "tags": [
+        "consumption tracking",
+        "copilot credits",
+        "agent monitoring"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent consumption data in agents list",
+      "description": "Users can access the agents list, select an agent, and view detailed consumption data showing credits charged per action, capability, and specific task.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 135.8,
+      "t_end": 283,
+      "is_demoed": true,
+      "caveats": [
+        "Works with both custom-built agents and Microsoft-built agents",
+        "Charging model differs per agent type"
+      ],
+      "tags": [
+        "consumption view",
+        "agents list",
+        "action menu"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Task-level consumption filtering",
+      "description": "Users can filter consumption data by specific task number to see all entries related to a particular multi-turn task and its associated costs.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 295.3,
+      "t_end": 326.4,
+      "is_demoed": true,
+      "caveats": [
+        "Requires clicking on task number in the list"
+      ],
+      "tags": [
+        "task filtering",
+        "multi-turn tasks",
+        "consumption analysis"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent tasks consumption view",
+      "description": "The agent tasks list displays total Copilot credits consumed per task in a column on the right side, with ability to drill into specific entries.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 341.8,
+      "t_end": 375,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "agent tasks",
+        "consumption column",
+        "task details"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent diagnostics permission set",
+      "description": "A permission set that controls access to sensitive consumption data, requiring assignment to view Copilot credit consumption details.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 386.3,
+      "t_end": 410.4,
+      "is_demoed": false,
+      "caveats": [
+        "Agent admin permission set alone is insufficient",
+        "Only agent diagnostics and super user roles can see consumption data"
+      ],
+      "tags": [
+        "permissions",
+        "access control",
+        "security"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Copilot credits bundled with licenses",
+      "description": "Microsoft Business Central licenses include bundled free Copilot credits each month that users receive automatically.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 72.1,
+      "t_end": 83.9,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "licensing",
+        "credits",
+        "bundled"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Copilot credits pay-as-you-go and pre-purchase",
+      "description": "Users can acquire additional Copilot credits beyond their bundled allotment either through pay-as-you-go billing or pre-purchasing credits in advance.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 83.9,
+      "t_end": 99.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "billing",
+        "payment options",
+        "purchasing"
+      ],
+      "system": "copilot"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "agents list",
+      "t": 148.8
+    },
+    {
+      "type": "page",
+      "name": "agent tasks",
+      "t": 356.4
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Nicolola Kukria",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 18.9,
+      "text": "I'm going to show to you how you can assess how much does it cost to run an agent per monthly basis and how",
+      "why_it_matters": "Establishes the core value proposition of the feature - enabling customers and partners to understand agent costs for budget planning.",
+      "check": "exact"
+    },
+    {
+      "t": 50,
+      "text": "The co-pilot credits are Microsoft Unifi currency for AI usage.",
+      "why_it_matters": "Defines what Copilot credits are - essential foundational knowledge for understanding the consumption tracking feature.",
+      "check": "exact"
+    },
+    {
+      "t": 72.1,
+      "text": "They are bundled with certain licenses. You will receive free credits every month.",
+      "why_it_matters": "Explains the licensing model and that free credits are included, affecting customer budget calculations.",
+      "check": "exact"
+    },
+    {
+      "t": 99.8,
+      "text": "the different features are going to consume different amount of credits and this is completely decided per feature basis",
+      "why_it_matters": "Clarifies that consumption varies by feature, which is why the tracking UI displays detailed per-action charges.",
+      "check": "exact"
+    },
+    {
+      "t": 263.8,
+      "text": "we are charging 50 credits for processing E document and then we are charging 5 cents per line",
+      "why_it_matters": "Provides concrete pricing example showing how mixed billing models work - fixed charge plus per-unit charges.",
+      "check": "exact"
+    },
+    {
+      "t": 386.3,
+      "text": "you need to have agent diagnostics permission set assigned or a super user permission set assigned",
+      "why_it_matters": "Establishes security boundaries for sensitive consumption data access, preventing unauthorized visibility of agent activities.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 7
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    }
+  ]
+}
