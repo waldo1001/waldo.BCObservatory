@@ -1,0 +1,46 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-al-menusuite-functionality.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-menusuite-functionality",
+  "title": "Add pages and reports to Tell me",
+  "blob": "d4240c50e6bee30ed9705aa0e8ca264d247dc64f",
+  "summary": "Tell me feature makes pages and reports searchable by setting the UsageCategory property in AL code, with categories like Lists, Tasks, ReportsAndAnalysis, and Administration.",
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "tell me search",
+    "usagecategory property",
+    "discoverability",
+    "pages and reports",
+    "al development"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Page"
+    },
+    {
+      "type": "report",
+      "name": "Report"
+    }
+  ],
+  "features": [
+    "UsageCategory property",
+    "AdditionalSearchTerms property",
+    "Tell me search",
+    "role explorer",
+    "AccessByPermission",
+    "ApplicationArea"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003688,
+      "pages_in_call": 8
+    }
+  ]
+}

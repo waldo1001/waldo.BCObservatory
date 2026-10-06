@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-calculate-goods-and-services-tax-on-prepayments",
   "published_at": "2025-05-07T13:37:18.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "22a76ffe253a05bed14cb2cb586a9d090a8093b6",
       "words": 23,
       "forms": 4
+    },
+    "extracted": {
+      "at": "2026-10-06T19:25:27.086Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.001792
+    },
+    "summarized": {
+      "at": "2026-10-06T19:25:27.107Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:25:27.108Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:25:27.109Z",
+      "page": false
     }
   },
   "input_hash": "22a76ffe253a05bed14cb2cb586a9d090a8093b6",
@@ -61,5 +80,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "22a76ffe253a05bed14cb2cb586a9d090a8093b6"
+  "output_hash": "95703235f2eea7884699c9d1696da820212cb258f050340e259a7fa18c91dd58"
 }

@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/NewZealand/new-zealand-business-numbers-and-adjustment-notes.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/new-zealand-business-numbers-and-adjustment-notes",
+  "title": "Inland Revenue Department Numbers and Adjustment Notes",
+  "blob": "c4aa934b886b18c508bc8173dfc8a32c84ec6f7e",
+  "summary": "New Zealand IRD numbers and adjustment notes (credit memos) are used to satisfy tax requirements and adjust GST claims when consideration amounts change.",
+  "systems": [
+    "localization",
+    "finance"
+  ],
+  "topics": [
+    "ird number",
+    "adjustment notes",
+    "credit memos",
+    "new zealand"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Post Code"
+    }
+  ],
+  "features": [
+    "IRD number registration",
+    "adjustment notes",
+    "credit memos",
+    "adjustment tracking"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.001792,
+      "pages_in_call": 8
+    }
+  ]
+}

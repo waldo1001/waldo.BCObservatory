@@ -1,0 +1,198 @@
+{
+  "video_id": "zQhtuFbxJm4",
+  "item_id": "video/yt-microsoft/zQhtuFbxJm4",
+  "title": "Comparing General Journal Entries Between Dynamics GP and Dynamics Business Central (2024)",
+  "duration_s": 251,
+  "systems": [
+    "finance"
+  ],
+  "topics": [
+    "general journal",
+    "journal entries",
+    "gl batch",
+    "posting",
+    "account selection",
+    "excel integration",
+    "multi-line entries",
+    "single-line entries"
+  ],
+  "chapters": [
+    {
+      "title": "General Journal entries in Dynamics GP",
+      "t_start": 0,
+      "t_end": 46
+    },
+    {
+      "title": "Navigating to General Journal in Business Central",
+      "t_start": 46,
+      "t_end": 77.7
+    },
+    {
+      "title": "Entering the auto insurance journal entry",
+      "t_start": 77.7,
+      "t_end": 118.6
+    },
+    {
+      "title": "Alternative view with show more columns option",
+      "t_start": 118.6,
+      "t_end": 150.8
+    },
+    {
+      "title": "Single-line journal entry for interest income",
+      "t_start": 150.8,
+      "t_end": 175.2
+    },
+    {
+      "title": "Editing journal entries in Excel",
+      "t_start": 175.2,
+      "t_end": 217.3
+    },
+    {
+      "title": "Posting journal entries and conclusion",
+      "t_start": 217.3,
+      "t_end": 251
+    }
+  ],
+  "features": [
+    {
+      "name": "General Journal batches",
+      "description": "The ability to create and define batches for journal entries in Business Central. Batches can be set up operationally or per user for multiple users entering transactions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 46,
+      "t_end": 66.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "general journal",
+        "batches",
+        "setup"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Account name auto-filter in journal entry",
+      "description": "When entering a journal entry, users can type the account name and the dropdown will automatically filter matching accounts, without needing to remember the account number.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 87.8,
+      "t_end": 118.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "account selection",
+        "search",
+        "usability"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Show more columns view for journal entries",
+      "description": "An alternative view option in Business Central's general journal that displays journal entries in a grid format showing debit and credit amounts separately for multiple lines.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 118.6,
+      "t_end": 150.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "journal entry",
+        "view options",
+        "grid"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Single-line journal entry",
+      "description": "The ability to enter a complete journal entry in a single line by specifying the account, amount, and offset account which will be automatically credited.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 138.6,
+      "t_end": 166.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "journal entry",
+        "single-line",
+        "efficiency"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Excel integration for journal entries",
+      "description": "Users can export journal entries to Excel, make mass changes or edits to large numbers of lines, and then publish the changes back into Business Central.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 175.2,
+      "t_end": 217.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "excel",
+        "mass edit",
+        "integration"
+      ],
+      "system": "finance"
+    }
+  ],
+  "objects": [],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 46,
+      "text": "this is where we can create and Define batches for for our journal entries in this example the batches are set up operationally but",
+      "why_it_matters": "Shows that Business Central supports flexible batch organization for general journal entries, either by operational groups or individual users.",
+      "check": "exact"
+    },
+    {
+      "t": 87.8,
+      "text": "because I don't always remember the account number I can start typing the name of the account in the in the drop-down will automatically",
+      "why_it_matters": "Demonstrates a key usability difference - Business Central allows searching by account name rather than requiring users to know account numbers.",
+      "check": "exact"
+    },
+    {
+      "t": 118.6,
+      "text": "by selecting the SCH more columns you get a slightly different view of how you can enter in journal entries you can see it's",
+      "why_it_matters": "Indicates Business Central provides multiple view options for entering journal entries to accommodate different user preferences.",
+      "check": "exact"
+    },
+    {
+      "t": 138.6,
+      "text": "you can also enter the journal entry in a single line",
+      "why_it_matters": "Shows that single-line journal entry capability exists as an alternative to multi-line entry format for efficiency.",
+      "check": "exact"
+    },
+    {
+      "t": 175.2,
+      "text": "if you do have a large journal entry you are dealing with you can always choose to edit in Excel make the changes and",
+      "why_it_matters": "Demonstrates Business Central's Excel integration for batch editing and mass changes to journal entries.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 5,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 5
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.012874
+    }
+  ]
+}

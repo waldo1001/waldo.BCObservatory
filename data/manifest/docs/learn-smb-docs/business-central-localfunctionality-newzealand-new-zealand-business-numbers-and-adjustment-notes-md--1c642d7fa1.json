@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/new-zealand-business-numbers-and-adjustment-notes",
   "published_at": "2025-05-07T17:17:57.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "c4aa934b886b18c508bc8173dfc8a32c84ec6f7e",
       "words": 314,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:25:27.082Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.001792
+    },
+    "summarized": {
+      "at": "2026-10-06T19:25:27.096Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:25:27.097Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:25:27.098Z",
+      "page": false
     }
   },
   "input_hash": "c4aa934b886b18c508bc8173dfc8a32c84ec6f7e",
@@ -39,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c4aa934b886b18c508bc8173dfc8a32c84ec6f7e"
+  "output_hash": "4418cc2692b716f020be37142eea4539e0da2ead0e343931ee60c9ebad74f031"
 }

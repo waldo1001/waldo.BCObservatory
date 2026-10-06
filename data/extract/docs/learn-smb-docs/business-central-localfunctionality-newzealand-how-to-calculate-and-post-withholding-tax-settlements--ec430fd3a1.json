@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/NewZealand/how-to-calculate-and-post-withholding-tax-settlements.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-calculate-and-post-withholding-tax-settlements",
+  "title": "Calculate and post withholding tax settlements (NZ)",
+  "blob": "6ede7b7777d10699e27134c9ef5dc9911d0561c6",
+  "summary": "Calculate and Post WHT Settlement page in New Zealand allows users to calculate withholding tax and close open or unsettled WHT entries with truncated whole number reporting.",
+  "systems": [
+    "localization",
+    "finance"
+  ],
+  "topics": [
+    "withholding tax",
+    "settlement",
+    "new zealand",
+    "tax reporting"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Calc. and Post WHT Settlement"
+    }
+  ],
+  "features": [
+    "WHT settlement",
+    "WHT entries",
+    "truncated reporting",
+    "rounding account"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003688,
+      "pages_in_call": 8
+    }
+  ]
+}

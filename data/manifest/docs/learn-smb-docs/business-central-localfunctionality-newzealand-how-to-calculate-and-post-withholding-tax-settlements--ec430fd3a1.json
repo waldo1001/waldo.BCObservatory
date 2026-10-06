@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-calculate-and-post-withholding-tax-settlements",
   "published_at": "2025-05-07T17:17:57.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "6ede7b7777d10699e27134c9ef5dc9911d0561c6",
       "words": 102,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:25:29.343Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.003688
+    },
+    "summarized": {
+      "at": "2026-10-06T19:25:29.376Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:25:29.377Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:25:29.378Z",
+      "page": false
     }
   },
   "input_hash": "6ede7b7777d10699e27134c9ef5dc9911d0561c6",
@@ -42,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6ede7b7777d10699e27134c9ef5dc9911d0561c6"
+  "output_hash": "63484f72eff8b28c6875e881021b44eea345a386932a2fd4c2513c221130a86e"
 }

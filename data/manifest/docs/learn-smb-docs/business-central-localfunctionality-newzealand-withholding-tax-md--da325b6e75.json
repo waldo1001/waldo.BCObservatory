@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/withholding-tax",
   "published_at": "2025-05-07T17:17:57.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "06d9b0d8b7b3983cd456ead8165254b22be3b7e8",
       "words": 576,
       "forms": 10
+    },
+    "extracted": {
+      "at": "2026-10-06T19:25:27.083Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.001792
+    },
+    "summarized": {
+      "at": "2026-10-06T19:25:27.099Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:25:27.100Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:25:27.101Z",
+      "page": false
     }
   },
   "input_hash": "06d9b0d8b7b3983cd456ead8165254b22be3b7e8",
@@ -91,5 +110,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "06d9b0d8b7b3983cd456ead8165254b22be3b7e8"
+  "output_hash": "e2b7a82d9bee2967274d37903f6bee5d943a66843b82bad3208a91bf287cf3eb"
 }

@@ -1,0 +1,69 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-power-bi-report-parts.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-power-bi-report-parts",
+  "title": "Embed Power BI reports in pages",
+  "blob": "1789ec3bb062e3103a79648ebc467096778ffcda",
+  "summary": "Embed Power BI reports, scorecards, and dashboards in Business Central pages using the Power BI embed framework with pages like Power BI Embedded Report Part and Power BI Element Addin Host.",
+  "systems": [
+    "reporting",
+    "integration"
+  ],
+  "topics": [
+    "power bi",
+    "embedded reports",
+    "scorecards",
+    "dashboards",
+    "page parts"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Power BI Embedded Report Part"
+    },
+    {
+      "type": "page",
+      "name": "Power BI Element Card"
+    },
+    {
+      "type": "page",
+      "name": "Power BI Element Addin Host"
+    },
+    {
+      "type": "page",
+      "name": "Power BI Embed Setup Wizard"
+    },
+    {
+      "type": "table",
+      "name": "Power BI Displayed Element"
+    },
+    {
+      "type": "table",
+      "name": "Power BI Context Settings"
+    }
+  ],
+  "features": [
+    "Power BI Report part",
+    "dashboard tiles",
+    "report visuals",
+    "context keywords",
+    "SetCurrentListSelection",
+    "SetPageContext",
+    "expand action",
+    "locked parts"
+  ],
+  "versions": [
+    "2022 release wave 2",
+    "2023 release wave 2",
+    "2025 release wave 1"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003688,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-set-up-withholding-tax",
   "published_at": "2025-05-07T17:21:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "9c11fe6dad8020309530bd894ea8f1d82c1f8e9f",
       "words": 190,
       "forms": 4
+    },
+    "extracted": {
+      "at": "2026-10-06T19:25:29.338Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003688
+    },
+    "summarized": {
+      "at": "2026-10-06T19:25:29.365Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:25:29.366Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:25:29.367Z",
+      "page": false
     }
   },
   "input_hash": "9c11fe6dad8020309530bd894ea8f1d82c1f8e9f",
@@ -62,5 +81,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9c11fe6dad8020309530bd894ea8f1d82c1f8e9f"
+  "output_hash": "aed24bb2e5947e44fced4d242593fb9efe589f7eac34bc102f550a2314afbede"
 }

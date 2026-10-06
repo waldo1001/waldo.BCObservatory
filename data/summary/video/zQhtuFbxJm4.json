@@ -1,0 +1,25 @@
+{
+  "video_id": "zQhtuFbxJm4",
+  "item_id": "video/yt-microsoft/zQhtuFbxJm4",
+  "summary": "General journal entry in Business Central compared with Dynamics GP, for finance users moving from GP. Demonstrates journal batches, account name auto-filter, the show more columns grid view, single-line entries with an offset account, Excel editing, and posting.",
+  "overview": "A short 2024 walkthrough from the Microsoft Dynamics 365 Business Central channel. It starts with how general journal entries work in Dynamics GP, then shows the equivalent steps in Business Central: opening the General Journal, choosing a batch, and entering an auto insurance expense as a multi-line entry.\n\nIt then shows the show more columns view, which lays out debit and credit amounts in a grid, and a single-line entry for interest income where the offset account is credited automatically. The video ends with editing large journals in Excel, publishing the changes back, and posting.",
+  "key_points": [
+    "General Journal batches are created and defined in Business Central. In the demo they are set up operationally, but they can also be set per user when several users enter transactions.",
+    "When entering an account, type the account name. The dropdown filters matching accounts, so the account number need not be remembered.",
+    "The show more columns option gives a grid view with debit and credit amounts shown separately across multiple lines.",
+    "A complete journal entry can be entered on a single line by giving the account, the amount and the offset account. The offset account is credited automatically.",
+    "For large journals, export to Excel, make mass edits, then publish the changes back into Business Central.",
+    "The demo covers an auto insurance multi-line entry and an interest income single-line entry, then posts the entries."
+  ],
+  "audience": [
+    "functional consultant",
+    "end user"
+  ],
+  "extraction_hash": "9a8201c96952959254c90b179130bfeaa46738b94c1585bd4c5a5d549182da37",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0118084
+  }
+}

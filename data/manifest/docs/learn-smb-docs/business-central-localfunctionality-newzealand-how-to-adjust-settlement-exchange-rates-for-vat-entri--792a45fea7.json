@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-adjust-settlement-exchange-rates-for-vat-entries",
   "published_at": "2025-05-07T17:17:57.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "b2cf40330db7fd4a2406ee1e8ea0bb59aa1c859c",
       "words": 21,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:25:29.341Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003688
+    },
+    "summarized": {
+      "at": "2026-10-06T19:25:29.374Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:25:29.374Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:25:29.375Z",
+      "page": false
     }
   },
   "input_hash": "b2cf40330db7fd4a2406ee1e8ea0bb59aa1c859c",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b2cf40330db7fd4a2406ee1e8ea0bb59aa1c859c"
+  "output_hash": "96c208d34da5883c38703287401995fa42954fc30b4c61530438984cfef12c74"
 }

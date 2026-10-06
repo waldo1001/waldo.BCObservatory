@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/NewZealand/withholding-tax.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/withholding-tax",
+  "title": "Withholding Tax in the New Zealand version",
+  "blob": "06d9b0d8b7b3983cd456ead8165254b22be3b7e8",
+  "summary": "Withholding tax in New Zealand is tax withheld by companies from vendor payments under specific circumstances, configured through WHT posting groups and calculation rules.",
+  "systems": [
+    "localization",
+    "finance",
+    "purchasing"
+  ],
+  "topics": [
+    "withholding tax",
+    "vendor payments",
+    "wht posting",
+    "new zealand"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "WHT Posting Setup"
+    },
+    {
+      "type": "page",
+      "name": "WHT Revenue Types"
+    }
+  ],
+  "features": [
+    "WHT calculation rule",
+    "WHT minimum invoice amount",
+    "WHT percentage",
+    "realized WHT type",
+    "WHT posting groups",
+    "WHT certificate"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.001792,
+      "pages_in_call": 8
+    }
+  ]
+}

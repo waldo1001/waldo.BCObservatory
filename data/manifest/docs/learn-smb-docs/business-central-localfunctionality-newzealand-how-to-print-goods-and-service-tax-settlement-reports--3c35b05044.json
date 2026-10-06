@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-print-goods-and-service-tax-settlement-reports",
   "published_at": "2025-05-07T17:17:57.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "84f5c836002d286a43b3cb2021420a0908d04c5e",
       "words": 24,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:25:27.080Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.001792
+    },
+    "summarized": {
+      "at": "2026-10-06T19:25:27.091Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:25:27.091Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:25:27.092Z",
+      "page": false
     }
   },
   "input_hash": "84f5c836002d286a43b3cb2021420a0908d04c5e",
@@ -39,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "84f5c836002d286a43b3cb2021420a0908d04c5e"
+  "output_hash": "9e003c421a2234a882961ddd6e612345667aa7b39f6f7d81e795a9d675dbc390"
 }

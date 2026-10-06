@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-determine-sales-price-by-cost-plus-percentage",
   "published_at": "2025-05-07T17:17:57.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "668e84919662a7616c71b2b10a675bcd2824e633",
       "words": 21,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:25:27.078Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.001792
+    },
+    "summarized": {
+      "at": "2026-10-06T19:25:27.088Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:25:27.088Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:25:27.089Z",
+      "page": false
     }
   },
   "input_hash": "668e84919662a7616c71b2b10a675bcd2824e633",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "668e84919662a7616c71b2b10a675bcd2824e633"
+  "output_hash": "1dc6060ed6151c3fa5da2081a3cb57ec8b032f232bddc232bf7ab2ed849f9b07"
 }

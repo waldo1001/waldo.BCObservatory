@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-action-bar-improvements",
   "published_at": "2025-05-15T09:15:41.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "c208965d3fea3c7955b07ab42c0c41fdb9ed3aee",
       "words": 566,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:25:29.334Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003688
+    },
+    "summarized": {
+      "at": "2026-10-06T19:25:29.357Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:25:29.358Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:25:29.359Z",
+      "page": false
     }
   },
   "input_hash": "c208965d3fea3c7955b07ab42c0c41fdb9ed3aee",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c208965d3fea3c7955b07ab42c0c41fdb9ed3aee"
+  "output_hash": "99b58aea44734f357990c9e368850a2d28ffd8c8d01e425817dfd6c88ff67615"
 }
