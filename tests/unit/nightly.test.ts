@@ -110,6 +110,17 @@ test("validate:content runs after rendering and reports without blocking", async
   assert.equal(lastCommit(dir), "content: nightly 2026-10-07 (2 items)");
 });
 
+test("--unlimited lifts every quota and both spend caps for one run, and the report says so", async () => {
+  const o = parseArgs(["--unlimited"]);
+  assert.deepEqual([o.unlimited, o.capOverride], [true, { night_usd: 100_000, week_usd: 100_000 }]);
+  const dir = repo();
+  const r = await runNightly(opts(dir, { unlimited: true, capOverride: o.capOverride }), { http, sources: [source], handlers: NOOP, flatPlaylist: async () => [], readUsage: usage(5, 10) });
+  assert.equal(r.plan.quotas.video_extract, 100_000);
+  assert.equal(r.plan.quotas.llm_calls_max, 100_000);
+  assert.deepEqual([r.spend?.night_cap_usd, r.spend?.override], [100_000, true]);
+  assert.ok(validate("run-report", report(dir)).ok);
+});
+
 test("lock: a live holder blocks, a dead holder is taken over", () => {
   const dir = mkdtempSync(join(tmpdir(), "bcobs-lock-"));
   const path = join(dir, "nightly.lock");

@@ -10,6 +10,9 @@
  * --night-cap USD / --week-cap USD replace the spend caps for this run only (owner-requested catch-up runs);
  *   the run report records the override. The scheduled nightly never passes them.
  * --concurrency N overrides config/budget.json concurrency (items and hub calls in flight at once).
+ * --unlimited (owner-requested catch-up runs): every quota and both spend caps are set to UNLIMITED; the run still
+ *   stops at its time window, at a subscription limit (LlmInfraError) and through the usage guard when it can read
+ *   usage. The run report shows the quotas and the cap override. The scheduled nightly never passes it.
  *
  * --dry-run never commits, sets LLM_CACHE_ONLY=1 and writes into a temp data dir unless --data-dir is given.
  */
@@ -65,6 +68,8 @@ export interface NightlyOptions {
   quota?: number;
   /** Replaces config/budget.json spend_caps for this run only. */
   capOverride?: { night_usd?: number; week_usd?: number };
+  /** Quotas and spend caps set to UNLIMITED for this run (owner-requested catch-up). */
+  unlimited?: boolean;
   /** Items in flight at once; defaults to config/budget.json concurrency. */
   concurrency?: number;
   dataDir: string;
@@ -177,7 +182,7 @@ async function run(opts: NightlyOptions, deps: NightlyDeps): Promise<RunReport> 
     for (const item of manifest.list("video")) if (captionRetryDue(item, now)) { manifest.save(reviveForCaptions(item)); revived++; }
     if (revived) log.info(`captions: ${revived} no-captions videos retried`);
     report.captions_retried = revived;
-    const quotas = capQuotas(scaleQuotas(cfg.quotas, guard), opts.quota);
+    const quotas = capQuotas(scaleQuotas(opts.unlimited ? unlimitedQuotas(cfg.quotas) : cfg.quotas, guard), opts.quota);
     const handlers = deps.handlers ?? STAGE_HANDLERS;
     // only items whose next stage can run tonight compete for quota; the rest would only crowd them out
     const runnable = manifest.list().filter((i) => (!opts.pillars || opts.pillars.includes(i.pillar)) && (!opts.only || opts.only.includes(i.source)) && handlerFor(handlers, i));
@@ -349,6 +354,10 @@ function leakGate(opts: NightlyOptions, sources: SourceDef[]): string[] {
     .findings.map((f) => `${f.kind} ${f.path}: ${f.detail}`);
 }
 
+/** Large enough that nothing in the backlog hits it; a number, so reports and schemas stay plain JSON. */
+export const UNLIMITED = 100_000;
+export const unlimitedQuotas = (quotas: Record<string, number>) => Object.fromEntries(Object.keys(quotas).map((k) => [k, UNLIMITED]));
+
 export function capQuotas(quotas: Record<string, number>, cap?: number): Record<string, number> {
   if (cap === undefined) return quotas;
   return Object.fromEntries(Object.entries(quotas).map(([k, v]) => [k, k === "llm_calls_max" ? v : Math.min(v, cap)]));
@@ -417,7 +426,7 @@ export function parseArgs(argv: string[]): NightlyOptions {
     dryRun, commit: has("--commit") && !dryRun, push: has("--push") && !dryRun, guard: !has("--no-guard"), stages,
     pillars: list("--pillars") as Pillar[] | undefined, only: list("--only"),
     ...(val("--quota") !== undefined ? { quota: Number(val("--quota")) } : {}),
-    ...capOverrideArg(val("--night-cap"), val("--week-cap")),
+    ...(has("--unlimited") ? { unlimited: true, capOverride: { night_usd: UNLIMITED, week_usd: UNLIMITED } } : capOverrideArg(val("--night-cap"), val("--week-cap"))),
     ...(val("--concurrency") !== undefined ? { concurrency: Math.max(1, Number(val("--concurrency")) || 1) } : {}),
     dataDir: resolve(val("--data-dir") ?? (dryRun ? join(tmpdir(), "bc-observatory-dry-run", "data") : DATA_DIR)),
     cacheDir: CACHE_DIR, repoDir: ROOT,

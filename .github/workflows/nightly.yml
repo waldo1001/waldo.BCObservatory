@@ -19,6 +19,10 @@ on:
         description: "comma-separated source ids; empty = all"
         type: string
         default: ""
+      unlimited:
+        description: "catch-up run: no item quotas, no spend caps (still bounded by the time window and the subscription)"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -40,6 +44,7 @@ jobs:
           STAGES: ${{ inputs.stages || 'all' }}
           PILLARS: ${{ inputs.pillars }}
           ONLY: ${{ inputs.only }}
+          UNLIMITED: ${{ inputs.unlimited }}
         run: |
           set -euo pipefail
           [[ "$STAGES" == all || "$STAGES" == ingest ]] || { echo "invalid stages: $STAGES" >&2; exit 1; }
@@ -47,6 +52,7 @@ jobs:
           args=(--stages "$STAGES")
           if [[ -n "$PILLARS" ]]; then args+=(--pillars "$PILLARS"); fi
           if [[ -n "$ONLY" ]]; then args+=(--only "$ONLY"); fi
+          if [[ "$UNLIMITED" == "true" ]]; then args+=(--unlimited); fi
           infra/mini/run-nightly.sh "${args[@]}"
       - name: Run summary
         if: always()
