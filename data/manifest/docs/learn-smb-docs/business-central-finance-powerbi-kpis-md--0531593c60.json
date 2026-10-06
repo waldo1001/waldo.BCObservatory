@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-powerbi-kpis",
   "published_at": "2025-09-22T06:44:12.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "fbffd551a8aec7b6b02d57d617167f47db256a7a",
       "words": 5986,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:04:45.166Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 8,
+      "cost_usd": 0.009073
+    },
+    "summarized": {
+      "at": "2026-10-06T19:04:45.185Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:04:45.186Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:04:45.187Z",
+      "page": false
     }
   },
   "input_hash": "fbffd551a8aec7b6b02d57d617167f47db256a7a",
@@ -37,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "fbffd551a8aec7b6b02d57d617167f47db256a7a"
+  "output_hash": "4f9fa7950656968dddbdc6e4fce09d834d5ad060f9701c96d0809dd88bb30089"
 }

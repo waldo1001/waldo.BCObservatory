@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-project-overview",
   "published_at": "2025-09-25T12:25:11.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "ff896bb9cbd2b449e4642dd79fab66714c64ec43",
       "words": 261,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T19:04:47.531Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.00557
+    },
+    "summarized": {
+      "at": "2026-10-06T19:04:49.289Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:04:49.290Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:04:49.291Z",
+      "page": false
     }
   },
   "input_hash": "ff896bb9cbd2b449e4642dd79fab66714c64ec43",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ff896bb9cbd2b449e4642dd79fab66714c64ec43"
+  "output_hash": "820af26a492d41722518148ada5cbf66e8150270df468ee13a34fdc144403421"
 }

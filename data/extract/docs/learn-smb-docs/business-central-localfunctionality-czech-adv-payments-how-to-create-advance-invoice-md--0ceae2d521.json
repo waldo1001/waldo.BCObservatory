@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/adv-payments-how-to-create-advance-invoice.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/adv-payments-how-to-create-advance-invoice",
+  "title": "Create an advance letter",
+  "blob": "777deb50ddf66e43ba9b4e655a90ed81ecf688cc",
+  "summary": "This page explains how to manually create advance letters in Czech localization of Business Central by defining templates, releasing documents for payment, and monitoring remaining amounts in the FactBox.",
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "advance letters",
+    "advance payments",
+    "czech localization",
+    "sales invoices",
+    "purchase invoices"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Sales Advance Letters"
+    },
+    {
+      "type": "page",
+      "name": "Purchase Advance Letters"
+    }
+  ],
+  "features": [
+    "advance letter templates",
+    "VAT handling",
+    "document release",
+    "advance entries",
+    "PDF attachment",
+    "number series"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005965,
+      "pages_in_call": 3
+    }
+  ]
+}

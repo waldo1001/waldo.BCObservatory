@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-customization-object",
   "published_at": "2025-09-19T13:22:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "1f004a979b1092f5d520957128aa48411977e01f",
       "words": 487,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:04:45.168Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.005965
+    },
+    "summarized": {
+      "at": "2026-10-06T19:04:45.192Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:04:45.192Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:04:45.193Z",
+      "page": false
     }
   },
   "input_hash": "1f004a979b1092f5d520957128aa48411977e01f",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "1f004a979b1092f5d520957128aa48411977e01f"
+  "output_hash": "dbb2eeaaf7ae0027d217c97dce46fce7dc6a2f1f95760564f71ccb0077f876f5"
 }

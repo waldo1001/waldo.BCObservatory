@@ -1,0 +1,46 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-page-customization-object.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-customization-object",
+  "title": "Page customization object",
+  "blob": "1f004a979b1092f5d520957128aa48411977e01f",
+  "summary": "The page customization object allows adding layout and action changes to pages for specific profiles without adding variables, procedures, or triggers. It provides limited extensibility compared to page extensions and applies only to specified role centers.",
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "page customization",
+    "page extensions",
+    "profiles",
+    "layout changes",
+    "actions",
+    "role centers"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Page customization object"
+    }
+  ],
+  "features": [
+    "page customization",
+    "action modifications",
+    "field additions",
+    "group management",
+    "editable fields",
+    "views",
+    "AllowInCustomizations property"
+  ],
+  "versions": [
+    "runtime 16"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005965,
+      "pages_in_call": 3
+    }
+  ]
+}

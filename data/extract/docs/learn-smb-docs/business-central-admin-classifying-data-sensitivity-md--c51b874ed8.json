@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/admin-classifying-data-sensitivity.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/admin-classifying-data-sensitivity",
+  "title": "Classifying data sensitivity",
+  "blob": "1938fe951d5ae720797ed42f61bdaf8c910580d2",
+  "summary": "Data Sensitivity Classification feature lets you classify sensitive or personal data in standard and custom fields to track personal data storage and respond to data subject requests. Masking UI support protects sensitive values from view.",
+  "systems": [
+    "administration",
+    "platform",
+    "development"
+  ],
+  "topics": [
+    "data classification",
+    "sensitivity",
+    "personal data",
+    "masking",
+    "gdpr"
+  ],
+  "objects": [],
+  "features": [
+    "Data classification levels",
+    "Data Classification Worksheet",
+    "Field masking",
+    "MaskType property",
+    "Role-based visibility",
+    "Audit logging"
+  ],
+  "versions": [
+    "2025 release wave 2"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.009073,
+      "pages_in_call": 5
+    }
+  ]
+}

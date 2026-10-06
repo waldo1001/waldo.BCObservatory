@@ -1,0 +1,61 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/projects-powerbi-kpis.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-kpis",
+  "title": "Projects KPIs and measures (Power BI)",
+  "blob": "e147b30cce1b12aae2f4ee01f7448cc4e8009984",
+  "summary": "Projects KPIs and measures reference documents all Key Performance Indicators in the Power BI Projects semantic model, including project metrics, ledger entries, planning lines, and purchase measures.",
+  "systems": [
+    "projects",
+    "reporting"
+  ],
+  "topics": [
+    "kpi",
+    "power bi",
+    "project management",
+    "profitability",
+    "budget",
+    "invoicing"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Job"
+    },
+    {
+      "type": "table",
+      "name": "Job Task"
+    },
+    {
+      "type": "table",
+      "name": "Job Ledger Entry"
+    },
+    {
+      "type": "table",
+      "name": "Job Planning Line"
+    },
+    {
+      "type": "table",
+      "name": "Purchase Line"
+    }
+  ],
+  "features": [
+    "Project Count",
+    "Tasks Count",
+    "Completed percentage",
+    "Invoiced percentage",
+    "Realization percentage",
+    "Budget variance",
+    "Billable cost tracking"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00557,
+      "pages_in_call": 7
+    }
+  ]
+}

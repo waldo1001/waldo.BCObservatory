@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-project-invoiced-sales-by-customer",
   "published_at": "2025-09-25T12:25:11.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "06b827228531591f76f38e7daf25d6fef1355455",
       "words": 250,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T19:04:47.529Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.00557
+    },
+    "summarized": {
+      "at": "2026-10-06T19:04:49.284Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:04:49.284Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:04:49.285Z",
+      "page": false
     }
   },
   "input_hash": "06b827228531591f76f38e7daf25d6fef1355455",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "06b827228531591f76f38e7daf25d6fef1355455"
+  "output_hash": "1d4348098fdd3b28b63fa04cf721a9e5ba3311337d68ca3b32abee5e548f1795"
 }

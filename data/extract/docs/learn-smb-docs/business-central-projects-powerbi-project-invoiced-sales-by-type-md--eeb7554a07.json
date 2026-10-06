@@ -1,0 +1,46 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/projects-powerbi-project-invoiced-sales-by-type.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-project-invoiced-sales-by-type",
+  "title": "Project Invoiced Sales by Type (Power BI report)",
+  "blob": "c12bb695c36f6bbfe51e48ef9949cc07c45b2c98",
+  "summary": "Project Invoiced Sales by Type Power BI report breaks down sales by type (resources, items, G/L accounts) to show how different sales line types perform across projects.",
+  "systems": [
+    "projects",
+    "reporting",
+    "sales"
+  ],
+  "topics": [
+    "power bi",
+    "project sales",
+    "sales types",
+    "resource tracking",
+    "invoicing"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Job"
+    },
+    {
+      "type": "table",
+      "name": "Job Ledger Entry"
+    }
+  ],
+  "features": [
+    "Sales by type breakdown",
+    "Resource charging tracking",
+    "Item sales analysis",
+    "G/L account sales"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00557,
+      "pages_in_call": 7
+    }
+  ]
+}

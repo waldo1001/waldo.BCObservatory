@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-project-profitability",
   "published_at": "2025-09-25T12:25:11.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "b9671a9aa40fd3da0643a83fb6fcadb68cbec4ca",
       "words": 191,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T19:04:47.533Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.00557
+    },
+    "summarized": {
+      "at": "2026-10-06T19:04:49.292Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:04:49.293Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:04:49.294Z",
+      "page": false
     }
   },
   "input_hash": "b9671a9aa40fd3da0643a83fb6fcadb68cbec4ca",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b9671a9aa40fd3da0643a83fb6fcadb68cbec4ca"
+  "output_hash": "56d35ffd63ae7795753c120e1c98ee711ddea3fcb0577f3698613f3f4a4d832d"
 }

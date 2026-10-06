@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-project-invoiced-sales-by-type",
   "published_at": "2025-09-25T12:25:11.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "c12bb695c36f6bbfe51e48ef9949cc07c45b2c98",
       "words": 188,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T19:04:47.530Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.00557
+    },
+    "summarized": {
+      "at": "2026-10-06T19:04:49.286Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:04:49.287Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:04:49.288Z",
+      "page": false
     }
   },
   "input_hash": "c12bb695c36f6bbfe51e48ef9949cc07c45b2c98",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c12bb695c36f6bbfe51e48ef9949cc07c45b2c98"
+  "output_hash": "bf6f7a6a123c358889d3cd94bf118ac040a1b5b033939edf9f286ccc4d712a09"
 }

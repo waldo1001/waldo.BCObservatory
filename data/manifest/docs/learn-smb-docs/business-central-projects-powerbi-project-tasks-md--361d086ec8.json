@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-project-tasks",
   "published_at": "2025-09-25T12:25:11.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "bbdcb94eef4193ba3f8a2529ef11c961b492bdcc",
       "words": 175,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T19:04:45.162Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 4,
+      "cost_usd": 0.009073
+    },
+    "summarized": {
+      "at": "2026-10-06T19:04:45.176Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:04:45.177Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:04:45.178Z",
+      "page": false
     }
   },
   "input_hash": "bbdcb94eef4193ba3f8a2529ef11c961b492bdcc",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "bbdcb94eef4193ba3f8a2529ef11c961b492bdcc"
+  "output_hash": "26ce668e3d44088dd2efd808b028ce45ba013424b1b61d3be519e42b7a9723f3"
 }

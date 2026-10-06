@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-extension-key-vault-trace",
   "published_at": "2025-09-25T15:24:30.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "15c64d8f5dfaff5cd0cde6a84565b7cb92adffa2",
       "words": 1357,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:04:47.527Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00557
+    },
+    "summarized": {
+      "at": "2026-10-06T19:04:47.537Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:04:47.538Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:04:47.539Z",
+      "page": false
     }
   },
   "input_hash": "15c64d8f5dfaff5cd0cde6a84565b7cb92adffa2",
@@ -42,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "15c64d8f5dfaff5cd0cde6a84565b7cb92adffa2"
+  "output_hash": "562945a12370124bdee4f9cf97d30a57c88c805b195c877e634db56bf6d79d8c"
 }

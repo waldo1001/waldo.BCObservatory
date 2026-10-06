@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-project-realization",
   "published_at": "2025-09-25T12:25:11.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "911f860691412352681cf4e729f2526899a0a60a",
       "words": 191,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T19:04:45.161Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.009073
+    },
+    "summarized": {
+      "at": "2026-10-06T19:04:45.171Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:04:45.172Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:04:45.174Z",
+      "page": false
     }
   },
   "input_hash": "911f860691412352681cf4e729f2526899a0a60a",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "911f860691412352681cf4e729f2526899a0a60a"
+  "output_hash": "cc194c256932b6f7024e9c10a054458830b12e1725c0266754bbc5d8b3cd6860"
 }

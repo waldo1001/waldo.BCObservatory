@@ -1,0 +1,37 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-use-ishandled-pattern.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-use-ishandled-pattern",
+  "title": "Using the IsHandled pattern",
+  "blob": "9f1e9946ef47972a5ac6a68d297d1153bedeaf8f",
+  "summary": "The IsHandled pattern is a widely used event design that enables overriding code but has significant drawbacks including single subscriber limitations, poor readability, and fragile solutions. The page recommends limiting its use and provides better alternatives like implementing proper extensibility, using regular events, or reimplementing functionality.",
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "events",
+    "extensibility",
+    "ishandled pattern",
+    "code patterns",
+    "subscribers",
+    "event handling"
+  ],
+  "objects": [],
+  "features": [
+    "IsHandled pattern",
+    "integration events",
+    "event subscribers",
+    "regular events",
+    "OnSkip pattern"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005965,
+      "pages_in_call": 3
+    }
+  ]
+}

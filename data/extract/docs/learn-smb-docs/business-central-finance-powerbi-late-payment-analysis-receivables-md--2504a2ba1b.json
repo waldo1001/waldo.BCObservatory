@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-powerbi-late-payment-analysis-receivables.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-powerbi-late-payment-analysis-receivables",
+  "title": "Late Payments (Receivables)",
+  "blob": "f2a694883a8d678697ce8d5a1bccbe585a1f5183",
+  "summary": "Late Payments (Receivables) Power BI report analyzes late-paying customer behaviors and their financial impact. Executives and finance managers use it to track cash flow risks and prioritize collection efforts.",
+  "systems": [
+    "sales",
+    "finance",
+    "reporting"
+  ],
+  "topics": [
+    "power bi",
+    "receivables",
+    "cash flow",
+    "payment",
+    "kpi"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Customer Ledger Entries"
+    },
+    {
+      "type": "table",
+      "name": "Customer"
+    }
+  ],
+  "features": [
+    "Late Payment Amount",
+    "Late Payment %",
+    "Average Days Late",
+    "No. of Payments",
+    "No. of Late Payments"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.009073,
+      "pages_in_call": 5
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-use-ishandled-pattern",
   "published_at": "2025-09-19T13:52:20.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "9f1e9946ef47972a5ac6a68d297d1153bedeaf8f",
       "words": 1379,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:04:45.167Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005965
+    },
+    "summarized": {
+      "at": "2026-10-06T19:04:45.188Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:04:45.189Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:04:45.191Z",
+      "page": false
     }
   },
   "input_hash": "9f1e9946ef47972a5ac6a68d297d1153bedeaf8f",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9f1e9946ef47972a5ac6a68d297d1153bedeaf8f"
+  "output_hash": "f35c4853929a41c1bebfda127802a11be51201adff285b70b55d464ae2793cae"
 }

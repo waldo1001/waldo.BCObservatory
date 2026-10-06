@@ -1,0 +1,56 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/projects-powerbi-project-tasks.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-project-tasks",
+  "title": "Project Tasks (Power BI report)",
+  "blob": "bbdcb94eef4193ba3f8a2529ef11c961b492bdcc",
+  "summary": "Project Tasks Power BI report breaks down each project to show task-level metrics for progress tracking and resource decisions. Project managers use it to monitor costs, pricing, and budget compliance.",
+  "systems": [
+    "projects",
+    "reporting"
+  ],
+  "topics": [
+    "power bi",
+    "project management",
+    "tasks",
+    "budget",
+    "kpi"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Job"
+    },
+    {
+      "type": "table",
+      "name": "Job Task"
+    },
+    {
+      "type": "table",
+      "name": "Job Planning Lines"
+    },
+    {
+      "type": "table",
+      "name": "Job Ledger Entries"
+    }
+  ],
+  "features": [
+    "Actual Total Price",
+    "Actual Total Cost",
+    "Actual Profit",
+    "Actual Profit Margin %",
+    "Realization %",
+    "Billable metrics",
+    "Budget Total Cost"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.009073,
+      "pages_in_call": 5
+    }
+  ]
+}

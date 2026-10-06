@@ -1,0 +1,73 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-powerbi-kpis.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-powerbi-kpis",
+  "title": "Finance App KPIs and measures (Power BI)",
+  "blob": "fbffd551a8aec7b6b02d57d617167f47db256a7a",
+  "summary": "Finance App KPIs and measures reference documents all Key Performance Indicators in the Power BI Finance semantic model with calculations and data sources. Use it to understand financial metrics for reporting and analysis.",
+  "systems": [
+    "finance",
+    "reporting"
+  ],
+  "topics": [
+    "power bi",
+    "kpi",
+    "measures",
+    "financial analysis",
+    "accounting"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "G/L Entry"
+    },
+    {
+      "type": "table",
+      "name": "G/L Account Category"
+    },
+    {
+      "type": "table",
+      "name": "Customer Ledger Entry"
+    },
+    {
+      "type": "table",
+      "name": "Detailed Customer Ledger Entry"
+    },
+    {
+      "type": "table",
+      "name": "Vendor Ledger Entry"
+    },
+    {
+      "type": "table",
+      "name": "Detailed Vendor Ledger Entry"
+    },
+    {
+      "type": "table",
+      "name": "G/L Budget Entry"
+    },
+    {
+      "type": "table",
+      "name": "Date"
+    }
+  ],
+  "features": [
+    "Activity KPIs",
+    "Balance Sheet Measures",
+    "Income Statement Measures",
+    "Liquidity KPIs",
+    "Profitability KPIs",
+    "Customer Ledger Measures",
+    "Vendor Ledger Measures",
+    "Budget variance"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.009073,
+      "pages_in_call": 5
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-extension-key-vault-trace.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-extension-key-vault-trace",
+  "title": "App Key Vault Secret Trace Telemetry | Microsoft Docs",
+  "blob": "15c64d8f5dfaff5cd0cde6a84565b7cb92adffa2",
+  "summary": "App key vault secret trace telemetry analyzes acquisition of secrets from Azure Key Vaults by extensions, covering initialization and retrieval operations with success and failure tracking.",
+  "systems": [
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "telemetry",
+    "key vault",
+    "azure",
+    "extension",
+    "secrets",
+    "troubleshooting"
+  ],
+  "objects": [],
+  "features": [
+    "App Key Vault initialization",
+    "App Key Vault secret retrieval",
+    "telemetry tracking",
+    "failure diagnostics"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00557,
+      "pages_in_call": 7
+    }
+  ]
+}

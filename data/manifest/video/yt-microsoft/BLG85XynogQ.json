@@ -5,12 +5,17 @@
   "tier": "official",
   "title": "Mavericks of Business Central: Use your professional background to your advantage",
   "url": "https://www.youtube.com/watch?v=BLG85XynogQ",
-  "published_at": null,
+  "published_at": "2024-10-28T16:21:01.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T19:04:46.461Z",
+      "captions": "auto:en-orig",
+      "duration_s": 108
     }
   },
   "input_hash": null,
@@ -20,6 +25,12 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 317,
     "duration_s": 108,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null
 }

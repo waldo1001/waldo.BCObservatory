@@ -1,0 +1,50 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/projects-powerbi-project-invoiced-sales-by-customer.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-project-invoiced-sales-by-customer",
+  "title": "Project Invoiced Sales by Customer (Power BI report)",
+  "blob": "06b827228531591f76f38e7daf25d6fef1355455",
+  "summary": "Project Invoiced Sales by Customer Power BI report breaks down sales values per project and customer, helping project managers track performance and leadership make informed decisions.",
+  "systems": [
+    "projects",
+    "reporting",
+    "sales"
+  ],
+  "topics": [
+    "power bi",
+    "project sales",
+    "customer analysis",
+    "invoicing",
+    "performance tracking"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Job"
+    },
+    {
+      "type": "table",
+      "name": "Job Ledger Entry"
+    },
+    {
+      "type": "table",
+      "name": "Job Planning Line"
+    }
+  ],
+  "features": [
+    "Invoiced percentage",
+    "Customer sales tracking",
+    "Project performance monitoring",
+    "Sales quantity analysis"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00557,
+      "pages_in_call": 7
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/projects-powerbi-project-overview.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-project-overview",
+  "title": "Project Overview (Power BI report)",
+  "blob": "ff896bb9cbd2b449e4642dd79fab66714c64ec43",
+  "summary": "Project Overview Power BI report provides high-level metrics on ongoing projects including invoiced percentage, completion status, and costing information for leadership and project managers.",
+  "systems": [
+    "projects",
+    "reporting"
+  ],
+  "topics": [
+    "power bi",
+    "project overview",
+    "kpi",
+    "budget",
+    "resource allocation",
+    "project health"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Job"
+    },
+    {
+      "type": "table",
+      "name": "Job Ledger Entry"
+    },
+    {
+      "type": "table",
+      "name": "Job Planning Line"
+    }
+  ],
+  "features": [
+    "Completed percentage",
+    "Invoiced percentage",
+    "Realization percentage",
+    "Actual profit tracking",
+    "Budget comparison",
+    "Project count"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00557,
+      "pages_in_call": 7
+    }
+  ]
+}
