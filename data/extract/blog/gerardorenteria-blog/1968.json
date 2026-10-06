@@ -1,0 +1,77 @@
+{
+  "item_id": "blog/gerardorenteria-blog/1968",
+  "url": "https://gerardorenteria.blog/2026/09/23/visual-studio-code-version-updated/",
+  "title": "Visual Studio Code – versions",
+  "source": "gerardorenteria-blog",
+  "published_at": "2026-09-23T15:52:00.000Z",
+  "words": 12983,
+  "summary": "Visual Studio Code released numerous updates from April 2024 through September 2026, with emphasis on agent-based development, integrated browser tools, AI model flexibility, and enhanced developer productivity features. This helps teams stay current on available coding editor capabilities and AI-assisted development workflows.",
+  "key_points": [
+    "Agent-first development became central with autonomous task completion, background agents, and multi-agent orchestration across local and cloud resources",
+    "Integrated browser tools allow agents to validate their own work by taking screenshots, clicking through pages, and testing web apps without leaving the editor",
+    "Support for multiple AI models and providers, including Claude, Copilot, ChatGPT, and custom API keys with configurable thinking effort and token optimization",
+    "MCP (Model Context Protocol) servers enable extensible tool ecosystems for agents to access specialized capabilities and APIs",
+    "Developer experience improvements include quick chats, chat checkpoints, session memory, and streamlined multi-file editing across workspaces"
+  ],
+  "systems": [
+    "development",
+    "copilot",
+    "platform"
+  ],
+  "topics": [
+    "visual studio code",
+    "agents",
+    "ai development",
+    "copilot",
+    "claude",
+    "mcp servers",
+    "integrated browser",
+    "autonomous tasks"
+  ],
+  "objects": [],
+  "features": [
+    "Agent sessions in Dev Containers",
+    "Multi-root workspaces for agents",
+    "Integrated browser with agent interaction",
+    "Model Context Protocol (MCP) servers",
+    "Agent HQ for session management",
+    "Copilot Edits for multi-file changes",
+    "Custom agent instructions and skills",
+    "Session memory and checkpoints",
+    "Terminal tools for agents",
+    "Voice Mode for agents"
+  ],
+  "versions": [
+    "1.139",
+    "1.138",
+    "1.137",
+    "1.136",
+    "1.135",
+    "1.134",
+    "1.133",
+    "1.132"
+  ],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.022372,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "Run agents inside your project's Dev Container on SSH, Tunnel, and WSL hosts.",
+      "why_it_matters": "Shows agents can execute in containerized environments matching project dependencies, enabling consistent AI-assisted development"
+    },
+    {
+      "text": "Agent HQ gives you one place to manage all your agents, letting Copilot and custom agents collaborate across tasks.",
+      "why_it_matters": "Demonstrates centralized multi-agent orchestration for delegating and monitoring work across different AI providers and execution contexts"
+    },
+    {
+      "text": "Let agents open pages, take screenshots, and click through to validate their own work, now generally available.",
+      "why_it_matters": "Agents can autonomously test their code changes through browser automation, reducing human verification overhead"
+    }
+  ]
+}

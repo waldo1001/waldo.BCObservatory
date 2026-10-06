@@ -1,0 +1,65 @@
+{
+  "item_id": "blog/demiliani-com/15968",
+  "url": "https://demiliani.com/2026/09/24/dynamics-365-business-central-al-query-objects-and-the-new-readstate-property/",
+  "title": "Dynamics 365 Business Central: AL Query objects and the new ReadState property.",
+  "source": "demiliani-com",
+  "published_at": "2026-09-24T10:05:09.000Z",
+  "words": 937,
+  "summary": "AL query objects now support the ReadState property in Dynamics 365 Business Central 2026 Wave 2 to control transaction isolation levels. This lets developers choose between ReadUncommitted (fast, unreliable), ReadCommitted (safe middle ground), ReadShared (stable until transaction end), and ReadExclusive (prevents other changes) based on whether the query displays data or drives business decisions.",
+  "key_points": [
+    "Query objects describe result sets by declaring tables as data items and choosing columns, supporting filtering, grouping, and aggregation.",
+    "ReadState property lets developers specify transaction isolation levels for individual queries, overriding CurrentTransactionType.",
+    "Four isolation levels available: ReadUncommitted (default, fast but risky), ReadCommitted (sees only committed data), ReadShared (adds locks until transaction ends), and ReadExclusive (prevents others from changing rows).",
+    "Strictest lock wins across multiple reads of the same row; stricter reads are safer but cause more waiting for other sessions.",
+    "Display queries can use ReadUncommitted, but decision-driven and modification queries need ReadCommitted or stricter options."
+  ],
+  "systems": [
+    "development",
+    "platform",
+    "reporting"
+  ],
+  "topics": [
+    "al query objects",
+    "transaction isolation",
+    "readstate property",
+    "data access",
+    "locking behavior",
+    "performance"
+  ],
+  "objects": [
+    {
+      "type": "query",
+      "name": "AL Query objects"
+    }
+  ],
+  "features": [
+    "ReadState property",
+    "transaction isolation levels",
+    "ReadUncommitted",
+    "ReadCommitted",
+    "ReadShared",
+    "ReadExclusive",
+    "query locking",
+    "OData endpoints"
+  ],
+  "versions": [
+    "2026 Wave 2",
+    "version 29",
+    "runtime 18"
+  ],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006667,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "The ReadState property takes precedence, so it is the only lever that matters for them.",
+      "why_it_matters": "Clarifies that ReadState overrides CurrentTransactionType for queries, making it the definitive control for transaction isolation."
+    }
+  ]
+}

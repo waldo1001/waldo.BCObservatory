@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=_OClSlushOU",
   "published_at": "2024-02-06T11:09:43.000Z",
   "language": "en",
-  "state": "extracted",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
@@ -38,6 +38,27 @@
         "claude-haiku-4-5-20251001"
       ],
       "cost_usd": 0.027302
+    },
+    "summarized": {
+      "at": "2026-10-06T21:27:43.408Z",
+      "path": "data/summary/video/_OClSlushOU.json",
+      "prompt": "summarize-video@2",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": 0.0172104
+    },
+    "linked": {
+      "at": "2026-10-06T21:27:43.410Z",
+      "systems": [
+        "crm",
+        "sales",
+        "integration"
+      ],
+      "topics": 9,
+      "objects_as_heard": 0
+    },
+    "published": {
+      "at": "2026-10-06T21:27:43.422Z",
+      "path": "content/videos/_OClSlushOU.md"
     }
   },
   "input_hash": null,
@@ -55,5 +76,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "312c3dd0e3a66f9bf6640f73d736d9922106d992db45cb73763c3b4901bd1f3e"
+  "output_hash": "7f87e85fc034f8f192f46a7eb054a73a5a8ceb055b59cff7a120f1790c7ad8bd"
 }

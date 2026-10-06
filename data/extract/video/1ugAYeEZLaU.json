@@ -1,0 +1,160 @@
+{
+  "video_id": "1ugAYeEZLaU",
+  "item_id": "video/yt-microsoft/1ugAYeEZLaU",
+  "title": "Working with Amount Fields",
+  "duration_s": 118,
+  "systems": [
+    "finance",
+    "development"
+  ],
+  "topics": [
+    "amount fields",
+    "debit and credit",
+    "general ledger setup",
+    "field display",
+    "configuration",
+    "journals"
+  ],
+  "chapters": [
+    {
+      "title": "Amount field types in Business Central",
+      "t_start": 0,
+      "t_end": 25.8
+    },
+    {
+      "title": "Changing field display settings",
+      "t_start": 25.8,
+      "t_end": 37.1
+    },
+    {
+      "title": "Accessing General Ledger Setup",
+      "t_start": 37.1,
+      "t_end": 60
+    },
+    {
+      "title": "Selecting debit and credit field display",
+      "t_start": 60,
+      "t_end": 80.9
+    },
+    {
+      "title": "Company-wide setting impact",
+      "t_start": 80.9,
+      "t_end": 118
+    }
+  ],
+  "features": [
+    {
+      "name": "Show amounts field setting",
+      "description": "Configuration option on General Ledger Setup page that allows users to choose between viewing amount fields as a single field (for debit/credit entry) or as separate debit and credit amount fields plus local currency counterparts.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 25.8,
+      "t_end": 80.9,
+      "is_demoed": true,
+      "caveats": [
+        "Setting applies company-wide to all users, not per individual user"
+      ],
+      "tags": [
+        "amount fields",
+        "general ledger",
+        "configuration",
+        "user preference"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Amount field with sign notation",
+      "description": "Default behavior in Business Central where amount fields accept both debit and credit amounts in the same field using a sign in front of the amount to distinguish between them based on the scenario.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1.2,
+      "t_end": 25.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "amount fields",
+        "debit credit",
+        "journal entry"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Separate debit and credit amount fields",
+      "description": "Alternative display mode where distinct debit and credit amount fields are shown alongside local currency counterparts, providing a clearer overview of field balancing.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 60,
+      "t_end": 80.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "amount fields",
+        "debit credit",
+        "field display",
+        "journals"
+      ],
+      "system": "finance"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "General Ledger Setup",
+      "t": 37.1
+    },
+    {
+      "type": "page",
+      "name": "General Journal",
+      "t": 72.4
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 1.2,
+      "text": "You type in amounts in the same field regardless if the amount is a debit or credit amount.",
+      "why_it_matters": "Explains the default behavior of amount fields in Business Central, where a single field is used for both debit and credit entries.",
+      "check": "exact"
+    },
+    {
+      "t": 14,
+      "text": "You use a sign in front of the amount to determine if the amount is debit or credit depending on the scenario.",
+      "why_it_matters": "Clarifies the mechanism for distinguishing between debit and credit amounts in the default single-field approach.",
+      "check": "exact"
+    },
+    {
+      "t": 60,
+      "text": "I'd like to work with the debit and credit fields, so I select debit and credit only.",
+      "why_it_matters": "Demonstrates the practical selection of the debit and credit display option in the Show amounts field setting.",
+      "check": "exact"
+    },
+    {
+      "t": 97.2,
+      "text": "When you change this setting, it applies company-wide and not only for the current user. It applies for all users.",
+      "why_it_matters": "Important limitation: the amount field display setting is a company-wide configuration, not a per-user preference.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 4,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 3
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.010251
+    }
+  ]
+}

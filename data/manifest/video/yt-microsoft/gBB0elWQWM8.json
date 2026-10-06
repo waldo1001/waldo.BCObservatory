@@ -5,12 +5,59 @@
   "tier": "official",
   "title": "Warn Salespeople That a Product Will Soon be Out of Stock",
   "url": "https://www.youtube.com/watch?v=gBB0elWQWM8",
-  "published_at": null,
+  "published_at": "2024-02-02T12:56:28.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:27:40.729Z",
+      "captions": "auto:en-orig",
+      "duration_s": 171
+    },
+    "captioned": {
+      "at": "2026-10-06T21:27:46.823Z",
+      "path": "data/captions/microsoft/gBB0elWQWM8.vtt",
+      "vtt_sha256": "179da0332a96bdcac17dfa69d33ae77c5d7f7b859f8a18f5c6a5c1e165ab612b",
+      "segments": 13,
+      "words": 423,
+      "lang": "en-orig",
+      "kind": "auto"
+    },
+    "extracted": {
+      "at": "2026-10-06T21:27:58.811Z",
+      "path": "data/extract/video/gBB0elWQWM8.json",
+      "prompt": "extract-video@1",
+      "windows": 1,
+      "features": 2,
+      "quotes": 4,
+      "quotes_dropped": 0,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.009499
+    },
+    "summarized": {
+      "at": "2026-10-06T21:28:05.199Z",
+      "path": "data/summary/video/gBB0elWQWM8.json",
+      "prompt": "summarize-video@2",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": 0.010492399999999999
+    },
+    "linked": {
+      "at": "2026-10-06T21:28:05.200Z",
+      "systems": [
+        "sales",
+        "inventory"
+      ],
+      "topics": 6,
+      "objects_as_heard": 2
+    },
+    "published": {
+      "at": "2026-10-06T21:28:05.213Z",
+      "path": "content/videos/gBB0elWQWM8.md"
     }
   },
   "input_hash": null,
@@ -19,7 +66,14 @@
   "meta": {
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 466,
-    "duration_s": 172,
-    "via": "reconcile"
-  }
+    "duration_s": 171,
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "4246766d90fc42a82fedd1092ef46e36bd87bd1d78749eb4cbdc0d1e262724c4"
 }

@@ -1,0 +1,26 @@
+{
+  "video_id": "gBB0elWQWM8",
+  "item_id": "video/yt-microsoft/gBB0elWQWM8",
+  "summary": "Stock out warning on Business Central sales lines: a message appears when a quantity entered would cause negative inventory at the chosen location if posted. The 'Stock out warning' field in Sales and Receivables Setup turns it on or off. Demoed on a sales order with and without the warning.",
+  "overview": "The video explains why people entering sales documents should be able to keep entering orders and invoices without worrying about stock levels, while still being warned when an order could push inventory below zero. By default, Business Central shows a message when a sales line quantity would result in negative inventory at the selected location if the order were posted.\n\nThe demo shows the warning on a sales order, and notes that an unposted sales line still affects the demand for the product. It then shows the Stock out warning field in Sales and Receivables Setup, which controls whether the warning is shown, and repeats the sales order entry with the warning disabled.",
+  "key_points": [
+    "By default, Business Central shows a message when a sales line quantity would lead to negative inventory at the chosen location if posted.",
+    "The warning is tied to what would happen on posting, not to the current state of unposted documents.",
+    "Quantities on unposted sales lines still affect the demand calculation for the product.",
+    "The 'Stock out warning' field in the Sales and Receivables Setup page controls whether users see the warning.",
+    "The setting can be switched on or off in the company's setup.",
+    "The demo uses the Sales Orders page, first with the warning and then with it disabled."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "end user"
+  ],
+  "extraction_hash": "ddab6ea680c3ffd7e0a47fa2c3625767ce29637781ca148b716775367b82d1dc",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.010492399999999999
+  }
+}

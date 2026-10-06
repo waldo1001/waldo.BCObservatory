@@ -1,0 +1,26 @@
+{
+  "video_id": "1ugAYeEZLaU",
+  "item_id": "video/yt-microsoft/1ugAYeEZLaU",
+  "summary": "Working with amount fields in Business Central: by default one amount field takes debit and credit using a sign. The Show Amounts setting on General Ledger Setup switches to separate debit and credit fields. The change applies company-wide.",
+  "overview": "The video explains how amount fields behave in Business Central. By default, you type debit and credit amounts in the same field and use a sign in front of the amount to show which one it is, depending on the scenario.\n\nIt then demonstrates changing the display on the General Ledger Setup page. Selecting the debit and credit option shows separate debit and credit amount fields along with local currency counterparts, which gives a clearer view of how the fields balance. The setting applies to all users in the company, not only the current user.",
+  "key_points": [
+    "Default behavior: one amount field is used for both debit and credit, and a sign in front of the amount sets which it is.",
+    "The display is changed with the Show amounts field setting on the General Ledger Setup page.",
+    "Selecting debit and credit only shows separate debit and credit amount fields plus local currency counterparts.",
+    "Separate fields give a clearer overview of how entries balance.",
+    "The setting applies company-wide to all users, not per user, so agree on it before changing it.",
+    "The General Journal is mentioned as a place where amount fields are used."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "end user"
+  ],
+  "extraction_hash": "3b5aa016e01fb305cb5b35f1bc328b92cf0fe01828636d6440d2a2430a28a131",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.009926399999999998
+  }
+}

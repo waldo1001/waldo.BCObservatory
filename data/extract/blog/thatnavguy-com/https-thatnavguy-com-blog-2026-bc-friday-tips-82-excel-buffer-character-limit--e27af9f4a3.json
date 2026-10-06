@@ -1,0 +1,57 @@
+{
+  "item_id": "blog/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-82-excel-buffer-character-limit/",
+  "url": "https://thatnavguy.com/blog/2026/bc-friday-tips-82-excel-buffer-character-limit/",
+  "title": "BC Friday Tips #82 Excel Buffer Character Limit",
+  "source": "thatnavguy-com",
+  "published_at": "2026-09-25T00:00:00.000Z",
+  "words": 115,
+  "summary": "Excel Buffer in Business Central has a 250-character limit on field values. When longer text is written to it, Business Central throws an error instead of silently truncating, which can cause Excel exports to fail.",
+  "key_points": [
+    "Excel Buffer field is limited to 250 characters maximum",
+    "Exceeding the limit triggers an error rather than truncation",
+    "The procedure signature does not make this limitation obvious",
+    "Long text values must be validated or shortened before writing to Excel Buffer",
+    "This affects Excel export functionality"
+  ],
+  "systems": [
+    "development",
+    "reporting"
+  ],
+  "topics": [
+    "excel buffer",
+    "character limit",
+    "excel export",
+    "data validation",
+    "al development"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Excel Buffer"
+    }
+  ],
+  "features": [
+    "Excel Buffer field handling",
+    "Excel export validation"
+  ],
+  "versions": [],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004075,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "That field is limited to 250 characters.",
+      "why_it_matters": "This is the core technical constraint developers must know to prevent export failures."
+    },
+    {
+      "text": "If you try to write a longer value, Business Central throws an error instead of truncating it.",
+      "why_it_matters": "Understanding the error behavior is critical for debugging and implementing proper validation logic."
+    }
+  ]
+}

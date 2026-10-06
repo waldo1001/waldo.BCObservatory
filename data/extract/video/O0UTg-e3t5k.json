@@ -1,0 +1,109 @@
+{
+  "video_id": "O0UTg-e3t5k",
+  "item_id": "video/yt-microsoft/O0UTg-e3t5k",
+  "title": "Jump to a Master Entity Using a Keyboard Shortcut",
+  "duration_s": 87,
+  "systems": [
+    "sales",
+    "development"
+  ],
+  "topics": [
+    "keyboard shortcuts",
+    "master entity navigation",
+    "referenced fields",
+    "sales orders",
+    "user interface"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to Master Entity Navigation",
+      "t_start": 0,
+      "t_end": 21.6
+    },
+    {
+      "title": "Opening Sales Orders",
+      "t_start": 21.6,
+      "t_end": 33.4
+    },
+    {
+      "title": "Using Control Alt Down Shortcut",
+      "t_start": 33.4,
+      "t_end": 53.7
+    },
+    {
+      "title": "Applying the Shortcut to Referenced Fields",
+      "t_start": 53.7,
+      "t_end": 73.7
+    },
+    {
+      "title": "Closing Remarks",
+      "t_start": 73.7,
+      "t_end": 87
+    }
+  ],
+  "features": [
+    {
+      "name": "Jump to Master Entity with Keyboard Shortcut",
+      "description": "Users can hold Control-Alt-Down to jump directly to a master entity from any referenced field in Business Central, such as navigating from a sales line to the item card or customer master.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1,
+      "t_end": 73.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "keyboard navigation",
+        "master entities",
+        "referenced fields",
+        "productivity"
+      ],
+      "system": "sales"
+    }
+  ],
+  "objects": [],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 1,
+      "text": "easily jump to a Master entity with a keyboard shortcut when you work with data in business Central",
+      "why_it_matters": "Establishes the core feature being demonstrated - a keyboard shortcut for navigating to master entities.",
+      "check": "exact"
+    },
+    {
+      "t": 33.4,
+      "text": "to go directly to the item I've selected here I can hold down the key control and ALT and then choose the down arrow",
+      "why_it_matters": "Provides the exact keyboard combination (Control-Alt-Down) needed to execute the master entity jump.",
+      "check": "exact"
+    },
+    {
+      "t": 53.7,
+      "text": "Control Alt down to jump directly to the item you'll see the item card opening here for this specific product",
+      "why_it_matters": "Demonstrates the shortcut working in practice, showing the immediate result of navigating to the item card.",
+      "check": "exact"
+    },
+    {
+      "t": 53.7,
+      "text": "this works for any referenced field you can jump to a customer you can jump to items and so on this works anywhere in",
+      "why_it_matters": "Establishes the broad applicability of the shortcut across all referenced fields and entities throughout the system.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 4,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 1
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007972
+    }
+  ]
+}

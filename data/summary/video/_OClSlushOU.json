@@ -1,0 +1,27 @@
+{
+  "video_id": "_OClSlushOU",
+  "item_id": "video/yt-microsoft/_OClSlushOU",
+  "summary": "Business Central used with Microsoft Teams, Outlook, Excel and Word in a scripted customer-service and sales scenario. It shows Teams chat links and tabs, read-only access via a Microsoft 365 account, a Power Automate escalation, Outlook contact insights and quotes, and Excel/Word editing.",
+  "overview": "The video follows a sales and customer service scenario across Microsoft 365 apps connected to Business Central. In Teams, users paste links to customer cards and product information, add tabs showing invoices and payments, and open sales orders where a credit limit notification appears when a change pushes the total over the limit. A Power Automate flow creates a Teams escalation space with one click. A colleague without a license gets read-only access through a Microsoft 365 account.\n\nIn Outlook, the user opens customer records, purchase and billing history, payment information and balance next to an email. Contact Insights moves from an email to the customer record. Attachments can be linked to customer records. Quotes can be composed from products detected in the email. Excel is used for exporting customer payments and for editing item discounts, with edits saved back. Quote PDF layouts can be exported to Word, changed, saved back and shared by link.",
+  "key_points": [
+    "Links to Business Central customer cards and product information can be pasted into Teams chat, and teammates can drill into details.",
+    "Teams chat can include tabs showing Business Central data such as customer invoices and payments.",
+    "Users without a Business Central license can view records with read-only access through their Microsoft 365 account.",
+    "Opening and changing a sales order shows a notification when the change pushes the total over the customer's credit limit.",
+    "The escalation flow that creates a new Teams space with one click was built with Power Automate, so it needs setup.",
+    "In Outlook, Business Central shows customer records and history, links email attachments to customer records, and composes quotes from products detected in the email.",
+    "Customer payment lists export to Excel, item discounts can be edited in Excel and saved back, and quote layouts can be exported to Word, edited and saved back to Business Central."
+  ],
+  "audience": [
+    "functional consultant",
+    "end user",
+    "decision maker"
+  ],
+  "extraction_hash": "312c3dd0e3a66f9bf6640f73d736d9922106d992db45cb73763c3b4901bd1f3e",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0172104
+  }
+}

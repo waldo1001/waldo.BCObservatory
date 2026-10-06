@@ -1,0 +1,150 @@
+{
+  "video_id": "gBB0elWQWM8",
+  "item_id": "video/yt-microsoft/gBB0elWQWM8",
+  "title": "Warn Salespeople That a Product Will Soon be Out of Stock",
+  "duration_s": 170,
+  "systems": [
+    "sales",
+    "inventory"
+  ],
+  "topics": [
+    "stock out warning",
+    "inventory management",
+    "sales order entry",
+    "negative inventory",
+    "sales and receivables setup",
+    "demand forecasting"
+  ],
+  "chapters": [
+    {
+      "title": "The need for inventory warnings",
+      "t_start": 0,
+      "t_end": 25.7
+    },
+    {
+      "title": "How the warning system works",
+      "t_start": 25.7,
+      "t_end": 52.3
+    },
+    {
+      "title": "Demo - viewing the warning on a sales order",
+      "t_start": 52.3,
+      "t_end": 80.2
+    },
+    {
+      "title": "Demand impact of unposted sales lines",
+      "t_start": 80.2,
+      "t_end": 98.1
+    },
+    {
+      "title": "Disabling the warning via setup",
+      "t_start": 98.1,
+      "t_end": 134.5
+    },
+    {
+      "title": "Demo - sales order without warning",
+      "t_start": 134.5,
+      "t_end": 170
+    }
+  ],
+  "features": [
+    {
+      "name": "Stock out warning on sales lines",
+      "description": "Business Central displays a message warning users when entering a sales line quantity that would result in negative inventory at the chosen location if the order was posted.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 36.5,
+      "t_end": 80.2,
+      "is_demoed": true,
+      "caveats": [
+        "warning appears only when posting would result in negative inventory",
+        "unposted sales lines still affect demand calculations"
+      ],
+      "tags": [
+        "inventory",
+        "warning",
+        "sales order",
+        "user experience"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Stock out warning toggle",
+      "description": "A field called 'stock out warning' in the Sales and Receivables Setup page that determines whether users see warnings when entering quantities on sales lines that would deplete inventory.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 98.1,
+      "t_end": 134.5,
+      "is_demoed": true,
+      "caveats": [
+        "can be toggled on or off per company setup"
+      ],
+      "tags": [
+        "setup",
+        "configuration",
+        "sales order",
+        "warning control"
+      ],
+      "system": "sales"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Sales and Receivables Setup",
+      "t": 108.6
+    },
+    {
+      "type": "page",
+      "name": "Sales Orders",
+      "t": 52.3
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 0.6,
+      "text": "People who enter sales documents in Business Central should always be able to enter new orders and invoices and not necessarily have to worry",
+      "why_it_matters": "Establishes the design principle that users should not be blocked from entering sales orders regardless of inventory status",
+      "check": "exact"
+    },
+    {
+      "t": 36.5,
+      "text": "by default, Business Central will display a message that it warns users about the would-be negative inventory level when registering the sales line",
+      "why_it_matters": "Defines the default behavior of the stock out warning system in the product",
+      "check": "exact"
+    },
+    {
+      "t": 80.2,
+      "text": "the quantity I enter here, even if the order is not posted yet, it will have an effect on the demand of this product",
+      "why_it_matters": "Explains that unposted sales line quantities affect system demand calculations, not just posted inventory",
+      "check": "exact"
+    },
+    {
+      "t": 120.4,
+      "text": "stock out warning. This is the field that determines whether or not I see that warning when I try to enter and quantity on",
+      "why_it_matters": "Identifies the specific setup field that controls whether warnings appear to users",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 4,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 2
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.009499
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "video_id": "gBB0elWQWM8",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 0.6,
+      "end": 14.8,
+      "text": "Warn sales people about products soon to be out of stock. People who enter sales documents in Business Central should always be able to enter new orders and invoices and not necessarily have to worry about inventory levels."
+    },
+    {
+      "t": 14.8,
+      "end": 25.7,
+      "text": "Because an inventory level is time sensitive, you may replenish your inventory before you actually need to ship products to customers. No one should be blocked with entering sales documents."
+    },
+    {
+      "t": 25.7,
+      "end": 36.5,
+      "text": "However, you may want to inform people entering these sales documents that the entry they're making will pull the inventory into negative state once the sales document is posted."
+    },
+    {
+      "t": 36.5,
+      "end": 52.3,
+      "text": "And by default, Business Central will display a message that it warns users about the would-be negative inventory level when registering the sales line where if the order was posted right now, there wouldn't be available inventory at the chosen location."
+    },
+    {
+      "t": 52.3,
+      "end": 64.7,
+      "text": "Let's see how that works. Let's go to a sales order. I go to sales in the top navigation menu, sales orders, and pick one from the list."
+    },
+    {
+      "t": 64.7,
+      "end": 80.2,
+      "text": "I go to the sales lines. Let's say I wanted to sell 50 of this Atlanta whiteboard. We now see that Business Central shows me a message that there isn't enough inventory available at this location."
+    },
+    {
+      "t": 80.2,
+      "end": 98.1,
+      "text": "This won't mean anything right now when I'm registering this sales order line, but it will when the order is posted. Notice though that the quantity I enter here, even if the order is not posted yet, it will have an effect on the demand of this product."
+    },
+    {
+      "t": 98.1,
+      "end": 108.6,
+      "text": "If I don't want to see these messages when I enter sales lines for some reason, I can disable it. This is done at the sales and receivables setup page."
+    },
+    {
+      "t": 108.6,
+      "end": 120.4,
+      "text": "So, at the tell me search, I bring up with the LQ, I can enter sales and receivables, and you'll find the sales and receivables setup on the list."
+    },
+    {
+      "t": 120.4,
+      "end": 134.5,
+      "text": "I select it. I want to find the field called stock out warning. This is the field that determines whether or not I see that warning when I try to enter and quantity on a sales line."
+    },
+    {
+      "t": 134.5,
+      "end": 142.7,
+      "text": "In this case, let's disable it. Let's go back to the sales order."
+    },
+    {
+      "t": 142.7,
+      "end": 158.2,
+      "text": "And we select the first one on the list. Now, we enter a new quantity. Let's say 100. Now, I won't be bothered with any information about this inventory level on this product being pulled into negative state."
+    },
+    {
+      "t": 158.2,
+      "end": 169.4,
+      "text": "And that way, you can determine if you want to warn your sales people about products soon to be out of stock. Thank you for watching."
+    }
+  ],
+  "markers": [],
+  "word_count": 423
+}

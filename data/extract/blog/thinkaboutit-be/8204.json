@@ -1,0 +1,66 @@
+{
+  "item_id": "blog/thinkaboutit-be/8204",
+  "url": "https://thinkaboutit.be/2026/09/quick-tip-whats-in-business-central-update-28-5/",
+  "title": "Quick Tip: What’s in Business Central Update 28.5?",
+  "source": "thinkaboutit-be",
+  "published_at": "2026-09-28T11:40:55.000Z",
+  "words": 329,
+  "summary": "Business Central 2026 release wave 1, update 28.5 introduces two main features: Microsoft-managed Azure OpenAI resources for Copilot extensions (now generally available) and embedded Verifactu mode for Spanish tax reporting. This smaller monthly update simplifies Copilot deployment by removing the need for customers to manage their own Azure OpenAI infrastructure.",
+  "key_points": [
+    "Developers can now build Copilot extensions using Microsoft-managed Azure OpenAI resources instead of requiring customers to set up their own subscriptions",
+    "Microsoft handles infrastructure management including scaling, monitoring, load balancing, security, and AI consumption tracking",
+    "Embedded Verifactu functionality for Spain is now generally available, supporting automatic invoice submission to AEAT with digital signatures and QR codes",
+    "This is a smaller update with only two feature changes, as focus shifts toward the upcoming Business Central 29.0 major release"
+  ],
+  "systems": [
+    "copilot",
+    "localization",
+    "integration"
+  ],
+  "topics": [
+    "copilot extensions",
+    "azure openai",
+    "ai resources",
+    "verifactu",
+    "spain",
+    "tax reporting",
+    "release wave 1"
+  ],
+  "objects": [],
+  "features": [
+    "AI resources for Copilot extensions",
+    "Microsoft-managed Azure OpenAI",
+    "Embedded Verifactu mode",
+    "Spanish tax reporting",
+    "Digital signatures",
+    "QR code verification"
+  ],
+  "versions": [
+    "28.5",
+    "2026 release wave 1",
+    "29.0"
+  ],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00559,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "Developers can use Microsoft-managed Azure OpenAI resources instead of requiring every customer to set up and manage their own Azure OpenAI subscription.",
+      "why_it_matters": "This simplifies Copilot extension deployment significantly by shifting infrastructure responsibility from customers to Microsoft"
+    },
+    {
+      "text": "Microsoft takes care of infrastructure aspects such as scaling, monitoring, load balancing, security, and AI consumption tracking.",
+      "why_it_matters": "Clarifies the full scope of what Microsoft manages, reducing operational burden for organizations using Copilot extensions"
+    },
+    {
+      "text": "Verifactu supports the Spanish requirements for invoice reporting to the Spanish Tax Agency (AEAT).",
+      "why_it_matters": "Explains the purpose of the embedded Verifactu feature for Spanish compliance requirements"
+    }
+  ]
+}

@@ -5,12 +5,39 @@
   "tier": "official",
   "title": "Jump to a Master Entity Using a Keyboard Shortcut",
   "url": "https://www.youtube.com/watch?v=O0UTg-e3t5k",
-  "published_at": null,
+  "published_at": "2024-02-02T12:48:32.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:27:54.662Z",
+      "captions": "auto:en-orig",
+      "duration_s": 87
+    },
+    "captioned": {
+      "at": "2026-10-06T21:28:00.653Z",
+      "path": "data/captions/microsoft/O0UTg-e3t5k.vtt",
+      "vtt_sha256": "8eb84b83dc91fe6b7152aabffe9ba7e512267379b66f9112c7c657976f81fab2",
+      "segments": 6,
+      "words": 210,
+      "lang": "en-orig",
+      "kind": "auto"
+    },
+    "extracted": {
+      "at": "2026-10-06T21:28:10.562Z",
+      "path": "data/extract/video/O0UTg-e3t5k.json",
+      "prompt": "extract-video@1",
+      "windows": 1,
+      "features": 1,
+      "quotes": 4,
+      "quotes_dropped": 0,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.007972
     }
   },
   "input_hash": null,
@@ -20,6 +47,13 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 467,
     "duration_s": 87,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "2b81f9d5c61f4203188e907e81f09c3aedbe4053ce3622e1daf468d4fe0aca77"
 }

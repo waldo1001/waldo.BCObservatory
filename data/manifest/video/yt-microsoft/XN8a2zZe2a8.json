@@ -5,12 +5,17 @@
   "tier": "official",
   "title": "Become More Efficient With Background Posting",
   "url": "https://www.youtube.com/watch?v=XN8a2zZe2a8",
-  "published_at": null,
+  "published_at": "2024-02-02T12:42:31.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:28:10.679Z",
+      "captions": "auto:en-orig",
+      "duration_s": 142
     }
   },
   "input_hash": null,
@@ -20,6 +25,12 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 468,
     "duration_s": 142,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null
 }

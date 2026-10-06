@@ -1,0 +1,62 @@
+{
+  "item_id": "blog/aardvarklabs-blog/4023",
+  "url": "https://aardvarklabs.blog/2026/09/25/automate-business-central-extension-deployment-with-powershell-and-the-admin-api/",
+  "title": "Automate Business Central Extension Deployment with PowerShell and the Admin API",
+  "source": "aardvarklabs-blog",
+  "published_at": "2026-09-25T12:00:00.000Z",
+  "words": 1925,
+  "summary": "PowerShell automation script that deploys Business Central extensions to production by sorting them by dependencies, checking installed versions, and monitoring installation status through the Admin API. Useful when deploying multiple extensions from UAT environments or performing large-scale updates.",
+  "key_points": [
+    "Script handles dependency resolution by extracting metadata from .app files and performing topological sorting to determine correct install order",
+    "Version comparison prevents downgrading extensions by checking installed versions against incoming packages",
+    "Automated monitoring polls the Admin API until installation succeeds or fails, eliminating manual oversight",
+    "Multi-step process includes authentication via OAuth2, metadata extraction using 7-Zip, and multipart form-data uploads",
+    "Circular dependency detection throws errors to prevent infinite loops during dependency graph traversal"
+  ],
+  "systems": [
+    "development",
+    "integration",
+    "administration"
+  ],
+  "topics": [
+    "extension deployment",
+    "powershell automation",
+    "admin api",
+    "dependency management",
+    "version control",
+    "uat to production"
+  ],
+  "objects": [],
+  "features": [
+    "Admin API pteInstall endpoint",
+    "OAuth2 client credentials authentication",
+    "Topological dependency sorting",
+    "Version comparison",
+    "Installation status monitoring",
+    "NavxManifest.xml metadata extraction",
+    "Multipart form-data upload",
+    "Circular dependency detection"
+  ],
+  "versions": [
+    "Admin API v2.29"
+  ],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.016117,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "Business Central extensions often depend on other extensions. Installing them in the wrong order can cause failures.",
+      "why_it_matters": "Explains why dependency sorting is critical and why the topological sort algorithm is necessary"
+    },
+    {
+      "text": "With this script in place, deploying Business Central extensions becomes predictable, repeatable, and, most importantly, unattended.",
+      "why_it_matters": "States the primary benefit: eliminating manual deployment work and reducing human error"
+    }
+  ]
+}
