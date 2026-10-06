@@ -1,0 +1,1088 @@
+{
+  "inputs": [
+    "d7c9c667c671da2cda3a0738b18ed99ca4181765",
+    "d7c9c667c671da2cda3a0738b18ed99ca4181765",
+    "1",
+    []
+  ],
+  "schema": "al-diff@1",
+  "kind": "country",
+  "from": {
+    "version": "29",
+    "country": "w1",
+    "commit": "d7c9c667c671da2cda3a0738b18ed99ca4181765"
+  },
+  "to": {
+    "version": "29",
+    "country": "se",
+    "commit": "d7c9c667c671da2cda3a0738b18ed99ca4181765"
+  },
+  "summary": {
+    "objects": 29,
+    "by_change": {
+      "replaced": {
+        "permissionset": 2,
+        "table": 23
+      },
+      "added": {
+        "table": 4
+      }
+    },
+    "fields_added": 32,
+    "events_added": 0,
+    "procedures_added": 0,
+    "objects_obsoleted": 0
+  },
+  "objects": [
+    {
+      "key": "permissionset/1001",
+      "name": "LOCAL",
+      "change": "replaced",
+      "properties": [
+        {
+          "name": "Caption",
+          "from": null,
+          "to": "Country/region-specific func."
+        }
+      ]
+    },
+    {
+      "key": "permissionset/1002",
+      "name": "LOCAL READ",
+      "change": "replaced",
+      "properties": [
+        {
+          "name": "Caption",
+          "from": null,
+          "to": "Country/region-specific read only access"
+        }
+      ]
+    },
+    {
+      "key": "table/5",
+      "name": "Finance Charge Terms",
+      "change": "replaced",
+      "fields": [
+        {
+          "id": "3010590",
+          "name": "Multiple Lines Description",
+          "change": "added",
+          "to": {
+            "name": "Multiple Lines Description",
+            "type": "Text[50]",
+            "obsolete": {
+              "state": "Removed",
+              "tag": "26.0",
+              "reason": "Use \"Detailed Lines Description\" field instead."
+            },
+            "clean": [
+              "CLEANSCHEMA26"
+            ],
+            "properties": {
+              "Caption": "Multiple Lines Description",
+              "ObsoleteReason": "Use \"Detailed Lines Description\" field instead.",
+              "ObsoleteState": "Removed",
+              "ObsoleteTag": "26.0"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "table/15",
+      "name": "G/L Account",
+      "change": "replaced",
+      "fields": [
+        {
+          "id": "11200",
+          "name": "Auto. Acc. Group",
+          "change": "added",
+          "to": {
+            "name": "Auto. Acc. Group",
+            "type": "Code[10]",
+            "obsolete": {
+              "state": "Removed",
+              "tag": "25.0",
+              "reason": "Moved to Automatic Account Codes app."
+            },
+            "clean": [
+              "CLEANSCHEMA25"
+            ],
+            "properties": {
+              "Caption": "Auto. Acc. Group",
+              "TableRelation": "Automatic Acc. Header",
+              "ObsoleteReason": "Moved to Automatic Account Codes app.",
+              "ObsoleteState": "Removed",
+              "ObsoleteTag": "25.0"
+            }
+          }
+        },
+        {
+          "id": "11201",
+          "name": "SRU-code",
+          "change": "added",
+          "to": {
+            "name": "SRU-code",
+            "type": "Code[10]",
+            "obsolete": {
+              "state": "Removed",
+              "tag": "26.0",
+              "reason": "Moved to Standard Import Export (SIE) app."
+            },
+            "clean": [
+              "CLEANSCHEMA26"
+            ],
+            "properties": {
+              "Caption": "SRU-code",
+              "Numeric": "true",
+              "ObsoleteReason": "Moved to Standard Import Export (SIE) app.",
+              "ObsoleteState": "Removed",
+              "ObsoleteTag": "26.0"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "table/36",
+      "name": "Sales Header",
+      "change": "replaced",
+      "fields": [
+        {
+          "id": "11200",
+          "name": "Source Inv. No.",
+          "change": "added",
+          "to": {
+            "name": "Source Inv. No.",
+            "type": "Code[20]",
+            "obsolete": {
+              "state": "Removed",
+              "tag": "26.0",
+              "reason": "The field is not used and will be obsoleted"
+            },
+            "clean": [
+              "CLEANSCHEMA26"
+            ],
+            "properties": {
+              "Caption": "Source Inv. No.",
+              "ObsoleteReason": "The field is not used and will be obsoleted",
+              "ObsoleteState": "Removed",
+              "ObsoleteTag": "26.0"
+            }
+          }
+        },
+        {
+          "id": "11201",
+          "name": "Source Inv. VAT",
+          "change": "added",
+          "to": {
+            "name": "Source Inv. VAT",
+            "type": "Decimal",
+            "obsolete": {
+              "state": "Removed",
+              "tag": "26.0",
+              "reason": "The field is not used and will be obsoleted"
+            },
+            "clean": [
+              "CLEANSCHEMA26"
+            ],
+            "properties": {
+              "Caption": "Source Inv. VAT",
+              "Editable": "false",
+              "ObsoleteReason": "The field is not used and will be obsoleted",
+              "ObsoleteState": "Removed",
+              "ObsoleteTag": "26.0"
+            }
+          }
+        },
+        {
+          "id": "11202",
+          "name": "Source Inv. Total",
+          "change": "added",
+          "to": {
+            "name": "Source Inv. Total",
+            "type": "Decimal",
+            "obsolete": {
+              "state": "Removed",
+              "tag": "26.0",
+              "reason": "The field is not used and will be obsoleted"
+            },
+            "clean": [
+              "CLEANSCHEMA26"
+            ],
+            "properties": {
+              "Caption": "Source Inv. Total",
+              "Editable": "false",
+              "ObsoleteReason": "The field is not used and will be obsoleted",
+              "ObsoleteState": "Removed",
+              "ObsoleteTag": "26.0"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "table/37",
+      "name": "Sales Line",
+      "change": "replaced",
+      "fields": [
+        {
+          "id": "11200",
+          "name": "Auto. Acc. Group",
+          "change": "added",
+          "to": {
+            "name": "Auto. Acc. Group",
+            "type": "Code[10]",
+            "obsolete": {
+              "state": "Removed",
+              "tag": "25.0",
+              "reason": "Moved to Automatic Account Codes app."
+            },
+            "clean": [
+              "CLEANSCHEMA25"
+            ],
+            "properties": {
+              "Caption": "Auto. Acc. Group",
+              "TableRelation": "Automatic Acc. Header",
+              "ObsoleteReason": "Moved to Automatic Account Codes app.",
+              "ObsoleteState": "Removed",
+              "ObsoleteTag": "25.0"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "table/38",
+      "name": "Purchase Header",
+      "change": "replaced",
+      "fields": [
+        {
+          "id": "11200",
+          "name": "EU 3-Party Trade",
+          "change": "added",
+          "to": {
+            "name": "EU 3-Party Trade",
+            "type": "Boolean",
+            "obsolete": {
+              "state": "Removed",
+              "tag": "26.0",
+              "reason": "Moved to the EU 3-Party Trade Purchase app."
+            },
+            "clean": [
+              "CLEANSCHEMA26"
+            ],
+            "properties": {
+              "Caption": "EU 3-Party Trade",
+              "ObsoleteState": "Removed",
+              "ObsoleteTag": "26.0",
+              "ObsoleteReason": "Moved to the EU 3-Party Trade Purchase app."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "table/39",
+      "name": "Purchase Line",
+      "change": "replaced",
+      "fields": [
+        {
+          "id": "11200",
+          "name": "Auto. Acc. Group",
+          "change": "added",
+          "to": {
+            "name": "Auto. Acc. Group",
+            "type": "Code[10]",
+            "obsolete": {
+              "state": "Removed",
+              "tag": "25.0",
+              "reason": "Moved to Automatic Account Codes app."
+            },
+            "clean": [
+              "CLEANSCHEMA25"
+            ],
+            "properties": {
+              "Caption": "Auto. Acc. Group",
+              "TableRelation": "Automatic Acc. Header",
+              "ObsoleteReason": "Moved to Automatic Account Codes app.",
+              "ObsoleteState": "Removed",
+              "ObsoleteTag": "25.0"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "table/49",
+      "name": "Invoice Post. Buffer",
+      "change": "replaced",
+      "fields": [
+        {
+          "id": "11200",
+          "name": "Auto. Acc. Group",
+          "change": "added",
+          "to": {
+            "name": "Auto. Acc. Group",
+            "type": "Code[10]",
+            "obsolete": {
+              "state": "Removed",
+              "tag": "25.0",
+              "reason": "Moved to Automatic Account Codes app."
+            },
+            "clean": [
+              "CLEANSCHEMA25"
+            ],
+            "properties": {
+              "Caption": "Auto. Acc. Group",
+              "DataClassification": "SystemMetadata",
+              "ObsoleteReason": "Moved to Automatic Account Codes app.",
+              "ObsoleteState": "Removed",
+              "ObsoleteTag": "25.0"
+            }
+          }
+        },
+        {
+          "id": "11203",
+          "name": "VAT Base Amount (LCY)",
+          "change": "added",
+          "to": {
+            "name": "VAT Base Amount (LCY)",
+            "type": "Decimal",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "AutoFormatType": "1",
+              "AutoFormatExpression": "",
+              "Caption": "VAT Base Amount (LCY)",
+              "DataClassification": "SystemMetadata"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "table/55",
+      "name": "Invoice Posting Buffer",
+      "change": "replaced",
+      "fields": [
+        {
+          "id": "11200",
+          "name": "Auto. Acc. Group",
+          "change": "added",
+          "to": {
+            "name": "Auto. Acc. Group",
+            "type": "Code[10]",
+            "obsolete": {
+              "state": "Removed",
+              "tag": "25.0",
+              "reason": "Moved to Automatic Account Codes app."
+            },
+            "clean": [
+              "CLEANSCHEMA25"
+            ],
+            "properties": {
+              "Caption": "Auto. Acc. Group",
+              "DataClassification": "SystemMetadata",
+              "ObsoleteReason": "Moved to Automatic Account Codes app.",
+              "ObsoleteState": "Removed",
+              "ObsoleteTag": "25.0"
+            }
+          }
+        },
+        {
+          "id": "11203",
+          "name": "VAT Base Amount (LCY)",
+          "change": "added",
+          "to": {
+            "name": "VAT Base Amount (LCY)",
+            "type": "Decimal",
+            "obsolete": {
+              "state": "Removed",
+              "tag": "26.0",
+              "reason": "The field is not used and will be obsoleted."
+            },
+            "clean": [
+              "CLEANSCHEMA26"
+            ],
+            "properties": {
+              "Caption": "VAT Base Amount (LCY)",
+              "DataClassification": "SystemMetadata",
+              "ObsoleteReason": "The field is not used and will be obsoleted.",
+              "ObsoleteState": "Removed",
+              "ObsoleteTag": "26.0"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "table/79",
+      "name": "Company Information",
+      "change": "replaced",
+      "fields": [
+        {
+          "id": "11",
+          "name": "Giro No.",
+          "change": "changed",
+          "from": {
+            "name": "Giro No.",
+            "type": "Text[20]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Giro No.",
+              "ToolTip": "Specifies the company's giro number."
+            }
+          },
+          "to": {
+            "name": "Giro No.",
+            "type": "Text[20]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Giro No.",
+              "MaskType": "Concealed",
+              "ToolTip": "Specifies the company's giro number."
+            }
+          }
+        },
+        {
+          "id": "14",
+          "name": "Bank Account No.",
+          "change": "changed",
+          "from": {
+            "name": "Bank Account No.",
+            "type": "Text[30]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Bank Account No.",
+              "ToolTip": "Specifies the company's bank account number.",
+              "MaskType": "Concealed"
+            }
+          },
+          "to": {
+            "name": "Bank Account No.",
+            "type": "Text[30]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Bank Account No.",
+              "MaskType": "Concealed",
+              "ToolTip": "Specifies the company's bank account number."
+            }
+          }
+        },
+        {
+          "id": "38",
+          "name": "IBAN",
+          "change": "changed",
+          "from": {
+            "name": "IBAN",
+            "type": "Code[50]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "IBAN",
+              "ToolTip": "Specifies the international bank account number of your primary bank account.",
+              "MaskType": "Concealed"
+            }
+          },
+          "to": {
+            "name": "IBAN",
+            "type": "Code[50]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "IBAN",
+              "MaskType": "Concealed",
+              "ToolTip": "Specifies the international bank account number of your primary bank account."
+            }
+          }
+        },
+        {
+          "id": "11200",
+          "name": "Plus Giro No.",
+          "change": "added",
+          "to": {
+            "name": "Plus Giro No.",
+            "type": "Text[20]",
+            "obsolete": {
+              "state": "Removed",
+              "tag": "26.0",
+              "reason": "The field is moved to SE Core extension, and renamed to \"Plus Giro Number\""
+            },
+            "clean": [
+              "CLEANSCHEMA26"
+            ],
+            "properties": {
+              "Caption": "Plus Giro No.",
+              "MaskType": "Concealed",
+              "ObsoleteReason": "The field is moved to SE Core extension, and renamed to \"Plus Giro Number\"",
+              "ObsoleteState": "Removed",
+              "ObsoleteTag": "26.0"
+            }
+          }
+        },
+        {
+          "id": "11201",
+          "name": "Registered Office",
+          "change": "added",
+          "to": {
+            "name": "Registered Office",
+            "type": "Text[20]",
+            "obsolete": {
+              "state": "Removed",
+              "tag": "26.0",
+              "reason": "The field is moved to SE Core extension, and renamed to \"Registered Office Info\""
+            },
+            "clean": [
+              "CLEANSCHEMA26"
+            ],
+            "properties": {
+              "Caption": "Registered Office",
+              "ObsoleteReason": "The field is moved to SE Core extension, and renamed to \"Registered Office Info\"",
+              "ObsoleteState": "Removed",
+              "ObsoleteTag": "26.0"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "table/81",
+      "name": "Gen. Journal Line",
+      "change": "replaced",
+      "fields": [
+        {
+          "id": "11200",
+          "name": "Source Posting Date",
+          "change": "added",
+          "to": {
+            "name": "Source Posting Date",
+            "type": "Date",
+            "obsolete": {
+              "state": "Removed",
+              "tag": "26.0",
+              "reason": "The field is not used and will be obsoleted"
+            },
+            "clean": [
+              "CLEANSCHEMA26"
+            ],
+            "properties": {
+              "Caption": "Source Posting Date",
+              "ObsoleteReason": "The field is not used and will be obsoleted",
+              "ObsoleteState": "Removed",
+              "ObsoleteTag": "26.0"
+            }
+          }
+        },
+        {
+          "id": "11201",
+          "name": "Auto. Acc. Group",
+          "change": "added",
+          "to": {
+            "name": "Auto. Acc. Group",
+            "type": "Code[10]",
+            "obsolete": {
+              "state": "Removed",
+              "tag": "25.0",
+              "reason": "Moved to Automatic Account Codes app."
+            },
+            "clean": [
+              "CLEANSCHEMA25"
+            ],
+            "properties": {
+              "Caption": "Auto. Acc. Group",
+              "TableRelation": "Automatic Acc. Header",
+              "ObsoleteReason": "Moved to Automatic Account Codes app.",
+              "ObsoleteState": "Removed",
+              "ObsoleteTag": "25.0"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "table/111",
+      "name": "Sales Shipment Line",
+      "change": "replaced",
+      "fields": [
+        {
+          "id": "11200",
+          "name": "Auto. Acc. Group",
+          "change": "added",
+          "to": {
+            "name": "Auto. Acc. Group",
+            "type": "Code[10]",
+            "obsolete": {
+              "state": "Removed",
+              "tag": "25.0",
+              "reason": "Moved to Automatic Account Codes app."
+            },
+            "clean": [
+              "CLEANSCHEMA25"
+            ],
+            "properties": {
+              "Caption": "Auto. Acc. Group",
+              "TableRelation": "Automatic Acc. Header",
+              "ObsoleteReason": "Moved to Automatic Account Codes app.",
+              "ObsoleteState": "Removed",
+              "ObsoleteTag": "25.0"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "table/112",
+      "name": "Sales Invoice Header",
+      "change": "replaced",
+      "procedures": [
+        {
+          "id": "getlegalstatement()",
+          "name": "GetLegalStatement",
+          "change": "removed",
+          "from": {
+            "scope": "global",
+            "params": [],
+            "returns": "Text",
+            "event": null,
+            "obsolete": null,
+            "subscribes_to": null,
+            "attributes": []
+          }
+        }
+      ]
+    },
+    {
+      "key": "table/113",
+      "name": "Sales Invoice Line",
+      "change": "replaced",
+      "fields": [
+        {
+          "id": "11200",
+          "name": "Auto. Acc. Group",
+          "change": "added",
+          "to": {
+            "name": "Auto. Acc. Group",
+            "type": "Code[10]",
+            "obsolete": {
+              "state": "Removed",
+              "tag": "25.0",
+              "reason": "Moved to Automatic Account Codes app."
+            },
+            "clean": [
+              "CLEANSCHEMA25"
+            ],
+            "properties": {
+              "Caption": "Auto. Acc. Group",
+              "TableRelation": "Automatic Acc. Header",
+              "ObsoleteReason": "Moved to Automatic Account Codes app.",
+              "ObsoleteState": "Removed",
+              "ObsoleteTag": "25.0"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "table/114",
+      "name": "Sales Cr.Memo Header",
+      "change": "replaced",
+      "fields": [
+        {
+          "id": "11200",
+          "name": "Source Inv. No.",
+          "change": "added",
+          "to": {
+            "name": "Source Inv. No.",
+            "type": "Code[20]",
+            "obsolete": {
+              "state": "Removed",
+              "tag": "26.0",
+              "reason": "The field is not used and will be obsoleted"
+            },
+            "clean": [
+              "CLEANSCHEMA26"
+            ],
+            "properties": {
+              "Caption": "Source Inv. No.",
+              "Editable": "false",
+              "ObsoleteReason": "The field is not used and will be obsoleted",
+              "ObsoleteState": "Removed",
+              "ObsoleteTag": "26.0"
+            }
+          }
+        },
+        {
+          "id": "11201",
+          "name": "Source Inv. VAT",
+          "change": "added",
+          "to": {
+            "name": "Source Inv. VAT",
+            "type": "Decimal",
+            "obsolete": {
+              "state": "Removed",
+              "tag": "26.0",
+              "reason": "The field is not used and will be obsoleted"
+            },
+            "clean": [
+              "CLEANSCHEMA26"
+            ],
+            "properties": {
+              "Caption": "Source Inv. VAT",
+              "Editable": "false",
+              "ObsoleteReason": "The field is not used and will be obsoleted",
+              "ObsoleteState": "Removed",
+              "ObsoleteTag": "26.0"
+            }
+          }
+        },
+        {
+          "id": "11202",
+          "name": "Source Inv. Total",
+          "change": "added",
+          "to": {
+            "name": "Source Inv. Total",
+            "type": "Decimal",
+            "obsolete": {
+              "state": "Removed",
+              "tag": "26.0",
+              "reason": "The field is not used and will be obsoleted"
+            },
+            "clean": [
+              "CLEANSCHEMA26"
+            ],
+            "properties": {
+              "Caption": "Source Inv. Total",
+              "Editable": "false",
+              "ObsoleteReason": "The field is not used and will be obsoleted",
+              "ObsoleteState": "Removed",
+              "ObsoleteTag": "26.0"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "table/115",
+      "name": "Sales Cr.Memo Line",
+      "change": "replaced",
+      "fields": [
+        {
+          "id": "11200",
+          "name": "Auto. Acc. Group",
+          "change": "added",
+          "to": {
+            "name": "Auto. Acc. Group",
+            "type": "Code[10]",
+            "obsolete": {
+              "state": "Removed",
+              "tag": "25.0",
+              "reason": "Moved to Automatic Account Codes app."
+            },
+            "clean": [
+              "CLEANSCHEMA25"
+            ],
+            "properties": {
+              "Caption": "Auto. Acc. Group",
+              "TableRelation": "Automatic Acc. Header",
+              "ObsoleteReason": "Moved to Automatic Account Codes app.",
+              "ObsoleteState": "Removed",
+              "ObsoleteTag": "25.0"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "table/121",
+      "name": "Purch. Rcpt. Line",
+      "change": "replaced",
+      "fields": [
+        {
+          "id": "11200",
+          "name": "Auto. Acc. Group",
+          "change": "added",
+          "to": {
+            "name": "Auto. Acc. Group",
+            "type": "Code[10]",
+            "obsolete": {
+              "state": "Removed",
+              "tag": "25.0",
+              "reason": "Moved to Automatic Account Codes app."
+            },
+            "clean": [
+              "CLEANSCHEMA25"
+            ],
+            "properties": {
+              "Caption": "Auto. Acc. Group",
+              "TableRelation": "Automatic Acc. Header",
+              "ObsoleteReason": "Moved to Automatic Account Codes app.",
+              "ObsoleteState": "Removed",
+              "ObsoleteTag": "25.0"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "table/122",
+      "name": "Purch. Inv. Header",
+      "change": "replaced",
+      "fields": [
+        {
+          "id": "11200",
+          "name": "EU 3-Party Trade",
+          "change": "added",
+          "to": {
+            "name": "EU 3-Party Trade",
+            "type": "Boolean",
+            "obsolete": {
+              "state": "Removed",
+              "tag": "26.0",
+              "reason": "Moved to the EU 3-Party Trade Purchase app."
+            },
+            "clean": [
+              "CLEANSCHEMA26"
+            ],
+            "properties": {
+              "Caption": "EU 3-Party Trade",
+              "ObsoleteState": "Removed",
+              "ObsoleteTag": "26.0",
+              "ObsoleteReason": "Moved to the EU 3-Party Trade Purchase app."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "table/123",
+      "name": "Purch. Inv. Line",
+      "change": "replaced",
+      "fields": [
+        {
+          "id": "11200",
+          "name": "Auto. Acc. Group",
+          "change": "added",
+          "to": {
+            "name": "Auto. Acc. Group",
+            "type": "Code[10]",
+            "obsolete": {
+              "state": "Removed",
+              "tag": "25.0",
+              "reason": "Moved to Automatic Account Codes app."
+            },
+            "clean": [
+              "CLEANSCHEMA25"
+            ],
+            "properties": {
+              "Caption": "Auto. Acc. Group",
+              "TableRelation": "Automatic Acc. Header",
+              "ObsoleteReason": "Moved to Automatic Account Codes app.",
+              "ObsoleteState": "Removed",
+              "ObsoleteTag": "25.0"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "table/124",
+      "name": "Purch. Cr. Memo Hdr.",
+      "change": "replaced",
+      "fields": [
+        {
+          "id": "11200",
+          "name": "EU 3-Party Trade",
+          "change": "added",
+          "to": {
+            "name": "EU 3-Party Trade",
+            "type": "Boolean",
+            "obsolete": {
+              "state": "Removed",
+              "tag": "26.0",
+              "reason": "Moved to the EU 3-Party Trade Purchase app."
+            },
+            "clean": [
+              "CLEANSCHEMA26"
+            ],
+            "properties": {
+              "Caption": "EU 3-Party Trade",
+              "ObsoleteState": "Removed",
+              "ObsoleteTag": "26.0",
+              "ObsoleteReason": "Moved to the EU 3-Party Trade Purchase app."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "table/125",
+      "name": "Purch. Cr. Memo Line",
+      "change": "replaced",
+      "fields": [
+        {
+          "id": "11200",
+          "name": "Auto. Acc. Group",
+          "change": "added",
+          "to": {
+            "name": "Auto. Acc. Group",
+            "type": "Code[10]",
+            "obsolete": {
+              "state": "Removed",
+              "tag": "25.0",
+              "reason": "Moved to Automatic Account Codes app."
+            },
+            "clean": [
+              "CLEANSCHEMA25"
+            ],
+            "properties": {
+              "Caption": "Auto. Acc. Group",
+              "TableRelation": "Automatic Acc. Header",
+              "ObsoleteReason": "Moved to Automatic Account Codes app.",
+              "ObsoleteState": "Removed",
+              "ObsoleteTag": "25.0"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "table/181",
+      "name": "Posted Gen. Journal Line",
+      "change": "replaced",
+      "fields": [
+        {
+          "id": "11200",
+          "name": "Source Posting Date",
+          "change": "added",
+          "to": {
+            "name": "Source Posting Date",
+            "type": "Date",
+            "obsolete": {
+              "state": "Removed",
+              "tag": "26.0",
+              "reason": "The field is not used and will be obsoleted"
+            },
+            "clean": [
+              "CLEANSCHEMA26"
+            ],
+            "properties": {
+              "Caption": "Source Posting Date",
+              "ObsoleteReason": "The field is not used and will be obsoleted",
+              "ObsoleteState": "Removed",
+              "ObsoleteTag": "26.0"
+            }
+          }
+        },
+        {
+          "id": "11201",
+          "name": "Auto. Acc. Group",
+          "change": "added",
+          "to": {
+            "name": "Auto. Acc. Group",
+            "type": "Code[10]",
+            "obsolete": {
+              "state": "Removed",
+              "tag": "25.0",
+              "reason": "Moved to Automatic Account Codes app."
+            },
+            "clean": [
+              "CLEANSCHEMA25"
+            ],
+            "properties": {
+              "Caption": "Auto. Acc. Group",
+              "TableRelation": "Automatic Acc. Header",
+              "ObsoleteReason": "Moved to Automatic Account Codes app.",
+              "ObsoleteState": "Removed",
+              "ObsoleteTag": "25.0"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "table/256",
+      "name": "VAT Statement Line",
+      "change": "replaced",
+      "fields": [
+        {
+          "id": "11200",
+          "name": "EU 3-Party Trade",
+          "change": "added",
+          "to": {
+            "name": "EU 3-Party Trade",
+            "type": "Boolean",
+            "obsolete": {
+              "state": "Removed",
+              "tag": "26.0",
+              "reason": "Moved to the EU 3-Party Trade Purchase app."
+            },
+            "clean": [
+              "CLEANSCHEMA26"
+            ],
+            "properties": {
+              "ObsoleteState": "Removed",
+              "ObsoleteTag": "26.0",
+              "ObsoleteReason": "Moved to the EU 3-Party Trade Purchase app."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "table/312",
+      "name": "Purchases & Payables Setup",
+      "change": "replaced",
+      "fields": [
+        {
+          "id": "11214",
+          "name": "Part. Pay. Nos.",
+          "change": "added",
+          "to": {
+            "name": "Part. Pay. Nos.",
+            "type": "Code[20]",
+            "obsolete": {
+              "state": "Removed",
+              "tag": "26.0",
+              "reason": "The field is not used and will be obsoleted"
+            },
+            "clean": [
+              "CLEANSCHEMA26"
+            ],
+            "properties": {
+              "Caption": "Part. Pay. Nos.",
+              "TableRelation": "No. Series",
+              "ObsoleteReason": "The field is not used and will be obsoleted",
+              "ObsoleteState": "Removed",
+              "ObsoleteTag": "26.0"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "table/11203",
+      "name": "Automatic Acc. Header",
+      "change": "added"
+    },
+    {
+      "key": "table/11204",
+      "name": "Automatic Acc. Line",
+      "change": "added"
+    },
+    {
+      "key": "table/11207",
+      "name": "SIE Dimension",
+      "change": "added"
+    },
+    {
+      "key": "table/11208",
+      "name": "SIE Import Buffer",
+      "change": "added"
+    }
+  ]
+}

@@ -1,0 +1,609 @@
+{
+  "versions": [
+    "28",
+    "29",
+    "30"
+  ],
+  "objects": {
+    "azure ad application api": {
+      "name": "Azure AD Application Api",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "azure ad application api baseapp": {
+      "name": "Azure AD Application Api BaseApp",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "azure ad application automation": {
+      "name": "Azure AD Application Automation",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "azure ad application automation baseapp": {
+      "name": "Azure AD Application Automation BaseApp",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "d365 business central infrastructure": {
+      "name": "D365 Business Central Infrastructure",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "d365 business central infrastructure baseapp": {
+      "name": "D365 Business Central Infrastructure BaseApp",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "delegated admin agent - partner": {
+      "name": "Delegated Admin agent - Partner",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "delegated admin agent - partner baseapp": {
+      "name": "Delegated Admin agent - Partner BaseApp",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "delegated bc admin agent - partner": {
+      "name": "Delegated BC Admin agent - Partner",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "delegated bc admin agent - partner baseapp": {
+      "name": "Delegated BC Admin agent - Partner BaseApp",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "delegated helpdesk agent - partner": {
+      "name": "Delegated Helpdesk agent - Partner",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "delegated helpdesk agent - partner baseapp": {
+      "name": "Delegated Helpdesk agent - Partner BaseApp",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "dynamics 365 - accountant hub": {
+      "name": "Dynamics 365 - Accountant Hub",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "dynamics 365 - accountant hub baseapp": {
+      "name": "Dynamics 365 - Accountant Hub BaseApp",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "dynamics 365 admin - partner": {
+      "name": "Dynamics 365 Admin - Partner",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "dynamics 365 admin - partner baseapp": {
+      "name": "Dynamics 365 Admin - Partner BaseApp",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "dynamics 365 administrator": {
+      "name": "Dynamics 365 Administrator",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "dynamics 365 administrator baseapp": {
+      "name": "Dynamics 365 Administrator BaseApp",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "dynamics 365 business central basic financials": {
+      "name": "Dynamics 365 Business Central Basic Financials",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "dynamics 365 business central basic financials baseapp": {
+      "name": "Dynamics 365 Business Central Basic Financials BaseApp",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "dynamics 365 business central device": {
+      "name": "Dynamics 365 Business Central Device",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "dynamics 365 business central device - embedded": {
+      "name": "Dynamics 365 Business Central Device - Embedded",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "dynamics 365 business central device - embedded baseapp": {
+      "name": "Dynamics 365 Business Central Device - Embedded BaseApp",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "dynamics 365 business central device baseapp": {
+      "name": "Dynamics 365 Business Central Device BaseApp",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "dynamics 365 business central essential - attach": {
+      "name": "Dynamics 365 Business Central Essential - Attach",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "dynamics 365 business central essential - attach baseapp": {
+      "name": "Dynamics 365 Business Central Essential - Attach BaseApp",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "dynamics 365 business central essential - embedded": {
+      "name": "Dynamics 365 Business Central Essential - Embedded",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "dynamics 365 business central essential - embedded baseapp": {
+      "name": "Dynamics 365 Business Central Essential - Embedded BaseApp",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "dynamics 365 business central essentials": {
+      "name": "Dynamics 365 Business Central Essentials",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "dynamics 365 business central essentials baseapp": {
+      "name": "Dynamics 365 Business Central Essentials BaseApp",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "dynamics 365 business central external accountant": {
+      "name": "Dynamics 365 Business Central External Accountant",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "dynamics 365 business central external accountant baseapp": {
+      "name": "Dynamics 365 Business Central External Accountant BaseApp",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "dynamics 365 business central for iws": {
+      "name": "Dynamics 365 Business Central for IWs",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "dynamics 365 business central for iws baseapp": {
+      "name": "Dynamics 365 Business Central for IWs BaseApp",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "dynamics 365 business central premium": {
+      "name": "Dynamics 365 Business Central Premium",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "dynamics 365 business central premium - embedded": {
+      "name": "Dynamics 365 Business Central Premium - Embedded",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "dynamics 365 business central premium - embedded baseapp": {
+      "name": "Dynamics 365 Business Central Premium - Embedded BaseApp",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "dynamics 365 business central premium baseapp": {
+      "name": "Dynamics 365 Business Central Premium BaseApp",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "dynamics 365 business central premium partner sandbox": {
+      "name": "Dynamics 365 Business Central Premium Partner Sandbox",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "dynamics 365 business central premium partner sandbox baseapp": {
+      "name": "Dynamics 365 Business Central Premium Partner Sandbox BaseApp",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "dynamics 365 business central team member": {
+      "name": "Dynamics 365 Business Central Team Member",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "dynamics 365 business central team member - embedded": {
+      "name": "Dynamics 365 Business Central Team Member - Embedded",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "dynamics 365 business central team member - embedded baseapp": {
+      "name": "Dynamics 365 Business Central Team Member - Embedded BaseApp",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "dynamics 365 business central team member baseapp": {
+      "name": "Dynamics 365 Business Central Team Member BaseApp",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "internal administrator": {
+      "name": "Internal Administrator",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "internal administrator baseapp": {
+      "name": "Internal Administrator BaseApp",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "internal bc administrator": {
+      "name": "Internal BC Administrator",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "internal bc administrator baseapp": {
+      "name": "Internal BC Administrator BaseApp",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "microsoft 365": {
+      "name": "Microsoft 365",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "microsoft 365 baseapp": {
+      "name": "Microsoft 365 BaseApp",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    }
+  }
+}

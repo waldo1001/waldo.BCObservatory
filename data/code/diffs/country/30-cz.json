@@ -1,0 +1,580 @@
+{
+  "inputs": [
+    "eb822e0ddf035a26fde1dfe28247a631f6b292e9",
+    "eb822e0ddf035a26fde1dfe28247a631f6b292e9",
+    "1",
+    []
+  ],
+  "schema": "al-diff@1",
+  "kind": "country",
+  "from": {
+    "version": "30",
+    "country": "w1",
+    "commit": "eb822e0ddf035a26fde1dfe28247a631f6b292e9"
+  },
+  "to": {
+    "version": "30",
+    "country": "cz",
+    "commit": "eb822e0ddf035a26fde1dfe28247a631f6b292e9"
+  },
+  "summary": {
+    "objects": 10,
+    "by_change": {
+      "added": {
+        "codeunit": 2
+      },
+      "replaced": {
+        "codeunit": 1,
+        "table": 7
+      }
+    },
+    "fields_added": 6,
+    "events_added": 0,
+    "procedures_added": 0,
+    "objects_obsoleted": 0
+  },
+  "objects": [
+    {
+      "key": "codeunit/11790",
+      "name": "Local Upgrade Tag Definitions",
+      "change": "added"
+    },
+    {
+      "key": "codeunit/104051",
+      "name": "Update VAT Date Field",
+      "change": "replaced",
+      "procedures": [
+        {
+          "id": "updateblankvatentries()",
+          "name": "UpdateBlankVATEntries",
+          "change": "removed",
+          "from": {
+            "scope": "local",
+            "params": [],
+            "returns": null,
+            "event": null,
+            "obsolete": null,
+            "subscribes_to": null,
+            "attributes": []
+          }
+        },
+        {
+          "id": "updateblankglentries()",
+          "name": "UpdateBlankGLEntries",
+          "change": "removed",
+          "from": {
+            "scope": "local",
+            "params": [],
+            "returns": null,
+            "event": null,
+            "obsolete": null,
+            "subscribes_to": null,
+            "attributes": []
+          }
+        },
+        {
+          "id": "datatransferglentries(integer,integer)",
+          "name": "DataTransferGLEntries",
+          "change": "removed",
+          "from": {
+            "scope": "local",
+            "params": [
+              {
+                "name": "FromEntryNo",
+                "type": "Integer",
+                "var": false
+              },
+              {
+                "name": "ToEntryNo",
+                "type": "Integer",
+                "var": false
+              }
+            ],
+            "returns": null,
+            "event": null,
+            "obsolete": null,
+            "subscribes_to": null,
+            "attributes": []
+          }
+        },
+        {
+          "id": "updatepurchsalesblankentries()",
+          "name": "UpdatePurchSalesBlankEntries",
+          "change": "removed",
+          "from": {
+            "scope": "local",
+            "params": [],
+            "returns": null,
+            "event": null,
+            "obsolete": null,
+            "subscribes_to": null,
+            "attributes": []
+          }
+        }
+      ]
+    },
+    {
+      "key": "codeunit/104150",
+      "name": "Upgrade - Local App",
+      "change": "added"
+    },
+    {
+      "key": "table/263",
+      "name": "Intrastat Jnl. Line",
+      "change": "replaced",
+      "fields": [
+        {
+          "id": "7",
+          "name": "Item Description",
+          "change": "changed",
+          "from": {
+            "name": "Item Description",
+            "type": "Text[100]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Item Description"
+            }
+          },
+          "to": {
+            "name": "Item Description",
+            "type": "Text[250]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Item Description"
+            }
+          }
+        },
+        {
+          "id": "15",
+          "name": "Quantity",
+          "change": "changed",
+          "from": {
+            "name": "Quantity",
+            "type": "Decimal",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "AutoFormatType": "0",
+              "Caption": "Quantity",
+              "DecimalPlaces": "0 : 0"
+            }
+          },
+          "to": {
+            "name": "Quantity",
+            "type": "Decimal",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "AutoFormatType": "0",
+              "Caption": "Quantity",
+              "DecimalPlaces": "0 : 3"
+            }
+          }
+        },
+        {
+          "id": "22",
+          "name": "Total Weight",
+          "change": "changed",
+          "from": {
+            "name": "Total Weight",
+            "type": "Decimal",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "AutoFormatType": "0",
+              "Caption": "Total Weight",
+              "DecimalPlaces": "0 : 0",
+              "Editable": "false"
+            }
+          },
+          "to": {
+            "name": "Total Weight",
+            "type": "Decimal",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "AutoFormatType": "0",
+              "Caption": "Total Weight",
+              "DecimalPlaces": "2 : 5",
+              "Editable": "false"
+            }
+          }
+        }
+      ],
+      "keys": [
+        {
+          "id": "key3",
+          "name": "Key3",
+          "change": "added",
+          "to": {
+            "fields": [
+              "Type",
+              "Country/Region Code",
+              "Tariff No.",
+              "Transaction Type",
+              "Transport Method",
+              "Country/Region of Origin Code",
+              "Partner VAT ID"
+            ],
+            "clustered": false
+          }
+        },
+        {
+          "id": "key4",
+          "name": "Key4",
+          "change": "added",
+          "to": {
+            "fields": [
+              "Internal Ref. No."
+            ],
+            "clustered": false
+          }
+        },
+        {
+          "id": "key7",
+          "name": "Key7",
+          "change": "changed",
+          "from": {
+            "fields": [
+              "Journal Template Name",
+              "Journal Batch Name",
+              "Type",
+              "Country/Region Code",
+              "Tariff No.",
+              "Transaction Type",
+              "Transport Method",
+              "Country/Region of Origin Code",
+              "Partner VAT ID"
+            ],
+            "clustered": false
+          },
+          "to": {
+            "fields": [
+              "Document No."
+            ],
+            "clustered": false
+          }
+        },
+        {
+          "id": "key5",
+          "name": "Key5",
+          "change": "removed",
+          "from": {
+            "fields": [
+              "Document No."
+            ],
+            "clustered": false
+          }
+        },
+        {
+          "id": "key6",
+          "name": "Key6",
+          "change": "removed",
+          "from": {
+            "fields": [
+              "Journal Template Name",
+              "Journal Batch Name",
+              "Type",
+              "Internal Ref. No."
+            ],
+            "clustered": false
+          }
+        }
+      ]
+    },
+    {
+      "key": "table/325",
+      "name": "VAT Posting Setup",
+      "change": "replaced",
+      "fields": [
+        {
+          "id": "6201",
+          "name": "Non-Ded. Sales VAT Account",
+          "change": "added",
+          "to": {
+            "name": "Non-Ded. Sales VAT Account",
+            "type": "Code[20]",
+            "obsolete": {
+              "state": "Removed",
+              "tag": "26.0",
+              "reason": "Non-Deductible VAT is not implemented for Sales."
+            },
+            "clean": [
+              "CLEANSCHEMA26"
+            ],
+            "properties": {
+              "Caption": "Non-Deductible Sales VAT Account",
+              "TableRelation": "G/L Account",
+              "ObsoleteReason": "Non-Deductible VAT is not implemented for Sales.",
+              "ObsoleteState": "Removed",
+              "ObsoleteTag": "26.0"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "table/372",
+      "name": "Payment Buffer",
+      "change": "replaced",
+      "fields": [
+        {
+          "id": "11760",
+          "name": "Vendor Posting Group",
+          "change": "added",
+          "to": {
+            "name": "Vendor Posting Group",
+            "type": "Code[20]",
+            "obsolete": {
+              "state": "Removed",
+              "tag": "25.0",
+              "reason": "The field is not used anymore."
+            },
+            "clean": null,
+            "properties": {
+              "Caption": "Vendor Posting Group",
+              "DataClassification": "SystemMetadata",
+              "TableRelation": "Vendor Posting Group",
+              "ObsoleteState": "Removed",
+              "ObsoleteTag": "25.0",
+              "ObsoleteReason": "The field is not used anymore."
+            }
+          }
+        },
+        {
+          "id": "11",
+          "name": "Vendor Posting Group",
+          "change": "removed",
+          "from": {
+            "name": "Vendor Posting Group",
+            "type": "Code[20]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Vendor Posting Group",
+              "DataClassification": "SystemMetadata"
+            }
+          }
+        }
+      ],
+      "keys": [
+        {
+          "id": "key2",
+          "name": "Key2",
+          "change": "removed",
+          "from": {
+            "fields": [
+              "Document No."
+            ],
+            "clustered": false
+          }
+        }
+      ]
+    },
+    {
+      "key": "table/383",
+      "name": "Detailed CV Ledg. Entry Buffer",
+      "change": "replaced",
+      "fields": [
+        {
+          "id": "6200",
+          "name": "Non-Deductible VAT Amount",
+          "change": "changed",
+          "from": {
+            "name": "Non-Deductible VAT Amount LCY",
+            "type": "Decimal",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Non-Deductible VAT Amount LCY",
+              "Editable": "false",
+              "AutoFormatType": "1",
+              "AutoFormatExpression": ""
+            }
+          },
+          "to": {
+            "name": "Non-Deductible VAT Amount",
+            "type": "Decimal",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "AutoFormatType": "1",
+              "AutoFormatExpression": "Rec.\"Currency Code\"",
+              "Caption": "Non-Deductible VAT Amount",
+              "Editable": "false"
+            }
+          }
+        },
+        {
+          "id": "6201",
+          "name": "Non-Deductible VAT Amount LCY",
+          "change": "changed",
+          "from": {
+            "name": "Non-Deductible VAT Amount ACY",
+            "type": "Decimal",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "AutoFormatExpression": "GetAdditionalReportingCurrencyCode()",
+              "AutoFormatType": "1",
+              "Caption": "Non-Deductible VAT Amount ACY",
+              "Editable": "false"
+            }
+          },
+          "to": {
+            "name": "Non-Deductible VAT Amount LCY",
+            "type": "Decimal",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Non-Deductible VAT Amount LCY",
+              "Editable": "false",
+              "AutoFormatType": "1",
+              "AutoFormatExpression": ""
+            }
+          }
+        },
+        {
+          "id": "6202",
+          "name": "Non-Deductible VAT Amount ACY",
+          "change": "added",
+          "to": {
+            "name": "Non-Deductible VAT Amount ACY",
+            "type": "Decimal",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "AutoFormatExpression": "GetAdditionalReportingCurrencyCode()",
+              "AutoFormatType": "1",
+              "Caption": "Non-Deductible VAT Amount ACY",
+              "Editable": "false"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "table/1250",
+      "name": "Bank Statement Matching Buffer",
+      "change": "replaced",
+      "fields": [
+        {
+          "id": "30000",
+          "name": "Letter Type",
+          "change": "added",
+          "to": {
+            "name": "Letter Type",
+            "type": "Option",
+            "obsolete": {
+              "state": "Removed",
+              "tag": "25.0",
+              "reason": "Replaced by Advance Payments Localization for Czech."
+            },
+            "clean": [
+              "CLEANSCHEMA25"
+            ],
+            "properties": {
+              "Caption": "Letter Type",
+              "DataClassification": "SystemMetadata",
+              "OptionCaption": "Sales,Purchase",
+              "OptionMembers": "Sales,Purchase",
+              "ObsoleteState": "Removed",
+              "ObsoleteReason": "Replaced by Advance Payments Localization for Czech.",
+              "ObsoleteTag": "25.0"
+            }
+          }
+        },
+        {
+          "id": "31001",
+          "name": "Letter No.",
+          "change": "added",
+          "to": {
+            "name": "Letter No.",
+            "type": "Code[20]",
+            "obsolete": {
+              "state": "Removed",
+              "tag": "25.0",
+              "reason": "Replaced by Advance Payments Localization for Czech."
+            },
+            "clean": [
+              "CLEANSCHEMA25"
+            ],
+            "properties": {
+              "Caption": "Letter No.",
+              "DataClassification": "SystemMetadata",
+              "ObsoleteState": "Removed",
+              "ObsoleteReason": "Replaced by Advance Payments Localization for Czech.",
+              "ObsoleteTag": "25.0"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "table/1296",
+      "name": "Posted Payment Recon. Line",
+      "change": "replaced",
+      "fields": [
+        {
+          "id": "31000",
+          "name": "Advance Letter Link Code",
+          "change": "added",
+          "to": {
+            "name": "Advance Letter Link Code",
+            "type": "Code[30]",
+            "obsolete": {
+              "state": "Removed",
+              "tag": "25.0",
+              "reason": "Replaced by Advance Payments Localization for Czech."
+            },
+            "clean": [
+              "CLEANSCHEMA25"
+            ],
+            "properties": {
+              "Caption": "Advance Letter Link Code",
+              "ObsoleteState": "Removed",
+              "ObsoleteReason": "Replaced by Advance Payments Localization for Czech.",
+              "ObsoleteTag": "25.0"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "table/7604",
+      "name": "Where Used Base Calendar",
+      "change": "replaced",
+      "fields": [
+        {
+          "id": "5",
+          "name": "Source Name",
+          "change": "changed",
+          "from": {
+            "name": "Source Name",
+            "type": "Text[50]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Source Name",
+              "ToolTip": "Specifies the source name associated with this entry.",
+              "Editable": "false"
+            }
+          },
+          "to": {
+            "name": "Source Name",
+            "type": "Text[100]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Source Name",
+              "ToolTip": "Specifies the source name associated with this entry.",
+              "Editable": "false"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

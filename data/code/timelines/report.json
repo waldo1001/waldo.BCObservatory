@@ -1,0 +1,8975 @@
+{
+  "versions": [
+    "28",
+    "29",
+    "30"
+  ],
+  "objects": {
+    "1": {
+      "name": "Chart of Accounts",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "2": {
+      "name": "General Journal - Test",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "3": {
+      "name": "G/L Register",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "4": {
+      "name": "Detail Trial Balance",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5": {
+      "name": "Receivables-Payables",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "6": {
+      "name": "Trial Balance",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [
+        {
+          "version": "28",
+          "state": "Pending",
+          "tag": "28.0"
+        }
+      ],
+      "removed": null
+    },
+    "7": {
+      "name": "Trial Balance/Previous Year",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "8": {
+      "name": "Budget",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "9": {
+      "name": "Trial Balance/Budget",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [
+        {
+          "version": "28",
+          "state": "Pending",
+          "tag": "28.0"
+        }
+      ],
+      "removed": null
+    },
+    "10": {
+      "name": "Closing Trial Balance",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "11": {
+      "name": "G/L - VAT Reconciliation",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "12": {
+      "name": "VAT Statement",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "13": {
+      "name": "VAT Register",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "14": {
+      "name": "Consolidation - Test Database",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "15": {
+      "name": "Consolidation - Test File",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "16": {
+      "name": "G/L Consolidation Eliminations",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "17": {
+      "name": "Consolidated Trial Balance",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "18": {
+      "name": "Consolidated Trial Balance (4)",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "19": {
+      "name": "VAT- VIES Declaration Tax Auth",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "20": {
+      "name": "Calc. and Post VAT Settlement",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "23": {
+      "name": "G/L Document Nos.",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "24": {
+      "name": "Sales Taxes Collected",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "25": {
+      "name": "Account Schedule",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "26": {
+      "name": "Copy Account Schedule",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "27": {
+      "name": "Dimensions - Total",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "28": {
+      "name": "Dimensions - Detail",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "29": {
+      "name": "Export Acc. Sched. to Excel",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "30": {
+      "name": "Check Value Posting",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "31": {
+      "name": "VAT Exceptions",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "32": {
+      "name": "VAT Registration No. Check",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "33": {
+      "name": "Reconcile Cust. and Vend. Accs",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "34": {
+      "name": "Change Payment Tolerance",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "35": {
+      "name": "Document Entries",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "36": {
+      "name": "Fiscal Year Balance",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "37": {
+      "name": "Balance Comp. - Prev. Year",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "38": {
+      "name": "Trial Balance by Period",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "39": {
+      "name": "Copy Financial Report",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "81": {
+      "name": "Import Budget from Excel",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "82": {
+      "name": "Export Budget to Excel",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "84": {
+      "name": "Update Analysis Views",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "85": {
+      "name": "Copy - VAT Posting Setup",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "86": {
+      "name": "Adjust Add. Reporting Currency",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "87": {
+      "name": "Copy - General Posting Setup",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "88": {
+      "name": "VAT- VIES Declaration Disk",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "90": {
+      "name": "Import Consolidation from DB",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "91": {
+      "name": "Export Consolidation",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "92": {
+      "name": "Import Consolidation from File",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "93": {
+      "name": "Create Fiscal Year",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "94": {
+      "name": "Close Income Statement",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "95": {
+      "name": "Date Compress VAT Entries",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "96": {
+      "name": "Copy G/L Budget",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "97": {
+      "name": "Date Compr. G/L Budget Entries",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "98": {
+      "name": "Date Compress General Ledger",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "99": {
+      "name": "Delete Empty G/L Registers",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "101": {
+      "name": "Customer - List",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [
+        {
+          "version": "28",
+          "state": "Pending",
+          "tag": "28.0"
+        }
+      ],
+      "removed": null
+    },
+    "103": {
+      "name": "Customer Register",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "104": {
+      "name": "Customer - Detail Trial Bal.",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "105": {
+      "name": "Customer - Summary Aging",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "106": {
+      "name": "Customer Detailed Aging",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "107": {
+      "name": "Customer - Order Summary",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "108": {
+      "name": "Customer - Order Detail",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "109": {
+      "name": "Customer - Summary Aging Simp.",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "110": {
+      "name": "Customer - Labels",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "111": {
+      "name": "Customer - Top 10 List",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [
+        {
+          "version": "28",
+          "state": "Pending",
+          "tag": "28.0"
+        }
+      ],
+      "removed": null
+    },
+    "112": {
+      "name": "Sales Statistics",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [
+        {
+          "version": "28",
+          "state": "Pending",
+          "tag": "28.0"
+        }
+      ],
+      "removed": null
+    },
+    "113": {
+      "name": "Customer/Item Sales",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "114": {
+      "name": "Salesperson - Sales Statistics",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "115": {
+      "name": "Salesperson - Commission",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "116": {
+      "name": "Statement",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "117": {
+      "name": "Reminder",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "118": {
+      "name": "Finance Charge Memo",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "119": {
+      "name": "Customer - Sales List",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [
+        {
+          "version": "28",
+          "state": "Pending",
+          "tag": "28.0"
+        }
+      ],
+      "removed": null
+    },
+    "120": {
+      "name": "Aged Accounts Receivable",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [
+        {
+          "version": "28",
+          "state": "Pending",
+          "tag": "28.0"
+        }
+      ],
+      "removed": null
+    },
+    "121": {
+      "name": "Customer - Balance to Date",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "122": {
+      "name": "Reminder - Test",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "123": {
+      "name": "Finance Charge Memo - Test",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "129": {
+      "name": "Customer - Trial Balance",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "130": {
+      "name": "EC Sales List",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "150": {
+      "name": "Transfer GL Entries to CA",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "151": {
+      "name": "Balance Sheet",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "152": {
+      "name": "Calculate Low Level Code",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "153": {
+      "name": "Customer Statement",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "154": {
+      "name": "Income Statement",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "155": {
+      "name": "Statement of Cashflows",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "156": {
+      "name": "Retained Earnings Statement",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "172": {
+      "name": "Create Recurring Sales Inv.",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "186": {
+      "name": "Update Finance Charge Text",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "187": {
+      "name": "Update Reminder Text",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "188": {
+      "name": "Create Reminders",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "189": {
+      "name": "Suggest Reminder Lines",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "190": {
+      "name": "Issue Reminders",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "191": {
+      "name": "Create Finance Charge Memos",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "192": {
+      "name": "Suggest Fin. Charge Memo Lines",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "193": {
+      "name": "Issue Finance Charge Memos",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "198": {
+      "name": "Date Compress Customer Ledger",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "199": {
+      "name": "Net Customer/Vendor Balances",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "202": {
+      "name": "Sales Document - Test",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "208": {
+      "name": "Sales - Shipment",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "209": {
+      "name": "Sales Reservation Avail.",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [
+        {
+          "version": "28",
+          "state": "Pending",
+          "tag": "28.0"
+        }
+      ],
+      "removed": null
+    },
+    "210": {
+      "name": "Blanket Sales Order",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "211": {
+      "name": "Customer - Payment Receipt",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "212": {
+      "name": "Sales Prepmt. Document Test",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "214": {
+      "name": "Pick Instruction",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "215": {
+      "name": "Archived Sales Quote",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "216": {
+      "name": "Archived Sales Order",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "291": {
+      "name": "Delete Invd Blnkt Sales Orders",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "292": {
+      "name": "Copy Sales Document",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "295": {
+      "name": "Combine Shipments",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "296": {
+      "name": "Batch Post Sales Orders",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "297": {
+      "name": "Batch Post Sales Invoices",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "298": {
+      "name": "Batch Post Sales Credit Memos",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "299": {
+      "name": "Delete Invoiced Sales Orders",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "300": {
+      "name": "Carry Out Reservation",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "301": {
+      "name": "Vendor - List",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [
+        {
+          "version": "28",
+          "state": "Pending",
+          "tag": "28.0"
+        }
+      ],
+      "removed": null
+    },
+    "302": {
+      "name": "Get Demand To Reserve",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "30"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "303": {
+      "name": "Vendor Register",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "304": {
+      "name": "Vendor - Detail Trial Balance",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "305": {
+      "name": "Vendor - Summary Aging",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [
+        {
+          "version": "28",
+          "state": "Pending",
+          "tag": "28.0"
+        }
+      ],
+      "removed": null
+    },
+    "307": {
+      "name": "Vendor - Order Summary",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "308": {
+      "name": "Vendor - Order Detail",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "309": {
+      "name": "Vendor - Purchase List",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "310": {
+      "name": "Vendor - Labels",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "311": {
+      "name": "Vendor - Top 10 List",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [
+        {
+          "version": "28",
+          "state": "Pending",
+          "tag": "28.0"
+        }
+      ],
+      "removed": null
+    },
+    "312": {
+      "name": "Purchase Statistics",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "313": {
+      "name": "Vendor/Item Purchases",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "317": {
+      "name": "Vendor Pre-Payment Journal",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "319": {
+      "name": "Payments on Hold",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [
+        {
+          "version": "28",
+          "state": "Pending",
+          "tag": "28.0"
+        }
+      ],
+      "removed": null
+    },
+    "320": {
+      "name": "Vendor Item Catalog",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "321": {
+      "name": "Vendor - Balance to Date",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "322": {
+      "name": "Aged Accounts Payable",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [
+        {
+          "version": "28",
+          "state": "Pending",
+          "tag": "28.0"
+        }
+      ],
+      "removed": null
+    },
+    "323": {
+      "name": "ECSL Report Request Page",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "329": {
+      "name": "Vendor - Trial Balance",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "330": {
+      "name": "Audit Trail",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "357": {
+      "name": "Copy Company",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "393": {
+      "name": "Suggest Vendor Payments",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "394": {
+      "name": "Suggest Employee Payments",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "398": {
+      "name": "Date Compress Vendor Ledger",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "399": {
+      "name": "Remittance Advice - Journal",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "400": {
+      "name": "Remittance Advice - Entries",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "402": {
+      "name": "Purchase Document - Test",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "404": {
+      "name": "Purchase - Quote",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "405": {
+      "name": "Order",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "406": {
+      "name": "Purchase - Invoice",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "407": {
+      "name": "Purchase - Credit Memo",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "408": {
+      "name": "Purchase - Receipt",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "409": {
+      "name": "Purchase Reservation Avail.",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "410": {
+      "name": "Blanket Purchase Order",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "411": {
+      "name": "Vendor - Payment Receipt",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "412": {
+      "name": "Purchase Prepmt. Doc. - Test",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "413": {
+      "name": "Self Billing Invoice",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "415": {
+      "name": "Archived Purchase Quote",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "416": {
+      "name": "Archived Purchase Order",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "417": {
+      "name": "Arch.Purch. Return Order",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "418": {
+      "name": "Arch. Sales Return Order",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "482": {
+      "name": "Update Dim. Set Glbl. Dim. No.",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "491": {
+      "name": "Delete Invd Blnkt Purch Orders",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "492": {
+      "name": "Copy Purchase Document",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "493": {
+      "name": "Carry Out Action Msg. - Req.",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "496": {
+      "name": "Batch Post Purchase Orders",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "497": {
+      "name": "Batch Post Purchase Invoices",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "498": {
+      "name": "Batch Post Purch. Credit Memos",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "499": {
+      "name": "Delete Invoiced Purch. Orders",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "503": {
+      "name": "Foreign Currency Balance",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "508": {
+      "name": "Change Log Setup List",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "509": {
+      "name": "Change Log Entries",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "510": {
+      "name": "Change Log - Delete",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "511": {
+      "name": "Complete IC Inbox Action",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "512": {
+      "name": "IC Transactions",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "513": {
+      "name": "Move IC Trans. to Partner Comp",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "596": {
+      "name": "Exch. Rate Adjustment",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "597": {
+      "name": "G/L Currency Revaluation",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "600": {
+      "name": "Approval User Setup Test",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "698": {
+      "name": "Get Sales Orders",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "699": {
+      "name": "Calculate Plan - Req. Wksh.",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "30"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "701": {
+      "name": "Inventory - List",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "702": {
+      "name": "Inventory Posting - Test",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "703": {
+      "name": "Item Register - Quantity",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "704": {
+      "name": "Inventory - Transaction Detail",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "705": {
+      "name": "Inventory Availability",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "706": {
+      "name": "Status",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "707": {
+      "name": "Inventory - Availability Plan",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [
+        {
+          "version": "28",
+          "state": "Pending",
+          "tag": "28.0"
+        }
+      ],
+      "removed": null
+    },
+    "708": {
+      "name": "Inventory Order Details",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "709": {
+      "name": "Inventory Purchase Orders",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "711": {
+      "name": "Inventory - Top 10 List",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "712": {
+      "name": "Inventory - Sales Statistics",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "713": {
+      "name": "Inventory - Customer Sales",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "714": {
+      "name": "Inventory - Vendor Purchases",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "715": {
+      "name": "Price List",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "716": {
+      "name": "Inventory Cost and Price List",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "717": {
+      "name": "Inventory - Reorders",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "718": {
+      "name": "Inventory - Sales Back Orders",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "719": {
+      "name": "Inv. Availability Plan",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "720": {
+      "name": "Item/Vendor Catalog",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "721": {
+      "name": "Inventory - Cost Variance",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "722": {
+      "name": "Phys. Inventory List",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "723": {
+      "name": "Item - ABC Analysis",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "740": {
+      "name": "VAT Report Print",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "741": {
+      "name": "VAT Report Suggest Lines",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "742": {
+      "name": "VAT Report Request Page",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "743": {
+      "name": "VAT Reconciliation Report",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "750": {
+      "name": "Save as Standard Gen. Journal",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "751": {
+      "name": "Save as Standard Item Journal",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "752": {
+      "name": "Work Order",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "780": {
+      "name": "Certificate of Supply",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "789": {
+      "name": "Delete Phys. Inventory Ledger",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "790": {
+      "name": "Calculate Inventory",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "794": {
+      "name": "Adjust Item Costs/Prices",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "795": {
+      "name": "Adjust Cost - Item Entries",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "799": {
+      "name": "Delete Empty Item Registers",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "801": {
+      "name": "Assembly BOMs",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "809": {
+      "name": "Where-Used List",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "810": {
+      "name": "Assembly BOM - Raw Materials",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "811": {
+      "name": "Assembly BOM - Subassemblies",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "812": {
+      "name": "Assembly BOM - End Items",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "813": {
+      "name": "Inventory Picking List",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "840": {
+      "name": "Suggest Worksheet Lines",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "846": {
+      "name": "Cash Flow Date List",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "852": {
+      "name": "Cash Flow Dimensions - Detail",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "900": {
+      "name": "Batch Post Assembly Orders",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "901": {
+      "name": "Copy Assembly Document",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "902": {
+      "name": "Assembly Order",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "910": {
+      "name": "Posted Assembly Order",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "915": {
+      "name": "Assemble to Order - Sales",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "950": {
+      "name": "Create Time Sheets",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "951": {
+      "name": "Suggest Res. Jnl. Lines",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "952": {
+      "name": "Suggest Job Jnl. Lines",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29",
+        "30"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "953": {
+      "name": "Move Time Sheets to Archive",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "960": {
+      "name": "Copy Column Layout",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1001": {
+      "name": "Inventory Valuation",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1002": {
+      "name": "Post Inventory Cost to G/L",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1003": {
+      "name": "Post Invt. Cost to G/L - Test",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1004": {
+      "name": "Close Inventory Period - Test",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1005": {
+      "name": "Job Journal - Test",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1006": {
+      "name": "Job - Planning Lines",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1007": {
+      "name": "Job - Transaction Detail",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1008": {
+      "name": "Job Analysis",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1009": {
+      "name": "Job Actual To Budget",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1010": {
+      "name": "Job WIP To G/L",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1011": {
+      "name": "Job Suggested Billing",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1012": {
+      "name": "Jobs per Customer",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1013": {
+      "name": "Items per Job",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1014": {
+      "name": "Jobs per Item",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1015": {
+      "name": "Job Register",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1016": {
+      "name": "Job Quote",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1017": {
+      "name": "Job Task Quote",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1085": {
+      "name": "Job Post WIP to G/L",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1086": {
+      "name": "Job Calculate WIP",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1087": {
+      "name": "Change Job Dates",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1088": {
+      "name": "Job Split Planning Line",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1090": {
+      "name": "Job Calc. Remaining Usage",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1091": {
+      "name": "Job Transfer To Planning Lines",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1092": {
+      "name": "Job Transfer to Credit Memo",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1093": {
+      "name": "Job Create Sales Invoice",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1094": {
+      "name": "Job Transfer to Sales Invoice",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1095": {
+      "name": "Update Job Item Cost",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1101": {
+      "name": "Resource - List",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1102": {
+      "name": "Resource Journal - Test",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1103": {
+      "name": "Resource Register",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1105": {
+      "name": "Resource Statistics",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1106": {
+      "name": "Resource Usage",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1107": {
+      "name": "Resource - Cost Breakdown",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1115": {
+      "name": "Resource - Price List",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1123": {
+      "name": "Cost Acctg. Stmt. per Period",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1125": {
+      "name": "Cost Types Details",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1126": {
+      "name": "Cost Acctg. Statement",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1127": {
+      "name": "Cost Acctg. Analysis",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1128": {
+      "name": "Cost Acctg. Journal",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1129": {
+      "name": "Cost Allocations",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1130": {
+      "name": "Delete Cost Entries",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1131": {
+      "name": "Cost Allocation",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1133": {
+      "name": "Cost Acctg. Statement/Budget",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1134": {
+      "name": "Copy Cost Budget",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1135": {
+      "name": "Copy G/L Budget to Cost Acctg.",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1136": {
+      "name": "Copy Cost Acctg. Budget to G/L",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1137": {
+      "name": "Transfer Budget to Actual",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1138": {
+      "name": "Cost Acctg. Balance/Budget",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1139": {
+      "name": "Delete Cost Budget Entries",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1140": {
+      "name": "Update Cost Acctg. Dimensions",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1141": {
+      "name": "Delete Old Cost Entries",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1142": {
+      "name": "Export Cost Budget to Excel",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1143": {
+      "name": "Import Cost Budget from Excel",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1144": {
+      "name": "Cost Register",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1170": {
+      "name": "User Task Utility",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1191": {
+      "name": "Suggest Res. Price Chg. (Res.)",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1192": {
+      "name": "Suggest Res. Price Chg.(Price)",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1193": {
+      "name": "Implement Res. Price Change",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1195": {
+      "name": "Adjust Resource Costs/Prices",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1198": {
+      "name": "Date Compress Resource Ledger",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1199": {
+      "name": "Delete Empty Res. Registers",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1200": {
+      "name": "Create Direct Debit Collection",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1201": {
+      "name": "Post Direct Debit Collection",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1235": {
+      "name": "Get File Structure",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1252": {
+      "name": "Match Bank Entries",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1301": {
+      "name": "Print ASCII File",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1302": {
+      "name": "Standard Sales - Pro Forma Inv",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1303": {
+      "name": "Standard Sales - Draft Invoice",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1304": {
+      "name": "Standard Sales - Quote",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1305": {
+      "name": "Standard Sales - Order Conf.",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1306": {
+      "name": "Standard Sales - Invoice",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1307": {
+      "name": "Standard Sales - Credit Memo",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1308": {
+      "name": "Standard Sales - Shipment",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1309": {
+      "name": "Standard Sales - Return Rcpt.",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1316": {
+      "name": "Standard Statement",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1320": {
+      "name": "Notification Email",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1322": {
+      "name": "Standard Purchase - Order",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1393": {
+      "name": "Cancel Issued Reminders",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1395": {
+      "name": "Cancel Issued Fin.Charge Memos",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1401": {
+      "name": "Check",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1402": {
+      "name": "Bank Account - List",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1403": {
+      "name": "Bank Account Register",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1404": {
+      "name": "Bank Acc. - Detail Trial Bal.",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1405": {
+      "name": "Bank Account - Labels",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1406": {
+      "name": "Bank Account - Check Details",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1407": {
+      "name": "Bank Account Statement",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1408": {
+      "name": "Bank Acc. Recon. - Test",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1409": {
+      "name": "Posted Payment Reconciliation",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1495": {
+      "name": "Delete Check Ledger Entries",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1496": {
+      "name": "Suggest Bank Acc. Recon. Lines",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1497": {
+      "name": "Trans. Bank Rec. to Gen. Jnl.",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1498": {
+      "name": "Date Compress Bank Acc. Ledger",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1509": {
+      "name": "Send Overdue Appr. Notif.",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1510": {
+      "name": "Copy Workflow",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1511": {
+      "name": "Delegate Approval Requests",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1700": {
+      "name": "Deferral Summary - G/L",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1701": {
+      "name": "Deferral Summary - Sales",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1702": {
+      "name": "Deferral Summary - Purchasing",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1826": {
+      "name": "Consolidation - Test",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "2500": {
+      "name": "Day Book VAT Entry",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "2501": {
+      "name": "Day Book Cust. Ledger Entry",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "2502": {
+      "name": "Day Book Vendor Ledger Entry",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5050": {
+      "name": "Contact - List",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5051": {
+      "name": "Contact - Company Summary",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5053": {
+      "name": "Contact - Person Summary",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5055": {
+      "name": "Contact - Cover Sheet",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5056": {
+      "name": "Contact - Labels",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5057": {
+      "name": "Salesperson - Tasks",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5058": {
+      "name": "Salesperson - Opportunities",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5059": {
+      "name": "Team - Tasks",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5060": {
+      "name": "Campaign - Details",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5061": {
+      "name": "Opportunity - List",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5062": {
+      "name": "Sales Cycle - Analysis",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5063": {
+      "name": "Segment - Contacts",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5064": {
+      "name": "Segment - Cover Sheet",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5065": {
+      "name": "Segment - Labels",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5066": {
+      "name": "Questionnaire - Handouts",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5067": {
+      "name": "Questionnaire - Test",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5068": {
+      "name": "Opportunity - Details",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5084": {
+      "name": "Email Merge",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5085": {
+      "name": "Contact Cover Sheet",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5172": {
+      "name": "Delete Expired Sales Quotes",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5174": {
+      "name": "Archived Blanket Purch. Order",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5176": {
+      "name": "Archived Blanket Sales Order",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5181": {
+      "name": "Relocate Attachments",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5182": {
+      "name": "Delete Opportunities",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5183": {
+      "name": "Resend Attachments",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5184": {
+      "name": "Apply Mailing Group",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5185": {
+      "name": "Log Segment",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5186": {
+      "name": "Remove Contacts",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5187": {
+      "name": "Generate Dupl. Search String",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5188": {
+      "name": "Delete Tasks",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5189": {
+      "name": "Delete Campaign Entries",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5190": {
+      "name": "Delete Interaction Log Entries",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5191": {
+      "name": "Delete Logged Segments",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5193": {
+      "name": "Create Conts. from Bank Accs.",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5194": {
+      "name": "Create Conts. from Vendors",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5195": {
+      "name": "Create Conts. from Customers",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5196": {
+      "name": "Remove Contacts - Refine",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5197": {
+      "name": "Remove Contacts - Reduce",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5198": {
+      "name": "Add Contacts",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5199": {
+      "name": "Update Contact Classification",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5200": {
+      "name": "Employee - Labels",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5201": {
+      "name": "Employee - List",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5202": {
+      "name": "Employee - Misc. Article Info.",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5203": {
+      "name": "Employee - Confidential Info.",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5204": {
+      "name": "Employee - Staff Absences",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5205": {
+      "name": "Employee - Absences by Causes",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5206": {
+      "name": "Employee - Qualifications",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5207": {
+      "name": "Employee - Addresses",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5208": {
+      "name": "Employee - Relatives",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5209": {
+      "name": "Employee - Birthdays",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5210": {
+      "name": "Employee - Phone Nos.",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5211": {
+      "name": "Employee - Unions",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5212": {
+      "name": "Employee - Contracts",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5213": {
+      "name": "Employee - Alt. Addresses",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5405": {
+      "name": "Calc. Consumption",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5500": {
+      "name": "Prod. Order Comp. and Routing",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5600": {
+      "name": "Fixed Asset - Analysis",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [
+        {
+          "version": "28",
+          "state": "Pending",
+          "tag": "28.0"
+        }
+      ],
+      "removed": null
+    },
+    "5601": {
+      "name": "Fixed Asset - List",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5602": {
+      "name": "Fixed Asset Journal - Test",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5603": {
+      "name": "Fixed Asset Register",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5604": {
+      "name": "Fixed Asset - Details",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [
+        {
+          "version": "28",
+          "state": "Pending",
+          "tag": "28.0"
+        }
+      ],
+      "removed": null
+    },
+    "5605": {
+      "name": "Fixed Asset - Book Value 01",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5606": {
+      "name": "Fixed Asset - Book Value 02",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5607": {
+      "name": "Fixed Asset - Projected Value",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [
+        {
+          "version": "28",
+          "state": "Pending",
+          "tag": "28.0"
+        }
+      ],
+      "removed": null
+    },
+    "5608": {
+      "name": "Fixed Asset - Acquisition List",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5610": {
+      "name": "Fixed Asset - G/L Analysis",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5611": {
+      "name": "FA Posting Group - Net Change",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5620": {
+      "name": "Insurance - Analysis",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5621": {
+      "name": "Insurance - List",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5622": {
+      "name": "Insurance Journal - Test",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5623": {
+      "name": "Insurance Register",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5624": {
+      "name": "Insurance - Coverage Details",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5625": {
+      "name": "Insurance - Tot. Value Insured",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5626": {
+      "name": "Insurance - Uninsured FAs",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5630": {
+      "name": "Maintenance - Analysis",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5633": {
+      "name": "Maintenance Register",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5634": {
+      "name": "Maintenance - Details",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5635": {
+      "name": "Maintenance - Next Service",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5636": {
+      "name": "Fixed Asset Document Nos.",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5683": {
+      "name": "Create Sum of Digits Table",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5684": {
+      "name": "Copy FA Entries to G/L Budget",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5685": {
+      "name": "Copy Fixed Asset",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5686": {
+      "name": "Cancel FA Entries",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5687": {
+      "name": "Copy Depreciation Book",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5688": {
+      "name": "Cancel FA Ledger Entries",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5689": {
+      "name": "Create FA Depreciation Books",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5690": {
+      "name": "Index Fixed Assets",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5691": {
+      "name": "Index Insurance",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5692": {
+      "name": "Calculate Depreciation",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5693": {
+      "name": "Delete Empty FA Registers",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5695": {
+      "name": "Delete Empty Insurance Reg.",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5696": {
+      "name": "Date Compress FA Ledger",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5697": {
+      "name": "Date Compress Insurance Ledger",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5698": {
+      "name": "Date Compress Maint. Ledger",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5700": {
+      "name": "Catalog Item Sales",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5701": {
+      "name": "Item Substitutions",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5702": {
+      "name": "Inventory - Inbound Transfer",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5703": {
+      "name": "Transfer Order",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5704": {
+      "name": "Transfer Shipment",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5705": {
+      "name": "Transfer Receipt",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5706": {
+      "name": "Create Stockkeeping Unit",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5707": {
+      "name": "Batch Post Transfer Orders",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5708": {
+      "name": "Create Warehouse Shipment",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5751": {
+      "name": "Put-away List",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5752": {
+      "name": "Picking List",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5753": {
+      "name": "Get Source Documents",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5754": {
+      "name": "Create Pick",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5755": {
+      "name": "Delete Registered Whse. Docs.",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5756": {
+      "name": "Create Warehouse Location",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5757": {
+      "name": "Items with Negative Inventory",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [
+        {
+          "version": "28",
+          "state": "Pending",
+          "tag": "28.0"
+        }
+      ],
+      "removed": null
+    },
+    "5800": {
+      "name": "Delete Item Data",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5801": {
+      "name": "Invt. Valuation - Cost Spec.",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5802": {
+      "name": "Inventory Valuation - WIP",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5803": {
+      "name": "Reset Cost Is Adjusted",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5804": {
+      "name": "Adjust Cost - Item Buckets",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5805": {
+      "name": "Item Register - Value",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5806": {
+      "name": "Item Charges - Specification",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5807": {
+      "name": "Item Age Composition - Qty.",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [
+        {
+          "version": "28",
+          "state": "Pending",
+          "tag": "28.0"
+        }
+      ],
+      "removed": null
+    },
+    "5808": {
+      "name": "Item Age Composition - Value",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5809": {
+      "name": "Item Expiration - Quantity",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5810": {
+      "name": "Costing Errors Detection",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5811": {
+      "name": "Calc. Inventory Value - Test",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5812": {
+      "name": "Revaluation Posting - Test",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5848": {
+      "name": "Cost Shares Breakdown",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5850": {
+      "name": "Copy Invt. Document",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5851": {
+      "name": "Suggest Item Standard Cost",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5852": {
+      "name": "Suggest Capacity Standard Cost",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5853": {
+      "name": "Copy Standard Cost Worksheet",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5854": {
+      "name": "Roll Up Standard Cost",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5855": {
+      "name": "Implement Standard Cost Change",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5871": {
+      "name": "Item - Able to Make (Timeline)",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "30"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5872": {
+      "name": "BOM Cost Share Distribution",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5875": {
+      "name": "Phys. Invt. Order Diff. List",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5876": {
+      "name": "Posted Phys. Invt. Order Diff.",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5877": {
+      "name": "Phys. Invt. Order - Test",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5878": {
+      "name": "Phys. Invt. Recording",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5879": {
+      "name": "Posted Phys. Invt. Recording",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5880": {
+      "name": "Calc. Phys. Invt. Order Lines",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5881": {
+      "name": "Make Phys. Invt. Recording",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5882": {
+      "name": "Copy Phys. Invt. Order",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5883": {
+      "name": "Copy Phys. Invt. Recording",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5884": {
+      "name": "Calc. Phys. Invt. Order Count",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5885": {
+      "name": "Calc. Phys. Invt. Order (Bins)",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5899": {
+      "name": "Calculate Inventory Value",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5900": {
+      "name": "Service Order",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5901": {
+      "name": "Service Item Line Labels",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5902": {
+      "name": "Service Quote",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5904": {
+      "name": "Service Tasks",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5908": {
+      "name": "Service Order - Response Time",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5909": {
+      "name": "Service Profit (Resp. Centers)",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5910": {
+      "name": "Service Profit (Serv. Orders)",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5911": {
+      "name": "Service - Invoice",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5912": {
+      "name": "Service - Credit Memo",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5913": {
+      "name": "Service - Shipment",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5914": {
+      "name": "Delete Invoiced Service Orders",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5915": {
+      "name": "Service Document - Test",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5916": {
+      "name": "Service Certificate of Supply",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5935": {
+      "name": "Service Items",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5936": {
+      "name": "Service Item Worksheet",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5937": {
+      "name": "Service Items Out of Warranty",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5938": {
+      "name": "Service Profit (Service Items)",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5939": {
+      "name": "Service Item - Resource Usage",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5955": {
+      "name": "Dispatch Board",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5956": {
+      "name": "Service Load Level",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5970": {
+      "name": "Service Contract",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5971": {
+      "name": "Service Contract-Detail",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5972": {
+      "name": "Service Contract Quote",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5973": {
+      "name": "Service Contract Quote-Detail",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5974": {
+      "name": "Contract Quotes to Be Signed",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5976": {
+      "name": "Service Profit (Contracts)",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5977": {
+      "name": "Service Contract - Customer",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5978": {
+      "name": "Serv. Contract - Salesperson",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5979": {
+      "name": "Copy Service Document",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5980": {
+      "name": "Maintenance Visit - Planning",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5981": {
+      "name": "Contr. Gain/Loss - Resp. Ctr.",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5982": {
+      "name": "Maintenance Performance",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5983": {
+      "name": "Contract Gain/Loss Entries",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5984": {
+      "name": "Contract Invoicing",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5985": {
+      "name": "Contract Price Update - Test",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5986": {
+      "name": "Prepaid Contr. Entries - Test",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5987": {
+      "name": "Expired Contract Lines - Test",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5988": {
+      "name": "Contr. Serv. Orders - Test",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "6001": {
+      "name": "Batch Post Service Orders",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "6002": {
+      "name": "Delete Service Document Log",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "6004": {
+      "name": "Batch Post Service Invoices",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "6005": {
+      "name": "Batch Post Service Cr. Memos",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "6006": {
+      "name": "Delete Service Email Queue",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "6007": {
+      "name": "Insert Fault/Resol. Relations",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "6010": {
+      "name": "Delete Service Item Log",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "6030": {
+      "name": "Create Contract Invoices",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "6031": {
+      "name": "Update Contract Prices",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "6032": {
+      "name": "Post Prepaid Contract Entries",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "6033": {
+      "name": "Get Prepaid Contract Entries",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "6034": {
+      "name": "Remove Lines from Contract",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "6035": {
+      "name": "Upd. Disc.% on Contract",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "6036": {
+      "name": "Create Contract Service Orders",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "6037": {
+      "name": "Change Customer in Contract",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "6080": {
+      "name": "Serv. Pricing Profitability",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "6250": {
+      "name": "Auto Posting Errors",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "6520": {
+      "name": "Item Tracing Specification",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "6521": {
+      "name": "Item Tracking Appendix",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "6529": {
+      "name": "Item Tracking Navigate",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "6562": {
+      "name": "Calc. Invt. Doc. Whse. Adjmt.",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "6625": {
+      "name": "Item GTIN Label",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "6626": {
+      "name": "Reference No Label",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "6627": {
+      "name": "SN Label",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "6628": {
+      "name": "Lot No Label",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "6631": {
+      "name": "Return Order Confirmation",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "6636": {
+      "name": "Purchase - Return Shipment",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "6641": {
+      "name": "Return Order",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "6646": {
+      "name": "Sales - Return Receipt",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "6651": {
+      "name": "Delete Invd Sales Ret. Orders",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "6653": {
+      "name": "Combine Return Receipts",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "6655": {
+      "name": "Batch Post Sales Return Orders",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "6661": {
+      "name": "Delete Invd Purch. Ret. Orders",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "6665": {
+      "name": "Batch Post Purch. Ret. Orders",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "6697": {
+      "name": "Create Ret.-Related Documents",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "6698": {
+      "name": "Move Negative Purchase Lines",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "6699": {
+      "name": "Move Negative Sales Lines",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "6850": {
+      "name": "Spend Request Document",
+      "versions": [
+        "29",
+        "30"
+      ],
+      "introduced": "29",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7050": {
+      "name": "Item Price List",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7051": {
+      "name": "Suggest Item Price on Wksh.",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7052": {
+      "name": "Suggest Sales Price on Wksh.",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7053": {
+      "name": "Implement Price Change",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7054": {
+      "name": "Res. Price List",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7110": {
+      "name": "Renumber Analysis Lines",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7112": {
+      "name": "Analysis Report",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7113": {
+      "name": "Export Analysis Rep. to Excel",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7114": {
+      "name": "Run Sales Analysis Line Templ.",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7115": {
+      "name": "Run Purch. Analysis Line Temp.",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7116": {
+      "name": "Run Invt. Analysis Line Temp.",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7117": {
+      "name": "Run Sales Analysis Col. Temp.",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7118": {
+      "name": "Run Purch. Analysis Col. Temp.",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7119": {
+      "name": "Run Invt. Analysis Col. Temp.",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7130": {
+      "name": "Item Budget",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7131": {
+      "name": "Import Item Budget from Excel",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7132": {
+      "name": "Export Item Budget to Excel",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7139": {
+      "name": "Date Comp. Item Budget Entries",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7150": {
+      "name": "Item Dimensions - Detail",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7151": {
+      "name": "Item Dimensions - Total",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7300": {
+      "name": "Calculate Bin Replenishment",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7301": {
+      "name": "Movement List",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7302": {
+      "name": "Whse. Invt.-Registering - Test",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7303": {
+      "name": "Warehouse Register - Quantity",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7304": {
+      "name": "Get Outbound Source Documents",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7305": {
+      "name": "Whse.-Source - Create Document",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7306": {
+      "name": "Get Inbound Source Documents",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7307": {
+      "name": "Whse. Phys. Inventory List",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7308": {
+      "name": "Whse. - Posted Receipt",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7309": {
+      "name": "Whse. - Posted Shipment",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7310": {
+      "name": "Calculate Bins",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7311": {
+      "name": "Bin Creation Wksh. Report",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7312": {
+      "name": "Bin Content Create Wksh Report",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7313": {
+      "name": "Whse. Shipment Status",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7314": {
+      "name": "Whse. Change Unit of Measure",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7315": {
+      "name": "Calculate Whse. Adjustment",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7316": {
+      "name": "Whse. - Receipt",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7317": {
+      "name": "Whse. - Shipment",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7318": {
+      "name": "Whse.-Shipment - Create Pick",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7319": {
+      "name": "Warehouse Bin List",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7320": {
+      "name": "Whse. Adjustment Bin",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7321": {
+      "name": "Inventory Movement",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7322": {
+      "name": "Inventory Put-away List",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7323": {
+      "name": "Create Invt Put-away/Pick/Mvmt",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7380": {
+      "name": "Calculate Phys. Invt. Counting",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7390": {
+      "name": "Whse. Calculate Inventory",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7391": {
+      "name": "Whse. Get Bin Content",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "30"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7398": {
+      "name": "Date Compress Whse. Entries",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7399": {
+      "name": "Delete Empty Whse. Registers",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "8313": {
+      "name": "Get License Permissions",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "8360": {
+      "name": "Financial Report Export Email",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "8371": {
+      "name": "Fin. Rep. Package Export Email",
+      "versions": [
+        "29",
+        "30"
+      ],
+      "introduced": "29",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "8610": {
+      "name": "Create G/L Acc. Journal Lines",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "8611": {
+      "name": "Create Customer Journal Lines",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "8612": {
+      "name": "Create Vendor Journal Lines",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "8613": {
+      "name": "Create Item Journal Lines",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "8614": {
+      "name": "Get Config. Tables",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "8615": {
+      "name": "Copy Package",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "8616": {
+      "name": "Get Package Tables",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "8621": {
+      "name": "Config. Package - Process",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "9000": {
+      "name": "Add/Subtract Permission Set",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "9091": {
+      "name": "Combine Service Shipments",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "9200": {
+      "name": "Void/Transmit Elec. Pmnts",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "9802": {
+      "name": "Copy Permission Set",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "9810": {
+      "name": "Change Password",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "99000753": {
+      "name": "Quantity Explosion of BOM",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "99000754": {
+      "name": "Rolled-up Cost Shares",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "99000755": {
+      "name": "Single-level Cost Shares",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "99000756": {
+      "name": "Detailed Calculation",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "99000757": {
+      "name": "Where-Used (Top Level)",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "99000758": {
+      "name": "Compare List",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [
+        {
+          "version": "28",
+          "state": "Pending",
+          "tag": "27.0"
+        }
+      ],
+      "removed": null
+    },
+    "99000759": {
+      "name": "Work Center List",
+      "versions": [
+        "28"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [
+        {
+          "version": "28",
+          "state": "Pending",
+          "tag": "26.0"
+        }
+      ],
+      "removed": "29"
+    },
+    "99000760": {
+      "name": "Machine Center List",
+      "versions": [
+        "28"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [
+        {
+          "version": "28",
+          "state": "Pending",
+          "tag": "26.0"
+        }
+      ],
+      "removed": "29"
+    },
+    "99000761": {
+      "name": "Prod. Order - Routing List",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "99000762": {
+      "name": "Prod. Order - Job Card",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "99000763": {
+      "name": "Prod. Order - List",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "99000764": {
+      "name": "Prod. Order - Precalc. Time",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "99000765": {
+      "name": "Prod. Order - Mat. Requisition",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "99000766": {
+      "name": "Prod. Order - Picking List",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "99000767": {
+      "name": "Prod. Order - Calculation",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [
+        {
+          "version": "28",
+          "state": "Pending",
+          "tag": "27.0"
+        }
+      ],
+      "removed": null
+    },
+    "99000768": {
+      "name": "Prod. Order - Detailed Calc.",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "99000769": {
+      "name": "Output Item Label",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "99000780": {
+      "name": "Capacity Task List",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "99000783": {
+      "name": "Work Center Load",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [
+        {
+          "version": "28",
+          "state": "Pending",
+          "tag": "27.0"
+        }
+      ],
+      "removed": null
+    },
+    "99000784": {
+      "name": "Machine Center Load",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [
+        {
+          "version": "28",
+          "state": "Pending",
+          "tag": "27.0"
+        }
+      ],
+      "removed": null
+    },
+    "99000785": {
+      "name": "Work Center Load/Bar",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [
+        {
+          "version": "28",
+          "state": "Pending",
+          "tag": "27.0"
+        }
+      ],
+      "removed": null
+    },
+    "99000786": {
+      "name": "Machine Center Load/Bar",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [
+        {
+          "version": "28",
+          "state": "Pending",
+          "tag": "27.0"
+        }
+      ],
+      "removed": null
+    },
+    "99000787": {
+      "name": "Routing Sheet",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "99000788": {
+      "name": "Prod. Order - Shortage List",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "99000789": {
+      "name": "Subcontractor - Dispatch List",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "99000791": {
+      "name": "Production Order Statistics",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "99000792": {
+      "name": "Work/Machine Center Load",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "99000794": {
+      "name": "Compare Production Cost Shares",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "99001014": {
+      "name": "Update Unit Cost",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "99001015": {
+      "name": "Calculate Subcontracts",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [
+        {
+          "version": "28",
+          "state": "Pending",
+          "tag": "28.0"
+        }
+      ],
+      "removed": null
+    },
+    "99001017": {
+      "name": "Calculate Plan - Plan. Wksh.",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "99001020": {
+      "name": "Carry Out Action Msg. - Plan.",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29",
+        "30"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "99001021": {
+      "name": "Refresh Planning Demand",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "99001023": {
+      "name": "Get Action Messages",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "30"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "99001025": {
+      "name": "Refresh Production Order",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "99001026": {
+      "name": "Replan Production Order",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "99001041": {
+      "name": "Delete Expired Components",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "99001043": {
+      "name": "Exchange Production BOM Item",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "99001045": {
+      "name": "Calc. Machine Center Calendar",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "99001046": {
+      "name": "Calculate Work Center Calendar",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "99001047": {
+      "name": "Recalculate Calendar",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "99001048": {
+      "name": "Planning Availability",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [
+        {
+          "version": "28",
+          "state": "Pending",
+          "tag": "27.0"
+        }
+      ],
+      "removed": null
+    },
+    "99003800": {
+      "name": "Reg. Abs. (from Machine Ctr.)",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "99003801": {
+      "name": "Implement Registered Absence",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "99003802": {
+      "name": "Copy Production Order Document",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "99003803": {
+      "name": "Copy Production Forecast",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "99003804": {
+      "name": "Demand Forecast",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [
+        {
+          "version": "28",
+          "state": "Pending",
+          "tag": "27.0"
+        }
+      ],
+      "removed": null
+    },
+    "99003805": {
+      "name": "Reg. Abs. (from Work Center)",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    }
+  }
+}

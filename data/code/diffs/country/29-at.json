@@ -1,0 +1,5098 @@
+{
+  "inputs": [
+    "d7c9c667c671da2cda3a0738b18ed99ca4181765",
+    "d7c9c667c671da2cda3a0738b18ed99ca4181765",
+    "1",
+    []
+  ],
+  "schema": "al-diff@1",
+  "kind": "country",
+  "from": {
+    "version": "29",
+    "country": "w1",
+    "commit": "d7c9c667c671da2cda3a0738b18ed99ca4181765"
+  },
+  "to": {
+    "version": "29",
+    "country": "at",
+    "commit": "d7c9c667c671da2cda3a0738b18ed99ca4181765"
+  },
+  "summary": {
+    "objects": 172,
+    "by_change": {
+      "replaced": {
+        "codeunit": 8,
+        "page": 3,
+        "permissionset": 2,
+        "report": 2,
+        "table": 30,
+        "xmlport": 2
+      },
+      "added": {
+        "codeunit": 16,
+        "enum": 2,
+        "enumextension": 2,
+        "page": 26,
+        "pageextension": 9,
+        "permissionsetextension": 2,
+        "report": 25,
+        "table": 38,
+        "tableextension": 5
+      }
+    },
+    "fields_added": 138,
+    "events_added": 3,
+    "procedures_added": 25,
+    "objects_obsoleted": 1
+  },
+  "objects": [
+    {
+      "key": "codeunit/2",
+      "name": "Company-Initialize",
+      "change": "replaced",
+      "procedures": [
+        {
+          "id": "getsepactapc09code()",
+          "name": "GetSEPACTAPC09Code",
+          "change": "added",
+          "to": {
+            "scope": "global",
+            "params": [],
+            "returns": "Code[20]",
+            "event": null,
+            "obsolete": null,
+            "subscribes_to": null,
+            "attributes": []
+          }
+        },
+        {
+          "id": "getsepactapc09name()",
+          "name": "GetSEPACTAPC09Name",
+          "change": "added",
+          "to": {
+            "scope": "global",
+            "params": [],
+            "returns": "Text[100]",
+            "event": null,
+            "obsolete": null,
+            "subscribes_to": null,
+            "attributes": []
+          }
+        }
+      ]
+    },
+    {
+      "key": "codeunit/13",
+      "name": "Gen. Jnl.-Post Batch",
+      "change": "replaced",
+      "procedures": [
+        {
+          "id": "checkcorrection(record \"gen. journal line\",boolean,boolean,record \"gen. journal line\")",
+          "name": "CheckCorrection",
+          "change": "added",
+          "to": {
+            "scope": "local",
+            "params": [
+              {
+                "name": "GenJournalLine",
+                "type": "Record \"Gen. Journal Line\"",
+                "var": false
+              },
+              {
+                "name": "PaymentApplication",
+                "type": "Boolean",
+                "var": true
+              },
+              {
+                "name": "PaymentBalanceVAT",
+                "type": "Boolean",
+                "var": true
+              },
+              {
+                "name": "LastGenJournalLine",
+                "type": "Record \"Gen. Journal Line\"",
+                "var": false
+              }
+            ],
+            "returns": null,
+            "event": null,
+            "obsolete": null,
+            "subscribes_to": null,
+            "attributes": []
+          }
+        },
+        {
+          "id": "getgenjnllineparameters(boolean,boolean,record \"gen. journal line\")",
+          "name": "GetGenJnlLineParameters",
+          "change": "added",
+          "to": {
+            "scope": "local",
+            "params": [
+              {
+                "name": "PaymentApplication",
+                "type": "Boolean",
+                "var": true
+              },
+              {
+                "name": "PaymentBalanceVAT",
+                "type": "Boolean",
+                "var": true
+              },
+              {
+                "name": "GenJnlLine",
+                "type": "Record \"Gen. Journal Line\"",
+                "var": false
+              }
+            ],
+            "returns": null,
+            "event": null,
+            "obsolete": null,
+            "subscribes_to": null,
+            "attributes": []
+          }
+        },
+        {
+          "id": "checkpmtapplnallowed(boolean,boolean,record \"gen. journal line\")",
+          "name": "CheckPmtApplnAllowed",
+          "change": "added",
+          "to": {
+            "scope": "local",
+            "params": [
+              {
+                "name": "PaymentApplication",
+                "type": "Boolean",
+                "var": true
+              },
+              {
+                "name": "PaymentBalanceVAT",
+                "type": "Boolean",
+                "var": true
+              },
+              {
+                "name": "GenJournalLine",
+                "type": "Record \"Gen. Journal Line\"",
+                "var": false
+              }
+            ],
+            "returns": null,
+            "event": null,
+            "obsolete": null,
+            "subscribes_to": null,
+            "attributes": []
+          }
+        },
+        {
+          "id": "ispaymentapplication(record \"gen. journal line\")",
+          "name": "IsPaymentApplication",
+          "change": "added",
+          "to": {
+            "scope": "local",
+            "params": [
+              {
+                "name": "GenJnlLine",
+                "type": "Record \"Gen. Journal Line\"",
+                "var": false
+              }
+            ],
+            "returns": "Boolean",
+            "event": null,
+            "obsolete": null,
+            "subscribes_to": null,
+            "attributes": []
+          }
+        },
+        {
+          "id": "ispaymentbalancevat(record \"gen. journal line\")",
+          "name": "IsPaymentBalanceVAT",
+          "change": "added",
+          "to": {
+            "scope": "local",
+            "params": [
+              {
+                "name": "GenJnlLine",
+                "type": "Record \"Gen. Journal Line\"",
+                "var": false
+              }
+            ],
+            "returns": "Boolean",
+            "event": null,
+            "obsolete": null,
+            "subscribes_to": null,
+            "attributes": []
+          }
+        },
+        {
+          "id": "checkcorrection(record \"gen. journal line\")",
+          "name": "CheckCorrection",
+          "change": "removed",
+          "from": {
+            "scope": "local",
+            "params": [
+              {
+                "name": "GenJournalLine",
+                "type": "Record \"Gen. Journal Line\"",
+                "var": false
+              }
+            ],
+            "returns": null,
+            "event": null,
+            "obsolete": null,
+            "subscribes_to": null,
+            "attributes": []
+          }
+        }
+      ],
+      "events": [
+        {
+          "id": "onbeforecheckpmtapplnallowed(boolean,boolean,record \"gen. journal line\",boolean)",
+          "name": "OnBeforeCheckPmtApplnAllowed",
+          "change": "added",
+          "to": {
+            "scope": "local",
+            "params": [
+              {
+                "name": "PaymentApplication",
+                "type": "Boolean",
+                "var": true
+              },
+              {
+                "name": "PaymentBalanceVAT",
+                "type": "Boolean",
+                "var": true
+              },
+              {
+                "name": "GenJournalLine",
+                "type": "Record \"Gen. Journal Line\"",
+                "var": false
+              },
+              {
+                "name": "IsHandled",
+                "type": "Boolean",
+                "var": true
+              }
+            ],
+            "returns": null,
+            "event": "integration",
+            "obsolete": null,
+            "subscribes_to": null,
+            "attributes": [
+              {
+                "name": "IntegrationEvent",
+                "args": [
+                  "false",
+                  "false"
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "codeunit/229",
+      "name": "Document-Print",
+      "change": "replaced",
+      "procedures": [
+        {
+          "id": "printsalesvatadvnotaccproof(record \"vat statement name\")",
+          "name": "PrintSalesVATAdvNotAccProof",
+          "change": "added",
+          "to": {
+            "scope": "global",
+            "params": [
+              {
+                "name": "VATStatementName",
+                "type": "Record \"VAT Statement Name\"",
+                "var": false
+              }
+            ],
+            "returns": null,
+            "event": null,
+            "obsolete": null,
+            "subscribes_to": null,
+            "attributes": []
+          }
+        },
+        {
+          "id": "printvatstatementschedule(record \"vat statement name\")",
+          "name": "PrintVATStatementSchedule",
+          "change": "added",
+          "to": {
+            "scope": "global",
+            "params": [
+              {
+                "name": "VATStatementName",
+                "type": "Record \"VAT Statement Name\"",
+                "var": false
+              }
+            ],
+            "returns": null,
+            "event": null,
+            "obsolete": null,
+            "subscribes_to": null,
+            "attributes": []
+          }
+        }
+      ]
+    },
+    {
+      "key": "codeunit/355",
+      "name": "Local Navigate Handler",
+      "change": "added"
+    },
+    {
+      "key": "codeunit/365",
+      "name": "Format Address",
+      "change": "replaced",
+      "procedures": [
+        {
+          "id": "taxoffice(array[8] of text[100],record \"company information\")",
+          "name": "TaxOffice",
+          "change": "added",
+          "to": {
+            "scope": "global",
+            "params": [
+              {
+                "name": "AddrArray",
+                "type": "array[8] of Text[100]",
+                "var": true
+              },
+              {
+                "name": "CompanyInfo",
+                "type": "Record \"Company Information\"",
+                "var": true
+              }
+            ],
+            "returns": null,
+            "event": null,
+            "obsolete": null,
+            "subscribes_to": null,
+            "attributes": [
+              {
+                "name": "Scope",
+                "args": [
+                  "'OnPrem'"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "setcountytextfordach(text[50],text[50],code[10])",
+          "name": "SetCountyTextForDACH",
+          "change": "added",
+          "to": {
+            "scope": "local",
+            "params": [
+              {
+                "name": "CountyText",
+                "type": "Text[50]",
+                "var": true
+              },
+              {
+                "name": "County",
+                "type": "Text[50]",
+                "var": false
+              },
+              {
+                "name": "CountryCode",
+                "type": "Code[10]",
+                "var": false
+              }
+            ],
+            "returns": null,
+            "event": null,
+            "obsolete": null,
+            "subscribes_to": null,
+            "attributes": []
+          }
+        }
+      ]
+    },
+    {
+      "key": "codeunit/597",
+      "name": "Exch. Rate Adjmt. Subscribers",
+      "change": "replaced",
+      "procedures": [
+        {
+          "id": "onafteradjustcustomerledgerentryonaftercalcadjmtamount(record \"cust. ledger entry\",record \"exch. rate adjmt. parameters\",decimal,boolean,boolean)",
+          "name": "OnAfterAdjustCustomerLedgerEntryOnAfterCalcAdjmtAmount",
+          "change": "added",
+          "to": {
+            "scope": "local",
+            "params": [
+              {
+                "name": "CustLedgerEntry",
+                "type": "Record \"Cust. Ledger Entry\"",
+                "var": false
+              },
+              {
+                "name": "ExchRateAdjmtParameters",
+                "type": "Record \"Exch. Rate Adjmt. Parameters\"",
+                "var": false
+              },
+              {
+                "name": "AdjmtAmount",
+                "type": "Decimal",
+                "var": false
+              },
+              {
+                "name": "Application",
+                "type": "Boolean",
+                "var": false
+              },
+              {
+                "name": "ShouldExit",
+                "type": "Boolean",
+                "var": true
+              }
+            ],
+            "returns": null,
+            "event": "subscriber",
+            "obsolete": null,
+            "subscribes_to": {
+              "object_type": "Codeunit",
+              "object_name": "Exch. Rate Adjmt. Process",
+              "event": "OnAfterAdjustCustomerLedgerEntryOnAfterCalcAdjmtAmount",
+              "element": null
+            },
+            "attributes": [
+              {
+                "name": "EventSubscriber",
+                "args": [
+                  "ObjectType::Codeunit",
+                  "Codeunit::\"Exch. Rate Adjmt. Process\"",
+                  "'OnAfterAdjustCustomerLedgerEntryOnAfterCalcAdjmtAmount'",
+                  "''",
+                  "false",
+                  "false"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "onafteradjustvendorledgerentryonaftercalcadjmtamount(record \"vendor ledger entry\",record \"exch. rate adjmt. parameters\",decimal,boolean,boolean)",
+          "name": "OnAfterAdjustVendorLedgerEntryOnAfterCalcAdjmtAmount",
+          "change": "added",
+          "to": {
+            "scope": "local",
+            "params": [
+              {
+                "name": "VendLedgerEntry",
+                "type": "Record \"Vendor Ledger Entry\"",
+                "var": false
+              },
+              {
+                "name": "ExchRateAdjmtParameters",
+                "type": "Record \"Exch. Rate Adjmt. Parameters\"",
+                "var": false
+              },
+              {
+                "name": "AdjmtAmount",
+                "type": "Decimal",
+                "var": false
+              },
+              {
+                "name": "Application",
+                "type": "Boolean",
+                "var": false
+              },
+              {
+                "name": "ShouldExit",
+                "type": "Boolean",
+                "var": true
+              }
+            ],
+            "returns": null,
+            "event": "subscriber",
+            "obsolete": null,
+            "subscribes_to": {
+              "object_type": "Codeunit",
+              "object_name": "Exch. Rate Adjmt. Process",
+              "event": "OnAfterAdjustVendorLedgerEntryOnAfterCalcAdjmtAmount",
+              "element": null
+            },
+            "attributes": [
+              {
+                "name": "EventSubscriber",
+                "args": [
+                  "ObjectType::Codeunit",
+                  "Codeunit::\"Exch. Rate Adjmt. Process\"",
+                  "'OnAfterAdjustVendorLedgerEntryOnAfterCalcAdjmtAmount'",
+                  "''",
+                  "false",
+                  "false"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "calculatebilmog(decimal,decimal,decimal,date,date)",
+          "name": "CalculateBilMoG",
+          "change": "added",
+          "to": {
+            "scope": "local",
+            "params": [
+              {
+                "name": "AdjAmt2",
+                "type": "Decimal",
+                "var": true
+              },
+              {
+                "name": "RemAmtLCY",
+                "type": "Decimal",
+                "var": false
+              },
+              {
+                "name": "OrigRemAmtLCY",
+                "type": "Decimal",
+                "var": false
+              },
+              {
+                "name": "DueDate",
+                "type": "Date",
+                "var": false
+              },
+              {
+                "name": "DueDateTo",
+                "type": "Date",
+                "var": false
+              }
+            ],
+            "returns": "Boolean",
+            "event": null,
+            "obsolete": null,
+            "subscribes_to": null,
+            "attributes": []
+          }
+        },
+        {
+          "id": "custcalcremorigamtlcy(record \"cust. ledger entry\",date)",
+          "name": "CustCalcRemOrigAmtLCY",
+          "change": "added",
+          "to": {
+            "scope": "local",
+            "params": [
+              {
+                "name": "CustLedgEntry2",
+                "type": "Record \"Cust. Ledger Entry\"",
+                "var": false
+              },
+              {
+                "name": "PostingDate",
+                "type": "Date",
+                "var": false
+              }
+            ],
+            "returns": "Decimal",
+            "event": null,
+            "obsolete": null,
+            "subscribes_to": null,
+            "attributes": []
+          }
+        },
+        {
+          "id": "vendcalcremorigamtlcy(record \"vendor ledger entry\",date)",
+          "name": "VendCalcRemOrigAmtLCY",
+          "change": "added",
+          "to": {
+            "scope": "local",
+            "params": [
+              {
+                "name": "VendLedgEntry2",
+                "type": "Record \"Vendor Ledger Entry\"",
+                "var": false
+              },
+              {
+                "name": "PostingDate",
+                "type": "Date",
+                "var": false
+              }
+            ],
+            "returns": "Decimal",
+            "event": null,
+            "obsolete": null,
+            "subscribes_to": null,
+            "attributes": []
+          }
+        }
+      ]
+    },
+    {
+      "key": "codeunit/1883",
+      "name": "Sandbox Cleanup local",
+      "change": "added"
+    },
+    {
+      "key": "codeunit/1901",
+      "name": "Report Selection Mgt.",
+      "change": "replaced",
+      "procedures": [
+        {
+          "id": "initdachreportselection()",
+          "name": "InitDACHReportSelection",
+          "change": "added",
+          "to": {
+            "scope": "global",
+            "params": [],
+            "returns": null,
+            "event": null,
+            "obsolete": null,
+            "subscribes_to": null,
+            "attributes": []
+          }
+        }
+      ]
+    },
+    {
+      "key": "codeunit/5626",
+      "name": "FA General Report",
+      "change": "replaced",
+      "procedures": [
+        {
+          "id": "setexclreclentries(boolean)",
+          "name": "SetExclReclEntries",
+          "change": "added",
+          "to": {
+            "scope": "global",
+            "params": [
+              {
+                "name": "ExclReclEntries1",
+                "type": "Boolean",
+                "var": false
+              }
+            ],
+            "returns": null,
+            "event": null,
+            "obsolete": null,
+            "subscribes_to": null,
+            "attributes": []
+          }
+        }
+      ]
+    },
+    {
+      "key": "codeunit/9997",
+      "name": "Upgrade Tag Def - Country",
+      "change": "added"
+    },
+    {
+      "key": "codeunit/11000",
+      "name": "Data Export Management",
+      "change": "added"
+    },
+    {
+      "key": "codeunit/11004",
+      "name": "Report Sel. Purch. Subscribers",
+      "change": "added"
+    },
+    {
+      "key": "codeunit/11100",
+      "name": "SEPA CT APC-Export File",
+      "change": "added"
+    },
+    {
+      "key": "codeunit/11110",
+      "name": "Update VAT-AT",
+      "change": "added"
+    },
+    {
+      "key": "codeunit/11501",
+      "name": "GeneralMgt",
+      "change": "added"
+    },
+    {
+      "key": "codeunit/104000",
+      "name": "Upgrade - BaseApp",
+      "change": "replaced",
+      "properties": [
+        {
+          "name": "Permissions",
+          "from": "TableData \"User Group Plan\" = rimd, TableData \"Cust. Ledger Entry\" = rm, TableData \"Employee Ledger Entry\" = rm, Tabledata \"ABC Analysis Setup\" = ri",
+          "to": "TableData \"User Group Plan\" = rimd, TableData \"Cust. Ledger Entry\" = rm, Tabledata \"ABC Analysis Setup\" = ri"
+        }
+      ],
+      "procedures": [
+        {
+          "id": "setemployeeledgerentrycurrencyfactor()",
+          "name": "SetEmployeeLedgerEntryCurrencyFactor",
+          "change": "removed",
+          "from": {
+            "scope": "local",
+            "params": [],
+            "returns": null,
+            "event": null,
+            "obsolete": null,
+            "subscribes_to": null,
+            "attributes": []
+          }
+        },
+        {
+          "id": "initshiptophoneno()",
+          "name": "InitShipToPhoneNo",
+          "change": "removed",
+          "from": {
+            "scope": "local",
+            "params": [],
+            "returns": null,
+            "event": null,
+            "obsolete": null,
+            "subscribes_to": null,
+            "attributes": []
+          }
+        }
+      ]
+    },
+    {
+      "key": "codeunit/104100",
+      "name": "Upg Local Functionality",
+      "change": "added"
+    },
+    {
+      "key": "codeunit/5005270",
+      "name": "Issue Delivery Reminder",
+      "change": "added"
+    },
+    {
+      "key": "codeunit/5005271",
+      "name": "Create Delivery Reminder",
+      "change": "added"
+    },
+    {
+      "key": "codeunit/5005272",
+      "name": "Deliv.-Rem. Ext. Text Transfer",
+      "change": "added"
+    },
+    {
+      "key": "codeunit/5005273",
+      "name": "Iss. Delivery Remind. printed",
+      "change": "added"
+    },
+    {
+      "key": "codeunit/5005274",
+      "name": "DR Data Class. Eval. Data",
+      "change": "added"
+    },
+    {
+      "key": "codeunit/5005396",
+      "name": "Print Document Comfort",
+      "change": "added"
+    },
+    {
+      "key": "codeunit/5005397",
+      "name": "Format Adress Comfort",
+      "change": "added"
+    },
+    {
+      "key": "enum/11003",
+      "name": "Data Export File Encoding",
+      "change": "added"
+    },
+    {
+      "key": "enum/5005272",
+      "name": "Delivery Reminder Date Type",
+      "change": "added"
+    },
+    {
+      "key": "enumextension/26101",
+      "name": "Report Selection Usage Del. Rem.",
+      "change": "added"
+    },
+    {
+      "key": "enumextension/26102",
+      "name": "Report Sel. Usage Purch. DACH",
+      "change": "added"
+    },
+    {
+      "key": "page/344",
+      "name": "Navigate",
+      "change": "replaced",
+      "events": [
+        {
+          "id": "onaftersettrackingfiltersonbeforefindtrackingrecords(record item)",
+          "name": "OnAfterSetTrackingFiltersOnBeforeFindTrackingRecords",
+          "change": "added",
+          "to": {
+            "scope": "local",
+            "params": [
+              {
+                "name": "ItemTrackingFilters",
+                "type": "Record Item",
+                "var": true
+              }
+            ],
+            "returns": null,
+            "event": "integration",
+            "obsolete": null,
+            "subscribes_to": null,
+            "attributes": [
+              {
+                "name": "IntegrationEvent",
+                "args": [
+                  "true",
+                  "false"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "onfindtrackingrecordsonaftersettrackingfilters(record item)",
+          "name": "OnFindTrackingRecordsOnAfterSetTrackingFilters",
+          "change": "removed",
+          "from": {
+            "scope": "local",
+            "params": [
+              {
+                "name": "ItemTrackingFilters",
+                "type": "Record Item",
+                "var": true
+              }
+            ],
+            "returns": null,
+            "event": "integration",
+            "obsolete": null,
+            "subscribes_to": null,
+            "attributes": [
+              {
+                "name": "IntegrationEvent",
+                "args": [
+                  "true",
+                  "false"
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "page/471",
+      "name": "VAT Product Posting Groups",
+      "change": "replaced",
+      "procedures": [
+        {
+          "id": "getselectionfilter()",
+          "name": "GetSelectionFilter",
+          "change": "added",
+          "to": {
+            "scope": "global",
+            "params": [],
+            "returns": "Text",
+            "event": null,
+            "obsolete": null,
+            "subscribes_to": null,
+            "attributes": [
+              {
+                "name": "Scope",
+                "args": [
+                  "'OnPrem'"
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "page/475",
+      "name": "VAT Statement Preview Line",
+      "change": "replaced",
+      "properties": [
+        {
+          "name": "RefreshOnActivate",
+          "from": null,
+          "to": "true"
+        }
+      ],
+      "procedures": [
+        {
+          "id": "calccolumnvalue(record \"vat statement line\",decimal,decimal,decimal,decimal,decimal,integer)",
+          "name": "CalcColumnValue",
+          "change": "added",
+          "to": {
+            "scope": "local",
+            "params": [
+              {
+                "name": "VATStmtLine2",
+                "type": "Record \"VAT Statement Line\"",
+                "var": false
+              },
+              {
+                "name": "TotalAmount",
+                "type": "Decimal",
+                "var": true
+              },
+              {
+                "name": "TotalEmpty",
+                "type": "Decimal",
+                "var": true
+              },
+              {
+                "name": "TotalBase",
+                "type": "Decimal",
+                "var": true
+              },
+              {
+                "name": "TotalUnrealizedAmount",
+                "type": "Decimal",
+                "var": true
+              },
+              {
+                "name": "TotalUnrealizedBase",
+                "type": "Decimal",
+                "var": true
+              },
+              {
+                "name": "Level",
+                "type": "Integer",
+                "var": false
+              }
+            ],
+            "returns": null,
+            "event": null,
+            "obsolete": null,
+            "subscribes_to": null,
+            "attributes": []
+          }
+        },
+        {
+          "id": "drilldownonentries()",
+          "name": "DrillDownOnEntries",
+          "change": "added",
+          "to": {
+            "scope": "global",
+            "params": [],
+            "returns": null,
+            "event": null,
+            "obsolete": null,
+            "subscribes_to": null,
+            "attributes": [
+              {
+                "name": "Scope",
+                "args": [
+                  "'OnPrem'"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "calccolumnvalue(record \"vat statement line\",decimal,integer)",
+          "name": "CalcColumnValue",
+          "change": "removed",
+          "from": {
+            "scope": "local",
+            "params": [
+              {
+                "name": "VATStatementLine",
+                "type": "Record \"VAT Statement Line\"",
+                "var": false
+              },
+              {
+                "name": "ColumnValue",
+                "type": "Decimal",
+                "var": true
+              },
+              {
+                "name": "Level",
+                "type": "Integer",
+                "var": false
+              }
+            ],
+            "returns": null,
+            "event": null,
+            "obsolete": null,
+            "subscribes_to": null,
+            "attributes": []
+          }
+        }
+      ],
+      "events": [
+        {
+          "id": "onbeforecalccolumnvalue(record \"vat statement line\",decimal,decimal,decimal,decimal,decimal,integer,boolean,enum \"vat statement report selection\",enum \"vat statement report period selection\",boolean,boolean,record \"vat statement line\")",
+          "name": "OnBeforeCalcColumnValue",
+          "change": "added",
+          "to": {
+            "scope": "local",
+            "params": [
+              {
+                "name": "VATStmtLine2",
+                "type": "Record \"VAT Statement Line\"",
+                "var": false
+              },
+              {
+                "name": "TotalAmount",
+                "type": "Decimal",
+                "var": true
+              },
+              {
+                "name": "TotalEmpty",
+                "type": "Decimal",
+                "var": true
+              },
+              {
+                "name": "TotalBase",
+                "type": "Decimal",
+                "var": true
+              },
+              {
+                "name": "TotalUnrealizedAmount",
+                "type": "Decimal",
+                "var": true
+              },
+              {
+                "name": "TotalUnrealizedBase",
+                "type": "Decimal",
+                "var": true
+              },
+              {
+                "name": "Level",
+                "type": "Integer",
+                "var": false
+              },
+              {
+                "name": "IsHandled",
+                "type": "Boolean",
+                "var": true
+              },
+              {
+                "name": "Selection",
+                "type": "Enum \"VAT Statement Report Selection\"",
+                "var": false
+              },
+              {
+                "name": "PeriodSelection",
+                "type": "Enum \"VAT Statement Report Period Selection\"",
+                "var": false
+              },
+              {
+                "name": "PrintInIntegers",
+                "type": "Boolean",
+                "var": false
+              },
+              {
+                "name": "UseAmtsInAddCurr",
+                "type": "Boolean",
+                "var": false
+              },
+              {
+                "name": "VATStatementLine",
+                "type": "Record \"VAT Statement Line\"",
+                "var": true
+              }
+            ],
+            "returns": null,
+            "event": "integration",
+            "obsolete": null,
+            "subscribes_to": null,
+            "attributes": [
+              {
+                "name": "IntegrationEvent",
+                "args": [
+                  "true",
+                  "false"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "onbeforecalccolumnvalue(record \"vat statement line\",decimal,integer,boolean,enum \"vat statement report selection\",enum \"vat statement report period selection\",boolean,boolean)",
+          "name": "OnBeforeCalcColumnValue",
+          "change": "removed",
+          "from": {
+            "scope": "local",
+            "params": [
+              {
+                "name": "VATStatementLine",
+                "type": "Record \"VAT Statement Line\"",
+                "var": false
+              },
+              {
+                "name": "TotalAmount",
+                "type": "Decimal",
+                "var": true
+              },
+              {
+                "name": "Level",
+                "type": "Integer",
+                "var": false
+              },
+              {
+                "name": "IsHandled",
+                "type": "Boolean",
+                "var": true
+              },
+              {
+                "name": "Selection",
+                "type": "Enum \"VAT Statement Report Selection\"",
+                "var": false
+              },
+              {
+                "name": "PeriodSelection",
+                "type": "Enum \"VAT Statement Report Period Selection\"",
+                "var": false
+              },
+              {
+                "name": "PrintInIntegers",
+                "type": "Boolean",
+                "var": false
+              },
+              {
+                "name": "UseAmtsInAddCurr",
+                "type": "Boolean",
+                "var": false
+              }
+            ],
+            "returns": null,
+            "event": "integration",
+            "obsolete": null,
+            "subscribes_to": null,
+            "attributes": [
+              {
+                "name": "IntegrationEvent",
+                "args": [
+                  "true",
+                  "false"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "onupdateformonbeforevatstatementinitializerequest(record \"vat statement name\",record \"vat statement line\",enum \"vat statement report selection\",enum \"vat statement report period selection\",boolean,boolean)",
+          "name": "OnUpdateFormOnBeforeVatStatementInitializeRequest",
+          "change": "removed",
+          "from": {
+            "scope": "local",
+            "params": [
+              {
+                "name": "NewVATStatementName",
+                "type": "Record \"VAT Statement Name\"",
+                "var": true
+              },
+              {
+                "name": "NewVATStatementLine",
+                "type": "Record \"VAT Statement Line\"",
+                "var": true
+              },
+              {
+                "name": "NewSelection",
+                "type": "Enum \"VAT Statement Report Selection\"",
+                "var": false
+              },
+              {
+                "name": "NewPeriodSelection",
+                "type": "Enum \"VAT Statement Report Period Selection\"",
+                "var": false
+              },
+              {
+                "name": "NewPrintInIntegers",
+                "type": "Boolean",
+                "var": false
+              },
+              {
+                "name": "NewUseAmtsInAddCurr",
+                "type": "Boolean",
+                "var": false
+              }
+            ],
+            "returns": null,
+            "event": "integration",
+            "obsolete": null,
+            "subscribes_to": null,
+            "attributes": [
+              {
+                "name": "IntegrationEvent",
+                "args": [
+                  "false",
+                  "false"
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "page/11000",
+      "name": "Place of Dispatchers",
+      "change": "added"
+    },
+    {
+      "key": "page/11001",
+      "name": "Place of Receivers",
+      "change": "added"
+    },
+    {
+      "key": "page/11002",
+      "name": "Data Exports",
+      "change": "added"
+    },
+    {
+      "key": "page/11003",
+      "name": "Data Export Record Definitions",
+      "change": "added"
+    },
+    {
+      "key": "page/11004",
+      "name": "Data Export Record Source",
+      "change": "added"
+    },
+    {
+      "key": "page/11007",
+      "name": "Data Export Table Relation",
+      "change": "added"
+    },
+    {
+      "key": "page/11008",
+      "name": "Data Export Table Relation Sub",
+      "change": "added"
+    },
+    {
+      "key": "page/11009",
+      "name": "Data Export Field List",
+      "change": "added"
+    },
+    {
+      "key": "page/11014",
+      "name": "Data Export Record Types",
+      "change": "added"
+    },
+    {
+      "key": "page/11026",
+      "name": "Data Export Table Keys",
+      "change": "added"
+    },
+    {
+      "key": "page/11027",
+      "name": "Data Export Record Fields",
+      "change": "added"
+    },
+    {
+      "key": "page/35516",
+      "name": "Cash Receipt Journal FactBox",
+      "change": "added"
+    },
+    {
+      "key": "page/35517",
+      "name": "Payment Journal FactBox",
+      "change": "added"
+    },
+    {
+      "key": "page/5005270",
+      "name": "Delivery Reminder",
+      "change": "added"
+    },
+    {
+      "key": "page/5005271",
+      "name": "Delivery Reminder Sub.",
+      "change": "added"
+    },
+    {
+      "key": "page/5005272",
+      "name": "Delivery Reminder List",
+      "change": "added"
+    },
+    {
+      "key": "page/5005273",
+      "name": "Issued Delivery Reminder",
+      "change": "added"
+    },
+    {
+      "key": "page/5005274",
+      "name": "Issued Delivery Reminder Sub",
+      "change": "added"
+    },
+    {
+      "key": "page/5005275",
+      "name": "Issued Delivery Reminders List",
+      "change": "added"
+    },
+    {
+      "key": "page/5005276",
+      "name": "Deliv. Reminder Ledger Entries",
+      "change": "added"
+    },
+    {
+      "key": "page/5005277",
+      "name": "Delivery Reminder Comment Line",
+      "change": "added"
+    },
+    {
+      "key": "page/5005278",
+      "name": "Deliv. Rem. Comment Line List",
+      "change": "added"
+    },
+    {
+      "key": "page/5005279",
+      "name": "Delivery Reminder Terms",
+      "change": "added"
+    },
+    {
+      "key": "page/5005280",
+      "name": "Delivery Reminder Terms List",
+      "change": "added"
+    },
+    {
+      "key": "page/5005281",
+      "name": "Delivery Reminder Levels",
+      "change": "added"
+    },
+    {
+      "key": "page/5005283",
+      "name": "Delivery Reminder Text",
+      "change": "added"
+    },
+    {
+      "key": "pageextension/11010",
+      "name": "Manufacturing Manager RC DACH",
+      "change": "added"
+    },
+    {
+      "key": "pageextension/5005270",
+      "name": "SourceCodeSetupDACH",
+      "change": "added"
+    },
+    {
+      "key": "pageextension/5005271",
+      "name": "DRVendorTemplCard",
+      "change": "added"
+    },
+    {
+      "key": "pageextension/5005272",
+      "name": "DRPurchSetup",
+      "change": "added"
+    },
+    {
+      "key": "pageextension/5005273",
+      "name": "DRExtendedText",
+      "change": "added"
+    },
+    {
+      "key": "pageextension/5005274",
+      "name": "DRPurchMgrRoleCenter",
+      "change": "added"
+    },
+    {
+      "key": "pageextension/5005275",
+      "name": "DRPurchAgentRoleCenter",
+      "change": "added"
+    },
+    {
+      "key": "pageextension/5005276",
+      "name": "DRPurchaseOrder",
+      "change": "added"
+    },
+    {
+      "key": "pageextension/5005277",
+      "name": "DRVendorCard",
+      "change": "added"
+    },
+    {
+      "key": "permissionset/1001",
+      "name": "LOCAL",
+      "change": "replaced",
+      "properties": [
+        {
+          "name": "Assignable",
+          "from": "false",
+          "to": "true"
+        },
+        {
+          "name": "Caption",
+          "from": null,
+          "to": "Country/region-specific func."
+        },
+        {
+          "name": "Permissions",
+          "from": null,
+          "to": "tabledata \"Data Exp. Primary Key Buffer\" = RIMD, tabledata \"Data Export\" = RIMD, tabledata \"Data Export Buffer\" = RIMD, tabledata \"Data Export Record Definition\" = RIMD, tabledata \"Data Export Record Field\" = RIMD, tabledata \"Data Export Record Source\" = RIMD, tabledata \"Data Export Record Type\" = R..."
+        }
+      ]
+    },
+    {
+      "key": "permissionset/1002",
+      "name": "LOCAL READ",
+      "change": "replaced",
+      "properties": [
+        {
+          "name": "Assignable",
+          "from": "false",
+          "to": "true"
+        },
+        {
+          "name": "Caption",
+          "from": null,
+          "to": "Country/region-specific read only access."
+        },
+        {
+          "name": "Permissions",
+          "from": null,
+          "to": "tabledata \"Data Exp. Primary Key Buffer\" = R, tabledata \"Data Export\" = R, tabledata \"Data Export Buffer\" = R, tabledata \"Data Export Record Definition\" = R, tabledata \"Data Export Record Field\" = R, tabledata \"Data Export Record Source\" = R, tabledata \"Data Export Record Type\" = R, tabledata \"Data ..."
+        }
+      ]
+    },
+    {
+      "key": "permissionsetextension/5005270",
+      "name": "DR LOCAL",
+      "change": "added"
+    },
+    {
+      "key": "permissionsetextension/5005271",
+      "name": "DR LOCAL READ",
+      "change": "added"
+    },
+    {
+      "key": "report/12",
+      "name": "VAT Statement",
+      "change": "replaced",
+      "properties": [
+        {
+          "name": "ApplicationArea",
+          "from": "Basic, Suite",
+          "to": null
+        }
+      ]
+    },
+    {
+      "key": "report/596",
+      "name": "Exch. Rate Adjustment",
+      "change": "replaced",
+      "procedures": [
+        {
+          "id": "setvaluationmethod(integer,date,date)",
+          "name": "SetValuationMethod",
+          "change": "added",
+          "to": {
+            "scope": "global",
+            "params": [
+              {
+                "name": "NewValuationMethod",
+                "type": "Integer",
+                "var": false
+              },
+              {
+                "name": "NewDueDateTo",
+                "type": "Date",
+                "var": false
+              },
+              {
+                "name": "NewValuationPeriodEndDate",
+                "type": "Date",
+                "var": false
+              }
+            ],
+            "returns": null,
+            "event": null,
+            "obsolete": null,
+            "subscribes_to": null,
+            "attributes": []
+          }
+        },
+        {
+          "id": "updatecontrols()",
+          "name": "UpdateControls",
+          "change": "added",
+          "to": {
+            "scope": "local",
+            "params": [],
+            "returns": null,
+            "event": null,
+            "obsolete": null,
+            "subscribes_to": null,
+            "attributes": []
+          }
+        }
+      ]
+    },
+    {
+      "key": "report/11001",
+      "name": "Intrastat - Item List",
+      "change": "added"
+    },
+    {
+      "key": "report/11002",
+      "name": "G/L Total-Balance",
+      "change": "added"
+    },
+    {
+      "key": "report/11003",
+      "name": "Customer Total-Balance",
+      "change": "added"
+    },
+    {
+      "key": "report/11004",
+      "name": "Vendor Total-Balance",
+      "change": "added"
+    },
+    {
+      "key": "report/11005",
+      "name": "VAT Statement Germany",
+      "change": "added"
+    },
+    {
+      "key": "report/11006",
+      "name": "Vendor Detailed Aging",
+      "change": "added"
+    },
+    {
+      "key": "report/11007",
+      "name": "VAT-Vies Declaration Tax - DE",
+      "change": "added"
+    },
+    {
+      "key": "report/11010",
+      "name": "VAT Statement Schedule",
+      "change": "added"
+    },
+    {
+      "key": "report/11011",
+      "name": "Fixed Asset - Book Value 03",
+      "change": "added"
+    },
+    {
+      "key": "report/11015",
+      "name": "Export Business Data",
+      "change": "added"
+    },
+    {
+      "key": "report/11100",
+      "name": "Fixed Assets - List AT",
+      "change": "added"
+    },
+    {
+      "key": "report/11108",
+      "name": "VAT - VIES Declaration XML",
+      "change": "added"
+    },
+    {
+      "key": "report/11109",
+      "name": "Paragraph 131 Export",
+      "change": "added"
+    },
+    {
+      "key": "report/11110",
+      "name": "VAT Statement AT",
+      "change": "added"
+    },
+    {
+      "key": "report/11111",
+      "name": "Crossborder Services",
+      "change": "added"
+    },
+    {
+      "key": "report/11112",
+      "name": "Update VAT Statement Template",
+      "change": "added"
+    },
+    {
+      "key": "report/11500",
+      "name": "Provisional Trial Balance",
+      "change": "added"
+    },
+    {
+      "key": "report/11503",
+      "name": "Item ABC Analysis",
+      "change": "added"
+    },
+    {
+      "key": "report/11507",
+      "name": "Vendor Payments List",
+      "change": "added"
+    },
+    {
+      "key": "report/11514",
+      "name": "G/L Setup Information",
+      "change": "added"
+    },
+    {
+      "key": "report/11517",
+      "name": "Inventory Value (Help Report)",
+      "change": "added"
+    },
+    {
+      "key": "report/5005272",
+      "name": "Delivery Reminder - Test",
+      "change": "added"
+    },
+    {
+      "key": "report/5005273",
+      "name": "Issued Delivery Reminder",
+      "change": "added"
+    },
+    {
+      "key": "report/5005340",
+      "name": "Create Delivery Reminder",
+      "change": "added"
+    },
+    {
+      "key": "report/5005341",
+      "name": "Issue Delivery Reminder",
+      "change": "added"
+    },
+    {
+      "key": "table/15",
+      "name": "G/L Account",
+      "change": "replaced",
+      "fields": [
+        {
+          "id": "11000",
+          "name": "VAT Amount",
+          "change": "added",
+          "to": {
+            "name": "VAT Amount",
+            "type": "Decimal",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "AutoFormatType": "1",
+              "AutoFormatExpression": "",
+              "CalcFormula": "sum(\"G/L Entry\".\"VAT Amount\" where(\"G/L Account No.\" = field(\"No.\"), \"G/L Account No.\" = field(filter(Totaling)), \"Business Unit Code\" = field(\"Business Unit Filter\"), \"Global Dimension 1 Code\" = field(\"Global Dimension 1 Filter\"), \"Global Dimension 2 Code\" = field(\"Global Dimension 2 Filter\"), \"Pos...",
+              "Caption": "VAT Amount",
+              "Editable": "false",
+              "FieldClass": "FlowField"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "table/23",
+      "name": "Vendor",
+      "change": "replaced",
+      "fields": [
+        {
+          "id": "11000",
+          "name": "Registration No.",
+          "change": "added",
+          "to": {
+            "name": "Registration No.",
+            "type": "Text[20]",
+            "obsolete": {
+              "state": "Removed",
+              "tag": "25.0",
+              "reason": "Replaced with Registration Number"
+            },
+            "clean": [
+              "CLEANSCHEMA25"
+            ],
+            "properties": {
+              "Caption": "Registration No.",
+              "OptimizeForTextSearch": "true",
+              "ObsoleteReason": "Replaced with Registration Number",
+              "ObsoleteTag": "25.0",
+              "ObsoleteState": "Removed"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "table/38",
+      "name": "Purchase Header",
+      "change": "replaced",
+      "fields": [
+        {
+          "id": "11000",
+          "name": "Registration No.",
+          "change": "added",
+          "to": {
+            "name": "Registration No.",
+            "type": "Text[20]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Registration No."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "table/39",
+      "name": "Purchase Line",
+      "change": "replaced",
+      "fields": [
+        {
+          "id": "5005396",
+          "name": "Order No. (Old)",
+          "change": "added",
+          "to": {
+            "name": "Order No. (Old)",
+            "type": "Code[20]",
+            "obsolete": {
+              "state": "Removed",
+              "tag": "25.0",
+              "reason": "Merged to W1"
+            },
+            "clean": [
+              "CLEANSCHEMA25"
+            ],
+            "properties": {
+              "Caption": "Order No. (Old)",
+              "ObsoleteReason": "Merged to W1",
+              "ObsoleteState": "Removed",
+              "ObsoleteTag": "25.0"
+            }
+          }
+        },
+        {
+          "id": "5005397",
+          "name": "Order Line No. (Old)",
+          "change": "added",
+          "to": {
+            "name": "Order Line No. (Old)",
+            "type": "Integer",
+            "obsolete": {
+              "state": "Removed",
+              "tag": "25.0",
+              "reason": "Merged to W1"
+            },
+            "clean": [
+              "CLEANSCHEMA25"
+            ],
+            "properties": {
+              "Caption": "Order Line No. (Old)",
+              "ObsoleteReason": "Merged to W1",
+              "ObsoleteState": "Removed",
+              "ObsoleteTag": "25.0"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "table/79",
+      "name": "Company Information",
+      "change": "replaced",
+      "fields": [
+        {
+          "id": "11",
+          "name": "Giro No.",
+          "change": "changed",
+          "from": {
+            "name": "Giro No.",
+            "type": "Text[20]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Giro No.",
+              "ToolTip": "Specifies the company's giro number."
+            }
+          },
+          "to": {
+            "name": "Giro No.",
+            "type": "Text[20]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Giro No.",
+              "MaskType": "Concealed",
+              "ToolTip": "Specifies the company's giro number."
+            }
+          }
+        },
+        {
+          "id": "14",
+          "name": "Bank Account No.",
+          "change": "changed",
+          "from": {
+            "name": "Bank Account No.",
+            "type": "Text[30]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Bank Account No.",
+              "ToolTip": "Specifies the company's bank account number.",
+              "MaskType": "Concealed"
+            }
+          },
+          "to": {
+            "name": "Bank Account No.",
+            "type": "Text[30]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Bank Account No.",
+              "MaskType": "Concealed",
+              "ToolTip": "Specifies the company's bank account number."
+            }
+          }
+        },
+        {
+          "id": "38",
+          "name": "IBAN",
+          "change": "changed",
+          "from": {
+            "name": "IBAN",
+            "type": "Code[50]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "IBAN",
+              "ToolTip": "Specifies the international bank account number of your primary bank account.",
+              "MaskType": "Concealed"
+            }
+          },
+          "to": {
+            "name": "IBAN",
+            "type": "Code[50]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "IBAN",
+              "MaskType": "Concealed",
+              "ToolTip": "Specifies the international bank account number of your primary bank account."
+            }
+          }
+        },
+        {
+          "id": "11000",
+          "name": "Area",
+          "change": "added",
+          "to": {
+            "name": "Area",
+            "type": "Code[10]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Area",
+              "TableRelation": "Area"
+            }
+          }
+        },
+        {
+          "id": "11001",
+          "name": "Place of Dispatcher",
+          "change": "added",
+          "to": {
+            "name": "Place of Dispatcher",
+            "type": "Code[10]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Place of Dispatcher",
+              "TableRelation": "Place of Dispatcher"
+            }
+          }
+        },
+        {
+          "id": "11002",
+          "name": "Place of Receiver",
+          "change": "added",
+          "to": {
+            "name": "Place of Receiver",
+            "type": "Code[10]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Place of Receiver",
+              "TableRelation": "Place of Receiver"
+            }
+          }
+        },
+        {
+          "id": "11003",
+          "name": "Sales Authorized No.",
+          "change": "added",
+          "to": {
+            "name": "Sales Authorized No.",
+            "type": "Code[8]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Sales Authorized No. (ASCII)"
+            }
+          }
+        },
+        {
+          "id": "11004",
+          "name": "Purch. Authorized No.",
+          "change": "added",
+          "to": {
+            "name": "Purch. Authorized No.",
+            "type": "Code[8]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Purch. Authorized No. (ASCII)"
+            }
+          }
+        },
+        {
+          "id": "11005",
+          "name": "Company No.",
+          "change": "added",
+          "to": {
+            "name": "Company No.",
+            "type": "Text[10]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Company No./Material No. (XML)"
+            }
+          }
+        },
+        {
+          "id": "11006",
+          "name": "Special Agreement",
+          "change": "added",
+          "to": {
+            "name": "Special Agreement",
+            "type": "Text[20]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Special Agreement"
+            }
+          }
+        },
+        {
+          "id": "11007",
+          "name": "Agency No.",
+          "change": "added",
+          "to": {
+            "name": "Agency No.",
+            "type": "Text[10]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Agency No."
+            }
+          }
+        },
+        {
+          "id": "11008",
+          "name": "Tax Office Name",
+          "change": "added",
+          "to": {
+            "name": "Tax Office Name",
+            "type": "Text[50]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Tax Office Name"
+            }
+          }
+        },
+        {
+          "id": "11009",
+          "name": "Tax Office Name 2",
+          "change": "added",
+          "to": {
+            "name": "Tax Office Name 2",
+            "type": "Text[50]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Tax Office Name 2"
+            }
+          }
+        },
+        {
+          "id": "11010",
+          "name": "Tax Office Address",
+          "change": "added",
+          "to": {
+            "name": "Tax Office Address",
+            "type": "Text[50]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Tax Office Address"
+            }
+          }
+        },
+        {
+          "id": "11011",
+          "name": "Tax Office Address 2",
+          "change": "added",
+          "to": {
+            "name": "Tax Office Address 2",
+            "type": "Text[50]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Tax Office Address 2"
+            }
+          }
+        },
+        {
+          "id": "11012",
+          "name": "Tax Office City",
+          "change": "added",
+          "to": {
+            "name": "Tax Office City",
+            "type": "Text[50]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Tax Office City",
+              "TableRelation": "if (\"Tax Office Country/Region Code\" = const('')) \"Post Code\".City else if (\"Tax Office Country/Region Code\" = filter(<> '')) \"Post Code\".City where(\"Country/Region Code\" = field(\"Tax Office Country/Region Code\"))",
+              "ValidateTableRelation": "false"
+            }
+          }
+        },
+        {
+          "id": "11013",
+          "name": "Tax Office Post Code",
+          "change": "added",
+          "to": {
+            "name": "Tax Office Post Code",
+            "type": "Code[20]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Tax Office Post Code",
+              "TableRelation": "if (\"Tax Office Country/Region Code\" = const('')) \"Post Code\" else if (\"Tax Office Country/Region Code\" = filter(<> '')) \"Post Code\" where(\"Country/Region Code\" = field(\"Tax Office Country/Region Code\"))",
+              "ValidateTableRelation": "false"
+            }
+          }
+        },
+        {
+          "id": "11014",
+          "name": "Tax Office Country/Region Code",
+          "change": "added",
+          "to": {
+            "name": "Tax Office Country/Region Code",
+            "type": "Code[10]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Tax Office Country/Region Code",
+              "TableRelation": "Country/Region"
+            }
+          }
+        },
+        {
+          "id": "11015",
+          "name": "Tax Office County",
+          "change": "added",
+          "to": {
+            "name": "Tax Office County",
+            "type": "Text[30]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Tax Office County"
+            }
+          }
+        },
+        {
+          "id": "11016",
+          "name": "Tax Office Area",
+          "change": "added",
+          "to": {
+            "name": "Tax Office Area",
+            "type": "Option",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Tax Office Area",
+              "OptionCaption": " ,Schleswig-Holstein,Hamburg,Niedersachsen,Bremen,Nordrhein-Westfalen,Hessen,Rheinland-Pfalz,Baden-Wurttemberg,Bayern,Saarland,Brandenburg,Mecklenburg-Vorpommern,Sachsen,Sachsen-Anhalt,Thuringen,Berlin",
+              "OptionMembers": "\" \",\"Schleswig-Holstein\",Hamburg,Niedersachsen,Bremen,\"Nordrhein-Westfalen\",Hessen,\"Rheinland-Pfalz\",\"Baden-Wurttemberg\",Bayern,Saarland,Brandenburg,\"Mecklenburg-Vorpommern\",Sachsen,\"Sachsen-Anhalt\",Thuringen,Berlin"
+            }
+          }
+        },
+        {
+          "id": "11019",
+          "name": "VAT Representative",
+          "change": "added",
+          "to": {
+            "name": "VAT Representative",
+            "type": "Text[45]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "VAT Representative"
+            }
+          }
+        },
+        {
+          "id": "11020",
+          "name": "House Number",
+          "change": "added",
+          "to": {
+            "name": "House Number",
+            "type": "Text[9]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "House Number"
+            }
+          }
+        },
+        {
+          "id": "11021",
+          "name": "Floor Number",
+          "change": "added",
+          "to": {
+            "name": "Floor Number",
+            "type": "Text[8]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Floor Number"
+            }
+          }
+        },
+        {
+          "id": "11022",
+          "name": "Room Number",
+          "change": "added",
+          "to": {
+            "name": "Room Number",
+            "type": "Text[7]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Room Number"
+            }
+          }
+        },
+        {
+          "id": "11050",
+          "name": "Participant No.",
+          "change": "added",
+          "to": {
+            "name": "Participant No.",
+            "type": "Text[10]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Participant No."
+            }
+          }
+        },
+        {
+          "id": "11100",
+          "name": "Statistic No.",
+          "change": "added",
+          "to": {
+            "name": "Statistic No.",
+            "type": "Code[20]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Statistic No."
+            }
+          }
+        },
+        {
+          "id": "11101",
+          "name": "Control No.",
+          "change": "added",
+          "to": {
+            "name": "Control No.",
+            "type": "Code[20]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Control No."
+            }
+          }
+        },
+        {
+          "id": "11102",
+          "name": "DVR Number",
+          "change": "added",
+          "to": {
+            "name": "DVR Number",
+            "type": "Code[20]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "DVR Number"
+            }
+          }
+        },
+        {
+          "id": "11103",
+          "name": "Tax Office Number",
+          "change": "added",
+          "to": {
+            "name": "Tax Office Number",
+            "type": "Code[4]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Tax Office Number",
+              "Numeric": "true"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "table/81",
+      "name": "Gen. Journal Line",
+      "change": "replaced",
+      "procedures": [
+        {
+          "id": "changepostingdatewarning()",
+          "name": "ChangePostingDateWarning",
+          "change": "added",
+          "to": {
+            "scope": "global",
+            "params": [],
+            "returns": null,
+            "event": null,
+            "obsolete": null,
+            "subscribes_to": null,
+            "attributes": [
+              {
+                "name": "Scope",
+                "args": [
+                  "'OnPrem'"
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "table/98",
+      "name": "General Ledger Setup",
+      "change": "replaced",
+      "fields": [
+        {
+          "id": "49",
+          "name": "Adjust for Payment Disc.",
+          "change": "changed",
+          "from": {
+            "name": "Adjust for Payment Disc.",
+            "type": "Boolean",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Adjust for Payment Disc.",
+              "ToolTip": "Specifies whether to recalculate tax amounts when you post payments that trigger payment discounts."
+            }
+          },
+          "to": {
+            "name": "Adjust for Payment Disc.",
+            "type": "Boolean",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Adjust for Payment Disc.",
+              "ToolTip": "Specifies whether to recalculate tax amounts when you post payments that trigger payment discounts.",
+              "InitValue": "true"
+            }
+          }
+        },
+        {
+          "id": "151",
+          "name": "Prepayment Unrealized VAT",
+          "change": "changed",
+          "from": {
+            "name": "Prepayment Unrealized VAT",
+            "type": "Boolean",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Prepayment Unrealized VAT",
+              "ToolTip": "Specifies whether to handle unrealized VAT on prepayments."
+            }
+          },
+          "to": {
+            "name": "Prepayment Unrealized VAT",
+            "type": "Boolean",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Prepayment Unrealized VAT",
+              "ToolTip": "Specifies whether to handle unrealized VAT on prepayments.",
+              "InitValue": "true"
+            }
+          }
+        },
+        {
+          "id": "11003",
+          "name": "Currency Code For EURO",
+          "change": "added",
+          "to": {
+            "name": "Currency Code For EURO",
+            "type": "Code[10]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Currency Code For EURO"
+            }
+          }
+        },
+        {
+          "id": "11011",
+          "name": "Sales VAT Advance Notif. Nos.",
+          "change": "added",
+          "to": {
+            "name": "Sales VAT Advance Notif. Nos.",
+            "type": "Code[20]",
+            "obsolete": {
+              "state": "Removed",
+              "tag": "25.0",
+              "reason": "Moved to Elster extension, new field Sales VAT Adv. Notif. Nos."
+            },
+            "clean": [
+              "CLEANSCHEMA25"
+            ],
+            "properties": {
+              "Caption": "Sales VAT Advance Notif. Nos.",
+              "ObsoleteReason": "Moved to Elster extension, new field Sales VAT Adv. Notif. Nos.",
+              "ObsoleteState": "Removed",
+              "TableRelation": "No. Series",
+              "ObsoleteTag": "25.0"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "table/122",
+      "name": "Purch. Inv. Header",
+      "change": "replaced",
+      "fields": [
+        {
+          "id": "11000",
+          "name": "Registration No.",
+          "change": "added",
+          "to": {
+            "name": "Registration No.",
+            "type": "Text[20]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Registration No."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "table/124",
+      "name": "Purch. Cr. Memo Hdr.",
+      "change": "replaced",
+      "fields": [
+        {
+          "id": "11000",
+          "name": "Registration No.",
+          "change": "added",
+          "to": {
+            "name": "Registration No.",
+            "type": "Text[20]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Registration No."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "table/242",
+      "name": "Source Code Setup",
+      "change": "replaced",
+      "properties": [
+        {
+          "name": "MovedFrom",
+          "from": "437dbf0e-84ff-417a-965d-ed2bb9650972",
+          "to": null
+        },
+        {
+          "name": "MovedTo",
+          "from": null,
+          "to": "f3552374-a1f2-4356-848e-196002525837"
+        },
+        {
+          "name": "ObsoleteReason",
+          "from": null,
+          "to": "Source Code Setup is moved to Business Foundation"
+        },
+        {
+          "name": "ObsoleteState",
+          "from": null,
+          "to": "Moved"
+        },
+        {
+          "name": "ObsoleteTag",
+          "from": null,
+          "to": "25.0"
+        }
+      ],
+      "fields": [
+        {
+          "id": "2",
+          "name": "Sales",
+          "change": "added",
+          "to": {
+            "name": "Sales",
+            "type": "Code[10]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Sales",
+              "TableRelation": "Source Code"
+            }
+          }
+        },
+        {
+          "id": "3",
+          "name": "Purchases",
+          "change": "added",
+          "to": {
+            "name": "Purchases",
+            "type": "Code[10]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Purchases",
+              "TableRelation": "Source Code"
+            }
+          }
+        },
+        {
+          "id": "4",
+          "name": "Inventory Post Cost",
+          "change": "added",
+          "to": {
+            "name": "Inventory Post Cost",
+            "type": "Code[10]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Inventory Post Cost",
+              "TableRelation": "Source Code"
+            }
+          }
+        },
+        {
+          "id": "5",
+          "name": "Exchange Rate Adjmt.",
+          "change": "added",
+          "to": {
+            "name": "Exchange Rate Adjmt.",
+            "type": "Code[10]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Exchange Rate Adjmt.",
+              "TableRelation": "Source Code"
+            }
+          }
+        },
+        {
+          "id": "6",
+          "name": "Post Recognition",
+          "change": "added",
+          "to": {
+            "name": "Post Recognition",
+            "type": "Code[10]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Post Recognition",
+              "TableRelation": "Source Code"
+            }
+          }
+        },
+        {
+          "id": "7",
+          "name": "Post Value",
+          "change": "added",
+          "to": {
+            "name": "Post Value",
+            "type": "Code[10]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Post Value",
+              "TableRelation": "Source Code"
+            }
+          }
+        },
+        {
+          "id": "8",
+          "name": "Close Income Statement",
+          "change": "added",
+          "to": {
+            "name": "Close Income Statement",
+            "type": "Code[10]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Close Income Statement",
+              "TableRelation": "Source Code"
+            }
+          }
+        },
+        {
+          "id": "9",
+          "name": "Consolidation",
+          "change": "added",
+          "to": {
+            "name": "Consolidation",
+            "type": "Code[10]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Consolidation",
+              "TableRelation": "Source Code"
+            }
+          }
+        },
+        {
+          "id": "10",
+          "name": "General Journal",
+          "change": "added",
+          "to": {
+            "name": "General Journal",
+            "type": "Code[10]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "General Journal",
+              "TableRelation": "Source Code"
+            }
+          }
+        },
+        {
+          "id": "11",
+          "name": "Sales Journal",
+          "change": "added",
+          "to": {
+            "name": "Sales Journal",
+            "type": "Code[10]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Sales Journal",
+              "TableRelation": "Source Code"
+            }
+          }
+        },
+        {
+          "id": "12",
+          "name": "Purchase Journal",
+          "change": "added",
+          "to": {
+            "name": "Purchase Journal",
+            "type": "Code[10]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Purchase Journal",
+              "TableRelation": "Source Code"
+            }
+          }
+        },
+        {
+          "id": "13",
+          "name": "Cash Receipt Journal",
+          "change": "added",
+          "to": {
+            "name": "Cash Receipt Journal",
+            "type": "Code[10]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Cash Receipt Journal",
+              "TableRelation": "Source Code"
+            }
+          }
+        },
+        {
+          "id": "14",
+          "name": "Payment Journal",
+          "change": "added",
+          "to": {
+            "name": "Payment Journal",
+            "type": "Code[10]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Payment Journal",
+              "TableRelation": "Source Code"
+            }
+          }
+        },
+        {
+          "id": "16",
+          "name": "Item Journal",
+          "change": "added",
+          "to": {
+            "name": "Item Journal",
+            "type": "Code[10]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Item Journal",
+              "TableRelation": "Source Code"
+            }
+          }
+        },
+        {
+          "id": "19",
+          "name": "Resource Journal",
+          "change": "added",
+          "to": {
+            "name": "Resource Journal",
+            "type": "Code[10]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Resource Journal",
+              "TableRelation": "Source Code"
+            }
+          }
+        },
+        {
+          "id": "20",
+          "name": "Job Journal",
+          "change": "added",
+          "to": {
+            "name": "Job Journal",
+            "type": "Code[10]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Project Journal",
+              "TableRelation": "Source Code"
+            }
+          }
+        },
+        {
+          "id": "21",
+          "name": "Sales Entry Application",
+          "change": "added",
+          "to": {
+            "name": "Sales Entry Application",
+            "type": "Code[10]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Sales Entry Application",
+              "TableRelation": "Source Code"
+            }
+          }
+        },
+        {
+          "id": "22",
+          "name": "Purchase Entry Application",
+          "change": "added",
+          "to": {
+            "name": "Purchase Entry Application",
+            "type": "Code[10]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Purchase Entry Application",
+              "TableRelation": "Source Code"
+            }
+          }
+        },
+        {
+          "id": "23",
+          "name": "VAT Settlement",
+          "change": "added",
+          "to": {
+            "name": "VAT Settlement",
+            "type": "Code[10]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "VAT Settlement",
+              "TableRelation": "Source Code"
+            }
+          }
+        },
+        {
+          "id": "24",
+          "name": "Compress G/L",
+          "change": "added",
+          "to": {
+            "name": "Compress G/L",
+            "type": "Code[10]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Compress G/L",
+              "TableRelation": "Source Code"
+            }
+          }
+        },
+        {
+          "id": "25",
+          "name": "Compress VAT Entries",
+          "change": "added",
+          "to": {
+            "name": "Compress VAT Entries",
+            "type": "Code[10]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Compress VAT Entries",
+              "TableRelation": "Source Code"
+            }
+          }
+        },
+        {
+          "id": "26",
+          "name": "Compress Cust. Ledger",
+          "change": "added",
+          "to": {
+            "name": "Compress Cust. Ledger",
+            "type": "Code[10]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Compress Cust. Ledger",
+              "TableRelation": "Source Code"
+            }
+          }
+        },
+        {
+          "id": "27",
+          "name": "Compress Vend. Ledger",
+          "change": "added",
+          "to": {
+            "name": "Compress Vend. Ledger",
+            "type": "Code[10]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Compress Vend. Ledger",
+              "TableRelation": "Source Code"
+            }
+          }
+        },
+        {
+          "id": "28",
+          "name": "Compress Item Ledger",
+          "change": "added",
+          "to": {
+            "name": "Compress Item Ledger",
+            "type": "Code[10]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Compress Item Ledger",
+              "TableRelation": "Source Code"
+            }
+          }
+        },
+        {
+          "id": "31",
+          "name": "Compress Res. Ledger",
+          "change": "added",
+          "to": {
+            "name": "Compress Res. Ledger",
+            "type": "Code[10]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Compress Res. Ledger",
+              "TableRelation": "Source Code"
+            }
+          }
+        },
+        {
+          "id": "32",
+          "name": "Compress Job Ledger",
+          "change": "added",
+          "to": {
+            "name": "Compress Job Ledger",
+            "type": "Code[10]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Compress Job Ledger",
+              "TableRelation": "Source Code"
+            }
+          }
+        },
+        {
+          "id": "33",
+          "name": "Item Reclass. Journal",
+          "change": "added",
+          "to": {
+            "name": "Item Reclass. Journal",
+            "type": "Code[10]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Item Reclass. Journal",
+              "TableRelation": "Source Code"
+            }
+          }
+        },
+        {
+          "id": "34",
+          "name": "Phys. Inventory Journal",
+          "change": "added",
+          "to": {
+            "name": "Phys. Inventory Journal",
+            "type": "Code[10]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Phys. Inventory Journal",
+              "TableRelation": "Source Code"
+            }
+          }
+        },
+        {
+          "id": "35",
+          "name": "Compress Bank Acc. Ledger",
+          "change": "added",
+          "to": {
+            "name": "Compress Bank Acc. Ledger",
+            "type": "Code[10]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Compress Bank Acc. Ledger",
+              "TableRelation": "Source Code"
+            }
+          }
+        },
+        {
+          "id": "36",
+          "name": "Compress Check Ledger",
+          "change": "added",
+          "to": {
+            "name": "Compress Check Ledger",
+            "type": "Code[10]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Compress Check Ledger",
+              "TableRelation": "Source Code"
+            }
+          }
+        },
+        {
+          "id": "37",
+          "name": "Financially Voided Check",
+          "change": "added",
+          "to": {
+            "name": "Financially Voided Check",
+            "type": "Code[10]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Financially Voided Check",
+              "TableRelation": "Source Code"
+            }
+          }
+        },
+        {
+          "id": "38",
+          "name": "Finance Charge Memo",
+          "change": "added",
+          "to": {
+            "name": "Finance Charge Memo",
+            "type": "Code[10]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Finance Charge Memo",
+              "TableRelation": "Source Code"
+            }
+          }
+        },
+        {
+          "id": "39",
+          "name": "Reminder",
+          "change": "added",
+          "to": {
+            "name": "Reminder",
+            "type": "Code[10]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Reminder",
+              "TableRelation": "Source Code"
+            }
+          }
+        },
+        {
+          "id": "40",
+          "name": "Deleted Document",
+          "change": "added",
+          "to": {
+            "name": "Deleted Document",
+            "type": "Code[10]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Deleted Document",
+              "TableRelation": "Source Code"
+            }
+          }
+        },
+        {
+          "id": "41",
+          "name": "Adjust Add. Reporting Currency",
+          "change": "added",
+          "to": {
+            "name": "Adjust Add. Reporting Currency",
+            "type": "Code[10]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Adjust Add. Reporting Currency",
+              "TableRelation": "Source Code"
+            }
+          }
+        },
+        {
+          "id": "42",
+          "name": "Trans. Bank Rec. to Gen. Jnl.",
+          "change": "added",
+          "to": {
+            "name": "Trans. Bank Rec. to Gen. Jnl.",
+            "type": "Code[10]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Trans. Bank Rec. to Gen. Jnl.",
+              "TableRelation": "Source Code"
+            }
+          }
+        },
+        {
+          "id": "43",
+          "name": "IC General Journal",
+          "change": "added",
+          "to": {
+            "name": "IC General Journal",
+            "type": "Code[10]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "IC General Journal",
+              "TableRelation": "Source Code"
+            }
+          }
+        },
+        {
+          "id": "44",
+          "name": "Unapplied Empl. Entry Appln.",
+          "change": "added",
+          "to": {
+            "name": "Unapplied Empl. Entry Appln.",
+            "type": "Code[10]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Unapplied Empl. Entry Appln.",
+              "TableRelation": "Source Code"
+            }
+          }
+        },
+        {
+          "id": "45",
+          "name": "Unapplied Sales Entry Appln.",
+          "change": "added",
+          "to": {
+            "name": "Unapplied Sales Entry Appln.",
+            "type": "Code[10]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Unapplied Sales Entry Appln.",
+              "TableRelation": "Source Code"
+            }
+          }
+        },
+        {
+          "id": "46",
+          "name": "Unapplied Purch. Entry Appln.",
+          "change": "added",
+          "to": {
+            "name": "Unapplied Purch. Entry Appln.",
+            "type": "Code[10]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Unapplied Purch. Entry Appln.",
+              "TableRelation": "Source Code"
+            }
+          }
+        },
+        {
+          "id": "47",
+          "name": "Reversal",
+          "change": "added",
+          "to": {
+            "name": "Reversal",
+            "type": "Code[10]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Reversal",
+              "TableRelation": "Source Code"
+            }
+          }
+        },
+        {
+          "id": "48",
+          "name": "Employee Entry Application",
+          "change": "added",
+          "to": {
+            "name": "Employee Entry Application",
+            "type": "Code[10]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Employee Entry Application",
+              "TableRelation": "Source Code"
+            }
+          }
+        },
+        {
+          "id": "49",
+          "name": "Payment Reconciliation Journal",
+          "change": "added",
+          "to": {
+            "name": "Payment Reconciliation Journal",
+            "type": "Code[10]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Payment Reconciliation Journal",
+              "TableRelation": "Source Code"
+            }
+          }
+        },
+        {
+          "id": "840",
+          "name": "Cash Flow Worksheet",
+          "change": "added",
+          "to": {
+            "name": "Cash Flow Worksheet",
+            "type": "Code[10]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Cash Flow Worksheet",
+              "TableRelation": "Source Code"
+            }
+          }
+        },
+        {
+          "id": "900",
+          "name": "Assembly",
+          "change": "added",
+          "to": {
+            "name": "Assembly",
+            "type": "Code[10]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Assembly",
+              "TableRelation": "Source Code"
+            }
+          }
+        },
+        {
+          "id": "1000",
+          "name": "Job G/L Journal",
+          "change": "added",
+          "to": {
+            "name": "Job G/L Journal",
+            "type": "Code[10]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Project G/L Journal",
+              "TableRelation": "Source Code"
+            }
+          }
+        },
+        {
+          "id": "1001",
+          "name": "Job G/L WIP",
+          "change": "added",
+          "to": {
+            "name": "Job G/L WIP",
+            "type": "Code[10]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Project G/L WIP",
+              "TableRelation": "Source Code"
+            }
+          }
+        },
+        {
+          "id": "1100",
+          "name": "G/L Entry to CA",
+          "change": "added",
+          "to": {
+            "name": "G/L Entry to CA",
+            "type": "Code[10]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "G/L Entry to CA",
+              "TableRelation": "Source Code"
+            }
+          }
+        },
+        {
+          "id": "1102",
+          "name": "Cost Journal",
+          "change": "added",
+          "to": {
+            "name": "Cost Journal",
+            "type": "Code[10]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Cost Journal",
+              "TableRelation": "Source Code"
+            }
+          }
+        },
+        {
+          "id": "1104",
+          "name": "Cost Allocation",
+          "change": "added",
+          "to": {
+            "name": "Cost Allocation",
+            "type": "Code[10]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Cost Allocation",
+              "TableRelation": "Source Code"
+            }
+          }
+        },
+        {
+          "id": "1105",
+          "name": "Transfer Budget to Actual",
+          "change": "added",
+          "to": {
+            "name": "Transfer Budget to Actual",
+            "type": "Code[10]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Transfer Budget to Actual",
+              "TableRelation": "Source Code"
+            }
+          }
+        },
+        {
+          "id": "1700",
+          "name": "General Deferral",
+          "change": "added",
+          "to": {
+            "name": "General Deferral",
+            "type": "Code[10]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "General Deferral",
+              "TableRelation": "Source Code"
+            }
+          }
+        },
+        {
+          "id": "1701",
+          "name": "Sales Deferral",
+          "change": "added",
+          "to": {
+            "name": "Sales Deferral",
+            "type": "Code[10]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Sales Deferral",
+              "TableRelation": "Source Code"
+            }
+          }
+        },
+        {
+          "id": "1702",
+          "name": "Purchase Deferral",
+          "change": "added",
+          "to": {
+            "name": "Purchase Deferral",
+            "type": "Code[10]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Purchase Deferral",
+              "TableRelation": "Source Code"
+            }
+          }
+        },
+        {
+          "id": "5400",
+          "name": "Consumption Journal",
+          "change": "added",
+          "to": {
+            "name": "Consumption Journal",
+            "type": "Code[10]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Consumption Journal",
+              "TableRelation": "Source Code"
+            }
+          }
+        },
+        {
+          "id": "5402",
+          "name": "Output Journal",
+          "change": "added",
+          "to": {
+            "name": "Output Journal",
+            "type": "Code[10]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Output Journal",
+              "TableRelation": "Source Code"
+            }
+          }
+        },
+        {
+          "id": "5403",
+          "name": "Flushing",
+          "change": "added",
+          "to": {
+            "name": "Flushing",
+            "type": "Code[10]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Flushing",
+              "TableRelation": "Source Code"
+            }
+          }
+        },
+        {
+          "id": "5404",
+          "name": "Capacity Journal",
+          "change": "added",
+          "to": {
+            "name": "Capacity Journal",
+            "type": "Code[10]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Capacity Journal",
+              "TableRelation": "Source Code"
+            }
+          }
+        },
+        {
+          "id": "5500",
+          "name": "Production Journal",
+          "change": "added",
+          "to": {
+            "name": "Production Journal",
+            "type": "Code[10]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Production Journal",
+              "TableRelation": "Source Code"
+            }
+          }
+        },
+        {
+          "id": "5502",
+          "name": "Production Order",
+          "change": "added",
+          "to": {
+            "name": "Production Order",
+            "type": "Code[10]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Production Order",
+              "TableRelation": "Source Code"
+            }
+          }
+        },
+        {
+          "id": "5600",
+          "name": "Fixed Asset Journal",
+          "change": "added",
+          "to": {
+            "name": "Fixed Asset Journal",
+            "type": "Code[10]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Fixed Asset Journal",
+              "TableRelation": "Source Code"
+            }
+          }
+        },
+        {
+          "id": "5601",
+          "name": "Fixed Asset G/L Journal",
+          "change": "added",
+          "to": {
+            "name": "Fixed Asset G/L Journal",
+            "type": "Code[10]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Fixed Asset G/L Journal",
+              "TableRelation": "Source Code"
+            }
+          }
+        },
+        {
+          "id": "5602",
+          "name": "Insurance Journal",
+          "change": "added",
+          "to": {
+            "name": "Insurance Journal",
+            "type": "Code[10]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Insurance Journal",
+              "TableRelation": "Source Code"
+            }
+          }
+        },
+        {
+          "id": "5603",
+          "name": "Compress FA Ledger",
+          "change": "added",
+          "to": {
+            "name": "Compress FA Ledger",
+            "type": "Code[10]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Compress FA Ledger",
+              "TableRelation": "Source Code"
+            }
+          }
+        },
+        {
+          "id": "5604",
+          "name": "Compress Maintenance Ledger",
+          "change": "added",
+          "to": {
+            "name": "Compress Maintenance Ledger",
+            "type": "Code[10]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Compress Maintenance Ledger",
+              "TableRelation": "Source Code"
+            }
+          }
+        },
+        {
+          "id": "5605",
+          "name": "Compress Insurance Ledger",
+          "change": "added",
+          "to": {
+            "name": "Compress Insurance Ledger",
+            "type": "Code[10]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Compress Insurance Ledger",
+              "TableRelation": "Source Code"
+            }
+          }
+        },
+        {
+          "id": "5700",
+          "name": "Transfer",
+          "change": "added",
+          "to": {
+            "name": "Transfer",
+            "type": "Code[10]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Transfer",
+              "TableRelation": "Source Code"
+            }
+          }
+        },
+        {
+          "id": "5800",
+          "name": "Revaluation Journal",
+          "change": "added",
+          "to": {
+            "name": "Revaluation Journal",
+            "type": "Code[10]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Revaluation Journal",
+              "TableRelation": "Source Code"
+            }
+          }
+        },
+        {
+          "id": "5801",
+          "name": "Adjust Cost",
+          "change": "added",
+          "to": {
+            "name": "Adjust Cost",
+            "type": "Code[10]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Adjust Cost",
+              "TableRelation": "Source Code"
+            }
+          }
+        },
+        {
+          "id": "5850",
+          "name": "Invt. Receipt",
+          "change": "added",
+          "to": {
+            "name": "Invt. Receipt",
+            "type": "Code[10]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Item Doc. Receipt",
+              "TableRelation": "Source Code"
+            }
+          }
+        },
+        {
+          "id": "5851",
+          "name": "Invt. Shipment",
+          "change": "added",
+          "to": {
+            "name": "Invt. Shipment",
+            "type": "Code[10]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Item Doc. Shipment",
+              "TableRelation": "Source Code"
+            }
+          }
+        },
+        {
+          "id": "5875",
+          "name": "Phys. Invt. Orders",
+          "change": "added",
+          "to": {
+            "name": "Phys. Invt. Orders",
+            "type": "Code[10]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Phys. Invt. Orders",
+              "TableRelation": "Source Code"
+            }
+          }
+        },
+        {
+          "id": "7139",
+          "name": "Compress Item Budget",
+          "change": "added",
+          "to": {
+            "name": "Compress Item Budget",
+            "type": "Code[10]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Compress Item Budget",
+              "TableRelation": "Source Code"
+            }
+          }
+        },
+        {
+          "id": "7300",
+          "name": "Whse. Item Journal",
+          "change": "added",
+          "to": {
+            "name": "Whse. Item Journal",
+            "type": "Code[10]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Whse. Item Journal",
+              "TableRelation": "Source Code"
+            }
+          }
+        },
+        {
+          "id": "7302",
+          "name": "Whse. Phys. Invt. Journal",
+          "change": "added",
+          "to": {
+            "name": "Whse. Phys. Invt. Journal",
+            "type": "Code[10]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Whse. Phys. Invt. Journal",
+              "TableRelation": "Source Code"
+            }
+          }
+        },
+        {
+          "id": "7303",
+          "name": "Whse. Reclassification Journal",
+          "change": "added",
+          "to": {
+            "name": "Whse. Reclassification Journal",
+            "type": "Code[10]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Whse. Reclassification Journal",
+              "TableRelation": "Source Code"
+            }
+          }
+        },
+        {
+          "id": "7304",
+          "name": "Whse. Put-away",
+          "change": "added",
+          "to": {
+            "name": "Whse. Put-away",
+            "type": "Code[10]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Whse. Put-away",
+              "TableRelation": "Source Code"
+            }
+          }
+        },
+        {
+          "id": "7305",
+          "name": "Whse. Pick",
+          "change": "added",
+          "to": {
+            "name": "Whse. Pick",
+            "type": "Code[10]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Whse. Pick",
+              "TableRelation": "Source Code"
+            }
+          }
+        },
+        {
+          "id": "7306",
+          "name": "Whse. Movement",
+          "change": "added",
+          "to": {
+            "name": "Whse. Movement",
+            "type": "Code[10]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Whse. Movement",
+              "TableRelation": "Source Code"
+            }
+          }
+        },
+        {
+          "id": "7307",
+          "name": "Compress Whse. Entries",
+          "change": "added",
+          "to": {
+            "name": "Compress Whse. Entries",
+            "type": "Code[10]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Compress Whse. Entries",
+              "TableRelation": "Source Code"
+            }
+          }
+        },
+        {
+          "id": "5005270",
+          "name": "Delivery Reminder",
+          "change": "added",
+          "to": {
+            "name": "Delivery Reminder",
+            "type": "Code[10]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Delivery Reminder",
+              "TableRelation": "Source Code"
+            }
+          }
+        }
+      ],
+      "obsolete": {
+        "from": null,
+        "to": {
+          "state": "Pending",
+          "tag": "25.0",
+          "reason": "Source Code Setup is moved to Business Foundation"
+        }
+      }
+    },
+    {
+      "key": "table/254",
+      "name": "VAT Entry",
+      "change": "replaced",
+      "fields": [
+        {
+          "id": "11000",
+          "name": "G/L Account No.",
+          "change": "added",
+          "to": {
+            "name": "G/L Account No.",
+            "type": "Code[20]",
+            "obsolete": {
+              "state": "Removed",
+              "tag": "25.0",
+              "reason": "\"The field is moved to W1 G/L Acc. No.\""
+            },
+            "clean": [
+              "CLEANSCHEMA25"
+            ],
+            "properties": {
+              "Caption": "G/L Account No.",
+              "ObsoleteReason": "\"The field is moved to W1 G/L Acc. No.\"",
+              "ObsoleteState": "Removed",
+              "TableRelation": "G/L Account",
+              "ObsoleteTag": "25.0"
+            }
+          }
+        }
+      ],
+      "keys": [
+        {
+          "id": "key9",
+          "name": "Key9",
+          "change": "changed",
+          "from": {
+            "fields": [
+              "Type",
+              "Closed",
+              "VAT Bus. Posting Group",
+              "VAT Prod. Posting Group",
+              "Tax Jurisdiction Code",
+              "Use Tax",
+              "Posting Date",
+              "G/L Acc. No."
+            ],
+            "clustered": false
+          },
+          "to": {
+            "fields": [
+              "Bill-to/Pay-to No.",
+              "EU 3-Party Trade",
+              "Type",
+              "Posting Date"
+            ],
+            "clustered": false
+          }
+        },
+        {
+          "id": "key10",
+          "name": "Key10",
+          "change": "changed",
+          "from": {
+            "fields": [
+              "Posting Date",
+              "Type",
+              "Closed",
+              "VAT Bus. Posting Group",
+              "VAT Prod. Posting Group",
+              "Reversed",
+              "G/L Acc. No.",
+              "VAT Reporting Date"
+            ],
+            "clustered": false
+          },
+          "to": {
+            "fields": [
+              "Closed by Entry No."
+            ],
+            "clustered": false
+          }
+        },
+        {
+          "id": "key11",
+          "name": "Key11",
+          "change": "changed",
+          "from": {
+            "fields": [
+              "Document Date"
+            ],
+            "clustered": false
+          },
+          "to": {
+            "fields": [
+              "Type",
+              "Closed",
+              "VAT Bus. Posting Group",
+              "VAT Prod. Posting Group",
+              "Tax Jurisdiction Code",
+              "Use Tax",
+              "Posting Date",
+              "G/L Acc. No."
+            ],
+            "clustered": false
+          }
+        },
+        {
+          "id": "key12",
+          "name": "Key12",
+          "change": "changed",
+          "from": {
+            "fields": [
+              "G/L Acc. No."
+            ],
+            "clustered": false
+          },
+          "to": {
+            "fields": [
+              "Country/Region Code",
+              "Posting Date"
+            ],
+            "clustered": false
+          }
+        },
+        {
+          "id": "key13",
+          "name": "Key13",
+          "change": "changed",
+          "from": {
+            "fields": [
+              "Type",
+              "Closed",
+              "VAT Bus. Posting Group",
+              "VAT Prod. Posting Group",
+              "Reversed",
+              "Posting Date",
+              "G/L Acc. No.",
+              "VAT Reporting Date"
+            ],
+            "clustered": false
+          },
+          "to": {
+            "fields": [
+              "Gen. Prod. Posting Group",
+              "Posting Date"
+            ],
+            "clustered": false
+          }
+        },
+        {
+          "id": "key14",
+          "name": "Key14",
+          "change": "added",
+          "to": {
+            "fields": [
+              "Posting Date",
+              "Type",
+              "Closed",
+              "VAT Bus. Posting Group",
+              "VAT Prod. Posting Group",
+              "Reversed",
+              "G/L Acc. No.",
+              "VAT Reporting Date"
+            ],
+            "clustered": false
+          }
+        },
+        {
+          "id": "key16",
+          "name": "Key16",
+          "change": "added",
+          "to": {
+            "fields": [
+              "Document Date"
+            ],
+            "clustered": false
+          }
+        },
+        {
+          "id": "key17",
+          "name": "Key17",
+          "change": "added",
+          "to": {
+            "fields": [
+              "G/L Acc. No."
+            ],
+            "clustered": false
+          }
+        },
+        {
+          "id": "key18",
+          "name": "Key18",
+          "change": "added",
+          "to": {
+            "fields": [
+              "Type",
+              "Closed",
+              "VAT Bus. Posting Group",
+              "VAT Prod. Posting Group",
+              "Reversed",
+              "Posting Date",
+              "G/L Acc. No.",
+              "VAT Reporting Date"
+            ],
+            "clustered": false
+          }
+        }
+      ]
+    },
+    {
+      "key": "table/257",
+      "name": "VAT Statement Name",
+      "change": "replaced",
+      "fields": [
+        {
+          "id": "11000",
+          "name": "Sales VAT Adv. Notification",
+          "change": "added",
+          "to": {
+            "name": "Sales VAT Adv. Notification",
+            "type": "Boolean",
+            "obsolete": {
+              "state": "Removed",
+              "tag": "25.0",
+              "reason": "Moved to Elster extension, new field Sales VAT Adv. Notif."
+            },
+            "clean": [
+              "CLEANSCHEMA25"
+            ],
+            "properties": {
+              "Caption": "Sales VAT Adv. Notification",
+              "ObsoleteReason": "Moved to Elster extension, new field Sales VAT Adv. Notif.",
+              "ObsoleteState": "Removed",
+              "ObsoleteTag": "25.0"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "table/260",
+      "name": "Tariff Number",
+      "change": "replaced",
+      "fields": [
+        {
+          "id": "2",
+          "name": "Description",
+          "change": "changed",
+          "from": {
+            "name": "Description",
+            "type": "Text[100]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Description",
+              "ToolTip": "Specifies a description of the item."
+            }
+          },
+          "to": {
+            "name": "Description",
+            "type": "Text[250]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Description",
+              "ToolTip": "Specifies a description of the item."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "table/263",
+      "name": "Intrastat Jnl. Line",
+      "change": "replaced",
+      "fields": [
+        {
+          "id": "14",
+          "name": "Amount",
+          "change": "changed",
+          "from": {
+            "name": "Amount",
+            "type": "Decimal",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "AutoFormatType": "0",
+              "Caption": "Amount",
+              "DecimalPlaces": "0 : 0"
+            }
+          },
+          "to": {
+            "name": "Amount",
+            "type": "Decimal",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "AutoFormatType": "0",
+              "Caption": "Amount"
+            }
+          }
+        },
+        {
+          "id": "15",
+          "name": "Quantity",
+          "change": "changed",
+          "from": {
+            "name": "Quantity",
+            "type": "Decimal",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "AutoFormatType": "0",
+              "Caption": "Quantity",
+              "DecimalPlaces": "0 : 0"
+            }
+          },
+          "to": {
+            "name": "Quantity",
+            "type": "Decimal",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "AutoFormatType": "0",
+              "Caption": "Quantity"
+            }
+          }
+        },
+        {
+          "id": "18",
+          "name": "Statistical Value",
+          "change": "changed",
+          "from": {
+            "name": "Statistical Value",
+            "type": "Decimal",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "AutoFormatType": "0",
+              "Caption": "Statistical Value",
+              "DecimalPlaces": "0 : 0"
+            }
+          },
+          "to": {
+            "name": "Statistical Value",
+            "type": "Decimal",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "AutoFormatType": "0",
+              "Caption": "Statistical Value"
+            }
+          }
+        },
+        {
+          "id": "22",
+          "name": "Total Weight",
+          "change": "changed",
+          "from": {
+            "name": "Total Weight",
+            "type": "Decimal",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "AutoFormatType": "0",
+              "Caption": "Total Weight",
+              "DecimalPlaces": "0 : 0",
+              "Editable": "false"
+            }
+          },
+          "to": {
+            "name": "Total Weight",
+            "type": "Decimal",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "AutoFormatType": "0",
+              "Caption": "Total Weight",
+              "DecimalPlaces": "2 : 5",
+              "Editable": "false"
+            }
+          }
+        }
+      ],
+      "keys": [
+        {
+          "id": "key3",
+          "name": "Key3",
+          "change": "added",
+          "to": {
+            "fields": [
+              "Type",
+              "Country/Region Code",
+              "Tariff No.",
+              "Transaction Type",
+              "Transport Method",
+              "Area",
+              "Entry/Exit Point",
+              "Transaction Specification",
+              "Country/Region of Origin Code",
+              "Partner VAT ID"
+            ],
+            "clustered": false
+          }
+        },
+        {
+          "id": "key4",
+          "name": "Key4",
+          "change": "added",
+          "to": {
+            "fields": [
+              "Internal Ref. No."
+            ],
+            "clustered": false
+          }
+        },
+        {
+          "id": "key5",
+          "name": "Key5",
+          "change": "changed",
+          "from": {
+            "fields": [
+              "Document No."
+            ],
+            "clustered": false
+          },
+          "to": {
+            "fields": [
+              "Journal Template Name",
+              "Journal Batch Name",
+              "Type",
+              "Internal Ref. No."
+            ],
+            "clustered": false
+          }
+        },
+        {
+          "id": "key6",
+          "name": "Key6",
+          "change": "changed",
+          "from": {
+            "fields": [
+              "Journal Template Name",
+              "Journal Batch Name",
+              "Type",
+              "Internal Ref. No."
+            ],
+            "clustered": false
+          },
+          "to": {
+            "fields": [
+              "Journal Template Name",
+              "Journal Batch Name",
+              "Type",
+              "Country/Region Code",
+              "Tariff No.",
+              "Transaction Type",
+              "Transport Method",
+              "Area",
+              "Transaction Specification",
+              "Country/Region of Origin Code",
+              "Partner VAT ID"
+            ],
+            "clustered": false
+          }
+        },
+        {
+          "id": "key7",
+          "name": "Key7",
+          "change": "changed",
+          "from": {
+            "fields": [
+              "Journal Template Name",
+              "Journal Batch Name",
+              "Type",
+              "Country/Region Code",
+              "Tariff No.",
+              "Transaction Type",
+              "Transport Method",
+              "Country/Region of Origin Code",
+              "Partner VAT ID"
+            ],
+            "clustered": false
+          },
+          "to": {
+            "fields": [
+              "Type",
+              "Internal Ref. No."
+            ],
+            "clustered": false
+          }
+        },
+        {
+          "id": "key8",
+          "name": "Key8",
+          "change": "added",
+          "to": {
+            "fields": [
+              "Document No."
+            ],
+            "clustered": false
+          }
+        }
+      ]
+    },
+    {
+      "key": "table/285",
+      "name": "Transaction Specification",
+      "change": "replaced",
+      "fields": [
+        {
+          "id": "2",
+          "name": "Text",
+          "change": "changed",
+          "from": {
+            "name": "Text",
+            "type": "Text[50]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Text",
+              "ToolTip": "Specifies a description of the transaction specification."
+            }
+          },
+          "to": {
+            "name": "Text",
+            "type": "Text[200]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Text",
+              "ToolTip": "Specifies a description of the transaction specification."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "table/312",
+      "name": "Purchases & Payables Setup",
+      "change": "replaced",
+      "fields": [
+        {
+          "id": "5005230",
+          "name": "Arch. Orders and Ret. Orders",
+          "change": "added",
+          "to": {
+            "name": "Arch. Orders and Ret. Orders",
+            "type": "Boolean",
+            "obsolete": {
+              "state": "Removed",
+              "tag": "25.0",
+              "reason": "Merged to W1"
+            },
+            "clean": [
+              "CLEANSCHEMA25"
+            ],
+            "properties": {
+              "Caption": "Arch. Orders and Ret. Orders",
+              "ObsoleteReason": "Merged to W1",
+              "ObsoleteState": "Removed",
+              "ObsoleteTag": "25.0"
+            }
+          }
+        },
+        {
+          "id": "5005232",
+          "name": "Archiving Purchase Quote",
+          "change": "added",
+          "to": {
+            "name": "Archiving Purchase Quote",
+            "type": "Option",
+            "obsolete": {
+              "state": "Removed",
+              "tag": "25.0",
+              "reason": "Merged to W1"
+            },
+            "clean": [
+              "CLEANSCHEMA25"
+            ],
+            "properties": {
+              "Caption": "Archiving Purchase Quote",
+              "ObsoleteReason": "Merged to W1",
+              "ObsoleteState": "Removed",
+              "OptionCaption": "Never,Question,Always",
+              "OptionMembers": "Never,Question,Always",
+              "ObsoleteTag": "25.0"
+            }
+          }
+        },
+        {
+          "id": "5005233",
+          "name": "Archiving Blanket Purch. Order",
+          "change": "added",
+          "to": {
+            "name": "Archiving Blanket Purch. Order",
+            "type": "Boolean",
+            "obsolete": {
+              "state": "Removed",
+              "tag": "25.0",
+              "reason": "Merged to W1"
+            },
+            "clean": [
+              "CLEANSCHEMA25"
+            ],
+            "properties": {
+              "Caption": "Archiving Blanket Purch. Order",
+              "ObsoleteReason": "Merged to W1",
+              "ObsoleteState": "Removed",
+              "ObsoleteTag": "25.0"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "table/313",
+      "name": "Inventory Setup",
+      "change": "replaced",
+      "fields": [
+        {
+          "id": "5005350",
+          "name": "Phys. Inv. Order Nos.",
+          "change": "added",
+          "to": {
+            "name": "Phys. Inv. Order Nos.",
+            "type": "Code[20]",
+            "obsolete": {
+              "state": "Removed",
+              "tag": "25.0",
+              "reason": "Merged to W1"
+            },
+            "clean": [
+              "CLEANSCHEMA25"
+            ],
+            "properties": {
+              "Caption": "Phys. Inv. Order Nos.",
+              "ObsoleteReason": "Merged to W1",
+              "ObsoleteState": "Removed",
+              "TableRelation": "No. Series",
+              "ObsoleteTag": "25.0"
+            }
+          }
+        },
+        {
+          "id": "5005352",
+          "name": "Posted Phys. Inv. Order Nos.",
+          "change": "added",
+          "to": {
+            "name": "Posted Phys. Inv. Order Nos.",
+            "type": "Code[20]",
+            "obsolete": {
+              "state": "Removed",
+              "tag": "25.0",
+              "reason": "Merged to W1"
+            },
+            "clean": [
+              "CLEANSCHEMA25"
+            ],
+            "properties": {
+              "Caption": "Posted Phys. Inv. Order Nos.",
+              "ObsoleteReason": "Merged to W1",
+              "ObsoleteState": "Removed",
+              "TableRelation": "No. Series",
+              "ObsoleteTag": "25.0"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "table/324",
+      "name": "VAT Product Posting Group",
+      "change": "replaced",
+      "procedures": [
+        {
+          "id": "lookupvatproductpostinggroupfilter(text)",
+          "name": "LookupVATProductPostingGroupFilter",
+          "change": "added",
+          "to": {
+            "scope": "global",
+            "params": [
+              {
+                "name": "FilterString",
+                "type": "Text",
+                "var": true
+              }
+            ],
+            "returns": "Boolean",
+            "event": null,
+            "obsolete": null,
+            "subscribes_to": null,
+            "attributes": [
+              {
+                "name": "Scope",
+                "args": [
+                  "'OnPrem'"
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "table/325",
+      "name": "VAT Posting Setup",
+      "change": "replaced",
+      "fields": [
+        {
+          "id": "6",
+          "name": "Adjust for Payment Discount",
+          "change": "changed",
+          "from": {
+            "name": "Adjust for Payment Discount",
+            "type": "Boolean",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Adjust for Payment Discount",
+              "ToolTip": "Specifies whether to recalculate VAT amounts when you post payments that trigger payment discounts."
+            }
+          },
+          "to": {
+            "name": "Adjust for Payment Discount",
+            "type": "Boolean",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Adjust for Payment Discount",
+              "ToolTip": "Specifies whether to recalculate VAT amounts when you post payments that trigger payment discounts.",
+              "InitValue": "true"
+            }
+          }
+        },
+        {
+          "id": "6201",
+          "name": "Non-Ded. Sales VAT Account",
+          "change": "added",
+          "to": {
+            "name": "Non-Ded. Sales VAT Account",
+            "type": "Code[20]",
+            "obsolete": {
+              "state": "Removed",
+              "tag": "26.0",
+              "reason": "Non-Deductible VAT is not implemented for Sales."
+            },
+            "clean": [
+              "CLEANSCHEMA26"
+            ],
+            "properties": {
+              "Caption": "Non-Deductible Sales VAT Account",
+              "TableRelation": "G/L Account",
+              "ObsoleteReason": "Non-Deductible VAT is not implemented for Sales.",
+              "ObsoleteState": "Removed",
+              "ObsoleteTag": "26.0"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "table/596",
+      "name": "Exch. Rate Adjmt. Parameters",
+      "change": "replaced",
+      "fields": [
+        {
+          "id": "11000",
+          "name": "Valuation Method",
+          "change": "added",
+          "to": {
+            "name": "Valuation Method",
+            "type": "Integer",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Valuation Method",
+              "DataClassification": "SystemMetadata"
+            }
+          }
+        },
+        {
+          "id": "11001",
+          "name": "Valuation Period End Date",
+          "change": "added",
+          "to": {
+            "name": "Valuation Period End Date",
+            "type": "Date",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Valuation Period End Date",
+              "DataClassification": "SystemMetadata"
+            }
+          }
+        },
+        {
+          "id": "11002",
+          "name": "Due Date To",
+          "change": "added",
+          "to": {
+            "name": "Due Date To",
+            "type": "Date",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Due Date To",
+              "DataClassification": "SystemMetadata"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "table/743",
+      "name": "VAT Report Setup",
+      "change": "replaced",
+      "fields": [
+        {
+          "id": "11006",
+          "name": "Company Name",
+          "change": "added",
+          "to": {
+            "name": "Company Name",
+            "type": "Text[100]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Company Name"
+            }
+          }
+        },
+        {
+          "id": "11007",
+          "name": "Company Address",
+          "change": "added",
+          "to": {
+            "name": "Company Address",
+            "type": "Text[30]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Company Address"
+            }
+          }
+        },
+        {
+          "id": "11008",
+          "name": "Company City",
+          "change": "added",
+          "to": {
+            "name": "Company City",
+            "type": "Text[30]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Company City"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "table/746",
+      "name": "VAT Reports Configuration",
+      "change": "replaced",
+      "fields": [
+        {
+          "id": "1",
+          "name": "VAT Report Type",
+          "change": "changed",
+          "from": {
+            "name": "VAT Report Type",
+            "type": "Enum \"VAT Report Configuration\"",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "VAT Report Type",
+              "ToolTip": "Specifies if you want to create a new VAT report, or if you want to change a previously submitted report."
+            }
+          },
+          "to": {
+            "name": "VAT Report Type",
+            "type": "Option",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "VAT Report Type",
+              "ToolTip": "Specifies if you want to create a new VAT report, or if you want to change a previously submitted report.",
+              "OptionCaption": "EC Sales List,VAT Return,Intrastat Report,Service Declaration",
+              "OptionMembers": "\"EC Sales List\",\"VAT Return\",\"Intrastat Report\",\"Service Declaration\""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "table/1383",
+      "name": "Vendor Templ.",
+      "change": "replaced",
+      "fields": [
+        {
+          "id": "14",
+          "name": "Our Account No.",
+          "change": "changed",
+          "from": {
+            "name": "Our Account No.",
+            "type": "Text[20]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Our Account No.",
+              "ToolTip": "Specifies your account number with the vendor, if you have one."
+            }
+          },
+          "to": {
+            "name": "Our Account No.",
+            "type": "Text[20]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Our Account No.",
+              "MaskType": "Concealed",
+              "ToolTip": "Specifies your account number with the vendor, if you have one."
+            }
+          }
+        },
+        {
+          "id": "11000",
+          "name": "Registration No.",
+          "change": "added",
+          "to": {
+            "name": "Registration No.",
+            "type": "Text[20]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Registration No."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "table/5108",
+      "name": "Sales Line Archive",
+      "change": "replaced",
+      "keys": [
+        {
+          "id": "key6",
+          "name": "Key6",
+          "change": "changed",
+          "from": {
+            "fields": [
+              "Document No.",
+              "Document Type",
+              "Doc. No. Occurrence",
+              "Version No."
+            ],
+            "clustered": false
+          },
+          "to": {
+            "fields": [
+              "Document Type",
+              "Blanket Order No.",
+              "Blanket Order Line No."
+            ],
+            "clustered": false
+          }
+        },
+        {
+          "id": "key7",
+          "name": "Key7",
+          "change": "added",
+          "to": {
+            "fields": [
+              "Document No.",
+              "Document Type",
+              "Doc. No. Occurrence",
+              "Version No."
+            ],
+            "clustered": false
+          }
+        }
+      ]
+    },
+    {
+      "key": "table/5109",
+      "name": "Purchase Header Archive",
+      "change": "replaced",
+      "fields": [
+        {
+          "id": "11000",
+          "name": "Registration No.",
+          "change": "added",
+          "to": {
+            "name": "Registration No.",
+            "type": "Text[20]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Registration No."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "table/5110",
+      "name": "Purchase Line Archive",
+      "change": "replaced",
+      "keys": [
+        {
+          "id": "key5",
+          "name": "Key5",
+          "change": "changed",
+          "from": {
+            "fields": [
+              "Document No.",
+              "Document Type",
+              "Doc. No. Occurrence",
+              "Version No."
+            ],
+            "clustered": false
+          },
+          "to": {
+            "fields": [
+              "Document Type",
+              "Blanket Order No.",
+              "Blanket Order Line No."
+            ],
+            "clustered": false
+          }
+        },
+        {
+          "id": "key6",
+          "name": "Key6",
+          "change": "added",
+          "to": {
+            "fields": [
+              "Document No.",
+              "Document Type",
+              "Doc. No. Occurrence",
+              "Version No."
+            ],
+            "clustered": false
+          }
+        }
+      ]
+    },
+    {
+      "key": "table/5600",
+      "name": "Fixed Asset",
+      "change": "replaced",
+      "fields": [
+        {
+          "id": "11101",
+          "name": "BWR Depr. Book Code",
+          "change": "added",
+          "to": {
+            "name": "BWR Depr. Book Code",
+            "type": "Code[10]",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "BWR Depr. Book Code",
+              "TableRelation": "\"FA Depreciation Book\".\"Depreciation Book Code\" where(\"FA No.\" = field(\"No.\"))"
+            }
+          }
+        },
+        {
+          "id": "11102",
+          "name": "Prem Depr. %",
+          "change": "added",
+          "to": {
+            "name": "Prem Depr. %",
+            "type": "Integer",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Prem Depr. %",
+              "Editable": "false"
+            }
+          }
+        },
+        {
+          "id": "11103",
+          "name": "Prem. Depr. Amount",
+          "change": "added",
+          "to": {
+            "name": "Prem. Depr. Amount",
+            "type": "Decimal",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "AutoFormatType": "1",
+              "AutoFormatExpression": "",
+              "Caption": "Prem. Depr. Amount",
+              "Editable": "false"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "table/5611",
+      "name": "Depreciation Book",
+      "change": "replaced",
+      "fields": [
+        {
+          "id": "33",
+          "name": "Mark Errors as Corrections",
+          "change": "changed",
+          "from": {
+            "name": "Mark Errors as Corrections",
+            "type": "Boolean",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Mark Errors as Corrections"
+            }
+          },
+          "to": {
+            "name": "Mark Errors as Corrections",
+            "type": "Boolean",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "Caption": "Mark Errors as Corrections",
+              "InitValue": "true"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "table/5612",
+      "name": "FA Depreciation Book",
+      "change": "replaced",
+      "properties": [
+        {
+          "name": "LookupPageID",
+          "from": null,
+          "to": "FA Depreciation Books"
+        }
+      ]
+    },
+    {
+      "key": "table/5821",
+      "name": "Item Statistics Buffer",
+      "change": "replaced",
+      "fields": [
+        {
+          "id": "11500",
+          "name": "Inv. Valuation Actual",
+          "change": "added",
+          "to": {
+            "name": "Inv. Valuation Actual",
+            "type": "Decimal",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "AutoFormatType": "1",
+              "AutoFormatExpression": "",
+              "DataClassification": "SystemMetadata"
+            }
+          }
+        },
+        {
+          "id": "11501",
+          "name": "Inv. Valuation Exp.",
+          "change": "added",
+          "to": {
+            "name": "Inv. Valuation Exp.",
+            "type": "Decimal",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "AutoFormatType": "1",
+              "AutoFormatExpression": "",
+              "Caption": "Inv. Valuation Exp.",
+              "DataClassification": "SystemMetadata"
+            }
+          }
+        },
+        {
+          "id": "11502",
+          "name": "Inv. Posted to GL",
+          "change": "added",
+          "to": {
+            "name": "Inv. Posted to GL",
+            "type": "Decimal",
+            "obsolete": null,
+            "clean": null,
+            "properties": {
+              "AutoFormatType": "1",
+              "AutoFormatExpression": "",
+              "Caption": "Inv. Posted to GL",
+              "DataClassification": "SystemMetadata"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "table/11000",
+      "name": "Place of Dispatcher",
+      "change": "added"
+    },
+    {
+      "key": "table/11001",
+      "name": "Place of Receiver",
+      "change": "added"
+    },
+    {
+      "key": "table/11002",
+      "name": "Data Export",
+      "change": "added"
+    },
+    {
+      "key": "table/11003",
+      "name": "Data Export Record Definition",
+      "change": "added"
+    },
+    {
+      "key": "table/11004",
+      "name": "Data Export Record Source",
+      "change": "added"
+    },
+    {
+      "key": "table/11005",
+      "name": "Data Export Record Field",
+      "change": "added"
+    },
+    {
+      "key": "table/11006",
+      "name": "Data Export Table Relation",
+      "change": "added"
+    },
+    {
+      "key": "table/11007",
+      "name": "Data Export Record Type",
+      "change": "added"
+    },
+    {
+      "key": "table/11008",
+      "name": "Data Export Buffer",
+      "change": "added"
+    },
+    {
+      "key": "table/11009",
+      "name": "Data Export Setup",
+      "change": "added"
+    },
+    {
+      "key": "table/11010",
+      "name": "Data Exp. Primary Key Buffer",
+      "change": "added"
+    },
+    {
+      "key": "table/11014",
+      "name": "Certificate",
+      "change": "added"
+    },
+    {
+      "key": "table/11015",
+      "name": "Key Buffer",
+      "change": "added"
+    },
+    {
+      "key": "table/11016",
+      "name": "Number Series Buffer",
+      "change": "added"
+    },
+    {
+      "key": "table/26100",
+      "name": "DACH Report Selections",
+      "change": "added"
+    },
+    {
+      "key": "table/5005270",
+      "name": "Delivery Reminder Header",
+      "change": "added"
+    },
+    {
+      "key": "table/5005271",
+      "name": "Delivery Reminder Line",
+      "change": "added"
+    },
+    {
+      "key": "table/5005272",
+      "name": "Issued Deliv. Reminder Header",
+      "change": "added"
+    },
+    {
+      "key": "table/5005273",
+      "name": "Issued Deliv. Reminder Line",
+      "change": "added"
+    },
+    {
+      "key": "table/5005274",
+      "name": "Delivery Reminder Ledger Entry",
+      "change": "added"
+    },
+    {
+      "key": "table/5005275",
+      "name": "Delivery Reminder Comment Line",
+      "change": "added"
+    },
+    {
+      "key": "table/5005276",
+      "name": "Delivery Reminder Term",
+      "change": "added"
+    },
+    {
+      "key": "table/5005277",
+      "name": "Delivery Reminder Level",
+      "change": "added"
+    },
+    {
+      "key": "table/5005278",
+      "name": "Delivery Reminder Text",
+      "change": "added"
+    },
+    {
+      "key": "table/5005350",
+      "name": "Phys. Inventory Order Header",
+      "change": "added"
+    },
+    {
+      "key": "table/5005351",
+      "name": "Phys. Inventory Order Line",
+      "change": "added"
+    },
+    {
+      "key": "table/5005352",
+      "name": "Phys. Invt. Recording Header",
+      "change": "added"
+    },
+    {
+      "key": "table/5005353",
+      "name": "Phys. Invt. Recording Line",
+      "change": "added"
+    },
+    {
+      "key": "table/5005354",
+      "name": "Post. Phys. Invt. Order Header",
+      "change": "added"
+    },
+    {
+      "key": "table/5005355",
+      "name": "Posted Phys. Invt. Order Line",
+      "change": "added"
+    },
+    {
+      "key": "table/5005356",
+      "name": "Posted Phys. Invt. Rec. Header",
+      "change": "added"
+    },
+    {
+      "key": "table/5005357",
+      "name": "Posted Phys. Invt. Rec. Line",
+      "change": "added"
+    },
+    {
+      "key": "table/5005358",
+      "name": "Phys. Inventory Comment Line",
+      "change": "added"
+    },
+    {
+      "key": "table/5005359",
+      "name": "Posted Phys. Invt. Track. Line",
+      "change": "added"
+    },
+    {
+      "key": "table/5005360",
+      "name": "Phys. Invt. Tracking Buffer",
+      "change": "added"
+    },
+    {
+      "key": "table/5005361",
+      "name": "Expect. Phys. Inv. Track. Line",
+      "change": "added"
+    },
+    {
+      "key": "table/5005362",
+      "name": "Post. Exp. Ph. In. Track. Line",
+      "change": "added"
+    },
+    {
+      "key": "table/5005363",
+      "name": "Phys. Invt. Diff. List Buffer",
+      "change": "added"
+    },
+    {
+      "key": "tableextension/5005270",
+      "name": "SourceCodeSetupDACH",
+      "change": "added"
+    },
+    {
+      "key": "tableextension/5005280",
+      "name": "DRVendor",
+      "change": "added"
+    },
+    {
+      "key": "tableextension/5005281",
+      "name": "DRVendorTempl",
+      "change": "added"
+    },
+    {
+      "key": "tableextension/5005282",
+      "name": "DRPurchSetup",
+      "change": "added"
+    },
+    {
+      "key": "tableextension/5005283",
+      "name": "DRExtendedTextHeader",
+      "change": "added"
+    },
+    {
+      "key": "xmlport/5050",
+      "name": "Export Contact",
+      "change": "replaced",
+      "properties": [
+        {
+          "name": "FieldSeparator",
+          "from": null,
+          "to": ";"
+        }
+      ]
+    },
+    {
+      "key": "xmlport/5051",
+      "name": "Export Segment Contact",
+      "change": "replaced",
+      "properties": [
+        {
+          "name": "FieldSeparator",
+          "from": null,
+          "to": ";"
+        }
+      ]
+    }
+  ]
+}

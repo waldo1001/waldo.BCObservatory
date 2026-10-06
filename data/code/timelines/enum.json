@@ -1,0 +1,8740 @@
+{
+  "versions": [
+    "28",
+    "29",
+    "30"
+  ],
+  "objects": {
+    "5": {
+      "name": "Interest Calculation Method",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "6": {
+      "name": "Gen. Journal Document Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "8": {
+      "name": "Country/Region Address Format",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "12": {
+      "name": "VAT Statement Report Selection",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "13": {
+      "name": "VAT Statement Report Period Selection",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "14": {
+      "name": "Location Default Bin Selection",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "15": {
+      "name": "G/L Account Category",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "16": {
+      "name": "G/L Account Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "18": {
+      "name": "G/L Account Income/Balance",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "19": {
+      "name": "Item Price Profit Calculation",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "20": {
+      "name": "G/L Account Report Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "25": {
+      "name": "Show Empty Amount Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "27": {
+      "name": "Item Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "28": {
+      "name": "Costing Method",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "30": {
+      "name": "Automatic Cost Adjustment Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "35": {
+      "name": "Default Posting Date",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "36": {
+      "name": "Sales Document Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "37": {
+      "name": "Sales Line Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "38": {
+      "name": "Purchase Document Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "39": {
+      "name": "Purchase Line Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "40": {
+      "name": "Item Journal Entry Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "41": {
+      "name": "Navigate After Posting",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "43": {
+      "name": "Purchase Comment Document Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "44": {
+      "name": "Sales Comment Document Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "48": {
+      "name": "Invt. Posting Buffer Account Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "49": {
+      "name": "Invoice Posting Line Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "50": {
+      "name": "Show Currency",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "51": {
+      "name": "Currency Symbol Position",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "30"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "53": {
+      "name": "Gen. Journal Recurring Method",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "57": {
+      "name": "General Posting Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "58": {
+      "name": "Batch Processing Artifact Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "59": {
+      "name": "Auto Format",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "61": {
+      "name": "Electronic Document Format Usage",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "62": {
+      "name": "Document Sending Profile Usage",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "63": {
+      "name": "Document Sending Profile Attachment Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "64": {
+      "name": "Doc. Sending Profile Elec.Doc.",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "65": {
+      "name": "Doc. Sending Profile Disk",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "66": {
+      "name": "Doc. Sending Profile Send To",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "73": {
+      "name": "Planning Surplus Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "77": {
+      "name": "Report Selection Usage",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "78": {
+      "name": "Item Ledger Entry Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "79": {
+      "name": "Item Ledger Document Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "80": {
+      "name": "Invoice Posting Policy",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "81": {
+      "name": "Gen. Journal Account Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "82": {
+      "name": "Gen. Journal Source Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "83": {
+      "name": "Item Journal Template Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "84": {
+      "name": "IC Journal Account Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "85": {
+      "name": "Acc. Schedule Line Totaling Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "87": {
+      "name": "Email Body Layout Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "89": {
+      "name": "Gen. Journal Template Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "90": {
+      "name": "Inventory Order Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "91": {
+      "name": "BOM Component Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "96": {
+      "name": "Payment Balance Account Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "97": {
+      "name": "Comment Line Table Name",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "98": {
+      "name": "G/L Setup VAT Calculation",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "100": {
+      "name": "Reserve Method",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "101": {
+      "name": "Item Substitute Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "102": {
+      "name": "Item Substitution Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "103": {
+      "name": "Import Consolidation Data",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "104": {
+      "name": "Cost Entry Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "106": {
+      "name": "Cost Variance Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "107": {
+      "name": "IC Partner Reference Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "108": {
+      "name": "IC Partner Inbox Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "109": {
+      "name": "Net Cust/Vend Balances Order",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "113": {
+      "name": "Matrix Page Step Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "114": {
+      "name": "G/L Budget Matrix Dimensions",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "124": {
+      "name": "Sales Document IC Status",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "125": {
+      "name": "Purchase Document IC Status",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "129": {
+      "name": "IC Direction Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "130": {
+      "name": "Incoming Document Status",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "131": {
+      "name": "Incoming Doc. Selection Action",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "133": {
+      "name": "Incoming Document Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "134": {
+      "name": "Partner Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "135": {
+      "name": "Attachment Entity Buffer Document Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "136": {
+      "name": "Dimension Set Entry Buffer Parent Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "138": {
+      "name": "Attachment Entity Buffer Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "139": {
+      "name": "Customer Blocked",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "140": {
+      "name": "Vendor Blocked",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "141": {
+      "name": "Incoming Related Document Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "150": {
+      "name": "Signup Context",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "180": {
+      "name": "Reversal Entry Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "204": {
+      "name": "Alt. Cust. VAT Reg. Consist.",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "205": {
+      "name": "Alt. Cust VAT Reg. Doc.",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "206": {
+      "name": "Ship-To Alt. Cust. VAT Reg.",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "207": {
+      "name": "Res. Journal Line Source Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "208": {
+      "name": "Res. Journal Line Entry Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "210": {
+      "name": "Job Journal Line Entry Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "220": {
+      "name": "Business Unit File Format",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "229": {
+      "name": "Sales Order Print Option",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "230": {
+      "name": "Sales Invoice Print Option",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "232": {
+      "name": "Customer Apply Calculation Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "233": {
+      "name": "Vendor Apply Calculation Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "234": {
+      "name": "Customer Apply-to Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "235": {
+      "name": "Vendor Apply-to Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "240": {
+      "name": "VAT Registration Log Account Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "241": {
+      "name": "VAT Reg. No. Srv. Template Account Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "242": {
+      "name": "VAT Reg. Log Details Status",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "243": {
+      "name": "VAT Reg. Log Details Field",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "244": {
+      "name": "VAT Reg. Log Details Field Status",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "246": {
+      "name": "Requisition Line Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "247": {
+      "name": "Req. Worksheet Template Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "252": {
+      "name": "Tax System Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "253": {
+      "name": "Tax Identification Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "254": {
+      "name": "Tax Calculation Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "255": {
+      "name": "VAT Reporting Date",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "256": {
+      "name": "VAT Statement Line Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "257": {
+      "name": "VAT Date Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "258": {
+      "name": "VAT Statement Line Amount Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "259": {
+      "name": "VAT Reporting Date Usage",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "260": {
+      "name": "VAT Period Control",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "261": {
+      "name": "VAT Reconciliation Amount Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "264": {
+      "name": "Intrastat Source Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [
+        {
+          "version": "28",
+          "state": "Pending",
+          "tag": "26.0"
+        }
+      ],
+      "removed": null
+    },
+    "265": {
+      "name": "Document Entry Document Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "266": {
+      "name": "Intrastat VAT No. On File",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "272": {
+      "name": "Bank Payment Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "279": {
+      "name": "Extended Text Table Name",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "296": {
+      "name": "Reminder Source Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "297": {
+      "name": "Reminder Line Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "298": {
+      "name": "Reminder Text Position",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "299": {
+      "name": "Reminder Comment Line Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "300": {
+      "name": "Allocation Rules Impl.",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "301": {
+      "name": "Reservation Demand Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "302": {
+      "name": "Reminder/Fin.ChargeEntry Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "306": {
+      "name": "Report Selection Usage Sales",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "314": {
+      "name": "Direct Transfer Posting Type",
+      "versions": [
+        "29",
+        "30"
+      ],
+      "introduced": "29",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "330": {
+      "name": "Fix Exch. Rate Amount Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "331": {
+      "name": "Column Layout Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "332": {
+      "name": "Column Layout Entry Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "333": {
+      "name": "Account Schedule Amount Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "334": {
+      "name": "Column Layout Show",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "337": {
+      "name": "Reservation Status",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "338": {
+      "name": "Reservation Summary Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "339": {
+      "name": "Reservation Binding",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "340": {
+      "name": "Reservation Planning Flexibility",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "341": {
+      "name": "Inventory Planning Flexibility",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "342": {
+      "name": "Reservation From Stock",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "344": {
+      "name": "Navigate Contact Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "345": {
+      "name": "Navigate Search Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "347": {
+      "name": "Report Selection Usage Purchase",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "352": {
+      "name": "Default Dimension Parent Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "353": {
+      "name": "Default Dimension Value Posting Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "354": {
+      "name": "Item Availability Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "362": {
+      "name": "Analysis Period Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "363": {
+      "name": "Analysis Amount Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "364": {
+      "name": "Analysis Rounding Factor",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "379": {
+      "name": "Detailed CV Ledger Entry Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "385": {
+      "name": "Report Selection Usage Bank",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "397": {
+      "name": "No. Series Implementation",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "404": {
+      "name": "Consolidation Method",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "405": {
+      "name": "Change Log Entry Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "414": {
+      "name": "IC Transaction Document Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "421": {
+      "name": "Sales Bill-to Options",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "422": {
+      "name": "Sales Ship-to Options",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "423": {
+      "name": "Purchase Order Ship-to Options",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "424": {
+      "name": "Purchase Order Pay-to Options",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "426": {
+      "name": "Payment Tolerance Account Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "427": {
+      "name": "IC Outbox Sales Document Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "429": {
+      "name": "IC Outbox Purchase Document Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "430": {
+      "name": "IC Transaction Source Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "434": {
+      "name": "IC Sales Document Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "435": {
+      "name": "IC Inbox Sales Document Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "436": {
+      "name": "IC Purchase Document Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "437": {
+      "name": "IC Inbox Purchase Document Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "438": {
+      "name": "IC Outb. Sales Item No. Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "439": {
+      "name": "IC Outb. Purch. Item No. Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "454": {
+      "name": "Approval Document Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "455": {
+      "name": "Approval Status",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "457": {
+      "name": "Workflow Approval Limit Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "458": {
+      "name": "Workflow Approval Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "460": {
+      "name": "Workflow Approver Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "465": {
+      "name": "Workflow Approver Limit Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "466": {
+      "name": "Approval Workflow Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "470": {
+      "name": "Job Queue Priority",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "477": {
+      "name": "Report Inbox Output Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "479": {
+      "name": "Business Chart Data Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "482": {
+      "name": "Job Queue Report Output Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "483": {
+      "name": "Setup Report Output Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "484": {
+      "name": "Business Chart Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "485": {
+      "name": "Document Job Queue Status",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "486": {
+      "name": "Job Chart Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "487": {
+      "name": "Inc. Doc. Job Queue Status",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "500": {
+      "name": "Deposits Page Setup Key",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "501": {
+      "name": "Prompt Interaction",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "502": {
+      "name": "ItemCostPriceFieldOption",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "520": {
+      "name": "Reservation Date Filter",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "524": {
+      "name": "Report Selection Usage Reminder",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "532": {
+      "name": "IC Data Exchange Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "562": {
+      "name": "VAT Clause Document Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "584": {
+      "name": "Report Selection Usage VAT",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "590": {
+      "name": "G/L Source Currency Posting",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "595": {
+      "name": "Exch. Rate Adjustment Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "596": {
+      "name": "Exch. Rate Adjmt. Account Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "597": {
+      "name": "Exch. Rate Adjmt. Dimensions",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "700": {
+      "name": "VAT Report Status",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "701": {
+      "name": "VAT Return Status",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "711": {
+      "name": "Sales Document Exchange Status",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "712": {
+      "name": "Service Document Exchange Status",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "727": {
+      "name": "Analysis Dimension Option",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "740": {
+      "name": "VAT Report Configuration",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "747": {
+      "name": "Analysis Show Amount Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "748": {
+      "name": "Analysis Show Amount Field",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "763": {
+      "name": "Account Schedule Chart Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "764": {
+      "name": "ColumnHeaderDateType",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "780": {
+      "name": "Supply Document Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "800": {
+      "name": "Docs - Retention Period Def.",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "802": {
+      "name": "Online Map Table Selection",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "815": {
+      "name": "Sales Invoice Posting",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "816": {
+      "name": "Purchase Invoice Posting",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "817": {
+      "name": "Service Invoice Posting",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "841": {
+      "name": "Cash Flow Account Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "842": {
+      "name": "Cash Flow Table Name",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "847": {
+      "name": "Cash Flow Source Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "851": {
+      "name": "Acc. Schedule Line Show",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "900": {
+      "name": "Asm. Consump. Whse. Handling",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "901": {
+      "name": "Assembly Document Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "904": {
+      "name": "Assemble-to-Order Link Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "906": {
+      "name": "Assembly Comment Document Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "910": {
+      "name": "Assembly Policy",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "914": {
+      "name": "Posted Assembly Link Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "920": {
+      "name": "Period Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "921": {
+      "name": "Period Formula Range",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "950": {
+      "name": "Time Sheet Status",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "952": {
+      "name": "Time Sheet Line Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "953": {
+      "name": "Time Sheet Action",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "960": {
+      "name": "Posting Group Change Method",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1000": {
+      "name": "Job Consump. Whse. Handling",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1001": {
+      "name": "Job Task Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1002": {
+      "name": "Job Line Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1003": {
+      "name": "Job Planning Line Line Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1004": {
+      "name": "Task Billing Method",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1005": {
+      "name": "Job Archive Option",
+      "versions": [
+        "29",
+        "30"
+      ],
+      "introduced": "29",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1018": {
+      "name": "Job WIP Buffer Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1022": {
+      "name": "Job Planning Line Invoice Document Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1023": {
+      "name": "Job Planning Line Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1025": {
+      "name": "Job Journal Line Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1026": {
+      "name": "Job Ledger Entry Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1035": {
+      "name": "Job WIP Recognized Costs Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1036": {
+      "name": "Job WIP Recognized Sales Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1048": {
+      "name": "Job Planning Line Status",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1080": {
+      "name": "Financial Report Period Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1081": {
+      "name": "Fin. Report Logo Position",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1082": {
+      "name": "Fin. Report Logo Position Def.",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1083": {
+      "name": "Fin. Report Negative Format",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1103": {
+      "name": "Cost Account Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1107": {
+      "name": "Cost Register Source",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1114": {
+      "name": "Cost Center Subtype",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1117": {
+      "name": "Cost Allocation Target Base",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1118": {
+      "name": "Cost Allocation Target Period",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1119": {
+      "name": "Cost Allocation Target Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1140": {
+      "name": "OAuth 2.0 Code Challenge",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1173": {
+      "name": "Attachment Document Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1174": {
+      "name": "Document Attachment File Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1207": {
+      "name": "Credit Transfer Account Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1222": {
+      "name": "Data Exchange Definition Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1236": {
+      "name": "Transformation Rule Group",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1237": {
+      "name": "Transformation Rule Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1238": {
+      "name": "Extract From Date Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1248": {
+      "name": "Matching Ledger Account Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1249": {
+      "name": "Bank Acc. Statement Line Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1252": {
+      "name": "Bank Rec. Match Confidence",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1253": {
+      "name": "Pmt. Appl. Related Party Name Matching",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1254": {
+      "name": "Bank Acc. Rec. Stmt. Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1285": {
+      "name": "RSA Signature Padding",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1286": {
+      "name": "X509 Content Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1289": {
+      "name": "Http Request Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1303": {
+      "name": "Correct Sales Inv. Error Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1313": {
+      "name": "Correct Purch. Inv. Error Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1366": {
+      "name": "Monitor Field Notification",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1367": {
+      "name": "Field Log Entry Feature",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1370": {
+      "name": "Batch Posting Parameter Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1380": {
+      "name": "Error Handling Options",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1381": {
+      "name": "Application Method",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1445": {
+      "name": "Hash Algorithm",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1446": {
+      "name": "SignatureAlgorithm",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1465": {
+      "name": "SymmetricAlgorithm",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1480": {
+      "name": "Excel Filter Node Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1481": {
+      "name": "Edit in Excel Filter Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1490": {
+      "name": "Edit in Excel Edm Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1491": {
+      "name": "Edit in Excel Filter Collection Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1511": {
+      "name": "Notification Entry Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1512": {
+      "name": "Notification Schedule Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1514": {
+      "name": "Notification Method Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1535": {
+      "name": "Approval Action",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1562": {
+      "name": "Resource Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1563": {
+      "name": "Privacy Notice Approval State",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1570": {
+      "name": "Posting Preview Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1610": {
+      "name": "PEPPOL Processing Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [
+        {
+          "version": "29",
+          "state": "Pending",
+          "tag": "29.0"
+        }
+      ],
+      "removed": null
+    },
+    "1619": {
+      "name": "Job Status",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1624": {
+      "name": "Job Blocked",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1670": {
+      "name": "Option Lookup Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1700": {
+      "name": "Deferral Calculation Method",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1701": {
+      "name": "Deferral Calculation Start Date",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1702": {
+      "name": "Deferral Document Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1800": {
+      "name": "Company Setup Status",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1815": {
+      "name": "Assisted Setup Group",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1875": {
+      "name": "Manual Setup Category",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1888": {
+      "name": "Environment Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1890": {
+      "name": "Reminder Text Source Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1908": {
+      "name": "Image Encoding",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1909": {
+      "name": "Media Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1921": {
+      "name": "Profiling Aggregation Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1925": {
+      "name": "Sampling Interval",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1932": {
+      "name": "Perf. Profile Activity Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1990": {
+      "name": "Guided Experience Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1991": {
+      "name": "Guided Experience Object Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1993": {
+      "name": "Checklist Completion Requirements",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1994": {
+      "name": "Checklist Item Status",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1995": {
+      "name": "Checklist Status",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1996": {
+      "name": "Spotlight Tour Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1997": {
+      "name": "Spotlight Tour Text",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "2004": {
+      "name": "Azure AI Service",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "2010": {
+      "name": "Entity Text Format",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "2011": {
+      "name": "Entity Text Tone",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "2012": {
+      "name": "Entity Text Emphasis",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "2014": {
+      "name": "Entity Text Actions",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "2021": {
+      "name": "Image Analysis Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "2023": {
+      "name": "Image Analysis Provider",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "2301": {
+      "name": "Tenant License State",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "2350": {
+      "name": "Http Method",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "2351": {
+      "name": "Rest Client Exception",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "2504": {
+      "name": "Extension Deploy To",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "2505": {
+      "name": "Extension Sync Mode",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "2610": {
+      "name": "Feature Status",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "2611": {
+      "name": "Feature To Update",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "2616": {
+      "name": "Printer Paper Kind",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "2617": {
+      "name": "Printer Paper Source Kind",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "2618": {
+      "name": "Printer Unit",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "2619": {
+      "name": "Printer Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "2670": {
+      "name": "Destination Account Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "2671": {
+      "name": "Breakdown Account Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "2674": {
+      "name": "Allocation Account Period",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "2716": {
+      "name": "Summary Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "2915": {
+      "name": "Action Container Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "3060": {
+      "name": "UriKind",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "3062": {
+      "name": "Uri Query Duplicate Behaviour",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "3109": {
+      "name": "PDF Save Format",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "3110": {
+      "name": "PDF Attach. Data Relationship",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "3111": {
+      "name": "Activity Log Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "3612": {
+      "name": "Sales Document Status",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "3657": {
+      "name": "Sales Header Shipping Advice",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "3687": {
+      "name": "Low-Level Code Run Mode",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "3710": {
+      "name": "Video Category",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "3812": {
+      "name": "Purchase Document Status",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "3900": {
+      "name": "Retention Period Enum",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "3901": {
+      "name": "Retention Policy Log Category",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "3902": {
+      "name": "Retention Policy Log Message Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "3903": {
+      "name": "Reten. Pol. Filtering",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "3904": {
+      "name": "Reten. Pol. Deleting",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "3962": {
+      "name": "RegexOptions",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "3971": {
+      "name": "Image Format",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "3972": {
+      "name": "Rotate Flip Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "4690": {
+      "name": "Recurrence - Day of Week",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "4691": {
+      "name": "Recurrence - Month",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "4692": {
+      "name": "Recurrence - Pattern",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "4693": {
+      "name": "Recurrence - Ordinal No.",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "4694": {
+      "name": "Recurrence - Monthly Pattern",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5000": {
+      "name": "Financial Report View Layout",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5001": {
+      "name": "Analysis Negative Format",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5050": {
+      "name": "Contact Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5056": {
+      "name": "Contact Business Relation",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5057": {
+      "name": "Contact Business Relation Link To Table",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5059": {
+      "name": "Office Contact Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5061": {
+      "name": "Rlshp. Mgt. Comment Line Table Name",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5062": {
+      "name": "Attachment Storage Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5069": {
+      "name": "Salutation Formula Name",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5070": {
+      "name": "Salutation Formula Salutation Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5076": {
+      "name": "Correspondence Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5077": {
+      "name": "Segment Line Wizard Step",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5078": {
+      "name": "Interaction Evaluation",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5079": {
+      "name": "Setup Attachment Storage Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5080": {
+      "name": "Task Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5081": {
+      "name": "Task Status",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5082": {
+      "name": "Interaction Template Wizard Action",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5083": {
+      "name": "Interaction Delivery Status",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5084": {
+      "name": "Profile Quest. Cont. Class. Field",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5085": {
+      "name": "Profile Quest. Cust. Class. Field",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5086": {
+      "name": "Profile Quest. Vend. Class. Field",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5087": {
+      "name": "Profile Questionnaire Contact Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5088": {
+      "name": "Profile Questionnaire Priority",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5089": {
+      "name": "Profile Answer Priority",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5090": {
+      "name": "Profile Questionnaire Line Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5091": {
+      "name": "Opportunity Action Taken",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5092": {
+      "name": "Opportunity Status",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5093": {
+      "name": "Opportunity Priority",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5094": {
+      "name": "Opportunity Table Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5095": {
+      "name": "Opportunity Output",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5096": {
+      "name": "Opportunity Document Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5097": {
+      "name": "Segment Criteria Line Action",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5098": {
+      "name": "Duplicate Search String Part",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5099": {
+      "name": "Interaction Log Entry Document Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5200": {
+      "name": "Employee Status",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5208": {
+      "name": "Human Resources Comment Table Name",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5224": {
+      "name": "Employee Gender",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5334": {
+      "name": "CDS Payment Terms Code",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5335": {
+      "name": "CDS Shipment Method Code",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5336": {
+      "name": "CDS Shipping Agent Code",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5337": {
+      "name": "Integration Deletion Conflict Resolution",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5338": {
+      "name": "Integration Update Conflict Resolution",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5339": {
+      "name": "Integration Table Mapping Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5397": {
+      "name": "CDS Transformation Direction",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5400": {
+      "name": "Transfer Direction",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5402": {
+      "name": "Unit Group Source Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5405": {
+      "name": "Production Order Status",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5407": {
+      "name": "Prod. Order Source Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5409": {
+      "name": "Unit Cost Calculation Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5417": {
+      "name": "Flushing Method",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5419": {
+      "name": "Replenishment System",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5420": {
+      "name": "Item Replenishment System",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5421": {
+      "name": "SKU Replenishment System",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5428": {
+      "name": "Flushing Method Routing",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5429": {
+      "name": "Flushing Method Filter",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5440": {
+      "name": "Reordering Policy",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5442": {
+      "name": "Manufacturing Policy",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5444": {
+      "name": "Quantity Calculation Formula",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5468": {
+      "name": "Picture Entity Parent Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5477": {
+      "name": "Invoice Entity Aggregate Status",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5478": {
+      "name": "Invoice Line Agg. Line Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5495": {
+      "name": "Sales Order Entity Buffer Status",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5496": {
+      "name": "Purchase Order Entity Buffer Status",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5504": {
+      "name": "Tax Buffer Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5505": {
+      "name": "Sales Quote Entity Buffer Status",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5507": {
+      "name": "Sales Cr. Memo Entity Buffer Status",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5508": {
+      "name": "Purch. Cr. Memo Entity Status",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5510": {
+      "name": "Employee Time Reg. Status",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5511": {
+      "name": "Employee Working Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5512": {
+      "name": "Employee Engagement Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5520": {
+      "name": "Unplanned Demand Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5523": {
+      "name": "Demand Order Source Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5524": {
+      "name": "Planning Create Source Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5525": {
+      "name": "Planning Create Purchase Order",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5526": {
+      "name": "Planning Create Prod. Order",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29",
+        "30"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5527": {
+      "name": "Planning Create Transfer Order",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5528": {
+      "name": "Planning Create Assembly Order",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5530": {
+      "name": "Inventory Event Buffer Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5531": {
+      "name": "Inventory Page Data Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5557": {
+      "name": "Licenses",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5601": {
+      "name": "FA Ledger Entry FA Posting Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5602": {
+      "name": "FA Journal Line FA Posting Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5603": {
+      "name": "Gen. Journal Line FA Posting Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5604": {
+      "name": "Reversal Entry FA Posting Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5605": {
+      "name": "FA Journal Line Document Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5606": {
+      "name": "FA Posting Group Account Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5607": {
+      "name": "Purchase FA Posting Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5610": {
+      "name": "FA Depreciation Method",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5611": {
+      "name": "FA Depr. Method Internal",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5614": {
+      "name": "FA Posting Type Setup Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5615": {
+      "name": "FA Allocation Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5617": {
+      "name": "FA Register Called From",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5619": {
+      "name": "FA Component Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5621": {
+      "name": "FA Journal Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5631": {
+      "name": "FA Ledger Posting Category",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5700": {
+      "name": "Pick Bin Policy",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5701": {
+      "name": "Put-away Bin Policy",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5702": {
+      "name": "SKU Creation Method",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5719": {
+      "name": "Nonstock Item No. Format",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5726": {
+      "name": "Item Reference Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5740": {
+      "name": "Transfer Order Post",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5747": {
+      "name": "Transfer Routes Show",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5748": {
+      "name": "Inventory Comment Document Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5754": {
+      "name": "Report Selection Usage Inventory",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5767": {
+      "name": "Warehouse Activity Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5768": {
+      "name": "Warehouse Activity Source Document",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5769": {
+      "name": "Warehouse Activity Document Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5770": {
+      "name": "Warehouse Request Source Document",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5771": {
+      "name": "Warehouse Request Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5772": {
+      "name": "Warehouse Worksheet Document Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5773": {
+      "name": "Warehouse Journal Document Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5774": {
+      "name": "Warehouse Action Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5775": {
+      "name": "Non-Invt. Item Whse. Policy",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5779": {
+      "name": "Whse. Reference Document Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5800": {
+      "name": "Cost Adjustment Run Status",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5801": {
+      "name": "Cost Adjustment Logging Level",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5802": {
+      "name": "Item Cost Source/Recipient",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5804": {
+      "name": "Average Cost Calculation Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5805": {
+      "name": "Purchase Applies-to Document Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5806": {
+      "name": "Average Cost Period Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5809": {
+      "name": "Sales Applies-to Document Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5817": {
+      "name": "Matched Order Line Source",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5820": {
+      "name": "Receipt on Invoice Policy",
+      "versions": [
+        "29",
+        "30"
+      ],
+      "introduced": "29",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5821": {
+      "name": "Item Statistics Line Option",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5822": {
+      "name": "Item Statistics Column Option",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5841": {
+      "name": "Standard Cost Source Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5842": {
+      "name": "Cost Adjmt. Action Msg. Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5848": {
+      "name": "Average Cost Entry Point Impl.",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5850": {
+      "name": "Invt. Doc. Document Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5851": {
+      "name": "Invt. Doc. Document Type From",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5870": {
+      "name": "BOM Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5871": {
+      "name": "Capacity Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5872": {
+      "name": "Capacity Type Routing",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5873": {
+      "name": "Capacity Type Journal",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5874": {
+      "name": "BOM Structure Show By",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5875": {
+      "name": "Phys. Invt. Order Status",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5877": {
+      "name": "BOM Tree Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5895": {
+      "name": "Inventory Adjustment Impl.",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5898": {
+      "name": "Inventory Value Calc. Per",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5899": {
+      "name": "Inventory Value Calc. Base",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5900": {
+      "name": "Service Document Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5902": {
+      "name": "Service Line Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5903": {
+      "name": "Service Priority",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5907": {
+      "name": "Service Ledger Entry Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5908": {
+      "name": "Service Ledger Entry Entry Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5909": {
+      "name": "Service Ledger Entry Document Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5910": {
+      "name": "Service Hour Contract Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5912": {
+      "name": "Service Document Status",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5914": {
+      "name": "Service Log Document Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5915": {
+      "name": "Service Loaner Document Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5916": {
+      "name": "Service Doc. Release Status",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5918": {
+      "name": "Service Comment Table Name",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5919": {
+      "name": "Service Comment Line Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5929": {
+      "name": "Service Comment Table Subtype",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5930": {
+      "name": "Archive Service Quotes",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5932": {
+      "name": "Report Selection Usage Service",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5937": {
+      "name": "Service Destination Document Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5938": {
+      "name": "Service Source Document Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5940": {
+      "name": "Service Item Status",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5941": {
+      "name": "Service Item Shipment Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5942": {
+      "name": "Service Item Component Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5943": {
+      "name": "Replaced Service Item Component Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5944": {
+      "name": "Service Item Log Document Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5945": {
+      "name": "Report Selection Usage Job",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5946": {
+      "name": "Troubleshooting Item Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5947": {
+      "name": "Service Item Blocked",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5956": {
+      "name": "Resource Skill Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5957": {
+      "name": "Resource Skill Source Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5958": {
+      "name": "Resource Skill Assigned From",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5965": {
+      "name": "Service Contract Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5966": {
+      "name": "Service Contract Type From",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5967": {
+      "name": "Service Contract Status",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5968": {
+      "name": "Service Contract Change Status",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5969": {
+      "name": "Service Contract Quote Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5970": {
+      "name": "Service Contract Change Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5973": {
+      "name": "Service Contract Discount Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5997": {
+      "name": "Service Contract Header Invoice Period",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5998": {
+      "name": "Service Line Discount Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "6057": {
+      "name": "Contract Line Selection",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "6200": {
+      "name": "Allow Non-Deductible VAT Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "6236": {
+      "name": "Sales Document Type From",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "6238": {
+      "name": "Purchase Document Type From",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "6305": {
+      "name": "Power BI Upload Status",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "6313": {
+      "name": "Power BI Element Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "6315": {
+      "name": "Power BI Filter Operator",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "6316": {
+      "name": "Power BI Deployable Report",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "6317": {
+      "name": "Power BI Deployment Status",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "6318": {
+      "name": "Power BI Deployment Outcome",
+      "versions": [
+        "29",
+        "30"
+      ],
+      "introduced": "29",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "6401": {
+      "name": "FS Work Order Line Post Rule",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "6402": {
+      "name": "FS Work Order Line Synch. Rule",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "6510": {
+      "name": "Item Tracking Run Mode",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "6511": {
+      "name": "Item Tracking Lines Controls",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "6560": {
+      "name": "Document Line Source Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "6565": {
+      "name": "Item Tracking Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "6566": {
+      "name": "Item Tracking Entry Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "6567": {
+      "name": "Item Tracking Comment Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "6670": {
+      "name": "Returns Related Document Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "6750": {
+      "name": "Reminder Action",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "6751": {
+      "name": "Reminder Log Status",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "6752": {
+      "name": "Reminder Automation Error Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "6753": {
+      "name": "Reminder Action Schedule",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "6840": {
+      "name": "Spend Request Document Type",
+      "versions": [
+        "29",
+        "30"
+      ],
+      "introduced": "29",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "6841": {
+      "name": "Spend Request Status",
+      "versions": [
+        "29",
+        "30"
+      ],
+      "introduced": "29",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "6843": {
+      "name": "Spend Request Required",
+      "versions": [
+        "29",
+        "30"
+      ],
+      "introduced": "29",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7000": {
+      "name": "Price Calculation Method",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7001": {
+      "name": "Price Amount Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7002": {
+      "name": "Price Source Group",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7003": {
+      "name": "Price Source Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7004": {
+      "name": "Price Asset Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7005": {
+      "name": "Price Status",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7006": {
+      "name": "Sales Price Source Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7007": {
+      "name": "Purchase Price Source Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7008": {
+      "name": "Job Price Source Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7009": {
+      "name": "Price Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7011": {
+      "name": "Price Calculation Handler",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7012": {
+      "name": "Pricing Implementation",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7021": {
+      "name": "Sales Line Discount Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7023": {
+      "name": "Sales Price Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7113": {
+      "name": "Analysis Value Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7114": {
+      "name": "Analysis Line Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7118": {
+      "name": "Analysis Column Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7120": {
+      "name": "ContactSyncDirection",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7130": {
+      "name": "Analysis Area Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7131": {
+      "name": "Analysis Source Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7133": {
+      "name": "Analysis Account Source",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7158": {
+      "name": "Sales Analysis Matrix Dimensions",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7207": {
+      "name": "Dataverse Cloud",
+      "versions": [
+        "29",
+        "30"
+      ],
+      "introduced": "29",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7300": {
+      "name": "Whse. Activity Sorting Method",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7301": {
+      "name": "Warehouse Receipt Sorting Method",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7302": {
+      "name": "Warehouse Internal Sorting Method",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7303": {
+      "name": "Warehouse Shipment Sorting Method",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7309": {
+      "name": "Warehouse Journal Template Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7310": {
+      "name": "Warehouse Destination Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7311": {
+      "name": "Warehouse Journal Source Document",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7312": {
+      "name": "Warehouse Worksheet Template Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7313": {
+      "name": "Warehouse Destination Type 2",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7320": {
+      "name": "Warehouse Shipment Status",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7323": {
+      "name": "Warehouse Shipment Posted Source Document",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7324": {
+      "name": "Warehouse Put-away Request Document Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7325": {
+      "name": "Warehouse Pick Request Document Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7345": {
+      "name": "Warehouse Pick Document Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7350": {
+      "name": "Missing SKU Planning Policy",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7351": {
+      "name": "SKU Creation Policy",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7352": {
+      "name": "Warehouse Putaway Document Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7355": {
+      "name": "Report Selection Warehouse Usage",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7568": {
+      "name": "Geolocation Status",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7580": {
+      "name": "Onboarding Signal Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7602": {
+      "name": "Calendar Source Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7771": {
+      "name": "AOAI Resource Utilization",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7772": {
+      "name": "AOAI Chat Roles",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7773": {
+      "name": "AOAI Model Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7774": {
+      "name": "Copilot Availability",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7775": {
+      "name": "Copilot Status",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7776": {
+      "name": "AOAI Tool Invoke Preference",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7777": {
+      "name": "AOAI Function Response Status",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7778": {
+      "name": "Azure AI Service Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7779": {
+      "name": "ADI Model Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7785": {
+      "name": "Copilot Quota Usage Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7786": {
+      "name": "Copilot Billing Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7787": {
+      "name": "AOAI Policy",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7788": {
+      "name": "AOAI Policy Harms Severity",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "8350": {
+      "name": "MCP Config Warning Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "8351": {
+      "name": "MCP Server Feature",
+      "versions": [
+        "29",
+        "30"
+      ],
+      "introduced": "29",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "8363": {
+      "name": "Dimension Perspective Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "8390": {
+      "name": "Financial Report Format",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "8391": {
+      "name": "Fin. Rep. Aud. Log Date Filter",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "8511": {
+      "name": "Over-Receipt Approval Status",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "8619": {
+      "name": "Config. Template Line Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "8703": {
+      "name": "Feature Uptake Status",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "8704": {
+      "name": "AL Telemetry Scope",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "8761": {
+      "name": "BarcodeFailure",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "8888": {
+      "name": "Email Status",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "8890": {
+      "name": "Email Scenario",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "8891": {
+      "name": "Email Action",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "8901": {
+      "name": "Email Recipient Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "8908": {
+      "name": "Email Relation Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "8909": {
+      "name": "Email Relation Origin",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "8930": {
+      "name": "Email View Policy",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "8945": {
+      "name": "Email Address Entity",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "8950": {
+      "name": "AFS Operation",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "8951": {
+      "name": "AFS Write",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "8952": {
+      "name": "AFS File Last Write Time",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "8953": {
+      "name": "AFS Property",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "8954": {
+      "name": "AFS File Resource Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "8955": {
+      "name": "AFS File Attribute",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "8956": {
+      "name": "AFS File Permission Copy Mode",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "8957": {
+      "name": "AFS Lease Action",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "9002": {
+      "name": "Permission",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "9005": {
+      "name": "User Plan Experience",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "9010": {
+      "name": "Azure AD Update Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "9017": {
+      "name": "Azure AD Permission Change Action",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "9040": {
+      "name": "Date Compression Period Length",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "9041": {
+      "name": "Data Administration Guide Page",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "9042": {
+      "name": "ABS Blob Access Tier",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "9043": {
+      "name": "ABS Blob Public Access",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "9044": {
+      "name": "ABS Block List Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "9045": {
+      "name": "ABS Blob Expiry Option",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "9046": {
+      "name": "ABS Rehydrate Priority",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "9047": {
+      "name": "ABS Blob Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "9048": {
+      "name": "ABS Operation",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "9049": {
+      "name": "ABS Lease Action",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "9050": {
+      "name": "ABS Blob Resource Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "9060": {
+      "name": "Storage Service API Version",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "9062": {
+      "name": "SAS Service Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "9063": {
+      "name": "SAS Resource Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "9064": {
+      "name": "SAS Permission",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "9120": {
+      "name": "Company Data Type (Internal)",
+      "versions": [
+        "28"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [
+        {
+          "version": "28",
+          "state": "Pending",
+          "tag": "25.2"
+        }
+      ],
+      "removed": "29"
+    },
+    "9121": {
+      "name": "Company Data Type (Production)",
+      "versions": [
+        "28"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [
+        {
+          "version": "28",
+          "state": "Pending",
+          "tag": "25.2"
+        }
+      ],
+      "removed": "29"
+    },
+    "9122": {
+      "name": "Company Data Type (Sandbox)",
+      "versions": [
+        "28"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [
+        {
+          "version": "28",
+          "state": "Pending",
+          "tag": "25.2"
+        }
+      ],
+      "removed": "29"
+    },
+    "9125": {
+      "name": "Company Demo Data Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "9190": {
+      "name": "Severity",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "9197": {
+      "name": "Creation Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "9198": {
+      "name": "Rounding Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "9203": {
+      "name": "Barcode Font Provider",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "9204": {
+      "name": "Barcode Symbology",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "9205": {
+      "name": "Barcode Symbology 2D",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "9206": {
+      "name": "Barcode Font Provider 2D",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "9207": {
+      "name": "Barcode Image Provider 2D",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "9209": {
+      "name": "Item Analysis Dimension Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "9210": {
+      "name": "Item Analysis Value Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "9211": {
+      "name": "Item Analysis Show Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "9238": {
+      "name": "Item Budget Dimension Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "9245": {
+      "name": "Demand Forecast Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "9254": {
+      "name": "Dim Type Checked",
+      "versions": [
+        "29",
+        "30"
+      ],
+      "introduced": "29",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "9350": {
+      "name": "Graph API Version",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "9351": {
+      "name": "Graph ConflictBehavior",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "9352": {
+      "name": "Graph OData Query Parameter",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "9353": {
+      "name": "Graph Request Header",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "9450": {
+      "name": "Ext. File Storage Connector",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "9451": {
+      "name": "File Scenario",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "9452": {
+      "name": "Ext. File Storage File Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "9453": {
+      "name": "File Account Entry Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "9510": {
+      "name": "Email Parameter Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "9515": {
+      "name": "Azure AD User Update Entity",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "9560": {
+      "name": "Document Sharing Intent",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "9561": {
+      "name": "Document Sharing Source",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "9562": {
+      "name": "Doc. Sharing Conflict Behavior",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "9656": {
+      "name": "Custom Report Layout Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "9657": {
+      "name": "Custom Report Selection Sales",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "9658": {
+      "name": "Report Selection Usage Vendor",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "9701": {
+      "name": "Cues And KPIs Style",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "9750": {
+      "name": "OData Protocol Version",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "9751": {
+      "name": "Client Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "9760": {
+      "name": "SFTP Exception Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [
+        "29"
+      ],
+      "obsoleted": [],
+      "removed": null
+    },
+    "9863": {
+      "name": "Permission Set Copy Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "9883": {
+      "name": "Permission Set Scope",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "9987": {
+      "name": "Word Templates Save Format",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "99000700": {
+      "name": "Prod. Consump. Whse. Handling",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "99000701": {
+      "name": "Prod. Output Whse. Handling",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "99000763": {
+      "name": "Routing Time Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "99000764": {
+      "name": "Routing Status",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "99000765": {
+      "name": "Prod. Order Routing Status",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "99000770": {
+      "name": "Mfg. Comment Table Name",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "99000771": {
+      "name": "BOM Status",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "99000772": {
+      "name": "Production BOM Line Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "99000773": {
+      "name": "Order Tracking Policy",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "99000774": {
+      "name": "Item Production Blocked",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "99000802": {
+      "name": "Capacity Unit of Measure",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "99000849": {
+      "name": "Action Message Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "99000880": {
+      "name": "Order Promising Line Source Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "99000884": {
+      "name": "Create Production Order Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "99000885": {
+      "name": "Create Production Order Status",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "99000905": {
+      "name": "Requisition Ref. Order Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "99000915": {
+      "name": "Planning Line Origin Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "99000917": {
+      "name": "Report Selection Usage Prod.",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "99001010": {
+      "name": "Prod. Definition Display",
+      "versions": [
+        "30"
+      ],
+      "introduced": "30",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "99001011": {
+      "name": "Prod. Definition Mode",
+      "versions": [
+        "30"
+      ],
+      "introduced": "30",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "99001012": {
+      "name": "Prod. Definition Source",
+      "versions": [
+        "30"
+      ],
+      "introduced": "30",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "99001028": {
+      "name": "Prod. Definition Scenario",
+      "versions": [
+        "30"
+      ],
+      "introduced": "30",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "99001031": {
+      "name": "Prod. Definition Save Target",
+      "versions": [
+        "30"
+      ],
+      "introduced": "30",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    }
+  }
+}

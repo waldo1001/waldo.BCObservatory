@@ -1,0 +1,50 @@
+{
+  "schema": "code-snapshot@1",
+  "source": "bcapps",
+  "repo": "https://github.com/microsoft/BCApps",
+  "major": "30",
+  "country": "it",
+  "layer": "overlay",
+  "branch": "main",
+  "commit": "eb822e0ddf035a26fde1dfe28247a631f6b292e9",
+  "build": "30.0.0.0",
+  "apps": [
+    "Base Application"
+  ],
+  "files": 734,
+  "parse_errors": 5,
+  "added": 323,
+  "replaced": 196,
+  "absent": [],
+  "chain": [
+    "w1",
+    "it"
+  ],
+  "extractor": "1",
+  "grammar": "4.4.1",
+  "objects": 519,
+  "by_type": {
+    "codeunit": 94,
+    "enum": 12,
+    "enumextension": 1,
+    "page": 132,
+    "pageextension": 23,
+    "permissionset": 3,
+    "report": 61,
+    "table": 174,
+    "tableextension": 18,
+    "xmlport": 1
+  },
+  "shards": [
+    "objects-codeunit-1.jsonl",
+    "objects-enum-1.jsonl",
+    "objects-enumextension-1.jsonl",
+    "objects-page-1.jsonl",
+    "objects-pageextension-1.jsonl",
+    "objects-permissionset-1.jsonl",
+    "objects-report-1.jsonl",
+    "objects-table-1.jsonl",
+    "objects-tableextension-1.jsonl",
+    "objects-xmlport-1.jsonl"
+  ]
+}

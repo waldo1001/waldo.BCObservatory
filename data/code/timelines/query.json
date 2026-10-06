@@ -1,0 +1,1953 @@
+{
+  "versions": [
+    "28",
+    "29",
+    "30"
+  ],
+  "objects": {
+    "1": {
+      "name": "Distinct Items Sold",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "2": {
+      "name": "Customer Interaction Stats.",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "3": {
+      "name": "Customer Sales per Period",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "4": {
+      "name": "Distinct Items Purchased",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "19": {
+      "name": "VAT Entries Base Amt. Sum",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "21": {
+      "name": "Cust. Ledg. Entry Remain. Amt.",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "22": {
+      "name": "Cust. Remain. Amt. By Due Date",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "25": {
+      "name": "Vend. Ledg. Entry Remain. Amt.",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "33": {
+      "name": "Recon. Cust. Posting Gr. Sum",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "34": {
+      "name": "Recon. Vend. Posting Gr. Sum",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "35": {
+      "name": "Customer Debit Credit Amount",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "36": {
+      "name": "Vendor Debit Credit Amount",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "37": {
+      "name": "RemQtyBaseInvtItemSalesLine",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "39": {
+      "name": "RemQtyBaseInvtItemPurchaseLine",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "50": {
+      "name": "Power BI Customer List",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "51": {
+      "name": "Power BI Vendor List",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "52": {
+      "name": "Power BI Item Purchase List",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "53": {
+      "name": "Power BI GL Amount List",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "54": {
+      "name": "Power BI Jobs List",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "55": {
+      "name": "Power BI Sales List",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "56": {
+      "name": "Power BI Purchase List",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "57": {
+      "name": "Power BI Item Sales List",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "58": {
+      "name": "Power BI GL Budgeted Amount",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "59": {
+      "name": "Power BI Top Cust. Overview",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "60": {
+      "name": "Power BI Sales Hdr. Cust.",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "61": {
+      "name": "Power BI Cust. Item Ledg. Ent.",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "62": {
+      "name": "Power BI Cust. Ledger Entries",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "63": {
+      "name": "Power BI Vendor Ledger Entries",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "64": {
+      "name": "Power BI Purchase Hdr. Vendor",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "65": {
+      "name": "Power BI Vend. Item Ledg. Ent.",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "100": {
+      "name": "Top Customer Overview",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "101": {
+      "name": "Sales Dashboard",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "102": {
+      "name": "Item Sales by Customer",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "103": {
+      "name": "Item Sales and Profit",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "104": {
+      "name": "Sales Orders by Sales Person",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "105": {
+      "name": "Sales Opportunities",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "106": {
+      "name": "Segment Lines",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "115": {
+      "name": "Sales Shipped Not Invoiced LCY",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [
+        {
+          "version": "28",
+          "state": "Pending",
+          "tag": "28.0"
+        }
+      ],
+      "removed": null
+    },
+    "123": {
+      "name": "Fixed Assets Analysis",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "124": {
+      "name": "Sales Order Analysis",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "130": {
+      "name": "Posted Docs. With No Inc. Doc.",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "133": {
+      "name": "Inc. Doc. Atts. Ready for OCR",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "134": {
+      "name": "OCR Vendors",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "135": {
+      "name": "OCR Vendor Bank Accounts",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "141": {
+      "name": "EU VAT Entries",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "200": {
+      "name": "Purchase Invoices By Order",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "201": {
+      "name": "Sales Invoices By Order",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "202": {
+      "name": "Service Invoices By Order",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "203": {
+      "name": "Item Ledger Entry Types",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "204": {
+      "name": "Purch. Cr. Memos By Ret. Order",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "205": {
+      "name": "Sales Cr. Memos By Ret. Order",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "250": {
+      "name": "G/L Entry Dimensions",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "251": {
+      "name": "G/L Budget Entry Dimensions",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "252": {
+      "name": "Analysis View Entry Dimensions",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "253": {
+      "name": "Analysis View Budg. Entry Dims",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "256": {
+      "name": "CF Forecast Entry Dimensions",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "257": {
+      "name": "Dimension Sets",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "260": {
+      "name": "Dimension Set Entries",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "261": {
+      "name": "G/L Entries",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "262": {
+      "name": "Cust. Ledger Entries",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "263": {
+      "name": "Vendor Ledger Entries",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "264": {
+      "name": "Bank Account Ledger Entries",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "265": {
+      "name": "Item Ledger Entries",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "266": {
+      "name": "Value Entries",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "267": {
+      "name": "FA Ledger Entries",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "268": {
+      "name": "Job Ledger Entries",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "269": {
+      "name": "Res. Ledger Entries",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "270": {
+      "name": "G/L Budget Entries",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "302": {
+      "name": "Item Application Entries",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "303": {
+      "name": "Item Application Entries Inb.",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "304": {
+      "name": "Item Application Entries Outb.",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "410": {
+      "name": "Analysis View Source",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "472": {
+      "name": "Failed Job Queue Entry",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "486": {
+      "name": "ProjectsAnalysis",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "487": {
+      "name": "Project Planning Analysis",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "488": {
+      "name": "Purch. Order Perf. Analysis",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "520": {
+      "name": "Item By Lot No. Res.",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "521": {
+      "name": "Item By Lot No. Item Ledg.",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "522": {
+      "name": "Qty. Reserved From Item Ledger",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "523": {
+      "name": "Sales Reserv. From Item Ledger",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "760": {
+      "name": "Trailing Sales Order Qry",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "762": {
+      "name": "Acc. Sched. Line Desc. Count",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "763": {
+      "name": "Colm. Layt. Colm. Header Count",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "770": {
+      "name": "Analysis Line Desc. Count",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "771": {
+      "name": "Analysis Column Header Count",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "774": {
+      "name": "Users in Plans",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "775": {
+      "name": "Plan",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "776": {
+      "name": "Device",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "777": {
+      "name": "Role Center from Plans",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "901": {
+      "name": "RemQtyBaseInvtItemAssemblyLine",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "984": {
+      "name": "Get Time Sheet Lines",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "985": {
+      "name": "Get Time Sheet Archive Lines",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "986": {
+      "name": "Time Sheet Line Status Count",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1003": {
+      "name": "RemQtyBaseInvtItemJobPlannLine",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1033": {
+      "name": "GetJobPlanningLines",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1038": {
+      "name": "Job Task by Bill-to Customer",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1232": {
+      "name": "Data Exch. Field Details",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1302": {
+      "name": "Sales Outstd. Amount On VAT",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1310": {
+      "name": "Cust. Ledg. Entry Sales",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1311": {
+      "name": "Top 10 Customer Sales",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1312": {
+      "name": "Num CustLedgEntries per Cust",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1313": {
+      "name": "Purch. Outstd. Amount On VAT",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1316": {
+      "name": "Value Item Ledger Entries",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1319": {
+      "name": "Sales by Cust. Grp. Chart Mgt.",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1501": {
+      "name": "Workflow Instance",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1502": {
+      "name": "Workflow Definition",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "1511": {
+      "name": "User IDs by Notification Type",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "2900": {
+      "name": "Item With Variants",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "2901": {
+      "name": "Item With Locations",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "2902": {
+      "name": "Item With Variants & Locations",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "3688": {
+      "name": "BOM Component Items",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "3689": {
+      "name": "Item Production BOMs",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "3691": {
+      "name": "Production BOM & Line Details",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5001": {
+      "name": "Locations from items Sales",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5002": {
+      "name": "Locations from items Purch",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5400": {
+      "name": "Delayed Prod. Orders - by Cost",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5401": {
+      "name": "Pending Prod. Orders - by Cost",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5402": {
+      "name": "Top-10 Prod. Orders - by Cost",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5403": {
+      "name": "My Prod. Orders - By Cost",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5404": {
+      "name": "My Delayed Prod. Orders",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5407": {
+      "name": "RemQtyBaseInvtItemProdOrdComp",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5480": {
+      "name": "Customer Sales Entity",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5481": {
+      "name": "Vendor Purchases Entity",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5502": {
+      "name": "Tax Groups For Tax Areas",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5741": {
+      "name": "RemQtyBaseInvtItemTransferLine",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5756": {
+      "name": "Grouped Item Ledger Entries",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5833": {
+      "name": "Item to Value Entries",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5840": {
+      "name": "Avg. Cost Entry Points Not Adj",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5842": {
+      "name": "Residual Amount - Items",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5896": {
+      "name": "Calculate Actual Material Cost",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5900": {
+      "name": "Service Analysis",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "5902": {
+      "name": "RemQtyBaseInvtItemServiceLine",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "6502": {
+      "name": "Items With Expiration Date",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7150": {
+      "name": "Item Analysis View Source",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7300": {
+      "name": "Lot Numbers by Bin",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7301": {
+      "name": "Whse. Employees at Locations",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7302": {
+      "name": "Bin Content by Item Tracking",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7314": {
+      "name": "CalcRsvQtyOnPicksShipsWithIT",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7315": {
+      "name": "CalcQtyOnBlockedITOnSNQuery",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7316": {
+      "name": "CalcQtyOnBlockedITOnLNQuery",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7317": {
+      "name": "CalcQtyOnBlockedITOnPNQuery",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7318": {
+      "name": "CalcQtyInWhseEntries",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7319": {
+      "name": "CalcPickableQtyFromWhseEntry",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7320": {
+      "name": "CalcQtyInReservEntry",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7321": {
+      "name": "Summarized Stock By Item Trkg.",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7323": {
+      "name": "CalcOutstandQtyOnWhseActLine",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7345": {
+      "name": "Avail Qty. (Base) In QC Bins",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "7346": {
+      "name": "Whse. Entry Tracking Distinct",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "8888": {
+      "name": "Outbox Emails",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "8889": {
+      "name": "Sent Emails",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "8890": {
+      "name": "Email Related Record",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "9059": {
+      "name": "Service Header Doc. Type Count",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "9060": {
+      "name": "Count Sales Orders",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "9063": {
+      "name": "Count Purchase Orders",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "9088": {
+      "name": "Top 10 Vendor Purchases",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "9089": {
+      "name": "Purchase by Vendor Group",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "9150": {
+      "name": "My Customers",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "9151": {
+      "name": "My Vendors",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "9152": {
+      "name": "My Items",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [
+        {
+          "version": "28",
+          "state": "Pending",
+          "tag": "27.0"
+        }
+      ],
+      "removed": null
+    },
+    "9153": {
+      "name": "Non-Inventory Telemetry",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
+    "37015": {
+      "name": "Inventory by Location",
+      "versions": [
+        "28",
+        "29",
+        "30"
+      ],
+      "introduced": "28",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    }
+  }
+}

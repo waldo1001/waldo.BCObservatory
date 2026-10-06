@@ -1,0 +1,48 @@
+{
+  "schema": "code-snapshot@1",
+  "source": "sandbox-history",
+  "repo": "https://github.com/StefanMaron/MSDyn365BC.Sandbox.Code.History",
+  "major": "28",
+  "country": "be",
+  "layer": "overlay",
+  "branch": "be-28",
+  "commit": "7da2d2e28b08209d45302960fadf91a8334640ae",
+  "build": "$(app_currentVersion)",
+  "apps": [
+    "Base Application"
+  ],
+  "files": 8201,
+  "parse_errors": 0,
+  "added": 103,
+  "replaced": 89,
+  "absent": [],
+  "extractor": "1",
+  "grammar": "4.4.1",
+  "objects": 192,
+  "by_type": {
+    "codeunit": 32,
+    "dotnet": 1,
+    "enum": 2,
+    "page": 25,
+    "pageextension": 2,
+    "permissionset": 2,
+    "report": 37,
+    "reportextension": 1,
+    "table": 81,
+    "tableextension": 7,
+    "xmlport": 2
+  },
+  "shards": [
+    "objects-codeunit-1.jsonl",
+    "objects-dotnet-1.jsonl",
+    "objects-enum-1.jsonl",
+    "objects-page-1.jsonl",
+    "objects-pageextension-1.jsonl",
+    "objects-permissionset-1.jsonl",
+    "objects-report-1.jsonl",
+    "objects-reportextension-1.jsonl",
+    "objects-table-1.jsonl",
+    "objects-tableextension-1.jsonl",
+    "objects-xmlport-1.jsonl"
+  ]
+}

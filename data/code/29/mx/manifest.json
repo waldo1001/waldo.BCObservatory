@@ -1,0 +1,55 @@
+{
+  "schema": "code-snapshot@1",
+  "source": "bcapps",
+  "repo": "https://github.com/microsoft/BCApps",
+  "major": "29",
+  "country": "mx",
+  "layer": "overlay",
+  "branch": "releases/29.x",
+  "commit": "d7c9c667c671da2cda3a0738b18ed99ca4181765",
+  "build": "29.1.0.0",
+  "apps": [
+    "Base Application"
+  ],
+  "files": 853,
+  "parse_errors": 0,
+  "added": 495,
+  "replaced": 148,
+  "absent": [],
+  "chain": [
+    "w1",
+    "na",
+    "mx"
+  ],
+  "extractor": "1",
+  "grammar": "4.4.1",
+  "objects": 643,
+  "by_type": {
+    "codeunit": 101,
+    "dotnet": 1,
+    "enum": 8,
+    "interface": 2,
+    "page": 130,
+    "pageextension": 17,
+    "permissionset": 4,
+    "profile": 3,
+    "report": 196,
+    "table": 144,
+    "tableextension": 10,
+    "xmlport": 27
+  },
+  "shards": [
+    "objects-codeunit-1.jsonl",
+    "objects-dotnet-1.jsonl",
+    "objects-enum-1.jsonl",
+    "objects-interface-1.jsonl",
+    "objects-page-1.jsonl",
+    "objects-pageextension-1.jsonl",
+    "objects-permissionset-1.jsonl",
+    "objects-profile-1.jsonl",
+    "objects-report-1.jsonl",
+    "objects-table-1.jsonl",
+    "objects-tableextension-1.jsonl",
+    "objects-xmlport-1.jsonl"
+  ]
+}

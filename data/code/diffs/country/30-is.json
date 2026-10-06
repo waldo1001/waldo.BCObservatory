@@ -1,0 +1,290 @@
+{
+  "inputs": [
+    "eb822e0ddf035a26fde1dfe28247a631f6b292e9",
+    "eb822e0ddf035a26fde1dfe28247a631f6b292e9",
+    "1",
+    []
+  ],
+  "schema": "al-diff@1",
+  "kind": "country",
+  "from": {
+    "version": "30",
+    "country": "w1",
+    "commit": "eb822e0ddf035a26fde1dfe28247a631f6b292e9"
+  },
+  "to": {
+    "version": "30",
+    "country": "is",
+    "commit": "eb822e0ddf035a26fde1dfe28247a631f6b292e9"
+  },
+  "summary": {
+    "objects": 13,
+    "by_change": {
+      "replaced": {
+        "permissionset": 2,
+        "table": 4
+      },
+      "added": {
+        "report": 3,
+        "table": 4
+      }
+    },
+    "fields_added": 6,
+    "events_added": 0,
+    "procedures_added": 0,
+    "objects_obsoleted": 0
+  },
+  "objects": [
+    {
+      "key": "permissionset/1001",
+      "name": "LOCAL",
+      "change": "replaced",
+      "properties": [
+        {
+          "name": "Access",
+          "from": "Public",
+          "to": null
+        }
+      ]
+    },
+    {
+      "key": "permissionset/1002",
+      "name": "LOCAL READ",
+      "change": "replaced",
+      "properties": [
+        {
+          "name": "Caption",
+          "from": null,
+          "to": "Country/region-specific read only access."
+        }
+      ]
+    },
+    {
+      "key": "report/10913",
+      "name": "IRS notification",
+      "change": "added"
+    },
+    {
+      "key": "report/10940",
+      "name": "VAT Reconciliation A",
+      "change": "added"
+    },
+    {
+      "key": "report/10941",
+      "name": "VAT Balancing Report",
+      "change": "added"
+    },
+    {
+      "key": "table/15",
+      "name": "G/L Account",
+      "change": "replaced",
+      "fields": [
+        {
+          "id": "10900",
+          "name": "IRS Number",
+          "change": "added",
+          "to": {
+            "name": "IRS Number",
+            "type": "Code[10]",
+            "obsolete": {
+              "state": "Removed",
+              "tag": "27.0",
+              "reason": "The field has been moved to the IS Core App."
+            },
+            "clean": [
+              "CLEANSCHEMA27"
+            ],
+            "properties": {
+              "Caption": "IRS Number",
+              "TableRelation": "IRS Numbers",
+              "ObsoleteReason": "The field has been moved to the IS Core App.",
+              "ObsoleteState": "Removed",
+              "ObsoleteTag": "27.0"
+            }
+          }
+        }
+      ],
+      "keys": [
+        {
+          "id": "key11",
+          "name": "Key11",
+          "change": "added",
+          "to": {
+            "fields": [
+              "Account Category"
+            ],
+            "clustered": false
+          }
+        },
+        {
+          "id": "key10",
+          "name": "Key10",
+          "change": "removed",
+          "from": {
+            "fields": [
+              "Account Category"
+            ],
+            "clustered": false
+          }
+        }
+      ]
+    },
+    {
+      "key": "table/21",
+      "name": "Cust. Ledger Entry",
+      "change": "replaced",
+      "fields": [
+        {
+          "id": "10900",
+          "name": "Credit Memo Document",
+          "change": "added",
+          "to": {
+            "name": "Credit Memo Document",
+            "type": "Code[20]",
+            "obsolete": {
+              "state": "Removed",
+              "tag": "25.0",
+              "reason": "This is an unused rogue field from legacy functionality that was removed."
+            },
+            "clean": [
+              "CLEANSCHEMA25"
+            ],
+            "properties": {
+              "Caption": "Credit Memo Document",
+              "ObsoleteReason": "This is an unused rogue field from legacy functionality that was removed.",
+              "ObsoleteState": "Removed",
+              "ObsoleteTag": "25.0"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "table/311",
+      "name": "Sales & Receivables Setup",
+      "change": "replaced",
+      "fields": [
+        {
+          "id": "10900",
+          "name": "Credit Memo Nos. Paym. Disc.",
+          "change": "added",
+          "to": {
+            "name": "Credit Memo Nos. Paym. Disc.",
+            "type": "Code[10]",
+            "obsolete": {
+              "state": "Removed",
+              "tag": "25.0",
+              "reason": "This is an unused rogue field from legacy functionality that was removed."
+            },
+            "clean": [
+              "CLEANSCHEMA25"
+            ],
+            "properties": {
+              "Caption": "Credit Memo Nos. Paym. Disc.",
+              "ObsoleteReason": "This is an unused rogue field from legacy functionality that was removed.",
+              "ObsoleteState": "Removed",
+              "ObsoleteTag": "25.0"
+            }
+          }
+        },
+        {
+          "id": "10901",
+          "name": "Electronic Invoicing",
+          "change": "added",
+          "to": {
+            "name": "Electronic Invoicing",
+            "type": "Boolean",
+            "obsolete": {
+              "state": "Removed",
+              "tag": "27.0",
+              "reason": "The field has been moved to the IS Core App."
+            },
+            "clean": [
+              "CLEANSCHEMA27"
+            ],
+            "properties": {
+              "Caption": "Electronic Invoicing",
+              "ObsoleteReason": "The field has been moved to the IS Core App.",
+              "ObsoleteState": "Removed",
+              "ObsoleteTag": "27.0"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "table/5611",
+      "name": "Depreciation Book",
+      "change": "replaced",
+      "fields": [
+        {
+          "id": "10900",
+          "name": "Revalue in Year Purch.",
+          "change": "added",
+          "to": {
+            "name": "Revalue in Year Purch.",
+            "type": "Boolean",
+            "obsolete": {
+              "state": "Removed",
+              "tag": "27.0",
+              "reason": "The field has been moved to the IS Core App."
+            },
+            "clean": [
+              "CLEANSCHEMA27"
+            ],
+            "properties": {
+              "Caption": "Revalue in Year Purch.",
+              "ObsoleteReason": "The field has been moved to the IS Core App.",
+              "ObsoleteState": "Removed",
+              "ObsoleteTag": "27.0"
+            }
+          }
+        },
+        {
+          "id": "10901",
+          "name": "Residual Value %",
+          "change": "added",
+          "to": {
+            "name": "Residual Value %",
+            "type": "Decimal",
+            "obsolete": {
+              "state": "Removed",
+              "tag": "27.0",
+              "reason": "The field has been moved to the IS Core App."
+            },
+            "clean": [
+              "CLEANSCHEMA27"
+            ],
+            "properties": {
+              "Caption": "Residual Value %",
+              "DecimalPlaces": "0 : 0",
+              "ObsoleteReason": "The field has been moved to the IS Core App.",
+              "ObsoleteState": "Removed",
+              "ObsoleteTag": "27.0"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "table/10900",
+      "name": "IRS Numbers",
+      "change": "added"
+    },
+    {
+      "key": "table/10901",
+      "name": "IRS Groups",
+      "change": "added"
+    },
+    {
+      "key": "table/10902",
+      "name": "IRS Types",
+      "change": "added"
+    },
+    {
+      "key": "table/10903",
+      "name": "IS Core App Setup",
+      "change": "added"
+    }
+  ]
+}
