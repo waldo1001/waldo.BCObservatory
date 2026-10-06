@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Exempted-Sales",
   "published_at": "2025-07-21T13:19:09.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,13 @@
       "blob": "f6ad39f737850eb151b17120e7d390e50b60d005",
       "words": 165,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:16:15.249Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.003459
     }
   },
   "input_hash": "f6ad39f737850eb151b17120e7d390e50b60d005",
@@ -43,5 +50,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f6ad39f737850eb151b17120e7d390e50b60d005"
+  "output_hash": "44106e0aaa310bb4088c69487a8a730381d7f34168cd8ca6baa43a937f9ad9a4"
 }

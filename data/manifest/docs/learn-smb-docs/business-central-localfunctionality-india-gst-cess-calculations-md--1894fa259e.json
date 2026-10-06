@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Cess-Calculations",
   "published_at": "2025-07-21T13:19:09.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "a19523801e3b845481a212de4dd0859ca3900b44",
       "words": 820,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:16:15.247Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003459
+    },
+    "summarized": {
+      "at": "2026-10-06T19:16:15.255Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:16:15.255Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:16:15.256Z",
+      "page": false
     }
   },
   "input_hash": "a19523801e3b845481a212de4dd0859ca3900b44",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a19523801e3b845481a212de4dd0859ca3900b44"
+  "output_hash": "0871edf2f0ad8ef6c5e2ce94ad89932c1c459adf722f0204df09a455473576d8"
 }

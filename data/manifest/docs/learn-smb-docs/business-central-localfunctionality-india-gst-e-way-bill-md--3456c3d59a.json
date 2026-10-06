@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-E-Way-Bill",
   "published_at": "2025-07-21T13:19:09.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,13 @@
       "blob": "16c41d9927cf173522545b50853ffa42075bde45",
       "words": 305,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:16:15.249Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.003459
     }
   },
   "input_hash": "16c41d9927cf173522545b50853ffa42075bde45",
@@ -42,5 +49,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "16c41d9927cf173522545b50853ffa42075bde45"
+  "output_hash": "0c062269e98508c159dc65855cbfc410cefce61061ebdaee5eec8464cc0fb83e"
 }

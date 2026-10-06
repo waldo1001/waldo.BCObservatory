@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-GST-on-Advance-Payment-received-from-Customer",
   "published_at": "2025-07-21T13:19:09.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,13 @@
       "blob": "11e0ba3d62c2ab4ee58da4cf5555c21b9b695ff1",
       "words": 322,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:16:15.253Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.003459
     }
   },
   "input_hash": "11e0ba3d62c2ab4ee58da4cf5555c21b9b695ff1",
@@ -43,5 +50,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "11e0ba3d62c2ab4ee58da4cf5555c21b9b695ff1"
+  "output_hash": "d887af47fc8ae88b8b1332b60642dd31554b795fa0f9f2a8c0559aadff193b8b"
 }

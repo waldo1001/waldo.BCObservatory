@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/GST-Exempted-Sales.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Exempted-Sales",
+  "title": "GST Exempted Sales",
+  "blob": "f6ad39f737850eb151b17120e7d390e50b60d005",
+  "summary": "GST exempted sales to exempted customers in India where no GST is computed on transactions.",
+  "systems": [
+    "localization",
+    "sales"
+  ],
+  "topics": [
+    "gst",
+    "exempted sales",
+    "india",
+    "customers"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Sales Invoice"
+    },
+    {
+      "type": "page",
+      "name": "Sales Credit Memo"
+    }
+  ],
+  "features": [
+    "Exempted customer type",
+    "GST exemption",
+    "GL entries for exempted sales"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003459,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-GST-on-Advance-Payment-made-to-Vendor",
   "published_at": "2025-07-21T13:19:09.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,13 @@
       "blob": "a97c2a01128ddec8183e8098c7f9de5781861c39",
       "words": 420,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:16:15.252Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.003459
     }
   },
   "input_hash": "a97c2a01128ddec8183e8098c7f9de5781861c39",
@@ -44,5 +51,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a97c2a01128ddec8183e8098c7f9de5781861c39"
+  "output_hash": "dd8a605ac5b2401a9773d533c624199500292e661f38d896ea73bbc95a37b226"
 }

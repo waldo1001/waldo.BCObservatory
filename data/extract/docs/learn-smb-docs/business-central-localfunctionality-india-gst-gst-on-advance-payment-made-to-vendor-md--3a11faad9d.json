@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/GST-GST-on-Advance-Payment-made-to-Vendor.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-GST-on-Advance-Payment-made-to-Vendor",
+  "title": "GST on Advance Payment made to Vendor, with reverse charge",
+  "blob": "a97c2a01128ddec8183e8098c7f9de5781861c39",
+  "summary": "GST calculation on advance payments to vendors with reverse charge in India, applicable for goods and services supply with different tax payment requirements.",
+  "systems": [
+    "localization",
+    "purchasing",
+    "finance"
+  ],
+  "topics": [
+    "gst",
+    "advance payment",
+    "reverse charge",
+    "vendor",
+    "india"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "General Journal"
+    },
+    {
+      "type": "page",
+      "name": "Bank Payment Voucher"
+    },
+    {
+      "type": "page",
+      "name": "Cash Payment Voucher"
+    }
+  ],
+  "features": [
+    "GST on Advance Payment",
+    "Reverse charge calculation",
+    "Vendor registration",
+    "GST Group code",
+    "Place of Supply"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003459,
+      "pages_in_call": 8
+    }
+  ]
+}

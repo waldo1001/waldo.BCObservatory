@@ -1,0 +1,266 @@
+{
+  "video_id": "MpDKjl7zzdk",
+  "item_id": "video/yt-microsoft/MpDKjl7zzdk",
+  "title": "What's New: Suggest Number Series with Copilot  (2024 release wave 2)",
+  "duration_s": 540,
+  "systems": [
+    "copilot",
+    "administration"
+  ],
+  "topics": [
+    "number series",
+    "copilot",
+    "ai-generated content",
+    "prompt guides",
+    "setup automation",
+    "year-based numbering",
+    "module rollout",
+    "fiscal year",
+    "company setup"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to Copilot Number Series capabilities",
+      "t_start": 0,
+      "t_end": 47.7
+    },
+    {
+      "title": "Demo setup - service management module rollout",
+      "t_start": 47.7,
+      "t_end": 91.1
+    },
+    {
+      "title": "Generating number series for contract credit memo",
+      "t_start": 91.1,
+      "t_end": 172
+    },
+    {
+      "title": "Applying and reviewing the suggested number series",
+      "t_start": 172,
+      "t_end": 232.9
+    },
+    {
+      "title": "Preparing existing number series for the next year",
+      "t_start": 232.9,
+      "t_end": 308.9
+    },
+    {
+      "title": "Generating complete number series for a new company",
+      "t_start": 308.9,
+      "t_end": 412.4
+    },
+    {
+      "title": "Reviewing generated number series across all modules",
+      "t_start": 412.4,
+      "t_end": 473.7
+    },
+    {
+      "title": "Summary and call to action",
+      "t_start": 473.7,
+      "t_end": 540
+    }
+  ],
+  "features": [
+    {
+      "name": "Suggest Number Series with Copilot",
+      "description": "Copilot capability that generates, modifies or maintains number series for Business Central. Can create series for specific records, modules or entire companies with customizable prompts.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 7.4,
+      "t_end": 493.9,
+      "is_demoed": true,
+      "caveats": [
+        "AI generated content might be incorrect",
+        "Manual deletion of incorrect suggestions may be required"
+      ],
+      "tags": [
+        "copilot",
+        "automation",
+        "number-series",
+        "ai"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Number Series Year Number Inclusion",
+      "description": "Copilot can generate number series that include year numbers (e.g., last two digits of fiscal year like 24 for 2024) when explicitly requested in the prompt.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 131.4,
+      "t_end": 192.6,
+      "is_demoed": true,
+      "caveats": [
+        "Requires explicit instruction in the prompt"
+      ],
+      "tags": [
+        "year-numbering",
+        "copilot",
+        "customization"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Automatic Number Series Update",
+      "description": "When suggesting number series, Copilot automatically updates the number series configuration in related setup pages such as service management setup.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 192.6,
+      "t_end": 212.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "automation",
+        "copilot",
+        "setup"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Number Series Year Preparation",
+      "description": "Copilot can prepare existing number series for the next year by creating new date-based series lines with appropriate starting dates.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 232.9,
+      "t_end": 329,
+      "is_demoed": true,
+      "caveats": [
+        "May generate suggestions for unrelated series if prompt is not specific enough"
+      ],
+      "tags": [
+        "year-preparation",
+        "copilot",
+        "maintenance"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Prompt Guides for Number Series",
+      "description": "Copilot number series dialog includes prompt guides that provide templates for common tasks such as creating series for new companies, setting up for the next year, and modifying existing series.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 111.4,
+      "t_end": 212.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "copilot",
+        "prompt-guides",
+        "ux"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Complete Company Number Series Generation",
+      "description": "Copilot can generate complete number series configurations for all modules in a new company based on the company's user experience setting (e.g., premium level).",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 329,
+      "t_end": 453.1,
+      "is_demoed": true,
+      "caveats": [
+        "Scope depends on company user experience setting"
+      ],
+      "tags": [
+        "company-setup",
+        "copilot",
+        "all-modules"
+      ],
+      "system": "copilot"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "number series",
+      "t": 80.8
+    },
+    {
+      "type": "page",
+      "name": "service management setup",
+      "t": 192.6
+    },
+    {
+      "type": "page",
+      "name": "purchase setup",
+      "t": 453.1
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Ian ktic",
+      "confidence": "low"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 7.4,
+      "text": "with 2024 release Wave 2 co-pilot in business Central can help you generate new modify existing or alleviate you of the pain of preparing",
+      "why_it_matters": "Establishes the core value proposition and release availability of the feature",
+      "check": "exact"
+    },
+    {
+      "t": 27.6,
+      "text": "getting started fast uh on new implementation or recurring maintenance or simply rolling out a new module or a new company uh usually requires",
+      "why_it_matters": "Identifies the business problems that the feature addresses",
+      "check": "exact"
+    },
+    {
+      "t": 268.7,
+      "text": "AI generated content might be incorrect we didn't ask for the sales credit memo but we did ask for the contract credit memo",
+      "why_it_matters": "Important caveat about AI limitations and the need for user validation",
+      "check": "exact"
+    },
+    {
+      "t": 308.9,
+      "text": "it actually set the starting date uh for the 1 of January 2025",
+      "why_it_matters": "Demonstrates the automation of year-based date handling in series generation",
+      "check": "exact"
+    },
+    {
+      "t": 412.4,
+      "text": "this particular company has this user experience set to premium which means you know you need to set up all the number series",
+      "why_it_matters": "Explains the scope depends on company configuration settings",
+      "check": "exact"
+    },
+    {
+      "t": 493.9,
+      "text": "it will make a lot of consultants and a lot of admins lives a way way much easier by removing that chore that they",
+      "why_it_matters": "Highlights the productivity improvement for implementation and maintenance roles",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 268.7,
+      "kind": "other",
+      "text": "AI generated content might be incorrect"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 6
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.023319100000000002
+    }
+  ]
+}

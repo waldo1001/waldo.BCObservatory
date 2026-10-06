@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/GST-GST-on-Advance-Payment-received-from-Customer.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-GST-on-Advance-Payment-received-from-Customer",
+  "title": "GST on advance payment received from customer",
+  "blob": "11e0ba3d62c2ab4ee58da4cf5555c21b9b695ff1",
+  "summary": "GST calculation on advance payments received from customers in India, requiring GSTR-1 reporting with applicable GST rates.",
+  "systems": [
+    "localization",
+    "sales",
+    "finance"
+  ],
+  "topics": [
+    "gst",
+    "advance payment",
+    "customer",
+    "receipt",
+    "india"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "General Journal"
+    },
+    {
+      "type": "page",
+      "name": "Bank Receipt Voucher"
+    },
+    {
+      "type": "page",
+      "name": "Cash Receipt Voucher"
+    }
+  ],
+  "features": [
+    "GST on Advance Payment",
+    "Customer registration",
+    "GST Group code",
+    "Place of Supply",
+    "Advance payment reporting"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003459,
+      "pages_in_call": 8
+    }
+  ]
+}

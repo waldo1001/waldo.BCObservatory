@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/GST-E-Invoice.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-E-Invoice",
+  "title": "E-Invoice",
+  "blob": "d3cfb0e0423db85b9a373985b3a270a5491aeb2f",
+  "summary": "E-Invoice feature in Business Central for Indian GST compliance, enabling generation of standardized JSON format invoices and import of signed responses with IRN validation.",
+  "systems": [
+    "localization",
+    "sales"
+  ],
+  "topics": [
+    "e-invoice",
+    "gst",
+    "india",
+    "json",
+    "posted sales"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Posted Sales Invoice"
+    },
+    {
+      "type": "page",
+      "name": "Posted Sales Credit Memo"
+    },
+    {
+      "type": "page",
+      "name": "General Ledger Setup"
+    }
+  ],
+  "features": [
+    "Generate E-Invoice",
+    "Import E-Invoice Response",
+    "IRN Hash validation",
+    "Generate E-Invoice on Sales Post",
+    "E-Way Bill No. recording",
+    "E-Invoice cancellation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003459,
+      "pages_in_call": 8
+    }
+  ]
+}

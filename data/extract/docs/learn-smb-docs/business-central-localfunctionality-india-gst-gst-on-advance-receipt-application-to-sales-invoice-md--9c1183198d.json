@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/GST-GST-on-Advance-Receipt-Application-to-Sales-Invoice.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-GST-on-Advance-Receipt-Application-to-Sales-Invoice",
+  "title": "GST on Advance Payment Application with Sales Invoice",
+  "blob": "cf4b9bf9139fa083a131ec17ef26524ffb5045a7",
+  "summary": "GST application of advance payments received from customers to sales invoices in India, with GSTR-1 reporting requirements based on payment and invoice timing.",
+  "systems": [
+    "localization",
+    "sales",
+    "finance"
+  ],
+  "topics": [
+    "gst",
+    "advance payment",
+    "sales invoice",
+    "application",
+    "india"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Sales Invoice"
+    }
+  ],
+  "features": [
+    "Advance payment application",
+    "Sales invoice linking",
+    "GSTR-1 reporting",
+    "Un-application functionality",
+    "Tax liability settlement"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003459,
+      "pages_in_call": 8
+    }
+  ]
+}

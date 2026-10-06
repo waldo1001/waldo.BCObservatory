@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "What's New: Financial Management (2024 release wave 2)",
   "url": "https://www.youtube.com/watch?v=YVViIBPui-A",
-  "published_at": null,
+  "published_at": "2024-10-08T15:00:30.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T19:16:06.670Z",
+      "captions": "auto:en-orig",
+      "duration_s": 282
+    },
+    "captioned": {
+      "at": "2026-10-06T19:16:13.706Z",
+      "path": "data/captions/microsoft/YVViIBPui-A.vtt",
+      "vtt_sha256": "1c4f4d152c6548623f8b249b4c4b439c9d1ba056f12e0d333e19909f84b76df2",
+      "segments": 16,
+      "words": 739,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -20,6 +34,13 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 347,
     "duration_s": 282,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "1c4f4d152c6548623f8b249b4c4b439c9d1ba056f12e0d333e19909f84b76df2"
 }
