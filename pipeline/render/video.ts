@@ -23,7 +23,7 @@ import { PIPELINE_VERSION } from "../version.js";
 import type { StageContext } from "../orchestrator/execute.js";
 import type { Manifest } from "../lib/manifest.js";
 import type { RoadmapEntry } from "../ingest/roadmap.js";
-import { loadLinks, roadmapByVideoFeature } from "../link/coverage.js";
+import { loadLinks, loadReview, roadmapByVideoFeature } from "../link/coverage.js";
 import { featureStatus, latestRoadmap } from "./feature.js";
 
 const STATUS_LABEL: Record<string, string> = { ga: "generally available", preview: "preview", announced: "announced", unclear: "status not stated" };
@@ -101,7 +101,7 @@ export function renderVideoPage(item: ManifestItem, x: VideoExtraction, s: Video
       lines.push(`| ${cell(f.name)} | ${status}${f.is_demoed ? ", demoed" : ""} | [${hms(f.t_start)}](${at(id, f.t_start)}) | ${ev} |`);
     });
     lines.push("");
-    if (rm.some((r) => r.ids.length)) lines.push("A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku, unreviewed); other statuses need a status word in the video itself.", "");
+    if (rm.some((r) => r.ids.length)) lines.push("A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.", "");
   }
   if (x.objects.length) {
     lines.push("## AL objects mentioned", "", "As heard in the captions; not yet verified against the code pillar.", "",
@@ -121,7 +121,7 @@ export async function publishedHandler(item: ManifestItem, ctx: Pick<StageContex
   const x = readJson<VideoExtraction>(extractionPath(ctx.dataDir, id));
   const s = readJson<VideoSummary>(sPath);
   const source = ctx.sources.get(item.source) ?? { name: item.source };
-  const roadmap = { byFeature: roadmapByVideoFeature(loadLinks(ctx.dataDir), id), entries: latestRoadmap(ctx.dataDir) };
+  const roadmap = { byFeature: roadmapByVideoFeature(loadLinks(ctx.dataDir), id, loadReview(ctx.dataDir)), entries: latestRoadmap(ctx.dataDir) };
   const page = renderVideoPage(item, x, s, source, ctx.now(), roadmap);
   const path = videoPagePath(ctx.contentDir, id);
   // regenerate only when the body or the facts changed, so a quiet night does not touch every page's generated.at

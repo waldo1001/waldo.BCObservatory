@@ -10,7 +10,9 @@ import type { ManifestItem } from "../../pipeline/lib/manifest.js";
 import { validate } from "../../pipeline/lib/schema.js";
 import type { Llm, VideoExtraction } from "../../pipeline/extract/video.js";
 import { candidates, linkRoadmap, linksPath, quoteIn, type RoadmapSystems } from "../../pipeline/link/roadmap.js";
-import { coverageByFeature, roadmapByVideoFeature, type RoadmapLinks } from "../../pipeline/link/coverage.js";
+import { coverageByFeature, loadLinks, loadReview, roadmapByVideoFeature, type RoadmapLinks } from "../../pipeline/link/coverage.js";
+import { reviewCoverage } from "../../pipeline/review/coverage.js";
+import { docExtractionPath } from "../../pipeline/extract/docs.js";
 import { renderFeaturePage } from "../../pipeline/render/feature.js";
 import { renderVideoPage } from "../../pipeline/render/video.js";
 
@@ -36,11 +38,12 @@ const video = (over: Partial<VideoExtraction> = {}): VideoExtraction => ({
 });
 const doc = { item_id: "docs/learn/bc/wht.md", url: "https://learn/wht", title: "Withholding tax", blob: null, summary: "Set up withholding tax for employees and vendors.", systems: ["finance"], topics: [], objects: [], features: ["employee withholding tax"], versions: [], parts: 1, prompt_version: 1, llm: [] };
 
+const DOC_PATH = (dataDir: string) => docExtractionPath(dataDir, { id: doc.item_id, source: "learn" });
 function world() {
   const dataDir = join(mkdtempSync(join(tmpdir(), "bcobs-links-")), "data");
   writeJson(join(dataDir, "roadmap/snapshots/2026-10-06.json"), { taken_at: "x", hash: "h", count: ROADMAP.length, items: ROADMAP });
   writeJson(join(dataDir, "extract/video/mT_0VKqdEzA.json"), video());
-  writeJson(join(dataDir, "extract/docs/learn/wht.json"), doc);
+  writeJson(DOC_PATH(dataDir), doc);
   return dataDir;
 }
 /** Classification puts 100 also in finance; matching answers with what `match` returns. */
@@ -154,4 +157,41 @@ test("feature pages list their coverage; video features take the roadmap status 
   ]);
   assert.deepEqual(v.data.links.features, ["feature/200", "feature/300"]);
   assert.ok(v.content.includes("generally available (roadmap [200](../features/200.md))"));
+});
+
+test("Opus coverage review: one verdict per link, dropped links leave the pages and stop passing the status", async () => {
+  const dataDir = world();
+  const { llm } = fake((r) => r.label!.startsWith("video/") ? [
+    { ref: "f1", roadmap_id: "200", relation: "covers", quote: "withholding tax for employee expenses" },
+    { ref: "f2", roadmap_id: "200", relation: "covers", quote: "New fields on the employee card" },
+  ] : [{ ref: "d1", roadmap_id: "200", relation: "covers", quote: "employee withholding tax" }]);
+  await linkRoadmap(dataDir, opts(llm));
+
+  const reqs: LlmRequest[] = [];
+  const opus: Llm = async <T>(r: LlmRequest) => {
+    reqs.push(r);
+    const refs: string[] = (r.schema as any).properties.verdicts.items.properties.ref.enum;
+    // l1 = the Learn page, l2/l3 = the two video features (keys sort docs/ before video/)
+    return { output: { verdicts: refs.map((ref) => ({ ref, verdict: ref === "l3" ? "drop" : "keep", reason: "r" })) } as T, cached: false, meta: { model: "claude-opus-5-5", cost_usd: 0.1 } as any };
+  };
+  const r = await reviewCoverage(dataDir, { ...opts(opus), llm: opus });
+  assert.deepEqual([r.candidates, r.reviewed, r.kept, r.dropped], [1, 1, 2, 1]);
+  assert.equal(reqs[0].role, "review");
+  assert.ok(reqs[0].prompt.includes("Use withholding taxes with employee transactions: the description.") && reqs[0].prompt.includes("New fields on the employee card"));
+
+  const links = loadLinks(dataDir), review = loadReview(dataDir);
+  const cov = coverageByFeature(links, review).get("200")!;
+  assert.deepEqual([cov.videos.map((v) => v.name), cov.learn.length, cov.videos[0].reviewed], [["Withholding tax for employee expenses"], 1, true]);
+  assert.deepEqual([...roadmapByVideoFeature(links, "mT_0VKqdEzA", review)], [[0, ["200"]]], "feature 2 lost its link, so its status is its own again");
+  assert.equal((await reviewCoverage(dataDir, { ...opts(opus), llm: opus })).candidates, 0, "nothing new to review");
+
+  // a verdict belongs to one unit hash: changed evidence shows as unreviewed until it is reviewed again
+  writeJson(DOC_PATH(dataDir), { ...doc, summary: "Set up withholding tax for employees, vendors and customers." });
+  await linkRoadmap(dataDir, opts(llm));
+  assert.equal(coverageByFeature(loadLinks(dataDir), loadReview(dataDir)).get("200")!.learn[0].reviewed, false);
+
+  // an incomplete answer is not trusted: the feature stays due
+  const short: Llm = async <T>() => ({ output: { verdicts: [{ ref: "l1", verdict: "keep", reason: "r" }] } as T, cached: false, meta: { model: "claude-opus-5-5" } as any });
+  const s = await reviewCoverage(dataDir, { ...opts(short), llm: short });
+  assert.deepEqual([s.reviewed, s.failed], [0, 1]);
 });

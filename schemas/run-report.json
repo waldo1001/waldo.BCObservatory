@@ -104,7 +104,14 @@
         "units": { "type": "integer" }, "stale": { "type": "integer" }, "calls": { "type": "integer" }, "matched": { "type": "integer" },
         "rejected": { "type": "integer" }, "related": { "type": "integer" }, "failed": { "type": "integer" }, "cost_usd": { "type": "number" },
         "classified": { "type": "integer" }, "unclassified": { "type": "integer" },
-        "rejections": { "type": "array", "items": { "type": "string" } }, "stopped": { "type": "string" }, "pages": { "type": "integer" }
+        "rejections": { "type": "array", "items": { "type": "string" } }, "stopped": { "type": "string" }, "pages": { "type": "integer" },
+        "review": {
+          "type": "object", "required": ["candidates", "reviewed", "kept", "dropped", "failed", "stopped"],
+          "properties": {
+            "candidates": { "type": "integer" }, "reviewed": { "type": "integer" }, "kept": { "type": "integer" }, "dropped": { "type": "integer" },
+            "failed": { "type": "integer" }, "cost_usd": { "type": "number" }, "stopped": { "type": "string" }
+          }
+        }
       }
     },
     "hubs": {

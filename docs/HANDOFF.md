@@ -74,11 +74,12 @@ Deliberate deviations from PLAN, all small:
 - ~~Link roadmap features to the videos and Learn pages that cover them~~ Done 2026-10-06 (D22):
   `pipeline/link/roadmap.ts` (matcher, quota `roadmap_links`, nightly post-pass after stage execution),
   `pipeline/link/coverage.ts` (read side), feature pages get "Covered by" + `links.videos`/`links.learn`, video
-  features get `status_source: roadmap` and `roadmap_ids`. Backfill committed in `data/links/`; 52 of 80 features
-  covered, 19 of 24 videos and 56 of 217 Learn extracts linked, 106 of 225 video features take roadmap status.
-  Pages were not re-rendered in that commit (the nightly was running); the first nightly on the new code re-renders
-  every published feature and video page. `npm run link:roadmap -- --videos N --docs N` measures on a temp copy.
-  Follow-ups: Opus review of Learn coverage (about a quarter wrong by eye); Learn "what's new" pages hit the
+  features get `status_source: roadmap` and `roadmap_ids`. State after the Opus review (2026-10-06, 536 units): 61 of 80
+  features covered, 29 of 64 videos and 53 Learn pages linked, 142 of 572 video features take roadmap status. Opus
+  dropped 40 of 185 video links and 57 of 120 Learn links ($4.74 for 66 features). The nightly re-renders published
+  feature and video pages after linking. `npm run link:roadmap -- --videos N --docs N` measures on a temp copy.
+  Opus review of the links (D23, `pipeline/review/coverage.ts`, quota `coverage_reviews`) runs after linking;
+  `npm run link:roadmap -- --review N` prints every dropped link. Follow-ups: Learn "what's new" pages hit the
   3-per-ref cap and link nothing (they cover dozens of features legitimately); ~3,400 Learn pages still to extract
   will cost ~$9 of linking spread over nights.
 - `check:leak` + `validate:content` scripts (M0 placeholders), then community video captions into the vault (D08).

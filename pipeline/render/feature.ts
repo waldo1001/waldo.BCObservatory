@@ -18,7 +18,7 @@ import { validateOrThrow } from "../lib/schema.js";
 import { clip } from "../summarize/video.js";
 import { systemFor } from "../link/toc.js";
 import type { RoadmapEntry } from "../ingest/roadmap.js";
-import { coverageByFeature, loadLinks, type FeatureCoverage } from "../link/coverage.js";
+import { coverageByFeature, loadLinks, loadReview, type FeatureCoverage } from "../link/coverage.js";
 import type { Manifest } from "../lib/manifest.js";
 import type { StageContext, StageHandler } from "../orchestrator/execute.js";
 import { PIPELINE_VERSION } from "../version.js";
@@ -64,6 +64,8 @@ export function latestRoadmap(dataDir: string): Map<string, RoadmapEntry> {
 
 const NO_COVERAGE: FeatureCoverage = { videos: [], learn: [] };
 const at = (videoId: string, t: number) => `https://www.youtube.com/watch?v=${videoId}&t=${Math.floor(t)}s`;
+/** Mark an unreviewed link only when the section mixes reviewed and unreviewed links. */
+const unrev = (x: { reviewed: boolean }, reviewed: number) => (reviewed && !x.reviewed ? " (unreviewed)" : "");
 const mss = (t: number) => `${Math.floor(t / 60)}:${String(Math.floor(t % 60)).padStart(2, "0")}`;
 
 export function renderFeaturePage(item: ManifestItem, e: RoadmapEntry, now: Date, cov: FeatureCoverage = NO_COVERAGE, hasVideoPage: (videoId: string) => boolean = () => false): string {
@@ -95,19 +97,23 @@ export function renderFeaturePage(item: ManifestItem, e: RoadmapEntry, now: Date
     `- On the roadmap since ${e.created?.slice(0, 10) ?? "unknown"}, last changed ${e.modified?.slice(0, 10) ?? "unknown"}`, "",
   ];
   if (cov.videos.length || cov.learn.length) {
+    const all = [...cov.videos, ...cov.learn];
+    const reviewed = all.filter((x) => x.reviewed).length;
+    const state = reviewed === all.length ? "Every link below was reviewed by Opus."
+      : reviewed ? `${reviewed} of ${all.length} links reviewed by Opus; the others are marked unreviewed.` : "Machine-generated, not yet reviewed.";
     lines.push("## Covered by", "",
-      "Matched by Haiku among videos and Learn pages in the same galaxy system, checked against the roadmap ids and the evidence text. Machine-generated, unreviewed.", "");
+      `Matched by Haiku among videos and Learn pages in the same galaxy system, checked against the roadmap ids and the evidence text. ${state}`, "");
     if (cov.videos.length) {
       lines.push("### Videos", "");
       const byVideo = new Map<string, FeatureCoverage["videos"]>();
       for (const v of cov.videos) byVideo.set(v.video_id, [...(byVideo.get(v.video_id) ?? []), v]);
       for (const [id, vs] of byVideo) {
         const title = hasVideoPage(id) ? `[${cell(vs[0].title)}](../videos/${id}.md)` : cell(vs[0].title);
-        lines.push(`- ${title}: ${vs.map((v) => `${cell(v.name)} at [${mss(v.t)}](${at(id, v.t)})`).join("; ")}`);
+        lines.push(`- ${title}: ${vs.map((v) => `${cell(v.name)} at [${mss(v.t)}](${at(id, v.t)})${unrev(v, reviewed)}`).join("; ")}`);
       }
       lines.push("");
     }
-    if (cov.learn.length) lines.push("### Microsoft Learn", "", ...cov.learn.map((l) => `- [${cell(l.title)}](${l.url})`), "");
+    if (cov.learn.length) lines.push("### Microsoft Learn", "", ...cov.learn.map((l) => `- [${cell(l.title)}](${l.url})${unrev(l, reviewed)}`), "");
   }
   lines.push("Source: Microsoft 365 roadmap. Status words follow the roadmap.", "");
   return `---\n${toYaml(fm, { lineWidth: 0, version: "1.1" })}---\n\n${lines.join("\n").replace(/\n{3,}/g, "\n\n").trim()}\n`;
@@ -129,7 +135,7 @@ function writeFeaturePage(item: ManifestItem, roadmap: Map<string, RoadmapEntry>
 /** Roadmap `published`: write the feature page from the latest snapshot and the current roadmap links. */
 export function featurePublished(): StageHandler {
   return async (item, ctx: StageContext) => {
-    const id = writeFeaturePage(item, latestRoadmap(ctx.dataDir), coverageByFeature(loadLinks(ctx.dataDir)), ctx.contentDir, ctx.now());
+    const id = writeFeaturePage(item, latestRoadmap(ctx.dataDir), coverageByFeature(loadLinks(ctx.dataDir), loadReview(ctx.dataDir)), ctx.contentDir, ctx.now());
     if (!id) return { skip: "removed-upstream" };
     return { data: { path: `content/features/${id}.md` }, output_hash: item.input_hash ?? undefined };
   };
@@ -138,7 +144,7 @@ export function featurePublished(): StageHandler {
 /** After linking: re-render every published feature page so coverage found tonight reaches it. Returns pages written or kept. */
 export function rerenderFeaturePages(manifest: Manifest, dataDir: string, contentDir: string, now: Date): number {
   const roadmap = latestRoadmap(dataDir);
-  const cov = coverageByFeature(loadLinks(dataDir));
+  const cov = coverageByFeature(loadLinks(dataDir), loadReview(dataDir));
   return manifest.list("roadmap").filter((i) => i.stages.published).map((i) => writeFeaturePage(i, roadmap, cov, contentDir, now)).filter(Boolean).length;
 }
 

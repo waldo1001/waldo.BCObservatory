@@ -68,3 +68,11 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   are high precision; Learn matches about three quarters plausible, so they ship machine-generated and unreviewed.
   Consequence: `data/links/roadmap.json` (+ `roadmap-systems.json`), quota `roadmap_links`, units redone only when
   their text or their candidates change; a video feature takes the roadmap status when its roadmap features agree.
+- **D23 Opus reviews roadmap coverage per feature, per link.** One `review` call per roadmap feature sees its full
+  roadmap text and every proposed link (video feature or Learn page, with the evidence text the matcher saw) and
+  keeps or drops each. Verdicts are keyed by link and unit hash in `data/links/roadmap-review.json`; views leave
+  dropped links out, so a dropped video link also stops passing the roadmap status; unreviewed links are marked.
+  An answer without exactly one verdict per link is not stored. Why: Haiku's Learn matches were about a quarter
+  wrong and D21 says reviews gate. Measured 2026-10-06: backfill of 66 features / 305 links for $4.74 (~$0.07 a
+  feature); Opus dropped 22% of video links (mostly wave 1 videos showing the older capability) and 48% of Learn
+  links. Quota `coverage_reviews` (Opus calls, zero under facts-only).
