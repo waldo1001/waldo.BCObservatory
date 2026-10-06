@@ -1,0 +1,56 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/inventory-how-work-nonstock-items.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-how-work-nonstock-items",
+  "title": "Create and manage catalog items",
+  "blob": "2bac5ae6d35e39bb10acbb4938e34b4a435d9526",
+  "summary": "Create and manage catalog items that represent vendor products not yet in inventory, convert them to regular items when sold, and configure how vendor item numbers are converted to your numbering system.",
+  "systems": [
+    "inventory",
+    "sales",
+    "purchasing"
+  ],
+  "topics": [
+    "catalog items",
+    "nonstock items",
+    "item conversion",
+    "vendor items",
+    "item numbering",
+    "special orders"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Catalog Items"
+    },
+    {
+      "type": "page",
+      "name": "Catalog Item Card"
+    },
+    {
+      "type": "page",
+      "name": "Catalog Item Setup"
+    },
+    {
+      "type": "page",
+      "name": "Sales Orders"
+    }
+  ],
+  "features": [
+    "create catalog items",
+    "convert catalog items to regular items",
+    "configure item number format",
+    "automatic item creation",
+    "item references"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00379,
+      "pages_in_call": 8
+    }
+  ]
+}

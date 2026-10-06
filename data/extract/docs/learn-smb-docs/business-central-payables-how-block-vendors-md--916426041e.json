@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/payables-how-block-vendors.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/payables-how-block-vendors",
+  "title": "Block vendors",
+  "blob": "7ecd8292b7de0f05ffc0b20f12f6a0586d0cf8e2",
+  "summary": "Block vendors to prevent them from being selected on purchase documents or receiving payments when there are issues like insolvency or payment disputes.",
+  "systems": [
+    "purchasing",
+    "finance"
+  ],
+  "topics": [
+    "vendor blocking",
+    "blocked vendors",
+    "payment blocks",
+    "vendor disputes"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Vendors"
+    }
+  ],
+  "features": [
+    "block vendor",
+    "payment blocking",
+    "transaction blocking",
+    "on hold status"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00379,
+      "pages_in_call": 8
+    }
+  ]
+}

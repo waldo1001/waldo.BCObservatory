@@ -1,0 +1,48 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/payables-how-suggest-vendor-payments.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/payables-how-suggest-vendor-payments",
+  "title": "Suggest vendor payments",
+  "blob": "6fff15eb506f5ae2dace65d2364b29cb0cd21f29",
+  "summary": "Use the Suggest Vendor Payments batch job to automatically generate payment journal lines based on due dates and available payment discounts, with options to prioritize vendors and set posting dates.",
+  "systems": [
+    "purchasing",
+    "finance"
+  ],
+  "topics": [
+    "vendor payments",
+    "payment suggestions",
+    "payment discounts",
+    "vendor prioritization",
+    "batch jobs",
+    "payment scheduling"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Payment Journals"
+    },
+    {
+      "type": "page",
+      "name": "Suggest Vendor Payments"
+    }
+  ],
+  "features": [
+    "suggest vendor payments",
+    "payment discount detection",
+    "vendor prioritization",
+    "due date calculation",
+    "posting date calculation",
+    "on hold exclusion"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00379,
+      "pages_in_call": 8
+    }
+  ]
+}

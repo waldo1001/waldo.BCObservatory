@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/payables-how-suggest-vendor-payments",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,13 @@
       "blob": "6fff15eb506f5ae2dace65d2364b29cb0cd21f29",
       "words": 424,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T19:08:13.765Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.00379
     }
   },
   "input_hash": "6fff15eb506f5ae2dace65d2364b29cb0cd21f29",
@@ -47,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6fff15eb506f5ae2dace65d2364b29cb0cd21f29"
+  "output_hash": "784f2ca822e782afcf6d33bc2f107946e59f892a43d0418e8154698efac470cc"
 }

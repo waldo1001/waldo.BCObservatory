@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-responsibility-centers",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,13 @@
       "blob": "ad4204e97cb7456aef4b21189b5842851ab6dbd0",
       "words": 575,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:08:13.760Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.00379
     }
   },
   "input_hash": "ad4204e97cb7456aef4b21189b5842851ab6dbd0",
@@ -35,5 +42,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ad4204e97cb7456aef4b21189b5842851ab6dbd0"
+  "output_hash": "4f23400930a5849291aa87dfc54b786b9684b24a8185fc13d9f0e92a4f1fdc01"
 }

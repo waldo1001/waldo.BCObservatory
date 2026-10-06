@@ -1,0 +1,62 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/payables-how-apply-purchase-transactions-manually.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/payables-how-apply-purchase-transactions-manually",
+  "title": "Reconcile vendor payment receipts or refunds in the payment journal",
+  "blob": "13283b57536d2c06511a2af0db3a6f67f5146bf2",
+  "summary": "Apply vendor payments and refunds to open invoices and credit memos using payment journals or vendor ledger entries, handle multi-currency applications, and unapply erroneous applications.",
+  "systems": [
+    "purchasing",
+    "finance"
+  ],
+  "topics": [
+    "vendor payments",
+    "payment reconciliation",
+    "invoice application",
+    "credit memos",
+    "payment journals",
+    "multi-currency",
+    "unapplication"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Payment Journals"
+    },
+    {
+      "type": "page",
+      "name": "Payment Reconciliation Journals"
+    },
+    {
+      "type": "page",
+      "name": "Apply Vendor Entries"
+    },
+    {
+      "type": "page",
+      "name": "Purchase Credit Memos"
+    },
+    {
+      "type": "page",
+      "name": "Vendors"
+    }
+  ],
+  "features": [
+    "apply single entries",
+    "apply multiple entries",
+    "apply credit memos",
+    "partial application",
+    "multi-currency application",
+    "unapply entries",
+    "automatic application"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00379,
+      "pages_in_call": 8
+    }
+  ]
+}

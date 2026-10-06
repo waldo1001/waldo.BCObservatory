@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/payables-how-block-vendors",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,13 @@
       "blob": "7ecd8292b7de0f05ffc0b20f12f6a0586d0cf8e2",
       "words": 137,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T19:08:13.763Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.00379
     }
   },
   "input_hash": "7ecd8292b7de0f05ffc0b20f12f6a0586d0cf8e2",
@@ -41,5 +48,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7ecd8292b7de0f05ffc0b20f12f6a0586d0cf8e2"
+  "output_hash": "95e3ab25a236497672cb69296c2ff67d22cf431bc2dd930f88227b22ca6c0b3d"
 }

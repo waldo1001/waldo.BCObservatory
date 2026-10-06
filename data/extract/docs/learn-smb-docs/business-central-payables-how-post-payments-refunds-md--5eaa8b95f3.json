@@ -1,0 +1,54 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/payables-how-post-payments-refunds.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/payables-how-post-payments-refunds",
+  "title": "Record payments and refunds in payment journals",
+  "blob": "c102ec4391a2d728032bb51e881711bda82a2e6b",
+  "summary": "Record vendor payments and customer refunds in the payment journal, apply payments to invoices and credit memos, print checks, and submit payments electronically to banks.",
+  "systems": [
+    "finance",
+    "purchasing",
+    "sales"
+  ],
+  "topics": [
+    "payment journals",
+    "payments",
+    "refunds",
+    "check payments",
+    "electronic payments",
+    "bank transfers"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Payment Journals"
+    },
+    {
+      "type": "page",
+      "name": "Apply Vendor Entries"
+    },
+    {
+      "type": "page",
+      "name": "Apply Customer Entries"
+    }
+  ],
+  "features": [
+    "record payments",
+    "record refunds",
+    "apply to invoices",
+    "suggest vendor payments",
+    "print checks",
+    "electronic payment export",
+    "payment personalization"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00379,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/production-how-set-up-standard-routing-lines.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/production-how-set-up-standard-routing-lines",
+  "title": "Set Up Standard Tasks for Operations",
+  "blob": "6622f8d1a586455ae3102e3f56e4f71f08bdb023",
+  "summary": "Create and manage standard routing tasks that define equipment, personnel, and descriptions for manufacturing operations to simplify routing creation and maintenance.",
+  "systems": [
+    "manufacturing"
+  ],
+  "topics": [
+    "standard tasks",
+    "routings",
+    "operations",
+    "manufacturing",
+    "production equipment",
+    "production personnel"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Standard Tasks"
+    },
+    {
+      "type": "page",
+      "name": "Routings"
+    }
+  ],
+  "features": [
+    "create standard tasks",
+    "add tools to tasks",
+    "add personnel to tasks",
+    "add descriptions to tasks",
+    "add standard tasks to routings",
+    "print routing sheets"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00379,
+      "pages_in_call": 8
+    }
+  ]
+}

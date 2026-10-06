@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-how-work-nonstock-items",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,13 @@
       "blob": "2bac5ae6d35e39bb10acbb4938e34b4a435d9526",
       "words": 629,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:08:13.760Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 4,
+      "cost_usd": 0.00379
     }
   },
   "input_hash": "2bac5ae6d35e39bb10acbb4938e34b4a435d9526",
@@ -37,5 +44,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "2bac5ae6d35e39bb10acbb4938e34b4a435d9526"
+  "output_hash": "7479433f4237696e252947d8d249e0f25f9b64587861660a8cbc9f792396ac8a"
 }

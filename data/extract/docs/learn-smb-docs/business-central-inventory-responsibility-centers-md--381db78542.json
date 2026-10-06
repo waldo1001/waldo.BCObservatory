@@ -1,0 +1,53 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/inventory-responsibility-centers.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-responsibility-centers",
+  "title": "How to work with responsibility centers",
+  "blob": "ad4204e97cb7456aef4b21189b5842851ab6dbd0",
+  "summary": "Set up responsibility centers as administrative units like cost centers or profit centers, assign them to users for specific areas, and manage operations across multiple locations with stockkeeping units.",
+  "systems": [
+    "administration",
+    "inventory",
+    "sales"
+  ],
+  "topics": [
+    "responsibility centers",
+    "cost centers",
+    "profit centers",
+    "locations",
+    "stockkeeping units",
+    "user assignments"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Responsibility Centers"
+    },
+    {
+      "type": "page",
+      "name": "Company Information"
+    },
+    {
+      "type": "page",
+      "name": "User Setup"
+    }
+  ],
+  "features": [
+    "set up responsibility centers",
+    "assign centers to users",
+    "default responsibility center",
+    "sales responsibility center filters",
+    "purchase responsibility center filters",
+    "service responsibility center filters"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00379,
+      "pages_in_call": 8
+    }
+  ]
+}

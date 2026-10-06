@@ -1,0 +1,58 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/inventory-how-work-item-attributes.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-how-work-item-attributes",
+  "title": "Set up item attributes and assign them to items",
+  "blob": "7bcfe6bc0ac5e4f43a71379312cdf28c42baf70a",
+  "summary": "Set up and manage item attributes that describe product characteristics like height and color, assign them to items and categories, and filter items by attribute values for customer inquiries and web shop searches.",
+  "systems": [
+    "inventory"
+  ],
+  "topics": [
+    "item attributes",
+    "item characteristics",
+    "product filtering",
+    "item categories",
+    "search functionality"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Item Attributes"
+    },
+    {
+      "type": "page",
+      "name": "Item Attribute Values"
+    },
+    {
+      "type": "page",
+      "name": "Items"
+    },
+    {
+      "type": "page",
+      "name": "Item Categories"
+    },
+    {
+      "type": "page",
+      "name": "Filter Items by Attribute"
+    }
+  ],
+  "features": [
+    "create item attributes",
+    "assign attributes to items",
+    "assign attributes to categories",
+    "filter by attributes",
+    "attribute inheritance",
+    "Image Analyzer extension"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00379,
+      "pages_in_call": 8
+    }
+  ]
+}

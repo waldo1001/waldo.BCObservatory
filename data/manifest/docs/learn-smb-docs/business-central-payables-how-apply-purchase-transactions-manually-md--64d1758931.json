@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/payables-how-apply-purchase-transactions-manually",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,13 @@
       "blob": "13283b57536d2c06511a2af0db3a6f67f5146bf2",
       "words": 1389,
       "forms": 4
+    },
+    "extracted": {
+      "at": "2026-10-06T19:08:13.762Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 5,
+      "cost_usd": 0.00379
     }
   },
   "input_hash": "13283b57536d2c06511a2af0db3a6f67f5146bf2",
@@ -60,5 +67,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "13283b57536d2c06511a2af0db3a6f67f5146bf2"
+  "output_hash": "76f1c616b96b36e90e943a46418427243d7a04365319a0bde98786f4d157d5b8"
 }
