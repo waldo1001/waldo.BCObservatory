@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/how-to-register-vat-on-purchase-orders.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-register-vat-on-purchase-orders",
+  "title": "Register VAT on Purchase Orders in Russia",
+  "blob": "3b1426e32328a63cb25ff993f0175b5bc1f46d3a",
+  "summary": "Purchase orders in Russia can register VAT information including vendor receipt details and vendor VAT invoice data, which is then tracked in the VAT invoices journal after posting.",
+  "systems": [
+    "purchasing",
+    "finance"
+  ],
+  "topics": [
+    "vat",
+    "purchase",
+    "russia",
+    "invoice",
+    "localization"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Purchase Order"
+    }
+  ],
+  "features": [
+    "Vendor Receipts No.",
+    "Vendor Receipts Date",
+    "Vendor VAT Invoice No.",
+    "Vendor VAT Invoice Date",
+    "Vendor VAT Invoice Rcvd Date"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002569,
+      "pages_in_call": 8
+    }
+  ]
+}

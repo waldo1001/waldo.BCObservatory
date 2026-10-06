@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "What's New: Field Service Integration to Service Management (2024 release wave 2)",
   "url": "https://www.youtube.com/watch?v=WvG4EOHQuiw",
-  "published_at": null,
+  "published_at": "2024-10-08T15:00:38.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T19:13:59.806Z",
+      "captions": "auto:en-orig",
+      "duration_s": 1277
+    },
+    "captioned": {
+      "at": "2026-10-06T19:14:07.242Z",
+      "path": "data/captions/microsoft/WvG4EOHQuiw.vtt",
+      "vtt_sha256": "ec68c5550198b3c459b6a307d2d1005becad6902a60f53fa1f26ee6fcddfa819",
+      "segments": 65,
+      "words": 3374,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -20,6 +34,13 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 341,
     "duration_s": 1277,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ec68c5550198b3c459b6a307d2d1005becad6902a60f53fa1f26ee6fcddfa819"
 }

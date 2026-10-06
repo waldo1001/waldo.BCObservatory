@@ -1,0 +1,27 @@
+{
+  "video_id": "YL50nOTAPIY",
+  "item_id": "video/yt-microsoft/YL50nOTAPIY",
+  "summary": "Copilot for Finance, a Microsoft 365 role-based agent next to Copilot for Sales and Copilot for Service, is introduced for accounts receivable and collections. The video covers its Outlook and Excel integrations, the Teams integration still on the roadmap, and extensibility with custom fields through Copilot Studio.",
+  "overview": "The video, from the 2024 release wave 2 series, presents Copilot for Finance as a product in the Microsoft 365 suite of role-based agents. It starts with the cost of task switching, citing about 4 hours of switching, which the speaker puts at about 5 weeks per year, or roughly 9% of annual work time. It then shows how Copilot for Finance brings data from other applications into the flow of work.\n\nThe first focus is accounts receivable and collections. The Outlook integration lets a collections manager summarize email threads, see customer information and update Business Central without leaving Outlook. Excel gets a semi-integration to reconcile data sets with Business Central, with variance analysis coming soon. Managing receivables from Teams is on the roadmap. Custom fields on Business Central entities can be exposed through APIs and surfaced in apps such as Outlook, with Copilot Studio used for authoring.",
+  "key_points": [
+    "Copilot for Finance sits in the Microsoft 365 suite of role-based agents, alongside Copilot for Sales and Copilot for Service.",
+    "Current focus is accounts receivable and collections; the speaker says more is to come.",
+    "The Outlook integration summarizes email threads, surfaces customer information and updates data back into Business Central without switching applications.",
+    "The Excel integration is described as a semi-integration to reconcile data sets between Business Central and Excel; variance analysis is coming soon.",
+    "Managing accounts receivable from within Teams is still on the roadmap and not yet released.",
+    "Custom fields on Business Central entities can be exposed from APIs and surfaced in apps like Outlook; Copilot Studio is needed to author these experiences.",
+    "The speaker cites task switching as about 4 hours that add up to about 5 weeks per year, roughly 9% of annual work time."
+  ],
+  "audience": [
+    "decision maker",
+    "functional consultant",
+    "administrator"
+  ],
+  "extraction_hash": "450533d3f437a6b967ffbaeba6500304c37a2d4c58c71f108cc8a0ecd45de2cc",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.015486399999999999
+  }
+}

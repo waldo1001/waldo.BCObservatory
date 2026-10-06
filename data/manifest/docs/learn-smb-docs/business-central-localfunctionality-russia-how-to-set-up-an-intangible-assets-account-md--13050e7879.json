@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-set-up-an-intangible-assets-account",
   "published_at": "2025-08-07T14:51:39.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "eae5a1c87695208bca5ca374a03f13e03ca0c9a1",
       "words": 142,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:14:12.606Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.002569
+    },
+    "summarized": {
+      "at": "2026-10-06T19:14:19.656Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:14:19.656Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:14:19.657Z",
+      "page": false
     }
   },
   "input_hash": "eae5a1c87695208bca5ca374a03f13e03ca0c9a1",
@@ -39,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "eae5a1c87695208bca5ca374a03f13e03ca0c9a1"
+  "output_hash": "757047c6094e911ba02704b7b218e2fb4b684927c99d5688659d683f5e94ae52"
 }

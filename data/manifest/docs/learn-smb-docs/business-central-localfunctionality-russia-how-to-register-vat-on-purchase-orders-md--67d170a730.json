@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-register-vat-on-purchase-orders",
   "published_at": "2025-08-07T14:51:39.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "3b1426e32328a63cb25ff993f0175b5bc1f46d3a",
       "words": 208,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:14:12.603Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.002569
+    },
+    "summarized": {
+      "at": "2026-10-06T19:14:17.870Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:14:17.871Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:14:17.872Z",
+      "page": false
     }
   },
   "input_hash": "3b1426e32328a63cb25ff993f0175b5bc1f46d3a",
@@ -39,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "3b1426e32328a63cb25ff993f0175b5bc1f46d3a"
+  "output_hash": "caea44e621bb1c69f15a078fc907e3ed5ebc3a800767f97c4b13f5f386c82caa"
 }

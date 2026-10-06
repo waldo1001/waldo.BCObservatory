@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/How-to-Release-Track-Write-Off-Fixed-Assets",
   "published_at": "2025-08-07T14:51:39.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "c6e96efb678e157f276e741a94f200e8bcebd51d",
       "words": 1424,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:14:12.604Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 5,
+      "cost_usd": 0.002569
+    },
+    "summarized": {
+      "at": "2026-10-06T19:14:17.873Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:14:17.874Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:14:17.875Z",
+      "page": false
     }
   },
   "input_hash": "c6e96efb678e157f276e741a94f200e8bcebd51d",
@@ -39,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c6e96efb678e157f276e741a94f200e8bcebd51d"
+  "output_hash": "db65f0c4faec955ad2bdf8562e3fd973c13346aab9e767667f20580b6cccfdbf"
 }

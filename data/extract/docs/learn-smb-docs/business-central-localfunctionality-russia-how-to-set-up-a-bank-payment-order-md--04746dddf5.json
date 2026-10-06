@@ -1,0 +1,49 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/how-to-set-up-a-bank-payment-order.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-set-up-a-bank-payment-order",
+  "title": "Setting up a bank payment order in Russia",
+  "blob": "93186fbeffa4899e8eb07421517e8c1f48610637",
+  "summary": "Bank payment orders for official state budget payments require setting up general journal templates with bank account details and configuring source codes in the bank payments field.",
+  "systems": [
+    "finance",
+    "purchasing"
+  ],
+  "topics": [
+    "bank",
+    "payment",
+    "order",
+    "russia",
+    "localization"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "General Journal Templates"
+    },
+    {
+      "type": "page",
+      "name": "Source Codes"
+    },
+    {
+      "type": "page",
+      "name": "Source Code Setup"
+    }
+  ],
+  "features": [
+    "Bank Payment Order",
+    "General Journal Template",
+    "Bank Account",
+    "Source Code"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002569,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=YL50nOTAPIY",
   "published_at": "2024-10-08T15:00:40.000Z",
   "language": "en",
-  "state": "captioned",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
@@ -25,6 +25,40 @@
       "words": 1068,
       "lang": "en-orig",
       "kind": "auto"
+    },
+    "extracted": {
+      "at": "2026-10-06T19:14:10.938Z",
+      "path": "data/extract/video/YL50nOTAPIY.json",
+      "prompt": "extract-video@1",
+      "windows": 1,
+      "features": 5,
+      "quotes": 7,
+      "quotes_dropped": 0,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.020106
+    },
+    "summarized": {
+      "at": "2026-10-06T19:14:17.849Z",
+      "path": "data/summary/video/YL50nOTAPIY.json",
+      "prompt": "summarize-video@2",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": 0.015486399999999999
+    },
+    "linked": {
+      "at": "2026-10-06T19:14:17.850Z",
+      "systems": [
+        "finance",
+        "copilot",
+        "integration"
+      ],
+      "topics": 10,
+      "objects_as_heard": 1
+    },
+    "published": {
+      "at": "2026-10-06T19:14:17.862Z",
+      "path": "content/videos/YL50nOTAPIY.md"
     }
   },
   "input_hash": null,
@@ -42,5 +76,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "496eb491f5204da0f25d03adb7ed5485d7a8504d6bec9dea9b47f2318e407503"
+  "output_hash": "d53b0b8178ee805fe4887e53240feb728cde5ca7d7471259a1577b673be4c58b"
 }

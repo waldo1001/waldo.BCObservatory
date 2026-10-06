@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-set-up-a-bank-payment-order",
   "published_at": "2025-08-07T14:51:39.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "93186fbeffa4899e8eb07421517e8c1f48610637",
       "words": 186,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:14:12.605Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.002569
+    },
+    "summarized": {
+      "at": "2026-10-06T19:14:17.876Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:14:19.650Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:14:19.651Z",
+      "page": false
     }
   },
   "input_hash": "93186fbeffa4899e8eb07421517e8c1f48610637",
@@ -39,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "93186fbeffa4899e8eb07421517e8c1f48610637"
+  "output_hash": "f5d6327116a6158541beeeedb181ed15ee082dba69b1bffe0cc15f4b4905e806"
 }

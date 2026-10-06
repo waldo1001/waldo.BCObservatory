@@ -1,0 +1,333 @@
+{
+  "video_id": "WvG4EOHQuiw",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 5.9,
+      "end": 26.1,
+      "text": "with 2024 uh release Wave 2 you can now integrate U business Central's service management module with uh field service I'm Ian and I'm a product manager in business Central uh product group and please join me in this couple of minutes to take you through this new and"
+    },
+    {
+      "t": 26.1,
+      "end": 46.2,
+      "text": "exciting capability so integrating business Central with Dynamics 365 field service is of particular value to companies that do regular maintenance or or they do repairs of the products that they sell it offers uh managing of the service task uh handling consumption and uh aligning"
+    },
+    {
+      "t": 46.2,
+      "end": 62.8,
+      "text": "Financial transactions that benefit service technicians that benefit uh service manager at at the end they that benefit Finance teams uh on top of that uh the technicians and dispatchers can utilize the capability of checking the inventory"
+    },
+    {
+      "t": 62.8,
+      "end": 83.6,
+      "text": "availability at a specific uh Warehouse or at technician's desk in field service Based on data that comes in from their inventory management solution which is usually business Central this of course helps optimize work order scheduling avoids unnecessarily traveling costs or and helps optimize"
+    },
+    {
+      "t": 83.6,
+      "end": 103.8,
+      "text": "uh their service and purchasing operations so we'll start off by talking about how do we set up uh integration between field service and uh service management I have one note to uh to share with you in here this is a feature that is becoming available in a first update or a November"
+    },
+    {
+      "t": 103.8,
+      "end": 124.2,
+      "text": "update of 2024 release wave one so do keep that in mind and the setup itself is uh just an extension of a of an existing integration that we have between field service and the projects module that we have shipped in uh 24 Wave 1 if you want to check details about that"
+    },
+    {
+      "t": 124.2,
+      "end": 144.2,
+      "text": "uh make sure to check the description of the video and there's a link uh to the video that we did in a previous release wave for that integration so let's see this uh in action so before we dive into a setup I want to talk a bit about the prerequisites for enabling uh the integration to service management"
+    },
+    {
+      "t": 144.2,
+      "end": 161.4,
+      "text": "module as you know service management module is a part of the premium experience so the first thing that you will need to do in order even to light up the capabilities of integrating field service with a service management module you will need to turn on a uh premium experience in your company"
+    },
+    {
+      "t": 161.4,
+      "end": 181.4,
+      "text": "information so I've already done that so just want to point where this is so I've changed the company experience to premium another thing that um uh we we need to do is you need to also ensure uh that um there's a connection to data verse there's connection to"
+    },
+    {
+      "t": 181.4,
+      "end": 201.6,
+      "text": "sales before you can uh enable um field service integration but this is all again explained in the in the video that we've uh released in the in the previous release wave and the way to uh to start a setup is either by uh running it from a uh assisted setup guide that we have prepared"
+    },
+    {
+      "t": 201.6,
+      "end": 221.9,
+      "text": "for this and you can see there's a new setting that's called integration type that basically allows you to set up integration either to projects or to Service uh management module or to both and on the next screen uh what you will see is there's a toggle uh that actually enables the uh inventory"
+    },
+    {
+      "t": 221.9,
+      "end": 242.2,
+      "text": "availability by location in order to do that you will also need to have the virtual tables uh enabled of course the same is uh the same is also available in uh field service um integration setup page where you have these two toggles of uh in the field service uh picking the integration"
+    },
+    {
+      "t": 242.2,
+      "end": 262.8,
+      "text": "type and optionally you can enable inventory availability once the connection gets enabled it also deploys the field service integration solution to field service and it sets up uh some additional uh integration table mappings so if you if you search for the integration table mappings that start with FS you will find"
+    },
+    {
+      "t": 262.8,
+      "end": 282.9,
+      "text": "there's a location integration table mapping that was added these were added in the previous release wave and the project task and if you scroll down a bit you will find service order service item line and service order type integration table mappings uh that uh have been added after you enable uh the integration so this is"
+    },
+    {
+      "t": 282.9,
+      "end": 299.9,
+      "text": "just a recap of the things that you saw in the demo we went through the prerequisites I've talked briefly about U uh integration uh type and how you can uh how you can select it there's a couple of things that happen also after uh the"
+    },
+    {
+      "t": 299.9,
+      "end": 320.1,
+      "text": "after the integration gets enabled um there are some settings in the service management setup uh that sort of become locked uh Since U field service can work with u uh multiple customer assets we need to disable the one service line per uh order in the service management setup we also make"
+    },
+    {
+      "t": 320.1,
+      "end": 330.6,
+      "text": "the service order type mandatory because this is also a mandatory thing on the on the field service side also we turn on the archiving of the service uh orders"
+    },
+    {
+      "t": 330.6,
+      "end": 351,
+      "text": "uh together with uh making sure that the service order numbering now gets a manual flag because the the numbering in field service and in uh service management uh the numbering of the work orders or service orders does not need to be uh the same so that uh so to ensure the seamless integration the service order the numbering"
+    },
+    {
+      "t": 351,
+      "end": 371,
+      "text": "series needs to be uh enabled and there's also um for the when you enable uh inventory availability one of the things uh that is sort of a mandatory setup location mandatory needs to also be uh turned on and again here is the list of the uh new integration table mappings that get"
+    },
+    {
+      "t": 371,
+      "end": 391.4,
+      "text": "added uh uh during uh enabling of the Integrations this is for for reference only okay so now that we have setup done and we've enabled inventory availability we've enabled integration of service management module to uh to field service uh let's talk about uh inventory availability"
+    },
+    {
+      "t": 391.4,
+      "end": 411.8,
+      "text": "and what it actually brings uh through uh through this uh integration so let's see that in action back in business Central after you've enabled the field service Integrations you now have uh locations synchronized with your rare houses right you can actually go ahead and open uh some of the items"
+    },
+    {
+      "t": 411.8,
+      "end": 429.5,
+      "text": "and I'll search for whole roasted beans and if I check the whole roasted beans this is uh one of the items that uh we have synchronized with uh with field service and if I look at uh availability by"
+    },
+    {
+      "t": 429.5,
+      "end": 449.5,
+      "text": "location what you will see in here is in the East Warehouse I have one and in the main Warehouse I have uh two pieces or was it kilograms of uh two pieces of uh whole roasted beans of course if I go and open a product in field service that is"
+    },
+    {
+      "t": 449.5,
+      "end": 469.6,
+      "text": "related that has been synchronized with uh with this item that we've just looked at in um in business Central we will actually be able also to see the inventory availability so if I go and click uh items availability by location you can see the same numbers uh in here and this is"
+    },
+    {
+      "t": 469.6,
+      "end": 489.8,
+      "text": "something that gets particularly useful when you are a dispatcher trying to schedule uh work orders or if you're a technician just trying to figure out how many of particular items you might have on truck in your truck or with you so as a recap of the demo uh what you saw in this inventory"
+    },
+    {
+      "t": 489.8,
+      "end": 510.8,
+      "text": "availability in field service is there's a prerequisite you need to do this location to Warehouse map synchronization this is a unidirectional synchronization meaning the business Central given that it's a system of record for inventory is actually pushing the location information to uh field service so we are not picking up any of this information information"
+    },
+    {
+      "t": 510.8,
+      "end": 531,
+      "text": "uh from field service when we are sending location information we exclude the in transit locations and those that uh that have Warehouse pick uh mandatory to support uh the the whole inventory availability story in here we have added a uh new API that once you enable the feature it actually"
+    },
+    {
+      "t": 531,
+      "end": 551.3,
+      "text": "gets uh published as a virtual table in in field service and on top of that a synthetic relation uh between between the products that we synced and this uh new virtual table gets created and that gets you uh this nice view of uh available inventory in field service next"
+    },
+    {
+      "t": 551.3,
+      "end": 571.3,
+      "text": "up is actually I would say a core of the um field service uh to service management integration and that's the service order and work order uh alignment let's see that in action first and then we'll talk a bit more about this feature back in business Central as I said the topic of uh"
+    },
+    {
+      "t": 571.3,
+      "end": 591.4,
+      "text": "of this demo is actually to showcase the service order and the work order alignment right so we'll open service orders and you can see there's a list of service orders uh there's an information about which ones of these have been uh already synchronized with work orders there's a background task that actually goes and checks"
+    },
+    {
+      "t": 591.4,
+      "end": 611.6,
+      "text": "for new service orders and automatically synchronizes them so this mapping is set to synchronize basically everything so we are not we don't have that synchron coupled records flagged turned on so the moment you actually create a service order it is going to get it is going to start synchronizing in there and in here I have a"
+    },
+    {
+      "t": 611.6,
+      "end": 631.8,
+      "text": "service order for ad incorporation with uh S100 semi-automatic coffee maker for which uh we are performing let's call it a regular maintenance and bringing in some additional coffee beans uh to the customer we've set up some service we've uh actually added two items items that we are bringing as a part of this"
+    },
+    {
+      "t": 631.8,
+      "end": 652.2,
+      "text": "maintenance contract that we that we have now let's see how that actually looks like in field service and as you can see the the service order also has this standard set of actions for for synchronizing so you can synchronize get data here and there you can open a already coupled recorder so let's do that in here and"
+    },
+    {
+      "t": 652.2,
+      "end": 672.4,
+      "text": "uh when you land in uh field service what you can see there's a data from from the header of the recorder being transferred such as uh service account work quot types U there's information about a uh service item it's called a primary asset these uh service items are synchronized to"
+    },
+    {
+      "t": 672.4,
+      "end": 692.7,
+      "text": "uh what is called work order incidents so you can have multiple work order incidents on the work order as you could as you would have multiple service item lines in in service order and when you look at the products and services you can actually see those uh products that we've added in the service order in in business Central one thing to note as well"
+    },
+    {
+      "t": 692.7,
+      "end": 712.7,
+      "text": "is that there is a way of U it's not only that you need to create a service order in business Central and then you send it to uh to field service there are cases I mean you can receive a call from a customer a case is going to be created converted to a uh work order"
+    },
+    {
+      "t": 712.7,
+      "end": 732.8,
+      "text": "incident or work order and you can also synchronize uh work orders the other way around right so as I said we have the products we have the estimated quantities that we've entered in the in the service order and what you can see is we also have Services uh synchronized in there so the uh"
+    },
+    {
+      "t": 732.8,
+      "end": 752.9,
+      "text": "dispatcher what is going to have a look and where this uh inventory availability feature is going to be uh super uh interesting is it's going to check if everything is ready if all the products actually are there in order for him to be able to uh schedule this particular work order let's assume that this is the case in here and I will just go"
+    },
+    {
+      "t": 752.9,
+      "end": 763.4,
+      "text": "ahead and quickly uh schedule this work order so I just need location agnostic and let's just remove these"
+    },
+    {
+      "t": 763.4,
+      "end": 783.4,
+      "text": "filters to show available resources and I will assign this one to myself and now that the recorder has been scheduled it's going to get a uh scheduled status and I'm basically as a technician when I look at the scheduled work orders I can just uh pick them"
+    },
+    {
+      "t": 783.4,
+      "end": 803.8,
+      "text": "on in uh in order in which uh they arrive so that's the first part of the story of the field service and the work order alignment let's get back to the slides to uh show you a bit more details all right so in in in this demo what we saw was uh service order and work order uh alignment you"
+    },
+    {
+      "t": 803.8,
+      "end": 823.9,
+      "text": "as it I said uh there's a b directional synchronization of of those things so means that service orders can come either as a result of service contracts and and service orders that created uh related to Service uh contracts in business Central or they can come from uh various uh places in in field service either from opportunity"
+    },
+    {
+      "t": 823.9,
+      "end": 843.9,
+      "text": "or a case uh or any other uh way um on the work order when the work orders actually come from field service and that get synchronized in um in business Central there's actually a new FL that is called integrate to service which you need to uh check mark in order to"
+    },
+    {
+      "t": 843.9,
+      "end": 864.1,
+      "text": "for to consider that work order in field service uh to be synchronized back in the in business Central as I said service item lines are aligned with the workorder incidents and you can have uh one or multiple uh um customer assets"
+    },
+    {
+      "t": 864.1,
+      "end": 884.6,
+      "text": "assign associated with the workorder incidents meaning you can have uh one or more service item lines on the on the service order and of course as I said uh service lines on the other hand get the line to worker product and worker Service uh data where you have the the estimated"
+    },
+    {
+      "t": 884.6,
+      "end": 904.7,
+      "text": "quantities and duration uh synchronized uh to indicate uh to the dispatcher that this is something to uh look at and the important thing to note is that estimated quantities and the quantity field actually just gets synchronized to work order up until the work order reaches the scheduled"
+    },
+    {
+      "t": 904.7,
+      "end": 925.3,
+      "text": "status that's when we stop synchronizing uh quantity from the uh from the service lines but we continue synchronizing uh quantity to ship quantity to consum and quantity to invoice as you will see in the in the next uh demo so the next part of uh our uh presentation today is"
+    },
+    {
+      "t": 925.3,
+      "end": 945.3,
+      "text": "how do you handle uh consumption and invoicing of the work orders that get uh scheduled that get executed and then need to be invoiced uh to a customer let's see that in a demo first all right so as a technician actually goes and works through the work orders that have been scheduled once he Arise at"
+    },
+    {
+      "t": 945.3,
+      "end": 965.6,
+      "text": "the location he will set the uh booking status to in progress and now as he starts executing on the work order of course one of the things that's going to be uh also done is going to to utilize the materials or the parts that he has brought with him to uh to execute the work order"
+    },
+    {
+      "t": 965.6,
+      "end": 985.6,
+      "text": "and let's say that uh when he came to the customer he actually saw that there's enough of the copy beans that he doesn't need to but he just uh needs uh he just used uh one in here so back in business Central uh the dispatcher or the back office is going to"
+    },
+    {
+      "t": 985.6,
+      "end": 1005.6,
+      "text": "also see the status of the order reflected in business Central and they can basically track uh what is happening with that order by automatically synchronizing or manually just getting data from data verse and uh they can repeat this process as many times as they wish"
+    },
+    {
+      "t": 1005.6,
+      "end": 1026.3,
+      "text": "up until the workorder sort of reaches the status uh completed in U in field service as they synchronize the data they will see the updates to uh quantity to ship and quantity to consume reflected in business Central now if we switch back to uh"
+    },
+    {
+      "t": 1026.3,
+      "end": 1047.1,
+      "text": "work order in field service so the technician has used the uh the products and the materials he has completed his service in there and what he's going to do is he will set the status completed to the work order in field service so once the work order is completed in field service"
+    },
+    {
+      "t": 1047.1,
+      "end": 1067.7,
+      "text": "from the standpoint of the integration it is considered ready to be posted in uh in business Central back in business Central what you can again see is the status gets uh reflected when the recorder is set to complet it it gets set to the status finished in here and that's an indication for the back office uh"
+    },
+    {
+      "t": 1067.7,
+      "end": 1088.7,
+      "text": "Personnel to go ahead and uh start posting the order they will see the latest uh information about the consumption of services consumption of materials and once they are happy with this they will go ahead and simply ship and consume because there is some things that need to be consumed"
+    },
+    {
+      "t": 1088.7,
+      "end": 1108.8,
+      "text": "first and we will also do ship an invoice for this uh order for the remaining bits now once the service invoice uh gets posted and U and the service order gets uh closed this is again going to be reflected back in"
+    },
+    {
+      "t": 1108.8,
+      "end": 1128.9,
+      "text": "field service where the field service where in the field service the work order basically receives the status posted so looking back in field service what you can see is that uh this work order is now in the State uh posted meaning that the the processing and the invoicing of the work order has been completed and"
+    },
+    {
+      "t": 1128.9,
+      "end": 1140,
+      "text": "that wraps up uh this part of the demo so as a recap of the last demo uh what we saw was the service line alignment with uh uh workor"
+    },
+    {
+      "t": 1140,
+      "end": 1160,
+      "text": "with work order we say that there is a b directional synchronization of that but you need to take that into account that it is sort of a conditional B directional synchronization so what you saw that we had use quantities and durations uh getting aligned uh up until the work order is in completed status and even in the completed status it can be done"
+    },
+    {
+      "t": 1160,
+      "end": 1175,
+      "text": "but then you know there needs to be some conversation between the technician and the back office work to say okay well you know now we are done uh we are done updating the uh the the work order all of the partial postings that you might have done"
+    },
+    {
+      "t": 1175,
+      "end": 1195.3,
+      "text": "um up until the moment that the the work order got to that completed status will be automatically aligned through quantity shipped and quantity consumed fields in uh um in field service and uh as I said the completed work order means ready to uh to be posted"
+    },
+    {
+      "t": 1195.3,
+      "end": 1216.1,
+      "text": "and once this is uh once this is all done the workorder status gets uh posted status and then it gets actually locked for any uh further editing and of course the resources and the durations that you've consumed through the booking are also uh transferred back to uh"
+    },
+    {
+      "t": 1216.1,
+      "end": 1237.4,
+      "text": "to to service order as something that uh you will only consume in business Central because the service uh the service uh the service line item is the one that gets invoiced uh to the customer it's similar to to what we have done uh with uh um field service to projects"
+    },
+    {
+      "t": 1237.4,
+      "end": 1257.8,
+      "text": "integration and that was it and I really hope you enjoy this video do keep in mind that uh this feature is going to get going to become available with update one of 2024 release wave uh 2 meaning November uh update in the meantime uh please check down the description"
+    },
+    {
+      "t": 1257.8,
+      "end": 1277,
+      "text": "below for the uh links to the previous releasee wave videos and the field service integration to uh projects and have a look at uh other useful links uh that we've provided in the description of the video below thank you for your time"
+    }
+  ],
+  "markers": [],
+  "word_count": 3374
+}

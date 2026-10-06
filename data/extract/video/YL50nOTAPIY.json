@@ -1,0 +1,247 @@
+{
+  "video_id": "YL50nOTAPIY",
+  "item_id": "video/yt-microsoft/YL50nOTAPIY",
+  "title": "Introducing: Copilot for Finance: Why Is This a Game Changer (2024 release wave 2)",
+  "duration_s": 430,
+  "systems": [
+    "finance",
+    "copilot",
+    "integration"
+  ],
+  "topics": [
+    "copilot for finance",
+    "role-based agents",
+    "accounts receivable",
+    "collections",
+    "task switching",
+    "outlook integration",
+    "excel integration",
+    "teams integration",
+    "extensibility",
+    "roadmap"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Finance Function Evolution",
+      "t_start": 0,
+      "t_end": 82
+    },
+    {
+      "title": "Task Switching and Time Waste Challenge",
+      "t_start": 82,
+      "t_end": 178.1
+    },
+    {
+      "title": "Copilot for Finance Overview",
+      "t_start": 178.1,
+      "t_end": 218.4
+    },
+    {
+      "title": "Excel Integration and Collections Features",
+      "t_start": 218.4,
+      "t_end": 279.4
+    },
+    {
+      "title": "Outlook Integration for Collections Management",
+      "t_start": 279.4,
+      "t_end": 336.5
+    },
+    {
+      "title": "Roadmap and Extensibility",
+      "t_start": 336.5,
+      "t_end": 393
+    },
+    {
+      "title": "Summary and Call to Action",
+      "t_start": 393,
+      "t_end": 430
+    }
+  ],
+  "features": [
+    {
+      "name": "Copilot for Finance",
+      "description": "A new product in the Microsoft 365 suite of role-based agents alongside Copilot for Sales and Copilot for Service. It empowers finance professionals to streamline operations and stay in the flow of work by bringing in data from other applications.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 6.7,
+      "t_end": 218.4,
+      "is_demoed": false,
+      "caveats": [
+        "Currently focused on accounts receivable and collections use cases"
+      ],
+      "tags": [
+        "role-based agent",
+        "finance",
+        "microsoft 365"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Copilot for Finance Outlook Integration",
+      "description": "Native integration with Outlook for collections managers to summarize email threads, surface customer information, and update data back into Business Central without switching applications.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 279.4,
+      "t_end": 319.5,
+      "is_demoed": false,
+      "caveats": [
+        "First focus is on accounts receivables and collections",
+        "More features to come later"
+      ],
+      "tags": [
+        "outlook",
+        "collections",
+        "integration"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Copilot for Finance Excel Integration",
+      "description": "Semi-integration with Excel allowing users to reconcile data sets between Business Central and Excel. Variance analysis features coming soon.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 238.6,
+      "t_end": 258.6,
+      "is_demoed": false,
+      "caveats": [
+        "Variance analysis features are coming soon, not available now"
+      ],
+      "tags": [
+        "excel",
+        "reconciliation",
+        "data analysis"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Copilot for Finance Teams Integration",
+      "description": "Coming feature to manage accounts receivables from within Teams using the same ERP data as the Outlook integration.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 336.5,
+      "t_end": 356.7,
+      "is_demoed": false,
+      "caveats": [
+        "Still on the roadmap, not yet released"
+      ],
+      "tags": [
+        "teams",
+        "accounts receivable",
+        "roadmap"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Copilot for Finance Extensibility",
+      "description": "Ability to surface custom fields from Business Central entities in Copilot for Finance experiences. Users can expose custom fields from APIs and surface them in applications like Outlook using Copilot Studio for authoring.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 372.8,
+      "t_end": 393,
+      "is_demoed": false,
+      "caveats": [
+        "Requires Copilot Studio for authoring custom experiences"
+      ],
+      "tags": [
+        "extensibility",
+        "custom fields",
+        "copilot studio"
+      ],
+      "system": "development"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Copilot Studio",
+      "t": 393
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 6.7,
+      "text": "co-pilot for finance is a new product in the Office 365 the Microsoft 365 Suite of applications it lives among what we call the",
+      "why_it_matters": "Establishes that Copilot for Finance is a new Microsoft 365 product positioned as a role-based agent.",
+      "check": "exact"
+    },
+    {
+      "t": 158,
+      "text": "those 4 hours actually become 5 weeks per year that's about 9% of the annual work time that we spent switching task switching context",
+      "why_it_matters": "Quantifies the business problem Copilot for Finance addresses - 9% of annual work time lost to application switching.",
+      "check": "exact"
+    },
+    {
+      "t": 198.3,
+      "text": "copilot for finance as I said before this is a new product that lives within the Microsoft 365 suite and really it empowers Finance",
+      "why_it_matters": "Defines Copilot for Finance's core value proposition of keeping users in their workflow without context switching.",
+      "check": "exact"
+    },
+    {
+      "t": 218.4,
+      "text": "this is now natively integrated with business Central in Outlook first and foremost but stay tuned",
+      "why_it_matters": "Confirms native integration with Business Central in Outlook and suggests more integrations coming.",
+      "check": "exact"
+    },
+    {
+      "t": 238.6,
+      "text": "there's also an integration uh well semi integration to excel as you know business Central has very cool integration to excel already",
+      "why_it_matters": "Indicates semi-integration with Excel for reconciliation as a companion to Business Central's existing Excel features.",
+      "check": "exact"
+    },
+    {
+      "t": 336.5,
+      "text": "if you go to the road map right now and look at what's planned for copal the finance there are some really interesting things",
+      "why_it_matters": "Directs users to the public roadmap for planned Copilot for Finance features.",
+      "check": "exact"
+    },
+    {
+      "t": 372.8,
+      "text": "the extensibility option basically what this means is that if you have custom fields on your entities in business Central you can surf those",
+      "why_it_matters": "Describes extensibility capability allowing custom fields from Business Central to be surfaced in Copilot for Finance.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 238.6,
+      "kind": "coming-later",
+      "text": "variance analysis as well soon interesting features will come"
+    },
+    {
+      "t": 319.5,
+      "kind": "coming-later",
+      "text": "there's a lot more to come here this is only the beginning"
+    },
+    {
+      "t": 336.5,
+      "kind": "coming-later",
+      "text": "the ability to manage your accounts receivables from within teams if you go to the road map right now and look at what's planned for copal the finance there are some really interesting things coming"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 5
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.020106
+    }
+  ]
+}

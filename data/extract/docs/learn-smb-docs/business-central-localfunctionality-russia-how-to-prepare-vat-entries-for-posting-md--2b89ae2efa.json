@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/how-to-prepare-vat-entries-for-posting.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-prepare-vat-entries-for-posting",
+  "title": "Preparing VAT entries for posting in Russia",
+  "blob": "210fba0c1477e801c47d92b8b01a04d41852dd7e",
+  "summary": "VAT Settlement Worksheet prepares VAT entries from sales and purchase transactions for posting by filtering transactions and copying entries to VAT settlement journals before running the Calc. and Post VAT Settlement batch job.",
+  "systems": [
+    "finance"
+  ],
+  "topics": [
+    "vat",
+    "settlement",
+    "russia",
+    "tax",
+    "localization"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "VAT Settlement Worksheet"
+    }
+  ],
+  "features": [
+    "VAT Settlement Worksheet",
+    "Suggest Documents",
+    "Copy Lines to Journal",
+    "Calc. and Post VAT Settlement"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002569,
+      "pages_in_call": 8
+    }
+  ]
+}

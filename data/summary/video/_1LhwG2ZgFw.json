@@ -1,0 +1,27 @@
+{
+  "video_id": "_1LhwG2ZgFw",
+  "item_id": "video/yt-microsoft/_1LhwG2ZgFw",
+  "summary": "Sales line suggestions with Copilot in Business Central, as covered in the 2024 release wave 1 What's New video. Covers better keyword extraction and context understanding, faster product search, blanket order linking, document-specific search, units of measure, and CSV upload with column mapping and caching.",
+  "overview": "The video walks through updates to Copilot sales line suggestions, which help create sales quotes, orders and invoices from natural language or structured data. It demonstrates better handling of product queries, including compound words and modifiers such as \"small\" or \"commercial use\". It also shows a search speed-up from about 60 seconds to about 6 seconds on a 40,000-item database.\n\nIt then covers searching from blanket orders as a source document, narrowing search to a specific document, and support for all configured units of measure. The last part shows uploading a CSV file, reviewing the detected separator and column mapping, generating suggestions, and caching the mapping for later files with the same header. Only CSV is supported for now, and other file types are hoped for in the future.",
+  "key_points": [
+    "Keyword extraction recognizes compound words without spaces, for example 'guestchairs' is read as 'guest chairs'.",
+    "Copilot uses modifiers like 'small', 'bigger' or 'commercial use' to pick the right product variant.",
+    "Product search is up to 10 times faster; in the example, 40,000 items went from 60 seconds to about 6 seconds.",
+    "Searching from a blanket order creates a direct link to the blanket order line, so quantities cannot exceed the linked blanket order quantity.",
+    "Search can be limited to items in a specific document by giving its document number or ID.",
+    "All configured units of measure for an item are supported, including custom ones.",
+    "CSV upload detects the column separator and maps columns to product, quantity and unit of measure. You can edit the mapping before generating suggestions."
+  ],
+  "audience": [
+    "functional consultant",
+    "end user",
+    "administrator"
+  ],
+  "extraction_hash": "272497aba25f817d20e9716330f50516193bdf0e08fff5e1967f3c3097e81152",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0163324
+  }
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-set-up-a-quantity-book",
   "published_at": "2025-08-07T14:51:39.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "fab628a6f26f0f0c750d5760a1f60ef64252a41e",
       "words": 138,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:14:12.606Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.002569
+    },
+    "summarized": {
+      "at": "2026-10-06T19:14:19.653Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:14:19.654Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:14:19.655Z",
+      "page": false
     }
   },
   "input_hash": "fab628a6f26f0f0c750d5760a1f60ef64252a41e",
@@ -38,5 +57,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "fab628a6f26f0f0c750d5760a1f60ef64252a41e"
+  "output_hash": "c5a62d579be5f5e6922229fa9291f457de943f316dc68347dc8fe5a690aa4825"
 }

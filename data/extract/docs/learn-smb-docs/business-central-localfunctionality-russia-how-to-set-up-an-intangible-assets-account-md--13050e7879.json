@@ -1,0 +1,44 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/how-to-set-up-an-intangible-assets-account.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-set-up-an-intangible-assets-account",
+  "title": "Setting up intangible asset accounts in Russia",
+  "blob": "eae5a1c87695208bca5ca374a03f13e03ca0c9a1",
+  "summary": "Intangible assets accounting allows posting non-monetary assets that cannot be physically measured to a special Intangible Assets account with monthly depreciation using the same process as fixed asset posting.",
+  "systems": [
+    "fixed-assets"
+  ],
+  "topics": [
+    "intangible assets",
+    "fixed assets",
+    "accounting",
+    "russia",
+    "localization"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Fixed Assets"
+    },
+    {
+      "type": "page",
+      "name": "Fixed Asset Card"
+    }
+  ],
+  "features": [
+    "Intangible Asset",
+    "FA Type",
+    "Intangible Assets Account",
+    "Monthly Depreciation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002569,
+      "pages_in_call": 8
+    }
+  ]
+}
