@@ -1,0 +1,305 @@
+{
+  "video_id": "tDcT_51ktqo",
+  "item_id": "video/yt-microsoft/tDcT_51ktqo",
+  "title": "What's New: Server and Database - A Faster Runtime (2023 release wave 2)",
+  "duration_s": 574,
+  "systems": [
+    "platform",
+    "development",
+    "reporting"
+  ],
+  "topics": [
+    "error handling",
+    "secret text",
+    "permissions",
+    "security groups",
+    "queries",
+    "telemetry",
+    "exclusive time",
+    "session performance",
+    "tenant startup",
+    "web services"
+  ],
+  "chapters": [
+    {
+      "title": "Error Info, Secret Text, and Permissions Improvements",
+      "t_start": 0,
+      "t_end": 137.9
+    },
+    {
+      "title": "Queries and Run Object Support",
+      "t_start": 137.9,
+      "t_end": 178.4
+    },
+    {
+      "title": "Telemetry and Exclusive Time Tracking",
+      "t_start": 178.4,
+      "t_end": 267.7
+    },
+    {
+      "title": "Session Creation and Tenant Startup Performance",
+      "t_start": 267.7,
+      "t_end": 363
+    },
+    {
+      "title": "Best Practices and Recommendations",
+      "t_start": 363,
+      "t_end": 477.8
+    },
+    {
+      "title": "Related Sessions and Resources",
+      "t_start": 477.8,
+      "t_end": 574
+    }
+  ],
+  "features": [
+    {
+      "name": "Error Info Add Action Method with Tooltip Support",
+      "description": "The error info data type's add action method now supports adding a tooltip as the fourth parameter, allowing users to get further information about actions from the error dialogue.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 38.4,
+      "t_end": 91.8,
+      "is_demoed": true,
+      "caveats": [
+        "Requires checking if on-premises functions have proper permissions before showing actions"
+      ],
+      "tags": [
+        "error handling",
+        "ui",
+        "user experience"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Error Info Permission Checking",
+      "description": "The add action method now checks if you try to call an un-premises function and simply does not show the action if the user does not have permission to interact with it.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 58.5,
+      "t_end": 91.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "security",
+        "permissions",
+        "error handling"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Secret Text Data Type",
+      "description": "A new secret text type has been added for handling passwords and other sensitive information, ensuring sensitive data is never exposed in memory dumps or debugging environments.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 105.4,
+      "t_end": 125.6,
+      "is_demoed": false,
+      "caveats": [
+        "Covered in more detail in the What's New in AL session"
+      ],
+      "tags": [
+        "security",
+        "passwords",
+        "sensitive data"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Permissions Work with Security Groups",
+      "description": "The effective permissions page now includes permissions gained through membership of a security group, improving how permissions interact with security groups.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 105.4,
+      "t_end": 137.9,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "permissions",
+        "security groups",
+        "administration"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Query UI and Data Analysis",
+      "description": "Queries now have a new UI that allows for data analysis and can be used as run objects, enabling queries to open from actions on pages and be placed in the reporting section.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 137.9,
+      "t_end": 178.4,
+      "is_demoed": true,
+      "caveats": [
+        "Queries are expected to gain additional capabilities in the future"
+      ],
+      "tags": [
+        "queries",
+        "data analysis",
+        "ui",
+        "reporting"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Exclusive Time Telemetry",
+      "description": "Partner telemetry now distinguishes between total time and exclusive time for AL calls, where exclusive time is the actual runtime without suspended time from other threads or sessions, calculated by subtracting suspended time from total time.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 178.4,
+      "t_end": 267.7,
+      "is_demoed": true,
+      "caveats": [
+        "Available in both exclusive time and exclusive time in milliseconds"
+      ],
+      "tags": [
+        "telemetry",
+        "performance monitoring",
+        "diagnostics"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Session Creation Performance Improvement",
+      "description": "Session creation is now 2 to 4 milliseconds faster by caching the companies that a user has access to, eliminating the need to recalculate this for each new session creation. For web services, this represents a 20-25 percent improvement in throughput.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 267.7,
+      "t_end": 342.4,
+      "is_demoed": false,
+      "caveats": [
+        "Most significant for web services and high-volume operations"
+      ],
+      "tags": [
+        "performance",
+        "session management",
+        "web services"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Tenant Startup Performance",
+      "description": "Tenant mounting and startup is now significantly faster through optimized event subscriber hooking, resulting in up to a thousand times faster startup on busy nodes with many tenants and reduced memory usage.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 342.4,
+      "t_end": 363,
+      "is_demoed": false,
+      "caveats": [
+        "Benefit primarily visible for on-premises solutions with multiple customers"
+      ],
+      "tags": [
+        "performance",
+        "tenant management",
+        "on-premises"
+      ],
+      "system": "platform"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "error info data type",
+      "t": 38.4
+    },
+    {
+      "type": "other",
+      "name": "add action method",
+      "t": 58.5
+    },
+    {
+      "type": "other",
+      "name": "secret text type",
+      "t": 105.4
+    },
+    {
+      "type": "page",
+      "name": "effective permissions page",
+      "t": 125.6
+    },
+    {
+      "type": "other",
+      "name": "queries",
+      "t": 137.9
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Yens",
+      "confidence": "high"
+    },
+    {
+      "name": "Goos",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 18.2,
+      "text": "this session is what's new in server and database as and as a new thing this year we split it up into four different",
+      "why_it_matters": "Establishes the session structure and indicates server/database improvements are now split into focused topics for 2023 Wave 2.",
+      "check": "exact"
+    },
+    {
+      "t": 158.3,
+      "text": "after 10 years queries suddenly get their time in the Limelight",
+      "why_it_matters": "Marks a major shift in query functionality and visibility after a decade without significant feature additions.",
+      "check": "exact"
+    },
+    {
+      "t": 267.7,
+      "text": "for at least one of our customers out there they will save 5 hours every day for the busiest customers",
+      "why_it_matters": "Quantifies real customer impact of session creation performance improvements in measurable business terms.",
+      "check": "exact"
+    },
+    {
+      "t": 308.3,
+      "text": "2 to 4 milliseconds of course is nothing for a ui session but for web services",
+      "why_it_matters": "Explains why microsecond improvements matter specifically for web service throughput and performance.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 363,
+      "text": "for very busy notes with a lot of tenants it means up to a thousand times faster",
+      "why_it_matters": "Demonstrates dramatic performance gain for multi-tenant on-premises deployments through event subscriber optimization.",
+      "check": "exact"
+    },
+    {
+      "t": 383,
+      "text": "you should stop using the old error method the one that just has normal parameters the",
+      "why_it_matters": "Provides clear guidance to developers on migration path to error info data type for future capabilities.",
+      "check": "fuzzy"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 8
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.023805
+    }
+  ]
+}

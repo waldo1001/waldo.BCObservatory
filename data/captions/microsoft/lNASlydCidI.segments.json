@@ -1,0 +1,806 @@
+{
+  "video_id": "lNASlydCidI",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 18.6,
+      "end": 30.3,
+      "text": "welcome to this session where we talk about exciting new opportunities for a partner Community topic today of course is artificial intelligence and more specifically generative AI"
+    },
+    {
+      "t": 30.3,
+      "end": 50.3,
+      "text": "now in March 2023 we introduced you to Dynamics 365 co-pilot the world's first AI powered assistant across Erp and CRM uh and in business Central co-pilot initially had just one skill marketing text suggestions um giving our customers that boost of creativity uh by drafting compelling"
+    },
+    {
+      "t": 50.3,
+      "end": 70.5,
+      "text": "product descriptions that help them bring their products to Market faster now our vision for co-pilot has really gone well beyond that uh we always wanted to unlock this new wave of productivity uh for workers across all roles across all lines of business across all Industries and geographies uh and really help them perform their day-to-day tasks"
+    },
+    {
+      "t": 70.5,
+      "end": 91,
+      "text": "in a more efficient way and we couldn't achieve that Vision without your help our partner community so we're excited to introduce new Tools in fact a whole new toolkit uh for you to give co-pilot and business Central new skills new capabilities and include those with your extensions co-pilot is built on Microsoft's comprehensive"
+    },
+    {
+      "t": 91,
+      "end": 111.3,
+      "text": "approach to privacy security compliance and responsible AI so it was only natural that we' Empower you as well to build responsibly my name is Mike borj cardano I'm a product manager at Microsoft and today by the end of this session you will be ready to start implementing your first generative AI feature uh in Al and in Visual Studio"
+    },
+    {
+      "t": 111.3,
+      "end": 131.6,
+      "text": "code now this session is ideal for developers uh but there's also plenty of tips for designers product owners uh even Consultants basically anyone who wants to understand what are these new Tools in our toolbox and how do we go and apply them so with the help of my colleagues uh I'm going to walk you through a couple of things um first a simple example that illustrates"
+    },
+    {
+      "t": 131.6,
+      "end": 151.7,
+      "text": "how the developer tools can bring a scenario a use case to life uh we'll then break it down we'll focus on two major aspects two major components of this toolkit um one delivering a great user experience but two working with Azure open AI service we'll share some of the other benefits you get by building on top of this platform and finally we'll share"
+    },
+    {
+      "t": 151.7,
+      "end": 171.7,
+      "text": "insights into how you can build AI responsibly to ensure the safety of your customer and their data so before we dive in uh let's just take a moment to understand why we're bringing this set of developer tools to you our partner community so first of all uh from a lot of feedback you've given us we understand that you need a quick way to bring your ideas to life"
+    },
+    {
+      "t": 171.7,
+      "end": 192.4,
+      "text": "right so you can with least amount of code get that use case up and running so that you can play around with your prompt that after all is the uh the the the challenge with working with AI which is how do you engineer your prompts so we're trying to create a system around that where we give you all these freebies all these goodies that help that scenario come alive and you can focus on prompts"
+    },
+    {
+      "t": 192.4,
+      "end": 212.5,
+      "text": "build that proof of concept work and evolve it really quickly the next thing is you know we recognize that once our partners start building generative AI experiences if you take any given customer they're going to end up with multiple extensions from potentially different partners and each of those are going to have a different user experience so we thought how can we Inspire Trust"
+    },
+    {
+      "t": 212.5,
+      "end": 232.6,
+      "text": "of our customers here so we're going for consistency of experience to make sure that everybody builds in a consistent way and our customer administrators and end users have a very familiar and similar way to work with generative AI um and as we built our first few generative AI features ourselves uh we started to recognize the importance of building"
+    },
+    {
+      "t": 232.6,
+      "end": 252.8,
+      "text": "responsibly of applying ethical AI so we want to share those guard rails that we have built with you so you have a great starting point uh but of course you'd still need to go and invest further in understanding how can you build responsibly now all of this equates to one thing which is that allows you to bring your product to Market more quickly so you can compete"
+    },
+    {
+      "t": 252.8,
+      "end": 273,
+      "text": "in your industry in your local geography more effectively and after all we do know that our customers even in the SMB space are becoming more and more interested in how generative AI can help them be more productive let's uh talk through a couple of details here uh as well as we enter this so what is this intended for uh what is the developer tools"
+    },
+    {
+      "t": 273,
+      "end": 293.2,
+      "text": "intended to address so first of all this is designed for business Central online what we often refer to as SAS uh in terms of AI this is also very much designed for generative AI uh using Azure open AI service um the idea is to assist the human in solving some complex cognitive task and this is an important Point"
+    },
+    {
+      "t": 293.2,
+      "end": 313.6,
+      "text": "assist to human so we're not building autopilots that automatically do a whole bunch of things outside of human control here we're putting humans in control and that is exactly the interaction mode that we've built as well uh this is intended for non-con conversational experiences what do I mean by that this means that you know you're looking at integrating this"
+    },
+    {
+      "t": 313.6,
+      "end": 332.1,
+      "text": "functionality into your uh business uh capabilities uh they have concrete input and output and a human is there to review that output before it gets committed um so this is not a toolkit for you to build chat Bots and chat-like experiences"
+    },
+    {
+      "t": 332.1,
+      "end": 352.2,
+      "text": "now what's in the box what is in this toolkit so a couple of different components uh we'll talk about them in more detail of course a signature co-pilot user experience along with an AI module to help you interact with Azure open AI service we have plenty of guides and samples to help you get started uh but also some common functions in terms of administration Telemetry"
+    },
+    {
+      "t": 352.2,
+      "end": 372.3,
+      "text": "uh and other things to help you and your customers manage generative AI when will this be available is is always the question so let's tackle that uh you can get Hands-On right now if you're an Insider using Insider builds you already have access to the toolkit today which means you can compile run and test your generative"
+    },
+    {
+      "t": 372.3,
+      "end": 392.3,
+      "text": "AI features offline now uh throughout the wave 2023 release Wave 2 we're going to publish a minor update that will include toolkit as well what this means concretely is that you will now also be able to deploy test run demo uh your code uh to business Central online um this also means you can prepare your app for"
+    },
+    {
+      "t": 392.3,
+      "end": 412.3,
+      "text": "appsource and you can also deploy this to your customers as well so now we're ready to dive into an example use case which just illustrates how you can use the toolkit in a very simple way think of any project you work on right you have a project plan it's a breakdown of tasks uh that are important to complete that"
+    },
+    {
+      "t": 412.3,
+      "end": 432.4,
+      "text": "project um and if you track projects in BC you know that's called jobs and there's a whole jobs module built around it but you also know that how time consuming it is to define a one-off project plan uh and break that down there's a lot of data entry there so this sounds like a great fit for AI for generative AI in terms of using large"
+    },
+    {
+      "t": 432.4,
+      "end": 442.5,
+      "text": "language models understanding of the world World Knowledge simple problem solving but also the ability to you apply creativity and generate a project"
+    },
+    {
+      "t": 442.5,
+      "end": 453.9,
+      "text": "plan so let's start out in the jobs list here and the first thing we're going to do is use the new action to draft a project plan a job with"
+    },
+    {
+      "t": 453.9,
+      "end": 464.7,
+      "text": "co-pilot and this brings up the dialogue where I can now interact with co-pilot and the first thing I'm going to do of course is enter a few keywords which explain what the project is all"
+    },
+    {
+      "t": 464.7,
+      "end": 479.6,
+      "text": "about there's a simple prompt where I explain that we'd like to furnish an office with some particular products in there and now I'll call upon copilot to actually generate a project plan a breakdown of this for a particular job"
+    },
+    {
+      "t": 479.6,
+      "end": 499.8,
+      "text": "here you can see you know this beautiful experience as co-pilot is thinking is generating and it's already done uh it's applied that touch of creativity to come up with a whole bunch of suggested tasks uh that make up this job uh at the very top you can see how it's already pre-filled a couple of different fields which explain and describe the job as well so there's a ton of content"
+    },
+    {
+      "t": 499.8,
+      "end": 517,
+      "text": "in here that's really good for me to get started but if I'd like to redo that by adjusting maybe some of the parameters then I'd go back down to the prompt again just do make a small edit let's just switch for example 40 to a different number to 80 let's change some of the quantities"
+    },
+    {
+      "t": 517,
+      "end": 527.8,
+      "text": "here and as I ask co-pilot to regenerate this content um those will be taken into account and a new project plan will be uh drafted based on"
+    },
+    {
+      "t": 527.8,
+      "end": 547.9,
+      "text": "that and there it is now here of course I can review some of this content I've got that uh job structure split into tasks notice how much information is actually filled in here and drafted by co-pilot what a great starting point and once I'm comfortable with this information I can choose to discard it or keep it now keep"
+    },
+    {
+      "t": 547.9,
+      "end": 568,
+      "text": "it tells business Central that I want to register this in the database I do want to store this into the database and what I can do from this point forward of course is rest upon business Central Standard functionality to work with jobs uh to to modify this further and just take it through the Last Mile and finalize my job allocating any additional resources or fine-tuning"
+    },
+    {
+      "t": 568,
+      "end": 588.6,
+      "text": "some of this information here so what a great and simple experience where we illustrate putting generative AI to work inside business Central now next we're going to break this down and we're going to start by looking at the user experience and for that I'd like to invite my colleague Cody uh thanks Mike I'm Cody Hoover an engineer at Microsoft"
+    },
+    {
+      "t": 588.6,
+      "end": 608.6,
+      "text": "uh working on this uh new experience that we'll be showing you today uh so first let's revisit that experience that we just walked through uh and how we started with this action uh in the command bar uh there's nothing particularly special about this other than uh this new image uh property"
+    },
+    {
+      "t": 608.6,
+      "end": 628.6,
+      "text": "option that's available to you called Sparkle this sparkle should be used across the different co-pilot experiences that you're building um and that'll give that consistency for our users to let them uh understand that this will be an intelligent co-pilot powered experience the action itself doesn't do anything special"
+    },
+    {
+      "t": 628.6,
+      "end": 648.7,
+      "text": "it just calls uh a page uh with page run model and that page will be where most of the magic happens so if we Zoom back out as soon as we invoke that action the user sees this new prompt dialogue page type that we've been talking about and that we just saw where the user is able to type"
+    },
+    {
+      "t": 648.7,
+      "end": 668.8,
+      "text": "in in a natural language exactly what it is that they're looking for and let co-pilot do the rest let's take a look at the code that uh defines this this experience this is a page defined as any other but I want to focus on these three properties here the first is the page type property where we've added"
+    },
+    {
+      "t": 668.8,
+      "end": 689.3,
+      "text": "a new prompt dialogue value with this you get uh all of the responsible AI um and other uh parts of the experience that are important for consistency across the different co-pilot experiences it's also important to point out that these are required to not be extensible we want to make sure that"
+    },
+    {
+      "t": 689.3,
+      "end": 710.1,
+      "text": "other partners aren't interfering with your own experience so that customers can really trust the output um that they're getting here also I want to point out uh that we're using this is preview equals true property that's new specific for this page type and I'll let Mike describe when you might want to use that and when you're ready to remove it"
+    },
+    {
+      "t": 710.1,
+      "end": 730.6,
+      "text": "thanks Cody well we appreciate that we're all still learning how to apply generative AI in a business context uh so we really want to empower you to start start small and grow from there and use the uh preview badge on this dialogue to really communicate to your customers that you're still in that stage uh where you can bring your features"
+    },
+    {
+      "t": 730.6,
+      "end": 750.8,
+      "text": "to Market faster and then collect feedback in fact we advise that most generative AI features do start their life out as a preview um where you can learn and grow and then eventually work towards making that generally available as well great thanks Mike and now that we've looked at sort of the p P itself let's"
+    },
+    {
+      "t": 750.8,
+      "end": 771,
+      "text": "take a a little deeper look into the content that appears on the page so for example this input where the user could type that information as you would Define uh the content on a normal page you do that within a layout area but for the prompt dialogue we've added a new prompt area just like a fact box"
+    },
+    {
+      "t": 771,
+      "end": 791,
+      "text": "or the role Center areas but this one is specific to The Prompt dialogue now here we've chosen to add just a single field that allows the user to type in what we would call unstructured data they're able to write in natural language that makes sense to them their goals uh for this experience you could put anything"
+    },
+    {
+      "t": 791,
+      "end": 801.8,
+      "text": "you want here such as additional Fields groups or parts um to provide a more structured input but in this case uh this is exactly what we"
+    },
+    {
+      "t": 801.8,
+      "end": 822,
+      "text": "want once the user has provided that experience they want to do the actual generate action they wanted to get the output so when they invoke that the platform will call this new uh system action called generate in a new area called system actions now this new Al construct allows"
+    },
+    {
+      "t": 822,
+      "end": 842.1,
+      "text": "the platform to provide some specific actions to you as an Al developer um that you can provide some limited control over so in this case we control where to put it and this allows us to do the orchestration between the different UI uh parts and behaviors that you've seen um and you still get"
+    },
+    {
+      "t": 842.1,
+      "end": 847.7,
+      "text": "to decide how that magic sauce of the generation"
+    },
+    {
+      "t": 847.7,
+      "end": 868,
+      "text": "happens so after you've done that the user invokes the generate and they get this great uh beautiful progress bar that will appear um across all of the prompt dialogues what's great about this is this doesn't require any work from you as an Al developer you don't need to choose when to start and stop your own progress dialogue"
+    },
+    {
+      "t": 868,
+      "end": 888,
+      "text": "we'll do this for you by default and in fact we even allow cancellation of this in case the Azure open AI Services um take longer than the user expects to generate um and once again with no work from you however if you do want to override the text that's shown here you can use the progress dialogue apis that you're"
+    },
+    {
+      "t": 888,
+      "end": 901.3,
+      "text": "familiar with to uh control that text there's nothing new there and then when that's completed the user will see this output"
+    },
+    {
+      "t": 901.3,
+      "end": 921.5,
+      "text": "this is where the normal uh content area that you would use on most Pages comes into play and once again this can contain anything that you might put on a card or document page and in this case we've chosen fields and parts this is a very structured output um but you could also imagine this being a more unstructured natural language"
+    },
+    {
+      "t": 921.5,
+      "end": 941.5,
+      "text": "output as well um for example as you might see in our other video about marketing text one thing I do want to call your attention to here is up in the header the caption of the page here has changed it doesn't say the page caption that sort of describes what this is but instead we're using the"
+    },
+    {
+      "t": 941.5,
+      "end": 961.6,
+      "text": "data caption expression to show the user's natural language prompt input here the idea here being that we want this to look um to reflect the user's request and be able to connect that visually with the output so this is one Tech technique that we recommend uh to bring that and make that more"
+    },
+    {
+      "t": 961.6,
+      "end": 980.2,
+      "text": "natural for the user and once the user reviews this output and they're satisfied with it or not they're going to communicate that result to you as a developer by clicking on this keep it or discard it or okay cancel button like you might see in a task"
+    },
+    {
+      "t": 980.2,
+      "end": 994.4,
+      "text": "dialogue now there's no additional constructs needed for you to to act on this you simply use the enquery closed page trigger that you're used to again from test dialogues or you can use the value return from the page."
+    },
+    {
+      "t": 994.4,
+      "end": 1014.6,
+      "text": "Run model in this case uh that is all that's needed now you may decide that keep it or discard it is not the way that you want to communicate this uh for your scenario so back in the system action area there are additional okay cancel system actions that allow you to override those"
+    },
+    {
+      "t": 1014.6,
+      "end": 1035.8,
+      "text": "captions now they don't take triggers because we want to keep the code for that centralized um without adding too many ways to accomplish the same task um so here you purely provide a caption and a tool tip um and leave the on query closed page trigger as your way of choosing to keep or discard"
+    },
+    {
+      "t": 1035.8,
+      "end": 1051.4,
+      "text": "it now the user as we saw before uh may want to edit the prompt that they've given before they keep or discard this output uh by going up to that uh the corner of the page and choosing to edit"
+    },
+    {
+      "t": 1051.4,
+      "end": 1071.6,
+      "text": "it and that is again purely handled by the platform by using this uh prompt dialog page type and by using the uh The Prompt and the content areas and the platform is able to keep this experience for you in a way that we hope is a lot more natural than for example navigate Pages once the user has"
+    },
+    {
+      "t": 1071.6,
+      "end": 1084.3,
+      "text": "edited that text and regenerated uh again no work needed on your part uh for this sort of orchestration and transition between the parts"
+    },
+    {
+      "t": 1084.3,
+      "end": 1104.3,
+      "text": "however uh there are some additional features that you can use to take this even to another level and for that I want to reference uh a feature from the marketing text uh feature that you can see another video on um so here uh once the user has made a description uh generated"
+    },
+    {
+      "t": 1104.3,
+      "end": 1124.4,
+      "text": "a entity text description a marketing text description uh they may want to get multiple versions of this multiple iterations so there is a way to add a regenerate button down in the command bar this is again a new system action called regenerate that will light up if you add this to your system"
+    },
+    {
+      "t": 1124.4,
+      "end": 1144.8,
+      "text": "action area now in the examples we've shown you so far the uh input area has been or that prompt area has been the set of facts all of the the main information needed to drive the output but there are some additional knobs that you may want to offer to users"
+    },
+    {
+      "t": 1144.8,
+      "end": 1165.3,
+      "text": "that don't influence the facts that go into the output but that may change for example the tone or the format these can be made available both in that prompt area and in the content area by using the prompt options area which is yet which is a new area added to the prompt dialogue page"
+    },
+    {
+      "t": 1165.3,
+      "end": 1185.8,
+      "text": "these should be option fields and they'll appear as drop Downs down in the footer allowing users to tweak uh the generation process and that might make sense for your scenario now after the user has gone through this made some of these tweaks done multiple Generations they may feel that one of the previous versions was"
+    },
+    {
+      "t": 1185.8,
+      "end": 1198.9,
+      "text": "uh better for them so you can also expose that history to the user allowing them to Traverse through multiple iterations by adding a source table to your page"
+    },
+    {
+      "t": 1198.9,
+      "end": 1218.9,
+      "text": "so whereas some pages we'll use a source table to iterate through records in a list here we're using the source table to show different versions of the generated output and of course it's important to note that these tables should be temporary because we want the user to have to uh confirm that"
+    },
+    {
+      "t": 1218.9,
+      "end": 1239,
+      "text": "they're ready to accept the output and we don't want accidental commits next there may be scenarios where you want to get input from a file rather than forcing the user to type something uh in which case we have again another system action called attach which will make this paperclip icon appear on the footer here"
+    },
+    {
+      "t": 1239,
+      "end": 1259.2,
+      "text": "you can use the file upload apis that you're used to uh to prompt the user to upload a file and then you'll be able to use that in your uh co-pilot generation in a way that again makes sense for your scenario and finally you may decide that you already have the information you need to jump directly into to generation"
+    },
+    {
+      "t": 1259.2,
+      "end": 1279.8,
+      "text": "in that case you can control how the page opens in for example the onopen page trigger by setting the prompt mode on the page directly to generate when this is done the page will immediately call your generate action and uh go directly to this loading State and then after the generation is complete"
+    },
+    {
+      "t": 1279.8,
+      "end": 1300,
+      "text": "it will show uh the generated output and that's a just an overview of the uh prompt dialogue page capability and now I'll pass it over to Derek to tell you about the a module that will allow you to do this co-pilot generation yourself thanks Cody for showing us how to build the prompt dialog"
+    },
+    {
+      "t": 1300,
+      "end": 1320.3,
+      "text": "next up I'll be showing you how to build uh using the AI module um all the Nitty Gritty bits underneath that prompt dialog so what I'll go through is the overview of the modu kind of building your experience with it um and Talking a little bit about the optional parameters uh that you can"
+    },
+    {
+      "t": 1320.3,
+      "end": 1340.4,
+      "text": "call with the mod the the models so let's get into it so the overview of the modu so it supports the aure open AI service so specifically the llms like text chat and embeddings so it does not uh allow image generation using like Del e or transcribing"
+    },
+    {
+      "t": 1340.4,
+      "end": 1361.6,
+      "text": "text um Speech to Text uh with whisper um it also allows you to control and view the C capabilities within your environment which Mike will talk about later on uh and also gives you Telemetry so all this Telemetry allows you to track a capabilities um usage registration"
+    },
+    {
+      "t": 1361.6,
+      "end": 1376.7,
+      "text": "errors um and what other details that you actually need so the module is in the system application uh and all the objects within this toit can be found within the system."
+    },
+    {
+      "t": 1376.7,
+      "end": 1396.9,
+      "text": "a namespace so coming to the prerequisites of using this module um you need your Azure open AI resource URL um so this is an example of the uh URL where you replace resource name with what your resource name is actually called um then"
+    },
+    {
+      "t": 1396.9,
+      "end": 1416.9,
+      "text": "you have a deployment name which would be which will symbolize the model uh that you actually using in this case I have it called my gbd 3.5 you would have a different name uh for your and finally you would have the Azure open AI uh API key uh and I have a link at the bottom it's where you can go and apply to"
+    },
+    {
+      "t": 1416.9,
+      "end": 1437,
+      "text": "get uh access to the Azure open AI service so let's talk a bit about the uh modes objects So within this module um these are some common objects uh specifically for just co-pilot in general so not degeneration bits um here we"
+    },
+    {
+      "t": 1437,
+      "end": 1448.5,
+      "text": "have a um public code unit and two enums so the co-prod capability um code unit what it actually has is functions for you to register your capability"
+    },
+    {
+      "t": 1448.5,
+      "end": 1462.3,
+      "text": "modify or if you want to get rid of it you can unregister it as well uh you can also check if it's been registered and whether it is uh active or not uh as an admin could disable the"
+    },
+    {
+      "t": 1462.3,
+      "end": 1474.1,
+      "text": "capability uh within the coil availability uh enum um the two states uh whether your capability is in preview or it's generally"
+    },
+    {
+      "t": 1474.1,
+      "end": 1494.2,
+      "text": "available and finally the other enum is the co-pilot capability enum and in this case this is where you have to extend this enum to put your capability in and let me explain a little more about that um so for example here I have extension a that has um Extended the enum"
+    },
+    {
+      "t": 1494.2,
+      "end": 1514.3,
+      "text": "to add capability one so in this case now uh extension a registers capability one uh into the co- co-pilot uh capabilities uh and then does its generation and whatnot this is all great uh in the case now there is extension B it doesn't"
+    },
+    {
+      "t": 1514.3,
+      "end": 1534.4,
+      "text": "extend the enum uh and tries to use the capability one however it doesn't register uh it with the copile capabilities and in such a case when extens B actually tries to do any generation this will fail uh extension B can"
+    },
+    {
+      "t": 1534.4,
+      "end": 1554.5,
+      "text": "use capability one only if it registers it as well uh so kind of small recap about that is that each extension must register with the co-pilot capability code unit um for the enum uh otherwise an error will be thrown that the capability enum is not used"
+    },
+    {
+      "t": 1554.5,
+      "end": 1574.7,
+      "text": "or is not registered uh with the extensions that is used it so let's get into the AI um the Azure open AI uh objects so these are the common um objects the edile open AI the Ile open AI operation response uh and the model type"
+    },
+    {
+      "t": 1574.7,
+      "end": 1595.5,
+      "text": "however we have more than that um specifically for text completions it's we have the a open AI text completion parameters these are optional parameters that can be modified for uh generation and and also chat completions uh where you have the ual open AI chat messages uh AI chat completion parameters"
+    },
+    {
+      "t": 1595.5,
+      "end": 1615.9,
+      "text": "um similarly for the text these two are almost the same except they have different parameters and the Ed open AI chat roles um one one might be asking embeddings it is supported but why is there no object for it um it is just that there is no um specific um object for embeddings in this case of like optional"
+    },
+    {
+      "t": 1615.9,
+      "end": 1636,
+      "text": "parameters uh embeddings does not have any optional parameters so let's get into each of these uh objects so they AER open AI uh object uh you can check whether Ed openi is enabled for your environment uh you can set the authorization and in this case"
+    },
+    {
+      "t": 1636,
+      "end": 1656.2,
+      "text": "you'll be setting the resource URL the deployment name and API key which I'll get into F the details later um you can set the co-pilot capability that you'll be using with um the generations and then there are the generate uh text completion generate embeddings and generate chat completion"
+    },
+    {
+      "t": 1656.2,
+      "end": 1676.4,
+      "text": "um so you might want to take a note here where uh text completion and embeddings do return values so in this case of text completion it return returns a text and this is the exact uh output uh that you would expect um from the generation however if you were to use the uh AED"
+    },
+    {
+      "t": 1676.4,
+      "end": 1696.6,
+      "text": "open AI operation response as I would show you here you're also able to get the result however this result is actually adjon of what was returned so that is a minor note you want to keep note of and for example with the embeddings um get result here actually returns you a Json list"
+    },
+    {
+      "t": 1696.6,
+      "end": 1715,
+      "text": "and not a list of decimals so with the operation response as I mentioned you can get a result you can check if it's successful a successful run um if it errored out um you you might want to check uh what was the status code of the call um and get what was the actual error that came"
+    },
+    {
+      "t": 1715,
+      "end": 1725.5,
+      "text": "through um and for the enam of the model type uh we as I mentioned we support three embeddings Tech completions and chat"
+    },
+    {
+      "t": 1725.5,
+      "end": 1745.6,
+      "text": "completions so if we now look at the tech text completion uh completion parameters um this supports for example set max tokens uh set temperature set presence penalty they're also the GS for these uh methods and there many more um that you can modify uh for"
+    },
+    {
+      "t": 1745.6,
+      "end": 1766.4,
+      "text": "your generation and we then go towards the check completions now there's the uh chat messages object so we have the the first one being the set primary system message and this is important to note as this is where you would want to set your metod prompt"
+    },
+    {
+      "t": 1766.4,
+      "end": 1787.4,
+      "text": "um and we recommend that you bring your own meta promp uh which is specific to your capability uh I'll talk a little more about that uh in a little bit um you can set how long the history length uh of the messages you would like um you can add additional system messages assistant messages and user messages"
+    },
+    {
+      "t": 1787.4,
+      "end": 1807.9,
+      "text": "the key thing to note is that when you set a primary system message it will always be included in regardless of the length that you specify so for example if you specify a length of five um one of those five will always be the primary system message and then we will take the last four"
+    },
+    {
+      "t": 1807.9,
+      "end": 1828.6,
+      "text": "messages uh that you add in the list um similarly for the cheat completion parameters this is the same as the text completion uh parameters the only differen is that it might have more or less um parameters depending on the azure openi"
+    },
+    {
+      "t": 1828.6,
+      "end": 1848.7,
+      "text": "service and lastly uh for the chat roles um there are only three roles right now um there's the user role the system role and the assistant the user is basically the when the end user inputs something you want to use the add user um for the system it's you're treating it as"
+    },
+    {
+      "t": 1848.7,
+      "end": 1859.9,
+      "text": "a meta prompt or guiding the system in some way and the assistant is basically the model returning you some kind of output"
+    },
+    {
+      "t": 1859.9,
+      "end": 1873.4,
+      "text": "so let's register a capability so I as I had mentioned first you need to extend the co-pilot capability and here I've extended it with draft a job so kind of following in line with what cod had shown"
+    },
+    {
+      "t": 1873.4,
+      "end": 1893.8,
+      "text": "us um and you will want to have an install code unit that will register this uh capability so I'll dive in uh specifically to the register capability function so here it is uh what you want to do is first check has this capability been registered with this uh extension"
+    },
+    {
+      "t": 1893.8,
+      "end": 1913.9,
+      "text": "so when you call this capabil uh call this function uh you only need to put in the enum that you'll be using and it will automatically take up what uh extension is calling it so we'll be able to then check hey has your extension and this enum been registered"
+    },
+    {
+      "t": 1913.9,
+      "end": 1934,
+      "text": "and if it has not then you'll want to register your C ability so you put in the capability you want to register uh what the availability is in this case I'm making it generally available and a learn more URL as this will surface within the admin page um whenever admin wants to take"
+    },
+    {
+      "t": 1934,
+      "end": 1954.2,
+      "text": "a closer look at hey what does this capability actually do so let's go on to setting up your authorization but just before setting it up um you might want to save this in some way so as I had mentioned earlier in the prerequisits these are three keys that you would have"
+    },
+    {
+      "t": 1954.2,
+      "end": 1974.3,
+      "text": "um for using this module so the resource URL your deployment name and your API key so how do you go about saving your authorization and what do we recommend um there are two ways of doing it U one is via isolated storage or using key VA so if you go down the isolated storage way um you'll want to create a"
+    },
+    {
+      "t": 1974.3,
+      "end": 1986.5,
+      "text": "page such that you can then key it in manually and save it into isolated storage as you do not want to hardcode any Keys uh Etc in your"
+    },
+    {
+      "t": 1986.5,
+      "end": 2006.5,
+      "text": "extension the other way if you're building an appsource app is to use the appsource KEYT that you have um and save it in there so in this case um for this uh demo uh we'll be using isolated storage and here my set authorization"
+    },
+    {
+      "t": 2006.5,
+      "end": 2026.8,
+      "text": "uh is basically going to set the authorization being used for this generation so here I'm getting my endpoint my deployment and my API key and with that I just need to call aure open AI set authorization I set the model type that I will be calling as let's not forget that"
+    },
+    {
+      "t": 2026.8,
+      "end": 2047.3,
+      "text": "uh each deployment uh is a specific model so not all models would support say text and chat um M might uh support only text or all support only chat um and embedding models do not support either of those um so key distinction there and then I I put in the endpoint"
+    },
+    {
+      "t": 2047.3,
+      "end": 2059.2,
+      "text": "deployment and API key so then we have our authorization authorization setup so now let's go into generation"
+    },
+    {
+      "t": 2059.2,
+      "end": 2079.5,
+      "text": "so this is a very brief view of what the generation code looks like in a minimalistic form but let's go into what that code actually is so here's the generate code um so I had already mentioned about setting your authorization um next I want to set some parameters so"
+    },
+    {
+      "t": 2079.5,
+      "end": 2099.8,
+      "text": "I'm since I'm using the check completion I want set those parameters and how do I do that and here I just call the function of set max token and set temperature so in my case I want to have I want to use a longer token range um and because I want to structure output um I'm setting the temperature"
+    },
+    {
+      "t": 2099.8,
+      "end": 2120.4,
+      "text": "to zero um and those are the only parameters that I'm changing and once I've set those uh I want to set the capability I'll be calling this with so in this case it's the capability that I had uh extended and uh registered so draft the job and next I want to put in my meta prompt"
+    },
+    {
+      "t": 2120.4,
+      "end": 2140.4,
+      "text": "so here let me talk a little bit about what meta proms are and what they should have so metap problem should Define the model's profile I mean should what it does and what it cannot do it should also Define what kind of output You're Expecting for example in my scenario I'm expecting it to give me back some XML which I'll show you in a"
+    },
+    {
+      "t": 2140.4,
+      "end": 2160.5,
+      "text": "moment um you should also provide examples to type help guide the model to give you back what you want and also provide additional uh behavioral guard rails such that it doesn't go off the rails and protects um your end user uh which Mike will talk a little bit about"
+    },
+    {
+      "t": 2160.5,
+      "end": 2181.1,
+      "text": "at the end uh about responsible AI um so here is an example of a meta prom for this um uh demo so you are telling the system that you are an AI assistant in business Central that helps the user draft project tasks in the following XML format"
+    },
+    {
+      "t": 2181.1,
+      "end": 2201.4,
+      "text": "so I'm expecting this XML format with project a description um some tasks and in this case there will be a task uh which has description start date and date and resource role um and then at the end I'm telling it hey if a user asks you a question you don't know say so now this is only"
+    },
+    {
+      "t": 2201.4,
+      "end": 2221.4,
+      "text": "an example it does not Encompass like limitations Behavioral safeguards or examples of intended Behavior which you should do and you can read more about it at the Azure open AI Service uh documentation so now now we go back uh to the code uh once I've set my meta prompt now I"
+    },
+    {
+      "t": 2221.4,
+      "end": 2241.4,
+      "text": "want to add the actual prompt that my user has uh written in and from there I can actually call My Generation now so as open AI generate check completion I put in my chat messages my parameters that I want I changed and the operation response so that I can get"
+    },
+    {
+      "t": 2241.4,
+      "end": 2262,
+      "text": "back whether this was successful or not and the first thing I do is check hey was this successful and my case uh when it is I just want to get back the result from the last message and that and it would just be the XML format um and I can just return that and do some postprocessing of that XML"
+    },
+    {
+      "t": 2262,
+      "end": 2282.2,
+      "text": "after that so now talk a little bit about the optional parameters so as I had mentioned it's only supported for chat and text as embeddings does not have any um optional parameters at this time uh it's used it's used to control the models um so for example"
+    },
+    {
+      "t": 2282.2,
+      "end": 2303,
+      "text": "with temperature whether you want to structured uh output or non-structured um where structured is basically zero as I had shown because I want an XML format uh I can increase the amount of tokens I want to use so if I know I want something that's to be short I I shouldn't use too I shouldn't set my Max tokens to be short"
+    },
+    {
+      "t": 2303,
+      "end": 2323.5,
+      "text": "uh such that the model doesn't end up generating more than it uh should uh then there's like presence penalty and many more U that you can look at at the documentation however I also like to mention that not all parameters are support for example n and n is basically the number of generations um that the model should"
+    },
+    {
+      "t": 2323.5,
+      "end": 2343.6,
+      "text": "return uh where if it selected like say n equals 3 um instead of it just returning one response it will return three responses at the same time and let you select it however this is not support it and lastly I would just like to mention if you think our AI module"
+    },
+    {
+      "t": 2343.6,
+      "end": 2363.8,
+      "text": "is missing any features is that this uh module is on GitHub it's part of the system application layer um so you'll be able to go there um ping us uh write a uh create a pool request and then let's get that in all right Mike can you tell us more about"
+    },
+    {
+      "t": 2363.8,
+      "end": 2384.1,
+      "text": "the administration page thanks d so one benefit of registering your capability with business Central is that it allows you to plug into this administrative backbone that business Central offers to our customers and we believe that customers should remain in control of their data and of their AI experiences so here we have the new co-pilot"
+    },
+    {
+      "t": 2384.1,
+      "end": 2404.3,
+      "text": "and AI capabilities page this is intended for admins and it serves really two purposes first is providing transparency and secondly is providing control let me walk you through that so um any features that you've registered will show up here this page includes features from Microsoft uh from partner add-ons from any customizations custom ptes that have been deployed"
+    },
+    {
+      "t": 2404.3,
+      "end": 2420.7,
+      "text": "to this environment um and we'll also split them by those that are in preview versus those that are generally available now those capabilities also always start off as active but we've given administrators control to actually deactivate a feature of their"
+    },
+    {
+      "t": 2420.7,
+      "end": 2438.5,
+      "text": "choosing um now when they do that we actually ask for a little bit more information from that admin hey why are you actually deactivating this feature this is information we capture and we share with you as the partner developer for this feature as well to understand why are customers deactivating that"
+    },
+    {
+      "t": 2438.5,
+      "end": 2458.6,
+      "text": "capability so here we're providing discoverability of your capabilities to those admins uh but also let's talk about control next we talked about deactivating but there's there's actually more so one of the things that is super interesting is um how does a customer govern their data and access to Azure openi service so"
+    },
+    {
+      "t": 2458.6,
+      "end": 2478.8,
+      "text": "if a customer is in a geography in a region where they have Azure openi service deployed um then there is no additional setup that they need to do to start using co-pilot how fantastic is that we've eliminated all of that friction to get started however there's going to be cases where as a customer you're in a a region where you don't have AZ Azure"
+    },
+    {
+      "t": 2478.8,
+      "end": 2499,
+      "text": "open AI service so what does the experience look like there in that case admins will need to do a one-time optin uh to basically consent to having business Central contact that Azure open AI service outside of their regions so we always advise that our customer admins they review privacy they understand the implications"
+    },
+    {
+      "t": 2499,
+      "end": 2519,
+      "text": "and compliance of this before making this choice but once they hit that switch uh essentially now compil it is ready to operate and all of the features here are able to uh start functioning in within that organization now there's also a number of cases where uh we have automatically opted in uh that particular customer but admins can also"
+    },
+    {
+      "t": 2519,
+      "end": 2539.1,
+      "text": "opt out from this very same switch over here now all of these three cases right you've got Azure openi service within your region you've got Azure openi service out of your region where you must give consent and then this third case where in some cases we will Auto opt you in admin can op out those three cases apply to all of Microsoft's co-pilot capabilities and to your capabilities"
+    },
+    {
+      "t": 2539.1,
+      "end": 2558.8,
+      "text": "as well so the Assumption here is that you have deployed um your models also to the same regions as well now we're going to continue working on this over time to figure out how we can give you more control over the situation when you want to break free from that and also have your Azure open AI service endpoints in different"
+    },
+    {
+      "t": 2558.8,
+      "end": 2571.4,
+      "text": "regions note also here that there is no master kill switch for co-pilot co-pilot is now on by default it's available by default as part of business Central it's an integral part of business"
+    },
+    {
+      "t": 2571.4,
+      "end": 2591.7,
+      "text": "Central now a lot of that in putting customers in control is all about responsible AI so I want to take a few moments to talk about what this is Microsoft's been investing in ethical AI for years actually uh and you know we've come up with these principles which we hold very dear to our heart and we think are very important to reflect also in the extensions that you build"
+    },
+    {
+      "t": 2591.7,
+      "end": 2611.7,
+      "text": "um these principles include fairness reliability and safety privacy and security inclusiveness transparency and accountability and we believe in these so much that we've actually shared a lot of these principles guidelines and uh material that will help you even assess your own features against these kind of"
+    },
+    {
+      "t": 2611.7,
+      "end": 2631.9,
+      "text": "principles and all of that material you'll find at aka.ms now I do want to dive into two particular cases here starting with transparency um there's a lot of things that the toolkit provides out of the box for being transparent that there is AI at work here for example uh the disclaimer on every single"
+    },
+    {
+      "t": 2631.9,
+      "end": 2652,
+      "text": "output screen uh in the prompt dialogue which says AI generated content may be incorrect right that disclaimer will always show up there you don't need to add it yourselves now why is that really important well it is because AI can sometimes be incorrect so especially in cases where you have a a use case which is very creative shall we say it"
+    },
+    {
+      "t": 2652,
+      "end": 2672,
+      "text": "has to produce some text um there are risks there around that uh containing fabrication so things that are not real not true um there are cases where that for example could even produce harmful content it could include content that is um you know offensive potentially so we do want to make sure that customers"
+    },
+    {
+      "t": 2672,
+      "end": 2692.7,
+      "text": "understand that this is AI generated and that they also should review that material as Cody showed earlier you know we've produced the entire prompt dialogue experience around the fact that there's some kind of input that uh the user provides then there's output that the user reviews and only when they choose keep it do they actually committed to the system"
+    },
+    {
+      "t": 2692.7,
+      "end": 2713,
+      "text": "that's the AI disclaimer but there's more things as well that you should consider as you build your capabilities for example um definitely use various signals to imply that this is AI at work use the new Sparkle action image on your action that opens up that co-pilot dialogue uh use words like draft generate suggest co-pilot all of these help"
+    },
+    {
+      "t": 2713,
+      "end": 2733,
+      "text": "land that signal that there's AI at work and finally provide documentation that gives your customers that transparency about what's going on behind the scenes ultimately we need them to trust this technology that you have used and utilized in your extensions um and we need to help them understand the implications to their data and as they work with the"
+    },
+    {
+      "t": 2733,
+      "end": 2753.1,
+      "text": "system what this means let's talk about reliability and safety so uh one of the things that you get for free shall we say by using this toolkit is user feedback and user feedback um through the prompt dialogue here we have the users have the ability to like or dislike and even provide a reason uh for that as well"
+    },
+    {
+      "t": 2753.1,
+      "end": 2773.2,
+      "text": "this becomes something you can monitor in your app insights elry and in powerbi to make sure that the quality of output for AI because AI isn't always correct um that is something you can monitor and act upon to improve the quality of your features along with that uh we know that our partners also want to have insights into what is usage like"
+    },
+    {
+      "t": 2773.2,
+      "end": 2793.4,
+      "text": "what is adoption like in different regions so we also provide you with that Telemetry signal so you can understand how is your feature being used and finally um as Derek explained as well uh when you design your prompt and you engineer your prompt you want to think about how can you build into that additional safety mechanisms"
+    },
+    {
+      "t": 2793.4,
+      "end": 2814.1,
+      "text": "uh that could be meta prompts um or could also be things like content filtering especially in those use cases which are more of a creative case like creating a job project breakdown there again so that would be a good case where you want to apply additional code and thought process to how can you make that absolutely safe now this is an area we know that our partners"
+    },
+    {
+      "t": 2814.1,
+      "end": 2824.6,
+      "text": "uh would like some more assistance with so we're actively working right now on how can we provide um additional safeties ourselves through the toolkit you'll hear about that more later"
+    },
+    {
+      "t": 2824.6,
+      "end": 2844.7,
+      "text": "on all right so before we close let's just summarize everything we heard today uh we've got new developer tools to build co-pilot capabilities in business Central they're available already right now with Insider bills um here we focused on generative AI specifically with Azure open AI service um it"
+    },
+    {
+      "t": 2844.7,
+      "end": 2857.4,
+      "text": "comes with a whole bunch of goodies including that signature co-pilot experience which we know will deliver that wow experience to your customers um and this is designed for business Central"
+    },
+    {
+      "t": 2857.4,
+      "end": 2877.4,
+      "text": "online couple of resources to leave you with to so you can proceed from here and start writing your code so first of all as Derek mentioned make sure you get your Azure openi key uh go to aka.ms AI apply uh secondly we've taken a whole bunch of documentation and guidelines that I mentioned earlier you'll find find them at this link here as well"
+    },
+    {
+      "t": 2877.4,
+      "end": 2899,
+      "text": "aka. msbc start coding with AI learn all right if you still have a bit more time and you're looking for inspiration uh we've got two co-pilot capabilities in the box with business Central so go check out the dedicated sessions where we Deep dive into each one marketing text suggestions and bank account reconciliation"
+    },
+    {
+      "t": 2899,
+      "end": 2919.4,
+      "text": "assistance there's of course plenty more resources if you're looking to engage with the product team if you're looking to learn about business Central or follow that buzz on social media um here are some links you can use and I also want to call out this one in particular which is especially for our partners who want to get involved with AI join our Yammer Discussion Group specifically"
+    },
+    {
+      "t": 2919.4,
+      "end": 2930.9,
+      "text": "for co-pilot and Ai and also you know as you come up with those great ideas if you'd like to share them with the world share your screenshots of how you're putting this toolkit to work uh and"
+    },
+    {
+      "t": 2930.9,
+      "end": 2950.9,
+      "text": "hhms dyn 365 BC um like that you can share your ideas with the world and we'd love to see them so with that I'd like to thank you for spending time with us we hope that uh you found this useful that you can start building your generative AI experiences we're so looking forward to hearing your feedback so"
+    },
+    {
+      "t": 2950.9,
+      "end": 2957,
+      "text": "on behalf of the team here thank you for your time"
+    }
+  ],
+  "markers": [
+    {
+      "t": 2.09,
+      "text": "[Music]"
+    },
+    {
+      "t": 18.63,
+      "text": "[Music]"
+    },
+    {
+      "t": 18.64,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 8230
+}

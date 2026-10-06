@@ -1,0 +1,176 @@
+{
+  "video_id": "tDcT_51ktqo",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 18.2,
+      "end": 38.4,
+      "text": "welcome to the business Central launch event for the 2023 release Wave 2 this session is what's new in server and database as and as a new thing this year we split it up into four different sections this is the first one a faster runtime if you want the full experience you just go for all four yes let's"
+    },
+    {
+      "t": 38.4,
+      "end": 58.5,
+      "text": "get started who wouldn't who wouldn't so yens do you have the first one here is about a small extension we've done to the error info data type as you know we're investing in how you can present errors to customers in a more intuitive way and now the error info"
+    },
+    {
+      "t": 58.5,
+      "end": 79.2,
+      "text": "the add action method now supports adding a tool tip so that the user can get further information about the actions he or she can perform from the shown error dialogue furthermore it also now checks if you try to call an un premises function that was a small"
+    },
+    {
+      "t": 79.2,
+      "end": 91.8,
+      "text": "um mistake we had in there that we fixed if you happen to do that then the action will simply not be shown because the user does not have permission to interact with this"
+    },
+    {
+      "t": 91.8,
+      "end": 105.4,
+      "text": "action this is how it looks in source code where you simply just add the tool tip as the fourth parameter and then it'll show up in the UI when you hover over the"
+    },
+    {
+      "t": 105.4,
+      "end": 125.6,
+      "text": "action another thing we've added in this release is a secret text type for handling passwords other sensitive information that'll mainly be covered in the watch new in Al session and another thing to mention is that we are wrapping up our permissions work making it"
+    },
+    {
+      "t": 125.6,
+      "end": 137.9,
+      "text": "work a little better with security groups so that the effective permissions page now also include the permissions that you have gotten due to your membership of a"
+    },
+    {
+      "t": 137.9,
+      "end": 158.3,
+      "text": "group right another thing that is important for the AL runtime is uh that queries now play a much more prominent role so we added a new UI on queries there's a full session on that that allows you to do data analysis there but we also made it possible"
+    },
+    {
+      "t": 158.3,
+      "end": 178.4,
+      "text": "to do run object on queries so that you can write code just like this you you can add actions that simply open a query and then uh you can put that as in the reporting uh section for instance uh on a page so after 10 years queries suddenly get their time in the Limelight yeah"
+    },
+    {
+      "t": 178.4,
+      "end": 199,
+      "text": "and you know what we're not done yet that's absolutely true we'll add to what the query can do and you'll see more and more usage of it in the future all right we also have added extra Telemetry now usually it's Kenny talking about Telemetry but I'm going to mention this one the partner Telemetry have previously shown"
+    },
+    {
+      "t": 199,
+      "end": 219,
+      "text": "a long running Al calls but one of the challenges was that the code could be suspended due to other threads or other sessions running or or it could be waiting for user input so what we've done now is to handle the suspended time so what you'll now see in the event is"
+    },
+    {
+      "t": 219,
+      "end": 232,
+      "text": "the exclusive time which is the actual time that the method has actually been running and not just waiting to get its time to"
+    },
+    {
+      "t": 232,
+      "end": 247.4,
+      "text": "run this is done by calculating suspended time and then just taking that away from the total time and that's what we call Exclusive time time and there's both an exclusive time and an exclusive time in milliseconds if you do a little custo"
+    },
+    {
+      "t": 247.4,
+      "end": 267.7,
+      "text": "magic this has also been added to the Telemetry app so that it now shows both the total time and the exclusive time because in the end the total time is still relevant because that is what the user actually spends of time to complete this um action or this workflow"
+    },
+    {
+      "t": 267.7,
+      "end": 288,
+      "text": "that he is currently working on another small Improvement and this is more in the small curious things is session creation which is slightly faster and you might think so what does 2 to 4 milliseconds mean well it actually means that for at least one of our customers"
+    },
+    {
+      "t": 288,
+      "end": 308.3,
+      "text": "out there they will save 5 hours every day for the busiest customers and this is done by just caching the companies that a user has access to so that we don't have to calculated every time a new session is created can I say something here of course you can and even if I said no you still would"
+    },
+    {
+      "t": 308.3,
+      "end": 328.4,
+      "text": "I would so 2 to 4 milliseconds of course is nothing for a UI session but for web services especially if you if you run a lot of small fast web services maybe 8 10 milliseconds this is actually shaving off um"
+    },
+    {
+      "t": 328.4,
+      "end": 342.4,
+      "text": "20 25 % of those which means that the throughput of your web service calls if if you like do a lot of them will will actually feel like you get more through the system"
+    },
+    {
+      "t": 342.4,
+      "end": 363,
+      "text": "yes now another thing that you probably won't see in daily operations but we feel a lot but is that the startup of each tenant the mounting of a tenant is now significantly faster because the way we hook up event subscribers has been optimized significantly"
+    },
+    {
+      "t": 363,
+      "end": 383,
+      "text": "so it is for very busy notes with a lot of tenants it means up to a thousand times faster this will you will only see this difference if you are running an un premise solution for multiple customers in which case you would also benefit from this change"
+    },
+    {
+      "t": 383,
+      "end": 403.2,
+      "text": "it also means that we use less memory that's basically it for the runtime it's not been our main topic this release wait for it so Goos of course is um I think main advice advice here is you should stop using the old error method the one that just has normal parameters the one that is"
+    },
+    {
+      "t": 403.2,
+      "end": 423.4,
+      "text": "not using error info data type the error info data type is the way forward this is where we put all the goodies all the new stuff and it's also a non-breaking way of doing it right because yeah you add we add new methods we add new problem Pro to the eror info object expanding on"
+    },
+    {
+      "t": 423.4,
+      "end": 443.5,
+      "text": "its capabilities and it's really something that we want to invest in which is to help the customer move forward whenever an error occurs but if you use this error info if you if you just using a few of the properties that's fine once you are upgraded the error info can now do more and you can change your code to to"
+    },
+    {
+      "t": 443.5,
+      "end": 464,
+      "text": "use new capabilities right yeah and of course you can create helper functions that if there are some things you always set then you can just wrap that in the helper function to generate the a info object yeah and then hardening security is always uh key so if you have code where it is really imperative that"
+    },
+    {
+      "t": 464,
+      "end": 477.8,
+      "text": "this information is never in memory dumps or can be debugged or any other place where that is a true secret make sure that you start using this new data type uh secret text"
+    },
+    {
+      "t": 477.8,
+      "end": 497.8,
+      "text": "text and with that other relevant uh in sessions of course if you've like this server and database go to the next one with the on the data data stack but also what's new in Al everything new in the compiler and the tooling around the language we also want to"
+    },
+    {
+      "t": 497.8,
+      "end": 517.9,
+      "text": "talk about um Telemetry I'll be doing a session on that and then we have a new kit on the Block the middle one yeah that's mainly talking about or our part of that is Main the business events which can be used to integrate to powerflow power automate and in data verse integration and that is covered in the watch"
+    },
+    {
+      "t": 517.9,
+      "end": 538,
+      "text": "new and data verse and dynamic 365 app integration part two so resources um as always Yammer is where the action happens uh you can also uh go on X Twitter you can uh use BC all as the AKA link"
+    },
+    {
+      "t": 538,
+      "end": 558.1,
+      "text": "for all the all the the all the short links for business Central of course if you have ideas for things that we should invest in BC ideas is the link for you and um a lot of the things we talk about in the launch events is also repeated on office hours where"
+    },
+    {
+      "t": 558.1,
+      "end": 572.8,
+      "text": "you can also ask questions and comment about things so so that's also a way to learn more that's it for now thank you so much thank you and hope to see you in the next"
+    },
+    {
+      "t": 572.8,
+      "end": 574,
+      "text": "session"
+    }
+  ],
+  "markers": [
+    {
+      "t": 1.11,
+      "text": "[Music]"
+    },
+    {
+      "t": 18.189,
+      "text": "[Music]"
+    },
+    {
+      "t": 18.199,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 1435
+}

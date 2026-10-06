@@ -1,0 +1,76 @@
+{
+  "item_id": "blog/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-4662412510469862425",
+  "url": "https://www.sauravdhyani.com/2026/06/how-to-use-date-formulas-for-allowed.html",
+  "title": "How to Use Date Formulas for Allowed Posting Periods in Business Central BC28.",
+  "source": "sauravdhyani-com",
+  "published_at": "2026-07-22T05:30:00.000Z",
+  "words": 536,
+  "summary": "Business Central BC28 introduces dynamic date formulas for allowed posting periods that automatically calculate posting windows based on the current date instead of requiring manual updates. Administrators can configure these formulas in General Ledger Setup, User Setup, and Journal Templates to automate posting restrictions and reduce monthly maintenance.",
+  "key_points": [
+    "Date formulas dynamically calculate posting ranges using expressions like <-CM>, <0D>, and <-30D> that adjust automatically over time",
+    "Formulas can be configured at three levels: Global (General Ledger Setup), User-specific (User Setup), and Journal-specific (General Journal Templates)",
+    "User Setup restrictions take priority over other posting controls when multiple levels are configured",
+    "Administrators can mix formulas and fixed dates together, though entering one clears the other for the same boundary",
+    "Feature reduces monthly administrative effort while improving posting governance and preventing outdated posting windows"
+  ],
+  "systems": [
+    "finance",
+    "administration",
+    "development"
+  ],
+  "topics": [
+    "posting dates",
+    "date formulas",
+    "financial controls",
+    "posting restrictions",
+    "automation",
+    "general ledger",
+    "user setup"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "General Ledger Setup"
+    },
+    {
+      "type": "table",
+      "name": "User Setup"
+    },
+    {
+      "type": "table",
+      "name": "General Journal Templates"
+    }
+  ],
+  "features": [
+    "Dynamic date formulas for posting periods",
+    "Current month posting control",
+    "Rolling adjustment windows",
+    "User-specific posting restrictions",
+    "Hybrid formula and fixed date support",
+    "Automated posting window calculation",
+    "Multi-level posting governance"
+  ],
+  "versions": [
+    "BC28",
+    "2026 release wave 1"
+  ],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006045,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "Posting date formulas allow Business Central to dynamically calculate allowed posting ranges based on today's date.",
+      "why_it_matters": "Explains the core capability that replaces manual posting date maintenance with automatic calculations"
+    },
+    {
+      "text": "Entering a formula clears the fixed date; entering a fixed date clears the formula.",
+      "why_it_matters": "Important behavior that administrators need to understand when mixing formulas and fixed dates"
+    }
+  ]
+}

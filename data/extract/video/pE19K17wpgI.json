@@ -1,0 +1,304 @@
+{
+  "video_id": "pE19K17wpgI",
+  "item_id": "video/yt-microsoft/pE19K17wpgI",
+  "title": "What's New: Using Enforced Digital Vouchers (2023 release wave 2)",
+  "duration_s": 776,
+  "systems": [
+    "finance",
+    "purchasing",
+    "sales"
+  ],
+  "topics": [
+    "digital vouchers",
+    "enforced attachments",
+    "paperless accounting",
+    "guided setup",
+    "source code filtering",
+    "sales documents",
+    "purchase documents",
+    "journals",
+    "general ledger",
+    "danish bookkeeping act"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to the session",
+      "t_start": 0,
+      "t_end": 58.9
+    },
+    {
+      "title": "Background on vouchers and digital vouchers",
+      "t_start": 58.9,
+      "t_end": 124.4
+    },
+    {
+      "title": "Digital vouchers in modern accounting and automation",
+      "t_start": 124.4,
+      "t_end": 184.5
+    },
+    {
+      "title": "Differences between attachments and digital vouchers",
+      "t_start": 184.5,
+      "t_end": 252.2
+    },
+    {
+      "title": "Feature setup and guided wizard",
+      "t_start": 252.2,
+      "t_end": 354
+    },
+    {
+      "title": "Configuration options and setup details",
+      "t_start": 354,
+      "t_end": 454.8
+    },
+    {
+      "title": "Overview of demonstration scenarios",
+      "t_start": 454.8,
+      "t_end": 520.2
+    },
+    {
+      "title": "Demonstration of purchase and sales invoices",
+      "t_start": 520.2,
+      "t_end": 648.6
+    },
+    {
+      "title": "Demonstration of sales journal scenario",
+      "t_start": 648.6,
+      "t_end": 690.4
+    },
+    {
+      "title": "Closing remarks and additional resources",
+      "t_start": 690.4,
+      "t_end": 776
+    }
+  ],
+  "features": [
+    {
+      "name": "Enforced Digital Vouchers",
+      "description": "A feature that makes digital vouchers mandatory for specific document types and journals in Business Central. Users cannot post documents without required attachments or digital documents based on configured rules. The system can automatically generate and attach digital vouchers based on transaction type.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 19.1,
+      "t_end": 690.4,
+      "is_demoed": true,
+      "caveats": [
+        "In Denmark, users cannot disable enforcing mandatory vouchers in purchase and sales transactions from January next year",
+        "Feature applicability depends on company rules and local authority requirements"
+      ],
+      "tags": [
+        "mandatory attachments",
+        "accounting compliance",
+        "paperless",
+        "automation",
+        "e-documents"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Automatic Digital Voucher Generation",
+      "description": "The system can automatically create and attach digital vouchers when posting documents, such as sales invoices, without requiring manual user action. This option can be configured per entry type.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 373.1,
+      "t_end": 414.1,
+      "is_demoed": true,
+      "caveats": [
+        "Can be skipped if manual attachments are already added based on user preference",
+        "Only available when generate automatically option is enabled"
+      ],
+      "tags": [
+        "automation",
+        "sales documents",
+        "paperless"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Digital Voucher Control Types",
+      "description": "Configurable control options for enforcing digital vouchers: no check (not enforced), digital file only, attachments plus invoice (with electronic document), or attachment or note (file or text note). Setup can be configured per document or journal entry type.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 272.7,
+      "t_end": 354,
+      "is_demoed": false,
+      "caveats": [
+        "Danish users have mandatory enforcement for purchase and sales transactions from January next year",
+        "Setup depends on company rules except where authorities require enforcement"
+      ],
+      "tags": [
+        "configuration",
+        "entry types",
+        "compliance"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Source Code Filtering for Digital Vouchers",
+      "description": "Allows enforcing digital vouchers for specific documents with additional filtering by source code. For example, enforcing digital vouchers in general journal only when source code is payroll or similar, providing more granular control than entry type alone.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 414.1,
+      "t_end": 454.8,
+      "is_demoed": false,
+      "caveats": [
+        "Only applicable to journals where various source codes are used"
+      ],
+      "tags": [
+        "source code",
+        "journals",
+        "granular control",
+        "setup"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Guided Setup Wizard",
+      "description": "A guided wizard to enable and configure the enforced digital vouchers feature. Users can select entry types such as sales documents, purchase documents, or various journal types and configure enforcement settings for each.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 272.7,
+      "t_end": 292.9,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "setup",
+        "wizard",
+        "configuration",
+        "user interface"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Digital Voucher to General Ledger Entry Connection",
+      "description": "Digital vouchers are automatically connected to general ledger entries after posting, allowing the associated files to be viewed and accessed from the GL entry records themselves.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 520.2,
+      "t_end": 648.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "general ledger",
+        "attachments",
+        "linkage",
+        "accounting trail"
+      ],
+      "system": "finance"
+    }
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Sales invoice document",
+      "t": 373.1
+    },
+    {
+      "type": "page",
+      "name": "incoming document files",
+      "t": 537
+    },
+    {
+      "type": "table",
+      "name": "General ledger entry",
+      "t": 568.1
+    },
+    {
+      "type": "page",
+      "name": "Sales Journal",
+      "t": 648.8
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Alexandra",
+      "confidence": "high"
+    },
+    {
+      "name": "Arthur",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 89.6,
+      "text": "digital vouchers in accounting it refers to electronic or digital documents that serves as the evidence of financial transactions",
+      "why_it_matters": "Defines the core concept that the entire feature is built around - digital vouchers as electronic equivalents to paper vouchers for audit trails",
+      "check": "exact"
+    },
+    {
+      "t": 198.2,
+      "text": "digital vouchers are accounting category and in bus Central if you set up they will be mandatory for specific type of documents",
+      "why_it_matters": "Clarifies that digital vouchers are mandatory when configured, unlike voluntary attachments, which is a key design difference affecting user workflow",
+      "check": "snapped"
+    },
+    {
+      "t": 252.2,
+      "text": "this feature can be used in other countries as well so we decided to create this app as a global app",
+      "why_it_matters": "Indicates that while inspired by Danish requirements, the feature is designed as a global capability available to all customers",
+      "check": "exact"
+    },
+    {
+      "t": 333.6,
+      "text": "in Denmark where users cannot disable enforcing mandatory vouchers in purchase and sales transactions from January next next year",
+      "why_it_matters": "States a specific regulatory requirement and deadline that makes this feature mandatory for Danish customers, indicating real-world compliance needs",
+      "check": "snapped"
+    },
+    {
+      "t": 393.8,
+      "text": "the automatically generated digital voucher will not be added to the record if menual attachments has already been added",
+      "why_it_matters": "Describes a configuration option that gives users choice between automatic generation and manual upload, showing flexibility in implementation",
+      "check": "exact"
+    },
+    {
+      "t": 537,
+      "text": "when I do this I can see the error message that it's not possible to post without attaching the digital voucher",
+      "why_it_matters": "Demonstrates enforcement in action - the system prevents posting of documents that violate the configured digital voucher requirements",
+      "check": "exact"
+    },
+    {
+      "t": 612.2,
+      "text": "I would not see any error message and the document is posted successfully but where is my digital voucher and the digital voucher is",
+      "why_it_matters": "Shows that automatic generation works silently without user intervention, creating the required digital voucher automatically upon posting",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 252.2,
+      "kind": "other",
+      "text": "this idea came uh from Danish authori requirements with their new bookkeeping act but this is um this this feature can be used in other countries as well"
+    },
+    {
+      "t": 354,
+      "kind": "other",
+      "text": "in Denmark where users cannot disable enforcing mandatory vouchers in purchase and sales transactions from January next next year"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 6
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.024419
+    }
+  ]
+}

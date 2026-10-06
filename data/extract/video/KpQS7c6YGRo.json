@@ -1,0 +1,405 @@
+{
+  "video_id": "KpQS7c6YGRo",
+  "item_id": "video/yt-microsoft/KpQS7c6YGRo",
+  "title": "What's New: Marketing Text Suggestions (2023 release wave 2)",
+  "duration_s": 911,
+  "systems": [
+    "copilot",
+    "sales",
+    "integration"
+  ],
+  "topics": [
+    "marketing text suggestions",
+    "copilot",
+    "ai-powered features",
+    "product descriptions",
+    "language support",
+    "feature management",
+    "setup configuration",
+    "developer tools"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and announcement of GA status",
+      "t_start": 0,
+      "t_end": 80.6
+    },
+    {
+      "title": "Presenters and agenda overview",
+      "t_start": 80.6,
+      "t_end": 140.7
+    },
+    {
+      "title": "Demo tour and marketing text feature overview",
+      "t_start": 140.7,
+      "t_end": 184.3
+    },
+    {
+      "title": "GA improvements and editing capabilities",
+      "t_start": 184.3,
+      "t_end": 305.7
+    },
+    {
+      "title": "Edit dialogue features and user experience feedback",
+      "t_start": 305.7,
+      "t_end": 366
+    },
+    {
+      "title": "GA recap and availability details",
+      "t_start": 366,
+      "t_end": 427.2
+    },
+    {
+      "title": "Deployment timeline, language support, and assessment process",
+      "t_start": 427.2,
+      "t_end": 545.6
+    },
+    {
+      "title": "User feedback mechanisms and feature toggles",
+      "t_start": 545.6,
+      "t_end": 626.2
+    },
+    {
+      "title": "Setup instructions and configuration requirements",
+      "t_start": 626.2,
+      "t_end": 744.2
+    },
+    {
+      "title": "Summary, developer resources, and call to action",
+      "t_start": 744.2,
+      "t_end": 911
+    }
+  ],
+  "features": [
+    {
+      "name": "Marketing Text Suggestions",
+      "description": "An AI-powered copilot capability that generates product descriptions automatically using item attributes. Users can customize the suggestions by selecting specific attributes, tone, format, and emphasis before generation.",
+      "status": "ga",
+      "status_evidence_t": 60.4,
+      "status_evidence_quote": "marketing Tech suggestions is no longer in preview it is now generally available",
+      "status_evidence_verified": true,
+      "t_start": 20.1,
+      "t_end": 305.7,
+      "is_demoed": true,
+      "caveats": [
+        "Available only for Business Central online (SaaS), not on-premises",
+        "Available in eight languages only: English, Spanish, Dutch, German, Italian, French, Danish, and Japanese",
+        "Requires specific feature toggles to be enabled",
+        "Requires data movement consent if AI is not available in user's region"
+      ],
+      "tags": [
+        "product descriptions",
+        "copilot",
+        "generative ai",
+        "item attributes"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Fact Box UI for Marketing Text",
+      "description": "A UI control in the item page where users can draft marketing text with copilot. In GA, the preview label has been removed and the interface now matches the standard copilot look and feel across Microsoft products.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 140.7,
+      "t_end": 265.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "ui improvements",
+        "copilot interface",
+        "fact box"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Prompt Customization for Marketing Text",
+      "description": "Users can edit the prompt to customize which item attributes to include, select tone (e.g., inspirational), format (tagline and paragraph), and emphasize specific aspects like sustainability before generating text suggestions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 204.8,
+      "t_end": 285.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "customization",
+        "attributes",
+        "tone",
+        "format"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Marketing Text Regeneration and Versioning",
+      "description": "Users can generate multiple suggestions and keep the old ones visible for comparison. They can choose to keep a suggestion, discard it, or regenerate with the same parameters. Users can provide feedback with likes or dislikes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 245.3,
+      "t_end": 305.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "versioning",
+        "feedback",
+        "regeneration"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Edit Dialog for Manual Text Editing",
+      "description": "A redesigned edit dialog where users can manually edit existing marketing text without copilot assistance, or optionally draft new text with copilot that will replace the existing text after a confirmation warning.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 305.7,
+      "t_end": 345.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "manual editing",
+        "dialog",
+        "text management"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Copilot Signature Look and Feel",
+      "description": "Marketing text suggestions in GA now uses the standard copilot UI design consistent across all Microsoft products, with improved access to generative options and optimized workspace depending on the generation stage.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 366,
+      "t_end": 406.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "ui design",
+        "consistency",
+        "copilot experience"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Language Support for Marketing Text Suggestions",
+      "description": "Marketing text suggestions is available in eight languages: English, Spanish, Dutch, German, Italian, French, Danish, and Japanese, including localized variants. Users can switch to English even in localized environments.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 447.8,
+      "t_end": 530.1,
+      "is_demoed": false,
+      "caveats": [
+        "In preview, only English was available",
+        "Extensive assessment process required before AI features are supported in new languages",
+        "More languages to be announced later"
+      ],
+      "tags": [
+        "localization",
+        "languages",
+        "international support"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Feature Toggle in Feature Management",
+      "description": "A feature key called 'Create AI powered product descriptions with co-pilot' in the feature management page controls the availability of the fact box and UI aspects of marketing text. Enabled by default for environments created in 2023 release Wave 1 (version 22) or above.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 585.8,
+      "t_end": 646.5,
+      "is_demoed": false,
+      "caveats": [
+        "Does not control generative AI aspects",
+        "Requires manual enablement for upgrades from earlier versions"
+      ],
+      "tags": [
+        "feature management",
+        "setup",
+        "configuration"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Copilot and AI Capabilities Page Toggle",
+      "description": "A toggle on the new 'Copilot and AI capabilities' page (available only in Business Central online) enables the generative capabilities of marketing text. Enabled by default but requires user language support.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 646.5,
+      "t_end": 703.7,
+      "is_demoed": false,
+      "caveats": [
+        "Only available in Business Central online",
+        "Replaces the previous copilot information page from preview",
+        "Requires user language to be supported"
+      ],
+      "tags": [
+        "feature toggle",
+        "setup",
+        "generative ai"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Data Movement Consent for AI",
+      "description": "An optional toggle to allow data movement for AI processing if AI availability is not available in the user's region. Off by default and requires admin consent.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 703.7,
+      "t_end": 744.2,
+      "is_demoed": false,
+      "caveats": [
+        "Required only if AI is not available in the user's region",
+        "Not required if AI is available in the region",
+        "Off by default"
+      ],
+      "tags": [
+        "data movement",
+        "ai availability",
+        "compliance"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Developer Tools for Copilot in Business Central",
+      "description": "Marketing text suggestions has been rebuilt on new developer tools for copilot, enabling partners to design and implement similar generative AI experiences for their own extensions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 784.8,
+      "t_end": 804.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "developer tools",
+        "extensions",
+        "partners"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Bank Account Reconciliation Assistance with Copilot",
+      "description": "Another AI-powered capability in copilot for Business Central that provides assistance with bank account reconciliation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 804.8,
+      "t_end": 825.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "bank reconciliation",
+        "copilot",
+        "ai-powered"
+      ],
+      "system": "copilot"
+    }
+  ],
+  "objects": [],
+  "presenters": [
+    {
+      "name": "Mik B Cardona",
+      "confidence": "high"
+    },
+    {
+      "name": "Sam van leart",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 60.4,
+      "text": "marketing Tech suggestions is no longer in preview it is now generally available",
+      "why_it_matters": "This is the key announcement that the feature has reached general availability status, no longer in preview.",
+      "check": "exact"
+    },
+    {
+      "t": 406.6,
+      "text": "marketing text suggestions and in fact all of our co-pilot capabilities going forward are only available for business Central online what we also refer",
+      "why_it_matters": "Establishes the critical limitation that the feature is cloud-only and not available for on-premises deployments.",
+      "check": "snapped"
+    },
+    {
+      "t": 427.2,
+      "text": "the update to marketing Tech suggestions will be delivered in a minor update in wave two now just as a reminder wave two minor",
+      "why_it_matters": "Specifies the deployment timeline and version schedule, important for customers planning upgrades.",
+      "check": "exact"
+    },
+    {
+      "t": 467.8,
+      "text": "finally along with English we're also expanding to seven more more languages in which this feature is available uh that includes Spanish Dutch German",
+      "why_it_matters": "Details the language support expansion from preview (English only) to eight total languages for GA release.",
+      "check": "exact"
+    },
+    {
+      "t": 509.6,
+      "text": "due to the very nature of AI uh before we claim that any AI powered feature is supported in so and so languages what",
+      "why_it_matters": "Explains the quality assurance approach for AI features across languages, addressing why language expansion takes time.",
+      "check": "exact"
+    },
+    {
+      "t": 626.2,
+      "text": "this is enabled by default for environments that have been created since uh 2023 release Wave 1 so you might know that as version",
+      "why_it_matters": "Clarifies the default enablement logic for new environments versus upgrades from earlier versions.",
+      "check": "exact"
+    },
+    {
+      "t": 784.7,
+      "text": "marketing Tech suggestions has been rebuilt on our new developer tools for co-pilot in business Central uh which means that you can now design",
+      "why_it_matters": "Indicates that partners can extend the platform with similar AI capabilities using new developer tools.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 40.3,
+      "kind": "preview",
+      "text": "throughout the preview of marketing Tech suggestions we've received some incredibly encouraging and positive feedback"
+    },
+    {
+      "t": 184.3,
+      "kind": "preview",
+      "text": "coming from preview straight away you'll see that this uh there's no reference to preview text anymore in the fact box"
+    },
+    {
+      "t": 530.1,
+      "kind": "coming-later",
+      "text": "we're already hard at work with verifying the next batch of languages which we will announce later on for this particular feature"
+    },
+    {
+      "t": 724.1,
+      "kind": "subject-to-change",
+      "text": "hopefully this additional setup step uh will will go away in the future"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 1,
+    "evidence_unverified": 10
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.033169
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "item_id": "blog/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-4940750630260972824",
+  "url": "http://mohana-dynamicsnav.blogspot.com/2026/07/how-to-see-when-your-sql-server-backup.html",
+  "title": "How to See When Your SQL Server Backup or Restore Will Finish",
+  "source": "mohana-blog",
+  "published_at": "2026-07-23T07:09:43.000Z",
+  "words": 501,
+  "summary": "A SQL Server query shows the estimated completion time for active backup or restore operations by converting the estimated_completion_time value to a readable clock time. This helps database administrators know when long-running operations will finish instead of guessing.",
+  "key_points": [
+    "SQL Server's sys.dm_exec_requests system view contains estimated_completion_time in milliseconds for active backup and restore operations",
+    "The query converts milliseconds to seconds and adds them to the current time using DATEADD to show an actual finish time",
+    "The estimated_completion_time value recalculates continuously as the operation progresses, giving a fresh estimate each query execution",
+    "The percent_complete column shows progress percentage, while estimated_completion_time answers when the operation will finish",
+    "VIEW SERVER STATE permission is required to access the underlying system views"
+  ],
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "sql server",
+    "backup",
+    "restore",
+    "monitoring",
+    "performance",
+    "database",
+    "query"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "sys.dm_exec_requests"
+    },
+    {
+      "type": "other",
+      "name": "sys.dm_exec_sql_text"
+    }
+  ],
+  "features": [
+    "backup monitoring",
+    "restore monitoring",
+    "estimated completion time",
+    "progress tracking",
+    "SQL Server system views"
+  ],
+  "versions": [],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005808,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "SQL Server already knows roughly when it expects to finish. You just have to ask for it.",
+      "why_it_matters": "Explains that the solution builds on existing SQL Server functionality rather than requiring new tools"
+    },
+    {
+      "text": "tells you the one thing people actually care about, which is when this will be done.",
+      "why_it_matters": "Clarifies that estimated completion time directly answers the practical question DBAs need answered"
+    }
+  ]
+}

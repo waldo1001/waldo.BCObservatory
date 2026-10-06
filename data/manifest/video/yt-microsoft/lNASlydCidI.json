@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "What's New: Designing and Developing Generative AI Experiences for Your Apps (2023 Release Wave 2)",
   "url": "https://www.youtube.com/watch?v=lNASlydCidI",
-  "published_at": null,
+  "published_at": "2023-11-27T10:32:34.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:46:45.659Z",
+      "captions": "auto:en-orig",
+      "duration_s": 2957
+    },
+    "captioned": {
+      "at": "2026-10-06T21:46:54.706Z",
+      "path": "data/captions/microsoft/lNASlydCidI.vtt",
+      "vtt_sha256": "fb56c57329240af9ed8ebde4dd7e2f0276812180e39b60ac58396a4330b859f3",
+      "segments": 157,
+      "words": 8230,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -19,7 +33,14 @@
   "meta": {
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 510,
-    "duration_s": 2958,
-    "via": "reconcile"
-  }
+    "duration_s": 2957,
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "fb56c57329240af9ed8ebde4dd7e2f0276812180e39b60ac58396a4330b859f3"
 }

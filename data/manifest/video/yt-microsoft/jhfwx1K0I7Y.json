@@ -5,12 +5,17 @@
   "tier": "official",
   "title": "Introducing: Bank Account Reconciliation Assistance with Copilot (2023 release wave 2)",
   "url": "https://www.youtube.com/watch?v=jhfwx1K0I7Y",
-  "published_at": null,
+  "published_at": "2023-11-27T10:31:30.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:47:00.825Z",
+      "captions": "auto:en-orig",
+      "duration_s": 1300
     }
   },
   "input_hash": null,
@@ -20,6 +25,12 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 511,
     "duration_s": 1300,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null
 }

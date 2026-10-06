@@ -1,0 +1,238 @@
+{
+  "video_id": "KpQS7c6YGRo",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 20.1,
+      "end": 40.3,
+      "text": "welcome to this session where we talk about what's new with AI in business Central now in March 2023 we introduced you to Dynamics 365 co-pilot the world's first AI powered assistant across Erp and CRM and in business Central co-pilot had just one skill initially marketing Tech suggestions"
+    },
+    {
+      "t": 40.3,
+      "end": 60.4,
+      "text": "which gives our customers that boost of creativity so that they can draft uh product descriptions and help them bring their products to Market even quicker now throughout the preview of marketing Tech suggestions we've received some incredibly encouraging and positive feedback uh on this feature and its capabilities and uh we got that from our Partners"
+    },
+    {
+      "t": 60.4,
+      "end": 80.6,
+      "text": "we got it from our customers and also from our focused user studies and it's quite amazing to see how AI really has that power to uh surprise and Delight when it's put to work in a business context uh and helps our customers be dramatically more productive so we're pleased to announce that with 2023 release Wave 2 marketing Tech"
+    },
+    {
+      "t": 80.6,
+      "end": 100.6,
+      "text": "suggestions is no longer in preview it is now generally available my name is mik B Cardona I'm a product manager at Microsoft and together with me today is Sam Hi Sam hi yeah I'm Sam van leart I'm software engineer on the the business Central team um so yes go through the the agenda for today uh so top"
+    },
+    {
+      "t": 100.6,
+      "end": 120.6,
+      "text": "of the list of course is uh that yeah marketing Tech suggestions are GA so we'll we'll cover what kind of what's what's new uh with the ga changes coming from preview and uh we'll give it a bit a go as well um and lastly we'll go through everything uh you need to know to to uh get started and try it out yourself all right so here"
+    },
+    {
+      "t": 120.6,
+      "end": 140.7,
+      "text": "we're in uh business Central on the familiar role Center and uh whether you're a partner showing a demo to a prospect or you are an end user just getting started with business Central we have the welcome Banner here and uh we make it super easy to demo the uh the co-pilot functionality so you can go ahead and see the demo tours and then you'll see these"
+    },
+    {
+      "t": 140.7,
+      "end": 160.7,
+      "text": "uh checklists here and you can skip right ahead to number five and that's create with co-pilot and um you can start the tour and this will then show the tour um for um the marketing text suggestions and as you can see it allows you to stop typing and start selling uh the idea being that we take the item"
+    },
+    {
+      "t": 160.7,
+      "end": 184.3,
+      "text": "attributes uh from the item and we'll generate a product description um that you can use along alongside uh your say your web shop in Shopify so I'll go and say next and then it points out to the fact Blox control here um which is where you will go ahead and uh draft your uh marketing text with the"
+    },
+    {
+      "t": 184.3,
+      "end": 204.8,
+      "text": "copilot so um coming from preview straight away you'll see that this uh there's no reference to preview text anymore in the fact box um that's not the only thing we changed uh so if you go ahead and click draft with co-pilot now you'll see the uh The Familiar uh UI that you can come to expect with co-pilot experiences across all of"
+    },
+    {
+      "t": 204.8,
+      "end": 225.3,
+      "text": "the Microsoft products uh so so yeah you can see that we have generated uh some marketing text just with one click using all the item attributes in in in this uh item um and um you know maybe I don't like that it has included the uh the width and depth uh of the uh the desk so you can actually go ahead and uh edit"
+    },
+    {
+      "t": 225.3,
+      "end": 245.3,
+      "text": "the prompt and here you can select the the item attributes that you want to include uh in the the marketing text suggestion so I can go and uncheck the depth height and width um as well we made the uh the tone format and emphasis more discoverable so I can actually say you know sustainability is super important so that's something I would"
+    },
+    {
+      "t": 245.3,
+      "end": 265.4,
+      "text": "like to highlight um I think the tagline and paragraph is pretty good I I like that and the tone you know I uh I think you know we want to be inspirational with our products in this uh in this company so so that's that's good then I can go ahead and click generate and this will generate a new suggestion uh it will it will"
+    },
+    {
+      "t": 265.4,
+      "end": 285.6,
+      "text": "um keep the old one so if if actually I preferred the previous one I can go back and I can see the original one uh but let's let's take a look at this this new one here so here you can see that here we uh you know there's this greater emphasis on sustainability um so you know it's uh and there's no mention to the the"
+    },
+    {
+      "t": 285.6,
+      "end": 305.7,
+      "text": "dimensions of the products so I can either choose now to to keep it and that will actually then save this text to the database or I can uh discard it if I if I don't like it or I can even regenerate and that will create a new a new suggestion with the same par parameters that I'd previously clicked uh but this one's great so I'll go ahead and give it a like so uh uh we can"
+    },
+    {
+      "t": 305.7,
+      "end": 325.7,
+      "text": "send that feedback back and uh and I'll keep it so uh another thing that I've revamped is the the edit dialogue um so here again we just focus on the the marketing text uh that you already have uh in the product and you can go ahead and and edit this uh without the help of co-pilot uh but if you"
+    },
+    {
+      "t": 325.7,
+      "end": 345.9,
+      "text": "would like to draft some new text with co-pilot you can go ahead and click this action and because I already have text it warns me it will replace it uh and I can go ahead and select the specific attributes I would like and uh of course I can I can then just generate new uh marketing text suggestions Sam if I may I love how Snappy"
+    },
+    {
+      "t": 345.9,
+      "end": 366,
+      "text": "this feels uh it's got a really fantastic beautiful experience here uh you know as you work with co-pilot uh even just a small details like down to uh you know when it's showing you that co-pilot is thinking is generating that text those subtle details really make a difference here and you know this is the kind of thing which you really have to get handson to really"
+    },
+    {
+      "t": 366,
+      "end": 386.3,
+      "text": "appreciate as well uh and if you're a partner if you're not showing this to your customers I think you're really missing out on giving that wow experience in business Central with with co-pilot and these AI powered experiences yeah so uh just to quickly recap on on what you saw here so uh as part of the marketing Tech suggestions for ga uh we are now using the signature"
+    },
+    {
+      "t": 386.3,
+      "end": 406.6,
+      "text": "co-pilot look and feel that you see across all the product uh We've improved the access to all the different generative options within the dialogue uh you don't no longer need to click additional actions to make things visible and that kind of thing and we've really focused on depending at what stage of uh generating your marketing text uh'"
+    },
+    {
+      "t": 406.6,
+      "end": 427.2,
+      "text": "optimized the workspace available to you so that you can focus on that so Mike for co-prod features can you tell us what does GA mean right let's talk about availability let's dig into some of the details here which are so important for for you to understand how to plan your approach so first of all um marketing text suggestions and in fact all of our co-pilot capabilities"
+    },
+    {
+      "t": 427.2,
+      "end": 447.8,
+      "text": "going forward are only available for business Central online what we also refer to sometimes as SAS um when will marketing Tech suggestions get updated well the update to marketing Tech suggestions will be delivered in a minor update in wave two now just as a reminder wave two minor updates span from November till March 24"
+    },
+    {
+      "t": 447.8,
+      "end": 467.8,
+      "text": "uh so what that means is that if you're on update 23.0 uh you will still see the preview experience of marketing Tech suggestions you just have to wait for that minor update now the feature is not restricted by geography um which means that it's available no matter which country localization you use"
+    },
+    {
+      "t": 467.8,
+      "end": 488.4,
+      "text": "for your environment um that's one of the questions we get pretty often actually and another one we get often is what languages is this available in uh so finally along with English we're also expanding to seven more more languages in which this feature is available uh that includes Spanish Dutch German Italian French Danish and Japanese"
+    },
+    {
+      "t": 488.4,
+      "end": 509.6,
+      "text": "now this also includes localized variants of those languages uh so we already know this covers quite the bread of our uh customer population um and this also means that if your environment is localized to for example Sweden uh and your your users can still switch to English to use the feature in English and generate English marketing text"
+    },
+    {
+      "t": 509.6,
+      "end": 530.1,
+      "text": "now many have asked you know why in preview was this only available in English uh and when are all the other languages going to be available it's a good question so I'd like to clarify that um due to the very nature of AI uh before we claim that any AI powered feature is supported in so and so languages what we do is we go through quite an extensive"
+    },
+    {
+      "t": 530.1,
+      "end": 545.6,
+      "text": "assessment process where we we verify the output of AI uh against various criteria um and the good news is we're already hard at work with verifying the next batch of languages which we will announce later on for this particular"
+    },
+    {
+      "t": 545.6,
+      "end": 565.8,
+      "text": "feature now as we unlock AI features in more languages uh we really appreciate your feedback on the quality of that generated text so we know that AI can produce engaging and surprisingly high quality U text but we also know AI doesn't always get it right so we've provided a really simple way for"
+    },
+    {
+      "t": 565.8,
+      "end": 585.8,
+      "text": "you to signal and rate that feedback right in the UI alongside every single uh generated text and you can do that every time something is generated you can send us your likes or dislikes along with the reason uh and either way that really helps us continue improving business Central well next how about we take a look Sam at uh"
+    },
+    {
+      "t": 585.8,
+      "end": 605.9,
+      "text": "you know how can you get access to this where will you find it what do you need to set up to to start using marketing suggestions yeah yeah yeah can do uh so there's there's a few toggles that actually control the the functionality of uh marketing text and a few different aspects of it so uh I think it' be a good idea to to walk through them to help manage the the actual"
+    },
+    {
+      "t": 605.9,
+      "end": 626.2,
+      "text": "UI impact of the marketing text text functionality uh we have a feature key in the feature management page um that controls the uh availability of like the factbox part and other uh UI aspects of the marketing text feature this does not manage like the the generative AI"
+    },
+    {
+      "t": 626.2,
+      "end": 646.5,
+      "text": "aspects of uh marketing text the marketing text suggestion it's purely uh the UI for the marketing text um this is enabled by default for environments that have been created since uh 2023 release Wave 1 so you might know that as version 22 or above um and uh another thing"
+    },
+    {
+      "t": 646.5,
+      "end": 666.6,
+      "text": "uh to make note of is uh to determine whether or not the ga capabilities have been enabled in your environment and you can see that just at a glance by checking the factbox part here and if there's no mention to preview here that means you've got the ga bits so that's good if you're upgrading from an earlier version uh you'll"
+    },
+    {
+      "t": 666.6,
+      "end": 683.6,
+      "text": "need to go to the feature management page as I said uh and find this specific feature key which is uh create AI powered product descriptions with co-pilot and go and enable that for for all users and then uh next time users sign in uh they'll they'll see the the marketing text functionality on the"
+    },
+    {
+      "t": 683.6,
+      "end": 703.7,
+      "text": "page now for the fun bit and enabling the generative capabilities of marketing text um there's a another um toggle you'll need to switch in the co-pilot and AI capabilities page which is uh available only in business Central online uh and it's a new page that's kind of replacing the the co-pilot"
+    },
+    {
+      "t": 703.7,
+      "end": 724.1,
+      "text": "information page that we had in preview so this is enabled by default but you need to keep in mind that the the user language also needs to support be supported for the generative uh capabilities to show up lastly there's uh one other toggle that you might need to to click uh which is to allow data movement if there's no AI availability in your region"
+    },
+    {
+      "t": 724.1,
+      "end": 744.2,
+      "text": "uh if there is AI availability in your region um you don't need to consent to any data movement but uh yeah if there's no availability you you'll need to consent to that movement uh by default uh this is off uh so admins will go need to go in and enable this um if you've used the marketing text suggestions in preview it should already be"
+    },
+    {
+      "t": 744.2,
+      "end": 764.5,
+      "text": "enabled so if you're already using the feature there's no action required here um we're working very hard of course to add this AI availability to more regions so uh hopefully this additional setup step uh will will go away in the future uh back to you Mike thanks Sam well let's before we close let's very quickly just summarize"
+    },
+    {
+      "t": 764.5,
+      "end": 784.7,
+      "text": "uh so co-pilot in business Central uh includes marketing Tech suggestions and AI powered capability that's now generally available uh you'll find it in a minor update to 2023 release Wave 2 um it's available in eight languages and there's no rest restrictions on Country localization of your environment and if you don't see marketing t uh Tech suggestions show up"
+    },
+    {
+      "t": 784.7,
+      "end": 804.8,
+      "text": "uh there's probably some onetime setup that you need to go through um and of course do remember to provide us feedback on that output of generated text now if you're a partner watching this you're probably wondering how did they do that uh well we have some good news for you uh marketing Tech suggestions has been rebuilt on our new developer tools for"
+    },
+    {
+      "t": 804.8,
+      "end": 825.4,
+      "text": "co-pilot in business Central uh which means that you can now design and Implement very similar generative AI experiences for your own extensions um we have a dedicated session for this really highly recommend you watch that uh if you're looking for more inspiration we've got a second capability in the Box uh bank account reconciliation"
+    },
+    {
+      "t": 825.4,
+      "end": 846.2,
+      "text": "assistance with co-pilot go take a look at that one too and if you missed a buzz last wave around marketing Tech suggestions uh here's a link to uh a video where we sort of announced marketing Tech suggestions and explain some of the details around uh you know more technical details about how suggestions work and how they're generated but also how this is built on the co-pilot system"
+    },
+    {
+      "t": 846.2,
+      "end": 866.2,
+      "text": "our Microsoft's comprehensive approach to privacy security compliance and responsible AI there's plenty more resources if you're looking to get started with business Central uh follow the buzz on social media or engage with the product team people like ourselves and if you've got that great idea for AI powered capabilities that we should go and"
+    },
+    {
+      "t": 866.2,
+      "end": 881.2,
+      "text": "Implement in business Central uh you should share your ideas on aka.ms BC ideas and if you're a partner we highly recommend you join the discussion group specifically about co-pilot and AI uh you'll find the link right"
+    },
+    {
+      "t": 881.2,
+      "end": 901.4,
+      "text": "here so it's been a real pleasure to share with you how our first co-pilot capability marketing Tech suggestions is shaping up uh with marketing Tech suggestions generally available uh we're looking forward to hearing your feedback uh on how we can evolve this further uh we also hope this inspires you to see a toward towards build building your own AI powered"
+    },
+    {
+      "t": 901.4,
+      "end": 911,
+      "text": "capabilities in business Central as well so on behalf of the business Central team thanks for watching thank you"
+    }
+  ],
+  "markers": [
+    {
+      "t": 2.09,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 2722
+}

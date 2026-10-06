@@ -7,13 +7,39 @@
   "url": "https://www.sauravdhyani.com/2026/06/how-to-use-date-formulas-for-allowed.html",
   "published_at": "2026-07-22T05:30:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:45:47.207Z",
+      "path": "vault:posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-4662412510469862425--2edabbcaf9.md",
+      "words": 536
+    },
+    "extracted": {
+      "at": "2026-10-06T21:45:55.378Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": 0.006045
+    },
+    "summarized": {
+      "at": "2026-10-06T21:45:55.379Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:45:55.380Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:45:55.383Z",
+      "path": "content/posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-4662412510469862425--2edabbcaf9.md"
     }
   },
   "input_hash": "2026-07-22T05:30:00.114Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a1c3660056d2ac1da982aa571c596f3484848741a3fbe647d6f12c33427d241b"
 }

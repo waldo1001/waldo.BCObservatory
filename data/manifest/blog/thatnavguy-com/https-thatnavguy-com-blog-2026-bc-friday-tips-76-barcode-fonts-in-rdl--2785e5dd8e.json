@@ -7,7 +7,7 @@
   "url": "https://thatnavguy.com/blog/2026/bc-friday-tips-76-barcode-fonts-in-rdl/",
   "published_at": "2026-07-24T00:00:00.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -16,6 +16,24 @@
       "at": "2026-10-06T21:45:24.501Z",
       "path": "vault:posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-76-barcode-fonts-in-rdl--2785e5dd8e.md",
       "words": 155
+    },
+    "extracted": {
+      "at": "2026-10-06T21:45:33.306Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": 0.004436
+    },
+    "summarized": {
+      "at": "2026-10-06T21:45:33.308Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:45:33.309Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:45:33.313Z",
+      "path": "content/posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-76-barcode-fonts-in-rdl--2785e5dd8e.md"
     }
   },
   "input_hash": null,
@@ -23,5 +41,5 @@
   "flags": [],
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7dcd79f27b35ed49ca14fb6f48230e2ff49279095d38fc9fca3315ae684b838b"
+  "output_hash": "4cb8ad0515fbe2a8d1c6d6584399a35c4e06e9117b423dc1bdbac87a336e184e"
 }

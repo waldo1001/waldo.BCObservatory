@@ -7,13 +7,39 @@
   "url": "https://demiliani.com/2026/07/21/the-hidden-cost-of-asking-ai-to-do-everything/",
   "published_at": "2026-07-21T06:58:39.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:46:05.251Z",
+      "path": "vault:posts/demiliani-com/13982.md",
+      "words": 1978
+    },
+    "extracted": {
+      "at": "2026-10-06T21:46:14.031Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": 0.011621
+    },
+    "summarized": {
+      "at": "2026-10-06T21:46:14.033Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:46:14.034Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:46:14.037Z",
+      "path": "content/posts/demiliani-com/13982.md"
     }
   },
   "input_hash": "2026-07-21T06:58:39.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "64b0a7d98e28a5797398f21305566e64059b2dda408722eaa1b824e8db7f56c0"
 }

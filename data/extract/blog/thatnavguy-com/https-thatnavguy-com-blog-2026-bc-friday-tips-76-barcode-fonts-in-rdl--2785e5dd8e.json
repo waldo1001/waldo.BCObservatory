@@ -1,0 +1,53 @@
+{
+  "item_id": "blog/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-76-barcode-fonts-in-rdl/",
+  "url": "https://thatnavguy.com/blog/2026/bc-friday-tips-76-barcode-fonts-in-rdl/",
+  "title": "BC Friday Tips #76 Barcode Fonts in RDL Reports",
+  "source": "thatnavguy-com",
+  "published_at": "2026-07-24T00:00:00.000Z",
+  "words": 155,
+  "summary": "Creating barcodes in Business Central SaaS reports requires setting the FontFamily property directly in RDL files without installing fonts locally. This approach works out of the box and supports various barcode types like Code 93 using fonts such as IDAutomationC93M.",
+  "key_points": [
+    "Set FontFamily directly in RDL text boxes to render barcodes without local font installation",
+    "Business Central SaaS supports barcode fonts natively through RDL configuration",
+    "Font names for different barcode types can be found at idautomation.com or via AI assistance",
+    "No additional setup or font installation needed on developer machines"
+  ],
+  "systems": [
+    "reporting",
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "rdl reports",
+    "barcode fonts",
+    "saas deployment",
+    "report design"
+  ],
+  "objects": [],
+  "features": [
+    "RDL report barcode support",
+    "FontFamily configuration",
+    "1D barcodes",
+    "2D barcodes"
+  ],
+  "versions": [],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004436,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "You don't need to install a barcode font to develop barcodes on reports in BC SaaS.",
+      "why_it_matters": "Clarifies that barcode fonts work natively in SaaS without local installation, reducing setup complexity."
+    },
+    {
+      "text": "Just find the text box in the RDL that should render as a barcode, and set the FontFamily to the correct font name.",
+      "why_it_matters": "Provides the practical method for implementing barcodes directly in RDL files."
+    }
+  ]
+}

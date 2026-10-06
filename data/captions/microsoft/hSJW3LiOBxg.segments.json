@@ -1,0 +1,563 @@
+{
+  "video_id": "hSJW3LiOBxg",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 19.4,
+      "end": 39.9,
+      "text": "welcome to this business Central launch event for the 2023 release Wave 2 where in this session we're going to talk about what's new in powerbi and Reporting for developers my name is Kenny ponan I'm a program manager on the product team and with me today I have a very special guest hello my name is ero"
+    },
+    {
+      "t": 39.9,
+      "end": 60.2,
+      "text": "I'm a software engineer in the business Central team that manages Integrations including the one with powerbi and you'll see more about that in a few minutes in this session we're going to talk about how the world is changing not everything but with analytics we talk about power"
+    },
+    {
+      "t": 60.2,
+      "end": 80.3,
+      "text": "in beted lots of new cool stuff Happening Here we talk about data analysis on queries um a new feature that is even not yet in the release notes but we wanted to show you multi worksheet data and Excel layouts talk about teaching tips and help T like"
+    },
+    {
+      "t": 80.3,
+      "end": 91.3,
+      "text": "making reports and queries discoverable and easy to understand and finish up with some learning resources and Goos so let's get started"
+    },
+    {
+      "t": 91.3,
+      "end": 111.7,
+      "text": "the world is changing that's a dramatic thing and it is really dramatic but it's kind of let's focus a little bit here on reporting in business Central so here things are changing but reporting in business Central means actually traditionally three things analytical reports processing only"
+    },
+    {
+      "t": 111.7,
+      "end": 131.6,
+      "text": "reports where you just use the request page as something to to get some input from the user and printable documents such as invoices documents that needs to go to a PDF in this session we're just going to talk about the analytical reports"
+    },
+    {
+      "t": 131.6,
+      "end": 151.6,
+      "text": "okay now within organizations different roles in that organization typically have different needs for analytics and I say typical many times on this slide because of course if you are working in the leadership team you might also need to do ad hoc analysis and so"
+    },
+    {
+      "t": 151.6,
+      "end": 165.4,
+      "text": "on right but typically when you go up the organizational hierarchy you also have a need to aggregate data simply because you you need to lose some detail to get the bigger picture"
+    },
+    {
+      "t": 165.4,
+      "end": 185.9,
+      "text": "similar in when you work on the actual business processes the the aggregation up to a kpi might be losing too much detail so typical ways to consume data is when you work on the actual business processes you need something that is operational"
+    },
+    {
+      "t": 185.9,
+      "end": 206.8,
+      "text": "likely to be on screen related to your task when you work in middle management you typically need some cated reports as well as ability to do ad hoc analysis and when you move up to the leadership roles this is where kpis dashboards Financial reports is what you need"
+    },
+    {
+      "t": 206.8,
+      "end": 227,
+      "text": "So based on this understanding in of analytics in different customer organizations we put together a vision on how we want this analytical reporting story uh for business Central and we came up with the overall Vision that this has to be"
+    },
+    {
+      "t": 227,
+      "end": 247.6,
+      "text": "for online consumption not print right now that's the way reporting works right we go to a request page we get a PDF and if we want a different set of data we run the report Rec again to get a different PDF let's not do that anymore so we came up with three different"
+    },
+    {
+      "t": 247.6,
+      "end": 267.7,
+      "text": "uh road maps or part of this journey the first is consuming data we need or we want Core Business scenarios for business Central to have outof thee boox reporting analytics Simply Built in so no need to get additional developers or or buy solutions to do your core business scenarios"
+    },
+    {
+      "t": 267.7,
+      "end": 288.1,
+      "text": "analytics on those number two most analytics um users need can be covered with no code or low code Solutions and three we want enable to enable customers with easy access to data for advanced power bi and"
+    },
+    {
+      "t": 288.1,
+      "end": 301.9,
+      "text": "analytics and of course in the spirit of business Central isvs as well as as Microsoft as part of the core product should be it should be possible to deliver analytics"
+    },
+    {
+      "t": 301.9,
+      "end": 318.4,
+      "text": "Solutions uh with apps or perent extensions and just highlighting one sec more there's of course in reporting also something we call document reporting this is not part of this presentation"
+    },
+    {
+      "t": 318.4,
+      "end": 339.7,
+      "text": "okay so let's start with new powerbi embed capabilities for the AL developer because you here in this session because you're a developer and en R let's hear about the new capab ities thanks Kenny so let's talk about what you as a developer can achieve with a powerbi embed with a business Central release wave have 2"
+    },
+    {
+      "t": 339.7,
+      "end": 359.7,
+      "text": "2023 uh so we want to highlight some points on what you can do so first of all you can open a report in expanded mode directly using an Al action for example so the user can use all the real estate on screen you can also um prevent the user from changing which report is shown in a certain context inside business Central and also so"
+    },
+    {
+      "t": 359.7,
+      "end": 379.7,
+      "text": "you can enable them or prevent them from changing the report page um also we are taking advantage of the new powerbi scorecards which were uh released in the last few months and now you can also embed them in business Central and see them as if they were any other powerbi report or dashboard so can I ask you something yeah for the for the first of"
+    },
+    {
+      "t": 379.7,
+      "end": 400,
+      "text": "all for the middle one this actually means like prior to this power be beted was maybe more thought of as an end use experience where end users would embed their things but it seems to me with this isvs Al developers can now control like delivering powerbi content"
+    },
+    {
+      "t": 400,
+      "end": 420.2,
+      "text": "with their apps is that kind of is how how you see it as well yes that's correct so um you in some pages the partner will know which report makes sense to show and it doesn't make sense to clutter the user experience with a lot of actions and selections because for example that's just one report you as an IV want to show for example in your own alp page or also"
+    },
+    {
+      "t": 420.2,
+      "end": 430.9,
+      "text": "in a business Central built-in page um so it has definitely a much more developer Focus from this wave really nice so and then for the for the powerp metrics"
+    },
+    {
+      "t": 430.9,
+      "end": 450.9,
+      "text": "so this is this is part of what we hope with this no code experience for the vision right with with scorecards and with metrics as long as you have kpis defined in powerbi end users can now set up scorecard s point to the"
+    },
+    {
+      "t": 450.9,
+      "end": 470.9,
+      "text": "business kpis they want to track and just use out of the box no code experience for powerbi with metrics to track their business that's correct and that's very powerful because of course the metrics can come directly from business Central or from some other system that you might have uh inside Microsoft or external as long as you can get the data to parbi you can build your"
+    },
+    {
+      "t": 470.9,
+      "end": 491,
+      "text": "own kpi and show it within BC very nice let's see how it works so let's talk about code how do we achieve this first of all let's talk about how you embed a report in uh expanded mode directly so uh we have this record which is powerbi displayed element and you can just set the element type in my example here"
+    },
+    {
+      "t": 491,
+      "end": 511.1,
+      "text": "a report you can just add the report ID and the report embed URL this information is available from the powerbi rest apis so you can get them directly from your code or in case you want a specific report to be shown you can of course hardcode them directly um and then you can just spin this parbi element card page which is"
+    },
+    {
+      "t": 511.1,
+      "end": 531.1,
+      "text": "going to display the report in full page we'll see that in a minute I just want to mention the other capabilities that I had in the previous slce so um for example you can have the show pains in expanded mode and show pains in normal mode Flags these are controlling whether the user can change the report page and can change the report"
+    },
+    {
+      "t": 531.1,
+      "end": 551.2,
+      "text": "filters while viewing a report you can also just have a report open on a specific report page in case you have a multipage report that's also new capability and last but not least if you want the user to not change the report shown in a page so um no this is not about changing the report page but changing which report is"
+    },
+    {
+      "t": 551.2,
+      "end": 571.4,
+      "text": "displayed you can set this flag lock to selected element to T but of course this is a lot of code in slid in slides so I'll just move to show you how it works in reality last transition to my visual studio code I have my perent extension and um for example in my example I want to add a powerbi"
+    },
+    {
+      "t": 571.4,
+      "end": 585.4,
+      "text": "report on a fact box for the chart of accounts this is one of the pages where we don't provide a report or a part out of the box inside business Central but you as a partner can add it just with a few lines of Al code you can see here the"
+    },
+    {
+      "t": 585.4,
+      "end": 605.5,
+      "text": "example and this is just how to set the what we call context for a part but then you need to tell the AL code which report you want to show for this specific context and in my case I'm doing this as part of the on open page trick triigger but you as a partner might have a more complicated Logic for this as you can see just as I showed you in the slide"
+    },
+    {
+      "t": 605.5,
+      "end": 625.8,
+      "text": "earlier you just need to set um basically four Flags so the element type the element ID and the element embed URL you also need the context which is basically the identifier of where these reports will be shown it needs to be in my case the same string as the one I had um further on top of the page for the powerbi part"
+    },
+    {
+      "t": 625.8,
+      "end": 645.8,
+      "text": "so let's just publish my extension and let's see how it works in reality so this is my chart of accounts page and you can see on the right that I successfully embedded the powerbi report in business Central on the fact box now um you might see that um"
+    },
+    {
+      "t": 645.8,
+      "end": 666.1,
+      "text": "in in this particular view the report is quite small but we'll actually address that later first what I want to show you is the actions we talked about so here for example the user can select a different report or if they have multiple report enabled for this particular view they can jump to the previous and next one but as a partner"
+    },
+    {
+      "t": 666.1,
+      "end": 680.1,
+      "text": "let's say I don't want that to happen I can just lock um to the selected element and now I can just update my"
+    },
+    {
+      "t": 680.1,
+      "end": 697.6,
+      "text": "extension and now if I refresh the page you'll just see these actions are completely gone so this enables you as a partner to prevent the user from Ming up with the powerbi setup yeah because you say messing up here it could be that user is experimenting and"
+    },
+    {
+      "t": 697.6,
+      "end": 717.7,
+      "text": "suddenly is she or he cannot go back to the original intent so here you're actually just guiding the content saying it's should be this and you cannot by mistake get out of this context that's correct so you might the user might just get the wrong report displayed here um or the wrong set of reports or it might also just select"
+    },
+    {
+      "t": 717.7,
+      "end": 737.7,
+      "text": "no reports so they just see the initial screen and we of course want to avoid these um and give you developers the option to let's say railroad the user into getting just the reports you want to show them MH but um as I mentioned earlier there's here this report um is"
+    },
+    {
+      "t": 737.7,
+      "end": 754.1,
+      "text": "the one we actually have as out of the box with business Central but uh it has two report pages but here you can see only one page which is the one with the um nicer graphs if you want but let's say that you as a partner want to point this report to a different"
+    },
+    {
+      "t": 754.1,
+      "end": 776.5,
+      "text": "page well you can do that by just setting the report page value in my case this is the name of the other page that you couldn't see until now and let's say I also want to show the page selection so that the user can jump back and forth to different report pages so I will just enable these three"
+    },
+    {
+      "t": 776.8,
+      "end": 797.1,
+      "text": "flags and you will see that now my report is going to point to a different page which has just a column chart and now I will be able to jump to the other page which is the one we saw earlier and just back and forth as a user to whichever page I need this also affects the pains in expanded"
+    },
+    {
+      "t": 797.1,
+      "end": 818.8,
+      "text": "mode so here you can see that I have the filters for example pain open so if my report has any filter from here I'll be able to tweak them just to see whichever data I need in my case this report doesn't have any filter set so there just no option for me but if there were um this is also guarded by the flag that I set in the AL"
+    },
+    {
+      "t": 818.8,
+      "end": 839.4,
+      "text": "code but now as we mentioned earlier um this report is actually pretty small here and in this context maybe I'm very interested to only one of these pie charts so it would be very nice if I as a developer could zoom into one of these pie charts and just make sure that's the only one that the user can see that's also a new function functionality"
+    },
+    {
+      "t": 839.4,
+      "end": 859.4,
+      "text": "that is available from the current wave so instead you can have a report visual as you can see here I am just changing the element type to be report Visual and then I am adding some additional parameters for the rep visual"
+    },
+    {
+      "t": 859.4,
+      "end": 879.3,
+      "text": "key in this case I will need the page ID and the visual ID for the rest everything is exactly as you saw it before so let's publish this extension and see how my single pie chart will look like on the chart of account fact"
+    },
+    {
+      "t": 879.3,
+      "end": 899.4,
+      "text": "boox and as you can see now I only see my pie chart in this case of course the report is not very relevant because the top five customers might not fit that well with a chart of accounts um but that's exactly why we need you as a developers because you have the knowledge and the capacity to just get the customer exactly the reports they need can I say something here of course so what you saw saw"
+    },
+    {
+      "t": 899.4,
+      "end": 919.4,
+      "text": "in Riku was traversing the like visual hierarchy inside powerbi artifacts on the top level you have a report a report consists of multiple Pages actually think the different like the tabs you showed is also new in the visualization yes right the ability to if"
+    },
+    {
+      "t": 919.4,
+      "end": 940,
+      "text": "you embed the report you can go through the different pages and on a particular page uh you can have multiple visuals and even you can seems like we can even point to a particular visual inside a report so full flexibility into that hierarchy of visuals now available for for developers"
+    },
+    {
+      "t": 940,
+      "end": 961,
+      "text": "um and maybe you should start learning a little bit of powerbi it seems like this is going into the space of development that's absolutely correct but talking about hierarchy of things you can display inside business Central now we haven't yet shown any scorecard oh yeah so I have now created a demo action which I will call open Q2 goals expanded"
+    },
+    {
+      "t": 961,
+      "end": 981.3,
+      "text": "and uh let's say for example that I have my scorecard which just tracks my most important goals for the current um quarter I can just embed it inside business Central here we also added an action full screen so in this case my screen is zoomed in for this demo but if you want to see just the the scorecard in a more expanded mode you can also"
+    },
+    {
+      "t": 981.3,
+      "end": 1001.6,
+      "text": "get to full screen using the action as a user and this is just achieved by what I showed you earlier in the slides but I will also show you again here you can just set in my case a temporary record with a powerbi displayed element and as we saw earlier you just need to specify the type"
+    },
+    {
+      "t": 1001.6,
+      "end": 1021.7,
+      "text": "in this case powerbi recognizes scorecards as reports so you have to set it as report and then you need the scorecard key and the invite URL that's all you need to achieve what I just show you pretty cool I think hopefully this will get you more interested in in powerbi development and integrating"
+    },
+    {
+      "t": 1021.7,
+      "end": 1041.8,
+      "text": "with with a because now you can you can make powerbi a seamless experience with your apps maybe as a VAR you could start deploying pendant extensions then add that add this nice embed experience for the customer to have both something that demos nice in"
+    },
+    {
+      "t": 1041.8,
+      "end": 1056.6,
+      "text": "a pre-sales but even more importantly for go live that you actually embed the reporting experience directly into business Central love it that's very correct love it I'll give it back to you Ken you thank you for the next section"
+    },
+    {
+      "t": 1056.6,
+      "end": 1077.4,
+      "text": "perfect okay so low code no codes powerbi metrics directly edable inside business Central using ale let's switch gears a little bit but not too much in this wave we added the ability to do data analysis not only on list pages"
+    },
+    {
+      "t": 1077.4,
+      "end": 1098.2,
+      "text": "but directly on on query objects query objects have been in the product for a long time but never with the strong UI uh for analysis that we have that we are adding now for I mean you you could always just do uh SL question mark query equals a query object"
+    },
+    {
+      "t": 1098.2,
+      "end": 1118.5,
+      "text": "and then you would see kind of a list page on the query but that's not really what queries are for queries are for analyzing mocking up data joining data that's that's where where queries are really useful and until now it was mainly used for performance tuning but not"
+    },
+    {
+      "t": 1118.5,
+      "end": 1138.6,
+      "text": "anymore there's now a new this new analysis toggle uh button on uh on on a query and uh we also added support for run objects so for instance you can add an action on a page extension doesn't have to be on a page it could also be your own but let's let's say"
+    },
+    {
+      "t": 1138.6,
+      "end": 1158.7,
+      "text": "you want to have a new nice way to analyze item by location and we you you build a fantastic query that joins item with location and other tables and make that available then directly in on the items lists um"
+    },
+    {
+      "t": 1158.7,
+      "end": 1178.8,
+      "text": "I'm adding a new um analyze items action that simply runs the query the query is called item hero query because it a hero query for item and you can see here in the UI how it is embedded directly um as an action so the user doesn't really know it's a it's a query for"
+    },
+    {
+      "t": 1178.8,
+      "end": 1199.1,
+      "text": "them it's just part of the report uh on the page so let's see how that how such a data mockup looks with an IUI on top so here I'm um I'm working with in inventory I'm on the items list page and"
+    },
+    {
+      "t": 1199.1,
+      "end": 1215.5,
+      "text": "look my very nice developer added a query here I don't know if it's a query but you know because you just saw the code previous code it's called analyze item Ledger and if I go"
+    },
+    {
+      "t": 1215.5,
+      "end": 1235.6,
+      "text": "here I actually have complete data analysis slice and Di experience now on queries um everything works as expected you can rename you can have additional and analysis tabs in this particular example I'm slicing or grouping item description uh"
+    },
+    {
+      "t": 1235.6,
+      "end": 1255.8,
+      "text": "by location but it's not location code as the one you saw or you you know from the list this is a mockup of the data from the items list page or the items um table and then joined with the location um table and you can see here for the Mexico swivel"
+    },
+    {
+      "t": 1255.8,
+      "end": 1276.8,
+      "text": "chair that we are using the warehouse names and not the the codes and if I even want you can see them down here if I even want the cities I can just drag them in here and if we go for Mexico now you can see East Warehouse is in Atlanta so"
+    },
+    {
+      "t": 1276.8,
+      "end": 1296.8,
+      "text": "this allows me as a user to Simply slice and dice the data that how it should be not necessarily only these like code names and weird things that that is in in displayed on the lists but but the the names and the things that I I really"
+    },
+    {
+      "t": 1296.8,
+      "end": 1307.4,
+      "text": "care about and all the other things pivot grouping so on all of this works is just based on a query and not a list"
+    },
+    {
+      "t": 1307.4,
+      "end": 1327.4,
+      "text": "page so as a developer now maybe you should think about what are the queries you can build bring to your users and then they will kind of do the report recording and things out of the box so the only thing that is code here is the data mash up and then you you can"
+    },
+    {
+      "t": 1327.4,
+      "end": 1347.4,
+      "text": "unblock the users to to do their ad hoc analysis or data or reporting speaking of exactly this between low code and no code this is this is also the area of excel layouts we added Excel layouts a year ago as a way for end"
+    },
+    {
+      "t": 1347.4,
+      "end": 1368.2,
+      "text": "users to both use Excel for the layout experience with no or low code and also for consuming the data now what the the the previous layout feature didn't handle parent child or overview detailed data types very well"
+    },
+    {
+      "t": 1368.2,
+      "end": 1389,
+      "text": "um so that meant for if you want to do excel layouts in the past for these types of data it would be very Compass some in the in the Excel um the way you you develop your Excel layouts well not anymore with this uh change with this wave we adding a way for you to Simply have multiple"
+    },
+    {
+      "t": 1389,
+      "end": 1409.2,
+      "text": "worksheets in your report in your Excel and then that just leans so much more into the way you model things in Excel let me show you what this means so on the report object as a developer you now have a new property called Excel layout multiple data sheets"
+    },
+    {
+      "t": 1409.2,
+      "end": 1429.8,
+      "text": "and if you set that to true you go from a model where you have one worksheet with these null you can see all these areas of nulls um and each of these columns here would be a different uh data item whereas in the new model you just have one data tab or worksheet"
+    },
+    {
+      "t": 1429.8,
+      "end": 1450,
+      "text": "for each data item right what this allows you to do is first of all much EAS easier integration to power query inside Excel so you can kind of model on top of these different worksheets and enrich the data maybe have computed columns rename things whatever you like"
+    },
+    {
+      "t": 1450,
+      "end": 1470.1,
+      "text": "in power query as well as then adding the other power element in Excel which is power pivot power pivot allows you to then model relationships between these so in this example you can see the value entry customers and items are three"
+    },
+    {
+      "t": 1470.1,
+      "end": 1490.4,
+      "text": "different data items in the report objects they then get their own table inside with power query and then with power pivot um we Define relationships between them to create a really powerful interactive report in in Excel what I think will happen with this is"
+    },
+    {
+      "t": 1490.4,
+      "end": 1510.9,
+      "text": "once this takes off is that end users will also start of start working a little bit more with power query and modeling and in the same kind of tools that are the same ones as in EN ru's world with with power power Pi powerquery is the same language the same experience both in Excel and in power pi"
+    },
+    {
+      "t": 1510.9,
+      "end": 1521.3,
+      "text": "and I think maybe this could also help the transition uh even maybe even for end users from Excel into powerbi but let's"
+    },
+    {
+      "t": 1521.3,
+      "end": 1537.6,
+      "text": "see the only thing you need to do as a developer is when you create your data sets is just one property Excel layout multiple data sheets set it to true and uh and and this whole new experience unlocks in"
+    },
+    {
+      "t": 1537.6,
+      "end": 1557.9,
+      "text": "Excel but it doesn't matter if we create nice content if users cannot find it right and if they don't understand it like we would never put in functionality into business Central without any explanation and documentation what is this for and how do I use it why is"
+    },
+    {
+      "t": 1557.9,
+      "end": 1577.8,
+      "text": "why shouldn't it be the same with the with report objects and queries so teaching tips is now available on queries and on reports and um as well as context specific help so it works just the same as what you would expect with"
+    },
+    {
+      "t": 1577.8,
+      "end": 1598.1,
+      "text": "um uh on pages so in code it's the same thing on request page for report you add about title about text and context sensitive Health page just like you would do on a page and look it just works teaching tip directly on the request page"
+    },
+    {
+      "t": 1598.1,
+      "end": 1618.5,
+      "text": "if you click show help you would get the same information in the help Pane and the context sensitive help page will now if you set it it will now show up in help and you would just provide the normal exper guided experience for your reports and your queries um as you would on pages for"
+    },
+    {
+      "t": 1618.5,
+      "end": 1638.7,
+      "text": "CES exact same thing about title about text context sensitive he page and a new kit on the Block usage category for for queries if you set this to reports and Analysis at least uh in 23 um version 23.1 it will also show"
+    },
+    {
+      "t": 1638.7,
+      "end": 1652.4,
+      "text": "up in uh in help me in in sorry in tell me help and in report Explorer um same thing here for queries you get these context specific help and you get the teaching"
+    },
+    {
+      "t": 1652.4,
+      "end": 1672.9,
+      "text": "tips so how do you consume all this do we have any resources to help you out yes first of all power Pi do you want to talk a little bit about what we offer in docs for powerbi uh for helping powerbi and Ale developers yeah of course so uh first of all I want to mention that the code that I showed you earlier"
+    },
+    {
+      "t": 1672.9,
+      "end": 1685.2,
+      "text": "is for the major part available on the BCT Tech Reaper which you can find at aka. m s /bc you can also find documentation on how to handle these different parameters in our parbi"
+    },
+    {
+      "t": 1685.2,
+      "end": 1705.3,
+      "text": "documentation but what I mean if you're an Al developer and like what's this powerbi thing how do I get started we have all been there I've been here and R like new world what do I do there are excellent learning paths for powerbi right there on docs free of char like it doesn't"
+    },
+    {
+      "t": 1705.3,
+      "end": 1716.8,
+      "text": "cost you anything except your time so spend a few minut 10 minutes every morning learn how start learning this new world and I think you will make something that is going to be great for your"
+    },
+    {
+      "t": 1716.8,
+      "end": 1737.2,
+      "text": "customers for reporting specifically for Excel and the things you see here we also updating the current documentation actually including also ways to make your report layouts resilient to failures as well as your reports so that the reporting experience you give as an isv um will just be much better for"
+    },
+    {
+      "t": 1737.2,
+      "end": 1757.4,
+      "text": "um for your customers we have Excel samples so aka.ms slbc Excel samples this is where you get guidance on how do you define good data sets how do you define good layouts different techniques in Excel there are many different things"
+    },
+    {
+      "t": 1757.4,
+      "end": 1777.5,
+      "text": "you haven't seen before I'm pretty sure table formulas Dynamic arrays power query how do I do this well I have some guidance for you here video from the community if you want to learn like that if you want to do presentations for events or conference internally externally there's a powerp PowerPoint deck"
+    },
+    {
+      "t": 1777.5,
+      "end": 1791.7,
+      "text": "for you here just download and and take it from there and there's an FAQ for everything you might want to ask but didn't uh they were afraid to um as well as what enrio mentioned powerbi"
+    },
+    {
+      "t": 1791.7,
+      "end": 1812,
+      "text": "samples so you have uh enrio has added really nice code samples here for again BC PBI powerbi samples and that's available with code samples that you can just take down and start using tomorrow and they should be quite clearly commented in case you don't remember exactly what the parameter does"
+    },
+    {
+      "t": 1812,
+      "end": 1832.6,
+      "text": "you should find the code comment in the source code so to conclude the world is changing for a developers in the context of analytics so next time when the customer asks can you build me a report don't ask"
+    },
+    {
+      "t": 1832.6,
+      "end": 1852.6,
+      "text": "oh sure how would you like like the these columns and how should it printed in like don't do that instead ask the customer what is it that you need and and for what and and for when and so on and only then choose which technology should be used think"
+    },
+    {
+      "t": 1852.6,
+      "end": 1873,
+      "text": "about that triangle and the organization maybe it will be in enri world of powerbi Ed right or it could be in the build a query or have a maybe there's even a list page that offers this so that buil-in data analysis just works or if it's the case that"
+    },
+    {
+      "t": 1873,
+      "end": 1887.7,
+      "text": "the the customer is very proficient in Excel and or maybe they want Excel just bring like make them a data set and and let them care about the layout with Excel so the Goos"
+    },
+    {
+      "t": 1887.7,
+      "end": 1907.8,
+      "text": "most important thing understand the customers analytical requirements stop just developing blindly reports start supporting their analytical needs so for powerbi learn how to do it and why do you want to talk about why that's important enrio yeah sure um so business Central"
+    },
+    {
+      "t": 1907.8,
+      "end": 1928.1,
+      "text": "is of course an an Erp system that's where the data is but powerbi the b in powerbi stands for business intelligence and where do you get the business intelligence intelligence from from the data in business Central so these two tools are just related with one another naturally so just go and learn powerbi powerbi is the Microsoft tool of choice for business"
+    },
+    {
+      "t": 1928.1,
+      "end": 1948.1,
+      "text": "analysis and in particular for business Central data and maybe this instead of that's the the the the top advice here instead of build me a report it just maybe for the customer just means build me a query and then you unlock them a queries are not just for performance analysis anymore it's a powerful"
+    },
+    {
+      "t": 1948.1,
+      "end": 1968.2,
+      "text": "tool where you can mash up data give it to the customers they have ad hoc analysis and self-service and they have probably going to be fine with just that a lot of customers a lot of users might just work with queries and lists and and uh data analysis directly there and will never need to"
+    },
+    {
+      "t": 1968.2,
+      "end": 1989,
+      "text": "run a report or ever again and finally for Excel you need to kind of think of excel layouts as a different way of reporting your job as a developer is providing the data set then the customer Excel Savvy person who takes over is dealing with the layout"
+    },
+    {
+      "t": 1989,
+      "end": 2009.8,
+      "text": "so instead of build me a report maybe the customer is just asking build me a report data set and when you do that I'm pretty sure that some of your customers who know Excel much more than you do who live in Excel they will even learn you a tip or two about Excel I'm pretty sure of it"
+    },
+    {
+      "t": 2009.8,
+      "end": 2030.1,
+      "text": "so other launch sessions that you might want to do after this of course if you're here as a developer what's new in developer tools that's your one of your main sessions but also once you kind of get the feel of power in uh in in other of the power tool power automate"
+    },
+    {
+      "t": 2030.1,
+      "end": 2050.2,
+      "text": "business events in data ver so on there's a full session on that what's new in integration um and then the third option is the session we have is for for analyze on on lists and query but more as a focus from the functional consultant or the end user so you might want to augment the developer"
+    },
+    {
+      "t": 2050.2,
+      "end": 2070.4,
+      "text": "focus in this session with a more end user focus on the LA in the last session if you want to learn more as always Yammer is where we have the in-depth discussions X Twitter are the small uh for AKA links there's one link to rule them all"
+    },
+    {
+      "t": 2070.4,
+      "end": 2090.5,
+      "text": "BC all if you have ideas of new functionality or things that can be improved BC ideas is where we take you and of course office hours BC office hours after the launch event we continue doing office hours where it's not only content but also q&as and ways to interact with the product group"
+    },
+    {
+      "t": 2090.5,
+      "end": 2105.1,
+      "text": "these are also recorded and the recordings are available on that URL so with that INRI and I would like to say thank you thank you have a great launch"
+    },
+    {
+      "t": 2105.1,
+      "end": 2106,
+      "text": "event"
+    }
+  ],
+  "markers": [
+    {
+      "t": 1.07,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 5506
+}

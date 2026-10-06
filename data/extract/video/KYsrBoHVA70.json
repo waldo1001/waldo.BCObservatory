@@ -1,0 +1,619 @@
+{
+  "video_id": "KYsrBoHVA70",
+  "item_id": "video/yt-microsoft/KYsrBoHVA70",
+  "title": "What's New: Business Central Mobile Apps Featuring Brand New Barcode Scanning Capabilities (2023)",
+  "duration_s": 1334,
+  "systems": [
+    "inventory",
+    "warehouse",
+    "sales"
+  ],
+  "topics": [
+    "barcode scanning",
+    "mobile app",
+    "tell me search",
+    "worksheet pages",
+    "qr codes",
+    "item tracking",
+    "assembly orders",
+    "warehouse operations",
+    "item references",
+    "al development",
+    "camera scanning",
+    "dedicated scanners"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and mobile app overview",
+      "t_start": 0,
+      "t_end": 98.8
+    },
+    {
+      "title": "Tell me feature on mobile",
+      "t_start": 98.8,
+      "t_end": 151.6
+    },
+    {
+      "title": "Search for data on mobile",
+      "t_start": 151.6,
+      "t_end": 207.9
+    },
+    {
+      "title": "Worksheet pages coming soon",
+      "t_start": 207.9,
+      "t_end": 288.6
+    },
+    {
+      "title": "Barcode scanning introduction and technical approach",
+      "t_start": 288.6,
+      "t_end": 382.1
+    },
+    {
+      "title": "Barcode scanning implementation scenarios",
+      "t_start": 382.1,
+      "t_end": 557.6
+    },
+    {
+      "title": "Demo part 1 - item creation and assembly",
+      "t_start": 557.6,
+      "t_end": 695.5
+    },
+    {
+      "title": "Demo part 2 - serial numbers and production",
+      "t_start": 695.5,
+      "t_end": 802.9
+    },
+    {
+      "title": "Demo part 3 - warehouse and sales operations",
+      "t_start": 802.9,
+      "t_end": 934.2
+    },
+    {
+      "title": "Scan multiple and order fulfillment",
+      "t_start": 934.2,
+      "t_end": 1073.6
+    },
+    {
+      "title": "AL code implementation for camera barcode scanning",
+      "t_start": 1073.6,
+      "t_end": 1174.9
+    },
+    {
+      "title": "AL code for barcode scanner provider",
+      "t_start": 1174.9,
+      "t_end": 1250.5
+    },
+    {
+      "title": "Summary and closing",
+      "t_start": 1250.5,
+      "t_end": 1334
+    }
+  ],
+  "features": [
+    {
+      "name": "Tell me on mobile",
+      "description": "The alt Q keyboard shortcut support for Tell me has been added to mobile devices, allowing users to search for pages and reports. Can be enabled via feature management and works on phones and tablets in landscape and portrait modes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 78.3,
+      "t_end": 138.9,
+      "is_demoed": false,
+      "caveats": [
+        "Must be enabled in feature management",
+        "Works with sufficient user permissions"
+      ],
+      "tags": [
+        "search",
+        "mobile",
+        "navigation",
+        "keyboard shortcut"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Search for data on mobile",
+      "description": "Users can now search for data from the Tell me search experience on mobile devices. The feature uses the same scoping as desktop and administrators can configure which tables are accessible.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 151.6,
+      "t_end": 207.9,
+      "is_demoed": false,
+      "caveats": [
+        "Must be enabled in feature management",
+        "Permissions are honored same as desktop"
+      ],
+      "tags": [
+        "search",
+        "mobile",
+        "data access",
+        "table scoping"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Worksheet pages on mobile phones",
+      "description": "Support for worksheet pages is coming to mobile phones in version 23.1. Previously these showed an error on phones. The new implementation will work like document pages with header, footer, and line-by-line editing.",
+      "status": "announced",
+      "status_evidence_t": 228,
+      "status_evidence_quote": "coming in version 23.1 so not right now in October but a little bit later in November time frame uh this type of experience",
+      "status_evidence_verified": true,
+      "t_start": 207.9,
+      "t_end": 288.6,
+      "is_demoed": false,
+      "caveats": [
+        "Not available in current release",
+        "Different experience from desktop",
+        "Designed for header-footer-lines navigation"
+      ],
+      "tags": [
+        "worksheet pages",
+        "mobile",
+        "upcoming",
+        "ui"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Native barcode scanning via camera",
+      "description": "Native barcode scanning capability on mobile devices using the device camera. Supports 1D and 2D barcode formats including QR codes. Uses machine learning for barcode detection. Can be enabled via AL language with extended data type property.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 329.8,
+      "t_end": 382.1,
+      "is_demoed": true,
+      "caveats": [
+        "Requires AL extended data type annotation",
+        "Mobile device with camera required"
+      ],
+      "tags": [
+        "barcode",
+        "camera",
+        "qr codes",
+        "1d 2d formats",
+        "machine learning"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Barcode scanning via dedicated devices",
+      "description": "Integration with dedicated barcode scanning hardware devices for Business Central. Third integration option for barcode scanning capabilities.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 370.3,
+      "t_end": 382.1,
+      "is_demoed": false,
+      "caveats": [
+        "Only supported in mobile app version 4.0 or later",
+        "Only supported in Business Central release wave 2"
+      ],
+      "tags": [
+        "barcode",
+        "hardware",
+        "devices",
+        "android",
+        "warehouse"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Barcode scanning button in UI",
+      "description": "New button in the UI that invokes camera scanning capability. When tapped, the camera opens for barcode scanning and the scanned data is sent to AL for processing.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 402.6,
+      "t_end": 457.2,
+      "is_demoed": true,
+      "caveats": [
+        "Requires annotating field with barcode extended data type"
+      ],
+      "tags": [
+        "barcode",
+        "ui button",
+        "camera",
+        "field annotation"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "AL barcode scanning API",
+      "description": "New AL extensibility allowing developers to integrate barcode scanning capabilities via AL language. Can be used with fields, actions, buttons, links, or automated logic.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 497.2,
+      "t_end": 537.6,
+      "is_demoed": false,
+      "caveats": [
+        "Scanned data must be processed by AL logic"
+      ],
+      "tags": [
+        "barcode",
+        "al api",
+        "extensibility",
+        "developer"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Item references with barcode type",
+      "description": "New reference type called barcode for item references allowing identification of item variants. Can specify validity dates for reference numbers and print barcode labels.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 635.1,
+      "t_end": 675.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "item references",
+        "barcode",
+        "variants",
+        "validity dates"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "GTIN barcode label printing",
+      "description": "Ability to print barcode labels for Global Trade Item Number (GTIN) assigned to items. Supports multiple barcode formats including 1D and QR code formats.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 577.8,
+      "t_end": 618.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "gtin",
+        "barcode label",
+        "printing",
+        "item identification"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Item bin content inquiry with barcode scanning",
+      "description": "New action in warehouse worker role center allowing scanning of barcodes to get item bin content details. Can scan GTIN or reference numbers to retrieve item location and quantity information.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 822.9,
+      "t_end": 863.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "warehouse",
+        "barcode scanning",
+        "item inquiry",
+        "bin content"
+      ],
+      "system": "warehouse"
+    },
+    {
+      "name": "Barcode scanning in sales orders",
+      "description": "Support for scanning barcodes to select items in sales order lines. Users can scan item reference numbers instead of selecting from dropdown.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 878,
+      "t_end": 908.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "sales order",
+        "barcode scanning",
+        "item selection"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Scan multiple item tracking action",
+      "description": "An action in item tracking lines that enables continuous scanning of serial numbers for multiple packs without manual intervention between scans.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 934.2,
+      "t_end": 972.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "item tracking",
+        "serial numbers",
+        "multi-scan"
+      ],
+      "system": "warehouse"
+    },
+    {
+      "name": "Camera barcode scanning provider",
+      "description": "An AL-based barcode scanning provider that uses device camera to scan barcodes, with support for success and failure triggers for post-processing.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 993.1,
+      "t_end": 1073.6,
+      "is_demoed": true,
+      "caveats": [
+        "Not supported in browser mode",
+        "Requires AL extension implementation"
+      ],
+      "tags": [
+        "al development",
+        "camera",
+        "barcode provider",
+        "mobile"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Barcode scanner provider API",
+      "description": "AL API for developers to register barcode scanner providers and listen for incoming barcode data with uniform naming conventions across camera and dedicated scanner implementations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1174.9,
+      "t_end": 1250.5,
+      "is_demoed": true,
+      "caveats": [
+        "Multiple providers can register but only topmost page receives data"
+      ],
+      "tags": [
+        "al api",
+        "barcode provider",
+        "mobile",
+        "al development"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Barcode received trigger",
+      "description": "An AL trigger that fires when barcode data is received from either camera scanning or dedicated scanner devices for further processing.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1209.9,
+      "t_end": 1250.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "al trigger",
+        "barcode",
+        "event handling"
+      ],
+      "system": "development"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "item inquiry",
+      "t": 822.9
+    },
+    {
+      "type": "page",
+      "name": "item bin content inquiry",
+      "t": 822.9
+    },
+    {
+      "type": "page",
+      "name": "item tracking lines",
+      "t": 702.3
+    },
+    {
+      "type": "page",
+      "name": "serial number information card",
+      "t": 722.4
+    },
+    {
+      "type": "page",
+      "name": "assembly orders",
+      "t": 695.5
+    },
+    {
+      "type": "page",
+      "name": "warehouse worker role center",
+      "t": 822.9
+    },
+    {
+      "type": "other",
+      "name": "extended data type property equals barcode",
+      "t": 477.2
+    },
+    {
+      "type": "other",
+      "name": "barcode scanning provider",
+      "t": 1013.2
+    },
+    {
+      "type": "other",
+      "name": "barcode available function",
+      "t": 1033.4
+    },
+    {
+      "type": "other",
+      "name": "barcode failure function",
+      "t": 1053.4
+    },
+    {
+      "type": "other",
+      "name": "barcode scanner provider",
+      "t": 1209.9
+    },
+    {
+      "type": "other",
+      "name": "barcode received trigger",
+      "t": 1230.2
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Baj Koto",
+      "confidence": "high"
+    },
+    {
+      "name": "Kim",
+      "confidence": "high"
+    },
+    {
+      "name": "Gloria",
+      "confidence": "high"
+    },
+    {
+      "name": "Claus",
+      "confidence": "medium"
+    },
+    {
+      "name": "Kasim",
+      "confidence": "medium"
+    },
+    {
+      "name": "Aim",
+      "confidence": "low"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 38,
+      "text": "in October 2023 we have released the new version of our mobile app this is version 4 4.0 available of course for um IOS",
+      "why_it_matters": "Establishes the release date and version number of the mobile app being discussed, confirming October 2023 timeframe.",
+      "check": "exact"
+    },
+    {
+      "t": 58.1,
+      "text": "this app is Backward Compatible so you can download it from the store and U used on your devices even if you are connecting",
+      "why_it_matters": "Important for customers still on older versions - clarifies backward compatibility expectations.",
+      "check": "exact"
+    },
+    {
+      "t": 98.8,
+      "text": "in order to enable that feature you have to go to feature management and turn it on and of course if you have a",
+      "why_it_matters": "Specifies the configuration requirement for Tell me on mobile and default behavior for new environments.",
+      "check": "snapped"
+    },
+    {
+      "t": 228,
+      "text": "coming in version 23.1 so not right now in October but a little bit later in November time frame uh this type of experience",
+      "why_it_matters": "Clarifies the timeline for worksheet page support - announced for November timeframe, not in current release.",
+      "check": "snapped"
+    },
+    {
+      "t": 329.8,
+      "text": "we now in the new mobile application we support native barcode scanning that can be enabled via the AL language",
+      "why_it_matters": "Core feature announcement for barcode scanning capability and its AL-based implementation.",
+      "check": "exact"
+    },
+    {
+      "t": 382.1,
+      "text": "we do support QR codes as well because we do know that our partners have actually asked for this specific thing",
+      "why_it_matters": "Confirms QR code support as a specific response to partner requests.",
+      "check": "exact"
+    },
+    {
+      "t": 443,
+      "text": "we are integrating in this new mobile app release with dedicated bar Cod scanner devices however with the caveat we only support devices that",
+      "why_it_matters": "Establishes platform limitation for dedicated hardware scanner integration.",
+      "check": "exact"
+    },
+    {
+      "t": 477.2,
+      "text": "all you need to do is actually annotate annotate a field of type code and text with the extended data type property equals barcode",
+      "why_it_matters": "Specifies the exact AL syntax for enabling barcode scanning on fields.",
+      "check": "exact"
+    },
+    {
+      "t": 822.9,
+      "text": "two new actions one is called the item inquiry and the second is called item bin content inquiry both of these actions allows us",
+      "why_it_matters": "Describes the two primary warehouse actions added to the worker role center that enable barcode-based item lookup.",
+      "check": "exact"
+    },
+    {
+      "t": 843,
+      "text": "just by defining the uh extended data type as barcode and it automatically uh picks it up over here the barcode",
+      "why_it_matters": "Shows the development pattern that automatically generates barcode UI icons when an extended data type is declared.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 1013.2,
+      "text": "the first step is to Define your barcode scanning provider and then you have to in Step number two you have to see if",
+      "why_it_matters": "Outlines the AL development procedure for integrating camera barcode scanning with existence checks.",
+      "check": "exact"
+    },
+    {
+      "t": 1113.9,
+      "text": "this third scenario is actually tailored and um targeted specifically for warehouse employees who are actually used to scan multiple items in a span",
+      "why_it_matters": "Explains the purpose and use case for dedicated barcode scanner device support in warehouse operations.",
+      "check": "exact"
+    },
+    {
+      "t": 1174.9,
+      "text": "only send the information to the topmost page that is the current page that the user sees and now in terms of code",
+      "why_it_matters": "Documents a key limitation that barcode data is only delivered to the currently visible page, not background pages.",
+      "check": "exact"
+    },
+    {
+      "t": 1270.5,
+      "text": "this is only supported in the latest version of the mobile app that is version 4.0 and also is only supported in the new",
+      "why_it_matters": "Specifies the minimum version requirements for the new barcode scanning capabilities.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 207.9,
+      "kind": "coming-later",
+      "text": "coming in version 23.1 so not right now in October but a little bit later in November time frame"
+    },
+    {
+      "t": 1154.9,
+      "kind": "other",
+      "text": "only send the information to the topmost page that is the current page that the user sees"
+    },
+    {
+      "t": 1270.5,
+      "kind": "other",
+      "text": "this is only supported in the latest version of the mobile app that is version 4.0 and also is only supported in the new business Central release wave two"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 14,
+    "quotes_dropped": 0,
+    "evidence_verified": 1,
+    "evidence_unverified": 14
+  },
+  "windows": 2,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.031231000000000002
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.02457
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.025005
+    }
+  ]
+}

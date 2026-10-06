@@ -1,0 +1,52 @@
+{
+  "item_id": "blog/demiliani-com/13982",
+  "url": "https://demiliani.com/2026/07/21/the-hidden-cost-of-asking-ai-to-do-everything/",
+  "title": "The hidden cost of asking AI to do everything…",
+  "source": "demiliani-com",
+  "published_at": "2026-07-21T06:58:39.000Z",
+  "words": 1978,
+  "summary": "Smart AI usage in Business Central requires understanding hidden costs beyond token pricing, including developer idle time and skill erosion. The post advocates for using AI strategically to start work while maintaining human control, learning, and team expertise through intentional design patterns, monitoring, and skill development.",
+  "key_points": [
+    "Token costs hide the real problem of developer idle time while AI processes requests, which should be monitored like server metrics",
+    "Overreliance on AI for code generation leads to skill loss in design patterns, system performance, external integrations, and architectural thinking",
+    "Sustainable AI usage means asking AI for initial solutions, then manually improving code to maintain learning and control",
+    "Teams should leverage existing Business Central features, build reusable templates, and document patterns to reduce token dependency",
+    "The true danger is long-term skill erosion that makes teams unable to function without AI support or fix problems independently"
+  ],
+  "systems": [
+    "development",
+    "copilot"
+  ],
+  "topics": [
+    "ai usage",
+    "cost management",
+    "skill development",
+    "token optimization",
+    "team productivity",
+    "best practices"
+  ],
+  "objects": [],
+  "features": [
+    "AI code generation",
+    "token tracking",
+    "Copilot integration",
+    "external system integration",
+    "performance optimization"
+  ],
+  "versions": [],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.011621,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "Using less tokens is not about saving money. It is about keeping your team strong. It is about building skills that last.",
+      "why_it_matters": "Reframes the entire discussion from cost management to team sustainability and the lasting value of maintained expertise"
+    }
+  ]
+}

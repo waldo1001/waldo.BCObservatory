@@ -5,12 +5,39 @@
   "tier": "official",
   "title": "What's New: Marketing Text Suggestions (2023 release wave 2)",
   "url": "https://www.youtube.com/watch?v=KpQS7c6YGRo",
-  "published_at": null,
+  "published_at": "2023-11-27T10:33:02.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:46:15.990Z",
+      "captions": "auto:en-orig",
+      "duration_s": 911
+    },
+    "captioned": {
+      "at": "2026-10-06T21:46:22.879Z",
+      "path": "data/captions/microsoft/KpQS7c6YGRo.vtt",
+      "vtt_sha256": "cc4284263c06ee97c790cfbf7bcdf9c1c78d3c6f4fc376ce677d23a7472648a1",
+      "segments": 45,
+      "words": 2722,
+      "lang": "en-orig",
+      "kind": "auto"
+    },
+    "extracted": {
+      "at": "2026-10-06T21:47:03.460Z",
+      "path": "data/extract/video/KpQS7c6YGRo.json",
+      "prompt": "extract-video@1",
+      "windows": 1,
+      "features": 12,
+      "quotes": 7,
+      "quotes_dropped": 0,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.033169
     }
   },
   "input_hash": null,
@@ -19,7 +46,14 @@
   "meta": {
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 509,
-    "duration_s": 912,
-    "via": "reconcile"
-  }
+    "duration_s": 911,
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c42d17b526514d33b96cd8bde8e67ac81749401062ee938843429d21e09a5b07"
 }

@@ -7,13 +7,39 @@
   "url": "https://duiliotacconi.com/2026/07/22/use-sqlserversessionid-to-spot-on-blocking-sessions-in-dynamics-365-business-central-2026-wave-1/",
   "published_at": "2026-07-22T13:51:07.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:45:36.551Z",
+      "path": "vault:posts/duiliotacconi-com/2074.md",
+      "words": 1071
+    },
+    "extracted": {
+      "at": "2026-10-06T21:45:46.361Z",
+      "prompt": "extract-post@1",
+      "quotes": 0,
+      "trimmed": 0,
+      "cost_usd": 0.007835
+    },
+    "summarized": {
+      "at": "2026-10-06T21:45:46.362Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:45:46.363Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:45:46.366Z",
+      "path": "content/posts/duiliotacconi-com/2074.md"
     }
   },
   "input_hash": "2026-07-22T13:51:07.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "81d53472b0c0076e11d599cb4f6e06bc950945a219147139517a389cc1ece304"
 }
