@@ -7,13 +7,39 @@
   "url": "https://thatnavguy.com/blog/2026/bc-friday-tips-81-keep-bccontainerhelper-up-to-date/",
   "published_at": "2026-09-11T00:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:29:38.913Z",
+      "path": "vault:posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-81-keep-bccontainerhelper-up-to-date--da6ce902d0.md",
+      "words": 122
+    },
+    "extracted": {
+      "at": "2026-10-06T21:29:44.862Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": 0.004162
+    },
+    "summarized": {
+      "at": "2026-10-06T21:29:44.864Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:29:44.865Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:29:44.868Z",
+      "path": "content/posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-81-keep-bccontainerhelper-up-to-date--da6ce902d0.md"
     }
   },
   "input_hash": null,
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "9b195ce635da8eb28850631236ea0486631974cec6a933fa1afeb078b89d3bc7"
 }

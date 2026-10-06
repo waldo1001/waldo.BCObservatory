@@ -1,0 +1,53 @@
+{
+  "item_id": "blog/demiliani-com/15895",
+  "url": "https://demiliani.com/2026/09/10/dynamics-365-business-central-on-italy-north-datacenter-here-we-are/",
+  "title": "Dynamics 365 Business Central on Italy North Datacenter: here we are!",
+  "source": "demiliani-com",
+  "published_at": "2026-09-10T14:02:19.000Z",
+  "words": 379,
+  "summary": "Dynamics 365 Business Central is now available on the Italy North datacenter starting with version 28.5. New IT customers will be deployed there automatically, while existing customers will be migrated transparently, bringing data residency benefits and improved latency.",
+  "key_points": [
+    "Italy North datacenter deployment began with version 28.5 after multiple delays during Azure region setup and Microsoft 365 rollout phases",
+    "New Business Central IT environments are created on Italy North; existing customers will migrate with version 28.5 or higher",
+    "Data residency and reduced latency are key benefits for Italian businesses",
+    "Critical prerequisite: unlink Business Central from Power Platform before migration, then re-link after successful move to avoid environment move failure"
+  ],
+  "systems": [
+    "localization",
+    "platform",
+    "administration"
+  ],
+  "topics": [
+    "italy north datacenter",
+    "data residency",
+    "latency",
+    "environment migration",
+    "azure region",
+    "localization"
+  ],
+  "objects": [],
+  "features": [
+    "Italy North datacenter deployment",
+    "automatic environment migration",
+    "data residency compliance",
+    "latency optimization"
+  ],
+  "versions": [
+    "28.5"
+  ],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005089,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "starting from version 28.5, new Dynamics 365 Business Central IT customers will be deployed on Italy North",
+      "why_it_matters": "Marks the specific version when Italy North deployment became available"
+    }
+  ]
+}

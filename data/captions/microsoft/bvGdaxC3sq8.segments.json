@@ -1,0 +1,288 @@
+{
+  "video_id": "bvGdaxC3sq8",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 20,
+      "end": 31.5,
+      "text": "Hello everyone. Welcome to our session today about introducing Contoso Demo Tool. Uh my name is Wael Abu Sa'ada. I'm a senior software engineer at Microsoft, and I'm joined today by Uh hi, I'm Horan."
+    },
+    {
+      "t": 31.5,
+      "end": 44,
+      "text": "I'm a software engineer at Microsoft. Awesome. Our agenda for today is that we're going to talk about the current demo data tool. Uh we'll also talk about uh Contoso."
+    },
+    {
+      "t": 44,
+      "end": 54.1,
+      "text": "And we will show you how you can build your own demo data module. And then finally, we will share our future plan for Contoso demo data."
+    },
+    {
+      "t": 54.1,
+      "end": 70.7,
+      "text": "So, let's start with the current demo data and the tool that we have currently. So, as you may know, the available demo data that comes out of the box is set up evaluation if you are using SaaS, extended which you can find on-prem,"
+    },
+    {
+      "t": 70.7,
+      "end": 85.6,
+      "text": "and you might be familiar with that screenshot which is basically how you create a new company where you can choose this set of evaluation or you know, uh set up data, whichever company you would want to create, right?"
+    },
+    {
+      "t": 85.6,
+      "end": 96,
+      "text": "So, uh yeah, so using rapid start package to create your demo data is a support tool, absolutely, but it has its own limitation."
+    },
+    {
+      "t": 96,
+      "end": 107.4,
+      "text": "So, let's have this scenario, if you have a a set of features that you want to demonstrate to your customer, and sometimes you might want to mix and match which feature you want to present."
+    },
+    {
+      "t": 107.4,
+      "end": 123.4,
+      "text": "So, let's have this scenario where you're trying to extract a subset of demo data, and you start as an example from evaluation package. First thing you want to try to do is you will try to identify which table contain the demo data relative to your features that you want to present."
+    },
+    {
+      "t": 123.4,
+      "end": 134.5,
+      "text": "Then, you will try to export these tables as our own start package, and then try to import it again in the new company that you created that you will use to demonstrate your feature to your customer."
+    },
+    {
+      "t": 134.5,
+      "end": 148.6,
+      "text": "This might be a trial and error until you get the right exact tables that are related and, you know, correctly applied. And finally, you have a final package that you can use to create multiple company to demonstrate this set of features."
+    },
+    {
+      "t": 148.6,
+      "end": 161.4,
+      "text": "As you can see, this is not the optimal process, right? So, that actually led us to start thinking about how we can improve that, and hence introducing Contoso."
+    },
+    {
+      "t": 161.4,
+      "end": 172.4,
+      "text": "So, let's start. First, what is Contoso? So, Contoso Coffee is a fictitious company that produces coffee and coffee machines. It is an initiative across"
+    },
+    {
+      "t": 172.4,
+      "end": 185.3,
+      "text": "uh Dynamics 365 products to basically demonstrate different features and services that we offer. And the Contoso Coffee is not a new thing."
+    },
+    {
+      "t": 185.3,
+      "end": 199.8,
+      "text": "We actually have released it like two uh releases ago, uh and we already have some available modules. And in this release, we even increasing the modules. So, right now we're going to have available common, warehousing, manufacturing,"
+    },
+    {
+      "t": 199.8,
+      "end": 210.4,
+      "text": "service, and we are working currently on more in or on basically introducing more modules for Contoso. All right."
+    },
+    {
+      "t": 210.4,
+      "end": 221.3,
+      "text": "So, when we were designing Contoso, we had four main goals. The first one is that we wanted to split demo data into different modules."
+    },
+    {
+      "t": 221.3,
+      "end": 232.7,
+      "text": "Each module is supposed to be a scenario-based. And all the modules, all the demo data modules, should work together and separately."
+    },
+    {
+      "t": 232.7,
+      "end": 247,
+      "text": "Since we can have bunch of different modules, uh we might want to have also dependency between these modules. So, let's have that example. You're building, you know, your demo data module and you have dependency on chart of accounts."
+    },
+    {
+      "t": 247,
+      "end": 264.9,
+      "text": "You don't want to go copy the code that will generate chart of accounts or even copy the data and insert it again. This is not really feasible. So, from now on think of demo data module as LEGO and it's like bricks of LEGO that you build on top of each other."
+    },
+    {
+      "t": 264.9,
+      "end": 277.3,
+      "text": "Next, we split the demo data into logical data layers. So, we start from setup. This is basically where you insert your, you know, unit of measure, number theory, etc."
+    },
+    {
+      "t": 277.3,
+      "end": 289.8,
+      "text": "Master data layer where basically you have your items, your customers, your vendors, transactional where basically you, I don't know, let's say post an invoice, and then finally historical."
+    },
+    {
+      "t": 289.8,
+      "end": 303.9,
+      "text": "And we we we we try to basically uh have this organized in a nice way. So, we package all of that and have it in an interface that then you will have to implement when you create your own demo data module."
+    },
+    {
+      "t": 303.9,
+      "end": 315.3,
+      "text": "And Haroon is going to show you more on this later. Finally, the whole initiative of working on Contoso demo data is basically to speed up productivity."
+    },
+    {
+      "t": 315.3,
+      "end": 325.6,
+      "text": "So, we had in mind that we must simplify creating a demo data module. And again, you will see that later how easy it is to build your own module."
+    },
+    {
+      "t": 325.6,
+      "end": 336.7,
+      "text": "Uh we wanted to build the tool. We did build the tool that will be released in this wave to orchestrate configuring and running different demo data modules."
+    },
+    {
+      "t": 336.7,
+      "end": 348.2,
+      "text": "Finally, we had in mind to simplify localization and extensibility. And if we have a high-level overview of the architecture,"
+    },
+    {
+      "t": 348.2,
+      "end": 363,
+      "text": "you will see that we would have we Microsoft will build the Contoso demo tool and we will maintain it. We will also release different set of modules and we're working increasing on increasing the amount of available modules."
+    },
+    {
+      "t": 363,
+      "end": 374.5,
+      "text": "So at the moment, again, common warehousing, manufacturing and service. And the idea is that as as we said earlier, these are like Lego bricks, so you can build on top of any module you would like to."
+    },
+    {
+      "t": 374.5,
+      "end": 388.6,
+      "text": "So if you building on top of warehousing, that's easy. Just have dependency on warehousing. All the data will be generated behind the scene. And now, let's show you how you can build your own demo data module."
+    },
+    {
+      "t": 388.6,
+      "end": 406,
+      "text": "Haroon? Thanks, Vael. Um here I'm going to show you how to build your own demo data module. And to get started is fairly simple. If you don't have an extension already, uh just create your own extension and update Contoso coffee demo data set first party extension as dependency."
+    },
+    {
+      "t": 406,
+      "end": 417,
+      "text": "And the extension is already available. But the new Contoso demo tool will be available from 23.0. So that's something some detail you may want to pay attention to."
+    },
+    {
+      "t": 417,
+      "end": 430.2,
+      "text": "And after that is straightforward. Go implement your enum extension. Uh you extend on the Contoso demo data module. And here I'm having a demo data dummy mode value here."
+    },
+    {
+      "t": 430.2,
+      "end": 443.4,
+      "text": "Uh but yeah, just put your own features name or scenario name here. That's totally fine. And then go ahead implement the interface. And here is a set of procedures you will have to implement."
+    },
+    {
+      "t": 443.4,
+      "end": 460.5,
+      "text": "Uh I will just go through them one by one. So the first is conversion page. Uh so the idea here is if your own demo data module would want some customer to customize what kind of for example customers you want the demo data to be created on,"
+    },
+    {
+      "t": 460.5,
+      "end": 470.8,
+      "text": "then you can ask the customer to specify them here. And or if you don't want anyone to customize your demo data, that's also totally fine."
+    },
+    {
+      "t": 470.8,
+      "end": 481.4,
+      "text": "Just leave the procedure empty. And the next is to specify the dependency your module have. So here we have the dependency on the common module."
+    },
+    {
+      "t": 481.4,
+      "end": 499.4,
+      "text": "And well, before you actually specify the dependencies, we highly recommend you to go ahead and check out what data is created in each module. So the idea for common module is we are trying to create a set of demo data that will be used commonly used for all the modules."
+    },
+    {
+      "t": 499.4,
+      "end": 510,
+      "text": "And so for example, we create some a small set of chart of accounts and some posting groups and posting setups. Um but yeah, it's all the code will be available on GitHub soon."
+    },
+    {
+      "t": 510,
+      "end": 520.8,
+      "text": "So check it out. And also, if you feel like some modules should be included for more data, just feel free to create an issue or a pull request here. And"
+    },
+    {
+      "t": 520.8,
+      "end": 531.8,
+      "text": "then is the rest for procedures will be as well demonstrated. It just create demo data layer by layer. And yeah."
+    },
+    {
+      "t": 531.8,
+      "end": 542.2,
+      "text": "And while you are implementing the interface, we provided a some helpers code units to help you speed up the process."
+    },
+    {
+      "t": 542.2,
+      "end": 553.9,
+      "text": "For example, as you can see here, we are creating one line of general posting setup in one line of code. That's because we created a set of helper code units"
+    },
+    {
+      "t": 553.9,
+      "end": 565.7,
+      "text": "to help you focus on your scenario, so you don't need to worry about populating which field in which table. And you can just call those code units and specify the values in the parameters instead."
+    },
+    {
+      "t": 565.7,
+      "end": 577.3,
+      "text": "And also, you can see from this code snapshot here, we are having reference on common posting group. And that's because those posting groups are created inside the common module."
+    },
+    {
+      "t": 577.3,
+      "end": 593.3,
+      "text": "So, instead of having to create my own posting groups, I can just reuse the ones that's already created in the dependencies. And just a quick recap, it's fairly simple three steps to create your own demo data module."
+    },
+    {
+      "t": 593.3,
+      "end": 604,
+      "text": "So, create your own extension and object object the dependency and then extend the enum and implement the interface. So, after that you publish or install your app."
+    },
+    {
+      "t": 604,
+      "end": 614.3,
+      "text": "Then on the Contoso demo tool page, your demo module will be show up here. And then you can click generate"
+    },
+    {
+      "t": 614.3,
+      "end": 625.5,
+      "text": "after selecting a module, of course, click generate. Then all you can see your module and the dependency module will be generated."
+    },
+    {
+      "t": 625.5,
+      "end": 635.6,
+      "text": "And that's all for me. Awesome. Thank you, Harun. So, now on our future plans for Contoso demo tool and demo data modules."
+    },
+    {
+      "t": 635.6,
+      "end": 650.8,
+      "text": "The first thing is that we want to move toward on-demand demo data creation. So, to get there, we definitely need to have more modules to support basically demonstrating different features of Business Central."
+    },
+    {
+      "t": 650.8,
+      "end": 664,
+      "text": "We would also slowly start to move away from creating our app historic package, but again, once we have enough modules that you can that can replace the existing packages we have at the moment."
+    },
+    {
+      "t": 664,
+      "end": 676.2,
+      "text": "Finally, you can we can this actually would allow us to improve something like the company creation wizard. So, instead of the company creation wizard looking like this, it would look something like that."
+    },
+    {
+      "t": 676.2,
+      "end": 687.2,
+      "text": "So, you can basically when you create a new company, you can choose a set of modules that you want. You can basically add that in your pipeline for running tests or whatever,"
+    },
+    {
+      "t": 687.2,
+      "end": 697.5,
+      "text": "and you can even use APIs to create your own company with a set of modules that you want. So, it will give you lots of capability going forward."
+    },
+    {
+      "t": 697.5,
+      "end": 707.9,
+      "text": "Finally, all of this is open source. It has been open source for like a year now. And if you have any feedback, if you have any issues, yeah, please reach out."
+    },
+    {
+      "t": 707.9,
+      "end": 721,
+      "text": "Open an issue for us on GitHub. We monitor this part of the repo closely. So, with that, I would like to say, thank you for listening in. Thank you."
+    }
+  ],
+  "markers": [],
+  "word_count": 1828
+}

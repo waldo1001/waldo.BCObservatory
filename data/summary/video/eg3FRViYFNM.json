@@ -1,0 +1,28 @@
+{
+  "video_id": "eg3FRViYFNM",
+  "item_id": "video/yt-microsoft/eg3FRViYFNM",
+  "summary": "Productivity features in the Business Central web client in 2023 release wave 2: lookup show details and Control Alt Down, company data search in Tell Me (Alt Q), readable shared links, tab naming, actionable errors, page inspection additions, rich content fields, and analysis tabs (generally available).",
+  "overview": "The session covers navigation and search changes in the web client. Lookup dialogues get a show details action and a Control Alt Down shortcut that opens the related card. Tell Me can search company data with Alt Q, with a smarter results page and an explore reports link.\n\nIt also covers shared link readability, browser tab naming with a company switcher that opens a page in another company in a new tab, and actionable error and inline validation dialogues. For developers, it covers native rich content fields in AL and page inspection additions. Analysis tabs are now generally available. Two changes are tied to Update 24, approximately April 2024.",
+  "key_points": [
+    "Control Alt Down in a lookup opens the related card page; if no card exists it opens the list filtered to the selected record. Show details in simple lookups needs no partner uptake.",
+    "Alt Q opens Tell Me for company data search; the focused value on an editable page is copied into the search. Results are tailored to permissions and user role.",
+    "Legacy list views are to be removed from the web client in Update 24 (approximately April 2024), previously Update 23, so they need migrating.",
+    "Automatic saving of field values when leaving a field will be enabled for everyone in Update 24 (approximately April 2024).",
+    "Actionable errors include dimension posting fixes (dimension must be the same or blank) in the first iteration, plus an interface for AL developers to add fixes for custom errors.",
+    "Rich content fields can be implemented natively in AL without control add-ins, with a toolbar of over 25 functions.",
+    "Page inspection can scroll to a field, link to Visual Studio Code, and, with Update 23, add read-only source table fields to a page or make editable fields read-only."
+  ],
+  "audience": [
+    "functional consultant",
+    "developer",
+    "administrator",
+    "end user"
+  ],
+  "extraction_hash": "761b53cbd27c1e8727366edb5ccadc09cbfa08c37d5f259347999986730d7994",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0284064
+  }
+}

@@ -5,12 +5,60 @@
   "tier": "official",
   "title": "What's new: Add existing table fields to pages (2023 release wave 2)",
   "url": "https://www.youtube.com/watch?v=iHgaNJucyvI",
-  "published_at": null,
+  "published_at": "2023-12-22T14:45:41.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:29:50.930Z",
+      "captions": "auto:en-orig",
+      "duration_s": 1737
+    },
+    "captioned": {
+      "at": "2026-10-06T21:30:00.138Z",
+      "path": "data/captions/microsoft/iHgaNJucyvI.vtt",
+      "vtt_sha256": "d3f2f9d87e43abb81e76242b46ac28044bd7955437c08f743337c4521e48155f",
+      "segments": 90,
+      "words": 5322,
+      "lang": "en-orig",
+      "kind": "auto"
+    },
+    "extracted": {
+      "at": "2026-10-06T21:32:08.057Z",
+      "path": "data/extract/video/iHgaNJucyvI.json",
+      "prompt": "extract-video@1",
+      "windows": 3,
+      "features": 14,
+      "quotes": 16,
+      "quotes_dropped": 0,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.112779
+    },
+    "summarized": {
+      "at": "2026-10-06T21:32:14.821Z",
+      "path": "data/summary/video/iHgaNJucyvI.json",
+      "prompt": "summarize-video@2",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": 0.0213384
+    },
+    "linked": {
+      "at": "2026-10-06T21:32:14.823Z",
+      "systems": [
+        "development",
+        "administration",
+        "sales"
+      ],
+      "topics": 12,
+      "objects_as_heard": 5
+    },
+    "published": {
+      "at": "2026-10-06T21:32:14.837Z",
+      "path": "content/videos/iHgaNJucyvI.md"
     }
   },
   "input_hash": null,
@@ -20,6 +68,13 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 474,
     "duration_s": 1737,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "2de8e6db80c60e92c752bd33b1b25061ab6abaae9828da147419737d6a74b9cf"
 }

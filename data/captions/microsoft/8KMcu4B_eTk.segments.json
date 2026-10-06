@@ -1,0 +1,643 @@
+{
+  "video_id": "8KMcu4B_eTk",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 19.5,
+      "end": 34.2,
+      "text": "Hello and thank you for joining. I'm Andrei Panko and I will be doing demos for you. In this release, we continue our investment in warehouse and inventory management areas, both done by internal R&D team, but I also would like to mention the community contributions."
+    },
+    {
+      "t": 34.2,
+      "end": 46.4,
+      "text": "Many features are added by community members via GitHub, and you can find all details in the release notes entries, including text descriptions and screenshots."
+    },
+    {
+      "t": 46.5,
+      "end": 58.4,
+      "text": "But for some features, I would like to do demos, and we will be doing demos for some warehouse improvements. In the release notes, you might find these articles and probably the third one is"
+    },
+    {
+      "t": 58.4,
+      "end": 71.9,
+      "text": "the most obvious one to understand what it's doing. For others, you might be curious. Let's do demo and get some clarity. Now, in Business Central, let's start by exploring location cards."
+    },
+    {
+      "t": 71.9,
+      "end": 83.4,
+      "text": "Let's go to the location list, find the favorite silver location which is added by Contoso Demo Data app here, and explore what we have."
+    },
+    {
+      "t": 83.4,
+      "end": 98.4,
+      "text": "The biggest changes we can notice in the warehouse tab, you can still see the required receipt ship put away and pick toggles are there, but now they are limited only to purchase sales, service, and transfer operations,"
+    },
+    {
+      "t": 98.4,
+      "end": 109,
+      "text": "while internal operations such as production, assembly, and jobs got all configuration options, and it's not toggles, but actual drop-downs with different options"
+    },
+    {
+      "t": 109,
+      "end": 120.3,
+      "text": "where you can select various combinations. For example, you can disable warehouse handling or have a different flavors. What I did here, I configured all different options."
+    },
+    {
+      "t": 120.3,
+      "end": 131.1,
+      "text": "For example, for sales orders, I will be doing shipments, but receiving will be done via put away. In production, I don't want to use any warehouse handling"
+    },
+    {
+      "t": 131.1,
+      "end": 143,
+      "text": "because I will be using movement worksheet to transfer stuff out of warehouse. Then I have a warehouse pick in some scenarios and inventory picks for jobs. Let's explore in action."
+    },
+    {
+      "t": 143,
+      "end": 155.6,
+      "text": "But before that, I will scroll down to the bin policy tab. This tab still has the same fields, or almost the same fields, but with each release, more of them are getting available"
+    },
+    {
+      "t": 155.6,
+      "end": 165.8,
+      "text": "to the basic warehouse configurations. You don't need to use directed pick and put away to benefit from special equipment,"
+    },
+    {
+      "t": 165.8,
+      "end": 179.4,
+      "text": "bin capacity policy, or warehouse class, which were added in the previous release. Or now you can also use put away templates when assigning bins where items should be located,"
+    },
+    {
+      "t": 179.4,
+      "end": 193.1,
+      "text": "or bin ranking. Now put away template is available. And if you decided not to use default bin, which was available before, but switch to put away template, you can pick default one."
+    },
+    {
+      "t": 193.1,
+      "end": 201.8,
+      "text": "All right, let's go to different documents and see how it works. Let's start by purchase orders."
+    },
+    {
+      "t": 201.8,
+      "end": 212.3,
+      "text": "I will find my order. And as you remember, I decided to use inventory putaways. So I have two items here, and let's create inventory put away."
+    },
+    {
+      "t": 212.3,
+      "end": 220.5,
+      "text": "Okay. All good. Now navigate to create a document."
+    },
+    {
+      "t": 220.5,
+      "end": 230.6,
+      "text": "Couple of clicks and we're here. What do we see? We see that for one item, we received three lines instead of one in the past, which would be default bin."
+    },
+    {
+      "t": 230.6,
+      "end": 241.3,
+      "text": "And for the last one, we received nothing. Why? Because each item is using, configured to use different put away templates. And I decided to use standard template for item number one."
+    },
+    {
+      "t": 241.3,
+      "end": 253.7,
+      "text": "But for put away for another item, I decided to try something different. Let me show you details of this template, how they're configured."
+    },
+    {
+      "t": 253.7,
+      "end": 266.9,
+      "text": "So the standard one, which is also included into the product and part of the Contoso demo data, it's pretty complicated. And it tries, first of all, fill up bins which already contains items."
+    },
+    {
+      "t": 266.9,
+      "end": 282.4,
+      "text": "And if it fails, then it tries to find the next best bin accordingly to the rules. But I also have a simplified scenario. When I allow system to propose bins only, if these bins already contain some stock."
+    },
+    {
+      "t": 282.4,
+      "end": 293.4,
+      "text": "And if not, it stops. That's why we have a different result. For example, first item we needed 80, but if you take a look at the bin content list,"
+    },
+    {
+      "t": 293.4,
+      "end": 305.1,
+      "text": "we can see that this item is already available in the warehouse. It's available in couple of bins and they favor some quantity, but they also have some max quantity restrictions."
+    },
+    {
+      "t": 305.1,
+      "end": 316.8,
+      "text": "So system just added missing quantities there. And for remaining, it finds the best bin it could using bin ranking. The last one,"
+    },
+    {
+      "t": 316.8,
+      "end": 330.8,
+      "text": "no, this item is not available currently. So we cannot find the existing bin. That's why we decided to delegate this work to warehouse employee who will decide where to store this item"
+    },
+    {
+      "t": 330.8,
+      "end": 345.2,
+      "text": "in specific scenario. So you can use different approaches. All right, so I selected the bin which fits best, but also I noticed that instead of 80, I received 85."
+    },
+    {
+      "t": 345.2,
+      "end": 358.7,
+      "text": "So let's add over received quantity. Yeah, over received quantity is now also available in the inventory put away in addition to the house receives before. So now you are not restricted at least by this parameter"
+    },
+    {
+      "t": 358.7,
+      "end": 367,
+      "text": "on which document to use. All right, that was a small side story."
+    },
+    {
+      "t": 367,
+      "end": 378.6,
+      "text": "Now we go to the wallet center and now we will explore sales orders. So we have sales order and let's create"
+    },
+    {
+      "t": 378.6,
+      "end": 383.2,
+      "text": "a warehouse shipment."
+    },
+    {
+      "t": 383.4,
+      "end": 396,
+      "text": "Okay, warehouse shipment created. It does not require me to create pick because it configured so, so I can just go and ship stuff if I have inventory available."
+    },
+    {
+      "t": 396,
+      "end": 403.2,
+      "text": "Let's go to different document. And in this case, it will be release production order."
+    },
+    {
+      "t": 404.3,
+      "end": 409.4,
+      "text": "Production orders configured to use warehouse picks."
+    },
+    {
+      "t": 409.4,
+      "end": 422.2,
+      "text": "Let's click warehouse pick. Okay. And it was created. Now let's navigate to create a pick and explore what is there. Oh, so many lines, why?"
+    },
+    {
+      "t": 422.2,
+      "end": 432.6,
+      "text": "Why? We need the 30 and they are unfortunately not available in a single bin. It's available in three different bins, 10 in each."
+    },
+    {
+      "t": 432.6,
+      "end": 445,
+      "text": "And these bins have a different ranking. So system, that's why they have a special code so it will be easier to illustrate. But the highest ranking, 30 is on this bin,"
+    },
+    {
+      "t": 445,
+      "end": 457.6,
+      "text": "then medium and the lowest in this bin. And system proposed to do picking accordingly. First, from bin with the highest trend regardless of its code, then the next one,"
+    },
+    {
+      "t": 457.6,
+      "end": 472.1,
+      "text": "the final one. So actually picking by ranking is also available with inventory picks. Let's explore. This functionality or this type of picking is enabled for jobs as we configured our location."
+    },
+    {
+      "t": 472.1,
+      "end": 483.7,
+      "text": "Let's open the job card. We can see multiple job tasks and choose create inventory pick. We need to activate create inventory pick. Also, I would like to add a separate filter"
+    },
+    {
+      "t": 483.7,
+      "end": 495.5,
+      "text": "job task line because I would like to limit the scope of create pick only two components listed under first job task because it's a long project"
+    },
+    {
+      "t": 495.5,
+      "end": 505.6,
+      "text": "and probably I don't need to get inventory for other task, for other milestones. I can also use a date. This capability, this filtering capabilities"
+    },
+    {
+      "t": 505.6,
+      "end": 517.9,
+      "text": "were added in the previous release but I think it makes sense to show it here. Okay, I received, I created one inventory pick. Let's navigate."
+    },
+    {
+      "t": 518.9,
+      "end": 529.8,
+      "text": "And open this pick. The same story. So we are picking from three different bins because it is available there."
+    },
+    {
+      "t": 530.3,
+      "end": 540.8,
+      "text": "So the same story about picking first from the bin with the highest rank because our location configured this way. All right."
+    },
+    {
+      "t": 540.8,
+      "end": 554.3,
+      "text": "So, picking by ranking is available in both workhouse and inventory pick. Let's go to, for example, assembly order and do some additional check."
+    },
+    {
+      "t": 554.3,
+      "end": 558.4,
+      "text": "In this case, assembly order requires warehouse picking."
+    },
+    {
+      "t": 558.4,
+      "end": 568.8,
+      "text": "I will create a warehouse pick. I click okay. And I got this nothing to handle error which is not really useful."
+    },
+    {
+      "t": 568.8,
+      "end": 579.7,
+      "text": "So, how do we deal with it in basic workhouse? Let me demonstrate you something but first I will show you one of my favorite client features added into this release."
+    },
+    {
+      "t": 579.7,
+      "end": 590.8,
+      "text": "It's a show details which allows me to navigate directly to the cart. Let me scroll down and you can see that always create pick client is disabled, but it is available"
+    },
+    {
+      "t": 590.8,
+      "end": 599.4,
+      "text": "even for basic workhouse configurations. I will activate it. And now when I click create warehouse pick,"
+    },
+    {
+      "t": 599.4,
+      "end": 604.3,
+      "text": "I got pick created."
+    },
+    {
+      "t": 605,
+      "end": 618.1,
+      "text": "And if you will open this pick, we can see that it has a take and place instruction and bin code is empty. Of course, system didn't find the item to find but we know that it is available."
+    },
+    {
+      "t": 618.1,
+      "end": 628.7,
+      "text": "And it is available in the bin which is for some reason marked as dedicated. But I know that I want to take this stuff here. So, I'm making decision and I'm accepting"
+    },
+    {
+      "t": 628.7,
+      "end": 640.1,
+      "text": "to take stuff from this bin code. So, at least I was able to unblock myself and move further. Let's register it."
+    },
+    {
+      "t": 640.1,
+      "end": 646.1,
+      "text": "All good. Available inventory."
+    },
+    {
+      "t": 646.1,
+      "end": 658,
+      "text": "All right. That was for basic workhouse but it is also transition to the next topic because nothing to handle error is displayed quite often in our, as we can see now it's elementary."
+    },
+    {
+      "t": 658,
+      "end": 670.4,
+      "text": "Let's see and it's not easy to troubleshoot. And we did some improvement, mainly focus it for locations with directed pick and put away configuration enabled."
+    },
+    {
+      "t": 670.4,
+      "end": 684.8,
+      "text": "Let's take a look. I have multiple, actually two. I have two workhouse shipments created in a white location and let's open it and click create pick."
+    },
+    {
+      "t": 687.1,
+      "end": 698.5,
+      "text": "Yeah. Not very useful. Not very useful but then I will try to create pick again and in this case I will activate the short summary toggle."
+    },
+    {
+      "t": 698.5,
+      "end": 708.6,
+      "text": "It also identifies you that it's only for directed put away and pick mode. So, do not try it on other configurations."
+    },
+    {
+      "t": 708.6,
+      "end": 719,
+      "text": "And what do we see here? We get the same error message, it's on top but we also receive additional details. We got the full troubleshooting window"
+    },
+    {
+      "t": 719,
+      "end": 731,
+      "text": "where we have multiple, conceptually place for multiple lines. In this case I'm dealing with only one item that's why I have one line. And I see quantity which I wanted to pick."
+    },
+    {
+      "t": 731,
+      "end": 742,
+      "text": "I needed one. And how many I managed to handle? Nothing. Why? This information we can get from the summary part which is added here."
+    },
+    {
+      "t": 742,
+      "end": 749.9,
+      "text": "Because pickable quantity is zero. In the advanced workhouse with directed put away and pick"
+    },
+    {
+      "t": 750.2,
+      "end": 760.9,
+      "text": "the workhouse is split into different zones and only one of them contains items which can be picked for shipment or for example for future consumption."
+    },
+    {
+      "t": 760.9,
+      "end": 772.7,
+      "text": "So that's called pickable one. And how do we calculate them? You can see that in general in workhouse I have 10 items. I can explore ledger entries that not super useful"
+    },
+    {
+      "t": 772.7,
+      "end": 787.8,
+      "text": "but I can go and explore bin content. It will also show me how these 10 are distributed. And yes, I have a lot in my workhouse in different bins. Nine of them pieces are in the pickable bins"
+    },
+    {
+      "t": 787.9,
+      "end": 792.8,
+      "text": "but unfortunately it is either blocked or dedicated."
+    },
+    {
+      "t": 793.1,
+      "end": 797.6,
+      "text": "Means it has a very specific purpose and not for picking"
+    },
+    {
+      "t": 797.6,
+      "end": 808.8,
+      "text": "or both and dedicated and blocked. And I also have one thing, one piece outstanding in the receive bin. So it's very easy for me to get unblocked."
+    },
+    {
+      "t": 808.8,
+      "end": 814.1,
+      "text": "I need to find the put away document and process it."
+    },
+    {
+      "t": 814.1,
+      "end": 824.8,
+      "text": "For some reason it was not processed but at least I know whom to ask for help with getting unblocked. Before it was more complicated to troubleshoot"
+    },
+    {
+      "t": 824.8,
+      "end": 836.6,
+      "text": "now it is shorter. What about more complicated scenarios? Of course I have them. Let's scroll to the different workhouse shipment. It has two items, different types of items"
+    },
+    {
+      "t": 836.6,
+      "end": 845.8,
+      "text": "to demonstrate different scenarios. Let's click create pick. And I already know that I would like to show summary."
+    },
+    {
+      "t": 845.8,
+      "end": 853.8,
+      "text": "Okay, in this situation you can see that for the first line we managed to pick zero but for the second line"
+    },
+    {
+      "t": 853.8,
+      "end": 869.5,
+      "text": "something can be picked. But let's take a look at the details. First of all, here it's interesting to notice that pickable bins, actually we have something. If I was drill down I can get bin content on pickable bins."
+    },
+    {
+      "t": 869.6,
+      "end": 874,
+      "text": "Where dedicated toggle is disabled"
+    },
+    {
+      "t": 874,
+      "end": 878.3,
+      "text": "and there is no blocking of outbound movements."
+    },
+    {
+      "t": 878.3,
+      "end": 889.3,
+      "text": "So this is very good bin and it has some quantity which theoretically could be picked. But, but. This item has item tracking."
+    },
+    {
+      "t": 889.3,
+      "end": 898.6,
+      "text": "If I scroll down I can see that yeah, this item has item tracking defined. And this specific item has serial number information card"
+    },
+    {
+      "t": 898.6,
+      "end": 902.9,
+      "text": "with blocked field enabled."
+    },
+    {
+      "t": 902.9,
+      "end": 917.4,
+      "text": "So basically I cannot use this item because it's blocked. And I get this information again right here. So I just need to find this item, figure it out why it is blocked, maybe unblock it if necessary and also unblock myself."
+    },
+    {
+      "t": 918.1,
+      "end": 928.2,
+      "text": "Let's take a look at the next line. This is more complicated scenario because now it has, it involves reservation and reservation has some impact. So what do we want?"
+    },
+    {
+      "t": 928.2,
+      "end": 938.7,
+      "text": "We want to pick four. And how many do we have in warehouse? Four. So kind of like what's the problem? Yeah."
+    },
+    {
+      "t": 938.7,
+      "end": 950.2,
+      "text": "The problem is that there are some other orders which also needs to be picked, shipped, consumed, et cetera. And they have a high priority. Why? Because they are reserved."
+    },
+    {
+      "t": 950.2,
+      "end": 961.8,
+      "text": "So this one is not reserved. So it has no less priorities than others. So in this case, we should not make orders with high priority, which are reserved."
+    },
+    {
+      "t": 961.8,
+      "end": 974.1,
+      "text": "Should not make them impossible to ship. It's okay to make it difficult to ship, but not impossible. Let me explain. So while we have a total quantity in warehouse 10,"
+    },
+    {
+      "t": 974.1,
+      "end": 985.6,
+      "text": "four are impeccable bins, which can be picked, shipped right away. But we also have six somewhere else."
+    },
+    {
+      "t": 985.6,
+      "end": 999.7,
+      "text": "Where do we have them? We have four impeccable bins, as we already know, but we also have four in the putaway bin. So it's like a different storage, which requires movement if necessary."
+    },
+    {
+      "t": 999.7,
+      "end": 1004.5,
+      "text": "So we consider this quantity to be something"
+    },
+    {
+      "t": 1004.5,
+      "end": 1015.8,
+      "text": "which we need to compare with reservations. So eight is potentially can be used. Yeah, it requires some additional actions. For example, if it's in putaway, it's in received bins,"
+    },
+    {
+      "t": 1015.8,
+      "end": 1027,
+      "text": "and you need to process putaway. If it's in bulk storage bin, you need to move it into pickable bins, but it can be done. That's why it is okay to take stuff"
+    },
+    {
+      "t": 1027,
+      "end": 1037.6,
+      "text": "from the pickable bin for some other bins, unless we still have something in the warehouse which can be shipped for reserve. So what about reservation situation?"
+    },
+    {
+      "t": 1037.6,
+      "end": 1047.2,
+      "text": "Yeah, we reserved eight. Eight, we reserved for this sales order, which sounds like, okay, then 100% is reserved."
+    },
+    {
+      "t": 1047.2,
+      "end": 1061.8,
+      "text": "Not really, not really. Because out of this eight reserved, we already picked. So it means this stuff is already moved to the shipping bin. And so it can be deducted."
+    },
+    {
+      "t": 1061.8,
+      "end": 1074.8,
+      "text": "So out of this eight, we can deduct two which are already prepared for shipping. It's not that trivial, I understand. Stay with me. But we have also two tips which try to explain"
+    },
+    {
+      "t": 1074.8,
+      "end": 1085.9,
+      "text": "how the stuff is calculated. So for example, let's go to the last one, impact. And here we explain that potentially, shipable from warehouse is eight."
+    },
+    {
+      "t": 1085.9,
+      "end": 1096.7,
+      "text": "It's like everything which is in warehouse except in the shipment bin, because shipment bin or dedicated bin, which is already almost loaded to the truck. So forget about them."
+    },
+    {
+      "t": 1096.7,
+      "end": 1107.6,
+      "text": "But potentially, shipable eight, okay, here. But we also have reservation, except reservations which are already shipped. So reservation, then we compare these two."
+    },
+    {
+      "t": 1107.6,
+      "end": 1119.7,
+      "text": "And this delta is what we can take for other non-reserved orders. So in this case, the delta is two. So that's why we're adjusting pickable quantity from four to two."
+    },
+    {
+      "t": 1119.7,
+      "end": 1128.7,
+      "text": "And this is how quantity is defined. I have the same text written for in the release node."
+    },
+    {
+      "t": 1128.7,
+      "end": 1141.7,
+      "text": "And we're also, of course, updating the documentation. Probably with more fancy schemas. All right, so in this case, I have two. So system already created pick for two."
+    },
+    {
+      "t": 1141.7,
+      "end": 1153.2,
+      "text": "How can I get unblocked if I really, really need to pick this stuff? So I have two options. I either reserve this sales order, then reserve against reserve. There is no prioritization conflict."
+    },
+    {
+      "t": 1153.2,
+      "end": 1167.4,
+      "text": "So this one can be processed directly. Or I will go and cancel reservation. Because I decided that it is okay to do. We will buy more stuff later for this specific order."
+    },
+    {
+      "t": 1167.4,
+      "end": 1175.6,
+      "text": "It is okay. We explored, we met from. Now I can close this window and run create pick again."
+    },
+    {
+      "t": 1175.8,
+      "end": 1189.2,
+      "text": "Let's activate it again. For the second round, you can see that the first line still nothing changed because we still blocked. And we didn't take any action. But the second line, we had two remaining to be picked."
+    },
+    {
+      "t": 1189.2,
+      "end": 1201.9,
+      "text": "And they can be picked. So all good with this line. So what we figured it out in this demonstration that first of all, now you do not need to use directed pick"
+    },
+    {
+      "t": 1201.9,
+      "end": 1212.3,
+      "text": "if the customer or user requires some workhouse capabilities. First of all, you can implement it for different departments individually."
+    },
+    {
+      "t": 1212.3,
+      "end": 1220.6,
+      "text": "Like, okay, let's start with a shipping team because they are most ready and do not touch manufacturing or jobs, et cetera."
+    },
+    {
+      "t": 1220.6,
+      "end": 1232,
+      "text": "Or you can use different policies. For example, here we're using shipping, here we're inventory picks, et cetera. And different combinations, all good. And also, even if we're using the basic workhouse,"
+    },
+    {
+      "t": 1232,
+      "end": 1242.8,
+      "text": "we still can benefit from advanced capabilities like put away templates, picking by ranking, and also allow or do not allow creation of lines"
+    },
+    {
+      "t": 1242.8,
+      "end": 1255.3,
+      "text": "in pick and put away documents if there are some problems. Means we allow or do not allow workhouse employee or workhouse manager to solve problems by themselves. So giving them some control."
+    },
+    {
+      "t": 1255.3,
+      "end": 1266.3,
+      "text": "Also, we have an ability to receive more than ordered, also using inventory put away together with direct update of purchase document or workhouse receipt."
+    },
+    {
+      "t": 1266.3,
+      "end": 1278.9,
+      "text": "This unblocks you and doesn't impact your decision about which process you need to use because all of them supporting overreceive. And if you decided to use directed put away"
+    },
+    {
+      "t": 1278.9,
+      "end": 1291.2,
+      "text": "and pick warehouses, now you need to spend dramatically less time analyzing the nothing to handle situation because you can get more insights from the special troubleshooting window"
+    },
+    {
+      "t": 1291.2,
+      "end": 1296.8,
+      "text": "which gives you all details right away."
+    },
+    {
+      "t": 1296.8,
+      "end": 1307.1,
+      "text": "So if you're interested in workhouse session, probably you're also interested in another technology like it's barcode scanning capabilities. And we have something to present for you."
+    },
+    {
+      "t": 1307.1,
+      "end": 1312,
+      "text": "So take a look at the session about mobile apps."
+    },
+    {
+      "t": 1312,
+      "end": 1323.1,
+      "text": "Also take a look at the session reservation worksheet and fulfillment suggestions. It's about reservation and inventory. So it also might be interesting."
+    },
+    {
+      "t": 1323.1,
+      "end": 1333.6,
+      "text": "I would like also to mention the list of valuable resources. Start with submit your ideas if you have something to say about missing functionality,"
+    },
+    {
+      "t": 1333.6,
+      "end": 1347.7,
+      "text": "both there and ideas really matters. We have a more detailed discussion in a different forum. It's also available for partners. It's a first link in this resource, it's Yammer."
+    },
+    {
+      "t": 1347.7,
+      "end": 1358,
+      "text": "Feel free to join and participate in the design discussions or get information about like what's and how it getting to be implemented."
+    },
+    {
+      "t": 1358,
+      "end": 1362.6,
+      "text": "And because it's only a few out of our different links,"
+    },
+    {
+      "t": 1362.6,
+      "end": 1369.8,
+      "text": "we have one link to link them all. It's a BC all, aka.ms."
+    },
+    {
+      "t": 1369.8,
+      "end": 1381.8,
+      "text": "Go there, explore what you have, what we have there. And so thank you and let's stay in touch. Join Yammer, let's talk there."
+    }
+  ],
+  "markers": [
+    {
+      "t": 0,
+      "text": "[MUSIC]"
+    }
+  ],
+  "word_count": 3178
+}

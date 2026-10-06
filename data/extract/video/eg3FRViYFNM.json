@@ -1,0 +1,809 @@
+{
+  "video_id": "eg3FRViYFNM",
+  "item_id": "video/yt-microsoft/eg3FRViYFNM",
+  "title": "What's new: Productivity features in the web client (2023 release wave 2)",
+  "duration_s": 1856,
+  "systems": [
+    "reporting",
+    "sales",
+    "development"
+  ],
+  "topics": [
+    "navigation",
+    "lookup",
+    "tell me search",
+    "keyboard shortcuts",
+    "company data search",
+    "link sharing",
+    "rich content fields",
+    "error resolution",
+    "actionable messages",
+    "report discovery",
+    "inline validation",
+    "tab naming"
+  ],
+  "chapters": [
+    {
+      "title": "Navigation and Lookup Improvements",
+      "t_start": 0,
+      "t_end": 182.1
+    },
+    {
+      "title": "Tell Me Search and Company Data Discovery",
+      "t_start": 182.1,
+      "t_end": 270.4
+    },
+    {
+      "title": "Lookup Details and Tell Me in Action",
+      "t_start": 270.4,
+      "t_end": 441.1
+    },
+    {
+      "title": "Smart Search Results and Report Discovery",
+      "t_start": 441.1,
+      "t_end": 547.5
+    },
+    {
+      "title": "Link Sharing and Readability",
+      "t_start": 547.5,
+      "t_end": 678.2
+    },
+    {
+      "title": "Web Client Deprecations and Rich Content Fields",
+      "t_start": 678.2,
+      "t_end": 799.5
+    },
+    {
+      "title": "Actionable Errors and Inline Validation Improvements",
+      "t_start": 799.5,
+      "t_end": 959.5
+    },
+    {
+      "title": "Demo - Actionable Errors in Sales Order Workflow",
+      "t_start": 959.5,
+      "t_end": 1198
+    },
+    {
+      "title": "Tab Naming for Multi-Window Context Switching",
+      "t_start": 1198,
+      "t_end": 1279.3
+    },
+    {
+      "title": "Demo - Tab Naming Across Companies",
+      "t_start": 1279.3,
+      "t_end": 1401.3
+    },
+    {
+      "title": "Page Inspection Tool Enhancements",
+      "t_start": 1401.3,
+      "t_end": 1562.8
+    },
+    {
+      "title": "Page Inspector and Table Field Customization",
+      "t_start": 1562.8,
+      "t_end": 1704
+    },
+    {
+      "title": "Analysis Tabs Now Generally Available",
+      "t_start": 1704,
+      "t_end": 1754.2
+    },
+    {
+      "title": "Additional Resources and Mobile Productivity",
+      "t_start": 1754.2,
+      "t_end": 1856
+    }
+  ],
+  "features": [
+    {
+      "name": "Show Details in Lookup Dialogues",
+      "description": "New show details action added to all simple lookup dialogues allowing users to navigate to record details. Works with both mouse and keyboard via the new Control Alt down shortcut.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 100.5,
+      "t_end": 161.1,
+      "is_demoed": true,
+      "caveats": [
+        "Control Alt down keyboard shortcut navigates to card pages or list if card page not available",
+        "No uptake required for partners - built into existing and new code"
+      ],
+      "tags": [
+        "lookup",
+        "keyboard shortcuts",
+        "navigation",
+        "productivity"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Control Alt Down Keyboard Shortcut",
+      "description": "New keyboard shortcut that navigates users directly to related data card pages. Works on both simple and advanced lookups, taking user directly to card rather than non-editable list.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 120.6,
+      "t_end": 140.9,
+      "is_demoed": true,
+      "caveats": [
+        "If no card page exists, navigates to list and filters the selected record"
+      ],
+      "tags": [
+        "keyboard shortcuts",
+        "lookup",
+        "navigation"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Company Data Search via Tell Me",
+      "description": "Users can now search across company data relevant to their role using the Alt Q keyboard shortcut with Tell Me. The focused value on an editable page is automatically copied to Tell Me for searching.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 182.1,
+      "t_end": 258.2,
+      "is_demoed": true,
+      "caveats": [
+        "Tell Me is also available on Business Central mobile app but separate session covers more details",
+        "Search results are optimized and tailored to permissions and user role"
+      ],
+      "tags": [
+        "tell me",
+        "search",
+        "company data",
+        "keyboard shortcuts"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Smart Search Results Page",
+      "description": "Enhanced Tell Me search results page that intelligently opens records in their proper context. For example, finding a purchase order line opens the purchase order page rather than just the line.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 441.1,
+      "t_end": 475.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "search",
+        "tell me",
+        "context-aware"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Explore Reports Link",
+      "description": "New link in Tell Me and Role Center homepage labeled explore reports or all reports that provides an overview of all available reports organized by department or role, adapted from role explorer.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 475.8,
+      "t_end": 526.9,
+      "is_demoed": true,
+      "caveats": [
+        "Based on links from role center homepages to report objects"
+      ],
+      "tags": [
+        "reports",
+        "navigation",
+        "role center"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Improved Link Sharing with Readable Naming",
+      "description": "Business Central web client now uses a consistent and readable naming scheme for shared links to records. Links display clean, human-readable format with just enough context to understand what record they reference.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 547.5,
+      "t_end": 665.8,
+      "is_demoed": true,
+      "caveats": [
+        "Works in rich text editors",
+        "Plain text fields and applications like Windows Notepad still display raw URL"
+      ],
+      "tags": [
+        "sharing",
+        "links",
+        "usability"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Legacy List Views Deprecation Timeline",
+      "description": "Legacy list views will be deprecated and removed from the web client by Update 24, approximately April 2024. Users must migrate legacy list views to the newer model.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 678.2,
+      "t_end": 718.7,
+      "is_demoed": false,
+      "caveats": [
+        "Previous timeline was Update 23",
+        "Community given more time to migrate"
+      ],
+      "tags": [
+        "deprecation",
+        "list views",
+        "timeline"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Automatic Field Value Saving",
+      "description": "Web client will automatically save field values when clicking or tabbing out of a field. This change will be automatically enabled for everyone in Update 24, approximately April 2024.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 718.7,
+      "t_end": 738.7,
+      "is_demoed": false,
+      "caveats": [
+        "Rollout date extended to Update 24, approximately April 2024"
+      ],
+      "tags": [
+        "auto-save",
+        "fields",
+        "timeline"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Rich Content Fields",
+      "description": "Developers can now implement rich content fields natively in AL code without control add-ins. Fields stretch to fill horizontal space, are multi-line with maximum height, and include toolbar with over 25 functions and keyboard shortcuts for formatting, pictures, tables, and pasting content.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 738.7,
+      "t_end": 799.5,
+      "is_demoed": false,
+      "caveats": [
+        "Use cases include product information management, rich annotation of records, social media content authoring"
+      ],
+      "tags": [
+        "rich content",
+        "al development",
+        "fields",
+        "text formatting"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Actionable Error Messages",
+      "description": "Error message dialogues now include actions to help users quickly resolve issues and get guidance on correction. Available since 2023 release Wave 1 July update, with capabilities for checking documents and journals while working.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 839.8,
+      "t_end": 891.7,
+      "is_demoed": false,
+      "caveats": [
+        "Includes checking documents and journals for errors",
+        "Supports bulk application of recommendations via accept recommended action"
+      ],
+      "tags": [
+        "error handling",
+        "user guidance",
+        "posting errors"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Collectible Errors and Check Documents Capability",
+      "description": "Allows users to collect errors and check documents and journals while working, producing interruptions and giving an overview of posting errors.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 859.9,
+      "t_end": 880.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "error collection",
+        "posting errors",
+        "document validation"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Dimension Posting Error Fixes",
+      "description": "Users can now fix dimension code related errors with recommended actions, specifically for dimension posting rules requiring dimension to be the same or blank.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 880.2,
+      "t_end": 959.5,
+      "is_demoed": true,
+      "caveats": [
+        "Only applies to dimension code related errors in first iteration"
+      ],
+      "tags": [
+        "dimensions",
+        "posting rules",
+        "error resolution",
+        "finance"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Custom Error Fixes Interface for AL Developers",
+      "description": "Interface provided for AL developers to add custom fixes for custom errors to achieve parity with actionable error dialogues.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 926,
+      "t_end": 959.5,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "al development",
+        "customization",
+        "error handling"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Inline Validation Dialogue Improvements",
+      "description": "Inline validation dialogues now surface errors during data entry with navigate and fix it actions that either take you to the problem or have Business Central fix it when possible.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 938.2,
+      "t_end": 979.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "validation",
+        "error messages",
+        "data entry"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Refresh and Copy Details Actions in Validation Messages",
+      "description": "Inline validation dialogues now include refresh and copy details actions positioned closer to the error, allowing users to copy and share error details conveniently.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 959.5,
+      "t_end": 1015.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "validation",
+        "error details",
+        "user actions"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Tab Naming for Context and Multi-Window Work",
+      "description": "Consistent naming convention applied to browser tab titles showing context of what is inside each tab, with company badges when configured. Makes tabs more readable and easier to identify at a glance.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1238.6,
+      "t_end": 1279.3,
+      "is_demoed": true,
+      "caveats": [
+        "Company badge appears only if configured in setup"
+      ],
+      "tags": [
+        "multi-window",
+        "tab naming",
+        "browser",
+        "context"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Company Switcher Feature with New Tab Option",
+      "description": "Allows users to open the same page in another company in a new tab with a click, enabling easy comparison of data across companies.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1299.6,
+      "t_end": 1340.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "multi-company",
+        "data comparison",
+        "workflow"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Page Inspection Auto-Scroll to Field Feature",
+      "description": "Clicking or activating a field in the page inspection pane now automatically scrolls that field into view on the page canvas, making it easy to locate fields for editing or modification.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1462.2,
+      "t_end": 1542.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "page inspection",
+        "field navigation",
+        "troubleshooting"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Page Inspection Link to Visual Studio Code",
+      "description": "New link in the page inspection pane allows users to explore the page in Visual Studio Code. Field menu items also provide direct links to code for specific fields.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1562.8,
+      "t_end": 1623.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "page inspection",
+        "visual studio code",
+        "development",
+        "troubleshooting"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Page Inspector Field Search",
+      "description": "Page inspector now has a handy feature to help users get straight to fields on complex pages quickly without needing to manually search through all page elements.",
+      "status": "unclear",
+      "status_evidence_t": 1562.8,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1562.8,
+      "t_end": 1582.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "page inspection",
+        "ui customization"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Adding Source Table Fields to Pages",
+      "description": "New capability to add existing table fields to pages for optimization and layout adjustment. These fields are read-only but allow bringing source table data to the page. Available with update 23.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1643.6,
+      "t_end": 1683.8,
+      "is_demoed": true,
+      "caveats": [
+        "Fields are read-only",
+        "Source table fields only"
+      ],
+      "tags": [
+        "page customization",
+        "source table fields",
+        "read-only",
+        "ui customization"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Make Fields Read-Only",
+      "description": "Users can now make any editable field read-only by locking its editability. This helps clean up pages visually and prevents data entry accidents by protecting certain fields from modification.",
+      "status": "unclear",
+      "status_evidence_t": 1683.8,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1683.8,
+      "t_end": 1704,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "ui customization",
+        "field protection"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Analysis Tabs",
+      "description": "Analysis tabs provide a new way to derive insights from data without switching apps or requiring development. Introduced in preview last wave, now generally available with improvements including shareability, access control, and support for queries.",
+      "status": "ga",
+      "status_evidence_t": 1714,
+      "status_evidence_quote": "last wave we also introduced analysis tabs uh this was released in preview a whole new way of deriving insights from your data without",
+      "status_evidence_verified": true,
+      "t_start": 1704,
+      "t_end": 1774.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "analysis tabs",
+        "data insights",
+        "reporting",
+        "queries"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Analysis Tab Sharing with Hyperlinks",
+      "description": "Users can now share links to analysis tabs with coworkers, with the analysis tab name included in the hyperlink for easy reference and access.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1734.1,
+      "t_end": 1754.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "analysis tabs",
+        "sharing",
+        "collaboration"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Mobile Barcode Scanning",
+      "description": "Mobile apps now support barcode scanning to enable users to be more productive while using Business Central on mobile devices.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1794.2,
+      "t_end": 1806.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "mobile apps",
+        "barcode scanning"
+      ],
+      "system": "platform"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Tell Me",
+      "t": 202.5
+    },
+    {
+      "type": "other",
+      "name": "Role Center",
+      "t": 475.8
+    },
+    {
+      "type": "other",
+      "name": "Role Explorer",
+      "t": 506.9
+    },
+    {
+      "type": "page",
+      "name": "page inspection pane",
+      "t": 1582.9
+    },
+    {
+      "type": "other",
+      "name": "Visual Studio code",
+      "t": 1603
+    },
+    {
+      "type": "query",
+      "name": "query objects",
+      "t": 1754.2
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Mike",
+      "confidence": "high"
+    },
+    {
+      "name": "Ivan",
+      "confidence": "high"
+    },
+    {
+      "name": "Ian",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 100.5,
+      "text": "2023 release Wave 2 brings you 60 to 80% productivity boost in these scenarios depending on whether you prefer to use mouse or keyboard",
+      "why_it_matters": "Quantifies the productivity improvement from lookup enhancements, a key metric for adoption.",
+      "check": "exact"
+    },
+    {
+      "t": 120.6,
+      "text": "new keyboard shortcut was added it's called it's uh control alt down and it navigates the user to the related data definition",
+      "why_it_matters": "Introduces specific keyboard shortcut for navigation, a core feature for power users.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 202.5,
+      "text": "simply press the well-known alt Q to open tell me and start searching for your company data get into company data search through tell",
+      "why_it_matters": "Explains Tell Me enhancement for company data search, making internal data discovery easier.",
+      "check": "exact"
+    },
+    {
+      "t": 698.5,
+      "text": "when update 24 4 which is approximately April 2024 um Legacy list views will go away they will disappear from the web client",
+      "why_it_matters": "Sets hard timeline for deprecation, critical for customers still using legacy list views.",
+      "check": "exact"
+    },
+    {
+      "t": 738.7,
+      "text": "developers can now Implement Rich content Fields uh and do that natively in Al code without having to use control add-ins",
+      "why_it_matters": "Removes development complexity for rich text scenarios, enabling native AL implementation.",
+      "check": "exact"
+    },
+    {
+      "t": 758.7,
+      "text": "each reach Rich content field uh it stretches to fill all of the horizontal space on the screen um it is multi-line uh but",
+      "why_it_matters": "Details rich content field capabilities and toolbar functions available to developers.",
+      "check": "exact"
+    },
+    {
+      "t": 859.9,
+      "text": "the collectible errors and check documents and journals while you work capabilities help produce inter interruptions and give you an overview",
+      "why_it_matters": "Describes a core feature that collects errors for batch processing rather than interrupting users individually, improving workflow efficiency.",
+      "check": "exact"
+    },
+    {
+      "t": 905.5,
+      "text": "in the first iteration we provide users with capability to fix Dimension code related errors when Dimension posting rules require Dimension to be the",
+      "why_it_matters": "Clarifies the specific scope and iteration status of dimension error fixes, indicating this is phase one of a larger feature.",
+      "check": "exact"
+    },
+    {
+      "t": 938.2,
+      "text": "in 2023 release Wave 2 we've also improved inline validation dialogues as they are also a surface they also surface errors during data entry",
+      "why_it_matters": "Establishes that Wave 2 includes inline validation dialogue improvements as a distinct enhancement from Wave 1.",
+      "check": "exact"
+    },
+    {
+      "t": 1258.6,
+      "text": "we've applied the same simple and consistent naming convention also to the title of each Tab and that's very similar to what I showed",
+      "why_it_matters": "Explains the design decision to apply consistent naming across tabs for better user orientation during multi-window work.",
+      "check": "exact"
+    },
+    {
+      "t": 1462.2,
+      "text": "page inspection is a Swiss army knife of sorts uh it helps you understand the underlying data model uh for your your pages uh",
+      "why_it_matters": "Describes the multi-purpose nature of page inspection tool and its primary use cases for developers and technical users.",
+      "check": "exact"
+    },
+    {
+      "t": 1562.8,
+      "text": "page inspector has this handy little feature now to really help you get straight to those fields in no time",
+      "why_it_matters": "Explains the value proposition of the new page inspector search feature for finding fields on complex pages quickly.",
+      "check": "exact"
+    },
+    {
+      "t": 1582.9,
+      "text": "you can now use this new Link in the page inspection pane to explore this page in Visual Studio code",
+      "why_it_matters": "Announces new capability to bridge Business Central web client with AL development environment.",
+      "check": "exact"
+    },
+    {
+      "t": 1643.6,
+      "text": "we're also introducing the ability to add existing table fields to your pages so you",
+      "why_it_matters": "Announces a new capability tied to update 2.3 with specific versioning, indicating forward roadmap commitment.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 1643.6,
+      "text": "we're also introducing the ability to add existing table fields to your pages so you can optimize them",
+      "why_it_matters": "Announces new feature in update 23 for adding table fields to customize pages.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 1643.6,
+      "text": "these fields are not editable so you're really just bringing in Source table fields which are going to be readon you can only view",
+      "why_it_matters": "Clarifies the constraint that added table fields are read-only to protect source data.",
+      "check": "snapped"
+    },
+    {
+      "t": 1683.8,
+      "text": "the ability to make Fields readon this means you take any editable field you can now lock it lock its editability becomes read only",
+      "why_it_matters": "Explains how to protect fields from editing while keeping them visible on the page.",
+      "check": "exact"
+    },
+    {
+      "t": 1714,
+      "text": "last wave we also introduced analysis tabs uh this was released in preview a whole new way of deriving insights from your data without",
+      "why_it_matters": "Confirms promotion of analysis tabs from preview to general availability in this release wave.",
+      "check": "exact"
+    },
+    {
+      "t": 1734.1,
+      "text": "you can actually share um a link to your newly crafted analysis tab with your co-workers again as I mentioned earlier the name of",
+      "why_it_matters": "Highlights new sharing capability for analysis tabs that includes the tab name in the URL.",
+      "check": "exact"
+    },
+    {
+      "t": 1754.2,
+      "text": "finally we're also going Beyond lists um in terms of now applying the same experience also to queries and query objects",
+      "why_it_matters": "Announces expansion of analysis tab support from list pages to query objects.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 258.2,
+      "kind": "other",
+      "text": "Tell Me is also available on Business Central mobile app but there's a separate session that goes into more details on this"
+    },
+    {
+      "t": 698.5,
+      "kind": "subject-to-change",
+      "text": "Legacy list views will go away in update 24, which is approximately April 2024"
+    },
+    {
+      "t": 718.7,
+      "kind": "subject-to-change",
+      "text": "Automatic field value saving will be automatically enabled for everyone in update 24, which is roughly April 2024"
+    },
+    {
+      "t": 1643.6,
+      "kind": "coming-later",
+      "text": "with update 2 3 we're also introducing the ability to add existing table fields to your pages"
+    },
+    {
+      "t": 1714,
+      "kind": "preview",
+      "text": "last wave we also introduced analysis tabs uh this was released in preview"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 20,
+    "quotes_dropped": 0,
+    "evidence_verified": 1,
+    "evidence_unverified": 22
+  },
+  "windows": 3,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.030248000000000004
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.0485887
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.017572
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.035959
+    }
+  ]
+}

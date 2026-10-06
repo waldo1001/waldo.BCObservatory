@@ -1,0 +1,373 @@
+{
+  "video_id": "EVntnDFE1R4",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 20.4,
+      "end": 40.7,
+      "text": "welcome today we will talk about business Central and Power Platform my name is buaji Koto I work as a product manager in business Central Development Center in Copenhagen and hello everyone my name is Monica alja I'm a senior software engineer in business Central team here in Copenhagen today we'll cover various"
+    },
+    {
+      "t": 40.7,
+      "end": 60.8,
+      "text": "aspects of business Central integration with power platforms starting with power automate power apps data vers virtual tables we'll mention of course power pages powerbi and so on and uh that all starts uh with business Central being and running in Microsoft cloud and working closely together with all those Microsoft"
+    },
+    {
+      "t": 60.8,
+      "end": 80.9,
+      "text": "cloud services like Microsoft 365 Azure Power Platform and Dynamics 365 and of course for that for the context of this session we will be looking at Power Platform Power Platform for those of you who don't know is a set of low code development tools tools that help you enhance business"
+    },
+    {
+      "t": 80.9,
+      "end": 101.9,
+      "text": "Central uh and create new experience for customers and that might be powerbi where you can build business analytics charts reports and dashboards power apps where you can build uh mobile or desktop apps power automate that allows you to create automations workflows and various other automated"
+    },
+    {
+      "t": 101.9,
+      "end": 122,
+      "text": "tasks uh then we have also power virtual agents which is a tool allowing you to build chatbot experiences um virtual uh agents uh plug them into your websites into teams and into your apps and then uh last but not least power pages and new uh tool from Power"
+    },
+    {
+      "t": 122,
+      "end": 142.2,
+      "text": "Platform family allowing you to build websites that are externally available and all of that works on top of data verse data verse being Microsoft's data management platform and uh works together with connectors so connectors are are a very important component of Power Platform allowing"
+    },
+    {
+      "t": 142.2,
+      "end": 162.4,
+      "text": "you to build connectivity to various systems and that includes Microsoft's products but also third party products and of course course business Central uh connectors are in that group and as you can see in this wave we actually and changed the icon theme for the business Central connectors so now it is"
+    },
+    {
+      "t": 162.4,
+      "end": 180.7,
+      "text": "easier for you to distinguish the online version from the all their on premises business Central connector let's start with power automate and the enhancements we have done in that area and that all starts from the way you create flow"
+    },
+    {
+      "t": 180.7,
+      "end": 201.3,
+      "text": "you know that in business Central you have the automate group in most of the pages and that's that's where power automate integration is located and right now in this wave we created very easy way to distinguish between between those three different ways of creating power automate flows you will you will see"
+    },
+    {
+      "t": 201.3,
+      "end": 221.3,
+      "text": "approval workflows so the on pages that support uh approvals for instance sales order you will see an action to create an approval uh workflow you will see also a new uh entry point a new action allowing you to create automated flows those flows that run"
+    },
+    {
+      "t": 221.3,
+      "end": 241.6,
+      "text": "in the background and are able to react on various events that might be business events coming from business Central but it might be also some events coming from outside like for instance a message an email that you have received and then the third option is something that you are familiar with but we Chang the name a little bit"
+    },
+    {
+      "t": 241.6,
+      "end": 261.8,
+      "text": "to make sure you it's easy to understand that this creates an action in business Central action bar that starts a power automate flow uh and then can automate something that that that you need to automate in business Central all of those are features enabled in feature management so if you have a business Central"
+    },
+    {
+      "t": 261.8,
+      "end": 282,
+      "text": "tenant or environment that has been upgraded from previous version make sure that you turn on uh this uh integration with power automate and templates in future management uh if you have if you're creating a new uh environment in business Central or a Sandbox environment with preview"
+    },
+    {
+      "t": 282,
+      "end": 302,
+      "text": "version of business Central 2023 wave two this is enabled by default and this is enabled on by default for you and as you see we have a lot of templates and we're talking about templates because we want to focus you uh or Focus your attention on templates and we are giving you a lot of templates"
+    },
+    {
+      "t": 302,
+      "end": 322.2,
+      "text": "and I think Monica has something to say about those right BL so in this release we have not only improved the existing templates but we have also added a lot of new templates in all the categories of flows so for example uh we have added a request approval flow for sales order entity where previously you would set the approval request by email but"
+    },
+    {
+      "t": 322.2,
+      "end": 342.5,
+      "text": "in this one you could also send adaptive card and teams we have added 17 new automated templates that are based on external business events uh so these templates allow to allow the notification on teams whenever an external business event happens for example a customer is blogged or a purchase order is released and so"
+    },
+    {
+      "t": 342.5,
+      "end": 362.8,
+      "text": "on we have also added new instant templates you you might have already seen the block the selected scenario in instant templates now we have added three more which includes scheduling a visit creating summary email and summarizing inventory for item from all the companies so so that that was about the templates thank you"
+    },
+    {
+      "t": 362.8,
+      "end": 383,
+      "text": "Monica when we talking about templates uh you can create a flow based on the template and actually as you have seen we have plenty new templates in the Box we will be for sure adding more but you might want to edit that template and and uh uh create some adjustments to it and we will see that later on in the demo"
+    },
+    {
+      "t": 383,
+      "end": 402.2,
+      "text": "the templates that we uh that we provided for approvals have been also changed so they are not completely new but they have been uh changed and some new capabilities are added to those I think it will be best to show it in a demo Monica yeah let's see the demo for the simplified automate approval template"
+    },
+    {
+      "t": 402.2,
+      "end": 422.3,
+      "text": "experience so let's start with the flow that I created based on an existing approval template and as you can see it is massive so let me just zoom in so uh we are made plenty of improvements in this uh template let's start with the first one previously the the requestor uh that would show up for the"
+    },
+    {
+      "t": 422.3,
+      "end": 442.6,
+      "text": "approver will always be the creator of the flow no matter who actually requested the approval request so now we have improved that by actually adding the real requesters email in the uh approval action but not only that we are actually getting all the details of the requester and passing it along in the mail"
+    },
+    {
+      "t": 442.6,
+      "end": 463,
+      "text": "that the approver gets so approver knows who the requester is that's one of the improvements that we have made to this template another one is now we are supporting the cancel scenario uh apart from approve and reject so we have Expos the cancel action as the endo and uh now when the requestor"
+    },
+    {
+      "t": 463,
+      "end": 483.2,
+      "text": "cancels the approval for any reason then that will be also supported please remember that these templates are just the basis uh or examples that you can start from you can always modify anything on these templates as per your need let's say for example you can add an action where you want to add an item to a SharePoint"
+    },
+    {
+      "t": 483.2,
+      "end": 503.3,
+      "text": "so you could just go ahead and click in action and change as per the need so in this case we will go and search for SharePoint and we can say uh I would like to create an item on the SharePoint so that's how it simple it is thank you Monica that was very interesting as you have seen Monica is creating"
+    },
+    {
+      "t": 503.3,
+      "end": 523.4,
+      "text": "some additional experiences in those templates and playing with the maker experience and we made it much easier in this wave to manipulate flows and create flows that uh later on when you run them uh are working with different companies and different environments yes you're right BL"
+    },
+    {
+      "t": 523.4,
+      "end": 543.8,
+      "text": "so in this way you don't even need to specify company to list API categories or tables for any action or trigger of the connector but not only that you actually get all the metadata details without specifying the company so now you can use just a standard variable for for specifying the company ID and then make flows that can run in context"
+    },
+    {
+      "t": 543.8,
+      "end": 564.3,
+      "text": "of different companies uh we also support the use of data was environment variables for environments which means that uh uh now that the Alm story for algo for GitHub also supports environment variables but talking about companies and environments what other Improvement have we done"
+    },
+    {
+      "t": 564.3,
+      "end": 584.4,
+      "text": "we have now added a new action in the connector called list companies it allows you to get all the business Central companies for a given environment so basically now you can enable flows that flows data across the companies let me just quickly show you a demo for this to show you all the improvements that"
+    },
+    {
+      "t": 584.4,
+      "end": 608.3,
+      "text": "we have done for the maker experience I'm starting with the solution where I have defined an environmental variable called BC environment and as you have seen that we I have also added a default value of my current production name to this so let's see how how we can use this for better makers experience I'll go ahead and create an instant"
+    },
+    {
+      "t": 611.2,
+      "end": 620,
+      "text": "flow and we can now look for the new action that we have"
+    },
+    {
+      "t": 622.7,
+      "end": 642.9,
+      "text": "added it's called list companies and you can see that it only asks for environment as an input and provides the list of companies for that environment and normally you could just add the predefined environments but uh you could now also use the"
+    },
+    {
+      "t": 642.9,
+      "end": 654.9,
+      "text": "environment variable that data was provides so in this case I'm going to do that and let's see how the further metadata is"
+    },
+    {
+      "t": 654.9,
+      "end": 675.7,
+      "text": "created so right now I'm just going ahead and creating record and you can see that uh I can use the environment variable again for the environment but now without even specifying the company I can already fetch the API categories this wasn't possible before"
+    },
+    {
+      "t": 675.7,
+      "end": 695.9,
+      "text": "and not only that I can also fetch the tables that are available for this API category and all the metadata that exist for that particular table so that what does that mean that means now we can use the normal variables to Define this but not only that we can also use the output of list"
+    },
+    {
+      "t": 695.9,
+      "end": 715.9,
+      "text": "company so we can go through each of this company to create a record in any all of these companies so in this case I am using the output from list companies and that's how simple now creating a flow is thank you Monica that was super interesting imagine what you can build right now with those new tools one more thing that we added"
+    },
+    {
+      "t": 715.9,
+      "end": 735.9,
+      "text": "to the connector we have added that already around some summer time so you can you could have seen that in the connector is an trigger to react on business events the concept of business events is is new in business Central and it's still in preview but that allows you to react on special code"
+    },
+    {
+      "t": 735.9,
+      "end": 756,
+      "text": "or special events that happen in your code we have created several uh business events from in our app from Microsoft but you as a partner are able to create a new event using a new Al construct and then you use a power automate trigger when a business event occurs or"
+    },
+    {
+      "t": 756,
+      "end": 776.1,
+      "text": "if you're using virtual tables if you're visualizing our data you can also use the data verse trigger uh and react on those business events uh that event passes a specific context to power automate for instance a document ID this business event can be triggered from any company it could be a specific"
+    },
+    {
+      "t": 776.1,
+      "end": 796.2,
+      "text": "company or all companies so you can react on a specific business event coming from any company in a given environment that can be quite powerful super and connector also supports latest versions of business events right yes I've heard about that let's see that in action yes let's see the demo for this for"
+    },
+    {
+      "t": 796.2,
+      "end": 816.2,
+      "text": "this demo we will start with business Central client so we'll start with the single Consolidated place for creating approvals based on templates that BL had referred in the previous slides and you can see there are three three options available for business events based templates we will select create automated flow"
+    },
+    {
+      "t": 816.2,
+      "end": 836.4,
+      "text": "and now it opens a template Gallery where you can see all the templates for the given entity that are based on automated flow is something similar that will also happen for other actions but that will be based on instant or approvals depending on the action you have chosen so in this case we right now have two templates that uh will that"
+    },
+    {
+      "t": 836.4,
+      "end": 851.1,
+      "text": "basically notifies on teams whenever a customer is blocked or unblocked so basically whenever these particular business events happen let me just go ahead and create a flow based on one of these"
+    },
+    {
+      "t": 851.1,
+      "end": 871.5,
+      "text": "templates so this one is smart enough to recognize what are the connections needed so it's only business Central and teams to notify and then basically it ask you which team and channel you want to uh get notified to when the customer is blocked so let's just go ahead and select Communications team"
+    },
+    {
+      "t": 871.5,
+      "end": 885.1,
+      "text": "and then it will pop up all the channels available it's only General so let's select that and click create flow that's how simple it was to create the template so now we will just go ahead and block the"
+    },
+    {
+      "t": 885.1,
+      "end": 905.4,
+      "text": "customer so I'll block this one as you can see this is not blocked so we'll just go ahead and block it and let's see what happens on the team side so on the team side you can see that I have received an Adaptive card which gives me the details of the customer card and it also adds a special header that says"
+    },
+    {
+      "t": 905.4,
+      "end": 925.5,
+      "text": "customer has been blocked let's see how it looks on the automate site so here here you can see a new flow has been created for notifying on teams when a customer is blocked let's just see what are the details of this flow so you can see that this flow is based on the when a"
+    },
+    {
+      "t": 925.5,
+      "end": 946.3,
+      "text": "business event occurs which is an trigger that we use to identify all the business events in this case we are saying customer blocked but there's also the business all other business events that are available out of the box and as a partner you can also add more business events and then it will automatically recognize those available business"
+    },
+    {
+      "t": 946.3,
+      "end": 966.7,
+      "text": "events but what else is there we're now extracting the particular customer who is blocked and then we are getting the Adaptive card but now we're doing a small trick to actually change the output of the Adaptive card card which allows us to add the header saying that the customer is blocked and then we are posting it in the channel that's how simple it is"
+    },
+    {
+      "t": 966.7,
+      "end": 986.9,
+      "text": "thank you let's have a look at few other things so this first one is about uh notifications that come from business Central to power automate based on web hooks before there was a limit of 100 rows only and right now it's uh 1,000 so we changed that 10f and that allows you to build flows that react"
+    },
+    {
+      "t": 986.9,
+      "end": 1007.1,
+      "text": "on bulk changes when you change a lot of data at the same time and that of course opens new scenarios the other thing that we want would like to mention is V2 actions you have seen in our connector that are actions the current actions called V3 and then of course some old actions uh designated"
+    },
+    {
+      "t": 1007.1,
+      "end": 1027.8,
+      "text": "V2 from December this year all of those V2 actions will be hidden and you won't be able to see them again uh but for the flows that are running that are in production this they will continue to work we are not disturbing you but if you edit the edit those flows you will have to update to version three"
+    },
+    {
+      "t": 1027.8,
+      "end": 1044.4,
+      "text": "we would actually encourage you uh to to do it before December and change and update your flows and always use the latest versions of the of the actions so this change this this this notification or the change of this uh will be happening in"
+    },
+    {
+      "t": 1044.4,
+      "end": 1064.4,
+      "text": "December okay let's switch there to powerups we talk about power apps and two different types of power apps that work with business Central we're talking about canvas apps where you have full control over the UI but you have to build that UI and that's those types of power apps are usually uh designed for mobile experience"
+    },
+    {
+      "t": 1064.4,
+      "end": 1084.5,
+      "text": "for desktop for phones or tablets and then they work with business Central through our connector all through dataverse virtual tables and then the second type of the power apps is model driven apps which are based on a database model and that requires data versus virtual tables but let's talk"
+    },
+    {
+      "t": 1084.5,
+      "end": 1104.6,
+      "text": "about the canvas apps the apps that are designed for mobile and we have added some interesting things in this wave to uh to the experience for for partners yes Monica that's absolutely right BL not only we have updated the documentation but in this release we are adding new sample apps so you can"
+    },
+    {
+      "t": 1104.6,
+      "end": 1125.3,
+      "text": "get started fast and we are also providing the get started guidance on how to make the app look good easy to maintain and properly engineer let's talk about data vers virtual tables this is a technology that allows you to virtualize data from business Central so that it appears in data verse almost as native tables"
+    },
+    {
+      "t": 1125.3,
+      "end": 1145.4,
+      "text": "and then of course it allows you to build Rich Integrations with dataverse apps or apps that are running on data verse and that might be other Dynamic 365 apps but but it might be also some custom app apps that you have built in this wave we made it much easier to get started so when you are when you are starting from"
+    },
+    {
+      "t": 1145.4,
+      "end": 1165.5,
+      "text": "business Central you go to assisted setup and you enable data vers virtual tables right now you can easily choose which virtual tables or which tables would you would like to visualize and just enable them uh one by one or even you can select multiple and enable them uh in uh from"
+    },
+    {
+      "t": 1165.5,
+      "end": 1182.4,
+      "text": "within business Central what is also important that this technology virtual tables for business Central uh is going to be generally available later this year so you can start building more robust uh Solutions based on that"
+    },
+    {
+      "t": 1182.4,
+      "end": 1202.8,
+      "text": "technology speaking of virtual tables we need to mention power Pages power pages is a new product coming from from Power Platform and in later in this year we will um deliver a preview version of our integration Based on data vers virtual tables"
+    },
+    {
+      "t": 1202.8,
+      "end": 1222.8,
+      "text": "that means you will be able to build uh portals or uh websites that are exposed externally that are available to your customer so think about B2B scenarios uh because power Pages enables uh authenticated access for external users and there is a way of map"
+    },
+    {
+      "t": 1222.8,
+      "end": 1243,
+      "text": "those external users to your customers you can think about building portals where your customer can see data related to them only we will provide more details around this technology around November time frame H and of course this will be a a preview optin experience at the beginning"
+    },
+    {
+      "t": 1243,
+      "end": 1260.3,
+      "text": "and we will be looking for feedback from you Partners through our Yammer Community we will talk about Yammer in a moment you will also find a separate recording uh talking about power pages and data vers virtual tables and this technology in this uh event"
+    },
+    {
+      "t": 1260.3,
+      "end": 1280.4,
+      "text": "let's talk about powerbi in powerbi uh embed experience which you will see in business Central we have made some significant changes to make it easier for you to control what you see and how you see especially when you see uh reports of dashboards that are full screen or larger you can control uh how the"
+    },
+    {
+      "t": 1280.4,
+      "end": 1300.4,
+      "text": "page opens up uh you control control the zoom level you can control pages and those pages are remembered so it's easier to return back to your specific report that you choose we also support powerbi scorecard so right now if you built a scorecard it is also view viewable from within business Central and we"
+    },
+    {
+      "t": 1300.4,
+      "end": 1314.7,
+      "text": "also added some uh components in Al that allow you to control that from your code from Al code and there is also a separate recording in this event that talks about this"
+    },
+    {
+      "t": 1314.7,
+      "end": 1334.8,
+      "text": "experience to summarize in business Central integration with Power Platform we offer multiple Technologies starting with powerbi and powerbi connector through our standard Core Power Platform connector allowing you to work with power apps power automate Azure logic apps as"
+    },
+    {
+      "t": 1334.8,
+      "end": 1355.2,
+      "text": "well and of course uh the rest of Power Platform we offer data vers virtual tables that virtualizes uh data into Data verse that supports that will support power pages natively as I mentioned a moment ago and then we also offer data sync which is a technology that allows you to sync"
+    },
+    {
+      "t": 1355.2,
+      "end": 1375.3,
+      "text": "data to data verse and that is mostly to connect to other thir uh Dynamics 365 products if you have any questions about the that integration we have a special Yammer group for Power Platform and data verse on our in our Yammer community of course we are always in our social"
+    },
+    {
+      "t": 1375.3,
+      "end": 1395.5,
+      "text": "media Twitter X LinkedIn and so on uh if you're looking for anything aka. m/b is your link and of course always submit ideas through our ideas site we have also uh couple of times a year um open Office hours or office hour calls for Power"
+    },
+    {
+      "t": 1395.5,
+      "end": 1412.3,
+      "text": "Platform and uh there is one in the next couple of months so please tune in to those and ask any questions related to Power Platform integration over there and I think that will be it from us in this recording thank you very much thank"
+    },
+    {
+      "t": 1412.3,
+      "end": 1413,
+      "text": "you"
+    }
+  ],
+  "markers": [
+    {
+      "t": 2.1,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 3710
+}

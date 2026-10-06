@@ -5,12 +5,59 @@
   "tier": "official",
   "title": "What's New: Resource Governance for Business Central Online (2023 release wave 2)",
   "url": "https://www.youtube.com/watch?v=9PWBpwv4LhQ",
-  "published_at": null,
+  "published_at": "2023-12-22T14:10:33.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:30:42.328Z",
+      "captions": "auto:en-orig",
+      "duration_s": 1560
+    },
+    "captioned": {
+      "at": "2026-10-06T21:30:48.646Z",
+      "path": "data/captions/microsoft/9PWBpwv4LhQ.vtt",
+      "vtt_sha256": "b45211e0796fb09f4f6e70c30cf1daf7764ba77ee507d8c7c7654ed6a657f139",
+      "segments": 78,
+      "words": 4294,
+      "lang": "en-orig",
+      "kind": "auto"
+    },
+    "extracted": {
+      "at": "2026-10-06T21:32:29.933Z",
+      "path": "data/extract/video/9PWBpwv4LhQ.json",
+      "prompt": "extract-video@1",
+      "windows": 2,
+      "features": 14,
+      "quotes": 12,
+      "quotes_dropped": 0,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.099478
+    },
+    "summarized": {
+      "at": "2026-10-06T21:32:37.097Z",
+      "path": "data/summary/video/9PWBpwv4LhQ.json",
+      "prompt": "summarize-video@2",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": 0.021826400000000003
+    },
+    "linked": {
+      "at": "2026-10-06T21:32:37.098Z",
+      "systems": [
+        "platform",
+        "administration"
+      ],
+      "topics": 12,
+      "objects_as_heard": 2
+    },
+    "published": {
+      "at": "2026-10-06T21:32:37.113Z",
+      "path": "content/videos/9PWBpwv4LhQ.md"
     }
   },
   "input_hash": null,
@@ -19,7 +66,14 @@
   "meta": {
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 475,
-    "duration_s": 1561,
-    "via": "reconcile"
-  }
+    "duration_s": 1560,
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "98edf16b9d228b1308936ec7b5dfb10a467b08469192a49b6c5311d802afe5c5"
 }

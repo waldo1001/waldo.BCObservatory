@@ -1,0 +1,574 @@
+{
+  "video_id": "iHgaNJucyvI",
+  "item_id": "video/yt-microsoft/iHgaNJucyvI",
+  "title": "What's new: Add existing table fields to pages (2023 release wave 2)",
+  "duration_s": 1737,
+  "systems": [
+    "development",
+    "administration",
+    "sales"
+  ],
+  "topics": [
+    "add table fields to pages",
+    "role customization",
+    "personalization",
+    "page design",
+    "field discovery",
+    "field filtering",
+    "read-only fields",
+    "table fields",
+    "no-code customization",
+    "permissions",
+    "developer controls",
+    "page customizations"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to UI customization and the new capability",
+      "t_start": 0,
+      "t_end": 139.6
+    },
+    {
+      "title": "Session agenda overview",
+      "t_start": 139.6,
+      "t_end": 180.5
+    },
+    {
+      "title": "User experience enhancements in update 23",
+      "t_start": 180.5,
+      "t_end": 220.7
+    },
+    {
+      "title": "Demo: personalization with enhanced field discovery",
+      "t_start": 220.7,
+      "t_end": 436.1
+    },
+    {
+      "title": "Demo: adding and dragging fields on pages",
+      "t_start": 436.1,
+      "t_end": 580
+    },
+    {
+      "title": "Demo: read-only fields and data integrity",
+      "t_start": 580,
+      "t_end": 734.4
+    },
+    {
+      "title": "Adding existing table fields to pages in preview",
+      "t_start": 734.4,
+      "t_end": 887.2
+    },
+    {
+      "title": "Adding table fields to pages and read-only behavior",
+      "t_start": 887.2,
+      "t_end": 988
+    },
+    {
+      "title": "Testing in sandbox and importing to production",
+      "t_start": 988,
+      "t_end": 1070
+    },
+    {
+      "title": "Safety mechanisms: permissions and developer controls",
+      "t_start": 1070,
+      "t_end": 1163
+    },
+    {
+      "title": "Caveats and limitations of the feature",
+      "t_start": 1163,
+      "t_end": 1283
+    },
+    {
+      "title": "Scenarios requiring extensions instead",
+      "t_start": 1283,
+      "t_end": 1413
+    },
+    {
+      "title": "Page inspection tools for developers",
+      "t_start": 1413,
+      "t_end": 1555
+    },
+    {
+      "title": "Page customizations implementation and summary",
+      "t_start": 1555,
+      "t_end": 1671
+    },
+    {
+      "title": "Related features and closing remarks",
+      "t_start": 1671,
+      "t_end": 1737
+    }
+  ],
+  "features": [
+    {
+      "name": "Add existing table fields to pages",
+      "description": "Capability to add any fields from the source table to a page, not just recommended fields. Allows consultants, administrators, and users to customize existing pages without code by selecting fields from the entire table. Added fields appear as read-only.",
+      "status": "preview",
+      "status_evidence_t": 774.4,
+      "status_evidence_quote": "we are launching this capability in preview with update 23",
+      "status_evidence_verified": true,
+      "t_start": 754.4,
+      "t_end": 947.6,
+      "is_demoed": true,
+      "caveats": [
+        "Only available in role customization, not personalization",
+        "Cannot unlock fields that developers intentionally locked for data integrity",
+        "Added fields are read-only only",
+        "May require page refresh to load data in some cases",
+        "Not available organization-wide, limited to individual roles",
+        "Flow fields can impact performance if many are added",
+        "Field will not show if source table field is removed in future"
+      ],
+      "tags": [
+        "customization",
+        "page design",
+        "no-code",
+        "table fields",
+        "role customization",
+        "read-only"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Enhanced field discovery with tooltips",
+      "description": "New tooltips show field caption, data type, alternate names, whether field is visible on page, and where the field originates from. Helps users understand field context when customizing pages.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 238.7,
+      "t_end": 420,
+      "is_demoed": true,
+      "caveats": [
+        "Applies to personalization, role customization, and extension designer"
+      ],
+      "tags": [
+        "field discovery",
+        "tooltips",
+        "user experience",
+        "transparency"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Advanced filtering for field selection",
+      "description": "Filter controls to find fields more efficiently when working with large tables having 100+ or 200+ fields. Filters include table binding, page controls, base objects vs extensions, and visibility. New advanced filter option displays fields not on the page object.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 180.5,
+      "t_end": 887.2,
+      "is_demoed": true,
+      "caveats": [
+        "Helpful for large tables but may be complex for simple pages",
+        "Only available during role customization, not for personal personalization"
+      ],
+      "tags": [
+        "large tables",
+        "filtering",
+        "field discovery",
+        "scalability",
+        "advanced filters"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Lock and unlock field editability",
+      "description": "Ability to make table fields read-only on pages by locking editing. Prevents accidental data entry and creates visual focus on editable fields. Can only unlock fields that developers have not locked for data integrity.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 640.6,
+      "t_end": 734.4,
+      "is_demoed": true,
+      "caveats": [
+        "Cannot unlock fields developers intentionally locked to preserve data integrity",
+        "Only available for fields already added to page"
+      ],
+      "tags": [
+        "read-only",
+        "data integrity",
+        "editability",
+        "page customization"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Drag and drop field placement",
+      "description": "Users can drag and drop fields to place them in custom locations on pages, rather than only the developer-recommended position. Shows visual hint of drop location.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 541,
+      "t_end": 620.2,
+      "is_demoed": true,
+      "caveats": [
+        "Works in personalization and role customization"
+      ],
+      "tags": [
+        "page design",
+        "user experience",
+        "field placement",
+        "customization"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Persistent search and filter state",
+      "description": "Business Central preserves search terms and filter selections when navigating between pages, allowing users to continue similar customizations across multiple pages without re-entering filters.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 599.8,
+      "t_end": 640.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "user experience",
+        "search",
+        "filtering",
+        "cross-page consistency"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Field data masking for extended data types",
+      "description": "When adding table fields to pages, data is masked for extended data types like passwords. The field value will be masked in both the page inspector and the added field on the page.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1282.6,
+      "t_end": 1302.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "security",
+        "data masking",
+        "extended data types"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Add table field to page permission",
+      "description": "New permission called add table field to page in the D365 Profile Management permission set. Administrators must grant this permission before users can add table fields to pages via customization.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1122.9,
+      "t_end": 1143.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "permissions",
+        "security",
+        "role management"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Allow customizations property on table fields",
+      "description": "New table field property that developers can set to never or always to control whether the field can be added to pages via customization. Setting to never removes the field from the customization interface.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1143.2,
+      "t_end": 1203.6,
+      "is_demoed": true,
+      "caveats": [
+        "Developer setting changes apply instantly in the UI",
+        "If set to never after field was added, the field is removed from UI"
+      ],
+      "tags": [
+        "developer control",
+        "opt-out",
+        "security"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Sandbox testing and production import of role customizations",
+      "description": "Administrators can test role customizations in a sandbox environment and then export and import them to production at the appropriate time. Provides safety mechanism to validate changes before deployment.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 967.7,
+      "t_end": 1008.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "testing",
+        "deployment",
+        "safety",
+        "sandbox"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Page customizations in AL",
+      "description": "Developers can use page customizations AL implementation to add table fields and groups to pages. Recommended for simple scenarios where no additional functionality or code is needed.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1571.8,
+      "t_end": 1610.4,
+      "is_demoed": false,
+      "caveats": [
+        "Page extensions still recommended for scenarios requiring functionality and code",
+        "Limited to adding fields as read-only without additional behavior"
+      ],
+      "tags": [
+        "al development",
+        "page customizations",
+        "developer tools"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Explore in Visual Studio Code",
+      "description": "Page inspection tool that provisions Visual Studio Code with all extensions contributing to a page. Allows inspection of source code to determine if a page has specific functionality not available on the table field.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1454.3,
+      "t_end": 1534.6,
+      "is_demoed": true,
+      "caveats": [
+        "Requires Visual Studio Code to be installed",
+        "Useful mainly for consultants and developers who can read code"
+      ],
+      "tags": [
+        "developer tools",
+        "page inspection",
+        "visual studio code"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Page customizations troubleshooting page",
+      "description": "Utility page that shows issues with page customizations. Administrators can use this to diagnose problems and rectify issues with fields that have been added to pages.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1266.5,
+      "t_end": 1282.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "troubleshooting",
+        "diagnostics",
+        "page customizations"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Analysis views for custom data insights",
+      "description": "Capability to get custom data insights using analysis views.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1671,
+      "t_end": 1691.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "analysis views",
+        "data insights"
+      ],
+      "system": "reporting"
+    }
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "vendor table",
+      "t": 359.3
+    },
+    {
+      "type": "page",
+      "name": "vendor list",
+      "t": 220.7
+    },
+    {
+      "type": "page",
+      "name": "vendor card",
+      "t": 599.8
+    },
+    {
+      "type": "page",
+      "name": "posted sales invoices",
+      "t": 826.3
+    },
+    {
+      "type": "permissionset",
+      "name": "D365 Profile Management",
+      "t": 1122.9
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Peter",
+      "confidence": "high"
+    },
+    {
+      "name": "Mike",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 59,
+      "text": "this addition to our UI customization tooling which is the ability to add existing table fields to your pages",
+      "why_it_matters": "States the core new feature being introduced in this session",
+      "check": "snapped"
+    },
+    {
+      "t": 99.3,
+      "text": "one of the most highly voted community ideas of all time yes i think it's amongst the top two in fact six",
+      "why_it_matters": "Demonstrates strong customer demand for this capability as a top community request",
+      "check": "fuzzy"
+    },
+    {
+      "t": 200.7,
+      "text": "we have some tables that have more than 100 Fields more than 200 Fields as well so we're also supporting scale here",
+      "why_it_matters": "Explains the importance of filtering and search for handling large, complex tables",
+      "check": "exact"
+    },
+    {
+      "t": 701,
+      "text": "the developer has already defined on this page for example the balance field here this field is never meant to be editable",
+      "why_it_matters": "Explains the design decision to prevent unlocking fields developers intentionally locked for data safety",
+      "check": "fuzzy"
+    },
+    {
+      "t": 754.4,
+      "text": "we're really empowering customers to pick from any fields from that Source table that powers the page including extensions and bring that in into",
+      "why_it_matters": "Clarifies that the new capability allows access to all table fields, not just recommended ones",
+      "check": "exact"
+    },
+    {
+      "t": 774.4,
+      "text": "we are launching this capability in preview with update 23",
+      "why_it_matters": "Confirms the preview status and release timing of the main feature",
+      "check": "exact"
+    },
+    {
+      "t": 826.3,
+      "text": "notice one very significant change which is the filter now says all Fields It also says in preview",
+      "why_it_matters": "Establishes that the feature is in preview and describes the key change in the interface when customizing roles versus personalization.",
+      "check": "exact"
+    },
+    {
+      "t": 927.6,
+      "text": "every table field you add will be readon uh in most cases it'll also load up the data for that field instantly",
+      "why_it_matters": "Clarifies the read-only constraint and data loading behavior for added fields, which is a critical limitation.",
+      "check": "exact"
+    },
+    {
+      "t": 1028.9,
+      "text": "this is for role customization only right we focus on the users who naturally already have some degree of technical understanding",
+      "why_it_matters": "Defines the scope of the feature as role customization only, limiting it to consultants and administrators rather than end users.",
+      "check": "exact"
+    },
+    {
+      "t": 1143.2,
+      "text": "we created a new property on table field which is called allowing customizations which you can set to never or always",
+      "why_it_matters": "Introduces the developer control mechanism to opt out fields from customization, addressing safety concerns.",
+      "check": "exact"
+    },
+    {
+      "t": 1226.4,
+      "text": "if you add a lot of flow fields to one single page that could have a performance impact",
+      "why_it_matters": "Warns of a specific performance caveat when adding flow fields with calculations.",
+      "check": "exact"
+    },
+    {
+      "t": 1302.8,
+      "text": "this functionality does not replace extensions because you can still do U many you know scenarios um or more complicated scenarios in extensions",
+      "why_it_matters": "Clarifies the scope and limitations of this feature compared to traditional extensions.",
+      "check": "exact"
+    },
+    {
+      "t": 1590.3,
+      "text": "as a developer you can now also add page fields and groups in this way um but again you know for most scenarios the",
+      "why_it_matters": "Clarifies that while developers can use page customizations to add fields, page extensions remain the preferred approach for complex functionality.",
+      "check": "exact"
+    },
+    {
+      "t": 1630.6,
+      "text": "showed you the ability to add existing table fields to a page to allow both consultants and administrators and end users you know a",
+      "why_it_matters": "Confirms the core feature is available to multiple user roles without requiring code.",
+      "check": "exact"
+    },
+    {
+      "t": 1650.7,
+      "text": "this is such a powerful combination of features uh that we have today uh especially for Consultants right and we've also given control uh",
+      "why_it_matters": "Emphasizes security controls are in place to protect the system while enabling user customization.",
+      "check": "exact"
+    },
+    {
+      "t": 1691.2,
+      "text": "adding an existing field from the table to the page originated as a community idea so if you've got more great ideas that can",
+      "why_it_matters": "Indicates the feature came from customer feedback, encouraging continued community input.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 774.4,
+      "kind": "preview",
+      "text": "we are launching this capability in preview with update 23"
+    },
+    {
+      "t": 826.3,
+      "kind": "preview",
+      "text": "also says in preview as I mentioned earlier"
+    },
+    {
+      "t": 1554.3,
+      "kind": "other",
+      "text": "we actually renamed that session so it's not called what's new inh but what's new in developer tools"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 16,
+    "quotes_dropped": 0,
+    "evidence_verified": 1,
+    "evidence_unverified": 13
+  },
+  "windows": 3,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.02543
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.0496221
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.011861
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.025866
+    }
+  ]
+}

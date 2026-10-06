@@ -1,0 +1,503 @@
+{
+  "video_id": "eg3FRViYFNM",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 19.5,
+      "end": 39.7,
+      "text": "hello and welcome our customers tell us that they want more data more productivity with less keystrokes and less mouse Clicks in this session we're going to show you some of the highlights from business Central's 2023 release Wave 2 where we've improved the web client in terms of these kind of productivity features and it's mostly based on your feedback uh my name is Mike"
+    },
+    {
+      "t": 39.7,
+      "end": 60.1,
+      "text": "borj Cardon I'm a product manager at Microsoft and today I'm joined by my colleague Ivan also a product manager at Microsoft and in this session we'll cover how to get to your data more quickly uh we'll look at new ways to really dig into the details of your data um whether you're performing quick analytical tasks or maybe troubleshooting"
+    },
+    {
+      "t": 60.1,
+      "end": 80.4,
+      "text": "some kind of configuration error and we'll sneak in a few good to know tips as well along the way in relation to the web client so let's dive into our first topic which is navigation um our users spend a good part of their day uh going from page a to page B from record one to record two navigating around business Central"
+    },
+    {
+      "t": 80.4,
+      "end": 100.5,
+      "text": "to get their tasks done uh so we really want to help them get around more quickly and more reliably so to help me tell the story here is Ian so thanks Mike I'm so excited to be part of this session and to show you how to get to your data faster when using business Central every single one of our users looks up"
+    },
+    {
+      "t": 100.5,
+      "end": 120.6,
+      "text": "related data be through a simple or Advanced lookup some of them simply simply pick values to enter While others use them to get to record details 2023 release Wave 2 brings you 60 to 80% productivity boost in these scenarios depending on whether you prefer to use mouse or keyboard when looking"
+    },
+    {
+      "t": 120.6,
+      "end": 140.9,
+      "text": "up related data details you must be wondering how well we've added show details to all simple lookup dialogues so that users that love using Mouse to navigate to record details can utilize that new keyboard shortcut was added it's called it's uh Control Alt down and it navigates the user"
+    },
+    {
+      "t": 140.9,
+      "end": 161.1,
+      "text": "to the related data definition this keyboard shortcut works on simple and advanced lookups with records that have card Pages or not you can think of it this way the alt down that you currently use for lookup will take you to a noneditable list and the new Control Alt down will take you directly to a card great news for our"
+    },
+    {
+      "t": 161.1,
+      "end": 182.1,
+      "text": "partners is that there is no uptake of this it's just there in your existing and your new code in 2023 release Wave 2 well this is one of the ways to get your data faster in 2022 to release Wave 2 uh let's see what else is there"
+    },
+    {
+      "t": 182.1,
+      "end": 202.5,
+      "text": "nothing beats search in terms of getting to your data fast research shows that users spend up to 20% of their working time searching for information finding specific information in a timely manner across different areas of business management solution often requires tailored queries within its different parts because of the volume of the data"
+    },
+    {
+      "t": 202.5,
+      "end": 222.6,
+      "text": "constantly increases it's becoming increasingly important to get to the relevant content fast so business Central allows you to search across company data that's relevant for your role and not just business transactions and in 2023 release Wave 2 in a very familiar way so simply press the well-known alt Q"
+    },
+    {
+      "t": 222.6,
+      "end": 238.1,
+      "text": "to open tell me and start searching for your company data get into company data search through tell me improves discoverability of this capability and aligns business Central with user experiences that you're used to in other Microsoft and Dynamics 365"
+    },
+    {
+      "t": 238.1,
+      "end": 258.2,
+      "text": "products when on editable page currently focused Fields value is automatically copied to tell me enabling you to search across company data that's relevant for your role and data that you have access to optimized search result page also allows you to focus on search results while making sure search"
+    },
+    {
+      "t": 258.2,
+      "end": 270.4,
+      "text": "is performant and can easily be tailored to your needs and with this release tell me is also available on business Central mobile app but there's a separate session that goes into more details on this"
+    },
+    {
+      "t": 270.4,
+      "end": 290.9,
+      "text": "let's see these improvements in action as slides and screenshots are just not enough to show how powerful they are we'll start in the sales orders list and the thing that you might have noticed is we have this sort of Peak View that allows you to to get to to details of record and it's pretty convenient even if you're using keyboard you can simply"
+    },
+    {
+      "t": 290.9,
+      "end": 311.4,
+      "text": "press enter and another enter it will take you to the card right this is a sort of a list and non-editable uh card page uh experience as this works only with a non-editable pages but let's say that you want to uh have a look at some data uh while you are editing a sales order"
+    },
+    {
+      "t": 311.4,
+      "end": 331.6,
+      "text": "the first thing that you will notice when you open the lookup right there is this new show details action which takes you directly to the customer card what you can also do as I've uh explained previously you can press control alt down and it just takes you to the card right"
+    },
+    {
+      "t": 331.6,
+      "end": 351.7,
+      "text": "this was a simple lookup if we move on to a u Advanced lookup pressing Control Alt down does exactly the same thing now you might be wondering what about these uh what about these pages that actually don't have a card page one of these is uh country or region"
+    },
+    {
+      "t": 351.7,
+      "end": 362.9,
+      "text": "code right pressing control all down actually takes you to the list and what you can see in here is it also uh filters out the record uh that was uh"
+    },
+    {
+      "t": 362.9,
+      "end": 383.2,
+      "text": "selected let's move a bit further uh below and let's see what happens with a with a lookup where we don't have a uh where we don't have a value selected you see that the show details is now disabled but another neat neat trick that you can see in here if you if you press alt down you can actually go and"
+    },
+    {
+      "t": 383.2,
+      "end": 395.6,
+      "text": "pick a random record in here and pressing Control Alt down will simply take you to the car uh even without selecting it that feels so so"
+    },
+    {
+      "t": 395.6,
+      "end": 415.7,
+      "text": "powerful another thing that I wanted to show you was if I go to the customer name and now press that wellknown altq thing what you see is that that customer name that was selected in here was copied directly to the tell me all I have to do is either click search company data or press"
+    },
+    {
+      "t": 415.7,
+      "end": 422.2,
+      "text": "enter and the company data search is actually"
+    },
+    {
+      "t": 422.2,
+      "end": 441.1,
+      "text": "started and in here you can see all the details that you might have uh said that are of course relevant for your role that have that to which you have permissions for and so on plus uh the users can actually go and customize which data uh to"
+    },
+    {
+      "t": 441.1,
+      "end": 461.3,
+      "text": "search another NE trick is uh you can even select a text like this press alt Q the selected text prop is there press enter and again you get to the data search and uh this new and improved uh search results page is now actually very"
+    },
+    {
+      "t": 461.3,
+      "end": 475.7,
+      "text": "smart you see in here we have found something on the purchase order line and clicking on that search result it's not going to open the purchase order line but it knows that that line lives in the context of the purchase order and it opens that particular"
+    },
+    {
+      "t": 475.7,
+      "end": 495.8,
+      "text": "page so that's how we enhance tel me but wait wait there's more there's a new Link in tell me and navigation pain that helps with reports can you tell us a bit more about this mic that's right Evan so those of you with sharp eyes may have also noticed actually two new links here one in tell me which says uh explore reports and another"
+    },
+    {
+      "t": 495.8,
+      "end": 506.9,
+      "text": "one on the RO Center homepage which also says all reports so what is this all about well our customers tell us that they struggle sometimes to find business centrals reports and other analytical"
+    },
+    {
+      "t": 506.9,
+      "end": 526.9,
+      "text": "capabilities so those links now lead to this experience um this screen that gives an overview of all of the reports that may be organized by Department uh by role um this is really an adaptation of what we call the role Explorer uh here we're simply focusing in on reports in particular now this is"
+    },
+    {
+      "t": 526.9,
+      "end": 547.5,
+      "text": "based on links uh from your role Center homepages to report objects and I'll show up all over here and give you that big overview where you can find and search those reports many times um it's not it's not about you personally getting around business Central sometimes it's about sharing data with others so they can get to data quickly"
+    },
+    {
+      "t": 547.5,
+      "end": 567.8,
+      "text": "uh if you have ever shared a link to a record uh over email or maybe into a teams Channel or possibly into one note as you see on this screen here in this example here I've pasted Three Links to three different um item records right uh you'll noce sometimes those links don't look great they don't give it a lot of context so in this wave business"
+    },
+    {
+      "t": 567.8,
+      "end": 588,
+      "text": "Central uh web client introduces a very simple and consisent naming scheme a naming pattern um that really helps links show up as a lot more readable and understandable they give a bit more context just enough context actually to help you understand what's at the end of that link um and this works when pasting links"
+    },
+    {
+      "t": 588,
+      "end": 604.4,
+      "text": "into uh any Rich Text Editor inside any app but if you do paste the link into a simple plain text field or maybe inside something like uh apps like like uh Windows notepad you'll still get the raw URL displayed over"
+    },
+    {
+      "t": 604.4,
+      "end": 624.8,
+      "text": "there now just to give you a sense of why our customers gave us feedback on this well previously links looked something like this they contained too little information in many cases look at that edit item card well can you guess which item record this actually links to no right sometimes we were over informative"
+    },
+    {
+      "t": 624.8,
+      "end": 645.7,
+      "text": "um too much information just made the link hard to read um and if you were sharing this with your co-workers over email you'd find yourself trimming the link down a little bit so it doesn't look so silly uh so here um you know there's for example a prefix which says edit there is a suffix which has the brand name and that's all unnecessary when you're sharing this link with your co-workers finally links were also inconsistent"
+    },
+    {
+      "t": 645.7,
+      "end": 665.8,
+      "text": "so how you navigate it to the record would ultimately determine what the link looks like when you copy a link to that record and paste it elsewhere and here is what links look like today they're clean they're more readable they give just the right amount of context even the names of your list views"
+    },
+    {
+      "t": 665.8,
+      "end": 678.2,
+      "text": "or even the analysis tabs appear in the link when you share it with others it's one of those really small things that uh just make a big difference to your workday so go forth and paced with"
+    },
+    {
+      "t": 678.2,
+      "end": 698.5,
+      "text": "confidence now before we get to the next section just want to take a minute to uh share a few things related to the web client that I think are really good for you to know about a year ago we announced that Legacy list views are going away um we're deprecating Legacy list views in update 23 is what we said back then that's the older model inal of you know"
+    },
+    {
+      "t": 698.5,
+      "end": 718.7,
+      "text": "creating a filtered list and you'd have to bake that into your role Center or you could create Legacy list views through the UI in in the past um but we'd like to give our community a little bit more time to act and migrates their legacy list views over to the newer model so we have a new timeline for this which is please do this by update 24 so when update"
+    },
+    {
+      "t": 718.7,
+      "end": 738.7,
+      "text": "24 4 which is approximately April 2024 um Legacy list views will go away they will disappear from the web client so make sure you act in good time similarly we're also extending the time until we fully roll out the change where the web client automatically saves uh the field value as you click or"
+    },
+    {
+      "t": 738.7,
+      "end": 758.7,
+      "text": "Tab out of a field uh this change will automatically be enabled for everyone also in update 24 and that is roughly April 2024 now here's another goodie for you to know about uh We've improved the business Central platform uh so that developers can now Implement Rich content Fields uh and do that"
+    },
+    {
+      "t": 758.7,
+      "end": 779,
+      "text": "natively in Al code without having to use control add-ins or build their own add-ins um each reach Rich content field uh it stretches to fill all of the horizontal space on the screen um it is multi-line uh but it has a maximum height and it comes with a toolbar with over 25 different functions and their corresponding keyboard short"
+    },
+    {
+      "t": 779,
+      "end": 799.5,
+      "text": "Cuts uh to really help you do things like format your text add new lines insert pictures uh insert tables as well um and I'll paste content in there as well for example you could be pasting the same hyperlinks I mentioned a moment ago so we know this this session is mostly watched by our customers or end users"
+    },
+    {
+      "t": 799.5,
+      "end": 819.6,
+      "text": "uh or Consultants or salespeople so do use this opportunity to talk to your developers about this experience that you can now bring into business Central uh with your extensions and with your customizations uh for example you may want to use this if you are dealing with uh product information management where you need that rich description multimedia content to be in this"
+    },
+    {
+      "t": 819.6,
+      "end": 839.8,
+      "text": "space uh maybe you're dealing with Rich annotation of your records or even just using business Central to you know author social media content as in this example right here so let's switch gears now and look at how we're helping users really dig into their data once they found it find anomalies get them blocked faster and for that"
+    },
+    {
+      "t": 839.8,
+      "end": 859.9,
+      "text": "I'd like to switch over again to Ivan uh Ian what does this look like in wave two thanks Mike to help you resolve issues when working with business Central in 2023 release Wave 1 in July update we've added actions to aor message dialogues making aor message dialogues more user friendly helps build trust with business Central and"
+    },
+    {
+      "t": 859.9,
+      "end": 880.2,
+      "text": "saves Time by making it easier to correct issues users can quickly get to a potential source of an error in business Central and receive guidance to get to resolution faster the collectible errors and check documents and journals while you work capabilities help produce inter interruptions and give you an overview"
+    },
+    {
+      "t": 880.2,
+      "end": 891.7,
+      "text": "of posting errors while you work on the journal or document actionable errors help you fix typical errors when posting Dimensions which can save time when you are processing a large"
+    },
+    {
+      "t": 891.7,
+      "end": 905.5,
+      "text": "document uh error message page includes recommended actions to fix uh the error and supports applying recommendations in bulk across multiple errors using accept recommended action"
+    },
+    {
+      "t": 905.5,
+      "end": 926,
+      "text": "action uh in the first iteration we provide users with capability to fix Dimension code related errors when Dimension posting rules require Dimension to be the same or Dimension code must be blank we've also improved the user experience of error messages page making most prominent information easily accessible in the list of errors"
+    },
+    {
+      "t": 926,
+      "end": 938.2,
+      "text": "and the the ones that are less prominent in the details fact box on top of that there's an interface for Al developers to add their custom fixes for custom"
+    },
+    {
+      "t": 938.2,
+      "end": 959.5,
+      "text": "errors to get to parity with actionable error dialogues in 2023 release Wave 2 we've also improved inline validation dialogues as they are also a surface they also surface errors during data entry users now get navigate and uh fix it actions on validation errors"
+    },
+    {
+      "t": 959.5,
+      "end": 979.9,
+      "text": "that either take you there to a problem so you can fix it or have business Central fix it for you when possible uh clear and actionable error information in validation messages helps you quickly resolve errors or pass on the details to your admin or support or revert changes that cause the error every inline validation dialogue"
+    },
+    {
+      "t": 979.9,
+      "end": 995.7,
+      "text": "now has refresh and copy details actions inline validation refresh action is now more conveniently positioned closer to the error itself itself and the copy details actions now allows you to copy and share four error details"
+    },
+    {
+      "t": 995.7,
+      "end": 1015.8,
+      "text": "conveniently even from the inline validation error of course nothing bits seeing this in action so let's dig into this in a short demo so let's go back to our uh sales order and in here I will just go ahead and try to change a quantity in here"
+    },
+    {
+      "t": 1015.8,
+      "end": 1035.9,
+      "text": "so this is a sales order that uh um that has an item that has that requires drop shipment if you look at the if you look at the error message you'll see that improved error message in the inline uh validation dialogue but you will also see the action where we can the business Central can now take you directly to that purchase order that is"
+    },
+    {
+      "t": 1035.9,
+      "end": 1056,
+      "text": "linked to to this uh sales order another thing that you will notice in here is the refresh uh or revert actions and the copy details actions so clicking these are more conveniently positioned right now and uh clicking revert will revert this and copy details will get you all of"
+    },
+    {
+      "t": 1056,
+      "end": 1076.9,
+      "text": "that uh technical information that you can pass on to uh to support and share with your admin or a partner so let's revert that one that this was an example of U of an actionable error that is just going to take you to another place let's try to do another thing let me try to change quantity to shipping here right"
+    },
+    {
+      "t": 1076.9,
+      "end": 1097.2,
+      "text": "and you can see you get another another type of error this is an inline validation error that actually allows you to fix the value because we know what the expected value in here is and we business Central can actually go ahead and help you fix that issue what you might have noticed also on the side in here you have a document"
+    },
+    {
+      "t": 1097.2,
+      "end": 1117.3,
+      "text": "check check box that collects the issues you might have while you are working on this document in this particular case I have a document that has has some Dimension values uh that are not appropriate for it that that do not comply to the rules that were set in in the setup and"
+    },
+    {
+      "t": 1117.3,
+      "end": 1137.3,
+      "text": "in here you can actually uh click on the description to see the the full error message you see that error messages now have a title and a bit uh clear explanation uh of the error what the user can also do uh they can click on the recommended action to go and simply fix that particular"
+    },
+    {
+      "t": 1137.3,
+      "end": 1157.5,
+      "text": "error or another thing that you can do you can actually go and and inspect you can see that this error is coming from line number two in that sales order that the location of that error is in that Line's Dimension set entry right we see in here sales campaign is missing right so we in order"
+    },
+    {
+      "t": 1157.5,
+      "end": 1177.7,
+      "text": "for us to to to correct this error what the user would normally do would go in here and add that uh sales campaign uh entry and there's also a source of source of the comes from the items default Dimension setting where the sales campaign requires summer to be set for that particular item"
+    },
+    {
+      "t": 1177.7,
+      "end": 1198,
+      "text": "and of course uh you can imagine the old way of doing it it's going through each and every line updating the dimensions and up until you U it's like a lot of trial and error what you can do also in here you can just go ahead select the errors and say I'll just want accept the recommended action do this"
+    },
+    {
+      "t": 1198,
+      "end": 1218.3,
+      "text": "CL those and in here you can see we've resolved all the errors I mean this this is really this is really something very uh very exciting and very something that can boost your your productivity just you know think about the old way of going into this each line of the document or journal and fixing"
+    },
+    {
+      "t": 1218.3,
+      "end": 1238.6,
+      "text": "things and the heated discussions you might have had with your controller about changes to Dimension posting Ro in summary the demo showed how business centrals action of errors in standard and inline validation dialogues help users unblock themselves and help resolve problems faster next Mike will show us how digging"
+    },
+    {
+      "t": 1238.6,
+      "end": 1258.6,
+      "text": "into Data across companies and Pages Works in wave two mike over to you in the studio when business Central users multitask for example pop out multiple windows so they can compare information side by side or use multiple tabs uh they always need to know the context of what's inside that window before switching to it for example example"
+    },
+    {
+      "t": 1258.6,
+      "end": 1279.3,
+      "text": "with alt tab we've applied the same simple and consistent naming convention also to the title of each Tab and that's very similar to what I showed you earlier and this makes your tabs a lot more readable understandable at a glance uh especially if like me you have a busy week and you end the week with about 30 open tabs you need to know what's in there"
+    },
+    {
+      "t": 1279.3,
+      "end": 1299.6,
+      "text": "right tab names are now more clean they're trimmed of unnecessary information they just give the right amount of context and uh which means you now no longer need to alt Tab and inspect what is inside each one of those to figure out which tab you actually looking for let's put this into practice I'm going to show you a little demo of this"
+    },
+    {
+      "t": 1299.6,
+      "end": 1320.2,
+      "text": "so let's imagine my task for today is really digging into my data across different companies I'm in the chart of accounts list right now um I'm in the cronis uh USA company I'd like to compare some of that with what's in another company kronis Chicago I'll use the company switcher for this great feature and and here I can actually choose to open"
+    },
+    {
+      "t": 1320.2,
+      "end": 1340.2,
+      "text": "this same chart of accounts in the other company in a new tab with a click so here it is loading up I've got uh chart of accounts for my Chicago Company in a moment that will appear on the screen now I may also want to uh duplicate tabs let me just do that and bring up in this one particular tab here for"
+    },
+    {
+      "t": 1340.2,
+      "end": 1360.3,
+      "text": "the Chicago Company a particular account and all the account details and having these different tabs here is really just going to help me compare this information as I work across uh these these companies let's open up the Deferred tax assets account there we go now I'm going to use Microsoft Edge's feature here to have"
+    },
+    {
+      "t": 1360.3,
+      "end": 1380.5,
+      "text": "uh vertical tabs so you can really see the different tabs and what they are named and what that looks like here I've got chart of accounts for cronis that's where I started I've got chart of accounts for Chicago that's the company I opened up and now I've got the GL account for the F text assets for Chicago so the tab names are super useful now they really easy for me to understand what's going to happen"
+    },
+    {
+      "t": 1380.5,
+      "end": 1401.3,
+      "text": "what am I going to see when I click on each of those and here if you set up the company badge for each of these companies the company badge will also appear in the tab name to give you that clue so this is really useful for our users who use a lot of time in their day switching across companies uh and digging into that data and comparing now"
+    },
+    {
+      "t": 1401.3,
+      "end": 1421.8,
+      "text": "um the naming for tabs also feeds very interesting features in your browser so for example here I'm almost out of time with this task so I'd like to continue from home on my home PC so here's what I'm going to do I'm going to say look let me select these tabs I'm going to use a feature in Microsoft Edge to start a new collection there we go"
+    },
+    {
+      "t": 1421.8,
+      "end": 1441.8,
+      "text": "I now have a collection up here which includes my three tabs there's a little thumbnail of what's in the tab but also again those tab names that are so indicative of what's in them is also transferred into my collection going to use another feature to add a quick note remember to review"
+    },
+    {
+      "t": 1441.8,
+      "end": 1462.2,
+      "text": "Chicago and a great thing is this is all saved and this particular uh collection of links collection of tabs is now something I can pick up where I left off as soon as I get home from my home PC Okay so we've seen now how the tab naming is super easy super intuitive nice and clean and gives you a lot of context let's talk about another great feature here"
+    },
+    {
+      "t": 1462.2,
+      "end": 1482.3,
+      "text": "uh We've enhanced a very popular page inspection tool with a few neat little changes that I really want you to know about now page inspection is a Swiss army knife of sorts uh it helps you understand the underlying data model uh for your your pages uh but also use it to troubleshoot record data for example that isn't shown on the page and so"
+    },
+    {
+      "t": 1482.3,
+      "end": 1499.7,
+      "text": "much more so now clicking or activating the field in the inspection pane will actually scroll that field into view on your page canvas making it super easy for you to find these fields that you're looking for let me give you a really quick demo of this so you can see how it works"
+    },
+    {
+      "t": 1499.7,
+      "end": 1520,
+      "text": "let's start out on the vendor card here I'm going to use the shortcut Control Alt F1 that's going to slide in the page inspection Pane and here I can see for the current record which is the fabric am vendor I can see all of the fields and that's a lot of fields uh from this table record let's start easy here I'm just going to click on the number field"
+    },
+    {
+      "t": 1520,
+      "end": 1542.8,
+      "text": "notice how instantly the number field on the page has this visual indicator to show me where it is fantastic let's make this a little bit trickier I'm going to search for I don't know prepayment uh field it searches as it types it finds one field that matches from the table and that's the prepayment percent field so Watch What Happens the moment I click on"
+    },
+    {
+      "t": 1542.8,
+      "end": 1562.8,
+      "text": "this the prepayment percent field now has been scrolled into view on the page and typically to find this field you know this is actually quite buried underneath the show more show less so it's an additional field it's under the payments fast tab so what is done has created this really easy way for me to get straight to that field so I can edit it I can modify it"
+    },
+    {
+      "t": 1562.8,
+      "end": 1582.9,
+      "text": "I can copy it and so on and so forth so if you're trying to find fields on a rather big and complex page page inspector has this handy little feature now to really help you get straight to those fields in no time now that's what I call a really efficient way to dig into your data on the page and it works on any page but there's also times where depending on the issues"
+    },
+    {
+      "t": 1582.9,
+      "end": 1603,
+      "text": "that you're troubleshooting with your data for example uh the more techsavvy people really want to see well what does this look like in code they want to dig one level deeper well we've got something for new for you as well here uh you can now use this new Link in the page inspection pane to explore this page in Visual Studio code so for example if you're a consultant you"
+    },
+    {
+      "t": 1603,
+      "end": 1623.6,
+      "text": "just want to get more context uh you can use the link to get to code read that code if that's something you like to do uh and get more context or you can use the new menu item on the field itself that will take you to the code for the field specifically so um here we're really Bridging the Two Worlds between you know business Central web client and the runtime"
+    },
+    {
+      "t": 1623.6,
+      "end": 1643.6,
+      "text": "with the AL code that runs all of that behind the scenes now page inspection is really ideal for just one-offs being able to inspect that occasional field when you're troubleshooting for example um but sometimes you really want to bring that data onto the page so you can use it repeatedly we've got a great"
+    },
+    {
+      "t": 1643.6,
+      "end": 1663.8,
+      "text": "feature for you here as well uh we're excited to announce that with update 2 three we're also introducing the ability to add existing table fields to your pages so you can optimize them you can adjust that layout bring the right data in at the right time these fields are not editable so you're really just bringing in Source table fields which are going to be readon you can only"
+    },
+    {
+      "t": 1663.8,
+      "end": 1683.8,
+      "text": "view those values uh but it's really going to help you get unblocked uh you know do something you've never been able to do before bring that field from The Source table drag it onto the page whether it's a list page or a card page it works on any page type um and around this we've enhanced the user experience to really help you you know understand the situation with these fields"
+    },
+    {
+      "t": 1683.8,
+      "end": 1704,
+      "text": "give you more context and transparency so that you can really make sure you're getting the right fields and making changes that are safe and one last thing we've added to the UI customization tooling is the ability to make Fields readon this means you take any editable field you can now lock it lock its editability becomes read only so you've cleaned up the page"
+    },
+    {
+      "t": 1704,
+      "end": 1714,
+      "text": "you know visually it doesn't distract you from the editable fields that you want to be modifying and enter data into it also prevents you know data entry accidents as"
+    },
+    {
+      "t": 1714,
+      "end": 1734.1,
+      "text": "well so last wave we also introduced analysis tabs uh this was released in preview a whole new way of deriving insights from your data without having to switch apps without the need for development in wave two this is now generally available for all of our customers uh and based on your feedback we've improved a whole bunch of things"
+    },
+    {
+      "t": 1734.1,
+      "end": 1754.2,
+      "text": "here as well we've improved the experience for example you can actually share um a link to your newly crafted analysis tab with your co-workers again as I mentioned earlier the name of the analysis tab will actually be included in that hyperlink you can provide more control uh over who has access to analysis mode uh and on which Pages"
+    },
+    {
+      "t": 1754.2,
+      "end": 1774.2,
+      "text": "as well there's no limits to the data volume that you can actually bring into these analysis views as well uh and finally we're also going Beyond lists um in terms of now applying the same experience also to queries and query objects some of these topics really deserve their own Deep dive session so if you have a few more"
+    },
+    {
+      "t": 1774.2,
+      "end": 1794.2,
+      "text": "minutes I highly recommend you take a look at these um we have one session about the analyzing data on lists we got another one about UI customization tooling and I also recommend this third session as well uh about mobile apps because we know that productivity goes beyond just the desktop sometimes you need to take business Central into your pocket and"
+    },
+    {
+      "t": 1794.2,
+      "end": 1806.4,
+      "text": "on the go and even there doesn't need to be productive so join that session to hear about how you can search for pages and data more effectively but also use new features like barcode scanning to do so much"
+    },
+    {
+      "t": 1806.4,
+      "end": 1826.6,
+      "text": "more so there's plenty more resources if you want to learn more about business Central uh if you want to follow the buzz and social media or if you just want to connect with the product engineering team people such as myself uh well we started off by saying that you know customers may want to type and click less and I hope you've gotten a a a good sense of that throughout"
+    },
+    {
+      "t": 1826.6,
+      "end": 1839.9,
+      "text": "this session but if you've got that next great idea that you think will save our customers a whole bunch of time we're listening we're listening to your feedback you can submit your great ideas at aka.ms BC"
+    },
+    {
+      "t": 1839.9,
+      "end": 1854.4,
+      "text": "ideas so it's been a real pleasure to show you how we're improving the web client in 2023 release Wave 2 on behalf of the business Central team thanks for tuning in and we wish you a productive"
+    },
+    {
+      "t": 1854.4,
+      "end": 1856,
+      "text": "workday"
+    }
+  ],
+  "markers": [
+    {
+      "t": 2.09,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 5467
+}

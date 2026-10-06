@@ -1,0 +1,541 @@
+{
+  "video_id": "9PWBpwv4LhQ",
+  "item_id": "video/yt-microsoft/9PWBpwv4LhQ",
+  "title": "What's New: Resource Governance for Business Central Online (2023 release wave 2)",
+  "duration_s": 1560,
+  "systems": [
+    "platform",
+    "administration"
+  ],
+  "topics": [
+    "resource governance",
+    "operational limits",
+    "quotas",
+    "multi-tenant architecture",
+    "resource consumption tracking",
+    "elasticity",
+    "capacity management",
+    "fair resource allocation",
+    "concurrency limits",
+    "speed limits",
+    "execution time limits",
+    "web service throttling"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and agenda",
+      "t_start": 0,
+      "t_end": 100
+    },
+    {
+      "title": "Resource governance mission and optimal consumption",
+      "t_start": 100,
+      "t_end": 172
+    },
+    {
+      "title": "Quotas vs limits - concepts and differences",
+      "t_start": 172,
+      "t_end": 292.9
+    },
+    {
+      "title": "History of resource governance and consumption tracking",
+      "t_start": 292.9,
+      "t_end": 428.5
+    },
+    {
+      "title": "Shared multi-tenant architecture illustration",
+      "t_start": 428.5,
+      "t_end": 583.3
+    },
+    {
+      "title": "Resource consumption tracking services",
+      "t_start": 583.3,
+      "t_end": 763.9
+    },
+    {
+      "title": "Key operational limits and entitlement quotas introduction",
+      "t_start": 763.9,
+      "t_end": 960
+    },
+    {
+      "title": "Operational limits concepts and highway analogy",
+      "t_start": 960,
+      "t_end": 1041
+    },
+    {
+      "title": "Speed limit in Business Central Online",
+      "t_start": 1041,
+      "t_end": 1122
+    },
+    {
+      "title": "Concurrency limit and execution time limit",
+      "t_start": 1122,
+      "t_end": 1224
+    },
+    {
+      "title": "Scheduled task and web service request improvements",
+      "t_start": 1224,
+      "t_end": 1305
+    },
+    {
+      "title": "Web service concurrency and execution time limits",
+      "t_start": 1305,
+      "t_end": 1386
+    },
+    {
+      "title": "Preview practicalities and gradual rollout",
+      "t_start": 1386,
+      "t_end": 1487
+    },
+    {
+      "title": "Feedback channels and closing remarks",
+      "t_start": 1487,
+      "t_end": 1560
+    }
+  ],
+  "features": [
+    {
+      "name": "Entitlement quotas",
+      "description": "A new concept of quotas that will be introduced to allow customers and users to claim or exercise their entitlement rights based on their licenses. These quotas are tiered by license type, cumulative per environment, but non-transferable between users.",
+      "status": "announced",
+      "status_evidence_t": 172,
+      "status_evidence_quote": "we are planning to introduce this concept of quotas in the next uh uh few seme from now",
+      "status_evidence_verified": true,
+      "t_start": 151.9,
+      "t_end": 940.7,
+      "is_demoed": false,
+      "caveats": [
+        "Planning stage",
+        "Timeline not specified exactly",
+        "Estimated for next two or three quarters",
+        "99% of customers expected to stay within quota"
+      ],
+      "tags": [
+        "quotas",
+        "entitlements",
+        "licensing",
+        "fairness",
+        "consumption"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Operational limits",
+      "description": "Fixed rules that apply equally to all users and are non-transferable. These govern how fast resources can be consumed and protect the service from unfair usage.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 192,
+      "t_end": 212,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "limits",
+        "speed",
+        "rules",
+        "fairness"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Resource consumption tracking",
+      "description": "A system that tracks all types of workloads and capacity units including number of tasks, requests, sessions, execution time, memory, and storage consumption per user, environment, and customer at any given moment and period.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 388.1,
+      "t_end": 428.5,
+      "is_demoed": false,
+      "caveats": [
+        "Recently started",
+        "Ongoing implementation"
+      ],
+      "tags": [
+        "consumption tracking",
+        "monitoring",
+        "capacity units",
+        "analytics"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Local consumption tracker",
+      "description": "A service that tracks resource consumption per user and per environment in each cluster to implement operational limits.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 623.4,
+      "t_end": 643.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "consumption tracking",
+        "local",
+        "operational limits"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Global consumption tracker",
+      "description": "A service that aggregates resource consumption from local consumption trackers in each cluster across the whole tenant and applies customer-wide quotas.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 643.6,
+      "t_end": 663.7,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "consumption tracking",
+        "global",
+        "quotas",
+        "aggregation"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "User-based operational limits",
+      "description": "A clear user-based limit that will be published to protect the service, ensure fairness among users, and inspire elasticity and scalability. Previously most limits were environment-based.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 763.9,
+      "t_end": 804,
+      "is_demoed": false,
+      "caveats": [
+        "ETA is Q4 2023",
+        "Under preview throughout next quarter"
+      ],
+      "tags": [
+        "user-based limits",
+        "operational limits",
+        "fairness"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Dynamic resource-based limits",
+      "description": "Internal limits applied under the hood to ensure the service is scalable, protected, and ensures fairness among customers and environments. Not published to end users.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 804,
+      "t_end": 824.4,
+      "is_demoed": false,
+      "caveats": [
+        "Not published",
+        "Internal use only"
+      ],
+      "tags": [
+        "resource-based limits",
+        "dynamic",
+        "customer fairness"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Intelligent workload balancing",
+      "description": "Improved elasticity technique that uses consumption patterns and limit exhaustion signals to distribute and rebalance workloads more intelligently across hosts, grouping heavy and light consuming tenants to balance each other.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 843.8,
+      "t_end": 904,
+      "is_demoed": false,
+      "caveats": [
+        "Future improvement",
+        "Ongoing work",
+        "Throttling used as last resort"
+      ],
+      "tags": [
+        "elasticity",
+        "balancing",
+        "intelligent distribution",
+        "load balancing",
+        "workload distribution"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Entitlement quotas and flexible access consumption",
+      "description": "Publishing user-based and tenant-wide quotas for licensed and unlicensed users, and allowing customers to buy additional add-on capacity or pay-as-you-go for excess consumption.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 904.1,
+      "t_end": 940.7,
+      "is_demoed": false,
+      "caveats": [
+        "Estimated for next two or three quarters",
+        "99% of customers expected to stay within quota"
+      ],
+      "tags": [
+        "quotas",
+        "entitlement",
+        "consumption",
+        "flexible access"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Speed limit for web service requests",
+      "description": "Changing the speed limit from 600 requests per environment per minute to 6,000 requests per user in a 5-minute sliding window, providing flexibility for burst peaks.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1264,
+      "t_end": 1285,
+      "is_demoed": false,
+      "caveats": [
+        "Planned for mid-quarter around November-December",
+        "Subject to change"
+      ],
+      "tags": [
+        "speed limit",
+        "web service requests",
+        "throttling"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Scheduled task concurrency limit increase",
+      "description": "Upgrading the concurrency limit for scheduled tasks from 3 concurrently running tasks per environment to 5 concurrently running tasks per user.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1224,
+      "t_end": 1244,
+      "is_demoed": false,
+      "caveats": [
+        "Early quarter rollout",
+        "Gradual increase planned"
+      ],
+      "tags": [
+        "scheduled tasks",
+        "concurrency limit"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Web service request concurrency limit per user",
+      "description": "Changing the web service request concurrency limit from 10 concurrently handled requests per environment to 10 concurrently handled requests per user, maintaining 5 processed and 95 queued ratio.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1305.3,
+      "t_end": 1346,
+      "is_demoed": false,
+      "caveats": [
+        "End of quarter rollout",
+        "Subject to change during preview"
+      ],
+      "tags": [
+        "web service",
+        "concurrency limit",
+        "per user"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Execution time limit for workloads",
+      "description": "Introducing a new limit to control how long workloads can process in the system, based on server cores and elapsed time sliding windows, with environment limits underneath.",
+      "status": "announced",
+      "status_evidence_t": 1346,
+      "status_evidence_quote": "in the future you can expect the introduction of the execution time limit that I mentioned before for example uh if you if we",
+      "status_evidence_verified": true,
+      "t_start": 1366.2,
+      "t_end": 1386,
+      "is_demoed": false,
+      "caveats": [
+        "Future release",
+        "Details subject to change"
+      ],
+      "tags": [
+        "execution time limit",
+        "workload duration"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Gradual throughput increase during preview",
+      "description": "Implementing operational limits with gradual throughput increases throughout the preview period rather than big bang changes, with continuous monitoring and fine-tuning.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1406.6,
+      "t_end": 1467,
+      "is_demoed": false,
+      "caveats": [
+        "Subject to change",
+        "Incremental increases only"
+      ],
+      "tags": [
+        "preview",
+        "operational limits",
+        "rollout"
+      ],
+      "system": "platform"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "local consumption tracker",
+      "t": 623.4
+    },
+    {
+      "type": "other",
+      "name": "global consumption tracker",
+      "t": 643.6
+    }
+  ],
+  "presenters": [
+    {
+      "name": "andaro",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 111.6,
+      "text": "is to offer optimal and fair resource consumption to all dynamics 365 business center online",
+      "why_it_matters": "Establishes the core mission and guiding principle for all resource governance decisions",
+      "check": "fuzzy"
+    },
+    {
+      "t": 172,
+      "text": "we are planning to introduce this concept of quotas in the next uh uh few seme from now",
+      "why_it_matters": "Announces a major new feature (entitlement quotas) that does not currently exist in Business Central Online",
+      "check": "snapped"
+    },
+    {
+      "t": 212,
+      "text": "quas are like entitlements or rights where customer and their user can claim or exercise those right while limits are laws or rules that",
+      "why_it_matters": "Clarifies the fundamental conceptual difference between quotas and limits, addressing common confusion",
+      "check": "exact"
+    },
+    {
+      "t": 388.1,
+      "text": "recently last year we started to track resource consumption so basically we want to track all type of workload and capacity unit",
+      "why_it_matters": "Describes when and what resource consumption tracking was started, enabling future improvements",
+      "check": "exact"
+    },
+    {
+      "t": 784,
+      "text": "the ETA for this um uh new user base limit will be throughout this uh next quarter which is Art fourth quarter of calendar",
+      "why_it_matters": "Provides specific timeline for preview of user-based limits (Q4 2023)",
+      "check": "exact"
+    },
+    {
+      "t": 784,
+      "text": "we're going to publish a clear user based limit that protect our service ensure fairness among users and Inspire elasticity and scalability the ETA",
+      "why_it_matters": "Establishes timeline and goals for user-based limits that are fundamental to the resource governance strategy.",
+      "check": "exact"
+    },
+    {
+      "t": 824.4,
+      "text": "the user based limits uh are there to ensure fairness among users while the resource based limits are there to ensure fairness among customers",
+      "why_it_matters": "Explains the purpose and scope of two complementary types of limits",
+      "check": "snapped"
+    },
+    {
+      "t": 920.6,
+      "text": "estimated happening in the next two or three semester from now uh the aim is like uh 99% of our customer will be able",
+      "why_it_matters": "Provides quantitative target for quota compliance and timeline for entitlement features.",
+      "check": "exact"
+    },
+    {
+      "t": 1224,
+      "text": "we will actually uh upgrade the old concurrency limit for scheduled tasks from three concurrently running tasks per environment into five concurrently running tasks",
+      "why_it_matters": "Shows concrete improvement in scheduled task throughput and paradigm shift from per-environment to per-user limits.",
+      "check": "exact"
+    },
+    {
+      "t": 1264.8,
+      "text": "changing the speed limit from the old for web service request from the old 600 um uh requests per environment per minute into actually",
+      "why_it_matters": "Demonstrates a 10-fold improvement in web service request limits and shift from environment to user-based billing, key metric change.",
+      "check": "exact"
+    },
+    {
+      "t": 1406.6,
+      "text": "throughout um October November December we are actually making sure that this operational limit are continue to be monitored and fine-tuned pro to provide",
+      "why_it_matters": "Communicates that limits are still in preview and will change frequently, setting expectations for variability.",
+      "check": "exact"
+    },
+    {
+      "t": 1427.1,
+      "text": "you will not see like for example currently you are only run three concurrent tasks per uh per environment um um per environment and",
+      "why_it_matters": "Clarifies that increases will be incremental rather than disruptive, managing customer expectations.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 151.9,
+      "kind": "coming-later",
+      "text": "we are planning to introduce this concept of quotas in the next uh uh few seme from now"
+    },
+    {
+      "t": 784,
+      "kind": "preview",
+      "text": "the ETA for this um uh new user base limit will be throughout this uh next quarter"
+    },
+    {
+      "t": 804,
+      "kind": "preview",
+      "text": "dynamic resource-based limit this is not published but this is something that we use underneath our service"
+    },
+    {
+      "t": 920.6,
+      "kind": "coming-later",
+      "text": "allow buying access consumption this should be um estimated happening in the next two or three semester from now"
+    },
+    {
+      "t": 1366.2,
+      "kind": "coming-later",
+      "text": "in the future you can expect the introduction of the execution time limit"
+    },
+    {
+      "t": 1406.6,
+      "kind": "subject-to-change",
+      "text": "expect expect it to change a lot sub it's subject to change"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 12,
+    "quotes_dropped": 0,
+    "evidence_verified": 2,
+    "evidence_unverified": 12
+  },
+  "windows": 2,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.0424286
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.02836
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.028689
+    }
+  ]
+}

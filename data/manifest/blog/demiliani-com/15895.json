@@ -7,13 +7,39 @@
   "url": "https://demiliani.com/2026/09/10/dynamics-365-business-central-on-italy-north-datacenter-here-we-are/",
   "published_at": "2026-09-10T14:02:19.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:32:37.787Z",
+      "path": "vault:posts/demiliani-com/15895.md",
+      "words": 379
+    },
+    "extracted": {
+      "at": "2026-10-06T21:32:44.988Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": 0.005089
+    },
+    "summarized": {
+      "at": "2026-10-06T21:32:44.989Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:32:44.990Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:32:44.993Z",
+      "path": "content/posts/demiliani-com/15895.md"
     }
   },
   "input_hash": "2026-09-10T14:02:19.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "68b122c827462e31fa29a77dfb17bf7a922f3ef140a17283e09421045ad4c26a"
 }

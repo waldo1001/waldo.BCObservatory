@@ -1,0 +1,403 @@
+{
+  "video_id": "9PWBpwv4LhQ",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 19.3,
+      "end": 39.6,
+      "text": "hello everyone welcome to Dynamics 3 city5 business Central launch event my name is andaro I'm the principal program manager for a Dynamics 365 buiness Central and today I would like to show uh what's new in resource governor for Dynamics 365 buiness Central online"
+    },
+    {
+      "t": 39.6,
+      "end": 60,
+      "text": "so the agenda for today's uh session is first I will talk about the resource governance Mission and then I will tell you a little story about the uh resource governance uh history for uh Business Center Online where we came from where we are today and where we are going in the future in uh increasing the elasticity"
+    },
+    {
+      "t": 60,
+      "end": 80,
+      "text": "availability and throughput for your workloads in the cloud and then I will show you a little bit of um um illustration of what is a shared multi-end architecture where your workload will run in the cloud and I will show you uh the biggest investment that we did last year which is resource consumption tracking that"
+    },
+    {
+      "t": 80,
+      "end": 100,
+      "text": "allows us to improve a lot of areas in the elasticity of our service and then uh one of the uh the most recent Improv Improvement uh that we will announce with this release is a new operational limits that will be previewed throughout this uh next quarter and I will at the end we I will show you"
+    },
+    {
+      "t": 100,
+      "end": 111.6,
+      "text": "um the preview practicalities what can you expect throughout this um preview period so without uh further Ado let's um let's talk about the resource governance"
+    },
+    {
+      "t": 111.6,
+      "end": 131.8,
+      "text": "Mission so the mission for resource governance in business Central onine is to offer optimal and fair resource consumption to all Dynamics 365 Business Center Online customer optimal means we want to offer maximal availability and performance for all resource consumption with minimal"
+    },
+    {
+      "t": 131.8,
+      "end": 151.9,
+      "text": "redundancy minimal uh eidle resources right uh fair means we want to treat all customer and their user equally with respect to capacity and at the same time proportionally with respect to the licenses we want to ensure that all our customer and their user can consume how"
+    },
+    {
+      "t": 151.9,
+      "end": 172,
+      "text": "and what they can consume in their entitled manners what they are entitled to consume which is the license specific features how much we want to ensure that they can consume as much as possible as long as it is covered by their licenses this is where we will introduce A New Concept that does not exist in Business Center"
+    },
+    {
+      "t": 172,
+      "end": 192,
+      "text": "online before which is called entitlement quotas we are planning to introduce this concept of quotas in the next uh uh few seme from now and how fast can can they consume we want to ensure they can consume resources uh when I'm talking about resources it means like uh web service request resources or compute resources"
+    },
+    {
+      "t": 192,
+      "end": 212,
+      "text": "or storage resources we want to allow or ensure customer can consume as fast as possible we want to give top speed to all user as long as their consumption does not adversely impact others and this is the concept that you are already familiar with which is called operational limits so um before I go"
+    },
+    {
+      "t": 212,
+      "end": 232.4,
+      "text": "uh go on I would like to give a a quick um uh introduction of what the difference between quotas and limits because sometimes people confuse them so a qua in governance terminology quas are like entitlements or rights where customer and their user can claim or exercise those right while limits are laws or rules"
+    },
+    {
+      "t": 232.4,
+      "end": 252.5,
+      "text": "that you need to follow so essentially when you want to exercise your right or you want to claim your entitlement you can do that as long as your follow the laws and rules right at the user level quotas are tiered that means like different licenses has different um uh level of quotas right and they are cumulative that means uh in a customer"
+    },
+    {
+      "t": 252.5,
+      "end": 272.6,
+      "text": "when you have um when you buy more licenses the amount of quot accumulated such that all users in that um in that uh environment can actually consume those cumulative quotas and also transferable is if one user doesn't use his his quot other user cannot uh use more than uh what he"
+    },
+    {
+      "t": 272.6,
+      "end": 292.9,
+      "text": "uh that that's entitled for his license right and um for limits it's actually different for limits they are fixed that means all user have the same amount of limit that they have to follow and they are equal applicable to all user and non-transferable that means if one user uh for example follow the speed limit of a web service request"
+    },
+    {
+      "t": 292.9,
+      "end": 307.2,
+      "text": "uh let's say we have a 1,000 request per minute and they can only they um they submit a request for 500 does not mean the next user can submit like 1,500 everybody has to for the same limit which is 1,000 requests per minute for example"
+    },
+    {
+      "t": 307.2,
+      "end": 327.5,
+      "text": "okay so now let me tell you a little of history of where we came from like um our story start like really recently in 2018 where there's a general availability of Dynamics 365 business Central online in that year we've we lifted and shifted business Central into Azure to run"
+    },
+    {
+      "t": 327.5,
+      "end": 347.9,
+      "text": "on a shared multitalent architecture a software as a service or a SAS architecture when we built this elastic service we actually um follow the the the traditional technique for elasticity which is mounting uh environments on multiple server instances or multiple VMS or host right"
+    },
+    {
+      "t": 347.9,
+      "end": 368.1,
+      "text": "balancing workloads across those many hosts that mounted and grouping host uh or or servers to serf different environments and also adding new host which is scaling out so so these four technique which is mounting balancing grouping and scaling are what I like fondly called the force Horseman of elasticity right"
+    },
+    {
+      "t": 368.1,
+      "end": 388.1,
+      "text": "so when we are building our elastic service at the same time we actually already must govern uh resource consumption in the cloud so we started with very conservative operational limits and we don't really introduce um u a definite quota so right now we don't have a in we still have an indefinite quotas right"
+    },
+    {
+      "t": 388.1,
+      "end": 408.3,
+      "text": "and uh recently last year we started to track resource consumption so basically we want to track all type of workload and capacity unit for example number of tasks number of requests number of session execution time memory consumption storage consumption all those uh um uh capacity unit we want to track"
+    },
+    {
+      "t": 408.3,
+      "end": 428.5,
+      "text": "for every user for every environment and for every customer at any given moment and period this allow us to lay the foundation to improve our elasticity techniques so as our service mature we are actually able to start uh uh creating more intelligent mounting intelligent balancing grouping and scaling"
+    },
+    {
+      "t": 428.5,
+      "end": 442.5,
+      "text": "as well as offer more expensive limits and quantifiable quotas so let me show um just a quick um illustration of what is a shared and multier architecture"
+    },
+    {
+      "t": 442.5,
+      "end": 462.9,
+      "text": "is we start with the compute layer uh imagine like there's a compute cluster that has a uh each cluster has many um uh uh virtual machine or host right and each uh all of those host can share uh can be uh group into different um uh host groups and on the storage layer we have a database server where inside"
+    },
+    {
+      "t": 462.9,
+      "end": 483,
+      "text": "the uh the server you can have multiple pool which are uh resources shared by um a separate tenant databases right so imagine you have let's say you have four environment T1 T2 T3 and T4 that actually sharing the the same host um host resources and they are connecting"
+    },
+    {
+      "t": 483,
+      "end": 503,
+      "text": "to the separate tenant databases in the in the in the in the database layer right so if you notice uh when we starting for example 10 and 2 10 and three and 10 and four they are needing more um um uh Computer Resources you can actually Mount those um environment on more host for example in the second"
+    },
+    {
+      "t": 503,
+      "end": 523.1,
+      "text": "host you mounting ton 2 3 4 and five and then they're connecting to the their own uh Tenon data um tenant database in the in the database server right and you can do the same when you have um more um um uh computer resources needed for those Tenon and you can see in this picture Tenon um uh environment"
+    },
+    {
+      "t": 523.1,
+      "end": 543.2,
+      "text": "three four and five are actually mounted on three host that means like they actually have the resources of three hose now um if you actually notice for example tenant database four and five needing more juices for example they are running um a long running queries you can actually um uh upgrade"
+    },
+    {
+      "t": 543.2,
+      "end": 563.2,
+      "text": "their pool such as they going to a different pool that has more resources for those databases so in this picture uh T4 and T5 ton databases are moving to pool two that should have a less density and more resources for long running queries for example and you can do the same scaling independently uh compute layer um from the"
+    },
+    {
+      "t": 563.2,
+      "end": 583.3,
+      "text": "database layer in this case uh let's say um 10 and four and five need more comput resources we can see that we only have three host in the computer cluster we can actually scale out and add more more hoses and more host like two more host and then like can you can actually Mount and T4 and T5 and group them in this new um uh new"
+    },
+    {
+      "t": 583.3,
+      "end": 603.4,
+      "text": "group of host so in that case T4 and T5 will have more juice more compute resources to run like for example parallel task parallel web service request Etc so that's a quick uh introduction of a Shar multitan architecture right so let's talk about about the resource consumption tracking when we do actually are able to track uh all"
+    },
+    {
+      "t": 603.4,
+      "end": 623.4,
+      "text": "the resource consumption you can see in this picture right um the cluster that I mentioned before is like this big uh rectangular um diagram and inside each of this um inside of this cluster you have all these resources you have the NST which is the server instance to run your workload you have Gateway that handle your web service request etc"
+    },
+    {
+      "t": 623.4,
+      "end": 643.6,
+      "text": "etc the first thing that we do is actually create a new service which is called local consumption tracker and this local consumption tracker are really uh there to implement operational limits so it it actually track all consumption of resources per user and per environment in each cluster the next service that we create for consum"
+    },
+    {
+      "t": 643.6,
+      "end": 663.7,
+      "text": "tring is the global consumption tracker and this service is really um uh instrumental to implem uh entitlement quotas in the future the job of global consumption tracker is to basically aggregate all uh resource consumption from local local um consumption tracker the lcts in each cluster and aggregate"
+    },
+    {
+      "t": 663.7,
+      "end": 684,
+      "text": "it across the whole Tenon and then apply it to uh the customer wide uh quotas okay so what we what we gain with consumption tracking is essentially in a lot lighter side we kind of like uh going from no or not not having any or shortterm memory into having a long-term memory"
+    },
+    {
+      "t": 684,
+      "end": 704.3,
+      "text": "So like um like the myth that they're saying uh goldfish has no memory and elephant has a long-term memory we actually turning business Central online from a goldfish into an elephant because now we actually can remember all type of consumption patterns for each tenon for an illustration I can show you one of this diagram for example in this diagram we knows that like uh"
+    },
+    {
+      "t": 704.3,
+      "end": 724.4,
+      "text": "one Tenon uh in a in a tracking period for 1 hour between noon and 1 p.m. is actually only picking at 1210 so you can see um uh it doesn't actually uh consume resources all the time they are only pi Peck period where it it consume more than uh other times right now if you"
+    },
+    {
+      "t": 724.4,
+      "end": 744.5,
+      "text": "have all this type of consumption pattern for multiple tenants you can actually group those tenant or environment that doesn't pick at the same time such that they don't overlap when they have a burst consumption in this case when you have more and more Tenon you can actually um put them together in a resources where the resources are actually sufficient to"
+    },
+    {
+      "t": 744.5,
+      "end": 763.9,
+      "text": "uh to support all this um tenants for example in 20 tenants you don't really need um uh 20 times pick uh pick um consumption because if you make sure that the their consumption pattern does not overlap then you can actually um manage an optimal resource governance for um uh for these tenants"
+    },
+    {
+      "t": 763.9,
+      "end": 784,
+      "text": "okay so now uh let me talk about the key Improvement areas that enabled by this um uh by the new resource consumtion tracking the first thing that we are able to do is offering an operational limit that are fair and expensive first we will public Lish a clear user based limit if you probably notice uh most of our operational"
+    },
+    {
+      "t": 784,
+      "end": 804,
+      "text": "limits are envir environmental based and environment based right now is we're going to publish a clear user based limit that protect our service ensure fairness among users and Inspire elasticity and scalability the ETA for this um uh new user base limit will be throughout this uh next quarter"
+    },
+    {
+      "t": 804,
+      "end": 824.4,
+      "text": "which is Art fourth quarter of calendar uh 2023 right and at the same time under the hood we also applying a dynamic resource-based limit this is not published but this is something that we use underneath our service to make sure that um our service are are always uh scalable"
+    },
+    {
+      "t": 824.4,
+      "end": 843.8,
+      "text": "um um is protected and uh ensure fairness among customer and environment so the user based limits uh are there to ensure fairness among users while the resource based limits are there to ensure fairness among customers or environment and this is ongoing and continuous uh Improvement throughout the year"
+    },
+    {
+      "t": 843.8,
+      "end": 864,
+      "text": "okay the second thing that we are able to improve with the resource consumption tring like I mentioned before you are we are able to improve the elasticity techniques so we can actually do intelligent balancing mounting grouping and scaling because the consumption pattern and the limit exhaustion signals can be used to actually distribute or rebalance"
+    },
+    {
+      "t": 864,
+      "end": 884.1,
+      "text": "workload more intelligently across mounted to and mount more environment on M hose a group hose differently for example like um heavy um heavy uh consuming uh uh Tenon will go with a less heavy consuming tening such that they can actually uh balance each other out for example and you can also like"
+    },
+    {
+      "t": 884.1,
+      "end": 904.1,
+      "text": "um use the signal of limit exhaustion and consumption pattern to scale out and add more host into the cluster so we the aim is like we want to make sure that we uh exploit all this technique before you actually throttle throttle which should be as a last resort if we cannot actually expand our service to aob your workload"
+    },
+    {
+      "t": 904.1,
+      "end": 920.6,
+      "text": "right and this is continuous ongoing Improvement throughout the year and finally we want to uh introduce entitlement quotas and flexible access consumption and we will publish a user based and tenant white quotas for licens and unlicensed user"
+    },
+    {
+      "t": 920.6,
+      "end": 940.7,
+      "text": "respectiv respectively and allow buying access consumption this should be um estimated happening in the next two or three semester from now uh the aim is like uh 99% of our customer will be able to um um uh to consume resources under their quota not not a lot of them will exceed it but for some of"
+    },
+    {
+      "t": 940.7,
+      "end": 960.8,
+      "text": "the customer who wants to exceed their consumption will allow them option to buy more add-on capacity or pay for pay as you go for their excess consumption so all these Improvement will be applied in at many different type of resources we'll focus more on the web service request handling resources first Computer Resources next and"
+    },
+    {
+      "t": 960.8,
+      "end": 981.1,
+      "text": "then later on on the uh database or storage resources so let's talk about like um the new operational limits that's coming this quarter okay before I talk about um uh what's the new operational limits that's coming let me introduce you the concept of um operational limit because there are three type of operational limits"
+    },
+    {
+      "t": 981.1,
+      "end": 1001.3,
+      "text": "that we can actually use to uh govern resources in the cloud there are essentially for a complete governance you need to speed limit concurrency limit and execution time limit for this I'd like to use a loose analogy of a like a highway um Highway management traffic management"
+    },
+    {
+      "t": 1001.3,
+      "end": 1021.6,
+      "text": "okay if you imagine a stretch of a highway as um a limited server or host capacity traversing that Highway represent consuming a portion of that capacity and cars in that Highway represent workload submitted by our customer and their users in this case"
+    },
+    {
+      "t": 1021.6,
+      "end": 1041.8,
+      "text": "um the customer or user are colorcoded like a blue customer green orange and yellow right so in this case uh in this analogy all users should enter or merge their traffic into the highway at the certain speed limit they should not exceed that speed limit right and then higher toll charges that you pay for represent how far you can go so that's actually"
+    },
+    {
+      "t": 1041.8,
+      "end": 1062.2,
+      "text": "representing the premium licenses that you can buy to consume more um uh quotas so first uh let me introduce what is a speed limit means in speed limits uh speed limit essentially uh in the highway analogies to control how fast cars enter to the highway so in Business Center online or um in somewhere"
+    },
+    {
+      "t": 1062.2,
+      "end": 1082.3,
+      "text": "service it is to control how fast workloads enter our system so if all um cars are entering the the highway more or less under the super limit you can actually imagine the highway capacity will fill up with more or less the same number of blue cars green cars yellow or orange right when the capacity is fill up you"
+    },
+    {
+      "t": 1082.3,
+      "end": 1102.4,
+      "text": "might want to redirect traffic to other uh accessible haway that is representing rebalancing workload in our uh BC online right and then or you might actually want to like um opening up more Highway that accessible for certain customer that that's represent mounting more environment to more host in"
+    },
+    {
+      "t": 1102.4,
+      "end": 1122.7,
+      "text": "a cluster or even for example um uh dedicating some Highway for just blue or orange car that essentially grouping those um um uh grouping those um uh uh workloads that uh need more resources for example and finally you can basically build a new highway from scratch which represents"
+    },
+    {
+      "t": 1122.7,
+      "end": 1142.7,
+      "text": "scaling out in our in our uh BC online World okay so the next concept is a concurrency limit uh by the way speed limit and concurrence limits already exists in our business Central online it just right now it's still in on a per environment basis so we will introduce a per user basis later"
+    },
+    {
+      "t": 1142.7,
+      "end": 1163.2,
+      "text": "on so in a concurrency limits essentially imagine all cars are entering the highway more or less under the spit limit but there are the there are blue cars that coming from different entry point so you end up with like more blue cars at the same time in the in the highway and that cannot be controlled with spit limits so we have to introduce new limit which is concurrency"
+    },
+    {
+      "t": 1163.2,
+      "end": 1183.7,
+      "text": "limit to control how many car are present at any given moment in the highway or in our road in BC online to control how many workloads are concurrently processed in the system now um we actually already have this spit limit and congruence limit what we are missing that the in the future that we would like to introduce is a new limit which is called"
+    },
+    {
+      "t": 1183.7,
+      "end": 1203.8,
+      "text": "execution time limit so imagine in this highway analogy when you have cars coming coming in at the under the the spit limit and they are actually not entering uh the highway from multiple entry point but some of this car are actually stretch limousine or a long trailer or truck and you can imagine in"
+    },
+    {
+      "t": 1203.8,
+      "end": 1224,
+      "text": "the capacity of the highway fill up with this long stretch blue car so that's a represent essentially a long running workload in our system so we need a new limit uh an additional to speed and concurrency limit which is execution time limit to control how long workload up process in our"
+    },
+    {
+      "t": 1224,
+      "end": 1244.5,
+      "text": "system so the preview that's coming this next quarter is first um in the early um uh early quarter uh next quarter we will actually uh upgrade the old concurrency limit for scheduled tasks from three concurrently running tasks per environment into five concurrently running tasks per user"
+    },
+    {
+      "t": 1244.5,
+      "end": 1264.8,
+      "text": "so I can imagine now if you have more user in the environment the true put for for your environment can get bigger you have for example you have two user you can run like a 10 scheduled task in parallel or if you have treer you can run 15 tasks in parallel previously you can only run three per environment so this is a a"
+    },
+    {
+      "t": 1264.8,
+      "end": 1285,
+      "text": "huge uh increase in the throughput for your workload okay the next Improvement that we planning is actually changing the speed limit from the old for web service request from the old 600 um uh requests per environment per minute into actually 6,000 requests per user in the previous 5 minute"
+    },
+    {
+      "t": 1285,
+      "end": 1305.3,
+      "text": "sliding window so this actually gives you flexibility to have a burst pick of um uh requests for example if you want to have in the first minute to have 6,000 you can do that you as long as you make sure that across a 5 minute sing window you maintain the number of um uh requests in that in that period okay so that is coming in the mid"
+    },
+    {
+      "t": 1305.3,
+      "end": 1325.8,
+      "text": "quarter um which is around around November uh November December time timeline right and finally another concurrency limit that we will introduce is the web also for web service request and this time we not changing the number too much what we changing is the denominator of this limit so before we are"
+    },
+    {
+      "t": 1325.8,
+      "end": 1346,
+      "text": "um we are allowing only 10 concurrently handled um uh web service request where five is processed and 95 cued uh per environment now we actually allowing per user so we we are opening up the uh parallel U parallel web survey request 10 100 the same number 100 concurrently handle"
+    },
+    {
+      "t": 1346,
+      "end": 1366.2,
+      "text": "five uh process and 95 cute but per user so that means like when you have environment with more user you get more trut that's the uh that's the last Improvement for this quarter that be aiming at the end of this quarter okay and finally in the future you can expect the introduction of the execution time limit that I mentioned before for example"
+    },
+    {
+      "t": 1366.2,
+      "end": 1386.3,
+      "text": "uh if you if we have like um a server instant with like four cores right in a 5 minute elapse time of sliding window that four core actually allow 4 * 5 20 minute execution time so within that 20 minute execution time what is the X minute that we allow per user to consume and then underneath that"
+    },
+    {
+      "t": 1386.3,
+      "end": 1406.6,
+      "text": "under the hood we will actually make sure that each environment does not consume up to y% of the total execution time or z% of the total execution time in a cluster so those are uh limits that coming in the future that we plan uh for uh incoming releases so uh finally uh I would like to show"
+    },
+    {
+      "t": 1406.6,
+      "end": 1427.1,
+      "text": "the preview practic alties what can you expect throughout this uh preview period so throughout um October November December we are actually making sure that this operational limit are continue to be monitored and fine-tuned pro to provide higher trp than the old one so uh expect expect it to change a lot sub it's subject to change"
+    },
+    {
+      "t": 1427.1,
+      "end": 1447.1,
+      "text": "right and the throughput will not be uh in a will not be increased in a big bang manner right like uh you you will not see like for example currently you are only run three concurrent tasks per uh per environment um um per environment and suddenly you will see like a unlimited number of Tas in parallel per en per per environment right that's not going"
+    },
+    {
+      "t": 1447.1,
+      "end": 1467.2,
+      "text": "to happen but we're going to do it gradually so we will do a gradual uh throughput increase let me just give you an illustration for example we will increase it from U from three to six or or nine um nine parallel task for um per environment and then we monitor um the the"
+    },
+    {
+      "t": 1467.2,
+      "end": 1487.5,
+      "text": "situation and then we keep increasing it three times four times five times we keep continue increasing until we have an optimal optimal throughput that we can provide right and that is essentially what we plan so we want to make sure that um we uh communicate those incremental uh increase of throughput throughout the"
+    },
+    {
+      "t": 1487.5,
+      "end": 1507.5,
+      "text": "the quarter throughout the uh the preview period uh we'll announce any changes in our release plan so watch out for the minor uh 23x releases and also Alo in other documentation especially the operational limit documents because there's going to be a lot of um updates in the document uh throughout the period okay and finally we"
+    },
+    {
+      "t": 1507.5,
+      "end": 1528.4,
+      "text": "always appreciate your feedback and suggestion uh please use our Yammer channel to to contact us to tell us what have you been um monitoring and what you see in uh in term of your your um uh throughput for your workloads right and uh give us feedback and suggestion so continue um uh getting getting back to us using uh the yam"
+    },
+    {
+      "t": 1528.4,
+      "end": 1548.9,
+      "text": "our documentation our Twitter and uh also uh please join us sign up for BC office hour especially if it's relevant with the resource governance uh upgrades in the future so thank you and uh with that uh that conclude our session I look forward to seeing you soon um in the Q&A sessions"
+    },
+    {
+      "t": 1548.9,
+      "end": 1560,
+      "text": "uh remotely and also in person in directions conference thank thank you for your attention see you soon"
+    }
+  ],
+  "markers": [
+    {
+      "t": 1.09,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 4294
+}

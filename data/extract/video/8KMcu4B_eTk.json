@@ -1,0 +1,614 @@
+{
+  "video_id": "8KMcu4B_eTk",
+  "item_id": "video/yt-microsoft/8KMcu4B_eTk",
+  "title": "What's New: Warehouse Management (2023 release wave 2)",
+  "duration_s": 1382,
+  "systems": [
+    "warehouse",
+    "inventory",
+    "sales"
+  ],
+  "topics": [
+    "put-away templates",
+    "bin policy",
+    "warehouse configuration",
+    "picking by ranking",
+    "directed pick and put-away",
+    "nothing to handle error",
+    "item tracking",
+    "basic warehouse",
+    "bin capacity",
+    "warehouse class",
+    "pick creation",
+    "bin blocking"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Warehouse Investment Overview",
+      "t_start": 0,
+      "t_end": 71.9
+    },
+    {
+      "title": "Location Card Configuration and Warehouse Settings",
+      "t_start": 71.9,
+      "t_end": 193.1
+    },
+    {
+      "title": "Inventory Put-Away Templates and Bin Policy",
+      "t_start": 193.1,
+      "t_end": 360
+    },
+    {
+      "title": "Warehouse Operations: Shipments, Picks, and Ranking",
+      "t_start": 360,
+      "t_end": 540.8
+    },
+    {
+      "title": "Assembly Orders and Basic Warehouse Configuration",
+      "t_start": 540.8,
+      "t_end": 658
+    },
+    {
+      "title": "Troubleshooting Nothing to Handle Error and Directed Pick Mode",
+      "t_start": 658,
+      "t_end": 787.9
+    },
+    {
+      "title": "Troubleshooting blocked and dedicated bins",
+      "t_start": 787.9,
+      "t_end": 824.8
+    },
+    {
+      "title": "Pick creation with item tracking and blocking",
+      "t_start": 824.8,
+      "t_end": 918.1
+    },
+    {
+      "title": "Reservation impact on pick quantity calculations",
+      "t_start": 918.1,
+      "t_end": 1027
+    },
+    {
+      "title": "Explaining shipable quantities and delta calculations",
+      "t_start": 1027,
+      "t_end": 1128.7
+    },
+    {
+      "title": "Resolving reservations and rerunning pick creation",
+      "t_start": 1128.7,
+      "t_end": 1189.2
+    },
+    {
+      "title": "Key capabilities and troubleshooting improvements",
+      "t_start": 1189.2,
+      "t_end": 1296.8
+    },
+    {
+      "title": "Related sessions and resources",
+      "t_start": 1296.8,
+      "t_end": 1382
+    }
+  ],
+  "features": [
+    {
+      "name": "Warehouse Configuration Toggles and Drop-Downs",
+      "description": "Location cards now have limited toggles for purchase, sales, service, and transfer operations, while internal operations like production, assembly, and jobs have full drop-down configuration options with various combinations.",
+      "status": "ga",
+      "status_evidence_t": 83.4,
+      "status_evidence_quote": "The biggest changes we can notice in the warehouse tab, you can still see the required receipt ship put away and pick toggles are",
+      "status_evidence_verified": true,
+      "t_start": 83.4,
+      "t_end": 131.1,
+      "is_demoed": true,
+      "caveats": [
+        "Only applies to specific operation types"
+      ],
+      "tags": [
+        "location configuration",
+        "warehouse setup",
+        "operation types"
+      ],
+      "system": "warehouse"
+    },
+    {
+      "name": "Put-Away Templates for Bin Assignment",
+      "description": "Put-away templates are now available for assigning bins where items should be located, offering alternatives to default bin configuration with different matching strategies.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 165.8,
+      "t_end": 193.1,
+      "is_demoed": true,
+      "caveats": [
+        "Previously available functionality expanded"
+      ],
+      "tags": [
+        "put-away templates",
+        "bin assignment",
+        "warehouse configuration"
+      ],
+      "system": "warehouse"
+    },
+    {
+      "name": "Bin Policy Features for Basic Warehouse",
+      "description": "Special equipment, bin capacity policy, warehouse class, put-away templates, and bin ranking are now available to basic warehouse configurations, not just directed pick and put-away.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 155.6,
+      "t_end": 179.4,
+      "is_demoed": true,
+      "caveats": [
+        "Some features added in previous release"
+      ],
+      "tags": [
+        "bin capacity",
+        "warehouse class",
+        "basic warehouse"
+      ],
+      "system": "warehouse"
+    },
+    {
+      "name": "Over Received Quantity in Inventory Put-Away",
+      "description": "Over received quantity is now available in the inventory put-away document in addition to the house receives before, removing quantity restrictions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 330.8,
+      "t_end": 358.7,
+      "is_demoed": true,
+      "caveats": [
+        "Document-specific availability"
+      ],
+      "tags": [
+        "over-receiving",
+        "inventory put-away",
+        "receipt"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Picking by Ranking in Inventory Picks",
+      "description": "Inventory picks now support picking by bin ranking, ordering pick lines according to configured bin ranking instead of treating all bins equally.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 409.4,
+      "t_end": 457.6,
+      "is_demoed": true,
+      "caveats": [
+        "Works with both warehouse and inventory picks",
+        "Requires bin ranking configuration"
+      ],
+      "tags": [
+        "bin ranking",
+        "picking strategy",
+        "inventory picks"
+      ],
+      "system": "warehouse"
+    },
+    {
+      "name": "Job Task Filtering for Inventory Picks",
+      "description": "When creating inventory picks from jobs, users can now filter by job task line to limit scope to specific tasks or milestones.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 472.1,
+      "t_end": 505.6,
+      "is_demoed": true,
+      "caveats": [
+        "Date filtering also available",
+        "Capability added in previous release"
+      ],
+      "tags": [
+        "job tasks",
+        "filtering",
+        "inventory picks"
+      ],
+      "system": "projects"
+    },
+    {
+      "name": "Show Details in Basic Warehouse",
+      "description": "A show details client feature allows navigation directly to the card, and the always create pick client option is now available even for basic warehouse configurations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 568.8,
+      "t_end": 605,
+      "is_demoed": true,
+      "caveats": [
+        "Limited to basic warehouse scenarios",
+        "Always create pick may result in empty bins"
+      ],
+      "tags": [
+        "basic warehouse",
+        "client features",
+        "user interface"
+      ],
+      "system": "warehouse"
+    },
+    {
+      "name": "Nothing to Handle Error Summary Report",
+      "description": "Enhanced troubleshooting for nothing to handle errors in directed pick and put-away mode with a short summary toggle showing pickable quantity, blocked bins, and outstanding items.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 658,
+      "t_end": 878.3,
+      "is_demoed": true,
+      "caveats": [
+        "Only for directed put away and pick mode",
+        "Shows bin content and blocking status"
+      ],
+      "tags": [
+        "error handling",
+        "troubleshooting",
+        "directed pick",
+        "bin status"
+      ],
+      "system": "warehouse"
+    },
+    {
+      "name": "Pickable Quantity Analysis",
+      "description": "System now clearly identifies pickable quantity versus total warehouse quantity, distinguishing between dedicated, blocked, and outstanding items in receive bins.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 742,
+      "t_end": 814.1,
+      "is_demoed": true,
+      "caveats": [
+        "Specific to directed pick configuration",
+        "Requires understanding of bin status flags"
+      ],
+      "tags": [
+        "pickable quantity",
+        "bin zones",
+        "inventory analysis"
+      ],
+      "system": "warehouse"
+    },
+    {
+      "name": "Bin availability status troubleshooting",
+      "description": "A troubleshooting window shows detailed bin information including dedicated and blocked status, allowing users to understand why bins are unavailable for picking and identify required actions like processing put-away documents.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 787.9,
+      "t_end": 824.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "troubleshooting",
+        "bin status",
+        "user experience"
+      ],
+      "system": "warehouse"
+    },
+    {
+      "name": "Item tracking integration in pick details",
+      "description": "When items with item tracking are in pickable bins, the system displays tracking information including serial numbers and blocked field status, helping users understand why items cannot be picked.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 845.8,
+      "t_end": 918.1,
+      "is_demoed": true,
+      "caveats": [
+        "items with blocked serial numbers cannot be picked"
+      ],
+      "tags": [
+        "item tracking",
+        "serial numbers",
+        "blocking"
+      ],
+      "system": "warehouse"
+    },
+    {
+      "name": "Reservation impact on pick quantity adjustment",
+      "description": "The system calculates pickable quantity by comparing shipable items in warehouse against reserved quantities, reducing available pick quantity when reserved items have priority. This prevents non-reserved orders from consuming items needed for reserved orders.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 918.1,
+      "t_end": 1107.6,
+      "is_demoed": true,
+      "caveats": [
+        "calculation is complex and may be difficult to understand without explanation",
+        "delta is determined by subtracting reserved quantities from shipable quantities"
+      ],
+      "tags": [
+        "reservation",
+        "priority",
+        "pick quantity",
+        "fulfillment"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Shipable quantity calculation logic",
+      "description": "Shipable quantity includes all warehouse inventory except shipment bins and dedicated bins. The system calculates delta between shipable quantity and reservations to determine how much can be allocated to non-reserved orders.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1027,
+      "t_end": 1128.7,
+      "is_demoed": true,
+      "caveats": [
+        "does not include items in shipment bins or dedicated bins",
+        "requires understanding of reservation mechanics"
+      ],
+      "tags": [
+        "quantity calculation",
+        "shipment bin",
+        "reservation"
+      ],
+      "system": "warehouse"
+    },
+    {
+      "name": "Reservation override options",
+      "description": "Users can either reserve the sales order to gain priority equal to existing reservations, or cancel reservations if they decide to purchase additional inventory later, enabling them to pick inventory for non-reserved orders.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1128.7,
+      "t_end": 1189.2,
+      "is_demoed": true,
+      "caveats": [
+        "requires user decision on business logic"
+      ],
+      "tags": [
+        "reservation",
+        "priority",
+        "user control"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Flexible warehouse configuration without directed pick",
+      "description": "Customers can implement warehouse capabilities incrementally for specific departments without using directed pick, and can mix different policies like shipping and inventory picks in combination.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1189.2,
+      "t_end": 1242.8,
+      "is_demoed": true,
+      "caveats": [
+        "directed pick still available as option"
+      ],
+      "tags": [
+        "configuration",
+        "directed pick",
+        "policies",
+        "flexibility"
+      ],
+      "system": "warehouse"
+    },
+    {
+      "name": "Advanced warehouse capabilities with basic pick",
+      "description": "Even basic warehouse processes can use advanced features including put-away templates, picking by ranking, and conditional line creation in pick and put-away documents, giving employees control to solve problems themselves.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1189.2,
+      "t_end": 1255.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "put-away templates",
+        "picking ranking",
+        "line creation control"
+      ],
+      "system": "warehouse"
+    },
+    {
+      "name": "Overreceive support in basic and directed warehouses",
+      "description": "Both inventory put-away and directed put-away support receiving more than ordered, with options for direct update of purchase document or warehouse receipt, providing flexibility without impacting process choice decisions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1255.3,
+      "t_end": 1266.3,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "overreceive",
+        "purchase order",
+        "warehouse receipt"
+      ],
+      "system": "warehouse"
+    },
+    {
+      "name": "Nothing-to-handle troubleshooting window",
+      "description": "A specialized troubleshooting window for directed put-away and pick warehouses provides detailed insights when problems occur, reducing time spent analyzing why inventory cannot be moved.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1266.3,
+      "t_end": 1296.8,
+      "is_demoed": true,
+      "caveats": [
+        "specific to directed put-away and pick warehouses"
+      ],
+      "tags": [
+        "troubleshooting",
+        "directed warehouse",
+        "visibility"
+      ],
+      "system": "warehouse"
+    }
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Location",
+      "t": 71.9
+    },
+    {
+      "type": "page",
+      "name": "Inventory Put-Away",
+      "t": 201.8
+    },
+    {
+      "type": "page",
+      "name": "Warehouse Shipment",
+      "t": 378.6
+    },
+    {
+      "type": "page",
+      "name": "Warehouse Pick",
+      "t": 409.4
+    },
+    {
+      "type": "page",
+      "name": "Inventory Pick",
+      "t": 472.1
+    },
+    {
+      "type": "table",
+      "name": "Bin Content",
+      "t": 293.4
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Andrei Panko",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 83.4,
+      "text": "now they are limited only to purchase sales, service, and transfer operations, while internal operations such as production, assembly, and jobs got all configuration",
+      "why_it_matters": "Defines the scope and differentiation of warehouse configuration flexibility between external and internal operations",
+      "check": "exact"
+    },
+    {
+      "t": 155.6,
+      "text": "You don't need to use directed pick and put away to benefit from special equipment, bin capacity policy, or warehouse class",
+      "why_it_matters": "Clarifies that advanced warehouse features are now available to basic warehouse configurations",
+      "check": "exact"
+    },
+    {
+      "t": 230.6,
+      "text": "each item is using, configured to use different put away templates. And I decided to use standard template for item number one.",
+      "why_it_matters": "Demonstrates that put-away templates are now configurable per item",
+      "check": "exact"
+    },
+    {
+      "t": 345.2,
+      "text": "over received quantity is now also available in the inventory put away in addition to the house receives before",
+      "why_it_matters": "Identifies new functionality removing quantity restrictions on inventory put-away documents",
+      "check": "exact"
+    },
+    {
+      "t": 445,
+      "text": "system proposed to do picking accordingly. First, from bin with the highest trend regardless of its code, then the next one",
+      "why_it_matters": "Shows that bin ranking now influences pick line ordering in inventory picks",
+      "check": "exact"
+    },
+    {
+      "t": 698.5,
+      "text": "It also identifies you that it's only for directed put away and pick mode. So, do not try it on other configurations.",
+      "why_it_matters": "Clarifies scope limitations for the new nothing to handle error summary feature",
+      "check": "exact"
+    },
+    {
+      "t": 742,
+      "text": "pickable quantity is zero. In the advanced workhouse with directed put away and pick the workhouse is split into different zones",
+      "why_it_matters": "Explains the zone-based inventory concept central to troubleshooting advanced warehouse scenarios",
+      "check": "exact"
+    },
+    {
+      "t": 814.1,
+      "text": "Before it was more complicated to troubleshoot now it is shorter",
+      "why_it_matters": "Shows improvement in troubleshooting experience for blocked bins compared to previous versions",
+      "check": "exact"
+    },
+    {
+      "t": 950.2,
+      "text": "So it has no less priorities than others. So in this case, we should not make orders with high priority, which are reserved",
+      "why_it_matters": "Explains the design principle that non-reserved orders should not block reserved orders, balancing difficulty vs impossibility",
+      "check": "exact"
+    },
+    {
+      "t": 1074.8,
+      "text": "shipable from warehouse is eight. It's like everything which is in warehouse except in the shipment bin, because shipment bin or dedicated bin, which",
+      "why_it_matters": "Defines the shipable quantity calculation rule that excludes shipment and dedicated bins",
+      "check": "exact"
+    },
+    {
+      "t": 1107.6,
+      "text": "this delta is what we can take for other non-reserved orders. So in this case, the delta is two",
+      "why_it_matters": "Explains how the system calculates available quantity for non-reserved orders using the delta between shipable and reserved quantities",
+      "check": "exact"
+    },
+    {
+      "t": 1189.2,
+      "text": "now you do not need to use directed pick if the customer or user requires some workhouse capabilities",
+      "why_it_matters": "States that directed pick is no longer required for accessing warehouse features, increasing configuration flexibility",
+      "check": "exact"
+    },
+    {
+      "t": 1232,
+      "text": "we still can benefit from advanced capabilities like put away templates, picking by ranking, and also allow or do not allow creation of lines",
+      "why_it_matters": "Confirms that advanced warehouse features are available even with basic warehouse processes",
+      "check": "exact"
+    },
+    {
+      "t": 1255.3,
+      "text": "we have an ability to receive more than ordered, also using inventory put away together with direct update of purchase document or workhouse receipt",
+      "why_it_matters": "Demonstrates overreceive functionality works with multiple warehouse process types",
+      "check": "exact"
+    },
+    {
+      "t": 1278.9,
+      "text": "you need to spend dramatically less time analyzing the nothing to handle situation because you can get more insights from the special troubleshooting window",
+      "why_it_matters": "Highlights reduction in diagnostic time through a dedicated troubleshooting interface",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 15,
+    "quotes_dropped": 0,
+    "evidence_verified": 1,
+    "evidence_unverified": 17
+  },
+  "windows": 2,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.027574
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.025132999999999996
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.026494000000000004
+    }
+  ]
+}

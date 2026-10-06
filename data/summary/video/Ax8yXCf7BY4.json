@@ -1,0 +1,28 @@
+{
+  "video_id": "Ax8yXCf7BY4",
+  "item_id": "video/yt-microsoft/Ax8yXCf7BY4",
+  "summary": "Business Central 2023 release wave 2 legislation and localization updates: 23 new countries announced for the cloud (155 markets from December 2023), Swedish delocalization timeline, EU three-party trade and automatic account codes apps, Audit File Expert, Intrastat drop shipment, and report format region.",
+  "overview": "The video from the Business Central team covers the legislation mission and the four-pillar localization strategy, which starts with enriching the W1 base app. It announces 23 new countries in the cloud, available from December 2023, for a total of 155 markets.\n\nIt then walks through delocalization of Swedish functionality, the EU three-party trade and automatic account codes apps (both demoed), the registration number field, Audit File Expert with GL Account Mapping, Intrastat changes (drop shipment for triangular trade, Czech localization) and report formatting enhancements, which are also demoed.",
+  "key_points": [
+    "Cloud gains 23 new countries, bringing the total to 155 markets from December 2023.",
+    "Swedish delocalization: code is marked obsolete starting with versions 22 and 23, complete removal is planned by version 29 and table removal by version 30.",
+    "EU three-party trade app is for purchase transactions and needs the transaction type to be defined manually on the purchase invoice.",
+    "Automatic account codes must be configured on the automatic account groups page before use.",
+    "Audit File Expert exports accounting and tax data (for example Norwegian SFT, Swedish SIE, French FEC) but needs country-specific extension implementations. It supports scheduling to off-work hours and splitting data by month or date.",
+    "Intrastat drop shipment for triangular trade requires the include drop shipment toggle on the Intrastat report setup page and item ledger entries marked as drop shipment.",
+    "Report format region can now be set from the request page, AL code (a new format region property on report objects), and customer/vendor cards, with fallback to settings."
+  ],
+  "audience": [
+    "functional consultant",
+    "developer",
+    "administrator",
+    "decision maker"
+  ],
+  "extraction_hash": "176eb9b7957cbc29ce278fa1d980c5346cb91a178fcd12eec134f4a1fa1ccada",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0197044
+  }
+}

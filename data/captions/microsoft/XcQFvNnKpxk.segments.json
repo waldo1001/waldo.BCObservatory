@@ -1,0 +1,583 @@
+{
+  "video_id": "XcQFvNnKpxk",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 18.6,
+      "end": 30,
+      "text": "Welcome to this Business Central launch event session for the 2023 release wave two. In this session, we're going to talk about performance testing before go live."
+    },
+    {
+      "t": 30,
+      "end": 36.6,
+      "text": "How you can do that with the performance toolkit, aka BCPT."
+    },
+    {
+      "t": 36.6,
+      "end": 48.9,
+      "text": "We have a lot of ground to cover, but it's not going to be a long session. I hope it's going to be interesting for you. We go through a better world. Let's go to a different galaxy."
+    },
+    {
+      "t": 48.9,
+      "end": 61.7,
+      "text": "We talk about GoPro lives, how to use the performance toolkit in DevOps, how we use envision open sourcing test suites for for business for BCPT."
+    },
+    {
+      "t": 61.7,
+      "end": 72.5,
+      "text": "The future direction of the tool and the way it's being used, and then end up with some learning resources and go dos."
+    },
+    {
+      "t": 72.5,
+      "end": 83.4,
+      "text": "So, imagine a world in a galaxy quite the distance away. In this galaxy, we have some aliens."
+    },
+    {
+      "t": 83.4,
+      "end": 95.8,
+      "text": "We call them aliens. They don't think of themselves as aliens. They work with ERP looks, which is ERP in their language. It's a very diverse crowd, many different types of species,"
+    },
+    {
+      "t": 95.8,
+      "end": 107,
+      "text": "but they have one thing in common, except they all have these names that end in ooks. They work with different parts of ERP in a partner organization."
+    },
+    {
+      "t": 107,
+      "end": 119.1,
+      "text": "It's actually a parallel universe, so we have account managers, product owners, developers, operations managers, and product owners. And I managed to intercept"
+    },
+    {
+      "t": 119.1,
+      "end": 137,
+      "text": "quotes from these over the wire, probably through a wormhole. For instance, Snulks, Snulks, who is an account manager, he said, translated into our language, \"By the way, I just ran a performance test on the suggested load from the customer."
+    },
+    {
+      "t": 137,
+      "end": 147.5,
+      "text": "We're good.\" Nice. Seems like they're playing golf. Drolks, who is a product owner in an ISV,"
+    },
+    {
+      "t": 147.5,
+      "end": 159,
+      "text": "uh says, \"Just got an alert on Teams. Seems like we have a performance regression on version 42.\" Hm. Also have time to ride the bicycle."
+    },
+    {
+      "t": 159,
+      "end": 172.4,
+      "text": "Here is Chalks. She is a developer. Haha. Concurrent test, concurrency testing, my code is fun. Don't think anyone really thinks that here on Earth."
+    },
+    {
+      "t": 172.4,
+      "end": 186.2,
+      "text": "It breaks It breaks Sulks' code when running with 15 users. And maybe she also asked if someone could take the gears out of her head."
+    },
+    {
+      "t": 186.2,
+      "end": 198.4,
+      "text": "Quolks, who is working in operations, is quoting or quoted to say, \"Business Central runs slower on customer blues on upcoming version 256,"
+    },
+    {
+      "t": 198.4,
+      "end": 209.7,
+      "text": "rolling out next week. Let's investigate.\" And then finally Xulks, who is working as a project project manager, delivering projects,"
+    },
+    {
+      "t": 209.7,
+      "end": 219.8,
+      "text": "\"Before go live\" This is why this is this is the go live, but all the these other Hopefully, you can relate to these other scenarios as well. But before go live,"
+    },
+    {
+      "t": 219.8,
+      "end": 232.4,
+      "text": "the project manager tested that the system scales with the expected number of ulksers, which is users in their language, and what they're supposed to do in the system.\" Hm."
+    },
+    {
+      "t": 232.4,
+      "end": 243.7,
+      "text": "What a nice fantastic parallel universe. But meanwhile, back on Earth, we actually have a tool that can help you do this."
+    },
+    {
+      "t": 243.7,
+      "end": 254.8,
+      "text": "It's called Business Central Performance Toolkit, or BCPT. With Microsoft, we abbreviate everything. It's a multi-user benchmarking tool."
+    },
+    {
+      "t": 254.8,
+      "end": 266.1,
+      "text": "You can simulate multiple users running simultaneously. You can measure performance, detect locking issues, and test usage on a system under load."
+    },
+    {
+      "t": 266.1,
+      "end": 277.8,
+      "text": "But the key thing for this tool is it's not um it's not unit tests. These are scenarios that you define, and you run scenarios"
+    },
+    {
+      "t": 277.8,
+      "end": 291.3,
+      "text": "with multiple users. So, think about performance activities in a project for a customer, or if you're an ISV, exact same things would apply for an app."
+    },
+    {
+      "t": 291.3,
+      "end": 306.6,
+      "text": "When you plan the projects, you want to do some kind of simulation on on load on the system. When you deploy, or when you test, you actually want to see if the customer customizations impact anything."
+    },
+    {
+      "t": 306.6,
+      "end": 318.2,
+      "text": "Maybe you want to first of all test on a plain vanilla Business Central, then you want to add some apps, and then see if that actually change the performance profile on that system."
+    },
+    {
+      "t": 318.2,
+      "end": 334.3,
+      "text": "Acceptance testing uh is also where this tool can help you. And then, when you go into operations, uh and maintenance, then regressing on updates, regressing whether it's Business Central upgrades or app updates,"
+    },
+    {
+      "t": 334.3,
+      "end": 350.2,
+      "text": "um that's also something where it would be nice to kind of see before you go update to a a next version of something, or you install a new app, uh how is that going to change the performance on your system for scenarios for the users,"
+    },
+    {
+      "t": 350.2,
+      "end": 360.4,
+      "text": "not for specific operations. This is how how the Business Central Performance Tool Toolkit can help."
+    },
+    {
+      "t": 360.4,
+      "end": 372,
+      "text": "So, let's talk about Pro Go Live as as I hope to see this in the future. Testing performance before go live should be as simple as 1 2 3."
+    },
+    {
+      "t": 372,
+      "end": 383.6,
+      "text": "One, you plan and set up your test. That's easy for me to say, right? A project manager will go, \"What exactly do we need?\" Let's Let's talk about that in the next slide. Second, run the tests."
+    },
+    {
+      "t": 383.6,
+      "end": 395.8,
+      "text": "Should be Should we hire 50 people to type in? No, you should run the tests using this tool. And number three is analyze and react."
+    },
+    {
+      "t": 395.8,
+      "end": 407,
+      "text": "So, what does that mean? For planning and setup, most important thing is here. Together"
+    },
+    {
+      "t": 407,
+      "end": 417.4,
+      "text": "with the project sponsor on the customer side, meaning this is a joint effort, at least something you should do together with your customer. You need to identify"
+    },
+    {
+      "t": 417.4,
+      "end": 429.5,
+      "text": "which are the key scenarios that just must work and must work fast. Okay? So, define scenarios and do that together with the project sponsor."
+    },
+    {
+      "t": 429.5,
+      "end": 442.1,
+      "text": "The rest is just mechanics. Copy the production environment to a sandbox. Set up telemetry so that you actually have something to get the data and and alert and and and and analyze."
+    },
+    {
+      "t": 442.1,
+      "end": 453.9,
+      "text": "Talk about that later. Get the scenario codes from GitHub. These are open source. And if there are scenarios not covered,"
+    },
+    {
+      "t": 453.9,
+      "end": 464.8,
+      "text": "just write that code and submit maybe back to the open source community for for everyone else. If we do this together,"
+    },
+    {
+      "t": 464.8,
+      "end": 477.6,
+      "text": "talk a little bit about that later, it shouldn't be really hard to get to a very good coverage of scenarios that anyone can do, so that performance testing is not a tax."
+    },
+    {
+      "t": 477.6,
+      "end": 497,
+      "text": "It's just something that is easy to do. All right. Now we need to run things. There are two different ways you can do this. You can either just install and configure the AL extension to VS Code and run from the tool."
+    },
+    {
+      "t": 497,
+      "end": 508.5,
+      "text": "Or you could consider setting up, if you use AL Go for GitHub, you could set up your scenario loads as DevOps pipelines. This would completely automate"
+    },
+    {
+      "t": 508.5,
+      "end": 523.9,
+      "text": "your performance testing. Just run a pipeline and you're done. Either or, you run your scenarios with Business Central Performance Toolkit, and then you analyze and react."
+    },
+    {
+      "t": 523.9,
+      "end": 538.5,
+      "text": "How do you do that? Well, because you have enabled telemetry, you can just install the Power BI app on telemetry, and you have reports right there to kind of show you the results."
+    },
+    {
+      "t": 538.5,
+      "end": 551.4,
+      "text": "And if if you are really advanced, or maybe not really advanced, but after having done this manually, maybe you just want to set up alerts on regressions, especially if you're an ISV."
+    },
+    {
+      "t": 551.4,
+      "end": 566.4,
+      "text": "It would be nice to to just see uh remember that that product owner from the other galaxy, they just got um a Teams message if there was a regression on version 42,"
+    },
+    {
+      "t": 566.4,
+      "end": 580.9,
+      "text": "right? Wouldn't you like that as well? So, how could you automate that? So, mainly for the ISVs, but also maybe for some of the VARs, you could set up uh the performance toolkit in DevOps."
+    },
+    {
+      "t": 580.9,
+      "end": 591.4,
+      "text": "Because right now, um actually in version 22, it was possible to run BCP TS part of AL Go."
+    },
+    {
+      "t": 591.4,
+      "end": 601.6,
+      "text": "But um but right now in version 23, it's just out of the box. You can run test uh at a test app of scenarios,"
+    },
+    {
+      "t": 601.6,
+      "end": 612.5,
+      "text": "uh add it as a workload, and even com- compare the results to a baseline run, right? It's very simple."
+    },
+    {
+      "t": 612.5,
+      "end": 623.5,
+      "text": "You just once you have defined your scenarios that need to run, you add a BCP T workload, and then you see your test results in the pipeline."
+    },
+    {
+      "t": 623.5,
+      "end": 633.8,
+      "text": "And the compare to baseline, well, if you if you if you add a baseline file, you can even see the difference. For instance, do we regress"
+    },
+    {
+      "t": 633.8,
+      "end": 645.4,
+      "text": "on the number of SQL statements? Of course, the number of the duration diff might might change on the environment you run. If you run with not so stable"
+    },
+    {
+      "t": 645.4,
+      "end": 658.5,
+      "text": "environments, meaning performance-wise, you might get some variation here. But the num- the number of SQL statements is is something that you definitely can trust if it goes up."
+    },
+    {
+      "t": 658.5,
+      "end": 666,
+      "text": "It's because your your code changed and you introduced new SQL constructs."
+    },
+    {
+      "t": 666,
+      "end": 677.9,
+      "text": "So, how could we have a world where doing all of this, including removing the friction for coverage of test scenarios, how could we do this together?"
+    },
+    {
+      "t": 677.9,
+      "end": 688.8,
+      "text": "Well, in version 23, the toolkit itself can source the test codes from GitHub. So, no need necessarily to bake it in."
+    },
+    {
+      "t": 688.8,
+      "end": 704.8,
+      "text": "In the previous version, uh Business Central toolkit had the test code built in and therefore if if if we from Microsoft added new scenarios, you needed to to update your your tool your your tool."
+    },
+    {
+      "t": 704.8,
+      "end": 718.6,
+      "text": "Not anymore. Uh, as of this version, version 23, Business Central the toolkit can just run and and get code directly from GitHub and it looks like this."
+    },
+    {
+      "t": 718.6,
+      "end": 732.5,
+      "text": "This is VS code. So, you clear the credentials cache. You start your Business Central startup setup wizard. You select which environment you want to test, whether it's a online or Docker sandbox."
+    },
+    {
+      "t": 732.5,
+      "end": 744.7,
+      "text": "You log in. You select the tenant you would like to test on. And then, this is important part. No, next one. Uh, select where you want your"
+    },
+    {
+      "t": 744.7,
+      "end": 759.3,
+      "text": "BCPT project files on disk. And now comes the magic. You either take the standard test that ship with the product or with the with the tool or you simply get the latest tests from GitHub."
+    },
+    {
+      "t": 759.3,
+      "end": 772,
+      "text": "So, if someone, including yourself, contributed to the open source project and got it accepted there, it's available for you and it's available for everyone else."
+    },
+    {
+      "t": 772,
+      "end": 787.8,
+      "text": "So, right now we have 22 scenarios available scenarios available on GitHub and hopefully many more to come. I'm I'm trying to my very best that we from Microsoft add many more."
+    },
+    {
+      "t": 787.8,
+      "end": 802.3,
+      "text": "I hope with this that you get inspired as a partner and add or other partners add uh, scenarios to this so that the the tax will go down, the friction will go down uh,"
+    },
+    {
+      "t": 802.3,
+      "end": 812.8,
+      "text": "with with good coverage instead of 22, maybe 222 or 2,200 like the different scenarios that that really cover the application"
+    },
+    {
+      "t": 812.8,
+      "end": 823.6,
+      "text": "from partners, hopefully from you. And uh and that would make the the coverage part of the tool even easier."
+    },
+    {
+      "t": 823.6,
+      "end": 834.5,
+      "text": "Then you need to analyze test results. And this is you can do this with KQL. You can also uh if you run it with DevOps have these small reports."
+    },
+    {
+      "t": 834.5,
+      "end": 851,
+      "text": "But maybe the easiest is simply to use Power BI. So if you have enabled telemetry before the test run, you have data on a lot of things. You just use the Power BI app on telemetry, look at the performance report, and especially three different pages."
+    },
+    {
+      "t": 851,
+      "end": 867.2,
+      "text": "There's a page directly showing performance toolkit results. And for especially where this BCPT uh the toolkit tool where it really shines is concurrency testing that you have concurrent"
+    },
+    {
+      "t": 867.2,
+      "end": 881.7,
+      "text": "scenarios running. This is where you where you kind of flesh out deadlocks and database lock timeout issues in code. Uh and and there are pages in in the Power BI report for these two,"
+    },
+    {
+      "t": 881.7,
+      "end": 896.2,
+      "text": "deadlocks and uh database lock database lock timeouts. So under performance, you have the performance toolkit report that shows you any test that took a long time, timings,"
+    },
+    {
+      "t": 896.2,
+      "end": 915.5,
+      "text": "and so on. The deadlock uh report under errors show you um issues with deadlocks. And uh with database locks page, you can see which um which objects uh were hurt by the lock timeouts."
+    },
+    {
+      "t": 915.5,
+      "end": 927.1,
+      "text": "Was it background or UI? In this case, it will all be background because the Business Central uh performance toolkit uh runs everything with background sessions. You can see when locking is a problem."
+    },
+    {
+      "t": 927.1,
+      "end": 938.3,
+      "text": "Probably not for for BC- PT because that would be when you run the test or when you run the the suites. And you even get insights into the AL stack trace"
+    },
+    {
+      "t": 938.3,
+      "end": 949,
+      "text": "both top and bottom of this. Who tried to take the locks and which which part of the code was was hurt by the lock timeout. And then finally"
+    },
+    {
+      "t": 949,
+      "end": 959.3,
+      "text": "there's a sequel part to it as well. So not only do you get the AL stack trace and the AL view of things, but you also see the database view of things."
+    },
+    {
+      "t": 959.3,
+      "end": 972.3,
+      "text": "You get the sequel statements and you can now investigate further into that. So where do where do we want to take this tool"
+    },
+    {
+      "t": 972.3,
+      "end": 983.2,
+      "text": "in the future? When we kind of revitalized Business Central toolkit as like last year."
+    },
+    {
+      "t": 983.2,
+      "end": 996.4,
+      "text": "We we put some We we thought of different ingredients of success. It's not a prioritized list, but things we wanted to have to happen to this tool to to make it work for everyone."
+    },
+    {
+      "t": 996.4,
+      "end": 1008.6,
+      "text": "And we have these five different pillars. Remove friction, change the culture, collaborate with the community, enroll ambassadors, and have better readiness material."
+    },
+    {
+      "t": 1008.6,
+      "end": 1018.9,
+      "text": "Let's take them one by one. Remove friction. Hopefully with the with the open source capabilities we do now."
+    },
+    {
+      "t": 1018.9,
+      "end": 1031.6,
+      "text": "With the way we do integration to DevOps and with the way we kind of pave the way towards automation is something where you would hopefully"
+    },
+    {
+      "t": 1031.6,
+      "end": 1044,
+      "text": "over time think of this as just part of your normal go live or your normal practice. That especially once we have or you have proper automation,"
+    },
+    {
+      "t": 1044,
+      "end": 1054.6,
+      "text": "it shouldn't be a big deal to to set up a test run and get some results and see whether a change is going to hurt performance."
+    },
+    {
+      "t": 1054.6,
+      "end": 1070.1,
+      "text": "Changing the culture. Um hopefully also with this presentation, you see that this performance testing is not just for people working in what I call the basement or in with the technical roles."
+    },
+    {
+      "t": 1070.1,
+      "end": 1081.6,
+      "text": "Hopefully we can change the culture into that's just a natural way of doing business. Just like with telemetry is not something just for troubleshooting, it's something to see the usage of things."
+    },
+    {
+      "t": 1081.6,
+      "end": 1092.6,
+      "text": "Um why not have performance testing as part of your pre-sales before you interact with a customer if customer is asking, \"Can Business Central handle this load?\""
+    },
+    {
+      "t": 1092.6,
+      "end": 1102.7,
+      "text": "Let's find out. Let's test it and uh and and run a test. Community is important when we talk about both open source, but also evangelizing this."
+    },
+    {
+      "t": 1102.7,
+      "end": 1113.6,
+      "text": "So I hope that you with me together with me will take this into your partner practices, do lunch sessions, and kind of evangelize, \"Look, it's not difficult. Let's give it a shot."
+    },
+    {
+      "t": 1113.6,
+      "end": 1128.2,
+      "text": "Let's invest in it.\" And for that uh ambassadors around the world, not only MVPs, but also you out there. You can help be an ambassador of this and and help drive this change."
+    },
+    {
+      "t": 1128.2,
+      "end": 1145.9,
+      "text": "And then finally better readiness material. I'll show you that on the resources. We invested in getting better documentations uh and uh defining hopefully defining the personas and scenarios that you saw in this presentation."
+    },
+    {
+      "t": 1145.9,
+      "end": 1153.6,
+      "text": "Let Let me show you that. First of all, aka.ms/bcpt"
+    },
+    {
+      "t": 1153.9,
+      "end": 1167.8,
+      "text": "is the documentation for the toolkit. Here you get um you first of all you you get some guidance of the first question."
+    },
+    {
+      "t": 1167.8,
+      "end": 1182.7,
+      "text": "Pre-sales. How do I answer the question, can Business Central handle a specific load for a for a prospect customer? Take a look to see maybe there's something there for you to to operationalize this."
+    },
+    {
+      "t": 1182.7,
+      "end": 1198.3,
+      "text": "Second thing is how do I analyze Business Central data? How do you set up? But here we actually documented all the personas you saw in that parallel universe in the galaxy example,"
+    },
+    {
+      "t": 1198.3,
+      "end": 1209.7,
+      "text": "they are here. They are documented as personas and the scenarios are described here directly on docs. We also added um an FAQ."
+    },
+    {
+      "t": 1209.7,
+      "end": 1224.4,
+      "text": "Everything you always wanted to know about bcpt, but you were afraid to ask. If you want to go specifically into the telemetry parts, this is this is the URL for you, bc telemetry."
+    },
+    {
+      "t": 1224.4,
+      "end": 1234.9,
+      "text": "Down here, analyze telemetry with Power BI takes you through how to set up and run the telemetry part for for"
+    },
+    {
+      "t": 1234.9,
+      "end": 1248.6,
+      "text": "um tracking performance including Business Central a performance toolkit. So, go do's. Directly after this session, before you go to any other launch event,"
+    },
+    {
+      "t": 1248.6,
+      "end": 1262.8,
+      "text": "find your Business Central performance toolkit usage scenario. I'm pretty sure that you your role has a need for bcpt. And then the second thing is start building bcpt into your processes."
+    },
+    {
+      "t": 1262.8,
+      "end": 1274.9,
+      "text": "Pick a process, use bcpt, start small, expand to grow that culture that performance testing doesn't have to be hard."
+    },
+    {
+      "t": 1274.9,
+      "end": 1287.7,
+      "text": "Embrace open source. If if If every part of your organization have to do this then it shouldn't be a tax, right?"
+    },
+    {
+      "t": 1287.7,
+      "end": 1298.6,
+      "text": "So what if 3,000 partners out there contribute a little bit every day? I'm pretty sure that we together can build a pretty decent coverage of"
+    },
+    {
+      "t": 1298.6,
+      "end": 1310.4,
+      "text": "BC PT scenarios that cover the main scenarios for everyone. And for that, learn a little bit of Git. The basics of Git is not really hard."
+    },
+    {
+      "t": 1310.4,
+      "end": 1324.8,
+      "text": "Spend 10 minutes every morning in a week and you are done. If you are if you are not like if you if if Git and and and GitHub is is not something that you do every day."
+    },
+    {
+      "t": 1324.8,
+      "end": 1344.7,
+      "text": "And then come back to the launch event and watch some other sessions. In particular if onboarding was triggered triggered your interest, of course you should watch the what's new in in onboarding creating customer-centric onboarding experiences."
+    },
+    {
+      "t": 1344.7,
+      "end": 1355.5,
+      "text": "If you are working primarily with code as an ISV maybe, I'm sure that the AL go for GitHub what's new session is definitely for you."
+    },
+    {
+      "t": 1355.5,
+      "end": 1365.8,
+      "text": "And for Power BI and reporting for developers, why why did I put this reference here? Well, it's because"
+    },
+    {
+      "t": 1365.8,
+      "end": 1376.9,
+      "text": "once you get a little bit of feeling for the Power BI, we're actually doing a lot in Power BI embed for for the next for this release and going forward."
+    },
+    {
+      "t": 1376.9,
+      "end": 1388.7,
+      "text": "So once you get familiar with using Power BI as a way to get insights into the into the business process of go live, why not take your experience"
+    },
+    {
+      "t": 1388.7,
+      "end": 1400.8,
+      "text": "of being data driven here into being data driven with customer projects and helping them being data driven on on their business KPIs."
+    },
+    {
+      "t": 1400.8,
+      "end": 1412.2,
+      "text": "If you want to learn more, Yammer is always the place for a good discussion. Also, if you want to take the smaller Twitter Twitch, it's X Twitter."
+    },
+    {
+      "t": 1412.2,
+      "end": 1427.3,
+      "text": "BC all is the AKA link to rule them all. This is the one that has all the other references to all other AKA links. And if you have ideas for things we can do better or new,"
+    },
+    {
+      "t": 1427.3,
+      "end": 1439,
+      "text": "BC ideas is your friend. Um as always, everything we cover in the Business Central launch events is also something we cover later in BC and in the office hours."
+    },
+    {
+      "t": 1439,
+      "end": 1451.8,
+      "text": "So, this BC office hours URL is where you both find upcoming office hours as well as recordings for existing ones. And with that, I wish you a very very good launch event."
+    },
+    {
+      "t": 1451.8,
+      "end": 1463,
+      "text": "I hope you get good learning opportunities, throw some good parties at your partner practices, and thank you so much for having me."
+    }
+  ],
+  "markers": [],
+  "word_count": 3220
+}

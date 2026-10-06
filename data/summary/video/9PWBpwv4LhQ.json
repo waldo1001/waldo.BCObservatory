@@ -1,0 +1,28 @@
+{
+  "video_id": "9PWBpwv4LhQ",
+  "item_id": "video/yt-microsoft/9PWBpwv4LhQ",
+  "summary": "Resource governance in Business Central Online (2023 release wave 2): how consumption tracking, user-based operational limits and planned entitlement quotas work. It covers the planned changes to speed, concurrency and execution time limits for scheduled tasks and web service requests.",
+  "overview": "The session explains the goal of resource governance: fair and optimal resource consumption for all Business Central Online customers on a shared multi-tenant service. It separates quotas, which are entitlements tied to licenses, from operational limits, which are fixed rules that apply equally to all users. It also describes the local and global consumption trackers.\n\nIt then walks through planned limit changes. Limits move from per environment to per user, with higher values for scheduled task concurrency and web service speed. A new execution time limit is announced for a future release. Limits are to be raised gradually during the preview period, and the speaker says details are subject to change.",
+  "key_points": [
+    "Quotas are entitlements or rights based on licenses. Limits are rules that apply equally to everyone. Entitlement quotas are announced and in the planning stage, estimated for the next two or three quarters.",
+    "Entitlement quotas are planned to be tiered by license type, cumulative per environment and non-transferable between users. The aim is for 99% of customers to stay within quota.",
+    "Consumption is tracked by a local consumption tracker per user and environment in each cluster. A global consumption tracker aggregates across the tenant and applies customer-wide quotas.",
+    "Scheduled task concurrency is planned to rise from 3 concurrent tasks per environment to 5 concurrent tasks per user, with an early-quarter rollout.",
+    "The web service speed limit is planned to change from 600 requests per environment per minute to 6,000 requests per user in a 5-minute sliding window. The speaker places this around November-December and says it is subject to change.",
+    "Web service concurrency is planned to stay at 10 concurrent requests but apply per user instead of per environment, keeping the 5 processed and 95 queued ratio. The rollout is planned for the end of the quarter.",
+    "An execution time limit for workloads is announced for a future release. Dynamic resource-based limits are applied internally and are not published."
+  ],
+  "audience": [
+    "administrator",
+    "developer",
+    "functional consultant",
+    "decision maker"
+  ],
+  "extraction_hash": "6d49261c5f856131c500b1fa68ad39a698e92676a98a03987511666f004a6132",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.021826400000000003
+  }
+}

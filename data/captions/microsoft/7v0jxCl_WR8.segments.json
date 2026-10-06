@@ -1,0 +1,348 @@
+{
+  "video_id": "7v0jxCl_WR8",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 19.8,
+      "end": 29.3,
+      "text": "Hello and welcome. I'm Andrei Panko, and I will be doing demos for you. Demos of demo data, sounds interesting."
+    },
+    {
+      "t": 29.3,
+      "end": 37.6,
+      "text": "So, you know that we are slightly moving from configuration packages into Contoso Coffee demo data tool,"
+    },
+    {
+      "t": 37.6,
+      "end": 52,
+      "text": "which contains different scenarios. And in this season, we change how tool looks, and we also added support of missing service management model. Now it includes the data to demonstrate two very different scenarios."
+    },
+    {
+      "t": 52,
+      "end": 61.8,
+      "text": "And I will do a quick demo for you in a moment. Let's start by taking a quick look at the Contoso demo tool."
+    },
+    {
+      "t": 63.1,
+      "end": 75.8,
+      "text": "I will search for Contoso, and now it is only one page related to this one. So we removed the duplicated pages, because now all models are listed here. And you can see the service model is added."
+    },
+    {
+      "t": 75.8,
+      "end": 85.8,
+      "text": "You can open the configuration pages, which are now dramatically simpler. And because we moved shared details into the common model, all right?"
+    },
+    {
+      "t": 86.5,
+      "end": 92.6,
+      "text": "So for example, sales tax, the company type, which decides on a tax calculation,"
+    },
+    {
+      "t": 92.6,
+      "end": 103.9,
+      "text": "or currency details are listed here. You don't need to define them in each one. And because this model is dependent, you just run one functional model."
+    },
+    {
+      "t": 104.2,
+      "end": 111.7,
+      "text": "And you can run it in two different modes. You can run it in the generate means full and setup and demo data,"
+    },
+    {
+      "t": 111.7,
+      "end": 120,
+      "text": "means master data and transactions included. Or generate setup data only, means you can get number series and various setups"
+    },
+    {
+      "t": 120,
+      "end": 127.6,
+      "text": "in the company, but not master data. Then you can load your data somehow else, somehow differently."
+    },
+    {
+      "t": 127.6,
+      "end": 139.8,
+      "text": "I don't need to run anything, because it's already executed in the pre-installed packages, pre-installed companies. But if you create a new company, you might want to try it."
+    },
+    {
+      "t": 140.4,
+      "end": 153.4,
+      "text": "And now we have enough demo data to demonstrate two very different scenarios, both in the service area. I will start with ad hoc service order. So somebody unknown, or maybe known, in this case,"
+    },
+    {
+      "t": 153.4,
+      "end": 157.8,
+      "text": "it will be our favorite customer, 10,000, approach our company,"
+    },
+    {
+      "t": 157.8,
+      "end": 171.4,
+      "text": "because they have issues with one of our items. But it was not us who sold it to them. So it was somebody else. That's why we don't have it as service item created, but we can actually use a normal item."
+    },
+    {
+      "t": 171.4,
+      "end": 176.3,
+      "text": "And here we can use standard fancy functionality of the service model."
+    },
+    {
+      "t": 176.3,
+      "end": 187.8,
+      "text": "We can do quick troubleshooting. Have you tried to turn it off and on again? The classical one. Or you can do more advanced fault resolution code search."
+    },
+    {
+      "t": 187.8,
+      "end": 197.8,
+      "text": "So what is complaint about? What is a symptom? A symptom people complain about noise. Mm-hmm. Noise where? During doing."
+    },
+    {
+      "t": 197.8,
+      "end": 211.9,
+      "text": "All right. Then probably we need to fix it in this way, how it is described. All right. Let's close it. So now we have a recommendation. Let's scroll to the right and ask people, do you need a spare coffee machine meanwhile?"
+    },
+    {
+      "t": 211.9,
+      "end": 223.1,
+      "text": "We are doing repair. Yes, of course. We cannot live without coffee. So let's take something instead. We are registering replacement. And probably we need to charge people a little bit for this replacement."
+    },
+    {
+      "t": 223.1,
+      "end": 231.3,
+      "text": "That's why we use functions, get standard service code, and I have one defined to charge for loaner per day."
+    },
+    {
+      "t": 231.3,
+      "end": 243.2,
+      "text": "All right. We will fix very fast. Good. This one is ready. So I create a service order. Now service technician should be able to take it."
+    },
+    {
+      "t": 243.2,
+      "end": 255.2,
+      "text": "All right. I am now service technician. I can see that I have service order scheduled for today, and I will just go to list of the tasks, service tasks."
+    },
+    {
+      "t": 256.4,
+      "end": 272.2,
+      "text": "Usually I have more, but today I have only one, and I will start work on it immediately. I open item worksheet. I see some details about what I'm fixing, what are the symptoms and what are the recommended resolution,"
+    },
+    {
+      "t": 272.2,
+      "end": 279.1,
+      "text": "and I will just do my work. I will register my work as service hours."
+    },
+    {
+      "t": 280.4,
+      "end": 284.7,
+      "text": "So I spend a couple of hours fixing the stuff."
+    },
+    {
+      "t": 284.7,
+      "end": 292.5,
+      "text": "All right. Am I done? Probably yes. Then I can change status of the specific line to finished."
+    },
+    {
+      "t": 293.2,
+      "end": 307.4,
+      "text": "Good. This also, because it's only one item in the service order, updates status of the service order in general. Good. Now, back from service technician to more responsible people,"
+    },
+    {
+      "t": 307.6,
+      "end": 318.1,
+      "text": "service managers or person who is responsible for invoicing, they see the finished service order, what they can just do, go and post it. Post, ship, and invoice."
+    },
+    {
+      "t": 318.1,
+      "end": 331.2,
+      "text": "Done. That was very quick demo of the ad hoc repairs, and we have some demo data to support this scenario. All right. More advanced scenario, and it will be involving service contract,"
+    },
+    {
+      "t": 331.2,
+      "end": 340,
+      "text": "but to do service contract, we need to have a service item. We will create service item automatically when we post sales order."
+    },
+    {
+      "t": 340,
+      "end": 346.1,
+      "text": "So let's find the sales order already created in the system with some item,"
+    },
+    {
+      "t": 347.5,
+      "end": 353,
+      "text": "and let's ship it and maybe invoice it as well."
+    },
+    {
+      "t": 355,
+      "end": 365.8,
+      "text": "We don't want to look at invoice, but we want to look at the service contract. So let's go to the service contract and create a new one."
+    },
+    {
+      "t": 366,
+      "end": 377.5,
+      "text": "Okay. And we have also templates, some templates, examples to demonstrate different patterns. We are going to use the prepayment contract with monthly repair orders."
+    },
+    {
+      "t": 379.3,
+      "end": 393.2,
+      "text": "All right. Which customer? The same, the favorite one. When we will be creating service orders, because we actually want not only to charge for regularly, but we also want to perform some type of service."
+    },
+    {
+      "t": 393.2,
+      "end": 403.4,
+      "text": "We can also use service order types to define the difference. That will be maintenance type of contract. It will be easy for us to monitor them. All right."
+    },
+    {
+      "t": 403.4,
+      "end": 407.6,
+      "text": "Now it's time to add the lines in the contract."
+    },
+    {
+      "t": 407.6,
+      "end": 412.8,
+      "text": "It will be service item."
+    },
+    {
+      "t": 414.7,
+      "end": 428.4,
+      "text": "It was created automatically during the posting of shipment. All right. Let's add it. Let's define some value and sign the contract."
+    },
+    {
+      "t": 431.1,
+      "end": 440.5,
+      "text": "Yes, I want to sign my contract. And because I'm charging monthly, I probably need to charge the remainder of the month."
+    },
+    {
+      "t": 440.5,
+      "end": 452.7,
+      "text": "Yep. Service contract was created. Or service invoice, sorry. I can see it here. So some statistics, open service invoice."
+    },
+    {
+      "t": 454,
+      "end": 464.2,
+      "text": "Take a look at the details. I can see some gel amounts, some amounts, and we just go and post it. All right. So invoicing is done. Customer is paying on time. All good."
+    },
+    {
+      "t": 464.2,
+      "end": 473.2,
+      "text": "Probably we need to do the actual maintenance. Let's close the service invoice, service contract, and sometime passed."
+    },
+    {
+      "t": 474.9,
+      "end": 485.7,
+      "text": "Now we need to do service order. We will run create service orders from the contract task, which are valid in this month,"
+    },
+    {
+      "t": 485.7,
+      "end": 498.4,
+      "text": "which apparently is April. I will click OK. Usually it should be more than one order because probably we have multiple contracts. But for demonstration purpose, one order is always good."
+    },
+    {
+      "t": 498.4,
+      "end": 504.9,
+      "text": "And here it is. Then from here, we can do the standard work."
+    },
+    {
+      "t": 504.9,
+      "end": 509.4,
+      "text": "Let's register some resource utilization."
+    },
+    {
+      "t": 509.4,
+      "end": 518.2,
+      "text": "First of all, I want to assign this order to someone. I will open the administration, dispatch board,"
+    },
+    {
+      "t": 518.5,
+      "end": 523,
+      "text": "and then I have maybe multiple, maybe one order."
+    },
+    {
+      "t": 523,
+      "end": 533.8,
+      "text": "And it's time to do the resource allocation. Let's do resource allocation. Who should work on it? Resource, when?"
+    },
+    {
+      "t": 533.8,
+      "end": 550.2,
+      "text": "Today is a good day. How long? Two hours. I like to work for two hours. All right. That's one allocated. I can use zones or I can use skills to filter out resource and assign the proper ones."
+    },
+    {
+      "t": 550.2,
+      "end": 556.3,
+      "text": "Now I will do technician work the same way as we did before."
+    },
+    {
+      "t": 556.8,
+      "end": 567.6,
+      "text": "We open service task. We find the stuff to do. And now I will be using, again, the same item, work with. But in this type, I will be using hours."
+    },
+    {
+      "t": 567.6,
+      "end": 581.3,
+      "text": "I'm registering hours that I'm, as a resource, spend, okay, not two, but three hours in reality. That was a bit longer than expected. And let's mark it as finished as well."
+    },
+    {
+      "t": 581.3,
+      "end": 590.8,
+      "text": "Okay. Done, done. This order is slightly different. That's why when I, before posting of it, I will explore."
+    },
+    {
+      "t": 590.8,
+      "end": 596.7,
+      "text": "I will navigate to lines. I will open order service lines and change quantity"
+    },
+    {
+      "t": 596.7,
+      "end": 602.2,
+      "text": "from quantity to invoice to zero to quantity to consume."
+    },
+    {
+      "t": 603.8,
+      "end": 609,
+      "text": "Because it will be internal consumption. Because we charge customer separately via invoicing process."
+    },
+    {
+      "t": 609,
+      "end": 619,
+      "text": "So these are two parallel but not very related processes. Let's post, ship, and consume. So internal consumption is registered."
+    },
+    {
+      "t": 619,
+      "end": 625.6,
+      "text": "All right. That was a very quick demos of demo tool, which now has more models."
+    },
+    {
+      "t": 625.6,
+      "end": 636.4,
+      "text": "And you can see we are moving more and more stuff there. So sooner or later, like everything will be there. Not only for SaaS, but for on-prem as well. And this model is very extensible."
+    },
+    {
+      "t": 636.4,
+      "end": 648.2,
+      "text": "So you can just go and add your vertical functionality if needed and reuse existing ones. There is a special session about it also available."
+    },
+    {
+      "t": 648.2,
+      "end": 659,
+      "text": "And that's it. Let me just give a standard advertisement of the valuable resources you have access to and way to communicate with us."
+    },
+    {
+      "t": 659,
+      "end": 669.6,
+      "text": "You can submit ideas about missing functionality, what we must add and what is a priority. This is very helpful. If you are a partner, you can join the Yammer group"
+    },
+    {
+      "t": 669.6,
+      "end": 678.4,
+      "text": "and participate in the design discussion in more details. And get access to preview bits and provide feedback early feedback sooner."
+    },
+    {
+      "t": 678.4,
+      "end": 685.4,
+      "text": "Thank you very much. And let's stay in touch."
+    }
+  ],
+  "markers": [
+    {
+      "t": 0,
+      "text": "[MUSIC]"
+    }
+  ],
+  "word_count": 1529
+}

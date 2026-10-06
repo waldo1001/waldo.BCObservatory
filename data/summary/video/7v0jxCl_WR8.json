@@ -1,0 +1,27 @@
+{
+  "video_id": "7v0jxCl_WR8",
+  "item_id": "video/yt-microsoft/7v0jxCl_WR8",
+  "summary": "Service management demo data in the Contoso Coffee demo tool (2023 release wave 2): the tool gains a service management model and simpler configuration pages. The video walks through an ad hoc service order scenario and a service contract scenario with maintenance orders.",
+  "overview": "The video shows the Contoso demo data tool with a new look and a service management model. Configuration pages are simpler because shared details such as sales tax, company type and currency now sit in a common model. The tool can generate full setup and demo data, or setup data only.\n\nTwo scenarios are demonstrated. The first is an ad hoc repair: a service order for an item not originally sold as a service item, with troubleshooting, fault resolution codes, replacement items, the technician task list, hours registration, and posting with ship and invoice. The second is a service contract: service items are created automatically when a sales order is posted, a contract is created from a template, signed and invoiced, service orders are created from the contract, and resources are allocated on the dispatch board. The video also says the tool is extensible for partners.",
+  "key_points": [
+    "The Contoso demo tool now includes a service management model covering ad hoc repairs and service contracts.",
+    "Configuration pages are simpler; shared settings such as sales tax, company type and currency moved into a common model.",
+    "Two generation modes: full setup plus demo data (master data and transactions), or setup data only (number series and setups, no master data).",
+    "Service items are created automatically when a sales order is posted, which lets you manage service contracts for them.",
+    "Service contracts can be created from templates, including a prepayment pattern with monthly repair orders; signing can generate invoices, including the remainder of the month.",
+    "Service orders can be created from a contract for the valid period, for example monthly maintenance orders.",
+    "The dispatch board allocates service orders to resources, with filtering by zones or skills; technicians register actual hours, which may differ from the plan."
+  ],
+  "audience": [
+    "functional consultant",
+    "partner",
+    "developer"
+  ],
+  "extraction_hash": "c1cb082f66b777bca979f4e9e85abb562654a585f5351158ef0d407a7175a969",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.018768399999999998
+  }
+}

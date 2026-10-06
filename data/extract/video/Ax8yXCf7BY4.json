@@ -1,0 +1,501 @@
+{
+  "video_id": "Ax8yXCf7BY4",
+  "item_id": "video/yt-microsoft/Ax8yXCf7BY4",
+  "title": "What's New: Legislation and Localization (2023 release wave 2)",
+  "duration_s": 1304,
+  "systems": [
+    "localization",
+    "finance",
+    "reporting"
+  ],
+  "topics": [
+    "legislation compliance",
+    "delocalization",
+    "eu three-party trade",
+    "automatic account codes",
+    "audit file export",
+    "registration number field",
+    "w1 base app",
+    "swedish deprecation",
+    "vat reporting",
+    "gl account mapping",
+    "intrastat",
+    "drop shipment"
+  ],
+  "chapters": [
+    {
+      "title": "Legislation mission and scope overview",
+      "t_start": 0,
+      "t_end": 100.5
+    },
+    {
+      "title": "New features and 23 new countries",
+      "t_start": 100.5,
+      "t_end": 177.7
+    },
+    {
+      "title": "Localization strategy and W1 base app enrichment",
+      "t_start": 177.7,
+      "t_end": 383.8
+    },
+    {
+      "title": "Delocalization process and Swedish deprecation timeline",
+      "t_start": 383.8,
+      "t_end": 543.6
+    },
+    {
+      "title": "EU three-party trade and automatic account codes apps",
+      "t_start": 543.6,
+      "t_end": 747.8
+    },
+    {
+      "title": "Registration number field, Audit File Expert, and GL Account Mapping",
+      "t_start": 747.8,
+      "t_end": 915.8
+    },
+    {
+      "title": "Intrastat Improvements: Drop Shipment and Czech Localization",
+      "t_start": 915.8,
+      "t_end": 1016.9
+    },
+    {
+      "title": "Report Formatting Enhancements",
+      "t_start": 1016.9,
+      "t_end": 1191.6
+    },
+    {
+      "title": "Report Formatting Summary and Closing Remarks",
+      "t_start": 1191.6,
+      "t_end": 1304
+    }
+  ],
+  "features": [
+    {
+      "name": "EU three-party trade app",
+      "description": "App for purchase transactions that helps customers report transactions where goods are sent to a different EU country without entering the country of residence, enabling VAT compliance reporting.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 543.6,
+      "t_end": 636.2,
+      "is_demoed": true,
+      "caveats": [
+        "Available in European countries",
+        "Requires manual definition of transaction type in purchase invoice"
+      ],
+      "tags": [
+        "vat reporting",
+        "eu compliance",
+        "purchase transactions"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Automatic account codes",
+      "description": "Functionality using customized posting groups to automate recurring transactions in journals and sales or purchase documents, allowing allocation across different accounts or dimensions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 647.4,
+      "t_end": 747.8,
+      "is_demoed": true,
+      "caveats": [
+        "Must be configured in automatic account groups page before use"
+      ],
+      "tags": [
+        "automation",
+        "posting groups",
+        "expense allocation"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Registration number field",
+      "description": "Additional registration field added across company information, customer, vendor and contact cards for countries where authorities require additional registration beyond VAT registration.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 760.4,
+      "t_end": 799.2,
+      "is_demoed": false,
+      "caveats": [
+        "Required only in certain countries"
+      ],
+      "tags": [
+        "registration",
+        "compliance",
+        "master data"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Audit File Expert",
+      "description": "Functionality that provides an interface for extensions to export accounting and tax data in various formats like Norwegian SFT, Swedish SIE, and French FEC. Allows scheduling to off-work hours and parallel processing with options to split data by months or dates.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 799.2,
+      "t_end": 915.8,
+      "is_demoed": false,
+      "caveats": [
+        "Requires specific format expansion implementation",
+        "Must be extended by country-specific implementations",
+        "requires extension implementation",
+        "specific form expansions needed for different countries"
+      ],
+      "tags": [
+        "audit export",
+        "tax data",
+        "regulatory reporting",
+        "audit file",
+        "export",
+        "accounting"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "GL Account Mapping",
+      "description": "Provides ability to map chart of accounts to standard accounts when exporting data through Audit File Expert extension, addressing regulatory authority requirements.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 859.2,
+      "t_end": 915.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "account mapping",
+        "regulatory",
+        "chart of accounts"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Swedish delocalization",
+      "description": "Process of removing Swedish local functionalities from base app starting with version 22 and 23, marking code as obsolete pending, with complete removal planned by version 29 and table removal by version 30.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 424.1,
+      "t_end": 533.3,
+      "is_demoed": false,
+      "caveats": [
+        "Follows specific deprecation timeline over multiple releases",
+        "Table deletion follows different pattern than code deletion"
+      ],
+      "tags": [
+        "delocalization",
+        "deprecation",
+        "local app"
+      ],
+      "system": "localization"
+    },
+    {
+      "name": "23 new countries in cloud",
+      "description": "Cloud solution expanded with 23 new countries in this release, bringing total to 155 markets available from December 2023.",
+      "status": "announced",
+      "status_evidence_t": 157.6,
+      "status_evidence_quote": "these new countries will be available from December this year",
+      "status_evidence_verified": true,
+      "t_start": 157.6,
+      "t_end": 177.7,
+      "is_demoed": false,
+      "caveats": [
+        "Available from December 2023"
+      ],
+      "tags": [
+        "cloud expansion",
+        "market availability"
+      ],
+      "system": "localization"
+    },
+    {
+      "name": "Drop Shipment for Triangular Intrastat Trade",
+      "description": "Enables use of drop shipment in intrastat reporting for triangular trade scenarios where goods bypass the reporting company's country. Must enable include drop shipment toggle in intrastat report setup page.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 915.8,
+      "t_end": 1016.9,
+      "is_demoed": false,
+      "caveats": [
+        "must enable toggle in intrastat report setup",
+        "requires item ledger entries marked as drop shipment",
+        "based on country region code differences"
+      ],
+      "tags": [
+        "intrastat",
+        "drop shipment",
+        "triangular trade",
+        "eu trade"
+      ],
+      "system": "localization"
+    },
+    {
+      "name": "Intrastat Czech Localization",
+      "description": "Intrastat is now localized for Czech Republic with new release wave 2, extending intrastat module usage globally.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 997,
+      "t_end": 1016.9,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "czech",
+        "localization",
+        "intrastat"
+      ],
+      "system": "localization"
+    },
+    {
+      "name": "Report Formatting Enhancements",
+      "description": "Support for defining report format and region directly from the application request page, AL code, and customer/vendor cards. Previously format could only be changed through settings page. Includes format region property on report objects and cascade fallback to settings.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1051.3,
+      "t_end": 1191.6,
+      "is_demoed": true,
+      "caveats": [
+        "non-breaking change to current experience",
+        "fallback to settings if not configured"
+      ],
+      "tags": [
+        "report formatting",
+        "format region",
+        "language",
+        "localization"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Report Format Region Property",
+      "description": "AL code support for defining format region directly on report object through new format region property, enabling flexible report output formatting.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1158.6,
+      "t_end": 1171,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "report",
+        "al development",
+        "format region"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Customer/Vendor Report Format Definition",
+      "description": "Ability to define language and format region for specific customers or vendors directly from vendor or customer card, using the same pattern as language settings.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1171,
+      "t_end": 1191.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "report formatting",
+        "customer",
+        "vendor",
+        "localization"
+      ],
+      "system": "reporting"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "VAT statement",
+      "t": 615.8
+    },
+    {
+      "type": "page",
+      "name": "automatic account groups",
+      "t": 687.7
+    },
+    {
+      "type": "table",
+      "name": "GL entries",
+      "t": 727.7
+    },
+    {
+      "type": "page",
+      "name": "intrastat report setup page",
+      "t": 936.2
+    },
+    {
+      "type": "table",
+      "name": "item ledger entries",
+      "t": 976.8
+    },
+    {
+      "type": "page",
+      "name": "my settings page",
+      "t": 1071.7
+    },
+    {
+      "type": "report",
+      "name": "report object",
+      "t": 1158.6
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Alexander",
+      "confidence": "high"
+    },
+    {
+      "name": "Pred",
+      "confidence": "high"
+    },
+    {
+      "name": "Arthur",
+      "confidence": "high"
+    },
+    {
+      "name": "Arur",
+      "confidence": "low"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 62.1,
+      "text": "making organizations compliant with various set for by government regulation agency by providing features that automate regulatory tasks",
+      "why_it_matters": "Defines the core mission and purpose of the legislation and localization efforts.",
+      "check": "exact"
+    },
+    {
+      "t": 157.6,
+      "text": "these new countries will be available from December this year to be accurate we added to the cloud new 23 countries",
+      "why_it_matters": "Announces significant cloud market expansion with specific timeline and concrete numbers.",
+      "check": "exact"
+    },
+    {
+      "t": 193,
+      "text": "localization strategy is based on four pillars first pillar is to enrich our core base application",
+      "why_it_matters": "States the foundational approach to localization strategy.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 308.2,
+      "text": "we have features that exist in different flavors in various count that we can rethink and refactor with the global mindset",
+      "why_it_matters": "Explains how localization features are consolidated into W1 base app.",
+      "check": "exact"
+    },
+    {
+      "t": 424.1,
+      "text": "with this release we will have one more country Sweden where we completely removed the Swedish local functionalities into app",
+      "why_it_matters": "Confirms Sweden as first delocalization completion beyond the initial three countries.",
+      "check": "exact"
+    },
+    {
+      "t": 498.1,
+      "text": "in version 26 uh all the this new functionalities should be enabled after that old Cod will be tagged with obsolete removed",
+      "why_it_matters": "Specifies exact version timeline for Swedish deprecation and code removal.",
+      "check": "snapped"
+    },
+    {
+      "t": 556.5,
+      "text": "in some European countries in order to stay comply it is necessary to report such transactions to the V reports",
+      "why_it_matters": "Explains the regulatory requirement that the three-party trade feature addresses.",
+      "check": "exact"
+    },
+    {
+      "t": 799.2,
+      "text": "audit File Expert is a functionality that provides an interface for extension to expert accounting and tax data",
+      "why_it_matters": "Describes the core capability of Audit File Expert for exporting accounting and tax data in multiple formats.",
+      "check": "exact"
+    },
+    {
+      "t": 915.8,
+      "text": "use drop shipment for triangular interest trade and first what is the triangle trade at all triangle trade involves trade between companies located in",
+      "why_it_matters": "Explains a significant intrastat regulatory feature addressing multi-country triangular trade scenarios.",
+      "check": "exact"
+    },
+    {
+      "t": 936.2,
+      "text": "for interat to use drop shipment you must turn on include drop shipment tole in interest report seta page",
+      "why_it_matters": "Specifies the setup requirement and the critical configuration toggle for enabling drop shipment in intrastat.",
+      "check": "exact"
+    },
+    {
+      "t": 1051.3,
+      "text": "with the wave 2023 we are also introducing improvements in report formatting before introducing this change it was not possible to change the formatting",
+      "why_it_matters": "Marks a significant capability improvement allowing format control from the application instead of just settings.",
+      "check": "exact"
+    },
+    {
+      "t": 1091.9,
+      "text": "we are trying to introduce the support for original format on the same way how that was implemented for the language",
+      "why_it_matters": "Describes the design approach of handling format like language, establishing a consistent pattern.",
+      "check": "exact"
+    },
+    {
+      "t": 1158.6,
+      "text": "current report object now has property called format region",
+      "why_it_matters": "Identifies the AL development capability enabling programmatic report format region specification.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 100.5,
+      "kind": "not-in-this-release",
+      "text": "forcing digital vouchers e documents and these features will not be show in this presentation"
+    },
+    {
+      "t": 121,
+      "kind": "not-in-this-release",
+      "text": "you will not show NCT V improvements because this is something we already deliver in previous series"
+    },
+    {
+      "t": 444.3,
+      "kind": "coming-later",
+      "text": "the next one going to be Iceland the global plan is to be a little bit more aggressive on the on that way"
+    },
+    {
+      "t": 1016.9,
+      "kind": "other",
+      "text": "we are dedicated to continue Improvement for existing feature not only for interet but for inter for other features we are creating that means they will not stop when we deliver this feature we continue to improve this uh in the next period"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 13,
+    "quotes_dropped": 0,
+    "evidence_verified": 1,
+    "evidence_unverified": 11
+  },
+  "windows": 2,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.024041
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.022059000000000002
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.019951000000000003
+    }
+  ]
+}

@@ -1,0 +1,1615 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:06.679 line:85%
+[MUSIC]
+
+00:00:19.519 --> 00:00:21.160 line:85%
+Hello and thank you for joining.
+
+00:00:21.519 --> 00:00:24.039 line:83%
+I'm Andrei Panko and I
+will be doing demos for you.
+
+00:00:24.359 --> 00:00:26.679 line:83%
+In this release, we
+continue our investment in
+
+00:00:26.719 --> 00:00:28.760 position:64% line:85%
+warehouse and inventory management areas,
+
+00:00:29.039 --> 00:00:31.160 line:85%
+both done by internal R&amp;D team,
+
+00:00:31.199 --> 00:00:33.600 position:56% line:83%
+but I also would like to
+mention the community contributions.
+
+00:00:34.240 --> 00:00:37.840 line:83%
+Many features are added
+by community members via GitHub,
+
+00:00:37.880 --> 00:00:41.359 position:58% line:83%
+and you can find all
+details in the release notes entries,
+
+00:00:41.759 --> 00:00:45.479 line:83%
+including text
+descriptions and screenshots.
+
+00:00:46.520 --> 00:00:47.520 line:85%
+But for some features,
+
+00:00:47.920 --> 00:00:48.799 line:85%
+I would like to do demos,
+
+00:00:49.359 --> 00:00:52.079 line:83%
+and we will be doing demos
+for some warehouse improvements.
+
+00:00:53.359 --> 00:00:54.799 position:56% line:85%
+In the release notes, you might find
+
+00:00:54.920 --> 00:00:58.399 line:83%
+these articles and
+probably the third one is
+
+00:00:58.439 --> 00:01:01.079 line:83%
+the most obvious one
+to understand what it's doing.
+
+00:01:01.439 --> 00:01:02.759 line:85%
+For others, you might be curious.
+
+00:01:03.840 --> 00:01:07.599 line:85%
+Let's do demo and get some clarity.
+
+00:01:08.120 --> 00:01:09.079 line:85%
+Now, in Business Central,
+
+00:01:09.359 --> 00:01:11.560 position:63% line:85%
+let's start by exploring location cards.
+
+00:01:11.920 --> 00:01:13.200 line:85%
+Let's go to the location list,
+
+00:01:14.040 --> 00:01:16.560 line:83%
+find the favorite
+silver location which is
+
+00:01:16.640 --> 00:01:20.599 position:56% line:85%
+added by Contoso Demo Data app here,
+
+00:01:21.280 --> 00:01:22.599 line:85%
+and explore what we have.
+
+00:01:23.400 --> 00:01:26.879 line:83%
+The biggest changes we
+can notice in the warehouse tab,
+
+00:01:27.239 --> 00:01:29.760 line:83%
+you can still see
+the required receipt ship put
+
+00:01:29.799 --> 00:01:32.239 line:85%
+away and pick toggles are there,
+
+00:01:32.519 --> 00:01:35.439 position:64% line:85%
+but now they are limited only to purchase
+
+00:01:35.519 --> 00:01:37.799 position:63% line:85%
+sales, service, and transfer operations,
+
+00:01:38.359 --> 00:01:40.680 line:83%
+while internal
+operations such as production,
+
+00:01:41.000 --> 00:01:44.400 line:83%
+assembly, and jobs
+got all configuration options,
+
+00:01:44.599 --> 00:01:45.760 line:85%
+and it's not toggles,
+
+00:01:46.159 --> 00:01:48.879 line:83%
+but actual
+drop-downs with different options
+
+00:01:49.000 --> 00:01:50.879 line:83%
+where you can
+select various combinations.
+
+00:01:51.599 --> 00:01:52.680 line:85%
+For example, you can disable
+
+00:01:52.719 --> 00:01:55.280 line:83%
+warehouse handling
+or have a different flavors.
+
+00:01:56.000 --> 00:01:59.799 line:83%
+What I did here, I
+configured all different options.
+
+00:02:00.319 --> 00:02:02.120 line:85%
+For example, for sales orders,
+
+00:02:02.439 --> 00:02:03.439 line:85%
+I will be doing shipments,
+
+00:02:04.560 --> 00:02:06.439 position:63% line:85%
+but receiving will be done via put away.
+
+00:02:08.000 --> 00:02:11.039 line:83%
+In production, I don't
+want to use any warehouse handling
+
+00:02:11.120 --> 00:02:13.319 line:83%
+because I will be
+using movement worksheet
+
+00:02:13.479 --> 00:02:15.719 line:85%
+to transfer stuff out of warehouse.
+
+00:02:16.520 --> 00:02:18.000 line:85%
+Then I have a warehouse pick in
+
+00:02:18.039 --> 00:02:20.199 line:83%
+some scenarios and
+inventory picks for jobs.
+
+00:02:21.000 --> 00:02:22.439 line:85%
+Let's explore in action.
+
+00:02:22.960 --> 00:02:26.840 line:83%
+But before that, I will
+scroll down to the bin policy tab.
+
+00:02:27.240 --> 00:02:29.639 line:85%
+This tab still has the same fields,
+
+00:02:29.680 --> 00:02:30.759 line:85%
+or almost the same fields,
+
+00:02:31.159 --> 00:02:32.520 line:85%
+but with each release,
+
+00:02:32.800 --> 00:02:35.240 line:85%
+more of them are getting available
+
+00:02:35.639 --> 00:02:37.360 position:59% line:85%
+to the basic warehouse configurations.
+
+00:02:37.680 --> 00:02:41.400 line:83%
+You don't need to use
+directed pick and put away
+
+00:02:41.639 --> 00:02:45.400 line:85%
+to benefit from special equipment,
+
+00:02:45.840 --> 00:02:49.560 position:63% line:85%
+bin capacity policy, or warehouse class,
+
+00:02:49.599 --> 00:02:51.120 position:64% line:85%
+which were added in the previous release.
+
+00:02:51.599 --> 00:02:54.360 line:83%
+Or now you can
+also use put away templates
+
+00:02:55.120 --> 00:02:58.960 line:83%
+when assigning bins
+where items should be located,
+
+00:02:59.400 --> 00:03:00.080 line:85%
+or bin ranking.
+
+00:03:01.159 --> 00:03:03.080 line:85%
+Now put away template is available.
+
+00:03:03.639 --> 00:03:06.319 line:83%
+And if you decided
+not to use default bin,
+
+00:03:06.759 --> 00:03:08.520 line:85%
+which was available before,
+
+00:03:08.759 --> 00:03:10.000 line:85%
+but switch to put away template,
+
+00:03:10.439 --> 00:03:11.639 line:85%
+you can pick default one.
+
+00:03:13.120 --> 00:03:15.879 line:83%
+All right, let's
+go to different documents
+
+00:03:15.919 --> 00:03:17.000 line:85%
+and see how it works.
+
+00:03:17.319 --> 00:03:19.159 line:85%
+Let's start by purchase orders.
+
+00:03:21.840 --> 00:03:22.960 line:85%
+I will find my order.
+
+00:03:24.639 --> 00:03:25.400 line:85%
+And as you remember,
+
+00:03:25.439 --> 00:03:27.319 position:56% line:85%
+I decided to use inventory putaways.
+
+00:03:27.719 --> 00:03:29.120 line:85%
+So I have two items here,
+
+00:03:29.599 --> 00:03:31.280 position:56% line:85%
+and let's create inventory put away.
+
+00:03:32.280 --> 00:03:32.479 line:85%
+Okay.
+
+00:03:34.759 --> 00:03:35.240 line:85%
+All good.
+
+00:03:35.639 --> 00:03:37.520 line:85%
+Now navigate to create a document.
+
+00:03:40.479 --> 00:03:41.759 line:85%
+Couple of clicks and we're here.
+
+00:03:42.319 --> 00:03:43.000 line:85%
+What do we see?
+
+00:03:43.439 --> 00:03:45.080 line:85%
+We see that for one item,
+
+00:03:45.120 --> 00:03:47.759 line:83%
+we received three
+lines instead of one in the past,
+
+00:03:47.800 --> 00:03:49.639 line:85%
+which would be default bin.
+
+00:03:50.639 --> 00:03:52.240 line:83%
+And for the last
+one, we received nothing.
+
+00:03:52.479 --> 00:03:52.680 line:85%
+Why?
+
+00:03:53.199 --> 00:03:54.599 line:85%
+Because each item is using,
+
+00:03:55.039 --> 00:03:57.439 line:83%
+configured to use
+different put away templates.
+
+00:03:57.800 --> 00:04:00.840 position:59% line:83%
+And I decided to use
+standard template for item number one.
+
+00:04:01.280 --> 00:04:03.919 line:85%
+But for put away for another item,
+
+00:04:04.159 --> 00:04:06.400 position:58% line:85%
+I decided to try something different.
+
+00:04:06.919 --> 00:04:10.919 position:64% line:85%
+Let me show you details of this template,
+
+00:04:10.960 --> 00:04:11.639 line:85%
+how they're configured.
+
+00:04:13.680 --> 00:04:14.479 line:85%
+So the standard one,
+
+00:04:14.520 --> 00:04:16.759 position:61% line:85%
+which is also included into the product
+
+00:04:16.920 --> 00:04:18.959 line:85%
+and part of the Contoso demo data,
+
+00:04:19.680 --> 00:04:20.560 line:85%
+it's pretty complicated.
+
+00:04:21.560 --> 00:04:22.800 line:85%
+And it tries, first of all,
+
+00:04:23.120 --> 00:04:26.680 line:83%
+fill up bins which
+already contains items.
+
+00:04:26.879 --> 00:04:27.800 line:85%
+And if it fails,
+
+00:04:27.839 --> 00:04:31.279 position:61% line:85%
+then it tries to find the next best bin
+
+00:04:31.399 --> 00:04:32.480 line:85%
+accordingly to the rules.
+
+00:04:33.040 --> 00:04:36.040 position:59% line:85%
+But I also have a simplified scenario.
+
+00:04:36.639 --> 00:04:39.439 position:64% line:85%
+When I allow system to propose bins only,
+
+00:04:39.720 --> 00:04:42.000 position:64% line:85%
+if these bins already contain some stock.
+
+00:04:42.399 --> 00:04:44.040 line:85%
+And if not, it stops.
+
+00:04:45.040 --> 00:04:46.680 position:59% line:85%
+That's why we have a different result.
+
+00:04:47.279 --> 00:04:49.959 position:58% line:85%
+For example, first item we needed 80,
+
+00:04:50.319 --> 00:04:53.040 line:83%
+but if you take a
+look at the bin content list,
+
+00:04:53.399 --> 00:04:56.279 line:83%
+we can see that this
+item is already available
+
+00:04:56.319 --> 00:04:57.000 line:85%
+in the warehouse.
+
+00:04:57.560 --> 00:04:59.079 line:85%
+It's available in couple of bins
+
+00:04:59.240 --> 00:05:00.959 line:85%
+and they favor some quantity,
+
+00:05:01.240 --> 00:05:04.519 line:83%
+but they also have
+some max quantity restrictions.
+
+00:05:05.120 --> 00:05:07.680 line:83%
+So system just added
+missing quantities there.
+
+00:05:08.079 --> 00:05:11.120 line:83%
+And for remaining, it
+finds the best bin it could
+
+00:05:11.360 --> 00:05:12.839 line:85%
+using bin ranking.
+
+00:05:13.920 --> 00:05:14.759 line:85%
+The last one,
+
+00:05:16.839 --> 00:05:19.920 position:64% line:85%
+no, this item is not available currently.
+
+00:05:19.959 --> 00:05:21.759 line:85%
+So we cannot find the existing bin.
+
+00:05:22.240 --> 00:05:24.680 line:83%
+That's why we
+decided to delegate this work to
+
+00:05:25.120 --> 00:05:29.120 position:56% line:83%
+warehouse employee who
+will decide where to store this item
+
+00:05:30.839 --> 00:05:31.720 line:85%
+in specific scenario.
+
+00:05:32.879 --> 00:05:34.920 position:56% line:85%
+So you can use different approaches.
+
+00:05:36.120 --> 00:05:39.519 line:83%
+All right, so I
+selected the bin which fits best,
+
+00:05:40.560 --> 00:05:43.160 position:59% line:85%
+but also I noticed that instead of 80,
+
+00:05:43.199 --> 00:05:44.639 line:85%
+I received 85.
+
+00:05:45.240 --> 00:05:47.040 position:56% line:85%
+So let's add over received quantity.
+
+00:05:47.680 --> 00:05:50.399 line:83%
+Yeah, over received
+quantity is now also available
+
+00:05:50.600 --> 00:05:52.120 line:85%
+in the inventory put away
+
+00:05:52.399 --> 00:05:54.839 position:64% line:85%
+in addition to the house receives before.
+
+00:05:55.120 --> 00:05:58.199 position:58% line:83%
+So now you are not
+restricted at least by this parameter
+
+00:05:58.680 --> 00:06:00.000 line:85%
+on which document to use.
+
+00:06:01.399 --> 00:06:04.319 position:61% line:85%
+All right, that was a small side story.
+
+00:06:07.040 --> 00:06:09.680 line:85%
+Now we go to the wallet center
+
+00:06:11.000 --> 00:06:12.839 position:58% line:85%
+and now we will explore sales orders.
+
+00:06:15.279 --> 00:06:18.600 position:61% line:85%
+So we have sales order and let's create
+
+00:06:18.639 --> 00:06:21.319 line:85%
+a warehouse shipment.
+
+00:06:23.399 --> 00:06:25.279 line:85%
+Okay, warehouse shipment created.
+
+00:06:25.759 --> 00:06:28.600 position:58% line:85%
+It does not require me to create pick
+
+00:06:29.079 --> 00:06:30.360 line:85%
+because it configured so,
+
+00:06:30.399 --> 00:06:31.959 line:85%
+so I can just go and ship stuff
+
+00:06:32.279 --> 00:06:33.839 line:85%
+if I have inventory available.
+
+00:06:36.000 --> 00:06:37.680 line:85%
+Let's go to different document.
+
+00:06:37.959 --> 00:06:42.120 line:83%
+And in this case, it
+will be release production order.
+
+00:06:44.319 --> 00:06:48.439 line:83%
+Production orders
+configured to use warehouse picks.
+
+00:06:49.399 --> 00:06:50.600 line:85%
+Let's click warehouse pick.
+
+00:06:51.720 --> 00:06:51.959 line:85%
+Okay.
+
+00:06:53.560 --> 00:06:54.399 line:85%
+And it was created.
+
+00:06:54.879 --> 00:06:56.480 line:85%
+Now let's navigate to create a pick
+
+00:06:56.519 --> 00:06:58.680 line:85%
+and explore what is there.
+
+00:06:59.279 --> 00:07:00.680 line:85%
+Oh, so many lines, why?
+
+00:07:02.240 --> 00:07:02.439 line:85%
+Why?
+
+00:07:02.720 --> 00:07:05.600 position:64% line:85%
+We need the 30 and they are unfortunately
+
+00:07:05.800 --> 00:07:07.240 line:85%
+not available in a single bin.
+
+00:07:08.720 --> 00:07:11.680 line:83%
+It's available in
+three different bins, 10 in each.
+
+00:07:12.560 --> 00:07:15.519 position:63% line:85%
+And these bins have a different ranking.
+
+00:07:16.240 --> 00:07:18.839 line:83%
+So system, that's
+why they have a special code
+
+00:07:18.879 --> 00:07:20.720 line:85%
+so it will be easier to illustrate.
+
+00:07:21.240 --> 00:07:24.439 line:83%
+But the highest
+ranking, 30 is on this bin,
+
+00:07:25.000 --> 00:07:28.000 position:61% line:85%
+then medium and the lowest in this bin.
+
+00:07:28.600 --> 00:07:31.519 line:83%
+And system proposed
+to do picking accordingly.
+
+00:07:31.800 --> 00:07:34.160 position:59% line:85%
+First, from bin with the highest trend
+
+00:07:34.399 --> 00:07:37.519 line:83%
+regardless of its
+code, then the next one,
+
+00:07:37.560 --> 00:07:39.040 line:85%
+the final one.
+
+00:07:39.519 --> 00:07:41.759 line:85%
+So actually picking by ranking
+
+00:07:42.279 --> 00:07:44.399 position:61% line:85%
+is also available with inventory picks.
+
+00:07:44.920 --> 00:07:45.480 line:85%
+Let's explore.
+
+00:07:46.079 --> 00:07:48.279 line:83%
+This functionality
+or this type of picking
+
+00:07:48.319 --> 00:07:51.560 line:83%
+is enabled for jobs as
+we configured our location.
+
+00:07:52.079 --> 00:07:53.319 line:85%
+Let's open the job card.
+
+00:07:53.720 --> 00:07:55.160 line:85%
+We can see multiple job tasks
+
+00:07:55.360 --> 00:07:56.959 line:85%
+and choose create inventory pick.
+
+00:07:57.519 --> 00:07:59.399 line:83%
+We need to
+activate create inventory pick.
+
+00:08:00.079 --> 00:08:03.199 line:83%
+Also, I would like
+to add a separate filter
+
+00:08:03.720 --> 00:08:06.439 line:83%
+job task line
+because I would like to limit
+
+00:08:07.079 --> 00:08:09.519 line:83%
+the scope of create
+pick only two components
+
+00:08:09.720 --> 00:08:12.000 line:85%
+listed under first job task
+
+00:08:12.199 --> 00:08:15.279 line:85%
+because it's a long project
+
+00:08:15.519 --> 00:08:17.680 line:83%
+and probably I
+don't need to get inventory
+
+00:08:18.319 --> 00:08:21.199 position:58% line:85%
+for other task, for other milestones.
+
+00:08:21.720 --> 00:08:23.120 line:85%
+I can also use a date.
+
+00:08:23.560 --> 00:08:25.439 line:83%
+This capability,
+this filtering capabilities
+
+00:08:25.639 --> 00:08:27.000 line:85%
+were added in the previous release
+
+00:08:27.319 --> 00:08:29.000 line:83%
+but I think it
+makes sense to show it here.
+
+00:08:30.040 --> 00:08:32.960 line:83%
+Okay, I received, I
+created one inventory pick.
+
+00:08:33.559 --> 00:08:34.840 line:85%
+Let's navigate.
+
+00:08:38.879 --> 00:08:39.720 line:85%
+And open this pick.
+
+00:08:41.360 --> 00:08:42.080 line:85%
+The same story.
+
+00:08:42.600 --> 00:08:44.360 line:83%
+So we are picking
+from three different bins
+
+00:08:44.600 --> 00:08:48.159 line:85%
+because it is available there.
+
+00:08:50.320 --> 00:08:53.480 position:58% line:85%
+So the same story about picking first
+
+00:08:53.519 --> 00:08:55.559 line:85%
+from the bin with the highest rank
+
+00:08:55.600 --> 00:08:58.080 position:64% line:85%
+because our location configured this way.
+
+00:08:59.279 --> 00:08:59.519 line:85%
+All right.
+
+00:09:00.759 --> 00:09:04.159 line:85%
+So, picking by ranking is available
+
+00:09:04.200 --> 00:09:06.399 position:58% line:85%
+in both workhouse and inventory pick.
+
+00:09:07.240 --> 00:09:09.960 position:63% line:85%
+Let's go to, for example, assembly order
+
+00:09:10.200 --> 00:09:12.879 line:85%
+and do some additional check.
+
+00:09:14.279 --> 00:09:17.120 line:83%
+In this case, assembly
+order requires warehouse picking.
+
+00:09:18.399 --> 00:09:19.600 line:85%
+I will create a warehouse pick.
+
+00:09:19.960 --> 00:09:20.720 line:85%
+I click okay.
+
+00:09:21.279 --> 00:09:24.399 position:59% line:85%
+And I got this nothing to handle error
+
+00:09:24.720 --> 00:09:26.399 line:85%
+which is not really useful.
+
+00:09:28.840 --> 00:09:32.279 line:83%
+So, how do we deal
+with it in basic workhouse?
+
+00:09:32.879 --> 00:09:35.000 line:85%
+Let me demonstrate you something
+
+00:09:35.320 --> 00:09:38.519 line:83%
+but first I will show you
+one of my favorite client features
+
+00:09:38.639 --> 00:09:39.679 line:85%
+added into this release.
+
+00:09:39.720 --> 00:09:40.600 line:85%
+It's a show details
+
+00:09:40.799 --> 00:09:42.960 line:83%
+which allows me to
+navigate directly to the cart.
+
+00:09:43.639 --> 00:09:47.480 line:83%
+Let me scroll down and
+you can see that always create
+
+00:09:47.519 --> 00:09:50.600 line:83%
+pick client is
+disabled, but it is available
+
+00:09:50.759 --> 00:09:52.879 position:63% line:85%
+even for basic workhouse configurations.
+
+00:09:53.240 --> 00:09:54.159 line:85%
+I will activate it.
+
+00:09:55.399 --> 00:09:57.440 line:83%
+And now when I
+click create warehouse pick,
+
+00:09:59.440 --> 00:10:00.519 line:85%
+I got pick created.
+
+00:10:04.960 --> 00:10:06.120 line:85%
+And if you will open this pick,
+
+00:10:06.159 --> 00:10:08.919 line:83%
+we can see that it has
+a take and place instruction
+
+00:10:09.399 --> 00:10:10.840 line:85%
+and bin code is empty.
+
+00:10:11.759 --> 00:10:14.840 line:83%
+Of course, system
+didn't find the item to find
+
+00:10:14.879 --> 00:10:16.519 line:85%
+but we know that it is available.
+
+00:10:18.120 --> 00:10:20.240 line:85%
+And it is available in the bin
+
+00:10:20.279 --> 00:10:22.000 line:83%
+which is for some
+reason marked as dedicated.
+
+00:10:22.440 --> 00:10:24.840 line:83%
+But I know that I
+want to take this stuff here.
+
+00:10:25.039 --> 00:10:28.120 position:64% line:85%
+So, I'm making decision and I'm accepting
+
+00:10:28.679 --> 00:10:31.480 line:85%
+to take stuff from this bin code.
+
+00:10:32.039 --> 00:10:34.320 position:64% line:85%
+So, at least I was able to unblock myself
+
+00:10:34.480 --> 00:10:35.639 line:85%
+and move further.
+
+00:10:36.120 --> 00:10:37.600 line:85%
+Let's register it.
+
+00:10:40.080 --> 00:10:40.559 line:85%
+All good.
+
+00:10:42.519 --> 00:10:43.159 line:85%
+Available inventory.
+
+00:10:46.120 --> 00:10:46.399 line:85%
+All right.
+
+00:10:47.080 --> 00:10:48.720 line:85%
+That was for basic workhouse
+
+00:10:49.000 --> 00:10:51.399 line:83%
+but it is also
+transition to the next topic
+
+00:10:51.559 --> 00:10:54.679 line:83%
+because nothing to handle
+error is displayed quite often
+
+00:10:54.720 --> 00:10:57.519 line:83%
+in our, as we can
+see now it's elementary.
+
+00:10:58.000 --> 00:11:00.120 line:83%
+Let's see and it's
+not easy to troubleshoot.
+
+00:11:01.279 --> 00:11:02.440 line:85%
+And we did some improvement,
+
+00:11:02.960 --> 00:11:06.440 line:83%
+mainly focus it for
+locations with directed pick
+
+00:11:06.480 --> 00:11:09.720 line:85%
+and put away configuration enabled.
+
+00:11:10.399 --> 00:11:11.200 line:85%
+Let's take a look.
+
+00:11:11.960 --> 00:11:13.720 line:85%
+I have multiple, actually two.
+
+00:11:14.559 --> 00:11:18.159 position:58% line:83%
+I have two workhouse
+shipments created in a white location
+
+00:11:18.720 --> 00:11:22.240 position:63% line:85%
+and let's open it and click create pick.
+
+00:11:27.120 --> 00:11:27.279 line:85%
+Yeah.
+
+00:11:28.919 --> 00:11:29.759 line:85%
+Not very useful.
+
+00:11:30.440 --> 00:11:33.440 line:83%
+Not very useful but then
+I will try to create pick again
+
+00:11:33.960 --> 00:11:37.960 line:83%
+and in this case I will
+activate the short summary toggle.
+
+00:11:38.480 --> 00:11:41.960 position:56% line:83%
+It also identifies you
+that it's only for directed put away
+
+00:11:42.000 --> 00:11:43.200 line:85%
+and pick mode.
+
+00:11:43.960 --> 00:11:46.600 line:83%
+So, do not try it
+on other configurations.
+
+00:11:48.639 --> 00:11:49.720 line:85%
+And what do we see here?
+
+00:11:50.200 --> 00:11:52.600 line:83%
+We get the same
+error message, it's on top
+
+00:11:53.200 --> 00:11:55.759 position:61% line:85%
+but we also receive additional details.
+
+00:11:56.000 --> 00:11:58.519 position:59% line:85%
+We got the full troubleshooting window
+
+00:11:58.960 --> 00:12:00.120 line:85%
+where we have multiple,
+
+00:12:00.720 --> 00:12:02.360 position:59% line:85%
+conceptually place for multiple lines.
+
+00:12:02.399 --> 00:12:04.480 line:83%
+In this case I'm
+dealing with only one item
+
+00:12:04.519 --> 00:12:05.639 line:85%
+that's why I have one line.
+
+00:12:07.559 --> 00:12:10.960 line:83%
+And I see quantity
+which I wanted to pick.
+
+00:12:11.000 --> 00:12:11.679 line:85%
+I needed one.
+
+00:12:12.960 --> 00:12:15.480 line:85%
+And how many I managed to handle?
+
+00:12:15.919 --> 00:12:16.120 line:85%
+Nothing.
+
+00:12:16.960 --> 00:12:17.200 line:85%
+Why?
+
+00:12:17.759 --> 00:12:20.559 line:83%
+This information we
+can get from the summary part
+
+00:12:20.840 --> 00:12:21.639 line:85%
+which is added here.
+
+00:12:22.039 --> 00:12:23.720 line:85%
+Because pickable quantity is zero.
+
+00:12:24.399 --> 00:12:29.759 line:83%
+In the advanced workhouse
+with directed put away and pick
+
+00:12:30.240 --> 00:12:32.399 line:83%
+the workhouse is
+split into different zones
+
+00:12:32.679 --> 00:12:35.480 line:85%
+and only one of them contains items
+
+00:12:35.519 --> 00:12:37.159 line:85%
+which can be picked for shipment
+
+00:12:37.399 --> 00:12:40.200 position:59% line:85%
+or for example for future consumption.
+
+00:12:40.919 --> 00:12:42.120 line:85%
+So that's called pickable one.
+
+00:12:42.639 --> 00:12:44.240 line:85%
+And how do we calculate them?
+
+00:12:44.840 --> 00:12:48.399 position:58% line:83%
+You can see that in
+general in workhouse I have 10 items.
+
+00:12:48.440 --> 00:12:51.879 line:83%
+I can explore ledger
+entries that not super useful
+
+00:12:52.679 --> 00:12:55.039 position:58% line:85%
+but I can go and explore bin content.
+
+00:12:55.720 --> 00:12:58.000 line:83%
+It will also show me
+how these 10 are distributed.
+
+00:12:58.320 --> 00:13:01.440 line:83%
+And yes, I have a lot in
+my workhouse in different bins.
+
+00:13:02.600 --> 00:13:07.440 line:83%
+Nine of them pieces
+are in the pickable bins
+
+00:13:07.879 --> 00:13:12.639 line:83%
+but unfortunately it is
+either blocked or dedicated.
+
+00:13:13.080 --> 00:13:17.159 position:56% line:83%
+Means it has a very
+specific purpose and not for picking
+
+00:13:17.639 --> 00:13:19.720 line:85%
+or both and dedicated and blocked.
+
+00:13:20.399 --> 00:13:23.360 line:83%
+And I also have one
+thing, one piece outstanding
+
+00:13:23.960 --> 00:13:25.480 line:85%
+in the receive bin.
+
+00:13:26.399 --> 00:13:28.799 line:83%
+So it's very easy
+for me to get unblocked.
+
+00:13:28.840 --> 00:13:33.480 line:83%
+I need to find the put
+away document and process it.
+
+00:13:34.080 --> 00:13:35.679 position:56% line:85%
+For some reason it was not processed
+
+00:13:35.720 --> 00:13:38.320 position:63% line:85%
+but at least I know whom to ask for help
+
+00:13:38.360 --> 00:13:40.320 line:85%
+with getting unblocked.
+
+00:13:41.720 --> 00:13:44.720 line:83%
+Before it was more
+complicated to troubleshoot
+
+00:13:44.840 --> 00:13:45.720 line:85%
+now it is shorter.
+
+00:13:47.080 --> 00:13:48.720 position:59% line:85%
+What about more complicated scenarios?
+
+00:13:49.279 --> 00:13:50.159 line:85%
+Of course I have them.
+
+00:13:50.399 --> 00:13:52.960 line:83%
+Let's scroll to the
+different workhouse shipment.
+
+00:13:53.399 --> 00:13:56.600 line:83%
+It has two items,
+different types of items
+
+00:13:56.639 --> 00:13:58.120 line:85%
+to demonstrate different scenarios.
+
+00:13:58.799 --> 00:13:59.840 line:85%
+Let's click create pick.
+
+00:14:01.000 --> 00:14:02.879 line:83%
+And I already know that
+I would like to show summary.
+
+00:14:05.840 --> 00:14:08.639 line:83%
+Okay, in this situation
+you can see that for the first line
+
+00:14:08.679 --> 00:14:13.519 line:83%
+we managed to pick
+zero but for the second line
+
+00:14:13.799 --> 00:14:16.159 line:85%
+something can be picked.
+
+00:14:16.399 --> 00:14:18.240 position:58% line:85%
+But let's take a look at the details.
+
+00:14:18.840 --> 00:14:21.120 line:83%
+First of all, here
+it's interesting to notice
+
+00:14:21.240 --> 00:14:23.639 line:83%
+that pickable bins,
+actually we have something.
+
+00:14:23.679 --> 00:14:28.639 line:83%
+If I was drill down I can
+get bin content on pickable bins.
+
+00:14:29.600 --> 00:14:33.519 line:85%
+Where dedicated toggle is disabled
+
+00:14:33.960 --> 00:14:37.919 line:83%
+and there is no
+blocking of outbound movements.
+
+00:14:38.279 --> 00:14:42.159 line:83%
+So this is very good
+bin and it has some quantity
+
+00:14:42.759 --> 00:14:44.559 position:56% line:85%
+which theoretically could be picked.
+
+00:14:45.519 --> 00:14:46.480 line:85%
+But, but.
+
+00:14:47.120 --> 00:14:48.679 line:85%
+This item has item tracking.
+
+00:14:49.320 --> 00:14:51.200 position:58% line:85%
+If I scroll down I can see that yeah,
+
+00:14:51.240 --> 00:14:52.759 position:56% line:85%
+this item has item tracking defined.
+
+00:14:53.840 --> 00:14:58.120 line:83%
+And this specific item
+has serial number information card
+
+00:14:58.559 --> 00:15:02.279 line:85%
+with blocked field enabled.
+
+00:15:02.879 --> 00:15:05.519 line:83%
+So basically I cannot use
+this item because it's blocked.
+
+00:15:05.919 --> 00:15:07.960 line:83%
+And I get this
+information again right here.
+
+00:15:08.320 --> 00:15:09.960 line:85%
+So I just need to find this item,
+
+00:15:10.240 --> 00:15:12.120 line:85%
+figure it out why it is blocked,
+
+00:15:12.200 --> 00:15:16.799 line:83%
+maybe unblock it if
+necessary and also unblock myself.
+
+00:15:18.120 --> 00:15:19.559 line:85%
+Let's take a look at the next line.
+
+00:15:19.600 --> 00:15:21.039 line:85%
+This is more complicated scenario
+
+00:15:21.200 --> 00:15:24.159 line:83%
+because now it
+has, it involves reservation
+
+00:15:24.519 --> 00:15:26.120 line:85%
+and reservation has some impact.
+
+00:15:27.000 --> 00:15:27.840 line:85%
+So what do we want?
+
+00:15:27.879 --> 00:15:29.399 line:85%
+We want to pick four.
+
+00:15:31.039 --> 00:15:33.759 position:58% line:85%
+And how many do we have in warehouse?
+
+00:15:34.840 --> 00:15:35.039 line:85%
+Four.
+
+00:15:35.559 --> 00:15:37.000 line:85%
+So kind of like what's the problem?
+
+00:15:37.480 --> 00:15:37.679 line:85%
+Yeah.
+
+00:15:38.720 --> 00:15:42.480 line:83%
+The problem is that
+there are some other orders
+
+00:15:42.519 --> 00:15:46.159 position:58% line:83%
+which also needs to be
+picked, shipped, consumed, et cetera.
+
+00:15:46.200 --> 00:15:47.639 line:85%
+And they have a high priority.
+
+00:15:48.000 --> 00:15:48.200 line:85%
+Why?
+
+00:15:48.600 --> 00:15:49.879 line:85%
+Because they are reserved.
+
+00:15:50.200 --> 00:15:51.559 line:85%
+So this one is not reserved.
+
+00:15:51.840 --> 00:15:54.080 position:64% line:85%
+So it has no less priorities than others.
+
+00:15:55.279 --> 00:15:58.000 line:83%
+So in this case,
+we should not make orders
+
+00:15:58.200 --> 00:15:59.879 position:61% line:85%
+with high priority, which are reserved.
+
+00:16:01.799 --> 00:16:04.399 position:63% line:85%
+Should not make them impossible to ship.
+
+00:16:04.879 --> 00:16:07.279 position:59% line:83%
+It's okay to make it
+difficult to ship, but not impossible.
+
+00:16:07.919 --> 00:16:08.720 line:85%
+Let me explain.
+
+00:16:09.720 --> 00:16:13.399 line:83%
+So while we have a
+total quantity in warehouse 10,
+
+00:16:14.080 --> 00:16:15.639 line:85%
+four are impeccable bins,
+
+00:16:16.440 --> 00:16:19.519 position:63% line:85%
+which can be picked, shipped right away.
+
+00:16:21.240 --> 00:16:24.759 position:56% line:85%
+But we also have six somewhere else.
+
+00:16:25.600 --> 00:16:26.399 line:85%
+Where do we have them?
+
+00:16:28.679 --> 00:16:31.240 position:56% line:83%
+We have four
+impeccable bins, as we already know,
+
+00:16:31.279 --> 00:16:33.840 position:64% line:85%
+but we also have four in the putaway bin.
+
+00:16:34.120 --> 00:16:35.320 line:85%
+So it's like a different storage,
+
+00:16:36.600 --> 00:16:38.840 position:58% line:85%
+which requires movement if necessary.
+
+00:16:39.720 --> 00:16:42.759 line:83%
+So we consider this
+quantity to be something
+
+00:16:44.519 --> 00:16:46.639 line:83%
+which we need to
+compare with reservations.
+
+00:16:47.679 --> 00:16:50.720 position:56% line:85%
+So eight is potentially can be used.
+
+00:16:50.759 --> 00:16:52.840 line:83%
+Yeah, it requires
+some additional actions.
+
+00:16:52.879 --> 00:16:55.799 line:83%
+For example, if it's in
+putaway, it's in received bins,
+
+00:16:55.840 --> 00:16:57.159 line:85%
+and you need to process putaway.
+
+00:16:57.480 --> 00:16:58.960 line:85%
+If it's in bulk storage bin,
+
+00:16:59.000 --> 00:17:01.480 position:61% line:85%
+you need to move it into pickable bins,
+
+00:17:01.519 --> 00:17:02.840 line:85%
+but it can be done.
+
+00:17:03.360 --> 00:17:06.920 line:85%
+That's why it is okay to take stuff
+
+00:17:06.960 --> 00:17:08.920 line:83%
+from the pickable
+bin for some other bins,
+
+00:17:09.319 --> 00:17:12.039 line:83%
+unless we still have
+something in the warehouse
+
+00:17:12.480 --> 00:17:14.240 line:85%
+which can be shipped for reserve.
+
+00:17:15.319 --> 00:17:17.039 position:56% line:85%
+So what about reservation situation?
+
+00:17:17.559 --> 00:17:18.799 line:85%
+Yeah, we reserved eight.
+
+00:17:19.240 --> 00:17:21.079 position:63% line:85%
+Eight, we reserved for this sales order,
+
+00:17:22.480 --> 00:17:25.839 line:83%
+which sounds like,
+okay, then 100% is reserved.
+
+00:17:27.160 --> 00:17:28.519 line:85%
+Not really, not really.
+
+00:17:28.839 --> 00:17:30.359 line:85%
+Because out of this eight reserved,
+
+00:17:30.519 --> 00:17:31.799 line:85%
+we already picked.
+
+00:17:33.400 --> 00:17:35.880 line:83%
+So it means this stuff is
+already moved to the shipping bin.
+
+00:17:37.039 --> 00:17:41.559 line:85%
+And so it can be deducted.
+
+00:17:41.799 --> 00:17:43.960 position:61% line:85%
+So out of this eight, we can deduct two
+
+00:17:44.000 --> 00:17:46.720 position:63% line:85%
+which are already prepared for shipping.
+
+00:17:47.480 --> 00:17:49.240 position:56% line:85%
+It's not that trivial, I understand.
+
+00:17:50.039 --> 00:17:50.440 line:85%
+Stay with me.
+
+00:17:51.480 --> 00:17:54.759 line:83%
+But we have also two
+tips which try to explain
+
+00:17:54.839 --> 00:17:56.440 line:85%
+how the stuff is calculated.
+
+00:17:56.839 --> 00:17:59.519 line:83%
+So for example, let's
+go to the last one, impact.
+
+00:18:00.480 --> 00:18:03.519 position:58% line:85%
+And here we explain that potentially,
+
+00:18:04.079 --> 00:18:05.599 line:85%
+shipable from warehouse is eight.
+
+00:18:05.920 --> 00:18:07.400 line:83%
+It's like
+everything which is in warehouse
+
+00:18:07.559 --> 00:18:09.200 line:85%
+except in the shipment bin,
+
+00:18:09.599 --> 00:18:11.119 position:59% line:85%
+because shipment bin or dedicated bin,
+
+00:18:11.559 --> 00:18:15.279 line:83%
+which is already
+almost loaded to the truck.
+
+00:18:15.319 --> 00:18:16.319 line:85%
+So forget about them.
+
+00:18:16.680 --> 00:18:19.440 line:83%
+But potentially,
+shipable eight, okay, here.
+
+00:18:20.000 --> 00:18:21.160 line:85%
+But we also have reservation,
+
+00:18:22.079 --> 00:18:24.279 line:83%
+except reservations
+which are already shipped.
+
+00:18:24.920 --> 00:18:26.839 line:83%
+So reservation,
+then we compare these two.
+
+00:18:27.599 --> 00:18:30.839 line:85%
+And this delta is what we can take
+
+00:18:31.160 --> 00:18:34.200 line:85%
+for other non-reserved orders.
+
+00:18:34.599 --> 00:18:36.039 line:85%
+So in this case, the delta is two.
+
+00:18:36.519 --> 00:18:38.400 line:83%
+So that's why we're
+adjusting pickable quantity
+
+00:18:38.440 --> 00:18:39.640 line:85%
+from four to two.
+
+00:18:39.680 --> 00:18:43.519 position:56% line:85%
+And this is how quantity is defined.
+
+00:18:44.000 --> 00:18:48.640 line:83%
+I have the same text
+written for in the release node.
+
+00:18:48.680 --> 00:18:50.400 line:83%
+And we're also, of
+course, updating the documentation.
+
+00:18:51.440 --> 00:18:54.319 line:85%
+Probably with more fancy schemas.
+
+00:18:55.200 --> 00:18:57.680 position:61% line:85%
+All right, so in this case, I have two.
+
+00:18:58.119 --> 00:19:00.039 position:61% line:85%
+So system already created pick for two.
+
+00:19:01.680 --> 00:19:03.119 line:85%
+How can I get unblocked
+
+00:19:03.359 --> 00:19:05.240 line:83%
+if I really, really
+need to pick this stuff?
+
+00:19:05.279 --> 00:19:06.400 line:85%
+So I have two options.
+
+00:19:06.799 --> 00:19:08.519 line:85%
+I either reserve this sales order,
+
+00:19:08.559 --> 00:19:10.119 line:85%
+then reserve against reserve.
+
+00:19:10.720 --> 00:19:13.200 position:56% line:85%
+There is no prioritization conflict.
+
+00:19:13.240 --> 00:19:14.799 position:59% line:85%
+So this one can be processed directly.
+
+00:19:15.119 --> 00:19:17.119 position:56% line:85%
+Or I will go and cancel reservation.
+
+00:19:19.559 --> 00:19:22.519 position:63% line:85%
+Because I decided that it is okay to do.
+
+00:19:23.200 --> 00:19:26.799 line:83%
+We will buy more stuff
+later for this specific order.
+
+00:19:27.440 --> 00:19:28.000 line:85%
+It is okay.
+
+00:19:28.039 --> 00:19:29.359 line:85%
+We explored, we met from.
+
+00:19:30.079 --> 00:19:34.960 line:83%
+Now I can close this
+window and run create pick again.
+
+00:19:35.839 --> 00:19:36.839 line:85%
+Let's activate it again.
+
+00:19:38.039 --> 00:19:40.079 line:83%
+For the second round,
+you can see that the first line
+
+00:19:40.119 --> 00:19:41.920 line:83%
+still nothing
+changed because we still blocked.
+
+00:19:42.559 --> 00:19:44.079 line:85%
+And we didn't take any action.
+
+00:19:44.119 --> 00:19:48.839 line:83%
+But the second line, we
+had two remaining to be picked.
+
+00:19:49.240 --> 00:19:50.160 line:85%
+And they can be picked.
+
+00:19:50.200 --> 00:19:51.640 line:85%
+So all good with this line.
+
+00:19:53.079 --> 00:19:56.480 line:83%
+So what we figured
+it out in this demonstration
+
+00:19:56.839 --> 00:20:01.720 line:83%
+that first of all, now you
+do not need to use directed pick
+
+00:20:01.880 --> 00:20:04.119 line:85%
+if the customer or user requires
+
+00:20:04.599 --> 00:20:06.279 line:85%
+some workhouse capabilities.
+
+00:20:06.920 --> 00:20:08.480 line:85%
+First of all, you can implement it
+
+00:20:09.079 --> 00:20:11.519 position:61% line:85%
+for different departments individually.
+
+00:20:12.279 --> 00:20:14.400 line:83%
+Like, okay, let's
+start with a shipping team
+
+00:20:14.599 --> 00:20:15.839 line:85%
+because they are most ready
+
+00:20:15.880 --> 00:20:19.279 line:83%
+and do not touch
+manufacturing or jobs, et cetera.
+
+00:20:20.599 --> 00:20:22.279 line:85%
+Or you can use different policies.
+
+00:20:22.319 --> 00:20:23.559 position:61% line:85%
+For example, here we're using shipping,
+
+00:20:23.799 --> 00:20:25.640 position:59% line:85%
+here we're inventory picks, et cetera.
+
+00:20:25.680 --> 00:20:27.400 position:58% line:85%
+And different combinations, all good.
+
+00:20:28.039 --> 00:20:31.400 line:83%
+And also, even if
+we're using the basic workhouse,
+
+00:20:32.039 --> 00:20:34.079 line:83%
+we still can benefit
+from advanced capabilities
+
+00:20:34.319 --> 00:20:37.400 line:83%
+like put away
+templates, picking by ranking,
+
+00:20:37.880 --> 00:20:42.160 line:83%
+and also allow or do
+not allow creation of lines
+
+00:20:42.839 --> 00:20:44.160 line:85%
+in pick and put away documents
+
+00:20:44.279 --> 00:20:45.799 line:85%
+if there are some problems.
+
+00:20:46.720 --> 00:20:49.119 line:85%
+Means we allow or do not allow
+
+00:20:49.400 --> 00:20:50.759 position:61% line:85%
+workhouse employee or workhouse manager
+
+00:20:50.799 --> 00:20:52.319 line:85%
+to solve problems by themselves.
+
+00:20:52.599 --> 00:20:53.920 line:85%
+So giving them some control.
+
+00:20:55.279 --> 00:20:58.799 line:83%
+Also, we have an ability
+to receive more than ordered,
+
+00:20:59.359 --> 00:21:01.200 line:85%
+also using inventory put away
+
+00:21:01.720 --> 00:21:04.559 line:83%
+together with direct
+update of purchase document
+
+00:21:04.759 --> 00:21:05.559 line:85%
+or workhouse receipt.
+
+00:21:06.279 --> 00:21:09.960 line:83%
+This unblocks you and
+doesn't impact your decision
+
+00:21:10.000 --> 00:21:11.680 line:85%
+about which process you need to use
+
+00:21:11.720 --> 00:21:14.599 line:83%
+because all of
+them supporting overreceive.
+
+00:21:15.160 --> 00:21:18.839 line:83%
+And if you decided
+to use directed put away
+
+00:21:18.880 --> 00:21:19.960 line:85%
+and pick warehouses,
+
+00:21:20.640 --> 00:21:22.720 line:83%
+now you need to
+spend dramatically less time
+
+00:21:22.759 --> 00:21:25.200 position:64% line:85%
+analyzing the nothing to handle situation
+
+00:21:25.400 --> 00:21:27.519 line:85%
+because you can get more insights
+
+00:21:27.640 --> 00:21:30.920 position:61% line:85%
+from the special troubleshooting window
+
+00:21:31.240 --> 00:21:35.680 position:61% line:85%
+which gives you all details right away.
+
+00:21:36.839 --> 00:21:39.400 line:83%
+So if you're
+interested in workhouse session,
+
+00:21:39.440 --> 00:21:42.400 line:83%
+probably you're also
+interested in another technology
+
+00:21:42.599 --> 00:21:44.240 position:63% line:85%
+like it's barcode scanning capabilities.
+
+00:21:44.960 --> 00:21:46.680 position:64% line:85%
+And we have something to present for you.
+
+00:21:46.720 --> 00:21:50.880 line:83%
+So take a look at the
+session about mobile apps.
+
+00:21:52.000 --> 00:21:56.039 line:83%
+Also take a look at the
+session reservation worksheet
+
+00:21:56.079 --> 00:21:57.200 line:85%
+and fulfillment suggestions.
+
+00:21:57.640 --> 00:21:59.640 position:58% line:85%
+It's about reservation and inventory.
+
+00:21:59.880 --> 00:22:00.920 line:85%
+So it also might be interesting.
+
+00:22:03.079 --> 00:22:05.599 position:61% line:83%
+I would like also to
+mention the list of valuable resources.
+
+00:22:07.279 --> 00:22:09.000 line:85%
+Start with submit your ideas
+
+00:22:09.039 --> 00:22:12.519 line:83%
+if you have something to
+say about missing functionality,
+
+00:22:13.559 --> 00:22:16.599 position:56% line:85%
+both there and ideas really matters.
+
+00:22:17.079 --> 00:22:20.839 line:83%
+We have a more detailed
+discussion in a different forum.
+
+00:22:21.119 --> 00:22:22.799 line:85%
+It's also available for partners.
+
+00:22:23.079 --> 00:22:27.200 line:83%
+It's a first link in
+this resource, it's Yammer.
+
+00:22:27.680 --> 00:22:31.440 position:58% line:83%
+Feel free to join and
+participate in the design discussions
+
+00:22:31.599 --> 00:22:34.759 position:56% line:85%
+or get information about like what's
+
+00:22:34.799 --> 00:22:36.880 position:58% line:85%
+and how it getting to be implemented.
+
+00:22:37.960 --> 00:22:41.920 line:83%
+And because it's only a
+few out of our different links,
+
+00:22:42.599 --> 00:22:44.559 line:85%
+we have one link to link them all.
+
+00:22:44.759 --> 00:22:48.599 line:85%
+It's a BC all, aka.ms.
+
+00:22:49.799 --> 00:22:52.519 line:83%
+Go there, explore what
+you have, what we have there.
+
+00:22:53.559 --> 00:22:56.519 position:64% line:85%
+And so thank you and let's stay in touch.
+
+00:22:56.559 --> 00:22:58.799 line:85%
+Join Yammer, let's talk there.
+

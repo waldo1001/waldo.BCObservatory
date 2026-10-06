@@ -1,0 +1,464 @@
+{
+  "video_id": "7v0jxCl_WR8",
+  "item_id": "video/yt-microsoft/7v0jxCl_WR8",
+  "title": "What's New: Service Management Demo Data (2023 release wave 2)",
+  "duration_s": 686,
+  "systems": [
+    "service",
+    "reporting",
+    "sales"
+  ],
+  "topics": [
+    "demo data",
+    "service management",
+    "contoso demo tool",
+    "service orders",
+    "service contracts",
+    "resource allocation",
+    "service technician workflow",
+    "maintenance orders"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Overview of Contoso Demo Tool",
+      "t_start": 0,
+      "t_end": 52
+    },
+    {
+      "title": "Contoso Demo Tool Interface and Configuration",
+      "t_start": 52,
+      "t_end": 127.6
+    },
+    {
+      "title": "Ad Hoc Service Order Scenario",
+      "t_start": 127.6,
+      "t_end": 240
+    },
+    {
+      "title": "Service Technician Workflow and Posting",
+      "t_start": 240,
+      "t_end": 318.1
+    },
+    {
+      "title": "Service Contract Setup and Configuration",
+      "t_start": 318.1,
+      "t_end": 393.2
+    },
+    {
+      "title": "Service Contract Invoicing and Service Order Creation",
+      "t_start": 393.2,
+      "t_end": 509.4
+    },
+    {
+      "title": "Resource Allocation and Technician Work Execution",
+      "t_start": 509.4,
+      "t_end": 619
+    },
+    {
+      "title": "Conclusion and Resources",
+      "t_start": 619,
+      "t_end": 686
+    }
+  ],
+  "features": [
+    {
+      "name": "Service Management Model in Contoso Demo Tool",
+      "description": "The Contoso Coffee demo data tool now includes support for service management, offering demo data to demonstrate two different scenarios in the service area including ad hoc repairs and service contracts.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 29.3,
+      "t_end": 52,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "demo data",
+        "service management",
+        "contoso demo tool"
+      ],
+      "system": "service"
+    },
+    {
+      "name": "Simplified Configuration Pages in Contoso Demo Tool",
+      "description": "The Contoso demo tool now has dramatically simpler configuration pages with shared details moved into a common model, removing duplicate pages and consolidating common settings like sales tax, company type, and currency details.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 63.1,
+      "t_end": 92.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "contoso demo tool",
+        "configuration",
+        "ui redesign"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Demo Data Generation Modes",
+      "description": "The Contoso demo tool supports two generation modes: generate full setup and demo data including master data and transactions, or generate setup data only with number series and various setups without master data.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 104.2,
+      "t_end": 120,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "demo data",
+        "setup",
+        "configuration"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Ad Hoc Service Order with Item Replacement",
+      "description": "Demonstration of handling ad hoc service orders where customers report issues with items not originally sold as service items, with support for troubleshooting, fault resolution codes, and replacement item management.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 140.4,
+      "t_end": 223.1,
+      "is_demoed": true,
+      "caveats": [
+        "Items used may not be originally created as service items"
+      ],
+      "tags": [
+        "service orders",
+        "troubleshooting",
+        "replacement items",
+        "ad hoc repairs"
+      ],
+      "system": "service"
+    },
+    {
+      "name": "Troubleshooting and Fault Resolution Code Search",
+      "description": "Service management includes quick troubleshooting functionality and advanced fault resolution code search to identify symptoms and recommended resolutions for service issues.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 176.3,
+      "t_end": 187.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "troubleshooting",
+        "fault resolution",
+        "service management"
+      ],
+      "system": "service"
+    },
+    {
+      "name": "Service Technician Task List and Item Worksheet",
+      "description": "Service technicians can access a task list of scheduled service orders and use an item worksheet to view details about items being fixed, symptoms, and recommended resolutions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 243.2,
+      "t_end": 272.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "service technician",
+        "task list",
+        "service orders"
+      ],
+      "system": "service"
+    },
+    {
+      "name": "Service Hours Registration",
+      "description": "Service technicians can register work hours spent on service tasks with support for updating status to finished when work is complete.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 272.2,
+      "t_end": 293.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "service hours",
+        "time tracking",
+        "service orders"
+      ],
+      "system": "service"
+    },
+    {
+      "name": "Service Order Posting - Ship and Invoice",
+      "description": "Service managers can post completed service orders with options to ship and invoice in a single action.",
+      "status": "ga",
+      "status_evidence_t": 307.6,
+      "status_evidence_quote": "they see the finished service order, what they can just do, go and post it. Post, ship, and invoice.",
+      "status_evidence_verified": true,
+      "t_start": 307.6,
+      "t_end": 318.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "service orders",
+        "posting",
+        "invoicing"
+      ],
+      "system": "service"
+    },
+    {
+      "name": "Automatic Service Item Creation from Sales Orders",
+      "description": "Service items are automatically created when a sales order is posted, enabling subsequent service contract management for those items.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 331.2,
+      "t_end": 340,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "service items",
+        "sales orders",
+        "automation"
+      ],
+      "system": "service"
+    },
+    {
+      "name": "Service Contract Templates",
+      "description": "Service contracts can be created from templates that demonstrate different patterns, including prepayment contracts with monthly repair orders.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 355,
+      "t_end": 393.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "service contracts",
+        "templates",
+        "prepayment",
+        "maintenance"
+      ],
+      "system": "service"
+    },
+    {
+      "name": "Service Order Types for Contract Classification",
+      "description": "Service order types can be used to define different contract types such as maintenance, making it easier to monitor and manage service contracts.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 379.3,
+      "t_end": 403.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "service contracts",
+        "order types",
+        "maintenance"
+      ],
+      "system": "service"
+    },
+    {
+      "name": "Service Contract Signing and Invoicing",
+      "description": "Service contracts can be signed and generate service invoices for prepayment and monthly charges, with support for charging remainder of month upon contract signing.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 414.7,
+      "t_end": 454,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "service contracts",
+        "invoicing",
+        "prepayment",
+        "monthly billing"
+      ],
+      "system": "service"
+    },
+    {
+      "name": "Create Service Orders from Service Contracts",
+      "description": "Service orders can be automatically created from service contracts for valid periods, such as monthly maintenance orders generated from maintenance contracts.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 464.2,
+      "t_end": 498.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "service contracts",
+        "service orders",
+        "automation"
+      ],
+      "system": "service"
+    },
+    {
+      "name": "Dispatch Board and Resource Allocation",
+      "description": "The dispatch board provides resource allocation functionality to assign service orders to resources with time allocation, and supports filtering by zones or skills.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 509.4,
+      "t_end": 550.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "resource allocation",
+        "dispatch board",
+        "skills",
+        "zones"
+      ],
+      "system": "service"
+    },
+    {
+      "name": "Service Task Execution with Hours Registration",
+      "description": "Service technicians can execute service tasks by registering actual hours worked, which may differ from planned allocation, and mark tasks as finished.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 550.2,
+      "t_end": 581.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "service tasks",
+        "hours registration",
+        "resource utilization"
+      ],
+      "system": "service"
+    },
+    {
+      "name": "Service Order Line Quantity to Consume",
+      "description": "Service order lines support changing quantity settings from quantity to invoice to quantity to consume, enabling internal consumption tracking separate from invoicing processes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 590.8,
+      "t_end": 609,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "service orders",
+        "internal consumption",
+        "invoicing"
+      ],
+      "system": "service"
+    },
+    {
+      "name": "Extensibility of Contoso Demo Tool",
+      "description": "The Contoso demo tool is highly extensible, allowing partners to add vertical functionality and reuse existing models.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 619,
+      "t_end": 636.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "contoso demo tool",
+        "extensibility",
+        "customization"
+      ],
+      "system": "development"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Contoso",
+      "t": 63.1
+    },
+    {
+      "type": "page",
+      "name": "dispatch board",
+      "t": 509.4
+    },
+    {
+      "type": "page",
+      "name": "service task",
+      "t": 243.2
+    },
+    {
+      "type": "page",
+      "name": "item worksheet",
+      "t": 256.4
+    },
+    {
+      "type": "page",
+      "name": "order service lines",
+      "t": 590.8
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Andrei Panko",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 37.6,
+      "text": "we change how tool looks, and we also added support of missing service management model",
+      "why_it_matters": "Establishes that service management is a new addition to the Contoso demo tool in this release",
+      "check": "exact"
+    },
+    {
+      "t": 75.8,
+      "text": "configuration pages, which are now dramatically simpler. And because we moved shared details into the common model",
+      "why_it_matters": "Shows a major UI redesign and architectural improvement to reduce redundancy in the demo tool",
+      "check": "exact"
+    },
+    {
+      "t": 104.2,
+      "text": "You can run it in two different modes. You can run it in the generate means full and setup and demo data, means master",
+      "why_it_matters": "Clarifies the two operational modes available for demo data generation with different levels of detail",
+      "check": "exact"
+    },
+    {
+      "t": 331.2,
+      "text": "We will create service item automatically when we post sales order.",
+      "why_it_matters": "Demonstrates automated service item creation, a key workflow feature for service contract management",
+      "check": "exact"
+    },
+    {
+      "t": 474.9,
+      "text": "We will run create service orders from the contract task, which are valid in this month",
+      "why_it_matters": "Shows automation capability for generating recurring service orders from contracts",
+      "check": "exact"
+    },
+    {
+      "t": 625.6,
+      "text": "this model is very extensible. So you can just go and add your vertical functionality if needed and reuse existing ones.",
+      "why_it_matters": "Indicates that partners can customize and extend the demo data tool for their specific scenarios",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 1,
+    "evidence_unverified": 16
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.031836
+    }
+  ]
+}

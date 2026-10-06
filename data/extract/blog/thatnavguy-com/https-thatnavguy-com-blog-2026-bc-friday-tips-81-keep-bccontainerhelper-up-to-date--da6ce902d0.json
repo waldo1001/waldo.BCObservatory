@@ -1,0 +1,52 @@
+{
+  "item_id": "blog/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-81-keep-bccontainerhelper-up-to-date/",
+  "url": "https://thatnavguy.com/blog/2026/bc-friday-tips-81-keep-bccontainerhelper-up-to-date/",
+  "title": "BC Friday Tips #81 Keep BCContainerHelper Up to Date",
+  "source": "thatnavguy-com",
+  "published_at": "2026-09-11T00:00:00.000Z",
+  "words": 122,
+  "summary": "BCContainerHelper is a PowerShell module for Business Central container workflows. Keeping it updated ensures you get the latest bug fixes and performance improvements that may resolve container issues.",
+  "key_points": [
+    "Use Update-Module -Name BCContainerHelper to get the latest version",
+    "Older installed versions can be removed with PowerShell scripts to clean up your system",
+    "New releases fix bugs and improve container performance",
+    "Update before troubleshooting container issues, as the problem may already be fixed"
+  ],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "bccontainerhelper",
+    "powershell",
+    "container",
+    "development tools",
+    "module management"
+  ],
+  "objects": [],
+  "features": [
+    "BCContainerHelper updates",
+    "PowerShell module management",
+    "Container workflow improvements"
+  ],
+  "versions": [],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004162,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "New releases can improve performance and fix bugs in your container workflows.",
+      "why_it_matters": "Explains the key benefit of staying current with BCContainerHelper updates"
+    },
+    {
+      "text": "Update your BCContainerHelper version before troubleshooting a strange container issue. It might already be fixed.",
+      "why_it_matters": "Provides practical guidance for troubleshooting container problems by ensuring you have the latest fixes"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "video_id": "iHgaNJucyvI",
+  "item_id": "video/yt-microsoft/iHgaNJucyvI",
+  "summary": "Adding existing table fields to pages in Business Central, shown in preview with update 23 (2023 release wave 2). Covers role customization, read-only behavior, the permission and developer property that control it, sandbox testing, limits, and when extensions are still needed.",
+  "overview": "The session shows how consultants and administrators can add any field from a page's source table, including extension fields, to an existing page without code. The capability is in preview with update 23 and was one of the most highly voted community ideas. Demos use vendor and sales pages, with field discovery tooltips, filters for large tables, drag and drop placement, and locking of field editability.\n\nIt also covers safety and limits. Added fields are read-only, only available in role customization, and need a permission granted by an administrator. Developers can block fields with a table field property. Changes can be tested in a sandbox and imported to production. Extensions remain the choice for more complex scenarios, and page customizations in AL cover simple cases for developers.",
+  "key_points": [
+    "Add existing table fields to pages is in preview with update 23. It lets users pick any field from the page's source table, including extension fields, not only recommended fields.",
+    "It works in role customization only, not personalization, and not organization-wide. Added fields are read-only, and fields developers locked for data integrity cannot be unlocked.",
+    "Administrators must grant the 'add table field to page' permission, which is in the D365 Profile Management permission set.",
+    "Developers can set the new 'allow customizations' property on a table field to never or always. Setting it to never removes the field from the customization UI, including fields already added.",
+    "Role customizations can be tested in a sandbox, then exported and imported to production.",
+    "Adding many flow fields to one page can hurt performance. Some pages may need a refresh to load the data.",
+    "Extensions are still needed for scenarios requiring code or behavior. Page customizations in AL cover simple field and group additions, and 'Explore in Visual Studio Code' helps inspect a page's source."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "developer"
+  ],
+  "extraction_hash": "47ea13bf09574c183a307f2eaf894408dfa1efb4dd326e2ea5a60920fa8fd34a",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0213384
+  }
+}

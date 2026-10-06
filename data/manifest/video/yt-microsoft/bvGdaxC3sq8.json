@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "Introducing: Contoso Demo Tool (2023 release wave 2)",
   "url": "https://www.youtube.com/watch?v=bvGdaxC3sq8",
-  "published_at": null,
+  "published_at": "2023-12-21T13:57:40.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:34:19.561Z",
+      "captions": "auto:en-orig",
+      "duration_s": 721
+    },
+    "captioned": {
+      "at": "2026-10-06T21:34:26.760Z",
+      "path": "data/captions/microsoft/bvGdaxC3sq8.vtt",
+      "vtt_sha256": "fcd612b489e3f1e6f57267e6b15e892a48f2cbfd3cf48197d6434747bd755b71",
+      "segments": 56,
+      "words": 1828,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -20,6 +34,13 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 480,
     "duration_s": 721,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "fcd612b489e3f1e6f57267e6b15e892a48f2cbfd3cf48197d6434747bd755b71"
 }

@@ -1,0 +1,471 @@
+{
+  "video_id": "iHgaNJucyvI",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 18.7,
+      "end": 38.9,
+      "text": "hi and welcome to this session you probably know us but uh my name is Peter boring and with me I have my name is Mike B Cardona and we're going to talk to you about uh customization in business Central now business Central has powerful customization tooling that is built into the web client and really allows our customers to"
+    },
+    {
+      "t": 38.9,
+      "end": 59,
+      "text": "adapt quickly uh to change to their uh to their needs um it's this highly interactive and very immersive experience that is baked into the client and uh really because it's in your browser it's alongside the data that you have loaded up you get this instant sense of how your changes uh look and feel and"
+    },
+    {
+      "t": 59,
+      "end": 79.2,
+      "text": "behave alongside your data yeah and ultimately it's all about empowering people to quickly optimize their experience for how they work uh or how their business operate and that's why we are super excited today to present this new capability uh this addition to our UI customization tooling which is the ability to add"
+    },
+    {
+      "t": 79.2,
+      "end": 99.3,
+      "text": "existing table fields to your pages to optimize your pages and we really think that this is going to help our customers uh get to Value faster and at lower cost which means the overall total cost of ownership of business Central goes down yes and not only that but it also helps scaling our partners right Consultants are empowered to do more and"
+    },
+    {
+      "t": 99.3,
+      "end": 119.4,
+      "text": "with this we also free up the scar developer resources exactly and we should also mention Peter that isn't this one of the most highly voted Community ideas of all time yes I think it's amongst the top two in fact six 600 votes or something like that something like that yes um we should also mention that um if we look to Modern Workforce Trends uh the trend is towards"
+    },
+    {
+      "t": 119.4,
+      "end": 139.6,
+      "text": "workers being more willing more competent as well to take on these kind of customizations themselves they feel that they can take on this kind of work and they want to take on this work as well yes and it's true to our spirit adapt quickly so let's get on with it let's do that yes so let's look at the agenda for this"
+    },
+    {
+      "t": 139.6,
+      "end": 160.3,
+      "text": "session so um we'll start up with talking about some of the user experience enhancements uh that we have introduced that that helps you when you're doing C izations or Ro customizations or just working in the extension designer we'll also talk about how you can make Fields read only in the experience"
+    },
+    {
+      "t": 160.3,
+      "end": 180.5,
+      "text": "and then uh last but not least we're going to talk about the ability to add existing table fields to a page allowing consultants and inducers a quick no code way of customizing existing pages so Mike can you talk a little bit about the user experiences absolutely let's start right there in fact this is quite important"
+    },
+    {
+      "t": 180.5,
+      "end": 200.7,
+      "text": "to understand how to add table Fields uh it's important to understand uh how the user experience has changed in update 23 U keep in mind that whether it's personalization whether it's role customization or using the extension designer uh this is pretty much the same experience that you have now now um each of these uh give you more"
+    },
+    {
+      "t": 200.7,
+      "end": 220.7,
+      "text": "transparency into the fields that you want to add to the page um but also you know answer questions like what is this field about uh where does it come from you'll be able to answer all of those questions thanks to this revised user experience we've also made it a lot more efficient to work with large tables which have a lot of fields in fact we have some tables that have more than 100 Fields more than 200"
+    },
+    {
+      "t": 220.7,
+      "end": 238.7,
+      "text": "Fields as well so we're also supporting scale here for large tables where you need to find the right field at the right point in time let's dive into a demo let's start right here on the vendor list I'm going to start by personalizing just to illustrate the experience let's go to"
+    },
+    {
+      "t": 238.7,
+      "end": 258.9,
+      "text": "personalize now I'm going to bring up the ad field Pane and that slides in from the right hand side there we go and notice first of all how the fields listed in the pane here are uh you know they show very little information they're really just meant to give you a very quick sense of of of what the field is so we've got a field caption"
+    },
+    {
+      "t": 258.9,
+      "end": 279.2,
+      "text": "shown over there we've got the field data type as well and the new icon which shows if this is a field that is visible on the page or not visible currently on the page but sometimes we need more context to decide if this is the right field for me so as I hover over these fields you'll notice that we have a new tool tip that appears that gives you some of that context let's hover over"
+    },
+    {
+      "t": 279.2,
+      "end": 299.3,
+      "text": "coupled with data verse uh here you can see in the tool tip we have some useful information we have the caption again but also because the table field and the Page Field May sometimes have a slightly different uh name we're also showing the alternate name here as well also known as coupled to CRM uh we've got the tool tip in there the field tool tip as well from the"
+    },
+    {
+      "t": 299.3,
+      "end": 319.3,
+      "text": "page that explains what this is all about now I understand that this field uh couples the vendor record with an account in data verse uh we also share additional information through that tool tip we've got um things like a you know is this specified on the page object but also where did it come from this came from the base application it's defined in the"
+    },
+    {
+      "t": 319.3,
+      "end": 339.3,
+      "text": "base application by Microsoft Microsoft is the publisher of this particular field now you'll notice also up here recommended Fields what does this term mean well we're introducing this term to imply these are the fields that have been added by the developer onto the page and developers often choose to show"
+    },
+    {
+      "t": 339.3,
+      "end": 359.6,
+      "text": "the fields that all of their users need but they'll choose to hide some of the fields that only some of their users tend to need so that's what we mean by recommended fields in this place so here because I am personalizing I have access to these recommended Fields um and to explain even further what recommended Fields actually means you can take a look at the advanced filters"
+    },
+    {
+      "t": 359.6,
+      "end": 379.8,
+      "text": "here so recommended Fields is kind of a way of filtering the entire list of vendor uh uh fields on the vendor table right look at what's in here in these Advanced filters this kind of explains what you see in that list of fields we see fields that are bound to a table in other words they originate from the vendor table in this case we have fields"
+    },
+    {
+      "t": 379.8,
+      "end": 399.8,
+      "text": "that are page controls uh which means they're actually not bound to a table field they're actually just bound to a variable uh you can uh also toggle sort of show me only or include only fields from the base objects or from extensions but also visibility and these are fully adjustable so if recommended Fields is a good starting"
+    },
+    {
+      "t": 399.8,
+      "end": 420,
+      "text": "point for you you'd use that but if you want more control just to find the fields you're looking for you'd use this filtering ability so let's do one little exercise here I'm going to check Fields already shown on the page and now notice how the uh the list here has been updated in fact you'll see that the icons have changed right some fields are hidden on the page some fields are"
+    },
+    {
+      "t": 420,
+      "end": 436.1,
+      "text": "visible on the page as implied by that icon so we're helping you at a glance get a sense of what is this field but ultimately all the fields here are presented in a very similar way just to reduce the amount of complexity as you start using this feature and finding your"
+    },
+    {
+      "t": 436.1,
+      "end": 456.2,
+      "text": "Fields let me uncheck that again okay so let's go through a little exercise now that we've understand how the new filter control works it presents recommended fields and I can adjust those filters as well let's try and add um the country region field onto the page so here it is country region code again the tool tip"
+    },
+    {
+      "t": 456.2,
+      "end": 476.5,
+      "text": "will tell me how this works if I click on Country region code in the pane business Central will scroll that field into view on the page canvas uh it will show it in this way which implies it's not actually visible yet on the page I still have one more task to do to to make sure I want it to become visible for my users"
+    },
+    {
+      "t": 476.5,
+      "end": 496.6,
+      "text": "or for myself in this case because I'm personalizing but here you you can see it is a recommended field that is shown also in the recommended position the recommended location on the page why because again a developer thoughtfully put it into that place and now we're helping users you know make sure that the field they'd like to uh make visible on the page is in"
+    },
+    {
+      "t": 496.6,
+      "end": 510.4,
+      "text": "the best possible location so from here I can now hover over the field itself and choose to show that field that is the first way in which I can bring Fields onto my page when I'm personalizing"
+    },
+    {
+      "t": 510.4,
+      "end": 520.6,
+      "text": "um now again keep in mind this is a field recommended by the developer it's already sort of coded into the page I'm simply making it visible I can reverse that decision as well"
+    },
+    {
+      "t": 520.6,
+      "end": 541,
+      "text": "by hiding it again off the page and notice how each time the pain on the right will adjust will adapt uh we're trying to create an experience here which feels very physical you know as the field uh on the right and the pain uh as that is transferred onto the page disappears from the pain itself and I want to show you a alternate"
+    },
+    {
+      "t": 541,
+      "end": 561,
+      "text": "way of bringing Fields onto the page let's do the same exercise this time I'm going to drag and drop the field I'm going to take country region code again going to drag it with my mouse and because I'm dragging it uh notice first of all how I have a mouse pointer hint uh that tells me that I'm about to move it to a particular location it's not the one that the developer originally intended"
+    },
+    {
+      "t": 561,
+      "end": 581.5,
+      "text": "but that's okay I've got the flexibility to choose precisely where I want it now i' like country region code to show up uh let's put this after the context field now there we go and as I drop again same story it appears in place the data loads up um so again I'm seen the data live as I make changes uh and that field has disappeared"
+    },
+    {
+      "t": 581.5,
+      "end": 599.8,
+      "text": "from the pane on the right so that's how you can filter to reduce the set of fields but you can also search for your field and the two work great together so here alongside my filtering I'm also going to say find me the country or region code it's not going to find that field because I've got it on the page let's hide it from here again"
+    },
+    {
+      "t": 599.8,
+      "end": 620.2,
+      "text": "there we go so I've got search working with my filters I found the country region code field uh and as I navigate to a different page for example here I'm navigating to the vendor card notice how business Central preserves my Search terms and my filters uh so that I can continue working on this page as well because I'm probably performing"
+    },
+    {
+      "t": 620.2,
+      "end": 640.6,
+      "text": "similar customizations in this case all right now in this case uh a lot of what I showed you on the list page applies here as well I'm going to drag the region code let's place it here under zip code very well um so it's the same kind of Concepts right the same way of interacting with things once it's here I can move it to a different location"
+    },
+    {
+      "t": 640.6,
+      "end": 661.3,
+      "text": "I've also got the usual menu of capabilities to work with that field and customize it further but there's a new one there's a new menu item here which is about editing or editability now in this case um I'm showing the country region code field on the page and I can also make it read only I can lock editting using this menu item"
+    },
+    {
+      "t": 661.3,
+      "end": 681,
+      "text": "now it's readon which means I'm creating visual focus on the editable fields it's one of those things that you know I don't want to enter values into so like this I can easily skip over it it's a great way to optimize your pages further for readability and also prevent any data editing accidents where you might accidentally set that to something"
+    },
+    {
+      "t": 681,
+      "end": 701,
+      "text": "different um now I can also revert my change so I'm going to say unlock editing and now we're back to normal so now this field can be edited again so it's very simple any editable field you can lock it and then you can revert your change by unlocking it I want to be really clear about what we mean by making"
+    },
+    {
+      "t": 701,
+      "end": 721.1,
+      "text": "things editable here or unlocking unlocking Fields is something you would do to a field you have already locked which means if the developer has already defined on this page for example the balance field here this field is never meant to be editable you'll notice that I actually don't have the ability to unlock and make this editable safety first we want to make sure"
+    },
+    {
+      "t": 721.1,
+      "end": 734.4,
+      "text": "we preserve the Integrity of our customers data and even though these are very powerful tools we want to make sure that it don't get into a situation where they can edit data they should never be editing because that may have Downstream implications uh in business"
+    },
+    {
+      "t": 734.4,
+      "end": 754.4,
+      "text": "Central so that was a quick demo of the user experience uh but also the ability to lock and unlock fields for editability very good so all of that is available whether you're personalizing your workspace for yourself whether you're making uh rooll tailored adjustments to business Central for all users in a role"
+    },
+    {
+      "t": 754.4,
+      "end": 774.4,
+      "text": "or if you're designing extensions um now we should really switch to what is the star of the show let's talk about adding existing table fields to optimize your pages this is really the very first time in history that we're uh going beyond the concept of recommended Fields uh and we're really empowering customers to pick from any fields"
+    },
+    {
+      "t": 774.4,
+      "end": 794.4,
+      "text": "from that Source table that powers the page including extensions and bring that in into the page so they can consume it they can read it they can view it we are launching this capability in preview with update 23 and let me give you a quick demo of that now adding existing table Fields is something you can only do in roll customization"
+    },
+    {
+      "t": 794.4,
+      "end": 814.7,
+      "text": "so the first thing I will do is will I go to my list of profiles also known as roles let's go to that list I'm going to pick one of these roles let pick the bookkeeper role and just say customize Pages this is going to open up a new tab with business Central is going to zoom into the bookkeeper profile and now I can begin"
+    },
+    {
+      "t": 814.7,
+      "end": 826.3,
+      "text": "customizing which means that any user assigned this profile will be able to see these changes let's go to posted documents I'll go to posted sales"
+    },
+    {
+      "t": 826.3,
+      "end": 846.4,
+      "text": "invoices I'll bring up the very same pain now this is the same add a field pain that you saw earlier for personalization this time for RO customization notice one very significant change which is the filter now says all Fields It also says in preview as I mentioned earlier uh but ultimately now because"
+    },
+    {
+      "t": 846.4,
+      "end": 866.8,
+      "text": "I'm customizing roles and I've got permission to actually uh pick from all fields that becomes a new default view inside the pane which means now I don't only have recommended Fields here I've got all the fields including those from The Source table look at the size of that scroll bar there are so many more things I can pick from from the to adjust my posted sales invoices"
+    },
+    {
+      "t": 866.8,
+      "end": 887.2,
+      "text": "in this case now you also notice if you go to the advanced filters here that one new filter has also lit up which is table Fields not on the page object that's exactly what these are that we've included here this is exactly what we're unlocking and empowering our customers to bring onto their Pages as a very quick example let's go to"
+    },
+    {
+      "t": 887.2,
+      "end": 907.3,
+      "text": "one of these posted sales invoices and here I'd like to find the remaining amount now this is a well let's use the tool tip this is defined on the table it's only on the table no developer has added it to this page but I really need to see the remaining amount on this posted invoice so what I'm going to do is same thing I can either"
+    },
+    {
+      "t": 907.3,
+      "end": 927.6,
+      "text": "click to show it in place here business Central will add it to the end of the fast tab or the end of the list just to give you a starting point where you can choose to sort of display that remaining amount right or I could just drag it into the exact location where I'd like it to show let's have it show somewhere here there it is remaining amount now because this came from a table"
+    },
+    {
+      "t": 927.6,
+      "end": 947.6,
+      "text": "and this is the first time it's been added to the page you can only get this to a readon state every table field you add will be readon uh in most cases it'll also load up the data for that field instantly there'll be a few cases where it does not so you need to refresh or just simply rigate back to the page and to load up that data so here"
+    },
+    {
+      "t": 947.6,
+      "end": 967.7,
+      "text": "you have the remaining amount field for the very first time on the posted sales invoice with that value that I can see alongside all of my other fields now it's the same concept again whether it's on a c card page a list page or any other page type you'd interact with your fields and drop them onto your page in exactly the same way now I'm done with my changes so I hit"
+    },
+    {
+      "t": 967.7,
+      "end": 987.8,
+      "text": "done and at this point um all users again that are assigned this profile are able to start seeing the remaining amount field uh on this page um now I I did this in a sandbox right and one benefit of that is because I'm in a sandbox I can uh test my changes I can get others invite others to test"
+    },
+    {
+      "t": 987.8,
+      "end": 1008.3,
+      "text": "the changes with me as well and when I'm really comfortable with the changes I've made I can always export my role customizations and then import them into production at the right point in time and that's also great from a safety perspective you know want to again practice safety first uh make sure that the changes you're making here are ideal they have no Downstream"
+    },
+    {
+      "t": 1008.3,
+      "end": 1028.9,
+      "text": "consequences um and are ready to consume in production so to tell us more about creating a safe experience Peter over to you thank you Mike I mean this is an awesome uh feature right but as as Mike alluded to uh multiple times in the demo we really wanted to make sure that that this is safe for the primary audience"
+    },
+    {
+      "t": 1028.9,
+      "end": 1049.2,
+      "text": "of this feature so consultants and administrators but also for for end users right and so uh first H as Mike mentioned this is for role customization only right we focus on the users who naturally already have some degree of technical understanding it also reduces the risk of uh end"
+    },
+    {
+      "t": 1049.2,
+      "end": 1070.2,
+      "text": "users you know going about and creating disruption basically by creating pockets of of functionality or variability on the pages and as we saw uh it's a way of working in a sandbox and then importing in a production when ready to reduce risk you know you export this to a to inspect"
+    },
+    {
+      "t": 1070.2,
+      "end": 1082.2,
+      "text": "and uh in the flow here you can add these things as Ro customization if it doesn't fit the end specific end user they can you know always go and hide that as a personalization"
+    },
+    {
+      "t": 1082.2,
+      "end": 1102.4,
+      "text": "afterwards then as we saw the added fields are read only that's a natural fit for for list places but it also removes the risk of unintentional editing in in card Pages then as mentioned we um we introduced a permission also to make sure uh that um you do not have the option to add these fields"
+    },
+    {
+      "t": 1102.4,
+      "end": 1122.9,
+      "text": "unless you have the permission we'll talk about that in a in a moment and also uh another thing we'll talk more about is that we want to give Partners partner developers the ability to opt out Fields so that they cannot be added or are not shown in the fields uh pain maybe they are you know sensitive or internal"
+    },
+    {
+      "t": 1122.9,
+      "end": 1143.2,
+      "text": "or something like that don't really make sense for the End customer to have if we have a look at the permission what we done there is that we added a new uh add table field to page uh permission uh in the uh d 365 profile management permission set H so that fits naturally"
+    },
+    {
+      "t": 1143.2,
+      "end": 1163.4,
+      "text": "with the other permission for profile management and as I said for developers we created a new property on table field which is called allowing customizations which you can set to never or always right and if you set it to never uh we will actually you know not include that field and we can see the impact of"
+    },
+    {
+      "t": 1163.4,
+      "end": 1183.4,
+      "text": "that we have some example code here where in the first version I do not nothing that basically means that it will be available so in the experience that Mike shown before that table field can be selected and it can be added in the page right but then later maybe in"
+    },
+    {
+      "t": 1183.4,
+      "end": 1203.6,
+      "text": "my uh versions for the app I have decided that I would not want to allow this so I add the allow and customization never in code and that then means that it will no longer be on the page I mean we will take it away even though it was added before it's going to you know apply instantly"
+    },
+    {
+      "t": 1203.6,
+      "end": 1226.4,
+      "text": "and it's also not going to be in the list of fields to add of course you can you know um decide at some point that you want to show this again so again in code you set this to always and that means that then the table field is automatically added back in the UI if it was added before right and it will also be available again in the fields"
+    },
+    {
+      "t": 1226.4,
+      "end": 1246.4,
+      "text": "list so there's a couple of things uh to be aware of um you can add flow fields and flow Fields include calculations and that could be large calculations right so if you add a lot of flow fields to one single page that could have a performance impact and it's just something to be you know be aware of or have in mind then"
+    },
+    {
+      "t": 1246.4,
+      "end": 1266.5,
+      "text": "another thing here is that when you have a you know when you when you add a table field to a page it's of course backed by that table field and so that table field could be removed at some point in the future you know maybe it's part of a pretending extension it it gets removed and that's really the same as today you know that can happen today uh the"
+    },
+    {
+      "t": 1266.5,
+      "end": 1282.6,
+      "text": "result is that the field will not show up in the page we'll just suppress that and you can use the page customizations troubleshooting pain uh sorry page to see uh any issues that you might have uh with customizations and you know Rectify"
+    },
+    {
+      "t": 1282.6,
+      "end": 1302.8,
+      "text": "those also Mike talked about that we will put in know when you add that field to the page P you will put in data uh we are respecting if you use the extended data type mask for uh for example for um passwords right so the data for those will not be shown in the PTI Spector and the field the value"
+    },
+    {
+      "t": 1302.8,
+      "end": 1322.8,
+      "text": "will be masked in the field when you added it to the page or a list now this functionality does not replace extensions because you can still do U many you know scenarios um or more complicated scenarios in extensions that you cannot do with this feature and that's specifically when you want to have"
+    },
+    {
+      "t": 1322.8,
+      "end": 1342.9,
+      "text": "more advanced field Behavior so for example you could have properties on both table and Pages uh that that that do something right like validation triggers and in this scenario that we have where we add a field you only get the functionality that is on the table field right because there is no existing Page Field we create a page field"
+    },
+    {
+      "t": 1342.9,
+      "end": 1362.4,
+      "text": "for that table field so we can only look at that table field so if you you know it's it's not good practice but if you only have say validation on the page other pages that has that field but nothing on the table you will not get that kind of validation when you add the the field uh to a given page"
+    },
+    {
+      "t": 1362.4,
+      "end": 1382.6,
+      "text": "yourself um then there are certain properties that are today only available on Page Field and again since this is a scenario where we create a new page field um you're not getting this so that could be tool tips or assist edit drop- down functionality Etc because they are usually done in"
+    },
+    {
+      "t": 1382.6,
+      "end": 1403.2,
+      "text": "code right and you will have to revert to extensions to to handle that there could be scenarios where the field needs to participate in an interaction with other fields maybe you have you know color highlighting with the row style expression for example for traffic colors H maybe you have you know fields that multiple fields that contribute to totals"
+    },
+    {
+      "t": 1403.2,
+      "end": 1413.5,
+      "text": "or or Wizards with some control over field logic Etc fields that needs to go together that's business logic as as well and needs to be created in"
+    },
+    {
+      "t": 1413.5,
+      "end": 1433.6,
+      "text": "extensions we talked about that Fields will be non-editable so if you need the field to be editable you need to add it through an extension today and then last but not least um we create these as roles and roles are not organizational wide right so if you want something which is really for every single"
+    },
+    {
+      "t": 1433.6,
+      "end": 1454.3,
+      "text": "user then currently you need to create it it through an extension I mean the alternative is you can of course go in and modify these for all the roles that get exposed to that page that's that's the mitigation on this now there is you know for some of this if we just go back you might wonder you know how do I know whether there's difference between"
+    },
+    {
+      "t": 1454.3,
+      "end": 1474.3,
+      "text": "existing uh you know having that feel in existing Pages do those pages add some specific functionality that I will miss if I just add that field directly from a table maybe you know if that function is not on the table hey well there's actually in this release a new very powerful tool that can help"
+    },
+    {
+      "t": 1474.3,
+      "end": 1494.5,
+      "text": "you with that and that is in the page inspection uh tab there's a new Option uh called explore page in Visual Studio code and also on the table Fields there's an option for exploring in Visual Studio code and what um those opt those links do is that they actually"
+    },
+    {
+      "t": 1494.5,
+      "end": 1514.5,
+      "text": "provision visual studio for you with everything with all the you know extensions that are part of this page so if you go to the extensions tab you will see all of the extensions that contribute to this page we'll create a project with all of those allowing you to inspect the source there with one click you don't have to you know Consultants can do"
+    },
+    {
+      "t": 1514.5,
+      "end": 1534.6,
+      "text": "this if they can read code and have Visual Studio code installed we have one example here uh if you go on the field and you invoked explore Studio code it will directly get you to the source code for the field on the table if you use the page link on top you will get to the source for the page so that's"
+    },
+    {
+      "t": 1534.6,
+      "end": 1555,
+      "text": "a way for you to compare across Pages what was there any specific functionality implemented on these pages that I would lose if I just added to a new page so uh all of this we go through with demo and in detail in the and we actually renamed that session so it's not called what's new inh but what's new in developer"
+    },
+    {
+      "t": 1555,
+      "end": 1571.8,
+      "text": "tools I'm sorry about that but the session code is the same uh so go and view that and if you're a consultant viewing this session you know just jump to that section in the in this developer session and don't be afraid of that it's it's really useful for Consultants"
+    },
+    {
+      "t": 1571.8,
+      "end": 1590.3,
+      "text": "um as well or mainly so um one last thing here H because we built this uh for uh you know role customization in the client we also get the same backing functionality in a page customization"
+    },
+    {
+      "t": 1590.3,
+      "end": 1610.4,
+      "text": "Al uh implementation right so as a developer you can now also add page fields and groups in this way um but again you know for most scenarios the page extension would be recommended because that's the that's the way that you can add functionality and code right but if you have very simple scenarios as developer if you just want to have this out"
+    },
+    {
+      "t": 1610.4,
+      "end": 1630.6,
+      "text": "of the box you can do it in page customizations so to look back at this session H you know we reached the end uh what did we show well we showed some really exciting features that we hope you like around improving the user experience when you're doing personalization role customization and working"
+    },
+    {
+      "t": 1630.6,
+      "end": 1650.7,
+      "text": "in the extension designer we also showed you how you can make Fields read only and uh not least we showed you the ability to add existing table fields to a page to allow both consultants and administrators and end users you know a quick no code way of customizing existing"
+    },
+    {
+      "t": 1650.7,
+      "end": 1671,
+      "text": "pages and this is such a powerful combination of features uh that we have today uh especially for Consultants right and we've also given control uh to developers to administrators to make sure this is a safe experience so fantastic we're so pleased with how it turned out and we hope you love this feature too so if you can spare"
+    },
+    {
+      "t": 1671,
+      "end": 1691.2,
+      "text": "just a few more minutes of your time we recommend these sessions here where we Deep dive into other web client productivity features as well uh also customization doesn't stop at pushing fields around your page uh you can also uh get to custom Data Insights using uh analysis views and we go into a lot of detail in this session but"
+    },
+    {
+      "t": 1691.2,
+      "end": 1711.2,
+      "text": "also finally U as Peter mentioned if you're more technically inclined we have the whole what's new in developer tool session as well for that one there's plenty more resources uh if you're looking to get started with business Central uh follow the buzz on social media or just engage with a project engineering team such as ourselves and don't forget adding"
+    },
+    {
+      "t": 1711.2,
+      "end": 1724.4,
+      "text": "an existing field from the table to the page originated as a community idea so if you've got more great ideas that can enhance uh our customers productivity um submit your ideas at aka."
+    },
+    {
+      "t": 1724.4,
+      "end": 1735.8,
+      "text": "msbc ideas on behalf of the business Central team I really want to thank you for tuning in and see you on the next session thank"
+    },
+    {
+      "t": 1735.8,
+      "end": 1737,
+      "text": "you"
+    }
+  ],
+  "markers": [
+    {
+      "t": 2.09,
+      "text": "[Music]"
+    },
+    {
+      "t": 18.71,
+      "text": "[Music]"
+    },
+    {
+      "t": 18.72,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 5322
+}
