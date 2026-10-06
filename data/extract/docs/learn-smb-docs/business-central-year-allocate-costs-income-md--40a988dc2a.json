@@ -1,0 +1,48 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/year-allocate-costs-income.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/year-allocate-costs-income",
+  "title": "Overview of tasks to allocate costs and income",
+  "blob": "7aceddaa31222c144bd30e7c0d84b676c7482180",
+  "summary": "Allocate recurring costs and income entries across multiple accounts in recurring general journals using quantity, percentage, or amount-based allocation keys.",
+  "systems": [
+    "finance"
+  ],
+  "topics": [
+    "cost allocation",
+    "recurring journals",
+    "allocation keys",
+    "general journals",
+    "income allocation",
+    "expense allocation"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Recurring General Journals"
+    },
+    {
+      "type": "table",
+      "name": "General Journal Batches"
+    }
+  ],
+  "features": [
+    "quantity allocation",
+    "percentage allocation",
+    "amount allocation",
+    "allocation account setup",
+    "recurring journal allocation",
+    "fixed asset journal allocation",
+    "global dimension allocation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003384,
+      "pages_in_call": 8
+    }
+  ]
+}

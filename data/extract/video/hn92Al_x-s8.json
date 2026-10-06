@@ -1,0 +1,303 @@
+{
+  "video_id": "hn92Al_x-s8",
+  "item_id": "video/yt-microsoft/hn92Al_x-s8",
+  "title": "What’s New: Reporting Features (For Developers and Consultants) (2024 release wave 2)",
+  "duration_s": 637,
+  "systems": [
+    "reporting",
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "report layouts",
+    "word documents",
+    "excel reports",
+    "metadata",
+    "named formulas",
+    "telemetry",
+    "layout lifecycle",
+    "report schema",
+    "xml mapping"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to Report Layout Lifecycle",
+      "t_start": 0,
+      "t_end": 39.9
+    },
+    {
+      "title": "Export Report Schema and Get Custom XML",
+      "t_start": 39.9,
+      "t_end": 111.3
+    },
+    {
+      "title": "Mapping Report Fields to Word Documents",
+      "t_start": 111.3,
+      "t_end": 184.4
+    },
+    {
+      "title": "Creating New Blank Report Layouts",
+      "t_start": 184.4,
+      "t_end": 241.6
+    },
+    {
+      "title": "Updating Layouts with Latest Metadata",
+      "t_start": 241.6,
+      "t_end": 302.2
+    },
+    {
+      "title": "Named Formulas in Excel Reports",
+      "t_start": 302.2,
+      "t_end": 462.6
+    },
+    {
+      "title": "Lifecycle Telemetry for Report Layouts",
+      "t_start": 462.6,
+      "t_end": 513.1
+    },
+    {
+      "title": "Additional Reporting Improvements",
+      "t_start": 513.1,
+      "t_end": 637
+    }
+  ],
+  "features": [
+    {
+      "name": "Export Report Schema for Word",
+      "description": "New action to export report schema as XML file that can be injected into Word documents to enable mapping of report fields to layout elements.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 60,
+      "t_end": 111.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "word",
+        "xml",
+        "schema",
+        "layout",
+        "metadata"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Create Blank Report Layouts",
+      "description": "New action to create a new empty layout for a report in Word, Excel, or RDLC format from the report object, allowing developers to start from scratch.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 184.4,
+      "t_end": 241.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "blank layout",
+        "word",
+        "excel",
+        "rdlc",
+        "new layout"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Update and Export Layout",
+      "description": "New action that updates an existing layout with the latest report metadata, useful when a report extension adds more fields to the dataset.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 241.6,
+      "t_end": 302.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "metadata",
+        "layout update",
+        "extensions"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Named Formulas for Excel",
+      "description": "Simplifies Excel report formulas by providing named formulas that reference aggregated metadata instead of writing complex XLOOKUP or VLOOKUP formulas.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 302.2,
+      "t_end": 462.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "excel",
+        "formulas",
+        "xlookup",
+        "metadata",
+        "named formulas"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Report Layout Lifecycle Telemetry",
+      "description": "New telemetry capability tracking changes to report layouts including when users change default layout, modify properties, export, replace or delete layouts.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 462.6,
+      "t_end": 513.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "telemetry",
+        "kql",
+        "lifecycle",
+        "analytics"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Set Report Filename Event",
+      "description": "New event called OnSetFileName that allows subscribers to set the file name for reports that are downloaded.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 513.1,
+      "t_end": 573.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "event",
+        "filename",
+        "download"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "VS Code Data Item Snippet",
+      "description": "New VS Code snippet for data link item called 'or data item' to help developers quickly scaffold data item declarations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 553.4,
+      "t_end": 578.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "vs code",
+        "snippet",
+        "development"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Report Layout Property Deprecation",
+      "description": "Properties Report.WordLayout, Report.RdlcLayout and Report.ExcelLayout are being deprecated as they no longer make sense when reports can have multiple layouts.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 578.9,
+      "t_end": 599.4,
+      "is_demoed": false,
+      "caveats": [
+        "Developers should move layout to the rendering section in the report object"
+      ],
+      "tags": [
+        "deprecation",
+        "wordlayout",
+        "rdlclayout",
+        "excellayout"
+      ],
+      "system": "development"
+    }
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Sales Invoice",
+      "t": 90.7
+    },
+    {
+      "type": "report",
+      "name": "General Journal Test",
+      "t": 184.4
+    },
+    {
+      "type": "report",
+      "name": "Customer Top 10",
+      "t": 333.4
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Kenny Paban",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 6.6,
+      "text": "in this 2024 release Wave 2 video we're going to talk about report layout in general so life cycle of layouts",
+      "why_it_matters": "Sets the scope and main topics for the entire presentation on reporting features.",
+      "check": "exact"
+    },
+    {
+      "t": 19.5,
+      "text": "we're going to talk about some new actions you got on the report layouts page get custom XML for word create a new empty",
+      "why_it_matters": "Outlines the three major new features for report layout management.",
+      "check": "exact"
+    },
+    {
+      "t": 313.3,
+      "text": "we tried to make this a little better or a little easier with what we call named formulas",
+      "why_it_matters": "Introduces a significant usability improvement for Excel report developers.",
+      "check": "exact"
+    },
+    {
+      "t": 462.6,
+      "text": "in this release wave we also added life cycle Telemetry for report layout changes on the report layouts page",
+      "why_it_matters": "Announces new telemetry capabilities for tracking and analyzing report layout modifications.",
+      "check": "exact"
+    },
+    {
+      "t": 533.2,
+      "text": "there's a new event in town called onet file name and you simply uh subscribe to that",
+      "why_it_matters": "Introduces a new AL event for controlling downloaded report filenames.",
+      "check": "exact"
+    },
+    {
+      "t": 578.9,
+      "text": "we're going to deprecate report. word layout rdlc layout and Excel layout because these don't make any sense anymore",
+      "why_it_matters": "Explains the rationale for deprecating legacy report properties in the multi-layout era.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 578.9,
+      "kind": "coming-later",
+      "text": "we're going to deprecate report. word layout rdlc layout and Excel layout"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 8
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.022515
+    }
+  ]
+}

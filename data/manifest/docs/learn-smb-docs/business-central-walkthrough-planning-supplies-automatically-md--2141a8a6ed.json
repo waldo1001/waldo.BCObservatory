@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/walkthrough-planning-supplies-automatically",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "extracted",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -24,6 +24,18 @@
       "parts": 1,
       "objects": 9,
       "cost_usd": 0.010471
+    },
+    "summarized": {
+      "at": "2026-10-06T19:12:25.477Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:12:25.478Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:12:25.479Z",
+      "page": false
     }
   },
   "input_hash": "80023d57614a46c6a920bf8091fc028b923294b9",

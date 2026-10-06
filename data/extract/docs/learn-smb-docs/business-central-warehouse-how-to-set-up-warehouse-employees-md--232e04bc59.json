@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/warehouse-how-to-set-up-warehouse-employees.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-set-up-warehouse-employees",
+  "title": "Set Up Warehouse Employees",
+  "blob": "9cc837603b2a3bd4d91bea86b367d923273e9c1c",
+  "summary": "Set up warehouse employees by assigning users to locations and specifying default warehouse locations where they can perform warehouse activities.",
+  "systems": [
+    "warehouse",
+    "administration"
+  ],
+  "topics": [
+    "warehouse employees",
+    "user assignment",
+    "location access",
+    "warehouse permissions",
+    "employee setup"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Warehouse Employees"
+    }
+  ],
+  "features": [
+    "user to employee assignment",
+    "default location specification",
+    "multi-location access",
+    "activity filtering by location"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003384,
+      "pages_in_call": 8
+    }
+  ]
+}

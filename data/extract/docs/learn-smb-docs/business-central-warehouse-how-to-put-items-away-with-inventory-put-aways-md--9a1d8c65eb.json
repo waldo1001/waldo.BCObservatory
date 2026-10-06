@@ -1,0 +1,46 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/warehouse-how-to-put-items-away-with-inventory-put-aways.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-put-items-away-with-inventory-put-aways",
+  "title": "How to Put Items Away with Inventory Put-aways",
+  "blob": "63f6319c4b8e51d259b8eee7ff7db42a2bf306bc",
+  "summary": "Put items away in basic warehouse configurations using Inventory Put-away documents created from source documents, batch jobs, or directly by releasing source documents and creating put-aways manually.",
+  "systems": [
+    "warehouse",
+    "inventory",
+    "purchasing"
+  ],
+  "topics": [
+    "inventory put-away",
+    "inbound flow",
+    "warehouse receipt",
+    "put-away processing"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Inventory Put-away"
+    },
+    {
+      "type": "page",
+      "name": "Create Inventory Put-away/Pick/Movement"
+    }
+  ],
+  "features": [
+    "inventory put-away",
+    "batch job creation",
+    "source document integration",
+    "bin assignment",
+    "split line handling"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004964,
+      "pages_in_call": 8
+    }
+  ]
+}

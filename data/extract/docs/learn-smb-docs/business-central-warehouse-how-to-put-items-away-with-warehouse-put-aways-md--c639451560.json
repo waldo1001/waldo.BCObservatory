@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/warehouse-how-to-put-items-away-with-warehouse-put-aways.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-put-items-away-with-warehouse-put-aways",
+  "title": "How to put items away with warehouse put-aways",
+  "blob": "ca7435881a02a4e5c43f383a8b1712bafeda1c53",
+  "summary": "Put items away in advanced warehouse configurations using warehouse put-away documents created from warehouse receipts or put-away worksheets with zone and bin code management and directed put-away processing.",
+  "systems": [
+    "warehouse",
+    "inventory",
+    "purchasing"
+  ],
+  "topics": [
+    "warehouse put-away",
+    "advanced warehousing",
+    "inbound flow",
+    "directed put-away"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Put-away Worksheet"
+    },
+    {
+      "type": "page",
+      "name": "Posted Warehouse Receipts"
+    },
+    {
+      "type": "page",
+      "name": "Warehouse Put-aways"
+    }
+  ],
+  "features": [
+    "warehouse put-away documents",
+    "put-away worksheet",
+    "zone and bin codes",
+    "put-away templates",
+    "bin ranking",
+    "breakbulk filter"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004964,
+      "pages_in_call": 8
+    }
+  ]
+}

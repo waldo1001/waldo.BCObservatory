@@ -1,0 +1,81 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/warehouse-use-automated-data-capture-systems-adcs.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/warehouse-use-automated-data-capture-systems-adcs",
+  "title": "Use Automated Data Capture Systems (ADCS) foundation",
+  "blob": "cb4d3d2c3a66a1fb436b57afc61131251fff1c5b",
+  "summary": "Use Automated Data Capture Systems (ADCS) to register warehouse item movements and journal activities through handheld devices via barcode scanning, requiring Microsoft partner implementation.",
+  "systems": [
+    "warehouse",
+    "integration"
+  ],
+  "topics": [
+    "automated data capture",
+    "adcs",
+    "barcode scanning",
+    "handheld devices",
+    "warehouse automation",
+    "item identifiers"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "7714"
+    },
+    {
+      "type": "codeunit",
+      "name": "7705"
+    },
+    {
+      "type": "codeunit",
+      "name": "7706"
+    },
+    {
+      "type": "codeunit",
+      "name": "7712"
+    },
+    {
+      "type": "codeunit",
+      "name": "7713"
+    },
+    {
+      "type": "table",
+      "name": "Locations"
+    },
+    {
+      "type": "table",
+      "name": "Items"
+    },
+    {
+      "type": "table",
+      "name": "Item Identifiers"
+    },
+    {
+      "type": "table",
+      "name": "ADCS Users"
+    },
+    {
+      "type": "table",
+      "name": "Miniforms"
+    }
+  ],
+  "features": [
+    "adcs web service enablement",
+    "item identifier setup",
+    "miniform creation",
+    "miniform customization",
+    "handheld function configuration",
+    "adcs user management",
+    "warehouse employee adcs linking"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003384,
+      "pages_in_call": 8
+    }
+  ]
+}

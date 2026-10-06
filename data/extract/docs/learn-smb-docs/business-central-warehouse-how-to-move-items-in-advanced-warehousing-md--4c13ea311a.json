@@ -1,0 +1,59 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/warehouse-how-to-move-items-in-advanced-warehousing.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-move-items-in-advanced-warehousing",
+  "title": "Move items in warehouses that use directed put-away and pick",
+  "blob": "569266e302e41301640e411178ed76ee48400566",
+  "summary": "Move items between bins in advanced warehouse configurations with directed put-away and pick using Movement Worksheet, Warehouse Internal Pick, Warehouse Internal Put-away, or Warehouse Reclassification Journal.",
+  "systems": [
+    "warehouse",
+    "inventory",
+    "manufacturing"
+  ],
+  "topics": [
+    "warehouse movement",
+    "directed pick and put-away",
+    "bin management",
+    "item reorganization"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Movement Worksheet"
+    },
+    {
+      "type": "page",
+      "name": "Warehouse Internal Pick"
+    },
+    {
+      "type": "page",
+      "name": "Warehouse Internal Put-away"
+    },
+    {
+      "type": "page",
+      "name": "Warehouse Reclassification Journal"
+    },
+    {
+      "type": "page",
+      "name": "Movements"
+    }
+  ],
+  "features": [
+    "Movement Worksheet",
+    "Warehouse Internal Pick",
+    "Warehouse Internal Put-away",
+    "Warehouse Reclassification Journal",
+    "bin replenishment",
+    "FEFO picking"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004964,
+      "pages_in_call": 8
+    }
+  ]
+}

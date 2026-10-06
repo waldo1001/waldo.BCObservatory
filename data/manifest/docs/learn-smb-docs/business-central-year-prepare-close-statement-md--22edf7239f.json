@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/year-prepare-close-statement",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "0243eb4e45a24e69972957b3e1430c76cdd526e5",
       "words": 205,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:12:25.468Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 7,
+      "cost_usd": 0.003384
+    },
+    "summarized": {
+      "at": "2026-10-06T19:12:27.316Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:12:27.317Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:12:27.318Z",
+      "page": false
     }
   },
   "input_hash": "0243eb4e45a24e69972957b3e1430c76cdd526e5",
@@ -52,5 +71,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "0243eb4e45a24e69972957b3e1430c76cdd526e5"
+  "output_hash": "654f4dded634938e92b04fa856f77ce245b3ead6d5d8aa0d3d1fffadbcdd4a65"
 }

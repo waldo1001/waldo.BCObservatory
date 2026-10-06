@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-put-items-away-with-warehouse-put-aways",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "ca7435881a02a4e5c43f383a8b1712bafeda1c53",
       "words": 1350,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:12:18.206Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.004964
+    },
+    "summarized": {
+      "at": "2026-10-06T19:12:27.293Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:12:27.294Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:12:27.295Z",
+      "page": false
     }
   },
   "input_hash": "ca7435881a02a4e5c43f383a8b1712bafeda1c53",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ca7435881a02a4e5c43f383a8b1712bafeda1c53"
+  "output_hash": "9aa40e652775095d3d191c911de19347289d50f96f044b9a69f43bdf7db92915"
 }

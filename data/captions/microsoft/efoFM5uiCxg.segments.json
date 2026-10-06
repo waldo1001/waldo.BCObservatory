@@ -1,0 +1,271 @@
+{
+  "video_id": "efoFM5uiCxg",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 7,
+      "end": 27.1,
+      "text": "so with 2024 release Wave 2 business Central can notify uh users in product or help admin help administrators orchestrate notifications when critical business processes or critical background processing stops for some reason I'm even colage and I'm a product manager in business Central engineering"
+    },
+    {
+      "t": 27.1,
+      "end": 47.4,
+      "text": "team and I hope you can join me for the next couple of minutes to see these new capabilities in action so sometimes tasks reports or batch processes take longer to complete to keep people productive while these uh while these things are happening companies often use business centrals uh job"
+    },
+    {
+      "t": 47.4,
+      "end": 67.4,
+      "text": "queue uh to run the processes in the background of course it's something something goes wrong and it's important or an important background process stops or it isn't scheduled for some reason being notified about such situations can help you react quickly and resolve the"
+    },
+    {
+      "t": 67.4,
+      "end": 87.4,
+      "text": "issues so let's see how we can set up the job Q notifications to help us with that in action to set up job Q notifications all you need to do is go to assisted setup and find setup job Q notifications assisted setup guide and follow"
+    },
+    {
+      "t": 87.4,
+      "end": 107.6,
+      "text": "a couple of steps to set it up when you start the job C notifications uh setup you will uh pick who you want to be notified when the background tasks uh either fail or stop for some reason there are two options available in here as any user can uh initiate the background"
+    },
+    {
+      "t": 107.6,
+      "end": 128.3,
+      "text": "task you can just uh toggle this uh button in here to notify only sort of the owner who run who ran that task apart from that you can also uh choose to uh notified what we call Job Q notification administrators I mean these are not real administrators but you could say that"
+    },
+    {
+      "t": 128.3,
+      "end": 148.4,
+      "text": "uh you can have a department head or it admin or somebody who has an interest of uh getting notified when uh some of these things U uh some of these uh things fail for some reason so this is done to reduce the noise um uh to the regular users of notifications so"
+    },
+    {
+      "t": 148.4,
+      "end": 168.5,
+      "text": "there's way there's bit more control uh that you can have uh in in these notifications so if you decide that you want to U notify not only the person who has initiated the background task but you want to notify somebody else you can always say I will add this person in here and for example I will have uh"
+    },
+    {
+      "t": 168.5,
+      "end": 188.6,
+      "text": "my boss uh get notified as soon as some of the tasks that I have uh run uh fails because it could be a business critical process that is running in the background click clicking next so what you can see on this screen is that you can set notification you can Define how you want to notify users and there are two options which can"
+    },
+    {
+      "t": 188.6,
+      "end": 208.8,
+      "text": "be used either together or um one by one first one is in product notifications which is pretty self-explanatory so users get notifications while they are in the product and the other one is you can actually orchestrate the the notifications uh to get to your users even when they are not using"
+    },
+    {
+      "t": 208.8,
+      "end": 229.1,
+      "text": "the product right and is done uh through the use of uh external business events this part of the feature is uh currently in preview mainly because the business events are uh still in preview and we are taking dependency on that so let me turn uh both of these on and simply click next the"
+    },
+    {
+      "t": 229.1,
+      "end": 249.4,
+      "text": "next screen actually shows you how frequently you want to be notified when such situations happen you can set it up to get notified immediately or you can actually go and specify a threshold and say if this is a job queue that handles some um some integration with a third party service"
+    },
+    {
+      "t": 249.4,
+      "end": 269.4,
+      "text": "it can happen that uh some of the some of the issues that might occur might occur because the the third party servic is unavailable or something happened in there and it just makes sense to retry a couple of more times and these these are not these are sort of transient issues right and for these kinds of things you might not want to"
+    },
+    {
+      "t": 269.4,
+      "end": 291.2,
+      "text": "to get notified uh every single time so what you can specify in here you can say oh well you know um if this thing actually fails you know three to five times then go ahead and uh and notify me and clicking next actually finishes up the the setup of the job Q"
+    },
+    {
+      "t": 291.2,
+      "end": 311.5,
+      "text": "notifications so to recap the demo what you saw is basically the the assisted setup guide takes you through three steps you basically say who you want to notify whether it's a user who ran the job or it's a job queue administrator or people in the list that uh that will get notified for every"
+    },
+    {
+      "t": 311.5,
+      "end": 330.2,
+      "text": "failure you select how you want to notify user whether it's in product or uh externally through external business using external business events or and the last thing that you can that you saw in the demo is U that you can actually pick the frequency of notifications"
+    },
+    {
+      "t": 330.2,
+      "end": 350.6,
+      "text": "and you can choose whether to have them U show up immediately or when specific thresholds uh are reached getting in product notifications about issues uh with job geue background processing is a thing that I want to show you uh next so let's switch over to the demo and"
+    },
+    {
+      "t": 350.6,
+      "end": 371,
+      "text": "show you uh in product notifications in action the moment the user logs in uh its assigned role Center the thing that he will see if there are U background processing tasks that uh failed for some reason or have experienced an issue is this notification strip"
+    },
+    {
+      "t": 371,
+      "end": 391.4,
+      "text": "so the thing that he can do is uh he can always go ahead and say show more details and this actually lists uh list the the the job cues that have uh failed for some reason in process you can see all of them are in error State and the user can go and inspect"
+    },
+    {
+      "t": 391.4,
+      "end": 411.4,
+      "text": "uh the details of of these things uh further on by like showing an error or restarting the job manually in here another thing that you saw on the notification was it it actually had that action that says don't show this again so each and every user can after initial setup go to my setting and"
+    },
+    {
+      "t": 411.4,
+      "end": 431.6,
+      "text": "change the notifications that they want to uh receive so admin has through the job que notification setup what the admin did was was made sure that all of the users if if he has picked that option to to notify the users that are initiating uh job cues all of the users in my"
+    },
+    {
+      "t": 431.6,
+      "end": 452,
+      "text": "notification page uh got this enabled uh toggle enabled for the job que notification in here of course any user who is not interested in that or who is not working with background processing can always uh turn this thing off the another interesting thing is that uh what the regular user um"
+    },
+    {
+      "t": 452,
+      "end": 472.1,
+      "text": "sees in the role Center are also three additional cues that talk about uh job Q tasks so he can see uh tasks failed he can see tasks that are in progress and he can see tasks that are sort of pending or that are waiting to be uh waiting to be executed and if you look at the"
+    },
+    {
+      "t": 472.1,
+      "end": 492.6,
+      "text": "Q setup in here you can actually see that you know three and five uh thresholds that the admin has set up in through the job Q notification assisted setup guide so these were the thresholds that got copied and applied again to each users's uh uh to each users's"
+    },
+    {
+      "t": 492.6,
+      "end": 512.6,
+      "text": "uh queue setup to uh color the queue as you can see this task failed uh Q got colored as uh as red because the number of uh the number of uh job cues that failed is now three and of course that that gives me also the visual ual indication in case I've missed that uh in"
+    },
+    {
+      "t": 512.6,
+      "end": 532.8,
+      "text": "case I've missed that notification uh on the top another thing that is uh specific um for for the job C tasks uh uh part of the role Center it always shows only the uh the information that is specific to"
+    },
+    {
+      "t": 532.8,
+      "end": 553.4,
+      "text": "the user that has signed in which is different for the users that you have uh specified as a job Q notification admins those users those users uh see uh their own uh job queue tasks so the job cues that they have run but they can also see"
+    },
+    {
+      "t": 553.4,
+      "end": 573.4,
+      "text": "and access the the job cues uh the the job cues and the job CU statuses of the other users so let me show you that in a uh another role Center for another user now I've logged in as one of the job queue notification admin ad ministrators and as you can see I'm in a in a different"
+    },
+    {
+      "t": 573.4,
+      "end": 593.5,
+      "text": "Ro Center and I also get a notification for the job cues that are experiencing an issue but as I said before as you if if you look at the list of the job queue U entries that are shown in my queue uh for the for the failed"
+    },
+    {
+      "t": 593.5,
+      "end": 613.7,
+      "text": "uh job cues you can see that I can actually see job cues from uh from different users and that wraps uh wraps up this in product notifications uh demo let's switch back to the deck so in the in product notifications demo what you saw is a different experience for the user"
+    },
+    {
+      "t": 613.7,
+      "end": 633.8,
+      "text": "and different experience for the job Q uh administrator the major difference being uh that that part of the demo that showed it for the regular users actually shows uh the regular user a their own uh job C task in their own uh role Center it shows how they can"
+    },
+    {
+      "t": 633.8,
+      "end": 647.2,
+      "text": "um sort of tweak the the level of notifications either through my notifications or through uh setting up different thresholds uh for for the jobs which brings us uh to"
+    },
+    {
+      "t": 647.2,
+      "end": 667.4,
+      "text": "a uh the the the next way of uh getting notified about uh job queue entries and that's using these external notifications with business events we do have users that do not live in uh business Central like the most of the regular users but admins have you know"
+    },
+    {
+      "t": 667.4,
+      "end": 687.9,
+      "text": "sort of seldomly access uh business Central when they need to assign permissions or do various administrative task so it is of utmost importance that we also provide uh some information to uh such users when they are not signed in in business Central so let me show you how you can actually uh orchestrate the notifications"
+    },
+    {
+      "t": 687.9,
+      "end": 708.1,
+      "text": "using the business center events and power automate so let's see that in action so the other way to uh set up this external notifications is through orchestrating this uh using business events and power automate so we'll go to the job que entries and in here we will"
+    },
+    {
+      "t": 708.1,
+      "end": 716.8,
+      "text": "look for a famous automate uh menu where I will pick create an automated"
+    },
+    {
+      "t": 716.8,
+      "end": 736.2,
+      "text": "flow and I will search for J Q template like I have as you can see we now have a uh new power automate template that can be used to uh orchestrate this external notification this particular one will send an email to uh Outlook when the job queue"
+    },
+    {
+      "t": 736.2,
+      "end": 751.4,
+      "text": "fails so we'll set up a uh connection to business Central and to Outlook click next we will also pick the environment"
+    },
+    {
+      "t": 752.7,
+      "end": 772.7,
+      "text": "and we will pick the company and optionally in here you can specify uh who else you want to have copied this could be particularly useful if you have a partner team that is also interested in receiving such notifications for for specific uh for specific"
+    },
+    {
+      "t": 772.7,
+      "end": 792.7,
+      "text": "business critical uh uh job cues I'll leave that one blank and create a flow all right let's examine that flow in power automate okay and here we are in power automate where we have a flow created based on the template and the parameters that we've uh specified as you can see the"
+    },
+    {
+      "t": 792.7,
+      "end": 812.8,
+      "text": "template created a flow by filling in uh all the details and parameters that we've uh set up and eventually what we should uh get is an email uh looking like this when a job queue fails the last thing that uh we need to do in here we can try try out uh this template so let's switch"
+    },
+    {
+      "t": 812.8,
+      "end": 828.6,
+      "text": "back to business Central and see if we can simulate uh one job C failing I see that there is a purchase posting that has been failing so I can probably simulate that one in uh in business Central once more so I'll go to purchase"
+    },
+    {
+      "t": 828.6,
+      "end": 841.4,
+      "text": "invoices and I will just run because I have the background posting set I will run the background posting and as you can see uh they have been scheduled for posting and they will eventually"
+    },
+    {
+      "t": 841.4,
+      "end": 861.5,
+      "text": "fail so let me switch to uh Outlook to see if I got the notification and as you can see uh in Outlook I Got a notification that a purchase U documents posting has failed it has been scheduled by me in this company I have the link to a uh job Q entry page and job q log entry page as well as some"
+    },
+    {
+      "t": 861.5,
+      "end": 881.5,
+      "text": "additional details about the environment about tenant ID and about the error message which turns out that I'm I was missing just a vendor invoice number in this job queue and that was the reason why it failed so what you saw in the previous demo was how easy it is actually to uh orchestrate these external notifications with any"
+    },
+    {
+      "t": 881.5,
+      "end": 901.8,
+      "text": "of the connectors that power automate offers and all of this has actually been uh made available by a couple of uh new additions in business Central so we've added a couple of job Q apis to support us with that we have an we now have an API for job queue entry that has a restart bound action that you can call automatically"
+    },
+    {
+      "t": 901.8,
+      "end": 921.8,
+      "text": "from uh from flow so you can one could easily imagine a sort of teams notifications with a adaptive card uh that is shown to the admin that can just that just needs to click restart when he sees that this is you know maybe some transient issue for the for the job Q entry then there is a job q log entries uh"
+    },
+    {
+      "t": 921.8,
+      "end": 941.8,
+      "text": "API and of course there's a job queue task failed business event uh that have actually made all of these uh external notifications uh available Plus on top of that as I as I said you have a power automate uh template that is available in business Central uh Gallery right now that you"
+    },
+    {
+      "t": 941.8,
+      "end": 962.6,
+      "text": "can just use and slightly adjust to fit your needs to enable the external uh notifications and with that um I hope you enjoyed the video uh I urge you to uh try out uh this uh new new impr movements uh that we've made in job Q"
+    },
+    {
+      "t": 962.6,
+      "end": 979,
+      "text": "notifications be sure to send us feedback about that and also make sure to check out the description uh of the video that is below the video together with uh some additional useful links thank you for your time"
+    }
+  ],
+  "markers": [
+    {
+      "t": 0.97,
+      "text": "[Music]"
+    },
+    {
+      "t": 6.99,
+      "text": "[Music]"
+    },
+    {
+      "t": 7,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 2554
+}

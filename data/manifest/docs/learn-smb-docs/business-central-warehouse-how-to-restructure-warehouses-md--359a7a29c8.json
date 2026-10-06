@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-restructure-warehouses",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "85a12b9cff0cca8a7001485a09e5a17bbda7cdf4",
       "words": 885,
       "forms": 2
+    },
+    "extracted": {
+      "at": "2026-10-06T19:12:18.207Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 5,
+      "cost_usd": 0.004964
+    },
+    "summarized": {
+      "at": "2026-10-06T19:12:27.297Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:12:27.298Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:12:27.299Z",
+      "page": false
     }
   },
   "input_hash": "85a12b9cff0cca8a7001485a09e5a17bbda7cdf4",
@@ -46,5 +65,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "85a12b9cff0cca8a7001485a09e5a17bbda7cdf4"
+  "output_hash": "1a380aed7b9110b25dbb20ccab219f646d776854f86312832cc2da3ddf24e503"
 }

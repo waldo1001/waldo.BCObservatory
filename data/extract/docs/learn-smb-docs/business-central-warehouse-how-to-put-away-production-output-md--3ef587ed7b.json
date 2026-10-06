@@ -1,0 +1,50 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/warehouse-how-to-put-away-production-output.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-put-away-production-output",
+  "title": "Put away production output",
+  "blob": "868664a124d3a9b1087fdf96c0b40b3d83ab0a8e",
+  "summary": "Put away production and assembly output in inventory using inventory put-aways in basic configurations or warehouse put-aways and movements in advanced configurations with directed put-away and pick.",
+  "systems": [
+    "warehouse",
+    "manufacturing",
+    "assembly"
+  ],
+  "topics": [
+    "production output",
+    "assembly output",
+    "put-away",
+    "warehouse handling"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Released Production Order"
+    },
+    {
+      "type": "page",
+      "name": "Inventory Put-away"
+    },
+    {
+      "type": "page",
+      "name": "Warehouse Put-Away Worksheet"
+    }
+  ],
+  "features": [
+    "inventory put-away",
+    "warehouse put-away",
+    "inbound warehouse request",
+    "production output handling",
+    "assembly output handling"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004964,
+      "pages_in_call": 8
+    }
+  ]
+}

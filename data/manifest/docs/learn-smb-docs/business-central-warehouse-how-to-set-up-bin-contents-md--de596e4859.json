@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-set-up-bin-contents",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "828e1fa3c63c198f028e8281febc335fcd7d7a2b",
       "words": 687,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T19:12:18.208Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.004964
+    },
+    "summarized": {
+      "at": "2026-10-06T19:12:27.300Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:12:27.301Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:12:27.302Z",
+      "page": false
     }
   },
   "input_hash": "828e1fa3c63c198f028e8281febc335fcd7d7a2b",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "828e1fa3c63c198f028e8281febc335fcd7d7a2b"
+  "output_hash": "245c55bf91becbbfdf76da831d1b3f66f2acdc139da5ac6fe132e2573228a4c4"
 }

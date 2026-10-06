@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/warehouse-use-automated-data-capture-systems-adcs",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "cb4d3d2c3a66a1fb436b57afc61131251fff1c5b",
       "words": 1026,
       "forms": 8
+    },
+    "extracted": {
+      "at": "2026-10-06T19:12:25.465Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 10,
+      "cost_usd": 0.003384
+    },
+    "summarized": {
+      "at": "2026-10-06T19:12:27.307Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:12:27.308Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:12:27.309Z",
+      "page": false
     }
   },
   "input_hash": "cb4d3d2c3a66a1fb436b57afc61131251fff1c5b",
@@ -76,5 +95,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "cb4d3d2c3a66a1fb436b57afc61131251fff1c5b"
+  "output_hash": "1b767d50800a897507c2e6190d9dbe02554cff229d5ff2c5fb5a31c5ccef781e"
 }

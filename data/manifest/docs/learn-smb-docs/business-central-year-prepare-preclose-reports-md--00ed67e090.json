@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/year-prepare-preclose-reports",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "174af5054edf18d3751b209bb89e752b9688b93e",
       "words": 261,
       "forms": 2
+    },
+    "extracted": {
+      "at": "2026-10-06T19:12:25.469Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 9,
+      "cost_usd": 0.003384
+    },
+    "summarized": {
+      "at": "2026-10-06T19:12:27.319Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:12:27.319Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:12:27.320Z",
+      "page": false
     }
   },
   "input_hash": "174af5054edf18d3751b209bb89e752b9688b93e",
@@ -46,5 +65,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "174af5054edf18d3751b209bb89e752b9688b93e"
+  "output_hash": "6bb0c91e91f0ef5fcec858298538ed7b46e5a39acb14717fdee02231c7912598"
 }

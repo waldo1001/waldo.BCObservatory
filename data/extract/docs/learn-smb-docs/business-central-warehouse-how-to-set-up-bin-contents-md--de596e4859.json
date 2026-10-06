@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/warehouse-how-to-set-up-bin-contents.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-set-up-bin-contents",
+  "title": "Create Bin Contents",
+  "blob": "828e1fa3c63c198f028e8281febc335fcd7d7a2b",
+  "summary": "Create and manage bin contents manually or using a worksheet to define which items are stored in each bin and set rules for minimum/maximum quantities and default bin assignment.",
+  "systems": [
+    "warehouse",
+    "inventory"
+  ],
+  "topics": [
+    "bin contents",
+    "bin setup",
+    "inventory allocation",
+    "bin configuration"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Locations"
+    },
+    {
+      "type": "page",
+      "name": "Bin Contents"
+    },
+    {
+      "type": "page",
+      "name": "Bin Content Creation Worksheet"
+    }
+  ],
+  "features": [
+    "bin contents setup",
+    "bin content worksheet",
+    "fixed bin assignment",
+    "default bin",
+    "maximum quantity",
+    "minimum quantity",
+    "bin replenishment"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004964,
+      "pages_in_call": 8
+    }
+  ]
+}

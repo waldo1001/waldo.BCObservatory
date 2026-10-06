@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-put-away-production-output",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "868664a124d3a9b1087fdf96c0b40b3d83ab0a8e",
       "words": 815,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:12:18.204Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.004964
+    },
+    "summarized": {
+      "at": "2026-10-06T19:12:27.288Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:12:27.288Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:12:27.289Z",
+      "page": false
     }
   },
   "input_hash": "868664a124d3a9b1087fdf96c0b40b3d83ab0a8e",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "868664a124d3a9b1087fdf96c0b40b3d83ab0a8e"
+  "output_hash": "c116671f3746263039018883df38fb6addca47ac20d90b759e7dadcff21bba74"
 }

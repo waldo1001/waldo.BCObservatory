@@ -1,0 +1,58 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/warehouse-how-to-restructure-warehouses.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-restructure-warehouses",
+  "title": "Restructure Warehouses",
+  "blob": "85a12b9cff0cca8a7001485a09e5a17bbda7cdf4",
+  "summary": "Restructure warehouses by creating new bins and moving items using Item Reclassification Journal for basic configurations or Warehouse Reclassification Journal and Movement Worksheets for advanced configurations with directed put-away and pick.",
+  "systems": [
+    "warehouse",
+    "inventory"
+  ],
+  "topics": [
+    "warehouse restructuring",
+    "bin management",
+    "bin reclassification",
+    "bin types"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Locations"
+    },
+    {
+      "type": "page",
+      "name": "Item Reclassification Journal"
+    },
+    {
+      "type": "page",
+      "name": "Warehouse Reclassification Journal"
+    },
+    {
+      "type": "page",
+      "name": "Movement Worksheets"
+    },
+    {
+      "type": "page",
+      "name": "Bins"
+    }
+  ],
+  "features": [
+    "bin creation",
+    "bin content movement",
+    "bin reclassification",
+    "bin deletion",
+    "bin renaming",
+    "QC bin type"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004964,
+      "pages_in_call": 8
+    }
+  ]
+}

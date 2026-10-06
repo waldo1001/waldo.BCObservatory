@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-pick-items-for-warehouse-shipment",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "2984301ccec4ffdd7f1dc3f1f11c3fc4efbebf0f",
       "words": 1520,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:12:18.202Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.004964
+    },
+    "summarized": {
+      "at": "2026-10-06T19:12:27.285Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:12:27.286Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:12:27.287Z",
+      "page": false
     }
   },
   "input_hash": "2984301ccec4ffdd7f1dc3f1f11c3fc4efbebf0f",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "2984301ccec4ffdd7f1dc3f1f11c3fc4efbebf0f"
+  "output_hash": "78fc8c5da021190de64538b2366be0fe79d6bf7f1bca8762f415a7436e9ba450"
 }

@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/warehouse-how-to-pick-items-for-warehouse-shipment.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-pick-items-for-warehouse-shipment",
+  "title": "Pick items for warehouse shipment",
+  "blob": "2984301ccec4ffdd7f1dc3f1f11c3fc4efbebf0f",
+  "summary": "Pick items for warehouse shipment in advanced configurations using warehouse pick documents created manually or from a pick worksheet, with options for sorting and combining picks by various criteria.",
+  "systems": [
+    "warehouse",
+    "sales",
+    "inventory"
+  ],
+  "topics": [
+    "warehouse picking",
+    "outbound flow",
+    "warehouse shipment",
+    "pick management"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Warehouse Picks"
+    },
+    {
+      "type": "page",
+      "name": "Pick Worksheet"
+    },
+    {
+      "type": "page",
+      "name": "Warehouse Shipment"
+    }
+  ],
+  "features": [
+    "warehouse pick documents",
+    "pick worksheet",
+    "bin ranking",
+    "cross-dock bins",
+    "pick sorting",
+    "pick consolidation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004964,
+      "pages_in_call": 8
+    }
+  ]
+}

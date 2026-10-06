@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/warehouse-how-to-set-up-put-away-templates.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-set-up-put-away-templates",
+  "title": "Set Up Put-away Templates",
+  "blob": "e2e50c0023435170d1f1f75ac9deacf680166075",
+  "summary": "Set up put-away templates to define how items should be placed in warehouse bins during put-away operations, using criteria like fixed bins, bin rankings, and floating bins.",
+  "systems": [
+    "warehouse",
+    "inventory"
+  ],
+  "topics": [
+    "put-away templates",
+    "bin selection",
+    "directed put-away",
+    "warehouse configuration",
+    "bin policies"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Put-away Templates"
+    }
+  ],
+  "features": [
+    "put-away template creation",
+    "bin requirement definition",
+    "fixed bin selection",
+    "floating bin assignment",
+    "item-level templates",
+    "warehouse-level defaults"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003384,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/year-allocate-costs-income",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "7aceddaa31222c144bd30e7c0d84b676c7482180",
       "words": 554,
       "forms": 2
+    },
+    "extracted": {
+      "at": "2026-10-06T19:12:25.466Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.003384
+    },
+    "summarized": {
+      "at": "2026-10-06T19:12:27.310Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:12:27.311Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:12:27.312Z",
+      "page": false
     }
   },
   "input_hash": "7aceddaa31222c144bd30e7c0d84b676c7482180",
@@ -46,5 +65,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7aceddaa31222c144bd30e7c0d84b676c7482180"
+  "output_hash": "1195231b55278a1533ebec9f957b3611691fbc05b57b74c8d9072013a73d6806"
 }

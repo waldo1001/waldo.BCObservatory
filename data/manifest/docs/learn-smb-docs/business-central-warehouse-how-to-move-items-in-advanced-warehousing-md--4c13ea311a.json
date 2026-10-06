@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-move-items-in-advanced-warehousing",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "569266e302e41301640e411178ed76ee48400566",
       "words": 1479,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T19:12:18.201Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 5,
+      "cost_usd": 0.004964
+    },
+    "summarized": {
+      "at": "2026-10-06T19:12:18.210Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:12:18.211Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:12:18.213Z",
+      "page": false
     }
   },
   "input_hash": "569266e302e41301640e411178ed76ee48400566",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "569266e302e41301640e411178ed76ee48400566"
+  "output_hash": "cc2be1cdbddea76b07cb582a186597d93cab19111db513521d6edef55c3f6982"
 }

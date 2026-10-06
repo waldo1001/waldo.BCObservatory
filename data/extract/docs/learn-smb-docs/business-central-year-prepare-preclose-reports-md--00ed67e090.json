@@ -1,0 +1,76 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/year-prepare-preclose-reports.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/year-prepare-preclose-reports",
+  "title": "Overview of pre-closing reports to verify account accuracy",
+  "blob": "174af5054edf18d3751b209bb89e752b9688b93e",
+  "summary": "Use pre-closing reports to verify account accuracy before closing books, including detail trial balance reports for banks, customers, vendors, and consolidated companies.",
+  "systems": [
+    "finance",
+    "reporting"
+  ],
+  "topics": [
+    "pre-closing reports",
+    "account verification",
+    "trial balance",
+    "account accuracy",
+    "year-end verification"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Bank Acc. - Detail Trial Bal."
+    },
+    {
+      "type": "report",
+      "name": "Customer - Trial Balance"
+    },
+    {
+      "type": "report",
+      "name": "Customer - Detail Trial Bal."
+    },
+    {
+      "type": "report",
+      "name": "Vendor - Trial Balance"
+    },
+    {
+      "type": "report",
+      "name": "Vendor - Detail Trial Balance"
+    },
+    {
+      "type": "report",
+      "name": "Closing Trial Balance"
+    },
+    {
+      "type": "report",
+      "name": "Detail Trial Balance"
+    },
+    {
+      "type": "report",
+      "name": "Trial Balance"
+    },
+    {
+      "type": "report",
+      "name": "Consolidated Trial Balance"
+    }
+  ],
+  "features": [
+    "bank account verification",
+    "customer balance verification",
+    "vendor balance verification",
+    "period comparison",
+    "general ledger account verification",
+    "consolidated company reporting",
+    "detailed entry reporting"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003384,
+      "pages_in_call": 8
+    }
+  ]
+}

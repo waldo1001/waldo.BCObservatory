@@ -1,0 +1,69 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/year-prepare-close-statement.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/year-prepare-close-statement",
+  "title": "Overview of reports to help prepare closing statements",
+  "blob": "0243eb4e45a24e69972957b3e1430c76cdd526e5",
+  "summary": "Use standard reports to prepare closing statements, including trial balance, aged accounts, budget comparisons, and account reconciliation reports for year-end closing.",
+  "systems": [
+    "finance",
+    "reporting"
+  ],
+  "topics": [
+    "closing statements",
+    "trial balance",
+    "aged accounts",
+    "budget comparison",
+    "financial reports",
+    "account reconciliation"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Trial Balance"
+    },
+    {
+      "type": "report",
+      "name": "Aged Accounts Receivable"
+    },
+    {
+      "type": "report",
+      "name": "Aged Accounts Payable"
+    },
+    {
+      "type": "report",
+      "name": "Trial Balance/Budget"
+    },
+    {
+      "type": "report",
+      "name": "Trial Balance by Period"
+    },
+    {
+      "type": "report",
+      "name": "Financial Report"
+    },
+    {
+      "type": "report",
+      "name": "Reconcile Cust. and Vend. Accs"
+    }
+  ],
+  "features": [
+    "trial balance reporting",
+    "accounts receivable aging",
+    "accounts payable aging",
+    "budget comparison",
+    "periodic trial balance",
+    "general ledger analysis",
+    "customer vendor reconciliation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003384,
+      "pages_in_call": 8
+    }
+  ]
+}

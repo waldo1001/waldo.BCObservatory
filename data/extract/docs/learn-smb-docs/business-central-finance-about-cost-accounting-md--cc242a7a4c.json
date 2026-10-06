@@ -1,0 +1,72 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-about-cost-accounting.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-about-cost-accounting",
+  "title": "About cost accounting",
+  "blob": "c7f5511d2d2dc96fc2179ad042d5e72cc98dfbc7",
+  "summary": "Cost accounting analyzes business costs by type, location, and bearer through cost centers, cost objects, allocations, budgets, and reporting to determine profitability.",
+  "systems": [
+    "finance",
+    "reporting"
+  ],
+  "topics": [
+    "cost accounting",
+    "cost centers",
+    "cost objects",
+    "cost allocation",
+    "cost budgets",
+    "cost reporting",
+    "operational costs"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Cost Types"
+    },
+    {
+      "type": "table",
+      "name": "Cost Centers"
+    },
+    {
+      "type": "table",
+      "name": "Cost Objects"
+    },
+    {
+      "type": "table",
+      "name": "Cost Entries"
+    },
+    {
+      "type": "table",
+      "name": "Cost Journals"
+    },
+    {
+      "type": "table",
+      "name": "Cost Allocations"
+    },
+    {
+      "type": "table",
+      "name": "Cost Budgets"
+    }
+  ],
+  "features": [
+    "cost type definition",
+    "cost center setup",
+    "cost object definition",
+    "cost entry transfer",
+    "cost allocation",
+    "static allocation method",
+    "dynamic allocation method",
+    "cost budget creation",
+    "cost reporting"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003384,
+      "pages_in_call": 8
+    }
+  ]
+}

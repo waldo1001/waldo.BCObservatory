@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/warehouse-how-to-set-up-bin-types.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-set-up-bin-types",
+  "title": "Set Up Bin Types",
+  "blob": "22140bf2dc4d6ed4ca5254b13b8c7a42bc76be5a",
+  "summary": "Set up bin types that direct item flow through warehouse bins, with six available types: RECEIVE, SHIP, PUT AWAY, PICK, PUTPICK, and QC for use in directed put-away and pick configurations.",
+  "systems": [
+    "warehouse",
+    "inventory"
+  ],
+  "topics": [
+    "bin types",
+    "warehouse flow",
+    "directed put-away",
+    "bin management"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Bin Types"
+    }
+  ],
+  "features": [
+    "bin type RECEIVE",
+    "bin type SHIP",
+    "bin type PUT AWAY",
+    "bin type PICK",
+    "bin type PUTPICK",
+    "bin type QC",
+    "bin ranking"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004964,
+      "pages_in_call": 8
+    }
+  ]
+}
