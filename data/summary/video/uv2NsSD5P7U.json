@@ -1,0 +1,28 @@
+{
+  "video_id": "uv2NsSD5P7U",
+  "item_id": "video/yt-microsoft/uv2NsSD5P7U",
+  "summary": "Flexible update management in Business Central 2024 release wave 2: the major update period grows from 60 days to 5 months starting with version 25, with a shortened grace period, enforced updates, minor-update opt-out, version skipping, and admin center API and telemetry changes. Public preview starts October 2024 for Microsoft localized environments.",
+  "overview": "The video explains how update management changes for Business Central online customers who need more control over when updates run, such as those running 24-hour operations. It walks through the current update cycle and then the new phases that start with version 25.\n\nIt covers the longer update period for major releases, the shortened grace period and enforced update period, and new options for minor updates. It also covers what is limited in public preview, what arrives with general availability, and the API and telemetry changes partners should prepare for.",
+  "key_points": [
+    "From version 25, the update period for major releases increases from 60 days to 5 calendar months.",
+    "The public preview starts in October 2024 with version 25 and applies only to Microsoft localized environments. General availability is to follow towards the end of the release wave.",
+    "The grace period is shortened to one month. Updates are scheduled weekly and can be moved earlier but not later, with four update attempts in total.",
+    "After the grace period an enforced update period begins. Incompatible extensions are uninstalled automatically and the update cannot be postponed.",
+    "An environment-level setting lets you opt out of automatic scheduling of minor updates. It arrives with general availability.",
+    "With general availability you can skip minor versions by choosing a target version. During public preview you still go through each intermediate version, for example 25.1 and 25.2 on the way to 25.3.",
+    "Admin center API and telemetry signal changes are expected in March and are breaking for partners who automate update scheduling or alert on update telemetry. From then on you can also create environments on any supported version."
+  ],
+  "audience": [
+    "administrator",
+    "partner",
+    "functional consultant",
+    "decision maker"
+  ],
+  "extraction_hash": "50deaba05c0972c1729ced37d3f82f4bfb2a8a1d1e1eff1bec35e1b748b1e113",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0159964
+  }
+}

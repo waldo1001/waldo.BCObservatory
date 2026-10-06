@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/receivables-how-reconcile-customer-payments-list-unpaid-sales-documents",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "aa496cd1871ffac6e64c646bbb9fa40026507282",
       "words": 2338,
       "forms": 3
+    },
+    "extracted": {
+      "at": "2026-10-06T19:09:05.765Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 7,
+      "cost_usd": 0.005593
+    },
+    "summarized": {
+      "at": "2026-10-06T19:09:18.671Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:09:18.672Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:09:18.673Z",
+      "page": false
     }
   },
   "input_hash": "aa496cd1871ffac6e64c646bbb9fa40026507282",
@@ -55,5 +74,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "aa496cd1871ffac6e64c646bbb9fa40026507282"
+  "output_hash": "d60524ac5df4d10cf0dcc80a8c6f184a95507534e61ac6137536bee7bed355fa"
 }

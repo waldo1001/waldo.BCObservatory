@@ -5,12 +5,59 @@
   "tier": "official",
   "title": "What's New:  Flexible Update Management (2024 release wave 2)",
   "url": "https://www.youtube.com/watch?v=uv2NsSD5P7U",
-  "published_at": null,
+  "published_at": "2024-10-08T15:00:59.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T19:08:36.759Z",
+      "captions": "auto:en-orig",
+      "duration_s": 606
+    },
+    "captioned": {
+      "at": "2026-10-06T19:08:44.318Z",
+      "path": "data/captions/microsoft/uv2NsSD5P7U.vtt",
+      "vtt_sha256": "59c8fe5ac6751a9fee222f4aa59740522dedabb236ab5d4aa240ca1b2fae2264",
+      "segments": 33,
+      "words": 1853,
+      "lang": "en-orig",
+      "kind": "auto"
+    },
+    "extracted": {
+      "at": "2026-10-06T19:09:11.809Z",
+      "path": "data/extract/video/uv2NsSD5P7U.json",
+      "prompt": "extract-video@1",
+      "windows": 1,
+      "features": 8,
+      "quotes": 7,
+      "quotes_dropped": 0,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.026226
+    },
+    "summarized": {
+      "at": "2026-10-06T19:09:18.649Z",
+      "path": "data/summary/video/uv2NsSD5P7U.json",
+      "prompt": "summarize-video@2",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": 0.0159964
+    },
+    "linked": {
+      "at": "2026-10-06T19:09:18.651Z",
+      "systems": [
+        "administration",
+        "platform"
+      ],
+      "topics": 10,
+      "objects_as_heard": 0
+    },
+    "published": {
+      "at": "2026-10-06T19:09:18.666Z",
+      "path": "content/videos/uv2NsSD5P7U.md"
     }
   },
   "input_hash": null,
@@ -19,7 +66,14 @@
   "meta": {
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 327,
-    "duration_s": 607,
-    "via": "reconcile"
-  }
+    "duration_s": 606,
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f57761844510dc22e78ed078f1d46085b43db87b1d726dd810d856ed4f60a14e"
 }

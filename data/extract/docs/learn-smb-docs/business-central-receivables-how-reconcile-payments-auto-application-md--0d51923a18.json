@@ -1,0 +1,68 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/receivables-how-reconcile-payments-auto-application.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/receivables-how-reconcile-payments-auto-application",
+  "title": "Reconcile payments using automatic application",
+  "blob": "3ec6f8237f59406a059537e6f5eaa99b5050828f",
+  "summary": "How to reconcile payments using automatic application on the Payment Reconciliation Journal page. Use this to import bank statements and automatically match payments to open customer and vendor entries.",
+  "systems": [
+    "sales",
+    "finance",
+    "purchasing"
+  ],
+  "topics": [
+    "payment reconciliation",
+    "automatic application",
+    "bank statement import",
+    "payment matching",
+    "match confidence"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Payment Reconciliation Journal"
+    },
+    {
+      "type": "page",
+      "name": "Payment Bank Account List"
+    },
+    {
+      "type": "page",
+      "name": "Bank Statement Filter"
+    },
+    {
+      "type": "page",
+      "name": "Payment Application Review"
+    },
+    {
+      "type": "page",
+      "name": "Payment Application"
+    },
+    {
+      "type": "page",
+      "name": "G/L Register"
+    },
+    {
+      "type": "page",
+      "name": "Posted General Journals"
+    }
+  ],
+  "features": [
+    "automatic application",
+    "payment application rules",
+    "text-to-account mapping",
+    "match confidence",
+    "bank feed import",
+    "bank reconciliation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005593,
+      "pages_in_call": 7
+    }
+  ]
+}

@@ -1,0 +1,526 @@
+{
+  "video_id": "lofGuQRe1BM",
+  "item_id": "video/yt-microsoft/lofGuQRe1BM",
+  "title": "What's New: AL - Language (2024 release wave 2)",
+  "duration_s": 651,
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "al language",
+    "tables",
+    "pages",
+    "interfaces",
+    "queries",
+    "date and time",
+    "ternary operator",
+    "page customizations",
+    "profiles",
+    "code analysis"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Overview",
+      "t_start": 0,
+      "t_end": 27.3
+    },
+    {
+      "title": "Table Changes and Text Search Optimization",
+      "t_start": 27.3,
+      "t_end": 68
+    },
+    {
+      "title": "Page Types and Prompting Actions",
+      "t_start": 68,
+      "t_end": 123.2
+    },
+    {
+      "title": "Page Style Enum and Profile Extensions",
+      "t_start": 123.2,
+      "t_end": 157.5
+    },
+    {
+      "title": "Page Customizations and Clear Methods",
+      "t_start": 157.5,
+      "t_end": 233.2
+    },
+    {
+      "title": "Queries, Interfaces, and New Collections",
+      "t_start": 233.2,
+      "t_end": 293.2
+    },
+    {
+      "title": "Date and Time Properties",
+      "t_start": 293.2,
+      "t_end": 371.9
+    },
+    {
+      "title": "Self Reference and Code Analysis",
+      "t_start": 371.9,
+      "t_end": 471.6
+    },
+    {
+      "title": "Resources and HTTP Client Methods",
+      "t_start": 471.6,
+      "t_end": 545.6
+    },
+    {
+      "title": "Ternary Operator Introduction",
+      "t_start": 545.6,
+      "t_end": 651
+    }
+  ],
+  "features": [
+    {
+      "name": "Optimized for Text Search Property",
+      "description": "New property for table fields that allows specifying which fields should be indexed for optimized text search. Available in field references via the is optimized for search property.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 40,
+      "t_end": 68,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "text search",
+        "field indexing",
+        "tables"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Configuration Dialogue Page Type",
+      "description": "New page type called configuration dialogue as part of AI investment, but currently under development and cannot be used yet.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 68,
+      "t_end": 100.8,
+      "is_demoed": true,
+      "caveats": [
+        "Cannot be used until feature is complete"
+      ],
+      "tags": [
+        "page types",
+        "ai",
+        "preview"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Prompting Actions on Pages",
+      "description": "Prompting actions can now be used on more page types including card pages, list pages, and document pages to showcase copilot features.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 100.8,
+      "t_end": 123.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "prompting",
+        "copilot",
+        "pages"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Page Style Enum",
+      "description": "New enum for page styling that eliminates hardcoded style expressions like favorable and unfavorable, allowing developers to use enumerated page styles instead.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 123.2,
+      "t_end": 157.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "page styling",
+        "enums"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Profile Extensions",
+      "description": "Profiles can now be extended with additional customizations, allowing developers to build on existing profiles instead of copying and creating new ones.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 157.5,
+      "t_end": 177.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "profiles",
+        "customizations"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Clear Layout, Clear Actions, and Clear Views Properties",
+      "description": "Three new properties for page customizations: clear layout clears all page layout, clear actions removes all actions, and clear views clears existing list views. Developers must then add back only needed elements.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 177.8,
+      "t_end": 233.2,
+      "is_demoed": true,
+      "caveats": [
+        "Using clear methods in page customizations used in role customizations will cause errors"
+      ],
+      "tags": [
+        "page customizations",
+        "layout",
+        "actions",
+        "views"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Query Tool Tips",
+      "description": "Queries can now have tool tips added to help users understand what data is used for and how to read it.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 233.2,
+      "t_end": 253.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "queries",
+        "tool tips"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Query JSON Save Support",
+      "description": "Queries can now be saved as JSON, allowing easy data transfer back and forth in JSON format.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 253.2,
+      "t_end": 274,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "queries",
+        "json"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Extendable Interfaces",
+      "description": "Interfaces can now be extended, allowing developers to build on existing interfaces and expand them with more methods instead of creating completely new interfaces.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 253.2,
+      "t_end": 274,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "interfaces",
+        "extensibility"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "New Interface Keywords (is and as)",
+      "description": "New keywords is and as have been added for working with interfaces to improve modularization and code base structure.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 274,
+      "t_end": 293.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "interfaces",
+        "keywords"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "List of Code Units",
+      "description": "Developers can now use list of code units, extending the available collection types. Code units can be assigned to interfaces with simple casting.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 293.2,
+      "t_end": 313.4,
+      "is_demoed": true,
+      "caveats": [
+        "Code units must implement the interface to be assigned"
+      ],
+      "tags": [
+        "interfaces",
+        "collections",
+        "code units"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Date and Time Properties",
+      "description": "New properties added to date, date-time, and time types including day of week, month, day, year, hour, minute, second, and millisecond, making date/time logic easier to write.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 331.8,
+      "t_end": 371.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "date",
+        "time",
+        "properties"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Self Reference (this)",
+      "description": "A self reference keyword has been added to the language allowing code to reference the object it is currently in, useful for passing self to other functions and qualifying variables.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 391.9,
+      "t_end": 429.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "self reference",
+        "variable qualification"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Code Analyzer for Self Reference",
+      "description": "A code analyzer and code action is available to enforce self reference prefixes where needed across single instances or entire documents, projects, and workspaces.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 429.8,
+      "t_end": 471.6,
+      "is_demoed": true,
+      "caveats": [
+        "Hidden by default"
+      ],
+      "tags": [
+        "code analysis",
+        "self reference"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "NavApp Get Source Method",
+      "description": "New method under the NavApp type called get Source that takes a resource name and stream, allowing developers to ship resources with their apps.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 471.6,
+      "t_end": 491.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "resources",
+        "nav app",
+        "shipping"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Session Information AI Tokens Used",
+      "description": "New method in session information type called AI tokens used for tracking AI token consumption, but not yet ready for consumption.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 491.7,
+      "t_end": 525.2,
+      "is_demoed": true,
+      "caveats": [
+        "Not ready for use yet"
+      ],
+      "tags": [
+        "ai",
+        "session information",
+        "preview"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "HTTP Client PATCH Method",
+      "description": "New method for HTTP client allowing easy PATCH operations to send a delta of changes to a service, simplifying CRUD update logic.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 525.2,
+      "t_end": 545.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "http client",
+        "patch",
+        "crud"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Ternary Operator",
+      "description": "The ternary operator has been added to AL language as a way to simplify if-else statements with a condition and two possible outcomes, condensing multi-line logic into single expressions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 545.6,
+      "t_end": 639.8,
+      "is_demoed": true,
+      "caveats": [
+        "Can become convoluted if misused",
+        "Can become difficult to read for new people"
+      ],
+      "tags": [
+        "ternary operator",
+        "conditional",
+        "syntax"
+      ],
+      "system": "development"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "NavApp",
+      "t": 471.6
+    },
+    {
+      "type": "other",
+      "name": "field ref",
+      "t": 54.9
+    },
+    {
+      "type": "other",
+      "name": "fields record",
+      "t": 54.9
+    },
+    {
+      "type": "other",
+      "name": "page style enum",
+      "t": 123.2
+    },
+    {
+      "type": "other",
+      "name": "session information type",
+      "t": 491.7
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Stepan B",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 40,
+      "text": "on tables you'll Now find a new property for Fields that's called optimized for text search",
+      "why_it_matters": "Introduces key table enhancement for performance optimization through indexed text search",
+      "check": "exact"
+    },
+    {
+      "t": 88.1,
+      "text": "the feature is under development and cannot be used",
+      "why_it_matters": "Clarifies the preview status and limitation of configuration dialogue page type",
+      "check": "exact"
+    },
+    {
+      "t": 157.5,
+      "text": "you can now extend profiles with additional customizations if you want to allowing you to build on existing profiles instead of having to copy",
+      "why_it_matters": "Demonstrates major improvement in code reuse and customization approach for profiles",
+      "check": "exact"
+    },
+    {
+      "t": 253.2,
+      "text": "you can now extend interfaces so instead of having to move to a complete new interface you can now build on top of an",
+      "why_it_matters": "Signals shift to more modular and extensible interface architecture",
+      "check": "exact"
+    },
+    {
+      "t": 293.2,
+      "text": "as part of the work with interfaces we've add list of interfaces in the last release we added list of in and outstream and",
+      "why_it_matters": "Shows progression in collection type support as part of modularization efforts",
+      "check": "exact"
+    },
+    {
+      "t": 331.8,
+      "text": "we have additional properties on the date date time and time types that will allow us to make much easier logic",
+      "why_it_matters": "Highlights simplification of date-time operations through new language properties",
+      "check": "exact"
+    },
+    {
+      "t": 391.9,
+      "text": "we've added this to the language this is a self reference so with this you can reference the object that you're currently in",
+      "why_it_matters": "Introduces self reference capability improving code clarity and variable qualification",
+      "check": "exact"
+    },
+    {
+      "t": 545.6,
+      "text": "the turn are operator has been added to the a language it's very common in many languages and it has a way of simplifying",
+      "why_it_matters": "Brings common programming language feature to AL for more concise conditional expressions",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 68,
+      "kind": "preview",
+      "text": "there's a new page type called configuration dialogue it's part of our AI investment for now you cannot use it until we get this done"
+    },
+    {
+      "t": 88.1,
+      "kind": "preview",
+      "text": "the feature is under development and cannot be used"
+    },
+    {
+      "t": 491.7,
+      "kind": "preview",
+      "text": "not quite ready yet for consumption"
+    },
+    {
+      "t": 511.7,
+      "kind": "preview",
+      "text": "this one is not ready for use yet so more to come later"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 8,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 18
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.03351
+    }
+  ]
+}

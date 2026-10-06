@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/receivables-how-apply-sales-transactions-manually",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "023b8466ebf4305d508ef999f973692f44cb570b",
       "words": 2061,
       "forms": 2
+    },
+    "extracted": {
+      "at": "2026-10-06T19:09:05.760Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 10,
+      "cost_usd": 0.005593
+    },
+    "summarized": {
+      "at": "2026-10-06T19:09:05.770Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:09:05.771Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:09:05.772Z",
+      "page": false
     }
   },
   "input_hash": "023b8466ebf4305d508ef999f973692f44cb570b",
@@ -49,5 +68,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "023b8466ebf4305d508ef999f973692f44cb570b"
+  "output_hash": "ce3cbbfef6dd4e13fe5dd020cb3ce262e03f01b987f8257cccb816f4180615af"
 }

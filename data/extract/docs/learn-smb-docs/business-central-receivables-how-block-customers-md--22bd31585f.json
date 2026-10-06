@@ -1,0 +1,38 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/receivables-how-block-customers.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/receivables-how-block-customers",
+  "title": "How to block sales to customers",
+  "blob": "4470a80067f9b30a8443742b4bf5eeb18f20a05d",
+  "summary": "How to block customers to prevent sales transactions, shipments, or invoices. Use this when a customer becomes insolvent or you need to restrict their access.",
+  "systems": [
+    "sales"
+  ],
+  "topics": [
+    "customer blocking",
+    "sales restrictions",
+    "customer management"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Customers"
+    }
+  ],
+  "features": [
+    "block customer",
+    "ship block",
+    "invoice block",
+    "all transactions block"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005593,
+      "pages_in_call": 7
+    }
+  ]
+}

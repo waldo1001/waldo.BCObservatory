@@ -20,7 +20,7 @@
     }
   },
   "input_hash": "e29f289c0c57e9701573fb28fe9dcf14c2659391",
-  "attempts": 0,
+  "attempts": 1,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
@@ -56,7 +56,7 @@
     "ai_usage": null,
     "words": 688
   },
-  "last_error": null,
-  "retry_after": null,
+  "last_error": "git cat-file -p e29f289c0c57e9701573fb28fe9dcf14c2659391 failed: fatal: You are attempting to fetch bf5ffffa9b026e146d29f13a242daa5334ddf0d8, which is in the commit graph file but not in the object database. This is probably due to repo corruption. If you are attempting to repair this repo corruption by refetching the missing object, use 'git fetch --refetch' with the missing object. fatal: could not fetch e29f289c0c57e9701573fb28fe9dcf14c2659391 from promisor ",
+  "retry_after": "2026-10-06T21:09:05.763Z",
   "output_hash": "e29f289c0c57e9701573fb28fe9dcf14c2659391"
 }

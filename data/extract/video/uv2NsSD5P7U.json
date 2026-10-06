@@ -1,0 +1,317 @@
+{
+  "video_id": "uv2NsSD5P7U",
+  "item_id": "video/yt-microsoft/uv2NsSD5P7U",
+  "title": "What's New:  Flexible Update Management (2024 release wave 2)",
+  "duration_s": 606,
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "update management",
+    "major versions",
+    "minor updates",
+    "grace period",
+    "enforced updates",
+    "environment settings",
+    "admin center",
+    "api changes",
+    "version targeting",
+    "public preview"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and customer requirements",
+      "t_start": 0,
+      "t_end": 77.6
+    },
+    {
+      "title": "Current update cycle process",
+      "t_start": 77.6,
+      "t_end": 114
+    },
+    {
+      "title": "Version 25 major changes to update periods",
+      "t_start": 114,
+      "t_end": 188.4
+    },
+    {
+      "title": "New update cycle phases and timeline",
+      "t_start": 188.4,
+      "t_end": 279.1
+    },
+    {
+      "title": "Minor updates and new flexibility features",
+      "t_start": 279.1,
+      "t_end": 371.8
+    },
+    {
+      "title": "Public preview rollout details",
+      "t_start": 371.8,
+      "t_end": 451
+    },
+    {
+      "title": "General availability and API changes",
+      "t_start": 451,
+      "t_end": 520.7
+    },
+    {
+      "title": "Best practices and recommendations",
+      "t_start": 520.7,
+      "t_end": 606
+    }
+  ],
+  "features": [
+    {
+      "name": "5-month update period for major releases",
+      "description": "The update period for major releases is increased from 60 days to 5 calendar months, providing more flexibility for customers to schedule their updates.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 114,
+      "t_end": 134.4,
+      "is_demoed": false,
+      "caveats": [
+        "Applies to version 25 onwards",
+        "Only Microsoft localized environments in public preview"
+      ],
+      "tags": [
+        "major versions",
+        "update scheduling",
+        "flexible management"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Shortened grace period with weekly attempts",
+      "description": "The grace period is shortened to one month where updates are scheduled every week and can be rescheduled to earlier dates but not later dates, with the environment attempted to update four times total.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 220.2,
+      "t_end": 258.2,
+      "is_demoed": false,
+      "caveats": [
+        "Cannot postpone updates to later dates during grace period",
+        "Limited rescheduling options"
+      ],
+      "tags": [
+        "grace period",
+        "update scheduling",
+        "weekly updates"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Enforced update period with extension uninstall",
+      "description": "After the grace period, an enforced update period begins where incompatible extensions are automatically uninstalled as part of the update process, with no option to postpone.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 154.6,
+      "t_end": 174.7,
+      "is_demoed": false,
+      "caveats": [
+        "Incompatible extensions will be uninstalled automatically",
+        "No further postponement possible"
+      ],
+      "tags": [
+        "enforced updates",
+        "extensions",
+        "compatibility"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Opt-out for automatic minor update scheduling",
+      "description": "A new environment-level setting allows customers to opt out of automatic scheduling for minor updates, making them available but not automatically scheduled.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 299.2,
+      "t_end": 319.2,
+      "is_demoed": false,
+      "caveats": [
+        "Only comes in general availability phase",
+        "Limited to environments that opt out"
+      ],
+      "tags": [
+        "minor updates",
+        "optional scheduling",
+        "environment settings"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Ability to skip minor versions",
+      "description": "Customers can now fall behind multiple minor versions and select a target version when scheduling updates, allowing them to skip intermediate versions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 319.2,
+      "t_end": 351.4,
+      "is_demoed": false,
+      "caveats": [
+        "Not possible during public preview phase for version selection",
+        "Comes in general availability"
+      ],
+      "tags": [
+        "minor versions",
+        "version targeting",
+        "flexible updates"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Create environments on any supported version",
+      "description": "When creating new environments in the admin center, users can now select from any supported version instead of only the latest version.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 351.4,
+      "t_end": 371.8,
+      "is_demoed": false,
+      "caveats": [
+        "Tenants without any BC environment will still create on latest version",
+        "Comes in general availability"
+      ],
+      "tags": [
+        "environment creation",
+        "version selection",
+        "admin center"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Admin Center API changes for update scheduling",
+      "description": "API endpoints in the admin center will change to reflect the new update management flexibility, requiring updates for partners who automate update scheduling.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 480.4,
+      "t_end": 500.4,
+      "is_demoed": false,
+      "caveats": [
+        "Coming in March",
+        "Breaking changes expected for partners using telemetry"
+      ],
+      "tags": [
+        "api changes",
+        "update scheduling",
+        "breaking changes"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Telemetry signal changes for update events",
+      "description": "Telemetry signals related to environment updates will change to reflect the new flexible update management properties, affecting partners who alert or report on these signals.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 500.4,
+      "t_end": 520.7,
+      "is_demoed": false,
+      "caveats": [
+        "Breaking changes expected in March",
+        "Partners need to update their monitoring"
+      ],
+      "tags": [
+        "telemetry",
+        "update events",
+        "breaking changes"
+      ],
+      "system": "platform"
+    }
+  ],
+  "objects": [],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 26.7,
+      "text": "we're meeting the require ments of update diverse customers so these are customers that are running 24hour shops and don't want plan downtime every",
+      "why_it_matters": "Explains a key customer requirement driving the flexible update management changes - avoiding mandatory monthly downtime for businesses requiring continuous operation.",
+      "check": "exact"
+    },
+    {
+      "t": 114,
+      "text": "the update period is increasing from 60 days to 5 months so now when version 25 ships on the 1st of October uh any",
+      "why_it_matters": "Defines the major change from 60 days to 5 months, showing the specific dates and versions affected by the new policy.",
+      "check": "exact"
+    },
+    {
+      "t": 188.4,
+      "text": "the update cycle as I just said starts with a preview period that lasts for 30 days um after the preview period will start",
+      "why_it_matters": "Summarizes the new standardized update cycle structure with fixed timelines that apply going forward.",
+      "check": "exact"
+    },
+    {
+      "t": 220.2,
+      "text": "during this period is not possible to postpone the update uh to a later date so if we schedule uh the update after a",
+      "why_it_matters": "Clarifies the limited rescheduling flexibility during grace period - can only move updates earlier, not later.",
+      "check": "exact"
+    },
+    {
+      "t": 371.8,
+      "text": "the public review is starting in October 2024 when we ship version 25 and it only applies to Microsoft localized environments",
+      "why_it_matters": "Establishes the scope and timeline of the public preview, showing limited initial availability.",
+      "check": "exact"
+    },
+    {
+      "t": 451,
+      "text": "General availability is going to follow towards the end of this release wave um at that point these changes will be available globally so",
+      "why_it_matters": "Indicates when full features roll out globally and become available to all customers and partner localizations.",
+      "check": "exact"
+    },
+    {
+      "t": 520.7,
+      "text": "for most most environments um the best course of action will be to install the minor updates when we ship it every month and",
+      "why_it_matters": "Establishes Microsoft's recommended best practice despite new flexibility, emphasizing that most customers should maintain default monthly update behavior.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 371.8,
+      "kind": "preview",
+      "text": "the public review is starting in October 2024 when we ship version 25 and it only applies to Microsoft localized environments"
+    },
+    {
+      "t": 409,
+      "kind": "preview",
+      "text": "what is not possible during the public preview is to change the target version so after you update to 25.0 let's say you want to get to 25.3 but you don't necessarily want to update to 25.1 or 25.2 you still have to go through those versions"
+    },
+    {
+      "t": 451,
+      "kind": "coming-later",
+      "text": "General availability is going to follow towards the end of this release wave"
+    },
+    {
+      "t": 480.4,
+      "kind": "coming-later",
+      "text": "those changes are coming in March um and also from that date on it'll be possible to create versions or create environments on any supported version"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 8
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.026226
+    }
+  ]
+}

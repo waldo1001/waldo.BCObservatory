@@ -1,0 +1,50 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/receivables-how-reconcile-payments-cannot-apply-auto.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/receivables-how-reconcile-payments-cannot-apply-auto",
+  "title": "Using the transfer difference to account feature to reconcile payments",
+  "blob": "5b009bda43489f52348e5e34c91d316cbfcdb738",
+  "summary": "How to reconcile payments that cannot be automatically applied using the Transfer Difference to Account feature. Use this for payments without matching documents or with amount differences.",
+  "systems": [
+    "sales",
+    "finance",
+    "purchasing"
+  ],
+  "topics": [
+    "payment reconciliation",
+    "unapplied payments",
+    "difference handling",
+    "text-to-account mapping",
+    "manual reconciliation"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Payment Reconciliation Journal"
+    },
+    {
+      "type": "page",
+      "name": "Payment Application Review"
+    },
+    {
+      "type": "page",
+      "name": "Transfer Difference to Account"
+    }
+  ],
+  "features": [
+    "transfer difference to account",
+    "manual application",
+    "text-to-account mapping",
+    "payment reconciliation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005593,
+      "pages_in_call": 7
+    }
+  ]
+}

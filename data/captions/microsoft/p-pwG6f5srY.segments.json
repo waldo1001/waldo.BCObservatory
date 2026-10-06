@@ -1,0 +1,426 @@
+{
+  "video_id": "p-pwG6f5srY",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 6.8,
+      "end": 26.9,
+      "text": "hello and thank you for watching accordingly to the Shopify website millions of entrepreneurs choose Shopify platform to run their business from first sales to Global Brands and if these entrepreneurs do the things right and get it and their sales increase soon they"
+    },
+    {
+      "t": 26.9,
+      "end": 47.3,
+      "text": "notice they need something else in addition to Shopify to run processes outside of the e-commerce think about Finance or tax or procurement and you already know which system best to address these requirements it's actually not a joke accordingly to evidences we receive from partner who took this opportunity"
+    },
+    {
+      "t": 47.3,
+      "end": 60.1,
+      "text": "very seriously and reach out to multiple Merchant the sales cycle is about 2 weeks in average but it can be as short as 8 days"
+    },
+    {
+      "t": 60.1,
+      "end": 80.5,
+      "text": "that sounds impressive that's why our job from as Microsoft is to make sure that this connector actually connects these two apps seamlessly as possible and we are again focusing on the making connector better investing into product information management on one side and Order handling on another"
+    },
+    {
+      "t": 80.5,
+      "end": 100.8,
+      "text": "side which is in reality 80% of connector let's see what we added or improved in this release every business is unique and and uh software which automate business must support this uniqueness and flexible business processes and not to restrict business Central doing great job"
+    },
+    {
+      "t": 100.8,
+      "end": 112.4,
+      "text": "in this area as well as Shopify does and it has multiple capabilities and today we are looking at one which is called custom Fields you as a"
+    },
+    {
+      "t": 112.4,
+      "end": 132.6,
+      "text": "merchant can Define custom fields or custom data and attach them to uh most important entities like products or variants and these fields can have a different data types and let's see how they will be rendered in the product list I will close the administration part"
+    },
+    {
+      "t": 132.6,
+      "end": 153.5,
+      "text": "and navigate to product and open the one of the products our famous London wheel chair and scroll down and what you can see that system Shopify automatically added predefined meta fields or custom fields in the in the page so now I'm as a Shopify admin can modify these values and specify some"
+    },
+    {
+      "t": 153.5,
+      "end": 167.7,
+      "text": "data but can we get them into the business Central thank you Andre yes of course we can if you go to your products and then synchronize products from"
+    },
+    {
+      "t": 167.7,
+      "end": 188,
+      "text": "Shopify the product that you was just looking at is imported and there's a new action here called meta Fields uh you can see all the meta fields that you saw in Shopify admin is also uh import into business Central um connector right now uh only Imports them but uh we left it to you to write"
+    },
+    {
+      "t": 188,
+      "end": 208,
+      "text": "uh your custom extensions to actually do mappings with them uh I already did something uh wanted to take a close look to substitute so I have the uh the code for the extension here which goes through the meta Fields uh for this product and then finds the substitute one and for the substitute uh value of that meta"
+    },
+    {
+      "t": 208,
+      "end": 218.6,
+      "text": "field it creates a item substitution let's see if that worked open the London"
+    },
+    {
+      "t": 218.6,
+      "end": 238.9,
+      "text": "chair and then I'll just search for substitutions as you can see the Mexico chair was added as a substitution uh for this London chair based on the meta field uh that we synced from Shopify with this release uh in addition to meta Fields uh you can also synchronize uh translations"
+    },
+    {
+      "t": 238.9,
+      "end": 259.2,
+      "text": "in order to grow uh in different markets uh very rapidly uh there's a new action again uh in your Shopify Shop Card called languages you can import the languages from Shopify and U Mark the ones that you want to sync translations with uh for this uh we selected uh French as a language and then we want to sync translations"
+    },
+    {
+      "t": 259.2,
+      "end": 271.5,
+      "text": "with it so let's see uh what happens if I add an item uh from business Central to Shopify how will that look I'll go to products again and add"
+    },
+    {
+      "t": 271.5,
+      "end": 276.9,
+      "text": "items and then I"
+    },
+    {
+      "t": 276.9,
+      "end": 297.2,
+      "text": "select this item that I have already translations for and then hit Okay so this item now will be added as a product to Shopify and then let's see if there are translations for it all right I can see that product was imported with extended text attributes and descriptions or everything is in English because our default language is"
+    },
+    {
+      "t": 297.2,
+      "end": 317.3,
+      "text": "English Let's uh explore how I can see different languages I can navigate to more actions and check localized app which will show me different translations but let's uh navigate to the preview mode and see how buyer will see our product in the internet so we can see that default language is English but I can because"
+    },
+    {
+      "t": 317.3,
+      "end": 337.5,
+      "text": "I configured my store to support two languages display information in French let me pick it and we do not want to translate it back to English okay that's what we see French typ French extended textt and also attributes and even attributes values are translated"
+    },
+    {
+      "t": 337.5,
+      "end": 357.8,
+      "text": "let's navigate back to the product list business Central supports items and item variants as well as Shopify which also support products but also support multiple options which can be combined into variant so different systems different apps have different purpose that's why"
+    },
+    {
+      "t": 357.8,
+      "end": 378,
+      "text": "it might be different how you decide to configure your product list in one product or in another for example you can use variants in the Shopify site but import it into business Central as a flight list and you can do that today with a SKU mapping field which can help you to do that but"
+    },
+    {
+      "t": 378,
+      "end": 398.9,
+      "text": "what if you want to push data from business Central to Shopify and add extra item which is registered in business Central as item for multiple reasons maybe it's needed of material associated with it or something else and you want to add this uh item as variant in the product can we do that"
+    },
+    {
+      "t": 398.9,
+      "end": 419,
+      "text": "yeah of course we can uh we introduced a new action called add items as Shopify variants uh in the Shopify product list uh if I select the London chair and then use this action and then if I wanted to add the Blue version of it as a a variant and hit okay now this variant uh is this"
+    },
+    {
+      "t": 419,
+      "end": 439.3,
+      "text": "item is as as a variant to this Shopify product uh let's see how that looks in Shopify yes it worked now in the London Fiel chair I can see two variants let's open the list and scroll down Yes red and 1908 yeah you still need to do some work for example navigate here and change the title"
+    },
+    {
+      "t": 439.3,
+      "end": 459.6,
+      "text": "to whatever you like for example blue we don't have the full control on titles yet in the Shopify apis we working on this uh but with this Easy Action just one click you got variant created which is linked to business Central product it means availability levels and prices are"
+    },
+    {
+      "t": 459.6,
+      "end": 479.7,
+      "text": "synchronized okay about prices so price is coming from business Central to Shopify and you can configure default prices which will be inserted to the Shopify uh product in the business Central Shopify shop card and these prices can use customer price group customer discount group and combination"
+    },
+    {
+      "t": 479.7,
+      "end": 499.7,
+      "text": "of those in previous release when we added support for Shopify B2B we also support now catalogs which can be uh which can be linked to the company in the Shopify and on business Central s you can also assign customer price group and customer discount group"
+    },
+    {
+      "t": 499.7,
+      "end": 519.8,
+      "text": "to this catalog to make sure that group of companies to whom this catalog is allocated see the special prices in the in the store when they do shopping but in business Central we have more advanced capabilities I as a user in business Central can decide that this specific customer will get an extra"
+    },
+    {
+      "t": 519.8,
+      "end": 530.5,
+      "text": "discount or special price just because yeah how can we achieve the same uh functionality with Shopify"
+    },
+    {
+      "t": 530.5,
+      "end": 550.9,
+      "text": "connector I'll show you how if you go to uh related in your shop cut and select catalogs uh you'll notice a new field which I uh exposed by personalization uh is set visible false but you can always make it visible by personalization uh it is customer number so what I will do is uh for"
+    },
+    {
+      "t": 550.9,
+      "end": 564.3,
+      "text": "this catalog named trade research I'm just going to use trade research as the customer and then I will sync prices for these two cataloges and then see how the prices are"
+    },
+    {
+      "t": 564.3,
+      "end": 584.4,
+      "text": "syncing prices are synced how does it look in Shopify yeah it's not very not just ible in business Central but let's take a look in details what we can see here as I mentioned before so the product main product got price accordingly to the settings in the Shopify shop cart on business Central and it is like 195 but we also"
+    },
+    {
+      "t": 584.4,
+      "end": 604.6,
+      "text": "have two catalogs we can have a generic B2B catalog which you saw is already allocated to two different companies so we can see two different companies a datum and TR research all right and also on top Tre research has an extra catalog"
+    },
+    {
+      "t": 604.6,
+      "end": 624.8,
+      "text": "special one uh allocated to it all right and it has a special price now if I will go here and scroll down I can see that price is 155 let's try to do it in practice and see how prices will be respected by Shopify I will navigate to orders and start by creating a new order I will select the"
+    },
+    {
+      "t": 624.8,
+      "end": 628.8,
+      "text": "product"
+    },
+    {
+      "t": 629.5,
+      "end": 649.6,
+      "text": "Paris chair all right now it's Danish crowns but let's switch different Market we switch to us it will also update prices to US Dollars again 195 you remember we saw it in the product card all right now let's add customer and we will start by adding Robert who is"
+    },
+    {
+      "t": 649.6,
+      "end": 661.8,
+      "text": "actually uh buyer for aatam Corporation we selected aatam Corporation and prices has changed so now it is 180 but now let's remove"
+    },
+    {
+      "t": 661.8,
+      "end": 681.8,
+      "text": "customer and switch somebody else it will be Helen and Helen works as a buyer in TR research and as we remember the Tre research company has two catalogs Associated B2B and special one where it has lower price for this specific"
+    },
+    {
+      "t": 681.8,
+      "end": 701.9,
+      "text": "product interesting story about this specific feature this feature is added via code development project you can see another video explaining the fundamentals of this one story is we know that this requirement is uh rather important because we heard it from several Merchants already"
+    },
+    {
+      "t": 701.9,
+      "end": 722.8,
+      "text": "and we plan to add it but it was not clear about the timelines and then one Merchant is actually proactively suggested that they would like to contribute so Merchant and the partner who was helping them with implementation they submitted this code to the GitHub where we have our extension code is available"
+    },
+    {
+      "t": 722.8,
+      "end": 743.2,
+      "text": "so we kind of created a v team and uh together with Merchant partner and Microsoft make sure that this functionality is now available in the standard product and this is win-win situation because now Merchant and uh partner don't need to support this code because as soon as development is done and hand over to Microsoft"
+    },
+    {
+      "t": 743.2,
+      "end": 757.6,
+      "text": "now Microsoft is responsible for M for maintenance and support of this functionality and it also win for Microsoft because Now functionality is available for other customers using the same connector everybody"
+    },
+    {
+      "t": 757.6,
+      "end": 778.3,
+      "text": "wins what else has changed in the connector something which is not really visible to you but important and to explain I will start by telling how Shopify works and especially from development perspective because Shopify often releasing new functionality and it also updates apis every quarter"
+    },
+    {
+      "t": 778.3,
+      "end": 798.6,
+      "text": "and we at Microsoft soft rely on these apis so every quarter there is a new version and it version will stay current for one year to make sure that we aligned with Shopify release Cycles H Microsoft uptake the latest available version of API with every major release to reduce possible"
+    },
+    {
+      "t": 798.6,
+      "end": 819.1,
+      "text": "breaking changes or behavior changes in the minor updates so it means in the wave 1 which is usually April we use uh API released in January by Shopify and for October we will be using a version of API which become available in July all right what does it give us"
+    },
+    {
+      "t": 819.1,
+      "end": 839.2,
+      "text": "uh something not very visible right now but we are now prepared for the big change which Shopify already announced and started u slowly rolling out already it's the are lifting restrictions on number of variants you can have so now you can have up to 2,000 of variant"
+    },
+    {
+      "t": 839.2,
+      "end": 859.4,
+      "text": "under one product and our connector already works with it you can test it if you have a development store which uses the latest Shopify version but what else we we have in the connector yeah um as Andre said uh we're always making sure that we use the latest and greatest Shopify API version and you'll notice"
+    },
+    {
+      "t": 859.4,
+      "end": 879.7,
+      "text": "that your API version in your shop cut is changed to 2024 July and is supported for a year uh with this version Shopify requires us to send uh weight unit when we send the weight of a variant of a or a product uh for that we introduce a new uh setting here it's called weight unit under item synchronization"
+    },
+    {
+      "t": 879.7,
+      "end": 899.9,
+      "text": "Tab and we automatically synchronize this from Shopify but you can always change this in business Central and also uh under uh return and refund processing you can see that uh there's a new field called return location priority and it has two options the default return location"
+    },
+    {
+      "t": 899.9,
+      "end": 919.9,
+      "text": "is like how it used to work before it refers to this uh return location so you can check uh select the location and the next one is the original default location this is new uh what will this will do this will actually try to uh pick the locate R return location uh for theop from the Shopify refr and if it cannot find it for a"
+    },
+    {
+      "t": 919.9,
+      "end": 940.2,
+      "text": "reason uh like uh if the item is restocked in multiple locations it will go back to the default return location you can also do a lot more with shipping charges in this release uh if you go to your shipment method mapping now uh instead of just one uh shipping charges"
+    },
+    {
+      "t": 940.2,
+      "end": 960,
+      "text": "type which is the GL account you can do item or item charge I already defined for the standard uh shipping method here uh I want it to be synced with uh a item charge and the item charge is the Fright item so let's see how that looks if I synchronize an order"
+    },
+    {
+      "t": 960,
+      "end": 964.8,
+      "text": "let's sing orders from"
+    },
+    {
+      "t": 968.2,
+      "end": 982.6,
+      "text": "Shopify good a new order has come in I can create a sales document for it and I can use the link documents uh fact box to uh go to that"
+    },
+    {
+      "t": 982.6,
+      "end": 1002.6,
+      "text": "order you can see uh in the sales lines instead of the usual uh GL account for the ship shipping charges now is using the setting I've set is uh pointing to a item charge the fright and it's already assigned you can see that by uh drilling down this qu to the assign field"
+    },
+    {
+      "t": 1002.6,
+      "end": 1023.4,
+      "text": "uh it's distributed between uh two items also if you look closely to shipping and billing tab you'll notice that the shipment method uh agent and agent service is already set up from the mapping that I just uh configured in my shop cart with this release uh you can also uh synchronize postal sales invoices to Shopify"
+    },
+    {
+      "t": 1023.4,
+      "end": 1034.8,
+      "text": "uh let's also see how that looks um all you need to do is enable the setting from order synchronization and processing tab you just need to enable posted invoice"
+    },
+    {
+      "t": 1034.8,
+      "end": 1051,
+      "text": "syn and to make sure that sync works correctly you need to Define some payment terms mapping I've already selected the fixed as the primary one this is the default one it will get the uh the payment terms date from the uh the invoice it"
+    },
+    {
+      "t": 1051,
+      "end": 1063.2,
+      "text": "itself and all I need to do now is use sync posted sales invoices and I want to sync it for a specific customer so I'm going to add cell to"
+    },
+    {
+      "t": 1063.2,
+      "end": 1074.4,
+      "text": "customer number as a filter and use clao"
+    },
+    {
+      "t": 1074.4,
+      "end": 1095.1,
+      "text": "loon now we synchronizing all the posted sales invoices for this customer customer good it's done let's see how that looks in Shopify all right I can see that our favorite customer loon actually uh here and now we receive two invoices or two orders and they look slightly different"
+    },
+    {
+      "t": 1095.1,
+      "end": 1115.1,
+      "text": "uh on purpose because we want to do demonstrate you a couple of different scenarios first of all what you can see it's paid or not paid yeah and if it's we send this information if it's completely paid in the business Central then document also will be marked as a paid in the Shopify we can also open it and explore a little"
+    },
+    {
+      "t": 1115.1,
+      "end": 1135.4,
+      "text": "bit what do we see here uh we can see that most of items or basically everything is created not as real item or variant but as something which is called custom product available on Shopify the reason is because otherwise Shopify doesn't allow us to provide specific tax"
+    },
+    {
+      "t": 1135.4,
+      "end": 1156.1,
+      "text": "information and we think that right totals will be very important okay what you can see here as well is the currency so here we can see Canadian dollars yes so original currency from the posted sales invoice will be transferred here as well uh next uh one this one has US dollar"
+    },
+    {
+      "t": 1156.1,
+      "end": 1170,
+      "text": "and its pay pending payment you can see that is due on September 30 Let's uh actually collect payment and send invoice to the customer review it and send"
+    },
+    {
+      "t": 1170,
+      "end": 1190.4,
+      "text": "now as a customer as Cloud I received invoice but it also has a pay now button so technically I can press it and enter my credit card information to make sure that this document is paid and payment information will be in the Shopify so now we kind of using Shopify now as a"
+    },
+    {
+      "t": 1190.4,
+      "end": 1210.7,
+      "text": "payment integration technique I would like to talk about payment processing a little bit more so we're receiving payment and sometimes usually when company using uh gift cards or credit limit uh there are more than one payment uh transaction associated with"
+    },
+    {
+      "t": 1210.7,
+      "end": 1230.8,
+      "text": "order and this created some difficulties in the reconciliation at least this is what we heard from the customers and in this release we are adding a new extra capability which should help you to more easily reconcile payments with the posted invoices and to demonstrate that we and you can see them three different"
+    },
+    {
+      "t": 1230.8,
+      "end": 1251,
+      "text": "invoices with a three different scenarios uh one is like very basic one it's a just amount and fully paid be by credit card if you scroll to the next one this one is a special one because it has partial refund so like it was paid but then some of this money"
+    },
+    {
+      "t": 1251,
+      "end": 1271,
+      "text": "will returned to the customer and the last one is actually the essential scenario which we wanted to support is when amount is splitted in two parts and it's uh partially paid with a gift card with $100 and the remaining part will be paid by credit card let's see what we can do in business"
+    },
+    {
+      "t": 1271,
+      "end": 1291,
+      "text": "Central to deal with this uh payments and reconcile them to invoices I have already imported those orders and you can see uh they have an invoice attached to them and the one that Andre showed is partially refunded uh so how can I actually Recon file them all I need to do is go to"
+    },
+    {
+      "t": 1291,
+      "end": 1303.5,
+      "text": "cash receipt journals and under uh prepare tab you'll see a new action called suest Shopify payments this will only show if you have an active uh enabled"
+    },
+    {
+      "t": 1303.5,
+      "end": 1326.5,
+      "text": "shop there you can actually choose uh a Gateway and then the uh starting document number and all that good stuff uh you can see that this is under the bad Shopify card so that's what I will do I will use the bogus card Gateway as so that I want to pull only transactions from this Gateway into this uh"
+    },
+    {
+      "t": 1326.5,
+      "end": 1346.7,
+      "text": "Journal so I have four Journal lines created uh you can see uh there's one for the normal order is the correct amount and then this one right here is 1034 is the one that is refunded so if I close this and then you'll see that this amount is minus but this is positive and it's pointing"
+    },
+    {
+      "t": 1346.7,
+      "end": 1366.8,
+      "text": "to a credit memo because it's a refunded one and then this is the one that has the um the gift card so it only pulls the uh the amount that is not paid by the gift card by the bogus so you can post this and then reconcile uh your Shopify transactions uh directly in business Central um there's another way"
+    },
+    {
+      "t": 1366.8,
+      "end": 1376.8,
+      "text": "to do this and let's uh show that uh for gift card payments so you can go to"
+    },
+    {
+      "t": 1376.8,
+      "end": 1397.5,
+      "text": "Shopify transaction page you'll see that these are all the transactions that we import when we import ERS and you can see that there were uh two gift cards one was authorization one was the capture this one was the actually one that took the money from the gift card so you can select this and again use suggest Shopify payments"
+    },
+    {
+      "t": 1397.5,
+      "end": 1418.1,
+      "text": "and then use this batch gift instead of the card and then put a starting document number if you want to uh you don't need to put a Gateway because there's already uh a transaction ID filter so you can just hit okay you can see under dispatch Shopify gift the gift card is ready to be reconciled for"
+    },
+    {
+      "t": 1418.1,
+      "end": 1438.4,
+      "text": "$100 that's it that's how easy it is to now reconcile Shopify payments in business Central impressive all right so where you can get more details and read about limitations or scenarios at of course release plans there are several articles searched by Shopify term because usually they include"
+    },
+    {
+      "t": 1438.4,
+      "end": 1458.6,
+      "text": "Shopify in the title but also you can find the documentation documentation because we updated it notice that majority of this changes are coming from you because we are addressing feedback uh received via different channels either via support or by ideas so if you have something we and you think product is"
+    },
+    {
+      "t": 1458.6,
+      "end": 1467.4,
+      "text": "missing please submit your idea otherwise thank you for watching"
+    }
+  ],
+  "markers": [
+    {
+      "t": 1.04,
+      "text": "[Music]"
+    },
+    {
+      "t": 6.829,
+      "text": "[Music]"
+    },
+    {
+      "t": 6.839,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 3696
+}

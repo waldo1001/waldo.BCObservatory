@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/receivables-how-block-customers",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "4470a80067f9b30a8443742b4bf5eeb18f20a05d",
       "words": 189,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:09:05.762Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.005593
+    },
+    "summarized": {
+      "at": "2026-10-06T19:09:18.667Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:09:18.668Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:09:18.669Z",
+      "page": false
     }
   },
   "input_hash": "4470a80067f9b30a8443742b4bf5eeb18f20a05d",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "4470a80067f9b30a8443742b4bf5eeb18f20a05d"
+  "output_hash": "7ab0e30f46f699c03c9b5f100beb25a0a61b45791ed3973c0be23523a36e5a66"
 }

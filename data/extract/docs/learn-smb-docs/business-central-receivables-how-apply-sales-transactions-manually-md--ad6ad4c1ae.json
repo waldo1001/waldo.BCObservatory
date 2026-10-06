@@ -1,0 +1,78 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/receivables-how-apply-sales-transactions-manually.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/receivables-how-apply-sales-transactions-manually",
+  "title": "Reconcile customer payments with the cash receipt journal or from customer ledger entries",
+  "blob": "023b8466ebf4305d508ef999f973692f44cb570b",
+  "summary": "How to reconcile customer payments by applying them to cash receipt journals or customer ledger entries. Use this to match received payments to open invoices and close customer accounts.",
+  "systems": [
+    "sales",
+    "finance"
+  ],
+  "topics": [
+    "payment reconciliation",
+    "customer ledger",
+    "cash receipts",
+    "payment application",
+    "credit memos"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Customer Ledger Entries"
+    },
+    {
+      "type": "page",
+      "name": "Payment Reconciliation Journals"
+    },
+    {
+      "type": "page",
+      "name": "Payment Registration Setup"
+    },
+    {
+      "type": "page",
+      "name": "Cash Receipt Journals"
+    },
+    {
+      "type": "page",
+      "name": "Sales Credit Memos"
+    },
+    {
+      "type": "page",
+      "name": "Bank Deposit"
+    },
+    {
+      "type": "page",
+      "name": "Apply Customer Entries"
+    },
+    {
+      "type": "page",
+      "name": "Customers"
+    },
+    {
+      "type": "page",
+      "name": "Currency Exchange Rates"
+    },
+    {
+      "type": "page",
+      "name": "Currencies"
+    }
+  ],
+  "features": [
+    "apply payments",
+    "payment discount",
+    "multi-currency application",
+    "payment reversal",
+    "late payment prediction"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005593,
+      "pages_in_call": 7
+    }
+  ]
+}

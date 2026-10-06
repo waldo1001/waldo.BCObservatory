@@ -1,0 +1,186 @@
+{
+  "video_id": "uv2NsSD5P7U",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 6.5,
+      "end": 26.7,
+      "text": "hello everyone and welcome to this lunch event session on flexible update management um today I'll walk you through the changes we're making to update management for your business Cent for environments from version 25 onwards in short we're massively increasing the flexibility with which you can manage your environment updates in response to uh feedback from some of our biggest customers and"
+    },
+    {
+      "t": 26.7,
+      "end": 46.8,
+      "text": "partners um by doing this we're meeting the require ments of update diverse customers so these are customers that are running 24hour shops and don't want plan downtime every month or customers that have extensive testing requirements um that they don't want to repeat for every new version every month um we're doing it also to spread and reduce the workload of Partners so"
+    },
+    {
+      "t": 46.8,
+      "end": 67,
+      "text": "partners that that manage many customer environments uh have many updates to run uh every major update and by increasing the flexibility with which these can be scheduled um we can spread and reduce their workload and then finally um having fewer updates or more flexib flexibility in managing these updates also makes it uh possible to operate more"
+    },
+    {
+      "t": 67,
+      "end": 77.6,
+      "text": "efficiently so whenever exceptions are needed um you can now reschedule from the admin Center yourself rather than having to go through customer"
+    },
+    {
+      "t": 77.6,
+      "end": 94,
+      "text": "support um the major update cycle for the past couple of release has um looked like this um so as with every major release we start with a preview period um that runs every March and every September and then every October and April we ship a new major"
+    },
+    {
+      "t": 94,
+      "end": 114,
+      "text": "version um for the P releases um this major update would be scheduled around 7 days after it's first made available on every environment and then from that moment on administrators would have 60 days to um schedule that update and run it after that a grace period would start um and then finally an enforced update period would start in which any incompatible"
+    },
+    {
+      "t": 114,
+      "end": 134.4,
+      "text": "extensions are uninstalled now what we heard a lot from our customers is that these 60 days are not enough in some cases so what we're changing with version 25 and further is um that the update period is increasing from 60 days to 5 months so now when version 25 ships on the 1st of October uh any environments"
+    },
+    {
+      "t": 134.4,
+      "end": 154.6,
+      "text": "that are updating to this version we'll have until the 1st of March to do so um after the 1st of March we will start a grace period similar to before uh but the grace period is shortened so for one month the month of March um we'll run the updates every week um and it's no longer possible to schedule it for a later date and then finally from the 1st of April"
+    },
+    {
+      "t": 154.6,
+      "end": 174.7,
+      "text": "we'll start the enforced update period so in this period um any environments that still have filed to update because of incompatibilities in installed extensions uh will be forced updated by uninstalling those extensions as part of the update with these changes the the grace period now aligns with the preview period for the next version so the moment the grace period for version"
+    },
+    {
+      "t": 174.7,
+      "end": 188.4,
+      "text": "24 starts will start the preview for version 26 in March next year and then in April when we ship version 26 we'll start the force updating from version 24 to version"
+    },
+    {
+      "t": 188.4,
+      "end": 209.2,
+      "text": "25 um with these changes um we'll refer to an update cycle only for major updates so the update cycle as I just said starts with a preview period that lasts for 30 days um after the preview period will start the regular update period this will always last for five calendar months and the end date is fixed so for the update that ships in"
+    },
+    {
+      "t": 209.2,
+      "end": 220.2,
+      "text": "October the end date of the update period will always be the 1st of March and for the update that ships in April the end date will always be the 1st of"
+    },
+    {
+      "t": 220.2,
+      "end": 240.4,
+      "text": "September um after the update period we continue with the grace period which um is shortened but behaves exactly as Grace periods uh for previous releases so during the grace periods we're scheduling the update every week it will run on the scheduled date and if it fills or reschedule it for a week later um during this period is not possible"
+    },
+    {
+      "t": 240.4,
+      "end": 258.2,
+      "text": "to postpone the update uh to a later date so if we schedule uh the update after a field attempt to run 7 days after that attempt you can reschedule it to an earlier day you can say I want to try it again after 5 days but it's not possible to reschedule to a later date uh let's say to reschedule after 10"
+    },
+    {
+      "t": 258.2,
+      "end": 279.1,
+      "text": "days um this gr period last for a month so uh in short that means that every environment update will be attempted four times and after that we'll start the enforced update period so this Peri period behaves much like the grace period with the exception that as part of this update will uninstall any apps that are not compatible with the next version of business Central"
+    },
+    {
+      "t": 279.1,
+      "end": 299.2,
+      "text": "and also in this time it's not possible to postpone the update any further um minor updates on the other end don't have an update cycle anymore so we'll continue to ship them every month um and the default scheduling is unchanged so every month we'll ship it um 7 days after we ship it it will be scheduled on your environment um and then you"
+    },
+    {
+      "t": 299.2,
+      "end": 319.2,
+      "text": "can res schedule it um but what is changing is that you can now opt out of automatic scheduling so we introduce a new environment level setting uh on your environment that you can use to say I want uh this update to be scheduled automatically yes or no and if you up out we will ship minor updates they'll be available on your environment"
+    },
+    {
+      "t": 319.2,
+      "end": 330.8,
+      "text": "to update to but we will not schedule for you and you'd have to take action in the admin Center to get a minor update um what's also changing is with minor updates being opt"
+    },
+    {
+      "t": 330.8,
+      "end": 351.4,
+      "text": "um you can uh fall behind multiple versions so if you don't install the latest minor every month you could be behind a few miners at some point um what we're changing now is that if you schedule an update you can select the target version for that update so you go into the admin Senter you want a schedule an update and you can take any version later than the version your environment is on"
+    },
+    {
+      "t": 351.4,
+      "end": 371.8,
+      "text": "which makes it possible to um skip some versions and then finally uh what's also new is that you can create create environments on any supported version so in the admin Center when you create a new environment you'll be able to select any version number that we support um instead of the current behavior of just supporting the latest version"
+    },
+    {
+      "t": 371.8,
+      "end": 392.3,
+      "text": "um of course if you create the environments by logging in to an tenant that doesn't have any business censal environment yet we'll always create the latest uh we'll always create an environment on the latest version these changes are rolling out gradually over the course of um the major releasee so the public review is starting in October 2024 when we ship version 25"
+    },
+    {
+      "t": 392.3,
+      "end": 409,
+      "text": "and it only applies to Microsoft localized environments um that means that Microsoft localized environments they get a new update cycle so they get the five month window um and the update 25.0 when we ship it will be schedulable until the 1st of March"
+    },
+    {
+      "t": 409,
+      "end": 429,
+      "text": "2025 um minor updates will ship as I said before on these environments as well and after you've updated to version 25.0 um you'll have until the first of September so the end of the update period for version 25 uh to schedule any minor updates that you want to install in your environment uh what is not possible during the"
+    },
+    {
+      "t": 429,
+      "end": 451,
+      "text": "public preview is to change the target version so after you update to 25.0 let's say you want to get to 25.3 but you don't necessarily want to update to 25.1 or 25.2 you still have to go through those versions um to get to 25.3 so you won't be able to go straight from 25.0 to 25.3 as an example"
+    },
+    {
+      "t": 451,
+      "end": 463.2,
+      "text": "um then General availability is going to follow towards the end of this release wave um at that point these changes will be available globally so also the more flexible update management will be available to partner localized"
+    },
+    {
+      "t": 463.2,
+      "end": 480.4,
+      "text": "environments um and at that point also the admin Center changes will come so we'll introduce the opt out for automatic scheduling um so environments can choose not to receive miners automatically anymore um at that point it will be possible to change the update Target version as well so it'll be possible to skip versions"
+    },
+    {
+      "t": 480.4,
+      "end": 500.4,
+      "text": "um we'll introduce the API changes for update scheduling so um just for partners and customers that that automate the scheduling of environments the API endpoints in the admin Center API that we've had for this uh will slightly change to reflect the new flexibility um those changes are coming in March um and also from that date on it'll be possible to create versions or"
+    },
+    {
+      "t": 500.4,
+      "end": 520.7,
+      "text": "create environments on any supported version um and then finally there's going to be some communication changes so you can expect the email notifications to slightly change reflecting the more flexible update management um and for partners in particular that automate or alert based on the Telemetry signals um these signals will also Chang with the"
+    },
+    {
+      "t": 520.7,
+      "end": 540.7,
+      "text": "properties uh applicable to the update so the signals that we've had for a few years at this point are going to change and if you're uh if youve built on top of that there's going to be U some break-in changes that are going to come in March with all this increased flexibility we don't think that the best practices uh around update management are going to change so for most most environments"
+    },
+    {
+      "t": 540.7,
+      "end": 561.3,
+      "text": "um the best course of action will be to install the minor updates when we ship it every month and not fall behind um and so our best practices remain unchanged as well um we recommend everyone to keep environments updatable um stay current with the extensions make sure that extensions installed on the environment can always update to any later version of business"
+    },
+    {
+      "t": 561.3,
+      "end": 581.9,
+      "text": "Central um and that is important to stay informed on product changes so we might introduce features that a customer really needs um in minor updates and it would be best if that environment is updatable to that version to make sure that the customer receives the features that they really need at the time that we ship them"
+    },
+    {
+      "t": 581.9,
+      "end": 602,
+      "text": "um this flexibility IT addresses some specific concerns from specific customers and partners and for those we really encourage them to use it and to use the flexibility um but for most customers the best course of action would be to uh remain to the default scheduling every month and that includes flexible update Management in 2024"
+    },
+    {
+      "t": 602,
+      "end": 606,
+      "text": "release Wave 2 thank you"
+    }
+  ],
+  "markers": [
+    {
+      "t": 0.98,
+      "text": "[Music]"
+    },
+    {
+      "t": 6.51,
+      "text": "[Music]"
+    },
+    {
+      "t": 6.52,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 1853
+}

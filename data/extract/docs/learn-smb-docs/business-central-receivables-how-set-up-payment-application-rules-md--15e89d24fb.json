@@ -1,0 +1,48 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/receivables-how-set-up-payment-application-rules.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/receivables-how-set-up-payment-application-rules",
+  "title": "Rules for automatic application of payments",
+  "blob": "c7f5b1d4ef878b5ba878961b0340ef867b171d3e",
+  "summary": "How to set up rules for automatic application of payments to define matching criteria between payment bank transactions and open invoices. Use this to control how payments are automatically matched.",
+  "systems": [
+    "sales",
+    "finance",
+    "purchasing"
+  ],
+  "topics": [
+    "payment application rules",
+    "automatic matching",
+    "match confidence",
+    "related party matching",
+    "amount tolerance"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Payment Application Rules"
+    },
+    {
+      "type": "page",
+      "name": "Payment Reconciliation Journal"
+    }
+  ],
+  "features": [
+    "payment application rules",
+    "match confidence levels",
+    "priority sorting",
+    "related party matching",
+    "document number matching",
+    "amount tolerance"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005593,
+      "pages_in_call": 7
+    }
+  ]
+}

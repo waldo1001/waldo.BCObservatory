@@ -1,0 +1,26 @@
+{
+  "video_id": "lofGuQRe1BM",
+  "item_id": "video/yt-microsoft/lofGuQRe1BM",
+  "summary": "AL language changes in Business Central 2024 release wave 2: new table field property for text search, profile extensions, extendable interfaces, date and time properties, self reference (this), PATCH on HttpClient, and the ternary operator. Also covers page customization clear properties and query tool tips.",
+  "overview": "The video, published 2024-10-08 and about 11 minutes long, walks through what is new in the AL language for 2024 release wave 2. It goes through table, page, query, interface, date and time, resource and HTTP changes, and ends with the ternary operator.\n\nSome items are marked as not usable yet. The configuration dialogue page type is under development and cannot be used. The AI tokens used method in session information is not ready for use. The clear layout, clear actions and clear views properties come with a caveat for role customizations.",
+  "key_points": [
+    "Tables get a field property for optimized text search, also exposed on field references through the is optimized for search property.",
+    "Page customizations get clear layout, clear actions and clear views properties. You then add back only what you need. Using them in page customizations used in role customizations causes errors.",
+    "Profiles can be extended, so you no longer copy an existing profile to build on it. Interfaces can also be extended with more methods.",
+    "A list of code units can be used, and a code unit can be assigned to an interface by simple casting if it implements that interface. New is and as keywords work with interfaces.",
+    "Date, DateTime and Time types get properties such as day of week, month, day, year, hour, minute, second and millisecond.",
+    "The this self reference lets code refer to the current object. A code analyzer and code action can enforce the this prefix across a document, project or workspace, but it is hidden by default.",
+    "NavApp gets a method for reading app resources by name into a stream, and HttpClient gets a PATCH method. The ternary operator condenses if-else logic, but can become hard to read if misused."
+  ],
+  "audience": [
+    "developer",
+    "functional consultant"
+  ],
+  "extraction_hash": "c60827929bc8176453c2c75094f9ea7b2a8cb5859a94224405b6279e37520f9c",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0194704
+  }
+}
