@@ -1,0 +1,12 @@
+---
+import { getCollection } from "astro:content";
+import Base from "../../layouts/Base.astro";
+const base = import.meta.env.BASE_URL;
+const all = (await getCollection("sources")).sort((a, b) => b.data.item_count - a.data.item_count);
+---
+<Base title="Sources · BC Observatory" description="Blogs and channels in the knowledge base and what they cover.">
+  <p class="eyebrow">Sources</p>
+  <h1>{all.length} sources</h1>
+  <p class="lede">Each blog and channel with its footprint: the systems, topics and AL objects it covers, and its flight path through time. Agents: <a href={`${base}sources/llms.txt`}>llms.txt</a>.</p>
+  <ul>{all.map((e) => <li><a href={`${base}sources/${e.id}/`}>{e.data.title}</a> <span class="meta">{e.data.item_count} items · {e.data.tier} · {e.data.footprint.systems.slice(0, 3).map((s: any) => s.id).join(", ")}</span></li>)}</ul>
+</Base>

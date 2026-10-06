@@ -96,8 +96,8 @@ Deliberate deviations from PLAN, all small:
   unlimited run is working through the docs backlog). Next: deprecation radar in the weekly digest (M4), object family
   narratives, Learn reference pages (methods, diagnostics) as object hubs.
 - M3 graph + galaxy home page done (D37); design brief generated (D38, `npm run design:brief`). Waiting on the owner:
-  run Claude Design with docs/brief/PROMPT-design.md, put tokens.json + HANDOFF.md in design/. Then: Astro UI,
-  author footprint pages, coverage heatmap.
+  run Claude Design with docs/brief/PROMPT-design.md, put tokens.json + HANDOFF.md in design/. Then the Astro UI.
+  Source footprints and coverage heatmap done (D39).
 - M4 weekly digest + RSS done (D36).
 - M4 MCP server + plugin done (D35), not yet on npm (owner gate 7: npm Trusted Publishing for `bc-observatory`).
 - M3 blogs pillar done (D34): 601 discovered posts flow through fetched (vault) → extracted (Haiku) → published.

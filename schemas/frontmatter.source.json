@@ -1,0 +1,147 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://waldo1001.github.io/waldo.BCObservatory/schemas/frontmatter.source.json",
+  "title": "Frontmatter of a source footprint page (content/sources/<id>.md)",
+  "allOf": [
+    {
+      "$ref": "frontmatter.base.json"
+    }
+  ],
+  "type": "object",
+  "required": [
+    "source_id",
+    "kind",
+    "author",
+    "mvp",
+    "full_text",
+    "item_count",
+    "footprint",
+    "first_item",
+    "last_item"
+  ],
+  "properties": {
+    "type": {
+      "const": "source"
+    },
+    "source_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "kind": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "author": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "mvp": {
+      "type": "boolean"
+    },
+    "full_text": {
+      "type": "boolean"
+    },
+    "item_count": {
+      "type": "integer"
+    },
+    "footprint": {
+      "type": "object",
+      "required": [
+        "systems",
+        "topics",
+        "objects",
+        "features"
+      ],
+      "properties": {
+        "systems": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "id",
+              "weight"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "weight": {
+                "type": "number"
+              }
+            }
+          }
+        },
+        "topics": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "id",
+              "weight"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "weight": {
+                "type": "number"
+              }
+            }
+          }
+        },
+        "objects": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "id",
+              "weight"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "weight": {
+                "type": "number"
+              }
+            }
+          }
+        },
+        "features": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "id",
+              "weight"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "weight": {
+                "type": "number"
+              }
+            }
+          }
+        }
+      }
+    },
+    "first_item": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "last_item": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  }
+}

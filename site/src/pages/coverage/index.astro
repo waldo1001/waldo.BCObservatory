@@ -1,0 +1,22 @@
+---
+import { existsSync, readFileSync } from "node:fs";
+import { resolve } from "node:path";
+import Base from "../../layouts/Base.astro";
+const p = resolve(process.cwd(), "..", "data", "index", "coverage.json");
+const cov = existsSync(p) ? JSON.parse(readFileSync(p, "utf8")) : { systems: [], pillars: [], counts: {} };
+const max = Object.fromEntries(cov.pillars.map((pl: string) => [pl, Math.max(1, ...cov.systems.map((s: string) => cov.counts[s][pl]))]));
+const base = import.meta.env.BASE_URL;
+---
+<Base title="Coverage · BC Observatory" description="Where Business Central is well covered and where it is thin, per galaxy system and pillar.">
+  <p class="eyebrow">Coverage</p>
+  <h1>Coverage heatmap</h1>
+  <p class="lede">Pages per galaxy system and pillar: Learn pages (extracted), AL objects, videos, community posts, roadmap features. Darker = more, relative to the busiest system in that column. Data: <a href={`${base}index/coverage.json`}>coverage.json</a>.</p>
+  <table class="heat">
+    <thead><tr><th>System</th>{cov.pillars.map((pl: string) => <th>{pl}</th>)}</tr></thead>
+    <tbody>{cov.systems.map((s: string) => <tr><th scope="row">{s}</th>{cov.pillars.map((pl: string) => { const v = cov.counts[s][pl]; return <td style={`--h:${(v / max[pl]).toFixed(2)}`}>{v}</td>; })}</tr>)}</tbody>
+  </table>
+  <style>
+    .heat td { text-align: right; font-variant-numeric: tabular-nums; background: color-mix(in srgb, var(--accent) calc(var(--h) * 70%), transparent); }
+    .heat th[scope="row"] { font-weight: 500; }
+  </style>
+</Base>

@@ -11,6 +11,7 @@ export const GET: APIRoute = async () => {
   const localizations = (await getCollection("localizations")).length;
   const posts = (await getCollection("posts")).length;
   const digests = (await getCollection("digests")).length;
+  const sources = (await getCollection("sources")).length;
   const site = `${import.meta.env.SITE}${import.meta.env.BASE_URL}`;
   const text = [
     "# BC Observatory",
@@ -27,6 +28,7 @@ export const GET: APIRoute = async () => {
     ...(features ? [`- [Features](${site}features/llms.txt): ${features} Business Central features from the Microsoft 365 roadmap (status, wave, dates)`] : []),
     ...(objects ? [`- [AL objects](${site}objects/llms.txt): ${objects} W1 and first-party app objects from the code (fields, procedures, events, obsolete state, versions, countries, Learn pages)`] : []),
     ...(localizations ? [`- [Localizations](${site}localizations/llms.txt): ${localizations} country layers and what they change in W1`] : []),
+    ...(sources ? [`- [Sources](${site}sources/llms.txt): ${sources} blogs and channels with their footprint (systems, topics, objects named, flight path)`] : []),
     ...(digests ? [`- [Weekly digests](${site}digests/llms.txt): what changed each week (roadmap, videos, posts, Learn commits, code, deprecation radar); RSS at ${site}rss.xml`] : []),
     ...(posts ? [`- [Community posts](${site}posts/llms.txt): ${posts} Business Central blog posts as derived evidence (summary, key points, short quotes, link to the original)`] : []),
     ...(videos ? [`- [Videos](${site}videos/llms.txt): ${videos} Business Central videos as timestamped evidence (summary, chapters, features with verified status quotes)`] : []),

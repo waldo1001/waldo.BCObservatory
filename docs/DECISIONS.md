@@ -193,3 +193,8 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   18, BE localization, a source footprint, a one-system galaxy excerpt); the release-wave tokens and handoff are in
   `design/seed/` as the starting point. The owner runs Claude Design; its `design/tokens.json` and `design/HANDOFF.md`
   then drive the Astro components (M3 UI).
+- **D39 Source footprints and coverage, deterministic.** `content/sources/<id>.md` per blog or channel with pages:
+  systems, topics and AL objects it touches, roadmap features it demonstrates, first and last item, items per
+  quarter (the flight path), recent items (`frontmatter.source`). `data/index/coverage.json`: galaxy system ×
+  pillar (Learn pages, objects, videos, posts, features), drawn on `/coverage/` as a heatmap. Per-topic coverage is
+  left out: only Learn and code attach to topics so far.
