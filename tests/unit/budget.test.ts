@@ -86,13 +86,13 @@ test("guard: headroom scales LLM quotas, unreadable usage runs reduced", () => {
 test("quota scaling: LLM quotas scale, deterministic ones do not, facts-only drops prose and review", () => {
   const q = budget().quotas;
   const half = scaleQuotas(q, { factor: 0.5, facts_only: false });
-  assert.equal(half.docs, 30);
+  assert.equal(half.docs, Math.floor(q.docs * 0.5));
   assert.equal(half.captions, q.captions);
   assert.equal(half.code_jobs, q.code_jobs);
   const facts = scaleQuotas(q, { factor: 0.25, facts_only: true });
   assert.equal(facts.hub_refresh, 0);
   assert.equal(facts.opus_reviews, 0);
-  assert.equal(facts.video_extract, 6);
+  assert.equal(facts.video_extract, Math.floor(q.video_extract * 0.25));
   assert.equal(scaleQuotas(q, { factor: 0, facts_only: false }).docs, 0);
 });
 
