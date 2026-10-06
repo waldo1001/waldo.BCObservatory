@@ -1,0 +1,52 @@
+{
+  "item_id": "blog/waldo-be/318371",
+  "url": "https://waldo.be/2025/10/22/i-did-a-thing-again-bc-telemetry-buddy/",
+  "title": "Analyzing BC Telemetry with AI with the “BC Telemetry Buddy”",
+  "source": "waldo-be",
+  "published_at": "2025-10-22T16:04:46.000Z",
+  "words": 1803,
+  "summary": "BC Telemetry Buddy is a VSCode extension and Model Context Protocol tool that lets users query Business Central telemetry data through natural conversation using GitHub Copilot, without needing to write KQL or have separate subscriptions. It includes features for event discovery, stack trace analysis, report generation, and custom chat modes for focused analysis workflows.",
+  "key_points": [
+    "Users can ask questions about BC telemetry in natural language through VSCode without writing KQL queries",
+    "The tool uses a Model Context Protocol bundled in the extension to provide AI agents with BC-specific tools and context",
+    "Multiple authentication methods are supported, with per-workspace configuration enabling organization by customer or environment",
+    "Users can create custom chat modes to define focused analysis types with specific tools and output formats",
+    "The tool integrates with online resources, local KQL files, and discovers both standard and custom telemetry events"
+  ],
+  "systems": [
+    "reporting",
+    "copilot",
+    "platform"
+  ],
+  "topics": [
+    "telemetry analysis",
+    "ai agents",
+    "vscode extension",
+    "kql",
+    "mcp",
+    "troubleshooting",
+    "performance analysis"
+  ],
+  "objects": [],
+  "features": [
+    "MCP integration",
+    "Natural language telemetry queries",
+    "Event discovery",
+    "Stack trace analysis",
+    "SQL statement analysis",
+    "PDF/PNG graph generation",
+    "Custom chat modes",
+    "Multi-authentication support"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

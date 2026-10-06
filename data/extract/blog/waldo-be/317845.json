@@ -1,0 +1,70 @@
+{
+  "item_id": "blog/waldo-be/317845",
+  "url": "https://waldo.be/2025/05/31/handling-business-central-telemetry-like-a-boss-ifacto-telemetry-pt-3/",
+  "title": "Handling Business Central Telemetry like a boss: iFacto Telemetry – Pt. 3",
+  "source": "waldo-be",
+  "published_at": "2025-05-31T07:34:17.000Z",
+  "words": 908,
+  "summary": "The iFacto Telemetry app extends Business Central's built-in telemetry capabilities by adding custom events to track missing indexes, function performance, media orphans, installed apps, delegated user actions, feature management status, and retention policies. It helps administrators monitor system health and performance across multiple customers and environments.",
+  "key_points": [
+    "The app sends custom telemetry events daily to track database issues like missing indexes, media orphans, and retention policy status",
+    "Performance tracking via start/stop markers on custom methods enables comparison of execution duration and SQL statements across customers",
+    "Security monitoring includes delegated user changes to critical data such as vendor bank accounts",
+    "Dashboard visualization consolidates custom telemetry and daily telemetry data into tabs for easier analysis",
+    "Job queue codeunit 1350 must run daily to ensure telemetry events are triggered"
+  ],
+  "systems": [
+    "administration",
+    "reporting",
+    "platform"
+  ],
+  "topics": [
+    "telemetry",
+    "monitoring",
+    "performance",
+    "database",
+    "security",
+    "azure data explorer",
+    "app development"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "1350"
+    }
+  ],
+  "features": [
+    "Custom telemetry events",
+    "Missing index tracking",
+    "Performance monitoring",
+    "Media orphan detection",
+    "Installed apps reporting",
+    "Feature management visibility",
+    "Retention policy monitoring",
+    "Delegated user activity logging"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "You can add a start and stop to whatever method, which causes this event to signal about the method, its duration, its NoOfSqlStatements.",
+      "why_it_matters": "Enables granular performance tracking of custom code to identify bottlenecks and compare performance across customers"
+    },
+    {
+      "text": "Make sure your daily telemetry is running. This is especially true for OnPrem customers, but even for SaaS it's worth to check.",
+      "why_it_matters": "Highlights the critical need to configure job queue for regular telemetry collection to maintain visibility into system health"
+    },
+    {
+      "text": "This app is free, and will be free for eternity.",
+      "why_it_matters": "Establishes the app's long-term accessibility and removes cost barriers to adoption for telemetry-driven monitoring"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

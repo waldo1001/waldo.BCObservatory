@@ -7,13 +7,39 @@
   "url": "https://waldo.be/2026/02/24/troubleshooting-series-ep5-telemetry/",
   "published_at": "2026-02-24T19:41:15.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T23:40:24.176Z",
+      "path": "vault:posts/waldo-be/318540.md",
+      "words": 1422
+    },
+    "extracted": {
+      "at": "2026-10-06T23:40:24.231Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-06T23:40:24.234Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T23:40:24.235Z"
+    },
+    "published": {
+      "at": "2026-10-06T23:40:24.365Z",
+      "path": "content/posts/waldo-be/318540.md"
     }
   },
   "input_hash": "2026-02-24T19:44:33.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "dc60016844738c13f44bf4fea109010f13916146c0ed7d662276bea623b77623"
 }

@@ -1,0 +1,76 @@
+{
+  "item_id": "blog/waldo-be/318423",
+  "url": "https://waldo.be/2025/11/30/bc-telemetry-buddy-84-commits-later/",
+  "title": "BC Telemetry Buddy – 84 commits later..",
+  "source": "waldo-be",
+  "published_at": "2025-11-30T13:30:18.000Z",
+  "words": 1631,
+  "summary": "BC Telemetry Buddy evolved from a proof of concept to a production-ready tool for analyzing Business Central telemetry. The v1.0.0 release transformed it from a bundled extension into modular components, added AI-powered chat features for data discovery and analysis, and implemented comprehensive testing and CI/CD pipelines.",
+  "key_points": [
+    "Architecture refactored to separate the VS Code extension from an optional MCP server NPM package, allowing flexible deployment and usage scenarios",
+    "Discovery-first approach with event catalog browsing, schema discovery tools, and ready-made KQL patterns to simplify telemetry exploration",
+    "AI-powered chat participant and specialized chat modes that handle both simple data queries and complex performance analysis automatically",
+    "Multi-profile support added to handle multiple telemetry endpoints, with a setup wizard to guide configuration",
+    "Matured to production quality with 737 tests covering critical paths, 84.87% code coverage, automated CI/CD pipelines, and anonymous usage telemetry"
+  ],
+  "systems": [
+    "development",
+    "platform",
+    "reporting"
+  ],
+  "topics": [
+    "telemetry",
+    "analysis",
+    "kql",
+    "kusto",
+    "vscode extension",
+    "mcp server",
+    "ai-powered",
+    "performance troubleshooting"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "BC Telemetry Buddy"
+    },
+    {
+      "type": "other",
+      "name": "bc-telemetry-buddy-mcp"
+    }
+  ],
+  "features": [
+    "Event Catalog",
+    "Schema Discovery",
+    "KQL Pattern Generation",
+    "Chat Participant",
+    "Performance-Focused Chat Mode",
+    "Multi-Profile Support",
+    "Setup Wizard",
+    "Usage Telemetry"
+  ],
+  "versions": [
+    "0.1.0",
+    "1.0.0",
+    "1.2.0",
+    "1.2.9"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "In the last 4 weeks, my BC Telemetry Buddy went from \"nice demo\" to \"this might actually be getting somewhere\".",
+      "why_it_matters": "Demonstrates the rapid maturation of the tool from concept to production readiness"
+    },
+    {
+      "text": "The extension now runs completely standalone: commands & KQL go straight to Azure/Kusto. No MCP, no extra process, just VS Code and your telemetry.",
+      "why_it_matters": "Key architectural change that simplifies deployment and usage options for users"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

@@ -7,13 +7,39 @@
   "url": "https://waldo.be/2025/06/30/obsoleted-and-no-longer-invoked-events-in-v26-business-central/",
   "published_at": "2025-06-30T07:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T23:40:25.340Z",
+      "path": "vault:posts/waldo-be/317951.md",
+      "words": 1254
+    },
+    "extracted": {
+      "at": "2026-10-06T23:40:25.398Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-06T23:40:25.404Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T23:40:25.405Z"
+    },
+    "published": {
+      "at": "2026-10-06T23:40:25.410Z",
+      "path": "content/posts/waldo-be/317951.md"
     }
   },
   "input_hash": "2025-06-29T22:31:21.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "36e37737dab9e08ff1832cb5ce3779d5425d3a57fb97b845a5f9c4f63fef55cb"
 }

@@ -1,0 +1,65 @@
+{
+  "item_id": "blog/waldo-be/317739",
+  "url": "https://waldo.be/2025/04/30/troubleshooting-series-ep2-admin-center-sessions/",
+  "title": "Troubleshooting Series – Ep2 – Admin Center – Sessions",
+  "source": "waldo-be",
+  "published_at": "2025-04-30T16:16:00.000Z",
+  "words": 623,
+  "summary": "The Sessions window in the Business Central Admin Center allows partners and delegated admins to view active sessions across all server instances and cancel problematic ones to improve system performance and resolve resource issues.",
+  "key_points": [
+    "Sessions persist after closing tabs or windows, requiring manual management through the Admin Center",
+    "The Sessions window displays all active sessions including background tasks and allows cancellation of individual sessions or environment restart",
+    "Administrators can cross-reference Database Locks with Sessions to identify which user or process is causing performance issues",
+    "Cancelling sessions should be done carefully to avoid incomplete transactions; restart is a last resort for critical situations",
+    "Access requires delegated admin role or appropriate Admin Center permissions"
+  ],
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "admin center",
+    "sessions management",
+    "troubleshooting",
+    "performance",
+    "saas",
+    "onprem"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Active Sessions"
+    }
+  ],
+  "features": [
+    "Sessions window",
+    "Cancel sessions",
+    "Restart environment",
+    "Monitor active sessions",
+    "Cross-reference Database Locks"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "sessions are not stopped when you close a tab or window",
+      "why_it_matters": "Explains why the Sessions window is necessary for managing long-running processes that continue consuming resources after user disconnection"
+    },
+    {
+      "text": "Cancelling a session abruptly can lead to incomplete transactions or data inconsistencies. So make sure you know what you're doing.",
+      "why_it_matters": "Highlights the critical best practice of proceeding cautiously when stopping sessions to avoid data integrity issues"
+    },
+    {
+      "text": "Restart is a last resort. It stops all processes so reserve this for critical situations where cancelling individual sessions didn't resolve the issue.",
+      "why_it_matters": "Establishes the escalation hierarchy for session management, distinguishing between targeted cancellation and environment-wide restart"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

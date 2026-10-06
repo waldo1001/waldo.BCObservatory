@@ -1,0 +1,61 @@
+{
+  "item_id": "blog/waldo-be/318540",
+  "url": "https://waldo.be/2026/02/24/troubleshooting-series-ep5-telemetry/",
+  "title": "Troubleshooting Series – Ep5 – Telemetry",
+  "source": "waldo-be",
+  "published_at": "2026-02-24T19:41:15.000Z",
+  "words": 1422,
+  "summary": "Telemetry is essential for troubleshooting Business Central SaaS because it provides evidence about when issues occur, their frequency, affected customers, and performance metrics without SQL access or profilers. The post covers two telemetry channels (environment-level and app/extension-level), Microsoft-provided tools like Power BI apps and Azure Data Explorer, and the BC Telemetry Buddy tool that makes querying telemetry easier through AI assistance.",
+  "key_points": [
+    "Telemetry enables data-driven troubleshooting by answering key questions about performance issues, errors, and user impact instead of relying on guesses",
+    "Two telemetry channels exist: environment-level (configured in Admin Center) for platform events and app-level (via Application Insights) for extension-specific data",
+    "Microsoft provides ready-made tools including Power BI telemetry apps, Azure Data Explorer for ad-hoc querying, KQL query samples, and structured Telemetry Event ID reference lists",
+    "Additional logging feature provides 15 minutes of verbose telemetry including all SQL queries, functioning like a temporary SaaS SQL Profiler",
+    "BC Telemetry Buddy MCP makes telemetry analysis accessible by generating KQL queries from natural language questions without requiring KQL expertise"
+  ],
+  "systems": [
+    "administration",
+    "reporting",
+    "copilot"
+  ],
+  "topics": [
+    "telemetry",
+    "troubleshooting",
+    "monitoring",
+    "performance",
+    "saas",
+    "azure data explorer",
+    "power bi",
+    "ai-assisted analysis"
+  ],
+  "objects": [],
+  "features": [
+    "Environment-level telemetry",
+    "App-level telemetry",
+    "Power BI telemetry apps",
+    "Azure Data Explorer",
+    "BC Telemetry Buddy",
+    "Additional logging",
+    "Telemetry Event IDs",
+    "AI-assisted KQL generation"
+  ],
+  "versions": [
+    "2024",
+    "2025"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Troubleshooting Business Central SaaS without telemetry is like debugging with your eyes closed.",
+      "why_it_matters": "Establishes why telemetry is critical for SaaS troubleshooting when direct access to systems is unavailable"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

@@ -7,13 +7,39 @@
   "url": "https://waldo.be/2025/05/31/handling-business-central-telemetry-like-a-boss-ifacto-telemetry-pt-3/",
   "published_at": "2025-05-31T07:34:17.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T23:40:25.426Z",
+      "path": "vault:posts/waldo-be/317845.md",
+      "words": 908
+    },
+    "extracted": {
+      "at": "2026-10-06T23:40:25.493Z",
+      "prompt": "extract-post@1",
+      "quotes": 3,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-06T23:40:25.511Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T23:40:25.512Z"
+    },
+    "published": {
+      "at": "2026-10-06T23:40:25.530Z",
+      "path": "content/posts/waldo-be/317845.md"
     }
   },
   "input_hash": "2025-05-31T07:34:18.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d7fe55cba8b4229164a01886046cb202b29dba65bc4986ad456a97cdcaf9810d"
 }

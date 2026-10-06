@@ -1,0 +1,70 @@
+{
+  "item_id": "blog/waldo-be/317951",
+  "url": "https://waldo.be/2025/06/30/obsoleted-and-no-longer-invoked-events-in-v26-business-central/",
+  "title": "Obsoleted and “no longer invoked” events in v26 Business Central",
+  "source": "waldo-be",
+  "published_at": "2025-06-30T07:00:00.000Z",
+  "words": 1254,
+  "summary": "Business Central v26 removed invocation of 82 obsoleted events from the legacy invoice posting system while keeping them in the codebase for backward compatibility. Code subscribing to these non-invoked events will compile and publish but fail silently at runtime, creating a hidden risk for developers upgrading from earlier versions.",
+  "key_points": [
+    "The Extensible Invoice Posting Engine replaced the Invoice Post. Buffer system starting in v19, with v26 marking the end of the legacy events",
+    "82 events remain in code but are no longer invoked in v26, allowing apps to compile across versions but potentially failing at runtime",
+    "Microsoft removed the validation check that previously prevented publishing apps subscribed to obsoleted events",
+    "Developers should implement their own validation checks during upgrades to catch dependencies on non-invoked events before production issues occur",
+    "Supporting multiple versions of an app across different BC releases without multiple AppSource versions creates this compatibility challenge"
+  ],
+  "systems": [
+    "development",
+    "integration"
+  ],
+  "topics": [
+    "events",
+    "obsolescence",
+    "upgrade",
+    "invoice posting",
+    "extensibility",
+    "backward compatibility",
+    "code migration"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Invoice Post. Buffer"
+    },
+    {
+      "type": "interface",
+      "name": "Invoice Posting Interface"
+    }
+  ],
+  "features": [
+    "Extensible Invoice Posting Engine",
+    "Event Subscribers",
+    "Feature Management",
+    "Upgrade Validation",
+    "Centralized Event Publishers"
+  ],
+  "versions": [
+    "v19",
+    "v25",
+    "v26"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "I found 82 of such non-invoked events!",
+      "why_it_matters": "Quantifies the scope of the problem, showing this affects numerous events across the invoice posting system"
+    },
+    {
+      "text": "Be mindful! Use DevOps and fail your build pipelines when you are using obsoleted stuff. Manage that! Continuously!",
+      "why_it_matters": "Provides the recommended preventive approach - catching obsolete event usage early in development rather than discovering failures in production"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

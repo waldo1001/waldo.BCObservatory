@@ -1,0 +1,65 @@
+{
+  "item_id": "blog/waldo-be/318065",
+  "url": "https://waldo.be/2025/07/25/bctalent-escape-rooms/",
+  "title": "BCTalent – Escape Rooms",
+  "source": "waldo-be",
+  "published_at": "2025-07-25T07:00:00.000Z",
+  "words": 1154,
+  "summary": "The BCTalent program created Business Central escape rooms where trainees complete consultant or developer tasks within BC to unlock progression. The framework-based app tracks progress via events and telemetry, with potential for future use by ISVs and at industry events.",
+  "key_points": [
+    "Escape rooms are BC apps organized as venues (consultant and developer themed) with sequential rooms unlocked by completing tasks",
+    "System auto-evaluates task completion using event subscriptions and test codeunits to detect user actions like record creation or code changes",
+    "Framework app uses interfaces for each entity type with HTML resource files for instructions and solutions",
+    "Telemetry and Azure Data Explorer dashboards track completion times, hints used, and participant progress",
+    "Future plans include releasing the framework for ISVs to create custom rooms for products, interviews, and training"
+  ],
+  "systems": [
+    "development",
+    "platform",
+    "administration"
+  ],
+  "topics": [
+    "training",
+    "escape rooms",
+    "bctalent",
+    "framework",
+    "event subscription",
+    "telemetry",
+    "interfaces"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "implementation codeunit"
+    }
+  ],
+  "features": [
+    "Escape Room Framework",
+    "Task Auto-Evaluation",
+    "HTML Resource Files",
+    "Event Subscriptions",
+    "Telemetry Tracking",
+    "Azure Data Explorer Dashboards",
+    "Interface-Based Architecture"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "90 minutes in Business Central, where you need to gain access to different rooms by discovering and executing Business Central related tasks.",
+      "why_it_matters": "This describes the core mechanic of using BC itself as both platform and training mechanism."
+    },
+    {
+      "text": "I even see opportunities for you, ISVs, to be able to download the framework app and create your own rooms for your own products.",
+      "why_it_matters": "Indicates the framework's extensibility and future commercial potential beyond Microsoft training."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "item_id": "blog/waldo-be/318335",
+  "url": "https://waldo.be/2025/09/30/troubleshooting-series-ep4-event-recorder/",
+  "title": "Troubleshooting Series – Ep4 – Event Recorder",
+  "source": "waldo-be",
+  "published_at": "2025-09-30T07:14:20.000Z",
+  "words": 622,
+  "summary": "The Event Recorder is a Business Central troubleshooting tool that captures all events during a specific process by starting and stopping recording. It helps developers and troubleshooters identify performance issues, validate functional behavior, debug customizations, understand extension behavior, and document system processes.",
+  "key_points": [
+    "Event Recorder captures events in order of execution with event type classification and can generate AL code snippets to subscribe to events",
+    "Useful for identifying performance problems by revealing excessive event calls, duplicate triggers, or heavy subscribers",
+    "Helps verify functional behavior by showing which validations or functions actually execute during business processes",
+    "Displays events from all extensions including third-party apps, making it valuable for understanding extension interactions and conflicts",
+    "Can support documentation and knowledge sharing by creating reproducible traces of system behavior"
+  ],
+  "systems": [
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "troubleshooting",
+    "event recorder",
+    "performance",
+    "debugging",
+    "extensions",
+    "events",
+    "tools"
+  ],
+  "objects": [],
+  "features": [
+    "Event Recorder",
+    "Events discoverability",
+    "AL code generation",
+    "Event tracing",
+    "Extension monitoring"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

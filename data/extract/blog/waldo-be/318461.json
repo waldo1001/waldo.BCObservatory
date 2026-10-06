@@ -1,0 +1,62 @@
+{
+  "item_id": "blog/waldo-be/318461",
+  "url": "https://waldo.be/2025/12/24/bc-telemetry-buddy-when-your-12-year-old-accidentally-helps-you-find-a-problem/",
+  "title": "BC Telemetry Buddy  – When Your 12-Year-Old Accidentally Helps You Find a Problem",
+  "source": "waldo-be",
+  "published_at": "2025-12-24T07:58:00.000Z",
+  "words": 991,
+  "summary": "BC Telemetry Buddy is an AI-powered tool that lets you ask natural language questions about Business Central telemetry data instead of writing complex KQL queries. It helped uncover a critical performance issue where a background job was wasting 67.7 hours daily through inefficient queries and missing retention policies, diagnosed in 15 minutes and fixed by adding indexes and enabling retention.",
+  "key_points": [
+    "BC Telemetry Buddy uses AI and MCP to make telemetry exploration accessible through conversational questions rather than complex manual KQL analysis",
+    "The tool successfully identified a customer experiencing massive CPU waste from a queue processor doing full table scans on an unindexed table with missing retention policies",
+    "Performance improved dramatically after the fix: query count dropped from 19,946 to 18 over a week, and wasted time went from 67.7 hours to virtually zero",
+    "The tool can document investigations and save conclusions automatically, allowing for follow-up validation of fixes over time"
+  ],
+  "systems": [
+    "platform",
+    "administration",
+    "development"
+  ],
+  "topics": [
+    "telemetry",
+    "performance troubleshooting",
+    "ai",
+    "background jobs",
+    "sql optimization",
+    "diagnostics"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "ISC Process Update Queue Meth"
+    }
+  ],
+  "features": [
+    "Natural language telemetry queries",
+    "Automated performance analysis",
+    "Investigation documentation",
+    "Table indexing recommendations",
+    "Retention policy management",
+    "CPU time analysis"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "I'm creating an AI.",
+      "why_it_matters": "The author humorously describes the BC Telemetry Buddy as an AI tool that abstracts away complex KQL and telemetry knowledge, making it accessible to anyone asking questions in natural language."
+    },
+    {
+      "text": "One question. One answer. Immediate diagnosis with lots of details!",
+      "why_it_matters": "Demonstrates the core value proposition: BC Telemetry Buddy transforms hours of manual investigation into a single conversational query, dramatically reducing time investment for performance diagnostics."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

@@ -7,13 +7,39 @@
   "url": "https://waldo.be/2025/08/29/troubleshooting-series-ep3-missing-indexes/",
   "published_at": "2025-08-29T06:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T23:40:25.190Z",
+      "path": "vault:posts/waldo-be/318212.md",
+      "words": 962
+    },
+    "extracted": {
+      "at": "2026-10-06T23:40:25.243Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-06T23:40:25.244Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T23:40:25.244Z"
+    },
+    "published": {
+      "at": "2026-10-06T23:40:25.252Z",
+      "path": "content/posts/waldo-be/318212.md"
     }
   },
   "input_hash": "2025-08-28T10:22:50.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "4b205b737b1a7e795e37e5fd346f8564b2e55bc4dbc027a0489d2ee196171113"
 }
