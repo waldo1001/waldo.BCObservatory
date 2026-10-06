@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-across-business-areas",
   "published_at": "2026-03-20T10:29:00.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,13 @@
       "blob": "3ff2f43e0c16fa3490c3ef01eac7795ff08a7989",
       "words": 582,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:44:18.863Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003619
     }
   },
   "input_hash": "3ff2f43e0c16fa3490c3ef01eac7795ff08a7989",
@@ -35,5 +42,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "3ff2f43e0c16fa3490c3ef01eac7795ff08a7989"
+  "output_hash": "60e66f76ced4a24f784f29b436773b5e5343ed5ef971a9eccf13b30d528550a9"
 }

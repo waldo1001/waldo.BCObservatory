@@ -1,0 +1,50 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-how-specify-posting-periods.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-specify-posting-periods",
+  "title": "Specify posting periods",
+  "blob": "efd64e2a76d0fba452183fd66be9076cac6dbda6",
+  "summary": "Specify posting periods controls when users can post to the general ledger using fixed dates or date formulas, with user-level overrides and dynamic period calculation based on work date.",
+  "systems": [
+    "finance",
+    "administration"
+  ],
+  "topics": [
+    "posting periods",
+    "general ledger",
+    "date formulas",
+    "user setup",
+    "period control"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "General Ledger Setup"
+    },
+    {
+      "type": "table",
+      "name": "User Setup"
+    },
+    {
+      "type": "table",
+      "name": "General Journal Templates"
+    }
+  ],
+  "features": [
+    "Allow Posting From",
+    "Allow Posting To",
+    "date formulas",
+    "posting period control",
+    "user-level posting periods"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003619,
+      "pages_in_call": 8
+    }
+  ]
+}

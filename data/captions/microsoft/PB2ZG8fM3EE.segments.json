@@ -1,0 +1,223 @@
+{
+  "video_id": "PB2ZG8fM3EE",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 5.6,
+      "end": 26.1,
+      "text": "Hi there, my name is Mike and here's how Copilot can help you reduce the effort of data entry in Business Central. Copilot is your AI companion for work and it can now suggest values for blank fields in all of your cards and document pages so that you don't have to look up related records to see what values you need to set."
+    },
+    {
+      "t": 26.1,
+      "end": 36.8,
+      "text": "um you don't need to look up that record you just created elsewhere and you also don't need to go and search the web for answers that you need to input into those cards and pages. Let's take a look how this works."
+    },
+    {
+      "t": 36.8,
+      "end": 50.2,
+      "text": "So for my first task in Business Central, I'm going to create and register a new customer. We'll pick a local customer and that's pre-filled a few fields. For example, I set the country region to US and it's pretty standard for Business Central."
+    },
+    {
+      "t": 50.2,
+      "end": 65.5,
+      "text": "So let's start by entering the name Adventure Works. And notice how I now have a new icon here that sits neatly inside this input box. And this is how I can ask Copilot to um suggest values for this field,"
+    },
+    {
+      "t": 65.5,
+      "end": 81.4,
+      "text": "but also for related fields inside this group of fields inside inside this fast tab. So as you can see, Copilot has done its work and has come back and is now got this very visually distinct way of communicating to me where it's provided suggestions within this fast tab."
+    },
+    {
+      "t": 81.4,
+      "end": 93.6,
+      "text": "So it's already corrected the name Adventure Works by capitalizing it. And I can actually check right here uh what Copilot has done or why where the suggestion comes from. So here it's simply capitalized for proper formatting."
+    },
+    {
+      "t": 93.6,
+      "end": 108.2,
+      "text": "Fantastic. Let's keep that suggestion. And um notice how uh it actually saved that value only just now as I chose to keep it. And this is a really critical point for you to understand uh when working with copilot here."
+    },
+    {
+      "t": 108.2,
+      "end": 119.4,
+      "text": "So um when Copilot provides suggestions, those suggestions are not automatically saved to Business Central, Copilot gives me those suggestions. So I can choose what to do with them."
+    },
+    {
+      "t": 119.4,
+      "end": 129.9,
+      "text": "If I choose to keep them, they get saved. I can choose to modify them. I can choose to discard them or just ignore them and then they won't get saved. So that's a really important point for you to understand."
+    },
+    {
+      "t": 129.9,
+      "end": 144.9,
+      "text": "Let's check out some of the other suggestions that Copilot came up with here. So we've got a credit limit of 6,000. Where did that come from? I'll use the info icon to find out. So, it turns out that in my company, uh, we typically set the credit limit to 6,000."
+    },
+    {
+      "t": 144.9,
+      "end": 155.1,
+      "text": "It's a frequent choice, as Copilot says over here. I'll also keep this value. That's probably what I was going to input myself. We have a salesperson"
+    },
+    {
+      "t": 155.1,
+      "end": 175.2,
+      "text": "code. I'll choose to keep that one. And we have a responsibility center as well. And this is the most recently used value. But um typically here copilot will also you know intelligently select different values from these lookups where uh it will look at the values and see what is the most appropriate that matches this record"
+    },
+    {
+      "t": 175.2,
+      "end": 187.1,
+      "text": "contextually based on the other fields on that record. So here because this is a US customer uh it would have picked also North America as my responsibility center that's a closest match with this being a US customer."
+    },
+    {
+      "t": 187.1,
+      "end": 199.8,
+      "text": "So, Copilot uses these different mech mechanisms of most recently used, most frequently used values, but also uh intelligent selection from a predefined choice and option fields and in lookups as well."
+    },
+    {
+      "t": 199.8,
+      "end": 212.4,
+      "text": "But those kind of mechanisms don't work so well when you have, you know, public information such as address and contact details for a customer. So, here I've just put Copilot to work using that same button to uh search the web."
+    },
+    {
+      "t": 212.4,
+      "end": 225.1,
+      "text": "It's now searching the web on my behalf uh powered by Bing. And what it's doing here is it's trying to find a matching um customer website for Adventure Works um and fill out these fields for me."
+    },
+    {
+      "t": 225.1,
+      "end": 236.9,
+      "text": "So, here we go. It's found um the Adventure Works website. Yes, that actually looks like the right one. It's gone and found the address in uh Tennessee. It's also found the phone number and email address of that website."
+    },
+    {
+      "t": 236.9,
+      "end": 250.2,
+      "text": "So, it's done all of this for me without me having to go and switch apps and do that browsing myself. And if uh that looks roughly what um I'd expect from the Adventure Works site, I can now choose to actually keep all of these values with one click."
+    },
+    {
+      "t": 250.2,
+      "end": 266.1,
+      "text": "And notice what happens as I do that. Copilot goes through each field um it saves it now um and runs the usual field validation routines which will make sure that this value matches all of my rule set, all of my business rules in Business Central."
+    },
+    {
+      "t": 266.1,
+      "end": 286.1,
+      "text": "Now there's a very important point here which is that um as you choose to keep a value um it may trigger setting values for other fields where copilot already has a suggestion and in that case all of the ALbased logic wins over copilot suggestions shall we say in other words um we will treat uh how"
+    },
+    {
+      "t": 286.1,
+      "end": 297,
+      "text": "business central typically operates in terms of you know setting field values automatically for you as something that overrides any suggestion provided by copilot."
+    },
+    {
+      "t": 297,
+      "end": 308.4,
+      "text": "All right. So, for my next task, I would like to create and register a new fixed asset. Now, this is not something I do every day. So, I'm going to need all the help I can get."
+    },
+    {
+      "t": 308.4,
+      "end": 319.4,
+      "text": "Let's create a new asset. And I'm going to just register a new printer that we've uh purchased, an inkjet printer, LC 105."
+    },
+    {
+      "t": 319.4,
+      "end": 331.8,
+      "text": "And I've misspelled that, but that's that's also just to illustrate a point that Copilot helps with correcting uh your language as well. So I'm going to show you now the keyboarding experience because uh this is a very integral part of u field editing."
+    },
+    {
+      "t": 331.8,
+      "end": 344.7,
+      "text": "Now um so if I use the alt i shortcut, it's going to again ask copilot to help me out fill out um this field but also other fields within this fast tab. And in just a few seconds, it's come up with some suggestions for me to go look at."
+    },
+    {
+      "t": 344.7,
+      "end": 356.9,
+      "text": "So first of all, it's corrected my typo there. chose inkjet printer. Uh it's filled out some other fields, but just to show you that keyboard experience, I can tab through all of these fields and other controls just as I normally would."
+    },
+    {
+      "t": 356.9,
+      "end": 367.8,
+      "text": "Copilot does not get in my way, but I've also got a simple way for me to choose whether I want to keep this value and move to the next. So, by hitting enter, I can accept the value and move to the next field."
+    },
+    {
+      "t": 367.8,
+      "end": 377.8,
+      "text": "If you've used that power user feature called quick entry, it's pretty much the same concept. Enter will accept the value, move to the next quick entry field. So I'm just hitting enter, enter, enter enter."
+    },
+    {
+      "t": 377.8,
+      "end": 394.8,
+      "text": "But sometimes I don't want that value. So here for the location code, I'm not quite sure what the consequences are of selecting prod. So in this case, I'm going to use backspace or delete uh or escape to actually cancel um copilot suggestion and just return to the previous value of the"
+    },
+    {
+      "t": 394.8,
+      "end": 408.2,
+      "text": "field. And if I do want to do a quick change to a field, I can use the F2 key to actually um simply modify the field. And now I can switch that to a different employee like Lena Townsend."
+    },
+    {
+      "t": 408.2,
+      "end": 418.9,
+      "text": "All right, let's try one last one here. So I've got a couple more fields for depre depreciation to set up. Um starting with number of depreciation years. Now I'm not quite sure what this is or what I should set."
+    },
+    {
+      "t": 418.9,
+      "end": 432.7,
+      "text": "So I'm going to ask Copilot to help me out while I enter today's date. And notice how I can interact fully with Business Central as I normally would to enter data, run any actions, navigate around even while Copilot is processing."
+    },
+    {
+      "t": 432.7,
+      "end": 442.8,
+      "text": "it never gets in your way. And let's come back with one suggestion for five. Let's see what five is. So five is okay. Inkjet printers typically have a useful life of around five years."
+    },
+    {
+      "t": 442.8,
+      "end": 460.3,
+      "text": "So this is the last of our mechanisms that we the co-pilot uses to suggest a value. So when it can't find a recently used value, a um a more frequently used value or run a web search or um or intelligently select from some uh from some lookup."
+    },
+    {
+      "t": 460.3,
+      "end": 475.3,
+      "text": "uh it actually uses the power of AI and its foundational training of the model to actually come up with some kind of suggestion here. So here it's come up with five and just to illustrate what happens as I choose to leave the page here without keeping or discarding that value."
+    },
+    {
+      "t": 475.3,
+      "end": 491.4,
+      "text": "Uh business central will remind me hey just so you know uh you still got one suggestion that you haven't reviewed. So this is a great place where I can actually choose to keep or discard. Um, and like I said, only if I choose to keep explicitly will these be saved in Business"
+    },
+    {
+      "t": 491.4,
+      "end": 503.4,
+      "text": "Central. All right, that was a quick tour of how autofill with Copilot works. Uh, and this is going to help you eliminate that tedious data entry uh in all the records that you have to enter into Business Central."
+    },
+    {
+      "t": 503.4,
+      "end": 518.2,
+      "text": "All right, so if you upgrade to update 26 of Business Central, you get to try out this feature yourselves. Um, and you can do that on any environment and on any language as well. Uh but do note that the ability to search the web will be available later during the wave."
+    },
+    {
+      "t": 518.2,
+      "end": 536.3,
+      "text": "Uh finally, Copilot is actually ready to work also with your custom fields and your custom pages as well. Um and if you're a developer watching this, if you're a partner who has some solutions, some extensions, there's no um direct extensibility or code you need to write uh to get your fields to work with Copilot this way."
+    },
+    {
+      "t": 536.3,
+      "end": 547.8,
+      "text": "Um, but check out the link uh down below this video where uh you can read all about how to influence Copilot's output and improve the output of Copilot and its suggestions for your particular fields."
+    },
+    {
+      "t": 547.8,
+      "end": 564.8,
+      "text": "All right, this is when you stop watching this video, you open up Business Central, you get hands-on and you try it out yourself. Um, hey, if you enjoy this video, like and subscribe and uh I wish you a productive day and please give us some feedback uh about how it goes with using Copilot to autofill your fields."
+    },
+    {
+      "t": 564.8,
+      "end": 568,
+      "text": "Thanks for watching."
+    }
+  ],
+  "markers": [
+    {
+      "t": 0,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 1796
+}

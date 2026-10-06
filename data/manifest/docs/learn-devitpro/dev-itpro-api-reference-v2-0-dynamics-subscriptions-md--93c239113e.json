@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-reference/v2.0/dynamics-subscriptions",
   "published_at": "2026-03-23T10:01:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,13 @@
       "blob": "71126d43e5e72d824a7305cec422cbb99d81144a",
       "words": 1183,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:44:18.860Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003619
     }
   },
   "input_hash": "71126d43e5e72d824a7305cec422cbb99d81144a",
@@ -35,5 +42,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "71126d43e5e72d824a7305cec422cbb99d81144a"
+  "output_hash": "f29c40dc112cecf45ae66be8bf9b134b469c9b48fe4af55927014812f2203b9c"
 }

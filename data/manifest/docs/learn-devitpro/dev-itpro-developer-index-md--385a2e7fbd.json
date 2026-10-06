@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/",
   "published_at": "2026-03-23T12:35:13.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "b2621095081bb49b0058085999d507d4a95d3c77",
       "words": 247,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:44:17.104Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003619
+    },
+    "summarized": {
+      "at": "2026-10-06T18:44:18.866Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:44:18.867Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:44:18.868Z",
+      "page": false
     }
   },
   "input_hash": "b2621095081bb49b0058085999d507d4a95d3c77",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b2621095081bb49b0058085999d507d4a95d3c77"
+  "output_hash": "bd7c5af0aac8ab287c9e91db1e022df5e2253b8ab9f3d6c345dedd1ad48dd3b8"
 }

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-filtering",
   "published_at": "2026-03-23T10:01:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,13 @@
       "blob": "4439afc542a077e5eccee6589938a54fc6850899",
       "words": 131,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:44:18.861Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003619
     }
   },
   "input_hash": "4439afc542a077e5eccee6589938a54fc6850899",
@@ -35,5 +42,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "4439afc542a077e5eccee6589938a54fc6850899"
+  "output_hash": "84b0ed2ac13a55f8ab7295b5899c49801c1e96afc9e87d26c4dee97e5ab4b5b7"
 }

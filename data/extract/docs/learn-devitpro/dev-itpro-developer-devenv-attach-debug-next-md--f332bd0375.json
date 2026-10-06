@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-attach-debug-next.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-attach-debug-next",
+  "title": "Attach and debug next",
+  "blob": "535aa3bf02c3c34b9b5d3bfba41951b0c8733723",
+  "summary": "Attach and debug next feature allows developers to attach a debugging session to a running server without publishing first, supporting breakpoints on web clients, web services, background sessions, and agent sessions.",
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "debugging",
+    "attach session",
+    "breakpoint",
+    "visual studio code",
+    "development environment"
+  ],
+  "objects": [],
+  "features": [
+    "attach functionality",
+    "breakOnNext configuration",
+    "sessionId property",
+    "userId property",
+    "snapshot debugging",
+    "RAD publishing"
+  ],
+  "versions": [
+    "2023 release wave 1"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003619,
+      "pages_in_call": 8
+    }
+  ]
+}

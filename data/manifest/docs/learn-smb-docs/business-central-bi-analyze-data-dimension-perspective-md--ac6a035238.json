@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/bi-analyze-data-dimension-perspective",
   "published_at": "2026-03-18T12:24:08.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,13 @@
       "blob": "a77a75adce90e098632ae9d9e276f9d6834d39f6",
       "words": 401,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T18:44:18.865Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.003619
     }
   },
   "input_hash": "a77a75adce90e098632ae9d9e276f9d6834d39f6",
@@ -48,5 +55,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a77a75adce90e098632ae9d9e276f9d6834d39f6"
+  "output_hash": "6161dbd3053bc51a50b771a82235c6480528991556b2f52ff7d069d3c4cb3346"
 }

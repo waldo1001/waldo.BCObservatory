@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/Copyright-and-Trademarks",
   "published_at": "2026-03-20T10:42:49.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,13 @@
       "blob": "a17428ddd521ba73c7f80ad1ab8742d729ac0b0c",
       "words": 203,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:44:18.862Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003619
     }
   },
   "input_hash": "a17428ddd521ba73c7f80ad1ab8742d729ac0b0c",
@@ -35,5 +42,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a17428ddd521ba73c7f80ad1ab8742d729ac0b0c"
+  "output_hash": "d6efd20a0d79dffefc72395c25032f4a920aa92eeea6373dae86e0fa3bd6fdbf"
 }

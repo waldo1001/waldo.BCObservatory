@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/api-reference/v2.0/dynamics-subscriptions.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-reference/v2.0/dynamics-subscriptions",
+  "title": "Working with webhooks",
+  "blob": "71126d43e5e72d824a7305cec422cbb99d81144a",
+  "summary": "Webhooks enable push notifications when entities change in Business Central, allowing subscriptions to be registered, renewed, and managed via REST API with support for created, updated, deleted, and collection change types.",
+  "systems": [
+    "integration",
+    "platform"
+  ],
+  "topics": [
+    "webhooks",
+    "push notifications",
+    "api",
+    "subscriptions",
+    "integration"
+  ],
+  "objects": [],
+  "features": [
+    "webhook subscriptions",
+    "handshake validation",
+    "client state",
+    "change types",
+    "notification retries",
+    "custom APIs",
+    "subscription expiration"
+  ],
+  "versions": [
+    "version 19"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003619,
+      "pages_in_call": 8
+    }
+  ]
+}
