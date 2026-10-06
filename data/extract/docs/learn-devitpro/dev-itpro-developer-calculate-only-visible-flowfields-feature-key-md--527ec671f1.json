@@ -1,0 +1,37 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/calculate-only-visible-flowfields-feature-key.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/calculate-only-visible-flowfields-feature-key",
+  "title": "Calculate only visible FlowFields feature key",
+  "blob": "a5c4e88df0d0f4a61e529f21a1d7bba776299b6a",
+  "summary": "The Calculate only visible FlowFields feature key enables the AL runtime to calculate FlowField values only for fields that are visible on pages, improving performance by avoiding unnecessary computations.",
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "flowfields",
+    "performance",
+    "feature management",
+    "al development"
+  ],
+  "objects": [],
+  "features": [
+    "Calculate only visible FlowFields",
+    "FlowField calculation",
+    "visibility-based optimization",
+    "performance improvement"
+  ],
+  "versions": [
+    "2025 release wave 1"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005214,
+      "pages_in_call": 8
+    }
+  ]
+}

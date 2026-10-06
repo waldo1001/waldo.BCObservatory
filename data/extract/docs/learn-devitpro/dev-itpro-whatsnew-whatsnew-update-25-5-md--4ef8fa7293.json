@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-25-5.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-25-5",
+  "title": "Update 25.5 for Microsoft Dynamics 365 Business Central 2024 release wave 2",
+  "blob": "2c994b102a533c2067debbe95f4c2f8092acb628",
+  "summary": "Update 25.5 for 2024 release wave 2 contains hotfixes with no new features or localization updates, and maintains the platform 25.2 installation path.",
+  "systems": [
+    "platform"
+  ],
+  "topics": [
+    "update 25.5",
+    "hotfixes",
+    "2024 release wave 2"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Invoice Post. Buffer"
+    }
+  ],
+  "features": [
+    "Extending G/L Entry Aggregations When Posting Invoices",
+    "Exchange rate adjustments"
+  ],
+  "versions": [
+    "2024 release wave 2",
+    "25.5"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003556,
+      "pages_in_call": 8
+    }
+  ]
+}

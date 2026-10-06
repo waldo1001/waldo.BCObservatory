@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/Web-Services-Best-Practices",
   "published_at": "2025-05-06T19:26:38.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "61ba317c8d4de1c0b68d6e20a4ab8f4ff7547068",
       "words": 255,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:37:45.263Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.003556
+    },
+    "summarized": {
+      "at": "2026-10-06T19:37:45.275Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:37:45.277Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:37:45.278Z",
+      "page": false
     }
   },
   "input_hash": "61ba317c8d4de1c0b68d6e20a4ab8f4ff7547068",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "61ba317c8d4de1c0b68d6e20a4ab8f4ff7547068"
+  "output_hash": "d317d808b7d2ff35bda5359719a2079da5c9fa0b626f0228ebfc198260233423"
 }

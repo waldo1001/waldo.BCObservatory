@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-create-role-center-headline.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-create-role-center-headline",
+  "title": "Create a Role Center headline",
+  "blob": "2445106c5c90b035ee55354c09b5788b2d6aa918",
+  "summary": "Creating Role Center headlines involves designing HeadlinePart pages with fields that display rotating text headlines using Expression property syntax with tags for title, payload, and emphasis.",
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "role centers",
+    "headlines",
+    "page type",
+    "user interface",
+    "al development"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "RoleCenterHeadline"
+    }
+  ],
+  "features": [
+    "HeadlinePart page type",
+    "Expression property",
+    "interactive headlines",
+    "headline visibility",
+    "drill-down functionality",
+    "dynamic visibility"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005214,
+      "pages_in_call": 8
+    }
+  ]
+}

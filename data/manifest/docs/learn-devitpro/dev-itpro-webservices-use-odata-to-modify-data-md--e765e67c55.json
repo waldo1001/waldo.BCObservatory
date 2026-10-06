@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/use-odata-to-modify-data",
   "published_at": "2025-05-06T19:26:38.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "827018ba223a17b4fecd1e7e074f9279b2e9d120",
       "words": 421,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:37:45.260Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.003556
+    },
+    "summarized": {
+      "at": "2026-10-06T19:37:45.267Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:37:45.268Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:37:45.269Z",
+      "page": false
     }
   },
   "input_hash": "827018ba223a17b4fecd1e7e074f9279b2e9d120",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "827018ba223a17b4fecd1e7e074f9279b2e9d120"
+  "output_hash": "41b0c25b39357282e592a2b04f2b966891f51f05a9d67eef859f2c2972138968"
 }

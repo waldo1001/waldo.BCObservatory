@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/calculate-only-visible-flowfields-feature-key",
   "published_at": "2025-05-06T19:26:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "a5c4e88df0d0f4a61e529f21a1d7bba776299b6a",
       "words": 84,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:37:48.450Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005214
+    },
+    "summarized": {
+      "at": "2026-10-06T19:37:50.194Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:37:50.195Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:37:50.196Z",
+      "page": false
     }
   },
   "input_hash": "a5c4e88df0d0f4a61e529f21a1d7bba776299b6a",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a5c4e88df0d0f4a61e529f21a1d7bba776299b6a"
+  "output_hash": "f4d685cd8125047c7200c328e5b4a5fe252564dda6c83e7f9fce81d681d2792e"
 }

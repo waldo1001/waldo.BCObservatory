@@ -1,0 +1,55 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-cues-action-tiles.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-cues-action-tiles",
+  "title": "Creating and Customizing Cues",
+  "blob": "a16f57c8987671bdd843871f67b2821d439a36c5",
+  "summary": "Creating Cues and Action tiles on Role Centers involves designing Cue tables with FlowField or Normal fields, creating CardPart pages with cuegroup controls, and adding action tiles for operations.",
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "cues",
+    "action tiles",
+    "role centers",
+    "page layout",
+    "al development"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "SalesInvoiceCueTable"
+    },
+    {
+      "type": "page",
+      "name": "SalesInvoiceCuePage"
+    },
+    {
+      "type": "page",
+      "name": "Sales Header"
+    },
+    {
+      "type": "page",
+      "name": "Sales Invoice"
+    }
+  ],
+  "features": [
+    "Cue design",
+    "cuegroup control",
+    "wide layout",
+    "Action tiles",
+    "FlowField",
+    "normal fields",
+    "drill-down"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005214,
+      "pages_in_call": 8
+    }
+  ]
+}

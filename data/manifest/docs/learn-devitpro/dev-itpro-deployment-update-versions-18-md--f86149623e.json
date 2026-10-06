@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/update-versions-18",
   "published_at": "2025-05-06T19:26:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "fda22a3b28fb4d437eca407b283e43ed80fce06b",
       "words": 502,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:37:45.266Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003556
+    },
+    "summarized": {
+      "at": "2026-10-06T19:37:45.287Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:37:45.287Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:37:45.288Z",
+      "page": false
     }
   },
   "input_hash": "fda22a3b28fb4d437eca407b283e43ed80fce06b",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "fda22a3b28fb4d437eca407b283e43ed80fce06b"
+  "output_hash": "4d67e94747ba29aa6e5e6d32ee687407ff4cbd59142e201531671af931dd5ce2"
 }

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/use-systemservice-to-find-companies",
   "published_at": "2025-05-06T19:26:38.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "d9ef0cc95013d6561138a1cb559af377d1527018",
       "words": 294,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:37:45.262Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003556
+    },
+    "summarized": {
+      "at": "2026-10-06T19:37:45.273Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:37:45.273Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:37:45.274Z",
+      "page": false
     }
   },
   "input_hash": "d9ef0cc95013d6561138a1cb559af377d1527018",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d9ef0cc95013d6561138a1cb559af377d1527018"
+  "output_hash": "b64e3626bced8405ace3ebe4fc2fbf36d048c26be83606c38250b5fe26a0997e"
 }

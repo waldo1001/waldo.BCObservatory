@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-cues-action-tiles",
   "published_at": "2025-05-06T19:26:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "a16f57c8987671bdd843871f67b2821d439a36c5",
       "words": 1817,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:37:50.192Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 4,
+      "cost_usd": 0.005214
+    },
+    "summarized": {
+      "at": "2026-10-06T19:37:50.213Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:37:50.214Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:37:50.215Z",
+      "page": false
     }
   },
   "input_hash": "a16f57c8987671bdd843871f67b2821d439a36c5",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a16f57c8987671bdd843871f67b2821d439a36c5"
+  "output_hash": "906054c2d3679e446e24c565a84a06254db8a10c4474ce5940b4db3f7ae44def"
 }

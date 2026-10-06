@@ -1,0 +1,37 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/webservices/use-odata-with-queries-set-with-top-number-of-rows.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/use-odata-with-queries-set-with-top-number-of-rows",
+  "title": "Using OData with Queries That are Set with a Top Number of Rows",
+  "blob": "3f30991ab95df3c3dc79fc4ae2ad69bd82c13e0b",
+  "summary": "When using OData queries with TopNumberOfRows properties, the Max Page Size setting must be configured greater than the TopNumberOfRows value to ensure correct result counts.",
+  "systems": [
+    "integration"
+  ],
+  "topics": [
+    "odata",
+    "queries",
+    "pagination",
+    "max page size",
+    "topnumberofrows"
+  ],
+  "objects": [],
+  "features": [
+    "TopNumberOfRows property",
+    "TopNumberOfRows method",
+    "Max Page Size setting",
+    "odata.maxpagesize",
+    "nextlink",
+    "server-driven paging"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003556,
+      "pages_in_call": 8
+    }
+  ]
+}

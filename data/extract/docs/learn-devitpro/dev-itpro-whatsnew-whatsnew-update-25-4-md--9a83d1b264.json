@@ -1,0 +1,50 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-25-4.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-25-4",
+  "title": "Update 25.4 for Microsoft Dynamics 365 Business Central 2024 release wave 2",
+  "blob": "fb7604ad3f3432303f5aed3ac6516bbc40d84027",
+  "summary": "Update 25.4 for 2024 release wave 2 extends Copilot Chat public preview to all countries and regions, adds package resources in extensions with AL access, and includes Czech VAT Statement updates.",
+  "systems": [
+    "copilot",
+    "localization",
+    "development"
+  ],
+  "topics": [
+    "update 25.4",
+    "copilot chat",
+    "package resources",
+    "vat statement",
+    "czech republic"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "VAT Attribute Codes"
+    },
+    {
+      "type": "table",
+      "name": "Invoice Post. Buffer"
+    }
+  ],
+  "features": [
+    "Chat with Copilot",
+    "Package resources in extensions",
+    "VAT Statement for Czech Republic",
+    "Exchange rate adjustments",
+    "G/L Entry Aggregations posting"
+  ],
+  "versions": [
+    "2024 release wave 2",
+    "25.4"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003556,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/webservices/use-systemservice-to-find-companies.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/use-systemservice-to-find-companies",
+  "title": "Use SystemService to Find Companies",
+  "blob": "d9ef0cc95013d6561138a1cb559af377d1527018",
+  "summary": "The SystemService SOAP web service retrieves a list of available companies in a Business Central database, supporting applications that need to identify company names before accessing web services.",
+  "systems": [
+    "integration",
+    "development"
+  ],
+  "topics": [
+    "soap",
+    "web services",
+    "companies",
+    "systemservice",
+    "uri"
+  ],
+  "objects": [],
+  "features": [
+    "SystemService service",
+    "Companies method",
+    "SOAP web services",
+    "company name retrieval"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003556,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-arrange-fields-in-rows-and-columns-using-fixedlayout-control.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-arrange-fields-in-rows-and-columns-using-fixedlayout-control",
+  "title": "Arranging Fields in Rows and Columns Using a fixed Control",
+  "blob": "cc079ef49c9424d1f29b79f8f98db45e1a62a1a7",
+  "summary": "Arranging fields in rows and columns using the fixed control enables matrix-like page layouts for displaying statistical data, with group controls defining separate rows and columns.",
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "page layout",
+    "fields",
+    "fixed control",
+    "matrix format",
+    "al development"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Customer Statistics"
+    },
+    {
+      "type": "page",
+      "name": "Item Journal"
+    },
+    {
+      "type": "page",
+      "name": "Fixed Control Example"
+    }
+  ],
+  "features": [
+    "fixed control",
+    "matrix layout",
+    "field grouping",
+    "column headers",
+    "row arrangement",
+    "statistical display"
+  ],
+  "versions": [
+    "2023 release wave 1"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005214,
+      "pages_in_call": 8
+    }
+  ]
+}

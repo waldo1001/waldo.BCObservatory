@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-arrange-fields-in-rows-and-columns-using-fixedlayout-control",
   "published_at": "2025-05-06T19:26:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "cc079ef49c9424d1f29b79f8f98db45e1a62a1a7",
       "words": 730,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:37:50.188Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.005214
+    },
+    "summarized": {
+      "at": "2026-10-06T19:37:50.200Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:37:50.201Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:37:50.201Z",
+      "page": false
     }
   },
   "input_hash": "cc079ef49c9424d1f29b79f8f98db45e1a62a1a7",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "cc079ef49c9424d1f29b79f8f98db45e1a62a1a7"
+  "output_hash": "9cfcae4d95e5fac0377a75c1726aa5054794acf09a0639e993c182c2692019fe"
 }

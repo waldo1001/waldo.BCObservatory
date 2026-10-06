@@ -1,0 +1,45 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/webservices/use-odata-to-modify-data.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/use-odata-to-modify-data",
+  "title": "OData Web Services Data Modification",
+  "blob": "827018ba223a17b4fecd1e7e074f9279b2e9d120",
+  "summary": "OData web services enable writing to the Business Central database through POST, PATCH, and DELETE operations on writable pages, with triggers running based on the operation type and user permissions enforced.",
+  "systems": [
+    "integration",
+    "development"
+  ],
+  "topics": [
+    "odata",
+    "web services",
+    "data modification",
+    "post patch delete",
+    "page permissions"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Customer"
+    }
+  ],
+  "features": [
+    "OData POST operations",
+    "OData PATCH operations",
+    "OData DELETE operations",
+    "InsertAllowed property",
+    "ModifyAllowed property",
+    "DeleteAllowed property",
+    "If-Match header requirement",
+    "company-specific URIs"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003556,
+      "pages_in_call": 8
+    }
+  ]
+}

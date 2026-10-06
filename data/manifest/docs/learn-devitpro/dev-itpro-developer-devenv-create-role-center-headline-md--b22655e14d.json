@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-create-role-center-headline",
   "published_at": "2025-05-06T19:26:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "2445106c5c90b035ee55354c09b5788b2d6aa918",
       "words": 1083,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:37:50.191Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.005214
+    },
+    "summarized": {
+      "at": "2026-10-06T19:37:50.210Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:37:50.211Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:37:50.212Z",
+      "page": false
     }
   },
   "input_hash": "2445106c5c90b035ee55354c09b5788b2d6aa918",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "2445106c5c90b035ee55354c09b5788b2d6aa918"
+  "output_hash": "b3bac2c44ab697da657ef0dd3dedaa9e73e20c75789801c477fd926229bd4fb3"
 }

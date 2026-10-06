@@ -1,0 +1,46 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/webservices/Web-Services-Best-Practices.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/Web-Services-Best-Practices",
+  "title": "Web services best practices",
+  "blob": "61ba317c8d4de1c0b68d6e20a4ab8f4ff7547068",
+  "summary": "Web services best practices recommend using HTTPS security, singular entity names, Pascal casing for service names, and avoiding spaces to ensure performance, clarity, and proper proxy class generation.",
+  "systems": [
+    "integration",
+    "development"
+  ],
+  "topics": [
+    "web services",
+    "best practices",
+    "performance",
+    "security",
+    "naming conventions"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Customer Card"
+    },
+    {
+      "type": "page",
+      "name": "Sales Order"
+    }
+  ],
+  "features": [
+    "HTTPS protocol",
+    "singular entity names",
+    "Pascal casing",
+    "service naming",
+    "URI security"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003556,
+      "pages_in_call": 8
+    }
+  ]
+}

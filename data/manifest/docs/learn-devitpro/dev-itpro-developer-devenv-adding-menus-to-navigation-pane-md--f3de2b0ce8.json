@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-adding-menus-to-navigation-pane",
   "published_at": "2025-05-06T19:26:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "22c59ea74eaf92e5a5279c47cf7251ef76c59186",
       "words": 737,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:37:50.187Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 8,
+      "cost_usd": 0.005214
+    },
+    "summarized": {
+      "at": "2026-10-06T19:37:50.197Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:37:50.198Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:37:50.199Z",
+      "page": false
     }
   },
   "input_hash": "22c59ea74eaf92e5a5279c47cf7251ef76c59186",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "22c59ea74eaf92e5a5279c47cf7251ef76c59186"
+  "output_hash": "de41dec4185e28e17d0223b263e5d7ec55bdd1b8f63e710e3d4d3291ef047f09"
 }
