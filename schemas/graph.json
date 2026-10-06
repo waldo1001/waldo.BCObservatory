@@ -12,13 +12,13 @@
     "nodes": {
       "type": "array",
       "items": {
-        "type": "object", "required": ["id", "type", "label", "tier", "group", "weight", "url"],
+        "type": "object", "required": ["id", "type", "label", "tier", "group", "weight"],
         "properties": {
           "id": { "type": "string" },
           "type": { "enum": ["topic", "feature", "object", "localization", "source", "video", "post", "guideline", "version", "author"] },
           "label": { "type": "string" }, "tier": { "enum": ["official", "community", "mixed"] },
           "group": { "type": "string", "description": "galaxy system id" }, "weight": { "type": "number" },
-          "url": { "type": "string" }, "x": { "type": "number" }, "y": { "type": "number" },
+          "url": { "type": "string", "description": "absent in the summary when it is the page path of the id: <type>s/<rest>/" }, "x": { "type": "number" }, "y": { "type": "number" },
           "lit_at": { "type": ["string", "null"], "description": "last content date; drives the newly-lit effect" }
         }
       }

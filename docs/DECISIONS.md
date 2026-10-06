@@ -180,3 +180,11 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   and the radar (obsolete elements by tag; CLEAN-guarded elements whose cleanup version has arrived). The nightly
   re-renders the current and previous week; `/rss.xml` lists the last 52; `frontmatter.digest`. Derived code files
   carry DERIVED_VERSION in their inputs so a format change rewrites them. No LLM: a Sonnet intro can come later.
+- **D37 The galaxy: graph from page links, deterministic force layout, canvas on the home page.**
+  `pipeline/link/graph.ts` builds nodes and typed edges from every page's `links` (topic relates, feature/video
+  demonstrates, object documents topic, object/localization localizes, extension extends base, source authored) and
+  groups objects by namespace into galaxy systems. Summary = topics, features, localizations, sources and the 300 most
+  connected objects (523 KB; `url` omitted when it is the page path of the id); videos and posts live in
+  `full.jsonl` and the one-hop `ego/<id>.json` files. Layout: d3-force from hash-seeded starts around each system on
+  a ring, fixed ticks; links across systems barely pull and system radii are capped so systems never overlap. The
+  home page draws it on a canvas (pan, zoom, hover, click-through) until the Claude Design pass restyles it.

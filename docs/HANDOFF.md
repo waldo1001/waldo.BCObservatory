@@ -95,6 +95,8 @@ Deliberate deviations from PLAN, all small:
   BE/NL narratives wired (D31); they appear once 80% of their Learn LocalFunctionality pages are extracted (the
   unlimited run is working through the docs backlog). Next: deprecation radar in the weekly digest (M4), object family
   narratives, Learn reference pages (methods, diagnostics) as object hubs.
+- M3 graph + galaxy home page done (D37); next in M3: author footprints, coverage heatmap, design brief, Claude
+  Design pass (owner), Astro UI.
 - M4 weekly digest + RSS done (D36).
 - M4 MCP server + plugin done (D35), not yet on npm (owner gate 7: npm Trusted Publishing for `bc-observatory`).
 - M3 blogs pillar done (D34): 601 discovered posts flow through fetched (vault) → extracted (Haiku) → published.

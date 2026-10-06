@@ -47,6 +47,7 @@ import { renderVideoIndex, rerenderVideoPages } from "../render/video.js";
 import { renderPostIndex } from "../render/post.js";
 import { renderSearchIndex } from "../render/search.js";
 import { renderDigests } from "../render/digest.js";
+import { renderGraph } from "../link/graph.js";
 import { renderTopics } from "../render/topic.js";
 import { renderFeatureIndex, rerenderFeaturePages } from "../render/feature.js";
 import { linkRoadmap, type LinkRun } from "../link/roadmap.js";
@@ -247,6 +248,7 @@ async function run(opts: NightlyOptions, deps: NightlyDeps): Promise<RunReport> 
       renderDigests({ items: manifest.list(), dataDir: opts.dataDir, contentDir: contentDirOf(opts), currentMajor: order[0] }, now);
     } catch (e) { errors.push(`digest: ${(e as Error).message.slice(0, 200)}`); }
     try { renderSearchIndex(contentDirOf(opts), opts.dataDir); } catch (e) { errors.push(`search index: ${(e as Error).message.slice(0, 200)}`); }
+    try { renderGraph(contentDirOf(opts), opts.dataDir, ""); } catch (e) { errors.push(`graph: ${(e as Error).message.slice(0, 200)}`); }
     errors.push(...execution.errors);
     report.plan = {
       quotas, work: plan.work.length, executed: execution.items_touched, skips: plan.skips.length, quota_use: plan.quota_use,
