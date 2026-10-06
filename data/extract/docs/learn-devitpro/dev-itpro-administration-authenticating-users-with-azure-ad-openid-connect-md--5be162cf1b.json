@@ -1,0 +1,63 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/authenticating-users-with-azure-ad-openid-connect.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/authenticating-users-with-azure-ad-openid-connect",
+  "title": "Configure Microsoft Entra authentication with OpenID Connect",
+  "blob": "725f6bf617401791abe8fc6cc2a1e2673a192a13",
+  "summary": "Configure Business Central to use Microsoft Entra ID for authentication with OpenID Connect protocol. Use this to set up user authentication through Microsoft Entra ID tenants and applications.",
+  "systems": [
+    "administration",
+    "integration"
+  ],
+  "topics": [
+    "authentication",
+    "microsoft entra id",
+    "openid connect",
+    "security certificates",
+    "user management"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Set-NAVServerConfiguration cmdlet"
+    },
+    {
+      "type": "other",
+      "name": "Set-NAVWebServerInstanceConfiguration cmdlet"
+    },
+    {
+      "type": "other",
+      "name": "Mount-NAVTenant cmdlet"
+    },
+    {
+      "type": "other",
+      "name": "Set-NAVServerUser cmdlet"
+    }
+  ],
+  "features": [
+    "OpenID Connect authentication",
+    "Microsoft Entra tenant configuration",
+    "security certificates",
+    "single sign-on",
+    "multitenant deployment",
+    "OData web services",
+    "Excel add-in support",
+    "web service access keys",
+    "OAuth authentication"
+  ],
+  "versions": [
+    "version 20",
+    "version 21",
+    "version 22",
+    "2022 release wave 1"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.009306,
+      "pages_in_call": 5
+    }
+  ]
+}

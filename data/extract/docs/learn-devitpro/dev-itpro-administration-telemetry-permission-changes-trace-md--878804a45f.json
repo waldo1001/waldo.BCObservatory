@@ -1,0 +1,45 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-permission-changes-trace.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-permission-changes-trace",
+  "title": "Analyzing Permission Changes Trace Telemetry",
+  "blob": "37b9999ff63fdc5301449de0573ec8a5edbfeb27",
+  "summary": "Permission changes telemetry tracks user-defined permission set creation, deletion, assignment, and modifications by extensions for security and compliance auditing.",
+  "systems": [
+    "administration",
+    "reporting"
+  ],
+  "topics": [
+    "telemetry",
+    "permissions",
+    "security",
+    "auditing",
+    "user groups",
+    "kql"
+  ],
+  "objects": [],
+  "features": [
+    "user-defined permission set added",
+    "user-defined permission set removed",
+    "permission set link added",
+    "permission set link removed",
+    "permission set assigned to user",
+    "permission set removed from user",
+    "permission set assigned to user group",
+    "permission set removed from user group",
+    "permission set changed by extension"
+  ],
+  "versions": [
+    "2020 release wave 2",
+    "version 17.2"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007288,
+      "pages_in_call": 7
+    }
+  ]
+}

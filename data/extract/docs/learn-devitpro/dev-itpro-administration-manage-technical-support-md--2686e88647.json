@@ -1,0 +1,48 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/manage-technical-support.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/manage-technical-support",
+  "title": "Managing technical support",
+  "blob": "561fb5e1ed295f8f3a0b0ccb38b019b26bd50c50",
+  "summary": "Describes tools and processes for managing technical support including troubleshooting, tenant administration, and escalation procedures. Use this for support management workflows and troubleshooting resources.",
+  "systems": [
+    "administration"
+  ],
+  "topics": [
+    "technical support",
+    "troubleshooting",
+    "tenant administration",
+    "delegated admin",
+    "telemetry"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Help and Support"
+    },
+    {
+      "type": "page",
+      "name": "Database Locks"
+    }
+  ],
+  "features": [
+    "Help and Support page",
+    "telemetry analysis",
+    "sandbox environments",
+    "Application Insights",
+    "event recording",
+    "page inspection",
+    "database locks monitoring",
+    "error tracking"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.009306,
+      "pages_in_call": 5
+    }
+  ]
+}

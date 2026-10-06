@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/manage-technical-support",
   "published_at": "2025-10-02T13:38:52.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "561fb5e1ed295f8f3a0b0ccb38b019b26bd50c50",
       "words": 2048,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:02:53.472Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.009306
+    },
+    "summarized": {
+      "at": "2026-10-06T19:03:05.072Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:03:05.073Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:03:05.074Z",
+      "page": false
     }
   },
   "input_hash": "561fb5e1ed295f8f3a0b0ccb38b019b26bd50c50",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "561fb5e1ed295f8f3a0b0ccb38b019b26bd50c50"
+  "output_hash": "eb51f40feed68e21670fa02cc1c29f446885d05e20f22a11b6098d8fe2eb57d4"
 }

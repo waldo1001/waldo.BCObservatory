@@ -1,0 +1,48 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/configuring-excel-addin.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/configuring-excel-addin",
+  "title": "Setting up the Excel Add-In for Editing Data",
+  "blob": "d01722eee649f6b1452ec364ee8bf5f312e70bf1",
+  "summary": "Configure the Business Central Excel add-in for on-premises deployments to allow users to edit data in Excel. Use this to set up the add-in infrastructure including Azure registration and server configuration.",
+  "systems": [
+    "administration",
+    "integration"
+  ],
+  "topics": [
+    "excel add-in",
+    "microsoft entra id",
+    "odata services",
+    "openid connect",
+    "configuration"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Set-NAVServerConfiguration cmdlet"
+    }
+  ],
+  "features": [
+    "Excel add-in",
+    "Microsoft Entra authentication",
+    "Web API exposure",
+    "OData services",
+    "SSL/HTTPS",
+    "delegated permissions",
+    "implicit grant flow",
+    "token configuration"
+  ],
+  "versions": [
+    "2022 release wave 1",
+    "2021 release wave 2"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.009306,
+      "pages_in_call": 5
+    }
+  ]
+}

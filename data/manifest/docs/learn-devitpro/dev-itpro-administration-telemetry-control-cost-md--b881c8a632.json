@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-control-cost",
   "published_at": "2025-10-02T13:47:34.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "16077e330f84ff0f3ea7bf8d72a2f6e6afdfceaa",
       "words": 852,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:02:53.466Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.011886
+    },
+    "summarized": {
+      "at": "2026-10-06T19:03:03.300Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:03:03.300Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:03:03.301Z",
+      "page": false
     }
   },
   "input_hash": "16077e330f84ff0f3ea7bf8d72a2f6e6afdfceaa",
@@ -42,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "16077e330f84ff0f3ea7bf8d72a2f6e6afdfceaa"
+  "output_hash": "0c0bac0332ad46c53f6f51a4a13cd5e2bad65a40181226cc727c90f91fe9a8f0"
 }

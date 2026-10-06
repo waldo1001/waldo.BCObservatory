@@ -1,0 +1,115 @@
+{
+  "video_id": "xh63GaWwZqA",
+  "item_id": "video/yt-microsoft/xh63GaWwZqA",
+  "title": "Adjust Cost Allocations Before Posting",
+  "duration_s": 83,
+  "systems": [
+    "finance"
+  ],
+  "topics": [
+    "allocation accounts",
+    "general journals",
+    "cost allocation",
+    "posting",
+    "expense splitting"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to allocation accounts",
+      "t_start": 0,
+      "t_end": 20.7
+    },
+    {
+      "title": "Creating an expense in general journals",
+      "t_start": 20.7,
+      "t_end": 39.8
+    },
+    {
+      "title": "Generating lines from allocation account",
+      "t_start": 39.8,
+      "t_end": 60.3
+    },
+    {
+      "title": "Making adjustments before posting",
+      "t_start": 60.3,
+      "t_end": 83
+    }
+  ],
+  "features": [
+    {
+      "name": "Generate lines from allocation account",
+      "description": "Function in general journals that splits amounts according to allocation account definitions, allowing adjustments before posting.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 39.8,
+      "t_end": 60.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "allocation accounts",
+        "general journals",
+        "splitting",
+        "adjustments"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Allocation accounts with equal split",
+      "description": "Allocation account feature that splits expenses into multiple G/L accounts with equal shares based on the account definition.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 0.4,
+      "t_end": 60.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "allocation accounts",
+        "equal distribution",
+        "g/l accounts"
+      ],
+      "system": "finance"
+    }
+  ],
+  "objects": [],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 0.4,
+      "text": "when you work with allocation accounts the split happens when the expense is posted according to the definition",
+      "why_it_matters": "Explains the default behavior of allocation accounts and when splits occur",
+      "check": "exact"
+    },
+    {
+      "t": 39.8,
+      "text": "I can choose actions functions generate lines from a location account line this will now split up",
+      "why_it_matters": "Demonstrates the key function that enables adjustment of allocated amounts before posting",
+      "check": "exact"
+    },
+    {
+      "t": 60.3,
+      "text": "this function is a great way to intercept or make adjustments before posting with allocation accounts",
+      "why_it_matters": "States the primary benefit and use case of the generate lines function",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 3,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 2
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007773
+    }
+  ]
+}

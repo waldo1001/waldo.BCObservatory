@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-company-lifecycle-trace",
   "published_at": "2025-10-02T13:38:52.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "c7611dd6b358e313298bb2f27b9651bdab0f30ae",
       "words": 2117,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:03:03.290Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.007288
+    },
+    "summarized": {
+      "at": "2026-10-06T19:03:05.082Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:03:05.083Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:03:05.084Z",
+      "page": false
     }
   },
   "input_hash": "c7611dd6b358e313298bb2f27b9651bdab0f30ae",
@@ -42,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c7611dd6b358e313298bb2f27b9651bdab0f30ae"
+  "output_hash": "4e3280f91b881942acb43493abd0cfe814af1c6be81ef4fcb6384021b4432922"
 }

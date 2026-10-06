@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-changelog-configuration-trace",
   "published_at": "2025-10-02T13:38:52.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "b143f85a58dc7597fef60d7110c15459034581a4",
       "words": 579,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:03:03.289Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.007288
+    },
+    "summarized": {
+      "at": "2026-10-06T19:03:05.079Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:03:05.080Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:03:05.081Z",
+      "page": false
     }
   },
   "input_hash": "b143f85a58dc7597fef60d7110c15459034581a4",
@@ -44,5 +63,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b143f85a58dc7597fef60d7110c15459034581a4"
+  "output_hash": "20c12f2ac000c3cb6fc4e6f72eb1dd4bb48b3eebcc7988ef1e18498632fd5ed6"
 }

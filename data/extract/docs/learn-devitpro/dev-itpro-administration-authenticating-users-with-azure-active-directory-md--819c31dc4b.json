@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/authenticating-users-with-azure-active-directory.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/authenticating-users-with-azure-active-directory",
+  "title": "User Authentication with Microsoft Entra ID for Single Sign-on",
+  "blob": "d7f29cff88b53cf4ffead1c7d9163fc3bc4f5297",
+  "summary": "Configuring Microsoft Entra authentication with WS-Federation for Business Central on-premises involves creating a Microsoft Entra tenant, registering an application, associating users, configuring the server instance, and setting up web clients and tenants (applies to version 21 and earlier; replaced by OpenID Connect in version 22+).",
+  "systems": [
+    "administration",
+    "integration"
+  ],
+  "topics": [
+    "microsoft entra id",
+    "authentication",
+    "ws-federation",
+    "single sign-on",
+    "user management",
+    "security"
+  ],
+  "objects": [],
+  "features": [
+    "WS-Federation authentication",
+    "Microsoft Entra tenant setup",
+    "application registration",
+    "user association",
+    "server configuration",
+    "web service accounts",
+    "host name resolution"
+  ],
+  "versions": [
+    "2022 release wave 2 (version 21)"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.011886,
+      "pages_in_call": 3
+    }
+  ]
+}

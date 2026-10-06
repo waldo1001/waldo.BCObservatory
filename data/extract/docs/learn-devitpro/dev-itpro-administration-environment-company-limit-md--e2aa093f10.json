@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/environment-company-limit.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/environment-company-limit",
+  "title": "Operational challenges with many companies per environment",
+  "blob": "c417e8328f2aaa0989d73a69e6effbbd1543a8ba",
+  "summary": "Addresses operational challenges when managing many companies within a single Business Central environment. Use this to understand limitations and best practices for organizing companies across environments.",
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "company limit",
+    "environment management",
+    "operational challenges",
+    "database management",
+    "upgrade management"
+  ],
+  "objects": [],
+  "features": [
+    "company limit per environment",
+    "resource management",
+    "data upgrades",
+    "extension deployment",
+    "point-in-time restore",
+    "environment copy operations",
+    "data export/import"
+  ],
+  "versions": [
+    "2023 release wave 1"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.009306,
+      "pages_in_call": 5
+    }
+  ]
+}

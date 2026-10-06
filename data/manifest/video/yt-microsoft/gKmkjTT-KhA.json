@@ -5,12 +5,60 @@
   "tier": "official",
   "title": "The Energized Business Central Community",
   "url": "https://www.youtube.com/watch?v=gKmkjTT-KhA",
-  "published_at": null,
+  "published_at": "2024-11-29T12:12:54.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T19:02:42.043Z",
+      "captions": "auto:en-orig",
+      "duration_s": 81
+    },
+    "captioned": {
+      "at": "2026-10-06T19:02:50.396Z",
+      "path": "data/captions/microsoft/gKmkjTT-KhA.vtt",
+      "vtt_sha256": "6d84a9cc483f8e6bac8863657d7c669ac5adff7850e81620555a8edf2950e4e9",
+      "segments": 4,
+      "words": 226,
+      "lang": "en-orig",
+      "kind": "auto"
+    },
+    "extracted": {
+      "at": "2026-10-06T19:02:58.922Z",
+      "path": "data/extract/video/gKmkjTT-KhA.json",
+      "prompt": "extract-video@1",
+      "windows": 1,
+      "features": 0,
+      "quotes": 6,
+      "quotes_dropped": 0,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.007126
+    },
+    "summarized": {
+      "at": "2026-10-06T19:03:05.195Z",
+      "path": "data/summary/video/gKmkjTT-KhA.json",
+      "prompt": "summarize-video@2",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": 0.0076524
+    },
+    "linked": {
+      "at": "2026-10-06T19:03:05.196Z",
+      "systems": [
+        "crm",
+        "integration",
+        "platform"
+      ],
+      "topics": 6,
+      "objects_as_heard": 0
+    },
+    "published": {
+      "at": "2026-10-06T19:03:05.212Z",
+      "path": "content/videos/gKmkjTT-KhA.md"
     }
   },
   "input_hash": null,
@@ -19,7 +67,14 @@
   "meta": {
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 311,
-    "duration_s": 82,
-    "via": "reconcile"
-  }
+    "duration_s": 81,
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "188db56c84d4e1335d6ba93d51c2254f37ab23f77f03796da8a438db4d79b2c0"
 }

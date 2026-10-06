@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-changelog-configuration-trace.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-changelog-configuration-trace",
+  "title": "Analyzing Changelog Configuration Changes Telemetry",
+  "blob": "b143f85a58dc7597fef60d7110c15459034581a4",
+  "summary": "Changelog configuration telemetry tracks when fields are added, modified, or removed from change logging for audit compliance and data modification monitoring.",
+  "systems": [
+    "administration",
+    "reporting"
+  ],
+  "topics": [
+    "telemetry",
+    "changelog",
+    "auditing",
+    "field tracking",
+    "configuration changes",
+    "kql"
+  ],
+  "objects": [],
+  "features": [
+    "field added to changelog",
+    "field logging changed",
+    "field removed from changelog",
+    "insertion logging",
+    "modification logging",
+    "deletion logging"
+  ],
+  "versions": [
+    "2023 release wave 2",
+    "version 23.0"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007288,
+      "pages_in_call": 7
+    }
+  ]
+}

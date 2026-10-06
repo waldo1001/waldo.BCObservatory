@@ -1,0 +1,24 @@
+{
+  "video_id": "xh63GaWwZqA",
+  "item_id": "video/yt-microsoft/xh63GaWwZqA",
+  "summary": "Allocation accounts in Business Central general journals: how to use Generate lines from allocation account to split an expense by the account definition and adjust the lines before posting. The demo uses an equal split across multiple G/L accounts.",
+  "overview": "This short video (published 2024-12-12) shows how allocation accounts split an expense. Normally the split happens at posting, according to the allocation account definition. The video enters an expense in a general journal, then uses the Generate lines from allocation account function to split the line before posting.",
+  "key_points": [
+    "With allocation accounts, the split normally happens when the expense is posted, according to the account definition.",
+    "In a general journal, choose Actions, Functions, Generate lines from allocation account line to split the amount into separate lines.",
+    "The demo uses an allocation account that splits an expense into equal shares across several G/L accounts.",
+    "Generating the lines first lets you intercept and adjust the split before posting.",
+    "Steps shown: create an expense in general journals, generate lines from the allocation account, then adjust the lines before posting."
+  ],
+  "audience": [
+    "functional consultant",
+    "end user"
+  ],
+  "extraction_hash": "31cf73521b2bba6aeb3ec39b452d2a51e67634e33a3891003053528917522c23",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.008088399999999999
+  }
+}

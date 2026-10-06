@@ -1,0 +1,44 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-company-lifecycle-trace.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-company-lifecycle-trace",
+  "title": "Company lifecycle trace | Microsoft Docs",
+  "blob": "c7611dd6b358e313298bb2f27b9651bdab0f30ae",
+  "summary": "Company lifecycle telemetry captures success or failure data for company creation, copying, and deletion operations with detailed execution metrics.",
+  "systems": [
+    "administration",
+    "reporting"
+  ],
+  "topics": [
+    "telemetry",
+    "company management",
+    "lifecycle events",
+    "diagnostics",
+    "kql"
+  ],
+  "objects": [],
+  "features": [
+    "company created",
+    "company creation canceled",
+    "company creation failed",
+    "company copied",
+    "company copy canceled",
+    "company copy failed",
+    "company deleted",
+    "company deletion canceled",
+    "company deletion failed"
+  ],
+  "versions": [
+    "2020 release wave 1",
+    "version 16.1"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007288,
+      "pages_in_call": 7
+    }
+  ]
+}

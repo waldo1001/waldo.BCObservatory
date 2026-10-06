@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/environment-company-limit",
   "published_at": "2025-10-02T13:38:52.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "c417e8328f2aaa0989d73a69e6effbbd1543a8ba",
       "words": 645,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:02:53.471Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.009306
+    },
+    "summarized": {
+      "at": "2026-10-06T19:03:05.069Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:03:05.070Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:03:05.071Z",
+      "page": false
     }
   },
   "input_hash": "c417e8328f2aaa0989d73a69e6effbbd1543a8ba",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c417e8328f2aaa0989d73a69e6effbbd1543a8ba"
+  "output_hash": "82873809764278e5ab1af7d96adbf5f6824cf0a7c06c7cbbfbca395ef0468059"
 }

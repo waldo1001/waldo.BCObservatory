@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/migration-setup.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-setup",
+  "title": "Run Cloud Migration Setup",
+  "blob": "4c6a15e1a1017e1af4c7e63adb24e9273d39bed2",
+  "summary": "Cloud Migration Setup configures components and connections to migrate data from Business Central on-premises to online, with support for delegated administrators and multiple company migrations.",
+  "systems": [
+    "integration",
+    "administration"
+  ],
+  "topics": [
+    "cloud migration",
+    "data migration",
+    "on-premises to online",
+    "assisted setup",
+    "sql database",
+    "azure data factory"
+  ],
+  "objects": [],
+  "features": [
+    "Cloud Migration Setup",
+    "delegated administrator approval",
+    "table mappings",
+    "permission retention",
+    "multiple company selection",
+    "integration runtime configuration"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007288,
+      "pages_in_call": 7
+    }
+  ]
+}

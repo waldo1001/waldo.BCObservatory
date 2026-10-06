@@ -1,0 +1,46 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/authenticating-users-with-azure-ad-overview.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/authenticating-users-with-azure-ad-overview",
+  "title": "Authenticating Business Central Users with Microsoft Entra ID",
+  "blob": "dc0fbe6e4f8b19afba410f4b291159bdbfef0a51",
+  "summary": "Overview of Microsoft Entra ID authentication options for Business Central including OpenID Connect and WS-Federation protocols. Use this to understand authentication methods and migration paths.",
+  "systems": [
+    "administration",
+    "integration"
+  ],
+  "topics": [
+    "authentication",
+    "microsoft entra id",
+    "openid connect",
+    "ws-federation",
+    "identity management"
+  ],
+  "objects": [],
+  "features": [
+    "OpenID Connect",
+    "WS-Federation protocol",
+    "Excel add-in",
+    "Power BI integration",
+    "Outlook add-in",
+    "service-to-service authentication",
+    "Automation APIs"
+  ],
+  "versions": [
+    "version 19",
+    "version 20",
+    "version 21",
+    "version 22",
+    "2022 release wave 1",
+    "2023 release wave 1"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.009306,
+      "pages_in_call": 5
+    }
+  ]
+}

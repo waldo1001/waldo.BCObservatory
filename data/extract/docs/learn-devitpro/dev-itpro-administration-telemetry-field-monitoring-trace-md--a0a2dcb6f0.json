@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-field-monitoring-trace.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-field-monitoring-trace",
+  "title": "Analyzing Field Monitoring Telemetry",
+  "blob": "d57b2b5d7e9eaaeaf3f4f659aa28686afd2ecade",
+  "summary": "Field monitoring telemetry logs when sensitive field monitoring is started or stopped and when monitored field values change for security and audit purposes.",
+  "systems": [
+    "administration",
+    "reporting"
+  ],
+  "topics": [
+    "telemetry",
+    "field monitoring",
+    "sensitive data",
+    "auditing",
+    "security",
+    "change tracking"
+  ],
+  "objects": [],
+  "features": [
+    "sensitive field monitor status",
+    "sensitive field value change",
+    "field added to monitor",
+    "field removed from monitor"
+  ],
+  "versions": [
+    "version 18.0"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007288,
+      "pages_in_call": 7
+    }
+  ]
+}

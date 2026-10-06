@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/authenticating-users-with-azure-active-directory",
   "published_at": "2025-10-02T13:38:52.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "d7f29cff88b53cf4ffead1c7d9163fc3bc4f5297",
       "words": 4610,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:02:53.467Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.011886
+    },
+    "summarized": {
+      "at": "2026-10-06T19:03:03.301Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:03:03.302Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:03:03.303Z",
+      "page": false
     }
   },
   "input_hash": "d7f29cff88b53cf4ffead1c7d9163fc3bc4f5297",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d7f29cff88b53cf4ffead1c7d9163fc3bc4f5297"
+  "output_hash": "d70a04d50a29ff78ff320a57cae0ae6d4f0e19431521757d67b069864a74eb61"
 }

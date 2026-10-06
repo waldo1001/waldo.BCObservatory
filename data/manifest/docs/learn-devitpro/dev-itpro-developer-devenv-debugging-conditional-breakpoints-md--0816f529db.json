@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-debugging-conditional-breakpoints",
   "published_at": "2025-10-03T07:08:00.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "93203b262ece983931af3afafaba595afc647783",
       "words": 457,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:02:53.464Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.011886
+    },
+    "summarized": {
+      "at": "2026-10-06T19:02:53.473Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:02:53.474Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:02:53.475Z",
+      "page": false
     }
   },
   "input_hash": "93203b262ece983931af3afafaba595afc647783",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "93203b262ece983931af3afafaba595afc647783"
+  "output_hash": "0ae020b3f315fbc2f42e173c79170bee9a2738732858d44e149a79c2a0b25ab1"
 }

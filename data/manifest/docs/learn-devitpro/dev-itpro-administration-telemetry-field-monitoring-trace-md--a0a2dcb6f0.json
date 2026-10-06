@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-field-monitoring-trace",
   "published_at": "2025-10-02T13:38:52.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "d57b2b5d7e9eaaeaf3f4f659aa28686afd2ecade",
       "words": 670,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:03:03.294Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.007288
+    },
+    "summarized": {
+      "at": "2026-10-06T19:03:05.085Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:03:05.085Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:03:05.086Z",
+      "page": false
     }
   },
   "input_hash": "d57b2b5d7e9eaaeaf3f4f659aa28686afd2ecade",
@@ -44,5 +63,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d57b2b5d7e9eaaeaf3f4f659aa28686afd2ecade"
+  "output_hash": "cfb66469447b8b36d25f5a32429b4771c9d4a538080305de677a52a0bd803734"
 }

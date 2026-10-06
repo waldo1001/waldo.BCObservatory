@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/configuring-excel-addin",
   "published_at": "2025-10-02T13:38:52.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "d01722eee649f6b1452ec364ee8bf5f312e70bf1",
       "words": 1646,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:02:53.470Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.009306
+    },
+    "summarized": {
+      "at": "2026-10-06T19:03:03.311Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:03:03.312Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:03:03.313Z",
+      "page": false
     }
   },
   "input_hash": "d01722eee649f6b1452ec364ee8bf5f312e70bf1",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d01722eee649f6b1452ec364ee8bf5f312e70bf1"
+  "output_hash": "1ca6b7e8d30204496d392a7a52d02d9599b7006514e56034e36b96abe2e9480a"
 }
