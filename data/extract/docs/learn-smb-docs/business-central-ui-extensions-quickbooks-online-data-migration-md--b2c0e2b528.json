@@ -1,0 +1,48 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/ui-extensions-quickbooks-online-data-migration.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/ui-extensions-quickbooks-online-data-migration",
+  "title": "QuickBooks Online Data Migration Extension",
+  "blob": "f46b4bd6c0976196ed1d80608127396c1852401d",
+  "summary": "The QuickBooks Online Data Migration extension imports customers, vendors, items, chart of accounts, and open transactions from QuickBooks Online via the Data Migration assisted setup guide. It migrates full transaction amounts and on-hand inventory quantities.",
+  "systems": [
+    "finance",
+    "sales",
+    "purchasing"
+  ],
+  "topics": [
+    "quickbooks online migration",
+    "cloud accounting",
+    "data import",
+    "setup guide"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Sales Invoices"
+    },
+    {
+      "type": "page",
+      "name": "Payment Journals"
+    }
+  ],
+  "features": [
+    "customer import",
+    "vendor import",
+    "item import",
+    "general ledger import",
+    "open document migration",
+    "inventory quantities",
+    "beginning balance import"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00434,
+      "pages_in_call": 8
+    }
+  ]
+}

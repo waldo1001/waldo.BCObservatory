@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-how-to-send-electronic-documents",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "extracted",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -24,6 +24,18 @@
       "parts": 1,
       "objects": 1,
       "cost_usd": 0.00293
+    },
+    "summarized": {
+      "at": "2026-10-06T19:10:21.370Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:10:21.371Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:10:21.372Z",
+      "page": false
     }
   },
   "input_hash": "119b8f6c70fe191cc66feaeb8524d3b03f6d3864",

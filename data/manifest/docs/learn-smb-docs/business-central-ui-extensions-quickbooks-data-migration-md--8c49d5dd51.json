@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-extensions-quickbooks-data-migration",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "390b43b3df3354d8816ff4eb9710923b5001aab5",
       "words": 604,
       "forms": 8
+    },
+    "extracted": {
+      "at": "2026-10-06T19:10:46.832Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00434
+    },
+    "summarized": {
+      "at": "2026-10-06T19:10:53.149Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:10:53.150Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:10:53.150Z",
+      "page": false
     }
   },
   "input_hash": "390b43b3df3354d8816ff4eb9710923b5001aab5",
@@ -83,5 +102,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "390b43b3df3354d8816ff4eb9710923b5001aab5"
+  "output_hash": "2093471b6b5c5cfb353b977c1493e7c4df4e9e172d00dbab919796b3019e3bcf"
 }

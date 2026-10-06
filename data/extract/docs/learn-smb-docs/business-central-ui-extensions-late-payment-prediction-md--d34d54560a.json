@@ -1,0 +1,48 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/ui-extensions-late-payment-prediction.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/ui-extensions-late-payment-prediction",
+  "title": "Predict late payments for sales documents",
+  "blob": "f91a22ac26d558412646a23269d8d8c42e5c8ea3",
+  "summary": "The Late Payment Prediction extension uses machine learning to predict whether customer payments will be late, helping optimize collection strategies. It displays confidence levels for predictions and can use standard Microsoft models or custom Azure-based models.",
+  "systems": [
+    "sales",
+    "copilot",
+    "integration"
+  ],
+  "topics": [
+    "payment prediction",
+    "machine learning",
+    "receivables management",
+    "ai",
+    "customer analysis"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Late Payment Prediction Setup"
+    },
+    {
+      "type": "page",
+      "name": "Customer Ledger Entries"
+    }
+  ],
+  "features": [
+    "late payment prediction",
+    "prediction confidence levels",
+    "model quality assessment",
+    "custom web service integration",
+    "my model training",
+    "business manager tile"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00434,
+      "pages_in_call": 8
+    }
+  ]
+}

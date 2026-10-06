@@ -1,0 +1,56 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/ui-get-ready-business.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/ui-get-ready-business",
+  "title": "Get ready for doing business",
+  "blob": "378bed0ede121b2efcbc0bbe1a1760b6cfa94ed7",
+  "summary": "Get ready for doing business provides an overview of initial setup tasks and assisted setup guides available in Business Central. It explains role-specific home pages, company information setup, user management, and links to quick start articles for key areas.",
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "onboarding",
+    "initial setup",
+    "company configuration",
+    "user management",
+    "assisted setup"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Assisted Setup"
+    },
+    {
+      "type": "page",
+      "name": "Users"
+    },
+    {
+      "type": "page",
+      "name": "Company Settings"
+    }
+  ],
+  "features": [
+    "assisted setup guides",
+    "company information",
+    "user creation",
+    "permissions assignment",
+    "role-specific home pages",
+    "teaching tips",
+    "approval workflows",
+    "email setup",
+    "business data migration"
+  ],
+  "versions": [
+    "2021 release wave 2"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00434,
+      "pages_in_call": 8
+    }
+  ]
+}

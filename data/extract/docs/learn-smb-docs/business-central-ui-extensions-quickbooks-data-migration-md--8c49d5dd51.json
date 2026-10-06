@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/ui-extensions-quickbooks-data-migration.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/ui-extensions-quickbooks-data-migration",
+  "title": "QuickBooks Data Migration Extension",
+  "blob": "390b43b3df3354d8816ff4eb9710923b5001aab5",
+  "summary": "The QuickBooks Data Migration extension enables import of customers, vendors, items, chart of accounts, and beginning balance transactions from QuickBooks Desktop to Business Central. It requires the Microsoft Data Exporter Tool and works with QuickBooks 2017 and 2018.",
+  "systems": [
+    "finance",
+    "sales",
+    "purchasing"
+  ],
+  "topics": [
+    "quickbooks migration",
+    "desktop accounting",
+    "data import",
+    "chart of accounts",
+    "inventory"
+  ],
+  "objects": [],
+  "features": [
+    "customer import",
+    "vendor import",
+    "item import",
+    "general ledger import",
+    "open document migration",
+    "beginning balance import",
+    "inventory quantities"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00434,
+      "pages_in_call": 8
+    }
+  ]
+}

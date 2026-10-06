@@ -1,0 +1,457 @@
+{
+  "video_id": "pEXl-POet_4",
+  "item_id": "video/yt-microsoft/pEXl-POet_4",
+  "title": "What's New: Project and Service Management (2024 release wave 1)",
+  "duration_s": 1120,
+  "systems": [
+    "projects",
+    "service",
+    "warehouse"
+  ],
+  "topics": [
+    "directed put-away",
+    "warehouse pick",
+    "project locations",
+    "extended text",
+    "replenishment",
+    "purchase orders",
+    "service archiving",
+    "service filing",
+    "contracts",
+    "report selection",
+    "item availability"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and project management improvements",
+      "t_start": 0,
+      "t_end": 79.6
+    },
+    {
+      "title": "Directed put-away and pick for projects demo",
+      "t_start": 79.6,
+      "t_end": 200.4
+    },
+    {
+      "title": "Project consumption with warehouse integration",
+      "t_start": 200.4,
+      "t_end": 322.4
+    },
+    {
+      "title": "Extended text and replenishment capabilities",
+      "t_start": 322.4,
+      "t_end": 407.9
+    },
+    {
+      "title": "Project replenishment with purchase orders",
+      "t_start": 407.9,
+      "t_end": 572.5
+    },
+    {
+      "title": "Item availability and project summary",
+      "t_start": 572.5,
+      "t_end": 686.2
+    },
+    {
+      "title": "Service management improvements and archiving",
+      "t_start": 686.2,
+      "t_end": 801.4
+    },
+    {
+      "title": "Service order archiving and report selection",
+      "t_start": 801.4,
+      "t_end": 914.4
+    },
+    {
+      "title": "Service contract filing and retention policies",
+      "t_start": 914.4,
+      "t_end": 1093.2
+    },
+    {
+      "title": "Summary and conclusion",
+      "t_start": 1093.2,
+      "t_end": 1120
+    }
+  ],
+  "features": [
+    {
+      "name": "Directed put-away and pick for project locations",
+      "description": "Support for locations with directed put-away and pick enabled for project consumption, allowing warehouse capabilities to work with projects using warehouse pick lines as mandatory.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 47.2,
+      "t_end": 322.4,
+      "is_demoed": true,
+      "caveats": [
+        "Warehouse receipt scenarios are not supported for projects yet",
+        "One limitation still pending regarding directed pick and put-away"
+      ],
+      "tags": [
+        "warehouse",
+        "pick",
+        "put-away",
+        "locations",
+        "directed"
+      ],
+      "system": "warehouse"
+    },
+    {
+      "name": "Extended text for project items",
+      "description": "Added capability to insert extended text for project items, developed via code development contribution, with ability to configure automatic insertion for projects or invoices and print on project quotes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 322.4,
+      "t_end": 387.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "extended text",
+        "project items",
+        "configuration"
+      ],
+      "system": "projects"
+    },
+    {
+      "name": "Project replenishment from project planning lines",
+      "description": "New action to perform replenishment directly from project planning lines, analyzing availability and suggesting purchases needed, with options to reserve items and create purchase orders.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 387.9,
+      "t_end": 572.5,
+      "is_demoed": true,
+      "caveats": [
+        "Warehouse receipt scenarios for projects are not supported",
+        "If using white location with directed pick and put-away, cannot post purchase via warehouse receipt for immediate consumption"
+      ],
+      "tags": [
+        "replenishment",
+        "planning",
+        "purchase orders",
+        "availability"
+      ],
+      "system": "projects"
+    },
+    {
+      "name": "Item availability in project planning lines and journals",
+      "description": "Added item availability information display in project planning lines and project journals, showing availability by event with related purchases and quantities.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 609.2,
+      "t_end": 647.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "item availability",
+        "planning lines",
+        "journals"
+      ],
+      "system": "projects"
+    },
+    {
+      "name": "Service quote and order archiving",
+      "description": "Added archiving capability for service quotes and orders, allowing users to archive documents and access archived versions with restore functionality.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 686.2,
+      "t_end": 914.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "archiving",
+        "service orders",
+        "service quotes"
+      ],
+      "system": "service"
+    },
+    {
+      "name": "Make order action with dialog jump",
+      "description": "Enhanced make order action when converting service quote to order, allowing users to jump directly to the newly created order via confirmation dialog, similar to purchase and sales areas.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 767,
+      "t_end": 801.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "quote to order",
+        "dialog",
+        "user experience"
+      ],
+      "system": "service"
+    },
+    {
+      "name": "Report selection for service item worksheet",
+      "description": "Added support for report selection in service item worksheet, allowing users to change which report is printed, select different layouts, or print multiple documents at once.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 877.1,
+      "t_end": 924.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "report selection",
+        "service item worksheet",
+        "printing"
+      ],
+      "system": "service"
+    },
+    {
+      "name": "Service contract filing improvements",
+      "description": "Enhanced filing functionality for service contracts and contract quotes, now preserving filed versions even when main documents are deleted, with new toggle setting to control deletion behavior.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 924.9,
+      "t_end": 1062.3,
+      "is_demoed": true,
+      "caveats": [
+        "Filed contracts previously had a tendency to be deleted together with the main document"
+      ],
+      "tags": [
+        "filing",
+        "contracts",
+        "archiving"
+      ],
+      "system": "service"
+    },
+    {
+      "name": "Retention policies for filed service contracts",
+      "description": "Added retention policy capability for filed service contracts and service header archives, allowing control over database size management and deletion of archived documents.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1062.3,
+      "t_end": 1093.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "retention policies",
+        "archiving",
+        "data management"
+      ],
+      "system": "service"
+    },
+    {
+      "name": "Project cockpit action on project list",
+      "description": "Added project cockpit action accessible from the project list, providing work in progress functionality allowing users to delete WIP entries and change the WIP method.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 99.6,
+      "t_end": 139.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "project cockpit",
+        "work in progress",
+        "actions"
+      ],
+      "system": "projects"
+    },
+    {
+      "name": "Project assembly orders access from list",
+      "description": "Ability to navigate to assembly orders directly from the project list, building on the assembly-to-order capability added in a previous release.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 160.2,
+      "t_end": 180.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "assembly orders",
+        "project assembly",
+        "navigation"
+      ],
+      "system": "assembly"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "project list",
+      "t": 99.6
+    },
+    {
+      "type": "page",
+      "name": "project assembly orders",
+      "t": 160.2
+    },
+    {
+      "type": "page",
+      "name": "warehouse pick lines",
+      "t": 180.2
+    },
+    {
+      "type": "page",
+      "name": "project planning lines",
+      "t": 235.4
+    },
+    {
+      "type": "page",
+      "name": "project journal",
+      "t": 256.2
+    },
+    {
+      "type": "table",
+      "name": "project ledger entry",
+      "t": 267.1
+    },
+    {
+      "type": "table",
+      "name": "value entry",
+      "t": 267.1
+    },
+    {
+      "type": "table",
+      "name": "warehouse entry",
+      "t": 267.1
+    },
+    {
+      "type": "page",
+      "name": "service quote",
+      "t": 706.3
+    },
+    {
+      "type": "page",
+      "name": "service order",
+      "t": 801.4
+    },
+    {
+      "type": "page",
+      "name": "service item worksheet",
+      "t": 877.1
+    },
+    {
+      "type": "page",
+      "name": "report selection service",
+      "t": 894.3
+    },
+    {
+      "type": "page",
+      "name": "service contract quote",
+      "t": 924.9
+    },
+    {
+      "type": "page",
+      "name": "filed service contracts",
+      "t": 980.4
+    },
+    {
+      "type": "page",
+      "name": "service management setup",
+      "t": 1020.6
+    },
+    {
+      "type": "table",
+      "name": "service header archive",
+      "t": 1081.2
+    },
+    {
+      "type": "table",
+      "name": "filed service contract",
+      "t": 1081.2
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 47.2,
+      "text": "we continue our journey related to up taking of Rich warehouse and inventory capabilities and now we are also supporting locations where directed put",
+      "why_it_matters": "Indicates new support for warehouse directed put-away and pick at project locations, expanding warehouse capabilities to projects.",
+      "check": "exact"
+    },
+    {
+      "t": 99.6,
+      "text": "this functionality is quite powerful and useful if you're dealing with work in progress for projects and because it's a little bit hidden not",
+      "why_it_matters": "Explains the value of the project cockpit action for WIP management and notes it was previously underutilized.",
+      "check": "snapped"
+    },
+    {
+      "t": 200.4,
+      "text": "now you can use it for project as well you can see that project consumption will work as warehouse",
+      "why_it_matters": "Confirms that directed warehouse picking is now required for project consumption, a significant workflow change.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 572.5,
+      "text": "we do not support Warehouse receipt scenarios for projects it means if you are using white location with directed pick and putaway you cannot",
+      "why_it_matters": "Important limitation: projects cannot use warehouse receipt for immediate purchase consumption at white locations.",
+      "check": "exact"
+    },
+    {
+      "t": 686.2,
+      "text": "we also getting archiving capabilities which we are missing in service area for service quotes and orders",
+      "why_it_matters": "New feature: service management now has archiving for quotes and orders, previously missing.",
+      "check": "exact"
+    },
+    {
+      "t": 787,
+      "text": "this feature is added via Cod development project all right this is service order which is uh right here",
+      "why_it_matters": "The make order dialog feature with direct jump to new orders comes from community code development contribution.",
+      "check": "exact"
+    },
+    {
+      "t": 980.4,
+      "text": "we stopped that let me show to you so now if you go and search for file service contracts yeah it's actually the shareed",
+      "why_it_matters": "Filed contracts are now preserved even when main documents are deleted, fixing a previous limitation.",
+      "check": "exact"
+    },
+    {
+      "t": 1020.6,
+      "text": "you can see the new toggle deleted filed contracts which is off so now filed versions of the contract or contract quote will not",
+      "why_it_matters": "New setting allows users to preserve filed contracts by default, with option to restore old behavior if needed.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 27,
+      "kind": "preview",
+      "text": "developers who are using Insider build all already noticed some rare architecture happening in the internals of service management where we are transforming it to behave like IV solution"
+    },
+    {
+      "t": 302.1,
+      "kind": "subject-to-change",
+      "text": "we have one limitation still pending we will talk about it in uh later stage today the next one is extended text"
+    },
+    {
+      "t": 572.5,
+      "kind": "subject-to-change",
+      "text": "we do not support Warehouse receipt scenarios for projects it means if you are using white location with directed pick and putaway you cannot post purchase via wherehouse receipt and expect it to be immediate ly consumed not yet at least"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 8,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 11
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.033756
+    }
+  ]
+}

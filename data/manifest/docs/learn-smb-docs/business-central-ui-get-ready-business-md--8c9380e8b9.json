@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-get-ready-business",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "378bed0ede121b2efcbc0bbe1a1760b6cfa94ed7",
       "words": 1352,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:10:46.833Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.00434
+    },
+    "summarized": {
+      "at": "2026-10-06T19:10:53.154Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:10:53.155Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:10:53.156Z",
+      "page": false
     }
   },
   "input_hash": "378bed0ede121b2efcbc0bbe1a1760b6cfa94ed7",
@@ -42,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "378bed0ede121b2efcbc0bbe1a1760b6cfa94ed7"
+  "output_hash": "8fad18a16b3114c25bcd79a7f7d6579737f14d12c3c41c448c7403a28bcaa82d"
 }

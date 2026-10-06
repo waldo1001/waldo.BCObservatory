@@ -1,0 +1,27 @@
+{
+  "video_id": "pEXl-POet_4",
+  "item_id": "video/yt-microsoft/pEXl-POet_4",
+  "summary": "Project and service management changes in the Business Central 2024 release wave 1: directed put-away and pick for project locations, extended text, replenishment from project planning lines, item availability, service quote and order archiving, service contract filing and retention policies.",
+  "overview": "This 19-minute What's New video covers the project and service management changes in the 2024 release wave 1. The project part is about warehouse integration: locations with directed put-away and pick can now be used for project consumption through warehouse pick lines. It also covers extended text for project items, replenishment from project planning lines with purchase orders, and item availability in planning lines and journals.\n\nThe service part covers archiving of service quotes and orders, a jump-to-order dialog on the make order action, report selection for the service item worksheet, and better filing of service contracts. A new setting controls whether filed contracts are deleted, and retention policies can be applied to filed contracts and service header archives. Several limitations around warehouse receipts for projects are stated.",
+  "key_points": [
+    "Project consumption now works with locations that have directed put-away and pick, using warehouse pick lines. One limitation is still pending.",
+    "Warehouse receipt scenarios are not supported for projects. With a white location, you cannot post a purchase via warehouse receipt and have it consumed immediately.",
+    "Project planning lines have a replenishment action that analyzes availability, suggests purchases, and can reserve items and create purchase orders.",
+    "Extended text can be inserted for project items, set to insert automatically for projects or invoices, and printed on project quotes.",
+    "Service quotes and orders can be archived and restored. The make order action offers a dialog to jump to the new order.",
+    "Service contract filing keeps filed versions when the main document is deleted. A new toggle on service management setup, 'Deleted filed contracts' (off in the demo), controls this.",
+    "Retention policies can now apply to filed service contracts and service header archives. The service item worksheet supports report selection."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "end user"
+  ],
+  "extraction_hash": "570ba48050d479b25f20d35d4897a273feab5558c80070a31fcfaadd31f6cf2b",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.018310399999999998
+  }
+}

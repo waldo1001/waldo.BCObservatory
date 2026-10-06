@@ -1,0 +1,60 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/ui-extensions-amc-banking.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/ui-extensions-amc-banking",
+  "title": "Using the AMC banking 365 fundamentals extension",
+  "blob": "be3fff8426d6eaf0a0c33a7ec26753727c070922",
+  "summary": "The AMC Banking 365 Fundamentals extension converts bank data into formats required by over 600 banks worldwide, facilitating payment transfers and bank reconciliation. Use it to export payment journal data and import reconciled bank statements.",
+  "systems": [
+    "finance",
+    "integration",
+    "administration"
+  ],
+  "topics": [
+    "bank integration",
+    "payment export",
+    "data conversion",
+    "bank reconciliation",
+    "extension setup"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "AMC Banking Setup table (20101)"
+    },
+    {
+      "type": "page",
+      "name": "AMC Banking Setup"
+    },
+    {
+      "type": "page",
+      "name": "Payment Journals"
+    },
+    {
+      "type": "page",
+      "name": "Bank Accounts"
+    },
+    {
+      "type": "page",
+      "name": "Payment Reconciliation Journals"
+    }
+  ],
+  "features": [
+    "bank data conversion",
+    "payment export",
+    "bank statement import",
+    "SWIFT code support",
+    "IBAN support",
+    "credit transfer messaging"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00434,
+      "pages_in_call": 8
+    }
+  ]
+}

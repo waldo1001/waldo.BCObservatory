@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-extensions-payments-reconciliation-formats-dk",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "b306c381b15dfb18815aa88cbf148a047d6f31e8",
       "words": 716,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:10:46.831Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 5,
+      "cost_usd": 0.00434
+    },
+    "summarized": {
+      "at": "2026-10-06T19:10:53.146Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:10:53.147Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:10:53.148Z",
+      "page": false
     }
   },
   "input_hash": "b306c381b15dfb18815aa88cbf148a047d6f31e8",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b306c381b15dfb18815aa88cbf148a047d6f31e8"
+  "output_hash": "aaa6f2141dcbbdfd06de1857daac18787618eb49c96151cc2168e910b0ef107c"
 }

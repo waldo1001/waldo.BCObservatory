@@ -1,0 +1,60 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/ui-extensions-payments-reconciliation-formats-dk.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/ui-extensions-payments-reconciliation-formats-dk",
+  "title": "Payments and Reconciliations (DK) Extension",
+  "blob": "b306c381b15dfb18815aa88cbf148a047d6f31e8",
+  "summary": "The Payments and Reconciliations (DK) extension supports Danish bank payment and reconciliation file formats including BANKDATA-V3, BEC, SDC, FIK, and bank-specific formats for Danske Bank and Nordea. It streamlines payment exports and bank reconciliation for Danish vendors and banks.",
+  "systems": [
+    "finance",
+    "purchasing",
+    "integration"
+  ],
+  "topics": [
+    "denmark",
+    "payment export",
+    "bank formats",
+    "reconciliation",
+    "localization"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Payment Journal"
+    },
+    {
+      "type": "page",
+      "name": "Vendors"
+    },
+    {
+      "type": "page",
+      "name": "Bank Accounts"
+    },
+    {
+      "type": "page",
+      "name": "Purchase Invoices"
+    },
+    {
+      "type": "page",
+      "name": "Payment Journals"
+    }
+  ],
+  "features": [
+    "payment export formats",
+    "bank statement reconciliation",
+    "FIK payment methods",
+    "giro payments",
+    "vendor payment setup",
+    "payment reference numbers"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00434,
+      "pages_in_call": 8
+    }
+  ]
+}

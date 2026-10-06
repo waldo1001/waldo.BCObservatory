@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-extensions-amc-banking",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "be3fff8426d6eaf0a0c33a7ec26753727c070922",
       "words": 880,
       "forms": 7
+    },
+    "extracted": {
+      "at": "2026-10-06T19:10:46.827Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 5,
+      "cost_usd": 0.00434
+    },
+    "summarized": {
+      "at": "2026-10-06T19:10:46.835Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:10:46.836Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:10:46.837Z",
+      "page": false
     }
   },
   "input_hash": "be3fff8426d6eaf0a0c33a7ec26753727c070922",
@@ -75,5 +94,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "be3fff8426d6eaf0a0c33a7ec26753727c070922"
+  "output_hash": "cd80542e7bb0a20e49e804171a15625d56f18d8f83e61bc7a79d812991e313d7"
 }

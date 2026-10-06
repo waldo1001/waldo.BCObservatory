@@ -1,0 +1,28 @@
+{
+  "video_id": "hba7KVWrIwY",
+  "item_id": "video/yt-microsoft/hba7KVWrIwY",
+  "summary": "E-Documents in Business Central 2024 release wave 2: framework stabilization, new partner connectors (Avalara and others, eight default by end of wave), attachments in XML, improved search, and country formats. Includes demos of sending invoices with Avalara and receiving documents by scheduled import.",
+  "overview": "The video presents the E-Documents framework, which is meant to manage incoming and outgoing documents, with Microsoft's current focus on electronic invoicing exchange. It explains why B2B mandates (for example in Denmark, Belgium and Italy) drove the work, and says the framework is designed to be extended by ISVs and partners.\n\nFor wave 2 it covers stabilization work, new default connectors built with partners, encoded attachments in XML, easier search, and a Peppol format with a data exchange definition as a showcase for custom formats. Later items include an e-documents API (expected around 25.3), UBL/XML for Germany and Fattura PA for Spain in December 2024, and Peppol for Australia and New Zealand after January 2025. Two demos show sending sales invoices through Avalara and receiving documents with an automatic scheduled import.",
+  "key_points": [
+    "New default connectors named: Avalara, B2B Router, Contineo, Logic Sign, Every and Commerce. Eight default connectors are expected by the end of the wave.",
+    "Not all connectors arrive at once: the first comes with 25.1 and the rest later, because partner-built code goes through Microsoft code review. Commercial terms need separate contracts with each provider.",
+    "Avalara setup needs an Avalara account, a client ID, a client secret and company ID mapping. The mandate you select determines the validation checks.",
+    "To send invoices automatically, set a document sending profile on the customer so that posting a sales invoice routes through the e-documents framework.",
+    "Receiving documents can be automated with a scheduled import that checks periodically for incoming vendor documents.",
+    "The e-documents API was postponed to allow improvements and is expected around version 25.3 (approximate timeline).",
+    "UBL/XML for Germany and Fattura PA for Spain are scheduled for December 2024, ahead of January 2025 requirements. Peppol for Australia and New Zealand is announced for after January 2025."
+  ],
+  "audience": [
+    "functional consultant",
+    "developer",
+    "partner",
+    "administrator"
+  ],
+  "extraction_hash": "5e26ec66127c697ff5a24937978f1bd50217d1eef247480b02101a5bc26a1eba",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0195724
+  }
+}

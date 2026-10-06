@@ -1,0 +1,63 @@
+{
+  "video_id": "lk1YJKOmHyI",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 6.2,
+      "end": 26.3,
+      "text": "hello and welcome to this session on auditing imp perview for business Central as part of the business Central lunch event for 2024 release Wave 2 um today I'll go through auditing in purview and the benefits it brings to business Central pview is an auditing solution that allows audit administrators to see operations executed by users"
+    },
+    {
+      "t": 26.3,
+      "end": 46.3,
+      "text": "across all Microsoft services including business Central in a single portal this can help responding to security events in case you want to see what a user did for example after an account is compromised um you can use it to run forensic investigations and for customers with specific business needs or um industry compliance requirements this can"
+    },
+    {
+      "t": 46.3,
+      "end": 66.6,
+      "text": "help them meet those requirements in having user operations uh be auditable let's jump straight into a demo of what business Central events in perview look like to reach pview you navigate to pview microsoft.com and you'll see this interface that allows you to filter and search for specific events across your tenant in this case I'm looking for all activities"
+    },
+    {
+      "t": 66.6,
+      "end": 86.8,
+      "text": "in business Central and for that I can navigate for to record type business Central um and that would give me all the events related to business Central to find specific activities within business Central I open this activity Pane and filter specifically to dyamic 365 business Central and there you'll see"
+    },
+    {
+      "t": 86.8,
+      "end": 108,
+      "text": "the categories of activities that we have so if I'm only interested in environment Administration activities i' would ref filter in further to this of course if I'm looking for more specific events I can use the keyword search for example to search for specific environment name or I could use the user filter to only return activities undertaken by a specific"
+    },
+    {
+      "t": 108,
+      "end": 128,
+      "text": "user finally what's important is to select the date filter so let's say I'm looking for all September month to dates select that so once I'm happy I click search I click refresh here and you can see my search so the date filter the activity name and the record type is being queued and is running after"
+    },
+    {
+      "t": 128,
+      "end": 148.2,
+      "text": "a few minutes this will complete and I can open the report with more details where I can see all events that met those filters that were executed on this tenant initially the events that you can audit for business Cent for in prview fall in these categories um from environment Administration that includes everything you would do in the admin Center to report Administration which include any"
+    },
+    {
+      "t": 148.2,
+      "end": 168.5,
+      "text": "changes made to reporting in a business sensor environment there are a few things that are good to know um as we enable auditing of business sensor events in purview firstly auditing is included and enabled by default with most Microsoft 365 plans meaning that if you have one of the included Microsoft 365 plans you don't have to do anything to enable"
+    },
+    {
+      "t": 168.5,
+      "end": 188.5,
+      "text": "pview it's already running on your tenant by default pview retains the locks for 180 days but by purchasing add-on licenses or with specific Microsoft 365 plans you can extend this up to 10 years the easiest way to get to pview events is in the pview portal where you can run manual reports as I've just shown you but for more advanced"
+    },
+    {
+      "t": 188.5,
+      "end": 204.5,
+      "text": "needs you can use Powershell or the management activity API to automate this is only the beginning of auditing business Central events in prview and we'd really like to hear your ideas on what else you would want to see in purview for business Central to submit your ideas never get to aka."
+    },
+    {
+      "t": 204.5,
+      "end": 213,
+      "text": "ms/ BC ideas and create a new idea this concludes perview in business Cal thank you for watching"
+    }
+  ],
+  "markers": [],
+  "word_count": 613
+}

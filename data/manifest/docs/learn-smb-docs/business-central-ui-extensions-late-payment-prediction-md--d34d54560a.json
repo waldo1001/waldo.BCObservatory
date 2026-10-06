@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-extensions-late-payment-prediction",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "f91a22ac26d558412646a23269d8d8c42e5c8ea3",
       "words": 1007,
       "forms": 2
+    },
+    "extracted": {
+      "at": "2026-10-06T19:10:46.829Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.00434
+    },
+    "summarized": {
+      "at": "2026-10-06T19:10:51.367Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:10:53.143Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:10:53.145Z",
+      "page": false
     }
   },
   "input_hash": "f91a22ac26d558412646a23269d8d8c42e5c8ea3",
@@ -53,5 +72,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f91a22ac26d558412646a23269d8d8c42e5c8ea3"
+  "output_hash": "6df069ac1c43dde38c5587c6dab9ada273eafb83288305251b610308fb1ad8cf"
 }
