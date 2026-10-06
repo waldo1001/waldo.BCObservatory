@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T13:01:12.428Z"
+  at: "2026-10-06T14:56:57.246Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -140,7 +140,9 @@ evidence:
 links:
   learn: []
   objects: []
-  features: []
+  features:
+    - feature/573345
+    - feature/573355
   topics: []
   localizations: []
   videos: []
@@ -189,98 +191,134 @@ features:
     status: unclear
     t: 8
     verified: false
+    status_source: video
   - name: Component supply method
     status: unclear
     t: 224
     verified: false
+    status_source: video
   - name: Vendor location tracking
     status: unclear
     t: 411
     verified: false
+    status_source: video
   - name: Warehouse integration for subcontracting
     status: unclear
     t: 90
     verified: false
+    status_source: video
   - name: Subcontracting routing link and operations
     status: unclear
     t: 458
     verified: false
+    status_source: video
   - name: Create subcontracting order from routing
     status: unclear
     t: 506
     verified: false
+    status_source: video
   - name: Subcontracting purchase order structure
-    status: unclear
+    status: ga
     t: 516
     verified: false
+    status_source: roadmap
+    roadmap_ids:
+      - "573345"
   - name: Create production order info line setting
     status: unclear
     t: 605
     verified: false
+    status_source: video
   - name: Subcontracting component transfer lead time
     status: unclear
     t: 634
     verified: false
+    status_source: video
   - name: Subcontracting comments and instructions
-    status: unclear
+    status: ga
     t: 648
     verified: false
+    status_source: roadmap
+    roadmap_ids:
+      - "573345"
   - name: Line attachments for subcontracting instructions
-    status: unclear
+    status: ga
     t: 672
     verified: false
+    status_source: roadmap
+    roadmap_ids:
+      - "573345"
   - name: Subcontracting details fact box
     status: unclear
     t: 726
     verified: false
+    status_source: video
   - name: Subcontracting comment in routing
-    status: unclear
+    status: ga
     t: 756
     verified: false
+    status_source: roadmap
+    roadmap_ids:
+      - "573345"
   - name: Work in progress item in routing
     status: unclear
     t: 812
     verified: false
+    status_source: video
   - name: Transfer order to subcontractor
     status: unclear
     t: 853
     verified: false
+    status_source: video
   - name: Work-in-progress ledger entries
     status: unclear
     t: 905
     verified: false
+    status_source: video
   - name: Item charge assignment to purchase receipts
     status: unclear
     t: 1038
     verified: false
+    status_source: video
   - name: Standard task codes for subcontracting
     status: unclear
     t: 1210
     verified: false
+    status_source: video
   - name: Closest-match pricing for subcontracting
     status: unclear
     t: 1210
     verified: false
+    status_source: video
   - name: Minimum amount rule for subcontracting
     status: unclear
     t: 1305
     verified: false
+    status_source: video
   - name: Warehouse receipt for subcontracting operations
     status: unclear
     t: 1403
     verified: false
+    status_source: video
   - name: Inventory put-away for basic warehouse locations
-    status: unclear
+    status: ga
     t: 1493
     verified: false
+    status_source: roadmap
+    roadmap_ids:
+      - "573355"
   - name: Serial number assignment across multiple levels
     status: unclear
     t: 1547
     verified: false
+    status_source: video
   - name: Multiple receiving methods for subcontracting
-    status: unclear
+    status: ga
     t: 1569
     verified: false
+    status_source: roadmap
+    roadmap_ids:
+      - "573355"
 objects_mentioned:
   - table Bill of Material
   - page Production Order
@@ -391,13 +429,13 @@ The demo follows one process: set the component supply method on the bill of mat
 | Warehouse integration for subcontracting | status not stated, demoed | [1:30](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=90s) |  |
 | Subcontracting routing link and operations | status not stated, demoed | [7:38](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=458s) |  |
 | Create subcontracting order from routing | status not stated, demoed | [8:26](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=506s) |  |
-| Subcontracting purchase order structure | status not stated, demoed | [8:36](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=516s) |  |
+| Subcontracting purchase order structure | generally available (roadmap [573345](../features/573345.md)), demoed | [8:36](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=516s) |  |
 | Create production order info line setting | status not stated, demoed | [10:05](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=605s) |  |
 | Subcontracting component transfer lead time | status not stated | [10:34](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=634s) |  |
-| Subcontracting comments and instructions | status not stated, demoed | [10:48](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=648s) |  |
-| Line attachments for subcontracting instructions | status not stated, demoed | [11:12](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=672s) |  |
+| Subcontracting comments and instructions | generally available (roadmap [573345](../features/573345.md)), demoed | [10:48](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=648s) |  |
+| Line attachments for subcontracting instructions | generally available (roadmap [573345](../features/573345.md)), demoed | [11:12](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=672s) |  |
 | Subcontracting details fact box | status not stated, demoed | [12:06](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=726s) |  |
-| Subcontracting comment in routing | status not stated, demoed | [12:36](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=756s) |  |
+| Subcontracting comment in routing | generally available (roadmap [573345](../features/573345.md)), demoed | [12:36](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=756s) |  |
 | Work in progress item in routing | status not stated, demoed | [13:32](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=812s) |  |
 | Transfer order to subcontractor | status not stated, demoed | [14:13](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=853s) |  |
 | Work-in-progress ledger entries | status not stated, demoed | [15:05](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=905s) |  |
@@ -406,9 +444,11 @@ The demo follows one process: set the component supply method on the bill of mat
 | Closest-match pricing for subcontracting | status not stated, demoed | [20:10](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=1210s) |  |
 | Minimum amount rule for subcontracting | status not stated, demoed | [21:45](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=1305s) |  |
 | Warehouse receipt for subcontracting operations | status not stated, demoed | [23:23](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=1403s) |  |
-| Inventory put-away for basic warehouse locations | status not stated, demoed | [24:53](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=1493s) |  |
+| Inventory put-away for basic warehouse locations | generally available (roadmap [573355](../features/573355.md)), demoed | [24:53](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=1493s) |  |
 | Serial number assignment across multiple levels | status not stated, demoed | [25:47](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=1547s) |  |
-| Multiple receiving methods for subcontracting | status not stated, demoed | [26:09](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=1569s) |  |
+| Multiple receiving methods for subcontracting | generally available (roadmap [573355](../features/573355.md)), demoed | [26:09](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=1569s) |  |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## AL objects mentioned
 

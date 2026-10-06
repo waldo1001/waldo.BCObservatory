@@ -23,7 +23,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T13:47:22.025Z"
+  at: "2026-10-06T14:56:57.246Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -96,7 +96,11 @@ evidence:
 links:
   learn: []
   objects: []
-  features: []
+  features:
+    - feature/573318
+    - feature/573323
+    - feature/573324
+    - feature/573325
   topics: []
   localizations: []
   videos: []
@@ -133,41 +137,64 @@ chapters:
     title: Closing and resources
 features:
   - name: Uncategorized accounts views
-    status: unclear
+    status: ga
     t: 73
     verified: false
+    status_source: roadmap
+    roadmap_ids:
+      - "573324"
   - name: Where used for GL accounts
-    status: unclear
+    status: ga
     t: 123
     verified: false
+    status_source: roadmap
+    roadmap_ids:
+      - "573324"
   - name: Totaling line account visibility in row definitions
-    status: unclear
+    status: ga
     t: 161
     verified: false
+    status_source: roadmap
+    roadmap_ids:
+      - "573324"
   - name: Totaling field account visibility in column definitions
-    status: unclear
+    status: ga
     t: 203
     verified: false
+    status_source: roadmap
+    roadmap_ids:
+      - "573324"
   - name: Preview capability for row and column definitions
     status: announced
     t: 247
     verified: true
+    status_source: video
   - name: Defaulting for row and column definition lines
     status: announced
     t: 287
     verified: true
+    status_source: video
   - name: Report packs
-    status: unclear
+    status: ga
     t: 328
     verified: false
+    status_source: roadmap
+    roadmap_ids:
+      - "573323"
   - name: Change log for financial report definitions
-    status: unclear
+    status: ga
     t: 413
     verified: false
+    status_source: roadmap
+    roadmap_ids:
+      - "573325"
   - name: Report inbox APIs
-    status: unclear
+    status: ga
     t: 472
     verified: false
+    status_source: roadmap
+    roadmap_ids:
+      - "573318"
 objects_mentioned: []
 quotes:
   - t: 6
@@ -230,15 +257,17 @@ Author features help with chart of accounts categorization and with building row
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| Uncategorized accounts views | status not stated, demoed | [1:13](https://www.youtube.com/watch?v=qj0VHB2Pmvc&t=73s) |  |
-| Where used for GL accounts | status not stated, demoed | [2:03](https://www.youtube.com/watch?v=qj0VHB2Pmvc&t=123s) |  |
-| Totaling line account visibility in row definitions | status not stated, demoed | [2:41](https://www.youtube.com/watch?v=qj0VHB2Pmvc&t=161s) |  |
-| Totaling field account visibility in column definitions | status not stated, demoed | [3:23](https://www.youtube.com/watch?v=qj0VHB2Pmvc&t=203s) |  |
+| Uncategorized accounts views | generally available (roadmap [573324](../features/573324.md)), demoed | [1:13](https://www.youtube.com/watch?v=qj0VHB2Pmvc&t=73s) |  |
+| Where used for GL accounts | generally available (roadmap [573324](../features/573324.md)), demoed | [2:03](https://www.youtube.com/watch?v=qj0VHB2Pmvc&t=123s) |  |
+| Totaling line account visibility in row definitions | generally available (roadmap [573324](../features/573324.md)), demoed | [2:41](https://www.youtube.com/watch?v=qj0VHB2Pmvc&t=161s) |  |
+| Totaling field account visibility in column definitions | generally available (roadmap [573324](../features/573324.md)), demoed | [3:23](https://www.youtube.com/watch?v=qj0VHB2Pmvc&t=203s) |  |
 | Preview capability for row and column definitions | announced, demoed | [4:07](https://www.youtube.com/watch?v=qj0VHB2Pmvc&t=247s) | "The first is that you can preview the so if you're working on a row or a column definition, you can set the corresponding" ([3:55](https://www.youtube.com/watch?v=qj0VHB2Pmvc&t=235s)) |
 | Defaulting for row and column definition lines | announced, demoed | [4:47](https://www.youtube.com/watch?v=qj0VHB2Pmvc&t=287s) | "Also coming in a minor to 29 is defaulting. So if you work on a row or column definition and add the lines of" ([4:47](https://www.youtube.com/watch?v=qj0VHB2Pmvc&t=287s)) |
-| Report packs | status not stated, demoed | [5:28](https://www.youtube.com/watch?v=qj0VHB2Pmvc&t=328s) |  |
-| Change log for financial report definitions | status not stated, demoed | [6:53](https://www.youtube.com/watch?v=qj0VHB2Pmvc&t=413s) |  |
-| Report inbox APIs | status not stated, demoed | [7:52](https://www.youtube.com/watch?v=qj0VHB2Pmvc&t=472s) |  |
+| Report packs | generally available (roadmap [573323](../features/573323.md)), demoed | [5:28](https://www.youtube.com/watch?v=qj0VHB2Pmvc&t=328s) |  |
+| Change log for financial report definitions | generally available (roadmap [573325](../features/573325.md)), demoed | [6:53](https://www.youtube.com/watch?v=qj0VHB2Pmvc&t=413s) |  |
+| Report inbox APIs | generally available (roadmap [573318](../features/573318.md)), demoed | [7:52](https://www.youtube.com/watch?v=qj0VHB2Pmvc&t=472s) |  |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## Quotes
 

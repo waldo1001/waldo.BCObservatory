@@ -21,7 +21,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T13:47:42.266Z"
+  at: "2026-10-06T14:56:57.246Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -120,30 +120,37 @@ features:
     status: unclear
     t: 6
     verified: false
+    status_source: video
   - name: Travel Request Line Items
     status: unclear
     t: 141
     verified: false
+    status_source: video
   - name: Expense Ledger Entries Link
     status: unclear
     t: 272
     verified: false
+    status_source: video
   - name: Foreign Currency Budgeting
     status: unclear
     t: 330
     verified: false
+    status_source: video
   - name: Automatic Expense Report Creation from Web/Phone App
     status: unclear
     t: 416
     verified: false
+    status_source: video
   - name: Employee Ledger Entry for Reimbursement
     status: unclear
     t: 244
     verified: false
+    status_source: video
   - name: Travel Request with Multiple Travelers
     status: unclear
     t: 404
     verified: false
+    status_source: video
 objects_mentioned: []
 quotes:
   - t: 30

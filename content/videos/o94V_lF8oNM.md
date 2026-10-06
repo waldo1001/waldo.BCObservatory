@@ -21,7 +21,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T13:47:06.817Z"
+  at: "2026-10-06T14:56:57.246Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -73,7 +73,8 @@ evidence:
 links:
   learn: []
   objects: []
-  features: []
+  features:
+    - feature/573255
   topics: []
   localizations: []
   videos: []
@@ -112,41 +113,56 @@ chapters:
     title: Policy check optimization and conclusion
 features:
   - name: Evaluate compliance with AI
-    status: unclear
+    status: preview
     t: 35
     verified: false
+    status_source: roadmap
+    roadmap_ids:
+      - "573255"
   - name: Presubmission evaluation
     status: unclear
     t: 134
     verified: false
+    status_source: video
   - name: Policy compliance flagging
-    status: unclear
+    status: preview
     t: 189
     verified: false
+    status_source: roadmap
+    roadmap_ids:
+      - "573255"
   - name: Policy validation with free text rules
-    status: unclear
+    status: preview
     t: 49
     verified: false
+    status_source: roadmap
+    roadmap_ids:
+      - "573255"
   - name: Policy check with AI button
     status: unclear
     t: 300
     verified: false
+    status_source: video
   - name: Enhanced receipt itemization
     status: unclear
     t: 349
     verified: false
+    status_source: video
   - name: Policy version tracking
     status: unclear
     t: 375
     verified: false
+    status_source: video
   - name: Policy override with audit trail
     status: unclear
     t: 487
     verified: false
+    status_source: video
   - name: Intelligent policy check optimization
     status: unclear
     t: 522
     verified: false
+    status_source: video
 objects_mentioned: []
 quotes:
   - t: 35
@@ -207,15 +223,17 @@ It also shows how submitters can run a policy check before submitting, how chang
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| Evaluate compliance with AI | status not stated, demoed | [0:35](https://www.youtube.com/watch?v=o94V_lF8oNM&t=35s) |  |
+| Evaluate compliance with AI | preview (roadmap [573255](../features/573255.md)), demoed | [0:35](https://www.youtube.com/watch?v=o94V_lF8oNM&t=35s) |  |
 | Presubmission evaluation | status not stated, demoed | [2:14](https://www.youtube.com/watch?v=o94V_lF8oNM&t=134s) |  |
-| Policy compliance flagging | status not stated, demoed | [3:09](https://www.youtube.com/watch?v=o94V_lF8oNM&t=189s) |  |
-| Policy validation with free text rules | status not stated, demoed | [0:49](https://www.youtube.com/watch?v=o94V_lF8oNM&t=49s) |  |
+| Policy compliance flagging | preview (roadmap [573255](../features/573255.md)), demoed | [3:09](https://www.youtube.com/watch?v=o94V_lF8oNM&t=189s) |  |
+| Policy validation with free text rules | preview (roadmap [573255](../features/573255.md)), demoed | [0:49](https://www.youtube.com/watch?v=o94V_lF8oNM&t=49s) |  |
 | Policy check with AI button | status not stated, demoed | [5:00](https://www.youtube.com/watch?v=o94V_lF8oNM&t=300s) |  |
 | Enhanced receipt itemization | status not stated | [5:49](https://www.youtube.com/watch?v=o94V_lF8oNM&t=349s) |  |
 | Policy version tracking | status not stated, demoed | [6:15](https://www.youtube.com/watch?v=o94V_lF8oNM&t=375s) |  |
 | Policy override with audit trail | status not stated | [8:07](https://www.youtube.com/watch?v=o94V_lF8oNM&t=487s) |  |
 | Intelligent policy check optimization | status not stated, demoed | [8:42](https://www.youtube.com/watch?v=o94V_lF8oNM&t=522s) |  |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## Quotes
 

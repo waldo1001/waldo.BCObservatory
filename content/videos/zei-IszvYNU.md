@@ -21,7 +21,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T14:03:55.229Z"
+  at: "2026-10-06T14:56:57.246Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -115,18 +115,22 @@ features:
     status: unclear
     t: 24
     verified: false
+    status_source: video
   - name: Add tools by API group in MCP configuration
     status: unclear
     t: 96
     verified: false
+    status_source: video
   - name: API groups for automation, e-document, and intercompany
     status: ga
     t: 110
     verified: true
+    status_source: video
   - name: MCP server support in 2026 wave one release
     status: unclear
     t: 52
     verified: false
+    status_source: video
 objects_mentioned: []
 quotes:
   - t: 24

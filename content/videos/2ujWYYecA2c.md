@@ -23,7 +23,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T14:04:02.439Z"
+  at: "2026-10-06T14:56:57.246Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -121,38 +121,47 @@ features:
     status: unclear
     t: 0
     verified: false
+    status_source: video
   - name: Try It Out Experience
     status: unclear
     t: 26
     verified: false
+    status_source: video
   - name: Email Attachment Detection
     status: unclear
     t: 50
     verified: false
+    status_source: video
   - name: Customer Identification
     status: unclear
     t: 107
     verified: false
+    status_source: video
   - name: Sales Quote Generation
     status: unclear
     t: 107
     verified: false
+    status_source: video
   - name: Inbox Connection Configuration
     status: unclear
     t: 170
     verified: false
+    status_source: video
   - name: No Review Configuration Option
     status: unclear
     t: 219
     verified: false
+    status_source: video
   - name: Availability and Capable to Promise Options
     status: unclear
     t: 219
     verified: false
+    status_source: video
   - name: Sales Order Confirmation Generation
     status: unclear
     t: 318
     verified: false
+    status_source: video
 objects_mentioned:
   - other sales order agent
   - other sales quote

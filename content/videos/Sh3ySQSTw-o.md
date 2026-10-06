@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T13:02:18.530Z"
+  at: "2026-10-06T14:56:57.246Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -84,7 +84,12 @@ evidence:
 links:
   learn: []
   objects: []
-  features: []
+  features:
+    - feature/573314
+    - feature/573315
+    - feature/573317
+    - feature/573322
+    - feature/573332
   topics: []
   localizations: []
   videos: []
@@ -127,50 +132,76 @@ features:
     status: unclear
     t: 33
     verified: false
+    status_source: video
   - name: Streaming-based Excel import
     status: unclear
     t: 46
     verified: false
+    status_source: video
   - name: Recent records virtual table
     status: unclear
     t: 70
     verified: false
+    status_source: video
   - name: Optimized table extensions data model - zero-join
-    status: unclear
+    status: ga
     t: 117
     verified: false
+    status_source: roadmap
+    roadmap_ids:
+      - "573332"
   - name: Table extension performance gains
-    status: unclear
+    status: ga
     t: 172
     verified: false
+    status_source: roadmap
+    roadmap_ids:
+      - "573332"
   - name: Index management improvements
     status: unclear
     t: 227
     verified: false
+    status_source: video
   - name: Runtime-controlled index enablement
-    status: unclear
+    status: ga
     t: 353
     verified: false
+    status_source: roadmap
+    roadmap_ids:
+      - "573314"
   - name: Cross-table indexes
-    status: unclear
+    status: ga
     t: 397
     verified: false
+    status_source: roadmap
+    roadmap_ids:
+      - "573315"
   - name: System fields in analysis mode
-    status: unclear
+    status: ga
     t: 447
     verified: false
+    status_source: roadmap
+    roadmap_ids:
+      - "573322"
   - name: System fields in profiles
-    status: unclear
+    status: ga
     t: 536
     verified: false
+    status_source: roadmap
+    roadmap_ids:
+      - "573322"
   - name: Permissions overview navigation
     status: unclear
     t: 605
     verified: false
+    status_source: video
   - name: Telemetry for Excel export audit
-    status: unclear
+    status: ga
     t: 705
     verified: false
+    status_source: roadmap
+    roadmap_ids:
+      - "573317"
 objects_mentioned:
   - other recent records virtual table
   - table GL Entry
@@ -240,15 +271,17 @@ The main part covers the table extension data model. Extension fields are stored
 | .NET 10 runtime | status not stated | [0:33](https://www.youtube.com/watch?v=Sh3ySQSTw-o&t=33s) |  |
 | Streaming-based Excel import | status not stated | [0:46](https://www.youtube.com/watch?v=Sh3ySQSTw-o&t=46s) |  |
 | Recent records virtual table | status not stated | [1:10](https://www.youtube.com/watch?v=Sh3ySQSTw-o&t=70s) |  |
-| Optimized table extensions data model - zero-join | status not stated, demoed | [1:57](https://www.youtube.com/watch?v=Sh3ySQSTw-o&t=117s) |  |
-| Table extension performance gains | status not stated, demoed | [2:52](https://www.youtube.com/watch?v=Sh3ySQSTw-o&t=172s) |  |
+| Optimized table extensions data model - zero-join | generally available (roadmap [573332](../features/573332.md)), demoed | [1:57](https://www.youtube.com/watch?v=Sh3ySQSTw-o&t=117s) |  |
+| Table extension performance gains | generally available (roadmap [573332](../features/573332.md)), demoed | [2:52](https://www.youtube.com/watch?v=Sh3ySQSTw-o&t=172s) |  |
 | Index management improvements | status not stated, demoed | [3:47](https://www.youtube.com/watch?v=Sh3ySQSTw-o&t=227s) |  |
-| Runtime-controlled index enablement | status not stated, demoed | [5:53](https://www.youtube.com/watch?v=Sh3ySQSTw-o&t=353s) |  |
-| Cross-table indexes | status not stated | [6:37](https://www.youtube.com/watch?v=Sh3ySQSTw-o&t=397s) |  |
-| System fields in analysis mode | status not stated, demoed | [7:27](https://www.youtube.com/watch?v=Sh3ySQSTw-o&t=447s) |  |
-| System fields in profiles | status not stated, demoed | [8:56](https://www.youtube.com/watch?v=Sh3ySQSTw-o&t=536s) |  |
+| Runtime-controlled index enablement | generally available (roadmap [573314](../features/573314.md)), demoed | [5:53](https://www.youtube.com/watch?v=Sh3ySQSTw-o&t=353s) |  |
+| Cross-table indexes | generally available (roadmap [573315](../features/573315.md)) | [6:37](https://www.youtube.com/watch?v=Sh3ySQSTw-o&t=397s) |  |
+| System fields in analysis mode | generally available (roadmap [573322](../features/573322.md)), demoed | [7:27](https://www.youtube.com/watch?v=Sh3ySQSTw-o&t=447s) |  |
+| System fields in profiles | generally available (roadmap [573322](../features/573322.md)), demoed | [8:56](https://www.youtube.com/watch?v=Sh3ySQSTw-o&t=536s) |  |
 | Permissions overview navigation | status not stated, demoed | [10:05](https://www.youtube.com/watch?v=Sh3ySQSTw-o&t=605s) |  |
-| Telemetry for Excel export audit | status not stated | [11:45](https://www.youtube.com/watch?v=Sh3ySQSTw-o&t=705s) |  |
+| Telemetry for Excel export audit | generally available (roadmap [573317](../features/573317.md)) | [11:45](https://www.youtube.com/watch?v=Sh3ySQSTw-o&t=705s) |  |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## AL objects mentioned
 

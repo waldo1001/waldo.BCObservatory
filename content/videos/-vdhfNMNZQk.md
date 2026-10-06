@@ -23,7 +23,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T13:03:29.052Z"
+  at: "2026-10-06T14:56:57.246Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -117,7 +117,10 @@ evidence:
 links:
   learn: []
   objects: []
-  features: []
+  features:
+    - feature/573320
+    - feature/573326
+    - feature/573327
   topics: []
   localizations: []
   videos: []
@@ -158,42 +161,66 @@ features:
     status: ga
     t: 6
     verified: true
+    status_source: roadmap
+    roadmap_ids:
+      - "573326"
+      - "573327"
   - name: Body layout
     status: unclear
     t: 61
     verified: false
+    status_source: video
   - name: Theme application
     status: ga
     t: 87
     verified: true
+    status_source: roadmap
+    roadmap_ids:
+      - "573327"
   - name: Header-footer layout application
     status: ga
     t: 87
     verified: true
+    status_source: roadmap
+    roadmap_ids:
+      - "573326"
   - name: Layered layout defaults
-    status: unclear
+    status: ga
     t: 243
     verified: false
+    status_source: roadmap
+    roadmap_ids:
+      - "573326"
   - name: Custom theme and header-footer layouts
-    status: unclear
+    status: ga
     t: 297
     verified: false
+    status_source: roadmap
+    roadmap_ids:
+      - "573326"
+      - "573327"
   - name: Managed theme and header-footer layouts page
     status: unclear
     t: 313
     verified: false
+    status_source: video
   - name: Shipped themes
     status: ga
     t: 415
     verified: true
+    status_source: video
   - name: Feature management for composite layouts
     status: unclear
     t: 575
     verified: false
+    status_source: video
   - name: Layout status control
     status: ga
     t: 647
     verified: true
+    status_source: roadmap
+    roadmap_ids:
+      - "573320"
 objects_mentioned:
   - page managed theme and header and footer layouts page
 quotes:
@@ -258,16 +285,18 @@ It shows defaults set at global, company, report and specific layout level, and 
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| Composite layouts for documents | generally available, demoed | [0:06](https://www.youtube.com/watch?v=-vdhfNMNZQk&t=6s) | "the product group we aim to ship in version 20 9 and 20 1 and send 20 9 1 um three themes approximately" ([6:17](https://www.youtube.com/watch?v=-vdhfNMNZQk&t=377s)) |
+| Composite layouts for documents | generally available (roadmap [573326](../features/573326.md), [573327](../features/573327.md)), demoed | [0:06](https://www.youtube.com/watch?v=-vdhfNMNZQk&t=6s) | "the product group we aim to ship in version 20 9 and 20 1 and send 20 9 1 um three themes approximately" ([6:17](https://www.youtube.com/watch?v=-vdhfNMNZQk&t=377s)) |
 | Body layout | status not stated, demoed | [1:01](https://www.youtube.com/watch?v=-vdhfNMNZQk&t=61s) |  |
-| Theme application | generally available, demoed | [1:27](https://www.youtube.com/watch?v=-vdhfNMNZQk&t=87s) | "we aim to ship in version 20.9 and 20.1 and send 20.9.1 um three themes" ([6:17](https://www.youtube.com/watch?v=-vdhfNMNZQk&t=377s)) |
-| Header-footer layout application | generally available, demoed | [1:27](https://www.youtube.com/watch?v=-vdhfNMNZQk&t=87s) | "we aim to ship in version 20.9 and 20.1 and send 20.9.1 um three themes, approximately eight um header footer layouts" ([6:17](https://www.youtube.com/watch?v=-vdhfNMNZQk&t=377s)) |
-| Layered layout defaults | status not stated, demoed | [4:03](https://www.youtube.com/watch?v=-vdhfNMNZQk&t=243s) |  |
-| Custom theme and header-footer layouts | status not stated | [4:57](https://www.youtube.com/watch?v=-vdhfNMNZQk&t=297s) |  |
+| Theme application | generally available (roadmap [573327](../features/573327.md)), demoed | [1:27](https://www.youtube.com/watch?v=-vdhfNMNZQk&t=87s) | "we aim to ship in version 20.9 and 20.1 and send 20.9.1 um three themes" ([6:17](https://www.youtube.com/watch?v=-vdhfNMNZQk&t=377s)) |
+| Header-footer layout application | generally available (roadmap [573326](../features/573326.md)), demoed | [1:27](https://www.youtube.com/watch?v=-vdhfNMNZQk&t=87s) | "we aim to ship in version 20.9 and 20.1 and send 20.9.1 um three themes, approximately eight um header footer layouts" ([6:17](https://www.youtube.com/watch?v=-vdhfNMNZQk&t=377s)) |
+| Layered layout defaults | generally available (roadmap [573326](../features/573326.md)), demoed | [4:03](https://www.youtube.com/watch?v=-vdhfNMNZQk&t=243s) |  |
+| Custom theme and header-footer layouts | generally available (roadmap [573326](../features/573326.md), [573327](../features/573327.md)) | [4:57](https://www.youtube.com/watch?v=-vdhfNMNZQk&t=297s) |  |
 | Managed theme and header-footer layouts page | status not stated | [5:13](https://www.youtube.com/watch?v=-vdhfNMNZQk&t=313s) |  |
 | Shipped themes | generally available, demoed | [6:55](https://www.youtube.com/watch?v=-vdhfNMNZQk&t=415s) | "we aim to ship in version 20.9 and 20.1 and send 20.9.1 um three themes" ([6:17](https://www.youtube.com/watch?v=-vdhfNMNZQk&t=377s)) |
 | Feature management for composite layouts | status not stated, demoed | [9:35](https://www.youtube.com/watch?v=-vdhfNMNZQk&t=575s) |  |
-| Layout status control | generally available, demoed | [10:47](https://www.youtube.com/watch?v=-vdhfNMNZQk&t=647s) | "we have the ability for you to set the state status of even the the layouts we ship to to either retired or draft." ([10:58](https://www.youtube.com/watch?v=-vdhfNMNZQk&t=658s)) |
+| Layout status control | generally available (roadmap [573320](../features/573320.md)), demoed | [10:47](https://www.youtube.com/watch?v=-vdhfNMNZQk&t=647s) | "we have the ability for you to set the state status of even the the layouts we ship to to either retired or draft." ([10:58](https://www.youtube.com/watch?v=-vdhfNMNZQk&t=658s)) |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## AL objects mentioned
 

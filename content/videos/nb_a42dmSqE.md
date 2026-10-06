@@ -22,7 +22,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T13:09:23.117Z"
+  at: "2026-10-06T14:56:57.246Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -124,34 +124,42 @@ features:
     status: unclear
     t: 17
     verified: false
+    status_source: video
   - name: Italian subcontracting migration app
     status: unclear
     t: 128
     verified: false
+    status_source: video
   - name: Legacy subcontracting pre-check
     status: unclear
     t: 139
     verified: false
+    status_source: video
   - name: Work in progress item migration handling
     status: unclear
     t: 54
     verified: false
+    status_source: video
   - name: Subcontracting application area toggle
     status: unclear
     t: 91
     verified: false
+    status_source: video
   - name: Subcontracting purchase and transfer order views
     status: unclear
     t: 497
     verified: false
+    status_source: video
   - name: Vendor subcontracting field migration
     status: unclear
     t: 268
     verified: false
+    status_source: video
   - name: Subcontracting prices migration
     status: unclear
     t: 268
     verified: false
+    status_source: video
 objects_mentioned:
   - other Manufacturing Setup
   - other Subcontracting Transfer

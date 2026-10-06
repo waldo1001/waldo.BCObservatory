@@ -19,7 +19,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T13:04:39.006Z"
+  at: "2026-10-06T14:56:57.246Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -78,7 +78,8 @@ evidence:
 links:
   learn: []
   objects: []
-  features: []
+  features:
+    - feature/573254
   topics: []
   localizations: []
   videos: []
@@ -116,21 +117,31 @@ chapters:
     title: Summary and simplicity focus
 features:
   - name: Date-range mileage allowances
-    status: unclear
+    status: preview
     t: 38
     verified: false
+    status_source: roadmap
+    roadmap_ids:
+      - "573254"
   - name: Vehicle-type-specific mileage rates
-    status: unclear
+    status: preview
     t: 81
     verified: false
+    status_source: roadmap
+    roadmap_ids:
+      - "573254"
   - name: Mileage rate setup table
-    status: unclear
+    status: preview
     t: 161
     verified: false
+    status_source: roadmap
+    roadmap_ids:
+      - "573254"
   - name: Backward compatibility with standard rate model
     status: unclear
     t: 124
     verified: false
+    status_source: video
 objects_mentioned:
   - other Expense Agent
   - other Expense Agent setup
@@ -197,10 +208,12 @@ The setup is shown in Expense Agent setup, a mileage rate setup table and a vehi
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| Date-range mileage allowances | status not stated, demoed | [0:38](https://www.youtube.com/watch?v=cWVhWBMbXb4&t=38s) |  |
-| Vehicle-type-specific mileage rates | status not stated, demoed | [1:21](https://www.youtube.com/watch?v=cWVhWBMbXb4&t=81s) |  |
-| Mileage rate setup table | status not stated, demoed | [2:41](https://www.youtube.com/watch?v=cWVhWBMbXb4&t=161s) |  |
+| Date-range mileage allowances | preview (roadmap [573254](../features/573254.md)), demoed | [0:38](https://www.youtube.com/watch?v=cWVhWBMbXb4&t=38s) |  |
+| Vehicle-type-specific mileage rates | preview (roadmap [573254](../features/573254.md)), demoed | [1:21](https://www.youtube.com/watch?v=cWVhWBMbXb4&t=81s) |  |
+| Mileage rate setup table | preview (roadmap [573254](../features/573254.md)), demoed | [2:41](https://www.youtube.com/watch?v=cWVhWBMbXb4&t=161s) |  |
 | Backward compatibility with standard rate model | status not stated, demoed | [2:04](https://www.youtube.com/watch?v=cWVhWBMbXb4&t=124s) |  |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## AL objects mentioned
 

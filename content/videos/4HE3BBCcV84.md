@@ -19,7 +19,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T14:04:06.984Z"
+  at: "2026-10-06T14:56:57.246Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -115,18 +115,22 @@ features:
     status: ga
     t: 5
     verified: true
+    status_source: video
   - name: Analytics API reference documentation
     status: unclear
     t: 172
     verified: false
+    status_source: video
   - name: MCP server configuration for object type query
     status: unclear
     t: 97
     verified: false
+    status_source: video
   - name: Power BI apps foundation with API queries
     status: unclear
     t: 21
     verified: false
+    status_source: video
 objects_mentioned:
   - query GL account category
 quotes:

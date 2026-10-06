@@ -20,7 +20,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T13:49:09.349Z"
+  at: "2026-10-06T14:56:57.246Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -100,18 +100,22 @@ features:
     status: unclear
     t: 59
     verified: false
+    status_source: video
   - name: Lot number certificate information capture
     status: unclear
     t: 99
     verified: false
+    status_source: video
   - name: EUTR flag on purchase lines
     status: unclear
     t: 140
     verified: false
+    status_source: video
   - name: Certification information on sales invoices
     status: unclear
     t: 171
     verified: false
+    status_source: video
 objects_mentioned: []
 quotes:
   - t: 17

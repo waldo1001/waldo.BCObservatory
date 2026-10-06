@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T13:51:14.883Z"
+  at: "2026-10-06T14:56:57.246Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -189,66 +189,82 @@ features:
     status: unclear
     t: 66
     verified: false
+    status_source: video
   - name: Find mapping by barcode
     status: unclear
     t: 125
     verified: false
+    status_source: video
   - name: Unlisted product status
     status: unclear
     t: 177
     verified: false
+    status_source: video
   - name: Skipped records tracking
     status: unclear
     t: 237
     verified: false
+    status_source: video
   - name: Provide feedback mechanism
     status: unclear
     t: 312
     verified: false
+    status_source: video
   - name: B2B company synchronization
     status: unclear
     t: 399
     verified: false
+    status_source: video
   - name: Market-based catalogs
     status: unclear
     t: 467
     verified: false
+    status_source: video
   - name: Company location tax registration import
     status: unclear
     t: 751
     verified: false
+    status_source: video
   - name: Shopify Connector localization extensions - Belgium and US
     status: unclear
     t: 804
     verified: false
+    status_source: video
   - name: Shopify order number in sales documents
     status: unclear
     t: 880
     verified: false
+    status_source: video
   - name: Contact numbers on sales orders
     status: unclear
     t: 948
     verified: false
+    status_source: video
   - name: Multi-line order handling and returns
     status: unclear
     t: 1028
     verified: false
+    status_source: video
   - name: Return order processing from Shopify refunds
     status: unclear
     t: 1091
     verified: false
+    status_source: video
   - name: Move negative lines in return orders
     status: unclear
     t: 1138
     verified: false
+    status_source: video
   - name: Tax details on Shopify refunds and orders
     status: unclear
     t: 1218
     verified: false
+    status_source: video
   - name: Tax area code and tax liable mapping override
     status: unclear
     t: 1278
     verified: false
+    status_source: video
 objects_mentioned: []
 quotes:
   - t: 18

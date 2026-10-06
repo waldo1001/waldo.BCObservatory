@@ -21,11 +21,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:09:29.470Z"
+  at: "2026-10-06T14:56:57.246Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
-    summarize-video: 1
+    summarize-video: 2
   input_hash: cb65aabe26311fd39ad2b669800b839a5c88e3bbd3bfc7724b198782c14b3797
 evidence:
   - kind: video
@@ -87,7 +87,9 @@ evidence:
 links:
   learn: []
   objects: []
-  features: []
+  features:
+    - feature/573318
+    - feature/573320
   topics: []
   localizations: []
   videos: []
@@ -123,29 +125,43 @@ chapters:
     title: Additional resources and conclusion
 features:
   - name: Layout status control
-    status: unclear
+    status: ga
     t: 31
     verified: false
+    status_source: roadmap
+    roadmap_ids:
+      - "573320"
   - name: Layout lifecycle states
-    status: unclear
+    status: ga
     t: 67
     verified: false
+    status_source: roadmap
+    roadmap_ids:
+      - "573320"
   - name: Layout administrator control of user visibility
-    status: unclear
+    status: ga
     t: 100
     verified: false
+    status_source: roadmap
+    roadmap_ids:
+      - "573320"
   - name: Developer comment override for layouts
     status: unclear
     t: 148
     verified: false
+    status_source: video
   - name: Report inbox APIs
-    status: unclear
+    status: ga
     t: 183
     verified: false
+    status_source: roadmap
+    roadmap_ids:
+      - "573318"
   - name: API overview page for report inbox
     status: ga
     t: 219
     verified: true
+    status_source: video
 objects_mentioned: []
 quotes:
   - t: 31
@@ -207,12 +223,14 @@ The second change is a set of report inbox APIs. The report inbox holds schedule
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| Layout status control | status not stated, demoed | [0:31](https://www.youtube.com/watch?v=2N2NhNH7dsk&t=31s) |  |
-| Layout lifecycle states | status not stated, demoed | [1:07](https://www.youtube.com/watch?v=2N2NhNH7dsk&t=67s) |  |
-| Layout administrator control of user visibility | status not stated, demoed | [1:40](https://www.youtube.com/watch?v=2N2NhNH7dsk&t=100s) |  |
+| Layout status control | generally available (roadmap [573320](../features/573320.md)), demoed | [0:31](https://www.youtube.com/watch?v=2N2NhNH7dsk&t=31s) |  |
+| Layout lifecycle states | generally available (roadmap [573320](../features/573320.md)), demoed | [1:07](https://www.youtube.com/watch?v=2N2NhNH7dsk&t=67s) |  |
+| Layout administrator control of user visibility | generally available (roadmap [573320](../features/573320.md)), demoed | [1:40](https://www.youtube.com/watch?v=2N2NhNH7dsk&t=100s) |  |
 | Developer comment override for layouts | status not stated | [2:28](https://www.youtube.com/watch?v=2N2NhNH7dsk&t=148s) |  |
-| Report inbox APIs | status not stated | [3:03](https://www.youtube.com/watch?v=2N2NhNH7dsk&t=183s) |  |
+| Report inbox APIs | generally available (roadmap [573318](../features/573318.md)) | [3:03](https://www.youtube.com/watch?v=2N2NhNH7dsk&t=183s) |  |
 | API overview page for report inbox | generally available | [3:39](https://www.youtube.com/watch?v=2N2NhNH7dsk&t=219s) | "The new APIs are easiest to find them is to go to the new API overview page that we are also shipping here in" ([3:39](https://www.youtube.com/watch?v=2N2NhNH7dsk&t=219s)) |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## Quotes
 

@@ -19,7 +19,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:58:18.011Z"
+  at: "2026-10-06T14:56:57.246Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -85,7 +85,8 @@ evidence:
 links:
   learn: []
   objects: []
-  features: []
+  features:
+    - feature/573255
   topics: []
   localizations: []
   videos: []
@@ -123,41 +124,52 @@ chapters:
     title: Travel request approval and closing
 features:
   - name: AI-driven approval policies
-    status: unclear
+    status: preview
     t: 53
     verified: false
+    status_source: roadmap
+    roadmap_ids:
+      - "573255"
   - name: Enhanced approval history and audit trail
     status: unclear
     t: 204
     verified: false
+    status_source: video
   - name: Employee manual compliance checks
     status: unclear
     t: 167
     verified: false
+    status_source: video
   - name: Interim approvers
     status: unclear
     t: 405
     verified: false
+    status_source: video
   - name: Better approval messaging
     status: unclear
     t: 468
     verified: false
+    status_source: video
   - name: Approval limits
     status: announced
     t: 492
     verified: true
+    status_source: video
   - name: Ad hoc alternate approvers
     status: unclear
     t: 543
     verified: false
+    status_source: video
   - name: Planned alternate approvers
     status: unclear
     t: 586
     verified: false
+    status_source: video
   - name: Travel request approval
     status: unclear
     t: 622
     verified: false
+    status_source: video
 objects_mentioned: []
 quotes:
   - t: 53
@@ -221,7 +233,7 @@ The second half covers features described as coming in the November release (29.
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| AI-driven approval policies | status not stated, demoed | [0:53](https://www.youtube.com/watch?v=M0IzeLSn7qU&t=53s) |  |
+| AI-driven approval policies | preview (roadmap [573255](../features/573255.md)), demoed | [0:53](https://www.youtube.com/watch?v=M0IzeLSn7qU&t=53s) |  |
 | Enhanced approval history and audit trail | status not stated, demoed | [3:24](https://www.youtube.com/watch?v=M0IzeLSn7qU&t=204s) |  |
 | Employee manual compliance checks | status not stated | [2:47](https://www.youtube.com/watch?v=M0IzeLSn7qU&t=167s) |  |
 | Interim approvers | status not stated | [6:45](https://www.youtube.com/watch?v=M0IzeLSn7qU&t=405s) |  |
@@ -230,6 +242,8 @@ The second half covers features described as coming in the November release (29.
 | Ad hoc alternate approvers | status not stated | [9:03](https://www.youtube.com/watch?v=M0IzeLSn7qU&t=543s) |  |
 | Planned alternate approvers | status not stated | [9:46](https://www.youtube.com/watch?v=M0IzeLSn7qU&t=586s) |  |
 | Travel request approval | status not stated | [10:22](https://www.youtube.com/watch?v=M0IzeLSn7qU&t=622s) |  |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## Quotes
 

@@ -20,7 +20,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:57:31.720Z"
+  at: "2026-10-06T14:56:57.246Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -109,18 +109,22 @@ features:
     status: unclear
     t: 57
     verified: false
+    status_source: video
   - name: Exports on operations page
     status: unclear
     t: 94
     verified: false
+    status_source: video
   - name: Database export history page retirement
     status: unclear
     t: 183
     verified: false
+    status_source: video
   - name: Admin center API export history endpoint deprecation
     status: unclear
     t: 195
     verified: false
+    status_source: video
 objects_mentioned: []
 quotes:
   - t: 33

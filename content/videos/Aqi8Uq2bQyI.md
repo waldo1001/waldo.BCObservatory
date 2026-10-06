@@ -21,7 +21,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:53:40.736Z"
+  at: "2026-10-06T14:56:57.246Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -87,7 +87,8 @@ evidence:
 links:
   learn: []
   objects: []
-  features: []
+  features:
+    - feature/573384
   topics: []
   localizations: []
   videos: []
@@ -122,22 +123,33 @@ features:
     status: ga
     t: 20
     verified: true
+    status_source: video
   - name: Page scripting localization
-    status: unclear
+    status: ga
     t: 73
     verified: false
+    status_source: roadmap
+    roadmap_ids:
+      - "573384"
   - name: Multiple selection in grids
-    status: unclear
+    status: ga
     t: 111
     verified: false
+    status_source: roadmap
+    roadmap_ids:
+      - "573384"
   - name: Message and error dialogue validation
-    status: unclear
+    status: ga
     t: 122
     verified: false
+    status_source: roadmap
+    roadmap_ids:
+      - "573384"
   - name: Agent-generated page scripts
     status: unclear
     t: 149
     verified: false
+    status_source: video
 objects_mentioned: []
 quotes:
   - t: 20
@@ -198,10 +210,12 @@ The release adds full localization (steps, error messages and tooltips), recordi
 | Feature | Status | At | Evidence |
 |---|---|---|---|
 | Page scripting tool | generally available | [0:20](https://www.youtube.com/watch?v=Aqi8Uq2bQyI&t=20s) | "in this release, we are now moving the page scripting from preview into making it generally available" ([1:00](https://www.youtube.com/watch?v=Aqi8Uq2bQyI&t=60s)) |
-| Page scripting localization | status not stated | [1:13](https://www.youtube.com/watch?v=Aqi8Uq2bQyI&t=73s) |  |
-| Multiple selection in grids | status not stated, demoed | [1:51](https://www.youtube.com/watch?v=Aqi8Uq2bQyI&t=111s) |  |
-| Message and error dialogue validation | status not stated, demoed | [2:02](https://www.youtube.com/watch?v=Aqi8Uq2bQyI&t=122s) |  |
+| Page scripting localization | generally available (roadmap [573384](../features/573384.md)) | [1:13](https://www.youtube.com/watch?v=Aqi8Uq2bQyI&t=73s) |  |
+| Multiple selection in grids | generally available (roadmap [573384](../features/573384.md)), demoed | [1:51](https://www.youtube.com/watch?v=Aqi8Uq2bQyI&t=111s) |  |
+| Message and error dialogue validation | generally available (roadmap [573384](../features/573384.md)), demoed | [2:02](https://www.youtube.com/watch?v=Aqi8Uq2bQyI&t=122s) |  |
 | Agent-generated page scripts | status not stated | [2:29](https://www.youtube.com/watch?v=Aqi8Uq2bQyI&t=149s) |  |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## Quotes
 

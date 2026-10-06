@@ -23,7 +23,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T13:50:36.011Z"
+  at: "2026-10-06T14:56:57.246Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -119,46 +119,57 @@ features:
     status: unclear
     t: 13
     verified: false
+    status_source: video
   - name: Production order replenishment
     status: unclear
     t: 34
     verified: false
+    status_source: video
   - name: Assembly replenishment
     status: unclear
     t: 58
     verified: false
+    status_source: video
   - name: BOM formulas for units of measure
     status: unclear
     t: 85
     verified: false
+    status_source: video
   - name: Where-used analysis
     status: unclear
     t: 116
     verified: false
+    status_source: video
   - name: BOM item versions with ending dates
     status: unclear
     t: 139
     verified: false
+    status_source: video
   - name: Phantom BOMs
     status: unclear
     t: 156
     verified: false
+    status_source: video
   - name: Production BOM version management
     status: unclear
     t: 171
     verified: false
+    status_source: video
   - name: Production BOM version comparison
     status: unclear
     t: 186
     verified: false
+    status_source: video
   - name: Production order creation from BOM
     status: unclear
     t: 212
     verified: false
+    status_source: video
   - name: Production order components action
     status: unclear
     t: 256
     verified: false
+    status_source: video
 objects_mentioned:
   - table Item Card
   - other Production BOM

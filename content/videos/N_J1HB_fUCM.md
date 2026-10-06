@@ -22,7 +22,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:59:04.036Z"
+  at: "2026-10-06T14:56:57.246Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -123,7 +123,10 @@ evidence:
 links:
   learn: []
   objects: []
-  features: []
+  features:
+    - feature/573306
+    - feature/573307
+    - feature/573308
   topics: []
   localizations: []
   videos: []
@@ -160,69 +163,91 @@ chapters:
     title: Localization updates
 features:
   - name: Multiple excise taxes per item
-    status: unclear
+    status: preview
     t: 54
     verified: false
+    status_source: roadmap
+    roadmap_ids:
+      - "573306"
   - name: Bonded location support for excise taxes
     status: announced
     t: 104
     verified: true
+    status_source: video
   - name: Transfer entry type for excise permissions
     status: unclear
     t: 166
     verified: false
+    status_source: video
   - name: Ad valorem excise tax calculation
     status: announced
     t: 189
     verified: true
+    status_source: video
   - name: Hybrid excise tax calculation model
     status: unclear
     t: 229
     verified: false
+    status_source: video
   - name: Self-billing vendor-specific number series
-    status: unclear
+    status: preview
     t: 258
     verified: false
+    status_source: roadmap
+    roadmap_ids:
+      - "573307"
   - name: Self-billing PEPPOL format support
     status: unclear
     t: 292
     verified: false
+    status_source: video
   - name: Cross environment master data management
     status: unclear
     t: 315
     verified: false
+    status_source: video
   - name: Withholding tax for employees
-    status: unclear
+    status: preview
     t: 375
     verified: false
+    status_source: roadmap
+    roadmap_ids:
+      - "573308"
   - name: Verwaltungs-BPjecto (Very FAct 2) in Spain GA
     status: ga
     t: 462
     verified: true
+    status_source: video
   - name: Invoicing for France GA
     status: ga
     t: 497
     verified: true
+    status_source: video
   - name: Payment terms expansion for Australia and Great Britain
     status: unclear
     t: 497
     verified: false
+    status_source: video
   - name: Intrastat reporting for Germany
     status: unclear
     t: 511
     verified: false
+    status_source: video
   - name: Fully structured address for QR invoicing in Switzerland
     status: unclear
     t: 511
     verified: false
+    status_source: video
   - name: EU BP audit file export for Germany
     status: unclear
     t: 523
     verified: false
+    status_source: video
   - name: SFT enablement for Austria and Iceland
     status: announced
     t: 540
     verified: true
+    status_source: video
 objects_mentioned: []
 quotes:
   - t: 54
@@ -288,15 +313,15 @@ The video also covers self-billing (vendor-specific number series and PEPPOL for
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| Multiple excise taxes per item | status not stated | [0:54](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=54s) |  |
+| Multiple excise taxes per item | preview (roadmap [573306](../features/573306.md)) | [0:54](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=54s) |  |
 | Bonded location support for excise taxes | announced | [1:44](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=104s) | "This is something what is coming in November minor, two new features." ([1:44](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=104s)) |
 | Transfer entry type for excise permissions | status not stated | [2:46](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=166s) |  |
 | Ad valorem excise tax calculation | announced | [3:09](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=189s) | "So now you will have new model ad valorem, where you have formula here with excise will be calculated using percent on a taxable" ([3:34](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=214s)) |
 | Hybrid excise tax calculation model | status not stated | [3:49](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=229s) |  |
-| Self-billing vendor-specific number series | status not stated | [4:18](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=258s) |  |
+| Self-billing vendor-specific number series | preview (roadmap [573307](../features/573307.md)) | [4:18](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=258s) |  |
 | Self-billing PEPPOL format support | status not stated | [4:52](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=292s) |  |
 | Cross environment master data management | status not stated | [5:15](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=315s) |  |
-| Withholding tax for employees | status not stated | [6:15](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=375s) |  |
+| Withholding tax for employees | preview (roadmap [573308](../features/573308.md)) | [6:15](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=375s) |  |
 | Verwaltungs-BPjecto (Very FAct 2) in Spain GA | generally available | [7:42](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=462s) | "Very fact two enablement in Spain is now in GA" ([7:55](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=475s)) |
 | Invoicing for France GA | generally available | [8:17](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=497s) | "we introduce invoicing for France. It will be in GA as well" ([8:17](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=497s)) |
 | Payment terms expansion for Australia and Great Britain | status not stated | [8:17](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=497s) |  |
@@ -304,6 +329,8 @@ The video also covers self-billing (vendor-specific number series and PEPPOL for
 | Fully structured address for QR invoicing in Switzerland | status not stated | [8:31](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=511s) |  |
 | EU BP audit file export for Germany | status not stated | [8:43](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=523s) |  |
 | SFT enablement for Austria and Iceland | announced | [9:00](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=540s) | "we will enable SFT in Austria and Iceland starting from December. It will be standard functionality" ([9:00](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=540s)) |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## Quotes
 

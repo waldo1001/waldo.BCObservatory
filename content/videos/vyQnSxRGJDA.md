@@ -21,7 +21,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T14:02:54.222Z"
+  at: "2026-10-06T14:56:57.246Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -118,34 +118,42 @@ features:
     status: unclear
     t: 12
     verified: false
+    status_source: video
   - name: Expense Agent Wizard Configuration
     status: unclear
     t: 27
     verified: false
+    status_source: video
   - name: Itinerary Detection and Classification
     status: unclear
     t: 110
     verified: false
+    status_source: video
   - name: Automatic Location Detection
     status: unclear
     t: 157
     verified: false
+    status_source: video
   - name: Meal Reduction Configuration and Application
     status: unclear
     t: 76
     verified: false
+    status_source: video
   - name: Per Diem Trip Period Detection
     status: unclear
     t: 121
     verified: false
+    status_source: video
   - name: Per Diem Expense Web Application
     status: unclear
     t: 110
     verified: false
+    status_source: video
   - name: Per Diem Admin Settings Tab
     status: unclear
     t: 262
     verified: false
+    status_source: video
 objects_mentioned: []
 quotes:
   - t: 12

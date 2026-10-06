@@ -21,7 +21,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:56:43.537Z"
+  at: "2026-10-06T14:56:57.246Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -87,7 +87,8 @@ evidence:
 links:
   learn: []
   objects: []
-  features: []
+  features:
+    - feature/573259
   topics: []
   localizations: []
   videos: []
@@ -124,33 +125,48 @@ chapters:
     title: Summary and conclusion
 features:
   - name: Project tracking in Expense Agent web app
-    status: unclear
+    status: preview
     t: 37
     verified: false
+    status_source: roadmap
+    roadmap_ids:
+      - "573259"
   - name: Project visibility options - all projects vs assigned projects
-    status: unclear
+    status: preview
     t: 53
     verified: false
+    status_source: roadmap
+    roadmap_ids:
+      - "573259"
   - name: Project resource assignment on project card
-    status: unclear
+    status: preview
     t: 106
     verified: false
+    status_source: roadmap
+    roadmap_ids:
+      - "573259"
   - name: Project task level resource assignment
-    status: unclear
+    status: preview
     t: 127
     verified: false
+    status_source: roadmap
+    roadmap_ids:
+      - "573259"
   - name: Resource creation and employee linking prerequisites
     status: unclear
     t: 154
     verified: false
+    status_source: video
   - name: Active projects and posting tasks filter
     status: unclear
     t: 265
     verified: false
+    status_source: video
   - name: Project ledger entry creation on expense posting
     status: unclear
     t: 22
     verified: false
+    status_source: video
 objects_mentioned:
   - page Expense Agent setup
   - page project card
@@ -221,13 +237,15 @@ The demo goes through the setup in Business Central: enabling project tracking i
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| Project tracking in Expense Agent web app | status not stated, demoed | [0:37](https://www.youtube.com/watch?v=GwrMf1umTFg&t=37s) |  |
-| Project visibility options - all projects vs assigned projects | status not stated, demoed | [0:53](https://www.youtube.com/watch?v=GwrMf1umTFg&t=53s) |  |
-| Project resource assignment on project card | status not stated, demoed | [1:46](https://www.youtube.com/watch?v=GwrMf1umTFg&t=106s) |  |
-| Project task level resource assignment | status not stated, demoed | [2:07](https://www.youtube.com/watch?v=GwrMf1umTFg&t=127s) |  |
+| Project tracking in Expense Agent web app | preview (roadmap [573259](../features/573259.md)), demoed | [0:37](https://www.youtube.com/watch?v=GwrMf1umTFg&t=37s) |  |
+| Project visibility options - all projects vs assigned projects | preview (roadmap [573259](../features/573259.md)), demoed | [0:53](https://www.youtube.com/watch?v=GwrMf1umTFg&t=53s) |  |
+| Project resource assignment on project card | preview (roadmap [573259](../features/573259.md)), demoed | [1:46](https://www.youtube.com/watch?v=GwrMf1umTFg&t=106s) |  |
+| Project task level resource assignment | preview (roadmap [573259](../features/573259.md)), demoed | [2:07](https://www.youtube.com/watch?v=GwrMf1umTFg&t=127s) |  |
 | Resource creation and employee linking prerequisites | status not stated, demoed | [2:34](https://www.youtube.com/watch?v=GwrMf1umTFg&t=154s) |  |
 | Active projects and posting tasks filter | status not stated, demoed | [4:25](https://www.youtube.com/watch?v=GwrMf1umTFg&t=265s) |  |
 | Project ledger entry creation on expense posting | status not stated, demoed | [0:22](https://www.youtube.com/watch?v=GwrMf1umTFg&t=22s) |  |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## AL objects mentioned
 

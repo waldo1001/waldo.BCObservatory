@@ -22,7 +22,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T13:06:31.873Z"
+  at: "2026-10-06T14:56:57.246Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -170,30 +170,37 @@ features:
     status: preview
     t: 7
     verified: true
+    status_source: video
   - name: Microsoft Fabric integration app
     status: preview
     t: 132
     verified: true
+    status_source: video
   - name: Mirror database in OneLake
     status: preview
     t: 265
     verified: true
+    status_source: video
   - name: Multi-company Power BI apps
     status: announced
     t: 315
     verified: true
+    status_source: video
   - name: Synchronization overview and details logs
     status: preview
     t: 427
     verified: true
+    status_source: video
   - name: Fabric integration APIs
     status: preview
     t: 499
     verified: true
+    status_source: video
   - name: Fabric integration permission sets
     status: preview
     t: 539
     verified: true
+    status_source: video
 objects_mentioned: []
 quotes:
   - t: 19

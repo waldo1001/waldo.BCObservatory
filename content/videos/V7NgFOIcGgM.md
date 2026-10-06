@@ -22,7 +22,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T13:48:45.744Z"
+  at: "2026-10-06T14:56:57.246Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -74,7 +74,8 @@ evidence:
 links:
   learn: []
   objects: []
-  features: []
+  features:
+    - feature/573362
   topics: []
   localizations: []
   videos: []
@@ -116,69 +117,87 @@ chapters:
     title: "Q&A: Feedback and closing remarks"
 features:
   - name: Microsoft Copilot Chat in Business Central
-    status: unclear
+    status: ga
     t: 5
     verified: false
+    status_source: roadmap
+    roadmap_ids:
+      - "573362"
   - name: Business Central Tools
     status: unclear
     t: 429
     verified: false
+    status_source: video
   - name: Agentic Loop
     status: unclear
     t: 397
     verified: false
+    status_source: video
   - name: Intent Detection
     status: unclear
     t: 386
     verified: false
+    status_source: video
   - name: Multi-source Data Integration
     status: unclear
     t: 429
     verified: false
+    status_source: video
   - name: Citations and Verification
     status: unclear
     t: 798
     verified: false
+    status_source: video
   - name: Permission Enforcement
     status: unclear
     t: 576
     verified: false
+    status_source: video
   - name: Copilot and Agent Capabilities Control
     status: unclear
     t: 623
     verified: false
+    status_source: video
   - name: MCP Server Technology
     status: unclear
     t: 677
     verified: false
+    status_source: video
   - name: Extension Guidelines for Copilot
     status: unclear
     t: 756
     verified: false
+    status_source: video
   - name: Conversational Context and Suggestions
     status: unclear
     t: 520
     verified: false
+    status_source: video
   - name: Rich Output Formatting
     status: unclear
     t: 498
     verified: false
+    status_source: video
   - name: Progress Messages
     status: unclear
     t: 122
     verified: false
+    status_source: video
   - name: Vague Query Resolution
     status: unclear
     t: 217
     verified: false
+    status_source: video
   - name: UI Context Awareness
     status: unclear
     t: 351
     verified: false
+    status_source: video
   - name: User Feedback Loop
     status: unclear
     t: 888
     verified: false
+    status_source: video
 objects_mentioned:
   - other Item Card
   - other Items List
@@ -242,7 +261,7 @@ The second half explains how Copilot works: intent detection from conversation h
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| Microsoft Copilot Chat in Business Central | status not stated, demoed | [0:05](https://www.youtube.com/watch?v=V7NgFOIcGgM&t=5s) |  |
+| Microsoft Copilot Chat in Business Central | generally available (roadmap [573362](../features/573362.md)), demoed | [0:05](https://www.youtube.com/watch?v=V7NgFOIcGgM&t=5s) |  |
 | Business Central Tools | status not stated, demoed | [7:09](https://www.youtube.com/watch?v=V7NgFOIcGgM&t=429s) |  |
 | Agentic Loop | status not stated, demoed | [6:37](https://www.youtube.com/watch?v=V7NgFOIcGgM&t=397s) |  |
 | Intent Detection | status not stated | [6:26](https://www.youtube.com/watch?v=V7NgFOIcGgM&t=386s) |  |
@@ -258,6 +277,8 @@ The second half explains how Copilot works: intent detection from conversation h
 | Vague Query Resolution | status not stated, demoed | [3:37](https://www.youtube.com/watch?v=V7NgFOIcGgM&t=217s) |  |
 | UI Context Awareness | status not stated, demoed | [5:51](https://www.youtube.com/watch?v=V7NgFOIcGgM&t=351s) |  |
 | User Feedback Loop | status not stated | [14:48](https://www.youtube.com/watch?v=V7NgFOIcGgM&t=888s) |  |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## AL objects mentioned
 

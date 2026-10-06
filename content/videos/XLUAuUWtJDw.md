@@ -22,7 +22,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T13:49:46.765Z"
+  at: "2026-10-06T14:56:57.246Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -88,7 +88,12 @@ evidence:
 links:
   learn: []
   objects: []
-  features: []
+  features:
+    - feature/573321
+    - feature/573328
+    - feature/573329
+    - feature/573330
+    - feature/573331
   topics: []
   localizations: []
   videos: []
@@ -127,42 +132,70 @@ features:
     status: ga
     t: 29
     verified: true
+    status_source: roadmap
+    roadmap_ids:
+      - "573321"
   - name: Table builder editing
     status: unclear
     t: 117
     verified: false
+    status_source: video
   - name: Address design control
-    status: unclear
+    status: ga
     t: 193
     verified: false
+    status_source: roadmap
+    roadmap_ids:
+      - "573328"
   - name: Field group design control
-    status: unclear
+    status: ga
     t: 245
     verified: false
+    status_source: roadmap
+    roadmap_ids:
+      - "573328"
   - name: Amounts design control
-    status: unclear
+    status: ga
     t: 290
     verified: false
+    status_source: roadmap
+    roadmap_ids:
+      - "573328"
   - name: Signature line design control
-    status: unclear
+    status: ga
     t: 303
     verified: false
+    status_source: roadmap
+    roadmap_ids:
+      - "573328"
   - name: Notes design control
-    status: unclear
+    status: ga
     t: 326
     verified: false
+    status_source: roadmap
+    roadmap_ids:
+      - "573328"
   - name: Hide-if logical control
-    status: unclear
+    status: ga
     t: 361
     verified: false
+    status_source: roadmap
+    roadmap_ids:
+      - "573329"
   - name: Theme sample documents
-    status: unclear
+    status: ga
     t: 428
     verified: false
+    status_source: roadmap
+    roadmap_ids:
+      - "573330"
   - name: Header footer layout templates
     status: ga
     t: 509
     verified: true
+    status_source: roadmap
+    roadmap_ids:
+      - "573331"
 objects_mentioned: []
 quotes:
   - t: 60
@@ -222,16 +255,18 @@ It also shows a set of reusable design building blocks (address, field group, am
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| Company information dataset | generally available, demoed | [0:29](https://www.youtube.com/watch?v=XLUAuUWtJDw&t=29s) | "So we decided we wanted to ship that always. So in the future when you need to create a report uh with a word" ([1:00](https://www.youtube.com/watch?v=XLUAuUWtJDw&t=60s)) |
+| Company information dataset | generally available (roadmap [573321](../features/573321.md)), demoed | [0:29](https://www.youtube.com/watch?v=XLUAuUWtJDw&t=29s) | "So we decided we wanted to ship that always. So in the future when you need to create a report uh with a word" ([1:00](https://www.youtube.com/watch?v=XLUAuUWtJDw&t=60s)) |
 | Table builder editing | status not stated, demoed | [1:57](https://www.youtube.com/watch?v=XLUAuUWtJDw&t=117s) |  |
-| Address design control | status not stated, demoed | [3:13](https://www.youtube.com/watch?v=XLUAuUWtJDw&t=193s) |  |
-| Field group design control | status not stated, demoed | [4:05](https://www.youtube.com/watch?v=XLUAuUWtJDw&t=245s) |  |
-| Amounts design control | status not stated, demoed | [4:50](https://www.youtube.com/watch?v=XLUAuUWtJDw&t=290s) |  |
-| Signature line design control | status not stated, demoed | [5:03](https://www.youtube.com/watch?v=XLUAuUWtJDw&t=303s) |  |
-| Notes design control | status not stated, demoed | [5:26](https://www.youtube.com/watch?v=XLUAuUWtJDw&t=326s) |  |
-| Hide-if logical control | status not stated, demoed | [6:01](https://www.youtube.com/watch?v=XLUAuUWtJDw&t=361s) |  |
-| Theme sample documents | status not stated, demoed | [7:08](https://www.youtube.com/watch?v=XLUAuUWtJDw&t=428s) |  |
-| Header footer layout templates | generally available, demoed | [8:29](https://www.youtube.com/watch?v=XLUAuUWtJDw&t=509s) | "we ship I think eight 10 different header footer layouts. If you want to create your own, you can also get some help from" ([8:56](https://www.youtube.com/watch?v=XLUAuUWtJDw&t=536s)) |
+| Address design control | generally available (roadmap [573328](../features/573328.md)), demoed | [3:13](https://www.youtube.com/watch?v=XLUAuUWtJDw&t=193s) |  |
+| Field group design control | generally available (roadmap [573328](../features/573328.md)), demoed | [4:05](https://www.youtube.com/watch?v=XLUAuUWtJDw&t=245s) |  |
+| Amounts design control | generally available (roadmap [573328](../features/573328.md)), demoed | [4:50](https://www.youtube.com/watch?v=XLUAuUWtJDw&t=290s) |  |
+| Signature line design control | generally available (roadmap [573328](../features/573328.md)), demoed | [5:03](https://www.youtube.com/watch?v=XLUAuUWtJDw&t=303s) |  |
+| Notes design control | generally available (roadmap [573328](../features/573328.md)), demoed | [5:26](https://www.youtube.com/watch?v=XLUAuUWtJDw&t=326s) |  |
+| Hide-if logical control | generally available (roadmap [573329](../features/573329.md)), demoed | [6:01](https://www.youtube.com/watch?v=XLUAuUWtJDw&t=361s) |  |
+| Theme sample documents | generally available (roadmap [573330](../features/573330.md)), demoed | [7:08](https://www.youtube.com/watch?v=XLUAuUWtJDw&t=428s) |  |
+| Header footer layout templates | generally available (roadmap [573331](../features/573331.md)), demoed | [8:29](https://www.youtube.com/watch?v=XLUAuUWtJDw&t=509s) | "we ship I think eight 10 different header footer layouts. If you want to create your own, you can also get some help from" ([8:56](https://www.youtube.com/watch?v=XLUAuUWtJDw&t=536s)) |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## Quotes
 

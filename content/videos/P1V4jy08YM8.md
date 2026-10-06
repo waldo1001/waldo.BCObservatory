@@ -22,7 +22,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T14:02:20.700Z"
+  at: "2026-10-06T14:56:57.246Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -112,66 +112,82 @@ features:
     status: unclear
     t: 0
     verified: false
+    status_source: video
   - name: Access and submission configuration
     status: unclear
     t: 38
     verified: false
+    status_source: video
   - name: Expense user registration
     status: unclear
     t: 75
     verified: false
+    status_source: video
   - name: Default approver configuration
     status: unclear
     t: 93
     verified: false
+    status_source: video
   - name: Number series configuration
     status: unclear
     t: 118
     verified: false
+    status_source: video
   - name: Payment method defaults
     status: unclear
     t: 142
     verified: false
+    status_source: video
   - name: Posting group defaults
     status: unclear
     t: 155
     verified: false
+    status_source: video
   - name: Expense categories
     status: unclear
     t: 155
     verified: false
+    status_source: video
   - name: Management defaults and rules
     status: unclear
     t: 172
     verified: false
+    status_source: video
   - name: Rules and controls enforcement
     status: unclear
     t: 201
     verified: false
+    status_source: video
   - name: Email notification configuration
     status: unclear
     t: 232
     verified: false
+    status_source: video
   - name: Approval notifications
     status: unclear
     t: 257
     verified: false
+    status_source: video
   - name: Mileage expense configuration
     status: unclear
     t: 268
     verified: false
+    status_source: video
   - name: Project tracking for expenses
     status: unclear
     t: 284
     verified: false
+    status_source: video
   - name: Per diem expense configuration
     status: unclear
     t: 304
     verified: false
+    status_source: video
   - name: Welcome email to expense users
     status: unclear
     t: 334
     verified: false
+    status_source: video
 objects_mentioned: []
 quotes:
   - t: 0

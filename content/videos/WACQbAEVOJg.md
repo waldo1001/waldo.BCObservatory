@@ -23,7 +23,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T13:49:09.434Z"
+  at: "2026-10-06T14:56:57.246Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -103,7 +103,10 @@ evidence:
 links:
   learn: []
   objects: []
-  features: []
+  features:
+    - feature/573345
+    - feature/573347
+    - feature/573355
   topics: []
   localizations: []
   videos: []
@@ -139,65 +142,86 @@ chapters:
     title: "Quality inspection enhancements: user roles and workflow automation"
 features:
   - name: Subcontracting comments and attachments on purchase lines
-    status: unclear
+    status: ga
     t: 89
     verified: false
+    status_source: roadmap
+    roadmap_ids:
+      - "573345"
   - name: Inventory put-away for subcontracted operations
-    status: unclear
+    status: ga
     t: 168
     verified: false
+    status_source: roadmap
+    roadmap_ids:
+      - "573355"
   - name: Create released production orders from planning worksheet
     status: ga
     t: 281
     verified: true
+    status_source: video
   - name: Dynamic field visibility for parallel routings
     status: unclear
     t: 418
     verified: false
+    status_source: video
   - name: Machine center calendar entries availability check
     status: unclear
     t: 456
     verified: false
+    status_source: video
   - name: Direct transfer posting modes selection
-    status: unclear
+    status: ga
     t: 582
     verified: false
+    status_source: roadmap
+    roadmap_ids:
+      - "573347"
   - name: Partial shipment for direct transfer shipment and receipt mode
     status: ga
     t: 645
     verified: true
+    status_source: video
   - name: Transfer route specification for direct transfer mode
     status: ga
     t: 669
     verified: true
+    status_source: video
   - name: In-transit location for transfers
     status: unclear
     t: 743
     verified: false
+    status_source: video
   - name: Location code copy to value entries for manufacturing
     status: unclear
     t: 774
     verified: false
+    status_source: video
   - name: Inventory put-away and pick for partial transfers
     status: unclear
     t: 810
     verified: false
+    status_source: video
   - name: Quality inspection blocking transfers
     status: unclear
     t: 925
     verified: false
+    status_source: video
   - name: Quality inspection user role permissions
     status: unclear
     t: 989
     verified: false
+    status_source: video
   - name: Quality inspection auto-assignment recommendation
     status: unclear
     t: 978
     verified: false
+    status_source: video
   - name: Quality inspection passed/failed quantity auto-update
     status: unclear
     t: 1054
     verified: false
+    status_source: video
 objects_mentioned:
   - other Planning Worksheet
   - other Machine Center
@@ -265,12 +289,12 @@ It then covers transfers: choosing a posting mode for direct transfers, partial 
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| Subcontracting comments and attachments on purchase lines | status not stated, demoed | [1:29](https://www.youtube.com/watch?v=WACQbAEVOJg&t=89s) |  |
-| Inventory put-away for subcontracted operations | status not stated, demoed | [2:48](https://www.youtube.com/watch?v=WACQbAEVOJg&t=168s) |  |
+| Subcontracting comments and attachments on purchase lines | generally available (roadmap [573345](../features/573345.md)), demoed | [1:29](https://www.youtube.com/watch?v=WACQbAEVOJg&t=89s) |  |
+| Inventory put-away for subcontracted operations | generally available (roadmap [573355](../features/573355.md)), demoed | [2:48](https://www.youtube.com/watch?v=WACQbAEVOJg&t=168s) |  |
 | Create released production orders from planning worksheet | generally available, demoed | [4:41](https://www.youtube.com/watch?v=WACQbAEVOJg&t=281s) | "I can create production orders in status released or released and print" ([4:41](https://www.youtube.com/watch?v=WACQbAEVOJg&t=281s)) |
 | Dynamic field visibility for parallel routings | status not stated, demoed | [6:58](https://www.youtube.com/watch?v=WACQbAEVOJg&t=418s) |  |
 | Machine center calendar entries availability check | status not stated, demoed | [7:36](https://www.youtube.com/watch?v=WACQbAEVOJg&t=456s) |  |
-| Direct transfer posting modes selection | status not stated, demoed | [9:42](https://www.youtube.com/watch?v=WACQbAEVOJg&t=582s) |  |
+| Direct transfer posting modes selection | generally available (roadmap [573347](../features/573347.md)), demoed | [9:42](https://www.youtube.com/watch?v=WACQbAEVOJg&t=582s) |  |
 | Partial shipment for direct transfer shipment and receipt mode | generally available, demoed | [10:45](https://www.youtube.com/watch?v=WACQbAEVOJg&t=645s) | "this is a benefit of direct transfer of mode ship and receipt. It supports partial shipping" ([10:45](https://www.youtube.com/watch?v=WACQbAEVOJg&t=645s)) |
 | Transfer route specification for direct transfer mode | generally available, demoed | [11:09](https://www.youtube.com/watch?v=WACQbAEVOJg&t=669s) | "these two fields are now available in the on the transfer route specification. And I can change it and decide to use shipment and" ([11:37](https://www.youtube.com/watch?v=WACQbAEVOJg&t=697s)) |
 | In-transit location for transfers | status not stated, demoed | [12:23](https://www.youtube.com/watch?v=WACQbAEVOJg&t=743s) |  |
@@ -280,6 +304,8 @@ It then covers transfers: choosing a posting mode for direct transfers, partial 
 | Quality inspection user role permissions | status not stated, demoed | [16:29](https://www.youtube.com/watch?v=WACQbAEVOJg&t=989s) |  |
 | Quality inspection auto-assignment recommendation | status not stated, demoed | [16:18](https://www.youtube.com/watch?v=WACQbAEVOJg&t=978s) |  |
 | Quality inspection passed/failed quantity auto-update | status not stated, demoed | [17:34](https://www.youtube.com/watch?v=WACQbAEVOJg&t=1054s) |  |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## AL objects mentioned
 

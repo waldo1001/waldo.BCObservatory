@@ -21,7 +21,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T13:07:56.796Z"
+  at: "2026-10-06T14:56:57.246Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -80,7 +80,8 @@ evidence:
 links:
   learn: []
   objects: []
-  features: []
+  features:
+    - feature/573304
   topics: []
   localizations: []
   videos: []
@@ -120,41 +121,68 @@ chapters:
     title: Multiple Tax Groups and Configuration
 features:
   - name: Withholding Tax for Employee Expenses
-    status: unclear
+    status: preview
     t: 6
     verified: false
+    status_source: roadmap
+    roadmap_ids:
+      - "573304"
   - name: Withholding Posting Setup for Employees
-    status: unclear
+    status: preview
     t: 104
     verified: false
+    status_source: roadmap
+    roadmap_ids:
+      - "573304"
   - name: Multiple Withholding Tax Groups per Category
-    status: unclear
+    status: preview
     t: 164
     verified: false
+    status_source: roadmap
+    roadmap_ids:
+      - "573304"
   - name: Gross and Net Withholding Tax Calculation
-    status: unclear
+    status: preview
     t: 212
     verified: false
+    status_source: roadmap
+    roadmap_ids:
+      - "573304"
   - name: Configurable Withholding Tax Thresholds
-    status: unclear
+    status: preview
     t: 212
     verified: false
+    status_source: roadmap
+    roadmap_ids:
+      - "573304"
   - name: Withholding Tax Entries in Preview Posting
-    status: unclear
+    status: preview
     t: 352
     verified: false
+    status_source: roadmap
+    roadmap_ids:
+      - "573304"
   - name: Withholding Tax Calculation Timing (Invoice vs Payment)
-    status: unclear
+    status: preview
     t: 442
     verified: false
+    status_source: roadmap
+    roadmap_ids:
+      - "573304"
   - name: Employee Card Withholding Tax Fields
-    status: unclear
+    status: preview
     t: 611
     verified: false
+    status_source: roadmap
+    roadmap_ids:
+      - "573304"
   - name: Expense Category Withholding Tax Configuration
-    status: unclear
+    status: preview
     t: 646
     verified: false
+    status_source: roadmap
+    roadmap_ids:
+      - "573304"
 objects_mentioned:
   - other Withholding Posting Setup
   - other Withholding Tax Business Posting Group
@@ -225,15 +253,17 @@ The demo creates a mileage expense and shows the withholding tax entries in prev
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| Withholding Tax for Employee Expenses | status not stated, demoed | [0:06](https://www.youtube.com/watch?v=mT_0VKqdEzA&t=6s) |  |
-| Withholding Posting Setup for Employees | status not stated, demoed | [1:44](https://www.youtube.com/watch?v=mT_0VKqdEzA&t=104s) |  |
-| Multiple Withholding Tax Groups per Category | status not stated, demoed | [2:44](https://www.youtube.com/watch?v=mT_0VKqdEzA&t=164s) |  |
-| Gross and Net Withholding Tax Calculation | status not stated, demoed | [3:32](https://www.youtube.com/watch?v=mT_0VKqdEzA&t=212s) |  |
-| Configurable Withholding Tax Thresholds | status not stated, demoed | [3:32](https://www.youtube.com/watch?v=mT_0VKqdEzA&t=212s) |  |
-| Withholding Tax Entries in Preview Posting | status not stated, demoed | [5:52](https://www.youtube.com/watch?v=mT_0VKqdEzA&t=352s) |  |
-| Withholding Tax Calculation Timing (Invoice vs Payment) | status not stated, demoed | [7:22](https://www.youtube.com/watch?v=mT_0VKqdEzA&t=442s) |  |
-| Employee Card Withholding Tax Fields | status not stated, demoed | [10:11](https://www.youtube.com/watch?v=mT_0VKqdEzA&t=611s) |  |
-| Expense Category Withholding Tax Configuration | status not stated, demoed | [10:46](https://www.youtube.com/watch?v=mT_0VKqdEzA&t=646s) |  |
+| Withholding Tax for Employee Expenses | preview (roadmap [573304](../features/573304.md)), demoed | [0:06](https://www.youtube.com/watch?v=mT_0VKqdEzA&t=6s) |  |
+| Withholding Posting Setup for Employees | preview (roadmap [573304](../features/573304.md)), demoed | [1:44](https://www.youtube.com/watch?v=mT_0VKqdEzA&t=104s) |  |
+| Multiple Withholding Tax Groups per Category | preview (roadmap [573304](../features/573304.md)), demoed | [2:44](https://www.youtube.com/watch?v=mT_0VKqdEzA&t=164s) |  |
+| Gross and Net Withholding Tax Calculation | preview (roadmap [573304](../features/573304.md)), demoed | [3:32](https://www.youtube.com/watch?v=mT_0VKqdEzA&t=212s) |  |
+| Configurable Withholding Tax Thresholds | preview (roadmap [573304](../features/573304.md)), demoed | [3:32](https://www.youtube.com/watch?v=mT_0VKqdEzA&t=212s) |  |
+| Withholding Tax Entries in Preview Posting | preview (roadmap [573304](../features/573304.md)), demoed | [5:52](https://www.youtube.com/watch?v=mT_0VKqdEzA&t=352s) |  |
+| Withholding Tax Calculation Timing (Invoice vs Payment) | preview (roadmap [573304](../features/573304.md)), demoed | [7:22](https://www.youtube.com/watch?v=mT_0VKqdEzA&t=442s) |  |
+| Employee Card Withholding Tax Fields | preview (roadmap [573304](../features/573304.md)), demoed | [10:11](https://www.youtube.com/watch?v=mT_0VKqdEzA&t=611s) |  |
+| Expense Category Withholding Tax Configuration | preview (roadmap [573304](../features/573304.md)), demoed | [10:46](https://www.youtube.com/watch?v=mT_0VKqdEzA&t=646s) |  |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## AL objects mentioned
 

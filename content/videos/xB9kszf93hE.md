@@ -20,7 +20,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T14:04:33.050Z"
+  at: "2026-10-06T14:56:57.246Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -109,18 +109,22 @@ features:
     status: unclear
     t: 4
     verified: false
+    status_source: video
   - name: Programmatic evaluation with data-driven testing via YAML
     status: unclear
     t: 200
     verified: false
+    status_source: video
   - name: LLM-based output evaluation
     status: unclear
     t: 249
     verified: false
+    status_source: video
   - name: Agent benchmarking and observability
     status: unclear
     t: 289
     verified: false
+    status_source: video
 objects_mentioned: []
 quotes:
   - t: 4

@@ -22,7 +22,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T13:51:43.691Z"
+  at: "2026-10-06T14:56:57.246Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -126,38 +126,47 @@ features:
     status: unclear
     t: 26
     verified: false
+    status_source: video
   - name: Production order creation from master data
     status: unclear
     t: 49
     verified: false
+    status_source: video
   - name: Components function
     status: unclear
     t: 80
     verified: false
+    status_source: video
   - name: Routing function
     status: unclear
     t: 89
     verified: false
+    status_source: video
   - name: Statistics function
     status: unclear
     t: 101
     verified: false
+    status_source: video
   - name: Item availability by BOM level
     status: unclear
     t: 118
     verified: false
+    status_source: video
   - name: Production journal
     status: unclear
     t: 161
     verified: false
+    status_source: video
   - name: Production journal posting
     status: unclear
     t: 214
     verified: false
+    status_source: video
   - name: Routing link code
     status: unclear
     t: 177
     verified: false
+    status_source: video
 objects_mentioned: []
 quotes:
   - t: 13

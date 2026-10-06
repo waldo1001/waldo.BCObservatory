@@ -23,7 +23,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T13:51:08.688Z"
+  at: "2026-10-06T14:56:57.246Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -122,42 +122,52 @@ features:
     status: unclear
     t: 27
     verified: false
+    status_source: video
   - name: Shop calendars
     status: unclear
     t: 41
     verified: false
+    status_source: video
   - name: Work center groups
     status: unclear
     t: 93
     verified: false
+    status_source: video
   - name: Work center posting settings
     status: unclear
     t: 116
     verified: false
+    status_source: video
   - name: Work center scheduling configuration
     status: unclear
     t: 127
     verified: false
+    status_source: video
   - name: Machine centers
     status: unclear
     t: 150
     verified: false
+    status_source: video
   - name: Consolidated calendar for work centers
     status: unclear
     t: 162
     verified: false
+    status_source: video
   - name: Work center calendar calculation
     status: unclear
     t: 179
     verified: false
+    status_source: video
   - name: Work center calendar matrix
     status: unclear
     t: 208
     verified: false
+    status_source: video
   - name: Production order scheduling
     status: unclear
     t: 282
     verified: false
+    status_source: video
 objects_mentioned:
   - table Work Center
   - table Machine Center

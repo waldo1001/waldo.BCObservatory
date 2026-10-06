@@ -22,7 +22,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T13:47:47.128Z"
+  at: "2026-10-06T14:56:57.246Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -81,7 +81,11 @@ evidence:
 links:
   learn: []
   objects: []
-  features: []
+  features:
+    - feature/573374
+    - feature/573376
+    - feature/573378
+    - feature/573379
   topics: []
   localizations: []
   videos: []
@@ -117,41 +121,58 @@ chapters:
     title: Fixed asset emissions and collect from GL improvements
 features:
   - name: Formulas in purchase order and purchase invoice
-    status: unclear
+    status: ga
     t: 6
     verified: false
+    status_source: roadmap
+    roadmap_ids:
+      - "573374"
   - name: Improved sustainability entry discovery
     status: unclear
     t: 23
     verified: false
+    status_source: video
   - name: Value chain emissions in item journals
-    status: unclear
+    status: ga
     t: 44
     verified: false
+    status_source: roadmap
+    roadmap_ids:
+      - "573378"
   - name: Scope three tracking by item tracking level
-    status: unclear
+    status: ga
     t: 59
     verified: false
+    status_source: roadmap
+    roadmap_ids:
+      - "573379"
   - name: ESG report layout with lot details
     status: unclear
     t: 74
     verified: false
+    status_source: video
   - name: Sustainability ledger entry reversal
-    status: unclear
+    status: ga
     t: 84
     verified: false
+    status_source: roadmap
+    roadmap_ids:
+      - "573376"
   - name: Collect from GL with posting memory
     status: unclear
     t: 108
     verified: false
+    status_source: video
   - name: Fixed asset emissions in journals
     status: unclear
     t: 268
     verified: false
+    status_source: video
   - name: UDR certificate capture
     status: unclear
     t: 122
     verified: false
+    status_source: video
 objects_mentioned:
   - other sustainability account
   - other sustainability value entries
@@ -219,15 +240,17 @@ It then covers reversing sustainability ledger entries and the fixed asset chang
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| Formulas in purchase order and purchase invoice | status not stated, demoed | [0:06](https://www.youtube.com/watch?v=t_UXxbvgnHY&t=6s) |  |
+| Formulas in purchase order and purchase invoice | generally available (roadmap [573374](../features/573374.md)), demoed | [0:06](https://www.youtube.com/watch?v=t_UXxbvgnHY&t=6s) |  |
 | Improved sustainability entry discovery | status not stated | [0:23](https://www.youtube.com/watch?v=t_UXxbvgnHY&t=23s) |  |
-| Value chain emissions in item journals | status not stated, demoed | [0:44](https://www.youtube.com/watch?v=t_UXxbvgnHY&t=44s) |  |
-| Scope three tracking by item tracking level | status not stated, demoed | [0:59](https://www.youtube.com/watch?v=t_UXxbvgnHY&t=59s) |  |
+| Value chain emissions in item journals | generally available (roadmap [573378](../features/573378.md)), demoed | [0:44](https://www.youtube.com/watch?v=t_UXxbvgnHY&t=44s) |  |
+| Scope three tracking by item tracking level | generally available (roadmap [573379](../features/573379.md)), demoed | [0:59](https://www.youtube.com/watch?v=t_UXxbvgnHY&t=59s) |  |
 | ESG report layout with lot details | status not stated, demoed | [1:14](https://www.youtube.com/watch?v=t_UXxbvgnHY&t=74s) |  |
-| Sustainability ledger entry reversal | status not stated, demoed | [1:24](https://www.youtube.com/watch?v=t_UXxbvgnHY&t=84s) |  |
+| Sustainability ledger entry reversal | generally available (roadmap [573376](../features/573376.md)), demoed | [1:24](https://www.youtube.com/watch?v=t_UXxbvgnHY&t=84s) |  |
 | Collect from GL with posting memory | status not stated, demoed | [1:48](https://www.youtube.com/watch?v=t_UXxbvgnHY&t=108s) |  |
 | Fixed asset emissions in journals | status not stated, demoed | [4:28](https://www.youtube.com/watch?v=t_UXxbvgnHY&t=268s) |  |
 | UDR certificate capture | status not stated | [2:02](https://www.youtube.com/watch?v=t_UXxbvgnHY&t=122s) |  |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## AL objects mentioned
 

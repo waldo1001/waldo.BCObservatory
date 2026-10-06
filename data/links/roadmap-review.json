@@ -1,0 +1,1662 @@
+{
+  "prompt_version": 1,
+  "verdicts": {
+    "573253": {
+      "docs/learn-devitpro/dev-itpro/compliance/apptest-countries-and-translations.md@1e9dca0f4e4e5a60": {
+        "verdict": "drop",
+        "reason": "General Business Central country and language availability page that does not mention Expense Agent.",
+        "at": "2026-10-06T14:54:48.354Z"
+      },
+      "docs/learn-smb-docs/business-central/copilot-agents-region-language-availability.md@c49588514419e3d1": {
+        "verdict": "keep",
+        "reason": "Learn page listing Copilot and agent support by country/region and language, including Expense Agent, which is where this availability is documented.",
+        "at": "2026-10-06T14:54:48.354Z"
+      },
+      "video/kDixaZFPYE8#0@83457357ac710e9e": {
+        "verdict": "drop",
+        "reason": "Describes the earlier wave 1 languages (Danish, French, German, Spanish, English), not the new languages this feature adds.",
+        "at": "2026-10-06T14:54:48.354Z"
+      },
+      "video/kDixaZFPYE8#1@83457357ac710e9e": {
+        "verdict": "drop",
+        "reason": "Describes the earlier wave 1 country expansion, not availability in all countries/regions.",
+        "at": "2026-10-06T14:54:48.354Z"
+      },
+      "video/tj1vvsmAMVs#16@abe0f75bd308e7b6": {
+        "verdict": "keep",
+        "reason": "Announces the new Expense Agent languages: Czech, Dutch, Icelandic, Italian, Norwegian and Swedish.",
+        "at": "2026-10-06T14:54:48.354Z"
+      },
+      "video/tj1vvsmAMVs#17@abe0f75bd308e7b6": {
+        "verdict": "keep",
+        "reason": "Announces the worldwide rollout of Expense Agent to all countries, which is the regional part of this feature.",
+        "at": "2026-10-06T14:54:48.354Z"
+      }
+    },
+    "573254": {
+      "docs/learn-smb-docs/business-central/expense-management/expense-agent-upload-receipts.md@e41eefee0b0de9cb": {
+        "verdict": "drop",
+        "reason": "This Learn page covers creating mileage expenses in general and never mentions date-range or vehicle-type rates.",
+        "at": "2026-10-06T14:54:17.199Z"
+      },
+      "video/4TE8uwIi91k#3@5af192a6d243a650": {
+        "verdict": "keep",
+        "reason": "It shows choosing a vehicle type when creating a mileage expense, with the rate calculated automatically, which is one piece of this feature.",
+        "at": "2026-10-06T14:54:17.199Z"
+      },
+      "video/cWVhWBMbXb4#0@8b7b2d88aa70baec": {
+        "verdict": "keep",
+        "reason": "It shows that mileage allowances can be set with start and end dates, so rates change automatically at period boundaries.",
+        "at": "2026-10-06T14:54:17.199Z"
+      },
+      "video/cWVhWBMbXb4#1@8b7b2d88aa70baec": {
+        "verdict": "keep",
+        "reason": "It shows separate mileage rates per vehicle type, applied automatically when a vehicle type is selected.",
+        "at": "2026-10-06T14:54:17.199Z"
+      },
+      "video/cWVhWBMbXb4#2@8b7b2d88aa70baec": {
+        "verdict": "keep",
+        "reason": "It shows the new mileage rate setup table, configured by date range and vehicle type.",
+        "at": "2026-10-06T14:54:17.199Z"
+      },
+      "video/Fz8NLByllRc#2@68365b817d416288": {
+        "verdict": "drop",
+        "reason": "It covers the older wave 1 calculation from distance and a configured rate, with no date ranges or vehicle types.",
+        "at": "2026-10-06T14:54:17.199Z"
+      },
+      "video/Fz8NLByllRc#4@68365b817d416288": {
+        "verdict": "drop",
+        "reason": "It covers the older wave 1 setup with one rate per distance unit, not date-range or vehicle-type rates.",
+        "at": "2026-10-06T14:54:17.199Z"
+      },
+      "video/P1V4jy08YM8#12@7dd50b439dc288fb": {
+        "verdict": "drop",
+        "reason": "It covers general wave 1 mileage configuration by rate per unit, which is too old and too general for this feature.",
+        "at": "2026-10-06T14:54:17.199Z"
+      },
+      "video/tj1vvsmAMVs#0@abe0f75bd308e7b6": {
+        "verdict": "keep",
+        "reason": "It announces period-based mileage rates applied automatically by expense date, which is the date-range part of this feature.",
+        "at": "2026-10-06T14:54:17.199Z"
+      }
+    },
+    "573255": {
+      "docs/learn-smb-docs/business-central/expense-management/expense-agent-approve-reports.md@43106f854db392e2": {
+        "verdict": "keep",
+        "reason": "Describes approvers handling policy flags as advisory notices while keeping the final approve or send-back decision.",
+        "at": "2026-10-06T14:53:51.939Z"
+      },
+      "docs/learn-smb-docs/business-central/expense-management/expense-agent-overview.md@b48bb29cd244b8c1": {
+        "verdict": "drop",
+        "reason": "General Expense Agent overview that only lists policy compliance and approvals as topics.",
+        "at": "2026-10-06T14:53:51.939Z"
+      },
+      "docs/learn-smb-docs/business-central/expense-management/expense-agent-policy-compliance.md@bd11d51815b556c3": {
+        "verdict": "keep",
+        "reason": "Documents AI evaluation of natural-language policies that flags potential policy issues.",
+        "at": "2026-10-06T14:53:51.939Z"
+      },
+      "docs/learn-smb-docs/business-central/expense-management/expense-management-approve-reports.md@16d633d61a0413a1": {
+        "verdict": "drop",
+        "reason": "Covers the general approval and VAT review process and rule violation detection, not AI natural-language policy evaluation.",
+        "at": "2026-10-06T14:53:51.939Z"
+      },
+      "docs/learn-smb-docs/business-central/expense-management/expense-management-setup.md@e895847514061e02": {
+        "verdict": "keep",
+        "reason": "Setup page lists the AI policy evaluation configuration, which is a setting of this feature.",
+        "at": "2026-10-06T14:53:51.939Z"
+      },
+      "video/ARKckFygbWQ#6@d447601d098b639d": {
+        "verdict": "drop",
+        "reason": "Release wave 1 compliance checking based on configured rules, an older capability.",
+        "at": "2026-10-06T14:53:51.939Z"
+      },
+      "video/M0IzeLSn7qU#0@53122e7aa25b4586": {
+        "verdict": "keep",
+        "reason": "Shows admins enabling AI-driven approval policies per category and approvers seeing flags without being blocked.",
+        "at": "2026-10-06T14:53:51.939Z"
+      },
+      "video/M0IzeLSn7qU#2@53122e7aa25b4586": {
+        "verdict": "drop",
+        "reason": "Employee checks before submission are a different capability from validation after submission for approvers.",
+        "at": "2026-10-06T14:53:51.939Z"
+      },
+      "video/o94V_lF8oNM#0@2581f7e2b25e19dc": {
+        "verdict": "keep",
+        "reason": "Shows the toggle that uses AI to analyze free-text policies and help approvers decide on submitted expenses.",
+        "at": "2026-10-06T14:53:51.939Z"
+      },
+      "video/o94V_lF8oNM#1@2581f7e2b25e19dc": {
+        "verdict": "drop",
+        "reason": "Submitter checks before submission are a separate capability from the approver-side validation after submission.",
+        "at": "2026-10-06T14:53:51.939Z"
+      },
+      "video/o94V_lF8oNM#2@2581f7e2b25e19dc": {
+        "verdict": "keep",
+        "reason": "Shows the flagged-policy status indicator that marks reports needing approver attention.",
+        "at": "2026-10-06T14:53:51.939Z"
+      },
+      "video/o94V_lF8oNM#3@2581f7e2b25e19dc": {
+        "verdict": "keep",
+        "reason": "Shows free-text policies by category that AI checks against submitted expenses.",
+        "at": "2026-10-06T14:53:51.939Z"
+      },
+      "video/o94V_lF8oNM#4@2581f7e2b25e19dc": {
+        "verdict": "drop",
+        "reason": "Submitter-run policy check button before submission, not the approval validation after submission.",
+        "at": "2026-10-06T14:53:51.939Z"
+      },
+      "video/rSGCNMIBcpc#10@acd7266c1a97c588": {
+        "verdict": "drop",
+        "reason": "Vague teaser of a future policy capability, too general to tie to this feature.",
+        "at": "2026-10-06T14:53:51.939Z"
+      },
+      "video/tj1vvsmAMVs#5@abe0f75bd308e7b6": {
+        "verdict": "keep",
+        "reason": "Shows AI checking expenses against human-readable travel policies such as flight class rules.",
+        "at": "2026-10-06T14:53:51.939Z"
+      },
+      "video/tj1vvsmAMVs#6@abe0f75bd308e7b6": {
+        "verdict": "keep",
+        "reason": "Shows non-compliant expenses being flagged to help approvers decide without hard blocking.",
+        "at": "2026-10-06T14:53:51.939Z"
+      }
+    },
+    "573259": {
+      "docs/learn-smb-docs/business-central/expense-management/expense-management-create-expenses.md@310e842b825e1164": {
+        "verdict": "drop",
+        "reason": "This is a general list of expense features; it mentions project and task assignment but not limiting the list to assigned projects.",
+        "at": "2026-10-06T14:54:18.884Z"
+      },
+      "video/GwrMf1umTFg#0@c6bd33482e7b1829": {
+        "verdict": "keep",
+        "reason": "It shows the setup choice between seeing all projects or only assigned projects in the web app.",
+        "at": "2026-10-06T14:54:18.884Z"
+      },
+      "video/GwrMf1umTFg#1@c6bd33482e7b1829": {
+        "verdict": "keep",
+        "reason": "It explains the option to show only assigned projects so users see fewer projects.",
+        "at": "2026-10-06T14:54:18.884Z"
+      },
+      "video/GwrMf1umTFg#2@c6bd33482e7b1829": {
+        "verdict": "keep",
+        "reason": "It shows the new assigned resources section on the project card, which controls which employees can see a project in the web app.",
+        "at": "2026-10-06T14:54:18.884Z"
+      },
+      "video/GwrMf1umTFg#3@c6bd33482e7b1829": {
+        "verdict": "keep",
+        "reason": "It shows assigning resources to individual tasks so employees see only their assigned tasks.",
+        "at": "2026-10-06T14:54:18.884Z"
+      },
+      "video/NI6WYze-JSU#0@99f07774a45ceee6": {
+        "verdict": "drop",
+        "reason": "It covers the older on/off switch for showing projects in the web app, not filtering by assignment.",
+        "at": "2026-10-06T14:54:18.884Z"
+      },
+      "video/NI6WYze-JSU#1@99f07774a45ceee6": {
+        "verdict": "drop",
+        "reason": "It covers the older ability to put expenses on projects, not filtering by assignment.",
+        "at": "2026-10-06T14:54:18.884Z"
+      },
+      "video/NI6WYze-JSU#2@99f07774a45ceee6": {
+        "verdict": "keep",
+        "reason": "It shows the setup wizard option to show only assigned projects, which is this feature's setting.",
+        "at": "2026-10-06T14:54:18.884Z"
+      },
+      "video/NI6WYze-JSU#3@99f07774a45ceee6": {
+        "verdict": "drop",
+        "reason": "It covers linking expense users to employees and resources in general and never mentions filtering projects by assignment.",
+        "at": "2026-10-06T14:54:18.884Z"
+      }
+    },
+    "573262": {
+      "docs/learn-smb-docs/business-central/expense-management/expense-agent-edit-expenses.md@de092ff6efa53e19": {
+        "verdict": "keep",
+        "reason": "Lists VAT display as part of expense review, which matches the VAT-aware review and processing part of the feature.",
+        "at": "2026-10-06T14:54:29.802Z"
+      },
+      "docs/learn-smb-docs/business-central/expense-management/expense-agent-upload-receipts.md@e41eefee0b0de9cb": {
+        "verdict": "keep",
+        "reason": "VAT reclaim identification during receipt extraction is the automatic identification of VAT-relevant expenses.",
+        "at": "2026-10-06T14:54:29.802Z"
+      },
+      "docs/learn-smb-docs/business-central/expense-management/expense-management-categories-rules.md@a7dd7b7ba9df820c": {
+        "verdict": "keep",
+        "reason": "Documents the VAT reclaim setting with default percentages, a configuration piece of the VAT calculation.",
+        "at": "2026-10-06T14:54:29.802Z"
+      },
+      "docs/learn-smb-docs/business-central/expense-management/expense-management-overview.md@adfe19f5f9ad9185": {
+        "verdict": "keep",
+        "reason": "Explicitly lists VAT calculation and reclaim as an expense management capability.",
+        "at": "2026-10-06T14:54:29.802Z"
+      },
+      "docs/learn-smb-docs/business-central/expense-management/expense-management-post-reports.md@ba421eb5018cd4df": {
+        "verdict": "keep",
+        "reason": "Checking VAT reclaim before posting matches the step where accountants review VAT before posting.",
+        "at": "2026-10-06T14:54:29.802Z"
+      },
+      "docs/learn-smb-docs/business-central/expense-management/expense-management-setup.md@e895847514061e02": {
+        "verdict": "keep",
+        "reason": "Describes VAT reclaim setup, which is needed to turn on VAT calculation for expense reports.",
+        "at": "2026-10-06T14:54:29.802Z"
+      },
+      "video/tj1vvsmAMVs#12@abe0f75bd308e7b6": {
+        "verdict": "keep",
+        "reason": "Announces VAT reclaim in expense reports, with automatic collection of VAT details from receipts.",
+        "at": "2026-10-06T14:54:29.802Z"
+      },
+      "video/tj1vvsmAMVs#13@abe0f75bd308e7b6": {
+        "verdict": "keep",
+        "reason": "Shows VAT being tracked and reported per expense line, a behavior of the VAT calculation and reporting feature.",
+        "at": "2026-10-06T14:54:29.802Z"
+      }
+    },
+    "573304": {
+      "docs/learn-smb-docs/business-central/expense-management/expense-management-categories-rules.md@a7dd7b7ba9df820c": {
+        "verdict": "keep",
+        "reason": "The expense category setup page lists withholding tax configuration, which is part of how the feature is set up.",
+        "at": "2026-10-06T14:53:51.939Z"
+      },
+      "docs/learn-smb-docs/business-central/expense-management/expense-management-post-reports.md@ba421eb5018cd4df": {
+        "verdict": "drop",
+        "reason": "This posting page never mentions withholding tax; it shares only the expense report area.",
+        "at": "2026-10-06T14:53:51.939Z"
+      },
+      "docs/learn-smb-docs/business-central/expense-management/expense-management-setup.md@e895847514061e02": {
+        "verdict": "drop",
+        "reason": "This general expense management setup page has nothing on withholding tax.",
+        "at": "2026-10-06T14:53:51.939Z"
+      },
+      "docs/learn-smb-docs/business-central/finance-set-up-withholding-tax.md@924bc8237b4b11c8": {
+        "verdict": "keep",
+        "reason": "It documents withholding tax setup, including employee withholding tax, expense category withholding tax and thresholds.",
+        "at": "2026-10-06T14:53:51.939Z"
+      },
+      "video/mT_0VKqdEzA#0@7098af6b1c64fa1b": {
+        "verdict": "keep",
+        "reason": "It announces that withholding tax now applies to employee expenses, which is this feature.",
+        "at": "2026-10-06T14:53:51.939Z"
+      },
+      "video/mT_0VKqdEzA#1@7098af6b1c64fa1b": {
+        "verdict": "keep",
+        "reason": "It shows the employee withholding setup, with the gross/net calculation base and threshold settings.",
+        "at": "2026-10-06T14:53:51.939Z"
+      },
+      "video/mT_0VKqdEzA#2@7098af6b1c64fa1b": {
+        "verdict": "keep",
+        "reason": "It shows multiple withholding taxes per expense category, which is a capability the feature lists.",
+        "at": "2026-10-06T14:53:51.939Z"
+      },
+      "video/mT_0VKqdEzA#3@7098af6b1c64fa1b": {
+        "verdict": "keep",
+        "reason": "It shows calculating on gross or net amounts, which is a capability the feature lists.",
+        "at": "2026-10-06T14:53:51.939Z"
+      },
+      "video/mT_0VKqdEzA#4@7098af6b1c64fa1b": {
+        "verdict": "keep",
+        "reason": "It shows thresholds per record, per category and per period, as the feature describes.",
+        "at": "2026-10-06T14:53:51.939Z"
+      },
+      "video/mT_0VKqdEzA#5@7098af6b1c64fa1b": {
+        "verdict": "keep",
+        "reason": "It shows calculated withholding tax entries in the preview posting for an expense report.",
+        "at": "2026-10-06T14:53:51.939Z"
+      },
+      "video/mT_0VKqdEzA#6@7098af6b1c64fa1b": {
+        "verdict": "keep",
+        "reason": "It shows a setting that controls when withholding tax on expenses is calculated, at invoice or at payment.",
+        "at": "2026-10-06T14:53:51.939Z"
+      },
+      "video/mT_0VKqdEzA#7@7098af6b1c64fa1b": {
+        "verdict": "keep",
+        "reason": "It shows the new withholding tax fields on the employee card that the employee calculation uses.",
+        "at": "2026-10-06T14:53:51.939Z"
+      },
+      "video/mT_0VKqdEzA#8@7098af6b1c64fa1b": {
+        "verdict": "keep",
+        "reason": "It shows the expense category setting for one withholding tax or several, which covers single or multiple taxes and the calculation order.",
+        "at": "2026-10-06T14:53:51.939Z"
+      },
+      "video/tj1vvsmAMVs#14@abe0f75bd308e7b6": {
+        "verdict": "keep",
+        "reason": "It explains withholding tax for employee expense reports, with gross/net, compound and threshold support.",
+        "at": "2026-10-06T14:53:51.939Z"
+      }
+    },
+    "573305": {
+      "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-28-4.md@bced293f99cd584f": {
+        "verdict": "drop",
+        "reason": "Update 28.4 notes cover e-document payment support and a Peppol preview, not EDI order exchange or remittance advice.",
+        "at": "2026-10-06T14:53:51.956Z"
+      },
+      "video/07G7aC14Y_w#0@bcd3998803d98078": {
+        "verdict": "keep",
+        "reason": "Introduces EDI exchange of orders between buyer and seller using the e-documents framework.",
+        "at": "2026-10-06T14:53:51.956Z"
+      },
+      "video/07G7aC14Y_w#1@bcd3998803d98078": {
+        "verdict": "keep",
+        "reason": "Shows the purchase order EDI document type being sent as an e-document.",
+        "at": "2026-10-06T14:53:51.956Z"
+      },
+      "video/07G7aC14Y_w#12@bcd3998803d98078": {
+        "verdict": "keep",
+        "reason": "Shows how EDI purchase orders, e-documents and the sales orders created from them are linked.",
+        "at": "2026-10-06T14:53:51.956Z"
+      },
+      "video/07G7aC14Y_w#2@bcd3998803d98078": {
+        "verdict": "keep",
+        "reason": "Shows a sales order created automatically from a received EDI purchase order.",
+        "at": "2026-10-06T14:53:51.956Z"
+      },
+      "video/07G7aC14Y_w#3@bcd3998803d98078": {
+        "verdict": "keep",
+        "reason": "Shows order response messages, which are part of the EDI order exchange.",
+        "at": "2026-10-06T14:53:51.956Z"
+      },
+      "video/07G7aC14Y_w#4@bcd3998803d98078": {
+        "verdict": "keep",
+        "reason": "Shows sending a remittance advice through e-documents, which the feature names directly.",
+        "at": "2026-10-06T14:53:51.956Z"
+      },
+      "video/07G7aC14Y_w#5@bcd3998803d98078": {
+        "verdict": "keep",
+        "reason": "Shows the inbound, outbound or both direction setting for EDI exchanges.",
+        "at": "2026-10-06T14:53:51.956Z"
+      },
+      "video/07G7aC14Y_w#6@bcd3998803d98078": {
+        "verdict": "keep",
+        "reason": "Shows electronic identifiers used to match buyers and sellers in EDI exchanges.",
+        "at": "2026-10-06T14:53:51.956Z"
+      },
+      "video/07G7aC14Y_w#8@bcd3998803d98078": {
+        "verdict": "keep",
+        "reason": "Shows the log that tracks each EDI exchange.",
+        "at": "2026-10-06T14:53:51.956Z"
+      },
+      "video/07G7aC14Y_w#9@bcd3998803d98078": {
+        "verdict": "keep",
+        "reason": "Shows Peppol as the format behind EDI exchanges, matching the feature's Peppol BIS 3 point.",
+        "at": "2026-10-06T14:53:51.956Z"
+      }
+    },
+    "573306": {
+      "docs/learn-smb-docs/business-central/finance-set-up-excise-tax.md@86c6529c52cea0c7": {
+        "verdict": "drop",
+        "reason": "General excise tax setup page; it describes assigning excise tax to items but nothing about multiple excise duties per item.",
+        "at": "2026-10-06T14:55:59.578Z"
+      },
+      "video/N_J1HB_fUCM#0@a4fc432f32ba8b1c": {
+        "verdict": "keep",
+        "reason": "Directly announces adding multiple excise taxes to a single item through a new excise taxes page on the item card.",
+        "at": "2026-10-06T14:55:59.578Z"
+      }
+    },
+    "573307": {
+      "docs/learn-smb-docs/business-central/ui-create-number-series.md@923b90999060b294": {
+        "verdict": "drop",
+        "reason": "This is a general Learn page about number series. It never mentions self-billing or number series set per vendor.",
+        "at": "2026-10-06T14:56:00.499Z"
+      },
+      "video/N_J1HB_fUCM#5@a4fc432f32ba8b1c": {
+        "verdict": "keep",
+        "reason": "The video segment announces number series chosen per vendor for self-billing, falling back to Purchases & Payables setup when none is selected.",
+        "at": "2026-10-06T14:56:00.499Z"
+      }
+    },
+    "573308": {
+      "docs/learn-smb-docs/business-central/finance-set-up-withholding-tax.md@924bc8237b4b11c8": {
+        "verdict": "keep",
+        "reason": "This setup page explicitly covers withholding tax calculation for employees and lists employee withholding tax as a feature.",
+        "at": "2026-10-06T14:54:59.515Z"
+      },
+      "docs/learn-smb-docs/business-central/finance-withholding-tax-employees.md@192fa362a492553c": {
+        "verdict": "keep",
+        "reason": "It documents setting up and posting withholding tax on employee transactions, which is exactly this feature.",
+        "at": "2026-10-06T14:54:59.515Z"
+      },
+      "docs/learn-smb-docs/business-central/finance-withholding-tax-entries.md@7622d2ad7f7ecfff": {
+        "verdict": "keep",
+        "reason": "It shows how to view the withholding tax entries posted for employee transactions, using party type, which is part of this capability.",
+        "at": "2026-10-06T14:54:59.515Z"
+      },
+      "docs/learn-smb-docs/business-central/finance-withholding-tax.md@b5b54eca586f7fe9": {
+        "verdict": "drop",
+        "reason": "It describes only the existing vendor withholding tax calculation, not the employee extension.",
+        "at": "2026-10-06T14:54:59.515Z"
+      },
+      "video/N_J1HB_fUCM#8@a4fc432f32ba8b1c": {
+        "verdict": "keep",
+        "reason": "This video segment announces withholding tax for employees, with gross or net calculation and thresholds.",
+        "at": "2026-10-06T14:54:59.515Z"
+      }
+    },
+    "573312": {
+      "docs/learn-devitpro/dev-itpro/ai/mcp-overview.md@6ad7e44dc99c3d81": {
+        "verdict": "keep",
+        "reason": "The MCP Server overview lists Data Query Tools and querying data as features, which is this capability.",
+        "at": "2026-10-06T14:54:05.917Z"
+      },
+      "docs/learn-devitpro/dev-itpro/developer/al-agent-tools/al-mcp-server.md@26880425a8a6a893": {
+        "verdict": "drop",
+        "reason": "The AL MCP Server is about development tools like build and publish, not running data queries.",
+        "at": "2026-10-06T14:54:05.917Z"
+      },
+      "docs/learn-devitpro/dev-itpro/developer/devenv-api-querytype.md@b320d3d49eb252b4": {
+        "verdict": "drop",
+        "reason": "It describes the general API query object type, not MCP tools for custom queries without APIs.",
+        "at": "2026-10-06T14:54:05.917Z"
+      },
+      "video/4HE3BBCcV84#0@22b6c7ea4b6faa29": {
+        "verdict": "drop",
+        "reason": "Exposing existing API queries in MCP is a different capability from custom data queries for data that has no APIs.",
+        "at": "2026-10-06T14:54:05.917Z"
+      },
+      "video/4HE3BBCcV84#2@22b6c7ea4b6faa29": {
+        "verdict": "drop",
+        "reason": "Choosing query as an object type for existing analytics API queries is not the custom data query tooling.",
+        "at": "2026-10-06T14:54:05.917Z"
+      },
+      "video/AMVAiPTfSrU#1@fdf56a54062de31b": {
+        "verdict": "drop",
+        "reason": "A general mention of the MCP server with no data query capability.",
+        "at": "2026-10-06T14:54:05.917Z"
+      },
+      "video/qs1cg-GoDeQ#0@a3902918f9454621": {
+        "verdict": "keep",
+        "reason": "The find tables tool is part of the new data tool set used to define custom queries.",
+        "at": "2026-10-06T14:54:05.917Z"
+      },
+      "video/qs1cg-GoDeQ#1@a3902918f9454621": {
+        "verdict": "keep",
+        "reason": "The table relations tool helps users write join queries, which is part of defining custom data queries.",
+        "at": "2026-10-06T14:54:05.917Z"
+      },
+      "video/qs1cg-GoDeQ#2@a3902918f9454621": {
+        "verdict": "keep",
+        "reason": "The table schema tool is part of the data tool set that lets agents build custom queries.",
+        "at": "2026-10-06T14:54:05.917Z"
+      },
+      "video/qs1cg-GoDeQ#3@a3902918f9454621": {
+        "verdict": "keep",
+        "reason": "It directly shows the data query tool, which builds and runs AL queries without needing APIs.",
+        "at": "2026-10-06T14:54:05.917Z"
+      },
+      "video/zei-IszvYNU#0@124c9200aa0e6061": {
+        "verdict": "drop",
+        "reason": "Making published APIs available is a different capability from querying data that has no API.",
+        "at": "2026-10-06T14:54:05.917Z"
+      }
+    },
+    "573313": {
+      "video/D_Lur52IrIg#10@17ac39ecf1067291": {
+        "verdict": "keep",
+        "reason": "The video segment shows actions taking their tooltip from the page's ToolTip property, which is the inheritance this feature adds.",
+        "at": "2026-10-06T14:56:33.720Z"
+      }
+    },
+    "573314": {
+      "docs/learn-devitpro/dev-itpro/administration/telemetry-table-index-trace.md@7ee3249d69991230": {
+        "verdict": "drop",
+        "reason": "This is a telemetry page that only names 'runtime index management' and does not describe turning indexes on/off from AL code.",
+        "at": "2026-10-06T14:55:39.584Z"
+      },
+      "docs/learn-smb-docs/business-central/manage-indexes.md@f805324de2f7ffe0": {
+        "verdict": "drop",
+        "reason": "It describes admin turning indexes on/off per company in the client, a different capability from AL code control.",
+        "at": "2026-10-06T14:55:39.584Z"
+      },
+      "video/Sh3ySQSTw-o#6@e0381de6298282f6": {
+        "verdict": "keep",
+        "reason": "It shows indexes defined with enabled = false and turned on or off at runtime from code, which is exactly this feature.",
+        "at": "2026-10-06T14:55:39.584Z"
+      }
+    },
+    "573315": {
+      "video/Sh3ySQSTw-o#7@e0381de6298282f6": {
+        "verdict": "keep",
+        "reason": "The video announces this exact feature: indexes that span base-table and table-extension fields, made possible by the consolidated data model.",
+        "at": "2026-10-06T14:56:37.946Z"
+      }
+    },
+    "573316": {
+      "docs/learn-smb-docs/business-central/manage-indexes.md@f805324de2f7ffe0": {
+        "verdict": "drop",
+        "reason": "The page covers turning general database indexes on/off but never mentions SIFT indexes, so it may describe the older index-management capability rather than this feature.",
+        "at": "2026-10-06T14:56:44.773Z"
+      }
+    },
+    "573317": {
+      "docs/learn-devitpro/dev-itpro/administration/telemetry-feature-telemetry.md@ef0a5dff018002e5": {
+        "verdict": "drop",
+        "reason": "This page covers the general Feature Telemetry AL module and says nothing about logging Open in Excel actions.",
+        "at": "2026-10-06T14:55:33.741Z"
+      },
+      "docs/learn-devitpro/dev-itpro/administration/telemetry-open-in-excel-trace.md@30eb2acf6d7f0f70": {
+        "verdict": "keep",
+        "reason": "This page documents Open in Excel telemetry (RT0056), which tracks when users export data to Excel.",
+        "at": "2026-10-06T14:55:33.741Z"
+      },
+      "video/Sh3ySQSTw-o#11@e0381de6298282f6": {
+        "verdict": "keep",
+        "reason": "The video announces the new RT0056 telemetry that records who opens data in Excel for auditing.",
+        "at": "2026-10-06T14:55:33.741Z"
+      }
+    },
+    "573318": {
+      "video/2N2NhNH7dsk#4@e0b49f853ac07297": {
+        "verdict": "keep",
+        "reason": "It announces the new report inbox APIs that let automation tools and MCP servers work with scheduled reports, which is what this feature adds.",
+        "at": "2026-10-06T14:56:02.023Z"
+      },
+      "video/qj0VHB2Pmvc#8@0f5a16c2da761857": {
+        "verdict": "keep",
+        "reason": "It describes the new report inbox APIs that let external systems automate work on scheduled report output, which is this feature's capability.",
+        "at": "2026-10-06T14:56:02.023Z"
+      }
+    },
+    "573319": {
+      "docs/learn-smb-docs/business-central/analysis-mode.md@ff5114d1c63b2b51": {
+        "verdict": "keep",
+        "reason": "The Learn page says you can bookmark analysis views to your Role Center, which is part of this feature.",
+        "at": "2026-10-06T14:55:11.636Z"
+      },
+      "video/ZpzZ6El8GXY#1@e42be92a7b3909f8": {
+        "verdict": "keep",
+        "reason": "The video segment shows how to bookmark an analysis tab so you can open it directly from the role center.",
+        "at": "2026-10-06T14:55:11.636Z"
+      },
+      "video/ZpzZ6El8GXY#2@e42be92a7b3909f8": {
+        "verdict": "keep",
+        "reason": "The video segment shows how to bookmark list views to the role center.",
+        "at": "2026-10-06T14:55:11.636Z"
+      },
+      "video/ZpzZ6El8GXY#4@e42be92a7b3909f8": {
+        "verdict": "keep",
+        "reason": "The video segment shows how to add bookmarked analysis tabs and list views to a profile.",
+        "at": "2026-10-06T14:55:11.636Z"
+      }
+    },
+    "573320": {
+      "docs/learn-smb-docs/business-central/ui-set-report-layout.md@8e38fd18092e9b50": {
+        "verdict": "drop",
+        "reason": "General Learn page on layout selection from 2022 wave 1; it says nothing about setting a status on layouts.",
+        "at": "2026-10-06T14:55:04.753Z"
+      },
+      "video/-vdhfNMNZQk#9@03a2c681f4114e16": {
+        "verdict": "keep",
+        "reason": "Shows setting the status of a layout, including Microsoft-shipped layouts, to retired or draft so users can't see it.",
+        "at": "2026-10-06T14:55:04.753Z"
+      },
+      "video/2N2NhNH7dsk#0@e0b49f853ac07297": {
+        "verdict": "keep",
+        "reason": "Announces layout statuses being extended from user-defined layouts to app-supplied and Microsoft-shipped layouts.",
+        "at": "2026-10-06T14:55:04.753Z"
+      },
+      "video/2N2NhNH7dsk#1@e0b49f853ac07297": {
+        "verdict": "keep",
+        "reason": "Explains the lifecycle states and the layout status menu admins use to manage them.",
+        "at": "2026-10-06T14:55:04.753Z"
+      },
+      "video/2N2NhNH7dsk#2@e0b49f853ac07297": {
+        "verdict": "keep",
+        "reason": "Explains how a layout's status decides which layouts end users see on the request page.",
+        "at": "2026-10-06T14:55:04.753Z"
+      }
+    },
+    "573321": {
+      "video/XLUAuUWtJDw#0@fe787ce3bbb3e16c": {
+        "verdict": "keep",
+        "reason": "The video segment describes the new pre-populated company information dataset, which every Word layout gets automatically. That is the shared company information dataitem this feature adds.",
+        "at": "2026-10-06T14:56:39.578Z"
+      }
+    },
+    "573322": {
+      "video/Sh3ySQSTw-o#8@e0381de6298282f6": {
+        "verdict": "keep",
+        "reason": "Announces that system audit fields are now visible in analysis mode pickers, which is the analysis half of this feature.",
+        "at": "2026-10-06T14:55:15.362Z"
+      },
+      "video/Sh3ySQSTw-o#9@e0381de6298282f6": {
+        "verdict": "keep",
+        "reason": "Announces that system fields can be included in profiles through the page designer, which is the profile half of this feature.",
+        "at": "2026-10-06T14:55:15.362Z"
+      },
+      "video/ZpzZ6El8GXY#0@e42be92a7b3909f8": {
+        "verdict": "keep",
+        "reason": "Describes using system audit fields in analysis tabs, which is exactly what this feature adds.",
+        "at": "2026-10-06T14:55:15.362Z"
+      },
+      "video/ZpzZ6El8GXY#3@e42be92a7b3909f8": {
+        "verdict": "keep",
+        "reason": "Describes adding system audit fields to pages in the page designer for profiles, which is exactly what this feature adds.",
+        "at": "2026-10-06T14:55:15.362Z"
+      }
+    },
+    "573323": {
+      "docs/learn-smb-docs/business-central/finance-financial-reporting-view-a-report.md@8b5853d8b7b0ed8c": {
+        "verdict": "keep",
+        "reason": "The Learn page documents printing financial reports as a package and scheduling runs with email delivery, which is part of the report pack feature.",
+        "at": "2026-10-06T14:56:06.530Z"
+      },
+      "video/qj0VHB2Pmvc#6@0f5a16c2da761857": {
+        "verdict": "keep",
+        "reason": "The video announces report packs that run multiple reports at once, produce a single PDF and can be scheduled.",
+        "at": "2026-10-06T14:56:06.530Z"
+      }
+    },
+    "573324": {
+      "video/qj0VHB2Pmvc#0@0f5a16c2da761857": {
+        "verdict": "keep",
+        "reason": "The new saved views help authors find uncategorized G/L accounts, which is part of this feature.",
+        "at": "2026-10-06T14:55:19.455Z"
+      },
+      "video/qj0VHB2Pmvc#1@0f5a16c2da761857": {
+        "verdict": "keep",
+        "reason": "Where-used now shows which financial report definitions include an account, so authors can trace account usage.",
+        "at": "2026-10-06T14:55:19.455Z"
+      },
+      "video/qj0VHB2Pmvc#2@0f5a16c2da761857": {
+        "verdict": "keep",
+        "reason": "A row-definition fact box shows the accounts a totaling line covers, which lets authors trace calculations.",
+        "at": "2026-10-06T14:55:19.455Z"
+      },
+      "video/qj0VHB2Pmvc#3@0f5a16c2da761857": {
+        "verdict": "keep",
+        "reason": "A column-definition fact box shows the accounts a totaling filter includes, another way to trace account usage.",
+        "at": "2026-10-06T14:55:19.455Z"
+      }
+    },
+    "573325": {
+      "docs/learn-smb-docs/business-central/across-setup-auditing.md@aedcddc476b657a8": {
+        "verdict": "keep",
+        "reason": "States that the Change Log tracks financial report changes automatically starting in 2026 release wave 2.",
+        "at": "2026-10-06T14:55:44.038Z"
+      },
+      "docs/learn-smb-docs/business-central/finance-financial-reporting-auditing.md@1a93af9a48df777a": {
+        "verdict": "keep",
+        "reason": "Explains how to audit changes to financial report definitions with the change log, which is what this feature makes always-on.",
+        "at": "2026-10-06T14:55:44.038Z"
+      },
+      "video/qj0VHB2Pmvc#7@0f5a16c2da761857": {
+        "verdict": "keep",
+        "reason": "Shows the change log being set up automatically for financial reports, row definitions and column definitions.",
+        "at": "2026-10-06T14:55:44.038Z"
+      }
+    },
+    "573326": {
+      "docs/learn-devitpro/dev-itpro/developer/devenv-report-layout-declaration.md@b49300527ab2b4d3": {
+        "verdict": "keep",
+        "reason": "It documents the AL side of the feature: the HeaderFooter layout subtype, composite rendering and the DefaultHeaderFooterPart property.",
+        "at": "2026-10-06T14:54:41.753Z"
+      },
+      "docs/learn-smb-docs/business-central/ui-get-started-layouts.md@d20be07775fe14d3": {
+        "verdict": "keep",
+        "reason": "It names header/footer layouts and reusable themes among the layout capabilities, though only as a list item, so this is a borderline keep.",
+        "at": "2026-10-06T14:54:41.753Z"
+      },
+      "docs/learn-smb-docs/business-central/ui-set-up-report-themes-header-footer-layouts.md@090b13676252f804": {
+        "verdict": "keep",
+        "reason": "It explains how to set up reusable header/footer layouts, with global, company and layout-specific defaults, which is exactly this feature.",
+        "at": "2026-10-06T14:54:41.753Z"
+      },
+      "video/-vdhfNMNZQk#0@03a2c681f4114e16": {
+        "verdict": "keep",
+        "reason": "The video introduces composite layouts, including reusable header-footer layouts applied across reports.",
+        "at": "2026-10-06T14:54:41.753Z"
+      },
+      "video/-vdhfNMNZQk#3@03a2c681f4114e16": {
+        "verdict": "keep",
+        "reason": "It shows header-footer layouts being applied at global, company, report or layout level, matching the feature description.",
+        "at": "2026-10-06T14:54:41.753Z"
+      },
+      "video/-vdhfNMNZQk#4@03a2c681f4114e16": {
+        "verdict": "keep",
+        "reason": "It shows the layered defaults for header-footer layouts from global down to a specific layout.",
+        "at": "2026-10-06T14:54:41.753Z"
+      },
+      "video/-vdhfNMNZQk#5@03a2c681f4114e16": {
+        "verdict": "keep",
+        "reason": "It shows how to create custom header-footer layouts in the UI or from AL, which is part of the feature.",
+        "at": "2026-10-06T14:54:41.753Z"
+      }
+    },
+    "573327": {
+      "docs/learn-devitpro/dev-itpro/developer/devenv-howto-report-layout.md@7b0694e56492f12e": {
+        "verdict": "drop",
+        "reason": "It covers creating Word layouts in general and never mentions report themes or composable layouts.",
+        "at": "2026-10-06T14:54:50.994Z"
+      },
+      "docs/learn-devitpro/dev-itpro/developer/devenv-report-layout-declaration.md@b49300527ab2b4d3": {
+        "verdict": "keep",
+        "reason": "It documents Word layout Theme subtypes and the DefaultThemePart property, which is the AL side of applying themes to composite layouts.",
+        "at": "2026-10-06T14:54:50.994Z"
+      },
+      "docs/learn-smb-docs/business-central/ui-set-up-report-themes-header-footer-layouts.md@090b13676252f804": {
+        "verdict": "keep",
+        "reason": "It directly documents setting up report themes, with defaults that resolve from global to company to layout level.",
+        "at": "2026-10-06T14:54:50.994Z"
+      },
+      "video/-vdhfNMNZQk#0@03a2c681f4114e16": {
+        "verdict": "keep",
+        "reason": "It introduces composite document layouts in which themes supply branding across reports.",
+        "at": "2026-10-06T14:54:50.994Z"
+      },
+      "video/-vdhfNMNZQk#2@03a2c681f4114e16": {
+        "verdict": "keep",
+        "reason": "It shows themes being applied to body layouts at runtime for consistent branding.",
+        "at": "2026-10-06T14:54:50.994Z"
+      },
+      "video/-vdhfNMNZQk#5@03a2c681f4114e16": {
+        "verdict": "keep",
+        "reason": "It shows custom themes being created through the UI or from AL code, which is part of the theming feature.",
+        "at": "2026-10-06T14:54:50.994Z"
+      }
+    },
+    "573328": {
+      "docs/learn-devitpro/dev-itpro/developer/devenv-howto-report-layout.md@7b0694e56492f12e": {
+        "verdict": "drop",
+        "reason": "This page covers creating Word layouts in general (XML mapping and dataitems, 2024 release wave 2) and doesn't mention the new design controls.",
+        "at": "2026-10-06T14:54:27.250Z"
+      },
+      "docs/learn-smb-docs/business-central/ui-design-word-layouts-business-central-add-in.md@372453d617b62447": {
+        "verdict": "drop",
+        "reason": "This page describes the existing add-in tools (adding fields, tables and conditional content), not the new design controls for addresses, amounts and the other report parts.",
+        "at": "2026-10-06T14:54:27.250Z"
+      },
+      "docs/learn-smb-docs/business-central/ui-how-add-fields-word-report-layout.md@88959cfafc1b26cd": {
+        "verdict": "drop",
+        "reason": "This page covers manual mapping in the XML Mapping pane, an older capability that has nothing to do with the new design components.",
+        "at": "2026-10-06T14:54:27.250Z"
+      },
+      "video/XLUAuUWtJDw#2@fe787ce3bbb3e16c": {
+        "verdict": "keep",
+        "reason": "The segment demonstrates the Address design control, which is one of the listed design components.",
+        "at": "2026-10-06T14:54:27.250Z"
+      },
+      "video/XLUAuUWtJDw#3@fe787ce3bbb3e16c": {
+        "verdict": "keep",
+        "reason": "The segment demonstrates the Field group design control, which is one of the listed design components.",
+        "at": "2026-10-06T14:54:27.250Z"
+      },
+      "video/XLUAuUWtJDw#4@fe787ce3bbb3e16c": {
+        "verdict": "keep",
+        "reason": "The segment demonstrates the Amounts design control, which is one of the listed design components.",
+        "at": "2026-10-06T14:54:27.250Z"
+      },
+      "video/XLUAuUWtJDw#5@fe787ce3bbb3e16c": {
+        "verdict": "keep",
+        "reason": "The segment demonstrates the Signature line design control, which is one of the listed design components.",
+        "at": "2026-10-06T14:54:27.250Z"
+      },
+      "video/XLUAuUWtJDw#6@fe787ce3bbb3e16c": {
+        "verdict": "keep",
+        "reason": "The segment demonstrates the Notes design control, which is one of the listed design components.",
+        "at": "2026-10-06T14:54:27.250Z"
+      }
+    },
+    "573329": {
+      "docs/learn-smb-docs/business-central/ui-design-word-layouts-business-central-add-in.md@372453d617b62447": {
+        "verdict": "keep",
+        "reason": "The Learn page on the Business Central Word add-in lists 'hide content conditionally' as one of the add-in's features, which is the conditional-visibility capability.",
+        "at": "2026-10-06T14:56:07.219Z"
+      },
+      "video/XLUAuUWtJDw#7@fe787ce3bbb3e16c": {
+        "verdict": "keep",
+        "reason": "The video segment presents the Hide-if logical control, which shows or hides content based on a boolean value, as this feature describes.",
+        "at": "2026-10-06T14:56:07.219Z"
+      }
+    },
+    "573330": {
+      "video/XLUAuUWtJDw#8@fe787ce3bbb3e16c": {
+        "verdict": "keep",
+        "reason": "The video segment shows the Word add-in's theme sample documents (invoice, pick list, outstanding orders), which is the capability this feature adds.",
+        "at": "2026-10-06T14:56:44.116Z"
+      }
+    },
+    "573331": {
+      "video/XLUAuUWtJDw#9@fe787ce3bbb3e16c": {
+        "verdict": "keep",
+        "reason": "The video segment shows the pre-built header/footer layout samples that come by default, and it shows custom header/footer layouts being designed in the Word add-in, which is what this roadmap feature adds.",
+        "at": "2026-10-06T14:56:46.141Z"
+      }
+    },
+    "573332": {
+      "video/Sh3ySQSTw-o#3@e0381de6298282f6": {
+        "verdict": "keep",
+        "reason": "It explains the new data model, where table extension fields are stored on the base table instead of in separate tables.",
+        "at": "2026-10-06T14:56:08.229Z"
+      },
+      "video/Sh3ySQSTw-o#4@e0381de6298282f6": {
+        "verdict": "keep",
+        "reason": "It describes the faster database operations that come from the new table extension data model, which is the benefit this feature promises.",
+        "at": "2026-10-06T14:56:08.229Z"
+      }
+    },
+    "573333": {
+      "docs/learn-devitpro/dev-itpro/developer/devenv-test-codeunits-and-test-methods.md@ca1e518c68a16623": {
+        "verdict": "keep",
+        "reason": "Learn page explicitly documents the TestHandlers property, TestDataSource attribute, data-driven tests and lifecycle callbacks.",
+        "at": "2026-10-06T14:53:51.939Z"
+      },
+      "video/aNRzlbxVPWE#14@7ab8a8cb34f6389b": {
+        "verdict": "drop",
+        "reason": "Agent eval suite setup caching is about the agent test toolkit, not the new data source or test handler capability.",
+        "at": "2026-10-06T14:53:51.939Z"
+      },
+      "video/aNRzlbxVPWE#2@7ab8a8cb34f6389b": {
+        "verdict": "drop",
+        "reason": "Advice on creating custom test data for agent tests is general, not this feature.",
+        "at": "2026-10-06T14:53:51.939Z"
+      },
+      "video/aNRzlbxVPWE#20@7ab8a8cb34f6389b": {
+        "verdict": "drop",
+        "reason": "Library agent public methods belong to the agent test library, a different capability.",
+        "at": "2026-10-06T14:53:51.939Z"
+      },
+      "video/aNRzlbxVPWE#3@7ab8a8cb34f6389b": {
+        "verdict": "drop",
+        "reason": "YAML-driven agent eval datasets are the AI test toolkit, not the new TestDataSource-based parameterized tests.",
+        "at": "2026-10-06T14:53:51.939Z"
+      },
+      "video/aNRzlbxVPWE#4@7ab8a8cb34f6389b": {
+        "verdict": "drop",
+        "reason": "Extensible agent test framework building blocks are unrelated to the data-driven tests or test handlers.",
+        "at": "2026-10-06T14:53:51.939Z"
+      },
+      "video/aNRzlbxVPWE#5@7ab8a8cb34f6389b": {
+        "verdict": "drop",
+        "reason": "YAML test definition syntax for agent evals is a different capability.",
+        "at": "2026-10-06T14:53:51.939Z"
+      },
+      "video/D_Lur52IrIg#13@17ac39ecf1067291": {
+        "verdict": "keep",
+        "reason": "Shows the new test source pattern in which a single test method iterates over reusable data rows.",
+        "at": "2026-10-06T14:53:51.939Z"
+      },
+      "video/D_Lur52IrIg#14@17ac39ecf1067291": {
+        "verdict": "keep",
+        "reason": "Shows the test handler lifecycle hooks at codeunit, procedure and test case level.",
+        "at": "2026-10-06T14:53:51.939Z"
+      },
+      "video/hNom9ZZuca0#0@33461f20914879af": {
+        "verdict": "keep",
+        "reason": "Announces data-driven testing in AL, where a single test method runs with multiple data sets.",
+        "at": "2026-10-06T14:53:51.939Z"
+      },
+      "video/hNom9ZZuca0#1@33461f20914879af": {
+        "verdict": "keep",
+        "reason": "Explains the Test Data Source interface used to build reusable data sources for parameterized tests.",
+        "at": "2026-10-06T14:53:51.939Z"
+      },
+      "video/hNom9ZZuca0#2@33461f20914879af": {
+        "verdict": "keep",
+        "reason": "Shows data-driven test cases in the VS Code test explorer, which is part of this feature's tooling.",
+        "at": "2026-10-06T14:53:51.939Z"
+      },
+      "video/hNom9ZZuca0#4@33461f20914879af": {
+        "verdict": "keep",
+        "reason": "Explains test handlers that provide setup and teardown at several levels.",
+        "at": "2026-10-06T14:53:51.939Z"
+      },
+      "video/hNom9ZZuca0#5@33461f20914879af": {
+        "verdict": "keep",
+        "reason": "Explains opt-in test handlers declared through the TestHandlers property.",
+        "at": "2026-10-06T14:53:51.939Z"
+      },
+      "video/hNom9ZZuca0#6@33461f20914879af": {
+        "verdict": "keep",
+        "reason": "Explains default test handlers for telemetry and shared setup across all tests.",
+        "at": "2026-10-06T14:53:51.939Z"
+      },
+      "video/hNom9ZZuca0#7@33461f20914879af": {
+        "verdict": "keep",
+        "reason": "Documents the ITestHandler interface and its lifecycle hooks.",
+        "at": "2026-10-06T14:53:51.939Z"
+      },
+      "video/hNom9ZZuca0#8@33461f20914879af": {
+        "verdict": "keep",
+        "reason": "Documents the TestHandlers property used to register handlers on test codeunits.",
+        "at": "2026-10-06T14:53:51.939Z"
+      },
+      "video/hNom9ZZuca0#9@33461f20914879af": {
+        "verdict": "keep",
+        "reason": "Shows a test handler behavior: conditionally skipping test cases.",
+        "at": "2026-10-06T14:53:51.939Z"
+      },
+      "video/V4zCPAsYi_Y#3@ffa25923d5d8e386": {
+        "verdict": "drop",
+        "reason": "YAML/XML configuration for agent test suites is the agent test toolkit, not this feature.",
+        "at": "2026-10-06T14:53:51.939Z"
+      }
+    },
+    "573334": {
+      "video/hNom9ZZuca0#3@33461f20914879af": {
+        "verdict": "keep",
+        "reason": "It shows that tests can be run through the AL tool outside VS Code, which is part of the ALTool command-line test execution this feature adds.",
+        "at": "2026-10-06T14:56:14.011Z"
+      },
+      "video/V4zCPAsYi_Y#7@ffa25923d5d8e386": {
+        "verdict": "drop",
+        "reason": "It describes a separate PowerShell test-runner module, not running tests through ALTool with JSON results.",
+        "at": "2026-10-06T14:56:14.011Z"
+      }
+    },
+    "573335": {
+      "docs/learn-devitpro/dev-itpro/developer/devenv-al-tool.md@5403ebaa7dff7bf9": {
+        "verdict": "keep",
+        "reason": "Documents the launchprofilingmcpproxy command, which connects AI agents to Business Central to profile slow sessions.",
+        "at": "2026-10-06T14:54:05.063Z"
+      },
+      "docs/learn-devitpro/dev-itpro/developer/devenv-troubleshooting-overview.md@4baed32b1a3814e4": {
+        "verdict": "drop",
+        "reason": "General overview of troubleshooting tools with nothing on agent-driven profiling.",
+        "at": "2026-10-06T14:54:05.063Z"
+      },
+      "docs/learn-devitpro/dev-itpro/performance/performance-work-perf-problem.md@cb0948673d529062": {
+        "verdict": "drop",
+        "reason": "General guide to performance tools that describes existing profilers, not AI agent profiling.",
+        "at": "2026-10-06T14:54:05.063Z"
+      },
+      "video/D_Lur52IrIg#16@17ac39ecf1067291": {
+        "verdict": "keep",
+        "reason": "Announces that coding agents can capture performance profiles through MCP tools without a debugging session.",
+        "at": "2026-10-06T14:54:05.063Z"
+      },
+      "video/D_Lur52IrIg#17@17ac39ecf1067291": {
+        "verdict": "keep",
+        "reason": "Shows the profiling MCP proxy command that lets agents start and monitor profiling.",
+        "at": "2026-10-06T14:54:05.063Z"
+      },
+      "video/D_Lur52IrIg#18@17ac39ecf1067291": {
+        "verdict": "drop",
+        "reason": "Covers the snapshot MCP proxy, which is snapshot debugging rather than this profiling capability.",
+        "at": "2026-10-06T14:54:05.063Z"
+      },
+      "video/UFLo2XGGS14#0@45e9a90116000ca2": {
+        "verdict": "drop",
+        "reason": "Too general: it gives an umbrella overview of the agentic developer loop without describing the profiling capability itself.",
+        "at": "2026-10-06T14:54:05.063Z"
+      },
+      "video/UFLo2XGGS14#5@45e9a90116000ca2": {
+        "verdict": "keep",
+        "reason": "Describes the sampling profiling MCP, which captures CPU profiles, SQL and HTTP calls and memory data for a target session.",
+        "at": "2026-10-06T14:54:05.063Z"
+      },
+      "video/UFLo2XGGS14#6@45e9a90116000ca2": {
+        "verdict": "keep",
+        "reason": "Explains how agents schedule session-based sampling profiling and get back CPU profiles with SQL and HTTP metrics.",
+        "at": "2026-10-06T14:54:05.063Z"
+      },
+      "video/UFLo2XGGS14#7@45e9a90116000ca2": {
+        "verdict": "keep",
+        "reason": "Shows agents finding performance issues in telemetry and then triggering profiling with the right session IDs, which is one step of the feature.",
+        "at": "2026-10-06T14:54:05.063Z"
+      }
+    },
+    "573336": {
+      "video/D_Lur52IrIg#15@17ac39ecf1067291": {
+        "verdict": "keep",
+        "reason": "Announces the offline static call graph analysis across an extension and its dependencies, which is the core of this feature.",
+        "at": "2026-10-06T14:54:28.310Z"
+      },
+      "video/i0gBrA1tx50#0@ea44628c92c7d8a1": {
+        "verdict": "keep",
+        "reason": "Introduces AL Graph, which builds call graphs showing caller-callee relationships, dependencies and security issues.",
+        "at": "2026-10-06T14:54:28.310Z"
+      },
+      "video/i0gBrA1tx50#1@ea44628c92c7d8a1": {
+        "verdict": "keep",
+        "reason": "Explains the query language used to query call graphs and trace security boundaries.",
+        "at": "2026-10-06T14:54:28.310Z"
+      },
+      "video/i0gBrA1tx50#2@ea44628c92c7d8a1": {
+        "verdict": "keep",
+        "reason": "Shows the DGML export, which gives the visual graph output of call relationships.",
+        "at": "2026-10-06T14:54:28.310Z"
+      },
+      "video/i0gBrA1tx50#3@ea44628c92c7d8a1": {
+        "verdict": "keep",
+        "reason": "Shows the SARIF export of AL Graph queries, which is one of the feature's export options.",
+        "at": "2026-10-06T14:54:28.310Z"
+      },
+      "video/i0gBrA1tx50#4@ea44628c92c7d8a1": {
+        "verdict": "keep",
+        "reason": "Explains how the call graph meta model is extracted once and then queried, a step of the feature.",
+        "at": "2026-10-06T14:54:28.310Z"
+      },
+      "video/i0gBrA1tx50#5@ea44628c92c7d8a1": {
+        "verdict": "keep",
+        "reason": "Demonstrates an AL Graph query that traces call paths to HTTP client for auditing external integration points.",
+        "at": "2026-10-06T14:54:28.310Z"
+      },
+      "video/i0gBrA1tx50#6@ea44628c92c7d8a1": {
+        "verdict": "keep",
+        "reason": "Demonstrates the debugging boundary audit that finds where secrets could become inspectable in the debugger.",
+        "at": "2026-10-06T14:54:28.310Z"
+      }
+    },
+    "573338": {
+      "docs/learn-devitpro/dev-itpro/developer/al-agent-tools/al-agent-tools-overview.md@e4552b85d257457b": {
+        "verdict": "keep",
+        "reason": "The page lists the AL LSP server among the AI agent tools, so it documents the standalone language server this feature adds.",
+        "at": "2026-10-06T14:55:08.415Z"
+      },
+      "docs/learn-devitpro/dev-itpro/developer/devenv-al-tool.md@5403ebaa7dff7bf9": {
+        "verdict": "keep",
+        "reason": "The ALTool reference documents the AL LSP server as a feature, which is how the standalone language server runs outside VS Code.",
+        "at": "2026-10-06T14:55:08.415Z"
+      },
+      "video/D_Lur52IrIg#1@17ac39ecf1067291": {
+        "verdict": "keep",
+        "reason": "It directly announces project-aware AL language intelligence over LSP that no longer needs Visual Studio Code.",
+        "at": "2026-10-06T14:55:08.415Z"
+      },
+      "video/npkC4wyucyY#1@ae415677cb0925c9": {
+        "verdict": "drop",
+        "reason": "It covers the AL MCP server's compile, publish and search tools, which is a different capability from the LSP language server.",
+        "at": "2026-10-06T14:55:08.415Z"
+      },
+      "video/UFLo2XGGS14#4@45e9a90116000ca2": {
+        "verdict": "keep",
+        "reason": "It shows the language server protocol made available to agents for definitions, references and symbols, which is the agent use this feature describes.",
+        "at": "2026-10-06T14:55:08.415Z"
+      }
+    },
+    "573339": {
+      "docs/learn-devitpro/dev-itpro/developer/al-agent-tools/al-tool-symbol-search.md@a4b58eebe9809a32": {
+        "verdict": "keep",
+        "reason": "It documents that al_symbolsearch can search a connected Business Central environment, which is the core of this feature.",
+        "at": "2026-10-06T14:55:41.298Z"
+      },
+      "video/D_Lur52IrIg#0@17ac39ecf1067291": {
+        "verdict": "keep",
+        "reason": "It announces that agents can search the connected environment to find which app owns each object and its version, which is the owning-app metadata the feature adds.",
+        "at": "2026-10-06T14:55:41.298Z"
+      },
+      "video/D_Lur52IrIg#2@17ac39ecf1067291": {
+        "verdict": "keep",
+        "reason": "It explains the new 'environment' source parameter, which searches the connected server without downloading symbols first.",
+        "at": "2026-10-06T14:55:41.298Z"
+      }
+    },
+    "573340": {
+      "docs/learn-smb-docs/business-central/shopify/synchronize-orders.md@6c63f51fe87f92a1": {
+        "verdict": "drop",
+        "reason": "This is a general Learn overview of Shopify order sync. It doesn't describe Use Shopify Order No., contact review, or choosing between credit memos and return orders.",
+        "at": "2026-10-06T14:56:13.848Z"
+      },
+      "video/5OZ0g5IgC8Q#6@934865212746c298": {
+        "verdict": "keep",
+        "reason": "The video segment shows the new setting that uses the Shopify order number as the Business Central sales document number, which is one part of this feature.",
+        "at": "2026-10-06T14:56:13.848Z"
+      }
+    },
+    "573343": {
+      "docs/learn-smb-docs/business-central/shopify/synchronize-orders.md@6c63f51fe87f92a1": {
+        "verdict": "drop",
+        "reason": "This is a general Learn overview of Shopify order sync that mentions return and refund processing only broadly; it says nothing about exchange items, Move Negative Lines or linked replacement documents.",
+        "at": "2026-10-06T14:56:15.785Z"
+      },
+      "video/5OZ0g5IgC8Q#7@934865212746c298": {
+        "verdict": "drop",
+        "reason": "The video segment is about tax matching on automatically created refund documents, which is a different capability from processing exchanges and order edits.",
+        "at": "2026-10-06T14:56:15.785Z"
+      }
+    },
+    "573345": {
+      "docs/learn-smb-docs/business-central/contoso-coffee/manufacturing/set-up-process-subcontracting-operation.md@66a935f5ec82bf7a": {
+        "verdict": "drop",
+        "reason": "General subcontracting setup page; doesn't mention comments or attachments being carried into purchase orders.",
+        "at": "2026-10-06T14:54:04.449Z"
+      },
+      "docs/learn-smb-docs/business-central/contoso-coffee/manufacturing/subcontracting-component-supply-methods.md@f815092c72323b55": {
+        "verdict": "drop",
+        "reason": "Covers component supply methods, which is a different subcontracting capability.",
+        "at": "2026-10-06T14:54:04.449Z"
+      },
+      "docs/learn-smb-docs/business-central/contoso-coffee/manufacturing/subcontracting-pricing-item-charges.md@ee159b5a3cd40c1e": {
+        "verdict": "drop",
+        "reason": "Covers subcontracting prices and item charges, not instructions on purchase orders.",
+        "at": "2026-10-06T14:54:04.449Z"
+      },
+      "docs/learn-smb-docs/business-central/reports/report-99000789.md@60603387b0bbbef9": {
+        "verdict": "drop",
+        "reason": "Dispatch list report shares only the subcontracting area, not the feature.",
+        "at": "2026-10-06T14:54:04.449Z"
+      },
+      "video/nb_a42dmSqE#5@f0cd83baad1ec31c": {
+        "verdict": "drop",
+        "reason": "Covers migration and list views for subcontracting orders, not comments or attachments flowing to purchase orders.",
+        "at": "2026-10-06T14:54:04.449Z"
+      },
+      "video/QdWPlIV3Avk#10@47ba9c7be8816ff5": {
+        "verdict": "keep",
+        "reason": "Shows routing attachments flowing to purchase order lines, with toggles for the production and purchase orders.",
+        "at": "2026-10-06T14:54:04.449Z"
+      },
+      "video/QdWPlIV3Avk#12@47ba9c7be8816ff5": {
+        "verdict": "keep",
+        "reason": "Shows subcontracting comments on routing lines inherited from standard tasks and copied to the purchase order.",
+        "at": "2026-10-06T14:54:04.449Z"
+      },
+      "video/QdWPlIV3Avk#6@47ba9c7be8816ff5": {
+        "verdict": "keep",
+        "reason": "Shows the subcontracting purchase order filled automatically with description and instruction comment lines from the routing.",
+        "at": "2026-10-06T14:54:04.449Z"
+      },
+      "video/QdWPlIV3Avk#9@47ba9c7be8816ff5": {
+        "verdict": "keep",
+        "reason": "Shows the comment lines on the subcontracting purchase order that carry instructions for the subcontractor.",
+        "at": "2026-10-06T14:54:04.449Z"
+      },
+      "video/WACQbAEVOJg#0@c93b9db36bf703d8": {
+        "verdict": "keep",
+        "reason": "Announces comments and attachments from routing operations carried onto purchase order lines.",
+        "at": "2026-10-06T14:54:04.449Z"
+      }
+    },
+    "573346": {
+      "docs/learn-devitpro/dev-itpro/developer/al-agent-tools/al-agent-tools-overview.md@e4552b85d257457b": {
+        "verdict": "keep",
+        "reason": "The page lists al_getnextobjectid among the agent tools, and that tool is this feature, though the page only names it.",
+        "at": "2026-10-06T14:55:27.496Z"
+      },
+      "docs/learn-devitpro/dev-itpro/developer/al-agent-tools/al-tool-get-next-object-id.md@880af05b0b8d7e97": {
+        "verdict": "keep",
+        "reason": "It documents al_getnextobjectid, which gives agents the next free object ID within the project's ranges to avoid collisions.",
+        "at": "2026-10-06T14:55:27.496Z"
+      },
+      "video/D_Lur52IrIg#0@17ac39ecf1067291": {
+        "verdict": "keep",
+        "reason": "The segment says agents can find available object IDs in custom ranges, which is this feature.",
+        "at": "2026-10-06T14:55:27.496Z"
+      },
+      "video/D_Lur52IrIg#3@17ac39ecf1067291": {
+        "verdict": "keep",
+        "reason": "It announces the MCP tool that reads the app.json ID ranges and suggests the next free ID.",
+        "at": "2026-10-06T14:55:27.496Z"
+      }
+    },
+    "573347": {
+      "docs/learn-smb-docs/business-central/inventory-how-transfer-between-locations.md@297282ecde070c8f": {
+        "verdict": "drop",
+        "reason": "This is a general Learn overview of transfers. It only lists 'direct transfer posting methods' among other features and doesn't describe per-route posting or support for warehouse-enabled source locations.",
+        "at": "2026-10-06T14:56:20.984Z"
+      },
+      "video/WACQbAEVOJg#5@c93b9db36bf703d8": {
+        "verdict": "keep",
+        "reason": "The video segment shows how to choose between the Direct Transfer and Shipment and Receipt posting methods, including partial shipping, which is a core part of this feature.",
+        "at": "2026-10-06T14:56:20.984Z"
+      }
+    },
+    "573348": {
+      "docs/learn-devitpro/dev-itpro/ai/use-mcp-server-in-vscode.md@792fb5ed5ea0d86c": {
+        "verdict": "drop",
+        "reason": "This page covers the Business Central data MCP server in VS Code, not starting the AL development MCP server without a project or adding projects while it runs.",
+        "at": "2026-10-06T14:55:23.745Z"
+      },
+      "docs/learn-devitpro/dev-itpro/ai/use-mcp-server-non-microsoft.md@232d0d3e5d450b85": {
+        "verdict": "drop",
+        "reason": "This page is about connecting non-Microsoft hosts to the Business Central data MCP server, which is a different capability from dynamic AL MCP workspaces.",
+        "at": "2026-10-06T14:55:23.745Z"
+      },
+      "docs/learn-devitpro/dev-itpro/developer/al-agent-tools/al-mcp-server.md@26880425a8a6a893": {
+        "verdict": "keep",
+        "reason": "The AL MCP Server page lists the al_addproject tool, which documents adding AL projects while the server runs, a core part of this feature.",
+        "at": "2026-10-06T14:55:23.745Z"
+      },
+      "video/npkC4wyucyY#1@ae415677cb0925c9": {
+        "verdict": "drop",
+        "reason": "The video segment only describes the AL MCP server in general and says nothing about loading projects dynamically or headless connection settings.",
+        "at": "2026-10-06T14:55:23.745Z"
+      }
+    },
+    "573350": {
+      "docs/learn-smb-docs/business-central/qms-manual-test-creation.md@6b492136b2977b03": {
+        "verdict": "drop",
+        "reason": "This is a general page on working with inspections; it mentions assigning inspections and calculating results, but not the 'Assign to myself' notification or automatic passed/failed quantities.",
+        "at": "2026-10-06T14:54:57.043Z"
+      },
+      "docs/learn-smb-docs/business-central/qms-non-compliant-processing.md@66808075dc8d367b": {
+        "verdict": "drop",
+        "reason": "It covers handling failed items and moving inventory in general, not the new movement method, quantity basis, destination bin or assisted bin selection options.",
+        "at": "2026-10-06T14:54:57.043Z"
+      },
+      "docs/learn-smb-docs/business-central/qms-production-output-testing.md@b0d7d13e63473a32": {
+        "verdict": "drop",
+        "reason": "It demonstrates creating a sampled inspection automatically from production output, which is an existing capability and none of the improvements this feature adds.",
+        "at": "2026-10-06T14:54:57.043Z"
+      },
+      "docs/learn-smb-docs/business-central/qms-purchase-receipt-testing-simple.md@5c6cc19d1a963fb2": {
+        "verdict": "drop",
+        "reason": "It demonstrates creating an inspection manually from item tracking, which is unrelated to the improvements in this feature.",
+        "at": "2026-10-06T14:54:57.043Z"
+      },
+      "docs/learn-smb-docs/business-central/qms-purchase-receipt-testing-warehouse.md@5d4a16679f107f56": {
+        "verdict": "drop",
+        "reason": "It demonstrates automatic inspection from a warehouse receipt and reinspection, which is not one of this feature's new behaviors.",
+        "at": "2026-10-06T14:54:57.043Z"
+      },
+      "docs/learn-smb-docs/business-central/qms-test-generation-rules.md@4a04d9f1f672195e": {
+        "verdict": "drop",
+        "reason": "It explains how to set up inspection generation rules, which only shares the Quality Management area with this feature.",
+        "at": "2026-10-06T14:54:57.043Z"
+      }
+    },
+    "573351": {
+      "docs/learn-devitpro/dev-itpro/developer/al-agent-tools/al-tool-build.md@e1aa6755c238cdd3": {
+        "verdict": "drop",
+        "reason": "Describes the al_build tool's workspace builds with code analyzers and diagnostics, but says nothing about ALTool writing structured compiler error logs for each project that automated systems can keep.",
+        "at": "2026-10-06T14:56:22.044Z"
+      },
+      "docs/learn-devitpro/dev-itpro/developer/al-agent-tools/al-tool-compile.md@bb1a9dcc141a8873": {
+        "verdict": "drop",
+        "reason": "Describes al_compile's error-only output and diagnostics filtering, which is a different validation capability, not structured compiler error logs from workspace builds.",
+        "at": "2026-10-06T14:56:22.044Z"
+      }
+    },
+    "573352": {
+      "docs/learn-devitpro/dev-itpro/developer/devenv-interface-method-lifecycle.md@e67907f54e6c2a86": {
+        "verdict": "keep",
+        "reason": "Documents the default methods, RequiredPending attribute and AppSourceCop rules for the interface method lifecycle, which is exactly this feature.",
+        "at": "2026-10-06T14:55:46.327Z"
+      },
+      "docs/learn-devitpro/dev-itpro/developer/devenv-interfaces-in-al.md@ccd4e2026358c644": {
+        "verdict": "keep",
+        "reason": "The interfaces page describes default interface methods and the RequiredPending attribute, with a 2026 release wave 2 version tag.",
+        "at": "2026-10-06T14:55:46.327Z"
+      },
+      "video/D_Lur52IrIg#4@17ac39ecf1067291": {
+        "verdict": "keep",
+        "reason": "The video segment shows interface default implementations and the RequiredPending attribute.",
+        "at": "2026-10-06T14:55:46.327Z"
+      }
+    },
+    "573353": {
+      "docs/learn-smb-docs/business-central/contoso-coffee/manufacturing/set-up-process-subcontracting-operation.md@66a935f5ec82bf7a": {
+        "verdict": "keep",
+        "reason": "Documents subcontracting setup and processing using Contoso Coffee demo data, which the feature expands with new demo subcontracting scenarios.",
+        "at": "2026-10-06T14:54:44.965Z"
+      },
+      "docs/learn-smb-docs/business-central/subcontract-setup.md@86c8638d88b365f5": {
+        "verdict": "drop",
+        "reason": "General subcontracting setup page; does not describe the assisted setup guide, notifications, or new discovery actions.",
+        "at": "2026-10-06T14:54:44.965Z"
+      },
+      "video/nb_a42dmSqE#0@f0cd83baad1ec31c": {
+        "verdict": "drop",
+        "reason": "Announces the global subcontracting app replacing Italian functionality, not the guided setup and discovery improvements.",
+        "at": "2026-10-06T14:54:44.965Z"
+      },
+      "video/nb_a42dmSqE#1@f0cd83baad1ec31c": {
+        "verdict": "drop",
+        "reason": "Describes the Italian migration app, a different capability.",
+        "at": "2026-10-06T14:54:44.965Z"
+      },
+      "video/nb_a42dmSqE#2@f0cd83baad1ec31c": {
+        "verdict": "drop",
+        "reason": "Describes a migration pre-check, not part of this setup feature.",
+        "at": "2026-10-06T14:54:44.965Z"
+      },
+      "video/nb_a42dmSqE#4@f0cd83baad1ec31c": {
+        "verdict": "drop",
+        "reason": "Application area toggle for legacy versus new subcontracting belongs to the migration feature, not the setup guide or notifications.",
+        "at": "2026-10-06T14:54:44.965Z"
+      },
+      "video/nb_a42dmSqE#6@f0cd83baad1ec31c": {
+        "verdict": "drop",
+        "reason": "Covers migration of vendor fields, not the setup guidance or the missing-location notification.",
+        "at": "2026-10-06T14:54:44.965Z"
+      },
+      "video/nb_a42dmSqE#7@f0cd83baad1ec31c": {
+        "verdict": "drop",
+        "reason": "Covers migration of subcontractor prices, a different capability.",
+        "at": "2026-10-06T14:54:44.965Z"
+      }
+    },
+    "573355": {
+      "docs/learn-smb-docs/business-central/contoso-coffee/manufacturing/set-up-process-subcontracting-operation.md@66a935f5ec82bf7a": {
+        "verdict": "drop",
+        "reason": "Covers general subcontracting setup, WIP items and return materials, with no mention of inventory put-aways or picks.",
+        "at": "2026-10-06T14:54:37.851Z"
+      },
+      "docs/learn-smb-docs/business-central/subcontract-order.md@5fda809b6c610a64": {
+        "verdict": "keep",
+        "reason": "The subcontracting order page lists inventory put-away for subcontracting purchase orders among its documented features.",
+        "at": "2026-10-06T14:54:37.851Z"
+      },
+      "docs/learn-smb-docs/business-central/warehouse-how-to-pick-items-with-inventory-picks.md@a547b1e89775b48b": {
+        "verdict": "drop",
+        "reason": "Generic inventory pick documentation that never mentions subcontracting or WIP transfers.",
+        "at": "2026-10-06T14:54:37.851Z"
+      },
+      "video/QdWPlIV3Avk#20@47ba9c7be8816ff5": {
+        "verdict": "drop",
+        "reason": "Describes warehouse receipts for subcontracting, a different capability from inventory put-aways at basic locations.",
+        "at": "2026-10-06T14:54:37.851Z"
+      },
+      "video/QdWPlIV3Avk#21@47ba9c7be8816ff5": {
+        "verdict": "keep",
+        "reason": "Shows creating inventory put-aways directly from subcontracting orders at basic warehouse locations, with serial number assignment.",
+        "at": "2026-10-06T14:54:37.851Z"
+      },
+      "video/QdWPlIV3Avk#23@47ba9c7be8816ff5": {
+        "verdict": "keep",
+        "reason": "Shows inventory put-away as a supported receiving method for subcontracting, with serial number support.",
+        "at": "2026-10-06T14:54:37.851Z"
+      },
+      "video/QdWPlIV3Avk#3@47ba9c7be8816ff5": {
+        "verdict": "drop",
+        "reason": "General statement about subcontracting warehouse integration, too broad to identify inventory put-aways or picks.",
+        "at": "2026-10-06T14:54:37.851Z"
+      },
+      "video/WACQbAEVOJg#1@c93b9db36bf703d8": {
+        "verdict": "keep",
+        "reason": "Announces inventory put-aways for subcontracted operations, supporting both last and non-last operations.",
+        "at": "2026-10-06T14:54:37.851Z"
+      }
+    },
+    "573356": {
+      "docs/learn-devitpro/dev-itpro/developer/devenv-get-started.md@bc8c3d1c866d154b": {
+        "verdict": "keep",
+        "reason": "The Get started page lists '.NET runtime acquisition' for 2026 release wave 2, so it documents part of this feature's setup change, not just general AL setup.",
+        "at": "2026-10-06T14:56:50.700Z"
+      }
+    },
+    "573359": {
+      "docs/learn-devitpro/dev-itpro/developer/devenv-namespaces-structure.md@9dfb8898b1999932": {
+        "verdict": "drop",
+        "reason": "The page covers namespace adoption tooling and fully qualified names in general, with nothing on namespace-aware translation identifiers.",
+        "at": "2026-10-06T14:55:48.218Z"
+      },
+      "docs/learn-devitpro/dev-itpro/developer/devenv-work-with-translation-files.md@2e9537aeaee2ea27": {
+        "verdict": "keep",
+        "reason": "The page documents namespace-aware translation IDs and the TranslationsWithNamespaces feature, which is the capability this item adds.",
+        "at": "2026-10-06T14:55:48.218Z"
+      },
+      "video/D_Lur52IrIg#8@17ac39ecf1067291": {
+        "verdict": "keep",
+        "reason": "The video segment announces namespace-based translation keys that remove collisions between objects with the same name in different namespaces.",
+        "at": "2026-10-06T14:55:48.218Z"
+      }
+    },
+    "573360": {
+      "video/D_Lur52IrIg#12@17ac39ecf1067291": {
+        "verdict": "keep",
+        "reason": "The video segment introduces Record.IsDirty(), which tests whether a record has unsaved changes. That is exactly the capability this roadmap feature adds.",
+        "at": "2026-10-06T14:56:50.912Z"
+      }
+    },
+    "573361": {
+      "docs/learn-devitpro/dev-itpro/developer/al-agent-tools/al-language-model-tools-vscode.md@c1ec45cca2577c8f": {
+        "verdict": "keep",
+        "reason": "It documents the al_snapshotdebugging tool, which lets AI agents run snapshot debugging from chat, the agent-driven capability this feature adds.",
+        "at": "2026-10-06T14:55:02.691Z"
+      },
+      "docs/learn-devitpro/dev-itpro/developer/al-agent-tools/al-tool-debug.md@7f0a338c86bad353": {
+        "verdict": "keep",
+        "reason": "It explains the al_snapshotdebugging tool, which captures snapshots from live environments for offline inspection, a core part of this feature's workflow.",
+        "at": "2026-10-06T14:55:02.691Z"
+      },
+      "docs/learn-devitpro/dev-itpro/developer/devenv-snapshot-debugging.md@8b337d0d4696d04c": {
+        "verdict": "keep",
+        "reason": "Its feature list includes MCP server snapshot debugging, the way an agent records a session's snapshot for offline debugging.",
+        "at": "2026-10-06T14:55:02.691Z"
+      },
+      "docs/learn-devitpro/dev-itpro/developer/devenv-troubleshooting-overview.md@4baed32b1a3814e4": {
+        "verdict": "drop",
+        "reason": "It is a general troubleshooting overview that names snapshot debugging only as a topic, with nothing about the AI-agent workflow.",
+        "at": "2026-10-06T14:55:02.691Z"
+      },
+      "video/UFLo2XGGS14#0@45e9a90116000ca2": {
+        "verdict": "keep",
+        "reason": "It announces an AI-guided workflow in which an agent coordinates snapshot debugging to investigate production problems.",
+        "at": "2026-10-06T14:55:02.691Z"
+      },
+      "video/UFLo2XGGS14#1@45e9a90116000ca2": {
+        "verdict": "keep",
+        "reason": "It shows the snapshot debugging MCP server, which lets agents capture runtime snapshots from production sessions, the feature's capture mechanism.",
+        "at": "2026-10-06T14:55:02.691Z"
+      }
+    },
+    "573362": {
+      "docs/learn-smb-docs/business-central/chat-with-copilot-faq.md@ea53010d5132c202": {
+        "verdict": "keep",
+        "reason": "This FAQ covers the new Copilot experience that replaces Chat with Copilot starting in version 29.",
+        "at": "2026-10-06T14:54:16.762Z"
+      },
+      "docs/learn-smb-docs/business-central/chat-with-copilot.md@326bf5cab418d50d": {
+        "verdict": "keep",
+        "reason": "This page explains how to use the new Microsoft Copilot in Business Central, starting in version 29.",
+        "at": "2026-10-06T14:54:16.762Z"
+      },
+      "docs/learn-smb-docs/business-central/copilot-overview.md@fedfbbaaf6c0d675": {
+        "verdict": "drop",
+        "reason": "This older FAQ (version 26.3) covers the previous Chat with Copilot and other Copilot features, not the new Microsoft Copilot chat experience.",
+        "at": "2026-10-06T14:54:16.762Z"
+      },
+      "docs/learn-smb-docs/business-central/microsoft-copilot-in-business-central-application-card.md@f8b20ca5607e0715": {
+        "verdict": "keep",
+        "reason": "This application card documents Microsoft Copilot in Business Central, the new experience this feature adds.",
+        "at": "2026-10-06T14:54:16.762Z"
+      },
+      "docs/learn-smb-docs/business-central/work-with-business-central-data-in-copilot.md@96b59c1e7cdf4a0f": {
+        "verdict": "keep",
+        "reason": "This page explains what the new Microsoft Copilot in Business Central can do with company data.",
+        "at": "2026-10-06T14:54:16.762Z"
+      },
+      "video/TSLXzbeyE7Y#0@20aed415e3ba14fb": {
+        "verdict": "keep",
+        "reason": "This video segment shows the new Microsoft Copilot Chat in Business Central.",
+        "at": "2026-10-06T14:54:16.762Z"
+      },
+      "video/V7NgFOIcGgM#0@1751aaef864985bd": {
+        "verdict": "keep",
+        "reason": "This video segment explains the new Microsoft Copilot Chat coming to all Business Central users.",
+        "at": "2026-10-06T14:54:16.762Z"
+      },
+      "video/WL3m2dffwU8#0@d1e013b1b03b4a50": {
+        "verdict": "keep",
+        "reason": "This video segment introduces the unified Microsoft Copilot Chat experience, which matches the feature's alignment with the wider Copilot ecosystem.",
+        "at": "2026-10-06T14:54:16.762Z"
+      },
+      "video/WL3m2dffwU8#2@d1e013b1b03b4a50": {
+        "verdict": "keep",
+        "reason": "This video segment shows the new Copilot button that opens the updated Copilot experience, one piece of the feature.",
+        "at": "2026-10-06T14:54:16.762Z"
+      }
+    },
+    "573363": {
+      "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-28-0.md@ac669ecf16b8ef4d": {
+        "verdict": "keep",
+        "reason": "The release wave 1 What's New page lists 'Manage tasks from all agents in task pane' by name, so it announces this feature.",
+        "at": "2026-10-06T14:56:25.949Z"
+      },
+      "docs/learn-smb-docs/business-central/supervise-agent-tasks.md@d5ea1f54027fe1fe": {
+        "verdict": "keep",
+        "reason": "The page documents the Tasks pane, where users review, confirm, instruct or stop tasks from several agents, which is the core of this feature.",
+        "at": "2026-10-06T14:56:25.949Z"
+      }
+    },
+    "573364": {
+      "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-28-0.md@ac669ecf16b8ef4d": {
+        "verdict": "keep",
+        "reason": "The 28.0 What's New page lists 'Show avatars for record creators and modifiers' by name, so it announces this feature's release.",
+        "at": "2026-10-06T14:56:52.666Z"
+      }
+    },
+    "573366": {
+      "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-28-0.md@ac669ecf16b8ef4d": {
+        "verdict": "keep",
+        "reason": "The 28.0 release notes list 'Review content generated by agents on pages' by name, which announces this feature.",
+        "at": "2026-10-06T14:56:27.793Z"
+      },
+      "docs/learn-smb-docs/business-central/summarize-with-copilot.md@35e49bf0763152fa": {
+        "verdict": "drop",
+        "reason": "Copilot record summaries in the FactBox are a different capability from reviewing agent-generated content inline on pages.",
+        "at": "2026-10-06T14:56:27.793Z"
+      }
+    },
+    "573369": {
+      "docs/learn-smb-docs/business-central/supervise-agent-tasks.md@d5ea1f54027fe1fe": {
+        "verdict": "keep",
+        "reason": "The page documents a data review bar for reviewing and approving agent work directly on document pages, which is part of this feature.",
+        "at": "2026-10-06T14:56:32.338Z"
+      },
+      "docs/learn-smb-docs/business-central/ui-smart-notifications.md@0421d7ffd74e4011": {
+        "verdict": "keep",
+        "reason": "The notifications page lists an 'Agent changes review' notification capability tagged 30.0, which matches agent actions review notifications.",
+        "at": "2026-10-06T14:56:32.338Z"
+      }
+    },
+    "573370": {
+      "docs/learn-devitpro/dev-itpro/ai/ai-development-toolkit-permissions-profiles.md@18048a83214160d1": {
+        "verdict": "drop",
+        "reason": "Describes general agent permission set/profile setup and permission intersection, not agents requesting additional permissions.",
+        "at": "2026-10-06T14:55:53.175Z"
+      },
+      "docs/learn-devitpro/dev-itpro/ai/ai-development-toolkit-permissions.md@596a73bf0b072b1c": {
+        "verdict": "drop",
+        "reason": "Covers agent access controls and admin permission sets generally, with no mention of granting permissions upon agent request.",
+        "at": "2026-10-06T14:55:53.175Z"
+      },
+      "docs/learn-smb-docs/business-central/enable-ai.md@89c475fcaeb38357": {
+        "verdict": "drop",
+        "reason": "General Copilot & agent capabilities admin page, too broad to evidence this feature.",
+        "at": "2026-10-06T14:55:53.175Z"
+      }
+    },
+    "573374": {
+      "docs/learn-smb-docs/business-central/finance-sustainability-journal.md@86a3d012739d2656": {
+        "verdict": "drop",
+        "reason": "The page lists journal formulas and purchase document emissions as separate existing features and never describes using formulas on purchase lines.",
+        "at": "2026-10-06T14:55:54.532Z"
+      },
+      "docs/learn-smb-docs/business-central/value-chain-howto-purchase.md@f52d983d5d37c04c": {
+        "verdict": "drop",
+        "reason": "It covers the older Use Emissions in Purchase Documents capability and tracking methods, with nothing about formula-based calculation on purchase lines.",
+        "at": "2026-10-06T14:55:54.532Z"
+      },
+      "video/t_UXxbvgnHY#0@1e97f213f651912d": {
+        "verdict": "keep",
+        "reason": "It announces that sustainability formulas now work in purchase orders and invoices, calculating emissions the same way as in journals.",
+        "at": "2026-10-06T14:55:54.532Z"
+      }
+    },
+    "573375": {
+      "docs/learn-smb-docs/business-central/value-chain-howto-service.md@a7d4fa25c1fdb492": {
+        "verdict": "keep",
+        "reason": "The Learn page describes CO2e tracking for items and resources on service documents and the creation of sustainability value entries when service transactions are posted, which is exactly what this feature adds.",
+        "at": "2026-10-06T14:56:57.232Z"
+      }
+    },
+    "573376": {
+      "video/t_UXxbvgnHY#5@1e97f213f651912d": {
+        "verdict": "keep",
+        "reason": "The video shows the new reverse action for sustainability ledger entries and notes that it only works for entries posted from journals, which matches this feature.",
+        "at": "2026-10-06T14:56:57.233Z"
+      }
+    },
+    "573377": {
+      "docs/learn-smb-docs/business-central/fa-how-acquire.md@e4709e31f74cce6f": {
+        "verdict": "keep",
+        "reason": "The acquisition page lists emissions tracking as part of fixed asset acquisition, which is the acquisition piece of this feature.",
+        "at": "2026-10-06T14:55:27.201Z"
+      },
+      "docs/learn-smb-docs/business-central/fa-how-dispose-retire.md@3dbdf6223a9e001f": {
+        "verdict": "keep",
+        "reason": "The disposal page covers CO2e tracking when posting disposals, which is the disposal piece of this feature.",
+        "at": "2026-10-06T14:55:27.201Z"
+      },
+      "docs/learn-smb-docs/business-central/fa-how-trans-split-combine.md@1d6d06d5973b96f8": {
+        "verdict": "keep",
+        "reason": "The reclassification page covers moving emissions between assets, which is the reclassification piece of this feature.",
+        "at": "2026-10-06T14:55:27.201Z"
+      },
+      "docs/learn-smb-docs/business-central/value-chain-howto-fixed-assets.md@254c72e6f9242508": {
+        "verdict": "keep",
+        "reason": "This page documents the feature directly: fixed asset emissions through acquisition, reclassification and disposal, ending in sustainability ledger entries.",
+        "at": "2026-10-06T14:55:27.201Z"
+      }
+    },
+    "573378": {
+      "docs/learn-smb-docs/business-central/finance-sustainability-journal.md@86a3d012739d2656": {
+        "verdict": "drop",
+        "reason": "Covers general sustainability journals and purchase document emissions, not carbon tracking in item or item reclassification journals.",
+        "at": "2026-10-06T14:55:55.092Z"
+      },
+      "docs/learn-smb-docs/business-central/value-chain-howto-item-journals.md@06fb709ad48f9d71": {
+        "verdict": "keep",
+        "reason": "Documents recording item emissions and reclassifications in item journals that create sustainability value entries with CO2e per unit calculation.",
+        "at": "2026-10-06T14:55:55.092Z"
+      },
+      "video/t_UXxbvgnHY#2@1e97f213f651912d": {
+        "verdict": "keep",
+        "reason": "Video announces value chain emissions tracking in item journals and item reclassification journals.",
+        "at": "2026-10-06T14:55:55.092Z"
+      }
+    },
+    "573379": {
+      "docs/learn-smb-docs/business-central/value-chain-howto-setup.md@564d55b6e9cf8f43": {
+        "verdict": "keep",
+        "reason": "The Learn page lists the Carbon Tracking Method setting with the Average and Specific methods, which is the setting this feature adds.",
+        "at": "2026-10-06T14:56:31.895Z"
+      },
+      "video/t_UXxbvgnHY#3@1e97f213f651912d": {
+        "verdict": "keep",
+        "reason": "The video segment shows choosing the average or specific method on the item card to track emissions by lot or serial number.",
+        "at": "2026-10-06T14:56:31.895Z"
+      }
+    },
+    "573380": {
+      "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-28-4.md@bced293f99cd584f": {
+        "verdict": "drop",
+        "reason": "Update 28.4 notes cover Known Senders in Payables Agent, a different capability, not PO matching improvements.",
+        "at": "2026-10-06T14:55:33.157Z"
+      },
+      "docs/learn-smb-docs/business-central/match-purchase-invoice-drafts-to-orders.md@d7b6f62004223365": {
+        "verdict": "keep",
+        "reason": "Documents draft-to-PO matching, order-match warnings, price difference detection and the Receipt on Invoice setting, which are parts of this feature.",
+        "at": "2026-10-06T14:55:33.157Z"
+      },
+      "docs/learn-smb-docs/business-central/payables-agent-setup.md@5c1e4b5347d1b290": {
+        "verdict": "drop",
+        "reason": "General Payables Agent setup page; does not describe PO matching fields, Receipt on Invoice or the draft warnings.",
+        "at": "2026-10-06T14:55:33.157Z"
+      },
+      "docs/learn-smb-docs/business-central/payables-agent.md@a068f6b262f9bfc2": {
+        "verdict": "drop",
+        "reason": "General agent overview mentioning PO line matching only at a high level, too general to cover this improvement.",
+        "at": "2026-10-06T14:55:33.157Z"
+      }
+    },
+    "573384": {
+      "docs/learn-devitpro/dev-itpro/developer/devenv-page-scripting.md@536916e29d29680a": {
+        "verdict": "keep",
+        "reason": "The Learn page documents the page scripting tool and explicitly lists multiple row selection, which is one of this feature's new capabilities.",
+        "at": "2026-10-06T14:55:13.081Z"
+      },
+      "video/Aqi8Uq2bQyI#0@800a7d8fe206bc8c": {
+        "verdict": "drop",
+        "reason": "The segment only gives a general description of the tool, with no mention of general availability or the new capabilities.",
+        "at": "2026-10-06T14:55:13.081Z"
+      },
+      "video/Aqi8Uq2bQyI#1@800a7d8fe206bc8c": {
+        "verdict": "keep",
+        "reason": "It shows the full localization that comes with general availability.",
+        "at": "2026-10-06T14:55:13.081Z"
+      },
+      "video/Aqi8Uq2bQyI#2@800a7d8fe206bc8c": {
+        "verdict": "keep",
+        "reason": "It shows the new support for recording multi-row selection in grids.",
+        "at": "2026-10-06T14:55:13.081Z"
+      },
+      "video/Aqi8Uq2bQyI#3@800a7d8fe206bc8c": {
+        "verdict": "keep",
+        "reason": "It shows the new ability to check the text in message and error dialogs.",
+        "at": "2026-10-06T14:55:13.081Z"
+      }
+    }
+  }
+}

@@ -23,11 +23,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:17:47.672Z"
+  at: "2026-10-06T14:56:57.246Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
-    summarize-video: 1
+    summarize-video: 2
   input_hash: 5b1e115ad6d4164239052af6ee88fd71f8850a47a96499823a862abcdabc0bcf
 evidence:
   - kind: video
@@ -123,42 +123,52 @@ features:
     status: unclear
     t: 23
     verified: false
+    status_source: video
   - name: Flexible deployment schedule for PTE installation
     status: unclear
     t: 88
     verified: false
+    status_source: video
   - name: App filtering by type in admin center
     status: unclear
     t: 175
     verified: false
+    status_source: video
   - name: Multiple concurrent PTE schedules
     status: unclear
     t: 301
     verified: false
+    status_source: video
   - name: Cancel scheduled PTE installation
     status: unclear
     t: 379
     verified: false
+    status_source: video
   - name: Environment operations audit page
     status: unclear
     t: 409
     verified: false
+    status_source: video
   - name: S2S app permissions for PTE management
     status: unclear
     t: 580
     verified: false
+    status_source: video
   - name: Early hotfix installation for Microsoft apps
     status: unclear
     t: 612
     verified: false
+    status_source: video
   - name: Known issues tracking for hotfixes
     status: unclear
     t: 699
     verified: false
+    status_source: video
   - name: Dev extensions persistence on sandbox
     status: unclear
     t: 808
     verified: false
+    status_source: video
 objects_mentioned: []
 quotes:
   - t: 23

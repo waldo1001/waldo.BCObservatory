@@ -21,7 +21,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T14:04:36.724Z"
+  at: "2026-10-06T14:56:57.246Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -129,46 +129,57 @@ features:
     status: unclear
     t: 49
     verified: false
+    status_source: video
   - name: AI Test Toolkits
     status: unclear
     t: 49
     verified: false
+    status_source: video
   - name: Test Suite Management methods
     status: unclear
     t: 122
     verified: false
+    status_source: video
   - name: Data-driven test structure with YAML
     status: unclear
     t: 86
     verified: false
+    status_source: video
   - name: P0 test category
     status: unclear
     t: 155
     verified: false
+    status_source: video
   - name: P1 scenario tests
     status: unclear
     t: 165
     verified: false
+    status_source: video
   - name: Load and variation tests
     status: unclear
     t: 192
     verified: false
+    status_source: video
   - name: PowerShell test runner for AL tests
     status: unclear
     t: 246
     verified: false
+    status_source: video
   - name: LLM as judge for test validation
     status: announced
     t: 329
     verified: true
+    status_source: video
   - name: Visual Studio Code test execution
     status: unclear
     t: 349
     verified: false
+    status_source: video
   - name: Agent-assisted agent implementation
     status: unclear
     t: 359
     verified: false
+    status_source: video
 objects_mentioned:
   - other AI Development Toolkit Evaluation
   - other AI Test Toolkits

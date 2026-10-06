@@ -23,7 +23,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T13:51:38.390Z"
+  at: "2026-10-06T14:56:57.246Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -119,26 +119,32 @@ features:
     status: ga
     t: 55
     verified: true
+    status_source: video
   - name: Backward flushing
     status: unclear
     t: 73
     verified: false
+    status_source: video
   - name: Manual flushing
     status: unclear
     t: 86
     verified: false
+    status_source: video
   - name: Pick plus
     status: unclear
     t: 86
     verified: false
+    status_source: video
   - name: Routing link codes on components
     status: unclear
     t: 114
     verified: false
+    status_source: video
   - name: Component-level flushing policies
     status: unclear
     t: 44
     verified: false
+    status_source: video
 objects_mentioned:
   - other production journal
   - other production order

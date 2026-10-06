@@ -22,7 +22,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T14:01:45.290Z"
+  at: "2026-10-06T14:56:57.246Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -103,18 +103,22 @@ features:
     status: unclear
     t: 0
     verified: false
+    status_source: video
   - name: Expense Agent geographic expansion
     status: unclear
     t: 17
     verified: false
+    status_source: video
   - name: Multilingual receipt processing
     status: unclear
     t: 73
     verified: false
+    status_source: video
   - name: Automatic receipt categorization in local languages
     status: unclear
     t: 97
     verified: false
+    status_source: video
 objects_mentioned: []
 quotes:
   - t: 17

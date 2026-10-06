@@ -21,7 +21,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T14:03:23.834Z"
+  at: "2026-10-06T14:56:57.246Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -135,50 +135,62 @@ features:
     status: unclear
     t: 16
     verified: false
+    status_source: video
   - name: Per-user approver override
     status: unclear
     t: 42
     verified: false
+    status_source: video
   - name: Expense report submission
     status: unclear
     t: 81
     verified: false
+    status_source: video
   - name: Approver email notification
     status: unclear
     t: 124
     verified: false
+    status_source: video
   - name: Report review and receipt inspection
     status: unclear
     t: 162
     verified: false
+    status_source: video
   - name: Send back for revision with comments
     status: unclear
     t: 178
     verified: false
+    status_source: video
   - name: Approval and posting
     status: unclear
     t: 231
     verified: false
+    status_source: video
   - name: Approver licensing requirement
     status: unclear
     t: 263
     verified: false
+    status_source: video
   - name: Resubmit after revision
     status: unclear
     t: 287
     verified: false
+    status_source: video
   - name: Reminders for unsubmitted reports
     status: unclear
     t: 340
     verified: false
+    status_source: video
   - name: Expense Agent policies
     status: announced
     t: 313
     verified: true
+    status_source: video
   - name: Enhanced approval workflows
     status: announced
     t: 388
     verified: true
+    status_source: video
 objects_mentioned: []
 quotes:
   - t: 16

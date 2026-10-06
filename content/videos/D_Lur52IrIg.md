@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:56:04.677Z"
+  at: "2026-10-06T14:56:57.246Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -189,7 +189,17 @@ evidence:
 links:
   learn: []
   objects: []
-  features: []
+  features:
+    - feature/573313
+    - feature/573333
+    - feature/573335
+    - feature/573336
+    - feature/573338
+    - feature/573339
+    - feature/573346
+    - feature/573352
+    - feature/573359
+    - feature/573360
   topics: []
   localizations: []
   videos: []
@@ -238,85 +248,132 @@ chapters:
     title: Production debugging with agents and MCP proxies
 features:
   - name: AL MCP (AL Management Control Platform)
-    status: unclear
+    status: ga
     t: 43
     verified: false
+    status_source: roadmap
+    roadmap_ids:
+      - "573339"
+      - "573346"
   - name: AL language server with project awareness
-    status: unclear
+    status: ga
     t: 74
     verified: false
+    status_source: roadmap
+    roadmap_ids:
+      - "573338"
   - name: Symbol search with environment source parameter
-    status: unclear
+    status: ga
     t: 220
     verified: false
+    status_source: roadmap
+    roadmap_ids:
+      - "573339"
   - name: Get next object ID tool in AL MCP
-    status: unclear
+    status: ga
     t: 302
     verified: false
+    status_source: roadmap
+    roadmap_ids:
+      - "573346"
   - name: Interface default implementations
-    status: unclear
+    status: ga
     t: 458
     verified: false
+    status_source: roadmap
+    roadmap_ids:
+      - "573352"
   - name: Public resource folders
     status: unclear
     t: 587
     verified: false
+    status_source: video
   - name: Big integer field type migration
     status: unclear
     t: 820
     verified: false
+    status_source: video
   - name: Table extension key improvements
     status: unclear
     t: 606
     verified: false
+    status_source: video
   - name: Namespace support in translation IDs
-    status: unclear
+    status: ga
     t: 636
     verified: false
+    status_source: roadmap
+    roadmap_ids:
+      - "573359"
   - name: Mixed extension and base field SQL indexes
     status: unclear
     t: 939
     verified: false
+    status_source: video
   - name: Action tooltip inheritance from page
-    status: unclear
+    status: ga
     t: 1072
     verified: false
+    status_source: roadmap
+    roadmap_ids:
+      - "573313"
   - name: Audit name fields as system fields
     status: unclear
     t: 1150
     verified: false
+    status_source: video
   - name: Record.IsDirty() method
-    status: unclear
+    status: ga
     t: 1202
     verified: false
+    status_source: roadmap
+    roadmap_ids:
+      - "573360"
   - name: Data-driven testing framework
-    status: unclear
+    status: ga
     t: 1232
     verified: false
+    status_source: roadmap
+    roadmap_ids:
+      - "573333"
   - name: Test handler interface for lifecycle hooks
-    status: unclear
+    status: ga
     t: 1409
     verified: false
+    status_source: roadmap
+    roadmap_ids:
+      - "573333"
   - name: Static call graph analysis
-    status: unclear
+    status: ga
     t: 1547
     verified: false
+    status_source: roadmap
+    roadmap_ids:
+      - "573336"
   - name: Agent-assisted production investigation
-    status: unclear
+    status: ga
     t: 1827
     verified: false
+    status_source: roadmap
+    roadmap_ids:
+      - "573335"
   - name: Launch profiling MCP proxy
-    status: unclear
+    status: ga
     t: 1875
     verified: false
+    status_source: roadmap
+    roadmap_ids:
+      - "573335"
   - name: Launch snapshot MCP proxy
     status: unclear
     t: 1964
     verified: false
+    status_source: video
   - name: Isolated storage explicit read isolation level
     status: unclear
     t: 1072
     verified: false
+    status_source: video
 objects_mentioned:
   - interface Calculate Fee
   - table Customer Ledger Entry
@@ -439,26 +496,28 @@ It then covers language and compiler changes: default implementations on interfa
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| AL MCP (AL Management Control Platform) | status not stated, demoed | [0:43](https://www.youtube.com/watch?v=D_Lur52IrIg&t=43s) |  |
-| AL language server with project awareness | status not stated, demoed | [1:14](https://www.youtube.com/watch?v=D_Lur52IrIg&t=74s) |  |
-| Symbol search with environment source parameter | status not stated, demoed | [3:40](https://www.youtube.com/watch?v=D_Lur52IrIg&t=220s) |  |
-| Get next object ID tool in AL MCP | status not stated, demoed | [5:02](https://www.youtube.com/watch?v=D_Lur52IrIg&t=302s) |  |
-| Interface default implementations | status not stated, demoed | [7:38](https://www.youtube.com/watch?v=D_Lur52IrIg&t=458s) |  |
+| AL MCP (AL Management Control Platform) | generally available (roadmap [573339](../features/573339.md), [573346](../features/573346.md)), demoed | [0:43](https://www.youtube.com/watch?v=D_Lur52IrIg&t=43s) |  |
+| AL language server with project awareness | generally available (roadmap [573338](../features/573338.md)), demoed | [1:14](https://www.youtube.com/watch?v=D_Lur52IrIg&t=74s) |  |
+| Symbol search with environment source parameter | generally available (roadmap [573339](../features/573339.md)), demoed | [3:40](https://www.youtube.com/watch?v=D_Lur52IrIg&t=220s) |  |
+| Get next object ID tool in AL MCP | generally available (roadmap [573346](../features/573346.md)), demoed | [5:02](https://www.youtube.com/watch?v=D_Lur52IrIg&t=302s) |  |
+| Interface default implementations | generally available (roadmap [573352](../features/573352.md)), demoed | [7:38](https://www.youtube.com/watch?v=D_Lur52IrIg&t=458s) |  |
 | Public resource folders | status not stated, demoed | [9:47](https://www.youtube.com/watch?v=D_Lur52IrIg&t=587s) |  |
 | Big integer field type migration | status not stated, demoed | [13:40](https://www.youtube.com/watch?v=D_Lur52IrIg&t=820s) |  |
 | Table extension key improvements | status not stated | [10:06](https://www.youtube.com/watch?v=D_Lur52IrIg&t=606s) |  |
-| Namespace support in translation IDs | status not stated, demoed | [10:36](https://www.youtube.com/watch?v=D_Lur52IrIg&t=636s) |  |
+| Namespace support in translation IDs | generally available (roadmap [573359](../features/573359.md)), demoed | [10:36](https://www.youtube.com/watch?v=D_Lur52IrIg&t=636s) |  |
 | Mixed extension and base field SQL indexes | status not stated, demoed | [15:39](https://www.youtube.com/watch?v=D_Lur52IrIg&t=939s) |  |
-| Action tooltip inheritance from page | status not stated, demoed | [17:52](https://www.youtube.com/watch?v=D_Lur52IrIg&t=1072s) |  |
+| Action tooltip inheritance from page | generally available (roadmap [573313](../features/573313.md)), demoed | [17:52](https://www.youtube.com/watch?v=D_Lur52IrIg&t=1072s) |  |
 | Audit name fields as system fields | status not stated, demoed | [19:10](https://www.youtube.com/watch?v=D_Lur52IrIg&t=1150s) |  |
-| Record.IsDirty() method | status not stated, demoed | [20:02](https://www.youtube.com/watch?v=D_Lur52IrIg&t=1202s) |  |
-| Data-driven testing framework | status not stated, demoed | [20:32](https://www.youtube.com/watch?v=D_Lur52IrIg&t=1232s) |  |
-| Test handler interface for lifecycle hooks | status not stated, demoed | [23:29](https://www.youtube.com/watch?v=D_Lur52IrIg&t=1409s) |  |
-| Static call graph analysis | status not stated, demoed | [25:47](https://www.youtube.com/watch?v=D_Lur52IrIg&t=1547s) |  |
-| Agent-assisted production investigation | status not stated | [30:27](https://www.youtube.com/watch?v=D_Lur52IrIg&t=1827s) |  |
-| Launch profiling MCP proxy | status not stated, demoed | [31:15](https://www.youtube.com/watch?v=D_Lur52IrIg&t=1875s) |  |
+| Record.IsDirty() method | generally available (roadmap [573360](../features/573360.md)), demoed | [20:02](https://www.youtube.com/watch?v=D_Lur52IrIg&t=1202s) |  |
+| Data-driven testing framework | generally available (roadmap [573333](../features/573333.md)), demoed | [20:32](https://www.youtube.com/watch?v=D_Lur52IrIg&t=1232s) |  |
+| Test handler interface for lifecycle hooks | generally available (roadmap [573333](../features/573333.md)), demoed | [23:29](https://www.youtube.com/watch?v=D_Lur52IrIg&t=1409s) |  |
+| Static call graph analysis | generally available (roadmap [573336](../features/573336.md)), demoed | [25:47](https://www.youtube.com/watch?v=D_Lur52IrIg&t=1547s) |  |
+| Agent-assisted production investigation | generally available (roadmap [573335](../features/573335.md)) | [30:27](https://www.youtube.com/watch?v=D_Lur52IrIg&t=1827s) |  |
+| Launch profiling MCP proxy | generally available (roadmap [573335](../features/573335.md)), demoed | [31:15](https://www.youtube.com/watch?v=D_Lur52IrIg&t=1875s) |  |
 | Launch snapshot MCP proxy | status not stated, demoed | [32:44](https://www.youtube.com/watch?v=D_Lur52IrIg&t=1964s) |  |
 | Isolated storage explicit read isolation level | status not stated | [17:52](https://www.youtube.com/watch?v=D_Lur52IrIg&t=1072s) |  |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## AL objects mentioned
 

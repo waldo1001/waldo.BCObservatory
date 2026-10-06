@@ -21,7 +21,7 @@ review:
   flags:
     - quote-check
 generated:
-  at: "2026-10-06T13:49:27.374Z"
+  at: "2026-10-06T14:56:57.246Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -59,7 +59,8 @@ evidence:
 links:
   learn: []
   objects: []
-  features: []
+  features:
+    - feature/573362
   topics: []
   localizations: []
   videos: []
@@ -94,29 +95,39 @@ chapters:
     title: Availability and next steps
 features:
   - name: Unified Microsoft Copilot Chat
-    status: unclear
+    status: ga
     t: 18
     verified: false
+    status_source: roadmap
+    roadmap_ids:
+      - "573362"
   - name: Copilot with Work IQ integration
     status: unclear
     t: 49
     verified: false
+    status_source: video
   - name: Copilot button in Business Central
-    status: unclear
+    status: ga
     t: 92
     verified: false
+    status_source: roadmap
+    roadmap_ids:
+      - "573362"
   - name: Copilot question answering on Business Central data
     status: unclear
     t: 103
     verified: false
+    status_source: video
   - name: Side-by-side data viewing with Copilot
     status: unclear
     t: 162
     verified: false
+    status_source: video
   - name: Multi-turn Copilot conversation
     status: unclear
     t: 162
     verified: false
+    status_source: video
 objects_mentioned: []
 quotes:
   - t: 34
@@ -168,12 +179,14 @@ The demo shows Copilot answering general questions and questions about Business 
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| Unified Microsoft Copilot Chat | status not stated, demoed | [0:18](https://www.youtube.com/watch?v=WL3m2dffwU8&t=18s) |  |
+| Unified Microsoft Copilot Chat | generally available (roadmap [573362](../features/573362.md)), demoed | [0:18](https://www.youtube.com/watch?v=WL3m2dffwU8&t=18s) |  |
 | Copilot with Work IQ integration | status not stated | [0:49](https://www.youtube.com/watch?v=WL3m2dffwU8&t=49s) |  |
-| Copilot button in Business Central | status not stated, demoed | [1:32](https://www.youtube.com/watch?v=WL3m2dffwU8&t=92s) |  |
+| Copilot button in Business Central | generally available (roadmap [573362](../features/573362.md)), demoed | [1:32](https://www.youtube.com/watch?v=WL3m2dffwU8&t=92s) |  |
 | Copilot question answering on Business Central data | status not stated, demoed | [1:43](https://www.youtube.com/watch?v=WL3m2dffwU8&t=103s) |  |
 | Side-by-side data viewing with Copilot | status not stated, demoed | [2:42](https://www.youtube.com/watch?v=WL3m2dffwU8&t=162s) |  |
 | Multi-turn Copilot conversation | status not stated, demoed | [2:42](https://www.youtube.com/watch?v=WL3m2dffwU8&t=162s) |  |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## Quotes
 

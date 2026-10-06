@@ -21,7 +21,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T14:04:59.401Z"
+  at: "2026-10-06T14:56:57.246Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -116,14 +116,17 @@ features:
     status: unclear
     t: 1
     verified: false
+    status_source: video
   - name: Upskill program
     status: unclear
     t: 16
     verified: false
+    status_source: video
   - name: BC Talent community
     status: unclear
     t: 72
     verified: false
+    status_source: video
 objects_mentioned: []
 quotes:
   - t: 1

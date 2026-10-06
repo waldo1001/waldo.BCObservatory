@@ -22,7 +22,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T14:02:42.029Z"
+  at: "2026-10-06T14:56:57.246Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -119,34 +119,42 @@ features:
     status: unclear
     t: 40
     verified: false
+    status_source: video
   - name: No-license access model
     status: unclear
     t: 13
     verified: false
+    status_source: video
   - name: Receipt capture and submission
     status: unclear
     t: 82
     verified: false
+    status_source: video
   - name: Automatic receipt data extraction
     status: unclear
     t: 125
     verified: false
+    status_source: video
   - name: Automatic expense categorization
     status: unclear
     t: 125
     verified: false
+    status_source: video
   - name: Automatic itemization of receipts
     status: unclear
     t: 167
     verified: false
+    status_source: video
   - name: Expense compliance checking
     status: unclear
     t: 209
     verified: false
+    status_source: video
   - name: Multi-category expense support
     status: unclear
     t: 251
     verified: false
+    status_source: video
 objects_mentioned: []
 quotes:
   - t: 13

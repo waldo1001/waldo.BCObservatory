@@ -21,7 +21,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T14:05:22.920Z"
+  at: "2026-10-06T14:56:57.246Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -111,30 +111,37 @@ features:
     status: unclear
     t: 24
     verified: false
+    status_source: video
   - name: Business Central MCP server
     status: unclear
     t: 36
     verified: false
+    status_source: video
   - name: Payroll agent
     status: unclear
     t: 59
     verified: false
+    status_source: video
   - name: Manifest purchase order creation agent
     status: unclear
     t: 114
     verified: false
+    status_source: video
   - name: Sales claim agent
     status: unclear
     t: 114
     verified: false
+    status_source: video
   - name: Reusable agent development in Business Central
     status: unclear
     t: 128
     verified: false
+    status_source: video
   - name: Copilot Chat integration
     status: unclear
     t: 139
     verified: false
+    status_source: video
 objects_mentioned: []
 quotes:
   - t: 24

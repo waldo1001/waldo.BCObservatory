@@ -23,7 +23,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T13:50:46.314Z"
+  at: "2026-10-06T14:56:57.246Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -128,42 +128,52 @@ features:
     status: unclear
     t: 32
     verified: false
+    status_source: video
   - name: Parallel routing
     status: unclear
     t: 32
     verified: false
+    status_source: video
   - name: Operational times
     status: unclear
     t: 61
     verified: false
+    status_source: video
   - name: Routing link code
     status: unclear
     t: 104
     verified: false
+    status_source: video
   - name: Send ahead quantity
     status: unclear
     t: 104
     verified: false
+    status_source: video
   - name: Standard tasks in routing operations
     status: unclear
     t: 129
     verified: false
+    status_source: video
   - name: Routing versions
     status: unclear
     t: 129
     verified: false
+    status_source: video
   - name: Production order automatic routing population
     status: unclear
     t: 155
     verified: false
+    status_source: video
   - name: Production order modification
     status: unclear
     t: 176
     verified: false
+    status_source: video
   - name: Lead time calculation and optimization
     status: unclear
     t: 215
     verified: false
+    status_source: video
 objects_mentioned: []
 quotes:
   - t: 11

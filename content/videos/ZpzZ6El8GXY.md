@@ -21,7 +21,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T13:49:58.187Z"
+  at: "2026-10-06T14:56:57.246Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -80,7 +80,9 @@ evidence:
 links:
   learn: []
   objects: []
-  features: []
+  features:
+    - feature/573319
+    - feature/573322
   topics: []
   localizations: []
   videos: []
@@ -116,25 +118,40 @@ chapters:
     title: Closing
 features:
   - name: System fields in analysis mode
-    status: unclear
+    status: ga
     t: 17
     verified: false
+    status_source: roadmap
+    roadmap_ids:
+      - "573322"
   - name: Bookmark analysis tab
-    status: announced
+    status: ga
     t: 109
     verified: true
+    status_source: roadmap
+    roadmap_ids:
+      - "573319"
   - name: Bookmark list views
-    status: unclear
+    status: ga
     t: 161
     verified: false
+    status_source: roadmap
+    roadmap_ids:
+      - "573319"
   - name: System fields in page designer for profiles
-    status: unclear
+    status: ga
     t: 199
     verified: false
+    status_source: roadmap
+    roadmap_ids:
+      - "573322"
   - name: Bookmark analysis views and list views in profiles
-    status: unclear
+    status: ga
     t: 199
     verified: false
+    status_source: roadmap
+    roadmap_ids:
+      - "573319"
 objects_mentioned:
   - table Sales Orders
   - table Customer
@@ -197,11 +214,13 @@ The second part covers bookmarking. List views and saved filters can be bookmark
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| System fields in analysis mode | status not stated, demoed | [0:17](https://www.youtube.com/watch?v=ZpzZ6El8GXY&t=17s) |  |
-| Bookmark analysis tab | announced, demoed | [1:49](https://www.youtube.com/watch?v=ZpzZ6El8GXY&t=109s) | "coming in version 29.x, hopefully here in the one of the first minor versions, is ability to bookmark an analysis tab or analysis view." ([1:49](https://www.youtube.com/watch?v=ZpzZ6El8GXY&t=109s)) |
-| Bookmark list views | status not stated, demoed | [2:41](https://www.youtube.com/watch?v=ZpzZ6El8GXY&t=161s) |  |
-| System fields in page designer for profiles | status not stated, demoed | [3:19](https://www.youtube.com/watch?v=ZpzZ6El8GXY&t=199s) |  |
-| Bookmark analysis views and list views in profiles | status not stated | [3:19](https://www.youtube.com/watch?v=ZpzZ6El8GXY&t=199s) |  |
+| System fields in analysis mode | generally available (roadmap [573322](../features/573322.md)), demoed | [0:17](https://www.youtube.com/watch?v=ZpzZ6El8GXY&t=17s) |  |
+| Bookmark analysis tab | generally available (roadmap [573319](../features/573319.md)), demoed | [1:49](https://www.youtube.com/watch?v=ZpzZ6El8GXY&t=109s) | "coming in version 29.x, hopefully here in the one of the first minor versions, is ability to bookmark an analysis tab or analysis view." ([1:49](https://www.youtube.com/watch?v=ZpzZ6El8GXY&t=109s)) |
+| Bookmark list views | generally available (roadmap [573319](../features/573319.md)), demoed | [2:41](https://www.youtube.com/watch?v=ZpzZ6El8GXY&t=161s) |  |
+| System fields in page designer for profiles | generally available (roadmap [573322](../features/573322.md)), demoed | [3:19](https://www.youtube.com/watch?v=ZpzZ6El8GXY&t=199s) |  |
+| Bookmark analysis views and list views in profiles | generally available (roadmap [573319](../features/573319.md)) | [3:19](https://www.youtube.com/watch?v=ZpzZ6El8GXY&t=199s) |  |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## AL objects mentioned
 

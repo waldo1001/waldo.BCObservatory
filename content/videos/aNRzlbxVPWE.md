@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T14:06:09.863Z"
+  at: "2026-10-06T14:56:57.246Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -167,86 +167,107 @@ features:
     status: unclear
     t: 15
     verified: false
+    status_source: video
   - name: Evil test framework
     status: unclear
     t: 136
     verified: false
+    status_source: video
   - name: Suite setup strategy
     status: unclear
     t: 196
     verified: false
+    status_source: video
   - name: Data sets and YAML-driven tests
     status: unclear
     t: 252
     verified: false
+    status_source: video
   - name: Extensible framework with atomic functions
     status: unclear
     t: 309
     verified: false
+    status_source: video
   - name: YAML test definition syntax
     status: unclear
     t: 347
     verified: false
+    status_source: video
   - name: Turn setup section
     status: unclear
     t: 467
     verified: false
+    status_source: video
   - name: Message arrival with attachments
     status: unclear
     t: 529
     verified: false
+    status_source: video
   - name: Expected data verification
     status: unclear
     t: 625
     verified: false
+    status_source: video
   - name: Multi-turn conversation testing
     status: unclear
     t: 669
     verified: false
+    status_source: video
   - name: Date and datetime placeholders in data-driven tests
     status: unclear
     t: 804
     verified: false
+    status_source: video
   - name: Agent picker in test execution
     status: unclear
     t: 966
     verified: false
+    status_source: video
   - name: Get eval suit setup data input keyword
     status: unclear
     t: 1043
     verified: false
+    status_source: video
   - name: Test library data creation and field defaulting
     status: unclear
     t: 1095
     verified: false
+    status_source: video
   - name: Suite setup completion caching
     status: unclear
     t: 1172
     verified: false
+    status_source: video
   - name: Run turn and wait keyword
     status: unclear
     t: 1254
     verified: false
+    status_source: video
   - name: Get expected data keyword for validation
     status: unclear
     t: 1323
     verified: false
+    status_source: video
   - name: Error reason field for test failure logging
     status: unclear
     t: 1346
     verified: false
+    status_source: video
   - name: Finalize turn keyword with history logging
     status: unclear
     t: 1379
     verified: false
+    status_source: video
   - name: Log download with serialized task output
     status: unclear
     t: 1454
     verified: false
+    status_source: video
   - name: Library agent public methods for customization
     status: unclear
     t: 1510
     verified: false
+    status_source: video
 objects_mentioned:
   - other animal data sets
   - other library agent

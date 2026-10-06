@@ -21,7 +21,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T13:02:45.587Z"
+  at: "2026-10-06T14:56:57.246Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -73,7 +73,8 @@ evidence:
 links:
   learn: []
   objects: []
-  features: []
+  features:
+    - feature/573362
   topics: []
   localizations: []
   videos: []
@@ -110,33 +111,42 @@ chapters:
     title: Closing remarks
 features:
   - name: Microsoft Copilot Chat in Business Central
-    status: unclear
+    status: ga
     t: 6
     verified: false
+    status_source: roadmap
+    roadmap_ids:
+      - "573362"
   - name: Sales tax configuration assistance
     status: unclear
     t: 42
     verified: false
+    status_source: video
   - name: Sales data analysis with Copilot
     status: unclear
     t: 117
     verified: false
+    status_source: video
   - name: Copilot recommendations for sales improvement
     status: unclear
     t: 154
     verified: false
+    status_source: video
   - name: Calendar integration for meeting preparation
     status: unclear
     t: 205
     verified: false
+    status_source: video
   - name: Sales brief generation
     status: unclear
     t: 228
     verified: false
+    status_source: video
   - name: General knowledge and directions assistance
     status: unclear
     t: 267
     verified: false
+    status_source: video
 objects_mentioned: []
 quotes:
   - t: 18
@@ -196,13 +206,15 @@ The demo covers setting up sales tax for a state such as Oregon using data pulle
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| Microsoft Copilot Chat in Business Central | status not stated, demoed | [0:06](https://www.youtube.com/watch?v=TSLXzbeyE7Y&t=6s) |  |
+| Microsoft Copilot Chat in Business Central | generally available (roadmap [573362](../features/573362.md)), demoed | [0:06](https://www.youtube.com/watch?v=TSLXzbeyE7Y&t=6s) |  |
 | Sales tax configuration assistance | status not stated, demoed | [0:42](https://www.youtube.com/watch?v=TSLXzbeyE7Y&t=42s) |  |
 | Sales data analysis with Copilot | status not stated, demoed | [1:57](https://www.youtube.com/watch?v=TSLXzbeyE7Y&t=117s) |  |
 | Copilot recommendations for sales improvement | status not stated, demoed | [2:34](https://www.youtube.com/watch?v=TSLXzbeyE7Y&t=154s) |  |
 | Calendar integration for meeting preparation | status not stated, demoed | [3:25](https://www.youtube.com/watch?v=TSLXzbeyE7Y&t=205s) |  |
 | Sales brief generation | status not stated, demoed | [3:48](https://www.youtube.com/watch?v=TSLXzbeyE7Y&t=228s) |  |
 | General knowledge and directions assistance | status not stated, demoed | [4:27](https://www.youtube.com/watch?v=TSLXzbeyE7Y&t=267s) |  |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## Quotes
 

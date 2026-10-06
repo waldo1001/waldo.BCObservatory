@@ -22,7 +22,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T13:47:07.120Z"
+  at: "2026-10-06T14:56:57.246Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -108,42 +108,52 @@ features:
     status: unclear
     t: 166
     verified: false
+    status_source: video
   - name: AL MCP server
     status: unclear
     t: 199
     verified: false
+    status_source: video
   - name: Pass@5 improvement with MCP
     status: unclear
     t: 226
     verified: false
+    status_source: video
   - name: Agent harness comparison
     status: unclear
     t: 280
     verified: false
+    status_source: video
   - name: Contamination detection strategy
     status: unclear
     t: 344
     verified: false
+    status_source: video
   - name: Contamination results across three models
     status: unclear
     t: 458
     verified: false
+    status_source: video
   - name: Code review category
     status: unclear
     t: 514
     verified: false
+    status_source: video
   - name: BC Quality plugin
     status: unclear
     t: 587
     verified: false
+    status_source: video
   - name: AL review agent
     status: unclear
     t: 620
     verified: false
+    status_source: video
   - name: LM-as-judge for code review evaluation
     status: unclear
     t: 744
     verified: false
+    status_source: video
 objects_mentioned: []
 quotes:
   - t: 19

@@ -21,11 +21,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:09:38.945Z"
+  at: "2026-10-06T14:56:57.246Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
-    summarize-video: 1
+    summarize-video: 2
   input_hash: 00cbd25a1b54fe30741c230e750ad9d9f2358ca9047629e5f14df1d341632c5c
 evidence:
   - kind: video
@@ -73,7 +73,8 @@ evidence:
 links:
   learn: []
   objects: []
-  features: []
+  features:
+    - feature/573312
   topics: []
   localizations: []
   videos: []
@@ -110,33 +111,48 @@ chapters:
     title: Security toggle and closing remarks
 features:
   - name: Find tables tool
-    status: unclear
+    status: ga
     t: 76
     verified: false
+    status_source: roadmap
+    roadmap_ids:
+      - "573312"
   - name: Table relations tool
-    status: unclear
+    status: ga
     t: 76
     verified: false
+    status_source: roadmap
+    roadmap_ids:
+      - "573312"
   - name: Table schema tool
-    status: unclear
+    status: ga
     t: 76
     verified: false
+    status_source: roadmap
+    roadmap_ids:
+      - "573312"
   - name: Data query tool
-    status: unclear
+    status: ga
     t: 76
     verified: false
+    status_source: roadmap
+    roadmap_ids:
+      - "573312"
   - name: Generic data analysis for agents
     status: unclear
     t: 104
     verified: false
+    status_source: video
   - name: Server features configuration UI
     status: unclear
     t: 364
     verified: false
+    status_source: video
   - name: MCP server security toggle
     status: unclear
     t: 434
     verified: false
+    status_source: video
 objects_mentioned:
   - query AL query
 quotes:
@@ -197,13 +213,15 @@ The demo has an agent work through customer data in about 30 steps and 2 minutes
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| Find tables tool | status not stated, demoed | [1:16](https://www.youtube.com/watch?v=qs1cg-GoDeQ&t=76s) |  |
-| Table relations tool | status not stated, demoed | [1:16](https://www.youtube.com/watch?v=qs1cg-GoDeQ&t=76s) |  |
-| Table schema tool | status not stated, demoed | [1:16](https://www.youtube.com/watch?v=qs1cg-GoDeQ&t=76s) |  |
-| Data query tool | status not stated, demoed | [1:16](https://www.youtube.com/watch?v=qs1cg-GoDeQ&t=76s) |  |
+| Find tables tool | generally available (roadmap [573312](../features/573312.md)), demoed | [1:16](https://www.youtube.com/watch?v=qs1cg-GoDeQ&t=76s) |  |
+| Table relations tool | generally available (roadmap [573312](../features/573312.md)), demoed | [1:16](https://www.youtube.com/watch?v=qs1cg-GoDeQ&t=76s) |  |
+| Table schema tool | generally available (roadmap [573312](../features/573312.md)), demoed | [1:16](https://www.youtube.com/watch?v=qs1cg-GoDeQ&t=76s) |  |
+| Data query tool | generally available (roadmap [573312](../features/573312.md)), demoed | [1:16](https://www.youtube.com/watch?v=qs1cg-GoDeQ&t=76s) |  |
 | Generic data analysis for agents | status not stated, demoed | [1:44](https://www.youtube.com/watch?v=qs1cg-GoDeQ&t=104s) |  |
 | Server features configuration UI | status not stated, demoed | [6:04](https://www.youtube.com/watch?v=qs1cg-GoDeQ&t=364s) |  |
 | MCP server security toggle | status not stated | [7:14](https://www.youtube.com/watch?v=qs1cg-GoDeQ&t=434s) |  |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## AL objects mentioned
 

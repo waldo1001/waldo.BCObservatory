@@ -21,7 +21,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:52:38.969Z"
+  at: "2026-10-06T14:56:57.246Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -143,7 +143,8 @@ evidence:
 links:
   learn: []
   objects: []
-  features: []
+  features:
+    - feature/573254
   topics: []
   localizations: []
   videos: []
@@ -183,34 +184,44 @@ features:
     status: preview
     t: 51
     verified: true
+    status_source: video
   - name: Bulk receipt upload
     status: preview
     t: 66
     verified: true
+    status_source: video
   - name: Gallery share functionality for receipts
     status: preview
     t: 104
     verified: true
+    status_source: video
   - name: Mileage expense creation on mobile
     status: preview
     t: 133
     verified: true
+    status_source: roadmap
+    roadmap_ids:
+      - "573254"
   - name: Offline mode for receipt handling
     status: preview
     t: 233
     verified: true
+    status_source: video
   - name: Expense submission on mobile
     status: preview
     t: 270
     verified: true
+    status_source: video
   - name: Expense approval on mobile
     status: preview
     t: 298
     verified: true
+    status_source: video
   - name: Expense categorization and agent processing
     status: preview
     t: 204
     verified: true
+    status_source: video
 objects_mentioned: []
 quotes:
   - t: 6
@@ -278,11 +289,13 @@ It then shows offline mode, where receipts and expenses are added without a conn
 | Receipt scanning with auto capture | preview, demoed | [0:51](https://www.youtube.com/watch?v=4TE8uwIi91k&t=51s) | "it's still in preview" ([5:59](https://www.youtube.com/watch?v=4TE8uwIi91k&t=359s)) |
 | Bulk receipt upload | preview, demoed | [1:06](https://www.youtube.com/watch?v=4TE8uwIi91k&t=66s) | "it's still in preview" ([5:59](https://www.youtube.com/watch?v=4TE8uwIi91k&t=359s)) |
 | Gallery share functionality for receipts | preview, demoed | [1:44](https://www.youtube.com/watch?v=4TE8uwIi91k&t=104s) | "it's still in preview" ([5:59](https://www.youtube.com/watch?v=4TE8uwIi91k&t=359s)) |
-| Mileage expense creation on mobile | preview, demoed | [2:13](https://www.youtube.com/watch?v=4TE8uwIi91k&t=133s) | "it's still in preview" ([5:59](https://www.youtube.com/watch?v=4TE8uwIi91k&t=359s)) |
+| Mileage expense creation on mobile | preview (roadmap [573254](../features/573254.md)), demoed | [2:13](https://www.youtube.com/watch?v=4TE8uwIi91k&t=133s) | "it's still in preview" ([5:59](https://www.youtube.com/watch?v=4TE8uwIi91k&t=359s)) |
 | Offline mode for receipt handling | preview, demoed | [3:53](https://www.youtube.com/watch?v=4TE8uwIi91k&t=233s) | "it's still in preview" ([5:59](https://www.youtube.com/watch?v=4TE8uwIi91k&t=359s)) |
 | Expense submission on mobile | preview, demoed | [4:30](https://www.youtube.com/watch?v=4TE8uwIi91k&t=270s) | "it's still in preview" ([5:59](https://www.youtube.com/watch?v=4TE8uwIi91k&t=359s)) |
 | Expense approval on mobile | preview, demoed | [4:58](https://www.youtube.com/watch?v=4TE8uwIi91k&t=298s) | "it's still in preview" ([5:59](https://www.youtube.com/watch?v=4TE8uwIi91k&t=359s)) |
 | Expense categorization and agent processing | preview, demoed | [3:24](https://www.youtube.com/watch?v=4TE8uwIi91k&t=204s) | "it's still in preview" ([5:59](https://www.youtube.com/watch?v=4TE8uwIi91k&t=359s)) |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## Quotes
 

@@ -21,7 +21,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T14:05:24.181Z"
+  at: "2026-10-06T14:56:57.246Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -106,14 +106,17 @@ features:
     status: unclear
     t: 43
     verified: false
+    status_source: video
   - name: Data consolidation for AI
     status: unclear
     t: 13
     verified: false
+    status_source: video
   - name: Customer zero journey
     status: unclear
     t: 31
     verified: false
+    status_source: video
 objects_mentioned: []
 quotes:
   - t: 0
