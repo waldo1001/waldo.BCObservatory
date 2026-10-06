@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/report-analyze-excel.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/report-analyze-excel",
+  "title": "Analyzing report data with Excel and XML",
+  "blob": "4e00da27bbfb5c87ca26851d4f0c1926e7fe7fe6",
+  "summary": "Analyzing report data with Excel and XML allows developers and advanced users to export report datasets as raw data to Excel workbooks or XML files for ad-hoc analysis and troubleshooting.",
+  "systems": [
+    "reporting",
+    "development"
+  ],
+  "topics": [
+    "report export",
+    "excel analysis",
+    "data inspection",
+    "debugging"
+  ],
+  "objects": [],
+  "features": [
+    "Excel Document data-only export",
+    "XML Document export",
+    "Dataset export",
+    "Report metadata worksheet",
+    "Filter information export"
+  ],
+  "versions": [
+    "2021 release wave 1",
+    "2021 release wave 2"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007311,
+      "pages_in_call": 6
+    }
+  ]
+}

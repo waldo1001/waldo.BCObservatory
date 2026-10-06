@@ -1,0 +1,54 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-how-report-intrastat.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-report-intrastat",
+  "title": "Work with Intrastat reporting",
+  "blob": "8a03ddb6726f4373eef3380a96ced4e26827f14d",
+  "summary": "Intrastat Report is used to collect, record, and report trade of goods between EU countries monthly according to local government legislation. This feature includes extended capabilities starting in 2022 release wave 2.",
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "intrastat reporting",
+    "eu trade statistics",
+    "goods reporting",
+    "tax compliance"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Intrastat Report Checklist"
+    },
+    {
+      "type": "page",
+      "name": "Intrastat Report"
+    },
+    {
+      "type": "page",
+      "name": "Intrastat Report List"
+    }
+  ],
+  "features": [
+    "Suggest Lines action",
+    "Cost Regulation percentage",
+    "Correction marking",
+    "Manual line addition",
+    "Checklist validation",
+    "Weight and supplementary UOM recalculation",
+    "File creation",
+    "Report status management"
+  ],
+  "versions": [
+    "2022 release wave 2"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007311,
+      "pages_in_call": 6
+    }
+  ]
+}

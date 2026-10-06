@@ -1,0 +1,246 @@
+{
+  "video_id": "BwBR8JwwQa4",
+  "item_id": "video/yt-microsoft/BwBR8JwwQa4",
+  "title": "What's New in Shopify Connector: Shopify B2B Companies and Company Locations (2025 release wave 1)",
+  "duration_s": 212,
+  "systems": [
+    "integration",
+    "sales",
+    "crm"
+  ],
+  "topics": [
+    "shopify connector",
+    "b2b",
+    "company locations",
+    "tax id mapping",
+    "payment terms",
+    "entity mapping",
+    "catalog sync",
+    "traceability",
+    "customer export"
+  ],
+  "chapters": [
+    {
+      "title": "New B2B capabilities: locations, payment terms, and tax ID",
+      "t_start": 0,
+      "t_end": 45.9
+    },
+    {
+      "title": "Importing Shopify locations into Business Central",
+      "t_start": 45.9,
+      "t_end": 108.5
+    },
+    {
+      "title": "Exporting customer data and tax ID mapping",
+      "t_start": 108.5,
+      "t_end": 151.5
+    },
+    {
+      "title": "Catalog sync and company ID traceability",
+      "t_start": 151.5,
+      "t_end": 176.2
+    },
+    {
+      "title": "Payment terms and location mapping completion",
+      "t_start": 176.2,
+      "t_end": 212
+    }
+  ],
+  "features": [
+    {
+      "name": "Shopify B2B company locations import",
+      "description": "Shopify connector now imports all company locations from Shopify into Business Central, including address information, tax IDs, and payment terms for each location.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 5.6,
+      "t_end": 89.4,
+      "is_demoed": true,
+      "caveats": [
+        "Default location is determined by Shopify connector using the first imported location, as it is not possible to specify default location in Shopify admin"
+      ],
+      "tags": [
+        "shopify",
+        "b2b",
+        "locations",
+        "import"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Tax ID automatic entity mapping",
+      "description": "Tax ID information imported from Shopify can be used for automatic entity mapping to link Shopify companies to Business Central customers based on registration number.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 5.6,
+      "t_end": 89.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "tax",
+        "mapping",
+        "entity mapping"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Customer export with tax ID and company ID",
+      "description": "When exporting customer data from Business Central to Shopify, the connector now includes tax ID and company ID information to improve order creation and traceability.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 25.7,
+      "t_end": 176.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "export",
+        "customer",
+        "tax id",
+        "company id",
+        "traceability"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Payment terms mapping",
+      "description": "Payment terms can be mapped between Shopify and Business Central, with payment term details transferring to Shopify and stored in the default company location.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 69.3,
+      "t_end": 176.2,
+      "is_demoed": true,
+      "caveats": [
+        "Requires mapping configuration between Shopify payment terms and Business Central payment terms"
+      ],
+      "tags": [
+        "payment terms",
+        "mapping"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Automatic catalog creation with customer-specific pricing",
+      "description": "Shopify connector can automatically create catalogs ensuring prices are equal between Shopify and Business Central, with the customer number field now filled in to calculate prices specific to that customer.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 25.7,
+      "t_end": 151.5,
+      "is_demoed": true,
+      "caveats": [
+        "Requires sync prices toggle to be enabled"
+      ],
+      "tags": [
+        "catalog",
+        "pricing",
+        "sync"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Shopify shop card tax ID mapping field",
+      "description": "New field on Shopify shop card page allows configuration of which tax ID to send to Shopify: either registration number or VAT registration number.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 131,
+      "t_end": 166.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "tax id",
+        "mapping",
+        "configuration"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Company attention field in location",
+      "description": "Shopify connector fills in the company/attention field in the created company location with the company name, which is used in imported orders.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 186.6,
+      "t_end": 207.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "location",
+        "company",
+        "attention field"
+      ],
+      "system": "integration"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Shopify Shop Card",
+      "t": 131
+    },
+    {
+      "type": "page",
+      "name": "Shopify Locations",
+      "t": 69.3
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 5.6,
+      "text": "Shopify connector now Imports all location all Company locations and also includes payment terms and tax ID information",
+      "why_it_matters": "This statement establishes the core new capabilities in this release: multi-location import with tax and payment information for B2B scenarios.",
+      "check": "exact"
+    },
+    {
+      "t": 25.7,
+      "text": "from business Central to Shopify customer to company we also include tax ID and Company ID that also improves order creation and traceability",
+      "why_it_matters": "Explains the export-side improvements that enable better data integrity and order tracking between systems.",
+      "check": "exact"
+    },
+    {
+      "t": 108.5,
+      "text": "It is important to map Shopify payment terms to business central payment terms",
+      "why_it_matters": "Highlights a critical configuration requirement for users implementing this connector.",
+      "check": "snapped"
+    },
+    {
+      "t": 131,
+      "text": "the new company Tax ID mapping field on the Shopify shop car page lets you choose to send either the registration number or the",
+      "why_it_matters": "Describes a key configuration option that gives users flexibility in which tax identifier to use for entity mapping.",
+      "check": "exact"
+    },
+    {
+      "t": 151.5,
+      "text": "this enhancement ensures that the connector uses the specific customer to calculate prices eliminating the need to fill in other fields",
+      "why_it_matters": "Demonstrates how automatic catalog creation simplifies configuration and improves pricing accuracy.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 5,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 7
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.01459
+    }
+  ]
+}

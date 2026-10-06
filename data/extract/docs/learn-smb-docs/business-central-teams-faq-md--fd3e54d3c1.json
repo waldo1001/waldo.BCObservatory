@@ -1,0 +1,52 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/teams-faq.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/teams-faq",
+  "title": "Teams FAQ",
+  "blob": "e54eec604e9c65a5422bf670538a0c9c0b43b891",
+  "summary": "Teams FAQ answers questions about using the Business Central app for Microsoft Teams, covering installation, sign-in, permissions, contact search, tabs, cards, and collaboration features.",
+  "systems": [
+    "integration",
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "teams",
+    "collaboration",
+    "contact search",
+    "cards",
+    "tabs",
+    "permissions",
+    "app installation"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Contacts"
+    },
+    {
+      "type": "page",
+      "name": "Contact"
+    }
+  ],
+  "features": [
+    "Teams app installation",
+    "contact search",
+    "card expansion",
+    "tabs in chat",
+    "Teams integration",
+    "mobile support",
+    "guest collaboration",
+    "Share to Teams"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.013569,
+      "pages_in_call": 2
+    }
+  ]
+}

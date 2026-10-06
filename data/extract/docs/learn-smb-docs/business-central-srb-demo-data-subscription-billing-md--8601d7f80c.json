@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/SRB/demo-data-subscription-billing.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/SRB/demo-data-subscription-billing",
+  "title": "Contoso demo data",
+  "blob": "d37d7217918eb2e4190117903c4f9063cb05c157",
+  "summary": "Contoso demo data for Subscription Billing provides realistic setup, master, and transactional records to help users quickly set up and evaluate the Subscription Billing module with hands-on training data.",
+  "systems": [
+    "projects"
+  ],
+  "topics": [
+    "demo data",
+    "subscription billing",
+    "contoso data",
+    "setup"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Subscription Billing Demo Data"
+    }
+  ],
+  "features": [
+    "Comprehensive demo data generation",
+    "Setup data-only option",
+    "Localization support",
+    "Job Queue integration",
+    "Data Exchange definition import",
+    "Reconciliation file import",
+    "Configuration options"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007311,
+      "pages_in_call": 6
+    }
+  ]
+}

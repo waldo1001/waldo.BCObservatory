@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/resources-for-users",
   "published_at": "2026-01-12T16:01:00.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "3ab75e5edf906cc72e48b16acfb48465a4f480fa",
       "words": 372,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:50:43.060Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.007311
+    },
+    "summarized": {
+      "at": "2026-10-06T18:50:45.988Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:50:45.989Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:50:45.989Z",
+      "page": false
     }
   },
   "input_hash": "3ab75e5edf906cc72e48b16acfb48465a4f480fa",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "3ab75e5edf906cc72e48b16acfb48465a4f480fa"
+  "output_hash": "9ea0b611af0b4cc68e21e174b86271fd9cb1e0f2f2c09bd3f20a542bcef8679f"
 }

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/teams-faq",
   "published_at": "2026-01-12T16:01:00.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "e54eec604e9c65a5422bf670538a0c9c0b43b891",
       "words": 5083,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:50:43.062Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.013569
+    },
+    "summarized": {
+      "at": "2026-10-06T18:50:47.762Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:50:47.764Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:50:47.765Z",
+      "page": false
     }
   },
   "input_hash": "e54eec604e9c65a5422bf670538a0c9c0b43b891",
@@ -47,5 +66,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e54eec604e9c65a5422bf670538a0c9c0b43b891"
+  "output_hash": "d1c7d310c89f5341cf991cf2cdbf7fdf2227de7163c9c0ab08fd3719684e427d"
 }

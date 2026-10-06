@@ -1,0 +1,366 @@
+{
+  "video_id": "BrMKx3wqYac",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 6.2,
+      "end": 17.8,
+      "text": "Hello everyone and welcome to this session on AI consumption billing in business central. My name is Yast and today I'm co-presenting with Ditri. Pleasure. To start Dmitri tell me what this is about."
+    },
+    {
+      "t": 17.8,
+      "end": 30.1,
+      "text": "Yeah, it is in fact a very fascinating topic again something that happens for the very first time with Business Central and the topic of this segment is called AI consumption billing for business central."
+    },
+    {
+      "t": 30.1,
+      "end": 47.3,
+      "text": "I will start in an interesting place. By now you may have heard not once, not twice, but many times about the sales order agent. And as you probably also know, the sales order agent is providing a ton of value to the sales team working with the quotes and the orders."
+    },
+    {
+      "t": 47.3,
+      "end": 63.5,
+      "text": "In fact, what you see on my screen right now is the KPIs dashboard of an agent of the sales order agent doing lots of great stuff. So it did process a lot of emails, created a lot of quotes, and many of these quotes converted into sales orders."
+    },
+    {
+      "t": 63.5,
+      "end": 76.5,
+      "text": "So there's a lot of activity going on and a lot of time saved by the sales people moving along their day. But what you might also be wondering about is what happens with AI consumption."
+    },
+    {
+      "t": 76.5,
+      "end": 96.5,
+      "text": "So there must be a lot of AI consumed in the back end by the sales or agent to make its smart decisions. Now you would be completely right thinking about that because after a period of time as you get a taste and sense of the agent you will likely see a screen looking"
+    },
+    {
+      "t": 96.5,
+      "end": 107.8,
+      "text": "like this. So this screen and by the way I'm showing the copilot and agents capabilities. We did rebrand this page which used to be called copilot and AI capabilities."
+    },
+    {
+      "t": 107.8,
+      "end": 118.4,
+      "text": "Now it's copilot and agent capabilities. And on this page we list all of the co-pilot capabilities. obviously and the sales order agent as the first agent of Business Central."
+    },
+    {
+      "t": 118.4,
+      "end": 132.8,
+      "text": "But what's more interesting here is a couple of notifications that you see on the screen. For example, that by activating AI capabilities, you understand your organization may be built for its use in the future."
+    },
+    {
+      "t": 132.8,
+      "end": 152.9,
+      "text": "I wanted to underscore this statement is that at this point of time the sales order agent is the only capability uh which is being u built for and we're going to explain everything and every minor detail about that but what you can also see is that there is another very helpful notification here that the AI"
+    },
+    {
+      "t": 152.9,
+      "end": 168.5,
+      "text": "quarter of this environment is nearly used up so you you're getting a feeling that you you might be approaching a certain capacity And at that capacity, you're being informed and notified by the way in the copilot pane as well."
+    },
+    {
+      "t": 168.5,
+      "end": 180.9,
+      "text": "So here you can see, hey, there's a there's a small warning available for you that you should probably start thinking about what the agent is consuming. And then in some time after that, the agent will be stopped."
+    },
+    {
+      "t": 180.9,
+      "end": 194.5,
+      "text": "And there's another message that's going to appear that the agent isn't processing any tasks. And you really really need to look into what's going on with the capacity uh spent by the agent doing its fantastic activities."
+    },
+    {
+      "t": 194.5,
+      "end": 212.4,
+      "text": "Now, but what's happening in this situation used? Can you shed some light into what these terms are all about? Yes. So to bill for copilot use in business central um business central will actually plug into a billing mechanism that applies across Microsoft products and services."
+    },
+    {
+      "t": 212.4,
+      "end": 223,
+      "text": "Um, first of all, Microsoft products and services will use a common currency called the Microsoft Copilot Studio message to measure the usage of AI features and to build for them."
+    },
+    {
+      "t": 223,
+      "end": 242,
+      "text": "The billing of these features in Microsoft Copilot Studio messages will be using common meters, the generative answers and autonomous actions. So every time you use business central features, they will consume a number of generative answers or a number of autonomous actions and that will convert into a number of Microsoft copilot studio messages for which you will get built."
+    },
+    {
+      "t": 242,
+      "end": 253.4,
+      "text": "Finally, the capacity from which these Microsoft copilot studio messages uh are consumed is also common across Microsoft products and services. So there'll be two options to purchase these."
+    },
+    {
+      "t": 253.4,
+      "end": 269,
+      "text": "First of all, there are the prepaid copilot studio message packs which are monthly subscription containing x number of messages uh renewable every month. And secondly, there's a pay as you go plan where you pay for the number of copilot studio messages you've consumed after the month concludes."
+    },
+    {
+      "t": 269,
+      "end": 289.4,
+      "text": "So now that we have an idea of how uh copilot features are built across Microsoft services, can you tell us a little bit of what this means for the sales order agent? Oh, absolutely. I only pretended that I didn't know about the topic, but thanks a lot used for bringing up indeed very important points in this story that it is a common currency used by all products."
+    },
+    {
+      "t": 289.4,
+      "end": 303.6,
+      "text": "It is we use common meters with the rest of the uh Microsoft products and it is consuming common capacity so to say. So what what does it mean in terms of the sales order agent which I just presented on the few previous slides."
+    },
+    {
+      "t": 303.6,
+      "end": 319.8,
+      "text": "Now as you mentioned we will be using these two specific meters generative answers and autonomous actions to measure the consumption of the sales order agent and what we are going to measure and capture are these three specific things."
+    },
+    {
+      "t": 319.8,
+      "end": 332.5,
+      "text": "So the incoming and outgoing messages. So there is a message coming into the sales or agent and there is a message produced by or generated by sales or agent in response to that um action."
+    },
+    {
+      "t": 332.5,
+      "end": 349.2,
+      "text": "There is sales quote action when the agent does something on for the sales quote populates the header the lines and doing all of the updates and there is an action on sales order uh on the sales order converting the quote into an order and doing the things of that nature."
+    },
+    {
+      "t": 349.2,
+      "end": 365.8,
+      "text": "So the billing pattern is going to be very simple as Yost explained we're going to use a generative answer for the for any message that the agent generates an autonomous action for the operation on sales quote and operation of a sales order."
+    },
+    {
+      "t": 365.8,
+      "end": 378,
+      "text": "So it's a very simple and transparent billing cadence and that's how the agent is going to be uh built. Now a few more scenarios just just to land that point of how it's actually going to be tracked."
+    },
+    {
+      "t": 378,
+      "end": 391.1,
+      "text": "Now imagine a typical run of a sales order agent. It receives an email asking for items and then it creates a sales quote and it can populate many things for that sales quote and then in response it will generate an email."
+    },
+    {
+      "t": 391.1,
+      "end": 405.6,
+      "text": "Here's the quote with attachment. Uh the customer reviews the email, sends it back. So the sales or agent will receive another one. Um convert that quote into an order and finally send the sales order confirmation."
+    },
+    {
+      "t": 405.6,
+      "end": 421.4,
+      "text": "So that's a very very typical vanilla standard run and as you can imagine it will be marked it will be mapped to these meters generative answer for every email message and autonomous action for every sales quote operation or for sales order operation."
+    },
+    {
+      "t": 421.4,
+      "end": 436.2,
+      "text": "So very very simple and here's a more advanced scenario where the customer is now iterating a few more times with the sales order agent asking for some additional specific details asking for availability."
+    },
+    {
+      "t": 436.2,
+      "end": 453.7,
+      "text": "Obviously there will be more emails there will be more quote and order operations and that will be that will consume more of uh resources. So very simple model and uh it would be also interesting to see how you can set it up."
+    },
+    {
+      "t": 453.7,
+      "end": 468.3,
+      "text": "Yes. So first of all we want every business central customer to be able to experience our co-pilot features and to try them out. So every tenant in business central environment comes with a very limited preview evaluation capacity that would allow you to set up the sales order agent,"
+    },
+    {
+      "t": 468.3,
+      "end": 479.8,
+      "text": "try it out, take it for a few runs and maybe fill a few of your sales orders. Once that runs out, you'll start seeing messages that that your capacity is about to run out and it's time to go set up your billing policies."
+    },
+    {
+      "t": 479.8,
+      "end": 493.4,
+      "text": "For that, um there's two types of capacity as explained earlier. So, first of all, there's the prepaid Microsoft Copilot Studio message packs. Um you can purchase these as a monthly subscription and if you have any on your tenant, this is what the agent would consume from first."
+    },
+    {
+      "t": 493.4,
+      "end": 506.2,
+      "text": "If you don't have any prepaid capacity or you've run out of your prepaid capacity, we'll escalate to a pay as you go policy. So anything beyond your prepaid capacity will be built at the end of the month based on how much you've consumed."
+    },
+    {
+      "t": 506.2,
+      "end": 516.5,
+      "text": "All right. By the way, Y, it sounds very very familiar this concept of using message packs and pay as you go. Where where could I hear about these two concepts?"
+    },
+    {
+      "t": 516.5,
+      "end": 532.8,
+      "text": "Yes, that's right. Um, actually the power platform has been running with this billing model for a couple years at this point and we're just adapting it for copilot uh features. Right. So to have a look how this applies to business central, we're going into the business central admin center, navigating to our production"
+    },
+    {
+      "t": 532.8,
+      "end": 547.3,
+      "text": "environment. So here you can see I have my business central environment in the US currently not linked to any power platform environment. Now as the power platform has been using billing policies for a few years, we are inheriting these settings from a power platform environment."
+    },
+    {
+      "t": 547.3,
+      "end": 561,
+      "text": "So to use billing policies on a business central environment is required that you link it to a power platform environment so that knows which billing policies and and settings to pick up. To do that we go into uh link environment."
+    },
+    {
+      "t": 561,
+      "end": 578.5,
+      "text": "We select a production environment. So it's an environment of the same type and in the same uh geography. And you can see now my environment here is linked. So you're saying that if this environment is already enabled for all of these billing policies that there's nothing else I need to be doing in this case."
+    },
+    {
+      "t": 578.5,
+      "end": 590.2,
+      "text": "That's right. If the linked power platform environment had already set up a billing policy in the past, the business central environment would automatically inherit it at this point. Unfortunately, we can see that the billing policy is actually not set for this environment."
+    },
+    {
+      "t": 590.2,
+      "end": 604.4,
+      "text": "So we need to go into the power platform admin center to do some additional setup. I can navigate directly to the environment in the power platform admin center from the business center environment and you can see this is indeed the environment here that is linked to my business central"
+    },
+    {
+      "t": 604.4,
+      "end": 617.9,
+      "text": "environment. Now to set up um a pay as you go policy I would go into licensing pay as you go plans and you can see here I already have a few plans but we'll create a new one."
+    },
+    {
+      "t": 617.9,
+      "end": 637,
+      "text": "Um in this case I want to build through my Azure subscription. So I select that. I give my billing plan a name. I pick the subscription. I pick a resource group in which the power platform admin center then creates the resource against which this would be built and I make sure that I select copilot studio as one of the products that is enabled for this billing plan."
+    },
+    {
+      "t": 637,
+      "end": 655.2,
+      "text": "Then I select my production environment. So this is the environment that I just linked my environment to and I save. And here you can see in the list of billing plans, there's now this new production billing plan which is um linked to my production environment and is enabled for copilot studio billing."
+    },
+    {
+      "t": 655.2,
+      "end": 675.3,
+      "text": "Now to confirm that I'm indeed good to go, I navigate to copilot studio here. I go into manage messages and I look at my production environment and you can see indeed here now that um this environment has a pay as you go building plan enabled meaning that I'm ready to go and use copilot features on my business central"
+    },
+    {
+      "t": 675.3,
+      "end": 695.6,
+      "text": "environment. Yep, that sounded quite simple. So, so generally the customer would need to have an Azure subscription and then through this experience you create a billing policy uh associated with with an environment and then you link that environment to business central and that's how business central knows where to consume these messages"
+    },
+    {
+      "t": 695.6,
+      "end": 706,
+      "text": "from and how to report it to the to this to that subscription. That's quite that's quite interesting. So pay as you go is a nice option where I don't really know how much am I going to spend."
+    },
+    {
+      "t": 706,
+      "end": 716.7,
+      "text": "So this is a brilliant opportunity for me to work with the agent a little bit more, see how much it consumes, measure and understand these costs. But what if I want to have a more rigid structure?"
+    },
+    {
+      "t": 716.7,
+      "end": 726.7,
+      "text": "So I want to actually get some some prepaid capacity and assign it to my environment. Yes. So for prepaid capacity, there's there's two ways of getting it."
+    },
+    {
+      "t": 726.7,
+      "end": 738.3,
+      "text": "Firstly, you can contact your partner to purchase it the same you would a business central user license. So it's just a monthly subscription you purchase from a partner and you'd have the capacity uh in that package available."
+    },
+    {
+      "t": 738.3,
+      "end": 752,
+      "text": "You can also go into the Microsoft 365 admin center first to start a trial or to purchase directly. So here we are in the Microsoft 365 admin center and to set up Copilot Studio we go into billing your"
+    },
+    {
+      "t": 752,
+      "end": 763.8,
+      "text": "products and then add more products. Copilot Studio falls under business apps here. So I select that, scroll to the bottom and I can see here there's Microsoft copilot studio."
+    },
+    {
+      "t": 763.8,
+      "end": 779.5,
+      "text": "I can get some more details. Um there's several plans available. There's the message packs that create this capacity and then there's user licenses in case I have any users in my tenant that want to log into copilot studio itself and set up their own uh agents."
+    },
+    {
+      "t": 779.5,
+      "end": 791,
+      "text": "For now I'll just select the copilot studio trial. And I can see here the checkout pane immediately pops up. So I get one license which is an initial trial and after that will renew into a paid subscription."
+    },
+    {
+      "t": 791,
+      "end": 801.6,
+      "text": "I place my order. So now I have my confirmation that I've started my free trial of Copilot Studio and the message pack should be available on my tenant to use immediately. Okay, that was easy enough."
+    },
+    {
+      "t": 801.6,
+      "end": 812.3,
+      "text": "So administrator can get 25,000 messages to to work with uh for their tenant and you can also get it from your CSP partner. So that was simple enough."
+    },
+    {
+      "t": 812.3,
+      "end": 832.6,
+      "text": "But now with all of these capacity available to my potentially many environments, how can I try to allocate some capacity per environment? And uh what's also interesting is uh I I may want to set a certain limit that I don't want to go beyond certain capacity using AI"
+    },
+    {
+      "t": 832.6,
+      "end": 850,
+      "text": "and using the for example the sales order agent or any other capability in in another product. How would I do these two operations? So now that we have some prepaid capacity on this tenant, I can go back into the Power Platform admin center and I can see that indeed there's now 25,000 messages available to be allocated."
+    },
+    {
+      "t": 850,
+      "end": 861.8,
+      "text": "Let's say for this environment, we only want it to to cap out at 1,000 environments. So I enter a thousand here and I can optionally choose um whether if that thousand is exhausted during the subscription month."
+    },
+    {
+      "t": 861.8,
+      "end": 872.3,
+      "text": "Um this environment is allowed to draw from any capacity in the tenant that hasn't been used yet but that exists beyond this thousand here or whether I want to escalate to my uh pay as you go billing plan."
+    },
+    {
+      "t": 872.3,
+      "end": 886,
+      "text": "So if I want the cost of this to be very predictable, I would assign the the number of messages that I want to use by this environment here and I would disable the overages so that the environment cannot consume more when it's been allocated."
+    },
+    {
+      "t": 886,
+      "end": 902.1,
+      "text": "So now that we've set up um the capacity just as we like it for this environment, let's go back to the business center admin center and have a final look. I can see that that my production environment in the US is indeed still linked to a power platform environment and is now inheriting a billing policy called production from that environment."
+    },
+    {
+      "t": 902.1,
+      "end": 912.3,
+      "text": "So this confirms that we're good to go and the sales order agents should start working again in our environment. That's great news. I can't wait to to try it much much more."
+    },
+    {
+      "t": 912.3,
+      "end": 927,
+      "text": "All right. So so just to to make sure that uh I understand 100% what what you just shared. Uh we use power platform as sort of a billing pipeline. So it consumes these messages available for the tenant for the customer organization"
+    },
+    {
+      "t": 927,
+      "end": 939.1,
+      "text": "uh for all of the products linked with that with that tenant. And you can get it in uh consumption pre prepaid packs, message packs, or you can get it as pay as you go uh depending on your needs."
+    },
+    {
+      "t": 939.1,
+      "end": 950.6,
+      "text": "So if you always consume 25,000 or more messages, uh that this prepaid pack makes sense for you. If you have variable consumption, pay as you go is great."
+    },
+    {
+      "t": 950.6,
+      "end": 964.2,
+      "text": "They also work in combination. Is that right? Mhm. So for example, once you run out of your prepaid capacity of of messages, then pay as you go kicks in and then everything on top of it is consumed through pay as you go."
+    },
+    {
+      "t": 964.2,
+      "end": 982.2,
+      "text": "So that's a very very flexible system and you also are getting some of the uh preview evaluation capacity just to get a sense of what the agent is uh before you go and and set up this um this consumption tracking and pay as you go and start using it."
+    },
+    {
+      "t": 982.2,
+      "end": 995,
+      "text": "That's a great recap. Uh that summarizes our um billing story for the sales order agents in business center really well. Thank you for watching. Thank you very much. Enjoy."
+    }
+  ],
+  "markers": [
+    {
+      "t": 0,
+      "text": "[Music]"
+    },
+    {
+      "t": 6.15,
+      "text": "[Music]"
+    },
+    {
+      "t": 6.16,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 3005
+}

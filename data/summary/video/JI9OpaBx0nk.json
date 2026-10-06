@@ -1,0 +1,26 @@
+{
+  "video_id": "JI9OpaBx0nk",
+  "item_id": "video/yt-microsoft/JI9OpaBx0nk",
+  "summary": "HTTP client Handler for mocking outbound HTTP calls in AL tests (2025 release wave 1). Covers intercepting requests, simulating responses, telling requests apart, the fall-through mechanism, and the test HTTP request policy options. Known limits: no cookies or redirection status codes.",
+  "overview": "The video explains why testing code that calls external services is hard: tests depend on the service being up, and running them against a live service can affect production. It introduces a new test Handler, the HTTP client Handler, which intercepts outbound HTTP requests during test execution so the test can return a mocked response instead.\n\nThe demo shows how to set up the Handler, attach it to a test with the Handler functions attribute, and use request properties to return different responses. It then covers the fall-through mechanism for mixing mocked and real calls, a live debugging session, and the test HTTP request policy that controls which outbound requests are allowed.",
+  "key_points": [
+    "Mark a procedure with the HTTP client Handler attribute and attach it to a test with the Handler functions attribute; all HTTP calls during that test are then routed to the Handler.",
+    "The request object exposes request type, path, query parameters and a has-secret-URI property, which you can use to return different responses per request.",
+    "When the request URI is set using secret text, path and query parameters are not available.",
+    "Fall-through: the Handler returns a Boolean. Exit true issues the original request; exit false (the default) uses the mocked response, so an empty Handler still blocks the outbound call.",
+    "Test HTTP request policy on a test codeunit has three options: allow all outbound requests (default), allow outbound only from the Handler, or block all outbound requests.",
+    "Blocking outbound requests is suggested for automated CI/CD pipelines so tests never hit real endpoints.",
+    "As of now, cookies and redirection status codes cannot be set in mocked responses."
+  ],
+  "audience": [
+    "developer",
+    "partner"
+  ],
+  "extraction_hash": "fb244c32522821e0e5d4b98e3fd43342a96bf6a6980ec4451a1c340291d671bb",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0159044
+  }
+}

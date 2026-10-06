@@ -1,0 +1,110 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-how-setup-report-intrastat.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-setup-report-intrastat",
+  "title": "Set up Intrastat reporting",
+  "blob": "10111e005e5ffffb07d0343ede3b5c2bd8fdbaaa",
+  "summary": "Set up Intrastat reporting involves configuring EU trade statistics collection through multiple pages and settings. This setup process includes defining reporting preferences, data exchange definitions, mandatory fields, and country-specific configurations.",
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "intrastat setup",
+    "eu compliance",
+    "trade reporting",
+    "configuration"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Intrastat Report Setup"
+    },
+    {
+      "type": "page",
+      "name": "Data Exchange Definitions"
+    },
+    {
+      "type": "page",
+      "name": "Intrastat Report Checklist"
+    },
+    {
+      "type": "page",
+      "name": "VAT Reports Configuration"
+    },
+    {
+      "type": "page",
+      "name": "Countries/Regions"
+    },
+    {
+      "type": "page",
+      "name": "Tariff Numbers"
+    },
+    {
+      "type": "page",
+      "name": "Transport Methods"
+    },
+    {
+      "type": "page",
+      "name": "Transaction Types"
+    },
+    {
+      "type": "page",
+      "name": "Items"
+    },
+    {
+      "type": "page",
+      "name": "Fixed Assets"
+    },
+    {
+      "type": "page",
+      "name": "Vendors"
+    },
+    {
+      "type": "page",
+      "name": "Customers"
+    },
+    {
+      "type": "page",
+      "name": "Item Units of Measure"
+    },
+    {
+      "type": "page",
+      "name": "Lot No. Information Card"
+    },
+    {
+      "type": "page",
+      "name": "Serial No. Information Card"
+    },
+    {
+      "type": "page",
+      "name": "Item Template"
+    }
+  ],
+  "features": [
+    "Assisted setup",
+    "Report Receipts and Report Shipments configuration",
+    "Drop Shipment inclusion",
+    "VAT registration setup",
+    "Default transaction types",
+    "Data exchange definitions",
+    "Mandatory fields configuration",
+    "Item tracking",
+    "Tariff number setup",
+    "Transport method configuration",
+    "Exclusion from reporting",
+    "Country of origin automation"
+  ],
+  "versions": [
+    "2022 release wave 2"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007311,
+      "pages_in_call": 6
+    }
+  ]
+}

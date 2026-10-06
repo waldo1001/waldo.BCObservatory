@@ -1,0 +1,57 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/ui-extensions-image-analyzer.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/ui-extensions-image-analyzer",
+  "title": "The Image Analyzer Extension",
+  "blob": "babf3ef4177e55b8a4b6666b36540abb9e474dd8",
+  "summary": "The Image Analyzer extension uses Computer Vision API to automatically detect and suggest attributes in imported item and contact person images, helping quickly categorize and describe inventory and contacts.",
+  "systems": [
+    "inventory",
+    "platform",
+    "development"
+  ],
+  "topics": [
+    "image analysis",
+    "item attributes",
+    "contact profiles",
+    "computer vision",
+    "extension"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Item Attributes"
+    },
+    {
+      "type": "page",
+      "name": "Image Analyzer Attributes"
+    },
+    {
+      "type": "page",
+      "name": "Image Analysis Setup"
+    },
+    {
+      "type": "page",
+      "name": "Profile Questionnaire"
+    }
+  ],
+  "features": [
+    "image analysis",
+    "attribute detection",
+    "category assignment",
+    "confidence scoring",
+    "blocklist management",
+    "Computer Vision API integration",
+    "item categorization"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.013569,
+      "pages_in_call": 2
+    }
+  ]
+}

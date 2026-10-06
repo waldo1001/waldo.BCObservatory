@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/SRB/demo-data-subscription-billing",
   "published_at": "2026-01-12T16:01:00.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "d37d7217918eb2e4190117903c4f9063cb05c157",
       "words": 401,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T18:50:43.061Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.007311
+    },
+    "summarized": {
+      "at": "2026-10-06T18:50:45.990Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:50:45.991Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:50:45.992Z",
+      "page": false
     }
   },
   "input_hash": "d37d7217918eb2e4190117903c4f9063cb05c157",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d37d7217918eb2e4190117903c4f9063cb05c157"
+  "output_hash": "e5311f8ff993148b39152f79e35119ac7f53f4c05b543fcd6f0feae1f4c481cd"
 }

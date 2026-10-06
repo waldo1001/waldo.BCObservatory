@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-extensions-image-analyzer",
   "published_at": "2026-01-12T16:01:00.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "babf3ef4177e55b8a4b6666b36540abb9e474dd8",
       "words": 1078,
       "forms": 3
+    },
+    "extracted": {
+      "at": "2026-10-06T18:50:43.063Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 4,
+      "cost_usd": 0.013569
+    },
+    "summarized": {
+      "at": "2026-10-06T18:50:47.766Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:50:47.767Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:50:47.767Z",
+      "page": false
     }
   },
   "input_hash": "babf3ef4177e55b8a4b6666b36540abb9e474dd8",
@@ -60,5 +79,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "babf3ef4177e55b8a4b6666b36540abb9e474dd8"
+  "output_hash": "298a3eaf6f5e623ef4c11aa0ab9bed6f18fd53d8f78ede99a17ee700db715938"
 }

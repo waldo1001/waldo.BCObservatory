@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-setup-report-intrastat",
   "published_at": "2026-01-12T16:01:00.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "10111e005e5ffffb07d0343ede3b5c2bd8fdbaaa",
       "words": 4570,
       "forms": 15
+    },
+    "extracted": {
+      "at": "2026-10-06T18:50:43.057Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 16,
+      "cost_usd": 0.007311
+    },
+    "summarized": {
+      "at": "2026-10-06T18:50:45.977Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:50:45.979Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:50:45.981Z",
+      "page": false
     }
   },
   "input_hash": "10111e005e5ffffb07d0343ede3b5c2bd8fdbaaa",
@@ -117,5 +136,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "10111e005e5ffffb07d0343ede3b5c2bd8fdbaaa"
+  "output_hash": "96cc8f334f7c70ded1702042bcc18aa0749f1ae24cf3784b8685147c6738dc2c"
 }
