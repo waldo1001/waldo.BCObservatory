@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-set-up-data-sync",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "60cd7482a53b56c244dd657d85e821d5e8dc5706",
       "words": 1478,
       "forms": 10
+    },
+    "extracted": {
+      "at": "2026-10-06T19:05:34.679Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 4,
+      "cost_usd": 0.004493
+    },
+    "summarized": {
+      "at": "2026-10-06T19:05:34.687Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:05:34.688Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:05:34.688Z",
+      "page": false
     }
   },
   "input_hash": "60cd7482a53b56c244dd657d85e821d5e8dc5706",
@@ -86,5 +105,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "60cd7482a53b56c244dd657d85e821d5e8dc5706"
+  "output_hash": "d6432d42d084a199426c26faf52875f4dc590d40062ae26eeebe54c978fa9754"
 }

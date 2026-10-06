@@ -1,0 +1,48 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/assembly-how-to-assemble-items.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/assembly-how-to-assemble-items",
+  "title": "Assemble Items",
+  "blob": "74dd0862bb44c6e89ee59d8616c83586d1d4553c",
+  "summary": "Assemble items covers creating assembly orders to build inventory items from components and resources for stock, with availability checking and partial posting support.",
+  "systems": [
+    "assembly",
+    "inventory",
+    "warehouse"
+  ],
+  "topics": [
+    "assemble to stock",
+    "assembly orders",
+    "assembly bom",
+    "component availability",
+    "output posting"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Assembly Orders"
+    },
+    {
+      "type": "page",
+      "name": "Assembly Availability"
+    }
+  ],
+  "features": [
+    "assemble to stock",
+    "assembly order creation",
+    "component management",
+    "quantity to assemble",
+    "partial output posting",
+    "availability checking"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004493,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/assembly-how-to-undo-assembly-posting.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/assembly-how-to-undo-assembly-posting",
+  "title": "Undo Assembly Posting",
+  "blob": "a2b5e778052553eb76ccd5e1473f780d36f5f629",
+  "summary": "Undo assembly posting reverses assembly order postings with corrective item ledger entries and can recreate the original order for reprocessing.",
+  "systems": [
+    "assembly",
+    "inventory"
+  ],
+  "topics": [
+    "undo posting",
+    "assembly orders",
+    "corrective entries",
+    "assembly reversal",
+    "cost reversal"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Posted Assembly Orders"
+    }
+  ],
+  "features": [
+    "undo assembly posting",
+    "corrective entries",
+    "cost reversal",
+    "order recreation",
+    "partial and full posting reversal"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004493,
+      "pages_in_call": 8
+    }
+  ]
+}

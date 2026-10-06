@@ -1,0 +1,44 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/assembly-how-to-create-blanket-assembly-orders.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/assembly-how-to-create-blanket-assembly-orders",
+  "title": "Create Blanket Assembly Orders",
+  "blob": "9443f0454c44c6c592eecdd78981c5d1a54be076",
+  "summary": "Blanket assembly orders let you create forecasted assembly agreements with customers for assemble-to-order items before converting them to actual sales orders.",
+  "systems": [
+    "assembly",
+    "sales"
+  ],
+  "topics": [
+    "blanket orders",
+    "assemble to order",
+    "customized assembly",
+    "sales forecasting"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Blanket Sales Orders"
+    },
+    {
+      "type": "page",
+      "name": "Assemble-to-Order Lines"
+    }
+  ],
+  "features": [
+    "blanket assembly orders",
+    "forecast quantities",
+    "assembly customization",
+    "quantity to assemble to order"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004493,
+      "pages_in_call": 8
+    }
+  ]
+}

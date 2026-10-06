@@ -1,0 +1,52 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/assembly-how-work-assembly-boms.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/assembly-how-work-assembly-boms",
+  "title": "Work with assembly BOMs",
+  "blob": "ee7e6b2d6a9ad38ead2c8d9b5cd98cd76a426613",
+  "summary": "Assembly BOMs define the structure of parent items assembled from components and resources, with support for multi-level BOMs and cost calculation.",
+  "systems": [
+    "assembly",
+    "inventory"
+  ],
+  "topics": [
+    "assembly bom",
+    "components",
+    "bom structure",
+    "standard cost",
+    "variants"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Items"
+    },
+    {
+      "type": "page",
+      "name": "Assembly BOM"
+    },
+    {
+      "type": "page",
+      "name": "Standard Cost Worksheet"
+    }
+  ],
+  "features": [
+    "assembly bom creation",
+    "multi-level boms",
+    "component management",
+    "standard cost calculation",
+    "bom editing",
+    "where-used tracking",
+    "explode bom"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004493,
+      "pages_in_call": 8
+    }
+  ]
+}

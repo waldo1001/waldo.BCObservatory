@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/assembly-how-to-quote-an-assemble-to-order-sale.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/assembly-how-to-quote-an-assemble-to-order-sale",
+  "title": "Quote an Assemble-to-Order Sale",
+  "blob": "ecadf742199c0de45e2d5194a28e4a89e0f5c080",
+  "summary": "Assembly quotes let you quote customized assemble-to-order items to customers before converting to sales orders.",
+  "systems": [
+    "assembly",
+    "sales"
+  ],
+  "topics": [
+    "assembly quotes",
+    "assemble to order",
+    "sales quotes",
+    "customized assembly"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Sales Quote"
+    },
+    {
+      "type": "page",
+      "name": "Assemble-to-Order Lines"
+    }
+  ],
+  "features": [
+    "assembly quotes",
+    "quantity to assemble to order",
+    "customization"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004493,
+      "pages_in_call": 8
+    }
+  ]
+}

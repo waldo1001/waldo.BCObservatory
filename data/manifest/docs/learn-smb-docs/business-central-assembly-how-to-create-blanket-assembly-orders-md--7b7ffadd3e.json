@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/assembly-how-to-create-blanket-assembly-orders",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "9443f0454c44c6c592eecdd78981c5d1a54be076",
       "words": 427,
       "forms": 21
+    },
+    "extracted": {
+      "at": "2026-10-06T19:05:34.681Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.004493
+    },
+    "summarized": {
+      "at": "2026-10-06T19:05:38.674Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:05:38.676Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:05:38.677Z",
+      "page": false
     }
   },
   "input_hash": "9443f0454c44c6c592eecdd78981c5d1a54be076",
@@ -144,5 +163,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9443f0454c44c6c592eecdd78981c5d1a54be076"
+  "output_hash": "a0578a79174b9aab0cc0888d087bf6759e12b8ae45b274aef59a23d3131067e7"
 }

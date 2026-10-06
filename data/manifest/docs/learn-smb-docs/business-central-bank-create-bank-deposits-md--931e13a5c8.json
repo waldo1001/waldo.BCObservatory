@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/bank-create-bank-deposits",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "c6d3c5aafa355dd5dd590d47352a3122a34309ab",
       "words": 1651,
       "forms": 9
+    },
+    "extracted": {
+      "at": "2026-10-06T19:05:34.686Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 6,
+      "cost_usd": 0.004493
+    },
+    "summarized": {
+      "at": "2026-10-06T19:05:38.691Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:05:38.692Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:05:38.692Z",
+      "page": false
     }
   },
   "input_hash": "c6d3c5aafa355dd5dd590d47352a3122a34309ab",
@@ -84,5 +103,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c6d3c5aafa355dd5dd590d47352a3122a34309ab"
+  "output_hash": "ddfaadb1cece3c8d912a0acfa4b45c365611a23d09e63962727f512038aaa478"
 }

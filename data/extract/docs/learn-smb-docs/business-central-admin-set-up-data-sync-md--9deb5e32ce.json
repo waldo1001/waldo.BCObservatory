@@ -1,0 +1,55 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/admin-set-up-data-sync.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/admin-set-up-data-sync",
+  "title": "Set up companies to synchronize master data",
+  "blob": "60cd7482a53b56c244dd657d85e821d5e8dc5706",
+  "summary": "Master data synchronization lets you pull customer, vendor, item, and employee data from a source company to subsidiary companies in a one-directional flow, with automatic updates via job queue entries.",
+  "systems": [
+    "administration",
+    "integration"
+  ],
+  "topics": [
+    "master data",
+    "synchronization",
+    "subsidiary companies",
+    "data replication",
+    "job queue"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Master Data Management Setup"
+    },
+    {
+      "type": "page",
+      "name": "Synchronization Tables"
+    },
+    {
+      "type": "page",
+      "name": "Master Data Initial Synchronization"
+    },
+    {
+      "type": "page",
+      "name": "Select Coupling Criteria"
+    }
+  ],
+  "features": [
+    "uni-directional synchronization",
+    "match-based coupling",
+    "table filtering",
+    "initial synchronization",
+    "job queue scheduling",
+    "export and import setup"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004493,
+      "pages_in_call": 8
+    }
+  ]
+}

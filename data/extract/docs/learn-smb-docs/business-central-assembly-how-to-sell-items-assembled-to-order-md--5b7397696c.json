@@ -1,0 +1,46 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/assembly-how-to-sell-items-assembled-to-order.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/assembly-how-to-sell-items-assembled-to-order",
+  "title": "Sell Items Assembled to Order",
+  "blob": "76df3bdfaa96f075efbd00ef46627e459393b12f",
+  "summary": "Sell assemble-to-order items by creating sales orders that automatically generate linked assembly orders for items customized to customer specifications.",
+  "systems": [
+    "assembly",
+    "sales"
+  ],
+  "topics": [
+    "assemble to order",
+    "sales orders",
+    "customization",
+    "component management",
+    "availability"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Sales Orders"
+    },
+    {
+      "type": "page",
+      "name": "Assemble-to-Order Lines"
+    }
+  ],
+  "features": [
+    "assemble to order",
+    "linked assembly orders",
+    "component customization",
+    "availability checking",
+    "sales order release"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004493,
+      "pages_in_call": 8
+    }
+  ]
+}

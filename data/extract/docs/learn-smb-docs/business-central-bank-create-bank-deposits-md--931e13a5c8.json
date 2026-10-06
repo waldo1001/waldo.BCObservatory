@@ -1,0 +1,67 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/bank-create-bank-deposits.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/bank-create-bank-deposits",
+  "title": "Create bank deposits",
+  "blob": "c6d3c5aafa355dd5dd590d47352a3122a34309ab",
+  "summary": "Bank deposits register cash deposits as a single document that posts entries to bank, customer, and vendor ledgers with support for lump sum or individual line posting.",
+  "systems": [
+    "finance",
+    "sales"
+  ],
+  "topics": [
+    "bank deposits",
+    "cash management",
+    "bank reconciliation",
+    "deposit posting",
+    "customer payments"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Bank Deposits"
+    },
+    {
+      "type": "page",
+      "name": "Posted Bank Deposits"
+    },
+    {
+      "type": "page",
+      "name": "Sales & Receivables Setup"
+    },
+    {
+      "type": "page",
+      "name": "General Journal Templates"
+    },
+    {
+      "type": "page",
+      "name": "Apply Customer Entries"
+    },
+    {
+      "type": "page",
+      "name": "G/L Registers"
+    }
+  ],
+  "features": [
+    "bank deposit creation",
+    "lump sum deposits",
+    "multiple deposit sources",
+    "customer and vendor deposits",
+    "deposit posting",
+    "dimension handling",
+    "deposit reversal",
+    "check application"
+  ],
+  "versions": [
+    "2022 release wave 1"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004493,
+      "pages_in_call": 8
+    }
+  ]
+}
