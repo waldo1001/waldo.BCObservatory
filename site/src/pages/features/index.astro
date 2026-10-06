@@ -1,0 +1,16 @@
+---
+import { getCollection } from "astro:content";
+import Base from "../../layouts/Base.astro";
+const base = import.meta.env.BASE_URL;
+const all = (await getCollection("features")).sort((a, b) => String(b.data.ga_date ?? "").localeCompare(String(a.data.ga_date ?? "")) || String(a.data.area ?? "").localeCompare(String(b.data.area ?? "")));
+const label: Record<string, string> = { ga: "generally available", preview: "in preview", announced: "announced", unclear: "status unclear" };
+---
+<Base title="Features · BC Observatory" description="Business Central features from the Microsoft 365 roadmap.">
+  <p class="eyebrow">Features</p>
+  <h1>{all.length} features</h1>
+  <p class="lede">Business Central items on the Microsoft 365 roadmap, the successor of the release plans. Agents: <a href={`${base}features/llms.txt`}>llms.txt</a>.</p>
+  <table>
+    <thead><tr><th scope="col">Feature</th><th scope="col">Area</th><th scope="col">Status</th><th scope="col">GA</th></tr></thead>
+    <tbody>{all.map((f) => <tr><td><a href={`${base}features/${f.id}/`}>{f.data.title}</a></td><td>{f.data.area}</td><td>{label[f.data.status]}</td><td>{f.data.ga_date}</td></tr>)}</tbody>
+  </table>
+</Base>

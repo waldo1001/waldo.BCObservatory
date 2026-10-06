@@ -6,6 +6,7 @@ export const GET: APIRoute = async () => {
   const run = latestRun();
   const videos = (await getCollection("videos")).length;
   const topics = (await getCollection("topics")).length;
+  const features = (await getCollection("features")).length;
   const site = `${import.meta.env.SITE}${import.meta.env.BASE_URL}`;
   const text = [
     "# BC Observatory",
@@ -19,6 +20,7 @@ export const GET: APIRoute = async () => {
     "## Sections",
     "",
     ...(topics ? [`- [Topics](${site}topics/llms.txt): ${topics} topic hubs seeded from the Microsoft Learn TOCs, linking out to Learn`] : []),
+    ...(features ? [`- [Features](${site}features/llms.txt): ${features} Business Central features from the Microsoft 365 roadmap (status, wave, dates)`] : []),
     ...(videos ? [`- [Videos](${site}videos/llms.txt): ${videos} Business Central videos as timestamped evidence (summary, chapters, features with verified status quotes)`] : []),
     "",
     "## Start here",

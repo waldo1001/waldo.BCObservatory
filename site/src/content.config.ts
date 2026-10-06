@@ -12,4 +12,8 @@ const topics = defineCollection({
   loader: glob({ pattern: "**/*.md", base: "../content/topics", generateId: ({ entry }) => entry.replace(/\.md$/, "") }),
 });
 
-export const collections = { videos, topics };
+const features = defineCollection({
+  loader: glob({ pattern: "*.md", base: "../content/features", generateId: ({ entry }) => entry.replace(/\.md$/, "") }),
+});
+
+export const collections = { videos, topics, features };
