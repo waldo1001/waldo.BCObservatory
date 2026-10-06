@@ -1,4 +1,4 @@
-# Handoff — state of BC Observatory on 2026-10-06 (end of session 2)
+# Handoff — state of BC Observatory on 2026-10-06 (M0 complete)
 
 Written at the end of the planning session so a fresh Claude Code session in this repository can continue
 without the original conversation. Read in this order: `AGENTS.md` → this file → `docs/PLAN.md` →
@@ -6,18 +6,12 @@ without the original conversation. Read in this order: `AGENTS.md` → this file
 
 ## Where things stand
 
-Milestone **M0 bootstrap**: all code is written and committed (session 2, 2026-10-06). Gates: `npm run typecheck`,
-`npm test` (61 tests, no network, no LLM), `npm run validate:sources`, `npm run lint:workflows`.
-
-| Step | State | Where |
-|---|---|---|
-| 1 scaffold commit | done, pushed | `3c5e31c` |
-| 2 `llm.ts` port (+ `quotes.ts`, `caption/vtt-clean.ts`) | done; one real Haiku ping verified apiKeySource `none` | `pipeline/lib/llm.ts`, `npm run llm:ping` |
-| 3 manifest / queue / budget + usage guard | done | `pipeline/lib/{manifest,queue,budget}.ts`, `infra/mini/usage-guard.ts` |
-| 4 ingest + orchestrator | done; live dry run: 40 sources, 0 failures, about 9.5k items in 9 s | `pipeline/ingest/*`, `pipeline/orchestrator/nightly.ts` |
-| 5 Mini provisioning scripts | written; `10-brew` ran (uv only); gated steps 20-80 not run | `infra/mini/*`, `docs/RUNBOOK.md` |
-| 6 workflows + `setup-github.sh` | settings applied, private vault created; pr-validate and pages green on GitHub | `.github/workflows/*`, `scripts/setup-github.sh` |
-| 7 placeholder site | live at https://waldo1001.github.io/waldo.BCObservatory/ | `site/` |
+**M0 bootstrap is complete** (2026-10-06). The Mini runs the nightly as `bcobs` through the `macmini-bcobs` runner
+(labels `self-hosted,macOS,ARM64,bcobs`, system LaunchDaemon). First nightly: 40 sources, 9,522 items discovered,
+zero LLM calls, committed by github-actions[bot]; a second nightly found 0 changes and still committed its heartbeat.
+Pages rebuilds after every successful nightly: https://waldo1001.github.io/waldo.BCObservatory/.
+`mini-selfcheck.yml` passed on the Mini (Haiku ping with apiKeySource `none`, caption fetch, vault fetch).
+Gates: `npm run typecheck`, `npm test` (61 tests), `npm run validate:sources`, `npm run lint:workflows`.
 
 Deliberate deviations from PLAN, all small:
 - Docs and guidelines share `pipeline/ingest/git-content.ts` (keys = repo path, input hash = git blob id); no per-file
@@ -28,21 +22,20 @@ Deliberate deviations from PLAN, all small:
 - Six WordPress.com-hosted blogs use `public-api.wordpress.com/wp/v2/sites/<host>/posts` (their `/wp-json` 404s);
   dvlprlife.com is feed-only.
 
-## Next steps (M0, in order)
+## Next steps (M1)
 
-1. Done 2026-10-06: `scripts/setup-github.sh --yes --vault` applied; commits pushed; Pages deployed.
-2. Owner, in a terminal (sudo password, browser for the token), from the repo root:
-   `infra/mini/remote.sh --sudo 20-worker-user.sh --yes` (prints the vault deploy key; add it with write access),
-   `claude setup-token`, `... 30-claude.sh --yes` (paste at the hidden prompt; press Enter at the usage-token prompt, deferred to M1), `... 35-tools.sh --yes`,
-   `... 40-runner.sh "$(gh api -X POST repos/waldo1001/waldo.BCObservatory/actions/runners/registration-token -q .token)" --yes`,
-   `... 50-daemon.sh --yes`, `... 60-vault.sh --yes`, `... 70-power.sh --yes`, then `... 80-verify.sh`.
-3. Dispatch `nightly.yml` once (`stages: ingest`), check the run report commit and the Pages deploy, then let the
-   schedule take over. M0 is done when the runner is online, a nightly commits a heartbeat and Pages serves the site.
-4. M1: seed import of the 84 VTTs, Microsoft channel reconcile + captions, video extract/summarize, Learn fetched
-   stage + topic hubs from `TOC.md`, roadmap feature stubs, first Opus-reviewed hubs.
+1. Usage token for the guard (deferred, D16): find a `user:profile` token source that does not silently expire,
+   before M1 spends tokens. Until then the guard reports `reduced` (half quotas).
+2. Seed import of the 84 VTTs from `prev/data/transcripts/raw` (`pipeline/caption/import-seed.ts`, id resolution +
+   override map), Microsoft channel reconcile (`yt-dlp --flat-playlist`) + captions.
+3. Stage execution in the orchestrator: fetched, captioned, extracted (Haiku), summarized (Sonnet), linked; then
+   Learn fetched stage + topic hubs from `TOC.md`, roadmap feature stubs, first Opus-reviewed hubs; render to `content/`.
 
 ## Facts you will need
 
+- Pushes made with `GITHUB_TOKEN` never trigger other workflows. The nightly's commits therefore reach Pages through
+  `workflow_run` in `pages.yml`, and `pr-validate` does not run on bot commits.
+- Owner-run provisioning output can arrive late in the chat; check timestamps before reacting to an old failure.
 - Mini timezone is America/Los_Angeles; the pipeline always runs with `TZ=Europe/Brussels`. FileVault is off.
   uv 0.12.23 is installed via brew. jq is Apple's `/usr/bin/jq`.
 - Jarvis has no refresh for its usage token (static env value). A login-scoped token will expire; the guard then

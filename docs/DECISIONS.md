@@ -35,3 +35,8 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   model2vec vectors) is v0.2.
 - **D14 Repo has no secrets.** The only secret is the env file on the Mini. Workflows push with GITHUB_TOKEN; the
   vault uses a deploy key held on the Mini.
+- **D15 Tools for the pipeline user are installed per user.** yt-dlp and deno go to `bcobs` via `uv tool` on uv's
+  managed Python 3.12; brew installs only uv. Why: brew would upgrade openssl@3, sqlite, readline, xz and
+  ca-certificates under the running Jarvis processes. Consequence: `infra/mini/35-tools.sh`; re-run it to upgrade yt-dlp.
+- **D16 Usage-guard token deferred to M1.** The setup-token lacks `user:profile` and Jarvis's login token is static
+  with no refresh. Consequence: the guard runs `reduced` until a durable token source exists; M0 makes no LLM calls.
