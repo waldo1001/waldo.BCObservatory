@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/web-service-performance",
   "published_at": "2025-05-06T19:27:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "6b27bdf370395d6aa64d87eae6b63d6d1fdf76fc",
       "words": 169,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:34:17.703Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00317
+    },
+    "summarized": {
+      "at": "2026-10-06T19:34:19.471Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:34:19.472Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:34:19.473Z",
+      "page": false
     }
   },
   "input_hash": "6b27bdf370395d6aa64d87eae6b63d6d1fdf76fc",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6b27bdf370395d6aa64d87eae6b63d6d1fdf76fc"
+  "output_hash": "b81a12a68196756882080fa3fa5824cbd9f71768e67286a510423fc37d364fce"
 }

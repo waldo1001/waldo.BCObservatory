@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/web-service-troubleshooting-soap-odata-ui-pages",
   "published_at": "2025-05-06T19:27:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "4df4e15de89ac8aaaf8c81c6ddd631f1efcf607d",
       "words": 275,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:34:17.706Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00317
+    },
+    "summarized": {
+      "at": "2026-10-06T19:34:19.481Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:34:19.482Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:34:19.483Z",
+      "page": false
     }
   },
   "input_hash": "4df4e15de89ac8aaaf8c81c6ddd631f1efcf607d",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "4df4e15de89ac8aaaf8c81c6ddd631f1efcf607d"
+  "output_hash": "d651d8c60a71c94d0fe0bec90c8a870fd52a37c729b5f6685fa88c1fd241c873"
 }

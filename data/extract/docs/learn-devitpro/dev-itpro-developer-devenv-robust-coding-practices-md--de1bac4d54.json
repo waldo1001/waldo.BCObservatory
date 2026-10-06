@@ -1,0 +1,37 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-robust-coding-practices.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-robust-coding-practices",
+  "title": "Failure modeling and robust coding practices",
+  "blob": "b047f8e70a1a2767bf92c2d773f9c489fcd88d51",
+  "summary": "Failure modeling and robust coding practices help developers anticipate and handle errors gracefully in AL code through six principles: not trusting external code, consumers, or the environment; offering graceful degradations; hiding internal data structures; and assuming improbable events will occur at scale.",
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "error handling",
+    "failure modeling",
+    "robust coding",
+    "defensive programming",
+    "al language"
+  ],
+  "objects": [],
+  "features": [
+    "failure mode documentation",
+    "robust coding principles",
+    "error remediation strategies",
+    "graceful degradation",
+    "defensive programming practices"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00317,
+      "pages_in_call": 8
+    }
+  ]
+}

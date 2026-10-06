@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-edit-in-excel-lists",
   "published_at": "2025-05-06T19:27:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "48b60f90127f643b36104077fb798e5b5092fd7b",
       "words": 252,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:34:11.563Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003617
+    },
+    "summarized": {
+      "at": "2026-10-06T19:34:17.712Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:34:17.713Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:34:17.714Z",
+      "page": false
     }
   },
   "input_hash": "48b60f90127f643b36104077fb798e5b5092fd7b",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "48b60f90127f643b36104077fb798e5b5092fd7b"
+  "output_hash": "be2ac476d81b2062acc42da58cdb8d4ceb86ed88e3e203ed1d22f4fea90fb2f2"
 }

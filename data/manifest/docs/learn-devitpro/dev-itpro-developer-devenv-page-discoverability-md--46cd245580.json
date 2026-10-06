@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-discoverability",
   "published_at": "2025-05-06T19:27:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "33be675af540c71aab4bd204da25ee282c06df11",
       "words": 643,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:34:11.567Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003617
+    },
+    "summarized": {
+      "at": "2026-10-06T19:34:17.726Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:34:17.727Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:34:17.728Z",
+      "page": false
     }
   },
   "input_hash": "33be675af540c71aab4bd204da25ee282c06df11",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "33be675af540c71aab4bd204da25ee282c06df11"
+  "output_hash": "fa4d026f8605d7ee2b9482f1ffd957d83b7a2b6ac290a27cac3771f534395bf2"
 }

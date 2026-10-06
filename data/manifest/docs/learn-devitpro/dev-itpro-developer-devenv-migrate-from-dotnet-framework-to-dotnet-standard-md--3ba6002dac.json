@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-migrate-from-dotnet-framework-to-dotnet-standard",
   "published_at": "2025-05-06T19:27:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "c140c0bbcb36c6491d6c0aa8ec8ba85844e7e8a1",
       "words": 833,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:34:11.566Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003617
+    },
+    "summarized": {
+      "at": "2026-10-06T19:34:17.723Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:34:17.724Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:34:17.725Z",
+      "page": false
     }
   },
   "input_hash": "c140c0bbcb36c6491d6c0aa8ec8ba85844e7e8a1",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c140c0bbcb36c6491d6c0aa8ec8ba85844e7e8a1"
+  "output_hash": "75b76d7e30542ad5925d4d14b6c128ed6b8aaae5d3a8d070ad0f3144237a00b7"
 }

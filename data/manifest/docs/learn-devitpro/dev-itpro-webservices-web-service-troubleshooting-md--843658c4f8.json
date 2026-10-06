@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/web-service-troubleshooting",
   "published_at": "2025-05-06T19:27:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "2e31c1ece8f12d7774877b6e64d2ff34faa513cf",
       "words": 592,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:34:17.707Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00317
+    },
+    "summarized": {
+      "at": "2026-10-06T19:34:19.484Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:34:19.485Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:34:19.486Z",
+      "page": false
     }
   },
   "input_hash": "2e31c1ece8f12d7774877b6e64d2ff34faa513cf",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "2e31c1ece8f12d7774877b6e64d2ff34faa513cf"
+  "output_hash": "a6692191e04df0bf29e1fb5c18c7e4b1c7a1ba009d99f510fcbda59b103526b7"
 }

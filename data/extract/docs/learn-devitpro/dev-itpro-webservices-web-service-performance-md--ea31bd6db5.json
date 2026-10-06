@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/webservices/web-service-performance.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/web-service-performance",
+  "title": "Web Service Performance (OData, API, and SOAP)",
+  "blob": "6b27bdf370395d6aa64d87eae6b63d6d1fdf76fc",
+  "summary": "Web service performance for OData, API, and SOAP depends on both the Business Central server endpoint and the consumer, with guidance on anti-patterns to avoid, performance patterns to follow, and telemetry for monitoring.",
+  "systems": [
+    "integration",
+    "platform"
+  ],
+  "topics": [
+    "web services",
+    "odata",
+    "api",
+    "soap",
+    "performance",
+    "telemetry"
+  ],
+  "objects": [],
+  "features": [
+    "performance patterns",
+    "anti-patterns",
+    "API client performance",
+    "Power BI performance",
+    "web service telemetry",
+    "throughput handling"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00317,
+      "pages_in_call": 8
+    }
+  ]
+}

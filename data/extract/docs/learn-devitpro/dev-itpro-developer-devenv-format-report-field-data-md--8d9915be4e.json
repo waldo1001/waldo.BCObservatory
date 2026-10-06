@@ -1,0 +1,38 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-format-report-field-data.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-format-report-field-data",
+  "title": "Formatting field values in report datasets",
+  "blob": "2a54444b039b4155268cecc2faeea8284a0f9255",
+  "summary": "Formatting field values in report datasets using properties and methods to control decimal precision, date/boolean/enum display, and regional formats.",
+  "systems": [
+    "development",
+    "reporting"
+  ],
+  "topics": [
+    "report formatting",
+    "datasets",
+    "field formatting",
+    "decimal values",
+    "localization"
+  ],
+  "objects": [],
+  "features": [
+    "AutoFormatType property",
+    "AutoFormatExpr property",
+    "DecimalPlaces property",
+    "Format method",
+    "Language method",
+    "FormatRegion method"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003617,
+      "pages_in_call": 8
+    }
+  ]
+}

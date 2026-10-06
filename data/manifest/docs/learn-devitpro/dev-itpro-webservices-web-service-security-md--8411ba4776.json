@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/web-service-security",
   "published_at": "2025-05-06T19:27:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "11cdf94367de3277d3f7634c1b5d5def6f313d3b",
       "words": 217,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:34:17.704Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00317
+    },
+    "summarized": {
+      "at": "2026-10-06T19:34:19.475Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:34:19.476Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:34:19.477Z",
+      "page": false
     }
   },
   "input_hash": "11cdf94367de3277d3f7634c1b5d5def6f313d3b",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "11cdf94367de3277d3f7634c1b5d5def6f313d3b"
+  "output_hash": "b22539c1206caa3aa350a316e45baaec64b2c23f4ad7526341ecb088b089dd2a"
 }

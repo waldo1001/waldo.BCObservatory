@@ -5,12 +5,17 @@
   "tier": "official",
   "title": "BCTalent Stories: iFacto",
   "url": "https://www.youtube.com/watch?v=symEeOiih_Q",
-  "published_at": null,
+  "published_at": "2024-04-26T08:19:25.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T19:34:14.419Z",
+      "captions": "auto:en-orig",
+      "duration_s": 133
     }
   },
   "input_hash": null,
@@ -19,7 +24,13 @@
   "meta": {
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 399,
-    "duration_s": 134,
-    "via": "reconcile"
-  }
+    "duration_s": 133,
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null
 }

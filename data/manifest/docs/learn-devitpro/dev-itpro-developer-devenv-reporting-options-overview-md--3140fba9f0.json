@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-reporting-options-overview",
   "published_at": "2025-05-06T19:27:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "cc13a6a7c0c9e77bbb35e806999c51a79dab15d5",
       "words": 1497,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:34:11.568Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003617
+    },
+    "summarized": {
+      "at": "2026-10-06T19:34:17.729Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:34:17.730Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:34:17.731Z",
+      "page": false
     }
   },
   "input_hash": "cc13a6a7c0c9e77bbb35e806999c51a79dab15d5",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "cc13a6a7c0c9e77bbb35e806999c51a79dab15d5"
+  "output_hash": "8e2b14b2f4c1ff7cd8cba8f164f7e3d064d88a43bcede0f40aeda85f464798dd"
 }

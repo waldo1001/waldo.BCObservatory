@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-table-field-text-search.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-field-text-search",
+  "title": "Enable optimized text search on table fields",
+  "blob": "7dc57e3a22a45833b4b01ea7460bdd73fb4b5eec",
+  "summary": "Optimized text search on table fields uses full-text search in SQL Server and Azure SQL Database to enable efficient searching on character-based data in Business Central, configurable via the OptimizeForTextSearch property.",
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "text search",
+    "full-text search",
+    "table fields",
+    "filtering",
+    "performance"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Address"
+    }
+  ],
+  "features": [
+    "OptimizeForTextSearch property",
+    "full-text search",
+    "optimized filter syntax",
+    "text search semantics",
+    "case-insensitive search",
+    "accent-insensitive search"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00317,
+      "pages_in_call": 8
+    }
+  ]
+}

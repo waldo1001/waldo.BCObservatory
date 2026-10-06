@@ -1,0 +1,38 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/webservices/web-service-telemetry.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/web-service-telemetry",
+  "title": "Web Service Telemetry",
+  "blob": "eae8b6d666f1dd93d5cb678ea6d84cf9ce697794",
+  "summary": "Web service telemetry in Business Central logs all SOAP, OData, and API requests to partner telemetry, providing monitoring capabilities for endpoint usage, performance, failures, access key authentication, and publish errors.",
+  "systems": [
+    "integration",
+    "administration"
+  ],
+  "topics": [
+    "web services",
+    "telemetry",
+    "monitoring",
+    "odata",
+    "api",
+    "soap"
+  ],
+  "objects": [],
+  "features": [
+    "incoming web service telemetry",
+    "web service access key telemetry",
+    "publish failure telemetry",
+    "HTTP status code tracking",
+    "endpoint monitoring"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00317,
+      "pages_in_call": 8
+    }
+  ]
+}

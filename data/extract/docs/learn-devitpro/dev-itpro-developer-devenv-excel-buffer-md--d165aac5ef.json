@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-excel-buffer.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-excel-buffer",
+  "title": "Exporting data to Excel using ExcelBuffer",
+  "blob": "9bd675e2874ba8fd316f8718d99fd303e4bcf91f",
+  "summary": "Excel Buffer is a temporary table with API methods for creating and updating Excel workbooks from AL code, supporting data manipulation through rows, columns, and cells.",
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "excel buffer",
+    "excel export",
+    "data manipulation",
+    "worksheets",
+    "al development"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Excel Buffer"
+    }
+  ],
+  "features": [
+    "Excel Buffer table",
+    "cell manipulation (EnterCell method)",
+    "row and column operations (NewRow, AddColumn)",
+    "workbook creation (CreateNewBook, WriteSheet, CloseBook)",
+    "Excel download (OpenExcel)",
+    "stream export (SaveToStream)",
+    "formatting and styling"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003617,
+      "pages_in_call": 8
+    }
+  ]
+}

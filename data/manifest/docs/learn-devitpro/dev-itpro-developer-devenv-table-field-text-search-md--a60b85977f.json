@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-field-text-search",
   "published_at": "2025-05-06T19:27:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "7dc57e3a22a45833b4b01ea7460bdd73fb4b5eec",
       "words": 445,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:34:17.701Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.00317
+    },
+    "summarized": {
+      "at": "2026-10-06T19:34:17.737Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:34:17.738Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:34:19.467Z",
+      "page": false
     }
   },
   "input_hash": "7dc57e3a22a45833b4b01ea7460bdd73fb4b5eec",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7dc57e3a22a45833b4b01ea7460bdd73fb4b5eec"
+  "output_hash": "225fac9df1f27c00ff804476cedd77b9f255439a329f8ac93cd3207744817abc"
 }
