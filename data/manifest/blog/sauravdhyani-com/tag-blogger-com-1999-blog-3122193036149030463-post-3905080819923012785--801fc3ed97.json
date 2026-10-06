@@ -7,13 +7,39 @@
   "url": "https://www.sauravdhyani.com/2026/07/how-to-email-posted-sales-shipments-and.html",
   "published_at": "2026-07-17T05:30:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:52:42.694Z",
+      "path": "vault:posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-3905080819923012785--801fc3ed97.md",
+      "words": 601
+    },
+    "extracted": {
+      "at": "2026-10-06T21:52:51.332Z",
+      "prompt": "extract-post@1",
+      "quotes": 3,
+      "trimmed": 0,
+      "cost_usd": 0.006615
+    },
+    "summarized": {
+      "at": "2026-10-06T21:52:51.334Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:52:51.335Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:52:51.339Z",
+      "path": "content/posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-3905080819923012785--801fc3ed97.md"
     }
   },
   "input_hash": "2026-07-17T05:30:00.222Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3d8e5fc0ce6e0e4799da08b85e0fef1f14841a5c1f40b6b8ca42a1037481a224"
 }

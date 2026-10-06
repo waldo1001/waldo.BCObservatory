@@ -1,0 +1,71 @@
+{
+  "item_id": "blog/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-2394393585068521549",
+  "url": "https://www.sauravdhyani.com/2026/06/how-to-use-copy-location-feature-in.html",
+  "title": "How to Use the Copy Location Feature in Business Central 2026 Wave 1 (BC28)",
+  "source": "sauravdhyani-com",
+  "published_at": "2026-07-15T05:30:00.000Z",
+  "words": 523,
+  "summary": "The Copy Location feature in Business Central BC28 allows users to duplicate existing warehouse and location configurations instead of setting them up manually, reducing implementation time and standardizing setups across multiple locations.",
+  "key_points": [
+    "Copy Location duplicates warehouse configuration, settings, and operational setup from an existing location to a new one",
+    "The feature does not copy inventory quantities, ledger entries, or transaction data",
+    "It is available directly from the Locations page and Location Card page via the Actions menu",
+    "Useful for multi-warehouse rollouts, franchise deployments, testing environments, and rapid implementations"
+  ],
+  "systems": [
+    "warehouse",
+    "inventory",
+    "administration"
+  ],
+  "topics": [
+    "warehouse setup",
+    "location management",
+    "configuration",
+    "business central 2026",
+    "bc28",
+    "implementation efficiency"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Locations"
+    },
+    {
+      "type": "page",
+      "name": "Location Card"
+    }
+  ],
+  "features": [
+    "Copy Location",
+    "Location duplication",
+    "Warehouse configuration",
+    "Setup standardization"
+  ],
+  "versions": [
+    "BC28",
+    "Business Central 2026 Wave 1"
+  ],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00548,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "The Copy Location feature allows users to create a new location by duplicating configuration from an existing location.",
+      "why_it_matters": "Clearly defines what the feature does and its primary benefit for reducing manual work"
+    },
+    {
+      "text": "It copies setup configuration, not inventory transactions.",
+      "why_it_matters": "Critical to understand what data is and is not replicated to avoid data integrity issues"
+    },
+    {
+      "text": "For quick duplication scenarios, yes. For bulk structured migration, Configuration Packages may still be better.",
+      "why_it_matters": "Helps users understand when to use Copy Location versus alternative approaches like Configuration Packages"
+    }
+  ]
+}

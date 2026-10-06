@@ -7,13 +7,39 @@
   "url": "https://www.olofsimren.com/approval-workflows-in-planning-worksheet/",
   "published_at": "2026-07-13T15:42:01.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:52:54.706Z",
+      "path": "vault:posts/olofsimren-com/3779.md",
+      "words": 1933
+    },
+    "extracted": {
+      "at": "2026-10-06T21:53:09.127Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": 0.017722
+    },
+    "summarized": {
+      "at": "2026-10-06T21:53:09.128Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:53:09.128Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:53:09.131Z",
+      "path": "content/posts/olofsimren-com/3779.md"
     }
   },
   "input_hash": "2026-07-13T15:42:03.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "6d67c43cdc63906a7cad1f0f92b15b94c95e6049dba96064c114925a42c51072"
 }

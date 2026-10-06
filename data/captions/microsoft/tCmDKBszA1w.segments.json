@@ -1,0 +1,656 @@
+{
+  "video_id": "tCmDKBszA1w",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 16.1,
+      "end": 32.7,
+      "text": "welcome to the busy Center Lounge event and our session about using of electronic documents in the busy Center where my colleagues vmir Magnus together with me will try to explain what this core functionality has and how you can use it"
+    },
+    {
+      "t": 32.7,
+      "end": 53,
+      "text": "now agenda even there is only six steps it can not be short presentation is we want to show completely functionality here uh we will start with some basic introduction and high live architecture but after that we will go deep down and we will show uh real demos from setup through the different scenarios in sales and purchase"
+    },
+    {
+      "t": 53,
+      "end": 64.8,
+      "text": "processes from Sunshine scenarios to the real issues in the process so you will see everything and we will close this session showing the list of currently available features and its road"
+    },
+    {
+      "t": 64.8,
+      "end": 80.5,
+      "text": "map so let's start CTC new acronym and relatively new term and it stands for continuous transaction control as a this term is used to describe mandator real time invoicing reporting"
+    },
+    {
+      "t": 80.5,
+      "end": 101.5,
+      "text": "validation by the authorities and present a set of digital control mechanism to import tax collection and decrease STX frauds this is from government perspective but for us it is important as more and more countries are introducing these requirements okay as you can see on these slides there are many aspects"
+    },
+    {
+      "t": 101.5,
+      "end": 114,
+      "text": "where CZ is presented but we will not cover all of them today you can see there is electronic V submission sft and so on some of them we have their independent"
+    },
+    {
+      "t": 114,
+      "end": 134.1,
+      "text": "sessions today we'll be focused on a different models of electronic invoicing even we change the name of our model from eVoice into e documents in the first release we will be focused on a invoicing on invoicing primary after that we will continue with some other document but for now this is primary focus"
+    },
+    {
+      "t": 134.1,
+      "end": 154.2,
+      "text": "on invoicing um okay we are talking about electronic invoicing as absolutely new feature but this is not something absolutely new in the bus Center we already had fatura PA in Italy and cfdi in Mexico even if you look SII in space this is maybe not electronic invoicing but architecture is pretty similar this"
+    },
+    {
+      "t": 154.2,
+      "end": 174.4,
+      "text": "this is more or less the same model and then many partners created local specific electronic invoices Solutions but what we notice as a problem is that um having different solutions from country to Country will make problems to us to provide solution for all these new countries and support uh"
+    },
+    {
+      "t": 174.4,
+      "end": 194.6,
+      "text": "for all of them for existing and new countries but also for you as it will be more and more more complicated and it will move us from the localization idea at all we wanted to simplify the system and to make it easy for support solution was create one core electronic invoicing or electronic document system as a global app for"
+    },
+    {
+      "t": 194.6,
+      "end": 214.6,
+      "text": "all countries it will not be 100% that means it will not be fit maybe some file format some more things are missing but it will be for all country the same model on the top of that as some things will be missed we will add some local flavors as specific small localizations or local"
+    },
+    {
+      "t": 214.6,
+      "end": 234.7,
+      "text": "apps now why we started to think this way and when we started to think this way if you look at this road map what you can see in April this year we had to enable new cfdi version in Mexico version 4 it was not so easy effort it was complicated only one country"
+    },
+    {
+      "t": 234.7,
+      "end": 254.8,
+      "text": "but now we need to add Denmark and Belgium to the list and now before continue with some other countries and the expected road map I need to mention that this road map is maybe not 100% accurate as governments are changing their enforcement date all the time it was accurate in one moment but maybe some of these countries will be uh"
+    },
+    {
+      "t": 254.8,
+      "end": 276,
+      "text": "uh move before or after for a couple of months now if you see there new countries are coming with their mandated invoicing rules France Spain German other countries as well and there is a VA is a vat in digital age"
+    },
+    {
+      "t": 276,
+      "end": 296.1,
+      "text": "directive this is new uh this is new e uh directive about electronic invoicing in digital V reporting across the European Union and it was only about countries where Microsoft has own localizations what with other countries you can find numerous countries with the forc electronic"
+    },
+    {
+      "t": 296.1,
+      "end": 316.2,
+      "text": "invoicing and we decide to make it easier to us and our localizations but also to make it much more accessible uh for hundreds of countries where we have partner based localizations actually not 100 but more than 100 countries we have parttime B localizations in some of these countries electronic invoic is already there in some of these count"
+    },
+    {
+      "t": 316.2,
+      "end": 336.6,
+      "text": "this is expected so we want to make it easier for all of them not only for Microsoft but for part and Bas localizations as well and even when I made my own research outside of this enforcements from govern ments I made this Research on Twitter uh X now this is X not anymore Twitter"
+    },
+    {
+      "t": 336.6,
+      "end": 352.6,
+      "text": "um on This research only 6% of 187 participants say that they do not need it they do not need electronic invoice in the bus Center they said I do not need or I will develop it by myself all others that means"
+    },
+    {
+      "t": 352.6,
+      "end": 372.8,
+      "text": "94% somehow wanted this solution so we had to do something and okay if you look know electronic invoicing now it looks and easy we have a sender and receiver V are sender for example we need to send the electronic invoice to our customer and okay where is the problem it is on the first side this is really easy"
+    },
+    {
+      "t": 372.8,
+      "end": 392.8,
+      "text": "but this is too easy to be real problem is that countries have different approach about electronic invoicing this direct communication is something more or less available voluntary basing in some countries but when they enforce they want something different but on other side our idea is having powerful platform to cover the most of models the most"
+    },
+    {
+      "t": 392.8,
+      "end": 412.9,
+      "text": "of different situations if not all and now let's keep on this the most easier way no Services specific just communication between customer and u customer vendor or us with customer and our vendors this is something that we call a two Corner model easily communication we can create electronic"
+    },
+    {
+      "t": 412.9,
+      "end": 433.3,
+      "text": "document file and send via email some other way this is something what you already have in the v Central you can export p format and that's it it can work but very when it comes to third uh Three Corner model it will be more complicated because now we have service provider we need to keep some specific format service provider"
+    },
+    {
+      "t": 433.3,
+      "end": 453.4,
+      "text": "as from us and we do not need to contact Our receiver our customer uh directly now we need to send to some API some different model communication with service provider our electronic documents and service provider we deliver this to our customer and similar uh when our vendor send C send invoice to"
+    },
+    {
+      "t": 453.4,
+      "end": 474.2,
+      "text": "us they will send to C service provider service provider will delivery to us this is Three Corner model in some countries Three Corner model is okay but they're even more complicated and this is let's say this is p model and this is I think the most uh situation in the most of countries for Corner model"
+    },
+    {
+      "t": 474.2,
+      "end": 494.2,
+      "text": "where sender and receiver do not communicate even between themsel and even with service provider now we have sender and receiver access points they have two access points so sender receiver and two of access points are four corners and because of that this is four cornner model now we we are sender we will send electronic"
+    },
+    {
+      "t": 494.2,
+      "end": 515,
+      "text": "invoice to our access point and validation first validation will be done there so our access point will communicate with the receiver access point and receiver access point will deliver this invoice to receiver but in the same way they communicate the uh government Authority so they will exchange all necessary information with them but even in this model"
+    },
+    {
+      "t": 515,
+      "end": 535.1,
+      "text": "imagine there is even more you're in European union and you want to communicate with your customer with your C with your government you must deliver and now you have forign a customer and you for foreign customer you need to report to your government and that's okay you will have standard file format and you will deliver it but you have a really big customer and you want to be really polite you you"
+    },
+    {
+      "t": 535.1,
+      "end": 555.2,
+      "text": "want to make your customer happy and you want to send them their own uh electronic invoice F format this is not something enforced but this is something where you can increase quality of your business so you can without any problem ask okay I want to create additional file format even different from what I deliver from my government and I want to send"
+    },
+    {
+      "t": 555.2,
+      "end": 566.8,
+      "text": "it to my uh customer that means it can be really complicated and this is not only about documents now I explain only how documents are traveling but there is even"
+    },
+    {
+      "t": 566.8,
+      "end": 587,
+      "text": "more um if you look if start for this the most complicated um standard type the four cor model let's look deeper what we need to provide additionally this is not only about as I said sending a electon document there is much more there is additional messaging system and okay if it start with bus Central we"
+    },
+    {
+      "t": 587,
+      "end": 607,
+      "text": "the bus Central and we have some external customer for example this is receiver Erp on this chart first you as a sender are Corner one and your customer is as a receiver is Corner four and it is expected uh that we we have or we should have both of our system uh electronic"
+    },
+    {
+      "t": 607,
+      "end": 627,
+      "text": "document messaging system inside of Erp Solutions but then moving forward we have access points at the corner two and Corner three now let's look at our system more closely it is essential to establish this in communication system with the access point that means we need to communicate with access point and what does it mean initially when we dispatch a"
+    },
+    {
+      "t": 627,
+      "end": 647.2,
+      "text": "document to the access point it will if you validate the document and promptly provide initial confirmation message or if document is uh correct or not but this is not everything then access points communicate between themselves and now after"
+    },
+    {
+      "t": 647.2,
+      "end": 667.2,
+      "text": "transmitting our document through the receiver access point our customer will receive it initially further interaction from their end the customer has the option to either approve or reject the document in some some countries there will be maybe even more options a little bit different but let's keep it this is the most common scenario customer can approve or"
+    },
+    {
+      "t": 667.2,
+      "end": 687.4,
+      "text": "reject document this message will um then be provided to us by our access point once it is received from the receiver access point consequently we must Implement an additional aschr service to handle this messaging in a later point that means you can see this is not so easy not so"
+    },
+    {
+      "t": 687.4,
+      "end": 704.5,
+      "text": "un complicated you need to deliver document you need to to receive documents you need to deliver messages to receive messages this is much more complicated than what we can conclude on the first site and how we decided to make it let's look in a high level architecture of e"
+    },
+    {
+      "t": 704.5,
+      "end": 725.4,
+      "text": "document our idea was to create a document as an app but there are many places already inside the Bas app so we didn't want to remove them from the uh Bas app to this new app so some of of these features can be maybe used from some other reasons in a base app but maybe even more"
+    },
+    {
+      "t": 725.4,
+      "end": 745.6,
+      "text": "important um we didn't want to make this kind of uh breaking changes as many partner based electronic invoicing Solutions are based on these existing features inside the Bas app this is communication we got uh with the partners uh when we started to think about uh making this feature that means we adapted some of existing"
+    },
+    {
+      "t": 745.6,
+      "end": 765.8,
+      "text": "part in a Bas app but the biggest part of our e doent core app is an extension and this is a global extension for all countries it will be used in a W1 and all country localizations now for example there is no standard e doent global Service and because of"
+    },
+    {
+      "t": 765.8,
+      "end": 786.1,
+      "text": "because of that the closest to the standard can be used in some of third party access points sometimes you you want to use because this is comfortable something you will be enforced by government because they they need they they will be they will enforce you to use only certifi access points so we will soon provide additional e doent global app ready to connect"
+    },
+    {
+      "t": 786.1,
+      "end": 804.5,
+      "text": "with a third party services this have will be based on our e doent core that means it will be on the top of e doent core it will not be independent app and uh these apps made by Microsoft should provide minimum 80% of required features maybe even more but minimum"
+    },
+    {
+      "t": 804.5,
+      "end": 824.7,
+      "text": "80% now on the top of uh that Microsoft will provide specific local ations um in some countries it can be only file format but sometimes it can be in service integration eventually maybe even new tables and Fields if necessary it depends from requirement local requirements and they will not be limited"
+    },
+    {
+      "t": 824.7,
+      "end": 845.1,
+      "text": "only on these uh three countries uh here on this slide this is um it will be enforced by um specific dates when country expect to have mandatory electronic invoic in country we expect that the same model will be used by partners and U in the following period we will provide proper technical documentation"
+    },
+    {
+      "t": 845.1,
+      "end": 865.6,
+      "text": "how you can build your your own localization on top of our e doent cor app but there are even more options for partners partner will be able to add additional value to our localizations that means not only in a core app you can extend even our current localizations current future localizations maybe some new features"
+    },
+    {
+      "t": 865.6,
+      "end": 885.6,
+      "text": "maybe something related with some industry specifics there is no limitations you can extend as you want but there is also an opportunity for third party access points you can see uh um our third party access point providers not our in general third third party"
+    },
+    {
+      "t": 885.6,
+      "end": 906,
+      "text": "access point providers will be able to extend these features uh of uh of these apps as well now I'm talking about third party access points app uh because different access points Point provides providers have different set of features and we cannot and we don't plan to deliver their features"
+    },
+    {
+      "t": 906,
+      "end": 926.2,
+      "text": "BS Central B Cent handle what is required by default what is required to deliver invoicing and other documents to receive to exchange messages and so but these access points have their own businesses and their own features so they can extend our integration app with additional features if they like it that means"
+    },
+    {
+      "t": 926.2,
+      "end": 941.5,
+      "text": "you can use much more feature inside the be Central if you decide to communicate directly with access point provider but the most important thing is that all of them will use the same base model and it will not be complicated to be used and supported in multiple"
+    },
+    {
+      "t": 941.5,
+      "end": 953.4,
+      "text": "environments now my colleague while will continue with deep dive in architecture and after that we will show all these live demos"
+    },
+    {
+      "t": 953.6,
+      "end": 974,
+      "text": "while so now if you are building your own e doent application you will start by subscribing to the boosting routine uh you will obviously need to implement some backround background jobs to run run uh all all your code in in a background job and you might want to also Implement a mapping field"
+    },
+    {
+      "t": 974,
+      "end": 989.5,
+      "text": "logic uh in case when you are exporting and importing documents you want to map the field to be more uh to to be more to follow the standard by by that endpoint you are integrating with and"
+    },
+    {
+      "t": 989.5,
+      "end": 1010,
+      "text": "then you want to build some logic that will export and import a document for each format you're using uh and then you want to build an integration with that endpoint you are trying to send and import documents from uh you're not done yet you still need to build error handling logging retention policy and finally"
+    },
+    {
+      "t": 1010,
+      "end": 1030.7,
+      "text": "maybe a dashboard so your customer can follow the progress of of sending and receiving e doents so what we did is that we did the heavy lifting we package all of that in E doent core application and that's a framework to speed up your productivity when you are trying to build your own e doent"
+    },
+    {
+      "t": 1030.7,
+      "end": 1050.9,
+      "text": "application all you need to do basically we package the we created interface for creating and importing documents and for integrating with an endpoint to send and receive documents all you need to do from your side is to build an implementation in your localization application and that would basically implement"
+    },
+    {
+      "t": 1050.9,
+      "end": 1071.1,
+      "text": "the create and and the exporting and importing of documents for each format you're supporting it will also you'll also need to implement an interface to integrate with that endpoint to send and receive documents you can go to extra mile to build a setup wizard to automate the the first step your customer have to do where basically"
+    },
+    {
+      "t": 1071.1,
+      "end": 1083.5,
+      "text": "you collect all the information to which format they using which endpoint uh they are integrating to collecting all the I don't know username certificates and stuff like that"
+    },
+    {
+      "t": 1083.5,
+      "end": 1095.5,
+      "text": "now we actually built a demo localization app to basically demo how the E doent core would look like from a customer point of view and we will show you that"
+    },
+    {
+      "t": 1095.5,
+      "end": 1111.6,
+      "text": "demo and now we will show you a demo of our uh test localization apps that we built on top of eent core uh so let's start with setup the first part that you're going to do to set this up is to go to E doent"
+    },
+    {
+      "t": 1111.6,
+      "end": 1122.8,
+      "text": "service and we're going to create a new one so let's call it Kronos service and will give it a"
+    },
+    {
+      "t": 1122.8,
+      "end": 1136,
+      "text": "description this to send and receive document from test"
+    },
+    {
+      "t": 1136,
+      "end": 1156.3,
+      "text": "service and yeah we'll choose document format so we created a p test format and also we created a Chronos integration a test integration uh you will see there are a lot of uh fields and properties that you can play with uh for example we are supporting patch processing natively uh"
+    },
+    {
+      "t": 1156.3,
+      "end": 1173.3,
+      "text": "so you can check that later we also have import parameters when you're importing a documents and then we have mapping uh when you exporting and importing so just for for for for the sake of demo we will show you we will try to basically"
+    },
+    {
+      "t": 1173.3,
+      "end": 1194,
+      "text": "create everything that we export and transform it to be uppercase uh utilizing the transformation rule uh the last thing is that I will also create the setup uh for service integration here I can add the endpoint and uh sending endpoint and receiving"
+    },
+    {
+      "t": 1194,
+      "end": 1206.9,
+      "text": "endpoint so now I will get my sending endpoint link so we created just like a test service that we can uh use for for this"
+    },
+    {
+      "t": 1206.9,
+      "end": 1218.8,
+      "text": "uh for this demo and yeah now it's set up up and ready so the next part is that I will need to go to"
+    },
+    {
+      "t": 1218.8,
+      "end": 1234.4,
+      "text": "workflow I will create like a new workflow then I'll show you how you can do it manually we also have templates but for the sake of this demo we'll do it manually so simple let's call it simple"
+    },
+    {
+      "t": 1234.8,
+      "end": 1255.3,
+      "text": "flow send e document and make sure to choose the category as e document and the event that we created is that when e document is created and I will choose a response as"
+    },
+    {
+      "t": 1255.3,
+      "end": 1276,
+      "text": "when an e document created we want to send this e doent using setup and then right here I'll choose the setup which is Cronus service that we just created you can actually send to multiple service by clicking add more responses uh but for the sake of the simple demo let's just into one service and finally I'll enable this"
+    },
+    {
+      "t": 1276,
+      "end": 1296.1,
+      "text": "one now we have one last step in in this setup which is basically to go to document sending profile and I created a default one earlier on so the only thing I will choose is that a as electronic document we will use yeah choose extended eent service"
+    },
+    {
+      "t": 1296.1,
+      "end": 1312.3,
+      "text": "flow and then I will choose the simple flow that we just created great now we are ready to send an example e invoice and my colleague Manus will show you how you can do"
+    },
+    {
+      "t": 1312.3,
+      "end": 1325,
+      "text": "that all right thanks while let's see how the electronic document solution Works in this the sales process to illustrate this I will create and post a sales invoice for a"
+    },
+    {
+      "t": 1325,
+      "end": 1337,
+      "text": "customer that has electronic documents enabled in their document sending profile so let's just sell one bicycle post this"
+    },
+    {
+      "t": 1337,
+      "end": 1357.2,
+      "text": "invoice and once posted we can actually go directly to the E doent from the posted sales invoice page through the related e doent action this will open up the E doent where we will be able to see details about the sales invoice we just posted such as posting date"
+    },
+    {
+      "t": 1357.2,
+      "end": 1377.3,
+      "text": "The Entity involved and other important information as well as a link to the sales inv itself the next thing you would probably want to look at is the status of this electronic document and where it is in the processing pipeline as we can see here the electronic document status is set"
+    },
+    {
+      "t": 1377.3,
+      "end": 1397.9,
+      "text": "to process this gives you a real-time View at where the document is in the in the pipeline and if you want a more in-depth view on a service level you can go to the E doent service status which will give you the status of the document for each service"
+    },
+    {
+      "t": 1397.9,
+      "end": 1417.9,
+      "text": "here we can see that we use the Chronos service to send to and we can see that the status is set to send we can even go further in detail in the locks which will provide a chronological overview of the events that this document has been through so the first thing we will see"
+    },
+    {
+      "t": 1417.9,
+      "end": 1438,
+      "text": "is that the document was exported the next thing that happened was that it was sent looking at the exported entry we have the option to actually open the mapping where we can see that we uppercased all the fields that was used in this export it's also possible to export the file"
+    },
+    {
+      "t": 1438,
+      "end": 1442.4,
+      "text": "and review it"
+    },
+    {
+      "t": 1444.1,
+      "end": 1462.3,
+      "text": "manually yes so if you're interested in the communication that happens between you and the service that you're sending to you can even go to communication logs where we will provide information about the request and response message that was with that"
+    },
+    {
+      "t": 1462.3,
+      "end": 1474.7,
+      "text": "service and of course this document was processed successfully but we all know that sometimes Services might go down from time to time due to availability or other problems that might"
+    },
+    {
+      "t": 1474.7,
+      "end": 1487.6,
+      "text": "arise this of course we also handle so let's see an example where the service will throw an error and how we deal with that so we'll just create a new sales invoice for the same"
+    },
+    {
+      "t": 1487.6,
+      "end": 1501.3,
+      "text": "customer sell another bike let's posted and go to the posted sales invoice where now we should see that the E"
+    },
+    {
+      "t": 1501.3,
+      "end": 1519.1,
+      "text": "doent has a sending error we can even see that the document status is error as well as we provide the error message for the user such that they can read and understand what what might be the problem of course they can also go to the communication"
+    },
+    {
+      "t": 1519.1,
+      "end": 1529.3,
+      "text": "logs to try and figure out if there is some problem with the the response or the request"
+    },
+    {
+      "t": 1529.3,
+      "end": 1549.5,
+      "text": "in order to come around this we give you the option to use manual actions as you can see here we can actually send the document we can recreate the document we can cancel or get approval these are different types of manual actions that might help you get out of a situation like this one all right so"
+    },
+    {
+      "t": 1549.5,
+      "end": 1569.8,
+      "text": "let's uh send to this service that was no longer working that now should be back online so we just pick the Chona service again and now you can actually see that the electronic document status was updated to be processed as well as the status on the specific service was changed to send meaning"
+    },
+    {
+      "t": 1569.8,
+      "end": 1586.4,
+      "text": "we actually succeeded in in sending and the manual actions did what it's supposed to do yes and now that we showed you how sending documents work my colleague will guide you through how importing documents work with our"
+    },
+    {
+      "t": 1586.4,
+      "end": 1605.6,
+      "text": "solution yeah thank you Magnus and hello to everyone uh now we are switching to the receiving side and uh before we get to the process let me just briefly show you the setup we have uh a document"
+    },
+    {
+      "t": 1605.6,
+      "end": 1616.6,
+      "text": "service uh with receiving endpoint which is basically a service that is sending P"
+    },
+    {
+      "t": 1616.6,
+      "end": 1620.5,
+      "text": "invoices"
+    },
+    {
+      "t": 1620.5,
+      "end": 1639.6,
+      "text": "receiving e documents uh is done uh by a bad job but uh for the purpose of this demonstration we are not running uh the job queue uh automatically we're going to run it manually so let me just run"
+    },
+    {
+      "t": 1646.5,
+      "end": 1650.5,
+      "text": "the"
+    },
+    {
+      "t": 1654.7,
+      "end": 1675.1,
+      "text": "we got a success and we got our electronic documents in the system as you can see this is a s change scenario we already um we didn't get any error so we already created a purchase invoice out of the document and we can see that"
+    },
+    {
+      "t": 1675.1,
+      "end": 1685.8,
+      "text": "uh the item number 10,000 in Chronos that was sent to our site is mapped to"
+    },
+    {
+      "t": 1685.8,
+      "end": 1702,
+      "text": "uh item number 101 and this is because we have a item reference for this item uh going to post the"
+    },
+    {
+      "t": 1705.3,
+      "end": 1715.8,
+      "text": "document and our e doent is also updated so we now pointing to the posted purchase"
+    },
+    {
+      "t": 1715.8,
+      "end": 1726.5,
+      "text": "invoice uh what will happen if we get an error during import let's just simulate the error using the same document"
+    },
+    {
+      "t": 1726.5,
+      "end": 1732.6,
+      "text": "but uh removing item"
+    },
+    {
+      "t": 1733.8,
+      "end": 1741,
+      "text": "reference I go to item and I remove this reference"
+    },
+    {
+      "t": 1745.3,
+      "end": 1752.3,
+      "text": "then I'm going to run JQ once again"
+    },
+    {
+      "t": 1753.4,
+      "end": 1773.7,
+      "text": "manually and we got a message that there is an error by the way this uh this is only if gu is allowed now we see the error that uh we cannot find any item based on what we received how we can bypass this error we can"
+    },
+    {
+      "t": 1773.7,
+      "end": 1793.4,
+      "text": "go to map text to account for example and then we can specify that item with this text should go to this account instead of uh being uh mapped to another"
+    },
+    {
+      "t": 1793.4,
+      "end": 1806.6,
+      "text": "item then we can reprocess it manually so the invoice is created and now we have g account"
+    },
+    {
+      "t": 1806.6,
+      "end": 1822.7,
+      "text": "line there is also a possibility to uh create Journal lines instead of document and in order to do so I'm going to remove uh this"
+    },
+    {
+      "t": 1822.9,
+      "end": 1830.2,
+      "text": "mappin and run job Q once again"
+    },
+    {
+      "t": 1837.2,
+      "end": 1850.3,
+      "text": "I get the error uh but what can I do from here I can map everything that is coming from this"
+    },
+    {
+      "t": 1850.3,
+      "end": 1862.9,
+      "text": "customer to be used on this account uh and then I can create"
+    },
+    {
+      "t": 1862.9,
+      "end": 1878.6,
+      "text": "Journal so no error here we get a warning that this document already exist we can jump to the journal let's actually already some lenses in"
+    },
+    {
+      "t": 1879,
+      "end": 1890.9,
+      "text": "here and we can post this journal I might get an error because of which is document already"
+    },
+    {
+      "t": 1890.9,
+      "end": 1912.1,
+      "text": "exist and now we can post this journal I only need to update the document number because it already exist in our system Journal was successfully posted and if I go back I can see that eent now points to GL"
+    },
+    {
+      "t": 1912.1,
+      "end": 1925.5,
+      "text": "entry so that was the overview of the import part and uh now my colleague Alexander will continue with details about features and road"
+    },
+    {
+      "t": 1925.5,
+      "end": 1945.8,
+      "text": "map okay thank you Vladimir and I will just finish this session uh but before uh finishing I want to explain few more important things about available features what is covered with this release and what you can expect in the future okay first to be clear what we have covered in this release we have"
+    },
+    {
+      "t": 1945.8,
+      "end": 1956.4,
+      "text": "uh from sales perspective about sales invoices we can create electronic invoice from sales invoice and from sales order from purchase side you can import"
+    },
+    {
+      "t": 1956.4,
+      "end": 1976.6,
+      "text": "um uh your electronic documents to purchase inv voice and purchase order but only if you want to create new purchase order not to update existing one and even if this is not on a list as you can see from voler demos you can uh you can import to journal as well then about credit memos uh both credit memos"
+    },
+    {
+      "t": 1976.6,
+      "end": 1996.6,
+      "text": "from sales and purchase side they are covered with this leas and important not about documents this is configurable you can configure really on a really good level and you can extend if you need for your local markets uh all messages depends on local features because they cannot be introduced uh in"
+    },
+    {
+      "t": 1996.6,
+      "end": 2017.3,
+      "text": "a global feature only basic things are here everything else will be on a local level about road map uh this is continuing improvements uh we don't want to finish in one releasee electronic document because this is complex story and we will continue in next minimum two releases to deliver uh new features there"
+    },
+    {
+      "t": 2017.3,
+      "end": 2037.4,
+      "text": "what is first I mentioned in the beginning not in beginning one moment that we are preparing this third party access points app it will be already until the end of this year as a new app on top of um e doent core and then uh we will continue with the first the let's say the biggest uh feature"
+    },
+    {
+      "t": 2037.4,
+      "end": 2057.6,
+      "text": "Improvement updating existing purchase order that means in a case you already have created purchase order and now you will get purchase invoice for just part of this purchase order and to map it this is something what we are planning to deliver as a first uh feature Improvement then about localizations now we cannot say exactly which localization"
+    },
+    {
+      "t": 2057.6,
+      "end": 2077.8,
+      "text": "will come first as you could see Denmark must work from January and um in Belgium we need to have received documents in in in January so probably uh we can say that Denmark and Belgium will come first but all other countries depends on a enforcement dates on a local markets that means when we when we see"
+    },
+    {
+      "t": 2077.8,
+      "end": 2097.8,
+      "text": "that this is mandatory in one country we will deliver all localizations on a time now I'm talking about Microsoft based localizations and if you are asking or if you ask yourself about access points if Microsoft will provide access point or not how it works and you could see that we are are providing third"
+    },
+    {
+      "t": 2097.8,
+      "end": 2117.7,
+      "text": "party access points communication as well there is no uh Universal and unique answer it depends again from country to Country this is not in a global app this is something what will come in a localizations and if uh authorities in one countries provide us uncer"
+    },
+    {
+      "t": 2117.7,
+      "end": 2138.4,
+      "text": "uncertified uh access point to communicate with their their service we will deliver this but if uh authorities require certified service for example in um Denmark it is required to access point be certified service and this is not something but Microsoft can provide so we will communicate through"
+    },
+    {
+      "t": 2138.4,
+      "end": 2152.1,
+      "text": "third access points providers you can choose which um access point provider you want to use this is on our customers our partners but we will provide everything to communicate and to be integrated with"
+    },
+    {
+      "t": 2152.1,
+      "end": 2172.5,
+      "text": "them okay that's everything for today uh I want to thank uh to say thank you in my name and the name of my colleagues and before I close this session I just want to invite you to to join all sessions in BC lunch event but especially these two because they are connected or interconnected with this topic"
+    },
+    {
+      "t": 2172.5,
+      "end": 2189,
+      "text": "first is what is new related with the new Danish bookkeeping act because we will talk about electronic invoicing in Denmark so it will be directly connected with this session and what is new legislation localization because it will be about all features created this area"
+    },
+    {
+      "t": 2189,
+      "end": 2209.4,
+      "text": "and if you need more information about business cental about our services and so you can find all important links on this page if you cannot remember all of them try to not to forget this one in a middle AKA MSB this is a place where you can find all these links on one common"
+    },
+    {
+      "t": 2209.4,
+      "end": 2219,
+      "text": "place once more thank you and I hope this feature will be good for you"
+    }
+  ],
+  "markers": [
+    {
+      "t": 2.09,
+      "text": "[Music]"
+    },
+    {
+      "t": 16.07,
+      "text": "[Music]"
+    },
+    {
+      "t": 16.08,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 5405
+}

@@ -1,0 +1,77 @@
+{
+  "item_id": "blog/olofsimren-com/3779",
+  "url": "https://www.olofsimren.com/approval-workflows-in-planning-worksheet/",
+  "title": "Approval Workflows in Planning Worksheet",
+  "source": "olofsimren-com",
+  "published_at": "2026-07-13T15:42:01.000Z",
+  "words": 1933,
+  "summary": "Business Central version 28 adds approval workflow support to planning, requisition, and subcontracting worksheets at the batch level, allowing managers to review and approve suggested actions before they become real purchase orders or production orders. This feature prevents costly mistakes when planners carry out planning suggestions and addresses compliance requirements for segregation of duties.",
+  "key_points": [
+    "Approval workflows now lock planning worksheet batches and prevent line modifications until approval completes or is rejected",
+    "Approvers review the entire batch as a unit and either approve, reject with comments, or delegate the request",
+    "Batch-level approval provides better control than line-level approvals and creates an audit trail of who proposed and authorized planning decisions",
+    "Setup uses the same workflow framework as purchase orders and general journals, configurable through the Workflows page"
+  ],
+  "systems": [
+    "manufacturing",
+    "purchasing",
+    "inventory"
+  ],
+  "topics": [
+    "approval workflows",
+    "planning worksheets",
+    "requisition worksheets",
+    "mrp",
+    "segregation of duties",
+    "compliance",
+    "batch approval"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Planning Worksheet"
+    },
+    {
+      "type": "page",
+      "name": "Requisition Worksheet"
+    },
+    {
+      "type": "page",
+      "name": "Subcontracting Worksheet"
+    },
+    {
+      "type": "page",
+      "name": "Approval Entries"
+    }
+  ],
+  "features": [
+    "Approval workflows for planning worksheets",
+    "Batch-level approval locking",
+    "Workflow status display on worksheet pages",
+    "Approval actions (approve, reject, delegate)",
+    "Power Automate integration for approval routing",
+    "Workflow templates for requisition worksheets"
+  ],
+  "versions": [
+    "28"
+  ],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.017722,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "Approval workflows have been extended to the requisition and planning worksheets.",
+      "why_it_matters": "This is the core capability addition that closes the gap for internal controls on planning decisions that were previously impossible to enforce."
+    },
+    {
+      "text": "You can't insert, modify, or delete requisition or planning lines while an approval request is active.",
+      "why_it_matters": "This mechanism ensures the approver reviews exactly what was submitted and prevents scope creep during the approval process."
+    }
+  ]
+}

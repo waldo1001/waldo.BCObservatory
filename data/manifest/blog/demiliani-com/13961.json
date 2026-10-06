@@ -7,13 +7,39 @@
   "url": "https://demiliani.com/2026/07/13/dynamics-365-business-central-the-mistery-around-the-parallel-session-management-codeunit/",
   "published_at": "2026-07-13T08:31:04.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:52:59.247Z",
+      "path": "vault:posts/demiliani-com/13961.md",
+      "words": 853
+    },
+    "extracted": {
+      "at": "2026-10-06T21:53:09.757Z",
+      "prompt": "extract-post@1",
+      "quotes": 0,
+      "trimmed": 0,
+      "cost_usd": 0.007372
+    },
+    "summarized": {
+      "at": "2026-10-06T21:53:09.758Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:53:09.759Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:53:09.762Z",
+      "path": "content/posts/demiliani-com/13961.md"
     }
   },
   "input_hash": "2026-07-13T10:22:46.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c69d32375bd6dd96254e0228a9302cf2a2a1de44db76e9c5972a027fd84ab347"
 }

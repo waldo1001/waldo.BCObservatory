@@ -1,0 +1,180 @@
+{
+  "video_id": "THBCd9Y9DfE",
+  "item_id": "video/yt-microsoft/THBCd9Y9DfE",
+  "title": "Reskill: Partner testimonials",
+  "duration_s": 108,
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "talent program",
+    "training",
+    "mentorship",
+    "erp learning",
+    "business central",
+    "guided learning",
+    "community",
+    "practical work"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to the Talent Program",
+      "t_start": 0,
+      "t_end": 20.2
+    },
+    {
+      "title": "Partnership and Industry Opportunities",
+      "t_start": 20.2,
+      "t_end": 40.6
+    },
+    {
+      "title": "Program Structure and Mentorship",
+      "t_start": 40.6,
+      "t_end": 60.7
+    },
+    {
+      "title": "Learning Journey and Guided Approach",
+      "t_start": 60.7,
+      "t_end": 81.3
+    },
+    {
+      "title": "Participant Appreciation",
+      "t_start": 81.3,
+      "t_end": 108
+    }
+  ],
+  "features": [
+    {
+      "name": "Talent Program",
+      "description": "A Microsoft initiative designed to help partners find and develop new talent in Dynamics 365 Business Central. The program includes structured mentorship, practical work combined with theoretical learning, and community support.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 0.1,
+      "t_end": 107.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "talent development",
+        "partner program",
+        "training",
+        "mentorship",
+        "community"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Personalized Mentorship",
+      "description": "The talent program features personalized guidance from mentors with vast knowledge who are accessible for queries and help participants navigate the ERP system.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 40.6,
+      "t_end": 60.7,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "mentorship",
+        "accessibility",
+        "personalized learning"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Guided Learning Journey",
+      "description": "The program provides a structured learning path that helps participants understand topic sequencing, moving from foundational to advanced topics with expert guidance for deep dives.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 60.7,
+      "t_end": 81.3,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "learning path",
+        "structured guidance",
+        "topic sequencing"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Practical and Theoretical Learning Integration",
+      "description": "The talent program combines practical work experience with theoretical aspects of the ERP system and Business Central Dynamics.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 60.7,
+      "t_end": 81.3,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "learning methodology",
+        "hands-on",
+        "theory"
+      ],
+      "system": "platform"
+    }
+  ],
+  "objects": [],
+  "presenters": [
+    {
+      "name": "Partner 1",
+      "confidence": "low"
+    },
+    {
+      "name": "Po",
+      "confidence": "low"
+    },
+    {
+      "name": "Participant from 4ps",
+      "confidence": "low"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 0.1,
+      "text": "when I heard about the talent program for the first time the first emotion was just pure excitement",
+      "why_it_matters": "Shows immediate positive reception from partners about the new talent program initiative.",
+      "check": "exact"
+    },
+    {
+      "t": 20.2,
+      "text": "this is finally what we've been looking for a way where Microsoft as the publisher was partnering with us to try to find that",
+      "why_it_matters": "Demonstrates partners' long-standing need for Microsoft collaboration on talent acquisition.",
+      "check": "exact"
+    },
+    {
+      "t": 60.7,
+      "text": "combines both element of practical work and the theoretical aspects of the erp system business central dynamics",
+      "why_it_matters": "Clarifies the dual learning approach mixing hands-on experience with formal ERP knowledge.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 81.3,
+      "text": "you have a journey you understand which topic you should check first and which ones later and then when you start deep diving into",
+      "why_it_matters": "Explains the structured progression model with topic sequencing and expert support at deeper levels.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 4,
+    "quotes_dropped": 1,
+    "evidence_verified": 0,
+    "evidence_unverified": 4
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.01124
+    }
+  ]
+}

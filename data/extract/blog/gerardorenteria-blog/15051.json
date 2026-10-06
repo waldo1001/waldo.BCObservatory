@@ -1,0 +1,95 @@
+{
+  "item_id": "blog/gerardorenteria-blog/15051",
+  "url": "https://gerardorenteria.blog/2026/07/17/%f0%9f%94%8e-change-log-blame-view-view-change-history-in-a-different-way/",
+  "title": "🔎 Change Log Blame View: View change history in a different way",
+  "source": "gerardorenteria-blog",
+  "published_at": "2026-07-17T20:12:38.000Z",
+  "words": 1237,
+  "summary": "The Change Log Blame View extension reorganizes standard change log data into a matrix-style view where rows represent fields and columns represent events, making it easier to track when specific record values changed, by whom, and why.",
+  "key_points": [
+    "Matrix layout displays change history with fields as rows and events as columns for easier timeline visualization",
+    "Filters and groups change log entries by table and primary key, excluding audit fields to reduce clutter",
+    "Reusable pattern via page extensions allows adding a 'Change Log (Blame View)' action to any record page",
+    "Helps quickly identify which field changed, when it changed, and which user made the change"
+  ],
+  "systems": [
+    "administration",
+    "development"
+  ],
+  "topics": [
+    "change log",
+    "audit trail",
+    "data history",
+    "extension",
+    "page extension",
+    "matrix view",
+    "record tracking"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "CL Blame"
+    },
+    {
+      "type": "page",
+      "name": "CLBlameMatrix"
+    },
+    {
+      "type": "codeunit",
+      "name": "CLBlameMgmt"
+    },
+    {
+      "type": "table",
+      "name": "CLBlameRowBuffer"
+    },
+    {
+      "type": "table",
+      "name": "CLBlameCellBuffer"
+    },
+    {
+      "type": "page",
+      "name": "CL Blame Customer Card Ext"
+    },
+    {
+      "type": "page",
+      "name": "CL Blame Vendor Card Ext"
+    },
+    {
+      "type": "page",
+      "name": "CL Blame Item Card Ext"
+    },
+    {
+      "type": "permissionset",
+      "name": "CLBlamePermSet"
+    }
+  ],
+  "features": [
+    "Change Log matrix view",
+    "Field change tracking",
+    "Event navigation",
+    "Page extension pattern",
+    "Visual timeline display",
+    "User change attribution",
+    "Audit field filtering"
+  ],
+  "versions": [],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.007887,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "This way, instead of reviewing isolated entries, you can read the history almost like a visual timeline.",
+      "why_it_matters": "Explains the core benefit of the matrix layout for understanding record evolution visually"
+    },
+    {
+      "text": "This is not a closed solution. The idea can be reused on any page where you can identify the current record.",
+      "why_it_matters": "Shows the extension's reusability across different pages and record types through a standardized pattern"
+    }
+  ]
+}

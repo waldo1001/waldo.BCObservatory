@@ -1,0 +1,57 @@
+{
+  "item_id": "blog/demiliani-com/13961",
+  "url": "https://demiliani.com/2026/07/13/dynamics-365-business-central-the-mistery-around-the-parallel-session-management-codeunit/",
+  "title": "Dynamics 365 Business Central: the mistery around the “Parallel Session Management” codeunit.",
+  "source": "demiliani-com",
+  "published_at": "2026-07-13T08:31:04.000Z",
+  "words": 853,
+  "summary": "Codeunit 490 (Parallel Session Management) is an on-premises job scheduler that fans work across multiple sessions using polling and shared memory, but its design assumptions about blocking sessions, OS-level memory sharing, and single-node architecture make it unsuitable for multi-tenant SaaS environments where Job Queue entries and async patterns are the recommended alternative.",
+  "key_points": [
+    "Codeunit 490 is a manual, in-memory orchestrator using scope OnPrem procedures without async/await or platform-managed queues, with entry points like NewSessionRunCodeunit that queue jobs in temporary records and start new sessions via the platform's StartSession, throttled at 10 sessions by default",
+    "The codeunit relies on three design assumptions that work on-premises but fail in SaaS: blocking wait patterns occupy shared sessions against governance policies, OS-level memory-mapped files violate multi-tenant data isolation boundaries, and single-node scoping with ServiceInstanceId() polling breaks across distributed load-balanced nodes",
+    "WaitForAllToFinish can block a session for up to 3600 seconds polling ActiveSession every 2 seconds, which wastes shared metered resources in cloud environments and conflicts with session timeout policies",
+    "NewSessionRunCodeunitWithBlob uses shared memory segments to pass TempBlob data between sessions since they cannot share memory directly, a technique incompatible with multi-tenant isolation where customers must never access each other's data"
+  ],
+  "systems": [
+    "platform",
+    "development"
+  ],
+  "topics": [
+    "on-premises",
+    "saas",
+    "session management",
+    "job scheduling",
+    "background processing",
+    "codeunit design",
+    "multi-tenant isolation"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Parallel Session Management"
+    },
+    {
+      "type": "codeunit",
+      "name": "Memory Mapped File"
+    }
+  ],
+  "features": [
+    "parallel session management",
+    "job scheduling",
+    "background task execution",
+    "session polling",
+    "memory-mapped file data transfer",
+    "multi-session orchestration"
+  ],
+  "versions": [],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.007372,
+    "posts_in_call": 1
+  },
+  "quotes": []
+}

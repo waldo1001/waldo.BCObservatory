@@ -7,13 +7,39 @@
   "url": "https://thatnavguy.com/blog/2026/bc-friday-tips-75-dynamics-bc-excel-reports/",
   "published_at": "2026-07-17T00:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:52:48.268Z",
+      "path": "vault:posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-75-dynamics-bc-excel-reports--cd3c716212.md",
+      "words": 86
+    },
+    "extracted": {
+      "at": "2026-10-06T21:52:53.959Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": 0.003811
+    },
+    "summarized": {
+      "at": "2026-10-06T21:52:53.960Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:52:53.961Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:52:53.964Z",
+      "path": "content/posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-75-dynamics-bc-excel-reports--cd3c716212.md"
     }
   },
   "input_hash": null,
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "57aa30927997dcffb3dfab89364d9916e7ce0192ced5fd88547bd5a24e7bb5aa"
 }

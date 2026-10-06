@@ -1,0 +1,55 @@
+{
+  "item_id": "blog/aardvarklabs-blog/3761",
+  "url": "https://aardvarklabs.blog/2026/07/17/optimizing-business-central-indexes-for-performance-with-copilot/",
+  "title": "Optimizing Business Central Indexes for Performance with Copilot",
+  "source": "aardvarklabs-blog",
+  "published_at": "2026-07-17T12:00:00.000Z",
+  "words": 509,
+  "summary": "Index optimization in Business Central improves database performance but requires careful management. This post shows how to use Copilot to analyze SQL Server's missing index data and generate AL code recommendations, then provides a tested methodology for implementation with performance benchmarking at each step.",
+  "key_points": [
+    "Export the Database Missing Indexes table and use Copilot to generate AL code recommendations prioritized by estimated benefit",
+    "Benchmark system performance before and after applying indexes, measuring both read and write operations",
+    "Implement indexes incrementally (5 or fewer at a time) and wait several hours between applications to evaluate impact",
+    "Balance query performance gains against write performance costs, especially for high-volume tables like GL Entry"
+  ],
+  "systems": [
+    "platform",
+    "reporting",
+    "copilot"
+  ],
+  "topics": [
+    "index management",
+    "database performance",
+    "copilot",
+    "al development",
+    "benchmarking",
+    "sql server"
+  ],
+  "objects": [],
+  "features": [
+    "Database Missing Indexes table export",
+    "Copilot prompt for AL index generation",
+    "Performance Profiler",
+    "Table extension syntax for indexes"
+  ],
+  "versions": [],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005387,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "Remember Indexing improves data retrieval at the cost of data writes. This is of primary concern with indexing the GL Entry table.",
+      "why_it_matters": "Highlights the critical trade-off to consider when optimizing indexes, especially for financial tables"
+    },
+    {
+      "text": "We aren't going to blindly implement AI Generated Code just because some blogger told you to, right?",
+      "why_it_matters": "Emphasizes the importance of testing and validation before applying any generated code to production"
+    }
+  ]
+}

@@ -7,13 +7,39 @@
   "url": "https://katson.com/how-to-connect-business-central-mcp-to-claude-desktop/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=how-to-connect-business-central-mcp-to-claude-desktop",
   "published_at": "2026-07-17T13:02:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:52:31.631Z",
+      "path": "vault:posts/katson-com/5026.md",
+      "words": 955
+    },
+    "extracted": {
+      "at": "2026-10-06T21:52:40.270Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": 0.006615
+    },
+    "summarized": {
+      "at": "2026-10-06T21:52:40.270Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:52:40.271Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:52:40.274Z",
+      "path": "content/posts/katson-com/5026.md"
     }
   },
   "input_hash": null,
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e1eade8eca3b083dfa3ef33b69dc21d12c3711bff52b070bc291d0f92f358123"
 }

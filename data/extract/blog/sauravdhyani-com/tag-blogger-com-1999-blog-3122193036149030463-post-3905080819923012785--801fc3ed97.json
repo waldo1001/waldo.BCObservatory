@@ -1,0 +1,81 @@
+{
+  "item_id": "blog/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-3905080819923012785",
+  "url": "https://www.sauravdhyani.com/2026/07/how-to-email-posted-sales-shipments-and.html",
+  "title": "How to Email Posted Sales Shipments and Return Receipts in Business Central 2026 Wave 1.",
+  "source": "sauravdhyani-com",
+  "published_at": "2026-07-17T05:30:00.000Z",
+  "words": 601,
+  "summary": "Business Central 2026 Wave 1 adds email delivery, PDF generation, and attachment management for Posted Sales Shipments and Posted Return Receipts, enabling organizations to send shipment confirmations and return documentation directly from the system instead of relying on manual exports and external email.",
+  "key_points": [
+    "Users can send Posted Sales Shipments and Posted Return Receipts by email directly from Business Central with consistent delivery options.",
+    "PDF generation is automatic, with documents stored as attachments on the posted records for easy retrieval and archiving.",
+    "Attachment sections are now available on four pages: Posted Sales Shipment (130), Posted Sales Shipments (142), Posted Return Receipt (6660), and Posted Return Receipts (6662).",
+    "The feature eliminates manual workflows involving printing, saving PDFs externally, and managing document archives separately.",
+    "Organizations can now send shipment documentation to warehouse contacts, logistics teams, third-party partners, and different customer contacts than invoice recipients."
+  ],
+  "systems": [
+    "sales",
+    "warehouse",
+    "integration"
+  ],
+  "topics": [
+    "email delivery",
+    "posted shipments",
+    "return receipts",
+    "pdf generation",
+    "document attachments",
+    "customer communication"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Posted Sales Shipment"
+    },
+    {
+      "type": "page",
+      "name": "Posted Sales Shipments"
+    },
+    {
+      "type": "page",
+      "name": "Posted Return Receipt"
+    },
+    {
+      "type": "page",
+      "name": "Posted Return Receipts"
+    }
+  ],
+  "features": [
+    "Email delivery for Posted Sales Shipments",
+    "Email delivery for Posted Return Receipts",
+    "Automatic PDF generation",
+    "Attachment management",
+    "Send by Email action",
+    "Attach as PDF option"
+  ],
+  "versions": [
+    "2026 Wave 1"
+  ],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006615,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "Business Central 2026 Wave 1 closes this gap by introducing direct email capabilities for Posted Sales Shipments and Posted Return Receipts.",
+      "why_it_matters": "Explains the core capability that addresses the gap organizations faced before this release."
+    },
+    {
+      "text": "The Send action provides standard document delivery options already familiar from other posted sales documents.",
+      "why_it_matters": "Shows that the feature maintains consistency with existing Business Central patterns for usability."
+    },
+    {
+      "text": "Organizations that currently depend on manual shipment communication can reduce effort, improve customer responsiveness, and maintain better document records.",
+      "why_it_matters": "Summarizes the key business benefits and ROI of adopting this new feature."
+    }
+  ]
+}
