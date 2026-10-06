@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-localization",
   "published_at": "2026-02-20T12:07:44.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "21b59006c3814a89b4d96d7a1ac557791937d6dd",
       "words": 1328,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:49:07.659Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.004105
+    },
+    "summarized": {
+      "at": "2026-10-06T18:49:09.451Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:49:09.452Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:49:09.453Z",
+      "page": false
     }
   },
   "input_hash": "21b59006c3814a89b4d96d7a1ac557791937d6dd",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "21b59006c3814a89b4d96d7a1ac557791937d6dd"
+  "output_hash": "18c860842c6c888e5dfac88568f934283b01adef791d77bbee8cb48e43458930"
 }

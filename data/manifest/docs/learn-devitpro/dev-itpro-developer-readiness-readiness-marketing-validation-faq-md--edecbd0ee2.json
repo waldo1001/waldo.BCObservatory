@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/readiness/readiness-marketing-validation-faq",
   "published_at": "2026-02-20T12:07:44.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "4f698c76694aae6dcef40ca7e9dd6a849cb298af",
       "words": 416,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:49:07.363Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005918
+    },
+    "summarized": {
+      "at": "2026-10-06T18:49:07.372Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:49:07.372Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:49:07.373Z",
+      "page": false
     }
   },
   "input_hash": "4f698c76694aae6dcef40ca7e9dd6a849cb298af",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "4f698c76694aae6dcef40ca7e9dd6a849cb298af"
+  "output_hash": "6944664fbd7478036e983a372fca87cf66501531d26c7bd73ccd6f92a3cf3cf9"
 }

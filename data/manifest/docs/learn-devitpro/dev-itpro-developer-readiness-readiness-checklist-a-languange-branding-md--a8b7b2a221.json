@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/readiness/readiness-checklist-a-languange-branding",
   "published_at": "2026-02-20T12:07:44.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "2cb86f9b3c1bfa827000d2d316782c962449404b",
       "words": 357,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:49:07.645Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.004105
+    },
+    "summarized": {
+      "at": "2026-10-06T18:49:09.440Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:49:09.441Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:49:09.442Z",
+      "page": false
     }
   },
   "input_hash": "2cb86f9b3c1bfa827000d2d316782c962449404b",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "2cb86f9b3c1bfa827000d2d316782c962449404b"
+  "output_hash": "0df0df3db42dc4cff25f2ba613da712cfa95b8b44b85f484de9867da8c0545d7"
 }

@@ -1,0 +1,50 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/help/context-sensitive-help.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/help/context-sensitive-help",
+  "title": "Configure context-sensitive help",
+  "blob": "34d81fb378c0363208f47d0709e31f8ddbebfd20",
+  "summary": "Context-sensitive help configuration explains how to set up help links in Business Central apps using app-level and page-level properties, including contextSensitiveHelpUrl, ContextSensitiveHelpPage, and integration with the Help pane.",
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "help",
+    "context-sensitive",
+    "documentation",
+    "app.json",
+    "localization",
+    "page documentation"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Page Documentation"
+    }
+  ],
+  "features": [
+    "contextSensitiveHelpUrl property",
+    "ContextSensitiveHelpPage property",
+    "supportedLocales property",
+    "helpBaseUrl property",
+    "help pane integration",
+    "localization help",
+    "page-level UI-to-help mapping"
+  ],
+  "versions": [
+    "2022 release wave 1",
+    "version 20",
+    "2023 release wave 1",
+    "version 22"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005918,
+      "pages_in_call": 7
+    }
+  ]
+}

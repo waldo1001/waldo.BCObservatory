@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/readiness/readiness-checklist-f-supportedproducts-keywords",
   "published_at": "2026-02-20T12:07:44.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "992b2c31238f58015685007c5ccfd4e7f194933e",
       "words": 120,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:49:07.650Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.004105
+    },
+    "summarized": {
+      "at": "2026-10-06T18:49:09.445Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:49:09.446Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:49:09.447Z",
+      "page": false
     }
   },
   "input_hash": "992b2c31238f58015685007c5ccfd4e7f194933e",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "992b2c31238f58015685007c5ccfd4e7f194933e"
+  "output_hash": "6f8d7d6d435594321a527a96123e563b3a64a164b766cba88e1f4213ab395476"
 }

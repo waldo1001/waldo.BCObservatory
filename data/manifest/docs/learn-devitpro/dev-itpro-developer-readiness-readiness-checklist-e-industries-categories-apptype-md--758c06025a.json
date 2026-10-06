@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/readiness/readiness-checklist-e-industries-categories-apptype",
   "published_at": "2026-02-20T12:07:44.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "9fe519cd566494668a023b96deba4630c8ae3fbd",
       "words": 655,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:49:07.648Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.004105
+    },
+    "summarized": {
+      "at": "2026-10-06T18:49:09.443Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:49:09.443Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:49:09.444Z",
+      "page": false
     }
   },
   "input_hash": "9fe519cd566494668a023b96deba4630c8ae3fbd",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9fe519cd566494668a023b96deba4630c8ae3fbd"
+  "output_hash": "0428eddc78cbeccfc9c9a5fc0374b0d79e4859a1f997840856a1b7b96ce3b7cd"
 }

@@ -1,0 +1,156 @@
+{
+  "video_id": "GM0DNxu39LM",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 6.1,
+      "end": 16.7,
+      "text": "Welcome to business central launch event 2025 release day one. In this session we will show you new connectors related to e documents."
+    },
+    {
+      "t": 16.7,
+      "end": 28.8,
+      "text": "So we are doing we are adding new connectors and we want to have as more connectors as possible for you. So you can choose which one to use. We do not want to be dependent on one or two. So we want to have more options for you."
+    },
+    {
+      "t": 28.8,
+      "end": 41,
+      "text": "So we are planning to add more global available connectors. I put accent on globals because for local connectors the only opportunity is to have them on app source by local providers."
+    },
+    {
+      "t": 41,
+      "end": 52.6,
+      "text": "Okay let's look what we had before 2025 release one. So with previous uh release we had two connectors. We started with pag and after that we added avalara."
+    },
+    {
+      "t": 52.6,
+      "end": 65.4,
+      "text": "So we had we have and we had these two connectors. But now with uh 2025 release v1 we added two more connectors. So now we have logic and sign up or xflow."
+    },
+    {
+      "t": 65.4,
+      "end": 79.8,
+      "text": "Uh probably this is much more famous xflow. They're available from 26.0. So from April release they will be in public preview for 1 month and from 26.1 they will be in general availability."
+    },
+    {
+      "t": 79.8,
+      "end": 92.2,
+      "text": "This is what we have in this moment. But there is more to come. We are currently close to finish code review. So probably 26.2 we will have continue connector. After that we will continue with for now and few more connectors."
+    },
+    {
+      "t": 92.2,
+      "end": 102.6,
+      "text": "So we will have more connectors in a bus central in next few minors. Idea as I said is to have more connectors but we need to be very careful how we will proceed with that."
+    },
+    {
+      "t": 102.6,
+      "end": 122.8,
+      "text": "So now how you can find these connectors. These connectors are already on available on apps source. So you can go on apps source you can find e document monitor for signup and logic without any problem and as I mentioned uh next continue will be in 26.2 but probably we will publish on app source maybe even a little bit earlier because publish on app source is"
+    },
+    {
+      "t": 122.8,
+      "end": 134.8,
+      "text": "not dependent on our uh versions. So we are trying to do to make this as soon as possible for you and you can choose what what one you want to use. But what is now important"
+    },
+    {
+      "t": 134.8,
+      "end": 155,
+      "text": "uh you can choose you can set up all these connector directly from a busy central. Now we changed a little bit uh approach how you can choose how you can set up them directly but now I have my colleague Magnus and he will show exactly how you can set up what you need to do and how you can enable especially with the focus to two new connectors."
+    },
+    {
+      "t": 155,
+      "end": 169.3,
+      "text": "Thank you, Alexander. Let's uh let's see how we do that in the product. So, uh before this release, we uh used to pre-install our first party uh connectors, but uh with the feedback we've gotten from the community and our partners,"
+    },
+    {
+      "t": 169.3,
+      "end": 181.5,
+      "text": "we have changed this model in this release to now releasing them uh on AppSource and making it very easy in the product, which I will demonstrate now how you can go and install them uh from there."
+    },
+    {
+      "t": 181.5,
+      "end": 201.6,
+      "text": "So here is a business central tenant and all you have to do is just go to e document services open that list page and from here under related you can see the new action install e document integrations from appsource so we'll click that and this will open up the appsource marketplace"
+    },
+    {
+      "t": 201.6,
+      "end": 212.8,
+      "text": "inside business central and here we can see a list of Microsoft published applications that are related to e documents. So we have a set of connectors. We can see Avalara is here."
+    },
+    {
+      "t": 212.8,
+      "end": 223.1,
+      "text": "We can see Logic and Signup, the two new ones that we are super excited to have in the product. And then of course we also have local formats here that you can choose uh to install if needed."
+    },
+    {
+      "t": 223.1,
+      "end": 236,
+      "text": "So it's actually very simple, very straightforward. I will take Logic as an example. I already installed signup. So let's open up Logic. And here you can read a bit about the connector in the description."
+    },
+    {
+      "t": 236,
+      "end": 251.8,
+      "text": "And you can click install app. And then we just install it in English language, but that is fine. And that should only take a few seconds. Reload the environment and your app is installed and ready to"
+    },
+    {
+      "t": 251.8,
+      "end": 263.9,
+      "text": "use. So with that installed, all you now need to do is again open up e document services. From here, create a new one or go to an existing one."
+    },
+    {
+      "t": 263.9,
+      "end": 280.5,
+      "text": "I'll use the the demo service we have. And then in the service integration we can now see that logic is also available since we have installed it. So I can pick that one and then just like any other connector that we've had from from Avalar Pagarero,"
+    },
+    {
+      "t": 280.5,
+      "end": 291.7,
+      "text": "you always go to the setup service integration and this will open up the the card page where you will go and fill in the information and details needed to actually"
+    },
+    {
+      "t": 291.7,
+      "end": 302.6,
+      "text": "integration with the for instance the logic uh service in this case. And that's it. Uh very straightforward, very simple. A few clicks in the product and you are up and running."
+    },
+    {
+      "t": 302.6,
+      "end": 315.1,
+      "text": "So that's all. Thank you Magnus. And what is extremely important this is the last step what Magnus show all connectors never mind which one you will use they have absolutely the same user experience."
+    },
+    {
+      "t": 315.1,
+      "end": 328.1,
+      "text": "So even if you use in one country for example one company one connector and when you switch to another connector this is again the same. You just need to choose which one you want to use and to use the same action for setting up and that's it."
+    },
+    {
+      "t": 328.1,
+      "end": 343.8,
+      "text": "This is everything. This is what we wanted to achieve to have absolutely the same user experience when you're using e documents. Only difference is if you have different uh uh connector so you need to have contact with these providers but in general user experience in B central is absolutely the same."
+    },
+    {
+      "t": 343.8,
+      "end": 356.2,
+      "text": "So now I would like to invite you to watch more videos related to electronic documents because we have six different videos this release. We deliver so many different features related to electronic documents in this wave."
+    },
+    {
+      "t": 356.2,
+      "end": 367,
+      "text": "So I inviting you again please find these videos and watch them. And now in both Magus my name thank you for watching this video."
+    }
+  ],
+  "markers": [
+    {
+      "t": 0,
+      "text": "[Music]"
+    },
+    {
+      "t": 6.07,
+      "text": "[Music]"
+    },
+    {
+      "t": 6.08,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 1072
+}

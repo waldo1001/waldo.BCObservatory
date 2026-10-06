@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/embedapps/embed-app-deployment-package.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/embedapps/embed-app-deployment-package",
+  "title": "Embed app deployment packages",
+  "blob": "290a2b4408e0a5d0a65ec59488c2d8033e8b93b8",
+  "summary": "Embed app deployment packages describes how to create and structure deployment packages for Business Central embed apps, including database BACPACs, branding elements, manifest configuration, and requirements for application and tenant databases.",
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "embed apps",
+    "deployment",
+    "bacpac",
+    "manifest",
+    "database",
+    "packaging"
+  ],
+  "objects": [],
+  "features": [
+    "deployment package structure",
+    "branding elements",
+    "application database",
+    "tenant template database",
+    "manifest.json configuration",
+    "database requirements",
+    "entitlements",
+    "permissions",
+    "custom .NET add-ins"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005918,
+      "pages_in_call": 7
+    }
+  ]
+}
