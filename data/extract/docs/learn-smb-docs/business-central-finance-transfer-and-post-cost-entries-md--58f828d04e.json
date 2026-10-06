@@ -1,0 +1,70 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-transfer-and-post-cost-entries.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-transfer-and-post-cost-entries",
+  "title": "Transferring and posting cost entries",
+  "blob": "c69033b29e0b1c07c542e6c0fe2ac18c9aba9c20",
+  "summary": "Transferring and posting cost entries describes how general ledger entries are transferred to cost accounting, including automatic transfer criteria, combined entries, and tracing connections between cost and ledger entries.",
+  "systems": [
+    "finance"
+  ],
+  "topics": [
+    "cost accounting",
+    "cost entries",
+    "general ledger",
+    "cost allocation",
+    "transfer criteria"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Transfer GL Entries to CA"
+    },
+    {
+      "type": "table",
+      "name": "Cost Entry"
+    },
+    {
+      "type": "table",
+      "name": "Cost Register"
+    },
+    {
+      "type": "table",
+      "name": "G/L Entry"
+    },
+    {
+      "type": "page",
+      "name": "Cost Accounting Setup"
+    },
+    {
+      "type": "page",
+      "name": "Chart of Cost Types"
+    },
+    {
+      "type": "page",
+      "name": "Cost Type Card"
+    },
+    {
+      "type": "page",
+      "name": "G/L Account Card"
+    }
+  ],
+  "features": [
+    "automatic transfer",
+    "manual cost posting",
+    "allocation postings",
+    "budget transfer",
+    "combined entries",
+    "cost entry tracing"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00475,
+      "pages_in_call": 8
+    }
+  ]
+}

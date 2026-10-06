@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/how-to-set-up-validation-of-purchase-amounts",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "e236b1d609611d90321abf511ef325262405f82e",
       "words": 405,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:06:40.561Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.00475
+    },
+    "summarized": {
+      "at": "2026-10-06T19:06:40.577Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:06:40.578Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:06:40.579Z",
+      "page": false
     }
   },
   "input_hash": "e236b1d609611d90321abf511ef325262405f82e",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e236b1d609611d90321abf511ef325262405f82e"
+  "output_hash": "1afa496cc69309148c452e3baefd12b51ef7370d340deb61f2738c2fc603a9f6"
 }

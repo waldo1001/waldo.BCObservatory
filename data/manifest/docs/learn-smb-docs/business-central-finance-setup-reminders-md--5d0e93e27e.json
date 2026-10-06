@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-setup-reminders",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "c38e92c359f5bda651b718d87e32e4a8dae75372",
       "words": 1330,
       "forms": 4
+    },
+    "extracted": {
+      "at": "2026-10-06T19:06:40.559Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 7,
+      "cost_usd": 0.00475
+    },
+    "summarized": {
+      "at": "2026-10-06T19:06:40.570Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:06:40.571Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:06:40.572Z",
+      "page": false
     }
   },
   "input_hash": "c38e92c359f5bda651b718d87e32e4a8dae75372",
@@ -63,5 +82,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c38e92c359f5bda651b718d87e32e4a8dae75372"
+  "output_hash": "48a10e7a1a4ca0b9488c2dffb63e0dc9177ae6824835b4a6541f0e1e8b5790d5"
 }

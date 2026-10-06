@@ -1,0 +1,72 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-setup-cash-flow-analyses.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-setup-cash-flow-analyses",
+  "title": "Setting up cash flow analysis",
+  "blob": "423f57c4163418419080500ecfd1774be2f51b98",
+  "summary": "Setting up cash flow analysis describes how to configure cash flow charts, cash flow accounts, cash flow setups, and cash flow forecasts in the Accountant Role Center. Use this to visualize and predict cash flow using built-in or custom predictive models.",
+  "systems": [
+    "finance",
+    "reporting"
+  ],
+  "topics": [
+    "cash flow",
+    "forecasting",
+    "chart setup",
+    "azure ai",
+    "financial analysis",
+    "predictions"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Chart of Cash Flow Accounts"
+    },
+    {
+      "type": "page",
+      "name": "Cash Flow Setup"
+    },
+    {
+      "type": "page",
+      "name": "Financial Reports"
+    },
+    {
+      "type": "page",
+      "name": "Accountant Role Center"
+    },
+    {
+      "type": "page",
+      "name": "Chart of Accounts"
+    },
+    {
+      "type": "page",
+      "name": "Customer Ledger Entries"
+    },
+    {
+      "type": "page",
+      "name": "Vendor Ledger Entries"
+    },
+    {
+      "type": "page",
+      "name": "VAT (Tax) Ledger Entries"
+    }
+  ],
+  "features": [
+    "cash cycle chart",
+    "income & expense chart",
+    "cash flow chart",
+    "cash flow forecasts",
+    "azure ai integration",
+    "historical data analysis"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00475,
+      "pages_in_call": 8
+    }
+  ]
+}

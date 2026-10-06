@@ -1,0 +1,603 @@
+{
+  "video_id": "eA7CENx7se0",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 6.2,
+      "end": 26.7,
+      "text": "Hello and welcome. My name is Peter Borring and with me today I have Julia Møller and Steen Klitgård. You've probably heard a lot about co-pilot in the last couple of years both across Microsoft products with regards to new co-pilot features in the Business Central first-party applications as well as in the context of the co-pilot developer toolkit"
+    },
+    {
+      "t": 26.7,
+      "end": 46.5,
+      "text": "that allow you as partners to build co-pilot features in your extensions. In this launch session we're going to talk about a topic that you probably haven't heard a lot about as or done as part of developing co-pilot features and that is testing them in an efficient and repeatable manner."
+    },
+    {
+      "t": 46.5,
+      "end": 57.4,
+      "text": "So Now in general you should of course always perform testing. I mean I hope you do that. And there's all the classic reasons for doing so."
+    },
+    {
+      "t": 57.4,
+      "end": 74.2,
+      "text": "But there are some new considerations in the world of large language models and co-pilot features that require attention due to the high degree of variability involved. So how do you for example measure accuracy of the feature at scale across many different user prompts?"
+    },
+    {
+      "t": 74.2,
+      "end": 85.8,
+      "text": "How do you create test cases covering real life user prompts and their intents and ensure that you react correctly to those or following the users intent?"
+    },
+    {
+      "t": 85.8,
+      "end": 105.1,
+      "text": "How do you avoid that iterating over your your prompts or your system prompts and the prompt engineering leads to unintended side effects? Maybe you perform those iterations because you want to improve quality in one area but then it goes down in a different area."
+    },
+    {
+      "t": 105.1,
+      "end": 120.3,
+      "text": "How do you ensure that user prompts even malicious do not produce especially malicious do not produce any harms, you know, gets responses out of the generative co-pilot that that contain harms."
+    },
+    {
+      "t": 120.3,
+      "end": 130.3,
+      "text": "How do you ensure that your feature works well across user prompts of different languages for example maybe you will have users who try"
+    },
+    {
+      "t": 130.3,
+      "end": 141.4,
+      "text": "or using a language for which you did not really initially build your co-pilot feature. How do you assess the impact of new model versions?"
+    },
+    {
+      "t": 141.4,
+      "end": 157.5,
+      "text": "So um LLMs even other types of models like small language models, they are not static, right? They evolve, there are new versions coming out and new capabilities, but it also means that there could be differences"
+    },
+    {
+      "t": 157.5,
+      "end": 174.9,
+      "text": "in the responses that you get back for the exact same circumstances compared to maybe half a year ago. So how can you ensure that as models change they don't impact your co-pilot features in a way that you did not intend to."
+    },
+    {
+      "t": 174.9,
+      "end": 188.9,
+      "text": "All of this requires a lot of test cases and test runs to cover these these areas. Now one of the first obvious challenges that needs to be addressed here is then how do you create all of your test case?"
+    },
+    {
+      "t": 188.9,
+      "end": 203.8,
+      "text": "I mean that that is that is really you know an art that you need to to learn right but when you want to work on on determining the feature accuracy, you want to collect as diverse a set of inputs as possible."
+    },
+    {
+      "t": 203.8,
+      "end": 218.8,
+      "text": "So try to to have a you know people come up with different user prompts and also have because using different people can also make sure that you reduce the bias of certain people in the data set itself,"
+    },
+    {
+      "t": 218.8,
+      "end": 229.6,
+      "text": "right? So you don't have a dependency on that certain biasing. You can also take advantage of large language models itself to enrich test case data."
+    },
+    {
+      "t": 229.6,
+      "end": 241.2,
+      "text": "So maybe you can come up and one one test case, one user prompt, and you can ask the large language model to come up with 10 variations of that, for example."
+    },
+    {
+      "t": 241.2,
+      "end": 252.2,
+      "text": "And like conventional tests, failing inputs are also a good case for a test case. So, you don't just have to test for that your co-pilot feature returns"
+    },
+    {
+      "t": 252.2,
+      "end": 262.3,
+      "text": "sort of expected results, but also test scenarios where it's it's it's failing, right? Or should produce failures."
+    },
+    {
+      "t": 262.3,
+      "end": 274,
+      "text": "Maybe maybe if it's good at creating sales order lines, you cannot have it generate marketing text, right? So, that that could be things to to have in your test."
+    },
+    {
+      "t": 274,
+      "end": 290,
+      "text": "And also, Microsoft actually has some tooling available for helping with generation of data sets, and also for evaluating the outcome of the generated content, and we'll see that later, but that's that's something that you can use Azure AI Studio for,"
+    },
+    {
+      "t": 290,
+      "end": 303.4,
+      "text": "and that's especially also nice in the context of harms, just both getting harms test cases, and also evaluating or scoring for for harms um handling, basically."
+    },
+    {
+      "t": 303.4,
+      "end": 320.8,
+      "text": "Then there's Secondly, there's different types of tests that you need to think about, and different circumstances in which you want to run these tests. First, there are tests that you can consider being sort of accuracy tests, or think think of them as unit tests in the in the classic context."
+    },
+    {
+      "t": 320.8,
+      "end": 337,
+      "text": "Um they are there to test sort of more atomic parts of your LLM round trips, right? So, they could be absolute test where they assert whether some explicit value is is um is being returned"
+    },
+    {
+      "t": 337,
+      "end": 356,
+      "text": "um or met. You know, the outcome of this. It could also be a grounding test where you want to make sure that if you are asking for you know, some bicycles for example, that what gets returned are actually bicycles in the inventory,"
+    },
+    {
+      "t": 356,
+      "end": 367.4,
+      "text": "right? So, those are sort of these accuracy test. But, you also have quality test that you can maybe think more of as end-to-end or integration test that that you use more"
+    },
+    {
+      "t": 367.4,
+      "end": 384.6,
+      "text": "to maybe handle sort of user interaction scenarios, right? Handling these red teaming or harms testing. So, maliciously trying to get bad replies out of your co-pilot feature."
+    },
+    {
+      "t": 384.6,
+      "end": 402.2,
+      "text": "Or for handling bias or toxicity, etc. And for any given scenario, you usually have to run both of these classes of test. So, typically the accurate test and like unit test are used during development and model updates to to make sure that your feature works."
+    },
+    {
+      "t": 402.2,
+      "end": 415.3,
+      "text": "And then the quality test are being run more for feature validation and responsible AI, for making sure that it behaves correctly. Then because you need to have a lot of test, right?"
+    },
+    {
+      "t": 415.3,
+      "end": 428.9,
+      "text": "To have a lot of coverage, using data-driven tests is a way to cover more ground. So, that's basically a concept where you can run the same test repeatedly, but against different input values."
+    },
+    {
+      "t": 428.9,
+      "end": 443.2,
+      "text": "So, that enables reusability because you you don't have to create as many test cases, but can can inject data, so you get the variability. And thereby, you also increase test coverage and it also improves maintainability"
+    },
+    {
+      "t": 443.2,
+      "end": 457.3,
+      "text": "because you can decouple sort of the text execution and the test flow from the from the actual data. And in the context of generative AI, data-driven testing actually helps even more, right?"
+    },
+    {
+      "t": 457.3,
+      "end": 467.3,
+      "text": "We know that large language models are sensitive to input variations and we want to cover how well the prompt generalizes and adapts to various contexts."
+    },
+    {
+      "t": 467.3,
+      "end": 482.7,
+      "text": "And we also want coverage and variation to evaluate various metrics of our Copilot features, whether it's for safety or quality, or performance, or response time, or token consumption,"
+    },
+    {
+      "t": 482.7,
+      "end": 493.3,
+      "text": "etc. So, having data-driven testing there helps a lot. And that leads to that we really want to give you as partners"
+    },
+    {
+      "t": 493.3,
+      "end": 506,
+      "text": "some some tools that can help you in managing all of these test cases and managing using data-driven tests and and also going down"
+    },
+    {
+      "t": 506,
+      "end": 520.2,
+      "text": "in time managing automation, etc. of this in an efficient way. So, in this release, we are introducing the Copilot Test Toolkit in preview that allows you to test Copilot features in an efficient way,"
+    },
+    {
+      "t": 520.2,
+      "end": 533.4,
+      "text": "including managing test suites, data sets, and data-driven testing. It's an AL extension that can be installed in a sandbox environment, and you can find the source for this in our"
+    },
+    {
+      "t": 533.4,
+      "end": 546.4,
+      "text": "BC apps repo on repo on aka.ms/bcapps under the AI Test Toolkit folder. And Julia, can you tell us more about what partners can do with that toolkit?"
+    },
+    {
+      "t": 546.4,
+      "end": 560.1,
+      "text": "Absolutely. So, let's look the Copilot Test Toolkit from an AL developer perspective. So, currently, let's say I'm an AL developer, and I have an AL Copilot extension."
+    },
+    {
+      "t": 560.1,
+      "end": 571.4,
+      "text": "I have also coded in a way that I have AL procedures available for testing, for example, to access the generative function, so I can test what Copilot produces."
+    },
+    {
+      "t": 571.4,
+      "end": 581.9,
+      "text": "So, then inside the Copilot Test Toolkit, I want to have a test suite where I can gather the test cases for multiple of my scenarios for the feature."
+    },
+    {
+      "t": 581.9,
+      "end": 595.2,
+      "text": "And I want to enable repetitive testing on a larger number number of cases. So, I'll need a data set that contains a data necessary for my test."
+    },
+    {
+      "t": 595.2,
+      "end": 611,
+      "text": "Then, obviously, I'll need the test procedures, test code units that will act on the input data for my data set. And then inside the tool I'll be comparing runs of the test suite, the log entries, the results."
+    },
+    {
+      "t": 611,
+      "end": 629.8,
+      "text": "So, let's take a look on the interface of the toolkit. I'll walk you through what is part of it. Here you can see code and description of your test suite as well as choices to make such as what test runner you'll be using to run your suite."
+    },
+    {
+      "t": 629.8,
+      "end": 649.5,
+      "text": "Then you choose your input data set. First, you choose the suite level data set. But you can also choose it per test code unit, per test line in case some of your test code unit use different variations of the data sets."
+    },
+    {
+      "t": 649.5,
+      "end": 670.2,
+      "text": "Here is where you choose which test code units will be part and run with your test suite. You can also see and access the data on the latest run on such line as well as filter the log entries to only see results from a specific test code unit."
+    },
+    {
+      "t": 670.2,
+      "end": 687,
+      "text": "You can also quickly see the latest run and what were the results, how many tests were executed, tests passed, failed but also the duration and the token consumption when generating responses from the model."
+    },
+    {
+      "t": 687,
+      "end": 699.2,
+      "text": "When it comes to the actions that you can perform on the test suite you can run it either a single time or run it in a batch repeated multiple times. You can view log entries"
+    },
+    {
+      "t": 699.2,
+      "end": 712.2,
+      "text": "and viewed runs of the test suite, as well as see the input data sets, or export the configuration of your test suite as an XML. So, let's focus on the input data sets."
+    },
+    {
+      "t": 712.2,
+      "end": 728.9,
+      "text": "When you select that action, you actually can see all of the data set that you have imported. And to import a data set into the tool, you upload it in the JSON lines format, where each line is one input into your test."
+    },
+    {
+      "t": 728.9,
+      "end": 739.2,
+      "text": "One entry that the test procedure will run on. And what does that entry contain? Here you can see an example input data set."
+    },
+    {
+      "t": 739.2,
+      "end": 753.4,
+      "text": "And each line, each input in that entry will provide all the necessary information for the test. Here on the screen you can see it has a question, a user input that we will pass to the model."
+    },
+    {
+      "t": 753.4,
+      "end": 771.7,
+      "text": "Uh we will pass it to Copilot. Maybe context records that you need to pass to smoothly run your feature. You can also have expected output there to quickly evaluate what your what the what Copilot returned and if your test passed or failed."
+    },
+    {
+      "t": 771.7,
+      "end": 784.2,
+      "text": "Also, each data set can be marked as sensitive content. If you're, for example, testing against harmful content generation, uh if you mark your data set as sensitive,"
+    },
+    {
+      "t": 784.2,
+      "end": 794.4,
+      "text": "uh the inputs will not be displayed until you click on them. So, what happens when you're running a test suite?"
+    },
+    {
+      "t": 794.4,
+      "end": 805.4,
+      "text": "Let's imagine our data set contains four lines, four entries. Each test procedure will be executed as many times as you have the entries in the data set."
+    },
+    {
+      "t": 805.4,
+      "end": 816,
+      "text": "And inside your test procedure, you'll be able to access the input from your data set using a code unit AAT test context."
+    },
+    {
+      "t": 816,
+      "end": 826.3,
+      "text": "Then, test procedures can log output and succeed or fail as well, of course. Each test will then produce one or multiple log entries"
+    },
+    {
+      "t": 826.3,
+      "end": 839,
+      "text": "that you can see in the toolkit interface. You can see the test inputs and the test outputs in the log entries, as well as which test code unit and which test procedure they belong to."
+    },
+    {
+      "t": 839,
+      "end": 851.7,
+      "text": "You can also download the test output to process it further, for example, for evaluation. Well, now that I have walked you through the parts of the toolkit, let's focus on using it and creating tests."
+    },
+    {
+      "t": 851.7,
+      "end": 865.8,
+      "text": "See, take it away. Thank you, Julian. So, let's talk about how we use the test toolkit in practice. Specifically, we're going to go uh how we tested the sales line suggestion feature, and we're going to talk about creating data sets, writing data-driven tests,"
+    },
+    {
+      "t": 865.8,
+      "end": 879,
+      "text": "and evaluating the results. So, the sales line suggestion feature allows you to input some text, and based on that text, we'll generate some suggested sales line to add. And that's pretty much the feature, but how do we actually test a feature like this?"
+    },
+    {
+      "t": 879,
+      "end": 895.9,
+      "text": "First, let's look at how we used to test it before we got the test tool. So, what we used to do is we had all these different labels. You see, this is just a normal test code unit. And we had all these different labels that were defining sort of different inputs we wanted to give uh to the feature."
+    },
+    {
+      "t": 895.9,
+      "end": 906,
+      "text": "And then we had a lot of different tests that took this input and then had some expected data. And you see, we had a lot of all the these tests testing all these different labels."
+    },
+    {
+      "t": 906,
+      "end": 918,
+      "text": "But with the test toolkit, we can do this in just a single test. So, I'm now here in VS Code, and as you can see, we've extracted all these labels out into to this JSON lines uh file."
+    },
+    {
+      "t": 918,
+      "end": 930.2,
+      "text": "So, if we take a look at the file, we'll see that we have this data file here and in the file we have all these different questions. These are the labels that we saw before now extracted out into this data file."
+    },
+    {
+      "t": 930.2,
+      "end": 940.7,
+      "text": "Furthermore, we also have the expected data. The expected data is the is the information we need to assert sort of that the test went well. And we have all these different labels for that."
+    },
+    {
+      "t": 940.7,
+      "end": 951.4,
+      "text": "So, it's important to notice that the question and the expected data, these are specific values supported by the tool, but you can format this however you want in your own application."
+    },
+    {
+      "t": 951.4,
+      "end": 968.9,
+      "text": "But if you use these, then it'll be much easier to work with in the tool. So, now let's go to the test code unit and take a look at how we use this. So, this is our AI test and here we're using the just a normal test code unit and a normal test procedure."
+    },
+    {
+      "t": 968.9,
+      "end": 981.3,
+      "text": "In this test procedure, we have this AI test context and this is the code unit that you use to actually get the input that you need in your test. So, the first thing that we do here is that we get the question."
+    },
+    {
+      "t": 981.3,
+      "end": 997,
+      "text": "The question is a text. And the way we do this is through the AI test context and we get the question. So, if you take a look at here, you can see that there's a lot of different values that we support in the AI test context and you can take a closer look at that and see the different values that we support here."
+    },
+    {
+      "t": 997,
+      "end": 1008.1,
+      "text": "For example, answer, context, ground truth, expected data, and so on. Now, let's go back to our test. So, the first thing we do is get the question. So, now we have our input."
+    },
+    {
+      "t": 1008.1,
+      "end": 1019.1,
+      "text": "Next thing we need to do is get the expected data. So, similarly, we use the get expected data to get that. Then we look up the element expected document number and we take the value as a text."
+    },
+    {
+      "t": 1019.1,
+      "end": 1031.3,
+      "text": "And we do the same for the start date and the end date. So, now we have our question and our expected data, then we can call our function. So, we call our function here with the question and then we get some sort of response."
+    },
+    {
+      "t": 1031.3,
+      "end": 1046.2,
+      "text": "So, when you're testing AI features, you need some sort of way to call your function and get a response that you can then evaluate. You could also use test test pages, for example, where you could go through the scenario and then sort of get the response from that."
+    },
+    {
+      "t": 1046.2,
+      "end": 1058.2,
+      "text": "But but you need something that you can evaluate and assert on. So, what we do now is that we use these expected values and we compare them to the response. And that's pretty much it for writing our test."
+    },
+    {
+      "t": 1058.2,
+      "end": 1068.8,
+      "text": "Now, this is all generic, so we can run this on the data set and it will evaluate for all of them. So, let's try to use the Copilot test toolkit to to test this out. So, we're in Business Central now."
+    },
+    {
+      "t": 1068.8,
+      "end": 1079.3,
+      "text": "So, we'll go to the AI test suites page. And here I've already set up a test suite, so we'll just import that."
+    },
+    {
+      "t": 1079.3,
+      "end": 1093,
+      "text": "Now, I'll open up that suite. And you can see here that we defined it with an input data set that I already imported. So, if we go to input data sets, we see it right here. This is the data we just saw in the JSON lines file."
+    },
+    {
+      "t": 1093,
+      "end": 1107.4,
+      "text": "So, we have the input data and we have our code unit right here. So, the next thing to do is just execute this. After the test has run, you can see that 28 tests were run, 27 of them passed, and one test failed."
+    },
+    {
+      "t": 1107.4,
+      "end": 1118.6,
+      "text": "Now, for this specific one, we are mocking the response, so there's no tokens consumed, but you would be able to see how many tokens your feature consumed during these calls as well if you're running an actual Copilot feature."
+    },
+    {
+      "t": 1118.6,
+      "end": 1132.7,
+      "text": "Now, to see the results of this, we would go into the log entries. Here, we can see all the different runs. And we can see that one of them errored. And if we go down and take a look at the end, we'll see the error message."
+    },
+    {
+      "t": 1132.7,
+      "end": 1144.4,
+      "text": "And we see that it expected a different number than it actually got. So, the next thing to do would be to fix that error and then rerun the test suite. But what if it isn't so simple? What if we can't just evaluate it in Business Central?"
+    },
+    {
+      "t": 1144.4,
+      "end": 1155.6,
+      "text": "What if we need some sort of external evaluation? Well, for some features, you might need external evaluation because they're difficult to evaluate in Business Central. For example, marketing text."
+    },
+    {
+      "t": 1155.6,
+      "end": 1167.9,
+      "text": "When you run the marketing text feature, it will give you a text back. How do we evaluate that this text is correct? And how do we evaluate that it's safe? Well, our choice for external evaluation is Azure AI Studio."
+    },
+    {
+      "t": 1167.9,
+      "end": 1178.9,
+      "text": "In Azure AI Studio, you can assess and compare AI application performance using built-in evaluators and create your own. Now, this is available through a UI or through an SDK."
+    },
+    {
+      "t": 1178.9,
+      "end": 1185.8,
+      "text": "It's subject to separate billing, but you can learn more about that at aka.ms/azureaistudio."
+    },
+    {
+      "t": 1186.6,
+      "end": 1200.8,
+      "text": "Uh now, depending on what metric you want to evaluate, you you would need a specific set of input. So, for example, if I want to evaluate groundedness, I need the question, answer, and context. If I want to evaluate something else, I might need just the question and the answer."
+    },
+    {
+      "t": 1200.8,
+      "end": 1216.8,
+      "text": "So, how can we use the Copilot Test Toolkit in Business Central to get the input that we need for Azure AI Studio? Let's look at that. All right. So, I'm back in VS Code, and here I'm looking at the test set that we used to run the marketing tests."
+    },
+    {
+      "t": 1216.8,
+      "end": 1230.5,
+      "text": "Uh so, here you see it's almost sort of the same. We have three different lines. Here, we're using a test setup instead, because to run the marketing text feature, we need some sort of product info, and that's what we have here."
+    },
+    {
+      "t": 1230.5,
+      "end": 1241.9,
+      "text": "You can see that we don't have some expected data here, because we're actually doing external evaluation. So, here we don't expect anything, but we just want to run the feature and get the output."
+    },
+    {
+      "t": 1241.9,
+      "end": 1255.9,
+      "text": "So, if we go to our test here, we can see it's sort of the same uh test. And here, the first thing we do in our test is that we get the test setup. We then use that test setup down here to get some facts, and that's where we extracted from the data."
+    },
+    {
+      "t": 1255.9,
+      "end": 1267.8,
+      "text": "Uh furthermore, we set some other things like format and tone, uh and that's what we use to generate the marketing text. But now, what's different now is that you see this returns the text. So, how do we evaluate this text?"
+    },
+    {
+      "t": 1267.8,
+      "end": 1278,
+      "text": "Again, we're going to use external evaluation. So, the way we do that is we set the test output. So, to set the test output, we need the context, question, and answer. The answer we already have from up here."
+    },
+    {
+      "t": 1278,
+      "end": 1288,
+      "text": "So, now we generate the context and the question. The context we can generate from the facts, and it would be something like this. Here are some facts about the item and the facts."
+    },
+    {
+      "t": 1288,
+      "end": 1298.4,
+      "text": "And then the the question we would generate like this, create marketing text for this item with this and this. And then we give it the format, the tone, and the facts."
+    },
+    {
+      "t": 1298.4,
+      "end": 1311.7,
+      "text": "So, now that we set up this test, we set up a similar one where it's a formal tone. It does the same just with the formal. Well, now that we have that test, we can go in and we can run it uh in in Business Central."
+    },
+    {
+      "t": 1311.7,
+      "end": 1325.8,
+      "text": "So, I'm back in Business Central at the AI test suite page, and I'm going to import another uh suite. So, I'm going to import the second demo that I already set up. And as you see, this is uh configured uh to run with another data set,"
+    },
+    {
+      "t": 1325.8,
+      "end": 1337.1,
+      "text": "the data set we just saw with three inputs, and another code unit, the code unit we just saw. So, I'm going to execute this. And as you see, it has run six tests."
+    },
+    {
+      "t": 1337.1,
+      "end": 1350.1,
+      "text": "So, the reason that it ran six tests is because it's running both of these uh procedures uh with the same inputs. So, we need to run both the inspiring and formal test with input one, and input two, and input three."
+    },
+    {
+      "t": 1350.1,
+      "end": 1360.2,
+      "text": "But the more interesting thing you can see is that now both the input and the test output is populated. So, if we take a closer look here, you can see that this was our input, and here is our output."
+    },
+    {
+      "t": 1360.2,
+      "end": 1374.6,
+      "text": "And we can also like filter down to for example the answer. So, this was what was outputted by the feature, and we now have that data. So, what we can do now is we can download the test output, and we can use that in external evaluation with Azure AI Studio."
+    },
+    {
+      "t": 1374.6,
+      "end": 1385.5,
+      "text": "But there's one thing that we haven't talked about yet. What about multi-turn testing? So far, we've always done single-turn testing. So, we had one input uh and one output per test case."
+    },
+    {
+      "t": 1385.5,
+      "end": 1397,
+      "text": "Now, this gives us a single conversational turn where the previous context doesn't matter. What that means is for marketing text, if we call it once and we call it again later, then the context of what happened before didn't matter."
+    },
+    {
+      "t": 1397,
+      "end": 1412.6,
+      "text": "It's the same sort of generation that happens. In multi-turn, you might have multiple inputs and outputs per test case. This is complex conversational scenarios. You can imagine sort of a chat scenario where the context of the previous turn matters."
+    },
+    {
+      "t": 1412.6,
+      "end": 1424.7,
+      "text": "In single-turn testing, we have one question and one set of expected data per test case, just as we saw. Now, in multi-turn testing, we have we can have multiple turns and input per test case."
+    },
+    {
+      "t": 1424.7,
+      "end": 1434.8,
+      "text": "So, you see the first question and expected data and the second question and expected data. So, to use that in the test tool, we also have support for that."
+    },
+    {
+      "t": 1434.8,
+      "end": 1449.1,
+      "text": "So, in single-turn, as we saw before, you have a question that you can get and then you can set an output. Whereas in multi-turn testing, you can do this multiple times. So, the first turn here, we get the question and we set the test output."
+    },
+    {
+      "t": 1449.1,
+      "end": 1465.2,
+      "text": "Then we call the API next turn on the AI test context. And this is what makes it get the next question the next time we ask for it. So, here we can execute turn two and now we would get a different question and the tool would take care of setting the test output correctly."
+    },
+    {
+      "t": 1465.2,
+      "end": 1481,
+      "text": "Let's wrap up with some best practices when working with the toolkit and testing your features. First of all, write code that wraps around your prompts and is testable, so you can easily access your feature through AL tests."
+    },
+    {
+      "t": 1481,
+      "end": 1491.6,
+      "text": "Ensure that your data sets have a substantial number of entries. As mentioned before, even slight variability in prompts can impact how your feature behaves."
+    },
+    {
+      "t": 1491.6,
+      "end": 1507.9,
+      "text": "And all entries in the same data set should have a similar structure. After all, the same test procedure will go through all of them. Test and evaluate your features often, especially when model version changes."
+    },
+    {
+      "t": 1507.9,
+      "end": 1519.5,
+      "text": "Then, set your test output to match the input needed for evaluation. And adapt what you test based on your feature."
+    },
+    {
+      "t": 1519.5,
+      "end": 1532.5,
+      "text": "It is also important to mention that this is all part of what we call road to automation. For now, we have API pages in the tool, so you don't need to access its parts through the UI interface."
+    },
+    {
+      "t": 1532.5,
+      "end": 1542.6,
+      "text": "You can import and export the suite configuration as XML files. You saw how the imported the second test suite from an XML file."
+    },
+    {
+      "t": 1542.6,
+      "end": 1553.3,
+      "text": "And we aim to improve the tool to enable the test automation and make it even smoother for you to test your Copilot features with less effort."
+    },
+    {
+      "t": 1553.3,
+      "end": 1566.4,
+      "text": "So, Peter, what can partners do now? Yeah. So, um there are many circumstances that can change the accuracy and responsibility of your Copilot feature. So, start testing them in a well-defined manner."
+    },
+    {
+      "t": 1566.4,
+      "end": 1580.9,
+      "text": "And to help you be efficient in doing so, start using the new Copilot Test Toolkit and data-driven testing. We're already using these for our own Copilot features in the Business Central first-party application."
+    },
+    {
+      "t": 1580.9,
+      "end": 1588,
+      "text": "And as always, give us feedback and suggestions. Thanks for joining the session."
+    }
+  ],
+  "markers": [],
+  "word_count": 4403
+}

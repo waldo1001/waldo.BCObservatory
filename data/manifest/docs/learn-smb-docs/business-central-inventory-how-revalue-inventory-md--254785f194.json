@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-how-revalue-inventory",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,13 @@
       "blob": "fa2dca14e32dedde410d675e35baa12079585911",
       "words": 186,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:07:05.308Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.003942
     }
   },
   "input_hash": "fa2dca14e32dedde410d675e35baa12079585911",
@@ -39,5 +46,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "fa2dca14e32dedde410d675e35baa12079585911"
+  "output_hash": "ad07b85d9b42749438efe2850a12ac311eddb84232ff13dbc15abedef671a803"
 }

@@ -1,0 +1,62 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/intercompany-allocate-costs.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/intercompany-allocate-costs",
+  "title": "Allocate Costs to Intercompany Partners| Microsoft Docs",
+  "blob": "87c7d20e470572cee439e7a55ec61e3244381d73",
+  "summary": "Allocate Costs to Intercompany Partners explains distributing purchase costs between intercompany partner companies using general journals or purchase documents, including vat calculation considerations.",
+  "systems": [
+    "finance",
+    "integration"
+  ],
+  "topics": [
+    "intercompany",
+    "cost allocation",
+    "vat",
+    "partner companies",
+    "purchase orders"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Intercompany General Journal"
+    },
+    {
+      "type": "page",
+      "name": "Purchase Invoice"
+    },
+    {
+      "type": "page",
+      "name": "Purchase Order"
+    },
+    {
+      "type": "page",
+      "name": "IC Outbox Transactions"
+    },
+    {
+      "type": "page",
+      "name": "Intercompany Setup"
+    },
+    {
+      "type": "page",
+      "name": "Intercompany Partner"
+    }
+  ],
+  "features": [
+    "cost distribution",
+    "intercompany journals",
+    "purchase document allocation",
+    "vat business posting groups",
+    "ic partner codes"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00475,
+      "pages_in_call": 8
+    }
+  ]
+}

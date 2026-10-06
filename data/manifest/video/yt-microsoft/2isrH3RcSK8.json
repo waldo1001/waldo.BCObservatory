@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "Business Central Launch Event 2024 Release Wave 2 - Recording of Live Opening",
   "url": "https://www.youtube.com/watch?v=2isrH3RcSK8",
-  "published_at": null,
+  "published_at": "2024-10-09T13:38:09.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T19:06:54.258Z",
+      "captions": "auto:en-orig",
+      "duration_s": 2359
+    },
+    "captioned": {
+      "at": "2026-10-06T19:07:00.146Z",
+      "path": "data/captions/microsoft/2isrH3RcSK8.vtt",
+      "vtt_sha256": "c64085f3a179aaa192d7c5ac1c4489bb5c9831374dac3e57e9ca73dbbff04b3d",
+      "segments": 118,
+      "words": 6670,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -19,7 +33,14 @@
   "meta": {
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 323,
-    "duration_s": 2360,
-    "via": "reconcile"
-  }
+    "duration_s": 2359,
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c64085f3a179aaa192d7c5ac1c4489bb5c9831374dac3e57e9ca73dbbff04b3d"
 }

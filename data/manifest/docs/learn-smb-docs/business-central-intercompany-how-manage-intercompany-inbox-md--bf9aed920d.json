@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/intercompany-how-manage-intercompany-inbox",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "dc835bce1af548b9ef6bf0fd13df5676d13eebc1",
       "words": 1014,
       "forms": 28
+    },
+    "extracted": {
+      "at": "2026-10-06T19:06:40.563Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 6,
+      "cost_usd": 0.00475
+    },
+    "summarized": {
+      "at": "2026-10-06T19:06:40.582Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:06:40.583Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:06:40.584Z",
+      "page": false
     }
   },
   "input_hash": "dc835bce1af548b9ef6bf0fd13df5676d13eebc1",
@@ -178,5 +197,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "dc835bce1af548b9ef6bf0fd13df5676d13eebc1"
+  "output_hash": "3efc46c7984f062d45e623e865d9d16aa34179e796aa164f496c7ff4414fa41d"
 }

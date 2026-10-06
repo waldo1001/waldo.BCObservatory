@@ -1,0 +1,44 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-setup-unrealized-vat.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-setup-unrealized-vat",
+  "title": "Set up unrealized value added tax",
+  "blob": "14841d9d638351bd8cbf7d8c6c01db51635f3c89",
+  "summary": "Set up unrealized value added tax describes how to configure unrealized VAT accounting for cash-based methods, using temporary general ledger accounts until actual invoice payment is posted.",
+  "systems": [
+    "finance"
+  ],
+  "topics": [
+    "vat",
+    "unrealized vat",
+    "cash-based accounting",
+    "tax setup"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "General Ledger Setup"
+    },
+    {
+      "type": "page",
+      "name": "VAT Posting Setup"
+    }
+  ],
+  "features": [
+    "unrealized vat accounts",
+    "percentage allocation",
+    "payment allocation methods",
+    "vat transfer",
+    "foreign currency support"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00475,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-setup-reminders.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-setup-reminders",
+  "title": "Set Up Reminder Terms and Levels",
+  "blob": "c38e92c359f5bda651b718d87e32e4a8dae75372",
+  "summary": "Set up reminder terms and levels describes configuring reminders for overdue customer payments, including multiple reminder levels, interest calculation, additional fees, and automated email/attachment communications.",
+  "systems": [
+    "sales",
+    "finance"
+  ],
+  "topics": [
+    "reminders",
+    "collections",
+    "overdue payments",
+    "customer communication",
+    "automation"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Reminder Terms"
+    },
+    {
+      "type": "page",
+      "name": "Reminder Text"
+    },
+    {
+      "type": "page",
+      "name": "Reminder Levels"
+    },
+    {
+      "type": "page",
+      "name": "Currencies for Reminder Levels"
+    },
+    {
+      "type": "page",
+      "name": "Reminder Terms Setup"
+    },
+    {
+      "type": "page",
+      "name": "Report Selection Reminder/Finance Charge"
+    },
+    {
+      "type": "page",
+      "name": "Report Layouts"
+    }
+  ],
+  "features": [
+    "reminder levels",
+    "interest calculation",
+    "additional fees",
+    "fixed fees",
+    "dynamic fees",
+    "accumulated dynamic fees",
+    "customer communication",
+    "email body text",
+    "multi-language support"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00475,
+      "pages_in_call": 8
+    }
+  ]
+}

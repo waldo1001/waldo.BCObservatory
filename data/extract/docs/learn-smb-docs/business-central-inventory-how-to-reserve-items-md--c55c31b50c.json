@@ -1,0 +1,73 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/inventory-how-to-reserve-items.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-how-to-reserve-items",
+  "title": "How to reserve items",
+  "blob": "6ba63660a19c0f8bb82094f0f073e795874c61b9",
+  "summary": "Reserve items for sales, purchase, service, assembly, transfer, and production orders to control inventory allocation and display order fulfillment status.",
+  "systems": [
+    "inventory",
+    "sales",
+    "purchasing"
+  ],
+  "topics": [
+    "item reservations",
+    "reservation management",
+    "inventory allocation",
+    "order fulfillment"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Sales Orders"
+    },
+    {
+      "type": "page",
+      "name": "Firm Planned Prod. Order"
+    },
+    {
+      "type": "page",
+      "name": "Reservation"
+    },
+    {
+      "type": "page",
+      "name": "Reservation Worksheet"
+    },
+    {
+      "type": "page",
+      "name": "Get Demand to Reserve"
+    },
+    {
+      "type": "page",
+      "name": "Allocation Policy"
+    },
+    {
+      "type": "page",
+      "name": "Reservation Entries"
+    },
+    {
+      "type": "page",
+      "name": "Item Tracking List"
+    }
+  ],
+  "features": [
+    "auto reserve",
+    "reserve from current line",
+    "cancel reservation",
+    "bulk reservations",
+    "allocation policies",
+    "serial number reservations",
+    "lot number reservations",
+    "reserved from stock"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003942,
+      "pages_in_call": 8
+    }
+  ]
+}

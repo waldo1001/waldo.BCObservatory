@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/intercompany-how-work-documents-journals",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "6b2e2fb20acff4d1a9f8a9e13df5aa17b947d5e9",
       "words": 554,
       "forms": 2
+    },
+    "extracted": {
+      "at": "2026-10-06T19:07:05.302Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.003942
+    },
+    "summarized": {
+      "at": "2026-10-06T19:07:07.235Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:07:07.236Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:07:07.237Z",
+      "page": false
     }
   },
   "input_hash": "6b2e2fb20acff4d1a9f8a9e13df5aa17b947d5e9",
@@ -53,5 +72,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6b2e2fb20acff4d1a9f8a9e13df5aa17b947d5e9"
+  "output_hash": "624919837fc779e5d5e42c9333c7aa31fd3cd693595756d5c9444456e49cdd16"
 }

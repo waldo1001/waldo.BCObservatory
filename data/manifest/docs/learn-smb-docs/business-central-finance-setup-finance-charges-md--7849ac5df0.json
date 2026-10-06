@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-setup-finance-charges",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "8a50454e4423f2f774c09396d36ecfe657b5aeff",
       "words": 573,
       "forms": 2
+    },
+    "extracted": {
+      "at": "2026-10-06T19:06:40.558Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 4,
+      "cost_usd": 0.00475
+    },
+    "summarized": {
+      "at": "2026-10-06T19:06:40.568Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:06:40.569Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:06:40.570Z",
+      "page": false
     }
   },
   "input_hash": "8a50454e4423f2f774c09396d36ecfe657b5aeff",
@@ -52,5 +71,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "8a50454e4423f2f774c09396d36ecfe657b5aeff"
+  "output_hash": "c16085a0e2b4b3350a20e07cbceda091021e08bdaa27b784a2ba2df51332cc90"
 }

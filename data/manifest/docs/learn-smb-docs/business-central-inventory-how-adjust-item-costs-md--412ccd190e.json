@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-how-adjust-item-costs",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,13 @@
       "blob": "710a925ed53a67c9cc9ddfeaa7ed4462d5dbd5e6",
       "words": 612,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:07:05.303Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.003942
     }
   },
   "input_hash": "710a925ed53a67c9cc9ddfeaa7ed4462d5dbd5e6",
@@ -41,5 +48,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "710a925ed53a67c9cc9ddfeaa7ed4462d5dbd5e6"
+  "output_hash": "cdd0d85a0804fefa629d5f4b2f46f0d26e9bf05d40c033ee48ef47994df5e056"
 }

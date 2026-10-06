@@ -1,0 +1,73 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/inventory-how-availability-overview.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-how-availability-overview",
+  "title": "Get an availability overview",
+  "blob": "a8a5efec9fa8208e22cd0365d6cefedd369596cd",
+  "summary": "View item availability by event, period, location, BOM level, unit of measure, and variant to support delivery date commitments and assembly planning.",
+  "systems": [
+    "inventory",
+    "assembly"
+  ],
+  "topics": [
+    "item availability",
+    "inventory levels",
+    "projected availability",
+    "warehouse",
+    "assembly"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Item Availability by Event"
+    },
+    {
+      "type": "page",
+      "name": "Item Availability by Periods"
+    },
+    {
+      "type": "page",
+      "name": "Item Availability by Location"
+    },
+    {
+      "type": "page",
+      "name": "Items by Location"
+    },
+    {
+      "type": "page",
+      "name": "Item Availability by BOM Level"
+    },
+    {
+      "type": "page",
+      "name": "Item Availability by Unit of Measure"
+    },
+    {
+      "type": "page",
+      "name": "Item Availability by Variant"
+    },
+    {
+      "type": "page",
+      "name": "Assembly Availability"
+    }
+  ],
+  "features": [
+    "quantity on hand",
+    "projected available balance",
+    "availability by event",
+    "availability by period",
+    "availability by location",
+    "assembly availability",
+    "BOM level availability",
+    "variant availability"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003942,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-transfer-and-post-cost-entries",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "c69033b29e0b1c07c542e6c0fe2ac18c9aba9c20",
       "words": 995,
       "forms": 6
+    },
+    "extracted": {
+      "at": "2026-10-06T19:06:40.560Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 8,
+      "cost_usd": 0.00475
+    },
+    "summarized": {
+      "at": "2026-10-06T19:06:40.575Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:06:40.576Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:06:40.576Z",
+      "page": false
     }
   },
   "input_hash": "c69033b29e0b1c07c542e6c0fe2ac18c9aba9c20",
@@ -66,5 +85,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c69033b29e0b1c07c542e6c0fe2ac18c9aba9c20"
+  "output_hash": "f7a7da7700904cae14b2b8bc21e5424b8329db635a023bb25a60a0f6eea67989"
 }

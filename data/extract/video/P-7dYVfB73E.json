@@ -1,0 +1,862 @@
+{
+  "video_id": "P-7dYVfB73E",
+  "item_id": "video/yt-microsoft/P-7dYVfB73E",
+  "title": "Business Central Under the Hood episode 6: We Have Too Many Events!",
+  "duration_s": 2727,
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "events",
+    "extensibility",
+    "componentization",
+    "code customization",
+    "extensions",
+    "cloud migration",
+    "event telemetry",
+    "event density",
+    "code maintenance",
+    "breaking changes",
+    "interfaces",
+    "enums"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Background on Extensibility",
+      "t_start": 0,
+      "t_end": 71.2
+    },
+    {
+      "title": "Code Customization Era and Its Challenges",
+      "t_start": 71.2,
+      "t_end": 170.4
+    },
+    {
+      "title": "Introduction of Events and Migration to Cloud",
+      "t_start": 170.4,
+      "t_end": 313.1
+    },
+    {
+      "title": "Early Event Implementation Strategy",
+      "t_start": 313.1,
+      "t_end": 434.4
+    },
+    {
+      "title": "Event Growth History and Current Scale",
+      "t_start": 434.4,
+      "t_end": 535.1
+    },
+    {
+      "title": "Analysis of Event Usage Telemetry",
+      "t_start": 535.1,
+      "t_end": 626.2
+    },
+    {
+      "title": "Event Distribution Across Objects",
+      "t_start": 626.2,
+      "t_end": 704.4
+    },
+    {
+      "title": "Problems with Event Density and Code Maintenance",
+      "t_start": 704.4,
+      "t_end": 805.4
+    },
+    {
+      "title": "Event Overload and Events as Code Customization",
+      "t_start": 805.4,
+      "t_end": 1028.2
+    },
+    {
+      "title": "Event Placement and Distribution",
+      "t_start": 1028.2,
+      "t_end": 1139.9
+    },
+    {
+      "title": "Extensibility Mechanisms and Moving Toward Interfaces",
+      "t_start": 1139.9,
+      "t_end": 1340.4
+    },
+    {
+      "title": "Introduction to Componentization and System Application",
+      "t_start": 1340.4,
+      "t_end": 1576.2
+    },
+    {
+      "title": "Modular Architecture and Business Foundation Layer",
+      "t_start": 1576.2,
+      "t_end": 1740.9
+    },
+    {
+      "title": "Code Organization, Namespaces, and Breaking Changes Strategy",
+      "t_start": 1740.9,
+      "t_end": 2277.9
+    },
+    {
+      "title": "Technical Debt Removal, Schema Cleanup, and Future Componentization",
+      "t_start": 2277.9,
+      "t_end": 2727
+    }
+  ],
+  "features": [
+    {
+      "name": "Integration Events",
+      "description": "Events introduced as an alternative to code customization, allowing developers to subscribe to events placed in specific locations without modifying source code, eliminating the merge problem from code customization.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 211.6,
+      "t_end": 232.3,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "extensibility",
+        "cloud",
+        "architecture"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Workflow Events",
+      "description": "The first usage of events was for the workflow feature, with approximately 300 highly curated events placed in commonly extended areas like sales posting and journal posting.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 353.7,
+      "t_end": 394.1,
+      "is_demoed": false,
+      "caveats": [
+        "Only 300 initial events, which was a small fraction of what would eventually be needed"
+      ],
+      "tags": [
+        "workflow",
+        "initial-implementation"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "GitHub-driven Event Requests",
+      "description": "A community-driven approach where partners request needed events through GitHub issues, with over 90% of current events being partner-requested rather than Microsoft-initiated.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 414.2,
+      "t_end": 454.8,
+      "is_demoed": false,
+      "caveats": [
+        "Over 90% of events are partner-requested, indicating Microsoft's reactive rather than proactive approach"
+      ],
+      "tags": [
+        "community-driven",
+        "partner-feedback"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Event Scale in Current Version",
+      "description": "Version 25 contains approximately 22,500 events total, showing linear growth since version 15 after initial exponential growth from the initial 300 events.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 494.8,
+      "t_end": 515.1,
+      "is_demoed": false,
+      "caveats": [
+        "Growth continues but has slowed"
+      ],
+      "tags": [
+        "metrics",
+        "scale"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Event Usage Telemetry",
+      "description": "Cloud telemetry analysis shows 3,400 unused events, 5,600 single-environment events, and 53% (11,000) of events used in fewer than 100 environments, indicating significant over-provisioning.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 546.5,
+      "t_end": 606.1,
+      "is_demoed": false,
+      "caveats": [
+        "Data based only on cloud usage, not on-premise"
+      ],
+      "tags": [
+        "telemetry",
+        "usage-analysis"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Event Distribution Analysis",
+      "description": "Of 7,500 total objects, 15% contain no code, events are concentrated in about one-third of remaining objects, and 50% of objects that could contain events do not have any.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 646.3,
+      "t_end": 684.4,
+      "is_demoed": false,
+      "caveats": [
+        "Events are highly concentrated in specific objects"
+      ],
+      "tags": [
+        "distribution",
+        "architecture"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "High Event Density in Core Objects",
+      "description": "Some objects like sales posting codeunit contain over 600 events, creating maintenance challenges where almost every line of code change risks breaking compatibility due to event dependency.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 704.4,
+      "t_end": 785,
+      "is_demoed": false,
+      "caveats": [
+        "Creates minefield for bug fixes and refactoring",
+        "Events are density of one event per five lines of code in some places"
+      ],
+      "tags": [
+        "maintenance",
+        "code-quality",
+        "event-density"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Event Cleanup Initiative",
+      "description": "Proposal to remove unused events, particularly the 3,400 unused events in cloud environments, with clear partner communication about removal plans.",
+      "status": "announced",
+      "status_evidence_t": 886.5,
+      "status_evidence_quote": "we could choose to remove those um so we can tell Partners R we are going to remove some events you know it's coming",
+      "status_evidence_verified": true,
+      "t_start": 846.3,
+      "t_end": 886.5,
+      "is_demoed": false,
+      "caveats": [
+        "This is a future consideration, not yet implemented"
+      ],
+      "tags": [
+        "cleanup",
+        "future-work",
+        "partner-communication"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Extensibility objects",
+      "description": "Basic extensibility mechanisms including page extension, table extension, and report extension that allow adding extra fields to existing objects.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1160.1,
+      "t_end": 1192.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "extensibility",
+        "page-extension",
+        "table-extension",
+        "report-extension"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Extensible enums",
+      "description": "Extensible enumerations that can be extended through interfaces, providing a better extensibility mechanism than events in many cases.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1172.5,
+      "t_end": 1212.9,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "extensibility",
+        "enums",
+        "interfaces"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Interfaces for extensibility",
+      "description": "Interface-based extensibility where partners can provide their own implementation if allowed, considered a more controlled and powerful way of extending than events.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1172.5,
+      "t_end": 1245.4,
+      "is_demoed": false,
+      "caveats": [
+        "Provides a clearer contract than events",
+        "More controlled way of extending than events"
+      ],
+      "tags": [
+        "extensibility",
+        "interfaces",
+        "partners"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Handled events",
+      "description": "A type of event that allows partners to skip Microsoft code and provide their own implementation, functioning similarly to code customization.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1225.1,
+      "t_end": 1245.4,
+      "is_demoed": false,
+      "caveats": [
+        "Not considered a friendly way of extending",
+        "Acts as code customization which was supposed to be avoided"
+      ],
+      "tags": [
+        "events",
+        "code-customization",
+        "handled-events"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Refactoring toward interfaces",
+      "description": "Strategy to move away from event-based extensibility toward interface-based design in newer features and refactored legacy code, resulting in 10 times fewer events.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1259,
+      "t_end": 1340.4,
+      "is_demoed": false,
+      "caveats": [
+        "Only applies to newer features and componentized areas",
+        "Legacy code still contains many events"
+      ],
+      "tags": [
+        "refactoring",
+        "interfaces",
+        "events",
+        "legacy-code"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "System Application",
+      "description": "A technical foundation layer containing utility functionalities like HTTP requests, Azure Key Vault, and file I/O that is non-business-domain, platform-like, and now built as over a hundred individual modules packaged as one app.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1462.2,
+      "t_end": 1669,
+      "is_demoed": false,
+      "caveats": [
+        "Built as 100+ modules internally but shipped as single app for convenience",
+        "Physically open source and on GitHub"
+      ],
+      "tags": [
+        "system-application",
+        "componentization",
+        "architecture",
+        "modules"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Business Foundation layer",
+      "description": "A new foundational layer introduced in version 24 containing cross-domain ERP features like number series and audit codes that are used across all business domains but not specific to any one domain.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1648.6,
+      "t_end": 1740.9,
+      "is_demoed": false,
+      "caveats": [
+        "Work is ongoing to refactor features like Dimensions into Business Foundation",
+        "Pulling Dimensions into Business Foundation would involve extracting setup and core dimension logic"
+      ],
+      "tags": [
+        "business-foundation",
+        "componentization",
+        "architecture",
+        "v24"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Module Refactoring and Code Rewriting",
+      "description": "When building modules, the team rewrites most of the code rather than copying features. This includes fixing issues from original designs and improving features. Public APIs are split into separate objects and documented.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1821.4,
+      "t_end": 1862.3,
+      "is_demoed": false,
+      "caveats": [
+        "Significant work is required to refactor features",
+        "Documentation must be maintained for all public APIs"
+      ],
+      "tags": [
+        "code quality",
+        "public api",
+        "documentation"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Source Code Organization with Namespaces",
+      "description": "The code is organized into separate folders and namespaces to improve discoverability and navigation. Namespaces help new and experienced developers understand where features belong and what dependencies exist.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2058.5,
+      "t_end": 2139.2,
+      "is_demoed": false,
+      "caveats": [
+        "Implementation is ongoing",
+        "Reduces but does not eliminate code complexity"
+      ],
+      "tags": [
+        "code organization",
+        "discoverability",
+        "namespaces"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Obsolescence Scheme with Deprecation Period",
+      "description": "When introducing breaking changes, the team marks code as obsolete and provides partners 12 to 18 months to uptake before removing the old code. Partners receive warnings during recompilation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2179.5,
+      "t_end": 2260.3,
+      "is_demoed": false,
+      "caveats": [
+        "Many changes end up being breaking despite efforts to avoid them",
+        "Strict guidelines exist around major breaking changes"
+      ],
+      "tags": [
+        "breaking changes",
+        "obsolescence",
+        "partner migration"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Pre-Processor Symbols for Obsolescence",
+      "description": "Compiler tool used to manage obsolete code by wrapping old code with pre-processor symbols. Allows compilation in two ways: with old code (current shipped version) and with symbols enabled (new code) to remove technical debt at the moment of obsolescence.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2277.9,
+      "t_end": 2352.4,
+      "is_demoed": false,
+      "caveats": [
+        "Requires automated process to remove old code from source",
+        "Ongoing effort to maintain zero debt principle"
+      ],
+      "tags": [
+        "technical debt",
+        "pre-processor symbols",
+        "code cleanup"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Automated code removal at compilation",
+      "description": "Both old and new code versions are supported during compilation using preprocessor symbols, then an automated process removes the old code at the moment of obsolescence rather than pushing debt forward.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2352.4,
+      "t_end": 2392.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "technical debt",
+        "code removal",
+        "compilation",
+        "preprocessor symbols"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Clean schema preprocessor symbol",
+      "description": "A new preprocessor symbol called clean schema is introduced to mark obsoleted database fields, enabling automated cleanup of the SQL schema alongside the removal of old code references.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2448.2,
+      "t_end": 2489.2,
+      "is_demoed": false,
+      "caveats": [
+        "Retroactive application required for fields obsoleted before this feature was introduced"
+      ],
+      "tags": [
+        "schema cleanup",
+        "database",
+        "preprocessor symbols",
+        "versioning"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Scheduled SQL schema cleanup every fifth release",
+      "description": "Every fifth release, obsoleted fields will be cleaned up from the SQL schema to prevent code clutter, with a minimum retention period before deletion to allow partners time to adapt.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2413,
+      "t_end": 2448.2,
+      "is_demoed": false,
+      "caveats": [
+        "Fields are retained for at least 2.5 years before removal"
+      ],
+      "tags": [
+        "schema cleanup",
+        "database maintenance",
+        "release cadence"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Componentization architecture",
+      "description": "The goal is to break Business Central into smaller modular applications, each with a single purpose and documented API, allowing partners to focus on specific module interfaces rather than understanding 6,000 objects.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2519.8,
+      "t_end": 2595.6,
+      "is_demoed": false,
+      "caveats": [
+        "Not yet fully realized",
+        "Replaceable components are a future goal"
+      ],
+      "tags": [
+        "architecture",
+        "modular design",
+        "documentation",
+        "api"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Replaceable component modules",
+      "description": "A long-term vision where partners could provide their own version of a given component and swap it in, such as a custom HR module or other business functions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2540,
+      "t_end": 2557,
+      "is_demoed": false,
+      "caveats": [
+        "Not yet implemented",
+        "Finance module replacement noted as unlikely"
+      ],
+      "tags": [
+        "modularity",
+        "extensibility",
+        "partner customization"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Selective module installation",
+      "description": "Future capability to install only needed modules at a specific customer installation, avoiding unnecessary module loading, reducing footprint, memory usage, and removing unused UI elements and code paths.",
+      "status": "announced",
+      "status_evidence_t": 2615.6,
+      "status_evidence_quote": "there's a future where we could um not install all these modules uh more lean apps so like if you specific installation at a",
+      "status_evidence_verified": true,
+      "t_start": 2615.6,
+      "t_end": 2676,
+      "is_demoed": false,
+      "caveats": [
+        "Uncertain performance impact",
+        "No guarantee of performance improvement"
+      ],
+      "tags": [
+        "lean installation",
+        "modularity",
+        "customer configuration"
+      ],
+      "system": "platform"
+    }
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Sales Posting",
+      "t": 704.4
+    },
+    {
+      "type": "codeunit",
+      "name": "Purchase Posting",
+      "t": 704.4
+    },
+    {
+      "type": "other",
+      "name": "Journal Posting",
+      "t": 374.1
+    },
+    {
+      "type": "table",
+      "name": "Dimensions",
+      "t": 1730.6
+    },
+    {
+      "type": "other",
+      "name": "Number Series",
+      "t": 1709.6
+    },
+    {
+      "type": "other",
+      "name": "Audit Codes",
+      "t": 1730.6
+    }
+  ],
+  "presenters": [
+    {
+      "name": "G",
+      "confidence": "low"
+    },
+    {
+      "name": "Unknown Speaker 1",
+      "confidence": "low"
+    },
+    {
+      "name": "Unknown Speaker 2",
+      "confidence": "low"
+    },
+    {
+      "name": "MH",
+      "confidence": "low"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 150,
+      "text": "code customization was a very successful model because it was very flexible but it had a a big downside",
+      "why_it_matters": "Explains the motivation for moving away from code customization despite its success, establishing the context for why events were needed.",
+      "check": "exact"
+    },
+    {
+      "t": 170.4,
+      "text": "whenever we changed the code and we shipped a new version or you wanted to you had to code customize across different localizations then",
+      "why_it_matters": "Identifies the specific pain point of code customization - merging costs - that drove the need for an alternative approach.",
+      "check": "exact"
+    },
+    {
+      "t": 252.4,
+      "text": "the merge model the the merging code and the old code customization is not really fitted for the cloud right",
+      "why_it_matters": "Shows why code customization was fundamentally incompatible with cloud delivery models requiring frequent automatic upgrades.",
+      "check": "exact"
+    },
+    {
+      "t": 434.4,
+      "text": "I'd say over 90% is partner requested so we had this yeah so we had this basically Community Driven approach",
+      "why_it_matters": "Shows that the event strategy is reactive and partner-driven rather than Microsoft-planned, reflecting the community-centric approach to extensibility.",
+      "check": "exact"
+    },
+    {
+      "t": 494.8,
+      "text": "right now in version 25 I think we have 22,500 events mhm um and in the in the first few years the the uh",
+      "why_it_matters": "Provides concrete metrics on event scale and growth trajectory, showing the magnitude of the extensibility problem.",
+      "check": "exact"
+    },
+    {
+      "t": 546.5,
+      "text": "we have about 3,400 events that are not used at all in the class nobody nobody we could remove them nobody would notice",
+      "why_it_matters": "Reveals significant over-provisioning of events, with a large number having zero usage in cloud environments.",
+      "check": "exact"
+    },
+    {
+      "t": 586,
+      "text": "53% of events so that's 11,000 something events I think my math is right uh are used in less than 100 environments",
+      "why_it_matters": "Quantifies that the majority of events serve only tiny portions of the user base, questioning the value proposition of maintaining so many events.",
+      "check": "exact"
+    },
+    {
+      "t": 764.8,
+      "text": "when we want to make even something as simple as a bug fix right around where these events are or you want to refactor",
+      "why_it_matters": "Articulates the core problem with high event density - it severely constrains the ability to improve or fix code without breaking extensions.",
+      "check": "exact"
+    },
+    {
+      "t": 886.5,
+      "text": "3 000 plus events that are not used in the cloud",
+      "why_it_matters": "Provides specific evidence that a significant portion of events are unused and could be cleaned up",
+      "check": "fuzzy"
+    },
+    {
+      "t": 967.9,
+      "text": "quite a lot of code where the events are just",
+      "why_it_matters": "Core issue identified: events are being misused to replicate the code customization model that was supposed to be replaced",
+      "check": "fuzzy"
+    },
+    {
+      "t": 1596.6,
+      "text": "the system app is just a physical packaging all just more convenient right to ship them together and version it potentially we could uh",
+      "why_it_matters": "Explains the architectural decision to package modules together rather than ship them individually for practical convenience reasons.",
+      "check": "exact"
+    },
+    {
+      "t": 1669,
+      "text": "business foundation is meant to be the the foundational layer so the rule there is it",
+      "why_it_matters": "Defines the purpose and scope of the Business Foundation layer as containing cross-domain features that are not domain-specific.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 1801.3,
+      "text": "when we build these modules we actually we rewrite most of the code um so we we",
+      "why_it_matters": "Demonstrates commitment to quality refactoring rather than simple extraction when creating modular components.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 2078.5,
+      "text": "we introduced Nam spaces yeah so we uh even though we still have the folder structure we added name spaces to the objects as",
+      "why_it_matters": "Shows implementation of namespaces as a language-level feature to improve code organization and discoverability.",
+      "check": "exact"
+    },
+    {
+      "t": 2200,
+      "text": "when we introduced the system application at same time we introduced an obso scheme MH so uh in the past a new version would",
+      "why_it_matters": "Establishes the problem that led to the obsolescence scheme - unannounced breaking changes affecting partners.",
+      "check": "exact"
+    },
+    {
+      "t": 2220.1,
+      "text": "we obsolete code um we give Partners I think 12 to 18 months to to uptake so they get warnings so if they recompile",
+      "why_it_matters": "Specifies the deprecation period of 12 to 18 months and how partners receive warnings to plan for breaking changes.",
+      "check": "exact"
+    },
+    {
+      "t": 2372.4,
+      "text": "we operate on a zero debt principle so if you if you want to change some code today you have to make sure that",
+      "why_it_matters": "Articulates the core principle driving technical debt management - requiring cleanup at time of change rather than deferring work.",
+      "check": "exact"
+    },
+    {
+      "t": 2372.4,
+      "text": "we operate on a zero debt principle so if you if you want to change some code today you have to make sure",
+      "why_it_matters": "Establishes the core principle guiding the technical debt management strategy for code changes.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 2413,
+      "text": "every fifth release we're going to clean up the SQL schema",
+      "why_it_matters": "Defines the specific cadence for removing obsoleted database fields to prevent code clutter.",
+      "check": "exact"
+    },
+    {
+      "t": 2428.2,
+      "text": "if we removed the a field in in this release we don't want to delete it the next release right so we we need",
+      "why_it_matters": "Explains the retention period requirement for obsoleted fields before actual removal.",
+      "check": "exact"
+    },
+    {
+      "t": 2489.2,
+      "text": "Partners will know several releases ahead of time like hey you know this field that they stopped using it's actually going away in a",
+      "why_it_matters": "Describes how the scheduled cleanup provides advance notice to partners for their own codebases.",
+      "check": "exact"
+    },
+    {
+      "t": 2519.8,
+      "text": "smaller apps that are that have one purpose because they're easier to understand they're easier to use we document them so that you know",
+      "why_it_matters": "Articulates the core benefit of componentization for partner developer experience and documentation.",
+      "check": "exact"
+    },
+    {
+      "t": 2635.8,
+      "text": "if they don't need a Char module inventory module or Supply Chain management you know pick pick your combination you would only install the",
+      "why_it_matters": "Shows the vision for granular customer configuration and reduced installation footprint.",
+      "check": "snapped"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 886.5,
+      "kind": "coming-later",
+      "text": "we could choose to remove those um so we can tell Partners R we are going to remove some events you know it's coming"
+    },
+    {
+      "t": 1740.9,
+      "kind": "coming-later",
+      "text": "work there would be so that maybe if let's assume that's our next step right so what so you would be the work would be pulling everything that has to do with Dimensions"
+    },
+    {
+      "t": 1959.4,
+      "kind": "coming-later",
+      "text": "we're still looking into how we can make that non-breaking and again this is all good"
+    },
+    {
+      "t": 2540,
+      "kind": "not-in-this-release",
+      "text": "we're not there yet so we could have their own HR module for example"
+    },
+    {
+      "t": 2615.6,
+      "kind": "coming-later",
+      "text": "maybe there's a future where we could um not install all these modules uh more lean apps"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 23,
+    "quotes_dropped": 5,
+    "evidence_verified": 2,
+    "evidence_unverified": 23
+  },
+  "windows": 4,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.0488818
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.025944
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.027517
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.020327
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.0469752
+    }
+  ]
+}

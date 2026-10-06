@@ -1,0 +1,46 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/inventory-how-adjust-item-costs.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-how-adjust-item-costs",
+  "title": "Manually adjust the costs of items",
+  "blob": "710a925ed53a67c9cc9ddfeaa7ed4462d5dbd5e6",
+  "summary": "Manually adjust item costs using the FIFO or Average costing method to account for cost changes and ensure correct inventory values and financial KPIs.",
+  "systems": [
+    "inventory",
+    "finance"
+  ],
+  "topics": [
+    "cost adjustment",
+    "item costs",
+    "inventory valuation",
+    "costing methods"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Adjust Cost - Item Entries"
+    },
+    {
+      "type": "page",
+      "name": "Inventory Cost Adjustment"
+    }
+  ],
+  "features": [
+    "manual cost adjustment",
+    "automatic cost adjustment",
+    "FIFO costing",
+    "average costing",
+    "unit cost",
+    "value entries"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003942,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-how-to-reserve-items",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,13 @@
       "blob": "6ba63660a19c0f8bb82094f0f073e795874c61b9",
       "words": 1301,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:07:07.233Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 8,
+      "cost_usd": 0.003942
     }
   },
   "input_hash": "6ba63660a19c0f8bb82094f0f073e795874c61b9",
@@ -35,5 +42,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6ba63660a19c0f8bb82094f0f073e795874c61b9"
+  "output_hash": "03210d47738b9d42bf5d38e660544f1a2d7b4b01b70f728cd2a056dfbd1f6e26"
 }

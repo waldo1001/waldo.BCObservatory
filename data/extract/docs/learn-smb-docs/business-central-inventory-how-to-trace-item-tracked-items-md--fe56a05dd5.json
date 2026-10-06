@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/inventory-how-to-trace-item-tracked-items.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-how-to-trace-item-tracked-items",
+  "title": "Trace item-tracked items",
+  "blob": "2624bb1d8b017a8c004d665e8830db636871c1d0",
+  "summary": "Trace item-tracked items forwards and backwards through inventory transactions to find serial or lot number usage, origin, and current instances.",
+  "systems": [
+    "inventory"
+  ],
+  "topics": [
+    "item tracking",
+    "tracing",
+    "serial numbers",
+    "lot numbers",
+    "transaction history"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Item Tracing"
+    },
+    {
+      "type": "page",
+      "name": "Find Entries"
+    }
+  ],
+  "features": [
+    "item tracing",
+    "usage->origin trace",
+    "origin->usage trace",
+    "show components",
+    "find entries",
+    "serial number tracing",
+    "lot number tracing"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003942,
+      "pages_in_call": 8
+    }
+  ]
+}

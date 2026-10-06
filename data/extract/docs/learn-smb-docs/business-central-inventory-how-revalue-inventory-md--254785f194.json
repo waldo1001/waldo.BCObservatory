@@ -1,0 +1,49 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/inventory-how-revalue-inventory.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-how-revalue-inventory",
+  "title": "Create new value entries for items in the inventory| Microsoft Docs",
+  "blob": "fa2dca14e32dedde410d675e35baa12079585911",
+  "summary": "Revalue inventory items using the revaluation journal to appreciate or depreciate items and create new value entries reflecting inventory value changes.",
+  "systems": [
+    "inventory",
+    "finance"
+  ],
+  "topics": [
+    "inventory revaluation",
+    "item value",
+    "depreciation",
+    "appreciation"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Revaluation Journal"
+    },
+    {
+      "type": "page",
+      "name": "Calculate Inventory Value"
+    },
+    {
+      "type": "page",
+      "name": "Item Revaluation Journals"
+    }
+  ],
+  "features": [
+    "revaluation journal",
+    "unit cost revaluation",
+    "inventory value revaluation",
+    "calculate inventory value",
+    "value entries"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003942,
+      "pages_in_call": 8
+    }
+  ]
+}

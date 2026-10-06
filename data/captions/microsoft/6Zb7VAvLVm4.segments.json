@@ -1,0 +1,271 @@
+{
+  "video_id": "6Zb7VAvLVm4",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 8.1,
+      "end": 28.1,
+      "text": "welcome my name is BU Koto I'm a program manager working for Microsoft and my name is ero chiman and I'm a developer working with BL on the Power Platform Integrations and yes today we'll be talking about what's new in this wave 2024 wave wave two uh between business Central and Power Platform and"
+    },
+    {
+      "t": 28.1,
+      "end": 48.4,
+      "text": "we of course should start with Power Platform what it is you probably already are familiar it's a set of tools from Microsoft allowing you to build software build various experiences without uh coding um develop software development coding necessary it is mostly based on connectors and of course there are connectors"
+    },
+    {
+      "t": 48.4,
+      "end": 69.3,
+      "text": "for business Central allowing you to build uh reach for data and build experiences on top of business Central we have plenty of various tools and mechanisms in that um integration area and we won't be covering everything today but there is a plenty of documentation and samples"
+    },
+    {
+      "t": 69.3,
+      "end": 89.4,
+      "text": "uh which are available under this link so please go and have a look at more details today we will be talking about few areas starting with power automate improvements in our integration with power automate in this wave we start with a very basic thing which is the linking of environments allowing you to"
+    },
+    {
+      "t": 89.4,
+      "end": 109.8,
+      "text": "um annotate which environment in power automate or or Power Platform is the one that you would like to use with business Central and that is especially important for larger customers and for those uh a linked environment which is um a feature available in tet admin Center will be also honored in our integration"
+    },
+    {
+      "t": 109.8,
+      "end": 130.3,
+      "text": "with power automate and for that we have a special assisted setup page allowing you to uh agree on that linked environment or change it with we have another uh feature that was rolled out recently and that is a new action in our connector find one record allowing you to"
+    },
+    {
+      "t": 130.3,
+      "end": 151,
+      "text": "pinpoint to a specific record in business Central using friendly search criteria um and then you know continuing with your logic in power automate and of course we also have an action uh which is called find records and that action allows you to uh find a selection of records and uh and then iterate on them"
+    },
+    {
+      "t": 151,
+      "end": 171,
+      "text": "within your power automate flow we added a lot of uh improvements related to job queue failures uh we have another recording uh in this set where my colleagues are talking about uh this whole set of features related to job cues in this wave but specifically"
+    },
+    {
+      "t": 171,
+      "end": 187.3,
+      "text": "for power automate we have added a new um business event and a set of power automate templates that will be available for you later allowing you to be notified when something is wrong with your job cues this will be an interesting feature I can assure"
+    },
+    {
+      "t": 187.3,
+      "end": 207.6,
+      "text": "you we have a support for new designer power automate right now comes with a new designer H which allows you to use copilot within power automate and build your flows with the help of copilot that is now fully enabled for business Central and you can use the uh new designer using our"
+    },
+    {
+      "t": 207.6,
+      "end": 228,
+      "text": "triggers uh which was uh not possible before speaking of co-pilot in power automate there is also a feature that was already discussed in the past you might have heard about that feature that we are working on allowing you to build flows uh using copilot inside business Central you can do it with"
+    },
+    {
+      "t": 228,
+      "end": 240.1,
+      "text": "within power automate as discussed but it will be also possible within business Central it's just this feature is still not ready will be coming later this wave"
+    },
+    {
+      "t": 240.1,
+      "end": 260.2,
+      "text": "we have also some interesting developments in copilot Studio the integration between business Central and co-pilot Studio copilot Studio allows you to build your own co-pilot experiences your own chatbots your your own experiences using uh Ai and"
+    },
+    {
+      "t": 260.2,
+      "end": 280.6,
+      "text": "generative Ai and that uh starts with knowledge uh sourced from either documents and websites or from business business from data from business data data coming from business Central as well and we may we are we are making sure that our connector Works smoothly within uh co-pilot"
+    },
+    {
+      "t": 280.6,
+      "end": 300.6,
+      "text": "studio and uh is able to connect the data and read data from within business Central so actions and plugins and data coming from business Central is available in copilot Studio you will hear more about that in uh in the coming months as co-pilot studio and business Central integration"
+    },
+    {
+      "t": 300.6,
+      "end": 321.4,
+      "text": "is uh is being enhanced the best way to illustrate this would be in a short demo so let's have a look I'm in business Central I can see my inventory what if I would like to define a co-pilot using copilot Studio a small co-pilot that will help with inventory related"
+    },
+    {
+      "t": 321.4,
+      "end": 341.6,
+      "text": "tasks this is new co-pilot Studio recently released an update uh that allows you to build copil using generative Ai and uh there are three important parts of this co-pilot definition for the for the copilot I built as you can see BC"
+    },
+    {
+      "t": 341.6,
+      "end": 362,
+      "text": "inventory helper the first one is the description and instructions and these are uh plain English language instructions for the copilot uh informing it what I expect out of it and here you of course you can provide more and more more instructions the second is knowledge"
+    },
+    {
+      "t": 362,
+      "end": 372.1,
+      "text": "and then that knowledge is in my case documentation for business Central so I pointed copilot Studio to business Central Public documentation"
+    },
+    {
+      "t": 372.1,
+      "end": 392.1,
+      "text": "website and then the third one is our actions and in my case I have only one action which is return inventory level that action is a power automate flow that searches for a specific item and returns inventory level for that item you might"
+    },
+    {
+      "t": 392.1,
+      "end": 412.1,
+      "text": "think about providing more and more actions for this scenario or for for any other scenario each of that action could be defined as a power automate flow you can also add different types of knowledge in copilot Studio you can also add Knowledge from data coming from data verse so if business Central data"
+    },
+    {
+      "t": 412.1,
+      "end": 422.6,
+      "text": "is synced to data verse that would also work and then one important uh part of our settings if I go to settings in copilot"
+    },
+    {
+      "t": 422.6,
+      "end": 442.6,
+      "text": "Studio very important part is this setting for generative AI I'm allowing this copilot to use generative AI so it behaves differently and it uses generative AI uh to uh figure out what to do in the classic Mode you would have to Define"
+    },
+    {
+      "t": 442.6,
+      "end": 463.5,
+      "text": "each topic and you would have to Define each flow for the copilot or for the bot in this new mode you can just describe what you want the co-pilot to do and it will do it for you the next important thing are channels and here in channels I have Microsoft"
+    },
+    {
+      "t": 463.5,
+      "end": 483.7,
+      "text": "teams and this copilot BC inventory helper is published already on teams so let's try to run it so right now I'm in Microsoft teams and the BCT inventory helper co-pilot is publish on teams I can start discussing uh inventory"
+    },
+    {
+      "t": 483.7,
+      "end": 492.6,
+      "text": "related topics but first of all I would like to ask for an inventory level for a given"
+    },
+    {
+      "t": 494,
+      "end": 514.1,
+      "text": "product I can ask a pilot about inventory level in different ways and it will return the answer based on the action I defined what is important I have never and nowhere defined how copilot should ask the user about a given item or"
+    },
+    {
+      "t": 514.1,
+      "end": 533.7,
+      "text": "how the item name should be provided this is all generated by copilot studio and as you can see copilot studio is able to call business Central action in this case my power automate flow and return the inventory but I can also ask about general"
+    },
+    {
+      "t": 533.7,
+      "end": 541.5,
+      "text": "knowledge so now I'm asking how to use the inventory on sales order"
+    },
+    {
+      "t": 541.8,
+      "end": 562.1,
+      "text": "and in this case copilot Studio use publicly available business Central documentation to come up with suggestions now let's switch gar to powerbi we have plenty of amazing content uh for powerbi and for that I would like to uh hand over to"
+    },
+    {
+      "t": 562.1,
+      "end": 583.8,
+      "text": "enrio thank you BL so I'm going to cover some of the powerbi improvements that we have done for this upcoming release and I will be talking about some new content that we have introduced as well as some new updated capabilities you have for the embed experience inside business Central and also some new improvements in our business Central connector for"
+    },
+    {
+      "t": 583.8,
+      "end": 604,
+      "text": "parbi let me start talking about some new content we have available for you so since the first minor update you will actually have access to some new apps in preview which contain a lot more than 60 actually different report pages that cover some of the most used areas inside business Central these are outof thee boox reports that you can just"
+    },
+    {
+      "t": 604,
+      "end": 624,
+      "text": "use uh directly from day one since we release these reports also will make use of some new functionality we have in the inad experience and I would like to switch to a demo and show you this in action so uh I now switch to my business Central and you can see that I'm in the RO Center and I have added"
+    },
+    {
+      "t": 624,
+      "end": 644.1,
+      "text": "with a custom extension some new links to my R Center here you can see they're called Finance or overview so now when I click one of those links you can see that a powerbi report opens embedded inside business Central and it takes all the real estate that is available on the screen so you can actually see the report in its full size this is uh one of the"
+    },
+    {
+      "t": 644.1,
+      "end": 659.8,
+      "text": "pages of one of the reports upcoming for the next uh minor release and you can see that now the report takes all the space and it also changes size nicely if the page is smaller or if the page is larger"
+    },
+    {
+      "t": 659.8,
+      "end": 679.9,
+      "text": "and this is of course one way you can ED the report but as a developer since this release you have some additional capabilities here so you can see that uh you can choose as a developer to embed the report with much more Rich uh context from the parbi embed experience so you can see in this case we have the filter panes and we have the bookmarks"
+    },
+    {
+      "t": 679.9,
+      "end": 700.2,
+      "text": "and different pages in the report I can switch to and of course this comes with all the nice filtering and clicking and drilling capabilities that powerbi offers out of the box I also would like to point out that before this release it was very cumbersome to bookmark one of these report pages in your business Central"
+    },
+    {
+      "t": 700.2,
+      "end": 720.4,
+      "text": "but here you can see that I have bookmarked this page so when I go back to the RO Center you will see in my home bar there is actually the page parbi Finance which is bookmarked for me so next time I can find it more easily also I would like to point out that from this release these pages are also searchable so if you search for finance overview you'll see that my Pages pop up"
+    },
+    {
+      "t": 720.4,
+      "end": 741.3,
+      "text": "in the search as well last thing I want to mention is that uh we also have a better multilanguage experience for our reports so for example if I had a user that speaks French and prefers to see the reports in French I could just as a developer specify that in the way I embed the report and as you can see my report opened in French"
+    },
+    {
+      "t": 741.3,
+      "end": 761.4,
+      "text": "now not all of the labels are translated we are still working on this so that's why it's upcoming for a minor release but you can see that my title for example shows up in French and so do my uh top insights in this report let me now switch from business Central to visual studio code so I can show you how the AL code for the extension I just showed you looks"
+    },
+    {
+      "t": 761.4,
+      "end": 781,
+      "text": "like you can see here that I just have around 50 lines of code so this is all you need really to create a page like the one I showed you just a second ago and you can see it just requires you to know the powerbi report you're embedding and then set in some different options to customize the user experience to your own"
+    },
+    {
+      "t": 781,
+      "end": 801.4,
+      "text": "needs and I would like to just mention that this was just a sneak peek of the report but if you want to know more about the upcoming reports you should make sure that you also watch the video that my colleagues are um doing for this release and that's going to introduce you more to what is coming what reports you will have access to and um what's the story behind all of these"
+    },
+    {
+      "t": 801.4,
+      "end": 821.7,
+      "text": "new reports now let me also summarize what you just saw in a couple of slides so you saw some new capability is when embedding reports in business Central and you as a developer will have a much more flexible um framework where you can choose the experience you want for your users if you want it to be more flexible more complete"
+    },
+    {
+      "t": 821.7,
+      "end": 833.9,
+      "text": "or more simple and straightforward I also want to mention that the powerbi addin is now in the system application which means you can just make use of it uh directly from your"
+    },
+    {
+      "t": 833.9,
+      "end": 854,
+      "text": "app if you're a larger isv and you have a lot of reports that you want to embed with in business Central you can use our code generator this is available in our bcch repo or directly at the link that you can see on screen you can use this and just input an Excel file to the generator and you'll get out all the AL pages"
+    },
+    {
+      "t": 854,
+      "end": 866,
+      "text": "that you need uh each of them pointing to the report that you prefer and you can just uh that way have a much easier maintenance of your extension that uh uses powerbi"
+    },
+    {
+      "t": 866,
+      "end": 886,
+      "text": "integration you also saw some sneak peek on our multilanguage support from this release multilanguage support is baked into a platform level so it's actually directly inside the powerbi report which means you don't need to have uh web services for example that expose different languages labels you can just have everything inside"
+    },
+    {
+      "t": 886,
+      "end": 907.3,
+      "text": "the powerbi report so as a report Creator and especially as an isv you have a much easier time building your reports and distributing them to your customers we have also in bch a tool that you can use to embed the translations inside your PBX file so make sure you go there and have a look at the rhy files to understand how this works in"
+    },
+    {
+      "t": 907.3,
+      "end": 927.3,
+      "text": "practice another set of improvements we introduced is regarding the powerbi connector for business Central we have added some new options so that you as a report Creator can have more flexibility when it comes to uh the way the report should refresh and connect to business Central notice that these already default to what we think is the best value for them um so you don't really"
+    },
+    {
+      "t": 927.3,
+      "end": 946,
+      "text": "need to customize those but you might have some specific scenario that requires you to specify for example a different timeout for the O data queries and from this release you can do that and you can take full advantage of our connector thank you for your attention this is all we have for you today thanks a lot"
+    }
+  ],
+  "markers": [
+    {
+      "t": 1.04,
+      "text": "[Music]"
+    },
+    {
+      "t": 8.07,
+      "text": "[Music]"
+    },
+    {
+      "t": 8.08,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 2560
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-how-to-trace-item-tracked-items",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,13 @@
       "blob": "2624bb1d8b017a8c004d665e8830db636871c1d0",
       "words": 592,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:07:07.234Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.003942
     }
   },
   "input_hash": "2624bb1d8b017a8c004d665e8830db636871c1d0",
@@ -35,5 +42,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "2624bb1d8b017a8c004d665e8830db636871c1d0"
+  "output_hash": "3c9d9346876b9ee14e320576c76702074a39af97ce8a4652d82ea7a8759d95c9"
 }

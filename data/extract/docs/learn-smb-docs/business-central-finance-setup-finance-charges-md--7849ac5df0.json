@@ -1,0 +1,55 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-setup-finance-charges.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-setup-finance-charges",
+  "title": "Set Up Finance Charge Terms",
+  "blob": "8a50454e4423f2f774c09396d36ecfe657b5aeff",
+  "summary": "Set Up Finance Charge Terms explains how to configure finance charge calculations for overdue customer amounts using average daily balance or balance due methods, including multi-currency support and memo text customization.",
+  "systems": [
+    "sales",
+    "finance"
+  ],
+  "topics": [
+    "finance charges",
+    "overdue payments",
+    "interest calculation",
+    "customer management",
+    "collections"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Finance Charge Terms"
+    },
+    {
+      "type": "table",
+      "name": "Finance Charge Text"
+    },
+    {
+      "type": "page",
+      "name": "Currencies for Fin. Chrg. Terms"
+    },
+    {
+      "type": "page",
+      "name": "Customer"
+    }
+  ],
+  "features": [
+    "average daily balance method",
+    "balance due method",
+    "additional fees",
+    "multi-currency support",
+    "finance charge memo text",
+    "text placeholders"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00475,
+      "pages_in_call": 8
+    }
+  ]
+}

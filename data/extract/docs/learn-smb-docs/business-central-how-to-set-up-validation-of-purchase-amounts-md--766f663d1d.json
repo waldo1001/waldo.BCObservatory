@@ -1,0 +1,50 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/how-to-set-up-validation-of-purchase-amounts.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/how-to-set-up-validation-of-purchase-amounts",
+  "title": "Set up validation of purchase amounts",
+  "blob": "e236b1d609611d90321abf511ef325262405f82e",
+  "summary": "Set up validation of purchase amounts describes enabling total amount validation on purchase invoices and credit memos to verify document totals match line totals before posting.",
+  "systems": [
+    "purchasing",
+    "finance"
+  ],
+  "topics": [
+    "purchase validation",
+    "invoice verification",
+    "vat calculation",
+    "amount checking"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Purchases & Payables Setup"
+    },
+    {
+      "type": "page",
+      "name": "Purchase Invoice"
+    },
+    {
+      "type": "page",
+      "name": "Purchase Credit Memo"
+    }
+  ],
+  "features": [
+    "document total validation",
+    "vat amount verification",
+    "automatic vat calculation",
+    "total line display"
+  ],
+  "versions": [
+    "2025 release wave 1"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00475,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/intercompany-allocate-costs",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "87c7d20e470572cee439e7a55ec61e3244381d73",
       "words": 963,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:06:40.562Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 6,
+      "cost_usd": 0.00475
+    },
+    "summarized": {
+      "at": "2026-10-06T19:06:40.580Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:06:40.580Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:06:40.581Z",
+      "page": false
     }
   },
   "input_hash": "87c7d20e470572cee439e7a55ec61e3244381d73",
@@ -37,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "87c7d20e470572cee439e7a55ec61e3244381d73"
+  "output_hash": "2a4f13587dbf6144eb18cff2d10807f48c39b8d40ac769e9e5f3e87fdef2cad1"
 }

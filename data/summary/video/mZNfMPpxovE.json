@@ -1,0 +1,27 @@
+{
+  "video_id": "mZNfMPpxovE",
+  "item_id": "video/yt-microsoft/mZNfMPpxovE",
+  "summary": "GP Historical Snapshot in Business Central: configuring and running a migration of GP transactional data into extension tables, then viewing it in list pages for GL, customers, vendors and items. Covers the GP Company Migration Configuration page, module and date range selection, and monitoring progress.",
+  "overview": "The video demonstrates the GP Snapshot, which brings transactional information from Dynamics GP into Business Central extension tables so that historical data can be viewed in list pages. Configuration is done through the cloud migration wizard or the cloud migration management page, where you pick the module transactions to migrate and how far back to go.\n\nAfter the cloud migration completes, the snapshot runs automatically and its progress can be followed in tiles on the cloud migration management page. The demo then walks through the GP Detail Snapshot views for GL accounts, customers, vendors and items, including export to Excel, filtering and drill-through.",
+  "key_points": [
+    "The snapshot stores GP transactional data in extension tables and shows it in list pages in Business Central.",
+    "Configure it before migration starts, through the cloud migration wizard or the cloud migration management page (GP Company Migration Configuration page).",
+    "You select which module transactions to migrate and the date range. The default year follows the GL summary setting, but you can use a different range, for example 3 years of GL summary and 7 years of transactions.",
+    "The snapshot runs automatically once the cloud migration is complete. Progress is shown in tiles on the cloud migration management page.",
+    "GL detail is under the chart of accounts as GP Detail Snapshot. It comes from the GP 20,000 and 30,000 tables (open and history), and can be exported to Excel, filtered, and searched by journal entry number, with drill-through to subledger transactions.",
+    "Customer and vendor lists have a GP Detail Snapshot option (receivables and sales order processing for customers, payables and purchase receiving for vendors), filterable by a specific record.",
+    "Item snapshot data for inventory transactions is available under items, but there are no tiles for the item list navigation."
+  ],
+  "audience": [
+    "administrator",
+    "functional consultant",
+    "partner"
+  ],
+  "extraction_hash": "96edf2228a899a8b28ad32a3cf725285dc09e91ee2679780685e80137af53264",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0166864
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/inventory-how-categorize-items.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-how-categorize-items",
+  "title": "Organize items in categories",
+  "blob": "c5c3a1318bb6f4e23187a326e8d372d02f6fb7bb",
+  "summary": "Organize items into categories and assign item attributes to items and categories for better inventory overview and product finding.",
+  "systems": [
+    "inventory"
+  ],
+  "topics": [
+    "item categorization",
+    "categories",
+    "item attributes",
+    "organization"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Item Categories"
+    },
+    {
+      "type": "page",
+      "name": "Item Category Card"
+    }
+  ],
+  "features": [
+    "item categories",
+    "parent categories",
+    "item attributes",
+    "category assignment"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003942,
+      "pages_in_call": 8
+    }
+  ]
+}

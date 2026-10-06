@@ -1,0 +1,63 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/intercompany-how-manage-intercompany-inbox.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/intercompany-how-manage-intercompany-inbox",
+  "title": "Manage the Intercompany Inbox and Outbox",
+  "blob": "dc835bce1af548b9ef6bf0fd13df5676d13eebc1",
+  "summary": "Manage the Intercompany Inbox and Outbox describes processing incoming and outgoing intercompany transactions, including accepting, rejecting, and recreating transactions between partner companies.",
+  "systems": [
+    "finance",
+    "integration"
+  ],
+  "topics": [
+    "intercompany transactions",
+    "inbox",
+    "outbox",
+    "partner management",
+    "document processing"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Intercompany Inbox Transactions"
+    },
+    {
+      "type": "page",
+      "name": "Intercompany Outbox Transactions"
+    },
+    {
+      "type": "page",
+      "name": "Handled Intercompany Inbox Transactions"
+    },
+    {
+      "type": "page",
+      "name": "Handled Intercompany Outbox Transactions"
+    },
+    {
+      "type": "page",
+      "name": "Complete IC Inbox Action"
+    },
+    {
+      "type": "report",
+      "name": "Intercompany Transactions"
+    }
+  ],
+  "features": [
+    "transaction acceptance",
+    "transaction rejection",
+    "auto-accept transactions",
+    "inbox import",
+    "outbox management",
+    "transaction recreation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00475,
+      "pages_in_call": 8
+    }
+  ]
+}
