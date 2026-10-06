@@ -1,0 +1,582 @@
+{
+  "video_id": "NE7NIjpkX3c",
+  "item_id": "video/yt-microsoft/NE7NIjpkX3c",
+  "title": "What's New: Prepare Your Copilot Extension - Practical Considerations (2025 release wave 1)",
+  "duration_s": 1674,
+  "systems": [
+    "copilot",
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "copilot extension",
+    "cloud deployment",
+    "large language models",
+    "prompt engineering",
+    "model versions",
+    "hallucinations",
+    "fabrications",
+    "test automation",
+    "validation",
+    "responsible ai",
+    "function calling",
+    "grounding"
+  ],
+  "chapters": [
+    {
+      "title": "Copilot Extension in Microsoft Cloud",
+      "t_start": 0,
+      "t_end": 138.4
+    },
+    {
+      "title": "Available Models and Access",
+      "t_start": 138.4,
+      "t_end": 257.9
+    },
+    {
+      "title": "Prompt Engineering and Quality",
+      "t_start": 257.9,
+      "t_end": 421.6
+    },
+    {
+      "title": "Model Versions and Testing",
+      "t_start": 421.6,
+      "t_end": 601
+    },
+    {
+      "title": "Testing and Model Upgrades",
+      "t_start": 601,
+      "t_end": 660.7
+    },
+    {
+      "title": "Hallucinations and Fabrications",
+      "t_start": 660.7,
+      "t_end": 782.8
+    },
+    {
+      "title": "LLM Response Validation",
+      "t_start": 782.8,
+      "t_end": 1004.8
+    },
+    {
+      "title": "Validation in Marketing Text and Documentation",
+      "t_start": 1004.8,
+      "t_end": 1106.4
+    },
+    {
+      "title": "Grounding Copilots in Data",
+      "t_start": 1106.4,
+      "t_end": 1219.4
+    },
+    {
+      "title": "Tools for Copilot Extensions",
+      "t_start": 1219.4,
+      "t_end": 1462.5
+    },
+    {
+      "title": "Optimal Tool Quantity and Best Practices",
+      "t_start": 1462.5,
+      "t_end": 1584.4
+    },
+    {
+      "title": "Recommendations for Copilot Extension Development",
+      "t_start": 1584.4,
+      "t_end": 1674
+    }
+  ],
+  "features": [
+    {
+      "name": "Copilot Extension Cloud Deployment",
+      "description": "Partners can now upload their Copilot extension to a Business Central sandbox environment and run it in Microsoft cloud using Microsoft AI resources without managing LLM models, deployment, or availability.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 5.7,
+      "t_end": 86.3,
+      "is_demoed": false,
+      "caveats": [
+        "Requires AL sandbox environment",
+        "No special programs needed anymore"
+      ],
+      "tags": [
+        "copilot",
+        "cloud",
+        "deployment",
+        "extension",
+        "resources"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Shared Infrastructure for Copilot",
+      "description": "Partners now use the same framework and infrastructure as Microsoft to build Copilot experiences, with extensions going through the IIA toolkit consuming cloud compiled services and accessing large language models.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 86.3,
+      "t_end": 127,
+      "is_demoed": false,
+      "caveats": [
+        "Same infrastructure applies to platform fork and agentic frameworks"
+      ],
+      "tags": [
+        "infrastructure",
+        "framework",
+        "parity",
+        "extension",
+        "llm"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "GPT-4o and GPT-4o Mini Model Access",
+      "description": "Partners have access to GPT-4o and GPT-4o mini models as flagship models with different capabilities for deep reasoning and fast processing.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 138.4,
+      "t_end": 178.8,
+      "is_demoed": false,
+      "caveats": [
+        "Other models like Deep Seek R1 and reasoning models available elsewhere but not yet in Business Central",
+        "Capacity constraints in all Azure regions must be met before rolling out new models"
+      ],
+      "tags": [
+        "models",
+        "gpt-4o",
+        "llm",
+        "access",
+        "reasoning"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Azure OpenAI Abstraction Layer",
+      "description": "Partners can request latest GPT-4o or GPT-4o mini models through the abstraction layer without managing different model versions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 178.8,
+      "t_end": 198.9,
+      "is_demoed": false,
+      "caveats": [
+        "Abstracts complexity of different model versions"
+      ],
+      "tags": [
+        "abstraction",
+        "azure",
+        "openai",
+        "api",
+        "deployment"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Additional Models Coming When Capacity Available",
+      "description": "Business Central is evaluating Deep Seek R1 and other reasoning models released recently by Microsoft and OpenAI, but will only make them available once sufficient capacity exists across all Azure regions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 198.9,
+      "t_end": 257.9,
+      "is_demoed": false,
+      "caveats": [
+        "Deep Seek R1 and other reasoning models not yet available",
+        "Capacity must exist in all regions where Business Central has customers",
+        "Timeline not specified"
+      ],
+      "tags": [
+        "models",
+        "capacity",
+        "rollout",
+        "announced",
+        "reasoning"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Prompt Engineering Guidelines",
+      "description": "Good prompts should be clear, specific, provide enough instructions, and include additional details for creative tasks.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 257.9,
+      "t_end": 340.8,
+      "is_demoed": true,
+      "caveats": [
+        "Testing is more important than prompt styling",
+        "Model versions behave differently so test coverage is critical"
+      ],
+      "tags": [
+        "prompt",
+        "engineering",
+        "guidelines",
+        "ai",
+        "instructions"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Model Version Variations",
+      "description": "Model versions change behaviors overnight and are not necessarily backward compatible. New versions can be faster or cheaper but may regress performance on existing prompts.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 421.6,
+      "t_end": 560.6,
+      "is_demoed": true,
+      "caveats": [
+        "Version updates can cause unexpected prompt behavior changes",
+        "Not backward compatible",
+        "Email quality regression example shown"
+      ],
+      "tags": [
+        "models",
+        "versions",
+        "regression",
+        "testing",
+        "compatibility"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Test Automation for Prompt Validation",
+      "description": "Partners should write test automation from day zero to verify expected outcomes and ensure prompts continue working as models and versions change.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 560.6,
+      "t_end": 641.6,
+      "is_demoed": false,
+      "caveats": [
+        "More important than prompt styling precision",
+        "Protects against prompt regression",
+        "Multiple BC sessions cover test toolkit and responsible AI principles"
+      ],
+      "tags": [
+        "testing",
+        "automation",
+        "validation",
+        "regression",
+        "prompts"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Hallucinations and Fabrications Management",
+      "description": "Large language models fabricate answers by predicting statistically likely text rather than admitting lack of knowledge, especially problematic in Business Central where users need to take trusted actions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 660.7,
+      "t_end": 863.7,
+      "is_demoed": true,
+      "caveats": [
+        "Models copy response patterns from training data",
+        "Can give deceiving answers that sound correct",
+        "Critical for business Central domain",
+        "Priority number one to tackle"
+      ],
+      "tags": [
+        "hallucinations",
+        "fabrications",
+        "validation",
+        "responsible-ai",
+        "trust"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "LLM Response Validation",
+      "description": "A technique to validate that LLM responses are grounded in actual data before surfacing them to users. The approach involves checking if responses are legitimate and not hallucinating before proceeding.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 863.7,
+      "t_end": 1004.8,
+      "is_demoed": false,
+      "caveats": [
+        "Requires extra verification time, may add latency",
+        "Not yet detailed in initial segment"
+      ],
+      "tags": [
+        "validation",
+        "response",
+        "llm",
+        "fabrication",
+        "control",
+        "grounding"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Marketing Text Generation with Validation",
+      "description": "A feature that generates marketing text for products while validating that dimensions, numbers, and other details come from the database rather than LLM fabrication. Accuracy improved from 6% to very high numbers through validation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1004.8,
+      "t_end": 1106.4,
+      "is_demoed": false,
+      "caveats": [
+        "Complex validation required for dimensions and properties"
+      ],
+      "tags": [
+        "marketing",
+        "text generation",
+        "validation",
+        "product"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Copilot Documentation Chat with Grounding",
+      "description": "A feature that answers user questions about Business Central documentation by retrieving trusted articles from Microsoft Learn and verifying responses are grounded before showing them to users.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1106.4,
+      "t_end": 1219.4,
+      "is_demoed": false,
+      "caveats": [
+        "Requires verification time that may add 200+ milliseconds latency"
+      ],
+      "tags": [
+        "documentation",
+        "chat",
+        "verification",
+        "grounding"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Tools for Copilot Extensions",
+      "description": "A concept that allows copilot extensions to define functions or tools that can query Business Central data and inject real-time information into LLM responses. Tools are defined in AL code and enable grounded, verified responses.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1219.4,
+      "t_end": 1462.5,
+      "is_demoed": true,
+      "caveats": [
+        "Too many tools reduce reliability; limit to around 5 tools",
+        "Requires careful design to avoid overwhelming the LLM"
+      ],
+      "tags": [
+        "tools",
+        "function calling",
+        "extensions",
+        "data access",
+        "grounding"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Function Calling for Copilot",
+      "description": "Support for multiple function calling within AI toolkit to enable copilots to call defined functions in extensions to retrieve and update business data reliably.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1462.5,
+      "t_end": 1652.4,
+      "is_demoed": false,
+      "caveats": [
+        "Should use around 5 tools maximum for good accuracy",
+        "Technology may improve allowing more tools over time"
+      ],
+      "tags": [
+        "function calling",
+        "tools",
+        "ai toolkit",
+        "copilot"
+      ],
+      "system": "copilot"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Sales Order Page",
+      "t": 762.6
+    },
+    {
+      "type": "other",
+      "name": "Production Order",
+      "t": 680.8
+    },
+    {
+      "type": "other",
+      "name": "Credit Memo",
+      "t": 680.8
+    },
+    {
+      "type": "other",
+      "name": "Sales Invoice",
+      "t": 721.1
+    },
+    {
+      "type": "other",
+      "name": "Purchase Order",
+      "t": 721.1
+    },
+    {
+      "type": "other",
+      "name": "code unit",
+      "t": 1361.2
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 5.7,
+      "text": "in this release we allow you to bring your capalot extension and finally run it in the Microsoft cloud based on our Microsoft II",
+      "why_it_matters": "Core announcement - Copilot extensions can now run in Microsoft cloud, a major milestone for partner development.",
+      "check": "exact"
+    },
+    {
+      "t": 86.3,
+      "text": "finally you and us have a same framework and infrastructure how do we build our compal experiences",
+      "why_it_matters": "Partners now have parity with Microsoft in tools and infrastructure for building Copilot features.",
+      "check": "exact"
+    },
+    {
+      "t": 138.4,
+      "text": "as a part of our def tools today we give you access to GPT for or and GPT for all mini",
+      "why_it_matters": "Specifies which LLM models are currently available to partners.",
+      "check": "snapped"
+    },
+    {
+      "t": 219,
+      "text": "before we as a business Central can give you access to those models we need to make sure that all the world where we",
+      "why_it_matters": "Explains capacity-first strategy for rolling out new models across regions.",
+      "check": "exact"
+    },
+    {
+      "t": 528.7,
+      "text": "new versions can be faster or sometimes cheaper and so on so forth so and because every model is not better is different sometimes",
+      "why_it_matters": "Model updates are not backward compatible and can degrade performance, making testing critical.",
+      "check": "exact"
+    },
+    {
+      "t": 601,
+      "text": "it's much much more important for practical considerations to make sure your prompts will continue to work as we're going to update models",
+      "why_it_matters": "Test automation matters more than prompt engineering perfection for production extensions.",
+      "check": "exact"
+    },
+    {
+      "t": 721.1,
+      "text": "large language models just copy those uh type of response if you will because it's trying to be helpful but it definitely lead to",
+      "why_it_matters": "Explains root cause of fabrications - LLMs generate likely text rather than admitting knowledge gaps.",
+      "check": "snapped"
+    },
+    {
+      "t": 843.7,
+      "text": "large language models always try to predict next words or talking and it always try to be helpful and finish the sentence and instead",
+      "why_it_matters": "Explains the root cause of LLM hallucinations and fabrications in business contexts",
+      "check": "exact"
+    },
+    {
+      "t": 883.9,
+      "text": "always validate l l m response",
+      "why_it_matters": "Fundamental principle for mitigating hallucinations in Business Central Copilot extensions.",
+      "check": "exact"
+    },
+    {
+      "t": 944.5,
+      "text": "whenever we never surface any llm response from a system to the user unless we verify they're grounded and they true",
+      "why_it_matters": "States Microsoft's core validation principle for trustworthy copilot responses",
+      "check": "exact"
+    },
+    {
+      "t": 1065.5,
+      "text": "having that small technique just to validate llm for this particular feature allow us to increase accuracy meaning it works from 6",
+      "why_it_matters": "Quantifies the impact of validation on feature accuracy, showing dramatic improvement",
+      "check": "fuzzy"
+    },
+    {
+      "t": 1321.1,
+      "text": "exactly same approach we can use in business Central to make sure we can answer the question about business data in a trustful and",
+      "why_it_matters": "Connects the tools pattern from ChatGPT to practical Business Central copilot implementation",
+      "check": "exact"
+    },
+    {
+      "t": 1523.9,
+      "text": "tools are awesome it's a best tool for a job to retrieve data from a system to enrich your responses to make sure it's",
+      "why_it_matters": "Provides OpenAI guidance on tool limits and recommends fewer than 20 functions",
+      "check": "snapped"
+    },
+    {
+      "t": 1544,
+      "text": "if you look at Microsoft features we use around five fiveish and we see pretty pretty good U results so we would suggest you",
+      "why_it_matters": "Establishes Microsoft's empirical recommendation of approximately 5 tools for optimal copilot performance",
+      "check": "snapped"
+    },
+    {
+      "t": 1618.7,
+      "text": "if you want to build like a gut capil which can help you with everything uh you probably don't have enough technology for now",
+      "why_it_matters": "Advises against building overly broad copilots and recommends staying specific and humble",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 25.8,
+      "kind": "other",
+      "text": "in this release we finally give you ability to run your extension in our Microsoft cloud"
+    },
+    {
+      "t": 219,
+      "kind": "coming-later",
+      "text": "Deep Seek R1 reasoning Model and other reasoning models we need capacity before we can give you access to those models"
+    },
+    {
+      "t": 1188.2,
+      "kind": "other",
+      "text": "dealing with Fabrications should be a number one priority as you consider to bring copilot to your users just to avoid lack of trust frustration bad reputation brand damage"
+    },
+    {
+      "t": 1632.2,
+      "kind": "other",
+      "text": "over the last releases and this release we have a number of great great videos how to extend copilot in business Central and how to build your own copilot"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 15,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 14
+  },
+  "windows": 2,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.0746531
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.024651
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.02409
+    }
+  ]
+}

@@ -1,0 +1,323 @@
+{
+  "video_id": "SdQVQLNXVS0",
+  "item_id": "video/yt-microsoft/SdQVQLNXVS0",
+  "title": "What's New in Manufacturing: Order Processing (2025 release wave 1)",
+  "duration_s": 187,
+  "systems": [
+    "manufacturing",
+    "inventory",
+    "reporting"
+  ],
+  "topics": [
+    "production order",
+    "usability",
+    "bulk status change",
+    "attachments",
+    "scheduling",
+    "safety lead time",
+    "routing",
+    "item tracking",
+    "output transactions",
+    "barcode labels",
+    "excel integration"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to usability improvements in production order handling",
+      "t_start": 0,
+      "t_end": 16.8
+    },
+    {
+      "title": "Bulk status changes and production order movement",
+      "t_start": 16.8,
+      "t_end": 57.6
+    },
+    {
+      "title": "Scheduling, safety lead time, and attachments in production orders",
+      "t_start": 57.6,
+      "t_end": 91.9
+    },
+    {
+      "title": "Business posting groups, component availability, and routing enhancements",
+      "t_start": 91.9,
+      "t_end": 120.1
+    },
+    {
+      "title": "Item tracking in consumption and output journals with Excel support",
+      "t_start": 120.1,
+      "t_end": 147.2
+    },
+    {
+      "title": "Barcode label printing for tracked items and summary",
+      "t_start": 147.2,
+      "t_end": 187
+    }
+  ],
+  "features": [
+    {
+      "name": "Ability to block output transactions",
+      "description": "Added capability to block output transactions in production order handling.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 5.4,
+      "t_end": 16.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "output transactions",
+        "production order"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Bulk status change for production orders",
+      "description": "Production orders can be bulk moved between statuses. Select all and use change status functionality.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 37.5,
+      "t_end": 48.1,
+      "is_demoed": true,
+      "caveats": [
+        "Most are converted. The rest need analysis and action."
+      ],
+      "tags": [
+        "bulk operations",
+        "status management",
+        "production order"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Safety lead time buffer in production orders",
+      "description": "The production order includes a buffer between the due date and end date based on safety lead time in a manufacturing setup or item card.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 57.6,
+      "t_end": 69.4,
+      "is_demoed": false,
+      "caveats": [
+        "Manual scheduling field must be activated on the manufacturing setup page."
+      ],
+      "tags": [
+        "scheduling",
+        "safety lead time",
+        "production order"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Rescheduling production orders without changing due date",
+      "description": "Orders can be rescheduled without changing the due date. Moving the end date beyond the due date will prompt a confirmation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 57.6,
+      "t_end": 69.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "scheduling",
+        "production order",
+        "rescheduling"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Attachments in production order headers and lines",
+      "description": "Attachments are now included in headers and production order lines automatically populated with information about items, bills of material, and routing.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 81.8,
+      "t_end": 91.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "attachments",
+        "production order",
+        "automation"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Default business posting group in production orders",
+      "description": "The business posting group code in the production order can be defaulted to the value defined in the default general business posting group field on the manufacturing setup page.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 91.9,
+      "t_end": 103.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "posting groups",
+        "production order",
+        "defaulting"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Improved component availability information",
+      "description": "Availability information for components is improved. Select items can be used to add additional items.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 103.1,
+      "t_end": 120.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "components",
+        "availability",
+        "production order"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Enhanced routing overview and link code updates",
+      "description": "An overview of activities and routings is enhanced. Routing link code can also be updated within routings affecting the start date for connected components.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 120.1,
+      "t_end": 133,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "routing",
+        "production order",
+        "scheduling"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Item tracking in consumption and output journals",
+      "description": "Consumption and output journals now feature tracking and lines like the item journal. Edit in Excel capability can be utilized to populate item tracking details.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 133,
+      "t_end": 147.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "item tracking",
+        "journals",
+        "excel integration"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Barcode label printing for tracked items",
+      "description": "Barcode labels can be printed for items with tracking from both released and finished production orders.",
+      "status": "ga",
+      "status_evidence_t": 163,
+      "status_evidence_quote": "Barcode labels can be printed for items with tracking from both released and finished production orders.",
+      "status_evidence_verified": true,
+      "t_start": 163,
+      "t_end": 177.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "barcode labels",
+        "item tracking",
+        "printing"
+      ],
+      "system": "manufacturing"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "planning worksheet",
+      "t": 16.8
+    },
+    {
+      "type": "page",
+      "name": "manufacturing setup",
+      "t": 69.4
+    },
+    {
+      "type": "page",
+      "name": "manufacturing setup page",
+      "t": 91.9
+    },
+    {
+      "type": "table",
+      "name": "item card",
+      "t": 57.6
+    },
+    {
+      "type": "other",
+      "name": "item journal",
+      "t": 133
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 5.4,
+      "text": "Productivity increases when processes are easy. So we improved usability in the different areas within production order handling.",
+      "why_it_matters": "Sets the theme of the release focusing on usability improvements rather than new major functionality.",
+      "check": "exact"
+    },
+    {
+      "t": 37.5,
+      "text": "Production orders can be bulk moved between statuses. Select all and use change status.",
+      "why_it_matters": "Demonstrates a new bulk operation capability that reduces manual effort in production order management.",
+      "check": "exact"
+    },
+    {
+      "t": 57.6,
+      "text": "The production order includes a buffer between the due date and end date based on safety lead time in a manufacturing setup or item",
+      "why_it_matters": "Explains the new safety lead time buffer mechanism and where it is configured.",
+      "check": "exact"
+    },
+    {
+      "t": 81.8,
+      "text": "Attachments are now included in headers and production order lines automatically populated with information about items, bills of material, and routing.",
+      "why_it_matters": "Highlights automatic population of contextual information in attachments, improving data consistency.",
+      "check": "exact"
+    },
+    {
+      "t": 120.1,
+      "text": "Routing link code can also be updated within routings affecting the start date for connected components.",
+      "why_it_matters": "Shows how routing updates now have cascading effects on component scheduling.",
+      "check": "exact"
+    },
+    {
+      "t": 133,
+      "text": "Consumption and output journals now feature tracking and lines like the item journal.",
+      "why_it_matters": "Explains that production journals now support item tracking similar to standard inventory functionality.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 1,
+    "evidence_unverified": 9
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.017353
+    }
+  ]
+}

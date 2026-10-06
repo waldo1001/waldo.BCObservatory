@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=RU3D3RMAvVI",
   "published_at": "2025-04-01T15:00:29.000Z",
   "language": "en",
-  "state": "extracted",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
@@ -38,6 +38,26 @@
         "claude-haiku-4-5-20251001"
       ],
       "cost_usd": 0.019974
+    },
+    "summarized": {
+      "at": "2026-10-06T18:47:01.500Z",
+      "path": "data/summary/video/RU3D3RMAvVI.json",
+      "prompt": "summarize-video@2",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": 0.0123604
+    },
+    "linked": {
+      "at": "2026-10-06T18:47:01.502Z",
+      "systems": [
+        "reporting",
+        "development"
+      ],
+      "topics": 7,
+      "objects_as_heard": 2
+    },
+    "published": {
+      "at": "2026-10-06T18:47:01.517Z",
+      "path": "content/videos/RU3D3RMAvVI.md"
     }
   },
   "input_hash": null,
@@ -55,5 +75,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "54826142b52d468dd02fc8fe81c1dfcf7f5cb376d2188a0acbac9e4aadbe333b"
+  "output_hash": "73e5f939b7c1a93a52579720e1268a23bd58e721d908d187424b2d1d2ba56985"
 }

@@ -1,0 +1,363 @@
+{
+  "video_id": "QGIr_XPp8lk",
+  "item_id": "video/yt-microsoft/QGIr_XPp8lk",
+  "title": "What's New: Extending E-Documents with New Interface (2025 release wave 1)",
+  "duration_s": 827,
+  "systems": [
+    "integration",
+    "localization",
+    "development"
+  ],
+  "topics": [
+    "e-documents",
+    "interfaces",
+    "api design",
+    "connector development",
+    "sending documents",
+    "receiving documents",
+    "error handling",
+    "document actions",
+    "migration"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and context",
+      "t_start": 0,
+      "t_end": 56.3
+    },
+    {
+      "title": "Challenges in the existing framework",
+      "t_start": 56.3,
+      "t_end": 153.5
+    },
+    {
+      "title": "Problems to solve and design goals",
+      "t_start": 153.5,
+      "t_end": 239.1
+    },
+    {
+      "title": "Five new interfaces architecture",
+      "t_start": 239.1,
+      "t_end": 332.4
+    },
+    {
+      "title": "Sending documents with new interfaces",
+      "t_start": 332.4,
+      "t_end": 485.4
+    },
+    {
+      "title": "Receiving documents and new capabilities",
+      "t_start": 485.4,
+      "t_end": 675
+    },
+    {
+      "title": "Key benefits and improvements",
+      "t_start": 675,
+      "t_end": 761.2
+    },
+    {
+      "title": "Migration path and next steps",
+      "t_start": 761.2,
+      "t_end": 827
+    }
+  ],
+  "features": [
+    {
+      "name": "I document sender interface",
+      "description": "New interface for handling document sending with improved parameters including send context code unit as third parameter providing HTTP response and request information and data wrapper.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 349.9,
+      "t_end": 394.3,
+      "is_demoed": true,
+      "caveats": [
+        "Replaces old e document integration interface for sending"
+      ],
+      "tags": [
+        "api design",
+        "sending",
+        "interfaces"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "I document response handler interface",
+      "description": "New optional interface for handling asynchronous responses when sending documents to services that process and verify contents before responding.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 405,
+      "t_end": 466,
+      "is_demoed": true,
+      "caveats": [
+        "Optional implementation",
+        "Only used for asynchronous communication scenarios"
+      ],
+      "tags": [
+        "async responses",
+        "sending",
+        "interfaces"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "I document receiver interface",
+      "description": "New interface for handling document receiving with two functions: receive documents for getting metadata and download document for fetching actual document contents, eliminating need for is handled events.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 497.7,
+      "t_end": 633.9,
+      "is_demoed": true,
+      "caveats": [
+        "Requires migration from old receive document and get document count approach"
+      ],
+      "tags": [
+        "receiving",
+        "interfaces",
+        "error handling"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "I received document marker interface",
+      "description": "Optional interface to acknowledge receipt of documents to services that track received status to prevent duplicate sending.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 633.9,
+      "t_end": 654.9,
+      "is_demoed": false,
+      "caveats": [
+        "Optional implementation"
+      ],
+      "tags": [
+        "receiving",
+        "interfaces"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "I document action interface",
+      "description": "New interface for standardizing document actions allowing connectors to implement custom service calls without managing state in the e document framework.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 273.5,
+      "t_end": 317.5,
+      "is_demoed": false,
+      "caveats": [
+        "Framework handles state updates"
+      ],
+      "tags": [
+        "document actions",
+        "interfaces"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "E-document framework error handling improvements",
+      "description": "Enhanced error handling for receiving logic when integration services are unavailable, preventing unexpected e document states and maintaining framework control.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 96.1,
+      "t_end": 122.5,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "error handling",
+        "receiving",
+        "robustness"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Send context code unit wrapper",
+      "description": "New parameter providing HTTP response and request information wrapper passed as third parameter to sending interface implementations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 361.6,
+      "t_end": 381.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "http",
+        "sending"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Receive context data template",
+      "description": "Variable wrapper containing HTTP response and request data in receiving context provided to receiver implementations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 556.3,
+      "t_end": 592.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "http",
+        "receiving"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Updated Avalara connector",
+      "description": "Avalara connector updated to use new e-document interfaces",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 317.5,
+      "t_end": 332.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "connector",
+        "avalara"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Deprecated e-document integration interface removal timeline",
+      "description": "Old e-document integration interface is deprecated and will be removed in three waves by 2026 wave 2.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 761.2,
+      "t_end": 773.2,
+      "is_demoed": false,
+      "caveats": [
+        "Migration required before 2026 wave 2"
+      ],
+      "tags": [
+        "deprecation",
+        "migration"
+      ],
+      "system": "integration"
+    }
+  ],
+  "objects": [
+    {
+      "type": "interface",
+      "name": "I document sender",
+      "t": 349.9
+    },
+    {
+      "type": "interface",
+      "name": "I document response handler",
+      "t": 405
+    },
+    {
+      "type": "interface",
+      "name": "I document receiver",
+      "t": 530.9
+    },
+    {
+      "type": "interface",
+      "name": "I received document marker",
+      "t": 633.9
+    },
+    {
+      "type": "interface",
+      "name": "I document action",
+      "t": 273.5
+    },
+    {
+      "type": "codeunit",
+      "name": "send context",
+      "t": 361.6
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Unknown speaker",
+      "confidence": "low"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 5.8,
+      "text": "the technical updates for building integrations with the e document framework that are released in uh 2025 wave 1 also known as version 26",
+      "why_it_matters": "Establishes the scope and timing of the e-document framework updates being discussed",
+      "check": "exact"
+    },
+    {
+      "t": 96.1,
+      "text": "we didn't have any uh proper error handling when doing the receiving logic in the framework",
+      "why_it_matters": "Explains a core limitation that motivated the redesign of receiving interfaces",
+      "check": "exact"
+    },
+    {
+      "t": 171.1,
+      "text": "we would like to protect against if an integration service is down, right? We want to remain in control in the framework in the",
+      "why_it_matters": "Articulates the design goal of maintaining framework control when external services fail",
+      "check": "exact"
+    },
+    {
+      "t": 239.1,
+      "text": "we are providing now five new interfaces and don't worry it's uh it is not meant to scare you that there are five because",
+      "why_it_matters": "Clarifies that the five interfaces maintain parity with previous functionality while improving design",
+      "check": "exact"
+    },
+    {
+      "t": 349.9,
+      "text": "In the new version for sending specifically you implement the I document sender and the I document sender has the same parameters as before",
+      "why_it_matters": "Shows that migration from old sending interface to new one is minimal and backwards-compatible in approach",
+      "check": "exact"
+    },
+    {
+      "t": 497.7,
+      "text": "we had to throw in this is handled event called on after insert imported document for you to go fetch the XML from from",
+      "why_it_matters": "Illustrates a problematic design pattern that the new interfaces eliminate",
+      "check": "snapped"
+    },
+    {
+      "t": 761.2,
+      "text": "The old interfaces are deprecated and will be removed in three waves. So that is 2026 wave 2",
+      "why_it_matters": "Provides explicit timeline for when migration from old to new interfaces must be completed",
+      "check": "exact"
+    },
+    {
+      "t": 773.2,
+      "text": "Migration to the new ones is simple luckily and uh you can follow the new and improved documentation we've made available on Microsoft learn",
+      "why_it_matters": "Indicates that migration support and documentation resources are available for developers",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 761.2,
+      "kind": "coming-later",
+      "text": "old interfaces are deprecated and will be removed in three waves. So that is 2026 wave 2"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 8,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 10
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.027819999999999998
+    }
+  ]
+}

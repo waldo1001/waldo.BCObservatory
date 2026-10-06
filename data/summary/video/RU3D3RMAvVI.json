@@ -1,0 +1,26 @@
+{
+  "video_id": "RU3D3RMAvVI",
+  "item_id": "video/yt-microsoft/RU3D3RMAvVI",
+  "summary": "Power BI embedding changes in the 2025 release wave 1 for Business Central: a cleaner embed UI and a new AL page type, User Control Host, for hosting control addins. The video demos migrating a page to this type and lists unsupported properties and actions. Shown in preview version 26.",
+  "overview": "The video covers two areas. The first is a cleaner look for embedded Power BI reports, with better margins and spacing and fewer unnecessary buttons. It compares a report before and after the change. It notes that around 70 to 80 new reports were added to Business Central over the last few waves.\n\nThe second area is the new User Control Host page type in AL, built for hosting user controls and control addins. It drops properties and triggers that do not apply to control addins. A developer demo shows migrating an existing page to it. Control addins on this page type reflow and resize to fill the page. More improvements to the page type are planned.",
+  "key_points": [
+    "The Power BI embed UI is cleaner, with better margins and spacing and unnecessary buttons removed.",
+    "User Control Host is a new AL page type for hosting user controls and control addins.",
+    "It removes the source table property and the insertion, modification and deletion allowed properties.",
+    "Event triggers such as on after get record do not apply to this page type.",
+    "Actions are not supported, because the user control takes the whole page space. Support may be considered later.",
+    "Control addins on this page type reflow and resize to fill the Business Central page.",
+    "The demo ran on Business Central preview version 26, and more improvements to the page type are planned."
+  ],
+  "audience": [
+    "developer",
+    "functional consultant"
+  ],
+  "extraction_hash": "54826142b52d468dd02fc8fe81c1dfcf7f5cb376d2188a0acbac9e4aadbe333b",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0123604
+  }
+}

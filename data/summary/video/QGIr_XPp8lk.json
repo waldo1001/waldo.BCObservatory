@@ -1,0 +1,27 @@
+{
+  "video_id": "QGIr_XPp8lk",
+  "item_id": "video/yt-microsoft/QGIr_XPp8lk",
+  "summary": "E-document framework changes in 2025 release wave 1 (version 26): five new interfaces for building connectors (sender, response handler, receiver, received document marker, document action), replacing the old e-document integration interface, which is deprecated and removed in three waves by 2026 wave 2.",
+  "overview": "The video explains the technical updates for building integrations with the e-document framework in 2025 release wave 1. It covers problems in the existing framework, such as missing error handling when receiving documents and the need for \"is handled\" events to fetch XML, and the design goals for the new approach.\n\nIt then walks through the five new interfaces, shows how sending and receiving change, and notes that the Avalara connector was updated to use them. It ends with the migration path: the old interface is deprecated and will be removed in three waves, finishing at 2026 wave 2, and updated documentation is on Microsoft Learn.",
+  "key_points": [
+    "Sending: implement I document sender. It has the same parameters as before plus a send context codeunit as third parameter, which wraps HTTP request and response information.",
+    "I document response handler is optional and is used only for asynchronous services that verify contents before responding.",
+    "Receiving: I document receiver has two functions, receive documents (metadata) and download document (contents). This removes the need for the is handled event on after insert imported document.",
+    "I received document marker is optional and acknowledges receipt to services that track received status, to prevent duplicate sending.",
+    "I document action standardizes custom service calls, and the framework handles state updates.",
+    "Receiving logic gets error handling for an unavailable integration service, so the framework stays in control and avoids unexpected e-document states.",
+    "The old e-document integration interface is deprecated and will be removed in three waves, ending 2026 wave 2. Migrate before then, using the documentation on Microsoft Learn."
+  ],
+  "audience": [
+    "developer",
+    "partner",
+    "functional consultant"
+  ],
+  "extraction_hash": "a2d9e1d3c7582d2e6dd9b036fe35a8db5fef352dd011159565ec7ed30ebf02b4",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0156064
+  }
+}
