@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/SRB/working-with-contracts/vendor-contract-integration-purchase-invoice",
   "published_at": "2026-05-03T01:45:00.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "bad58083039b9e815d43285d4dd67adf72c96b59",
       "words": 747,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T18:42:25.325Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.008244
+    },
+    "summarized": {
+      "at": "2026-10-06T18:42:25.336Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:42:25.337Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:42:25.338Z",
+      "page": false
     }
   },
   "input_hash": "bad58083039b9e815d43285d4dd67adf72c96b59",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "bad58083039b9e815d43285d4dd67adf72c96b59"
+  "output_hash": "05f3274c8fcf5101fe4f2508012341fa9b21c9da9b7ded849688f62ed8d1794c"
 }

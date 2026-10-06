@@ -1,0 +1,73 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-extension-example.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extension-example",
+  "title": "Build your first sample extension that uses new objects and extension objects",
+  "blob": "0e2e33acd8a87f6b451ee192424e5ae9a5d13dac",
+  "summary": "Step-by-step walkthrough for creating a sample AL extension with new objects and extension objects, demonstrating table, page, and codeunit development with installation and upgrade code.",
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "al development",
+    "extensions",
+    "objects",
+    "table extension",
+    "page extension",
+    "install code",
+    "upgrade code"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Reward"
+    },
+    {
+      "type": "page",
+      "name": "Reward Card"
+    },
+    {
+      "type": "page",
+      "name": "Reward List"
+    },
+    {
+      "type": "other",
+      "name": "Customer Ext"
+    },
+    {
+      "type": "other",
+      "name": "Customer Card Ext"
+    },
+    {
+      "type": "codeunit",
+      "name": "RewardsInstallCode"
+    },
+    {
+      "type": "codeunit",
+      "name": "RewardsUpgradeCode"
+    }
+  ],
+  "features": [
+    "table objects",
+    "page objects",
+    "extension objects",
+    "install code",
+    "upgrade code",
+    "Designer",
+    "context-sensitive help",
+    "tooltips"
+  ],
+  "versions": [
+    "2024 release wave 1"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.008244,
+      "pages_in_call": 7
+    }
+  ]
+}

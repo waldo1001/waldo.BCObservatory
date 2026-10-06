@@ -1,0 +1,37 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/SRB/working-with-contracts/vendor-contract-integration-purchase-invoice.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/SRB/working-with-contracts/vendor-contract-integration-purchase-invoice",
+  "title": "Vendor contract integration in purchase invoices",
+  "blob": "bad58083039b9e815d43285d4dd67adf72c96b59",
+  "summary": "Vendor contract integration in purchase invoices enables accountants to link purchase invoice lines to vendor subscription contract lines and retrieve contract lines directly within purchase invoices for streamlined recurring vendor billing.",
+  "systems": [
+    "purchasing",
+    "finance"
+  ],
+  "topics": [
+    "vendor contracts",
+    "purchase invoices",
+    "recurring billing",
+    "accounts payable",
+    "contract invoicing"
+  ],
+  "objects": [],
+  "features": [
+    "Get Vendor Subscription Contract Lines action",
+    "Assign Contract Line action",
+    "vendor contract integration",
+    "billing line creation",
+    "purchase invoice linking"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.008244,
+      "pages_in_call": 7
+    }
+  ]
+}

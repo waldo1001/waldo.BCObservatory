@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-how-sell-products",
   "published_at": "2026-05-01T01:15:00.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "13ca54146f31de6d6b9e48ccf7406d53e4fa531a",
       "words": 1716,
       "forms": 3
+    },
+    "extracted": {
+      "at": "2026-10-06T18:42:25.329Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.008244
+    },
+    "summarized": {
+      "at": "2026-10-06T18:42:25.346Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:42:25.347Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:42:25.348Z",
+      "page": false
     }
   },
   "input_hash": "13ca54146f31de6d6b9e48ccf7406d53e4fa531a",
@@ -57,5 +76,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "13ca54146f31de6d6b9e48ccf7406d53e4fa531a"
+  "output_hash": "0d9a8203b38788b3417588f17d82ece8943be45cbf5414379e4ae82af9cd0fa2"
 }

@@ -1,0 +1,45 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/sales-how-sell-products.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/sales-how-sell-products",
+  "title": "Create a customer sales order and sell products",
+  "blob": "13ca54146f31de6d6b9e48ccf7406d53e4fa531a",
+  "summary": "Create and process customer sales orders for selling products, including partial shipments, drop shipments, and payment processing with options to copy existing orders.",
+  "systems": [
+    "sales",
+    "inventory"
+  ],
+  "topics": [
+    "sales orders",
+    "product sales",
+    "invoicing",
+    "shipments",
+    "payment methods",
+    "drop shipments"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Sales Order"
+    }
+  ],
+  "features": [
+    "sales order creation",
+    "partial shipments",
+    "drop shipments",
+    "recurring sales lines",
+    "invoice discounts",
+    "payment service integration",
+    "copy document"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.008244,
+      "pages_in_call": 7
+    }
+  ]
+}

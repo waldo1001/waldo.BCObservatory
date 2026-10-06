@@ -1,0 +1,56 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/service-how-to-post-service-orders.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/service-how-to-post-service-orders",
+  "title": "How to post service orders",
+  "blob": "ee466d2e9aee044dfc81a0004cbec6852b83c084",
+  "summary": "Post service orders and credit memos in Service Management, with options to post shipments, invoices, and consumption, and batch processing capabilities.",
+  "systems": [
+    "service"
+  ],
+  "topics": [
+    "service orders",
+    "service management",
+    "posting",
+    "shipments",
+    "credit memos",
+    "consumption"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Service Orders"
+    },
+    {
+      "type": "page",
+      "name": "Service Credit Memos"
+    },
+    {
+      "type": "page",
+      "name": "Service Lines"
+    },
+    {
+      "type": "page",
+      "name": "Posted Service Shipments"
+    }
+  ],
+  "features": [
+    "service order posting",
+    "batch posting",
+    "shipment posting",
+    "consumption posting",
+    "credit memo posting",
+    "test report",
+    "undo consumption"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.008244,
+      "pages_in_call": 7
+    }
+  ]
+}

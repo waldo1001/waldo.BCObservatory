@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/export-french-audit-file",
   "published_at": "2026-05-01T01:15:00.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "634b1504d5dd77459dd6c579d7ddeb098183169a",
       "words": 392,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:42:25.327Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.008244
+    },
+    "summarized": {
+      "at": "2026-10-06T18:42:25.344Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:42:25.345Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:42:25.346Z",
+      "page": false
     }
   },
   "input_hash": "634b1504d5dd77459dd6c579d7ddeb098183169a",
@@ -40,5 +59,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "634b1504d5dd77459dd6c579d7ddeb098183169a"
+  "output_hash": "fafae71cee0ab52092ee6cbdbd4d3842183cb500c4e4b739d707f3943db3f3fe"
 }

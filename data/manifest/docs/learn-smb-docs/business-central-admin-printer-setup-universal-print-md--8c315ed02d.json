@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-printer-setup-universal-print",
   "published_at": "2026-05-01T01:15:00.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "75960e6b9eb5cda72db3ab9ea736bdd41a198fcd",
       "words": 2140,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:42:25.326Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.008244
+    },
+    "summarized": {
+      "at": "2026-10-06T18:42:25.342Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:42:25.343Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:42:25.344Z",
+      "page": false
     }
   },
   "input_hash": "75960e6b9eb5cda72db3ab9ea736bdd41a198fcd",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "75960e6b9eb5cda72db3ab9ea736bdd41a198fcd"
+  "output_hash": "9678ae3b256b53f7580a7b2c37c73fbe9a38f7a1a3a244c1c6066f0770b02c7e"
 }

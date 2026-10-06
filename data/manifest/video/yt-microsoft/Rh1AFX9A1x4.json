@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "What's New: Data Analysis (2025 release wave 1)",
   "url": "https://www.youtube.com/watch?v=Rh1AFX9A1x4",
-  "published_at": null,
+  "published_at": "2025-04-01T15:00:38.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T18:42:19.892Z",
+      "captions": "auto:en-orig",
+      "duration_s": 760
+    },
+    "captioned": {
+      "at": "2026-10-06T18:42:29.835Z",
+      "path": "data/captions/microsoft/Rh1AFX9A1x4.vtt",
+      "vtt_sha256": "286a984ec96f0bad227602e218ce6f1ea630e4a0d5be14a9a0effc47c9b3d418",
+      "segments": 41,
+      "words": 2030,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -19,7 +33,14 @@
   "meta": {
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 250,
-    "duration_s": 761,
-    "via": "reconcile"
-  }
+    "duration_s": 760,
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "286a984ec96f0bad227602e218ce6f1ea630e4a0d5be14a9a0effc47c9b3d418"
 }

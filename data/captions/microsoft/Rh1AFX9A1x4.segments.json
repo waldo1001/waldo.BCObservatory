@@ -1,0 +1,218 @@
+{
+  "video_id": "Rh1AFX9A1x4",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 5.3,
+      "end": 25.3,
+      "text": "in this session we're going to talk about the exciting additions to the analysis mode on list pages in business Central both when it comes to adding columns for fields and related tables opening Excel uh and creating direct links to analysis mode uh views from Al code but first let's recap a little bit back"
+    },
+    {
+      "t": 25.3,
+      "end": 45.4,
+      "text": "in 2023 release Wave 2 we launched the ability to analyze data on list pages with this you could quickly extract insights from your data directly inside a business Central with no need to involve Developers for instance you could pick columns reorder them set up additional data filters group and"
+    },
+    {
+      "t": 45.4,
+      "end": 61,
+      "text": "pivot and save your analysis for repetitive use this has been a great success uh including the later added co-pilot analysis assist that allowed you to create these views using natural language"
+    },
+    {
+      "t": 61,
+      "end": 81.1,
+      "text": "but a challenge has been analyzing more complex cross entity data relationships which still has required developers creating queries we're super excited that we have now empowered users uh even more addressing exactly this Blan can you tell us more"
+    },
+    {
+      "t": 81.1,
+      "end": 101.2,
+      "text": "so that's why in this release we're introducing a new feature that will allow users to add fields from reality tables and Pages Direct direct ly in analysis mode this will allow users to make their own data sets from including different data sources and also perform complex analysis on this and all of this directly"
+    },
+    {
+      "t": 101.2,
+      "end": 116.8,
+      "text": "from the web client again as Peter mentioned without having to code anything um and this is coming this release but it's also coming in a minor so you will have to wait a bit more so it's estimated at 26.2 or"
+    },
+    {
+      "t": 116.8,
+      "end": 137.1,
+      "text": "earlier so that was the feature but now let's H jump straight into the demo to see how it actually works okay so now I'm going to open my say line page and it's already in analysis mode so you are probably already familiar with this View and now I can explore a bit this data"
+    },
+    {
+      "t": 137.1,
+      "end": 157.2,
+      "text": "set and I see it's missing some information especially around the location so I want to add that information into this list so now I can actually do that and I'm going to try to get some information from this sales order list because I know we have some about the the location so if I open the"
+    },
+    {
+      "t": 157.2,
+      "end": 177.4,
+      "text": "menu from the analysis stab then I can see this new action over here which is add columns from and when I hover over it I will see a suggestion of all the tables where I can add data from and these tables are the ones that already have a table relationship in a to the right I can see what kind of relation is that so for example in the"
+    },
+    {
+      "t": 177.4,
+      "end": 197.5,
+      "text": "customer this will join the data where the sell to customer number in the sales lines matches the number on the customer table and when we do so we also perform a left outer joint but that's it for the technical details let's go ahead and find our sales head table can also click on"
+    },
+    {
+      "t": 197.5,
+      "end": 217.5,
+      "text": "that and then that will open a new window where I can see the source table that I have selected I can also see the list of H table fields that I can add to my to my data set but we also know that users are usually more familiar with Pages because this is actually what surfaces to the H in the client and that's"
+    },
+    {
+      "t": 217.5,
+      "end": 238,
+      "text": "what users use in their everyday life so that's why we have also added the option to just view all the list pages and card pages that Implement that table and then I can just look for in this case I wanted the sales order list so I'm going to click on that and then I can see the pages from the sales order list which are the ones that I'm familiar with"
+    },
+    {
+      "t": 238,
+      "end": 248,
+      "text": "so now I can just look up for the fields that I want to add so um let's add some of the information"
+    },
+    {
+      "t": 248,
+      "end": 268.6,
+      "text": "regarding the location of this invoices and I just click okay we'll get a a short disclaimer when I add fields for the first time just to make the user aware that um calculated fields are going to be removed and there's also some limitations with opening Excel regarding the number of rows that we can actually show"
+    },
+    {
+      "t": 268.6,
+      "end": 288.8,
+      "text": "but I'm just going to go ahead and click okay and then if I scroll all the way down to my to the end of my list I see I already have that data in my list so that's pretty nice and then of course I can also move my columns around and rearrange them how I want"
+    },
+    {
+      "t": 288.8,
+      "end": 300.3,
+      "text": "or I can also click on a column menu and add them from there and then they will be added next to it so let's for example add more information"
+    },
+    {
+      "t": 300.3,
+      "end": 311.1,
+      "text": "from the customer because I don't really have that much here so let's pick up the customer"
+    },
+    {
+      "t": 311.4,
+      "end": 326.3,
+      "text": "list and I'm just going to pick up the name perhaps the Conta and there we go they have been inserted next to the customer number so I already have more information"
+    },
+    {
+      "t": 326.3,
+      "end": 346.3,
+      "text": "there and of course I can do all the operations that I would usually do with a regular IG grid so for example I can just go ahead and hide or um show any column I can also Group by this columns so for example let's group my data by the"
+    },
+    {
+      "t": 346.3,
+      "end": 360.4,
+      "text": "region and let's also add some grouping by the customer name so now I can see my invoice is very nicely grouped then I can also of course pivot if I want to see the aggregation columns"
+    },
+    {
+      "t": 360.4,
+      "end": 380.6,
+      "text": "or I can also set some filters so for example let's look just as at the ones in the US and that's it so of course the data set can grow quite big with all this added columns so if I'm done with a particular H column or a table I can just go ahead and remove"
+    },
+    {
+      "t": 380.6,
+      "end": 400.8,
+      "text": "the column or for example remove all the columns from this table so in this case customer table while I also keep my their columns over here um and yeah once I'm done with it I can also of course share it as I would usually do with copy link and then also my colleagues can also have"
+    },
+    {
+      "t": 400.8,
+      "end": 421.5,
+      "text": "access to this data set so as you saw that was super easy I could very easily from the client just add fields from other tables without having to do any Al code so just as a short recap of what we have seen you can now add fields from related tables and you can do so using the add columns"
+    },
+    {
+      "t": 421.5,
+      "end": 441.7,
+      "text": "um option in the menu and these uh tables that uh you can out from are actually those that have already a table relation in a so that those are the ones that will show up and we also filter out those that H where the user doesn't have access because for example they are obsoleted"
+    },
+    {
+      "t": 441.7,
+      "end": 459.9,
+      "text": "they are temporary or just because they are guarded by some permissions um then when we We join tables we also perform a left outer joint this means that it also matters the order in which you perform these"
+    },
+    {
+      "t": 459.9,
+      "end": 480,
+      "text": "joints um and it's also possible to join the same table through different table relationships um and you would also have the same uh capabilities as you do with the regular columns so you can also hide them you can show them you can reorder"
+    },
+    {
+      "t": 480,
+      "end": 500.1,
+      "text": "them as you would like you can also freeze them left or right you can set filters you can group you can pivot on them and you can also H this will be also exported to excel the only limitations that we have with this redit H fields are that copilot assist is not just supported on"
+    },
+    {
+      "t": 500.1,
+      "end": 511,
+      "text": "them so we won't be able to recognize them and also that calculated fields are not supported therefore they will be ignored when performing the"
+    },
+    {
+      "t": 511,
+      "end": 531.2,
+      "text": "analysis thank you Blan it's it's super awesome to see the ability to add fields from related tables or Pages however you want to see it in the analysis mode tabs uh basically you know creating Advanced uh views on data and and essentially building queries on the Fly and empowering the end users to do this without"
+    },
+    {
+      "t": 531.2,
+      "end": 552,
+      "text": "having to involve a developer for for super super nice insights capabilities but we have more Improvement for the analysis mode uh first out is the ability to open the data in an analysis mode tab in Excel actually Blan alluded a little bit to that before when she talked about the capabilities"
+    },
+    {
+      "t": 552,
+      "end": 572.6,
+      "text": "and this allows um you as a user to do further analysis using all the well-known powerful Tools in Excel and you can do this uh from the uh context menu on the data area uh which works in all versions or you can do it from the an is tab context menu which is supported from 2024"
+    },
+    {
+      "t": 572.6,
+      "end": 592.7,
+      "text": "release Wave 2 as a basically a back port in version 25.3 so Blanca can you show us how this works all right yes so let's go back to the analysis view that I have just created with relateded columns and then if I go to the menu of my tab then I can find this new action"
+    },
+    {
+      "t": 592.7,
+      "end": 612.9,
+      "text": "opening Excel then I can click on it and I will have my new Excel shet generated and then I just open it and I can see I have all the data that I could see the client and also including my related columns over here so now I can just use this"
+    },
+    {
+      "t": 612.9,
+      "end": 633.1,
+      "text": "and just share it or use it in some other scenarios and that's it yeah thanks black very very nice I mean not only the power within the client to add related tables but actually also pull them out as part of opening in Excel for further anal Anis should really really Empower users for data analysis"
+    },
+    {
+      "t": 633.1,
+      "end": 653.5,
+      "text": "in this release so the last addition uh to the analysis mode is really a feature for developers uh which allows creating URLs that opens a page in analysis mode and this is uh something that builds on the URL support for layout U parameter that we added in uh 2024 release Wave"
+    },
+    {
+      "t": 653.5,
+      "end": 673.6,
+      "text": "2 um and in this release we're now adding that the AL get URL method um has a parameter that you can specify that you want for instance the analysis layout uh when creating the URL so let's see a quick example uh here we see that when I"
+    },
+    {
+      "t": 673.6,
+      "end": 693.1,
+      "text": "call the get URL I put in analysis as part of the uh parameter in the call and the resulting URL that gets gener repetive platform you can see at the end how the analysis layout is appended to make sure that this page link that opens in analysis"
+    },
+    {
+      "t": 693.1,
+      "end": 713.3,
+      "text": "mode so if uh you're new to analysis mode and you thought what we brought in this release was super exciting but you want to know more about the feature uh including the analysis assist uh co-pilot that Blan mentioned and that as she said is not supporting adding related fields yet then I suggest that you watch these"
+    },
+    {
+      "t": 713.3,
+      "end": 733.3,
+      "text": "previous launch event uh sessions there will be links to them in the description for this uh video as well so thanks for joining uh this session uh staying to the end uh I hope you enjoyed the improvements we have made in the analysis mode uh in this release that really unlocks the power uh for cross entity data analysis for end users without"
+    },
+    {
+      "t": 733.3,
+      "end": 752.2,
+      "text": "having to have a dependency on developers actually going in and creating this support that both increases agility and lowers the cost do note that this feature is planned to be available after General availability of the release so right now we are looking at likely the minor update"
+    },
+    {
+      "t": 752.2,
+      "end": 759.3,
+      "text": "too thank you and enjoy the other launch sessions"
+    }
+  ],
+  "markers": [
+    {
+      "t": 0,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 2030
+}

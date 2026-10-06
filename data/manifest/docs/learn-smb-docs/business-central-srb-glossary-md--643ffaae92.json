@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/SRB/glossary",
   "published_at": "2026-05-03T01:45:00.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "d802d4805c5f40e1b103072b766bef7ea2f373ad",
       "words": 1022,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:42:25.323Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.008244
+    },
+    "summarized": {
+      "at": "2026-10-06T18:42:25.333Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:42:25.334Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:42:25.335Z",
+      "page": false
     }
   },
   "input_hash": "d802d4805c5f40e1b103072b766bef7ea2f373ad",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d802d4805c5f40e1b103072b766bef7ea2f373ad"
+  "output_hash": "c8c720e3bf33172421ada549a84c2fe5dd9367ec074ae535a7f7f48ead3a4f3b"
 }
