@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-item-tracking-and-planning",
   "published_at": "2026-03-17T10:04:22.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "dad6de974b6df65fad4f5a5571a765e4025422d7",
       "words": 769,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:45:03.539Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.007297
+    },
+    "summarized": {
+      "at": "2026-10-06T18:45:03.560Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:45:03.561Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:45:03.562Z",
+      "page": false
     }
   },
   "input_hash": "dad6de974b6df65fad4f5a5571a765e4025422d7",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "dad6de974b6df65fad4f5a5571a765e4025422d7"
+  "output_hash": "64af2568b467aee8972dfa88afa0b163ae3bc4e06a5063dda7b90d3c79c89b33"
 }

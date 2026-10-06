@@ -1,0 +1,54 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/design-details-item-tracking-lines-window.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-item-tracking-lines-window",
+  "title": "Design details - Item Tracking Lines page",
+  "blob": "22118709fa5069da9c708cbac74f150498526595",
+  "summary": "Item Tracking Lines page describes how tracking records and reservation records are managed through the Tracking Specification and Reservation Entry tables, with availability calculation rules.",
+  "systems": [
+    "inventory",
+    "warehouse"
+  ],
+  "topics": [
+    "item tracking lines",
+    "tracking specification",
+    "reservation entry",
+    "serial numbers",
+    "lot numbers"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Item Tracking Lines"
+    },
+    {
+      "type": "table",
+      "name": "Tracking Specification"
+    },
+    {
+      "type": "table",
+      "name": "Reservation Entry"
+    },
+    {
+      "type": "table",
+      "name": "Item Ledger Entry"
+    }
+  ],
+  "features": [
+    "Serial Number Entry",
+    "Lot Number Entry",
+    "Availability Calculation",
+    "Data Validation",
+    "Quantity Coordination"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003258,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/design-details-item-application.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-item-application",
+  "title": "Design details - Item application",
+  "blob": "f522f24ff7587730ddc521493b62bb361f17d235",
+  "summary": "Item application links cost recipients to cost sources for cost forwarding, supporting automatic quantity application for all transactions and fixed cost application for returns and corrections.",
+  "systems": [
+    "finance",
+    "inventory"
+  ],
+  "topics": [
+    "item application",
+    "cost forwarding",
+    "costing method",
+    "inventory posting",
+    "fixed application"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Item Ledger Entry"
+    },
+    {
+      "type": "table",
+      "name": "Item Application Entry"
+    }
+  ],
+  "features": [
+    "quantity application",
+    "cost application",
+    "fixed application",
+    "automatic application",
+    "cost reversal",
+    "average costing",
+    "transfer valuation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007297,
+      "pages_in_call": 8
+    }
+  ]
+}

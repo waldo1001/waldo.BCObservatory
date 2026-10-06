@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-item-tracking-in-the-warehouse",
   "published_at": "2026-03-17T10:04:22.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "eb2d3f11a8109542b605c1f9d354bab54bf9dfb1",
       "words": 244,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:44:55.023Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.003258
+    },
+    "summarized": {
+      "at": "2026-10-06T18:45:01.004Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:45:01.005Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:45:01.006Z",
+      "page": false
     }
   },
   "input_hash": "eb2d3f11a8109542b605c1f9d354bab54bf9dfb1",
@@ -42,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "eb2d3f11a8109542b605c1f9d354bab54bf9dfb1"
+  "output_hash": "58ce017e7062b0fbb7efcd66a08bcb34d1be9381299e95da7969f19a81e81192"
 }

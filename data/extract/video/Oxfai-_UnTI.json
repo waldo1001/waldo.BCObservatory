@@ -1,0 +1,264 @@
+{
+  "video_id": "Oxfai-_UnTI",
+  "item_id": "video/yt-microsoft/Oxfai-_UnTI",
+  "title": "What’s New: Financial Reporting (for Administrators) (2025 release wave 1)",
+  "duration_s": 467,
+  "systems": [
+    "finance",
+    "reporting",
+    "administration"
+  ],
+  "topics": [
+    "financial reporting",
+    "telemetry",
+    "audit",
+    "change log",
+    "permissions",
+    "financial report definitions",
+    "application insights",
+    "microsoft purview",
+    "sensitive field monitoring",
+    "data analysis"
+  ],
+  "chapters": [
+    {
+      "title": "Overview of New Features",
+      "t_start": 0,
+      "t_end": 55.7
+    },
+    {
+      "title": "Financial Report User Roles and Telemetry",
+      "t_start": 55.7,
+      "t_end": 144.3
+    },
+    {
+      "title": "Telemetry in Application Insights",
+      "t_start": 144.3,
+      "t_end": 224.9
+    },
+    {
+      "title": "Microsoft Purview Integration",
+      "t_start": 224.9,
+      "t_end": 261.2
+    },
+    {
+      "title": "Change Log Documentation for Audit",
+      "t_start": 261.2,
+      "t_end": 308.6
+    },
+    {
+      "title": "Sensitive Field Monitoring and Data Analysis",
+      "t_start": 308.6,
+      "t_end": 351.6
+    },
+    {
+      "title": "Permissions and Access Control",
+      "t_start": 351.6,
+      "t_end": 413.9
+    },
+    {
+      "title": "Troubleshooting and FAQ Documentation",
+      "t_start": 413.9,
+      "t_end": 467
+    }
+  ],
+  "features": [
+    {
+      "name": "Telemetry on Financial Report Usage and Lifecycle Changes",
+      "description": "Telemetry tracking for usage of financial reports and lifecycle changes to report definitions, available in Application Insights and Microsoft Purview.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 8.1,
+      "t_end": 129.4,
+      "is_demoed": true,
+      "caveats": [
+        "Microsoft Purview data currently in preview"
+      ],
+      "tags": [
+        "telemetry",
+        "audit",
+        "application insights"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Change Log for Financial Report Definitions",
+      "description": "Ability to track changes to report row and column definitions using change log, with documentation on tables that need change log setup.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 261.2,
+      "t_end": 320,
+      "is_demoed": false,
+      "caveats": [
+        "Change log must be set up on specific tables for report definitions"
+      ],
+      "tags": [
+        "audit",
+        "change log",
+        "financial reports"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Sensitive Field Monitoring for Financial Reports",
+      "description": "Deluxe version of change log for financial report definitions that provides email notifications when changes are made to tracked values.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 320,
+      "t_end": 335,
+      "is_demoed": false,
+      "caveats": [
+        "Requires additional setup beyond standard change log"
+      ],
+      "tags": [
+        "audit",
+        "security",
+        "notifications"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Data Analysis for Financial Report Changes",
+      "description": "Ability to analyze financial report definition changes using the data analysis feature with pivot capabilities to view changes by definition or by user.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 351.6,
+      "t_end": 388.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "analysis",
+        "data analysis",
+        "audit"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Financial Report Permissions Documentation",
+      "description": "Documentation on permission sets for viewing and editing financial reports, providing guidance for administrators.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 388.8,
+      "t_end": 413.9,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "permissions",
+        "documentation"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Troubleshooting Financial Reporting Documentation",
+      "description": "New documentation article for administrators to help troubleshoot financial reporting issues and unblock users.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 413.9,
+      "t_end": 429.1,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "documentation",
+        "troubleshooting"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Financial Reporting FAQ Documentation",
+      "description": "New frequently asked questions page for financial reporting with commonly asked questions to help users and administrators.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 429.1,
+      "t_end": 449.3,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "documentation",
+        "faq"
+      ],
+      "system": "reporting"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "change lock page",
+      "t": 351.6
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 8.1,
+      "text": "In this wave, you get two new features and then I'm going to show you some new documentation for auditing.",
+      "why_it_matters": "Establishes the scope of the release: two features plus documentation for auditing capabilities.",
+      "check": "exact"
+    },
+    {
+      "t": 69.1,
+      "text": "One type of user we call the author. The author can uh likely edit uh report row column definitions and similarly do actions such",
+      "why_it_matters": "Defines user roles and their permissions in the financial reporting system.",
+      "check": "exact"
+    },
+    {
+      "t": 117.6,
+      "text": "Whenever users view a report or they print a report to PDF or if they open a report with an Excel layout, all of",
+      "why_it_matters": "Clarifies the scope of telemetry tracking across all report usage scenarios.",
+      "check": "exact"
+    },
+    {
+      "t": 236.4,
+      "text": "Business central in uh data in Microsoft purview is uh in currently in preview.",
+      "why_it_matters": "Indicates that Microsoft Purview integration for Business Central is still in preview status.",
+      "check": "exact"
+    },
+    {
+      "t": 294.5,
+      "text": "this new article tells you as an ad administrator what are the report uh definition tables. What are the tables behind report row and",
+      "why_it_matters": "Describes the documentation provided to help administrators implement audit controls.",
+      "check": "exact"
+    },
+    {
+      "t": 320,
+      "text": "you can use the deluxe version of change log which is called um which is called uh sensitive field monitoring.",
+      "why_it_matters": "Introduces a premium feature for enhanced auditing with email notifications.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 236.4,
+      "kind": "preview",
+      "text": "Business central in uh data in Microsoft purview is uh in currently in preview."
+    }
+  ],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 7
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.020605
+    }
+  ]
+}

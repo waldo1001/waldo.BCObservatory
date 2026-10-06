@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-inventory-valuation",
   "published_at": "2026-03-17T10:04:22.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "7f3e5a8a2542b2aa45e68aa8007e72af53a76909",
       "words": 528,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:45:01.738Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.007297
+    },
+    "summarized": {
+      "at": "2026-10-06T18:45:03.552Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:45:03.553Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:45:03.554Z",
+      "page": false
     }
   },
   "input_hash": "7f3e5a8a2542b2aa45e68aa8007e72af53a76909",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7f3e5a8a2542b2aa45e68aa8007e72af53a76909"
+  "output_hash": "1dce78c569aa9ed009b355b07f78ec9a307e35e694b17a53ae454889be020b2e"
 }

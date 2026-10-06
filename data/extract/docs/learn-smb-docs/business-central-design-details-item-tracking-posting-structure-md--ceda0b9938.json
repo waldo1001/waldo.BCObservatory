@@ -1,0 +1,66 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/design-details-item-tracking-posting-structure.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-item-tracking-posting-structure",
+  "title": "Design details - Item tracking posting structure",
+  "blob": "27e7abf10919b3836eb219e6c91c3e1fb9ac61a4",
+  "summary": "Item tracking posting structure explains how item ledger entries carry item tracking numbers and relate to posted documents through Item Entry Relation and Value Entry Relation tables using one-to-many relations.",
+  "systems": [
+    "inventory",
+    "sales",
+    "purchasing"
+  ],
+  "topics": [
+    "item tracking",
+    "posting structure",
+    "item ledger entry",
+    "one-to-many relation",
+    "tracking specification"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Reservation Entry"
+    },
+    {
+      "type": "table",
+      "name": "Tracking Specification"
+    },
+    {
+      "type": "table",
+      "name": "Item Entry Relation"
+    },
+    {
+      "type": "table",
+      "name": "Value Entry Relation"
+    },
+    {
+      "type": "codeunit",
+      "name": "Sales-Post"
+    },
+    {
+      "type": "codeunit",
+      "name": "Purch-Post"
+    },
+    {
+      "type": "codeunit",
+      "name": "Item Jnl.-Post Line"
+    }
+  ],
+  "features": [
+    "One-to-Many Relations",
+    "Item Ledger Entry Posting",
+    "Tracking Specification Posting",
+    "Invoice Posting"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003258,
+      "pages_in_call": 8
+    }
+  ]
+}

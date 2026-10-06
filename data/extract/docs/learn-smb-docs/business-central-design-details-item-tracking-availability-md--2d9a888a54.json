@@ -1,0 +1,54 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/design-details-item-tracking-availability.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-item-tracking-availability",
+  "title": "Design details - Item tracking availability",
+  "blob": "6a879546de30dd35a40f2b949edd449e321971aa",
+  "summary": "Item tracking availability describes how the Item Tracking Lines and Item Tracking Summary pages display dynamic availability information for serial and lot numbers, calculated from inventory and reservation entries.",
+  "systems": [
+    "inventory",
+    "warehouse"
+  ],
+  "topics": [
+    "item tracking",
+    "availability",
+    "serial numbers",
+    "lot numbers",
+    "tracking summary"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Item Tracking Lines"
+    },
+    {
+      "type": "page",
+      "name": "Item Tracking Summary"
+    },
+    {
+      "type": "table",
+      "name": "Item Ledger Entry"
+    },
+    {
+      "type": "table",
+      "name": "Reservation Entry"
+    }
+  ],
+  "features": [
+    "Total Quantity",
+    "Total Requested Quantity",
+    "Current Pending Quantity",
+    "Total Available Quantity",
+    "Refresh Availability"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003258,
+      "pages_in_call": 8
+    }
+  ]
+}

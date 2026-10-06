@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-nondeductible-vat",
   "published_at": "2026-03-17T10:04:22.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "18f2b29d558bf0781d534d9d274dc096feeea7dd",
       "words": 532,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:44:55.027Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.003258
+    },
+    "summarized": {
+      "at": "2026-10-06T18:45:01.015Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:45:01.016Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:45:01.017Z",
+      "page": false
     }
   },
   "input_hash": "18f2b29d558bf0781d534d9d274dc096feeea7dd",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "18f2b29d558bf0781d534d9d274dc096feeea7dd"
+  "output_hash": "3c6a5c991b528b2ce9d737423b0b5c76724f855083782a3f1b79ad8e21e6fbfe"
 }

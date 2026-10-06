@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-item-tracking-design",
   "published_at": "2026-03-17T10:04:22.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "fdff216823a89a4088c6058ce8c1216cc20d5fa4",
       "words": 402,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:44:55.022Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.003258
+    },
+    "summarized": {
+      "at": "2026-10-06T18:45:01.002Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:45:01.002Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:45:01.003Z",
+      "page": false
     }
   },
   "input_hash": "fdff216823a89a4088c6058ce8c1216cc20d5fa4",
@@ -40,5 +59,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "fdff216823a89a4088c6058ce8c1216cc20d5fa4"
+  "output_hash": "08350a51582acf8448edc634df4705881ac77f8aaafcef52db8f70c37d7455ff"
 }

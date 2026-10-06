@@ -1,0 +1,50 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/design-details-item-tracking-and-reservations.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-item-tracking-and-reservations",
+  "title": "Design details - Item tracking and reservations",
+  "blob": "9742d22cdb245047a4031e403fa9a2e3dd3e84b3",
+  "summary": "Item tracking and reservations design explains how late binding allows coupling of serial/lot numbers to supply and demand, with nonspecific reservations being reshuffled at posting time to match actual picked items.",
+  "systems": [
+    "inventory",
+    "warehouse",
+    "sales"
+  ],
+  "topics": [
+    "item tracking",
+    "reservations",
+    "late binding",
+    "serial numbers",
+    "lot numbers",
+    "specific reservation",
+    "nonspecific reservation"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Reservation"
+    },
+    {
+      "type": "page",
+      "name": "Item Tracking Lines"
+    }
+  ],
+  "features": [
+    "Late Binding",
+    "Specific Reservation",
+    "Nonspecific Reservation",
+    "Serial Number Tracking",
+    "Lot Number Tracking",
+    "Reshuffle"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003258,
+      "pages_in_call": 8
+    }
+  ]
+}

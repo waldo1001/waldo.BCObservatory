@@ -1,0 +1,46 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/design-details-inventory-zero-level-open-item-ledger-entries.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-inventory-zero-level-open-item-ledger-entries",
+  "title": "Inventory zero open item ledger entries",
+  "blob": "a31247be4e15154bdff409e130488cb3e99257ce",
+  "summary": "Known issue where inventory shows zero balance despite open item ledger entries, typically caused by cost applications in returns or undo shipment scenarios, with workaround using positive and negative adjustments.",
+  "systems": [
+    "finance",
+    "inventory"
+  ],
+  "topics": [
+    "inventory costing",
+    "item application",
+    "item ledger entry",
+    "cost application",
+    "troubleshooting"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Item Ledger Entry"
+    },
+    {
+      "type": "table",
+      "name": "Item Application Entry"
+    }
+  ],
+  "features": [
+    "cost application",
+    "quantity application",
+    "open item ledger entries",
+    "inventory balance",
+    "item journal adjustment"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007297,
+      "pages_in_call": 8
+    }
+  ]
+}

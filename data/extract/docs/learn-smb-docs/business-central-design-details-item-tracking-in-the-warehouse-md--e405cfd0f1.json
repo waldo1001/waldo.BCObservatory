@@ -1,0 +1,45 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/design-details-item-tracking-in-the-warehouse.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-item-tracking-in-the-warehouse",
+  "title": "Design details - Item tracking in the warehouse",
+  "blob": "eb2d3f11a8109542b605c1f9d354bab54bf9dfb1",
+  "summary": "Item tracking in the warehouse describes how serial and lot numbers are handled in warehouse operations, focusing on inbound and outbound warehouse documents and the relationship with the reservation system.",
+  "systems": [
+    "warehouse",
+    "inventory"
+  ],
+  "topics": [
+    "item tracking",
+    "warehouse",
+    "serial numbers",
+    "lot numbers",
+    "warehouse activities"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Item Tracking Lines"
+    },
+    {
+      "type": "page",
+      "name": "Reservation"
+    }
+  ],
+  "features": [
+    "Inbound Warehouse Documents",
+    "Outbound Warehouse Documents",
+    "Item Tracking Assignment",
+    "Warehouse Activity Documents"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003258,
+      "pages_in_call": 8
+    }
+  ]
+}

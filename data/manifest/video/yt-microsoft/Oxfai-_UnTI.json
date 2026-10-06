@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=Oxfai-_UnTI",
   "published_at": "2025-04-01T15:00:34.000Z",
   "language": "en",
-  "state": "captioned",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
@@ -25,6 +25,40 @@
       "words": 1045,
       "lang": "en-orig",
       "kind": "auto"
+    },
+    "extracted": {
+      "at": "2026-10-06T18:44:54.463Z",
+      "path": "data/extract/video/Oxfai-_UnTI.json",
+      "prompt": "extract-video@1",
+      "windows": 1,
+      "features": 7,
+      "quotes": 6,
+      "quotes_dropped": 0,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.020605
+    },
+    "summarized": {
+      "at": "2026-10-06T18:45:00.986Z",
+      "path": "data/summary/video/Oxfai-_UnTI.json",
+      "prompt": "summarize-video@2",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": 0.014314399999999998
+    },
+    "linked": {
+      "at": "2026-10-06T18:45:00.987Z",
+      "systems": [
+        "finance",
+        "reporting",
+        "administration"
+      ],
+      "topics": 10,
+      "objects_as_heard": 1
+    },
+    "published": {
+      "at": "2026-10-06T18:45:00.997Z",
+      "path": "content/videos/Oxfai-_UnTI.md"
     }
   },
   "input_hash": null,
@@ -42,5 +76,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "61c36515c77bdf07438fc69f09468f25ba2cecfb59840922a2963d82cc67be73"
+  "output_hash": "6e49cfc649ae8c40e8f794654af9c8deda64fa996d694a0543778c9266ae71e7"
 }

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-item-tracking-availability",
   "published_at": "2026-03-17T10:04:22.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "6a879546de30dd35a40f2b949edd449e321971aa",
       "words": 397,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:44:55.021Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 4,
+      "cost_usd": 0.003258
+    },
+    "summarized": {
+      "at": "2026-10-06T18:45:00.999Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:45:01.000Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:45:01.001Z",
+      "page": false
     }
   },
   "input_hash": "6a879546de30dd35a40f2b949edd449e321971aa",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6a879546de30dd35a40f2b949edd449e321971aa"
+  "output_hash": "2dc8870213232992c653c18ea76e7f79944e363841d55dbf3b90eaf5f04c74f5"
 }

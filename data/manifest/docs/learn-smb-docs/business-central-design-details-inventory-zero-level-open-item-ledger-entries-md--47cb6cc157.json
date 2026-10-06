@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-inventory-zero-level-open-item-ledger-entries",
   "published_at": "2026-03-17T10:04:22.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "a31247be4e15154bdff409e130488cb3e99257ce",
       "words": 1217,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:45:01.739Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.007297
+    },
+    "summarized": {
+      "at": "2026-10-06T18:45:03.555Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:45:03.556Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:45:03.557Z",
+      "page": false
     }
   },
   "input_hash": "a31247be4e15154bdff409e130488cb3e99257ce",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a31247be4e15154bdff409e130488cb3e99257ce"
+  "output_hash": "cd1a87525c2d19913c7c190eb7f74905d204e42fd9ee767a4e08beaa1753ce74"
 }

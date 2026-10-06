@@ -1,0 +1,45 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/design-details-nondeductible-vat.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-nondeductible-vat",
+  "title": "Design details - Non-deductible VAT",
+  "blob": "18f2b29d558bf0781d534d9d274dc096feeea7dd",
+  "summary": "Non-deductible VAT describes the tax treatment of VAT that is not deductible for items and fixed assets, including setup requirements and posting examples.",
+  "systems": [
+    "finance"
+  ],
+  "topics": [
+    "non-deductible vat",
+    "vat setup",
+    "tax",
+    "items",
+    "fixed assets"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "VAT Setup"
+    },
+    {
+      "type": "page",
+      "name": "VAT Posting Setup"
+    }
+  ],
+  "features": [
+    "Enable Non-Deductible VAT",
+    "VAT Posting Groups",
+    "Non-deductible VAT Percentage",
+    "Item Cost",
+    "Fixed Asset Cost"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003258,
+      "pages_in_call": 8
+    }
+  ]
+}

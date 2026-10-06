@@ -1,0 +1,45 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/design-details-item-tracking-and-planning.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-item-tracking-and-planning",
+  "title": "Design details - Item tracking and planning",
+  "blob": "dad6de974b6df65fad4f5a5571a765e4025422d7",
+  "summary": "Item tracking numbers coordinate with order tracking and planning system through the reservation system, affecting supply-demand matching for items requiring specific serial or lot number tracking.",
+  "systems": [
+    "inventory",
+    "manufacturing",
+    "development"
+  ],
+  "topics": [
+    "item tracking",
+    "order tracking",
+    "planning system",
+    "supply planning",
+    "serial number",
+    "lot tracking"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Reservation Entry"
+    }
+  ],
+  "features": [
+    "serial number tracking",
+    "lot number tracking",
+    "order tracking",
+    "demand-supply balancing",
+    "transfer planning",
+    "specific item tracking"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007297,
+      "pages_in_call": 8
+    }
+  ]
+}

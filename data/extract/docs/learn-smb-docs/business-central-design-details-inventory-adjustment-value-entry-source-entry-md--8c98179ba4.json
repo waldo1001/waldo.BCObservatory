@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/design-details-inventory-adjustment-value-entry-source-entry.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-inventory-adjustment-value-entry-source-entry",
+  "title": "Posting date on adjustment value entry compared to the source entry",
+  "blob": "68e6676b22e487e59346bfd13c3c7c23e75d8707",
+  "summary": "Comparison of posting dates on adjustment value entries versus source entries in revaluation and item charge scenarios, showing how General Ledger Setup and Inventory setup affect cost adjustment timing.",
+  "systems": [
+    "finance",
+    "inventory"
+  ],
+  "topics": [
+    "inventory costing",
+    "adjustment value entry",
+    "posting date",
+    "revaluation",
+    "item charge",
+    "cost adjustment"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Adjust Cost - Item Entries"
+    }
+  ],
+  "features": [
+    "cost adjustment",
+    "revaluation posting",
+    "item charge posting",
+    "automatic cost adjustment",
+    "average cost calculation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007297,
+      "pages_in_call": 8
+    }
+  ]
+}

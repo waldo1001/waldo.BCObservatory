@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "What's New: Prepare Your Copilot Extension - Practical Considerations (2025 release wave 1)",
   "url": "https://www.youtube.com/watch?v=NE7NIjpkX3c",
-  "published_at": null,
+  "published_at": "2025-04-01T15:00:34.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T18:44:42.322Z",
+      "captions": "auto:en-orig",
+      "duration_s": 1674
+    },
+    "captioned": {
+      "at": "2026-10-06T18:44:48.222Z",
+      "path": "data/captions/microsoft/NE7NIjpkX3c.vtt",
+      "vtt_sha256": "67efa783f7295cde11c8bd14f66fb8f0f8e8f68961c28efa90f8e686106bced0",
+      "segments": 86,
+      "words": 4708,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -20,6 +34,13 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 257,
     "duration_s": 1674,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "67efa783f7295cde11c8bd14f66fb8f0f8e8f68961c28efa90f8e686106bced0"
 }

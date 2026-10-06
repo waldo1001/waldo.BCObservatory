@@ -1,0 +1,443 @@
+{
+  "video_id": "NE7NIjpkX3c",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 5.7,
+      "end": 25.8,
+      "text": "in this release we allow you to bring your capalot extension and finally run it in the Microsoft cloud based on our Microsoft II resources as you approach this PA on this journey there's a couple of things which we would like you to be aware from practical perspective and we cover some of those topics today and I hope that by the end of"
+    },
+    {
+      "t": 25.8,
+      "end": 46.1,
+      "text": "this video we have a good overview what you should start thinking of as as you practically approaching that pass so we'll start with our basic introductory slide uh we have a development tools for compilot for a year now they're very known and well used but what's more important this release we finally"
+    },
+    {
+      "t": 46.1,
+      "end": 66.3,
+      "text": "give you ability to run your extension in our Microsoft cloud using our II resources I'm not going to cover building part we have a dedicated session for that but from a development experience what it mean that you can take a l latest sunbox environment you can upload your festar"
+    },
+    {
+      "t": 66.3,
+      "end": 86.3,
+      "text": "capalot extension and I just magically run so you don't need to care about where is your LM models how is they deployed avability and things like that it just kind of magically runs um on your behalf we don't have any special programs anymore which we used to call before Microsoft manage I resources and of"
+    },
+    {
+      "t": 86.3,
+      "end": 106.9,
+      "text": "course we're looking forward to see what you're going to build uh with all that the reason why it's so important and it's so cool because finally you and us have a same framework and infrastructure how do we build our compal experiences so think about your extension as any other Microsoft extension"
+    },
+    {
+      "t": 106.9,
+      "end": 127,
+      "text": "which goes through our IIA toolkit which behind the scene consumes Some Cloud compiled Services which finally give you access to some of our large language models and it's not only application feature in fact all our platform Fork all our agentic Frameworks we're all leveraging the same"
+    },
+    {
+      "t": 127,
+      "end": 138.4,
+      "text": "uh infrastructure from El ability perspective from uh resources consumption perspective so just great that you and us finally share the same tool set how to build Capal"
+    },
+    {
+      "t": 138.4,
+      "end": 158.6,
+      "text": "experiences okay let's become a little bit more concrete what do we mean by that and what is available for you as a partner as of today uh we talk all about as of time of this recording um as of this wave and in the future it'll probably evolve if you go to open a website you have so many models available for you and as a part of our"
+    },
+    {
+      "t": 158.6,
+      "end": 178.8,
+      "text": "def tools today we give you access to GPT for or and GPT for all mini it's a flagship models you can use some of them for deep reasoning you have some more fast some smaller and actually we're going to cover um in which cases can"
+    },
+    {
+      "t": 178.8,
+      "end": 198.9,
+      "text": "use which one but that's your building blocks what you can what you have access toward today if you go through our I obstruction layer we try to keep it simple we give you aure open AI deployments you can just say hey give me latest GPT for or mini or 4 all and you just"
+    },
+    {
+      "t": 198.9,
+      "end": 219,
+      "text": "get access to them so we're trying to abstract a lot of complexity how we deal with different version of this models on your behalf the first question we usually getting but it's all good but what about all rest models if you just look for a last two months Microsoft have a l announcement that a deep seek R1 reasoning Model come to"
+    },
+    {
+      "t": 219,
+      "end": 239,
+      "text": "Azure Foundry open air released a number of all reasoning models and can we get access to those and the truth is of course the whole world is experimenting with those models right now but before we as a business Central can give you access to those models we need to make sure that all the world where"
+    },
+    {
+      "t": 239,
+      "end": 257.9,
+      "text": "we have OB basic customers and that's a lot in all Azure regions you or we have enough capacity of those models and once we reach this point so we can support you in a production then of course we'll roll out more and more model as they come but for now you have a couple of them which is great so you want you to stick with"
+    },
+    {
+      "t": 257.9,
+      "end": 270,
+      "text": "those okay we talked quickly about models and of course when you interact with models here write to prompts so the first question which could come to mind what is a good prompt"
+    },
+    {
+      "t": 270,
+      "end": 290.1,
+      "text": "I asked uh my this morning as I Was preparing for this talk what is a good prompt and I response get hello you a good prompt is something which is clear specific provide enough of instructions and so on so forth and you want to provide even more details for given creative tasks okay let's try to roll with this uh"
+    },
+    {
+      "t": 290.1,
+      "end": 300.1,
+      "text": "definition and take a look on a real example of prompt if you watching this video you can maybe pause it and go slowly uh yourself"
+    },
+    {
+      "t": 300.1,
+      "end": 320.4,
+      "text": "but imagine for a second we have a small co-pilot which is your AI assistant which primary function is to assist users drafting emails to confirm appointments and bookings in this case you have a number of guidelines that hey you want to confirm a booking in a in a in a in a special format you want to"
+    },
+    {
+      "t": 320.4,
+      "end": 340.8,
+      "text": "start with greeting you want to confirm time type of fork you want to have a special format it should be grounded in some kind of real business data in the professional tone and things like that and by the way this is a real example uh from Microsoft work from my last summer so imagine for a second we have a prompt like"
+    },
+    {
+      "t": 340.8,
+      "end": 360.8,
+      "text": "that having that prompt your co-pilot response could look something like that dear Peter I hope this email finds you well I'm writing to confirm that we have a booking with you scheduled on that time we're going to do that amount that type of work which will take in that place and if you have any questions reach"
+    },
+    {
+      "t": 360.8,
+      "end": 381.2,
+      "text": "out we're happy to assist you with that and it's very very important in the end of that email you have like a small link like a maybe work order something you can click and confirm that yes it's a booking or appointment and you can maybe you know make some changes to that so again from a nice prompt which so far follow"
+    },
+    {
+      "t": 381.2,
+      "end": 401.5,
+      "text": "our previous guidelines guidelines we uh see result of compile at work with with a email which looks like that so it was all great and working fine on Friday and then over weekends as of Monday suddenly that feature that prompt start behave suddenly"
+    },
+    {
+      "t": 401.5,
+      "end": 421.6,
+      "text": "a little bit different and the emails we start seeing look like that hi I just want to confirm the appointment uh should you have any assistance please reach out I'm here to help regards Carin and of course you still have this link like in the of an email which you can kind of"
+    },
+    {
+      "t": 421.6,
+      "end": 437.7,
+      "text": "press and validate that yes it's booking for you and confirm it and so forth and so and and so on so now I want you to make a pause and think about so how come from response like that to response like that"
+    },
+    {
+      "t": 437.7,
+      "end": 447.9,
+      "text": "overnight and if I'll will ask you to rate that uh confirmation email from zero stars to five stars what would be your"
+    },
+    {
+      "t": 447.9,
+      "end": 468.2,
+      "text": "rating many people would say hey obviously it's zero Stars it's very bad it's kind of completely dropped in accuracy and level of details but the interesting news that actually it's not that bad we will say it's like three out of fires and when I mean by that you still get an email which is still confirms the appointment"
+    },
+    {
+      "t": 468.2,
+      "end": 488.4,
+      "text": "it still greets the user it has a professional tone it follows the structure and it has a link we can verify what need to happen I would even argue as a SMS it can be a great email obviously obviously there is a significant regression a lack of details but from a prompt perspective if you really care look"
+    },
+    {
+      "t": 488.4,
+      "end": 508.4,
+      "text": "on instruction it kind of works to what you ask it to do it's still regress significantly and I'll explain you what has happened but the point is here your prom still works suddenly a little bit different and which is not the different from large language model will be a very different for you as a user"
+    },
+    {
+      "t": 508.4,
+      "end": 528.7,
+      "text": "because no doubt we just lost a lot of accuracy and uh quality in those responses now the better news for us that in a real life it didn't happen because we as the engineering team who build those feature invest a lot to our test Automation and we had a test which verify the expected"
+    },
+    {
+      "t": 528.7,
+      "end": 548.9,
+      "text": "outcome of those emails so we had an opportunity to detect a change update our prompts and get back to original level of quality and what has happened is this case actually that we had a version update overnight so models have versions and if it's the same model it usually can be another version because you know new versions"
+    },
+    {
+      "t": 548.9,
+      "end": 560.6,
+      "text": "can be faster or sometimes cheaper and so on so forth so and because every model is not better is different sometimes you can regress some of your"
+    },
+    {
+      "t": 560.6,
+      "end": 581,
+      "text": "prompts so if I ask a question what is a good prompt not to copil it but some of my colleagues like San lout who is like a stuff engineering team he will tell me Well it's not that matter that much how good prompt is styling wise or Precision wise but it's much more"
+    },
+    {
+      "t": 581,
+      "end": 601,
+      "text": "important that you have enough of test coverage so you can verify and make sure your prompts will work as we migrate through version of the model and from One models to another models and this is something I want you kind of have at a takeaway as you start looking at the presentation that the discussion what is a good prompt is"
+    },
+    {
+      "t": 601,
+      "end": 621.6,
+      "text": "a great discussion and of course you want to follow latest guidelines and make it great but it's much much more important for practical considerations to make sure your prompts will continue to work as we're going to update models and version of models is really really critical to make sure your Capal extension will still continue to work successfully in Microsoft cloud"
+    },
+    {
+      "t": 621.6,
+      "end": 641.6,
+      "text": "and of course testing helps to have good prompts as we just discuss uh models will upgrade with new features and new improvements the new version may work differently the new version doesn't mean it's better it means it's different and it's not necessarily mean it's Backward Compatible write your"
+    },
+    {
+      "t": 641.6,
+      "end": 660.7,
+      "text": "test from Day Zero and we have a number of BC session for this event talking about our test tool kit our responsible a principle so go ahead and learn how you can write tests to protect your prompt regression to have any good prompts super super super super important"
+    },
+    {
+      "t": 660.7,
+      "end": 680.8,
+      "text": "okay we talked a little bit about models and what you have access to and why it's important to have a good prompts but the next thing you have to address as you're trying to build your extension to run in our cloud is how we going to deal with Fabrications which is super super critical in business Central domain so"
+    },
+    {
+      "t": 680.8,
+      "end": 701,
+      "text": "let me give you an ex an example of Fabrications what is it about and what should we do with them so let's say we have Anna who is a user and she ask chat with Capal question how do I reverse a production or a credit memo now before you even comment that those wording doesn't have any logical sense because in we don't have any something"
+    },
+    {
+      "t": 701,
+      "end": 721.1,
+      "text": "called production a create memo the co-al will say sure you can definitely reverse a production order credit memo by going to this and do that which is absolutely nonsense but the reason why behave like that because large language models train to response statistically basically in the same way as"
+    },
+    {
+      "t": 721.1,
+      "end": 741.7,
+      "text": "the data sets they trained on and in our documentation we have a lot of valid cases for example you can reverse a sales invoice by doing blah you can reverse a purchase order by doing blah so large language models just copy those uh type of response if you will because it's trying to be helpful"
+    },
+    {
+      "t": 741.7,
+      "end": 762.6,
+      "text": "but it definitely lead to absolutely uh fabricated hallucinated statements uh which is not good for for the user and you can say well as a user I can clearly see it's not good but what about this example so now we have a bob uh who is asking a chat saying Hey how do I release a sales order and compil say sure"
+    },
+    {
+      "t": 762.6,
+      "end": 782.8,
+      "text": "to release a sales order you go to sales order page and you press release button and so on so forth what's interesting about this example that actually is correct if you go to that page there's a button called release however and a time we would build it feature we had absolutely no documentation which"
+    },
+    {
+      "t": 782.8,
+      "end": 803.3,
+      "text": "mentioned how to release sales orders so this is the example which is very deceiving the llm gave you the right answer but by poor chance you basically flip a coin and it give you some English words which turn out to be true but it has absolutely no ground to come up with that statement in fact if it would say"
+    },
+    {
+      "t": 803.3,
+      "end": 823.7,
+      "text": "I don't know it'll be much more appropriate result so again from giving you wrong answers to give giving you deceiving answers and this become even more interesting so let's say you're building a copilot for your customers and you want to talk about inventory levels and you can say hey do you have an inventory for a given product or a given place and compal say sure of course we have"
+    },
+    {
+      "t": 823.7,
+      "end": 843.7,
+      "text": "enough as then you click a link and then it falls apart because again large language model by definition has absolutely no knowledge about your inventory levels and your product and instead of just saying I don't know it's saying you something and uh it's not good the reason why"
+    },
+    {
+      "t": 843.7,
+      "end": 863.7,
+      "text": "it's happening and this is super important to kind of understand and think about that large language models always try to predict next words or talking and it always try to be helpful and finish the sentence and instead of saying I don't know or admit lack of knowledge it will try to continue the"
+    },
+    {
+      "t": 863.7,
+      "end": 883.9,
+      "text": "sentence to represent some statistical representation of sentences which leads to deceiving answer and that's super critical for our world because we want to our users take an action with trust and maybe for Creative domain is awesome but for business Central domains dealing with fabrication is a huge deal it's a priority"
+    },
+    {
+      "t": 883.9,
+      "end": 904.1,
+      "text": "number one which we need to tackle so now the question is how are we going to tackle that there is many ways and many techniques the simplest technique which helps us as a Microsoft is the following always validate l l m response so what do you mean by that imagine you build your prompt dialog"
+    },
+    {
+      "t": 904.1,
+      "end": 924.4,
+      "text": "and imagine you have some prompt or you're asking LM something the first thing you need to do is to validate that the response you got from llm is legit there's many ways how you can do it for example if you ask about the distance or uh numbers or weather you need to make sure that response"
+    },
+    {
+      "t": 924.4,
+      "end": 944.5,
+      "text": "is talking about that and if it's legit you can continue your work do some calculation do some analysis and initially at some point give the respond to the user but if it's not good if it's not grounded if you have a suspicion is hallucinating or fabricating you can as simply as try again and"
+    },
+    {
+      "t": 944.5,
+      "end": 964.6,
+      "text": "sometimes you just say try again and it will work sometimes you need to provide much more instructions but it's like a core idea whenever we never surface any llm response from a system to the user unless we verify they're grounded and they true and now back to our um what we"
+    },
+    {
+      "t": 964.6,
+      "end": 984.8,
+      "text": "allow you to do in our Microsoft cloud with other models you might use GPT for or for a lot of reasoning email classifications conversation scoring to do the main work and you might use 40 mini as a cheaper faster model to validate its responses and this is like a very simple pattern and I'll"
+    },
+    {
+      "t": 984.8,
+      "end": 1004.8,
+      "text": "show you example of it but that's exactly how we build majority of our features today let's take a concrete example and the easiest way to to illustrate this idea is to back to our classic marketing text feature which we all love um you can go to the product and you can say Hey try to generate"
+    },
+    {
+      "t": 1004.8,
+      "end": 1025.4,
+      "text": "from your marketing text when you do that you as a user have a number of requirements that you say hey I would like to generate a tagline or want to have a like a small text paragraph and the first thing we do behind the scene before we show this text to the users we will validate that those settings are hold"
+    },
+    {
+      "t": 1025.4,
+      "end": 1045.5,
+      "text": "another example is a data so imagine you have a product which have multiple physical dimensions or Properties or qualities when we generate marketing text we are making sure that every number if you will like a size or width or dep depth is actually coming from a database so we don't want to"
+    },
+    {
+      "t": 1045.5,
+      "end": 1065.5,
+      "text": "have a marketing text where uh you know you have different Dimensions or you have a sales campaign I give you like a th% discount just because LM can so we do work to validate that the final outcome of a generated marketing text will be what we call grounded or have the right data point SC and"
+    },
+    {
+      "t": 1065.5,
+      "end": 1086.3,
+      "text": "only if it has so we show it to the user having that small technique just to validate llm for this particular feature allow us to increase accuracy meaning it works from 6 % which is like every flip Point kind of coin time to time to very very big numbers"
+    },
+    {
+      "t": 1086.3,
+      "end": 1106.4,
+      "text": "the work is not stopping here but just by doing this simple technique you get significant significant return on investment from something which AI a to something okay now we can maybe take a dependency or serious talk about the feature great stuff it's not always as easy like that I don't want to"
+    },
+    {
+      "t": 1106.4,
+      "end": 1126.5,
+      "text": "kind of downplay the level of complexity for example if you uh ask our chat about how can I do something in our documentation like how can I do drop shipments you have a kind of quite Advanced Machinery behind the scene we try to go to Microsoft learn which kind of trusted source of knowledge retrieve all"
+    },
+    {
+      "t": 1126.5,
+      "end": 1146.8,
+      "text": "the Articles and we'll try to prepare for you a question from all the Articles kind of give you this nice nice overview to help you however we will never show it to you before we do what before we verify that the answer is grounded and that answer we prepare for you actually answering the initial question"
+    },
+    {
+      "t": 1146.8,
+      "end": 1167,
+      "text": "and only if we making sure it does that we will show you the answer and otherwise we can you know show you some links something else and so on so forth yes we pay extra time to wait for verifications yes maybe you need to wait extra 200 milliseconds but we need to ensure"
+    },
+    {
+      "t": 1167,
+      "end": 1188.2,
+      "text": "you have this trust and and verification ation mechanism and in some cases it's easier in some cases it's hard but in the same kind of fundamental idea we verify what we ask for and if we sure we proceed if we don't sure we do something else we can clarify but we need to approach situation from day Zero super"
+    },
+    {
+      "t": 1188.2,
+      "end": 1209,
+      "text": "important dealing with Fabrications should be a number one priority as you consider to bring copilot to your users just to avoid lack of trust frustration bad reputation brand damage all this bad things always validate LM responses learn from us from this sessions from our base up"
+    },
+    {
+      "t": 1209,
+      "end": 1219.4,
+      "text": "examples All Above is essential for having good prompts just to have like a practice how you ground your prompts in reality super super"
+    },
+    {
+      "t": 1219.4,
+      "end": 1240.1,
+      "text": "important okay we talked about Fabrications but the question is how can we build co-pilots which can answer user questions which are grounded in data so when we ask about inventory levels we got a right and to slow response and to do that we can use tools"
+    },
+    {
+      "t": 1240.1,
+      "end": 1260.4,
+      "text": "tools is a really cool concept I'll show you how it works what it does and what is the main intent for and to U maybe illustrate you the idea I'm going to switch to J CH GPT and explain how chat GPT it works and then show you how it's apply for business Central I'm going to chat GPT and I'll show you first how it works"
+    },
+    {
+      "t": 1260.4,
+      "end": 1280.5,
+      "text": "with tools and without tools so first of all I'm going to ask a question who is the prime minister of Canada and I specifically given instructions don't use tools and I press go button so what's happening now the large language model replying on my question based on the knowledge it has and the time when"
+    },
+    {
+      "t": 1280.5,
+      "end": 1300.7,
+      "text": "it was trained obviously it's not up to date what's happening right now and it's saying hey based on what I know is adjusting and so on so forth now if I'll say use tools what will happen now you have like a small search in web happening so large language model knows this question is"
+    },
+    {
+      "t": 1300.7,
+      "end": 1321.1,
+      "text": "about something actual which it doesn't have knowledge to so it tried to reach a for a help and it uses this web search as a tool to maybe Refresh on Research knowledge so now it go to the web it found information about who the Prime Minister which was like a recent change of March 14 it's a mark and now you have"
+    },
+    {
+      "t": 1321.1,
+      "end": 1341.2,
+      "text": "much more grounded and trustful um answer compared to fabrication saying hey this is Justin because I just didn't know what to say anything better so exactly same approach we can use in business Central to make sure we can answer the question about business data in a trustful and reliable way"
+    },
+    {
+      "t": 1341.2,
+      "end": 1361.2,
+      "text": "so let's see how it works imagine you're building a calet extension to help your users to answer a question about orders and of course all the information about orders is kind of stored as a business Central so what you you can do in your extension you can define a tool exactly the same tool as a web search was"
+    },
+    {
+      "t": 1361.2,
+      "end": 1381.4,
+      "text": "for chat jpt you go to our L code you define a function or a tool and you say hey I know everything about orders so in this case when the user ask what is my order status we can call your code unit which will responsible for that it will retrieve all the"
+    },
+    {
+      "t": 1381.4,
+      "end": 1401.6,
+      "text": "information from database about status delivery updates tracking and get this data back to llm and now we can response like hey your order is currently out of delivery here's the new expected date and so on soers so again without having these tools we would never be able to get any good response for the users"
+    },
+    {
+      "t": 1401.6,
+      "end": 1421.6,
+      "text": "but because we can delegate to bus to business Central to your extension to do the work we can en reach response with the real data let's take another example now sometimes you can say okay but what about if I ask for the order I think it's delayed and I will ask for a discount we can also approach it in the"
+    },
+    {
+      "t": 1421.6,
+      "end": 1442.2,
+      "text": "same way we're going to define a number of tools a number of code units a number of helpers who can help you to do different things for example you have a helper who knows everything about order status or you have a helper which can help you to retrieve product details about prodct product or you have a helper based on API maybe"
+    },
+    {
+      "t": 1442.2,
+      "end": 1462.5,
+      "text": "which allow you to apply the discounts so in this case when you run this prompt to large language model large language model can detect tools defined in your extension and call them where it's applicable and basically use it information and to provide responses like that yes your order is unfortunately delayed we very sorry about"
+    },
+    {
+      "t": 1462.5,
+      "end": 1482.9,
+      "text": "that and yes because of your business logic we did appli a discount for you for your order sorry for inconvenience so tools allow you to have this verified way to get a data inject a real-time data and avoid fabrication and hallucination in the real world now what usually happen this point of time"
+    },
+    {
+      "t": 1482.9,
+      "end": 1503.5,
+      "text": "people saying wait a minute do I have a power now so what about if I ask about the order and I ask for Discount and I ask a book a meeting and I ask a check a stock price and so on so on so forth couldn't I just go to my extension and add a lot of functions functions which can do all thing in the world"
+    },
+    {
+      "t": 1503.5,
+      "end": 1523.9,
+      "text": "you know get a reports schedule meetings analyze customer sentiment I basically Define as much action tools which describe my extension and then just ask km to deal with all of that and the truth is at this point of time what will happen is that it'll basically stop working"
+    },
+    {
+      "t": 1523.9,
+      "end": 1544,
+      "text": "so the concept is great and it work great but at some at some point of time if you have too much it will just stop working reliably now what I want you to be cous and be super aware if you go to open ey documentation it will say hey tools are awesome"
+    },
+    {
+      "t": 1544,
+      "end": 1564.1,
+      "text": "it's a best tool for a job to retrieve data from a system to enrich your responses to make sure it's truth and grounded but please use fewer than 20 functions to make sure you have a good uh accuracy from uh our experimentation or if you look at Microsoft features"
+    },
+    {
+      "t": 1564.1,
+      "end": 1584.4,
+      "text": "we use around five fiveish and we see pretty pretty good U results so we would suggest you stay around 5ish but obviously as a technology improve as large language model will improve probably the number will grow over time and by the way we have samples if you go to our B Tech you can"
+    },
+    {
+      "t": 1584.4,
+      "end": 1598.6,
+      "text": "see a number of samples how to use tools how to bring tools C pilot extension we keep them up to date with every release and every wave it's a great great place to get started go ahead and explore all"
+    },
+    {
+      "t": 1598.6,
+      "end": 1618.7,
+      "text": "that using tools so using tools help y pilot to deal with fabrication in business Central AI toolkit we support multiple function calling small thing but important our recommendation you try to build very specific co-pilot you can build a copilot to help our with user"
+    },
+    {
+      "t": 1618.7,
+      "end": 1632.2,
+      "text": "pricing about other states but if you want to build like a gut capil which can help you with everything uh you probably don't have enough technology for now H to deal with it so you want to stay humble and small"
+    },
+    {
+      "t": 1632.2,
+      "end": 1652.4,
+      "text": "smaller because if you have too many tools we just don't have enough reliable technology and large language model not really sure which one to call and it just kind of can put your calot extension uh off track a bit and from our experience the magic number is around five but again try it out experiment see what works for"
+    },
+    {
+      "t": 1652.4,
+      "end": 1673.8,
+      "text": "you over the last releases and this release we have a number of great great videos how to extend copilot in business Central and how to build your own copilot I hope this video was helpful you have something to think about on this journey and with that I wish you a wonderful day"
+    }
+  ],
+  "markers": [
+    {
+      "t": 0,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 4708
+}
