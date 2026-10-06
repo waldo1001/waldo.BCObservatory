@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-scenarios-moving-table-fields",
   "published_at": "2026-07-09T03:00:00.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "5ecfa7d106e179668fcb89e4c36a9a579c68f1fb",
       "words": 1661,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T16:16:05.689Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.017161
+    },
+    "summarized": {
+      "at": "2026-10-06T16:16:05.712Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T16:16:05.713Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T16:16:05.714Z",
+      "page": false
     }
   },
   "input_hash": "5ecfa7d106e179668fcb89e4c36a9a579c68f1fb",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "5ecfa7d106e179668fcb89e4c36a9a579c68f1fb"
+  "output_hash": "d8e730a4414f523f1210d68a93b50669bc24eb6850f792dfeac6cbd4bde55425"
 }

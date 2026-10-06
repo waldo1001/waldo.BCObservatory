@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/subcontract-prices",
   "published_at": "2026-07-09T07:35:43.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "7cdf9369260a4e6781704bb8ec19bc69bb13dc87",
       "words": 1627,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T16:16:05.686Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 5,
+      "cost_usd": 0.006088
+    },
+    "summarized": {
+      "at": "2026-10-06T16:16:05.700Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T16:16:05.701Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T16:16:05.702Z",
+      "page": false
     }
   },
   "input_hash": "7cdf9369260a4e6781704bb8ec19bc69bb13dc87",
@@ -46,5 +65,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7cdf9369260a4e6781704bb8ec19bc69bb13dc87"
+  "output_hash": "41f4290ed78c2c0e35cd4945e59fc3086b88722cab7e64079262186efb9cf486"
 }

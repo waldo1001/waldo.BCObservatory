@@ -1,0 +1,58 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/subcontract-setup-configurator.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/subcontract-setup-configurator",
+  "title": "Set up purchase provisions and provision wizard",
+  "blob": "e9f66d0d3649d44ff954606bf5322a21c99dc04a",
+  "summary": "Configure purchase provision settings for routing link codes, component locations, automatic transfers, flushing methods, and use the provision setup wizard to create production orders for subcontracting.",
+  "systems": [
+    "manufacturing",
+    "purchasing",
+    "administration"
+  ],
+  "topics": [
+    "purchase provisions",
+    "subcontracting setup",
+    "routing link codes",
+    "flushing methods",
+    "component locations",
+    "provision wizard",
+    "production order creation"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Subcontracting Setup"
+    },
+    {
+      "type": "page",
+      "name": "Manufacturing Setup"
+    },
+    {
+      "type": "page",
+      "name": "Company Information"
+    }
+  ],
+  "features": [
+    "routing link code",
+    "default component item",
+    "work center group",
+    "flushing method",
+    "direct transfer for subcontracting",
+    "default component location source",
+    "provision assisted setup guide",
+    "BOM and routing configuration",
+    "version management",
+    "automatic transfer"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006088,
+      "pages_in_call": 4
+    }
+  ]
+}

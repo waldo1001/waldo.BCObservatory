@@ -1,0 +1,54 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/subcontract-location-management.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/subcontract-location-management",
+  "title": "Set up locations for subcontracting",
+  "blob": "cab9be97f550b28a13a5789b957e3ddd1173135e",
+  "summary": "Configure subcontracting locations on vendor cards and set up transfer routes between company warehouses and subcontractor locations to manage component transfers and output receipt.",
+  "systems": [
+    "manufacturing",
+    "warehouse",
+    "inventory"
+  ],
+  "topics": [
+    "subcontracting locations",
+    "vendors",
+    "transfer routes",
+    "warehouse setup",
+    "component transfer",
+    "in-transit location"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Vendors"
+    },
+    {
+      "type": "page",
+      "name": "Transfer Routes"
+    },
+    {
+      "type": "page",
+      "name": "Inventory Setup"
+    }
+  ],
+  "features": [
+    "subcontracting location code",
+    "vendor location assignment",
+    "transfer-from code",
+    "transfer-to code",
+    "in-transit location",
+    "direct transfer",
+    "warehouse handling"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006088,
+      "pages_in_call": 4
+    }
+  ]
+}

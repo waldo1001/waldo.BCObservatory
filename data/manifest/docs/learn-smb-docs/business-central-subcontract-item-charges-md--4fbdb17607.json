@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/subcontract-item-charges",
   "published_at": "2026-07-09T07:35:43.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "010d9a5c85fe3158ed13ff8ce8a93d6022755082",
       "words": 938,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T16:16:05.684Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 5,
+      "cost_usd": 0.006088
+    },
+    "summarized": {
+      "at": "2026-10-06T16:16:05.693Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T16:16:05.694Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T16:16:05.695Z",
+      "page": false
     }
   },
   "input_hash": "010d9a5c85fe3158ed13ff8ce8a93d6022755082",
@@ -46,5 +65,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "010d9a5c85fe3158ed13ff8ce8a93d6022755082"
+  "output_hash": "580d3e3636cdf58c8e2fa61760dde22df83d7a4dd59be69e693a34299567434a"
 }

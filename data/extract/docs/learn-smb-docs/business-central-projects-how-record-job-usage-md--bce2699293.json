@@ -1,0 +1,91 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/projects-how-record-job-usage.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/projects-how-record-job-usage",
+  "title": "Record Consumption or Usage of Project Resources and Items",
+  "blob": "da398194ea9365994f3917d7eb28e9046f37274b",
+  "summary": "Recording consumption and usage of project resources and items through project journals and planning lines, including creating inventory and warehouse picks.",
+  "systems": [
+    "projects",
+    "inventory",
+    "warehouse"
+  ],
+  "topics": [
+    "project usage",
+    "resource consumption",
+    "project journals",
+    "project planning lines",
+    "inventory picks"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Project Card"
+    },
+    {
+      "type": "page",
+      "name": "Project Planning Lines"
+    },
+    {
+      "type": "page",
+      "name": "Project Setup"
+    },
+    {
+      "type": "page",
+      "name": "Project Journals"
+    },
+    {
+      "type": "page",
+      "name": "Project Transfer Project Planning Line"
+    },
+    {
+      "type": "page",
+      "name": "Project Journal"
+    },
+    {
+      "type": "page",
+      "name": "Project Calc. Remaining Usage"
+    },
+    {
+      "type": "page",
+      "name": "Location Card"
+    },
+    {
+      "type": "page",
+      "name": "Inventory Pick"
+    },
+    {
+      "type": "page",
+      "name": "Warehouse Pick"
+    },
+    {
+      "type": "page",
+      "name": "Project Ledger Entries"
+    },
+    {
+      "type": "report",
+      "name": "Post Inventory Cost to G/L"
+    }
+  ],
+  "features": [
+    "Apply Usage Link by Default",
+    "Project Planning Lines",
+    "Qty. To Transfer to Journal",
+    "Budget lines",
+    "Billable lines",
+    "Create Project Journal Lines",
+    "Inventory Pick",
+    "Warehouse Pick",
+    "Expense Management integration"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.017161,
+      "pages_in_call": 3
+    }
+  ]
+}

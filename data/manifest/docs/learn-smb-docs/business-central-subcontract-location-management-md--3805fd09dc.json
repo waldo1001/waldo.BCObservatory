@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/subcontract-location-management",
   "published_at": "2026-07-09T07:35:43.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "cab9be97f550b28a13a5789b957e3ddd1173135e",
       "words": 455,
       "forms": 2
+    },
+    "extracted": {
+      "at": "2026-10-06T16:16:05.685Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.006088
+    },
+    "summarized": {
+      "at": "2026-10-06T16:16:05.696Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T16:16:05.697Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T16:16:05.698Z",
+      "page": false
     }
   },
   "input_hash": "cab9be97f550b28a13a5789b957e3ddd1173135e",
@@ -50,5 +69,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "cab9be97f550b28a13a5789b957e3ddd1173135e"
+  "output_hash": "8e98b6fb651e68872f4948d5effa92859e349f656c2431faf523109bc3c2dd35"
 }

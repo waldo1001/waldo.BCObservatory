@@ -1,0 +1,62 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/subcontract-item-charges.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/subcontract-item-charges",
+  "title": "Assign item charges to subcontracting receipts",
+  "blob": "010d9a5c85fe3158ed13ff8ce8a93d6022755082",
+  "summary": "Assign item charges such as transport, packaging, and testing costs to subcontracting receipts to include them directly in production order costs through capacity ledger entries instead of inventory.",
+  "systems": [
+    "manufacturing",
+    "purchasing",
+    "finance"
+  ],
+  "topics": [
+    "item charges",
+    "subcontracting",
+    "production orders",
+    "cost assignment",
+    "capacity costs",
+    "value entries"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Item Charge Assignment"
+    },
+    {
+      "type": "page",
+      "name": "Purchase Orders"
+    },
+    {
+      "type": "page",
+      "name": "Purchase Invoices"
+    },
+    {
+      "type": "page",
+      "name": "Purch. Receipt Lines"
+    },
+    {
+      "type": "page",
+      "name": "Value Entries"
+    }
+  ],
+  "features": [
+    "item charge assignment",
+    "subcontracting receipts",
+    "capacity ledger entries",
+    "direct cost type",
+    "charge item type",
+    "get receipt lines",
+    "value entry tracking"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006088,
+      "pages_in_call": 4
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/subcontract-prices.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/subcontract-prices",
+  "title": "Set up subcontractor prices",
+  "blob": "7cdf9369260a4e6781704bb8ec19bc69bb13dc87",
+  "summary": "Store and manage subcontractor prices assigned to vendors, work centers, and standard task codes with quantity breaks, minimum amounts, and currency handling for accurate subcontracting cost calculation.",
+  "systems": [
+    "manufacturing",
+    "purchasing",
+    "finance"
+  ],
+  "topics": [
+    "subcontractor prices",
+    "vendor pricing",
+    "quantity breaks",
+    "cost calculation",
+    "minimum amount",
+    "indirect costs",
+    "overhead"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Subcontractor Prices"
+    },
+    {
+      "type": "page",
+      "name": "Vendor Card"
+    },
+    {
+      "type": "page",
+      "name": "Work Center Card"
+    },
+    {
+      "type": "page",
+      "name": "Item Card"
+    },
+    {
+      "type": "page",
+      "name": "Routing Lines"
+    }
+  ],
+  "features": [
+    "direct unit cost",
+    "minimum quantity",
+    "minimum amount floor",
+    "standard task code",
+    "variant code",
+    "date range pricing",
+    "copy prices between vendors",
+    "indirect cost application",
+    "overhead rate"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006088,
+      "pages_in_call": 4
+    }
+  ]
+}

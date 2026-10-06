@@ -1,0 +1,109 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-extension-advanced-example-test.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extension-advanced-example-test",
+  "title": "Test the advanced sample extension",
+  "blob": "4ac404b47d4bee073ae526f18b373b88e8e6ca9e",
+  "summary": "Testing an advanced sample extension with the Application Test Toolkit, including writing test methods, handling UI interactions, and validating business logic for a Customer Rewards extension.",
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "testing",
+    "application test toolkit",
+    "test methods",
+    "ui handlers",
+    "sample extension"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "MockCustomerRewardsExtMgt"
+    },
+    {
+      "type": "codeunit",
+      "name": "Customer Rewards Test"
+    },
+    {
+      "type": "page",
+      "name": "Test Tool"
+    },
+    {
+      "type": "page",
+      "name": "Customer Rewards Wizard"
+    },
+    {
+      "type": "page",
+      "name": "Rewards Level List"
+    },
+    {
+      "type": "page",
+      "name": "Customer List"
+    },
+    {
+      "type": "page",
+      "name": "Customer Card"
+    },
+    {
+      "type": "table",
+      "name": "Customer"
+    },
+    {
+      "type": "table",
+      "name": "Reward Level"
+    },
+    {
+      "type": "table",
+      "name": "Customer Rewards Mgt. Setup"
+    },
+    {
+      "type": "table",
+      "name": "Activation Code Information"
+    },
+    {
+      "type": "codeunit",
+      "name": "Customer Rewards Install Logic"
+    },
+    {
+      "type": "codeunit",
+      "name": "Customer Rewards Ext. Mgt."
+    },
+    {
+      "type": "codeunit",
+      "name": "Library Assert"
+    },
+    {
+      "type": "codeunit",
+      "name": "Library - Lower Permissions"
+    },
+    {
+      "type": "codeunit",
+      "name": "Library - Sales"
+    },
+    {
+      "type": "report",
+      "name": "Project Calc. Remaining Usage"
+    }
+  ],
+  "features": [
+    "test codeunits",
+    "test methods",
+    "UI handlers",
+    "test pages",
+    "asserterror statement",
+    "mock event subscribers",
+    "Application Test Toolkit",
+    "event binding"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.017161,
+      "pages_in_call": 3
+    }
+  ]
+}

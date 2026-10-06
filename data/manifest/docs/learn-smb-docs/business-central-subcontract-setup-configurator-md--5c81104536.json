@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/subcontract-setup-configurator",
   "published_at": "2026-07-09T07:35:43.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "e9f66d0d3649d44ff954606bf5322a21c99dc04a",
       "words": 1387,
       "forms": 2
+    },
+    "extracted": {
+      "at": "2026-10-06T16:16:05.687Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.006088
+    },
+    "summarized": {
+      "at": "2026-10-06T16:16:05.704Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T16:16:05.705Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T16:16:05.706Z",
+      "page": false
     }
   },
   "input_hash": "e9f66d0d3649d44ff954606bf5322a21c99dc04a",
@@ -53,5 +72,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e9f66d0d3649d44ff954606bf5322a21c99dc04a"
+  "output_hash": "f5a2460f7ef37b6fe98c16f7f6faf0e6920ff63d016902933f0ddbe0acf92b95"
 }

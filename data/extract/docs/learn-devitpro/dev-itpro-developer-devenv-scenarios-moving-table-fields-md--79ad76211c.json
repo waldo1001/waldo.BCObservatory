@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-scenarios-moving-table-fields.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-scenarios-moving-table-fields",
+  "title": "Development process for moving tables and fields between extensions",
+  "blob": "5ecfa7d106e179668fcb89e4c36a9a579c68f1fb",
+  "summary": "Moving tables and fields between extensions through three scenarios: move down to a dependency, move up to a dependent, or lateral move to non-dependent extensions, with detailed publishing orders.",
+  "systems": [
+    "development",
+    "platform",
+    "integration"
+  ],
+  "topics": [
+    "table movement",
+    "field movement",
+    "extension dependencies",
+    "obsolescence",
+    "schema migration"
+  ],
+  "objects": [],
+  "features": [
+    "ObsoleteState property",
+    "MovedTo property",
+    "MovedFrom property",
+    "PendingMove state",
+    "Moved state",
+    "propagateDependencies",
+    "dependencyPublishingOption",
+    "Marketplace validation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.017161,
+      "pages_in_call": 3
+    }
+  ]
+}
