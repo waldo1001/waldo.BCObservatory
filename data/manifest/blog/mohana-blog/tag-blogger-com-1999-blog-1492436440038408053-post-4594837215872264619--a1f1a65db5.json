@@ -7,15 +7,39 @@
   "url": "http://mohana-dynamicsnav.blogspot.com/2026/10/composite-layouts-in-business-central.html",
   "published_at": "2026-10-05T15:20:52.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:17:02.771Z",
+      "path": "vault:posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-4594837215872264619--a1f1a65db5.md",
+      "words": 1637
+    },
+    "extracted": {
+      "at": "2026-10-06T21:17:17.740Z",
+      "prompt": "extract-post@1",
+      "quotes": 0,
+      "trimmed": 0,
+      "cost_usd": 0.01227
+    },
+    "summarized": {
+      "at": "2026-10-06T21:17:17.742Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:17:17.743Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:17:17.750Z",
+      "path": "content/posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-4594837215872264619--a1f1a65db5.md"
     }
   },
   "input_hash": "2026-10-05T15:20:52.779Z",
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
-  "last_error": "The operation was aborted due to timeout",
-  "retry_after": "2026-10-06T20:08:57.031Z"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "1c438ddfe73ddf3a2070ba66130e48a30a32a7e4d65784a7a21d481a2e287a5b"
 }

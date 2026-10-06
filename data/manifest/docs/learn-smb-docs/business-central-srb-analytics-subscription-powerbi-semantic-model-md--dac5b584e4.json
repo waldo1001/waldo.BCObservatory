@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/SRB/analytics/subscription-powerbi-semantic-model",
   "published_at": "2026-05-13T18:31:46.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,10 +17,29 @@
       "blob": "d27dab17059d80451d9ffe132383194f2995f535",
       "words": 2377,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T21:17:39.809Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 12,
+      "cost_usd": 0.003275
+    },
+    "summarized": {
+      "at": "2026-10-06T21:17:39.820Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T21:17:39.821Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T21:17:39.822Z",
+      "page": false
     }
   },
   "input_hash": "d27dab17059d80451d9ffe132383194f2995f535",
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
@@ -35,7 +54,7 @@
     "ai_usage": null,
     "words": 2377
   },
-  "last_error": "git cat-file -p d27dab17059d80451d9ffe132383194f2995f535 failed: fatal: You are attempting to fetch bf5ffffa9b026e146d29f13a242daa5334ddf0d8, which is in the commit graph file but not in the object database. This is probably due to repo corruption. If you are attempting to repair this repo corruption by refetching the missing object, use 'git fetch --refetch' with the missing object. fatal: could not fetch d27dab17059d80451d9ffe132383194f2995f535 from promisor ",
-  "retry_after": "2026-10-06T20:33:42.944Z",
-  "output_hash": "d27dab17059d80451d9ffe132383194f2995f535"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "1ee156e7418423277e83c9514cc7f7a6c8ffd3b13fe7cd18fce12d375d32d4f9"
 }

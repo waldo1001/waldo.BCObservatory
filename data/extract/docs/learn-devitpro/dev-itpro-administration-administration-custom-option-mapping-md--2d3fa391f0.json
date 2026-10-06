@@ -1,0 +1,97 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/administration-custom-option-mapping.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/administration-custom-option-mapping",
+  "title": "Customizing option mappings with Microsoft Dataverse",
+  "blob": "251a02d347692511f49319e046e0fa0ce2a193b3",
+  "summary": "Customizing option mappings in Dataverse integration involves creating integration tables, pages, and AL extensions to couple and synchronize Business Central records with Dataverse option sets without bidirectional support.",
+  "systems": [
+    "integration",
+    "development",
+    "crm"
+  ],
+  "topics": [
+    "dataverse",
+    "option mapping",
+    "al extension",
+    "data synchronization",
+    "integration table"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Dataverse Industry"
+    },
+    {
+      "type": "table",
+      "name": "CRM Account"
+    },
+    {
+      "type": "table",
+      "name": "Industry Group"
+    },
+    {
+      "type": "table",
+      "name": "CRM Option Mapping"
+    },
+    {
+      "type": "table",
+      "name": "Integration Table Mapping"
+    },
+    {
+      "type": "table",
+      "name": "Integration Field Mapping"
+    },
+    {
+      "type": "page",
+      "name": "Dataverse Industry List"
+    },
+    {
+      "type": "codeunit",
+      "name": "CDS Integration Mgt."
+    },
+    {
+      "type": "codeunit",
+      "name": "CRM Integration Management"
+    },
+    {
+      "type": "codeunit",
+      "name": "CRM Setup Defaults"
+    },
+    {
+      "type": "codeunit",
+      "name": "Lookup CRM Tables"
+    },
+    {
+      "type": "codeunit",
+      "name": "CRM Integration Table Synch."
+    },
+    {
+      "type": "codeunit",
+      "name": "Int. Option Synch. Invoke"
+    },
+    {
+      "type": "codeunit",
+      "name": "CRM Synch. Helper"
+    }
+  ],
+  "features": [
+    "option mapping",
+    "integration table mapping",
+    "field mapping",
+    "coupling",
+    "synchronization",
+    "temporary tables",
+    "event subscribers"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005155,
+      "pages_in_call": 8
+    }
+  ]
+}

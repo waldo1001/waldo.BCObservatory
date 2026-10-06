@@ -7,13 +7,39 @@
   "url": "https://www.sauravdhyani.com/2026/09/preview-images-directly-in-business.html",
   "published_at": "2026-10-05T05:30:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:17:02.330Z",
+      "path": "vault:posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-7010066564245788546--9c8ee5a738.md",
+      "words": 1072
+    },
+    "extracted": {
+      "at": "2026-10-06T21:17:13.091Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": 0.006621
+    },
+    "summarized": {
+      "at": "2026-10-06T21:17:13.093Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:17:13.094Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:17:13.141Z",
+      "path": "content/posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-7010066564245788546--9c8ee5a738.md"
     }
   },
   "input_hash": "2026-10-05T05:30:00.122Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "90a41f183c303eb25362ace7ecbb89e0df2b5e9478454ea414431e1a92a5ad38"
 }

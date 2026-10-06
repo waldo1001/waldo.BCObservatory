@@ -1,0 +1,48 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/fa-how-setup-maintenance.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/fa-how-setup-maintenance",
+  "title": "Set Up FA Maintenance",
+  "blob": "47bca36e423385d5f22c2c4850c8b517ebaaa31e",
+  "summary": "Set up fixed asset maintenance by configuring general maintenance information, maintenance codes for work types, and maintenance expense accounts in posting groups. Use this to manage and track fixed asset maintenance activities.",
+  "systems": [
+    "fixed-assets",
+    "finance"
+  ],
+  "topics": [
+    "maintenance",
+    "fixed assets",
+    "setup",
+    "expense accounts",
+    "posting groups"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Fixed Assets"
+    },
+    {
+      "type": "page",
+      "name": "Maintenance"
+    },
+    {
+      "type": "page",
+      "name": "FA Posting Groups"
+    }
+  ],
+  "features": [
+    "maintenance codes",
+    "maintenance expense account",
+    "allocation keys"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003275,
+      "pages_in_call": 8
+    }
+  ]
+}

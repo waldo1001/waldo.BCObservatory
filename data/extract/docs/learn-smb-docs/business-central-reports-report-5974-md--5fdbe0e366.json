@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-5974.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5974",
+  "title": "Contract Quotes to Be Signed (report)",
+  "blob": "06673a9bc4ace59173d55a95f3eb7bd66a4c2f24",
+  "summary": "The Contract Quotes to Be Signed report displays contract quotes awaiting signature with contract numbers, customer details, salesperson codes, start dates, probability, quote amounts, and optional forecasts. Use this report to monitor contracts pending signature.",
+  "systems": [
+    "service",
+    "sales"
+  ],
+  "topics": [
+    "contract",
+    "quotes",
+    "report",
+    "forecast",
+    "signature"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Contract Quotes to Be Signed"
+    }
+  ],
+  "features": [
+    "forecast",
+    "probability",
+    "quote amount"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003275,
+      "pages_in_call": 8
+    }
+  ]
+}

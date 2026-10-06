@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-4410.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-4410",
+  "title": "Consolidated Trial Balance (Excel report)",
+  "blob": "cc1105d2b42dddf020970f9002e1a5f567e921af",
+  "summary": "The Consolidated Trial Balance Excel report shows net changes or balances of general ledger accounts aggregated by business unit with worksheets for LCY and ACY analysis.",
+  "systems": [
+    "finance",
+    "reporting"
+  ],
+  "topics": [
+    "trial balance",
+    "consolidation",
+    "gl accounts",
+    "excel reporting",
+    "business units"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Consolidated Trial Balance Excel"
+    }
+  ],
+  "features": [
+    "trial balance by business unit",
+    "LCY reporting",
+    "ACY reporting",
+    "dimension filtering",
+    "account category analysis",
+    "Excel worksheets"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005155,
+      "pages_in_call": 8
+    }
+  ]
+}

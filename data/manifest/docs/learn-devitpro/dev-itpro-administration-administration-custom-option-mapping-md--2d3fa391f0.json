@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/administration-custom-option-mapping",
   "published_at": "2026-06-02T11:43:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,10 +17,29 @@
       "blob": "251a02d347692511f49319e046e0fa0ce2a193b3",
       "words": 1577,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T21:17:37.923Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 14,
+      "cost_usd": 0.005155
+    },
+    "summarized": {
+      "at": "2026-10-06T21:17:37.932Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T21:17:37.933Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T21:17:37.934Z",
+      "page": false
     }
   },
   "input_hash": "251a02d347692511f49319e046e0fa0ce2a193b3",
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
@@ -33,7 +52,7 @@
     "ai_usage": null,
     "words": 1577
   },
-  "last_error": "git cat-file -p 251a02d347692511f49319e046e0fa0ce2a193b3 failed: fatal: You are attempting to fetch cb233a9a87b9b4340b3a593b27f884c24f208fc6, which is in the commit graph file but not in the object database. This is probably due to repo corruption. If you are attempting to repair this repo corruption by refetching the missing object, use 'git fetch --refetch' with the missing object. fatal: could not fetch 251a02d347692511f49319e046e0fa0ce2a193b3 from promisor ",
-  "retry_after": "2026-10-06T20:12:17.119Z",
-  "output_hash": "251a02d347692511f49319e046e0fa0ce2a193b3"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b2def6b0bfe9f7f4cb259193e7d7e5bebdb93b58984e053013e7b515422d8531"
 }

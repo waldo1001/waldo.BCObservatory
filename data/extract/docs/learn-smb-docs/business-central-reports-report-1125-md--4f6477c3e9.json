@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-1125.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1125",
+  "title": "Cost Types Details (report)",
+  "blob": "9a893a5f64ae2268b8417ed9a53a799ebb8c41ab",
+  "summary": "The Cost Types Details report provides a categorized breakdown of all cost types such as labor, materials, and overhead, with filtering by period and cost center to support cost tracking and analysis.",
+  "systems": [
+    "finance"
+  ],
+  "topics": [
+    "cost accounting",
+    "cost types",
+    "financial reporting",
+    "cost tracking",
+    "cost center"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Cost Types Details"
+    }
+  ],
+  "features": [
+    "cost type breakdown",
+    "period filtering",
+    "cost center filtering",
+    "cost allocation validation",
+    "cost trend analysis"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005155,
+      "pages_in_call": 8
+    }
+  ]
+}

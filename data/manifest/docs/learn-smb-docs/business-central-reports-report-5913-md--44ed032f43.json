@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5913",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,10 +17,29 @@
       "blob": "ebc8dfd32642278fad4570e2489dd375580ac40e",
       "words": 201,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T21:17:39.814Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.003275
+    },
+    "summarized": {
+      "at": "2026-10-06T21:17:39.830Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T21:17:39.831Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T21:17:39.832Z",
+      "page": false
     }
   },
   "input_hash": "ebc8dfd32642278fad4570e2489dd375580ac40e",
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
@@ -41,7 +60,7 @@
     "ai_usage": null,
     "words": 201
   },
-  "last_error": "git cat-file -p ebc8dfd32642278fad4570e2489dd375580ac40e failed: fatal: You are attempting to fetch bf5ffffa9b026e146d29f13a242daa5334ddf0d8, which is in the commit graph file but not in the object database. This is probably due to repo corruption. If you are attempting to repair this repo corruption by refetching the missing object, use 'git fetch --refetch' with the missing object. fatal: could not fetch ebc8dfd32642278fad4570e2489dd375580ac40e from promisor ",
-  "retry_after": "2026-10-06T20:55:04.125Z",
-  "output_hash": "ebc8dfd32642278fad4570e2489dd375580ac40e"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "4bfbc8e94385aa6e42b4c6ad2312436b91aa1136edf5a55f9aaeffb4557069b7"
 }

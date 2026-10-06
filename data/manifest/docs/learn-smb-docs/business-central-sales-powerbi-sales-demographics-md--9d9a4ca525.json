@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-demographics",
   "published_at": "2026-05-01T01:15:00.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,10 +17,29 @@
       "blob": "99735916c28fbbe7f41fd87c8bef8a51ccdb2a5b",
       "words": 347,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T21:17:37.924Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005155
+    },
+    "summarized": {
+      "at": "2026-10-06T21:17:37.935Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T21:17:37.936Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T21:17:37.937Z",
+      "page": false
     }
   },
   "input_hash": "99735916c28fbbe7f41fd87c8bef8a51ccdb2a5b",
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
@@ -41,7 +60,7 @@
     "ai_usage": null,
     "words": 347
   },
-  "last_error": "git cat-file -p 99735916c28fbbe7f41fd87c8bef8a51ccdb2a5b failed: fatal: You are attempting to fetch bf5ffffa9b026e146d29f13a242daa5334ddf0d8, which is in the commit graph file but not in the object database. This is probably due to repo corruption. If you are attempting to repair this repo corruption by refetching the missing object, use 'git fetch --refetch' with the missing object. fatal: could not fetch 99735916c28fbbe7f41fd87c8bef8a51ccdb2a5b from promisor ",
-  "retry_after": "2026-10-06T20:42:25.330Z",
-  "output_hash": "99735916c28fbbe7f41fd87c8bef8a51ccdb2a5b"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c2398dba43e1b2643d479e6f5e548a5fe9357f7b2467500450010680a4457953"
 }

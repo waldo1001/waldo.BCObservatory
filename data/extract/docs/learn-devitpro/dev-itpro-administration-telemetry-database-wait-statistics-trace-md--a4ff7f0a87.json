@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-database-wait-statistics-trace.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-database-wait-statistics-trace",
+  "title": "Analyzing Database Wait Statistics Telemetry",
+  "blob": "c627b9d6d93e6481a70eeb387601980c4e6ace2f",
+  "summary": "Database wait statistics telemetry events track query waits and resource bottlenecks in Business Central server operations. Reference this for understanding performance telemetry dimensions and wait categories when analyzing database performance issues.",
+  "systems": [
+    "platform",
+    "administration"
+  ],
+  "topics": [
+    "telemetry",
+    "database",
+    "wait statistics",
+    "performance",
+    "monitoring"
+  ],
+  "objects": [],
+  "features": [
+    "wait statistics snapshot",
+    "wait category",
+    "signal wait time",
+    "database performance monitoring"
+  ],
+  "versions": [
+    "2022 release wave 1",
+    "version 20.0"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003275,
+      "pages_in_call": 8
+    }
+  ]
+}

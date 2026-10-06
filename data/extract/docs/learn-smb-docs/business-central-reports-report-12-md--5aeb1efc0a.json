@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-12.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-12",
+  "title": "VAT Statement (report)",
+  "blob": "1f380a5604d936bce2bbcf0e702d6e1af6dd2061",
+  "summary": "The VAT Statement report consolidates VAT posting information based on VAT statement setup to calculate and report VAT due or refundable, supporting tax filing and compliance.",
+  "systems": [
+    "finance"
+  ],
+  "topics": [
+    "vat",
+    "tax reporting",
+    "compliance",
+    "financial reporting"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "VAT Statement"
+    }
+  ],
+  "features": [
+    "VAT posting consolidation",
+    "input/output VAT summary",
+    "custom statement lines",
+    "posting group application",
+    "tax authority filing"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005155,
+      "pages_in_call": 8
+    }
+  ]
+}

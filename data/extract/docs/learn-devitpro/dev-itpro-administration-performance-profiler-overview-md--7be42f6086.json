@@ -1,0 +1,44 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/performance-profiler-overview.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/performance-profiler-overview",
+  "title": "Performance Profiler overview",
+  "blob": "50e70c4e618a5143607928a6761b20bdeb7b9d73",
+  "summary": "The Performance Profiler monitors business process performance by recording snapshots of all involved apps and objects, displaying time spent and call trees to help identify performance bottlenecks.",
+  "systems": [
+    "platform",
+    "administration"
+  ],
+  "topics": [
+    "performance profiling",
+    "troubleshooting",
+    "performance optimization",
+    "app monitoring",
+    "debugging"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Performance Profiler"
+    }
+  ],
+  "features": [
+    "performance recording",
+    "app monitoring",
+    "call tree analysis",
+    "time spent analysis",
+    "profile sharing",
+    "profile download",
+    "profile upload"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005155,
+      "pages_in_call": 8
+    }
+  ]
+}

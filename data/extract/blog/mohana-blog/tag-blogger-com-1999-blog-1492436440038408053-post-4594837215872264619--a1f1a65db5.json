@@ -1,0 +1,74 @@
+{
+  "item_id": "blog/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-4594837215872264619",
+  "url": "http://mohana-dynamicsnav.blogspot.com/2026/10/composite-layouts-in-business-central.html",
+  "title": "Composite Layouts in Business Central 29.0: Brand One Report End to End",
+  "source": "mohana-blog",
+  "published_at": "2026-10-05T15:20:52.000Z",
+  "words": 1637,
+  "summary": "Business Central 29.0 enables composite layouts where branding is split into three separate parts (header/footer, theme, and body) that merge at render time instead of baking everything into one Word document. The post walks through a complete example of branding the Standard Sales Invoice report for Contoso, covering setup in both the UI and AL code.",
+  "key_points": [
+    "Composite layouts separate letterhead/footer, fonts/colors (theme), and document structure (body) into three reusable parts",
+    "Parts must be approved before use and Body layouts can only accept theme and header/footer parts, while Default layouts cannot",
+    "Defaults cascade across four levels (global, company, report, layout) with most specific taking precedence, enabling multi-company branding at scale",
+    "Themes use .dotx Word templates while header/footer and body layouts use .docx files; file extensions matter for compilation"
+  ],
+  "systems": [
+    "reporting",
+    "administration",
+    "development"
+  ],
+  "topics": [
+    "composite layouts",
+    "branding",
+    "word layouts",
+    "report design",
+    "themes",
+    "header footer",
+    "multi-company"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Standard Sales - Invoice"
+    },
+    {
+      "type": "other",
+      "name": "Manage themes and header-footer layouts"
+    },
+    {
+      "type": "other",
+      "name": "Report Layouts"
+    },
+    {
+      "type": "other",
+      "name": "Report themes and header-footer setup"
+    },
+    {
+      "type": "other",
+      "name": "Report defaults for themes and header-footer setup"
+    }
+  ],
+  "features": [
+    "Composite layouts",
+    "Report themes",
+    "Header/footer parts",
+    "Theme merging",
+    "Approval workflow",
+    "Layout defaults cascading",
+    "Multi-company branding",
+    "Shared company information dataitem"
+  ],
+  "versions": [
+    "29.0"
+  ],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.01227,
+    "posts_in_call": 1
+  },
+  "quotes": []
+}

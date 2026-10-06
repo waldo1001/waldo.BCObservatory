@@ -1,0 +1,69 @@
+{
+  "item_id": "blog/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-7010066564245788546",
+  "url": "https://www.sauravdhyani.com/2026/09/preview-images-directly-in-business.html",
+  "title": "Preview Images Directly in the Business Central Web Client",
+  "source": "sauravdhyani-com",
+  "published_at": "2026-10-05T05:30:00.000Z",
+  "words": 1072,
+  "summary": "Business Central now supports previewing image attachments directly in the web client without downloading. The feature works with multiple image formats across attachments, agents, email, and FactBox thumbnails, with developers using File.ViewFromStream (online) or File.View (on-premises) to integrate the functionality into extensions.",
+  "key_points": [
+    "Users can view supported image files in a dedicated previewer similar to PDF and print preview experiences",
+    "Supported formats include JPEG, JPG, PNG, BMP, SVG, WEBP, ICO, GIF, AVIF, and TIFF/TIF in Safari",
+    "Animated GIFs are supported as FactBox thumbnails with animation for up to 48 frames",
+    "Extension developers can use File.ViewFromStream (online) or File.View (on-premises) to enable preview functionality",
+    "Image and PDF thumbnails can be clickable entry points to open the previewer"
+  ],
+  "systems": [
+    "platform"
+  ],
+  "topics": [
+    "image preview",
+    "web client",
+    "attachments",
+    "file handling",
+    "user experience",
+    "al development"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "File.ViewFromStream"
+    },
+    {
+      "type": "other",
+      "name": "File.View"
+    },
+    {
+      "type": "other",
+      "name": "File.Download"
+    }
+  ],
+  "features": [
+    "Image preview in web client",
+    "Supported image formats",
+    "Animated GIF thumbnails",
+    "Clickable thumbnails",
+    "FactBox thumbnail support",
+    "Extension preview integration"
+  ],
+  "versions": [],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006621,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "Business Central now lets users preview supported image attachments directly in the web client without downloading the image first.",
+      "why_it_matters": "This is the core feature announcement that addresses a common workflow problem of having to download files just to view them"
+    },
+    {
+      "text": "For Business Central online, extension developers should use File.ViewFromStream when they want to provide the image preview experience.",
+      "why_it_matters": "Provides specific implementation guidance for developers integrating the new preview capability into extensions"
+    }
+  ]
+}

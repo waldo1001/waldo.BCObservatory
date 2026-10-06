@@ -1,0 +1,1061 @@
+{
+  "video_id": "Q-oazDEucLE",
+  "item_id": "video/yt-areopa/Q-oazDEucLE",
+  "title": "20260601 - From No Tests to Safe Refactors Debug Logging + AI Agents for Legacy AL",
+  "duration_s": 3262,
+  "systems": [
+    "development",
+    "copilot",
+    "platform"
+  ],
+  "topics": [
+    "legacy code",
+    "test-driven development",
+    "ai agents",
+    "refactoring",
+    "static analysis",
+    "linters",
+    "al code quality",
+    "ci/cd",
+    "automated testing",
+    "debug logging",
+    "telemetry",
+    "code paths"
+  ],
+  "chapters": [
+    {
+      "title": "Webinar introduction and housekeeping",
+      "t_start": 0,
+      "t_end": 225.2
+    },
+    {
+      "title": "Speaker introduction and background",
+      "t_start": 225.2,
+      "t_end": 315.9
+    },
+    {
+      "title": "Problem statement - legacy code and brownfields projects",
+      "t_start": 315.9,
+      "t_end": 426.6
+    },
+    {
+      "title": "AI capabilities and challenges in code generation",
+      "t_start": 426.6,
+      "t_end": 583.4
+    },
+    {
+      "title": "Making AI deterministic - compilation and static analysis",
+      "t_start": 583.4,
+      "t_end": 702.3
+    },
+    {
+      "title": "Linters, complexity rules, and test-driven development",
+      "t_start": 702.3,
+      "t_end": 827.2
+    },
+    {
+      "title": "Automated testing and CI/CD integration",
+      "t_start": 827.2,
+      "t_end": 891.7
+    },
+    {
+      "title": "Understanding legacy code behavior",
+      "t_start": 891.7,
+      "t_end": 999
+    },
+    {
+      "title": "Mapping procedure behavior and test coverage",
+      "t_start": 999,
+      "t_end": 1167.7
+    },
+    {
+      "title": "Enabling agents to see code execution paths",
+      "t_start": 1167.7,
+      "t_end": 1264.2
+    },
+    {
+      "title": "Debug logging implementation with telemetry",
+      "t_start": 1264.2,
+      "t_end": 1480.2
+    },
+    {
+      "title": "Automating test verification and path detection",
+      "t_start": 1480.2,
+      "t_end": 1630.3
+    },
+    {
+      "title": "Approval tests and safe refactoring foundations",
+      "t_start": 1630.3,
+      "t_end": 1738.9
+    },
+    {
+      "title": "Mutation testing introduction and purpose",
+      "t_start": 1738.9,
+      "t_end": 1878.3
+    },
+    {
+      "title": "Mutation testing execution with agent automation",
+      "t_start": 1878.3,
+      "t_end": 1984.5
+    },
+    {
+      "title": "Test-driven development loop and refactoring workflow",
+      "t_start": 1984.5,
+      "t_end": 2071.2
+    },
+    {
+      "title": "Wrapper procedures and test compatibility during refactoring",
+      "t_start": 2071.2,
+      "t_end": 2145.8
+    },
+    {
+      "title": "Agent economics and cascading benefits of clean code",
+      "t_start": 2145.8,
+      "t_end": 2235.1
+    },
+    {
+      "title": "Ensuring agent compliance with instructions and hooks",
+      "t_start": 2235.1,
+      "t_end": 2363.8
+    },
+    {
+      "title": "Test setup and agent learning for refactoring",
+      "t_start": 2363.8,
+      "t_end": 2472.6
+    },
+    {
+      "title": "Code quality rules and refactoring practices",
+      "t_start": 2472.6,
+      "t_end": 2599
+    },
+    {
+      "title": "Debug logging and feature telemetry safety nets",
+      "t_start": 2599,
+      "t_end": 2788.6
+    },
+    {
+      "title": "Mutation testing with AI agents",
+      "t_start": 2788.6,
+      "t_end": 2906.2
+    },
+    {
+      "title": "Temporary vs permanent test coverage",
+      "t_start": 2906.2,
+      "t_end": 3031.4
+    },
+    {
+      "title": "Real unit tests and bug discovery in refactoring",
+      "t_start": 3031.4,
+      "t_end": 3166.4
+    },
+    {
+      "title": "Closing remarks and webinar information",
+      "t_start": 3166.4,
+      "t_end": 3262
+    }
+  ],
+  "features": [
+    {
+      "name": "AI code generation for legacy AL refactoring",
+      "description": "Using AI agents to assist in refactoring and improving legacy AL code that may have been ported from older versions. AI is good at understanding test-driven development principles and writing tests quickly, but produces non-deterministic code that can fail.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 437.4,
+      "t_end": 540.6,
+      "is_demoed": false,
+      "caveats": [
+        "AI-generated code is non-deterministic and may fail",
+        "AI behavior changes almost weekly as new models are released",
+        "Difficult to generate tests for very long legacy procedures with complex logic"
+      ],
+      "tags": [
+        "ai agents",
+        "refactoring",
+        "legacy code",
+        "test-driven development"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Compilation as first-pass validation for AI agents",
+      "description": "Using compilation checks as a feedback loop to ensure AI-generated code compiles before further validation. This is the basic first check any developer performs.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 608.8,
+      "t_end": 646.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "ai agents",
+        "compilation",
+        "validation"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Static analysis linters for code quality",
+      "description": "Using Microsoft's AppSource Cop, Pertenent Cop, Code Cop, and UI Cop linters, plus community linters, to provide feedback on code quality. Recommends linters that check code complexity to prevent AI from writing overly long procedures.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 646.8,
+      "t_end": 716.2,
+      "is_demoed": false,
+      "caveats": [
+        "Some community linters are deprecated in favor of new ones"
+      ],
+      "tags": [
+        "static analysis",
+        "linters",
+        "code quality",
+        "appsource cop"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Complexity linters for procedure length control",
+      "description": "Linters focused on code complexity that prevent AI agents from writing long, complicated procedures by triggering compiler errors when complexity thresholds are exceeded.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 702.3,
+      "t_end": 736.7,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "complexity",
+        "linters",
+        "code quality"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Warning-as-errors compiler option with ruleset files",
+      "description": "Using a compiler option to treat all warnings as errors, combined with a ruleset file to define which issues are errors vs warnings. This creates a black-and-white approach where code either compiles or it doesn't.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 736.7,
+      "t_end": 772.1,
+      "is_demoed": false,
+      "caveats": [
+        "Requires discipline to avoid agents concluding warnings are unimportant after repeated failures"
+      ],
+      "tags": [
+        "compiler options",
+        "ruleset",
+        "validation"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Test-driven development with AI agents",
+      "description": "Using automated test suites to enable AI agents to perform full loops of writing tests, seeing them fail, writing production code, and refactoring. Requires upfront planning and a test plan. Agents can write tests, run code, verify failures, write implementations, and execute refactoring in full loops before returning to the user.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 788.9,
+      "t_end": 851.9,
+      "is_demoed": true,
+      "caveats": [
+        "Requires upfront planning and test plan definition",
+        "Requires modern, optimized test code for AI to write correct tests easily",
+        "Requires build automation infrastructure"
+      ],
+      "tags": [
+        "automated testing",
+        "test-driven development",
+        "ai agents",
+        "tdd",
+        "agent development",
+        "refactoring"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Build automation and CI/CD for agent loops",
+      "description": "Using GitHub or DevOps CI/CD pipelines to run automated tests as part of the build process, layered on top of automated tests in the agent development loop.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 867.7,
+      "t_end": 891.7,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "ci/cd",
+        "build automation",
+        "github",
+        "devops"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Debug logging via telemetry interception",
+      "description": "A pattern using AL's standard telemetry logger interface to intercept feature telemetry calls and write them to JSONL files inside Docker containers, making execution paths immediately visible to agents without file system access delays. Debug logs inserted into conditional branches verify which code paths execute during test runs, automating what was previously manual breakpoint debugging.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1264.2,
+      "t_end": 1454.1,
+      "is_demoed": true,
+      "caveats": [
+        "Standard Application Insights approach has 2-5 minute delays",
+        "Works asynchronously and may write to individual files that must be combined",
+        "Not blocking to code execution"
+      ],
+      "tags": [
+        "telemetry",
+        "logging",
+        "containers",
+        "docker",
+        "debug logging",
+        "test automation",
+        "code verification"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Observational test patterns for code discovery",
+      "description": "Tests that observe and record which code paths are actually executed in legacy procedures without asserting correctness. These tests capture the existing behavior before refactoring, allowing agents to detect test setup issues or unexpected path execution.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1549.4,
+      "t_end": 1678.5,
+      "is_demoed": true,
+      "caveats": [
+        "Do not assert correctness of the code",
+        "Should pass existing bugs before refactoring",
+        "Used specifically for legacy code refactoring"
+      ],
+      "tags": [
+        "testing",
+        "observational",
+        "legacy code",
+        "refactoring"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Automated path coverage verification",
+      "description": "A technique to inject logging commands into all if statements and cases within a procedure, allowing tests to automatically verify which code paths are actually executed. This replaces manual debugging with breakpoints.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1549.4,
+      "t_end": 1615.4,
+      "is_demoed": true,
+      "caveats": [
+        "Requires manual code instrumentation or agent assistance",
+        "Must be done before or during test execution"
+      ],
+      "tags": [
+        "code coverage",
+        "path detection",
+        "automated testing"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Approval testing for refactoring preparation",
+      "description": "Tests that observe existing code behavior before refactoring, allowing bugs to pass initially so that refactoring can proceed one-to-one without fixing unrelated issues. These kinds of tests do not say anything about whether the code is doing the right thing.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1656.8,
+      "t_end": 1738.9,
+      "is_demoed": true,
+      "caveats": [
+        "purpose is to capture existing behavior, not validate correctness",
+        "bugs pass initially by design"
+      ],
+      "tags": [
+        "approval testing",
+        "refactoring",
+        "legacy code",
+        "test strategy"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Mutation testing for scenario coverage verification",
+      "description": "Systematically mutate one production code element at a time to verify tests fail appropriately, ensuring all scenarios are actually tested rather than relying on execution logs.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1738.9,
+      "t_end": 1878.3,
+      "is_demoed": true,
+      "caveats": [
+        "slower feedback than debug logs",
+        "requires reverting changes after each test",
+        "time-consuming but can be automated with agents"
+      ],
+      "tags": [
+        "mutation testing",
+        "test coverage",
+        "code quality",
+        "scenario validation"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Agent-driven mutation testing automation",
+      "description": "AI agents automate the mutation testing loop by applying changes, running tests, and reverting via source control, enabling execution of hundreds of mutations without manual intervention. Agents create mutation testing plans by suggesting code changes like modifying if statements or assignments.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1878.3,
+      "t_end": 1984.5,
+      "is_demoed": true,
+      "caveats": [
+        "time-intensive process taking hours",
+        "requires clean git repository state",
+        "better suited for offline execution",
+        "mutation testing is time-consuming across languages",
+        "requires compile, publish, test, revert cycle"
+      ],
+      "tags": [
+        "ai agents",
+        "automation",
+        "mutation testing",
+        "test execution",
+        "critical-paths"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Test-driven development loop in refactoring",
+      "description": "After approval tests establish baseline behavior, apply TDD loop by writing new test first without implementation, then adding minimal logic to pass, then refactoring to clean code.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1984.5,
+      "t_end": 2071.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "test-driven development",
+        "tdd",
+        "refactoring",
+        "implementation"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Wrapper procedures for safe refactoring",
+      "description": "Create wrapper procedures with identical signatures to original implementations, routing calls to either old or new implementation, enabling same approval tests to validate both versions pass identically.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2071.2,
+      "t_end": 2145.8,
+      "is_demoed": true,
+      "caveats": [
+        "requires exact interface and signature matching",
+        "test must pass on both old and new implementations"
+      ],
+      "tags": [
+        "refactoring",
+        "wrapper procedures",
+        "safe changes",
+        "testing"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Agent-assisted economics of safe refactoring",
+      "description": "AI agents make safe refactoring economically viable by automating repetitive testing and mutation validation work, enabling clean code improvements that subsequently unlock greater agent productivity.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2145.8,
+      "t_end": 2235.1,
+      "is_demoed": false,
+      "caveats": [
+        "real value emerges through cascading productivity gains",
+        "clean code prerequisite for effective agent use"
+      ],
+      "tags": [
+        "ai agents",
+        "economics",
+        "code quality",
+        "productivity"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Large language model selection for AL code",
+      "description": "Advanced models like Claude Opus and DBT55 follow prompt instructions reliably for AL development tasks without requiring additional constraint hooks.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2262.9,
+      "t_end": 2320.2,
+      "is_demoed": false,
+      "caveats": [
+        "these models are expensive",
+        "nondeterministic behavior requires careful prompt engineering"
+      ],
+      "tags": [
+        "ai models",
+        "llm",
+        "prompt engineering",
+        "al development"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Git hooks for agent instruction enforcement",
+      "description": "Use git hooks or coding agent hooks to enforce script execution at specific points, such as requiring test runs before returning code to user.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2320.2,
+      "t_end": 2363.8,
+      "is_demoed": false,
+      "caveats": [
+        "presenter uses prompt instructions instead in current workflow",
+        "hooks approach less relied upon with modern LLMs"
+      ],
+      "tags": [
+        "git hooks",
+        "automation",
+        "test enforcement",
+        "al development"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Tests as project documentation for agents",
+      "description": "Test suites serve as faster-to-read documentation of project behavior expectations compared to implementation code, helping AI agents understand intended functionality more efficiently.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2404.7,
+      "t_end": 2442.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "test documentation",
+        "knowledge transfer",
+        "ai agents",
+        "learning",
+        "test-driven",
+        "documentation"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AI Agent for test execution and verification",
+      "description": "Using AI agents to run tests and ensure test execution before returning to users, replacing previous hook-based approaches with skills. Works with large projects.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2349.3,
+      "t_end": 2363.8,
+      "is_demoed": false,
+      "caveats": [
+        "works for the speaker's large projects"
+      ],
+      "tags": [
+        "testing",
+        "automation",
+        "agent",
+        "skills"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Leave codebase better rule",
+      "description": "Refactoring principle where developers must leave the codebase better than they found it, even if only adding three tests and refactoring a simple procedure.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2449.3,
+      "t_end": 2472.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "refactoring",
+        "code-quality",
+        "principle"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Touch code only when necessary",
+      "description": "General rule to not touch code that works; changes should only be made when actively working on that part, combined with efforts to improve it.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2491.7,
+      "t_end": 2501.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "refactoring",
+        "principle",
+        "risk-mitigation"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AI-assisted test development playbook",
+      "description": "Recommended workflow: pick familiar code, add tests (possibly test-driven), ask AI about testing, consult Microsoft Learn and agent documentation, characterize, prove and refactor.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2512,
+      "t_end": 2563,
+      "is_demoed": false,
+      "caveats": [
+        "AI models don't fully know AL test framework"
+      ],
+      "tags": [
+        "test-driven",
+        "ai-assisted",
+        "playbook",
+        "learning"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Debug logging with feature telemetry safety nets",
+      "description": "Using debug logging markers in code during refactoring with AI agents, with CI/CD checks and safety nets to ensure these markers are removed before shipping.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2664.1,
+      "t_end": 2788.6,
+      "is_demoed": false,
+      "caveats": [
+        "markers must be removed before shipping",
+        "timing depends on refactor size"
+      ],
+      "tags": [
+        "debugging",
+        "telemetry",
+        "ci-cd",
+        "safety-net"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AI-generated mutation testing plans",
+      "description": "AI agents create mutation testing plans by suggesting code changes like modifying if statements or assignments. Developer reviews plan before agent executes mutations, compiles, publishes and runs tests.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2788.6,
+      "t_end": 2906.2,
+      "is_demoed": false,
+      "caveats": [
+        "mutation testing is time-consuming across languages",
+        "requires compile, publish, test, revert cycle"
+      ],
+      "tags": [
+        "mutation-testing",
+        "ai-agent",
+        "test-quality"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Characterization testing for legacy code",
+      "description": "Temporary tests that assert behavior of legacy code to allow switching over to new refactored code. These tests are removed after refactoring completes as they require heavy setup and database access.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2962.8,
+      "t_end": 3031.4,
+      "is_demoed": false,
+      "caveats": [
+        "slow to run",
+        "require database access and commits",
+        "intended to be temporary"
+      ],
+      "tags": [
+        "characterization-tests",
+        "legacy-code",
+        "temporary"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Real unit and integration tests after refactoring",
+      "description": "After characterization phase, build proper unit and integration tests based on knowledge gained from characterization tests and AI assistance, with normal test coverage.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3031.4,
+      "t_end": 3057.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "unit-testing",
+        "integration-testing",
+        "real-tests",
+        "coverage"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Bug discovery during decoupling and refactoring",
+      "description": "When decoupling legacy codebase and writing tests for new code, developers recognize bugs in the legacy codebase that can be fixed after refactoring is complete.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3085.7,
+      "t_end": 3166.4,
+      "is_demoed": false,
+      "caveats": [
+        "bugs only fixed after refactoring complete"
+      ],
+      "tags": [
+        "bug-discovery",
+        "refactoring",
+        "decoupling"
+      ],
+      "system": "development"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "MCP server",
+      "t": 736.7
+    },
+    {
+      "type": "interface",
+      "name": "telemetry logger interface",
+      "t": 1369.5
+    },
+    {
+      "type": "codeunit",
+      "name": "test telemetry logger",
+      "t": 1369.5
+    },
+    {
+      "type": "other",
+      "name": "CI/CD check",
+      "t": 2698.6
+    },
+    {
+      "type": "other",
+      "name": "feature telemetry",
+      "t": 2711.4
+    },
+    {
+      "type": "other",
+      "name": "mutation plan",
+      "t": 2825
+    },
+    {
+      "type": "other",
+      "name": "AL test framework",
+      "t": 2547.3
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Fleming Buckson",
+      "confidence": "high"
+    },
+    {
+      "name": "Luke",
+      "confidence": "high"
+    },
+    {
+      "name": "Thorban Lat",
+      "confidence": "low"
+    },
+    {
+      "name": "Stefan Mavan",
+      "confidence": "low"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 352.6,
+      "text": "This is projects that where already exist a lot of code and you are supposed to make another feature, fix a bug, do some",
+      "why_it_matters": "Defines brownfields projects as the context for the session - dealing with existing legacy code rather than greenfield development.",
+      "check": "exact"
+    },
+    {
+      "t": 369.8,
+      "text": "If you are in in the same circles as I am, then there is a lot of legacy AL code.",
+      "why_it_matters": "Establishes that legacy AL code without tests or documentation is a widespread problem in the Business Central community.",
+      "check": "exact"
+    },
+    {
+      "t": 437.4,
+      "text": "We have got an AI and AI is really good at writing very very fast code and not code that uh that executes fast",
+      "why_it_matters": "Clarifies the trade-off with AI - it's fast at generation but produces non-deterministic code that can fail and change behavior with new models.",
+      "check": "exact"
+    },
+    {
+      "t": 487.4,
+      "text": "Every one of the things that AI actually is really good at is understanding uh the principles behind uh testdriven development writing test and",
+      "why_it_matters": "Identifies AI's strength in test-driven development as a key tool for making AI development deterministic.",
+      "check": "exact"
+    },
+    {
+      "t": 608.8,
+      "text": "Every time she makes a change ask it to compile uh the app and and that can be done nowhere you have test or",
+      "why_it_matters": "Establishes compilation as the foundational validation step for AI-generated code, applicable regardless of test coverage.",
+      "check": "exact"
+    },
+    {
+      "t": 646.8,
+      "text": "Microsoft has three of these uh four actually but you either only use appsource cop or pertenent cop then there is a coke cop",
+      "why_it_matters": "Lists the available static analysis linters from Microsoft for enforcing code quality standards with AI agents.",
+      "check": "exact"
+    },
+    {
+      "t": 761.8,
+      "text": "Either it compiles then everything is okay or it doesn't compile and it blocks and this is the way to go to have an",
+      "why_it_matters": "Explains the need for black-and-white validation rules to prevent AI agents from ignoring warnings after repeated failures.",
+      "check": "exact"
+    },
+    {
+      "t": 805.2,
+      "text": "The big one I think that really moves the target in having agent doing uh full loops, writing the test uh running at see",
+      "why_it_matters": "Identifies test-driven development loops as the key capability enabling AI agents to perform extended autonomous work on code refactoring.",
+      "check": "exact"
+    },
+    {
+      "t": 837.8,
+      "text": "that flow really enables your agent to do the full loop and do uh hours of work before it returns to you",
+      "why_it_matters": "Defines the goal of agent-driven development - enabling autonomous work on full refactoring cycles with test-first methodology.",
+      "check": "exact"
+    },
+    {
+      "t": 851.9,
+      "text": "This of course requires you up front to have done some uh planning and and make a test plan and and etc",
+      "why_it_matters": "Establishes a key requirement for agent-driven development - upfront planning and test planning are prerequisites.",
+      "check": "exact"
+    },
+    {
+      "t": 1036.8,
+      "text": "most legacy code also begins inside uh begins to read in some setup tables reads a customer reads as something",
+      "why_it_matters": "Identifies a central challenge in testing legacy code - procedures read multiple tables making test setup complex and non-parametric.",
+      "check": "exact"
+    },
+    {
+      "t": 1264.2,
+      "text": "I use the feature telemetry that is a standard uh aling that locks by standard to uh application insights on Azure",
+      "why_it_matters": "Establishes the foundation technology - standard AL telemetry logger interface as the basis for debug logging implementation.",
+      "check": "exact"
+    },
+    {
+      "t": 1291,
+      "text": "there is a delay from anywhere two to five minutes uh from I lock my my my thing in my container to uh the",
+      "why_it_matters": "Quantifies a critical problem with native Application Insights approach - delays make real-time agent feedback impossible.",
+      "check": "exact"
+    },
+    {
+      "t": 1337.6,
+      "text": "the real thing is to write this uh JSON L file inside the container and and beat it out because then it's available immediately",
+      "why_it_matters": "Describes the solution to the delay problem - JSONL files written to container storage provide immediate availability to agents.",
+      "check": "exact"
+    },
+    {
+      "t": 1480.2,
+      "text": "this is one of the few procedures in AL that works asynchronously. So this is does not block your code",
+      "why_it_matters": "Clarifies a non-obvious property of telemetry logging - it operates asynchronously without blocking execution, enabling scalable logging.",
+      "check": "exact"
+    },
+    {
+      "t": 1645.6,
+      "text": "This is a way of automating uh that uh for an agent.",
+      "why_it_matters": "Describes how debug logging automates the manual breakpoint debugging process that agents can now execute automatically.",
+      "check": "exact"
+    },
+    {
+      "t": 1667.8,
+      "text": "the test uh these kinds of test don't say anything about or should not say anything about if the if the code is doing",
+      "why_it_matters": "Clarifies that approval tests capture existing behavior including bugs, as a prerequisite for safe refactoring rather than validation of correctness.",
+      "check": "exact"
+    },
+    {
+      "t": 1678.5,
+      "text": "they are observing the existing code base before a V factor and if there is a bug then the test are supposed to to",
+      "why_it_matters": "Clarifies the philosophy of observational tests - they capture current behavior including bugs before refactoring, not test correctness.",
+      "check": "exact"
+    },
+    {
+      "t": 1799.8,
+      "text": "because this is about doing mutation tests.",
+      "why_it_matters": "Introduces mutation testing as a distinct technique for verifying scenario coverage beyond what debug logs reveal.",
+      "check": "exact"
+    },
+    {
+      "t": 1984.5,
+      "text": "I know this takes a lot of time, but yeah, it's an agent that does the loop and it can run for for an",
+      "why_it_matters": "Shows how agents make time-intensive mutation testing practical by running unattended for extended periods.",
+      "check": "exact"
+    },
+    {
+      "t": 2193.7,
+      "text": "but the agents uh have changed the cost perspective of this now it's really worse to doing",
+      "why_it_matters": "Highlights how AI agents fundamentally shift the economics of safe refactoring from impractical to worthwhile.",
+      "check": "exact"
+    },
+    {
+      "t": 2404.7,
+      "text": "There's a lot of knowledge your agent has to build up about your project.",
+      "why_it_matters": "Explains why test setup is critical for AI agents to learn project context during refactoring.",
+      "check": "exact"
+    },
+    {
+      "t": 2411.8,
+      "text": "tests is a really really good way to teach your agent about how your uh your project is expected to work because sometimes it's",
+      "why_it_matters": "Reveals tests function as efficient knowledge transfer mechanism for AI agents, not just quality assurance tools.",
+      "check": "exact"
+    },
+    {
+      "t": 2459.5,
+      "text": "So, so for me was the rule that I need to uh leave this code base better than I better than it was when",
+      "why_it_matters": "States the guiding principle for incremental refactoring in large legacy systems where full transformation is infeasible.",
+      "check": "exact"
+    },
+    {
+      "t": 2459.5,
+      "text": "for me was the rule that I need to uh leave this code base better than I better than it was when I started",
+      "why_it_matters": "States the core principle for safe refactoring - incremental improvement rather than complete rewrites.",
+      "check": "exact"
+    },
+    {
+      "t": 2491.7,
+      "text": "code that works don't touch it. It works. But when I touch it, I do something about it.",
+      "why_it_matters": "Establishes the risk-mitigation strategy for large legacy codebases where untouched code remains stable.",
+      "check": "exact"
+    },
+    {
+      "t": 2698.6,
+      "text": "I have a I both have a a CI/CD check that actually checks if I have removed any have any ...",
+      "why_it_matters": "Shows how automation prevents accidentally shipping debug logging markers to production.",
+      "check": "exact"
+    },
+    {
+      "t": 2825,
+      "text": "I ask typically the agent to create a a mutation plane and and just say oh I think we should mutate uh these things",
+      "why_it_matters": "Demonstrates AI agents generating mutation testing plans for critical code paths, improving test quality.",
+      "check": "exact"
+    },
+    {
+      "t": 3008.6,
+      "text": "I start by having these uh test that uh asserts the legacy code base but also that I can switch over to my new",
+      "why_it_matters": "Explains characterization testing as a temporary bridge between legacy and refactored code, not a final testing strategy.",
+      "check": "exact"
+    },
+    {
+      "t": 3057.2,
+      "text": "when I build my new code base, I do it of course with the knowledge of these test, but I build real unit test,",
+      "why_it_matters": "Clarifies that temporary characterization tests are replaced with proper unit and integration tests in the new codebase.",
+      "check": "exact"
+    },
+    {
+      "t": 3129.5,
+      "text": "you will recognize, at least I did, that oh this seems strange. There must be a bug in the legacy codebase.",
+      "why_it_matters": "Demonstrates how testing reveals unexpected behavior that signals bugs in original legacy code",
+      "check": "exact"
+    },
+    {
+      "t": 3143.4,
+      "text": "that will become very clear when you begin to write your test for your your decoded code.",
+      "why_it_matters": "Establishes that test-driven approach makes bugs evident during refactoring",
+      "check": "exact"
+    },
+    {
+      "t": 3166.4,
+      "text": "I only touch the buck if there was a reason to touch it at all in the first place.",
+      "why_it_matters": "Describes the principle of only refactoring code when there is a specific trigger (new feature, change, or bug report)",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 2274.6,
+      "kind": "subject-to-change",
+      "text": "pump instructions are big a and a models are nondeterministic"
+    },
+    {
+      "t": 2949.1,
+      "kind": "other",
+      "text": "Stefan Mavan has built something for containerless test for unit test working with his AL test"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 33,
+    "quotes_dropped": 1,
+    "evidence_verified": 0,
+    "evidence_unverified": 28
+  },
+  "windows": 5,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    }
+  ]
+}

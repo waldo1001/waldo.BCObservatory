@@ -1,0 +1,25 @@
+{
+  "video_id": "Q-oazDEucLE",
+  "item_id": "video/yt-areopa/Q-oazDEucLE",
+  "summary": "Using AI agents to refactor legacy AL code safely: compiler and linter feedback, debug logging through the telemetry logger interface, approval tests, mutation testing, and a TDD loop with wrapper procedures. Shown in a demo-based webinar from Areopa.",
+  "overview": "The webinar covers brownfield AL projects where a lot of legacy code exists and AI agents are used to refactor it. It starts by making agent output more deterministic: compile after every change, use linters including complexity rules, treat warnings as errors with a ruleset file, and run automated tests in CI/CD.\n\nThe main part is a workflow for code with no tests. Debug log markers in if statements and cases are written as JSONL files inside the container through the feature telemetry logger interface, so an agent can see which code paths a test ran, without the 2-5 minute delay of Application Insights. Approval tests capture existing behavior, bugs included. Mutation testing, run by an agent, checks that scenarios are really covered. A TDD loop and wrapper procedures then let the same tests validate old and new implementations. The speaker also covers keeping characterization tests temporary and replacing them with real unit tests.",
+  "key_points": [
+    "Compile after every agent change and use complexity linters, so overly long procedures cause compiler errors. Pair this with warnings-as-errors and a ruleset file.",
+    "Debug logging uses the AL telemetry logger interface to write JSONL files inside the container. The files are available immediately, unlike Application Insights with its 2-5 minute delay. The call is asynchronous and does not block code.",
+    "Debug log markers in if statements and cases show which code paths a test hit. They replace manual breakpoint debugging, and a CI/CD check should make sure the markers are removed before shipping.",
+    "Approval (characterization) tests record existing behavior and let bugs pass, so refactoring stays one-to-one. They are meant to be temporary because they need heavy setup and database access and run slowly.",
+    "Mutation testing changes one production code element at a time to confirm tests fail. An agent can run the compile, publish, test, revert cycle across hundreds of mutations. It needs a clean git state and can take hours.",
+    "Wrapper procedures with the same signature route calls to the old or new implementation, so the same approval tests validate both.",
+    "After refactoring, write real unit and integration tests. Bugs found in the legacy code are fixed only after the refactor is complete."
+  ],
+  "audience": [
+    "developer"
+  ],
+  "extraction_hash": "a2e75af03d22b51ddd28c2da5047d0062e6911f13e22270296ed809f988858e9",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.038172
+  }
+}

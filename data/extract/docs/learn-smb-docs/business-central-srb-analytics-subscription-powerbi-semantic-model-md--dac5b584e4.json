@@ -1,0 +1,91 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/SRB/analytics/subscription-powerbi-semantic-model.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/SRB/analytics/subscription-powerbi-semantic-model",
+  "title": "Power BI Subscription Billing app semantic model",
+  "blob": "d27dab17059d80451d9ffe132383194f2995f535",
+  "summary": "The Power BI Subscription Billing app uses a star schema semantic model with fact tables for subscription transactions and dimension tables for customer, vendor, item, and contract context. Reference this page to understand the data structure and field mappings for Power BI analytics on subscription billing.",
+  "systems": [
+    "reporting",
+    "sales",
+    "purchasing"
+  ],
+  "topics": [
+    "power bi",
+    "subscription billing",
+    "semantic model",
+    "star schema",
+    "analytics",
+    "fact tables",
+    "dimension tables"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Subscription Contract Analysis Entries"
+    },
+    {
+      "type": "table",
+      "name": "Customer Subscription Contract Deferrals"
+    },
+    {
+      "type": "table",
+      "name": "Vendor Subscription Contract Deferrals"
+    },
+    {
+      "type": "table",
+      "name": "Customer"
+    },
+    {
+      "type": "table",
+      "name": "Customer Subscription Contract"
+    },
+    {
+      "type": "table",
+      "name": "Subscription"
+    },
+    {
+      "type": "table",
+      "name": "Subscription Line"
+    },
+    {
+      "type": "table",
+      "name": "Vendor"
+    },
+    {
+      "type": "table",
+      "name": "Vendor Subscription Contract"
+    },
+    {
+      "type": "table",
+      "name": "Item"
+    },
+    {
+      "type": "table",
+      "name": "Item Category"
+    },
+    {
+      "type": "table",
+      "name": "Salesperson/Purchaser"
+    }
+  ],
+  "features": [
+    "customer contract line",
+    "customer contract changes",
+    "customer contract deferrals",
+    "customer billing forecast",
+    "vendor contract line",
+    "vendor contract deferrals",
+    "vendor billing forecast"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003275,
+      "pages_in_call": 8
+    }
+  ]
+}
