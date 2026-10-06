@@ -18,10 +18,23 @@ interface Edge { s: string; t: string; type: string }
 interface Summary { systems: Sys[]; nodes: Node[]; edges: Edge[]; touches?: Record<string, string[]>; reach?: Record<string, Record<string, number>> }
 interface Ego { id: string; nodes: Node[]; edges: Edge[] }
 type Level = 1 | 2 | 3;
-interface Lens { id: string; label: string; group: string; match: (n: Node) => boolean; lines?: boolean; reach?: Record<string, number> }
+interface Lens { id: string; label: string; group: string; match: (n: Node) => boolean; lines?: boolean; reach?: Record<string, number>; search?: string; pages?: Row[]; total?: number }
+
+/** What the header's live search needs from a mounted galaxy (live-search.ts). */
+export interface GalaxyApi {
+  hasStar(id: string): boolean;
+  /** Light up a search's hits as an ad-hoc lens; null clears it. */
+  setSearch(h: SearchHits | null): void;
+  /** Called when the galaxy itself drops the search lens (another lens chosen, Esc, breadcrumb, "Clear"). */
+  onSearchCleared(cb: () => void): void;
+  /** Called when the page opens with #q=... */
+  onHashQuery(cb: (q: string) => void): void;
+}
 type Rect = { x: number; y: number; w: number; h: number };
 
-import { dominantSystem, labelAlpha, ranksByGroup, smoothstep, threshold } from "./galaxy-labels";
+import { dominantSystem, labelAlpha, ranksByGroup, smoothstep, threshold } from "./galaxy-labels.js";
+import type { Row } from "./search.js";
+import type { SearchHits } from "./live-search.js";
 
 const FLY_MS = 1100;
 /** cubic-bezier(.65,0,.2,1) (tokens motion.cameraFly): solve x(m) = t by bisection, return y(m). */
@@ -36,7 +49,7 @@ const TYPE: Record<string, string> = { topic: "topic hub", feature: "roadmap fea
 const esc = (s: string) => s.replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]!);
 const hit = (a: Rect, b: Rect) => a.x < b.x + b.w && b.x < a.x + a.w && a.y < b.y + b.h && b.y < a.y + a.h;
 
-export async function mountGalaxy(root: HTMLElement): Promise<void> {
+export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> {
   const base = root.dataset.base ?? "/";
   const canvas = root.querySelector("canvas")!;
   const labels = root.querySelector<HTMLElement>(".g-labels")!;
@@ -52,8 +65,8 @@ export async function mountGalaxy(root: HTMLElement): Promise<void> {
   const fade = root.querySelector<HTMLElement>(".g-fade")!;
 
   let g: Summary;
-  try { g = await (await fetch(`${base}graph/summary.json`)).json(); } catch { root.classList.add("g-empty"); return; }
-  if (!g.nodes?.length) { root.classList.add("g-empty"); return; }
+  try { g = await (await fetch(`${base}graph/summary.json`)).json(); } catch { root.classList.add("g-empty"); return null; }
+  if (!g.nodes?.length) { root.classList.add("g-empty"); return null; }
   // older graphs filed source pages under a system: sources always live in their own
   for (const n of g.nodes) if (n.type === "source") n.group = "sources";
 
@@ -376,7 +389,12 @@ export async function mountGalaxy(root: HTMLElement): Promise<void> {
   }
 
   // lens: the matching set and, for localizations and sources, constellation lines (nearest-neighbour tree)
+  const clearedCbs: (() => void)[] = [], hashQueryCbs: ((q: string) => void)[] = [];
+  /** A #q= in the URL before the live search registered (it mounts after the galaxy): delivered on registration. */
+  let pendingQuery: string | null = null;
+  const leaveSearch = () => { if (lens?.search) for (const cb of clearedCbs) cb(); };
   function setLens(id: string) {
+    leaveSearch();
     lens = lensById.get(id) ?? null;
     lensSet = new Set(lens ? g.nodes.filter(lens.match).map((n) => n.id) : []);
     lensLines = [];
@@ -394,7 +412,19 @@ export async function mountGalaxy(root: HTMLElement): Promise<void> {
     if (lens) { level = 1; focusSys = null; focusStar = null; }
     update();
   }
-  const clearLens = () => { lens = null; lensSet.clear(); lensLines = []; lensSel.value = ""; };
+  const clearLens = () => { leaveSearch(); lens = null; lensSet.clear(); lensLines = []; lensSel.value = ""; };
+  /** A search as an ad-hoc lens (D44): the hits with a star light up, systems with star-less hits glow, the panel lists both. */
+  function setSearch(h: SearchHits | null) {
+    const had = !!lens?.search;
+    if (!h) { if (had) { lens = null; lensSet.clear(); lensLines = []; update(); } return; }
+    const set = new Set(h.ids);
+    lens = { id: `q:${h.q}`, label: `"${h.q}"`, group: "Search", match: (n) => set.has(n.id), reach: h.reach, search: h.q, pages: h.pages, total: h.total };
+    lensSet = set; lensLines = []; lensSel.value = "";
+    if (!had && level > 1) { level = 1; focusSys = null; focusStar = null; update(); return; }
+    // typing never moves the camera; the panel does not auto-open on narrow screens (the soft keyboard is up)
+    if (!had) panelOpen = userPanel ?? !narrow();
+    renderPanel(); renderChrome(); setHash(); redraw();
+  }
 
   // panel: the list of the current scope; hovering or focusing a row marks its star
   const row = (n: Node) => `<li><button type="button" data-star="${esc(n.id)}"><span class="g-dot" style="--dot: var(--sys-${esc(n.group)})"></span><span>${esc(n.label)}</span><small>${TYPE[n.type] ?? n.type}</small></button></li>`;
@@ -404,7 +434,16 @@ export async function mountGalaxy(root: HTMLElement): Promise<void> {
     listBtn.textContent = panelOpen ? "Hide list" : "Show list";
     panel.hidden = !panelOpen;
     let html = "";
-    if (lens) {
+    if (lens?.search) {
+      const hits = g.nodes.filter((n) => lensSet.has(n.id)).sort((a, b) => b.weight - a.weight);
+      const reach = Object.entries(lens.reach ?? {}).sort((a, b) => b[1] - a[1]);
+      const without = (lens.total ?? hits.length) - hits.length;
+      html = `<p class="g-kicker">search</p><h2 tabindex="-1">${esc(lens.label)}</h2><p class="g-meta">${hits.length} stars light up, ${without} pages without a star.</p>
+        <p><a class="btn" href="${base}search/?q=${encodeURIComponent(lens.search)}">All results</a> <button type="button" class="btn" data-clear-lens>Clear</button></p>
+        ${hits.length ? `<h3>Stars</h3><ul class="g-list">${hits.slice(0, 80).map(row).join("")}</ul>` : ""}
+        ${reach.length ? `<h3>Systems with matching pages</h3><ul class="g-list">${reach.map(([id, n]) => `<li><button type="button" data-sys="${esc(id)}"><span class="g-dot" style="--dot: var(--sys-${esc(id)})"></span><span>${esc(sysById.get(id)?.label ?? id)}</span><small>${n} pages</small></button></li>`).join("")}</ul>` : ""}
+        ${lens.pages?.length ? `<h3>Pages without a star</h3><ul class="g-list">${lens.pages.slice(0, 30).map((r) => `<li><a href="${esc(`${base}${r.path}/`)}"><span class="g-dot" style="--dot: var(--sys-${esc(r.system ?? "platform")}, var(--muted))"></span><span>${esc(r.title)}</span><small>${esc(r.type)}</small></a></li>`).join("")}</ul>` : ""}`;
+    } else if (lens) {
       const hits = g.nodes.filter((n) => lensSet.has(n.id)).sort((a, b) => b.weight - a.weight);
       const reach = Object.entries(lens.reach ?? {}).sort((a, b) => b[1] - a[1]);
       html = `<p class="g-kicker">lens · ${esc(lens.group.toLowerCase())}</p><h2 tabindex="-1">${esc(lens.label)}</h2><p class="g-meta">${hits.length} stars light up${lens.lines && hits.length > 1 ? ", joined into a constellation" : ""}.</p><p><button type="button" class="btn" data-clear-lens>Clear the lens</button></p>
@@ -453,7 +492,7 @@ export async function mountGalaxy(root: HTMLElement): Promise<void> {
     root.dataset.level = String(level);
   }
   const setHash = () => {
-    const h = lens ? `#lens=${encodeURIComponent(lens.id)}` : level === 1 ? "" : level === 2 ? `#system=${focusSys!.id}` : `#star=${encodeURIComponent(focusStar!.id)}`;
+    const h = lens?.search ? `#q=${encodeURIComponent(lens.search)}` : lens ? `#lens=${encodeURIComponent(lens.id)}` : level === 1 ? "" : level === 2 ? `#system=${focusSys!.id}` : `#star=${encodeURIComponent(focusStar!.id)}`;
     history.replaceState(null, "", h || location.pathname + location.search);
   };
   function update(instant = false) {
@@ -461,7 +500,7 @@ export async function mountGalaxy(root: HTMLElement): Promise<void> {
     renderPanel(); renderChrome(); setHash(); fly(instant);
   }
   function goGalaxy() { level = 1; focusSys = null; focusStar = null; update(); }
-  function goSystem(s: Sys) { clearLens(); level = 2; focusSys = s; focusStar = null; update(); }
+  function goSystem(s: Sys) { if (!lens?.search) clearLens(); level = 2; focusSys = s; focusStar = null; update(); }
   async function goStar(n: Node) {
     level = 3; focusSys = sysById.get(n.group) ?? focusSys; focusStar = n; mark = null;
     if (lens && !lensSet.has(n.id)) clearLens();
@@ -572,11 +611,12 @@ export async function mountGalaxy(root: HTMLElement): Promise<void> {
   addEventListener("bcobs-theme", () => { readColors(); redraw(); });
   matchMedia("(prefers-color-scheme: light)").addEventListener("change", () => { readColors(); redraw(); });
 
-  // deep links: #system=<id>, #star=<id>, #lens=<id>
+  // deep links: #system=<id>, #star=<id>, #lens=<id>, #q=<query>
   const fromHash = (): boolean => {
-    const m = /^#(system|star|lens)=(.+)$/.exec(location.hash);
+    const m = /^#(system|star|lens|q)=(.+)$/.exec(location.hash);
     if (!m) return false;
     const id = decodeURIComponent(m[2]);
+    if (m[1] === "q") { if (hashQueryCbs.length) for (const cb of hashQueryCbs) cb(id); else pendingQuery = id; return true; }
     if (m[1] === "system" && sysById.has(id)) { goSystem(sysById.get(id)!); return true; }
     if (m[1] === "star" && byId.has(id)) { goStar(byId.get(id)!); return true; }
     if (m[1] === "lens" && lensById.has(id)) { setLens(id); return true; }
@@ -589,4 +629,9 @@ export async function mountGalaxy(root: HTMLElement): Promise<void> {
   root.classList.add("g-ready");
   if (linked) root.scrollIntoView({ block: "start" });
   if (animating()) loop();
+  return {
+    hasStar: (id) => byId.has(id), setSearch,
+    onSearchCleared: (cb) => { clearedCbs.push(cb); },
+    onHashQuery: (cb) => { hashQueryCbs.push(cb); if (pendingQuery) { const q = pendingQuery; pendingQuery = null; cb(q); } },
+  };
 }

@@ -30,7 +30,14 @@ const base = import.meta.env.BASE_URL;
 </section>
 <script>
   import { mountGalaxy } from "../scripts/galaxy";
-  for (const el of document.querySelectorAll<HTMLElement>("section.galaxy")) mountGalaxy(el);
+  import { mountLiveSearch } from "../scripts/live-search";
+  for (const el of document.querySelectorAll<HTMLElement>("section.galaxy")) {
+    mountGalaxy(el).then((api) => {
+      // the header's search field lights up the galaxy on pages that have one (D44)
+      const q = document.querySelector<HTMLInputElement>("input#q");
+      if (api && q) mountLiveSearch(q, api, el.dataset.base ?? "/");
+    });
+  }
 </script>
 <style>
   .galaxy { position: relative; height: var(--g-h); overflow: hidden; background: var(--g-bg); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); outline: none; touch-action: none; }

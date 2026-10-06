@@ -3,7 +3,7 @@
  * demand; scoring is plain and deterministic: an exact object reference ("table 18") first, then title, tags and
  * summary matches per query word.
  */
-interface Row { path: string; type: string; title: string; summary: string; tier: string; system?: string | null; date?: string | null; tags?: string[]; status?: string }
+export interface Row { path: string; type: string; title: string; summary: string; tier: string; system?: string | null; date?: string | null; tags?: string[]; status?: string }
 
 const TYPE: Record<string, string> = { topic: "topic hub", feature: "roadmap feature", object: "AL object", localization: "localization", video: "video", post: "community post", source: "source", digest: "weekly digest" };
 const esc = (s: string) => s.replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]!);
@@ -26,6 +26,17 @@ export function score(r: Row, q: string): number {
   return s;
 }
 
+let rowsPromise: Promise<Row[]> | null = null;
+/** The whole index (manifest, then every shard), fetched once per page. */
+export function loadRows(base: string): Promise<Row[]> {
+  return (rowsPromise ??= (async () => {
+    const man = await (await fetch(`${base}index/index-manifest.json`)).json();
+    let rows: Row[] = [];
+    for (const s of man.shards) rows = rows.concat(await (await fetch(`${base}index/${s.file}`)).json());
+    return rows;
+  })());
+}
+
 export async function mountSearch(root: HTMLElement): Promise<void> {
   const base = root.dataset.base ?? "/";
   const input = root.querySelector<HTMLInputElement>("input[name=q]")!;
@@ -37,10 +48,7 @@ export async function mountSearch(root: HTMLElement): Promise<void> {
   type.value = params.get("type") ?? "";
   status.textContent = "Loading the index...";
   let rows: Row[] = [];
-  try {
-    const man = await (await fetch(`${base}index/index-manifest.json`)).json();
-    for (const s of man.shards) rows = rows.concat(await (await fetch(`${base}index/${s.file}`)).json());
-  } catch { status.textContent = "The search index is not available right now."; return; }
+  try { rows = await loadRows(base); } catch { status.textContent = "The search index is not available right now."; return; }
   const run = () => {
     const q = input.value.trim();
     const url = new URL(location.href);

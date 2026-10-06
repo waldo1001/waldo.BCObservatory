@@ -237,5 +237,9 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   are full at system zoom (HANDOFF 5). Wheel zoom never changes the level; a system that fills the view by hand
   (`dominantSystem`, 0.8x its own zoom) gets its edges and in-scope captions without touching breadcrumb, hash or
   panel. Reduced motion: a step at 1.15x, no fades. The site's TypeScript is now part of `npm run typecheck`
-  (`site/tsconfig.json`); the Astro build only transpiles. Why: the per-level label budget popped captions in late
-  and all at once, and nothing type-checked 1,000 lines of galaxy code.
+  (`site/tsconfig.json`); the Astro build only transpiles. Search: on pages with a galaxy, typing in the header
+  field becomes an ad-hoc lens (`site/src/scripts/live-search.ts`, `GalaxyApi.setSearch`): hits with a star light
+  up, systems holding star-less hits glow in proportion, the panel lists stars, systems and plain page links, hash
+  `#q=`; the index loads on focus, never on page load; Enter still opens /search/. The select lens and the query are
+  mutually exclusive. Why: the per-level label budget popped captions in late and all at once, nothing type-checked
+  1,000 lines of galaxy code, and the search box did nothing to the picture it sits above.
