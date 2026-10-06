@@ -1,0 +1,321 @@
+{
+  "video_id": "G0avZpiDFtI",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 6.5,
+      "end": 22.2,
+      "text": "Welcome to what's new in server and database in the 2025 release wave 1. In this session we're going to talk about four different topics. AL runtime database stack the web services stack and reporting."
+    },
+    {
+      "t": 22.2,
+      "end": 33.6,
+      "text": "So let's dive into it. The first enhancement we did in the AL runtime is a new way you can format numbers with net formats."
+    },
+    {
+      "t": 33.6,
+      "end": 53.6,
+      "text": "So this only works in auto format expressions, not in the format function, but it allows you to do a format string such as this or with an example here um with a format string that returns one way of the of formatting"
+    },
+    {
+      "t": 53.6,
+      "end": 71.4,
+      "text": "the number if the value is positive. Here you can see uh 1050 if the value is positive. If um the value is negative, you get the value presented with parenthesis and if the value is zero,"
+    },
+    {
+      "t": 71.4,
+      "end": 89.6,
+      "text": "you get simply a zero written. This was used if you want to see examples in uh in the enhancements of the financial reporting feature where a user can choose the way they want to have their negative form numbers"
+    },
+    {
+      "t": 89.6,
+      "end": 100,
+      "text": "formatted. In the last release wave, we added support in client URLs to specify a layout parameter in the URL."
+    },
+    {
+      "t": 100,
+      "end": 110.7,
+      "text": "And this then opens the page in different modes such as analysis mode. And in this release wave, we follow up with the get URL AL function."
+    },
+    {
+      "t": 110.7,
+      "end": 129.9,
+      "text": "So with two new overloads of that, so that you can use that to construct similar URLs that also use the layout parameter. For performance, we uh we have an a feature where you can specify only to calculate vis visible flow fields on a page."
+    },
+    {
+      "t": 129.9,
+      "end": 146.8,
+      "text": "We are a bit cautious. Uh so uh we always um think about whether this can have an impact. So for now you need to enable this with a feature management key calculate only visible flow fields and then you can uh then you can get the benefits of this."
+    },
+    {
+      "t": 146.8,
+      "end": 163.6,
+      "text": "Then later we will make this the default value. There's also a new method on record ref where you can uh now call set autoc calc fields and this sets which flow fields should be updated"
+    },
+    {
+      "t": 163.6,
+      "end": 175.3,
+      "text": "automatically. If you ever need to take a copy of the current stack trace from uh from AL, there's a new property session information. Stack that will do this."
+    },
+    {
+      "t": 175.3,
+      "end": 193.4,
+      "text": "Make sure that you only use this sparingly because it it requires a lot of CPU to do this. So make sure that you don't uh overdo it. The in the past the way the only way you could do this was to throw an exception and then call um get last error call stack I think it's called."
+    },
+    {
+      "t": 193.4,
+      "end": 213.8,
+      "text": "But now you can just call session information.core stack. Then finally if you need to do any analysis in a telemetry on on open company whatever happens there u we now added two new custom dimensions user type and guest user in telemetry events"
+    },
+    {
+      "t": 213.8,
+      "end": 229.6,
+      "text": "2 and 4 RT2 and 4. In the past you would need to get these from the the events RT 1 and three and then join. So that could be a very expensive KQL queries to execute in the database stack."
+    },
+    {
+      "t": 229.6,
+      "end": 240.1,
+      "text": "We also did some improvements. The first one is faster copy company. This operation is now up to five times faster especially if you have a lot of data."
+    },
+    {
+      "t": 240.1,
+      "end": 253.2,
+      "text": "Now you still need to be cautious with copy company. It can take a lot of locks and especially uh you don't want people working in the company. So don't do it during working hours in a company that's being used."
+    },
+    {
+      "t": 253.2,
+      "end": 264,
+      "text": "And also the operation takes a lot of resources on the server on the sorry on the database. So uh so bear that in mind. These things still apply."
+    },
+    {
+      "t": 264,
+      "end": 283,
+      "text": "If you use the database missing indexes page, we now have some extra goodies for you. Um, we have new fields that will help you answer questions such as how often would a proposed index be used or how would it uh improve performance and then combine these two,"
+    },
+    {
+      "t": 283,
+      "end": 298.3,
+      "text": "how useful would a proposed index actually be. The database indexes page is basically an an wrapper on top of the uh DM DB missing index details DMV on SQL Server."
+    },
+    {
+      "t": 298.3,
+      "end": 318.4,
+      "text": "And we added these new fields. Seeks scans average total cost average impact and estimated benefit. Uh if you're interested in this topic, go and read the documentation for from SQL Server on this DMV and then learn how to use these new properties with uh with what we already"
+    },
+    {
+      "t": 318.4,
+      "end": 330.8,
+      "text": "have to uh to help you um if you need to do index tuning and add new keys as it's called in A. And the final thing for the database is for on premises."
+    },
+    {
+      "t": 330.8,
+      "end": 348.4,
+      "text": "If you use high availability setups uh such as uh multi-ubnet failover um you now have a new option in the uh new server setting where you can set uh the property enable SQL multi-ubnet failover to true."
+    },
+    {
+      "t": 348.4,
+      "end": 361.5,
+      "text": "And by doing this the server will generate um or add new properties to the connection strings when we when the server connects and discuss uh data with with SQL server."
+    },
+    {
+      "t": 361.5,
+      "end": 374.3,
+      "text": "Uh by by enabling this your failover time can uh can drastically be improved. If you need to use this uh consult the SQL server documentation on multi-ubnet"
+    },
+    {
+      "t": 374.3,
+      "end": 393,
+      "text": "failover. So in the web services stack we have two new features. The first is a hardening that uh is coming from the Microsoft initiative secure future initiative SFI and uh this is the largest security hardening projects in the world."
+    },
+    {
+      "t": 393,
+      "end": 407,
+      "text": "In Business Central, we um we looked at outgoing calls from HTTP client and if you call an endpoint and that endpoint have a ser server certificate, we now validate whether that certificate is valid."
+    },
+    {
+      "t": 407,
+      "end": 421,
+      "text": "If not, we will actually not call the endpoint. In version 26, you can disable this hardening behavior. So, so that in case you have endpoints that needs to be fixed,"
+    },
+    {
+      "t": 421,
+      "end": 441.4,
+      "text": "uh you can you can disable a feature management with a with feature management in this with this key HTTP server certificate validation and then um you can can get unblocked but just note that in the next version in October 2025 this validation will be enforced"
+    },
+    {
+      "t": 441.4,
+      "end": 461.5,
+      "text": "and uh you can no longer disable this hardening in feature management. ment in case you need to know whether any um outgoing calls are failing due to this hardening there's a new telemetry event RT52 you can see in which environment it happened in which app in which object then some"
+    },
+    {
+      "t": 461.5,
+      "end": 477.3,
+      "text": "uh information about which certificate it was and the failure reason for why this validation failed. So that allows you to troubleshoot things already now and then hopefully you will be ready when the when this validation is enforced in"
+    },
+    {
+      "t": 477.3,
+      "end": 491.8,
+      "text": "October. The second feature is um Microsoft um starting to lock down the use of UI pages for web services starting with with SOAP endpoints."
+    },
+    {
+      "t": 491.8,
+      "end": 508.2,
+      "text": "So in this uh wave um we will block UI pages published by Microsoft as SOAP endpoints. If you need this feature uh we have a couple of hundred uh tenants or customers who have this enabled."
+    },
+    {
+      "t": 508.2,
+      "end": 528.8,
+      "text": "You can still go to feature management and uh and have this behavior disable. So web services on UI pages it's default is a enabled means that these endpoints uh are blocked but you can then um you can disable that disable disabled"
+    },
+    {
+      "t": 528.8,
+      "end": 541.8,
+      "text": "um and then you can get unblocked note that in a later release wave this blocking will be enforced. This is how it looks uh in the UI on the web services page."
+    },
+    {
+      "t": 541.8,
+      "end": 562.8,
+      "text": "If uh we have the feature switched on, you can see that the Microsoft owned pages are now no longer applicable or available as SOAP URLs. But you can also see that any other page in in this example per tenant extension uh is still something you can expose as SOAP"
+    },
+    {
+      "t": 562.8,
+      "end": 573,
+      "text": "endpoint. Um, if you turn this off, which means you're back to the old behavior, you still get this notification that this will be removed."
+    },
+    {
+      "t": 573,
+      "end": 587.6,
+      "text": "Um, but you can still get to the SOAP URLs in case you need to be unblocked. In case you need to know whether any of these pages are actually being called, there is a new telemetry event"
+    },
+    {
+      "t": 587.6,
+      "end": 601.5,
+      "text": "RT53 that gives you in which environment, in which object, which endpoint is being called and also the deprecation message which in this case is SOAP web service on UI page by Microsoft publisher."
+    },
+    {
+      "t": 601.5,
+      "end": 618,
+      "text": "So that will be the the string here. And we can use this event for deprecating more of these endpoints. In the reporting stack, we added the ability to do PDF post-processing in the context of running a report."
+    },
+    {
+      "t": 618,
+      "end": 628.5,
+      "text": "So there's now a new on pre-rendering um trigger, report trigger that allows you to do uh these three operations."
+    },
+    {
+      "t": 628.5,
+      "end": 644.3,
+      "text": "You can append a list of PDF documents. Maybe you want to append terms and conditions documents to an invoice. You can also attach a list of documents to be embedded in a PDF, meaning that they will be put inside the document."
+    },
+    {
+      "t": 644.3,
+      "end": 655.3,
+      "text": "This is something we expect to use for the e invoicing feature in the base application. And finally, you can set an admin and or user password for the PDF document."
+    },
+    {
+      "t": 655.3,
+      "end": 666,
+      "text": "Something we expect to use an uptake in the RS 1099 report in the North America localization."
+    },
+    {
+      "t": 666,
+      "end": 678.2,
+      "text": "And then we added a bunch of things for report developers. This will just be a quick overview. There's more details in the what's new in reporting for developers video."
+    },
+    {
+      "t": 678.2,
+      "end": 688.7,
+      "text": "For word layouts, we added two new types of metadata in uh the XML we embed in the word layouts report metadata and requ report report requests."
+    },
+    {
+      "t": 688.7,
+      "end": 704.2,
+      "text": "If you open the XML here in the developer experience in Word, you now have this BC report information. And if you expand that, you see the report metadata with information about report metadata,"
+    },
+    {
+      "t": 704.2,
+      "end": 714.5,
+      "text": "report name and so on. and also the the requests when the report was rendered. You can see which user, which company, when it was rendered and so on."
+    },
+    {
+      "t": 714.5,
+      "end": 725.4,
+      "text": "And now you can use these in your report. So you no need to to code the company name, username and so on in in the actual report data set."
+    },
+    {
+      "t": 725.4,
+      "end": 737.9,
+      "text": "You can just uh get them from here. It's much easier for someone who looks at the the layout. uh they they just know it's always called company display name and it's located"
+    },
+    {
+      "t": 737.9,
+      "end": 753.9,
+      "text": "here. For Excel layouts, we added the the ability to override the report default for the Excel multiple worksheet property. This allows you you can both do this in AL and on user provided uploaded layouts."
+    },
+    {
+      "t": 753.9,
+      "end": 774.4,
+      "text": "And this allows uh for non-breaking changes if um if you have a report where you already have or maybe you don't know but maybe some users added their own layouts and assume a certain value of Excel multiple worksheet then you can't change that um on the report level that would be a breaking change but with this"
+    },
+    {
+      "t": 774.4,
+      "end": 795.5,
+      "text": "you can control it on the layouts that you control and therefore you can you can introduce new layouts in a non-breaking fashion. This is something we use in a lot of the new reports that come in manufacturing uh report layouts and uh and reports that come in manufacturing in version"
+    },
+    {
+      "t": 795.5,
+      "end": 810.2,
+      "text": "26.1. We also made it possible to obsolute obsolete a layout. You can do this this either in AL with the with the normal tags or the the normal properties uh obsolete tag reason and uh state."
+    },
+    {
+      "t": 810.2,
+      "end": 830.2,
+      "text": "But you can also set this on uploaded uh layouts and then this is shown on the report layouts page. We did this because we have this initiative of adding of actually modernizing a lot of the reports in the base application and therefore some of the older layouts will be obsoleted and this is the"
+    },
+    {
+      "t": 830.2,
+      "end": 850.4,
+      "text": "way we we want to do that. On the report layouts page uh we have new properties show deprecated or obsolete last who who modified or and when was this last modified especially this is uh useful for the user provided uploaded layouts"
+    },
+    {
+      "t": 850.4,
+      "end": 870.4,
+      "text": "and uh the rest of the um properties for a layout is something you can get or user can get using the get info action a new action uh in case you need to troubleshoot something and you can ask the user to call this and and copy the text so you know everything about the layout that"
+    },
+    {
+      "t": 870.4,
+      "end": 881.6,
+      "text": "they had an issue with. And finally uh we added the ability to uh validate layouts with a new action on the report layouts page."
+    },
+    {
+      "t": 881.6,
+      "end": 894.1,
+      "text": "This uh will validate whether layouts are okay. And uh we are also introducing font validation in version 26. it will just be for RDL layouts."
+    },
+    {
+      "t": 894.1,
+      "end": 908.8,
+      "text": "In a later minor update, uh we will also add this for Word and Excel. Meaning that in case a layout is using a font that is not available in Business Central online or the the the place where this is hosted,"
+    },
+    {
+      "t": 908.8,
+      "end": 913,
+      "text": "this can now be validated."
+    }
+  ],
+  "markers": [
+    {
+      "t": 0,
+      "text": "[Music]"
+    },
+    {
+      "t": 6.47,
+      "text": "[Music]"
+    },
+    {
+      "t": 6.48,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 2196
+}

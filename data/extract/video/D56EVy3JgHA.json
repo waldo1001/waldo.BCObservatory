@@ -1,0 +1,315 @@
+{
+  "video_id": "D56EVy3JgHA",
+  "item_id": "video/yt-microsoft/D56EVy3JgHA",
+  "title": "What's New: Enhanced Purchase Order Matching with Copilot (2025 release wave 1)",
+  "duration_s": 755,
+  "systems": [
+    "purchasing",
+    "copilot",
+    "integration"
+  ],
+  "topics": [
+    "e-documents",
+    "purchase order matching",
+    "copilot",
+    "automatic matching",
+    "item references",
+    "invoice lines",
+    "matching rules",
+    "resource and item charges"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Key Enhancements Overview",
+      "t_start": 0,
+      "t_end": 79.1
+    },
+    {
+      "title": "Problem: Unmatched Additional Invoice Lines",
+      "t_start": 79.1,
+      "t_end": 150.2
+    },
+    {
+      "title": "Solution: Auto-Matching Capabilities and Line Addition",
+      "t_start": 150.2,
+      "t_end": 248.6
+    },
+    {
+      "title": "Demo: Learning Matching Rules with Item References",
+      "t_start": 248.6,
+      "t_end": 405
+    },
+    {
+      "title": "Demo: Auto-Matching and Creating New Lines",
+      "t_start": 405,
+      "t_end": 508.8
+    },
+    {
+      "title": "Demo: Creating Purchase Order Lines from Invoice",
+      "t_start": 508.8,
+      "t_end": 682.6
+    },
+    {
+      "title": "Summary and Public Preview Status",
+      "t_start": 682.6,
+      "t_end": 755
+    }
+  ],
+  "features": [
+    {
+      "name": "Support for All Entry Types",
+      "description": "Extended matching support beyond general ledger accounts and items to include resources, item charges, and other entry types for electronic invoice matching.",
+      "status": "preview",
+      "status_evidence_t": 740,
+      "status_evidence_quote": "currently this is still a public preview",
+      "status_evidence_verified": true,
+      "t_start": 29.8,
+      "t_end": 41.8,
+      "is_demoed": false,
+      "caveats": [
+        "Learn matching rule only works for GL accounts and items, not for other types"
+      ],
+      "tags": [
+        "entry types",
+        "items",
+        "charges",
+        "resources"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Automatic Extra Line Addition from Invoice",
+      "description": "Allows automatic addition of extra lines from inbound electronic invoices to purchase orders directly from the matching page without manual creation.",
+      "status": "preview",
+      "status_evidence_t": 740,
+      "status_evidence_quote": "currently this is still a public preview",
+      "status_evidence_verified": true,
+      "t_start": 41.8,
+      "t_end": 62.2,
+      "is_demoed": true,
+      "caveats": [
+        "Requires additional setup for certain line types"
+      ],
+      "tags": [
+        "extra lines",
+        "automatic",
+        "electronic invoices",
+        "transport cost"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Item References for Auto-Matching",
+      "description": "Uses item references to enable automatic matching in addition to string similarity matching, allowing the system to treat existing item references as auto-matching criteria without running LLM.",
+      "status": "preview",
+      "status_evidence_t": 740,
+      "status_evidence_quote": "currently this is still a public preview",
+      "status_evidence_verified": true,
+      "t_start": 62.2,
+      "t_end": 99.1,
+      "is_demoed": true,
+      "caveats": [
+        "Only applies when item references are already configured"
+      ],
+      "tags": [
+        "item references",
+        "auto-matching",
+        "llm",
+        "similarity"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Learn Matching Rule Feature",
+      "description": "Allows users to mark matched lines in the matching page so the system automatically creates item references for future usage, enabling automatic matching on subsequent invoices.",
+      "status": "preview",
+      "status_evidence_t": 740,
+      "status_evidence_quote": "currently this is still a public preview",
+      "status_evidence_verified": true,
+      "t_start": 214.5,
+      "t_end": 235.4,
+      "is_demoed": true,
+      "caveats": [
+        "Only works for GL accounts and items, not for other line types"
+      ],
+      "tags": [
+        "learning",
+        "matching rules",
+        "item references",
+        "automatic"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Create Purchase Order Line from Invoice",
+      "description": "New simplified interface to quickly create purchase order lines from imported invoice lines, with automatic population of units of measure and cost.",
+      "status": "preview",
+      "status_evidence_t": 740,
+      "status_evidence_quote": "currently this is still a public preview",
+      "status_evidence_verified": true,
+      "t_start": 576.5,
+      "t_end": 621.8,
+      "is_demoed": true,
+      "caveats": [
+        "Simplified version available on matching page; more complex options available through purchase order directly"
+      ],
+      "tags": [
+        "line creation",
+        "simplified",
+        "units of measure",
+        "cost"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Auto-Matching Based on 80% Similarity",
+      "description": "Existing functionality that performs automatic matching when string similarity reaches 80% or when item references are configured.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 294.4,
+      "t_end": 308.6,
+      "is_demoed": true,
+      "caveats": [
+        "Requires 80% string similarity or existing item references"
+      ],
+      "tags": [
+        "matching",
+        "similarity",
+        "automatic"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Copilot Matching with LLM",
+      "description": "Existing Copilot functionality that uses large language models to match invoice lines with purchase order lines based on semantic understanding rather than string similarity.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 308.6,
+      "t_end": 342.1,
+      "is_demoed": true,
+      "caveats": [
+        "May not match all lines if they are significantly different or have no item references"
+      ],
+      "tags": [
+        "copilot",
+        "llm",
+        "matching",
+        "semantic"
+      ],
+      "system": "copilot"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "e-documents",
+      "t": 259.4
+    },
+    {
+      "type": "page",
+      "name": "matching page",
+      "t": 270
+    },
+    {
+      "type": "page",
+      "name": "item references",
+      "t": 425
+    },
+    {
+      "type": "page",
+      "name": "purchase order",
+      "t": 536.9
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Alexander",
+      "confidence": "high"
+    },
+    {
+      "name": "Andre",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 29.8,
+      "text": "entries so earlier we supported only general ledger accounts and items but now you can handle with",
+      "why_it_matters": "Describes the expanded scope of the matching feature from just GL accounts and items to multiple entry types.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 41.8,
+      "text": "second is that we now we can include extra lines into a purchase order automatically from inbound invoice just imagine we had",
+      "why_it_matters": "Identifies the key problem solved - automatic handling of unplanned invoice lines that weren't in the original purchase order.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 214.5,
+      "text": "We previously work only if we had 80% of string similarity but now we added item references. So if we already have item reference",
+      "why_it_matters": "Explains how item references improve matching efficiency by avoiding unnecessary LLM calls.",
+      "check": "exact"
+    },
+    {
+      "t": 235.4,
+      "text": "every time when LLM finds some similarity some match you can mark the system will automatically create item reference for future usage.",
+      "why_it_matters": "Describes the learn matching rule feature that builds item reference knowledge over time.",
+      "check": "exact"
+    },
+    {
+      "t": 576.5,
+      "text": "we have now to do that. Basically on the imported lines you can now click the three dots and we have this create purchase",
+      "why_it_matters": "Shows the new simplified interface for creating lines directly from the matching page.",
+      "check": "exact"
+    },
+    {
+      "t": 645,
+      "text": "Now, this only works for GL accounts and items. So, GL accounts, we use the text to account mapping if you're familiar with that.",
+      "why_it_matters": "Clarifies the limitation that learn matching rule only applies to GL accounts and items.",
+      "check": "exact"
+    },
+    {
+      "t": 723.5,
+      "text": "It doesn't mean that this is everything. Uh this is what we try to to improve based on your feedback on your usage of",
+      "why_it_matters": "Indicates this is based on customer feedback and more improvements are planned before general availability.",
+      "check": "exact"
+    },
+    {
+      "t": 740,
+      "text": "So currently this is still a public preview because we want to improve in a few more places and please if you know any",
+      "why_it_matters": "Confirms the feature status as public preview and invites continued feedback.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 723.5,
+      "kind": "coming-later",
+      "text": "this is what we try to to improve based on your feedback on your usage of this copilot. Idea is to continue improvements in next waves before we finally enable this as a general ability"
+    },
+    {
+      "t": 740,
+      "kind": "preview",
+      "text": "currently this is still a public preview because we want to improve in a few more places"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 8,
+    "quotes_dropped": 0,
+    "evidence_verified": 5,
+    "evidence_unverified": 0
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.025050999999999997
+    }
+  ]
+}

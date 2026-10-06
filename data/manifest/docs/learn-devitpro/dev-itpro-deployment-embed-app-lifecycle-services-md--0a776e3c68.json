@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/embed-app-lifecycle-services",
   "published_at": "2026-02-20T12:07:44.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "168d794fab8d2302eb3309aeb5aaa7c93154d6ea",
       "words": 1540,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:48:35.767Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.004736
+    },
+    "summarized": {
+      "at": "2026-10-06T18:48:37.594Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:48:37.595Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:48:37.596Z",
+      "page": false
     }
   },
   "input_hash": "168d794fab8d2302eb3309aeb5aaa7c93154d6ea",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "168d794fab8d2302eb3309aeb5aaa7c93154d6ea"
+  "output_hash": "56c54dadf8e873cb9ba8065fa53b8343c5382891b572a742af8592c587cc75d8"
 }

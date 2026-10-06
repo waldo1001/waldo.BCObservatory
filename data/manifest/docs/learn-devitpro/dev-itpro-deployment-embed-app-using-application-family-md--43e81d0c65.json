@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/embed-app-using-application-family",
   "published_at": "2026-02-20T12:07:44.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "a79ac360475f4bcd544d6b2c08ad8cfd7972c387",
       "words": 406,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:48:37.588Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.004736
+    },
+    "summarized": {
+      "at": "2026-10-06T18:48:37.623Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:48:37.624Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:48:37.625Z",
+      "page": false
     }
   },
   "input_hash": "a79ac360475f4bcd544d6b2c08ad8cfd7972c387",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a79ac360475f4bcd544d6b2c08ad8cfd7972c387"
+  "output_hash": "348de1ee06236e98f2869cefaf8f2bd249dcae19487b208d284749af0f1ae794"
 }

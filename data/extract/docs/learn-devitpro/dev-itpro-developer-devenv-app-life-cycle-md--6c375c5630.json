@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-app-life-cycle.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-app-life-cycle",
+  "title": "Lifecycle of apps and extensions",
+  "blob": "acb102881fe2516239f2828a940c5c42a3e0ef96",
+  "summary": "The lifecycle of apps and extensions for Business Central describes five scenarios of how apps interact with Business Central updates: service updates, app updates, bug fixes, critical bugs, and breaking changes, including Microsoft's rollback procedures and data retention policies.",
+  "systems": [
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "app lifecycle",
+    "updates",
+    "compatibility",
+    "upgrade",
+    "breaking changes"
+  ],
+  "objects": [],
+  "features": [
+    "Service updates",
+    "App updates",
+    "Bug fix deployment",
+    "Critical bug prioritization",
+    "Breaking change notification",
+    "Auto-install procedures",
+    "Data retention during uninstall",
+    "Extension synchronization"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004736,
+      "pages_in_call": 8
+    }
+  ]
+}

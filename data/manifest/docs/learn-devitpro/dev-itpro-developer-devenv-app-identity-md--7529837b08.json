@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-app-identity",
   "published_at": "2026-02-20T12:07:44.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "59f234ab24663a65948f65028a6dd346e07fe9ed",
       "words": 924,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:48:37.592Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.004736
+    },
+    "summarized": {
+      "at": "2026-10-06T18:48:37.652Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:48:37.660Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:48:37.667Z",
+      "page": false
     }
   },
   "input_hash": "59f234ab24663a65948f65028a6dd346e07fe9ed",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "59f234ab24663a65948f65028a6dd346e07fe9ed"
+  "output_hash": "507828bf09f77770f93fd2bf10cdaec10cd17415ba46f6047d3650a4edcd98bb"
 }

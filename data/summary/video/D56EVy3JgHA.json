@@ -1,0 +1,27 @@
+{
+  "video_id": "D56EVy3JgHA",
+  "item_id": "video/yt-microsoft/D56EVy3JgHA",
+  "summary": "Purchase order matching enhancements for e-documents with Copilot in 2025 release wave 1, in public preview. Covers matching more entry types, item references as auto-match criteria, the learn matching rule, and adding invoice lines to a purchase order from the matching page.",
+  "overview": "The video explains how Copilot-based matching of inbound electronic invoices to purchase orders is extended. The problem shown is additional invoice lines that stay unmatched. The changes let those lines be matched automatically or added to the purchase order directly from the matching page.\n\nDemos cover learning matching rules through item references, auto-matching on later invoices, and creating purchase order lines from imported invoice lines. The presenter says the feature is still in public preview and that further improvements are planned in later waves based on feedback.",
+  "key_points": [
+    "Matching support is extended beyond general ledger accounts and items to resources, item charges and other entry types (in preview).",
+    "Extra lines from an inbound electronic invoice can be added to the purchase order from the matching page, without creating them manually. Some line types need additional setup.",
+    "Auto-matching previously needed 80% string similarity. Existing item references now also count as auto-matching criteria, without running the LLM.",
+    "The learn matching rule lets users mark matched lines so item references are created for future invoices. It works only for GL accounts and items. For GL accounts it uses text to account mapping.",
+    "On imported lines, the three-dot menu has an option to create a purchase order line. Units of measure and cost are filled in automatically. Complex options are available through the purchase order itself.",
+    "Copilot LLM matching may not match lines that are very different and have no item references.",
+    "The feature is in public preview, and the presenter asks for feedback."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "end user"
+  ],
+  "extraction_hash": "4560a4ef8f3c37d5741cd41118f4e7c5e71e4e85cf61dd04cd824617ee08d713",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0151224
+  }
+}

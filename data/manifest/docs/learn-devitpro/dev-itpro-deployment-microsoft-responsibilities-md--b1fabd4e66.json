@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/microsoft-responsibilities",
   "published_at": "2026-02-20T12:07:44.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "855d7b1ba9431de9922b4879d323c2c6c9fb110f",
       "words": 254,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:48:37.589Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.004736
+    },
+    "summarized": {
+      "at": "2026-10-06T18:48:37.626Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:48:37.627Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:48:37.628Z",
+      "page": false
     }
   },
   "input_hash": "855d7b1ba9431de9922b4879d323c2c6c9fb110f",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "855d7b1ba9431de9922b4879d323c2c6c9fb110f"
+  "output_hash": "f5b048aed33763cce5b7e2153142a5d1de125d16119e0f04a45b47daa6c03575"
 }

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-app-discontinue",
   "published_at": "2026-02-20T12:07:44.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "49f2f9cf9e5d7d2c357dc6b80232f7f802ecd50f",
       "words": 498,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:48:37.591Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.004736
+    },
+    "summarized": {
+      "at": "2026-10-06T18:48:37.637Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:48:37.643Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:48:37.644Z",
+      "page": false
     }
   },
   "input_hash": "49f2f9cf9e5d7d2c357dc6b80232f7f802ecd50f",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "49f2f9cf9e5d7d2c357dc6b80232f7f802ecd50f"
+  "output_hash": "f538d1e0203b396f7440ef2f77ab0fe27b27fd6c594f13338c849ffd7a4ccd5f"
 }

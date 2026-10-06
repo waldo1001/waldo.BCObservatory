@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-app-life-cycle",
   "published_at": "2026-02-20T12:07:44.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "acb102881fe2516239f2828a940c5c42a3e0ef96",
       "words": 1278,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:48:37.593Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.004736
+    },
+    "summarized": {
+      "at": "2026-10-06T18:48:37.668Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:48:37.669Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:48:37.675Z",
+      "page": false
     }
   },
   "input_hash": "acb102881fe2516239f2828a940c5c42a3e0ef96",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "acb102881fe2516239f2828a940c5c42a3e0ef96"
+  "output_hash": "9d726f28c7bdce97be48363e6f7ab5f792cf62fd6255473df3df08bd957fc923"
 }

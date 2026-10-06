@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/app-maintain.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/app-maintain",
+  "title": "Maintain Marketplace apps and per-tenant extensions",
+  "blob": "3a0adbd4c4b784c3eb47486f6beb43a87c0f3ba8",
+  "summary": "Maintain Marketplace apps and per-tenant extensions describes partner responsibilities to keep apps updated with Business Central's major and minor releases, including preview testing, handling update periods, grace periods, and enforcement procedures to prevent service disruptions.",
+  "systems": [
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "app maintenance",
+    "update lifecycle",
+    "marketplace",
+    "compatibility",
+    "pte"
+  ],
+  "objects": [],
+  "features": [
+    "Preview period testing",
+    "Update period scheduling",
+    "Grace period procedures",
+    "Enforced update period",
+    "Incompatibility notifications",
+    "Automatic app removal",
+    "AppSourceCop analyzer",
+    "AL Go for GitHub"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004736,
+      "pages_in_call": 8
+    }
+  ]
+}

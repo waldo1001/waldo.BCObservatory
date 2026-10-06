@@ -1,0 +1,37 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-creating-runtime-packages.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-creating-runtime-packages",
+  "title": "Create runtime packages for Business Central on-premises",
+  "blob": "f79d6c4fa8310c689f79ffd58e02ed620b689c3c",
+  "summary": "Creating runtime packages for on-premises Business Central that protect AL source code by distributing only runtime artifacts without requiring developer licenses on target servers.",
+  "systems": [
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "runtime packages",
+    "on-premises",
+    "intellectual property protection",
+    "extension distribution"
+  ],
+  "objects": [],
+  "features": [
+    "runtime package generation",
+    "source code protection",
+    "license validation",
+    "package upgrade",
+    "showMyCode flag",
+    "allowDebugging flag"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00341,
+      "pages_in_call": 8
+    }
+  ]
+}

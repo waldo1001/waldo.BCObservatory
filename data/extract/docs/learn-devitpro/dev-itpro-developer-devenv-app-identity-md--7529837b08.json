@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-app-identity.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-app-identity",
+  "title": "App identity",
+  "blob": "59f234ab24663a65948f65028a6dd346e07fe9ed",
+  "summary": "App identity describes the app.json manifest file settings that define app identity, particularly the app ID and version fields, and guidance on when it is acceptable to change the ID, name, publisher, and version of an app.",
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "app identity",
+    "manifest",
+    "app.json",
+    "versioning",
+    "guid"
+  ],
+  "objects": [],
+  "features": [
+    "App ID (GUID)",
+    "Version numbering",
+    "Publisher information",
+    "App name",
+    "App scope (Global/Tenant)",
+    "Manifest generation",
+    "Extension scope moving"
+  ],
+  "versions": [
+    "2021 release wave 2"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004736,
+      "pages_in_call": 8
+    }
+  ]
+}
