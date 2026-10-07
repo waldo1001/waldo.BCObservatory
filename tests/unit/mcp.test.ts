@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { mkdtempSync } from "node:fs";
+import { mkdtempSync, writeFileSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { Client } from "@modelcontextprotocol/sdk/client/index.js";
@@ -8,6 +8,7 @@ import { StdioClientTransport } from "@modelcontextprotocol/sdk/client/stdio.js"
 import { writeJson, writeText } from "../../pipeline/lib/fsx.js";
 import { ROOT } from "../../pipeline/lib/paths.js";
 import { renderSearchIndex } from "../../pipeline/render/search.js";
+import { toyModel } from "../helpers/toy-model.js";
 
 const page = (fm: Record<string, unknown>, body: string) => `---\n${Object.entries(fm).map(([k, v]) => `${k}: ${JSON.stringify(v)}`).join("\n")}\n---\n\n${body}\n`;
 
@@ -47,6 +48,42 @@ test("MCP server over stdio: every tool answers from a local checkout", async ()
     assert.doesNotMatch(news, /posting/i, "dated before since");
     assert.match(await call("blog_footprint", { source: "kauffmann-nl" }), /kauffmann-nl: 1 items[\s\S]*copilot 1/);
     assert.match(await call("feedback", { path: "objects/table/18", message: "field 3 is wrong" }), /issues\/new\?title=Feedback/);
+  } finally {
+    await client.close();
+  }
+});
+
+test("search is hybrid with a model: a synonym finds the page that keywords miss (D63)", async () => {
+  const modelDir = mkdtempSync(join(tmpdir(), "bcobs-model-"));
+  const t = toyModel({ customer: [1, 0, 0], client: [1, 0, 0], posts: [0, 1, 0], sales: [0, 1, 0], documents: [0, 1, 0], agent: [0, 0, 1] });
+  writeText(join(modelDir, "tokenizer.json"), t.tokenizer);
+  writeFileSync(join(modelDir, "model.safetensors"), t.bytes);
+  writeJson(join(modelDir, "config.json"), t.config);
+  const transport = new StdioClientTransport({ command: process.execPath, args: ["--import", "tsx", join(ROOT, "packages/mcp/src/server.ts")],
+    env: { ...process.env, BC_OBSERVATORY_LOCAL: fixture(), BC_OBSERVATORY_MODEL_DIR: modelDir } as Record<string, string>, cwd: ROOT });
+  const client = new Client({ name: "smoke", version: "0" });
+  await client.connect(transport);
+  try {
+    const call = async (args: Record<string, unknown>) => ((await client.callTool({ name: "search", arguments: args })).content as { text: string }[])[0].text;
+    const hybrid = await call({ query: "client" });
+    assert.match(hybrid, /semantic/);
+    assert.match(hybrid.split("\n")[1], /Table 18 "Customer"/, "the synonym ranks the Customer table first");
+    assert.match(await call({ query: "client", mode: "keyword" }), /No pages match/, "keywords alone miss it");
+    assert.match(await call({ query: "customer", mode: "keyword" }), /Table 18/);
+  } finally {
+    await client.close();
+  }
+});
+
+test("without a model, search says so and stays keyword-only", async () => {
+  const transport = new StdioClientTransport({ command: process.execPath, args: ["--import", "tsx", join(ROOT, "packages/mcp/src/server.ts")],
+    env: { ...process.env, BC_OBSERVATORY_LOCAL: fixture(), BC_OBSERVATORY_MODEL_DIR: join(tmpdir(), "no-such-model-dir") } as Record<string, string>, cwd: ROOT });
+  const client = new Client({ name: "smoke", version: "0" });
+  await client.connect(transport);
+  try {
+    const text = ((await client.callTool({ name: "search", arguments: { query: "customer", mode: "semantic" } })).content as { text: string }[])[0].text;
+    assert.match(text, /semantic search unavailable/);
+    assert.match(text, /Table 18/, "keyword results instead");
   } finally {
     await client.close();
   }

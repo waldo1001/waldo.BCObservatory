@@ -473,3 +473,19 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   diffs 15 → 8.1 MB, so the five older transitions roughly pay for themselves. `DERIVED_VERSION` 6 rewrites every
   derived file once. At code_jobs 1 a night the extractor bump of D58 runs first (bcapps 29 and 30: DK and IN), then
   sandbox-history 23-28: the full history lands over about eight nights.
+- **D63 Hybrid search in the MCP package, with static embeddings computed on the user's machine.** The owner chose the
+  MCP package over a committed vector file (2026-10-07): nothing new in the repository, the site unchanged. No
+  JavaScript port of model2vec exists, so `packages/mcp/src/embed.ts` implements it in about 120 lines of plain
+  JavaScript (no native code, no ONNX, so `npx bc-observatory` stays light): BERT normalization and pre-tokenization,
+  greedy WordPiece, the mean of the token rows, L2-normalized; like the reference, no special tokens, [UNK] dropped,
+  512 tokens at most. Against Python model2vec 0.9.0 on `minishlab/potion-base-8M` (MIT) it gives the same token ids
+  and vectors within 6e-8 on eight awkward cases (accents, a ligature, a 120-character word, an empty string,
+  Japanese); the reference is committed and the comparison runs whenever `BC_OBSERVATORY_MODEL_DIR` names the model.
+  The model (30 MB) is downloaded on the first search, pinned to revision bf8b0566 and checked by SHA-256 per file.
+  Loading takes 20 ms and embedding all 22.7k pages 0.3 s, so page vectors are not cached at all: they are rebuilt
+  with the index. `search` fuses MiniSearch's keyword ranking with cosine similarity by reciprocal rank (k = 60);
+  `mode` picks keyword or semantic only. A local checkout downloads nothing unless a model directory is named, and
+  without a model search stays keyword-only and says so. On the real index it fixes questions phrased as people ask
+  them ("stock counting at the end of the year" → Phys. Inventory, Warehouse counting; "who is allowed to see what"
+  → the permission sets) but does not reason: "predict incoming and outgoing money" still misses Cash Flow Forecast.
+  Package 0.2.0; publishing it (the `publish-mcp` dispatch) is the owner's step.

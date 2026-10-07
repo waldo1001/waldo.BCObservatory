@@ -8,6 +8,11 @@
  * BC_OBSERVATORY_SITE to point at another deployment.
  *
  * Tools: search, ls, cat, get_object, diff_object, localization, whats_new, blog_footprint, feedback.
+ *
+ * Search is hybrid (D63): MiniSearch keywords fused with static embeddings (model2vec potion-base-8M, MIT) by
+ * reciprocal rank, so "client" finds Customer. The model (30 MB) is downloaded once on the first search, pinned by
+ * revision and checked by SHA-256, into ~/.cache/bc-observatory/models/. BC_OBSERVATORY_EMBEDDINGS=0 turns it off;
+ * BC_OBSERVATORY_MODEL_DIR uses a model on disk (offline, tests). Without a model, search is keyword-only.
  */
 import { createHash } from "node:crypto";
 import { existsSync, mkdirSync, readFileSync, realpathSync, writeFileSync } from "node:fs";
@@ -18,8 +23,9 @@ import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 import MiniSearch from "minisearch";
 import { z } from "zod";
+import { dot, embed, parseModel, type StaticModel } from "./embed.js";
 
-const VERSION = "0.1.1";
+const VERSION = "0.2.0";
 const SITE = (process.env.BC_OBSERVATORY_SITE ?? "https://waldo1001.github.io/waldo.BCObservatory/").replace(/\/?$/, "/");
 const LOCAL = process.env.BC_OBSERVATORY_LOCAL ? resolve(process.env.BC_OBSERVATORY_LOCAL) : null;
 const REPO = "https://github.com/waldo1001/waldo.BCObservatory";
@@ -91,15 +97,86 @@ const url = (path: string) => `${SITE}${path}/`;
 const line = (r: PageRecord) => `- ${r.title} [${r.type}${r.tier ? `, ${r.tier}` : ""}${r.date ? `, ${r.date}` : ""}] path=${r.path}\n  ${r.summary}`;
 const text = (t: string) => ({ content: [{ type: "text" as const, text: t }] });
 
+// ---------------------------------------------------------------------------------------------- embeddings (D63)
+
+const MODEL = {
+  repo: "minishlab/potion-base-8M", revision: "bf8b056651a2c21b8d2565580b8569da283cab23",
+  sha256: {
+    "config.json": "2a6ac0e9aaa356a68a5688070db78fc3a464fefe85d2f06a1905ce3718687553",
+    "tokenizer.json": "e67e803f624fb4d67dea1c730d06e1067e1b14d830e2c2202569e3ef0f70bb50",
+    "model.safetensors": "f65d0f325faadc1e121c319e2faa41170d3fa07d8c89abd48ca5358d9a223de2",
+  } as Record<string, string>,
+};
+const MODEL_DIR = process.env.BC_OBSERVATORY_MODEL_DIR ? resolve(process.env.BC_OBSERVATORY_MODEL_DIR) : null;
+// a local checkout is for offline use and tests: no download there unless a model directory is named
+const EMBEDDINGS = process.env.BC_OBSERVATORY_EMBEDDINGS !== "0" && (!LOCAL || !!MODEL_DIR);
+let model: StaticModel | null = null;
+let modelError: string | null = EMBEDDINGS ? null : "turned off";
+let vectors: { at: number; data: Float32Array } | null = null;
+
+async function loadModel(): Promise<StaticModel | null> {
+  if (model || modelError) return model;
+  try {
+    let dir = MODEL_DIR;
+    if (!dir) {
+      dir = join(process.env.XDG_CACHE_HOME ?? join(homedir(), ".cache"), "bc-observatory", "models", `potion-base-8M@${MODEL.revision.slice(0, 12)}`);
+      mkdirSync(dir, { recursive: true });
+      for (const [file, sha] of Object.entries(MODEL.sha256)) {
+        const p = join(dir, file);
+        if (existsSync(p)) continue;
+        const res = await fetch(`https://huggingface.co/${MODEL.repo}/resolve/${MODEL.revision}/${file}`, { headers: { "user-agent": `bc-observatory-mcp/${VERSION}` } });
+        if (!res.ok) throw new Error(`HTTP ${res.status} for ${file}`);
+        const buf = Buffer.from(await res.arrayBuffer());
+        if (createHash("sha256").update(buf).digest("hex") !== sha) throw new Error(`${file} does not match its pinned SHA-256`);
+        writeFileSync(p, buf);
+      }
+    }
+    model = parseModel(readFileSync(join(dir, "tokenizer.json"), "utf8"), new Uint8Array(readFileSync(join(dir, "model.safetensors"))), JSON.parse(readFileSync(join(dir, "config.json"), "utf8")));
+  } catch (e) {
+    modelError = String((e as Error).message).slice(0, 160);
+  }
+  return model;
+}
+/** One vector per page (title, summary, tags), rebuilt when the index reloads: 22k pages take about 0.3 s. */
+function pageVectors(m: StaticModel): Float32Array {
+  if (vectors && vectors.at === loadedAt) return vectors.data;
+  const data = new Float32Array(pages.length * m.dims);
+  pages.forEach((p, i) => data.set(embed(m, [p.title, p.summary, ...(p.tags ?? [])].filter(Boolean).join(". ")), i * m.dims));
+  vectors = { at: loadedAt, data };
+  return data;
+}
+/** Reciprocal rank fusion of ranked lists of paths (k = 60). */
+export function fuse(lists: string[][], k = 60): string[] {
+  const score = new Map<string, number>();
+  for (const list of lists) list.forEach((p, i) => score.set(p, (score.get(p) ?? 0) + 1 / (k + i + 1)));
+  return [...score].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0])).map(([p]) => p);
+}
+
 // ---------------------------------------------------------------------------------------------- tools
 
-export async function toolSearch(a: { query: string; type?: string; tier?: string; system?: string; limit?: number }): Promise<string> {
+export async function toolSearch(a: { query: string; type?: string; tier?: string; system?: string; limit?: number; mode?: "hybrid" | "keyword" | "semantic" }): Promise<string> {
   await loadIndex();
-  const hits = search!.search(a.query, {
-    filter: (r: any) => (!a.type || r.type === a.type) && (!a.tier || r.tier === a.tier) && (!a.system || r.system === a.system),
-  }).slice(0, a.limit ?? 10) as unknown as PageRecord[];
+  const keep = (r: PageRecord) => (!a.type || r.type === a.type) && (!a.tier || r.tier === a.tier) && (!a.system || r.system === a.system);
+  const limit = a.limit ?? 10, mode = a.mode ?? "hybrid", POOL = 50;
+  const keyword = mode === "semantic" ? [] : (search!.search(a.query, { filter: (r: any) => keep(r) }).slice(0, POOL) as unknown as PageRecord[]).map((r) => r.path);
+  let semantic: string[] = [], note = "";
+  if (mode !== "keyword") {
+    const m = await loadModel();
+    if (m) {
+      const q = embed(m, a.query), data = pageVectors(m);
+      if (q.some((x) => x !== 0)) {
+        const scored: [number, number][] = [];
+        pages.forEach((p, i) => { if (keep(p)) scored.push([dot(q, data, i * m.dims), i]); });
+        semantic = scored.sort((x, y) => y[0] - x[0]).slice(0, POOL).map(([, i]) => pages[i].path);
+      }
+    } else if (mode === "semantic") note = ` (semantic search unavailable: ${modelError}; keyword results instead)`;
+    if (!m && mode === "semantic") semantic = (search!.search(a.query, { filter: (r: any) => keep(r) }).slice(0, POOL) as unknown as PageRecord[]).map((r) => r.path);
+  }
+  const byPath = new Map(pages.map((p) => [p.path, p]));
+  const hits = fuse([keyword, semantic].filter((l) => l.length)).slice(0, limit).map((p) => byPath.get(p)!).filter(Boolean);
   if (!hits.length) return `No pages match "${a.query}". Try fewer words, or ls("") to browse sections.`;
-  return `${hits.length} results (read one with cat(path)):\n${hits.map(line).join("\n")}`;
+  const how = semantic.length && keyword.length ? "keyword + semantic" : semantic.length ? "semantic" : "keyword";
+  return `${hits.length} results, ${how}${note} (read one with cat(path)):\n${hits.map(line).join("\n")}`;
 }
 
 export async function toolLs(a: { path?: string }): Promise<string> {
@@ -178,8 +255,8 @@ export function createServer(): McpServer {
   const server = new McpServer({ name: "bc-observatory", version: VERSION }, {
     instructions: "BC Observatory: an agent-first knowledge base of Microsoft Dynamics 365 Business Central (Learn hubs, AL objects from the code for BC28-30, localizations, roadmap features, videos, community posts). Every page carries a trust tier (official = Microsoft, community = everyone else) and a review state: say which tier a claim comes from. Never invent AL object ids or version numbers: look them up with get_object. Start with search(), read pages with cat(path), browse with ls(path).",
   });
-  server.registerTool("search", { title: "Search the knowledge base", description: "Full-text search over every page (title, summary, tags). Filter by type (topic, feature, object, localization, video, post), tier (official, community) or galaxy system (finance, sales, development, ...).",
-    inputSchema: { query: z.string(), type: z.string().optional(), tier: z.string().optional(), system: z.string().optional(), limit: z.number().int().min(1).max(50).optional() } },
+  server.registerTool("search", { title: "Search the knowledge base", description: "Search every page (title, summary, tags). Hybrid by default: keywords plus meaning, so a synonym or a paraphrase still finds the page; mode 'keyword' for exact terms such as an object name, 'semantic' for meaning only. Filter by type (topic, feature, object, localization, video, post), tier (official, community) or galaxy system (finance, sales, development, ...).",
+    inputSchema: { query: z.string(), type: z.string().optional(), tier: z.string().optional(), system: z.string().optional(), limit: z.number().int().min(1).max(50).optional(), mode: z.enum(["hybrid", "keyword", "semantic"]).optional() } },
   async (a) => text(await toolSearch(a)));
   server.registerTool("ls", { title: "List pages", description: "Browse the page tree, e.g. ls('objects/table') or ls('localizations'); empty path lists the sections.", inputSchema: { path: z.string().optional() } },
     async (a) => text(await toolLs(a)));
