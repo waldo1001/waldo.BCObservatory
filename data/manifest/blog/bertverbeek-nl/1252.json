@@ -7,13 +7,37 @@
   "url": "https://www.bertverbeek.nl/blog/2026/02/18/agents-in-business-central-part-3-limiting-the-agent/",
   "published_at": "2026-02-18T09:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T00:52:27.122Z",
+      "path": "vault:posts/bertverbeek-nl/1252.md",
+      "words": 616
+    },
+    "extracted": {
+      "at": "2026-10-07T00:52:27.137Z",
+      "prompt": "extract-post@1",
+      "quotes": 3,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T00:52:27.138Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T00:52:27.140Z"
     }
   },
   "input_hash": "2026-02-25T10:43:58.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3345ad3132462eb62deeeecbe6bd5917544d2addc5d08997f0ec4701c519a310",
+  "skip": "leak",
+  "skipped_at": "2026-10-07T00:52:27.176Z"
 }

@@ -7,13 +7,39 @@
   "url": "https://aardvarklabs.blog/2026/02/13/integrating-analysis-views-in-business-central-extensions/",
   "published_at": "2026-02-13T13:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T00:52:47.076Z",
+      "path": "vault:posts/aardvarklabs-blog/2936.md",
+      "words": 900
+    },
+    "extracted": {
+      "at": "2026-10-07T00:52:47.086Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T00:52:47.087Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T00:52:47.088Z"
+    },
+    "published": {
+      "at": "2026-10-07T00:52:47.095Z",
+      "path": "content/posts/aardvarklabs-blog/2936.md"
     }
   },
   "input_hash": "2026-02-18T03:26:23.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "249c712975fcb34d0201d57d614ce9cb02967bd7013b0846b02456a5f8a44657"
 }

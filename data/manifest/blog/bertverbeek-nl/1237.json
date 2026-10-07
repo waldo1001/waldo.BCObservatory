@@ -7,13 +7,39 @@
   "url": "https://www.bertverbeek.nl/blog/2026/02/16/agents-in-business-central-part-2-the-prompt/",
   "published_at": "2026-02-16T08:28:24.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T00:52:32.221Z",
+      "path": "vault:posts/bertverbeek-nl/1237.md",
+      "words": 722
+    },
+    "extracted": {
+      "at": "2026-10-07T00:52:32.227Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T00:52:32.228Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T00:52:32.229Z"
+    },
+    "published": {
+      "at": "2026-10-07T00:52:32.236Z",
+      "path": "content/posts/bertverbeek-nl/1237.md"
     }
   },
   "input_hash": "2026-02-16T08:28:25.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "2ef5ce28028d8607cb58120f4c51f0a7ba6b636caa0dddf3665e781eb59dd5d4"
 }

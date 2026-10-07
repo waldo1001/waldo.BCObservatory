@@ -1,0 +1,70 @@
+{
+  "item_id": "blog/duiliotacconi-com/1894",
+  "url": "https://duiliotacconi.com/2026/02/13/flowfields-with-same-filters-and-table-in-a-single-outer-apply/",
+  "title": "FlowFields with same filters and table in a single OUTER APPLY",
+  "source": "duiliotacconi-com",
+  "published_at": "2026-02-13T13:56:26.000Z",
+  "words": 1114,
+  "summary": "Dynamics 365 Business Central 2025 Wave 2 optimizes SmartSQL by combining multiple FlowFields with identical table filters into a single OUTER APPLY statement, reducing SQL queries and improving query performance. This enhancement matters for applications with many FlowFields querying the same data pool.",
+  "key_points": [
+    "FlowFields sharing the same table and filters now consolidate into one OUTER APPLY instead of separate ones, eliminating redundant data retrieval",
+    "SmartSQL automatically groups SUM, AVERAGE, COUNT, MIN, MAX, EXISTS, and LOOKUP aggregations when they target the same data",
+    "This optimization is enabled by default in version 27.0 and has no configuration needed",
+    "Indexed views (V-SIFTs) are excluded from grouping to maintain their specialized behavior",
+    "The feature reduces network chatter and improves execution plans, with measurable impact on telemetry signals like page views and long-running query traces"
+  ],
+  "systems": [
+    "platform",
+    "development",
+    "reporting"
+  ],
+  "topics": [
+    "flowfield optimization",
+    "sql performance",
+    "smartsql",
+    "query optimization",
+    "aggregation functions",
+    "outer apply"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "DT Customer Demo"
+    },
+    {
+      "type": "table",
+      "name": "DT Sales Entry"
+    },
+    {
+      "type": "enum",
+      "name": "DT Document Type"
+    }
+  ],
+  "features": [
+    "SmartSQL optimization",
+    "FlowField consolidation",
+    "OUTER APPLY grouping",
+    "Aggregation packing",
+    "SQL query reduction",
+    "Indexed view handling"
+  ],
+  "versions": [
+    "27",
+    "2025 Wave 2"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "A good platform feature, then, that is turned always on by default since 27.0.",
+      "why_it_matters": "Confirms the feature requires no configuration and is automatically active"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

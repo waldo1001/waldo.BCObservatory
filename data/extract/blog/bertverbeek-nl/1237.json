@@ -1,0 +1,61 @@
+{
+  "item_id": "blog/bertverbeek-nl/1237",
+  "url": "https://www.bertverbeek.nl/blog/2026/02/16/agents-in-business-central-part-2-the-prompt/",
+  "title": "Agents in Business Central – part 2 – the prompt",
+  "source": "bertverbeek-nl",
+  "published_at": "2026-02-16T08:28:24.000Z",
+  "words": 722,
+  "summary": "Building effective agents in Business Central requires well-structured prompts with clear responsibilities, guidelines, and task instructions. The post explains how to use memory, page-specific instructions, and conditional logic to guide agent behavior reliably and keep humans in control.",
+  "key_points": [
+    "Agent instructions need three core components: responsibilities (scope and boundaries), guidelines (rulebook for behavior), and task instructions (concrete procedural steps)",
+    "Agents should ask for help when data is missing or unclear, and request user review for important steps to maintain human oversight",
+    "Agents can memorize specific actions, search results, and explicitly instructed values, but not the full state of every page",
+    "Use page-specific instructions with conditional logic to provide detailed guidance only when needed and improve performance",
+    "Business Central agents have context-aware tools like searching pages, selecting rows, executing actions, and setting field values"
+  ],
+  "systems": [
+    "copilot",
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "agents",
+    "prompting",
+    "ai",
+    "instructions",
+    "memory",
+    "page-specific logic",
+    "human oversight"
+  ],
+  "objects": [],
+  "features": [
+    "Agent prompting framework",
+    "Responsibility definition",
+    "Guidelines and rules",
+    "Task instructions",
+    "Memory management",
+    "Page-specific instructions",
+    "Conditional logic",
+    "Agent Tasks action with View Log Entries"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "The way you guide and structure your agent's behavior determines whether it becomes a reliable assistant or a confused chatbot.",
+      "why_it_matters": "Highlights that prompt quality directly impacts agent reliability and usefulness"
+    },
+    {
+      "text": "This memory model protects performance but still allows context continuity.",
+      "why_it_matters": "Explains the practical balance between agent capability and system performance"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

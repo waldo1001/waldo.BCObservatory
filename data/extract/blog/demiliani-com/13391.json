@@ -1,0 +1,65 @@
+{
+  "item_id": "blog/demiliani-com/13391",
+  "url": "https://demiliani.com/2026/02/13/dynamics-365-business-central-bcmcpproxy-vnext/",
+  "title": "Dynamics 365 Business Central: BCMCPProxy vNext",
+  "source": "demiliani-com",
+  "published_at": "2026-02-13T11:52:08.000Z",
+  "words": 535,
+  "summary": "BCMCPProxy vNext is a cross-platform .NET proxy that bridges Model Context Protocol clients with Business Central's API, upgraded from a Windows-only proof-of-concept to support macOS and Windows with improved performance, security, and modern .NET 10 architecture.",
+  "key_points": [
+    "BCMCPProxy vNext evolved from the original Windows-only Microsoft project to support both Windows and macOS with .NET 10 and C# 13",
+    "Device code flow authentication provides browser-based sign-in with automatic clipboard copying and token caching across sessions",
+    "Performance improved 40-67% through sync-over-async elimination, async I/O, and better memory management",
+    "Cross-platform support includes Intel x64, Apple Silicon ARM64, and ARM64 processors through unified dotnet build",
+    "Security enhanced by removing hardcoded credentials and using platform-native secure storage for token caching"
+  ],
+  "systems": [
+    "integration",
+    "platform",
+    "copilot"
+  ],
+  "topics": [
+    "model context protocol",
+    "mcp proxy",
+    "authentication",
+    "cross-platform",
+    ".net",
+    "claude desktop",
+    "business central api"
+  ],
+  "objects": [],
+  "features": [
+    "Model Context Protocol support",
+    "Device code flow authentication",
+    "Token caching",
+    "Cross-platform deployment",
+    "Claude Desktop integration",
+    "MSAL authentication",
+    "Async I/O",
+    "Secure credential storage"
+  ],
+  "versions": [
+    ".NET 10",
+    ".NET 8",
+    "C# 13"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "BcMCPProxy is an (unsupported) .NET project that provides a server proxy that bridges MCP clients with Microsoft Dynamics 365 Business Central's API.",
+      "why_it_matters": "Explains the core purpose of the proxy as a bridge between MCP protocol clients and Business Central's API"
+    },
+    {
+      "text": "The improved BCMCPProxy (here called BCMCPProxy vNext) represents an evolution from the original Windows-only proof-of-concept to a more robust solution.",
+      "why_it_matters": "Clarifies the progression from original Windows-only implementation to a production-ready cross-platform version"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

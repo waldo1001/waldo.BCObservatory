@@ -1,0 +1,89 @@
+{
+  "item_id": "blog/gerardorenteria-blog/13675",
+  "url": "https://gerardorenteria.blog/2026/02/14/%f0%9f%93%9d-adding-notes-to-financial-report-lines-%f0%9f%93%8a/",
+  "title": "📝 Adding Notes to Financial Report Lines 📊",
+  "source": "gerardorenteria-blog",
+  "published_at": "2026-02-14T22:00:11.000Z",
+  "words": 1057,
+  "summary": "An AL extension adds line-level notes to financial reports (Account Schedules) in Business Central, allowing users to document explanations directly within reports instead of maintaining separate documentation. Notes appear in the definition page, matrix overview, printed reports with synchronized numbering, and Excel exports.",
+  "key_points": [
+    "Two new fields added to Account Schedule lines: Has Notes (calculated) and Note Text with edit dialog",
+    "FactBox in Account Schedule Overview shows notes for selected lines with direct edit actions",
+    "Reports include superscript indices in descriptions and a synchronized NOTES TO FINANCIAL STATEMENTS section",
+    "Excel export includes a bold Notes column with all line notes and preserved formatting",
+    "Solution supports CFO/controller presentations, auditor documentation, and analyst variance comments"
+  ],
+  "systems": [
+    "reporting",
+    "finance",
+    "development"
+  ],
+  "topics": [
+    "account schedules",
+    "financial reports",
+    "notes and comments",
+    "excel export",
+    "report customization",
+    "al extension"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Acc. Schedule Names"
+    },
+    {
+      "type": "page",
+      "name": "Acc. Schedule Overview"
+    },
+    {
+      "type": "table",
+      "name": "Acc. Schedule Line"
+    },
+    {
+      "type": "page",
+      "name": "GDRGAccScheduleNoteFactBox"
+    },
+    {
+      "type": "page",
+      "name": "GDRGEditNoteDialog"
+    },
+    {
+      "type": "report",
+      "name": "GDRGExportAccSchedToExcel"
+    }
+  ],
+  "features": [
+    "Line-level notes on Account Schedules",
+    "Note Text field with drill-down editing",
+    "Has Notes calculated field",
+    "FactBox for note visibility",
+    "Synchronized superscript numbering in reports",
+    "Notes to Financial Statements section",
+    "Excel export with Notes column",
+    "RDLC layout customization"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Some users in monthly closing meetings always had to keep additional separate documentation to explain things.",
+      "why_it_matters": "Identifies the core problem this extension solves: keeping explanations separate from financial reports."
+    },
+    {
+      "text": "The idea is to keep notes within the financial report, carrying its own context without external documentation.",
+      "why_it_matters": "Summarizes the extension's goal of making financial reports self-contained with embedded explanatory context."
+    },
+    {
+      "text": "Edit Note actions allow editing notes without leaving the matrix.",
+      "why_it_matters": "Demonstrates improved user experience by enabling direct note editing within the report overview interface."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

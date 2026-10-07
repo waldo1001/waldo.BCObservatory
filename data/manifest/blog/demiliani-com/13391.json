@@ -7,13 +7,39 @@
   "url": "https://demiliani.com/2026/02/13/dynamics-365-business-central-bcmcpproxy-vnext/",
   "published_at": "2026-02-13T11:52:08.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T00:52:55.056Z",
+      "path": "vault:posts/demiliani-com/13391.md",
+      "words": 535
+    },
+    "extracted": {
+      "at": "2026-10-07T00:52:55.078Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T00:52:55.079Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T00:52:55.080Z"
+    },
+    "published": {
+      "at": "2026-10-07T00:52:55.088Z",
+      "path": "content/posts/demiliani-com/13391.md"
     }
   },
   "input_hash": "2026-02-13T12:51:53.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "5e2977b0a2a0647a85fae291319d3ab3b992d43e69a0d4106d77cfd2341288ee"
 }

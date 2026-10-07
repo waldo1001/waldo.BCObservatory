@@ -7,13 +7,39 @@
   "url": "https://gerardorenteria.blog/2026/02/14/%f0%9f%93%9d-adding-notes-to-financial-report-lines-%f0%9f%93%8a/",
   "published_at": "2026-02-14T22:00:11.000Z",
   "language": "es",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T00:52:37.676Z",
+      "path": "vault:posts/gerardorenteria-blog/13675.md",
+      "words": 1057
+    },
+    "extracted": {
+      "at": "2026-10-07T00:52:37.686Z",
+      "prompt": "extract-post@1",
+      "quotes": 3,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T00:52:37.687Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T00:52:37.688Z"
+    },
+    "published": {
+      "at": "2026-10-07T00:52:37.697Z",
+      "path": "content/posts/gerardorenteria-blog/13675.md"
     }
   },
   "input_hash": "2026-02-14T22:04:46.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "74071211c40bf878eccc76e8c10e14803195b5b5b281ddfcceb8097bf9f0a920"
 }

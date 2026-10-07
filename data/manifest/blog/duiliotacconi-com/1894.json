@@ -7,13 +7,39 @@
   "url": "https://duiliotacconi.com/2026/02/13/flowfields-with-same-filters-and-table-in-a-single-outer-apply/",
   "published_at": "2026-02-13T13:56:26.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T00:52:44.955Z",
+      "path": "vault:posts/duiliotacconi-com/1894.md",
+      "words": 1114
+    },
+    "extracted": {
+      "at": "2026-10-07T00:52:44.965Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T00:52:44.966Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T00:52:44.967Z"
+    },
+    "published": {
+      "at": "2026-10-07T00:52:44.973Z",
+      "path": "content/posts/duiliotacconi-com/1894.md"
     }
   },
   "input_hash": "2026-02-13T13:57:09.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "7e0b458142d63a97f32766dff042c86e2fb97fd5d98c5d9314d6a34fceaa7a39"
 }

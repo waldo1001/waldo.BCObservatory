@@ -1,0 +1,70 @@
+{
+  "item_id": "blog/aardvarklabs-blog/2936",
+  "url": "https://aardvarklabs.blog/2026/02/13/integrating-analysis-views-in-business-central-extensions/",
+  "title": "Integrating Analysis Views in Business Central Extensions",
+  "source": "aardvarklabs-blog",
+  "published_at": "2026-02-13T13:00:00.000Z",
+  "words": 900,
+  "summary": "Business Central AL 17.0 Runtime adds the ability to package and deploy Analysis Views in extensions. You can export Analysis View definitions as JSON files, include them in page or page extension AL code, and deploy them to automatically add pre-built analysis views to list pages in any Business Central environment.",
+  "key_points": [
+    "Export analysis views from the UI as JSON definition files using the Export Definition option",
+    "Include JSON files in your AL extension project and reference them in page or page extension code using the analysisviews section",
+    "For page extensions, use addlast or addfirst anchors to position views; for new pages, no anchor is needed",
+    "Packaged analysis views are read-only with a lock indicator, but users can duplicate and edit copies",
+    "This feature ships in Wave 1 2026 and works with standard pages and custom pages alike"
+  ],
+  "systems": [
+    "development",
+    "reporting",
+    "copilot"
+  ],
+  "topics": [
+    "analysis views",
+    "extensions",
+    "al development",
+    "packaging",
+    "json",
+    "page extensions"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Posted Sales Invoices"
+    },
+    {
+      "type": "other",
+      "name": "ARD_Posted Sales Invoices page extension"
+    },
+    {
+      "type": "page",
+      "name": "ARD_ItemListAnalysisView"
+    }
+  ],
+  "features": [
+    "Analysis Views",
+    "Copilot integration",
+    "Page Extensions",
+    "Extension packaging",
+    "JSON configuration",
+    "Analysis view export"
+  ],
+  "versions": [
+    "AL 17.0",
+    "Wave 1 2026"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "The Business Central AL 17.0 Runtime adds a feature that allows for the packaging and deployment of Analysis Views.",
+      "why_it_matters": "Establishes the new capability being introduced and the version where it becomes available"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

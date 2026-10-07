@@ -7,13 +7,39 @@
   "url": "https://www.olofsimren.com/business-central-configuration-audit-using-vibe-coding/",
   "published_at": "2026-02-13T14:33:38.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T00:52:33.286Z",
+      "path": "vault:posts/olofsimren-com/3653.md",
+      "words": 1193
+    },
+    "extracted": {
+      "at": "2026-10-07T00:52:33.295Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T00:52:33.296Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T00:52:33.297Z"
+    },
+    "published": {
+      "at": "2026-10-07T00:52:33.304Z",
+      "path": "content/posts/olofsimren-com/3653.md"
     }
   },
   "input_hash": "2026-02-13T14:33:43.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "bf0b0294e594d6a413bc5920452e00d4219e3bbf8c18f59aa1505a4cabe5e5e5"
 }
