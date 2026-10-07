@@ -7,7 +7,7 @@
   "url": "https://aardvarklabs.blog/2025/07/04/enhance-your-windows-experience-with-powertoys/",
   "published_at": "2025-07-04T12:00:00.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -16,12 +16,30 @@
       "at": "2026-10-07T01:47:19.809Z",
       "path": "vault:posts/aardvarklabs-blog/2044.md",
       "words": 435
+    },
+    "extracted": {
+      "at": "2026-10-07T05:17:37.154Z",
+      "prompt": "extract-post@1",
+      "quotes": 0,
+      "trimmed": 0,
+      "cost_usd": 0.004148
+    },
+    "summarized": {
+      "at": "2026-10-07T05:17:37.190Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T05:17:37.203Z"
+    },
+    "published": {
+      "at": "2026-10-07T05:17:40.983Z",
+      "path": "content/posts/aardvarklabs-blog/2044.md"
     }
   },
   "input_hash": "2025-07-02T01:43:25.000Z",
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
-  "last_error": "model returned no entry for this post",
-  "retry_after": "2026-10-07T03:47:19.813Z",
-  "output_hash": "56163c162bab0217422df3a72ec04b2beb0ebc7012a4fb35051ea78eb4dcfcf9"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "cb56c0bd3b4c7b0fc4cdcac4439e8a245dfd0f910594670ea215c041bd34fd7d"
 }

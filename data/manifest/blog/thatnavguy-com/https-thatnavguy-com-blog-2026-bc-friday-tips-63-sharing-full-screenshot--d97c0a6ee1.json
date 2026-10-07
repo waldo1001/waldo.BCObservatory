@@ -7,15 +7,39 @@
   "url": "https://thatnavguy.com/blog/2026/bc-friday-tips-63-sharing-full-screenshot/",
   "published_at": "2026-02-06T00:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T05:17:26.417Z",
+      "path": "vault:posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-63-sharing-full-screenshot--d97c0a6ee1.md",
+      "words": 69
+    },
+    "extracted": {
+      "at": "2026-10-07T05:17:26.423Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T05:17:26.424Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T05:17:26.425Z"
+    },
+    "published": {
+      "at": "2026-10-07T05:17:26.434Z",
+      "path": "content/posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-63-sharing-full-screenshot--d97c0a6ee1.md"
     }
   },
   "input_hash": null,
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
-  "last_error": "The operation was aborted due to timeout",
-  "retry_after": "2026-10-07T03:06:01.527Z"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "7a561b96208cdf147c86348cb6f2eb05e5279b76978b4a2daf1f69ff28f8a441"
 }

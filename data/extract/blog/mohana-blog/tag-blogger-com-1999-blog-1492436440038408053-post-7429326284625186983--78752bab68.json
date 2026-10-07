@@ -1,0 +1,73 @@
+{
+  "item_id": "blog/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-7429326284625186983",
+  "url": "http://mohana-dynamicsnav.blogspot.com/2026/02/testing-scenarios-and-best-practices.html",
+  "title": "Testing Your MCP Connection with Real Business Central Questions and Best Practices (BLOG 4 OF 4)",
+  "source": "mohana-blog",
+  "published_at": "2026-02-12T07:41:00.000Z",
+  "words": 1355,
+  "summary": "Testing a Business Central MCP setup by running real-world business queries through Claude, with two practical scenarios (project budget analysis and inventory visualization) and best practices for security, agent interaction, and maintenance.",
+  "key_points": [
+    "AI agents connected via MCP can answer complex business questions in plain English by making multiple API calls and generating visual charts automatically",
+    "Custom API pages are needed when standard BC APIs lack required data, like project planning lines for budget analysis",
+    "Conversational queries enable iterative refinement and follow-up analysis without rebuilding reports each time",
+    "Security requires read-only configurations by default, no stored secrets, purpose-specific setups, and audit reviews",
+    "Complex multi-step analyses that traditionally took 15-30 minutes can be completed in seconds through natural language prompts"
+  ],
+  "systems": [
+    "projects",
+    "inventory",
+    "integration"
+  ],
+  "topics": [
+    "mcp server",
+    "api integration",
+    "claude desktop",
+    "ai agents",
+    "budget analysis",
+    "inventory visibility",
+    "custom api pages",
+    "security best practices"
+  ],
+  "objects": [
+    {
+      "type": "api",
+      "name": "Project API page"
+    },
+    {
+      "type": "api",
+      "name": "Item API page"
+    },
+    {
+      "type": "table",
+      "name": "Job Planning Lines"
+    }
+  ],
+  "features": [
+    "Budget vs. actual analysis visualization",
+    "Inventory overview charting",
+    "Multi-API data aggregation",
+    "Interactive chart rendering in Claude Desktop",
+    "Conversational query refinement",
+    "Cross-data analysis",
+    "Least privilege access control",
+    "Delegated authentication flow"
+  ],
+  "versions": [
+    "public preview"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "The value is not in reading individual records. It is in asking business questions and getting visual, actionable answers in seconds.",
+      "why_it_matters": "Summarizes the transformation from traditional report building to agentic query-driven analysis"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

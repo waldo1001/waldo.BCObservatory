@@ -7,15 +7,21 @@
   "url": "http://mohana-dynamicsnav.blogspot.com/2026/10/business-central-2026-release-wave-2.html",
   "published_at": "2026-10-01T15:47:44.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T05:17:25.524Z",
+      "path": "vault:posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-3088305037286723104--7a3af8e6a8.md",
+      "words": 205
     }
   },
   "input_hash": "2026-10-01T15:47:44.500Z",
-  "attempts": 2,
+  "attempts": 0,
   "flags": [],
-  "last_error": "The operation was aborted due to timeout",
-  "retry_after": "2026-10-07T03:41:42.779Z"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3eca28e2836529141d6075bf44fa4780c9d9438fdbf97223b33889333a8c3ce0"
 }

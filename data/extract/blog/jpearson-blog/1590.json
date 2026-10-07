@@ -1,0 +1,51 @@
+{
+  "item_id": "blog/jpearson-blog/1590",
+  "url": "https://jpearson.blog/2026/02/05/why-do-all-my-tests-show-up-twice-in-the-test-explorer/",
+  "title": "Why do all my tests show up twice in the test explorer?",
+  "source": "jpearson-blog",
+  "published_at": "2026-02-05T11:07:28.000Z",
+  "words": 403,
+  "summary": "When using both the pre-release AL Language extension and AL Test Runner, tests appear twice in the test explorer. The AL Language extension now includes built-in testing capabilities that conflict with AL Test Runner, and there is a bug causing test runs to hang indefinitely against pre-BC28 containers.",
+  "key_points": [
+    "Tests appear twice because both AL Language extension (release version includes test discovery) and AL Test Runner contribute to the test explorer",
+    "BC28 supports test execution through the AL Language extension, but earlier versions do not",
+    "A bug causes test runs initiated by the AL Language extension to never complete on pre-BC28 containers, blocking Copilot code generation",
+    "AL Test Runner currently offers more features (code coverage, performance profiles, page scripts) than Microsoft's extension",
+    "AL Test Runner will be maintained until Microsoft's version achieves feature parity"
+  ],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "testing",
+    "al language",
+    "test explorer",
+    "extension conflict",
+    "debugging",
+    "copilot"
+  ],
+  "objects": [],
+  "features": [
+    "test discovery",
+    "test execution",
+    "test explorer",
+    "code coverage",
+    "performance profiling",
+    "page scripts",
+    "copilot integration"
+  ],
+  "versions": [
+    "BC28"
+  ],
+  "language": "en",
+  "quotes": [],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

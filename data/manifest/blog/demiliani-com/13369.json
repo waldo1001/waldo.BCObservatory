@@ -7,15 +7,39 @@
   "url": "https://demiliani.com/2026/02/06/dynamics-365-business-central-monitoring-your-customers-network-speed-from-telemetry/",
   "published_at": "2026-02-06T09:00:10.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T05:17:26.684Z",
+      "path": "vault:posts/demiliani-com/13369.md",
+      "words": 428
+    },
+    "extracted": {
+      "at": "2026-10-07T05:17:26.692Z",
+      "prompt": "extract-post@1",
+      "quotes": 0,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T05:17:26.694Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T05:17:26.695Z"
+    },
+    "published": {
+      "at": "2026-10-07T05:17:26.716Z",
+      "path": "content/posts/demiliani-com/13369.md"
     }
   },
   "input_hash": "2026-02-06T09:00:10.000Z",
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
-  "last_error": "The operation was aborted due to timeout",
-  "retry_after": "2026-10-07T03:06:01.523Z"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d9160d0eb4198b085dbdb4283ab4155b0ecd97714ab46eb5e393ee116c422ee3"
 }

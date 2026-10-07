@@ -7,15 +7,39 @@
   "url": "https://aardvarklabs.blog/2026/02/11/join-the-first-business-central-hackathon-at-dynamicscon-2026/",
   "published_at": "2026-02-11T13:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T05:17:26.099Z",
+      "path": "vault:posts/aardvarklabs-blog/3099.md",
+      "words": 809
+    },
+    "extracted": {
+      "at": "2026-10-07T05:17:26.112Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T05:17:26.114Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T05:17:26.116Z"
+    },
+    "published": {
+      "at": "2026-10-07T05:17:26.127Z",
+      "path": "content/posts/aardvarklabs-blog/3099.md"
     }
   },
   "input_hash": "2026-04-19T20:33:00.000Z",
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
-  "last_error": "The operation was aborted due to timeout",
-  "retry_after": "2026-10-07T02:55:29.014Z"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "4b860f6b0a1d9c2871ac1c0dd3cd5277ede9ff4581a718a7b234a877bf1e1033"
 }

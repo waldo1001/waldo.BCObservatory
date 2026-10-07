@@ -7,15 +7,39 @@
   "url": "https://thatnavguy.com/blog/2026/bc-friday-tips-64-filter-tokens-codeunit/",
   "published_at": "2026-02-13T00:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T05:17:24.458Z",
+      "path": "vault:posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-64-filter-tokens-codeunit--83ed307789.md",
+      "words": 77
+    },
+    "extracted": {
+      "at": "2026-10-07T05:17:24.469Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T05:17:24.471Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T05:17:24.472Z"
+    },
+    "published": {
+      "at": "2026-10-07T05:17:24.522Z",
+      "path": "content/posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-64-filter-tokens-codeunit--83ed307789.md"
     }
   },
   "input_hash": null,
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
-  "last_error": "The operation was aborted due to timeout",
-  "retry_after": "2026-10-07T02:55:29.005Z"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "6a9cd74bb0f40fc20d37147316d700bf8f0019c86827c8802d9a7804d39ca4a5"
 }

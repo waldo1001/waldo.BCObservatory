@@ -7,15 +7,39 @@
   "url": "https://jpearson.blog/2026/02/05/why-do-all-my-tests-show-up-twice-in-the-test-explorer/",
   "published_at": "2026-02-05T11:07:28.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T05:17:27.606Z",
+      "path": "vault:posts/jpearson-blog/1590.md",
+      "words": 403
+    },
+    "extracted": {
+      "at": "2026-10-07T05:17:27.613Z",
+      "prompt": "extract-post@1",
+      "quotes": 0,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T05:17:27.615Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T05:17:27.616Z"
+    },
+    "published": {
+      "at": "2026-10-07T05:17:27.624Z",
+      "path": "content/posts/jpearson-blog/1590.md"
     }
   },
   "input_hash": "2026-02-05T11:07:28.000Z",
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
-  "last_error": "The operation was aborted due to timeout",
-  "retry_after": "2026-10-07T03:06:02.480Z"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "aa23369ee7e985624d9708c8823a4542d4c14a8e8fc0cc5c7100e9bcf79b412f"
 }

@@ -7,15 +7,39 @@
   "url": "http://mohana-dynamicsnav.blogspot.com/2026/02/building-bcmcpproxyexe-and-connecting.html",
   "published_at": "2026-02-11T08:14:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T05:17:26.322Z",
+      "path": "vault:posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-8092462798375727234--07aea86270.md",
+      "words": 829
+    },
+    "extracted": {
+      "at": "2026-10-07T05:17:26.333Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T05:17:26.335Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T05:17:26.337Z"
+    },
+    "published": {
+      "at": "2026-10-07T05:17:26.349Z",
+      "path": "content/posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-8092462798375727234--07aea86270.md"
     }
   },
   "input_hash": "2026-02-11T08:14:24.590Z",
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
-  "last_error": "The operation was aborted due to timeout",
-  "retry_after": "2026-10-07T03:03:40.763Z"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3f540c731b720990114e589e23546217fda87745473f430a37a9cc4166c30c24"
 }

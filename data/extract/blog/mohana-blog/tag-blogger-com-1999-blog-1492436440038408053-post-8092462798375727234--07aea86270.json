@@ -1,0 +1,63 @@
+{
+  "item_id": "blog/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-8092462798375727234",
+  "url": "http://mohana-dynamicsnav.blogspot.com/2026/02/building-bcmcpproxyexe-and-connecting.html",
+  "title": "Building BcMCPProxy.exe and Connecting to Claude Desktop (BLOG 3 OF 4)",
+  "source": "mohana-blog",
+  "published_at": "2026-02-11T08:14:00.000Z",
+  "words": 829,
+  "summary": "Building and configuring BcMCPProxy.exe as a self-contained executable in Visual Studio, then connecting it to Claude Desktop via Azure App Registration for delegated authentication to Business Central. This enables Claude to interact with BC through the MCP protocol.",
+  "key_points": [
+    "Create an Azure App Registration with delegated permissions for Dynamics 365 Business Central (Financials.ReadWrite.All and user_impersonation)",
+    "Build BcMCPProxy.exe as a self-contained release using either Visual Studio UI or command line dotnet publish with --self-contained flag",
+    "Configure Claude Desktop by editing claude_desktop_config.json with the BcMCPProxy.exe path and parameters including TenantId, ClientId, Environment, Company, and ConfigurationName",
+    "Publish as a single file (~60-80 MB self-contained) and place in a permanent location like C:\\Tools\\BcMCPProxy\\",
+    "Authenticate via Azure AD on first Claude Desktop launch to enable BC MCP tools access"
+  ],
+  "systems": [
+    "integration",
+    "copilot",
+    "administration"
+  ],
+  "topics": [
+    "mcp server",
+    "claude desktop",
+    "azure app registration",
+    "delegated permissions",
+    "proxy",
+    "visual studio",
+    "deployment"
+  ],
+  "objects": [],
+  "features": [
+    "BcMCPProxy.exe",
+    "MCP Server",
+    "Azure App Registration",
+    "Claude Desktop integration",
+    "Delegated authentication",
+    "Self-contained publishing",
+    "BC MCP configuration"
+  ],
+  "versions": [
+    ".NET 8",
+    "Visual Studio 2022"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "The BcMCPProxy uses delegated permissions - it authenticates as the signed-in user via Azure AD.",
+      "why_it_matters": "Clarifies the authentication model: the proxy acts as the user, not as a separate service principal, enabling proper user-level access to Business Central."
+    },
+    {
+      "text": "On first launch, an Azure sign-in prompt will appear. Authenticate with a user from the same tenant.",
+      "why_it_matters": "Documents the expected user interaction flow and confirms that Claude Desktop will prompt for Azure credentials before tools become available."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

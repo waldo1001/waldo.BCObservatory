@@ -1,0 +1,52 @@
+{
+  "item_id": "blog/demiliani-com/13369",
+  "url": "https://demiliani.com/2026/02/06/dynamics-365-business-central-monitoring-your-customers-network-speed-from-telemetry/",
+  "title": "Dynamics 365 Business Central: monitoring your customer’s network speed from telemetry.",
+  "source": "demiliani-com",
+  "published_at": "2026-02-06T09:00:10.000Z",
+  "words": 428,
+  "summary": "Business Central now includes hardware and network telemetry parameters in page views, such as network bandwidth (downlink) and round-trip time. These metrics help diagnose whether slow page performance is caused by client infrastructure issues rather than application code, and can be analyzed using KQL queries to correlate network conditions with page duration.",
+  "key_points": [
+    "New deviceHardware telemetry node contains CPU cores, memory, network downlink speed (Mb/s), and round-trip time (ms) for client connections",
+    "Network bandwidth data helps distinguish between infrastructure-related slowness and code performance issues",
+    "KQL queries can correlate bandwidth trends with page view duration over time to identify performance anomalies",
+    "High bandwidth should correlate with shorter page duration; if not, the page code may need optimization"
+  ],
+  "systems": [
+    "platform",
+    "reporting",
+    "administration"
+  ],
+  "topics": [
+    "telemetry",
+    "network performance",
+    "monitoring",
+    "kql",
+    "diagnostics",
+    "page views",
+    "client hardware",
+    "infrastructure"
+  ],
+  "objects": [],
+  "features": [
+    "deviceHardware telemetry",
+    "network bandwidth monitoring",
+    "round-trip time tracking",
+    "client hardware metrics",
+    "page views telemetry",
+    "KQL analysis",
+    "performance correlation",
+    "downlink speed measurement"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}
