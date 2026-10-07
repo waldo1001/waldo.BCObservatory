@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcapps-prs/12260",
+  "number": 12260,
+  "title": "[Shopify] Fix shop card transaction navigation",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "The Shopify Shop Card payment transaction navigation now opens the correct transaction list and filters by the Shop field instead of the obsolete Shop Code FlowField.",
+  "key_points": [
+    "Payment Transactions action now opens the Shopify order transaction list instead of the balance-transaction page",
+    "Filtering changed from the obsolete Shop Code FlowField to the Shop field",
+    "Test coverage updated to create order transactions and verify the Shop filter"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003361,
+    "changes_in_call": 1
+  }
+}

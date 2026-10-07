@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcapps-prs/9347",
+  "number": 9347,
+  "title": "Fix IssueDate in E-Documents for Germany",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [],
+  "summary": "Fixed the IssueDate field in German E-Document exports (XRechnung and ZUGFeRD formats) to ensure correct date handling.",
+  "key_points": [
+    "Corrected IssueDate handling in XRechnung export codeunit",
+    "Corrected IssueDate handling in ZUGFeRD export codeunit",
+    "Added test cases to verify the IssueDate fix",
+    "Changes apply to German E-Document localization"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "localization",
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003343,
+    "changes_in_call": 1
+  }
+}

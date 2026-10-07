@@ -6,10 +6,35 @@
   "title": "[Master]-Page cannot open because of FlowField 'Last Run By User'",
   "url": "https://github.com/microsoft/BCApps/pull/12304",
   "published_at": "2026-10-06T11:08:51Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:55:56.901Z",
+      "change_class": "code",
+      "files": 7,
+      "al": 4,
+      "objects": 4,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T12:56:03.730Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004645
+    },
+    "linked": {
+      "at": "2026-10-07T12:56:03.867Z",
+      "objects": 4,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T12:56:03.874Z",
+      "path": "content/changes/bcapps/12304.md"
     }
   },
   "input_hash": "e867446471abd992aafda964ae745c764dd2f9cb:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "master page cannot open because of flowfield last run by user"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "40637dd80a6e33a0529d6903747425ca386fcb70841141ba3cdbdc8c7c963daa"
 }

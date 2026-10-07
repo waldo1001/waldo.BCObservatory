@@ -6,10 +6,35 @@
   "title": "[main] Report 11564, Foreign Currency Layout: foreign currency opening balance is not included",
   "url": "https://github.com/microsoft/BCApps/pull/11848",
   "published_at": "2026-10-06T10:51:07Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:55:58.288Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T12:56:03.228Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.00343
+    },
+    "linked": {
+      "at": "2026-10-07T12:56:03.312Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T12:56:03.316Z",
+      "path": "content/changes/bcapps/11848.md"
     }
   },
   "input_hash": "1949ceea0e06de36ed7697e56c5144ad516e58f1:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "report 11564 foreign currency layout foreign currency opening balance is not included"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "26b42ace6c55c9e5ab083035e5986730a4c499acc63c7e0f54c91dfff589c3ab"
 }

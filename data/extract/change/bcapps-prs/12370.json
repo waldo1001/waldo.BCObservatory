@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/12370",
+  "number": 12370,
+  "title": "Guard removed Manufacturing Setup fields with CLEANSCHEMA30 preprocessor",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "manufacturing"
+  ],
+  "summary": "Manufacturing Setup fields marked as removed in version 30.0 are wrapped with preprocessor guards to comply with ObsoleteTag rules and match existing conventions in the file.",
+  "key_points": [
+    "Fields 35-38 and 40-43 in ManufacturingSetup table receive CLEANSCHEMA30 preprocessor guards",
+    "Addresses regression from PR #12066 that removed CLEAN27 scaffolding without updating guards",
+    "Resolves 16 ObsoleteTag preprocessor rule violations in W1 and IT layers",
+    "Uses grouped-wrap style consistent with existing patterns in the same file",
+    "Minimal fix paired with follow-up PR #12379 to enable CI checks"
+  ],
+  "change_kind": "fix",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing",
+    "development"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003753,
+    "changes_in_call": 1
+  }
+}

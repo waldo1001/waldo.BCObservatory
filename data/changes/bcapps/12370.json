@@ -1,0 +1,81 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12370,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12370",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-06T12:47:25Z",
+  "merge_commit_sha": "9d32f3424360ac5e001593ac0ce811adf753dea5",
+  "author": "mazhelez",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "Guard removed Manufacturing Setup fields with CLEANSCHEMA30 preprocessor",
+  "body_hash": "5279bd172ad5572d59f4d53dea6334ef3819ec26c5fceffd14c651e9993e5ee5",
+  "fixes_issues": [],
+  "work_items": [
+    647784
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/IT/BaseApp/Manufacturing/Setup/ManufacturingSetup.Table.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Setup/ManufacturingSetup.Table.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 8,
+    "deletions": 0,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/IT/BaseApp/Manufacturing/Setup/ManufacturingSetup.Table.al",
+        "status": "modified",
+        "key": "table/99000765",
+        "type": "table",
+        "id": 99000765,
+        "name": "Manufacturing Setup",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "table/99000765"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Setup/ManufacturingSetup.Table.al",
+        "status": "modified",
+        "key": "table/99000765",
+        "type": "table",
+        "id": 99000765,
+        "name": "Manufacturing Setup",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/99000765"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "manufacturing"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

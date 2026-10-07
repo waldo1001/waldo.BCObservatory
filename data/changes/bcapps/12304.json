@@ -1,0 +1,138 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12304,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12304",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-06T11:08:51Z",
+  "merge_commit_sha": "e867446471abd992aafda964ae745c764dd2f9cb",
+  "author": "neeleshsinghal",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[Master]-Page cannot open because of FlowField 'Last Run By User'",
+  "body_hash": "f7afe85e9b864ffd8e4827096e0675c6457df11fd09fc93dbd165d904904d776",
+  "fixes_issues": [],
+  "work_items": [
+    649982
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/CZ/Tests/ERM-Finance/ERMAccountScheduleII.Codeunit.al",
+      "status": "modified",
+      "additions": 50,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/NA/Tests/ERM-Finance/ERMAccountScheduleII.Codeunit.al",
+      "status": "modified",
+      "additions": 50,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/FinancialReports/AccScheduleOverview.Page.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/FinancialReports/FinancialReport.Table.al",
+      "status": "modified",
+      "additions": 22,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/FinancialReports/FinancialReportAuditLog.Table.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/FinancialReports/FinancialReports.Page.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/ERM-Finance/ERMAccountScheduleII.Codeunit.al",
+      "status": "modified",
+      "additions": 50,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 7,
+    "additions": 185,
+    "deletions": 10,
+    "al": 4
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/FinancialReports/AccScheduleOverview.Page.al",
+        "status": "modified",
+        "key": "page/490",
+        "type": "page",
+        "id": 490,
+        "name": "Acc. Schedule Overview",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/490"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/FinancialReports/FinancialReport.Table.al",
+        "status": "modified",
+        "key": "table/88",
+        "type": "table",
+        "id": 88,
+        "name": "Financial Report",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/88"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/FinancialReports/FinancialReportAuditLog.Table.al",
+        "status": "modified",
+        "key": "table/8390",
+        "type": "table",
+        "id": 8390,
+        "name": "Financial Report Audit Log",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/8390"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/FinancialReports/FinancialReports.Page.al",
+        "status": "modified",
+        "key": "page/108",
+        "type": "page",
+        "id": 108,
+        "name": "Financial Reports",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/108"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

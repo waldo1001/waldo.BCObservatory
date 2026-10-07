@@ -6,7 +6,7 @@
   "title": "Fix IssueDate in E-Documents for Germany",
   "url": "https://github.com/microsoft/BCApps/pull/9347",
   "published_at": "2026-10-06T14:50:55Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -18,6 +18,23 @@
       "al": 2,
       "objects": 0,
       "unjoined": 2
+    },
+    "extracted": {
+      "at": "2026-10-07T12:55:55.193Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003343
+    },
+    "linked": {
+      "at": "2026-10-07T12:55:55.379Z",
+      "objects": 0,
+      "unjoined": 2,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T12:55:55.387Z",
+      "path": "content/changes/bcapps/9347.md"
     }
   },
   "input_hash": "12c23610f39f91c03be67e21a15354d15ebc05ab:c1",
@@ -41,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "4ca15a9b2f29770990322cc3340bf203857ec252609da583635576c3bdb9cd8a"
+  "output_hash": "5f498b470c3c974d2ddfde7fee25acdd21b3428c8aecbbebefb9e5cbcdeecb7c"
 }

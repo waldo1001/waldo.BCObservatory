@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/11848",
+  "number": 11848,
+  "title": "[main] Report 11564, Foreign Currency Layout: foreign currency opening balance is not included",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Report 11564 now correctly includes foreign currency opening balances for G/L accounts with multiple registered source currencies, fixing previously understated running FCY balances.",
+  "key_points": [
+    "Opening balance for accounts with multiple registered source currencies was incorrectly set to 0 instead of summing balances across all currencies",
+    "New helper method CalcSourceCurrencyOpeningBalance() calculates opening balance by summing across all registered currencies when source currency code is blank",
+    "Single-currency account behavior remains unchanged",
+    "Test coverage added for accounts with multiple registered source currencies"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": "Opening balance was looked up via the account's single Source Currency Code field, which is blank for Multiple Currencies accounts",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00343,
+    "changes_in_call": 1
+  }
+}

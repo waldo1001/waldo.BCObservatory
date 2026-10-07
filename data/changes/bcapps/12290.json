@@ -1,0 +1,1347 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12290,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12290",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-06T09:23:06Z",
+  "merge_commit_sha": "bbd24bdec164c401436194e49376050764d05afd",
+  "author": "Alexander-Ya",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "Remove CLEAN27 from Service Management",
+  "body_hash": "8e0b6d40b196a19cd87911e8defee3c54f612b21ee7f15dd8d1244ff4041a469",
+  "fixes_issues": [],
+  "work_items": [
+    647784
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/APAC/BaseApp/Local/FinancialMgt/WithholdingTax/SalesTaxInvoice.Report.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Service/Local/History/ServiceInvoiceBE.Report.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/Tests/Local/PaymentDiscount.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 84,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/CA/Tests/Local/ERMSalesPurchaseDocument.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 90,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/CA/Tests/Local/ERMSalesPurchaseTax.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 76,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/CA/Tests/Local/ERMSalesPurchaseTaxII.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 78,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Service/Local/Bank/Payment/ServiceInvoiceESR.Report.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Local/Service/History/PostedServInvoiceUpdate.Page.al",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 222,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Local/Service/History/ServiceInvoiceHeaderEdit.Codeunit.al",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 83,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Service/Document/ServiceCreditMemo.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 52,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Service/Local/Document/ServiceCreditMemoES.PageExt.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Service/Local/Finance/ReceivablesPayables/ServInvoiceSplitPayment.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 9,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Service/Local/Finance/VAT/Ledger/ServNoTaxableMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Service/Local/History/ServiceInvoiceES.Report.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Service/Local/Posting/ServicePostingSubscrES.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Service/Posting/ServDocumentsMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 45,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Service/Posting/ServPostingJournalsMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 38,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/Tests/ApplicationTestLibrary/LibraryCashFlowHelper.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 28,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/ES/Tests/Local/ERMPaymentDiscount.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 98,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/ES/Tests/Local/ERMPaymentTerms.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 4,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/ES/Tests/Local/ERMServiceInvoiceES.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 51,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/ES/Tests/Local/ERMServiceVATECCalculate.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 101,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/ES/Tests/SCM-Service/ServiceStatistics.Codeunit.al",
+      "status": "modified",
+      "additions": 859,
+      "deletions": 2931,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Service/Local/History/ServiceInvoiceFI.Report.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/Local/Sales/History/SalesInvoiceGB.Report.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Service/History/ServiceInvoice.Report.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Service/History/ServiceShipmentHeader.Table.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 19,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Service/Local/History/PostedServInvoiceUpdate.Page.al",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 102,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Service/Local/History/PostedServiceShptUpdate.Page.al",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 146,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Service/Local/History/ServShipmentHeaderEdit.Codeunit.al",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 41,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Service/Local/History/ServiceInvoiceHeaderEdit.Codeunit.al",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 35,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Service/Document/ServiceLine.Table.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 14,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Service/History/ServiceInvoice.Report.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Service/Local/Document/ServiceCreditMemoNA.PageExt.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 8,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Service/Local/Document/ServiceCreditMemosNA.PageExt.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 8,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Service/Local/Document/ServiceInvoiceNA.PageExt.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 14,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Service/Local/Document/ServiceInvoicesNA.PageExt.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 14,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Service/Local/Document/ServiceOrderNA.PageExt.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 14,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Service/Local/Document/ServiceOrdersNA.PageExt.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 14,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Service/Local/Document/ServiceQuoteNA.PageExt.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 8,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Service/Local/Document/ServiceQuotesNA.PageExt.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 9,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Service/Local/EServices/EDocument/ElecServiceInvoiceMX.Report.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Service/Local/Finance/SalesTax/ServSalesTaxCalculate.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Service/Local/History/PostedServiceCreditMemoNA.PageExt.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Service/Local/History/PostedServiceCreditMemosNA.PageExt.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Service/Local/History/PostedServiceInvoiceNA.PageExt.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Service/Local/History/PostedServiceInvoicesNA.PageExt.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Service/Local/History/ServiceInvoiceSalesTax.Report.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Service/Local/ServEventSubscribersNA.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 33,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/Tests/Local/UTPAGSalesTax.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 158,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/NA/Tests/Local/UTPAGSalesTaxStatistics.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 162,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/NA/Tests/Local/UTPAGSalesTaxStatisticsII.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 330,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Service/Local/History/ServiceInvoiceNO.Report.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/US/Tests/Local/ERMSalesPurchaseTax.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 76,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/US/Tests/Local/ERMSalesPurchaseTaxII.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 78,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Service/Document/ServiceCreditMemo.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 31,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Service/Document/ServiceCreditMemos.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 31,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Service/Document/ServiceHeader.Table.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 112,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Service/Document/ServiceInvoice.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 31,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Service/Document/ServiceInvoices.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 31,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Service/Document/ServiceItemLine.Table.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 8,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Service/Document/ServiceLine.Table.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 14,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Service/Document/ServiceLineReserve.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 7,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Service/Document/ServiceOrder.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 31,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Service/Document/ServiceOrderStatistics.Page.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 14,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Service/Document/ServiceOrders.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 31,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Service/Document/ServiceQuote.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 31,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Service/Document/ServiceQuotes.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 31,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Service/Document/ServiceStatistics.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 7,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Service/History/PostedServiceCreditMemo.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 31,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Service/History/PostedServiceCreditMemos.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 31,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Service/History/PostedServiceInvoice.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 31,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Service/History/PostedServiceInvoices.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 31,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Service/History/PostedServiceShipment.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 31,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Service/History/PostedServiceShipments.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 31,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Service/History/ServiceCrMemoHeader.Table.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 19,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Service/History/ServiceInvoice.Report.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Service/History/ServiceInvoiceHeader.Table.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 19,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Service/History/ServiceShipmentHeader.Table.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 19,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Service/Inventory/Planning/ServPlanningAvailability.Codeunit.al",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 46,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Service/Inventory/Tracking/ServGetDemandToReserve.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 8,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Service/Posting/ServicePostInvoiceEvents.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 10,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Service/Pricing/ServPriceListLine.TableExt.al",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 22,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Service/Sales/Receivables/ServApplyCustomerEntries.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 14,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/ERM/ERMInvoiceDiscountAndVAT.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 44,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM-Service/ServicePostingDimensions.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 50,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM-Service/ServiceStatistics.Codeunit.al",
+      "status": "modified",
+      "additions": 860,
+      "deletions": 2910,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM/SCMInventoryBatchJobs.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 534,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 88,
+    "additions": 1732,
+    "deletions": 9652,
+    "al": 69
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/APAC/BaseApp/Local/FinancialMgt/WithholdingTax/SalesTaxInvoice.Report.al",
+        "status": "modified",
+        "key": "report/28072",
+        "type": "report",
+        "id": 28072,
+        "name": "Sales - Tax Invoice",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "report/28072-au"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Service/Local/History/ServiceInvoiceBE.Report.al",
+        "status": "modified",
+        "key": "report/11321",
+        "type": "report",
+        "id": 11321,
+        "name": "Service - Invoice (BE)",
+        "app": "Base Application",
+        "cc": "be",
+        "page": "report/11321-be"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Service/Local/Bank/Payment/ServiceInvoiceESR.Report.al",
+        "status": "modified",
+        "key": "report/3010534",
+        "type": "report",
+        "id": 3010534,
+        "name": "Service - Invoice ESR",
+        "app": "Base Application",
+        "cc": "ch",
+        "page": "report/3010534-ch"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Service/Local/Document/ServiceCreditMemoES.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/10735",
+        "type": "pageextension",
+        "id": 10735,
+        "name": "Service Credit Memo ES",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "pageextension/10735-es"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Service/Local/Finance/ReceivablesPayables/ServInvoiceSplitPayment.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/7000035",
+        "type": "codeunit",
+        "id": 7000035,
+        "name": "Serv. Invoice-Split Payment",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "codeunit/7000035-es"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Service/Local/Finance/VAT/Ledger/ServNoTaxableMgt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/10741",
+        "type": "codeunit",
+        "id": 10741,
+        "name": "Serv. No Taxable Mgt.",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "codeunit/10741-es"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Service/Local/History/ServiceInvoiceES.Report.al",
+        "status": "modified",
+        "key": "report/10792",
+        "type": "report",
+        "id": 10792,
+        "name": "Service Invoice (ES)",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "report/10792-es"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Service/Local/Posting/ServicePostingSubscrES.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/10789",
+        "type": "codeunit",
+        "id": 10789,
+        "name": "Service Posting Subscr. ES",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "codeunit/10789-es"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Service/Local/History/ServiceInvoiceFI.Report.al",
+        "status": "modified",
+        "key": "report/13411",
+        "type": "report",
+        "id": 13411,
+        "name": "Service - Invoice (FI)",
+        "app": "Base Application",
+        "cc": "fi",
+        "page": "report/13411-fi"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/Local/Sales/History/SalesInvoiceGB.Report.al",
+        "status": "modified",
+        "key": "report/10572",
+        "type": "report",
+        "id": 10572,
+        "name": "Sales - Invoice GB",
+        "app": "Base Application",
+        "cc": "gb",
+        "page": "report/10572-gb"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Service/History/ServiceInvoice.Report.al",
+        "status": "modified",
+        "key": "report/5911",
+        "type": "report",
+        "id": 5911,
+        "name": "Service - Invoice",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "report/5911"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Service/Document/ServiceLine.Table.al",
+        "status": "modified",
+        "key": "table/5902",
+        "type": "table",
+        "id": 5902,
+        "name": "Service Line",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "table/5902"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Service/Local/Document/ServiceCreditMemoNA.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/10020",
+        "type": "pageextension",
+        "id": 10020,
+        "name": "Service Credit Memo NA",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "pageextension/10020-ca"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Service/Local/Document/ServiceCreditMemosNA.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/10021",
+        "type": "pageextension",
+        "id": 10021,
+        "name": "Service Credit Memos NA",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "pageextension/10021-ca"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Service/Local/Document/ServiceInvoiceNA.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/10022",
+        "type": "pageextension",
+        "id": 10022,
+        "name": "Service Invoice NA",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "pageextension/10022-ca"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Service/Local/Document/ServiceInvoicesNA.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/10023",
+        "type": "pageextension",
+        "id": 10023,
+        "name": "Service Invoices NA",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "pageextension/10023-ca"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Service/Local/Document/ServiceOrderNA.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/10024",
+        "type": "pageextension",
+        "id": 10024,
+        "name": "Service Order NA",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "pageextension/10024-ca"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Service/Local/Document/ServiceOrdersNA.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/10025",
+        "type": "pageextension",
+        "id": 10025,
+        "name": "Service Orders NA",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "pageextension/10025-ca"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Service/Local/Document/ServiceQuoteNA.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/10026",
+        "type": "pageextension",
+        "id": 10026,
+        "name": "Service Quote NA",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "pageextension/10026-ca"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Service/Local/Document/ServiceQuotesNA.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/10027",
+        "type": "pageextension",
+        "id": 10027,
+        "name": "Service Quotes NA",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "pageextension/10027-ca"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Service/Local/EServices/EDocument/ElecServiceInvoiceMX.Report.al",
+        "status": "modified",
+        "key": "report/10479",
+        "type": "report",
+        "id": 10479,
+        "name": "Elec. Service Invoice MX",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "report/10479-ca"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Service/Local/Finance/SalesTax/ServSalesTaxCalculate.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5968",
+        "type": "codeunit",
+        "id": 5968,
+        "name": "Serv. Sales Tax Calculate",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "codeunit/5968-ca"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Service/Local/History/PostedServiceCreditMemoNA.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/10012",
+        "type": "pageextension",
+        "id": 10012,
+        "name": "Posted Service Credit Memo NA",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "pageextension/10012-ca"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Service/Local/History/PostedServiceCreditMemosNA.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/10013",
+        "type": "pageextension",
+        "id": 10013,
+        "name": "Posted Service Credit Memos NA",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "pageextension/10013-ca"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Service/Local/History/PostedServiceInvoiceNA.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/10014",
+        "type": "pageextension",
+        "id": 10014,
+        "name": "Posted Service Invoice NA",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "pageextension/10014-ca"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Service/Local/History/PostedServiceInvoicesNA.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/10015",
+        "type": "pageextension",
+        "id": 10015,
+        "name": "Posted Service Invoices NA",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "pageextension/10015-ca"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Service/Local/History/ServiceInvoiceSalesTax.Report.al",
+        "status": "modified",
+        "key": "report/10474",
+        "type": "report",
+        "id": 10474,
+        "name": "Service Invoice-Sales Tax",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "report/10474-ca"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Service/Local/ServEventSubscribersNA.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/10059",
+        "type": "codeunit",
+        "id": 10059,
+        "name": "Serv. Event Subscribers NA",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "codeunit/10059-ca"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Service/Local/History/ServiceInvoiceNO.Report.al",
+        "status": "modified",
+        "key": "report/10631",
+        "type": "report",
+        "id": 10631,
+        "name": "Service - Invoice (NO)",
+        "app": "Base Application",
+        "cc": "no",
+        "page": "report/10631-no"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Service/Document/ServiceCreditMemo.Page.al",
+        "status": "modified",
+        "key": "page/5935",
+        "type": "page",
+        "id": 5935,
+        "name": "Service Credit Memo",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/5935"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Service/Document/ServiceCreditMemos.Page.al",
+        "status": "modified",
+        "key": "page/9320",
+        "type": "page",
+        "id": 9320,
+        "name": "Service Credit Memos",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/9320"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Service/Document/ServiceHeader.Table.al",
+        "status": "modified",
+        "key": "table/5900",
+        "type": "table",
+        "id": 5900,
+        "name": "Service Header",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/5900"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Service/Document/ServiceInvoice.Page.al",
+        "status": "modified",
+        "key": "page/5933",
+        "type": "page",
+        "id": 5933,
+        "name": "Service Invoice",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/5933"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Service/Document/ServiceInvoices.Page.al",
+        "status": "modified",
+        "key": "page/9319",
+        "type": "page",
+        "id": 9319,
+        "name": "Service Invoices",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/9319"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Service/Document/ServiceItemLine.Table.al",
+        "status": "modified",
+        "key": "table/5901",
+        "type": "table",
+        "id": 5901,
+        "name": "Service Item Line",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/5901"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Service/Document/ServiceLine.Table.al",
+        "status": "modified",
+        "key": "table/5902",
+        "type": "table",
+        "id": 5902,
+        "name": "Service Line",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/5902"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Service/Document/ServiceLineReserve.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/99000842",
+        "type": "codeunit",
+        "id": 99000842,
+        "name": "Service Line-Reserve",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/99000842"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Service/Document/ServiceOrder.Page.al",
+        "status": "modified",
+        "key": "page/5900",
+        "type": "page",
+        "id": 5900,
+        "name": "Service Order",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/5900"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Service/Document/ServiceOrderStatistics.Page.al",
+        "status": "modified",
+        "key": "page/5914",
+        "type": "page",
+        "id": 5914,
+        "name": "Service Order Statistics",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/5914"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Service/Document/ServiceOrders.Page.al",
+        "status": "modified",
+        "key": "page/9318",
+        "type": "page",
+        "id": 9318,
+        "name": "Service Orders",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/9318"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Service/Document/ServiceQuote.Page.al",
+        "status": "modified",
+        "key": "page/5964",
+        "type": "page",
+        "id": 5964,
+        "name": "Service Quote",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/5964"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Service/Document/ServiceQuotes.Page.al",
+        "status": "modified",
+        "key": "page/9317",
+        "type": "page",
+        "id": 9317,
+        "name": "Service Quotes",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/9317"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Service/Document/ServiceStatistics.Page.al",
+        "status": "modified",
+        "key": "page/6030",
+        "type": "page",
+        "id": 6030,
+        "name": "Service Statistics",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/6030"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Service/History/PostedServiceCreditMemo.Page.al",
+        "status": "modified",
+        "key": "page/5972",
+        "type": "page",
+        "id": 5972,
+        "name": "Posted Service Credit Memo",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/5972"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Service/History/PostedServiceCreditMemos.Page.al",
+        "status": "modified",
+        "key": "page/5971",
+        "type": "page",
+        "id": 5971,
+        "name": "Posted Service Credit Memos",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/5971"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Service/History/PostedServiceInvoice.Page.al",
+        "status": "modified",
+        "key": "page/5978",
+        "type": "page",
+        "id": 5978,
+        "name": "Posted Service Invoice",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/5978"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Service/History/PostedServiceInvoices.Page.al",
+        "status": "modified",
+        "key": "page/5977",
+        "type": "page",
+        "id": 5977,
+        "name": "Posted Service Invoices",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/5977"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Service/History/PostedServiceShipment.Page.al",
+        "status": "modified",
+        "key": "page/5975",
+        "type": "page",
+        "id": 5975,
+        "name": "Posted Service Shipment",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/5975"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Service/History/PostedServiceShipments.Page.al",
+        "status": "modified",
+        "key": "page/5974",
+        "type": "page",
+        "id": 5974,
+        "name": "Posted Service Shipments",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/5974"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Service/History/ServiceCrMemoHeader.Table.al",
+        "status": "modified",
+        "key": "table/5994",
+        "type": "table",
+        "id": 5994,
+        "name": "Service Cr.Memo Header",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/5994"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Service/History/ServiceInvoice.Report.al",
+        "status": "modified",
+        "key": "report/5911",
+        "type": "report",
+        "id": 5911,
+        "name": "Service - Invoice",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/5911"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Service/History/ServiceInvoiceHeader.Table.al",
+        "status": "modified",
+        "key": "table/5992",
+        "type": "table",
+        "id": 5992,
+        "name": "Service Invoice Header",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/5992"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Service/History/ServiceShipmentHeader.Table.al",
+        "status": "modified",
+        "key": "table/5990",
+        "type": "table",
+        "id": 5990,
+        "name": "Service Shipment Header",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/5990"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Service/Inventory/Tracking/ServGetDemandToReserve.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6485",
+        "type": "codeunit",
+        "id": 6485,
+        "name": "Serv. Get Demand To Reserve",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/6485"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Service/Posting/ServicePostInvoiceEvents.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/827",
+        "type": "codeunit",
+        "id": 827,
+        "name": "Service Post Invoice Events",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/827"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Service/Sales/Receivables/ServApplyCustomerEntries.Page.al",
+        "status": "modified",
+        "key": "page/5939",
+        "type": "page",
+        "id": 5939,
+        "name": "Serv. Apply Customer Entries",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/5939"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Layers/ES/BaseApp/Local/Service/History/PostedServInvoiceUpdate.Page.al",
+        "status": "removed",
+        "reason": "removed"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Local/Service/History/ServiceInvoiceHeaderEdit.Codeunit.al",
+        "status": "removed",
+        "reason": "removed"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Service/Document/ServiceCreditMemo.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Service/Posting/ServDocumentsMgt.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Service/Posting/ServPostingJournalsMgt.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Service/History/ServiceShipmentHeader.Table.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Service/Local/History/PostedServInvoiceUpdate.Page.al",
+        "status": "removed",
+        "reason": "removed"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Service/Local/History/PostedServiceShptUpdate.Page.al",
+        "status": "removed",
+        "reason": "removed"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Service/Local/History/ServShipmentHeaderEdit.Codeunit.al",
+        "status": "removed",
+        "reason": "removed"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Service/Local/History/ServiceInvoiceHeaderEdit.Codeunit.al",
+        "status": "removed",
+        "reason": "removed"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Service/History/ServiceInvoice.Report.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Service/Inventory/Planning/ServPlanningAvailability.Codeunit.al",
+        "status": "removed",
+        "reason": "removed"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Service/Pricing/ServPriceListLine.TableExt.al",
+        "status": "removed",
+        "reason": "removed"
+      }
+    ]
+  },
+  "systems": [
+    "service",
+    "finance",
+    "sales",
+    "integration",
+    "inventory"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

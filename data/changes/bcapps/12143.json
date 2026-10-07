@@ -1,0 +1,60 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12143,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12143",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-06T07:33:12Z",
+  "merge_commit_sha": "3df81bcd9eff84993c51c80b4c20350665ee1f52",
+  "author": "ChethanT",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "Bug 649440: [Subcontracting] [IT] Disable Legacy Subcontracting leaves Component Supply Method empty after conversion",
+  "body_hash": "dc17b743ec4af9a99e0c58ba06789ec372dfdde0cf09daba8e219558076e0881",
+  "fixes_issues": [],
+  "work_items": [
+    649440
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/IT/SubcontractingMigrationIT/App/src/ITSubcMigration.Codeunit.al",
+      "status": "modified",
+      "additions": 410,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/IT/SubcontractingMigrationIT/Test/src/ITSubcMigrationTests.Codeunit.al",
+      "status": "modified",
+      "additions": 872,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 1282,
+    "deletions": 0,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "src/Apps/IT/SubcontractingMigrationIT/App/src/ITSubcMigration.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

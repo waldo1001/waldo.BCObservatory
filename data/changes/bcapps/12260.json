@@ -1,0 +1,71 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12260,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12260",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-06T11:08:51Z",
+  "merge_commit_sha": "5ac6603b7b823f75bbdaef096ade6912585e42c9",
+  "author": "onbuyuka",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "[Shopify] Fix shop card transaction navigation",
+  "body_hash": "fc5d0f9ebc35835ae4c8eea3ced6289e4d4f1644d79dc118443694d2f3856a28",
+  "fixes_issues": [],
+  "work_items": [
+    649977
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Shopify/App/src/Base/Pages/ShpfyShopCard.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Shopify/Test/Payments/ShpfyPaymentsTest.Codeunit.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 12,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 14,
+    "deletions": 14,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Shopify/App/src/Base/Pages/ShpfyShopCard.Page.al",
+        "status": "modified",
+        "key": "page/30101",
+        "type": "page",
+        "id": 30101,
+        "name": "Shpfy Shop Card",
+        "app": "Shopify",
+        "cc": "w1",
+        "page": "page/30101"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "integration"
+  ],
+  "apps": [
+    "Shopify"
+  ]
+}

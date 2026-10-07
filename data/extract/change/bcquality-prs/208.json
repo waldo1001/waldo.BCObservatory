@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcquality-prs/208",
+  "number": 208,
+  "title": "2 AL/BC patterns: TableRelation field length and RecordRef.Open Temp parameter",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "Two new knowledge articles identify silent runtime mismatches in table relations and record reference calls that compile without diagnostic warnings. The articles explain the exact rules for field length matching and the pitfalls of using RecordRef.Open with the temporary parameter flag.",
+  "key_points": [
+    "Table relation fields shorter than their target compile cleanly but fail at runtime when longer values are assigned",
+    "Mixed Code/Text targets require Text type and minimum length rules vary by relation type",
+    "RecordRef.Open with Temp=true creates empty instances that bypass existence and uniqueness checks",
+    "Legitimate temporary uses include validation sandboxes and filter parsing",
+    "Knowledge base extended with guidance to help developers avoid these common mistakes"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00456,
+    "changes_in_call": 1
+  }
+}

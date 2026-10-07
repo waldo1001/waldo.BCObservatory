@@ -1,0 +1,70 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11848,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11848",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-06T10:51:07Z",
+  "merge_commit_sha": "1949ceea0e06de36ed7697e56c5144ad516e58f1",
+  "author": "Shikhverma",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[main] Report 11564, Foreign Currency Layout: foreign currency opening balance is not included",
+  "body_hash": "579196e5e93ade2fcd1794b80f0fbad6d46f8f15eaced4abafb877ab643b1610",
+  "fixes_issues": [],
+  "work_items": [
+    651296
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/CH/BaseApp/Local/Finance/FinancialReports/SRGLAccSheetForeignCurr.Report.al",
+      "status": "modified",
+      "additions": 23,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/Tests/Local/TestGLAccSheetReports.Codeunit.al",
+      "status": "modified",
+      "additions": 208,
+      "deletions": 2,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 231,
+    "deletions": 7,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/CH/BaseApp/Local/Finance/FinancialReports/SRGLAccSheetForeignCurr.Report.al",
+        "status": "modified",
+        "key": "report/11564",
+        "type": "report",
+        "id": 11564,
+        "name": "SR G/L Acc Sheet Foreign Curr",
+        "app": "Base Application",
+        "cc": "ch",
+        "page": "report/11564-ch"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

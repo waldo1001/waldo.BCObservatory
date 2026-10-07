@@ -6,7 +6,7 @@
   "title": "Guard removed Manufacturing Setup fields with CLEANSCHEMA30 preprocessor",
   "url": "https://github.com/microsoft/BCApps/pull/12370",
   "published_at": "2026-10-06T12:47:25Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -18,6 +18,23 @@
       "al": 2,
       "objects": 2,
       "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T12:55:56.912Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": false,
+      "cost_usd": 0.003753
+    },
+    "linked": {
+      "at": "2026-10-07T12:55:57.066Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T12:55:57.071Z",
+      "path": "content/changes/bcapps/12370.md"
     }
   },
   "input_hash": "9d32f3424360ac5e001593ac0ce811adf753dea5:c1",
@@ -39,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "77fb034a9b49b3d19ae8917e71055563c62c68fca4bd34e0b02572f3e4a74ffa"
+  "output_hash": "1c075413339dde6a563f77afff72f8f9efd9f63ca0dfef9a899ef276ec758052"
 }

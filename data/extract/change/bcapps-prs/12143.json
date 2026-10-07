@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcapps-prs/12143",
+  "number": 12143,
+  "title": "Bug 649440: [Subcontracting] [IT] Disable Legacy Subcontracting leaves Component Supply Method empty after conversion",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [],
+  "summary": "The Italian subcontracting legacy migration now correctly maps the vendor's procurement setting to the component supply method for both production BOM lines and existing production-order components during conversion.",
+  "key_points": [
+    "Maps legacy vendor procurement settings to component supply method via routing links and work centers",
+    "Handles both production BOM lines and existing production-order components",
+    "Preserves existing nonblank methods and skips already-migrated rows for efficiency",
+    "Evaluates routing versions, BOM/version date intervals, and handles family routings",
+    "Extends pre-migration locking to all newly read source tables"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing"
+  ],
+  "quote": "Component Supply Method remained blank on linked production BOM lines and existing production-order components.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00403,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/12139",
+  "number": 12139,
+  "title": "[Shopify] Disable Create Sales Documents for empty order views",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "The Create Sales Documents action on the Shopify Orders page is now disabled when the current filtered view contains no orders, preventing users from attempting to create documents with no data.",
+  "key_points": [
+    "Action state updates dynamically based on active record filters",
+    "Disabled when filtered view is empty, enabled when orders are present",
+    "Standard list lookup behavior is preserved",
+    "Test coverage added for filtered views with orders, no orders, and orders again",
+    "No breaking changes or new analyzer warnings"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": "Disable Create Sales Documents on the Shopify Orders page when the current filtered view contains no orders.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003333,
+    "changes_in_call": 1
+  }
+}

@@ -6,10 +6,35 @@
   "title": "Fix 409 conflict in APIV2 Company Info E2E description test",
   "url": "https://github.com/microsoft/BCApps/pull/12320",
   "published_at": "2026-10-06T12:11:15Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:55:52.511Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T12:55:57.972Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": false,
+      "cost_usd": 0.004327
+    },
+    "linked": {
+      "at": "2026-10-07T12:55:58.125Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T12:55:58.133Z",
+      "path": "content/changes/bcapps/12320.md"
     }
   },
   "input_hash": "29212ba86b17197aac8212e646562afc9d4bcb39:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": false,
     "title_key": "fix 409 conflict in apiv2 company info e2e description test"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "94831db3d582300ed2b05ec2a438e941b02e057cc54b5d477fdab67d25b68c22"
 }

@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcquality-prs/214",
+  "number": 214,
+  "title": "UI knowledge: notification recall needs a known Id; open mixed-type documents through Page Management",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "Two new UI design guidance articles added to help developers properly manage notifications by using known IDs for recall and handle multi-document routing through Page Management instead of hard-coded mappings.",
+  "key_points": [
+    "Notification recall requires a fixed GUID ID set before sending; without it, later recall calls fail to dismiss notifications.",
+    "Use codeunit 1511 Notification Lifecycle Management to track and recall notifications for specific records when multiple records are visible.",
+    "Avoid duplicating Page Management routing logic with hand-written case statements; use Page Management events for new tables instead.",
+    "Two good/bad code examples provided covering notification lifecycle and document routing patterns.",
+    "Guidance includes documented Learn references and specific Base App examples showing correct implementation."
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development",
+    "administration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004711,
+    "changes_in_call": 1
+  }
+}

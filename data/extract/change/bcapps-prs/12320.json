@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/12320",
+  "number": 12320,
+  "title": "Fix 409 conflict in APIV2 Company Info E2E description test",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "administration"
+  ],
+  "summary": "Fixed 409 conflict errors in APIV2 Company Info E2E tests by disabling test isolation to allow commits to take effect, and changed Environment Information reads to no longer write the singleton record.",
+  "key_points": [
+    "Disabled test isolation on APIV2 Company Info E2E test codeunit so Commit() succeeds and web-service calls can access records",
+    "Modified GetEnvironmentDescription to use direct Get() instead of GetEnvironmentInformationSafe, preventing unintended writes on read operations",
+    "Added test cleanup to restore original company and environment descriptions after E2E tests run",
+    "Environment Information singleton record is now created only on first write rather than first read",
+    "Resolves 409 'record in table being updated' conflicts that prevented both test methods from running"
+  ],
+  "change_kind": "fix",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": "The GET then fails with 409 (\"record in table 'Company Information' is being updated in a transaction done by another session\").",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004327,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12379,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12379",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-06T13:16:42Z",
+  "merge_commit_sha": "587459ec28081171af6c30e904f96a773379a65d",
+  "author": "mazhelez",
+  "author_type": "User",
+  "labels": [
+    "Build: Automation",
+    "Build: scripts & configs",
+    "Ownership: Needs Review",
+    "Team: Other"
+  ],
+  "community_contribution": false,
+  "title": "Add ObsoleteTag preprocessor gate action and Pester test",
+  "body_hash": "5b357f4e7c37b58873b305a76b2dafe919cfb5a9aa55dd200597e41e2405310b",
+  "fixes_issues": [],
+  "work_items": [
+    647784
+  ],
+  "change_class": "build",
+  "files": [],
+  "totals": {
+    "files": 4,
+    "additions": 211,
+    "deletions": 0,
+    "al": 0
+  },
+  "join": {
+    "major": "30",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}

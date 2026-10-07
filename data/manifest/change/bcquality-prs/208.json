@@ -6,10 +6,35 @@
   "title": "2 AL/BC patterns: TableRelation field length and RecordRef.Open Temp parameter",
   "url": "https://github.com/microsoft/BCQuality/pull/208",
   "published_at": "2026-10-06T11:30:38Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:55:53.719Z",
+      "change_class": "code",
+      "files": 9,
+      "al": 8,
+      "objects": 0,
+      "unjoined": 8
+    },
+    "extracted": {
+      "at": "2026-10-07T12:55:59.697Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.00456
+    },
+    "linked": {
+      "at": "2026-10-07T12:55:59.699Z",
+      "objects": 0,
+      "unjoined": 8,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-10-07T12:55:59.703Z",
+      "path": "content/changes/bcquality/208.md"
     }
   },
   "input_hash": "018e62767dd41bccfc94cbfa0a12ff25ec64792c:c1",
@@ -26,5 +51,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "2 al bc patterns tablerelation field length and recordref open temp parameter"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "24e6320181b32051e16627ebe0f3b18ae67a6583d3f5b5e59ad2d9cada9ce884"
 }

@@ -1,0 +1,90 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9347,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9347",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-06T14:50:55Z",
+  "merge_commit_sha": "12c23610f39f91c03be67e21a15354d15ebc05ab",
+  "author": "pri-kise",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "From Fork",
+    "Team: Finance"
+  ],
+  "community_contribution": true,
+  "title": "Fix IssueDate in E-Documents for Germany",
+  "body_hash": "fa609cd5fa726d515cf5d3b66fc16d9e22a9ae4e75f1e5631670302ed065e781",
+  "fixes_issues": [
+    8904
+  ],
+  "work_items": [
+    652938
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/src/XRechnung/ExportXRechnungDocument.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/src/ZUGFeRD/ExportZUGFeRDDocument.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/test/src/XRechnungXMLDocumentTests.Codeunit.al",
+      "status": "modified",
+      "additions": 95,
+      "deletions": 4,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/test/src/ZUGFeRDXMLDocumentTests.Codeunit.al",
+      "status": "modified",
+      "additions": 95,
+      "deletions": 4,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 4,
+    "additions": 194,
+    "deletions": 12,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "src/Apps/DE/EDocumentDE/app/src/XRechnung/ExportXRechnungDocument.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/DE/EDocumentDE/app/src/ZUGFeRD/ExportZUGFeRDDocument.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": [],
+  "issues": [
+    {
+      "number": 8904,
+      "title": "[Bug]: [DE] E-Documents for Germany wrong IssueDate",
+      "state": "closed"
+    }
+  ]
+}

@@ -6,10 +6,35 @@
   "title": "[Main]-Item charge assignment update Error on sales order when there is no Price.  \"Sorry, we just updated this page. Reopen it and try again.\" when running in SaaS",
   "url": "https://github.com/microsoft/BCApps/pull/12145",
   "published_at": "2026-10-06T05:11:41Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:56:01.813Z",
+      "change_class": "code",
+      "files": 4,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T12:56:07.629Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003406
+    },
+    "linked": {
+      "at": "2026-10-07T12:56:07.860Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T12:56:07.868Z",
+      "path": "content/changes/bcapps/12145.md"
     }
   },
   "input_hash": "e62e7dbd697150b0b36ceb728a5591c383ec4dab:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "item charge assignment update error on sales order when there is no price sorry we just updated this page reopen it and try again when running in saas"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f86cf64b45cc724e4a73e743d3528bcfcdee8a5da5df63af6e1a3a262119b58e"
 }
