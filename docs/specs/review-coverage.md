@@ -226,3 +226,60 @@ The D77 text of section 3, with the measured backlog cost.
   Start with phase 1 (`pipeline/lib/review.ts`, the schema enum and the ten renderer call sites; no LLM). Until it lands
   25,800 pages without any model text read "unreviewed - machine-generated", and videos, posts and changes are
   reviewed only when flagged (3 of 633 videos) or never.
+
+## 12a. Built, part A (phase 1, localization and digest narrative reviews)
+
+Built 2026-10-08 on `dev/next` (part B, the video, post and change passes, is a parallel lane). What landed and where
+it departs from sections 4 to 6:
+
+- **`reviewOf` and the call sites** (`pipeline/lib/review.ts`): as 4.1, plus `reviewWords(state)` for the state words a
+  page body prints next to its tier, so post, change and localization bodies follow the state instead of a hard-coded
+  "**unreviewed**". Post, change and video keep reading `item.review` unchanged: post and change render
+  `{ ...reviewOf(true, item.review), flags: item.flags ?? [] }`; video renders
+  `{ ...reviewOf(true, item.review ?? (flags.length ? { state: "flagged" } : null)), flags }`, so a first-pass flag
+  without a review still reads flagged, and a review on `item.review` (reviewed or flagged) wins. A pass that sets
+  `item.review = { state, by, at }` on the manifest item is all the page needs.
+- **Localization and digest pages withhold a rejected narrative**, as topic pages do (D21): state `flagged`, flag
+  `narrative-rejected`, the deterministic summary and body, and a line saying the narrative was withheld.
+- **Digests mark model text in `generated.prompts`** (`narrate-changes: 1`) when the week's narrative is shown; the
+  validator reads that, as it reads `hub-localization` on localization pages and `narrative` on topics.
+- **Older digest weeks**: the nightly re-renders only the current and the previous week ("older weeks stay"). Their
+  frontmatter review block is now synced in place (`syncDigestReview`, content untouched), so the first nightly after
+  phase 1 also turns W38 and W39 into `derived`. Without it they would read `unreviewed` forever.
+- **Validator** (`pipeline/validate/content.ts` `MODEL_TEXT`, `derivedErrors`): a `derived` page fails when its type
+  always holds model text (video, post, change), a topic has `narrative` other than `none`, `generated.prompts` names
+  any prompt, or `review.by`/`review.at` is set.
+- **Badge**: `.badge.derived` uses `--muted` for text and border (solid): dark 6.75:1 on the background, 6.52:1 on
+  surface, 5.87:1 on raised surface; light 5.80:1, 6.32:1, 5.45:1. No new token. Search, the site search script and
+  the MCP re-sort read `derived` as "no narrative" (`none`, factor 0.9); explorer and neighbourhood default to
+  `official|derived`; `llms.txt` and the MCP README say so.
+- **Body wording follows the state** on every page that prints it next to its tier (post, change, video, topic and
+  localization narrative lines, the digest's narrative note): the badge texts, `reviewed (checked by Opus)`,
+  `**unreviewed** (model text not yet checked)`, `**flagged** (a review found a problem)`. "machine-generated" is gone
+  from the state words (it stays only in the digest header and the topic-link note, which describe the page, not a state).
+- **Narrative reviews** (`pipeline/review/narrative.ts`, stages `review-localization` and `review-digest`): the hub
+  reviewer's shape. Deviation from 4.2: the record lives **in the narrative file itself** (`review` in
+  `data/hubs/localizations/<cc>.json` and `data/changes/narratives/<week>.json`), exactly like the hub reviews, not in
+  `data/review/<kind>/`. Reason: a refreshed narrative replaces the file and so drops a stale review by construction, and
+  the renderers already load that file. The record is the hub review's fields (`state, by, at, verdict, issues,
+  input_hash, cost_usd`) plus `applied` and `rejected_edits`.
+- **Edits pass the first pass's validators**: localization summary/overview/key points are tidied and clipped, an
+  empty field is a rejected edit; a digest's text must pass `acceptNarrative` (length, every `#number` one of the
+  week's). **A fix none of whose edits pass counts as a reject** (flagged, withheld): Opus said the text is wrong and
+  no valid correction exists.
+- **Inputs**: localization reviews read `localizationInputs()` (factored out of `refreshLocalizationNarratives`, no
+  behaviour change): the same prompt Sonnet saw. Digest reviews read `weekRows()` as the change pages are now. Only the
+  weeks the digest re-renders (current and previous) are due, so a review always reaches its page.
+- **Quota**: `opus_reviews`, shared; no new key in `config/budget.json`. Nightly order: `localization-reviews` right
+  after `localization-narratives` (before `code-pages` renders the pages), `digest-reviews` right after
+  `change-narrative`; both only when the run stopped `done`, like the hub reviews. The hubs get
+  `opus_reviews - stage charges - narrativeReviewsUsed`, so the narratives go first on a night; with 22 localizations
+  in the backlog and a quota of 10 that is two nights of hub reviews deferred, or one unlimited run.
+- **Report**: `report.narrative_reviews.{localization,digest}` (`candidates, reviewed, fixed, rejected, calls,
+  cost_usd, stopped`), a new top-level key so it does not collide with part B's `report.reviews`;
+  `scripts/run-summary.ts` prints one line per kind.
+
+State counts on a local deterministic re-render of the committed data (2026-10-08, before any narrative review ran):
+objects 25,645 derived; apps 96 derived; sources 32 derived; features 80 derived; topics 49 derived, 556 reviewed;
+localizations 22 unreviewed (all have a narrative); digests 2 derived (W38, W39), 2 unreviewed (W40, W41); videos 2
+reviewed, 615 unreviewed; posts 600 unreviewed; changes 1,080 unreviewed. `validate:content`: 28,781 pages OK.
