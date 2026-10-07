@@ -1,0 +1,66 @@
+{
+  "item_id": "blog/aardvarklabs-blog/2965",
+  "url": "https://aardvarklabs.blog/2026/01/23/step-by-step-guide-to-ai-campaigns-in-business-central/",
+  "title": "Step-by-Step Guide to AI Campaigns in Business Central",
+  "source": "aardvarklabs-blog",
+  "published_at": "2026-01-23T13:00:00.000Z",
+  "words": 1229,
+  "summary": "A practical guide to building AI-powered marketing campaigns in Business Central using two coordinated AI agents. The system generates regional postal codes based on natural language prompts and automatically adds free samples to sales orders shipping to targeted regions, minimizing AI costs by preprocessing data rather than running AI logic on every transaction.",
+  "key_points": [
+    "Uses two sequential AI agents: one for grounded search to find postal codes from natural language scenarios, another to extract postal codes into JSON format",
+    "Leverages Business Central's managed AI resource with Bing Grounded Search for accessing current event data that public OpenAI cannot reach",
+    "Saves AI costs and improves performance by running AI only during campaign creation, then using native AL code for order processing",
+    "Implements campaign logic via OnBeforeReleaseSalesDoc event to check shipping addresses against stored postal codes and add promotional items"
+  ],
+  "systems": [
+    "copilot",
+    "sales",
+    "integration"
+  ],
+  "topics": [
+    "ai agents",
+    "prompt management",
+    "grounded search",
+    "marketing automation",
+    "sales orders",
+    "cost optimization"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "AI Campaign (custom)"
+    },
+    {
+      "type": "table",
+      "name": "Campaign Data (custom)"
+    }
+  ],
+  "features": [
+    "AI agents for regional data lookup",
+    "Managed AI resource with Bing Grounded Search",
+    "Copilot prompting system",
+    "JSON data extraction from AI responses",
+    "OnBeforeReleaseSalesDoc event handling",
+    "Natural language campaign generation"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "The core to any AI system is prompt management. In this case we have to manage the interaction between two prompts.",
+      "why_it_matters": "Emphasizes that coordinating multiple AI agents requires careful prompt tuning for each to work effectively together"
+    },
+    {
+      "text": "This system trades a tiny bit of BC storage for a huge AI savings and performance handling.",
+      "why_it_matters": "Explains the tradeoff strategy that makes the solution practical and cost-effective for high-volume operations"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

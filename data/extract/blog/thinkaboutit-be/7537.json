@@ -1,0 +1,69 @@
+{
+  "item_id": "blog/thinkaboutit-be/7537",
+  "url": "https://thinkaboutit.be/2026/01/how-do-i-replace-reports-with-analysis-mode-in-business-central/",
+  "title": "How Do I: Replace Reports with Analysis Mode in Business Central",
+  "source": "thinkaboutit-be",
+  "published_at": "2026-01-29T13:04:32.000Z",
+  "words": 846,
+  "summary": "Analysis Mode on Business Central list pages can replace many traditional reports for data exploration and ad-hoc questions like customer balances and inventory movements, eliminating the need for custom report development while enabling users to answer follow-up questions independently.",
+  "key_points": [
+    "Analysis Mode works best for answering questions rather than producing formatted documents for distribution",
+    "Common reports like Top Customers by Balance and Vendor Balance to Date can be recreated using grouping, aggregation, and filtering on ledger entry pages",
+    "Interactive exploration with pivoting and drill-down replaces static exports to Excel",
+    "Classic reports remain necessary for statutory requirements, complex calculations, and external distribution needs"
+  ],
+  "systems": [
+    "reporting",
+    "finance",
+    "inventory"
+  ],
+  "topics": [
+    "analysis mode",
+    "reports",
+    "list pages",
+    "data exploration",
+    "customer analytics",
+    "vendor analytics",
+    "inventory analysis"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Customer Ledger Entries"
+    },
+    {
+      "type": "page",
+      "name": "Vendor Ledger Entries"
+    },
+    {
+      "type": "page",
+      "name": "Item Ledger Entries"
+    }
+  ],
+  "features": [
+    "Analysis Mode",
+    "Grouping",
+    "Aggregation",
+    "Filtering",
+    "Sorting",
+    "Date hierarchy",
+    "Pivoting",
+    "Save analysis tabs"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "If a report exists mainly to answer a question, rather than to produce a document, Analysis Mode is usually the better option.",
+      "why_it_matters": "Provides a clear decision rule for when to use Analysis Mode versus traditional reports"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

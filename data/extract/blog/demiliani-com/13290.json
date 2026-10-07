@@ -1,0 +1,55 @@
+{
+  "item_id": "blog/demiliani-com/13290",
+  "url": "https://demiliani.com/2026/02/03/azure-functions-never-share-the-same-storage-account-between-function-apps/",
+  "title": "Azure Functions: never share the same storage account between function apps.",
+  "source": "demiliani-com",
+  "published_at": "2026-02-03T09:34:48.000Z",
+  "words": 982,
+  "summary": "Sharing a single Azure storage account between multiple Azure Function apps causes deployment package conflicts, scaling bottlenecks, and logging corruption. Always provision dedicated storage accounts for each function app to maintain isolation and reliability.",
+  "key_points": [
+    "Multiple function apps writing to the same file share can overwrite each other's deployment packages, causing app failures and data loss",
+    "Shared storage creates throughput bottlenecks and I/O contention, making performance unpredictable when apps scale simultaneously",
+    "Azure Functions use a distributed lock mechanism on shared storage, causing one app to acquire the lock while others fail with HTTP 500 errors",
+    "Mixed logs and diagnostic information from multiple apps make troubleshooting unreliable, especially affecting Application Insights integration",
+    "Dedicated storage accounts per function app cost negligibly compared to operational complexity and downtime risks"
+  ],
+  "systems": [
+    "platform"
+  ],
+  "topics": [
+    "azure functions",
+    "storage accounts",
+    "deployment",
+    "scaling",
+    "performance",
+    "infrastructure design",
+    "cloud best practices"
+  ],
+  "objects": [],
+  "features": [
+    "WEBSITE_CONTENTSHARE setting",
+    "WEBSITE_CONTENTAZUREFILECONNECTIONSTRING",
+    "AzureWebJobsStorage",
+    "DEPLOYMENT_STORAGE_CONNECTION_STRING",
+    "Flex Consumption plan",
+    "host lock mechanism",
+    "Application Insights integration",
+    "log streaming"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Sharing the same storage between function apps creates a serie of problems.",
+      "why_it_matters": "This statement introduces the core issue and sets up the detailed explanation of why shared storage is architecturally unsound."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

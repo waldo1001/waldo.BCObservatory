@@ -1,0 +1,97 @@
+{
+  "item_id": "blog/gerardorenteria-blog/14099",
+  "url": "https://gerardorenteria.blog/2026/02/03/new-application-ideas-of-dynamics-365-business-central-2026-jan/",
+  "title": "New Application Ideas of Dynamics 365 Business Central (2026 JAN)",
+  "source": "gerardorenteria-blog",
+  "published_at": "2026-02-03T18:36:08.000Z",
+  "words": 867,
+  "summary": "This post curates community-submitted feature ideas for Dynamics 365 Business Central across multiple functional areas including sales, finance, inventory, manufacturing, warehouse management, and development. The collection presents enhancement requests from the user community organized by topic.",
+  "key_points": [
+    "Copilot and AI agents proposed for sales workflows, document management, and PDF processing",
+    "Multiple development enhancements requested including nullable booleans, AL query improvements, and API timezone support",
+    "Financial management ideas focus on reporting, deferrals, SEPA compliance, and intercompany transactions",
+    "Warehouse and inventory suggestions address serial number handling, item charges, and location-based operations",
+    "User experience improvements requested for mobile clients, tooltips, view persistence, and record navigation"
+  ],
+  "systems": [
+    "copilot",
+    "development",
+    "finance"
+  ],
+  "topics": [
+    "feature requests",
+    "community ideas",
+    "copilot agents",
+    "al development",
+    "financial reporting",
+    "warehouse management",
+    "user experience",
+    "localization"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Fixed Asset Analysis Report"
+    },
+    {
+      "type": "page",
+      "name": "Page Inspector"
+    },
+    {
+      "type": "other",
+      "name": "E-Document Recreate Document Action"
+    },
+    {
+      "type": "other",
+      "name": "Physical Inventory Orders"
+    },
+    {
+      "type": "other",
+      "name": "Payment & Cash receipt Journals"
+    },
+    {
+      "type": "other",
+      "name": "Sales Invoice Statistics"
+    },
+    {
+      "type": "other",
+      "name": "Sales Order Statistics"
+    },
+    {
+      "type": "other",
+      "name": "Item Ledger Entry"
+    },
+    {
+      "type": "other",
+      "name": "Value Entry"
+    }
+  ],
+  "features": [
+    "Sales Agent",
+    "Copilot for document management",
+    "E-Documents",
+    "SEPA CT pain.001.001.09 export",
+    "1099 Vendor Reporting",
+    "Bank Reconciliation",
+    "Intercompany documents",
+    "Job Queue"
+  ],
+  "versions": [
+    "2026 JAN"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Would any of these ideas improve Business Central? Here is a list of some of them.",
+      "why_it_matters": "Frames the post as a collection of community-driven enhancement suggestions for the platform's future development"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

@@ -7,13 +7,39 @@
   "url": "https://aardvarklabs.blog/2026/01/23/step-by-step-guide-to-ai-campaigns-in-business-central/",
   "published_at": "2026-01-23T13:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:22:48.540Z",
+      "path": "vault:posts/aardvarklabs-blog/2965.md",
+      "words": 1229
+    },
+    "extracted": {
+      "at": "2026-10-07T01:22:48.549Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:22:48.550Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:22:51.785Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:22:51.794Z",
+      "path": "content/posts/aardvarklabs-blog/2965.md"
     }
   },
   "input_hash": "2026-01-21T02:48:44.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "79d0a1240cad2b7be318d4c1e54cedf833015ff6d1c30d915026f4fe54203155"
 }

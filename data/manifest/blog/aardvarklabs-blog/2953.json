@@ -7,13 +7,39 @@
   "url": "https://aardvarklabs.blog/2026/01/30/how-to-use-external-apis-in-business-central/",
   "published_at": "2026-01-30T13:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:22:47.727Z",
+      "path": "vault:posts/aardvarklabs-blog/2953.md",
+      "words": 1377
+    },
+    "extracted": {
+      "at": "2026-10-07T01:22:47.740Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:22:47.741Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:22:47.742Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:22:47.759Z",
+      "path": "content/posts/aardvarklabs-blog/2953.md"
     }
   },
   "input_hash": "2026-01-28T03:01:10.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ff26a10370a4f7bb628b7d22eb942f4a6c1a35440c62e855978f625332ec727e"
 }

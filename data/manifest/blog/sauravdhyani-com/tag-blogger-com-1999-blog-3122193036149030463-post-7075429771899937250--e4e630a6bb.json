@@ -7,13 +7,39 @@
   "url": "https://www.sauravdhyani.com/2026/01/why-no-series-break-after-upgrading-to.html",
   "published_at": "2026-01-29T05:30:00.009Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:22:48.460Z",
+      "path": "vault:posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-7075429771899937250--e4e630a6bb.md",
+      "words": 405
+    },
+    "extracted": {
+      "at": "2026-10-07T01:22:48.469Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:22:48.471Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:22:48.471Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:22:48.480Z",
+      "path": "content/posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-7075429771899937250--e4e630a6bb.md"
     }
   },
   "input_hash": "2026-01-29T05:30:00.125Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "bd592f3c938d14360c011ef42c5c2d9354b40976d48973d547499721d1d6bd89"
 }

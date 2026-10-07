@@ -1,0 +1,77 @@
+{
+  "item_id": "blog/stefanmaron-com/https://stefanmaron.com/posts/al-development-claude-code-multi-agent-workflow/",
+  "url": "https://stefanmaron.com/posts/al-development-claude-code-multi-agent-workflow/",
+  "title": "AL Development with Claude Code: A Multi-Agent Workflow",
+  "source": "stefanmaron-com",
+  "published_at": "2026-01-28T08:00:00.000Z",
+  "words": 1252,
+  "summary": "AL development with Claude Code works best using a multi-agent workflow where specialized agents handle planning, development, code review, testing, and diagnostics sequentially. This approach keeps context manageable by writing results to files and reading only relevant documents, enabling extended development cycles and consistent output quality.",
+  "key_points": [
+    "Sub-agent workflows with document-driven architecture prevent context overflow and allow sessions to resume across days",
+    "Three main commands (/plan, /develop, /test) orchestrate sequential agents with approval gates between planning phases",
+    "The al-compile tool solves AL compiler invocation complexity by auto-detecting VS Code settings and running diagnostics",
+    "Code review agents can identify issues like DRY violations before manual inspection, improving quality before testing",
+    "Multi-hour refactoring tasks (1 hour unattended in demo) produce consistent results by having experienced developers direct agents rather than typing code"
+  ],
+  "systems": [
+    "development",
+    "integration",
+    "platform"
+  ],
+  "topics": [
+    "al development",
+    "claude code",
+    "multi-agent workflow",
+    "code review",
+    "refactoring",
+    "testing",
+    "compiler",
+    "ai-assisted development"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "profile-al-development"
+    },
+    {
+      "type": "other",
+      "name": "al-compile"
+    },
+    {
+      "type": "other",
+      "name": "al-smart-compile"
+    }
+  ],
+  "features": [
+    "sub-agent workflow",
+    "plugin system",
+    "document-driven development",
+    "requirements engineering",
+    "solution planning",
+    "code review automation",
+    "diagnostic fixing",
+    "test planning"
+  ],
+  "versions": [
+    "BC v18+"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "AL is niche enough that LLMs struggle without guidance, and large refactoring tasks blow up the context window within a few agent calls.",
+      "why_it_matters": "Explains the core problem that multi-agent workflows solve for AL development"
+    },
+    {
+      "text": "My AL knowledge and experience with BC is worth more when I'm directing and reviewing than when I'm physically typing the code.",
+      "why_it_matters": "Expresses the philosophical shift from hands-on coding to strategic direction in AI-assisted development"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "item_id": "blog/aardvarklabs-blog/2953",
+  "url": "https://aardvarklabs.blog/2026/01/30/how-to-use-external-apis-in-business-central/",
+  "title": "How to Use External APIs in Business Central",
+  "source": "aardvarklabs-blog",
+  "published_at": "2026-01-30T13:00:00.000Z",
+  "words": 1377,
+  "summary": "This post explains how to consume external APIs from within Business Central by making HTTP requests using the HttpClient data type and parsing JSON responses. It includes two practical examples: retrieving Chuck Norris jokes and validating email addresses through public APIs, with complete AL code samples and guidance on security prompts.",
+  "key_points": [
+    "APIs provide an interface to access services and data from outside Business Central using HTTP requests with GET, POST, PUT, DELETE, or PATCH methods",
+    "The HttpClient data type is used to send HTTP requests, set headers, and handle responses containing JSON data",
+    "JSON responses must be parsed using JsonObject to extract specific fields needed for your business logic",
+    "Public APIs can be found through search engines or in service documentation, with resources like GitHub's public-apis list available",
+    "Business Central shows a security prompt when extensions attempt to access external services to prevent unauthorized data exfiltration"
+  ],
+  "systems": [
+    "integration",
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "api",
+    "external services",
+    "http client",
+    "json parsing",
+    "security",
+    "al code"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "ARDGetChuckNorrisJoke"
+    },
+    {
+      "type": "codeunit",
+      "name": "ARDValidateEmail"
+    }
+  ],
+  "features": [
+    "HttpClient data type",
+    "HTTP requests",
+    "JSON parsing",
+    "API authentication",
+    "External service integration",
+    "Email validation"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "An interface that we can use to allow our application to access some service through programming.",
+      "why_it_matters": "This is the fundamental definition of an API that guides developers in understanding how Business Central can interact with external systems."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

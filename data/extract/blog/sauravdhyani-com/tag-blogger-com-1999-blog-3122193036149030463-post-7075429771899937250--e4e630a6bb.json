@@ -1,0 +1,70 @@
+{
+  "item_id": "blog/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-7075429771899937250",
+  "url": "https://www.sauravdhyani.com/2026/01/why-no-series-break-after-upgrading-to.html",
+  "title": "Why No. Series Break After Upgrading to Business Central 27 (And How to Fix It)",
+  "source": "sauravdhyani-com",
+  "published_at": "2026-01-29T05:30:00.009Z",
+  "words": 405,
+  "summary": "Business Central 27 enforces stricter Number Series validation during record insert, breaking master records that worked in BC 26 due to deferred validation. The fix involves auditing master entities, validating setup tables, and ensuring Number Series assignment before insert.",
+  "key_points": [
+    "BC 27 validates Number Series earlier and more strictly than BC 26, rejecting implicit numbering paths that previously passed",
+    "Master entities without explicit Number Series setup and custom tables relying on default behavior are most affected",
+    "Solution requires creating new Number Series in setup with Manual Nos enabled and refactoring insert logic to enforce assignment before insert",
+    "The error 'The No. Series does not exist' occurs in TestManualInternal validation during record insertion"
+  ],
+  "systems": [
+    "administration",
+    "development"
+  ],
+  "topics": [
+    "number series",
+    "upgrade",
+    "bc 27",
+    "data validation",
+    "master records"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "No. Series - Impl."
+    },
+    {
+      "type": "codeunit",
+      "name": "No. Series"
+    },
+    {
+      "type": "table",
+      "name": "Item"
+    }
+  ],
+  "features": [
+    "Number Series validation",
+    "Master record setup",
+    "Manual numbering",
+    "Insert logic enforcement",
+    "Upgrade migration"
+  ],
+  "versions": [
+    "Business Central 26",
+    "Business Central 27"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Business Central 27 enforces No. Series validation during insert, causing errors where BC 26 allowed missing setup.",
+      "why_it_matters": "Explains the core behavioral change between versions that breaks existing functionality"
+    },
+    {
+      "text": "Business Central 27 improves data integrity - but at the cost of upgrade surprises.",
+      "why_it_matters": "Frames the upgrade issue as intentional for data quality but with poor communication to users"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

@@ -7,13 +7,39 @@
   "url": "https://thedynamicsexplorer.com/2026/01/23/dynamics-365-business-central-how-to-default-a-general-ledger-account-onto-a-purchase-invoice-using-recurring-purchase-lines/",
   "published_at": "2026-01-23T12:15:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:22:51.814Z",
+      "path": "vault:posts/thedynamicsexplorer-com/36954.md",
+      "words": 446
+    },
+    "extracted": {
+      "at": "2026-10-07T01:22:51.826Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:22:51.827Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:22:51.828Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:22:51.843Z",
+      "path": "content/posts/thedynamicsexplorer-com/36954.md"
     }
   },
   "input_hash": "2026-05-01T12:45:38.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "014aa3d26ef344998bc707ba40cfa8746dc35152ad1f064b36f271bff68cbf04"
 }

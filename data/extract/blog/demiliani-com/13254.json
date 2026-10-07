@@ -1,0 +1,58 @@
+{
+  "item_id": "blog/demiliani-com/13254",
+  "url": "https://demiliani.com/2026/01/28/dynamics-365-business-central-understanding-the-database-wait-statistics-page/",
+  "title": "Dynamics 365 Business Central: understanding the Database Wait Statistics page.",
+  "source": "demiliani-com",
+  "published_at": "2026-01-28T09:28:36.000Z",
+  "words": 2147,
+  "summary": "The Database Wait Statistics page in Business Central shows how Azure SQL database time is spent waiting for resources rather than executing queries. Understanding wait categories, task counts, wait times, signal waits, and their ratios helps identify performance bottlenecks like CPU pressure, lock contention, or I/O delays.",
+  "key_points": [
+    "Wait statistics quantify where database time is spent waiting (disk I/O, locks, CPU) rather than doing useful work",
+    "Five key metrics to analyze: Wait Category, Waiting Tasks Count, Wait Time, Max Wait Time, and Signal Wait Time ratio",
+    "Signal wait time divided by total wait time reveals CPU pressure; ratios above 20% indicate significant CPU bottleneck",
+    "Focus analysis on categories with highest total wait time, not highest task counts, and calculate average wait per task",
+    "Regular snapshots over time (comparing Database Wait Statistics at time X and X+N) reveal what the database was waiting for during that period"
+  ],
+  "systems": [
+    "platform",
+    "administration",
+    "reporting"
+  ],
+  "topics": [
+    "performance",
+    "database",
+    "wait statistics",
+    "diagnostics",
+    "monitoring",
+    "bottleneck",
+    "optimization",
+    "azure sql"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Database Wait Statistics"
+    }
+  ],
+  "features": [
+    "Database Wait Statistics page",
+    "Wait Category analysis",
+    "Signal Wait Time ratio calculation",
+    "Lock contention detection",
+    "CPU pressure identification",
+    "I/O performance monitoring",
+    "Average wait per task calculation",
+    "Historical wait statistics trending"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "item_id": "blog/demiliani-com/13324",
+  "url": "https://demiliani.com/2026/02/04/azure-logic-apps-never-share-the-same-storage-account-between-different-apps/",
+  "title": "Azure Logic Apps: never share the same storage account between different apps.",
+  "source": "demiliani-com",
+  "published_at": "2026-02-04T10:40:19.000Z",
+  "words": 1000,
+  "summary": "Sharing a single Azure Storage Account across multiple Azure Logic Apps instances causes scalability and reliability problems, including HTTP 429 throttling errors, increased latency, and state contention. The post demonstrates these issues through load testing and recommends using one storage account per Logic App for isolation and predictable performance.",
+  "key_points": [
+    "Shared storage accounts hit Azure limits (20,000 requests/second) when multiple Logic App instances persist state and action outputs simultaneously",
+    "Both Consumption and Standard Logic Apps experience throttling, cascading failures, and unpredictable performance during peak loads when using shared storage",
+    "Contention occurs on table storage for session state and on queues for message processing when multiple apps access the same storage account",
+    "Load testing showed average response time increased from 1355ms to 3097ms (with 12-second spikes) when moving from light to heavy workload on shared storage",
+    "Using one storage account per Logic App provides complete isolation, eliminates locking issues, and ensures predictable performance"
+  ],
+  "systems": [
+    "integration",
+    "platform"
+  ],
+  "topics": [
+    "azure logic apps",
+    "storage account",
+    "scalability",
+    "throttling",
+    "performance",
+    "architecture"
+  ],
+  "objects": [],
+  "features": [
+    "Azure Storage Accounts",
+    "Consumption Logic Apps",
+    "Standard Logic Apps",
+    "session state management",
+    "action histories",
+    "queue-based operations",
+    "managed connectors",
+    "stateful workflows"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Sharing the same storage account across different Azure Logic Apps instances can cause serious problems.",
+      "why_it_matters": "Establishes the core problem that drives the entire recommendation against shared storage accounts"
+    },
+    {
+      "text": "If you want to be safe, the simplest, reliable and most effective solution is using one storage account per Logic App.",
+      "why_it_matters": "Provides the clear architectural best practice that resolves all the identified performance and reliability issues"
+    },
+    {
+      "text": "You will start receiving HTTP 429 (Too Many Requests) responses from storage.",
+      "why_it_matters": "Identifies the specific error symptom that occurs when storage account limits are exceeded due to sharing"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

@@ -7,13 +7,39 @@
   "url": "https://demiliani.com/2026/01/28/dynamics-365-business-central-understanding-the-database-wait-statistics-page/",
   "published_at": "2026-01-28T09:28:36.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:22:48.232Z",
+      "path": "vault:posts/demiliani-com/13254.md",
+      "words": 2147
+    },
+    "extracted": {
+      "at": "2026-10-07T01:22:48.241Z",
+      "prompt": "extract-post@1",
+      "quotes": 0,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:22:48.242Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:22:48.243Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:22:48.252Z",
+      "path": "content/posts/demiliani-com/13254.md"
     }
   },
   "input_hash": "2026-01-28T13:38:00.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "258c636a4c4b980dc70a4618d7c3fb302a130cc29c8ba8726925755a5a6d1807"
 }
