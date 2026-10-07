@@ -20,6 +20,13 @@ without the original conversation. Read in this order: `AGENTS.md` → this file
   manual control run used the same checkout, so compare `data/code/graph/30/manifest.json` with BC29's (15,711 edges,
   1,350 unresolved) and, if it looks off, delete `graphify-out` under the BC30 checkout and bump `CALLGRAPH_VERSION`.
 
+- **One version pill in the galaxy lens bar**: `docs/specs/version-lens.md`, decision D72 (reserved, not appended),
+  PLAN milestone M10. Status: proposed 2026-10-07, nothing implemented. Where to start: phase 1, the pure
+  `versionRanges` helper in `pipeline/lib/versions.ts` with its tests, then the nine call sites (spec section 2.3), shipped
+  alone because it rewrites every object page once; phase 2 is the pill with the version menu (`galaxy-core.ts`
+  `versionMenu`, `Galaxy.astro`, `galaxy.ts`) and the Objects atlas picker from config. Until it lands the home page shows
+  one pill per major (seven today, one more per wave) and `/objects/` hard-codes BC29 and BC30.
+
 ## Where things stand
 
 **Shipped 2026-10-07, live after the next good nightly:**
