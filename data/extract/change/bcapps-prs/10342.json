@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/10342",
+  "number": 10342,
+  "title": "Add GLN information to XRechnung and ZUGFeRD exports",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [],
+  "summary": "GLN identifiers with schemeID 0088 are now included in German XRechnung and ZUGFeRD electronic document exports, respecting customer GLN settings and address hierarchy rules.",
+  "key_points": [
+    "GLNs emitted with schemeID='0088' in XRechnung supplier, customer, and delivery identifiers",
+    "Customer 'Use GLN in Electronic Document' setting is respected for XRechnung customer GLNs",
+    "Delivery GLNs resolved from ship-to address first, then fallback to sell-to customer if opted-in",
+    "ZUGFeRD documents now include buyer and ship-to GLNs with schemeID='0088'",
+    "Test coverage added for supplier, customer, and address precedence scenarios"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration",
+    "localization"
+  ],
+  "quote": "Adds GLN information to the German XRechnung and ZUGFeRD exports, aligning their identifier handling with the existing electronic-document setup.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003944,
+    "changes_in_call": 1
+  }
+}

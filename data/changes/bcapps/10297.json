@@ -1,0 +1,41 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10297,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10297",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-20T11:37:10Z",
+  "merge_commit_sha": "11ae475fde7321fd48e6707c721f164c84a1827c",
+  "author": "darjoo",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Ownership: Needs Review",
+    "Team: Other"
+  ],
+  "community_contribution": false,
+  "title": "Use Any module instead of hardcoded password in integration setup tests",
+  "body_hash": "be1ae116cecb16b384e862661ddc313a9a3622252841d5c22742cdf4bda3b83c",
+  "fixes_issues": [],
+  "work_items": [
+    647052
+  ],
+  "change_class": "test-only",
+  "files": [],
+  "totals": {
+    "files": 4,
+    "additions": 24,
+    "deletions": 9,
+    "al": 0
+  },
+  "join": {
+    "major": "30",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}

@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10149",
+  "number": 10149,
+  "title": "Improve the Index Mgmt page discoverability",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Index Management page now opens directly from search and table selection dialogs, with improved navigation from Table Information. DateTime minimum values display as dashes instead of actual dates.",
+  "key_points": [
+    "Index Mgmt page can be opened directly from Tell Me search",
+    "Table selection dialog appears when opening the page without a context",
+    "Navigation button added from Table Information to Indexes List Part",
+    "DateTime.MinValue displays as dash instead of the actual minimum value",
+    "Page discoverability improved for direct access scenarios"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "administration"
+  ],
+  "quote": "Change the design to support opening the page directly by showing a table selection dialog.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003449,
+    "changes_in_call": 1
+  }
+}

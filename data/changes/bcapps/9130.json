@@ -1,0 +1,74 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9130,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9130",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-20T14:37:46Z",
+  "merge_commit_sha": "aa21c1437f7b80c7c74f0ddca7c7c9d267a92b10",
+  "author": "SPinkow",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "AL: Apps (W1)",
+    "From Fork",
+    "Subcontracting",
+    "Team: SCM"
+  ],
+  "community_contribution": true,
+  "title": "[Subcontracting] Refactor event subscriber for planning components and add test for Vendor-supplied components",
+  "body_hash": "6689f618201a10174a5310b082aa0e2839985cee34b18d60f451133ba2b9f538",
+  "fixes_issues": [],
+  "work_items": [
+    630597
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Subcontracting/App/src/Manufacturing/SubcPlanningLineMgmtExt.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subcontracting/Test/Tests/SubcSubcontractingTest.Codeunit.al",
+      "status": "modified",
+      "additions": 134,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 138,
+    "deletions": 6,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Subcontracting/App/src/Manufacturing/SubcPlanningLineMgmtExt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/20518",
+        "type": "codeunit",
+        "id": 20518,
+        "name": "Subc. Planning Line Mgmt Ext.",
+        "app": "Subcontracting",
+        "cc": "w1",
+        "page": "codeunit/20518"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "manufacturing"
+  ],
+  "apps": [
+    "Subcontracting"
+  ]
+}

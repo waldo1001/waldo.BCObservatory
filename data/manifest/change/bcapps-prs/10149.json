@@ -6,10 +6,35 @@
   "title": "Improve the Index Mgmt page discoverability",
   "url": "https://github.com/microsoft/BCApps/pull/10149",
   "published_at": "2026-08-20T09:15:57Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:08:54.889Z",
+      "change_class": "code",
+      "files": 4,
+      "al": 3,
+      "objects": 3,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:08:59.831Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.003449
+    },
+    "linked": {
+      "at": "2026-10-07T13:08:59.980Z",
+      "objects": 3,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:08:59.986Z",
+      "path": "content/changes/bcapps/10149.md"
     }
   },
   "input_hash": "9c19e09197bc23a6fdbc74bed36ba592f6c30e08:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "improve the index mgmt page discoverability"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "57ad7686337bc2525d3c1fd24ed2a75df14bed074fab8d3846c12a633bbc60ec"
 }

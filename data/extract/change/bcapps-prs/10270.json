@@ -1,0 +1,34 @@
+{
+  "item_id": "change/bcapps-prs/10270",
+  "number": 10270,
+  "title": "[Quality Management] Repair and improve XML documentation of procedures",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development",
+    "integration",
+    "platform"
+  ],
+  "summary": "XML documentation for Quality Management procedures has been repaired and improved across numerous codeunits, tables, pages, and reports.",
+  "key_points": [
+    "Added and corrected XML documentation comments across Quality Management objects",
+    "Updated procedure documentation in codeunits handling inspections, dispositions, integrations, and workflows",
+    "Improved documentation clarity for tables storing inspection templates, results, and configuration data",
+    "Enhanced API documentation for inspection-related endpoints",
+    "Refactored existing documentation comments for consistency and completeness"
+  ],
+  "change_kind": "refactor",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "administration"
+  ],
+  "quote": "And missing docs and refactor existing",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.01405,
+    "changes_in_call": 1
+  }
+}

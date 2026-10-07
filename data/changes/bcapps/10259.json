@@ -1,0 +1,90 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10259,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10259",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-20T11:37:10Z",
+  "merge_commit_sha": "66fae4cce31404c7deba9699a4d1fe2e9138b304",
+  "author": "ChethanT",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Subcontracting",
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "Slice 550732: Keep routing descriptions when vendor changes",
+  "body_hash": "cb165a5b8aa61322545b369d011622e23d075d6cca39c81d7b429c7c6eb8628d",
+  "fixes_issues": [],
+  "work_items": [
+    550732
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Subcontracting/Test/Tests/SubcSubcontractingTest.Codeunit.al",
+      "status": "modified",
+      "additions": 244,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Manufacturing/Inventory/Requisition/MfgRequisitionLine.TableExt.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Inventory/Requisition/MfgRequisitionLine.TableExt.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 2,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 272,
+    "deletions": 5,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/IT/BaseApp/Manufacturing/Inventory/Requisition/MfgRequisitionLine.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/99000860",
+        "type": "tableextension",
+        "id": 99000860,
+        "name": "Mfg. Requisition Line",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "tableextension/99000860"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Inventory/Requisition/MfgRequisitionLine.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/99000860",
+        "type": "tableextension",
+        "id": 99000860,
+        "name": "Mfg. Requisition Line",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "tableextension/99000860"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "inventory"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

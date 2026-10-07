@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/10418",
+  "number": 10418,
+  "title": "[SOA] Ignore extended-text lines when editing sales quotes",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Sales Order Agent now filters out extended-text lines from the sales quote view to prevent the agent from getting stuck when attempting to add items after automatic extended text is inserted.",
+  "key_points": [
+    "Extended-text lines are excluded from the Sales Quote Subform display during agent sessions",
+    "Item lines only are shown, preventing item lookups from running on text lines",
+    "Extended text remains stored and unchanged on quotes",
+    "Change applies only during Sales Order Agent sessions; normal sessions unaffected",
+    "No impact on printed documents or existing quote data"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales",
+    "copilot"
+  ],
+  "quote": "Extended-text lines remain stored on the quote but are excluded from the agent's working view.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003394,
+    "changes_in_call": 1
+  }
+}

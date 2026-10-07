@@ -1,0 +1,34 @@
+{
+  "item_id": "change/bcapps-prs/9969",
+  "number": 9969,
+  "title": "Add AL fast prompt interface and wrappers",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "copilot"
+  ],
+  "summary": "A new GetFastPrompt interface and AOAI Fast Prompt Response codeunit enable AL code to fetch blob-backed prompt templates from Edge Configuration Service with typed response handling.",
+  "key_points": [
+    "New GetFastPrompt public procedure on Azure OpenAI codeunit for retrieving ECS-stored prompt templates",
+    "New AOAI Fast Prompt Response codeunit (7789) provides typed response object with template, error code, and error message",
+    "Integrates with DotNet ALCopilotFunctions layer to resolve fast prompts from ECS",
+    "Supports error handling for invalid keys and unsupported authorization scenarios",
+    "AI module object ID range expanded from 7788 to 7789"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "copilot",
+    "integration",
+    "development"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004471,
+    "changes_in_call": 1
+  }
+}

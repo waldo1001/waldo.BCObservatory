@@ -1,0 +1,70 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10425,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10425",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-20T13:03:37Z",
+  "merge_commit_sha": "02648bd2afdb12c3a1185e6c2f4d9a95d3b9bdff",
+  "author": "neeleshsinghal",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[master] Remittance Advice Report (ID 10083) prints Amount Due = 0 when using Suggest Vendor Payments with Summarize Per Vendor",
+  "body_hash": "d003e7cb1f18d53ddb8e56fde57daf63dfcc25897b2c5023713ee0f9b64b18e3",
+  "fixes_issues": [],
+  "work_items": [
+    647318
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/NA/BaseApp/Local/Bank/Payment/ExportElectronicPayments.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/Tests/Local/UTREPExportElectronicPmt.Codeunit.al",
+      "status": "modified",
+      "additions": 66,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 67,
+    "deletions": 1,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/NA/BaseApp/Local/Bank/Payment/ExportElectronicPayments.Report.al",
+        "status": "modified",
+        "key": "report/10083",
+        "type": "report",
+        "id": 10083,
+        "name": "Export Electronic Payments",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "report/10083-ca"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

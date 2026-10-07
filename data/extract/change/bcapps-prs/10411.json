@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/10411",
+  "number": 10411,
+  "title": "[SOA] Allow changing or clearing manually selected contacts",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Users can now select, change, or clear manually chosen contacts in the Sales Order Agent through a dedicated lookup interface and assist-edit, with changes isolated to one-time overrides that don't modify underlying contact fields.",
+  "key_points": [
+    "New contact lookup page allows matching both E-Mail and E-Mail 2 fields without standard restrictions",
+    "Users can change a previously selected one-time contact or clear the mapping to return to email-based matching",
+    "Changes are isolated to task-message overrides; existing contact email fields remain unmodified",
+    "Authorization checks continue to restrict mapping changes to configured owner or agent",
+    "Backward compatible - existing contact matching unchanged until user explicitly selects a contact"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales",
+    "copilot"
+  ],
+  "quote": "Users can now select the correct contact directly from the duplicate-contact notification.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003803,
+    "changes_in_call": 1
+  }
+}

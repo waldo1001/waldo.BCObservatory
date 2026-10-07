@@ -6,10 +6,18 @@
   "title": "Fix 644744: Undo subcontracting receipt keys Item Entry Relation with Capacity Ledger Entry No.",
   "url": "https://github.com/microsoft/BCApps/pull/10254",
   "published_at": "2026-08-20T07:27:33Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:08:58.636Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
     }
   },
   "input_hash": "a93b43dc9ae63ab6a73f4a96e2e6b3b0d9705527:c1",
@@ -30,5 +38,8 @@
     ],
     "community_contribution": false,
     "title_key": "fix 644744 undo subcontracting receipt keys item entry relation with capacity ledger entry no"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d8270bdba684e32fa35c5435a1a2fe31f664c9fe50e154ee73a073b14107c566"
 }

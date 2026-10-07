@@ -1,0 +1,127 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9969,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9969",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-20T09:03:01Z",
+  "merge_commit_sha": "7afb17ae48e4c22013187aa7fd95758e14fbb38b",
+  "author": "Naveen26423",
+  "author_type": "User",
+  "labels": [
+    "AL: System Application",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "Add AL fast prompt interface and wrappers",
+  "body_hash": "633b1fbaf854b574b20b5acc60d03e3e195c76d5e49815f21437d60f7f1c55b1",
+  "fixes_issues": [],
+  "work_items": [
+    641501
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/System Application/App/AI/app.json",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "other"
+    },
+    {
+      "path": "src/System Application/App/AI/src/Azure OpenAI/AzureOpenAI.Codeunit.al",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/AI/src/Azure OpenAI/AzureOpenAIImpl.Codeunit.al",
+      "status": "modified",
+      "additions": 55,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/AI/src/Azure OpenAI/Operation Response/AOAIFastPromptResponse.Codeunit.al",
+      "status": "added",
+      "additions": 65,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/DotNet Aliases/src/dotnet.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/Test/AI/src/AzureOpenAITest.Codeunit.al",
+      "status": "modified",
+      "additions": 90,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 6,
+    "additions": 231,
+    "deletions": 1,
+    "al": 4
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/System Application/App/AI/src/Azure OpenAI/AzureOpenAI.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/7771",
+        "type": "codeunit",
+        "id": 7771,
+        "name": "Azure OpenAI",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "codeunit/7771"
+      },
+      {
+        "path": "src/System Application/App/AI/src/Azure OpenAI/AzureOpenAIImpl.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/7772",
+        "type": "codeunit",
+        "id": 7772,
+        "name": "Azure OpenAI Impl",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "codeunit/7772"
+      },
+      {
+        "path": "src/System Application/App/AI/src/Azure OpenAI/Operation Response/AOAIFastPromptResponse.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/7789",
+        "type": "codeunit",
+        "id": 7789,
+        "name": "AOAI Fast Prompt Response",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "codeunit/7789"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/System Application/App/DotNet Aliases/src/dotnet.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "copilot"
+  ],
+  "apps": [
+    "System Application"
+  ]
+}

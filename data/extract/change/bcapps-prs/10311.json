@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10311",
+  "number": 10311,
+  "title": "[Master] - Slice 640778: [Sustainability] Sustainability Entries should be more easy to find like other entries across BC",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sustainability"
+  ],
+  "summary": "Sustainability entries can now be found more easily through a Find Entries action on the Sustainability Ledger Entries page and new Sustainability Value Entries actions on Item Card and Item List pages.",
+  "key_points": [
+    "Added Find Entries (Navigate) action with Ctrl+Alt+Q shortcut to Sustainability Ledger Entries page",
+    "Added Sustainability Value Entries action to Item Card's Related → History → Entries section",
+    "Added Sustainability Value Entries action to Item List page",
+    "New actions are only visible when Item Emissions is enabled in Sustainability Setup",
+    "Follows existing patterns used on Sustainability Value Entries page"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sustainability"
+  ],
+  "quote": "Find Entries on Sustainability Ledger Entries page",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003513,
+    "changes_in_call": 1
+  }
+}

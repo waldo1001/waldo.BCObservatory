@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9130",
+  "number": 9130,
+  "title": "[Subcontracting] Refactor event subscriber for planning components and add test for Vendor-supplied components",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "manufacturing"
+  ],
+  "summary": "The subcontracting planning logic was refactored to use a new event subscriber that prevents vendor-supplied components from generating separate planning demand while keeping them visible in the planning worksheet. A test was added to verify this behavior.",
+  "key_points": [
+    "Event subscriber changed from OnTransferBOMOnBeforeUpdatePlanningComp to OnAfterFilterLinesWithItemToPlan",
+    "Vendor-supplied components are filtered out during planning to prevent duplicate demand generation",
+    "Vendor-supplied components remain in the planning worksheet for consumption tracking",
+    "New test verifies that vendor-supplied components are not planned separately but can be replanned if supply method changes",
+    "Refactoring improves code organization by moving logic to a more appropriate event hook"
+  ],
+  "change_kind": "refactor",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00454,
+    "changes_in_call": 1
+  }
+}

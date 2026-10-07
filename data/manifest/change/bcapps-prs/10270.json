@@ -6,10 +6,35 @@
   "title": "[Quality Management] Repair and improve XML documentation of procedures",
   "url": "https://github.com/microsoft/BCApps/pull/10270",
   "published_at": "2026-08-20T10:15:14Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:08:54.587Z",
+      "change_class": "code",
+      "files": 101,
+      "al": 94,
+      "objects": 94,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:08:59.991Z",
+      "prompt": "extract-change@1",
+      "kind": "refactor",
+      "behavior": false,
+      "cost_usd": 0.01405
+    },
+    "linked": {
+      "at": "2026-10-07T13:09:00.125Z",
+      "objects": 94,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:09:03.802Z",
+      "path": "content/changes/bcapps/10270.md"
     }
   },
   "input_hash": "0ea5e808d977dfd52bb3dd3014494fe73c43001e:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "quality management repair and improve xml documentation of procedures"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "010f1efbb71fb916c8657ab6fbf7149bcfe66c20b61aa383a610f6a283d3f71d"
 }

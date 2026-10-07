@@ -6,7 +6,7 @@
   "title": "[FI] Delocalize FI VAT-VIES Declaration report into FI Core",
   "url": "https://github.com/microsoft/BCApps/pull/9362",
   "published_at": "2026-08-20T17:31:09Z",
-  "state": "extracted",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -25,6 +25,16 @@
       "kind": "refactor",
       "behavior": false,
       "cost_usd": 0.005132
+    },
+    "linked": {
+      "at": "2026-10-07T13:08:45.833Z",
+      "objects": 1,
+      "unjoined": 7,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:08:45.839Z",
+      "path": "content/changes/bcapps/9362.md"
     }
   },
   "input_hash": "a31d921d644d13e8c571c944858a86e1a2d87a58:c1",
@@ -46,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "580553442414cfc6813cf19477b77ddc01ca71214830991c8f5c7329a667cf8a"
+  "output_hash": "01eeab3a8ef19faa529d8fbdd4035c1d1349af056381e3b30cb6aa61ff97cef8"
 }

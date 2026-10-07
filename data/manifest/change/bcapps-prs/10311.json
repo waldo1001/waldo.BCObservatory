@@ -6,10 +6,35 @@
   "title": "[Master] - Slice 640778: [Sustainability] Sustainability Entries should be more easy to find like other entries across BC",
   "url": "https://github.com/microsoft/BCApps/pull/10311",
   "published_at": "2026-08-20T12:52:53Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:08:50.060Z",
+      "change_class": "code",
+      "files": 4,
+      "al": 3,
+      "objects": 3,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:08:54.901Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.003513
+    },
+    "linked": {
+      "at": "2026-10-07T13:08:55.087Z",
+      "objects": 3,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:08:55.093Z",
+      "path": "content/changes/bcapps/10311.md"
     }
   },
   "input_hash": "57714ef82e43c5e9f55f54e9e7f200e907d0ed13:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "master slice 640778 sustainability sustainability entries should be more easy to find like other entries across bc"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b2d8ab29bf0d32e72546784df599560fb7f30f04c436d1f9ac2e5fc56fdae271"
 }

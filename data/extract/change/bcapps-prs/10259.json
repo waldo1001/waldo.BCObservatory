@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10259",
+  "number": 10259,
+  "title": "Slice 550732: Keep routing descriptions when vendor changes",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory"
+  ],
+  "summary": "Subcontracting requisitions now preserve routing line descriptions from the production order when the vendor changes, falling back to work-center descriptions only when the routing line is missing or has blank descriptions.",
+  "key_points": [
+    "Description and Description 2 fields are retained from matching production order routing lines instead of refreshing from the work center",
+    "Work-center fallback is preserved when routing line is missing, belongs to another work center, or has blank Description 2",
+    "Fix applied to both IT BaseApp and W1 BaseApp layers",
+    "Includes regression test scenario to prevent regression",
+    "Addresses vendor validation issue in subcontracting workflow"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing"
+  ],
+  "quote": "preserve subcontracting requisition Description and Description 2 from the matching production order routing line when the vendor changes",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003806,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10346,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10346",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-20T14:27:46Z",
+  "merge_commit_sha": "498733580e1273fc0d0cd7ddcbb59291a145425b",
+  "author": "t-prda",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Ownership: Manual",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "Fix activity log indirect permissions",
+  "body_hash": "12e35bbe2b8c10c20d204e786c93546c9985d1f0cf964918b06ef12ab4d6ea29",
+  "fixes_issues": [],
+  "work_items": [
+    647154
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Permissions/AgentUserPermissions/ExpenseAgentData.PermissionSet.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Permissions/ExpenseMgmtEdit.PermissionSet.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/test/src/ActivityLog/ExpenseActivityLogTest.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/test/src/ExpensePermissionsTest.Codeunit.al",
+      "status": "renamed",
+      "additions": 47,
+      "deletions": 4,
+      "class": "al-test",
+      "previous_filename": "src/Apps/W1/ExpenseAgent/test/src/ExpenseEventSubsPermTest.Codeunit.al"
+    }
+  ],
+  "totals": {
+    "files": 4,
+    "additions": 50,
+    "deletions": 5,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Permissions/AgentUserPermissions/ExpenseAgentData.PermissionSet.al",
+        "status": "modified",
+        "key": "permissionset/6953",
+        "type": "permissionset",
+        "id": 6953,
+        "name": "Expense Agent - Data",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "permissionset/6953"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Permissions/ExpenseMgmtEdit.PermissionSet.al",
+        "status": "modified",
+        "key": "permissionset/6906",
+        "type": "permissionset",
+        "id": 6906,
+        "name": "Expense Mgmt. Edit",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "permissionset/6906"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "ExpenseAgent"
+  ]
+}

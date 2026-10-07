@@ -6,10 +6,35 @@
   "title": "Fix activity log indirect permissions",
   "url": "https://github.com/microsoft/BCApps/pull/10346",
   "published_at": "2026-08-20T14:27:46Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:08:47.790Z",
+      "change_class": "code",
+      "files": 4,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:08:52.871Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": false,
+      "cost_usd": 0.00381
+    },
+    "linked": {
+      "at": "2026-10-07T13:08:53.012Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:08:53.017Z",
+      "path": "content/changes/bcapps/10346.md"
     }
   },
   "input_hash": "498733580e1273fc0d0cd7ddcbb59291a145425b:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": false,
     "title_key": "fix activity log indirect permissions"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0b2128d683a88a07d27fa1a5340d816e8982ad3505bbb872cef0b0b340f6d0ba"
 }

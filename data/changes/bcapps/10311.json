@@ -1,0 +1,107 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10311,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10311",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-20T12:52:53Z",
+  "merge_commit_sha": "57714ef82e43c5e9f55f54e9e7f200e907d0ed13",
+  "author": "v-rohangarg20",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[Master] - Slice 640778: [Sustainability] Sustainability Entries should be more easy to find like other entries across BC",
+  "body_hash": "f1cca18f0ffb0769aeab6579d3533a5484aae118ea8fc561660c4fcb510aed8b",
+  "fixes_issues": [],
+  "work_items": [
+    640778
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/Certificate/SustItemCard.PageExt.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/Certificate/SustItemList.PageExt.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/Ledger/SustainabilityLedgerEntries.Page.al",
+      "status": "modified",
+      "additions": 22,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/test/src/SustCertificateTest.Codeunit.al",
+      "status": "modified",
+      "additions": 90,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 4,
+    "additions": 140,
+    "deletions": 5,
+    "al": 3
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Sustainability/app/src/Certificate/SustItemCard.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/6222",
+        "type": "pageextension",
+        "id": 6222,
+        "name": "Sust. Item Card",
+        "app": "Sustainability",
+        "cc": "w1",
+        "page": "pageextension/6222"
+      },
+      {
+        "path": "src/Apps/W1/Sustainability/app/src/Certificate/SustItemList.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/6271",
+        "type": "pageextension",
+        "id": 6271,
+        "name": "Sust. Item List",
+        "app": "Sustainability",
+        "cc": "w1",
+        "page": "pageextension/6271"
+      },
+      {
+        "path": "src/Apps/W1/Sustainability/app/src/Ledger/SustainabilityLedgerEntries.Page.al",
+        "status": "modified",
+        "key": "page/6220",
+        "type": "page",
+        "id": 6220,
+        "name": "Sustainability Ledger Entries",
+        "app": "Sustainability",
+        "cc": "w1",
+        "page": "page/6220"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "sustainability"
+  ],
+  "apps": [
+    "Sustainability"
+  ]
+}

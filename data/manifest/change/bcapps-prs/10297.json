@@ -6,7 +6,7 @@
   "title": "Use Any module instead of hardcoded password in integration setup tests",
   "url": "https://github.com/microsoft/BCApps/pull/10297",
   "published_at": "2026-08-20T11:37:10Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -30,5 +30,8 @@
     ],
     "community_contribution": false,
     "title_key": "use any module instead of hardcoded password in integration setup tests"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T13:08:52.557Z",
+  "retry_after": null
 }

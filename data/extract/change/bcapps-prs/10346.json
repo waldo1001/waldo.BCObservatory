@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/10346",
+  "number": 10346,
+  "title": "Fix activity log indirect permissions",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "The Expense Agent and Expense Management permission sets now grant indirect permissions on Expense Activity Log Entry to prevent SaaS entitlement failures when users create lifecycle activity entries, while keeping all writes code-mediated through the activity log manager.",
+  "key_points": [
+    "Expense Mgmt. Edit receives indirect insert/modify/delete permission on Expense Activity Log Entry",
+    "Expense Agent - Data receives direct read plus indirect insert/modify/delete permissions",
+    "All activity writes remain code-mediated through Expense Activity Log Mgt., never direct",
+    "Permission hierarchy automatically extends the fix to admin users and those with Expense Management roles",
+    "Added regression tests verifying that both basic users and agents lack direct activity-log insert permission"
+  ],
+  "change_kind": "fix",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "copilot"
+  ],
+  "quote": "Fix SaaS entitlement failures when Expense Agent or Expense Management users create lifecycle activity entries.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00381,
+    "changes_in_call": 1
+  }
+}

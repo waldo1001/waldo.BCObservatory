@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/10407",
+  "number": 10407,
+  "title": "Shopify connector: persist order Tax Area Code, Tax Liable, and Tax Exempt (stack 1/3)",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "Shopify connector now captures and persists tax area code, tax liable, and tax exempt fields from Shopify orders, propagates them to sales documents during order and refund creation, and adds integration events for downstream extensions.",
+  "key_points": [
+    "Tax Area Code, Tax Liable, and Tax Exempt fields added to Shopify Order Header table",
+    "Shopify GraphQL queries updated to retrieve tax data",
+    "Tax values propagated to Sales Header on both order and refund creation",
+    "Fallback to Order Management tax area lookup when stored code is blank",
+    "Integration events and CommitBehavior added for extensibility"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration",
+    "sales"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004322,
+    "changes_in_call": 1
+  }
+}

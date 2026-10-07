@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/10425",
+  "number": 10425,
+  "title": "[master] Remittance Advice Report (ID 10083) prints Amount Due = 0 when using Suggest Vendor Payments with Summarize Per Vendor",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Report 10083 now correctly displays the Amount Due field when generating remittance advice with vendor payments summarized per vendor, fixing an issue where the field appeared as zero due to a missing field calculation.",
+  "key_points": [
+    "Added Remaining Amt. (LCY) to CalcFields in the Vendor Ledger Entry dataitem",
+    "Resolves incorrect zero amount display in Export Electronic Payments report",
+    "Affects vendor payment processing workflows using Summarize Per Vendor option",
+    "Test coverage added to prevent regression"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": "The report uses Remaining Amt. (LCY) without calculating this FlowField in the Vendor Ledger Entry dataitem.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00342,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9273",
+  "number": 9273,
+  "title": "Extend Contoso Mfg shop calendar range to cover next-year due dates",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "manufacturing"
+  ],
+  "summary": "Contoso Coffee Manufacturing demo data calendar now covers the next calendar year, preventing backward scheduling from silently clamping production order dates to the current year end.",
+  "key_points": [
+    "Expanded Calc. Machine Center Calendar and Calculate Work Center Calendar to generate entries for CurrentYear-1 through CurrentYear+1 instead of ending at CurrentYear",
+    "Fixes silent failure where released production orders with next-year due dates would schedule backwards to 12/31/CurrentYear due to missing calendar entries",
+    "Changed base year in AdjustDate calls from 1903 to 1904 to extend the calendar window by one year",
+    "Demo data only change with minimal risk, adds one extra year of calendar entries per work/machine center",
+    "Validation includes regenerating Contoso data and testing backward scheduling for next-year due dates"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004056,
+    "changes_in_call": 1
+  }
+}

@@ -6,10 +6,35 @@
   "title": "Extend Contoso Mfg shop calendar range to cover next-year due dates",
   "url": "https://github.com/microsoft/BCApps/pull/9273",
   "published_at": "2026-08-20T14:57:23Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:08:46.844Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:08:52.385Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004056
+    },
+    "linked": {
+      "at": "2026-10-07T13:08:52.539Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:08:52.544Z",
+      "path": "content/changes/bcapps/9273.md"
     }
   },
   "input_hash": "314db570eca92631a89726979c0165e262bef5f3:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "extend contoso mfg shop calendar range to cover next year due dates"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "23990546cae674d25b55cf1318adbfd46842c252114601bfea771c2ad298002b"
 }

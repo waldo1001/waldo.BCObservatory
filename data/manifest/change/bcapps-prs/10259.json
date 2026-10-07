@@ -6,10 +6,35 @@
   "title": "Slice 550732: Keep routing descriptions when vendor changes",
   "url": "https://github.com/microsoft/BCApps/pull/10259",
   "published_at": "2026-08-20T11:37:10Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:08:53.770Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:08:58.759Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003806
+    },
+    "linked": {
+      "at": "2026-10-07T13:08:58.910Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:08:58.915Z",
+      "path": "content/changes/bcapps/10259.md"
     }
   },
   "input_hash": "66fae4cce31404c7deba9699a4d1fe2e9138b304:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": false,
     "title_key": "slice 550732 keep routing descriptions when vendor changes"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "9950836af4308b5b4ed927de23532f694e9a3c9fcc2d30a0f44e8443379e2217"
 }

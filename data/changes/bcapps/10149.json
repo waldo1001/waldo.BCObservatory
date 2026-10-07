@@ -1,0 +1,107 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10149,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10149",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-20T09:15:57Z",
+  "merge_commit_sha": "9c19e09197bc23a6fdbc74bed36ba592f6c30e08",
+  "author": "PhDuck",
+  "author_type": "User",
+  "labels": [
+    "AL: System Application",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "Improve the Index Mgmt page discoverability",
+  "body_hash": "db812ac319f45bece7012478b52e4bf3fb531a48cbd284565274e422a20bea5b",
+  "fixes_issues": [],
+  "work_items": [
+    632385
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/System Application/App/Table Information/app.json",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/System Application/App/Table Information/src/IndexesListPart.Page.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/Table Information/src/TableInformation.Page.al",
+      "status": "modified",
+      "additions": 34,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/Table Information/src/TableInformationCard.Page.al",
+      "status": "modified",
+      "additions": 27,
+      "deletions": 5,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 4,
+    "additions": 81,
+    "deletions": 14,
+    "al": 3
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/System Application/App/Table Information/src/IndexesListPart.Page.al",
+        "status": "modified",
+        "key": "page/8704",
+        "type": "page",
+        "id": 8704,
+        "name": "Indexes List Part",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "page/8704"
+      },
+      {
+        "path": "src/System Application/App/Table Information/src/TableInformation.Page.al",
+        "status": "modified",
+        "key": "page/8700",
+        "type": "page",
+        "id": 8700,
+        "name": "Table Information",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "page/8700"
+      },
+      {
+        "path": "src/System Application/App/Table Information/src/TableInformationCard.Page.al",
+        "status": "modified",
+        "key": "page/8705",
+        "type": "page",
+        "id": 8705,
+        "name": "Table Information Card",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "page/8705"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "System Application"
+  ]
+}
