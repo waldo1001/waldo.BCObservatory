@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:21:46.353Z"
+  at: "2026-10-06T23:56:28.878Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 51f29353e271ae8c473eeae1473222fd09aba6ab6638a7f96d7f79cdb9ab2180
+  input_hash: 4449e04a7cb8705a91ff6de68669d3628f507e3e552d0d33672c0dcd823ce000
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/HybridBaseDeployment/app/src/CustomMigration/Interfaces/CustomMigrationTableMapping.Interface.al
@@ -60,6 +60,12 @@ counts:
   procedures: 4
   events: 0
   subscribers: 0
+relations:
+  out: 0
+  referenced_by: 0
+  pages: 0
+  extended_by: 0
+  event_subscribers: 0
 ---
 
 # Interface "Custom Migration Table Mapping"

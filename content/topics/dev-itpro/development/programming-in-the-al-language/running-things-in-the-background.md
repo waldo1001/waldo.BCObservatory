@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 7e973865ef69c54987bbe536a88d425040931744358986d9768ab1f223830a21
@@ -79,7 +79,11 @@ links:
     - topic/dev-itpro/development/programming-in-the-al-language/running-things-in-the-background/al-language-reference-background-process
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/aardvarklabs-blog/3837
+    - post/demiliani-com/13961
+    - post/demiliani-com/14203
+    - post/dvlprlife-com/https://www.dvlprlife.com/2026/07/weekly-review-business-central-al-development-june-28-july-4-2026/
   guidelines: []
 learn_toc_path:
   - Development
@@ -93,7 +97,7 @@ coverage:
   learn: 7
   code: 0
   video: 0
-  blog: 0
+  blog: 4
   guideline: 0
 bc_forms: []
 member_hash: 7e973865ef69c54987bbe536a88d425040931744358986d9768ab1f223830a21
@@ -116,5 +120,14 @@ Path: [Development](../../development.md) > [Programming in the AL language](../
 - [Job queue](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-job-queue): Learn about how the job queue works
 - [Page Background Tasks](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-background-tasks): Explains how to create page background tasks in Business Central.
 - [Task scheduler](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-task-scheduler): Learn about scheduled tasks and how the task scheduler works.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Background Page Tasks in Business Central Explained](../../../../posts/aardvarklabs-blog/3837.md) (community post): "Background page tasks enable pages to automatically refresh themselves or trigger actions when long-running processes complete"
+- [Dynamics 365 Business Central: the mistery around the “Parallel Session Management” codeunit.](../../../../posts/demiliani-com/13961.md) (community post): "Codeunit 490 is a manual, in-memory orchestrator using scope OnPrem procedures without async/await or platform-managed queues"
+- [Why your Business Central job queue needs idempotent external effects when integrating external systems.](../../../../posts/demiliani-com/14203.md) (community post): "Job queue entries that call external APIs risk duplicating actions when AL transactions roll back"
+- [Weekly Review: Business Central AL Development – June 28–July 4, 2026](../../../../posts/dvlprlife-com/https://www.dvlprlife.com/2026/07/weekly-review-business-central-al-development-june-28-july-4-2026/.md) (community post): "PageBackgroundTask offers an AL-native alternative to JavaScript timers"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

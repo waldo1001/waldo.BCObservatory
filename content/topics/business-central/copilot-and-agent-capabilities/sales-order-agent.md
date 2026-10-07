@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T13:43:32.763Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -57,8 +57,29 @@ links:
   topics:
     - topic/business-central/copilot-and-agent-capabilities
   localizations: []
-  videos: []
-  posts: []
+  videos:
+    - video/_JkZCp64jNw
+    - video/0h8QBNmeORQ
+    - video/1ht5nxubZ9c
+    - video/2ujWYYecA2c
+    - video/4nFViDASGhg
+    - video/7QJeTXzZaEk
+    - video/9cOdjHU15rE
+    - video/BrMKx3wqYac
+    - video/I7i25zBfyEQ
+    - video/j6gadQyB4gM
+    - video/jWqjDTbqjeE
+    - video/K0i5rvqPC_o
+    - video/kwGEoxN46hk
+    - video/Qmd6_5vYKDg
+    - video/RfHVHa_Qiqk
+    - video/UIL8ej7mSKQ
+    - video/XhO4oFmoh1M
+    - video/xJ8gYzvWnTI
+    - video/YX9UfUF0EsA
+  posts:
+    - post/gerardorenteria-blog/15130
+    - post/thinkaboutit-be/8022
   guidelines: []
 learn_toc_path:
   - Copilot and agent capabilities
@@ -69,8 +90,8 @@ children: []
 coverage:
   learn: 4
   code: 0
-  video: 0
-  blog: 0
+  video: 19
+  blog: 2
   guideline: 0
 bc_forms:
   - 4400
@@ -110,6 +131,32 @@ Start with the overview to understand the scope, then follow the setup page to a
 - [Process sales quotes and orders with Sales Order Agent](https://learn.microsoft.com/dynamics365/business-central/sales-order-agent-process): Learn how to use the Sales Order Agent to process sales quotes and orders from customer email requests.
 - [Sales Order Agent overview](https://learn.microsoft.com/dynamics365/business-central/sales-order-agent): Learn about the sales order Copilot agent in Business Central.
 - [Set up Sales Order Agent](https://learn.microsoft.com/dynamics365/business-central/sales-order-agent-setup): Set up Sales Order Agent in Business Central to process sales orders from customer emails. Learn how to activate and configure the agent.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [New Application Ideas of Dynamics 365 Business Central (2026 JUL)](../../../posts/gerardorenteria-blog/15130.md) (community post): "Community-sourced feature requests organized by Business Central functional areas"
+- [Quick Tip: What’s in Business Central Update 28.3](../../../posts/thinkaboutit-be/8022.md) (community post): "Sales Order Agent reaches General Availability with multiple agent support per company"
+- [Business Central Launch Event 2025 Release Wave 1 - Recording of Live Opening](../../../videos/_JkZCp64jNw.md) (video): "Sales Order Agent; Sales Order Agent Item Availability Feature"
+- [Microsoft Sizzle: Business Central Agents In Action](../../../videos/0h8QBNmeORQ.md) (video): "Sales Order Agent; Payables Agent; Custom Agents Framework"
+- [Sales Order Agent - Working with a Personal or Shared Folder (2026)](../../../videos/1ht5nxubZ9c.md) (video): "Sales Order Agent; outlook folder configuration; email account setup"
+- [Getting Started With Agents: Set Up Sales Order Agent - New 'Try it out' experience (2026)](../../../videos/2ujWYYecA2c.md) (video): "Sales Order Agent; Try It Out Experience; Email Attachment Detection"
+- [What's New: Sales Order Agent Enhancements (2025 release wave 2)](../../../videos/4nFViDASGhg.md) (video): "sales order agent; email processing; attachment analysis; custom instructions"
+- [Getting Started With Agents: Test Drive the Sales Order Agent (2025)](../../../videos/7QJeTXzZaEk.md) (video): "Sales Order Agent; Email Account Integration; Automatic Contact Creation"
+- [#BCTalent and AI: A Learner’s Guide](../../../videos/9cOdjHU15rE.md) (video): "BC Sales Agent; Copilot Studio integration; Multiple AI copilot features"
+- [Introducing: AI Consumption Billing for Business Central (2025 release wave 1)](../../../videos/BrMKx3wqYac.md) (video): "Sales Order Agent; Copilot and Agents capabilities page"
+- [Sales Order Agent for Dynamics 365 Business Central (2025)](../../../videos/I7i25zBfyEQ.md) (video): "Sales Order Agent; Agent email mapping to customer accounts; Agent-generated quote creation"
+- [What's Cooking in Business Central: Custom Email Signatures in the Sales Order Agent](../../../videos/j6gadQyB4gM.md) (video): "Custom Email Signatures in Sales Order Agent; Signature Content Validation"
+- [Introducing: Envision, Design and Code Business Central Agents](../../../videos/jWqjDTbqjeE.md) (video): "Sales Order Agent; Payables Agent; Human-in-the-Loop"
+- [What's New: Troubleshooting Business Central Agents](../../../videos/K0i5rvqPC_o.md) (video): "agent troubleshooting; agent decision-making; agent logging"
+- [Getting Started With Agents: Run Multiple Sales Order Agents in Parallel (2026 release wave 1)](../../../videos/kwGEoxN46hk.md) (video): "Run Multiple Sales Order Agents in Parallel configuration"
+- [Less Searching More Selling with Sales Order Agent (2025)](../../../videos/Qmd6_5vYKDg.md) (video): "Sales Order Agent; Natural Language Understanding for Item Recognition"
+- [Business Central Under the Hood episode 8: AI Small Language Models and Fine-tuning](../../../videos/RfHVHa_Qiqk.md) (video): "Sales order agent; Execute task steps for agent control"
+- [Dynamics 365 Business Central 2025 Release Wave 2](../../../videos/UIL8ej7mSKQ.md) (video): "Sales order agent automatic email processing; Sales order agent natural language guidance"
+- [Introducing: Sales Order Agent (2025 release wave 1)](../../../videos/XhO4oFmoh1M.md) (video): "Sales Order Agent; ai agents; email automation; quote processing"
+- [What's New: Business Central User Experience and Productivity (2026 release wave 1)](../../../videos/xJ8gYzvWnTI.md) (video): "Sales order agent"
+- [Microsoft presents: Introducing M365 Copilot Chat in Business Central](../../../videos/YX9UfUF0EsA.md) (video): "Sales order agent; Agentic loop for multi-step queries"
 
 ## Business Central pages and reports
 

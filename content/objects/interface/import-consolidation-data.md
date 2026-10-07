@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:21:46.353Z"
+  at: "2026-10-06T23:56:28.878Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: b4c2d47bf92260d392002e442fea80602f4e93a5d62a4c446d79812f414a3226
+  input_hash: a855b3f5939647cfe20d447604b530bcdddfa5e50303844dc046f562aa97fe5b
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Layers/W1/BaseApp/Finance/Consolidation/ImportConsolidationData.Interface.al
@@ -61,6 +61,12 @@ counts:
   procedures: 1
   events: 0
   subscribers: 0
+relations:
+  out: 0
+  referenced_by: 0
+  pages: 0
+  extended_by: 0
+  event_subscribers: 0
 ---
 
 # Interface "Import Consolidation Data"

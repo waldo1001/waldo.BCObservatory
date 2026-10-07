@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 7e97fad0e013b2deeb8cd08b179415b8f5c9bdbfcac1548d59040e65dca47512
@@ -40,7 +40,12 @@ links:
   topics:
     - topic/dev-itpro/development/troubleshooting/troubleshooting-in-the-client
   localizations: []
-  videos: []
+  videos:
+    - video/0qt0Zy9ZsRo
+    - video/B8PLDeZ73Y4
+    - video/snVsG69X-kw
+    - video/tpAh4q3h8T8
+    - video/ZKq0hc04f-s
   posts: []
   guidelines: []
 learn_toc_path:
@@ -54,7 +59,7 @@ children: []
 coverage:
   learn: 2
   code: 0
-  video: 0
+  video: 5
   blog: 0
   guideline: 0
 bc_forms: []
@@ -72,5 +77,15 @@ Path: [Development](../../../development.md) > [Troubleshooting](../../troublesh
 
 - [Performance Profiler overview](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/performance-profiler-overview): Describes how to use the Performance Profiler page in Business Central to troubleshoot slow processes.
 - [Scheduled performance profiler overview](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/scheduled-performance-profiler-overview): Describes how to use the Profiler Schedules page in Business Central to troubleshoot slow processes across time.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [What's New: Analyze Performance Issues with Scheduled Profiles (2024 release wave 2)](../../../../../videos/0qt0Zy9ZsRo.md) (video): "Analyze Performance Issues with Scheduled Profiles performance troubleshooting"
+- [Snapshot Debugging vs AL Profiler in Business Central — When to Use Each](../../../../../videos/B8PLDeZ73Y4.md) (video): "Snapshot Debugging vs AL Profiler in Business Central"
+- [Business Central Under the Hood episode 3: How Many Users Can Business Central Handle in the Cloud?](../../../../../videos/snVsG69X-kw.md) (video): "In-client performance profiler; Performance toolkit; Telemetry and performance logging"
+- [Directions EMEA 2023 Keynote: Business Central saves time for consultants and power users](../../../../../videos/tpAh4q3h8T8.md) (video): "Attached debugger from client; Actionable errors; Telemetry capture"
+- [What's New: Capturing SQL Calls in Performance Profiles (2025 release wave 2)](../../../../../videos/ZKq0hc04f-s.md) (video): "Capturing SQL Calls in Performance Profiles performance profiler"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

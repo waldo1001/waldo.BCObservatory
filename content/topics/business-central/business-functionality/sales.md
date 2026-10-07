@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: a7057eece9376f74152e42cbc191091a340f3b2859370e6619efe877b5f7758d
@@ -331,8 +331,14 @@ links:
     - topic/business-central/business-functionality/sales/sales-analytics
     - topic/business-central/business-functionality/sales/subscription-billing
   localizations: []
-  videos: []
-  posts: []
+  videos:
+    - video/cuez5kIanKo
+    - video/EyAhM6x_FVw
+    - video/O0UTg-e3t5k
+    - video/PIWxU93eCT4
+    - video/rmPtE94fby0
+  posts:
+    - post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-69-item-blocked-fields/
   guidelines: []
 learn_toc_path:
   - Business functionality
@@ -345,8 +351,8 @@ children:
 coverage:
   learn: 133
   code: 0
-  video: 0
-  blog: 0
+  video: 5
+  blog: 1
   guideline: 0
 bc_forms:
   - 7
@@ -538,6 +544,17 @@ Path: [Business functionality](../business-functionality.md) > Sales · tier off
 - [Walkthrough conducting a sales campaign](https://learn.microsoft.com/dynamics365/business-central/walkthrough-conducting-a-sales-campaign): This walkthrough gives a detailed overview of all the tasks involved in conducting a sales campaign in Business Central.
 - [Work with blanket sales orders or purchase orders](https://learn.microsoft.com/dynamics365/business-central/sales-how-to-create-blanket-sales-orders): Use blanket orders when a customer agrees to buy large quantities that you deliver in small shipments over a period of time.
 - [Work with recurring revenue](https://learn.microsoft.com/dynamics365/business-central/finance-recurring-invoicing): Learn about the available options to automate sending subscription invoices to your customers and register recurring revenue.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [BC Friday Tips #69 Item Blocked Fields](../../../posts/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-69-item-blocked-fields/.md) (community post): "Checking only the main Blocked field can allow restricted actions like sales on sales-blocked items"
+- [What's New in Shopify Connector: Activate Sales Channels (2025 release wave 1)](../../../videos/cuez5kIanKo.md) (video): "Activate Specific Sales Channels; Multiple Sales Channels Setup"
+- [Episode 518: You Have 18 Months: The AI Marketing Reckoning Nobody's Ready For](../../../videos/EyAhM6x_FVw.md) (video): "ai agents; answer engines; building in public; personal branding; employee advocacy"
+- [Jump to a Master Entity Using a Keyboard Shortcut](../../../videos/O0UTg-e3t5k.md) (video): "keyboard shortcuts; master entity navigation; sales orders"
+- [What's Cooking in Business Central: Edit Sales Price Lists in Excel](../../../videos/PIWxU93eCT4.md) (video): "sales price lists; excel integration; edit prices"
+- [BCTalent Stories: Ciellos](../../../videos/rmPtE94fby0.md) (video): "career transition; consulting skills; ai and copilot; soft skills; business processes"
 
 ## Business Central pages and reports
 

@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T13:43:32.763Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -57,8 +57,18 @@ links:
   topics:
     - topic/business-central/copilot-and-agent-capabilities/expense-agent-preview
   localizations: []
-  videos: []
-  posts: []
+  videos:
+    - video/1IIlArcHpOY
+    - video/6rm45dSB6xg
+    - video/cVfZoDwKYpI
+    - video/cWVhWBMbXb4
+    - video/e_x5QF0vXgs
+    - video/GwrMf1umTFg
+    - video/NI6WYze-JSU
+    - video/vyQnSxRGJDA
+    - video/x0XF0lBvgEE
+  posts:
+    - post/demiliani-com/13563
   guidelines: []
 learn_toc_path:
   - Copilot and agent capabilities
@@ -70,8 +80,8 @@ children: []
 coverage:
   learn: 4
   code: 0
-  video: 0
-  blog: 0
+  video: 9
+  blog: 1
   guideline: 0
 bc_forms:
   - 4400
@@ -112,6 +122,21 @@ Start with the overview page for scope, then read the email page if receipts arr
 - [Expense Agent Overview for Business Central](https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-overview): Learn about Expense Agent, an AI-powered tool that helps employees capture receipts, track expenses, and submit expense reports in Business Central.
 - [How the Expense Agent Processes Emails](https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-agent): Learn how Expense Agent monitors a mailbox, creates expenses from emails, and sends reminders about open expense reports.
 - [Understand Policy Compliance in Expense Agent](https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-policy-compliance): Learn how Expense Agent applies real-time expense rules and uses AI to evaluate your organization's natural-language expense policies.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Dynamics 365 Business Central: how many Copilot Credits my Agent consumes?](../../../../posts/demiliani-com/13563.md) (community post): "Dynamics 365 Business Central Agents consume Copilot credits during execution"
+- [What's New: Working with Instructions for Agents in Business Central](../../../../videos/1IIlArcHpOY.md) (video): "Working with Instructions for Agents; Agent Instructions Framework"
+- [Expense Agent: Feedback (2026 release wave 1)](../../../../videos/6rm45dSB6xg.md) (video): "Expense Agent; Feedback; user experience; issue reporting"
+- [Microsoft presents: Behind the scenes of how we build the new Expense Agent](../../../../videos/cVfZoDwKYpI.md) (video): "Expense Agent; Receipt Extraction via AI; Mileage Expense Calculation"
+- [What's new in Expense Agent: Improved Mileage Handling (2026 release wave 2)](../../../../videos/cWVhWBMbXb4.md) (video): "Date-range mileage allowances; Vehicle-type-specific mileage rates; Mileage rate setup table"
+- [Expense Agent: Mobile Experience (2026 release wave 1)](../../../../videos/e_x5QF0vXgs.md) (video): "Expense Agent mobile app; Receipt capture with native OS detection; AI extraction of expense details"
+- [What's new in Expense Agent: Project Handling (2026 release wave 2)](../../../../videos/GwrMf1umTFg.md) (video): "What's new in Expense Agent: Project Handling shows project tracking in Expense Agent"
+- [Expense Agent: Project Expenses (2026 release wave 1)](../../../../videos/NI6WYze-JSU.md) (video): "Expense Agent; project tracking; project assignment"
+- [Expense Agent: Per Diem Allowances (2026 release wave 1)](../../../../videos/vyQnSxRGJDA.md) (video): "Expense Agent: Per Diem Allowances; per diem allowances; expense agent"
+- [Microsoft Ends Business Central Release Plans: What Changes?](../../../../videos/x0XF0lBvgEE.md) (video): "Dynamics 365 Business Central Expense Agent - Withholding Taxes"
 
 ## Business Central pages and reports
 

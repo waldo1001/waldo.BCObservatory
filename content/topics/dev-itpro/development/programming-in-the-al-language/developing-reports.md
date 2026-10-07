@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 86f764373eee65f2aaea2ba6017998ee632ccc264ede4a68720e19417f2f99bf
@@ -324,7 +324,9 @@ links:
     - topic/dev-itpro/development/programming-in-the-al-language/developing-reports/how-users-work-with-reports
     - topic/dev-itpro/development/programming-in-the-al-language/developing-reports/al-language-reference-reports
   localizations: []
-  videos: []
+  videos:
+    - video/eUkx_VCcyoU
+    - video/M1S2_bgLd3Q
   posts: []
   guidelines: []
 learn_toc_path:
@@ -343,7 +345,7 @@ children:
 coverage:
   learn: 54
   code: 0
-  video: 0
+  video: 2
   blog: 0
   guideline: 0
 bc_forms:
@@ -394,6 +396,13 @@ Path: [Development](../../development.md) > [Programming in the AL language](../
 - [Troubleshooting reports](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-reports-troubleshooting): Learn about how to troubleshoot Business Central reports
 - [Using request pages with reports](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-request-pages-for-reports): Introducing how to work with request pages with Business Central reports.
 - [Walkthrough - Designing a report from multiple tables](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-walktrough-designing-reports-multiple-tables): This walkthrough shows you how to design a report from multiple tables.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [What's New: AL Language (2025 release wave 1)](../../../../videos/eUkx_VCcyoU.md) (video): "reports; strings; json; yaml; testing; Report Tooltips; Excel Layout"
+- [What's New: Server and Database (2025 release wave 2)](../../../../videos/M1S2_bgLd3Q.md) (video): "Server and Database analysis mode semantic search advanced tell me document reporting"
 
 ## Business Central pages and reports
 

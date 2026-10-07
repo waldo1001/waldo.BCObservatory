@@ -21,7 +21,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:43:21.582Z"
+  at: "2026-10-07T00:17:53.935Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -73,7 +73,9 @@ evidence:
 links:
   learn: []
   objects: []
-  features: []
+  features:
+    - feature/573363
+    - feature/573364
   topics: []
   localizations: []
   videos: []
@@ -109,10 +111,12 @@ features:
     verified: false
     status_source: video
   - name: Dedicated agent task pane
-    status: unclear
+    status: ga
     t: 66
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573363"
   - name: Sales order agent
     status: unclear
     t: 78
@@ -129,10 +133,12 @@ features:
     verified: false
     status_source: video
   - name: Created/updated by system columns
-    status: unclear
+    status: ga
     t: 118
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573364"
   - name: Review bar for agent changes
     status: unclear
     t: 161
@@ -205,14 +211,16 @@ The video demos the agent task pane, the system columns, the review bar and the 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
 | Updated Business Central icon | status not stated | [0:19](https://www.youtube.com/watch?v=xJ8gYzvWnTI&t=19s) |  |
-| Dedicated agent task pane | status not stated, demoed | [1:06](https://www.youtube.com/watch?v=xJ8gYzvWnTI&t=66s) |  |
+| Dedicated agent task pane | generally available (roadmap [573363](../features/573363.md)), demoed | [1:06](https://www.youtube.com/watch?v=xJ8gYzvWnTI&t=66s) |  |
 | Sales order agent | status not stated | [1:18](https://www.youtube.com/watch?v=xJ8gYzvWnTI&t=78s) |  |
 | Payables agent | status not stated, demoed | [1:18](https://www.youtube.com/watch?v=xJ8gYzvWnTI&t=78s) |  |
 | Custom agents capability | status not stated | [1:18](https://www.youtube.com/watch?v=xJ8gYzvWnTI&t=78s) |  |
-| Created/updated by system columns | status not stated, demoed | [1:58](https://www.youtube.com/watch?v=xJ8gYzvWnTI&t=118s) |  |
+| Created/updated by system columns | generally available (roadmap [573364](../features/573364.md)), demoed | [1:58](https://www.youtube.com/watch?v=xJ8gYzvWnTI&t=118s) |  |
 | Review bar for agent changes | status not stated, demoed | [2:41](https://www.youtube.com/watch?v=xJ8gYzvWnTI&t=161s) |  |
 | Cancel all agent tasks action | status not stated | [4:38](https://www.youtube.com/watch?v=xJ8gYzvWnTI&t=278s) |  |
 | Enhanced feedback experience | status not stated | [5:25](https://www.youtube.com/watch?v=xJ8gYzvWnTI&t=325s) |  |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## Quotes
 

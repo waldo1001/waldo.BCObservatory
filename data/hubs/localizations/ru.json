@@ -1,0 +1,211 @@
+{
+  "country": "RU",
+  "version": "29",
+  "input_hash": "15c6730b93b0389488b3b001b3e5d1369b55bf6b3aff9b9618bd37682bc273b9",
+  "summary": "Russia (RU) localization of Business Central 29: Russian VAT ledgers and settlement, prepayments and prepayment differences, G/L correspondence, tax registers and tax differences, fixed assets, cash and bank payment orders, inventory acts and Russian printed forms. Answers what the RU layer adds to W1 tables, posting codeunits and reports.",
+  "overview": "The Russian layer is large: 853 objects, of which about 630 are its own (tables, pages, reports, codeunits in the 12400, 14900, 17200, 17300 and 26550 ranges) and the rest replace or extend W1 objects. It adds about 1,145 fields and 427 procedures to W1 objects, mostly on posting, ledger entry, document and setup tables. Core posting codeunits such as Gen. Jnl.-Post Line, Gen. Jnl.-Post Batch, Gen. Jnl.-Post Reverse, Purch.-Post, Sales-Post and Item Jnl.-Post Line carry the local logic.\n\nMain capabilities: VAT ledgers, VAT settlement, reinstatement and allocation, with VAT posting setup extensions. Vendor and customer prepayments with prepayment difference postings. General ledger correspondence. Tax registers and tax differences for profit tax. Corrective documents with before/after lines. Agreements. Fixed asset documents (release, movement, write-off), depreciation bonus, locations and responsible employees. Cash orders (CO-3, CO-4), bank payment orders and a bank directory. Inventory documents with red storno, customs declaration (CD) numbers and many regulated print forms (Factura, TORG-12, TORG-13, M-15, INV-17 and others) built on Excel report helper codeunits. Statutory financial reports use account schedule extensions.\n\nLearn documents these under \"Russia local functionality\" with pages on VAT, prepayments, fixed assets, inventory, banking, tax accounting and reports. Learn pages also describe human resources and payroll (absence, dismissal, staff list). The code summary shows no big HR objects beyond Employee fields, so treat those pages as documented-only here. Extension points are limited: six events were added, such as OnApplyVendLedgEntryOnBeforeUnrealizedVAT in Gen. Jnl.-Post Line.",
+  "key_points": [
+    "VAT: own VAT ledger (sales and purchase), VAT settlement, reinstatement and allocation codeunits; VAT Entry and VAT Posting Setup gain fields such as Tax Invoice Amount Type, Trans. VAT Type and VAT Settlement Template.",
+    "Prepayments and prepayment differences: prepayment accounts on posting groups, Prepmt. Diff. fields on ledger entries and documents, PrepmtDiffManagement codeunit.",
+    "G/L correspondence: correspondence entries, analysis pages and automatic correspondence setting on General Ledger Setup.",
+    "Tax accounting: tax register creation codeunits (17200 range), tax difference journals and posting (17300 range), depreciation bonus.",
+    "Fixed assets: FA release, movement and write-off documents, FA locations and employees, inventory, disposal expense, revised Fixed Asset and FA Setup tables.",
+    "Cash and bank: cash orders, CO-3 and CO-4 reports, bank payment orders, bank directory, BIC and correspondent account fields on bank accounts.",
+    "Documents: corrective documents, agreements, letters of attorney, customs declaration numbers, red storno in inventory.",
+    "Reporting: Excel-based regulated forms (Factura, TORG-12, M-15, INV-17, FA-1 and more) and statutory financial reports via account schedule extensions."
+  ],
+  "areas": [
+    {
+      "area": "(no namespace)",
+      "what": "Holds most of the local objects: management codeunits for VAT ledgers, settlement, reinstatement, prepayment differences, G/L correspondence, agreements and corrective documents. It also holds tax register and tax difference codeunits, FA document posting, and the Excel report helpers for regulated forms. Large sets of local pages and reports sit here.",
+      "why": "Learn documents these as the Russian VAT ledgers, tax registers, tax differences, cash reports CO-3 and CO-4 and printed forms such as TORG-29 and INV-17.",
+      "objects": [
+        "codeunit/12411",
+        "codeunit/12423",
+        "codeunit/12412",
+        "codeunit/12404",
+        "codeunit/12417",
+        "codeunit/12418",
+        "codeunit/17201",
+        "codeunit/17301"
+      ]
+    },
+    {
+      "area": "Finance",
+      "what": "Extends general ledger posting with Russian VAT handling, VAT settlement and reinstatement in the batch, reversal with tax differences and exchange rate adjustment changes. Adds fields to VAT Entry, VAT Posting Setup, Gen. Journal Line, Currency, G/L Account and General Ledger Setup, and account schedule fields for financial reports.",
+      "why": "Learn describes VAT posting on sales, VAT settlement, exchange rate adjustment and user-defined financial reports with correspondence, constants and extensions.",
+      "objects": [
+        "codeunit/12",
+        "codeunit/13",
+        "codeunit/17",
+        "codeunit/699",
+        "table/254",
+        "table/325",
+        "table/81",
+        "table/98"
+      ]
+    },
+    {
+      "area": "FixedAssets",
+      "what": "Adds Russian fixed asset features: statuses, inventory numbers, locations and employees, depreciation bonus, disposal cost, tax depreciation books and reclassification. Changes depreciation and ledger posting codeunits and many fields on FA tables.",
+      "why": "Learn covers fixed assets in Russia including depreciation bonus, charges, inventory, movements, turnover, gratuitous receipts and sales.",
+      "objects": [
+        "table/5600",
+        "table/5603",
+        "table/5612",
+        "table/5601",
+        "codeunit/5611",
+        "codeunit/5632",
+        "codeunit/5600",
+        "table/5621"
+      ]
+    },
+    {
+      "area": "Purchases",
+      "what": "Adds employee (advance) purchases, corrective documents, vendor VAT invoice data, prepayment difference fields and agreement numbers to purchase documents and vendor ledger entries. Vendor gets OKPO, VAT agent and linked customer fields, and Vendor Bank Account gets BIC fields. Purch.-Post gets local procedures.",
+      "why": "Learn describes registering VAT on purchase orders, letters of attorney, vendor prepayments and VAT agent handling.",
+      "objects": [
+        "table/38",
+        "table/23",
+        "table/312",
+        "table/25",
+        "codeunit/90",
+        "table/288",
+        "table/93",
+        "report/393"
+      ]
+    },
+    {
+      "area": "Sales",
+      "what": "Adds corrective documents with before/after quantities and prices, prepayment and prepayment difference fields, KPP and signatory fields, and agreement numbers to sales documents and customer ledger entries. Sales-Post gains procedures for correction documents and shipment lookup.",
+      "why": "Learn covers customer prepayments, prepayment differences and the VAT invoice and shipment documents used in Russia.",
+      "objects": [
+        "table/36",
+        "table/37",
+        "table/311",
+        "table/18",
+        "codeunit/80",
+        "table/112",
+        "table/21",
+        "table/379"
+      ]
+    },
+    {
+      "area": "Inventory",
+      "what": "Adds red storno posting, fixed asset links on item and value entries, application date checks and template codes for inventory forms to Inventory Setup. Changes Item Jnl.-Post Line, Inventory Posting To G/L and inventory adjustment. Responsibility Center gets address fields.",
+      "why": "Learn describes inventory setup, red storno corrections, item documents and obligatory acts such as TORG-13, TORG-16 and M-7.",
+      "objects": [
+        "table/313",
+        "codeunit/22",
+        "table/5802",
+        "table/83",
+        "codeunit/5802",
+        "table/5714",
+        "table/94",
+        "codeunit/5895"
+      ]
+    },
+    {
+      "area": "Foundation",
+      "what": "Extends Company Information with director, accountant and Russian classifier codes (OGRN, OKPO and similar). Extends Source Code Setup, Country/Region, Unit of Measure (OKEI code) and Report Selections, with Document-Print procedures for cash orders, advance statements and FA documents.",
+      "why": null,
+      "objects": [
+        "table/79",
+        "table/242",
+        "codeunit/229",
+        "table/77",
+        "table/9",
+        "table/204",
+        "codeunit/1901",
+        "page/344"
+      ]
+    },
+    {
+      "area": "Bank",
+      "what": "Adds Russian bank fields (BIC, correspondent account, sender and recipient details) to bank accounts, reconciliation lines, check ledger entries and payment export data. Adds cash order numbering and payment attributes, and changes check management and payment export.",
+      "why": "Learn describes bank directory, bank payment orders, cash account cards and cash orders.",
+      "objects": [
+        "table/270",
+        "table/274",
+        "table/272",
+        "table/1226",
+        "codeunit/1206",
+        "codeunit/367",
+        "table/271",
+        "codeunit/1223"
+      ]
+    },
+    {
+      "area": "Security",
+      "what": "Modifies W1 permission sets (customer, vendor, fixed assets, cost accounting) and the LOCAL and LOCAL READ sets so they cover the Russian objects.",
+      "why": null,
+      "objects": [
+        "permissionset/1001",
+        "permissionset/1002",
+        "permissionset/7568",
+        "permissionset/3846",
+        "permissionset/2018",
+        "permissionset/7371",
+        "permissionset/865",
+        "permissionset/5269"
+      ]
+    },
+    {
+      "area": "IO",
+      "what": "Adds columns to data exchange definitions and fields, a font size on Excel Buffer, and CSV import and export handling by column name. These support Russian bank and Excel exports.",
+      "why": null,
+      "objects": [
+        "table/1222",
+        "table/1221",
+        "table/1223",
+        "table/370",
+        "xmlport/1220",
+        "xmlport/1230"
+      ]
+    },
+    {
+      "area": "HumanResources",
+      "what": "Extends Employee with employee vendor, bank code, short name, identity document and helper procedures for full name, age and employment status. Adds a Type field on Misc. Article and a selection procedure on Employee List.",
+      "why": "Learn covers Russian human resources topics such as payroll, absence, dismissal and staff lists.",
+      "objects": [
+        "table/5200",
+        "page/5201",
+        "table/5213"
+      ]
+    },
+    {
+      "area": "Utilities",
+      "what": "Adds data classification procedures for the country tables and a procedure to move G/L correspondence entries in MoveEntries.",
+      "why": null,
+      "objects": [
+        "codeunit/1752",
+        "codeunit/361"
+      ]
+    },
+    {
+      "area": "Warehouse",
+      "what": "Adds a CD No. (customs declaration number) field to Warehouse Activity Line and Bin Content Buffer.",
+      "why": "Learn describes tracking customs declaration numbers for imported goods.",
+      "objects": [
+        "table/5767",
+        "table/7330"
+      ]
+    },
+    {
+      "area": "Manufacturing",
+      "what": "A page extension adds Russian entries to the production order report selection.",
+      "why": null,
+      "objects": [
+        "pageextension/12420"
+      ]
+    }
+  ],
+  "learn_pages_used": 60,
+  "prompt_version": 2,
+  "at": "2026-10-06T23:55:24.452Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.274544
+  }
+}

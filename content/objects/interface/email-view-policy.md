@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:21:46.353Z"
+  at: "2026-10-06T23:56:28.878Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: d03d9c00a17f2fc3a9929165ae465a5aac38b4d33384f535dbdf12898316fc23
+  input_hash: c5fd76f7b1940aea57cc9d060bf2310681ad72bc0664f993237de83013ee524b
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/System%20Application/App/Email/src/Email/View%20Policy/EmailViewPolicy.Interface.al
@@ -61,6 +61,12 @@ counts:
   procedures: 8
   events: 0
   subscribers: 0
+relations:
+  out: 0
+  referenced_by: 0
+  pages: 0
+  extended_by: 0
+  event_subscribers: 0
 ---
 
 # Interface "Email View Policy"

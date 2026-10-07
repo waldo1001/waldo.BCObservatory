@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:21:46.353Z"
+  at: "2026-10-06T23:56:28.878Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 81727bf9d132afdbab5b3556ca59b488e9628c213d000ca0a2c515babe622643
+  input_hash: 4b575877abb6521e55746c5c5ab53f515d291155f191e4d326c9cb9363685178
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Layers/W1/BaseApp/eServices/EDocument/IPdfDocumentHandler.Interface.al
@@ -61,6 +61,12 @@ counts:
   procedures: 1
   events: 0
   subscribers: 0
+relations:
+  out: 0
+  referenced_by: 0
+  pages: 0
+  extended_by: 0
+  event_subscribers: 0
 ---
 
 # Interface "IPdfDocumentHandler"

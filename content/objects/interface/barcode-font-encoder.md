@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:21:46.353Z"
+  at: "2026-10-06T23:56:28.878Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 39a67d06e6274f6de86feb2aa12472fed63fdfc2027cc67d5dee713c33097212
+  input_hash: 14230b556d19126bba99bd9e08a1f1a5cbe7740167e31ee6097d2ede58a8121a
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/System%20Application/App/Barcode/src/Barcode%20Provider/Font/BarcodeFontEncoder.Interface.al
@@ -61,6 +61,12 @@ counts:
   procedures: 2
   events: 0
   subscribers: 0
+relations:
+  out: 0
+  referenced_by: 0
+  pages: 0
+  extended_by: 0
+  event_subscribers: 0
 ---
 
 # Interface "Barcode Font Encoder"

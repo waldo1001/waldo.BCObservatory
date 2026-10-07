@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 03dfb8de0fc286d415d19882f489e5658576fb1e000fdda85d5fc028f5610df5
@@ -41,7 +41,8 @@ links:
     - topic/dev-itpro/administration/migrate-to-business-central-online
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-7706250162700204847
   guidelines: []
 learn_toc_path:
   - Administration
@@ -54,7 +55,7 @@ coverage:
   learn: 2
   code: 0
   video: 0
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms: []
 member_hash: 03dfb8de0fc286d415d19882f489e5658576fb1e000fdda85d5fc028f5610df5
@@ -71,5 +72,11 @@ Path: [Administration](../../administration.md) > [Migrate to Business Central o
 
 - [Customization Migration Guide - Dynamics NAV to Business Central Online](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-nav-customization-playbook): Learn how to convert C/AL customizations to AL extensions when migrating from Dynamics NAV to Business Central online.
 - [Migrate Dynamics NAV to Business Central online](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-nav): Learn how to migrate from Dynamics NAV on-premises to Business Central online, including supported upgrade paths and key considerations.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [NAV to Business Central: What Actually Moves, and What Needs to Change?](../../../../posts/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-7706250162700204847.md) (community post): "Moving from Dynamics NAV to Business Central requires two separate projects: a technical upgrade through mandatory waypoints"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

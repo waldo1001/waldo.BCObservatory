@@ -21,7 +21,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:51:44.228Z"
+  at: "2026-10-07T00:17:53.935Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -66,7 +66,8 @@ evidence:
 links:
   learn: []
   objects: []
-  features: []
+  features:
+    - feature/573322
   topics: []
   localizations: []
   videos: []
@@ -107,15 +108,19 @@ features:
     verified: false
     status_source: video
   - name: Audit fields in profile customization
-    status: unclear
+    status: ga
     t: 423
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573322"
   - name: Audit fields in analysis mode
-    status: unclear
+    status: ga
     t: 676
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573322"
 objects_mentioned:
   - page customer
   - page customer list
@@ -174,8 +179,10 @@ The video explains why system audit fields matter for tracking who created or ch
 | Feature | Status | At | Evidence |
 |---|---|---|---|
 | System audit fields as flow fields | status not stated, demoed | [5:12](https://www.youtube.com/watch?v=H7R_m8Ue38g&t=312s) |  |
-| Audit fields in profile customization | status not stated, demoed | [7:03](https://www.youtube.com/watch?v=H7R_m8Ue38g&t=423s) |  |
-| Audit fields in analysis mode | status not stated, demoed | [11:16](https://www.youtube.com/watch?v=H7R_m8Ue38g&t=676s) |  |
+| Audit fields in profile customization | generally available (roadmap [573322](../features/573322.md)), demoed | [7:03](https://www.youtube.com/watch?v=H7R_m8Ue38g&t=423s) |  |
+| Audit fields in analysis mode | generally available (roadmap [573322](../features/573322.md)), demoed | [11:16](https://www.youtube.com/watch?v=H7R_m8Ue38g&t=676s) |  |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## AL objects mentioned
 

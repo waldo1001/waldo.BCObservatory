@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 1e9d87c5c7bc5c5d2c15f618694b5c366328cca38971729abf17d5e323363617
@@ -311,7 +311,9 @@ links:
     - topic/business-central/business-functionality/finance/financial-analytics/built-in-finance-analysis-tools
     - topic/business-central/business-functionality/finance/financial-analytics/built-in-finance-reports
   localizations: []
-  videos: []
+  videos:
+    - video/fxrVyBD8UoU
+    - video/HI7VcPzR2OE
   posts: []
   guidelines: []
 learn_toc_path:
@@ -328,7 +330,7 @@ children:
 coverage:
   learn: 129
   code: 0
-  video: 0
+  video: 2
   blog: 0
   guideline: 0
 bc_forms:
@@ -536,6 +538,13 @@ Path: [Business functionality](../../business-functionality.md) > [Finance](../f
 - [Ad-hoc analysis of finance data](https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-finance): Learn how to use the data analysis mode to analyze finance data.
 - [Consolidate data from multiple companies](https://learn.microsoft.com/dynamics365/business-central/finance-consolidated-company-reporting): This article explains how you can consolidate the general ledger entries of two or more separate companies (subsidiaries) into a consolidated company.
 - [Financial analytics](https://learn.microsoft.com/dynamics365/business-central/bi): Business Central helps you gather, analyze, and share company data for business intelligence.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [What's New: Enhanced Financial Analytics (2026 release wave 1)](../../../../videos/fxrVyBD8UoU.md) (video): "Enhanced Financial Analytics (2026 release wave 1). Topics: financial analytics; excel layouts; deferral reports"
+- [What's New: Financial Management - Overview (2024 release wave 1)](../../../../videos/HI7VcPzR2OE.md) (video): "GL Revaluation and Currency Code on GL Entries; Excel Reports for Financial Data; Consolidation"
 
 ## Business Central pages and reports
 

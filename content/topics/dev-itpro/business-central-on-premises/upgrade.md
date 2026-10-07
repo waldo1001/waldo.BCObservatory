@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: e884ecc91be6e839aa2d84ba04f77ca8d1b17004f69c48fab181a7c6af1bb9ff
@@ -315,7 +315,10 @@ links:
     - topic/dev-itpro/business-central-on-premises/upgrade/related-articles
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/dvlprlife-com/https://www.dvlprlife.com/2026/08/august-2026-cumulative-updates-for-dynamics-365-business-central/
+    - post/dvlprlife-com/https://www.dvlprlife.com/2026/09/september-2026-cumulative-updates-for-dynamics-365-business-central/
+    - post/gerardorenteria-blog/13744
   guidelines: []
 learn_toc_path:
   - Business Central on-premises
@@ -334,7 +337,7 @@ coverage:
   learn: 113
   code: 0
   video: 0
-  blog: 0
+  blog: 3
   guideline: 0
 bc_forms:
   - 19010
@@ -363,6 +366,14 @@ Path: [Business Central on-premises](../business-central-on-premises.md) > Upgra
 - [Some Known Issues in Business Central On-premises](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/known-issues): Provides an overview of the known issues that can affect Business Central installation or upgrade.
 - [Supported upgrade paths to Business Central on-premises](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-paths): Provides an overview of the different upgrade paths for Business Central on-premises across versions.
 - [Upgrading to Dynamics 365 Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrading-to-business-central): Learn how to upgrade to Dynamics 365 Business Central with this comprehensive guide. Covers online and on-premises deployment options.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [August 2026 Cumulative Updates for Dynamics 365 Business Central](../../../posts/dvlprlife-com/https://www.dvlprlife.com/2026/08/august-2026-cumulative-updates-for-dynamics-365-business-central/.md) (community post): "August 2026 cumulative updates are available for Dynamics 365 Business Central"
+- [September 2026 Cumulative Updates for Dynamics 365 Business Central](../../../posts/dvlprlife-com/https://www.dvlprlife.com/2026/09/september-2026-cumulative-updates-for-dynamics-365-business-central/.md) (community post): "September 2026 cumulative updates are available for Dynamics 365 Business Central"
+- [Cumulative Updates for Business Central – versions](../../../posts/gerardorenteria-blog/13744.md) (community post): "Cumulative updates for Business Central replace previous releases and fix vulnerabilities"
 
 ## Business Central pages and reports
 

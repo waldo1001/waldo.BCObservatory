@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T13:43:32.763Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -48,7 +48,12 @@ links:
   features: []
   topics: []
   localizations: []
-  videos: []
+  videos:
+    - video/06vgkq2EXmA
+    - video/94Lqd7Ap8YQ
+    - video/NE7NIjpkX3c
+    - video/QCo-uIfPs9g
+    - video/RfHVHa_Qiqk
   posts: []
   guidelines: []
 learn_toc_path:
@@ -59,7 +64,7 @@ children: []
 coverage:
   learn: 3
   code: 0
-  video: 0
+  video: 5
   blog: 0
   guideline: 0
 bc_forms: []
@@ -96,5 +101,15 @@ The pages are independent, so start with the one that matches your scenario. Par
 - [Transparency Note Developer Tools for Copilot in Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/transparency-note-dev-tools-for-copilot): Developer tools for Copilot in Business Central help you build safer, adaptable AI features. Learn how to use the toolkit and boost productivity.
 - [Transparency Note Machine Learning APIs for Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/ml-transparency-note): Understand how our AI technology works with regards to Machine Learning APIs, the choices system owners can make that influence system performance and behavior, and the importance of thinking about the whole system, including the technology, the people, and the environment
 - [Transparency Note Semantic Metadata Search in Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/transparency-note-semantic-metadata-search): Semantic Metadata Search helps you build safer, adaptable AI features. Learn how to use the toolkit and boost productivity.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Business Central Under the Hood episode 4: How we built Copilot Chat in Business Central](../../videos/06vgkq2EXmA.md) (video): "Jailbreak Prevention; Harmful Input Dataset Testing"
+- [#BCTalent and AI: A Partner’s Guide](../../videos/94Lqd7Ap8YQ.md) (video): "AI Power User Certification Path; Partner Technical Upskilling in AI"
+- [What's New: Prepare Your Copilot Extension - Practical Considerations (2025 release wave 1)](../../videos/NE7NIjpkX3c.md) (video): "Hallucinations and Fabrications Management"
+- [What's New: Extending Copilot in Business Central (2024 Release Wave 2)](../../videos/QCo-uIfPs9g.md) (video): "Telemetry for Copilot Features"
+- [Business Central Under the Hood episode 8: AI Small Language Models and Fine-tuning](../../videos/RfHVHa_Qiqk.md) (video): "Cost-accuracy tradeoff analysis; Prompt engineering for cost reduction"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

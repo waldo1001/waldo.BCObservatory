@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 55dd29fc70666e92156685da1af9b9056a2e5bd40077b64d2f89586d24d4d668
@@ -313,7 +313,8 @@ links:
     - topic/business-central/development-and-administration/synchronize-master-data-across-companies
     - topic/business-central/development-and-administration/migrate-to-business-central-online
   localizations: []
-  videos: []
+  videos:
+    - video/IIdtxatSw7A
   posts: []
   guidelines: []
 learn_toc_path:
@@ -328,7 +329,7 @@ children:
 coverage:
   learn: 77
   code: 0
-  video: 0
+  video: 1
   blog: 0
   guideline: 0
 bc_forms:
@@ -583,6 +584,12 @@ Path: Development and administration · tier official · system administration �
 - [Developing extensions in AL](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview): Overview of the development experience for building extensions using the AL language.
 - [Development and administration for Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/): Learn how to extend, manage, and customize Dynamics 365 Business Central.
 - [Performance Overview for Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/performance/performance-overview): Learn different ways to improve the performance of Business Central as a functional consultant, a developer, or an administrator.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Business Central Under the Hood episode 10: Hackers Are at the Gate! Business Central & Security.](../../videos/IIdtxatSw7A.md) (video): "security; cyber threats; ransomware; password management; secure by default"
 
 ## Business Central pages and reports
 

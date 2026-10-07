@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:21:46.353Z"
+  at: "2026-10-06T23:56:28.878Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: dbc03d5e021c809b604c5ed3b4938a383129f8c15e1658ebd7cc6a31490a8e6c
+  input_hash: 1fd837c4fb0656b174277a4247f9e0421e072da22546a7ec7a858d7c9a80ef38
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/CompanyHub/app/Entitlements/Dynamics365BusinessCentralExternalAccountantCOHUB.Entitlement.al
@@ -60,6 +60,12 @@ counts:
   procedures: 0
   events: 0
   subscribers: 0
+relations:
+  out: 0
+  referenced_by: 0
+  pages: 0
+  extended_by: 0
+  event_subscribers: 0
 ---
 
 # Entitlement "Dynamics 365 Business Central External Accountant COHUB"

@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 12534f49a5bdb1e08b3bdde93f9b595733e06b9a6707b049bcdf159186a718af
@@ -40,7 +40,10 @@ links:
   topics:
     - topic/business-central/copilot-and-agent-capabilities
   localizations: []
-  videos: []
+  videos:
+    - video/D2KPQEbO40Q
+    - video/PB2ZG8fM3EE
+    - video/SH4Ffukj3P4
   posts: []
   guidelines: []
 learn_toc_path:
@@ -52,7 +55,7 @@ children: []
 coverage:
   learn: 2
   code: 0
-  video: 0
+  video: 3
   blog: 0
   guideline: 0
 bc_forms: []
@@ -70,5 +73,13 @@ Path: [Copilot and agent capabilities](../copilot-and-agent-capabilities.md) > A
 
 - [Autofill fields with Copilot (preview)](https://learn.microsoft.com/dynamics365/business-central/autofill-fields-with-copilot): Learn how to use Copilot's autofill feature to assist you in filling in fields on card and document pages.
 - [Responsible AI FAQ for Autofill (preview)](https://learn.microsoft.com/dynamics365/business-central/faqs-autofill): Learn about the AI technology of Autofill in Business Central, considerations, details about how AI is used, tested, evaluated, and limitations.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Dynamics 365 Business Central 2025 Release Wave 1 Release Highlights](../../../videos/D2KPQEbO40Q.md) (video): "Autofill; Summarize with Copilot; Scope 3 Value Chain Process Automation"
+- [What's New: Autofill Fields with Copilot (2025 release wave 1)](../../../videos/PB2ZG8fM3EE.md) (video): "Copilot autofill for card and document pages"
+- [What's New: Autofill Contact Details with Copilot (2025 release wave 2)](../../../videos/SH4Ffukj3P4.md) (video): "Autofill Contact Details with Copilot; autofill; copilot; bing search"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 767c0b58b8e0cf8926570071004c2578881137e73400df512e1744297090322c
@@ -120,8 +120,23 @@ links:
   topics:
     - topic/business-central/business-functionality/finance
   localizations: []
-  videos: []
-  posts: []
+  videos:
+    - video/1ugAYeEZLaU
+    - video/5E6ikveL6N0
+    - video/5zXQ_aIT03s
+    - video/fIktVTGZkjE
+    - video/HpIxYyjQWqs
+    - video/kuKwjRyNcoE
+    - video/lcu53ikOk7s
+    - video/NkYNL_5Zfoc
+    - video/r8HWIk5E0c0
+    - video/VIda0Ok1SSQ
+    - video/XJ0JHHQ7GzA
+    - video/zQhtuFbxJm4
+  posts:
+    - post/olofsimren-com/3853
+    - post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-4662412510469862425
+    - post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-6476700913383925526
   guidelines: []
 learn_toc_path:
   - Business functionality
@@ -133,8 +148,8 @@ children: []
 coverage:
   learn: 12
   code: 0
-  video: 0
-  blog: 0
+  video: 12
+  blog: 3
   guideline: 0
 bc_forms:
   - 1
@@ -218,6 +233,26 @@ Path: [Business functionality](../../business-functionality.md) > [Finance](../f
 - [Understand the general ledger and Chart of Accounts](https://learn.microsoft.com/dynamics365/business-central/finance-general-ledger): This article describes the general ledger, chart of accounts, and account categories.
 - [Understanding the Chart of Accounts](https://learn.microsoft.com/dynamics365/business-central/finance-chart-of-accounts): Describes the chart of accounts, how to set it up, and how to use it.
 - [Undo a posting using a reversing entry](https://learn.microsoft.com/dynamics365/business-central/finance-how-reverse-journal-posting): If you find a mistake in a posted general journal, you can use the Reverse Transaction action to undo the posting with a correct audit trail.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Allow Posting Date Formula](../../../../posts/olofsimren-com/3853.md) (community post): "Date formulas for allowed posting dates in General Ledger Setup"
+- [How to Use Date Formulas for Allowed Posting Periods in Business Central BC28.](../../../../posts/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-4662412510469862425.md) (community post): "dynamic date formulas for allowed posting periods that automatically calculate"
+- [Automating Posting Periods in Business Central with Date Formulas](../../../../posts/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-6476700913383925526.md) (community post): "Date formulas enable automatic posting period adjustments in Business Central"
+- [Working with Amount Fields](../../../../videos/1ugAYeEZLaU.md) (video): "amount fields; debit and credit; general ledger"
+- [Comparing Posting Accounts and Posting Groups Between Dynamics GP and Dynamics Business Central](../../../../videos/5E6ikveL6N0.md) (video): "Posting groups; posting accounts; default posting accounts"
+- [Control When People Can Post to the General Ledger](../../../../videos/5zXQ_aIT03s.md) (video): "posting control; general ledger setup; accounting periods"
+- [Comparing Correcting and Reversing Entries Between Dynamics GP and Dynamics Business Central (2024)](../../../../videos/fIktVTGZkjE.md) (video): "correcting entries; reversing entries; journal entries; dimensions; general ledger; posting"
+- [How to Work With General Journals in Business Central (2025)](../../../../videos/HpIxYyjQWqs.md) (video): "General journals; Journal templates; Journal entry"
+- [Ensure Consistency in Journals With Journal Check](../../../../videos/kuKwjRyNcoE.md) (video): "Journal Check; Enable Data Check Setting; Journal Check Fact Box"
+- [Safeguard G/L Accounts From Deletion](../../../../videos/lcu53ikOk7s.md) (video): "Check GL account usage setting; Check GL account deletion after field"
+- [Comparing General Journal Entries between Dynamics SL and Dynamics 365 Business Central](../../../../videos/NkYNL_5Zfoc.md) (video): "General journal; Journal entry; offset accounts"
+- [Comparing Correcting and Reversing Entries between Dynamics SL and Dynamics 365 Business Central](../../../../videos/r8HWIk5E0c0.md) (video): "Reverse journal entry; Correct dimension in Business Central"
+- [Control Deferral Posting](../../../../videos/VIda0Ok1SSQ.md) (video): "deferral templates; deferral posting; general ledger setup; user permissions"
+- [Comparing Posting Accounts and posting groups between Dynamics SL and Dynamics 365 Business Cent](../../../../videos/XJ0JHHQ7GzA.md) (video): "Comparing Posting Accounts and posting groups between Dynamics SL and Dynamics 365"
+- [Comparing General Journal Entries Between Dynamics GP and Dynamics Business Central (2024)](../../../../videos/zQhtuFbxJm4.md) (video): "General Journal batches; Account name auto-filter in journal entry"
 
 ## Business Central pages and reports
 

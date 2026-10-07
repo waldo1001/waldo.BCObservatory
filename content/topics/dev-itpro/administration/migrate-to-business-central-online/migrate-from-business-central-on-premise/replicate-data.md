@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 0ab15c5da299d3b1ab31b23fa5d18e1a931113c5566840f113fdfc46f7579aa3
@@ -41,7 +41,8 @@ links:
     - topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-business-central-on-premise
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/demiliani-com/13676
   guidelines: []
 learn_toc_path:
   - Administration
@@ -55,7 +56,7 @@ coverage:
   learn: 2
   code: 0
   video: 0
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms: []
 member_hash: 0ab15c5da299d3b1ab31b23fa5d18e1a931113c5566840f113fdfc46f7579aa3
@@ -72,5 +73,11 @@ Path: [Administration](../../../administration.md) > [Migrate to Business Centra
 
 - [Data replication overview](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-data-replication): Learn how to replicate on-premises data to an online environment after setting up the cloud migration.
 - [Run and manage data replication](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-data-replication-run): This article explains how to run data replication to move data from Business Central on-premises database to on line.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Business Central Cloud Migration: be careful on reusing the same self-hosted runtime.](../../../../../posts/demiliani-com/13676.md) (community post): "self-hosted integration runtime across different migrations, as it becomes disabled"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

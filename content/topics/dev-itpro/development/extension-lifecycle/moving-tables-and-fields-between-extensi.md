@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: e781925b2d2638cc9a288286f1fa2795dd0863ec87a16728691c77f30ba7b959
@@ -40,7 +40,8 @@ links:
   topics:
     - topic/dev-itpro/development/extension-lifecycle
   localizations: []
-  videos: []
+  videos:
+    - video/vQU-oYfDn88
   posts: []
   guidelines: []
 learn_toc_path:
@@ -53,7 +54,7 @@ children: []
 coverage:
   learn: 2
   code: 0
-  video: 0
+  video: 1
   blog: 0
   guideline: 0
 bc_forms: []
@@ -71,5 +72,11 @@ Path: [Development](../../development.md) > [Extension lifecycle](../extension-l
 
 - [Development process for moving tables and fields between extensions](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-scenarios-moving-table-fields): A step-by-step guide on how to implement different scenarios for moving tables or fields
 - [Moving tables and fields between extensions](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-move-table-fields-between-extensions): Learn how to move tables and fields between extensions in Business Central.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [What's New: Moving Tables and Fields Between AppSource Extensions (2025 release wave 1)](../../../../videos/vQU-oYfDn88.md) (video): "Move Tables and Fields Between Extensions; Obsolation Property; MoveTo and MoveFrom Properties"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T13:43:32.763Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -57,7 +57,8 @@ links:
   topics:
     - topic/business-central/business-functionality/expense-management-preview
   localizations: []
-  videos: []
+  videos:
+    - video/54uIhzZq3Os
   posts: []
   guidelines: []
 learn_toc_path:
@@ -70,7 +71,7 @@ children: []
 coverage:
   learn: 4
   code: 0
-  video: 0
+  video: 1
   blog: 0
   guideline: 0
 bc_forms:
@@ -112,6 +113,12 @@ Start with the overview to get the scope, then read the email page if intake is 
 - [How the Expense Agent Processes Emails](https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-agent): Learn how Expense Agent monitors a mailbox, creates expenses from emails, and sends reminders about open expense reports.
 - [Responsible AI FAQ for Expense Agent (preview)](https://learn.microsoft.com/dynamics365/business-central/expense-management/faqs-expense-agent): Learn how AI automates expenses processing in Business Central, including setup, capabilities, limitations, and responsible use.
 - [Understand Policy Compliance in Expense Agent](https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-policy-compliance): Learn how Expense Agent applies real-time expense rules and uses AI to evaluate your organization's natural-language expense policies.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Expense Agent: Finance Controlling (2026 release wave 1)](../../../../videos/54uIhzZq3Os.md) (video): "Expense Agent; Default dimensions on employee records; Billable information"
 
 ## Business Central pages and reports
 

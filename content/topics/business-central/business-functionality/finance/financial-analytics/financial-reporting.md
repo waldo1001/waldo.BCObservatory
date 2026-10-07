@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 34b966ca42180bb6ff0521f53a7f3fc90c0ee4d675dfb2f7ec1f9bee47682086
@@ -184,7 +184,17 @@ links:
   topics:
     - topic/business-central/business-functionality/finance/financial-analytics
   localizations: []
-  videos: []
+  videos:
+    - video/_ynMUzh956w
+    - video/adsSh_dm9BY
+    - video/b54ehH4AlFA
+    - video/Fs90uUdWi0M
+    - video/Oxfai-_UnTI
+    - video/qj0VHB2Pmvc
+    - video/RdYLc7ebNJ8
+    - video/RLmDGw1o_PI
+    - video/uxQRfChp96c
+    - video/v4LXW8BO4GQ
   posts: []
   guidelines: []
 learn_toc_path:
@@ -198,7 +208,7 @@ children: []
 coverage:
   learn: 20
   code: 0
-  video: 0
+  video: 10
   blog: 0
   guideline: 0
 bc_forms:
@@ -268,6 +278,21 @@ Path: [Business functionality](../../../business-functionality.md) > [Finance](.
 - [Troubleshoot Financial Reporting](https://learn.microsoft.com/dynamics365/business-central/bi-troubleshoot-financial-reports): Describes how to troubleshoot some typical issues in financial reporting.
 - [Use Statistical Accounts to Analyze Non-Transactional Data](https://learn.microsoft.com/dynamics365/business-central/bi-use-statistical-accounts): Describes how to use statistical accounts as another source of data for your analyses.
 - [View a financial report](https://learn.microsoft.com/dynamics365/business-central/finance-financial-reporting-view-a-report): Describes how to view a financial report on-screen, as a PDF, or in Excel.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Introducing: Sustainability in Business Central (2024 release wave 1)](../../../../../videos/_ynMUzh956w.md) (video): "Sustainability journals; Chart of sustainability accounts; Standard sustainability reports"
+- [What's Cooking in Business Central: Sneak Peek into New Financial Reporting Enhancements (part 1)](../../../../../videos/adsSh_dm9BY.md) (video): "financial reporting; report definitions; internal description"
+- [What's Cooking in Business Central: Financial Reporting Enhancements (part 2): Telemetry](../../../../../videos/b54ehH4AlFA.md) (video): "telemetry; financial reporting; application insights; row definitions"
+- [What's New: Financial Analytics (2025 release wave 2)](../../../../../videos/Fs90uUdWi0M.md) (video): "Dynamic date headers in financial reporting; Additional reporting currency support"
+- [What’s New: Financial Reporting (for Administrators) (2025 release wave 1)](../../../../../videos/Oxfai-_UnTI.md) (video): "financial reporting; telemetry; audit; change log; permissions; financial report definitions"
+- [What's new: Enhanced Financial Reporting (2026 release wave 2)](../../../../../videos/qj0VHB2Pmvc.md) (video): "financial reporting; chart of accounts; account categories; row definitions"
+- [What’s New: Financial Reporting (for Report Users) (2025 release wave 1)](../../../../../videos/RdYLc7ebNJ8.md) (video): "financial reporting; user interface; negative number formatting; pdf export"
+- [What’s New: Financial Reporting (for Report Authors) (2025 release wave 1)](../../../../../videos/RLmDGw1o_PI.md) (video): "financial reporting; report definitions; row definitions; column definitions"
+- [What's New: Enhanced Financial Reporting (2026 release wave 1)](../../../../../videos/uxQRfChp96c.md) (video): "financial reporting; tile view; report categories; lifecycle status"
+- [Work with your Financial Reports in a Spreadsheet inside Business Central (Advanced Spreadsheets)](../../../../../videos/v4LXW8BO4GQ.md) (video): "financial reports; spreadsheet export; advanced spreadsheets; live data"
 
 ## Business Central pages and reports
 

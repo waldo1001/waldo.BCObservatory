@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:21:46.353Z"
+  at: "2026-10-06T23:56:28.878Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: cbf7180246fc169d8a354c88d80146c50851b17598c7a41cb6134375d21be1bd
+  input_hash: 8ff2839ac2901dacefd4576ae9abcede9eb4a5b959258de3cd688f418292f15d
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/PayablesAgent/app/Profile/PageCustomizations/PAItemReferenceEntries.PageCust.al
@@ -60,6 +60,12 @@ counts:
   procedures: 0
   events: 0
   subscribers: 0
+relations:
+  out: 0
+  referenced_by: 0
+  pages: 0
+  extended_by: 0
+  event_subscribers: 0
 ---
 
 # Page customization "PA Item Reference Entries"

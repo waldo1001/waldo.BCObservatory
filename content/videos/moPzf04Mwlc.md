@@ -21,7 +21,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:13:40.030Z"
+  at: "2026-10-07T00:17:53.935Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -80,7 +80,8 @@ evidence:
 links:
   learn: []
   objects: []
-  features: []
+  features:
+    - feature/573366
   topics: []
   localizations: []
   videos: []
@@ -136,10 +137,12 @@ features:
     verified: false
     status_source: video
   - name: Agent Action Justification and Audit Trail
-    status: unclear
+    status: ga
     t: 277
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573366"
   - name: Task Repeat and Iterative Improvement
     status: unclear
     t: 323
@@ -238,13 +241,15 @@ The demo then creates a task with attachments (PDF and image), follows the agent
 | Agent Creation Wizard | status not stated, demoed | [0:23](https://www.youtube.com/watch?v=moPzf04Mwlc&t=23s) |  |
 | Agent Task Execution with File Attachments | status not stated, demoed | [2:17](https://www.youtube.com/watch?v=moPzf04Mwlc&t=137s) |  |
 | Task Log and Execution Tracking | status not stated, demoed | [3:13](https://www.youtube.com/watch?v=moPzf04Mwlc&t=193s) |  |
-| Agent Action Justification and Audit Trail | status not stated, demoed | [4:37](https://www.youtube.com/watch?v=moPzf04Mwlc&t=277s) |  |
+| Agent Action Justification and Audit Trail | generally available (roadmap [573366](../features/573366.md)), demoed | [4:37](https://www.youtube.com/watch?v=moPzf04Mwlc&t=277s) |  |
 | Task Repeat and Iterative Improvement | status not stated, demoed | [5:23](https://www.youtube.com/watch?v=moPzf04Mwlc&t=323s) |  |
 | Agent Request for Human Assistance | status not stated, demoed | [6:09](https://www.youtube.com/watch?v=moPzf04Mwlc&t=369s) |  |
 | Copilot Credits Consumption Tracking | status not stated, demoed | [6:43](https://www.youtube.com/watch?v=moPzf04Mwlc&t=403s) |  |
 | Instruction Versioning and History | status not stated, demoed | [6:55](https://www.youtube.com/watch?v=moPzf04Mwlc&t=415s) |  |
 | Sales Return Agent Creation | status not stated, demoed | [0:35](https://www.youtube.com/watch?v=moPzf04Mwlc&t=35s) |  |
 | Agent Permission Inheritance from User | status not stated | [1:27](https://www.youtube.com/watch?v=moPzf04Mwlc&t=87s) |  |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## AL objects mentioned
 

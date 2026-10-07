@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: e61be6da2db02a768496ad1858aadee2c0c869510eb59e607441e2997654f52b
@@ -309,7 +309,9 @@ links:
     - topic/business-central/business-functionality/service-management/fulfill-service-contracts
     - topic/business-central/business-functionality/service-management/deliver-service
   localizations: []
-  videos: []
+  videos:
+    - video/N8Unj6WLB6U
+    - video/pEXl-POet_4
   posts: []
   guidelines: []
 learn_toc_path:
@@ -325,7 +327,7 @@ children:
 coverage:
   learn: 56
   code: 0
-  video: 0
+  video: 2
   blog: 0
   guideline: 0
 bc_forms:
@@ -385,6 +387,13 @@ Path: [Business functionality](../business-functionality.md) > Service managemen
 ## More Learn pages
 
 - [Service management](https://learn.microsoft.com/dynamics365/business-central/service-service): Learn to use features in Business Central designed to support service operations.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [What's New: Service Management (2024 release wave 1)](../../../videos/N8Unj6WLB6U.md) (video): "Service quote; service order; service contract; service items; invoicing policy"
+- [What's New: Project and Service Management (2024 release wave 1)](../../../videos/pEXl-POet_4.md) (video): "service archiving; service filing; service contract filing improvements"
 
 ## Business Central pages and reports
 

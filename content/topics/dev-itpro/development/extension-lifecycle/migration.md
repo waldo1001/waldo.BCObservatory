@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 4d474caeded31ac5afc7d7c82e64c4359ea65d4a650817182d41771c8d0731c4
@@ -61,7 +61,8 @@ links:
     - topic/dev-itpro/development/extension-lifecycle
     - topic/dev-itpro/development/extension-lifecycle/migration/migrating-tables-and-fields-between-exte
   localizations: []
-  videos: []
+  videos:
+    - video/KkOr-hX0frQ
   posts: []
   guidelines: []
 learn_toc_path:
@@ -75,7 +76,7 @@ children:
 coverage:
   learn: 5
   code: 0
-  video: 0
+  video: 1
   blog: 0
   guideline: 0
 bc_forms: []
@@ -96,5 +97,11 @@ Path: [Development](../../development.md) > [Extension lifecycle](../extension-l
 ## More Learn pages
 
 - [Generating Delta files](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-generating-delta-files): Description of how to generate delta files with the ExportToNewSyntax flag.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [How to Migrate Business Central Table Fields from Integer to BigInteger \| Version 29 Preview](../../../../videos/KkOr-hX0frQ.md) (video): "field type change; schema synchronization; extension dependency; narrowing conversion"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

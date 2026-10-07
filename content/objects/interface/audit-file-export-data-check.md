@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:21:46.353Z"
+  at: "2026-10-06T23:56:28.878Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 730bc454dfee4dfeb4159de4f471fcecbd68f34cac9a7fc085685e883f04f18c
+  input_hash: c4aee2a41bd44bec32b362c5730c0954c4201c60c2f87e94ec25140b711f9d6b
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/AuditFileExport/app/src/AuditFileExportDataCheck.Interface.al
@@ -60,6 +60,12 @@ counts:
   procedures: 2
   events: 0
   subscribers: 0
+relations:
+  out: 0
+  referenced_by: 0
+  pages: 0
+  extended_by: 0
+  event_subscribers: 0
 ---
 
 # Interface "Audit File Export Data Check"

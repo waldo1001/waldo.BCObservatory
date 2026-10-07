@@ -2,7 +2,7 @@
 id: source/yt-stefanmaron
 type: source
 title: Stefan Maron
-summary: "Stefan Maron (MVP): 3 videos in the knowledge base, 2026-03-05 to 2026-05-08, mostly about development, platform."
+summary: "Stefan Maron (MVP): 6 videos in the knowledge base, 2026-01-28 to 2026-05-08, mostly about development, platform."
 tier: community
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:17:53.406Z"
+  at: "2026-10-06T23:39:50.809Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: af669dd1f3a81a3c2674abd94d8c6d130bf7199c957d1c64f4e6d4077d16a94c
+  input_hash: aad70dfa46819c3936a580bd7499838a9aa68716a2cf1b26f56bab0ae3034efc
 evidence:
   - kind: video
     url: https://www.youtube.com/channel/UC96RLsspoArRJu6dhwkOsWQ
@@ -28,10 +28,14 @@ evidence:
 links:
   learn: []
   objects: []
-  features: []
+  features:
+    - feature/573351
   topics: []
   localizations: []
   videos:
+    - video/jfvUkNa4gyg
+    - video/ecYXnXULijI
+    - video/tMqCSibSRug
     - video/y5rOAnAkuN8
     - video/LuAHCXiwYn4
     - video/JI5KlMxrtoA
@@ -43,67 +47,69 @@ url: https://www.youtube.com/channel/UC96RLsspoArRJu6dhwkOsWQ
 author: Stefan Maron
 mvp: true
 full_text: false
-item_count: 3
+item_count: 6
 footprint:
   systems:
     - id: development
-      weight: 2
+      weight: 5
     - id: platform
       weight: 1
   topics:
+    - id: al development
+      weight: 2
+    - id: cloud code
+      weight: 2
+    - id: dev containers
+      weight: 2
     - id: docker containers
       weight: 2
     - id: agent configuration
       weight: 1
     - id: agent memory
       weight: 1
+    - id: agent orchestration
+      weight: 1
+    - id: ai agents
+      weight: 1
+    - id: ai coding
+      weight: 1
     - id: al cops
       weight: 1
-    - id: al development setup
-      weight: 1
-    - id: analyzers
-      weight: 1
-    - id: authentication persistence
-      weight: 1
-    - id: claude code
-      weight: 1
-    - id: claude profiles
-      weight: 1
-    - id: cloud code sandbox
-      weight: 1
   objects:
+    - id: other Dockerfile
+      weight: 2
+    - id: codeunit helper code units
+      weight: 1
     - id: codeunit ISO store manager
+      weight: 1
+    - id: codeunit resolver code units
+      weight: 1
+    - id: other account scheduling
+      weight: 1
+    - id: other AL cups extension
       weight: 1
     - id: other AL repo summarizer
       weight: 1
+    - id: other ALCops
+      weight: 1
+    - id: other ApplicationCop
+      weight: 1
+    - id: other Business Sentinel
+      weight: 1
+    - id: other Cloud Code
+      weight: 1
     - id: other cloud sandbox alias
       weight: 1
-    - id: other cloud.markdown
+  features:
+    - id: feature/573351
       weight: 1
-    - id: other codeunit run
-      weight: 1
-    - id: other Corpin Le's plugin
-      weight: 1
-    - id: other delete all
-      weight: 1
-    - id: other Dockerfile
-      weight: 1
-    - id: other error info
-      weight: 1
-    - id: other extension license
-      weight: 1
-    - id: other GitHub
-      weight: 1
-    - id: other IP tables
-      weight: 1
-  features: []
-first_item: "2026-03-05"
+first_item: "2026-01-28"
 last_item: "2026-05-08"
 ---
 
 # Stefan Maron
 
-> Stefan Maron (MVP): 3 videos in the knowledge base, 2026-03-05 to 2026-05-08, mostly about development, platform.
+> Stefan Maron (MVP): 6 videos in the knowledge base, 2026-01-28 to 2026-05-08, mostly about development, platform.
 
 [https://www.youtube.com/channel/UC96RLsspoArRJu6dhwkOsWQ](https://www.youtube.com/channel/UC96RLsspoArRJu6dhwkOsWQ) · channel · tier community
 
@@ -111,30 +117,37 @@ last_item: "2026-05-08"
 
 | Systems | Topics | AL objects named |
 |---|---|---|
-| development (2) | docker containers (2) | codeunit ISO store manager (1) |
-| platform (1) | agent configuration (1) | other AL repo summarizer (1) |
-|  | agent memory (1) | other cloud sandbox alias (1) |
-|  | al cops (1) | other cloud.markdown (1) |
-|  | al development setup (1) | other codeunit run (1) |
-|  | analyzers (1) | other Corpin Le's plugin (1) |
-|  | authentication persistence (1) | other delete all (1) |
-|  | claude code (1) | other Dockerfile (1) |
-|  | claude profiles (1) | other error info (1) |
-|  | cloud code sandbox (1) | other extension license (1) |
-|  |  | other GitHub (1) |
-|  |  | other IP tables (1) |
+| development (5) | al development (2) | other Dockerfile (2) |
+| platform (1) | cloud code (2) | codeunit helper code units (1) |
+|  | dev containers (2) | codeunit ISO store manager (1) |
+|  | docker containers (2) | codeunit resolver code units (1) |
+|  | agent configuration (1) | other account scheduling (1) |
+|  | agent memory (1) | other AL cups extension (1) |
+|  | agent orchestration (1) | other AL repo summarizer (1) |
+|  | ai agents (1) | other ALCops (1) |
+|  | ai coding (1) | other ApplicationCop (1) |
+|  | al cops (1) | other Business Sentinel (1) |
+|  |  | other Cloud Code (1) |
+|  |  | other cloud sandbox alias (1) |
 
 ## Flight path
 
 Items per quarter, oldest first:
 
-- 2026-Q1: ** 2
+- 2026-Q1: ***** 5
 - 2026-Q2: * 1
+
+## Roadmap features it demonstrates
+
+- [573351](../features/573351.md)
 
 ## Most recent
 
 - [How Good Can AL Code Get? — A Live ISO 5055 Review](../videos/JI5KlMxrtoA.md) (2026-05-08)
 - [Swappable Claude Profiles: Per-Project Configs via Container Mounting (Part 3)](../videos/LuAHCXiwYn4.md) (2026-03-16)
 - [Claude Code in a Standalone Docker Container: Building a Real Sandbox (Part 2)](../videos/y5rOAnAkuN8.md) (2026-03-05)
+- [ALCops: LinterCop's Successor for Business Central AL Code Analysis (feat Arthur van de Vondervoort)](../videos/tMqCSibSRug.md) (2026-02-28)
+- [Let's Build a Plug & Play Claude Code Setup for AL Development - The Business Central Coding Stream](../videos/ecYXnXULijI.md) (2026-02-20)
+- [AL Development using Claude Code - The Business Central Coding Stream](../videos/jfvUkNa4gyg.md) (2026-01-28)
 
 Source: videos of this source in BC Observatory, derived pages only (CONTENT-NOTICE.md).

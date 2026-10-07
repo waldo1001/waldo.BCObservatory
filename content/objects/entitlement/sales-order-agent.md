@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:21:46.353Z"
+  at: "2026-10-06T23:56:28.878Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: db6d06a4bcf299f0c2bcf18aa12c497616b9d1be870406bb4fa776cfbb95387e
+  input_hash: 3414f22d485e9f8db1175b523038354003f86e4fb4761722ce7a57f22dec1379
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/SalesOrderAgent/app/src/Permissions/SalesOrderAgent.entitlement.al
@@ -60,6 +60,12 @@ counts:
   procedures: 0
   events: 0
   subscribers: 0
+relations:
+  out: 0
+  referenced_by: 0
+  pages: 0
+  extended_by: 0
+  event_subscribers: 0
 ---
 
 # Entitlement "Sales Order Agent"

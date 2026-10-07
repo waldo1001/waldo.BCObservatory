@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: a2f92bceaf479bc775b034d22d378cbefa3e722b436187aa4531b067299c5c74
@@ -57,7 +57,10 @@ links:
     - topic/dev-itpro/business-central-on-premises/upgrade
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/dvlprlife-com/https://www.dvlprlife.com/2026/06/june-2026-cumulative-updates-for-dynamics-365-business-central/
+    - post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-426088323488837430
+    - post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-5740395756527498087
   guidelines: []
 learn_toc_path:
   - Business Central on-premises
@@ -70,7 +73,7 @@ coverage:
   learn: 4
   code: 0
   video: 0
-  blog: 0
+  blog: 3
   guideline: 0
 bc_forms: []
 member_hash: a2f92bceaf479bc775b034d22d378cbefa3e722b436187aa4531b067299c5c74
@@ -89,5 +92,13 @@ Path: [Business Central on-premises](../../business-central-on-premises.md) > [U
 - [Install a Business Central 2026 release wave 1 (version 28) Update](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrading-cumulative-update-v28): This article describes the tasks required for getting the monthly version 28 update applied to your Dynamics 365 Business Central on-premises.
 - [Upgrade to Business Central 2026 release wave 1 (version 28)](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-unmodified-application-to-v28): Describes how to upgrade an unmodified Business Central version 25 and later to version 28
 - [Upgrading to Dynamics 365 Business Central 2026 release wave 1](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-overview-v28): Provides an overview of Business Central 2026 release wave 1 upgrade process.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [June 2026 Cumulative Updates for Dynamics 365 Business Central](../../../../posts/dvlprlife-com/https://www.dvlprlife.com/2026/06/june-2026-cumulative-updates-for-dynamics-365-business-central/.md) (community post): "cumulative updates for Dynamics 365 Business Central across multiple versions"
+- [Business Central 2026 Release Wave 2 Preview Is Now Available](../../../../posts/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-426088323488837430.md) (community post): "Business Central 2026 release wave 2 (version 29.0) preview is now available"
+- [Business Central 2026 Release Wave 1 Installation Guide: Requirements, Prerequisites, and Setup Walkthrough](../../../../posts/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-5740395756527498087.md) (community post): "Business Central 2026 Release Wave 1 (BC28) installation requires Windows 11 or Windows Server"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

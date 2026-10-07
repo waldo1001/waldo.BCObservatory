@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: f7fa283a2307b38645a0a6a5c070d9f11e217497e54ae695e9ce2e6e3db64c17
@@ -248,8 +248,20 @@ links:
     - topic/dev-itpro/development/get-started/ready-to-go
     - topic/dev-itpro/development/get-started/marketplace-validation
   localizations: []
-  videos: []
-  posts: []
+  videos:
+    - video/Gjs00Wy0HlI
+    - video/Ir5BCNHgLm8
+    - video/QT3RKx9rGJA
+    - video/THBCd9Y9DfE
+    - video/tjHDcjwsOIE
+    - video/weDf53bJOL4
+    - video/xr8C3c6WhOI
+  posts:
+    - post/thatnavguy-com/https://thatnavguy.com/projects/al-pocket-tools/
+    - post/thinkaboutit-be/7852
+    - post/thinkaboutit-be/8157
+    - post/thinkaboutit-be/8185
+    - post/tine-staric-net/https://tine.staric.net/blog/2026/claude-code-tiny-tips/
   guidelines: []
 learn_toc_path:
   - Development
@@ -263,8 +275,8 @@ children:
 coverage:
   learn: 29
   code: 0
-  video: 0
-  blog: 0
+  video: 7
+  blog: 5
   guideline: 0
 bc_forms: []
 member_hash: f7fa283a2307b38645a0a6a5c070d9f11e217497e54ae695e9ce2e6e3db64c17
@@ -303,5 +315,22 @@ Path: [Development](../development.md) > Get started · tier official · system 
 - [Syntax and snippets](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-syntax): Description of syntax and snippets available with the AL language for Business Central.
 - [Use Designer](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-inclient-designer): Description of how Designer works and is integrated with the AL development experience.
 - [Work with XLIFF Translation Files](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-work-with-translation-files): Learn how to generate, maintain, and package XLIFF translation files for multilingual Business Central extensions, including namespace-aware IDs.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [AL Pocket Tools](../../../posts/thatnavguy-com/https://thatnavguy.com/projects/al-pocket-tools/.md) (community post): "Collection of small utilities designed to reduce interruptions in AL development workflow"
+- [How Do I: Choose the Right AI Assistant for AL Development?](../../../posts/thinkaboutit-be/7852.md) (community post): "When choosing an AI assistant for AL development, GitHub Copilot"
+- [Quick Tip: GitHub Copilot Chat Modes Are Now Agents, and Edit Mode Is Gone](../../../posts/thinkaboutit-be/8157.md) (community post): "Chat modes are now called agent roles: Agent, Ask, and Plan"
+- [Choosing a Language Model for AL Development in VS Code](../../../posts/thinkaboutit-be/8185.md) (community post): "When using Copilot Chat in VS Code for AL development"
+- [Claude Code: Tiny Tips](../../../posts/tine-staric-net/https://tine.staric.net/blog/2026/claude-code-tiny-tips/.md) (community post): "Claude Code is an AI development tool with several lesser-known terminal commands"
+- [What's New: AL-Go for GitHub on Build and Performance (2025 release wave 1)](../../../videos/Gjs00Wy0HlI.md) (video): "AL-Go for GitHub on Build and Performance incremental builds workflow concurrency"
+- [I Built an AI Course That Writes AL Code With You — Here's What It Looks Like](../../../videos/Ir5BCNHgLm8.md) (video): "al learning; ai-assisted coding; interactive course; starter extension template"
+- [AL Go for GitHub January Office Hour](../../../videos/QT3RKx9rGJA.md) (video): "AL Go for GitHub conditional settings build modes preprocessor symbols versioning strategy"
+- [Reskill: Partner testimonials](../../../videos/THBCd9Y9DfE.md) (video): "Guided Learning Journey; Practical and Theoretical Learning Integration"
+- [What's New: Going Open Source with the New GitHub Repository for Business Central (2024 release w 2)](../../../videos/tjHDcjwsOIE.md) (video): "github repository; open source; community contributions; al-go"
+- [What's New in AL: Go for GitHub (2024 release wave 2)](../../../videos/weDf53bJOL4.md) (video): "GitHub actions; security; federated credentials; managed identity; nuget support"
+- [What's New : AL-Go for GitHub on Quality and Testability (2025 release wave 1)](../../../videos/xr8C3c6WhOI.md) (video): "Deploy Test Apps to Sandbox; Automatic Test App Dependency Resolution"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

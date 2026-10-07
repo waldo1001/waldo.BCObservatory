@@ -23,7 +23,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:51:43.037Z"
+  at: "2026-10-07T00:17:53.935Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -68,7 +68,8 @@ evidence:
 links:
   learn: []
   objects: []
-  features: []
+  features:
+    - feature/573354
   topics: []
   localizations: []
   videos: []
@@ -99,25 +100,33 @@ chapters:
     title: Summary and Call to Action
 features:
   - name: ModuleInfo help property
-    status: unclear
+    status: ga
     t: 153
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573354"
   - name: ModuleInfo ULA property
-    status: unclear
+    status: ga
     t: 164
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573354"
   - name: ModuleInfo privacy statement property
-    status: unclear
+    status: ga
     t: 175
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573354"
   - name: ModuleInfo context sensitive help URL property
-    status: unclear
+    status: ga
     t: 180
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573354"
   - name: ModuleInfo type enhancements
     status: unclear
     t: 99
@@ -196,14 +205,16 @@ The presenter shows how to get a ModuleInfo for the current app with NavApp.GetC
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| ModuleInfo help property | status not stated, demoed | [2:33](https://www.youtube.com/watch?v=-vCiEloR61U&t=153s) |  |
-| ModuleInfo ULA property | status not stated, demoed | [2:44](https://www.youtube.com/watch?v=-vCiEloR61U&t=164s) |  |
-| ModuleInfo privacy statement property | status not stated, demoed | [2:55](https://www.youtube.com/watch?v=-vCiEloR61U&t=175s) |  |
-| ModuleInfo context sensitive help URL property | status not stated, demoed | [3:00](https://www.youtube.com/watch?v=-vCiEloR61U&t=180s) |  |
+| ModuleInfo help property | generally available (roadmap [573354](../features/573354.md)), demoed | [2:33](https://www.youtube.com/watch?v=-vCiEloR61U&t=153s) |  |
+| ModuleInfo ULA property | generally available (roadmap [573354](../features/573354.md)), demoed | [2:44](https://www.youtube.com/watch?v=-vCiEloR61U&t=164s) |  |
+| ModuleInfo privacy statement property | generally available (roadmap [573354](../features/573354.md)), demoed | [2:55](https://www.youtube.com/watch?v=-vCiEloR61U&t=175s) |  |
+| ModuleInfo context sensitive help URL property | generally available (roadmap [573354](../features/573354.md)), demoed | [3:00](https://www.youtube.com/watch?v=-vCiEloR61U&t=180s) |  |
 | ModuleInfo type enhancements | status not stated, demoed | [1:39](https://www.youtube.com/watch?v=-vCiEloR61U&t=99s) |  |
 | ModuleDependencyInfo type | status not stated, demoed | [6:08](https://www.youtube.com/watch?v=-vCiEloR61U&t=368s) |  |
 | NavApp.GetCurrentModuleInfo function | status not stated, demoed | [5:08](https://www.youtube.com/watch?v=-vCiEloR61U&t=308s) |  |
 | NavApp.GetModuleInfo function | status not stated, demoed | [4:54](https://www.youtube.com/watch?v=-vCiEloR61U&t=294s) |  |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## AL objects mentioned
 

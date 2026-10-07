@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:21:46.353Z"
+  at: "2026-10-06T23:56:28.878Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 6265953f53b224cffa266766bce63940ca320f9fb089b68fdb4970e1970830fc
+  input_hash: a6a78d71ae94250fadf18c5f7a16b99c82077beabfb2c81d5dbafa17f3c7dd09
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Layers/W1/BaseApp/Pricing/Calculation/PriceCalculation.Interface.al
@@ -61,6 +61,12 @@ counts:
   procedures: 13
   events: 0
   subscribers: 0
+relations:
+  out: 0
+  referenced_by: 0
+  pages: 0
+  extended_by: 0
+  event_subscribers: 0
 ---
 
 # Interface "Price Calculation"

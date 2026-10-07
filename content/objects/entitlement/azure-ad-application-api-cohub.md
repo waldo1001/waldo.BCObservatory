@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:21:46.353Z"
+  at: "2026-10-06T23:56:28.878Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 3ef405d9defd97930dd86c0b43fcd23a65c17424307dd5ba3c8799c5836286ad
+  input_hash: c866176a0e45185d772b3002d80b38829e7331dcfa30899f60512606952f31ee
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/CompanyHub/app/Entitlements/AzureADApplicationApiCOHUB.Entitlement.al
@@ -60,6 +60,12 @@ counts:
   procedures: 0
   events: 0
   subscribers: 0
+relations:
+  out: 0
+  referenced_by: 0
+  pages: 0
+  extended_by: 0
+  event_subscribers: 0
 ---
 
 # Entitlement "Azure AD Application Api COHUB"

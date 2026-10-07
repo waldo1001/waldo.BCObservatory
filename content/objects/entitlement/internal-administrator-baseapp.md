@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:21:46.353Z"
+  at: "2026-10-06T23:56:28.878Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: aed873bb678dad673d47d5d1cf08d30b6cc495606fa1c9f9de32142e0b9d7564
+  input_hash: 5e92c35269ffebf909e2fc7b948e2cdcad2d43533447c76af1b32f52ae6a2f3f
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Layers/W1/BaseApp/Entitlements/InternalAdministratorBaseApp.Entitlement.al
@@ -61,6 +61,12 @@ counts:
   procedures: 0
   events: 0
   subscribers: 0
+relations:
+  out: 0
+  referenced_by: 0
+  pages: 0
+  extended_by: 0
+  event_subscribers: 0
 ---
 
 # Entitlement "Internal Administrator BaseApp"

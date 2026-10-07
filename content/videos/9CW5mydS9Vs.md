@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:50:58.445Z"
+  at: "2026-10-07T00:17:53.935Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -77,7 +77,8 @@ evidence:
 links:
   learn: []
   objects: []
-  features: []
+  features:
+    - feature/573333
   topics: []
   localizations: []
   videos: []
@@ -171,10 +172,12 @@ features:
     verified: false
     status_source: video
   - name: Native data-driven test support
-    status: unclear
+    status: ga
     t: 1506
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573333"
   - name: Custom context interface for data-driven tests
     status: announced
     t: 1591
@@ -333,7 +336,7 @@ The second half covers AI. It shows an agent that writes tests interactively in 
 | AI test artifacts and multiple executions | status not stated, demoed | [19:02](https://www.youtube.com/watch?v=9CW5mydS9Vs&t=1142s) |  |
 | Copilot feature testing framework | status not stated, demoed | [20:35](https://www.youtube.com/watch?v=9CW5mydS9Vs&t=1235s) |  |
 | Agentic test simulation and step verification | status not stated, demoed | [23:31](https://www.youtube.com/watch?v=9CW5mydS9Vs&t=1411s) |  |
-| Native data-driven test support | status not stated, demoed | [25:06](https://www.youtube.com/watch?v=9CW5mydS9Vs&t=1506s) |  |
+| Native data-driven test support | generally available (roadmap [573333](../features/573333.md)), demoed | [25:06](https://www.youtube.com/watch?v=9CW5mydS9Vs&t=1506s) |  |
 | Custom context interface for data-driven tests | announced, demoed | [26:31](https://www.youtube.com/watch?v=9CW5mydS9Vs&t=1591s) | "This is what we have planned um for the pipeline for coming release" ([28:06](https://www.youtube.com/watch?v=9CW5mydS9Vs&t=1686s)) |
 | Agent-assisted test writing and review | status not stated | [28:33](https://www.youtube.com/watch?v=9CW5mydS9Vs&t=1713s) |  |
 | Performance test suite for long-running tests | status not stated | [29:18](https://www.youtube.com/watch?v=9CW5mydS9Vs&t=1758s) |  |
@@ -350,6 +353,8 @@ The second half covers AI. It shows an agent that writes tests interactively in 
 | Running tests from VS Code | status not stated | [41:48](https://www.youtube.com/watch?v=9CW5mydS9Vs&t=2508s) |  |
 | Test generation with MCP and external tools | status not stated | [39:07](https://www.youtube.com/watch?v=9CW5mydS9Vs&t=2347s) |  |
 | Model optimization for test scenarios | status not stated | [40:46](https://www.youtube.com/watch?v=9CW5mydS9Vs&t=2446s) |  |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## AL objects mentioned
 

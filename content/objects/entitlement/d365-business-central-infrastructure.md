@@ -2,12 +2,12 @@
 id: object/entitlement/d365-business-central-infrastructure
 type: object
 title: Entitlement "D365 Business Central Infrastructure"
-summary: Entitlement "D365 Business Central Infrastructure" in Business Foundation (System.Security.AccessControl). Present since at least BC28, still in BC30.
+summary: Entitlement "D365 Business Central Infrastructure" in System Application (System.Security.AccessControl). Present since at least BC28, still in BC30.
 tier: official
 language: en
 tags:
   - entitlement
-  - business foundation
+  - system application
 versions:
   introduced: null
   last_changed: null
@@ -18,14 +18,14 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:21:46.353Z"
+  at: "2026-10-06T23:56:28.878Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: a3ca5dee46e88c564de474f670a908b9615b0c5ef57e3f62d64f9055d42db972
+  input_hash: d4c0d34394a821d1581e84dbc45f89db24e2e2056ce0cf9e89ffde8c962567b8
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Business%20Foundation/App/Entitlements/D365BusinessCentralInfrastructure.Entitlement.al
-    title: src/Business Foundation/App/Entitlements/D365BusinessCentralInfrastructure.Entitlement.al (releases/29.x)
+    url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/System%20Application/App/Entitlements/D365BusinessCentralInfrastructure.Entitlement.al
+    title: src/System Application/App/Entitlements/D365BusinessCentralInfrastructure.Entitlement.al (releases/29.x)
     date: null
     commit: d7c9c667c671da2cda3a0738b18ed99ca4181765
     t: null
@@ -43,7 +43,7 @@ object_type: entitlement
 object_id: null
 name: D365 Business Central Infrastructure
 namespace: System.Security.AccessControl
-app: Business Foundation
+app: System Application
 extends: null
 first_version: "28"
 last_version: "30"
@@ -61,13 +61,19 @@ counts:
   procedures: 0
   events: 0
   subscribers: 0
+relations:
+  out: 0
+  referenced_by: 0
+  pages: 0
+  extended_by: 0
+  event_subscribers: 0
 ---
 
 # Entitlement "D365 Business Central Infrastructure"
 
-> Entitlement "D365 Business Central Infrastructure" in Business Foundation (System.Security.AccessControl). Present since at least BC28, still in BC30.
+> Entitlement "D365 Business Central Infrastructure" in System Application (System.Security.AccessControl). Present since at least BC28, still in BC30.
 
-Business Foundation · System.Security.AccessControl · BC28-30 · [source at d7c9c667](https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Business%20Foundation/App/Entitlements/D365BusinessCentralInfrastructure.Entitlement.al) · facts from BC29
+System Application · System.Security.AccessControl · BC28-30 · [source at d7c9c667](https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/System%20Application/App/Entitlements/D365BusinessCentralInfrastructure.Entitlement.al) · facts from BC29
 
 ## Across versions
 

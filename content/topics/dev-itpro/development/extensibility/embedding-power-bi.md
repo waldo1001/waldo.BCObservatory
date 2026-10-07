@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: fd666723dde183299bb13c34badea087732eb72ba3120874e1447b01c0595e26
@@ -40,7 +40,9 @@ links:
   topics:
     - topic/dev-itpro/development/extensibility
   localizations: []
-  videos: []
+  videos:
+    - video/RU3D3RMAvVI
+    - video/tpAh4q3h8T8
   posts: []
   guidelines: []
 learn_toc_path:
@@ -53,7 +55,7 @@ children: []
 coverage:
   learn: 2
   code: 0
-  video: 0
+  video: 2
   blog: 0
   guideline: 0
 bc_forms:
@@ -73,6 +75,13 @@ Path: [Development](../../development.md) > [Extensibility](../extensibility.md)
 
 - [Embed Power BI reports in pages](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-power-bi-report-parts): Explains how to display Power BI reports on pages in Business Central
 - [Introduction to Business Central and Power BI](https://learn.microsoft.com/dynamics365/business-central/admin-powerbi): Get an overview of using Power BI to get insights from your Business Central data.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [What's New: Power BI Embedding (For Developers) (2025 release wave 1)](../../../../videos/RU3D3RMAvVI.md) (video): "power bi embedding; user control host; page type; control addin"
+- [Directions EMEA 2023 Keynote: Business Central saves time for consultants and power users](../../../../videos/tpAh4q3h8T8.md) (video): "Embedding Power BI visuals in pages; Power user page customization"
 
 ## Business Central pages and reports
 

@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 3a567ae6079e607bda8638ac0c1293bbd9f6d987f0705591fa3f30e35dc065f5
@@ -72,8 +72,12 @@ links:
   topics:
     - topic/business-central/business-functionality/general-business-functionality/workflows
   localizations: []
-  videos: []
-  posts: []
+  videos:
+    - video/qZALauRY_So
+    - video/sqjb_gsXqM8
+  posts:
+    - post/olofsimren-com/3696
+    - post/olofsimren-com/3779
   guidelines: []
 learn_toc_path:
   - Business functionality
@@ -86,8 +90,8 @@ children: []
 coverage:
   learn: 6
   code: 0
-  video: 0
-  blog: 0
+  video: 2
+  blog: 2
   guideline: 0
 bc_forms:
   - 654
@@ -117,6 +121,15 @@ Path: [Business functionality](../../../business-functionality.md) > [General bu
 - [How to restrict and allow usage of a record](https://learn.microsoft.com/dynamics365/business-central/across-how-to-restrict-and-allow-usage-of-a-record): Learn how to use workflow responses to restrict or allow the usage of a record in Business Central.
 - [How to view archived workflow step instances](https://learn.microsoft.com/dynamics365/business-central/across-how-to-view-archived-workflow-step-instances): Completed workflow step instances are stored on the Archived Workflow Step Instances page. Each step includes a workflow event and a workflow response.
 - [Using approval workflows](https://learn.microsoft.com/dynamics365/business-central/across-use-workflows): Set up and use workflows to connect business-process tasks such as automatic posting or requesting and granting approval for new records.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Quality Management in Business Central Version 28](../../../../../posts/olofsimren-com/3696.md) (community post): "workflows can move rejected items to quarantine locations or trigger notifications"
+- [Approval Workflows in Planning Worksheet](../../../../../posts/olofsimren-com/3779.md) (community post): "Approval workflows now lock planning worksheet batches and prevent line modifications"
+- [Introducing: Approvals for the Expense Agent (2026 release wave 1)](../../../../../videos/qZALauRY_So.md) (video): "approvals; workflow; notification; Approval Notifications via Email and Copilot Chat"
+- [What's New: Supply Chain Management - overview (2026 release wave 1)](../../../../../videos/sqjb_gsXqM8.md) (video): "Approval Workflows for Item Journals and Requisition Worksheets"
 
 ## Business Central pages and reports
 

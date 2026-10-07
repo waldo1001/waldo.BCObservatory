@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 16a0947bf5999ddbeb47779f120e581a860f6b73bd9acef72ce13f5b1a321e4c
@@ -40,7 +40,8 @@ links:
   topics:
     - topic/business-central/development-and-administration
   localizations: []
-  videos: []
+  videos:
+    - video/BlkW7VC52c0
   posts: []
   guidelines: []
 learn_toc_path:
@@ -52,7 +53,7 @@ children: []
 coverage:
   learn: 2
   code: 0
-  video: 0
+  video: 1
   blog: 0
   guideline: 0
 bc_forms:
@@ -76,6 +77,12 @@ Path: [Development and administration](../development-and-administration.md) > S
 
 - [Manage master data synchronization](https://learn.microsoft.com/dynamics365/business-central/admin-sync-master-data): Learn how to manage master data synchronization.
 - [Set up companies to synchronize master data](https://learn.microsoft.com/dynamics365/business-central/admin-set-up-data-sync): Learn how to set up one or more companies to synchronize master data.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Copy Data Between Companies in Business Central (2 Built-In Methods You're Probably Missing)](../../../videos/BlkW7VC52c0.md) (video): "Master Data Management Setup; Configuration Packages; Custom data copy solution"
 
 ## Business Central pages and reports
 

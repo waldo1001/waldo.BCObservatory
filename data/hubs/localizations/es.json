@@ -1,0 +1,245 @@
+{
+  "country": "ES",
+  "version": "29",
+  "input_hash": "0dad4989d2e85482aa2dfbfb11d903f5407af2eb56c48b4658d8911098041668",
+  "summary": "Spain (ES) localization of Business Central 29. It covers the Cartera module (bills, bill groups, payment orders, factoring), SII VAT reporting, Equivalence Charge, VAT-based declarations (340, 347, 349), CCC bank codes, AEB electronic payments, and due date limits. Use it for questions on Spanish local fields, setup and objects.",
+  "overview": "The Spanish layer adds 534 objects, of which 389 are its own. It adds 314 fields and 64 events on W1 objects. The largest block is Cartera: bills, bill groups and payment orders, with posting and closed documents, analysis fact boxes, export codeunits for N19, N32, N58, N34, N34.1 and factoring, and extra account fields on customer, vendor and bank posting groups. Posting codeunits such as Gen. Jnl.-Post Line, Sales-Post and Purch.-Post carry new events and procedures for Cartera bills and corrected invoices.\n\nTax reporting rests on SII (codeunits 10750 to 10759, many enums, SII Setup and History pages), No Taxable entries, and the 340, 347 and 349 declarations. VAT Entry, VAT Posting Setup, VAT Amount Line and sales and purchase lines gain Equivalence Charge (EC) and cash regime fields. Learn documents these, along with VERI*FACTU, Factura-E, ASC export and VAT statement templates.\n\nBanking and master data changes include CCC bank code fields on company, bank, customer and vendor bank accounts, electronic payment fields, payment days and non-payment periods, payment term limits (Max. No. of Days till Due Date), transaction numbers, income statement closing and a chart of accounts equivalence tool. Service documents have ES extensions and reports.",
+  "key_points": [
+    "Cartera module: receivable bills, bill groups, payment orders, factoring, with posted and closed documents and export codeunits for N19, N32, N58, N34 and N34.1.",
+    "SII VAT reporting: XML creator, upload and job codeunits, scheme code and invoice type enums, SII Setup and SII History pages.",
+    "VAT declarations 340, 347 and 349, plus No Taxable entries, operation codes and delivery operation codes.",
+    "Equivalence Charge: EC % fields on sales and purchase lines, VAT Entry, VAT Posting Setup and VAT Amount Line.",
+    "CCC bank code fields (bank, branch, control digits, account) on company, bank, customer and vendor bank accounts, with BuildCCC procedures.",
+    "Due date control: Max. No. of Days till Due Date on payment terms, payment days and non-payment periods on company, customer and vendor.",
+    "Corrected invoices, transaction numbers, Close Income Statement and Trial Balance changes, and the same external document number across fiscal years.",
+    "VERI*FACTU, Factura-E, and the G/L accounts equivalence tool for chart of accounts changes."
+  ],
+  "areas": [
+    {
+      "area": "Finance",
+      "what": "Changes Gen. Jnl.-Post Line, Gen. Jnl.-Post Batch and the journal tables with Cartera events, auto-invoice and transaction fields. Adds EC and cash regime fields on VAT Entry, VAT Posting Setup and VAT Amount Line. It also extends VAT Statement, Trial Balance and Close Income Statement, and adds No Taxable and Cartera codeunits.",
+      "why": "Learn describes EC tracking, 340/347/349 declarations, transaction numbers and income statement closing as local requirements.",
+      "objects": [
+        "codeunit/12",
+        "table/254",
+        "table/325",
+        "table/290",
+        "report/12",
+        "report/94",
+        "table/81",
+        "codeunit/7000000"
+      ]
+    },
+    {
+      "area": "Sales",
+      "what": "Adds Cartera bill fields and CCC fields on customer ledger and bank account tables. Adds bill account fields on Customer Posting Group, and corrected invoice and EC fields on sales documents. Adds bill group pages and export codeunits for N19, N32, N58 and factoring.",
+      "why": "Learn documents corrective invoices, the receivables Cartera module and EC.",
+      "objects": [
+        "table/21",
+        "table/92",
+        "table/287",
+        "table/36",
+        "codeunit/80",
+        "codeunit/226",
+        "codeunit/7000092",
+        "page/7000009"
+      ]
+    },
+    {
+      "area": "Purchases",
+      "what": "Adds payment order pages, N34 and N34.1 export codeunits, and bill and autodocument fields on vendor ledger entries. Extends purchase documents with corrected invoice, auto-invoice and EC fields, and vendor bank accounts with CCC and electronic payment fields.",
+      "why": "Learn documents the payments Cartera module, AEB N34.1 electronic payments and same external document numbers across fiscal years.",
+      "objects": [
+        "table/25",
+        "table/288",
+        "table/38",
+        "codeunit/90",
+        "codeunit/7000090",
+        "codeunit/7000060",
+        "page/7000050",
+        "table/312"
+      ]
+    },
+    {
+      "area": "EServices",
+      "what": "Adds the SII framework: XML creator, job management, upload and retry codeunits, scheme code and invoice type enums, and setup and history pages. Also adds electronic payment management and creation codeunits.",
+      "why": "Learn covers SII setup and invoice types, and VERI*FACTU as an SII alternative.",
+      "objects": [
+        "codeunit/10750",
+        "codeunit/10756",
+        "codeunit/10752",
+        "page/10751",
+        "page/10752",
+        "codeunit/10721",
+        "codeunit/10701",
+        "enum/10700"
+      ]
+    },
+    {
+      "area": "Service",
+      "what": "Adds ES extensions on service headers, lines and posted documents, edit codeunits and update pages, and Spanish service order, invoice and credit memo reports. Service posting creates bills.",
+      "why": null,
+      "objects": [
+        "codeunit/5987",
+        "codeunit/10763",
+        "codeunit/10789",
+        "tableextension/10790",
+        "report/10792",
+        "report/10790",
+        "codeunit/10768",
+        "page/10768"
+      ]
+    },
+    {
+      "area": "Foundation",
+      "what": "Extends Payment Terms with due date limit fields, and Company Information with CNAE and CCC fields. Adds Post Code county code, Country/Region VAT number digits and Category Code. Navigate finds Cartera documents.",
+      "why": "Learn explains legal limits on payment delays and NACE code entry.",
+      "objects": [
+        "table/3",
+        "table/79",
+        "page/344",
+        "table/9",
+        "table/225",
+        "table/7000009",
+        "table/242",
+        "table/265"
+      ]
+    },
+    {
+      "area": "Bank",
+      "what": "Bank Account gains CCC, E-Pay and bill group fields, with totals procedures. Payment Method gets Cartera fields, bank posting groups get bill accounts, and SEPA and direct debit objects get events and fields. Check report amount-in-words is changed.",
+      "why": "Learn documents CCC codes and electronic payment setup.",
+      "objects": [
+        "table/270",
+        "table/289",
+        "table/277",
+        "table/1207",
+        "codeunit/1222",
+        "report/7000005",
+        "report/1401",
+        "xmlport/1000"
+      ]
+    },
+    {
+      "area": "Microsoft",
+      "what": "Adds the G/L accounts equivalence tool tables, historic account tables, buffers and import/export xmlports for chart of accounts changes and consolidation.",
+      "why": null,
+      "objects": [
+        "table/10720",
+        "table/10721",
+        "table/10722",
+        "xmlport/10720",
+        "xmlport/10700",
+        "table/10700",
+        "table/10703",
+        "enum/10727"
+      ]
+    },
+    {
+      "area": "(no namespace)",
+      "what": "Holds the Post Payment Order report and SII activity cue extension. Other objects are upgrade and sandbox cleanup plumbing.",
+      "why": null,
+      "objects": [
+        "report/7000080",
+        "pageextension/7000030"
+      ]
+    },
+    {
+      "area": "Inventory",
+      "what": "Adds shipment method fields on item journal and ledger entries, Intrastat fields, a cost regulation percentage on Item, and port/airport on Transport Method.",
+      "why": null,
+      "objects": [
+        "table/263",
+        "table/83",
+        "table/27",
+        "table/32",
+        "table/259",
+        "table/284",
+        "table/1382"
+      ]
+    },
+    {
+      "area": "Security",
+      "what": "Changes local permission sets and adds SII permission set extensions.",
+      "why": null,
+      "objects": [
+        "permissionsetextension/1001",
+        "permissionsetextension/7000002",
+        "permissionset/1001",
+        "permissionset/1002",
+        "permissionset/1083",
+        "permissionset/4103"
+      ]
+    },
+    {
+      "area": "CashFlow",
+      "what": "Suggest Worksheet Lines splits sales and purchase invoices by installments. A service extension adds an event for service lines.",
+      "why": null,
+      "objects": [
+        "report/840",
+        "codeunit/7000034",
+        "reportextension/6485"
+      ]
+    },
+    {
+      "area": "Utilities",
+      "what": "Copy Document Mgt. adds checks and ledger entry updates for Cartera bills. Adds Localization Management and SII data classification.",
+      "why": null,
+      "objects": [
+        "codeunit/6620",
+        "codeunit/10760",
+        "codeunit/7000030"
+      ]
+    },
+    {
+      "area": "HumanResources",
+      "what": "Employee gains first, middle and last name fields with an upgrade procedure from old name fields.",
+      "why": null,
+      "objects": [
+        "table/5200",
+        "table/5205"
+      ]
+    },
+    {
+      "area": "RoleCenters",
+      "what": "Cue tables gain Cartera document counts, and an SII activities cue is added.",
+      "why": null,
+      "objects": [
+        "table/9060",
+        "tableextension/7000043"
+      ]
+    },
+    {
+      "area": "AccountantPortal",
+      "what": "Adds SII cues to the accountant portal activities.",
+      "why": null,
+      "objects": [
+        "pageextension/7000041"
+      ]
+    },
+    {
+      "area": "Integration",
+      "what": "CRM Synch. Helper is changed for Spain.",
+      "why": null,
+      "objects": [
+        "codeunit/5342"
+      ]
+    },
+    {
+      "area": "Projects",
+      "what": "Job Ledger Entry gets a Shipment Method Code field.",
+      "why": null,
+      "objects": [
+        "table/169"
+      ]
+    }
+  ],
+  "learn_pages_used": 46,
+  "prompt_version": 2,
+  "at": "2026-10-06T23:51:57.797Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.22572799999999998
+  }
+}

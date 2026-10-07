@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 181f7afb514c5280b30dcfe6b295f39a7433117d6ea6eddd11fd76cbbb17916a
@@ -288,8 +288,11 @@ links:
   topics:
     - topic/dev-itpro/development/programming-in-the-al-language/pages-and-the-user-interface
   localizations: []
-  videos: []
-  posts: []
+  videos:
+    - video/jqVt0hYDfz0
+  posts:
+    - post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-9167085598395012736
+    - post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-71-blankzero-property/
   guidelines: []
 learn_toc_path:
   - Development
@@ -302,8 +305,8 @@ children: []
 coverage:
   learn: 33
   code: 0
-  video: 0
-  blog: 0
+  video: 1
+  blog: 2
   guideline: 0
 bc_forms: []
 member_hash: 181f7afb514c5280b30dcfe6b295f39a7433117d6ea6eddd11fd76cbbb17916a
@@ -351,5 +354,13 @@ Path: [Development](../../../development.md) > [Programming in the AL language](
 - [The ConfigurationDialog Page Type (preview)](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-type-configuration-dialog): Learn how to use the `ConfigurationDialog` page type to create focused configuration dialogs for managing agent settings in Dynamics 365 Business Central.
 - [The PromptDialog Page Type](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-type-promptdialog): The PromptDialog page type allows you to integrate copilot capabilities into your custom scenarios.
 - [Work with repeater controls](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-repeater-controls): A repeater is a control used to define a list of records from the source table of a page.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Business Central ToolTip and ToolTipML Properties Are Now Available on Pages](../../../../../posts/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-9167085598395012736.md) (community post): "ToolTip and ToolTipML can now be defined at the page object level in AL code"
+- [BC Friday Tips #71 BlankZero Property](../../../../../posts/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-71-blankzero-property/.md) (community post): "BlankZero property on numeric fields can be set to true to display empty values"
+- [What's Cooking in Business Central: Delivering Analysis Views in AL Extensions](../../../../../videos/jqVt0hYDfz0.md) (video): "page extension; profile customization; personalization"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

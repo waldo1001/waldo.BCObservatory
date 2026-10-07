@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:21:46.353Z"
+  at: "2026-10-06T23:56:28.878Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: a19fbe54543b4a54824d0648b8a54e014a132ba65908475b3f2cd910bc5e0ddc
+  input_hash: af0dc916f1082e51292d9a72cbaa893d8df8b841fc006503ecea40218ebf63aa
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/47f793605ac3a868a203d9068a7b4a054269878a/src/Apps/W1/PEPPOL/app/src/Interfaces/PEPPOLPOLineDeliveryPeriod.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/ecbc028c25dbe83b61313bc566e6c1d41184bb1c/src/Apps/W1/PEPPOL/app/src/Interfaces/PEPPOLPOLineDeliveryPeriod.Interface.al
     title: src/Apps/W1/PEPPOL/app/src/Interfaces/PEPPOLPOLineDeliveryPeriod.Interface.al (main)
     date: null
-    commit: 47f793605ac3a868a203d9068a7b4a054269878a
+    commit: ecbc028c25dbe83b61313bc566e6c1d41184bb1c
     t: null
     quote: null
 links:
@@ -59,13 +59,19 @@ counts:
   procedures: 1
   events: 0
   subscribers: 0
+relations:
+  out: 0
+  referenced_by: 0
+  pages: 0
+  extended_by: 0
+  event_subscribers: 0
 ---
 
 # Interface "PEPPOL PO Line Delivery Period"
 
 > Interface "PEPPOL PO Line Delivery Period" in PEPPOL (Microsoft.Peppol). 1 public procedures. Introduced in BC30.
 
-PEPPOL · Microsoft.Peppol · BC30 · [source at 47f79360](https://github.com/microsoft/BCApps/blob/47f793605ac3a868a203d9068a7b4a054269878a/src/Apps/W1/PEPPOL/app/src/Interfaces/PEPPOLPOLineDeliveryPeriod.Interface.al) · facts from BC30
+PEPPOL · Microsoft.Peppol · BC30 · [source at ecbc028c](https://github.com/microsoft/BCApps/blob/ecbc028c25dbe83b61313bc566e6c1d41184bb1c/src/Apps/W1/PEPPOL/app/src/Interfaces/PEPPOLPOLineDeliveryPeriod.Interface.al) · facts from BC30
 
 ## Procedures
 

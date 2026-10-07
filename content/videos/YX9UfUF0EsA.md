@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:50:58.645Z"
+  at: "2026-10-07T00:17:53.935Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -91,7 +91,8 @@ evidence:
 links:
   learn: []
   objects: []
-  features: []
+  features:
+    - feature/573362
   topics: []
   localizations: []
   videos: []
@@ -141,10 +142,12 @@ chapters:
     title: External access, troubleshooting, and closing remarks
 features:
   - name: M365 Copilot chat in Business Central
-    status: unclear
+    status: ga
     t: 425
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573362"
   - name: Business Central data access from chat
     status: unclear
     t: 470
@@ -394,7 +397,7 @@ The session also covers the tools and agentic loop behind multi-step queries, pe
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| M365 Copilot chat in Business Central | status not stated, demoed | [7:05](https://www.youtube.com/watch?v=YX9UfUF0EsA&t=425s) |  |
+| M365 Copilot chat in Business Central | generally available (roadmap [573362](../features/573362.md)), demoed | [7:05](https://www.youtube.com/watch?v=YX9UfUF0EsA&t=425s) |  |
 | Business Central data access from chat | status not stated, demoed | [7:50](https://www.youtube.com/watch?v=YX9UfUF0EsA&t=470s) |  |
 | Chat history persistence across Microsoft 365 | status not stated, demoed | [10:35](https://www.youtube.com/watch?v=YX9UfUF0EsA&t=635s) |  |
 | Export copilot analysis to Word | status not stated, demoed | [11:29](https://www.youtube.com/watch?v=YX9UfUF0EsA&t=689s) |  |
@@ -431,6 +434,8 @@ The session also covers the tools and agentic loop behind multi-step queries, pe
 | External Copilot Chat Access | status not stated | [40:53](https://www.youtube.com/watch?v=YX9UfUF0EsA&t=2453s) |  |
 | Free Read-Only Access Model | status not stated | [40:13](https://www.youtube.com/watch?v=YX9UfUF0EsA&t=2413s) |  |
 | Copilot Troubleshooting and Data Analysis | status not stated | [41:44](https://www.youtube.com/watch?v=YX9UfUF0EsA&t=2504s) |  |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## AL objects mentioned
 

@@ -23,7 +23,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T16:51:22.388Z"
+  at: "2026-10-07T00:17:53.935Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -75,7 +75,8 @@ evidence:
 links:
   learn: []
   objects: []
-  features: []
+  features:
+    - feature/573320
   topics: []
   localizations: []
   videos: []
@@ -151,10 +152,12 @@ features:
     verified: false
     status_source: video
   - name: Layout Lifecycle Control for Report Layouts
-    status: unclear
+    status: ga
     t: 449
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573320"
   - name: Hardened URI Validation in HTTP Client
     status: unclear
     t: 508
@@ -254,13 +257,15 @@ It describes memory work (a new platform codeunit for base64 conversion with str
 | Index Usage Insights and Management | status not stated | [4:41](https://www.youtube.com/watch?v=2u5_F9Ztt7U&t=281s) |  |
 | AL Analysis View Definitions in Apps | status not stated | [5:47](https://www.youtube.com/watch?v=2u5_F9Ztt7U&t=347s) |  |
 | Word Add-in for Document Reports Enhancement | status not stated | [6:44](https://www.youtube.com/watch?v=2u5_F9Ztt7U&t=404s) |  |
-| Layout Lifecycle Control for Report Layouts | status not stated | [7:29](https://www.youtube.com/watch?v=2u5_F9Ztt7U&t=449s) |  |
+| Layout Lifecycle Control for Report Layouts | generally available (roadmap [573320](../features/573320.md)) | [7:29](https://www.youtube.com/watch?v=2u5_F9Ztt7U&t=449s) |  |
 | Hardened URI Validation in HTTP Client | status not stated | [8:28](https://www.youtube.com/watch?v=2u5_F9Ztt7U&t=508s) |  |
 | Intra Security Groups for On-Premises Auth | status not stated | [9:25](https://www.youtube.com/watch?v=2u5_F9Ztt7U&t=565s) |  |
 | Permission Analysis Page | status not stated | [10:10](https://www.youtube.com/watch?v=2u5_F9Ztt7U&t=610s) |  |
 | Updated Security Documentation and Guide | status not stated | [10:23](https://www.youtube.com/watch?v=2u5_F9Ztt7U&t=623s) |  |
 | Telemetry for MCP Configuration and Usage | status not stated | [10:59](https://www.youtube.com/watch?v=2u5_F9Ztt7U&t=659s) |  |
 | Client Hardware and Network Telemetry | status not stated | [10:59](https://www.youtube.com/watch?v=2u5_F9Ztt7U&t=659s) |  |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## AL objects mentioned
 

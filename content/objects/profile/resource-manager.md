@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:21:46.353Z"
+  at: "2026-10-06T23:56:28.878Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 11a26c294ae2e3c416dd6ceabe815aba4ab714ad848921ba1a5da5530696ad61
+  input_hash: 909ec660c5ea0ed9bdc85f4436e411c4166e70a47138c09c6909f0e8216a9c10
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Layers/W1/BaseApp/Projects/RoleCenters/ResourceManager.Profile.al
@@ -61,6 +61,12 @@ counts:
   procedures: 0
   events: 0
   subscribers: 0
+relations:
+  out: 0
+  referenced_by: 0
+  pages: 0
+  extended_by: 0
+  event_subscribers: 0
 ---
 
 # Profile "RESOURCE MANAGER"

@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:21:46.353Z"
+  at: "2026-10-06T23:56:28.878Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 0f42193c3e898aa9cca83c19d69b9d52add6f45c893a0ebdecc10024022f0124
+  input_hash: 8d8a59043a4cbed7837b4aa4c25c00aebef8a1e94ec46647dceea11affa4df62
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/APIV1/app/src/Entitlements/InternalBCAdministratorAPIV1.Entitlement.al
@@ -60,6 +60,12 @@ counts:
   procedures: 0
   events: 0
   subscribers: 0
+relations:
+  out: 0
+  referenced_by: 0
+  pages: 0
+  extended_by: 0
+  event_subscribers: 0
 ---
 
 # Entitlement "Internal BC Administrator APIV1"

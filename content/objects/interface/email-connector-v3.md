@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:21:46.353Z"
+  at: "2026-10-06T23:56:28.878Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: d9fc8bbf62cd2108bc098b0606264a0685a59d1f9d0b8b81829d30cd3882856f
+  input_hash: c861ad7e0ee852161165f556e10865760b730c5b8d768897578162b596a20f0c
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/System%20Application/App/Email/src/Connector/EmailConnectorv3.Interface.al
@@ -64,6 +64,12 @@ counts:
   procedures: 3
   events: 0
   subscribers: 0
+relations:
+  out: 0
+  referenced_by: 0
+  pages: 0
+  extended_by: 0
+  event_subscribers: 0
 ---
 
 # Interface "Email Connector v3"

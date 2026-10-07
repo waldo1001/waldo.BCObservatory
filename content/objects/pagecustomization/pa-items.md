@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:21:46.353Z"
+  at: "2026-10-06T23:56:28.878Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 5869b279f87fe85e07efd11d6312f61409c23bd5f462803d14f64d4054706b9d
+  input_hash: 3e71c4ddb3c39ebacc2908fb1dc8200b4aed447e26d9d16990fd8397bebd7962
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/PayablesAgent/app/Profile/PageCustomizations/PAItems.PageCust.al
@@ -60,6 +60,12 @@ counts:
   procedures: 0
   events: 0
   subscribers: 0
+relations:
+  out: 0
+  referenced_by: 0
+  pages: 0
+  extended_by: 0
+  event_subscribers: 0
 ---
 
 # Page customization "PA Items"

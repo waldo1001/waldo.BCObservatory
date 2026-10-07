@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 94f612a607b772e51fef0a2024b7ed4c2011932bdb893e4447ce884ed595506e
@@ -64,7 +64,8 @@ links:
   topics:
     - topic/business-central/business-functionality/finance/working-with-value-added-tax-vat
   localizations: []
-  videos: []
+  videos:
+    - video/MWXwtRr6-Wk
   posts: []
   guidelines: []
 learn_toc_path:
@@ -78,7 +79,7 @@ children: []
 coverage:
   learn: 5
   code: 0
-  video: 0
+  video: 1
   blog: 0
   guideline: 0
 bc_forms:
@@ -119,6 +120,12 @@ Path: [Business functionality](../../../business-functionality.md) > [Finance](.
 - [Set up nondeductible VAT](https://learn.microsoft.com/dynamics365/business-central/finance-setup-nondeductible-vat): This article explains how to configure nondeductible VAT in Microsoft Dynamics 365 Business Central.
 - [Set up unrealized value added tax](https://learn.microsoft.com/dynamics365/business-central/finance-setup-unrealized-vat): If you're using cash-based accounting, you can specify how to handle unrealized VAT for sales and purchases.
 - [Set up value-added tax](https://learn.microsoft.com/dynamics365/business-central/finance-setup-vat): Make sure that you correctly calculate, post, and report on VAT for sales and purchases. We recommend that you use the assisted setup guide to set up VAT.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [What's New: VAT Date in Business Central (2023 release wave 2)](../../../../../videos/MWXwtRr6-Wk.md) (video): "VAT Date Usage field options; Default VAT Date setting; Control VAT Period setup"
 
 ## Business Central pages and reports
 

@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:21:46.353Z"
+  at: "2026-10-06T23:56:28.878Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 431e3a72311ebe141c014cda3ef194d47541d612736fa10cc0df9800f7d535fa
+  input_hash: ab2e73c6932a56c0594bf2415f4a1f1eb5e0b62e093ff456976f84d8f9d9276c
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/AgentSamples/app/SalesValidation/Profile/SVSalesOrderList.PageCust.al
@@ -60,6 +60,12 @@ counts:
   procedures: 0
   events: 0
   subscribers: 0
+relations:
+  out: 0
+  referenced_by: 0
+  pages: 0
+  extended_by: 0
+  event_subscribers: 0
 ---
 
 # Page customization "SVSalesOrderList"

@@ -20,7 +20,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T16:15:07.086Z"
+  at: "2026-10-07T00:17:53.935Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -65,7 +65,9 @@ evidence:
 links:
   learn: []
   objects: []
-  features: []
+  features:
+    - feature/573315
+    - feature/573332
   topics: []
   localizations: []
   videos: []
@@ -101,15 +103,19 @@ chapters:
     title: Conclusion and wrap-up
 features:
   - name: Table extensions stored in single SQL table
-    status: unclear
+    status: ga
     t: 288
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573332"
   - name: Cross-app keys in table extensions
-    status: unclear
+    status: ga
     t: 247
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573315"
   - name: Load fields for selective field retrieval
     status: unclear
     t: 145
@@ -182,10 +188,12 @@ In BC29, table extensions are no longer stored in separate tables. The video dem
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| Table extensions stored in single SQL table | status not stated, demoed | [4:48](https://www.youtube.com/watch?v=PZVTTem-nZw&t=288s) |  |
-| Cross-app keys in table extensions | status not stated, demoed | [4:07](https://www.youtube.com/watch?v=PZVTTem-nZw&t=247s) |  |
+| Table extensions stored in single SQL table | generally available (roadmap [573332](../features/573332.md)), demoed | [4:48](https://www.youtube.com/watch?v=PZVTTem-nZw&t=288s) |  |
+| Cross-app keys in table extensions | generally available (roadmap [573315](../features/573315.md)), demoed | [4:07](https://www.youtube.com/watch?v=PZVTTem-nZw&t=247s) |  |
 | Load fields for selective field retrieval | status not stated | [2:25](https://www.youtube.com/watch?v=PZVTTem-nZw&t=145s) |  |
 | Compact extension table storage | status not stated | [3:32](https://www.youtube.com/watch?v=PZVTTem-nZw&t=212s) |  |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## AL objects mentioned
 

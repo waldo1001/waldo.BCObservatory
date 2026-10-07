@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:21:46.353Z"
+  at: "2026-10-06T23:56:28.878Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 366e18d0b4a4e6036972893e8fc90ee3e44d0a9fc23bddfdb027a48326e18b4c
+  input_hash: f00d42ee9330af9cadcce7a64c456da0355687d6b8b5ed35d9947914847fb1a3
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/SalesOrderAgent/app/src/Profile/PageCustomizations/SOASalesQuoteSubform.PageCust.al
@@ -60,6 +60,12 @@ counts:
   procedures: 0
   events: 0
   subscribers: 0
+relations:
+  out: 0
+  referenced_by: 0
+  pages: 0
+  extended_by: 0
+  event_subscribers: 0
 ---
 
 # Page customization "SOA Sales Quote Subform"

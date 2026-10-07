@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:21:46.353Z"
+  at: "2026-10-06T23:56:28.878Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 756cb08fbdd7faec3e081c8851b08e307576889bfe3c68a581efe7e6fabc3ff4
+  input_hash: 757f1e8165af342b29237591d206a23c5a435d28f3a5f8d3e554425eee39bc9d
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Layers/W1/BaseApp/Finance/FinancialReports/IDimensionPerspective.Interface.al
@@ -61,6 +61,12 @@ counts:
   procedures: 9
   events: 0
   subscribers: 0
+relations:
+  out: 0
+  referenced_by: 0
+  pages: 0
+  extended_by: 0
+  event_subscribers: 0
 ---
 
 # Interface "IDimensionPerspective"

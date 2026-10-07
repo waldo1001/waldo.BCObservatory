@@ -23,7 +23,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:04:07.135Z"
+  at: "2026-10-07T00:17:53.935Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -68,7 +68,8 @@ evidence:
 links:
   learn: []
   objects: []
-  features: []
+  features:
+    - feature/573362
   topics: []
   localizations: []
   videos: []
@@ -109,50 +110,62 @@ chapters:
     title: Summary and Conclusion
 features:
   - name: Unified Copilot Chat Experience
-    status: unclear
+    status: ga
     t: 1
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573362"
   - name: Business Central Data Integration in Chat
-    status: unclear
+    status: ga
     t: 211
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573362"
   - name: Web Search Integration in Copilot Chat
     status: unclear
     t: 211
     verified: false
     status_source: video
   - name: Copilot and Agent Capabilities Settings Page
-    status: unclear
+    status: ga
     t: 365
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573362"
   - name: Microsoft Copilot License Additional Benefits
     status: unclear
     t: 291
     verified: false
     status_source: video
   - name: Conversational Interaction Model
-    status: unclear
+    status: ga
     t: 478
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573362"
   - name: Agent Store Integration
-    status: unclear
+    status: ga
     t: 639
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573362"
   - name: Model Selection in Chat
     status: unclear
     t: 689
     verified: false
     status_source: video
   - name: Multi-step Reasoning in Chat
-    status: unclear
+    status: ga
     t: 729
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573362"
 objects_mentioned:
   - page Copilot and Agent Capabilities
 quotes:
@@ -212,15 +225,17 @@ The presenter covers access and licensing, how administrators enable the feature
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| Unified Copilot Chat Experience | status not stated, demoed | [0:01](https://www.youtube.com/watch?v=mhfjycxWTyY&t=1s) |  |
-| Business Central Data Integration in Chat | status not stated, demoed | [3:31](https://www.youtube.com/watch?v=mhfjycxWTyY&t=211s) |  |
+| Unified Copilot Chat Experience | generally available (roadmap [573362](../features/573362.md)), demoed | [0:01](https://www.youtube.com/watch?v=mhfjycxWTyY&t=1s) |  |
+| Business Central Data Integration in Chat | generally available (roadmap [573362](../features/573362.md)), demoed | [3:31](https://www.youtube.com/watch?v=mhfjycxWTyY&t=211s) |  |
 | Web Search Integration in Copilot Chat | status not stated | [3:31](https://www.youtube.com/watch?v=mhfjycxWTyY&t=211s) |  |
-| Copilot and Agent Capabilities Settings Page | status not stated, demoed | [6:05](https://www.youtube.com/watch?v=mhfjycxWTyY&t=365s) |  |
+| Copilot and Agent Capabilities Settings Page | generally available (roadmap [573362](../features/573362.md)), demoed | [6:05](https://www.youtube.com/watch?v=mhfjycxWTyY&t=365s) |  |
 | Microsoft Copilot License Additional Benefits | status not stated | [4:51](https://www.youtube.com/watch?v=mhfjycxWTyY&t=291s) |  |
-| Conversational Interaction Model | status not stated, demoed | [7:58](https://www.youtube.com/watch?v=mhfjycxWTyY&t=478s) |  |
-| Agent Store Integration | status not stated, demoed | [10:39](https://www.youtube.com/watch?v=mhfjycxWTyY&t=639s) |  |
+| Conversational Interaction Model | generally available (roadmap [573362](../features/573362.md)), demoed | [7:58](https://www.youtube.com/watch?v=mhfjycxWTyY&t=478s) |  |
+| Agent Store Integration | generally available (roadmap [573362](../features/573362.md)), demoed | [10:39](https://www.youtube.com/watch?v=mhfjycxWTyY&t=639s) |  |
 | Model Selection in Chat | status not stated, demoed | [11:29](https://www.youtube.com/watch?v=mhfjycxWTyY&t=689s) |  |
-| Multi-step Reasoning in Chat | status not stated, demoed | [12:09](https://www.youtube.com/watch?v=mhfjycxWTyY&t=729s) |  |
+| Multi-step Reasoning in Chat | generally available (roadmap [573362](../features/573362.md)), demoed | [12:09](https://www.youtube.com/watch?v=mhfjycxWTyY&t=729s) |  |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## AL objects mentioned
 

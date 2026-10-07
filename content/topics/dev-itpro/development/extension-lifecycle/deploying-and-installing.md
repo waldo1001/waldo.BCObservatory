@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 659e40a27cf83dd47d095cf06e5ddc91324a34d494c1df16216ce90809e92d5d
@@ -72,8 +72,15 @@ links:
   topics:
     - topic/dev-itpro/development/extension-lifecycle
   localizations: []
-  videos: []
-  posts: []
+  videos:
+    - video/HYqjpyHZ84Q
+    - video/px1MOyXfmnQ
+    - video/UGmL665HtzE
+    - video/Vo5DgXnKiPo
+    - video/WU2fLjIQSuU
+  posts:
+    - post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-1170961607735589786
+    - post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-5842643051210707156
   guidelines: []
 learn_toc_path:
   - Development
@@ -85,8 +92,8 @@ children: []
 coverage:
   learn: 6
   code: 0
-  video: 0
-  blog: 0
+  video: 5
+  blog: 2
   guideline: 0
 bc_forms: []
 member_hash: 659e40a27cf83dd47d095cf06e5ddc91324a34d494c1df16216ce90809e92d5d
@@ -107,5 +114,17 @@ Path: [Development](../../development.md) > [Extension lifecycle](../extension-l
 - [Publishing and Installing an Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-how-publish-and-install-an-extension-v2): Description of the process of publishing and installing an extension.
 - [Upgrading Marketplace Apps in Production](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-upgrade-appsource-app-in-prod): Describes how to upgrade apps available on Marketplace that are already in running in production.
 - [Writing extensions installation code](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extension-install-code): Describes how to add code to run to initialize data when an extension is installed.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Managing Apps in the Business Central Admin Center](../../../../posts/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-1170961607735589786.md) (community post): "Per-tenant extension deployment has moved to the admin center"
+- [Public Preview for Business Central 29.0 (2026 Release Wave 2) Is Here](../../../../posts/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-5842643051210707156.md) (community post): "Test by recompiling AL extensions against 29.0 symbols to find deprecations and breaking changes"
+- [AL-Go for Github March Office Hour](../../../../videos/HYqjpyHZ84Q.md) (video): "al-go; github; ci-cd; incremental builds; deployment to environment"
+- [What's New: AL-Go for GitHub on Delivery and Deployment (2025 release wave 1)](../../../../videos/px1MOyXfmnQ.md) (video): "Dependency Install Mode; Test Apps Deployment; Pull Request Artifact Deployment"
+- [AL-Go for Github June Office Hour](../../../../videos/UGmL665HtzE.md) (video): "AL-Go; github; devops; pipeline"
+- [Microsoft presents: Large scale development with AL-Go](../../../../videos/Vo5DgXnKiPo.md) (video): "al-go; devops; large-scale development; custom templates"
+- [What's New: AL Go for GitHub (2023 release wave 2)](../../../../videos/WU2fLjIQSuU.md) (video): "AL Go for GitHub DevOps solution; Settings configuration types"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

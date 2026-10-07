@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:21:46.353Z"
+  at: "2026-10-06T23:56:28.878Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: b6a39647d60bfd3a048dabd1bdf5147c4c4ddca98c5fe71cca39b6aaa95486ea
+  input_hash: 61fa1be93d202993130d0b9e136949f113a77e585b4e0a627a10fb93c8782ee4
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/ReviewGLEntries/app/src/interfaces/GLEntryReviewer.Interface.al
@@ -60,6 +60,12 @@ counts:
   procedures: 3
   events: 0
   subscribers: 0
+relations:
+  out: 0
+  referenced_by: 0
+  pages: 0
+  extended_by: 0
+  event_subscribers: 0
 ---
 
 # Interface "G/L Entry Reviewer"

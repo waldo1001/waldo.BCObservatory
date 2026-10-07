@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: c0d4866c16084204cf993cc5fa286033b6acd8eb67519ff6500f2079239ede22
@@ -279,7 +279,10 @@ links:
     - topic/dev-itpro/development/extension-lifecycle/updating-and-hotfixing
     - topic/dev-itpro/development/extension-lifecycle/deprecating-code
   localizations: []
-  videos: []
+  videos:
+    - video/f_i4_BRz-oA
+    - video/vcKHOR4p1MQ
+    - video/vm3sTuXdUho
   posts: []
   guidelines: []
 learn_toc_path:
@@ -298,7 +301,7 @@ children:
 coverage:
   learn: 35
   code: 0
-  video: 0
+  video: 3
   blog: 0
   guideline: 0
 bc_forms:
@@ -336,6 +339,14 @@ Path: [Development](../development.md) > Extension lifecycle · tier official ·
 - [Extension Development Lifecycle Overview](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-ext-dev-lifecycle-overview): Explains the phases involved in the lifecycle of developing an extension.
 - [Extension types and scope](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extension-types-and-scope): Extension types for Business Central explained: global apps, per-tenant extensions, and DEV extensions. Learn how scope and environment affect each type.
 - [Moving between extension scopes](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extension-moving-scope): Describes how an extension in one scope can be moved into another scope in Business Central.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Microsoft presents: Cloud Migration from any SQL](../../../videos/f_i4_BRz-oA.md) (video): "AL extensibility; migration patterns; migrator framework; extension points"
+- [Microsoft presents: Looking ahead: the future of AL-Go and BCContainerHelper](../../../videos/vcKHOR4p1MQ.md) (video): "AL-Go for GitHub; Workspace compilation; Build hooks in AL-Go"
+- [What's New in AL-Go for GitHub: Introducing Custom Templates (2025 release wave 2)](../../../videos/vm3sTuXdUho.md) (video): "Custom templates for AL-Go; Custom jobs in AL-Go workflows"
 
 ## Business Central pages and reports
 

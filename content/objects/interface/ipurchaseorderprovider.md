@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:21:46.353Z"
+  at: "2026-10-06T23:56:28.878Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: cf4bfc492ff72f7f0bcfff2140f8dd65f2ed000d9f008f7955b300907dac8b18
+  input_hash: aa09a74b57fce84a8418acdb6c972c09df63ca960f25b1b3a9ca3df87cf79a9c
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/EDocument/app/src/Processing/Interfaces/IPurchaseOrderProvider.Interface.al
@@ -60,6 +60,12 @@ counts:
   procedures: 1
   events: 0
   subscribers: 0
+relations:
+  out: 0
+  referenced_by: 0
+  pages: 0
+  extended_by: 0
+  event_subscribers: 0
 ---
 
 # Interface "IPurchaseOrderProvider"

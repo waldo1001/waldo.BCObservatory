@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 94b2e3b4505d82f34a89001123c34c9d423d9db69edc41a1bcd232e6109139ed
@@ -128,7 +128,10 @@ links:
   topics:
     - topic/business-central/business-functionality/set-up-business-central
   localizations: []
-  videos: []
+  videos:
+    - video/giNi8WtCX_s
+    - video/WACQbAEVOJg
+    - video/zt9_HEmPKNg
   posts: []
   guidelines: []
 learn_toc_path:
@@ -141,7 +144,7 @@ children: []
 coverage:
   learn: 13
   code: 0
-  video: 0
+  video: 3
   blog: 0
   guideline: 0
 bc_forms:
@@ -238,6 +241,14 @@ Path: [Business functionality](../../business-functionality.md) > [Set up Busine
 - [Set up work centers and machine centers](https://learn.microsoft.com/dynamics365/business-central/production-how-to-set-up-work-and-machine-centers): Learn how to set up work and machine centers to represent production resources, capacity, efficiency, calendars, and costs.
 - [Use the manufacturing batch units of measure](https://learn.microsoft.com/dynamics365/business-central/production-how-to-use-the-manufacturing-batch-unit-of-measure): Learn how to calculate production components when an item is stocked in one unit of measure but produced in another.
 - [Work with Production Families in Manufacturing](https://learn.microsoft.com/dynamics365/business-central/production-how-work-family): Learn how to group items that share a manufacturing process so you can produce them together and reduce material scrap and repeated setup work.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [What's New in Manufacturing: Streamline Product Design (2025 release wave 1)](../../../../videos/giNi8WtCX_s.md) (video): "Subassembly display options in BOM; BOM version list view with date and status"
+- [What's new in SCM: Overview (2026 release wave 2)](../../../../videos/WACQbAEVOJg.md) (video): "Create released production orders from planning worksheet"
+- [Manufacturing Foundations Capacities (2026)](../../../../videos/zt9_HEmPKNg.md) (video): "Shop calendars; Work center groups; Work center posting settings"
 
 ## Business Central pages and reports
 

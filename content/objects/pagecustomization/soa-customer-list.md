@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:21:46.353Z"
+  at: "2026-10-06T23:56:28.878Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 6126a1c55d75d6843219d9b1218051f420e92549f863ec6255e60b00a052a1b1
+  input_hash: b30a336740fd40c64c57ad62b05cc28ddd302f5abc6a143c93a42bde17a002b1
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/SalesOrderAgent/app/src/Profile/PageCustomizations/SOACustomerList.PageCust.al
@@ -60,6 +60,12 @@ counts:
   procedures: 0
   events: 0
   subscribers: 0
+relations:
+  out: 0
+  referenced_by: 0
+  pages: 0
+  extended_by: 0
+  event_subscribers: 0
 ---
 
 # Page customization "SOA Customer List"

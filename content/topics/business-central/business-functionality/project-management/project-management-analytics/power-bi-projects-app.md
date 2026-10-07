@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 7a8f07ed28f41c6de3ea66d084c827bdcc1823a2c52faa2fb28abda9534d1628
@@ -112,7 +112,8 @@ links:
   topics:
     - topic/business-central/business-functionality/project-management/project-management-analytics
   localizations: []
-  videos: []
+  videos:
+    - video/6lUli23t3fU
   posts: []
   guidelines: []
 learn_toc_path:
@@ -126,7 +127,7 @@ children: []
 coverage:
   learn: 11
   code: 0
-  video: 0
+  video: 1
   blog: 0
   guideline: 0
 bc_forms:
@@ -163,6 +164,12 @@ Path: [Business functionality](../../../business-functionality.md) > [Project ma
 - [Project Tasks (Power BI report)](https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-project-tasks): The Project Tasks report breaks down each project and their tasks.
 - [Project Timeline (Power BI report)](https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-project-timeline): The Project Timeline monitors project timelines to ensure timely delivery, with insights into task durations, start and end dates, and critical paths.
 - [Projects KPIs and measures (Power BI)](https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-kpis): The Projects App KPIs provides a page to clearly identify all KPIs and Measures used in the Projects Report.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [What's New: Power BI for Projects and Inventory (2025 release wave 2)](../../../../../videos/6lUli23t3fU.md) (video): "Project Power BI App Open Source; Project Profitability Analysis"
 
 ## Business Central pages and reports
 

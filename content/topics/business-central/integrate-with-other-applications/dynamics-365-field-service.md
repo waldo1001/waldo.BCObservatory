@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 0eba7d664efd489974a16033cea94144dbe55ecba66bb663c6eb4d50f74eb348
@@ -40,7 +40,10 @@ links:
   topics:
     - topic/business-central/integrate-with-other-applications
   localizations: []
-  videos: []
+  videos:
+    - video/ByRoL46n-Gg
+    - video/Jbo2DOCd7Pw
+    - video/WvG4EOHQuiw
   posts: []
   guidelines: []
 learn_toc_path:
@@ -52,7 +55,7 @@ children: []
 coverage:
   learn: 2
   code: 0
-  video: 0
+  video: 3
   blog: 0
   guideline: 0
 bc_forms: []
@@ -70,5 +73,13 @@ Path: [Integrate with other applications](../integrate-with-other-applications.m
 
 - [Integrate with Microsoft Dynamics 365 Field Service](https://learn.microsoft.com/dynamics365/business-central/admin-integrate-field-service): Integrate Business Central with Field Service.
 - [Use your integration with Field Service](https://learn.microsoft.com/dynamics365/business-central/admin-use-field-service-integration): This article describes how to benefit from an integration with Microsoft Dynamics 365 Field Service.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Introducing: Dynamics 365 Field Service Integration with Business Central (2024 release wave 1)](../../../videos/ByRoL46n-Gg.md) (video): "Dynamics 365 Field Service Integration with Business Central; work order synchronization; resource synchronization"
+- [What's New: Integration with Dynamics 365 Field Service (2025 release wave 1)](../../../videos/Jbo2DOCd7Pw.md) (video): "Integration with Dynamics 365 Field Service; data synchronization"
+- [What's New: Field Service Integration to Service Management (2024 release wave 2)](../../../videos/WvG4EOHQuiw.md) (video): "Field Service Integration to Service Management; work order synchronization; service management integration"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

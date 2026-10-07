@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 9652d43d8b60565d9824d5f02d18f9bb3544c31230257171f6de924ca490ad5f
@@ -88,7 +88,17 @@ links:
   topics:
     - topic/business-central/business-functionality/finance
   localizations: []
-  videos: []
+  videos:
+    - video/07G7aC14Y_w
+    - video/8VRtBLNAOiI
+    - video/GM0DNxu39LM
+    - video/gVjrKPHlrgM
+    - video/h6a8BVzvuZ4
+    - video/hba7KVWrIwY
+    - video/hL4PUhjyhNY
+    - video/N_J1HB_fUCM
+    - video/OvI9jaA1mJY
+    - video/pE19K17wpgI
   posts: []
   guidelines: []
 learn_toc_path:
@@ -101,7 +111,7 @@ children: []
 coverage:
   learn: 8
   code: 0
-  video: 0
+  video: 10
   blog: 0
   guideline: 0
 bc_forms:
@@ -141,6 +151,21 @@ Path: [Business functionality](../../business-functionality.md) > [Finance](../f
 - [Set up the E-Documents connector with external endpoints](https://learn.microsoft.com/dynamics365/business-central/finance-how-setup-edocuments-external): This article explains how to set up E-Documents functionality when connected to external endpoints.
 - [Use e-documents in sales](https://learn.microsoft.com/dynamics365/business-central/finance-how-use-edocuments): Learn how to use e-documents functionality that is related to sales.
 - [Use E-Documents in the purchase process](https://learn.microsoft.com/dynamics365/business-central/finance-how-use-edocuments-purchase): Learn how to set up vendors and handle purchase invoices, orders, and credit memos using e-documents in Dynamics 365 Business Central.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [What's new in E-Documents: Overview (2026 release wave 2)](../../../../videos/07G7aC14Y_w.md) (video): "edi; e-documents; purchase order; sales order; xml"
+- [Introducing: Self-Billing Invoices (2026 release wave 1)](../../../../videos/8VRtBLNAOiI.md) (video): "Self-Billing Invoices; Self-Billing Agreement Field on Vendor Card; Electronic Invoicing for Self-Billing"
+- [What's New: E-Documents Connectors (2025 release wave 1)](../../../../videos/GM0DNxu39LM.md) (video): "e-documents; connectors; appsource; electronic invoicing; integration setup"
+- [What's New: E-Documents ZUGFeRD Format (2025 release wave 2)](../../../../videos/gVjrKPHlrgM.md) (video): "e-documents; zugferd; pdf-a3; germany; invoicing; hybrid documents"
+- [What's New: E-Documents and Clearance Model (2025 release wave 2)](../../../../videos/h6a8BVzvuZ4.md) (video): "Clearance model for e-documents; E-document workflow orchestration"
+- [What's New: E-Documents (2024 release wave 2)](../../../../videos/hba7KVWrIwY.md) (video): "e-documents; electronic invoicing; avalara; pagero; b2b; b2g; connectors"
+- [What's New: E-Documents Localizations (2025 release wave 1)](../../../../videos/hL4PUhjyhNY.md) (video): "e-documents; localizations; peppol; factura; ubl; pdf/a; electronic invoicing"
+- [What's new in Finance: Overview (2026 release wave 2)](../../../../videos/N_J1HB_fUCM.md) (video): "Self-billing PEPPOL format support; Invoicing for France GA"
+- [What's New: Payables Agent (2026 release wave 1)](../../../../videos/OvI9jaA1mJY.md) (video): "Inbound e-documents list enhancements"
+- [What's New: Using Enforced Digital Vouchers (2023 release wave 2)](../../../../videos/pE19K17wpgI.md) (video): "Enforced Digital Vouchers; Automatic Digital Voucher Generation; Digital Voucher Control Types"
 
 ## Business Central pages and reports
 

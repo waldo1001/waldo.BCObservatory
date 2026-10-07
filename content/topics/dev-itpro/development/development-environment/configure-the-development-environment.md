@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 2bacf55057d515171b5ffa49dd7d138332dd1d035ecd858efa431c4705a49ed9
@@ -101,8 +101,11 @@ links:
     - topic/dev-itpro/development/development-environment
     - topic/dev-itpro/development/development-environment/configure-the-development-environment/json-files
   localizations: []
-  videos: []
-  posts: []
+  videos:
+    - video/8t3WaWh7K9Y
+    - video/TY82NR2hGEg
+  posts:
+    - post/demiliani-com/13761
   guidelines: []
 learn_toc_path:
   - Development
@@ -115,8 +118,8 @@ children:
 coverage:
   learn: 10
   code: 0
-  video: 0
-  blog: 0
+  video: 2
+  blog: 1
   guideline: 0
 bc_forms: []
 member_hash: 2bacf55057d515171b5ffa49dd7d138332dd1d035ecd858efa431c4705a49ed9
@@ -141,5 +144,13 @@ Path: [Development](../../development.md) > [Development environment](../develop
 - [Resource exposure policy setting](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-security-settings-and-ip-protection): Explains how to set the resource exposure policy for allowing download or debugging into extension to see the source code.
 - [Running a container-based development environment](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-running-container-development): Overview of how to run a container-based development.
 - [Use GitHub Codespaces for AL development](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-code-spaces-al): GitHub Codespaces gives you a ready-to-use, cloud-hosted development environment for AL that runs in your browser.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Be careful with Visual Studio Code extensions…](../../../../posts/demiliani-com/13761.md) (community post): "Visual Studio Code extensions run with full IDE privileges and pose security risks if compromised"
+- [What's New in AL: Easy Access to Source Code with Open In VS Code and GitHub Projects (2024)](../../../../videos/8t3WaWh7K9Y.md) (video): "Open In VS Code action on extension management page"
+- [What's New: Business Central Developer Tools (2023 release wave 2)](../../../../videos/TY82NR2hGEg.md) (video): "AL language extension for Linux; DevOps syntax highlighting"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

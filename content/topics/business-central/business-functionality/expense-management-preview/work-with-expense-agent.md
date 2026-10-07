@@ -12,7 +12,7 @@ review:
   at: "2026-10-06T15:20:24.998Z"
   flags: []
 generated:
-  at: "2026-10-06T15:20:40.673Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -73,7 +73,12 @@ links:
   topics:
     - topic/business-central/business-functionality/expense-management-preview
   localizations: []
-  videos: []
+  videos:
+    - video/cVfZoDwKYpI
+    - video/Fz8NLByllRc
+    - video/GwrMf1umTFg
+    - video/M0IzeLSn7qU
+    - video/pjML7lXSsd0
   posts: []
   guidelines: []
 learn_toc_path:
@@ -86,7 +91,7 @@ children: []
 coverage:
   learn: 6
   code: 0
-  video: 0
+  video: 5
   blog: 0
   guideline: 0
 bc_forms: []
@@ -124,5 +129,15 @@ Start with the Expense Agent overview for the big picture. Then follow the reque
 - [Review and Edit Expenses in Expense Agent](https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-edit-expenses): Review and edit expense details in Expense Agent after AI receipt scanning or manual entry. Update the vendor, amount, category, and other fields.
 - [Upload Receipts and Create Mileage Expenses](https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-upload-receipts): Upload receipts to Expense Agent for AI extraction or create mileage expenses with route-based distance calculation in the web app.
 - [Use the Expense Agent Mobile App (preview)](https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-mobile-app): Capture receipts on the go with the Business Central Expenses mobile app for iOS and Android, featuring document scanning and offline support.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Microsoft presents: Behind the scenes of how we build the new Expense Agent](../../../../videos/cVfZoDwKYpI.md) (video): "Expense Agent Architecture; Expense User Approver Configuration; Expense Report Open Notification"
+- [Expense Agent: Mileage Allowances (2026 release wave 1)](../../../../videos/Fz8NLByllRc.md) (video): "Automatic mileage rate calculation; Automatic expense report matching"
+- [What's new in Expense Agent: Project Handling (2026 release wave 2)](../../../../videos/GwrMf1umTFg.md) (video): "Project resource assignment on project card; Project task level resource assignment"
+- [What's new in Expense Agent: Improved Approval Process (2026 release wave 2)](../../../../videos/M0IzeLSn7qU.md) (video): "expense agent; approval process; audit trail; ai policies"
+- [Introducing: Expense Management (2026 release wave 1)](../../../../videos/pjML7lXSsd0.md) (video): "Expense agent with AI-driven categorization; Expense collection and itemization; Expense approval workflow"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

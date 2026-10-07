@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:21:46.353Z"
+  at: "2026-10-06T23:56:28.878Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 32ec3ba772501bf6c4824af19f035dd1f68df3cdac6fc0d945ba5a3dbf21c03f
+  input_hash: 18c2f0ccedd195c4179c9d7a58c8cd3930d8ceacccfc2c944a7a2823bea670ba
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Layers/W1/BaseApp/Modules/System/PowerBI/APIs/ReportDeployments/PowerBIDeployableReport.Interface.al
@@ -61,6 +61,12 @@ counts:
   procedures: 4
   events: 0
   subscribers: 0
+relations:
+  out: 0
+  referenced_by: 0
+  pages: 0
+  extended_by: 0
+  event_subscribers: 0
 ---
 
 # Interface "Power BI Deployable Report"

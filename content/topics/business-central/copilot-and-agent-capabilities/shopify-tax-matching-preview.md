@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T13:43:32.763Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -41,7 +41,8 @@ links:
   topics:
     - topic/business-central/copilot-and-agent-capabilities
   localizations: []
-  videos: []
+  videos:
+    - video/5OZ0g5IgC8Q
   posts: []
   guidelines: []
 learn_toc_path:
@@ -53,7 +54,7 @@ children: []
 coverage:
   learn: 2
   code: 0
-  video: 0
+  video: 1
   blog: 0
   guideline: 0
 bc_forms: []
@@ -90,5 +91,11 @@ Start with the application card to understand the scope and the role of human re
 
 - [Application card for Shopify Tax Matching](https://learn.microsoft.com/dynamics365/business-central/shopify-tax-matching-application-card): Learn how Shopify Tax Matching uses AI, how Microsoft evaluated the feature, its limitations, and how to use it responsibly.
 - [Set up and use Shopify Tax Matching](https://learn.microsoft.com/dynamics365/business-central/shopify/shopify-tax-matching): Learn how to set up Shopify Tax Matching, review suggested tax jurisdiction matches, and approve tax setup for imported orders.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [What's new: Shopify Tax Matching (preview) (2026 release wave 2)](../../../videos/5OZ0g5IgC8Q.md) (video): "Shopify Tax Matching AI Capability; Tax Area Code Auto-Population"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

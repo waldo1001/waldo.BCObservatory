@@ -12,7 +12,7 @@ review:
   at: "2026-10-06T14:23:56.689Z"
   flags: []
 generated:
-  at: "2026-10-06T14:24:07.451Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -113,7 +113,15 @@ links:
   topics:
     - topic/business-central/business-functionality/sustainability-management
   localizations: []
-  videos: []
+  videos:
+    - video/6d6iajwQQ-c
+    - video/bnqxycPzbeI
+    - video/D2KPQEbO40Q
+    - video/JoGW2xlIq0I
+    - video/lcy36b9GS38
+    - video/Sc8eGyMkBTA
+    - video/t_UXxbvgnHY
+    - video/uan4dV9eVCA
   posts: []
   guidelines: []
 learn_toc_path:
@@ -126,7 +134,7 @@ children: []
 coverage:
   learn: 11
   code: 0
-  video: 0
+  video: 8
   blog: 0
   guideline: 0
 bc_forms:
@@ -217,6 +225,19 @@ The process pages follow a similar pattern. You record emissions on documents or
 - [Sustainability value chain overview](https://learn.microsoft.com/dynamics365/business-central/value-chain-howto-overview): Learn about the sustainability value chain features by using the provided information and resources.
 - [Sustainability value chain setup](https://learn.microsoft.com/dynamics365/business-central/value-chain-howto-setup): Learn how to enable the sustainability value chain.
 - [Track Fixed Asset Emissions in the Value Chain](https://learn.microsoft.com/dynamics365/business-central/value-chain-howto-fixed-assets): Learn how to track CO2e emissions when you acquire, reclassify, sell, or dispose of fixed assets in Business Central.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [What's New: Value Chain Automation with Production Orders (2025 release wave 1)](../../../../videos/6d6iajwQQ-c.md) (video): "value chain tracking; sustainability value entries; production orders; emissions"
+- [What's New: Value Chain Automation with Transfer Orders (2025 release wave 1)](../../../../videos/bnqxycPzbeI.md) (video): "Value Chain Tracking in Transfer Orders; Emissions from Production and Assembly Orders"
+- [Dynamics 365 Business Central 2025 Release Wave 1 Release Highlights](../../../../videos/D2KPQEbO40Q.md) (video): "Scope 3 emissions; carbon dioxide; sustainability reporting; data enrichment"
+- [What's New: Value Chain Automation with Assembly Orders (2025 release wave 1)](../../../../videos/JoGW2xlIq0I.md) (video): "Value Chain Automation with Assembly Orders; scope 3 emissions; carbon equivalent"
+- [What's New in Sustainability: Value Chain with Item Charges (2025 release wave 2)](../../../../videos/lcy36b9GS38.md) (video): "Value Chain with Item Charges scope three emissions carbon footprint value chain automation"
+- [What's New in Sustainability: Value Chain in Projects (2025 release wave 2)](../../../../videos/Sc8eGyMkBTA.md) (video): "Value Chain Automation in Projects; Scope Three Coverage via Value Chain"
+- [What's new in Sustainability (2026 release wave 2)](../../../../videos/t_UXxbvgnHY.md) (video): "Value chain emissions in item journals; Scope three tracking by item tracking level"
+- [End To End Sustainability Tracking and Reporting for SMBs](../../../../videos/uan4dV9eVCA.md) (video): "Three Emission Scopes Coverage; Emissions Formulas; ERP Integration for Sustainability"
 
 ## Business Central pages and reports
 

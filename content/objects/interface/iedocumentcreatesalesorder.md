@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:21:46.353Z"
+  at: "2026-10-06T23:56:28.878Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 4da7d56198fd78cda190f3313e1d94850295cb507f763eb64043e43a79875c2e
+  input_hash: 8da9cf49a295ecd723fbb4a108c95235292e8e3bdf68174bdb2e5dbdbb73997c
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/EDocument/app/src/Processing/Import/Sales/IEDocumentCreateSalesOrder.Interface.al
@@ -60,6 +60,12 @@ counts:
   procedures: 1
   events: 0
   subscribers: 0
+relations:
+  out: 0
+  referenced_by: 0
+  pages: 0
+  extended_by: 0
+  event_subscribers: 0
 ---
 
 # Interface "IEDocumentCreateSalesOrder"

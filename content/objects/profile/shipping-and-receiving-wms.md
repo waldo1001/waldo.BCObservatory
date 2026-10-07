@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:21:46.353Z"
+  at: "2026-10-06T23:56:28.878Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 1d2391f6f42a0b45d8e359142a7af528874ec0cc639ebe826562eaecbd817c98
+  input_hash: a95cddc5aa63e605be21248a47a6e49677723f06dba5b8f50aaa88d46c87730d
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Layers/W1/BaseApp/Warehouse/RoleCenters/ShippingAndReceivingWMS.Profile.al
@@ -61,6 +61,12 @@ counts:
   procedures: 0
   events: 0
   subscribers: 0
+relations:
+  out: 0
+  referenced_by: 0
+  pages: 0
+  extended_by: 0
+  event_subscribers: 0
 ---
 
 # Profile "SHIPPING AND RECEIVING - WMS"

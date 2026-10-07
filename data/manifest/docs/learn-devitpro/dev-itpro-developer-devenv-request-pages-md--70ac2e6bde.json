@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-request-pages",
   "published_at": "2025-05-06T19:27:10.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,10 +17,29 @@
       "blob": "7620467bfbc1ec72e46905e8abdc4b01d1eadfa0",
       "words": 893,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T23:41:50.649Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.002535
+    },
+    "summarized": {
+      "at": "2026-10-06T23:41:50.668Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T23:41:50.670Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T23:41:50.671Z",
+      "page": false
     }
   },
   "input_hash": "7620467bfbc1ec72e46905e8abdc4b01d1eadfa0",
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
@@ -33,7 +52,7 @@
     "ai_usage": null,
     "words": 893
   },
-  "last_error": "git cat-file -p 7620467bfbc1ec72e46905e8abdc4b01d1eadfa0 failed: fatal: You are attempting to fetch cb233a9a87b9b4340b3a593b27f884c24f208fc6, which is in the commit graph file but not in the object database. This is probably due to repo corruption. If you are attempting to repair this repo corruption by refetching the missing object, use 'git fetch --refetch' with the missing object. fatal: could not fetch 7620467bfbc1ec72e46905e8abdc4b01d1eadfa0 from promisor ",
-  "retry_after": "2026-10-06T21:36:25.048Z",
-  "output_hash": "7620467bfbc1ec72e46905e8abdc4b01d1eadfa0"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "5388a3842c55d40188c3bb09b0786e221371d3d7bff6a338233879d66c059622"
 }

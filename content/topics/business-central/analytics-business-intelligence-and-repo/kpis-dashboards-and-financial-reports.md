@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 14c791880aa69d8df6f5b860af54cb7be4a4b453890c057e0571beaebd10d4a5
@@ -126,7 +126,13 @@ links:
     - topic/business-central/analytics-business-intelligence-and-repo/kpis-dashboards-and-financial-reports/power-bi-and-business-central
     - topic/business-central/analytics-business-intelligence-and-repo/kpis-dashboards-and-financial-reports/power-bi-apps-for-business-central
   localizations: []
-  videos: []
+  videos:
+    - video/9g1vwaXmy2s
+    - video/cV_5MGGdGtQ
+    - video/eDi32pS8eMo
+    - video/fy96_jdL1PQ
+    - video/jricCM_04H4
+    - video/WYd8Qn3wVQQ
   posts: []
   guidelines: []
 learn_toc_path:
@@ -140,7 +146,7 @@ children:
 coverage:
   learn: 14
   code: 0
-  video: 0
+  video: 6
   blog: 0
   guideline: 0
 bc_forms:
@@ -250,6 +256,17 @@ Path: [Analytics, business intelligence, and reporting](../analytics-business-in
 
 - [Build financial reports using financial data and account categories](https://learn.microsoft.com/dynamics365/business-central/bi-how-work-account-schedule): Describes how to use financial reports to create various views and reports for analyzing financial performance data.
 - [Using key performance indicators (KPIs) to meet your business goals](https://learn.microsoft.com/dynamics365/business-central/analytics-about-kpis): Provides an overview of what key performance indicators (KPIs) are and how you can use them to meet your business goals.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [What's Cooking in Business Central: Financial Report Scheduling](../../../videos/9g1vwaXmy2s.md) (video): "financial report scheduling; recurring schedules; export to excel"
+- [Make your KPIs look sharp and dazzling in Business Central (Advanced Spreadsheets and Reporting)](../../../videos/cV_5MGGdGtQ.md) (video): "kpi cards; spreadsheet reporting; data visualization; dashboard design"
+- [Use a reporting skill to create complex Spreadsheets in Business Central (Advanced Spreadsheets)](../../../videos/eDi32pS8eMo.md) (video): "advanced spreadsheets; reporting skills; ai agent; dashboard"
+- [Episode 520: Reports, Dashboards, and Scorecards: A Complete Guide to Reporting in Business Central](../../../videos/fy96_jdL1PQ.md) (video): "reporting capabilities; training strategy; user adoption; learning management"
+- [What's New: Excel Reporting (2025 release wave 1)](../../../videos/jricCM_04H4.md) (video): "Excel reports; pivot tables; power query; analytics; finance reports"
+- [Edit G/L Budgets in a Spreadsheet inside Business Central (Advanced Spreadsheets and Reporting)](../../../videos/WYd8Qn3wVQQ.md) (video): "Edit G/L Budgets in a Spreadsheet inside Business Central"
 
 ## Business Central pages and reports
 

@@ -24,7 +24,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:01:54.916Z"
+  at: "2026-10-07T00:17:53.935Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -69,7 +69,8 @@ evidence:
 links:
   learn: []
   objects: []
-  features: []
+  features:
+    - feature/573316
   topics: []
   localizations: []
   videos: []
@@ -115,10 +116,12 @@ chapters:
     title: Closing Remarks and Summary
 features:
   - name: Turn SIFT indexes on or off from Business Central client
-    status: unclear
+    status: ga
     t: 11
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573316"
   - name: Index Management page
     status: unclear
     t: 487
@@ -208,12 +211,14 @@ It demos the Index Management page, which shows index type, whether an index is 
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| Turn SIFT indexes on or off from Business Central client | status not stated, demoed | [0:11](https://www.youtube.com/watch?v=bVPFIhkvZEA&t=11s) |  |
+| Turn SIFT indexes on or off from Business Central client | generally available (roadmap [573316](../features/573316.md)), demoed | [0:11](https://www.youtube.com/watch?v=bVPFIhkvZEA&t=11s) |  |
 | Index Management page | status not stated, demoed | [8:07](https://www.youtube.com/watch?v=bVPFIhkvZEA&t=487s) |  |
 | Index type classification | status not stated, demoed | [10:39](https://www.youtube.com/watch?v=bVPFIhkvZEA&t=639s) |  |
 | Company-level index control | status not stated, demoed | [12:07](https://www.youtube.com/watch?v=bVPFIhkvZEA&t=727s) |  |
 | Database index management at application level | status not stated | [5:48](https://www.youtube.com/watch?v=bVPFIhkvZEA&t=348s) |  |
 | Immediate index disable with deferred enable | status not stated, demoed | [16:48](https://www.youtube.com/watch?v=bVPFIhkvZEA&t=1008s) |  |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## AL objects mentioned
 

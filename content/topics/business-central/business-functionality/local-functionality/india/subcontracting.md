@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 1f4cb941adce56cf2b1b16baa89da740e1d9ff3c052a0ec1c14f61e023fd3a21
@@ -56,7 +56,8 @@ links:
   topics:
     - topic/business-central/business-functionality/local-functionality/india
   localizations: []
-  videos: []
+  videos:
+    - video/nb_a42dmSqE
   posts: []
   guidelines: []
 learn_toc_path:
@@ -70,7 +71,7 @@ children: []
 coverage:
   learn: 4
   code: 0
-  video: 0
+  video: 1
   blog: 0
   guideline: 0
 bc_forms: []
@@ -90,5 +91,11 @@ Path: [Business functionality](../../../business-functionality.md) > [Local func
 - [Setting Up Subcontracting](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/Subcontracting-001-Basic-Setup): Learn how to set up subcontracting in Business Central for India.
 - [Sub Contracting Reports](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/Subcontracting-Reports): Learn about the available subcontracting reports in Business Central for India.
 - [Sub-Contracting Order Creation](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/Subcontracting-Transactions): Learn how to create and manage subcontracting orders in Business Central for India.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [What's new in SCM: Migrate Italian Subcontracting (2026 release wave 2)](../../../../../videos/nb_a42dmSqE.md) (video): "New global subcontracting app; Italian subcontracting migration app"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

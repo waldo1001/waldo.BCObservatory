@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:13:02.610Z"
+  at: "2026-10-07T00:17:53.935Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -140,7 +140,8 @@ evidence:
 links:
   learn: []
   objects: []
-  features: []
+  features:
+    - feature/573366
   topics: []
   localizations: []
   videos: []
@@ -203,10 +204,12 @@ features:
     verified: false
     status_source: video
   - name: Agent Review Experience
-    status: unclear
+    status: ga
     t: 650
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573366"
   - name: Agent Task Execution with Real-time Monitoring
     status: unclear
     t: 546
@@ -377,7 +380,7 @@ A demo Accounts Receivable agent processes a sales return complaint about damage
 | Agent Instructions Framework | status not stated, demoed | [0:05](https://www.youtube.com/watch?v=1IIlArcHpOY&t=5s) |  |
 | Accounts Receivable Agent | status not stated, demoed | [2:36](https://www.youtube.com/watch?v=1IIlArcHpOY&t=156s) |  |
 | PDF and Image Document Intelligence | status not stated, demoed | [7:44](https://www.youtube.com/watch?v=1IIlArcHpOY&t=464s) |  |
-| Agent Review Experience | status not stated, demoed | [10:50](https://www.youtube.com/watch?v=1IIlArcHpOY&t=650s) |  |
+| Agent Review Experience | generally available (roadmap [573366](../features/573366.md)), demoed | [10:50](https://www.youtube.com/watch?v=1IIlArcHpOY&t=650s) |  |
 | Agent Task Execution with Real-time Monitoring | status not stated, demoed | [9:06](https://www.youtube.com/watch?v=1IIlArcHpOY&t=546s) |  |
 | Credit Memo Generation from Agent Instructions | status not stated, demoed | [10:50](https://www.youtube.com/watch?v=1IIlArcHpOY&t=650s) |  |
 | Email Composition by Agent | status not stated, demoed | [12:46](https://www.youtube.com/watch?v=1IIlArcHpOY&t=766s) |  |
@@ -392,6 +395,8 @@ A demo Accounts Receivable agent processes a sales return complaint about damage
 | Page-specific instructions syntax | status not stated, demoed | [22:12](https://www.youtube.com/watch?v=1IIlArcHpOY&t=1332s) |  |
 | Instructions history and versioning | status not stated, demoed | [23:04](https://www.youtube.com/watch?v=1IIlArcHpOY&t=1384s) |  |
 | Bulk download of instructions | status not stated, demoed | [23:19](https://www.youtube.com/watch?v=1IIlArcHpOY&t=1399s) |  |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## AL objects mentioned
 

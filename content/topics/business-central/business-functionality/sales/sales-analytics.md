@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 8f977512624b4dea0f0638136c04ed9e73b45135d92152ec1cb859c481c24858
@@ -310,7 +310,8 @@ links:
     - topic/business-central/business-functionality/sales/sales-analytics/built-in-sales-reports
     - topic/business-central/business-functionality/sales/sales-analytics/legacy-reports-will-be-removed
   localizations: []
-  videos: []
+  videos:
+    - video/rAaUiKByyEE
   posts: []
   guidelines: []
 learn_toc_path:
@@ -326,7 +327,7 @@ children:
 coverage:
   learn: 61
   code: 0
-  video: 0
+  video: 1
   blog: 0
   guideline: 0
 bc_forms:
@@ -422,6 +423,12 @@ Path: [Business functionality](../../business-functionality.md) > [Sales](../sal
 - [Ad-hoc analysis of sales data](https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-sales): Learn how to use the data analysis mode to analyze sales data.
 - [Create analysis reports](https://learn.microsoft.com/dynamics365/business-central/bi-how-create-analysis-views-reports): Describes how to create new analysis reports for sales, purchases, and inventory, and set up analysis templates.
 - [Sales analytics](https://learn.microsoft.com/dynamics365/business-central/sales-analytics-overview): Business Central offers features that can help you gather, analyze, and share valuable sales data for business intelligence and decision-making in the sales organization.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [What's New: Sales Analytics (2025 release wave 2)](../../../../videos/rAaUiKByyEE.md) (video): "Modernized analytical reports; Customer item sales report"
 
 ## Business Central pages and reports
 

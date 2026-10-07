@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: a9460406e795a84eabda657a992f88787903db8ccb42613287315cedca8bb897
@@ -65,7 +65,8 @@ links:
     - topic/dev-itpro/administration/automation-api
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-73-show-all-configuration-package-errors/
   guidelines: []
 learn_toc_path:
   - Administration
@@ -78,7 +79,7 @@ coverage:
   learn: 5
   code: 0
   video: 0
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms: []
 member_hash: a9460406e795a84eabda657a992f88787903db8ccb42613287315cedca8bb897
@@ -98,5 +99,11 @@ Path: [Administration](../../administration.md) > [Automation API](../automation
 - [(automation API) Get configurationPackage](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/api/dynamics_configurationpackage_get): Gets a configuration package object in Dynamics 365 Business Central.
 - [(automation API) Update configurationPackage](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/api/dynamics_configurationpackage_update): Updates a configuration package object in Dynamics 365 Business Central.
 - [configurationPackage resource type](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/resources/dynamics_configurationpackage): A configuration package object in Dynamics 365 Business Central.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [BC Friday Tips #73 Show All Configuration Package Errors](../../../../posts/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-73-show-all-configuration-package-errors/.md) (community post): "Configuration Package errors can be displayed all together on one page"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

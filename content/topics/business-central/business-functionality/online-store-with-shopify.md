@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 77d9f700f58ba488366f60450edce8b00817d51fa35da6f1eb15899fa45d83d3
@@ -151,7 +151,15 @@ links:
     - topic/business-central/business-functionality
     - topic/business-central/business-functionality/online-store-with-shopify/get-started-with-the-shopify-connector
   localizations: []
-  videos: []
+  videos:
+    - video/88s0QjsaCUQ
+    - video/AR2FiD64wbw
+    - video/B-pxLlb-UN0
+    - video/BwBR8JwwQa4
+    - video/gy_6QnFpiEw
+    - video/NMO822Jf_4E
+    - video/StIVhsnOHWY
+    - video/YSDfDjrMUb0
   posts: []
   guidelines: []
 learn_toc_path:
@@ -164,7 +172,7 @@ children:
 coverage:
   learn: 16
   code: 0
-  video: 0
+  video: 8
   blog: 0
   guideline: 0
 bc_forms:
@@ -244,6 +252,19 @@ Path: [Business functionality](../business-functionality.md) > Online store with
 - [Synchronize transactions and payouts](https://learn.microsoft.com/dynamics365/business-central/shopify/transactions-and-payouts): Set up and run import of transactions and payouts from Shopify.
 - [Troubleshooting the Shopify and Business Central synchronization](https://learn.microsoft.com/dynamics365/business-central/shopify/troubleshoot): Learn what to do if something goes wrong when you synchronize data between Shopify and Business Central.
 - [Working with Shopify POS](https://learn.microsoft.com/dynamics365/business-central/shopify/shopify-pos): Special notes related to Shopify as a Sales Channel.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Understanding the Sign Up Context and Using it for Profiling Customers](../../../videos/88s0QjsaCUQ.md) (video): "sign up context; customer profiling; onboarding experience; app provisioning"
+- [What's New: Shopify Connector (2024 release wave 2) in 2 minutes](../../../videos/AR2FiD64wbw.md) (video): "shopify connector; meta fields; data synchronization; language translation; pricing"
+- [What's New: Shopify Connector - Overview (2026 release wave 1)](../../../videos/B-pxLlb-UN0.md) (video): "shopify connector; product information management; item variants; presentment currency"
+- [What's New in Shopify Connector: Shopify B2B Companies and Company Locations (2025 release wave 1)](../../../videos/BwBR8JwwQa4.md) (video): "shopify connector; b2b; company locations; tax id mapping; payment terms"
+- [What's New in Shopify Connector: Prices for Markets (2025 release wave 2)](../../../videos/gy_6QnFpiEw.md) (video): "shopify connector; market pricing; multi-currency; price catalogs"
+- [What's New: Processing of Presentment Currencies in Shopify (2026 release wave 1)](../../../videos/NMO822Jf_4E.md) (video): "Processing of Presentment Currencies in Shopify; multi-currency"
+- [What's New in Shopify Connector: Troubleshoot Synchronization (2025 release wave 2)](../../../videos/StIVhsnOHWY.md) (video): "Shopify Connector: Troubleshoot Synchronization; product mapping; order import; error handling; refunds"
+- [What's new in Shopify Connector: Overview (2026 release wave 2)](../../../videos/YSDfDjrMUb0.md) (video): "Shopify Connector: product synchronization; order management; returns processing"
 
 ## Business Central pages and reports
 

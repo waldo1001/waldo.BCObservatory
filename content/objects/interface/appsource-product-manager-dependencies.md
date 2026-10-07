@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:21:46.353Z"
+  at: "2026-10-06T23:56:28.878Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 4a8ce0a6a850bf6b3f2a72939b52606baeb82c01c8a01c86cd7546aa84b0c216
+  input_hash: 19529b40769f285d2861978c07788143147df65a76e048f0e611846e5f4772b5
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/System%20Application/App/AppSource%20Gallery/src/AppSourceProductManagerDependencies.Interface.al
@@ -61,6 +61,12 @@ counts:
   procedures: 8
   events: 0
   subscribers: 0
+relations:
+  out: 0
+  referenced_by: 0
+  pages: 0
+  extended_by: 0
+  event_subscribers: 0
 ---
 
 # Interface "AppSource Product Manager Dependencies"

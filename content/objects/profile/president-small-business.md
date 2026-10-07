@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:21:46.353Z"
+  at: "2026-10-06T23:56:28.878Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 1c0b5945a4badcfd3b9eeeeee695046a64bd5fd5234782a460c6e3700482133b
+  input_hash: cd950cbe7909f8543b3640cd111e64e3a00f04245b138f6129dac20ce22f7691
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Layers/W1/BaseApp/RoleCenters/PresidentSmallBusiness.Profile.al
@@ -61,6 +61,12 @@ counts:
   procedures: 0
   events: 0
   subscribers: 0
+relations:
+  out: 0
+  referenced_by: 0
+  pages: 0
+  extended_by: 0
+  event_subscribers: 0
 ---
 
 # Profile "PRESIDENT - SMALL BUSINESS"

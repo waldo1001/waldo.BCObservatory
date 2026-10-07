@@ -22,7 +22,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T14:56:57.246Z"
+  at: "2026-10-07T00:17:53.935Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -125,6 +125,7 @@ features:
     verified: false
     status_source: roadmap
     roadmap_ids:
+      - "573335"
       - "573361"
   - name: Snapshot debugging MCP
     status: ga
@@ -237,7 +238,7 @@ Demos cover capturing snapshots with call stacks and variables, profiling a sess
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| Agentic developer loop | generally available (roadmap [573361](../features/573361.md)), demoed | [0:45](https://www.youtube.com/watch?v=UFLo2XGGS14&t=45s) |  |
+| Agentic developer loop | generally available (roadmap [573335](../features/573335.md), [573361](../features/573361.md)), demoed | [0:45](https://www.youtube.com/watch?v=UFLo2XGGS14&t=45s) |  |
 | Snapshot debugging MCP | generally available (roadmap [573361](../features/573361.md)), demoed | [2:00](https://www.youtube.com/watch?v=UFLo2XGGS14&t=120s) |  |
 | AL tool as MCP proxy | status not stated, demoed | [3:28](https://www.youtube.com/watch?v=UFLo2XGGS14&t=208s) |  |
 | Visual Studio Code MCP integration | status not stated | [3:28](https://www.youtube.com/watch?v=UFLo2XGGS14&t=208s) |  |

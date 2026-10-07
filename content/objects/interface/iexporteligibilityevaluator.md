@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:21:46.353Z"
+  at: "2026-10-06T23:56:28.878Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: cc46f44186a705147f31538cb2b9432d211f32ade0cf81f01f13d1b53271d4e3
+  input_hash: 99d315cb3de06bf5a156d435a65c3b1ee900b55633b8c047c87f1ea7a3e1130f
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/EDocument/app/src/Processing/Interfaces/IExportEligibilityEvaluator.Interface.al
@@ -60,6 +60,12 @@ counts:
   procedures: 1
   events: 0
   subscribers: 0
+relations:
+  out: 0
+  referenced_by: 0
+  pages: 0
+  extended_by: 0
+  event_subscribers: 0
 ---
 
 # Interface "IExportEligibilityEvaluator"

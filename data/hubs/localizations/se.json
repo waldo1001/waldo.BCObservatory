@@ -1,0 +1,89 @@
+{
+  "country": "SE",
+  "version": "29",
+  "input_hash": "a08ddf74905e5e5dbf3e50a66847108e0218a101733c462de622f9e724fde992",
+  "summary": "Sweden (SE) localization of Business Central 29. It covers automatic account codes, EU third-party purchase transactions for VAT and VIES, SIE import and export of general ledger data, and Swedish balance sheet and income statement reports. It answers which tables and fields the Swedish layer adds.",
+  "overview": "The Swedish layer adds four own tables and 32 fields on W1 tables. Automatic account codes use table 11203 \"Automatic Acc. Header\" and table 11204 \"Automatic Acc. Line\", with an \"Auto. Acc. Group\" field carried through sales, purchase, journal and posted document lines and the posting buffers. SIE import and export uses table 11207 \"SIE Dimension\" and table 11208 \"SIE Import Buffer\".\n\nEU third-party trade is supported by an \"EU 3-Party Trade\" field on purchase headers, posted purchase invoice and credit memo headers, and VAT statement lines. Other additions are SRU-code on G/L accounts, source invoice fields on sales credit memos, \"Plus Giro No.\" and \"Registered Office\" on company information, and two local permission sets.\n\nLearn documents the local functionality on the Sweden Local Functionality page. It notes that the Swedish localization runs as an extension on the W1 base application from 2023 wave 1. Automatic account codes and EU third-party purchases moved to extensions from version 22.1. SIE is a preinstalled extension that needs the feature enabled.",
+  "key_points": [
+    "Automatic account codes assign accounts during posting. Setup is through automatic account posting groups, with tables 11203 and 11204.",
+    "The Auto. Acc. Group field is added to G/L accounts, sales and purchase lines, journal lines and posted lines.",
+    "EU 3-Party Trade fields on purchase documents and VAT statement lines support Swedish VAT reporting and VIES.",
+    "SIE import and export of general ledger data supports dimensions and file types: year-end, periodic and object balances.",
+    "Swedish balance sheet and income statement reports can be printed for banks and authorities, with account filtering and a show all accounts option.",
+    "Company Information gains Plus Giro No. and Registered Office. G/L Account gains SRU-code.",
+    "Sales headers and credit memo headers gain Source Inv. No., Source Inv. VAT and Source Inv. Total.",
+    "Permission sets LOCAL and LOCAL READ are replaced for Sweden."
+  ],
+  "areas": [
+    {
+      "area": "Finance",
+      "what": "Adds the automatic account tables (table 11203 \"Automatic Acc. Header\", table 11204 \"Automatic Acc. Line\") and the SIE tables (table 11207 \"SIE Dimension\", table 11208 \"SIE Import Buffer\"). Adds Auto. Acc. Group, SRU-code, Source Posting Date, VAT Base Amount (LCY) and EU 3-Party Trade fields to G/L accounts, journal lines, posting buffers and VAT statement lines.",
+      "why": "Learn describes automatic account codes as assigning accounts during posting. It describes SIE as the standard import export format for general ledger data. EU 3-Party Trade supports Swedish VAT reporting and VIES.",
+      "objects": [
+        "table/11203",
+        "table/11204",
+        "table/11207",
+        "table/11208",
+        "table/15",
+        "table/81",
+        "table/181",
+        "table/256"
+      ]
+    },
+    {
+      "area": "Purchases",
+      "what": "Adds EU 3-Party Trade to purchase headers and posted purchase invoice and credit memo headers. Adds Auto. Acc. Group to purchase lines and posted lines, and Part. Pay. Nos. to Purchases & Payables Setup.",
+      "why": "Learn says the EU third-party purchase setup is for Swedish VAT reporting and VIES requirements.",
+      "objects": [
+        "table/38",
+        "table/39",
+        "table/122",
+        "table/124",
+        "table/123",
+        "table/125",
+        "table/121",
+        "table/312"
+      ]
+    },
+    {
+      "area": "Sales",
+      "what": "Adds Auto. Acc. Group to sales lines and posted shipment, invoice and credit memo lines. Adds Source Inv. No., Source Inv. VAT and Source Inv. Total to sales headers and credit memo headers, and Multiple Lines Description to Finance Charge Terms.",
+      "why": null,
+      "objects": [
+        "table/36",
+        "table/114",
+        "table/37",
+        "table/113",
+        "table/115",
+        "table/111",
+        "table/5",
+        "table/112"
+      ]
+    },
+    {
+      "area": "Security",
+      "what": "Replaces the LOCAL and LOCAL READ permission sets so they cover the Swedish objects.",
+      "why": null,
+      "objects": [
+        "permissionset/1001",
+        "permissionset/1002"
+      ]
+    },
+    {
+      "area": "Foundation",
+      "what": "Adds Plus Giro No. and Registered Office fields to Company Information.",
+      "why": null,
+      "objects": [
+        "table/79"
+      ]
+    }
+  ],
+  "learn_pages_used": 7,
+  "prompt_version": 2,
+  "at": "2026-10-06T23:55:36.032Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.042901999999999996
+  }
+}

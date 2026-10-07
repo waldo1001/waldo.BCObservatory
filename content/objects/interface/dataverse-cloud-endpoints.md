@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:21:46.353Z"
+  at: "2026-10-06T23:56:28.878Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 90af16370b2c48cf5d1f2839ae56a339e8c20418edd42ddabdcb0b7156a89d62
+  input_hash: b4cd844fb46b6971a35d4c90bb4efd4c8dbdfdec1f3a7b642e0169076345d9ba
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Layers/W1/BaseApp/Integration/Dataverse/DataverseCloudEndpoints.Interface.al
@@ -61,6 +61,12 @@ counts:
   procedures: 4
   events: 0
   subscribers: 0
+relations:
+  out: 0
+  referenced_by: 0
+  pages: 0
+  extended_by: 0
+  event_subscribers: 0
 ---
 
 # Interface "Dataverse Cloud Endpoints"

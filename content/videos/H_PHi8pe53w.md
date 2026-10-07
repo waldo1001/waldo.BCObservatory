@@ -23,7 +23,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T16:50:39.847Z"
+  at: "2026-10-07T00:17:53.935Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -68,7 +68,8 @@ evidence:
 links:
   learn: []
   objects: []
-  features: []
+  features:
+    - feature/573352
   topics: []
   localizations: []
   videos: []
@@ -108,20 +109,26 @@ chapters:
     title: Closing remarks and call to action
 features:
   - name: Default implementation for AL interfaces
-    status: unclear
+    status: ga
     t: 254
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573352"
   - name: Required pending attribute for AL interface methods
-    status: unclear
+    status: ga
     t: 532
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573352"
   - name: Staged interface evolution mechanism
-    status: unclear
+    status: ga
     t: 564
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573352"
 objects_mentioned: []
 quotes:
   - t: 12
@@ -180,9 +187,11 @@ It also demonstrates the required pending attribute, which signals that implemen
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| Default implementation for AL interfaces | status not stated, demoed | [4:14](https://www.youtube.com/watch?v=H_PHi8pe53w&t=254s) |  |
-| Required pending attribute for AL interface methods | status not stated, demoed | [8:52](https://www.youtube.com/watch?v=H_PHi8pe53w&t=532s) |  |
-| Staged interface evolution mechanism | status not stated, demoed | [9:24](https://www.youtube.com/watch?v=H_PHi8pe53w&t=564s) |  |
+| Default implementation for AL interfaces | generally available (roadmap [573352](../features/573352.md)), demoed | [4:14](https://www.youtube.com/watch?v=H_PHi8pe53w&t=254s) |  |
+| Required pending attribute for AL interface methods | generally available (roadmap [573352](../features/573352.md)), demoed | [8:52](https://www.youtube.com/watch?v=H_PHi8pe53w&t=532s) |  |
+| Staged interface evolution mechanism | generally available (roadmap [573352](../features/573352.md)), demoed | [9:24](https://www.youtube.com/watch?v=H_PHi8pe53w&t=564s) |  |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## Quotes
 

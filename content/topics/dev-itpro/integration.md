@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 2226963e73c268a710cccae6aa73500791d632882afecff9831f1cec7927c748
@@ -315,7 +315,8 @@ links:
     - topic/dev-itpro/integration/integrating-with-infrastructure-services
     - topic/dev-itpro/integration/integrating-with-shopify
   localizations: []
-  videos: []
+  videos:
+    - video/gAzmWJg9Z5g
   posts: []
   guidelines: []
 learn_toc_path:
@@ -335,7 +336,7 @@ children:
 coverage:
   learn: 374
   code: 0
-  video: 0
+  video: 1
   blog: 0
   guideline: 0
 bc_forms:
@@ -424,6 +425,12 @@ Path: Integration · tier official · system integration · no narrative yet
 - [Integrate with Microsoft Dynamics 365 Field Service](https://learn.microsoft.com/dynamics365/business-central/admin-integrate-field-service): Integrate Business Central with Field Service.
 - [Integrating with Dynamics 365 Sales](https://learn.microsoft.com/dynamics365/business-central/admin-prepare-dynamics-365-for-sales-for-integration): Learn how to get Dynamics 365 Business Central ready to integrate with Dynamics 365 Sales.
 - [Integration overview for Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/integration-overview): Find links to information about the ways you can integrate Business Central to products and services.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [What's New: Key Updates in Learning Content (docs) for Systems Architects and Integration Developers](../../videos/gAzmWJg9Z5g.md) (video): "integration overview; microsoft 365 apps; power platform; dataverse; azure services"
 
 ## Business Central pages and reports
 

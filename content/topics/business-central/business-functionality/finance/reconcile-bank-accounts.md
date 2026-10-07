@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 31fee08bdf4b262850c5c9c8cf469c7ad6450e0b10bc04c69b03a3ddfc821fb5
@@ -73,7 +73,8 @@ links:
     - topic/business-central/business-functionality/finance
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/gerardorenteria-blog/14717
   guidelines: []
 learn_toc_path:
   - Business functionality
@@ -86,7 +87,7 @@ coverage:
   learn: 6
   code: 0
   video: 0
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms:
   - 39
@@ -125,6 +126,12 @@ Path: [Business functionality](../../business-functionality.md) > [Finance](../f
 - [Reconcile bank accounts and apply payments](https://learn.microsoft.com/dynamics365/business-central/receivables-apply-payments-auto-reconcile-bank-accounts): Outlines tasks to reconcile your bank, receivables, and payables accounts, post cash receipts or expenses, and apply payments automatically.
 - [Reconcile bank accounts with Copilot (preview)](https://learn.microsoft.com/dynamics365/business-central/bank-reconciliation-with-copilot): Learn how to use Copilot to reconcile bank accounts in Business Central.
 - [Transfer bank funds](https://learn.microsoft.com/dynamics365/business-central/bank-how-transfer-bank-funds): You can transfer amounts from one bank account to another, including different currencies, by posting the transaction in the general journal.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [New Application Ideas of Dynamics 365 Business Central (2026 MAY)](../../../../posts/gerardorenteria-blog/14717.md) (community post): "bank reconciliation enhancements, and new reporting capabilities"
 
 ## Business Central pages and reports
 

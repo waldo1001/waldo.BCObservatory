@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 94efdfd7e6d6b8f66061f3c0b5c51bec24001825e7be440a545c4809184cc903
@@ -232,8 +232,11 @@ links:
   topics:
     - topic/business-central/business-functionality/set-up-business-central
   localizations: []
-  videos: []
-  posts: []
+  videos:
+    - video/lRiED3AUfps
+    - video/no1mmnPfyNY
+  posts:
+    - post/olofsimren-com/3763
   guidelines: []
 learn_toc_path:
   - Business functionality
@@ -245,8 +248,8 @@ children: []
 coverage:
   learn: 26
   code: 0
-  video: 0
-  blog: 0
+  video: 2
+  blog: 1
   guideline: 0
 bc_forms:
   - 4
@@ -380,6 +383,14 @@ Path: [Business functionality](../../business-functionality.md) > [Set up Busine
 - [Use Allocation Keys in General Journals](https://learn.microsoft.com/dynamics365/business-central/ui-how-use-allocation-keys-general-journals): You can allocate an entry in a general journal to several different accounts when you post the journal.
 - [Validate VAT Registration Numbers](https://learn.microsoft.com/dynamics365/business-central/finance-how-validate-vat-registration-number): Let Business Central validate VAT registration numbers for your contacts, customers, and vendors, based on EU VIES VAT Number Validation service.
 - [Working with accounting periods and fiscal years](https://learn.microsoft.com/dynamics365/business-central/finance-accounting-periods-and-fiscal-years): Learn how to work with accounting periods to define when your company reports financial performance.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [ERP JumpStart: A Better Way to Get Started with Business Central](../../../../posts/olofsimren-com/3763.md) (community post): "guided self-service implementation product for smaller companies transitioning to Business Central"
+- [Getting Started with Business Central (2025)](../../../../videos/lRiED3AUfps.md) (video): "Setup Guide; Data Migration Guide; Teaching Tips Toggle"
+- [20260615 - Are We There Yet? The Journey from NAV to Business Central](../../../../videos/no1mmnPfyNY.md) (video): "AL language; developer productivity; consulting models; recurring revenue model"
 
 ## Business Central pages and reports
 

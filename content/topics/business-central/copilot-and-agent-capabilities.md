@@ -12,7 +12,7 @@ review:
   at: "2026-10-06T13:42:39.967Z"
   flags: []
 generated:
-  at: "2026-10-06T13:43:32.763Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -323,8 +323,18 @@ links:
     - topic/business-central/copilot-and-agent-capabilities/suggest-number-series-preview
     - topic/business-central/copilot-and-agent-capabilities/summarize-preview
   localizations: []
-  videos: []
-  posts: []
+  videos:
+    - video/94Lqd7Ap8YQ
+    - video/FuY4EBBZf3c
+    - video/JBGuaqk5nXk
+    - video/LW2JNV01sJo
+    - video/q9Q1fOA0818
+    - video/rmPtE94fby0
+    - video/sycmF3cJa_s
+  posts:
+    - post/dvlprlife-com/https://www.dvlprlife.com/2026/06/weekly-review-business-central-al-development-june-21-27-2026/
+    - post/dvlprlife-com/https://www.dvlprlife.com/2026/09/business-central-trivia-recap-september-28-october-2-2026/
+    - post/thinkaboutit-be/8224
   guidelines: []
 learn_toc_path:
   - Copilot and agent capabilities
@@ -349,8 +359,8 @@ children:
 coverage:
   learn: 54
   code: 0
-  video: 0
-  blog: 0
+  video: 7
+  blog: 3
   guideline: 0
 bc_forms:
   - 16
@@ -441,6 +451,21 @@ Start with Business Central AI, then check availability for your country and lan
 - [Copilot and agents country/region availability and supported languages](https://learn.microsoft.com/dynamics365/business-central/copilot-agents-region-language-availability): Learn how geographic availability, language support, and environment localization determine access to Copilot and agent features in Business Central.
 - [Copilot FAQ](https://learn.microsoft.com/dynamics365/business-central/copilot-overview): This article answers common questions about Copilot in Business Central.
 - [Responsible AI FAQ for Advanced Tell Me](https://learn.microsoft.com/dynamics365/business-central/faqs-advanced-tell-me): Learn about the AI technology behind Advanced Tell Me semantic search. Get an overview, evaluation metrics, limits, mitigations, data use, security details, and feedback steps.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Weekly Review: Business Central AL Development – June 21–27, 2026](../../posts/dvlprlife-com/https://www.dvlprlife.com/2026/06/weekly-review-business-central-al-development-june-21-27-2026/.md) (community post): "Copilot token cost optimization, and namespace adoption"
+- [Business Central Trivia Recap: September 28–October 2, 2026](../../posts/dvlprlife-com/https://www.dvlprlife.com/2026/09/business-central-trivia-recap-september-28-october-2-2026/.md) (community post): "A recap of the Business Central Trivia event from September 28 to October 2, 2026"
+- [Quick Tip: Business Central 29.0 Is Now Generally Available](../../posts/thinkaboutit-be/8224.md) (community post): "The release includes substantial improvements across Copilot and agents"
+- [#BCTalent and AI: A Partner’s Guide](../../videos/94Lqd7Ap8YQ.md) (video): "ai upskilling; partner enablement; ai power users; generative ai"
+- [Welcome to Business Central 2024 Release Wave 1](../../videos/FuY4EBBZf3c.md) (video): "copilot; release wave 1; 2024 capabilities; building extensions"
+- [What's New: Copilot for Sustainability (2025 release wave 1)](../../videos/JBGuaqk5nXk.md) (video): "Copilot for Sustainability; emissions calculation; carbon accounting"
+- [Meet the OptimAL Performance Initiative](../../videos/LW2JNV01sJo.md) (video): "OptimAL Performance Initiative agent capabilities for performance management"
+- [Microsoft Dynamics 365 Business Central](../../videos/q9Q1fOA0818.md) (video): "AI capabilities for repetitive tasks; Dynamics 365 Copilot; Automated workflows"
+- [BCTalent Stories: Ciellos](../../videos/rmPtE94fby0.md) (video): "Copilot and AI skills in Business Central"
+- [Copilot Assisted Scheduling by PrintVis](../../videos/sycmF3cJa_s.md) (video): "Copilot Assisted Scheduling by PrintVis"
 
 ## Business Central pages and reports
 

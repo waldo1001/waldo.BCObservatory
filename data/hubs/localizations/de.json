@@ -1,0 +1,169 @@
+{
+  "country": "DE",
+  "version": "29",
+  "input_hash": "c2e6d3bb388e71f68055137d114e4ea68b5f62630a9645caba5b7f37d3f9d7e2",
+  "summary": "Germany (DE) localization of Business Central 29. It covers ELMA5 VAT reports and VIES/EU sales lists, corrective VAT reports, GoBD/GDPdU digital audit export, purchase delivery reminders, physical inventory orders, BilMoG exchange rate valuation and local reports. It answers where German VAT, audit and reminder functions live in code and on Learn.",
+  "overview": "The German layer extends the W1 VAT report framework (tables 740, 741, 743, codeunits 737 to 744, report 741) with ELMA5 export, VIES ELMA XML, cancellation and correction line types, and company, tax office and registration fields. Learn documents this in \"How to Create VAT Reports [DE]\", \"Correct VAT Reports [DE]\", \"How to Set Up VAT Reports [DE]\", \"EU Sales List in Germany\" and \"VAT Reporting in the German version\". Local reports include VAT Statement Germany, VAT Statement Schedule and the VAT-VIES declaration. Sales VAT advance notifications use new fields on General Ledger Setup and VAT Statement Name.\n\nThe country also adds its own functional blocks. A data export module (tables 11002 to 11010, codeunit 11000, report 11015 \"Export Business Data\") supports GoBD/GDPdU digital audits. A delivery reminder module for purchases (tables 5005270 to 5005278, pages, codeunits and reports) covers terms, levels, text, creation, issuing and test reports. A physical inventory order module (tables 5005350 to 5005363) is also added. The \"DACH\" naming points to shared use with Austria and Switzerland, for example DACH Report Selections and several AT and CH reports.\n\nW1 changes include Registration No. on vendor and purchase documents, tax office fields on Company Information, BilMoG valuation parameters on the exchange rate adjustment, a Correction check in Gen. Jnl.-Post Batch, premium depreciation fields on Fixed Asset, and a few events on posting, VAT report validation, Navigate and the VAT statement preview.",
+  "key_points": [
+    "VAT reports: ELMA5 export, cancellation and correction lines, Suggest Lines and Correct Lines, extra fields on VAT Report Header, Line and Setup.",
+    "EU sales list and VIES: VIES ELMA XML codeunit, Export VIES Report, VAT-VIES Declaration Tax DE report.",
+    "Local VAT reports: VAT Statement Germany, VAT Statement Schedule and sales VAT advance notification setup (ELSTER export per Learn).",
+    "Digital audit (GoBD/GDPdU): Data Export tables, pages and setup, plus Export Business Data report with period and date filter handling.",
+    "Delivery reminders for purchases: terms, levels, text, vendor codes, create, issue and test report, with ledger entries.",
+    "Currency exchange rate adjustment gets BilMoG valuation method, valuation date and due date parameters.",
+    "Physical inventory orders, recordings and posted versions are added as new tables with number series on Inventory Setup.",
+    "Company Information gains tax office, authorized number and place of dispatcher/receiver fields; vendors and purchase documents gain Registration No."
+  ],
+  "areas": [
+    {
+      "area": "Finance",
+      "what": "Extends the VAT report framework with ELMA5 and VIES ELMA XML export, cancellation and correction lines, and added setup and header fields. Adds a data export module for digital audits, local reports (VAT Statement Germany, Schedule, VIES, G/L Total-Balance), BilMoG exchange rate adjustment parameters, and a payment application check in Gen. Jnl.-Post Batch.",
+      "why": "Learn explains that ELMA5 is used to file VAT and EU sales lists, that the digital audit follows GoBD/GDPdU, and that year-end exchange rate adjustment uses the BilMoG valuation method.",
+      "objects": [
+        "table/740",
+        "table/741",
+        "table/743",
+        "codeunit/743",
+        "codeunit/11001",
+        "report/741",
+        "codeunit/11000",
+        "report/11015"
+      ]
+    },
+    {
+      "area": "Purchases",
+      "what": "Adds the delivery reminder feature: header, line, issued and ledger tables, terms, levels, text, pages, create and issue codeunits and reports. Adds archive options on Purchases & Payables Setup, Registration No. on Vendor Templ., and local vendor reports.",
+      "why": "Learn describes delivery reminders as a way to track supplier delivery performance.",
+      "objects": [
+        "table/5005270",
+        "table/5005271",
+        "codeunit/5005271",
+        "codeunit/5005270",
+        "page/5005270",
+        "report/5005340",
+        "report/5005341",
+        "table/312"
+      ]
+    },
+    {
+      "area": "Inventory",
+      "what": "Adds physical inventory orders and recordings with posted and tracking tables, place of dispatcher and receiver tables, and number series fields on Inventory Setup. Also adds Item ABC Analysis, Crossborder Services and inventory value reports, and changes Intrastat related tables.",
+      "why": null,
+      "objects": [
+        "table/5005350",
+        "table/5005351",
+        "table/5005352",
+        "table/313",
+        "table/11000",
+        "table/11001",
+        "report/11503",
+        "table/263"
+      ]
+    },
+    {
+      "area": "Foundation",
+      "what": "Adds tax office, authorization and dispatcher fields to Company Information, DACH report selections with new usages, and address formatting for tax offices. Adds Delivery Reminder source code and print procedures in Document-Print.",
+      "why": "Learn notes company registration numbers on reports come from Company Information.",
+      "objects": [
+        "table/79",
+        "table/26100",
+        "codeunit/365",
+        "codeunit/229",
+        "codeunit/1901",
+        "table/242",
+        "enumextension/26101",
+        "enumextension/26102"
+      ]
+    },
+    {
+      "area": "(no namespace)",
+      "what": "Holds the VAT Report Lines page, the Data Export Setup table, the Intrastat item list report, and upgrade and sandbox cleanup plumbing.",
+      "why": null,
+      "objects": [
+        "page/784",
+        "table/11009",
+        "report/11001"
+      ]
+    },
+    {
+      "area": "FixedAssets",
+      "what": "Adds fields for BWR depreciation book and premium depreciation on Fixed Asset, an exclude reclassification entries procedure in FA General Report, and local book value and list reports.",
+      "why": null,
+      "objects": [
+        "table/5600",
+        "report/11011",
+        "codeunit/5626",
+        "report/11100"
+      ]
+    },
+    {
+      "area": "Security",
+      "what": "Extends the LOCAL and LOCAL READ permission sets, with extensions for delivery reminder permissions.",
+      "why": null,
+      "objects": [
+        "permissionset/1001",
+        "permissionset/1002",
+        "permissionsetextension/5005270",
+        "permissionsetextension/5005271"
+      ]
+    },
+    {
+      "area": "CRM",
+      "what": "Changes the Export Contact and Export Segment Contact XMLports.",
+      "why": null,
+      "objects": [
+        "xmlport/5050",
+        "xmlport/5051"
+      ]
+    },
+    {
+      "area": "Sales",
+      "what": "Adds a Customer Total-Balance report and changes Sales Line Archive.",
+      "why": null,
+      "objects": [
+        "report/11003",
+        "table/5108"
+      ]
+    },
+    {
+      "area": "Manufacturing",
+      "what": "Adds a page extension for the Manufacturing Manager role center.",
+      "why": null,
+      "objects": [
+        "pageextension/11010"
+      ]
+    },
+    {
+      "area": "Microsoft",
+      "what": "Adds a Certificate table.",
+      "why": null,
+      "objects": [
+        "table/11014"
+      ]
+    },
+    {
+      "area": "Service",
+      "what": "Service Credit Memo report gets procedures for the document caption and number label.",
+      "why": null,
+      "objects": [
+        "report/5912"
+      ]
+    },
+    {
+      "area": "Utilities",
+      "what": "Adds the GeneralMgt codeunit with local helper functions.",
+      "why": null,
+      "objects": [
+        "codeunit/11501"
+      ]
+    }
+  ],
+  "learn_pages_used": 30,
+  "prompt_version": 2,
+  "at": "2026-10-06T23:51:35.564Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.121056
+  }
+}

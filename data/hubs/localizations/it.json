@@ -1,0 +1,263 @@
+{
+  "country": "IT",
+  "version": "29",
+  "input_hash": "76a335b3da168fa66282f4b634e0ae2bc235b3e32631d12c6294195461846ddd",
+  "summary": "Italy (IT) localization of Business Central 29. It covers Italian VAT (non-deductible VAT, VAT settlement, VAT transaction reports), withholding tax and INPS contributions, bank bills and SEPA payments, FatturaPA e-invoicing, fiscal inventory valuation, fixed asset depreciation, Intrastat and legacy subcontracting.",
+  "overview": "The Italian layer is large: 523 objects, with 829 fields, 92 events and 337 procedures added. It extends W1 posting, VAT and master data tables with Italian fields such as Fiscal Code, Operation Type, Operation Occurred Date, Activity Code, Service Tariff No., Deductible % and Refers to Period. The Gen. Jnl.-Post Line, Sales-Post and Purch.-Post codeunits gain events and procedures for non-deductible VAT, unrealized VAT, bills and payment lines.\n\nOwn objects cover periodic VAT settlement and annual VAT communication, VAT transaction reports (Spesometro and Datifattura exports), withholding tax and contributions, customer and vendor bills with SEPA export, FatturaPA setup and export, LIFO and fiscal inventory valuation, and transfer documents for goods transport. Learn documents these on pages such as Italian VAT, Italy local functionality, Electronic Invoicing [FatturaPA], Set Up Withholding Tax (IT) and Fiscal Inventory Valuation.\n\nThe Italian subcontracting objects are legacy. Learn says they are deprecated and replaced by the Subcontracting app, with a migration app for sandbox environments. The code includes Legacy Subc. Install, Upgrade and Feature Handler codeunits. Intrastat for Italy is documented as a deprecated feature.",
+  "key_points": [
+    "VAT: non-deductible VAT, Deductible % on lines, reverse charge, prepayment handling and service tariffs, with Calc. and Post VAT Settlement extended for Italian settlement periods and rounding.",
+    "VAT transaction reports: Suggest Lines with threshold filtering, validation, export as .ccf files, and corrective or cancellation reports linked to originals.",
+    "Withholding tax and INPS contribution codes, brackets and payment lists, plus Withholding Tax Export and the Withholding Tax reports.",
+    "Bills and payments: customer and vendor bills, bill posting groups, ABI/CAB on bank accounts, SEPA Credit Transfer and Direct Debit exports, and installment Payment Terms with payment lines.",
+    "FatturaPA e-invoicing through SDI: Fattura Setup, codes, project info, self-billing documents, and sales and service validation.",
+    "Fiscal inventory valuation (year average, weighted average, FIFO, LIFO, discrete LIFO), initial item costs and LIFO categories.",
+    "Fixed assets: compress depreciation, anticipated and accelerated/reduced depreciation tables, and the Depreciation Book report.",
+    "Fiscal printing: G/L Book and VAT Register with progressive page numbers and reprint, plus Italian Intrastat journal fields and a fiscal denial list of countries and vendors."
+  ],
+  "areas": [
+    {
+      "area": "Finance",
+      "what": "Adds Italian VAT handling to W1 posting: non-deductible VAT, unrealized VAT, VAT Identifier and Operation Occurred Date on VAT Entry and journal lines, and plafond and reverse-charge fields. Own objects handle periodic VAT settlement, annual VAT communication, Spesometro, Datifattura, withholding tax and declaration of intent exports. The VAT Report objects get Italian suggest, validate and export logic.",
+      "why": "Learn explains that Italian VAT computes VAT by transaction date, supports non-deductible VAT, and requires VAT transaction reports above a threshold to be submitted to the tax authorities.",
+      "objects": [
+        "codeunit/12",
+        "table/254",
+        "table/325",
+        "report/20",
+        "table/98",
+        "table/741",
+        "report/741",
+        "codeunit/744"
+      ]
+    },
+    {
+      "area": "Bank",
+      "what": "Adds customer and vendor bill handling, bill posting groups, ABI/CAB and BBAN on bank accounts, and Bill Code on payment methods. SEPA Credit Transfer and Direct Debit codeunits are extended and CBI bill export codeunits are added. Own pages cover INPS contribution codes and brackets.",
+      "why": "Learn describes automatic customer and vendor bills and SEPA payments as the Italian way to issue payments and collections.",
+      "objects": [
+        "table/270",
+        "table/289",
+        "codeunit/12172",
+        "codeunit/12173",
+        "codeunit/12177",
+        "codeunit/1221",
+        "codeunit/1232",
+        "page/12175"
+      ]
+    },
+    {
+      "area": "Inventory",
+      "what": "Adds fiscal inventory valuation (LIFO categories and bands, item cost history, before-start item costs, costing setup) and Italian reports. Transfer orders get transport document data such as transport reason, goods appearance and third-party loader, plus WIP fields for subcontracting. Intrastat journal tables get Italian fields.",
+      "why": "Learn documents fiscal inventory valuation with year average, weighted average, FIFO, LIFO and discrete LIFO costs, and Italian Intrastat with periodicity and corrective entries.",
+      "objects": [
+        "table/263",
+        "table/262",
+        "table/5740",
+        "table/5744",
+        "table/12131",
+        "table/12129",
+        "report/12135",
+        "report/12137"
+      ]
+    },
+    {
+      "area": "Service",
+      "what": "Italian extensions for service documents, archives and contracts: operation type and date, payment lines and FatturaPA support. Own codeunits edit posted service headers and initialize the Italian service data.",
+      "why": null,
+      "objects": [
+        "codeunit/12109",
+        "codeunit/12140",
+        "tableextension/12152",
+        "tableextension/12153",
+        "codeunit/12197",
+        "codeunit/12192",
+        "pageextension/12460",
+        "codeunit/12189"
+      ]
+    },
+    {
+      "area": "Sales",
+      "what": "Adds Italian fields to sales headers, lines, archives and posted documents: Operation Type, Operation Occurred Date, Activity Code, Fiscal Code, tax representative and Refers to Period. Sales-Post gains payment-line posting and VAT report validation. Customer and ledger entries carry bill, interest-on-arrears and FatturaPA fields.",
+      "why": "Learn links these fields to VAT transaction reports (individual person, resident and tax representative data) and to the restrictions on reversing and deleting posted documents.",
+      "objects": [
+        "table/36",
+        "table/37",
+        "codeunit/80",
+        "table/18",
+        "table/21",
+        "table/311",
+        "codeunit/442",
+        "table/112"
+      ]
+    },
+    {
+      "area": "Purchases",
+      "what": "Adds Italian fields to purchase documents and vendors: operation type, activity code, check total, reverse sales VAT numbers, birth and residence data, and withholding and social security codes. Purch.-Post gains withholding tax posting, fixed asset card splitting and prepayment period checks. Own objects cover customs authority vendors and aging.",
+      "why": "Learn describes withholding tax for third-party services and vendor purchases, calculated at payment rather than at invoice posting.",
+      "objects": [
+        "table/38",
+        "table/23",
+        "table/39",
+        "codeunit/90",
+        "codeunit/444",
+        "table/25",
+        "table/312",
+        "table/12122"
+      ]
+    },
+    {
+      "area": "Manufacturing",
+      "what": "Legacy Italian subcontracting: subcontracting orders and transfer orders, subcontractor price lists, WIP item fields on routing and production routing lines, and dispatch and transfer reports.",
+      "why": "Learn states this legacy subcontracting is deprecated and replaced by the Subcontracting app, with a migration app for sandbox environments.",
+      "objects": [
+        "codeunit/12152",
+        "codeunit/12153",
+        "table/12152",
+        "page/12152",
+        "page/12154",
+        "report/12152",
+        "table/5409",
+        "table/99000765"
+      ]
+    },
+    {
+      "area": "Foundation",
+      "what": "Extends Company Information (fiscal code, REA, SIA code), Payment Terms (installments, payment %, Fattura code), Country/Region (blacklist and deny list), Shipping Agent and No. Series (VAT register types). Adds payment lines, posted payments, fixed due dates and stop payment periods, and company officials.",
+      "why": "Learn documents installment payment terms with percentages, due date calculations and discount dates, and the fiscal denial list for countries and vendors.",
+      "objects": [
+        "table/79",
+        "table/3",
+        "table/9",
+        "table/308",
+        "table/12170",
+        "table/12171",
+        "table/12159",
+        "codeunit/12196"
+      ]
+    },
+    {
+      "area": "EServices",
+      "what": "FatturaPA electronic invoicing: setup, code tables, header and line tables, XML export for sales and service documents, and self-billing document export.",
+      "why": "Learn explains that FatturaPA is used to invoice public administration through the SDI platform, including credit memos, self-billing and prepayments.",
+      "objects": [
+        "codeunit/12179",
+        "table/12205",
+        "page/12204",
+        "codeunit/12185",
+        "codeunit/12180",
+        "table/12203",
+        "table/12204",
+        "page/12203"
+      ]
+    },
+    {
+      "area": "FixedAssets",
+      "what": "Adds compressed depreciation, anticipated and accelerated/reduced depreciation percentages on depreciation tables, and the Italian Depreciation Book report. FA Jnl.-Post Batch gains compress-table procedures and events.",
+      "why": "Learn documents compressed depreciation to reduce ledger entries, alternate depreciation methods, and the Depreciation Book report by year and class.",
+      "objects": [
+        "codeunit/5633",
+        "table/5611",
+        "table/12100",
+        "report/12119",
+        "table/5643",
+        "codeunit/5611",
+        "table/5600"
+      ]
+    },
+    {
+      "area": "Utilities",
+      "what": "Own tables and pages for activity codes, appointment codes, Spesometro appointments and fiscal code check setup, plus Italian report management helper codeunits.",
+      "why": null,
+      "objects": [
+        "table/12124",
+        "table/12125",
+        "table/12126",
+        "table/12123",
+        "codeunit/12104",
+        "codeunit/12112"
+      ]
+    },
+    {
+      "area": "(no namespace)",
+      "what": "Italian number series extensions (No. Series Type, VAT register), the CBI payment request XMLport and the Intra-form buffer.",
+      "why": null,
+      "objects": [
+        "tableextension/12145",
+        "tableextension/12146",
+        "codeunit/12148",
+        "xmlport/12100",
+        "table/12118"
+      ]
+    },
+    {
+      "area": "Microsoft",
+      "what": "Flat file management for Italian exports, the blacklist communication amount table and the document relation table.",
+      "why": null,
+      "objects": [
+        "codeunit/12133",
+        "table/12194",
+        "table/12197"
+      ]
+    },
+    {
+      "area": "Security",
+      "what": "Changes the LOCAL and LOCAL READ permission sets and the VAT Report - Edit set for the Italian objects.",
+      "why": null,
+      "objects": [
+        "permissionset/1001",
+        "permissionset/1002",
+        "permissionset/9276"
+      ]
+    },
+    {
+      "area": "Environment",
+      "what": "Adds feature management for Italy and application area handling for legacy subcontracting.",
+      "why": null,
+      "objects": [
+        "codeunit/12100",
+        "codeunit/9181"
+      ]
+    },
+    {
+      "area": "HumanResources",
+      "what": "Adds birth place fields to Employee and VAT settlement checks to the employee entry apply codeunit.",
+      "why": null,
+      "objects": [
+        "table/5200",
+        "codeunit/224"
+      ]
+    },
+    {
+      "area": "CashFlow",
+      "what": "Cash Flow Worksheet Line gets new events and procedures for posted documents, credit memos and payment tolerance.",
+      "why": null,
+      "objects": [
+        "table/846"
+      ]
+    },
+    {
+      "area": "CRM",
+      "what": "Adds a Fiscal Code field and a transport document address helper to Contact.",
+      "why": null,
+      "objects": [
+        "table/5050"
+      ]
+    },
+    {
+      "area": "Projects",
+      "what": "Job Transfer Line gets a reverse charge VAT amount calculation and an event for purchase lines.",
+      "why": null,
+      "objects": [
+        "codeunit/1004"
+      ]
+    }
+  ],
+  "learn_pages_used": 33,
+  "prompt_version": 2,
+  "at": "2026-10-06T23:53:49.479Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.347245
+  }
+}

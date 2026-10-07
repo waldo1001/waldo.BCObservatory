@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:50:01.027Z"
+  at: "2026-10-07T00:17:53.935Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -91,7 +91,8 @@ evidence:
 links:
   learn: []
   objects: []
-  features: []
+  features:
+    - feature/573255
   topics: []
   localizations: []
   videos: []
@@ -428,10 +429,12 @@ features:
     verified: false
     status_source: video
   - name: Expense Policies
-    status: announced
+    status: preview
     t: 3745
     verified: true
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573255"
   - name: Expense Report Open Notification
     status: unclear
     t: 3811
@@ -641,7 +644,7 @@ It then explains how the team built it. The team worked AI-first, with 99 percen
 | Expense Subcategories | status not stated, demoed | [58:39](https://www.youtube.com/watch?v=cVfZoDwKYpI&t=3519s) |  |
 | Per Diem and Location Configuration | status not stated | [1:00:09](https://www.youtube.com/watch?v=cVfZoDwKYpI&t=3609s) |  |
 | Expense Rules Configuration | status not stated, demoed | [1:00:32](https://www.youtube.com/watch?v=cVfZoDwKYpI&t=3632s) |  |
-| Expense Policies | announced, demoed | [1:02:25](https://www.youtube.com/watch?v=cVfZoDwKYpI&t=3745s) | "we are working for the policies as well uh which will come uh pretty soon" ([1:03:01](https://www.youtube.com/watch?v=cVfZoDwKYpI&t=3781s)) |
+| Expense Policies | preview (roadmap [573255](../features/573255.md)), demoed | [1:02:25](https://www.youtube.com/watch?v=cVfZoDwKYpI&t=3745s) | "we are working for the policies as well uh which will come uh pretty soon" ([1:03:01](https://www.youtube.com/watch?v=cVfZoDwKYpI&t=3781s)) |
 | Expense Report Open Notification | status not stated, demoed | [1:03:31](https://www.youtube.com/watch?v=cVfZoDwKYpI&t=3811s) |  |
 | Mileage Expense Configuration | status not stated | [1:04:19](https://www.youtube.com/watch?v=cVfZoDwKYpI&t=3859s) |  |
 | Expense Agent Consumption Tracking | status not stated, demoed | [1:04:59](https://www.youtube.com/watch?v=cVfZoDwKYpI&t=3899s) |  |
@@ -654,6 +657,8 @@ It then explains how the team built it. The team worked AI-first, with 99 percen
 | Expense Posting Workflow | status not stated, demoed | [1:09:12](https://www.youtube.com/watch?v=cVfZoDwKYpI&t=4152s) |  |
 | Expense-Level Feedback with Thumbnails | status not stated, demoed | [1:10:25](https://www.youtube.com/watch?v=cVfZoDwKYpI&t=4225s) |  |
 | Generic Feature Feedback Mechanism | status not stated | [1:11:29](https://www.youtube.com/watch?v=cVfZoDwKYpI&t=4289s) |  |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## AL objects mentioned
 

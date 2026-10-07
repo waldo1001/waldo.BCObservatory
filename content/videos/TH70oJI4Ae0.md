@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T16:41:33.410Z"
+  at: "2026-10-07T00:17:53.935Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -70,7 +70,8 @@ evidence:
 links:
   learn: []
   objects: []
-  features: []
+  features:
+    - feature/573332
   topics: []
   localizations: []
   videos: []
@@ -164,10 +165,12 @@ features:
     verified: false
     status_source: video
   - name: Base table and extension table storage consolidation
-    status: unclear
+    status: ga
     t: 1974
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573332"
 objects_mentioned:
   - table SDH max field
   - other field 470
@@ -243,7 +246,9 @@ The presenter tests the new compiler warning for tables approaching the SQL colu
 | Decimal field maximum calculation | status not stated, demoed | [17:11](https://www.youtube.com/watch?v=TH70oJI4Ae0&t=1031s) |  |
 | Version 29 table extension storage change | status not stated, demoed | [24:26](https://www.youtube.com/watch?v=TH70oJI4Ae0&t=1466s) |  |
 | Field count warning at 293 fields | status not stated, demoed | [29:06](https://www.youtube.com/watch?v=TH70oJI4Ae0&t=1746s) |  |
-| Base table and extension table storage consolidation | status not stated | [32:54](https://www.youtube.com/watch?v=TH70oJI4Ae0&t=1974s) |  |
+| Base table and extension table storage consolidation | generally available (roadmap [573332](../features/573332.md)) | [32:54](https://www.youtube.com/watch?v=TH70oJI4Ae0&t=1974s) |  |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## AL objects mentioned
 

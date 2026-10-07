@@ -23,7 +23,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:28:14.065Z"
+  at: "2026-10-07T00:17:53.935Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -68,7 +68,8 @@ evidence:
 links:
   learn: []
   objects: []
-  features: []
+  features:
+    - feature/573342
   topics: []
   localizations: []
   videos: []
@@ -102,35 +103,47 @@ chapters:
     title: Summary and Closing
 features:
   - name: Shopify B2B Companies with Multiple Locations
-    status: unclear
+    status: ga
     t: 6
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573342"
   - name: Shopify Orders Import
-    status: unclear
+    status: ga
     t: 74
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573342"
   - name: Shopify Companies List
-    status: unclear
+    status: ga
     t: 92
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573342"
   - name: Shopify Locations List
-    status: unclear
+    status: ga
     t: 119
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573342"
   - name: Location-to-Customer Mapping
-    status: unclear
+    status: ga
     t: 152
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573342"
   - name: Order Synchronization with Location Mapping
-    status: unclear
+    status: ga
     t: 185
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573342"
   - name: Push Business Central Customers to Shopify
     status: unclear
     t: 253
@@ -200,14 +213,16 @@ The demo imports B2B orders from several locations, then shows the new Shopify C
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| Shopify B2B Companies with Multiple Locations | status not stated, demoed | [0:06](https://www.youtube.com/watch?v=VjYMhjjc3uw&t=6s) |  |
-| Shopify Orders Import | status not stated, demoed | [1:14](https://www.youtube.com/watch?v=VjYMhjjc3uw&t=74s) |  |
-| Shopify Companies List | status not stated, demoed | [1:32](https://www.youtube.com/watch?v=VjYMhjjc3uw&t=92s) |  |
-| Shopify Locations List | status not stated, demoed | [1:59](https://www.youtube.com/watch?v=VjYMhjjc3uw&t=119s) |  |
-| Location-to-Customer Mapping | status not stated, demoed | [2:32](https://www.youtube.com/watch?v=VjYMhjjc3uw&t=152s) |  |
-| Order Synchronization with Location Mapping | status not stated, demoed | [3:05](https://www.youtube.com/watch?v=VjYMhjjc3uw&t=185s) |  |
+| Shopify B2B Companies with Multiple Locations | generally available (roadmap [573342](../features/573342.md)), demoed | [0:06](https://www.youtube.com/watch?v=VjYMhjjc3uw&t=6s) |  |
+| Shopify Orders Import | generally available (roadmap [573342](../features/573342.md)), demoed | [1:14](https://www.youtube.com/watch?v=VjYMhjjc3uw&t=74s) |  |
+| Shopify Companies List | generally available (roadmap [573342](../features/573342.md)), demoed | [1:32](https://www.youtube.com/watch?v=VjYMhjjc3uw&t=92s) |  |
+| Shopify Locations List | generally available (roadmap [573342](../features/573342.md)), demoed | [1:59](https://www.youtube.com/watch?v=VjYMhjjc3uw&t=119s) |  |
+| Location-to-Customer Mapping | generally available (roadmap [573342](../features/573342.md)), demoed | [2:32](https://www.youtube.com/watch?v=VjYMhjjc3uw&t=152s) |  |
+| Order Synchronization with Location Mapping | generally available (roadmap [573342](../features/573342.md)), demoed | [3:05](https://www.youtube.com/watch?v=VjYMhjjc3uw&t=185s) |  |
 | Push Business Central Customers to Shopify | status not stated, demoed | [4:13](https://www.youtube.com/watch?v=VjYMhjjc3uw&t=253s) |  |
 | Automatic Catalog Creation for Locations | status not stated, demoed | [6:00](https://www.youtube.com/watch?v=VjYMhjjc3uw&t=360s) |  |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## AL objects mentioned
 

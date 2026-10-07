@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:21:46.353Z"
+  at: "2026-10-06T23:56:28.878Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 52527cd7a79aca56f769e8619c77bb443acd58289f7e3462d69ce5b620ac9ee6
+  input_hash: de7e2caf571d71ff95dc4eafab79114d354039c8c5de560e86eca165c9918626
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/APIV2/app/src/Entitlements/D365BusinessCentralInfrastructureAPIV2.Entitlement.al
@@ -60,6 +60,12 @@ counts:
   procedures: 0
   events: 0
   subscribers: 0
+relations:
+  out: 0
+  referenced_by: 0
+  pages: 0
+  extended_by: 0
+  event_subscribers: 0
 ---
 
 # Entitlement "D365 Business Central Infrastructure APIV2"

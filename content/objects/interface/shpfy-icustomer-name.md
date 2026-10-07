@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:21:46.353Z"
+  at: "2026-10-06T23:56:28.878Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: d610ee0e2c0653be4c42fcacee27880ed4b774e45a7db6a3375b752de3cffd5f
+  input_hash: 8f72738f03a2fb4d38c8a8222e7275df380a25236d49118f615b46beb241197c
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/Shopify/app/src/Customers/Interfaces/ShpfyICustomerName.Interface.al
@@ -60,6 +60,12 @@ counts:
   procedures: 1
   events: 0
   subscribers: 0
+relations:
+  out: 0
+  referenced_by: 0
+  pages: 0
+  extended_by: 0
+  event_subscribers: 0
 ---
 
 # Interface "Shpfy ICustomer Name"

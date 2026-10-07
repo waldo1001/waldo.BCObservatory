@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 75089a8e7ff70ab091533be01769f296dffb974a54281d80f8800fdd1dd16381
@@ -176,7 +176,10 @@ links:
   topics:
     - topic/business-central/business-functionality/finance/financial-analytics
   localizations: []
-  videos: []
+  videos:
+    - video/2isrH3RcSK8
+    - video/5RJ3yZ7m1UU
+    - video/z7UTBiCNOo8
   posts: []
   guidelines: []
 learn_toc_path:
@@ -190,7 +193,7 @@ children: []
 coverage:
   learn: 19
   code: 0
-  video: 0
+  video: 3
   blog: 0
   guideline: 0
 bc_forms:
@@ -242,6 +245,14 @@ Path: [Business functionality](../../../business-functionality.md) > [Finance](.
 - [Power BI Finance app semantic model](https://learn.microsoft.com/dynamics365/business-central/finance-powerbi-app-semantic-model): Learn about the finance tables and fields in the Power BI Finance app semantic model for Business Central reporting and analysis.
 - [Profitability](https://learn.microsoft.com/dynamics365/business-central/finance-powerbi-profitability): The Profitability report shows gross and net profits over time.
 - [Set up the Finance Power BI app](https://learn.microsoft.com/dynamics365/business-central/finance-powerbi-app-setup): Learn how to set up the Power BI Finance app
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Business Central Launch Event 2024 Release Wave 2 - Recording of Live Opening](../../../../../videos/2isrH3RcSK8.md) (video): "Copilot for Finance app; Power BI reports expansion; Financial reports"
+- [What's New: Financial Analytics (2024 release wave 2)](../../../../../videos/5RJ3yZ7m1UU.md) (video): "Power BI Finance App; Financial Reporting Templates"
+- [What's Cooking in Business Central: Excel Reports that Become Generally Available](../../../../../videos/z7UTBiCNOo8.md) (video): "Finance Analytics Documentation; Excel Reports with Copilot Integration"
 
 ## Business Central pages and reports
 

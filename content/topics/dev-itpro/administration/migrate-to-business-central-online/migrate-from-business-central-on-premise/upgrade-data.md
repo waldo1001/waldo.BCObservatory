@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 6253fe23963480b12c7b988cbdc780078c9ba6332c7a4a845e4e83995e5ee95e
@@ -40,7 +40,8 @@ links:
   topics:
     - topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-business-central-on-premise
   localizations: []
-  videos: []
+  videos:
+    - video/_6bYqpKzL8s
   posts: []
   guidelines: []
 learn_toc_path:
@@ -54,7 +55,7 @@ children: []
 coverage:
   learn: 2
   code: 0
-  video: 0
+  video: 1
   blog: 0
   guideline: 0
 bc_forms: []
@@ -72,5 +73,11 @@ Path: [Administration](../../../administration.md) > [Migrate to Business Centra
 
 - [Run data upgrade](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-data-upgrade): This article explains the process for running the data upgrade as part of cloud migration.
 - [Skip API data upgrade in cloud migration](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-skip-api-data-upgrade): This article explains things you can skip the API data upgrade during cloud migration and complete it after going live
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Upgrade Business Central Sandbox to Preview Version](../../../../../videos/_6bYqpKzL8s.md) (video): "Upgrade Business Central Sandbox to Preview Version; sandbox upgrade; preview environment; environment management"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

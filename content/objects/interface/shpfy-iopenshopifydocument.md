@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:21:46.353Z"
+  at: "2026-10-06T23:56:28.878Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 849a442b26fce60ee8215cf1ed764f8ebaf8da3ea187e1a934c7104070de632a
+  input_hash: a3eec3e3cc673bb13c2cbe5405b23eda582e5ee79ba3f8a125ef587f119f963a
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/Shopify/app/src/Document%20Links/Interfaces/ShpfyIOpenShopifyDocument.Interface.al
@@ -60,6 +60,12 @@ counts:
   procedures: 1
   events: 0
   subscribers: 0
+relations:
+  out: 0
+  referenced_by: 0
+  pages: 0
+  extended_by: 0
+  event_subscribers: 0
 ---
 
 # Interface "Shpfy IOpenShopifyDocument"

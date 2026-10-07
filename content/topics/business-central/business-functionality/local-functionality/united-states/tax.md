@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 24efd1f8e11c07b4bac6043fd23e9d4a85edf3e9a48241edff0944a677cc8994
@@ -112,7 +112,10 @@ links:
   topics:
     - topic/business-central/business-functionality/local-functionality/united-states
   localizations: []
-  videos: []
+  videos:
+    - video/k0pugXY4CEw
+    - video/WI_3mjpQ2JU
+    - video/YSDfDjrMUb0
   posts: []
   guidelines: []
 learn_toc_path:
@@ -126,7 +129,7 @@ children: []
 coverage:
   learn: 11
   code: 0
-  video: 0
+  video: 3
   blog: 0
   guideline: 0
 bc_forms:
@@ -183,6 +186,14 @@ Path: [Business functionality](../../../business-functionality.md) > [Local func
 - [Set Up Use Tax and Purchase Tax [US]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/how-to-set-up-use-tax-and-purchase-tax): This article explains how sales tax includes taxes that companies pay for using items in the US version.
 - [Track data and use the IRS 1099 form](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/how-to-1099-use): Learn how to post documents to calculate information for your 1099 tax forms.
 - [Unrealized sales tax and sales payment discounts](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts): You can use the General Ledger Setup page to set up unrealized sales tax in the US version.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [What's New: IRS1099 Integration with IRIS (2025 release wave 2)](../../../../../videos/k0pugXY4CEw.md) (video): "1099 electronic filing to IRS; 1099 form documents; IRS transmission"
+- [What's New: Automated IRS1099 Reporting (2024 release wave 1)](../../../../../videos/WI_3mjpQ2JU.md) (video): "1099 reporting; irs integration; us tax forms; vendor setup; electronic filing"
+- [What's new in Shopify Connector: Overview (2026 release wave 2)](../../../../../videos/YSDfDjrMUb0.md) (video): "Shopify Connector localization extensions - Belgium and US; Tax details on Shopify refunds"
 
 ## Business Central pages and reports
 

@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:20:24.970Z"
+  at: "2026-10-07T00:17:53.935Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -70,7 +70,8 @@ evidence:
 links:
   learn: []
   objects: []
-  features: []
+  features:
+    - feature/573351
   topics: []
   localizations: []
   videos: []
@@ -192,10 +193,12 @@ features:
     verified: false
     status_source: video
   - name: AL compiler JSON output
-    status: unclear
+    status: ga
     t: 2115
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573351"
   - name: Interface parameters with dependency injection
     status: unclear
     t: 2197
@@ -317,7 +320,7 @@ In a real customer project session, he had the agents analyze existing code for 
 | Iterative refactoring with context preservation | status not stated, demoed | [24:48](https://www.youtube.com/watch?v=jfvUkNa4gyg&t=1488s) |  |
 | Solution planning agent | status not stated, demoed | [27:34](https://www.youtube.com/watch?v=jfvUkNa4gyg&t=1654s) |  |
 | Multi-phase developer agent | status not stated, demoed | [29:47](https://www.youtube.com/watch?v=jfvUkNa4gyg&t=1787s) |  |
-| AL compiler JSON output | status not stated, demoed | [35:15](https://www.youtube.com/watch?v=jfvUkNa4gyg&t=2115s) |  |
+| AL compiler JSON output | generally available (roadmap [573351](../features/573351.md)), demoed | [35:15](https://www.youtube.com/watch?v=jfvUkNa4gyg&t=2115s) |  |
 | Interface parameters with dependency injection | status not stated, demoed | [36:37](https://www.youtube.com/watch?v=jfvUkNa4gyg&t=2197s) |  |
 | Unpolluted context with agent architecture | status not stated, demoed | [40:16](https://www.youtube.com/watch?v=jfvUkNa4gyg&t=2416s) |  |
 | Cloud Profiles for AI Agent Configuration | status not stated | [39:01](https://www.youtube.com/watch?v=jfvUkNa4gyg&t=2341s) |  |
@@ -325,6 +328,8 @@ In a real customer project session, he had the agents analyze existing code for 
 | Agent File-Based Output Strategy | status not stated, demoed | [41:24](https://www.youtube.com/watch?v=jfvUkNa4gyg&t=2484s) |  |
 | Extended Agent Session Runtime | status not stated, demoed | [41:05](https://www.youtube.com/watch?v=jfvUkNa4gyg&t=2465s) |  |
 | Agent-Driven Development Orchestration | status not stated, demoed | [42:37](https://www.youtube.com/watch?v=jfvUkNa4gyg&t=2557s) |  |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## AL objects mentioned
 

@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:21:46.353Z"
+  at: "2026-10-06T23:56:28.878Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: bc9e68ce1104a2e45cedd0b8bd4934130296c973e61acf6ff4562f5b6d94e7e8
+  input_hash: 0232e80c771e87ce4556e9ddd38887b9ae9db4064e5e456833f5065ec412b5ee
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/System%20Application/App/AI/src/Copilot/Interfaces/AIServiceName.Interface.al
@@ -61,6 +61,12 @@ counts:
   procedures: 2
   events: 0
   subscribers: 0
+relations:
+  out: 0
+  referenced_by: 0
+  pages: 0
+  extended_by: 0
+  event_subscribers: 0
 ---
 
 # Interface "AI Service Name"

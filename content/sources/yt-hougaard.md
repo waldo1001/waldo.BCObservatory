@@ -13,7 +13,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:17:53.406Z"
+  at: "2026-10-06T23:39:50.809Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 33e420f45e16ff99d00d15c0f6aff79c8513e235f740e26069cb142c73f783db
@@ -28,7 +28,9 @@ evidence:
 links:
   learn: []
   objects: []
-  features: []
+  features:
+    - feature/573315
+    - feature/573332
   topics: []
   localizations: []
   videos:
@@ -114,7 +116,11 @@ footprint:
       weight: 1
     - id: table item
       weight: 1
-  features: []
+  features:
+    - id: feature/573315
+      weight: 1
+    - id: feature/573332
+      weight: 1
 first_item: "2026-09-21"
 last_item: "2026-10-05"
 ---
@@ -148,6 +154,11 @@ Items per quarter, oldest first:
 
 - 2026-Q3: ************** 14
 - 2026-Q4: * 1
+
+## Roadmap features it demonstrates
+
+- [573315](../features/573315.md)
+- [573332](../features/573332.md)
 
 ## Most recent
 

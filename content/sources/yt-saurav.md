@@ -13,7 +13,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:17:53.406Z"
+  at: "2026-10-06T23:39:50.809Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 8af0d1e32430f50e51aca9a447630c1b257eb1d6530bea4d3d44ab4397156ad0
@@ -28,7 +28,20 @@ evidence:
 links:
   learn: []
   objects: []
-  features: []
+  features:
+    - feature/573304
+    - feature/573312
+    - feature/573313
+    - feature/573315
+    - feature/573316
+    - feature/573322
+    - feature/573332
+    - feature/573352
+    - feature/573354
+    - feature/573357
+    - feature/573362
+    - feature/573368
+    - feature/573371
   topics: []
   localizations: []
   videos:
@@ -116,7 +129,27 @@ footprint:
       weight: 1
     - id: other NavApp.GetCurrentModuleInfo
       weight: 1
-  features: []
+  features:
+    - id: feature/573332
+      weight: 2
+    - id: feature/573304
+      weight: 1
+    - id: feature/573312
+      weight: 1
+    - id: feature/573313
+      weight: 1
+    - id: feature/573315
+      weight: 1
+    - id: feature/573316
+      weight: 1
+    - id: feature/573322
+      weight: 1
+    - id: feature/573352
+      weight: 1
+    - id: feature/573354
+      weight: 1
+    - id: feature/573357
+      weight: 1
 first_item: "2026-09-07"
 last_item: "2026-10-02"
 ---
@@ -150,6 +183,22 @@ Items per quarter, oldest first:
 
 - 2026-Q3: ************* 13
 - 2026-Q4: ** 2
+
+## Roadmap features it demonstrates
+
+- [573304](../features/573304.md)
+- [573312](../features/573312.md)
+- [573313](../features/573313.md)
+- [573315](../features/573315.md)
+- [573316](../features/573316.md)
+- [573322](../features/573322.md)
+- [573332](../features/573332.md)
+- [573352](../features/573352.md)
+- [573354](../features/573354.md)
+- [573357](../features/573357.md)
+- [573362](../features/573362.md)
+- [573368](../features/573368.md)
+- [573371](../features/573371.md)
 
 ## Most recent
 

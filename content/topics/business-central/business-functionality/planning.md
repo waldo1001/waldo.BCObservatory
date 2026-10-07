@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 2c0efdb54fdf8b9ca586037daec2328e07f0bc0440cd110faedfb108ce1c8654
@@ -97,7 +97,8 @@ links:
     - topic/business-central/business-functionality
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/olofsimren-com/3779
   guidelines: []
 learn_toc_path:
   - Business functionality
@@ -109,7 +110,7 @@ coverage:
   learn: 9
   code: 0
   video: 0
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms:
   - 291
@@ -161,6 +162,12 @@ Path: [Business functionality](../business-functionality.md) > Planning · tier 
 - [Run Full Planning, MPS, or MRP](https://learn.microsoft.com/dynamics365/business-central/production-how-to-run-mps-and-mrp): The planning system can calculate either Master Production Schedule (MPS) or Material Requirements Planning (MRP) on request, or both at the same time.
 - [Supply Planning](https://learn.microsoft.com/dynamics365/business-central/production-planning): Prepare a detailed executable plan and the final-assembly production schedule for sales and production demand.
 - [Track Relations Between Demand and Supply](https://learn.microsoft.com/dynamics365/business-central/production-how-track-demand-supply): This topic explains the different ways to track relations between demand and supply such as tracking linked items and dealing with untracked planing elements.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Approval Workflows in Planning Worksheet](../../../posts/olofsimren-com/3779.md) (community post): "approval workflow support to planning, requisition, and subcontracting worksheets"
 
 ## Business Central pages and reports
 

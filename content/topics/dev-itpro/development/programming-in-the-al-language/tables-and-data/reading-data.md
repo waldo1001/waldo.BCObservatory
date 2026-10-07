@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 3379cd754f86203aa303a146696436a67af354ae6edb858e850701c69ce460a8
@@ -73,7 +73,9 @@ links:
     - topic/dev-itpro/development/programming-in-the-al-language/tables-and-data
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/demiliani-com/13931
+    - post/demiliani-com/14031
   guidelines: []
 learn_toc_path:
   - Development
@@ -87,7 +89,7 @@ coverage:
   learn: 6
   code: 0
   video: 0
-  blog: 0
+  blog: 2
   guideline: 0
 bc_forms: []
 member_hash: 3379cd754f86203aa303a146696436a67af354ae6edb858e850701c69ce460a8
@@ -108,5 +110,12 @@ Path: [Development](../../../development.md) > [Programming in the AL language](
 - [Record instance isolation level](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-read-isolation): Learn how to set the isolation levels used when querying the Business Central database.
 - [Using partial records](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-partial-records): Describes the partial records capability in Business Central.
 - [Using Read Scale-Out for Better Performance](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/database-read-scale-out-overview): Learn how to use read scale-out in Business Central to improve performance
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Dynamics 365 Business Central: Using Semantic Search from AL](../../../../../posts/demiliani-com/13931.md) (community post): "Semantic search converts text into numerical embeddings"
+- [Dynamics 365 Business Central: AL transaction isolation levels and cache usage.](../../../../../posts/demiliani-com/14031.md) (community post): "Record.ReadIsolation method controls database transaction isolation"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 610ed42ec2465f96da62c42c918346ead24213a6b31c7513ba01f0581984f70d
@@ -232,8 +232,10 @@ links:
   topics:
     - topic/business-central/development-and-administration/customize-business-central
   localizations: []
-  videos: []
-  posts: []
+  videos:
+    - video/no1mmnPfyNY
+  posts:
+    - post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-1170961607735589786
   guidelines: []
 learn_toc_path:
   - Development and administration
@@ -245,8 +247,8 @@ children: []
 coverage:
   learn: 26
   code: 0
-  video: 0
-  blog: 0
+  video: 1
+  blog: 1
   guideline: 0
 bc_forms:
   - 30
@@ -405,6 +407,13 @@ Path: [Development and administration](../../development-and-administration.md) 
 - [Using the Sales and Inventory Forecast extension to manage inventory](https://learn.microsoft.com/dynamics365/business-central/ui-extensions-sales-forecast): This extension helps you predict sales, get a clear overview of expected stock-outs, and even helps you create replenishment requests to vendors.
 - [Using the tax file formats (DK) extension](https://learn.microsoft.com/dynamics365/business-central/ui-extensions-tax-file-formats-dk): The tax file formats extension makes it easy to export files that are pre-formatted to meet bank requirements for electronic submissions.
 - [WorldPay Payments Standard](https://learn.microsoft.com/dynamics365/business-central/ui-extensions-worldpay-payments-standard): The WorldPay Payments Standard extension lets you offer customers a convenient alternative to making payments through bank transfers or credit cards.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Managing Apps in the Business Central Admin Center](../../../../posts/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-1170961607735589786.md) (community post): "per-tenant extensions support full lifecycle management"
+- [20260615 - Are We There Yet? The Journey from NAV to Business Central](../../../../videos/no1mmnPfyNY.md) (video): "Extensions history; partner ecosystem; value-based selling; saas transition"
 
 ## Business Central pages and reports
 

@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: b07578998b77b0aeddd4e0bb55e601af3895a3db5471337673f0fdb4450eee2f
@@ -88,7 +88,9 @@ links:
   topics:
     - topic/business-central/business-functionality/warehouse-management
   localizations: []
-  videos: []
+  videos:
+    - video/kDiDMPEaU0E
+    - video/QdWPlIV3Avk
   posts: []
   guidelines: []
 learn_toc_path:
@@ -101,7 +103,7 @@ children: []
 coverage:
   learn: 8
   code: 0
-  video: 0
+  video: 2
   blog: 0
   guideline: 0
 bc_forms:
@@ -137,6 +139,13 @@ Path: [Business functionality](../../business-functionality.md) > [Warehouse man
 - [Receive items](https://learn.microsoft.com/dynamics365/business-central/warehouse-how-receive-items): This article is an overview of the different ways to receive items at a warehouse with a warehouse receipt.
 - [Receiving and Putting Away in Advanced Warehousing](https://learn.microsoft.com/dynamics365/business-central/walkthrough-receiving-and-putting-away-in-advanced-warehousing): The inbound processes for receiving and putting away can be performed in four ways using different functionalities depending on the warehouse complexity level.
 - [Walkthrough - Receive and put away in basic warehouse configurations](https://learn.microsoft.com/dynamics365/business-central/walkthrough-receiving-and-putting-away-in-basic-warehousing): Learn about the different ways to handle inbound processes for receiving and putting away.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [What's New: Matching Purchase Invoices to Order and Receipt Lines (2026 release wave 1)](../../../../videos/kDiDMPEaU0E.md) (video): "purchase order matching; purchase invoice; receipt lines; order lines"
+- [What's new in SCM: Subcontracting (2026 release wave 2)](../../../../videos/QdWPlIV3Avk.md) (video): "Warehouse receipt for subcontracting operations; Inventory put-away for basic warehouse locations"
 
 ## Business Central pages and reports
 

@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:21:46.353Z"
+  at: "2026-10-06T23:56:28.878Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: d1e5bad045c6129ba332c60fdf6994807ee19c0affc1ae74f6162f3af4dbcd82
+  input_hash: fc4e4d38488df376507f3dbea9a4164ba04940308d09523c157b5a7b65b6ad38
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/EmailLogging/app/src/entitlements/Dynamics365BusinessCentralEssentialEmbeddedEmailLogging.Entitlement.al
@@ -60,6 +60,12 @@ counts:
   procedures: 0
   events: 0
   subscribers: 0
+relations:
+  out: 0
+  referenced_by: 0
+  pages: 0
+  extended_by: 0
+  event_subscribers: 0
 ---
 
 # Entitlement "Dynamics 365 Business Central Essential - Embedded Email Logging"

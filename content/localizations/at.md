@@ -2,7 +2,7 @@
 id: localization/at
 type: localization
 title: Austria (AT)
-summary: "Austria (AT) localization of Business Central in BC29: 125 objects of its own, 47 W1 objects changed (138 fields and 3 events added). From the code; country apps outside the Base Application are not included yet."
+summary: Austria (AT) localization of Business Central 29. It covers vendor delivery reminders, VAT statement and VIES reporting, the vendor payments list, G/L setup information, a data export, physical inventory orders and fixed asset reports. Use it to see what Austria adds to W1 and where Learn documents it.
 tier: official
 language: en
 tags:
@@ -14,10 +14,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:28:57.107Z"
+  at: "2026-10-06T23:56:28.878Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 2f08e38cda64c6c53f9b398f8583243fb4d235d4241960c9049e527bdf3bc3b8
+  prompts:
+    hub-localization: 2
+  input_hash: b6d62f2e2cca38f9321e33ef2b01ef6bc078af0983f282cd542bad8fe2d7a060
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps
@@ -89,16 +90,186 @@ w1_version: "29"
 added_objects: 125
 replaced_objects: 47
 removed_objects: 0
-added_fields: 138
+added_fields: 58
 added_events: 3
 learn_folder: LocalFunctionality/Austria
 ---
 
 # Austria (AT)
 
-> Austria (AT) localization of Business Central in BC29: 125 objects of its own, 47 W1 objects changed (138 fields and 3 events added). From the code; country apps outside the Base Application are not included yet.
+> Austria (AT) localization of Business Central 29. It covers vendor delivery reminders, VAT statement and VIES reporting, the vendor payments list, G/L setup information, a data export, physical inventory orders and fixed asset reports. Use it to see what Austria adds to W1 and where Learn documents it.
 
-BC29 · country layer against W1 · Learn: [local functionality](../topics/business-central/business-functionality/local-functionality/austria.md)
+BC29 · country layer against W1 · Learn: [local functionality](../topics/business-central/business-functionality/local-functionality/austria.md) · narrative **unreviewed** (machine-written)
+
+## Overview
+
+The Austrian layer is shared with the DACH region, so many objects carry German or Swiss names (for example "VAT Statement Germany" and "Report Sel. Usage Purch. DACH"). The largest own feature is the delivery reminder process for vendors. It has header, line, issued and ledger entry tables, terms, levels and text setup, create and issue codeunits, test and issued reports, and page extensions on the vendor, purchase setup, purchase order and role centers. Learn documents setup, generation, manual creation, issuing and test reports.
+
+VAT reporting is the second main area. Report 11110 "VAT Statement AT" and report 11108 "VAT - VIES Declaration XML" support the VAT statement and VIES declaration, with FDF and XML export and Finanz Online integration per Learn. W1 tables get fields such as Registration No. on vendor and purchase documents, tax office and authorization fields on Company Information, and VAT advance notification fields on General Ledger Setup and VAT Statement Name. A configurable data export (tables 11002 to 11010) and report 11514 "G/L Setup Information" support data access and auditability requirements.
+
+Other additions are physical inventory order tables, place of dispatcher and receiver setup, fixed asset reports and depreciation fields, valuation methods in exchange rate adjustment, and a SEPA credit transfer export codeunit. W1 extensibility changes are small: 3 events and 25 added procedures.
+
+## Key points
+
+- Delivery reminders for vendors: header, line, issued, ledger entry, terms, levels and text tables, with create and issue codeunits and test reports.
+- VAT reporting: report 11110 VAT Statement AT and report 11108 VAT - VIES Declaration XML, with FDF and XML export per Learn.
+- Vendor Payments List (report 11507) prints by vendor or chronologically, with foreign currency and posting information layouts.
+- G/L Setup Information report 11514 lets users review master data, posting groups, VAT setup and number series.
+- Configurable data export with its own tables, pages and codeunit 11000 "Data Export Management".
+- Physical inventory orders and recordings as own tables 5005350 to 5005363, with setup number series on Inventory Setup.
+- Company Information gains tax office, authorization number, place of dispatcher and receiver fields.
+- Exchange rate adjustment gains a valuation method and period end date, plus fixed asset fields for premium depreciation.
+
+Narrative written by Sonnet from the code diff and 13 Learn page summaries. In numbers: Austria (AT) localization of Business Central in BC29: 125 objects of its own, 47 W1 objects changed (58 fields and 3 events added). From the code; country apps outside the Base Application are not included yet.
+
+## By area
+
+| Area | W1 objects changed | Own objects | Fields added |
+|---|---|---|---|
+| [Purchases](#purchases) | 9 | 46 | 11 |
+| [Finance](#finance) | 16 | 35 | 12 |
+| [Inventory](#inventory) | 5 | 21 | 5 |
+| [Foundation](#foundation) | 7 | 9 | 27 |
+| [FixedAssets](#fixedassets) | 4 | 2 | 3 |
+| [(no namespace)](#no-namespace) | 0 | 5 | 0 |
+| [Security](#security) | 2 | 2 | 0 |
+| [CRM](#crm) | 2 | 0 | 0 |
+| [Sales](#sales) | 1 | 1 | 0 |
+| [Bank](#bank) | 0 | 1 | 0 |
+| [Manufacturing](#manufacturing) | 0 | 1 | 0 |
+| [Microsoft](#microsoft) | 0 | 1 | 0 |
+| Upgrade | 1 | 0 | 0 |
+| [Utilities](#utilities) | 0 | 1 | 0 |
+
+### Purchases
+
+Adds the full delivery reminder process for vendors: tables, create and issue codeunits, pages, test and issued reports, and page extensions on vendor, purchase setup, purchase order and role centers. Also adds Registration No. on vendor templates, archiving options on Purchases & Payables Setup, and reports such as Vendor Payments List and Vendor Total-Balance.
+
+Why: Learn describes delivery reminders as a way to track and notify vendors about overdue deliveries, and documents the Vendor Payments List report.
+
+Objects: table/5005270 "Delivery Reminder Header" (own), table/5005271 "Delivery Reminder Line" (own), codeunit/5005271 "Create Delivery Reminder" (own), codeunit/5005270 "Issue Delivery Reminder" (own), page/5005270 "Delivery Reminder" (own), report/5005272 "Delivery Reminder - Test" (own), report/11507 "Vendor Payments List" (own), [table/312 "Purchases & Payables Setup"](../objects/table/312.md).
+
+[All 55 objects of Purchases in the diff](?ns=Purchases#country-diff)
+
+### Finance
+
+Adds VAT statement reports for Austria, VIES declaration XML, a configurable data export, G/L reports and setup information. Changes W1 posting, exchange rate adjustment and VAT statement preview objects with new fields, procedures and events.
+
+Why: Learn documents VAT Statement AT and VIES XML for tax authority submission, and the G/L setup report for data access and auditability requirements.
+
+Objects: report/11110 "VAT Statement AT" (own), report/11108 "VAT - VIES Declaration XML" (own), report/11514 "G/L Setup Information" (own), codeunit/11000 "Data Export Management" (own), table/11002 "Data Export" (own), codeunit/11110 "Update VAT-AT" (own), [table/596 "Exch. Rate Adjmt. Parameters"](../objects/table/596.md), [codeunit/13 "Gen. Jnl.-Post Batch"](../objects/codeunit/13.md).
+
+[All 51 objects of Finance in the diff](?ns=Finance#country-diff)
+
+### Inventory
+
+Adds physical inventory order and recording tables, place of dispatcher and receiver setup, and reports such as Crossborder Services and Item ABC Analysis. Changes Inventory Setup, Item Statistics Buffer and Intrastat related tables.
+
+Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
+
+Objects: table/5005350 "Phys. Inventory Order Header" (own), table/5005351 "Phys. Inventory Order Line" (own), [table/313 "Inventory Setup"](../objects/table/313.md), table/11000 "Place of Dispatcher" (own), table/11001 "Place of Receiver" (own), report/11111 "Crossborder Services" (own), report/11503 "Item ABC Analysis" (own), [table/5821 "Item Statistics Buffer"](../objects/table/5821.md).
+
+[All 26 objects of Inventory in the diff](?ns=Inventory#country-diff)
+
+### Foundation
+
+Adds DACH report selections, source code setup for delivery reminders and many Company Information fields (tax office, authorization numbers, place of dispatcher and receiver). Adds helpers in Format Address and Document-Print.
+
+Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
+
+Objects: [table/79 "Company Information"](../objects/table/79.md), table/26100 "DACH Report Selections" (own), [codeunit/365 "Format Address"](../objects/codeunit/365.md), [codeunit/229 "Document-Print"](../objects/codeunit/229.md), [codeunit/1901 "Report Selection Mgt."](../objects/codeunit/1901.md), [table/242 "Source Code Setup"](../objects/table/242.md), enumextension/26101 "Report Selection Usage Del. Rem." (own), enumextension/26102 "Report Sel. Usage Purch. DACH" (own).
+
+[All 16 objects of Foundation in the diff](?ns=Foundation#country-diff)
+
+### FixedAssets
+
+Adds Austrian fixed asset list and book value reports, and fields for premium depreciation on Fixed Asset. Adds a procedure in FA General Report.
+
+Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
+
+Objects: report/11100 "Fixed Assets - List AT" (own), report/11011 "Fixed Asset - Book Value 03" (own), [table/5600 "Fixed Asset"](../objects/table/5600.md), [codeunit/5626 "FA General Report"](../objects/codeunit/5626.md), [table/5611 "Depreciation Book"](../objects/table/5611.md), [table/5612 "FA Depreciation Book"](../objects/table/5612.md).
+
+[All 6 objects of FixedAssets in the diff](?ns=FixedAssets#country-diff)
+
+### (no namespace)
+
+Holds the Intrastat item list report and the data export setup table. Upgrade and sandbox cleanup codeunits are plumbing.
+
+Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
+
+Objects: report/11001 "Intrastat - Item List" (own), table/11009 "Data Export Setup" (own).
+
+[All 5 objects of (no namespace) in the diff](?ns=(no%20namespace)#country-diff)
+
+### Security
+
+Extends the LOCAL and LOCAL READ permission sets, including delivery reminder permissions.
+
+Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
+
+Objects: permissionsetextension/5005270 "DR LOCAL" (own), permissionsetextension/5005271 "DR LOCAL READ" (own), [permissionset/1001 "LOCAL"](../objects/permissionset/1001.md), [permissionset/1002 "LOCAL READ"](../objects/permissionset/1002.md).
+
+[All 4 objects of Security in the diff](?ns=Security#country-diff)
+
+### CRM
+
+Changes the Export Contact and Export Segment Contact XMLports.
+
+Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
+
+Objects: [xmlport/5050 "Export Contact"](../objects/xmlport/5050.md), [xmlport/5051 "Export Segment Contact"](../objects/xmlport/5051.md).
+
+[All 2 objects of CRM in the diff](?ns=CRM#country-diff)
+
+### Sales
+
+Adds the Customer Total-Balance report and changes Sales Line Archive.
+
+Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
+
+Objects: report/11003 "Customer Total-Balance" (own), [table/5108 "Sales Line Archive"](../objects/table/5108.md).
+
+[All 2 objects of Sales in the diff](?ns=Sales#country-diff)
+
+### Bank
+
+Adds a SEPA credit transfer APC export file codeunit.
+
+Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
+
+Objects: codeunit/11100 "SEPA CT APC-Export File" (own).
+
+[All 1 objects of Bank in the diff](?ns=Bank#country-diff)
+
+### Manufacturing
+
+Adds a DACH page extension for the Manufacturing Manager role center.
+
+Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
+
+Objects: pageextension/11010 "Manufacturing Manager RC DACH" (own).
+
+[All 1 objects of Manufacturing in the diff](?ns=Manufacturing#country-diff)
+
+### Microsoft
+
+Adds a Certificate table.
+
+Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
+
+Objects: table/11014 "Certificate" (own).
+
+[All 1 objects of Microsoft in the diff](?ns=Microsoft#country-diff)
+
+### Utilities
+
+Adds the GeneralMgt codeunit with local helper functions.
+
+Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
+
+Objects: codeunit/11501 "GeneralMgt" (own).
+
+[All 1 objects of Utilities in the diff](?ns=Utilities#country-diff)
 
 ## W1 objects this country changes
 
@@ -128,7 +299,7 @@ BC29 · country layer against W1 · Learn: [local functionality](../topics/busin
 | [table/98 "General Ledger Setup"](../objects/table/98.md) | +2 fields, 2 fields changed |
 | [table/122 "Purch. Inv. Header"](../objects/table/122.md) | +1 fields |
 | [table/124 "Purch. Cr. Memo Hdr."](../objects/table/124.md) | +1 fields |
-| [table/242 "Source Code Setup"](../objects/table/242.md) | +81 fields, 5 properties |
+| [table/242 "Source Code Setup"](../objects/table/242.md) | +1 fields |
 | [table/254 "VAT Entry"](../objects/table/254.md) | +1 fields |
 | [table/257 "VAT Statement Name"](../objects/table/257.md) | +1 fields |
 | [table/260 "Tariff Number"](../objects/table/260.md) | 1 fields changed |
@@ -284,6 +455,6 @@ Country-only objects have no object page yet (their ids repeat across countries)
 
 ## Other versions
 
-- BC30: 172 objects differ from W1 (138 fields, 3 events added)
+- BC30: 172 objects differ from W1 (58 fields, 3 events added)
 
 Source: country layer of the Base Application compared with W1 of the same version (data/code/diffs/country/).

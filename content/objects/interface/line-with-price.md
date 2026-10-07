@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:21:46.353Z"
+  at: "2026-10-06T23:56:28.878Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 05d26de38f47ffc3e9d607326be95c43ed501222be9ea1cba4a7a27a5070a583
+  input_hash: 578044641a9b4745e40b87427e5960b2d6650f28676dd3b1917638c362762819
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Layers/W1/BaseApp/Pricing/PriceList/LineWithPrice.Interface.al
@@ -61,6 +61,12 @@ counts:
   procedures: 16
   events: 0
   subscribers: 0
+relations:
+  out: 0
+  referenced_by: 0
+  pages: 0
+  extended_by: 0
+  event_subscribers: 0
 ---
 
 # Interface "Line With Price"

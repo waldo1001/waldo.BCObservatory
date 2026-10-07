@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:21:46.353Z"
+  at: "2026-10-06T23:56:28.878Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: ba80fcfabdefeacf057c391077b44cedd655f94abf2fd548c656764f36a7127e
+  input_hash: 4ad31855ff724ebe29cf87a9dd75ea3fb335fe0d01a85db5c531c28a1cd54adc
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/System%20Application/App/Data%20Archive/src/DataArchiveProvider.Interface.al
@@ -61,6 +61,12 @@ counts:
   procedures: 12
   events: 0
   subscribers: 0
+relations:
+  out: 0
+  referenced_by: 0
+  pages: 0
+  extended_by: 0
+  event_subscribers: 0
 ---
 
 # Interface "Data Archive Provider"

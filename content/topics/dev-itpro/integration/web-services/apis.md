@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 2f1dbba42e33f5c41569e78796ed7b9cff4ba8e48d3dd174c52b959817d225fb
@@ -327,8 +327,12 @@ links:
     - topic/dev-itpro/integration/web-services/apis/analytics-api-reference
     - topic/dev-itpro/integration/web-services/apis/finance-reports-api
   localizations: []
-  videos: []
-  posts: []
+  videos:
+    - video/2N2NhNH7dsk
+  posts:
+    - post/aardvarklabs-blog/3631
+    - post/thinkaboutit-be/7683
+    - post/thinkaboutit-be/7813
   guidelines: []
 learn_toc_path:
   - Integration
@@ -342,8 +346,8 @@ children:
 coverage:
   learn: 261
   code: 0
-  video: 0
-  blog: 0
+  video: 1
+  blog: 3
   guideline: 0
 bc_forms:
   - 812
@@ -385,6 +389,15 @@ Path: [Integration](../../integration.md) > [Web services](../web-services.md) >
 - [Transitioning from API v1.0 to API v2.0](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-reference/v2.0/transition-to-api-v2.0): Reference content for transitioning Dynamics 365 Business Central v1.0 API to v2.0.
 - [Troubleshooting REST API/OData calls](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/dynamics-error-codes): Learn about how to troubleshoot Business Central web service errors of types REST API or OData.
 - [Using filters with API/OData calls](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-filtering): Learn how to use filters with API calls to get targeted information in return.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Using Power Automate for Business Central SFTP](../../../../posts/aardvarklabs-blog/3631.md) (community post): "Build an API page with System ID and ODataKeyFields to enable"
+- [API Pages vs API Queries in Business Central: When to Use Each](../../../../posts/thinkaboutit-be/7683.md) (community post): "API pages and API queries are two distinct REST API object types"
+- [Quick Tip: BC28: What Is New in Document Reporting](../../../../posts/thinkaboutit-be/7813.md) (community post): "36 new document APIs covering sales, purchasing, inventory, and assembly document types"
+- [What's new in reporting: Layout Management and Report Inbox API's (2026 release wave 2)](../../../../videos/2N2NhNH7dsk.md) (video): "Report inbox APIs; API overview page for report inbox"
 
 ## Business Central pages and reports
 

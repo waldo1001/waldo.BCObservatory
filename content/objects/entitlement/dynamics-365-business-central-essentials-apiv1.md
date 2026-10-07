@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:21:46.353Z"
+  at: "2026-10-06T23:56:28.878Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 92778703a6d5b03e6b4dff43ffa657f9330f3e4ebf8ad93d0865a8b6accca649
+  input_hash: 2754e57fe1d113b136079d8ab37a102c890373d334e9d48ff30ec3f6793685f9
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/APIV1/app/src/Entitlements/Dynamics365BusinessCentralEssentialsAPIV1.Entitlement.al
@@ -60,6 +60,12 @@ counts:
   procedures: 0
   events: 0
   subscribers: 0
+relations:
+  out: 0
+  referenced_by: 0
+  pages: 0
+  extended_by: 0
+  event_subscribers: 0
 ---
 
 # Entitlement "Dynamics 365 Business Central Essentials APIV1"

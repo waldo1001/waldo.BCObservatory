@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Belgium/how-to-set-up-vendors-for-automatic-payment-suggestions.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-set-up-vendors-for-automatic-payment-suggestions",
+  "title": "Set Up Vendors for Automatic Payment Suggestions [BE]",
+  "blob": "22cefc7b917a3957e2909e2f4a833da73b2b0d1e",
+  "summary": "Set up vendors in the Belgian version to control whether unpaid invoices are automatically included in payment suggestions.",
+  "systems": [
+    "localization",
+    "purchasing"
+  ],
+  "topics": [
+    "vendor setup",
+    "belgium",
+    "payment suggestions",
+    "electronic banking"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Vendors"
+    }
+  ],
+  "features": [
+    "Suggest Payments checkbox",
+    "automatic payment suggestions",
+    "payment filtering"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002535,
+      "pages_in_call": 8
+    }
+  ]
+}

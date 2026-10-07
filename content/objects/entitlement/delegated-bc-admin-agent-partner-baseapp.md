@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:21:46.353Z"
+  at: "2026-10-06T23:56:28.878Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 013999f0686753cbde5163f10cd4e43b32a297008f4620b188ba66d9491d1e24
+  input_hash: 42a6e6af3307f1b9be50c48989ca6d9dd07a4dada680fe7bce454e86b2788696
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Layers/W1/BaseApp/Entitlements/DelegatedBCAdminAgentPartnerBaseApp.Entitlement.al
@@ -61,6 +61,12 @@ counts:
   procedures: 0
   events: 0
   subscribers: 0
+relations:
+  out: 0
+  referenced_by: 0
+  pages: 0
+  extended_by: 0
+  event_subscribers: 0
 ---
 
 # Entitlement "Delegated BC Admin agent - Partner BaseApp"

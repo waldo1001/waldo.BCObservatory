@@ -2,7 +2,7 @@
 id: localization/es
 type: localization
 title: Spain (ES)
-summary: "Spain (ES) localization of Business Central in BC29: 389 objects of its own, 145 W1 objects changed (394 fields and 64 events added). From the code; country apps outside the Base Application are not included yet."
+summary: Spain (ES) localization of Business Central 29. It covers the Cartera module (bills, bill groups, payment orders, factoring), SII VAT reporting, Equivalence Charge, VAT-based declarations (340, 347, 349), CCC bank codes, AEB electronic payments, and due date limits. Use it for questions on Spanish local fields, setup and objects.
 tier: official
 language: en
 tags:
@@ -14,10 +14,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:28:57.107Z"
+  at: "2026-10-06T23:56:28.878Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 861a6902a5fc7935b9f46cf35b198ec6d489327e0bfeee9877643dfa525cdc7f
+  prompts:
+    hub-localization: 2
+  input_hash: c54b6f28797c9b856dfaed2ee470b3135f5d0c0cc617c22c8fc74eda45ca9931
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps
@@ -187,16 +188,240 @@ w1_version: "29"
 added_objects: 389
 replaced_objects: 145
 removed_objects: 0
-added_fields: 394
+added_fields: 314
 added_events: 64
 learn_folder: LocalFunctionality/Spain
 ---
 
 # Spain (ES)
 
-> Spain (ES) localization of Business Central in BC29: 389 objects of its own, 145 W1 objects changed (394 fields and 64 events added). From the code; country apps outside the Base Application are not included yet.
+> Spain (ES) localization of Business Central 29. It covers the Cartera module (bills, bill groups, payment orders, factoring), SII VAT reporting, Equivalence Charge, VAT-based declarations (340, 347, 349), CCC bank codes, AEB electronic payments, and due date limits. Use it for questions on Spanish local fields, setup and objects.
 
-BC29 · country layer against W1 · Learn: [local functionality](../topics/business-central/business-functionality/local-functionality/spain/banking-and-payments.md)
+BC29 · country layer against W1 · Learn: [local functionality](../topics/business-central/business-functionality/local-functionality/spain/banking-and-payments.md) · narrative **unreviewed** (machine-written)
+
+## Overview
+
+The Spanish layer adds 534 objects, of which 389 are its own. It adds 314 fields and 64 events on W1 objects. The largest block is Cartera: bills, bill groups and payment orders, with posting and closed documents, analysis fact boxes, export codeunits for N19, N32, N58, N34, N34.1 and factoring, and extra account fields on customer, vendor and bank posting groups. Posting codeunits such as Gen. Jnl.-Post Line, Sales-Post and Purch.-Post carry new events and procedures for Cartera bills and corrected invoices.
+
+Tax reporting rests on SII (codeunits 10750 to 10759, many enums, SII Setup and History pages), No Taxable entries, and the 340, 347 and 349 declarations. VAT Entry, VAT Posting Setup, VAT Amount Line and sales and purchase lines gain Equivalence Charge (EC) and cash regime fields. Learn documents these, along with VERI*FACTU, Factura-E, ASC export and VAT statement templates.
+
+Banking and master data changes include CCC bank code fields on company, bank, customer and vendor bank accounts, electronic payment fields, payment days and non-payment periods, payment term limits (Max. No. of Days till Due Date), transaction numbers, income statement closing and a chart of accounts equivalence tool. Service documents have ES extensions and reports.
+
+## Key points
+
+- Cartera module: receivable bills, bill groups, payment orders, factoring, with posted and closed documents and export codeunits for N19, N32, N58, N34 and N34.1.
+- SII VAT reporting: XML creator, upload and job codeunits, scheme code and invoice type enums, SII Setup and SII History pages.
+- VAT declarations 340, 347 and 349, plus No Taxable entries, operation codes and delivery operation codes.
+- Equivalence Charge: EC % fields on sales and purchase lines, VAT Entry, VAT Posting Setup and VAT Amount Line.
+- CCC bank code fields (bank, branch, control digits, account) on company, bank, customer and vendor bank accounts, with BuildCCC procedures.
+- Due date control: Max. No. of Days till Due Date on payment terms, payment days and non-payment periods on company, customer and vendor.
+- Corrected invoices, transaction numbers, Close Income Statement and Trial Balance changes, and the same external document number across fiscal years.
+- VERI*FACTU, Factura-E, and the G/L accounts equivalence tool for chart of accounts changes.
+
+Narrative written by Sonnet from the code diff and 46 Learn page summaries. In numbers: Spain (ES) localization of Business Central in BC29: 389 objects of its own, 145 W1 objects changed (314 fields and 64 events added). From the code; country apps outside the Base Application are not included yet.
+
+## By area
+
+| Area | W1 objects changed | Own objects | Fields added |
+|---|---|---|---|
+| [Finance](#finance) | 48 | 113 | 100 |
+| [Sales](#sales) | 27 | 78 | 64 |
+| [Purchases](#purchases) | 28 | 57 | 64 |
+| [EServices](#eservices) | 0 | 83 | 0 |
+| [Service](#service) | 2 | 28 | 0 |
+| [Foundation](#foundation) | 9 | 4 | 15 |
+| [Bank](#bank) | 11 | 1 | 53 |
+| [Microsoft](#microsoft) | 0 | 11 | 0 |
+| [(no namespace)](#no-namespace) | 0 | 7 | 0 |
+| [Inventory](#inventory) | 7 | 0 | 10 |
+| [Security](#security) | 5 | 2 | 0 |
+| [CashFlow](#cashflow) | 2 | 1 | 0 |
+| [Utilities](#utilities) | 1 | 2 | 0 |
+| [HumanResources](#humanresources) | 2 | 0 | 3 |
+| [RoleCenters](#rolecenters) | 1 | 1 | 4 |
+| [AccountantPortal](#accountantportal) | 0 | 1 | 0 |
+| [Integration](#integration) | 1 | 0 | 0 |
+| [Projects](#projects) | 1 | 0 | 1 |
+
+### Finance
+
+Changes Gen. Jnl.-Post Line, Gen. Jnl.-Post Batch and the journal tables with Cartera events, auto-invoice and transaction fields. Adds EC and cash regime fields on VAT Entry, VAT Posting Setup and VAT Amount Line. It also extends VAT Statement, Trial Balance and Close Income Statement, and adds No Taxable and Cartera codeunits.
+
+Why: Learn describes EC tracking, 340/347/349 declarations, transaction numbers and income statement closing as local requirements.
+
+Objects: [codeunit/12 "Gen. Jnl.-Post Line"](../objects/codeunit/12.md), [table/254 "VAT Entry"](../objects/table/254.md), [table/325 "VAT Posting Setup"](../objects/table/325.md), [table/290 "VAT Amount Line"](../objects/table/290.md), [report/12 "VAT Statement"](../objects/report/12.md), [report/94 "Close Income Statement"](../objects/report/94.md), [table/81 "Gen. Journal Line"](../objects/table/81.md), codeunit/7000000 "CarteraManagement" (own).
+
+[All 161 objects of Finance in the diff](?ns=Finance#country-diff)
+
+### Sales
+
+Adds Cartera bill fields and CCC fields on customer ledger and bank account tables. Adds bill account fields on Customer Posting Group, and corrected invoice and EC fields on sales documents. Adds bill group pages and export codeunits for N19, N32, N58 and factoring.
+
+Why: Learn documents corrective invoices, the receivables Cartera module and EC.
+
+Objects: [table/21 "Cust. Ledger Entry"](../objects/table/21.md), [table/92 "Customer Posting Group"](../objects/table/92.md), [table/287 "Customer Bank Account"](../objects/table/287.md), [table/36 "Sales Header"](../objects/table/36.md), [codeunit/80 "Sales-Post"](../objects/codeunit/80.md), [codeunit/226 "CustEntry-Apply Posted Entries"](../objects/codeunit/226.md), codeunit/7000092 "Bill group - Export N19" (own), page/7000009 "Bill Groups" (own).
+
+[All 105 objects of Sales in the diff](?ns=Sales#country-diff)
+
+### Purchases
+
+Adds payment order pages, N34 and N34.1 export codeunits, and bill and autodocument fields on vendor ledger entries. Extends purchase documents with corrected invoice, auto-invoice and EC fields, and vendor bank accounts with CCC and electronic payment fields.
+
+Why: Learn documents the payments Cartera module, AEB N34.1 electronic payments and same external document numbers across fiscal years.
+
+Objects: [table/25 "Vendor Ledger Entry"](../objects/table/25.md), [table/288 "Vendor Bank Account"](../objects/table/288.md), [table/38 "Purchase Header"](../objects/table/38.md), [codeunit/90 "Purch.-Post"](../objects/codeunit/90.md), codeunit/7000090 "Payment order - Export N34" (own), codeunit/7000060 "PO - Export N34.1" (own), page/7000050 "Payment Orders" (own), [table/312 "Purchases & Payables Setup"](../objects/table/312.md).
+
+[All 85 objects of Purchases in the diff](?ns=Purchases#country-diff)
+
+### EServices
+
+Adds the SII framework: XML creator, job management, upload and retry codeunits, scheme code and invoice type enums, and setup and history pages. Also adds electronic payment management and creation codeunits.
+
+Why: Learn covers SII setup and invoice types, and VERI*FACTU as an SII alternative.
+
+Objects: codeunit/10750 "SII XML Creator" (own), codeunit/10756 "SII Management" (own), codeunit/10752 "SII Doc. Upload Management" (own), page/10751 "SII Setup" (own), page/10752 "SII History" (own), codeunit/10721 "Create Electronic Payments" (own), codeunit/10701 "Elect. Pmts Management" (own), enum/10700 "SII Sales Special Scheme Code" (own).
+
+[All 83 objects of EServices in the diff](?ns=EServices#country-diff)
+
+### Service
+
+Adds ES extensions on service headers, lines and posted documents, edit codeunits and update pages, and Spanish service order, invoice and credit memo reports. Service posting creates bills.
+
+Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
+
+Objects: [codeunit/5987 "Serv-Posting Journals Mgt."](../objects/codeunit/5987.md), codeunit/10763 "Service Document Subscr. ES" (own), codeunit/10789 "Service Posting Subscr. ES" (own), tableextension/10790 "Service Header ES" (own), report/10792 "Service Invoice (ES)" (own), report/10790 "Service Order (ES)" (own), codeunit/10768 "Service Invoice Header - Edit" (own), page/10768 "Posted Serv. Invoice - Update" (own).
+
+[All 30 objects of Service in the diff](?ns=Service#country-diff)
+
+### Foundation
+
+Extends Payment Terms with due date limit fields, and Company Information with CNAE and CCC fields. Adds Post Code county code, Country/Region VAT number digits and Category Code. Navigate finds Cartera documents.
+
+Why: Learn explains legal limits on payment delays and NACE code entry.
+
+Objects: [table/3 "Payment Terms"](../objects/table/3.md), [table/79 "Company Information"](../objects/table/79.md), [page/344 "Navigate"](../objects/page/344.md), [table/9 "Country/Region"](../objects/table/9.md), [table/225 "Post Code"](../objects/table/225.md), table/7000009 "Category Code" (own), [table/242 "Source Code Setup"](../objects/table/242.md), [table/265 "Document Entry"](../objects/table/265.md).
+
+[All 13 objects of Foundation in the diff](?ns=Foundation#country-diff)
+
+### Bank
+
+Bank Account gains CCC, E-Pay and bill group fields, with totals procedures. Payment Method gets Cartera fields, bank posting groups get bill accounts, and SEPA and direct debit objects get events and fields. Check report amount-in-words is changed.
+
+Why: Learn documents CCC codes and electronic payment setup.
+
+Objects: [table/270 "Bank Account"](../objects/table/270.md), [table/289 "Payment Method"](../objects/table/289.md), [table/277 "Bank Account Posting Group"](../objects/table/277.md), [table/1207 "Direct Debit Collection"](../objects/table/1207.md), [codeunit/1222 "SEPA CT-Prepare Source"](../objects/codeunit/1222.md), report/7000005 "Bank - Risk" (own), [report/1401 "Check"](../objects/report/1401.md), [xmlport/1000 "SEPA CT pain.001.001.03"](../objects/xmlport/1000.md).
+
+[All 12 objects of Bank in the diff](?ns=Bank#country-diff)
+
+### Microsoft
+
+Adds the G/L accounts equivalence tool tables, historic account tables, buffers and import/export xmlports for chart of accounts changes and consolidation.
+
+Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
+
+Objects: table/10720 "G/L Accounts Equivalence Tool" (own), table/10721 "Historic G/L Account" (own), table/10722 "New G/L Account" (own), xmlport/10720 "G/L Importing Tool" (own), xmlport/10700 "Hist. Consolid. Import/Export" (own), table/10700 "Inc. Stmt. Clos. Buffer" (own), table/10703 "Acc. Schedule Buffer" (own), enum/10727 "ES Document Situation" (own).
+
+[All 11 objects of Microsoft in the diff](?ns=Microsoft#country-diff)
+
+### (no namespace)
+
+Holds the Post Payment Order report and SII activity cue extension. Other objects are upgrade and sandbox cleanup plumbing.
+
+Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
+
+Objects: report/7000080 "Post Payment Order" (own), pageextension/7000030 "SII O365 Activities" (own).
+
+[All 7 objects of (no namespace) in the diff](?ns=(no%20namespace)#country-diff)
+
+### Inventory
+
+Adds shipment method fields on item journal and ledger entries, Intrastat fields, a cost regulation percentage on Item, and port/airport on Transport Method.
+
+Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
+
+Objects: [table/263 "Intrastat Jnl. Line"](../objects/table/263.md), [table/83 "Item Journal Line"](../objects/table/83.md), [table/27 "Item"](../objects/table/27.md), [table/32 "Item Ledger Entry"](../objects/table/32.md), [table/259 "Transport Method"](../objects/table/259.md), [table/284 "Area"](../objects/table/284.md), [table/1382 "Item Templ."](../objects/table/1382.md).
+
+[All 7 objects of Inventory in the diff](?ns=Inventory#country-diff)
+
+### Security
+
+Changes local permission sets and adds SII permission set extensions.
+
+Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
+
+Objects: permissionsetextension/1001 "SII LOCAL" (own), permissionsetextension/7000002 "SII LOCAL READ" (own), [permissionset/1001 "LOCAL"](../objects/permissionset/1001.md), [permissionset/1002 "LOCAL READ"](../objects/permissionset/1002.md), [permissionset/1083 "Bank Accounts - View"](../objects/permissionset/1083.md), [permissionset/4103 "General Ledger Journals - Edit"](../objects/permissionset/4103.md).
+
+[All 7 objects of Security in the diff](?ns=Security#country-diff)
+
+### CashFlow
+
+Suggest Worksheet Lines splits sales and purchase invoices by installments. A service extension adds an event for service lines.
+
+Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
+
+Objects: [report/840 "Suggest Worksheet Lines"](../objects/report/840.md), codeunit/7000034 "Serv. SuggestWorksheetLines ES" (own), [reportextension/6485 "Serv. Suggest Worksheet Lines"](../objects/reportextension/6485.md).
+
+[All 3 objects of CashFlow in the diff](?ns=CashFlow#country-diff)
+
+### Utilities
+
+Copy Document Mgt. adds checks and ledger entry updates for Cartera bills. Adds Localization Management and SII data classification.
+
+Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
+
+Objects: [codeunit/6620 "Copy Document Mgt."](../objects/codeunit/6620.md), codeunit/10760 "Localization Management" (own), codeunit/7000030 "SII DataClass EvalData Country" (own).
+
+[All 3 objects of Utilities in the diff](?ns=Utilities#country-diff)
+
+### HumanResources
+
+Employee gains first, middle and last name fields with an upgrade procedure from old name fields.
+
+Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
+
+Objects: [table/5200 "Employee"](../objects/table/5200.md), [table/5205 "Employee Relative"](../objects/table/5205.md).
+
+[All 2 objects of HumanResources in the diff](?ns=HumanResources#country-diff)
+
+### RoleCenters
+
+Cue tables gain Cartera document counts, and an SII activities cue is added.
+
+Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
+
+Objects: [table/9060 "SB Owner Cue"](../objects/table/9060.md), tableextension/7000043 "SII Activities Cue" (own).
+
+[All 2 objects of RoleCenters in the diff](?ns=RoleCenters#country-diff)
+
+### AccountantPortal
+
+Adds SII cues to the accountant portal activities.
+
+Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
+
+Objects: pageextension/7000041 "SII AccountantPortal Act. Cues" (own).
+
+[All 1 objects of AccountantPortal in the diff](?ns=AccountantPortal#country-diff)
+
+### Integration
+
+CRM Synch. Helper is changed for Spain.
+
+Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
+
+Objects: [codeunit/5342 "CRM Synch. Helper"](../objects/codeunit/5342.md).
+
+[All 1 objects of Integration in the diff](?ns=Integration#country-diff)
+
+### Projects
+
+Job Ledger Entry gets a Shipment Method Code field.
+
+Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
+
+Objects: [table/169 "Job Ledger Entry"](../objects/table/169.md).
+
+[All 1 objects of Projects in the diff](?ns=Projects#country-diff)
 
 ## W1 objects this country changes
 
@@ -301,7 +526,7 @@ BC29 · country layer against W1 · Learn: [local functionality](../topics/busin
 | [table/181 "Posted Gen. Journal Line"](../objects/table/181.md) | +22 fields |
 | [table/220 "Business Unit"](../objects/table/220.md) | +1 fields, 1 fields changed |
 | [table/225 "Post Code"](../objects/table/225.md) | +1 fields, +2 procedures |
-| [table/242 "Source Code Setup"](../objects/table/242.md) | +81 fields, 5 properties |
+| [table/242 "Source Code Setup"](../objects/table/242.md) | +1 fields |
 | [table/251 "Gen. Product Posting Group"](../objects/table/251.md) | +1 fields |
 | [table/252 "General Posting Setup"](../objects/table/252.md) | +2 fields |
 | [table/254 "VAT Entry"](../objects/table/254.md) | +6 fields, +2 events, +11 procedures |
@@ -744,6 +969,6 @@ Country-only objects have no object page yet (their ids repeat across countries)
 
 ## Other versions
 
-- BC30: 530 objects differ from W1 (394 fields, 63 events added)
+- BC30: 530 objects differ from W1 (314 fields, 63 events added)
 
 Source: country layer of the Base Application compared with W1 of the same version (data/code/diffs/country/).

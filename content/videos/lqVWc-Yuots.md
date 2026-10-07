@@ -23,7 +23,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:07:57.739Z"
+  at: "2026-10-07T00:17:53.935Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -96,7 +96,8 @@ evidence:
 links:
   learn: []
   objects: []
-  features: []
+  features:
+    - feature/573379
   topics: []
   localizations: []
   videos: []
@@ -171,15 +172,19 @@ features:
     verified: false
     status_source: video
   - name: Carbon tracking method field
-    status: preview
+    status: ga
     t: 358
     verified: true
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573379"
   - name: Specific carbon costing method
-    status: preview
+    status: ga
     t: 395
     verified: true
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573379"
 objects_mentioned:
   - table Sustainability value entry
   - table Sustainability purchase line
@@ -254,8 +259,10 @@ It then covers product classification on the item card with UNSPSC support, and 
 | ESG sales invoice layouts | status not stated, demoed | [3:13](https://www.youtube.com/watch?v=lqVWc-Yuots&t=193s) |  |
 | ESG sales quote layouts | status not stated, demoed | [3:43](https://www.youtube.com/watch?v=lqVWc-Yuots&t=223s) |  |
 | Product classification item card field | status not stated, demoed | [4:16](https://www.youtube.com/watch?v=lqVWc-Yuots&t=256s) |  |
-| Carbon tracking method field | preview, demoed | [5:58](https://www.youtube.com/watch?v=lqVWc-Yuots&t=358s) | "You have new field carbon tracking method and this is currently in a public preview." ([6:35](https://www.youtube.com/watch?v=lqVWc-Yuots&t=395s)) |
-| Specific carbon costing method | preview | [6:35](https://www.youtube.com/watch?v=lqVWc-Yuots&t=395s) | "And this is currently in a public preview." ([6:35](https://www.youtube.com/watch?v=lqVWc-Yuots&t=395s)) |
+| Carbon tracking method field | generally available (roadmap [573379](../features/573379.md)), demoed | [5:58](https://www.youtube.com/watch?v=lqVWc-Yuots&t=358s) | "You have new field carbon tracking method and this is currently in a public preview." ([6:35](https://www.youtube.com/watch?v=lqVWc-Yuots&t=395s)) |
+| Specific carbon costing method | generally available (roadmap [573379](../features/573379.md)) | [6:35](https://www.youtube.com/watch?v=lqVWc-Yuots&t=395s) | "And this is currently in a public preview." ([6:35](https://www.youtube.com/watch?v=lqVWc-Yuots&t=395s)) |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## AL objects mentioned
 

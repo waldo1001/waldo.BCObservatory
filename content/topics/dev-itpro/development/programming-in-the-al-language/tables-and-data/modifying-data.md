@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 1242a3f477119c1dd5c8b2c5e078f53fa12519072c5f7804aaef3189aae77595
@@ -97,7 +97,8 @@ links:
     - topic/dev-itpro/development/programming-in-the-al-language/tables-and-data
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-68-always-use-field-validation/
   guidelines: []
 learn_toc_path:
   - Development
@@ -111,7 +112,7 @@ coverage:
   learn: 9
   code: 0
   video: 0
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms: []
 member_hash: 1242a3f477119c1dd5c8b2c5e078f53fa12519072c5f7804aaef3189aae77595
@@ -135,5 +136,11 @@ Path: [Development](../../../development.md) > [Programming in the AL language](
 - [Temporary tables](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-temporary-tables): Learn about temporary tables in AL for Business Central.
 - [Virtual tables](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-virtual-tables): Virtual tables are system tables in AL for Dynamics 365 Business Central
 - [Working With Media on Records](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-working-with-media-on-records): Learn how to upload media, such as an image, to the database for displaying with records in the client.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [BC Friday Tips #68 Always Use Field Validation](../../../../../posts/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-68-always-use-field-validation/.md) (community post): "Field validation in Business Central extensions ensures all business logic runs"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

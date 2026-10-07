@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 00d01e1db0b910bca36738bcc68ae6856c56a7724cae6f123a581ef8becd641f
@@ -96,7 +96,9 @@ links:
   topics:
     - topic/business-central/business-functionality/finance/manage-payables
   localizations: []
-  videos: []
+  videos:
+    - video/fpc_XlVEnWw
+    - video/z4Ri5SAqUcc
   posts: []
   guidelines: []
 learn_toc_path:
@@ -110,7 +112,7 @@ children: []
 coverage:
   learn: 9
   code: 0
-  video: 0
+  video: 2
   blog: 0
   guideline: 0
 bc_forms:
@@ -197,6 +199,13 @@ Path: [Business functionality](../../../business-functionality.md) > [Finance](.
 - [Settle purchase invoices promptly](https://learn.microsoft.com/dynamics365/business-central/finance-how-to-settle-purchase-invoices-promptly): If you need to pay the vendor by cash or check, you can have the necessary posting done when you post the invoice.
 - [Suggest vendor payments](https://learn.microsoft.com/dynamics365/business-central/payables-how-suggest-vendor-payments): Use the Suggest Vendor Payments batch job to create payment lines for your vendors based on due dates and payment discounts.
 - [Working with general journals to post directly to G/L](https://learn.microsoft.com/dynamics365/business-central/ui-work-general-journals): Learn about using journals to post financial transactions to general ledger accounts and other accounts, such as bank and vendor accounts.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Comparing the Pay Vendor Process in Dynamics SL with Dynamics 365 Business Central](../../../../../videos/fpc_XlVEnWw.md) (video): "Payment journals; Suggest vendor payments wizard; Vendor priority functionality"
+- [Comparing the Pay Vendor Process in Dynamics GP with Dynamics 365 Business Central (2024)](../../../../../videos/z4Ri5SAqUcc.md) (video): "Payment Journals; Suggest Vendor Payments; Vendor Priority"
 
 ## Business Central pages and reports
 

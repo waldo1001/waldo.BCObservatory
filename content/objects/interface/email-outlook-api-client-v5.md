@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:21:46.353Z"
+  at: "2026-10-06T23:56:28.878Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 8c7fa4088810aacd8fa5429882e1d5c18cb966c5d23adf19b86474e62c6604e1
+  input_hash: 0724a3f2e852ec19a6a74d0460864f0b6adda6532f1b5df2bc5d94aafffaa59e
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/Email%20-%20Outlook%20REST%20API/app/src/EmailOutlookAPIClientv5.Interface.al
@@ -60,6 +60,12 @@ counts:
   procedures: 9
   events: 0
   subscribers: 0
+relations:
+  out: 0
+  referenced_by: 0
+  pages: 0
+  extended_by: 0
+  event_subscribers: 0
 ---
 
 # Interface "Email - Outlook API Client v5"

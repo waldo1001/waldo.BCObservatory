@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:21:46.353Z"
+  at: "2026-10-06T23:56:28.878Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 5624e4af2facbc706c907261fa5ab27691edc80dbc83a22323f42eebb2e9031a
+  input_hash: 3047f88166898b887467d4ca2175f43e7ea9a446011c20e1a2a421d07b97b243
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/SalesOrderAgent/app/src/Profile/PageCustomizations/SOAMultiItemAvail.PageCust.al
@@ -60,6 +60,12 @@ counts:
   procedures: 0
   events: 0
   subscribers: 0
+relations:
+  out: 0
+  referenced_by: 0
+  pages: 0
+  extended_by: 0
+  event_subscribers: 0
 ---
 
 # Page customization "SOA Multi Item Avail."

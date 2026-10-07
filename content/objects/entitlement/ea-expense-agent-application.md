@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:21:46.353Z"
+  at: "2026-10-06T23:56:28.878Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: f6c1323755a860283cf4d1a1c5fa7d11eda187efaae5058a76604192ace7001c
+  input_hash: db90d935f70c7600a738e63e86472d780a4f7c7b4b62cc81003bf9979d411f1e
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/ExpenseAgent/app/src/Entitlements/Applications/EAExpenseAgentApplication.Entitlement.al
@@ -60,6 +60,12 @@ counts:
   procedures: 0
   events: 0
   subscribers: 0
+relations:
+  out: 0
+  referenced_by: 0
+  pages: 0
+  extended_by: 0
+  event_subscribers: 0
 ---
 
 # Entitlement "EA - Expense Agent Application"

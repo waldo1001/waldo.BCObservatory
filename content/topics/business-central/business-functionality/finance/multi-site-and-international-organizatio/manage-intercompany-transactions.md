@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: bf2985284a52e12cb720a52fcb8f736e130fc89130280e0e927c4140fdc86527
@@ -64,7 +64,8 @@ links:
   topics:
     - topic/business-central/business-functionality/finance/multi-site-and-international-organizatio
   localizations: []
-  videos: []
+  videos:
+    - video/QGG0dW6HqSg
   posts: []
   guidelines: []
 learn_toc_path:
@@ -78,7 +79,7 @@ children: []
 coverage:
   learn: 5
   code: 0
-  video: 0
+  video: 1
   blog: 0
   guideline: 0
 bc_forms:
@@ -139,6 +140,12 @@ Path: [Business functionality](../../../business-functionality.md) > [Finance](.
 - [Manage the Intercompany Inbox and Outbox](https://learn.microsoft.com/dynamics365/business-central/intercompany-how-manage-intercompany-inbox): Intercompany transactions you receive from your partners are listed in the intercompany inbox, where you process them manually or automatically.
 - [Post intercompany documents and journals](https://learn.microsoft.com/dynamics365/business-central/intercompany-how-work-documents-journals): This article explains how you use intercompany documents or journals to post transactions with your intercompany partners.
 - [Set up intercompany transaction posting](https://learn.microsoft.com/dynamics365/business-central/intercompany-how-setup): Learn how to set up an intercompany partnership.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [What's New: Cross Environment Intercompany Posting and Approval for IC General Journals (2023)](../../../../../videos/QGG0dW6HqSg.md) (video): "intercompany posting; cross environment; ic general journals; chart of accounts mapping"
 
 ## Business Central pages and reports
 

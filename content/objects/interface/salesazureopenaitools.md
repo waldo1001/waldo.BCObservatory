@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:21:46.353Z"
+  at: "2026-10-06T23:56:28.878Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: d7faf0f8c1fc0426918ed738c34fe10017dae974f4076407d7825d1fe04915ea
+  input_hash: 04686908bfcf14335d85ae534533d8b5f5527686487a9469d97622000048e98c
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/SalesLinesSuggestions/app/SalesAzureOpenAITools/SalesAzureOpenAITools.Interface.al
@@ -60,6 +60,12 @@ counts:
   procedures: 2
   events: 0
   subscribers: 0
+relations:
+  out: 0
+  referenced_by: 0
+  pages: 0
+  extended_by: 0
+  event_subscribers: 0
 ---
 
 # Interface "SalesAzureOpenAITools"

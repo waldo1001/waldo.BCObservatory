@@ -2,7 +2,7 @@
 id: localization/au
 type: localization
 title: Australia (AU)
-summary: "Australia (AU) localization of Business Central in BC29: 169 objects of its own, 121 W1 objects changed (548 fields and 22 events added). From the code; country apps outside the Base Application are not included yet."
+summary: Australia (AU) localization of Business Central 29. It covers GST posting and settlement, Business Activity Statement (BAS), withholding tax (WHT), ABN handling, adjustment notes, tax invoices, EFT payments, post-dated checks and Australian address validation. Use it to find which fields, tables, reports and posting changes AU adds to W1.
 tier: official
 language: en
 tags:
@@ -14,10 +14,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:28:57.107Z"
+  at: "2026-10-06T23:56:28.878Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 2208e9beaf17254461ad2c18f8e35a96f02a0bcb88ec167fbec0756eb796a233
+  prompts:
+    hub-localization: 2
+  input_hash: 454b9b2b9e0d9cf8941540e30256e5b60100e677ae159438041d3846a46318c2
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps
@@ -163,16 +164,229 @@ w1_version: "29"
 added_objects: 169
 replaced_objects: 121
 removed_objects: 0
-added_fields: 548
+added_fields: 468
 added_events: 22
 learn_folder: LocalFunctionality/Australia
 ---
 
 # Australia (AU)
 
-> Australia (AU) localization of Business Central in BC29: 169 objects of its own, 121 W1 objects changed (548 fields and 22 events added). From the code; country apps outside the Base Application are not included yet.
+> Australia (AU) localization of Business Central 29. It covers GST posting and settlement, Business Activity Statement (BAS), withholding tax (WHT), ABN handling, adjustment notes, tax invoices, EFT payments, post-dated checks and Australian address validation. Use it to find which fields, tables, reports and posting changes AU adds to W1.
 
-BC29 · country layer against W1 · Learn: [local functionality](../topics/business-central/business-functionality/local-functionality/australia.md)
+BC29 · country layer against W1 · Learn: [local functionality](../topics/business-central/business-functionality/local-functionality/australia.md) · narrative **unreviewed** (machine-written)
+
+## Overview
+
+The Australia layer adds 169 own objects and changes many W1 objects, with 468 fields, 22 events and 218 procedures added. The main capabilities are GST (including full GST on prepayments and settlement exchange rates), BAS setup, calculation and export, withholding tax with WHT entries, certificates and settlement, ABN on company, customer, vendor and contact records, and adjustment notes on documents and ledger entries.
+
+The code supports these through new fields on posting and document tables (Gen. Journal Line, VAT Entry, sales and purchase headers and lines, ledger entries), AU procedures in the posting codeunits (Gen. Jnl.-Post Line, Sales-Post, Purch.-Post, the prepayment codeunits), and own objects such as ABN Management, BAS Management, WHTManagement, EFT Management, TaxInvoiceManagement and PostDatedCheckMgt. Many reports are added: tax invoices and credit memos, GST settlement, WHT certificates, deposit slips, bank reconciliation, aged balances with back-dating and financial statements.
+
+Microsoft Learn documents these in pages on the Australian tax overview, Withholding Tax, ABN entry, adjustment notes, GST on prepayments, BAS business units, EFT, addresses, Payment Times Reporting and electronic invoicing with Peppol PINT A-NZ. Some added objects (for example the Thai WHT reports and the e-filing reports) are not covered by the Learn pages in the input.
+
+## Key points
+
+- GST: Enable GST (Australia) and Full GST on Prepayment on General Ledger Setup, GST fields on VAT Entry and sales/purchase lines, GST sales and purchase entry pages, and Calculate GST Settlement report.
+- BAS: BAS Setup, calculation sheets, business units for group lodging, BAS Export codeunit and BAS fields on G/L Entry, VAT Entry and VAT Report Header.
+- Withholding tax: WHT business and product posting groups, revenue types, posting setup, WHT Entry, WHT certificates and Calc. and Post WHT Settlement report.
+- ABN: ABN and ABN Division Part No. fields on company, customer, vendor, contact and templates, with ABN Management validation and vendor lookup by ABN on incoming documents.
+- Adjustment notes: Adjustment, BAS Adjustment and Adjustment Applies-to fields on documents, journal lines and ledger entries.
+- Tax invoices and credit memos: separate posted tax document pages, number series, and printed-document codeunits and reports for sales and purchases.
+- EFT and checks: EFT Register, Create EFT File, Transfer EFT Register, plus post-dated checks, check installments and PDC acknowledgement receipt.
+- Pricing: cost-plus percentage fields on price list lines, sales prices and worksheet lines, updated through ItemCostManagement.
+
+Narrative written by Sonnet from the code diff and 29 Learn page summaries. In numbers: Australia (AU) localization of Business Central in BC29: 169 objects of its own, 121 W1 objects changed (468 fields and 22 events added). From the code; country apps outside the Base Application are not included yet.
+
+## By area
+
+| Area | W1 objects changed | Own objects | Fields added |
+|---|---|---|---|
+| [Finance](#finance) | 39 | 135 | 171 |
+| [Purchases](#purchases) | 26 | 4 | 137 |
+| [Sales](#sales) | 26 | 1 | 123 |
+| [Foundation](#foundation) | 10 | 9 | 10 |
+| [Bank](#bank) | 5 | 10 | 9 |
+| [Inventory](#inventory) | 6 | 2 | 4 |
+| [Text](#text) | 0 | 3 | 0 |
+| [(no namespace)](#no-namespace) | 0 | 2 | 0 |
+| [Pricing](#pricing) | 2 | 0 | 8 |
+| [Security](#security) | 2 | 0 | 0 |
+| [Service](#service) | 0 | 2 | 0 |
+| [CRM](#crm) | 1 | 0 | 4 |
+| [FixedAssets](#fixedassets) | 1 | 0 | 1 |
+| [Integration](#integration) | 1 | 0 | 0 |
+| [IO](#io) | 1 | 0 | 0 |
+| [Projects](#projects) | 1 | 0 | 1 |
+| [Utilities](#utilities) | 0 | 1 | 0 |
+
+### Finance
+
+Adds BAS, GST and WHT functionality to posting and reporting. This includes BAS setup and calculation pages, WHT entries and setup pages, GST entry pages, tax invoice management, and many fields on Gen. Journal Line, VAT Entry, G/L Entry and General Ledger Setup. Gen. Jnl.-Post Line and related codeunits get WHT, GST and reversal procedures.
+
+Why: Learn describes GST and BAS reporting to the ATO, and WHT on payments to vendors without an ABN, as local requirements.
+
+Objects: [codeunit/12 "Gen. Jnl.-Post Line"](../objects/codeunit/12.md), [table/81 "Gen. Journal Line"](../objects/table/81.md), [table/98 "General Ledger Setup"](../objects/table/98.md), [table/254 "VAT Entry"](../objects/table/254.md), codeunit/11601 "BAS Management" (own), codeunit/28040 "WHTManagement" (own), page/11600 "BAS Setup" (own), report/11603 "Calculate GST Settlement" (own).
+
+[All 174 objects of Finance in the diff](?ns=Finance#country-diff)
+
+### Purchases
+
+Adds ABN, WHT, adjustment note and ACY GST amount fields to purchase documents, posted documents, Vendor and Vendor Ledger Entry. Purch.-Post and the prepayment codeunits get WHT and full GST procedures. Setup holds tax invoice number series and post-dated check settings.
+
+Why: Learn covers ABN registration, adjustment notes for GST and WHT on vendor payments.
+
+Objects: [table/38 "Purchase Header"](../objects/table/38.md), [table/39 "Purchase Line"](../objects/table/39.md), [codeunit/90 "Purch.-Post"](../objects/codeunit/90.md), [codeunit/444 "Purchase-Post Prepayments"](../objects/codeunit/444.md), [table/23 "Vendor"](../objects/table/23.md), [table/312 "Purchases & Payables Setup"](../objects/table/312.md), [table/25 "Vendor Ledger Entry"](../objects/table/25.md), [codeunit/816 "Purch. Post Invoice"](../objects/codeunit/816.md).
+
+[All 30 objects of Purchases in the diff](?ns=Purchases#country-diff)
+
+### Sales
+
+Adds adjustment note, WHT, sales tax exemption and tax document fields to sales documents, posted documents, Customer and Cust. Ledger Entry. Sales-Post and Sales-Post Prepayments handle WHT and full GST. AU/NZ Statement report is added.
+
+Why: Learn documents GST on prepayments and tax invoice and credit memo handling.
+
+Objects: [table/36 "Sales Header"](../objects/table/36.md), [table/37 "Sales Line"](../objects/table/37.md), [codeunit/80 "Sales-Post"](../objects/codeunit/80.md), [codeunit/442 "Sales-Post Prepayments"](../objects/codeunit/442.md), [table/18 "Customer"](../objects/table/18.md), [table/311 "Sales & Receivables Setup"](../objects/table/311.md), [table/21 "Cust. Ledger Entry"](../objects/table/21.md), report/17110 "AU/NZ Statement" (own).
+
+[All 27 objects of Sales in the diff](?ns=Sales#country-diff)
+
+### Foundation
+
+Adds ABN, tax period, WHT registration and RDO fields to Company Information, plus Australian address validation (county, address buffer and ID tables, post code check) and barcode printing support in Format Address. Country/Region gains address validation and AMAS fields.
+
+Why: Learn explains that postal codes can cover several cities and same-named cities exist in different states, so city and state dropdowns improve address accuracy.
+
+Objects: [table/79 "Company Information"](../objects/table/79.md), [codeunit/365 "Format Address"](../objects/codeunit/365.md), [table/9 "Country/Region"](../objects/table/9.md), table/28004 "County" (own), page/28003 "Counties" (own), table/28002 "Address Buffer" (own), [codeunit/358 "DateFilter-Calc"](../objects/codeunit/358.md), [table/242 "Source Code Setup"](../objects/table/242.md).
+
+[All 19 objects of Foundation in the diff](?ns=Foundation#country-diff)
+
+### Bank
+
+Adds EFT payments (EFT Management, EFT Register table and page, Create EFT File and Transfer EFT Register reports) and EFT fields on Bank Account. Also adds bank reconciliation, deposit slip, cashflow compare and back-dated aged balance reports.
+
+Why: Learn describes EFT as the way to pay vendors with bank file export.
+
+Objects: codeunit/11603 "EFT Management" (own), table/11609 "EFT Register" (own), report/11608 "Create EFT File" (own), report/11607 "Transfer EFT Register" (own), [table/270 "Bank Account"](../objects/table/270.md), report/28021 "Bank Account Reconciliation" (own), report/28023 "Deposit Slip" (own), report/28020 "Bank Detail Cashflow Compare" (own).
+
+[All 15 objects of Bank in the diff](?ns=Bank#country-diff)
+
+### Inventory
+
+Adds the WHT Product Posting Group to Item, Item Template and Item Charge, a vendor exchange rate (ACY) field on Item Journal Line, and cost-plus price updates in ItemCostManagement. Stock Card and Stock Movement reports are added.
+
+Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
+
+Objects: [codeunit/5804 "ItemCostManagement"](../objects/codeunit/5804.md), [table/27 "Item"](../objects/table/27.md), [table/5800 "Item Charge"](../objects/table/5800.md), [table/1382 "Item Templ."](../objects/table/1382.md), [table/83 "Item Journal Line"](../objects/table/83.md), report/14311 "Stock Card" (own), report/28022 "Stock Movement" (own).
+
+[All 8 objects of Inventory in the diff](?ns=Inventory#country-diff)
+
+### Text
+
+Adds barcode management with a barcode checking report and a barcode batch job, which support barcode printing on addresses.
+
+Why: Learn lists barcode printing and delivery point identifier among the address features.
+
+Objects: codeunit/28001 "BarCode Management" (own), report/28000 "BarCode Checking" (own), report/28001 "BarCode Batch Job" (own).
+
+[All 3 objects of Text in the diff](?ns=Text#country-diff)
+
+### (no namespace)
+
+Adds the BAS Export codeunit and a source code table extension for the APAC layer.
+
+Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
+
+Objects: codeunit/11604 "BAS Export" (own), tableextension/28160 "SourcecodeAPAC" (own).
+
+[All 2 objects of (no namespace) in the diff](?ns=(no%20namespace)#country-diff)
+
+### Pricing
+
+Adds Published Price, Cost, Cost-plus % and Discount Amount fields to Price List Line and Price Worksheet Line, with procedures to update unit price by cost-plus percentage.
+
+Why: Learn has a page on determining sales price by cost plus percentage.
+
+Objects: [table/7001 "Price List Line"](../objects/table/7001.md), [table/7022 "Price Worksheet Line"](../objects/table/7022.md).
+
+[All 2 objects of Pricing in the diff](?ns=Pricing#country-diff)
+
+### Security
+
+Changes the LOCAL and LOCAL READ permission sets to cover the Australian objects.
+
+Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
+
+Objects: [permissionset/1001 "LOCAL"](../objects/permissionset/1001.md), [permissionset/1002 "LOCAL READ"](../objects/permissionset/1002.md).
+
+[All 2 objects of Security in the diff](?ns=Security#country-diff)
+
+### Service
+
+Adds an APAC service document management codeunit and a Service Manager role center page extension.
+
+Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
+
+Objects: codeunit/11612 "Serv. Document Mgt. APAC" (own), pageextension/28041 "Serv.ServiceMgrRoleCenter APAC" (own).
+
+[All 2 objects of Service in the diff](?ns=Service#country-diff)
+
+### CRM
+
+Adds ABN, Registered, ABN Division Part No. and IRD No. fields to Contact.
+
+Why: Learn describes ABN entry and validation on business records.
+
+Objects: [table/5050 "Contact"](../objects/table/5050.md).
+
+[All 1 objects of CRM in the diff](?ns=CRM#country-diff)
+
+### FixedAssets
+
+Adds the WHT Product Posting Group field to Fixed Asset.
+
+Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
+
+Objects: [table/5600 "Fixed Asset"](../objects/table/5600.md).
+
+[All 1 objects of FixedAssets in the diff](?ns=FixedAssets#country-diff)
+
+### Integration
+
+Adds a helper procedure to the Data Migration Facade Helper that creates a county when needed.
+
+Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
+
+Objects: [codeunit/1797 "Data Migration Facade Helper"](../objects/codeunit/1797.md).
+
+[All 1 objects of Integration in the diff](?ns=Integration#country-diff)
+
+### IO
+
+Pre-map Incoming Purch. Doc gets a procedure to find a vendor by ABN and an event after the incoming document header data is set.
+
+Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
+
+Objects: [codeunit/1217 "Pre-map Incoming Purch. Doc"](../objects/codeunit/1217.md).
+
+[All 1 objects of IO in the diff](?ns=IO#country-diff)
+
+### Projects
+
+Adds the WHT Product Posting Group field to Resource.
+
+Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
+
+Objects: [table/156 "Resource"](../objects/table/156.md).
+
+[All 1 objects of Projects in the diff](?ns=Projects#country-diff)
+
+### Utilities
+
+Adds the CodeUnit Selection page.
+
+Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
+
+Objects: page/28001 "CodeUnit Selection" (own).
+
+[All 1 objects of Utilities in the diff](?ns=Utilities#country-diff)
 
 ## W1 objects this country changes
 
@@ -268,7 +482,7 @@ BC29 · country layer against W1 · Learn: [local functionality](../topics/busin
 | [table/181 "Posted Gen. Journal Line"](../objects/table/181.md) | +38 fields |
 | [table/187 "VAT Posting Parameters"](../objects/table/187.md) | +1 fields |
 | [table/225 "Post Code"](../objects/table/225.md) | 1 fields changed |
-| [table/242 "Source Code Setup"](../objects/table/242.md) | +81 fields, 5 properties |
+| [table/242 "Source Code Setup"](../objects/table/242.md) | +1 fields |
 | [table/254 "VAT Entry"](../objects/table/254.md) | +15 fields, +2 procedures |
 | [table/256 "VAT Statement Line"](../objects/table/256.md) | +1 fields |
 | [table/270 "Bank Account"](../objects/table/270.md) | +5 fields, 2 fields changed |
@@ -476,6 +690,6 @@ Country-only objects have no object page yet (their ids repeat across countries)
 
 ## Other versions
 
-- BC30: 290 objects differ from W1 (548 fields, 22 events added)
+- BC30: 290 objects differ from W1 (468 fields, 22 events added)
 
 Source: country layer of the Base Application compared with W1 of the same version (data/code/diffs/country/).

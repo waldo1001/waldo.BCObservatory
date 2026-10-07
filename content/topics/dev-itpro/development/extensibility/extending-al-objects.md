@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 9ebfd0c8a95564cad3895173960c88fe73af3e7b6e4de945b95a59be2bfcd58c
@@ -81,7 +81,8 @@ links:
     - topic/dev-itpro/development/extensibility
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/gerardorenteria-blog/15051
   guidelines: []
 learn_toc_path:
   - Development
@@ -94,7 +95,7 @@ coverage:
   learn: 7
   code: 0
   video: 0
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms: []
 member_hash: 9ebfd0c8a95564cad3895173960c88fe73af3e7b6e4de945b95a59be2bfcd58c
@@ -116,5 +117,11 @@ Path: [Development](../../development.md) > [Extensibility](../extensibility.md)
 - [Permission Set Extension Object](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-permissionset-ext-object): Description of the permission set extension object in AL for Business Central.
 - [Report extension object](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-report-ext-object): The report extension object in AL for Business Central allows you to create an extension of an existing report.
 - [Table extension object](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-ext-object): This article describes the table extension object in AL for Business Central.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [🔎 Change Log Blame View: View change history in a different way](../../../../posts/gerardorenteria-blog/15051.md) (community post): "Reusable pattern via page extensions allows adding a Change Log action"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

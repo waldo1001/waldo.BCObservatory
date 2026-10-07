@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 2f3b3934ac033023f927292453c1e85b5a805202dba3ad71eb731b2a269851ea
@@ -80,8 +80,13 @@ links:
   topics:
     - topic/dev-itpro/development/troubleshooting
   localizations: []
-  videos: []
-  posts: []
+  videos:
+    - video/rdnYN7czJs4
+    - video/UFLo2XGGS14
+  posts:
+    - post/duiliotacconi-com/2074
+    - post/waldo-be/318461
+    - post/waldo-be/318604
   guidelines: []
 learn_toc_path:
   - Development
@@ -93,8 +98,8 @@ children: []
 coverage:
   learn: 7
   code: 0
-  video: 0
-  blog: 0
+  video: 2
+  blog: 3
   guideline: 0
 bc_forms: []
 member_hash: 2f3b3934ac033023f927292453c1e85b5a805202dba3ad71eb731b2a269851ea
@@ -116,5 +121,15 @@ Path: [Development](../../development.md) > [Troubleshooting](../troubleshooting
 - [How to work with a performance problem](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/performance/performance-work-perf-problem): Troubleshooting process that can help to guide you to find the root cause slow performance.
 - [Monitoring and Analyzing Telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-overview): Learn how Business Central provides telemetry for each environment, both for online and on-premises environments.
 - [Turn sending telemetry to application insights on or off](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-enable-application-insights): Learn how you can get richer telemetry by connecting your Business Central with Application Insights for telemetry.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Use sqlServerSessionId to spot on blocking sessions in Dynamics 365 Business Central 2026 Wave 1](../../../../posts/duiliotacconi-com/2074.md) (community post): "sqlServerSessionId to Long Running Queries telemetry signals, enabling identification"
+- [BC Telemetry Buddy – When Your 12-Year-Old Accidentally Helps You Find a Problem](../../../../posts/waldo-be/318461.md) (community post): "ask natural language questions about Business Central telemetry data instead of writing complex KQL queries"
+- [OptimAL – performance still matters](../../../../posts/waldo-be/318604.md) (community post): "telemetry analysis, and hands-on code optimization"
+- [What's New in AL-Go for GitHub: Telemetry and Dashboards (2025 release wave 2)](../../../../videos/rdnYN7czJs4.md) (video): "Starter Dashboard for AL-Go Telemetry; AL-Go Maintenance Page"
+- [What's new: Agentic Developer Loop (2026 release wave 2)](../../../../videos/UFLo2XGGS14.md) (video): "Telemetry-driven agent investigation"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

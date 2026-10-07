@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 3e24d310bec806f54df5e21b2fc846769d8a24f8f718551344701ccf8111fec0
@@ -49,7 +49,9 @@ links:
     - topic/dev-itpro/development/development-environment
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-5842643051210707156
+    - post/thinkaboutit-be/8111
   guidelines: []
 learn_toc_path:
   - Development
@@ -62,7 +64,7 @@ coverage:
   learn: 3
   code: 0
   video: 0
-  blog: 0
+  blog: 2
   guideline: 0
 bc_forms: []
 member_hash: 3e24d310bec806f54df5e21b2fc846769d8a24f8f718551344701ccf8111fec0
@@ -80,5 +82,12 @@ Path: [Development](../../development.md) > [Development environment](../develop
 - [Running a container-based development environment](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-running-container-development): Overview of how to run a container-based development.
 - [Sandbox environments for Dynamics 365 Business Central development](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-sandbox-overview): Overview of the differences between the offered sandbox environments for Dynamics 365 Business Central.
 - [Working with sandboxes and entitlements](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-work-sandbox-entitlements): Learn about development sandboxes and entitlements.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Public Preview for Business Central 29.0 (2026 Release Wave 2) Is Here](../../../../posts/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-5842643051210707156.md) (community post): "Preview environments let you test extensions, integrations, and customizations against version 29.0"
+- [Quick Tip: You Can Now Create a Business Central 29.0 (Preview) Sandbox](../../../../posts/thinkaboutit-be/8111.md) (community post): "Preview sandboxes are automatically deleted 30 days after general availability"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

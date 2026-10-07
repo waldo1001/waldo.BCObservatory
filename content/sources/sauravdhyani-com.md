@@ -2,7 +2,7 @@
 id: source/sauravdhyani-com
 type: source
 title: Saurav Dhyani
-summary: "Saurav Dhyani (MVP): 1 posts in the knowledge base, 2026-10-06 to 2026-10-06, mostly about development, administration."
+summary: "Saurav Dhyani (MVP): 22 posts in the knowledge base, 2026-04-01 to 2026-10-06, mostly about development, platform, administration."
 tier: community
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:17:53.406Z"
+  at: "2026-10-06T23:39:50.809Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 41e0af6dad8ba20c02e4bc91d6179d280c1919d7e301257b34a972d447177254
+  input_hash: acc8d865ab6633d1a0bf3397ba16a743d6e1a6232ee6e5c2b1b96e957b0235c4
 evidence:
   - kind: blog
     url: https://www.sauravdhyani.com
@@ -33,6 +33,27 @@ links:
   localizations: []
   videos: []
   posts:
+    - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-7756402263170151476--0af9b880b1
+    - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-4218333995173748236--f38f8fc25c
+    - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-2182793503205531345--62a5e86030
+    - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-6476700913383925526--f5fa15da26
+    - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-818643009386692123--56430d970b
+    - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-1332073184894863010--e1a9909be5
+    - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-5740395756527498087--f6c529e55c
+    - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-2394393585068521549--ec106bbef3
+    - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-3905080819923012785--801fc3ed97
+    - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-4662412510469862425--2edabbcaf9
+    - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-2583765754742144129--9ec9e7f41f
+    - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-1716125815035715885--34eb3d4362
+    - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-2130488198731903549--32e1eebb8b
+    - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-4656464818096012006--003bfcdd4e
+    - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-4052415603111434126--e2c225526c
+    - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-426088323488837430--eb8c04886f
+    - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-9211406592049654259--a1caabf98a
+    - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-5876765753602227342--dc85fd75c1
+    - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-8721347757329141815--e497e421dc
+    - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-2146591606221133853--27de9e092a
+    - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-7010066564245788546--9c8ee5a738
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-9167085598395012736--e9edbb4eee
   guidelines: []
 source_id: sauravdhyani-com
@@ -41,35 +62,75 @@ url: https://www.sauravdhyani.com
 author: Saurav Dhyani
 mvp: true
 full_text: false
-item_count: 1
+item_count: 22
 footprint:
   systems:
     - id: development
-      weight: 2
+      weight: 19
+    - id: platform
+      weight: 13
     - id: administration
-      weight: 1
+      weight: 12
+    - id: finance
+      weight: 10
+    - id: integration
+      weight: 6
+    - id: copilot
+      weight: 4
   topics:
     - id: al development
-      weight: 1
-    - id: code patterns
-      weight: 1
-    - id: localization
-      weight: 1
-    - id: page properties
-      weight: 1
-    - id: tooltips
-      weight: 1
+      weight: 9
+    - id: automation
+      weight: 3
+    - id: business central 2026
+      weight: 3
+    - id: bc28
+      weight: 2
+    - id: configuration
+      weight: 2
+    - id: date formulas
+      weight: 2
+    - id: extensions
+      weight: 2
+    - id: general ledger
+      weight: 2
+    - id: github copilot
+      weight: 2
+    - id: performance
+      weight: 2
   objects:
-    - id: page MyPage
+    - id: table General Journal Templates
+      weight: 2
+    - id: table General Ledger Setup
+      weight: 2
+    - id: table User Setup
+      weight: 2
+    - id: interface INotification
+      weight: 1
+    - id: other File.Download
+      weight: 1
+    - id: other File.View
+      weight: 1
+    - id: other File.ViewFromStream
+      weight: 1
+    - id: other General Setup
+      weight: 1
+    - id: other ModuleInfo
+      weight: 1
+    - id: other NavApp
+      weight: 1
+    - id: page Location Card
+      weight: 1
+    - id: page Locations
       weight: 1
   features: []
-first_item: "2026-10-06"
+first_item: "2026-04-01"
 last_item: "2026-10-06"
 ---
 
 # Saurav Dhyani
 
-> Saurav Dhyani (MVP): 1 posts in the knowledge base, 2026-10-06 to 2026-10-06, mostly about development, administration.
+> Saurav Dhyani (MVP): 22 posts in the knowledge base, 2026-04-01 to 2026-10-06, mostly about development, platform, administration.
 
 [https://www.sauravdhyani.com](https://www.sauravdhyani.com) · blog · tier community
 
@@ -77,20 +138,48 @@ last_item: "2026-10-06"
 
 | Systems | Topics | AL objects named |
 |---|---|---|
-| development (2) | al development (1) | page MyPage (1) |
-| administration (1) | code patterns (1) |  |
-|  | localization (1) |  |
-|  | page properties (1) |  |
-|  | tooltips (1) |  |
+| development (19) | al development (9) | table General Journal Templates (2) |
+| platform (13) | automation (3) | table General Ledger Setup (2) |
+| administration (12) | business central 2026 (3) | table User Setup (2) |
+| finance (10) | bc28 (2) | interface INotification (1) |
+| integration (6) | configuration (2) | other File.Download (1) |
+| copilot (4) | date formulas (2) | other File.View (1) |
+|  | extensions (2) | other File.ViewFromStream (1) |
+|  | general ledger (2) | other General Setup (1) |
+|  | github copilot (2) | other ModuleInfo (1) |
+|  | performance (2) | other NavApp (1) |
+|  |  | page Location Card (1) |
+|  |  | page Locations (1) |
 
 ## Flight path
 
 Items per quarter, oldest first:
 
-- 2026-Q4: * 1
+- 2026-Q2: ****** 6
+- 2026-Q3: ************ 12
+- 2026-Q4: **** 4
 
 ## Most recent
 
 - [Business Central ToolTip and ToolTipML Properties Are Now Available on Pages](../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-9167085598395012736--e9edbb4eee.md) (2026-10-06)
+- [Preview Images Directly in the Business Central Web Client](../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-7010066564245788546--9c8ee5a738.md) (2026-10-05)
+- [New ModuleInfo Properties in Business Central 29](../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-2146591606221133853--27de9e092a.md) (2026-10-02)
+- [Evolve AL Interfaces with Default Implementations in Business Central 29.0](../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-8721347757329141815--e497e421dc.md) (2026-10-01)
+- [Business Central 29.0: Major Change to Table Extensions and SQL Storage.](../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-5876765753602227342--dc85fd75c1.md) (2026-09-14)
+- [Business Central Version 29: Recently Searched in Tell Me and Recently Used Lookups](../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-9211406592049654259--a1caabf98a.md) (2026-09-11)
+- [Business Central 2026 Release Wave 2 Preview Is Now Available](../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-426088323488837430--eb8c04886f.md) (2026-09-07)
+- [Manage Database Index Usage in Business Central.](../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-4052415603111434126--e2c225526c.md) (2026-08-24)
+- [AI-Part2: Setup-Vscode-al-copilot-business-central](../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-4656464818096012006--003bfcdd4e.md) (2026-08-20)
+- [AI-Part1: what-is-GitHub-copilot-in-vscode-business-central.](../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-2130488198731903549--32e1eebb8b.md) (2026-08-13)
+- [How to Add Currency Symbols to Numeric Fields in Business Central.](../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-1716125815035715885--34eb3d4362.md) (2026-07-29)
+- [How Business Central 2026 Improves Item Variant Management with Pictures and Attributes.](../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-2583765754742144129--9ec9e7f41f.md) (2026-07-24)
+- [How to Use Date Formulas for Allowed Posting Periods in Business Central BC28.](../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-4662412510469862425--2edabbcaf9.md) (2026-07-22)
+- [How to Email Posted Sales Shipments and Return Receipts in Business Central 2026 Wave 1.](../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-3905080819923012785--801fc3ed97.md) (2026-07-17)
+- [How to Use the Copy Location Feature in Business Central 2026 Wave 1 (BC28)](../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-2394393585068521549--ec106bbef3.md) (2026-07-15)
+- [Business Central 2026 Release Wave 1 Installation Guide: Requirements, Prerequisites, and Setup Walkthrough](../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-5740395756527498087--f6c529e55c.md) (2026-07-07)
+- [How User and AI Agent Avatars Improve Record Ownership in Business Central BC 28](../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-1332073184894863010--e1a9909be5.md) (2026-06-25)
+- [Directions Asia 2026 Recap: Key Takeaways from Ho Chi Minh City](../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-818643009386692123--56430d970b.md) (2026-06-08)
+- [Automating Posting Periods in Business Central with Date Formulas](../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-6476700913383925526--f5fa15da26.md) (2026-06-03)
+- [Untangling Your Books: Understanding Application of Entries in Business Central](../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-2182793503205531345--62a5e86030.md) (2026-04-03)
 
 Source: posts of this source in BC Observatory, derived pages only (CONTENT-NOTICE.md).

@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:21:46.353Z"
+  at: "2026-10-06T23:56:28.878Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 938b328aacd59fee0c7e77f8163be46f27286fec7450e5b4e932fb3e9b6d0376
+  input_hash: bc80a0d6424f1d3dc541cd5958216ed83a27252daf161384aab3878f8ff81f41
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Layers/W1/BaseApp/Finance/RoleCenters/BusinessManagerEvaluationRC.PageCust.al
@@ -61,6 +61,12 @@ counts:
   procedures: 0
   events: 0
   subscribers: 0
+relations:
+  out: 0
+  referenced_by: 0
+  pages: 0
+  extended_by: 0
+  event_subscribers: 0
 ---
 
 # Page customization "Business Manager Evaluation RC"

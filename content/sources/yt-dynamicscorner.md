@@ -2,7 +2,7 @@
 id: source/yt-dynamicscorner
 type: source
 title: Dynamics Corner podcast
-summary: "Dynamics Corner podcast (Dynamics Corner): 14 videos in the knowledge base, 2026-04-08 to 2026-07-14, mostly about copilot, development, reporting."
+summary: "Dynamics Corner podcast (Dynamics Corner): 15 videos in the knowledge base, 2026-04-08 to 2026-07-14, mostly about copilot, development, reporting."
 tier: community
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:17:53.406Z"
+  at: "2026-10-06T23:39:50.809Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: ae50105593f13d5914479c855619a0009ec2bc971360ab3d5c852cb75c9b1941
+  input_hash: 83c9f97375aa38363495f0292d039234b70941ab26cfa4f1d951ce94b40b90a8
 evidence:
   - kind: video
     url: https://www.youtube.com/channel/UCiC0ZMYcrfBCUIicN1DwbJQ
@@ -28,7 +28,8 @@ evidence:
 links:
   learn: []
   objects: []
-  features: []
+  features:
+    - feature/573329
   topics: []
   localizations: []
   videos:
@@ -43,6 +44,7 @@ links:
     - video/FUtePZVZLKs
     - video/YIeE63Kn8sI
     - video/EyAhM6x_FVw
+    - video/c91E6IykUnk
     - video/fy96_jdL1PQ
     - video/Ty6ZvzJYAvI
     - video/zQg48VT0crU
@@ -54,11 +56,11 @@ url: https://www.youtube.com/channel/UCiC0ZMYcrfBCUIicN1DwbJQ
 author: Dynamics Corner
 mvp: false
 full_text: false
-item_count: 14
+item_count: 15
 footprint:
   systems:
     - id: copilot
-      weight: 8
+      weight: 9
     - id: development
       weight: 5
     - id: reporting
@@ -66,25 +68,29 @@ footprint:
   topics:
     - id: agents
       weight: 3
+    - id: al development
+      weight: 3
     - id: ai adoption
       weight: 2
     - id: ai agents
       weight: 2
-    - id: al development
+    - id: ai development
+      weight: 2
+    - id: ai-assisted development
       weight: 2
     - id: workflow automation
       weight: 2
+    - id: agenting
+      weight: 1
     - id: ai coding agents
       weight: 1
     - id: ai decision matrix
       weight: 1
-    - id: ai detection
-      weight: 1
-    - id: ai development
-      weight: 1
-    - id: ai governance
-      weight: 1
   objects:
+    - id: other BC quality
+      weight: 2
+    - id: other MCP
+      weight: 2
     - id: codeunit code unit
       weight: 1
     - id: codeunit event subscribers codeunit
@@ -105,18 +111,16 @@ footprint:
       weight: 1
     - id: other AL-Go
       weight: 1
-    - id: other ALC.exe
+  features:
+    - id: feature/573329
       weight: 1
-    - id: other analysis views on list pages
-      weight: 1
-  features: []
 first_item: "2026-04-08"
 last_item: "2026-07-14"
 ---
 
 # Dynamics Corner podcast
 
-> Dynamics Corner podcast (Dynamics Corner): 14 videos in the knowledge base, 2026-04-08 to 2026-07-14, mostly about copilot, development, reporting.
+> Dynamics Corner podcast (Dynamics Corner): 15 videos in the knowledge base, 2026-04-08 to 2026-07-14, mostly about copilot, development, reporting.
 
 [https://www.youtube.com/channel/UCiC0ZMYcrfBCUIicN1DwbJQ](https://www.youtube.com/channel/UCiC0ZMYcrfBCUIicN1DwbJQ) · channel · tier community
 
@@ -124,31 +128,36 @@ last_item: "2026-07-14"
 
 | Systems | Topics | AL objects named |
 |---|---|---|
-| copilot (8) | agents (3) | codeunit code unit (1) |
-| development (5) | ai adoption (2) | codeunit event subscribers codeunit (1) |
-| reporting (1) | ai agents (2) | codeunit library code unit (1) |
-|  | al development (2) | codeunit test code unit (1) |
+| copilot (9) | agents (3) | other BC quality (2) |
+| development (5) | al development (3) | other MCP (2) |
+| reporting (1) | ai adoption (2) | codeunit code unit (1) |
+|  | ai agents (2) | codeunit event subscribers codeunit (1) |
+|  | ai development (2) | codeunit library code unit (1) |
+|  | ai-assisted development (2) | codeunit test code unit (1) |
 |  | workflow automation (2) | codeunit unified interfaces code units for AI (1) |
-|  | ai coding agents (1) | other air cops initiative (1) |
-|  | ai decision matrix (1) | other AL MCP (1) |
-|  | ai detection (1) | other AL objects (1) |
-|  | ai development (1) | other AL tool (1) |
-|  | ai governance (1) | other AL-Go (1) |
-|  |  | other ALC.exe (1) |
-|  |  | other analysis views on list pages (1) |
+|  | agenting (1) | other air cops initiative (1) |
+|  | ai coding agents (1) | other AL MCP (1) |
+|  | ai decision matrix (1) | other AL objects (1) |
+|  |  | other AL tool (1) |
+|  |  | other AL-Go (1) |
 
 ## Flight path
 
 Items per quarter, oldest first:
 
-- 2026-Q2: ************* 13
+- 2026-Q2: ************** 14
 - 2026-Q3: * 1
+
+## Roadmap features it demonstrates
+
+- [573329](../features/573329.md)
 
 ## Most recent
 
 - [Episode 522: What Was Your Eureka Moment with AI? Smarter Workflows for BC Development](../videos/zQg48VT0crU.md) (2026-07-14)
 - [Episode 521: 50 Developers, Zero Playbook: The Leadership Conversation Nobody's Having](../videos/Ty6ZvzJYAvI.md) (2026-06-19)
 - [Episode 520: Reports, Dashboards, and Scorecards: A Complete Guide to Reporting in Business Central](../videos/fy96_jdL1PQ.md) (2026-06-03)
+- [Episode 519: The Last Frontier: Can AI Finally Conquer BC Report Layouts?](../videos/c91E6IykUnk.md) (2026-05-28)
 - [Episode 518: You Have 18 Months: The AI Marketing Reckoning Nobody's Ready For](../videos/EyAhM6x_FVw.md) (2026-05-20)
 - [Episode 517: Flip the Script: Start with Your Business Problem, Not the AI Tool](../videos/YIeE63Kn8sI.md) (2026-05-12)
 - [AI consuming AI output. #businesscentral #bc #msdyn365bc](../videos/FUtePZVZLKs.md) (2026-05-08)

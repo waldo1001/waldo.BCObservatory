@@ -2,7 +2,7 @@
 id: localization/cz
 type: localization
 title: Czech (CZ)
-summary: "Czech (CZ) localization of Business Central in BC29: 2 objects of its own, 8 W1 objects changed (6 fields and 0 events added). From the code; country apps outside the Base Application are not included yet."
+summary: "Czech (CZ) localization of Business Central 29. The code layer is small: a few fields on W1 tables for advance letters, non-deductible VAT and payment posting groups, plus upgrade plumbing. Learn documents the wider Czech functionality: advance payments, cash desk, banking documents, VAT date, fixed assets, Intrastat and more."
 tier: official
 language: en
 tags:
@@ -14,10 +14,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:28:57.107Z"
+  at: "2026-10-06T23:56:28.878Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 7186d278772914465f9c236485c157a1866dc388bb2c6c1cf12885ab0325be1d
+  prompts:
+    hub-localization: 2
+  input_hash: 580b6bc5766250d47d5b62f136f3679d08f187a54ed58fcf3f71580ceb66de80
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps
@@ -57,9 +58,111 @@ learn_folder: LocalFunctionality/Czech
 
 # Czech (CZ)
 
-> Czech (CZ) localization of Business Central in BC29: 2 objects of its own, 8 W1 objects changed (6 fields and 0 events added). From the code; country apps outside the Base Application are not included yet.
+> Czech (CZ) localization of Business Central 29. The code layer is small: a few fields on W1 tables for advance letters, non-deductible VAT and payment posting groups, plus upgrade plumbing. Learn documents the wider Czech functionality: advance payments, cash desk, banking documents, VAT date, fixed assets, Intrastat and more.
 
-BC29 · country layer against W1 · Learn: [local functionality](../topics/business-central/business-functionality/local-functionality/czech-republic.md)
+BC29 · country layer against W1 · Learn: [local functionality](../topics/business-central/business-functionality/local-functionality/czech-republic.md) · narrative **unreviewed** (machine-written)
+
+## Overview
+
+In this code layer the Czech version changes ten objects. Seven W1 tables are replaced or extended and two codeunits are added for upgrade. Six fields are added in total. No events or procedures are added. The extensions touch bank reconciliation, VAT posting setup, payment buffering, Intrastat, base calendar usage and the VAT date upgrade.
+
+The fields reflect advance payments and VAT handling. Bank Statement Matching Buffer gets Letter Type and Letter No. Posted Payment Recon. Line gets Advance Letter Link Code. VAT Posting Setup gets Non-Ded. Sales VAT Account, and Detailed CV Ledg. Entry Buffer gets Non-Deductible VAT Amount ACY. Payment Buffer gets Vendor Posting Group.
+
+Most Czech functionality is documented on Microsoft Learn and not in this layer. That covers advance letters for sales and purchases, cash desk, banking documents, compensation, VAT date, reverse charge, unreliable payer, fixed asset tax depreciation, Intrastat, statutory statements and accounting output reports. Several of these pages describe the Czech extensions (Core Localization Pack, Advance Payments, Cash Desk, Banking Documents) rather than base application code.
+
+## Key points
+
+- Advance payment links: Letter Type and Letter No. on Bank Statement Matching Buffer, and Advance Letter Link Code on Posted Payment Recon. Line.
+- Non-deductible VAT: Non-Ded. Sales VAT Account on VAT Posting Setup and Non-Deductible VAT Amount ACY on Detailed CV Ledg. Entry Buffer.
+- Vendor Posting Group on Payment Buffer supports payments with differing posting groups.
+- Intrastat Jnl. Line is changed for Czech Intrastat; Learn describes the engine setup and CSV export for INSTATDESK and INSTATONLINE.
+- Update VAT Date Field upgrade codeunit supports the Czech VAT date feature, which separates VAT date from posting date.
+- Learn covers advance letters, cash desk, compensation, fixed asset tax depreciation, corrections posting (Red Storno) and statutory statements.
+- No new events or procedures are added in this layer, so extensibility rests on the added fields.
+
+Narrative written by Sonnet from the code diff and 60 Learn page summaries. In numbers: Czech (CZ) localization of Business Central in BC29: 2 objects of its own, 8 W1 objects changed (6 fields and 0 events added). From the code; country apps outside the Base Application are not included yet.
+
+## By area
+
+| Area | W1 objects changed | Own objects | Fields added |
+|---|---|---|---|
+| [(no namespace)](#no-namespace) | 0 | 2 | 0 |
+| [Bank](#bank) | 2 | 0 | 3 |
+| [Finance](#finance) | 2 | 0 | 2 |
+| [Foundation](#foundation) | 1 | 0 | 0 |
+| [Inventory](#inventory) | 1 | 0 | 0 |
+| [Purchases](#purchases) | 1 | 0 | 1 |
+| [Upgrade](#upgrade) | 1 | 0 | 0 |
+
+### (no namespace)
+
+Adds upgrade plumbing: Upgrade - Local App and Local Upgrade Tag Definitions, which register upgrade tags for the Czech layer.
+
+Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
+
+Objects: codeunit/104150 "Upgrade - Local App" (own), codeunit/11790 "Local Upgrade Tag Definitions" (own).
+
+[All 2 objects of (no namespace) in the diff](?ns=(no%20namespace)#country-diff)
+
+### Bank
+
+Adds advance letter reference fields to bank reconciliation tables. Bank Statement Matching Buffer gets Letter Type and Letter No., and Posted Payment Recon. Line gets Advance Letter Link Code.
+
+Why: Learn describes advance payments and invoices that are paid before delivery, and linking payments to advance letters.
+
+Objects: [table/1250 "Bank Statement Matching Buffer"](../objects/table/1250.md), [table/1296 "Posted Payment Recon. Line"](../objects/table/1296.md).
+
+[All 2 objects of Bank in the diff](?ns=Bank#country-diff)
+
+### Finance
+
+Adds non-deductible VAT fields. VAT Posting Setup gets Non-Ded. Sales VAT Account and Detailed CV Ledg. Entry Buffer gets Non-Deductible VAT Amount ACY.
+
+Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
+
+Objects: [table/325 "VAT Posting Setup"](../objects/table/325.md), [table/383 "Detailed CV Ledg. Entry Buffer"](../objects/table/383.md).
+
+[All 2 objects of Finance in the diff](?ns=Finance#country-diff)
+
+### Foundation
+
+Changes the Where Used Base Calendar table without adding fields.
+
+Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
+
+Objects: [table/7604 "Where Used Base Calendar"](../objects/table/7604.md).
+
+[All 1 objects of Foundation in the diff](?ns=Foundation#country-diff)
+
+### Inventory
+
+Changes the Intrastat Jnl. Line table without adding fields, supporting the Czech Intrastat functionality.
+
+Why: Learn says the Czech Intrastat feature adds engine setup, supplementary units, mandatory field configuration and CSV export for INSTATDESK and INSTATONLINE.
+
+Objects: [table/263 "Intrastat Jnl. Line"](../objects/table/263.md).
+
+[All 1 objects of Inventory in the diff](?ns=Inventory#country-diff)
+
+### Purchases
+
+Adds Vendor Posting Group to Payment Buffer.
+
+Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
+
+Objects: [table/372 "Payment Buffer"](../objects/table/372.md).
+
+[All 1 objects of Purchases in the diff](?ns=Purchases#country-diff)
+
+### Upgrade
+
+Changes the Update VAT Date Field upgrade codeunit for the Czech VAT date.
+
+Why: Learn says the Czech VAT date is separate from the posting date for VAT reporting.
+
+Objects: [codeunit/104051 "Update VAT Date Field"](../objects/codeunit/104051.md).
+
+[All 1 objects of Upgrade in the diff](?ns=Upgrade#country-diff)
 
 ## W1 objects this country changes
 

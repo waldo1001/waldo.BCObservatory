@@ -21,7 +21,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T16:15:32.561Z"
+  at: "2026-10-07T00:17:53.935Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -73,7 +73,9 @@ evidence:
 links:
   learn: []
   objects: []
-  features: []
+  features:
+    - feature/573304
+    - feature/573312
   topics: []
   localizations: []
   videos: []
@@ -122,15 +124,19 @@ features:
     verified: false
     status_source: video
   - name: Copilot Agent Capabilities - Run Data Queries with MCP Server
-    status: unclear
+    status: ga
     t: 380
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573312"
   - name: Dynamics 365 Business Central Expense Agent - Withholding Taxes
     status: preview
     t: 457
     verified: true
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573304"
   - name: Roadmap CSV Export
     status: unclear
     t: 656
@@ -213,12 +219,14 @@ The video walks through the roadmap's filters and its launched and in-developmen
 |---|---|---|---|
 | AI at Work Roadmap | status not stated, demoed | [2:08](https://www.youtube.com/watch?v=x0XF0lBvgEE&t=128s) |  |
 | Release Plan Discontinuation | status not stated | [1:54](https://www.youtube.com/watch?v=x0XF0lBvgEE&t=114s) |  |
-| Copilot Agent Capabilities - Run Data Queries with MCP Server | status not stated, demoed | [6:20](https://www.youtube.com/watch?v=x0XF0lBvgEE&t=380s) |  |
-| Dynamics 365 Business Central Expense Agent - Withholding Taxes | preview, demoed | [7:37](https://www.youtube.com/watch?v=x0XF0lBvgEE&t=457s) | "the preview available will be on October 2026 typically with CU 0 or CU1 and the roll out start in the next wave which" ([7:48](https://www.youtube.com/watch?v=x0XF0lBvgEE&t=468s)) |
+| Copilot Agent Capabilities - Run Data Queries with MCP Server | generally available (roadmap [573312](../features/573312.md)), demoed | [6:20](https://www.youtube.com/watch?v=x0XF0lBvgEE&t=380s) |  |
+| Dynamics 365 Business Central Expense Agent - Withholding Taxes | preview (roadmap [573304](../features/573304.md)), demoed | [7:37](https://www.youtube.com/watch?v=x0XF0lBvgEE&t=457s) | "the preview available will be on October 2026 typically with CU 0 or CU1 and the roll out start in the next wave which" ([7:48](https://www.youtube.com/watch?v=x0XF0lBvgEE&t=468s)) |
 | Roadmap CSV Export | status not stated, demoed | [10:56](https://www.youtube.com/watch?v=x0XF0lBvgEE&t=656s) |  |
 | MCP Server Integration for Roadmap | status not stated, demoed | [11:44](https://www.youtube.com/watch?v=x0XF0lBvgEE&t=704s) |  |
 | Business Central Release Schedule | status not stated | [3:30](https://www.youtube.com/watch?v=x0XF0lBvgEE&t=210s) |  |
 | Roadmap Version Numbering and Wave Terminology Evolution | status not stated | [3:51](https://www.youtube.com/watch?v=x0XF0lBvgEE&t=231s) |  |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## AL objects mentioned
 

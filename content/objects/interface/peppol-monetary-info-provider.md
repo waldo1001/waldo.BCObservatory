@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:21:46.353Z"
+  at: "2026-10-06T23:56:28.878Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 8387db7a97525109954851ace58c39705baa12d88185a46b957e0fafb371a58c
+  input_hash: cccb59b160b5e228c3a1dcc0ad09eefd49bc7aa46049aaf4310d9a9933772cc7
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/PEPPOL/app/src/Interfaces/PEPPOLMonetaryInfoProvider.Interface.al
@@ -60,6 +60,12 @@ counts:
   procedures: 3
   events: 0
   subscribers: 0
+relations:
+  out: 0
+  referenced_by: 0
+  pages: 0
+  extended_by: 0
+  event_subscribers: 0
 ---
 
 # Interface "PEPPOL Monetary Info Provider"

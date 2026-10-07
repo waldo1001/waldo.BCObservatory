@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:21:46.353Z"
+  at: "2026-10-06T23:56:28.878Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 7482455fba91be060153fa26ac7bc70e86b8cec16fc01b4db1a5a5cdcc89db34
+  input_hash: 39d7099d09216d08569c42d9576a53cb8b099d783d75ef83d6682a2c43138316
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Business%20Foundation/App/NoSeries/src/Single/NoSeriesSingle.Interface.al
@@ -61,6 +61,12 @@ counts:
   procedures: 4
   events: 0
   subscribers: 0
+relations:
+  out: 0
+  referenced_by: 0
+  pages: 0
+  extended_by: 0
+  event_subscribers: 0
 ---
 
 # Interface "No. Series - Single"

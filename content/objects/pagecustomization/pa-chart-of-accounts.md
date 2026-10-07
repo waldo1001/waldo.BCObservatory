@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:21:46.353Z"
+  at: "2026-10-06T23:56:28.878Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: e77517c458966bd08cc5f6471805a1f90f13d2d7d8eed77430b8ca28f7e6e497
+  input_hash: b2c1321cfe1178d5adfa43cbeb463b484336da1c15a4f96919d857a8cb2f6687
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/PayablesAgent/app/Profile/PageCustomizations/PAChartOfAccounts.PageCust.al
@@ -60,6 +60,12 @@ counts:
   procedures: 0
   events: 0
   subscribers: 0
+relations:
+  out: 0
+  referenced_by: 0
+  pages: 0
+  extended_by: 0
+  event_subscribers: 0
 ---
 
 # Page customization "PA Chart of Accounts"

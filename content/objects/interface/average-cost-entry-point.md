@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:21:46.353Z"
+  at: "2026-10-06T23:56:28.878Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 7952eb4fa16d1fa40d8f2f45626cab9211caf4a17ff51c8965ca0f36a9499321
+  input_hash: 641fbd38cdd04fa874d6f8cf65b1550f2110dabf652b0f782b597965738e5740
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Layers/W1/BaseApp/Inventory/Costing/AverageCostEntryPoint.Interface.al
@@ -61,6 +61,12 @@ counts:
   procedures: 6
   events: 0
   subscribers: 0
+relations:
+  out: 0
+  referenced_by: 0
+  pages: 0
+  extended_by: 0
+  event_subscribers: 0
 ---
 
 # Interface "Average Cost Entry Point"

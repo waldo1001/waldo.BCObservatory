@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:21:46.353Z"
+  at: "2026-10-06T23:56:28.878Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: e8f98bffe648b7c261a45bba89f88c7b4ac6e52d6ffd8b4b4d999697555633e0
+  input_hash: 02e3b83c7f0c3654c553b62b2dc02f18ccfb7d60c90e0daabdb12d5660de38b9
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/CompanyHub/app/Entitlements/Dynamics365BusinessCentralPremiumEmbeddedCOHUB.Entitlement.al
@@ -60,6 +60,12 @@ counts:
   procedures: 0
   events: 0
   subscribers: 0
+relations:
+  out: 0
+  referenced_by: 0
+  pages: 0
+  extended_by: 0
+  event_subscribers: 0
 ---
 
 # Entitlement "Dynamics 365 Business Central Premium - Embedded COHUB"

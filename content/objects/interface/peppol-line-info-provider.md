@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:21:46.353Z"
+  at: "2026-10-06T23:56:28.878Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 17c2a197d6373fedef86251d71c130a8c69f0790acb3511548c046491dd9af7e
+  input_hash: b069a7de0c9359a8a1f34fe461393fbdcda83fb1cf435c0de11c536023522dde
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/PEPPOL/app/src/Interfaces/PEPPOLLineInfoProvider.Interface.al
@@ -60,6 +60,12 @@ counts:
   procedures: 14
   events: 0
   subscribers: 0
+relations:
+  out: 0
+  referenced_by: 0
+  pages: 0
+  extended_by: 0
+  event_subscribers: 0
 ---
 
 # Interface "PEPPOL Line Info Provider"

@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 3989473c0bf19f87942835a665db5dda6f603b03603990545818d65d4ca94c8a
@@ -171,8 +171,14 @@ links:
     - topic/business-central/business-functionality/finance
     - topic/business-central/business-functionality/finance/manage-receivables/apply-payments-automatically-and-reconci
   localizations: []
-  videos: []
-  posts: []
+  videos:
+    - video/Dkd8_cGzIvc
+    - video/fatcqVFrTXI
+    - video/fdP1HKBEDjA
+    - video/O2RPBlr_GiE
+    - video/UTxX4XPLcgQ
+  posts:
+    - post/thedynamicsexplorer-com/37202
   guidelines: []
 learn_toc_path:
   - Business functionality
@@ -185,8 +191,8 @@ children:
 coverage:
   learn: 19
   code: 0
-  video: 0
-  blog: 0
+  video: 5
+  blog: 1
   guideline: 0
 bc_forms:
   - 6
@@ -289,6 +295,17 @@ Path: [Business functionality](../../business-functionality.md) > [Finance](../f
 - [Send Reminders of Outstanding Balances](https://learn.microsoft.com/dynamics365/business-central/receivables-send-reminders): Learn how to issue a reminder to a customer about an overdue payment.
 - [SEPA Direct Debit in Business Central](https://learn.microsoft.com/dynamics365/business-central/finance-collect-payments-with-sepa-direct-debit): With your customer's consent, you can collect payments directly from the customer's bank account according to the SEPA format.
 - [Work with Intrastat reporting](https://learn.microsoft.com/dynamics365/business-central/finance-how-report-intrastat): Learn how to report trade with companies in other EU countries/regions using the Intrastat system.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Dynamics 365 Business Central – Why isn’t Payment Tolerance being taken automatically in the Cash Receipt Journal?](../../../../posts/thedynamicsexplorer-com/37202.md) (community post): "Payment Tolerance is a Business Central feature that automatically writes off small unpaid invoice balances"
+- [Comparing entering Customer Cash Receipts in Dynamics GP to Dynamics 365 Business Central (2024)](../../../../videos/Dkd8_cGzIvc.md) (video): "Cash receipts; customer payments; customer receivables; invoice application"
+- [Comparing Entering Receivables Transactions in Dynamics SL to Dynamics 365 Business Central](../../../../videos/fatcqVFrTXI.md) (video): "accounts receivable; sales invoices; credit memos; invoice posting; payment application"
+- [Comparing entering Receivables Transactions in Dynamics GP to Dynamics 365 Business Central (2024)](../../../../videos/fdP1HKBEDjA.md) (video): "receivables transactions; invoices; credit memos; sales journals; posting"
+- [Comparing Trial Balance and Aging Reports between Dynamics SL and Dynamics 365 Business Central](../../../../videos/O2RPBlr_GiE.md) (video): "aging reports; accounts receivable aging; aged accounts receivable report"
+- [What's New: Financial Management - Reminder Automation (2024 release wave 1)](../../../../videos/UTxX4XPLcgQ.md) (video): "reminder automation; role center; customer communication; batch jobs"
 
 ## Business Central pages and reports
 

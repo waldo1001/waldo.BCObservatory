@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 5f81750627e96a1b61a6b2522a5843d9ff2fca65b2e2e1fb45389ef056851762
@@ -64,8 +64,10 @@ links:
   topics:
     - topic/dev-itpro/integration
   localizations: []
-  videos: []
-  posts: []
+  videos:
+    - video/2vUCR16b85o
+  posts:
+    - post/demiliani-com/13657
   guidelines: []
 learn_toc_path:
   - Integration
@@ -76,8 +78,8 @@ children: []
 coverage:
   learn: 5
   code: 0
-  video: 0
-  blog: 0
+  video: 1
+  blog: 1
   guideline: 0
 bc_forms: []
 member_hash: 5f81750627e96a1b61a6b2522a5843d9ff2fca65b2e2e1fb45389ef056851762
@@ -97,5 +99,12 @@ Path: [Integration](../integration.md) > Integrating with Azure services · tier
 - [Azure Key Vaults with Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-app-key-vault-overview): Provides an overview of Azure key vaults with Business Central extensions.
 - [Integrating with Azure services](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/integration-azure-overview): Learn how to integrate Business Central with Azure services.
 - [Monitoring and Analyzing Telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-overview): Learn how Business Central provides telemetry for each environment, both for online and on-premises environments.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Azure Blob Storage: optimize costs and performance with the new Smart Tier option.](../../../posts/demiliani-com/13657.md) (community post): "This feature is useful when access patterns are unpredictable and you want to optimize expenses for data lakes"
+- [Store Files Outside Business Central Using External File Accounts (BC 2025 Wave 1)](../../../videos/2vUCR16b85o.md) (video): "external file storage; azure blob storage; file shares; storage accounts"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: aeeca4e558fa2f2977ab40f4c79bf5dedc780cacae3165eb31e0d88a613e66df
@@ -70,7 +70,8 @@ links:
     - topic/business-central/business-functionality/set-up-business-central/setup-best-practices-for-complex-applica/setup-best-practices-supply-planning
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/olofsimren-com/3763
   guidelines: []
 learn_toc_path:
   - Business functionality
@@ -84,7 +85,7 @@ coverage:
   learn: 6
   code: 0
   video: 0
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms:
   - 30
@@ -107,6 +108,12 @@ Path: [Business functionality](../../business-functionality.md) > [Set up Busine
 
 - [Set Up Complex Application Areas Using Best Practices](https://learn.microsoft.com/dynamics365/business-central/set-up-complex-application-areas-using-best-practices): Entering the correct setup values from the start is important to the success of any new business software.
 - [Setup best practices - Costing method](https://learn.microsoft.com/dynamics365/business-central/setup-best-practices-costing-method): The Costing Method on the item card defines item's cost flow is recorded and whether an actual or budgeted value is capitalized and used in the cost calculation.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [ERP JumpStart: A Better Way to Get Started with Business Central](../../../../posts/olofsimren-com/3763.md) (community post): "pre-configuration, step-by-step tasks grouped in work packages"
 
 ## Business Central pages and reports
 

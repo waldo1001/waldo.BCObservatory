@@ -1,0 +1,36 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-ncci-tuning-and-tracing.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-ncci-tuning-and-tracing",
+  "title": "NCCI Tuning and Tracing",
+  "blob": "7bde71f36868fa95257645a64323221ceca8d5c9",
+  "summary": "Nonclustered Columnstore Indexes are SQL Server indexing structures that provide performance benefits and lower maintenance overhead compared to SIFT keys in Business Central.",
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "ncci",
+    "performance tuning",
+    "sql server",
+    "indexing",
+    "sift"
+  ],
+  "objects": [],
+  "features": [
+    "NCCI overview",
+    "SIFT key comparison",
+    "SQL Server tracing",
+    "columnstore index maintenance"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002535,
+      "pages_in_call": 8
+    }
+  ]
+}

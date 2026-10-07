@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:21:46.353Z"
+  at: "2026-10-06T23:56:28.878Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: b86cbdaa1d8094fa811a5a25b2f19d05ef63f0a8b1d8dc8e401e5e65f454cdd5
+  input_hash: ca1dcd85dd360142557a5023d754d7d5a3a7e20bb7fe0315844bdee9fef8e566
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/APIV1/app/src/Entitlements/Dynamics365BusinessCentralDeviceAPIV1.Entitlement.al
@@ -60,6 +60,12 @@ counts:
   procedures: 0
   events: 0
   subscribers: 0
+relations:
+  out: 0
+  referenced_by: 0
+  pages: 0
+  extended_by: 0
+  event_subscribers: 0
 ---
 
 # Entitlement "Dynamics 365 Business Central Device APIV1"

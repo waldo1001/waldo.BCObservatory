@@ -1,0 +1,46 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Austria/how-to-create-a-vat-statement.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Austria/how-to-create-a-vat-statement",
+  "title": "How to Create a VAT Statement",
+  "blob": "90abebad490c0ba71a84ac615bd33bdb2b8f1b9d",
+  "summary": "Create a VAT statement in the Austrian version for reporting VAT to tax authorities with support for temporary 5% rates and FDF file export.",
+  "systems": [
+    "localization",
+    "finance"
+  ],
+  "topics": [
+    "vat reporting",
+    "austria",
+    "tax compliance",
+    "electronic submission"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "VAT Statement AT"
+    },
+    {
+      "type": "page",
+      "name": "Company Information"
+    }
+  ],
+  "features": [
+    "VAT statement generation",
+    "Period filtering",
+    "Reporting type selection",
+    "FDF file export",
+    "XML export",
+    "Update VAT Statement"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002535,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: adb525da62f16d612fc9d767fb24853ac84edee6306774682c890c36f7d81f0b
@@ -216,7 +216,10 @@ links:
   topics:
     - topic/business-central/business-functionality/sales/sales-analytics
   localizations: []
-  videos: []
+  videos:
+    - video/fJGY6d-2lO8
+    - video/rAaUiKByyEE
+    - video/zXoSeH1cmaE
   posts: []
   guidelines: []
 learn_toc_path:
@@ -230,7 +233,7 @@ children: []
 coverage:
   learn: 24
   code: 0
-  video: 0
+  video: 3
   blog: 0
   guideline: 0
 bc_forms:
@@ -293,6 +296,14 @@ Path: [Business functionality](../../../business-functionality.md) > [Sales](../
 - [Sales Overview (Power BI report)](https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-overview): The Sales Overview report provides a high-level summary of your organization's sales activities.
 - [Sales Period-Over-Period Growth (Power BI Report)](https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-period-over-period-growth): The Period-Over-Period Growth report provides valuable insights into your organization's sales performance over time.
 - [Sales Quote Overview (Power BI report)](https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-quote-overview): The Sales Quote Overview report provides detailed information on your organization's Sales Quote activities.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [What's New: Enhanced Sales Analytics (2026 release wave 1)](../../../../../videos/fJGY6d-2lO8.md) (video): "customer retention; churn analysis; abc analysis; power bi; sales analytics"
+- [What's New: Sales Analytics (2025 release wave 2)](../../../../../videos/rAaUiKByyEE.md) (video): "Updated PowerBI app for sales; Sales forecasting in PowerBI"
+- [What's New: Power BI (for Sales) (2025 release wave 1)](../../../../../videos/zXoSeH1cmaE.md) (video): "Enhanced Power BI Sales App; Opportunity Overview Report; Sales Quote Overview"
 
 ## Business Central pages and reports
 

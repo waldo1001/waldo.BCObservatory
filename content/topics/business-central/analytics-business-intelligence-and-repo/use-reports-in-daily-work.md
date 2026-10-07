@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: bffb8f0e8486bc5dae7eb4fc923d54e569ba0217b81a8e8da23beff106f1b547
@@ -88,8 +88,13 @@ links:
   topics:
     - topic/business-central/analytics-business-intelligence-and-repo
   localizations: []
-  videos: []
-  posts: []
+  videos:
+    - video/5qWLFUqFsi0
+    - video/crDXSPsoIQ8
+    - video/eg3FRViYFNM
+  posts:
+    - post/dvlprlife-com/https://www.dvlprlife.com/2026/08/business-central-trivia-recap-august-17-21-2026/
+    - post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-6634996257036493772
   guidelines: []
 learn_toc_path:
   - Analytics, business intelligence, and reporting
@@ -100,8 +105,8 @@ children: []
 coverage:
   learn: 8
   code: 0
-  video: 0
-  blog: 0
+  video: 3
+  blog: 2
   guideline: 0
 bc_forms:
   - 680
@@ -133,6 +138,16 @@ Path: [Analytics, business intelligence, and reporting](../analytics-business-in
 - [Share and Export Reports with the Report Inbox](https://learn.microsoft.com/dynamics365/business-central/ui-work-report-inbox): Learn how to use the Report Inbox page to download, share, export, and delete reports in Business Central.
 - [Specify a Default Printer](https://learn.microsoft.com/dynamics365/business-central/ui-specify-printer-selection-reports): Learn about the different ways to set up printers to be used by default for print jobs.
 - [Use reports in your daily work](https://learn.microsoft.com/dynamics365/business-central/reports-use-reports): Provides an overview of the reporting features in Business Central.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Business Central Trivia Recap: August 17–21, 2026](../../../posts/dvlprlife-com/https://www.dvlprlife.com/2026/08/business-central-trivia-recap-august-17-21-2026/.md) (community post): "trivia game had 250 questions across five days with increasing participation"
+- [You can't see your stale documents, and that's why they're stale](../../../posts/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-6634996257036493772.md) (community post): "Consolidates sales quotes, orders, and unposted invoices into one read-only view"
+- [Use Page Regions to Present your Reports and Data in Business Central (Advanced Spreadsheets)](../../../videos/5qWLFUqFsi0.md) (video): "Print functionality for regions; Spreadsheet permissions and read-only access"
+- [Edit Sales Orders in a Spreadsheet inside Business Central (Advanced Spreadsheets and Reporting)](../../../videos/crDXSPsoIQ8.md) (video): "Edit sales orders in a spreadsheet inside Business Central"
+- [What's new: Productivity features in the web client (2023 release wave 2)](../../../videos/eg3FRViYFNM.md) (video): "navigation; lookup; tell me search; keyboard shortcuts; company data"
 
 ## Business Central pages and reports
 

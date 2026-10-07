@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 6ce0f942fb3e2f96a865c076baeda340628eecd3cb65b7e48d8a6db24e7a88da
@@ -111,8 +111,11 @@ links:
     - topic/business-central/analytics-business-intelligence-and-repo/develop-reports/develop-report-layouts
     - topic/business-central/analytics-business-intelligence-and-repo/develop-reports/develop-report-datasets
   localizations: []
-  videos: []
-  posts: []
+  videos:
+    - video/jricCM_04H4
+    - video/VoiUhPb6HQ0
+  posts:
+    - post/thinkaboutit-be/8224
   guidelines: []
 learn_toc_path:
   - Analytics, business intelligence, and reporting
@@ -125,8 +128,8 @@ children:
 coverage:
   learn: 12
   code: 0
-  video: 0
-  blog: 0
+  video: 2
+  blog: 1
   guideline: 0
 bc_forms:
   - 9650
@@ -153,6 +156,14 @@ Path: [Analytics, business intelligence, and reporting](../analytics-business-in
 ## More Learn pages
 
 - [Develop report layouts and datasets](https://learn.microsoft.com/dynamics365/business-central/reports-develop-reports): Provides an overview of Business Central data.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Quick Tip: Business Central 29.0 Is Now Generally Available](../../../posts/thinkaboutit-be/8224.md) (community post): "Version 29 is particularly significant for developers with improvements to AL tooling"
+- [What's New: Excel Reporting (2025 release wave 1)](../../../videos/jricCM_04H4.md) (video): "Excel Reports for Finance; Fixed Assets Excel Reports; Sustainability Excel Reports"
+- [Manufacturing version 27: use Gitlens & Github BC code history to detect the code differences](../../../videos/VoiUhPb6HQ0.md) (video): "RDLC layout removal and Excel layout default; Report data export to data set only"
 
 ## Business Central pages and reports
 

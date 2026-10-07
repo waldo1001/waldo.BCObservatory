@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 81fc2f1ccbadbefd64a789a46c42cad0f779ea9d55e56a3935d4643f450f4c02
@@ -83,7 +83,8 @@ links:
     - topic/business-central/business-functionality/finance/multi-site-and-international-organizatio/consolidate-financial-data-from-multiple
     - topic/business-central/business-functionality/finance/multi-site-and-international-organizatio/manage-intercompany-transactions
   localizations: []
-  videos: []
+  videos:
+    - video/whtP2i7zeso
   posts: []
   guidelines: []
 learn_toc_path:
@@ -98,7 +99,7 @@ children:
 coverage:
   learn: 8
   code: 0
-  video: 0
+  video: 1
   blog: 0
   guideline: 0
 bc_forms:
@@ -167,6 +168,12 @@ Path: [Business functionality](../../business-functionality.md) > [Finance](../f
 ## More Learn pages
 
 - [Business Central for multi-site and international organizations](https://learn.microsoft.com/dynamics365/business-central/finance-multi-site-organizations): Business Central provides capabilities that support a hub-and-spoke business model.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [What's New: Enhancements in Intrastat (2025 release wave 1)](../../../../videos/whtP2i7zeso.md) (video): "Mandatory fields for Intrastat documents; Multiple VAT numbers support for Intrastat"
 
 ## Business Central pages and reports
 

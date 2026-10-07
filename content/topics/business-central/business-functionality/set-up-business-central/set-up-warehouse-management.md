@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 81e568c6752970a548fb314f1132ae42f025751c213e3c12334733c1c46f1707
@@ -144,8 +144,11 @@ links:
   topics:
     - topic/business-central/business-functionality/set-up-business-central
   localizations: []
-  videos: []
-  posts: []
+  videos:
+    - video/8KMcu4B_eTk
+    - video/vnaySMIKnp8
+  posts:
+    - post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-2394393585068521549
   guidelines: []
 learn_toc_path:
   - Business functionality
@@ -157,8 +160,8 @@ children: []
 coverage:
   learn: 15
   code: 0
-  video: 0
-  blog: 0
+  video: 2
+  blog: 1
   guideline: 0
 bc_forms:
   - 15
@@ -230,6 +233,14 @@ Path: [Business functionality](../../business-functionality.md) > [Set up Busine
 - [Set Up Directed Put-away and Pick](https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-set-up-items-for-directed-put-away-and-pick): Directed put-away and pick gives you functionality for running your warehouse efficiently.
 - [Set Up Put-away Templates](https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-set-up-put-away-templates): Use Put-away templates to have the most appropriate bins for your items suggested to you at any given time.
 - [Set Up Warehouse Employees](https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-set-up-warehouse-employees): Each user who performs warehouse activities must be set up as a warehouse employee assigned to one default location and potentially more non-default locations.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [How to Use the Copy Location Feature in Business Central 2026 Wave 1 (BC28)](../../../../posts/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-2394393585068521549.md) (community post): "Copy Location feature allows users to duplicate existing warehouse configurations"
+- [What's New: Warehouse Management (2023 release wave 2)](../../../../videos/8KMcu4B_eTk.md) (video): "Warehouse Configuration Toggles and Drop-Downs; Put-Away Templates"
+- [What's New in Manufacturing: Integration to Warehouse (2025 release wave 1)](../../../../videos/vnaySMIKnp8.md) (video): "Warehouse Putaway for Production Output; Automatic Putaway Document Generation"
 
 ## Business Central pages and reports
 

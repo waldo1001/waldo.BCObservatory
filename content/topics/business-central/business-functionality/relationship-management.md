@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: d225d2a6e1a4c3640b49a6b09ce035ecf3bac269f9e56a1c575f356af34103fc
@@ -312,7 +312,11 @@ links:
     - topic/business-central/business-functionality/relationship-management/manage-sales-opportunities
     - topic/business-central/business-functionality/relationship-management/use-dynamics-365-for-sales-from-business
   localizations: []
-  videos: []
+  videos:
+    - video/7LiQH1zCpoI
+    - video/80rmlCtm48w
+    - video/d1rE49YYapo
+    - video/PrGBqzTDsLw
   posts: []
   guidelines: []
 learn_toc_path:
@@ -330,7 +334,7 @@ children:
 coverage:
   learn: 43
   code: 0
-  video: 0
+  video: 4
   blog: 0
   guideline: 0
 bc_forms:
@@ -383,6 +387,15 @@ Path: [Business functionality](../business-functionality.md) > Relationship mana
 
 - [Relationship management](https://learn.microsoft.com/dynamics365/business-central/marketing-relationship-management): Use relationship management features to streamline sales, access detailed contact and prospect information, and improve customer service efficiency.
 - [Set up marketing and contact management information](https://learn.microsoft.com/dynamics365/business-central/marketing-setup-marketing): Set up marketing and contact management to strengthen relationships with prospects and customers, and enhance the effectiveness of your campaigns and promotions.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#BCTalent Stories: Node4 Digital](../../../videos/7LiQH1zCpoI.md) (video): "talent recruitment; business central skills; erp services; consultant onboarding"
+- [#BCTalent Stories: Olivia from Clients First at Directions NA 2024](../../../videos/80rmlCtm48w.md) (video): "reskill program; new hire; junior consultant; learning experience; community"
+- [BCTalent Stories: Zain from 4PS](../../../videos/d1rE49YYapo.md) (video): "BCTalent Stories: Zain from 4PS"
+- [Profiling Your Customers](../../../videos/PrGBqzTDsLw.md) (video): "customer profiling; trial onboarding; questionnaire; assisted setup"
 
 ## Business Central pages and reports
 

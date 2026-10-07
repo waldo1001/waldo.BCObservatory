@@ -1,0 +1,228 @@
+{
+  "country": "MX",
+  "version": "29",
+  "input_hash": "f29f6ac29a1de713c607ff238aec8b6b41de7d8533c55399ea2b49fc12c6c76f",
+  "summary": "Mexico (MX) localization for Business Central 29. It covers CFDI electronic invoicing through PAC web services and SAT certificates, Carta de Porte shipments, electronic accounting exports, DIOT, RFC/CURP tax IDs, VAT recalculation, EFT payment exports, bank reconciliation and deposits, and the sales tax engine.",
+  "overview": "The Mexican layer is built around CFDI. General Ledger Setup, Company Information, customers, items, units of measure, payment methods and G/L accounts get SAT fields. Posted sales and service invoices, credit memos, shipments and transfer shipments get digital stamp fields and procedures to export, request a stamp and cancel. Codeunits such as \"E-Invoice Mgt.\" (10145), \"EInvoice Communication\" (10146) and the OnPrem and SaaS communication codeunits handle the exchange with the PAC. Learn documents setup, PAC web services, invoice generation, Carta de Porte and foreign trade complements.\n\nOther local capabilities are electronic accounting export (codeunit 27000 \"Export Accounts\", SAT account codes on G/L accounts), RFC and CURP tax identification on customers, vendors, employees and company information, and VAT recalculation with unrealized VAT handling in \"Gen. Jnl.-Post Line\". Learn also documents DIOT reporting, deposits and troubleshooting reports.\n\nThe layer also carries a large North American base: a sales tax engine (tax areas, jurisdictions, external tax engine interface), EFT export codeunits including Mexican Cecoban-style mappings, bank reconciliation worksheets, deposits, check printing and many NA reports. Posting codeunits expose many sales tax events for extension.",
+  "key_points": [
+    "CFDI 4.0 electronic invoicing: SAT certificate and PAC code in General Ledger Setup, PAC Web Services pages, stamp, send and cancel on sales documents.",
+    "Carta de Porte: transport operators, vehicle, trailer, insurer and transit fields on sales and transfer headers; SAT item, hazardous material and custom transit fields; transfer shipments can be stamped.",
+    "Electronic accounting: SAT account code and classification on G/L Account, XML export of chart of accounts via codeunit 27000 \"Export Accounts\".",
+    "SAT catalog tables and pages (payment methods, terms, tax schemas, weight units, permission types) with codeunit \"Update SAT Payment Catalogs\".",
+    "RFC No., CURP No. and Tax Identification Type on customers, vendors and company information, validated by ValidateRFCNo.",
+    "VAT recalculation and unrealized VAT procedures in Gen. Jnl.-Post Line (CustUnrealizedVAT, VendUnrealizedVAT, PostUnrealVATEntry).",
+    "EFT payment export codeunits for ACH, RB, Cecoban and IAT formats, with MX mapping codeunits and bank account export format fields.",
+    "Sales tax engine with External Tax Engine interface and many OnBefore/OnAfter events in Sales-Post, Purch.-Post and service posting."
+  ],
+  "areas": [
+    {
+      "area": "eServices",
+      "what": "Adds the CFDI electronic invoicing engine: stamp, send and cancel codeunits for sales and service documents, OnPrem and SaaS PAC communication behind interface \"EInvoice Communication V2\", and many SAT catalog tables, pages and XML ports. Also holds electronic accounting export and the Mexican CFDI wizard.",
+      "why": "Learn describes CFDI XML invoices stamped through PAC web services with SAT certificates, and XML exports of accounts to SAT.",
+      "objects": [
+        "codeunit/10145",
+        "codeunit/10146",
+        "codeunit/10174",
+        "codeunit/10175",
+        "codeunit/27006",
+        "codeunit/27000",
+        "page/10455",
+        "page/27010"
+      ]
+    },
+    {
+      "area": "Sales",
+      "what": "Adds CFDI and digital stamp fields to posted sales headers and customer ledger entries, with ExportEDocument, RequestStampEDocument and CancelEDocument procedures. Customers get RFC, CURP and CFDI fields, sales headers get Carta de Porte transport fields, and Sales-Post gets sales tax events. Many NA sales pages and reports are added.",
+      "why": "Learn covers generating electronic invoices, foreign trade complements and payment stamping.",
+      "objects": [
+        "table/112",
+        "table/114",
+        "table/110",
+        "table/36",
+        "table/18",
+        "table/21",
+        "codeunit/80",
+        "table/37"
+      ]
+    },
+    {
+      "area": "Finance",
+      "what": "Sales tax calculation with tax areas, jurisdictions and an external tax engine interface, plus SAT fields on G/L Account, VAT Posting Setup and General Ledger Setup (certificate, PAC, CFDI enabled). Gen. Jnl.-Post Line handles unrealized VAT and realized gain/loss for VAT recalculation.",
+      "why": "Learn explains VAT recalculation on foreign currency payments and SAT account codes for electronic accounting.",
+      "objects": [
+        "table/98",
+        "codeunit/12",
+        "codeunit/398",
+        "table/15",
+        "table/325",
+        "table/81",
+        "table/318",
+        "interface/external tax engine"
+      ]
+    },
+    {
+      "area": "Bank",
+      "what": "EFT export codeunits and Data Exchange mappings (ACH, RB, Cecoban, IAT, with MX variants), bank account export fields, bank reconciliation worksheets, deposits and check handling.",
+      "why": null,
+      "objects": [
+        "table/270",
+        "codeunit/10098",
+        "codeunit/10331",
+        "codeunit/10333",
+        "codeunit/10335",
+        "codeunit/10092",
+        "page/370",
+        "table/272"
+      ]
+    },
+    {
+      "area": "Purchases",
+      "what": "Adds RFC, CURP and tax identification fields to vendors, tax and IRS 1099 style fields on purchase documents, sales tax posting in Purch.-Post and prepayments, plus NA purchase reports and statistics pages.",
+      "why": "Learn documents tax identification types and DIOT, which relies on vendor RFC numbers.",
+      "objects": [
+        "codeunit/90",
+        "table/23",
+        "table/38",
+        "table/39",
+        "table/288",
+        "codeunit/444",
+        "table/1383",
+        "table/122"
+      ]
+    },
+    {
+      "area": "Inventory",
+      "what": "Carta de Porte support on transfer orders and shipments: transport, vehicle, insurer and stamp fields, SAT item classification, hazardous material and packaging fields on items. Adds inventory reports and a vendor location table.",
+      "why": "Learn describes Carta de Porte packing slips and transfer orders sent as CFDI with digital signatures.",
+      "objects": [
+        "table/5744",
+        "table/5740",
+        "table/27",
+        "table/1382",
+        "table/5741",
+        "table/5745",
+        "page/5743",
+        "codeunit/10461"
+      ]
+    },
+    {
+      "area": "Service",
+      "what": "Sales tax and CFDI support for service documents: events in Serv-Documents Mgt., NA page and table extensions, statistics pages and service tax reports.",
+      "why": null,
+      "objects": [
+        "codeunit/5988",
+        "codeunit/10288",
+        "codeunit/5987",
+        "table/5902",
+        "report/10470",
+        "report/5915"
+      ]
+    },
+    {
+      "area": "Projects",
+      "what": "NA job and resource reports, plus extra budget fields on the Job Difference Buffer.",
+      "why": null,
+      "objects": [
+        "table/1019",
+        "report/10210",
+        "report/10211",
+        "report/10215",
+        "report/10219",
+        "report/10216",
+        "report/10217",
+        "report/10200"
+      ]
+    },
+    {
+      "area": "Foundation",
+      "what": "Company Information gets RFC, CURP, tax scheme, SAT postal code and regime fields; Country/Region, Unit of Measure, Payment Terms and No. Series Line get SAT or authorization fields.",
+      "why": "Learn describes company information setup for electronic invoicing.",
+      "objects": [
+        "table/79",
+        "table/204",
+        "table/9",
+        "table/3",
+        "table/309",
+        "table/242",
+        "codeunit/229",
+        "page/344"
+      ]
+    },
+    {
+      "area": "(no namespace)",
+      "what": "Holds upgrade codeunits for CFDI, EFT, sales tax and RFC, the CFDI Subject to Tax table, page and XML port, the Bank Reconciliation report, and role profiles.",
+      "why": null,
+      "objects": [
+        "table/27008",
+        "page/27008",
+        "xmlport/27008",
+        "report/10408",
+        "codeunit/10124",
+        "profile/credit manager",
+        "profile/hr manager",
+        "profile/payroll administrator"
+      ]
+    },
+    {
+      "area": "Utilities",
+      "what": "Document Totals, Copy Document and the assisted setup wizard are adapted for sales tax and retention lines. Adds data classification for DIOT and NA utility reports.",
+      "why": null,
+      "objects": [
+        "codeunit/6620",
+        "codeunit/57",
+        "codeunit/1752",
+        "codeunit/1814",
+        "page/1803",
+        "codeunit/10202"
+      ]
+    },
+    {
+      "area": "IO",
+      "what": "Data Exchange Definition and Mapping tables are extended for EFT payment export types, and Config. Setup gets a tax area code.",
+      "why": null,
+      "objects": [
+        "table/1222",
+        "table/1224",
+        "enum/1222",
+        "table/8627"
+      ]
+    },
+    {
+      "area": "Security",
+      "what": "Local permission sets and payables journal permission sets are changed to include the added objects.",
+      "why": null,
+      "objects": [
+        "permissionset/1001",
+        "permissionset/1002",
+        "permissionset/3602",
+        "permissionset/8824"
+      ]
+    },
+    {
+      "area": "HumanResources",
+      "what": "Employee gets RFC No. and License No. fields. Adds Human Resources and Payroll role centers.",
+      "why": "Learn describes RFC identification for Mexican persons.",
+      "objects": [
+        "table/5200",
+        "page/36600",
+        "page/36601"
+      ]
+    },
+    {
+      "area": "FixedAssets",
+      "what": "Fixed Asset gets vehicle and SAT fields (plate, year, weight, federal autotransport, trailer type, SCT permission) used for Carta de Porte.",
+      "why": "Learn covers vehicle configuration and SCT permission setup for Carta de Porte.",
+      "objects": [
+        "table/5600"
+      ]
+    }
+  ],
+  "learn_pages_used": 12,
+  "prompt_version": 2,
+  "at": "2026-10-06T23:54:14.007Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.2152308
+  }
+}

@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:21:46.353Z"
+  at: "2026-10-06T23:56:28.878Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 188228c15dc0d2be18820ae9210dcdc6a146382fc07e3f0afb59a25bad5e252f
+  input_hash: 2edb2c175f63caaecee2e872b28450604e0e3c0abbc6a34d2ec9475b0a9b7a15
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Layers/W1/BaseApp/Sales/Reminder/Automation/ReminderAction.Interface.al
@@ -61,6 +61,12 @@ counts:
   procedures: 10
   events: 0
   subscribers: 0
+relations:
+  out: 0
+  referenced_by: 0
+  pages: 0
+  extended_by: 0
+  event_subscribers: 0
 ---
 
 # Interface "Reminder Action"

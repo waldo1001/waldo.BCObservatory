@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:21:46.353Z"
+  at: "2026-10-06T23:56:28.878Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 4d61dccfec48f7b39a1bce2b8b4005d2916aa7cc7f72b0ac7827e91b46568f1e
+  input_hash: 53cc7c2450510ae194d61b26b42adf6d84053372f18687c2234c0e9b3040b504
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/ExpenseAgent/app/src/Entitlements/ServicePlans/EADynamics365BCPremiumPartnerSandbox.Entitlement.al
@@ -60,6 +60,12 @@ counts:
   procedures: 0
   events: 0
   subscribers: 0
+relations:
+  out: 0
+  referenced_by: 0
+  pages: 0
+  extended_by: 0
+  event_subscribers: 0
 ---
 
 # Entitlement "EA - Dynamics 365 BC Premium Partner Sandbox"

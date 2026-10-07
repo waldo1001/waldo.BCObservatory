@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:52:30.923Z"
+  at: "2026-10-07T00:17:53.935Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -70,7 +70,8 @@ evidence:
 links:
   learn: []
   objects: []
-  features: []
+  features:
+    - feature/573329
   topics: []
   localizations: []
   videos: []
@@ -236,20 +237,24 @@ features:
     verified: false
     status_source: video
   - name: Word report layouts
-    status: unclear
+    status: ga
     t: 2798
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573329"
   - name: Excel report layouts
     status: unclear
     t: 2662
     verified: false
     status_source: video
   - name: Word Central addin for report layouts
-    status: unclear
+    status: ga
     t: 2817
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573329"
   - name: RDLC phase-out for standard reports
     status: unclear
     t: 2881
@@ -353,10 +358,12 @@ The second half covers reporting. It begins with choosing a tool from the requir
 | PowerBI snapshots for tracking over time | status not stated | [39:22](https://www.youtube.com/watch?v=fy96_jdL1PQ&t=2362s) |  |
 | Excel Co-pilot | status not stated, demoed | [26:36](https://www.youtube.com/watch?v=fy96_jdL1PQ&t=1596s) |  |
 | Report Object with Multiple Layouts | status not stated | [29:03](https://www.youtube.com/watch?v=fy96_jdL1PQ&t=1743s) |  |
-| Word report layouts | status not stated | [46:38](https://www.youtube.com/watch?v=fy96_jdL1PQ&t=2798s) |  |
+| Word report layouts | generally available (roadmap [573329](../features/573329.md)) | [46:38](https://www.youtube.com/watch?v=fy96_jdL1PQ&t=2798s) |  |
 | Excel report layouts | status not stated | [44:22](https://www.youtube.com/watch?v=fy96_jdL1PQ&t=2662s) |  |
-| Word Central addin for report layouts | status not stated | [46:57](https://www.youtube.com/watch?v=fy96_jdL1PQ&t=2817s) |  |
+| Word Central addin for report layouts | generally available (roadmap [573329](../features/573329.md)) | [46:57](https://www.youtube.com/watch?v=fy96_jdL1PQ&t=2817s) |  |
 | RDLC phase-out for standard reports | status not stated | [48:01](https://www.youtube.com/watch?v=fy96_jdL1PQ&t=2881s) |  |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## AL objects mentioned
 

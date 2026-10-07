@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: d4267e15f9f94d7855fa46b178b2b257bd0a228598657f0f87aa90b3a2357688
@@ -351,7 +351,8 @@ links:
     - topic/dev-itpro/development/programming-in-the-al-language/language-elements
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/aardvarklabs-blog/3267
   guidelines: []
 learn_toc_path:
   - Development
@@ -365,7 +366,7 @@ coverage:
   learn: 46
   code: 0
   video: 0
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms: []
 member_hash: d4267e15f9f94d7855fa46b178b2b257bd0a228598657f0f87aa90b3a2357688
@@ -426,5 +427,11 @@ Path: [Development](../../../development.md) > [Programming in the AL language](
 - [XmlNode data type](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/xmlnode/xmlnode-data-type): Represents a XML node which can either be for instance an XML attribute, an XML element or a XML document.
 - [XmlNodeList data type](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/xmlnodelist/xmlnodelist-data-type): Represents a collection of XML nodes.
 - [XmlText data type](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/xmltext/xmltext-data-type): Represents the text content of an element or attribute.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Overcoming Integer Limits in Business Central with BigInteger](../../../../../posts/aardvarklabs-blog/3267.md) (community post): "BigInteger is a signed 64-bit type supporting 9.2 quintillion values"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

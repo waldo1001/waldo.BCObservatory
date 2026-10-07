@@ -1,0 +1,195 @@
+{
+  "country": "GB",
+  "version": "29",
+  "input_hash": "a0acde4f435c79cd9a2edda65034d730de9e475e5da77487960a389087445c03",
+  "summary": "United Kingdom (GB) localization of Business Central 29. It covers Making Tax Digital VAT returns and fraud prevention headers, EC Sales List and reverse charge VAT, VAT audit reports, UK-layout sales and purchase documents, APACS check printing, BACS tables, Ideal Postcodes address lookup, and UK fixed asset depreciation periods.",
+  "overview": "The UK layer centres on VAT. It adds GovTalk and MTD objects (codeunits 10520 to 10528, tables 10520 to 10538, page 10523 \"GovTalk Setup\") for HMRC communication, submission and archiving of VAT returns. It also extends the W1 EC Sales List report 130, ECSL VAT Report Line table 362 and VAT Report Archive table 747 with XML submission handling and events. Reverse charge VAT is supported through fields on items, sales and purchase lines, posted lines and the setup tables, plus the \"Reverse Charge Sales List\" report. VAT Audit and VAT Entry Exception reports export CSV data.\n\nOther local pieces are statutory fields on Company Information (supplementary VAT registration number, registered name and address, branch number), Intrastat and Brexit-related fields (shipment method code on ledger and journal lines, reported flags on Intrastat batches), and an \"Invoice Receipt Date\" on purchase documents and journals. Ideal Postcodes lookup adds the same three procedures (ShowPostcodeLookup, CopyAutocompleteFields, HandleAddressLookupVisibility) to customer, vendor, contact, employee, location and company pages. UK-layout sales and purchase document reports, a check preview page for APACS, and BACS ledger and register tables round out the layer.\n\nLearn documents these under \"United Kingdom local functionality [GB]\", with separate pages on Making Tax Digital, fraud prevention data, reverse charges, VAT audit reports, check printing, remittance advice, postcode lookup, posting date warning, Brexit impact and straight-line depreciation.",
+  "key_points": [
+    "Making Tax Digital: retrieve VAT obligations, suggest lines, release and submit VAT returns, and get liabilities and payments through HMRC, with MTD tables and GovTalk codeunits.",
+    "Fraud prevention headers must be sent to HMRC; admins consent to sending device and user identification data.",
+    "Reverse charge VAT uses Reverse Charge Applies on items, Reverse Charge fields on lines, setup fields for the posting group, and the Reverse Charge Sales List report.",
+    "VAT Audit and VAT Entry Exception reports export customers, vendors, VAT entries and more in CSV format.",
+    "Ideal Postcodes extension fills address fields on customer, vendor, bank account, contact, employee, location and company pages after API key setup.",
+    "Check printing follows the APACS layout with a Check Preview GB page; remittance advice shows vendor invoice numbers.",
+    "Fixed asset straight-line depreciation supports up to 13 accounting periods and 360, 365 or 366 day methods.",
+    "Company Information holds statutory fields such as registered name, registered address and supplementary VAT registration number."
+  ],
+  "areas": [
+    {
+      "area": "Finance",
+      "what": "Adds the GovTalk and Making Tax Digital framework (setup, message, MTD liability, payment and return tables, submission codeunits) and extends the VAT report objects. It changes EC Sales List (report 130) with XML creation, adds reverse charge fields, and adds VAT Audit, VAT Entry Exception and Reverse Charge Sales List reports.",
+      "why": "Learn explains that MTD requires VAT returns and fraud prevention headers to be exchanged with HMRC, and that VAT audit reports export data as CSV.",
+      "objects": [
+        "codeunit/10522",
+        "codeunit/10524",
+        "table/10523",
+        "table/10533",
+        "report/130",
+        "table/747",
+        "report/10512",
+        "report/10529"
+      ]
+    },
+    {
+      "area": "Sales",
+      "what": "Adds reverse charge fields on sales lines and posted lines, setup fields in Sales & Receivables Setup, and a reverse charge check in Sales-Post. Adds UK-layout quote, order confirmation, invoice, credit memo and blanket order reports, plus a finance charge interest rate table.",
+      "why": "Learn describes reverse charge VAT as a measure against carousel fraud on certain electronic goods.",
+      "objects": [
+        "table/37",
+        "table/311",
+        "codeunit/80",
+        "report/10572",
+        "report/10573",
+        "report/10570",
+        "report/10571",
+        "table/10555"
+      ]
+    },
+    {
+      "area": "Purchases",
+      "what": "Adds reverse charge fields on purchase lines and setup, an Invoice Receipt Date on purchase headers and vendor ledger entries, and an exclusion flag for payment practice reporting on vendors. Adds UK-layout purchase order, invoice, credit memo and blanket order reports and postcode lookup on the vendor card.",
+      "why": null,
+      "objects": [
+        "table/39",
+        "table/312",
+        "table/38",
+        "table/25",
+        "table/23",
+        "report/10577",
+        "report/10576",
+        "page/26"
+      ]
+    },
+    {
+      "area": "Inventory",
+      "what": "Adds Reverse Charge Applies to items and item templates, Shipment Method Code to item ledger and journal lines, Freight/Insurance to item charges, and reported flags to Intrastat batches. Location Card gets postcode lookup.",
+      "why": "Learn links the Reverse Charge Applies field to reverse charge setup and notes Intrastat and location code relevance after Brexit.",
+      "objects": [
+        "table/27",
+        "table/1382",
+        "table/262",
+        "table/32",
+        "table/83",
+        "table/5800",
+        "page/5703"
+      ]
+    },
+    {
+      "area": "Foundation",
+      "what": "Adds statutory fields to Company Information (supplementary VAT registration, registered name and address, branch number, contact name) and an Ideal Postcodes lookup with business logic, search, configuration and service pages.",
+      "why": "Learn says the statutory information is required by law and the postcode extension uses the Ideal Postcodes API.",
+      "objects": [
+        "table/79",
+        "page/1",
+        "codeunit/10500",
+        "page/10500",
+        "page/10501",
+        "page/10502",
+        "table/10501"
+      ]
+    },
+    {
+      "area": "Bank",
+      "what": "Adds BACS ledger entry and register tables, a Check Preview GB page, a Reconciled field on bank reconciliation lines, and an employee balancing type procedure in the Check report.",
+      "why": "Learn states that check printing uses the APACS specification layout.",
+      "objects": [
+        "page/10510",
+        "report/1401",
+        "table/10550",
+        "table/10551",
+        "table/274"
+      ]
+    },
+    {
+      "area": "(no namespace)",
+      "what": "Adds the EC Sales List submit codeunit for the UK ECSL flow.",
+      "why": null,
+      "objects": [
+        "codeunit/142"
+      ]
+    },
+    {
+      "area": "CRM",
+      "what": "Contact Card and Contact Alternative Address Card get postcode lookup procedures.",
+      "why": null,
+      "objects": [
+        "page/5050",
+        "page/5056"
+      ]
+    },
+    {
+      "area": "FixedAssets",
+      "what": "Depreciation Calculation and FA Depreciation Book are changed to support UK straight-line depreciation across accounting periods.",
+      "why": "Learn describes up to 13 accounting periods and 360, 365 or 366 day methods.",
+      "objects": [
+        "codeunit/5616",
+        "table/5612"
+      ]
+    },
+    {
+      "area": "Security",
+      "what": "The LOCAL and LOCAL READ permission sets are changed to cover the UK objects.",
+      "why": null,
+      "objects": [
+        "permissionset/1001",
+        "permissionset/1002"
+      ]
+    },
+    {
+      "area": "CashFlow",
+      "what": "Cash Flow Dimensions - Detail report is changed for the UK.",
+      "why": null,
+      "objects": [
+        "report/852"
+      ]
+    },
+    {
+      "area": "FixedAsset",
+      "what": "Adds the FA - Projected Value report.",
+      "why": null,
+      "objects": [
+        "report/10560"
+      ]
+    },
+    {
+      "area": "HumanResources",
+      "what": "Employee Card gets postcode lookup procedures.",
+      "why": "Learn lists employees among the records that Ideal Postcodes can fill.",
+      "objects": [
+        "page/5200"
+      ]
+    },
+    {
+      "area": "Projects",
+      "what": "Job Ledger Entry gets a Shipment Method Code field.",
+      "why": null,
+      "objects": [
+        "table/169"
+      ]
+    },
+    {
+      "area": "RoleCenters",
+      "what": "Rolecenter Selector Mgt. gets a procedure that adds role center overview setup after login.",
+      "why": null,
+      "objects": [
+        "codeunit/1485"
+      ]
+    },
+    {
+      "area": "Utilities",
+      "what": "Adds Local Application Management, a UK-specific utility codeunit.",
+      "why": null,
+      "objects": [
+        "codeunit/10529"
+      ]
+    }
+  ],
+  "learn_pages_used": 15,
+  "prompt_version": 2,
+  "at": "2026-10-06T23:52:54.279Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.095776
+  }
+}

@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 374936443e4bec96eab9ac543ee394917161b40f17c1651efccda87829b3f0ba
@@ -170,8 +170,13 @@ links:
     - topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-business-central-on-premise/replicate-data
     - topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-business-central-on-premise/upgrade-data
   localizations: []
-  videos: []
-  posts: []
+  videos:
+    - video/01GoAUnpBnw
+    - video/O921cRqXdiw
+  posts:
+    - post/demiliani-com/13676
+    - post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-6059752303506296242
+    - post/stefanmaron-com/https://stefanmaron.com/posts/bcdb-restore-write-a-cloud-export-into-a-container/
   guidelines: []
 learn_toc_path:
   - Administration
@@ -188,8 +193,8 @@ children:
 coverage:
   learn: 20
   code: 0
-  video: 0
-  blog: 0
+  video: 2
+  blog: 3
   guideline: 0
 bc_forms: []
 member_hash: 374936443e4bec96eab9ac543ee394917161b40f17c1651efccda87829b3f0ba
@@ -213,5 +218,15 @@ Path: [Administration](../../administration.md) > [Migrate to Business Central o
 ## More Learn pages
 
 - [Complete cloud migration](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-finish): This article describes the task you do to complete the data migration from on-premises to online.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Business Central Cloud Migration: be careful on reusing the same self-hosted runtime.](../../../../posts/demiliani-com/13676.md) (community post): "Cloud migration in Dynamics 365 Business Central uses integration runtime to replicate data"
+- [Dynamics NAV, GP and SL: Why I Think Customers Should Start Planning Now](../../../../posts/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-6059752303506296242.md) (community post): "Migration from Dynamics NAV, GP, or SL to Business Central should be planned early"
+- [bcdb restore: Write a Cloud Export Into a Container](../../../../posts/stefanmaron-com/https://stefanmaron.com/posts/bcdb-restore-write-a-cloud-export-into-a-container/.md) (community post): "bcdb restore tool writes cloud exports directly into a running Docker container"
+- [What's New: Migrate Record Links and Notes (2025 release wave 2)](../../../../videos/01GoAUnpBnw.md) (video): "cloud migration; record links; notes migration; data replication"
+- [What's New: Cloud Migration and Upgrade (2023)](../../../../videos/O921cRqXdiw.md) (video): "cloud migration; data replication; performance optimization"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

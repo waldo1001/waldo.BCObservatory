@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T13:43:32.763Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -49,7 +49,11 @@ links:
   topics:
     - topic/business-central/copilot-and-agent-capabilities
   localizations: []
-  videos: []
+  videos:
+    - video/9cOdjHU15rE
+    - video/ayXdXFyFEjY
+    - video/KpQS7c6YGRo
+    - video/lNASlydCidI
   posts: []
   guidelines: []
 learn_toc_path:
@@ -61,7 +65,7 @@ children: []
 coverage:
   learn: 3
   code: 0
-  video: 0
+  video: 4
   blog: 0
   guideline: 0
 bc_forms:
@@ -98,6 +102,15 @@ The section has three pages and no subtopics. Start with the overview page to se
 - [Add marketing text to items](https://learn.microsoft.com/dynamics365/business-central/item-marketing-text): Write marketing text for items in Business Central.
 - [FAQ for marketing text suggestions](https://learn.microsoft.com/dynamics365/business-central/faqs-marketing-text): This FAQ provides information about the AI technology used in marketing text suggestions in Business Central, along with key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
 - [Marketing text suggestions with Copilot overview](https://learn.microsoft.com/dynamics365/business-central/ai-overview): Get an overview of the AI content-generating capabilities in Business Central.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#BCTalent and AI: A Learner’s Guide](../../../videos/9cOdjHU15rE.md) (video): "BC Copilot for item description generation"
+- [Drive Sales with AI-Generated Product Descriptions in Business Central (2024 release wave 1)](../../../videos/ayXdXFyFEjY.md) (video): "product descriptions; copilot; ai-generated content; image analysis"
+- [What's New: Marketing Text Suggestions (2023 release wave 2)](../../../videos/KpQS7c6YGRo.md) (video): "marketing text suggestions; copilot; ai-powered features"
+- [What's New: Designing and Developing Generative AI Experiences for Your Apps (2023 Release Wave 2)](../../../videos/lNASlydCidI.md) (video): "Marketing Text Suggestions Built-in Capability"
 
 ## Business Central pages and reports
 

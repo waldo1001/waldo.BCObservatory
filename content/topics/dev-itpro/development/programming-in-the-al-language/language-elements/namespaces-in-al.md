@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: f4f9f021b50d52006b83b0a058e00599e1c04b536d7c283a84d69050106c3516
@@ -40,8 +40,14 @@ links:
   topics:
     - topic/dev-itpro/development/programming-in-the-al-language/language-elements
   localizations: []
-  videos: []
-  posts: []
+  videos:
+    - video/-vCiEloR61U
+    - video/KmuTVkodRXM
+    - video/nMiLzdfidos
+    - video/TY82NR2hGEg
+  posts:
+    - post/aardvarklabs-blog/3255
+    - post/dvlprlife-com/https://www.dvlprlife.com/2026/06/weekly-review-business-central-al-development-june-21-27-2026/
   guidelines: []
 learn_toc_path:
   - Development
@@ -54,8 +60,8 @@ children: []
 coverage:
   learn: 2
   code: 0
-  video: 0
-  blog: 0
+  video: 4
+  blog: 2
   guideline: 0
 bc_forms: []
 member_hash: f4f9f021b50d52006b83b0a058e00599e1c04b536d7c283a84d69050106c3516
@@ -72,5 +78,16 @@ Path: [Development](../../../development.md) > [Programming in the AL language](
 
 - [Adopting namespaces in AL](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-namespaces-structure): Learn about features, tools, and best practices for structuring and adopting namespaces in your AL code for Business Central.
 - [Namespaces in AL](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-namespaces-overview): Namespaces in AL provide a way to organize your code into logical units and avoid naming conflicts.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Navigating Namespace Changes in Business Central 28](../../../../../posts/aardvarklabs-blog/3255.md) (community post): "Fully qualified names enable direct object reference without using statements"
+- [Weekly Review: Business Central AL Development – June 21–27, 2026](../../../../../posts/dvlprlife-com/https://www.dvlprlife.com/2026/06/weekly-review-business-central-al-development-june-21-27-2026/.md) (community post): "Moving older AL apps to namespaces improves object clarity"
+- [Business Central 29: New ModuleInfo Properties Explained](../../../../../videos/-vCiEloR61U.md) (video): "ModuleInfo help property; ModuleInfo ULA property; ModuleInfo privacy statement"
+- [All new goodies about AL Namespace in BC 2025 wave 2](../../../../../videos/KmuTVkodRXM.md) (video): "AL namespace; record id formatting; system reflection; fully qualified names"
+- [What's New: AL Language (2026 release wave 1)](../../../../../videos/nMiLzdfidos.md) (video): "namespaces; fully qualified names; symbol downloads; workspace compilation"
+- [What's New: Business Central Developer Tools (2023 release wave 2)](../../../../../videos/TY82NR2hGEg.md) (video): "Namespaces in AL language; Using directives for namespace imports"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

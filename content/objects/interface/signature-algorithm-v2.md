@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:21:46.353Z"
+  at: "2026-10-06T23:56:28.878Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 58d8db55e97e66ba5629d8b667918457f622e4b130f965b494138a744e56475c
+  input_hash: b16221cc40cea0fdf23365e8d6b54448a75c51ec9fa05adbcd254ed76b975730
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/System%20Application/App/Cryptography%20Management/src/SignatureAlgorithmv2.Interface.al
@@ -61,6 +61,12 @@ counts:
   procedures: 5
   events: 0
   subscribers: 0
+relations:
+  out: 0
+  referenced_by: 0
+  pages: 0
+  extended_by: 0
+  event_subscribers: 0
 ---
 
 # Interface "Signature Algorithm v2"

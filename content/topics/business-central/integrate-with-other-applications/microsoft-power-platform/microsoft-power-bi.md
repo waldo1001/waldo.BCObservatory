@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: ad8088d8284c837e377bde659aa746188f4a289b98ea042bd26853f8be90ab7d
@@ -88,8 +88,10 @@ links:
   topics:
     - topic/business-central/integrate-with-other-applications/microsoft-power-platform
   localizations: []
-  videos: []
-  posts: []
+  videos:
+    - video/sZ7wMU1Uxio
+  posts:
+    - post/waldo-be/318707
   guidelines: []
 learn_toc_path:
   - Integrate with other applications
@@ -101,8 +103,8 @@ children: []
 coverage:
   learn: 8
   code: 0
-  video: 0
-  blog: 0
+  video: 1
+  blog: 1
   guideline: 0
 bc_forms:
   - 6316
@@ -128,6 +130,13 @@ Path: [Integrate with other applications](../../integrate-with-other-application
 - [Power BI integration component and architecture overview for Business Central\| Microsoft Docs](https://learn.microsoft.com/dynamics365/business-central/admin-powerbi-overview): Learn about the different aspects of Power BI integration with Business Central.
 - [Use the Business Central apps in Power BI](https://learn.microsoft.com/dynamics365/business-central/across-powerbi-business-central-apps): Easily gain insights, business intelligence, and KPIs from your Business Central data using the Business Central apps for Power BI.
 - [Working with Power BI reports in Business Central](https://learn.microsoft.com/dynamics365/business-central/across-working-with-powerbi): Get insight, business intelligence, and key performance indicators from your Business Central data with Power BI.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Business Central data in Fabric: the way it should be](../../../../posts/waldo-be/318707.md) (community post): "Business Central now supports native data mirroring to Microsoft Fabric"
+- [Change Dataset Properties for a Power BI Telemetry App in Power BI](../../../../videos/sZ7wMU1Uxio.md) (video): "power bi; telemetry; dataset properties; refresh rate"
 
 ## Business Central pages and reports
 

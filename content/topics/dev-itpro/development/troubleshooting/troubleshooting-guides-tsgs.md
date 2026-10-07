@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 6f38afa944b2d93ca8dec81bee099291077c21d1b6f834e3c5289912e95d9480
@@ -56,7 +56,8 @@ links:
     - topic/dev-itpro/development/troubleshooting/troubleshooting-guides-tsgs/troubleshoot-web-services
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/waldo-be/318335
   guidelines: []
 learn_toc_path:
   - Development
@@ -70,7 +71,7 @@ coverage:
   learn: 4
   code: 0
   video: 0
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms: []
 member_hash: 6f38afa944b2d93ca8dec81bee099291077c21d1b6f834e3c5289912e95d9480
@@ -91,5 +92,11 @@ Path: [Development](../../development.md) > [Troubleshooting](../troubleshooting
 
 - [Troubleshooting Cloud Migration](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-troubleshooting): Learn how to troubleshoot problems that you might experience with the cloud migration to Business Central online from on-premises.
 - [Troubleshooting reports](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-reports-troubleshooting): Learn about how to troubleshoot Business Central reports
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Troubleshooting Series – Ep4 – Event Recorder](../../../../posts/waldo-be/318335.md) (community post): "The Event Recorder is a Business Central troubleshooting tool that captures all events during a specific process"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

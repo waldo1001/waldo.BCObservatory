@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 280951ab58ff0d16566c5b5922b1480da263f6efcf002cab84ac99778cd40934
@@ -40,8 +40,12 @@ links:
   topics:
     - topic/dev-itpro/development/get-started
   localizations: []
-  videos: []
-  posts: []
+  videos:
+    - video/HYqjpyHZ84Q
+  posts:
+    - post/demiliani-com/14222
+    - post/freddysblog/https://freddysblog.com/2026/08/25/what-is-algoctl
+    - post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-81-keep-bccontainerhelper-up-to-date/
   guidelines: []
 learn_toc_path:
   - Development
@@ -53,8 +57,8 @@ children: []
 coverage:
   learn: 2
   code: 0
-  video: 0
-  blog: 0
+  video: 1
+  blog: 3
   guideline: 0
 bc_forms: []
 member_hash: 280951ab58ff0d16566c5b5922b1480da263f6efcf002cab84ac99778cd40934
@@ -71,5 +75,14 @@ Path: [Development](../../development.md) > [Get started](../get-started.md) > A
 
 - [AL Development Tools package](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-tool-package): Streamline AL extension development with the AL Development Tools package. Access powerful command-line utilities for compiling, packaging, and automating workflows.
 - [ALTool Command-Line Reference for AL Development](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-tool): Simplify AL extension development with ALTool. Validate code, package extensions, and integrate into CI/CD pipelines for seamless deployment.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Dynamics 365 Business Central: automatic .NET runtime acquisition on AL Language Extension.](../../../../posts/demiliani-com/14222.md) (community post): "AL Language extension now automatically downloads and installs .NET 10.0 runtime"
+- [What is ALGoCtl?](../../../../posts/freddysblog/https://freddysblog.com/2026/08/25/what-is-algoctl.md) (community post): "ALGoCtl is a command-line tool that automates AL-Go for GitHub"
+- [BC Friday Tips #81 Keep BCContainerHelper Up to Date](../../../../posts/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-81-keep-bccontainerhelper-up-to-date/.md) (community post): "BCContainerHelper is a PowerShell module for Business Central container workflows"
+- [AL-Go for Github March Office Hour](../../../../videos/HYqjpyHZ84Q.md) (video): "al-go; github; ci-cd; al-go settings reference"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

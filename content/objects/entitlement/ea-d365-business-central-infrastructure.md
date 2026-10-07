@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:21:46.353Z"
+  at: "2026-10-06T23:56:28.878Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 74b3eb3222af7d77d3093d99eec80bb3b7813b28c6fdf37764f28e10191c7e9a
+  input_hash: 7b741561c4f9964e50ab4d1555195ae64d6a90cfc83001525c782821744904a1
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/ExpenseAgent/app/src/Entitlements/Applications/EAD365BusinessCentralInfrastructure.Entitlement.al
@@ -60,6 +60,12 @@ counts:
   procedures: 0
   events: 0
   subscribers: 0
+relations:
+  out: 0
+  referenced_by: 0
+  pages: 0
+  extended_by: 0
+  event_subscribers: 0
 ---
 
 # Entitlement "EA - D365 Business Central Infrastructure"

@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: b75ed0c775470c42b2bddf4d626797b80251da58f1d4e35de4ef57095a8e73b9
@@ -312,7 +312,9 @@ links:
     - topic/business-central/business-functionality
     - topic/business-central/business-functionality/fixed-assets/fixed-assets-analytics
   localizations: []
-  videos: []
+  videos:
+    - video/CkGTSItdTbs
+    - video/LKt0K-EdiX0
   posts: []
   guidelines: []
 learn_toc_path:
@@ -325,7 +327,7 @@ children:
 coverage:
   learn: 40
   code: 0
-  video: 0
+  video: 2
   blog: 0
   guideline: 0
 bc_forms:
@@ -413,6 +415,13 @@ Path: [Business functionality](../business-functionality.md) > Fixed assets · t
 - [Revalue Fixed Assets](https://learn.microsoft.com/dynamics365/business-central/fa-how-revalue): Learn how to adjust the value of fixed assets, recording new amounts as a write-down or appreciation, and post other acquisition costs.
 - [Set up fixed assets](https://learn.microsoft.com/dynamics365/business-central/fa-setup): Learn about the sequence of tasks to set up fixed assets, such as machinery or buildings.
 - [The Troubleshooting FA Ledger Entries Extension](https://learn.microsoft.com/dynamics365/business-central/fa-troubleshooting-fa-ledger-entries): Use the FA Ledger Entries extension to round fixed-asset ledger amounts to whole numbers for easier reconciliation and reporting.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [What's New: Create Multiple Fixed Assets (2025 release wave 2)](../../../videos/CkGTSItdTbs.md) (video): "Create multiple fixed assets from purchase order; Fixed asset global availability"
+- [What's New: Fixed Assets (2026 release wave 1)](../../../videos/LKt0K-EdiX0.md) (video): "Bonus depreciation toggle on fixed asset card; Additional reporting fields"
 
 ## Business Central pages and reports
 

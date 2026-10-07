@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 63e11844c0c3fba771b2e865f0385029f86b83467be990c792747c692e668f43
@@ -199,7 +199,8 @@ links:
     - topic/business-central/business-functionality/design-details/design-details-inventory-costing/design-details-posting-date-on-adjustmen
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/thedynamicsexplorer-com/37371
   guidelines: []
 learn_toc_path:
   - Business functionality
@@ -213,7 +214,7 @@ coverage:
   learn: 22
   code: 0
   video: 0
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms:
   - 8645
@@ -252,6 +253,12 @@ Path: [Business functionality](../../business-functionality.md) > [Design detail
 - [Design details accounts in the general ledger](https://learn.microsoft.com/dynamics365/business-central/design-details-accounts-in-the-general-ledger): To reconcile inventory and capacity ledger entries with the general ledger, the related value entries post to different accounts in the general ledger.
 - [Design details variance](https://learn.microsoft.com/dynamics365/business-central/design-details-variance): Variance is the difference between the actual cost and the standard cost.
 - [Inventory zero open item ledger entries](https://learn.microsoft.com/dynamics365/business-central/design-details-inventory-zero-level-open-item-ledger-entries): This article addresses an issue where the inventory level is zero although open item ledger entries exist.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Dynamics 365 Business Central – Some Considerations when Changing Standard Cost on an Item Card](../../../../posts/thedynamicsexplorer-com/37371.md) (community post): "existing inventory is not revalued. Understanding these considerations is essential"
 
 ## Business Central pages and reports
 

@@ -2,7 +2,7 @@
 id: localization/de
 type: localization
 title: Germany (DE)
-summary: "Germany (DE) localization of Business Central in BC29: 128 objects of its own, 63 W1 objects changed (172 fields and 4 events added), 1 W1 objects dropped. From the code; country apps outside the Base Application are not included yet."
+summary: Germany (DE) localization of Business Central 29. It covers ELMA5 VAT reports and VIES/EU sales lists, corrective VAT reports, GoBD/GDPdU digital audit export, purchase delivery reminders, physical inventory orders, BilMoG exchange rate valuation and local reports. It answers where German VAT, audit and reminder functions live in code and on Learn.
 tier: official
 language: en
 tags:
@@ -14,10 +14,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:28:57.107Z"
+  at: "2026-10-06T23:56:28.878Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 1effd8c84de22134986a29038aff2b2ecdb8fc3aca03e8963bdd596e0ac1280e
+  prompts:
+    hub-localization: 2
+  input_hash: 127e4229dc49312b2e71055741324a6ba57cd80323de25ef1595471f069f3f7a
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps
@@ -105,16 +106,185 @@ w1_version: "29"
 added_objects: 128
 replaced_objects: 63
 removed_objects: 1
-added_fields: 172
+added_fields: 92
 added_events: 4
 learn_folder: LocalFunctionality/Germany
 ---
 
 # Germany (DE)
 
-> Germany (DE) localization of Business Central in BC29: 128 objects of its own, 63 W1 objects changed (172 fields and 4 events added), 1 W1 objects dropped. From the code; country apps outside the Base Application are not included yet.
+> Germany (DE) localization of Business Central 29. It covers ELMA5 VAT reports and VIES/EU sales lists, corrective VAT reports, GoBD/GDPdU digital audit export, purchase delivery reminders, physical inventory orders, BilMoG exchange rate valuation and local reports. It answers where German VAT, audit and reminder functions live in code and on Learn.
 
-BC29 · country layer against W1 · Learn: [local functionality](../topics/business-central/business-functionality/local-functionality/germany.md)
+BC29 · country layer against W1 · Learn: [local functionality](../topics/business-central/business-functionality/local-functionality/germany.md) · narrative **unreviewed** (machine-written)
+
+## Overview
+
+The German layer extends the W1 VAT report framework (tables 740, 741, 743, codeunits 737 to 744, report 741) with ELMA5 export, VIES ELMA XML, cancellation and correction line types, and company, tax office and registration fields. Learn documents this in "How to Create VAT Reports [DE]", "Correct VAT Reports [DE]", "How to Set Up VAT Reports [DE]", "EU Sales List in Germany" and "VAT Reporting in the German version". Local reports include VAT Statement Germany, VAT Statement Schedule and the VAT-VIES declaration. Sales VAT advance notifications use new fields on General Ledger Setup and VAT Statement Name.
+
+The country also adds its own functional blocks. A data export module (tables 11002 to 11010, codeunit 11000, report 11015 "Export Business Data") supports GoBD/GDPdU digital audits. A delivery reminder module for purchases (tables 5005270 to 5005278, pages, codeunits and reports) covers terms, levels, text, creation, issuing and test reports. A physical inventory order module (tables 5005350 to 5005363) is also added. The "DACH" naming points to shared use with Austria and Switzerland, for example DACH Report Selections and several AT and CH reports.
+
+W1 changes include Registration No. on vendor and purchase documents, tax office fields on Company Information, BilMoG valuation parameters on the exchange rate adjustment, a Correction check in Gen. Jnl.-Post Batch, premium depreciation fields on Fixed Asset, and a few events on posting, VAT report validation, Navigate and the VAT statement preview.
+
+## Key points
+
+- VAT reports: ELMA5 export, cancellation and correction lines, Suggest Lines and Correct Lines, extra fields on VAT Report Header, Line and Setup.
+- EU sales list and VIES: VIES ELMA XML codeunit, Export VIES Report, VAT-VIES Declaration Tax DE report.
+- Local VAT reports: VAT Statement Germany, VAT Statement Schedule and sales VAT advance notification setup (ELSTER export per Learn).
+- Digital audit (GoBD/GDPdU): Data Export tables, pages and setup, plus Export Business Data report with period and date filter handling.
+- Delivery reminders for purchases: terms, levels, text, vendor codes, create, issue and test report, with ledger entries.
+- Currency exchange rate adjustment gets BilMoG valuation method, valuation date and due date parameters.
+- Physical inventory orders, recordings and posted versions are added as new tables with number series on Inventory Setup.
+- Company Information gains tax office, authorized number and place of dispatcher/receiver fields; vendors and purchase documents gain Registration No.
+
+Narrative written by Sonnet from the code diff and 30 Learn page summaries. In numbers: Germany (DE) localization of Business Central in BC29: 128 objects of its own, 63 W1 objects changed (92 fields and 4 events added), 1 W1 objects dropped. From the code; country apps outside the Base Application are not included yet.
+
+## By area
+
+| Area | W1 objects changed | Own objects | Fields added |
+|---|---|---|---|
+| [Finance](#finance) | 33 | 37 | 49 |
+| [Purchases](#purchases) | 9 | 46 | 11 |
+| [Inventory](#inventory) | 5 | 21 | 5 |
+| [Foundation](#foundation) | 6 | 9 | 24 |
+| [(no namespace)](#no-namespace) | 0 | 7 | 0 |
+| [FixedAssets](#fixedassets) | 4 | 2 | 3 |
+| [Security](#security) | 2 | 2 | 0 |
+| [CRM](#crm) | 2 | 0 | 0 |
+| [Sales](#sales) | 1 | 1 | 0 |
+| [Manufacturing](#manufacturing) | 0 | 1 | 0 |
+| [Microsoft](#microsoft) | 0 | 1 | 0 |
+| [Service](#service) | 1 | 0 | 0 |
+| [Utilities](#utilities) | 0 | 1 | 0 |
+
+### Finance
+
+Extends the VAT report framework with ELMA5 and VIES ELMA XML export, cancellation and correction lines, and added setup and header fields. Adds a data export module for digital audits, local reports (VAT Statement Germany, Schedule, VIES, G/L Total-Balance), BilMoG exchange rate adjustment parameters, and a payment application check in Gen. Jnl.-Post Batch.
+
+Why: Learn explains that ELMA5 is used to file VAT and EU sales lists, that the digital audit follows GoBD/GDPdU, and that year-end exchange rate adjustment uses the BilMoG valuation method.
+
+Objects: [table/740 "VAT Report Header"](../objects/table/740.md), [table/741 "VAT Report Line"](../objects/table/741.md), [table/743 "VAT Report Setup"](../objects/table/743.md), [codeunit/743 "VAT Report Export"](../objects/codeunit/743.md), codeunit/11001 "VIES ELMA Xml" (own), [report/741 "VAT Report Suggest Lines"](../objects/report/741.md), codeunit/11000 "Data Export Management" (own), report/11015 "Export Business Data" (own).
+
+[All 70 objects of Finance in the diff](?ns=Finance#country-diff)
+
+### Purchases
+
+Adds the delivery reminder feature: header, line, issued and ledger tables, terms, levels, text, pages, create and issue codeunits and reports. Adds archive options on Purchases & Payables Setup, Registration No. on Vendor Templ., and local vendor reports.
+
+Why: Learn describes delivery reminders as a way to track supplier delivery performance.
+
+Objects: table/5005270 "Delivery Reminder Header" (own), table/5005271 "Delivery Reminder Line" (own), codeunit/5005271 "Create Delivery Reminder" (own), codeunit/5005270 "Issue Delivery Reminder" (own), page/5005270 "Delivery Reminder" (own), report/5005340 "Create Delivery Reminder" (own), report/5005341 "Issue Delivery Reminder" (own), [table/312 "Purchases & Payables Setup"](../objects/table/312.md).
+
+[All 55 objects of Purchases in the diff](?ns=Purchases#country-diff)
+
+### Inventory
+
+Adds physical inventory orders and recordings with posted and tracking tables, place of dispatcher and receiver tables, and number series fields on Inventory Setup. Also adds Item ABC Analysis, Crossborder Services and inventory value reports, and changes Intrastat related tables.
+
+Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
+
+Objects: table/5005350 "Phys. Inventory Order Header" (own), table/5005351 "Phys. Inventory Order Line" (own), table/5005352 "Phys. Invt. Recording Header" (own), [table/313 "Inventory Setup"](../objects/table/313.md), table/11000 "Place of Dispatcher" (own), table/11001 "Place of Receiver" (own), report/11503 "Item ABC Analysis" (own), [table/263 "Intrastat Jnl. Line"](../objects/table/263.md).
+
+[All 26 objects of Inventory in the diff](?ns=Inventory#country-diff)
+
+### Foundation
+
+Adds tax office, authorization and dispatcher fields to Company Information, DACH report selections with new usages, and address formatting for tax offices. Adds Delivery Reminder source code and print procedures in Document-Print.
+
+Why: Learn notes company registration numbers on reports come from Company Information.
+
+Objects: [table/79 "Company Information"](../objects/table/79.md), table/26100 "DACH Report Selections" (own), [codeunit/365 "Format Address"](../objects/codeunit/365.md), [codeunit/229 "Document-Print"](../objects/codeunit/229.md), [codeunit/1901 "Report Selection Mgt."](../objects/codeunit/1901.md), [table/242 "Source Code Setup"](../objects/table/242.md), enumextension/26101 "Report Selection Usage Del. Rem." (own), enumextension/26102 "Report Sel. Usage Purch. DACH" (own).
+
+[All 15 objects of Foundation in the diff](?ns=Foundation#country-diff)
+
+### (no namespace)
+
+Holds the VAT Report Lines page, the Data Export Setup table, the Intrastat item list report, and upgrade and sandbox cleanup plumbing.
+
+Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
+
+Objects: page/784 "VAT Report Lines" (own), table/11009 "Data Export Setup" (own), report/11001 "Intrastat - Item List" (own).
+
+[All 7 objects of (no namespace) in the diff](?ns=(no%20namespace)#country-diff)
+
+### FixedAssets
+
+Adds fields for BWR depreciation book and premium depreciation on Fixed Asset, an exclude reclassification entries procedure in FA General Report, and local book value and list reports.
+
+Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
+
+Objects: [table/5600 "Fixed Asset"](../objects/table/5600.md), report/11011 "Fixed Asset - Book Value 03" (own), [codeunit/5626 "FA General Report"](../objects/codeunit/5626.md), report/11100 "Fixed Assets - List AT" (own).
+
+[All 6 objects of FixedAssets in the diff](?ns=FixedAssets#country-diff)
+
+### Security
+
+Extends the LOCAL and LOCAL READ permission sets, with extensions for delivery reminder permissions.
+
+Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
+
+Objects: [permissionset/1001 "LOCAL"](../objects/permissionset/1001.md), [permissionset/1002 "LOCAL READ"](../objects/permissionset/1002.md), permissionsetextension/5005270 "DR LOCAL" (own), permissionsetextension/5005271 "DR LOCAL READ" (own).
+
+[All 4 objects of Security in the diff](?ns=Security#country-diff)
+
+### CRM
+
+Changes the Export Contact and Export Segment Contact XMLports.
+
+Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
+
+Objects: [xmlport/5050 "Export Contact"](../objects/xmlport/5050.md), [xmlport/5051 "Export Segment Contact"](../objects/xmlport/5051.md).
+
+[All 2 objects of CRM in the diff](?ns=CRM#country-diff)
+
+### Sales
+
+Adds a Customer Total-Balance report and changes Sales Line Archive.
+
+Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
+
+Objects: report/11003 "Customer Total-Balance" (own), [table/5108 "Sales Line Archive"](../objects/table/5108.md).
+
+[All 2 objects of Sales in the diff](?ns=Sales#country-diff)
+
+### Manufacturing
+
+Adds a page extension for the Manufacturing Manager role center.
+
+Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
+
+Objects: pageextension/11010 "Manufacturing Manager RC DACH" (own).
+
+[All 1 objects of Manufacturing in the diff](?ns=Manufacturing#country-diff)
+
+### Microsoft
+
+Adds a Certificate table.
+
+Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
+
+Objects: table/11014 "Certificate" (own).
+
+[All 1 objects of Microsoft in the diff](?ns=Microsoft#country-diff)
+
+### Service
+
+Service Credit Memo report gets procedures for the document caption and number label.
+
+Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
+
+Objects: [report/5912 "Service - Credit Memo"](../objects/report/5912.md).
+
+[All 1 objects of Service in the diff](?ns=Service#country-diff)
+
+### Utilities
+
+Adds the GeneralMgt codeunit with local helper functions.
+
+Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
+
+Objects: codeunit/11501 "GeneralMgt" (own).
+
+[All 1 objects of Utilities in the diff](?ns=Utilities#country-diff)
 
 ## W1 objects this country changes
 
@@ -156,7 +326,7 @@ BC29 · country layer against W1 · Learn: [local functionality](../topics/busin
 | [table/98 "General Ledger Setup"](../objects/table/98.md) | +2 fields, 2 fields changed |
 | [table/122 "Purch. Inv. Header"](../objects/table/122.md) | +1 fields |
 | [table/124 "Purch. Cr. Memo Hdr."](../objects/table/124.md) | +1 fields |
-| [table/242 "Source Code Setup"](../objects/table/242.md) | +81 fields, 5 properties |
+| [table/242 "Source Code Setup"](../objects/table/242.md) | +1 fields |
 | [table/254 "VAT Entry"](../objects/table/254.md) | +1 fields |
 | [table/257 "VAT Statement Name"](../objects/table/257.md) | +1 fields |
 | [table/260 "Tariff Number"](../objects/table/260.md) | 1 fields changed |
@@ -323,6 +493,6 @@ Country-only objects have no object page yet (their ids repeat across countries)
 
 ## Other versions
 
-- BC30: 192 objects differ from W1 (172 fields, 4 events added)
+- BC30: 192 objects differ from W1 (92 fields, 4 events added)
 
 Source: country layer of the Base Application compared with W1 of the same version (data/code/diffs/country/).

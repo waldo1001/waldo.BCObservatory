@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: b40e5967a62ab6d6c9e606690c06026a4b81e84def0aee298e90bbc798d4459e
@@ -321,8 +321,12 @@ links:
     - topic/dev-itpro/development/programming-in-the-al-language/developing-printer-extensions
     - topic/dev-itpro/development/programming-in-the-al-language/using-net-on-premises-only
   localizations: []
-  videos: []
-  posts: []
+  videos:
+    - video/QhHgkCe3kkk
+  posts:
+    - post/demiliani-com/13931
+    - post/duiliotacconi-com/2117
+    - post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-72-inlay-hints/
   guidelines: []
 learn_toc_path:
   - Development
@@ -349,8 +353,8 @@ children:
 coverage:
   learn: 340
   code: 0
-  video: 0
-  blog: 0
+  video: 1
+  blog: 3
   guideline: 0
 bc_forms:
   - 16
@@ -421,6 +425,15 @@ Path: [Development](../development.md) > Programming in the AL language · tier 
 ## More Learn pages
 
 - [Programming in AL](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-programming-in-al): AL is the programming language used for manipulating data such as retrieving, inserting, and modifying records in a Business Central database. It controls the execution of the various application objects, such as pages, reports, or codeunits.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Dynamics 365 Business Central: Using Semantic Search from AL](../../../posts/demiliani-com/13931.md) (community post): "embedding-based semantic search as a native AL capability"
+- [Optimized Base64 file handling in Dynamics 365 Business Central 2026 Wave 1](../../../posts/duiliotacconi-com/2117.md) (community post): "new platform codeunit for Base64 encoding and decoding that automatically improves performance"
+- [BC Friday Tips #72 Inlay Hints](../../../posts/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-72-inlay-hints/.md) (community post): "Inlay Hints in VS Code display inline parameter names and return types while coding"
+- [What's New in AL: Embedding Resources in Applications (2024 release wave 2)](../../../videos/QhHgkCe3kkk.md) (video): "Embedding resources in applications; get resource function; Multiple resource folders"
 
 ## Business Central pages and reports
 

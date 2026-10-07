@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: ded668fce5698d554014a03cb0248739e1b8cce7882db2d6f6f80adf71b920e1
@@ -65,7 +65,9 @@ links:
     - topic/dev-itpro/development/programming-in-the-al-language/handling-security
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/aardvarklabs-blog/3460
+    - post/freddysblog/https://freddysblog.com/2026/08/19/new-feature-in-fkh-keyvault-and-secrets-handling
   guidelines: []
 learn_toc_path:
   - Development
@@ -79,7 +81,7 @@ coverage:
   learn: 5
   code: 0
   video: 0
-  blog: 0
+  blog: 2
   guideline: 0
 bc_forms: []
 member_hash: ded668fce5698d554014a03cb0248739e1b8cce7882db2d6f6f80adf71b920e1
@@ -99,5 +101,12 @@ Path: [Development](../../../development.md) > [Programming in the AL language](
 - [Set up app key vaults for Business Central online](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/setup-app-key-vault): Learn how to set up Azure key vaults for Business Central online extensions. Follow step-by-step instructions to securely manage secrets for your Marketplace apps.
 - [Setting up App Key Vaults for Business Central on-premises](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/setup-app-key-vault-onprem): Describes how to set up App Key Vault with Business Central on-premises.
 - [Using Key Vault Secrets in Business Central Extensions](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-app-key-vault): Describes how to use an Azure Key vault with Business Central extensions.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Native SFTP Support in Business Central 28](../../../../../posts/aardvarklabs-blog/3460.md) (community post): "Sensitive FTP credentials should be stored using Isolated Storage with SecretText"
+- [New feature in Fkh: A KeyVault and secrets handling](../../../../../posts/freddysblog/https://freddysblog.com/2026/08/19/new-feature-in-fkh-keyvault-and-secrets-handling.md) (community post): "Fkh now deploys an Azure Key Vault in your own subscription"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

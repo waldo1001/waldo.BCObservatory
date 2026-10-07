@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: e63799d0490adc0aa7ab352fb77c426572f14cdf906996d0533152b72c13ec1e
@@ -313,8 +313,16 @@ links:
     - topic/dev-itpro/development/extensibility/developing-client-add-ins
     - topic/dev-itpro/development/extensibility/embedding-power-bi
   localizations: []
-  videos: []
-  posts: []
+  videos:
+    - video/Fk6kWTe3f2Y
+    - video/QGIr_XPp8lk
+    - video/reUoIdQZaNM
+    - video/uxYuoJP-uH8
+  posts:
+    - post/gerardorenteria-blog/14816
+    - post/gerardorenteria-blog/14993
+    - post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-75-dynamics-bc-excel-reports/
+    - post/thinkaboutit-be/8120
   guidelines: []
 learn_toc_path:
   - Development
@@ -331,8 +339,8 @@ children:
 coverage:
   learn: 42
   code: 0
-  video: 0
-  blog: 0
+  video: 4
+  blog: 4
   guideline: 0
 bc_forms:
   - 4500
@@ -368,6 +376,19 @@ Path: [Development](../development.md) > Extensibility · tier official · syste
 - [Extensibility overview](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extensibility-overview): How you can extend functionality in Dynamics 365 Business Central.
 - [Extension objects overview](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extension-object-overview): Get an overview of the extension objects you can create in AL for Business Central.
 - [Get started with modules](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-getting-started): Provides an overview of what you need to work with modules in the System Application.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [World Cup in Business Central: predictions and results ⚽🥅](../../../posts/gerardorenteria-blog/14816.md) (community post): "Extension imports World Cup matches from public JSON sources and displays date"
+- [🧭 Page Explorer for Business Central: everything a page hides, in plain sight](../../../posts/gerardorenteria-blog/14993.md) (community post): "Page Explorer is an AL extension that displays all fields and actions available"
+- [BC Friday Tips #75 Dynamics BC Excel Reports](../../../posts/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-75-dynamics-bc-excel-reports/.md) (community post): "Excel Reports objects in Business Central belong to the Dynamics BC Excel Reports extension"
+- [Quick Tip: What’s in Business Central 2026 Release Wave 2, Update 29.0 Preview](../../../posts/thinkaboutit-be/8120.md) (community post): "New table extension data model stores all fields in the same underlying table"
+- [Deploy Analysis Views with AL Code in Business Central 2026 Wave 1 (No Manual Setup)](../../../videos/Fk6kWTe3f2Y.md) (video): "Analysis views packaged in AL extensions; Analysis view component in page AL syntax"
+- [What's New: Extending E-Documents with New Interface (2025 release wave 1)](../../../videos/QGIr_XPp8lk.md) (video): "Extending E-Documents with New Interface; interfaces; api design"
+- [20260209 - Chaos to Clarity - Visualizing AL architecture for scalable Business Central solutions](../../../videos/reUoIdQZaNM.md) (video): "AL architecture; c4 model; software architecture diagrams; interfaces; bridge app pattern"
+- [Let's pass MB-820: Episode 19 - Extend ApplicationArea with custom areas](../../../videos/uxYuoJP-uH8.md) (video): "Application Area extension; Enable custom area function; Application area validation"
 
 ## Business Central pages and reports
 

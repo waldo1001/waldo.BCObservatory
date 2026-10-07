@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: eefd57372fd0a77719b4b15aea8c5b36a55ba35ee124e37db311150bab184a36
@@ -57,7 +57,9 @@ links:
     - topic/business-central/business-functionality/warehouse-management/internal-warehouse-processes
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/aardvarklabs-blog/3579
+    - post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-1366699589934952404
   guidelines: []
 learn_toc_path:
   - Business functionality
@@ -71,7 +73,7 @@ coverage:
   learn: 4
   code: 0
   video: 0
-  blog: 0
+  blog: 2
   guideline: 0
 bc_forms:
   - 393
@@ -103,6 +105,13 @@ Path: [Business functionality](../../../business-functionality.md) > [Warehouse 
 - [Move items in warehouses that use directed put-away and pick](https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-move-items-in-advanced-warehousing): This article explains how to move items in locations that use directed put-away and pick.
 - [Move Items Unplanned in Basic Warehouse Configurations](https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-move-items-ad-hoc-in-basic-warehousing): This article explains unplanned internal movements between bins without a demand from a source document.
 - [Transfer items between locations](https://learn.microsoft.com/dynamics365/business-central/inventory-how-transfer-between-locations): Learn how to transfer items, inventory, or stock between locations by using transfer orders or the item reclassification journal.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Creating a Low-Cost RFID System with Business Central and Power Automate](../../../../../posts/aardvarklabs-blog/3579.md) (community post): "Building a low-cost RFID system using ESP32 microcontroller for resource tracking"
+- [Direct transfers from warehouse-enabled locations in Business Central 2026 wave 2](../../../../../posts/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-1366699589934952404.md) (community post): "direct transfers to work with warehouse-enabled source locations"
 
 ## Business Central pages and reports
 

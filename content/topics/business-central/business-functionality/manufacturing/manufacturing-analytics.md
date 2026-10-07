@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: f780ddd21d677bb723267179c6edf666998905f7cc626f28f7330de98ae5b8fb
@@ -309,7 +309,8 @@ links:
     - topic/business-central/business-functionality/manufacturing/manufacturing-analytics/built-in-production-reports
     - topic/business-central/business-functionality/manufacturing/manufacturing-analytics/obsolete-reports-will-be-removed
   localizations: []
-  videos: []
+  videos:
+    - video/6NuJOL8DEqA
   posts: []
   guidelines: []
 learn_toc_path:
@@ -325,7 +326,7 @@ children:
 coverage:
   learn: 50
   code: 0
-  video: 0
+  video: 1
   blog: 0
   guideline: 0
 bc_forms:
@@ -403,6 +404,12 @@ Path: [Business functionality](../../business-functionality.md) > [Manufacturing
 
 - [Manufacturing analytics](https://learn.microsoft.com/dynamics365/business-central/manufacturing-analytics-overview): Business Central has features that can help you gather, analyze, and share data from your manufacturing processes for business intelligence and decision-making in your organization.
 - [View Load on Work and Machine Centers](https://learn.microsoft.com/dynamics365/business-central/production-how-to-view-the-load-on-work-centers): Learn how to compare resource load and capacity, identify bottlenecks, use finite scheduling, and review the Work Center Task List.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [What's New: Manufacturing Analytics (Updated Power BI App) Electronic Documents(2025 release wave 1)](../../../../videos/6NuJOL8DEqA.md) (video): "manufacturing analytics; updated reports; work center load; expected capacity"
 
 ## Business Central pages and reports
 

@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: c65681f76488b6d62ac5f7a68a84bf1bdfac78b07d864f8daca0257b69741bc3
@@ -40,8 +40,11 @@ links:
   topics:
     - topic/business-central/business-functionality/finance
   localizations: []
-  videos: []
-  posts: []
+  videos:
+    - video/HI7VcPzR2OE
+    - video/u1oO9MEg9kc
+  posts:
+    - post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-1716125815035715885
   guidelines: []
 learn_toc_path:
   - Business functionality
@@ -53,8 +56,8 @@ children: []
 coverage:
   learn: 2
   code: 0
-  video: 0
-  blog: 0
+  video: 2
+  blog: 1
   guideline: 0
 bc_forms:
   - 5
@@ -73,6 +76,14 @@ Path: [Business functionality](../../business-functionality.md) > [Finance](../f
 
 - [Currencies in Business Central](https://learn.microsoft.com/dynamics365/business-central/finance-currencies): Learn how to define your local currency and the foreign currencies that your business uses.
 - [Update currency exchange rates](https://learn.microsoft.com/dynamics365/business-central/finance-how-update-currencies): Learn how to use Business Central to adjust exchange rates for amounts in different currencies.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [How to Add Currency Symbols to Numeric Fields in Business Central.](../../../../posts/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-1716125815035715885.md) (community post): "configurable currency symbols on numeric fields to help finance users"
+- [What's New: Financial Management - Overview (2024 release wave 1)](../../../../videos/HI7VcPzR2OE.md) (video): "GL Revaluation and Currency Code on GL Entries"
+- [What's New: Financial Management - G/L Account Revaluations (2024 release wave 1)](../../../../videos/u1oO9MEg9kc.md) (video): "GL Account Revaluation; currency revaluation; exchange rate adjustments"
 
 ## Business Central pages and reports
 

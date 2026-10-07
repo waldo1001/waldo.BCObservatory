@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T13:43:32.763Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -49,7 +49,10 @@ links:
   topics:
     - topic/business-central/copilot-and-agent-capabilities
   localizations: []
-  videos: []
+  videos:
+    - video/fgWFOMPJd6U
+    - video/HjsOuhThGKk
+    - video/q0TxpWfm9rc
   posts: []
   guidelines: []
 learn_toc_path:
@@ -61,7 +64,7 @@ children: []
 coverage:
   learn: 3
   code: 0
-  video: 0
+  video: 3
   blog: 0
   guideline: 0
 bc_forms: []
@@ -98,5 +101,13 @@ Start with the how-to page to use the feature. Read the FAQ if you need to under
 - [Responsible AI FAQ for summarize (preview)](https://learn.microsoft.com/dynamics365/business-central/faqs-summarize): Learn about the AI technology of summarize in Business Central, considerations, details about how AI is used, tested, evaluated, and limitations.
 - [Summarize a record with Copilot](https://learn.microsoft.com/dynamics365/business-central/summarize-with-copilot): Learn how to use the Summarize feature with Copilot in Business Central to get an overview of your data and identify what needs your attention.
 - [Troubleshoot Expense Agent Issues](https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-troubleshoot): Find solutions for common issues in Expense Agent, including sign-in problems, receipt upload failures, and policy violations.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Business Central Under the Hood 11: New Data-Driven Copilot Experiences – Summarize with Copilot](../../../videos/fgWFOMPJd6U.md) (video): "Summarize with Copilot; Multi-Prompt Pipeline for Summarization"
+- [What's New: Summarize with Copilot (2025 release wave 1)](../../../videos/HjsOuhThGKk.md) (video): "Summarize with Copilot; Summary fact box; Interactive summary drill-down"
+- [What's New: Enhancements to Copilot Summaries (2025 release wave 2)](../../../videos/q0TxpWfm9rc.md) (video): "Enhancements to Copilot Summaries ai insights multi-language support interactive"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

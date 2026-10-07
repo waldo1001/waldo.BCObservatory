@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: bea7f77d13aa5948dc64af86ef89007295f05f4e26cbf4a3cfa914d19ac2cf36
@@ -181,7 +181,13 @@ links:
     - topic/dev-itpro/integration/integrating-with-microsoft-dataverse/data-synchronization
     - topic/dev-itpro/integration/integrating-with-microsoft-dataverse/data-virtualization
   localizations: []
-  videos: []
+  videos:
+    - video/-q8Gm7u7R2A
+    - video/auoHUd24Gfw
+    - video/fIOnGEARkKs
+    - video/ItuCEHpaI1E
+    - video/V_ZyGeF5JXE
+    - video/YTA8c2XyTX4
   posts: []
   guidelines: []
 learn_toc_path:
@@ -195,7 +201,7 @@ children:
 coverage:
   learn: 22
   code: 0
-  video: 0
+  video: 6
   blog: 0
   guideline: 0
 bc_forms:
@@ -218,6 +224,17 @@ Path: [Integration](../integration.md) > Integrating with Microsoft Dataverse ·
 ## More Learn pages
 
 - [Integrating with Microsoft Dataverse](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/dataverse-integration-overview): Learn how to integrate Business Central with Microsoft Dataverse
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [What's New: Business Central Integration with Dataverse (2024 release wave 1)](../../../videos/-q8Gm7u7R2A.md) (video): "dataverse integration; data synchronization; virtual tables; data change events"
+- [What's New: Using Power Pages with Business Central (2024 release wave 1)](../../../videos/auoHUd24Gfw.md) (video): "power pages; virtual tables; multi-company support; dataverse"
+- [What's New: Dataverse & Dynamics 365 App Integration (2023 release wave 2) Part 1](../../../videos/fIOnGEARkKs.md) (video): "Multi-company and multi-environment synchronization; virtual tables visibility"
+- [What's New: Auto-Applying Templates in Integration with Dataverse (2024 release wave 2)](../../../videos/ItuCEHpaI1E.md) (video): "Auto-Applying Templates in Integration with Dataverse; configuration templates; data synchronization"
+- [What's New: Business Central Integration with Power Platform](../../../videos/V_ZyGeF5JXE.md) (video): "Dataverse Environment Linking to Business Central"
+- [What's New: Dataverse & Dynamics 365 App Integration (2023 release wave 2) Part 2](../../../videos/YTA8c2XyTX4.md) (video): "Dataverse integration; virtual tables; power pages; data synchronization; business events"
 
 ## Business Central pages and reports
 

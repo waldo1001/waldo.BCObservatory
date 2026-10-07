@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: e1e78567f7772b99118df09c4582828882dc9482e72bc90f276631dcc13fb6db
@@ -72,7 +72,8 @@ links:
   topics:
     - topic/business-central/business-functionality/set-up-business-central
   localizations: []
-  videos: []
+  videos:
+    - video/CkGTSItdTbs
   posts: []
   guidelines: []
 learn_toc_path:
@@ -85,7 +86,7 @@ children: []
 coverage:
   learn: 6
   code: 0
-  video: 0
+  video: 1
   blog: 0
   guideline: 0
 bc_forms:
@@ -132,6 +133,12 @@ Path: [Business functionality](../../business-functionality.md) > [Set up Busine
 - [Set Up FA User-Defined Depreciation Method](https://learn.microsoft.com/dynamics365/business-central/fa-how-setup-user-defined-depreciation-method): Define an asset's depreciation in Business Central by selecting a user-defined depreciation method on the Fixed Asset Card page.
 - [Set up fixed assets](https://learn.microsoft.com/dynamics365/business-central/fa-setup): Learn about the sequence of tasks to set up fixed assets, such as machinery or buildings.
 - [Set Up General Fixed Assets (FA) Information](https://learn.microsoft.com/dynamics365/business-central/fa-how-setup-general): Configure default G/L accounts, FA posting groups, allocation keys, journal templates and batches, and class and subclass codes before using fixed assets.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [What's New: Create Multiple Fixed Assets (2025 release wave 2)](../../../../videos/CkGTSItdTbs.md) (video): "Automatic asset numbering with number series"
 
 ## Business Central pages and reports
 

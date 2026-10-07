@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: e00a78a6ae989fa33c91e80446f1a8ee7441794523762b5a6ec8d2471cea7d98
@@ -326,8 +326,10 @@ links:
     - topic/business-central/business-functionality/finance/set-up-and-use-e-documents
     - topic/business-central/business-functionality/finance/multi-site-and-international-organizatio
   localizations: []
-  videos: []
-  posts: []
+  videos:
+    - video/BLG85XynogQ
+  posts:
+    - post/gerardorenteria-blog/14585
   guidelines: []
 learn_toc_path:
   - Business functionality
@@ -353,8 +355,8 @@ children:
 coverage:
   learn: 256
   code: 0
-  video: 0
-  blog: 0
+  video: 1
+  blog: 1
   guideline: 0
 bc_forms:
   - 1
@@ -927,6 +929,13 @@ Path: [Business functionality](../business-functionality.md) > Finance · tier o
 - [Register excise tax](https://learn.microsoft.com/dynamics365/business-central/finance-register-excise-tax): Learn how to generate, register, and review excise tax journal entries for items and fixed assets in Dynamics 365 Business Central.
 - [Set up and post employee withholding tax](https://learn.microsoft.com/dynamics365/business-central/finance-withholding-tax-employees): Learn how to configure employee withholding tax, post supported employee journal transactions, and review the tax entries that posting creates.
 - [View withholding tax entries](https://learn.microsoft.com/dynamics365/business-central/finance-withholding-tax-entries): This article describes how to review and explore the general ledger entries for withholding tax.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [New Application Ideas of Dynamics 365 Business Central (2026 MAR)](../../../posts/gerardorenteria-blog/14585.md) (community post): "A curated collection of community-submitted feature ideas for Dynamics 365"
+- [Mavericks of Business Central: Use your professional background to your advantage](../../../videos/BLG85XynogQ.md) (video): "Business Central as a product; Domain-specific implementation knowledge"
 
 ## Business Central pages and reports
 

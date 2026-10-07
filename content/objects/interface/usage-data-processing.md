@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:21:46.353Z"
+  at: "2026-10-06T23:56:28.878Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 7cb5aa887011ed4d19ace51d330d0efbc325b03b8cd9b4385a9da14f3343acb2
+  input_hash: 01d7de8c90f67d7813ab3a7343bf49c7b0bf0b9a3ea664d08e868d696c69b075
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/Subscription%20Billing/app/Usage%20Based%20Billing/Interfaces/UsageDataProcessing.Interface.al
@@ -60,6 +60,12 @@ counts:
   procedures: 11
   events: 0
   subscribers: 0
+relations:
+  out: 0
+  referenced_by: 0
+  pages: 0
+  extended_by: 0
+  event_subscribers: 0
 ---
 
 # Interface "Usage Data Processing"

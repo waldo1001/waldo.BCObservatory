@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: defd0492f4609b8df28918a63713a9e6e91e5111b577b9e113e0dbc1e52441a2
@@ -310,7 +310,9 @@ links:
     - topic/dev-itpro/development/programming-in-the-al-language/language-elements/objects
     - topic/dev-itpro/development/programming-in-the-al-language/language-elements/namespaces-in-al
   localizations: []
-  videos: []
+  videos:
+    - video/lofGuQRe1BM
+    - video/qlFEdXPjX6A
   posts: []
   guidelines: []
 learn_toc_path:
@@ -328,7 +330,7 @@ children:
 coverage:
   learn: 78
   code: 0
-  video: 0
+  video: 2
   blog: 0
   guideline: 0
 bc_forms: []
@@ -353,5 +355,12 @@ Path: [Development](../../development.md) > [Programming in the AL language](../
 ## More Learn pages
 
 - [Triggers overview](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/triggers-auto/devenv-triggers): Learn how triggers work in AL for Business Central.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [What's New: AL - Language (2024 release wave 2)](../../../../videos/lofGuQRe1BM.md) (video): "AL language; tables; pages; interfaces; queries; ternary operator"
+- [What's New: AL Language (2025 release wave 2)](../../../../videos/qlFEdXPjX6A.md) (video): "AL Language (2025 release wave 2). Topics: al language; allowing customizations; mask type; extended data types"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

@@ -23,7 +23,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T16:58:05.707Z"
+  at: "2026-10-07T00:17:53.935Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -75,7 +75,8 @@ evidence:
 links:
   learn: []
   objects: []
-  features: []
+  features:
+    - feature/573313
   topics: []
   localizations: []
   videos: []
@@ -115,10 +116,12 @@ features:
     verified: true
     status_source: video
   - name: Action tooltip inheritance
-    status: unclear
+    status: ga
     t: 33
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573313"
   - name: Page-level tooltip consistency
     status: unclear
     t: 324
@@ -192,10 +195,12 @@ It also covers defining tooltips on table fields so pages inherit them, which re
 | Feature | Status | At | Evidence |
 |---|---|---|---|
 | ToolTip property on page objects | generally available | [0:20](https://www.youtube.com/watch?v=Z0K38pXvjWk&t=20s) | "Tool tip and or tool tip ML are now available directly on business central page object." ([8:55](https://www.youtube.com/watch?v=Z0K38pXvjWk&t=535s)) |
-| Action tooltip inheritance | status not stated, demoed | [0:33](https://www.youtube.com/watch?v=Z0K38pXvjWk&t=33s) |  |
+| Action tooltip inheritance | generally available (roadmap [573313](../features/573313.md)), demoed | [0:33](https://www.youtube.com/watch?v=Z0K38pXvjWk&t=33s) |  |
 | Page-level tooltip consistency | status not stated, demoed | [5:24](https://www.youtube.com/watch?v=Z0K38pXvjWk&t=324s) |  |
 | AI agent tooltip support | status not stated | [6:47](https://www.youtube.com/watch?v=Z0K38pXvjWk&t=407s) |  |
 | Table-level tooltip inheritance | status not stated | [3:57](https://www.youtube.com/watch?v=Z0K38pXvjWk&t=237s) |  |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## AL objects mentioned
 

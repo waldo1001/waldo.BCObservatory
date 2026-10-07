@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 3e681f12053ed41871ae21d7270263821d2e64f833d78433d94d1612da09caf7
@@ -312,7 +312,13 @@ links:
     - topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-dynamics-gp
     - topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-dynamics-sl
   localizations: []
-  videos: []
+  videos:
+    - video/6bX7Ab4KYMA
+    - video/f_i4_BRz-oA
+    - video/Gwgpj1U1wxI
+    - video/lCXrKdxneKo
+    - video/no1mmnPfyNY
+    - video/zE6uElxwSMQ
   posts: []
   guidelines: []
 learn_toc_path:
@@ -328,7 +334,7 @@ children:
 coverage:
   learn: 47
   code: 0
-  video: 0
+  video: 6
   blog: 0
   guideline: 0
 bc_forms:
@@ -357,6 +363,17 @@ Path: [Administration](../administration.md) > Migrate to Business Central onlin
 - [FAQ about Migrating to Business Central Online](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/faq-migrate-data): Get answers to frequently asked questions about migrating to Business Central online from on-premises solutions, including supported versions and data limits.
 - [Migrate on-premises data to Business Central online](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-data): Learn to set up cloud data migration to Business Central online from supported Dynamics versions and Business Central on-premises, managed by Azure Data Factory.
 - [Troubleshooting Cloud Migration](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-troubleshooting): Learn how to troubleshoot problems that you might experience with the cloud migration to Business Central online from on-premises.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [What's New: Cloud Migration Tooling (2026 release wave 1)](../../../videos/6bX7Ab4KYMA.md) (video): "Custom Migration Tooling Platform; No-Code SQL Data Migration"
+- [Microsoft presents: Cloud Migration from any SQL](../../../videos/f_i4_BRz-oA.md) (video): "Cloud Migration Management Page; Replication Progress Tracking; Upgrade Progress Tracking"
+- [Introduction to Business Central Cloud Migration (2023)](../../../videos/Gwgpj1U1wxI.md) (video): "cloud migration; azure data factory; sql to sql copy; integration runtime; data replication"
+- [Introduction to Business Central Cloud Migration Tooling (2022)](../../../videos/lCXrKdxneKo.md) (video): "Cloud Migration Tooling; One-Step Upgrade to Version 21; Direct Cloud Migration"
+- [20260615 - Are We There Yet? The Journey from NAV to Business Central](../../../videos/no1mmnPfyNY.md) (video): "Navision to BC migration; Extensions concept; App Store model; SaaS version"
+- [Carglass Sweden](../../../videos/zE6uElxwSMQ.md) (video): "cloud migration; Cloud-based Business Central ERP"
 
 ## Business Central pages and reports
 

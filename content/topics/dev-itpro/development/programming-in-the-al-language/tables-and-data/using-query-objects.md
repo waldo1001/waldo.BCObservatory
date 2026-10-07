@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: bd530fa515b2e844edca443bf15082908e36d7021b42546a0dfcd7a308da2c55
@@ -96,8 +96,11 @@ links:
   topics:
     - topic/dev-itpro/development/programming-in-the-al-language/tables-and-data
   localizations: []
-  videos: []
-  posts: []
+  videos:
+    - video/c3paEbmDNmM
+    - video/tDcT_51ktqo
+  posts:
+    - post/demiliani-com/15968
   guidelines: []
 learn_toc_path:
   - Development
@@ -110,8 +113,8 @@ children: []
 coverage:
   learn: 9
   code: 0
-  video: 0
-  blog: 0
+  video: 2
+  blog: 1
   guideline: 0
 bc_forms:
   - 16
@@ -159,6 +162,14 @@ Path: [Development](../../../development.md) > [Programming in the AL language](
 - [Query Overview](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-query-overview): Description of the query object.
 - [Retrieving Date Data in Queries](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-query-retrieve-date-data): Learn how to retrieve year, month, or day from date fields in query results. Discover setup steps, examples, and best practices.
 - [Using Queries Instead of Record Variables](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-query-using-instead-record-variables)
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Dynamics 365 Business Central: AL Query objects and the new ReadState property.](../../../../../posts/demiliani-com/15968.md) (community post): "AL query objects now support the ReadState property in Dynamics 365 Business Central 2026"
+- [What's New: Server and Database - New Reporting Capabilities (2023 release wave 2)](../../../../../videos/c3paEbmDNmM.md) (video): "Data Analysis on Queries; Server-Side Analysis Views on Queries"
+- [What's New: Server and Database - A Faster Runtime (2023 release wave 2)](../../../../../videos/tDcT_51ktqo.md) (video): "Query UI and Data Analysis"
 
 ## Business Central pages and reports
 

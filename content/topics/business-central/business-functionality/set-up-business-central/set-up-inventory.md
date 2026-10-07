@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 3945346150bcce19c1c62ca93c44424ca5a1e733e39daa4c46f98e575b6fc900
@@ -112,8 +112,11 @@ links:
   topics:
     - topic/business-central/business-functionality/set-up-business-central
   localizations: []
-  videos: []
-  posts: []
+  videos:
+    - video/X3xygXmgRqU
+  posts:
+    - post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-5164599344222477027
+    - post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-2583765754742144129
   guidelines: []
 learn_toc_path:
   - Business functionality
@@ -125,8 +128,8 @@ children: []
 coverage:
   learn: 11
   code: 0
-  video: 0
-  blog: 0
+  video: 1
+  blog: 2
   guideline: 0
 bc_forms:
   - 30
@@ -174,6 +177,14 @@ Path: [Business functionality](../../business-functionality.md) > [Set up Busine
 - [Set up locations](https://learn.microsoft.com/dynamics365/business-central/inventory-how-setup-locations): If you buy, store, or sell items in more than one place, you can set up each place as a location.
 - [Setting up inventory](https://learn.microsoft.com/dynamics365/business-central/inventory-setup-inventory): Describes how to set up your stock and inventory processes, including transfer routes and locations, such as warehouses.
 - [Understand item types](https://learn.microsoft.com/dynamics365/business-central/inventory-about-item-types): Learn about the types of items you can manage in inventory.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Approval Workflows for Item Journals and Requisition Worksheets](../../../../posts/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-5164599344222477027.md) (community post): "Item journals now support batch-level approval workflows"
+- [How Business Central 2026 Improves Item Variant Management with Pictures and Attributes.](../../../../posts/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-2583765754742144129.md) (community post): "Attributes can be defined at the variant level so each variant maintains distinct values"
+- [How to Set Up Locations in Business Central (2025)](../../../../videos/X3xygXmgRqU.md) (video): "Multiple Locations Setup; Intransit Locations; Transfer Routes"
 
 ## Business Central pages and reports
 

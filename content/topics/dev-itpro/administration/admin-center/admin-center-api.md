@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: bb0d1e64560b8effb8c0287e3daf60b34965af8a0a2835bf649ea71960b081bb
@@ -144,8 +144,11 @@ links:
   topics:
     - topic/dev-itpro/administration/admin-center
   localizations: []
-  videos: []
-  posts: []
+  videos:
+    - video/669rJN75L2g
+  posts:
+    - post/aardvarklabs-blog/3950
+    - post/aardvarklabs-blog/4023
   guidelines: []
 learn_toc_path:
   - Administration
@@ -157,8 +160,8 @@ children: []
 coverage:
   learn: 15
   code: 0
-  video: 0
-  blog: 0
+  video: 1
+  blog: 2
   guideline: 0
 bc_forms: []
 member_hash: bb0d1e64560b8effb8c0287e3daf60b34965af8a0a2835bf649ea71960b081bb
@@ -188,5 +191,13 @@ Path: [Administration](../../administration.md) > [Admin center](../admin-center
 - [Business Central Admin Center API - Transfer environments](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/administration-center-api_environmenttransfer): Learn about the Business Central administration center API for transferring environments between Microsoft Entra tenants.
 - [Business Central Administration Center API](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/administration-center-api): Get introduced to the Business Central administration center API.
 - [Business Central Administration Center API MCP Server (preview)](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/administration-center-api-mcp): Get introduced to the Business Central Admin Center API MCP Server
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Mastering the Business Central Administration API: A Complete Guide for SaaS Admins](../../../../posts/aardvarklabs-blog/3950.md) (community post): "Business Central Administration API enables SaaS admins to automate environment management tasks"
+- [Automate Business Central Extension Deployment with PowerShell and the Admin API](../../../../posts/aardvarklabs-blog/4023.md) (community post): "PowerShell automation script that deploys Business Central extensions to production by sorting them by dependencies"
+- [Introducing: Tenant Discovery Endpoint (2025 release wave 1)](../../../../videos/669rJN75L2g.md) (video): "Tenant Discovery Endpoint; Manageable Tenants API; S2S App Authentication"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

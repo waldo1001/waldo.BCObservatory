@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T13:43:32.763Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -41,7 +41,8 @@ links:
   topics:
     - topic/business-central/copilot-and-agent-capabilities
   localizations: []
-  videos: []
+  videos:
+    - video/bCIcq1zESKk
   posts: []
   guidelines: []
 learn_toc_path:
@@ -53,7 +54,7 @@ children: []
 coverage:
   learn: 2
   code: 0
-  video: 0
+  video: 1
   blog: 0
   guideline: 0
 bc_forms:
@@ -90,6 +91,12 @@ There are two pages. "Suggest substitute items with Copilot" is the how-to: it c
 
 - [FAQ for suggest item substitutions with Copilot](https://learn.microsoft.com/dynamics365/business-central/faq-suggest-item-substitutions-with-copilot): This FAQ provides information about an AI feature in Business Central.
 - [Suggest substitute items with Copilot](https://learn.microsoft.com/dynamics365/business-central/suggest-item-substitutions-copilot): Assign substitute items faster with assistance from Copilot.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [What's New: Item Substitution with Copilot (2024 release wave 2)](../../../videos/bCIcq1zESKk.md) (video): "Item substitution with Copilot; Suggest with Copilot action"
 
 ## Business Central pages and reports
 

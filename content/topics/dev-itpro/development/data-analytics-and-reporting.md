@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: e697587d1818c505736d570405bafb81e35b187cc4d1c0f4ff8e040c993ebee3
@@ -80,7 +80,8 @@ links:
   topics:
     - topic/dev-itpro/development
   localizations: []
-  videos: []
+  videos:
+    - video/jqVt0hYDfz0
   posts: []
   guidelines: []
 learn_toc_path:
@@ -92,7 +93,7 @@ children: []
 coverage:
   learn: 7
   code: 0
-  video: 0
+  video: 1
   blog: 0
   guideline: 0
 bc_forms:
@@ -143,6 +144,12 @@ Path: [Development](../development.md) > Data analytics and reporting · tier of
 - [Introduction to Business Central and Power BI](https://learn.microsoft.com/dynamics365/business-central/admin-powerbi): Get an overview of using Power BI to get insights from your Business Central data.
 - [Query Overview](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-query-overview): Description of the query object.
 - [Working with Excel layouts](https://learn.microsoft.com/dynamics365/business-central/ui-excel-report-layouts): Learn how to create and modify report layouts that are built using Excel.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [What's Cooking in Business Central: Delivering Analysis Views in AL Extensions](../../../videos/jqVt0hYDfz0.md) (video): "Delivering Analysis Views in AL Extensions. Topics: analysis views; al extensions"
 
 ## Business Central pages and reports
 

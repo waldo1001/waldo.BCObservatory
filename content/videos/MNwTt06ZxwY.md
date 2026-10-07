@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:51:11.574Z"
+  at: "2026-10-07T00:17:53.935Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -70,7 +70,8 @@ evidence:
 links:
   learn: []
   objects: []
-  features: []
+  features:
+    - feature/573352
   topics: []
   localizations: []
   videos: []
@@ -214,10 +215,12 @@ features:
     verified: false
     status_source: video
   - name: Optional interface methods
-    status: unclear
+    status: ga
     t: 1430
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573352"
   - name: Complex agent scenarios with user intervention
     status: unclear
     t: 1473
@@ -418,7 +421,7 @@ The second half covers shipping. Agents created with instructions in the client 
 | Agent factory interface | status not stated | [20:17](https://www.youtube.com/watch?v=MNwTt06ZxwY&t=1217s) |  |
 | Agent metadata interface for runtime configuration | status not stated | [22:32](https://www.youtube.com/watch?v=MNwTt06ZxwY&t=1352s) |  |
 | Take agent task execution interface | status not stated | [23:18](https://www.youtube.com/watch?v=MNwTt06ZxwY&t=1398s) |  |
-| Optional interface methods | status not stated | [23:50](https://www.youtube.com/watch?v=MNwTt06ZxwY&t=1430s) |  |
+| Optional interface methods | generally available (roadmap [573352](../features/573352.md)) | [23:50](https://www.youtube.com/watch?v=MNwTt06ZxwY&t=1430s) |  |
 | Complex agent scenarios with user intervention | status not stated | [24:33](https://www.youtube.com/watch?v=MNwTt06ZxwY&t=1473s) |  |
 | AI evaluation tools for agents | status not stated, demoed | [26:54](https://www.youtube.com/watch?v=MNwTt06ZxwY&t=1614s) |  |
 | Copilot credit consumption visibility in tests | status not stated, demoed | [27:29](https://www.youtube.com/watch?v=MNwTt06ZxwY&t=1649s) |  |
@@ -440,6 +443,8 @@ The second half covers shipping. Agents created with instructions in the client 
 | Run turn and wait method | status not stated, demoed | [42:59](https://www.youtube.com/watch?v=MNwTt06ZxwY&t=2579s) |  |
 | Data-driven agent test framework | status not stated, demoed | [44:01](https://www.youtube.com/watch?v=MNwTt06ZxwY&t=2641s) |  |
 | Agent debugging with break on next | status not stated | [44:59](https://www.youtube.com/watch?v=MNwTt06ZxwY&t=2699s) |  |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## AL objects mentioned
 

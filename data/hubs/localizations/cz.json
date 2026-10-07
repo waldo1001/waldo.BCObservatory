@@ -1,0 +1,85 @@
+{
+  "country": "CZ",
+  "version": "29",
+  "input_hash": "21eb9aa0c9f0a0a506c1704c20175f6b6cb1e9f9cc3a8f0f6d52324f86d0fb6a",
+  "summary": "Czech (CZ) localization of Business Central 29. The code layer is small: a few fields on W1 tables for advance letters, non-deductible VAT and payment posting groups, plus upgrade plumbing. Learn documents the wider Czech functionality: advance payments, cash desk, banking documents, VAT date, fixed assets, Intrastat and more.",
+  "overview": "In this code layer the Czech version changes ten objects. Seven W1 tables are replaced or extended and two codeunits are added for upgrade. Six fields are added in total. No events or procedures are added. The extensions touch bank reconciliation, VAT posting setup, payment buffering, Intrastat, base calendar usage and the VAT date upgrade.\n\nThe fields reflect advance payments and VAT handling. Bank Statement Matching Buffer gets Letter Type and Letter No. Posted Payment Recon. Line gets Advance Letter Link Code. VAT Posting Setup gets Non-Ded. Sales VAT Account, and Detailed CV Ledg. Entry Buffer gets Non-Deductible VAT Amount ACY. Payment Buffer gets Vendor Posting Group.\n\nMost Czech functionality is documented on Microsoft Learn and not in this layer. That covers advance letters for sales and purchases, cash desk, banking documents, compensation, VAT date, reverse charge, unreliable payer, fixed asset tax depreciation, Intrastat, statutory statements and accounting output reports. Several of these pages describe the Czech extensions (Core Localization Pack, Advance Payments, Cash Desk, Banking Documents) rather than base application code.",
+  "key_points": [
+    "Advance payment links: Letter Type and Letter No. on Bank Statement Matching Buffer, and Advance Letter Link Code on Posted Payment Recon. Line.",
+    "Non-deductible VAT: Non-Ded. Sales VAT Account on VAT Posting Setup and Non-Deductible VAT Amount ACY on Detailed CV Ledg. Entry Buffer.",
+    "Vendor Posting Group on Payment Buffer supports payments with differing posting groups.",
+    "Intrastat Jnl. Line is changed for Czech Intrastat; Learn describes the engine setup and CSV export for INSTATDESK and INSTATONLINE.",
+    "Update VAT Date Field upgrade codeunit supports the Czech VAT date feature, which separates VAT date from posting date.",
+    "Learn covers advance letters, cash desk, compensation, fixed asset tax depreciation, corrections posting (Red Storno) and statutory statements.",
+    "No new events or procedures are added in this layer, so extensibility rests on the added fields."
+  ],
+  "areas": [
+    {
+      "area": "(no namespace)",
+      "what": "Adds upgrade plumbing: Upgrade - Local App and Local Upgrade Tag Definitions, which register upgrade tags for the Czech layer.",
+      "why": null,
+      "objects": [
+        "codeunit/104150",
+        "codeunit/11790"
+      ]
+    },
+    {
+      "area": "Bank",
+      "what": "Adds advance letter reference fields to bank reconciliation tables. Bank Statement Matching Buffer gets Letter Type and Letter No., and Posted Payment Recon. Line gets Advance Letter Link Code.",
+      "why": "Learn describes advance payments and invoices that are paid before delivery, and linking payments to advance letters.",
+      "objects": [
+        "table/1250",
+        "table/1296"
+      ]
+    },
+    {
+      "area": "Finance",
+      "what": "Adds non-deductible VAT fields. VAT Posting Setup gets Non-Ded. Sales VAT Account and Detailed CV Ledg. Entry Buffer gets Non-Deductible VAT Amount ACY.",
+      "why": null,
+      "objects": [
+        "table/325",
+        "table/383"
+      ]
+    },
+    {
+      "area": "Foundation",
+      "what": "Changes the Where Used Base Calendar table without adding fields.",
+      "why": null,
+      "objects": [
+        "table/7604"
+      ]
+    },
+    {
+      "area": "Inventory",
+      "what": "Changes the Intrastat Jnl. Line table without adding fields, supporting the Czech Intrastat functionality.",
+      "why": "Learn says the Czech Intrastat feature adds engine setup, supplementary units, mandatory field configuration and CSV export for INSTATDESK and INSTATONLINE.",
+      "objects": [
+        "table/263"
+      ]
+    },
+    {
+      "area": "Purchases",
+      "what": "Adds Vendor Posting Group to Payment Buffer.",
+      "why": null,
+      "objects": [
+        "table/372"
+      ]
+    },
+    {
+      "area": "Upgrade",
+      "what": "Changes the Update VAT Date Field upgrade codeunit for the Czech VAT date.",
+      "why": "Learn says the Czech VAT date is separate from the posting date for VAT reporting.",
+      "objects": [
+        "codeunit/104051"
+      ]
+    }
+  ],
+  "learn_pages_used": 60,
+  "prompt_version": 2,
+  "at": "2026-10-06T23:51:17.542Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.067412
+  }
+}

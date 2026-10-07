@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 1e36c6c8b01bf167977fe00c68df7be925a186357a85fc869a417286b3defc2c
@@ -294,7 +294,23 @@ links:
     - topic/business-central/business-functionality/sustainability-management/sustainability-analytics
     - topic/business-central/business-functionality/sustainability-management/sustainability-value-chain
   localizations: []
-  videos: []
+  videos:
+    - video/_ynMUzh956w
+    - video/2_yYu3RgYwo
+    - video/bHXEbtsx0JY
+    - video/bnqxycPzbeI
+    - video/i-MTLNYwA9o
+    - video/JBGuaqk5nXk
+    - video/JoGW2xlIq0I
+    - video/kD8kX14VVZE
+    - video/lqVWc-Yuots
+    - video/MaMwHvimNTY
+    - video/NYG4pOtW-Xw
+    - video/t_UXxbvgnHY
+    - video/uan4dV9eVCA
+    - video/UKVp28M5TtU
+    - video/WZUQ9X26MLo
+    - video/XYr0xwgpomA
   posts: []
   guidelines: []
 learn_toc_path:
@@ -308,7 +324,7 @@ children:
 coverage:
   learn: 37
   code: 0
-  video: 0
+  video: 16
   blog: 0
   guideline: 0
 bc_forms:
@@ -400,6 +416,27 @@ Path: [Business functionality](../business-functionality.md) > Sustainability ma
 - [Sustainability scorecards and goals](https://learn.microsoft.com/dynamics365/business-central/sustainability-scorecards-goals): Learn how to set up and use sustainability scorecards and goals.
 - [Use CBAM and EPR calculations](https://learn.microsoft.com/dynamics365/business-central/sustainability-cbam-epr-calculations): Learn how to calculate carbon-related costs based on the origin of your products and carbon pricing rules in the European Union.
 - [Work with carbon credits](https://learn.microsoft.com/dynamics365/business-central/sustainability-carbon-credit): Learn how to set up and purchase carbon credit.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Introducing: Sustainability in Business Central (2024 release wave 1)](../../../videos/_ynMUzh956w.md) (video): "Introducing: Sustainability in Business Central emissions tracking; csrd compliance; esg reporting; greenhouse gas"
+- [What's New: Default Sustainability Information (2025 release wave 1)](../../../videos/2_yYu3RgYwo.md) (video): "Default values; sustainability setup; emissions; carbon equivalent"
+- [What's New: Sustainability Copilot (2025 release wave 2)](../../../videos/bHXEbtsx0JY.md) (video): "Sustainability Copilot emissions calculation; copilot; sustainability journal; emission factors"
+- [What's New: Value Chain Automation with Transfer Orders (2025 release wave 1)](../../../videos/bnqxycPzbeI.md) (video): "Value Chain Automation with Transfer Orders value chain; sustainability value entries; carbon equivalent"
+- [What's New in Sustainability: Track Your Energy Consumption (2025 release wave 2)](../../../videos/i-MTLNYwA9o.md) (video): "Track Your Energy Consumption energy tracking esg compliance csrd regulations sustainability"
+- [What's New: Copilot for Sustainability (2025 release wave 1)](../../../videos/JBGuaqk5nXk.md) (video): "Copilot; emissions calculation; sustainability journal; emission factors"
+- [What's New: Value Chain Automation with Assembly Orders (2025 release wave 1)](../../../videos/JoGW2xlIq0I.md) (video): "emissions tracking; sustainability setup"
+- [What's New in Sustainability: Reporting for CBAM and EPR](../../../videos/kD8kX14VVZE.md) (video): "Reporting for CBAM and EPR carbon pricing emissions tracking compliance reporting"
+- [What's New: Sustainability (2026 release wave 1)](../../../videos/lqVWc-Yuots.md) (video): "ESG-reporting carbon-footprint sustainability-apis csrd-compliance carbon-costing item-tracking value-chain"
+- [What's New: Water and Waste Management (2025 release wave 1)](../../../videos/MaMwHvimNTY.md) (video): "Water and waste management; sustainability ledger; emissions tracking"
+- [What's New in Sustainability (2024 release wave 2)](../../../videos/NYG4pOtW-Xw.md) (video): "Emissions tracking; carbon accounting; sustainability ledger; carbon credits"
+- [What's new in Sustainability (2026 release wave 2)](../../../videos/t_UXxbvgnHY.md) (video): "Formulas; value chain emissions; scope three; item tracking; fixed assets; ledger reversal; esg reporting"
+- [End To End Sustainability Tracking and Reporting for SMBs](../../../videos/uan4dV9eVCA.md) (video): "End To End Sustainability Tracking and Reporting for SMBs"
+- [What's New in Sustainability: Measure All Gasses as Carbon Equivalents (2025 release wave 2)](../../../videos/UKVp28M5TtU.md) (video): "Measure All Gasses as Carbon Equivalents carbon equivalents; emission factors; sustainability setup"
+- [What's new in Sustainability: EUDR Certificate Capture (2026 release wave 2)](../../../videos/WZUQ9X26MLo.md) (video): "EUDR Certificate Capture item tracking; deforestation regulation; lot numbers; commodity classification"
+- [What's New in Sustainability: Sustainability Journals Approval (2025 release wave 2)](../../../videos/XYr0xwgpomA.md) (video): "Sustainability Journals Approval approval workflow; compliance reporting; csrd; batch approval"
 
 ## Business Central pages and reports
 

@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: eed398dfb63a207a296a8ab43da02dd954d3110c41391c2aae850c37c5e87540
@@ -314,8 +314,19 @@ links:
     - topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/streaming-data
     - topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/importing-and-exporting-data
   localizations: []
-  videos: []
-  posts: []
+  videos:
+    - video/a1LQ3-SCtPE
+    - video/OLN-2Ec2GMM
+    - video/QfOgUCXg94o
+    - video/uCJ48biqLf8
+    - video/xqwJTCPD9tA
+  posts:
+    - post/aardvarklabs-blog/2333
+    - post/aardvarklabs-blog/2812
+    - post/demiliani-com/15914
+    - post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-7756402263170151476
+    - post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-74-copy-document/
+    - post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-83-record-isdirty/
   guidelines: []
 learn_toc_path:
   - Development
@@ -335,8 +346,8 @@ children:
 coverage:
   learn: 56
   code: 0
-  video: 0
-  blog: 0
+  video: 5
+  blog: 6
   guideline: 0
 bc_forms:
   - 16
@@ -388,6 +399,22 @@ Path: [Development](../../development.md) > [Programming in the AL language](../
 
 - [Number sequences in Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-number-sequences): This article describes how to create and use number sequences in AL code in Dynamics 365 Business Central.
 - [Transferring data between tables using DataTransfer](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-data-transfer): Learn about the DataTransfer object type and how to use it to move data between tables.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Essential Guides to Data Imports in Business Central](../../../../posts/aardvarklabs-blog/2333.md) (community post): "AL code patterns for handling JSON, delimited data, Excel files, and XML formats"
+- [Advanced JSON Management for Business Central Developers](../../../../posts/aardvarklabs-blog/2812.md) (community post): "JSON Management provides a comprehensive toolset for reading, writing, and converting JSON"
+- [Dynamics 365 Business Central: locking down IsolatedStorage reads.](../../../../posts/demiliani-com/15914.md) (community post): "IsolatedStorage.Get method accepts an optional IsolationLevel parameter to prevent race conditions"
+- [How to Group and Consolidate General Journal Lines Using Query Object in Business Central.](../../../../posts/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-7756402263170151476.md) (community post): "consolidate General Journal Lines in Business Central using Query Objects"
+- [BC Friday Tips #74 Copy Document and Custom Field](../../../../posts/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-74-copy-document/.md) (community post): "Custom fields added to Sales tables are automatically included when users copy documents"
+- [BC Friday Tips #83 Check Whether a Record Has Changed](../../../../posts/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-83-record-isdirty/.md) (community post): "Record.IsDirty() method detects whether a record has been modified"
+- [What's New: Server and Database - A Faster Data Stack (2023 release wave 2)](../../../../videos/a1LQ3-SCtPE.md) (video): "table extensions companion tables database joins schema redesign"
+- [What’s New: AL Runtime and Database (2024 release wave 1)](../../../../videos/OLN-2Ec2GMM.md) (video): "number sequence; change log cleanup; alter key; field tooltips; translatable texts"
+- [What's New: Concurrency in Warehousing (2024 release wave 1)](../../../../videos/QfOgUCXg94o.md) (video): "Number sequences for entry numbering; Insert record function; Sift bucket"
+- [FieldExist() and Field() get a text overload](../../../../videos/uCJ48biqLf8.md) (video): "FieldExist() text overload; Field() text overload; Accessing table extension fields"
+- [Designing Modern Integrations in Business Central](../../../../videos/xqwJTCPD9tA.md) (video): "Integration message table with interface pattern; warehouse shipment and receipt integration"
 
 ## Business Central pages and reports
 

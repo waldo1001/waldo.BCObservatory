@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 8804d1e1e312778270052de9bb1bb419afd19d29bc6190f8ee024c281b5de3e0
@@ -64,7 +64,9 @@ links:
   topics:
     - topic/business-central/business-functionality/manufacturing
   localizations: []
-  videos: []
+  videos:
+    - video/QdWPlIV3Avk
+    - video/WACQbAEVOJg
   posts: []
   guidelines: []
 learn_toc_path:
@@ -77,7 +79,7 @@ children: []
 coverage:
   learn: 5
   code: 0
-  video: 0
+  video: 2
   blog: 0
   guideline: 0
 bc_forms:
@@ -108,6 +110,13 @@ Path: [Business functionality](../../business-functionality.md) > [Manufacturing
 - [Order subcontracting](https://learn.microsoft.com/dynamics365/business-central/subcontract-order): Learn how to create subcontracting purchase orders from production orders or by using the subcontracting worksheet, and how to print dispatch lists.
 - [Subcontracting overview](https://learn.microsoft.com/dynamics365/business-central/production-how-to-subcontract-manufacturing): Get an overview of subcontracting capabilities for manufacturing, including subcontractor prices, component posting, transfer orders, and location management.
 - [Transfer WIP items between subcontractors](https://learn.microsoft.com/dynamics365/business-central/subcontract-wip-transfers): Learn how to transfer work-in-progress (WIP) items between subcontractors using transfer orders, track WIP quantities in a dedicated ledger, and adjust or clean up WIP quantities.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [What's new in SCM: Subcontracting (2026 release wave 2)](../../../../videos/QdWPlIV3Avk.md) (video): "Subcontracting extension; Component supply method; Vendor location tracking"
+- [What's new in SCM: Overview (2026 release wave 2)](../../../../videos/WACQbAEVOJg.md) (video): "Subcontracting comments and attachments on purchase lines"
 
 ## Business Central pages and reports
 

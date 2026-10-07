@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:21:46.353Z"
+  at: "2026-10-06T23:56:28.878Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 49abd2d468cbdb6661f566fa3fb4899064634d333d57fbe599e2841d6f4f861b
+  input_hash: 5e18c8cb9aa27a1db0b374c7cf7e7ee0cc188717644e7e94bb6ac0a863a5d0ae
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/PayablesAgent/app/Profile/PageCustomizations/PAHistPurchaseLines.PageCust.al
@@ -60,6 +60,12 @@ counts:
   procedures: 0
   events: 0
   subscribers: 0
+relations:
+  out: 0
+  referenced_by: 0
+  pages: 0
+  extended_by: 0
+  event_subscribers: 0
 ---
 
 # Page customization "PA Hist. Purchase Lines"

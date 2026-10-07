@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 5f28cfcbe8ab1c64bbdc1ec42f2d716b7ab875888435183319b893b988efe312
@@ -146,7 +146,8 @@ links:
     - topic/dev-itpro/development/programming-in-the-al-language/error-handling/al-language-reference-errors
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-77-testfield-show-record-action/
   guidelines: []
 learn_toc_path:
   - Development
@@ -161,7 +162,7 @@ coverage:
   learn: 16
   code: 0
   video: 0
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms: []
 member_hash: 5f28cfcbe8ab1c64bbdc1ec42f2d716b7ab875888435183319b893b988efe312
@@ -188,5 +189,11 @@ Path: [Development](../../development.md) > [Programming in the AL language](../
 - [Handling errors using try methods](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-handling-errors-using-try-methods): Try methods in AL enable you to handle errors that occur in the application during code execution.
 - [Understanding the error dialog](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-error-dialog): Understand the different parts the error dialog to be able to help mitigate issues for users
 - [User experience guidelines for errors](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-error-handling-guidelines): Describes how to handle error dialogs in AL code.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [BC Friday Tips #77 TestField Show Record Action](../../../../posts/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-77-testfield-show-record-action/.md) (community post): "TestField automatically adds a Show Record button to error dialogs"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

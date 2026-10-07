@@ -13,7 +13,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:17:53.406Z"
+  at: "2026-10-06T23:39:50.809Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: efac43569ff2ebea3592edcd4be549e5e64a65c2b00a0455580eec71f4ba783d
@@ -28,7 +28,11 @@ evidence:
 links:
   learn: []
   objects: []
-  features: []
+  features:
+    - feature/573255
+    - feature/573333
+    - feature/573352
+    - feature/573362
   topics: []
   localizations: []
   videos:
@@ -114,7 +118,15 @@ footprint:
       weight: 1
     - id: codeunit entry
       weight: 1
-  features: []
+  features:
+    - id: feature/573362
+      weight: 2
+    - id: feature/573255
+      weight: 1
+    - id: feature/573333
+      weight: 1
+    - id: feature/573352
+      weight: 1
 first_item: "2026-10-01"
 last_item: "2026-10-01"
 ---
@@ -147,6 +159,13 @@ last_item: "2026-10-01"
 Items per quarter, oldest first:
 
 - 2026-Q4: *************** 15
+
+## Roadmap features it demonstrates
+
+- [573255](../features/573255.md)
+- [573333](../features/573333.md)
+- [573352](../features/573352.md)
+- [573362](../features/573362.md)
 
 ## Most recent
 

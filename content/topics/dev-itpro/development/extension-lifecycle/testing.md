@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 37eaacdc440725b9b1569176af3dedeec3ec255d2233b55eca64d7b9cf551080
@@ -88,8 +88,19 @@ links:
   topics:
     - topic/dev-itpro/development/extension-lifecycle
   localizations: []
-  videos: []
-  posts: []
+  videos:
+    - video/9CW5mydS9Vs
+    - video/eUkx_VCcyoU
+    - video/JI9OpaBx0nk
+    - video/Q-oazDEucLE
+    - video/qlFEdXPjX6A
+    - video/V4zCPAsYi_Y
+  posts:
+    - post/dvlprlife-com/https://www.dvlprlife.com/2026/06/weekly-review-business-central-al-development-may-24-30-2026/
+    - post/stefanmaron-com/https://stefanmaron.com/posts/unittestswithoutbaseapp/
+    - post/stefanmaron-com/https://stefanmaron.com/posts/weekly-recap-2026-08-14/
+    - post/stefanmaron-com/https://stefanmaron.com/posts/weekly-recap-2026-08-21/
+    - post/stefanmaron-com/https://stefanmaron.com/posts/weekly-recap-2026-08-28/
   guidelines: []
 learn_toc_path:
   - Development
@@ -101,8 +112,8 @@ children: []
 coverage:
   learn: 8
   code: 0
-  video: 0
-  blog: 0
+  video: 6
+  blog: 5
   guideline: 0
 bc_forms:
   - 149000
@@ -134,6 +145,22 @@ Path: [Development](../../development.md) > [Extension lifecycle](../extension-l
 - [Test Codeunits and Test Methods in AL](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-test-codeunits-and-test-methods): Learn how to create test codeunits and test methods in AL, set the SubType property to Test, and use the different test method attributes in Business Central.
 - [Test pages](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-testing-pages): This article explains the Test pages, their purpose and use.
 - [Testing the application overview](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-testing-application): Learn about how to use automated tests in Business Central
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Weekly Review: Business Central AL Development – May 24–30, 2026](../../../../posts/dvlprlife-com/https://www.dvlprlife.com/2026/06/weekly-review-business-central-al-development-may-24-30-2026/.md) (community post): "AL unit tests can run independently of the base app"
+- [You don't need the base app to run your unit tests](../../../../posts/stefanmaron-com/https://stefanmaron.com/posts/unittestswithoutbaseapp/.md) (community post): "Unit tests for self-contained Business Central logic do not require the base application"
+- [Weekly Recap: August 7-14](../../../../posts/stefanmaron-com/https://stefanmaron.com/posts/weekly-recap-2026-08-14/.md) (community post): "AL Runner shipped 85 PRs fixing emulation-to-real-BC divergences"
+- [Weekly Recap: August 14-21](../../../../posts/stefanmaron-com/https://stefanmaron.com/posts/weekly-recap-2026-08-21/.md) (community post): "AL Runner now gates releases on test suite completion"
+- [Weekly Recap: August 21-28](../../../../posts/stefanmaron-com/https://stefanmaron.com/posts/weekly-recap-2026-08-28/.md) (community post): "AL Runner's changelog generator now handles scoped commit prefixes"
+- [Microsoft presents: Tests, dependencies, runners and evals for BC applications](../../../../videos/9CW5mydS9Vs.md) (video): "deterministic testing; propagated dependencies; application test library"
+- [What's New: AL Language (2025 release wave 1)](../../../../videos/eUkx_VCcyoU.md) (video): "testing; http client; call stack; HTTP Client Handler for Testing"
+- [Introducing: How to Mock Outbound Http Calls for Easier Testing (2025 release wave 1)](../../../../videos/JI9OpaBx0nk.md) (video): "outbound http testing; mocking; HTTP client handler; test isolation; request interception"
+- [20260601 - From No Tests to Safe Refactors Debug Logging + AI Agents for Legacy AL](../../../../videos/Q-oazDEucLE.md) (video): "Test-driven development with AI agents; Automated path coverage verification; Approval testing"
+- [What's New: AL Language (2025 release wave 2)](../../../../videos/qlFEdXPjX6A.md) (video): "AI Test Type; Required Test Isolation Property; Cancellation Token Propagation in VS Code"
+- [Getting Started With Agent Testing: Test Setup and Structuring (part 3)](../../../../videos/V4zCPAsYi_Y.md) (video): "agent testing; test setup; data-driven tests; yaml configuration"
 
 ## Business Central pages and reports
 

@@ -21,7 +21,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:04:43.562Z"
+  at: "2026-10-07T00:17:53.935Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -59,7 +59,9 @@ evidence:
 links:
   learn: []
   objects: []
-  features: []
+  features:
+    - feature/573368
+    - feature/573371
   topics: []
   localizations: []
   videos: []
@@ -93,15 +95,19 @@ chapters:
     title: Summary and Call to Action
 features:
   - name: Recently Searched in Tell Me
-    status: unclear
+    status: ga
     t: 83
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573371"
   - name: Recently Used Records in Lookups
-    status: unclear
+    status: ga
     t: 382
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573368"
 objects_mentioned: []
 quotes:
   - t: 58
@@ -154,8 +160,10 @@ Both features are demoed. The presenter explains that the lookup feature is plat
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| Recently Searched in Tell Me | status not stated, demoed | [1:23](https://www.youtube.com/watch?v=wS1wVBhNafk&t=83s) |  |
-| Recently Used Records in Lookups | status not stated, demoed | [6:22](https://www.youtube.com/watch?v=wS1wVBhNafk&t=382s) |  |
+| Recently Searched in Tell Me | generally available (roadmap [573371](../features/573371.md)), demoed | [1:23](https://www.youtube.com/watch?v=wS1wVBhNafk&t=83s) |  |
+| Recently Used Records in Lookups | generally available (roadmap [573368](../features/573368.md)), demoed | [6:22](https://www.youtube.com/watch?v=wS1wVBhNafk&t=382s) |  |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## Quotes
 

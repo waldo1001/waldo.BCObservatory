@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 6d811af42d6a134d1ed6be0e44736f3c1dff51ecfed1455cb2a4358c4de6d557
@@ -314,8 +314,18 @@ links:
     - topic/dev-itpro/administration
     - topic/dev-itpro/administration/monitor-and-analyze-telemetry/telemetry-by-area
   localizations: []
-  videos: []
-  posts: []
+  videos:
+    - video/7rIHz0zrgWU
+    - video/9PWBpwv4LhQ
+    - video/BOY2442wHSc
+    - video/F_pssS0FtUc
+    - video/snVsG69X-kw
+    - video/uv2NsSD5P7U
+  posts:
+    - post/waldo-be/317845
+    - post/waldo-be/318371
+    - post/waldo-be/318423
+    - post/waldo-be/318571
   guidelines: []
 learn_toc_path:
   - Administration
@@ -327,8 +337,8 @@ children:
 coverage:
   learn: 70
   code: 0
-  video: 0
-  blog: 0
+  video: 6
+  blog: 4
   guideline: 0
 bc_forms: []
 member_hash: 6d811af42d6a134d1ed6be0e44736f3c1dff51ecfed1455cb2a4358c4de6d557
@@ -356,5 +366,20 @@ Path: [Administration](../administration.md) > Monitor and analyze telemetry · 
 - [Telemetry Event IDs in Application Insights \| Microsoft Docs](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-event-ids): Learn about the event IDs of Business Central events emitted to Azure Application Insights.
 - [Telemetry FAQ (Frequently Asked Questions)](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-faq): See frequently asked questions we get on telemetry in Business Central
 - [Turn sending telemetry to application insights on or off](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-enable-application-insights): Learn how you can get richer telemetry by connecting your Business Central with Application Insights for telemetry.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Handling Business Central Telemetry like a boss: iFacto Telemetry – Pt. 3](../../../posts/waldo-be/317845.md) (community post): "Dashboard visualization consolidates custom telemetry and daily telemetry data"
+- [Analyzing BC Telemetry with AI with the “BC Telemetry Buddy”](../../../posts/waldo-be/318371.md) (community post): "query Business Central telemetry data through natural conversation"
+- [BC Telemetry Buddy – 84 commits later..](../../../posts/waldo-be/318423.md) (community post): "BC Telemetry Buddy evolved from a proof of concept to a production-ready tool for analyzing Business Central telemetry"
+- [I built the tool .. but forgot the skill..](../../../posts/waldo-be/318571.md) (community post): "Building effective AI tools for telemetry analysis requires more than access"
+- [What's New: Telemetry (2023 release wave 2)](../../../videos/7rIHz0zrgWU.md) (video): "telemetry; performance analysis; ai insights; error troubleshooting"
+- [What's New: Resource Governance for Business Central Online (2023 release wave 2)](../../../videos/9PWBpwv4LhQ.md) (video): "resource governance operational limits quotas capacity management"
+- [Connect Power BI Telemetry Apps to Read your Business Central Telemetry Data (2023)](../../../videos/BOY2442wHSc.md) (video): "power bi; telemetry; application insights; data connection"
+- [Get Low-Friction Go-Lives and Optimize Your Investments with Telemetry Data](../../../videos/F_pssS0FtUc.md) (video): "telemetry data usage analytics power bi reporting go-live optimization"
+- [Business Central Under the Hood episode 3: How Many Users Can Business Central Handle in the Cloud?](../../../videos/snVsG69X-kw.md) (video): "Application insights telemetry; Database lock space monitoring; Telemetry and performance logging"
+- [What's New: Flexible Update Management (2024 release wave 2)](../../../videos/uv2NsSD5P7U.md) (video): "Telemetry signal changes for update events"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 58ece3d44923935bcfb162150b4bf60526573f71601eee2219f16e019b8de5b4
@@ -146,8 +146,11 @@ links:
     - topic/dev-itpro/administration
     - topic/dev-itpro/administration/understand-business-central-online/environment-types
   localizations: []
-  videos: []
-  posts: []
+  videos:
+    - video/qwEnuR0vgYo
+  posts:
+    - post/demiliani-com/15895
+    - post/thinkaboutit-be/8211
   guidelines: []
 learn_toc_path:
   - Administration
@@ -159,8 +162,8 @@ children:
 coverage:
   learn: 16
   code: 0
-  video: 0
-  blog: 0
+  video: 1
+  blog: 2
   guideline: 0
 bc_forms:
   - 9
@@ -196,6 +199,14 @@ Path: [Administration](../administration.md) > Understand Business Central onlin
 - [Understanding the infrastructure of Business Central online](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-environment-topology): Learn how environments in Business Central online reflect the Microsoft Entra tenant with an example of environments and companies across two countries/regions.
 - [Update cycles](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/update-rollout-timeline): Learn about the timeline of Business Central online update rollouts. Prepare for both major updates and minor updates with minimal disruption in productivity.
 - [Version Numbers in Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/version-numbers): Learn how to read version numbers in Business Central and how to understand them when you troubleshoot issues.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Dynamics 365 Business Central on Italy North Datacenter: here we are!](../../../posts/demiliani-com/15895.md) (community post): "Dynamics 365 Business Central is now available on the Italy North datacenter"
+- [Quick Tip: Business Central Release Plans Are Going Away. Where Do You Look Now?](../../../posts/thinkaboutit-be/8211.md) (community post): "Business Central release cadence remains unchanged with two major releases per year"
+- [Business Central 29.0 Is GA: New Environment](../../../videos/qwEnuR0vgYo.md) (video): "environment creation; version 29.0 ga; sandbox production setup"
 
 ## Business Central pages and reports
 

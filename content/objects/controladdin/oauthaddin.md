@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:21:46.353Z"
+  at: "2026-10-06T23:56:28.878Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 19733471e51e93ee0f051ab9bb28e5a93adb77d227fa742bcdcdf0c86e3021d8
+  input_hash: 6c969d7648fd5e2fbfcf13b601c5e29a5737dd402cddd681539e50c3bf18e89e
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/ClientAddIns/app/src/oauth/OAuthAddIn.ControlAddin.al
@@ -60,6 +60,12 @@ counts:
   procedures: 1
   events: 0
   subscribers: 0
+relations:
+  out: 0
+  referenced_by: 0
+  pages: 0
+  extended_by: 0
+  event_subscribers: 0
 ---
 
 # Control add-in "OAuthAddIn"

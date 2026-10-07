@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 946c690f49a2895ab0bead402178c57b0511aff467005cdb198a18c3d74dc897
@@ -72,8 +72,11 @@ links:
   topics:
     - topic/business-central/business-functionality/finance/manage-receivables
   localizations: []
-  videos: []
-  posts: []
+  videos:
+    - video/6WVsS3j-HTw
+  posts:
+    - post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-2182793503205531345
+    - post/thedynamicsexplorer-com/37202
   guidelines: []
 learn_toc_path:
   - Business functionality
@@ -86,8 +89,8 @@ children: []
 coverage:
   learn: 6
   code: 0
-  video: 0
-  blog: 0
+  video: 1
+  blog: 2
   guideline: 0
 bc_forms:
   - 389
@@ -114,6 +117,14 @@ Path: [Business functionality](../../../business-functionality.md) > [Finance](.
 - [Rules for automatic application of payments](https://learn.microsoft.com/dynamics365/business-central/receivables-how-set-up-payment-application-rules): Read about how to set Up Rules for the Automatic Application of Payments on the Payment Application Rules page.
 - [Setting up Text-to-Account mapping for recurring payments](https://learn.microsoft.com/dynamics365/business-central/receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation): Link text on payments with specific accounts, so that payments are posted to the accounts when you post the payment reconciliation journal.
 - [Using the transfer difference to account feature to reconcile payments](https://learn.microsoft.com/dynamics365/business-central/receivables-how-reconcile-payments-cannot-apply-auto): Describes how to process payments that can't be applied to a document, for example, when an exchange rate causes amounts to differ.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Untangling Your Books: Understanding Application of Entries in Business Central](../../../../../posts/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-2182793503205531345.md) (community post): "matching transactions like invoices and payments in Business Central"
+- [Dynamics 365 Business Central – Why isn’t Payment Tolerance being taken automatically in the Cash Receipt Journal?](../../../../../posts/thedynamicsexplorer-com/37202.md) (community post): "Cash receipt journal entries must have Payment as the document type for payment tolerance to apply"
+- [Comparing Entering Customer Cash Receipts in Dynamics SL to Dynamics 365 Business Central](../../../../../videos/6WVsS3j-HTw.md) (video): "cash receipts; customer payments; payment application; receivables"
 
 ## Business Central pages and reports
 

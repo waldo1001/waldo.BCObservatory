@@ -23,7 +23,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:40:54.263Z"
+  at: "2026-10-07T00:17:53.935Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -89,7 +89,8 @@ evidence:
 links:
   learn: []
   objects: []
-  features: []
+  features:
+    - feature/573313
   topics: []
   localizations: []
   videos: []
@@ -157,10 +158,12 @@ features:
     verified: false
     status_source: video
   - name: Report Tooltips
-    status: unclear
+    status: ga
     t: 301
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573313"
   - name: Excel Layout Multiple Data Sheets
     status: unclear
     t: 321
@@ -317,7 +320,7 @@ It also covers JSON and text improvements, YAML read and write, role explorer in
 | Get Resource as Text and Get Resource as Json | status not stated, demoed | [1:58](https://www.youtube.com/watch?v=eUkx_VCcyoU&t=118s) |  |
 | Override Card Page ID | status not stated | [3:44](https://www.youtube.com/watch?v=eUkx_VCcyoU&t=224s) |  |
 | User Control Host Page Type | status not stated, demoed | [4:04](https://www.youtube.com/watch?v=eUkx_VCcyoU&t=244s) |  |
-| Report Tooltips | status not stated | [5:01](https://www.youtube.com/watch?v=eUkx_VCcyoU&t=301s) |  |
+| Report Tooltips | generally available (roadmap [573313](../features/573313.md)) | [5:01](https://www.youtube.com/watch?v=eUkx_VCcyoU&t=301s) |  |
 | Excel Layout Multiple Data Sheets | status not stated, demoed | [5:21](https://www.youtube.com/watch?v=eUkx_VCcyoU&t=321s) |  |
 | Obsolete Report Layouts | status not stated, demoed | [6:21](https://www.youtube.com/watch?v=eUkx_VCcyoU&t=381s) |  |
 | Report Pre-rendering and Post Report Triggers | status not stated | [6:41](https://www.youtube.com/watch?v=eUkx_VCcyoU&t=401s) |  |
@@ -334,6 +337,8 @@ It also covers JSON and text improvements, YAML read and write, role explorer in
 | About Title and About Text Inheritance | status not stated, demoed | [11:44](https://www.youtube.com/watch?v=eUkx_VCcyoU&t=704s) |  |
 | HTTP Client Handler for Testing | status not stated | [13:21](https://www.youtube.com/watch?v=eUkx_VCcyoU&t=801s) |  |
 | Server Certificate Validation Override | status not stated, demoed | [13:44](https://www.youtube.com/watch?v=eUkx_VCcyoU&t=824s) |  |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## AL objects mentioned
 

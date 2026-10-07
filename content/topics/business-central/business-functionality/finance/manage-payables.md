@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 18d05a0154f8744254112c34d3f442098768d7ddc605107cf342e1e34bfd568a
@@ -212,7 +212,13 @@ links:
     - topic/business-central/business-functionality/finance/manage-payables/make-payments
     - topic/business-central/business-functionality/finance/manage-payables/apply-payments-automatically-and-reconci
   localizations: []
-  videos: []
+  videos:
+    - video/-SGaVGOkiF0
+    - video/axQegcPweNY
+    - video/d4mYltz4Zwg
+    - video/Hct_HE0KzEc
+    - video/kDiDMPEaU0E
+    - video/nb_a42dmSqE
   posts: []
   guidelines: []
 learn_toc_path:
@@ -227,7 +233,7 @@ children:
 coverage:
   learn: 25
   code: 0
-  video: 0
+  video: 6
   blog: 0
   guideline: 0
 bc_forms:
@@ -370,6 +376,17 @@ Path: [Business functionality](../../business-functionality.md) > [Finance](../f
 - [Reconcile vendor payment receipts or refunds in the payment journal](https://learn.microsoft.com/dynamics365/business-central/payables-how-apply-purchase-transactions-manually): To process, match, or reconcile vendor payments or refunds manually, you apply the amount to one or more open vendor ledger entries.
 - [SEPA Direct Debit in Business Central](https://learn.microsoft.com/dynamics365/business-central/finance-collect-payments-with-sepa-direct-debit): With your customer's consent, you can collect payments directly from the customer's bank account according to the SEPA format.
 - [Use item charges to account for extra trade costs](https://learn.microsoft.com/dynamics365/business-central/payables-how-assign-item-charges): Use item charges to assign costs such as freight, insurance, and duties to purchases (landed cost), or non-inventoriable costs on sales shipments.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Introducing Payment Times Analysis in Business Central (2023 release wave 2)](../../../../videos/-SGaVGOkiF0.md) (video): "vendor payments; payment practices; due dates"
+- [What's New: Draft Page for Electronic Invoices (2025 release wave 2)](../../../../videos/axQegcPweNY.md) (video): "purchase invoicing; document processing; ai matching; vendor setup"
+- [Introducing: Withholding Taxes (2026 release wave 1)](../../../../videos/d4mYltz4Zwg.md) (video): "Withholding Taxes; vendor payments; posting groups; tax calculation"
+- [Episode 516: Business Central Is Transforming Business Management: Insights from Mike Morton](../../../../videos/Hct_HE0KzEc.md) (video): "Expense Agent; AI-Enhanced Payables Processing; AI-Driven Business Growth"
+- [What's New: Matching Purchase Invoices to Order and Receipt Lines (2026 release wave 1)](../../../../videos/kDiDMPEaU0E.md) (video): "Match invoice line to multiple order lines; Match invoice to partial receipt lines"
+- [What's new in SCM: Migrate Italian Subcontracting (2026 release wave 2)](../../../../videos/nb_a42dmSqE.md) (video): "Subcontracting purchase and transfer order views; Vendor subcontracting field migration"
 
 ## Business Central pages and reports
 

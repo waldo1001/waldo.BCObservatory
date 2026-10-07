@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:21:46.353Z"
+  at: "2026-10-06T23:56:28.878Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 2a0f75310807e282d11d861c2f0a4cd3390a9cb161380dfb29a528275c646f4c
+  input_hash: 0183bce57877daf54037340562332c23cf8aa44cf23c14b529660b929ab6f2b8
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/System%20Application/App/SharePoint/src/Diagnostics/HTTPDiagnostics.Interface.al
@@ -61,6 +61,12 @@ counts:
   procedures: 5
   events: 0
   subscribers: 0
+relations:
+  out: 0
+  referenced_by: 0
+  pages: 0
+  extended_by: 0
+  event_subscribers: 0
 ---
 
 # Interface "HTTP Diagnostics"

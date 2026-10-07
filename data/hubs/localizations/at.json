@@ -1,0 +1,170 @@
+{
+  "country": "AT",
+  "version": "29",
+  "input_hash": "30e877d42371da63741e291e1db23366a656e53f99187bcbb4734fb2fd66089d",
+  "summary": "Austria (AT) localization of Business Central 29. It covers vendor delivery reminders, VAT statement and VIES reporting, the vendor payments list, G/L setup information, a data export, physical inventory orders and fixed asset reports. Use it to see what Austria adds to W1 and where Learn documents it.",
+  "overview": "The Austrian layer is shared with the DACH region, so many objects carry German or Swiss names (for example \"VAT Statement Germany\" and \"Report Sel. Usage Purch. DACH\"). The largest own feature is the delivery reminder process for vendors. It has header, line, issued and ledger entry tables, terms, levels and text setup, create and issue codeunits, test and issued reports, and page extensions on the vendor, purchase setup, purchase order and role centers. Learn documents setup, generation, manual creation, issuing and test reports.\n\nVAT reporting is the second main area. Report 11110 \"VAT Statement AT\" and report 11108 \"VAT - VIES Declaration XML\" support the VAT statement and VIES declaration, with FDF and XML export and Finanz Online integration per Learn. W1 tables get fields such as Registration No. on vendor and purchase documents, tax office and authorization fields on Company Information, and VAT advance notification fields on General Ledger Setup and VAT Statement Name. A configurable data export (tables 11002 to 11010) and report 11514 \"G/L Setup Information\" support data access and auditability requirements.\n\nOther additions are physical inventory order tables, place of dispatcher and receiver setup, fixed asset reports and depreciation fields, valuation methods in exchange rate adjustment, and a SEPA credit transfer export codeunit. W1 extensibility changes are small: 3 events and 25 added procedures.",
+  "key_points": [
+    "Delivery reminders for vendors: header, line, issued, ledger entry, terms, levels and text tables, with create and issue codeunits and test reports.",
+    "VAT reporting: report 11110 VAT Statement AT and report 11108 VAT - VIES Declaration XML, with FDF and XML export per Learn.",
+    "Vendor Payments List (report 11507) prints by vendor or chronologically, with foreign currency and posting information layouts.",
+    "G/L Setup Information report 11514 lets users review master data, posting groups, VAT setup and number series.",
+    "Configurable data export with its own tables, pages and codeunit 11000 \"Data Export Management\".",
+    "Physical inventory orders and recordings as own tables 5005350 to 5005363, with setup number series on Inventory Setup.",
+    "Company Information gains tax office, authorization number, place of dispatcher and receiver fields.",
+    "Exchange rate adjustment gains a valuation method and period end date, plus fixed asset fields for premium depreciation."
+  ],
+  "areas": [
+    {
+      "area": "Purchases",
+      "what": "Adds the full delivery reminder process for vendors: tables, create and issue codeunits, pages, test and issued reports, and page extensions on vendor, purchase setup, purchase order and role centers. Also adds Registration No. on vendor templates, archiving options on Purchases & Payables Setup, and reports such as Vendor Payments List and Vendor Total-Balance.",
+      "why": "Learn describes delivery reminders as a way to track and notify vendors about overdue deliveries, and documents the Vendor Payments List report.",
+      "objects": [
+        "table/5005270",
+        "table/5005271",
+        "codeunit/5005271",
+        "codeunit/5005270",
+        "page/5005270",
+        "report/5005272",
+        "report/11507",
+        "table/312"
+      ]
+    },
+    {
+      "area": "Finance",
+      "what": "Adds VAT statement reports for Austria, VIES declaration XML, a configurable data export, G/L reports and setup information. Changes W1 posting, exchange rate adjustment and VAT statement preview objects with new fields, procedures and events.",
+      "why": "Learn documents VAT Statement AT and VIES XML for tax authority submission, and the G/L setup report for data access and auditability requirements.",
+      "objects": [
+        "report/11110",
+        "report/11108",
+        "report/11514",
+        "codeunit/11000",
+        "table/11002",
+        "codeunit/11110",
+        "table/596",
+        "codeunit/13"
+      ]
+    },
+    {
+      "area": "Inventory",
+      "what": "Adds physical inventory order and recording tables, place of dispatcher and receiver setup, and reports such as Crossborder Services and Item ABC Analysis. Changes Inventory Setup, Item Statistics Buffer and Intrastat related tables.",
+      "why": null,
+      "objects": [
+        "table/5005350",
+        "table/5005351",
+        "table/313",
+        "table/11000",
+        "table/11001",
+        "report/11111",
+        "report/11503",
+        "table/5821"
+      ]
+    },
+    {
+      "area": "Foundation",
+      "what": "Adds DACH report selections, source code setup for delivery reminders and many Company Information fields (tax office, authorization numbers, place of dispatcher and receiver). Adds helpers in Format Address and Document-Print.",
+      "why": null,
+      "objects": [
+        "table/79",
+        "table/26100",
+        "codeunit/365",
+        "codeunit/229",
+        "codeunit/1901",
+        "table/242",
+        "enumextension/26101",
+        "enumextension/26102"
+      ]
+    },
+    {
+      "area": "FixedAssets",
+      "what": "Adds Austrian fixed asset list and book value reports, and fields for premium depreciation on Fixed Asset. Adds a procedure in FA General Report.",
+      "why": null,
+      "objects": [
+        "report/11100",
+        "report/11011",
+        "table/5600",
+        "codeunit/5626",
+        "table/5611",
+        "table/5612"
+      ]
+    },
+    {
+      "area": "(no namespace)",
+      "what": "Holds the Intrastat item list report and the data export setup table. Upgrade and sandbox cleanup codeunits are plumbing.",
+      "why": null,
+      "objects": [
+        "report/11001",
+        "table/11009"
+      ]
+    },
+    {
+      "area": "Security",
+      "what": "Extends the LOCAL and LOCAL READ permission sets, including delivery reminder permissions.",
+      "why": null,
+      "objects": [
+        "permissionsetextension/5005270",
+        "permissionsetextension/5005271",
+        "permissionset/1001",
+        "permissionset/1002"
+      ]
+    },
+    {
+      "area": "CRM",
+      "what": "Changes the Export Contact and Export Segment Contact XMLports.",
+      "why": null,
+      "objects": [
+        "xmlport/5050",
+        "xmlport/5051"
+      ]
+    },
+    {
+      "area": "Sales",
+      "what": "Adds the Customer Total-Balance report and changes Sales Line Archive.",
+      "why": null,
+      "objects": [
+        "report/11003",
+        "table/5108"
+      ]
+    },
+    {
+      "area": "Bank",
+      "what": "Adds a SEPA credit transfer APC export file codeunit.",
+      "why": null,
+      "objects": [
+        "codeunit/11100"
+      ]
+    },
+    {
+      "area": "Manufacturing",
+      "what": "Adds a DACH page extension for the Manufacturing Manager role center.",
+      "why": null,
+      "objects": [
+        "pageextension/11010"
+      ]
+    },
+    {
+      "area": "Microsoft",
+      "what": "Adds a Certificate table.",
+      "why": null,
+      "objects": [
+        "table/11014"
+      ]
+    },
+    {
+      "area": "Utilities",
+      "what": "Adds the GeneralMgt codeunit with local helper functions.",
+      "why": null,
+      "objects": [
+        "codeunit/11501"
+      ]
+    }
+  ],
+  "learn_pages_used": 13,
+  "prompt_version": 2,
+  "at": "2026-10-06T23:49:26.724Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.1189038
+  }
+}

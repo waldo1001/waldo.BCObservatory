@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T13:43:32.763Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -41,7 +41,9 @@ links:
   topics:
     - topic/business-central/copilot-and-agent-capabilities
   localizations: []
-  videos: []
+  videos:
+    - video/_1LhwG2ZgFw
+    - video/cZCSi6khZFo
   posts: []
   guidelines: []
 learn_toc_path:
@@ -53,7 +55,7 @@ children: []
 coverage:
   learn: 2
   code: 0
-  video: 0
+  video: 2
   blog: 0
   guideline: 0
 bc_forms: []
@@ -89,5 +91,12 @@ Start with the main page to understand what the feature does and how matching be
 
 - [FAQ for suggest sales lines with Copilot](https://learn.microsoft.com/dynamics365/business-central/faq-sales-suggest-sales-lines-with-copilot): This FAQ provides information about the AI technology used in Business Central for sales line suggestions.
 - [Sales line suggestions with Copilot](https://learn.microsoft.com/dynamics365/business-central/sales-suggest-sales-lines-with-copilot): Learn how to suggest lines on sales orders with Copilot.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [What's New: Sales Lines Suggestions with Copilot (2024 release wave 1)](../../../videos/_1LhwG2ZgFw.md) (video): "sales line suggestions; copilot; keyword extraction; context understanding"
+- [Introducing: Sales Lines Suggestions with Copilot ( 2024 release wave 1)](../../../videos/cZCSi6khZFo.md) (video): "Sales Line Suggestion with Copilot; Item Search via Attributes and Catalog"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

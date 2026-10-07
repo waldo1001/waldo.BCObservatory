@@ -21,7 +21,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T14:56:57.246Z"
+  at: "2026-10-07T00:17:53.935Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -123,10 +123,12 @@ features:
     roadmap_ids:
       - "573259"
   - name: Expense user to resource linkage
-    status: unclear
+    status: preview
     t: 119
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573259"
   - name: Manual project assignment fallback in Business Central
     status: unclear
     t: 143
@@ -192,7 +194,7 @@ A submitter then picks the project and project task in the categorization tab of
 | Project and task visibility in Expense Agent web app | status not stated, demoed | [0:17](https://www.youtube.com/watch?v=NI6WYze-JSU&t=17s) |  |
 | Submitter project assignment capability | status not stated, demoed | [1:21](https://www.youtube.com/watch?v=NI6WYze-JSU&t=81s) |  |
 | Project tracking configuration in Expense Agent setup | preview (roadmap [573259](../features/573259.md)), demoed | [1:44](https://www.youtube.com/watch?v=NI6WYze-JSU&t=104s) |  |
-| Expense user to resource linkage | status not stated, demoed | [1:59](https://www.youtube.com/watch?v=NI6WYze-JSU&t=119s) |  |
+| Expense user to resource linkage | preview (roadmap [573259](../features/573259.md)), demoed | [1:59](https://www.youtube.com/watch?v=NI6WYze-JSU&t=119s) |  |
 | Manual project assignment fallback in Business Central | status not stated | [2:23](https://www.youtube.com/watch?v=NI6WYze-JSU&t=143s) |  |
 
 A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.

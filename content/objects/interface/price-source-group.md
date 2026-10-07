@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:21:46.353Z"
+  at: "2026-10-06T23:56:28.878Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 7b9e8bf6a1a5699e269581bbde3cbe3e61ee6f6951d2d1149b6001b0f24a695c
+  input_hash: aba7d350596d69708df3a2725c22b106047626c5c4f9fbc9507a5cf6ed19e2ca
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Layers/W1/BaseApp/Pricing/Source/PriceSourceGroup.Interface.al
@@ -61,6 +61,12 @@ counts:
   procedures: 2
   events: 0
   subscribers: 0
+relations:
+  out: 0
+  referenced_by: 0
+  pages: 0
+  extended_by: 0
+  event_subscribers: 0
 ---
 
 # Interface "Price Source Group"

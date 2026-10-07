@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 328a0872e1151b761f14c944c6afa9104a0d8d3d4fdb84147cc270018aae426c
@@ -128,7 +128,8 @@ links:
   topics:
     - topic/business-central/business-functionality/sustainability-management/sustainability-analytics
   localizations: []
-  videos: []
+  videos:
+    - video/hX2zkeUvvdY
   posts: []
   guidelines: []
 learn_toc_path:
@@ -142,7 +143,7 @@ children: []
 coverage:
   learn: 13
   code: 0
-  video: 0
+  video: 1
   blog: 0
   guideline: 0
 bc_forms:
@@ -172,6 +173,12 @@ Path: [Business functionality](../../../business-functionality.md) > [Sustainabi
 - [Sustainability Overview](https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-sustainability-overview): The Sustainability Overview gives you a high-level view of all the key sustainability metrics.
 - [Sustainability Power BI app](https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-app): The Power BI app for sustainability in Business Central provides comprehensive sustainability analytics to stakeholders at all levels of your organization.
 - [Water and Waste Analysis](https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-water-and-waste-analysis): The Water and Waste Analysis allows you to effectively monitor your water and waste usage by different metrics such as Water Type, Intensity Type, and Responsibility Center.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [What's New: Power BI Reports for Sustainability (2025 release wave 1)](../../../../../videos/hX2zkeUvvdY.md) (video): "Power BI Reports for Sustainability greenhouse gas emissions carbon equivalent water and waste"
 
 ## Business Central pages and reports
 

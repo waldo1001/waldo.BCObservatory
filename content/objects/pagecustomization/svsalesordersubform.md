@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:21:46.353Z"
+  at: "2026-10-06T23:56:28.878Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 1db17bf4200d6a6938e3adeb906e8a377aa400d3ca8bb292b9cb156b9e9c3cd9
+  input_hash: 822d69144941f18df97c06b20b90fcb565840b33451fccb6e80aec094ed9fa48
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/AgentSamples/app/SalesValidation/Profile/SVSalesOrderSubform.PageCust.al
@@ -60,6 +60,12 @@ counts:
   procedures: 0
   events: 0
   subscribers: 0
+relations:
+  out: 0
+  referenced_by: 0
+  pages: 0
+  extended_by: 0
+  event_subscribers: 0
 ---
 
 # Page customization "SVSalesOrderSubform"

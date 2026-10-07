@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: c6e15f87979e76155e46e48e5882e721f1ba503562d350bf0ae0d097f057d01a
@@ -211,8 +211,16 @@ links:
     - topic/business-central/business-functionality/warehouse-management/outbound-warehouse-processes
     - topic/business-central/business-functionality/warehouse-management/internal-warehouse-processes
   localizations: []
-  videos: []
-  posts: []
+  videos:
+    - video/8KMcu4B_eTk
+    - video/dD_2NEs3A40
+    - video/e5Dr3jzCLM8
+    - video/oIoH3gxc0uk
+    - video/sVlPlmok5U8
+    - video/W2yhU8eXT5w
+    - video/WACQbAEVOJg
+  posts:
+    - post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-1366699589934952404
   guidelines: []
 learn_toc_path:
   - Business functionality
@@ -226,8 +234,8 @@ children:
 coverage:
   learn: 26
   code: 0
-  video: 0
-  blog: 0
+  video: 7
+  blog: 1
   guideline: 0
 bc_forms:
   - 15
@@ -302,6 +310,19 @@ Path: [Business functionality](../business-functionality.md) > Warehouse managem
 
 - [Inventory and Warehouse Reports and Analytics](https://learn.microsoft.com/dynamics365/business-central/inventory-WMS-reports): Explore the inventory and warehouse reports and analytics that are available in the standard version of Business Central.
 - [Manage warehouse activities](https://learn.microsoft.com/dynamics365/business-central/design-details-warehouse-management): In addition to receipts and shipments, Business Central supports a series of internal warehouse activities.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Direct transfers from warehouse-enabled locations in Business Central 2026 wave 2](../../../posts/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-1366699589934952404.md) (community post): "direct transfers; warehouse configuration; outbound warehouse handling; posting methods"
+- [What's New: Warehouse Management (2023 release wave 2)](../../../videos/8KMcu4B_eTk.md) (video): "put-away templates; bin policy; warehouse configuration; picking by ranking; directed pick and put-away"
+- [What's New: Project Management (2024 release wave 1)](../../../videos/dD_2NEs3A40.md) (video): "warehouse picks; assembly-to-order; warehouse pick creation"
+- [Introducing: Shopify and Dynamics 365 Business Central (2023)](../../../videos/e5Dr3jzCLM8.md) (video): "Multi-location warehouse management; Financial visibility and reporting"
+- [Execution & Control Flushing Methods (2026)](../../../videos/oIoH3gxc0uk.md) (video): "Routing link codes on components; Component-level flushing policies"
+- [What's New: Project Management Receive Project Items with Receipts or Put-Aways(2025 release wave 1)](../../../videos/sVlPlmok5U8.md) (video): "warehouse receipt; put-away; project purchases; warehouse processes"
+- [What's new: Business Central Mobile App and Barcode Scanning (2024 release wave 1)](../../../videos/W2yhU8eXT5w.md) (video): "barcode scanning; mobile app; warehouse pick; continuous scanning"
+- [What's new in SCM: Overview (2026 release wave 2)](../../../videos/WACQbAEVOJg.md) (video): "Inventory put-away for subcontracted operations; Inventory put-away and pick for partial transfers"
 
 ## Business Central pages and reports
 

@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: e698e27b51a8d5c8d9a0090793f9da87f9f6506a00689d5f731c5c49057b9885
@@ -387,7 +387,10 @@ links:
   topics:
     - topic/business-central/business-functionality/finance/financial-analytics
   localizations: []
-  videos: []
+  videos:
+    - video/gMyp9JkXf9g
+    - video/O2RPBlr_GiE
+    - video/Of0Dw8V-4Yw
   posts: []
   guidelines: []
 learn_toc_path:
@@ -401,7 +404,7 @@ children: []
 coverage:
   learn: 83
   code: 0
-  video: 0
+  video: 3
   blog: 0
   guideline: 0
 bc_forms:
@@ -597,6 +600,14 @@ Path: [Business functionality](../../../business-functionality.md) > [Finance](.
 - [Vendor Pre-Payment Journal (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-317): The report can be used to check payments before creating payment files and posting the journal.
 - [Vendor/Item Purchases (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-313): Analyze your item purchases per vendor to manage inventory procurement and improve supply chain processes. Assess the relationship between discounts, the cost amount, and the volume of item purchases.
 - [Work with financial overviews in Excel (legacy)](https://learn.microsoft.com/dynamics365/business-central/finance-analyze-excel): Learn about how you can open the financial statements in Microsoft Excel from Business Central for better analysis.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [What's New: Excel Reports for Finance and Sales (2024 release wave 1)](../../../../../videos/gMyp9JkXf9g.md) (video): "Excel Reports for Finance and Sales (2024 release wave 1). Topics: excel reports; trial balance; accounts receivable"
+- [Comparing Trial Balance and Aging Reports between Dynamics SL and Dynamics 365 Business Central](../../../../../videos/O2RPBlr_GiE.md) (video): "trial balance; aging reports; accounts receivable aging; accounts payable aging"
+- [Comparing Trial Balance and Aging Reports Between Dynamics GP and Dynamics Business Central (2024)](../../../../../videos/Of0Dw8V-4Yw.md) (video): "trial balance report; aging report; accounts receivable; general ledger"
 
 ## Business Central pages and reports
 

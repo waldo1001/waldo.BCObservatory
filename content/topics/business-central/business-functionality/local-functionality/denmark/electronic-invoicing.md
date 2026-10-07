@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 33e52f3e8902cc7669d87ca9b9607eb7e53d706b7b8133f5f50ab3a225f303df
@@ -64,7 +64,8 @@ links:
   topics:
     - topic/business-central/business-functionality/local-functionality/denmark
   localizations: []
-  videos: []
+  videos:
+    - video/205F8ljmInU
   posts: []
   guidelines: []
 learn_toc_path:
@@ -78,7 +79,7 @@ children: []
 coverage:
   learn: 5
   code: 0
-  video: 0
+  video: 1
   blog: 0
   guideline: 0
 bc_forms:
@@ -102,6 +103,12 @@ Path: [Business functionality](../../../business-functionality.md) > [Local func
 - [OIOUBL Electronic Invoicing Overview \| Microsoft Docs](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/oioubl-electronic-invoicing-overview): Learn how Business Central assists you in meeting the requirement to send sales documents electronically to the Danish public sector in the OIOUBL format.
 - [OIOUBL Extension for Electronic Invoicing](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/ui-extensions-oioubl): The OIOUBL extension simplifies the process of sending sales documents electronically to customers in the Danish public sector using the OIOUBL format.
 - [Set Up the OIOUBL Extension for Electronic Invoicing \| Microsoft Docs](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/how-to-set-up-oioubl): Prepare to submit sales documents in the Offentlig Information Online - Universal Business Language (OIOUBL) format by following the steps outlined in this article.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [What's New: The Danish Bookkeeping Act (2023 release wave 2)](../../../../../videos/205F8ljmInU.md) (video): "E-invoicing for Denmark; Digital Voucher Storage; Audit Trail"
 
 ## Business Central pages and reports
 

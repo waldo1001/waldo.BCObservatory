@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:21:46.353Z"
+  at: "2026-10-06T23:56:28.878Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 973dbfec6bfd5d009129fb54e19182f511fc55d4c38be3f5a24683a592246dc3
+  input_hash: d8a7259f4faa7e05c1e347120a7bf4c7500cf5f4347874a69f597a2477cb83ef
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/HybridBaseDeployment/app/src/interfaces/CloudMigrationWarning.Interface.al
@@ -60,6 +60,12 @@ counts:
   procedures: 5
   events: 0
   subscribers: 0
+relations:
+  out: 0
+  referenced_by: 0
+  pages: 0
+  extended_by: 0
+  event_subscribers: 0
 ---
 
 # Interface "Cloud Migration Warning"

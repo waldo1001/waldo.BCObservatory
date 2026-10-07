@@ -1,0 +1,148 @@
+{
+  "country": "NO",
+  "version": "29",
+  "input_hash": "f89ff5a49593232a3d89ebbfa04639d61ea1ddb92563f4d67f5320a80fb13d79",
+  "summary": "Norway (NO) localization of Business Central 29. It covers remittance payments to vendors (Telepay, BBS, SEPA), OCR and KID for customer payments, EHF e-invoicing, Norwegian VAT codes with proportional deduction and trade settlement reporting, recurring orders, and SAF-T. Use it for questions on how Norway differs from W1.",
+  "overview": "The Norwegian layer adds a large remittance module (objects in the 15000000 range) for electronic vendor payments. It has remittance agreements and accounts, payment orders, a waiting journal, return files and error pages, plus export and import reports for bank and BBS formats. Vendor, vendor template, journal and ledger tables get fields such as Remittance Account Code, KID, recipient references and payment type codes. Learn documents setup, suggestions, export, return import, cancellation and error codes.\n\nOn the receivables side the code adds KID setup fields to Sales & Receivables Setup, OCR payment import (OCR Setup, OCR journal test report) and EHF e-invoicing. EHF uses GLN, Account Code and E-Invoice fields on customers and sales, reminder and finance charge documents. Dedicated check and export codeunits cover sales, service, reminder and finance charge documents, and PEPPOL Management and Validation are extended for reminders and finance charge memos. Recurring groups and a Create Recurring Orders batch job generate sales orders from blanket orders.\n\nFor VAT, the layer adds VAT Code and VAT Number fields across ledger, journal and document tables, VAT periods, specifications and notes, proportional deduction in posting, and Trade Settlement 2017 and VAT Reconciliation reports. VAT Reporting Code carries a SAF-T VAT Code, which supports SAF-T generation. Service management receives page and table extensions with NO suffixes, and Norwegian service invoice and credit memo reports.",
+  "key_points": [
+    "Remittance payments: agreements, accounts, payment orders, waiting journal, return files, errors, with Telepay, BBS and SEPA export",
+    "KID numbers and OCR payment import into the cash receipt journal, with OCR Journal - Test report",
+    "EHF e-invoicing via GLN, Account Code and E-Invoice fields, with checks and XML export for invoices, credit memos, reminders, finance charges and service documents",
+    "Norwegian VAT Codes, one VAT code in journals, proportional VAT deduction, VAT periods, Trade Settlement 2017 and VAT Reconciliation reports",
+    "Recurring groups and Create Recurring Orders batch job on blanket sales orders",
+    "Application always Allowed setting in General Ledger Setup and User Setup for applying entries in closed periods",
+    "SAF-T VAT code mapping on VAT Reporting Code, supported by SAF-T setup per Learn",
+    "Extensibility events: OnAfterGetPaymentMeansInfo, OnBeforeImportPayments, OnBeforeImportReturnData, OnBefore/OnAfterUpdateGenJnlFields"
+  ],
+  "areas": [
+    {
+      "area": "Purchases",
+      "what": "Adds the remittance module for electronic vendor payments: agreements, accounts, payment orders, waiting journal, return files and error pages, with suggestion, test, export, import and delete reports. Vendor, Vendor Templ., Vendor Ledger Entry and Purchase Header get remittance, KID, recipient reference and payment type fields. Purchase invoice and credit memo lines get VAT Code and VAT Number.",
+      "why": "Learn describes remittance for paying Norwegian and foreign vendors through bank formats such as Telepay and BBS, with settlement returns and error codes.",
+      "objects": [
+        "table/23",
+        "table/1383",
+        "table/25",
+        "table/38",
+        "codeunit/15000002",
+        "codeunit/15000031",
+        "page/15000002",
+        "report/15000001"
+      ]
+    },
+    {
+      "area": "Sales",
+      "what": "Adds KID setup and EHF fields (GLN, Account Code, E-Invoice) to customers, sales documents, reminders and finance charge memos. Extends PEPPOL Management and Validation for reminders and finance charges. Adds recurring groups and the Create Recurring Orders batch job, plus local customer and vendor-style reports.",
+      "why": "Learn documents EHF for public sector customers, KID numbers on sales documents, and recurring orders built from blanket orders.",
+      "objects": [
+        "table/311",
+        "codeunit/1605",
+        "codeunit/1620",
+        "table/36",
+        "table/112",
+        "table/15000300",
+        "report/15000300",
+        "codeunit/15000300"
+      ]
+    },
+    {
+      "area": "Finance",
+      "what": "Adds Norwegian VAT handling: VAT Code and VAT Number on journals, entries and setup, VAT periods, specifications and notes, and proportional deduction in posting and VAT settlement. Adds Trade Settlement 2017 (report and xmlport), VAT Reconciliation and other local reports. Adds an Application always Allowed option.",
+      "why": "Learn covers Norwegian VAT codes, proportional VAT, electronic VAT returns, VAT reconciliation and applying entries in closed periods.",
+      "objects": [
+        "table/325",
+        "table/344",
+        "codeunit/12",
+        "codeunit/10600",
+        "report/10618",
+        "xmlport/10618",
+        "report/10630",
+        "table/81"
+      ]
+    },
+    {
+      "area": "Service",
+      "what": "Extends service documents, archives and setup with Norwegian fields through table and page extensions. Adds local service shipment, invoice and credit memo reports and codeunits for posting, printing and document management.",
+      "why": null,
+      "objects": [
+        "codeunit/10602",
+        "codeunit/10650",
+        "report/10631",
+        "report/10632",
+        "report/10613",
+        "tableextension/10602",
+        "tableextension/10612",
+        "pageextension/10621"
+      ]
+    },
+    {
+      "area": "EServices",
+      "what": "Provides EHF e-invoice check and export codeunits for sales, service, reminder and finance charge documents, export header, line and transfer file tables, and batch reports that create electronic documents. Also holds OCR setup, OCR payment import and the OCR test journal.",
+      "why": "Learn describes EHF file creation for public sector customers, configurable file paths, and OCR payment setup and import.",
+      "objects": [
+        "codeunit/10628",
+        "codeunit/10629",
+        "report/10640",
+        "report/10642",
+        "table/10604",
+        "xmlport/10601",
+        "table/15000100",
+        "report/15000064"
+      ]
+    },
+    {
+      "area": "Bank",
+      "what": "Extends SEPA credit transfer export with events and procedures that move lines to the waiting journal and update journal fields. Adds regulatory reporting codes with a threshold amount, and imports of pain.002 and CAMT.054 files plus a Norwegian SEPA export file codeunit.",
+      "why": null,
+      "objects": [
+        "codeunit/1221",
+        "table/1226",
+        "table/1200",
+        "codeunit/10636",
+        "codeunit/10637",
+        "codeunit/10638",
+        "table/10607",
+        "xmlport/1000"
+      ]
+    },
+    {
+      "area": "Foundation",
+      "what": "Adds the enterprise register field and classification procedure to Company Information, sales order print procedures in Document-Print, and Norwegian SEPA CT09 code and name in Company-Initialize. Extends Report Selection Usage for service reports.",
+      "why": null,
+      "objects": [
+        "table/79",
+        "codeunit/229",
+        "codeunit/2",
+        "codeunit/10603",
+        "enum/77"
+      ]
+    },
+    {
+      "area": "Security",
+      "what": "Adds the Application always Allowed field to User Setup and changes the LOCAL and LOCAL READ permission sets.",
+      "why": "Learn explains this setting allows applying entries outside the allowed posting period.",
+      "objects": [
+        "table/91",
+        "permissionset/1001",
+        "permissionset/1002"
+      ]
+    },
+    {
+      "area": "Utilities",
+      "what": "Adds a DocumentTools codeunit and a ClassifySAFT procedure in data classification for SAF-T data.",
+      "why": null,
+      "objects": [
+        "codeunit/10601",
+        "codeunit/1752"
+      ]
+    }
+  ],
+  "learn_pages_used": 42,
+  "prompt_version": 2,
+  "at": "2026-10-06T23:54:32.992Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.15527400000000002
+  }
+}

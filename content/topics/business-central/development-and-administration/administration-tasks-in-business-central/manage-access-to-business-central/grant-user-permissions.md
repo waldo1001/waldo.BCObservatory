@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 516e37befff368ab038355069fc2c3c44edb76087027f0f54b4c11accd0c5a09
@@ -40,7 +40,10 @@ links:
   topics:
     - topic/business-central/development-and-administration/administration-tasks-in-business-central/manage-access-to-business-central
   localizations: []
-  videos: []
+  videos:
+    - video/asSSBl8Cj34
+    - video/DRUr4byy8xQ
+    - video/w9c-j29nAFM
   posts: []
   guidelines: []
 learn_toc_path:
@@ -54,7 +57,7 @@ children: []
 coverage:
   learn: 2
   code: 0
-  video: 0
+  video: 3
   blog: 0
   guideline: 0
 bc_forms:
@@ -97,6 +100,14 @@ Path: [Development and administration](../../../development-and-administration.m
 
 - [Create users according to licenses](https://learn.microsoft.com/dynamics365/business-central/ui-how-users-permissions): Describes how to add users to Business Central online or on-premises based on licenses.
 - [Define granular permissions](https://learn.microsoft.com/dynamics365/business-central/ui-define-granular-permissions): This article describes how to define granular permissions and assign each user the permission sets that they need to do their jobs.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [What's Cooking in Business Central: Replace Permission Sets Upon Import](../../../../../videos/asSSBl8Cj34.md) (video): "Replace permission sets upon import; Import permission sets action"
+- [Getting Started With Agents: Agent Access Control - Permissions and Profiles (2025)](../../../../../videos/DRUr4byy8xQ.md) (video): "agent access control; permissions; profiles; sales order agent; agent log entries; user management"
+- [Reskill: Program explainer](../../../../../videos/w9c-j29nAFM.md) (video): "Reskilling Program; Microsoft Talent Program; New Hire Community"
 
 ## Business Central pages and reports
 

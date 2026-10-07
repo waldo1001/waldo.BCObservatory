@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:21:46.353Z"
+  at: "2026-10-06T23:56:28.878Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 76aefd0a3dd138382e23f61cb8686e3a7f831edba1728ba33a8ce78bdb54af7e
+  input_hash: 72f72725445283d2c0aab13967181b56918ee277c034d249d46e4274de7dd5eb
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/System%20Application/App/ControlAddIns/src/VideoPlayer.ControlAddin.al
@@ -61,6 +61,12 @@ counts:
   procedures: 4
   events: 0
   subscribers: 0
+relations:
+  out: 0
+  referenced_by: 0
+  pages: 0
+  extended_by: 0
+  event_subscribers: 0
 ---
 
 # Control add-in "VideoPlayer"

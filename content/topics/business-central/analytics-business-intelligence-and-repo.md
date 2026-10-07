@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 5cff25e81fb0392ad53a97fa7a194447221fdea74e3cd6297124fe435945dffa
@@ -312,7 +312,8 @@ links:
     - topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/waldo-be/318707
   guidelines: []
 learn_toc_path:
   - Analytics, business intelligence, and reporting
@@ -329,7 +330,7 @@ coverage:
   learn: 66
   code: 0
   video: 0
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms:
   - 1
@@ -657,6 +658,12 @@ Path: Analytics, business intelligence, and reporting · tier official · system
 
 - [Analytics by functional area](https://learn.microsoft.com/dynamics365/business-central/analytics-by-functional-area): Provides an overview of functional area specific landing pages for analytics in Business Central.
 - [Analytics, business intelligence, and reporting overview](https://learn.microsoft.com/dynamics365/business-central/reports-bi-reporting): Provides an overview of all the analytics, business intelligence, and reporting features supported in Business Central.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Business Central data in Fabric: the way it should be](../../posts/waldo-be/318707.md) (community post): "replicate their tables as Delta Parquet files in OneLake with SQL query access"
 
 ## Business Central pages and reports
 

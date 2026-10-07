@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: fd16969a532538bd4b44aa2294f4195b5149dbf1b668b52ea8bd175ca8a159e0
@@ -112,8 +112,13 @@ links:
   topics:
     - topic/dev-itpro/development/development-environment
   localizations: []
-  videos: []
-  posts: []
+  videos:
+    - video/B8cWQGwajwQ
+  posts:
+    - post/stefanmaron-com/https://stefanmaron.com/posts/al-runner-autonomous-agent-weekend/
+    - post/stefanmaron-com/https://stefanmaron.com/posts/al-runner-run-al-tests-without-bc/
+    - post/waldo-be/318065
+    - post/waldo-be/318498
   guidelines: []
 learn_toc_path:
   - Development
@@ -125,8 +130,8 @@ children: []
 coverage:
   learn: 11
   code: 0
-  video: 0
-  blog: 0
+  video: 1
+  blog: 4
   guideline: 0
 bc_forms:
   - 149000
@@ -161,6 +166,16 @@ Path: [Development](../../development.md) > [Development environment](../develop
 - [Test pages](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-testing-pages): This article explains the Test pages, their purpose and use.
 - [Testing the application overview](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-testing-application): Learn about how to use automated tests in Business Central
 - [Use the page scripting tool for acceptance testing](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-scripting): Learn how to record, edit, replay, and automate page scripts in Business Central to validate business processes and user acceptance tests.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [AL Runner: A Weekend of Autonomous Agents, a Windows Cross-Check, and 59% of Microsoft's Tests Passing](../../../../posts/stefanmaron-com/https://stefanmaron.com/posts/al-runner-autonomous-agent-weekend/.md) (community post): "AL Runner, a testing framework for Business Central, achieved significant progress"
+- [AL Runner: Run AL Unit Tests Without a BC Service Tier](../../../../posts/stefanmaron-com/https://stefanmaron.com/posts/al-runner-run-al-tests-without-bc/.md) (community post): "AL Runner is a CLI tool that transpiles AL code to C# and executes unit tests"
+- [BCTalent – Escape Rooms](../../../../posts/waldo-be/318065.md) (community post): "The BCTalent program created Business Central escape rooms where trainees complete consultant or developer tasks"
+- [Escape Room App gone public!](../../../../posts/waldo-be/318498.md) (community post): "The BCTalent Escape Room framework provides a documented platform for creating custom rooms and puzzles for training"
+- [In Preview: User Acceptance Testing with the Page Scripting Tool (2024 release wave 1)](../../../../videos/B8cWQGwajwQ.md) (video): "user acceptance testing; page scripting tool; script recording and playback"
 
 ## Business Central pages and reports
 

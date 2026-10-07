@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: dc77893b4664aae97ffd100f26ecf3c5de655899ad5186dcfe50dc0d23450399
@@ -319,7 +319,9 @@ links:
     - topic/dev-itpro/development/the-al-programming-language/preprocessor-directives-in-al
     - topic/dev-itpro/development/the-al-programming-language/code-analysis
   localizations: []
-  videos: []
+  videos:
+    - video/D_Lur52IrIg
+    - video/eUkx_VCcyoU
   posts: []
   guidelines: []
 learn_toc_path:
@@ -335,7 +337,7 @@ children:
 coverage:
   learn: 45
   code: 0
-  video: 0
+  video: 2
   blog: 0
   guideline: 0
 bc_forms: []
@@ -369,5 +371,12 @@ Path: [Development](../development.md) > The AL programming language · tier off
 - [Working with AL methods](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-methods): Methods also known as procedures are a fundamental programming element in AL for Business Central.
 - [Working with Labels in AL for Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-using-labels): Learn how to work with labels in AL, the translatable string constants that Business Central displays as captions, descriptions, and messages.
 - [XML comments in code](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-xml-comments): Learn about adding documentation to AL code by including XML elements in a special syntax.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [What's new in AL and Tools (2026 release wave 2)](../../../videos/D_Lur52IrIg.md) (video): "al mcp; language server protocol; symbol search; interface design"
+- [What's New: AL Language (2025 release wave 1)](../../../videos/eUkx_VCcyoU.md) (video): "AL Language; resources; pages; reports; strings; json; yaml"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

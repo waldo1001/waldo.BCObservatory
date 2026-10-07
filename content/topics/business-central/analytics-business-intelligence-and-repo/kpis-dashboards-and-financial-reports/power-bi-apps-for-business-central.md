@@ -12,7 +12,7 @@ review:
   at: "2026-10-06T14:24:07.451Z"
   flags: []
 generated:
-  at: "2026-10-06T14:24:07.451Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -89,8 +89,12 @@ links:
   topics:
     - topic/business-central/analytics-business-intelligence-and-repo/kpis-dashboards-and-financial-reports
   localizations: []
-  videos: []
-  posts: []
+  videos:
+    - video/_1onqwZz4rA
+    - video/kJfGIKor3VA
+    - video/VEVo5LgCGfw
+  posts:
+    - post/thinkaboutit-be/7943
   guidelines: []
 learn_toc_path:
   - Analytics, business intelligence, and reporting
@@ -102,8 +106,8 @@ children: []
 coverage:
   learn: 8
   code: 0
-  video: 0
-  blog: 0
+  video: 3
+  blog: 1
   guideline: 0
 bc_forms:
   - 36951
@@ -146,6 +150,15 @@ Three calendar pages give more detail on the calendar settings: fiscal, standard
 - [Power BI apps FAQ](https://learn.microsoft.com/dynamics365/business-central/across-powerbi-apps-faq): FAQ for the Business Central Power BI apps.
 - [Power BI apps/reports for functional areas](https://learn.microsoft.com/dynamics365/business-central/across-powerbi-apps-by-functional-area): Get an overview of the landing pages for the Power BI apps available in functional areas in Business Central.
 - [Use back links to explore aggregated data in visuals](https://learn.microsoft.com/dynamics365/business-central/powerbi-back-links): When you're analyzing a visual in Power BI, back links let you go to the data behind the graphic.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Quick Tip: How Can You Download the Standard Business Central Power BI Reports?](../../../../posts/thinkaboutit-be/7943.md) (community post): "Business Central standard Power BI reports are now distributed through official Power BI template apps"
+- [What's New: Demo Data for Analytics (2025 release wave 2)](../../../../videos/_1onqwZz4rA.md) (video): "Enhanced Demo Data Tool for Analytics; Sales Documents Demo Data"
+- [What's New:Drill-Back and Dynamic Dimension Name Support in Power BI Apps for Business Central(2025)](../../../../videos/kJfGIKor3VA.md) (video): "Drill-back from Power BI to Business Central; Dynamic dimension naming in Power BI apps"
+- [What's New: Open Sourcing Power BI Apps for Business Central (2025 release wave 2)](../../../../videos/VEVo5LgCGfw.md) (video): "Open-sourced Power BI apps for Business Central; Wave 1 Power BI apps open sourcing"
 
 ## Business Central pages and reports
 

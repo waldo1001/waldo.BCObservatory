@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: d83985e3f53052e05e48c65c878b806990be809f7b8b581f42a7ef7809a3e59f
@@ -64,8 +64,15 @@ links:
   topics:
     - topic/dev-itpro/integration/integrating-with-microsoft-power-platfor
   localizations: []
-  videos: []
-  posts: []
+  videos:
+    - video/6Zb7VAvLVm4
+    - video/HvgGcTnYo9g
+    - video/T63y0F_38SI
+    - video/YTA8c2XyTX4
+  posts:
+    - post/aardvarklabs-blog/3579
+    - post/aardvarklabs-blog/3631
+    - post/dvlprlife-com/https://www.dvlprlife.com/2026/06/weekly-review-business-central-al-development-june-7-13-2026/
   guidelines: []
 learn_toc_path:
   - Integration
@@ -77,8 +84,8 @@ children: []
 coverage:
   learn: 5
   code: 0
-  video: 0
-  blog: 0
+  video: 4
+  blog: 3
   guideline: 0
 bc_forms: []
 member_hash: d83985e3f53052e05e48c65c878b806990be809f7b8b581f42a7ef7809a3e59f
@@ -98,5 +105,17 @@ Path: [Integration](../../integration.md) > [Integrating with Microsoft Power Pl
 - [Set up automated workflows](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows): Learn how to give your customers access to automated workflows, so they can run Power Automate flows from inside Business Central online.
 - [Set Up Instant Flows](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/powerplatform/instant-flows): Learn how users can run instant flows from inside Business Central online due to the integration with Power Automate.
 - [Set Up Power Automate Integration](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup): Learn how to enable Power Automate for Business Central users.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Creating a Low-Cost RFID System with Business Central and Power Automate](../../../../posts/aardvarklabs-blog/3579.md) (community post): "Power Automate acts as middleware between the ESP32 and Business Central"
+- [Using Power Automate for Business Central SFTP](../../../../posts/aardvarklabs-blog/3631.md) (community post): "Using Power Automate for Business Central SFTP handles file uploads"
+- [Weekly Review: Business Central AL Development – June 7–13, 2026](../../../../posts/dvlprlife-com/https://www.dvlprlife.com/2026/06/weekly-review-business-central-al-development-june-7-13-2026/.md) (community post): "Low-cost RFID integration is feasible using an ESP32 reader, Power Automate"
+- [What's New: Business Central Integration with Power Platform including Power BI(2024 release wave 2)](../../../../videos/6Zb7VAvLVm4.md) (video): "Job Queue Business Event and Templates; Power Automate New Designer Support"
+- [Bartek Ingredients Inc.](../../../../videos/HvgGcTnYo9g.md) (video): "Workflow automation for order processing; AI-assisted demand planning"
+- [Introducing: Create Power Automate Flows with Copilot (2024 release wave 1)](../../../../videos/T63y0F_38SI.md) (video): "Create Power Automate Flows with Copilot; power automate; copilot; flow creation"
+- [What's New: Dataverse & Dynamics 365 App Integration (2023 release wave 2) Part 2](../../../../videos/YTA8c2XyTX4.md) (video): "Business Events via Power Automate; Data Change Events via Power Automate"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

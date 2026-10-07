@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 7c59cab764e1dde64c5002401fc955bdfa8d60398903e03279e217c0b5f50c63
@@ -194,7 +194,8 @@ links:
     - topic/business-central/business-functionality/set-up-business-central
     - topic/business-central/business-functionality/set-up-business-central/set-up-sales/set-up-subscription-billing
   localizations: []
-  videos: []
+  videos:
+    - video/tP-0VcN7fcU
   posts: []
   guidelines: []
 learn_toc_path:
@@ -208,7 +209,7 @@ children:
 coverage:
   learn: 22
   code: 0
-  video: 0
+  video: 1
   blog: 0
   guideline: 0
 bc_forms:
@@ -294,6 +295,12 @@ Path: [Business functionality](../../business-functionality.md) > [Set up Busine
 - [Set up prices and discounts](https://learn.microsoft.com/dynamics365/business-central/across-prices-and-discounts): Describes how to define standard and special price and discount agreements for sales and purchases.
 - [Set Up Shipment Methods](https://learn.microsoft.com/dynamics365/business-central/sales-how-set-up-shipment-methods): You can set up a code for each of your offered shipment methods, and enter information about them.
 - [Updating document dates with posting dates](https://learn.microsoft.com/dynamics365/business-central/across-link-doc-dates-to-posting-dates): Learn how to make sure that document dates on sales and purchase documents match their posting dates.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Comparing Classes and Templates between Dynamics GP and Dynamics Business Central (2024)](../../../../videos/tP-0VcN7fcU.md) (video): "Customer templates; Posting groups in customer templates"
 
 ## Business Central pages and reports
 

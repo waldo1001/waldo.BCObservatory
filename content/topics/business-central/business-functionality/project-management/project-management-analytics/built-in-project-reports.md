@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 0ba855a35013d9d8ba618e656f7739295bbb21697dff2bce3748b799268fac6a
@@ -176,7 +176,8 @@ links:
   topics:
     - topic/business-central/business-functionality/project-management/project-management-analytics
   localizations: []
-  videos: []
+  videos:
+    - video/wlVewBgq9-Q
   posts: []
   guidelines: []
 learn_toc_path:
@@ -190,7 +191,7 @@ children: []
 coverage:
   learn: 19
   code: 0
-  video: 0
+  video: 1
   blog: 0
   guideline: 0
 bc_forms:
@@ -243,6 +244,12 @@ Path: [Business functionality](../../../business-functionality.md) > [Project ma
 - [Resource Register (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-1103): Document a resource register's contents for internal or external audits.
 - [Resource Statistics (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-1105): Analyze usage and sales amounts for each resource and check the percentage invoiced on your projects.
 - [Resource Utilization (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-1106): Analyze capacity and usage for each project resource for a prior period and check the balance remaining to determine if each resource was under or over utilized.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [How to Create Projects in Business Central (2025)](../../../../../videos/wlVewBgq9-Q.md) (video): "budget tracking; project posting groups; task templates; project manager role center"
 
 ## Business Central pages and reports
 

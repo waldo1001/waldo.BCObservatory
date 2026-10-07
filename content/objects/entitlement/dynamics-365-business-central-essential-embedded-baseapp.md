@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:21:46.353Z"
+  at: "2026-10-06T23:56:28.878Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: fe9624f30a36539b36b00eaf8ec09f61cce265894dee91be78a78056e0e9cf45
+  input_hash: 77c3ef0ef743407e533454dc579880fe31968b1ecd02dea839ebd4305c822037
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Layers/W1/BaseApp/Entitlements/Dynamics365BusinessCentralEssentialEmbeddedBaseApp.Entitlement.al
@@ -61,6 +61,12 @@ counts:
   procedures: 0
   events: 0
   subscribers: 0
+relations:
+  out: 0
+  referenced_by: 0
+  pages: 0
+  extended_by: 0
+  event_subscribers: 0
 ---
 
 # Entitlement "Dynamics 365 Business Central Essential - Embedded BaseApp"

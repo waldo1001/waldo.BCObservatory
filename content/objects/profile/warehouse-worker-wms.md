@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:21:46.353Z"
+  at: "2026-10-06T23:56:28.878Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 9e6de0478cb0aefe947b2050ece62d6451a679d6a72709ee3a9d01bbe0c8715a
+  input_hash: 8b9d54e87f45b67e3760db1c3f4890f65014a82562c173588fdfd819859ec610
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Layers/W1/BaseApp/Warehouse/RoleCenters/WarehouseWorkerWMS.Profile.al
@@ -61,6 +61,12 @@ counts:
   procedures: 0
   events: 0
   subscribers: 0
+relations:
+  out: 0
+  referenced_by: 0
+  pages: 0
+  extended_by: 0
+  event_subscribers: 0
 ---
 
 # Profile "WAREHOUSE WORKER - WMS"

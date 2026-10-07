@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: f0ca77f87ce130d1a582fbea2edeac4c01a20ade3e1db0f27be1cb8510a495bb
@@ -65,7 +65,9 @@ links:
     - topic/business-central/analytics-business-intelligence-and-repo
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/bertverbeek-nl/1318
+    - post/thinkaboutit-be/8229
   guidelines: []
 learn_toc_path:
   - Analytics, business intelligence, and reporting
@@ -77,7 +79,7 @@ coverage:
   learn: 5
   code: 0
   video: 0
-  blog: 0
+  blog: 2
   guideline: 0
 bc_forms:
   - 4010
@@ -100,6 +102,13 @@ Path: [Analytics, business intelligence, and reporting](../analytics-business-in
 - [Intelligent insights and cloud migration (on-premises only)](https://learn.microsoft.com/dynamics365/business-central/about-intelligent-cloud): In Business Central online, you have access to other online services, and you can get intelligent insights that are based on Azure AI, for example. Read on if you're considering to migrate from on-premises to the cloud.
 - [Introduction to Microsoft Fabric and Business Central](https://learn.microsoft.com/dynamics365/business-central/admin-fabric): Get an overview of using Microsoft Fabric to get insight, business intelligence, and KPIs from your Business Central data.
 - [Performance Articles for AL Developers](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/performance/performance-developer): Learn how to write efficient AL code, pages, reports, and web services, and use tools like the AL Profiler to improve performance in Business Central.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Native connection with Fabric in Business Central](../../../posts/bertverbeek-nl/1318.md) (community post): "Business Central introduces native integration with Microsoft Fabric for data synchronization"
+- [Business Central Data Mirroring to Microsoft Fabric Is Coming](../../../posts/thinkaboutit-be/8229.md) (community post): "simplifies analytics architecture for enterprise data platforms"
 
 ## Business Central pages and reports
 

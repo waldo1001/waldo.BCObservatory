@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: a77437993b6aafd1ac4a7e845043e2ec83be3445ed932280b3aa2a53a9c428dc
@@ -239,7 +239,8 @@ links:
     - topic/business-central/development-and-administration
     - topic/business-central/development-and-administration/customize-business-central/customize-with-extensions
   localizations: []
-  videos: []
+  videos:
+    - video/iHgaNJucyvI
   posts: []
   guidelines: []
 learn_toc_path:
@@ -252,7 +253,7 @@ children:
 coverage:
   learn: 30
   code: 0
-  video: 0
+  video: 1
   blog: 0
   guideline: 0
 bc_forms:
@@ -398,6 +399,12 @@ Path: [Development and administration](../development-and-administration.md) > C
 - [Customizing Pages for Roles](https://learn.microsoft.com/dynamics365/business-central/ui-personalization-manage): Learn how to customize the user interface for a profile (role) so that all users assigned that role see a customized workspace.
 - [Enable Premium features](https://learn.microsoft.com/dynamics365/business-central/ui-experiences): Learn what the Essentials and Premium user experience tiers mean for the user interface, application areas, and your company.
 - [Set up your customized colored indicators for a Cue's activity](https://learn.microsoft.com/dynamics365/business-central/admin-how-set-up-colored-indicator-on-cues): As an administrator, you can set up Cues that appear on the users' Role Centers to include an indicator that changes color based on the data values in the Cues.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [What's new: Add existing table fields to pages (2023 release wave 2)](../../../videos/iHgaNJucyvI.md) (video): "Add existing table fields to pages; role customization; personalization; page design"
 
 ## Business Central pages and reports
 

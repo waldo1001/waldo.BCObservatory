@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: de5c61fcfa2d83dbb3934adde1378b3509ab89ba4217bd4c792b451565dfde4f
@@ -40,7 +40,8 @@ links:
   topics:
     - topic/dev-itpro/administration/automation-api
   localizations: []
-  videos: []
+  videos:
+    - video/OnC0a5zy-oQ
   posts: []
   guidelines: []
 learn_toc_path:
@@ -53,7 +54,7 @@ children: []
 coverage:
   learn: 2
   code: 0
-  video: 0
+  video: 1
   blog: 0
   guideline: 0
 bc_forms: []
@@ -71,5 +72,11 @@ Path: [Administration](../../administration.md) > [Automation API](../automation
 
 - [(automation API) Get featureManagement](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/api/dynamics_featuremanagement_get): Gets a featureManagement object in Dynamics 365 Business Central.
 - [featureManagement resource type](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/resources/dynamics_featuremanagement): A feature management object in Dynamics 365 Business Central.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [What's Cooking in Business Central: Managing Feature Management through an API](../../../../videos/OnC0a5zy-oQ.md) (video): "Managing Feature Management through an API; activate bound action"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

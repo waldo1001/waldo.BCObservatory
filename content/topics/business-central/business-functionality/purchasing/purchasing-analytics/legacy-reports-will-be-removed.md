@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 41c7fb9a4866210af3e9064e3d88086ae72a96934cfb76bc61ab0f0e2da858bd
@@ -56,7 +56,8 @@ links:
   topics:
     - topic/business-central/business-functionality/purchasing/purchasing-analytics
   localizations: []
-  videos: []
+  videos:
+    - video/jricCM_04H4
   posts: []
   guidelines: []
 learn_toc_path:
@@ -70,7 +71,7 @@ children: []
 coverage:
   learn: 4
   code: 0
-  video: 0
+  video: 1
   blog: 0
   guideline: 0
 bc_forms:
@@ -94,6 +95,12 @@ Path: [Business functionality](../../../business-functionality.md) > [Purchasing
 - [Payments on Hold (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-319): Get a checklist of all vendor ledger entries where the invoice is in dispute and the On Hold field isn't blank.
 - [Vendor - List (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-301): Use the report, for example, to maintain information about the vendor.
 - [Vendor - Top 10 List (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-311): Analyze the vendor effect on cash flow and prioritize vendor payments.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [What's New: Excel Reporting (2025 release wave 1)](../../../../../videos/jricCM_04H4.md) (video): "Legacy Excel Reports Deprecation"
 
 ## Business Central pages and reports
 

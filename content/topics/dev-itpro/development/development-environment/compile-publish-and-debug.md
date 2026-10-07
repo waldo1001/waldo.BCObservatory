@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: ee453a3841cc13e047eb0ecef3884b62fea0ba28cf771b2964fcbe8fa81ddd66
@@ -120,8 +120,12 @@ links:
   topics:
     - topic/dev-itpro/development/development-environment
   localizations: []
-  videos: []
-  posts: []
+  videos:
+    - video/px1MOyXfmnQ
+    - video/WU2fLjIQSuU
+    - video/Yy5km7Ml0_0
+  posts:
+    - post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-5842643051210707156
   guidelines: []
 learn_toc_path:
   - Development
@@ -133,8 +137,8 @@ children: []
 coverage:
   learn: 12
   code: 0
-  video: 0
-  blog: 0
+  video: 3
+  blog: 1
   guideline: 0
 bc_forms: []
 member_hash: ee453a3841cc13e047eb0ecef3884b62fea0ba28cf771b2964fcbe8fa81ddd66
@@ -161,5 +165,14 @@ Path: [Development](../../development.md) > [Development environment](../develop
 - [Troubleshooting MCP Server for AL](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-debug-mcp-server): Learn how to use the Troubleshooting MCP Server to analyze runtime state during debugging sessions with AI-powered insights in AL.
 - [Use Microsoft Entra authentication for Business Central on-premises installations](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-aad-auth-onprem): Using Microsoft Entra ID as authentication on on-premises installations and containers for Business Central for debugging and other purposes
 - [Work with Rapid Application Development](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-rad-publishing): Describes what Rapid Application Development is and how you publish using RAD.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Public Preview for Business Central 29.0 (2026 Release Wave 2) Is Here](../../../../posts/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-5842643051210707156.md) (community post): "Test by recompiling AL extensions against 29.0 symbols to find deprecations and breaking changes as compile errors"
+- [What's New: AL-Go for GitHub on Delivery and Deployment (2025 release wave 1)](../../../../videos/px1MOyXfmnQ.md) (video): "Incremental Builds with PR Artifacts; Automatic Test App Exclusion by Dependencies"
+- [What's New: AL Go for GitHub (2023 release wave 2)](../../../../videos/WU2fLjIQSuU.md) (video): "code signing; hsm; deployment; GitHub environments deployment"
+- [Business Central Under the Hood 9: The Engineering Systems Powering Business Central Development](../../../../videos/Yy5km7Ml0_0.md) (video): "Build pipelines; source control; git migration; automated testing"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

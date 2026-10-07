@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:21:46.353Z"
+  at: "2026-10-06T23:56:28.878Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: ad5aa74970b18e6a08e7f86232c9cc91b0973745f913f72e78916b1bdb59a28b
+  input_hash: 41a3d607ff53eb7bbc5b4b17917bf9ac8bcfb16fbb9db8340e4046ef38e8f67f
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/EmailLogging/app/src/interfaces/EmailLoggingAPIClient.Interface.al
@@ -60,6 +60,12 @@ counts:
   procedures: 3
   events: 0
   subscribers: 0
+relations:
+  out: 0
+  referenced_by: 0
+  pages: 0
+  extended_by: 0
+  event_subscribers: 0
 ---
 
 # Interface "Email Logging API Client"

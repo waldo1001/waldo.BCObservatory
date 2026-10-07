@@ -20,7 +20,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:51:37.965Z"
+  at: "2026-10-07T00:17:53.935Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -65,7 +65,8 @@ evidence:
 links:
   learn: []
   objects: []
-  features: []
+  features:
+    - feature/573357
   topics: []
   localizations: []
   videos: []
@@ -105,20 +106,26 @@ features:
     verified: false
     status_source: video
   - name: Global Source Enforce Minor Version
-    status: unclear
+    status: ga
     t: 580
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573357"
   - name: Minor Version Boundary Control
-    status: unclear
+    status: ga
     t: 580
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573357"
   - name: AL Extension Settings Configuration
-    status: unclear
+    status: ga
     t: 656
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573357"
 objects_mentioned:
   - table Customer
   - page Customer Card
@@ -177,9 +184,11 @@ It then describes the version resolution problem in BC 28, where only the major 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
 | Global Symbol Download | status not stated, demoed | [4:50](https://www.youtube.com/watch?v=sIWz2yPqLpo&t=290s) |  |
-| Global Source Enforce Minor Version | status not stated, demoed | [9:40](https://www.youtube.com/watch?v=sIWz2yPqLpo&t=580s) |  |
-| Minor Version Boundary Control | status not stated, demoed | [9:40](https://www.youtube.com/watch?v=sIWz2yPqLpo&t=580s) |  |
-| AL Extension Settings Configuration | status not stated, demoed | [10:56](https://www.youtube.com/watch?v=sIWz2yPqLpo&t=656s) |  |
+| Global Source Enforce Minor Version | generally available (roadmap [573357](../features/573357.md)), demoed | [9:40](https://www.youtube.com/watch?v=sIWz2yPqLpo&t=580s) |  |
+| Minor Version Boundary Control | generally available (roadmap [573357](../features/573357.md)), demoed | [9:40](https://www.youtube.com/watch?v=sIWz2yPqLpo&t=580s) |  |
+| AL Extension Settings Configuration | generally available (roadmap [573357](../features/573357.md)), demoed | [10:56](https://www.youtube.com/watch?v=sIWz2yPqLpo&t=656s) |  |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## AL objects mentioned
 

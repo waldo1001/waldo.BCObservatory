@@ -1,110 +1,112 @@
 {
   "country": "NL",
   "version": "29",
-  "input_hash": "6904d22d8ff390767523fb98c19cc39a3c34bbb0a0bc7826d0479d93e0634cc9",
-  "summary": "Netherlands (NL) localization of Business Central 29. It covers Dutch telebanking (payment proposals, payment history, BTL91, BBV, PAYMUL, SEPA ISO 20022), CBG bank/giro and cash journals, electronic VAT and ICP declarations through Digipoort, the tax authority audit file, CMR notes, and Dutch post codes.",
-  "overview": "The Dutch layer is centred on electronic banking. Transaction modes, export and import protocols, payment proposals and payment history are separate NL tables, pages and codeunits (11000000 range). Transaction Mode Code and related fields are added to customers, vendors, employees, their ledger entries and sales and purchase documents. Bank accounts, customer bank accounts and vendor bank accounts gain account holder fields. SEPA credit transfer (XMLports 1000 and 1001) and direct debit export, Rabobank import and SEPA CAMT import are supported. Bank/Giro and Cash journals use CBG Statement tables and pages (11400 range).\n\nTax reporting is the second block. Electronic VAT and ICP declarations have their own header, line, VAT category, error log and response message tables. Digipoort communication goes through an interface with on-premises and SaaS codeunits. A tax authority audit file report and an export of financial data to XML are included. The code also adds CMR notes, Dutch post code import and update, service document extensions, G/L entry application fields and a required description option on G/L accounts.\n\nLearn documents these topics in the Netherlands local functionality reference, with separate pages on telebanking, payment scenarios, SEPA, journals, electronic VAT and ICP declarations, the audit file, CMR notes and post codes.",
+  "input_hash": "664412a9b7356d4dbe91d1071d24a9c4659211c910e8ce26fcc8e7109ca8b52e",
+  "summary": "Netherlands localization of Business Central 29. It covers Dutch telebanking (proposals, payment history, SEPA and BTL91/BBV/PAYMUL exports, bank statement import), cash and bank/giro journals, electronic VAT and ICP declarations through Digipoort, the tax authority audit file, CMR notes and Dutch post codes.",
+  "overview": "The largest part of the Dutch layer is electronic banking. Transaction modes, payment proposals, payment history and export protocols (BTL91, BBV, PAYMUL, SEPA ISO 20022 credit transfer and direct debit) are own objects in the 11000000 range. Bank/Giro and Cash journals (CBG statements) support Rabobank and SEPA CAMT statement import and automatic reconciliation. Many W1 tables get Transaction Mode Code, bank account holder fields and payment-in-process fields. Learn covers this under Telebanking, Dutch Electronic Banking, SEPA and the three payment scenarios.\n\nFor tax reporting, the layer adds Elec. Tax Declaration tables, pages and reports (11403 to 11416). They create, submit and process responses for electronic VAT and ICP declarations. Communication goes through the Digipoort Communication interface, with on-premises and SaaS implementations. VAT Statement Line gets an Elec. Tax Decl. Category Code, and VAT Registration No. Format gets Dutch check algorithms. A Tax Authority Audit File report and an Export Financial Data to XML report are also included.\n\nOther additions are CMR note reports for sales, transfer and return shipments, post code import and update with range tables, G/L entry apply and unapply fields, and a required-description option on G/L accounts. Service documents get Dutch table and page extensions. Event publishers exist on Customer, Vendor, Payment Tolerance Management, VAT Statement Line and VAT Registration No. Format.",
   "key_points": [
-    "Telebanking: payment proposals (Get Proposal Entries), payment history, transaction modes, and export protocols BTL91, BBV, PAYMUL and SEPA ISO 20022, with docket reports.",
-    "Three documented payment scenarios: LCY to LCY, FCY to FCY and LCY to FCY.",
-    "Bank statement import via Rabobank formats and SEPA CAMT, reconciled in the Bank/Giro Journal (CBG Statement tables).",
-    "Cash Journal and Bank/Giro Journal with test reports, new Source Code Setup fields, and extra procedures in GenJnlManagement and Payment Tolerance Management.",
-    "Electronic VAT and ICP declarations through Digipoort, with certificate setup, VAT category mapping on VAT Statement Line, and response message processing.",
-    "Tax Authority Audit File (XAF) and Export Financial Data to XML reports.",
-    "CMR reports for sales shipments, return shipments and transfer shipments.",
-    "Dutch post code import and update, apply/unapply G/L entries, and a G/L account option for required descriptions."
+    "Telebanking: payment and collection proposals, payment history, transaction modes, export protocols and docket reports.",
+    "Export formats: BTL91 (ABN AMRO, Rabobank), BBV, PAYMUL and SEPA ISO 20022 pain.001 and pain.008 variants.",
+    "Bank statement import: Rabobank ASCII formats and SEPA CAMT, posted via Bank/Giro Journal with automatic reconciliation.",
+    "Cash and Bank/Giro journals (CBG Statement tables) with a test report and source codes in Source Code Setup.",
+    "Electronic VAT and ICP declarations through Digipoort, with VAT category setup, certificates, error log and response messages.",
+    "Tax Authority audit file (XAF) report and Export Financial Data to XML.",
+    "CMR note reports for sales shipments, transfer shipments and purchase returns.",
+    "Dutch post code import and update with Post Code Range tables; G/L entry apply and unapply fields on G/L Entry."
   ],
   "areas": [
     {
       "area": "Bank",
-      "what": "Adds the telebanking engine: payment proposals, payment history, transaction modes, and import and export protocols, with checks and export reports for BTL91, BBV, PAYMUL and SEPA ISO 20022. Adds CBG statement tables and Bank/Giro journal pages, Rabobank and SEPA CAMT import. Bank Account gets account holder, proposal, payment history and creditor identifier fields, and SEPA codeunits get local procedures.",
-      "why": "Learn describes telebanking, SEPA and the BTL91, BBV and PAYMUL protocols as the Dutch way to submit payments and import bank statements.",
+      "what": "Adds the Dutch telebanking stack: proposals, payment history, transaction modes, export and import protocols, SEPA checks and CAMT import. It also adds the Bank/Giro Journal with CBG statement processing and reconciliation. Bank Account gets account holder, Proposal, Payment History and Creditor Identifier fields.",
+      "why": "Learn describes telebanking, payment files, direct debit files and bank statement import as the Dutch electronic banking functionality.",
       "objects": [
-        "page/11000001",
         "codeunit/11000000",
         "codeunit/11000001",
-        "report/11000011",
-        "report/11000009",
         "codeunit/11404",
-        "table/270",
-        "codeunit/1222"
+        "codeunit/11405",
+        "page/11000001",
+        "page/11000005",
+        "page/11400",
+        "table/270"
       ]
     },
     {
       "area": "Finance",
-      "what": "Adds electronic VAT and ICP declarations with setup, header, line, VAT category, error log and response tables, and Digipoort communication through an interface with on-premises and SaaS codeunits. Adds the tax authority audit file, cash journal pages, and G/L Entry application fields. Changes VAT registration number checks, General Ledger Setup, VAT Statement Line and GenJnlManagement.",
-      "why": "Learn explains that Dutch VAT and ICP declarations are submitted in XBRL format to the tax authority through Digipoort, and that an audit file is created for tax inspectors.",
+      "what": "Adds electronic tax declarations (VAT and ICP) with Digipoort communication, tax declaration tables and pages, VIES and audit file reports. It also adds the cash journal. G/L Entry gets open and application fields. General Ledger Setup, VAT Statement Line, VAT Registration No. Format and Payment Tolerance Management are extended.",
+      "why": "Learn explains that electronic VAT and ICP declarations are submitted as XBRL through Digipoort with certificates, and that G/L entries can be applied and unapplied.",
       "objects": [
         "codeunit/11409",
-        "interface/digipoort communication",
         "codeunit/11000054",
-        "table/11409",
+        "interface/digipoort communication",
         "report/11403",
         "report/11404",
         "report/11412",
+        "table/17",
         "table/256"
       ]
     },
     {
       "area": "Service",
-      "what": "Adds NL table extensions and page extensions on service headers, contracts, quotes, orders, posted documents and archives, plus a service document management codeunit.",
+      "what": "Adds Dutch table and page extensions on service headers, contracts, quotes, orders and their posted, filed and archive versions. It adds a service document management codeunit.",
       "why": null,
       "objects": [
         "codeunit/11412",
         "tableextension/11451",
-        "pageextension/11454",
         "tableextension/11450",
-        "pageextension/11450",
-        "pageextension/11453"
+        "pageextension/11454",
+        "pageextension/11453",
+        "pageextension/11450"
       ]
     },
     {
       "area": "Foundation",
-      "what": "Adds Dutch post code ranges with import and update reports and an update log. Adds Fiscal Entity No. to Company Information, a SEPA Allowed flag on Country/Region, and Cash Journal and Bank Journal source codes.",
-      "why": "Learn describes subscribing to and importing post code data and monthly updates into the Post Code Range table.",
+      "what": "Adds Dutch post code management with range and update log tables and import reports. Company Information gets Fiscal Entity No. Country/Region gets SEPA Allowed, and Source Code Setup gets Cash Journal and Bank Journal codes.",
+      "why": "Learn describes subscribing to and importing post code data and monthly updates, with date validation and gap checking.",
       "objects": [
+        "codeunit/11401",
         "table/11406",
+        "table/11407",
         "report/11414",
         "report/11415",
-        "table/11407",
+        "page/11407",
         "table/79",
-        "table/9",
         "table/242"
       ]
     },
     {
       "area": "Purchases",
-      "what": "Adds Transaction Mode Code and bank account fields to vendors, templates, purchase headers and posted purchase documents. Vendor Bank Account gets account holder and national bank code fields. Vendor Ledger Entry gets payment-in-process and filter fields, and a CMR return shipment report is added.",
-      "why": null,
+      "what": "Adds Transaction Mode Code and bank account fields to the vendor, purchase header and posted purchase documents. Vendor Bank Account gets account holder and national bank code fields, and Vendor Ledger Entry gets payment-in-process fields. A CMR return shipment report is included.",
+      "why": "Learn describes CMR notes for purchase returns and the use of transaction modes for vendor payments.",
       "objects": [
         "table/23",
         "table/25",
         "table/288",
         "table/38",
         "table/122",
-        "table/1383",
+        "table/124",
         "report/11410",
-        "table/39"
+        "table/1383"
       ]
     },
     {
       "area": "Sales",
-      "what": "Adds Transaction Mode Code and bank account fields to customers, templates, sales headers and posted sales documents. Customer Bank Account gets account holder fields and a direct debit mandate ID. Cust. Ledger Entry gets payment-in-process fields, and a CMR sales shipment report is added.",
-      "why": null,
+      "what": "Adds Transaction Mode Code and bank account fields to the customer, sales header and posted sales documents. Customer Bank Account gets account holder fields and Direct Debit Mandate ID. Cust. Ledger Entry gets payment-in-process fields, and a CMR sales shipment report is included.",
+      "why": "Learn describes CMR notes for sales shipments and SEPA direct debit through transaction modes.",
       "objects": [
         "table/18",
         "table/21",
         "table/287",
         "table/36",
         "table/112",
-        "table/1381",
-        "report/11401"
+        "table/114",
+        "report/11401",
+        "table/1381"
       ]
     },
     {
       "area": "Inventory",
-      "what": "Adds the CMR transfer shipment report and Export Date and Export Time fields on Intrastat journal batches.",
-      "why": "Learn documents CMR notes for transfer shipments according to the UN CMR Convention.",
+      "what": "Adds a CMR transfer shipment report. The Intrastat journal batch gets Export Date and Export Time fields.",
+      "why": "Learn describes CMR notes for transfer shipments.",
       "objects": [
         "report/11402",
         "table/262",
@@ -113,7 +115,7 @@
     },
     {
       "area": "HumanResources",
-      "what": "Employee gets Transaction Mode Code, bank name and bank city. Employee Ledger Entry gets the same payment-in-process and filter fields as customer and vendor entries, so employees can be paid through telebanking.",
+      "what": "Employee gets Transaction Mode Code, bank name and bank city. Employee Ledger Entry gets the same payment-in-process and filter fields as customer and vendor entries.",
       "why": null,
       "objects": [
         "table/5200",
@@ -131,7 +133,7 @@
     },
     {
       "area": "IO",
-      "what": "Pre & Post Process XML Import gets a CheckBankAccNo procedure for bank account checks during import.",
+      "what": "Pre & Post Process XML Import gets a CheckBankAccNo procedure for bank account number checks during import.",
       "why": null,
       "objects": [
         "codeunit/1262"
@@ -139,19 +141,19 @@
     },
     {
       "area": "Utilities",
-      "what": "Local Functionality Mgt. is a Dutch utility codeunit for local feature handling.",
+      "what": "Adds Local Functionality Mgt., a codeunit for Dutch local functionality.",
       "why": null,
       "objects": [
         "codeunit/11400"
       ]
     }
   ],
-  "learn_pages_used": 25,
+  "learn_pages_used": 27,
   "prompt_version": 2,
-  "at": "2026-10-06T23:18:55.103Z",
+  "at": "2026-10-06T23:49:04.060Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.14311000000000001
+    "cost_usd": 0.160752
   }
 }

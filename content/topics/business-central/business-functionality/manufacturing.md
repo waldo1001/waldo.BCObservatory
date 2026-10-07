@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: d64e773c3b68bf2ff0f0eed5f8b4461101630f6c2dbe238ef3f5dc72dbfc1714
@@ -316,8 +316,23 @@ links:
     - topic/business-central/business-functionality/manufacturing/manufacturing-analytics
     - topic/business-central/business-functionality/manufacturing/subcontracting
   localizations: []
-  videos: []
-  posts: []
+  videos:
+    - video/6d6iajwQQ-c
+    - video/DHODFt_jVO4
+    - video/GEuUFcgFZF0
+    - video/giNi8WtCX_s
+    - video/HvgGcTnYo9g
+    - video/oIoH3gxc0uk
+    - video/Pt8LrNv_Lgc
+    - video/SdQVQLNXVS0
+    - video/sycmF3cJa_s
+    - video/tzX0qB9tiBs
+    - video/vnaySMIKnp8
+    - video/xqFpiqmXjk0
+    - video/zt9_HEmPKNg
+  posts:
+    - post/olofsimren-com/3696
+    - post/thinkaboutit-be/7730
   guidelines: []
 learn_toc_path:
   - Business functionality
@@ -330,8 +345,8 @@ children:
 coverage:
   learn: 65
   code: 0
-  video: 0
-  blog: 0
+  video: 13
+  blog: 2
   guideline: 0
 bc_forms:
   - 50
@@ -473,6 +488,26 @@ Path: [Business functionality](../business-functionality.md) > Manufacturing · 
 - [Post scrap manually](https://learn.microsoft.com/dynamics365/business-central/production-how-to-post-scrap): Learn how to record scrap quantities and reason codes by production operation without increasing finished output.
 - [Register consumption output for a production order](https://learn.microsoft.com/dynamics365/business-central/production-how-to-register-consumption-and-output): Learn how to record component consumption, finished quantities, scrap, and operation time together for a released production order.
 - [Reverse and correct production order transactions](https://learn.microsoft.com/dynamics365/business-central/production-cancel-production-orders-that-have-consumption): Learn how to reverse consumption, output, or capacity transactions on production orders, finish orders without output, and reopen finished orders.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Quality Management in Business Central Version 28](../../../posts/olofsimren-com/3696.md) (community post): "quality management functionality; inspection of goods across purchase receipts, production, assembly"
+- [Business Central 2026 Release Wave 1: A Mix of Platform Evolution and Practical Improvements](../../../posts/thinkaboutit-be/7730.md) (community post): "quality management preview. Reporting evolves with layout governance"
+- [What's New: Value Chain Automation with Production Orders (2025 release wave 1)](../../../videos/6d6iajwQQ-c.md) (video): "production orders; emissions; carbon equivalent; production bom; routing"
+- [What's New in Manufacturing: Costing (2025 release wave 1)](../../../videos/DHODFt_jVO4.md) (video): "production order costing; subcontracting; cost shares page enhancements"
+- [Manufacturing Foundations BOM (2026)](../../../videos/GEuUFcgFZF0.md) (video): "bill of materials; bom; production order; assembly; replenishment"
+- [What's New in Manufacturing: Streamline Product Design (2025 release wave 1)](../../../videos/giNi8WtCX_s.md) (video): "Production BOM document attachment; Production BOM active version"
+- [Bartek Ingredients Inc.](../../../videos/HvgGcTnYo9g.md) (video): "production order; manufacturing visibility; reporting; workflow automation"
+- [Execution & Control Flushing Methods (2026)](../../../videos/oIoH3gxc0uk.md) (video): "Forward flushing; Backward flushing; Manual flushing; Pick plus"
+- [Manufacturing Fundamentals Routing (2026)](../../../videos/Pt8LrNv_Lgc.md) (video): "routing; production order; serial operations; parallel operations"
+- [What's New in Manufacturing: Order Processing (2025 release wave 1)](../../../videos/SdQVQLNXVS0.md) (video): "production order; safety lead time buffer; Rescheduling production orders"
+- [Copilot Assisted Scheduling by PrintVis](../../../videos/sycmF3cJa_s.md) (video): "Copilot Assisted Scheduling; Optimization Options; Schedule Loading"
+- [What's New in Manufacturing: Reverse Production Order Transactions (2025 release wave 1)](../../../videos/tzX0qB9tiBs.md) (video): "reverse production order transactions; production order reopening; output reversal"
+- [What's New in Manufacturing: Integration to Warehouse (2025 release wave 1)](../../../videos/vnaySMIKnp8.md) (video): "warehouse putaway; production output; directed putaway and pick"
+- [Manufacturing Foundations Production Orders (2026)](../../../videos/xqFpiqmXjk0.md) (video): "production orders; bill of materials; routing; capacity planning"
+- [Manufacturing Foundations Capacities (2026)](../../../videos/zt9_HEmPKNg.md) (video): "work centers; machine centers; production scheduling; capacity planning"
 
 ## Business Central pages and reports
 

@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: d692987bb2ad4aea50701d375f7a7ecc7e3da99352faca448c809f849df5cdc3
@@ -88,7 +88,10 @@ links:
   topics:
     - topic/dev-itpro/administration
   localizations: []
-  videos: []
+  videos:
+    - video/3uVf6BEXt1w
+    - video/HSgTJbyi0a4
+    - video/XNfgf7tCeaw
   posts: []
   guidelines: []
 learn_toc_path:
@@ -100,7 +103,7 @@ children: []
 coverage:
   learn: 8
   code: 0
-  video: 0
+  video: 3
   blog: 0
   guideline: 0
 bc_forms:
@@ -126,6 +129,14 @@ Path: [Administration](../administration.md) > Onboard your customers · tier of
 - [Recommend Apps](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/recommend-apps): Curate a collection of Dynamics 365 apps that your customers can choose from with the Recommended Apps extension.
 - [Teaching tips and in-app tours for onboarding users](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/onboarding-teaching-tips-tours): Learn about the teaching tips that you can apply to your Business Central to help users get started.
 - [Trials and sign-ups for Business Central online](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/customer-signup): Learn how to let prospects try out a Business Central trial, and how you can configure and extend their trial experience.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Why Onboarding Experiences are Important](../../../videos/3uVf6BEXt1w.md) (video): "Customer self-service onboarding; Template-based setup approach; Partner-knowledge apps"
+- [The Human Aspect of Onboarding](../../../videos/HSgTJbyi0a4.md) (video): "Onboarding framework; Personalized onboarding experience; Scalable partner onboarding"
+- [Overview of Customer and Partner Onboarding Journeys](../../../videos/XNfgf7tCeaw.md) (video): "customer onboarding; partner-led experience; trial setup"
 
 ## Business Central pages and reports
 

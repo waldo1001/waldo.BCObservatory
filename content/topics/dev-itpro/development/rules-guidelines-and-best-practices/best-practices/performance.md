@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T13:43:32.763Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -41,8 +41,22 @@ links:
   topics:
     - topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices
   localizations: []
-  videos: []
-  posts: []
+  videos:
+    - video/-_TaZY2Clh0
+    - video/1xdpUmeun-s
+    - video/lpwDSdEJrIQ
+    - video/qABlX4AL3GM
+    - video/Sh3ySQSTw-o
+  posts:
+    - post/aardvarklabs-blog/3761
+    - post/demiliani-com/14031
+    - post/duiliotacconi-com/2149
+    - post/kine-cz/https://blog.kine.cz/posts/bcdevelopmentserie-02b/
+    - post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-483274250682537951
+    - post/stefanmaron-com/https://stefanmaron.com/posts/modify-deserves-the-same-rule-as-validate/
+    - post/stefanmaron-com/https://stefanmaron.com/posts/weekly-recap-2026-08-14/
+    - post/waldo-be/317845
+    - post/waldo-be/318604
   guidelines: []
 learn_toc_path:
   - Development
@@ -55,8 +69,8 @@ children: []
 coverage:
   learn: 2
   code: 0
-  video: 0
-  blog: 0
+  video: 5
+  blog: 9
   guideline: 0
 bc_forms: []
 member_hash: 87e0401ecfb45548d0ce9048fe69d8ae348b7da98d89e7045ac6d9370b225de2
@@ -92,5 +106,24 @@ This section is about finding and fixing performance problems in Business Centra
 
 - [How to work with a performance problem](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/performance/performance-work-perf-problem): Troubleshooting process that can help to guide you to find the root cause slow performance.
 - [Performance Articles for AL Developers](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/performance/performance-developer): Learn how to write efficient AL code, pages, reports, and web services, and use tools like the AL Profiler to improve performance in Business Central.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Optimizing Business Central Indexes for Performance with Copilot](../../../../../posts/aardvarklabs-blog/3761.md) (community post): "Benchmark system performance before and after applying indexes"
+- [Dynamics 365 Business Central: AL transaction isolation levels and cache usage.](../../../../../posts/demiliani-com/14031.md) (community post): "higher isolation levels bypassing the cache on every read"
+- [Partial Record vs NST Caching : the strange case of Calculate Low Level Code](../../../../../posts/duiliotacconi-com/2149.md) (community post): "SetLoadFields prevents NST caching for partial records, causing repeated SQL queries"
+- [Business Central Development Serie - Part 2b: AI for BC Development — The Knowledge Gap That Ships to Production](../../../../../posts/kine-cz/https://blog.kine.cz/posts/bcdevelopmentserie-02b/.md) (community post): "AI produces plausible code that passes basic checks but creates performance problems invisible until specific data conditions"
+- [BC 29 lets a single index span base table and table extension fields](../../../../../posts/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-483274250682537951.md) (community post): "Developers must still consider the 40-key-per-table limit and write performance costs when adding new indexes"
+- [I Can Turn Off My Code. I Can't Turn Off Yours.](../../../../../posts/stefanmaron-com/https://stefanmaron.com/posts/modify-deserves-the-same-rule-as-validate/.md) (community post): "RunTrigger false disables all subscriber logic not just the developer's"
+- [Weekly Recap: August 7-14](../../../../../posts/stefanmaron-com/https://stefanmaron.com/posts/weekly-recap-2026-08-14/.md) (community post): "compile-time benchmarking showing NuGet-sourced compilation is faster"
+- [Handling Business Central Telemetry like a boss: iFacto Telemetry – Pt. 3](../../../../../posts/waldo-be/317845.md) (community post): "Performance tracking via start/stop markers on custom methods enables comparison"
+- [OptimAL – performance still matters](../../../../../posts/waldo-be/318604.md) (community post): "Most BC performance problems come from partner code, outdated patterns, and anti-patterns"
+- [Concurrency in Business Central: Parallel processes without deadlocks and timeouts](../../../../../videos/-_TaZY2Clh0.md) (video): "Concurrency in Business Central: Parallel processes without deadlocks"
+- [Business Central Under the Hood episode 12: Evolving AL for Performance](../../../../../videos/1xdpUmeun-s.md) (video): "performance optimization; data transfer; set load fields; read isolation"
+- [Business Central Under the Hood episode 5: How To Make Your AL Code Super Fast](../../../../../videos/lpwDSdEJrIQ.md) (video): "AL code performance; database optimization; sql queries; indexing; caching"
+- [Business Central 29.0: Major Change to Table Extensions & SQL.](../../../../../videos/qABlX4AL3GM.md) (video): "Partial record loading with set load field; Avoid direct SQL operations; Compiler warnings"
+- [What's new: Server and Database (2026 release wave 2)](../../../../../videos/Sh3ySQSTw-o.md) (video): "database optimization; zero-join; index management; performance gains"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

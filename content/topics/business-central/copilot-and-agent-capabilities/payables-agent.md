@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T13:43:32.763Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -65,8 +65,21 @@ links:
   topics:
     - topic/business-central/copilot-and-agent-capabilities
   localizations: []
-  videos: []
-  posts: []
+  videos:
+    - video/_JkZCp64jNw
+    - video/CoQH7Z-leVE
+    - video/D56EVy3JgHA
+    - video/FBrZwXpOhmM
+    - video/H5EuObmeF4o
+    - video/jWqjDTbqjeE
+    - video/OvI9jaA1mJY
+    - video/uh5S1i7uDlo
+    - video/YsmwHqxL1Zc
+  posts:
+    - post/gerardorenteria-blog/14717
+    - post/thinkaboutit-be/7730
+    - post/thinkaboutit-be/8022
+    - post/thinkaboutit-be/8062
   guidelines: []
 learn_toc_path:
   - Copilot and agent capabilities
@@ -77,8 +90,8 @@ children: []
 coverage:
   learn: 5
   code: 0
-  video: 0
-  blog: 0
+  video: 9
+  blog: 4
   guideline: 0
 bc_forms:
   - 3304
@@ -121,6 +134,24 @@ Start with the overview to understand the workflow, then follow the setup page. 
 - [Payables Agent Overview in Business Central](https://learn.microsoft.com/dynamics365/business-central/payables-agent): Payables Agent automates vendor invoice processing in Business Central. Speed up accounts payable, reduce bottlenecks, and simplify invoice management.
 - [Set Up Payables Agent in Business Central](https://learn.microsoft.com/dynamics365/business-central/payables-agent-setup): Payables Agent lets you automate vendor invoice processing in Business Central. Follow these steps to activate, configure, and manage user access.
 - [Supervise Agent Activities in Business Central](https://learn.microsoft.com/dynamics365/business-central/supervise-agent-tasks): Review agent-generated documents, approve AI suggestions, give instructions to agents, and manage tasks in Business Central.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [New Application Ideas of Dynamics 365 Business Central (2026 MAY)](../../../posts/gerardorenteria-blog/14717.md) (community post): "Community members proposed configuration package defaults, timezone settings"
+- [Business Central 2026 Release Wave 1: A Mix of Platform Evolution and Practical Improvements](../../../posts/thinkaboutit-be/7730.md) (community post): "Copilot and agents gain inbox category discovery, dedicated task pane"
+- [Quick Tip: What’s in Business Central Update 28.3](../../../posts/thinkaboutit-be/8022.md) (community post): "Payables Agent now allows free trials processing up to 50 invoices"
+- [Quick Tip: What’s in Business Central Update 28.4](../../../posts/thinkaboutit-be/8062.md) (community post): "Payables Agent known senders to skip redundant email classification"
+- [Business Central Launch Event 2025 Release Wave 1 - Recording of Live Opening](../../../videos/_JkZCp64jNw.md) (video): "Payables Agent; E-Document Connector; Purchase Document Draft Page"
+- [E-invoice Matching with Copilot in Dynamics 365 Business Central (2024)](../../../videos/CoQH7Z-leVE.md) (video): "E-invoice Matching with Copilot; Discrepancy Detection and Tolerance Levels; Vendor Document Updates"
+- [What's New: Enhanced Purchase Order Matching with Copilot (2025 release wave 1)](../../../videos/D56EVy3JgHA.md) (video): "Support for All Entry Types; Automatic Extra Line Addition from Invoice; Copilot Matching with LLM"
+- [What's Cooking in Business Central: Agent Reasoning and Transparency](../../../videos/FBrZwXpOhmM.md) (video): "agent reasoning; transparency; payables agent; trust; ai adoption"
+- [Everything Coming to Business Central 2025 Wave 2 (You Need to Know This)](../../../videos/H5EuObmeF4o.md) (video): "Payables agent contextual invoice drafts; Match purchase invoices to orders"
+- [Introducing: Envision, Design and Code Business Central Agents](../../../videos/jWqjDTbqjeE.md) (video): "Payables Agent; Human-in-the-Loop Agent Experience"
+- [What's New: Payables Agent (2026 release wave 1)](../../../videos/OvI9jaA1mJY.md) (video): "Payables Agent free trial and credit-based pricing"
+- [Transform Vendor Invoice Processing With the Payables Agent in Dynamics 365 Business Central (2025)](../../../videos/uh5S1i7uDlo.md) (video): "Payables agent; vendor invoice processing; ai automation; intelligent automation"
+- [Introducing: Payables Agent (2025 release wave 1)](../../../videos/YsmwHqxL1Zc.md) (video): "Payables Agent; Three-way matching and purchase order mapping"
 
 ## Business Central pages and reports
 

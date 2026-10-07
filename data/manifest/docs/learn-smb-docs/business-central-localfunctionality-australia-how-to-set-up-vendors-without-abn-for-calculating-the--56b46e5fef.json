@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-set-up-vendors-without-abn-for-calculating-the-withholding-tax",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,10 +17,29 @@
       "blob": "03528d0aa540140faefb19aa3f47addb97752433",
       "words": 136,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T23:41:50.641Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.002535
+    },
+    "summarized": {
+      "at": "2026-10-06T23:41:50.651Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T23:41:50.653Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T23:41:50.655Z",
+      "page": false
     }
   },
   "input_hash": "03528d0aa540140faefb19aa3f47addb97752433",
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
@@ -40,7 +59,7 @@
     "ai_usage": null,
     "words": 136
   },
-  "last_error": "git cat-file -p 03528d0aa540140faefb19aa3f47addb97752433 failed: fatal: You are attempting to fetch bf5ffffa9b026e146d29f13a242daa5334ddf0d8, which is in the commit graph file but not in the object database. This is probably due to repo corruption. If you are attempting to repair this repo corruption by refetching the missing object, use 'git fetch --refetch' with the missing object. fatal: could not fetch 03528d0aa540140faefb19aa3f47addb97752433 from promisor ",
-  "retry_after": "2026-10-06T21:31:00.313Z",
-  "output_hash": "03528d0aa540140faefb19aa3f47addb97752433"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "9ed4faa5bf0dff1242ac6e093b2640c27924f09b726b53b0b781e767332d3bfb"
 }

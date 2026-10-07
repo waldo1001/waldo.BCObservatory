@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 9e8a6f03adad5bf3a4f607b4720b90443f4ee8b0a641489255563f7b210dc078
@@ -97,7 +97,9 @@ links:
     - topic/business-central/business-functionality/set-up-business-central
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-5164599344222477027
+    - post/olofsimren-com/3779
   guidelines: []
 learn_toc_path:
   - Business functionality
@@ -110,7 +112,7 @@ coverage:
   learn: 9
   code: 0
   video: 0
-  blog: 0
+  blog: 2
   guideline: 0
 bc_forms:
   - 663
@@ -139,6 +141,13 @@ Path: [Business functionality](../../business-functionality.md) > [Set up Busine
 - [Set up approval workflows](https://learn.microsoft.com/dynamics365/business-central/across-set-up-workflows): Set up workflows, workflow users, and approval users to connect business-process system tasks performed by these different users.
 - [Setting up approval workflow notifications](https://learn.microsoft.com/dynamics365/business-central/across-setting-up-workflow-notifications): Learn how to set up workflow notifications to alert a user to an event that they must react to.
 - [Specify when and how to receive workflow notifications](https://learn.microsoft.com/dynamics365/business-central/across-how-to-specify-when-and-how-to-receive-notifications): Set up how and when approval users receive workflow notifications, including choosing email or note delivery and scheduling frequency.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Approval Workflows for Item Journals and Requisition Worksheets](../../../../posts/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-5164599344222477027.md) (community post): "approval workflows for item journals, requisition worksheets, and planning worksheets"
+- [Approval Workflows in Planning Worksheet](../../../../posts/olofsimren-com/3779.md) (community post): "Setup uses the same workflow framework as purchase orders and general journals"
 
 ## Business Central pages and reports
 

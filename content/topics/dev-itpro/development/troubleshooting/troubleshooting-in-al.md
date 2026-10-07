@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 9da1fe15b2f204fe13ee3995e8174dab30aa920160aa61853ce3b3395b01e924
@@ -73,7 +73,8 @@ links:
     - topic/dev-itpro/development/troubleshooting
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/aardvarklabs-blog/3706
   guidelines: []
 learn_toc_path:
   - Development
@@ -86,7 +87,7 @@ coverage:
   learn: 6
   code: 0
   video: 0
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms: []
 member_hash: 9da1fe15b2f204fe13ee3995e8174dab30aa920160aa61853ce3b3395b01e924
@@ -107,5 +108,11 @@ Path: [Development](../../development.md) > [Troubleshooting](../troubleshooting
 - [Performance Articles for AL Developers](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/performance/performance-developer): Learn how to write efficient AL code, pages, reports, and web services, and use tools like the AL Profiler to improve performance in Business Central.
 - [Snapshot debugging](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-snapshot-debugging): Overview of how snapshot debugging allows recording running AL code for Business Central.
 - [Troubleshooting Printing](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-reports-troubleshoot-printing): Dynamics 365 Business Central supports different types of events including BusinessEvent, IntegrationEvent, Global, and trigger events.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Troubleshooting AL Extension in VS Code: Phantom Errors](../../../../posts/aardvarklabs-blog/3706.md) (community post): "Phantom AL extension errors in VS Code where tables appear marked as missing permission sets"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

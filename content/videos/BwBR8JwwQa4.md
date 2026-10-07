@@ -22,7 +22,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T18:50:45.967Z"
+  at: "2026-10-07T00:17:53.935Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -67,7 +67,8 @@ evidence:
 links:
   learn: []
   objects: []
-  features: []
+  features:
+    - feature/573342
   topics: []
   localizations: []
   videos: []
@@ -122,10 +123,12 @@ features:
     verified: false
     status_source: video
   - name: Shopify shop card tax ID mapping field
-    status: unclear
+    status: ga
     t: 131
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573342"
   - name: Company attention field in location
     status: unclear
     t: 186
@@ -191,8 +194,10 @@ It also shows the export direction: customer export now sends tax ID and company
 | Customer export with tax ID and company ID | status not stated, demoed | [0:25](https://www.youtube.com/watch?v=BwBR8JwwQa4&t=25s) |  |
 | Payment terms mapping | status not stated, demoed | [1:09](https://www.youtube.com/watch?v=BwBR8JwwQa4&t=69s) |  |
 | Automatic catalog creation with customer-specific pricing | status not stated, demoed | [0:25](https://www.youtube.com/watch?v=BwBR8JwwQa4&t=25s) |  |
-| Shopify shop card tax ID mapping field | status not stated, demoed | [2:11](https://www.youtube.com/watch?v=BwBR8JwwQa4&t=131s) |  |
+| Shopify shop card tax ID mapping field | generally available (roadmap [573342](../features/573342.md)), demoed | [2:11](https://www.youtube.com/watch?v=BwBR8JwwQa4&t=131s) |  |
 | Company attention field in location | status not stated, demoed | [3:06](https://www.youtube.com/watch?v=BwBR8JwwQa4&t=186s) |  |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## AL objects mentioned
 

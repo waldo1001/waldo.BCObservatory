@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 7d129f356f2d15787f437575bbb4ce0feb3529fb5b9f4df947be4742e33d335e
@@ -86,8 +86,17 @@ links:
     - topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-bi/administrator
     - topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-bi/report-creator
   localizations: []
-  videos: []
-  posts: []
+  videos:
+    - video/6Zb7VAvLVm4
+    - video/EVntnDFE1R4
+    - video/kOCiyVql0go
+  posts:
+    - post/bertverbeek-nl/1318
+    - post/demiliani-com/15981
+    - post/dvlprlife-com/https://www.dvlprlife.com/2026/06/weekly-review-business-central-al-development-may-31-june-6-2026/
+    - post/thinkaboutit-be/7753
+    - post/thinkaboutit-be/7943
+    - post/thinkaboutit-be/7995
   guidelines: []
 learn_toc_path:
   - Integration
@@ -101,8 +110,8 @@ children:
 coverage:
   learn: 8
   code: 0
-  video: 0
-  blog: 0
+  video: 3
+  blog: 6
   guideline: 0
 bc_forms:
   - 6316
@@ -128,6 +137,20 @@ Path: [Integration](../../integration.md) > [Integrating with Microsoft Power Pl
 - [Extract data from Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extract-data): Explains how to extract data from Business Central with different tools
 - [Introduction to Business Central and Power BI](https://learn.microsoft.com/dynamics365/business-central/admin-powerbi): Get an overview of using Power BI to get insights from your Business Central data.
 - [Power BI Dataset Load Performance](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/web-service-pbi-performance): Learn about how to tune the performance of Power BI dataset load time based on Business Central web services and APIs
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Native connection with Fabric in Business Central](../../../../posts/bertverbeek-nl/1318.md) (community post): "Sync operates directly from the SQL database using change logs"
+- [Dynamics 365 Business Central: data mirroring to Microsoft Fabric announced.](../../../../posts/demiliani-com/15981.md) (community post): "data mirroring for Dynamics 365 Business Central to Microsoft Fabric"
+- [Weekly Review: Business Central AL Development – May 31–June 6, 2026](../../../../posts/dvlprlife-com/https://www.dvlprlife.com/2026/06/weekly-review-business-central-al-development-may-31-june-6-2026/.md) (community post): "Standard BC Power BI reports are now distributed via template apps in Power BI"
+- [Which Power BI License Do You Need for Business Central?](../../../../posts/thinkaboutit-be/7753.md) (community post): "Power BI Pro is required for any practical use of Power BI"
+- [Quick Tip: How Can You Download the Standard Business Central Power BI Reports?](../../../../posts/thinkaboutit-be/7943.md) (community post): "Standard Power BI reports for Business Central are available through official Microsoft Power BI template apps"
+- [Quick Tip: Troubleshooting Business Central Power BI Reports: My 5-Minute Checklist](../../../../posts/thinkaboutit-be/7995.md) (community post): "Most Business Central Power BI issues stem from configuration problems"
+- [What's New: Business Central Integration with Power Platform including Power BI(2024 release wave 2)](../../../../videos/6Zb7VAvLVm4.md) (video): "Power BI Embedded Reports with Full Capabilities; Power BI Report Page Bookmarking"
+- [What's New: Business Central Integration with Power Platform (2023 release wave 2)](../../../../videos/EVntnDFE1R4.md) (video): "Power BI embed experience improvements; Power BI scorecard support in Business Central"
+- [Introducing: Business Central Integration with Microsoft Fabric (2026 release wave 2)](../../../../videos/kOCiyVql0go.md) (video): "Business Central Integration with Microsoft Fabric; Mirror database in OneLake"
 
 ## Business Central pages and reports
 

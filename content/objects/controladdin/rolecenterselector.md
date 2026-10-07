@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:21:46.353Z"
+  at: "2026-10-06T23:56:28.878Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: a083c6662741b67109fb743658c2bbd2cf8a2ce3eead0ff19988fcac86514a40
+  input_hash: 70b50b4c42d5f987060671831eef01ac5b02ab53868b897b010f9937d9d32b4d
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/System%20Application/App/ControlAddIns/src/RoleCenterSelector.ControlAddin.al
@@ -61,6 +61,12 @@ counts:
   procedures: 3
   events: 0
   subscribers: 0
+relations:
+  out: 0
+  referenced_by: 0
+  pages: 0
+  extended_by: 0
+  event_subscribers: 0
 ---
 
 # Control add-in "RoleCenterSelector"

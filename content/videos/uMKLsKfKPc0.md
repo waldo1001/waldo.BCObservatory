@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:50:08.821Z"
+  at: "2026-10-07T00:17:53.935Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -91,7 +91,8 @@ evidence:
 links:
   learn: []
   objects: []
-  features: []
+  features:
+    - feature/573362
   topics: []
   localizations: []
   videos: []
@@ -272,10 +273,12 @@ features:
     verified: true
     status_source: video
   - name: M365 Copilot chat in Business Central
-    status: announced
+    status: ga
     t: 1840
     verified: true
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573362"
   - name: First-party agents customization
     status: unclear
     t: 1906
@@ -441,7 +444,7 @@ Two demos are shown: a compliance agent that checks Business Central users, and 
 | Agent security warnings and lifecycle management | status not stated, demoed | [28:29](https://www.youtube.com/watch?v=uMKLsKfKPc0&t=1709s) |  |
 | Agent analytics and session reporting | status not stated | [30:05](https://www.youtube.com/watch?v=uMKLsKfKPc0&t=1805s) |  |
 | New Copilot Studio experience | preview, demoed | [30:40](https://www.youtube.com/watch?v=uMKLsKfKPc0&t=1840s) | "a few days ago a new Copilot Studio experience uh has been has been released that you can you can preview and use." ([31:06](https://www.youtube.com/watch?v=uMKLsKfKPc0&t=1866s)) |
-| M365 Copilot chat in Business Central | announced | [30:40](https://www.youtube.com/watch?v=uMKLsKfKPc0&t=1840s) | "M365 Copilot chat coming to Business Central. We are working in a way that it comes with the agents, right?" ([30:51](https://www.youtube.com/watch?v=uMKLsKfKPc0&t=1851s)) |
+| M365 Copilot chat in Business Central | generally available (roadmap [573362](../features/573362.md)) | [30:40](https://www.youtube.com/watch?v=uMKLsKfKPc0&t=1840s) | "M365 Copilot chat coming to Business Central. We are working in a way that it comes with the agents, right?" ([30:51](https://www.youtube.com/watch?v=uMKLsKfKPc0&t=1851s)) |
 | First-party agents customization | status not stated | [31:46](https://www.youtube.com/watch?v=uMKLsKfKPc0&t=1906s) |  |
 | Agent Runtime in Business Central | status not stated, demoed | [32:03](https://www.youtube.com/watch?v=uMKLsKfKPc0&t=1923s) |  |
 | Copilot Studio for API and Power Automate integration | status not stated | [32:59](https://www.youtube.com/watch?v=uMKLsKfKPc0&t=1979s) |  |
@@ -455,6 +458,8 @@ Two demos are shown: a compliance agent that checks Business Central users, and 
 | Agent credit margin for ISVs | status not stated | [39:54](https://www.youtube.com/watch?v=uMKLsKfKPc0&t=2394s) |  |
 | Agent access from Business Central chat | status not stated | [41:00](https://www.youtube.com/watch?v=uMKLsKfKPc0&t=2460s) |  |
 | Business Central license requirement for agent APIs | status not stated | [41:16](https://www.youtube.com/watch?v=uMKLsKfKPc0&t=2476s) |  |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## AL objects mentioned
 

@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 0ed5dd102ce6b827af5694d52b82a0fb42b3de15280b3e7c44671d1958a54b88
@@ -135,7 +135,9 @@ links:
     - topic/business-central/business-functionality/local-functionality/denmark/banking-and-payments
     - topic/business-central/business-functionality/local-functionality/denmark/electronic-invoicing
   localizations: []
-  videos: []
+  videos:
+    - video/205F8ljmInU
+    - video/hcu7T3qLdDA
   posts: []
   guidelines: []
 learn_toc_path:
@@ -152,7 +154,7 @@ children:
 coverage:
   learn: 15
   code: 0
-  video: 0
+  video: 2
   blog: 0
   guideline: 0
 bc_forms:
@@ -186,6 +188,13 @@ Path: [Business functionality](../../business-functionality.md) > [Local functio
 
 - [Denmark local functionality](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/denmark-local-functionality): The following article provides links that describe local functionality in Denmark.
 - [Payroll Data Definitions [DK]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/ui-extensions-payroll-data-definitions-dk): This article explains how the payroll data definitions extension makes it easy to exchange data with payroll service providers in Denmark.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [What's New: The Danish Bookkeeping Act (2023 release wave 2)](../../../../videos/205F8ljmInU.md) (video): "Danish Bookkeeping Act; audit trail; saf-t export; e-invoicing"
+- [What's New: The Danish Bookkeeping Act (2024 release wave 1)](../../../../videos/hcu7T3qLdDA.md) (video): "SAF-T (Standard Audit File - Tax) Export; Public Standard Chart of Accounts"
 
 ## Business Central pages and reports
 

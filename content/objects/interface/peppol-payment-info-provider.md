@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:21:46.353Z"
+  at: "2026-10-06T23:56:28.878Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 594097fd6d15cf16ef878eabc449808b458aa993ff7fca90e26fd21a510076be
+  input_hash: d1b4367a734f94df33b2ef2dbc5cfa3ae20c8b812c9561856d0ab83d1fe8ccb9
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/PEPPOL/app/src/Interfaces/PEPPOLPaymentInfoProvider.Interface.al
@@ -60,6 +60,12 @@ counts:
   procedures: 6
   events: 0
   subscribers: 0
+relations:
+  out: 0
+  referenced_by: 0
+  pages: 0
+  extended_by: 0
+  event_subscribers: 0
 ---
 
 # Interface "PEPPOL Payment Info Provider"

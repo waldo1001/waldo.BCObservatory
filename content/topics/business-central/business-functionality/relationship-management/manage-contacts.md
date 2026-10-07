@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 1bddf34271708c8593a485ff2b8d02979e0ed93f86dc6f8142d18ae7ace9f6bb
@@ -72,7 +72,9 @@ links:
   topics:
     - topic/business-central/business-functionality/relationship-management
   localizations: []
-  videos: []
+  videos:
+    - video/7QJeTXzZaEk
+    - video/cc6rEVDhlzs
   posts: []
   guidelines: []
 learn_toc_path:
@@ -85,7 +87,7 @@ children: []
 coverage:
   learn: 6
   code: 0
-  video: 0
+  video: 2
   blog: 0
   guideline: 0
 bc_forms:
@@ -109,6 +111,13 @@ Path: [Business functionality](../../business-functionality.md) > [Relationship 
 - [Save Business Contacts to Microsoft Outlook](https://learn.microsoft.com/dynamics365/business-central/save-business-contacts-to-outlook): Learn how to synchronize Business Central contacts with Microsoft Outlook and Teams to streamline communication and access contact details effortlessly.
 - [Set up information for contacts](https://learn.microsoft.com/dynamics365/business-central/marketing-setup-contacts): Outlines the tasks to specify information and codes, for example, about industry groups and business relationships, before you set up contacts.
 - [Use profiles to classify contacts](https://learn.microsoft.com/dynamics365/business-central/marketing-create-contact-profile-questionnaire): Learn how to set up profile questionnaires to help classify your business contacts' profiles.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Getting Started With Agents: Test Drive the Sales Order Agent (2025)](../../../../videos/7QJeTXzZaEk.md) (video): "Automatic Contact Creation from Email"
+- [Comparing Classes and Templates between Dynamics SL and Dynamics 365 Business Central](../../../../videos/cc6rEVDhlzs.md) (video): "customer templates; customer classes; default values; posting groups"
 
 ## Business Central pages and reports
 

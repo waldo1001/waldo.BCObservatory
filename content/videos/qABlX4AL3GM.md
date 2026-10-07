@@ -25,7 +25,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:51:55.584Z"
+  at: "2026-10-07T00:17:53.935Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -70,7 +70,9 @@ evidence:
 links:
   learn: []
   objects: []
-  features: []
+  features:
+    - feature/573315
+    - feature/573332
   topics: []
   localizations: []
   videos: []
@@ -118,20 +120,26 @@ chapters:
     title: Summary - architectural lessons and closing
 features:
   - name: Unified table storage for extensions
-    status: unclear
+    status: ga
     t: 103
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573332"
   - name: Cross-field indexes spanning base and extension tables
-    status: unclear
+    status: ga
     t: 751
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573315"
   - name: Improved database operation performance for extensions
-    status: unclear
+    status: ga
     t: 751
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573332"
   - name: Partial record loading with set load field
     status: unclear
     t: 932
@@ -211,12 +219,14 @@ The presenter covers the main effects: indexes can span base and extension field
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| Unified table storage for extensions | status not stated | [1:43](https://www.youtube.com/watch?v=qABlX4AL3GM&t=103s) |  |
-| Cross-field indexes spanning base and extension tables | status not stated | [12:31](https://www.youtube.com/watch?v=qABlX4AL3GM&t=751s) |  |
-| Improved database operation performance for extensions | status not stated | [12:31](https://www.youtube.com/watch?v=qABlX4AL3GM&t=751s) |  |
+| Unified table storage for extensions | generally available (roadmap [573332](../features/573332.md)) | [1:43](https://www.youtube.com/watch?v=qABlX4AL3GM&t=103s) |  |
+| Cross-field indexes spanning base and extension tables | generally available (roadmap [573315](../features/573315.md)) | [12:31](https://www.youtube.com/watch?v=qABlX4AL3GM&t=751s) |  |
+| Improved database operation performance for extensions | generally available (roadmap [573332](../features/573332.md)) | [12:31](https://www.youtube.com/watch?v=qABlX4AL3GM&t=751s) |  |
 | Partial record loading with set load field | status not stated, demoed | [15:32](https://www.youtube.com/watch?v=qABlX4AL3GM&t=932s) |  |
 | Avoid direct SQL operations | status not stated | [21:31](https://www.youtube.com/watch?v=qABlX4AL3GM&t=1291s) |  |
 | Compiler warnings for table column limit | status not stated | [24:34](https://www.youtube.com/watch?v=qABlX4AL3GM&t=1474s) |  |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## AL objects mentioned
 

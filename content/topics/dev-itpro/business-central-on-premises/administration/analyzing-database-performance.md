@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 058bea00d9eccf8163bca3e01c4821b017c920fc8cb8f73c78958b8eb65a9717
@@ -49,7 +49,9 @@ links:
     - topic/dev-itpro/business-central-on-premises/administration
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-4940750630260972824
+    - post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-4052415603111434126
   guidelines: []
 learn_toc_path:
   - Business Central on-premises
@@ -62,7 +64,7 @@ coverage:
   learn: 3
   code: 0
   video: 0
-  blog: 0
+  blog: 2
   guideline: 0
 bc_forms: []
 member_hash: 058bea00d9eccf8163bca3e01c4821b017c920fc8cb8f73c78958b8eb65a9717
@@ -80,5 +82,12 @@ Path: [Business Central on-premises](../../business-central-on-premises.md) > [A
 - [Monitoring Long Running SQL Queries to the Event Log](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/monitor-long-running-sql-queries-event-log): This topic provides an overview on how to monitor long running SQL queries in the event log starting with NAV 2017.
 - [Troubleshooting: Using Query Store to Monitor Query Performance](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/troubleshoot-query-performance-using-query-store): Use SQL Server Query Store to troubleshoot query performance. SQL Server Query Store feature provides insight on database query plan choice and performance.
 - [Using Event Log to Monitor Long Running SQL Queries](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/troubleshoot-long-running-queries-using-event-log): Shows how to monitor long running SQL queries in Event Viewer. Use the information determine SQL queries that are good candidates for optimization.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [How to See When Your SQL Server Backup or Restore Will Finish](../../../../posts/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-4940750630260972824.md) (community post): "SQL Server query shows the estimated completion time for active backup"
+- [Manage Database Index Usage in Business Central.](../../../../posts/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-4052415603111434126.md) (community post): "manage database indexes directly from the client without SQL access"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

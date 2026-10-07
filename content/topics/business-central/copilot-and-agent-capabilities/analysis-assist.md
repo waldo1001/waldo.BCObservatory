@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T13:43:32.763Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -41,7 +41,13 @@ links:
   topics:
     - topic/business-central/copilot-and-agent-capabilities
   localizations: []
-  videos: []
+  videos:
+    - video/GbMjcJurkFE
+    - video/mHrY_OI0qNo
+    - video/ofq4OBTuPvE
+    - video/qP0id91bIlA
+    - video/Rh1AFX9A1x4
+    - video/SHOAw9GehdI
   posts: []
   guidelines: []
 learn_toc_path:
@@ -53,7 +59,7 @@ children: []
 coverage:
   learn: 2
   code: 0
-  video: 0
+  video: 6
   blog: 0
   guideline: 0
 bc_forms:
@@ -113,6 +119,17 @@ Start with the analyze data in lists page to understand what you can ask for, th
 
 - [Analyze data in lists with Copilot (preview)](https://learn.microsoft.com/dynamics365/business-central/analysis-assist): Learn how to use Copilot in Business Central to analyze data.
 - [FAQs for analysis assist (preview)](https://learn.microsoft.com/dynamics365/business-central/faqs-analysis-assist): This FAQ provides information about the AI technology used for analyzing data on pages in Business Central. It includes key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [What's New: Analysis Assist with Copilot (2024 release wave 2)](../../../videos/GbMjcJurkFE.md) (video): "Analysis Assist; Copilot toolbar and menu; Field personalization through Analysis Assist"
+- [Introducing: AI-Powered Analysis with Copilot (2024 release wave 1)](../../../videos/mHrY_OI0qNo.md) (video): "AI-Powered Analysis with Copilot; analysis assist; natural language; ad hoc analytics"
+- [AI-Powered Analysis with Copilot in Dynamics 365 Business Central (2024)](../../../videos/ofq4OBTuPvE.md) (video): "AI-Powered Analysis with Copilot trends and outliers summaries"
+- [What's New: Designing Generative AI Experiences (2024 Release Wave 1)](../../../videos/qP0id91bIlA.md) (video): "Analysis assist; Dialogue prompt actions; Sparkle action icon"
+- [What's New: Data Analysis (2025 release wave 1)](../../../videos/Rh1AFX9A1x4.md) (video): "Copilot analysis assist"
+- [What's New: Data Analysis (2025 release wave 2)](../../../videos/SHOAw9GehdI.md) (video): "Analysis Assist Copilot"
 
 ## Business Central pages and reports
 

@@ -1,0 +1,49 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-request-pages.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-request-pages",
+  "title": "Using request pages with XMLports",
+  "blob": "7620467bfbc1ec72e46905e8abdc4b01d1eadfa0",
+  "summary": "Using request pages with XMLports enables users to specify options and filters before XMLport execution through configurable request page properties and layouts.",
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "xmlport",
+    "request page",
+    "filtering",
+    "al development",
+    "teaching tips"
+  ],
+  "objects": [
+    {
+      "type": "xmlport",
+      "name": "XMLport object"
+    }
+  ],
+  "features": [
+    "RequestFilterHeading",
+    "RequestFilterFields",
+    "AboutTitle",
+    "AboutText",
+    "ContextSensitiveHelpPage",
+    "SaveValues",
+    "Filter totals by",
+    "teaching tips",
+    "help links"
+  ],
+  "versions": [
+    "2019 release wave 2",
+    "2023 release wave 1"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002535,
+      "pages_in_call": 8
+    }
+  ]
+}

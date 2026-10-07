@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:21:46.353Z"
+  at: "2026-10-06T23:56:28.878Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 9910e5faabd026cdb80ad9b57c98076564a4f7761397ecfb9b948c0e4d30f826
+  input_hash: aef8d57266197a5309a6bb34953bffc08ee86011c0d0db7823030ba91658466f
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/System%20Application/App/MCP/src/Configuration/Interfaces/MCPServerFeatures.Interface.al
@@ -60,6 +60,12 @@ counts:
   procedures: 7
   events: 0
   subscribers: 0
+relations:
+  out: 0
+  referenced_by: 0
+  pages: 0
+  extended_by: 0
+  event_subscribers: 0
 ---
 
 # Interface "MCP Server Features"

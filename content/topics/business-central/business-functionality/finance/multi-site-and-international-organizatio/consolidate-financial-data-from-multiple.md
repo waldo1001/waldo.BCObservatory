@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 70d3f90d8a3f55c26dfb50f9b81e30c2c724c37f787bebbd8add7811cca4950f
@@ -40,7 +40,10 @@ links:
   topics:
     - topic/business-central/business-functionality/finance/multi-site-and-international-organizatio
   localizations: []
-  videos: []
+  videos:
+    - video/gHcgL469x_E
+    - video/HI7VcPzR2OE
+    - video/y_8xralhVMM
   posts: []
   guidelines: []
 learn_toc_path:
@@ -54,7 +57,7 @@ children: []
 coverage:
   learn: 2
   code: 0
-  video: 0
+  video: 3
   blog: 0
   guideline: 0
 bc_forms:
@@ -79,6 +82,14 @@ Path: [Business functionality](../../../business-functionality.md) > [Finance](.
 
 - [Consolidate data from multiple companies](https://learn.microsoft.com/dynamics365/business-central/finance-consolidated-company-reporting): This article explains how you can consolidate the general ledger entries of two or more separate companies (subsidiaries) into a consolidated company.
 - [Set up company consolidation](https://learn.microsoft.com/dynamics365/business-central/finance-consolidated-company-reporting-setup): Learn how you can configure how data from different companies in Business Central is reported into a consolidation company.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [What's New: Financial Management - Consolidation Improvements (2024 release wave 1)](../../../../../videos/gHcgL469x_E.md) (video): "consolidation; currency exchange rates; consolidation status; balance sheet revaluation; multi-subsidiary"
+- [What's New: Financial Management - Overview (2024 release wave 1)](../../../../../videos/HI7VcPzR2OE.md) (video): "Consolidation Currency Management"
+- [What's New: Cross-Environment Consolidations (2023 release wave 2)](../../../../../videos/y_8xralhVMM.md) (video): "Cross-environment consolidation; Consolidation wizard; API endpoint configuration"
 
 ## Business Central pages and reports
 

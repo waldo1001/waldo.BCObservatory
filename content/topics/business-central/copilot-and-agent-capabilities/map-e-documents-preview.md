@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T13:43:32.763Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -41,7 +41,8 @@ links:
   topics:
     - topic/business-central/copilot-and-agent-capabilities
   localizations: []
-  videos: []
+  videos:
+    - video/kAFdLxb2ghc
   posts: []
   guidelines: []
 learn_toc_path:
@@ -53,7 +54,7 @@ children: []
 coverage:
   learn: 2
   code: 0
-  video: 0
+  video: 1
   blog: 0
   guideline: 0
 bc_forms: []
@@ -89,5 +90,11 @@ Start with the how-to page to understand the workflow, then read the FAQ for the
 
 - [FAQ for mapping e-documents with purchase orders](https://learn.microsoft.com/dynamics365/business-central/faqs-map-edocuments): This FAQ provides information about the AI technology used in Business Central, key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
 - [Map e-documents to purchase order lines with Copilot](https://learn.microsoft.com/dynamics365/business-central/map-edocuments-with-copilot): Learn about how to use Copilot to map e-documents to purchase order lines.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [What's New: E-Documents (2024 release wave 1)](../../../videos/kAFdLxb2ghc.md) (video): "E-documents core app; Third-party access point integration app; PayPal B3 format"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

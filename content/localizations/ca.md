@@ -2,7 +2,7 @@
 id: localization/ca
 type: localization
 title: Canada (CA)
-summary: "Canada (CA) localization of Business Central in BC29: 495 objects of its own, 148 W1 objects changed (607 fields and 103 events added). From the code; country apps outside the Base Application are not included yet."
+summary: Canada (CA) localization of Business Central 29. It covers sales tax with tax areas and jurisdictions, GST/HST, GIFI codes, deposits, bank reconciliation and EFT payment exports, plus NA-style reports. The code also carries Mexican CFDI e-invoicing objects. Use it for Canadian tax, banking and reporting questions.
 tier: official
 language: en
 tags:
@@ -14,10 +14,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:28:57.107Z"
+  at: "2026-10-06T23:56:28.878Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 4eb9876c940f033731523f6e24346d6dc8d237709b44bd31dc94ca9c86aaff0e
+  prompts:
+    hub-localization: 2
+  input_hash: ac393dbaa88660218cf7cfbcda22bd793368f82809577cc525e2c6bb1f4fb440
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps
@@ -51,7 +52,6 @@ links:
     - object/codeunit/5988
     - object/codeunit/6620
     - object/codeunit/9025
-    - object/dotnet/unnamed
     - object/enum/8
     - object/enum/85
     - object/enum/89
@@ -188,18 +188,220 @@ country: CA
 version: "29"
 w1_version: "29"
 added_objects: 495
-replaced_objects: 148
+replaced_objects: 147
 removed_objects: 0
-added_fields: 607
+added_fields: 526
 added_events: 103
 learn_folder: LocalFunctionality/Canada
 ---
 
 # Canada (CA)
 
-> Canada (CA) localization of Business Central in BC29: 495 objects of its own, 148 W1 objects changed (607 fields and 103 events added). From the code; country apps outside the Base Application are not included yet.
+> Canada (CA) localization of Business Central 29. It covers sales tax with tax areas and jurisdictions, GST/HST, GIFI codes, deposits, bank reconciliation and EFT payment exports, plus NA-style reports. The code also carries Mexican CFDI e-invoicing objects. Use it for Canadian tax, banking and reporting questions.
 
-BC29 · country layer against W1 · Learn: [local functionality](../topics/business-central/business-functionality/local-functionality/canada.md)
+BC29 · country layer against W1 · Learn: [local functionality](../topics/business-central/business-functionality/local-functionality/canada.md) · narrative **unreviewed** (machine-written)
+
+## Overview
+
+The Canadian layer is built on the North American sales tax model. Tax areas, tax jurisdictions and tax details drive tax calculation in sales, purchase and service documents. Codeunit 398 "Sales Tax Calculate" gains external tax engine hooks and many events. Sales-Post (80), Purch.-Post (90) and the service posting codeunits gain procedures and events for posting sales tax to the G/L. Purchases add provincial tax area codes, GST/HST fields and a Tax To Be Expensed field on purchase lines. Learn documents sales tax, GST/HST, use and purchase tax, unrealized sales tax with payment discounts, and GIFI codes.
+
+Banking adds deposits, bank reconciliation worksheets and electronic funds transfer (EFT) export. Bank Account gets E-Pay and export format fields. Export codeunits exist for ACH, RB, Cecoban and IAT formats, built on the data exchange framework. Learn has pages for deposits and troubleshooting reports. The localization also holds a large set of NA reports across sales, purchases, inventory, projects and service.
+
+The code also contains Mexican objects: CFDI e-invoicing, SAT catalogs, PAC web services and related fields on sales, transfer and company tables. This input does not tie them to Canadian Learn pages. Upgrade codeunits and profiles are plumbing.
+
+## Key points
+
+- Sales tax: tax areas and jurisdictions, with Country/Region, Round Tax and Use External Tax Engine fields on Tax Area, and external tax engine interface and enum.
+- GST/HST: GST/HST fields on VAT Entry, G/L Entry and Purchase Line, a GST/HST Tax Type enum and a Provincial Tax Area Code on purchase documents.
+- GIFI codes: GIFI Code field on G/L Account and a GIFI Codes page for tax reporting.
+- Deposits and bank reconciliation: Deposit Nos. and Bank Rec. Adj. Doc. Nos. in General Ledger Setup, posted deposit and bank rec codeunits and pages.
+- EFT export: Bank Account export format and EFT Export Code, with ACH, RB, Cecoban and IAT export codeunits.
+- Posting extensibility: many OnBefore/OnAfter events around sales tax in Sales-Post, Purch.-Post, Serv-Documents Mgt. and Sales Tax Calculate.
+- Mexican CFDI e-invoicing objects (SAT catalogs, PAC services, digital stamp fields) are present in the code.
+- Customer, vendor and tax-related fields on G/L Entry, Gen. Journal Line, VAT Entry and Company Information (QST Registration No., Tax Area Code).
+
+Narrative written by Sonnet from the code diff and 8 Learn page summaries. In numbers: Canada (CA) localization of Business Central in BC29: 495 objects of its own, 147 W1 objects changed (526 fields and 103 events added). From the code; country apps outside the Base Application are not included yet.
+
+## By area
+
+| Area | W1 objects changed | Own objects | Fields added |
+|---|---|---|---|
+| [eServices](#eservices) | 0 | 124 | 0 |
+| [Sales](#sales) | 35 | 74 | 237 |
+| [Finance](#finance) | 28 | 73 | 84 |
+| [Bank](#bank) | 14 | 80 | 22 |
+| [Purchases](#purchases) | 24 | 35 | 66 |
+| [Inventory](#inventory) | 10 | 31 | 75 |
+| [Service](#service) | 8 | 31 | 0 |
+| [Projects](#projects) | 2 | 15 | 4 |
+| [Foundation](#foundation) | 10 | 6 | 26 |
+| [(no namespace)](#no-namespace) | 0 | 15 | 0 |
+| [Utilities](#utilities) | 6 | 5 | 0 |
+| [IO](#io) | 4 | 0 | 1 |
+| [Microsoft](#microsoft) | 0 | 4 | 0 |
+| [Security](#security) | 4 | 0 | 0 |
+| [HumanResources](#humanresources) | 1 | 2 | 2 |
+| [FixedAssets](#fixedassets) | 1 | 0 | 9 |
+
+### eServices
+
+Adds the E-Invoice management and communication codeunits (on-prem and SaaS), cancel request batches, SAT catalog update codeunits, and SAT and CFDI catalog pages and tables. These are the Mexican CFDI e-invoicing objects.
+
+Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
+
+Objects: codeunit/10145 "E-Invoice Mgt." (own), codeunit/10146 "EInvoice Communication" (own), codeunit/10174 "EInvoice OnPrem Communication" (own), codeunit/10175 "EInvoice SaaS Communication" (own), codeunit/27030 "SAT Utilities" (own), codeunit/27031 "Update SAT Payment Catalogs" (own), page/10457 "MX Electronic Invoice Setup" (own), interface/einvoice communication v2 "EInvoice Communication V2" (own).
+
+[All 124 objects of eServices in the diff](?ns=eServices#country-diff)
+
+### Sales
+
+Adds fields to sales headers, lines and posted documents for sales tax rounding, tax exemption, UPS zone and electronic document stamping. Sales-Post and Sales-Post Prepayments gain sales tax procedures and events. Adds order status pages, statistics pages and shipment and invoice posting codeunits.
+
+Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
+
+Objects: [codeunit/80 "Sales-Post"](../objects/codeunit/80.md), [codeunit/442 "Sales-Post Prepayments"](../objects/codeunit/442.md), [table/36 "Sales Header"](../objects/table/36.md), [table/37 "Sales Line"](../objects/table/37.md), [table/112 "Sales Invoice Header"](../objects/table/112.md), [table/114 "Sales Cr.Memo Header"](../objects/table/114.md), [table/18 "Customer"](../objects/table/18.md), [report/1306 "Standard Sales - Invoice"](../objects/report/1306.md).
+
+[All 109 objects of Sales in the diff](?ns=Sales#country-diff)
+
+### Finance
+
+Adds the sales tax engine: sales tax journal, tax calculation with external tax engine hooks, and GIFI codes. Adds tax and EFT-related fields to G/L Account, journal lines, VAT Entry, Tax Area and General Ledger Setup. Gen. Jnl.-Post Line gains unrealized VAT procedures and events.
+
+Why: Learn documents sales tax, GST/HST, unrealized sales tax and GIFI codes as the Canadian tax reporting requirements.
+
+Objects: [codeunit/398 "Sales Tax Calculate"](../objects/codeunit/398.md), [codeunit/12 "Gen. Jnl.-Post Line"](../objects/codeunit/12.md), [table/318 "Tax Area"](../objects/table/318.md), [table/320 "Tax Jurisdiction"](../objects/table/320.md), [table/322 "Tax Detail"](../objects/table/322.md), [table/254 "VAT Entry"](../objects/table/254.md), [table/15 "G/L Account"](../objects/table/15.md), [table/98 "General Ledger Setup"](../objects/table/98.md).
+
+[All 101 objects of Finance in the diff](?ns=Finance#country-diff)
+
+### Bank
+
+Adds deposits, bank reconciliation worksheets and EFT export through ACH, RB, Cecoban and IAT codeunits and data exchange mapping codeunits. Bank Account, Check Ledger Entry and Bank Account Card gain fields and procedures for electronic payments and checks.
+
+Why: Learn has pages on creating deposits and on printing troubleshooting reports.
+
+Objects: [table/270 "Bank Account"](../objects/table/270.md), codeunit/10098 "Generate EFT" (own), codeunit/10090 "Export Payments (ACH)" (own), codeunit/10091 "Export Payments (RB)" (own), codeunit/10331 "EFT Export Mgt" (own), codeunit/10130 "Bank Reconciliation Mgt." (own), [table/272 "Check Ledger Entry"](../objects/table/272.md), [page/370 "Bank Account Card"](../objects/page/370.md).
+
+[All 94 objects of Bank in the diff](?ns=Bank#country-diff)
+
+### Purchases
+
+Adds provincial tax area, GST/HST, tax exemption and expense-or-capitalize fields to purchase documents. Purch.-Post gains provincial sales tax posting procedures and events. Adds NA purchase reports and statistics pages.
+
+Why: Learn covers use tax and purchase tax setup and GST/HST with provincial sales tax.
+
+Objects: [codeunit/90 "Purch.-Post"](../objects/codeunit/90.md), [table/38 "Purchase Header"](../objects/table/38.md), [table/39 "Purchase Line"](../objects/table/39.md), [table/23 "Vendor"](../objects/table/23.md), [codeunit/444 "Purchase-Post Prepayments"](../objects/codeunit/444.md), [table/288 "Vendor Bank Account"](../objects/table/288.md), [page/50 "Purchase Order"](../objects/page/50.md), report/10121 "Purchase Invoice NA" (own).
+
+[All 59 objects of Purchases in the diff](?ns=Purchases#country-diff)
+
+### Inventory
+
+Adds CFDI and transport fields to transfer documents and SAT classification fields to Item. Adds NA inventory reports such as valuation, availability and physical inventory count.
+
+Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
+
+Objects: [table/5744 "Transfer Shipment Header"](../objects/table/5744.md), [table/5740 "Transfer Header"](../objects/table/5740.md), [table/27 "Item"](../objects/table/27.md), report/10139 "Inventory Valuation" (own), report/10131 "Availability Status" (own), table/10013 "Vendor Location" (own), codeunit/10461 "Transfer Shpt. Header - Edit" (own), [table/5741 "Transfer Line"](../objects/table/5741.md).
+
+[All 41 objects of Inventory in the diff](?ns=Inventory#country-diff)
+
+### Service
+
+Adds sales tax calculation and external tax engine handling to service posting codeunits, plus NA table and page extensions, statistics pages and sales tax service reports.
+
+Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
+
+Objects: [codeunit/5988 "Serv-Documents Mgt."](../objects/codeunit/5988.md), [codeunit/5987 "Serv-Posting Journals Mgt."](../objects/codeunit/5987.md), codeunit/10288 "Serv-Documents Mgt. NA" (own), report/10470 "Service Order-Sales Tax" (own), tableextension/10014 "Service Line NA" (own), pageextension/10024 "Service Order NA" (own), page/10052 "Service Order Stats." (own), [table/5902 "Service Line"](../objects/table/5902.md).
+
+[All 39 objects of Service in the diff](?ns=Service#country-diff)
+
+### Projects
+
+Adds NA job and resource reports such as job actual to budget, cost breakdown and resource usage. Adds budget fields to Job Difference Buffer.
+
+Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
+
+Objects: [table/1019 "Job Difference Buffer"](../objects/table/1019.md), report/10210 "Job Actual to Budget (Cost)" (own), report/10211 "Job Actual to Budget (Price)" (own), report/10195 "Cost Breakdown" (own), report/10216 "Job List" (own), report/10200 "Resource Usage" (own).
+
+[All 17 objects of Projects in the diff](?ns=Projects#country-diff)
+
+### Foundation
+
+Company Information gains Canadian tax identifiers, such as QST Registration No. and provincial tax area, with an IsCanada procedure. Also adds No. Series Line fields, deposit and bank rec source codes, and SAT fields on units of measure and countries.
+
+Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
+
+Objects: [table/79 "Company Information"](../objects/table/79.md), [table/242 "Source Code Setup"](../objects/table/242.md), [table/309 "No. Series Line"](../objects/table/309.md), [table/204 "Unit of Measure"](../objects/table/204.md), [codeunit/229 "Document-Print"](../objects/codeunit/229.md), [page/344 "Navigate"](../objects/page/344.md).
+
+[All 16 objects of Foundation in the diff](?ns=Foundation#country-diff)
+
+### (no namespace)
+
+Holds upgrade codeunits for CFDI, EFT and sales tax setup, the bank reconciliation report and printing codeunit, and role profiles for credit manager, HR manager and payroll administrator.
+
+Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
+
+Objects: report/10408 "Bank Reconciliation" (own), codeunit/10124 "BankRec-Printed" (own), profile/credit manager "CREDIT MANAGER" (own), table/27008 "CFDI Subject to Tax" (own), xmlport/27008 "CFDI Subject to Tax" (own).
+
+[All 15 objects of (no namespace) in the diff](?ns=(no%20namespace)#country-diff)
+
+### Utilities
+
+Document Totals and Copy Document Mgt. gain sales tax procedures. Adds a data dictionary report and table, paragraph handling and entry application codeunits.
+
+Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
+
+Objects: [codeunit/57 "Document Totals"](../objects/codeunit/57.md), [codeunit/6620 "Copy Document Mgt."](../objects/codeunit/6620.md), codeunit/10202 "Entry Application Management" (own), report/10315 "Data Dictionary" (own), table/10040 "Data Dictionary Info" (own), [codeunit/1814 "Assisted Setup Subscribers"](../objects/codeunit/1814.md).
+
+[All 11 objects of Utilities in the diff](?ns=Utilities#country-diff)
+
+### IO
+
+Data Exch. Def gains procedures for EFT payment codeunits and export file type checks. Config. Setup gets a Tax Area Code.
+
+Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
+
+Objects: [table/1222 "Data Exch. Def"](../objects/table/1222.md), [table/1224 "Data Exch. Mapping"](../objects/table/1224.md), [table/8627 "Config. Setup"](../objects/table/8627.md), [enum/1222 "Data Exchange Definition Type"](../objects/enum/1222.md).
+
+[All 4 objects of IO in the diff](?ns=IO#country-diff)
+
+### Microsoft
+
+Holds a few leftover objects, such as the B10 Adjustment table and page and declaration label reports.
+
+Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
+
+Objects: table/10240 "B10 Adjustment" (own), page/10240 "B10 Adjustments" (own), report/14022 "Declaration 347 Labels" (own), report/14023 "Declaration 349 Labels" (own).
+
+[All 4 objects of Microsoft in the diff](?ns=Microsoft#country-diff)
+
+### Security
+
+Changes the LOCAL and LOCAL READ permission sets and the payables journal permission sets so the Canadian objects are covered.
+
+Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
+
+Objects: [permissionset/1001 "LOCAL"](../objects/permissionset/1001.md), [permissionset/1002 "LOCAL READ"](../objects/permissionset/1002.md), [permissionset/3602 "Payables Journals - Post"](../objects/permissionset/3602.md), [permissionset/8824 "Payables Journals - Edit"](../objects/permissionset/8824.md).
+
+[All 4 objects of Security in the diff](?ns=Security#country-diff)
+
+### HumanResources
+
+Adds RFC No. and License No. fields to Employee, plus Human Resources and Payroll role centers.
+
+Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
+
+Objects: [table/5200 "Employee"](../objects/table/5200.md), page/36600 "Human Resources Role Center" (own), page/36601 "Payroll Role Center" (own).
+
+[All 3 objects of HumanResources in the diff](?ns=HumanResources#country-diff)
+
+### FixedAssets
+
+Adds vehicle and SAT transport classification fields to Fixed Asset, such as licence plate, gross weight and trailer type.
+
+Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
+
+Objects: [table/5600 "Fixed Asset"](../objects/table/5600.md).
+
+[All 1 objects of FixedAssets in the diff](?ns=FixedAssets#country-diff)
 
 ## W1 objects this country changes
 
@@ -227,7 +429,6 @@ BC29 · country layer against W1 · Learn: [local functionality](../topics/busin
 | [codeunit/5988 "Serv-Documents Mgt."](../objects/codeunit/5988.md) | +4 events, +6 procedures |
 | [codeunit/6620 "Copy Document Mgt."](../objects/codeunit/6620.md) | +3 procedures |
 | [codeunit/9025 "Small Business Report Catalog"](../objects/codeunit/9025.md) | 1 procedures changed |
-| [dotnet/ ""](../objects/dotnet/unnamed.md) | body changes only |
 | [enum/8 "Country/Region Address Format"](../objects/enum/8.md) | body changes only |
 | [enum/85 "Acc. Schedule Line Totaling Type"](../objects/enum/85.md) | body changes only |
 | [enum/89 "Gen. Journal Template Type"](../objects/enum/89.md) | body changes only |
@@ -311,7 +512,7 @@ BC29 · country layer against W1 · Learn: [local functionality](../topics/busin
 | [table/181 "Posted Gen. Journal Line"](../objects/table/181.md) | +21 fields |
 | [table/204 "Unit of Measure"](../objects/table/204.md) | +2 fields |
 | [table/222 "Ship-to Address"](../objects/table/222.md) | +2 fields, +1 procedures |
-| [table/242 "Source Code Setup"](../objects/table/242.md) | +82 fields, 5 properties |
+| [table/242 "Source Code Setup"](../objects/table/242.md) | +2 fields |
 | [table/254 "VAT Entry"](../objects/table/254.md) | +3 fields, 1 fields changed, +1 procedures |
 | [table/270 "Bank Account"](../objects/table/270.md) | +16 fields, 3 fields changed, +3 procedures, 1 properties |
 | [table/271 "Bank Account Ledger Entry"](../objects/table/271.md) | +1 procedures |
@@ -321,7 +522,7 @@ BC29 · country layer against W1 · Learn: [local functionality](../topics/busin
 | [table/288 "Vendor Bank Account"](../objects/table/288.md) | +2 fields, 2 fields changed, +1 events |
 | [table/289 "Payment Method"](../objects/table/289.md) | +2 fields |
 | [table/290 "VAT Amount Line"](../objects/table/290.md) | +1 fields, +2 procedures |
-| [table/309 "No. Series Line"](../objects/table/309.md) | +4 fields, 1 fields changed, 9 properties |
+| [table/309 "No. Series Line"](../objects/table/309.md) | +3 fields |
 | [table/312 "Purchases & Payables Setup"](../objects/table/312.md) | +2 fields |
 | [table/318 "Tax Area"](../objects/table/318.md) | +3 fields |
 | [table/319 "Tax Area Line"](../objects/table/319.md) | 1 fields changed |
@@ -856,6 +1057,6 @@ Country-only objects have no object page yet (their ids repeat across countries)
 
 ## Other versions
 
-- BC30: 643 objects differ from W1 (607 fields, 104 events added)
+- BC30: 642 objects differ from W1 (526 fields, 104 events added)
 
 Source: country layer of the Base Application compared with W1 of the same version (data/code/diffs/country/).

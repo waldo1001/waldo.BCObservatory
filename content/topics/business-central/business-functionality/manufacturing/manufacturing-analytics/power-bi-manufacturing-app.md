@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 16d0d3f33dff504b1d84dc00e4819bca909f50f275a89942c250dc6a392f1d48
@@ -192,7 +192,10 @@ links:
   topics:
     - topic/business-central/business-functionality/manufacturing/manufacturing-analytics
   localizations: []
-  videos: []
+  videos:
+    - video/6NuJOL8DEqA
+    - video/9X-IWRkI2GM
+    - video/JT4ownMbotw
   posts: []
   guidelines: []
 learn_toc_path:
@@ -206,7 +209,7 @@ children: []
 coverage:
   learn: 21
   code: 0
-  video: 0
+  video: 3
   blog: 0
   guideline: 0
 bc_forms:
@@ -263,6 +266,14 @@ Path: [Business functionality](../../../business-functionality.md) > [Manufactur
 - [Released Production Orders](https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-released-production-orders): The Released Production Orders report shows information about all released production orders, including expected versus finished quantities and the variance.
 - [Work Center Load](https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-work-center-load): The Work Center Load report shows the load and the allocated capacity of each work center.
 - [Work Center Statistics](https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-work-center-statistics): The Work Center Statistics report shows key performance indicators for each work center.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [What's New: Manufacturing Analytics (Updated Power BI App) Electronic Documents(2025 release wave 1)](../../../../../videos/6NuJOL8DEqA.md) (video): "Manufacturing Power BI App Update; Current Utilization Report Deprecation"
+- [What's New: Manufacturing Analytics (New and Updated Reports) (2025 release wave 1)](../../../../../videos/9X-IWRkI2GM.md) (video): "manufacturing reports; analytics modernization; excel layouts; word layouts; power bi"
+- [What's New: Manufacturing Analytics (2025 release wave 2)](../../../../../videos/JT4ownMbotw.md) (video): "PowerBI app for manufacturing; Excel layouts for manufacturing reports"
 
 ## Business Central pages and reports
 

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-set-up-vendors-for-automatic-payment-suggestions",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,10 +17,29 @@
       "blob": "22cefc7b917a3957e2909e2f4a833da73b2b0d1e",
       "words": 172,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T23:41:50.644Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.002535
+    },
+    "summarized": {
+      "at": "2026-10-06T23:41:50.657Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T23:41:50.659Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T23:41:50.661Z",
+      "page": false
     }
   },
   "input_hash": "22cefc7b917a3957e2909e2f4a833da73b2b0d1e",
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
@@ -39,7 +58,7 @@
     "ai_usage": null,
     "words": 172
   },
-  "last_error": "git cat-file -p 22cefc7b917a3957e2909e2f4a833da73b2b0d1e failed: fatal: You are attempting to fetch bf5ffffa9b026e146d29f13a242daa5334ddf0d8, which is in the commit graph file but not in the object database. This is probably due to repo corruption. If you are attempting to repair this repo corruption by refetching the missing object, use 'git fetch --refetch' with the missing object. fatal: could not fetch 22cefc7b917a3957e2909e2f4a833da73b2b0d1e from promisor ",
-  "retry_after": "2026-10-06T21:31:59.110Z",
-  "output_hash": "22cefc7b917a3957e2909e2f4a833da73b2b0d1e"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "52d04621fbc3ed0e2a08187e4a135a4f2fa6f23dac960ba6385b4acf9ad4acd0"
 }

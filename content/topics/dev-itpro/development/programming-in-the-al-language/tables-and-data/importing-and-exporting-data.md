@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 0701107680ab6374a75be6625747535fbf73f4ee24b8643401abc0d15b654ac8
@@ -73,7 +73,9 @@ links:
     - topic/dev-itpro/development/programming-in-the-al-language/tables-and-data
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/aardvarklabs-blog/2333
+    - post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-4218333995173748236
   guidelines: []
 learn_toc_path:
   - Development
@@ -87,7 +89,7 @@ coverage:
   learn: 6
   code: 0
   video: 0
-  blog: 0
+  blog: 2
   guideline: 0
 bc_forms: []
 member_hash: 0701107680ab6374a75be6625747535fbf73f4ee24b8643401abc0d15b654ac8
@@ -108,5 +110,12 @@ Path: [Development](../../../development.md) > [Programming in the AL language](
 - [Using request pages with XMLports](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-request-pages): Introducing how to work with request pages for Business Central XMLports.
 - [XMLport object](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-xmlport-object): XMLport objects are used to export and import data between an external source and Business Central.
 - [XMLport Overview for Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-xmlport-overview): Get an overview of the XMLport object in AL, which is composed of an XMLport schema, a request page, and properties, triggers, and code that you can extend.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Essential Guides to Data Imports in Business Central](../../../../../posts/aardvarklabs-blog/2333.md) (community post): "Guide to data import and export operations in Business Central using AL code"
+- [How to Export CSV Files from Business Central Using CSV Buffer (Developer Guide)](../../../../../posts/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-4218333995173748236.md) (community post): "export data from Business Central to CSV format using the CSV Buffer"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

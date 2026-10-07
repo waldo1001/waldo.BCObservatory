@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: f767ef510965e02cd52807b6bf86243117fa8c329c2e9db1f023c99d155d6896
@@ -324,7 +324,11 @@ links:
     - topic/business-central/business-functionality
     - topic/business-central/business-functionality/purchasing/purchasing-analytics
   localizations: []
-  videos: []
+  videos:
+    - video/8C9JmtHdExM
+    - video/DJ3LPRxn27g
+    - video/DvZd6y69sWk
+    - video/sqjb_gsXqM8
   posts: []
   guidelines: []
 learn_toc_path:
@@ -337,7 +341,7 @@ children:
 coverage:
   learn: 62
   code: 0
-  video: 0
+  video: 4
   blog: 0
   guideline: 0
 bc_forms:
@@ -458,6 +462,15 @@ Path: [Business functionality](../business-functionality.md) > Purchasing · tie
 - [Set up and use a purchase approval workflow](https://learn.microsoft.com/dynamics365/business-central/walkthrough-setting-up-and-using-a-purchase-approval-workflow): This walkthrough takes you through all the stages involved in setting up and using a purchase approval workflow in Business Central.
 - [Standard recurring purchase lines](https://learn.microsoft.com/dynamics365/business-central/purchasing-how-work-recurring-purchase-lines): Set up frequently used purchase lines to insert them on purchase documents and quickly fill the lines with standard information.
 - [Work with blanket sales orders or purchase orders](https://learn.microsoft.com/dynamics365/business-central/sales-how-to-create-blanket-sales-orders): Use blanket orders when a customer agrees to buy large quantities that you deliver in small shipments over a period of time.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Allow Over Receipts of Products](../../../videos/8C9JmtHdExM.md) (video): "Over receipt codes; Over receipt code tolerance percentages; Item-level over receipt codes"
+- [What's New: Drop Shipments (2026 release wave 1)](../../../videos/DJ3LPRxn27g.md) (video): "Flexible Drop Shipment Operation Sequences; Get Order Lines Functionality; Multiple Purchase Document Creation Methods"
+- [What's Cooking in Business Central: Edit Purchase Order Emails before Sending them to your Supplier](../../../videos/DvZd6y69sWk.md) (video): "Edit purchase order emails before sending them to your Supplier"
+- [What's New: Supply Chain Management - overview (2026 release wave 1)](../../../videos/sqjb_gsXqM8.md) (video): "purchase order matching; drop shipment; purchase quote without vendor"
 
 ## Business Central pages and reports
 

@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 35cdf31e07525cc21ab43fc4f80602f51143b40dc77f573a5a98e624fed3a911
@@ -132,8 +132,13 @@ links:
     - topic/business-central/business-functionality/finance
     - topic/business-central/business-functionality/finance/manage-inventory-costs/report-inventory-costs-and-reconcile-wit
   localizations: []
-  videos: []
-  posts: []
+  videos:
+    - video/8IOEXgk7q5I
+    - video/bVPFIhkvZEA
+    - video/N30HebR5nJk
+    - video/w0okH0v0VvY
+  posts:
+    - post/thedynamicsexplorer-com/37371
   guidelines: []
 learn_toc_path:
   - Business functionality
@@ -146,8 +151,8 @@ children:
 coverage:
   learn: 14
   code: 0
-  video: 0
-  blog: 0
+  video: 4
+  blog: 1
   guideline: 0
 bc_forms:
   - 40
@@ -188,6 +193,16 @@ Path: [Business functionality](../../business-functionality.md) > [Finance](../f
 - [Remove and reapply item entries](https://learn.microsoft.com/dynamics365/business-central/finance-how-to-remove-and-reapply-item-entries): You can view and manually change certain item application entries that are created automatically during inventory transactions.
 - [Track item cost adjustments](https://learn.microsoft.com/dynamics365/business-central/finance-track-inventory-costs): Learn how tracking adjustments to item costs can help you keep your item cost data accurate.
 - [Use item charges to account for extra trade costs](https://learn.microsoft.com/dynamics365/business-central/payables-how-assign-item-charges): Use item charges to assign costs such as freight, insurance, and duties to purchases (landed cost), or non-inventoriable costs on sales shipments.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Dynamics 365 Business Central – Some Considerations when Changing Standard Cost on an Item Card](../../../../posts/thedynamicsexplorer-com/37371.md) (community post): "Changing standard cost directly on an item card in Business Central"
+- [What's New: Cost Adjustment (2025 release wave 1)](../../../../videos/8IOEXgk7q5I.md) (video): "Cost adjustment; inventory valuation; high-volume items"
+- [Business Central: Turn SIFT Indexes on or Off](../../../../videos/bVPFIhkvZEA.md) (video): "Turn SIFT Indexes on or off index management database performance"
+- [Execution & Control Cost Control (2026)](../../../../videos/N30HebR5nJk.md) (video): "item costing; manufacturing overhead; production variances"
+- [What's New: Cost Adjustment (2024 release wave 1)](../../../../videos/w0okH0v0VvY.md) (video): "cost adjustment; inventory valuation; cost monitoring"
 
 ## Business Central pages and reports
 

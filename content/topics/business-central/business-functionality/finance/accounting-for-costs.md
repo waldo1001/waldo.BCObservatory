@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 253009b5170bcbde2efda8d28b609be2a69b1bc2cf29742ab0d494b533034c10
@@ -96,8 +96,14 @@ links:
   topics:
     - topic/business-central/business-functionality/finance
   localizations: []
-  videos: []
-  posts: []
+  videos:
+    - video/54uIhzZq3Os
+    - video/BZF4MrVfvfY
+    - video/DHODFt_jVO4
+    - video/N30HebR5nJk
+    - video/xh63GaWwZqA
+  posts:
+    - post/thedynamicsexplorer-com/37257
   guidelines: []
 learn_toc_path:
   - Business functionality
@@ -109,8 +115,8 @@ children: []
 coverage:
   learn: 9
   code: 0
-  video: 0
-  blog: 0
+  video: 5
+  blog: 1
   guideline: 0
 bc_forms:
   - 1100
@@ -174,6 +180,17 @@ Path: [Business functionality](../../business-functionality.md) > [Finance](../f
 - [Set up cost accounting](https://learn.microsoft.com/dynamics365/business-central/finance-set-up-cost-accounting): Before you start working with cost accounting, you must setup. Each cost entry must have a cost type assigned and a cost center code or a cost object assigned.
 - [Terminology in cost accounting](https://learn.microsoft.com/dynamics365/business-central/finance-terminology-in-cost-accounting): This article defines the key terms that are used in cost accounting, such as allocation key and allocation source.
 - [Transferring and posting cost entries](https://learn.microsoft.com/dynamics365/business-central/finance-transfer-and-post-cost-entries): Before you define cost allocations, you must understand the various sources that cost entries come from.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Dynamics 365 Business Central – How to proportionally split costs across Dimensions using Statistical Accounts and Allocation Accounts](../../../../posts/thedynamicsexplorer-com/37257.md) (community post): "how to automatically split costs across cost center dimensions in Business Central using Statistical Accounts"
+- [Expense Agent: Finance Controlling (2026 release wave 1)](../../../../videos/54uIhzZq3Os.md) (video): "Project billable costs; employee payments; ledger entries"
+- [What's New: Fixed and Variable G/L Allocations (2023 release wave 2)](../../../../videos/BZF4MrVfvfY.md) (video): "GL allocations; statistical accounts; cost allocation; revenue allocation"
+- [What's New in Manufacturing: Costing (2025 release wave 1)](../../../../videos/DHODFt_jVO4.md) (video): "standard costing; stock keeping unit; production bill of material; routing variants"
+- [Execution & Control Cost Control (2026)](../../../../videos/N30HebR5nJk.md) (video): "Costing methods; Cost shares on item card; BOM cost share distribution"
+- [Adjust Cost Allocations Before Posting](../../../../videos/xh63GaWwZqA.md) (video): "allocation accounts; cost allocation; posting; expense splitting"
 
 ## Business Central pages and reports
 

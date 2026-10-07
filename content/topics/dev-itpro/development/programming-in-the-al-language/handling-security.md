@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: b2776cd836898a8a19e7effa719a058b48cb3a07b751f1ad520ac02281d58fdf
@@ -183,8 +183,11 @@ links:
     - topic/dev-itpro/development/programming-in-the-al-language/handling-security/permission-sets-and-entitlements-overvie
     - topic/dev-itpro/development/programming-in-the-al-language/handling-security/using-azure-key-vault-for-app-secrets
   localizations: []
-  videos: []
-  posts: []
+  videos:
+    - video/tDcT_51ktqo
+  posts:
+    - post/demiliani-com/13640
+    - post/demiliani-com/14011
   guidelines: []
 learn_toc_path:
   - Development
@@ -198,8 +201,8 @@ children:
 coverage:
   learn: 22
   code: 0
-  video: 0
-  blog: 0
+  video: 1
+  blog: 2
   guideline: 0
 bc_forms: []
 member_hash: b2776cd836898a8a19e7effa719a058b48cb3a07b751f1ad520ac02281d58fdf
@@ -222,5 +225,13 @@ Path: [Development](../../development.md) > [Programming in the AL language](../
 - [Business Central security for AL developers](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/security/security-developers): Understand and improve the security of your Business Central apps written in AL.
 - [Isolated Storage](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-isolated-storage): Isolated Storage is a data storage that provides isolation between extensions, so that you can keep keys/values in one extension from being accessed from other extensions.
 - [Protecting sensitive values with the SecretText data type](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-secret-text): The SecretText data type is designed to protect sensitive values from being exposed when debugging.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Dynamics 365 Business Central: using SFTP from AL (the native way)](../../../../posts/demiliani-com/13640.md) (community post): "Server fingerprint must be verified before connecting to prevent man-in-the-middle attacks"
+- [Visual Studio Code Agent hook for auditing your AL coding sessions.](../../../../posts/demiliani-com/14011.md) (community post): "Agent Hooks enable custom shell commands to execute at specific points"
+- [What's New: Server and Database - A Faster Runtime (2023 release wave 2)](../../../../videos/tDcT_51ktqo.md) (video): "Error Info Permission Checking; Permissions Work with Security Groups"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

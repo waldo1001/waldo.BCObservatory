@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 333d762410d8da9593a67b5f251849371d43d059d2186deb5309f4efe220cfad
@@ -104,7 +104,8 @@ links:
   topics:
     - topic/dev-itpro/development/extensibility
   localizations: []
-  videos: []
+  videos:
+    - video/P-7dYVfB73E
   posts: []
   guidelines: []
 learn_toc_path:
@@ -117,7 +118,7 @@ children: []
 coverage:
   learn: 10
   code: 0
-  video: 0
+  video: 1
   blog: 0
   guideline: 0
 bc_forms: []
@@ -143,5 +144,11 @@ Path: [Development](../../development.md) > [Extensibility](../extensibility.md)
 - [Raising Events](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-raising-events): This article describes how to modify the application to raise an event in Dynamics 365 Business Central.
 - [Subscribing to events](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-subscribing-to-events): Designing event subscribers in AL for Business Central.
 - [Walkthrough: Implementing New Workflow Events and Responses](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-walkthrough-workflow-events-responses): Learn how you can extend the native workflows by adding workflow events and responses in code to support additional business scenarios.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Business Central Under the Hood episode 6: We Have Too Many Events!](../../../../videos/P-7dYVfB73E.md) (video): "Integration Events; Workflow Events; Event Usage Telemetry; Handled events"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

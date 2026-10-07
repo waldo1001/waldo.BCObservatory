@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: d075b595c4c7a24e864f7f81cb2cd366e050f86394fd77625ac7155427d5f6cc
@@ -41,7 +41,8 @@ links:
     - topic/dev-itpro/administration/automation-api
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-2501623073598492643
   guidelines: []
 learn_toc_path:
   - Administration
@@ -54,7 +55,7 @@ coverage:
   learn: 2
   code: 0
   video: 0
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms: []
 member_hash: d075b595c4c7a24e864f7f81cb2cd366e050f86394fd77625ac7155427d5f6cc
@@ -71,5 +72,11 @@ Path: [Administration](../../administration.md) > [Automation API](../automation
 
 - [(automation API) Get extensionDeploymentStatus](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/api/dynamics_extensiondeploymentstatus_get): Gets an extension deployment status object in Dynamics 365 Business Central.
 - [extensionDeploymentStatus resource type](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/resources/dynamics_extensiondeploymentstatus): An extension deployment status object in Dynamics 365 Business Central.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [How I Recreated the Extension Upload Experience in Business Central](../../../../posts/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-2501623073598492643.md) (community post): "in-product extension upload and the extensionUpload API are deprecated"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

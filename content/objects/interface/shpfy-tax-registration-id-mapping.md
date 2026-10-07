@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T17:21:46.353Z"
+  at: "2026-10-06T23:56:28.878Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 274d37c05f14da6606aa560ef737f32ff9c895a25f92b1fcf160e20af780e561
+  input_hash: de2db40fd521195bfaf07901c0eb4c3070459649190fc8b304f398e818b32f45
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d7c9c667c671da2cda3a0738b18ed99ca4181765/src/Apps/W1/Shopify/app/src/Companies/Interfaces/ShpfyTaxRegistrationIdMapping.Interface.al
@@ -60,6 +60,12 @@ counts:
   procedures: 3
   events: 0
   subscribers: 0
+relations:
+  out: 0
+  referenced_by: 0
+  pages: 0
+  extended_by: 0
+  event_subscribers: 0
 ---
 
 # Interface "Shpfy Tax Registration Id Mapping"

@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-07T00:21:33.880Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 930971b86417f2cb2b2eec1be9a17360eecf5bc00c57b0be177b1f74f8f8c24d
@@ -258,8 +258,22 @@ links:
     - topic/dev-itpro/administration
     - topic/dev-itpro/administration/admin-center/admin-center-api
   localizations: []
-  videos: []
-  posts: []
+  videos:
+    - video/-uAvdZAWWwI
+    - video/22duXC6j_No
+    - video/3Xus5tm2xKI
+    - video/42adOzECiA0
+    - video/HixajKEd-A4
+    - video/KNy2KujjheU
+    - video/uv2NsSD5P7U
+    - video/wPEZ3U5j4zw
+  posts:
+    - post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-1170961607735589786
+    - post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-2501623073598492643
+    - post/thinkaboutit-be/7897
+    - post/thinkaboutit-be/7930
+    - post/thinkaboutit-be/8077
+    - post/waldo-be/317739
   guidelines: []
 learn_toc_path:
   - Administration
@@ -271,8 +285,8 @@ children:
 coverage:
   learn: 31
   code: 0
-  video: 0
-  blog: 0
+  video: 8
+  blog: 6
   guideline: 0
 bc_forms: []
 member_hash: 930971b86417f2cb2b2eec1be9a17360eecf5bc00c57b0be177b1f74f8f8c24d
@@ -307,5 +321,24 @@ Path: [Administration](../administration.md) > Admin center · tier official · 
 - [Rename Environments in the Admin Center](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments-rename): Use the Business Central administration center to rename environments.
 - [Restoring an environment in the admin center](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-backup-restore): Use the Business Central administration center to restore backups of environments.
 - [Transfer Environments](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments-move): You can transfer a Business Central environment to another Microsoft Entra tenant. Start in the Business Central admin center.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Managing Apps in the Business Central Admin Center](../../../posts/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-1170961607735589786.md) (community post): "Manage Apps page in the Business Central admin center controls the stack of apps"
+- [How I Recreated the Extension Upload Experience in Business Central](../../../posts/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-2501623073598492643.md) (community post): "calling the Business Central admin center API from AL"
+- [How Do I: Manage and Postpone BC Updates in the Admin Center](../../../posts/thinkaboutit-be/7897.md) (community post): "schedule, delay, and respond to rollout pauses"
+- [Quick Tip: Almost Every BC Major Release Gets Paused. Are Your Environments Ready?](../../../posts/thinkaboutit-be/7930.md) (community post): "schedule production updates late in the window, configure notification recipients"
+- [Quick Tip: Reading the Capacity Page in the Business Central Admin Center](../../../posts/thinkaboutit-be/8077.md) (community post): "Two independent limits govern environment creation: environment count"
+- [Troubleshooting Series – Ep2 – Admin Center – Sessions](../../../posts/waldo-be/317739.md) (community post): "The Sessions window in the Business Central Admin Center allows partners and delegated admins"
+- [Transfer Environments](../../../videos/-uAvdZAWWwI.md) (video): "Environment transfers between Entra tenants; Transfer scheduling; Pending transfer cancellation"
+- [Manage all your Apps And Updates in Admin Center for Business Central](../../../videos/22duXC6j_No.md) (video): "Manage all your Apps And Updates in Admin Center for Business Central"
+- [What's new: Manage PTEs in the Admin Center (2026 release wave 2)](../../../videos/3Xus5tm2xKI.md) (video): "PTE upload, install, and update in admin center; Flexible deployment schedule for PTE"
+- [What's New: Upgrade to Preview (2025 release wave 2)](../../../videos/42adOzECiA0.md) (video): "Copy Production Data to Sandbox and Upgrade to Preview"
+- [What's new: Match Production Database Configuration (2026 release wave 2)](../../../videos/HixajKEd-A4.md) (video): "sandbox configuration; production database matching; admin center"
+- [What's new: Database Export Enhancements (2026 release wave 2)](../../../videos/KNy2KujjheU.md) (video): "database export; admin center; operations page; reliability; visibility"
+- [What's New: Flexible Update Management (2024 release wave 2)](../../../videos/uv2NsSD5P7U.md) (video): "update management; major versions; minor updates; grace period; enforced updates"
+- [What's New: Flexible Update Management (2025 release wave 1)](../../../videos/wPEZ3U5j4zw.md) (video): "Flexible update management - General availability; Five-month update period"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.
