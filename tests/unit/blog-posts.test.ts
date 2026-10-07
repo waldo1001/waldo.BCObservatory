@@ -10,7 +10,8 @@ import type { StageFn } from "../../pipeline/orchestrator/execute.js";
 import type { Llm } from "../../pipeline/extract/video.js";
 import { htmlToText, mainContent, postFetched, postRawPath } from "../../pipeline/fetch/post.js";
 import { extractPosts, verbatimQuote } from "../../pipeline/extract/post.js";
-import { renderPostIndex, renderPostPage } from "../../pipeline/render/post.js";
+import { policyCheckedPage, renderPostIndex, renderPostPage } from "../../pipeline/render/post.js";
+import { repeatChecker } from "../../pipeline/validate/leak.js";
 import { validateContent } from "../../pipeline/validate/content.js";
 
 const saved = process.env.BCOBS_VAULT_DIR;
@@ -95,4 +96,40 @@ test("published: a valid post page and the index", async () => {
   assert.equal(renderPostIndex(join(root, "content")), 1);
   assert.ok(existsSync(join(root, "content/posts/llms.txt")));
   assert.deepEqual(validateContent(join(root, "content")).errors, []);
+});
+
+// --- the page is what check:leak scans, so the page is what the guard checks (D55) ---------------------------
+
+/** A run that spans the title/summary seam on the page and no seam in the JSON: what killed the 2026-10-07 run. */
+test("a page that repeats the post across the title seam is scrubbed, and skipped if it still repeats", () => {
+  const v = mkdtempSync(join(tmpdir(), "bcobs-vault-"));
+  const prev = process.env.BCOBS_VAULT_DIR;
+  process.env.BCOBS_VAULT_DIR = v;
+  try {
+    const TITLE = "Business Central executes agent tasks with the intersection of";
+    const TAIL = "the agent profile and the user permissions of whoever started the task in the client today";
+    const raw = `${TITLE} ${TAIL}, which is what the documentation means by least privilege.`;
+    const it = item({ id: "blog/bertverbeek-nl/1252", source: "bertverbeek-nl", title: TITLE });
+    mkdirSync(join(postRawPath(it, v), ".."), { recursive: true });
+    writeFileSync(postRawPath(it, v), raw);
+    const x = { item_id: it.id, url: it.url, title: TITLE, source: it.source, published_at: null, words: 20,
+      summary: TAIL, key_points: [], systems: [], topics: [], objects: [], features: [], versions: [],
+      language: "en", quotes: [], trimmed_for_policy: 0, prompt_version: 1, llm: {} } as any;
+    const src = { name: "Bert Verbeek" };
+    // the JSON keeps title and summary apart; the page puts them on consecutive lines, which is the 25-word run
+    assert.equal(repeatChecker(raw)(JSON.stringify(x)), null, "the extract-time guard sees no run");
+    // the byline between them is our own words, so the seam no longer forms a run at all
+    const page = policyCheckedPage(it, x, src, new Date());
+    assert.ok(page, "the page is published");
+    assert.equal(repeatChecker(raw)(page!), null, "and it does not repeat");
+    assert.match(page!, /# Business Central[\s\S]*Read the post[\s\S]*> the agent profile/, "byline between title and summary");
+    // when the title alone already carries the run there is nothing left to scrub: no page at all
+    const long = { ...x, title: `${TITLE} ${TAIL}`, summary: "Short." };
+    const it2 = item({ id: it.id, source: it.source, title: `${TITLE} ${TAIL}` });
+    assert.equal(policyCheckedPage(it2, long, src, new Date()), null, "no page rather than a leaking page");
+    // a source that may carry full text is not checked at all
+    assert.ok(policyCheckedPage(it2, long, { ...src, full_text: true }, new Date()));
+  } finally {
+    if (prev === undefined) delete process.env.BCOBS_VAULT_DIR; else process.env.BCOBS_VAULT_DIR = prev;
+  }
 });

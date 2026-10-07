@@ -241,51 +241,66 @@ async function run(opts0: NightlyOptions, deps: NightlyDeps): Promise<RunReport>
     });
     if (ck) { await ck.stop(); report.checkpoints = ck.count(); }
     report.execution = execution;
+    // The item loop logs heap at every checkpoint; after it the run was blind, and that is exactly where the
+    // 2026-10-06 and 2026-10-07 OOMs both happened (heap 133 MB at the last checkpoint, 8 GB six minutes later,
+    // with no line in between to say where). Each post-loop phase now reports what it cost (D55).
+    const mbOf = (b: number) => Math.round(b / 2 ** 20);
+    const phase = async <T>(name: string, fn: () => T | Promise<T>): Promise<T> => {
+      const t = Date.now();
+      try {
+        return await fn();
+      } finally {
+        const m = process.memoryUsage();
+        log.info(`phase ${name}: ${Date.now() - t} ms, heap ${mbOf(m.heapUsed)} MB, rss ${mbOf(m.rss)} MB`);
+      }
+    };
     try {
       const majors = Object.keys(loadConfig<VersionsConfig>("versions").majors);
-      report.code = { ...refreshCodeDerived(opts.dataDir, majors), docs_objects: refreshDocsObjects(opts.dataDir, majors, manifest.list("docs")) };
+      report.code = await phase("code-derived", () => ({ ...refreshCodeDerived(opts.dataDir, majors), docs_objects: refreshDocsObjects(opts.dataDir, majors, manifest.list("docs")) }));
       // narratives also run after a clean memory stop (catch-up runs end that way)
       if (execution.stop_reason === "done" || execution.stop_reason === "memory") {
-        const { errors: nErr, ...nRun } = await refreshLocalizationNarratives(opts.dataDir, manifest.list("docs"), { deadline: new Date(execution.deadline), clock: deps.clock ?? (() => new Date()) });
+        const { errors: nErr, ...nRun } = await phase("localization-narratives", () => refreshLocalizationNarratives(opts.dataDir, manifest.list("docs"), { deadline: new Date(execution.deadline), clock: deps.clock ?? (() => new Date()) }));
         errors.push(...nErr);
         report.code.narratives = nRun;
       }
-      report.code.pages = renderCodePages(opts.dataDir, contentDirOf(opts));
+      report.code.pages = await phase("code-pages", () => renderCodePages(opts.dataDir, contentDirOf(opts)));
     } catch (e) {
       errors.push(`code derived: ${(e as Error).message.slice(0, 300)}`);
     }
     // links also run after a clean memory stop: catch-up runs end that way, and linking should keep pace with ingest
     const linking = execution.stop_reason === "done" || execution.stop_reason === "memory";
-    report.roadmap_links = await refreshRoadmapLinks(manifest, opts, deps.sources, errors, {
+    report.roadmap_links = await phase("roadmap-links", () => refreshRoadmapLinks(manifest, opts, deps.sources, errors, {
       quota: linking ? quotas.roadmap_links ?? 0 : 0,
       reviewQuota: linking ? quotas.coverage_reviews ?? 0 : 0, deadline: new Date(execution.deadline),
       clock: deps.clock ?? (() => new Date()), concurrency: opts.concurrency ?? cfg.concurrency ?? 1,
-    });
-    report.topic_links = await refreshTopicLinks(opts, errors, {
+    }));
+    report.topic_links = await phase("topic-links", () => refreshTopicLinks(opts, errors, {
       quota: linking ? quotas.topic_links ?? 0 : 0, deadline: new Date(execution.deadline),
       clock: deps.clock ?? (() => new Date()), concurrency: opts.concurrency ?? cfg.concurrency ?? 1,
-    });
+    }));
     // after the linking, so a link made this run can be reviewed in the same run rather than waiting a night
-    report.topic_reviews = await refreshTopicReviews(opts, errors, {
+    report.topic_reviews = await phase("topic-reviews", () => refreshTopicReviews(opts, errors, {
       quota: linking ? quotas.topic_reviews ?? 0 : 0, deadline: new Date(execution.deadline),
       clock: deps.clock ?? (() => new Date()), concurrency: opts.concurrency ?? cfg.concurrency ?? 1,
+    }));
+    await phase("indexes", () => {
+      renderVideoIndex(contentDirOf(opts));
+      renderPostIndex(contentDirOf(opts));
+      renderFeatureIndex(contentDirOf(opts), opts.dataDir);
     });
-    renderVideoIndex(contentDirOf(opts));
-    renderPostIndex(contentDirOf(opts));
-    renderFeatureIndex(contentDirOf(opts), opts.dataDir);
-    report.hubs = await refreshTopics(deps.sources, manifest, mirrorsDir, opts, errors, {
-      quota: report.execution.stop_reason === "done" ? quotas.hub_refresh ?? 0 : 0, deadline: new Date(execution.deadline), clock: deps.clock ?? (() => new Date()),
+    report.hubs = await phase("hubs", () => refreshTopics(deps.sources, manifest, mirrorsDir, opts, errors, {
+      quota: execution.stop_reason === "done" ? quotas.hub_refresh ?? 0 : 0, deadline: new Date(execution.deadline), clock: deps.clock ?? (() => new Date()),
       concurrency: opts.concurrency ?? cfg.concurrency ?? 1,
-      reviewQuota: report.execution.stop_reason === "done" ? Math.max(0, (quotas.opus_reviews ?? 0) - (execution.quota_charged.opus_reviews ?? 0)) : 0,
-    });
+      reviewQuota: execution.stop_reason === "done" ? Math.max(0, (quotas.opus_reviews ?? 0) - (execution.quota_charged.opus_reviews ?? 0)) : 0,
+    }));
     try {
       const order = loadConfig<{ narrative_order: string[] }>("versions").narrative_order;
       renderDigests({ items: manifest.list(), dataDir: opts.dataDir, contentDir: contentDirOf(opts), currentMajor: order[0] }, now);
     } catch (e) { errors.push(`digest: ${(e as Error).message.slice(0, 200)}`); }
     try { renderSourcesAndCoverage(contentDirOf(opts), opts.dataDir, now); } catch (e) { errors.push(`sources: ${(e as Error).message.slice(0, 200)}`); }
-    try { renderSearchIndex(contentDirOf(opts), opts.dataDir); } catch (e) { errors.push(`search index: ${(e as Error).message.slice(0, 200)}`); }
-    try { renderObjectsIndex(contentDirOf(opts), opts.dataDir); } catch (e) { errors.push(`objects index: ${(e as Error).message.slice(0, 200)}`); }
-    try { renderGraph(contentDirOf(opts), opts.dataDir, ""); } catch (e) { errors.push(`graph: ${(e as Error).message.slice(0, 200)}`); }
+    await phase("search-index", async () => { try { renderSearchIndex(contentDirOf(opts), opts.dataDir); } catch (e) { errors.push(`search index: ${(e as Error).message.slice(0, 200)}`); } });
+    await phase("objects-index", async () => { try { renderObjectsIndex(contentDirOf(opts), opts.dataDir); } catch (e) { errors.push(`objects index: ${(e as Error).message.slice(0, 200)}`); } });
+    await phase("graph", async () => { try { renderGraph(contentDirOf(opts), opts.dataDir, ""); } catch (e) { errors.push(`graph: ${(e as Error).message.slice(0, 200)}`); } });
     errors.push(...execution.errors);
     report.plan = {
       quotas, work: plan.work.length, executed: execution.items_touched, skips: plan.skips.length, quota_use: plan.quota_use,

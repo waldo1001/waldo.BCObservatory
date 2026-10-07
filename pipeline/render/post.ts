@@ -2,6 +2,12 @@
  * Blog post pages (PLAN M3, D34), deterministic from the extraction: content/posts/<source>/<file>.md +
  * content/posts/llms.txt. Derived only (D08): summary and key points in our words, at most 3 verbatim quotes under
  * 25 words, objects as named, a link to the post. Full text never appears, also not for opted-in sources (yet).
+ *
+ * The page is the artifact check:leak scans, so the page is what the repeat guard checks (D55). The extract-time
+ * guard (D51) checks the serialized extraction, and the two orders differ: on the page the post's own title sits
+ * directly above the summary, so a run can span that seam and span no seam in the JSON. A page that repeats 25+
+ * words of the post is scrubbed and re-rendered, and if it still repeats it is not written at all: one post goes
+ * missing instead of the nightly dying on the leak gate with everything it did that night uncommitted.
  */
 
 import { join, relative, resolve } from "node:path";
@@ -13,7 +19,8 @@ import { validateOrThrow } from "../lib/schema.js";
 import { sha256 } from "../lib/text.js";
 import type { StageContext } from "../orchestrator/execute.js";
 import { postExtractionPath, PROMPT_VERSION, STAGE, type PostExtraction } from "../extract/post.js";
-import { postKey } from "../fetch/post.js";
+import { postKey, postRawPath } from "../fetch/post.js";
+import { repeatChecker, scrubRepeats } from "../validate/leak.js";
 import { PIPELINE_VERSION } from "../version.js";
 
 const cell = (s: string) => s.replace(/\|/g, "\\|").replace(/\s+/g, " ").trim();
@@ -38,8 +45,11 @@ export function renderPostPage(item: ManifestItem, x: PostExtraction, src: PostS
   };
   validateOrThrow("frontmatter.post", fm, `post page ${pk}`);
   const date = item.published_at?.slice(0, 10) ?? "undated";
-  const lines = [`# ${item.title}`, "", `> ${x.summary}`, "",
-    `[Read the post](${item.url}) · ${src.name}${src.author?.name ? ` (${src.author.name}${src.author.mvp ? ", MVP" : ""})` : ""} · ${date} · ${x.words} words · tier ${item.tier} · **unreviewed** (machine-generated)`, ""];
+  // the byline sits between the title and the summary so the post's own title is never word-adjacent to our
+  // summary: that seam was a 25-word run of the post that no single field contained (D55)
+  const lines = [`# ${item.title}`, "",
+    `[Read the post](${item.url}) · ${src.name}${src.author?.name ? ` (${src.author.name}${src.author.mvp ? ", MVP" : ""})` : ""} · ${date} · ${x.words} words · tier ${item.tier} · **unreviewed** (machine-generated)`, "",
+    `> ${x.summary}`, ""];
   if (x.key_points.length) lines.push("## Key points", "", ...x.key_points.map((k) => `- ${k}`), "");
   if (x.quotes.length) lines.push("## Quotes", "", ...x.quotes.map((q) => `- "${q.text}" (${q.why_it_matters})`), "");
   if (x.objects.length) lines.push("## AL objects mentioned", "", "As named in the post; not yet joined to the code pillar.", "", ...x.objects.map((o) => `- ${o.type} "${cell(o.name)}"`), "");
@@ -48,12 +58,31 @@ export function renderPostPage(item: ManifestItem, x: PostExtraction, src: PostS
   return `---\n${toYaml(fm, { lineWidth: 0, version: "1.1" })}---\n\n${lines.join("\n").replace(/\n{3,}/g, "\n\n").trim()}\n`;
 }
 
+/**
+ * The page, with the extraction scrubbed if the first render repeats the post. Returns null when even the scrubbed
+ * page repeats: the raw text is in the vault, so this runs wherever the vault is (the nightly), and is skipped when
+ * it is not or when the source allows full text.
+ */
+export function policyCheckedPage(item: ManifestItem, x: PostExtraction, src: PostSourceInfo, now: Date): string | null {
+  const page = renderPostPage(item, x, src, now);
+  const rawPath = postRawPath(item);
+  if (src.full_text || !exists(rawPath)) return page;
+  const check = repeatChecker(readText(rawPath));
+  if (!check(page)) return page;
+  const s = scrubRepeats(x, check);
+  const again = renderPostPage(item, { ...s.value, trimmed_for_policy: s.trimmed }, src, now);
+  return check(again) ? null : again;
+}
+
 export function postPublished(sources: Map<string, PostSourceInfo>) {
   return async (item: ManifestItem, ctx: Pick<StageContext, "dataDir" | "contentDir" | "now">) => {
     const p = postExtractionPath(ctx.dataDir, item);
     if (!exists(p)) throw new Error(`post extraction missing: ${p}`);
-    const page = renderPostPage(item, readJson<PostExtraction>(p), sources.get(item.source) ?? { name: item.source }, ctx.now());
+    const page = policyCheckedPage(item, readJson<PostExtraction>(p), sources.get(item.source) ?? { name: item.source }, ctx.now());
     const path = resolve(ctx.contentDir, "posts", `${postPageKey(item)}.md`);
+    // like the extract-time guard (D51), the item is skipped, not failed: nothing to retry, the post simply cannot
+    // be summarised without repeating itself. Any older page is removed, or check:leak would still find it.
+    if (!page) { removeIfExists(path); return { skip: "leak", data: { stage: "published" } }; }
     if (!exists(path) || stable(readText(path)) !== stable(page)) writeText(path, page);
     return { output_hash: sha256(stable(page)), data: { path: `content/posts/${postPageKey(item)}.md` } };
   };

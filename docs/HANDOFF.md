@@ -113,6 +113,11 @@ Deliberate deviations from PLAN, all small:
   into 20,744 pages, `is:global` styles on the three components whose scoped `data-astro-cid-*` attributes cost
   10-31% of a page, and the version lens split into one page per transition behind a 15 KB index. 364 MB of real
   bytes, 18,067 pages, 17 s build.
+- ⚠️ The 2026-10-07 nightly (run 37547681311) failed: OOM, restart, then the leak gate blocked the recovery commit.
+  Nothing leaked to main; the gate did its job. The leak is fixed (D55) and the post-loop phases now log heap, so
+  the next OOM names its phase. The OOM itself is NOT diagnosed: it is somewhere after the item loop, and
+  loadObjectWorld, renderCodePages, refreshCodeDerived and the topic-link planning were all measured clean.
+  Read `phase ...` lines in the next run's log before looking anywhere else.
 - Topic links (D43): videos and posts link to topic hubs, 40 calls a night (all of them during catch-up);
   `npm run link:topics -- --videos N --posts N` samples on a temp copy. Opus reviews them (D54, quota
   `topic_reviews` 15): `npm run review:topics -- --data <dir>` reviews a sample the linker wrote and prints every

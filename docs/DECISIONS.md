@@ -353,3 +353,20 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   the same 38 verdicts. Quota `topic_reviews` 15 a night. Also fixed: `topic_links` was never in `LLM_QUOTAS`, so
   since D43 the guard neither scaled it nor stopped it when usage ran high; both link quotas are in it now, and
   `facts_only` zeroes the reviews, not the matchers.
+- **D55 A post page is checked where check:leak reads it, and the run says where its memory goes.** The nightly of
+  2026-10-07 died twice over: the heap ran out, the wrapper restarted it as designed, and then the recovery commit
+  hit the leak gate on `content/posts/bertverbeek-nl/1252.md` — 25 consecutive words of the post on the page. The
+  D51 guard had run (the source is not `full_text`) and found nothing, because it checks `JSON.stringify` of the
+  extraction and the scanner checks the rendered page, and the two put the fields in a different order: on the page
+  the post's own title sat directly above our summary, so the run spanned that seam and spanned no seam in the JSON,
+  and no single field contained it. Two changes. (a) The byline moves between the title and the summary, so the
+  post's own words are never adjacent to ours — a structural fix that costs nothing and rewrites every post page
+  once. (b) `policyCheckedPage` checks the page itself, the bytes the scanner will read: a page that repeats is
+  scrubbed and re-rendered, and if it still repeats it is not written and the item is skipped (`skip: "leak"`, like
+  D51) with any older copy removed. One post goes missing instead of the nightly dying with a night's work
+  uncommitted. The extract-time guard stays as the cheap early filter.
+  Also: the post-loop phases log heap, rss and duration (`phase <name>: ...`). Both OOMs happened after the last
+  checkpoint, which is where the run had no instrumentation at all: 133 MB at the checkpoint, 8 GB six minutes
+  later, nothing in between. Probing the obvious suspects locally cleared them — `loadObjectWorld` 184 MB,
+  `renderCodePages` 501 MB, a full `refreshCodeDerived` recompute 30 MB, the topic linker's planning 39 MB — so the
+  next run has to name the phase rather than be guessed at.
