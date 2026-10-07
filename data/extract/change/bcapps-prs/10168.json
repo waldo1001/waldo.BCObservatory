@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/10168",
+  "number": 10168,
+  "title": "[APAC] Keep vendor ACY on purchase invoice payables entry",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "The posting engine in APAC regions now correctly preserves the vendor-calculated additional reporting currency on payables entries, preventing unbalanced ACY amounts and spurious residual entries when posting purchase invoices with blank currencies and non-zero vendor exchange rates.",
+  "key_points": [
+    "Vendor-calculated additional currency amount (ACY) is now retained in the balancing payables entry instead of being replaced with zero",
+    "Source currency amount is calculated independently from LCY rather than reusing the ACY value",
+    "Fixes unbalanced ACY amounts that previously created residual entries in APAC preview posting scenarios",
+    "Change is isolated to APAC layer and does not affect W1 behavior or existing data structures",
+    "New test validates correct ACY handling for purchase invoices with vendor exchange rates"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "quote": "The posting therefore left the full ACY amount unbalanced and created a separate residual entry.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00425,
+    "changes_in_call": 1
+  }
+}

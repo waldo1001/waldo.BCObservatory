@@ -6,10 +6,35 @@
   "title": "[Extensibility Request] issue 29901: expose item application entry before find",
   "url": "https://github.com/microsoft/BCApps/pull/10165",
   "published_at": "2026-08-16T21:54:54Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:10:21.233Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 2,
+      "objects": 1,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-10-07T13:10:26.229Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.003502
+    },
+    "linked": {
+      "at": "2026-10-07T13:10:26.433Z",
+      "objects": 1,
+      "unjoined": 1,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:10:26.447Z",
+      "path": "content/changes/bcapps/10165.md"
     }
   },
   "input_hash": "20e89cfe207cae36af3268c9f40803b9f4a93300:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "extensibility request issue 29901 expose item application entry before find"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f87369f6b6c3e65a5a26401c77d2a015326c8dc350b8a9b7353b66d4d3ec7d0c"
 }

@@ -6,7 +6,7 @@
   "title": "Handling high charts over 5k points added",
   "url": "https://github.com/microsoft/BCApps/pull/9908",
   "published_at": "2026-08-14T15:23:26Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -29,5 +29,8 @@
     ],
     "community_contribution": false,
     "title_key": "handling high charts over 5k points added"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T13:10:29.572Z",
+  "retry_after": null
 }

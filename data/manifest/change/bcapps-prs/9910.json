@@ -6,10 +6,35 @@
   "title": "[SOA] Move attachment processing to direct model reading",
   "url": "https://github.com/microsoft/BCApps/pull/9910",
   "published_at": "2026-08-15T04:09:46Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:10:25.487Z",
+      "change_class": "code",
+      "files": 20,
+      "al": 8,
+      "objects": 8,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:10:34.451Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.00531
+    },
+    "linked": {
+      "at": "2026-10-07T13:10:34.694Z",
+      "objects": 8,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:10:34.701Z",
+      "path": "content/changes/bcapps/9910.md"
     }
   },
   "input_hash": "fc58541857ac2b88a01a9eebe01b63bf21e30b22:c1",
@@ -31,5 +56,8 @@
     ],
     "community_contribution": false,
     "title_key": "soa move attachment processing to direct model reading"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "46d69bf09db153f5a12da6dd3d064cff81a1a715fd9ce515050ca6306baf82f3"
 }

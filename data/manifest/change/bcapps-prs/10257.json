@@ -6,7 +6,7 @@
   "title": "Bug 646907: Disable App test for Composite Layouts due to platform changes.",
   "url": "https://github.com/microsoft/BCApps/pull/10257",
   "published_at": "2026-08-14T22:16:58Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -29,5 +29,8 @@
     ],
     "community_contribution": false,
     "title_key": "bug 646907 disable app test for composite layouts due to platform changes"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T13:10:26.454Z",
+  "retry_after": null
 }

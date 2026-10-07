@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/9937",
+  "number": 9937,
+  "title": "Fix error when selecting item as the line type in German language ",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sales"
+  ],
+  "summary": "Fixed an error that occurred when selecting an item as the line type in German language versions of Business Central on blanket sales order forms.",
+  "key_points": [
+    "Error in German language blanket sales order line type selection has been corrected",
+    "Changes applied across multiple localization layers (W1, CH, NA, NO)",
+    "Test case added to validate the option lookup buffer behavior",
+    "Issue tracked as AB#644921 requiring backport to version 28.x"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003197,
+    "changes_in_call": 1
+  }
+}

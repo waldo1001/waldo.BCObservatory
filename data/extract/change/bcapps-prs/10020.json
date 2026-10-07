@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10020",
+  "number": 10020,
+  "title": "[Master] - Bug 641894: [Expense Agent] [Rules] Mileage expense should not validate require receipt number rule",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Mileage expenses in Expense Agent no longer incorrectly trigger the receipt number mandatory validation rule, since mileage never has receipts.",
+  "key_points": [
+    "Mileage expenses are now excluded from the require receipt number validation",
+    "The fix applies to both initial expense and expense report line validation",
+    "Validation logic now checks expense type before applying the rule",
+    "Tests added to verify mileage expenses bypass receipt number checks",
+    "Non-mileage expenses continue to enforce receipt number requirements when enabled"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "copilot"
+  ],
+  "quote": "Mileage expense should not validate require receipt number rule",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003426,
+    "changes_in_call": 1
+  }
+}

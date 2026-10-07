@@ -6,7 +6,7 @@
   "title": "[WHT]-Withholding Tax is not deducted from Expense Report lines based on the Expense Category during posting",
   "url": "https://github.com/microsoft/BCApps/pull/9973",
   "published_at": "2026-08-17T10:47:12Z",
-  "state": "extracted",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -25,6 +25,16 @@
       "kind": "fix",
       "behavior": true,
       "cost_usd": 0.004867
+    },
+    "linked": {
+      "at": "2026-10-07T13:10:16.671Z",
+      "objects": 19,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:10:16.677Z",
+      "path": "content/changes/bcapps/9973.md"
     }
   },
   "input_hash": "782c296458f714846fd965267e85840c0fbb263b:c1",
@@ -51,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "962c39d7920ed029329b87d27f2f3b7b8751a2ec76d09413a3d1d6c134f8f712"
+  "output_hash": "a6d65e764b9056376d212a8d361eec5bbb7946048bbe51c9740ba26aa018596e"
 }

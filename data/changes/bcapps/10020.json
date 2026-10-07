@@ -1,0 +1,90 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10020,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10020",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-14T17:53:24Z",
+  "merge_commit_sha": "5ccacce56fff458275dbe36914a6c5ccdd4b124d",
+  "author": "v-rohangarg20",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "ExpenseManagement",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "[Master] - Bug 641894: [Expense Agent] [Rules] Mileage expense should not validate require receipt number rule",
+  "body_hash": "0eb9269fe1908fc5ce0e07ee6d6fac9e4b3dbf3f52ba5e709cad8cefbe535c66",
+  "fixes_issues": [],
+  "work_items": [
+    641894
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/MasterData/Pages/ExpenseRuleCard.Page.al",
+      "status": "modified",
+      "additions": 23,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/MasterData/Tables/ExpenseRuleHeader.Table.al",
+      "status": "modified",
+      "additions": 40,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/test/src/ExpenseRuleTest.Codeunit.al",
+      "status": "modified",
+      "additions": 158,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 221,
+    "deletions": 0,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/MasterData/Pages/ExpenseRuleCard.Page.al",
+        "status": "modified",
+        "key": "page/6901",
+        "type": "page",
+        "id": 6901,
+        "name": "Expense Rule Card",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "page/6901"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/MasterData/Tables/ExpenseRuleHeader.Table.al",
+        "status": "modified",
+        "key": "table/6927",
+        "type": "table",
+        "id": 6927,
+        "name": "Expense Rule Header",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "table/6927"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "ExpenseAgent"
+  ]
+}

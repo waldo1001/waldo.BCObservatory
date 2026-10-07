@@ -6,10 +6,35 @@
   "title": "Production Definition Wizard - Implementation ",
   "url": "https://github.com/microsoft/BCApps/pull/9067",
   "published_at": "2026-08-16T22:42:47Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:10:20.312Z",
+      "change_class": "code",
+      "files": 100,
+      "al": 85,
+      "objects": 65,
+      "unjoined": 20
+    },
+    "extracted": {
+      "at": "2026-10-07T13:10:26.701Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.014799
+    },
+    "linked": {
+      "at": "2026-10-07T13:10:26.886Z",
+      "objects": 65,
+      "unjoined": 20,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:10:26.897Z",
+      "path": "content/changes/bcapps/9067.md"
     }
   },
   "input_hash": "92907ff981ce529c1e47fa1150c1aed8dd0d3506:c1",
@@ -31,5 +56,8 @@
     ],
     "community_contribution": true,
     "title_key": "production definition wizard implementation"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0563a57c9d26311c20bc8d5c8964fefcc78bc4739ab10139aa354797a7d0efd9"
 }

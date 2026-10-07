@@ -6,10 +6,18 @@
   "title": "Extract invoice date into Invoice Date field and recover due date fro…",
   "url": "https://github.com/microsoft/BCApps/pull/9751",
   "published_at": "2026-08-14T18:38:51Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:10:27.634Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
     }
   },
   "input_hash": "cff6c3a9d29756fed279b7e2062f0125be7f56dc:c1",
@@ -29,5 +37,8 @@
     ],
     "community_contribution": false,
     "title_key": "extract invoice date into invoice date field and recover due date fro"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ec22ab4ec817f1aa01e9629c78b7b31239cb8292f1595aa956f21745238623c2"
 }

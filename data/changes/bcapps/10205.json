@@ -1,0 +1,132 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10205,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10205",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-17T08:52:47Z",
+  "merge_commit_sha": "0f8288ec3b8ffe5bacbb949c50002d7013279665",
+  "author": "martinsrui-msft",
+  "author_type": "User",
+  "labels": [
+    "AL: System Application",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "Deprecate Text Completion API in AI SDK (work item 621038)",
+  "body_hash": "1236204ec339f73065cb6d28c1ff6deff1bb42f64dabd427157d43796e82e869",
+  "fixes_issues": [],
+  "work_items": [
+    620033
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/System Application/App/AI/src/Azure OpenAI/AzureOpenAI.Codeunit.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/AI/src/Azure OpenAI/AzureOpenAIImpl.Codeunit.al",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/AI/src/Azure OpenAI/Text Completion/AOAITextCompletionParams.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/AI/src/Azure OpenAI/Text Completion/AOAITextCompletionParamsImpl.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/Partner Test/AI/src/AzureOpenAITestPartner.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/System Application/Test/AI/src/AzureOpenAITest.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 6,
+    "additions": 48,
+    "deletions": 3,
+    "al": 4
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/System Application/App/AI/src/Azure OpenAI/AzureOpenAI.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/7771",
+        "type": "codeunit",
+        "id": 7771,
+        "name": "Azure OpenAI",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "codeunit/7771"
+      },
+      {
+        "path": "src/System Application/App/AI/src/Azure OpenAI/AzureOpenAIImpl.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/7772",
+        "type": "codeunit",
+        "id": 7772,
+        "name": "Azure OpenAI Impl",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "codeunit/7772"
+      },
+      {
+        "path": "src/System Application/App/AI/src/Azure OpenAI/Text Completion/AOAITextCompletionParams.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/7765",
+        "type": "codeunit",
+        "id": 7765,
+        "name": "AOAI Text Completion Params",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "codeunit/7765"
+      },
+      {
+        "path": "src/System Application/App/AI/src/Azure OpenAI/Text Completion/AOAITextCompletionParamsImpl.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/7766",
+        "type": "codeunit",
+        "id": 7766,
+        "name": "AOAI TextCompletionParams Impl",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "codeunit/7766"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "copilot"
+  ],
+  "apps": [
+    "System Application"
+  ]
+}

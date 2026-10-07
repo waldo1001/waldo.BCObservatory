@@ -1,0 +1,115 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10136,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10136",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-17T08:29:01Z",
+  "merge_commit_sha": "d1bac12f600374184c5067911b325c1a1b544ff4",
+  "author": "dcenic",
+  "author_type": "User",
+  "labels": [
+    "Ownership: Needs Review",
+    "Team: Other"
+  ],
+  "community_contribution": false,
+  "title": "[CH][SEPA CT] Export requires both IBAN and Clearing No. for domestic payments and refunds",
+  "body_hash": "f51e8dcb0294d8a174dbe6563683b4fe2528d22adbecd03ad3bb7b548cdddc35",
+  "fixes_issues": [],
+  "work_items": [
+    646497
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/CH/BaseApp/Bank/Payment/PaymentExportData.Table.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Local/Bank/Payment/CHMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 23,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Purchases/Vendor/VendorBankAccount.Table.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/Tests/Local/SwissSEPACT09Export.Codeunit.al",
+      "status": "modified",
+      "additions": 95,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/CH/Tests/Local/SwissSEPACTExport.Codeunit.al",
+      "status": "modified",
+      "additions": 95,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 5,
+    "additions": 224,
+    "deletions": 2,
+    "al": 3
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/CH/BaseApp/Bank/Payment/PaymentExportData.Table.al",
+        "status": "modified",
+        "key": "table/1226",
+        "type": "table",
+        "id": 1226,
+        "name": "Payment Export Data",
+        "app": "Base Application",
+        "cc": "ch",
+        "page": "table/1226"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Local/Bank/Payment/CHMgt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/11503",
+        "type": "codeunit",
+        "id": 11503,
+        "name": "CHMgt",
+        "app": "Base Application",
+        "cc": "ch",
+        "page": "codeunit/11503-ch"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Purchases/Vendor/VendorBankAccount.Table.al",
+        "status": "modified",
+        "key": "table/288",
+        "type": "table",
+        "id": 288,
+        "name": "Vendor Bank Account",
+        "app": "Base Application",
+        "cc": "ch",
+        "page": "table/288"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "finance",
+    "purchasing"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

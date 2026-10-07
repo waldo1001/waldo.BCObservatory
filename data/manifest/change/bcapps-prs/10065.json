@@ -6,7 +6,7 @@
   "title": "[Quality Management] Quality Inspection User assignment fixes",
   "url": "https://github.com/microsoft/BCApps/pull/10065",
   "published_at": "2026-08-17T10:46:56Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -18,6 +18,23 @@
       "al": 2,
       "objects": 2,
       "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:10:16.679Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003233
+    },
+    "linked": {
+      "at": "2026-10-07T13:10:16.826Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:10:16.831Z",
+      "path": "content/changes/bcapps/10065.md"
     }
   },
   "input_hash": "f86c5eef28b8770ae2e02970d1d0bec607cbb71b:c1",
@@ -40,5 +57,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "54cd3f1331abc748203867a57fba171d1b4ebba7fca6ebf67a8179bf46623bb1"
+  "output_hash": "355a4e11372095648de26064ca7cb55d19e01055a984d3c7023db35980535ab8"
 }

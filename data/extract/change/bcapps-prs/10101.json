@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/10101",
+  "number": 10101,
+  "title": "[Master] [Expense Agent] Bug 641393 [AT] Recognize International Standard Code 1A as mileage UOM",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "The mileage unit of measure filter now recognizes the Austrian 'Meilen' unit with International Standard Code 1A, allowing it to appear in the Default Mileage UOM selector in Expense Agent setup.",
+  "key_points": [
+    "Added International Standard Code 1A to the mileage UOM filter",
+    "Fixes issue where Austrian Miles unit was not recognized in Expense Agent",
+    "Affects both Expense Agent Setup page and Setup Wizard lookups",
+    "Austrian 'Meilen' unit now displays correctly in Distance unit selectors"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "copilot"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003433,
+    "changes_in_call": 1
+  }
+}

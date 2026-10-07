@@ -1,0 +1,89 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9751,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9751",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-14T18:38:51Z",
+  "merge_commit_sha": "cff6c3a9d29756fed279b7e2062f0125be7f56dc",
+  "author": "Explorer986",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "Extract invoice date into Invoice Date field and recover due date fro…",
+  "body_hash": "db89f4efd190ed8b269b349dedb5a9a8bd6921f2662efae51e675dcb0f98a511",
+  "fixes_issues": [],
+  "work_items": [
+    642335
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/EDocument/App/.resources/Prompts/EDocMLLMExtraction-SystemPrompt.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "docs"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/Import/StructureReceivedEDocument/EDocMLLMSchemaHelper.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/Import/StructureReceivedEDocument/EDocumentADIHandler.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 3,
+    "deletions": 0,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/Import/StructureReceivedEDocument/EDocMLLMSchemaHelper.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6232",
+        "type": "codeunit",
+        "id": 6232,
+        "name": "E-Doc. MLLM Schema Helper",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "codeunit/6232"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/Import/StructureReceivedEDocument/EDocumentADIHandler.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6174",
+        "type": "codeunit",
+        "id": 6174,
+        "name": "E-Document ADI Handler",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "codeunit/6174"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "integration"
+  ],
+  "apps": [
+    "EDocument"
+  ]
+}

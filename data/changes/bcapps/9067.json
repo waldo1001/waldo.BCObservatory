@@ -1,0 +1,1571 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9067,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9067",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-16T22:42:47Z",
+  "merge_commit_sha": "92907ff981ce529c1e47fa1150c1aed8dd0d3506",
+  "author": "stevengrossGOB",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "From Fork",
+    "Subcontracting",
+    "Team: SCM"
+  ],
+  "community_contribution": true,
+  "title": "Production Definition Wizard - Implementation ",
+  "body_hash": "32e604b0998928d0f52415f83fadae6672e02039e5edd0187ce46b4737250eb3",
+  "fixes_issues": [],
+  "work_items": [
+    576196,
+    618497
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/APAC/BaseApp/Finance/GeneralLedger/Preview/PostingPreviewEventHandler.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Foundation/Reporting/ReportSelectionMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Purchases/Payables/VendorLedgerEntries.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Purchases/Vendor/Vendor.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Purchases/Vendor/VendorCard.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/OtherCapabilities/Upgrade/UpgradeTagDefinitions.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Purchases/Vendor/Vendor.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Purchases/Vendor/VendorCard.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Finance/GeneralLedger/Reversal/GenJnlPostReverse.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Purchases/Vendor/Vendor.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Purchases/Vendor/VendorCard.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/DACH/BaseApp/Purchases/Vendor/Vendor.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/DACH/BaseApp/Purchases/Vendor/VendorCard.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Purchases/Payables/VendorLedgerEntries.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Purchases/Vendor/Vendor.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Purchases/Vendor/VendorCard.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Purchases/Vendor/Vendor.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Purchases/Vendor/VendorCard.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/Purchases/Vendor/Vendor.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/Purchases/Vendor/VendorCard.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/Purchases/Posting/PurchPost.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/Purchases/Vendor/Vendor.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/Purchases/Vendor/VendorCard.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IS/BaseApp/Purchases/Vendor/VendorCard.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Finance/GeneralLedger/Reversal/GenJnlPostReverse.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Inventory/Transfer/TransferHeader.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Manufacturing/Document/ProdOrderComponent.Table.al",
+      "status": "modified",
+      "additions": 30,
+      "deletions": 9,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Manufacturing/Document/ProdOrderRoutingLine.Table.al",
+      "status": "modified",
+      "additions": 39,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Manufacturing/Routing/RoutingLine.Table.al",
+      "status": "modified",
+      "additions": 26,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Manufacturing/Setup/ManufacturingSetup.Page.al",
+      "status": "modified",
+      "additions": 70,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Manufacturing/Setup/ManufacturingSetup.Table.al",
+      "status": "modified",
+      "additions": 78,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/OtherCapabilities/Upgrade/UpgradeTagDefinitions.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Purchases/Payables/VendorLedgerEntries.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Purchases/Vendor/Vendor.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Purchases/Vendor/VendorCard.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Foundation/Reporting/ReportSelectionMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Purchases/Payables/VendorLedgerEntries.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Purchases/Vendor/Vendor.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Purchases/Vendor/VendorCard.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Purchases/Vendor/Vendor.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Purchases/Vendor/VendorCard.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Purchases/Vendor/Vendor.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Purchases/Vendor/VendorCard.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Finance/GeneralLedger/Preview/PostingPreviewEventHandler.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Finance/GeneralLedger/Reversal/GenJnlPostReverse.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Foundation/Reporting/ReportSelectionMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/OtherCapabilities/Upgrade/UpgradeTagDefinitions.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Purchases/Payables/VendorLedgerEntries.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Purchases/Vendor/Vendor.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Purchases/Vendor/VendorCard.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Document/CreateOrderFromSales.Page.al",
+      "status": "modified",
+      "additions": 42,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Document/ProdOrderComponent.Table.al",
+      "status": "modified",
+      "additions": 29,
+      "deletions": 8,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Document/ProdOrderLine.Table.al",
+      "status": "modified",
+      "additions": 32,
+      "deletions": 10,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Document/ProdOrderLineReserve.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Document/ProdOrderRoutingLine.Table.al",
+      "status": "modified",
+      "additions": 39,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Document/ProductionOrder.Table.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Inventory/Item/MfgItemCard.PageExt.al",
+      "status": "modified",
+      "additions": 19,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Inventory/Item/MfgItemList.PageExt.al",
+      "status": "modified",
+      "additions": 19,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Inventory/Location/MfgStockkeepingUnitCard.PageExt.al",
+      "status": "modified",
+      "additions": 19,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Inventory/Location/MfgStockkeepingUnitList.PageExt.al",
+      "status": "modified",
+      "additions": 19,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/ProductionBOM/ProductionBOMLine.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/ProductionBOM/ProductionBOMLines.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Purchases/Document/MfgPurchaseLine.TableExt.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Routing/RoutingLine.Table.al",
+      "status": "modified",
+      "additions": 25,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Sales/Document/MfgSalesOrderPlanning.PageExt.al",
+      "status": "modified",
+      "additions": 38,
+      "deletions": 24,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Setup/ManufacturingSetup.Page.al",
+      "status": "modified",
+      "additions": 70,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Setup/ManufacturingSetup.Table.al",
+      "status": "modified",
+      "additions": 78,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Upgrade/MfgUpgradeBaseApp.Codeunit.al",
+      "status": "modified",
+      "additions": 28,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Wizard/ProdDefProdOrdLineBind.Codeunit.al",
+      "status": "added",
+      "additions": 80,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Wizard/ProdDefSourceInitializer.Codeunit.al",
+      "status": "added",
+      "additions": 99,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Wizard/ProdDefinitionDisplay.Enum.al",
+      "status": "added",
+      "additions": 24,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Wizard/ProdDefinitionMode.Enum.al",
+      "status": "added",
+      "additions": 19,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Wizard/ProdDefinitionSaveTarget.Enum.al",
+      "status": "added",
+      "additions": 24,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Wizard/ProdDefinitionScenario.Enum.al",
+      "status": "added",
+      "additions": 22,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Wizard/ProdDefinitionSource.Enum.al",
+      "status": "added",
+      "additions": 32,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Wizard/ProdDefinitionTempData.Codeunit.al",
+      "status": "added",
+      "additions": 924,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Wizard/ProdDefinitionVersionMgmt.Codeunit.al",
+      "status": "added",
+      "additions": 274,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Wizard/ProdOrderDirectCreator.Codeunit.al",
+      "status": "added",
+      "additions": 281,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Wizard/ProductionDefinitionManager.Codeunit.al",
+      "status": "added",
+      "additions": 653,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Wizard/ProductionDefinitionWizard.Page.al",
+      "status": "added",
+      "additions": 782,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Wizard/TempBOMLines.Page.al",
+      "status": "added",
+      "additions": 165,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Wizard/TempProdOrdRtngList.Page.al",
+      "status": "added",
+      "additions": 341,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Wizard/TempProdOrderCompList.Page.al",
+      "status": "added",
+      "additions": 159,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Wizard/TempRoutingLines.Page.al",
+      "status": "added",
+      "additions": 191,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/OtherCapabilities/Upgrade/UpgradeTagDefinitions.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM-Manufacturing/ProductionDefinitionWizard/Libraries/ProdDefWizCheckLib.Codeunit.al",
+      "status": "added",
+      "additions": 602,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM-Manufacturing/ProductionDefinitionWizard/Libraries/ProdDefWizLibrary.Codeunit.al",
+      "status": "added",
+      "additions": 454,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM-Manufacturing/ProductionDefinitionWizard/Libraries/ProdDefWizSetupLib.Codeunit.al",
+      "status": "added",
+      "additions": 198,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM-Manufacturing/ProductionDefinitionWizard/Libraries/TempProdOrdCompListExt.PageExt.al",
+      "status": "added",
+      "additions": 29,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM-Manufacturing/ProductionDefinitionWizard/Libraries/TempProdOrdRtngListExt.PageExt.al",
+      "status": "added",
+      "additions": 30,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM-Manufacturing/ProductionDefinitionWizard/ProdDefWizBOMRtngTest.Codeunit.al",
+      "status": "added",
+      "additions": 730,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM-Manufacturing/ProductionDefinitionWizard/ProdDefWizChangeTest.Codeunit.al",
+      "status": "added",
+      "additions": 460,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM-Manufacturing/ProductionDefinitionWizard/ProdDefWizConfigTest.Codeunit.al",
+      "status": "added",
+      "additions": 532,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM-Manufacturing/ProductionDefinitionWizard/ProdDefWizGeneralTest.Codeunit.al",
+      "status": "added",
+      "additions": 393,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM-Manufacturing/ProductionDefinitionWizard/ProdDefWizItemStrTest.Codeunit.al",
+      "status": "added",
+      "additions": 215,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM-Manufacturing/ProductionDefinitionWizard/ProdDefWizSalesTest.Codeunit.al",
+      "status": "added",
+      "additions": 1648,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM-Manufacturing/ProductionDefinitionWizard/ProdDefWizSaveTest.Codeunit.al",
+      "status": "added",
+      "additions": 343,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM-Manufacturing/ProductionDefinitionWizard/ProdDefWizSourceTest.Codeunit.al",
+      "status": "added",
+      "additions": 329,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM-Manufacturing/ProductionDefinitionWizard/ProdDefWizVariantTest.Codeunit.al",
+      "status": "added",
+      "additions": 284,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM-Manufacturing/ProductionDefinitionWizard/ProdDefWizVersionTest.Codeunit.al",
+      "status": "added",
+      "additions": 835,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 100,
+    "additions": 11954,
+    "deletions": 162,
+    "al": 85
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/APAC/BaseApp/Finance/GeneralLedger/Preview/PostingPreviewEventHandler.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/20",
+        "type": "codeunit",
+        "id": 20,
+        "name": "Posting Preview Event Handler",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "codeunit/20"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Purchases/Payables/VendorLedgerEntries.Page.al",
+        "status": "modified",
+        "key": "page/29",
+        "type": "page",
+        "id": 29,
+        "name": "Vendor Ledger Entries",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "page/29"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Purchases/Vendor/Vendor.Table.al",
+        "status": "modified",
+        "key": "table/23",
+        "type": "table",
+        "id": 23,
+        "name": "Vendor",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "table/23"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/OtherCapabilities/Upgrade/UpgradeTagDefinitions.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/9998",
+        "type": "codeunit",
+        "id": 9998,
+        "name": "Upgrade Tag Definitions",
+        "app": "Base Application",
+        "cc": "be",
+        "page": "codeunit/9998"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Purchases/Vendor/Vendor.Table.al",
+        "status": "modified",
+        "key": "table/23",
+        "type": "table",
+        "id": 23,
+        "name": "Vendor",
+        "app": "Base Application",
+        "cc": "be",
+        "page": "table/23"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Finance/GeneralLedger/Reversal/GenJnlPostReverse.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/17",
+        "type": "codeunit",
+        "id": 17,
+        "name": "Gen. Jnl.-Post Reverse",
+        "app": "Base Application",
+        "cc": "ch",
+        "page": "codeunit/17"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Purchases/Vendor/Vendor.Table.al",
+        "status": "modified",
+        "key": "table/23",
+        "type": "table",
+        "id": 23,
+        "name": "Vendor",
+        "app": "Base Application",
+        "cc": "ch",
+        "page": "table/23"
+      },
+      {
+        "path": "src/Layers/DACH/BaseApp/Purchases/Vendor/Vendor.Table.al",
+        "status": "modified",
+        "key": "table/23",
+        "type": "table",
+        "id": 23,
+        "name": "Vendor",
+        "app": "Base Application",
+        "cc": "at",
+        "page": "table/23"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Purchases/Vendor/Vendor.Table.al",
+        "status": "modified",
+        "key": "table/23",
+        "type": "table",
+        "id": 23,
+        "name": "Vendor",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "table/23"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Purchases/Vendor/Vendor.Table.al",
+        "status": "modified",
+        "key": "table/23",
+        "type": "table",
+        "id": 23,
+        "name": "Vendor",
+        "app": "Base Application",
+        "cc": "fi",
+        "page": "table/23"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/Purchases/Vendor/Vendor.Table.al",
+        "status": "modified",
+        "key": "table/23",
+        "type": "table",
+        "id": 23,
+        "name": "Vendor",
+        "app": "Base Application",
+        "cc": "fr",
+        "page": "table/23"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/Purchases/Posting/PurchPost.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/90",
+        "type": "codeunit",
+        "id": 90,
+        "name": "Purch.-Post",
+        "app": "Base Application",
+        "cc": "gb",
+        "page": "codeunit/90"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/Purchases/Vendor/Vendor.Table.al",
+        "status": "modified",
+        "key": "table/23",
+        "type": "table",
+        "id": 23,
+        "name": "Vendor",
+        "app": "Base Application",
+        "cc": "gb",
+        "page": "table/23"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/Purchases/Vendor/VendorCard.Page.al",
+        "status": "modified",
+        "key": "page/26",
+        "type": "page",
+        "id": 26,
+        "name": "Vendor Card",
+        "app": "Base Application",
+        "cc": "gb",
+        "page": "page/26"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Inventory/Transfer/TransferHeader.Table.al",
+        "status": "modified",
+        "key": "table/5740",
+        "type": "table",
+        "id": 5740,
+        "name": "Transfer Header",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "table/5740"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Manufacturing/Document/ProdOrderRoutingLine.Table.al",
+        "status": "modified",
+        "key": "table/5409",
+        "type": "table",
+        "id": 5409,
+        "name": "Prod. Order Routing Line",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "table/5409"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Manufacturing/Routing/RoutingLine.Table.al",
+        "status": "modified",
+        "key": "table/99000764",
+        "type": "table",
+        "id": 99000764,
+        "name": "Routing Line",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "table/99000764"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Manufacturing/Setup/ManufacturingSetup.Table.al",
+        "status": "modified",
+        "key": "table/99000765",
+        "type": "table",
+        "id": 99000765,
+        "name": "Manufacturing Setup",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "table/99000765"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/OtherCapabilities/Upgrade/UpgradeTagDefinitions.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/9998",
+        "type": "codeunit",
+        "id": 9998,
+        "name": "Upgrade Tag Definitions",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "codeunit/9998"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Purchases/Vendor/Vendor.Table.al",
+        "status": "modified",
+        "key": "table/23",
+        "type": "table",
+        "id": 23,
+        "name": "Vendor",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "table/23"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Purchases/Vendor/Vendor.Table.al",
+        "status": "modified",
+        "key": "table/23",
+        "type": "table",
+        "id": 23,
+        "name": "Vendor",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "table/23"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Purchases/Vendor/Vendor.Table.al",
+        "status": "modified",
+        "key": "table/23",
+        "type": "table",
+        "id": 23,
+        "name": "Vendor",
+        "app": "Base Application",
+        "cc": "nl",
+        "page": "table/23"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Purchases/Vendor/Vendor.Table.al",
+        "status": "modified",
+        "key": "table/23",
+        "type": "table",
+        "id": 23,
+        "name": "Vendor",
+        "app": "Base Application",
+        "cc": "no",
+        "page": "table/23"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Finance/GeneralLedger/Preview/PostingPreviewEventHandler.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/20",
+        "type": "codeunit",
+        "id": 20,
+        "name": "Posting Preview Event Handler",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "codeunit/20"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Finance/GeneralLedger/Reversal/GenJnlPostReverse.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/17",
+        "type": "codeunit",
+        "id": 17,
+        "name": "Gen. Jnl.-Post Reverse",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "codeunit/17"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Foundation/Reporting/ReportSelectionMgt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/1901",
+        "type": "codeunit",
+        "id": 1901,
+        "name": "Report Selection Mgt.",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "codeunit/1901"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/OtherCapabilities/Upgrade/UpgradeTagDefinitions.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/9998",
+        "type": "codeunit",
+        "id": 9998,
+        "name": "Upgrade Tag Definitions",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "codeunit/9998"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Purchases/Payables/VendorLedgerEntries.Page.al",
+        "status": "modified",
+        "key": "page/29",
+        "type": "page",
+        "id": 29,
+        "name": "Vendor Ledger Entries",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "page/29"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Purchases/Vendor/Vendor.Table.al",
+        "status": "modified",
+        "key": "table/23",
+        "type": "table",
+        "id": 23,
+        "name": "Vendor",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "table/23"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Purchases/Vendor/VendorCard.Page.al",
+        "status": "modified",
+        "key": "page/26",
+        "type": "page",
+        "id": 26,
+        "name": "Vendor Card",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "page/26"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Document/CreateOrderFromSales.Page.al",
+        "status": "modified",
+        "key": "page/99000884",
+        "type": "page",
+        "id": 99000884,
+        "name": "Create Order From Sales",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/99000884"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Document/ProdOrderComponent.Table.al",
+        "status": "modified",
+        "key": "table/5407",
+        "type": "table",
+        "id": 5407,
+        "name": "Prod. Order Component",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/5407"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Document/ProdOrderLine.Table.al",
+        "status": "modified",
+        "key": "table/5406",
+        "type": "table",
+        "id": 5406,
+        "name": "Prod. Order Line",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/5406"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Document/ProdOrderLineReserve.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/99000837",
+        "type": "codeunit",
+        "id": 99000837,
+        "name": "Prod. Order Line-Reserve",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/99000837"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Document/ProdOrderRoutingLine.Table.al",
+        "status": "modified",
+        "key": "table/5409",
+        "type": "table",
+        "id": 5409,
+        "name": "Prod. Order Routing Line",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/5409"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Document/ProductionOrder.Table.al",
+        "status": "modified",
+        "key": "table/5405",
+        "type": "table",
+        "id": 5405,
+        "name": "Production Order",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/5405"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Inventory/Item/MfgItemCard.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/99000750",
+        "type": "pageextension",
+        "id": 99000750,
+        "name": "Mfg. Item Card",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "pageextension/99000750"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Inventory/Item/MfgItemList.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/99000751",
+        "type": "pageextension",
+        "id": 99000751,
+        "name": "Mfg. Item List",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "pageextension/99000751"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Inventory/Location/MfgStockkeepingUnitCard.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/99000754",
+        "type": "pageextension",
+        "id": 99000754,
+        "name": "Mfg. Stockkeeping Unit Card",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "pageextension/99000754"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Inventory/Location/MfgStockkeepingUnitList.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/99000755",
+        "type": "pageextension",
+        "id": 99000755,
+        "name": "Mfg. Stockkeeping Unit List",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "pageextension/99000755"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/ProductionBOM/ProductionBOMLine.Table.al",
+        "status": "modified",
+        "key": "table/99000772",
+        "type": "table",
+        "id": 99000772,
+        "name": "Production BOM Line",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/99000772"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/ProductionBOM/ProductionBOMLines.Page.al",
+        "status": "modified",
+        "key": "page/99000788",
+        "type": "page",
+        "id": 99000788,
+        "name": "Production BOM Lines",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/99000788"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Purchases/Document/MfgPurchaseLine.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/99000751",
+        "type": "tableextension",
+        "id": 99000751,
+        "name": "Mfg. Purchase Line",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "tableextension/99000751"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Routing/RoutingLine.Table.al",
+        "status": "modified",
+        "key": "table/99000764",
+        "type": "table",
+        "id": 99000764,
+        "name": "Routing Line",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/99000764"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Sales/Document/MfgSalesOrderPlanning.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/99000883",
+        "type": "pageextension",
+        "id": 99000883,
+        "name": "Mfg. Sales Order Planning",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "pageextension/99000883"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Setup/ManufacturingSetup.Page.al",
+        "status": "modified",
+        "key": "page/99000768",
+        "type": "page",
+        "id": 99000768,
+        "name": "Manufacturing Setup",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/99000768"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Setup/ManufacturingSetup.Table.al",
+        "status": "modified",
+        "key": "table/99000765",
+        "type": "table",
+        "id": 99000765,
+        "name": "Manufacturing Setup",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/99000765"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Upgrade/MfgUpgradeBaseApp.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/104062",
+        "type": "codeunit",
+        "id": 104062,
+        "name": "Mfg. Upgrade BaseApp",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/104062"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Wizard/ProdDefProdOrdLineBind.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/99001023",
+        "type": "codeunit",
+        "id": 99001023,
+        "name": "Prod. Def. ProdOrdLine Bind",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/99001023"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Wizard/ProdDefSourceInitializer.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/99001022",
+        "type": "codeunit",
+        "id": 99001022,
+        "name": "Prod. Def. Source Initializer",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/99001022"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Wizard/ProdDefinitionDisplay.Enum.al",
+        "status": "added",
+        "key": "enum/99001010",
+        "type": "enum",
+        "id": 99001010,
+        "name": "Prod. Definition Display",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "enum/99001010"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Wizard/ProdDefinitionMode.Enum.al",
+        "status": "added",
+        "key": "enum/99001011",
+        "type": "enum",
+        "id": 99001011,
+        "name": "Prod. Definition Mode",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "enum/99001011"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Wizard/ProdDefinitionSaveTarget.Enum.al",
+        "status": "added",
+        "key": "enum/99001031",
+        "type": "enum",
+        "id": 99001031,
+        "name": "Prod. Definition Save Target",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "enum/99001031"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Wizard/ProdDefinitionScenario.Enum.al",
+        "status": "added",
+        "key": "enum/99001028",
+        "type": "enum",
+        "id": 99001028,
+        "name": "Prod. Definition Scenario",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "enum/99001028"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Wizard/ProdDefinitionSource.Enum.al",
+        "status": "added",
+        "key": "enum/99001012",
+        "type": "enum",
+        "id": 99001012,
+        "name": "Prod. Definition Source",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "enum/99001012"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Wizard/ProdDefinitionTempData.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/99001016",
+        "type": "codeunit",
+        "id": 99001016,
+        "name": "Prod. Definition Temp Data",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/99001016"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Wizard/ProdDefinitionVersionMgmt.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/99001015",
+        "type": "codeunit",
+        "id": 99001015,
+        "name": "Prod. Definition Version Mgmt.",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/99001015"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Wizard/ProdOrderDirectCreator.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/99001018",
+        "type": "codeunit",
+        "id": 99001018,
+        "name": "Prod. Order Direct Creator",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/99001018"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Wizard/ProductionDefinitionManager.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/99001017",
+        "type": "codeunit",
+        "id": 99001017,
+        "name": "Production Definition Manager",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/99001017"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Wizard/ProductionDefinitionWizard.Page.al",
+        "status": "added",
+        "key": "page/99001021",
+        "type": "page",
+        "id": 99001021,
+        "name": "Production Definition Wizard",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/99001021"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Wizard/TempBOMLines.Page.al",
+        "status": "added",
+        "key": "page/99001029",
+        "type": "page",
+        "id": 99001029,
+        "name": "Temp BOM Lines",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/99001029"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Wizard/TempProdOrdRtngList.Page.al",
+        "status": "added",
+        "key": "page/99001020",
+        "type": "page",
+        "id": 99001020,
+        "name": "Temp Prod. Ord. Rtng List",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/99001020"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Wizard/TempProdOrderCompList.Page.al",
+        "status": "added",
+        "key": "page/99001019",
+        "type": "page",
+        "id": 99001019,
+        "name": "Temp Prod. Order Comp. List",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/99001019"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Wizard/TempRoutingLines.Page.al",
+        "status": "added",
+        "key": "page/99001030",
+        "type": "page",
+        "id": 99001030,
+        "name": "Temp Routing Lines",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/99001030"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/OtherCapabilities/Upgrade/UpgradeTagDefinitions.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/9998",
+        "type": "codeunit",
+        "id": 9998,
+        "name": "Upgrade Tag Definitions",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/9998"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Layers/APAC/BaseApp/Foundation/Reporting/ReportSelectionMgt.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Purchases/Vendor/VendorCard.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Purchases/Vendor/VendorCard.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Purchases/Vendor/VendorCard.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/DACH/BaseApp/Purchases/Vendor/VendorCard.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Purchases/Payables/VendorLedgerEntries.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Purchases/Vendor/VendorCard.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Purchases/Vendor/VendorCard.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/Purchases/Vendor/VendorCard.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IS/BaseApp/Purchases/Vendor/VendorCard.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Finance/GeneralLedger/Reversal/GenJnlPostReverse.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Manufacturing/Document/ProdOrderComponent.Table.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Manufacturing/Setup/ManufacturingSetup.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Purchases/Payables/VendorLedgerEntries.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Purchases/Vendor/VendorCard.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Foundation/Reporting/ReportSelectionMgt.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Purchases/Payables/VendorLedgerEntries.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Purchases/Vendor/VendorCard.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Purchases/Vendor/VendorCard.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Purchases/Vendor/VendorCard.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "manufacturing",
+    "purchasing",
+    "platform",
+    "finance",
+    "inventory",
+    "development",
+    "sales"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

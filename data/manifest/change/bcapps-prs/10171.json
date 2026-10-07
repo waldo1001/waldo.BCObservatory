@@ -6,10 +6,35 @@
   "title": "[Extensibility Request] issue 30110: add prepayment update events",
   "url": "https://github.com/microsoft/BCApps/pull/10171",
   "published_at": "2026-08-16T21:56:04Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:10:20.039Z",
+      "change_class": "code",
+      "files": 9,
+      "al": 9,
+      "objects": 5,
+      "unjoined": 4
+    },
+    "extracted": {
+      "at": "2026-10-07T13:10:25.093Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.003844
+    },
+    "linked": {
+      "at": "2026-10-07T13:10:25.272Z",
+      "objects": 5,
+      "unjoined": 4,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:10:25.276Z",
+      "path": "content/changes/bcapps/10171.md"
     }
   },
   "input_hash": "a75a8f4be7fc65bd493385860e597b7ae7d2204a:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "extensibility request issue 30110 add prepayment update events"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "84345d66547d9353f5e30a88cf3419d9e5620975cf87845837f83ba9574d9115"
 }

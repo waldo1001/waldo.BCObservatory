@@ -1,0 +1,64 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10174,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10174",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-16T21:53:44Z",
+  "merge_commit_sha": "a8700d1f9b0fa57a475a30b089de3662f8add467",
+  "author": "AleksandricMarko",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM",
+    "event-request"
+  ],
+  "community_contribution": false,
+  "title": "[Extensibility Request] issue 30137: allow overriding cost share application",
+  "body_hash": "016716b7d3fce8081819dbcf4b30842f7e10d66bb4bff99623e2130f1e6ae194",
+  "fixes_issues": [],
+  "work_items": [
+    639379
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Reports/CostSharesBreakdown.Report.al",
+      "status": "modified",
+      "additions": 17,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 17,
+    "deletions": 1,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Reports/CostSharesBreakdown.Report.al",
+        "status": "modified",
+        "key": "report/5848",
+        "type": "report",
+        "id": 5848,
+        "name": "Cost Shares Breakdown",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/5848"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "manufacturing"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

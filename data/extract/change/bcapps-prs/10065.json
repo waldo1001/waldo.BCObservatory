@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/10065",
+  "number": 10065,
+  "title": "[Quality Management] Quality Inspection User assignment fixes",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Quality inspection user assignment now properly validates table relations when manually selecting users and prompts for self-assignment when editing unassigned inspections.",
+  "key_points": [
+    "Fixed table relation error during manual user selection in quality inspections",
+    "Added self-assignment notification prompt for unassigned quality inspections",
+    "Improved validation logic in permission management codeunit",
+    "Enhanced test coverage for user assignment scenarios"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing"
+  ],
+  "quote": "Resolved a table relation error that occurred when manually selecting an assigned user.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003233,
+    "changes_in_call": 1
+  }
+}

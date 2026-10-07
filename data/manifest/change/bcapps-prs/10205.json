@@ -6,10 +6,35 @@
   "title": "Deprecate Text Completion API in AI SDK (work item 621038)",
   "url": "https://github.com/microsoft/BCApps/pull/10205",
   "published_at": "2026-08-17T08:52:47Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:10:17.667Z",
+      "change_class": "code",
+      "files": 6,
+      "al": 4,
+      "objects": 4,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:10:24.200Z",
+      "prompt": "extract-change@1",
+      "kind": "obsoletion",
+      "behavior": false,
+      "cost_usd": 0.004982
+    },
+    "linked": {
+      "at": "2026-10-07T13:10:24.370Z",
+      "objects": 4,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:10:24.374Z",
+      "path": "content/changes/bcapps/10205.md"
     }
   },
   "input_hash": "0f8288ec3b8ffe5bacbb949c50002d7013279665:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "deprecate text completion api in ai sdk work item 621038"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e11981bf5c31de12593da381966b0724c3f1c9a8926c4240fbaf45a35ec19add"
 }

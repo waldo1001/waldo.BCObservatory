@@ -1,0 +1,35 @@
+{
+  "item_id": "change/bcapps-prs/9910",
+  "number": 9910,
+  "title": "[SOA] Move attachment processing to direct model reading",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development",
+    "copilot"
+  ],
+  "summary": "Sales Order Agent now processes PDF and image attachments directly with GPT-4.1 mini to extract structured JSON containing customer references, item details, quantities, and dates, replacing platform-generated attachment text before relevance validation.",
+  "key_points": [
+    "Attachments are sent directly to a multimodal model to extract SOA-focused JSON with item descriptions, identifiers, quantities, and dates",
+    "Failed extractions are marked with ExtractionFailed status rather than causing message failure, allowing processing to continue",
+    "Extracted JSON is cached on the attachment using the attachment's SystemId to prevent recomputation on subsequent processing",
+    "Schema marker in content guards against reprocessing previously extracted attachments",
+    "Extraction contract is intentionally open to accommodate varying document structures and item attributes"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "copilot",
+    "sales",
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00531,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/10165",
+  "number": 10165,
+  "title": "[Extensibility Request] issue 29901: expose item application entry before find",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sales"
+  ],
+  "summary": "An event is added before retrieving a filtered item application entry in the drop shipment undo process, allowing extensions with custom fields to adjust loaded fields and avoid JIT load-field errors.",
+  "key_points": [
+    "New event fires before the item application entry is retrieved in UnApplyDropShipment",
+    "Enables extensions to adjust loaded fields on the item application entry record",
+    "Preserves standard optimization by keeping the filtered retrieval intact",
+    "Event propagated to both W1 and RU layer implementations",
+    "Resolves JIT load-field errors when extensions add fields to Item Application Entry"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales",
+    "inventory"
+  ],
+  "quote": "added an event before finding the item application entry so subscribers can adjust loaded fields",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003502,
+    "changes_in_call": 1
+  }
+}

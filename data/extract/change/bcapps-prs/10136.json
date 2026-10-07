@@ -1,0 +1,35 @@
+{
+  "item_id": "change/bcapps-prs/10136",
+  "number": 10136,
+  "title": "[CH][SEPA CT] Export requires both IBAN and Clearing No. for domestic payments and refunds",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance",
+    "purchasing"
+  ],
+  "summary": "Swiss SEPA CT export now automatically extracts the clearing number from the IBAN when not explicitly provided, ensuring both values are populated for domestic payments and refunds.",
+  "key_points": [
+    "Clears number extraction logic added to handle cases where clearing number is blank",
+    "Payment type determination now uses the extracted clearing number",
+    "MmbId in SEPA CT export file is populated with the correct clearing number",
+    "Tests added to validate the extraction behavior",
+    "No behavior change for payments where clearing number was already provided"
+  ],
+  "change_kind": "fix",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "localization",
+    "purchasing",
+    "sales"
+  ],
+  "quote": "Added the logic that extracts Clearing No. from IBAN, and using it when determining the payment type",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003671,
+    "changes_in_call": 1
+  }
+}

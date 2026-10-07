@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/10174",
+  "number": 10174,
+  "title": "[Extensibility Request] issue 30137: allow overriding cost share application",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "manufacturing"
+  ],
+  "summary": "An integration event was added to the Cost Shares Breakdown report to allow extensions to override how cost share application calculates and applies cost values to capacity and overhead amounts.",
+  "key_points": [
+    "Integration event added to ApplyShareOfCostToCostShareBuffer procedure",
+    "Enables custom costing scenarios to replace standard share calculation logic",
+    "Extracted standard share application into isolated method for override capability",
+    "Event uses IsHandled pattern for extension control"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing"
+  ],
+  "quote": "Custom costing scenarios need to control how Report 5848 applies an output entry's share of cost to capacity and overhead amounts.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003142,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "item_id": "change/bcapps-prs/10205",
+  "number": 10205,
+  "title": "Deprecate Text Completion API in AI SDK (work item 621038)",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "copilot"
+  ],
+  "summary": "The Text Completion API in the Azure OpenAI AI module is marked obsolete and guarded with conditional compilation to prepare for its removal, as Azure OpenAI has retired the davinci models.",
+  "key_points": [
+    "Four public GenerateTextCompletion methods in codeunit 7771 marked [Obsolete] and guarded with #if not CLEAN29",
+    "Text completion implementation in codeunit 7772 and related parameter objects (7765, 7766) guarded with conditional compilation",
+    "Authorization and SendRequest plumbing intentionally retained to avoid cascading compilation errors",
+    "Text completion enum value left for follow-up deprecation",
+    "Verified runtime compatibility: API continues working before CLEAN29 cleanup"
+  ],
+  "change_kind": "obsoletion",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [
+    {
+      "object": "Azure OpenAI",
+      "member": "GenerateTextCompletion",
+      "replacement": null
+    },
+    {
+      "object": "AOAI Text Completion Params",
+      "member": null,
+      "replacement": null
+    },
+    {
+      "object": "AOAI TextCompletionParams Impl",
+      "member": null,
+      "replacement": null
+    }
+  ],
+  "systems": [
+    "copilot",
+    "integration"
+  ],
+  "quote": "Text completion (davinci) models are retired by Azure OpenAI.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004982,
+    "changes_in_call": 1
+  }
+}

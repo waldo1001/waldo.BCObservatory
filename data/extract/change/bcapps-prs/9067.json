@@ -1,0 +1,38 @@
+{
+  "item_id": "change/bcapps-prs/9067",
+  "number": 9067,
+  "title": "Production Definition Wizard - Implementation ",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "manufacturing",
+    "purchasing",
+    "platform",
+    "finance",
+    "inventory",
+    "development",
+    "sales"
+  ],
+  "summary": "The Production Definition Wizard is introduced as a guided multi-step interface for configuring Bill of Materials and Routing for manufactured items, with new setup fields, temporary record handling improvements, and expanded event publishers for extensibility.",
+  "key_points": [
+    "New wizard pages and configuration fields added to Manufacturing Setup to control wizard visibility, behavior, and default values",
+    "Temporary record handling improved with IsTemporary checks in production order components and routing lines to prevent unintended database access",
+    "Event publishers expanded with new parameters and integration points like OnBeforeGetProdOrderNeeds and OnBeforeGetProdOrderLine for extension flexibility",
+    "CreateOrderFromSales page enhanced with UseProductDefinitionWizard field to allow users to opt into wizard during order creation",
+    "Manufacturing module refactored to support the new wizard-based workflow for production definition"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.014799,
+    "changes_in_call": 1
+  }
+}

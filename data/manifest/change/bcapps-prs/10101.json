@@ -6,10 +6,35 @@
   "title": "[Master] [Expense Agent] Bug 641393 [AT] Recognize International Standard Code 1A as mileage UOM",
   "url": "https://github.com/microsoft/BCApps/pull/10101",
   "published_at": "2026-08-16T06:38:16Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:10:23.859Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:10:28.460Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003433
+    },
+    "linked": {
+      "at": "2026-10-07T13:10:28.635Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:10:28.640Z",
+      "path": "content/changes/bcapps/10101.md"
     }
   },
   "input_hash": "7ecff286dd79da590f56830ee6b5fe908e2e909b:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "master expense agent bug 641393 at recognize international standard code 1a as mileage uom"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "1c35abb065fac85485437c80cb1a64c1b512cea1416aad78040a413b96d11915"
 }

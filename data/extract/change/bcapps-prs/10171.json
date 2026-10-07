@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/10171",
+  "number": 10171,
+  "title": "[Extensibility Request] issue 30110: add prepayment update events",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sales"
+  ],
+  "summary": "Sales prepayment posting now exposes two integration events that allow extensions to customize which lines are included in redistribution and modify each line before persistence without duplicating standard logic.",
+  "key_points": [
+    "Added filter-adjustment event to let extensions customize line selection for prepayment redistribution",
+    "Added before-modify event that fires before each updated sales line is persisted",
+    "Events preserve existing behavior when no subscribers are present",
+    "Changes applied to W1 base and all localization layers (APAC, BE, CH, ES, FI, IT, NA, NL)",
+    "Enables targeted hooks for prepayment adjustments without code duplication"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales",
+    "localization"
+  ],
+  "quote": "Extensions need targeted hooks to adjust which sales lines participate in prepayment redistribution and to customize each updated line without duplicating the standard procedure.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003844,
+    "changes_in_call": 1
+  }
+}
