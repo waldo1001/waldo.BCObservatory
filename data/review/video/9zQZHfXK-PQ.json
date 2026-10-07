@@ -1,0 +1,32 @@
+{
+  "video_id": "9zQZHfXK-PQ",
+  "item_id": "video/yt-mibuso/9zQZHfXK-PQ",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "The key point saying symlinks 'require' a protected main branch goes too far. The transcript only says 'you have main protected' as part of the setup.",
+    "The key point on models adds the 'Claude' brand. The transcript only says 'oppus' and 'haiku', and it also suggests Opus for the analyst.",
+    "Several features are duplicates: living artifacts and living documentation, two Copilot skills entries, spec-driven framework and approach, user story generation and decomposition, ALDC tool and AL Development Collection extension.",
+    "The feature 'GitHub Actions for CI-CD' is vague and is already covered by the SharePoint sync feature.",
+    "Some quotes add little (the 142 lines remark, the release-notes poll question, the pineapple line).",
+    "All features are correctly marked unclear. This is a community session with no release-status statements.",
+    "The summary is accurate and is kept."
+  ],
+  "input_hash": "612760347f0e1abba9208497821b95937b0b4c01f89c87b1bca64a042d609f5c",
+  "by": "opus",
+  "at": "2026-10-07T23:17:26.725Z",
+  "applied": [
+    "dropped 7 feature(s)",
+    "dropped 3 quote(s)",
+    "quote at 3555s",
+    "quote at 1902s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.342041
+  }
+}

@@ -20,12 +20,12 @@ tags:
   - document sending
 system: localization
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:16:11.827Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:16:11.945Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -33,12 +33,12 @@ generated:
   input_hash: e3d40fee2c0e6d7c24eabdb75309a75fa336d80f133b5e95f199a688c0027d9e
 evidence:
   - kind: video
-    url: https://www.youtube.com/watch?v=tCmDKBszA1w&t=765s
-    title: "E-Document Global Service App: announced"
+    url: https://www.youtube.com/watch?v=tCmDKBszA1w&t=2037s
+    title: "Update existing purchase orders: announced"
     date: "2023-11-07T09:41:45.000Z"
     commit: null
-    t: 765
-    quote: we will soon provide additional e doent global app ready to connect with a third party services this have will be based on our
+    t: 2037
+    quote: this is something what we are planning to deliver as a first uh feature Improvement
   - kind: video
     url: https://www.youtube.com/watch?v=tCmDKBszA1w&t=2017s
     title: "Third-party access points app: announced"
@@ -80,7 +80,7 @@ evidence:
     date: "2023-11-07T09:41:45.000Z"
     commit: null
     t: 336
-    quote: only 6 of 187 participants say that they do not need it they do not need electronic invoice in the bus center
+    quote: only 6% of 187 participants say that they do not need it they do not need electronic invoice in the bus Center
   - kind: video
     url: https://www.youtube.com/watch?v=tCmDKBszA1w&t=745s
     title: "What's New: E-Invoicing (2023 release wave 2)"
@@ -276,11 +276,6 @@ features:
     t: 587
     verified: false
     status_source: video
-  - name: E-Document Global Service App
-    status: announced
-    t: 765
-    verified: true
-    status_source: video
   - name: Local E-Document Localizations
     status: unclear
     t: 804
@@ -357,9 +352,9 @@ features:
     verified: false
     status_source: video
   - name: Update existing purchase orders
-    status: unclear
+    status: announced
     t: 2017
-    verified: false
+    verified: true
     status_source: video
   - name: Third-party access points app
     status: announced
@@ -405,8 +400,8 @@ quotes:
     text: this road map is maybe not 100% accurate as governments are changing their enforcement date all the time it was accurate in one moment
     check: exact
   - t: 336
-    text: only 6 of 187 participants say that they do not need it they do not need electronic invoice in the bus center
-    check: fuzzy
+    text: only 6% of 187 participants say that they do not need it they do not need electronic invoice in the bus Center
+    check: exact
   - t: 745
     text: the biggest part of our e doent core app is an extension and this is a global extension for all countries it will be
     check: exact
@@ -461,7 +456,7 @@ quotes:
 
 > E-Document Core in Business Central (2023 release wave 2): a global extension that packages common e-invoicing functionality for W1 and country localizations. The video covers communication models, a demo of setup, sending and receiving, and the roadmap for access-point apps and local localizations.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=tCmDKBszA1w) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-11-07 · 36:59 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=tCmDKBszA1w) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-11-07 · 36:59 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -475,9 +470,9 @@ A demo shows E-Document Service, Workflow and Document Sending Profile setup, se
 - E-Document Core is a global extension used by W1 and the localizations. It will not fit 100% of file formats and requirements at first, so local flavors are added on top.
 - Setup in the demo uses an E-Document Service, an E-Document Workflow and a Document Sending Profile. Workflows can send to multiple services.
 - Status tracking shows service-level status, logs, mapping details and communication logs. Manual actions allow send, recreate, cancel and get approval after errors.
-- Receiving works through a background job that creates purchase invoices, mapping items by item reference. It only creates new documents and cannot update existing purchase orders. Updating existing orders is planned.
-- If an item is not found, you can map text to an account instead. You can also import to journal lines, which needs a manual vendor-to-account mapping.
-- The third-party access points app is announced for the end of the year. A Microsoft e-document global service app is announced, aimed at at least 80% of required features. Denmark and Belgium come first, and the roadmap may change with government enforcement dates.
+- Receiving works through a background job that creates purchase invoices, mapping items by item reference. It only creates new documents and cannot update existing purchase orders. Updating existing orders is planned as the first feature improvement.
+- If an item is not found, you can map text to an account instead. You can also import to journal lines, which needs a manual mapping of the sender to an account.
+- A third-party access points app built on E-Document Core is announced for the end of the year; Microsoft apps aim to cover at least 80% of required features. Denmark and Belgium localizations come first, and the roadmap may change with government enforcement dates.
 
 ## Chapters
 
@@ -507,7 +502,6 @@ A demo shows E-Document Service, Workflow and Document Sending Profile setup, se
 | Three-Corner Model | status not stated | [6:52](https://www.youtube.com/watch?v=tCmDKBszA1w&t=412s) |  |
 | Four-Corner Model | status not stated | [7:33](https://www.youtube.com/watch?v=tCmDKBszA1w&t=453s) |  |
 | E-Document Messaging System | status not stated | [9:47](https://www.youtube.com/watch?v=tCmDKBszA1w&t=587s) |  |
-| E-Document Global Service App | announced | [12:45](https://www.youtube.com/watch?v=tCmDKBszA1w&t=765s) | "we will soon provide additional e doent global app ready to connect with a third party services this have will be based on our" ([12:45](https://www.youtube.com/watch?v=tCmDKBszA1w&t=765s)) |
 | Local E-Document Localizations | status not stated | [13:24](https://www.youtube.com/watch?v=tCmDKBszA1w&t=804s) |  |
 | Partner Extensibility Framework | status not stated | [14:05](https://www.youtube.com/watch?v=tCmDKBszA1w&t=845s) |  |
 | Third-Party Access Point Integration | status not stated | [14:25](https://www.youtube.com/watch?v=tCmDKBszA1w&t=865s) |  |
@@ -523,7 +517,7 @@ A demo shows E-Document Service, Workflow and Document Sending Profile setup, se
 | Sales invoices to e-invoices | status not stated | [32:25](https://www.youtube.com/watch?v=tCmDKBszA1w&t=1945s) |  |
 | Credit memo handling | status not stated | [32:36](https://www.youtube.com/watch?v=tCmDKBszA1w&t=1956s) |  |
 | Configurable local features and messages | status not stated | [32:56](https://www.youtube.com/watch?v=tCmDKBszA1w&t=1976s) |  |
-| Update existing purchase orders | status not stated | [33:37](https://www.youtube.com/watch?v=tCmDKBszA1w&t=2017s) |  |
+| Update existing purchase orders | announced | [33:37](https://www.youtube.com/watch?v=tCmDKBszA1w&t=2017s) | "this is something what we are planning to deliver as a first uh feature Improvement" ([33:57](https://www.youtube.com/watch?v=tCmDKBszA1w&t=2037s)) |
 | Third-party access points app | announced | [33:37](https://www.youtube.com/watch?v=tCmDKBszA1w&t=2017s) | "we are preparing this third party access points app it will be already until the end of this year as a new app on" ([33:37](https://www.youtube.com/watch?v=tCmDKBszA1w&t=2017s)) |
 | Country-specific localizations | status not stated | [33:57](https://www.youtube.com/watch?v=tCmDKBszA1w&t=2037s) |  |
 | Access point provider options | status not stated | [34:37](https://www.youtube.com/watch?v=tCmDKBszA1w&t=2077s) |  |
@@ -553,7 +547,7 @@ As heard in the captions. A name that matches one object page by exact type and 
 - [1:54](https://www.youtube.com/watch?v=tCmDKBszA1w&t=114s) "the name of our model from evoice into e documents in the first release we will be focused on a invoicing on"
 - [2:54](https://www.youtube.com/watch?v=tCmDKBszA1w&t=174s) "solution was create one core electronic invoicing or electronic document system as a global app for all countries it will not be 100%"
 - [3:54](https://www.youtube.com/watch?v=tCmDKBszA1w&t=234s) "this road map is maybe not 100% accurate as governments are changing their enforcement date all the time it was accurate in one moment"
-- [5:36](https://www.youtube.com/watch?v=tCmDKBszA1w&t=336s) "only 6 of 187 participants say that they do not need it they do not need electronic invoice in the bus center"
+- [5:36](https://www.youtube.com/watch?v=tCmDKBszA1w&t=336s) "only 6% of 187 participants say that they do not need it they do not need electronic invoice in the bus Center"
 - [12:25](https://www.youtube.com/watch?v=tCmDKBszA1w&t=745s) "the biggest part of our e doent core app is an extension and this is a global extension for all countries it will be"
 - [13:06](https://www.youtube.com/watch?v=tCmDKBszA1w&t=786s) "these apps made by Microsoft should provide minimum 80% of required features maybe even more but minimum 80%"
 - [13:24](https://www.youtube.com/watch?v=tCmDKBszA1w&t=804s) "Microsoft will provide specific local ations um in some countries it can be only file format but sometimes it can be in service integration"

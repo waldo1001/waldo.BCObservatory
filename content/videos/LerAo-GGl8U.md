@@ -20,12 +20,12 @@ tags:
   - extension management
 system: administration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:17:32.007Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:17:32.074Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -39,34 +39,6 @@ evidence:
     commit: null
     t: 318
     quote: this is a public preview and um we are hoping to open up more more APIs and more scenarios going forward
-  - kind: video
-    url: https://www.youtube.com/watch?v=LerAo-GGl8U&t=799s
-    title: "Agent-driven environment uninstall and upgrade: preview"
-    date: "2026-10-01T05:38:51.000Z"
-    commit: null
-    t: 799
-    quote: This is a security measure for our public preview.
-  - kind: video
-    url: https://www.youtube.com/watch?v=LerAo-GGl8U&t=799s
-    title: "Admin MCP Server authentication flow: preview"
-    date: "2026-10-01T05:38:51.000Z"
-    commit: null
-    t: 799
-    quote: This is a security measure for our public preview.
-  - kind: video
-    url: https://www.youtube.com/watch?v=LerAo-GGl8U&t=799s
-    title: "Copilot Studio MCP custom connector setup: preview"
-    date: "2026-10-01T05:38:51.000Z"
-    commit: null
-    t: 799
-    quote: This is a security measure for our public preview.
-  - kind: video
-    url: https://www.youtube.com/watch?v=LerAo-GGl8U&t=799s
-    title: "Agent tool invocation via MCP: preview"
-    date: "2026-10-01T05:38:51.000Z"
-    commit: null
-    t: 799
-    quote: This is a security measure for our public preview.
   - kind: video
     url: https://www.youtube.com/watch?v=LerAo-GGl8U&t=2633s
     title: "Publish extension API limitation: announced"
@@ -208,34 +180,24 @@ features:
     t: 595
     verified: false
     status_source: video
-  - name: Agent-driven environment uninstall and upgrade
-    status: preview
-    t: 786
-    verified: true
-    status_source: video
   - name: Admin MCP Server authentication flow
-    status: preview
+    status: unclear
     t: 992
-    verified: true
+    verified: false
     status_source: video
   - name: Copilot Studio MCP custom connector setup
-    status: preview
+    status: unclear
     t: 1281
-    verified: true
+    verified: false
     status_source: video
   - name: Agent tool invocation via MCP
-    status: preview
+    status: unclear
     t: 1539
-    verified: true
+    verified: false
     status_source: video
   - name: Admin MCP server connection
     status: unclear
     t: 1562
-    verified: false
-    status_source: video
-  - name: Agent integration with MCP tools in Propeller Studio
-    status: unclear
-    t: 1616
     verified: false
     status_source: video
   - name: MCP proxy for multi-tenant partner scenarios
@@ -300,7 +262,7 @@ quotes:
 
 > Business Central admin MCP server (in public preview): a remote, stateless MCP server exposing Admin API functionality to AI agents, with Entra ID and OAuth 2.1 authentication. Evidence for setup in VS Code and Copilot Studio, the multi-tenant MCP proxy sample, and the excluded destructive operations.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=LerAo-GGl8U) · mibuso.com / BC TechDays · 2026-10-01 · 45:44 · tier community · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=LerAo-GGl8U) · mibuso.com / BC TechDays · 2026-10-01 · 45:44 · tier community · reviewed (checked by Opus)
 
 ## Overview
 
@@ -354,12 +316,10 @@ Demos cover a single-tenant setup in Visual Studio Code, where the agent discove
 | Multi-Tenant Administration via MCP | status not stated, demoed | [1:02](https://www.youtube.com/watch?v=LerAo-GGl8U&t=62s) |  |
 | Admin MCP Setup in Visual Studio Code | status not stated, demoed | [6:29](https://www.youtube.com/watch?v=LerAo-GGl8U&t=389s) |  |
 | MCP Agent-Assisted Environment Diagnostics | status not stated, demoed | [9:55](https://www.youtube.com/watch?v=LerAo-GGl8U&t=595s) |  |
-| Agent-driven environment uninstall and upgrade | preview, demoed | [13:06](https://www.youtube.com/watch?v=LerAo-GGl8U&t=786s) | "This is a security measure for our public preview." ([13:19](https://www.youtube.com/watch?v=LerAo-GGl8U&t=799s)) |
-| Admin MCP Server authentication flow | preview, demoed | [16:32](https://www.youtube.com/watch?v=LerAo-GGl8U&t=992s) | "This is a security measure for our public preview." ([13:19](https://www.youtube.com/watch?v=LerAo-GGl8U&t=799s)) |
-| Copilot Studio MCP custom connector setup | preview, demoed | [21:21](https://www.youtube.com/watch?v=LerAo-GGl8U&t=1281s) | "This is a security measure for our public preview." ([13:19](https://www.youtube.com/watch?v=LerAo-GGl8U&t=799s)) |
-| Agent tool invocation via MCP | preview, demoed | [25:39](https://www.youtube.com/watch?v=LerAo-GGl8U&t=1539s) | "This is a security measure for our public preview." ([13:19](https://www.youtube.com/watch?v=LerAo-GGl8U&t=799s)) |
+| Admin MCP Server authentication flow | status not stated, demoed | [16:32](https://www.youtube.com/watch?v=LerAo-GGl8U&t=992s) |  |
+| Copilot Studio MCP custom connector setup | status not stated, demoed | [21:21](https://www.youtube.com/watch?v=LerAo-GGl8U&t=1281s) |  |
+| Agent tool invocation via MCP | status not stated, demoed | [25:39](https://www.youtube.com/watch?v=LerAo-GGl8U&t=1539s) |  |
 | Admin MCP server connection | status not stated, demoed | [26:02](https://www.youtube.com/watch?v=LerAo-GGl8U&t=1562s) |  |
-| Agent integration with MCP tools in Propeller Studio | status not stated, demoed | [26:56](https://www.youtube.com/watch?v=LerAo-GGl8U&t=1616s) |  |
 | MCP proxy for multi-tenant partner scenarios | status not stated, demoed | [30:34](https://www.youtube.com/watch?v=LerAo-GGl8U&t=1834s) |  |
 | Encrypted authentication data persistence | status not stated, demoed | [39:24](https://www.youtube.com/watch?v=LerAo-GGl8U&t=2364s) |  |
 | GitHub Copilot CLI with MCP | status not stated, demoed | [34:33](https://www.youtube.com/watch?v=LerAo-GGl8U&t=2073s) |  |

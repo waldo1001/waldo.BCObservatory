@@ -395,26 +395,6 @@
       "system": "platform"
     },
     {
-      "name": "Transaction retry monitoring interface",
-      "description": "Custom page that acts as a window into the database, showing concurrent background sessions performing operations and their lock states extracted from SQL Server DMV tr_locks management view.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 1506,
-      "t_end": 1673.1,
-      "is_demoed": true,
-      "caveats": [
-        "Requires on-premise configuration for direct database queries"
-      ],
-      "tags": [
-        "demo",
-        "monitoring",
-        "concurrency"
-      ],
-      "system": "development"
-    },
-    {
       "name": "Lock hierarchy and lock types",
       "description": "Demonstration of SQL Server lock hierarchy including intent exclusive locks on table, data pages, and exclusive locks on individual records. Shows how locks escalate through different levels.",
       "status": "unclear",
@@ -1020,26 +1000,6 @@
       "system": "development"
     },
     {
-      "name": "Avoiding excessive commits in bulk operations",
-      "description": "Frequent commits during bulk operations break buffered insert optimization and cause performance degradation. Should minimize commits during data operations.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 5461.2,
-      "t_end": 5540,
-      "is_demoed": false,
-      "caveats": [
-        "Requires careful transaction management"
-      ],
-      "tags": [
-        "commit strategy",
-        "database performance",
-        "buffered insert"
-      ],
-      "system": "platform"
-    },
-    {
       "name": "Find set with update lock parameter",
       "description": "The Find Set method with a boolean parameter controls whether update locks are acquired when reading records. True applies FOR UPDATE table hint acquiring update locks, False uses read uncommitted or committed isolation levels depending on Business Central version.",
       "status": "unclear",
@@ -1315,6 +1275,12 @@
       "check": "exact"
     },
     {
+      "t": 3820,
+      "text": "when we have an auto increment field in a table this functionality can't work. So basically we disable it completely.",
+      "why_it_matters": "Supports the key point that auto increment primary keys disable buffered inserts in the BC runtime.",
+      "check": "exact"
+    },
+    {
       "t": 3863.4,
       "text": "business central sales functionality when we post a sales invoice with few thousand lines maybe we can lose on performance significantly",
       "why_it_matters": "Identifies a specific scenario where auto increment can harm performance - multi-line invoice posting",
@@ -1357,12 +1323,6 @@
       "check": "exact"
     },
     {
-      "t": 4569.8,
-      "text": "records whenever we end uh save a record insert a record in the table it",
-      "why_it_matters": "Explains how redesigning primary keys to include partition key leads to physical data segmentation that prevents table scan problems",
-      "check": "fuzzy"
-    },
-    {
       "t": 4809,
       "text": "the key point of this last part is just uh there are different ways of thinking about what we want to lock and how",
       "why_it_matters": "Establishes core design principle that lock strategy is flexible and depends on specific business logic, not a one-size-fits-all solution",
@@ -1402,12 +1362,6 @@
       "t": 5376.6,
       "text": "Probably cash synchronizes every 30 seconds but within 30 seconds you can expect uh like disparities in cash.",
       "why_it_matters": "Reveals data consistency window in scale-out scenarios, critical for understanding eventual consistency",
-      "check": "exact"
-    },
-    {
-      "t": 5505.8,
-      "text": "maybe also well education I can I can say what what what can I say maybe show some examples when when this commit can",
-      "why_it_matters": "Identifies education and practical examples as solutions to understand the dangers of frequent commits in database design",
       "check": "exact"
     },
     {

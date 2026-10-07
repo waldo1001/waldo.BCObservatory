@@ -189,28 +189,6 @@
       "system": "development"
     },
     {
-      "name": "Test-generating agent for bug reproduction",
-      "description": "An agent that can analyze code and automatically generate tests to reproduce issues, run interactively in GitHub Copilot Chat interface. Accepts task descriptions and produces test code.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 807.4,
-      "t_end": 970.6,
-      "is_demoed": true,
-      "caveats": [
-        "agent may need multiple iterations to properly reproduce the issue",
-        "test may initially pass even if the issue is present"
-      ],
-      "tags": [
-        "test generation",
-        "agent",
-        "bug reproduction",
-        "github copilot"
-      ],
-      "system": "development"
-    },
-    {
       "name": "AI test with data-driven permutations",
       "description": "Testing paradigm for AI features where instead of hardcoded assertions, tests use data sets containing multiple permutations of inputs, prompts, models, and expected outcomes. Data sets are the source of truth about test behavior.",
       "status": "unclear",
@@ -438,44 +416,6 @@
       "system": "platform"
     },
     {
-      "name": "Codespaces for multi-project environments",
-      "description": "Virtual machines running VS Code in a browser with different configurations, setups, and launch configs, allowing developers to work on multiple projects without local installation.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 2046.7,
-      "t_end": 2085.4,
-      "is_demoed": false,
-      "caveats": [
-        "Still requires an environment to run tests on"
-      ],
-      "tags": [
-        "codespaces",
-        "development environment",
-        "multi-project"
-      ],
-      "system": "platform"
-    },
-    {
-      "name": "Docker containers for multiple environments",
-      "description": "Using Docker containers as an option for managing multiple BC environments locally and for testing different project configurations.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 2036.7,
-      "t_end": 2067,
-      "is_demoed": false,
-      "caveats": [],
-      "tags": [
-        "docker",
-        "containers",
-        "environments"
-      ],
-      "system": "platform"
-    },
-    {
       "name": "Test isolation improvements with empty company",
       "description": "Moving tests to run on empty company by extracting unit tests from integration tests, reducing dependency on demo data and making tests more stable for future changes.",
       "status": "unclear",
@@ -511,24 +451,6 @@
         "mcp",
         "test runner",
         "interoperability"
-      ],
-      "system": "development"
-    },
-    {
-      "name": "VS Code test explorer for AI tests",
-      "description": "Test explorer interface in VS Code that shows test execution results and integrates with AI agents for running and generating tests.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 2299.4,
-      "t_end": 2325.2,
-      "is_demoed": true,
-      "caveats": [],
-      "tags": [
-        "vs code",
-        "test explorer",
-        "ui"
       ],
       "system": "development"
     },
@@ -610,24 +532,6 @@
         "mcp",
         "ai",
         "external tools"
-      ],
-      "system": "development"
-    },
-    {
-      "name": "Model optimization for test scenarios",
-      "description": "Ability to choose different models for running tests, with consideration for cost efficiency - whether a scenario needs the latest model or can run on a better or lower-cost model.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 2446.8,
-      "t_end": 2451.8,
-      "is_demoed": false,
-      "caveats": [],
-      "tags": [
-        "model selection",
-        "cost optimization",
-        "dimensions"
       ],
       "system": "development"
     }
@@ -771,8 +675,8 @@
     },
     {
       "t": 1506.6,
-      "text": "it's not part of the the product yet but you might be able to find it in a pre-release is ...",
-      "why_it_matters": "Announces upcoming feature for native data-driven test support with current availability limited to pre-release.",
+      "text": "you might be able to find it in a pre-release is having native support for datadriven tests",
+      "why_it_matters": "States that native data-driven tests are not yet in the product, only possibly in pre-release.",
       "check": "exact"
     },
     {
@@ -831,14 +735,8 @@
     },
     {
       "t": 2446.8,
-      "text": "Understanding, do your scenario really need the latest model, the greatest model, or could it run on a better or lower model",
-      "why_it_matters": "Emphasizes cost optimization considerations when choosing AI models for test execution.",
-      "check": "exact"
-    },
-    {
-      "t": 2446.8,
       "text": "do your scenario really need the latest model, the greatest model, or could it run on a better or lower model that's cheaper for",
-      "why_it_matters": "Explains the strategy for optimizing AI test costs by selecting appropriate model tiers",
+      "why_it_matters": "Guidance to use token consumption to choose cheaper models for AI test scenarios.",
       "check": "exact"
     },
     {
@@ -846,6 +744,12 @@
       "text": "it's a known issue right now we need to look at how we can manage this",
       "why_it_matters": "Acknowledges the GUI compatibility issue and commits to fixing it for complete VS Code test support",
       "check": "fuzzy"
+    },
+    {
+      "t": 2554.8,
+      "text": "you need to use the the classic test explorer and and run it from within the client",
+      "why_it_matters": "Workaround for the known issue with GUI-related tests run from VS Code.",
+      "check": "exact"
     }
   ],
   "disclaimers": [

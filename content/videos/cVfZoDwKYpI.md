@@ -20,12 +20,12 @@ tags:
   - llm testing
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:16:41.310Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:16:41.408Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -33,19 +33,12 @@ generated:
   input_hash: 1cc8d8163f5126c74f69bf11e043fb20fba46d018687447a204a9e830263fc64
 evidence:
   - kind: video
-    url: https://www.youtube.com/watch?v=cVfZoDwKYpI&t=2937s
+    url: https://www.youtube.com/watch?v=cVfZoDwKYpI&t=4320s
     title: "Expense Agent: preview"
     date: "2026-10-01T05:38:55.000Z"
     commit: null
-    t: 2937
-    quote: as we speak right now uh we are in public preview
-  - kind: video
-    url: https://www.youtube.com/watch?v=cVfZoDwKYpI&t=1795s
-    title: "95 Percent Accuracy Requirement: generally available"
-    date: "2026-10-01T05:38:55.000Z"
-    commit: null
-    t: 1795
-    quote: to ship in Microsoft something you need to go to a 95% accur Y and then when we started I don't know six plus
+    t: 4320
+    quote: we are already in public preview. Uh we are in US only. More regions will come next month
   - kind: video
     url: https://www.youtube.com/watch?v=cVfZoDwKYpI&t=3781s
     title: "Expense Policies: announced"
@@ -310,9 +303,9 @@ features:
     verified: false
     status_source: video
   - name: 95 Percent Accuracy Requirement
-    status: ga
+    status: unclear
     t: 1815
-    verified: true
+    verified: false
     status_source: video
   - name: Hill Climbing Loop
     status: unclear
@@ -531,7 +524,7 @@ quotes:
 
 > Expense Agent for Business Central, in public preview and US only: architecture, setup, limits, and how Microsoft built and evaluated it. Covers email, web and mobile submission, expense users without BC licenses, categories, rules, approval, posting, and offline and online LLM evals.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=cVfZoDwKYpI) · mibuso.com / BC TechDays · 2026-10-01 · 1:12:28 · tier community · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=cVfZoDwKYpI) · mibuso.com / BC TechDays · 2026-10-01 · 1:12:28 · tier community · reviewed (checked by Opus)
 
 ## Overview
 
@@ -543,9 +536,9 @@ It then explains how the team built it. The team worked AI-first, with 99 percen
 
 - The Expense Agent is in public preview and available in the US only. More regions were said to come the following month.
 - Expense users are a new Business Central entity attached to employees. They need no BC license and can submit by web app or shared mailbox. A mobile client is coming. Existing employees can be imported in one action.
-- Limits mentioned: 10 MB per expense file, 25 files and 50 MB per batch, 100 emails per company in the shared mailbox scenario, and 50 expenses per expense user per company per day.
+- Limits mentioned: 10 MB per expense file, 25 files and 50 MB per batch, 100 emails per company in the shared mailbox scenario, and 50 expenses per expense user per company per day. These limits are hardcoded for now.
 - Category and subcategory descriptions act as prompts for the agent, so their detail affects categorization accuracy. Rules cover amounts, thresholds and required information. Natural-language policies are not yet available.
-- Some steps are still manual, such as setting mileage information and posting. Attaching a project to expenses is desktop only for now.
+- Some steps are still manual, such as setting mileage information and posting. For now, projects are attached to expense lines or reports in Business Central. Attaching them from the web app is work in progress.
 - Microsoft requires 95 percent accuracy to ship an agentic system. The team started at 65 percent and used 1,500 labeled datasets, synthetic edge cases, a hill climbing loop and model comparison to improve it.
 - The service uses Azure Front Door, a Python gateway for authentication, and Azure Functions processors. Redis caching limits repeated lookups when locating a user's Business Central environment.
 
@@ -599,7 +592,7 @@ It then explains how the team built it. The team worked AI-first, with 99 percen
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| Expense Agent | preview, demoed | [0:04](https://www.youtube.com/watch?v=cVfZoDwKYpI&t=4s) | "as we speak right now uh we are in public preview" ([48:57](https://www.youtube.com/watch?v=cVfZoDwKYpI&t=2937s)) |
+| Expense Agent | preview, demoed | [0:04](https://www.youtube.com/watch?v=cVfZoDwKYpI&t=4s) | "we are already in public preview. Uh we are in US only. More regions will come next month" ([1:12:00](https://www.youtube.com/watch?v=cVfZoDwKYpI&t=4320s)) |
 | Receipt Extraction via AI | status not stated, demoed | [4:43](https://www.youtube.com/watch?v=cVfZoDwKYpI&t=283s) |  |
 | Mileage Expense Calculation | status not stated, demoed | [7:53](https://www.youtube.com/watch?v=cVfZoDwKYpI&t=473s) |  |
 | Per Diem Allowance Detection | status not stated, demoed | [7:21](https://www.youtube.com/watch?v=cVfZoDwKYpI&t=441s) |  |
@@ -621,7 +614,7 @@ It then explains how the team built it. The team worked AI-first, with 99 percen
 | Dataset Preparation with Ground Truth Labeling | status not stated | [27:09](https://www.youtube.com/watch?v=cVfZoDwKYpI&t=1629s) |  |
 | Synthetic Data Generation for Edge Cases | status not stated | [28:21](https://www.youtube.com/watch?v=cVfZoDwKYpI&t=1701s) |  |
 | Automated Quality Pipeline | status not stated, demoed | [29:18](https://www.youtube.com/watch?v=cVfZoDwKYpI&t=1758s) |  |
-| 95 Percent Accuracy Requirement | generally available | [30:15](https://www.youtube.com/watch?v=cVfZoDwKYpI&t=1815s) | "to ship in Microsoft something you need to go to a 95% accur Y and then when we started I don't know six plus" ([29:55](https://www.youtube.com/watch?v=cVfZoDwKYpI&t=1795s)) |
+| 95 Percent Accuracy Requirement | status not stated | [30:15](https://www.youtube.com/watch?v=cVfZoDwKYpI&t=1815s) |  |
 | Hill Climbing Loop | status not stated, demoed | [30:26](https://www.youtube.com/watch?v=cVfZoDwKYpI&t=1826s) |  |
 | Model Comparison Framework | status not stated, demoed | [31:30](https://www.youtube.com/watch?v=cVfZoDwKYpI&t=1890s) |  |
 | Harmful Eval Testing and Red Teaming | status not stated, demoed | [32:51](https://www.youtube.com/watch?v=cVfZoDwKYpI&t=1971s) |  |

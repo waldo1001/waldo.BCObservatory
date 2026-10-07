@@ -452,10 +452,10 @@
     {
       "name": "Optional interface methods",
       "description": "New AL language feature allowing default implementations and optional methods in interfaces. Enables selective implementation of interface methods, making only required methods mandatory.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
+      "status": "announced",
+      "status_evidence_t": 1430.1,
+      "status_evidence_quote": "This is a feature that's coming up. Actually, Quintin here worked on it, and he's a he's ready to release it almost",
+      "status_evidence_verified": true,
       "t_start": 1430.1,
       "t_end": 1473.3,
       "is_demoed": false,
@@ -981,8 +981,8 @@
     },
     {
       "t": 382.1,
-      "text": "27.4, you wouldn't even see this agent models list. That would be for 28 where you have now this drop ...",
-      "why_it_matters": "Clarifies version differences - model selection is a version 28 feature not available in 27.4.",
+      "text": "you wouldn't even see this agent models list. That would be for 28 where you have now this drop down",
+      "why_it_matters": "States that the agent model selection dropdown is a version 28 feature, not in 27.4.",
       "check": "exact"
     },
     {

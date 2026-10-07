@@ -1,0 +1,30 @@
+{
+  "video_id": "xqwJTCPD9tA",
+  "item_id": "video/yt-mibuso/xqwJTCPD9tA",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "'Warehouse returns and transfer orders' was marked GA, but its quote is an audience member describing a warehouse shipment/receipt practice and says nothing about release status. Set to unclear.",
+    "'Business events for outbound integration' had evidence anchored at 2260.7, but the preview statement starts at segment 2282.1. Corrected with a shorter verbatim quote.",
+    "Key point said the retention policy came from 'the demo', but it was a speaker's answer during Q&A. Reworded.",
+    "'Business Central cloud network timeout' description says 'premium environments'. The transcript says 'on prime environment', which most likely means on-premises. The description is misleading but cannot be edited here.",
+    "Several features overlap: BC quality knowledge base, its repo, and the BC quality repository for integrations; four integration message table/layer entries; two business events preview entries; two webhook layer entries. All are supported by the transcript, so they were kept.",
+    "Quotes at 2201.2 and 3530.8 end with an added ellipsis. Otherwise they are verbatim. Two quotes share t 3183.9; both are verbatim."
+  ],
+  "input_hash": "85424d729b3cd93d20b41b9097864d9fb034e18064b5979069c0a571ecaa799b",
+  "by": "opus",
+  "at": "2026-10-07T23:17:01.450Z",
+  "applied": [
+    "Warehouse returns and transfer orders: status unclear",
+    "Business events for outbound integration: status preview",
+    "Business events for integrations: status preview",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.384073
+  }
+}

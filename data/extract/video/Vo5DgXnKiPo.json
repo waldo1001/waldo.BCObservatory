@@ -306,24 +306,6 @@
       "system": "platform"
     },
     {
-      "name": "Template repositories for AL-Go configuration",
-      "description": "AL-Go uses template repositories that provide version-controlled configuration and can be assigned to GitHub organizations for consistent project setup.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 1578.1,
-      "t_end": 1604.3,
-      "is_demoed": false,
-      "caveats": [],
-      "tags": [
-        "templates",
-        "version control",
-        "al-go"
-      ],
-      "system": "platform"
-    },
-    {
       "name": "AppSource and beer tenant extension templates",
       "description": "AL-Go provides separate templates for AppSource extensions and beer tenant extensions, with minor functional differences between them and approximately 95% shared content.",
       "status": "unclear",
@@ -343,27 +325,6 @@
         "extensions"
       ],
       "system": "development"
-    },
-    {
-      "name": "Template hierarchy and nested template composition",
-      "description": "Question raised about support for multiple levels of templates to allow core template changes to cascade to derived templates without individual modifications.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 1673.6,
-      "t_end": 1703,
-      "is_demoed": false,
-      "caveats": [
-        "Not initially designed for this use case",
-        "Uncertain if it works with current architecture"
-      ],
-      "tags": [
-        "templates",
-        "hierarchy",
-        "repository structure"
-      ],
-      "system": "platform"
     }
   ],
   "objects": [
@@ -436,6 +397,12 @@
       "check": "exact"
     },
     {
+      "t": 645.8,
+      "text": "Um but, typically, these uh custom template repos will not have any algo code in them, actually.",
+      "why_it_matters": "Clarifies what a custom template repository is meant to contain.",
+      "check": "exact"
+    },
+    {
       "t": 765.6,
       "text": "next time you ran up the AL Go system files, we would just wipe it because we consider these files like these are files",
       "why_it_matters": "Explains the shift in AL-Go's approach to allow user-managed customizations that persist across updates.",
@@ -460,15 +427,15 @@
       "check": "exact"
     },
     {
-      "t": 1145.6,
-      "text": "Well, you know, you can also see that in telemetry. They are indeed taking very long. Um so, you can see that here. You",
-      "why_it_matters": "Shows practical use of telemetry for performance tracking and regression detection across multiple repositories",
+      "t": 1181.2,
+      "text": "from time to time we also have to deprecate some settings in Ailgo and when we do that we'll emit telemetry",
+      "why_it_matters": "Shows that deprecated settings show up as telemetry warnings.",
       "check": "exact"
     },
     {
       "t": 1369.7,
-      "text": "So this kind of takes you away from this very repo-centric problem in in GitHub and gives you a tool ...",
-      "why_it_matters": "Explains how GitHub Copilot app solves the cross-repository visibility problem that telemetry alone addresses",
+      "text": "So this kind of takes you away from this very repo-centric problem in in GitHub and gives you a tool",
+      "why_it_matters": "Explains why the Copilot app helps get an overview across many repositories.",
       "check": "exact"
     },
     {

@@ -20,12 +20,12 @@ tags:
   - ai tests
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:17:30.871Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:17:30.942Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -146,11 +146,6 @@ features:
     t: 743
     verified: false
     status_source: video
-  - name: Test-generating agent for bug reproduction
-    status: unclear
-    t: 807
-    verified: false
-    status_source: video
   - name: AI test with data-driven permutations
     status: unclear
     t: 1015
@@ -172,17 +167,17 @@ features:
     verified: false
     status_source: video
   - name: Native data-driven test support
-    status: ga
+    status: unclear
     t: 1506
     verified: false
+    status_source: video
+  - name: Custom context interface for data-driven tests
+    status: ga
+    t: 1591
+    verified: true
     status_source: roadmap
     roadmap_ids:
       - "573333"
-  - name: Custom context interface for data-driven tests
-    status: announced
-    t: 1591
-    verified: true
-    status_source: video
   - name: Agent-assisted test writing and review
     status: unclear
     t: 1713
@@ -208,27 +203,12 @@ features:
     t: 1964
     verified: false
     status_source: video
-  - name: Codespaces for multi-project environments
-    status: unclear
-    t: 2046
-    verified: false
-    status_source: video
-  - name: Docker containers for multiple environments
-    status: unclear
-    t: 2036
-    verified: false
-    status_source: video
   - name: Test isolation improvements with empty company
     status: unclear
     t: 2213
     verified: false
     status_source: video
   - name: MCP server for test execution
-    status: unclear
-    t: 2299
-    verified: false
-    status_source: video
-  - name: VS Code test explorer for AI tests
     status: unclear
     t: 2299
     verified: false
@@ -251,11 +231,6 @@ features:
   - name: Test generation with MCP and external tools
     status: unclear
     t: 2347
-    verified: false
-    status_source: video
-  - name: Model optimization for test scenarios
-    status: unclear
-    t: 2446
     verified: false
     status_source: video
 objects_mentioned:
@@ -289,7 +264,7 @@ quotes:
 
 > Microsoft session on testing Business Central apps: propagated dependencies, test explorer support in AL, new test codeunit properties, internal visible to, AI test agents, and data-driven AI tests and evals. Also covers CI/CD test selection, MCP-based test execution and token consumption. Native data-driven tests are not yet in the product.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=9CW5mydS9Vs) · mibuso.com / BC TechDays · 2026-10-01 · 43:04 · tier community · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=9CW5mydS9Vs) · mibuso.com / BC TechDays · 2026-10-01 · 43:04 · tier community · reviewed (checked by Opus)
 
 ## Overview
 
@@ -305,7 +280,7 @@ The second half covers AI. It shows an agent that writes tests interactively in 
 - Internal visible to exposes internal procedures to specified apps, for example test facades. Anyone can specify an app ID in production, which the speaker flags as a security concern.
 - AI tests use data sets with permutations of inputs, prompts, models and expected outcomes, and are rerun several times because AI output is non-deterministic. Copilot feature tests run in the eval suite, not the standard test tool.
 - Native data-driven tests with test data source attributes and a custom context interface are not part of the product yet. They may be in a pre-release.
-- Running tests from VS Code fails differently from client execution for tests that use GUI-related code. This is a known issue, and the classic test runner is needed for now.
+- Tests that use GUI-related code behave differently when run from VS Code versus the client. This is a known issue; for now use the classic test explorer in the client or the PowerShell cmdlets.
 
 ## Chapters
 
@@ -331,28 +306,23 @@ The second half covers AI. It shows an agent that writes tests interactively in 
 | Test library properties | status not stated, demoed | [8:05](https://www.youtube.com/watch?v=9CW5mydS9Vs&t=485s) |  |
 | Internal visible to property | status not stated, demoed | [4:59](https://www.youtube.com/watch?v=9CW5mydS9Vs&t=299s) |  |
 | AI test agent | status not stated, demoed | [12:23](https://www.youtube.com/watch?v=9CW5mydS9Vs&t=743s) |  |
-| Test-generating agent for bug reproduction | status not stated, demoed | [13:27](https://www.youtube.com/watch?v=9CW5mydS9Vs&t=807s) |  |
 | AI test with data-driven permutations | status not stated, demoed | [16:55](https://www.youtube.com/watch?v=9CW5mydS9Vs&t=1015s) |  |
 | AI test artifacts and multiple executions | status not stated, demoed | [19:02](https://www.youtube.com/watch?v=9CW5mydS9Vs&t=1142s) |  |
 | Copilot feature testing framework | status not stated, demoed | [20:35](https://www.youtube.com/watch?v=9CW5mydS9Vs&t=1235s) |  |
 | Agentic test simulation and step verification | status not stated, demoed | [23:31](https://www.youtube.com/watch?v=9CW5mydS9Vs&t=1411s) |  |
-| Native data-driven test support | generally available (roadmap [573333](../features/573333.md)), demoed | [25:06](https://www.youtube.com/watch?v=9CW5mydS9Vs&t=1506s) |  |
-| Custom context interface for data-driven tests | announced, demoed | [26:31](https://www.youtube.com/watch?v=9CW5mydS9Vs&t=1591s) | "This is what we have planned um for the pipeline for coming release" ([28:06](https://www.youtube.com/watch?v=9CW5mydS9Vs&t=1686s)) |
+| Native data-driven test support | status not stated, demoed | [25:06](https://www.youtube.com/watch?v=9CW5mydS9Vs&t=1506s) |  |
+| Custom context interface for data-driven tests | generally available (roadmap [573333](../features/573333.md)), demoed | [26:31](https://www.youtube.com/watch?v=9CW5mydS9Vs&t=1591s) | "This is what we have planned um for the pipeline for coming release" ([28:06](https://www.youtube.com/watch?v=9CW5mydS9Vs&t=1686s)) |
 | Agent-assisted test writing and review | status not stated | [28:33](https://www.youtube.com/watch?v=9CW5mydS9Vs&t=1713s) |  |
 | Performance test suite for long-running tests | status not stated | [29:18](https://www.youtube.com/watch?v=9CW5mydS9Vs&t=1758s) |  |
 | Test type filtering with subtype and transaction filters | status not stated | [31:33](https://www.youtube.com/watch?v=9CW5mydS9Vs&t=1893s) |  |
 | Test code lens for developers | status not stated | [32:11](https://www.youtube.com/watch?v=9CW5mydS9Vs&t=1931s) |  |
 | BTE code for faster inner loop testing | status not stated | [32:44](https://www.youtube.com/watch?v=9CW5mydS9Vs&t=1964s) |  |
-| Codespaces for multi-project environments | status not stated | [34:06](https://www.youtube.com/watch?v=9CW5mydS9Vs&t=2046s) |  |
-| Docker containers for multiple environments | status not stated | [33:56](https://www.youtube.com/watch?v=9CW5mydS9Vs&t=2036s) |  |
 | Test isolation improvements with empty company | status not stated | [36:53](https://www.youtube.com/watch?v=9CW5mydS9Vs&t=2213s) |  |
 | MCP server for test execution | status not stated, demoed | [38:19](https://www.youtube.com/watch?v=9CW5mydS9Vs&t=2299s) |  |
-| VS Code test explorer for AI tests | status not stated, demoed | [38:19](https://www.youtube.com/watch?v=9CW5mydS9Vs&t=2299s) |  |
 | AI test runner with token consumption tracking | status not stated, demoed | [39:38](https://www.youtube.com/watch?v=9CW5mydS9Vs&t=2378s) |  |
 | Test optimization through model and instruction tuning | status not stated | [40:36](https://www.youtube.com/watch?v=9CW5mydS9Vs&t=2436s) |  |
 | Running tests from VS Code | status not stated | [41:48](https://www.youtube.com/watch?v=9CW5mydS9Vs&t=2508s) |  |
 | Test generation with MCP and external tools | status not stated | [39:07](https://www.youtube.com/watch?v=9CW5mydS9Vs&t=2347s) |  |
-| Model optimization for test scenarios | status not stated | [40:46](https://www.youtube.com/watch?v=9CW5mydS9Vs&t=2446s) |  |
 
 A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 

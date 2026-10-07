@@ -20,12 +20,12 @@ tags:
   - microsoft 365 copilot
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:17:05.185Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:17:05.272Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -52,7 +52,7 @@ evidence:
     date: "2026-10-01T05:38:53.000Z"
     commit: null
     t: 2380
-    quote: Today you today you will ship it through a Power Platform solution, right? So you would create a Power Platform solution and and you
+    quote: Today you today you will ship it through a Power Platform solution, right?
   - kind: video
     url: https://www.youtube.com/watch?v=uMKLsKfKPc0&t=46s
     title: "Microsoft presents: Build Agents with Microsoft Copilot Studio and surface them in M365 Copilot Chat"
@@ -75,19 +75,19 @@ evidence:
     t: 139
     quote: the goal behind Microsoft Copilot Studio is to basically enable everyone to build agents, right?
   - kind: video
-    url: https://www.youtube.com/watch?v=uMKLsKfKPc0&t=253s
-    title: "Microsoft presents: Build Agents with Microsoft Copilot Studio and surface them in M365 Copilot Chat"
-    date: "2026-10-01T05:38:53.000Z"
-    commit: null
-    t: 253
-    quote: Microsoft Copilot Studio is one of the few products in Microsoft and so some extent we're really jealous that can you can get access
-  - kind: video
     url: https://www.youtube.com/watch?v=uMKLsKfKPc0&t=318s
     title: "Microsoft presents: Build Agents with Microsoft Copilot Studio and surface them in M365 Copilot Chat"
     date: "2026-10-01T05:38:53.000Z"
     commit: null
     t: 318
     quote: you have the 1400 plus connectors in in in Power Platform
+  - kind: video
+    url: https://www.youtube.com/watch?v=uMKLsKfKPc0&t=435s
+    title: "Microsoft presents: Build Agents with Microsoft Copilot Studio and surface them in M365 Copilot Chat"
+    date: "2026-10-01T05:38:53.000Z"
+    commit: null
+    t: 435
+    quote: if your flow waits for approval then when you come back it automatically resumes and you keep the full context
 links:
   learn: []
   objects: []
@@ -314,11 +314,6 @@ features:
     t: 2082
     verified: false
     status_source: video
-  - name: Advanced testing with CLI toolkit
-    status: unclear
-    t: 2131
-    verified: false
-    status_source: video
   - name: MCP server access control
     status: unclear
     t: 2178
@@ -366,11 +361,11 @@ quotes:
   - t: 139
     text: the goal behind Microsoft Copilot Studio is to basically enable everyone to build agents, right?
     check: exact
-  - t: 253
-    text: Microsoft Copilot Studio is one of the few products in Microsoft and so some extent we're really jealous that can you can get access
-    check: exact
   - t: 318
     text: you have the 1400 plus connectors in in in Power Platform
+    check: exact
+  - t: 435
+    text: if your flow waits for approval then when you come back it automatically resumes and you keep the full context
     check: exact
 ---
 
@@ -378,7 +373,7 @@ quotes:
 
 > Building agents in Microsoft Copilot Studio that work with Business Central through MCP servers or Power Platform connectors, and surfacing them in Microsoft 365 Copilot chat. Demos cover a compliance agent and a laptop ordering agent with approvals, plus testing, monitoring, evaluation, multi-agent setups, security and licensing.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=uMKLsKfKPc0) · mibuso.com / BC TechDays · 2026-10-01 · 41:34 · tier community · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=uMKLsKfKPc0) · mibuso.com / BC TechDays · 2026-10-01 · 41:34 · tier community · reviewed (checked by Opus)
 
 ## Overview
 
@@ -390,11 +385,11 @@ Two demos are shown: a compliance agent that checks Business Central users, and 
 
 - Agents built in Copilot Studio for Business Central can be published to Microsoft 365 Copilot chat. They call Power Platform connectors or MCP server endpoints behind the scenes, and publishing creates a declarative agent manifest in the agent store.
 - Tools and subagents can be referenced in agent instructions with slash notation, which makes tool selection more reliable than describing them in text.
-- Agentic flows can include human approval steps, sent via Teams. The flow resumes with full context, but the agent needs an explicit instruction to tell the user it is waiting.
-- In Copilot Studio testing, all tool calls and return values are visible. MCP connections are slow during testing and initialization, so performance is slower than in production.
+- Agentic flows can include human approval steps, for example via Teams. The flow resumes with full context, but the agent needs an explicit instruction to tell the user it is waiting.
+- In Copilot Studio testing, all tool calls and return values are visible. MCP connections are slow to initialize during testing, so performance is slower than in production.
 - Evaluations in the Copilot Studio UI run manually. Power Automate (evaluate agent connector) or the evaluation APIs can run them on a schedule or from external systems.
 - In multi-agent setups, child agents inherit the session. Only one agent should talk to the user at a time, and a child agent can have broader permissions than the master agent.
-- Copilot Studio billing: credit packs of 25,000 credits per month for 200 dollars, or pay-as-you-go. Agents ship through Power Platform solutions and can be published to AppSource. Users calling agent APIs in Business Central need a Business Central license.
+- Copilot Studio billing: credit packs of 25,000 credits per month for 200 per month, or pay-as-you-go. Agents ship through Power Platform solutions and can be published to AppSource. Users calling agent APIs in Business Central need a Business Central license.
 
 ## Chapters
 
@@ -452,9 +447,8 @@ Two demos are shown: a compliance agent that checks Business Central users, and 
 | Business Central limited usage rights on Power Platform | status not stated | [34:02](https://www.youtube.com/watch?v=uMKLsKfKPc0&t=2042s) |  |
 | Copilot credit pricing model | status not stated | [34:18](https://www.youtube.com/watch?v=uMKLsKfKPc0&t=2058s) |  |
 | Copilot Studio cost estimator | status not stated | [34:42](https://www.youtube.com/watch?v=uMKLsKfKPc0&t=2082s) |  |
-| Advanced testing with CLI toolkit | status not stated | [35:31](https://www.youtube.com/watch?v=uMKLsKfKPc0&t=2131s) |  |
 | MCP server access control | status not stated | [36:18](https://www.youtube.com/watch?v=uMKLsKfKPc0&t=2178s) |  |
-| Power Platform solution distribution for agents | generally available | [39:28](https://www.youtube.com/watch?v=uMKLsKfKPc0&t=2368s) | "Today you today you will ship it through a Power Platform solution, right? So you would create a Power Platform solution and and you" ([39:40](https://www.youtube.com/watch?v=uMKLsKfKPc0&t=2380s)) |
+| Power Platform solution distribution for agents | generally available | [39:28](https://www.youtube.com/watch?v=uMKLsKfKPc0&t=2368s) | "Today you today you will ship it through a Power Platform solution, right?" ([39:40](https://www.youtube.com/watch?v=uMKLsKfKPc0&t=2380s)) |
 | Agent credit margin for ISVs | status not stated | [39:54](https://www.youtube.com/watch?v=uMKLsKfKPc0&t=2394s) |  |
 | Agent access from Business Central chat | status not stated | [41:00](https://www.youtube.com/watch?v=uMKLsKfKPc0&t=2460s) |  |
 | Business Central license requirement for agent APIs | status not stated | [41:16](https://www.youtube.com/watch?v=uMKLsKfKPc0&t=2476s) |  |
@@ -482,8 +476,8 @@ As heard in the captions. A name that matches one object page by exact type and 
 - [0:46](https://www.youtube.com/watch?v=uMKLsKfKPc0&t=46s) "the difference is basically the level of autonomy, right? As a as a user I give a specific task to Copilot and then Copilot"
 - [1:24](https://www.youtube.com/watch?v=uMKLsKfKPc0&t=84s) "Copilot Studio is, you know, the one recommended flat platform from Microsoft for you to build, manage and customize agents and Copilots and specifically"
 - [2:19](https://www.youtube.com/watch?v=uMKLsKfKPc0&t=139s) "the goal behind Microsoft Copilot Studio is to basically enable everyone to build agents, right?"
-- [4:13](https://www.youtube.com/watch?v=uMKLsKfKPc0&t=253s) "Microsoft Copilot Studio is one of the few products in Microsoft and so some extent we're really jealous that can you can get access"
 - [5:18](https://www.youtube.com/watch?v=uMKLsKfKPc0&t=318s) "you have the 1400 plus connectors in in in Power Platform"
+- [7:15](https://www.youtube.com/watch?v=uMKLsKfKPc0&t=435s) "if your flow waits for approval then when you come back it automatically resumes and you keep the full context"
 
 ## Disclaimers in the video
 

@@ -1,0 +1,39 @@
+{
+  "video_id": "YX9UfUF0EsA",
+  "item_id": "video/yt-mibuso/YX9UfUF0EsA",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Quote at t=45.5 ends in an added ellipsis ('used in the ...'), so it is not a verbatim span. It also adds little, so I dropped it.",
+    "The evidence_t for 'BC 29 public release planned' pointed to 2141.6, but the quote starts in segment 2169.2. Corrected.",
+    "Several features with clear status statements were left as unclear. I set statuses with verbatim evidence: overall preview, BC 29 and later, and read-only for the first version.",
+    "'Copilot Studio agent integration for task automation' duplicates 'Copilot Studio agents integration'. Dropped.",
+    "'External Copilot Chat Access' is an audience feature request, not a presented capability. Dropped.",
+    "The 'Enhanced record summarization' description mixes the existing per-page summarization feature (t=223.6) with the new M365 record summarization (t=780). It is left as unclear.",
+    "Added a quote on the October to April timeline and one on chat history encryption and no model training.",
+    "The summary and key points are supported by the transcript. No change."
+  ],
+  "input_hash": "0ba9d95597f84c1dfb614c0b3df4c26aca550226556dd5cfb0c466b7594f8cc6",
+  "by": "opus",
+  "at": "2026-10-07T23:17:12.529Z",
+  "applied": [
+    "dropped 2 feature(s)",
+    "M365 Copilot chat in Business Central: status preview",
+    "MVP private preview access: status preview",
+    "BC 29 public release planned: status announced",
+    "Partner preview access before BC 29: status announced",
+    "dropped 1 quote(s)",
+    "quote at 2193s",
+    "quote at 1861s"
+  ],
+  "rejected_edits": [
+    "status BC 29 and later only -> announced: evidence not verbatim or does not state the status",
+    "status Read-only Copilot Chat -> announced: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.271565
+  }
+}

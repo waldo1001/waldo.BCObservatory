@@ -2,7 +2,7 @@
 id: video/PZVTTem-nZw
 type: video
 title: Creating TableExtensions in BC29 like we're back in NAV (But Business Central)
-summary: Table extension storage in Business Central 29 and cross-app keys. Extension fields now sit in a single SQL table alongside the base table, which allows keys that mix base table fields with fields from extensions in different apps. Requires runtime 18 and platform 29.
+summary: "The video covers table extension storage in Business Central 29. Extension fields are no longer kept in a separate SQL table but are stored in the same SQL table as the base table. This lets a table extension define cross-app keys that combine base table fields (for example, customer No.) with the extension's own fields. It requires runtime 18 and platform 29. Trade-offs: uninstalling an app with delete data now drops columns, and SQL's limit of about 1000 columns per table applies."
 tier: community
 language: en
 tags:
@@ -15,12 +15,12 @@ tags:
   - app uninstalling
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:16:25.805Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:16:25.855Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -49,19 +49,19 @@ evidence:
     t: 288
     quote: now we arrive at BC 29 and Microsoft has added so we have the base table and we have the table with with the
   - kind: video
-    url: https://www.youtube.com/watch?v=PZVTTem-nZw&t=475s
+    url: https://www.youtube.com/watch?v=PZVTTem-nZw&t=301s
     title: Creating TableExtensions in BC29 like we're back in NAV (But Business Central)
     date: "2026-10-05T11:00:38.000Z"
     commit: null
-    t: 475
-    quote: we couldn't do this before and this will have a big impact on on
+    t: 301
+    quote: we have the table with with the extension fields and now this is stored as a single table on SQL.
   - kind: video
-    url: https://www.youtube.com/watch?v=PZVTTem-nZw&t=576s
+    url: https://www.youtube.com/watch?v=PZVTTem-nZw&t=348s
     title: Creating TableExtensions in BC29 like we're back in NAV (But Business Central)
     date: "2026-10-05T11:00:38.000Z"
     commit: null
-    t: 576
-    quote: when you uninstall an app and ask to delete data if you're the only app that is extending a table, then you know, Microsoft
+    t: 348
+    quote: if we're not on runtime 18 and if you're not on a uh in reality platform 29
 links:
   learn: []
   objects: []
@@ -143,19 +143,19 @@ quotes:
   - t: 288
     text: now we arrive at BC 29 and Microsoft has added so we have the base table and we have the table with with the
     check: exact
-  - t: 475
-    text: we couldn't do this before and this will have a big impact on on
-    check: fuzzy
-  - t: 576
-    text: when you uninstall an app and ask to delete data if you're the only app that is extending a table, then you know, Microsoft
+  - t: 301
+    text: we have the table with with the extension fields and now this is stored as a single table on SQL.
+    check: exact
+  - t: 348
+    text: if we're not on runtime 18 and if you're not on a uh in reality platform 29
     check: exact
 ---
 
 # Creating TableExtensions in BC29 like we're back in NAV (But Business Central)
 
-> Table extension storage in Business Central 29 and cross-app keys. Extension fields now sit in a single SQL table alongside the base table, which allows keys that mix base table fields with fields from extensions in different apps. Requires runtime 18 and platform 29.
+> The video covers table extension storage in Business Central 29. Extension fields are no longer kept in a separate SQL table but are stored in the same SQL table as the base table. This lets a table extension define cross-app keys that combine base table fields (for example, customer No.) with the extension's own fields. It requires runtime 18 and platform 29. Trade-offs: uninstalling an app with delete data now drops columns, and SQL's limit of about 1000 columns per table applies.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=PZVTTem-nZw) · Erik Hougaard · 2026-10-05 · 12:26 · tier community · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=PZVTTem-nZw) · Erik Hougaard · 2026-10-05 · 12:26 · tier community · reviewed (checked by Opus)
 
 ## Overview
 
@@ -165,13 +165,13 @@ In BC29, table extensions are no longer stored in separate tables. The video dem
 
 ## Key points
 
-- In BC29, table extensions are no longer stored in a separate table per app but in a single SQL table together with the base table.
-- Cross-app keys, combining standard table fields with extension fields from different apps, are possible in BC29 and were not possible in BC12 to BC28.
-- The behavior requires runtime 18 and platform 29.
-- The SQL column limit is around 1000 fields in the Business Central setup, which limits how many fields can be stored.
-- Compact extension storage (around BC24, version uncertain) reduced joins to two tables but did not support cross-app keys.
-- Load fields let developers choose which fields to retrieve, but it is hard to predict which fields can safely be excluded.
-- The video touches on uninstalling an app and deleting its data when it is the only app extending a table.
+- In BC29, table extension fields are no longer stored in a separate table but in a single SQL table together with the base table.
+- From BC12 onward, every app extending a base table got its own SQL table, so heavily extended tables such as sales header and lines needed joins across many tables.
+- Load fields let developers choose which fields to retrieve so that unused app tables are left out of the join, but it is hard to predict which fields can safely be excluded.
+- Compact extension storage (around BC24, version uncertain) put all extension fields into one extra table, so only two tables were joined, but it still did not support cross-app keys.
+- In BC29, a table extension can define keys that combine base app fields (for example, customer No.) with its own fields. The demo adds such a key on a Customer table extension.
+- This requires runtime 18 and platform 29.
+- Workarounds such as copying a base field like customer number into the extension to get usable keys are no longer needed.
 
 ## Chapters
 
@@ -186,12 +186,12 @@ In BC29, table extensions are no longer stored in separate tables. The video dem
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Table extensions stored in single SQL table | generally available (roadmap [573332](../features/573332.md)), demoed | [4:48](https://www.youtube.com/watch?v=PZVTTem-nZw&t=288s) |  |
-| Cross-app keys in table extensions | generally available (roadmap [573315](../features/573315.md)), demoed | [4:07](https://www.youtube.com/watch?v=PZVTTem-nZw&t=247s) |  |
-| Load fields for selective field retrieval | status not stated | [2:25](https://www.youtube.com/watch?v=PZVTTem-nZw&t=145s) |  |
-| Compact extension table storage | status not stated | [3:32](https://www.youtube.com/watch?v=PZVTTem-nZw&t=212s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Table extensions stored in single SQL table | generally available (roadmap [573332](../features/573332.md)), demoed | [4:48](https://www.youtube.com/watch?v=PZVTTem-nZw&t=288s) |
+| Cross-app keys in table extensions | generally available (roadmap [573315](../features/573315.md)), demoed | [4:07](https://www.youtube.com/watch?v=PZVTTem-nZw&t=247s) |
+| Load fields for selective field retrieval | status not stated | [2:25](https://www.youtube.com/watch?v=PZVTTem-nZw&t=145s) |
+| Compact extension table storage | status not stated | [3:32](https://www.youtube.com/watch?v=PZVTTem-nZw&t=212s) |
 
 A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
@@ -213,8 +213,8 @@ Not found in BC28-30: table "customer table", table "table 36", table "table 37"
 - [0:23](https://www.youtube.com/watch?v=PZVTTem-nZw&t=23s) "table extensions are no longer stored in the separate table"
 - [4:07](https://www.youtube.com/watch?v=PZVTTem-nZw&t=247s) "Microsoft never got around to support cross app uh keys. And and when I say cross app, I I the the main use case"
 - [4:48](https://www.youtube.com/watch?v=PZVTTem-nZw&t=288s) "now we arrive at BC 29 and Microsoft has added so we have the base table and we have the table with with the"
-- [7:55](https://www.youtube.com/watch?v=PZVTTem-nZw&t=475s) "we couldn't do this before and this will have a big impact on on"
-- [9:36](https://www.youtube.com/watch?v=PZVTTem-nZw&t=576s) "when you uninstall an app and ask to delete data if you're the only app that is extending a table, then you know, Microsoft"
+- [5:01](https://www.youtube.com/watch?v=PZVTTem-nZw&t=301s) "we have the table with with the extension fields and now this is stored as a single table on SQL."
+- [5:48](https://www.youtube.com/watch?v=PZVTTem-nZw&t=348s) "if we're not on runtime 18 and if you're not on a uh in reality platform 29"
 
 ## Disclaimers in the video
 

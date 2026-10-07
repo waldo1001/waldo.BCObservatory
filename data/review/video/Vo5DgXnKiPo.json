@@ -1,0 +1,36 @@
+{
+  "video_id": "Vo5DgXnKiPo",
+  "item_id": "video/yt-mibuso/Vo5DgXnKiPo",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "The quote at 1369.7 ends with '...' so it is not verbatim. Dropped it and re-added the verbatim span.",
+    "The quote at 1145.6 is filler ('you can see that here') and adds nothing. Dropped.",
+    "'Template hierarchy and nested template composition' is an audience question, not a feature. The presenters were unsure whether it works. Dropped.",
+    "The description of 'Template repositories for AL-Go configuration' says templates can be assigned to GitHub organizations, which the transcript does not say. It also repeats AL-Go custom templates. Dropped.",
+    "'Beer tenant' is a caption error. The speakers say 'PT' ('AppSource versus PT'). Changed the key point to use PT.",
+    "Custom jobs are described as something AL-Go 'now offers', so their status is set to ga with that quote as evidence.",
+    "Added quotes on deprecation warnings in telemetry and on custom template repos not holding AL-Go code. Added a key point that existing repositories can adopt a template later."
+  ],
+  "input_hash": "ac3948a0feafffc19d4eeb2e4f33d69fcf58efabcda2d0fd25a844f5af8a6860",
+  "by": "opus",
+  "at": "2026-10-07T23:17:38.753Z",
+  "applied": [
+    "dropped 2 feature(s)",
+    "AL-Go telemetry module: status ga",
+    "dropped 2 quote(s)",
+    "quote at 1370s",
+    "quote at 1181s",
+    "quote at 646s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [
+    "status AL-Go custom jobs -> ga: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.17266900000000002
+  }
+}

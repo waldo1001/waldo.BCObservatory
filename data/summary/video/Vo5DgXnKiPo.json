@@ -5,12 +5,12 @@
   "overview": "The session starts from Microsoft's own scale: about 100 internal repositories, the largest with over 100 PRs per day. It uses the broken window theory to argue that small unfixed issues in pipelines lower standards over time, and notes that about 12% of organizations have more than 50 AL-Go repositories.\n\nThe demos cover three ways to keep repositories consistent: custom jobs added to workflow files that system updates do not overwrite, custom template repositories that push shared jobs, scripts and settings to end repositories through update ecosystem files, and AL-Go telemetry sent to Application Insights and viewed in a starter Azure Data Explorer dashboard. The final part shows the GitHub Copilot CLI desktop app building custom dashboards and handing CI/CD failure investigation to an agent. A Q&A covers template choice, settings and template hierarchies.",
   "key_points": [
     "AL-Go for GitHub lets you add your own custom jobs to workflow YAML files; they are not wiped when AL-Go system files are updated. Caveats: jobs you depend on may disappear in later versions, and your job names may clash with names AL-Go picks later.",
-    "A custom template repository can be set as the template for multiple end repositories; changes propagate when you run update ecosystem files. Such a template repository should typically not contain AL-Go code.",
+    "A custom template repository can be set as the template for multiple end repositories; changes propagate when you run update AL-Go system files. Such a template repository should typically not contain AL-Go code. Existing repositories can be pointed to a new template after the fact.",
     "Settings can live at user, project, repository and organization level; moving them to organization level or templates helps keep consistency.",
     "AL-Go ships a telemetry module that emits to Application Insights (workflow outcomes, action durations, errors, test results). It needs a partner telemetry connection string, which can be set in templates.",
     "The Azure Data Explorer dashboard is a starter only: about 5 minutes of setup and a manual import of a JSON file. It shows workflow status, pipeline performance, errors, runner types and AL-Go version across repositories.",
     "Deprecated AL-Go settings are emitted as warnings in telemetry.",
-    "Templates are preferred over GitHub organization variables for versioning strategy because they are version controlled. AppSource and beer tenant templates share about 95% of content; nested template hierarchies were not an original design goal."
+    "Templates are preferred over GitHub organization variables for versioning strategy because they are version controlled. AppSource and PT templates are about 95% the same; nested template hierarchies were not an original design goal."
   ],
   "audience": [
     "developer",

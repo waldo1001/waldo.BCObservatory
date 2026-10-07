@@ -600,25 +600,6 @@
       "system": "development"
     },
     {
-      "name": "LSP vs text-based search accuracy",
-      "description": "Demonstration comparing LSP-based symbol finding with grep text-based search showed 80% mismatch rate when finding references to number fields on customer table, illustrating LSP accuracy advantage for code modifications.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 1438.7,
-      "t_end": 1480,
-      "is_demoed": true,
-      "caveats": [],
-      "tags": [
-        "lsp accuracy",
-        "symbol finding",
-        "code modifications",
-        "performance comparison"
-      ],
-      "system": "development"
-    },
-    {
       "name": "BCbench evaluation framework",
       "description": "Evaluation framework based on SWE bench that contains real bugs from actual commits to verify coding agents don't cause regressions. Uses hidden tests for verification of bug fixes.",
       "status": "unclear",
@@ -662,45 +643,6 @@
         "evaluation methodology"
       ],
       "system": "platform"
-    },
-    {
-      "name": "Agentic workflow",
-      "description": "A sequence of steps calling tools, instructions, and skills that guides agents toward a specific purpose. Used in bug fixing agents to systematically solve problems.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 1657.8,
-      "t_end": 1674.6,
-      "is_demoed": false,
-      "caveats": [],
-      "tags": [
-        "agentic workflow",
-        "agent orchestration",
-        "tools and skills"
-      ],
-      "system": "copilot"
-    },
-    {
-      "name": "Baseline model performance with tools and instructions",
-      "description": "Evaluation baseline shows 67% bug fixing success rate with base model. Adding tools improved to 71%, then instructions moved toward 100% target, demonstrating additive value of tools and instructions.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 1615.8,
-      "t_end": 1646.8,
-      "is_demoed": false,
-      "caveats": [
-        "percentages show relative improvement; exact final target percentage not stated"
-      ],
-      "tags": [
-        "evaluation results",
-        "baseline performance",
-        "tools and instructions",
-        "bug fixing success rate"
-      ],
-      "system": "copilot"
     },
     {
       "name": "Agentic workflow framework",
@@ -1103,7 +1045,7 @@
     {
       "t": 66.6,
       "text": "with the agent mode, you can have this multi-step operation where you can take it from a small simple operation ...",
-      "why_it_matters": "Defines the scope and capability of agent mode for handling complex, extended workflows",
+      "why_it_matters": "Defines agent mode as multi-step, from small tasks to multi-day sessions.",
       "check": "exact"
     },
     {
@@ -1168,8 +1110,8 @@
     },
     {
       "t": 1201.2,
-      "text": "when it comes to developing your extension, it would be nice that the agent actually had in-depth knowledge about how ...",
-      "why_it_matters": "Justifies LSP adoption for providing semantic understanding to agents for better code development accuracy.",
+      "text": "it would be nice that the agent actually had in-depth knowledge about how it is to work with your language",
+      "why_it_matters": "Motivation for exposing the AL language server protocol to agents.",
       "check": "exact"
     },
     {
@@ -1222,8 +1164,8 @@
     },
     {
       "t": 2054.1,
-      "text": "you can pay attention it's running on the cloud sonet 4.6 there is a reason for this one I want ...",
-      "why_it_matters": "Shows model selection strategy for cost optimization, using frontier models for complex planning phases and cheaper models when full context is already captured in the plan.",
+      "text": "since I have everything in the plan there's no need to spend money for the sub agent and I use it sonet 4.6",
+      "why_it_matters": "Explains choosing a cheaper model for sub-agents once a frontier model produced the plan.",
       "check": "exact"
     },
     {
@@ -1234,14 +1176,8 @@
     },
     {
       "t": 2341.1,
-      "text": "if you want to get it to the production level don't forget about the evaluation because you want to make sure that it is",
-      "why_it_matters": "Stresses the importance of evaluation methodologies for production-readiness, ensuring consistency beyond experimental workflows.",
-      "check": "exact"
-    },
-    {
-      "t": 2341.1,
-      "text": "but then if you want to get it to the production level don't forget about the evaluation because you want to make sure that",
-      "why_it_matters": "Emphasizes the importance of evaluation before production deployment to ensure solution consistency.",
+      "text": "don't forget about the evaluation because you want to make sure that it is actually consistent",
+      "why_it_matters": "Key takeaway: evaluation is needed before taking agentic workflows to production.",
       "check": "exact"
     },
     {

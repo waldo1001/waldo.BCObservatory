@@ -98,10 +98,10 @@
     {
       "name": "M365 Copilot chat in Business Central",
       "description": "Integration of M365 Copilot chat as the home for all copilot experiences in Business Central, replacing the previous isolated BC chat with unified platform access to agents, co-work, and autopilots. Allows users to query business central data, access chat history across Microsoft 365 applications, and integrate with other Microsoft products.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
+      "status": "preview",
+      "status_evidence_t": 2141.6,
+      "status_evidence_quote": "we are actually already in a a limited private preview for MVPs.",
+      "status_evidence_verified": true,
       "t_start": 425.1,
       "t_end": 2453,
       "is_demoed": true,
@@ -587,24 +587,6 @@
       "system": "integration"
     },
     {
-      "name": "Copilot Studio agent integration for task automation",
-      "description": "Users can build Copilot Studio agents to perform specific tasks like creating invoices and talk to those agents through M365 Copilot Chat in BC.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 1981.7,
-      "t_end": 2015.4,
-      "is_demoed": false,
-      "caveats": [],
-      "tags": [
-        "copilot studio",
-        "agents",
-        "extensibility"
-      ],
-      "system": "copilot"
-    },
-    {
       "name": "Partner extension guidance for Copilot",
       "description": "Partners should ensure extensions contain meaningful information by adding tooltips to fields, naming things well, and making page names more descriptive. These are used to train Copilot on how to use extensions.",
       "status": "unclear",
@@ -781,27 +763,6 @@
       "system": "copilot"
     },
     {
-      "name": "External Copilot Chat Access",
-      "description": "Users and managers want to access Business Central data through Copilot chat outside of Business Central interface to query information like item availability without opening Business Central.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 2453,
-      "t_end": 2489.5,
-      "is_demoed": false,
-      "caveats": [
-        "Requires additional work beyond current implementation",
-        "Timeline unclear"
-      ],
-      "tags": [
-        "external access",
-        "copilot chat",
-        "roadmap"
-      ],
-      "system": "integration"
-    },
-    {
       "name": "Free Read-Only Access Model",
       "description": "Aims to provide free read-only access to Business Central via Copilot similar to how Teams integration works, where users without Business Central license but with other Microsoft licenses can get limited access.",
       "status": "unclear",
@@ -916,12 +877,6 @@
   ],
   "quotes": [
     {
-      "t": 45.5,
-      "text": "we have our own co-pilot chat, and we also have the M365 co-pilot, which you probably have used in the ...",
-      "why_it_matters": "Establishes the context of existing copilot offerings before the integration announcement",
-      "check": "exact"
-    },
-    {
       "t": 238.3,
       "text": "Now we have agents, right? So we realized that not only can the LLM do natural language processing, it can also make decisions,",
       "why_it_matters": "Explains the advancement from chat and NLP to autonomous agent capabilities",
@@ -1006,6 +961,12 @@
       "check": "exact"
     },
     {
+      "t": 1861.1,
+      "text": "stored encrypted following all of the regional requirements, right, for cross geo, where is it stored, and it is not used for model training",
+      "why_it_matters": "Explains how chat history is stored and states that it is not used for model training.",
+      "check": "exact"
+    },
+    {
       "t": 1937.2,
       "text": "at the moment, for the first version, it is read only in Business Central, right?",
       "why_it_matters": "Sets clear expectations about current capabilities limitations and signals that write actions are a future consideration.",
@@ -1015,6 +976,12 @@
       "t": 2169.2,
       "text": "we're planning a public release for BC 29. I was allowed to disclose this at least. We're not exactly sure when.",
       "why_it_matters": "Provides key timeline information about general availability while being transparent about uncertainty in exact dates.",
+      "check": "exact"
+    },
+    {
+      "t": 2193,
+      "text": "But sometime between October and April, we're expecting this to be in the hands of your users.",
+      "why_it_matters": "Gives the expected availability window for the BC 29 public release.",
       "check": "exact"
     },
     {

@@ -1,0 +1,35 @@
+{
+  "video_id": "cVfZoDwKYpI",
+  "item_id": "video/yt-mibuso/cVfZoDwKYpI",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Expense Agent preview evidence pointed to t 4.2, but the quote is not in that segment. I moved the evidence to the closing statement at t 4320.2.",
+    "Expense Policies evidence_t was 3745, but the quote starts in the segment at 3781.8. Corrected.",
+    "The 95 Percent Accuracy Requirement was marked ga. It is an internal shipping threshold, not a released feature, so I set it to unclear.",
+    "Mobile Client Support is stated as coming 'pretty soon' in the client access setup, so I set it to announced with evidence.",
+    "A key point said project attachment is 'desktop only'. The transcript says it is done in Business Central for now and that web app support is in progress. Corrected.",
+    "Two quote pairs are near-duplicates (t 1660.2 and t 3147.3). I left them because they cannot be dropped individually by t.",
+    "The Model Comparison Framework description names Claude, but the transcript only says 'entropic models' and 'chipt'. Minor; left as is.",
+    "Several features describe internal engineering methods (speedboat team, unified repo, evals) rather than product features. They are supported by the transcript, so I kept them."
+  ],
+  "input_hash": "df52e2e967c202f8a1fe80b44ba5689bdabee3dca0e80727e207bae8eed6464e",
+  "by": "opus",
+  "at": "2026-10-07T23:16:41.310Z",
+  "applied": [
+    "Expense Agent: status preview",
+    "Expense Policies: status announced",
+    "95 Percent Accuracy Requirement: status unclear",
+    "quote at 2752s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [
+    "status Mobile Client Support -> announced: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.331909
+  }
+}

@@ -16,12 +16,12 @@ tags:
   - preview and ga status
 system: platform
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:16:21.596Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:16:21.642Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -30,11 +30,11 @@ generated:
 evidence:
   - kind: video
     url: https://www.youtube.com/watch?v=x0XF0lBvgEE&t=468s
-    title: "Dynamics 365 Business Central Expense Agent - Withholding Taxes: preview"
+    title: "Dynamics 365 Business Central Expense Agent - Withholding Taxes: announced"
     date: "2026-10-02T05:30:16.000Z"
     commit: null
     t: 468
-    quote: the preview available will be on October 2026 typically with CU 0 or CU1 and the roll out start in the next wave which
+    quote: the preview available will be on October 2026 typically with CU 0 or CU1 and the roll out start in the next wave
   - kind: video
     url: https://www.youtube.com/watch?v=x0XF0lBvgEE&t=114s
     title: "Microsoft Ends Business Central Release Plans: What Changes?"
@@ -183,7 +183,7 @@ quotes:
 
 > Business Central release plans were discontinued starting with version 2026 release wave 2, and new capabilities are now published on the AI at Work Roadmap. The video covers the roadmap's filters, CSV export, MCP server access, and the unchanged release cadence of two major releases a year plus monthly minor updates.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=x0XF0lBvgEE) · Saurav Dhyani · 2026-10-02 · 13:41 · tier community · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=x0XF0lBvgEE) · Saurav Dhyani · 2026-10-02 · 13:41 · tier community · reviewed (checked by Opus)
 
 ## Overview
 
@@ -220,7 +220,7 @@ The video walks through the roadmap's filters and its launched and in-developmen
 | AI at Work Roadmap | status not stated, demoed | [2:08](https://www.youtube.com/watch?v=x0XF0lBvgEE&t=128s) |  |
 | Release Plan Discontinuation | status not stated | [1:54](https://www.youtube.com/watch?v=x0XF0lBvgEE&t=114s) |  |
 | Copilot Agent Capabilities - Run Data Queries with MCP Server | generally available (roadmap [573312](../features/573312.md)), demoed | [6:20](https://www.youtube.com/watch?v=x0XF0lBvgEE&t=380s) |  |
-| Dynamics 365 Business Central Expense Agent - Withholding Taxes | preview (roadmap [573304](../features/573304.md)), demoed | [7:37](https://www.youtube.com/watch?v=x0XF0lBvgEE&t=457s) | "the preview available will be on October 2026 typically with CU 0 or CU1 and the roll out start in the next wave which" ([7:48](https://www.youtube.com/watch?v=x0XF0lBvgEE&t=468s)) |
+| Dynamics 365 Business Central Expense Agent - Withholding Taxes | preview (roadmap [573304](../features/573304.md)), demoed | [7:37](https://www.youtube.com/watch?v=x0XF0lBvgEE&t=457s) | "the preview available will be on October 2026 typically with CU 0 or CU1 and the roll out start in the next wave" ([7:48](https://www.youtube.com/watch?v=x0XF0lBvgEE&t=468s)) |
 | Roadmap CSV Export | status not stated, demoed | [10:56](https://www.youtube.com/watch?v=x0XF0lBvgEE&t=656s) |  |
 | MCP Server Integration for Roadmap | status not stated, demoed | [11:44](https://www.youtube.com/watch?v=x0XF0lBvgEE&t=704s) |  |
 | Business Central Release Schedule | status not stated | [3:30](https://www.youtube.com/watch?v=x0XF0lBvgEE&t=210s) |  |

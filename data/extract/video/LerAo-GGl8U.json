@@ -282,33 +282,12 @@
       "system": "copilot"
     },
     {
-      "name": "Agent-driven environment uninstall and upgrade",
-      "description": "The admin MCP agent can uninstall extensions and schedule environment upgrades using natural language commands. The agent verifies uninstallation before triggering upgrades.",
-      "status": "preview",
-      "status_evidence_t": 799.9,
-      "status_evidence_quote": "This is a security measure for our public preview.",
-      "status_evidence_verified": true,
-      "t_start": 786.5,
-      "t_end": 979.4,
-      "is_demoed": true,
-      "caveats": [
-        "Agent cannot uninstall extensions by design",
-        "Uninstallation must be manual or scheduled"
-      ],
-      "tags": [
-        "agent automation",
-        "extension management",
-        "environment upgrade"
-      ],
-      "system": "administration"
-    },
-    {
       "name": "Admin MCP Server authentication flow",
       "description": "Admin MCP server exposes tools and a well-known authentication endpoint. VS Code and Copilot Studio authenticate via Entra to obtain tokens and cache credentials for subsequent API calls.",
-      "status": "preview",
-      "status_evidence_t": 799.9,
-      "status_evidence_quote": "This is a security measure for our public preview.",
-      "status_evidence_verified": true,
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
       "t_start": 992.3,
       "t_end": 1067.8,
       "is_demoed": true,
@@ -324,10 +303,10 @@
     {
       "name": "Copilot Studio MCP custom connector setup",
       "description": "Users can create custom MCP connectors in Copilot Studio by registering an Entra application, specifying OAuth 2.0 endpoints, client credentials, and scopes. The connector supports JSON RPC calls to the Admin MCP server.",
-      "status": "preview",
-      "status_evidence_t": 799.9,
-      "status_evidence_quote": "This is a security measure for our public preview.",
-      "status_evidence_verified": true,
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
       "t_start": 1281.5,
       "t_end": 1539.8,
       "is_demoed": true,
@@ -346,10 +325,10 @@
     {
       "name": "Agent tool invocation via MCP",
       "description": "Agents in Copilot Studio can invoke tools from the Admin MCP server using JSON RPC protocol. Agents can query available tools and execute operations like listing Business Central environments.",
-      "status": "preview",
-      "status_evidence_t": 799.9,
-      "status_evidence_quote": "This is a security measure for our public preview.",
-      "status_evidence_verified": true,
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
       "t_start": 1539.8,
       "t_end": 1764.2,
       "is_demoed": true,
@@ -379,27 +358,6 @@
         "admin center"
       ],
       "system": "administration"
-    },
-    {
-      "name": "Agent integration with MCP tools in Propeller Studio",
-      "description": "Agents in Propeller Studio can call MCP tools to list Business Central environments and manage delegated flows authentication.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 1616.9,
-      "t_end": 1764.2,
-      "is_demoed": true,
-      "caveats": [
-        "Only delegated flows supported, no S2S",
-        "Requires interactive user sign-in"
-      ],
-      "tags": [
-        "agents",
-        "capella studio",
-        "delegated flows"
-      ],
-      "system": "copilot"
     },
     {
       "name": "MCP proxy for multi-tenant partner scenarios",
@@ -632,8 +590,8 @@
     },
     {
       "t": 1018.6,
-      "text": "we are exposing a list of tools. Um and besides that, we are exposing a well-known endpoint there that will ...",
-      "why_it_matters": "Explains the MCP server's design to support standard authentication patterns via well-known endpoints.",
+      "text": "we are exposing a well-known endpoint there that will allow VS code to understand how exactly to authenticate to the to this service.",
+      "why_it_matters": "Explains how the well-known discovery endpoint lets clients authenticate to admin MCP without manual setup.",
       "check": "exact"
     },
     {

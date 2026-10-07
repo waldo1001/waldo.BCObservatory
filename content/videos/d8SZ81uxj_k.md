@@ -20,12 +20,12 @@ tags:
   - slide design
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:17:54.539Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:17:54.610Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -241,7 +241,7 @@ quotes:
 
 > Jeremy Visa, a Business Central MVP from Sweden, shares speaker development lessons from six years of speaking. It covers talk structure with anchors and accordion topics, slides as memory anchors, a four-gate preparation workflow with Claude, and AI-based talk evaluation with a local eval kit.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=d8SZ81uxj_k) · Areopa webinars · 2026-09-29 · 1:02:33 · tier community · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=d8SZ81uxj_k) · Areopa webinars · 2026-09-29 · 1:02:33 · tier community · reviewed (checked by Opus)
 
 ## Overview
 
@@ -289,23 +289,23 @@ The session covers practical methods. Talks are built from anchors and accordion
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Using AI to build presentations | status not stated | [5:59](https://www.youtube.com/watch?v=d8SZ81uxj_k&t=359s) |  |
-| Talk deck as receipt philosophy | status not stated | [7:20](https://www.youtube.com/watch?v=d8SZ81uxj_k&t=440s) |  |
-| Talk structure using anchors and accordion topics | status not stated | [15:53](https://www.youtube.com/watch?v=d8SZ81uxj_k&t=953s) |  |
-| Using slides as anchors rather than scripts | status not stated | [17:34](https://www.youtube.com/watch?v=d8SZ81uxj_k&t=1054s) |  |
-| AI-powered talk evaluation using audio and presentation materials | status not stated | [19:16](https://www.youtube.com/watch?v=d8SZ81uxj_k&t=1156s) |  |
-| Windows multi-clipboard for preloaded content | status not stated | [21:29](https://www.youtube.com/watch?v=d8SZ81uxj_k&t=1289s) |  |
-| Prepared AI session walkthroughs | status not stated | [21:29](https://www.youtube.com/watch?v=d8SZ81uxj_k&t=1289s) |  |
-| Flexible talk composition using index cards or post-it notes | status not stated | [23:38](https://www.youtube.com/watch?v=d8SZ81uxj_k&t=1418s) |  |
-| Reading the room and flexible content selection | status not stated | [24:57](https://www.youtube.com/watch?v=d8SZ81uxj_k&t=1497s) |  |
-| Accordion content structure for talks | status not stated, demoed | [26:42](https://www.youtube.com/watch?v=d8SZ81uxj_k&t=1602s) |  |
-| AI-assisted talk building with Claude | status not stated, demoed | [27:22](https://www.youtube.com/watch?v=d8SZ81uxj_k&t=1642s) |  |
-| Four-gate talk preparation framework | status not stated, demoed | [28:28](https://www.youtube.com/watch?v=d8SZ81uxj_k&t=1708s) |  |
-| Copilot for PowerPoint tasks | status not stated, demoed | [39:05](https://www.youtube.com/watch?v=d8SZ81uxj_k&t=2345s) |  |
-| Talk evaluation kit | status not stated, demoed | [39:49](https://www.youtube.com/watch?v=d8SZ81uxj_k&t=2389s) |  |
-| Talk performance metrics analysis | status not stated | [42:06](https://www.youtube.com/watch?v=d8SZ81uxj_k&t=2526s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Using AI to build presentations | status not stated | [5:59](https://www.youtube.com/watch?v=d8SZ81uxj_k&t=359s) |
+| Talk deck as receipt philosophy | status not stated | [7:20](https://www.youtube.com/watch?v=d8SZ81uxj_k&t=440s) |
+| Talk structure using anchors and accordion topics | status not stated | [15:53](https://www.youtube.com/watch?v=d8SZ81uxj_k&t=953s) |
+| Using slides as anchors rather than scripts | status not stated | [17:34](https://www.youtube.com/watch?v=d8SZ81uxj_k&t=1054s) |
+| AI-powered talk evaluation using audio and presentation materials | status not stated | [19:16](https://www.youtube.com/watch?v=d8SZ81uxj_k&t=1156s) |
+| Windows multi-clipboard for preloaded content | status not stated | [21:29](https://www.youtube.com/watch?v=d8SZ81uxj_k&t=1289s) |
+| Prepared AI session walkthroughs | status not stated | [21:29](https://www.youtube.com/watch?v=d8SZ81uxj_k&t=1289s) |
+| Flexible talk composition using index cards or post-it notes | status not stated | [23:38](https://www.youtube.com/watch?v=d8SZ81uxj_k&t=1418s) |
+| Reading the room and flexible content selection | status not stated | [24:57](https://www.youtube.com/watch?v=d8SZ81uxj_k&t=1497s) |
+| Accordion content structure for talks | status not stated, demoed | [26:42](https://www.youtube.com/watch?v=d8SZ81uxj_k&t=1602s) |
+| AI-assisted talk building with Claude | status not stated, demoed | [27:22](https://www.youtube.com/watch?v=d8SZ81uxj_k&t=1642s) |
+| Four-gate talk preparation framework | status not stated, demoed | [28:28](https://www.youtube.com/watch?v=d8SZ81uxj_k&t=1708s) |
+| Copilot for PowerPoint tasks | status not stated, demoed | [39:05](https://www.youtube.com/watch?v=d8SZ81uxj_k&t=2345s) |
+| Talk evaluation kit | status not stated, demoed | [39:49](https://www.youtube.com/watch?v=d8SZ81uxj_k&t=2389s) |
+| Talk performance metrics analysis | status not stated | [42:06](https://www.youtube.com/watch?v=d8SZ81uxj_k&t=2526s) |
 
 ## AL objects mentioned
 

@@ -20,12 +20,12 @@ tags:
   - durable workflows
 system: integration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:17:01.450Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:17:01.559Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -38,7 +38,7 @@ evidence:
     date: "2026-10-01T05:38:52.000Z"
     commit: null
     t: 2282
-    quote: Unfortunately, still in preview after a couple of years as well. But, uh Microsoft says that it will be uh soon it'll be uh
+    quote: Unfortunately, still in preview after a couple of years as well.
   - kind: video
     url: https://www.youtube.com/watch?v=xqwJTCPD9tA&t=2572s
     title: "Business events for integrations: preview"
@@ -46,13 +46,6 @@ evidence:
     commit: null
     t: 2572
     quote: I think we know the reason why it's still in preview. It's not instantaneously.
-  - kind: video
-    url: https://www.youtube.com/watch?v=xqwJTCPD9tA&t=4688s
-    title: "Warehouse returns and transfer orders: generally available"
-    date: "2026-10-01T05:38:52.000Z"
-    commit: null
-    t: 4688
-    quote: for return sales returns, purchase returns, transfer orders for when uh the customer wants to ship something from one 3PL to another 3PL, you
   - kind: video
     url: https://www.youtube.com/watch?v=xqwJTCPD9tA&t=210s
     title: Designing Modern Integrations in Business Central
@@ -403,9 +396,9 @@ features:
     verified: false
     status_source: video
   - name: Warehouse returns and transfer orders
-    status: ga
+    status: unclear
     t: 4688
-    verified: true
+    verified: false
     status_source: video
   - name: Webhook abstraction layer for 3PL integrations
     status: unclear
@@ -472,7 +465,7 @@ quotes:
 
 > Design patterns for Business Central integrations, built around an integration message table with an AL interface handler. It covers duplicate detection, idempotency keys, error classification, delayed reply, correlation IDs, durable workflows, polling, business events (in preview) and 3PL warehouse integration. It also shows AI agents guided by the BC quality knowledge base.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=xqwJTCPD9tA) · mibuso.com / BC TechDays · 2026-10-01 · 1:25:43 · tier community · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=xqwJTCPD9tA) · mibuso.com / BC TechDays · 2026-10-01 · 1:25:43 · tier community · reviewed (checked by Opus)
 
 ## Overview
 
@@ -488,7 +481,7 @@ The speakers also cover inbound and outbound data flow. Inbound webhooks need a 
 - Business Central cannot listen to external endpoints. Inbound webhooks need a separate integration service that converts them to integration messages.
 - Poll with a setup table that stores the last pull time, and keep the polling job limited to fetching into a staging table.
 - Business events are in preview. Delivery can be delayed by more than 5 minutes, which the speakers say makes them unsuitable for real-time inventory sync. Full payload requests should go to a read replica.
-- The Business Central cloud has a hard-coded network timeout of 1 minute. Message retention in the demo keeps completed messages for one week and failed messages for one month.
+- The speakers say the Business Central cloud has a hard-coded network timeout of 1 minute. In Q&A they said their message retention keeps completed messages for one week and failed messages for one month.
 
 ## Chapters
 
@@ -548,7 +541,7 @@ The speakers also cover inbound and outbound data flow. Inbound webhooks need a 
 | Polling with incremental reads | status not stated | [34:57](https://www.youtube.com/watch?v=xqwJTCPD9tA&t=2097s) |  |
 | Stage and exit pattern for polling | status not stated | [36:03](https://www.youtube.com/watch?v=xqwJTCPD9tA&t=2163s) |  |
 | Idempotency key for polling | status not stated | [36:55](https://www.youtube.com/watch?v=xqwJTCPD9tA&t=2215s) |  |
-| Business events for outbound integration | preview | [37:40](https://www.youtube.com/watch?v=xqwJTCPD9tA&t=2260s) | "Unfortunately, still in preview after a couple of years as well. But, uh Microsoft says that it will be uh soon it'll be uh" ([38:02](https://www.youtube.com/watch?v=xqwJTCPD9tA&t=2282s)) |
+| Business events for outbound integration | preview | [37:40](https://www.youtube.com/watch?v=xqwJTCPD9tA&t=2260s) | "Unfortunately, still in preview after a couple of years as well." ([38:02](https://www.youtube.com/watch?v=xqwJTCPD9tA&t=2282s)) |
 | Business events with read replica | status not stated | [38:48](https://www.youtube.com/watch?v=xqwJTCPD9tA&t=2328s) |  |
 | Business events multi-system subscription | status not stated | [39:25](https://www.youtube.com/watch?v=xqwJTCPD9tA&t=2365s) |  |
 | Business events for integrations | preview, demoed | [41:57](https://www.youtube.com/watch?v=xqwJTCPD9tA&t=2517s) | "I think we know the reason why it's still in preview. It's not instantaneously." ([42:52](https://www.youtube.com/watch?v=xqwJTCPD9tA&t=2572s)) |
@@ -575,7 +568,7 @@ The speakers also cover inbound and outbound data flow. Inbound webhooks need a 
 | Data exchange definition for configurable parsing | status not stated | [1:11:58](https://www.youtube.com/watch?v=xqwJTCPD9tA&t=4318s) |  |
 | Integration message table pattern | status not stated | [1:13:38](https://www.youtube.com/watch?v=xqwJTCPD9tA&t=4418s) |  |
 | Warehouse shipment and receipt integration | status not stated, demoed | [1:16:57](https://www.youtube.com/watch?v=xqwJTCPD9tA&t=4617s) |  |
-| Warehouse returns and transfer orders | generally available | [1:18:08](https://www.youtube.com/watch?v=xqwJTCPD9tA&t=4688s) | "for return sales returns, purchase returns, transfer orders for when uh the customer wants to ship something from one 3PL to another 3PL, you" ([1:18:08](https://www.youtube.com/watch?v=xqwJTCPD9tA&t=4688s)) |
+| Warehouse returns and transfer orders | status not stated | [1:18:08](https://www.youtube.com/watch?v=xqwJTCPD9tA&t=4688s) |  |
 | Webhook abstraction layer for 3PL integrations | status not stated | [1:19:04](https://www.youtube.com/watch?v=xqwJTCPD9tA&t=4744s) |  |
 | Webhook integration layer | status not stated, demoed | [1:19:32](https://www.youtube.com/watch?v=xqwJTCPD9tA&t=4772s) |  |
 | Business Central cloud network timeout | status not stated | [1:20:35](https://www.youtube.com/watch?v=xqwJTCPD9tA&t=4835s) |  |

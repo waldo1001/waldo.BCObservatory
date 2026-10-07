@@ -405,10 +405,10 @@
     {
       "name": "Online evaluation of AI features",
       "description": "Production monitoring of AI features by tracking user interactions such as thumbs up, heart reactions, thumbs down, and application of suggested fixes.",
-      "status": "ga",
-      "status_evidence_t": 1657.9,
-      "status_evidence_quote": "We also do online evaluation. That's also uh something we will or are doing for all um AI features that we ship.",
-      "status_evidence_verified": true,
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
       "t_start": 1657.9,
       "t_end": 1678.6,
       "is_demoed": false,
@@ -512,7 +512,7 @@
       "description": "Payables engine and sales agent code are currently locked but Microsoft is moving more things to GitHub. These agents are expected to be available soon.",
       "status": "announced",
       "status_evidence_t": 2087.4,
-      "status_evidence_quote": "Yes, so we're moving more and more things on on GitHub. So, I think these will be available soon",
+      "status_evidence_quote": "Yes, so we're moving more and more things on on GitHub. So, I think these will be available soon.",
       "status_evidence_verified": true,
       "t_start": 2061.2,
       "t_end": 2073.8,
@@ -618,28 +618,10 @@
       "check": "exact"
     },
     {
-      "t": 155.1,
-      "text": "in half half a year ago approximately we got uh GPT-5.1 Codex Max and we got uh new Claude Opus ...",
-      "why_it_matters": "Shows the timeline when coding agents became practically useful for AL development, marking a turning point.",
-      "check": "exact"
-    },
-    {
-      "t": 219.9,
-      "text": "benchmarking contains some data set, some tasks, preferably some real-life scenarios, and then some quality metrics uh to understand the ...",
-      "why_it_matters": "Defines the core components of a useful benchmark methodology including real-world relevance.",
-      "check": "exact"
-    },
-    {
       "t": 494.6,
       "text": "We started the effort about 6 months ago. That was heavily inspired by SweepBench. We followed the same methodology, but adapted for Business Central",
       "why_it_matters": "Explains BC-Bench's origins and approach, showing it built on proven methodology adapted for BC-specific needs.",
       "check": "exact"
-    },
-    {
-      "t": 781.9,
-      "text": "we have 16 and then another one 5 fairly low i would say and then",
-      "why_it_matters": "Demonstrates dramatic improvement in agent capability from early models (5-16%) to latest models (55-68%), quantifying progress.",
-      "check": "fuzzy"
     },
     {
       "t": 798.2,
@@ -678,9 +660,27 @@
       "check": "exact"
     },
     {
+      "t": 1135.1,
+      "text": "And another popular one metric is pass@5, which measures consistency. A task is considered resolved if it's resolved in all five runs",
+      "why_it_matters": "Defines the consistency metric used in reporting.",
+      "check": "exact"
+    },
+    {
+      "t": 1223.8,
+      "text": "And you can see that um the mean resolution rate jumped about 5% uh and I want to quickly mention the 95% CI.",
+      "why_it_matters": "Measured AL-MCP improvement.",
+      "check": "exact"
+    },
+    {
       "t": 1259.1,
       "text": "It means now with ARM-CP, the coding agent have the capability to compile and do symbol search and things like that.",
       "why_it_matters": "Explains the specific capabilities that AL-MCP provides to coding agents for improved consistency.",
+      "check": "exact"
+    },
+    {
+      "t": 1305.9,
+      "text": "So, we observe no significant uh differences uh between the two uh code coding harnesses uh agent harnesses.",
+      "why_it_matters": "Harness choice did not significantly change bug-fix results.",
       "check": "exact"
     },
     {
@@ -691,14 +691,8 @@
     },
     {
       "t": 1608.4,
-      "text": "So for we have around in on in this run 57% accuracy um of the review um comments themselves. And the 49% accuracy on",
-      "why_it_matters": "Provides current performance metrics for the code review agent feature in production.",
-      "check": "exact"
-    },
-    {
-      "t": 1608.4,
-      "text": "we have around in on in this run 57% accuracy um of the review um comments themselves. And the 49% accuracy on the severity",
-      "why_it_matters": "Establishes baseline performance metrics for the code review agent, showing moderate accuracy levels for both comment generation and severity classification tasks.",
+      "text": "So for we have around in on in this run 57% accuracy um of the review um comments themselves.",
+      "why_it_matters": "Code review agent accuracy figure.",
       "check": "exact"
     },
     {
@@ -715,14 +709,14 @@
     },
     {
       "t": 1738.6,
-      "text": "That's uh our evaluation harness for AL-specific coding agents as shipped by Microsoft. Um We are currently using it for ...",
-      "why_it_matters": "Defines BC-Bench's purpose and scope as an AL-specific evaluation tool with plans for expansion.",
+      "text": "So, that's uh our evaluation harness for AL-specific coding agents as shipped by Microsoft.",
+      "why_it_matters": "Positions BC-Bench as Microsoft's shipped evaluation harness.",
       "check": "exact"
     },
     {
       "t": 1770.6,
-      "text": "we are going to refresh the data set with more issues for for the bug-fixing benchmarking from uh BC apps ...",
-      "why_it_matters": "Indicates future enhancement to BC-Bench dataset quality and relevance by incorporating real BC apps code.",
+      "text": "So, we are going to refresh the data set with more issues for for the bug-fixing benchmarking from uh BC apps",
+      "why_it_matters": "Planned dataset refresh.",
       "check": "exact"
     },
     {

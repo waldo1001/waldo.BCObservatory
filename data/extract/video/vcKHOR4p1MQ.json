@@ -207,7 +207,7 @@
       "description": "A feature being developed for AL-Go that will provide code coverage metrics.",
       "status": "announced",
       "status_evidence_t": 831.6,
-      "status_evidence_quote": "Code coverage is one that's coming soon",
+      "status_evidence_quote": "Code coverage is one that's coming soon. Automatic reruns on flaky tests",
       "status_evidence_verified": true,
       "t_start": 831.6,
       "t_end": 841.6,
@@ -224,10 +224,10 @@
     {
       "name": "Automatic reruns on flaky tests",
       "description": "A feature coming to AL-Go that will automatically retry tests that intermittently fail, with flaky test management in general.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
+      "status": "announced",
+      "status_evidence_t": 831.6,
+      "status_evidence_quote": "Code coverage is one that's coming soon. Automatic reruns on flaky tests and stuff and flaky test management in general.",
+      "status_evidence_verified": true,
       "t_start": 831.6,
       "t_end": 841.6,
       "is_demoed": false,
@@ -781,6 +781,12 @@
       "t": 1261.2,
       "text": "Hopefully by end of 2026, we're going to have a new module, BC CH 2.0 something, whatever. We We don't ...",
       "why_it_matters": "Provides the target date for the new BC Container Helper replacement module delivery.",
+      "check": "exact"
+    },
+    {
+      "t": 1296.8,
+      "text": "we're thinking about a having a 6-month fixed period before we discontinue BC Container Helper",
+      "why_it_matters": "Sets a migration window of at least six months after the replacement module is ready, which affects the effective end-of-support date.",
       "check": "exact"
     },
     {

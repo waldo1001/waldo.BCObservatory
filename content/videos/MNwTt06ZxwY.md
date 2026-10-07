@@ -20,18 +20,25 @@ tags:
   - agent deployment
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:17:44.510Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:17:44.611Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
     summarize-video: 2
   input_hash: 0ad2d85b47ac2e83c01a0781fe523eaf9cc6bf39a37cfdaf27b0a7514e51111b
 evidence:
+  - kind: video
+    url: https://www.youtube.com/watch?v=MNwTt06ZxwY&t=1430s
+    title: "Optional interface methods: announced"
+    date: "2026-10-01T05:38:51.000Z"
+    commit: null
+    t: 1430
+    quote: This is a feature that's coming up. Actually, Quintin here worked on it, and he's a he's ready to release it almost
   - kind: video
     url: https://www.youtube.com/watch?v=MNwTt06ZxwY&t=4s
     title: "Microsoft presents: Building and shipping agents in Business Central"
@@ -66,7 +73,7 @@ evidence:
     date: "2026-10-01T05:38:51.000Z"
     commit: null
     t: 382
-    quote: 27.4, you wouldn't even see this agent models list. That would be for 28 where you have now this drop ...
+    quote: you wouldn't even see this agent models list. That would be for 28 where you have now this drop down
 links:
   learn: []
   objects:
@@ -219,7 +226,7 @@ features:
   - name: Optional interface methods
     status: ga
     t: 1430
-    verified: false
+    verified: true
     status_source: roadmap
     roadmap_ids:
       - "573352"
@@ -357,7 +364,7 @@ quotes:
     text: As you mature the agent, you need to come back and figure out if the agent is seeing too much or not seeing enough
     check: exact
   - t: 382
-    text: 27.4, you wouldn't even see this agent models list. That would be for 28 where you have now this drop ...
+    text: you wouldn't even see this agent models list. That would be for 28 where you have now this drop down
     check: exact
 ---
 
@@ -365,7 +372,7 @@ quotes:
 
 > Building, testing and shipping agents in Business Central: creating and configuring agents in the client (27.4 and newer), model selection in version 28, task simulation, exporting definitions, packaging agents as extensions for production, the AL agent metadata interfaces, and AI evaluation tools for tests.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=MNwTt06ZxwY) · mibuso.com / BC TechDays · 2026-10-01 · 45:52 · tier community · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=MNwTt06ZxwY) · mibuso.com / BC TechDays · 2026-10-01 · 45:52 · tier community · reviewed (checked by Opus)
 
 ## Overview
 
@@ -381,7 +388,7 @@ The second half covers shipping. Agents created with instructions in the client 
 - Export the agent definition from the agents list to collect profile, permissions, instructions, locale and version. Instructions can also be downloaded on their own for an extension.
 - Disabling the Copilot capability deactivates all agent instances that use it. Re-enabling it restores them.
 - AI evaluation tools run in sandbox only, use your own data sets, and can feed CI/CD. Agent tests are turn-based, use YAML data sets and an AI test type code unit, and depend on the AI development toolkit evaluation extension.
-- Budget limits exist at environment and company level. They block new tasks but let running tasks finish, so spend can slightly exceed the limit. Test credit figures cover test framework tokens, not the agents' own tokens.
+- Budget limits exist at environment and company level. They block new tasks but let running tasks finish, so spend can slightly exceed the limit. Test results show Copilot credits consumed per task; the total tokens column shows only test framework tokens (such as LLM as judge calls), not the agents' own tokens.
 
 ## Chapters
 
@@ -423,7 +430,7 @@ The second half covers shipping. Agents created with instructions in the client 
 | Agent factory interface | status not stated | [20:17](https://www.youtube.com/watch?v=MNwTt06ZxwY&t=1217s) |  |
 | Agent metadata interface for runtime configuration | status not stated | [22:32](https://www.youtube.com/watch?v=MNwTt06ZxwY&t=1352s) |  |
 | Take agent task execution interface | status not stated | [23:18](https://www.youtube.com/watch?v=MNwTt06ZxwY&t=1398s) |  |
-| Optional interface methods | generally available (roadmap [573352](../features/573352.md)) | [23:50](https://www.youtube.com/watch?v=MNwTt06ZxwY&t=1430s) |  |
+| Optional interface methods | generally available (roadmap [573352](../features/573352.md)) | [23:50](https://www.youtube.com/watch?v=MNwTt06ZxwY&t=1430s) | "This is a feature that's coming up. Actually, Quintin here worked on it, and he's a he's ready to release it almost" ([23:50](https://www.youtube.com/watch?v=MNwTt06ZxwY&t=1430s)) |
 | Complex agent scenarios with user intervention | status not stated | [24:33](https://www.youtube.com/watch?v=MNwTt06ZxwY&t=1473s) |  |
 | AI evaluation tools for agents | status not stated, demoed | [26:54](https://www.youtube.com/watch?v=MNwTt06ZxwY&t=1614s) |  |
 | Copilot credit consumption visibility in tests | status not stated, demoed | [27:29](https://www.youtube.com/watch?v=MNwTt06ZxwY&t=1649s) |  |
@@ -475,7 +482,7 @@ Not found in BC28-30: enum "agent metadata provider", interface "factory", inter
 - [1:30](https://www.youtube.com/watch?v=MNwTt06ZxwY&t=90s) "This is all available for you today. You can look at it in the client. Um from 27.4 and newer."
 - [2:37](https://www.youtube.com/watch?v=MNwTt06ZxwY&t=157s) "Maybe this instance of my agent needs to work in a certain locale. Maybe it's a US decimal points or it's a European decimal"
 - [4:16](https://www.youtube.com/watch?v=MNwTt06ZxwY&t=256s) "As you mature the agent, you need to come back and figure out if the agent is seeing too much or not seeing enough"
-- [6:22](https://www.youtube.com/watch?v=MNwTt06ZxwY&t=382s) "27.4, you wouldn't even see this agent models list. That would be for 28 where you have now this drop ..."
+- [6:22](https://www.youtube.com/watch?v=MNwTt06ZxwY&t=382s) "you wouldn't even see this agent models list. That would be for 28 where you have now this drop down"
 
 ## Disclaimers in the video
 

@@ -1,0 +1,32 @@
+{
+  "video_id": "mBU2Iu0urw8",
+  "item_id": "video/yt-mibuso/mBU2Iu0urw8",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Two near-identical quotes share t=2341.1; both dropped and replaced by one shorter verbatim span.",
+    "Quotes at 66.6, 1201.2 and 2054.1 ended with an added ellipsis that is not in the transcript; replaced with verbatim spans.",
+    "Feature 'Agentic workflow' duplicates 'Agentic workflow framework'.",
+    "'LSP vs text-based search accuracy' and 'Baseline model performance with tools and instructions' are demo or evaluation results, not features; already covered in key points.",
+    "No release status is stated in the transcript; all features remain unclear (pre-release flag mention is not a status statement).",
+    "Key point 71% is derived from 67% plus '4% even better'; acceptable."
+  ],
+  "input_hash": "9fa813f9c6ed57d176152227e9562c42a9c4534231cac68290ca7c5abef8cfac",
+  "by": "opus",
+  "at": "2026-10-07T23:16:50.281Z",
+  "applied": [
+    "dropped 3 feature(s)",
+    "dropped 5 quote(s)",
+    "quote at 2341s",
+    "quote at 67s",
+    "quote at 1201s",
+    "quote at 2054s"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.256449
+  }
+}

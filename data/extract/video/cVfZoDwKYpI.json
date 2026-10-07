@@ -244,8 +244,8 @@
       "name": "Expense Agent",
       "description": "New agent for processing employee expenses outside of traditional Business Central interface, supporting email, web app, and mobile inputs. Allows non-BC licensed users to submit expenses which are processed and stored in BC as backend. An AI-first agent that automates end-to-end expense management including receipt parsing, data extraction, itemization, and categorization.",
       "status": "preview",
-      "status_evidence_t": 2937.4,
-      "status_evidence_quote": "as we speak right now uh we are in public preview",
+      "status_evidence_t": 4320.2,
+      "status_evidence_quote": "we are already in public preview. Uh we are in US only. More regions will come next month",
       "status_evidence_verified": true,
       "t_start": 4.2,
       "t_end": 3021,
@@ -692,10 +692,10 @@
     {
       "name": "95 Percent Accuracy Requirement",
       "description": "Microsoft requires a 95% accuracy threshold for shipping products. The Expense Agent started at 65% accuracy and needed improvement to meet the shipping requirement.",
-      "status": "ga",
-      "status_evidence_t": 1795.4,
-      "status_evidence_quote": "to ship in Microsoft something you need to go to a 95% accur Y and then when we started I don't know six plus",
-      "status_evidence_verified": true,
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
       "t_start": 1815.5,
       "t_end": 1826.2,
       "is_demoed": false,
@@ -1657,6 +1657,12 @@
       "t": 2739.2,
       "text": "each expense user can submit maximum 50 expenses per company per day and those are like running windows",
       "why_it_matters": "Specifies rate limiting for expense submissions with rolling window calculation",
+      "check": "exact"
+    },
+    {
+      "t": 2751.5,
+      "text": "if you feel that this doesn't fit your need or maybe you want them configurable because now are hardcoded please let us know",
+      "why_it_matters": "Shows that the submission limits are currently hardcoded and not configurable.",
       "check": "exact"
     },
     {

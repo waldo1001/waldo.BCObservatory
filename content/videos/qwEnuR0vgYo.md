@@ -18,12 +18,12 @@ tags:
   - pte validation
 system: administration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:16:30.793Z"
   flags: []
 generated:
-  at: "2026-10-06T17:49:56.477Z"
+  at: "2026-10-07T23:16:30.834Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -162,11 +162,6 @@ features:
     t: 553
     verified: false
     status_source: video
-  - name: PTE Validation Against Version 29
-    status: unclear
-    t: 553
-    verified: false
-    status_source: video
 objects_mentioned: []
 quotes:
   - t: 1
@@ -190,7 +185,7 @@ quotes:
 
 > Business Central 29.0 (2026 release wave 2) is generally available, and new cloud customers onboard on it. The video covers creating environments in the admin center, version 28 environment planning, notification recipients, update windows, and sandbox-first upgrade testing.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=qwEnuR0vgYo) · Saurav Dhyani · 2026-10-01 · 11:43 · tier community · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=qwEnuR0vgYo) · Saurav Dhyani · 2026-10-01 · 11:43 · tier community · reviewed (checked by Opus)
 
 ## Overview
 
@@ -202,8 +197,8 @@ It then walks through the admin center: creating sandbox or production environme
 
 - Version 29.0 (2026 release wave 2) is generally available; new cloud customers onboard on version 29.
 - Version 28 and preview options still appear in the environment creation wizard but will be removed; the timeline is not specified. Create a version 28 environment now if a go-live is planned on version 28.
-- A tenant gets one production and three sandbox environments by default; more production environments can be purchased.
-- Environment copy works sandbox to production, production to sandbox, and sandbox to sandbox, but the target environment must be empty.
+- A tenant gets one production and three sandbox environments by default; more production environments can be purchased, each adding three sandboxes and a limited amount of extra space.
+- The admin center can copy sandbox to production, production to sandbox, and sandbox to sandbox; keep an empty environment available if a version 28 go-live is planned.
 - Set notification recipients explicitly in the admin center, and several can be added, to receive Microsoft emails when extensions may be incompatible with version 29.
 - The update window must be at least 6 hours. That is the maximum time before a possible rollback, not the expected upgrade duration.
 - Upgrade sandboxes to version 29 early so users can test, postpone the production upgrade as needed, and review or create PTEs with version 29 within roughly a month.
@@ -232,7 +227,6 @@ It then walks through the admin center: creating sandbox or production environme
 | Upgrade Schedule Postponement | status not stated, demoed | [6:15](https://www.youtube.com/watch?v=qwEnuR0vgYo&t=375s) |  |
 | Update Window Configuration | status not stated, demoed | [7:17](https://www.youtube.com/watch?v=qwEnuR0vgYo&t=437s) |  |
 | Early Sandbox Upgrade for Testing | status not stated, demoed | [9:13](https://www.youtube.com/watch?v=qwEnuR0vgYo&t=553s) |  |
-| PTE Validation Against Version 29 | status not stated | [9:13](https://www.youtube.com/watch?v=qwEnuR0vgYo&t=553s) |  |
 
 ## Quotes
 

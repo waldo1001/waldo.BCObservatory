@@ -1,0 +1,35 @@
+{
+  "video_id": "LerAo-GGl8U",
+  "item_id": "video/yt-mibuso/LerAo-GGl8U",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Admin MCP Server evidence_t was 180.5, but the quote starts at 318.7. Corrected.",
+    "Four features were marked preview using 'This is a security measure for our public preview.' That sentence is about the uninstall restriction, not about those features. Set them to unclear.",
+    "'Agent-driven environment uninstall and upgrade' says the agent can uninstall extensions, which contradicts the transcript. The agent could not uninstall; the presenter uninstalled manually and the agent only verified it and rescheduled the upgrade. Dropped.",
+    "'Propeller Studio' (and 'Capella Studio') are caption errors for Copilot Studio. Dropped the duplicate Propeller Studio feature. The chapter title at 1539.8 still says Propeller Studio.",
+    "Publish extension evidence_t was 2622.6, but the quote starts at 2633.7. Corrected.",
+    "The quote at 1018.6 ends with an inserted ellipsis and is not verbatim. Replaced it with a verbatim span.",
+    "There are duplicate overlapping quotes at 786.5 and 2364.5. They are left in place because dropping by t would remove both."
+  ],
+  "input_hash": "4b2d953d096dc19a63e35a93674eaff3bbbbdd89cb5cd6b924ae930b8723d067",
+  "by": "opus",
+  "at": "2026-10-07T23:17:32.007Z",
+  "applied": [
+    "dropped 2 feature(s)",
+    "Admin MCP Server for Business Central: status preview",
+    "Admin MCP Server authentication flow: status unclear",
+    "Copilot Studio MCP custom connector setup: status unclear",
+    "Agent tool invocation via MCP: status unclear",
+    "Publish extension API limitation: status announced",
+    "dropped 1 quote(s)",
+    "quote at 1019s"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.206653
+  }
+}

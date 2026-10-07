@@ -1,0 +1,41 @@
+{
+  "video_id": "uMKLsKfKPc0",
+  "item_id": "video/yt-mibuso/uMKLsKfKPc0",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Quotes at 1906.3 and 2058.4 end in '...' instead of the speaker's words; replaced with full spans.",
+    "Quote at 253.5 is garbled and says little; dropped.",
+    "Duplicate quotes at t 1665.5 and t 2380.9 (two variants each); left in place since drop is by t.",
+    "evidence_t for 'New Copilot Studio experience' should be 1866.8 and for 'M365 Copilot chat in Business Central' 1851.8, not 1840.2; Power Platform solution distribution evidence starts at 2380.9.",
+    "'First-party agents customization' ('soon you'll be able to customize') and 'Agent Runtime conversational experience plan' ('we have some plans') are announced, not unclear.",
+    "Credit pack price is stated as '200 per month' with no currency; key point said 200 dollars (feature description still does).",
+    "'Advanced testing with CLI toolkit' is not supported: captions say 'cut toolkit', and the description wrongly says it is for citizen developers; dropped.",
+    "Security feature description says warnings were about missing skills; transcript says the warning was that the agent had no evals.",
+    "MCP server access control description overstates admin control; speaker only says it depends on the configuration you've set, with no approval or permission set.",
+    "Cost estimator description inverts the garbled transcript (estimator already covers first-party agents)."
+  ],
+  "input_hash": "47c2026c344fdc47183e0a49a4be2187b5d9fc4bcc06c82d0c28419cfe5c2bb9",
+  "by": "opus",
+  "at": "2026-10-07T23:17:05.185Z",
+  "applied": [
+    "dropped 1 feature(s)",
+    "New Copilot Studio experience: status preview",
+    "M365 Copilot chat in Business Central: status announced",
+    "Power Platform solution distribution for agents: status ga",
+    "dropped 3 quote(s)",
+    "quote at 1906s",
+    "quote at 2058s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [
+    "status First-party agents customization -> announced: evidence not verbatim or does not state the status",
+    "status Agent Runtime conversational experience plan -> announced: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.29179299999999997
+  }
+}

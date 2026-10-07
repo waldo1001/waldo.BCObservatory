@@ -1,0 +1,27 @@
+{
+  "video_id": "5qWLFUqFsi0",
+  "item_id": "video/yt-hougaard/5qWLFUqFsi0",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "The summary names the presenter 'Erik Hougaard', but the transcript only says 'Hey, I'm Eric'. The surname comes from outside the transcript, so I removed it.",
+    "The slicer key point says the slicers cannot be edited. The transcript says slicers stay selectable in preview mode but 'you cannot edit this in any way', which refers to the spreadsheet as a whole. I reworded the point to match.",
+    "The page was missing that read-only users who click edit still get preview mode, so I added that as a key point and a quote.",
+    "All quotes are verbatim, and the feature statuses are correctly left as unclear."
+  ],
+  "input_hash": "69284f19e1f1a577d6dcfd6d5f2c6701ed64878d95c8660373a501c0b418b42f",
+  "by": "opus",
+  "at": "2026-10-07T23:18:08.218Z",
+  "applied": [
+    "quote at 244s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.059145
+  }
+}

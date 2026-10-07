@@ -1,0 +1,27 @@
+{
+  "video_id": "1QuV_vkbNVU",
+  "item_id": "video/yt-hougaard/1QuV_vkbNVU",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All 6 quotes match the transcript word for word or with small case and punctuation differences, so they are kept.",
+    "The summary does not say that spreadsheets are part of the 'advanced spreadsheet and reporting app', which was expanded from the advanced financial reporting app. Rewrote the summary to name the app and added a quote for this.",
+    "The Page Regions description is wrong. It says preview mode shows the page without the defined page regions, but the transcript says preview and print show the content inside the page region and leave out content outside it. The key point gets this right. The description cannot be edited with the available fields, so it is flagged here.",
+    "Feature statuses stay unclear. The video says the app can be installed and is free in a cloud sandbox, but it gives no explicit preview or GA label.",
+    "'Chat' as an AI provider follows the caption 'directly with chat', which is ambiguous but matches the transcript."
+  ],
+  "input_hash": "96e25190e3310f455eb06957106b28c7d445414d338f51877b348175a8609230",
+  "by": "opus",
+  "at": "2026-10-07T23:18:12.449Z",
+  "applied": [
+    "quote at 23s",
+    "summary rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.095253
+  }
+}

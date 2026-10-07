@@ -1,0 +1,38 @@
+{
+  "video_id": "9CW5mydS9Vs",
+  "item_id": "video/yt-mibuso/9CW5mydS9Vs",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Custom context interface evidence_t was 1591.4 but the quote starts at 1686.8.",
+    "Test Explorer support status can be set to ga: 'we now have support for the test explorer' (t 474.2).",
+    "Native data-driven test support is explicitly not in the product yet and planned for a coming release; set to announced.",
+    "Duplicate features dropped: VS Code test explorer for AI tests (also not supported as AI-specific), Test-generating agent for bug reproduction, Model optimization for test scenarios.",
+    "Docker containers and Codespaces are general environment advice from Q&A, not BC features; dropped.",
+    "Quote at 1506.6 ended with a non-verbatim ellipsis; replaced with a clean span.",
+    "Two near-duplicate quotes at 2446.8; dropped and re-added one.",
+    "Last key point said 'classic test runner'; transcript says classic test explorer in the client or PowerShell cmdlets."
+  ],
+  "input_hash": "fe9849bb42af48f751785c645d3897c32bb653ce31ed9ae1b9afcc3bed77801d",
+  "by": "opus",
+  "at": "2026-10-07T23:17:30.871Z",
+  "applied": [
+    "dropped 5 feature(s)",
+    "Custom context interface for data-driven tests: status announced",
+    "dropped 3 quote(s)",
+    "quote at 1507s",
+    "quote at 2447s",
+    "quote at 2555s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [
+    "status Test Explorer support -> ga: evidence not verbatim or does not state the status",
+    "status Native data-driven test support -> announced: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.255737
+  }
+}

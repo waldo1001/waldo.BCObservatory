@@ -20,12 +20,12 @@ tags:
   - extension points
 system: integration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:16:39.395Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:16:39.474Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -33,12 +33,19 @@ generated:
   input_hash: 1de07277c4c73aa7c71c6ee89c48c4eeb60fd43e6422e61a78a260923de33a4f
 evidence:
   - kind: video
-    url: https://www.youtube.com/watch?v=f_i4_BRz-oA&t=1580s
-    title: "Record links and notes migration helper tool: generally available"
+    url: https://www.youtube.com/watch?v=f_i4_BRz-oA&t=1283s
+    title: "BC 14 Re-implementation Tool: preview"
     date: "2026-10-01T05:38:52.000Z"
     commit: null
-    t: 1580
-    quote: We ship this support out of the box with version 28, but the problem is that this works as part of the BC implementation
+    t: 1283
+    quote: Uh it will be released in preview. And uh yeah, you are always welcome to give us your feedback.
+  - kind: video
+    url: https://www.youtube.com/watch?v=f_i4_BRz-oA&t=1283s
+    title: "Direct Upgrade Path from BC 14 to SaaS: preview"
+    date: "2026-10-01T05:38:52.000Z"
+    commit: null
+    t: 1283
+    quote: Uh it will be released in preview. And uh yeah, you are always welcome to give us your feedback.
   - kind: video
     url: https://www.youtube.com/watch?v=f_i4_BRz-oA&t=54s
     title: "Microsoft presents: Cloud Migration from any SQL"
@@ -139,9 +146,9 @@ chapters:
     title: Field Mapping and Data Transformation
 features:
   - name: BC 14 Re-implementation Tool
-    status: unclear
+    status: preview
     t: 198
-    verified: false
+    verified: true
     status_source: video
   - name: Cloud Migration Management Page
     status: unclear
@@ -179,9 +186,9 @@ features:
     verified: false
     status_source: video
   - name: Direct Upgrade Path from BC 14 to SaaS
-    status: unclear
+    status: preview
     t: 233
-    verified: false
+    verified: true
     status_source: video
   - name: BC14 migrator framework with three phases
     status: unclear
@@ -229,9 +236,9 @@ features:
     verified: false
     status_source: video
   - name: Record links and notes migration helper tool
-    status: ga
+    status: unclear
     t: 1554
-    verified: true
+    verified: false
     status_source: video
   - name: SQL to SQL replication speed advantage
     status: unclear
@@ -369,7 +376,7 @@ quotes:
 
 > Cloud migration from BC 14 and other SQL sources to Business Central SaaS: the BC 14 re-implementation tool, its AL extension framework (migrator enums, interfaces, extension points), and custom migration providers and table mappings. Includes demos and limits on data, companies and permissions.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=f_i4_BRz-oA) · mibuso.com / BC TechDays · 2026-10-01 · 48:19 · tier community · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=f_i4_BRz-oA) · mibuso.com / BC TechDays · 2026-10-01 · 48:19 · tier community · reviewed (checked by Opus)
 
 ## Overview
 
@@ -412,7 +419,7 @@ The second half is for developers. It describes 52 migration entities registered
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| BC 14 Re-implementation Tool | status not stated, demoed | [3:18](https://www.youtube.com/watch?v=f_i4_BRz-oA&t=198s) |  |
+| BC 14 Re-implementation Tool | preview, demoed | [3:18](https://www.youtube.com/watch?v=f_i4_BRz-oA&t=198s) | "Uh it will be released in preview. And uh yeah, you are always welcome to give us your feedback." ([21:23](https://www.youtube.com/watch?v=f_i4_BRz-oA&t=1283s)) |
 | Cloud Migration Management Page | status not stated, demoed | [5:12](https://www.youtube.com/watch?v=f_i4_BRz-oA&t=312s) |  |
 | Replication Progress Tracking | status not stated, demoed | [6:05](https://www.youtube.com/watch?v=f_i4_BRz-oA&t=365s) |  |
 | Upgrade Progress Tracking | status not stated, demoed | [6:27](https://www.youtube.com/watch?v=f_i4_BRz-oA&t=387s) |  |
@@ -420,7 +427,7 @@ The second half is for developers. It describes 52 migration entities registered
 | Extensible Migration Entities | status not stated, demoed | [8:58](https://www.youtube.com/watch?v=f_i4_BRz-oA&t=538s) |  |
 | Replication Service with Azure Data Factory | status not stated, demoed | [9:59](https://www.youtube.com/watch?v=f_i4_BRz-oA&t=599s) |  |
 | Migrator Interface and Enum Registration | status not stated, demoed | [11:48](https://www.youtube.com/watch?v=f_i4_BRz-oA&t=708s) |  |
-| Direct Upgrade Path from BC 14 to SaaS | status not stated, demoed | [3:53](https://www.youtube.com/watch?v=f_i4_BRz-oA&t=233s) |  |
+| Direct Upgrade Path from BC 14 to SaaS | preview, demoed | [3:53](https://www.youtube.com/watch?v=f_i4_BRz-oA&t=233s) | "Uh it will be released in preview. And uh yeah, you are always welcome to give us your feedback." ([21:23](https://www.youtube.com/watch?v=f_i4_BRz-oA&t=1283s)) |
 | BC14 migrator framework with three phases | status not stated, demoed | [13:13](https://www.youtube.com/watch?v=f_i4_BRz-oA&t=793s) |  |
 | Entity extension patterns for migration | status not stated, demoed | [14:18](https://www.youtube.com/watch?v=f_i4_BRz-oA&t=858s) |  |
 | Migrator hooks for pre and post execution | status not stated, demoed | [16:35](https://www.youtube.com/watch?v=f_i4_BRz-oA&t=995s) |  |
@@ -430,7 +437,7 @@ The second half is for developers. It describes 52 migration entities registered
 | Custom migration provider interface | status not stated, demoed | [22:03](https://www.youtube.com/watch?v=f_i4_BRz-oA&t=1323s) |  |
 | Replication table mappings for data transfer | status not stated, demoed | [23:57](https://www.youtube.com/watch?v=f_i4_BRz-oA&t=1437s) |  |
 | Setup table mappings for cloud migration configuration | status not stated, demoed | [24:30](https://www.youtube.com/watch?v=f_i4_BRz-oA&t=1470s) |  |
-| Record links and notes migration helper tool | generally available, demoed | [25:54](https://www.youtube.com/watch?v=f_i4_BRz-oA&t=1554s) | "We ship this support out of the box with version 28, but the problem is that this works as part of the BC implementation" ([26:20](https://www.youtube.com/watch?v=f_i4_BRz-oA&t=1580s)) |
+| Record links and notes migration helper tool | status not stated, demoed | [25:54](https://www.youtube.com/watch?v=f_i4_BRz-oA&t=1554s) |  |
 | SQL to SQL replication speed advantage | status not stated | [22:03](https://www.youtube.com/watch?v=f_i4_BRz-oA&t=1323s) |  |
 | Support for difficult-to-move tables via SQL tooling | status not stated | [22:28](https://www.youtube.com/watch?v=f_i4_BRz-oA&t=1348s) |  |
 | On-premises development for cloud migration tools | status not stated, demoed | [28:36](https://www.youtube.com/watch?v=f_i4_BRz-oA&t=1716s) |  |

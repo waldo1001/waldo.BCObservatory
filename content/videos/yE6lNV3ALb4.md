@@ -16,12 +16,12 @@ tags:
   - spreadsheet automation
 system: reporting
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:18:01.085Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:18:01.128Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -143,7 +143,7 @@ quotes:
 
 > Pivot tables with live data in Business Central spreadsheets, using the advanced spreadsheets and reporting app. The demo builds a pivot table on item ledger entries, shows refresh on open, drilldown to source records, and changing date buckets to quarters.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=yE6lNV3ALb4) · Erik Hougaard · 2026-09-21 · 2:45 · tier community · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=yE6lNV3ALb4) · Erik Hougaard · 2026-09-21 · 2:45 · tier community · reviewed (checked by Opus)
 
 ## Overview
 
@@ -153,9 +153,9 @@ Once built, the pivot table shows live data. It refreshes whenever the spreadshe
 
 ## Key points
 
-- Pivot tables with live data require the advanced spreadsheets and reporting app.
+- The demo adds a pivot table with live data using the advanced spreadsheets and reporting app for Business Central.
 - A new pivot table region is created in the spreadsheet, then a data source (item ledger entries in the demo) is chosen and can be filtered.
-- Row fields, column fields and aggregation values are configured in the pivot table setup.
+- Row fields, column fields and the summed value field (quantity in the demo) are configured in the pivot table setup.
 - Date fields can be bucketed, for example changed to quarters, after the pivot table is built.
 - The data refreshes whenever the spreadsheet is opened and can also be refreshed manually.
 - Control-click a pivot cell to drill down to the underlying item ledger entries.
@@ -173,12 +173,12 @@ Once built, the pivot table shows live data. It refreshes whenever the spreadshe
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Pivot tables with live data in spreadsheets | status not stated, demoed | [0:00](https://www.youtube.com/watch?v=yE6lNV3ALb4&t=0s) |  |
-| Pivot table field configuration | status not stated, demoed | [0:37](https://www.youtube.com/watch?v=yE6lNV3ALb4&t=37s) |  |
-| Drilldown from pivot table to source data | status not stated, demoed | [1:42](https://www.youtube.com/watch?v=yE6lNV3ALb4&t=102s) |  |
-| Spreadsheet-based pivot table data reusability | status not stated, demoed | [1:56](https://www.youtube.com/watch?v=yE6lNV3ALb4&t=116s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Pivot tables with live data in spreadsheets | status not stated, demoed | [0:00](https://www.youtube.com/watch?v=yE6lNV3ALb4&t=0s) |
+| Pivot table field configuration | status not stated, demoed | [0:37](https://www.youtube.com/watch?v=yE6lNV3ALb4&t=37s) |
+| Drilldown from pivot table to source data | status not stated, demoed | [1:42](https://www.youtube.com/watch?v=yE6lNV3ALb4&t=102s) |
+| Spreadsheet-based pivot table data reusability | status not stated, demoed | [1:56](https://www.youtube.com/watch?v=yE6lNV3ALb4&t=116s) |
 
 ## AL objects mentioned
 

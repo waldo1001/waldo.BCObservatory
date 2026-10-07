@@ -1,0 +1,30 @@
+{
+  "video_id": "22duXC6j_No",
+  "item_id": "video/yt-hougaard/22duXC6j_No",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "The key point about install time said a typical PTE install took about 1 minute 20 seconds in the demo. The speaker gives 1:20 as his usual time in his environments, and the demo install took longer than that.",
+    "The force sync description and key point say it installs 'without accepting breaking changes'. In the transcript it is the option that gets the app in no matter what you break (for example removed tables or pages). The speaker thinks it only applies to data.",
+    "The 'Dev apps and PTE filtering' feature expands PTE as 'PermissionSet Enabled Extensions'. The transcript never expands it, and the expansion is wrong. Dropped this feature; the key points already cover it.",
+    "Dropped the 'Force sync option' feature because its description inverts the meaning. The corrected key point covers it.",
+    "All feature statuses stay unclear. The transcript only calls things new, which is not a preview or GA statement.",
+    "Quotes check out as verbatim, allowing for segment crossings."
+  ],
+  "input_hash": "68be6a0b01a949ee80778638b11e56cb89769029156e774c0c1e4e8f83af0c90",
+  "by": "opus",
+  "at": "2026-10-07T23:17:54.624Z",
+  "applied": [
+    "dropped 2 feature(s)",
+    "quote at 411s",
+    "quote at 436s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.09135700000000001
+  }
+}

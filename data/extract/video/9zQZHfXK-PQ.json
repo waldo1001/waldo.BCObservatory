@@ -236,27 +236,6 @@
   ],
   "features": [
     {
-      "name": "GitHub Copilot for documentation automation",
-      "description": "Using GitHub Copilot to generate and maintain documentation alongside code development, enabling a docs-to-code approach where documentation is created and approved early in the development process rather than at the end.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 655.2,
-      "t_end": 897.7,
-      "is_demoed": false,
-      "caveats": [
-        "Session involves a live demo that may not have executed successfully"
-      ],
-      "tags": [
-        "documentation",
-        "automation",
-        "code generation",
-        "github copilot"
-      ],
-      "system": "copilot"
-    },
-    {
       "name": "Docs-to-code development methodology",
       "description": "A new approach to development that starts with well-structured documentation and requirements, uses that documentation to guide code generation with Copilot assistance, ensuring documentation and code stay synchronized throughout the development lifecycle.",
       "status": "unclear",
@@ -338,25 +317,6 @@
         "enterprise solutions"
       ],
       "system": "copilot"
-    },
-    {
-      "name": "Living documentation in Git repository",
-      "description": "Documentation stored in GitHub repository alongside code, updated before development, and modified with every commit. Creates an evolving record of changes and decisions throughout the project lifecycle.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 1495.1,
-      "t_end": 1677,
-      "is_demoed": false,
-      "caveats": [],
-      "tags": [
-        "documentation",
-        "version-control",
-        "git",
-        "change-tracking"
-      ],
-      "system": "development"
     },
     {
       "name": "Decision tracking with reviewer attribution",
@@ -512,26 +472,6 @@
         "consistency",
         "output-schema",
         "ai-control"
-      ],
-      "system": "copilot"
-    },
-    {
-      "name": "GitHub Copilot skills",
-      "description": "Copilot skills provide control over AI output by allowing specification of output aspects and generation of clarifying questions, moving beyond simple prompting to structured guidance.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 2359.5,
-      "t_end": 2426.4,
-      "is_demoed": false,
-      "caveats": [
-        "requires more structured setup than simple prompting"
-      ],
-      "tags": [
-        "copilot",
-        "skills",
-        "ai control"
       ],
       "system": "copilot"
     },
@@ -729,24 +669,6 @@
       "system": "integration"
     },
     {
-      "name": "User story decomposition from requirements",
-      "description": "Process of breaking down large requirements documents into structured user stories with clear acceptance criteria and business value.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 3201,
-      "t_end": 3262.9,
-      "is_demoed": true,
-      "caveats": [],
-      "tags": [
-        "requirements",
-        "user stories",
-        "documentation"
-      ],
-      "system": "development"
-    },
-    {
       "name": "Architecture decision documentation with human-in-the-loop",
       "description": "Specification documents where architects and consultants explicitly record design decisions including enum vs table choices, flow design patterns, and architectural patterns, with agent-assisted but human-validated content.",
       "status": "unclear",
@@ -916,24 +838,6 @@
       "system": "development"
     },
     {
-      "name": "ALDC tool",
-      "description": "A development tool recommended for AL development work.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 4438.6,
-      "t_end": 4454.3,
-      "is_demoed": false,
-      "caveats": [],
-      "tags": [
-        "development",
-        "tools",
-        "al development"
-      ],
-      "system": "development"
-    },
-    {
       "name": "AL Copilot Skills",
       "description": "Skills for GitHub Copilot tailored to AL development workflows.",
       "status": "unclear",
@@ -966,46 +870,6 @@
         "framework",
         "specifications",
         "extensions"
-      ],
-      "system": "development"
-    },
-    {
-      "name": "GitHub Actions for CI-CD",
-      "description": "GitHub Actions integration for synchronizing development workflows.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 4464.5,
-      "t_end": 4480.9,
-      "is_demoed": false,
-      "caveats": [
-        "synchronization takes time"
-      ],
-      "tags": [
-        "github",
-        "ci-cd",
-        "automation"
-      ],
-      "system": "platform"
-    },
-    {
-      "name": "Specification-driven development approach",
-      "description": "A methodology that completes documentation and specifications before development starts, providing clear structure for features and implementation phases.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 3940.8,
-      "t_end": 4607.8,
-      "is_demoed": true,
-      "caveats": [
-        "can adapt to both waterfall and agile methodologies"
-      ],
-      "tags": [
-        "specifications",
-        "development methodology",
-        "documentation"
       ],
       "system": "development"
     },
@@ -1190,12 +1054,6 @@
       "check": "exact"
     },
     {
-      "t": 413.2,
-      "text": "And sorry guys, this is not the problem. The problem is that you end up with an pineapple when you should have an apple.",
-      "why_it_matters": "Illustrates how requirements drift during development causes delivered solutions to differ significantly from original specifications.",
-      "check": "exact"
-    },
-    {
       "t": 551.8,
       "text": "the point is the problem is not that we are flexible to add to up to the customer's needs. The problem is we do",
       "why_it_matters": "Clarifies that the issue is not flexibility itself but lack of structured documentation processes for change.",
@@ -1265,6 +1123,12 @@
       "t": 1820.9,
       "text": "In business central SD documentation is not generated is not generated from code. Code is generated from documentation.",
       "why_it_matters": "Establishes the fundamental principle that documentation is the source of truth, with code derived from it rather than vice versa",
+      "check": "exact"
+    },
+    {
+      "t": 1901.6,
+      "text": "what it goes is to Microsoft learn see what is it what is already there on the solution and what part should be adapt",
+      "why_it_matters": "Explains how the business consultant agent avoids proposing functionality that already exists in Business Central.",
       "check": "exact"
     },
     {
@@ -1340,12 +1204,6 @@
       "check": "exact"
     },
     {
-      "t": 3188.5,
-      "text": "142 lines is nothing for what we're talking about.",
-      "why_it_matters": "Establishes that even substantial requirement documents are manageable for documentation automation approaches.",
-      "check": "exact"
-    },
-    {
       "t": 3201,
       "text": "we just move from that initial requirement we run the functional consultant and we end up with something that it was like this",
       "why_it_matters": "Demonstrates the practical outcome of using skills to convert raw requirements into structured user stories.",
@@ -1355,6 +1213,12 @@
       "t": 3285.7,
       "text": "I mean, this is what the consultant is going to provide to you. Do you think they are going to read it?",
       "why_it_matters": "Identifies the core problem that documentation templates and formatting solve - customers won't engage with unformatted technical documentation.",
+      "check": "exact"
+    },
+    {
+      "t": 3555.3,
+      "text": "when we push to main all the changes it updates the the repo with our GitHub action as simple as that",
+      "why_it_matters": "Describes how the GitHub Action pushes generated documents to SharePoint when changes reach main.",
       "check": "exact"
     },
     {
@@ -1409,12 +1273,6 @@
       "t": 4131.6,
       "text": "So same here skill for the release note grabs all the context in your repo has been developed in this phase and you have",
       "why_it_matters": "Describes the automated release notes generation capability that contextualizes all committed changes from development phases.",
-      "check": "exact"
-    },
-    {
-      "t": 4254.5,
-      "text": "So how many of you provide release notes on your development for your customers?",
-      "why_it_matters": "Highlights a best practice often overlooked in development workflows, establishing release notes as standard practice.",
       "check": "exact"
     },
     {

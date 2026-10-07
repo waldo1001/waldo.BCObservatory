@@ -2,7 +2,7 @@
 id: video/qmLVKyHRhNc
 type: video
 title: "Introducing: Analyze Data on Lists and Queries (2023 release wave 2)"
-summary: "Analyze data on lists and queries in Business Central 2023 release wave 2: no-code ad hoc analysis on live data, now extended to query objects, with the 100,000 row limit removed, shareable analysis definitions, click-once sample scenarios and a new Data analysis execute permission."
+summary: Analyze data on lists is generally available in Business Central 2023 release wave 2 (preview in wave 1). It offers no-code ad hoc analysis on live data and now also works on query objects. The 100,000 row limit is removed, and analysis definitions can be shared as links. Sample click-once scenarios are available, and a new Data analysis execute permission controls who can use it.
 tier: official
 language: en
 tags:
@@ -20,18 +20,25 @@ tags:
   - click-once
 system: reporting
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:16:14.636Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:16:14.677Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
     summarize-video: 2
   input_hash: 982903115e6cd9d7824b9aea32ab1f0fcd3e8227104980db03292720578562af
 evidence:
+  - kind: video
+    url: https://www.youtube.com/watch?v=qmLVKyHRhNc&t=363s
+    title: "Analyze data on list pages: generally available"
+    date: "2023-10-23T05:29:46.000Z"
+    commit: null
+    t: 363
+    quote: you needed to enable it under feature Management in this release wave this is generally available
   - kind: video
     url: https://www.youtube.com/watch?v=qmLVKyHRhNc&t=78s
     title: "Introducing: Analyze Data on Lists and Queries (2023 release wave 2)"
@@ -219,14 +226,9 @@ chapters:
     title: Community engagement and closing remarks
 features:
   - name: Analyze data on list pages
-    status: unclear
+    status: ga
     t: 291
-    verified: false
-    status_source: video
-  - name: Share data analysis
-    status: unclear
-    t: 404
-    verified: false
+    verified: true
     status_source: video
   - name: Analysis menu persistence
     status: unclear
@@ -241,16 +243,6 @@ features:
   - name: Analyze data on query objects
     status: unclear
     t: 763
-    verified: false
-    status_source: video
-  - name: Query objects as data foundation for analysis
-    status: unclear
-    t: 784
-    verified: false
-    status_source: video
-  - name: Analysis on queries with same UI as lists
-    status: unclear
-    t: 797
     verified: false
     status_source: video
   - name: Query documentation with teaching tips and links
@@ -293,11 +285,6 @@ features:
     t: 1142
     verified: false
     status_source: video
-  - name: Data analysis persistence of UI state
-    status: unclear
-    t: 1265
-    verified: false
-    status_source: video
   - name: Data analysis execute permission
     status: unclear
     t: 1326
@@ -316,11 +303,6 @@ features:
   - name: Data sets for Excel layouts
     status: unclear
     t: 1632
-    verified: false
-    status_source: video
-  - name: Ad hoc analysis on list pages
-    status: unclear
-    t: 1673
     verified: false
     status_source: video
 objects_mentioned:
@@ -388,9 +370,9 @@ quotes:
 
 # Introducing: Analyze Data on Lists and Queries (2023 release wave 2)
 
-> Analyze data on lists and queries in Business Central 2023 release wave 2: no-code ad hoc analysis on live data, now extended to query objects, with the 100,000 row limit removed, shareable analysis definitions, click-once sample scenarios and a new Data analysis execute permission.
+> Analyze data on lists is generally available in Business Central 2023 release wave 2 (preview in wave 1). It offers no-code ad hoc analysis on live data and now also works on query objects. The 100,000 row limit is removed, and analysis definitions can be shared as links. Sample click-once scenarios are available, and a new Data analysis execute permission controls who can use it.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=qmLVKyHRhNc) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-10-23 · 29:07 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=qmLVKyHRhNc) · Microsoft Dynamics 365 Business Central (YouTube) · 2023-10-23 · 29:07 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -400,7 +382,7 @@ It then covers query discoverability in Tell Me and the role and report explorer
 
 ## Key points
 
-- Analyze data mode on list pages was in public preview in 2023 release wave 1 and needed enabling in feature management. The video does not state a status for wave 2.
+- Analyze data mode on list pages was in public preview in 2023 release wave 1 and had to be turned on in Feature Management. In 2023 release wave 2 it is generally available and on for all users.
 - The 100,000 row limit on analyze data mode is removed in 2023 release wave 2. Large datasets may load more slowly.
 - Query objects can be the data foundation for analysis and open the same analysis UI as lists. Joining related tables lets you show location names instead of codes.
 - Analysis definitions can be shared by link, for one company or for all companies. The recipient gets an independent copy, not a live link.
@@ -430,13 +412,10 @@ It then covers query discoverability in Tell Me and the role and report explorer
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| Analyze data on list pages | status not stated, demoed | [4:51](https://www.youtube.com/watch?v=qmLVKyHRhNc&t=291s) |  |
-| Share data analysis | status not stated | [6:44](https://www.youtube.com/watch?v=qmLVKyHRhNc&t=404s) |  |
+| Analyze data on list pages | generally available, demoed | [4:51](https://www.youtube.com/watch?v=qmLVKyHRhNc&t=291s) | "you needed to enable it under feature Management in this release wave this is generally available" ([6:03](https://www.youtube.com/watch?v=qmLVKyHRhNc&t=363s)) |
 | Analysis menu persistence | status not stated, demoed | [6:54](https://www.youtube.com/watch?v=qmLVKyHRhNc&t=414s) |  |
 | Remove data size limitation | status not stated | [7:31](https://www.youtube.com/watch?v=qmLVKyHRhNc&t=451s) |  |
 | Analyze data on query objects | status not stated, demoed | [12:43](https://www.youtube.com/watch?v=qmLVKyHRhNc&t=763s) |  |
-| Query objects as data foundation for analysis | status not stated, demoed | [13:04](https://www.youtube.com/watch?v=qmLVKyHRhNc&t=784s) |  |
-| Analysis on queries with same UI as lists | status not stated, demoed | [13:17](https://www.youtube.com/watch?v=qmLVKyHRhNc&t=797s) |  |
 | Query documentation with teaching tips and links | status not stated, demoed | [14:10](https://www.youtube.com/watch?v=qmLVKyHRhNc&t=850s) |  |
 | Join related table data in queries | status not stated, demoed | [14:31](https://www.youtube.com/watch?v=qmLVKyHRhNc&t=871s) |  |
 | Queries in report and role explorer | status not stated | [16:11](https://www.youtube.com/watch?v=qmLVKyHRhNc&t=971s) |  |
@@ -445,12 +424,10 @@ It then covers query discoverability in Tell Me and the role and report explorer
 | Share analysis definitions with coworkers | status not stated, demoed | [17:49](https://www.youtube.com/watch?v=qmLVKyHRhNc&t=1069s) |  |
 | Company-specific and company-agnostic analysis links | status not stated, demoed | [18:41](https://www.youtube.com/watch?v=qmLVKyHRhNc&t=1121s) |  |
 | Click-once installers for analysis | status not stated, demoed | [19:02](https://www.youtube.com/watch?v=qmLVKyHRhNc&t=1142s) |  |
-| Data analysis persistence of UI state | status not stated, demoed | [21:05](https://www.youtube.com/watch?v=qmLVKyHRhNc&t=1265s) |  |
 | Data analysis execute permission | status not stated | [22:06](https://www.youtube.com/watch?v=qmLVKyHRhNc&t=1326s) |  |
 | Sample click-once scenarios repository | status not stated, demoed | [23:07](https://www.youtube.com/watch?v=qmLVKyHRhNc&t=1387s) |  |
 | AL Queries for analytics | status not stated | [26:52](https://www.youtube.com/watch?v=qmLVKyHRhNc&t=1612s) |  |
 | Data sets for Excel layouts | status not stated | [27:12](https://www.youtube.com/watch?v=qmLVKyHRhNc&t=1632s) |  |
-| Ad hoc analysis on list pages | status not stated | [27:53](https://www.youtube.com/watch?v=qmLVKyHRhNc&t=1673s) |  |
 
 ## AL objects mentioned
 

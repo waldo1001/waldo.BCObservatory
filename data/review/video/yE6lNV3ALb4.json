@@ -1,0 +1,26 @@
+{
+  "video_id": "yE6lNV3ALb4",
+  "item_id": "video/yt-hougaard/yE6lNV3ALb4",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All six quotes are verbatim and match their segment t values.",
+    "Key point 1 said the feature 'requires' the advanced spreadsheets and reporting app. The transcript only says the demo is 'using' that app, so I reworded it.",
+    "Feature statuses are left as unclear. The transcript never says whether the feature is preview or GA. The free cloud sandbox offer is not a release status.",
+    "The 'development' system tag is a weak fit for a reporting demo. It can't be edited through the available fields.",
+    "The drilldown feature description adds 'or other source data'. The demo only shows item ledger entries, but this is a small extrapolation."
+  ],
+  "input_hash": "bc313e5953e50e91d65c600b11b5bb6f888b35c7c5cbfd585d9f34ead6e65ad6",
+  "by": "opus",
+  "at": "2026-10-07T23:18:01.085Z",
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.045325000000000004
+  }
+}

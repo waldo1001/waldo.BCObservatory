@@ -1,0 +1,39 @@
+{
+  "video_id": "yIYUCSK0Bh4",
+  "item_id": "video/yt-mibuso/yIYUCSK0Bh4",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Key point claimed results depend on the agent harness; transcript (1305.9) says no significant difference between GitHub Copilot CLI and Claude Code with Opus 4.6, model choice probably more significant.",
+    "Key point and Multi-run metrics feature description mention pass@1 for best case; transcript never says pass@1 (speaker calls both consistency and best-case metrics 'pass at five'). Feature description cannot be edited here but is inaccurate.",
+    "Online evaluation marked ga on a quote about internal monitoring practice, not a feature release; set to unclear.",
+    "BC-Bench set to ga: speaker calls it the tool 'we have built and shipped', public on GitHub.",
+    "Quotes at 155.1, 219.9, 1738.6, 1770.6 contain added ellipses (not verbatim); 781.9 is paraphrased (missing % signs). Dropped; verbatim replacements added where useful.",
+    "Duplicate quotes at 1608.4; dropped and re-added once."
+  ],
+  "input_hash": "3f249b2b4070ec7c19813ee110eca2fb1b3517c7a8427e9bd950f7b77560eb1c",
+  "by": "opus",
+  "at": "2026-10-07T23:17:21.330Z",
+  "applied": [
+    "Online evaluation of AI features: status unclear",
+    "Payables and Sales Agents Code Availability: status announced",
+    "dropped 7 quote(s)",
+    "quote at 1608s",
+    "quote at 1306s",
+    "quote at 1135s",
+    "quote at 1224s",
+    "quote at 1739s",
+    "quote at 1771s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [
+    "status BC-Bench benchmarking framework -> ga: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.234121
+  }
+}

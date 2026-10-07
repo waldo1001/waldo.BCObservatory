@@ -1,0 +1,23 @@
+{
+  "video_id": "v4LXW8BO4GQ",
+  "item_id": "video/yt-hougaard/v4LXW8BO4GQ",
+  "flags": [],
+  "verdict": "approve",
+  "issues": [
+    "All 5 quotes are verbatim spans of the transcript; differences are only in punctuation.",
+    "The summary and key points match the transcript: open as a spreadsheet from Home, slicers, live recalculation, combining reports, recalculating on open, and date slicers staying valid.",
+    "Small imprecision: the slicer feature description lists region as a slicer dimension, but the transcript calls region a financial report region, not a slicer. Too small to need a correction.",
+    "Every feature status is unclear. That is right because the transcript never says whether anything is in preview or generally available. The only related mention is trying it in a free cloud sandbox."
+  ],
+  "input_hash": "38b447a82596ab49716ad5b8b72ab047e4c767f2064c8b1fe27cca16776ed935",
+  "by": "opus",
+  "at": "2026-10-07T23:17:55.240Z",
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.046401
+  }
+}

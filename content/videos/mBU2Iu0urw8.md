@@ -20,12 +20,12 @@ tags:
   - language server protocol
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:16:50.281Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:16:50.373Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -254,11 +254,6 @@ features:
     t: 1395
     verified: false
     status_source: video
-  - name: LSP vs text-based search accuracy
-    status: unclear
-    t: 1438
-    verified: false
-    status_source: video
   - name: BCbench evaluation framework
     status: unclear
     t: 1491
@@ -267,16 +262,6 @@ features:
   - name: Hidden test verification method
     status: unclear
     t: 1520
-    verified: false
-    status_source: video
-  - name: Agentic workflow
-    status: unclear
-    t: 1657
-    verified: false
-    status_source: video
-  - name: Baseline model performance with tools and instructions
-    status: unclear
-    t: 1615
     verified: false
     status_source: video
   - name: Agentic workflow framework
@@ -390,7 +375,7 @@ quotes:
 
 > Agentic AL development in Visual Studio Code and via the ALMCP server: agent modes, skills, tools, debugging, LSP for AL, the BCbench evaluation framework, and a BC fix workflow using a RAL loop and sub-agents. Includes demos with GitHub Copilot CLI.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=mBU2Iu0urw8) · mibuso.com / BC TechDays · 2026-10-01 · 45:00 · tier community · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=mBU2Iu0urw8) · mibuso.com / BC TechDays · 2026-10-01 · 45:00 · tier community · reviewed (checked by Opus)
 
 ## Overview
 
@@ -433,53 +418,50 @@ The second half covers the ALMCP server and AL CLI tool (.NET tools installable 
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Agent Mode | status not stated, demoed | [0:53](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=53s) |  |
-| Ask Mode | status not stated | [1:25](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=85s) |  |
-| Plan Mode | status not stated | [1:35](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=95s) |  |
-| Custom Agents | status not stated | [1:52](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=112s) |  |
-| Skills | status not stated | [2:23](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=143s) |  |
-| BC Quality Repository Skills | status not stated | [3:00](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=180s) |  |
-| Agent Tools | status not stated, demoed | [3:30](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=210s) |  |
-| Language Model Tools API | status not stated | [4:32](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=272s) |  |
-| MCP Servers for AL Development | status not stated, demoed | [4:52](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=292s) |  |
-| Build Tool | status not stated, demoed | [5:15](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=315s) |  |
-| Symbol and Relationship Tools | status not stated | [5:25](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=325s) |  |
-| Publishing and Debugging Tools | status not stated, demoed | [5:35](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=335s) |  |
-| Test Tools | status not stated | [5:45](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=345s) |  |
-| Troubleshooting Tools | status not stated, demoed | [5:55](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=355s) |  |
-| Tool Discovery and Invocation | status not stated, demoed | [6:21](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=381s) |  |
-| Approval Workflow | status not stated, demoed | [8:35](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=515s) |  |
-| Context Size Configuration | status not stated, demoed | [8:18](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=498s) |  |
-| Reasoning Model Selection | status not stated, demoed | [8:07](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=487s) |  |
-| ALMCP Server | status not stated, demoed | [14:35](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=875s) |  |
-| AL CLI Tool | status not stated, demoed | [15:17](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=917s) |  |
-| Agent database statistics access | status not stated, demoed | [13:08](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=788s) |  |
-| Agent stack trace analysis | status not stated, demoed | [13:44](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=824s) |  |
-| ALMCP GitHub Copilot integration | status not stated, demoed | [16:34](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=994s) |  |
-| Language Server Protocol (LSP) for AL | status not stated, demoed | [19:47](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=1187s) |  |
-| LSP folding range endpoint | status not stated | [23:15](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=1395s) |  |
-| LSP vs text-based search accuracy | status not stated, demoed | [23:58](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=1438s) |  |
-| BCbench evaluation framework | status not stated | [24:51](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=1491s) |  |
-| Hidden test verification method | status not stated | [25:20](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=1520s) |  |
-| Agentic workflow | status not stated | [27:37](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=1657s) |  |
-| Baseline model performance with tools and instructions | status not stated | [26:55](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=1615s) |  |
-| Agentic workflow framework | status not stated, demoed | [27:37](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=1657s) |  |
-| RAL loop technique | status not stated, demoed | [31:39](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=1899s) |  |
-| BC fix skill | status not stated, demoed | [29:44](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=1784s) |  |
-| BC fix baseline skill | status not stated, demoed | [31:49](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=1909s) |  |
-| BC fix implement skill | status not stated, demoed | [36:31](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=2191s) |  |
-| BC test implement agent | status not stated, demoed | [30:57](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=1857s) |  |
-| AL developer session skill (BCLdev session) | status not stated, demoed | [29:44](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=1784s) |  |
-| MCP tools integration | status not stated, demoed | [30:00](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=1800s) |  |
-| Agent evaluation methodology | status not stated | [26:29](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=1589s) |  |
-| Sub-agent context isolation | status not stated, demoed | [33:56](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=2036s) |  |
-| Session retrospective skill | status not stated | [40:32](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=2432s) |  |
-| Business Central performance profile tool | status not stated | [42:19](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=2539s) |  |
-| Agent-assisted telemetry analysis | status not stated, demoed | [42:48](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=2568s) |  |
-| Agent pull request commenting | status not stated | [43:57](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=2637s) |  |
-| Custom AL code analyzers with MCP server | status not stated | [39:30](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=2370s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Agent Mode | status not stated, demoed | [0:53](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=53s) |
+| Ask Mode | status not stated | [1:25](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=85s) |
+| Plan Mode | status not stated | [1:35](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=95s) |
+| Custom Agents | status not stated | [1:52](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=112s) |
+| Skills | status not stated | [2:23](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=143s) |
+| BC Quality Repository Skills | status not stated | [3:00](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=180s) |
+| Agent Tools | status not stated, demoed | [3:30](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=210s) |
+| Language Model Tools API | status not stated | [4:32](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=272s) |
+| MCP Servers for AL Development | status not stated, demoed | [4:52](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=292s) |
+| Build Tool | status not stated, demoed | [5:15](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=315s) |
+| Symbol and Relationship Tools | status not stated | [5:25](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=325s) |
+| Publishing and Debugging Tools | status not stated, demoed | [5:35](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=335s) |
+| Test Tools | status not stated | [5:45](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=345s) |
+| Troubleshooting Tools | status not stated, demoed | [5:55](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=355s) |
+| Tool Discovery and Invocation | status not stated, demoed | [6:21](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=381s) |
+| Approval Workflow | status not stated, demoed | [8:35](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=515s) |
+| Context Size Configuration | status not stated, demoed | [8:18](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=498s) |
+| Reasoning Model Selection | status not stated, demoed | [8:07](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=487s) |
+| ALMCP Server | status not stated, demoed | [14:35](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=875s) |
+| AL CLI Tool | status not stated, demoed | [15:17](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=917s) |
+| Agent database statistics access | status not stated, demoed | [13:08](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=788s) |
+| Agent stack trace analysis | status not stated, demoed | [13:44](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=824s) |
+| ALMCP GitHub Copilot integration | status not stated, demoed | [16:34](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=994s) |
+| Language Server Protocol (LSP) for AL | status not stated, demoed | [19:47](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=1187s) |
+| LSP folding range endpoint | status not stated | [23:15](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=1395s) |
+| BCbench evaluation framework | status not stated | [24:51](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=1491s) |
+| Hidden test verification method | status not stated | [25:20](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=1520s) |
+| Agentic workflow framework | status not stated, demoed | [27:37](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=1657s) |
+| RAL loop technique | status not stated, demoed | [31:39](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=1899s) |
+| BC fix skill | status not stated, demoed | [29:44](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=1784s) |
+| BC fix baseline skill | status not stated, demoed | [31:49](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=1909s) |
+| BC fix implement skill | status not stated, demoed | [36:31](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=2191s) |
+| BC test implement agent | status not stated, demoed | [30:57](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=1857s) |
+| AL developer session skill (BCLdev session) | status not stated, demoed | [29:44](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=1784s) |
+| MCP tools integration | status not stated, demoed | [30:00](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=1800s) |
+| Agent evaluation methodology | status not stated | [26:29](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=1589s) |
+| Sub-agent context isolation | status not stated, demoed | [33:56](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=2036s) |
+| Session retrospective skill | status not stated | [40:32](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=2432s) |
+| Business Central performance profile tool | status not stated | [42:19](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=2539s) |
+| Agent-assisted telemetry analysis | status not stated, demoed | [42:48](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=2568s) |
+| Agent pull request commenting | status not stated | [43:57](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=2637s) |
+| Custom AL code analyzers with MCP server | status not stated | [39:30](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=2370s) |
 
 ## AL objects mentioned
 

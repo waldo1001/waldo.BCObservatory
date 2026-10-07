@@ -103,10 +103,10 @@
     {
       "name": "Analyze data on list pages",
       "description": "Enables self-service data analysis directly in the Business Central client on list pages. Users can quickly extract insights, design analysis with different tabs, apply grouping, filters, and save analysis for later use.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
+      "status": "ga",
+      "status_evidence_t": 363.7,
+      "status_evidence_quote": "you needed to enable it under feature Management in this release wave this is generally available",
+      "status_evidence_verified": true,
       "t_start": 291,
       "t_end": 493,
       "is_demoed": true,
@@ -120,24 +120,6 @@
         "no-code",
         "ad hoc reporting",
         "self-service"
-      ],
-      "system": "reporting"
-    },
-    {
-      "name": "Share data analysis",
-      "description": "Users can share their data analysis definitions with coworkers and friends after saving them.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 404.4,
-      "t_end": 451.6,
-      "is_demoed": false,
-      "caveats": [],
-      "tags": [
-        "sharing",
-        "collaboration",
-        "data analysis"
       ],
       "system": "reporting"
     },
@@ -195,41 +177,6 @@
         "data analysis",
         "no-code",
         "ad hoc reporting"
-      ],
-      "system": "reporting"
-    },
-    {
-      "name": "Query objects as data foundation for analysis",
-      "description": "Queries can now be used as the data foundation for ad hoc analysis with the same analysis UI. Users can join queries with related tables to create rich analysis scenarios.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 784,
-      "t_end": 817.4,
-      "is_demoed": true,
-      "caveats": [],
-      "tags": [
-        "queries",
-        "data foundation",
-        "analysis"
-      ],
-      "system": "reporting"
-    },
-    {
-      "name": "Analysis on queries with same UI as lists",
-      "description": "Analysis on queries now comes with the same analysis UI as data analysis on lists, providing a consistent user experience.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 797.1,
-      "t_end": 837.5,
-      "is_demoed": true,
-      "caveats": [],
-      "tags": [
-        "queries",
-        "ui consistency"
       ],
       "system": "reporting"
     },
@@ -384,24 +331,6 @@
       "system": "reporting"
     },
     {
-      "name": "Data analysis persistence of UI state",
-      "description": "Business central persists the user's menu choices in data analysis, remembering which analysis tabs were used previously.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 1265.9,
-      "t_end": 1306.3,
-      "is_demoed": true,
-      "caveats": [],
-      "tags": [
-        "persistence",
-        "ui state",
-        "analysis"
-      ],
-      "system": "reporting"
-    },
-    {
       "name": "Data analysis execute permission",
       "description": "New system permission called Data analysis execute controls whether users can perform data analysis. Users with this permission can analyze on objects they have permission for.",
       "status": "unclear",
@@ -472,26 +401,6 @@
         "data sets",
         "excel",
         "reporting"
-      ],
-      "system": "reporting"
-    },
-    {
-      "name": "Ad hoc analysis on list pages",
-      "description": "Adding existing table fields to optimize PE allows for ad hoc analysis directly on list pages, providing a way to support analytical needs without building formal reports.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 1673.6,
-      "t_end": 1693.7,
-      "is_demoed": false,
-      "caveats": [
-        "limited to existing table fields"
-      ],
-      "tags": [
-        "ad hoc analysis",
-        "list pages",
-        "analytics"
       ],
       "system": "reporting"
     }

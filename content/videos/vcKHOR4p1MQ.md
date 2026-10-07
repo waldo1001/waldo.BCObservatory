@@ -20,12 +20,12 @@ tags:
   - pipeline optimization
 system: platform
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:17:06.802Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:17:06.919Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -38,7 +38,14 @@ evidence:
     date: "2026-10-01T05:38:52.000Z"
     commit: null
     t: 831
-    quote: Code coverage is one that's coming soon
+    quote: Code coverage is one that's coming soon. Automatic reruns on flaky tests
+  - kind: video
+    url: https://www.youtube.com/watch?v=vcKHOR4p1MQ&t=831s
+    title: "Automatic reruns on flaky tests: announced"
+    date: "2026-10-01T05:38:52.000Z"
+    commit: null
+    t: 831
+    quote: Code coverage is one that's coming soon. Automatic reruns on flaky tests and stuff and flaky test management in general.
   - kind: video
     url: https://www.youtube.com/watch?v=vcKHOR4p1MQ&t=945s
     title: "BC Container Helper 2 module: announced"
@@ -177,9 +184,9 @@ features:
     verified: true
     status_source: video
   - name: Automatic reruns on flaky tests
-    status: unclear
+    status: announced
     t: 831
-    verified: false
+    verified: true
     status_source: video
   - name: Improved incremental builds
     status: unclear
@@ -304,7 +311,7 @@ quotes:
 
 > BC Container Helper deprecation (support ends October 1st, 2027), its planned replacement module (BC Container Helper 2, targeted for end of 2026), and the direction of AL-Go for GitHub, including the move of the Business Central application to the BC Apps repository and agentic engineering plans.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=vcKHOR4p1MQ) · mibuso.com / BC TechDays · 2026-10-01 · 47:08 · tier community · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=vcKHOR4p1MQ) · mibuso.com / BC TechDays · 2026-10-01 · 47:08 · tier community · reviewed (checked by Opus)
 
 ## Overview
 
@@ -316,11 +323,11 @@ It then covers AL-Go for GitHub as the center of Business Central development: t
 
 - Container Helper goes out of support on October 1st, 2027. After that it stays as a GitHub repository, is not archived, and becomes community-maintained.
 - A replacement module (working name BC Container Helper 2) is targeted for the end of 2026. It covers provisioning and deprovisioning containers and running scripts in them, will not have full feature parity, and is to be built as a CLI.
+- Microsoft plans a 6-month period after the replacement is ready before Container Helper is discontinued. If that timeline slips, the end-of-support date moves out too.
 - AL-Go still depends heavily on Container Helper. Functionality will be migrated gradually to the new module, not in a big bang, and the new code is to be opened once one AL-Go scenario works through it.
 - Workspace compilation in AL-Go lets the compiler work out dependencies and compile apps in parallel. It helps most with 10 or more apps in a repository and is not available through Container Helper.
 - AL-Go has build hooks (build initialize now, build finalize coming) and test-only projects. Code coverage, automatic reruns of flaky tests, improved incremental builds and turn-based testing are described as coming.
 - The BC application is planned to move to BC Apps on AL-Go by June, with some delays already. A PR reviewer agent is in internal dogfooding and will be opt-in when released.
-- AL-Go only works on GitHub and there are no plans to support it in Azure DevOps. AL Tool is not GitHub-specific. No official plans exist for running the BC service on Linux, and there are no concrete container performance plans.
 
 ## Chapters
 
@@ -348,8 +355,8 @@ It then covers AL-Go for GitHub as the center of Business Central development: t
 | Workspace compilation | status not stated | [11:33](https://www.youtube.com/watch?v=vcKHOR4p1MQ&t=693s) |  |
 | Build hooks in AL-Go | status not stated | [12:33](https://www.youtube.com/watch?v=vcKHOR4p1MQ&t=753s) |  |
 | Test-only projects in AL-Go | status not stated | [13:14](https://www.youtube.com/watch?v=vcKHOR4p1MQ&t=794s) |  |
-| Code coverage in AL-Go | announced | [13:51](https://www.youtube.com/watch?v=vcKHOR4p1MQ&t=831s) | "Code coverage is one that's coming soon" ([13:51](https://www.youtube.com/watch?v=vcKHOR4p1MQ&t=831s)) |
-| Automatic reruns on flaky tests | status not stated | [13:51](https://www.youtube.com/watch?v=vcKHOR4p1MQ&t=831s) |  |
+| Code coverage in AL-Go | announced | [13:51](https://www.youtube.com/watch?v=vcKHOR4p1MQ&t=831s) | "Code coverage is one that's coming soon. Automatic reruns on flaky tests" ([13:51](https://www.youtube.com/watch?v=vcKHOR4p1MQ&t=831s)) |
+| Automatic reruns on flaky tests | announced | [13:51](https://www.youtube.com/watch?v=vcKHOR4p1MQ&t=831s) | "Code coverage is one that's coming soon. Automatic reruns on flaky tests and stuff and flaky test management in general." ([13:51](https://www.youtube.com/watch?v=vcKHOR4p1MQ&t=831s)) |
 | Improved incremental builds | status not stated | [13:51](https://www.youtube.com/watch?v=vcKHOR4p1MQ&t=831s) |  |
 | Turn-based testing | status not stated | [14:01](https://www.youtube.com/watch?v=vcKHOR4p1MQ&t=841s) |  |
 | PR reviewer agent | status not stated | [14:14](https://www.youtube.com/watch?v=vcKHOR4p1MQ&t=854s) |  |

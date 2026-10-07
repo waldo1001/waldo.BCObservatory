@@ -16,12 +16,12 @@ tags:
   - excel integration
 system: reporting
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:17:55.255Z"
   flags: []
 generated:
-  at: "2026-10-06T16:40:52.228Z"
+  at: "2026-10-07T23:17:55.365Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -153,7 +153,7 @@ quotes:
 
 > Opening a Business Central financial report as a spreadsheet with "open as a spreadsheet" from Home, using the Advanced Spreadsheets app. It covers slicers, live recalculation, editing, combining reports and distributing spreadsheets that recalculate when opened.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=v4LXW8BO4GQ) · Erik Hougaard · 2026-09-21 · 3:21 · tier community · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=v4LXW8BO4GQ) · Erik Hougaard · 2026-09-21 · 3:21 · tier community · reviewed (checked by Opus)
 
 ## Overview
 
@@ -180,15 +180,15 @@ He explains that values can be edited and calculated on like in any spreadsheet,
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Open Financial Reports as Spreadsheet | status not stated, demoed | [0:00](https://www.youtube.com/watch?v=v4LXW8BO4GQ&t=0s) |  |
-| Spreadsheet Slicers for Filtering | status not stated, demoed | [1:00](https://www.youtube.com/watch?v=v4LXW8BO4GQ&t=60s) |  |
-| Live Report Calculations in Spreadsheet | status not stated, demoed | [1:25](https://www.youtube.com/watch?v=v4LXW8BO4GQ&t=85s) |  |
-| Spreadsheet Editing and Calculation Capabilities | status not stated, demoed | [1:52](https://www.youtube.com/watch?v=v4LXW8BO4GQ&t=112s) |  |
-| Combining Multiple Financial Reports | status not stated | [2:04](https://www.youtube.com/watch?v=v4LXW8BO4GQ&t=124s) |  |
-| Live Data Distribution to Users | status not stated | [2:36](https://www.youtube.com/watch?v=v4LXW8BO4GQ&t=156s) |  |
-| Automatic Date-Based Slicer Updates | status not stated, demoed | [2:50](https://www.youtube.com/watch?v=v4LXW8BO4GQ&t=170s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Open Financial Reports as Spreadsheet | status not stated, demoed | [0:00](https://www.youtube.com/watch?v=v4LXW8BO4GQ&t=0s) |
+| Spreadsheet Slicers for Filtering | status not stated, demoed | [1:00](https://www.youtube.com/watch?v=v4LXW8BO4GQ&t=60s) |
+| Live Report Calculations in Spreadsheet | status not stated, demoed | [1:25](https://www.youtube.com/watch?v=v4LXW8BO4GQ&t=85s) |
+| Spreadsheet Editing and Calculation Capabilities | status not stated, demoed | [1:52](https://www.youtube.com/watch?v=v4LXW8BO4GQ&t=112s) |
+| Combining Multiple Financial Reports | status not stated | [2:04](https://www.youtube.com/watch?v=v4LXW8BO4GQ&t=124s) |
+| Live Data Distribution to Users | status not stated | [2:36](https://www.youtube.com/watch?v=v4LXW8BO4GQ&t=156s) |
+| Automatic Date-Based Slicer Updates | status not stated, demoed | [2:50](https://www.youtube.com/watch?v=v4LXW8BO4GQ&t=170s) |
 
 ## Quotes
 

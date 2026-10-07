@@ -1,0 +1,23 @@
+{
+  "video_id": "6dEZQlmBlyI",
+  "item_id": "video/yt-hougaard/6dEZQlmBlyI",
+  "flags": [],
+  "verdict": "approve",
+  "issues": [
+    "All six quotes are verbatim and placed at the correct segments.",
+    "Summary and key points match the transcript: report region, report 111 customer top 10, max rows and headers, donut chart, recalculation on open and on demand, filters that can reference cells, query regions, free in Cloud Sandbox.",
+    "All feature statuses are unclear, which is correct because the transcript gives no preview or GA statement.",
+    "The 'development' system tag is only loosely supported but is harmless."
+  ],
+  "input_hash": "1ce6406bd76582f00a1c06a6eec62257f617c93210d40f4bca0701333251b8c2",
+  "by": "opus",
+  "at": "2026-10-07T23:18:05.984Z",
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.043580999999999995
+  }
+}

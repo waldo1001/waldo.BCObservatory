@@ -6,11 +6,11 @@
   "key_points": [
     "Container Helper goes out of support on October 1st, 2027. After that it stays as a GitHub repository, is not archived, and becomes community-maintained.",
     "A replacement module (working name BC Container Helper 2) is targeted for the end of 2026. It covers provisioning and deprovisioning containers and running scripts in them, will not have full feature parity, and is to be built as a CLI.",
+    "Microsoft plans a 6-month period after the replacement is ready before Container Helper is discontinued. If that timeline slips, the end-of-support date moves out too.",
     "AL-Go still depends heavily on Container Helper. Functionality will be migrated gradually to the new module, not in a big bang, and the new code is to be opened once one AL-Go scenario works through it.",
     "Workspace compilation in AL-Go lets the compiler work out dependencies and compile apps in parallel. It helps most with 10 or more apps in a repository and is not available through Container Helper.",
     "AL-Go has build hooks (build initialize now, build finalize coming) and test-only projects. Code coverage, automatic reruns of flaky tests, improved incremental builds and turn-based testing are described as coming.",
-    "The BC application is planned to move to BC Apps on AL-Go by June, with some delays already. A PR reviewer agent is in internal dogfooding and will be opt-in when released.",
-    "AL-Go only works on GitHub and there are no plans to support it in Azure DevOps. AL Tool is not GitHub-specific. No official plans exist for running the BC service on Linux, and there are no concrete container performance plans."
+    "The BC application is planned to move to BC Apps on AL-Go by June, with some delays already. A PR reviewer agent is in internal dogfooding and will be opt-in when released."
   ],
   "audience": [
     "developer",

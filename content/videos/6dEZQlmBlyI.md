@@ -15,12 +15,12 @@ tags:
   - data visualization
 system: reporting
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:18:05.984Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:18:06.027Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -145,7 +145,7 @@ quotes:
 
 > Embedding report data in a spreadsheet with the Advanced Spreadsheets and reporting app for Business Central. Shows a report region (report 111 customer top 10), a donut chart built from it, live recalculation and filtering. Query regions are also mentioned.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=6dEZQlmBlyI) · Erik Hougaard · 2026-09-21 · 2:53 · tier community · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=6dEZQlmBlyI) · Erik Hougaard · 2026-09-21 · 2:53 · tier community · reviewed (checked by Opus)
 
 ## Overview
 
@@ -174,13 +174,13 @@ He then builds a donut chart of top customers from the report data, with custome
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Report Region in Advanced Spreadsheets | status not stated, demoed | [0:18](https://www.youtube.com/watch?v=6dEZQlmBlyI&t=18s) |  |
-| Query Region in Advanced Spreadsheets | status not stated | [0:29](https://www.youtube.com/watch?v=6dEZQlmBlyI&t=29s) |  |
-| Chart Creation from Report Data | status not stated, demoed | [1:14](https://www.youtube.com/watch?v=6dEZQlmBlyI&t=74s) |  |
-| Live Report Calculation and Refresh | status not stated, demoed | [2:06](https://www.youtube.com/watch?v=6dEZQlmBlyI&t=126s) |  |
-| Report Filtering in Spreadsheets | status not stated | [2:06](https://www.youtube.com/watch?v=6dEZQlmBlyI&t=126s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Report Region in Advanced Spreadsheets | status not stated, demoed | [0:18](https://www.youtube.com/watch?v=6dEZQlmBlyI&t=18s) |
+| Query Region in Advanced Spreadsheets | status not stated | [0:29](https://www.youtube.com/watch?v=6dEZQlmBlyI&t=29s) |
+| Chart Creation from Report Data | status not stated, demoed | [1:14](https://www.youtube.com/watch?v=6dEZQlmBlyI&t=74s) |
+| Live Report Calculation and Refresh | status not stated, demoed | [2:06](https://www.youtube.com/watch?v=6dEZQlmBlyI&t=126s) |
+| Report Filtering in Spreadsheets | status not stated | [2:06](https://www.youtube.com/watch?v=6dEZQlmBlyI&t=126s) |
 
 ## AL objects mentioned
 

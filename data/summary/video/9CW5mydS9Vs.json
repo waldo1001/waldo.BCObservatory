@@ -10,7 +10,7 @@
     "Internal visible to exposes internal procedures to specified apps, for example test facades. Anyone can specify an app ID in production, which the speaker flags as a security concern.",
     "AI tests use data sets with permutations of inputs, prompts, models and expected outcomes, and are rerun several times because AI output is non-deterministic. Copilot feature tests run in the eval suite, not the standard test tool.",
     "Native data-driven tests with test data source attributes and a custom context interface are not part of the product yet. They may be in a pre-release.",
-    "Running tests from VS Code fails differently from client execution for tests that use GUI-related code. This is a known issue, and the classic test runner is needed for now."
+    "Tests that use GUI-related code behave differently when run from VS Code versus the client. This is a known issue; for now use the classic test explorer in the client or the PowerShell cmdlets."
   ],
   "audience": [
     "developer",

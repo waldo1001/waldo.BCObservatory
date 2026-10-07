@@ -738,25 +738,6 @@
       "system": "copilot"
     },
     {
-      "name": "Advanced testing with CLI toolkit",
-      "description": "CLI toolkit enables citizen developers to do more advanced testing of custom agents and deeper development.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 2131.2,
-      "t_end": 2145.2,
-      "is_demoed": false,
-      "caveats": [],
-      "tags": [
-        "cli",
-        "toolkit",
-        "testing",
-        "development"
-      ],
-      "system": "development"
-    },
-    {
       "name": "MCP server access control",
       "description": "MCP server access depends on configuration settings. Access to specific MCP servers is controlled by administrator configuration.",
       "status": "unclear",
@@ -782,7 +763,7 @@
       "description": "Agents can be shipped and distributed through Power Platform solutions and published to AppSource for monetization.",
       "status": "ga",
       "status_evidence_t": 2380.9,
-      "status_evidence_quote": "Today you today you will ship it through a Power Platform solution, right? So you would create a Power Platform solution and and you",
+      "status_evidence_quote": "Today you today you will ship it through a Power Platform solution, right?",
       "status_evidence_verified": true,
       "t_start": 2368.1,
       "t_end": 2406.1,
@@ -970,12 +951,6 @@
       "check": "exact"
     },
     {
-      "t": 253.5,
-      "text": "Microsoft Copilot Studio is one of the few products in Microsoft and so some extent we're really jealous that can you can get access",
-      "why_it_matters": "Highlights Copilot Studio's unique advantage of providing immediate access to frontier AI models without infrastructure management.",
-      "check": "exact"
-    },
-    {
       "t": 318.6,
       "text": "you have the 1400 plus connectors in in in Power Platform",
       "why_it_matters": "Quantifies the integration capabilities available through Power Platform connectors for agents.",
@@ -1056,13 +1031,13 @@
     {
       "t": 1906.3,
       "text": "We have the first-party agents, which are out of the box and uh soon you'll be able to um customize ...",
-      "why_it_matters": "Indicates first-party agents exist but customization capability is coming, not yet available.",
+      "why_it_matters": "States that customization of first-party Business Central agents is coming.",
       "check": "exact"
     },
     {
       "t": 2058.4,
       "text": "One of them is the credit packs. You can have a 25,000 credit per month. A pack will cost 200 ...",
-      "why_it_matters": "Provides specific pricing information for Copilot Studio licensing model.",
+      "why_it_matters": "Gives the Copilot Studio credit pack size and price.",
       "check": "exact"
     },
     {

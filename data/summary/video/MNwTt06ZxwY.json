@@ -10,7 +10,7 @@
     "Export the agent definition from the agents list to collect profile, permissions, instructions, locale and version. Instructions can also be downloaded on their own for an extension.",
     "Disabling the Copilot capability deactivates all agent instances that use it. Re-enabling it restores them.",
     "AI evaluation tools run in sandbox only, use your own data sets, and can feed CI/CD. Agent tests are turn-based, use YAML data sets and an AI test type code unit, and depend on the AI development toolkit evaluation extension.",
-    "Budget limits exist at environment and company level. They block new tasks but let running tasks finish, so spend can slightly exceed the limit. Test credit figures cover test framework tokens, not the agents' own tokens."
+    "Budget limits exist at environment and company level. They block new tasks but let running tasks finish, so spend can slightly exceed the limit. Test results show Copilot credits consumed per task; the total tokens column shows only test framework tokens (such as LLM as judge calls), not the agents' own tokens."
   ],
   "audience": [
     "developer",

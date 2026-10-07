@@ -118,10 +118,10 @@
     {
       "name": "BC 14 Re-implementation Tool",
       "description": "A migration tool that enables customers on BC version 14 to migrate directly to BC SaaS without going through intermediate versions. It moves a subset of data and recommends a fresh start for business process standardization.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
+      "status": "preview",
+      "status_evidence_t": 1283.1,
+      "status_evidence_quote": "Uh it will be released in preview. And uh yeah, you are always welcome to give us your feedback.",
+      "status_evidence_verified": true,
       "t_start": 198.2,
       "t_end": 312,
       "is_demoed": true,
@@ -285,10 +285,10 @@
     {
       "name": "Direct Upgrade Path from BC 14 to SaaS",
       "description": "New capability allowing customers on BC 14 to upgrade directly to the latest BC SaaS version, bypassing the intermediate version requirements that were previously mandatory.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
+      "status": "preview",
+      "status_evidence_t": 1283.1,
+      "status_evidence_quote": "Uh it will be released in preview. And uh yeah, you are always welcome to give us your feedback.",
+      "status_evidence_verified": true,
       "t_start": 233.4,
       "t_end": 312,
       "is_demoed": true,
@@ -502,10 +502,10 @@
     {
       "name": "Record links and notes migration helper tool",
       "description": "Helper tool to migrate record links and notes from BC14 on-prem. Shipped out of box with version 28 as part of BC implementation. Can be run separately to target specific tables. Provides additional safety by only replicating record links table without affecting other data.",
-      "status": "ga",
-      "status_evidence_t": 1580.5,
-      "status_evidence_quote": "We ship this support out of the box with version 28, but the problem is that this works as part of the BC implementation",
-      "status_evidence_verified": true,
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
       "t_start": 1554.6,
       "t_end": 1706.3,
       "is_demoed": true,
@@ -1112,6 +1112,12 @@
       "t": 1269.3,
       "text": "it's targeting at 20.8.03, but uh now in 20.8.02, you can uh try it on the sandbox",
       "why_it_matters": "Establishes the release timeline and current availability status for testing",
+      "check": "exact"
+    },
+    {
+      "t": 1283.1,
+      "text": "Uh it will be released in preview. And uh yeah, you are always welcome to give us your feedback.",
+      "why_it_matters": "States that the BC 14 re-implementation tool will be released in preview.",
       "check": "exact"
     },
     {

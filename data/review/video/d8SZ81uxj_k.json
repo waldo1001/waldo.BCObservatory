@@ -1,0 +1,29 @@
+{
+  "video_id": "d8SZ81uxj_k",
+  "item_id": "video/yt-areopa/d8SZ81uxj_k",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Quotes at t=1372.4 and t=2361.8 contain inserted ellipses not in the transcript; replaced with clean verbatim spans.",
+    "Duplicate quotes at t=3179, one with an inserted ellipsis; dropped both and re-added one clean verbatim version.",
+    "Features 'Talk structure using anchors and accordion topics' and 'Accordion content structure for talks' overlap but both are supported; kept.",
+    "Summary, key points and chapters are supported by the transcript. Content is mostly about speaking craft, but the speaker is a BC MVP and this is a BC webinar series, so the page is usable.",
+    "All feature statuses unclear is appropriate; these are speaking techniques, not product releases."
+  ],
+  "input_hash": "fb210f03fb888a1dac28aba04880c8adc0112bd256f0124ed87e0db797e512ed",
+  "by": "opus",
+  "at": "2026-10-07T23:17:54.539Z",
+  "applied": [
+    "dropped 4 quote(s)",
+    "quote at 1372s",
+    "quote at 2362s",
+    "quote at 3179s"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.253753
+  }
+}

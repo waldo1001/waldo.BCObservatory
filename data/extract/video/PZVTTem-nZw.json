@@ -202,6 +202,18 @@
       "check": "exact"
     },
     {
+      "t": 301.6,
+      "text": "we have the table with with the extension fields and now this is stored as a single table on SQL.",
+      "why_it_matters": "This is the core statement of the BC29 storage change that makes cross-app keys possible.",
+      "check": "exact"
+    },
+    {
+      "t": 348.2,
+      "text": "if we're not on runtime 18 and if you're not on a uh in reality platform 29",
+      "why_it_matters": "It states the runtime and platform the feature requires.",
+      "check": "exact"
+    },
+    {
       "t": 475.1,
       "text": "we couldn't do this before and this will have a big impact on on",
       "why_it_matters": "Indicates the significance of cross-app key functionality for existing BC implementations.",
@@ -211,6 +223,12 @@
       "t": 576.6,
       "text": "when you uninstall an app and ask to delete data if you're the only app that is extending a table, then you know, Microsoft",
       "why_it_matters": "Explains a behavioral change in app uninstalling that could impact deployment procedures.",
+      "check": "exact"
+    },
+    {
+      "t": 599.5,
+      "text": "Now anytime you uninstall an app and delete the data removing the fields will have to be a sequel operation that that drops the",
+      "why_it_matters": "It explains the uninstall trade-off of the new storage model.",
       "check": "exact"
     },
     {

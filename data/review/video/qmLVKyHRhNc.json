@@ -1,0 +1,31 @@
+{
+  "video_id": "qmLVKyHRhNc",
+  "item_id": "video/yt-microsoft/qmLVKyHRhNc",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Key point 1 is wrong: the video says analyze data was in public preview in wave 1 and is generally available in 2023 release wave 2 (t 363.7). Feature status set to ga.",
+    "Query discoverability in the report/role explorer and Tell Me is described as likely available in version 23.1, so its status is set to announced.",
+    "Duplicate features dropped: 'Share data analysis', 'Query objects as data foundation for analysis', 'Analysis on queries with same UI as lists' and 'Data analysis persistence of UI state' repeat other entries.",
+    "'Ad hoc analysis on list pages' was dropped. It is a garbled pointer to a separate session about adding table fields to optimize pages, not a feature from this video.",
+    "Two quotes at t 1612.4 overlap: one is a subset of the other. Both were kept because dropping by t would remove both."
+  ],
+  "input_hash": "8f67a77e06733c049b6b54cbf9bc393896c882bbf125b941c93d22cd46558fb1",
+  "by": "opus",
+  "at": "2026-10-07T23:16:14.636Z",
+  "applied": [
+    "dropped 5 feature(s)",
+    "Analyze data on list pages: status ga",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [
+    "status Queries in report and role explorer -> announced: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.14188499999999998
+  }
+}

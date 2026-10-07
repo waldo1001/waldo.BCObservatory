@@ -6,9 +6,9 @@
   "key_points": [
     "The Expense Agent is in public preview and available in the US only. More regions were said to come the following month.",
     "Expense users are a new Business Central entity attached to employees. They need no BC license and can submit by web app or shared mailbox. A mobile client is coming. Existing employees can be imported in one action.",
-    "Limits mentioned: 10 MB per expense file, 25 files and 50 MB per batch, 100 emails per company in the shared mailbox scenario, and 50 expenses per expense user per company per day.",
+    "Limits mentioned: 10 MB per expense file, 25 files and 50 MB per batch, 100 emails per company in the shared mailbox scenario, and 50 expenses per expense user per company per day. These limits are hardcoded for now.",
     "Category and subcategory descriptions act as prompts for the agent, so their detail affects categorization accuracy. Rules cover amounts, thresholds and required information. Natural-language policies are not yet available.",
-    "Some steps are still manual, such as setting mileage information and posting. Attaching a project to expenses is desktop only for now.",
+    "Some steps are still manual, such as setting mileage information and posting. For now, projects are attached to expense lines or reports in Business Central. Attaching them from the web app is work in progress.",
     "Microsoft requires 95 percent accuracy to ship an agentic system. The team started at 65 percent and used 1,500 labeled datasets, synthetic edge cases, a hill climbing loop and model comparison to improve it.",
     "The service uses Azure Front Door, a Python gateway for authentication, and Azure Functions processors. Redis caching limits repeated lookups when locating a user's Business Central environment."
   ],

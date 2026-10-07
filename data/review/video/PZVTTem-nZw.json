@@ -1,0 +1,35 @@
+{
+  "video_id": "PZVTTem-nZw",
+  "item_id": "video/yt-hougaard/PZVTTem-nZw",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All six quotes are verbatim. Some run across segment boundaries, which is acceptable.",
+    "The 'Load fields for selective field retrieval' feature description wrongly says it was introduced in BC24. In the transcript, the uncertain BC24 version belongs to compact extension storage. No version is given for load fields.",
+    "Load fields are described as an already introduced, shipped capability, so their status is set to ga with transcript evidence. The other statuses stay unclear because the transcript never states a release status.",
+    "The summary said extension fields sit 'alongside' the base table. That is ambiguous, so it now says they are stored in the same SQL table.",
+    "Key points now cover the uninstall cost (columns must be dropped) and the workaround that is no longer needed (duplicating base fields such as customer number into the extension)."
+  ],
+  "input_hash": "ef568c22c0d5bb260c3243130739415ca02389b82b7aad0a44e4e3fd2f9e9eff",
+  "by": "opus",
+  "at": "2026-10-07T23:16:25.805Z",
+  "applied": [
+    "Table extensions stored in single SQL table: status unclear",
+    "Cross-app keys in table extensions: status unclear",
+    "Compact extension table storage: status unclear",
+    "quote at 302s",
+    "quote at 348s",
+    "quote at 600s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [
+    "status Load fields for selective field retrieval -> ga: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.097937
+  }
+}

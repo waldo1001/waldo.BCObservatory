@@ -2,7 +2,7 @@
 id: video/5qWLFUqFsi0
 type: video
 title: Use Page Regions to Present your Reports and Data in Business Central (Advanced Spreadsheets)
-summary: "Page regions in Advanced Spreadsheets (reporting app) for Business Central: defining regions, tabbed preview mode, one printed page per region, read-only sharing by the owner, and slicers that work on live data. Demonstrated by Erik Hougaard in a 5-minute video."
+summary: "Page regions in the Advanced Spreadsheet and reporting app for Business Central: defining regions, tabbed preview mode, one printed page per region, read-only sharing by the owner, and slicers that work on live data. Demonstrated by Eric in a 5-minute video."
 tier: community
 language: en
 tags:
@@ -17,12 +17,12 @@ tags:
   - tabs
 system: reporting
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:18:08.218Z"
   flags: []
 generated:
-  at: "2026-10-06T16:41:32.239Z"
+  at: "2026-10-07T23:18:08.262Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -155,9 +155,9 @@ quotes:
 
 # Use Page Regions to Present your Reports and Data in Business Central (Advanced Spreadsheets)
 
-> Page regions in Advanced Spreadsheets (reporting app) for Business Central: defining regions, tabbed preview mode, one printed page per region, read-only sharing by the owner, and slicers that work on live data. Demonstrated by Erik Hougaard in a 5-minute video.
+> Page regions in the Advanced Spreadsheet and reporting app for Business Central: defining regions, tabbed preview mode, one printed page per region, read-only sharing by the owner, and slicers that work on live data. Demonstrated by Eric in a 5-minute video.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=5qWLFUqFsi0) · Erik Hougaard · 2026-09-21 · 5:25 · tier community · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=5qWLFUqFsi0) · Erik Hougaard · 2026-09-21 · 5:25 · tier community · reviewed (checked by Opus)
 
 ## Overview
 
@@ -167,13 +167,13 @@ He also covers printing, where each region becomes its own page, and permissions
 
 ## Key points
 
-- Regions are defined inside a spreadsheet and can have background colors. The demo spreadsheet had four regions.
-- Region order follows the ID assigned to each region.
+- Regions are defined inside a spreadsheet as screen areas that can have a background color. The demo spreadsheet had four regions.
+- Tab order follows the ID given to each region (for example, P10 sorted between P1 and P2).
 - In preview mode, regions appear as tabs at the bottom, and scrolling stays within the current region's area.
 - When printed, each region becomes a separate page.
-- A spreadsheet must always have an owner. The owner can grant other users read-only access, and those users see only the spreadsheets shared with them.
-- Slicers can be used for filtering in preview mode but cannot be edited there.
-- Spreadsheet data is live from Business Central with no staging or sync delay. The apps are free in the cloud sandbox.
+- A spreadsheet must always have an owner. The owner can grant other users read-only access in Permissions, and those users see only the spreadsheets shared with them.
+- For a read-only user, clicking edit opens the spreadsheet in preview mode anyway.
+- Slicers (for example, to pick a date) are still selectable in preview mode, but the spreadsheet cannot be edited there.
 
 ## Chapters
 
@@ -189,14 +189,14 @@ He also covers printing, where each region becomes its own page, and permissions
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Page regions for spreadsheet presentation | status not stated, demoed | [0:38](https://www.youtube.com/watch?v=5qWLFUqFsi0&t=38s) |  |
-| Preview mode with tabbed navigation | status not stated, demoed | [2:13](https://www.youtube.com/watch?v=5qWLFUqFsi0&t=133s) |  |
-| Print functionality for regions | status not stated, demoed | [2:46](https://www.youtube.com/watch?v=5qWLFUqFsi0&t=166s) |  |
-| Spreadsheet permissions and read-only access | status not stated, demoed | [3:13](https://www.youtube.com/watch?v=5qWLFUqFsi0&t=193s) |  |
-| Slicers in preview mode | status not stated | [4:16](https://www.youtube.com/watch?v=5qWLFUqFsi0&t=256s) |  |
-| Real-time data in spreadsheets | status not stated, demoed | [4:42](https://www.youtube.com/watch?v=5qWLFUqFsi0&t=282s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Page regions for spreadsheet presentation | status not stated, demoed | [0:38](https://www.youtube.com/watch?v=5qWLFUqFsi0&t=38s) |
+| Preview mode with tabbed navigation | status not stated, demoed | [2:13](https://www.youtube.com/watch?v=5qWLFUqFsi0&t=133s) |
+| Print functionality for regions | status not stated, demoed | [2:46](https://www.youtube.com/watch?v=5qWLFUqFsi0&t=166s) |
+| Spreadsheet permissions and read-only access | status not stated, demoed | [3:13](https://www.youtube.com/watch?v=5qWLFUqFsi0&t=193s) |
+| Slicers in preview mode | status not stated | [4:16](https://www.youtube.com/watch?v=5qWLFUqFsi0&t=256s) |
+| Real-time data in spreadsheets | status not stated, demoed | [4:42](https://www.youtube.com/watch?v=5qWLFUqFsi0&t=282s) |
 
 ## Quotes
 

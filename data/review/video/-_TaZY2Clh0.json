@@ -1,0 +1,30 @@
+{
+  "video_id": "-_TaZY2Clh0",
+  "item_id": "video/yt-mibuso/-_TaZY2Clh0",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Feature 'Transaction retry monitoring interface' has a made-up name; the transcript describes the speaker's own demo page that reads the SQL TR locks management view. It is not a Business Central feature.",
+    "Feature 'Avoiding excessive commits in bulk operations' is not supported: when asked about this, the speaker said he did not really know how to answer, and he never tied commits to broken buffered inserts.",
+    "Quote 4569.8 is a fragment with no standalone meaning.",
+    "Quote 5505.8 is the speaker's non-answer about commits and carries no information.",
+    "Several quotes end with '...' truncation markers; their text up to the marker is verbatim, so they were kept.",
+    "The loop demo accidentally modified 20,000 records, not 15,000; this is minor and the timing claim is still supported.",
+    "The summary and key points are supported by the transcript; all feature statuses are correctly 'unclear' because the talk covers platform behavior, not release stages."
+  ],
+  "input_hash": "9da7de0a1bb503dc94667dbc913a90b6346cac58fab4120fc882bfd645ef0780",
+  "by": "opus",
+  "at": "2026-10-07T23:17:50.387Z",
+  "applied": [
+    "dropped 2 feature(s)",
+    "dropped 2 quote(s)",
+    "quote at 3820s"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.368529
+  }
+}

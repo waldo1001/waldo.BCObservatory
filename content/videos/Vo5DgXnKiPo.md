@@ -20,12 +20,12 @@ tags:
   - github copilot cli
 system: platform
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:17:38.753Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:17:38.813Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -173,19 +173,9 @@ features:
     t: 1565
     verified: false
     status_source: video
-  - name: Template repositories for AL-Go configuration
-    status: unclear
-    t: 1578
-    verified: false
-    status_source: video
   - name: AppSource and beer tenant extension templates
     status: unclear
     t: 1631
-    verified: false
-    status_source: video
-  - name: Template hierarchy and nested template composition
-    status: unclear
-    t: 1673
     verified: false
     status_source: video
 objects_mentioned:
@@ -215,7 +205,7 @@ quotes:
 
 > Managing many AL-Go repositories at scale: custom jobs in workflow YAML, custom template repositories that propagate settings and jobs, and AL-Go telemetry in Application Insights with an Azure Data Explorer dashboard. Also shows GitHub Copilot CLI app for dashboards and CI/CD investigation.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=Vo5DgXnKiPo) · mibuso.com / BC TechDays · 2026-10-01 · 28:33 · tier community · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=Vo5DgXnKiPo) · mibuso.com / BC TechDays · 2026-10-01 · 28:33 · tier community · reviewed (checked by Opus)
 
 ## Overview
 
@@ -226,12 +216,12 @@ The demos cover three ways to keep repositories consistent: custom jobs added to
 ## Key points
 
 - AL-Go for GitHub lets you add your own custom jobs to workflow YAML files; they are not wiped when AL-Go system files are updated. Caveats: jobs you depend on may disappear in later versions, and your job names may clash with names AL-Go picks later.
-- A custom template repository can be set as the template for multiple end repositories; changes propagate when you run update ecosystem files. Such a template repository should typically not contain AL-Go code.
+- A custom template repository can be set as the template for multiple end repositories; changes propagate when you run update AL-Go system files. Such a template repository should typically not contain AL-Go code. Existing repositories can be pointed to a new template after the fact.
 - Settings can live at user, project, repository and organization level; moving them to organization level or templates helps keep consistency.
 - AL-Go ships a telemetry module that emits to Application Insights (workflow outcomes, action durations, errors, test results). It needs a partner telemetry connection string, which can be set in templates.
 - The Azure Data Explorer dashboard is a starter only: about 5 minutes of setup and a manual import of a JSON file. It shows workflow status, pipeline performance, errors, runner types and AL-Go version across repositories.
 - Deprecated AL-Go settings are emitted as warnings in telemetry.
-- Templates are preferred over GitHub organization variables for versioning strategy because they are version controlled. AppSource and beer tenant templates share about 95% of content; nested template hierarchies were not an original design goal.
+- Templates are preferred over GitHub organization variables for versioning strategy because they are version controlled. AppSource and PT templates are about 95% the same; nested template hierarchies were not an original design goal.
 
 ## Chapters
 
@@ -262,9 +252,7 @@ The demos cover three ways to keep repositories consistent: custom jobs added to
 | Custom Copilot canvas UIs | status not stated, demoed | [21:23](https://www.youtube.com/watch?v=Vo5DgXnKiPo&t=1283s) |  |
 | Agent-assisted CI/CD investigation | status not stated, demoed | [22:15](https://www.youtube.com/watch?v=Vo5DgXnKiPo&t=1335s) |  |
 | Versioning strategy configuration via GitHub organization variables | status not stated | [26:05](https://www.youtube.com/watch?v=Vo5DgXnKiPo&t=1565s) |  |
-| Template repositories for AL-Go configuration | status not stated | [26:18](https://www.youtube.com/watch?v=Vo5DgXnKiPo&t=1578s) |  |
 | AppSource and beer tenant extension templates | status not stated | [27:11](https://www.youtube.com/watch?v=Vo5DgXnKiPo&t=1631s) |  |
-| Template hierarchy and nested template composition | status not stated | [27:53](https://www.youtube.com/watch?v=Vo5DgXnKiPo&t=1673s) |  |
 
 ## AL objects mentioned
 

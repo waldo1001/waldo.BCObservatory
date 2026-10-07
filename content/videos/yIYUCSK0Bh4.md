@@ -2,7 +2,7 @@
 id: video/yIYUCSK0Bh4
 type: video
 title: "Microsoft presents: BC-Bench: Can coding agents solve real-world AL tasks?"
-summary: BC-Bench is Microsoft's offline evaluation framework for coding agents on AL tasks, adapted from SWE-bench. The session covers bug-fixing results, multi-run metrics, AL-MCP effect, complexity analysis and code review agent evaluation. Feature status is not stated.
+summary: BC-Bench is Microsoft's open-source offline evaluation framework for coding agents on AL tasks (bug fixing, AL test generation, code review, code from natural language), adapted from SWE-bench. The session covers bug-fix methodology and dataset, multi-run metrics, AL-MCP gains, the finding that harness choice (Copilot CLI vs Claude Code) made no significant difference, complexity limits, and code review agent evaluation with a self-improving pipeline.
 tier: community
 language: en
 tags:
@@ -20,12 +20,12 @@ tags:
   - multi-run metrics
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:17:21.330Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:17:21.405Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -33,19 +33,12 @@ generated:
   input_hash: 9dead8270a808a628e8548ae2ed98bb82f93e5977444d7d6a0d29ad536b40fcc
 evidence:
   - kind: video
-    url: https://www.youtube.com/watch?v=yIYUCSK0Bh4&t=1657s
-    title: "Online evaluation of AI features: generally available"
-    date: "2026-10-01T05:38:52.000Z"
-    commit: null
-    t: 1657
-    quote: We also do online evaluation. That's also uh something we will or are doing for all um AI features that we ship.
-  - kind: video
     url: https://www.youtube.com/watch?v=yIYUCSK0Bh4&t=2087s
     title: "Payables and Sales Agents Code Availability: announced"
     date: "2026-10-01T05:38:52.000Z"
     commit: null
     t: 2087
-    quote: Yes, so we're moving more and more things on on GitHub. So, I think these will be available soon
+    quote: Yes, so we're moving more and more things on on GitHub. So, I think these will be available soon.
   - kind: video
     url: https://www.youtube.com/watch?v=yIYUCSK0Bh4&t=53s
     title: "Microsoft presents: BC-Bench: Can coding agents solve real-world AL tasks?"
@@ -61,26 +54,26 @@ evidence:
     t: 64
     quote: one of the things that uh would or is interesting to know is how much does it depend on the agent harness, right?
   - kind: video
-    url: https://www.youtube.com/watch?v=yIYUCSK0Bh4&t=155s
-    title: "Microsoft presents: BC-Bench: Can coding agents solve real-world AL tasks?"
-    date: "2026-10-01T05:38:52.000Z"
-    commit: null
-    t: 155
-    quote: in half half a year ago approximately we got uh GPT-5.1 Codex Max and we got uh new Claude Opus ...
-  - kind: video
-    url: https://www.youtube.com/watch?v=yIYUCSK0Bh4&t=219s
-    title: "Microsoft presents: BC-Bench: Can coding agents solve real-world AL tasks?"
-    date: "2026-10-01T05:38:52.000Z"
-    commit: null
-    t: 219
-    quote: benchmarking contains some data set, some tasks, preferably some real-life scenarios, and then some quality metrics uh to understand the ...
-  - kind: video
     url: https://www.youtube.com/watch?v=yIYUCSK0Bh4&t=494s
     title: "Microsoft presents: BC-Bench: Can coding agents solve real-world AL tasks?"
     date: "2026-10-01T05:38:52.000Z"
     commit: null
     t: 494
     quote: We started the effort about 6 months ago. That was heavily inspired by SweepBench. We followed the same methodology, but adapted for Business Central
+  - kind: video
+    url: https://www.youtube.com/watch?v=yIYUCSK0Bh4&t=798s
+    title: "Microsoft presents: BC-Bench: Can coding agents solve real-world AL tasks?"
+    date: "2026-10-01T05:38:52.000Z"
+    commit: null
+    t: 798
+    quote: So it's 68% almost or uh another one is 55%. That's almost 10 times higher.
+  - kind: video
+    url: https://www.youtube.com/watch?v=yIYUCSK0Bh4&t=857s
+    title: "Microsoft presents: BC-Bench: Can coding agents solve real-world AL tasks?"
+    date: "2026-10-01T05:38:52.000Z"
+    commit: null
+    t: 857
+    quote: The first part is the functional fix that actually fix the behavior and the second part is some union test to verify okay the
 links:
   learn: []
   objects: []
@@ -202,9 +195,9 @@ features:
     verified: false
     status_source: video
   - name: Online evaluation of AI features
-    status: ga
+    status: unclear
     t: 1657
-    verified: true
+    verified: false
     status_source: video
   - name: Self-Improving Code Review Agent Pipeline
     status: unclear
@@ -249,22 +242,22 @@ quotes:
   - t: 64
     text: one of the things that uh would or is interesting to know is how much does it depend on the agent harness, right?
     check: exact
-  - t: 155
-    text: in half half a year ago approximately we got uh GPT-5.1 Codex Max and we got uh new Claude Opus ...
-    check: exact
-  - t: 219
-    text: benchmarking contains some data set, some tasks, preferably some real-life scenarios, and then some quality metrics uh to understand the ...
-    check: exact
   - t: 494
     text: We started the effort about 6 months ago. That was heavily inspired by SweepBench. We followed the same methodology, but adapted for Business Central
+    check: exact
+  - t: 798
+    text: So it's 68% almost or uh another one is 55%. That's almost 10 times higher.
+    check: exact
+  - t: 857
+    text: The first part is the functional fix that actually fix the behavior and the second part is some union test to verify okay the
     check: exact
 ---
 
 # Microsoft presents: BC-Bench: Can coding agents solve real-world AL tasks?
 
-> BC-Bench is Microsoft's offline evaluation framework for coding agents on AL tasks, adapted from SWE-bench. The session covers bug-fixing results, multi-run metrics, AL-MCP effect, complexity analysis and code review agent evaluation. Feature status is not stated.
+> BC-Bench is Microsoft's open-source offline evaluation framework for coding agents on AL tasks (bug fixing, AL test generation, code review, code from natural language), adapted from SWE-bench. The session covers bug-fix methodology and dataset, multi-run metrics, AL-MCP gains, the finding that harness choice (Copilot CLI vs Claude Code) made no significant difference, complexity limits, and code review agent evaluation with a self-improving pipeline.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=yIYUCSK0Bh4) · mibuso.com / BC TechDays · 2026-10-01 · 35:40 · tier community · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=yIYUCSK0Bh4) · mibuso.com / BC TechDays · 2026-10-01 · 35:40 · tier community · reviewed (checked by Opus)
 
 ## Overview
 
@@ -274,13 +267,13 @@ The talk covers the bug-fixing dataset and how it was filtered, results across m
 
 ## Key points
 
-- Bug-fix verification: the code base is reset to before the fix, the agent produces a fix, and the tests must fail before the fix and pass after it. The code must build in Docker.
-- Dataset: single-bug pull requests that include tests, drawn from Microsoft internal pull requests and the BC apps public repository. About 20% are inventory and 19% are finance. Bug reports are verified manually.
-- Results: latest models reach about 68% on bug fixing, against 16% for GPT-4. Results depend on the model and the agent harness (Cloud Code, GitHub Copilot CLI and others).
-- Multi-run metrics: because AI is non-deterministic, the talk reports mean accuracy, pass@5 and pass@1. These can give very different numbers. Two or three runs can still give statistical significance.
-- AL-MCP gives agents compile and symbol search. It improved mean resolution rate by 5% and pass@5 by 10%.
-- Complexity: agents reach about 80% on bugs needing fewer than 10 lines of code, and about 50% on more complex fixes.
-- Code review agent: in the shown run, 57% accuracy on comments and 49% on severity classification. A self-improving pipeline updates the agent's skills and ships a new version only if offline quality gates pass, with human review.
+- Bug-fix verification: the code base is reset to before the fix, the agent gets the same bug report and produces a fix, and the original human-written tests are run. Tests must fail before and pass after the fix, and code must build in Docker.
+- Dataset: single-bug pull requests that include tests, from the public BC apps GitHub repo and a private Azure DevOps repo. About 20% inventory and 19% finance. Bug reports are manually verified for sufficient context.
+- Leaderboard: latest models reach about 68% (another 55%) on bug fixing, versus 16% (another 5%) for the GPT-4 model at the bottom.
+- Multi-run metrics: AI is non-deterministic, so they compare mean accuracy, a consistency metric (task resolved in all five runs) and a best-case metric (resolved in any run). Bug fixing reports mean and the consistency metric. Two or three runs can still give statistical significance.
+- AL-MCP (compile and symbol search) with GitHub Copilot CLI and Opus 4.6 raised mean resolution rate about 5% (non-overlapping 95% CI) and pass@5 about 10%.
+- With Opus 4.6 fixed, GitHub Copilot CLI and Claude Code showed no significant difference; model choice is probably more significant.
+- Complexity: agents reach about 80% on bugs needing fewer than 10 lines of code, dropping to around 50% for larger fixes.
 
 ## Chapters
 
@@ -317,12 +310,12 @@ The talk covers the bug-fixing dataset and how it was filtered, results across m
 | Multi-run metrics for coding agents | status not stated, demoed | [17:43](https://www.youtube.com/watch?v=yIYUCSK0Bh4&t=1063s) |  |
 | Dataset for bug fixing benchmark | status not stated | [15:43](https://www.youtube.com/watch?v=yIYUCSK0Bh4&t=943s) |  |
 | Coding agent complexity analysis | status not stated, demoed | [21:57](https://www.youtube.com/watch?v=yIYUCSK0Bh4&t=1317s) |  |
-| Online evaluation of AI features | generally available | [27:37](https://www.youtube.com/watch?v=yIYUCSK0Bh4&t=1657s) | "We also do online evaluation. That's also uh something we will or are doing for all um AI features that we ship." ([27:37](https://www.youtube.com/watch?v=yIYUCSK0Bh4&t=1657s)) |
+| Online evaluation of AI features | status not stated | [27:37](https://www.youtube.com/watch?v=yIYUCSK0Bh4&t=1657s) |  |
 | Self-Improving Code Review Agent Pipeline | status not stated | [28:09](https://www.youtube.com/watch?v=yIYUCSK0Bh4&t=1689s) |  |
 | BC-Bench Dataset Expansion | status not stated | [29:13](https://www.youtube.com/watch?v=yIYUCSK0Bh4&t=1753s) |  |
 | Prompt Compression Experiments | status not stated | [29:43](https://www.youtube.com/watch?v=yIYUCSK0Bh4&t=1783s) |  |
 | Partner Dataset Leaderboard | status not stated | [31:42](https://www.youtube.com/watch?v=yIYUCSK0Bh4&t=1902s) |  |
-| Payables and Sales Agents Code Availability | announced | [34:21](https://www.youtube.com/watch?v=yIYUCSK0Bh4&t=2061s) | "Yes, so we're moving more and more things on on GitHub. So, I think these will be available soon" ([34:47](https://www.youtube.com/watch?v=yIYUCSK0Bh4&t=2087s)) |
+| Payables and Sales Agents Code Availability | announced | [34:21](https://www.youtube.com/watch?v=yIYUCSK0Bh4&t=2061s) | "Yes, so we're moving more and more things on on GitHub. So, I think these will be available soon." ([34:47](https://www.youtube.com/watch?v=yIYUCSK0Bh4&t=2087s)) |
 
 ## AL objects mentioned
 
@@ -343,9 +336,9 @@ As heard in the captions. A name that matches one object page by exact type and 
 
 - [0:53](https://www.youtube.com/watch?v=yIYUCSK0Bh4&t=53s) "the basic question we want to uh to answer is how good are coding agents. And specifically at uh AL tasks."
 - [1:04](https://www.youtube.com/watch?v=yIYUCSK0Bh4&t=64s) "one of the things that uh would or is interesting to know is how much does it depend on the agent harness, right?"
-- [2:35](https://www.youtube.com/watch?v=yIYUCSK0Bh4&t=155s) "in half half a year ago approximately we got uh GPT-5.1 Codex Max and we got uh new Claude Opus ..."
-- [3:39](https://www.youtube.com/watch?v=yIYUCSK0Bh4&t=219s) "benchmarking contains some data set, some tasks, preferably some real-life scenarios, and then some quality metrics uh to understand the ..."
 - [8:14](https://www.youtube.com/watch?v=yIYUCSK0Bh4&t=494s) "We started the effort about 6 months ago. That was heavily inspired by SweepBench. We followed the same methodology, but adapted for Business Central"
+- [13:18](https://www.youtube.com/watch?v=yIYUCSK0Bh4&t=798s) "So it's 68% almost or uh another one is 55%. That's almost 10 times higher."
+- [14:17](https://www.youtube.com/watch?v=yIYUCSK0Bh4&t=857s) "The first part is the functional fix that actually fix the behavior and the second part is some union test to verify okay the"
 
 ## Disclaimers in the video
 

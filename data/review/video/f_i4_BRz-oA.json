@@ -1,0 +1,29 @@
+{
+  "video_id": "f_i4_BRz-oA",
+  "item_id": "video/yt-mibuso/f_i4_BRz-oA",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "The 'Record links and notes migration helper tool' was marked GA, but the evidence quote is about the out-of-box record links support in the BC re-implementation tool (version 28). The helper tool itself is a sample shared on the BC Tech repo, so its status is set to unclear.",
+    "The BC 14 Re-implementation Tool was marked unclear, but the transcript says 'it will be released in preview' (t=1283.1). Its status and the direct upgrade path status are set to preview.",
+    "The 'On-premises development for cloud migration tools' description gets the timing wrong. Manual testing used to take 45 minutes to 1 hour; that is not a reduced time. No field allows editing the description, so this is noted here.",
+    "Quote t=1269.3 has version numbers that look mangled by the captions (20.8.03 / 20.8.02). It is kept because it is verbatim.",
+    "The other quotes check out as verbatim, some running into the next segment. The summary and key points are supported by the transcript."
+  ],
+  "input_hash": "277282929a754f5b0d0a5fdc24c4e2fe5504550836dfc48a4d5838d6e995e876",
+  "by": "opus",
+  "at": "2026-10-07T23:16:39.395Z",
+  "applied": [
+    "BC 14 Re-implementation Tool: status preview",
+    "Direct Upgrade Path from BC 14 to SaaS: status preview",
+    "Record links and notes migration helper tool: status unclear",
+    "quote at 1283s"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.23951300000000003
+  }
+}

@@ -20,12 +20,12 @@ tags:
   - agent framework
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:17:26.725Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:17:26.811Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -47,13 +47,6 @@ evidence:
     t: 313
     quote: yes we are going to stop how a project start. Yeah, when we are starting our project, we have clear requirements.
   - kind: video
-    url: https://www.youtube.com/watch?v=9zQZHfXK-PQ&t=413s
-    title: "From Code to Docs: Using GitHub Copilot to Automate Business Central Documentation"
-    date: "2026-10-01T05:38:51.000Z"
-    commit: null
-    t: 413
-    quote: And sorry guys, this is not the problem. The problem is that you end up with an pineapple when you should have an apple.
-  - kind: video
     url: https://www.youtube.com/watch?v=9zQZHfXK-PQ&t=551s
     title: "From Code to Docs: Using GitHub Copilot to Automate Business Central Documentation"
     date: "2026-10-01T05:38:51.000Z"
@@ -67,6 +60,13 @@ evidence:
     commit: null
     t: 591
     quote: good solutions need good documentation not just at the beginning but throughout all the journey
+  - kind: video
+    url: https://www.youtube.com/watch?v=9zQZHfXK-PQ&t=787s
+    title: "From Code to Docs: Using GitHub Copilot to Automate Business Central Documentation"
+    date: "2026-10-01T05:38:51.000Z"
+    commit: null
+    t: 787
+    quote: with this new approach we capture and approve documentation at the first step of the of the process
 links:
   learn: []
   objects:
@@ -174,11 +174,6 @@ chapters:
   - t: 4902
     title: Discussion on prototypes vs documentation and proof of concepts
 features:
-  - name: GitHub Copilot for documentation automation
-    status: unclear
-    t: 655
-    verified: false
-    status_source: video
   - name: Docs-to-code development methodology
     status: unclear
     t: 773
@@ -197,11 +192,6 @@ features:
   - name: AI agents with specification context
     status: unclear
     t: 984
-    verified: false
-    status_source: video
-  - name: Living documentation in Git repository
-    status: unclear
-    t: 1495
     verified: false
     status_source: video
   - name: Decision tracking with reviewer attribution
@@ -237,11 +227,6 @@ features:
   - name: GitHub Copilot skills for documentation
     status: unclear
     t: 2338
-    verified: false
-    status_source: video
-  - name: GitHub Copilot skills
-    status: unclear
-    t: 2359
     verified: false
     status_source: video
   - name: Documentation skill
@@ -289,11 +274,6 @@ features:
     t: 3526
     verified: false
     status_source: video
-  - name: User story decomposition from requirements
-    status: unclear
-    t: 3201
-    verified: false
-    status_source: video
   - name: Architecture decision documentation with human-in-the-loop
     status: unclear
     t: 3577
@@ -334,11 +314,6 @@ features:
     t: 4302
     verified: false
     status_source: video
-  - name: ALDC tool
-    status: unclear
-    t: 4438
-    verified: false
-    status_source: video
   - name: AL Copilot Skills
     status: unclear
     t: 4438
@@ -347,16 +322,6 @@ features:
   - name: OpenSpec framework
     status: unclear
     t: 4464
-    verified: false
-    status_source: video
-  - name: GitHub Actions for CI-CD
-    status: unclear
-    t: 4464
-    verified: false
-    status_source: video
-  - name: Specification-driven development approach
-    status: unclear
-    t: 3940
     verified: false
     status_source: video
   - name: Automated video-to-script generation for release notes
@@ -399,22 +364,22 @@ quotes:
   - t: 313
     text: yes we are going to stop how a project start. Yeah, when we are starting our project, we have clear requirements.
     check: exact
-  - t: 413
-    text: And sorry guys, this is not the problem. The problem is that you end up with an pineapple when you should have an apple.
-    check: exact
   - t: 551
     text: the point is the problem is not that we are flexible to add to up to the customer's needs. The problem is we do
     check: exact
   - t: 591
     text: good solutions need good documentation not just at the beginning but throughout all the journey
     check: exact
+  - t: 787
+    text: with this new approach we capture and approve documentation at the first step of the of the process
+    check: fuzzy
 ---
 
 # From Code to Docs: Using GitHub Copilot to Automate Business Central Documentation
 
 > Spec-driven AL development with GitHub Copilot for Business Central: a docs-to-code workflow using agents, skills and living documentation in a Git repo. The session demos user stories, specs, architecture decisions, change control notices, release notes and SharePoint sync via GitHub Actions.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=9zQZHfXK-PQ) · mibuso.com / BC TechDays · 2026-10-01 · 1:23:21 · tier community · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=9zQZHfXK-PQ) · mibuso.com / BC TechDays · 2026-10-01 · 1:23:21 · tier community · reviewed (checked by Opus)
 
 ## Overview
 
@@ -425,11 +390,11 @@ The demo walks through a sequential agent framework (business consultant, archit
 ## Key points
 
 - Documentation is kept in the Git repository, updated before development starts and changed with each commit, so decisions are traceable to who made them and when.
-- The agent workflow is sequential: business consultant, architect, analyst (SWOT analysis), then developer agents that write atomic task plans. All generated documents need human review.
-- Copilot skills give structured, consistent output where plain prompting does not. The demo includes skills for user stories, technical specs, architecture documents, change control, phase plans and release notes.
+- The agent workflow is sequential: business consultant (checks Microsoft Learn for existing functionality), architect, analyst (SWOT analysis), then developer agents working from atomic task plans. All generated documents need human review.
+- Copilot skills give structured, consistent output where plain prompting does not. The demo includes skills for user stories, technical specs, architecture documents, feasibility analysis, change control, phase plans and release notes.
 - A change control notice summarizes architecture decisions, specs, feasibility and risk, and needs customer sign-off before implementation begins.
-- Suggested model use: strong models such as Claude Opus for consultant, architect and skill creation, and a smaller model such as Claude Haiku for implementation once tasks are well specified.
-- Symlinks let several repositories share a standard agentic framework, which requires a protected main branch. GitHub Actions syncs user story documents to SharePoint when changes are pushed to main.
+- Suggested model use: strong models such as Opus for consultant, architect, analyst and skill creation, and cheaper models such as Haiku for development and review once tasks are well specified.
+- Symlinks let several repositories share a standard agentic framework kept in a central repo with a protected main branch, and you can switch branches to test framework changes. A GitHub Action syncs user story documents to SharePoint when changes are pushed to main.
 - Release notes are generated from repository context and include testing steps and limitations. Screenshots still need manual capture.
 
 ## Chapters
@@ -479,50 +444,43 @@ The demo walks through a sequential agent framework (business consultant, archit
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| GitHub Copilot for documentation automation | status not stated | [10:55](https://www.youtube.com/watch?v=9zQZHfXK-PQ&t=655s) |  |
-| Docs-to-code development methodology | status not stated | [12:53](https://www.youtube.com/watch?v=9zQZHfXK-PQ&t=773s) |  |
-| Spec-driven development framework | status not stated | [15:37](https://www.youtube.com/watch?v=9zQZHfXK-PQ&t=937s) |  |
-| Living artifacts in repositories | status not stated | [22:28](https://www.youtube.com/watch?v=9zQZHfXK-PQ&t=1348s) |  |
-| AI agents with specification context | status not stated | [16:24](https://www.youtube.com/watch?v=9zQZHfXK-PQ&t=984s) |  |
-| Living documentation in Git repository | status not stated | [24:55](https://www.youtube.com/watch?v=9zQZHfXK-PQ&t=1495s) |  |
-| Decision tracking with reviewer attribution | status not stated | [28:20](https://www.youtube.com/watch?v=9zQZHfXK-PQ&t=1700s) |  |
-| Documentation as single source of truth for agents | status not stated | [30:04](https://www.youtube.com/watch?v=9zQZHfXK-PQ&t=1804s) |  |
-| Business consultant agent | status not stated | [30:46](https://www.youtube.com/watch?v=9zQZHfXK-PQ&t=1846s) |  |
-| Architect agent for specs and architecture documents | status not stated | [32:15](https://www.youtube.com/watch?v=9zQZHfXK-PQ&t=1935s) |  |
-| Analyst agent with SWAT analysis | status not stated | [34:36](https://www.youtube.com/watch?v=9zQZHfXK-PQ&t=2076s) |  |
-| Developer agent with plans | status not stated | [36:38](https://www.youtube.com/watch?v=9zQZHfXK-PQ&t=2198s) |  |
-| GitHub Copilot skills for documentation | status not stated | [38:58](https://www.youtube.com/watch?v=9zQZHfXK-PQ&t=2338s) |  |
-| GitHub Copilot skills | status not stated | [39:19](https://www.youtube.com/watch?v=9zQZHfXK-PQ&t=2359s) |  |
-| Documentation skill | status not stated, demoed | [40:42](https://www.youtube.com/watch?v=9zQZHfXK-PQ&t=2442s) |  |
-| AL Development Collection extension | status not stated, demoed | [43:21](https://www.youtube.com/watch?v=9zQZHfXK-PQ&t=2601s) |  |
-| Copilot skill collection | status not stated, demoed | [45:00](https://www.youtube.com/watch?v=9zQZHfXK-PQ&t=2700s) |  |
-| Biceps framework integration | status not stated | [45:46](https://www.youtube.com/watch?v=9zQZHfXK-PQ&t=2746s) |  |
-| Symlinks for agent management | status not stated, demoed | [46:35](https://www.youtube.com/watch?v=9zQZHfXK-PQ&t=2795s) |  |
-| Multi-department agentic framework standardization | status not stated, demoed | [49:15](https://www.youtube.com/watch?v=9zQZHfXK-PQ&t=2955s) |  |
-| User story generation from requirements | status not stated, demoed | [51:27](https://www.youtube.com/watch?v=9zQZHfXK-PQ&t=3087s) |  |
-| Skills-based document formatting with templates | status not stated, demoed | [54:57](https://www.youtube.com/watch?v=9zQZHfXK-PQ&t=3297s) |  |
-| GitHub Actions integration for SharePoint documentation sync | status not stated, demoed | [58:46](https://www.youtube.com/watch?v=9zQZHfXK-PQ&t=3526s) |  |
-| User story decomposition from requirements | status not stated, demoed | [53:21](https://www.youtube.com/watch?v=9zQZHfXK-PQ&t=3201s) |  |
-| Architecture decision documentation with human-in-the-loop | status not stated, demoed | [59:37](https://www.youtube.com/watch?v=9zQZHfXK-PQ&t=3577s) |  |
-| Feasibility analysis and risk assessment in specifications | status not stated, demoed | [1:02:05](https://www.youtube.com/watch?v=9zQZHfXK-PQ&t=3725s) |  |
-| Change Control Notice with approval workflow | status not stated, demoed | [1:03:47](https://www.youtube.com/watch?v=9zQZHfXK-PQ&t=3827s) |  |
-| AI model selection strategy for task complexity | status not stated | [1:06:33](https://www.youtube.com/watch?v=9zQZHfXK-PQ&t=3993s) |  |
-| Release notes generation with AI | status not stated, demoed | [1:08:41](https://www.youtube.com/watch?v=9zQZHfXK-PQ&t=4121s) |  |
-| Testing documentation in release notes | status not stated, demoed | [1:10:10](https://www.youtube.com/watch?v=9zQZHfXK-PQ&t=4210s) |  |
-| Feature limitation documentation | status not stated, demoed | [1:10:38](https://www.youtube.com/watch?v=9zQZHfXK-PQ&t=4238s) |  |
-| Test-driven development integration | status not stated | [1:11:42](https://www.youtube.com/watch?v=9zQZHfXK-PQ&t=4302s) |  |
-| ALDC tool | status not stated | [1:13:58](https://www.youtube.com/watch?v=9zQZHfXK-PQ&t=4438s) |  |
-| AL Copilot Skills | status not stated | [1:13:58](https://www.youtube.com/watch?v=9zQZHfXK-PQ&t=4438s) |  |
-| OpenSpec framework | status not stated | [1:14:24](https://www.youtube.com/watch?v=9zQZHfXK-PQ&t=4464s) |  |
-| GitHub Actions for CI-CD | status not stated | [1:14:24](https://www.youtube.com/watch?v=9zQZHfXK-PQ&t=4464s) |  |
-| Specification-driven development approach | status not stated, demoed | [1:05:40](https://www.youtube.com/watch?v=9zQZHfXK-PQ&t=3940s) |  |
-| Automated video-to-script generation for release notes | status not stated | [1:18:26](https://www.youtube.com/watch?v=9zQZHfXK-PQ&t=4706s) |  |
-| Screenshot automation in documentation workflows | status not stated | [1:18:40](https://www.youtube.com/watch?v=9zQZHfXK-PQ&t=4720s) |  |
-| Jira integration with specification documents | status not stated | [1:19:43](https://www.youtube.com/watch?v=9zQZHfXK-PQ&t=4783s) |  |
-| Branch-based specification management | status not stated | [1:19:20](https://www.youtube.com/watch?v=9zQZHfXK-PQ&t=4760s) |  |
-| Proof of concept approach for validation | status not stated | [1:22:05](https://www.youtube.com/watch?v=9zQZHfXK-PQ&t=4925s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Docs-to-code development methodology | status not stated | [12:53](https://www.youtube.com/watch?v=9zQZHfXK-PQ&t=773s) |
+| Spec-driven development framework | status not stated | [15:37](https://www.youtube.com/watch?v=9zQZHfXK-PQ&t=937s) |
+| Living artifacts in repositories | status not stated | [22:28](https://www.youtube.com/watch?v=9zQZHfXK-PQ&t=1348s) |
+| AI agents with specification context | status not stated | [16:24](https://www.youtube.com/watch?v=9zQZHfXK-PQ&t=984s) |
+| Decision tracking with reviewer attribution | status not stated | [28:20](https://www.youtube.com/watch?v=9zQZHfXK-PQ&t=1700s) |
+| Documentation as single source of truth for agents | status not stated | [30:04](https://www.youtube.com/watch?v=9zQZHfXK-PQ&t=1804s) |
+| Business consultant agent | status not stated | [30:46](https://www.youtube.com/watch?v=9zQZHfXK-PQ&t=1846s) |
+| Architect agent for specs and architecture documents | status not stated | [32:15](https://www.youtube.com/watch?v=9zQZHfXK-PQ&t=1935s) |
+| Analyst agent with SWAT analysis | status not stated | [34:36](https://www.youtube.com/watch?v=9zQZHfXK-PQ&t=2076s) |
+| Developer agent with plans | status not stated | [36:38](https://www.youtube.com/watch?v=9zQZHfXK-PQ&t=2198s) |
+| GitHub Copilot skills for documentation | status not stated | [38:58](https://www.youtube.com/watch?v=9zQZHfXK-PQ&t=2338s) |
+| Documentation skill | status not stated, demoed | [40:42](https://www.youtube.com/watch?v=9zQZHfXK-PQ&t=2442s) |
+| AL Development Collection extension | status not stated, demoed | [43:21](https://www.youtube.com/watch?v=9zQZHfXK-PQ&t=2601s) |
+| Copilot skill collection | status not stated, demoed | [45:00](https://www.youtube.com/watch?v=9zQZHfXK-PQ&t=2700s) |
+| Biceps framework integration | status not stated | [45:46](https://www.youtube.com/watch?v=9zQZHfXK-PQ&t=2746s) |
+| Symlinks for agent management | status not stated, demoed | [46:35](https://www.youtube.com/watch?v=9zQZHfXK-PQ&t=2795s) |
+| Multi-department agentic framework standardization | status not stated, demoed | [49:15](https://www.youtube.com/watch?v=9zQZHfXK-PQ&t=2955s) |
+| User story generation from requirements | status not stated, demoed | [51:27](https://www.youtube.com/watch?v=9zQZHfXK-PQ&t=3087s) |
+| Skills-based document formatting with templates | status not stated, demoed | [54:57](https://www.youtube.com/watch?v=9zQZHfXK-PQ&t=3297s) |
+| GitHub Actions integration for SharePoint documentation sync | status not stated, demoed | [58:46](https://www.youtube.com/watch?v=9zQZHfXK-PQ&t=3526s) |
+| Architecture decision documentation with human-in-the-loop | status not stated, demoed | [59:37](https://www.youtube.com/watch?v=9zQZHfXK-PQ&t=3577s) |
+| Feasibility analysis and risk assessment in specifications | status not stated, demoed | [1:02:05](https://www.youtube.com/watch?v=9zQZHfXK-PQ&t=3725s) |
+| Change Control Notice with approval workflow | status not stated, demoed | [1:03:47](https://www.youtube.com/watch?v=9zQZHfXK-PQ&t=3827s) |
+| AI model selection strategy for task complexity | status not stated | [1:06:33](https://www.youtube.com/watch?v=9zQZHfXK-PQ&t=3993s) |
+| Release notes generation with AI | status not stated, demoed | [1:08:41](https://www.youtube.com/watch?v=9zQZHfXK-PQ&t=4121s) |
+| Testing documentation in release notes | status not stated, demoed | [1:10:10](https://www.youtube.com/watch?v=9zQZHfXK-PQ&t=4210s) |
+| Feature limitation documentation | status not stated, demoed | [1:10:38](https://www.youtube.com/watch?v=9zQZHfXK-PQ&t=4238s) |
+| Test-driven development integration | status not stated | [1:11:42](https://www.youtube.com/watch?v=9zQZHfXK-PQ&t=4302s) |
+| AL Copilot Skills | status not stated | [1:13:58](https://www.youtube.com/watch?v=9zQZHfXK-PQ&t=4438s) |
+| OpenSpec framework | status not stated | [1:14:24](https://www.youtube.com/watch?v=9zQZHfXK-PQ&t=4464s) |
+| Automated video-to-script generation for release notes | status not stated | [1:18:26](https://www.youtube.com/watch?v=9zQZHfXK-PQ&t=4706s) |
+| Screenshot automation in documentation workflows | status not stated | [1:18:40](https://www.youtube.com/watch?v=9zQZHfXK-PQ&t=4720s) |
+| Jira integration with specification documents | status not stated | [1:19:43](https://www.youtube.com/watch?v=9zQZHfXK-PQ&t=4783s) |
+| Branch-based specification management | status not stated | [1:19:20](https://www.youtube.com/watch?v=9zQZHfXK-PQ&t=4760s) |
+| Proof of concept approach for validation | status not stated | [1:22:05](https://www.youtube.com/watch?v=9zQZHfXK-PQ&t=4925s) |
 
 ## AL objects mentioned
 
@@ -542,9 +500,9 @@ Not found in BC28-30: codeunit "codeunit", enum "enum", table "related table".
 
 - [3:55](https://www.youtube.com/watch?v=9zQZHfXK-PQ&t=235s) "nobody cares or likes to document me both"
 - [5:13](https://www.youtube.com/watch?v=9zQZHfXK-PQ&t=313s) "yes we are going to stop how a project start. Yeah, when we are starting our project, we have clear requirements."
-- [6:53](https://www.youtube.com/watch?v=9zQZHfXK-PQ&t=413s) "And sorry guys, this is not the problem. The problem is that you end up with an pineapple when you should have an apple."
 - [9:11](https://www.youtube.com/watch?v=9zQZHfXK-PQ&t=551s) "the point is the problem is not that we are flexible to add to up to the customer's needs. The problem is we do"
 - [9:51](https://www.youtube.com/watch?v=9zQZHfXK-PQ&t=591s) "good solutions need good documentation not just at the beginning but throughout all the journey"
+- [13:07](https://www.youtube.com/watch?v=9zQZHfXK-PQ&t=787s) "with this new approach we capture and approve documentation at the first step of the of the process"
 
 ## Disclaimers in the video
 

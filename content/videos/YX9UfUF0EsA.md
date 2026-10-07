@@ -20,18 +20,25 @@ tags:
   - skills
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:17:12.529Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:17:12.625Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
     summarize-video: 2
   input_hash: a59c975a906954921c898a4ad695e971ae1de08e78f2982008c704542eeed9c9
 evidence:
+  - kind: video
+    url: https://www.youtube.com/watch?v=YX9UfUF0EsA&t=2141s
+    title: "M365 Copilot chat in Business Central: preview"
+    date: "2026-10-01T05:38:52.000Z"
+    commit: null
+    t: 2141
+    quote: we are actually already in a a limited private preview for MVPs.
   - kind: video
     url: https://www.youtube.com/watch?v=YX9UfUF0EsA&t=2141s
     title: "MVP private preview access: preview"
@@ -53,13 +60,6 @@ evidence:
     commit: null
     t: 2193
     quote: we are hoping to give access to to that preview in the coming months before the official rollout, of course.
-  - kind: video
-    url: https://www.youtube.com/watch?v=YX9UfUF0EsA&t=45s
-    title: "Microsoft presents: Introducing M365 Copilot Chat in Business Central"
-    date: "2026-10-01T05:38:52.000Z"
-    commit: null
-    t: 45
-    quote: we have our own co-pilot chat, and we also have the M365 co-pilot, which you probably have used in the ...
   - kind: video
     url: https://www.youtube.com/watch?v=YX9UfUF0EsA&t=238s
     title: "Microsoft presents: Introducing M365 Copilot Chat in Business Central"
@@ -88,6 +88,13 @@ evidence:
     commit: null
     t: 425
     quote: We're going to bring M365 Copilot into BC. And so, rather than talk your ear off about how great it is, I will just
+  - kind: video
+    url: https://www.youtube.com/watch?v=YX9UfUF0EsA&t=660s
+    title: "Microsoft presents: Introducing M365 Copilot Chat in Business Central"
+    date: "2026-10-01T05:38:52.000Z"
+    commit: null
+    t: 660
+    quote: the Business Central data, requesting it, seeing it, that's only available when you're talking to M365 chat within Business Central.
 links:
   learn: []
   objects:
@@ -146,7 +153,7 @@ features:
   - name: M365 Copilot chat in Business Central
     status: ga
     t: 425
-    verified: false
+    verified: true
     status_source: roadmap
     roadmap_ids:
       - "573362"
@@ -265,11 +272,6 @@ features:
     t: 1981
     verified: false
     status_source: video
-  - name: Copilot Studio agent integration for task automation
-    status: unclear
-    t: 1981
-    verified: false
-    status_source: video
   - name: Partner extension guidance for Copilot
     status: unclear
     t: 2056
@@ -315,11 +317,6 @@ features:
     t: 2373
     verified: false
     status_source: video
-  - name: External Copilot Chat Access
-    status: unclear
-    t: 2453
-    verified: false
-    status_source: video
   - name: Free Read-Only Access Model
     status: unclear
     t: 2413
@@ -339,9 +336,6 @@ objects_mentioned:
   - other sales lines
   - page Copilot and agent capabilities page
 quotes:
-  - t: 45
-    text: we have our own co-pilot chat, and we also have the M365 co-pilot, which you probably have used in the ...
-    check: exact
   - t: 238
     text: Now we have agents, right? So we realized that not only can the LLM do natural language processing, it can also make decisions,
     check: exact
@@ -354,13 +348,16 @@ quotes:
   - t: 425
     text: We're going to bring M365 Copilot into BC. And so, rather than talk your ear off about how great it is, I will just
     check: exact
+  - t: 660
+    text: the Business Central data, requesting it, seeing it, that's only available when you're talking to M365 chat within Business Central.
+    check: exact
 ---
 
 # Microsoft presents: Introducing M365 Copilot Chat in Business Central
 
 > M365 Copilot Chat replacing the existing Copilot chat in Business Central: first version is read-only, needs a Copilot license for full capability, and is planned for BC 29 and later. Covers architecture, agentic loop, admin controls, permissions and open questions on free access.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=YX9UfUF0EsA) · mibuso.com / BC TechDays · 2026-10-01 · 43:47 · tier community · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=YX9UfUF0EsA) · mibuso.com / BC TechDays · 2026-10-01 · 43:47 · tier community · reviewed (checked by Opus)
 
 ## Overview
 
@@ -399,7 +396,7 @@ The session also covers the tools and agentic loop behind multi-step queries, pe
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| M365 Copilot chat in Business Central | generally available (roadmap [573362](../features/573362.md)), demoed | [7:05](https://www.youtube.com/watch?v=YX9UfUF0EsA&t=425s) |  |
+| M365 Copilot chat in Business Central | generally available (roadmap [573362](../features/573362.md)), demoed | [7:05](https://www.youtube.com/watch?v=YX9UfUF0EsA&t=425s) | "we are actually already in a a limited private preview for MVPs." ([35:41](https://www.youtube.com/watch?v=YX9UfUF0EsA&t=2141s)) |
 | Business Central data access from chat | status not stated, demoed | [7:50](https://www.youtube.com/watch?v=YX9UfUF0EsA&t=470s) |  |
 | Chat history persistence across Microsoft 365 | status not stated, demoed | [10:35](https://www.youtube.com/watch?v=YX9UfUF0EsA&t=635s) |  |
 | Export copilot analysis to Word | status not stated, demoed | [11:29](https://www.youtube.com/watch?v=YX9UfUF0EsA&t=689s) |  |
@@ -423,7 +420,6 @@ The session also covers the tools and agentic loop behind multi-step queries, pe
 | Audit logs with Purview integration | status not stated | [31:11](https://www.youtube.com/watch?v=YX9UfUF0EsA&t=1871s) |  |
 | Read-only Copilot Chat | status not stated | [32:17](https://www.youtube.com/watch?v=YX9UfUF0EsA&t=1937s) |  |
 | M365 integrations from day one | status not stated | [33:01](https://www.youtube.com/watch?v=YX9UfUF0EsA&t=1981s) |  |
-| Copilot Studio agent integration for task automation | status not stated | [33:01](https://www.youtube.com/watch?v=YX9UfUF0EsA&t=1981s) |  |
 | Partner extension guidance for Copilot | status not stated | [34:16](https://www.youtube.com/watch?v=YX9UfUF0EsA&t=2056s) |  |
 | Bing Search integration for documentation | status not stated | [34:54](https://www.youtube.com/watch?v=YX9UfUF0EsA&t=2094s) |  |
 | MVP private preview access | preview | [35:41](https://www.youtube.com/watch?v=YX9UfUF0EsA&t=2141s) | "we are actually already in a a limited private preview for MVPs." ([35:41](https://www.youtube.com/watch?v=YX9UfUF0EsA&t=2141s)) |
@@ -433,7 +429,6 @@ The session also covers the tools and agentic loop behind multi-step queries, pe
 | No custom tool addition currently | status not stated | [37:58](https://www.youtube.com/watch?v=YX9UfUF0EsA&t=2278s) |  |
 | Copilot Studio as extensibility model | status not stated | [37:58](https://www.youtube.com/watch?v=YX9UfUF0EsA&t=2278s) |  |
 | Credit consumption model under review | status not stated | [39:33](https://www.youtube.com/watch?v=YX9UfUF0EsA&t=2373s) |  |
-| External Copilot Chat Access | status not stated | [40:53](https://www.youtube.com/watch?v=YX9UfUF0EsA&t=2453s) |  |
 | Free Read-Only Access Model | status not stated | [40:13](https://www.youtube.com/watch?v=YX9UfUF0EsA&t=2413s) |  |
 | Copilot Troubleshooting and Data Analysis | status not stated | [41:44](https://www.youtube.com/watch?v=YX9UfUF0EsA&t=2504s) |  |
 
@@ -455,11 +450,11 @@ Not found in BC28-30: page "customer", page "Copilot and agent capabilities page
 
 ## Quotes
 
-- [0:45](https://www.youtube.com/watch?v=YX9UfUF0EsA&t=45s) "we have our own co-pilot chat, and we also have the M365 co-pilot, which you probably have used in the ..."
 - [3:58](https://www.youtube.com/watch?v=YX9UfUF0EsA&t=238s) "Now we have agents, right? So we realized that not only can the LLM do natural language processing, it can also make decisions,"
 - [5:46](https://www.youtube.com/watch?v=YX9UfUF0EsA&t=346s) "the chat is the home for all of these experiences. You know, we've kind of come full circle with this technology back to chat"
 - [6:23](https://www.youtube.com/watch?v=YX9UfUF0EsA&t=383s) "How many Athens desk do we have in stock? And Copilot would say, Sorry, I can't do that because it's not connected together, right?"
 - [7:05](https://www.youtube.com/watch?v=YX9UfUF0EsA&t=425s) "We're going to bring M365 Copilot into BC. And so, rather than talk your ear off about how great it is, I will just"
+- [11:00](https://www.youtube.com/watch?v=YX9UfUF0EsA&t=660s) "the Business Central data, requesting it, seeing it, that's only available when you're talking to M365 chat within Business Central."
 
 ## Disclaimers in the video
 

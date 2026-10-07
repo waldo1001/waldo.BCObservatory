@@ -127,46 +127,6 @@
       "system": "administration"
     },
     {
-      "name": "Force sync option for app installation",
-      "description": "A sync mode option that allows installing apps without accepting breaking changes, only on data level, not on structural changes.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 423.3,
-      "t_end": 447.2,
-      "is_demoed": true,
-      "caveats": [
-        "Force sync is only on data, not structural changes"
-      ],
-      "tags": [
-        "sync",
-        "app installation",
-        "breaking changes"
-      ],
-      "system": "administration"
-    },
-    {
-      "name": "Dev apps and PTE filtering",
-      "description": "Ability to filter and separately view dev apps and PTEs (PermissionSet Enabled Extensions) in Admin Center, with options to manage each type independently.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 334.9,
-      "t_end": 375.2,
-      "is_demoed": true,
-      "caveats": [
-        "PTE naming may change in future"
-      ],
-      "tags": [
-        "pte",
-        "dev apps",
-        "filtering"
-      ],
-      "system": "development"
-    },
-    {
       "name": "App installation from Admin Center",
       "description": "Users can install new apps directly from Admin Center without going to extension management, choosing installation timing and sync mode options.",
       "status": "unclear",
@@ -252,6 +212,18 @@
       "t": 240.8,
       "text": "I can click update to the latest and I acknowledge the app provider's terms of use and privacy policy specified on AppSource aka Microsoft",
       "why_it_matters": "Shows the legal acknowledgment required when updating apps with dependencies in Admin Center",
+      "check": "exact"
+    },
+    {
+      "t": 411.4,
+      "text": "Next update window, meaning tonight. That's So, that's a new option.",
+      "why_it_matters": "Shows that the next update window scheduling option is new.",
+      "check": "exact"
+    },
+    {
+      "t": 435.5,
+      "text": "So, force sync is typically, let's say that you create a new version of this app, you removed table",
+      "why_it_matters": "Explains when force sync applies: breaking changes in a new app version.",
       "check": "exact"
     },
     {

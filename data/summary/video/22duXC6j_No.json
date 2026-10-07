@@ -5,12 +5,12 @@
   "overview": "Erik Hougaard shows how Admin Center is moving from a place administrators rarely visit to the main place for managing apps and updates. He walks through the environments list, the all apps view, and the update actions now available there.\n\nThe demo covers updating apps that have dependencies, scheduling updates and installs, separating dev apps and PTEs, installing a new app, and following progress on the Operations page. He says this is the expected future way to manage apps and notes the PTE name may change.",
   "key_points": [
     "The all apps view in Admin Center now includes the update action directly. Before, you had to select global apps to update applications. The speaker says this was added about a week before recording and may not be in all environments.",
-    "An update shows 'action required' when the app depends on other apps that must be updated first. In the demo, Toolbox could not be updated because two apps it depends on were not updated.",
-    "Updating a dependency requires acknowledging the app provider's terms of use and privacy policy specified on AppSource.",
-    "Installs can be scheduled for right now, the next update window (tonight), the next minor version, or the next major version.",
-    "Force sync as a sync mode option lets you install without accepting breaking changes, but only on data, not on structural changes.",
-    "Dev apps and PTEs can be filtered and managed separately. Apps can be installed and uninstalled from Admin Center without going to extension management.",
-    "The Operations page shows installation progress. A typical PTE install took about 1 minute 20 seconds in the demo."
+    "An update shows 'action required' when the app depends on other apps that must be updated first. In the demo, Toolbox could not be updated because two apps it depends on (AL compiler and interpreter, AL AI services) were not updated.",
+    "Choosing update to the latest requires acknowledging the app provider's terms of use and privacy policy on AppSource for the app and its dependencies. All three apps are then scheduled, and the dependencies install before the dependent app compiles.",
+    "Installs can be scheduled for right now, the next update window (tonight, described as a new option), the next minor version, or the next major version.",
+    "Sync mode includes force sync, which gets the new app version in no matter what breaks (for example removed tables or pages). The speaker believes it only applies to data.",
+    "Dev apps and PTEs have their own views. Apps can be installed and uninstalled from Admin Center without going to extension management.",
+    "The Operations page shows installation progress. The speaker says a typical PTE takes about 1 minute 20 seconds to install in his environments, but the demo install took longer."
   ],
   "audience": [
     "administrator",

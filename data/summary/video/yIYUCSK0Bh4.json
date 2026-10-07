@@ -1,16 +1,16 @@
 {
   "video_id": "yIYUCSK0Bh4",
   "item_id": "video/yt-mibuso/yIYUCSK0Bh4",
-  "summary": "BC-Bench is Microsoft's offline evaluation framework for coding agents on AL tasks, adapted from SWE-bench. The session covers bug-fixing results, multi-run metrics, AL-MCP effect, complexity analysis and code review agent evaluation. Feature status is not stated.",
+  "summary": "BC-Bench is Microsoft's open-source offline evaluation framework for coding agents on AL tasks (bug fixing, AL test generation, code review, code from natural language), adapted from SWE-bench. The session covers bug-fix methodology and dataset, multi-run metrics, AL-MCP gains, the finding that harness choice (Copilot CLI vs Claude Code) made no significant difference, complexity limits, and code review agent evaluation with a self-improving pipeline.",
   "overview": "The session explains how Microsoft built BC-Bench, an evaluation framework for coding agents working on Business Central AL tasks. It started about six months before the talk and follows SWE-bench methodology. Agents get a bug report and the code base from before the fix. Their fixes are checked against unit tests written by human engineers, in Docker environments of Business Central set up with BC Container Helper.\n\nThe talk covers the bug-fixing dataset and how it was filtered, results across models and agent harnesses, multi-run metrics, and the effect of AL-MCP. It then moves to a code review agent evaluated offline and monitored online, a self-improvement pipeline, the roadmap, and a Q&A on source code, data collection, costs and GitHub models.",
   "key_points": [
-    "Bug-fix verification: the code base is reset to before the fix, the agent produces a fix, and the tests must fail before the fix and pass after it. The code must build in Docker.",
-    "Dataset: single-bug pull requests that include tests, drawn from Microsoft internal pull requests and the BC apps public repository. About 20% are inventory and 19% are finance. Bug reports are verified manually.",
-    "Results: latest models reach about 68% on bug fixing, against 16% for GPT-4. Results depend on the model and the agent harness (Cloud Code, GitHub Copilot CLI and others).",
-    "Multi-run metrics: because AI is non-deterministic, the talk reports mean accuracy, pass@5 and pass@1. These can give very different numbers. Two or three runs can still give statistical significance.",
-    "AL-MCP gives agents compile and symbol search. It improved mean resolution rate by 5% and pass@5 by 10%.",
-    "Complexity: agents reach about 80% on bugs needing fewer than 10 lines of code, and about 50% on more complex fixes.",
-    "Code review agent: in the shown run, 57% accuracy on comments and 49% on severity classification. A self-improving pipeline updates the agent's skills and ships a new version only if offline quality gates pass, with human review."
+    "Bug-fix verification: the code base is reset to before the fix, the agent gets the same bug report and produces a fix, and the original human-written tests are run. Tests must fail before and pass after the fix, and code must build in Docker.",
+    "Dataset: single-bug pull requests that include tests, from the public BC apps GitHub repo and a private Azure DevOps repo. About 20% inventory and 19% finance. Bug reports are manually verified for sufficient context.",
+    "Leaderboard: latest models reach about 68% (another 55%) on bug fixing, versus 16% (another 5%) for the GPT-4 model at the bottom.",
+    "Multi-run metrics: AI is non-deterministic, so they compare mean accuracy, a consistency metric (task resolved in all five runs) and a best-case metric (resolved in any run). Bug fixing reports mean and the consistency metric. Two or three runs can still give statistical significance.",
+    "AL-MCP (compile and symbol search) with GitHub Copilot CLI and Opus 4.6 raised mean resolution rate about 5% (non-overlapping 95% CI) and pass@5 about 10%.",
+    "With Opus 4.6 fixed, GitHub Copilot CLI and Claude Code showed no significant difference; model choice is probably more significant.",
+    "Complexity: agents reach about 80% on bugs needing fewer than 10 lines of code, dropping to around 50% for larger fixes."
   ],
   "audience": [
     "developer",

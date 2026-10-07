@@ -17,12 +17,12 @@ tags:
   - sync mode
 system: administration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:17:54.624Z"
   flags: []
 generated:
-  at: "2026-10-06T16:39:33.178Z"
+  at: "2026-10-07T23:17:54.671Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -58,12 +58,12 @@ evidence:
     t: 240
     quote: I can click update to the latest and I acknowledge the app provider's terms of use and privacy policy specified on AppSource aka Microsoft
   - kind: video
-    url: https://www.youtube.com/watch?v=22duXC6j_No&t=505s
+    url: https://www.youtube.com/watch?v=22duXC6j_No&t=411s
     title: Manage all your Apps And Updates in Admin Center for Business Central
     date: "2026-09-28T11:00:01.000Z"
     commit: null
-    t: 505
-    quote: A typical PT takes around a minute and 20 seconds to be installed
+    t: 411
+    quote: Next update window, meaning tonight. That's So, that's a new option.
 links:
   learn: []
   objects: []
@@ -119,16 +119,6 @@ features:
     t: 400
     verified: false
     status_source: video
-  - name: Force sync option for app installation
-    status: unclear
-    t: 423
-    verified: false
-    status_source: video
-  - name: Dev apps and PTE filtering
-    status: unclear
-    t: 334
-    verified: false
-    status_source: video
   - name: App installation from Admin Center
     status: unclear
     t: 389
@@ -158,8 +148,8 @@ quotes:
   - t: 240
     text: I can click update to the latest and I acknowledge the app provider's terms of use and privacy policy specified on AppSource aka Microsoft
     check: exact
-  - t: 505
-    text: A typical PT takes around a minute and 20 seconds to be installed
+  - t: 411
+    text: Next update window, meaning tonight. That's So, that's a new option.
     check: exact
 ---
 
@@ -167,7 +157,7 @@ quotes:
 
 > Business Central Admin Center app management walkthrough: the all apps view with update actions, dependency-driven "action required" status, scheduling and force sync options, dev apps and PTE filtering, installing and uninstalling apps, and monitoring installs on the Operations page.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=22duXC6j_No) · Erik Hougaard · 2026-09-28 · 11:13 · tier community · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=22duXC6j_No) · Erik Hougaard · 2026-09-28 · 11:13 · tier community · reviewed (checked by Opus)
 
 ## Overview
 
@@ -178,12 +168,12 @@ The demo covers updating apps that have dependencies, scheduling updates and ins
 ## Key points
 
 - The all apps view in Admin Center now includes the update action directly. Before, you had to select global apps to update applications. The speaker says this was added about a week before recording and may not be in all environments.
-- An update shows 'action required' when the app depends on other apps that must be updated first. In the demo, Toolbox could not be updated because two apps it depends on were not updated.
-- Updating a dependency requires acknowledging the app provider's terms of use and privacy policy specified on AppSource.
-- Installs can be scheduled for right now, the next update window (tonight), the next minor version, or the next major version.
-- Force sync as a sync mode option lets you install without accepting breaking changes, but only on data, not on structural changes.
-- Dev apps and PTEs can be filtered and managed separately. Apps can be installed and uninstalled from Admin Center without going to extension management.
-- The Operations page shows installation progress. A typical PTE install took about 1 minute 20 seconds in the demo.
+- An update shows 'action required' when the app depends on other apps that must be updated first. In the demo, Toolbox could not be updated because two apps it depends on (AL compiler and interpreter, AL AI services) were not updated.
+- Choosing update to the latest requires acknowledging the app provider's terms of use and privacy policy on AppSource for the app and its dependencies. All three apps are then scheduled, and the dependencies install before the dependent app compiles.
+- Installs can be scheduled for right now, the next update window (tonight, described as a new option), the next minor version, or the next major version.
+- Sync mode includes force sync, which gets the new app version in no matter what breaks (for example removed tables or pages). The speaker believes it only applies to data.
+- Dev apps and PTEs have their own views. Apps can be installed and uninstalled from Admin Center without going to extension management.
+- The Operations page shows installation progress. The speaker says a typical PTE takes about 1 minute 20 seconds to install in his environments, but the demo install took longer.
 
 ## Chapters
 
@@ -199,16 +189,14 @@ The demo covers updating apps that have dependencies, scheduling updates and ins
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| All apps view with update actions | status not stated, demoed | [1:39](https://www.youtube.com/watch?v=22duXC6j_No&t=99s) |  |
-| Action required status for dependent apps | status not stated, demoed | [2:45](https://www.youtube.com/watch?v=22duXC6j_No&t=165s) |  |
-| Installation scheduling options | status not stated, demoed | [6:40](https://www.youtube.com/watch?v=22duXC6j_No&t=400s) |  |
-| Force sync option for app installation | status not stated, demoed | [7:03](https://www.youtube.com/watch?v=22duXC6j_No&t=423s) |  |
-| Dev apps and PTE filtering | status not stated, demoed | [5:34](https://www.youtube.com/watch?v=22duXC6j_No&t=334s) |  |
-| App installation from Admin Center | status not stated, demoed | [6:29](https://www.youtube.com/watch?v=22duXC6j_No&t=389s) |  |
-| Operations page for installation monitoring | status not stated, demoed | [7:51](https://www.youtube.com/watch?v=22duXC6j_No&t=471s) |  |
-| Uninstall apps from Admin Center | status not stated, demoed | [6:15](https://www.youtube.com/watch?v=22duXC6j_No&t=375s) |  |
+| Feature | Status | At |
+|---|---|---|
+| All apps view with update actions | status not stated, demoed | [1:39](https://www.youtube.com/watch?v=22duXC6j_No&t=99s) |
+| Action required status for dependent apps | status not stated, demoed | [2:45](https://www.youtube.com/watch?v=22duXC6j_No&t=165s) |
+| Installation scheduling options | status not stated, demoed | [6:40](https://www.youtube.com/watch?v=22duXC6j_No&t=400s) |
+| App installation from Admin Center | status not stated, demoed | [6:29](https://www.youtube.com/watch?v=22duXC6j_No&t=389s) |
+| Operations page for installation monitoring | status not stated, demoed | [7:51](https://www.youtube.com/watch?v=22duXC6j_No&t=471s) |
+| Uninstall apps from Admin Center | status not stated, demoed | [6:15](https://www.youtube.com/watch?v=22duXC6j_No&t=375s) |
 
 ## Quotes
 
@@ -216,7 +204,7 @@ The demo covers updating apps that have dependencies, scheduling updates and ins
 - [1:51](https://www.youtube.com/watch?v=22duXC6j_No&t=111s) "until like a week ago this one did not include the update action here. So, you before that and maybe not all environments then"
 - [3:36](https://www.youtube.com/watch?v=22duXC6j_No&t=216s) "We cannot update toolbox because toolbox has a dependency to two other apps that are not updated either"
 - [4:00](https://www.youtube.com/watch?v=22duXC6j_No&t=240s) "I can click update to the latest and I acknowledge the app provider's terms of use and privacy policy specified on AppSource aka Microsoft"
-- [8:25](https://www.youtube.com/watch?v=22duXC6j_No&t=505s) "A typical PT takes around a minute and 20 seconds to be installed"
+- [6:51](https://www.youtube.com/watch?v=22duXC6j_No&t=411s) "Next update window, meaning tonight. That's So, that's a new option."
 
 ## Disclaimers in the video
 
