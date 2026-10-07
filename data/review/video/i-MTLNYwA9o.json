@@ -1,0 +1,29 @@
+{
+  "video_id": "i-MTLNYwA9o",
+  "item_id": "video/yt-microsoft/i-MTLNYwA9o",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "The 'not new, already in the system' remark (172.2) refers to the Renewable Energy field, not the on-site generation field. The key point and the On-Site feature description get this wrong.",
+    "Dropped the On-Site Energy Generation Tracking feature because its description wrongly calls it an existing field. Its content moved to a corrected key point.",
+    "Reworded the posting-without-emissions key point to match the transcript: a line can be posted with zero emissions if it has an energy value.",
+    "The objects key point labeled things as table/pages, which the transcript does not state. Reworded.",
+    "No feature status is stated in the transcript, so all features stay unclear.",
+    "All quotes verified verbatim."
+  ],
+  "input_hash": "fb202d266446e05530a9f485c3bd07de3a711a49504b640ce5eebf15cc763411",
+  "by": "opus",
+  "at": "2026-10-07T22:53:17.883Z",
+  "applied": [
+    "dropped 1 feature(s)",
+    "quote at 172s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.086541
+  }
+}

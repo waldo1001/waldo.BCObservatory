@@ -1,0 +1,33 @@
+{
+  "video_id": "KnyS6ZKI_2c",
+  "item_id": "video/yt-microsoft/KnyS6ZKI_2c",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Server-Side Headless Script Replay had evidence_t 742, but the evidence quote starts at segment 763.4. Corrected to 763.4.",
+    "A key point said included scripts must be persisted first. The transcript (481.8) says the current recording must be saved to disk before a script can be included. Reworded.",
+    "The other enhancements belong to page scripting, which the transcript (877.6) says is still in preview but production quality. Their status is changed to preview, citing that statement.",
+    "All quotes check out as verbatim. The quote at 591.4 runs across a segment boundary, which is allowed."
+  ],
+  "input_hash": "28cb5453e86926e66a3820cb4a50713c7bdf00bd314cb375bb029d5d9b42055d",
+  "by": "opus",
+  "at": "2026-10-07T22:53:36.364Z",
+  "applied": [
+    "Server-Side Headless Script Replay: status preview",
+    "Steps Modification in Recording: status preview",
+    "Parameters UI Editing: status preview",
+    "Test Suites UI Creation: status preview",
+    "Include Script Functionality: status preview",
+    "For-Each Row Iteration: status preview",
+    "Conditional Branching with Expression: status preview",
+    "quote at 482s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.100125
+  }
+}

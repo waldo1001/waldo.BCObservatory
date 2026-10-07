@@ -4,13 +4,13 @@
   "summary": "Shopify Connector for Business Central and Shopify POS (2025 release wave 2): POS orders import as normal sales orders, with cash rounding handled through a configured G/L account and POS staff mapped to salesperson codes. Demos show the setup and import.",
   "overview": "The video explains how Shopify POS, used for in-store sales, works with the Shopify Connector. Sales made in POS appear in Shopify admin as normal sales orders and can be imported into Business Central as sales documents or invoices. POS orders have nuances around rounding and employee tracking, and the video covers both.\n\nDemos show creating and viewing a POS transaction, importing orders, configuring the cash rounding account, and mapping Shopify staff members to Business Central salespersons. The video ends with a short note on catalogs and market-based pricing for POS, which is left for a separate video.",
   "key_points": [
-    "Shopify POS sales are integrated into Shopify admin as normal sales orders, and can be imported into Business Central as sales documents or invoices.",
-    "Cash rounding applies in countries such as Denmark and Canada. Shopify POS applies it automatically and tracks the rounding difference.",
-    "A cash rounding account field is on the order synchronization and processing tab of the Shopify shop setup. It names the G/L account that receives the difference, and must be set before creating sales documents from POS orders.",
-    "A new staff members mapping table links Shopify POS staff to Business Central salesperson codes. Staff must be registered in Shopify and the mapping must be configured.",
-    "On import, the salesperson is assigned automatically from the staff member who performed the transaction in Shopify.",
-    "A new payment routing amount field on imported POS orders tracks payment method and routing information.",
-    "Catalogs tied to markets, representing POS locations in specific countries, affect pricing. Details are left for the next video."
+    "Shopify POS sales are integrated into Shopify admin as normal sales orders and are imported into Business Central like other orders. When a POS order is already paid and fulfilled, creating the sales document produces an invoice.",
+    "Cash rounding applies in countries such as Denmark and Canada. Shopify POS applies it automatically, and the Shopify order shows a cash rounding line.",
+    "A new cash rounding account field sits on the order synchronization and processing tab of the Shopify shop setup. If it is empty, creating the sales document fails with a 'cash rounding account is missing' error. Once it is set, the difference is posted as an extra G/L account line.",
+    "A new staff members mapping table links Shopify POS staff members to Business Central salesperson codes.",
+    "On import, if the order contains staff information, the system checks for a mapped salesperson code and uses it. The demo shows the salesperson filled in even though the customer card has none.",
+    "Imported POS orders show a new field called payment routing amount.",
+    "With the new Shopify markets feature, you can tie catalogs to markets that represent POS locations, which affects pricing. The details are left for the next video."
   ],
   "audience": [
     "functional consultant",

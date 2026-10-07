@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=JT4ownMbotw",
   "published_at": "2025-10-01T00:00:00Z",
   "language": "en",
-  "state": "linked",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:51:47.857Z"
@@ -56,8 +56,17 @@
       "objects_as_heard": 3
     },
     "published": {
-      "at": "2026-10-06T18:25:22.490Z",
+      "at": "2026-10-07T22:53:33.624Z",
       "path": "content/videos/JT4ownMbotw.md"
+    },
+    "reviewed": {
+      "at": "2026-10-07T22:53:33.580Z",
+      "path": "data/review/video/JT4ownMbotw.json",
+      "verdict": "fix",
+      "applied": 4,
+      "rejected_edits": 4,
+      "model": "claude-opus-5-5",
+      "cost_usd": 0.085437
     }
   },
   "input_hash": null,
@@ -69,5 +78,10 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "42d0b78ceaa1ec19cad65241adc2a6e3a398d554dc5f1a038e25a48a2746f421"
+  "output_hash": "dcb8fdf0cf2893103a9e02370d00bed7ad5bcfbcc4a448b8b1f74bfeb71a5016",
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T22:53:33.573Z"
+  }
 }

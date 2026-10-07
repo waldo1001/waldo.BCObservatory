@@ -1,0 +1,39 @@
+{
+  "video_id": "q0TxpWfm9rc",
+  "item_id": "video/yt-microsoft/q0TxpWfm9rc",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All 5 quotes are verbatim. The quotes at 271.1 and 296.6 run on into the next segment, which is allowed.",
+    "The quote at 241.2 stops at 'but only English', which reads as if English is the only language supported. I dropped it and added the span that states the 20-language support.",
+    "Every feature was marked unclear, but the transcript at 296.6 says the enhancements are already available in all Business Central online countries and regions. The six features named in the recap list are set to GA.",
+    "The interactive summary and Show more were not in the recap list of new enhancements, so they stay unclear.",
+    "The summary did not say where the features are available. I added that, plus the fact that summaries work on all card and document pages (from 312.9)."
+  ],
+  "input_hash": "ddd3be7b5e42fb0dbf3b85e96ee37e1d8f6bd4799b0555a37105e636305cb707",
+  "by": "opus",
+  "at": "2026-10-07T22:53:56.836Z",
+  "applied": [
+    "Interactive Summary with Field Highlighting: status unclear",
+    "Show More Insights: status unclear",
+    "dropped 1 quote(s)",
+    "quote at 241s",
+    "quote at 313s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [
+    "status 50% Faster Summary Generation -> ga: evidence not verbatim or does not state the status",
+    "status Copy and Share Summary -> ga: evidence not verbatim or does not state the status",
+    "status Filter Awareness in Summaries -> ga: evidence not verbatim or does not state the status",
+    "status Multi-Language Support for Summaries -> ga: evidence not verbatim or does not state the status",
+    "status Developer Configuration for Summarization -> ga: evidence not verbatim or does not state the status",
+    "status Enhanced Fields for Richer Insights -> ga: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.07958900000000001
+  }
+}

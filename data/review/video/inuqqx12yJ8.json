@@ -1,0 +1,28 @@
+{
+  "video_id": "inuqqx12yJ8",
+  "item_id": "video/yt-microsoft/inuqqx12yJ8",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Payment routing amount: the transcript only says a new field called payment routing amount exists on the imported POS order. The claim that it tracks payment method and routing information is unsupported, so I corrected the key point. The feature description also overreaches but the feature name is supported, so I kept it.",
+    "All five kept quotes are verbatim. The t 138.6 quote runs on into segment 153.2, which is allowed.",
+    "No status language appears in the transcript. The video title names 2025 release wave 2, but nothing says preview or GA, so every status stays unclear.",
+    "Added quotes for the cash rounding setup field, automatic rounding in Denmark and Canada, and the salesperson assignment logic."
+  ],
+  "input_hash": "0f168ed2b05d6b304ba33e21317101b82b593e8161ce4dc7534618eff8a922aa",
+  "by": "opus",
+  "at": "2026-10-07T22:53:15.727Z",
+  "applied": [
+    "quote at 358s",
+    "quote at 197s",
+    "quote at 465s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.078149
+  }
+}

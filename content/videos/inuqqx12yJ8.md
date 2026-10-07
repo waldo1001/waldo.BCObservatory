@@ -16,12 +16,12 @@ tags:
   - order synchronization
 system: integration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:53:15.727Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:53:15.768Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -50,6 +50,13 @@ evidence:
     t: 138
     quote: usually there is a person who performs a sales transaction. So you want to track your employees performance
   - kind: video
+    url: https://www.youtube.com/watch?v=inuqqx12yJ8&t=197s
+    title: "What's New in Shopify Connector: Point of Sale (2025 release wave 2)"
+    date: "2025-10-01T00:00:00Z"
+    commit: null
+    t: 197
+    quote: Shopify post uh does that automatically not only in Denmark but in other countries where the situation is similar for example Canada
+  - kind: video
     url: https://www.youtube.com/watch?v=inuqqx12yJ8&t=345s
     title: "What's New in Shopify Connector: Point of Sale (2025 release wave 2)"
     date: "2025-10-01T00:00:00Z"
@@ -57,12 +64,26 @@ evidence:
     t: 345
     quote: cash rounding account is missing. Correct. We need to put this difference somewhere
   - kind: video
+    url: https://www.youtube.com/watch?v=inuqqx12yJ8&t=357s
+    title: "What's New in Shopify Connector: Point of Sale (2025 release wave 2)"
+    date: "2025-10-01T00:00:00Z"
+    commit: null
+    t: 357
+    quote: There is a new field on the order synchronization and processing tab.
+  - kind: video
     url: https://www.youtube.com/watch?v=inuqqx12yJ8&t=453s
     title: "What's New in Shopify Connector: Point of Sale (2025 release wave 2)"
     date: "2025-10-01T00:00:00Z"
     commit: null
     t: 453
     quote: we have a new field or new mapping table which is called staff members mapping and
+  - kind: video
+    url: https://www.youtube.com/watch?v=inuqqx12yJ8&t=464s
+    title: "What's New in Shopify Connector: Point of Sale (2025 release wave 2)"
+    date: "2025-10-01T00:00:00Z"
+    commit: null
+    t: 464
+    quote: system will check if there is a salesperson code and use it instead.
 links:
   learn: []
   objects: []
@@ -144,19 +165,28 @@ quotes:
   - t: 138
     text: usually there is a person who performs a sales transaction. So you want to track your employees performance
     check: exact
+  - t: 197
+    text: Shopify post uh does that automatically not only in Denmark but in other countries where the situation is similar for example Canada
+    check: exact
   - t: 345
     text: cash rounding account is missing. Correct. We need to put this difference somewhere
+    check: exact
+  - t: 357
+    text: There is a new field on the order synchronization and processing tab.
     check: exact
   - t: 453
     text: we have a new field or new mapping table which is called staff members mapping and
     check: fuzzy
+  - t: 464
+    text: system will check if there is a salesperson code and use it instead.
+    check: exact
 ---
 
 # What's New in Shopify Connector: Point of Sale (2025 release wave 2)
 
 > Shopify Connector for Business Central and Shopify POS (2025 release wave 2): POS orders import as normal sales orders, with cash rounding handled through a configured G/L account and POS staff mapped to salesperson codes. Demos show the setup and import.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=inuqqx12yJ8) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-10-01 · 8:40 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=inuqqx12yJ8) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-10-01 · 8:40 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -166,13 +196,13 @@ Demos show creating and viewing a POS transaction, importing orders, configuring
 
 ## Key points
 
-- Shopify POS sales are integrated into Shopify admin as normal sales orders, and can be imported into Business Central as sales documents or invoices.
-- Cash rounding applies in countries such as Denmark and Canada. Shopify POS applies it automatically and tracks the rounding difference.
-- A cash rounding account field is on the order synchronization and processing tab of the Shopify shop setup. It names the G/L account that receives the difference, and must be set before creating sales documents from POS orders.
-- A new staff members mapping table links Shopify POS staff to Business Central salesperson codes. Staff must be registered in Shopify and the mapping must be configured.
-- On import, the salesperson is assigned automatically from the staff member who performed the transaction in Shopify.
-- A new payment routing amount field on imported POS orders tracks payment method and routing information.
-- Catalogs tied to markets, representing POS locations in specific countries, affect pricing. Details are left for the next video.
+- Shopify POS sales are integrated into Shopify admin as normal sales orders and are imported into Business Central like other orders. When a POS order is already paid and fulfilled, creating the sales document produces an invoice.
+- Cash rounding applies in countries such as Denmark and Canada. Shopify POS applies it automatically, and the Shopify order shows a cash rounding line.
+- A new cash rounding account field sits on the order synchronization and processing tab of the Shopify shop setup. If it is empty, creating the sales document fails with a 'cash rounding account is missing' error. Once it is set, the difference is posted as an extra G/L account line.
+- A new staff members mapping table links Shopify POS staff members to Business Central salesperson codes.
+- On import, if the order contains staff information, the system checks for a mapped salesperson code and uses it. The demo shows the salesperson filled in even though the customer card has none.
+- Imported POS orders show a new field called payment routing amount.
+- With the new Shopify markets feature, you can tie catalogs to markets that represent POS locations, which affects pricing. The details are left for the next video.
 
 ## Chapters
 
@@ -187,14 +217,14 @@ Demos show creating and viewing a POS transaction, importing orders, configuring
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Shopify POS integration with Business Central | status not stated, demoed | [1:01](https://www.youtube.com/watch?v=inuqqx12yJ8&t=61s) |  |
-| Cash rounding for POS transactions | status not stated, demoed | [2:07](https://www.youtube.com/watch?v=inuqqx12yJ8&t=127s) |  |
-| Staff members mapping for employee tracking | status not stated, demoed | [7:18](https://www.youtube.com/watch?v=inuqqx12yJ8&t=438s) |  |
-| Payment routing amount field | status not stated, demoed | [5:12](https://www.youtube.com/watch?v=inuqqx12yJ8&t=312s) |  |
-| Cash rounding account configuration | status not stated, demoed | [5:45](https://www.youtube.com/watch?v=inuqqx12yJ8&t=345s) |  |
-| Catalog and market-based pricing for POS | status not stated | [8:02](https://www.youtube.com/watch?v=inuqqx12yJ8&t=482s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Shopify POS integration with Business Central | status not stated, demoed | [1:01](https://www.youtube.com/watch?v=inuqqx12yJ8&t=61s) |
+| Cash rounding for POS transactions | status not stated, demoed | [2:07](https://www.youtube.com/watch?v=inuqqx12yJ8&t=127s) |
+| Staff members mapping for employee tracking | status not stated, demoed | [7:18](https://www.youtube.com/watch?v=inuqqx12yJ8&t=438s) |
+| Payment routing amount field | status not stated, demoed | [5:12](https://www.youtube.com/watch?v=inuqqx12yJ8&t=312s) |
+| Cash rounding account configuration | status not stated, demoed | [5:45](https://www.youtube.com/watch?v=inuqqx12yJ8&t=345s) |
+| Catalog and market-based pricing for POS | status not stated | [8:02](https://www.youtube.com/watch?v=inuqqx12yJ8&t=482s) |
 
 ## AL objects mentioned
 
@@ -210,8 +240,11 @@ Not found in BC28-30: table "staff members mapping".
 - [1:01](https://www.youtube.com/watch?v=inuqqx12yJ8&t=61s) "shopify pos point of sale which allows people in store to perform transactions"
 - [1:44](https://www.youtube.com/watch?v=inuqqx12yJ8&t=104s) "all transactions sales transactions performed on Shopify POS are integrated into Shopify admin store as a normal sales order"
 - [2:18](https://www.youtube.com/watch?v=inuqqx12yJ8&t=138s) "usually there is a person who performs a sales transaction. So you want to track your employees performance"
+- [3:17](https://www.youtube.com/watch?v=inuqqx12yJ8&t=197s) "Shopify post uh does that automatically not only in Denmark but in other countries where the situation is similar for example Canada"
 - [5:45](https://www.youtube.com/watch?v=inuqqx12yJ8&t=345s) "cash rounding account is missing. Correct. We need to put this difference somewhere"
+- [5:57](https://www.youtube.com/watch?v=inuqqx12yJ8&t=357s) "There is a new field on the order synchronization and processing tab."
 - [7:33](https://www.youtube.com/watch?v=inuqqx12yJ8&t=453s) "we have a new field or new mapping table which is called staff members mapping and"
+- [7:44](https://www.youtube.com/watch?v=inuqqx12yJ8&t=464s) "system will check if there is a salesperson code and use it instead."
 
 ## Disclaimers in the video
 

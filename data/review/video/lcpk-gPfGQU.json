@@ -1,0 +1,26 @@
+{
+  "video_id": "lcpk-gPfGQU",
+  "item_id": "video/yt-microsoft/lcpk-gPfGQU",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Key points and the CBM/EPR feature description spell out CBM as 'Carbon Border Mechanism' and EPR as 'Extended Producer Responsibility'. The transcript only says CBM and EPR, so these expansions come from outside knowledge. Removed from key points.",
+    "The key point and the transaction-log feature description say posting writes the logs as an audit trail. The speaker says 'not posting because we will register' and never mentions an audit trail. Key point corrected; the feature description still needs a manual edit.",
+    "All quotes are verbatim. The quote at 191.9 is short (7 words) but accurate.",
+    "No GA or preview statement in the transcript except the future-release promise, so the other features stay unclear."
+  ],
+  "input_hash": "4dc87e5b38c04b728236e362d93f5d8fdc383cfaffa4acbabfbc976deab7719a",
+  "by": "opus",
+  "at": "2026-10-07T22:53:43.848Z",
+  "applied": [
+    "Future Excise Tax Calculation Options: status announced",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.084217
+  }
+}

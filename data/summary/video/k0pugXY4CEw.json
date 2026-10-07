@@ -1,16 +1,16 @@
 {
   "video_id": "k0pugXY4CEw",
   "item_id": "video/yt-microsoft/k0pugXY4CEw",
-  "summary": "IRS 1099 electronic filing with the IRIS portal in Business Central, 2025 release wave 2. Covers the A2A integration for cloud users, manual file upload for on-premise users, 1099 substitution forms, planned 1086 deprecation, and a demo of creating, sending, tracking and correcting 1099 forms.",
+  "summary": "IRS 1099 electronic filing with the IRIS portal in Business Central: officially available in 2025 release wave 2 and also added to minor version 26.5. Covers full A2A integration for cloud users, manual file upload for on-prem users (also an option for cloud users), 1099 substitution forms for vendors, and the planned 1086 deprecation. Includes a demo of creating, sending, tracking and correcting 1099 forms.",
   "overview": "The video explains how Business Central sends 1099 forms directly to the IRS IRIS portal. Cloud users get a full application-to-application integration, so forms no longer need to be printed or submitted by hand. On-premise users create files and upload them to the IRIS portal manually. The speaker says E-file direct to IRIS is officially available from 2025 release wave 2.\n\nThe demo covers setting up and creating 1099 form documents, combining released documents into one transmission, and sending it to the IRS. It then shows transmission history with IRS acknowledgement content in XML, and the correction flow after IRS acceptance. The video also covers 1099 substitution forms sent to vendors by email or mail, and the planned deprecation of the 1086 form.",
   "key_points": [
-    "Cloud users get full A2A integration with the IRIS portal; on-premise users create files and upload them manually to IRIS.",
-    "1099 form documents calculate total payment amounts for each vendor automatically.",
-    "Several released 1099 form documents can be combined into one transmission. Business Central checks that the required data is filled in, creates the XML and sends it to the IRS.",
+    "E-file direct to IRIS is officially available from 2025 release wave 2 and was also added to minor version 26.5, so you can report from either version.",
+    "Cloud users get full A2A integration with the IRIS portal. On-prem users create files and upload them manually to IRIS, and cloud users can do this too.",
+    "1099 form documents calculate total payment amounts for each vendor automatically. Verify the amounts and release each document.",
+    "On the IRIS transmissions page, create an IRIS transmission for a reporting period to combine the released documents. Business Central checks the required data, creates the XML and sends it to the IRS. If the IRS returns errors, fix them and send a replacement transmission.",
     "Transmission history shows when each transmission was sent, its type and status. IRS acknowledgement content can be downloaded as XML to review statuses and errors.",
-    "To correct a form after IRS acceptance, use the allow correction action first, then reopen the document. Corrected lines are marked, and the replacement transmission carries only the corrected amounts.",
-    "1099 substitution forms are PDFs that can be emailed (optionally encrypted, with vendor consent) or printed and mailed.",
-    "The 1086 form functionality is announced for deprecation, because electronic 1089 submission removes the need for 1086."
+    "To correct a form after IRS acceptance, use the allow correction action, reopen the document, correct the amount and release it. The transmission line is marked as needing correction, only those lines are sent, and afterwards they are marked as corrected.",
+    "1099 substitution forms are PDFs that can be emailed to vendors with their consent, with protection for both sides, or printed and mailed."
   ],
   "audience": [
     "functional consultant",

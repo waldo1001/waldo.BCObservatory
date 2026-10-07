@@ -1,0 +1,27 @@
+{
+  "video_id": "gy_6QnFpiEw",
+  "item_id": "video/yt-microsoft/gy_6QnFpiEw",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "The sync direction is backwards in the 'Price Synchronization for Markets' feature description and in the key point. In the demo, the presenter prepares customer price groups (Europe, Germany) in Business Central, presses Sync prices, and the higher prices then appear in the Shopify online store. So prices flow from Business Central to the Shopify market catalogs. The feature description cannot be edited from this form, so it still needs a manual correction.",
+    "The key point 'Price synchronization needs a toggle to be activated manually' overstates what was said. The transcript only says 'activating toggles here' before syncing, so I reworded it.",
+    "All feature statuses stay unclear because the transcript never states preview or GA status. The release wave appears only in the video title.",
+    "I added a quote that shows the customer price group to Sync prices workflow."
+  ],
+  "input_hash": "8718cd90605bd27a0237daa42ad74a1db7d0e86d219298c5eaf195283eb2cd74",
+  "by": "opus",
+  "at": "2026-10-07T22:53:13.583Z",
+  "applied": [
+    "quote at 366s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.086409
+  }
+}

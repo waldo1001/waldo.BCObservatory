@@ -1,0 +1,26 @@
+{
+  "video_id": "Sc8eGyMkBTA",
+  "item_id": "video/yt-microsoft/Sc8eGyMkBTA",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All four quotes are verbatim. The quote at 46.6 runs on into the 60.9 segment, and the quote at 124.6 ends mid-sentence ('you will get two'), but both are acceptable.",
+    "Every feature status is 'unclear'. That is correct: the video is a 2025 release wave 2 'what's new' session and never states preview or GA. The line 'So it will be available' is too vague to count as evidence.",
+    "The key point on project statistics said they show 'the effect of project activity on carbon footprint'. The transcript only says they show calculations of everything done in the workflow, so I reworded it.",
+    "I added a quote saying that posted information appears on project statistics and task lines."
+  ],
+  "input_hash": "b5a8646b0c21d16580763035aee1fa149e96a62e52ca1c5c1ac02957b03c2421",
+  "by": "opus",
+  "at": "2026-10-07T22:54:15.395Z",
+  "applied": [
+    "quote at 136s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.060760999999999996
+  }
+}

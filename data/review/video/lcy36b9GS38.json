@@ -1,0 +1,29 @@
+{
+  "video_id": "lcy36b9GS38",
+  "item_id": "video/yt-microsoft/lcy36b9GS38",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All five quotes appear verbatim in the transcript and are useful.",
+    "Summary and key points match the transcript: the setup on the procurement tab, the CO2-equivalent-only limit, the assignment methods and the demo pages.",
+    "The item charges feature was marked unclear, but the transcript says it is enabled in this release. Set to ga with evidence at 92.2.",
+    "Value chain automation was added in the previous wave, with projects added in this release. Set to ga with evidence at 57.",
+    "Sustainability ledger is background from two years ago. The transcript gives no explicit status statement, so it stays unclear."
+  ],
+  "input_hash": "516434d4bf25109b3b0738eede8c408c3c52d5e6aff80b509644e56880d4aa7c",
+  "by": "opus",
+  "at": "2026-10-07T22:53:46.954Z",
+  "applied": [
+    "Sustainability ledger and value entries: status unclear"
+  ],
+  "rejected_edits": [
+    "status Item charges for sustainability tracking -> ga: evidence not verbatim or does not state the status",
+    "status Value chain automation for scope three -> ga: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.060608999999999996
+  }
+}

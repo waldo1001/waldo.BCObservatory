@@ -16,12 +16,12 @@ tags:
   - transport costs
 system: sustainability
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:53:46.954Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:53:46.995Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -143,7 +143,7 @@ quotes:
 
 > Item charges in Business Central sustainability for scope three emissions: how item charges on purchase invoices carry transport and other upstream emissions into carbon footprint tracking. Covers setup, CO2-equivalent-only limit, and assignment by amount, weight, volume or equally. Demoed in the 2025 release wave 2 video.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=lcy36b9GS38) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-10-01 · 6:25 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=lcy36b9GS38) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-10-01 · 6:25 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -174,11 +174,11 @@ The demo creates a purchase invoice with item charges and shows the Item Charge 
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Item charges for sustainability tracking | status not stated, demoed | [1:22](https://www.youtube.com/watch?v=lcy36b9GS38&t=82s) |  |
-| Value chain automation for scope three | status not stated | [0:57](https://www.youtube.com/watch?v=lcy36b9GS38&t=57s) |  |
-| Sustainability ledger and value entries | status not stated | [0:29](https://www.youtube.com/watch?v=lcy36b9GS38&t=29s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Item charges for sustainability tracking | status not stated, demoed | [1:22](https://www.youtube.com/watch?v=lcy36b9GS38&t=82s) |
+| Value chain automation for scope three | status not stated | [0:57](https://www.youtube.com/watch?v=lcy36b9GS38&t=57s) |
+| Sustainability ledger and value entries | status not stated | [0:29](https://www.youtube.com/watch?v=lcy36b9GS38&t=29s) |
 
 ## AL objects mentioned
 

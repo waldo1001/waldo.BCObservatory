@@ -2,7 +2,7 @@
 id: video/R57aHqQRrAA
 type: video
 title: "What's New: Enhanced Power BI for Purchasing (2025 release wave 2)"
-summary: "Updated Power BI app for purchasing in Business Central (2025 release wave 2): four new and four updated report pages covering vendor and purchaser concentration risk, returns, quotes, single supplier risk and machine learning purchase forecasting. Demoed in a 20-minute walkthrough."
+summary: "Updated Power BI app for purchasing in Business Central 2025 release wave 2: four new and four updated report pages. They cover vendor and purchaser concentration risk, geography, returns, quotes, single supplier risk, AI key purchase influencers and statistical purchase forecasting. The app's code is also being open sourced."
 tier: official
 language: en
 tags:
@@ -19,12 +19,12 @@ tags:
   - seasonality
 system: purchasing
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:54:06.748Z"
   flags: []
 generated:
-  at: "2026-10-06T18:27:24.368Z"
+  at: "2026-10-07T22:54:06.791Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -66,6 +66,13 @@ evidence:
     commit: null
     t: 377
     quote: Maybe there's a single purchaser risk in this company because we have some people working in procurement and then we have Jim
+  - kind: video
+    url: https://www.youtube.com/watch?v=R57aHqQRrAA&t=639s
+    title: "What's New: Enhanced Power BI for Purchasing (2025 release wave 2)"
+    date: "2025-10-01T00:00:00Z"
+    commit: null
+    t: 639
+    quote: The next report also new is a symmetry for what we did for sales last semester. These are key purchase influencers.
   - kind: video
     url: https://www.youtube.com/watch?v=R57aHqQRrAA&t=745s
     title: "What's New: Enhanced Power BI for Purchasing (2025 release wave 2)"
@@ -230,16 +237,6 @@ features:
     t: 837
     verified: false
     status_source: video
-  - name: Vendor concentration risk visualization
-    status: unclear
-    t: 791
-    verified: false
-    status_source: video
-  - name: Enhanced purchasing app with new Power BI pages
-    status: unclear
-    t: 995
-    verified: false
-    status_source: video
 objects_mentioned: []
 quotes:
   - t: 16
@@ -256,6 +253,9 @@ quotes:
     check: exact
   - t: 377
     text: Maybe there's a single purchaser risk in this company because we have some people working in procurement and then we have Jim
+    check: exact
+  - t: 639
+    text: The next report also new is a symmetry for what we did for sales last semester. These are key purchase influencers.
     check: exact
   - t: 745
     text: This is one of my also one of my favorite new reports in the release. Uh here you have the single supplier risk on
@@ -285,9 +285,9 @@ quotes:
 
 # What's New: Enhanced Power BI for Purchasing (2025 release wave 2)
 
-> Updated Power BI app for purchasing in Business Central (2025 release wave 2): four new and four updated report pages covering vendor and purchaser concentration risk, returns, quotes, single supplier risk and machine learning purchase forecasting. Demoed in a 20-minute walkthrough.
+> Updated Power BI app for purchasing in Business Central 2025 release wave 2: four new and four updated report pages. They cover vendor and purchaser concentration risk, geography, returns, quotes, single supplier risk, AI key purchase influencers and statistical purchase forecasting. The app's code is also being open sourced.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=R57aHqQRrAA) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-10-01 · 20:10 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=R57aHqQRrAA) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-10-01 · 20:10 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -297,13 +297,13 @@ The demo goes through the app page by page: purchase quantity by location, purch
 
 ## Key points
 
-- The purchasing app has four new report pages and four updated pages; the app must be installed or updated to get them.
+- The purchasing app has four new report pages and four updated pages. Update or install the app to get them.
+- The purchases overview shows purchase quantity by location, including posted invoices and return orders, so warehouses with many returns stand out.
 - Pareto analysis for vendors shows what share of purchase value comes from the top vendors, for example 80% from three vendors, which shows concentration risk.
-- A world map of vendor locations shows geographic concentration; purchases by purchaser can flag single purchaser risk.
-- The vendor quality report shows items with only one vendor, with the financial exposure for each item.
+- A world map of vendor locations shows geographic concentration. Purchases by purchaser can flag single purchaser risk.
+- The vendor quality analysis report shows items with only one vendor, with the financial exposure for each item.
 - Purchase returns by reason code (damages, defects, warranty) and the purchase quote overview show quality risk and unusual quoting behavior.
-- Forecasting uses a classical statistical model on historical transactions. The demo predicts 3 months ahead with upper and lower bounds.
-- Seasonality and other forecast settings are changed by editing the report, so they need manual adjustment to fit the business.
+- Key purchase influencers is an AI-driven report with influencer and segmentation views for each document type, matching key sales influencers.
 
 ## Chapters
 
@@ -320,23 +320,21 @@ The demo goes through the app page by page: purchase quantity by location, purch
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Updated Power BI app for purchasing | status not stated, demoed | [0:55](https://www.youtube.com/watch?v=R57aHqQRrAA&t=55s) |  |
-| Open source Power BI app code | status not stated | [1:45](https://www.youtube.com/watch?v=R57aHqQRrAA&t=105s) |  |
-| Purchase quantity by location visual | status not stated, demoed | [2:07](https://www.youtube.com/watch?v=R57aHqQRrAA&t=127s) |  |
-| Purchases by item report | status not stated, demoed | [3:06](https://www.youtube.com/watch?v=R57aHqQRrAA&t=186s) |  |
-| Pareto analysis for vendors | status not stated, demoed | [4:20](https://www.youtube.com/watch?v=R57aHqQRrAA&t=260s) |  |
-| Vendor geographic location mapping | status not stated, demoed | [5:22](https://www.youtube.com/watch?v=R57aHqQRrAA&t=322s) |  |
-| Purchases by purchaser report | status not stated, demoed | [5:47](https://www.youtube.com/watch?v=R57aHqQRrAA&t=347s) |  |
-| Purchases by warehouse location analysis | status not stated, demoed | [7:02](https://www.youtube.com/watch?v=R57aHqQRrAA&t=422s) |  |
-| Purchase returns overview report | status not stated, demoed | [7:58](https://www.youtube.com/watch?v=R57aHqQRrAA&t=478s) |  |
-| Purchase quote overview report | status not stated, demoed | [9:49](https://www.youtube.com/watch?v=R57aHqQRrAA&t=589s) |  |
-| Key purchase influencers report | status not stated, demoed | [10:39](https://www.youtube.com/watch?v=R57aHqQRrAA&t=639s) |  |
-| Vendor quality analysis report | status not stated, demoed | [12:15](https://www.youtube.com/watch?v=R57aHqQRrAA&t=735s) |  |
-| Purchase forecasting with machine learning | status not stated, demoed | [13:57](https://www.youtube.com/watch?v=R57aHqQRrAA&t=837s) |  |
-| Vendor concentration risk visualization | status not stated, demoed | [13:11](https://www.youtube.com/watch?v=R57aHqQRrAA&t=791s) |  |
-| Enhanced purchasing app with new Power BI pages | status not stated, demoed | [16:35](https://www.youtube.com/watch?v=R57aHqQRrAA&t=995s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Updated Power BI app for purchasing | status not stated, demoed | [0:55](https://www.youtube.com/watch?v=R57aHqQRrAA&t=55s) |
+| Open source Power BI app code | status not stated | [1:45](https://www.youtube.com/watch?v=R57aHqQRrAA&t=105s) |
+| Purchase quantity by location visual | status not stated, demoed | [2:07](https://www.youtube.com/watch?v=R57aHqQRrAA&t=127s) |
+| Purchases by item report | status not stated, demoed | [3:06](https://www.youtube.com/watch?v=R57aHqQRrAA&t=186s) |
+| Pareto analysis for vendors | status not stated, demoed | [4:20](https://www.youtube.com/watch?v=R57aHqQRrAA&t=260s) |
+| Vendor geographic location mapping | status not stated, demoed | [5:22](https://www.youtube.com/watch?v=R57aHqQRrAA&t=322s) |
+| Purchases by purchaser report | status not stated, demoed | [5:47](https://www.youtube.com/watch?v=R57aHqQRrAA&t=347s) |
+| Purchases by warehouse location analysis | status not stated, demoed | [7:02](https://www.youtube.com/watch?v=R57aHqQRrAA&t=422s) |
+| Purchase returns overview report | status not stated, demoed | [7:58](https://www.youtube.com/watch?v=R57aHqQRrAA&t=478s) |
+| Purchase quote overview report | status not stated, demoed | [9:49](https://www.youtube.com/watch?v=R57aHqQRrAA&t=589s) |
+| Key purchase influencers report | status not stated, demoed | [10:39](https://www.youtube.com/watch?v=R57aHqQRrAA&t=639s) |
+| Vendor quality analysis report | status not stated, demoed | [12:15](https://www.youtube.com/watch?v=R57aHqQRrAA&t=735s) |
+| Purchase forecasting with machine learning | status not stated, demoed | [13:57](https://www.youtube.com/watch?v=R57aHqQRrAA&t=837s) |
 
 ## Quotes
 
@@ -345,6 +343,7 @@ The demo goes through the app page by page: purchase quantity by location, purch
 - [1:45](https://www.youtube.com/watch?v=R57aHqQRrAA&t=105s) "we are also open sourcing the everything uh all the code for the PowerBI app for purchasing"
 - [4:35](https://www.youtube.com/watch?v=R57aHqQRrAA&t=275s) "80% of the value I buy across all vendors is supplied by vendor 1, two and three. that means that my like risk exposure"
 - [6:17](https://www.youtube.com/watch?v=R57aHqQRrAA&t=377s) "Maybe there's a single purchaser risk in this company because we have some people working in procurement and then we have Jim"
+- [10:39](https://www.youtube.com/watch?v=R57aHqQRrAA&t=639s) "The next report also new is a symmetry for what we did for sales last semester. These are key purchase influencers."
 - [12:25](https://www.youtube.com/watch?v=R57aHqQRrAA&t=745s) "This is one of my also one of my favorite new reports in the release. Uh here you have the single supplier risk on"
 - [13:21](https://www.youtube.com/watch?v=R57aHqQRrAA&t=801s) "Those with only one vendors mean that you are like you have to make sure that that particular one vendor can supply or can"
 - [14:43](https://www.youtube.com/watch?v=R57aHqQRrAA&t=883s) "The forecasting here is a classical data mining or machine learning. It is AI but it is old school AI. It's a statistical model"

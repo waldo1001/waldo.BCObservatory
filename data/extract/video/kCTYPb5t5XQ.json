@@ -201,12 +201,6 @@
   ],
   "quotes": [
     {
-      "t": 34.1,
-      "text": "In modern software development, even small inefficiencies can quickly add up. They can take time away from your important development work and that's why",
-      "why_it_matters": "Sets the context for the productivity improvements being discussed - reducing inefficiencies saves development time.",
-      "check": "exact"
-    },
-    {
       "t": 67.8,
       "text": "These should be named ALGO environment settings and can be defined for each of your environments.",
       "why_it_matters": "Explains the naming convention and scope for the new environment variables feature.",
@@ -240,6 +234,12 @@
       "t": 277.6,
       "text": "You will now get also complete like shown in the screenshot which will help you discover uh settings more easily. On top of that,",
       "why_it_matters": "Details the developer experience improvements from settings schema including autocomplete and documentation links.",
+      "check": "exact"
+    },
+    {
+      "t": 329.8,
+      "text": "What's new is that we have focused on putting extra logs that will help us debug your issues in here.",
+      "why_it_matters": "States what changed in debug logging: extra AL-Go logs are put into GitHub's built-in debug mode.",
       "check": "exact"
     }
   ],

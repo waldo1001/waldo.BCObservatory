@@ -4,13 +4,13 @@
   "summary": "Business Central 2025 release wave 2 server and database changes: new AL methods (sequential GUID, lock timeout duration, truncate), flow field and analysis mode optimizations, cloud-only semantic search on metadata, report tooltips, PDF/UA and PDF/A, and SQL call info in profiles.",
   "overview": "The session covers platform, development and reporting changes in 2025 release wave 2. On the AL side it introduces a sequential GUID method for better indexing, a lock timeout method that takes a duration, and a truncate method that deletes large amounts of data faster than delete, with a long list of conditions under which it returns false.\n\nIt also covers database optimizations for flow fields and server-side pivot on date hierarchies in analysis mode, semantic similarity search on metadata (with feature toggles, embedding maintenance and a demo of advanced tell me), report column tooltips in the Word addin data picker, PDF/UA and PDF/A support, SQL call information in performance profiles, and app version in copied error details. Semantic search is cloud-only; the other functionality applies to both cloud and on-premises.",
   "key_points": [
-    "Truncate AL method uses SQL truncate, supports filtering and keeps auto-increment values. It returns false for non-SQL or system tables, inside try functions, with security filters, media fields, too many marked rows, filters on flow fields, or before/after delete subscribers.",
-    "Truncate should only be used when deleting the vast majority of a table.",
-    "The lock timeout method sets a custom duration instead of on/off, but is still limited by the command timeout.",
+    "Truncate AL method uses SQL truncate, supports filtering and keeps auto-increment values. It returns false for non-SQL or system tables, inside try functions, with security filters, media fields, too many marked rows, filters on flow fields, or before/after delete subscribers. Wrap it in an if and fall back to delete all.",
+    "Truncate should only be used when deleting the vast majority of a table, because filtered truncate copies the kept rows out and back.",
+    "The lock timeout duration method sets a custom duration instead of on/off, but is still limited by the command timeout.",
     "Flow fields that sum over other tables now use a single outer apply instead of several, which speeds up list pages showing many calculated fields.",
-    "Analysis mode in server-side mode (over 100,000 rows or joined tables) can pivot on year, quarter and month date hierarchies.",
-    "Semantic search is cloud-only: it needs embedding vector maintenance and SQL Server 2025, which is only in Azure. Preview semantic similarity search and advanced tell me are separate feature management toggles, and results may change as the algorithm is adjusted.",
-    "Report columns can have tooltips inherited from table fields or overridden in the report; they show in the Word addin data picker. Best practice is to put tooltips on tables, not pages."
+    "Server-side analysis mode (queries, over 100,000 rows, or joined related tables) can now pivot on date hierarchy fields such as year, quarter and month.",
+    "Semantic search is cloud-only: it needs embedding vector maintenance and SQL Server 2025, which is available in Azure SQL but not yet on-premises. Embedding vectors are removed when the database is exported. Preview semantic similarity search and advanced tell me are separate feature management toggles, and results may change as the algorithm is adjusted.",
+    "Report columns can have tooltips inherited from table fields or overridden in the report; they show in the new Word addin data picker. The speakers recommend putting data descriptions as tooltips on tables rather than pages."
   ],
   "audience": [
     "developer",

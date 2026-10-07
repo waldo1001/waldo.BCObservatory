@@ -15,12 +15,12 @@ tags:
   - co2 emissions
 system: sustainability
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:54:15.395Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:54:15.430Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -55,6 +55,13 @@ evidence:
     commit: null
     t: 124
     quote: So you can post emissions using project journal or purchase invoice. When you post purchase invoice for project you know you will get two
+  - kind: video
+    url: https://www.youtube.com/watch?v=Sc8eGyMkBTA&t=136s
+    title: "What's New in Sustainability: Value Chain in Projects (2025 release wave 2)"
+    date: "2025-10-01T00:00:00Z"
+    commit: null
+    t: 136
+    quote: It will be once when you uh finish where information will be exposed on a project statistic.
 links:
   learn: []
   objects:
@@ -144,13 +151,16 @@ quotes:
   - t: 124
     text: So you can post emissions using project journal or purchase invoice. When you post purchase invoice for project you know you will get two
     check: exact
+  - t: 136
+    text: It will be once when you uh finish where information will be exposed on a project statistic.
+    check: exact
 ---
 
 # What's New in Sustainability: Value Chain in Projects (2025 release wave 2)
 
 > Sustainability value chain automation in Business Central projects (2025 release wave 2): emissions posted through project journals and purchase invoices with project numbers, sustainability fast tabs on items and resources, and emissions in project statistics. Works only with carbon equivalent, not other gases.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=Sc8eGyMkBTA) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-10-01 · 6:54 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=Sc8eGyMkBTA) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-10-01 · 6:54 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -165,8 +175,8 @@ The demo covers the sustainability configuration, posting a project journal, and
 - Posting a purchase invoice for a project generates two lines: a purchase line and a negative adjustment entry that goes into sustainability value entries.
 - Items have a sustainability fast tab for a standard account number and a default CO2 emissions number, and the system calculates total CO2.
 - Resources have a sustainability fast tab for adding accounts and default CO2 emission numbers.
-- Project statistics show emissions calculations and the effect of project activity on carbon footprint.
-- The feature works only with carbon equivalent, not with other gases.
+- Posted information is exposed on project statistics and task lines, which show the calculations for everything posted to the project.
+- The feature works only with carbon equivalent; other gas emissions are converted to carbon equivalent for the value chain.
 
 ## Chapters
 
@@ -181,14 +191,14 @@ The demo covers the sustainability configuration, posting a project journal, and
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Value Chain Automation in Projects | status not stated, demoed | [1:00](https://www.youtube.com/watch?v=Sc8eGyMkBTA&t=60s) |  |
-| Sustainability Fast Tab on Items | status not stated, demoed | [3:21](https://www.youtube.com/watch?v=Sc8eGyMkBTA&t=201s) |  |
-| Sustainability Fast Tab on Resources | status not stated, demoed | [3:57](https://www.youtube.com/watch?v=Sc8eGyMkBTA&t=237s) |  |
-| Project Statistics with Emissions Data | status not stated, demoed | [5:49](https://www.youtube.com/watch?v=Sc8eGyMkBTA&t=349s) |  |
-| Scope Three Coverage via Value Chain | status not stated | [1:29](https://www.youtube.com/watch?v=Sc8eGyMkBTA&t=89s) |  |
-| Procurement Setup for Value Chain Tracking | status not stated, demoed | [2:27](https://www.youtube.com/watch?v=Sc8eGyMkBTA&t=147s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Value Chain Automation in Projects | status not stated, demoed | [1:00](https://www.youtube.com/watch?v=Sc8eGyMkBTA&t=60s) |
+| Sustainability Fast Tab on Items | status not stated, demoed | [3:21](https://www.youtube.com/watch?v=Sc8eGyMkBTA&t=201s) |
+| Sustainability Fast Tab on Resources | status not stated, demoed | [3:57](https://www.youtube.com/watch?v=Sc8eGyMkBTA&t=237s) |
+| Project Statistics with Emissions Data | status not stated, demoed | [5:49](https://www.youtube.com/watch?v=Sc8eGyMkBTA&t=349s) |
+| Scope Three Coverage via Value Chain | status not stated | [1:29](https://www.youtube.com/watch?v=Sc8eGyMkBTA&t=89s) |
+| Procurement Setup for Value Chain Tracking | status not stated, demoed | [2:27](https://www.youtube.com/watch?v=Sc8eGyMkBTA&t=147s) |
 
 ## AL objects mentioned
 
@@ -209,5 +219,6 @@ Not found in BC28-30: page "Items", page "Resources", page "Project Journals", p
 - [1:29](https://www.youtube.com/watch?v=Sc8eGyMkBTA&t=89s) "So what are business values with this functionality will really cover end to end scope three coverage."
 - [1:51](https://www.youtube.com/watch?v=Sc8eGyMkBTA&t=111s) "It is important to remember it doesn't work with all gases only with the carbon equivalent."
 - [2:04](https://www.youtube.com/watch?v=Sc8eGyMkBTA&t=124s) "So you can post emissions using project journal or purchase invoice. When you post purchase invoice for project you know you will get two"
+- [2:16](https://www.youtube.com/watch?v=Sc8eGyMkBTA&t=136s) "It will be once when you uh finish where information will be exposed on a project statistic."
 
 Presenters (as heard): Alexander Toto, Jacob Bang.

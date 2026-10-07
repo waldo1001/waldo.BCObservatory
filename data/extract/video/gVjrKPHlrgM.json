@@ -157,25 +157,6 @@
         "post-to-send"
       ],
       "system": "integration"
-    },
-    {
-      "name": "BIO Reference Setup for E-Documents",
-      "description": "Configuration of BIO (Business Information Operator) reference as mandatory setting for ZUGFeRD e-document service, with option to source from customer card or document reference.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 349,
-      "t_end": 377.4,
-      "is_demoed": false,
-      "caveats": [],
-      "tags": [
-        "zugferd",
-        "setup",
-        "bio-reference",
-        "configuration"
-      ],
-      "system": "localization"
     }
   ],
   "objects": [],
@@ -218,6 +199,12 @@
       "t": 155.9,
       "text": "So main business values there are you will be completely compliant in Germany. So now with the souk we support all formats in the",
       "why_it_matters": "Confirms German market compliance as the primary business driver for ZUGFeRD implementation in Business Central.",
+      "check": "exact"
+    },
+    {
+      "t": 359,
+      "text": "on e document service for zuk first format we need to enable bio reference mandatory",
+      "why_it_matters": "States the required setup on the ZUGFeRD e-document service.",
       "check": "exact"
     },
     {

@@ -193,28 +193,6 @@
       "system": "finance"
     },
     {
-      "name": "E-documents localization framework",
-      "description": "Framework supporting localization for multiple countries including VeriFacTur in Spain, CFDI in Mexico, and India invoicing. Enables partner-based localization on top of the e-documents clearance model.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 61.5,
-      "t_end": 605.7,
-      "is_demoed": false,
-      "caveats": [
-        "Framework only, no default localization included",
-        "Each country localization must be built separately",
-        "Microsoft will migrate existing India and Mexico e-invoicing to new format"
-      ],
-      "tags": [
-        "localization",
-        "e-documents",
-        "framework"
-      ],
-      "system": "localization"
-    },
-    {
       "name": "Migration of existing e-invoicing formats",
       "description": "Microsoft plans to migrate existing India and Mexico electronic invoicing from old model to new e-documents format with clearance model. VeriFacTur 2 for Spain also planned.",
       "status": "announced",
@@ -297,6 +275,12 @@
       "t": 203.2,
       "text": "Currently this is not supported. This is something what we will deliver in the future to fully support clearance model is validation as a",
       "why_it_matters": "Identifies a gap in current clearance model implementation that will be addressed in future releases.",
+      "check": "exact"
+    },
+    {
+      "t": 517.2,
+      "text": "if you're building your localization you need to build this by yourself because it depends from localization to localization",
+      "why_it_matters": "Makes clear that the clearance service in the demo is not part of Business Central and that partners must build it for each country.",
       "check": "exact"
     },
     {

@@ -16,12 +16,12 @@ tags:
   - sustainability accounts
 system: sustainability
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:53:17.883Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:53:17.926Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -49,6 +49,13 @@ evidence:
     commit: null
     t: 147
     quote: if you you can if you choose to enable energy value required you cannot post document without that.
+  - kind: video
+    url: https://www.youtube.com/watch?v=i-MTLNYwA9o&t=172s
+    title: "What's New in Sustainability: Track Your Energy Consumption (2025 release wave 2)"
+    date: "2025-10-01T00:00:00Z"
+    commit: null
+    t: 172
+    quote: This is a newable energy field. You this is boolean field. You can set to true or false. But this is something what we
   - kind: video
     url: https://www.youtube.com/watch?v=i-MTLNYwA9o&t=194s
     title: "What's New in Sustainability: Track Your Energy Consumption (2025 release wave 2)"
@@ -114,11 +121,6 @@ features:
     t: 184
     verified: false
     status_source: video
-  - name: On-Site Energy Generation Tracking
-    status: unclear
-    t: 161
-    verified: false
-    status_source: video
   - name: Renewable Energy Field
     status: unclear
     t: 172
@@ -145,6 +147,9 @@ quotes:
   - t: 147
     text: if you you can if you choose to enable energy value required you cannot post document without that.
     check: exact
+  - t: 172
+    text: This is a newable energy field. You this is boolean field. You can set to true or false. But this is something what we
+    check: exact
   - t: 194
     text: renewable energy is false in this case energy consumptions must have value in sustainability journal approaches documents
     check: fuzzy
@@ -157,7 +162,7 @@ quotes:
 
 > Energy consumption tracking in Business Central Sustainability (2025 release wave 2): recording kilowatt hours from the sustainability journal or purchase documents, with energy source defaults and required-value rules set on the sustainability account subcategory. Includes a live demo of setup and posting.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=i-MTLNYwA9o) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-10-01 · 7:01 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=i-MTLNYwA9o) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-10-01 · 7:01 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -168,12 +173,12 @@ It walks through setting up energy sources and the mandatory-entry rules, the po
 ## Key points
 
 - Energy consumption in kilowatt hours can be tracked from the sustainability journal or from purchase documents.
-- Energy source choices include nuclear, solar, wind, power, coal or other sources, and default values are set at sustainability account subcategory level, not account level.
-- The Energy Value Required boolean on the sustainability account subcategory blocks posting a document without an energy value.
-- If the Renewable Energy field is true, the energy value requirement can be overridden; that field has existed since early in the sustainability module.
-- The on-site generation field is not new; it was already in the system.
-- Energy can be posted before emission values are entered, but only if an energy value was entered first.
-- Objects shown include the Sustainability Account Subcategory table and the Sustainability Journal and Sustainability Ledger Entries pages.
+- Energy source choices include nuclear, solar, wind, power, coal or other sources. Default values are set at sustainability account subcategory level, not account level, and can also be chosen manually on journals and purchase documents.
+- With Energy Value Required enabled on the sustainability account subcategory, a document cannot be posted without an energy value.
+- If Energy Value Required is true and Renewable Energy is false, energy consumption must have a value. If Renewable Energy is true, entering the value is the user's choice.
+- The Renewable Energy boolean field is not new; it has existed since early in the sustainability module.
+- A field indicates whether the energy source generation is on site or not.
+- A sustainability journal line normally cannot be posted without emissions, but it can be posted with zero emissions if it has an energy value, e.g. when energy was forgotten when emissions were posted.
 
 ## Chapters
 
@@ -186,14 +191,13 @@ It walks through setting up energy sources and the mandatory-entry rules, the po
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Energy Consumption Tracking | status not stated, demoed | [1:24](https://www.youtube.com/watch?v=i-MTLNYwA9o&t=84s) |  |
-| Energy Source Selection | status not stated, demoed | [2:02](https://www.youtube.com/watch?v=i-MTLNYwA9o&t=122s) |  |
-| Energy Value Required Field | status not stated, demoed | [3:04](https://www.youtube.com/watch?v=i-MTLNYwA9o&t=184s) |  |
-| On-Site Energy Generation Tracking | status not stated | [2:41](https://www.youtube.com/watch?v=i-MTLNYwA9o&t=161s) |  |
-| Renewable Energy Field | status not stated, demoed | [2:52](https://www.youtube.com/watch?v=i-MTLNYwA9o&t=172s) |  |
-| Energy Posting Without Emissions | status not stated | [3:57](https://www.youtube.com/watch?v=i-MTLNYwA9o&t=237s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Energy Consumption Tracking | status not stated, demoed | [1:24](https://www.youtube.com/watch?v=i-MTLNYwA9o&t=84s) |
+| Energy Source Selection | status not stated, demoed | [2:02](https://www.youtube.com/watch?v=i-MTLNYwA9o&t=122s) |
+| Energy Value Required Field | status not stated, demoed | [3:04](https://www.youtube.com/watch?v=i-MTLNYwA9o&t=184s) |
+| Renewable Energy Field | status not stated, demoed | [2:52](https://www.youtube.com/watch?v=i-MTLNYwA9o&t=172s) |
+| Energy Posting Without Emissions | status not stated | [3:57](https://www.youtube.com/watch?v=i-MTLNYwA9o&t=237s) |
 
 ## AL objects mentioned
 
@@ -212,6 +216,7 @@ Not found in BC28-30: table "Sustainability Account Subcategory", page "Sustaina
 - [0:33](https://www.youtube.com/watch?v=i-MTLNYwA9o&t=33s) "Because of many of uh regulations, for example, CSRD and other require to report energy as well."
 - [1:24](https://www.youtube.com/watch?v=i-MTLNYwA9o&t=84s) "You can take track check your energy consumptions in kilowatt hours from sustainability journal or from purchase documents."
 - [2:27](https://www.youtube.com/watch?v=i-MTLNYwA9o&t=147s) "if you you can if you choose to enable energy value required you cannot post document without that."
+- [2:52](https://www.youtube.com/watch?v=i-MTLNYwA9o&t=172s) "This is a newable energy field. You this is boolean field. You can set to true or false. But this is something what we"
 - [3:14](https://www.youtube.com/watch?v=i-MTLNYwA9o&t=194s) "renewable energy is false in this case energy consumptions must have value in sustainability journal approaches documents"
 - [3:57](https://www.youtube.com/watch?v=i-MTLNYwA9o&t=237s) "post energy consump consumption even when emission do not have a value in general without enabling"
 

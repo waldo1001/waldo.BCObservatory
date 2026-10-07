@@ -5,12 +5,12 @@
   "overview": "The video explains why energy tracking matters for ESG compliance, noting that regulations such as CSRD require energy reporting. It then covers the new fields and sources for recording energy consumption in kilowatt hours, either from actual consumption or from default values for an energy source.\n\nIt walks through setting up energy sources and the mandatory-entry rules, the posting rules for energy and emissions, and a live demo of setup and posting. The content is subject to change, as stated in the launch edition 2025 release wave 2 disclaimer.",
   "key_points": [
     "Energy consumption in kilowatt hours can be tracked from the sustainability journal or from purchase documents.",
-    "Energy source choices include nuclear, solar, wind, power, coal or other sources, and default values are set at sustainability account subcategory level, not account level.",
-    "The Energy Value Required boolean on the sustainability account subcategory blocks posting a document without an energy value.",
-    "If the Renewable Energy field is true, the energy value requirement can be overridden; that field has existed since early in the sustainability module.",
-    "The on-site generation field is not new; it was already in the system.",
-    "Energy can be posted before emission values are entered, but only if an energy value was entered first.",
-    "Objects shown include the Sustainability Account Subcategory table and the Sustainability Journal and Sustainability Ledger Entries pages."
+    "Energy source choices include nuclear, solar, wind, power, coal or other sources. Default values are set at sustainability account subcategory level, not account level, and can also be chosen manually on journals and purchase documents.",
+    "With Energy Value Required enabled on the sustainability account subcategory, a document cannot be posted without an energy value.",
+    "If Energy Value Required is true and Renewable Energy is false, energy consumption must have a value. If Renewable Energy is true, entering the value is the user's choice.",
+    "The Renewable Energy boolean field is not new; it has existed since early in the sustainability module.",
+    "A field indicates whether the energy source generation is on site or not.",
+    "A sustainability journal line normally cannot be posted without emissions, but it can be posted with zero emissions if it has an energy value, e.g. when energy was forgotten when emissions were posted."
   ],
   "audience": [
     "functional consultant",

@@ -1,16 +1,16 @@
 {
   "video_id": "R57aHqQRrAA",
   "item_id": "video/yt-microsoft/R57aHqQRrAA",
-  "summary": "Updated Power BI app for purchasing in Business Central (2025 release wave 2): four new and four updated report pages covering vendor and purchaser concentration risk, returns, quotes, single supplier risk and machine learning purchase forecasting. Demoed in a 20-minute walkthrough.",
+  "summary": "Updated Power BI app for purchasing in Business Central 2025 release wave 2: four new and four updated report pages. They cover vendor and purchaser concentration risk, geography, returns, quotes, single supplier risk, AI key purchase influencers and statistical purchase forecasting. The app's code is also being open sourced.",
   "overview": "The video walks through the updated Power BI app for purchasing, aimed at procurement managers who need to forecast procurement needs, analyze supplier quality and look at supply chain risk. It cites that 31% of customers said supply chain disruptions have affected their business.\n\nThe demo goes through the app page by page: purchase quantity by location, purchases by item category, Pareto analysis and vendor map, purchases by purchaser and warehouse, returns, quotes, key purchase influencers, vendor quality (single supplier risk) and forecasting. It closes with a landing page, documentation and community resources, and notes that the app code is being open sourced.",
   "key_points": [
-    "The purchasing app has four new report pages and four updated pages; the app must be installed or updated to get them.",
+    "The purchasing app has four new report pages and four updated pages. Update or install the app to get them.",
+    "The purchases overview shows purchase quantity by location, including posted invoices and return orders, so warehouses with many returns stand out.",
     "Pareto analysis for vendors shows what share of purchase value comes from the top vendors, for example 80% from three vendors, which shows concentration risk.",
-    "A world map of vendor locations shows geographic concentration; purchases by purchaser can flag single purchaser risk.",
-    "The vendor quality report shows items with only one vendor, with the financial exposure for each item.",
+    "A world map of vendor locations shows geographic concentration. Purchases by purchaser can flag single purchaser risk.",
+    "The vendor quality analysis report shows items with only one vendor, with the financial exposure for each item.",
     "Purchase returns by reason code (damages, defects, warranty) and the purchase quote overview show quality risk and unusual quoting behavior.",
-    "Forecasting uses a classical statistical model on historical transactions. The demo predicts 3 months ahead with upper and lower bounds.",
-    "Seasonality and other forecast settings are changed by editing the report, so they need manual adjustment to fit the business."
+    "Key purchase influencers is an AI-driven report with influencer and segmentation views for each document type, matching key sales influencers."
   ],
   "audience": [
     "functional consultant",

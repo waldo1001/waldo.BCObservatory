@@ -5,12 +5,12 @@
   "overview": "The video shows how Business Central supports CSRD and other ESG reporting standards. It covers the integration architecture between Business Central and an external ESG reporting Power App, the ESG Aggregation tool setup, the prerequisites, and demos of external tool setup, aggregation configuration, calculation, posting and data sync.\n\nData posted in Business Central is copied as facts into the matching place in the external tool, based on the chosen standard. The aggregation tool can also be used manually without the Power App, with CSRD preparation reports as a backup. The final export goes to Excel, with documentation for XBRL conversion. The presenter notes that standards are subject to change and that users need to understand what they are doing.",
   "key_points": [
     "The external ESG reporting tool is a Power App that needs at least one Power App license; the presenter says nothing additional has to be paid.",
-    "A Dataverse connection through a wizard is mandatory, and data synchronization must also be enabled explicitly in Business Central (Sustainability Setup).",
-    "Communication between Business Central and the external tool is bidirectional, and bidirectional mapping must be configured.",
+    "Setup: connect Business Central to Dataverse (the data connection setup wizard can be used), enable data synchronization in Business Central (stated as mandatory), then enable data integration in Sustainability Setup, which connects and maps the sustainability tables.",
+    "Number series for ESG standard reporting and for posted reporting are prerequisites in Business Central.",
+    "Communication between Business Central and the external tool is bidirectional. Assessments created in the Power App become ESG reporting names, and their requirements become ESG reporting lines in Business Central.",
     "The ESG Aggregation Reporting page calculates values from several sources, with filters and formulas (multiply, divide, plus, minus, brackets), for example percentages.",
-    "Sustainability ledger entries, including carbon equivalent data, can be mapped to reporting lines, with filters needed to separate scopes. Not all lines are populated from Business Central, so some data, such as risk assessments, needs manual entry.",
-    "The tool can be used without the Power App to prepare data for manual CSRD reporting, with CSRD preparation reports available.",
-    "Final export is to Excel, and a separate XBRL conversion is required for submission. Standards named include CSRD, Australian reporting, Indian GRIS and SRS."
+    "Sustainability ledger entries, including carbon equivalent data, can be mapped to reporting lines, with filters needed to separate scopes 1, 2 and 3. Not all lines are populated from Business Central, so some facts, such as risk assessments, need manual entry.",
+    "The tool can be used without the Power App to prepare data for manual CSRD reporting, with CSRD preparation reports available on posted ESG reports."
   ],
   "audience": [
     "functional consultant",

@@ -18,12 +18,12 @@ tags:
   - custom pages
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:54:23.264Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:54:23.305Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -54,13 +54,6 @@ evidence:
   - kind: video
     url: https://www.youtube.com/watch?v=SH4Ffukj3P4&t=222s
     title: "Copilot Autofill Beyond Web Search: preview"
-    date: "2025-10-01T00:00:00Z"
-    commit: null
-    t: 222
-    quote: go try out the public preview view of C-Pilot's autofill feature
-  - kind: video
-    url: https://www.youtube.com/watch?v=SH4Ffukj3P4&t=222s
-    title: "Enable Bing Search in Copilot and Agent Capabilities: preview"
     date: "2025-10-01T00:00:00Z"
     commit: null
     t: 222
@@ -178,9 +171,9 @@ features:
     verified: true
     status_source: video
   - name: Enable Bing Search in Copilot and Agent Capabilities
-    status: preview
+    status: unclear
     t: 206
-    verified: true
+    verified: false
     status_source: video
   - name: Autofill Keyboard Shortcuts
     status: preview
@@ -217,7 +210,7 @@ quotes:
 
 > Copilot autofill in Business Central (2025 release wave 2, in preview) can search the web with Microsoft Bing to fill contact details such as addresses, phone numbers, email and homepage when creating records like vendors. The video demos info tips, the Keep All button and enabling Bing search.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=SH4Ffukj3P4) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-10-01 · 5:21 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=SH4Ffukj3P4) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-10-01 · 5:21 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -227,13 +220,13 @@ It also covers accepting all suggestions with Keep All, after which Business Cen
 
 ## Key points
 
-- Web search autofill in Copilot uses Microsoft Bing to fill address, phone, email and homepage fields; it is in preview.
+- Web search autofill in Copilot uses Microsoft Bing to fill address, phone, email and homepage fields; the autofill feature is in public preview.
 - Info tips show how Copilot derived each suggestion, including the web search result used, with a link to the grounding data source.
 - Keep All accepts all suggestions in one click; Business Central then validates each field.
 - Administrators enable Bing search on the Copilot and agent capabilities page.
-- Autofill can also suggest internal values, such as recently used or most common responsibility centers.
-- Shortcuts: Alt+I invokes autofill and Alt+Up toggles between info tips.
-- Language quality has been assessed only for English; more languages are planned later in the wave, and not all fields may support web search.
+- Autofill can also suggest internal values, such as recently used or most common responsibility centers, without searching the web.
+- Shortcuts: Alt+I invokes autofill for a field group and Alt+Up toggles between info tips.
+- Autofill is available in all Business Central countries, languages and environment types; language quality has been assessed only for English, with more languages planned later in the wave.
 
 ## Chapters
 
@@ -253,7 +246,7 @@ It also covers accepting all suggestions with Keep All, after which Business Cen
 | Info Tips for Transparency | preview, demoed | [1:53](https://www.youtube.com/watch?v=SH4Ffukj3P4&t=113s) | "go try out the public preview view of C-Pilot's autofill feature" ([3:42](https://www.youtube.com/watch?v=SH4Ffukj3P4&t=222s)) |
 | Keep All Button | preview, demoed | [2:36](https://www.youtube.com/watch?v=SH4Ffukj3P4&t=156s) | "go try out the public preview view of C-Pilot's autofill feature" ([3:42](https://www.youtube.com/watch?v=SH4Ffukj3P4&t=222s)) |
 | Copilot Autofill Beyond Web Search | preview | [3:02](https://www.youtube.com/watch?v=SH4Ffukj3P4&t=182s) | "go try out the public preview view of C-Pilot's autofill feature" ([3:42](https://www.youtube.com/watch?v=SH4Ffukj3P4&t=222s)) |
-| Enable Bing Search in Copilot and Agent Capabilities | preview, demoed | [3:26](https://www.youtube.com/watch?v=SH4Ffukj3P4&t=206s) | "go try out the public preview view of C-Pilot's autofill feature" ([3:42](https://www.youtube.com/watch?v=SH4Ffukj3P4&t=222s)) |
+| Enable Bing Search in Copilot and Agent Capabilities | status not stated, demoed | [3:26](https://www.youtube.com/watch?v=SH4Ffukj3P4&t=206s) |  |
 | Autofill Keyboard Shortcuts | preview | [4:22](https://www.youtube.com/watch?v=SH4Ffukj3P4&t=262s) | "go try out the public preview view of C-Pilot's autofill feature" ([3:42](https://www.youtube.com/watch?v=SH4Ffukj3P4&t=222s)) |
 
 ## AL objects mentioned

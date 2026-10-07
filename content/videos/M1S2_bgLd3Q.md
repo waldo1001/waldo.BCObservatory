@@ -20,18 +20,32 @@ tags:
   - sql profiling
 system: platform
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:54:01.669Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:54:01.714Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
     summarize-video: 2
   input_hash: 8ec86db8aa8b0dab49b7b490414abce819e2c6f46e93dacc37cc59e9cb285b46
 evidence:
+  - kind: video
+    url: https://www.youtube.com/watch?v=M1S2_bgLd3Q&t=547s
+    title: "Preview semantic similarity search toggle: preview"
+    date: "2025-10-01T00:00:00Z"
+    commit: null
+    t: 547
+    quote: the chat and analysis assist it that is the very nicely named preview semantic similarity search and application metadata
+  - kind: video
+    url: https://www.youtube.com/watch?v=M1S2_bgLd3Q&t=905s
+    title: "Word addin data picker: generally available"
+    date: "2025-10-01T00:00:00Z"
+    commit: null
+    t: 905
+    quote: this is a a new feature in the word addin that we are shipping in this wave as well a new data picker
   - kind: video
     url: https://www.youtube.com/watch?v=M1S2_bgLd3Q&t=38s
     title: "What's New: Server and Database (2025 release wave 2)"
@@ -61,6 +75,13 @@ evidence:
     t: 194
     quote: the difference between trunk truncate and delete is truncate will just lock in the transa transaction log the page ids and not the full
   - kind: video
+    url: https://www.youtube.com/watch?v=M1S2_bgLd3Q&t=259s
+    title: "What's New: Server and Database (2025 release wave 2)"
+    date: "2025-10-01T00:00:00Z"
+    commit: null
+    t: 259
+    quote: if you're not deleting the vast majority of the table, don't use truncate because it's counterproductive
+  - kind: video
     url: https://www.youtube.com/watch?v=M1S2_bgLd3Q&t=470s
     title: "What's New: Server and Database (2025 release wave 2)"
     date: "2025-10-01T00:00:00Z"
@@ -82,26 +103,12 @@ evidence:
     t: 681
     quote: you need to press enter to start the search because word words can change meaning dramatically when you add an extra letter
   - kind: video
-    url: https://www.youtube.com/watch?v=M1S2_bgLd3Q&t=817s
-    title: "What's New: Server and Database (2025 release wave 2)"
-    date: "2025-10-01T00:00:00Z"
-    commit: null
-    t: 817
-    quote: in general the as Yens mentioned there is a full session on uh the new advanced search
-  - kind: video
     url: https://www.youtube.com/watch?v=M1S2_bgLd3Q&t=831s
     title: "What's New: Server and Database (2025 release wave 2)"
     date: "2025-10-01T00:00:00Z"
     commit: null
     t: 831
     quote: also do expect that results can change. We will adjust the algorithm for how we treat similarity based on measurements of what works best
-  - kind: video
-    url: https://www.youtube.com/watch?v=M1S2_bgLd3Q&t=846s
-    title: "What's New: Server and Database (2025 release wave 2)"
-    date: "2025-10-01T00:00:00Z"
-    commit: null
-    t: 846
-    quote: We will adjust the algorithm for how we treat similarity based on measurements of what works best in production
   - kind: video
     url: https://www.youtube.com/watch?v=M1S2_bgLd3Q&t=985s
     title: "What's New: Server and Database (2025 release wave 2)"
@@ -123,6 +130,13 @@ evidence:
     commit: null
     t: 1114
     quote: we are maintaining the embedding vectors etc. um we do not have support for that in the on-remise world
+  - kind: video
+    url: https://www.youtube.com/watch?v=M1S2_bgLd3Q&t=1125s
+    title: "What's New: Server and Database (2025 release wave 2)"
+    date: "2025-10-01T00:00:00Z"
+    commit: null
+    t: 1125
+    quote: if you take um and export your database, then we're actually going to take out the embedding vectors before
   - kind: video
     url: https://www.youtube.com/watch?v=M1S2_bgLd3Q&t=1136s
     title: "What's New: Server and Database (2025 release wave 2)"
@@ -212,9 +226,9 @@ features:
     verified: false
     status_source: video
   - name: Preview semantic similarity search toggle
-    status: unclear
+    status: preview
     t: 534
-    verified: false
+    verified: true
     status_source: video
   - name: Semantic embedding maintenance
     status: unclear
@@ -227,9 +241,9 @@ features:
     verified: false
     status_source: video
   - name: Word addin data picker
-    status: unclear
+    status: ga
     t: 905
-    verified: false
+    verified: true
     status_source: video
   - name: PDF/UA accessible PDFs
     status: unclear
@@ -273,6 +287,9 @@ quotes:
   - t: 194
     text: the difference between trunk truncate and delete is truncate will just lock in the transa transaction log the page ids and not the full
     check: exact
+  - t: 259
+    text: if you're not deleting the vast majority of the table, don't use truncate because it's counterproductive
+    check: exact
   - t: 470
     text: not only a lot, it's actually almost like um a little over 70% of all customers use analysis mode on a monthly basis
     check: exact
@@ -282,14 +299,8 @@ quotes:
   - t: 681
     text: you need to press enter to start the search because word words can change meaning dramatically when you add an extra letter
     check: exact
-  - t: 817
-    text: in general the as Yens mentioned there is a full session on uh the new advanced search
-    check: exact
   - t: 831
     text: also do expect that results can change. We will adjust the algorithm for how we treat similarity based on measurements of what works best
-    check: exact
-  - t: 846
-    text: We will adjust the algorithm for how we treat similarity based on measurements of what works best in production
     check: exact
   - t: 985
     text: So save will default now save in PDFUA. Eventually we'll also have um document layouts in word in a certain way that once they
@@ -300,6 +311,9 @@ quotes:
   - t: 1114
     text: we are maintaining the embedding vectors etc. um we do not have support for that in the on-remise world
     check: exact
+  - t: 1125
+    text: if you take um and export your database, then we're actually going to take out the embedding vectors before
+    check: exact
   - t: 1136
     text: SQL Server 2025, which is available for us in Azure SQL and for you in Azure SQL, but it's not available yet uh for
     check: exact
@@ -309,7 +323,7 @@ quotes:
 
 > Business Central 2025 release wave 2 server and database changes: new AL methods (sequential GUID, lock timeout duration, truncate), flow field and analysis mode optimizations, cloud-only semantic search on metadata, report tooltips, PDF/UA and PDF/A, and SQL call info in profiles.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=M1S2_bgLd3Q) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-10-01 · 22:06 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=M1S2_bgLd3Q) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-10-01 · 22:06 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -319,13 +333,13 @@ It also covers database optimizations for flow fields and server-side pivot on d
 
 ## Key points
 
-- Truncate AL method uses SQL truncate, supports filtering and keeps auto-increment values. It returns false for non-SQL or system tables, inside try functions, with security filters, media fields, too many marked rows, filters on flow fields, or before/after delete subscribers.
-- Truncate should only be used when deleting the vast majority of a table.
-- The lock timeout method sets a custom duration instead of on/off, but is still limited by the command timeout.
+- Truncate AL method uses SQL truncate, supports filtering and keeps auto-increment values. It returns false for non-SQL or system tables, inside try functions, with security filters, media fields, too many marked rows, filters on flow fields, or before/after delete subscribers. Wrap it in an if and fall back to delete all.
+- Truncate should only be used when deleting the vast majority of a table, because filtered truncate copies the kept rows out and back.
+- The lock timeout duration method sets a custom duration instead of on/off, but is still limited by the command timeout.
 - Flow fields that sum over other tables now use a single outer apply instead of several, which speeds up list pages showing many calculated fields.
-- Analysis mode in server-side mode (over 100,000 rows or joined tables) can pivot on year, quarter and month date hierarchies.
-- Semantic search is cloud-only: it needs embedding vector maintenance and SQL Server 2025, which is only in Azure. Preview semantic similarity search and advanced tell me are separate feature management toggles, and results may change as the algorithm is adjusted.
-- Report columns can have tooltips inherited from table fields or overridden in the report; they show in the Word addin data picker. Best practice is to put tooltips on tables, not pages.
+- Server-side analysis mode (queries, over 100,000 rows, or joined related tables) can now pivot on date hierarchy fields such as year, quarter and month.
+- Semantic search is cloud-only: it needs embedding vector maintenance and SQL Server 2025, which is available in Azure SQL but not yet on-premises. Embedding vectors are removed when the database is exported. Preview semantic similarity search and advanced tell me are separate feature management toggles, and results may change as the algorithm is adjusted.
+- Report columns can have tooltips inherited from table fields or overridden in the report; they show in the new Word addin data picker. The speakers recommend putting data descriptions as tooltips on tables rather than pages.
 
 ## Chapters
 
@@ -353,10 +367,10 @@ It also covers database optimizations for flow fields and server-side pivot on d
 | Server-side pivot on date hierarchy in analysis mode | status not stated | [6:37](https://www.youtube.com/watch?v=M1S2_bgLd3Q&t=397s) |  |
 | Semantic similarity search on metadata | status not stated, demoed | [8:04](https://www.youtube.com/watch?v=M1S2_bgLd3Q&t=484s) |  |
 | Advanced tell me feature toggle | status not stated, demoed | [8:54](https://www.youtube.com/watch?v=M1S2_bgLd3Q&t=534s) |  |
-| Preview semantic similarity search toggle | status not stated | [8:54](https://www.youtube.com/watch?v=M1S2_bgLd3Q&t=534s) |  |
+| Preview semantic similarity search toggle | preview | [8:54](https://www.youtube.com/watch?v=M1S2_bgLd3Q&t=534s) | "the chat and analysis assist it that is the very nicely named preview semantic similarity search and application metadata" ([9:07](https://www.youtube.com/watch?v=M1S2_bgLd3Q&t=547s)) |
 | Semantic embedding maintenance | status not stated | [9:28](https://www.youtube.com/watch?v=M1S2_bgLd3Q&t=568s) |  |
 | Tooltips on report data item fields | status not stated, demoed | [14:06](https://www.youtube.com/watch?v=M1S2_bgLd3Q&t=846s) |  |
-| Word addin data picker | status not stated, demoed | [15:05](https://www.youtube.com/watch?v=M1S2_bgLd3Q&t=905s) |  |
+| Word addin data picker | generally available, demoed | [15:05](https://www.youtube.com/watch?v=M1S2_bgLd3Q&t=905s) | "this is a a new feature in the word addin that we are shipping in this wave as well a new data picker" ([15:05](https://www.youtube.com/watch?v=M1S2_bgLd3Q&t=905s)) |
 | PDF/UA accessible PDFs | status not stated | [16:05](https://www.youtube.com/watch?v=M1S2_bgLd3Q&t=965s) |  |
 | PDF/A archival format support | status not stated | [16:05](https://www.youtube.com/watch?v=M1S2_bgLd3Q&t=965s) |  |
 | SQL call information in performance profiles | status not stated | [17:27](https://www.youtube.com/watch?v=M1S2_bgLd3Q&t=1047s) |  |
@@ -379,15 +393,15 @@ Not found in BC28-30: table "GL account", table "GL entry".
 - [1:31](https://www.youtube.com/watch?v=M1S2_bgLd3Q&t=91s) "GUID is great but GUID is horrible for indexing. So that's why we stole the code from SQL server to be able to do"
 - [2:59](https://www.youtube.com/watch?v=M1S2_bgLd3Q&t=179s) "Truncate is a SQL method that is much faster than delete. It's not instantaneous. It is actually transactional."
 - [3:14](https://www.youtube.com/watch?v=M1S2_bgLd3Q&t=194s) "the difference between trunk truncate and delete is truncate will just lock in the transa transaction log the page ids and not the full"
+- [4:19](https://www.youtube.com/watch?v=M1S2_bgLd3Q&t=259s) "if you're not deleting the vast majority of the table, don't use truncate because it's counterproductive"
 - [7:50](https://www.youtube.com/watch?v=M1S2_bgLd3Q&t=470s) "not only a lot, it's actually almost like um a little over 70% of all customers use analysis mode on a monthly basis"
 - [8:22](https://www.youtube.com/watch?v=M1S2_bgLd3Q&t=502s) "we take the input, we calculate a semantic vector, and then we compare to the semantic vectors for each of the metadata elements"
 - [11:21](https://www.youtube.com/watch?v=M1S2_bgLd3Q&t=681s) "you need to press enter to start the search because word words can change meaning dramatically when you add an extra letter"
-- [13:37](https://www.youtube.com/watch?v=M1S2_bgLd3Q&t=817s) "in general the as Yens mentioned there is a full session on uh the new advanced search"
 - [13:51](https://www.youtube.com/watch?v=M1S2_bgLd3Q&t=831s) "also do expect that results can change. We will adjust the algorithm for how we treat similarity based on measurements of what works best"
-- [14:06](https://www.youtube.com/watch?v=M1S2_bgLd3Q&t=846s) "We will adjust the algorithm for how we treat similarity based on measurements of what works best in production"
 - [16:25](https://www.youtube.com/watch?v=M1S2_bgLd3Q&t=985s) "So save will default now save in PDFUA. Eventually we'll also have um document layouts in word in a certain way that once they"
 - [18:23](https://www.youtube.com/watch?v=M1S2_bgLd3Q&t=1103s) "all the functionality we talk about apply both to on premises and the cloud that does not apply to the semantic search"
 - [18:34](https://www.youtube.com/watch?v=M1S2_bgLd3Q&t=1114s) "we are maintaining the embedding vectors etc. um we do not have support for that in the on-remise world"
+- [18:45](https://www.youtube.com/watch?v=M1S2_bgLd3Q&t=1125s) "if you take um and export your database, then we're actually going to take out the embedding vectors before"
 - [18:56](https://www.youtube.com/watch?v=M1S2_bgLd3Q&t=1136s) "SQL Server 2025, which is available for us in Azure SQL and for you in Azure SQL, but it's not available yet uh for"
 
 ## Disclaimers in the video

@@ -17,12 +17,12 @@ tags:
   - interactive reporting
 system: sales
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:54:07.198Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:54:07.243Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -71,6 +71,13 @@ evidence:
     commit: null
     t: 510
     quote: now you actually have a fully interactive way of analyzing that report data set.
+  - kind: video
+    url: https://www.youtube.com/watch?v=rAaUiKByyEE&t=614s
+    title: "What's New: Sales Analytics (2025 release wave 2)"
+    date: "2025-10-01T00:00:00Z"
+    commit: null
+    t: 614
+    quote: We reuse those descriptions both in a new advanced tellme and also in uh in the co-pilot chat.
   - kind: video
     url: https://www.youtube.com/watch?v=rAaUiKByyEE&t=652s
     title: "What's New: Sales Analytics (2025 release wave 2)"
@@ -193,6 +200,9 @@ quotes:
   - t: 510
     text: now you actually have a fully interactive way of analyzing that report data set.
     check: exact
+  - t: 614
+    text: We reuse those descriptions both in a new advanced tellme and also in uh in the co-pilot chat.
+    check: exact
   - t: 652
     text: We actually modernized all the analytical reports uh that exist in business central updating I think it's seven of those and deprecating four.
     check: exact
@@ -202,7 +212,7 @@ quotes:
 
 > Sales analytics changes in Business Central 2025 release wave 2: updated PowerBI app for sales with a forecasting report, support for resource and G/L account sales, an open source PBIX, a Sales by project report, and seven analytical reports modernized with Word and Excel layouts (four deprecated).
 
-[Watch on YouTube](https://www.youtube.com/watch?v=rAaUiKByyEE) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-10-01 · 14:26 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=rAaUiKByyEE) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-10-01 · 14:26 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -232,19 +242,19 @@ The PowerBI app for sales is now open source, so the PBIX file with report visua
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Updated PowerBI app for sales | status not stated, demoed | [1:23](https://www.youtube.com/watch?v=rAaUiKByyEE&t=83s) |  |
-| Sales forecasting in PowerBI | status not stated, demoed | [2:52](https://www.youtube.com/watch?v=rAaUiKByyEE&t=172s) |  |
-| Support for non-item sales types | status not stated, demoed | [2:12](https://www.youtube.com/watch?v=rAaUiKByyEE&t=132s) |  |
-| Open source PowerBI sales app | status not stated, demoed | [6:43](https://www.youtube.com/watch?v=rAaUiKByyEE&t=403s) |  |
-| Sales by project report | status not stated, demoed | [5:51](https://www.youtube.com/watch?v=rAaUiKByyEE&t=351s) |  |
-| Excel layouts for analytical reports | status not stated, demoed | [7:21](https://www.youtube.com/watch?v=rAaUiKByyEE&t=441s) |  |
-| Word layouts for analytical reports | status not stated, demoed | [7:21](https://www.youtube.com/watch?v=rAaUiKByyEE&t=441s) |  |
-| In-client teaching tips for reports | status not stated, demoed | [9:46](https://www.youtube.com/watch?v=rAaUiKByyEE&t=586s) |  |
-| Tell me and Copilot integration for reports | status not stated | [10:00](https://www.youtube.com/watch?v=rAaUiKByyEE&t=600s) |  |
-| Modernized analytical reports | status not stated, demoed | [7:21](https://www.youtube.com/watch?v=rAaUiKByyEE&t=441s) |  |
-| Customer item sales report | status not stated, demoed | [8:02](https://www.youtube.com/watch?v=rAaUiKByyEE&t=482s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Updated PowerBI app for sales | status not stated, demoed | [1:23](https://www.youtube.com/watch?v=rAaUiKByyEE&t=83s) |
+| Sales forecasting in PowerBI | status not stated, demoed | [2:52](https://www.youtube.com/watch?v=rAaUiKByyEE&t=172s) |
+| Support for non-item sales types | status not stated, demoed | [2:12](https://www.youtube.com/watch?v=rAaUiKByyEE&t=132s) |
+| Open source PowerBI sales app | status not stated, demoed | [6:43](https://www.youtube.com/watch?v=rAaUiKByyEE&t=403s) |
+| Sales by project report | status not stated, demoed | [5:51](https://www.youtube.com/watch?v=rAaUiKByyEE&t=351s) |
+| Excel layouts for analytical reports | status not stated, demoed | [7:21](https://www.youtube.com/watch?v=rAaUiKByyEE&t=441s) |
+| Word layouts for analytical reports | status not stated, demoed | [7:21](https://www.youtube.com/watch?v=rAaUiKByyEE&t=441s) |
+| In-client teaching tips for reports | status not stated, demoed | [9:46](https://www.youtube.com/watch?v=rAaUiKByyEE&t=586s) |
+| Tell me and Copilot integration for reports | status not stated | [10:00](https://www.youtube.com/watch?v=rAaUiKByyEE&t=600s) |
+| Modernized analytical reports | status not stated, demoed | [7:21](https://www.youtube.com/watch?v=rAaUiKByyEE&t=441s) |
+| Customer item sales report | status not stated, demoed | [8:02](https://www.youtube.com/watch?v=rAaUiKByyEE&t=482s) |
 
 ## AL objects mentioned
 
@@ -264,6 +274,7 @@ Not found in BC28-30: report "sales forecasting", report "sales by project", rep
 - [3:02](https://www.youtube.com/watch?v=rAaUiKByyEE&t=182s) "This is a statistical model. This is AI but like classic AI or machine learning. Um so not generative AI."
 - [6:55](https://www.youtube.com/watch?v=rAaUiKByyEE&t=415s) "Note that this only works in the version 27 in the one we release here in October. Doesn't work for sales for the sales"
 - [8:30](https://www.youtube.com/watch?v=rAaUiKByyEE&t=510s) "now you actually have a fully interactive way of analyzing that report data set."
+- [10:14](https://www.youtube.com/watch?v=rAaUiKByyEE&t=614s) "We reuse those descriptions both in a new advanced tellme and also in uh in the co-pilot chat."
 - [10:52](https://www.youtube.com/watch?v=rAaUiKByyEE&t=652s) "We actually modernized all the analytical reports uh that exist in business central updating I think it's seven of those and deprecating four."
 
 ## Disclaimers in the video

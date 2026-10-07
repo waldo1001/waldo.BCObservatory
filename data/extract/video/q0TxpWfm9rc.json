@@ -242,8 +242,8 @@
     },
     {
       "t": 241.2,
-      "text": "Summarize with copilot has been available in all regions and in all localizations and it is also available in all languages but only English",
-      "why_it_matters": "Specifies the expansion of language support from English only to 20+ additional languages.",
+      "text": "only English was supported until this release and now we support 20 more languages.",
+      "why_it_matters": "States the multi-language change directly, which the dropped truncated quote did not.",
       "check": "exact"
     },
     {
@@ -256,6 +256,12 @@
       "t": 296.6,
       "text": "it is already available for all business central online countries and regions. And it's also available for all type of environments in all languages",
       "why_it_matters": "Confirms general availability across all regions, environments, and languages.",
+      "check": "exact"
+    },
+    {
+      "t": 312.9,
+      "text": "Now it's with support of 20 languages and it works with all all card and document pages.",
+      "why_it_matters": "Shows which pages summaries work on.",
       "check": "exact"
     }
   ],

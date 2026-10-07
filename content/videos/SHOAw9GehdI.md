@@ -17,12 +17,12 @@ tags:
   - productivity improvements
 system: reporting
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:54:20.931Z"
   flags: []
 generated:
-  at: "2026-10-06T18:27:38.154Z"
+  at: "2026-10-07T22:54:20.980Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -64,6 +64,13 @@ evidence:
     commit: null
     t: 272
     quote: One of the things you could not do in serverside mode until this release is pivoting on date hierarchy
+  - kind: video
+    url: https://www.youtube.com/watch?v=SHOAw9GehdI&t=340s
+    title: "What's New: Data Analysis (2025 release wave 2)"
+    date: "2025-10-01T00:00:00Z"
+    commit: null
+    t: 340
+    quote: the third feature I wanted to show you is that we have some productivity improvements on the menu here
 links:
   learn: []
   objects: []
@@ -149,13 +156,16 @@ quotes:
   - t: 272
     text: One of the things you could not do in serverside mode until this release is pivoting on date hierarchy
     check: exact
+  - t: 340
+    text: the third feature I wanted to show you is that we have some productivity improvements on the menu here
+    check: exact
 ---
 
 # What's New: Data Analysis (2025 release wave 2)
 
 > Business Central data analysis (analysis mode) in the 2025 release wave 2: Analysis Assist Copilot can add fields from related tables, server-side mode can pivot on date hierarchy, and right-click menu options were added. Flow fields cannot be calculated server-side.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=SHOAw9GehdI) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-10-01 · 11:29 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=SHOAw9GehdI) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-10-01 · 11:29 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -166,7 +176,8 @@ In the demo, Analysis Assist adds fields from tables related to the current anal
 ## Key points
 
 - Analysis Assist can now add fields from tables related to the current analysis, joining data across the data model, for example to bring in a location name.
-- Adding data from other tables, or analyzing large data sets or query objects, switches data analysis from client-side to server-side loading.
+- Users can do this manually with the 'add columns from' feature, which was added in the previous release and which Copilot now uses.
+- Adding data from other tables, or analyzing large data sets or query objects, switches data analysis from client-side to server-side loading, and an info message shows this.
 - In server-side mode, flow fields and other calculated fields cannot be used.
 - Pivoting on date hierarchy (year, quarter, month) was not possible in server-side mode before this release and now is.
 - The right-click menu offers add to labels, group or ungroup from row groups, and a scroll into view action to navigate fields.
@@ -185,14 +196,14 @@ In the demo, Analysis Assist adds fields from tables related to the current anal
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Analysis Assist Copilot | status not stated, demoed | [0:38](https://www.youtube.com/watch?v=SHOAw9GehdI&t=38s) |  |
-| Add Columns from Related Tables | status not stated, demoed | [3:31](https://www.youtube.com/watch?v=SHOAw9GehdI&t=211s) |  |
-| Server-Side Data Loading | status not stated, demoed | [3:52](https://www.youtube.com/watch?v=SHOAw9GehdI&t=232s) |  |
-| Pivot on Date Hierarchy in Server-Side Mode | status not stated, demoed | [4:32](https://www.youtube.com/watch?v=SHOAw9GehdI&t=272s) |  |
-| Right-Click Menu for Data Analysis | status not stated, demoed | [5:40](https://www.youtube.com/watch?v=SHOAw9GehdI&t=340s) |  |
-| Data Analysis Feature | status not stated, demoed | [0:16](https://www.youtube.com/watch?v=SHOAw9GehdI&t=16s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Analysis Assist Copilot | status not stated, demoed | [0:38](https://www.youtube.com/watch?v=SHOAw9GehdI&t=38s) |
+| Add Columns from Related Tables | status not stated, demoed | [3:31](https://www.youtube.com/watch?v=SHOAw9GehdI&t=211s) |
+| Server-Side Data Loading | status not stated, demoed | [3:52](https://www.youtube.com/watch?v=SHOAw9GehdI&t=232s) |
+| Pivot on Date Hierarchy in Server-Side Mode | status not stated, demoed | [4:32](https://www.youtube.com/watch?v=SHOAw9GehdI&t=272s) |
+| Right-Click Menu for Data Analysis | status not stated, demoed | [5:40](https://www.youtube.com/watch?v=SHOAw9GehdI&t=340s) |
+| Data Analysis Feature | status not stated, demoed | [0:16](https://www.youtube.com/watch?v=SHOAw9GehdI&t=16s) |
 
 ## Quotes
 
@@ -201,3 +212,4 @@ In the demo, Analysis Assist adds fields from tables related to the current anal
 - [3:31](https://www.youtube.com/watch?v=SHOAw9GehdI&t=211s) "we have now ability for analysis assist to also add fields from tables that are related to what you're using here"
 - [4:20](https://www.youtube.com/watch?v=SHOAw9GehdI&t=260s) "there are few things we you can't do such as flow fields things that are calculated"
 - [4:32](https://www.youtube.com/watch?v=SHOAw9GehdI&t=272s) "One of the things you could not do in serverside mode until this release is pivoting on date hierarchy"
+- [5:40](https://www.youtube.com/watch?v=SHOAw9GehdI&t=340s) "the third feature I wanted to show you is that we have some productivity improvements on the menu here"

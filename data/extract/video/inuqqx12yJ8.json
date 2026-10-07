@@ -220,9 +220,21 @@
       "check": "exact"
     },
     {
+      "t": 197.1,
+      "text": "Shopify post uh does that automatically not only in Denmark but in other countries where the situation is similar for example Canada",
+      "why_it_matters": "Confirms that cash rounding is automatic and names the countries it applies to.",
+      "check": "exact"
+    },
+    {
       "t": 345.8,
       "text": "cash rounding account is missing. Correct. We need to put this difference somewhere",
       "why_it_matters": "Demonstrates that cash rounding requires explicit G/L account configuration to handle the rounding difference.",
+      "check": "exact"
+    },
+    {
+      "t": 357.9,
+      "text": "There is a new field on the order synchronization and processing tab.",
+      "why_it_matters": "Shows where the cash rounding account is configured in the Shopify shop setup.",
       "check": "exact"
     },
     {
@@ -230,6 +242,12 @@
       "text": "we have a new field or new mapping table which is called staff members mapping and",
       "why_it_matters": "Introduces the staff members mapping feature that automatically assigns salesperson codes based on Shopify POS staff.",
       "check": "fuzzy"
+    },
+    {
+      "t": 464.8,
+      "text": "system will check if there is a salesperson code and use it instead.",
+      "why_it_matters": "Explains how the staff mapping assigns the salesperson on import.",
+      "check": "exact"
     }
   ],
   "disclaimers": [

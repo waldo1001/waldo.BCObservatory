@@ -313,49 +313,6 @@
         "ai"
       ],
       "system": "purchasing"
-    },
-    {
-      "name": "Vendor concentration risk visualization",
-      "description": "Power BI visualization showing vendor risk exposure, identifying single-vendor dependencies and supply chain vulnerabilities. Highlights items at risk if a particular vendor cannot deliver.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 791,
-      "t_end": 837.5,
-      "is_demoed": true,
-      "caveats": [
-        "Manual action required based on insights",
-        "Helps identify risk but does not eliminate it"
-      ],
-      "tags": [
-        "vendor risk",
-        "supply chain",
-        "visualization",
-        "purchasing analytics"
-      ],
-      "system": "purchasing"
-    },
-    {
-      "name": "Enhanced purchasing app with new Power BI pages",
-      "description": "Updated purchasing app featuring four new report pages and four updated pages in the Power BI analytics. Provides multiple personas and scenarios for procurement risk management.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 995.4,
-      "t_end": 1009.8,
-      "is_demoed": true,
-      "caveats": [
-        "Requires installation or update of the app"
-      ],
-      "tags": [
-        "power bi",
-        "purchasing app",
-        "release wave 2",
-        "analytics"
-      ],
-      "system": "reporting"
     }
   ],
   "objects": [],
@@ -389,6 +346,12 @@
       "t": 377.3,
       "text": "Maybe there's a single purchaser risk in this company because we have some people working in procurement and then we have Jim",
       "why_it_matters": "Explains a new risk dimension the Power BI app helps identify - concentration of purchasing decisions with single individuals.",
+      "check": "exact"
+    },
+    {
+      "t": 639,
+      "text": "The next report also new is a symmetry for what we did for sales last semester. These are key purchase influencers.",
+      "why_it_matters": "Introduces the new AI-driven key purchase influencers report, which no quote covered.",
       "check": "exact"
     },
     {

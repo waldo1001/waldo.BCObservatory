@@ -1,0 +1,32 @@
+{
+  "video_id": "gVjrKPHlrgM",
+  "item_id": "video/yt-microsoft/gVjrKPHlrgM",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Key point and the email feature's description say 'version 2.7'; the transcript says '27 version' (2025 release wave 2). Corrected in the key point only, because feature descriptions cannot be edited here.",
+    "The 'BIO Reference Setup' feature description spells BIO out as 'Business Information Operator', which the transcript never does. Dropped the feature; the setup step is kept in a key point and a new quote.",
+    "Last key point (the 'disclaimer' about version 27) repeated the email point and was vague; removed.",
+    "ZUGFeRD support set to 'ga': the speaker says the functionality was 'enabled recently' in Business Central.",
+    "Post-to-send email set to 'ga': the speaker says it 'will be available' from version 27, i.e. the current 2025 release wave 2. The wording could also be read as 'announced'.",
+    "All 6 quotes are verbatim; the t=118.9 quote runs into the next segment, which is allowed."
+  ],
+  "input_hash": "9ab15b501242d5cef693c9750471f00cc29c24ab8b5adedd5eeac6f5cb019ac5",
+  "by": "opus",
+  "at": "2026-10-07T22:53:20.126Z",
+  "applied": [
+    "dropped 1 feature(s)",
+    "quote at 359s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [
+    "status ZUGFeRD Format Support -> ga: evidence not verbatim or does not state the status",
+    "status Automatic Email Sending for Posted E-Documents -> ga: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.105997
+  }
+}

@@ -20,12 +20,12 @@ tags:
   - vat
 system: reporting
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:52:57.535Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:52:57.570Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -259,7 +259,7 @@ quotes:
 
 > Financial analytics changes in Business Central 2025 release wave 2: financial reporting (dynamic date headers, additional reporting currency columns, row definition editing), new Power BI late payment and collection period reports, deferral analysis with Word/Excel layouts, new deferral lines pages, and finance report documentation.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=Fs90uUdWi0M) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-10-01 · 21:06 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=Fs90uUdWi0M) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-10-01 · 21:06 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -271,10 +271,10 @@ It also covers modernized deferral report layouts, three new deferral lines page
 
 - Financial reports can show actual dates in column headers via the option 'include date in column header'. When text and date are both shown, the date appears in parentheses.
 - Column definitions have a new 'show in ACY' field, so reports can show local currency and additional reporting currency in separate columns. An additional currency must be set up for values to appear.
-- Row definitions can be edited from the card view and in Excel. Adding a single GL account auto-completes the description from the account name. Renaming a GL account triggers a notification to check financial reports that use it.
+- Row and column definition descriptions can now be changed directly from the card, and row definitions can be edited in Excel. Adding a single GL account auto-completes the row description from the account name. Renaming a GL account triggers a notification to check financial reports that use it.
 - A new Power BI late payment analysis report for receivables uses a bubble chart. Customers with large late amounts and high average days late appear in the upper right. The average collection period report now includes a historical trend.
 - Deferral analysis now covers upcoming (non-posted) deferrals as well as posted ones, for sales, purchase and GL. Previously only posted deferrals could be analyzed.
-- Deferral reports support Word and Excel layouts in addition to RDLC, with a default chosen on the request page. RDLC will be deprecated. The Excel layouts allow analysis across all deferrals.
+- Deferral reports support Word and Excel layouts in addition to RDLC, and a default layout can be set that the request page respects. RDLC will be deprecated. The Excel layouts allow analysis across all deferrals.
 - New pages Deferral Lines for Sales, Purchase and GL show deferral lines across unposted documents. Documentation now covers VAT, cost accounting, deferrals, consolidations and intercompany reports, with teaching tips in the client.
 
 ## Chapters
@@ -290,21 +290,21 @@ It also covers modernized deferral report layouts, three new deferral lines page
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Dynamic date headers in financial reporting | status not stated, demoed | [2:46](https://www.youtube.com/watch?v=Fs90uUdWi0M&t=166s) |  |
-| Additional reporting currency support in financial reports | status not stated, demoed | [5:52](https://www.youtube.com/watch?v=Fs90uUdWi0M&t=352s) |  |
-| Improved row definition editing in financial reporting | status not stated, demoed | [7:02](https://www.youtube.com/watch?v=Fs90uUdWi0M&t=422s) |  |
-| GL account name change notifications in financial reporting | status not stated, demoed | [8:22](https://www.youtube.com/watch?v=Fs90uUdWi0M&t=502s) |  |
-| Show less/show more improvements in financial reporting | status not stated, demoed | [3:54](https://www.youtube.com/watch?v=Fs90uUdWi0M&t=234s) |  |
-| Late payment analysis report for receivables | status not stated, demoed | [9:34](https://www.youtube.com/watch?v=Fs90uUdWi0M&t=574s) |  |
-| Historical average collection period trend in PowerBI | status not stated, demoed | [12:35](https://www.youtube.com/watch?v=Fs90uUdWi0M&t=755s) |  |
-| Deferral analysis for posted and upcoming deferrals | status not stated, demoed | [13:30](https://www.youtube.com/watch?v=Fs90uUdWi0M&t=810s) |  |
-| Word and Excel layouts for deferral reports | status not stated, demoed | [13:55](https://www.youtube.com/watch?v=Fs90uUdWi0M&t=835s) |  |
-| In-client documentation for deferrals reporting | status not stated, demoed | [14:08](https://www.youtube.com/watch?v=Fs90uUdWi0M&t=848s) |  |
-| Excel layout analysis across deferrals | status not stated, demoed | [15:34](https://www.youtube.com/watch?v=Fs90uUdWi0M&t=934s) |  |
-| New deferral lines pages | status not stated | [16:08](https://www.youtube.com/watch?v=Fs90uUdWi0M&t=968s) |  |
-| Comprehensive finance reports documentation | status not stated | [16:50](https://www.youtube.com/watch?v=Fs90uUdWi0M&t=1010s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Dynamic date headers in financial reporting | status not stated, demoed | [2:46](https://www.youtube.com/watch?v=Fs90uUdWi0M&t=166s) |
+| Additional reporting currency support in financial reports | status not stated, demoed | [5:52](https://www.youtube.com/watch?v=Fs90uUdWi0M&t=352s) |
+| Improved row definition editing in financial reporting | status not stated, demoed | [7:02](https://www.youtube.com/watch?v=Fs90uUdWi0M&t=422s) |
+| GL account name change notifications in financial reporting | status not stated, demoed | [8:22](https://www.youtube.com/watch?v=Fs90uUdWi0M&t=502s) |
+| Show less/show more improvements in financial reporting | status not stated, demoed | [3:54](https://www.youtube.com/watch?v=Fs90uUdWi0M&t=234s) |
+| Late payment analysis report for receivables | status not stated, demoed | [9:34](https://www.youtube.com/watch?v=Fs90uUdWi0M&t=574s) |
+| Historical average collection period trend in PowerBI | status not stated, demoed | [12:35](https://www.youtube.com/watch?v=Fs90uUdWi0M&t=755s) |
+| Deferral analysis for posted and upcoming deferrals | status not stated, demoed | [13:30](https://www.youtube.com/watch?v=Fs90uUdWi0M&t=810s) |
+| Word and Excel layouts for deferral reports | status not stated, demoed | [13:55](https://www.youtube.com/watch?v=Fs90uUdWi0M&t=835s) |
+| In-client documentation for deferrals reporting | status not stated, demoed | [14:08](https://www.youtube.com/watch?v=Fs90uUdWi0M&t=848s) |
+| Excel layout analysis across deferrals | status not stated, demoed | [15:34](https://www.youtube.com/watch?v=Fs90uUdWi0M&t=934s) |
+| New deferral lines pages | status not stated | [16:08](https://www.youtube.com/watch?v=Fs90uUdWi0M&t=968s) |
+| Comprehensive finance reports documentation | status not stated | [16:50](https://www.youtube.com/watch?v=Fs90uUdWi0M&t=1010s) |
 
 ## AL objects mentioned
 

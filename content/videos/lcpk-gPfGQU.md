@@ -16,12 +16,12 @@ tags:
   - tax calculation
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:53:43.848Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:53:43.889Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -197,7 +197,7 @@ quotes:
 
 > Excise Tax Framework in Business Central 2025 release wave 2: an extensible base for excise tax calculation and registration, with an excise journal, registration transaction logs, and CBM and EPR options built on it. Specific excise tax calculations are not covered in this release.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=lcpk-gPfGQU) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-10-01 · 5:09 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=lcpk-gPfGQU) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-10-01 · 5:09 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -207,13 +207,13 @@ It walks through the excise journal with templates and batches, the registration
 
 ## Key points
 
-- The release delivers a framework, not specific excise tax calculations; some calculations need custom extensions.
-- The Excise Journal uses journal templates and batches to collect and calculate data before registration; posting writes Excise Tax Registration Transaction Logs as an audit trail.
-- CBM (Carbon Border Mechanism) and EPR (Extended Producer Responsibility) calculations are built on the framework as sustainability options; they are not directly excise taxes and are covered in a separate session.
-- The tax type selected in the journal (CBM, EPR or excises) determines which fields are shown.
+- The release delivers a framework, not specific excise tax calculations; for other calculations you can populate data manually or build your own calculation as an extension of the framework.
+- The Excise Journal uses journal templates and batches to enter, calculate and collect information; entries are registered (not posted), producing excise tax registration transaction logs.
+- The framework is extensible beyond classic excise taxes, for example plastic tax or sugar tax calculated in a similar way.
+- CBM and EPR calculations are introduced in the sustainability options on top of the framework; they are not directly excise taxes and are covered in a separate session.
+- The type selected in the journal (CBM, EPR or excises) determines which fields are shown.
 - Calculations can be based on purchase or sales documents depending on the scenario.
-- Items are the main configuration point, with taxes tied to unit of measure or other quantity values on the item card; options vary by country.
-- Resources, item charges and fixed assets can also be configuration sources, but some need manual population or custom extensions. More excise options are announced for future releases, and viewers can give feedback on priorities such as plastic tax or sugar tax.
+- Items are the main configuration point, with taxes tied to unit of measure or other quantity values on the item card; resources, item charges and fixed assets can also be sources, depending on the country.
 
 ## Chapters
 

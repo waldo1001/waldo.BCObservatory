@@ -1,16 +1,16 @@
 {
   "video_id": "q0TxpWfm9rc",
   "item_id": "video/yt-microsoft/q0TxpWfm9rc",
-  "summary": "Copilot summaries in Business Central (2025 release wave 2): summary generation is 50% faster, summaries are interactive, show filter awareness, can be copied and shared, support 20 more languages, and can be configured per page by developers in AL.",
+  "summary": "Copilot summaries in Business Central (2025 release wave 2): summary generation is 50% faster, summaries take list filters into account, they can be copied and shared, 20 more languages are supported besides English, and developers can turn summarization on or off per page in AL. The video says these are already available for all Business Central online countries, regions and environment types, and work on all card and document pages.",
   "overview": "The video covers enhancements to \"Summarize with Copilot\", which summarizes a record in Business Central. It demos the customer card and the chart of accounts to show faster generation, new fields that feed richer insights, and interactive summaries.\n\nIt also covers showing more insights and continuing the conversation with Copilot, copying and sharing a summary, filter awareness, and multi-language support. Last, it explains the new AL option for developers to configure summarization on a page, and says the feature is available in all Business Central online countries and regions.",
   "key_points": [
     "Summary generation is 50% faster than in the previous release.",
-    "Summaries are interactive: clicking a field or interaction highlights it and opens the related page where the insight came from.",
+    "Popular pages such as the customer card have new fields that give Copilot more data for richer insights.",
+    "Summaries are interactive: clicking a field or interaction highlights it and opens the related page the insight came from.",
     "Show more generates additional insights beyond the initial summary, and the user can continue the conversation with Copilot.",
-    "Summaries can be copied and shared with co-workers through Teams or other media in a formatted layout.",
-    "Summaries take into account filters carried from list view to card view, as shown with the chart of accounts.",
-    "Summarize with Copilot now supports 20 more languages beyond English.",
-    "Developers can use AL to configure whether summarization is enabled on a page, but they do not have direct access to influence the summary content."
+    "Summaries can be copied (from the FactBox option or with Ctrl+C) and shared with co-workers through Teams or other media in a formatted layout.",
+    "Summaries take into account filters carried from the list to the card, as shown with the chart of accounts.",
+    "Summarize with Copilot now supports 20 more languages beyond English."
   ],
   "audience": [
     "functional consultant",

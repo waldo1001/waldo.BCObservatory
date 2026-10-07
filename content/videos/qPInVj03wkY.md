@@ -18,12 +18,12 @@ tags:
   - scope 1 2 3
 system: sustainability
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:53:59.505Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:53:59.550Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -206,7 +206,7 @@ quotes:
 
 > Business Central sustainability CSRD reporting in 2025 release wave 2: the ESG Aggregation Reporting tool, the external ESG reporting Power App, Dataverse setup, two-way data sync, and Excel export for XBRL conversion. Demoed with sustainability ledger entry mapping and formulas.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=qPInVj03wkY) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-10-01 · 17:35 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=qPInVj03wkY) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-10-01 · 17:35 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -217,12 +217,12 @@ Data posted in Business Central is copied as facts into the matching place in th
 ## Key points
 
 - The external ESG reporting tool is a Power App that needs at least one Power App license; the presenter says nothing additional has to be paid.
-- A Dataverse connection through a wizard is mandatory, and data synchronization must also be enabled explicitly in Business Central (Sustainability Setup).
-- Communication between Business Central and the external tool is bidirectional, and bidirectional mapping must be configured.
+- Setup: connect Business Central to Dataverse (the data connection setup wizard can be used), enable data synchronization in Business Central (stated as mandatory), then enable data integration in Sustainability Setup, which connects and maps the sustainability tables.
+- Number series for ESG standard reporting and for posted reporting are prerequisites in Business Central.
+- Communication between Business Central and the external tool is bidirectional. Assessments created in the Power App become ESG reporting names, and their requirements become ESG reporting lines in Business Central.
 - The ESG Aggregation Reporting page calculates values from several sources, with filters and formulas (multiply, divide, plus, minus, brackets), for example percentages.
-- Sustainability ledger entries, including carbon equivalent data, can be mapped to reporting lines, with filters needed to separate scopes. Not all lines are populated from Business Central, so some data, such as risk assessments, needs manual entry.
-- The tool can be used without the Power App to prepare data for manual CSRD reporting, with CSRD preparation reports available.
-- Final export is to Excel, and a separate XBRL conversion is required for submission. Standards named include CSRD, Australian reporting, Indian GRIS and SRS.
+- Sustainability ledger entries, including carbon equivalent data, can be mapped to reporting lines, with filters needed to separate scopes 1, 2 and 3. Not all lines are populated from Business Central, so some facts, such as risk assessments, need manual entry.
+- The tool can be used without the Power App to prepare data for manual CSRD reporting, with CSRD preparation reports available on posted ESG reports.
 
 ## Chapters
 
@@ -238,18 +238,18 @@ Data posted in Business Central is copied as facts into the matching place in th
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| ESG Aggregation Reporting Tool | status not stated, demoed | [3:20](https://www.youtube.com/watch?v=qPInVj03wkY&t=200s) |  |
-| External ESG Reporting Power App | status not stated, demoed | [2:08](https://www.youtube.com/watch?v=qPInVj03wkY&t=128s) |  |
-| CSRD Compliance Reporting | status not stated, demoed | [0:40](https://www.youtube.com/watch?v=qPInVj03wkY&t=40s) |  |
-| Bidirectional Data Synchronization | status not stated, demoed | [1:17](https://www.youtube.com/watch?v=qPInVj03wkY&t=77s) |  |
-| Dataverse Connection Setup | status not stated | [4:09](https://www.youtube.com/watch?v=qPInVj03wkY&t=249s) |  |
-| Sustainability Ledger Entry Mapping | status not stated, demoed | [9:35](https://www.youtube.com/watch?v=qPInVj03wkY&t=575s) |  |
-| Formula-based ESG Calculations | status not stated, demoed | [11:40](https://www.youtube.com/watch?v=qPInVj03wkY&t=700s) |  |
-| Manual ESG Reporting without Integration | status not stated | [13:01](https://www.youtube.com/watch?v=qPInVj03wkY&t=781s) |  |
-| CSRD Preparation Reports | status not stated | [14:43](https://www.youtube.com/watch?v=qPInVj03wkY&t=883s) |  |
-| Excel Export for XBRL Conversion | status not stated | [15:58](https://www.youtube.com/watch?v=qPInVj03wkY&t=958s) |  |
+| Feature | Status | At |
+|---|---|---|
+| ESG Aggregation Reporting Tool | status not stated, demoed | [3:20](https://www.youtube.com/watch?v=qPInVj03wkY&t=200s) |
+| External ESG Reporting Power App | status not stated, demoed | [2:08](https://www.youtube.com/watch?v=qPInVj03wkY&t=128s) |
+| CSRD Compliance Reporting | status not stated, demoed | [0:40](https://www.youtube.com/watch?v=qPInVj03wkY&t=40s) |
+| Bidirectional Data Synchronization | status not stated, demoed | [1:17](https://www.youtube.com/watch?v=qPInVj03wkY&t=77s) |
+| Dataverse Connection Setup | status not stated | [4:09](https://www.youtube.com/watch?v=qPInVj03wkY&t=249s) |
+| Sustainability Ledger Entry Mapping | status not stated, demoed | [9:35](https://www.youtube.com/watch?v=qPInVj03wkY&t=575s) |
+| Formula-based ESG Calculations | status not stated, demoed | [11:40](https://www.youtube.com/watch?v=qPInVj03wkY&t=700s) |
+| Manual ESG Reporting without Integration | status not stated | [13:01](https://www.youtube.com/watch?v=qPInVj03wkY&t=781s) |
+| CSRD Preparation Reports | status not stated | [14:43](https://www.youtube.com/watch?v=qPInVj03wkY&t=883s) |
+| Excel Export for XBRL Conversion | status not stated | [15:58](https://www.youtube.com/watch?v=qPInVj03wkY&t=958s) |
 
 ## AL objects mentioned
 

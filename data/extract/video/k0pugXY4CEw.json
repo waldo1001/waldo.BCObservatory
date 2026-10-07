@@ -200,27 +200,6 @@
         "history"
       ],
       "system": "finance"
-    },
-    {
-      "name": "IRS portal A2A integration for on-premise users",
-      "description": "On-premise users can create IRF files and manually download and upload them to the IRIS portal.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 95.7,
-      "t_end": 109.4,
-      "is_demoed": false,
-      "caveats": [
-        "Requires manual file handling for on-premise deployments"
-      ],
-      "tags": [
-        "irs",
-        "on-premise",
-        "file upload",
-        "manual process"
-      ],
-      "system": "integration"
     }
   ],
   "objects": [
@@ -252,15 +231,15 @@
   ],
   "quotes": [
     {
-      "t": 33.5,
-      "text": "now you can save the time with the seamless integration you just need to upload to",
-      "why_it_matters": "Highlights the core benefit of electronic submission versus manual form printing and processing.",
-      "check": "fuzzy"
-    },
-    {
       "t": 95.7,
       "text": "For Iris submission, if you're cloud user, you will have fully A2A integration with the Iris portal.",
       "why_it_matters": "Clarifies the different integration paths available for cloud versus on-premise users.",
+      "check": "exact"
+    },
+    {
+      "t": 109.4,
+      "text": "For on-prem users, you can create uh fire files and manually download and upload to the fire.",
+      "why_it_matters": "Describes the manual upload path for on-prem users.",
       "check": "exact"
     },
     {
@@ -273,6 +252,12 @@
       "t": 184.2,
       "text": "So now we have this E file direct to Oris and it is officially available from two uh 2000 release wave 2 but even",
       "why_it_matters": "Confirms the general availability and version numbers for the feature.",
+      "check": "exact"
+    },
+    {
+      "t": 184.2,
+      "text": "but even we updated uh last minor 26.5. So you can switch and you can report from both these versions.",
+      "why_it_matters": "Shows the IRIS e-file feature was also added to version 26.5, not only 2025 release wave 2.",
       "check": "exact"
     },
     {

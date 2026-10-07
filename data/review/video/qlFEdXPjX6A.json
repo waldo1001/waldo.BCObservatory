@@ -1,0 +1,23 @@
+{
+  "video_id": "qlFEdXPjX6A",
+  "item_id": "video/yt-microsoft/qlFEdXPjX6A",
+  "flags": [],
+  "verdict": "approve",
+  "issues": [
+    "All 8 quotes are verbatim; some run on into the next segment, which is allowed.",
+    "Feature descriptions and key points match the transcript. All statuses are unclear, which is correct because the video never says preview or GA.",
+    "Minor: the AI Test Type feature has t_start 626.6, but the mention starts at 613.7. Not worth an edit.",
+    "'Code cup rule' copies the caption wording as spoken (it is probably CodeCop). Left unchanged because only the transcript counts as evidence."
+  ],
+  "input_hash": "b6741f2ad66247d01105cc9bc7084cde2055e5e92e6a973ba430a24756bca8da",
+  "by": "opus",
+  "at": "2026-10-07T22:53:51.306Z",
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.078337
+  }
+}

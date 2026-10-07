@@ -152,28 +152,6 @@
       "system": "integration"
     },
     {
-      "name": "E-Documents OData Filtering",
-      "description": "Support for OData filter queries to query e-document and e-document service data with advanced filtering capabilities including entry numbers and service codes.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 472.8,
-      "t_end": 577.7,
-      "is_demoed": true,
-      "caveats": [
-        "Requires understanding of OData query syntax",
-        "Complex setup for multiple filter conditions"
-      ],
-      "tags": [
-        "odata",
-        "e-documents",
-        "apis",
-        "filtering"
-      ],
-      "system": "integration"
-    },
-    {
       "name": "Custom Agents with Copilot Studio Integration",
       "description": "E-document APIs enable creation of new custom agents using Copilot Studio for orchestrating e-document workflows with AI-driven processes.",
       "status": "unclear",
@@ -229,12 +207,6 @@
   ],
   "quotes": [
     {
-      "t": 5.9,
-      "text": "This is antibiotic plant and now finally this is live.",
-      "why_it_matters": "Confirms that e-document APIs are now generally available in the 2025 release wave 2",
-      "check": "exact"
-    },
-    {
       "t": 30.1,
       "text": "So first we wanted to enable flexible and codefree integration.",
       "why_it_matters": "Establishes the core design goal of making e-document integration accessible without requiring code",
@@ -244,6 +216,12 @@
       "t": 41.1,
       "text": "It doesn't mean that it should be first channel of communication. It can be but this is not intended for that.",
       "why_it_matters": "Important limitation: these APIs are meant as supplementary channels, not primary communication paths",
+      "check": "exact"
+    },
+    {
+      "t": 98.2,
+      "text": "it enable your usage and creation of new custom agent using copilot studio because now this is available with APIs",
+      "why_it_matters": "Supports the claim that the APIs can be used to build Copilot Studio custom agents.",
       "check": "exact"
     },
     {
@@ -262,6 +240,12 @@
       "t": 447.1,
       "text": "this is one of these business events that we have added that's called e document service status changed.",
       "why_it_matters": "Names one of the two new business events that trigger on e-document state transitions",
+      "check": "exact"
+    },
+    {
+      "t": 457.7,
+      "text": "the condition I have set is that the e document service status has to be exported for us to actually move forward.",
+      "why_it_matters": "Shows that the exported-only behavior comes from the flow's own condition, not from the business event.",
       "check": "exact"
     }
   ],

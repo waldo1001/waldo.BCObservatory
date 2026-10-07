@@ -16,12 +16,12 @@ tags:
   - qr codes
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:53:18.619Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:53:18.665Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -77,6 +77,13 @@ evidence:
     commit: null
     t: 203
     quote: Currently this is not supported. This is something what we will deliver in the future to fully support clearance model is validation as a
+  - kind: video
+    url: https://www.youtube.com/watch?v=h6a8BVzvuZ4&t=517s
+    title: "What's New: E-Documents and Clearance Model (2025 release wave 2)"
+    date: "2025-10-01T00:00:00Z"
+    commit: null
+    t: 517
+    quote: if you're building your localization you need to build this by yourself because it depends from localization to localization
   - kind: video
     url: https://www.youtube.com/watch?v=h6a8BVzvuZ4&t=617s
     title: "What's New: E-Documents and Clearance Model (2025 release wave 2)"
@@ -157,11 +164,6 @@ features:
     t: 203
     verified: true
     status_source: video
-  - name: E-documents localization framework
-    status: unclear
-    t: 61
-    verified: false
-    status_source: video
   - name: Migration of existing e-invoicing formats
     status: announced
     t: 556
@@ -188,6 +190,9 @@ quotes:
   - t: 203
     text: Currently this is not supported. This is something what we will deliver in the future to fully support clearance model is validation as a
     check: exact
+  - t: 517
+    text: if you're building your localization you need to build this by yourself because it depends from localization to localization
+    check: exact
   - t: 617
     text: many countries require this model. This is something what really important for uh starting using e documents as a framework globally.
     check: exact
@@ -197,7 +202,7 @@ quotes:
 
 > Business Central's clearance model for e-documents (2025 release wave 2): a framework for invoices that tax authorities or third-party partners must pre-approve before they go to customers. It is not localized by default, the clearance service must be built per country, and receiver validation is announced for later.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=h6a8BVzvuZ4) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-10-01 · 11:14 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=h6a8BVzvuZ4) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-10-01 · 11:14 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -207,7 +212,7 @@ The demo covers setting up two e-document services (one for clearance, one for s
 
 ## Key points
 
-- The clearance model is a framework for pre-approval of invoices by tax authorities or third-party partners before they are sent to customers. It supports three, four or five corner models.
+- The clearance model is a framework for invoices that tax authorities or third-party partners must pre-approve before they are sent to customers. It needs a different architecture from the earlier multiorder model, which supported three-, four- and five-corner setups.
 - It is not localized by default. Each country localization must be built separately on top of the framework.
 - Two e-document services are needed: one for clearance submission to the authority and one for sending to the customer. The clearance service does not exist in Business Central and must be built per country.
 - The workflow template guides setup through five steps, from document creation to customer email delivery. Workflow setup and service endpoints are configured manually for each localization.
@@ -237,7 +242,6 @@ The demo covers setting up two e-document services (one for clearance, one for s
 | Access point support (sender and receiver) | status not stated | [3:35](https://www.youtube.com/watch?v=h6a8BVzvuZ4&t=215s) |  |
 | QR code support in e-documents | status not stated, demoed | [2:25](https://www.youtube.com/watch?v=h6a8BVzvuZ4&t=145s) |  |
 | Receiver validation (future) | announced | [3:23](https://www.youtube.com/watch?v=h6a8BVzvuZ4&t=203s) | "Currently this is not supported. This is something what we will deliver in the future to fully support clearance model is validation as a" ([3:23](https://www.youtube.com/watch?v=h6a8BVzvuZ4&t=203s)) |
-| E-documents localization framework | status not stated | [1:01](https://www.youtube.com/watch?v=h6a8BVzvuZ4&t=61s) |  |
 | Migration of existing e-invoicing formats | announced | [9:16](https://www.youtube.com/watch?v=h6a8BVzvuZ4&t=556s) | "now we will start planning how to migrate Indian and Mexican e voicing to new e documents format and verifact 2 in Spain as" ([9:36](https://www.youtube.com/watch?v=h6a8BVzvuZ4&t=576s)) |
 
 ## AL objects mentioned
@@ -258,6 +262,7 @@ Not found in BC28-30: page "e document service page", page "e document page".
 - [1:16](https://www.youtube.com/watch?v=h6a8BVzvuZ4&t=76s) "this is now in a framework very similar as we had for other e document features this is framework this is not by default"
 - [2:00](https://www.youtube.com/watch?v=h6a8BVzvuZ4&t=120s) "It require different architecture. So process is process foundational process this is different."
 - [3:23](https://www.youtube.com/watch?v=h6a8BVzvuZ4&t=203s) "Currently this is not supported. This is something what we will deliver in the future to fully support clearance model is validation as a"
+- [8:37](https://www.youtube.com/watch?v=h6a8BVzvuZ4&t=517s) "if you're building your localization you need to build this by yourself because it depends from localization to localization"
 - [10:17](https://www.youtube.com/watch?v=h6a8BVzvuZ4&t=617s) "many countries require this model. This is something what really important for uh starting using e documents as a framework globally."
 
 ## Disclaimers in the video

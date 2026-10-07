@@ -6,10 +6,10 @@
   "key_points": [
     "Financial reports can show actual dates in column headers via the option 'include date in column header'. When text and date are both shown, the date appears in parentheses.",
     "Column definitions have a new 'show in ACY' field, so reports can show local currency and additional reporting currency in separate columns. An additional currency must be set up for values to appear.",
-    "Row definitions can be edited from the card view and in Excel. Adding a single GL account auto-completes the description from the account name. Renaming a GL account triggers a notification to check financial reports that use it.",
+    "Row and column definition descriptions can now be changed directly from the card, and row definitions can be edited in Excel. Adding a single GL account auto-completes the row description from the account name. Renaming a GL account triggers a notification to check financial reports that use it.",
     "A new Power BI late payment analysis report for receivables uses a bubble chart. Customers with large late amounts and high average days late appear in the upper right. The average collection period report now includes a historical trend.",
     "Deferral analysis now covers upcoming (non-posted) deferrals as well as posted ones, for sales, purchase and GL. Previously only posted deferrals could be analyzed.",
-    "Deferral reports support Word and Excel layouts in addition to RDLC, with a default chosen on the request page. RDLC will be deprecated. The Excel layouts allow analysis across all deferrals.",
+    "Deferral reports support Word and Excel layouts in addition to RDLC, and a default layout can be set that the request page respects. RDLC will be deprecated. The Excel layouts allow analysis across all deferrals.",
     "New pages Deferral Lines for Sales, Purchase and GL show deferral lines across unposted documents. Documentation now covers VAT, cost accounting, deferrals, consolidations and intercompany reports, with teaching tips in the client."
   ],
   "audience": [

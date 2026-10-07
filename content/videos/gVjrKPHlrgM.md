@@ -17,12 +17,12 @@ tags:
   - email integration
 system: localization
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:53:20.126Z"
   flags: []
 generated:
-  at: "2026-10-06T18:24:32.702Z"
+  at: "2026-10-07T22:53:20.152Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -64,6 +64,13 @@ evidence:
     commit: null
     t: 155
     quote: So main business values there are you will be completely compliant in Germany. So now with the souk we support all formats in the
+  - kind: video
+    url: https://www.youtube.com/watch?v=gVjrKPHlrgM&t=359s
+    title: "What's New: E-Documents ZUGFeRD Format (2025 release wave 2)"
+    date: "2025-10-01T00:00:00Z"
+    commit: null
+    t: 359
+    quote: on e document service for zuk first format we need to enable bio reference mandatory
   - kind: video
     url: https://www.youtube.com/watch?v=gVjrKPHlrgM&t=396s
     title: "What's New: E-Documents ZUGFeRD Format (2025 release wave 2)"
@@ -132,11 +139,6 @@ features:
     t: 377
     verified: false
     status_source: video
-  - name: BIO Reference Setup for E-Documents
-    status: unclear
-    t: 349
-    verified: false
-    status_source: video
 objects_mentioned: []
 quotes:
   - t: 39
@@ -154,6 +156,9 @@ quotes:
   - t: 155
     text: So main business values there are you will be completely compliant in Germany. So now with the souk we support all formats in the
     check: exact
+  - t: 359
+    text: on e document service for zuk first format we need to enable bio reference mandatory
+    check: exact
   - t: 396
     text: once when you create uh when you have created if you choose post to send system will automatically create an email and send it.
     check: exact
@@ -163,7 +168,7 @@ quotes:
 
 > ZUGFeRD e-document format support in Business Central (2025 release wave 2), shown for German compliance. It covers creating outgoing PDF/A-3 invoices with embedded XML on the sales side and automatically importing inbound ZUGFeRD documents on the purchase side.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=gVjrKPHlrgM) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-10-01 · 7:23 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=gVjrKPHlrgM) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-10-01 · 7:23 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -173,13 +178,13 @@ It demos the sales side, where Business Central builds a PDF from a report layou
 
 ## Key points
 
-- ZUGFeRD is a hybrid format: a human-readable PDF with embedded XML, based on PDF/A-3, which allows embedding any file type.
-- Sales side: Business Central creates an outgoing e-document as a PDF from the report layout with embedded XML.
-- Outgoing documents can be sent through existing connectors or by email.
-- Purchase side: on receipt of an inbound ZUGFeRD document, the system extracts the embedded XML, creates the purchase document and attaches the PDF for review.
-- The BIO reference is a mandatory setting for the ZUGFeRD e-document service. It can come from the customer card or from the document reference.
-- Automatic email sending of posted e-documents with post-to-send is available from version 2.7 in 2025 release wave 2.
-- A disclaimer in the video says something will be available for version 27, meaning from 2025 release wave 2.
+- ZUGFeRD is a hybrid format based on PDF/A-3: a human-readable PDF with embedded XML. PDF/A-3 allows embedding any file type and produces self-contained files.
+- Sales side: posting a sales invoice creates an e-document whose PDF is generated from the report layout, with the ZUGFeRD XML embedded as an attachment; the exported file can be checked in the e-document logs.
+- Outgoing ZUGFeRD documents can be sent through existing connectors or by email.
+- Purchase side: create a new e-document, choose the ZUGFeRD format and import the PDF. The system extracts the embedded XML, the e-document is In Progress with the PDF attached, and Reprocess creates the purchase invoice.
+- On the e-document service for ZUGFeRD, enable 'bio reference mandatory' and choose where the reference comes from: the customer card or the reference on the document.
+- With post-to-send, the system automatically creates and sends an email for e-documents. This is available from version 27 (2025 release wave 2), especially relevant for the German market.
+- The presenters say ZUGFeRD support makes Business Central fully compliant in Germany and that all German formats are now supported.
 
 ## Chapters
 
@@ -193,14 +198,13 @@ It demos the sales side, where Business Central builds a PDF from a report layou
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| ZUGFeRD Format Support | status not stated, demoed | [0:21](https://www.youtube.com/watch?v=gVjrKPHlrgM&t=21s) |  |
-| PDF/A-3 Format for Long-term Archival | status not stated, demoed | [0:21](https://www.youtube.com/watch?v=gVjrKPHlrgM&t=21s) |  |
-| Outgoing E-Document Creation via ZUGFeRD | status not stated, demoed | [1:31](https://www.youtube.com/watch?v=gVjrKPHlrgM&t=91s) |  |
-| Inbound E-Document Processing from ZUGFeRD | status not stated, demoed | [1:58](https://www.youtube.com/watch?v=gVjrKPHlrgM&t=118s) |  |
-| Automatic Email Sending for Posted E-Documents | status not stated | [6:17](https://www.youtube.com/watch?v=gVjrKPHlrgM&t=377s) |  |
-| BIO Reference Setup for E-Documents | status not stated | [5:49](https://www.youtube.com/watch?v=gVjrKPHlrgM&t=349s) |  |
+| Feature | Status | At |
+|---|---|---|
+| ZUGFeRD Format Support | status not stated, demoed | [0:21](https://www.youtube.com/watch?v=gVjrKPHlrgM&t=21s) |
+| PDF/A-3 Format for Long-term Archival | status not stated, demoed | [0:21](https://www.youtube.com/watch?v=gVjrKPHlrgM&t=21s) |
+| Outgoing E-Document Creation via ZUGFeRD | status not stated, demoed | [1:31](https://www.youtube.com/watch?v=gVjrKPHlrgM&t=91s) |
+| Inbound E-Document Processing from ZUGFeRD | status not stated, demoed | [1:58](https://www.youtube.com/watch?v=gVjrKPHlrgM&t=118s) |
+| Automatic Email Sending for Posted E-Documents | status not stated | [6:17](https://www.youtube.com/watch?v=gVjrKPHlrgM&t=377s) |
 
 ## Quotes
 
@@ -209,6 +213,7 @@ It demos the sales side, where Business Central builds a PDF from a report layou
 - [1:45](https://www.youtube.com/watch?v=gVjrKPHlrgM&t=105s) "So it enables creation outgoing e documents in sufare format. So that means we will create pdf based on report layout with embedded xml"
 - [1:58](https://www.youtube.com/watch?v=gVjrKPHlrgM&t=118s) "On a purchase side, we enable receiving inbound e documents in format. So once when you get it, system will automatically extract embedded XML"
 - [2:35](https://www.youtube.com/watch?v=gVjrKPHlrgM&t=155s) "So main business values there are you will be completely compliant in Germany. So now with the souk we support all formats in the"
+- [5:59](https://www.youtube.com/watch?v=gVjrKPHlrgM&t=359s) "on e document service for zuk first format we need to enable bio reference mandatory"
 - [6:36](https://www.youtube.com/watch?v=gVjrKPHlrgM&t=396s) "once when you create uh when you have created if you choose post to send system will automatically create an email and send it."
 
 ## Disclaimers in the video

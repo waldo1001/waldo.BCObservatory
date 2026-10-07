@@ -9,8 +9,8 @@
     "Posting a purchase invoice for a project generates two lines: a purchase line and a negative adjustment entry that goes into sustainability value entries.",
     "Items have a sustainability fast tab for a standard account number and a default CO2 emissions number, and the system calculates total CO2.",
     "Resources have a sustainability fast tab for adding accounts and default CO2 emission numbers.",
-    "Project statistics show emissions calculations and the effect of project activity on carbon footprint.",
-    "The feature works only with carbon equivalent, not with other gases."
+    "Posted information is exposed on project statistics and task lines, which show the calculations for everything posted to the project.",
+    "The feature works only with carbon equivalent; other gas emissions are converted to carbon equivalent for the value chain."
   ],
   "audience": [
     "functional consultant",

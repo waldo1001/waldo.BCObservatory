@@ -1,16 +1,16 @@
 {
   "video_id": "4nFViDASGhg",
   "item_id": "video/yt-microsoft/4nFViDASGhg",
-  "summary": "Sales order agent enhancements in Business Central (2025 release wave 2), demonstrated in a 21-minute video: attachment analysis (PDF and images), custom instructions, custom email signature, autonomy levels per sender type, capable to promise dates, and direct sales order creation without a quote.",
+  "summary": "Sales order agent enhancements in Business Central (2025 release wave 2), shown in a 21-minute demo. Covers attachment analysis (PDF and images), custom instructions, a custom email signature, autonomy levels by sender type, and shipment dates set with capable to promise. Also covers optional removal of the quote review, so the agent goes from email to sales order and stops only for the final outgoing message.",
   "overview": "The video walks through new sales order agent capabilities in Business Central. It follows an email with attachments through the agent: the agent reviews each attachment, categorizes it as reviewed, valid format with no relevant content, or not supported, then checks item availability and asks the user for help when it is stuck. The user can answer with custom instructions, for example to substitute an unavailable item.\n\nThe second half covers agent settings. These include a custom signature for agent-generated emails, attachment analysis limits, review levels for registered senders, and review points for quotes, quote confirmations and sales orders. It also shows the agent using capable to promise to set shipping dates, and creating a sales order straight from an email without a quote or intermediate reviews.",
   "key_points": [
     "The agent reviews email attachments and categorizes them as reviewed, valid format with no relevant content, or not supported.",
-    "Attachment analysis currently supports PDF and images only; the default limit is 100 emails per day and can be changed.",
+    "Attachment analysis currently supports PDF and images; the default limit is 100 emails per day, and emails over the limit are processed the following day.",
     "Custom instructions let a user guide the agent when it is stuck, for example to substitute an unavailable item.",
-    "A custom signature, edited in a rich text editor with links and images, is used on emails the agent generates. A character limit applies.",
+    "A custom signature, edited in a rich text editor with links and images, is used on emails the agent generates. A character limit applies, but most signatures fit.",
     "For registered senders there are three levels: review all messages (default), review only the first message with automatic follow-ups, or fully automatic. Keeping review all is recommended for unregistered senders.",
     "The agent uses capable to promise to calculate and set the shipment date when items are not available on the requested date.",
-    "Review can be set at quote creation, quote confirmation sent, and sales order creation. Unchecking quote review lets the agent create sales orders directly from email without a quote."
+    "Review can be required when the quote is created, when the quote confirmation is sent, and when the sales order is created. If quote review is unchecked, the agent handles requests from registered senders for available items without intermediate reviews: it creates the quote, converts it to an order, and asks only for confirmation of the outgoing message."
   ],
   "audience": [
     "functional consultant",

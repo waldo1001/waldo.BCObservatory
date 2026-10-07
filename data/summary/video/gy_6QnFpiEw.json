@@ -1,16 +1,15 @@
 {
   "video_id": "gy_6QnFpiEw",
   "item_id": "video/yt-microsoft/gy_6QnFpiEw",
-  "summary": "Shopify Connector in Business Central (2025 release wave 2) adds market-specific pricing: a Market Catalog page that imports Shopify market catalogs, a Sync prices action, per-market currencies, POS location markets, and B2B catalogs with a currency code field.",
+  "summary": "Shopify Connector in Business Central (2025 release wave 2) adds market-specific pricing. A new Shopify Market Catalog page imports Shopify market catalogs, and a Sync prices action pushes prices from Business Central customer price groups to those catalogs, including per-market currencies. Markets can also target POS locations or B2B company locations, and the renamed B2B Catalogs page gains a currency code field.",
   "overview": "The session explains how Shopify Markets handle pricing and currency, then shows how the Shopify Connector in Business Central picks this up. A market can have its own currency, so the same product can be priced differently per market, for example a Canadian market using Canadian dollars instead of US dollars.\n\nThe demo covers the new Market Catalog page and getting market catalogs from Shopify, syncing prices, markets for point of sale locations, and B2B markets with company locations. It ends with the renamed B2B Catalogs page, which now has a currency code field.",
   "key_points": [
     "A new Market Catalog page imports catalogs from Shopify markets. It uses a get market catalog action, similar to the existing B2B functionality, and shows market names, linked markets and currency codes.",
-    "A Sync prices action brings product prices from Shopify market catalogs into Business Central customer price groups, based on the market and currency setup. Prices can differ per market.",
-    "Catalogs can be linked to multiple markets with different currencies. A local currency shows as a blank currency code in Business Central.",
-    "Markets can be defined for point of sale locations, with prices assigned per POS location. This is most useful within a single country and needs matching currencies.",
-    "Markets with company locations are only available to Shopify B2B Plus customers. Catalogs can be linked to market company locations or directly to B2B customers.",
-    "The Catalog page for B2B is renamed B2B Catalogs and has a new currency code field. Otherwise it works as before.",
-    "Price synchronization needs a toggle to be activated manually."
+    "Prices are maintained in Business Central customer price groups (for example Europe and Germany). After the catalog toggles are activated, Sync prices pushes them to the Shopify market catalogs, and the updated prices show in the Shopify online store per market.",
+    "Catalogs can be linked to multiple markets with different currencies. A catalog in the local currency shows a blank currency code in Business Central.",
+    "Markets can be defined for point of sale locations, with prices assigned per POS location. The presenter says POS markets make sense only within the local country, and picked a location that uses the right currency.",
+    "Markets with company locations are only available to Shopify Plus customers using B2B. Catalogs can be linked to market company locations or directly to B2B customers, and the connector supports both.",
+    "The Catalog page for B2B is renamed B2B Catalogs and lists only catalogs linked directly to B2B customers. It works as before but adds a new currency code field."
   ],
   "audience": [
     "functional consultant",

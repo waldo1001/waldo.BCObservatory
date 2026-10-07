@@ -230,10 +230,10 @@
     {
       "name": "Preview semantic similarity search toggle",
       "description": "Feature management toggle for semantic similarity search used in Copilot chat and analysis view assist, enabling semantic vector comparisons for finding related pages and fields.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
+      "status": "preview",
+      "status_evidence_t": 547.8,
+      "status_evidence_quote": "the chat and analysis assist it that is the very nicely named preview semantic similarity search and application metadata",
+      "status_evidence_verified": true,
       "t_start": 534.7,
       "t_end": 568.7,
       "is_demoed": false,
@@ -291,10 +291,10 @@
     {
       "name": "Word addin data picker",
       "description": "New feature in the Word addin that allows picking data with visual tooltips from report fields.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
+      "status": "ga",
+      "status_evidence_t": 905.8,
+      "status_evidence_quote": "this is a a new feature in the word addin that we are shipping in this wave as well a new data picker",
+      "status_evidence_verified": true,
       "t_start": 905.8,
       "t_end": 926.5,
       "is_demoed": true,
@@ -464,6 +464,12 @@
       "check": "exact"
     },
     {
+      "t": 259.4,
+      "text": "if you're not deleting the vast majority of the table, don't use truncate because it's counterproductive",
+      "why_it_matters": "Explains when truncate should not be used.",
+      "check": "exact"
+    },
+    {
       "t": 470.7,
       "text": "not only a lot, it's actually almost like um a little over 70% of all customers use analysis mode on a monthly basis",
       "why_it_matters": "Demonstrates that analysis mode has achieved significant adoption, with over 70% monthly customer usage",
@@ -482,21 +488,9 @@
       "check": "exact"
     },
     {
-      "t": 817.3,
-      "text": "in general the as Yens mentioned there is a full session on uh the new advanced search",
-      "why_it_matters": "Indicates semantic search is a key feature with dedicated session content",
-      "check": "exact"
-    },
-    {
       "t": 831.6,
       "text": "also do expect that results can change. We will adjust the algorithm for how we treat similarity based on measurements of what works best",
       "why_it_matters": "Indicates semantic search algorithm will be refined based on production telemetry",
-      "check": "exact"
-    },
-    {
-      "t": 846.4,
-      "text": "We will adjust the algorithm for how we treat similarity based on measurements of what works best in production",
-      "why_it_matters": "Indicates that semantic search results are subject to change as algorithms are optimized based on production data",
       "check": "exact"
     },
     {
@@ -515,6 +509,12 @@
       "t": 1114.9,
       "text": "we are maintaining the embedding vectors etc. um we do not have support for that in the on-remise world",
       "why_it_matters": "Explains technical reason for cloud-only limitation of semantic search",
+      "check": "exact"
+    },
+    {
+      "t": 1125.8,
+      "text": "if you take um and export your database, then we're actually going to take out the embedding vectors before",
+      "why_it_matters": "Embedding vectors are removed from database exports, which affects moving semantic search data out of the cloud.",
       "check": "exact"
     },
     {

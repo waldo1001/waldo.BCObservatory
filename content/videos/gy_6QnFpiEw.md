@@ -2,7 +2,7 @@
 id: video/gy_6QnFpiEw
 type: video
 title: "What's New in Shopify Connector: Prices for Markets (2025 release wave 2)"
-summary: "Shopify Connector in Business Central (2025 release wave 2) adds market-specific pricing: a Market Catalog page that imports Shopify market catalogs, a Sync prices action, per-market currencies, POS location markets, and B2B catalogs with a currency code field."
+summary: Shopify Connector in Business Central (2025 release wave 2) adds market-specific pricing. A new Shopify Market Catalog page imports Shopify market catalogs, and a Sync prices action pushes prices from Business Central customer price groups to those catalogs, including per-market currencies. Markets can also target POS locations or B2B company locations, and the renamed B2B Catalogs page gains a currency code field.
 tier: official
 language: en
 tags:
@@ -15,12 +15,12 @@ tags:
   - localized pricing
 system: sales
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:53:13.583Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:53:13.620Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -55,6 +55,13 @@ evidence:
     commit: null
     t: 325
     quote: If we go here, it's empty, we press the button get market catalog, which looks very familiar to people who already using B2B functionality
+  - kind: video
+    url: https://www.youtube.com/watch?v=gy_6QnFpiEw&t=365s
+    title: "What's New in Shopify Connector: Prices for Markets (2025 release wave 2)"
+    date: "2025-10-01T00:00:00Z"
+    commit: null
+    t: 365
+    quote: I prepared customer price group and they are called Europe and Germany Okay. And now activating toggles here. And now we press sync prices.
   - kind: video
     url: https://www.youtube.com/watch?v=gy_6QnFpiEw&t=491s
     title: "What's New in Shopify Connector: Prices for Markets (2025 release wave 2)"
@@ -156,6 +163,9 @@ quotes:
   - t: 325
     text: If we go here, it's empty, we press the button get market catalog, which looks very familiar to people who already using B2B functionality
     check: exact
+  - t: 365
+    text: I prepared customer price group and they are called Europe and Germany Okay. And now activating toggles here. And now we press sync prices.
+    check: exact
   - t: 491
     text: or company locations. That is actually only available for B for plus customers who are using B2B.
     check: exact
@@ -166,9 +176,9 @@ quotes:
 
 # What's New in Shopify Connector: Prices for Markets (2025 release wave 2)
 
-> Shopify Connector in Business Central (2025 release wave 2) adds market-specific pricing: a Market Catalog page that imports Shopify market catalogs, a Sync prices action, per-market currencies, POS location markets, and B2B catalogs with a currency code field.
+> Shopify Connector in Business Central (2025 release wave 2) adds market-specific pricing. A new Shopify Market Catalog page imports Shopify market catalogs, and a Sync prices action pushes prices from Business Central customer price groups to those catalogs, including per-market currencies. Markets can also target POS locations or B2B company locations, and the renamed B2B Catalogs page gains a currency code field.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=gy_6QnFpiEw) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-10-01 · 9:49 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=gy_6QnFpiEw) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-10-01 · 9:49 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -179,12 +189,11 @@ The demo covers the new Market Catalog page and getting market catalogs from Sho
 ## Key points
 
 - A new Market Catalog page imports catalogs from Shopify markets. It uses a get market catalog action, similar to the existing B2B functionality, and shows market names, linked markets and currency codes.
-- A Sync prices action brings product prices from Shopify market catalogs into Business Central customer price groups, based on the market and currency setup. Prices can differ per market.
-- Catalogs can be linked to multiple markets with different currencies. A local currency shows as a blank currency code in Business Central.
-- Markets can be defined for point of sale locations, with prices assigned per POS location. This is most useful within a single country and needs matching currencies.
-- Markets with company locations are only available to Shopify B2B Plus customers. Catalogs can be linked to market company locations or directly to B2B customers.
-- The Catalog page for B2B is renamed B2B Catalogs and has a new currency code field. Otherwise it works as before.
-- Price synchronization needs a toggle to be activated manually.
+- Prices are maintained in Business Central customer price groups (for example Europe and Germany). After the catalog toggles are activated, Sync prices pushes them to the Shopify market catalogs, and the updated prices show in the Shopify online store per market.
+- Catalogs can be linked to multiple markets with different currencies. A catalog in the local currency shows a blank currency code in Business Central.
+- Markets can be defined for point of sale locations, with prices assigned per POS location. The presenter says POS markets make sense only within the local country, and picked a location that uses the right currency.
+- Markets with company locations are only available to Shopify Plus customers using B2B. Catalogs can be linked to market company locations or directly to B2B customers, and the connector supports both.
+- The Catalog page for B2B is renamed B2B Catalogs and lists only catalogs linked directly to B2B customers. It works as before but adds a new currency code field.
 
 ## Chapters
 
@@ -198,14 +207,14 @@ The demo covers the new Market Catalog page and getting market catalogs from Sho
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Market Catalog Import | generally available (roadmap [573342](../features/573342.md)), demoed | [5:25](https://www.youtube.com/watch?v=gy_6QnFpiEw&t=325s) |  |
-| Price Synchronization for Markets | generally available (roadmap [573342](../features/573342.md)), demoed | [6:21](https://www.youtube.com/watch?v=gy_6QnFpiEw&t=381s) |  |
-| Multi-currency Market Support | status not stated, demoed | [5:37](https://www.youtube.com/watch?v=gy_6QnFpiEw&t=337s) |  |
-| Point of Sale Market Definition | status not stated, demoed | [7:25](https://www.youtube.com/watch?v=gy_6QnFpiEw&t=445s) |  |
-| B2B Catalog Company Locations | status not stated, demoed | [7:57](https://www.youtube.com/watch?v=gy_6QnFpiEw&t=477s) |  |
-| B2B Catalogs with Currency Code | status not stated, demoed | [9:22](https://www.youtube.com/watch?v=gy_6QnFpiEw&t=562s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Market Catalog Import | generally available (roadmap [573342](../features/573342.md)), demoed | [5:25](https://www.youtube.com/watch?v=gy_6QnFpiEw&t=325s) |
+| Price Synchronization for Markets | generally available (roadmap [573342](../features/573342.md)), demoed | [6:21](https://www.youtube.com/watch?v=gy_6QnFpiEw&t=381s) |
+| Multi-currency Market Support | status not stated, demoed | [5:37](https://www.youtube.com/watch?v=gy_6QnFpiEw&t=337s) |
+| Point of Sale Market Definition | status not stated, demoed | [7:25](https://www.youtube.com/watch?v=gy_6QnFpiEw&t=445s) |
+| B2B Catalog Company Locations | status not stated, demoed | [7:57](https://www.youtube.com/watch?v=gy_6QnFpiEw&t=477s) |
+| B2B Catalogs with Currency Code | status not stated, demoed | [9:22](https://www.youtube.com/watch?v=gy_6QnFpiEw&t=562s) |
 
 A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
@@ -224,5 +233,6 @@ Not found in BC28-30: page "market catalog", page "B2B catalogs".
 - [1:41](https://www.youtube.com/watch?v=gy_6QnFpiEw&t=101s) "Canada. And the only thing I modified here is how to handle currencies. So now currency will be Canadian dollar instead of US dollar."
 - [3:47](https://www.youtube.com/watch?v=gy_6QnFpiEw&t=227s) "Something is more expensive. Something is a little bit cheaper. Both of them now are 200s. It's a market specific and I want to"
 - [5:25](https://www.youtube.com/watch?v=gy_6QnFpiEw&t=325s) "If we go here, it's empty, we press the button get market catalog, which looks very familiar to people who already using B2B functionality"
+- [6:05](https://www.youtube.com/watch?v=gy_6QnFpiEw&t=365s) "I prepared customer price group and they are called Europe and Germany Okay. And now activating toggles here. And now we press sync prices."
 - [8:11](https://www.youtube.com/watch?v=gy_6QnFpiEw&t=491s) "or company locations. That is actually only available for B for plus customers who are using B2B."
 - [9:03](https://www.youtube.com/watch?v=gy_6QnFpiEw&t=543s) "So if you defined market with a company locations it will land it here in Shopify market catalog because catalog linked to market but"

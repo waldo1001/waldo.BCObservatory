@@ -19,25 +19,18 @@ tags:
   - debug logging
 system: platform
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:53:35.061Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:53:35.106Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
     summarize-video: 2
   input_hash: fee5bce670cc34e6c5b2f3c93d45560ea933deebe2074f05230db14c544706f4
 evidence:
-  - kind: video
-    url: https://www.youtube.com/watch?v=kCTYPb5t5XQ&t=34s
-    title: "What's New in AL-Go for GitHub: Productivity Enhancements (2025 release wave 2)"
-    date: "2025-10-01T00:00:00Z"
-    commit: null
-    t: 34
-    quote: In modern software development, even small inefficiencies can quickly add up. They can take time away from your important development work and that's why
   - kind: video
     url: https://www.youtube.com/watch?v=kCTYPb5t5XQ&t=67s
     title: "What's New in AL-Go for GitHub: Productivity Enhancements (2025 release wave 2)"
@@ -80,6 +73,13 @@ evidence:
     commit: null
     t: 277
     quote: You will now get also complete like shown in the screenshot which will help you discover uh settings more easily. On top of that,
+  - kind: video
+    url: https://www.youtube.com/watch?v=kCTYPb5t5XQ&t=329s
+    title: "What's New in AL-Go for GitHub: Productivity Enhancements (2025 release wave 2)"
+    date: "2025-10-01T00:00:00Z"
+    commit: null
+    t: 329
+    quote: What's new is that we have focused on putting extra logs that will help us debug your issues in here.
 links:
   learn: []
   objects: []
@@ -150,9 +150,6 @@ objects_mentioned:
   - other create release workflow
   - other increment version workflow
 quotes:
-  - t: 34
-    text: In modern software development, even small inefficiencies can quickly add up. They can take time away from your important development work and that's why
-    check: exact
   - t: 67
     text: These should be named ALGO environment settings and can be defined for each of your environments.
     check: exact
@@ -171,13 +168,16 @@ quotes:
   - t: 277
     text: You will now get also complete like shown in the screenshot which will help you discover uh settings more easily. On top of that,
     check: exact
+  - t: 329
+    text: What's new is that we have focused on putting extra logs that will help us debug your issues in here.
+    check: exact
 ---
 
 # What's New in AL-Go for GitHub: Productivity Enhancements (2025 release wave 2)
 
 > AL-Go for GitHub productivity changes in the 2025 release wave 2: ALGO environment settings variables for deployment, a 'new warning' fail-on value for pull requests, page scripting results in the build summary, workflow input validation, settings schema in IDEs, and debug logging.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=kCTYPb5t5XQ) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-10-01 · 6:02 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=kCTYPb5t5XQ) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-10-01 · 6:02 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -187,13 +187,13 @@ Environment-specific settings can be moved out of the main settings file into pe
 
 ## Key points
 
-- Settings can be placed in environment variables named ALGO_environment_settings, defined per environment, to declutter the main settings file. They are available only during deployment jobs, so not all settings belong there.
+- Settings can now be placed in environment variables named ALGO environment settings, defined per environment (for example the deploy to setting), to declutter the main settings file. They are available only during deployment jobs, so not all settings belong there.
 - The environment variables do not support the runs-on, shell and continuous deployment properties. Define those in the main settings file or in repository/organization settings.
 - The existing fail-on setting accepts a new value 'new warning'. It compares warnings in the pull request build to the last good CI/CD build and blocks the pull request if new warnings appear.
 - The new warning check does not run on the CAC job, so CAC warnings do not block CI/CD.
 - Page scripting test results show in the build summary like regular and performance tests. No new setting is needed, and results appear only if page scripting tests run.
-- Workflow input validation fails workflows early, for example on a wrong version number format. It is currently implemented only for the create release and increment version workflows.
-- AL-Go settings have schema support in IDEs such as Visual Studio Code, with autocomplete, tool tips and links to documentation. Debug logging gives more detail for problem reports and is kept apart from regular logs.
+- Workflow input validation fails workflows early, for example on a wrong version number format in create release. It is currently implemented only for the create release and increment version workflows.
+- AL-Go settings have schema support in IDEs such as Visual Studio Code, with autocomplete, tool tips and links to documentation. When reporting issues, run workflows with GitHub's debug logging enabled; AL-Go adds extra debug logs there without cluttering regular logs.
 
 ## Chapters
 
@@ -207,14 +207,14 @@ Environment-specific settings can be moved out of the main settings file into pe
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Environment variables for deployment | status not stated | [0:52](https://www.youtube.com/watch?v=kCTYPb5t5XQ&t=52s) |  |
-| Fail on new warnings for pull requests | status not stated | [2:05](https://www.youtube.com/watch?v=kCTYPb5t5XQ&t=125s) |  |
-| Page scripting test visualizer | status not stated | [2:30](https://www.youtube.com/watch?v=kCTYPb5t5XQ&t=150s) |  |
-| Workflow input validation | status not stated | [3:07](https://www.youtube.com/watch?v=kCTYPb5t5XQ&t=187s) |  |
-| Settings schema and autocompletion | status not stated, demoed | [4:14](https://www.youtube.com/watch?v=kCTYPb5t5XQ&t=254s) |  |
-| Debug logging enhancements | status not stated, demoed | [4:54](https://www.youtube.com/watch?v=kCTYPb5t5XQ&t=294s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Environment variables for deployment | status not stated | [0:52](https://www.youtube.com/watch?v=kCTYPb5t5XQ&t=52s) |
+| Fail on new warnings for pull requests | status not stated | [2:05](https://www.youtube.com/watch?v=kCTYPb5t5XQ&t=125s) |
+| Page scripting test visualizer | status not stated | [2:30](https://www.youtube.com/watch?v=kCTYPb5t5XQ&t=150s) |
+| Workflow input validation | status not stated | [3:07](https://www.youtube.com/watch?v=kCTYPb5t5XQ&t=187s) |
+| Settings schema and autocompletion | status not stated, demoed | [4:14](https://www.youtube.com/watch?v=kCTYPb5t5XQ&t=254s) |
+| Debug logging enhancements | status not stated, demoed | [4:54](https://www.youtube.com/watch?v=kCTYPb5t5XQ&t=294s) |
 
 ## AL objects mentioned
 
@@ -225,12 +225,12 @@ As heard in the captions. A name that matches one object page by exact type and 
 
 ## Quotes
 
-- [0:34](https://www.youtube.com/watch?v=kCTYPb5t5XQ&t=34s) "In modern software development, even small inefficiencies can quickly add up. They can take time away from your important development work and that's why"
 - [1:07](https://www.youtube.com/watch?v=kCTYPb5t5XQ&t=67s) "These should be named ALGO environment settings and can be defined for each of your environments."
 - [1:18](https://www.youtube.com/watch?v=kCTYPb5t5XQ&t=78s) "It should be noted these are available only during deployment jobs and therefore not all of your settings should be put into this variable."
 - [2:05](https://www.youtube.com/watch?v=kCTYPb5t5XQ&t=125s) "The fail on setting has existed for a while, but it now accepts a new value, new warning."
 - [3:29](https://www.youtube.com/watch?v=kCTYPb5t5XQ&t=209s) "What this will do is it will still run the workflow partially, create a release and attack in your repository, but the workflow will"
 - [3:57](https://www.youtube.com/watch?v=kCTYPb5t5XQ&t=237s) "For now, this is implemented only for create release and increment version, but is made in a flexible way that will allow us to"
 - [4:37](https://www.youtube.com/watch?v=kCTYPb5t5XQ&t=277s) "You will now get also complete like shown in the screenshot which will help you discover uh settings more easily. On top of that,"
+- [5:29](https://www.youtube.com/watch?v=kCTYPb5t5XQ&t=329s) "What's new is that we have focused on putting extra logs that will help us debug your issues in here."
 
 Presenters (as heard): Sebastian.

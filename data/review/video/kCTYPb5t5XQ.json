@@ -1,0 +1,28 @@
+{
+  "video_id": "kCTYPb5t5XQ",
+  "item_id": "video/yt-microsoft/kCTYPb5t5XQ",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "The speaker says the variable is named 'ALGO environment settings'. The exact name 'ALGO_environment_settings' with underscores is inferred and not in the transcript. I changed the key point; the feature description still uses the underscore form.",
+    "Three chapter start times are off: the pull request warnings section starts at 125, not 114.1. Workflow input validation starts at 187.4, not 175.2. Settings schema starts at 254.2, not 237.7.",
+    "Quote 34.1 is general introduction filler and says nothing about any feature, so I dropped it.",
+    "Leaving every feature status as unclear is right: the transcript describes the changes as new but never states preview or GA status.",
+    "All other quotes match the transcript word for word, and the facts and summary are supported."
+  ],
+  "input_hash": "fc1a07c8c5aadfebf543f61ab4d27320c2a4f195e94b81d206461058a539ed3b",
+  "by": "opus",
+  "at": "2026-10-07T22:53:35.061Z",
+  "applied": [
+    "dropped 1 quote(s)",
+    "quote at 330s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.063797
+  }
+}

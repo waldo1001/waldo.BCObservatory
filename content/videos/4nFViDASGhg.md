@@ -2,7 +2,7 @@
 id: video/4nFViDASGhg
 type: video
 title: "What's New: Sales Order Agent Enhancements (2025 release wave 2)"
-summary: "Sales order agent enhancements in Business Central (2025 release wave 2), demonstrated in a 21-minute video: attachment analysis (PDF and images), custom instructions, custom email signature, autonomy levels per sender type, capable to promise dates, and direct sales order creation without a quote."
+summary: Sales order agent enhancements in Business Central (2025 release wave 2), shown in a 21-minute demo. Covers attachment analysis (PDF and images), custom instructions, a custom email signature, autonomy levels by sender type, and shipment dates set with capable to promise. Also covers optional removal of the quote review, so the agent goes from email to sales order and stops only for the final outgoing message.
 tier: official
 language: en
 tags:
@@ -20,12 +20,12 @@ tags:
   - agent settings
 system: sales
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:52:52.639Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:52:52.699Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -95,6 +95,13 @@ evidence:
     commit: null
     t: 1026
     quote: What we can do now is to uncheck this option of reviewing the sales code. What it will do is basically for any request
+  - kind: video
+    url: https://www.youtube.com/watch?v=4nFViDASGhg&t=1110s
+    title: "What's New: Sales Order Agent Enhancements (2025 release wave 2)"
+    date: "2025-10-01T00:00:00Z"
+    commit: null
+    t: 1110
+    quote: it created the sales code and converted the uh the code to the order and the only confirmation that is required from our side
   - kind: video
     url: https://www.youtube.com/watch?v=4nFViDASGhg&t=1230s
     title: "What's New: Sales Order Agent Enhancements (2025 release wave 2)"
@@ -239,6 +246,9 @@ quotes:
   - t: 1026
     text: What we can do now is to uncheck this option of reviewing the sales code. What it will do is basically for any request
     check: exact
+  - t: 1110
+    text: it created the sales code and converted the uh the code to the order and the only confirmation that is required from our side
+    check: exact
   - t: 1230
     text: You've seen how the sales order agent can now process email attachments of different kinds. It can use the very powerful feature of capable
     check: exact
@@ -249,9 +259,9 @@ quotes:
 
 # What's New: Sales Order Agent Enhancements (2025 release wave 2)
 
-> Sales order agent enhancements in Business Central (2025 release wave 2), demonstrated in a 21-minute video: attachment analysis (PDF and images), custom instructions, custom email signature, autonomy levels per sender type, capable to promise dates, and direct sales order creation without a quote.
+> Sales order agent enhancements in Business Central (2025 release wave 2), shown in a 21-minute demo. Covers attachment analysis (PDF and images), custom instructions, a custom email signature, autonomy levels by sender type, and shipment dates set with capable to promise. Also covers optional removal of the quote review, so the agent goes from email to sales order and stops only for the final outgoing message.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=4nFViDASGhg) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-10-01 · 21:18 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=4nFViDASGhg) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-10-01 · 21:18 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -262,12 +272,12 @@ The second half covers agent settings. These include a custom signature for agen
 ## Key points
 
 - The agent reviews email attachments and categorizes them as reviewed, valid format with no relevant content, or not supported.
-- Attachment analysis currently supports PDF and images only; the default limit is 100 emails per day and can be changed.
+- Attachment analysis currently supports PDF and images; the default limit is 100 emails per day, and emails over the limit are processed the following day.
 - Custom instructions let a user guide the agent when it is stuck, for example to substitute an unavailable item.
-- A custom signature, edited in a rich text editor with links and images, is used on emails the agent generates. A character limit applies.
+- A custom signature, edited in a rich text editor with links and images, is used on emails the agent generates. A character limit applies, but most signatures fit.
 - For registered senders there are three levels: review all messages (default), review only the first message with automatic follow-ups, or fully automatic. Keeping review all is recommended for unregistered senders.
 - The agent uses capable to promise to calculate and set the shipment date when items are not available on the requested date.
-- Review can be set at quote creation, quote confirmation sent, and sales order creation. Unchecking quote review lets the agent create sales orders directly from email without a quote.
+- Review can be required when the quote is created, when the quote confirmation is sent, and when the sales order is created. If quote review is unchecked, the agent handles requests from registered senders for available items without intermediate reviews: it creates the quote, converts it to an order, and asks only for confirmation of the outgoing message.
 
 ## Chapters
 
@@ -287,18 +297,18 @@ The second half covers agent settings. These include a custom signature for agen
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Attachment analysis and document categorization | status not stated, demoed | [1:50](https://www.youtube.com/watch?v=4nFViDASGhg&t=110s) |  |
-| Custom instructions for agent guidance | status not stated, demoed | [4:55](https://www.youtube.com/watch?v=4nFViDASGhg&t=295s) |  |
-| Custom email signature | status not stated, demoed | [6:43](https://www.youtube.com/watch?v=4nFViDASGhg&t=403s) |  |
-| Attachment analysis configuration | status not stated, demoed | [8:00](https://www.youtube.com/watch?v=4nFViDASGhg&t=480s) |  |
-| Autonomous processing for registered senders | status not stated, demoed | [9:03](https://www.youtube.com/watch?v=4nFViDASGhg&t=543s) |  |
-| Capable to promise integration | status not stated, demoed | [10:56](https://www.youtube.com/watch?v=4nFViDASGhg&t=656s) |  |
-| Item availability checking with filters | status not stated, demoed | [3:22](https://www.youtube.com/watch?v=4nFViDASGhg&t=202s) |  |
-| Autonomous sales order creation | status not stated, demoed | [17:06](https://www.youtube.com/watch?v=4nFViDASGhg&t=1026s) |  |
-| Agent review configuration options | status not stated, demoed | [16:27](https://www.youtube.com/watch?v=4nFViDASGhg&t=987s) |  |
-| Natural language instructions | status not stated | [20:53](https://www.youtube.com/watch?v=4nFViDASGhg&t=1253s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Attachment analysis and document categorization | status not stated, demoed | [1:50](https://www.youtube.com/watch?v=4nFViDASGhg&t=110s) |
+| Custom instructions for agent guidance | status not stated, demoed | [4:55](https://www.youtube.com/watch?v=4nFViDASGhg&t=295s) |
+| Custom email signature | status not stated, demoed | [6:43](https://www.youtube.com/watch?v=4nFViDASGhg&t=403s) |
+| Attachment analysis configuration | status not stated, demoed | [8:00](https://www.youtube.com/watch?v=4nFViDASGhg&t=480s) |
+| Autonomous processing for registered senders | status not stated, demoed | [9:03](https://www.youtube.com/watch?v=4nFViDASGhg&t=543s) |
+| Capable to promise integration | status not stated, demoed | [10:56](https://www.youtube.com/watch?v=4nFViDASGhg&t=656s) |
+| Item availability checking with filters | status not stated, demoed | [3:22](https://www.youtube.com/watch?v=4nFViDASGhg&t=202s) |
+| Autonomous sales order creation | status not stated, demoed | [17:06](https://www.youtube.com/watch?v=4nFViDASGhg&t=1026s) |
+| Agent review configuration options | status not stated, demoed | [16:27](https://www.youtube.com/watch?v=4nFViDASGhg&t=987s) |
+| Natural language instructions | status not stated | [20:53](https://www.youtube.com/watch?v=4nFViDASGhg&t=1253s) |
 
 ## AL objects mentioned
 
@@ -321,6 +331,7 @@ Not found in BC28-30: page "item availability page".
 - [14:36](https://www.youtube.com/watch?v=4nFViDASGhg&t=876s) "So that's exactly the the capability of the agent which is using the capable to promise feature to calculate that shipment date"
 - [16:42](https://www.youtube.com/watch?v=4nFViDASGhg&t=1002s) "Here you have a bunch of options throughout the process of the creation of sales code and an order at what point you will"
 - [17:06](https://www.youtube.com/watch?v=4nFViDASGhg&t=1026s) "What we can do now is to uncheck this option of reviewing the sales code. What it will do is basically for any request"
+- [18:30](https://www.youtube.com/watch?v=4nFViDASGhg&t=1110s) "it created the sales code and converted the uh the code to the order and the only confirmation that is required from our side"
 - [20:30](https://www.youtube.com/watch?v=4nFViDASGhg&t=1230s) "You've seen how the sales order agent can now process email attachments of different kinds. It can use the very powerful feature of capable"
 - [20:43](https://www.youtube.com/watch?v=4nFViDASGhg&t=1243s) "It can create sales orders directly from the email request skipping the unnecessary uh steps of going through the quote if that is required"
 

@@ -1,16 +1,15 @@
 {
   "video_id": "S5Xw-b8YF-c",
   "item_id": "video/yt-microsoft/S5Xw-b8YF-c",
-  "summary": "E-Documents APIs in Business Central (2025 release wave 2): five APIs and two business events for code-free integration, for example through Power Automate. Demos cover creating an e-document from SharePoint and a business event fired when the e-document service status changes to exported.",
+  "summary": "E-Documents APIs in Business Central 2025 release wave 2 add five APIs and two business events for flexible, code-free integration through Power Automate or similar tools. The demos show two flows. The first creates and processes an inbound e-document from a file uploaded to SharePoint. The second uses the 'e document service status changed' business event, filtered in the flow to the exported status, then reads the e-document, its service, the service status and the file content, and emails the result.",
   "overview": "The video explains why APIs were added to e-documents: to allow flexible, code-free integration. The delivery is five APIs and two business events. They can trigger processes from e-documents and create e-documents from external sources such as SharePoint, OneDrive or other XML sources.\n\nTwo demos follow. In the first, a flow creates an e-document in Business Central from a file in SharePoint. In the second, the business event \"e document service status changed\" starts a flow when the status becomes exported. The flow then retrieves the e-document through the APIs, including OData filtering on e-document and service data. The presenter says the APIs are not meant to be the first channel of communication, but a parallel or additional one.",
   "key_points": [
     "Delivered: five e-document APIs and two business events, aimed at flexible, code-free integration such as Power Automate.",
-    "The APIs are not intended as the first channel of communication. Use them as a parallel or additional channel.",
-    "When creating an e-document through the API, the file contents must be base 64 encoded and the e-document service must already exist.",
-    "The business event 'e document service status changed' was demoed. In the demo it fires only when the status is exported.",
-    "The flows in Power Automate or similar tools must be set up manually to react to the event, for example to forward the e-document by email or to a custom service.",
-    "OData filter queries can be used on e-document and e-document service data, for example by entry number and service code. This needs OData syntax knowledge.",
-    "The video says the APIs also allow new custom agents built with Copilot Studio, which needs a Copilot Studio license. This was not demonstrated."
+    "The APIs are not intended as the first channel of communication. They are meant as a parallel or additional channel, for example SharePoint, OneDrive or a different mail service for specific customers.",
+    "When creating an e-document through the API, the file contents must be base 64 encoded and the selected e-document service must already exist. You can choose whether to process the document right away or leave it for manual processing.",
+    "The 'e document service status changed' business event fires when an e-document service status changes. The demo flow uses a condition so that it continues only when the status is exported.",
+    "The demoed APIs read the e-document, the e-document service, the specific service status (with an OData filter query on entry number and service code) and the file content (decoded from base 64).",
+    "The video says the APIs also make it possible to build new custom agents with Copilot Studio. This was not demonstrated."
   ],
   "audience": [
     "developer",

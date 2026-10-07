@@ -1,0 +1,33 @@
+{
+  "video_id": "M1S2_bgLd3Q",
+  "item_id": "video/yt-microsoft/M1S2_bgLd3Q",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Quote 846.4 mostly repeats quote 831.6, so it is dropped as a duplicate.",
+    "Quote 817.3 only points to another session and adds no facts, so it is dropped.",
+    "Key point and on-prem feature said SQL Server 2025 is 'only in Azure'. The transcript says it is available in Azure SQL but 'not available yet' on-premises. Reworded.",
+    "Key point on server-side analysis mode left out the query case. Added it.",
+    "Set the Word addin data picker to ga ('shipping in this wave') and the preview semantic similarity search toggle to preview (the toggle is named 'preview'). Both have verbatim evidence.",
+    "Added quotes on when not to use truncate and on embedding vectors being removed when the database is exported.",
+    "All other quotes are verbatim, including spans that cross segment boundaries. Feature descriptions are otherwise supported by the transcript."
+  ],
+  "input_hash": "c03a2aab0f6922ccc99cb9e6683d6880d5da86b464bd00094ed462402e7f739d",
+  "by": "opus",
+  "at": "2026-10-07T22:54:01.669Z",
+  "applied": [
+    "Word addin data picker: status ga",
+    "Preview semantic similarity search toggle: status preview",
+    "dropped 2 quote(s)",
+    "quote at 259s",
+    "quote at 1126s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.15292899999999998
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "video_id": "SH4Ffukj3P4",
+  "item_id": "video/yt-microsoft/SH4Ffukj3P4",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Every feature's evidence_t pointed at the feature's own segment, but the shared evidence quote 'go try out the public preview view of C-Pilot's autofill feature' starts in segment t=222. Corrected evidence_t to 222.",
+    "The Bing search toggle on the Copilot and agent capabilities page is an admin setting. The transcript never gives its release status, so I set it to unclear.",
+    "The last key point said 'not all fields may support web search', which is weakly grounded. It also left out the stated availability across all countries, languages and environment types. Rewrote it.",
+    "Quotes are verbatim and the summary is supported."
+  ],
+  "input_hash": "858ac9dd8b213976348719fd5f04160206b3fc0a5ef6009e4674dc134d35e4a8",
+  "by": "opus",
+  "at": "2026-10-07T22:54:23.264Z",
+  "applied": [
+    "Copilot Autofill with Web Search for Contact Details: status preview",
+    "Info Tips for Transparency: status preview",
+    "Keep All Button: status preview",
+    "Copilot Autofill Beyond Web Search: status preview",
+    "Enable Bing Search in Copilot and Agent Capabilities: status unclear",
+    "Autofill Keyboard Shortcuts: status preview",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.072885
+  }
+}

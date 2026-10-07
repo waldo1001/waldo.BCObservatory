@@ -1,0 +1,35 @@
+{
+  "video_id": "k0pugXY4CEw",
+  "item_id": "video/yt-microsoft/k0pugXY4CEw",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "The transcript says e-file direct to IRIS is 'officially available' in 2025 release wave 2 and was also added to minor version 26.5. The page left this as unclear and did not mention 26.5. I set the status to GA and added the 26.5 detail to the summary and key points.",
+    "The feature named 'IRS portal A2A integration for on-premise users' contradicts the transcript. On-prem users do not get A2A; they create files and upload them manually. I dropped it, since the key points already cover the manual path.",
+    "The key point said corrections go out as a 'replacement transmission'. In the transcript, replacement transmissions are for fixing IRS errors. A correction sends only the lines marked 'needs correction'. I fixed the key point.",
+    "The transcript says email sending 'can protect' you and the vendor, not that it is encrypted. I softened the key point to match.",
+    "I dropped the quote at 33.5. It is a truncated fragment that adds nothing.",
+    "The 1086/1089 numbering is garbled in the captions, probably 1096/1099. The page follows the captions, which is acceptable."
+  ],
+  "input_hash": "71142dd4bc64f79d8321ef55bf8d5b5fc75fe57f563bd1b2179d0a71f5fca081",
+  "by": "opus",
+  "at": "2026-10-07T22:53:40.268Z",
+  "applied": [
+    "dropped 1 feature(s)",
+    "1086 form deprecation: status announced",
+    "dropped 1 quote(s)",
+    "quote at 184s",
+    "quote at 109s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [
+    "status 1099 electronic filing to IRS -> ga: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.094529
+  }
+}

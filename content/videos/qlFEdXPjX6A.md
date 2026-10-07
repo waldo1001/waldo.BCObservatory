@@ -18,12 +18,12 @@ tags:
   - vs code
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:53:51.306Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:53:51.340Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -253,7 +253,7 @@ quotes:
 
 > AL language changes in Business Central 2025 release wave 2: allowing customizations options, field mask type, document extended data type, report tooltips, truncate method, record ID formats, namespace metadata column, AI test type, and VS Code cancellation token propagation. Feature status is not stated in the video.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=qlFEdXPjX6A) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-10-01 · 12:00 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=qlFEdXPjX6A) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-10-01 · 12:00 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -284,27 +284,27 @@ It then covers field and page features (mask type, the document extended data ty
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Allowing Customizations Property Updates | status not stated, demoed | [0:27](https://www.youtube.com/watch?v=qlFEdXPjX6A&t=27s) |  |
-| Mask Type Property on Fields | status not stated, demoed | [2:05](https://www.youtube.com/watch?v=qlFEdXPjX6A&t=125s) |  |
-| Document Extended Data Type Option | status not stated, demoed | [2:21](https://www.youtube.com/watch?v=qlFEdXPjX6A&t=141s) |  |
-| Code Cup Rule for Auto Format Properties | status not stated | [2:46](https://www.youtube.com/watch?v=qlFEdXPjX6A&t=166s) |  |
-| Summary Fact Box Control | status not stated, demoed | [3:39](https://www.youtube.com/watch?v=qlFEdXPjX6A&t=219s) |  |
-| Report Tooltips | status not stated, demoed | [5:33](https://www.youtube.com/watch?v=qlFEdXPjX6A&t=333s) |  |
-| Truncate Method on Tables | status not stated | [6:11](https://www.youtube.com/watch?v=qlFEdXPjX6A&t=371s) |  |
-| Lock Timeout Duration Method | status not stated | [6:46](https://www.youtube.com/watch?v=qlFEdXPjX6A&t=406s) |  |
-| Record Reference Field Access Methods | status not stated | [7:01](https://www.youtube.com/watch?v=qlFEdXPjX6A&t=421s) |  |
-| Create Sequential GUID Method | status not stated | [7:22](https://www.youtube.com/watch?v=qlFEdXPjX6A&t=442s) |  |
-| Update Audit Fields Property on Data Transfer Objects | status not stated | [7:37](https://www.youtube.com/watch?v=qlFEdXPjX6A&t=457s) |  |
-| Text Constant Methods | status not stated, demoed | [7:58](https://www.youtube.com/watch?v=qlFEdXPjX6A&t=478s) |  |
-| Record ID Formatting Enhancements | status not stated, demoed | [8:20](https://www.youtube.com/watch?v=qlFEdXPjX6A&t=500s) |  |
-| AL Namespace Column in Metadata Tables | status not stated, demoed | [9:28](https://www.youtube.com/watch?v=qlFEdXPjX6A&t=568s) |  |
-| External Business Event Deprecation | status not stated | [9:55](https://www.youtube.com/watch?v=qlFEdXPjX6A&t=595s) |  |
-| User Control Obsolescence | status not stated | [10:13](https://www.youtube.com/watch?v=qlFEdXPjX6A&t=613s) |  |
-| AI Test Type | status not stated | [10:26](https://www.youtube.com/watch?v=qlFEdXPjX6A&t=626s) |  |
-| Required Test Isolation Property | status not stated | [10:26](https://www.youtube.com/watch?v=qlFEdXPjX6A&t=626s) |  |
-| Cancellation Token Propagation in VS Code | status not stated, demoed | [10:59](https://www.youtube.com/watch?v=qlFEdXPjX6A&t=659s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Allowing Customizations Property Updates | status not stated, demoed | [0:27](https://www.youtube.com/watch?v=qlFEdXPjX6A&t=27s) |
+| Mask Type Property on Fields | status not stated, demoed | [2:05](https://www.youtube.com/watch?v=qlFEdXPjX6A&t=125s) |
+| Document Extended Data Type Option | status not stated, demoed | [2:21](https://www.youtube.com/watch?v=qlFEdXPjX6A&t=141s) |
+| Code Cup Rule for Auto Format Properties | status not stated | [2:46](https://www.youtube.com/watch?v=qlFEdXPjX6A&t=166s) |
+| Summary Fact Box Control | status not stated, demoed | [3:39](https://www.youtube.com/watch?v=qlFEdXPjX6A&t=219s) |
+| Report Tooltips | status not stated, demoed | [5:33](https://www.youtube.com/watch?v=qlFEdXPjX6A&t=333s) |
+| Truncate Method on Tables | status not stated | [6:11](https://www.youtube.com/watch?v=qlFEdXPjX6A&t=371s) |
+| Lock Timeout Duration Method | status not stated | [6:46](https://www.youtube.com/watch?v=qlFEdXPjX6A&t=406s) |
+| Record Reference Field Access Methods | status not stated | [7:01](https://www.youtube.com/watch?v=qlFEdXPjX6A&t=421s) |
+| Create Sequential GUID Method | status not stated | [7:22](https://www.youtube.com/watch?v=qlFEdXPjX6A&t=442s) |
+| Update Audit Fields Property on Data Transfer Objects | status not stated | [7:37](https://www.youtube.com/watch?v=qlFEdXPjX6A&t=457s) |
+| Text Constant Methods | status not stated, demoed | [7:58](https://www.youtube.com/watch?v=qlFEdXPjX6A&t=478s) |
+| Record ID Formatting Enhancements | status not stated, demoed | [8:20](https://www.youtube.com/watch?v=qlFEdXPjX6A&t=500s) |
+| AL Namespace Column in Metadata Tables | status not stated, demoed | [9:28](https://www.youtube.com/watch?v=qlFEdXPjX6A&t=568s) |
+| External Business Event Deprecation | status not stated | [9:55](https://www.youtube.com/watch?v=qlFEdXPjX6A&t=595s) |
+| User Control Obsolescence | status not stated | [10:13](https://www.youtube.com/watch?v=qlFEdXPjX6A&t=613s) |
+| AI Test Type | status not stated | [10:26](https://www.youtube.com/watch?v=qlFEdXPjX6A&t=626s) |
+| Required Test Isolation Property | status not stated | [10:26](https://www.youtube.com/watch?v=qlFEdXPjX6A&t=626s) |
+| Cancellation Token Propagation in VS Code | status not stated, demoed | [10:59](https://www.youtube.com/watch?v=qlFEdXPjX6A&t=659s) |
 
 ## AL objects mentioned
 

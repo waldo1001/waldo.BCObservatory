@@ -2,7 +2,7 @@
 id: video/q0TxpWfm9rc
 type: video
 title: "What's New: Enhancements to Copilot Summaries (2025 release wave 2)"
-summary: "Copilot summaries in Business Central (2025 release wave 2): summary generation is 50% faster, summaries are interactive, show filter awareness, can be copied and shared, support 20 more languages, and can be configured per page by developers in AL."
+summary: "Copilot summaries in Business Central (2025 release wave 2): summary generation is 50% faster, summaries take list filters into account, they can be copied and shared, 20 more languages are supported besides English, and developers can turn summarization on or off per page in AL. The video says these are already available for all Business Central online countries, regions and environment types, and work on all card and document pages."
 tier: official
 language: en
 tags:
@@ -16,12 +16,12 @@ tags:
   - summary sharing
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:53:56.836Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:53:56.880Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -48,7 +48,7 @@ evidence:
     date: "2025-10-01T00:00:00Z"
     commit: null
     t: 241
-    quote: Summarize with copilot has been available in all regions and in all localizations and it is also available in all languages but only English
+    quote: only English was supported until this release and now we support 20 more languages.
   - kind: video
     url: https://www.youtube.com/watch?v=q0TxpWfm9rc&t=271s
     title: "What's New: Enhancements to Copilot Summaries (2025 release wave 2)"
@@ -63,6 +63,13 @@ evidence:
     commit: null
     t: 296
     quote: it is already available for all business central online countries and regions. And it's also available for all type of environments in all languages
+  - kind: video
+    url: https://www.youtube.com/watch?v=q0TxpWfm9rc&t=312s
+    title: "What's New: Enhancements to Copilot Summaries (2025 release wave 2)"
+    date: "2025-10-01T00:00:00Z"
+    commit: null
+    t: 312
+    quote: Now it's with support of 20 languages and it works with all all card and document pages.
 links:
   learn: []
   objects:
@@ -155,7 +162,7 @@ quotes:
     text: one of the new enhancements that we have done is that the summary generation process is 50% faster
     check: exact
   - t: 241
-    text: Summarize with copilot has been available in all regions and in all localizations and it is also available in all languages but only English
+    text: only English was supported until this release and now we support 20 more languages.
     check: exact
   - t: 271
     text: from this release onwards, we are also introducing and developer way for configuring whether they want the summarization uh on a certain page uh
@@ -163,13 +170,16 @@ quotes:
   - t: 296
     text: it is already available for all business central online countries and regions. And it's also available for all type of environments in all languages
     check: exact
+  - t: 312
+    text: Now it's with support of 20 languages and it works with all all card and document pages.
+    check: exact
 ---
 
 # What's New: Enhancements to Copilot Summaries (2025 release wave 2)
 
-> Copilot summaries in Business Central (2025 release wave 2): summary generation is 50% faster, summaries are interactive, show filter awareness, can be copied and shared, support 20 more languages, and can be configured per page by developers in AL.
+> Copilot summaries in Business Central (2025 release wave 2): summary generation is 50% faster, summaries take list filters into account, they can be copied and shared, 20 more languages are supported besides English, and developers can turn summarization on or off per page in AL. The video says these are already available for all Business Central online countries, regions and environment types, and work on all card and document pages.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=q0TxpWfm9rc) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-10-01 · 5:30 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=q0TxpWfm9rc) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-10-01 · 5:30 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -180,12 +190,12 @@ It also covers showing more insights and continuing the conversation with Copilo
 ## Key points
 
 - Summary generation is 50% faster than in the previous release.
-- Summaries are interactive: clicking a field or interaction highlights it and opens the related page where the insight came from.
+- Popular pages such as the customer card have new fields that give Copilot more data for richer insights.
+- Summaries are interactive: clicking a field or interaction highlights it and opens the related page the insight came from.
 - Show more generates additional insights beyond the initial summary, and the user can continue the conversation with Copilot.
-- Summaries can be copied and shared with co-workers through Teams or other media in a formatted layout.
-- Summaries take into account filters carried from list view to card view, as shown with the chart of accounts.
+- Summaries can be copied (from the FactBox option or with Ctrl+C) and shared with co-workers through Teams or other media in a formatted layout.
+- Summaries take into account filters carried from the list to the card, as shown with the chart of accounts.
 - Summarize with Copilot now supports 20 more languages beyond English.
-- Developers can use AL to configure whether summarization is enabled on a page, but they do not have direct access to influence the summary content.
 
 ## Chapters
 
@@ -200,16 +210,16 @@ It also covers showing more insights and continuing the conversation with Copilo
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| 50% Faster Summary Generation | status not stated, demoed | [1:16](https://www.youtube.com/watch?v=q0TxpWfm9rc&t=76s) |  |
-| Interactive Summary with Field Highlighting | status not stated, demoed | [1:57](https://www.youtube.com/watch?v=q0TxpWfm9rc&t=117s) |  |
-| Show More Insights | status not stated, demoed | [2:15](https://www.youtube.com/watch?v=q0TxpWfm9rc&t=135s) |  |
-| Copy and Share Summary | status not stated, demoed | [2:57](https://www.youtube.com/watch?v=q0TxpWfm9rc&t=177s) |  |
-| Filter Awareness in Summaries | status not stated, demoed | [3:24](https://www.youtube.com/watch?v=q0TxpWfm9rc&t=204s) |  |
-| Multi-Language Support for Summaries | status not stated, demoed | [4:01](https://www.youtube.com/watch?v=q0TxpWfm9rc&t=241s) |  |
-| Developer Configuration for Summarization | status not stated | [4:31](https://www.youtube.com/watch?v=q0TxpWfm9rc&t=271s) |  |
-| Enhanced Fields for Richer Insights | status not stated, demoed | [1:43](https://www.youtube.com/watch?v=q0TxpWfm9rc&t=103s) |  |
+| Feature | Status | At |
+|---|---|---|
+| 50% Faster Summary Generation | status not stated, demoed | [1:16](https://www.youtube.com/watch?v=q0TxpWfm9rc&t=76s) |
+| Interactive Summary with Field Highlighting | status not stated, demoed | [1:57](https://www.youtube.com/watch?v=q0TxpWfm9rc&t=117s) |
+| Show More Insights | status not stated, demoed | [2:15](https://www.youtube.com/watch?v=q0TxpWfm9rc&t=135s) |
+| Copy and Share Summary | status not stated, demoed | [2:57](https://www.youtube.com/watch?v=q0TxpWfm9rc&t=177s) |
+| Filter Awareness in Summaries | status not stated, demoed | [3:24](https://www.youtube.com/watch?v=q0TxpWfm9rc&t=204s) |
+| Multi-Language Support for Summaries | status not stated, demoed | [4:01](https://www.youtube.com/watch?v=q0TxpWfm9rc&t=241s) |
+| Developer Configuration for Summarization | status not stated | [4:31](https://www.youtube.com/watch?v=q0TxpWfm9rc&t=271s) |
+| Enhanced Fields for Richer Insights | status not stated, demoed | [1:43](https://www.youtube.com/watch?v=q0TxpWfm9rc&t=103s) |
 
 ## AL objects mentioned
 
@@ -222,8 +232,9 @@ As heard in the captions. A name that matches one object page by exact type and 
 
 - [0:05](https://www.youtube.com/watch?v=q0TxpWfm9rc&t=5s) "Copilot is your AI assistant for work and it has an ability now to summarize any record on business central"
 - [1:16](https://www.youtube.com/watch?v=q0TxpWfm9rc&t=76s) "one of the new enhancements that we have done is that the summary generation process is 50% faster"
-- [4:01](https://www.youtube.com/watch?v=q0TxpWfm9rc&t=241s) "Summarize with copilot has been available in all regions and in all localizations and it is also available in all languages but only English"
+- [4:01](https://www.youtube.com/watch?v=q0TxpWfm9rc&t=241s) "only English was supported until this release and now we support 20 more languages."
 - [4:31](https://www.youtube.com/watch?v=q0TxpWfm9rc&t=271s) "from this release onwards, we are also introducing and developer way for configuring whether they want the summarization uh on a certain page uh"
 - [4:56](https://www.youtube.com/watch?v=q0TxpWfm9rc&t=296s) "it is already available for all business central online countries and regions. And it's also available for all type of environments in all languages"
+- [5:12](https://www.youtube.com/watch?v=q0TxpWfm9rc&t=312s) "Now it's with support of 20 languages and it works with all all card and document pages."
 
 Presenters (as heard): Monica Aja.

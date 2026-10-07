@@ -2,7 +2,7 @@
 id: video/k0pugXY4CEw
 type: video
 title: "What's New: IRS1099 Integration with IRIS (2025 release wave 2)"
-summary: IRS 1099 electronic filing with the IRIS portal in Business Central, 2025 release wave 2. Covers the A2A integration for cloud users, manual file upload for on-premise users, 1099 substitution forms, planned 1086 deprecation, and a demo of creating, sending, tracking and correcting 1099 forms.
+summary: "IRS 1099 electronic filing with the IRIS portal in Business Central: officially available in 2025 release wave 2 and also added to minor version 26.5. Covers full A2A integration for cloud users, manual file upload for on-prem users (also an option for cloud users), 1099 substitution forms for vendors, and the planned 1086 deprecation. Includes a demo of creating, sending, tracking and correcting 1099 forms."
 tier: official
 language: en
 tags:
@@ -18,12 +18,12 @@ tags:
   - transmission history
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:53:40.268Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:53:40.309Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -38,19 +38,19 @@ evidence:
     t: 161
     quote: And the future for 1086 form, we will deprecate this functionality because you do not need 1089 1086 when you are uh deploying 1089
   - kind: video
-    url: https://www.youtube.com/watch?v=k0pugXY4CEw&t=33s
-    title: "What's New: IRS1099 Integration with IRIS (2025 release wave 2)"
-    date: "2025-10-01T00:00:00Z"
-    commit: null
-    t: 33
-    quote: now you can save the time with the seamless integration you just need to upload to
-  - kind: video
     url: https://www.youtube.com/watch?v=k0pugXY4CEw&t=95s
     title: "What's New: IRS1099 Integration with IRIS (2025 release wave 2)"
     date: "2025-10-01T00:00:00Z"
     commit: null
     t: 95
     quote: For Iris submission, if you're cloud user, you will have fully A2A integration with the Iris portal.
+  - kind: video
+    url: https://www.youtube.com/watch?v=k0pugXY4CEw&t=109s
+    title: "What's New: IRS1099 Integration with IRIS (2025 release wave 2)"
+    date: "2025-10-01T00:00:00Z"
+    commit: null
+    t: 109
+    quote: For on-prem users, you can create uh fire files and manually download and upload to the fire.
   - kind: video
     url: https://www.youtube.com/watch?v=k0pugXY4CEw&t=161s
     title: "What's New: IRS1099 Integration with IRIS (2025 release wave 2)"
@@ -65,6 +65,13 @@ evidence:
     commit: null
     t: 184
     quote: So now we have this E file direct to Oris and it is officially available from two uh 2000 release wave 2 but even
+  - kind: video
+    url: https://www.youtube.com/watch?v=k0pugXY4CEw&t=184s
+    title: "What's New: IRS1099 Integration with IRIS (2025 release wave 2)"
+    date: "2025-10-01T00:00:00Z"
+    commit: null
+    t: 184
+    quote: but even we updated uh last minor 26.5. So you can switch and you can report from both these versions.
   - kind: video
     url: https://www.youtube.com/watch?v=k0pugXY4CEw&t=268s
     title: "What's New: IRS1099 Integration with IRIS (2025 release wave 2)"
@@ -153,27 +160,25 @@ features:
     t: 289
     verified: false
     status_source: video
-  - name: IRS portal A2A integration for on-premise users
-    status: unclear
-    t: 95
-    verified: false
-    status_source: video
 objects_mentioned:
   - page iris transmissions
   - page transmission history
   - page 1099 form document card
 quotes:
-  - t: 33
-    text: now you can save the time with the seamless integration you just need to upload to
-    check: fuzzy
   - t: 95
     text: For Iris submission, if you're cloud user, you will have fully A2A integration with the Iris portal.
+    check: exact
+  - t: 109
+    text: For on-prem users, you can create uh fire files and manually download and upload to the fire.
     check: exact
   - t: 161
     text: And the future for 1086 form, we will deprecate this functionality because you do not need 1089 1086 when you are uh deploying 1089
     check: exact
   - t: 184
     text: So now we have this E file direct to Oris and it is officially available from two uh 2000 release wave 2 but even
+    check: exact
+  - t: 184
+    text: but even we updated uh last minor 26.5. So you can switch and you can report from both these versions.
     check: exact
   - t: 268
     text: Business central will check if all the necessary data is filled in correctly, create the XML and send it to the IRS.
@@ -185,9 +190,9 @@ quotes:
 
 # What's New: IRS1099 Integration with IRIS (2025 release wave 2)
 
-> IRS 1099 electronic filing with the IRIS portal in Business Central, 2025 release wave 2. Covers the A2A integration for cloud users, manual file upload for on-premise users, 1099 substitution forms, planned 1086 deprecation, and a demo of creating, sending, tracking and correcting 1099 forms.
+> IRS 1099 electronic filing with the IRIS portal in Business Central: officially available in 2025 release wave 2 and also added to minor version 26.5. Covers full A2A integration for cloud users, manual file upload for on-prem users (also an option for cloud users), 1099 substitution forms for vendors, and the planned 1086 deprecation. Includes a demo of creating, sending, tracking and correcting 1099 forms.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=k0pugXY4CEw) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-10-01 · 7:16 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=k0pugXY4CEw) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-10-01 · 7:16 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -197,13 +202,13 @@ The demo covers setting up and creating 1099 form documents, combining released 
 
 ## Key points
 
-- Cloud users get full A2A integration with the IRIS portal; on-premise users create files and upload them manually to IRIS.
-- 1099 form documents calculate total payment amounts for each vendor automatically.
-- Several released 1099 form documents can be combined into one transmission. Business Central checks that the required data is filled in, creates the XML and sends it to the IRS.
+- E-file direct to IRIS is officially available from 2025 release wave 2 and was also added to minor version 26.5, so you can report from either version.
+- Cloud users get full A2A integration with the IRIS portal. On-prem users create files and upload them manually to IRIS, and cloud users can do this too.
+- 1099 form documents calculate total payment amounts for each vendor automatically. Verify the amounts and release each document.
+- On the IRIS transmissions page, create an IRIS transmission for a reporting period to combine the released documents. Business Central checks the required data, creates the XML and sends it to the IRS. If the IRS returns errors, fix them and send a replacement transmission.
 - Transmission history shows when each transmission was sent, its type and status. IRS acknowledgement content can be downloaded as XML to review statuses and errors.
-- To correct a form after IRS acceptance, use the allow correction action first, then reopen the document. Corrected lines are marked, and the replacement transmission carries only the corrected amounts.
-- 1099 substitution forms are PDFs that can be emailed (optionally encrypted, with vendor consent) or printed and mailed.
-- The 1086 form functionality is announced for deprecation, because electronic 1089 submission removes the need for 1086.
+- To correct a form after IRS acceptance, use the allow correction action, reopen the document, correct the amount and release it. The transmission line is marked as needing correction, only those lines are sent, and afterwards they are marked as corrected.
+- 1099 substitution forms are PDFs that can be emailed to vendors with their consent, with protection for both sides, or printed and mailed.
 
 ## Chapters
 
@@ -227,7 +232,6 @@ The demo covers setting up and creating 1099 form documents, combining released 
 | 1099 substitution forms | status not stated | [2:11](https://www.youtube.com/watch?v=k0pugXY4CEw&t=131s) |  |
 | 1086 form deprecation | announced | [2:41](https://www.youtube.com/watch?v=k0pugXY4CEw&t=161s) | "And the future for 1086 form, we will deprecate this functionality because you do not need 1089 1086 when you are uh deploying 1089" ([2:41](https://www.youtube.com/watch?v=k0pugXY4CEw&t=161s)) |
 | Transmission history and acknowledgement tracking | status not stated, demoed | [4:49](https://www.youtube.com/watch?v=k0pugXY4CEw&t=289s) |  |
-| IRS portal A2A integration for on-premise users | status not stated | [1:35](https://www.youtube.com/watch?v=k0pugXY4CEw&t=95s) |  |
 
 ## AL objects mentioned
 
@@ -241,10 +245,11 @@ Not found in BC28-30: page "iris transmissions", page "transmission history", pa
 
 ## Quotes
 
-- [0:33](https://www.youtube.com/watch?v=k0pugXY4CEw&t=33s) "now you can save the time with the seamless integration you just need to upload to"
 - [1:35](https://www.youtube.com/watch?v=k0pugXY4CEw&t=95s) "For Iris submission, if you're cloud user, you will have fully A2A integration with the Iris portal."
+- [1:49](https://www.youtube.com/watch?v=k0pugXY4CEw&t=109s) "For on-prem users, you can create uh fire files and manually download and upload to the fire."
 - [2:41](https://www.youtube.com/watch?v=k0pugXY4CEw&t=161s) "And the future for 1086 form, we will deprecate this functionality because you do not need 1089 1086 when you are uh deploying 1089"
 - [3:04](https://www.youtube.com/watch?v=k0pugXY4CEw&t=184s) "So now we have this E file direct to Oris and it is officially available from two uh 2000 release wave 2 but even"
+- [3:04](https://www.youtube.com/watch?v=k0pugXY4CEw&t=184s) "but even we updated uh last minor 26.5. So you can switch and you can report from both these versions."
 - [4:28](https://www.youtube.com/watch?v=k0pugXY4CEw&t=268s) "Business central will check if all the necessary data is filled in correctly, create the XML and send it to the IRS."
 - [5:43](https://www.youtube.com/watch?v=k0pugXY4CEw&t=343s) "But you cannot just do it. You firstly need to allow the document to be corrected. Select the allow correction action and reopen the"
 

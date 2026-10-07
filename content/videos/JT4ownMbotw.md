@@ -2,7 +2,7 @@
 id: video/JT4ownMbotw
 type: video
 title: "What's New: Manufacturing Analytics (2025 release wave 2)"
-summary: "Manufacturing analytics changes in Business Central 2025 release wave 2: an updated PowerBI app showing capacity measures in one chosen unit of measure, Excel and Word layouts for manufacturing reports, and in-client help for reports. The report modernization was postponed from 26.2 to version 27.0."
+summary: "Manufacturing analytics in Business Central 2025 release wave 2 (version 27.0): the PowerBI app for manufacturing now shows all capacity measures in one unit of measure chosen in manufacturing setup. Manufacturing reports get Excel and Word layouts plus in-client help and teaching tips linked to Microsoft Learn. Six updated and two new reports were postponed from 26.2 and now ship in 27.0 along with three more, and the landing page at aka.ms/bc-manufacturing-analytics collects related resources."
 tier: official
 language: en
 tags:
@@ -16,12 +16,12 @@ tags:
   - manufacturing reports
 system: manufacturing
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:53:33.573Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:53:33.618Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -57,12 +57,12 @@ evidence:
     t: 391
     quote: We needed to postpone that until version 27.0
   - kind: video
-    url: https://www.youtube.com/watch?v=JT4ownMbotw&t=401s
+    url: https://www.youtube.com/watch?v=JT4ownMbotw&t=421s
     title: "What's New: Manufacturing Analytics (2025 release wave 2)"
     date: "2025-10-01T00:00:00Z"
     commit: null
-    t: 401
-    quote: all of these reports are there as well as three more so on the bottom here you can see quantity explosion of
+    t: 421
+    quote: So all the reports that we postponed plus three new is what you get here in version 27.0.
 links:
   learn: []
   objects: []
@@ -142,16 +142,16 @@ quotes:
   - t: 391
     text: We needed to postpone that until version 27.0
     check: exact
-  - t: 401
-    text: all of these reports are there as well as three more so on the bottom here you can see quantity explosion of
-    check: fuzzy
+  - t: 421
+    text: So all the reports that we postponed plus three new is what you get here in version 27.0.
+    check: exact
 ---
 
 # What's New: Manufacturing Analytics (2025 release wave 2)
 
-> Manufacturing analytics changes in Business Central 2025 release wave 2: an updated PowerBI app showing capacity measures in one chosen unit of measure, Excel and Word layouts for manufacturing reports, and in-client help for reports. The report modernization was postponed from 26.2 to version 27.0.
+> Manufacturing analytics in Business Central 2025 release wave 2 (version 27.0): the PowerBI app for manufacturing now shows all capacity measures in one unit of measure chosen in manufacturing setup. Manufacturing reports get Excel and Word layouts plus in-client help and teaching tips linked to Microsoft Learn. Six updated and two new reports were postponed from 26.2 and now ship in 27.0 along with three more, and the landing page at aka.ms/bc-manufacturing-analytics collects related resources.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=JT4ownMbotw) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-10-01 · 9:35 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=JT4ownMbotw) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-10-01 · 9:35 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -181,13 +181,13 @@ The PowerBI app now shows every capacity-related measure in a universal unit of 
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| PowerBI app for manufacturing | status not stated, demoed | [0:33](https://www.youtube.com/watch?v=JT4ownMbotw&t=33s) |  |
-| Excel layouts for manufacturing reports | status not stated, demoed | [3:25](https://www.youtube.com/watch?v=JT4ownMbotw&t=205s) |  |
-| In-client help and teaching tips for reports | status not stated, demoed | [3:43](https://www.youtube.com/watch?v=JT4ownMbotw&t=223s) |  |
-| Manufacturing reports with modernized layouts | status not stated, demoed | [6:19](https://www.youtube.com/watch?v=JT4ownMbotw&t=379s) |  |
-| Manufacturing analytics landing page | status not stated | [7:12](https://www.youtube.com/watch?v=JT4ownMbotw&t=432s) |  |
+| Feature | Status | At |
+|---|---|---|
+| PowerBI app for manufacturing | status not stated, demoed | [0:33](https://www.youtube.com/watch?v=JT4ownMbotw&t=33s) |
+| Excel layouts for manufacturing reports | status not stated, demoed | [3:25](https://www.youtube.com/watch?v=JT4ownMbotw&t=205s) |
+| In-client help and teaching tips for reports | status not stated, demoed | [3:43](https://www.youtube.com/watch?v=JT4ownMbotw&t=223s) |
+| Manufacturing reports with modernized layouts | status not stated, demoed | [6:19](https://www.youtube.com/watch?v=JT4ownMbotw&t=379s) |
+| Manufacturing analytics landing page | status not stated | [7:12](https://www.youtube.com/watch?v=JT4ownMbotw&t=432s) |
 
 ## AL objects mentioned
 
@@ -205,7 +205,7 @@ Not found in BC28-30: report "Where Used Top Level", report "Quantity Explosion 
 - [2:04](https://www.youtube.com/watch?v=JT4ownMbotw&t=124s) "every measures every number you see in the app now show data in a universal unit of measure for capacity that you choose inside"
 - [3:25](https://www.youtube.com/watch?v=JT4ownMbotw&t=205s) "we have chosen Excel and Word as the layout options for manufacturing and analytics reports"
 - [6:31](https://www.youtube.com/watch?v=JT4ownMbotw&t=391s) "We needed to postpone that until version 27.0"
-- [6:41](https://www.youtube.com/watch?v=JT4ownMbotw&t=401s) "all of these reports are there as well as three more so on the bottom here you can see quantity explosion of"
+- [7:01](https://www.youtube.com/watch?v=JT4ownMbotw&t=421s) "So all the reports that we postponed plus three new is what you get here in version 27.0."
 
 ## Disclaimers in the video
 

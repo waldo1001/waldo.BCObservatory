@@ -17,12 +17,12 @@ tags:
   - self-hosted runners
 system: platform
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:54:20.854Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:54:20.907Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -43,6 +43,13 @@ evidence:
     commit: null
     t: 76
     quote: this is not a new feature, so I'll just speedrun through it
+  - kind: video
+    url: https://www.youtube.com/watch?v=rdnYN7czJs4&t=196s
+    title: "What's New in AL-Go for GitHub: Telemetry and Dashboards (2025 release wave 2)"
+    date: "2025-10-01T00:00:00Z"
+    commit: null
+    t: 196
+    quote: you'll see two things that needs to be changed. You need need to change the cluster URI and the database.
   - kind: video
     url: https://www.youtube.com/watch?v=rdnYN7czJs4&t=292s
     title: "What's New in AL-Go for GitHub: Telemetry and Dashboards (2025 release wave 2)"
@@ -155,6 +162,9 @@ quotes:
   - t: 76
     text: this is not a new feature, so I'll just speedrun through it
     check: exact
+  - t: 196
+    text: you'll see two things that needs to be changed. You need need to change the cluster URI and the database.
+    check: exact
   - t: 292
     text: in this starter dashboard you can see the number of repositories you're collecting telemetry for the number of workflow runs you can see the
     check: exact
@@ -173,7 +183,7 @@ quotes:
 
 > AL-Go for GitHub telemetry and the starter dashboard for monitoring many AL-Go repositories, from the 2025 release wave 2 video. It shows setting up Application Insights telemetry, importing the dashboard, and the overview, duration, runner and maintenance pages.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=rdnYN7czJs4) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-10-01 · 9:41 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=rdnYN7czJs4) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-10-01 · 9:41 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -183,13 +193,13 @@ It walks through setting up telemetry with a partner telemetry connection string
 
 ## Key points
 
-- AL-Go can log workflow telemetry to Azure Application Insights by setting a partner telemetry connection string in AL-Go settings. This is not new in this release.
-- The latest AL-Go for GitHub includes a starter dashboard. It needs Application Insights set up in Azure first.
+- AL-Go can log workflow telemetry to Azure Application Insights by setting a partner telemetry connection string in AL-Go settings (repository or organization level). This is not new in this release.
+- The latest AL-Go for GitHub includes a starter dashboard. Telemetry must be enabled first.
+- To set up the dashboard, download the file from the AL-Go repository (scenario article 'enabling telemetry'), change the cluster URI and the database (the Application Insights resource name), then import it from file at dataexplorer.azure.com.
 - The overview page shows the number of repositories, workflow run counts and failures over time, with links to the GitHub UI for investigation.
 - The duration page tracks average workflow duration over time per repository to show performance trends.
 - The runner page compares self-hosted and GitHub-hosted runners, with compute hours and Linux versus Windows usage.
 - The maintenance page shows the AL-Go version per repository, alerts when updates are available, and lists update workflow history and deprecation warnings with linked guidance.
-- The dashboard is meant as a starting point to customize. The presenter says the current version at recording is 7.3.
 
 ## Chapters
 
@@ -204,15 +214,15 @@ It walks through setting up telemetry with a partner telemetry connection string
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Starter Dashboard for AL-Go Telemetry | status not stated, demoed | [0:24](https://www.youtube.com/watch?v=rdnYN7czJs4&t=24s) |  |
-| AL-Go Telemetry to Application Insights | status not stated, demoed | [1:16](https://www.youtube.com/watch?v=rdnYN7czJs4&t=76s) |  |
-| Workflow Overview Page | status not stated, demoed | [4:16](https://www.youtube.com/watch?v=rdnYN7czJs4&t=256s) |  |
-| Workflow Duration Monitoring | status not stated, demoed | [5:38](https://www.youtube.com/watch?v=rdnYN7czJs4&t=338s) |  |
-| Runner Metrics Page | status not stated, demoed | [6:11](https://www.youtube.com/watch?v=rdnYN7czJs4&t=371s) |  |
-| AL-Go Maintenance Page | status not stated, demoed | [6:58](https://www.youtube.com/watch?v=rdnYN7czJs4&t=418s) |  |
-| AL-Go Deprecation Warnings | status not stated, demoed | [7:41](https://www.youtube.com/watch?v=rdnYN7czJs4&t=461s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Starter Dashboard for AL-Go Telemetry | status not stated, demoed | [0:24](https://www.youtube.com/watch?v=rdnYN7czJs4&t=24s) |
+| AL-Go Telemetry to Application Insights | status not stated, demoed | [1:16](https://www.youtube.com/watch?v=rdnYN7czJs4&t=76s) |
+| Workflow Overview Page | status not stated, demoed | [4:16](https://www.youtube.com/watch?v=rdnYN7czJs4&t=256s) |
+| Workflow Duration Monitoring | status not stated, demoed | [5:38](https://www.youtube.com/watch?v=rdnYN7czJs4&t=338s) |
+| Runner Metrics Page | status not stated, demoed | [6:11](https://www.youtube.com/watch?v=rdnYN7czJs4&t=371s) |
+| AL-Go Maintenance Page | status not stated, demoed | [6:58](https://www.youtube.com/watch?v=rdnYN7czJs4&t=418s) |
+| AL-Go Deprecation Warnings | status not stated, demoed | [7:41](https://www.youtube.com/watch?v=rdnYN7czJs4&t=461s) |
 
 ## AL objects mentioned
 
@@ -226,6 +236,7 @@ As heard in the captions. A name that matches one object page by exact type and 
 
 - [0:40](https://www.youtube.com/watch?v=rdnYN7czJs4&t=40s) "as the number of repositories grow in your organization then it becomes more difficult to get a full overview of of all your DevOps"
 - [1:16](https://www.youtube.com/watch?v=rdnYN7czJs4&t=76s) "this is not a new feature, so I'll just speedrun through it"
+- [3:16](https://www.youtube.com/watch?v=rdnYN7czJs4&t=196s) "you'll see two things that needs to be changed. You need need to change the cluster URI and the database."
 - [4:52](https://www.youtube.com/watch?v=rdnYN7czJs4&t=292s) "in this starter dashboard you can see the number of repositories you're collecting telemetry for the number of workflow runs you can see the"
 - [7:14](https://www.youtube.com/watch?v=rdnYN7czJs4&t=434s) "right now as we're recording this is version 7.3"
 - [8:19](https://www.youtube.com/watch?v=rdnYN7czJs4&t=499s) "this is only a starting point and it's only meant to be a starting point. You can take this dashboard and you know go"

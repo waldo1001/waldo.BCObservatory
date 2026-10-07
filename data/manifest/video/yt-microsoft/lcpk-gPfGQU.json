@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=lcpk-gPfGQU",
   "published_at": "2025-10-01T00:00:00Z",
   "language": "en",
-  "state": "linked",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:51:47.857Z"
@@ -57,8 +57,17 @@
       "objects_as_heard": 4
     },
     "published": {
-      "at": "2026-10-06T18:25:53.693Z",
+      "at": "2026-10-07T22:53:43.894Z",
       "path": "content/videos/lcpk-gPfGQU.md"
+    },
+    "reviewed": {
+      "at": "2026-10-07T22:53:43.852Z",
+      "path": "data/review/video/lcpk-gPfGQU.json",
+      "verdict": "fix",
+      "applied": 2,
+      "rejected_edits": 0,
+      "model": "claude-opus-5-5",
+      "cost_usd": 0.084217
     }
   },
   "input_hash": null,
@@ -70,5 +79,10 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b7e36f58e7843ab5c56bbeb209b8402515631613ec017de276045135b7dcc929"
+  "output_hash": "c81147ce4a16b03e58e080d12732d3c7f87e37582c7e2ff36457248a95603cbe",
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T22:53:43.848Z"
+  }
 }

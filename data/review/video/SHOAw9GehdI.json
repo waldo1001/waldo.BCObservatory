@@ -1,0 +1,26 @@
+{
+  "video_id": "SHOAw9GehdI",
+  "item_id": "video/yt-microsoft/SHOAw9GehdI",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "The transcript supports the facts, summary and quotes.",
+    "The 'Add Columns from Related Tables' description mixes up two things. The transcript (t=222.6) says 'add columns from' is the manual feature added in the last release, and Copilot now uses it. A key point now covers this.",
+    "All feature statuses stay unclear. The transcript describes this release's changes but never states preview or GA explicitly.",
+    "Added a quote marking the right-click menu productivity improvements, which had no quote."
+  ],
+  "input_hash": "9440d2baa70a5356c3e13cf41c26c13523b2ce5eef5dbb3089b49ef0dd221d1f",
+  "by": "opus",
+  "at": "2026-10-07T22:54:20.931Z",
+  "applied": [
+    "quote at 341s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.07273299999999999
+  }
+}

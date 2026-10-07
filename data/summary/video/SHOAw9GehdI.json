@@ -5,7 +5,8 @@
   "overview": "The video covers three changes to data analysis, the ad hoc analysis tool on list pages and queries. It states that more than 70% of Business Central customers use it. Copilot support for natural language analysis was added a couple of releases earlier.\n\nIn the demo, Analysis Assist adds fields from tables related to the current analysis, such as a location name. Adding data from other tables, or analyzing large data sets or query objects, switches analysis to server-side loading, where data is retrieved on demand. In that mode, flow fields cannot be calculated. Pivoting on date hierarchy (year, quarter, month) now works in server-side mode. The video also shows right-click menu productivity improvements and points to learning and community resources.",
   "key_points": [
     "Analysis Assist can now add fields from tables related to the current analysis, joining data across the data model, for example to bring in a location name.",
-    "Adding data from other tables, or analyzing large data sets or query objects, switches data analysis from client-side to server-side loading.",
+    "Users can do this manually with the 'add columns from' feature, which was added in the previous release and which Copilot now uses.",
+    "Adding data from other tables, or analyzing large data sets or query objects, switches data analysis from client-side to server-side loading, and an info message shows this.",
     "In server-side mode, flow fields and other calculated fields cannot be used.",
     "Pivoting on date hierarchy (year, quarter, month) was not possible in server-side mode before this release and now is.",
     "The right-click menu offers add to labels, group or ungroup from row groups, and a scroll into view action to navigate fields.",

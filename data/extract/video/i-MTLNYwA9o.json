@@ -113,25 +113,6 @@
       "system": "sustainability"
     },
     {
-      "name": "On-Site Energy Generation Tracking",
-      "description": "Field to specify whether energy source generation is on-site or not. Existing field in the system that can now be used in energy tracking workflows.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 161.8,
-      "t_end": 172.2,
-      "is_demoed": false,
-      "caveats": [
-        "This is not a new field, it was already in the system"
-      ],
-      "tags": [
-        "on-site generation",
-        "energy source"
-      ],
-      "system": "sustainability"
-    },
-    {
       "name": "Renewable Energy Field",
       "description": "Boolean field to mark whether energy is from renewable sources. Can override energy value requirements when set to true.",
       "status": "unclear",
@@ -225,6 +206,12 @@
       "t": 147.4,
       "text": "if you you can if you choose to enable energy value required you cannot post document without that.",
       "why_it_matters": "Clarifies the enforcement mechanism for mandatory energy data entry",
+      "check": "exact"
+    },
+    {
+      "t": 172.2,
+      "text": "This is a newable energy field. You this is boolean field. You can set to true or false. But this is something what we",
+      "why_it_matters": "Establishes that the Renewable Energy field is pre-existing, not part of this release.",
       "check": "exact"
     },
     {
