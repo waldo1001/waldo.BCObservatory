@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/12140",
+  "number": 12140,
+  "title": "[Email - SMTP Connector] Fix OAuth Base64URL token parsing",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "OAuth2 SMTP authentication now correctly decodes Base64URL tokens by normalizing them to standard Base64 before parsing, fixing intermittent authentication failures when JWT payloads contain URL-safe characters.",
+  "key_points": [
+    "Base64URL tokens are converted to standard Base64 format before decoding",
+    "Fixes authentication failures when JWT payload contains '-' or '_' characters",
+    "Regression test added to cover Base64URL-specific characters",
+    "Existing username extraction and authentication flow unchanged",
+    "Resolves issue where standard Base64 decoder raised invalid encoding errors"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": "Normalize the OAuth access-token payload from Base64URL to standard Base64 before decoding it.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003458,
+    "changes_in_call": 1
+  }
+}

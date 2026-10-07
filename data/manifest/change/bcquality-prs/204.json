@@ -6,10 +6,35 @@
   "title": "Validate composed reviews against the expected leaf worklist",
   "url": "https://github.com/microsoft/BCQuality/pull/204",
   "published_at": "2026-10-02T08:27:28Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:57:11.296Z",
+      "change_class": "code",
+      "files": 6,
+      "al": 2,
+      "objects": 0,
+      "unjoined": 2
+    },
+    "extracted": {
+      "at": "2026-10-07T12:57:16.420Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.004156
+    },
+    "linked": {
+      "at": "2026-10-07T12:57:16.422Z",
+      "objects": 0,
+      "unjoined": 2,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-10-07T12:57:16.427Z",
+      "path": "content/changes/bcquality/204.md"
     }
   },
   "input_hash": "206c5feff4160593c56edc501b52504d06b9ed6d:c1",
@@ -26,5 +51,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "validate composed reviews against the expected leaf worklist"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "1500fbe35b0ed23022ca9109e4affd434847e493db27686332af89b4c21bf23a"
 }

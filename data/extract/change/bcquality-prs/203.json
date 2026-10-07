@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcquality-prs/203",
+  "number": 203,
+  "title": "knowledge(data-modeling): Prices Including VAT decides the basis of sales/purchase/service line amounts",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "A knowledge article clarifies how the Prices Including VAT header flag affects the basis of line amount fields in sales, purchase, and service documents, distinguishing fields that follow the flag from those with fixed net or gross basis.",
+  "key_points": [
+    "Identifies which line amount fields follow the Prices Including VAT header flag and which have fixed net or gross basis",
+    "Explains that Unit Price, Direct Unit Cost, and Line Amount are affected by the header flag, while Amount and Amount Including VAT always have fixed bases",
+    "Highlights a misleading function name CalculateOutstandingAmountExclTax that is based on Line Amount and includes VAT when Prices Including VAT is enabled",
+    "Warns against reconverting prices from Price List lines since they are already converted to the document's setting",
+    "Includes good and bad code examples and is registered in the review skill"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003878,
+    "changes_in_call": 1
+  }
+}

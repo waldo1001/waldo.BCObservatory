@@ -1,0 +1,40 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12202,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12202",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-02T08:55:31Z",
+  "merge_commit_sha": "6261b1c458d8e8092d52593d1677b3a4a3b56586",
+  "author": "darjoo",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "Fix flaky Shpfy Product Collection Test (duplicate collection Id)",
+  "body_hash": "12bf84f3a70c5f7ca605522db9e50061ad59faaae8f7f1ad73c2fd17e7e4d74a",
+  "fixes_issues": [],
+  "work_items": [
+    652395
+  ],
+  "change_class": "test-only",
+  "files": [],
+  "totals": {
+    "files": 1,
+    "additions": 3,
+    "deletions": 0,
+    "al": 0
+  },
+  "join": {
+    "major": "30",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}

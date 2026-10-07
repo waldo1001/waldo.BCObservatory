@@ -1,0 +1,42 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12243,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12243",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-02T11:32:52Z",
+  "merge_commit_sha": "8adad47172a9df9d17221e18386e9adbd4019fa4",
+  "author": "mazhelez",
+  "author_type": "User",
+  "labels": [
+    "Build: Automation",
+    "Build: scripts & configs",
+    "Ownership: Needs Review",
+    "Team: Other"
+  ],
+  "community_contribution": false,
+  "title": "Make Verify App Changes robust on release-branch PRs",
+  "body_hash": "0fbcb105fc39282930a84b2826e59b92b8ad61fee09ef7a2575c7bee83239814",
+  "fixes_issues": [],
+  "work_items": [
+    652717
+  ],
+  "change_class": "build",
+  "files": [],
+  "totals": {
+    "files": 2,
+    "additions": 50,
+    "deletions": 6,
+    "al": 0
+  },
+  "join": {
+    "major": "30",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}

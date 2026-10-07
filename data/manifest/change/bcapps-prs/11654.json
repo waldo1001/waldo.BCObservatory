@@ -6,10 +6,18 @@
   "title": "Repair and re-enable Expense Agent permission and posted-history tests",
   "url": "https://github.com/microsoft/BCApps/pull/11654",
   "published_at": "2026-10-01T15:21:28Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:57:20.093Z",
+      "change_class": "code",
+      "files": 6,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
     }
   },
   "input_hash": "1714549292ff1339a72e7754523eabd470d31091:c1",
@@ -30,5 +38,8 @@
     ],
     "community_contribution": false,
     "title_key": "repair and re enable expense agent permission and posted history tests"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e1c0414a2b8c4c149e1685e175e18930e26984c13c910b7f7bd50f6a89337f15"
 }

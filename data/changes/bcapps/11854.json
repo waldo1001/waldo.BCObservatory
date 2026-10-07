@@ -1,0 +1,64 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11854,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11854",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-01T16:17:54Z",
+  "merge_commit_sha": "544057373a7a4781d3843c003c1d303eb8d8e0c2",
+  "author": "onbuyuka",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "[Shopify] Make refund currency codes read-only",
+  "body_hash": "c27a4a66fa05ee9f42ee0c688f7bc753914657c86bb14cb18aa1eac58d752a31",
+  "fixes_issues": [],
+  "work_items": [
+    651373
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Shopify/App/src/Order Refunds/Tables/ShpfyRefundHeader.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 2,
+    "deletions": 0,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Shopify/App/src/Order Refunds/Tables/ShpfyRefundHeader.Table.al",
+        "status": "modified",
+        "key": "table/30142",
+        "type": "table",
+        "id": 30142,
+        "name": "Shpfy Refund Header",
+        "app": "Shopify",
+        "cc": "w1",
+        "page": "table/30142"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "integration"
+  ],
+  "apps": [
+    "Shopify"
+  ]
+}

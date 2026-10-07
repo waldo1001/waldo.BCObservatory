@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcquality-prs/207",
+  "number": 207,
+  "title": "2 AL/BC UI patterns: client-expression in-list (AL0573) and Role Center AccessByPermission",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "Two new UI pattern articles document how to avoid client expression issues in page fields and how to properly gate role center visibility by permissions using AccessByPermission instead of triggers or procedures.",
+  "key_points": [
+    "AL0573 warning: in-list set-membership tests in Visible/Enabled/Editable/StyleExpr must be replaced with or-chains or OnAfterGetCurrRecord patterns",
+    "Role Centers cannot use triggers or procedures for permission gating due to AL0378/AL0569 errors",
+    "AccessByPermission is the declarative fix for permission-based gating on parts, actions, and fields in Role Centers",
+    "Articles explain scoping, remediation patterns, and reference real examples from BCApps",
+    "New tokens and mappings added to al-ui-review.md to guide diagnostics without over-firing on valid comparisons"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "platform",
+    "development"
+  ],
+  "quote": "AL0573, a warning that will become an error in a future release, so it builds and ships.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004742,
+    "changes_in_call": 1
+  }
+}

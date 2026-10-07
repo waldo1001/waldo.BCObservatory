@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/12117",
+  "number": 12117,
+  "title": "[Job Queue] Clearer message and attempt number for runs interrupted by the platform",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Job Queue displays a clearer message when the platform interrupts a run, including the attempt number, and adds telemetry tracking for interruptions.",
+  "key_points": [
+    "Replaces confusing 'job has stopped' error message with 'run was interrupted' message that includes the attempt number",
+    "Derives attempt number from log entries sharing the same System Task Id",
+    "Adds JobQueueInterruptedAttempt dimension to the 0000PCR telemetry signal",
+    "Helps distinguish platform interruptions from actual job failures",
+    "User-facing label text changes require retranslation and updates to any monitoring rules"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration",
+    "administration"
+  ],
+  "quote": "Replaces the message with: \"This run (attempt N) was interrupted because the service restarted or was updated.\"",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003949,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12194,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12194",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-02T09:51:28Z",
+  "merge_commit_sha": "c38d79551ed59d60a537632818e5e6670ea88c3d",
+  "author": "darjoo",
+  "author_type": "User",
+  "labels": [
+    "AL: System Application",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "Harden web request helpers: opt-in default credentials",
+  "body_hash": "6b1e9bf7431afce6ad1c7436393b2b7c05bcf8dbb727167a05691ed9baf8b488",
+  "fixes_issues": [],
+  "work_items": [
+    652511
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/System/HttpWebRequestMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 15,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/System/SOAPWebServiceRequestMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Misc/HttpWebReqMgtTests.Codeunit.al",
+      "status": "modified",
+      "additions": 19,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/TestLibraries/LibraryGraphMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/TestLibraries/NoAPITestAuthProvider.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/System Application/App/Extension Management/src/ExtensionMarketplace.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 6,
+    "additions": 51,
+    "deletions": 5,
+    "al": 3
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/System/HttpWebRequestMgt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/1297",
+        "type": "codeunit",
+        "id": 1297,
+        "name": "Http Web Request Mgt.",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/1297"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/System/SOAPWebServiceRequestMgt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/1290",
+        "type": "codeunit",
+        "id": 1290,
+        "name": "SOAP Web Service Request Mgt.",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/1290"
+      },
+      {
+        "path": "src/System Application/App/Extension Management/src/ExtensionMarketplace.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/2501",
+        "type": "codeunit",
+        "id": 2501,
+        "name": "Extension Marketplace",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "codeunit/2501"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "integration",
+    "development"
+  ],
+  "apps": [
+    "Base Application",
+    "System Application"
+  ]
+}

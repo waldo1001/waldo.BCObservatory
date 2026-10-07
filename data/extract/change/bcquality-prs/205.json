@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcquality-prs/205",
+  "number": 205,
+  "title": "Preserve business filters when recommending Record.Get",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "The performance guidance for replacing FindFirst with Record.Get now clarifies that additional business filters must be preserved, either by keeping the filtered FindFirst or by enforcing equivalent conditions after Get.",
+  "key_points": [
+    "Prevents false-positive recommendations when lookups combine full primary-key filters with other business conditions",
+    "Documents that Record.Get ignores normal record filters, only respecting security filters",
+    "Recommends two valid alternatives: retain filtered FindFirst or explicitly check business conditions after Get",
+    "Extends examples to show both the problematic pattern and correct solutions",
+    "Ensures performance recommendations do not introduce behavior-changing corrections"
+  ],
+  "change_kind": "fix",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.008582,
+    "changes_in_call": 1
+  }
+}

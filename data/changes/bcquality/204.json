@@ -1,0 +1,89 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 204,
+  "repo": "microsoft/BCQuality",
+  "source": "bcquality-prs",
+  "url": "https://github.com/microsoft/BCQuality/pull/204",
+  "base": "main",
+  "major": null,
+  "merged_at": "2026-10-02T08:27:28Z",
+  "merge_commit_sha": "206c5feff4160593c56edc501b52504d06b9ed6d",
+  "author": "demiliani",
+  "author_type": "User",
+  "labels": [],
+  "community_contribution": false,
+  "title": "Validate composed reviews against the expected leaf worklist",
+  "body_hash": "823568d63fded7699741697388b4bcda2b056e843f4c42177b70ce67cc07a02f",
+  "fixes_issues": [],
+  "work_items": [],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "docs/contributing.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "docs"
+    },
+    {
+      "path": "docs/standalone-runner.md",
+      "status": "modified",
+      "additions": 67,
+      "deletions": 2,
+      "class": "docs"
+    },
+    {
+      "path": "microsoft/skills/review/al-code-review.md",
+      "status": "modified",
+      "additions": 20,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "skills/do.md",
+      "status": "modified",
+      "additions": 49,
+      "deletions": 7,
+      "class": "al-src"
+    },
+    {
+      "path": "tools/Test-ReviewContract.ps1",
+      "status": "modified",
+      "additions": 405,
+      "deletions": 1,
+      "class": "build"
+    },
+    {
+      "path": "tools/Validate-FindingsReport.ps1",
+      "status": "modified",
+      "additions": 241,
+      "deletions": 13,
+      "class": "build"
+    }
+  ],
+  "totals": {
+    "files": 6,
+    "additions": 784,
+    "deletions": 26,
+    "al": 2
+  },
+  "join": {
+    "major": null,
+    "commit": null,
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "microsoft/skills/review/al-code-review.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "skills/do.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

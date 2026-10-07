@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcquality-prs/210",
+  "number": 210,
+  "title": "knowledge(upgrade): upgrade code must not use ChangeCompany",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "New quality rule and knowledge article prevent upgrade code from using ChangeCompany, which can cause data races, duplicate upgrades, and trigger misexecution in the calling company context.",
+  "key_points": [
+    "Adds detection rule for ChangeCompany in upgrade codeunits, Feature Data Update implementations, and helpers reachable from upgrade triggers",
+    "Explains why ChangeCompany is prohibited: per-company upgrade triggers already run in each company's own session, and using it duplicates or races upgrades and records upgrade tags in wrong companies",
+    "Documents best practices: use OnUpgradePerCompany for per-company work with per-company tags, reserve PerDatabase for shared data, and use TaskScheduler for per-company work in other companies",
+    "Updates al-upgrade-review skill with ChangeCompany, Feature Data Update, and UpdateData as worklist tokens to route findings to the new article",
+    "Rule applies to all countries and application areas; reads are intentionally included due to unknown company upgrade order"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004614,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12140,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12140",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-01T16:25:47Z",
+  "merge_commit_sha": "9e22089048684b3971d19dc52ab89d8fae4345af",
+  "author": "onbuyuka",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "[Email - SMTP Connector] Fix OAuth Base64URL token parsing",
+  "body_hash": "218244fc78adeb722ce4df39a3ae9961b490b5477cb7f019aa3de4c9a74f6297",
+  "fixes_issues": [],
+  "work_items": [
+    652319
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Email - SMTP Connector/app/src/Authentication/OAuth2SMTPAuthentication.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Email - SMTP Connector/test/src/SMTPAccountAuthTests.Codeunit.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 16,
+    "deletions": 1,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Email - SMTP Connector/app/src/Authentication/OAuth2SMTPAuthentication.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/4516",
+        "type": "codeunit",
+        "id": 4516,
+        "name": "OAuth2 SMTP Authentication",
+        "app": "Email - SMTP Connector",
+        "cc": "w1",
+        "page": "codeunit/4516"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "Email - SMTP Connector"
+  ]
+}

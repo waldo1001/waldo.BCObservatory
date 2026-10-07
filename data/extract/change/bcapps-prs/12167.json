@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/12167",
+  "number": 12167,
+  "title": "Track QuickBooks migration usage consistently",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "QuickBooks migration now consistently tracks usage by adding an uptake telemetry event and backfilling historical migrations with completed status during upgrade.",
+  "key_points": [
+    "Centralized existing completion telemetry emission for QuickBooks Online migrations",
+    "Added new feature uptake telemetry event (0000JMQ) alongside existing completion event (0000JMR)",
+    "One-time upgrade backfill detects and reports migrations completed before telemetry was introduced",
+    "Existing Product = QuickBooks Online dimension preserved for backward compatibility",
+    "Guarded by upgrade tag to ensure telemetry emits once per company"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003907,
+    "changes_in_call": 1
+  }
+}

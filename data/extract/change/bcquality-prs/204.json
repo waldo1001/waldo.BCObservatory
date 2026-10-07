@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcquality-prs/204",
+  "number": 204,
+  "title": "Validate composed reviews against the expected leaf worklist",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "Composed review validation now enforces that selected leaf worklists are executed in order and completeness is verified through expected manifests, preventing inconsistent reports that omit required domains.",
+  "key_points": [
+    "Add optional manifest validation to confirm all selected leaves are returned in correct order with matching versions",
+    "Reject duplicate producers and reject partial reports when all leaves should be returned",
+    "Distinguish budget exhaustion from configuration incompatibility in skip reasons",
+    "Coverage calculation sums non-failed leaf worklists, not slot count",
+    "Manifest-free callers still supported but cannot certify completeness"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004156,
+    "changes_in_call": 1
+  }
+}

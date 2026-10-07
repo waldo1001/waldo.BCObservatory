@@ -6,10 +6,35 @@
   "title": "Migrate Http Web Request Mgt. callers to native HttpClient",
   "url": "https://github.com/microsoft/BCApps/pull/10755",
   "published_at": "2026-10-02T09:45:43Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:57:06.752Z",
+      "change_class": "code",
+      "files": 6,
+      "al": 5,
+      "objects": 5,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T12:57:12.613Z",
+      "prompt": "extract-change@1",
+      "kind": "refactor",
+      "behavior": false,
+      "cost_usd": 0.004534
+    },
+    "linked": {
+      "at": "2026-10-07T12:57:12.758Z",
+      "objects": 5,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T12:57:12.764Z",
+      "path": "content/changes/bcapps/10755.md"
     }
   },
   "input_hash": "054085fe9121fc20624deaeacb6544f040f5c753:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "migrate http web request mgt callers to native httpclient"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e6b0a3dbdd204e3af688b317eab4c0d8a2b43a20626c88c8018e12f97bd914ed"
 }

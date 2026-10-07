@@ -1,0 +1,105 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11654,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11654",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-01T15:21:28Z",
+  "merge_commit_sha": "1714549292ff1339a72e7754523eabd470d31091",
+  "author": "t-prda",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "ExpenseManagement",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "Repair and re-enable Expense Agent permission and posted-history tests",
+  "body_hash": "001c5f6a4e1c5e55e309abd5763c50a4d3069faee19bead8983e5132459043dd",
+  "fixes_issues": [],
+  "work_items": [
+    625894,
+    650245,
+    650246,
+    650247,
+    650277,
+    650370
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/APIs/TravelRequestsAPI.Page.al",
+      "status": "modified",
+      "additions": 15,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/test/src/API/ExpenseActivityLogAPITest.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/test/src/API/TravelRequestsAPITest.Codeunit.al",
+      "status": "modified",
+      "additions": 94,
+      "deletions": 72,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/test/src/ExpensePermissionsTest.Codeunit.al",
+      "status": "modified",
+      "additions": 35,
+      "deletions": 12,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/test/src/SpendRequestTest.Codeunit.al",
+      "status": "modified",
+      "additions": 66,
+      "deletions": 40,
+      "class": "al-test"
+    },
+    {
+      "path": "src/DisabledTests/Expense_Agent_Tests/Expense_Agent_Tests.DisabledTest.json",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 81,
+      "class": "other"
+    }
+  ],
+  "totals": {
+    "files": 6,
+    "additions": 211,
+    "deletions": 210,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/APIs/TravelRequestsAPI.Page.al",
+        "status": "modified",
+        "key": "page/7134",
+        "type": "page",
+        "id": 7134,
+        "name": "Travel Requests API",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "page/7134"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "ExpenseAgent"
+  ]
+}

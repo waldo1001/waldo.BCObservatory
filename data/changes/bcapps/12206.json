@@ -1,0 +1,78 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12206,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12206",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-01T19:34:30Z",
+  "merge_commit_sha": "837ef802485ee457e52310d2ecaa08b93d0122fd",
+  "author": "nikolakukrika",
+  "author_type": "User",
+  "labels": [
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "Track C5 migration usage consistently",
+  "body_hash": "d255c07299eaf53a58bce26cca73fd37562f73b94888273047081c08643badd2",
+  "fixes_issues": [
+    12193,
+    12205
+  ],
+  "work_items": [],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/DK/C52012DataMigration/app/src/telemetry/C5Telemetry.Codeunit.al",
+      "status": "modified",
+      "additions": 72,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/DK/C52012DataMigration/app/src/upgrade/C5Upgrade.Codeunit.al",
+      "status": "added",
+      "additions": 44,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 116,
+    "deletions": 0,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "src/Apps/DK/C52012DataMigration/app/src/telemetry/C5Telemetry.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/DK/C52012DataMigration/app/src/upgrade/C5Upgrade.Codeunit.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": [],
+  "issues": [
+    {
+      "number": 12193,
+      "title": "C5 migration usage is missing from cloud migration telemetry",
+      "state": "closed"
+    },
+    {
+      "number": 12205,
+      "title": "Implement C5 migration usage telemetry",
+      "state": "closed"
+    }
+  ]
+}

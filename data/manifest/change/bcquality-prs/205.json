@@ -6,10 +6,35 @@
   "title": "Preserve business filters when recommending Record.Get",
   "url": "https://github.com/microsoft/BCQuality/pull/205",
   "published_at": "2026-10-02T11:07:20Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:57:05.750Z",
+      "change_class": "code",
+      "files": 4,
+      "al": 3,
+      "objects": 0,
+      "unjoined": 3
+    },
+    "extracted": {
+      "at": "2026-10-07T12:57:13.483Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": false,
+      "cost_usd": 0.008582
+    },
+    "linked": {
+      "at": "2026-10-07T12:57:13.484Z",
+      "objects": 0,
+      "unjoined": 3,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-10-07T12:57:13.488Z",
+      "path": "content/changes/bcquality/205.md"
     }
   },
   "input_hash": "ac249ba4c95eaef14edbe9818fcdd65561bf6a2f:c1",
@@ -26,5 +51,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "preserve business filters when recommending record get"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "64084bd028f5570a2d5f665d6a39353e9453ebdb77719973343ebee9719436e1"
 }

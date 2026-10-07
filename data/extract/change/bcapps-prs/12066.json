@@ -1,0 +1,41 @@
+{
+  "item_id": "change/bcapps-prs/12066",
+  "number": 12066,
+  "title": "Bugs/remove asm inv mfg clean27 tags for wave2 2026",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory",
+    "manufacturing",
+    "warehouse",
+    "assembly",
+    "purchasing",
+    "platform",
+    "development",
+    "sustainability"
+  ],
+  "summary": "Clean27 deprecation tags have been removed from numerous manufacturing, assembly, and inventory-related objects across localization layers and extensions, completing the cleanup for Wave 2 2026.",
+  "key_points": [
+    "Removed CLEAN27 tags from Subcontracting extension codeunits",
+    "Removed CLEAN27 tags from Sustainability Manufacturing codeunits",
+    "Removed CLEAN27 tags from base application objects across W1, APAC, DACH, ES, FI, FR, GB, IT, NA, and RU layers",
+    "Removed CLEAN27 tags from assembly, inventory, manufacturing, and planning codeunits and tables",
+    "Removed CLEAN27 tags from role centers and setup pages in localization layers"
+  ],
+  "change_kind": "obsoletion",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "assembly",
+    "inventory",
+    "manufacturing"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.015024,
+    "changes_in_call": 1
+  }
+}

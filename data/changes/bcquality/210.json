@@ -1,0 +1,106 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 210,
+  "repo": "microsoft/BCQuality",
+  "source": "bcquality-prs",
+  "url": "https://github.com/microsoft/BCQuality/pull/210",
+  "base": "main",
+  "major": null,
+  "merged_at": "2026-10-02T09:35:12Z",
+  "merge_commit_sha": "488ce50775bb1d94611191d2db83de35f7490763",
+  "author": "JesperSchulz",
+  "author_type": "User",
+  "labels": [],
+  "community_contribution": false,
+  "title": "knowledge(upgrade): upgrade code must not use ChangeCompany",
+  "body_hash": "2680aa89723cad15c465b4ea61ceb155d3fce8babe72c74cb189c16073a7d62a",
+  "fixes_issues": [],
+  "work_items": [
+    651092
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "evaluation/review-fixtures.json",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 2,
+      "class": "other"
+    },
+    {
+      "path": "microsoft/knowledge/events/changecompany-runs-triggers-in-the-calling-company.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/upgrade/no-changecompany-in-upgrade.bad.al",
+      "status": "added",
+      "additions": 41,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/upgrade/no-changecompany-in-upgrade.good.al",
+      "status": "added",
+      "additions": 96,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/upgrade/no-changecompany-in-upgrade.md",
+      "status": "added",
+      "additions": 36,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/skills/review/al-upgrade-review.md",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 5,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 6,
+    "additions": 186,
+    "deletions": 8,
+    "al": 5
+  },
+  "join": {
+    "major": null,
+    "commit": null,
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "microsoft/knowledge/events/changecompany-runs-triggers-in-the-calling-company.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/upgrade/no-changecompany-in-upgrade.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/upgrade/no-changecompany-in-upgrade.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/upgrade/no-changecompany-in-upgrade.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/skills/review/al-upgrade-review.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

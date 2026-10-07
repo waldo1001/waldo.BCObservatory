@@ -1,0 +1,34 @@
+{
+  "item_id": "change/bcapps-prs/10755",
+  "number": 10755,
+  "title": "Migrate Http Web Request Mgt. callers to native HttpClient",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development",
+    "integration",
+    "finance"
+  ],
+  "summary": "Five codeunits now use native AL HTTP types (HttpClient, HttpRequestMessage) instead of the legacy Http Web Request Mgt. codeunit for internal HTTP operations, reducing dependency on deprecated patterns while maintaining backward compatibility where needed.",
+  "key_points": [
+    "Migrated currency exchange rates, external accountant invitations, JSON structure retrieval, and OData metadata calls from legacy to native HTTP types",
+    "Preserved public API compatibility in ODataUtility by keeping the old CreateMetadataWebRequest procedure while adding new CreateMetadataRequest with native types",
+    "Simplified error handling in UpdateCurrencyExchangeRates by using direct error text instead of XML/WebException parsing",
+    "Consolidated duplicate telemetry logging in InviteExternalAccountant into a single helper",
+    "Changed internal InitializeWebRequest in GraphClient to take HttpRequestMessage instead of Http Web Request Mgt."
+  ],
+  "change_kind": "refactor",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004534,
+    "changes_in_call": 1
+  }
+}

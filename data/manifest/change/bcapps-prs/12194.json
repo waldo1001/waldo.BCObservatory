@@ -6,10 +6,35 @@
   "title": "Harden web request helpers: opt-in default credentials",
   "url": "https://github.com/microsoft/BCApps/pull/12194",
   "published_at": "2026-10-02T09:51:28Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:57:06.332Z",
+      "change_class": "code",
+      "files": 6,
+      "al": 3,
+      "objects": 3,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T12:57:11.777Z",
+      "prompt": "extract-change@1",
+      "kind": "breaking",
+      "behavior": true,
+      "cost_usd": 0.004484
+    },
+    "linked": {
+      "at": "2026-10-07T12:57:11.926Z",
+      "objects": 3,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T12:57:11.933Z",
+      "path": "content/changes/bcapps/12194.md"
     }
   },
   "input_hash": "c38d79551ed59d60a537632818e5e6670ea88c3d:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "harden web request helpers opt in default credentials"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "31fa380febe45efb22c6e921267fd29ecf30565f4c5ea0b9c807eb29f661e6ec"
 }

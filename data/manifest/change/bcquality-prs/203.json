@@ -6,10 +6,35 @@
   "title": "knowledge(data-modeling): Prices Including VAT decides the basis of sales/purchase/service line amounts",
   "url": "https://github.com/microsoft/BCQuality/pull/203",
   "published_at": "2026-10-02T07:51:34Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:57:14.866Z",
+      "change_class": "code",
+      "files": 5,
+      "al": 4,
+      "objects": 0,
+      "unjoined": 4
+    },
+    "extracted": {
+      "at": "2026-10-07T12:57:20.239Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.003878
+    },
+    "linked": {
+      "at": "2026-10-07T12:57:20.241Z",
+      "objects": 0,
+      "unjoined": 4,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-10-07T12:57:23.798Z",
+      "path": "content/changes/bcquality/203.md"
     }
   },
   "input_hash": "a2685b9c8608717199dea9b40e7d8df1a3a54315:c1",
@@ -26,5 +51,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "knowledge data modeling prices including vat decides the basis of sales purchase service line amounts"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f6339ccdd277726bebf2af42ad50b3efdcd8076a56a07bc817309fce0b33b02d"
 }

@@ -6,10 +6,35 @@
   "title": "2 AL/BC UI patterns: client-expression in-list (AL0573) and Role Center AccessByPermission",
   "url": "https://github.com/microsoft/BCQuality/pull/207",
   "published_at": "2026-10-02T07:53:14Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:57:13.119Z",
+      "change_class": "code",
+      "files": 8,
+      "al": 7,
+      "objects": 0,
+      "unjoined": 7
+    },
+    "extracted": {
+      "at": "2026-10-07T12:57:19.013Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.004742
+    },
+    "linked": {
+      "at": "2026-10-07T12:57:19.015Z",
+      "objects": 0,
+      "unjoined": 7,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-10-07T12:57:19.020Z",
+      "path": "content/changes/bcquality/207.md"
     }
   },
   "input_hash": "0867171b1a71ab6fb58fe98134774f8e6b3517ae:c1",
@@ -26,5 +51,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "2 al bc ui patterns client expression in list al0573 and role center accessbypermission"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f989e4ac7f0384ffc874337fa1a9fc2ff86b6f8fd55a6656f09d216c44fd49d2"
 }

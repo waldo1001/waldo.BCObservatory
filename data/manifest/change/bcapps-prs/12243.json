@@ -6,7 +6,7 @@
   "title": "Make Verify App Changes robust on release-branch PRs",
   "url": "https://github.com/microsoft/BCApps/pull/12243",
   "published_at": "2026-10-02T11:32:52Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -31,5 +31,8 @@
     ],
     "community_contribution": false,
     "title_key": "make verify app changes robust on release branch prs"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T12:57:04.559Z",
+  "retry_after": null
 }

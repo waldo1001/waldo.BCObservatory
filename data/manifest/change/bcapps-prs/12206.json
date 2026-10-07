@@ -6,10 +6,18 @@
   "title": "Track C5 migration usage consistently",
   "url": "https://github.com/microsoft/BCApps/pull/12206",
   "published_at": "2026-10-01T19:34:30Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:57:16.856Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 2,
+      "objects": 0,
+      "unjoined": 2
     }
   },
   "input_hash": "837ef802485ee457e52310d2ecaa08b93d0122fd:c1",
@@ -28,5 +36,8 @@
     ],
     "community_contribution": false,
     "title_key": "track c5 migration usage consistently"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "62942af3a31c4808a92bc9cb3fb6851ad4761f40c41060e2807c1a8b03e1a932"
 }

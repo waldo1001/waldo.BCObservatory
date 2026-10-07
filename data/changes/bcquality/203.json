@@ -1,0 +1,101 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 203,
+  "repo": "microsoft/BCQuality",
+  "source": "bcquality-prs",
+  "url": "https://github.com/microsoft/BCQuality/pull/203",
+  "base": "main",
+  "major": null,
+  "merged_at": "2026-10-02T07:51:34Z",
+  "merge_commit_sha": "a2685b9c8608717199dea9b40e7d8df1a3a54315",
+  "author": "pri-kise",
+  "author_type": "User",
+  "labels": [],
+  "community_contribution": false,
+  "title": "knowledge(data-modeling): Prices Including VAT decides the basis of sales/purchase/service line amounts",
+  "body_hash": "22bf451903f5f982f09f674436c898bc89b59cbfd04835d776587aa85103d1d2",
+  "fixes_issues": [
+    151
+  ],
+  "work_items": [],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "evaluation/review-fixtures.json",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "microsoft/knowledge/data-modeling/document-line-prices-follow-prices-including-vat.bad.al",
+      "status": "added",
+      "additions": 33,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/data-modeling/document-line-prices-follow-prices-including-vat.good.al",
+      "status": "added",
+      "additions": 52,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/data-modeling/document-line-prices-follow-prices-including-vat.md",
+      "status": "added",
+      "additions": 49,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/skills/review/al-data-modeling-review.md",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 3,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 5,
+    "additions": 139,
+    "deletions": 3,
+    "al": 4
+  },
+  "join": {
+    "major": null,
+    "commit": null,
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "microsoft/knowledge/data-modeling/document-line-prices-follow-prices-including-vat.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/data-modeling/document-line-prices-follow-prices-including-vat.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/data-modeling/document-line-prices-follow-prices-including-vat.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/skills/review/al-data-modeling-review.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": [],
+  "issues": [
+    {
+      "number": 151,
+      "title": "Knowledge - Prices Incl. Vat and Influence on the content of price/amount fields",
+      "state": "closed"
+    }
+  ]
+}
