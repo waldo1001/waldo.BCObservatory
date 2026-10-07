@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/12078",
+  "number": 12078,
+  "title": "[29.x]Reduce allocations in the \"Export to Execl\" scenario (#11870)",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "The Export to Excel scenario now allocates significantly less memory by reusing a CellDecorator instance, eliminating redundant ExcelBuf record calculations, and reducing method call overhead during column processing.",
+  "key_points": [
+    "Reuses the default CellDecorator instead of creating new instances for each column-row combination",
+    "Removes unnecessary ExcelBuf record instantiation that was only used to calculate cell format names",
+    "Reduces AL method call scope allocations during export processing",
+    "Decreases memory allocations from 168GB to 68GB for 100k G/L Entries exports",
+    "Reduces garbage collection pause time from 12.8 seconds to 5.7 seconds in test scenarios"
+  ],
+  "change_kind": "performance",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration",
+    "platform"
+  ],
+  "quote": "removes three easy allocations that was done for each column of each row",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003486,
+    "changes_in_call": 1
+  }
+}

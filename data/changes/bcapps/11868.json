@@ -1,0 +1,41 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11868,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11868",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-07T19:33:52Z",
+  "merge_commit_sha": "ad9b529a78c818ba25c24aecd093442a6c7a3852",
+  "author": "neeleshsinghal",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "SCM",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[master]Rendering output for the report failed and the following error occurred: The Hidden expression used in Tablix ‘Table_ShipToAdress’ returned a data type that is not valid.",
+  "body_hash": "48ee693a9d0585df30960a5549d4e7e6f1305906cd5ef3f2f630163fbc77135b",
+  "fixes_issues": [],
+  "work_items": [
+    592271
+  ],
+  "change_class": "non-code",
+  "files": [],
+  "totals": {
+    "files": 1,
+    "additions": 1,
+    "deletions": 1,
+    "al": 0
+  },
+  "join": {
+    "major": "30",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}
