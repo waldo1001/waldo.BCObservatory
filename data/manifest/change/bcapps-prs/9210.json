@@ -6,7 +6,7 @@
   "title": "Consume BC PR review engine instead of hosting it",
   "url": "https://github.com/microsoft/BCApps/pull/9210",
   "published_at": "2026-07-14T11:15:55Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -28,5 +28,8 @@
     ],
     "community_contribution": false,
     "title_key": "consume bc pr review engine instead of hosting it"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T13:19:18.942Z",
+  "retry_after": null
 }

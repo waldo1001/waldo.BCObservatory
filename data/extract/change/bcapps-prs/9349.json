@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/9349",
+  "number": 9349,
+  "title": "[master]-[ES][Cartera Bills] Applying a foreign-currency payment to a bill that leads to gain-loss entry cannot be reversed",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Fixed an issue where applying a foreign-currency payment to a bill that generates a gain-loss entry could not be reversed in the Spanish localization.",
+  "key_points": [
+    "Reversal of foreign-currency payments with gain-loss entries now works correctly",
+    "Issue affected the Cartera Bills functionality in Spanish localization",
+    "Changes made to Gen. Jnl.-Post Line codeunit posting logic",
+    "Test scenarios added to verify the fix",
+    "Bug 642151 resolved"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "quote": "Applying a foreign-currency payment to a bill that leads to gain-loss entry cannot be reversed",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003238,
+    "changes_in_call": 1
+  }
+}

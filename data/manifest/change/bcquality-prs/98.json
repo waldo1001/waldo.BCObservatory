@@ -6,10 +6,35 @@
   "title": "Add P0 event and interface compatibility knowledge",
   "url": "https://github.com/microsoft/BCQuality/pull/98",
   "published_at": "2026-07-14T10:52:00Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:19:21.224Z",
+      "change_class": "code",
+      "files": 19,
+      "al": 19,
+      "objects": 0,
+      "unjoined": 19
+    },
+    "extracted": {
+      "at": "2026-10-07T13:19:26.324Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.004522
+    },
+    "linked": {
+      "at": "2026-10-07T13:19:26.324Z",
+      "objects": 0,
+      "unjoined": 19,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-10-07T13:19:26.328Z",
+      "path": "content/changes/bcquality/98.md"
     }
   },
   "input_hash": "363f08f47edd1ff2a0919dff383ef154f876c2ef:c1",
@@ -26,5 +51,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "add p0 event and interface compatibility knowledge"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3374b009ecd805e44fdf4dd75d0a28a6d73afffd94a65c80677d970fbb86898e"
 }

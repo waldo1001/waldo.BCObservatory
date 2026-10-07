@@ -6,10 +6,35 @@
   "title": "Promote validated community knowledge",
   "url": "https://github.com/microsoft/BCQuality/pull/105",
   "published_at": "2026-07-14T12:20:28Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:19:18.111Z",
+      "change_class": "code",
+      "files": 35,
+      "al": 35,
+      "objects": 0,
+      "unjoined": 35
+    },
+    "extracted": {
+      "at": "2026-10-07T13:19:26.345Z",
+      "prompt": "extract-change@1",
+      "kind": "refactor",
+      "behavior": false,
+      "cost_usd": 0.004274
+    },
+    "linked": {
+      "at": "2026-10-07T13:19:26.346Z",
+      "objects": 0,
+      "unjoined": 35,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-10-07T13:19:26.350Z",
+      "path": "content/changes/bcquality/105.md"
     }
   },
   "input_hash": "3d29c172a9ad4f4c714322ae515208e542dc703e:c1",
@@ -26,5 +51,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "promote validated community knowledge"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "5a57bd0f644602b58a72c41bbbea88a72880146e7f90ae4b2483b55c3e1534b1"
 }

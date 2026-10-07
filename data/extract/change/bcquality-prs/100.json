@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcquality-prs/100",
+  "number": 100,
+  "title": "Add P0 integration and control add-in runtime guidance",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "New guidance and code samples added for SystemId API-part links, webhook eligibility lifecycle management, control add-in AJAX credential handling, and AL call throttling to improve integration and UI performance.",
+  "key_points": [
+    "SystemId API-part multiplicity configuration guidance with code examples",
+    "Webhook eligibility checks and validation token renewal patterns",
+    "Control add-in AJAX requests with proper credential credentials handling",
+    "AL call throttling and payload size optimization for control add-ins",
+    "Extended web-services and UI reviewer detection capabilities"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration",
+    "development"
+  ],
+  "quote": "add atomic guidance and focused samples for SystemId API-part links/multiplicity and webhook eligibility/lifecycle handshakes",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004104,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/9194",
+  "number": 9194,
+  "title": "Add API Overview page (page 812)",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "A new admin page shows all available APIs (pages and queries) from all publishers in the environment, with clickable URLs to test endpoints before external integration.",
+  "key_points": [
+    "New page 812 API Overview displays both API pages and API queries across all publishers",
+    "Includes columns for API details like Name, Type, Publisher, Entity, Version, and clickable API URL",
+    "Built-in views filter by API type, Microsoft vs custom APIs, and API version 2.0",
+    "Internal temporary buffer table 812 supports the page",
+    "Integration test validates listing completeness and correct metadata rendering"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration",
+    "administration"
+  ],
+  "quote": "shows all APIs available in the environment - both API pages and API queries - across all publishers",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003813,
+    "changes_in_call": 1
+  }
+}

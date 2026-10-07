@@ -6,7 +6,7 @@
   "title": "[Master] - Chance of success % does not validate correctly when using the action type \"Update\" in Opportunity",
   "url": "https://github.com/microsoft/BCApps/pull/9024",
   "published_at": "2026-07-14T17:43:10Z",
-  "state": "extracted",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -25,6 +25,16 @@
       "kind": "fix",
       "behavior": true,
       "cost_usd": 0.003051
+    },
+    "linked": {
+      "at": "2026-10-07T13:19:07.758Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:19:07.764Z",
+      "path": "content/changes/bcapps/9024.md"
     }
   },
   "input_hash": "cffc80403381b9375e0f010e7d5842a8583d7447:c1",
@@ -48,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "58e238d5a75bde4b0ac94b74b420699b65fb487b947e47ae3652709b6208c406"
+  "output_hash": "480f8542052f8466b02dc03ab716ddfd5cc41d6d120e7482b15f086b629886d1"
 }

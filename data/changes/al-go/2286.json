@@ -1,0 +1,63 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 2286,
+  "repo": "microsoft/AL-Go",
+  "source": "al-go-prs",
+  "url": "https://github.com/microsoft/AL-Go/pull/2286",
+  "base": "main",
+  "major": null,
+  "merged_at": "2026-07-14T13:56:02Z",
+  "merge_commit_sha": "96c4a38e11d48fc7209d9ffa6e00f937435b12a5",
+  "author": "ChrisBlankDe",
+  "author_type": "User",
+  "labels": [],
+  "community_contribution": false,
+  "title": "fix: Refactor GetModifiedSettingsContent for PS5 compatibility",
+  "body_hash": "fbed34507129bbed98fde4a94a62692f0c893c6245b819c3def019cb504363cc",
+  "fixes_issues": [],
+  "work_items": [],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "Actions/CheckForUpdates/CheckForUpdates.HelperFunctions.ps1",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "RELEASENOTES.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "docs"
+    },
+    {
+      "path": "Tests/CheckForUpdates.Action.Test.ps1",
+      "status": "modified",
+      "additions": 15,
+      "deletions": 0,
+      "class": "other"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 20,
+    "deletions": 1,
+    "al": 1
+  },
+  "join": {
+    "major": null,
+    "commit": null,
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "Actions/CheckForUpdates/CheckForUpdates.HelperFunctions.ps1",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

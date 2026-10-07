@@ -1,0 +1,35 @@
+{
+  "item_id": "change/bcapps-prs/8183",
+  "number": 8183,
+  "title": "Handle failure to manually create E-Document from posted doc with no …",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sales",
+    "integration",
+    "service",
+    "inventory"
+  ],
+  "summary": "E-Document creation now correctly reports failure when a posted document cannot be converted to an e-document instead of incorrectly showing a success message.",
+  "key_points": [
+    "The result of e-document creation is now propagated back through the call chain",
+    "Users see 'The e-document could not be created.' when creation fails",
+    "Fixes cases where no explicit error prevented the false success message",
+    "Multiple page extensions updated to handle the creation result",
+    "Resolves false positive feedback when document type is unsupported"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004083,
+    "changes_in_call": 1
+  }
+}

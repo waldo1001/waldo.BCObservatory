@@ -1,0 +1,63 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9371,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9371",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-14T13:39:00Z",
+  "merge_commit_sha": "322c7855fdc60842f524f6921c1d0d7623ea163e",
+  "author": "AleksanderGladkov",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "Bug 642180: DE report 11015 Export Business Data fails when scheduled via Job Queue: Client callbacks are not supported",
+  "body_hash": "6f0ba0dd84a3a79bab0e6912578005fe653a067c507954cfaa633255248c2a24",
+  "fixes_issues": [],
+  "work_items": [
+    642180
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/DACH/BaseApp/Local/Finance/AuditFileExport/ExportBusinessData.Report.al",
+      "status": "modified",
+      "additions": 23,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 23,
+    "deletions": 0,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/DACH/BaseApp/Local/Finance/AuditFileExport/ExportBusinessData.Report.al",
+        "status": "modified",
+        "key": "report/11015",
+        "type": "report",
+        "id": 11015,
+        "name": "Export Business Data",
+        "app": "Base Application",
+        "cc": "at",
+        "page": "report/11015-at"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

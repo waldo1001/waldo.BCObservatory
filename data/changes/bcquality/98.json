@@ -1,0 +1,265 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 98,
+  "repo": "microsoft/BCQuality",
+  "source": "bcquality-prs",
+  "url": "https://github.com/microsoft/BCQuality/pull/98",
+  "base": "main",
+  "major": null,
+  "merged_at": "2026-07-14T10:52:00Z",
+  "merge_commit_sha": "363f08f47edd1ff2a0919dff383ef154f876c2ef",
+  "author": "JesperSchulz",
+  "author_type": "User",
+  "labels": [],
+  "community_contribution": false,
+  "title": "Add P0 event and interface compatibility knowledge",
+  "body_hash": "698f95ac5c49108d13d0b5b76b70ebf769f46a076ec79e0b55d797474c1be014",
+  "fixes_issues": [],
+  "work_items": [],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "microsoft/knowledge/events/add-new-event-parameters-at-the-end.bad.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 12,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/events/add-new-event-parameters-at-the-end.good.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/events/add-new-event-parameters-at-the-end.md",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/events/do-not-change-shipped-event-attribute-flags.bad.al",
+      "status": "added",
+      "additions": 14,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/events/do-not-change-shipped-event-attribute-flags.good.al",
+      "status": "added",
+      "additions": 21,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/events/do-not-change-shipped-event-attribute-flags.md",
+      "status": "added",
+      "additions": 26,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/events/prefer-this-over-includesender-in-codeunit-events.md",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/events/treat-local-and-internal-events-as-subscriber-contracts.bad.al",
+      "status": "added",
+      "additions": 15,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/events/treat-local-and-internal-events-as-subscriber-contracts.good.al",
+      "status": "added",
+      "additions": 24,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/events/treat-local-and-internal-events-as-subscriber-contracts.md",
+      "status": "added",
+      "additions": 26,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/interfaces/extend-published-interfaces-dont-edit-them.bad.al",
+      "status": "added",
+      "additions": 16,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/interfaces/extend-published-interfaces-dont-edit-them.good.al",
+      "status": "added",
+      "additions": 23,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/interfaces/extend-published-interfaces-dont-edit-them.md",
+      "status": "added",
+      "additions": 26,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/interfaces/handle-unknown-enum-ordinals-with-unknownvalueimplementation.bad.al",
+      "status": "added",
+      "additions": 36,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/interfaces/handle-unknown-enum-ordinals-with-unknownvalueimplementation.good.al",
+      "status": "added",
+      "additions": 34,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/interfaces/handle-unknown-enum-ordinals-with-unknownvalueimplementation.md",
+      "status": "added",
+      "additions": 26,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/interfaces/set-defaultimplementation-on-enum.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/skills/review/al-events-review.md",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/skills/review/al-interfaces-review.md",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 19,
+    "additions": 331,
+    "deletions": 32,
+    "al": 19
+  },
+  "join": {
+    "major": null,
+    "commit": null,
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "microsoft/knowledge/events/add-new-event-parameters-at-the-end.bad.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/events/add-new-event-parameters-at-the-end.good.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/events/add-new-event-parameters-at-the-end.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/events/do-not-change-shipped-event-attribute-flags.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/events/do-not-change-shipped-event-attribute-flags.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/events/do-not-change-shipped-event-attribute-flags.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/events/prefer-this-over-includesender-in-codeunit-events.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/events/treat-local-and-internal-events-as-subscriber-contracts.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/events/treat-local-and-internal-events-as-subscriber-contracts.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/events/treat-local-and-internal-events-as-subscriber-contracts.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/interfaces/extend-published-interfaces-dont-edit-them.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/interfaces/extend-published-interfaces-dont-edit-them.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/interfaces/extend-published-interfaces-dont-edit-them.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/interfaces/handle-unknown-enum-ordinals-with-unknownvalueimplementation.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/interfaces/handle-unknown-enum-ordinals-with-unknownvalueimplementation.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/interfaces/handle-unknown-enum-ordinals-with-unknownvalueimplementation.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/interfaces/set-defaultimplementation-on-enum.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/skills/review/al-events-review.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/skills/review/al-interfaces-review.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

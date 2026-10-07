@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9044",
+  "number": 9044,
+  "title": "[Master] Contact email is no validated during creation purchase documents_New",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "purchasing"
+  ],
+  "summary": "Contact email validation is restored during purchase document creation, fixing a regression where email validation was skipped.",
+  "key_points": [
+    "Added email validation logic back to Purchase Header table across all localization layers",
+    "Updated purchase document pages (Order, Invoice, Quote, Credit Memo, Return Order, Blanket Order) to enforce validation",
+    "Addresses regression from previous change that removed necessary validation checks",
+    "Validation applies consistently across multiple regional versions (NA, GB, CH, ES, IT, etc.)",
+    "Ensures email addresses are properly validated when selecting contacts in purchase documents"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "purchasing"
+  ],
+  "quote": "Contact email is no validated during creation of sales and purchase documents",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.009848,
+    "changes_in_call": 1
+  }
+}

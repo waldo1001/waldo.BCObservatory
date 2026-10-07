@@ -6,10 +6,35 @@
   "title": "[master] [FR] [E-document] Changed place for \"SIRET No.\" and exposed codeunit for export Factur-X",
   "url": "https://github.com/microsoft/BCApps/pull/9355",
   "published_at": "2026-07-14T13:39:00Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:19:11.005Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 0,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-10-07T13:19:15.697Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.00321
+    },
+    "linked": {
+      "at": "2026-10-07T13:19:15.890Z",
+      "objects": 0,
+      "unjoined": 1,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:19:15.895Z",
+      "path": "content/changes/bcapps/9355.md"
     }
   },
   "input_hash": "bc36a45b7f9d8ded74b331b0ca1060ac0255f3a9:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "master fr e document changed place for siret no and exposed codeunit for export factur x"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "7b38d3daf5b55dbf7fbe44f2e6ce15402efff3ec40bde774a2d7a3a3886a50bf"
 }

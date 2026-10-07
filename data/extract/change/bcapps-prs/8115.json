@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/8115",
+  "number": 8115,
+  "title": "Subscription Billing: respect Default Dimension Priorities on Subscription Lines",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Subscription Billing now respects Default Dimension Priorities when creating subscription lines from contracts, ensuring Item dimensions override Customer dimensions when configured with higher priority, instead of always letting Customer values win.",
+  "key_points": [
+    "SetDefaultDimensions now passes the correct source code (Sales/Purchases) to enable Default Dimension Priority lookup",
+    "Customer/Vendor is added as a dimension source alongside Item/GL Account for proper priority evaluation",
+    "GetRecDefaultDimID is used with inherited dimension set from contracts, matching the standard SalesLine.CreateDim pattern",
+    "UpdateFromCustomerContract/VendorContract now route through SetDefaultDimensions instead of blind-merging",
+    "Billing-time merge behavior remains unchanged to preserve subscription line dimension authority"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "sales"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004811,
+    "changes_in_call": 1
+  }
+}

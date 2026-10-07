@@ -1,0 +1,61 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9355,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9355",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-14T13:39:00Z",
+  "merge_commit_sha": "bc36a45b7f9d8ded74b331b0ca1060ac0255f3a9",
+  "author": "djukicmilica",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync"
+  ],
+  "community_contribution": false,
+  "title": "[master] [FR] [E-document] Changed place for \"SIRET No.\" and exposed codeunit for export Factur-X",
+  "body_hash": "6529d678867c892724490656c33916aa5d19b8196b589181a944cb4a0ed64d73",
+  "fixes_issues": [],
+  "work_items": [
+    442216,
+    642156
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/FR/EDocument_FR/EReportingFR/app/src/Formats/FacturX/ExportFacturXDocument.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 4,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 4,
+    "deletions": 5,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "src/Layers/FR/BaseApp/Foundation/Company/CompanyInformation.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

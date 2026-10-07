@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/8742",
+  "number": 8742,
+  "title": "Enhance SharePoint error handling and add tests",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "SharePoint error handling now correctly parses OData verbose error responses to show meaningful error messages instead of empty strings. The parser falls back gracefully to OAuth token error format and raw body when needed.",
+  "key_points": [
+    "Fixes empty error messages from SharePoint REST API failures by parsing OData v3 verbose response format (error.message.value)",
+    "Maintains backward compatibility with OAuth token error shape (error_description) as a fallback",
+    "Supports OData v4 plain-string error format and malformed bodies",
+    "Added unit tests for all error response formats",
+    "No changes to public API or request construction"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003886,
+    "changes_in_call": 1
+  }
+}

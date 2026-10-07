@@ -1,0 +1,81 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9014,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9014",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-14T13:43:47Z",
+  "merge_commit_sha": "0767f9dae6b75ecbb693e688b29e6e0d70dc6a11",
+  "author": "Groenbech96",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)"
+  ],
+  "community_contribution": false,
+  "title": "[E-Document] Remove Access = Internal from E-Doc. Data Exchange Impl. codeunit",
+  "body_hash": "7dc97aa1c42fd08886eee75b9bc36952e81112613b20d330a2bb95c68417ef56",
+  "fixes_issues": [],
+  "work_items": [
+    641216
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/EDocument/App/src/DataExchange/EDocDataExchangeImpl.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/DataExchange/EDocServiceDataExchDef.Table.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 0,
+    "deletions": 2,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/EDocument/App/src/DataExchange/EDocDataExchangeImpl.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6152",
+        "type": "codeunit",
+        "id": 6152,
+        "name": "E-Doc. Data Exchange Impl.",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "codeunit/6152"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/DataExchange/EDocServiceDataExchDef.Table.al",
+        "status": "modified",
+        "key": "table/6139",
+        "type": "table",
+        "id": 6139,
+        "name": "E-Doc. Service Data Exch. Def.",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "table/6139"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "integration"
+  ],
+  "apps": [
+    "EDocument"
+  ]
+}

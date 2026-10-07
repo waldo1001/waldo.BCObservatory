@@ -6,7 +6,7 @@
   "title": "hasTranslations most be specified if there is translation",
   "url": "https://github.com/microsoft/BCApps/pull/9372",
   "published_at": "2026-07-14T12:21:07Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -29,5 +29,8 @@
     ],
     "community_contribution": false,
     "title_key": "hastranslations most be specified if there is translation"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T13:19:17.760Z",
+  "retry_after": null
 }

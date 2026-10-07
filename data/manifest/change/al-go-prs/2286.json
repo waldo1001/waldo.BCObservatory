@@ -6,10 +6,35 @@
   "title": "fix: Refactor GetModifiedSettingsContent for PS5 compatibility",
   "url": "https://github.com/microsoft/AL-Go/pull/2286",
   "published_at": "2026-07-14T13:56:02Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:19:09.805Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 1,
+      "objects": 0,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-10-07T13:19:14.117Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": false,
+      "cost_usd": 0.003136
+    },
+    "linked": {
+      "at": "2026-10-07T13:19:14.119Z",
+      "objects": 0,
+      "unjoined": 1,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-10-07T13:19:14.123Z",
+      "path": "content/changes/al-go/2286.md"
     }
   },
   "input_hash": "96c4a38e11d48fc7209d9ffa6e00f937435b12a5:c1",
@@ -26,5 +51,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "fix refactor getmodifiedsettingscontent for ps5 compatibility"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ff3d7ca5a410e2953c29fc6d6eca8027ed0d9ac82c5d8d22259f5c548099e000"
 }

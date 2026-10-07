@@ -6,10 +6,35 @@
   "title": "Add P0 integration and control add-in runtime guidance",
   "url": "https://github.com/microsoft/BCQuality/pull/100",
   "published_at": "2026-07-14T10:53:27Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:19:19.846Z",
+      "change_class": "code",
+      "files": 16,
+      "al": 16,
+      "objects": 0,
+      "unjoined": 16
+    },
+    "extracted": {
+      "at": "2026-10-07T13:19:26.331Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.004104
+    },
+    "linked": {
+      "at": "2026-10-07T13:19:26.332Z",
+      "objects": 0,
+      "unjoined": 16,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-10-07T13:19:26.336Z",
+      "path": "content/changes/bcquality/100.md"
     }
   },
   "input_hash": "0bb1065bc3666faa876d1d3170363b1286fed0b7:c1",
@@ -26,5 +51,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "add p0 integration and control add in runtime guidance"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "cd12887d2886621ee566e8cd91b840e24bbdd7bd29b1112feaca204146a13ac4"
 }

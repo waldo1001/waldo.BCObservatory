@@ -6,10 +6,35 @@
   "title": "Enhance SharePoint error handling and add tests",
   "url": "https://github.com/microsoft/BCApps/pull/8742",
   "published_at": "2026-07-14T17:42:26Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:19:09.646Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:19:14.653Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003886
+    },
+    "linked": {
+      "at": "2026-10-07T13:19:14.801Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:19:14.806Z",
+      "path": "content/changes/bcapps/8742.md"
     }
   },
   "input_hash": "5c3faab1c694647d331e95f858961d69abdc9081:c1",
@@ -31,5 +56,8 @@
     ],
     "community_contribution": true,
     "title_key": "enhance sharepoint error handling and add tests"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "adf273b63faa2c6d69effd9a510467f2bf643a700c394922d805fbae4a78ac9d"
 }

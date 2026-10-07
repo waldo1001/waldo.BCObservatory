@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/9355",
+  "number": 9355,
+  "title": "[master] [FR] [E-document] Changed place for \"SIRET No.\" and exposed codeunit for export Factur-X",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [],
+  "summary": "The SIRET number field location on the Company Information page was adjusted and the ExportFacturX codeunit was exposed for use in Factur-X export operations.",
+  "key_points": [
+    "SIRET No. field repositioned on Company Information page",
+    "ExportFacturXDocument codeunit made publicly available",
+    "Changes affect French localization E-document functionality",
+    "Minimal code modifications with no new dependencies",
+    "Related to work item AB#642156"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "localization",
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00321,
+    "changes_in_call": 1
+  }
+}

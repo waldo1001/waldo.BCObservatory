@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/9014",
+  "number": 9014,
+  "title": "[E-Document] Remove Access = Internal from E-Doc. Data Exchange Impl. codeunit",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "The E-Doc. Data Exchange Impl. codeunit access level is changed from Internal to public, allowing partners to reuse its functions for custom E-Document implementations.",
+  "key_points": [
+    "Access modifier removed from codeunit 6152 E-Doc. Data Exchange Impl.",
+    "Partners can now extend and reuse E-Document data exchange functions",
+    "Enables custom E-Document implementations by third parties",
+    "No behavioral changes for existing functionality"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003235,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 8115,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/8115",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-14T13:34:25Z",
+  "merge_commit_sha": "09a5e86ed082faba6421f4888b99e87ee2b55669",
+  "author": "Franco111000",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "AL: Apps (W1)",
+    "From Fork",
+    "Team: Finance"
+  ],
+  "community_contribution": true,
+  "title": "Subscription Billing: respect Default Dimension Priorities on Subscription Lines",
+  "body_hash": "58500fb7ed3391af61e18a0a888334c14122dd12743bc6113784fb1d6a52c173",
+  "fixes_issues": [
+    8084
+  ],
+  "work_items": [
+    635866
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Subscription Billing/App/Customer Contracts/Tables/CustSubContractLine.Table.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subscription Billing/App/Customer Contracts/Tables/CustomerSubscriptionContract.Table.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subscription Billing/App/Import/Codeunits/CreateSubContractLine.Codeunit.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subscription Billing/App/Service Commitments/Tables/SubscriptionLine.Table.al",
+      "status": "modified",
+      "additions": 52,
+      "deletions": 15,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subscription Billing/App/Vendor Contracts/Tables/VendSubContractLine.Table.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subscription Billing/App/Vendor Contracts/Tables/VendorSubscriptionContract.Table.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subscription Billing/Test/Service Commitments/ServiceCommDimensions.Codeunit.al",
+      "status": "modified",
+      "additions": 149,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 7,
+    "additions": 229,
+    "deletions": 22,
+    "al": 6
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Subscription Billing/App/Customer Contracts/Tables/CustSubContractLine.Table.al",
+        "status": "modified",
+        "key": "table/8062",
+        "type": "table",
+        "id": 8062,
+        "name": "Cust. Sub. Contract Line",
+        "app": "Subscription Billing",
+        "cc": "w1",
+        "page": "table/8062"
+      },
+      {
+        "path": "src/Apps/W1/Subscription Billing/App/Customer Contracts/Tables/CustomerSubscriptionContract.Table.al",
+        "status": "modified",
+        "key": "table/8052",
+        "type": "table",
+        "id": 8052,
+        "name": "Customer Subscription Contract",
+        "app": "Subscription Billing",
+        "cc": "w1",
+        "page": "table/8052"
+      },
+      {
+        "path": "src/Apps/W1/Subscription Billing/App/Import/Codeunits/CreateSubContractLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/8007",
+        "type": "codeunit",
+        "id": 8007,
+        "name": "Create Sub. Contract Line",
+        "app": "Subscription Billing",
+        "cc": "w1",
+        "page": "codeunit/8007"
+      },
+      {
+        "path": "src/Apps/W1/Subscription Billing/App/Service Commitments/Tables/SubscriptionLine.Table.al",
+        "status": "modified",
+        "key": "table/8059",
+        "type": "table",
+        "id": 8059,
+        "name": "Subscription Line",
+        "app": "Subscription Billing",
+        "cc": "w1",
+        "page": "table/8059"
+      },
+      {
+        "path": "src/Apps/W1/Subscription Billing/App/Vendor Contracts/Tables/VendSubContractLine.Table.al",
+        "status": "modified",
+        "key": "table/8065",
+        "type": "table",
+        "id": 8065,
+        "name": "Vend. Sub. Contract Line",
+        "app": "Subscription Billing",
+        "cc": "w1",
+        "page": "table/8065"
+      },
+      {
+        "path": "src/Apps/W1/Subscription Billing/App/Vendor Contracts/Tables/VendorSubscriptionContract.Table.al",
+        "status": "modified",
+        "key": "table/8063",
+        "type": "table",
+        "id": 8063,
+        "name": "Vendor Subscription Contract",
+        "app": "Subscription Billing",
+        "cc": "w1",
+        "page": "table/8063"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "Subscription Billing"
+  ],
+  "issues": [
+    {
+      "number": 8084,
+      "title": "[Bug][SubscriptionBilling]: Default Dimension Priorities not respected when creating Sales Invoice from Customer Subscription Contract",
+      "state": "closed"
+    }
+  ]
+}

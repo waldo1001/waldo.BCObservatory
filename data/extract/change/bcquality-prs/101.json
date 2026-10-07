@@ -1,0 +1,29 @@
+{
+  "item_id": "change/bcquality-prs/101",
+  "number": 101,
+  "title": "style-review: fix example finding id to match references[0].path",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "The example in the style review documentation now has a correct finding id that matches its references path.",
+  "key_points": [
+    "The finding id in the example was pointing to a non-existent knowledge file",
+    "Updated id to match references[0].path as required by the output contract",
+    "Changed from apply-approved-label-suffixes.md to label-suffix-approved-list.md",
+    "Documentation and examples only, no code behavior change"
+  ],
+  "change_kind": "fix",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003328,
+    "changes_in_call": 1
+  }
+}

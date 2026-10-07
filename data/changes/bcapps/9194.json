@@ -1,0 +1,104 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9194,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9194",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-14T15:02:07Z",
+  "merge_commit_sha": "0fc2f1767c145fc7a036dc987ffcad1058b13ed2",
+  "author": "onbuyuka",
+  "author_type": "User",
+  "labels": [],
+  "community_contribution": false,
+  "title": "Add API Overview page (page 812)",
+  "body_hash": "4e2f7a1254bc3c4dd50a1bc52e2a3db806b4ec27e8e264665a29c71e65a69c1d",
+  "fixes_issues": [],
+  "work_items": [
+    638459
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/System/API/APIOverview.Page.al",
+      "status": "added",
+      "additions": 172,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/System/API/APIOverviewBuffer.Table.al",
+      "status": "added",
+      "additions": 58,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/System/API/Upgrade/APIDataUpgradeCompanies.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Integration/APIOverviewTest.Codeunit.al",
+      "status": "added",
+      "additions": 147,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 4,
+    "additions": 378,
+    "deletions": 1,
+    "al": 3
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/System/API/APIOverview.Page.al",
+        "status": "added",
+        "key": "page/812",
+        "type": "page",
+        "id": 812,
+        "name": "API Overview",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/812"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/System/API/APIOverviewBuffer.Table.al",
+        "status": "added",
+        "key": "table/812",
+        "type": "table",
+        "id": 812,
+        "name": "API Overview Buffer",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/812"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/System/API/Upgrade/APIDataUpgradeCompanies.Page.al",
+        "status": "modified",
+        "key": "page/9998",
+        "type": "page",
+        "id": 9998,
+        "name": "API Data Upgrade Companies",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/9998"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "integration"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

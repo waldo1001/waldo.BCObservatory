@@ -6,10 +6,35 @@
   "title": "style-review: fix example finding id to match references[0].path",
   "url": "https://github.com/microsoft/BCQuality/pull/101",
   "published_at": "2026-07-14T10:59:25Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:19:19.406Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 0,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-10-07T13:19:26.338Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": false,
+      "cost_usd": 0.003328
+    },
+    "linked": {
+      "at": "2026-10-07T13:19:26.339Z",
+      "objects": 0,
+      "unjoined": 1,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-10-07T13:19:26.342Z",
+      "path": "content/changes/bcquality/101.md"
     }
   },
   "input_hash": "be1b92b624679f8c031061602e7d3a3b5f71a688:c1",
@@ -26,5 +51,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "style review fix example finding id to match references 0 path"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b6dca2f4554254ec7243c51f26843dc46016b3c55280c76073a904269e484fe4"
 }

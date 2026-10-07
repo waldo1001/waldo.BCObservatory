@@ -6,10 +6,35 @@
   "title": "Handle failure to manually create E-Document from posted doc with no …",
   "url": "https://github.com/microsoft/BCApps/pull/8183",
   "published_at": "2026-07-14T13:35:17Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:19:15.417Z",
+      "change_class": "code",
+      "files": 11,
+      "al": 11,
+      "objects": 11,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:19:20.145Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004083
+    },
+    "linked": {
+      "at": "2026-10-07T13:19:20.365Z",
+      "objects": 11,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:19:20.374Z",
+      "path": "content/changes/bcapps/8183.md"
     }
   },
   "input_hash": "d6e18b043fc147a04c5f8c1f7951db3d674f53fc:c1",
@@ -31,5 +56,8 @@
     ],
     "community_contribution": true,
     "title_key": "handle failure to manually create e document from posted doc with no"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "8e0d4134ef4fcfc0e3763c053a608f3837154b049b7db089e448b4ff3f3ccdd7"
 }

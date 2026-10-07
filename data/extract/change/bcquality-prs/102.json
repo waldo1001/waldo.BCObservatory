@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcquality-prs/102",
+  "number": 102,
+  "title": "Privacy DataClassification fixes + keep Label-scope findings at minor",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "Fixed factual errors in the privacy data-classification article about platform defaults and expanded the classification taxonomy to cover organization and account identifiers. Corrected label-scope findings severity from info to minor since no analyzer enforces this rule.",
+  "key_points": [
+    "Corrected default DataClassification from SystemMetadata to ToBeClassified when omitted",
+    "Added OrganizationIdentifiableInformation for company VAT/registration numbers",
+    "Added AccountData for bank account numbers and IBANs",
+    "Reclassified label-scope style findings from info to minor severity",
+    "Label-scope is not enforced by any analyzer, so it should not be suppressed"
+  ],
+  "change_kind": "fix",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00402,
+    "changes_in_call": 1
+  }
+}

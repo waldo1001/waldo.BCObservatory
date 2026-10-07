@@ -1,0 +1,49 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 101,
+  "repo": "microsoft/BCQuality",
+  "source": "bcquality-prs",
+  "url": "https://github.com/microsoft/BCQuality/pull/101",
+  "base": "main",
+  "major": null,
+  "merged_at": "2026-07-14T10:59:25Z",
+  "merge_commit_sha": "be1b92b624679f8c031061602e7d3a3b5f71a688",
+  "author": "gggdttt",
+  "author_type": "User",
+  "labels": [],
+  "community_contribution": false,
+  "title": "style-review: fix example finding id to match references[0].path",
+  "body_hash": "3d874ea9c8821bcbba2e7039f15dbff6fb8fe8588c2107045ba91fe80bf35e24",
+  "fixes_issues": [],
+  "work_items": [],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "microsoft/skills/review/al-style-review.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 1,
+    "deletions": 1,
+    "al": 1
+  },
+  "join": {
+    "major": null,
+    "commit": null,
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "microsoft/skills/review/al-style-review.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

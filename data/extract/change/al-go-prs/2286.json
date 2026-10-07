@@ -1,0 +1,30 @@
+{
+  "item_id": "change/al-go-prs/2286",
+  "number": 2286,
+  "title": "fix: Refactor GetModifiedSettingsContent for PS5 compatibility",
+  "repo": "microsoft/AL-Go",
+  "systems_joined": [],
+  "summary": "The GetModifiedSettingsContent function now explicitly lists property names instead of using wildcards in Select-Object to ensure compatibility with PowerShell 5.",
+  "key_points": [
+    "Fixed property handling in GetModifiedSettingsContent function",
+    "Explicitly lists properties instead of wildcard expansion",
+    "Prevents literal '*' property from being added in PowerShell 5",
+    "Improves PowerShell 5 compatibility",
+    "Includes unit tests for the change"
+  ],
+  "change_kind": "fix",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "platform"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003136,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 8742,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/8742",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-14T17:42:26Z",
+  "merge_commit_sha": "5c3faab1c694647d331e95f858961d69abdc9081",
+  "author": "glachana",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "AL: System Application",
+    "From Fork",
+    "Team: Integrations"
+  ],
+  "community_contribution": true,
+  "title": "Enhance SharePoint error handling and add tests",
+  "body_hash": "6d232590ba10dca9efee63aee2c12e5cd00965f13402a1682d22c3a1a6296aa1",
+  "fixes_issues": [
+    8476
+  ],
+  "work_items": [
+    641594
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/System Application/App/SharePoint/src/helpers/SharePointOperationResponse.Codeunit.al",
+      "status": "modified",
+      "additions": 35,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/Test Library/SharePoint/src/SharePointTestLibrary.Codeunit.al",
+      "status": "modified",
+      "additions": 22,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/System Application/Test/SharePoint/src/SharePointClientTest.Codeunit.al",
+      "status": "modified",
+      "additions": 22,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 79,
+    "deletions": 4,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/System Application/App/SharePoint/src/helpers/SharePointOperationResponse.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/9108",
+        "type": "codeunit",
+        "id": 9108,
+        "name": "SharePoint Operation Response",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "codeunit/9108"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "integration"
+  ],
+  "apps": [
+    "System Application"
+  ],
+  "issues": [
+    {
+      "number": 8476,
+      "title": "[Bug]: SharePoint Client returns empty error messages (GetErrorDescription parses 'error_description' instead of OData verbose 'error.message.value')",
+      "state": "closed"
+    }
+  ]
+}

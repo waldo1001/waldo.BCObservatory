@@ -6,10 +6,35 @@
   "title": "Add API Overview page (page 812)",
   "url": "https://github.com/microsoft/BCApps/pull/9194",
   "published_at": "2026-07-14T15:02:07Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:19:08.827Z",
+      "change_class": "code",
+      "files": 4,
+      "al": 3,
+      "objects": 3,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:19:13.654Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.003813
+    },
+    "linked": {
+      "at": "2026-10-07T13:19:13.802Z",
+      "objects": 3,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:19:13.808Z",
+      "path": "content/changes/bcapps/9194.md"
     }
   },
   "input_hash": "0fc2f1767c145fc7a036dc987ffcad1058b13ed2:c1",
@@ -26,5 +51,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "add api overview page page 812"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "4d516fc9eccfcede1a987011eea931e63db6c1aecfa7dd5485d8dd9a34efd271"
 }

@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcquality-prs/105",
+  "number": 105,
+  "title": "Promote validated community knowledge",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "Community AL best practice articles are promoted to Microsoft-endorsed knowledge, removing duplicates and overlapping guidance while updating review skills with canonical references.",
+  "key_points": [
+    "Eight new articles on AppSource, UI, error handling, and security move from community to Microsoft knowledge layer",
+    "Six duplicate or obsolete community articles removed while preserving FactBox and IsTemporary guidance",
+    "Review skills updated with corrected references and token counts to match consolidated knowledge corpus",
+    "Copilot help URL version gate, split-button recommendations, and encrypted storage guidance corrected",
+    "Telemetry scope guidance consolidated under privacy documentation"
+  ],
+  "change_kind": "refactor",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development"
+  ],
+  "quote": "Consolidating them reduces retrieval noise and gives review skills canonical paths and discovery signals.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004274,
+    "changes_in_call": 1
+  }
+}

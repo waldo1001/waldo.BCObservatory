@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcquality-prs/98",
+  "number": 98,
+  "title": "Add P0 event and interface compatibility knowledge",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "Guidance added for event and interface compatibility patterns, covering enum unknown value handling, published interface evolution, subscriber contracts for local and internal events, and shipped event attribute immutability.",
+  "key_points": [
+    "New samples and documentation for handling unknown enum ordinals using UnknownValueImplementation (BC18+)",
+    "Guidelines for extending published interfaces with versioned siblings and BC25+ extends syntax",
+    "Event parameter compatibility rules clarified: local/internal subscribers bind by name and can omit new parameters; public procedures cannot gain required parameters",
+    "Shipped event attribute flags must not be modified to maintain compatibility",
+    "Targeted review skill cues added for events and interfaces topics"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004522,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/9371",
+  "number": 9371,
+  "title": "Bug 642180: DE report 11015 Export Business Data fails when scheduled via Job Queue: Client callbacks are not supported",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Report 11015 Export Business Data now stores generated ZIP files in the Report Inbox when scheduled via Job Queue instead of attempting a client callback that fails in background sessions.",
+  "key_points": [
+    "Background sessions can no longer directly download files to clients",
+    "Generated ZIP files are now stored in Report Inbox for scheduled runs",
+    "Interactive report execution continues to download files directly as before",
+    "Users can retrieve scheduled exports from the Report Inbox",
+    "Aligns scheduled report behavior with existing layout report patterns"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "administration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003349,
+    "changes_in_call": 1
+  }
+}

@@ -6,10 +6,35 @@
   "title": "[E-Document] Remove Access = Internal from E-Doc. Data Exchange Impl. codeunit",
   "url": "https://github.com/microsoft/BCApps/pull/9014",
   "published_at": "2026-07-14T13:43:47Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:19:10.781Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:19:15.464Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.003235
+    },
+    "linked": {
+      "at": "2026-10-07T13:19:15.669Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:19:15.675Z",
+      "path": "content/changes/bcapps/9014.md"
     }
   },
   "input_hash": "0767f9dae6b75ecbb693e688b29e6e0d70dc6a11:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "e document remove access internal from e doc data exchange impl codeunit"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "24b938898b71de05a72c1c1931a79b0fc2ef954c422cb04fd8a6326d40a14895"
 }

@@ -6,7 +6,7 @@
   "title": "[Projects] Register Job Assigned Resource tables for cloud migration",
   "url": "https://github.com/microsoft/BCApps/pull/9403",
   "published_at": "2026-07-14T11:29:29Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -26,5 +26,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "projects register job assigned resource tables for cloud migration"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T13:19:18.629Z",
+  "retry_after": null
 }

@@ -1,0 +1,229 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 100,
+  "repo": "microsoft/BCQuality",
+  "source": "bcquality-prs",
+  "url": "https://github.com/microsoft/BCQuality/pull/100",
+  "base": "main",
+  "major": null,
+  "merged_at": "2026-07-14T10:53:27Z",
+  "merge_commit_sha": "0bb1065bc3666faa876d1d3170363b1286fed0b7",
+  "author": "JesperSchulz",
+  "author_type": "User",
+  "labels": [],
+  "community_contribution": false,
+  "title": "Add P0 integration and control add-in runtime guidance",
+  "body_hash": "7c124994660ab7e6f327ad1232026a97560bf922d0347533e1d63667a5e8fa00",
+  "fixes_issues": [],
+  "work_items": [],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "microsoft/knowledge/ui/control-addin-package-resource-ajax-needs-withcredentials.bad.js",
+      "status": "added",
+      "additions": 3,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/ui/control-addin-package-resource-ajax-needs-withcredentials.good.js",
+      "status": "added",
+      "additions": 8,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/ui/control-addin-package-resource-ajax-needs-withcredentials.md",
+      "status": "added",
+      "additions": 30,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/ui/control-addin-throttle-al-calls-and-payload-size.bad.js",
+      "status": "added",
+      "additions": 8,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/ui/control-addin-throttle-al-calls-and-payload-size.good.js",
+      "status": "added",
+      "additions": 74,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/ui/control-addin-throttle-al-calls-and-payload-size.md",
+      "status": "added",
+      "additions": 30,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/web-services/link-api-parts-on-systemid-and-set-multiplicity.bad.al",
+      "status": "added",
+      "additions": 80,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/web-services/link-api-parts-on-systemid-and-set-multiplicity.good.al",
+      "status": "added",
+      "additions": 151,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/web-services/link-api-parts-on-systemid-and-set-multiplicity.md",
+      "status": "added",
+      "additions": 30,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/web-services/webhook-eligibility-and-validationtoken-renewal.bad.al",
+      "status": "added",
+      "additions": 22,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/web-services/webhook-eligibility-and-validationtoken-renewal.bad.js",
+      "status": "added",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/web-services/webhook-eligibility-and-validationtoken-renewal.good.al",
+      "status": "added",
+      "additions": 28,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/web-services/webhook-eligibility-and-validationtoken-renewal.good.js",
+      "status": "added",
+      "additions": 11,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/web-services/webhook-eligibility-and-validationtoken-renewal.md",
+      "status": "added",
+      "additions": 30,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/skills/review/al-ui-review.md",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/skills/review/al-web-services-review.md",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 7,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 16,
+    "additions": 526,
+    "deletions": 12,
+    "al": 16
+  },
+  "join": {
+    "major": null,
+    "commit": null,
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "microsoft/knowledge/ui/control-addin-package-resource-ajax-needs-withcredentials.bad.js",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/ui/control-addin-package-resource-ajax-needs-withcredentials.good.js",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/ui/control-addin-package-resource-ajax-needs-withcredentials.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/ui/control-addin-throttle-al-calls-and-payload-size.bad.js",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/ui/control-addin-throttle-al-calls-and-payload-size.good.js",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/ui/control-addin-throttle-al-calls-and-payload-size.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/web-services/link-api-parts-on-systemid-and-set-multiplicity.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/web-services/link-api-parts-on-systemid-and-set-multiplicity.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/web-services/link-api-parts-on-systemid-and-set-multiplicity.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/web-services/webhook-eligibility-and-validationtoken-renewal.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/web-services/webhook-eligibility-and-validationtoken-renewal.bad.js",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/web-services/webhook-eligibility-and-validationtoken-renewal.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/web-services/webhook-eligibility-and-validationtoken-renewal.good.js",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/web-services/webhook-eligibility-and-validationtoken-renewal.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/skills/review/al-ui-review.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/skills/review/al-web-services-review.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

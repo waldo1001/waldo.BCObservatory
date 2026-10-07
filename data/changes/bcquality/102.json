@@ -1,0 +1,61 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 102,
+  "repo": "microsoft/BCQuality",
+  "source": "bcquality-prs",
+  "url": "https://github.com/microsoft/BCQuality/pull/102",
+  "base": "main",
+  "major": null,
+  "merged_at": "2026-07-14T12:23:04Z",
+  "merge_commit_sha": "809af9708e265f110ced6752fd8f2e40f1efc820",
+  "author": "gggdttt",
+  "author_type": "User",
+  "labels": [],
+  "community_contribution": false,
+  "title": "Privacy DataClassification fixes + keep Label-scope findings at minor",
+  "body_hash": "bd2f2229de28f44f5bb12683522190f2cbaa693ff0fd08d66d4f6ec825cd18b7",
+  "fixes_issues": [],
+  "work_items": [],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "microsoft/knowledge/privacy/data-classification-required-on-pii-fields.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/skills/review/al-style-review.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 3,
+    "deletions": 3,
+    "al": 2
+  },
+  "join": {
+    "major": null,
+    "commit": null,
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "microsoft/knowledge/privacy/data-classification-required-on-pii-fields.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/skills/review/al-style-review.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}
