@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9532",
+  "number": 9532,
+  "title": "[Master]Error when creating a Pick \"Nothing to handle. The quantity to be picked is in bin W-09-0002, which is not set up for picking.\"",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "warehouse"
+  ],
+  "summary": "Fixes warehouse pick creation by checking all ship-type bins for picked-not-shipped quantities instead of only the default shipment bin, preventing false 'nothing to handle' errors.",
+  "key_points": [
+    "Added CalcQtyOnShipmentBins helper function to sum item quantities across all ship-type bins",
+    "Original code only checked the default shipment bin, causing incorrect quantity calculations when shipment bin was changed",
+    "Fix ensures picked quantities in any ship-type bin are recognized for availability calculations",
+    "Bin Mandatory guard preserved to maintain existing behavior for locations without default shipment bin",
+    "Includes test coverage for the scenario"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "warehouse"
+  ],
+  "quote": "Replaced the single default-bin check with a new helper CalcQtyOnShipmentBins that sums the item's quantity across all Ship-type bins.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003956,
+    "changes_in_call": 1
+  }
+}

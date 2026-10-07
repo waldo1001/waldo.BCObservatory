@@ -1,0 +1,39 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10099,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10099",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-11T12:48:22Z",
+  "merge_commit_sha": "7598e2cb316380200a5a0819d2671d1650e237a1",
+  "author": "PredragMaricic",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "Fix assembly cost test isolation",
+  "body_hash": "3c13f16e94d8d23f12d0da1c219c0e4728d98686d3b92ac56b3024822a493419",
+  "fixes_issues": [],
+  "work_items": [
+    644569
+  ],
+  "change_class": "test-only",
+  "files": [],
+  "totals": {
+    "files": 1,
+    "additions": 23,
+    "deletions": 17,
+    "al": 0
+  },
+  "join": {
+    "major": "30",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}

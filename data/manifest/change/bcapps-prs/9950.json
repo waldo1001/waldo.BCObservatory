@@ -6,10 +6,35 @@
   "title": "[Master] - Bug 645038 Withholding Tax entries from a previous posting preview appear on unrelated documents (e.g. expense report)",
   "url": "https://github.com/microsoft/BCApps/pull/9950",
   "published_at": "2026-08-11T08:49:09Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:12:11.546Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:12:16.675Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003794
+    },
+    "linked": {
+      "at": "2026-10-07T13:12:16.828Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:12:20.390Z",
+      "path": "content/changes/bcapps/9950.md"
     }
   },
   "input_hash": "749fad5d164842936c2a9a975d3672977f17cc05:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "master bug 645038 withholding tax entries from a previous posting preview appear on unrelated documents e g expense report"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "1ca0e5e6cd3a150939d1e9e32fcc9a37bc2dc6ffa57fb4d5cb0f029d4bec0178"
 }

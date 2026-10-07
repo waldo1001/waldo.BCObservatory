@@ -1,0 +1,70 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10041,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10041",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-11T13:26:34Z",
+  "merge_commit_sha": "e0397e49286119ce08da2bff44425fb4e9cc8017",
+  "author": "neeleshsinghal",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[Master]-]G/L Account Sheet with Foreign Currency report (11564) includes LCY-originated entries after enabling G/L currency revaluation feature resulting in mixed-currency totals in the Swiss version. - Copy",
+  "body_hash": "d8d92477c54cbe14f96bddd84db158f39115de62a984dde4f6f4c9490ad77007",
+  "fixes_issues": [],
+  "work_items": [
+    646148
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/CH/BaseApp/Local/Finance/FinancialReports/SRGLAccSheetForeignCurr.Report.al",
+      "status": "modified",
+      "additions": 24,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/Tests/Local/TestGLAccSheetReports.Codeunit.al",
+      "status": "modified",
+      "additions": 70,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 94,
+    "deletions": 3,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/CH/BaseApp/Local/Finance/FinancialReports/SRGLAccSheetForeignCurr.Report.al",
+        "status": "modified",
+        "key": "report/11564",
+        "type": "report",
+        "id": 11564,
+        "name": "SR G/L Acc Sheet Foreign Curr",
+        "app": "Base Application",
+        "cc": "ch",
+        "page": "report/11564-ch"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

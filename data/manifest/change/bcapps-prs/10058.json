@@ -6,10 +6,35 @@
   "title": "[Master]-Withholding Tax Posting generates Unbalanced G/L Entries when Multiple Withholding Tax Rates are used on one Purchase Invoice.",
   "url": "https://github.com/microsoft/BCApps/pull/10058",
   "published_at": "2026-08-11T12:05:38Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:12:05.968Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:12:10.347Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.002982
+    },
+    "linked": {
+      "at": "2026-10-07T13:12:10.520Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:12:10.526Z",
+      "path": "content/changes/bcapps/10058.md"
     }
   },
   "input_hash": "18f2e04dfea4b75f7720f423f06728aced2d343e:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "master withholding tax posting generates unbalanced g l entries when multiple withholding tax rates are used on one purchase invoice"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b408a800e59864c43a49b8e59809f37ab70da8765f070730e053fc3f8baeb105"
 }

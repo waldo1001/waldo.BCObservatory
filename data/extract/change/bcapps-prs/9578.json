@@ -1,0 +1,38 @@
+{
+  "item_id": "change/bcapps-prs/9578",
+  "number": 9578,
+  "title": "[E-Documents Core] - Enabling remittance advice export via E-Documents (payment journal + posted payments)",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "platform",
+    "integration",
+    "development",
+    "purchasing",
+    "finance"
+  ],
+  "summary": "E-Documents now supports exporting remittance advice from payment journals and posted vendor payments as PEPPOL BIS 3.0 UBL 2.1 XML documents. The existing UK remittance advice email functionality moves into the base application, while legacy page extensions are marked obsolete.",
+  "key_points": [
+    "New 'Remittance Advice' E-Document type with data assembly, validation, and PEPPOL 3.0 export",
+    "Opt-in checkbox on remittance advice reports creates E-Documents for each payment",
+    "Shared math codeunit ensures E-Document data matches printed reports",
+    "UK remittance advice email actions moved from extension into base application pages",
+    "Old UKSendRemittanceAdvice page extensions marked obsolete"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": true,
+  "obsoletions": [],
+  "systems": [
+    "purchasing",
+    "integration",
+    "reporting"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.014283,
+    "changes_in_call": 1
+  }
+}

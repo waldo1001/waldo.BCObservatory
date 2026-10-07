@@ -6,10 +6,35 @@
   "title": "[Enforced Digital Vouchers] - Attaching EDocuments when using Digital Vouchers",
   "url": "https://github.com/microsoft/BCApps/pull/9208",
   "published_at": "2026-08-11T11:56:45Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:12:07.135Z",
+      "change_class": "code",
+      "files": 13,
+      "al": 9,
+      "objects": 9,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:12:12.296Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.004371
+    },
+    "linked": {
+      "at": "2026-10-07T13:12:12.526Z",
+      "objects": 9,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:12:12.533Z",
+      "path": "content/changes/bcapps/9208.md"
     }
   },
   "input_hash": "b5e64bbf430824228efb9e4ab573623435b70e52:c1",
@@ -32,5 +57,8 @@
     ],
     "community_contribution": true,
     "title_key": "enforced digital vouchers attaching edocuments when using digital vouchers"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "44714638f86ce2d39296a27e36ad39a11780fe69a4a5bdaf93ed128e3b340e39"
 }

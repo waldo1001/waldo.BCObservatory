@@ -6,10 +6,35 @@
   "title": "[Main] Error with unposted prepayment amounts on Order",
   "url": "https://github.com/microsoft/BCApps/pull/9984",
   "published_at": "2026-08-11T13:26:34Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:12:03.313Z",
+      "change_class": "code",
+      "files": 30,
+      "al": 26,
+      "objects": 25,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-10-07T13:12:09.330Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.005171
+    },
+    "linked": {
+      "at": "2026-10-07T13:12:09.536Z",
+      "objects": 25,
+      "unjoined": 1,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:12:09.542Z",
+      "path": "content/changes/bcapps/9984.md"
     }
   },
   "input_hash": "18d5d6b1910ad30698e8d3855c9bfd2173b05aa8:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": true,
     "title_key": "error with unposted prepayment amounts on order"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "97252b21e9fc9717d73e64b648c1a03770dca8ff6d49f6e89e21038f193e6c88"
 }

@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/9950",
+  "number": 9950,
+  "title": "[Master] - Bug 645038 Withholding Tax entries from a previous posting preview appear on unrelated documents (e.g. expense report)",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Withholding Tax entries from a previous posting preview no longer leak into unrelated document previews. The fix clears temporary WHT entries at the start of each preview instead of only during actual posting.",
+  "key_points": [
+    "Fixed bug where stale Withholding Tax entries from one preview appeared when previewing an unrelated document",
+    "Root cause was that temporary entries were only cleared on actual posting, not on preview operations",
+    "Solution clears the temporary Withholding Tax buffer at the start of every preview operation",
+    "Removed subscribers from OnBeforePostPurchaseDoc and OnBeforeGenJnlDoc events",
+    "Cleaned up unused imports after refactoring"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "purchasing"
+  ],
+  "quote": "temporary Withholding Tax entries were only cleared from subscribers tied to actual posting",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003794,
+    "changes_in_call": 1
+  }
+}

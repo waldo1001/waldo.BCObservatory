@@ -6,7 +6,7 @@
   "title": "Change RU download handler to be manual",
   "url": "https://github.com/microsoft/BCApps/pull/10021",
   "published_at": "2026-08-11T12:15:49Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -28,5 +28,8 @@
     ],
     "community_contribution": false,
     "title_key": "change ru download handler to be manual"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T13:12:04.850Z",
+  "retry_after": null
 }

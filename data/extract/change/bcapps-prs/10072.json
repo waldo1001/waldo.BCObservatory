@@ -1,0 +1,34 @@
+{
+  "item_id": "change/bcapps-prs/10072",
+  "number": 10072,
+  "title": "[main] - Serial and Lot number mismatch when item is produced via Production Order and moved to inventory through an Internal Put-away",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "warehouse"
+  ],
+  "summary": "A data-driven validation check was added to the warehouse activity registration to ensure that lot numbers match the posted item ledger entries when internal put-aways process items from production orders.",
+  "key_points": [
+    "Warehouse activity registration now validates lot and serial number tracking before registration completes",
+    "The fix compares put-away lines against actual posted Item Ledger Entries instead of relying only on configuration flags",
+    "For put-away lines with serial numbers, the system resolves the corresponding open item ledger entry and verifies lot number consistency",
+    "Prevents lot number mismatches when items move from production orders to inventory via internal put-aways",
+    "Adds enforcement of lot requirements at registration time rather than skipping validation"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "warehouse",
+    "manufacturing",
+    "inventory"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003712,
+    "changes_in_call": 1
+  }
+}

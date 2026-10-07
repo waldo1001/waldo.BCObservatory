@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/9723",
+  "number": 9723,
+  "title": "[Master] - Slice 626320: [Self-billing][VENDOR] Vendor‑specific Number Series for Self‑Billed Purchase Invoices",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "purchasing"
+  ],
+  "summary": "Vendors can now specify a number series for self-billed purchase invoices, allowing different numbering schemes based on the vendor. The feature is implemented through new table fields, posting logic updates, and vendor card UI enhancements across all localized versions.",
+  "key_points": [
+    "New field added to Vendor table for self-billed purchase invoice number series",
+    "Purchase posting logic modified to use vendor-specific number series when processing self-billed invoices",
+    "Vendor Card page updated to display and manage the new number series setting",
+    "Changes applied consistently across all localization layers (W1, NA, GB, BE, CH, DE, FR, IT, ES, FI, etc.)",
+    "Test coverage added for self-billing purchase document scenarios"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "purchasing",
+    "localization"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005225,
+    "changes_in_call": 1
+  }
+}

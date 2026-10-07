@@ -1,0 +1,539 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9984,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9984",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-11T13:26:34Z",
+  "merge_commit_sha": "18d5d6b1910ad30698e8d3855c9bfd2173b05aa8",
+  "author": "sanjmaurya",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "From Fork",
+    "Team: SCM"
+  ],
+  "community_contribution": true,
+  "title": "[Main] Error with unposted prepayment amounts on Order",
+  "body_hash": "0bf226edd9e40649a92c21b30e830bbddb5db3ad729486decc5368b721a17a56",
+  "fixes_issues": [],
+  "work_items": [
+    645184
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/APAC/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Sales/Document/SalesLine.Table.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Sales/Document/SalesLine.Table.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Sales/Document/SalesLine.Table.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/DACH/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Sales/Document/SalesLine.Table.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Sales/Document/SalesLine.Table.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/Sales/Document/SalesLine.Table.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Sales/Document/SalesLine.Table.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Sales/Document/SalesLine.Table.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/Tests/Prepayment/ERMPurchFullPrepmtRounding.Codeunit.al",
+      "status": "modified",
+      "additions": 52,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/NA/Tests/Prepayment/ERMSalesFullPrepmtRounding.Codeunit.al",
+      "status": "modified",
+      "additions": 52,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Sales/Document/SalesLine.Table.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Sales/Document/SalesLine.Table.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/SE/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/SE/BaseApp/Sales/Document/SalesLine.Table.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Sales/Document/SalesLine.Table.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Prepayment/ERMPurchFullPrepmtRounding.Codeunit.al",
+      "status": "modified",
+      "additions": 52,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Prepayment/ERMSalesFullPrepmtRounding.Codeunit.al",
+      "status": "modified",
+      "additions": 52,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 30,
+    "additions": 338,
+    "deletions": 78,
+    "al": 26
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/APAC/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Sales/Document/SalesLine.Table.al",
+        "status": "modified",
+        "key": "table/37",
+        "type": "table",
+        "id": 37,
+        "name": "Sales Line",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "table/37"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "be",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "ch",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Sales/Document/SalesLine.Table.al",
+        "status": "modified",
+        "key": "table/37",
+        "type": "table",
+        "id": 37,
+        "name": "Sales Line",
+        "app": "Base Application",
+        "cc": "ch",
+        "page": "table/37"
+      },
+      {
+        "path": "src/Layers/DACH/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "at",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Sales/Document/SalesLine.Table.al",
+        "status": "modified",
+        "key": "table/37",
+        "type": "table",
+        "id": 37,
+        "name": "Sales Line",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "table/37"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "fi",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Sales/Document/SalesLine.Table.al",
+        "status": "modified",
+        "key": "table/37",
+        "type": "table",
+        "id": 37,
+        "name": "Sales Line",
+        "app": "Base Application",
+        "cc": "fi",
+        "page": "table/37"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "gb",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/Sales/Document/SalesLine.Table.al",
+        "status": "modified",
+        "key": "table/37",
+        "type": "table",
+        "id": 37,
+        "name": "Sales Line",
+        "app": "Base Application",
+        "cc": "gb",
+        "page": "table/37"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Sales/Document/SalesLine.Table.al",
+        "status": "modified",
+        "key": "table/37",
+        "type": "table",
+        "id": 37,
+        "name": "Sales Line",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "table/37"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Sales/Document/SalesLine.Table.al",
+        "status": "modified",
+        "key": "table/37",
+        "type": "table",
+        "id": 37,
+        "name": "Sales Line",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "table/37"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "nl",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "no",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Sales/Document/SalesLine.Table.al",
+        "status": "modified",
+        "key": "table/37",
+        "type": "table",
+        "id": 37,
+        "name": "Sales Line",
+        "app": "Base Application",
+        "cc": "no",
+        "page": "table/37"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Sales/Document/SalesLine.Table.al",
+        "status": "modified",
+        "key": "table/37",
+        "type": "table",
+        "id": 37,
+        "name": "Sales Line",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "table/37"
+      },
+      {
+        "path": "src/Layers/SE/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "se",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/SE/BaseApp/Sales/Document/SalesLine.Table.al",
+        "status": "modified",
+        "key": "table/37",
+        "type": "table",
+        "id": 37,
+        "name": "Sales Line",
+        "app": "Base Application",
+        "cc": "se",
+        "page": "table/37"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/Document/PurchaseLine.Table.al",
+        "status": "modified",
+        "key": "table/39",
+        "type": "table",
+        "id": 39,
+        "name": "Purchase Line",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/39"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Sales/Document/SalesLine.Table.al",
+        "status": "modified",
+        "key": "table/37",
+        "type": "table",
+        "id": 37,
+        "name": "Sales Line",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/37"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Layers/BE/BaseApp/Sales/Document/SalesLine.Table.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "purchasing",
+    "sales"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

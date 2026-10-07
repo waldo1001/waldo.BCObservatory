@@ -1,0 +1,64 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9961,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9961",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-10T23:20:03Z",
+  "merge_commit_sha": "f745feb96672d11961d10083b60745187cb4c710",
+  "author": "AleksandricMarko",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM",
+    "event-request"
+  ],
+  "community_contribution": false,
+  "title": "[Extensibility Request] issue 30381: expose page sender to filter subscribers",
+  "body_hash": "2ab652a3143fc173107b648feb76eb61e806146d619e10a5484bb8959452838b",
+  "fixes_issues": [],
+  "work_items": [
+    644804
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Availability/ItemAvailabilitybyBOMLevel.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 1,
+    "deletions": 1,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Availability/ItemAvailabilitybyBOMLevel.Page.al",
+        "status": "modified",
+        "key": "page/5871",
+        "type": "page",
+        "id": 5871,
+        "name": "Item Availability by BOM Level",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/5871"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "inventory"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

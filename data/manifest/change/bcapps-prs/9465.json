@@ -6,10 +6,18 @@
   "title": "[Extensibility Request] issue 30350: add OnBeforeTestFirstApplyItemLedgerEntryTracking event",
   "url": "https://github.com/microsoft/BCApps/pull/9465",
   "published_at": "2026-08-10T23:57:39Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:12:13.544Z",
+      "change_class": "code",
+      "files": 6,
+      "al": 6,
+      "objects": 2,
+      "unjoined": 4
     }
   },
   "input_hash": "777fcd98aee7cc430c7aed5740a9443ba7ca25c9:c1",
@@ -29,5 +37,8 @@
     ],
     "community_contribution": false,
     "title_key": "extensibility request issue 30350 add onbeforetestfirstapplyitemledgerentrytracking event"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "2a634e8d36b728ca7e01664e34ed8d5557ffdbcbd860b104859915194ec22c49"
 }

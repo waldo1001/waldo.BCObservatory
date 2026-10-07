@@ -6,7 +6,7 @@
   "title": "Fix assembly cost test isolation",
   "url": "https://github.com/microsoft/BCApps/pull/10099",
   "published_at": "2026-08-11T12:48:22Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -28,5 +28,8 @@
     ],
     "community_contribution": false,
     "title_key": "fix assembly cost test isolation"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T13:12:05.269Z",
+  "retry_after": null
 }

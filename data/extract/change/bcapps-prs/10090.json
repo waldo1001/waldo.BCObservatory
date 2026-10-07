@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/10090",
+  "number": 10090,
+  "title": "[Bank Acc. Reconciliation with Copilot] Read the functional part of the prompt from .resources and safety clause from Key Vault",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Bank account reconciliation with Copilot now loads the functional part of AI prompts from resource files and retrieves only the safety clause from Key Vault, improving separation of concerns.",
+  "key_points": [
+    "Functional prompt content moved to .resources files for maintainability",
+    "Safety clauses remain in Key Vault for security governance",
+    "Two new resource files added for matching task and GL account task prompts",
+    "Prompt construction logic refactored to read from multiple sources",
+    "No behavior change from user perspective; internal prompt management reorganized"
+  ],
+  "change_kind": "refactor",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "copilot"
+  ],
+  "quote": "Read the functional part of the prompt from .resources and safety clause from Key Vault",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003849,
+    "changes_in_call": 1
+  }
+}

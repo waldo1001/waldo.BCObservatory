@@ -6,7 +6,7 @@
   "title": "[Master] - Slice 626127: [Excise Tax][VENDOR] Multiple Excise Taxes per Item",
   "url": "https://github.com/microsoft/BCApps/pull/9725",
   "published_at": "2026-08-11T14:49:11Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -18,6 +18,23 @@
       "al": 12,
       "objects": 12,
       "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:12:02.989Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.005008
+    },
+    "linked": {
+      "at": "2026-10-07T13:12:03.125Z",
+      "objects": 12,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:12:03.132Z",
+      "path": "content/changes/bcapps/9725.md"
     }
   },
   "input_hash": "a49cb9e8ad324681f775e0fd28d738a015008274:c1",
@@ -40,5 +57,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7ef97e093fecdb366d5937817a02e4efd3eef4a1a5e78c0a351f67aed3005008"
+  "output_hash": "36b56bb67090c72ed9af18df502a818bbc88699a33145f35e201e44ca4b56431"
 }

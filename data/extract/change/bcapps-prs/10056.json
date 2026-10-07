@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10056",
+  "number": 10056,
+  "title": "[Master]- Cartera: Service Credit Memo cannot be posted - settlement check ignores Applies-to Doc. No. and Application Method.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "service"
+  ],
+  "summary": "Service credit memos in Spanish localization can now be posted when using Cartera settlement, as the posting logic now properly respects the Applies-to Document No. and Application Method fields during validation.",
+  "key_points": [
+    "Fixed settlement validation to recognize Applies-to Document No. field",
+    "Service posting subscriber now correctly handles Application Method settings",
+    "Cartera posting process no longer incorrectly rejects valid credit memos",
+    "Added comprehensive test coverage for Spanish service credit memo posting scenarios"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "service"
+  ],
+  "quote": "Service Credit Memo cannot be posted - settlement check ignores Applies-to Doc. No. and Application Method.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003255,
+    "changes_in_call": 1
+  }
+}

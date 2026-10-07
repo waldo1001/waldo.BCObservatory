@@ -1,0 +1,34 @@
+{
+  "item_id": "change/bcapps-prs/9984",
+  "number": 9984,
+  "title": "[Main] Error with unposted prepayment amounts on Order",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "purchasing",
+    "sales"
+  ],
+  "summary": "Fixed an error where unposted prepayment amounts on sales and purchase orders were calculated incorrectly when the quantity to invoice was modified, by making the prepayment deduction calculation idempotent across multiple trigger invocations.",
+  "key_points": [
+    "The CalcPrepaymentToDeduct function was being called twice during Qty. to Invoice field updates, causing different rounding results based on the current field value",
+    "Changed the calculation to reset the prepayment deduction field to zero before recomputing, ensuring deterministic simple-branch rounding each time",
+    "The final invoice still applies proration logic to true up totals when marked as final",
+    "Fix applied uniformly across all localization layers (W1, NA, BE, CH, DACH, ES, FI, GB, IT, NL, NO, RU, SE, APAC)",
+    "Added comprehensive test cases for both sales and purchase prepayment rounding scenarios"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "purchasing",
+    "sales"
+  ],
+  "quote": "Error with unposted prepayment amounts on Order",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005171,
+    "changes_in_call": 1
+  }
+}

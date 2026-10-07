@@ -6,7 +6,7 @@
   "title": "[main]- Negative Shipped and Invoiced Quantities appear on Sales Order Lines after using the Copy Document from a Sales Credit Memo.",
   "url": "https://github.com/microsoft/BCApps/pull/10083",
   "published_at": "2026-08-11T13:34:49Z",
-  "state": "extracted",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -25,6 +25,16 @@
       "kind": "fix",
       "behavior": true,
       "cost_usd": 0.004277
+    },
+    "linked": {
+      "at": "2026-10-07T13:12:02.667Z",
+      "objects": 13,
+      "unjoined": 1,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:12:02.673Z",
+      "path": "content/changes/bcapps/10083.md"
     }
   },
   "input_hash": "6c1bfdb9c4bfc05b4186325e7e37cc155ab18b37:c1",
@@ -46,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "3026c74fdcff2a36fc0929bf91873959625c362fd50c843ea38e62aed7f7d827"
+  "output_hash": "12cf4373fecb86fd670f1e990e78fa3148299319c2bf00597859f0d853b2df4d"
 }

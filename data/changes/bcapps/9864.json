@@ -1,0 +1,113 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9864,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9864",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-10T23:41:03Z",
+  "merge_commit_sha": "154fef6dbfe72f45a4f031949f8b598e5aaebe34",
+  "author": "AleksandricMarko",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM",
+    "event-request"
+  ],
+  "community_contribution": false,
+  "title": "[Extensibility Request] issue 29078: Add OnBeforeTestTransferLine event",
+  "body_hash": "868c09d0851b51677717c23eee663e8d585f25f7065d133ff5b368b9f1a8f3f4",
+  "fixes_issues": [],
+  "work_items": [
+    598042
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/IT/BaseApp/Inventory/Transfer/TransferHeader.Table.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Inventory/Transfer/TransferHeader.Table.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Inventory/Transfer/TransferHeader.Table.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Transfer/TransferHeader.Table.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 4,
+    "additions": 28,
+    "deletions": 0,
+    "al": 4
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/IT/BaseApp/Inventory/Transfer/TransferHeader.Table.al",
+        "status": "modified",
+        "key": "table/5740",
+        "type": "table",
+        "id": 5740,
+        "name": "Transfer Header",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "table/5740"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Inventory/Transfer/TransferHeader.Table.al",
+        "status": "modified",
+        "key": "table/5740",
+        "type": "table",
+        "id": 5740,
+        "name": "Transfer Header",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "table/5740"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Transfer/TransferHeader.Table.al",
+        "status": "modified",
+        "key": "table/5740",
+        "type": "table",
+        "id": 5740,
+        "name": "Transfer Header",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/5740"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Layers/RU/BaseApp/Inventory/Transfer/TransferHeader.Table.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "inventory"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

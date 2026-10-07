@@ -1,0 +1,1184 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9578,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9578",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-11T08:49:09Z",
+  "merge_commit_sha": "f9a8435406645ed1ac77e2704fd484d3ed7d15f6",
+  "author": "AndriusAndrulevicius",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "AL: Apps (W1)",
+    "From Fork",
+    "Ownership: Needs Review",
+    "Team: Other"
+  ],
+  "community_contribution": true,
+  "title": "[E-Documents Core] - Enabling remittance advice export via E-Documents (payment journal + posted payments)",
+  "body_hash": "b09f9751b09ed6ea5ef083f9a15201bf1747f37db4c59bccbec85f03dbe38bea",
+  "fixes_issues": [],
+  "work_items": [
+    580269
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/EDocument/App/Permissions/EDocCoreObjects.PermissionSet.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/app.json",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 1,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Document/EDocument.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Document/EDocumentType.Enum.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Format/EDocPEPPOLBIS30.Codeunit.al",
+      "status": "modified",
+      "additions": 51,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Format/EDocPEPPOLValidation.Codeunit.al",
+      "status": "modified",
+      "additions": 64,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/EDocExport.Codeunit.al",
+      "status": "modified",
+      "additions": 44,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/EDocumentProcessing.Codeunit.al",
+      "status": "modified",
+      "additions": 24,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/EDocumentSubscribers.Codeunit.al",
+      "status": "modified",
+      "additions": 159,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/RemittanceAdvice/EDocGenJournalLine.TableExt.al",
+      "status": "added",
+      "additions": 53,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/RemittanceAdvice/EDocPaymentJournal.PageExt.al",
+      "status": "added",
+      "additions": 176,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/RemittanceAdvice/EDocRemitAdviceEntries.ReportExt.al",
+      "status": "added",
+      "additions": 62,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/RemittanceAdvice/EDocRemitAdviceExport.Codeunit.al",
+      "status": "added",
+      "additions": 116,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/RemittanceAdvice/EDocRemitAdviceJournal.ReportExt.al",
+      "status": "added",
+      "additions": 102,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/RemittanceAdvice/EDocRemittanceAdviceMgt.Codeunit.al",
+      "status": "added",
+      "additions": 112,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/Test/src/LibraryEDocument.Codeunit.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/Test/src/Mock/EDocImplState.Codeunit.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/Test/src/Processing/EDocRemitAdviceTest.Codeunit.al",
+      "status": "added",
+      "additions": 855,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/PEPPOL/App/src/Common/PEPPOL30.Codeunit.al",
+      "status": "modified",
+      "additions": 35,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PEPPOL/App/src/Common/PEPPOL30Impl.Codeunit.al",
+      "status": "modified",
+      "additions": 48,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PEPPOL/App/src/Common/PEPPOL30Purchase.Enum.al",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PEPPOL/App/src/Interfaces/PEPPOLRemitAdviceInfoProvider.Interface.al",
+      "status": "added",
+      "additions": 36,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PEPPOL/App/src/Payments/ExportRemitAdvicePEPPOL30.Codeunit.al",
+      "status": "added",
+      "additions": 357,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PEPPOL/App/src/Payments/RemitAdviceBuffer.Table.al",
+      "status": "added",
+      "additions": 130,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PEPPOL/App/src/Payments/RemitAdviceBufferMgt.Codeunit.al",
+      "status": "added",
+      "additions": 430,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/UKSendRemittanceAdvice/App/src/Permissions/UKSRAObjects.PermissionSet.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/UKSendRemittanceAdvice/App/src/SendPmtJnlRemitAdvice.PageExt.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/UKSendRemittanceAdvice/App/src/SendVendLedgerEntryRemitAdvice.PageExt.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/UKSendRemittanceAdvice/App/src/SetupRemittanceReports.Codeunit.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/UKSendRemittanceAdvice/Test/src/SendRemittanceAdvice.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Finance/GeneralLedger/Journal/PaymentJournal.Page.al",
+      "status": "modified",
+      "additions": 34,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Foundation/Reporting/ReportSelectionMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 22,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Purchases/Payables/VendorLedgerEntries.Page.al",
+      "status": "modified",
+      "additions": 17,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/AT/BaseApp/Foundation/Reporting/ReportSelectionMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 22,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/AT/BaseApp/OtherCapabilities/Upgrade/UpgradeBaseApp.Codeunit.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/OtherCapabilities/Upgrade/UpgradeBaseApp.Codeunit.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/OtherCapabilities/Upgrade/UpgradeTagDefinitions.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Finance/GeneralLedger/Journal/PaymentJournal.Page.al",
+      "status": "modified",
+      "additions": 34,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Foundation/Reporting/ReportSelectionMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 22,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/OtherCapabilities/Upgrade/UpgradeBaseApp.Codeunit.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Purchases/Payables/VendorLedgerEntries.Page.al",
+      "status": "modified",
+      "additions": 32,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/DACH/BaseApp/Finance/GeneralLedger/Journal/PaymentJournal.Page.al",
+      "status": "modified",
+      "additions": 34,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/DACH/BaseApp/Foundation/Reporting/ReportSelectionMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 22,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/DE/BaseApp/Foundation/Reporting/ReportSelectionMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 22,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Finance/GeneralLedger/Journal/PaymentJournal.Page.al",
+      "status": "modified",
+      "additions": 34,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Foundation/Reporting/ReportSelectionMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 22,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Purchases/Payables/VendorLedgerEntries.Page.al",
+      "status": "modified",
+      "additions": 32,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Finance/GeneralLedger/Journal/PaymentJournal.Page.al",
+      "status": "modified",
+      "additions": 34,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/Finance/GeneralLedger/Journal/PaymentJournal.Page.al",
+      "status": "modified",
+      "additions": 34,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Finance/GeneralLedger/Journal/PaymentJournal.Page.al",
+      "status": "modified",
+      "additions": 34,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/OtherCapabilities/Upgrade/UpgradeBaseApp.Codeunit.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/OtherCapabilities/Upgrade/UpgradeTagDefinitions.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Purchases/Payables/VendorLedgerEntries.Page.al",
+      "status": "modified",
+      "additions": 32,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Finance/GeneralLedger/Journal/PaymentJournal.Page.al",
+      "status": "modified",
+      "additions": 34,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Foundation/Reporting/ReportSelectionMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 19,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Purchases/Payables/VendorLedgerEntries.Page.al",
+      "status": "modified",
+      "additions": 32,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/OtherCapabilities/Upgrade/UpgradeBaseApp.Codeunit.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Purchases/Payables/VendorLedgerEntries.Page.al",
+      "status": "modified",
+      "additions": 32,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Finance/GeneralLedger/Journal/PaymentJournal.Page.al",
+      "status": "modified",
+      "additions": 34,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/OtherCapabilities/Upgrade/UpgradeBaseApp.Codeunit.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Purchases/Payables/VendorLedgerEntries.Page.al",
+      "status": "modified",
+      "additions": 32,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Finance/GeneralLedger/Journal/PaymentJournal.Page.al",
+      "status": "modified",
+      "additions": 34,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Foundation/Reporting/ReportSelectionMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 22,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/OtherCapabilities/Upgrade/UpgradeBaseApp.Codeunit.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/OtherCapabilities/Upgrade/UpgradeTagDefinitions.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Purchases/Payables/VendorLedgerEntries.Page.al",
+      "status": "modified",
+      "additions": 32,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/GeneralLedger/Journal/PaymentJournal.Page.al",
+      "status": "modified",
+      "additions": 34,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Foundation/Reporting/ReportSelectionMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 22,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/OtherCapabilities/Upgrade/UpgradeBaseApp.Codeunit.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/OtherCapabilities/Upgrade/UpgradeTagDefinitions.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/Payables/VendorLedgerEntries.Page.al",
+      "status": "modified",
+      "additions": 32,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 71,
+    "additions": 3905,
+    "deletions": 15,
+    "al": 66
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/EDocument/App/Permissions/EDocCoreObjects.PermissionSet.al",
+        "status": "modified",
+        "key": "permissionset/6100",
+        "type": "permissionset",
+        "id": 6100,
+        "name": "E-Doc. Core - Objects",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "permissionset/6100"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Document/EDocument.Table.al",
+        "status": "modified",
+        "key": "table/6121",
+        "type": "table",
+        "id": 6121,
+        "name": "E-Document",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "table/6121"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Document/EDocumentType.Enum.al",
+        "status": "modified",
+        "key": "enum/6121",
+        "type": "enum",
+        "id": 6121,
+        "name": "E-Document Type",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "enum/6121"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Format/EDocPEPPOLBIS30.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6165",
+        "type": "codeunit",
+        "id": 6165,
+        "name": "EDoc PEPPOL BIS 3.0",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "codeunit/6165"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Format/EDocPEPPOLValidation.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6172",
+        "type": "codeunit",
+        "id": 6172,
+        "name": "E-Doc. PEPPOL Validation",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "codeunit/6172"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/EDocExport.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6102",
+        "type": "codeunit",
+        "id": 6102,
+        "name": "E-Doc. Export",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "codeunit/6102"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/EDocumentProcessing.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6108",
+        "type": "codeunit",
+        "id": 6108,
+        "name": "E-Document Processing",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "codeunit/6108"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/EDocumentSubscribers.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6103",
+        "type": "codeunit",
+        "id": 6103,
+        "name": "E-Document Subscribers",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "codeunit/6103"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/RemittanceAdvice/EDocGenJournalLine.TableExt.al",
+        "status": "added",
+        "key": "tableextension/6101",
+        "type": "tableextension",
+        "id": 6101,
+        "name": "E-Doc. Gen. Journal Line",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "tableextension/6101"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/RemittanceAdvice/EDocPaymentJournal.PageExt.al",
+        "status": "added",
+        "key": "pageextension/6110",
+        "type": "pageextension",
+        "id": 6110,
+        "name": "E-Doc. Payment Journal",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "pageextension/6110"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/RemittanceAdvice/EDocRemitAdviceEntries.ReportExt.al",
+        "status": "added",
+        "key": "reportextension/6101",
+        "type": "reportextension",
+        "id": 6101,
+        "name": "E-Doc. Remit. Advice Entries",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "reportextension/6101"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/RemittanceAdvice/EDocRemitAdviceExport.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/6531",
+        "type": "codeunit",
+        "id": 6531,
+        "name": "E-Doc. Remit. Advice Export",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "codeunit/6531"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/RemittanceAdvice/EDocRemitAdviceJournal.ReportExt.al",
+        "status": "added",
+        "key": "reportextension/6100",
+        "type": "reportextension",
+        "id": 6100,
+        "name": "E-Doc. Remit. Advice Journal",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "reportextension/6100"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/RemittanceAdvice/EDocRemittanceAdviceMgt.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/6530",
+        "type": "codeunit",
+        "id": 6530,
+        "name": "E-Doc. Remittance Advice Mgt.",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "codeunit/6530"
+      },
+      {
+        "path": "src/Apps/W1/PEPPOL/App/src/Common/PEPPOL30.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/37200",
+        "type": "codeunit",
+        "id": 37200,
+        "name": "PEPPOL30",
+        "app": "PEPPOL",
+        "cc": "w1",
+        "page": "codeunit/37200"
+      },
+      {
+        "path": "src/Apps/W1/PEPPOL/App/src/Common/PEPPOL30Impl.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/37201",
+        "type": "codeunit",
+        "id": 37201,
+        "name": "PEPPOL30 Impl.",
+        "app": "PEPPOL",
+        "cc": "w1",
+        "page": "codeunit/37201"
+      },
+      {
+        "path": "src/Apps/W1/PEPPOL/App/src/Common/PEPPOL30Purchase.Enum.al",
+        "status": "modified",
+        "key": "enum/37201",
+        "type": "enum",
+        "id": 37201,
+        "name": "PEPPOL 3.0 Purchase",
+        "app": "PEPPOL",
+        "cc": "w1",
+        "page": "enum/37201"
+      },
+      {
+        "path": "src/Apps/W1/PEPPOL/App/src/Interfaces/PEPPOLRemitAdviceInfoProvider.Interface.al",
+        "status": "added",
+        "key": "interface/peppol remit. advice info provider",
+        "type": "interface",
+        "id": null,
+        "name": "PEPPOL Remit. Advice Info Provider",
+        "app": "PEPPOL",
+        "cc": "w1",
+        "page": "interface/peppol-remit-advice-info-provider"
+      },
+      {
+        "path": "src/Apps/W1/PEPPOL/App/src/Payments/ExportRemitAdvicePEPPOL30.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/37208",
+        "type": "codeunit",
+        "id": 37208,
+        "name": "Export Remit. Advice PEPPOL30",
+        "app": "PEPPOL",
+        "cc": "w1",
+        "page": "codeunit/37208"
+      },
+      {
+        "path": "src/Apps/W1/PEPPOL/App/src/Payments/RemitAdviceBuffer.Table.al",
+        "status": "added",
+        "key": "table/37203",
+        "type": "table",
+        "id": 37203,
+        "name": "Remit. Advice Buffer",
+        "app": "PEPPOL",
+        "cc": "w1",
+        "page": "table/37203"
+      },
+      {
+        "path": "src/Apps/W1/PEPPOL/App/src/Payments/RemitAdviceBufferMgt.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/37207",
+        "type": "codeunit",
+        "id": 37207,
+        "name": "Remit. Advice Buffer Mgt.",
+        "app": "PEPPOL",
+        "cc": "w1",
+        "page": "codeunit/37207"
+      },
+      {
+        "path": "src/Apps/W1/UKSendRemittanceAdvice/App/src/Permissions/UKSRAObjects.PermissionSet.al",
+        "status": "modified",
+        "key": "permissionset/4022",
+        "type": "permissionset",
+        "id": 4022,
+        "name": "UKSRA - Objects",
+        "app": "UKSendRemittanceAdvice",
+        "cc": "w1",
+        "page": "permissionset/4022"
+      },
+      {
+        "path": "src/Apps/W1/UKSendRemittanceAdvice/App/src/SendPmtJnlRemitAdvice.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/4022",
+        "type": "pageextension",
+        "id": 4022,
+        "name": "SendPmtJnlRemitAdvice",
+        "app": "UKSendRemittanceAdvice",
+        "cc": "w1",
+        "page": "pageextension/4022"
+      },
+      {
+        "path": "src/Apps/W1/UKSendRemittanceAdvice/App/src/SendVendLedgerEntryRemitAdvice.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/4023",
+        "type": "pageextension",
+        "id": 4023,
+        "name": "SendVendLedgerEntryRemitAdvice",
+        "app": "UKSendRemittanceAdvice",
+        "cc": "w1",
+        "page": "pageextension/4023"
+      },
+      {
+        "path": "src/Apps/W1/UKSendRemittanceAdvice/App/src/SetupRemittanceReports.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/4031",
+        "type": "codeunit",
+        "id": 4031,
+        "name": "SetupRemittanceReports",
+        "app": "UKSendRemittanceAdvice",
+        "cc": "w1",
+        "page": "codeunit/4031"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Finance/GeneralLedger/Journal/PaymentJournal.Page.al",
+        "status": "modified",
+        "key": "page/256",
+        "type": "page",
+        "id": 256,
+        "name": "Payment Journal",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "page/256"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Purchases/Payables/VendorLedgerEntries.Page.al",
+        "status": "modified",
+        "key": "page/29",
+        "type": "page",
+        "id": 29,
+        "name": "Vendor Ledger Entries",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "page/29"
+      },
+      {
+        "path": "src/Layers/AT/BaseApp/Foundation/Reporting/ReportSelectionMgt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/1901",
+        "type": "codeunit",
+        "id": 1901,
+        "name": "Report Selection Mgt.",
+        "app": "Base Application",
+        "cc": "at",
+        "page": "codeunit/1901"
+      },
+      {
+        "path": "src/Layers/AT/BaseApp/OtherCapabilities/Upgrade/UpgradeBaseApp.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/104000",
+        "type": "codeunit",
+        "id": 104000,
+        "name": "Upgrade - BaseApp",
+        "app": "Base Application",
+        "cc": "at",
+        "page": "codeunit/104000"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/OtherCapabilities/Upgrade/UpgradeBaseApp.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/104000",
+        "type": "codeunit",
+        "id": 104000,
+        "name": "Upgrade - BaseApp",
+        "app": "Base Application",
+        "cc": "be",
+        "page": "codeunit/104000"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/OtherCapabilities/Upgrade/UpgradeTagDefinitions.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/9998",
+        "type": "codeunit",
+        "id": 9998,
+        "name": "Upgrade Tag Definitions",
+        "app": "Base Application",
+        "cc": "be",
+        "page": "codeunit/9998"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Finance/GeneralLedger/Journal/PaymentJournal.Page.al",
+        "status": "modified",
+        "key": "page/256",
+        "type": "page",
+        "id": 256,
+        "name": "Payment Journal",
+        "app": "Base Application",
+        "cc": "ch",
+        "page": "page/256"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Foundation/Reporting/ReportSelectionMgt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/1901",
+        "type": "codeunit",
+        "id": 1901,
+        "name": "Report Selection Mgt.",
+        "app": "Base Application",
+        "cc": "ch",
+        "page": "codeunit/1901"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/OtherCapabilities/Upgrade/UpgradeBaseApp.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/104000",
+        "type": "codeunit",
+        "id": 104000,
+        "name": "Upgrade - BaseApp",
+        "app": "Base Application",
+        "cc": "ch",
+        "page": "codeunit/104000"
+      },
+      {
+        "path": "src/Layers/DE/BaseApp/Foundation/Reporting/ReportSelectionMgt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/1901",
+        "type": "codeunit",
+        "id": 1901,
+        "name": "Report Selection Mgt.",
+        "app": "Base Application",
+        "cc": "de",
+        "page": "codeunit/1901"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/OtherCapabilities/Upgrade/UpgradeBaseApp.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/104000",
+        "type": "codeunit",
+        "id": 104000,
+        "name": "Upgrade - BaseApp",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "codeunit/104000"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/OtherCapabilities/Upgrade/UpgradeTagDefinitions.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/9998",
+        "type": "codeunit",
+        "id": 9998,
+        "name": "Upgrade Tag Definitions",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "codeunit/9998"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Finance/GeneralLedger/Journal/PaymentJournal.Page.al",
+        "status": "modified",
+        "key": "page/256",
+        "type": "page",
+        "id": 256,
+        "name": "Payment Journal",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "page/256"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/OtherCapabilities/Upgrade/UpgradeBaseApp.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/104000",
+        "type": "codeunit",
+        "id": 104000,
+        "name": "Upgrade - BaseApp",
+        "app": "Base Application",
+        "cc": "nl",
+        "page": "codeunit/104000"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Finance/GeneralLedger/Journal/PaymentJournal.Page.al",
+        "status": "modified",
+        "key": "page/256",
+        "type": "page",
+        "id": 256,
+        "name": "Payment Journal",
+        "app": "Base Application",
+        "cc": "no",
+        "page": "page/256"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/OtherCapabilities/Upgrade/UpgradeBaseApp.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/104000",
+        "type": "codeunit",
+        "id": 104000,
+        "name": "Upgrade - BaseApp",
+        "app": "Base Application",
+        "cc": "no",
+        "page": "codeunit/104000"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Foundation/Reporting/ReportSelectionMgt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/1901",
+        "type": "codeunit",
+        "id": 1901,
+        "name": "Report Selection Mgt.",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "codeunit/1901"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/OtherCapabilities/Upgrade/UpgradeBaseApp.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/104000",
+        "type": "codeunit",
+        "id": 104000,
+        "name": "Upgrade - BaseApp",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "codeunit/104000"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/OtherCapabilities/Upgrade/UpgradeTagDefinitions.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/9998",
+        "type": "codeunit",
+        "id": 9998,
+        "name": "Upgrade Tag Definitions",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "codeunit/9998"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Purchases/Payables/VendorLedgerEntries.Page.al",
+        "status": "modified",
+        "key": "page/29",
+        "type": "page",
+        "id": 29,
+        "name": "Vendor Ledger Entries",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "page/29"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/GeneralLedger/Journal/PaymentJournal.Page.al",
+        "status": "modified",
+        "key": "page/256",
+        "type": "page",
+        "id": 256,
+        "name": "Payment Journal",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/256"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Foundation/Reporting/ReportSelectionMgt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/1901",
+        "type": "codeunit",
+        "id": 1901,
+        "name": "Report Selection Mgt.",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/1901"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/OtherCapabilities/Upgrade/UpgradeBaseApp.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/104000",
+        "type": "codeunit",
+        "id": 104000,
+        "name": "Upgrade - BaseApp",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/104000"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/OtherCapabilities/Upgrade/UpgradeTagDefinitions.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/9998",
+        "type": "codeunit",
+        "id": 9998,
+        "name": "Upgrade Tag Definitions",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/9998"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/Payables/VendorLedgerEntries.Page.al",
+        "status": "modified",
+        "key": "page/29",
+        "type": "page",
+        "id": 29,
+        "name": "Vendor Ledger Entries",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/29"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Layers/APAC/BaseApp/Foundation/Reporting/ReportSelectionMgt.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Purchases/Payables/VendorLedgerEntries.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/DACH/BaseApp/Finance/GeneralLedger/Journal/PaymentJournal.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/DACH/BaseApp/Foundation/Reporting/ReportSelectionMgt.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Finance/GeneralLedger/Journal/PaymentJournal.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Foundation/Reporting/ReportSelectionMgt.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Purchases/Payables/VendorLedgerEntries.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Finance/GeneralLedger/Journal/PaymentJournal.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/Finance/GeneralLedger/Journal/PaymentJournal.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Finance/GeneralLedger/Journal/PaymentJournal.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Purchases/Payables/VendorLedgerEntries.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Foundation/Reporting/ReportSelectionMgt.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Purchases/Payables/VendorLedgerEntries.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Purchases/Payables/VendorLedgerEntries.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Purchases/Payables/VendorLedgerEntries.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Finance/GeneralLedger/Journal/PaymentJournal.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "platform",
+    "integration",
+    "development",
+    "purchasing",
+    "finance"
+  ],
+  "apps": [
+    "Base Application",
+    "EDocument",
+    "PEPPOL",
+    "UKSendRemittanceAdvice"
+  ]
+}

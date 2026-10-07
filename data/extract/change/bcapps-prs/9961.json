@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/9961",
+  "number": 9961,
+  "title": "[Extensibility Request] issue 30381: expose page sender to filter subscribers",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory"
+  ],
+  "summary": "The OnRefreshPageOnAfterSetItemFilters event now exposes the page sender, allowing extensions to access page filters during item availability calculations without replacing standard behavior.",
+  "key_points": [
+    "Extensions can now receive the page sender parameter in the OnRefreshPageOnAfterSetItemFilters event",
+    "Enables subscribers to read custom page-extension filters before availability calculations run",
+    "Maintains standard availability calculation behavior while providing extensibility",
+    "Applies to the Item Availability by BOM Level page"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "inventory"
+  ],
+  "quote": "Extensions need access to page 5871 so they can transfer custom page filters to the item record used by availability calculations.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003349,
+    "changes_in_call": 1
+  }
+}

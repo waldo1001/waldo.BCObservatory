@@ -1,0 +1,34 @@
+{
+  "item_id": "change/bcapps-prs/9208",
+  "number": 9208,
+  "title": "[Enforced Digital Vouchers] - Attaching EDocuments when using Digital Vouchers",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "Digital Vouchers now automatically attach generated E-Documents to posted sales and purchase documents when configured to do so. The Digital Voucher Entry Setup table adds an E-Document check type option that streamlines compliance document management and reduces manual attachment effort.",
+  "key_points": [
+    "New E-Document check type added to Digital Voucher Entry Setup for automating E-Document attachment",
+    "Automatic attachment of E-Document files to Incoming Document Files when posting sales or purchase documents",
+    "E-Document check type only available when Generate Automatically is enabled",
+    "E-Document option restricted to Sales Document or Purchase Document entry types",
+    "Enhanced automation reduces manual effort and ensures consistent document linking"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration",
+    "purchasing",
+    "sales"
+  ],
+  "quote": "The system will automatically generate and attach E-Documents and related files to posted documents, streamlining document management and compliance.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004371,
+    "changes_in_call": 1
+  }
+}
