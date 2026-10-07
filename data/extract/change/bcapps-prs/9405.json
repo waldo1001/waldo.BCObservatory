@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/9405",
+  "number": 9405,
+  "title": "[FI] Delocalize FI Currency Exchange Rate import into FI Core",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Finnish currency exchange rate import functionality moved from the base application layer to the FI Core extension, with the original code retained as obsolete for backward compatibility.",
+  "key_points": [
+    "New codeunit 13415 in FI Core handles fixed-format import logic with OnBeforeFileImport event",
+    "Page extension 13414 adds Import Exchange Rates action to Currencies page in FI Core",
+    "Original codeunit 32000001 marked obsolete and pending removal in version 29.0",
+    "Existing tests preserved; no new test codeunit added",
+    "Public OnBeforeFileImport event remains available as obsolete"
+  ],
+  "change_kind": "refactor",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "quote": "Delocalizes the Finnish Currency Exchange Rate import from the FI BaseApp layer into the FI Core extension app.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00407,
+    "changes_in_call": 1
+  }
+}

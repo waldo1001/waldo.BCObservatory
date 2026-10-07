@@ -6,10 +6,35 @@
   "title": "Improve error messages when there are no quantities to reverse in shipped/received lines in Sales/Purchase/Transfer",
   "url": "https://github.com/microsoft/BCApps/pull/10005",
   "published_at": "2026-08-06T11:15:31Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:12:57.235Z",
+      "change_class": "code",
+      "files": 12,
+      "al": 6,
+      "objects": 5,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-10-07T13:13:02.177Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003924
+    },
+    "linked": {
+      "at": "2026-10-07T13:13:02.380Z",
+      "objects": 5,
+      "unjoined": 1,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:13:02.387Z",
+      "path": "content/changes/bcapps/10005.md"
     }
   },
   "input_hash": "f93aad3feef8dd68336960a9ae59c71879aa8131:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "improve error messages when there are no quantities to reverse in shipped received lines in sales purchase transfer"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "08adbda39dca23c96a806b8b4bdc978145766f7407a7ea262b09576dc3afa2c3"
 }

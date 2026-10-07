@@ -1,0 +1,34 @@
+{
+  "item_id": "change/bcapps-prs/9954",
+  "number": 9954,
+  "title": "Restoring undefined action. (Purchase Orders page can't be open in latest `main`)",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration",
+    "purchasing"
+  ],
+  "summary": "An action body was accidentally removed from the E-Document app, breaking purchase order pages. The action and its references have been restored to fix the compilation error.",
+  "key_points": [
+    "An action that was previously removed had no body or RunObject, causing it to not be emitted",
+    "The missing action broke actionref references in purchase order pages",
+    "Action bodies have been restored across multiple E-Document pages and extensions",
+    "Analyzer that should have caught this issue was disabled during the gate check",
+    "Pages can now be opened successfully again"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "purchasing",
+    "integration"
+  ],
+  "quote": "Analyzer disabled on the BCApps gate let a change that removed the body of an action to be merged.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003413,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9405,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9405",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-06T09:55:30Z",
+  "merge_commit_sha": "0066516c4f89dd5e421f3e769aff4d4b32563e44",
+  "author": "djukicmilica",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[FI] Delocalize FI Currency Exchange Rate import into FI Core",
+  "body_hash": "06eb3327a96e6ffef044bc6a97c8748d2a55004831b91e7a734ac9533c27a5d7",
+  "fixes_issues": [],
+  "work_items": [
+    622873
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/FI/FICore/app/app.json",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/FI/FICore/app/src/Codeunits/CurrencyExchRateImport.Codeunit.al",
+      "status": "added",
+      "additions": 141,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/FI/FICore/app/src/PageExtensions/CurrenciesFI.PageExt.al",
+      "status": "added",
+      "additions": 24,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/FI/FICore/test/app.json",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/FI/FICore/test/src/CurrencyExchRateFileTest.Codeunit.al",
+      "status": "added",
+      "additions": 244,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Finance/Currency/Currencies.Page.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Local/FinancialMgt/Currency/CurrencyExchangeRate.Codeunit.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/Tests/Local/CurrencyExchangeRateFile.Codeunit.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 8,
+    "additions": 434,
+    "deletions": 3,
+    "al": 4
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/FI/BaseApp/Local/FinancialMgt/Currency/CurrencyExchangeRate.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/32000001",
+        "type": "codeunit",
+        "id": 32000001,
+        "name": "Currency Exchange Rate",
+        "app": "Base Application",
+        "cc": "fi",
+        "page": "codeunit/32000001-fi"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Apps/FI/FICore/app/src/Codeunits/CurrencyExchRateImport.Codeunit.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/FI/FICore/app/src/PageExtensions/CurrenciesFI.PageExt.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Finance/Currency/Currencies.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

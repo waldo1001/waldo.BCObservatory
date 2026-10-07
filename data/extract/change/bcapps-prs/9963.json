@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/9963",
+  "number": 9963,
+  "title": "[Extensibility Request] issue 30384: expose planning suggestions variable",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory"
+  ],
+  "summary": "The IncludePlanningSuggestions variable on the Item Availability by Event page is now accessible to page extensions through protected scope.",
+  "key_points": [
+    "Variable moved from private to protected scope",
+    "Enables page extensions to access planning suggestions setting",
+    "No behavior change, only visibility adjustment",
+    "Supports extensibility for custom page modifications"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "inventory"
+  ],
+  "quote": "Page extensions need access to the setting that controls whether planning suggestions are included on the Item Availability by Event page.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.002994,
+    "changes_in_call": 1
+  }
+}

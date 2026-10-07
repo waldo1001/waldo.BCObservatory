@@ -6,10 +6,18 @@
   "title": "[Shopify] Add catalog filters to Sync Catalog Prices report",
   "url": "https://github.com/microsoft/BCApps/pull/9959",
   "published_at": "2026-08-05T20:20:31Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:13:05.210Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
     }
   },
   "input_hash": "b5a428f3056e73d83145c7d26923abd03cc23a25:c1",
@@ -29,5 +37,8 @@
     ],
     "community_contribution": false,
     "title_key": "shopify add catalog filters to sync catalog prices report"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "95ba1717a592798b957f0725a2af59ba67137a2f7c25771fa7bf8c471f75431a"
 }

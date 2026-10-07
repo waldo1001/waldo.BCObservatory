@@ -1,0 +1,178 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9212,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9212",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-05T16:13:56Z",
+  "merge_commit_sha": "62b4d16d4bad702752c44718a9ea5f025a4a6a42",
+  "author": "alexei-dobriansky",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "Bug 629779: [Inventory] Show a single Export/Import item data action pair on Cost Adjustment and Item Card",
+  "body_hash": "8030738d34b0f543eb01d73bb286277272bd7314bc9303fbb1acec4020cb960d",
+  "fixes_issues": [],
+  "work_items": [
+    629779
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/APAC/BaseApp/Inventory/Item/ItemCard.Page.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/Inventory/Item/ItemCard.Page.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Inventory/Item/ItemCard.Page.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Inventory/Item/ItemCard.Page.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Inventory/Item/ItemCard.Page.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Costing/CostAdjustmentOverview.Page.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Item/ItemCard.Page.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Inventory/Costing/MfgCostAdjustmentOverview.PageExt.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Inventory/Item/MfgItemCard.PageExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 9,
+    "additions": 42,
+    "deletions": 15,
+    "al": 9
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Costing/CostAdjustmentOverview.Page.al",
+        "status": "modified",
+        "key": "page/5801",
+        "type": "page",
+        "id": 5801,
+        "name": "Cost Adjustment Overview",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/5801"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Item/ItemCard.Page.al",
+        "status": "modified",
+        "key": "page/30",
+        "type": "page",
+        "id": 30,
+        "name": "Item Card",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/30"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Inventory/Costing/MfgCostAdjustmentOverview.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/99000759",
+        "type": "pageextension",
+        "id": 99000759,
+        "name": "Mfg. Cost Adjustment Overview",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "pageextension/99000759"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Inventory/Item/MfgItemCard.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/99000750",
+        "type": "pageextension",
+        "id": 99000750,
+        "name": "Mfg. Item Card",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "pageextension/99000750"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Layers/APAC/BaseApp/Inventory/Item/ItemCard.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/Inventory/Item/ItemCard.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Inventory/Item/ItemCard.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Inventory/Item/ItemCard.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Inventory/Item/ItemCard.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "inventory"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

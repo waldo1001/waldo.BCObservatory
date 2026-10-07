@@ -1,0 +1,41 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9895,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9895",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-06T07:13:29Z",
+  "merge_commit_sha": "b94bbe3dcff671c1ced6cbd13d95c68960a7abcd",
+  "author": "aholstrup1",
+  "author_type": "User",
+  "labels": [
+    "Build: scripts & configs",
+    "Ownership: Needs Review",
+    "Team: Other"
+  ],
+  "community_contribution": false,
+  "title": "Remove unavailable projects from build metadata",
+  "body_hash": "ea67a099e50d3723707e9158d6f30be423ef09c1563d8761fd270e046cfc102a",
+  "fixes_issues": [],
+  "work_items": [
+    644919
+  ],
+  "change_class": "build",
+  "files": [],
+  "totals": {
+    "files": 2,
+    "additions": 4,
+    "deletions": 1131,
+    "al": 0
+  },
+  "join": {
+    "major": "30",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}

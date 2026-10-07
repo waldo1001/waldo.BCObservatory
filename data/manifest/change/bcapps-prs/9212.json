@@ -6,10 +6,25 @@
   "title": "Bug 629779: [Inventory] Show a single Export/Import item data action pair on Cost Adjustment and Item Card",
   "url": "https://github.com/microsoft/BCApps/pull/9212",
   "published_at": "2026-08-05T16:13:56Z",
-  "state": "discovered",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:13:06.108Z",
+      "change_class": "code",
+      "files": 9,
+      "al": 9,
+      "objects": 4,
+      "unjoined": 5
+    },
+    "extracted": {
+      "at": "2026-10-07T13:13:13.029Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004142
     }
   },
   "input_hash": "62b4d16d4bad702752c44718a9ea5f025a4a6a42:c1",
@@ -28,5 +43,8 @@
     ],
     "community_contribution": false,
     "title_key": "bug 629779 inventory show a single export import item data action pair on cost adjustment and item card"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "01013b6abda49dfd3721ca8183d4e12ac8046d0b2c063fc5e6d5306fad4da16b"
 }

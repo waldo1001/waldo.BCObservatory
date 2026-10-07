@@ -1,0 +1,36 @@
+{
+  "item_id": "change/bcapps-prs/10005",
+  "number": 10005,
+  "title": "Improve error messages when there are no quantities to reverse in shipped/received lines in Sales/Purchase/Transfer",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "purchasing",
+    "sales",
+    "inventory"
+  ],
+  "summary": "Error messages when reversing shipped or received lines now distinguish between no reversible quantities and already-reversed lines, providing clearer guidance for users and AI agents.",
+  "key_points": [
+    "Separates misleading 'already reversed' message into two distinct error cases",
+    "First error for lines with no reversible quantities (like comment lines)",
+    "Second error for lines already marked as reversed",
+    "Messages are action-oriented to guide users and agents",
+    "Applies consistent error handling across all undo scenarios for sales, purchases, and transfers"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales",
+    "purchasing",
+    "inventory"
+  ],
+  "quote": "Message wording is action-oriented so both users and AI agents get a clear next step.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003924,
+    "changes_in_call": 1
+  }
+}

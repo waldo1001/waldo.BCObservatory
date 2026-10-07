@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/9896",
+  "number": 9896,
+  "title": "Rename PBI embedded pages",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "127 Power BI report pages were renamed to standardize their page names across finance, inventory, manufacturing, projects, purchasing, sales, subscription billing, and sustainability modules.",
+  "key_points": [
+    "Page names for 127 embedded Power BI reports were updated",
+    "Changes span multiple business modules including finance, inventory, manufacturing, and projects",
+    "The renaming improves naming consistency across Power BI report pages",
+    "File modifications only involved page name updates in AL files"
+  ],
+  "change_kind": "refactor",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "reporting",
+    "finance",
+    "inventory"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.014551,
+    "changes_in_call": 1
+  }
+}

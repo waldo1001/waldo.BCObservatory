@@ -1,0 +1,29 @@
+{
+  "item_id": "change/bcapps-prs/9952",
+  "number": 9952,
+  "title": "Show address lines 1-3 in address lookup display text",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [],
+  "summary": "The address lookup modal for Ideal Postcodes now displays address lines 1-3 combined in a single text field instead of showing separate address, city, and post code columns.",
+  "key_points": [
+    "Display Text is built from address lines 1-3 (line_1/line_2/line_3) instead of address, city, and post code",
+    "Address, City, and Post Code columns are removed from the Select Address modal",
+    "Modal page test handler updated to select rows by key instead of the removed Post Code column",
+    "Affects the GB Ideal Postcodes integration"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003496,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9959,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9959",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-05T20:20:31Z",
+  "merge_commit_sha": "b5a428f3056e73d83145c7d26923abd03cc23a25",
+  "author": "onbuyuka",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "[Shopify] Add catalog filters to Sync Catalog Prices report",
+  "body_hash": "d88a9e218874004e10bf396390e3f606503d48f8fcb9167185c2bc293e693a80",
+  "fixes_issues": [],
+  "work_items": [
+    645074
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Shopify/App/src/Catalogs/Codeunits/ShpfySyncCatalogPrices.Codeunit.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 29,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Shopify/App/src/Catalogs/Reports/ShpfySyncCatalogPrices.Report.al",
+      "status": "modified",
+      "additions": 28,
+      "deletions": 3,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 37,
+    "deletions": 32,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Shopify/App/src/Catalogs/Codeunits/ShpfySyncCatalogPrices.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/30295",
+        "type": "codeunit",
+        "id": 30295,
+        "name": "Shpfy Sync Catalog Prices",
+        "app": "Shopify",
+        "cc": "w1",
+        "page": "codeunit/30295"
+      },
+      {
+        "path": "src/Apps/W1/Shopify/App/src/Catalogs/Reports/ShpfySyncCatalogPrices.Report.al",
+        "status": "modified",
+        "key": "report/30116",
+        "type": "report",
+        "id": 30116,
+        "name": "Shpfy Sync Catalog Prices",
+        "app": "Shopify",
+        "cc": "w1",
+        "page": "report/30116"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "integration"
+  ],
+  "apps": [
+    "Shopify"
+  ]
+}

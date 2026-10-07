@@ -6,10 +6,35 @@
   "title": "Suppress zero-value rows in Trial Balance by Period",
   "url": "https://github.com/microsoft/BCApps/pull/9894",
   "published_at": "2026-08-06T10:20:02Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:12:56.975Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:13:01.645Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.00345
+    },
+    "linked": {
+      "at": "2026-10-07T13:13:01.856Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:13:01.862Z",
+      "path": "content/changes/bcapps/9894.md"
     }
   },
   "input_hash": "cd497b72f977ec0716094a1ca7bf2e5ac45d3205:c1",
@@ -31,5 +56,8 @@
     ],
     "community_contribution": true,
     "title_key": "suppress zero value rows in trial balance by period"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "9e680783314ac024a2ca1d03c3a77552eae755abe6eef2a269495b72f95c929c"
 }

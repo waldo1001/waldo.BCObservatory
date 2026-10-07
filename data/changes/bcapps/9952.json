@@ -1,0 +1,74 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9952,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9952",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-05T21:18:39Z",
+  "merge_commit_sha": "1afea9da1fb05dcb065f9eb017b312d616de9af8",
+  "author": "mfilip",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "From Fork",
+    "Team: Integrations"
+  ],
+  "community_contribution": true,
+  "title": "Show address lines 1-3 in address lookup display text",
+  "body_hash": "9a2208f8b3906934c7ead54a854733cffb70fbaab091560e1dfe4335ff4f8e8c",
+  "fixes_issues": [],
+  "work_items": [
+    645105
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/GB/IdealPostcodes/app/src/IPCAddressLookup.Page.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/GB/IdealPostcodes/app/src/IPCManagement.Codeunit.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/GB/IdealPostcodes/test/src/TestIdealPostcodesPages.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 12,
+    "deletions": 7,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "src/Apps/GB/IdealPostcodes/app/src/IPCAddressLookup.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/GB/IdealPostcodes/app/src/IPCManagement.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

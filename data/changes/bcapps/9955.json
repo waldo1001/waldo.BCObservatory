@@ -1,0 +1,60 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9955,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9955",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-05T13:59:53Z",
+  "merge_commit_sha": "db137aa4091859e916e678ff8f76f25de3478dad",
+  "author": "dcenic",
+  "author_type": "User",
+  "labels": [
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "XRechnung – Invalid XML Generated When Invoice Discount Percentage Exceeds 2 Decimals",
+  "body_hash": "577848d9a3297a261c0813858ad1cd2db70cb8ed1304178b55389abcec5c168a",
+  "fixes_issues": [],
+  "work_items": [
+    645078
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/src/XRechnung/ExportXRechnungDocument.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/test/src/XRechnungXMLDocumentTests.Codeunit.al",
+      "status": "modified",
+      "additions": 36,
+      "deletions": 24,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 38,
+    "deletions": 26,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "src/Apps/DE/EDocumentDE/app/src/XRechnung/ExportXRechnungDocument.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

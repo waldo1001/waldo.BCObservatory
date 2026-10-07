@@ -1,0 +1,29 @@
+{
+  "item_id": "change/bcapps-prs/9868",
+  "number": 9868,
+  "title": "[MAIN]-Bug 644801-IRS Reporting Period - Copy Setup process will copy the 1099 Adjustments as part of the process of copying from one IRS Reporting Period to a new Period setup.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [],
+  "summary": "The copy setup process for IRS Reporting Periods now correctly resets 1099 adjustment amounts to zero when copying from one period to another, preventing incorrect carryover of adjustment values.",
+  "key_points": [
+    "Copy logic was duplicating full adjustment records instead of resetting amounts",
+    "Amount field is now explicitly set to 0 before inserting records in the target period",
+    "Automated test added to validate the copy behavior",
+    "Fixes an issue where 1099 adjustment amounts were incorrectly carried over between periods"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": "Copy Setup was incorrectly carrying 1099 adjustment amounts from source period to target period.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003499,
+    "changes_in_call": 1
+  }
+}

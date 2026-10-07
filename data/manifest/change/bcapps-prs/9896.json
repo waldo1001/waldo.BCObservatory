@@ -6,10 +6,35 @@
   "title": "Rename PBI embedded pages",
   "url": "https://github.com/microsoft/BCApps/pull/9896",
   "published_at": "2026-08-06T09:42:07Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:12:58.830Z",
+      "change_class": "code",
+      "files": 127,
+      "al": 127,
+      "objects": 127,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:13:04.742Z",
+      "prompt": "extract-change@1",
+      "kind": "refactor",
+      "behavior": false,
+      "cost_usd": 0.014551
+    },
+    "linked": {
+      "at": "2026-10-07T13:13:04.941Z",
+      "objects": 127,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:13:04.969Z",
+      "path": "content/changes/bcapps/9896.md"
     }
   },
   "input_hash": "a36d3c2afecf8af5c64bf5290243a9a9be52e69e:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": false,
     "title_key": "rename pbi embedded pages"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "78a9b397040c5c0efb46037cf20bfc3b389a41890b02f29dc3db8b87a2b91a4c"
 }

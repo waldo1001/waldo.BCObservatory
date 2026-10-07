@@ -1,0 +1,2335 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9896,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9896",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-06T09:42:07Z",
+  "merge_commit_sha": "a36d3c2afecf8af5c64bf5290243a9a9be52e69e",
+  "author": "mynjj",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Ownership: Needs Review",
+    "Team: Other"
+  ],
+  "community_contribution": false,
+  "title": "Rename PBI embedded pages",
+  "body_hash": "f51cc15efc8fbcdf64cb1fe831401f77ed22a6a3fd8f33babb319cfcf8bbe106",
+  "fixes_issues": [],
+  "work_items": [
+    622074
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Finance/Embedded/AgedPayablesBackDating.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Finance/Embedded/AgedReceivablesBackDating.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Finance/Embedded/AverageCollectionPeriod.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Finance/Embedded/BalanceSheetbyMonth.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Finance/Embedded/BudgetComparison.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Finance/Embedded/DetailedCustLedgerEntries.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Finance/Embedded/DetailedVendorLedgerEntries.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Finance/Embedded/EBITDA.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Finance/Embedded/FinanceReport.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Finance/Embedded/FinancialOverview.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Finance/Embedded/IncomeStatementbyMonth.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Finance/Embedded/LatePaymentsReceivables.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Finance/Embedded/Liabilities.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Finance/Embedded/LiquidityKPIs.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Finance/Embedded/PowerBIGeneralLedgEntries.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Finance/Embedded/Profitability.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Inventory/Embedded/Inventory Valuation/InventoryValuationOverview.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Inventory/Embedded/Inventory Valuation/InventoryValuationReport.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Inventory/Embedded/Inventory Valuation/InventoryValuationbyItem.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Inventory/Embedded/Inventory Valuation/InventoryValuationbyLoc.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Inventory/Embedded/Inventory/BinContentsbyItemTracking.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Inventory/Embedded/Inventory/GrossRequirement.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Inventory/Embedded/Inventory/InventoryForecasting.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Inventory/Embedded/Inventory/InventoryOverview.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Inventory/Embedded/Inventory/InventoryReport.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Inventory/Embedded/Inventory/InventorybyItem.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Inventory/Embedded/Inventory/InventorybyLocation.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Inventory/Embedded/Inventory/InventorybyLot.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Inventory/Embedded/Inventory/InventorybySerialNo.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Inventory/Embedded/Inventory/ItemAvailability.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Inventory/Embedded/Inventory/PowerBIABCAnalysis.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Inventory/Embedded/Inventory/PowerBIBinContents.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Inventory/Embedded/Inventory/PurchaseandSalesQuantity.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Inventory/Embedded/Inventory/ScheduledReceipt.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Manufacturing/Embedded/AllocatedHours.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Manufacturing/Embedded/AverageProductionsTimes.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Manufacturing/Embedded/CapacityVariance.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Manufacturing/Embedded/ConsumptionVariance.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Manufacturing/Embedded/ExpectedCapacityNeed.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Manufacturing/Embedded/FinishedProdOrderBreakdown.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Manufacturing/Embedded/ManufacturingReport.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Manufacturing/Embedded/PBIMachineCenterLoad.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Manufacturing/Embedded/PBIMachineCenterStatistics.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Manufacturing/Embedded/PBIWorkCenterStatistics.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Manufacturing/Embedded/PowerBIReleasedProdOrders.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Manufacturing/Embedded/PowerBIWorkCenterLoad.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Manufacturing/Embedded/ProdOrderList.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Manufacturing/Embedded/ProdOrderRoutingsGantt.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Manufacturing/Embedded/ProductionOrderOverview.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Manufacturing/Embedded/ProductionOrderWIP.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Manufacturing/Embedded/ProductionScrap.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Projects/Embedded/ProjectInvdSalesbyCust.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Projects/Embedded/ProjectInvoicedSalesbyType.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Projects/Embedded/ProjectPerformancetoBudget.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Projects/Embedded/ProjectProfitability.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Projects/Embedded/ProjectRealization.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Projects/Embedded/ProjectTasks.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Projects/Embedded/ProjectTimeline.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Projects/Embedded/ProjectsOverview.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Projects/Embedded/ProjectsReport.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Purchasing/Embedded/DailyPurchases.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Purchasing/Embedded/KeyPurchaseInfluencers.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Purchasing/Embedded/PurchActualvsBudgetAmt.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Purchasing/Embedded/PurchActualvsBudgetQty.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Purchasing/Embedded/PurchaseForecasting.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Purchasing/Embedded/PurchaseQuoteOverview.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Purchasing/Embedded/PurchaseReturnOverview.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Purchasing/Embedded/PurchasesDecomposition.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Purchasing/Embedded/PurchasesMovingAnnualTotal.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Purchasing/Embedded/PurchasesMovingAverages.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Purchasing/Embedded/PurchasesOverview.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Purchasing/Embedded/PurchasesPeriodOverPeriod.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Purchasing/Embedded/PurchasesReport.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Purchasing/Embedded/PurchasesYearOverYear.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Purchasing/Embedded/PurchasesbyItem.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Purchasing/Embedded/PurchasesbyLocation.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Purchasing/Embedded/PurchasesbyPurchaser.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Purchasing/Embedded/PurchasesbyVendor.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Purchasing/Embedded/VendorQualityAnalysis.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Sales/Embedded/CustomerRetentionHistory.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Sales/Embedded/CustomerRetentionOverview.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Sales/Embedded/DailySales.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Sales/Embedded/KeySalesInfluencers.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Sales/Embedded/OpportunityOverview.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Sales/Embedded/ReturnOrderOverview.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Sales/Embedded/SalesActualvsBudgetQty.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Sales/Embedded/SalesDecomposition.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Sales/Embedded/SalesDemographics.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Sales/Embedded/SalesForecasting.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Sales/Embedded/SalesMonthToDate.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Sales/Embedded/SalesMovingAnnualTotal.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Sales/Embedded/SalesMovingAverage.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Sales/Embedded/SalesOverview.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Sales/Embedded/SalesPeriodOverPeriod.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Sales/Embedded/SalesQuoteOverview.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Sales/Embedded/SalesReport.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Sales/Embedded/SalesbyCustomer.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Sales/Embedded/SalesbyItem.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Sales/Embedded/SalesbyLocation.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Sales/Embedded/SalesbyProjects.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/App/Sales/Embedded/SalesbySalesperson.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subscription Billing/App/Power BI/Embedded/BillingSchedulePowerBI.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subscription Billing/App/Power BI/Embedded/ChurnAnalysisPowerBI.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subscription Billing/App/Power BI/Embedded/ContractValAnalysisPowerBI.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subscription Billing/App/Power BI/Embedded/ContractValueYoYPowerBI.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subscription Billing/App/Power BI/Embedded/CustomerDeferralsPowerBI.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subscription Billing/App/Power BI/Embedded/RevbySalespersonPowerBI.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subscription Billing/App/Power BI/Embedded/RevenueAnalysisPowerBI.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subscription Billing/App/Power BI/Embedded/RevenueDevelopmentPowerBI.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subscription Billing/App/Power BI/Embedded/RevenueYoYPowerBI.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subscription Billing/App/Power BI/Embedded/RevenuebyCustomerPowerBI.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subscription Billing/App/Power BI/Embedded/RevenuebyItemPowerBI.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subscription Billing/App/Power BI/Embedded/SalesCostforecastPowerBI.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subscription Billing/App/Power BI/Embedded/SubBillingReportPowerBI.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subscription Billing/App/Power BI/Embedded/SubscriptionOverviewPowerBI.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subscription Billing/App/Power BI/Embedded/VendorDeferralsPowerBI.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/PowerBI/Embedded/CO2eAnalysisPowerBI.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/PowerBI/Embedded/CO2eDecompTreePowerBI.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/PowerBI/Embedded/CO2eKeyInfluencesPowerBI.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/PowerBI/Embedded/EmissionsbyCatandScopePBI.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/PowerBI/Embedded/EmissionsvsBaselinePowerBI.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/PowerBI/Embedded/EmissionsvsTargetPowerBI.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/PowerBI/Embedded/SocialAnalysisPowerBI.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/PowerBI/Embedded/SustOverviewPowerBI.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/PowerBI/Embedded/SustainabilityReportPowerBI.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/PowerBI/Embedded/ToNetZeroCarbonPowerBI.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/PowerBI/Embedded/WaterandWastePowerBI.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 127,
+    "additions": 254,
+    "deletions": 254,
+    "al": 127
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Finance/Embedded/AgedPayablesBackDating.Page.al",
+        "status": "modified",
+        "key": "page/36994",
+        "type": "page",
+        "id": 36994,
+        "name": "Aged Payables (Back Dating)",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/36994"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Finance/Embedded/AgedReceivablesBackDating.Page.al",
+        "status": "modified",
+        "key": "page/36993",
+        "type": "page",
+        "id": 36993,
+        "name": "Aged Receivables (Back Dating)",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/36993"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Finance/Embedded/AverageCollectionPeriod.Page.al",
+        "status": "modified",
+        "key": "page/36992",
+        "type": "page",
+        "id": 36992,
+        "name": "Average Collection Period",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/36992"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Finance/Embedded/BalanceSheetbyMonth.Page.al",
+        "status": "modified",
+        "key": "page/36986",
+        "type": "page",
+        "id": 36986,
+        "name": "Balance Sheet by Month",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/36986"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Finance/Embedded/BudgetComparison.Page.al",
+        "status": "modified",
+        "key": "page/36987",
+        "type": "page",
+        "id": 36987,
+        "name": "Budget Comparison",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/36987"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Finance/Embedded/DetailedCustLedgerEntries.Page.al",
+        "status": "modified",
+        "key": "page/36997",
+        "type": "page",
+        "id": 36997,
+        "name": "Detailed Cust. Ledger Entries",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/36997"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Finance/Embedded/DetailedVendorLedgerEntries.Page.al",
+        "status": "modified",
+        "key": "page/36996",
+        "type": "page",
+        "id": 36996,
+        "name": "Detailed Vendor Ledger Entries",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/36996"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Finance/Embedded/EBITDA.Page.al",
+        "status": "modified",
+        "key": "page/36991",
+        "type": "page",
+        "id": 36991,
+        "name": "EBITDA",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/36991"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Finance/Embedded/FinanceReport.Page.al",
+        "status": "modified",
+        "key": "page/37059",
+        "type": "page",
+        "id": 37059,
+        "name": "Finance Report",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/37059"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Finance/Embedded/FinancialOverview.Page.al",
+        "status": "modified",
+        "key": "page/36984",
+        "type": "page",
+        "id": 36984,
+        "name": "Financial Overview",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/36984"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Finance/Embedded/IncomeStatementbyMonth.Page.al",
+        "status": "modified",
+        "key": "page/36985",
+        "type": "page",
+        "id": 36985,
+        "name": "Income Statement by Month",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/36985"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Finance/Embedded/LatePaymentsReceivables.Page.al",
+        "status": "modified",
+        "key": "page/37113",
+        "type": "page",
+        "id": 37113,
+        "name": "Late Payments (Receivables)",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/37113"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Finance/Embedded/Liabilities.Page.al",
+        "status": "modified",
+        "key": "page/36990",
+        "type": "page",
+        "id": 36990,
+        "name": "Liabilities",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/36990"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Finance/Embedded/LiquidityKPIs.Page.al",
+        "status": "modified",
+        "key": "page/36988",
+        "type": "page",
+        "id": 36988,
+        "name": "Liquidity KPIs",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/36988"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Finance/Embedded/PowerBIGeneralLedgEntries.Page.al",
+        "status": "modified",
+        "key": "page/36995",
+        "type": "page",
+        "id": 36995,
+        "name": "PowerBI General Ledg. Entries",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/36995"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Finance/Embedded/Profitability.Page.al",
+        "status": "modified",
+        "key": "page/36989",
+        "type": "page",
+        "id": 36989,
+        "name": "Profitability",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/36989"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Inventory/Embedded/Inventory Valuation/InventoryValuationOverview.Page.al",
+        "status": "modified",
+        "key": "page/37056",
+        "type": "page",
+        "id": 37056,
+        "name": "Inventory Valuation Overview",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/37056"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Inventory/Embedded/Inventory Valuation/InventoryValuationReport.Page.al",
+        "status": "modified",
+        "key": "page/37065",
+        "type": "page",
+        "id": 37065,
+        "name": "Inventory Valuation Report",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/37065"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Inventory/Embedded/Inventory Valuation/InventoryValuationbyItem.Page.al",
+        "status": "modified",
+        "key": "page/37057",
+        "type": "page",
+        "id": 37057,
+        "name": "Inventory Valuation by Item",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/37057"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Inventory/Embedded/Inventory Valuation/InventoryValuationbyLoc.Page.al",
+        "status": "modified",
+        "key": "page/37058",
+        "type": "page",
+        "id": 37058,
+        "name": "Inventory Valuation by Loc.",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/37058"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Inventory/Embedded/Inventory/BinContentsbyItemTracking.Page.al",
+        "status": "modified",
+        "key": "page/37032",
+        "type": "page",
+        "id": 37032,
+        "name": "Bin Contents by Item Tracking",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/37032"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Inventory/Embedded/Inventory/GrossRequirement.Page.al",
+        "status": "modified",
+        "key": "page/37027",
+        "type": "page",
+        "id": 37027,
+        "name": "Gross Requirement",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/37027"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Inventory/Embedded/Inventory/InventoryForecasting.Page.al",
+        "status": "modified",
+        "key": "page/37110",
+        "type": "page",
+        "id": 37110,
+        "name": "Inventory Forecasting",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/37110"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Inventory/Embedded/Inventory/InventoryOverview.Page.al",
+        "status": "modified",
+        "key": "page/37022",
+        "type": "page",
+        "id": 37022,
+        "name": "Inventory Overview",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/37022"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Inventory/Embedded/Inventory/InventoryReport.Page.al",
+        "status": "modified",
+        "key": "page/37064",
+        "type": "page",
+        "id": 37064,
+        "name": "Inventory Report",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/37064"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Inventory/Embedded/Inventory/InventorybyItem.Page.al",
+        "status": "modified",
+        "key": "page/37023",
+        "type": "page",
+        "id": 37023,
+        "name": "Inventory by Item",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/37023"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Inventory/Embedded/Inventory/InventorybyLocation.Page.al",
+        "status": "modified",
+        "key": "page/37024",
+        "type": "page",
+        "id": 37024,
+        "name": "Inventory by Location",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/37024"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Inventory/Embedded/Inventory/InventorybyLot.Page.al",
+        "status": "modified",
+        "key": "page/37029",
+        "type": "page",
+        "id": 37029,
+        "name": "Inventory by Lot",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/37029"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Inventory/Embedded/Inventory/InventorybySerialNo.Page.al",
+        "status": "modified",
+        "key": "page/37030",
+        "type": "page",
+        "id": 37030,
+        "name": "Inventory by Serial No.",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/37030"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Inventory/Embedded/Inventory/ItemAvailability.Page.al",
+        "status": "modified",
+        "key": "page/37026",
+        "type": "page",
+        "id": 37026,
+        "name": "Item Availability",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/37026"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Inventory/Embedded/Inventory/PowerBIABCAnalysis.Page.al",
+        "status": "modified",
+        "key": "page/37111",
+        "type": "page",
+        "id": 37111,
+        "name": "PowerBI ABC Analysis",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/37111"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Inventory/Embedded/Inventory/PowerBIBinContents.Page.al",
+        "status": "modified",
+        "key": "page/37031",
+        "type": "page",
+        "id": 37031,
+        "name": "PowerBI Bin Contents",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/37031"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Inventory/Embedded/Inventory/PurchaseandSalesQuantity.Page.al",
+        "status": "modified",
+        "key": "page/37025",
+        "type": "page",
+        "id": 37025,
+        "name": "Purchase and Sales Quantity",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/37025"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Inventory/Embedded/Inventory/ScheduledReceipt.Page.al",
+        "status": "modified",
+        "key": "page/37028",
+        "type": "page",
+        "id": 37028,
+        "name": "Scheduled Receipt",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/37028"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Manufacturing/Embedded/AllocatedHours.Page.al",
+        "status": "modified",
+        "key": "page/37043",
+        "type": "page",
+        "id": 37043,
+        "name": "Allocated Hours",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/37043"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Manufacturing/Embedded/AverageProductionsTimes.Page.al",
+        "status": "modified",
+        "key": "page/37048",
+        "type": "page",
+        "id": 37048,
+        "name": "Average Productions Times",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/37048"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Manufacturing/Embedded/CapacityVariance.Page.al",
+        "status": "modified",
+        "key": "page/37047",
+        "type": "page",
+        "id": 37047,
+        "name": "Capacity Variance",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/37047"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Manufacturing/Embedded/ConsumptionVariance.Page.al",
+        "status": "modified",
+        "key": "page/37046",
+        "type": "page",
+        "id": 37046,
+        "name": "Consumption Variance",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/37046"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Manufacturing/Embedded/ExpectedCapacityNeed.Page.al",
+        "status": "modified",
+        "key": "page/37044",
+        "type": "page",
+        "id": 37044,
+        "name": "Expected Capacity Need",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/37044"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Manufacturing/Embedded/FinishedProdOrderBreakdown.Page.al",
+        "status": "modified",
+        "key": "page/37045",
+        "type": "page",
+        "id": 37045,
+        "name": "Finished Prod. Order Breakdown",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/37045"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Manufacturing/Embedded/ManufacturingReport.Page.al",
+        "status": "modified",
+        "key": "page/37063",
+        "type": "page",
+        "id": 37063,
+        "name": "Manufacturing Report",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/37063"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Manufacturing/Embedded/PBIMachineCenterLoad.Page.al",
+        "status": "modified",
+        "key": "page/37096",
+        "type": "page",
+        "id": 37096,
+        "name": "PBI Machine Center Load",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/37096"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Manufacturing/Embedded/PBIMachineCenterStatistics.Page.al",
+        "status": "modified",
+        "key": "page/37095",
+        "type": "page",
+        "id": 37095,
+        "name": "PBI Machine Center Statistics",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/37095"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Manufacturing/Embedded/PBIWorkCenterStatistics.Page.al",
+        "status": "modified",
+        "key": "page/37094",
+        "type": "page",
+        "id": 37094,
+        "name": "PBI Work Center Statistics",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/37094"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Manufacturing/Embedded/PowerBIReleasedProdOrders.Page.al",
+        "status": "modified",
+        "key": "page/37049",
+        "type": "page",
+        "id": 37049,
+        "name": "PowerBI Released Prod. Orders",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/37049"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Manufacturing/Embedded/PowerBIWorkCenterLoad.Page.al",
+        "status": "modified",
+        "key": "page/37042",
+        "type": "page",
+        "id": 37042,
+        "name": "PowerBI Work Center Load",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/37042"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Manufacturing/Embedded/ProdOrderList.Page.al",
+        "status": "modified",
+        "key": "page/37097",
+        "type": "page",
+        "id": 37097,
+        "name": "Prod. Order - List",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/37097"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Manufacturing/Embedded/ProdOrderRoutingsGantt.Page.al",
+        "status": "modified",
+        "key": "page/37099",
+        "type": "page",
+        "id": 37099,
+        "name": "Prod. Order Routings Gantt",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/37099"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Manufacturing/Embedded/ProductionOrderOverview.Page.al",
+        "status": "modified",
+        "key": "page/37098",
+        "type": "page",
+        "id": 37098,
+        "name": "Production Order Overview",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/37098"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Manufacturing/Embedded/ProductionOrderWIP.Page.al",
+        "status": "modified",
+        "key": "page/37107",
+        "type": "page",
+        "id": 37107,
+        "name": "Production Order WIP",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/37107"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Manufacturing/Embedded/ProductionScrap.Page.al",
+        "status": "modified",
+        "key": "page/37055",
+        "type": "page",
+        "id": 37055,
+        "name": "Production Scrap",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/37055"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Projects/Embedded/ProjectInvdSalesbyCust.Page.al",
+        "status": "modified",
+        "key": "page/37039",
+        "type": "page",
+        "id": 37039,
+        "name": "Project Invd. Sales by Cust.",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/37039"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Projects/Embedded/ProjectInvoicedSalesbyType.Page.al",
+        "status": "modified",
+        "key": "page/37038",
+        "type": "page",
+        "id": 37038,
+        "name": "Project Invoiced Sales by Type",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/37038"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Projects/Embedded/ProjectPerformancetoBudget.Page.al",
+        "status": "modified",
+        "key": "page/37037",
+        "type": "page",
+        "id": 37037,
+        "name": "Project Performance to Budget",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/37037"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Projects/Embedded/ProjectProfitability.Page.al",
+        "status": "modified",
+        "key": "page/37035",
+        "type": "page",
+        "id": 37035,
+        "name": "Project Profitability",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/37035"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Projects/Embedded/ProjectRealization.Page.al",
+        "status": "modified",
+        "key": "page/37036",
+        "type": "page",
+        "id": 37036,
+        "name": "Project Realization",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/37036"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Projects/Embedded/ProjectTasks.Page.al",
+        "status": "modified",
+        "key": "page/37034",
+        "type": "page",
+        "id": 37034,
+        "name": "Project Tasks",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/37034"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Projects/Embedded/ProjectTimeline.Page.al",
+        "status": "modified",
+        "key": "page/37106",
+        "type": "page",
+        "id": 37106,
+        "name": "Project Timeline",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/37106"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Projects/Embedded/ProjectsOverview.Page.al",
+        "status": "modified",
+        "key": "page/37033",
+        "type": "page",
+        "id": 37033,
+        "name": "Projects Overview",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/37033"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Projects/Embedded/ProjectsReport.Page.al",
+        "status": "modified",
+        "key": "page/37062",
+        "type": "page",
+        "id": 37062,
+        "name": "Projects Report",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/37062"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Purchasing/Embedded/DailyPurchases.Page.al",
+        "status": "modified",
+        "key": "page/37011",
+        "type": "page",
+        "id": 37011,
+        "name": "Daily Purchases",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/37011"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Purchasing/Embedded/KeyPurchaseInfluencers.Page.al",
+        "status": "modified",
+        "key": "page/37117",
+        "type": "page",
+        "id": 37117,
+        "name": "Key Purchase Influencers",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/37117"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Purchasing/Embedded/PurchActualvsBudgetAmt.Page.al",
+        "status": "modified",
+        "key": "page/37021",
+        "type": "page",
+        "id": 37021,
+        "name": "Purch. Actual vs. Budget Amt.",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/37021"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Purchasing/Embedded/PurchActualvsBudgetQty.Page.al",
+        "status": "modified",
+        "key": "page/37020",
+        "type": "page",
+        "id": 37020,
+        "name": "Purch. Actual vs. Budget Qty.",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/37020"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Purchasing/Embedded/PurchaseForecasting.Page.al",
+        "status": "modified",
+        "key": "page/37112",
+        "type": "page",
+        "id": 37112,
+        "name": "Purchase Forecasting",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/37112"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Purchasing/Embedded/PurchaseQuoteOverview.Page.al",
+        "status": "modified",
+        "key": "page/37118",
+        "type": "page",
+        "id": 37118,
+        "name": "Purchase Quote Overview",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/37118"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Purchasing/Embedded/PurchaseReturnOverview.Page.al",
+        "status": "modified",
+        "key": "page/37116",
+        "type": "page",
+        "id": 37116,
+        "name": "Purchase Return Overview",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/37116"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Purchasing/Embedded/PurchasesDecomposition.Page.al",
+        "status": "modified",
+        "key": "page/37010",
+        "type": "page",
+        "id": 37010,
+        "name": "Purchases Decomposition",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/37010"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Purchasing/Embedded/PurchasesMovingAnnualTotal.Page.al",
+        "status": "modified",
+        "key": "page/37013",
+        "type": "page",
+        "id": 37013,
+        "name": "Purchases Moving Annual Total",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/37013"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Purchasing/Embedded/PurchasesMovingAverages.Page.al",
+        "status": "modified",
+        "key": "page/37012",
+        "type": "page",
+        "id": 37012,
+        "name": "Purchases Moving Averages",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/37012"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Purchasing/Embedded/PurchasesOverview.Page.al",
+        "status": "modified",
+        "key": "page/37009",
+        "type": "page",
+        "id": 37009,
+        "name": "Purchases Overview",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/37009"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Purchasing/Embedded/PurchasesPeriodOverPeriod.Page.al",
+        "status": "modified",
+        "key": "page/37014",
+        "type": "page",
+        "id": 37014,
+        "name": "Purchases Period-Over-Period",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/37014"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Purchasing/Embedded/PurchasesReport.Page.al",
+        "status": "modified",
+        "key": "page/37061",
+        "type": "page",
+        "id": 37061,
+        "name": "Purchases Report",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/37061"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Purchasing/Embedded/PurchasesYearOverYear.Page.al",
+        "status": "modified",
+        "key": "page/37015",
+        "type": "page",
+        "id": 37015,
+        "name": "Purchases Year-Over-Year",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/37015"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Purchasing/Embedded/PurchasesbyItem.Page.al",
+        "status": "modified",
+        "key": "page/37016",
+        "type": "page",
+        "id": 37016,
+        "name": "Purchases by Item",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/37016"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Purchasing/Embedded/PurchasesbyLocation.Page.al",
+        "status": "modified",
+        "key": "page/37019",
+        "type": "page",
+        "id": 37019,
+        "name": "Purchases by Location",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/37019"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Purchasing/Embedded/PurchasesbyPurchaser.Page.al",
+        "status": "modified",
+        "key": "page/37017",
+        "type": "page",
+        "id": 37017,
+        "name": "Purchases by Purchaser",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/37017"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Purchasing/Embedded/PurchasesbyVendor.Page.al",
+        "status": "modified",
+        "key": "page/37018",
+        "type": "page",
+        "id": 37018,
+        "name": "Purchases by Vendor",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/37018"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Purchasing/Embedded/VendorQualityAnalysis.Page.al",
+        "status": "modified",
+        "key": "page/37115",
+        "type": "page",
+        "id": 37115,
+        "name": "Vendor Quality Analysis",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/37115"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Sales/Embedded/CustomerRetentionHistory.Page.al",
+        "status": "modified",
+        "key": "page/37114",
+        "type": "page",
+        "id": 37114,
+        "name": "Customer Retention History",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/37114"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Sales/Embedded/CustomerRetentionOverview.Page.al",
+        "status": "modified",
+        "key": "page/36983",
+        "type": "page",
+        "id": 36983,
+        "name": "Customer Retention Overview",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/36983"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Sales/Embedded/DailySales.Page.al",
+        "status": "modified",
+        "key": "page/36999",
+        "type": "page",
+        "id": 36999,
+        "name": "Daily Sales",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/36999"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Sales/Embedded/KeySalesInfluencers.Page.al",
+        "status": "modified",
+        "key": "page/37102",
+        "type": "page",
+        "id": 37102,
+        "name": "Key Sales Influencers",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/37102"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Sales/Embedded/OpportunityOverview.Page.al",
+        "status": "modified",
+        "key": "page/37103",
+        "type": "page",
+        "id": 37103,
+        "name": "Opportunity Overview",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/37103"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Sales/Embedded/ReturnOrderOverview.Page.al",
+        "status": "modified",
+        "key": "page/37105",
+        "type": "page",
+        "id": 37105,
+        "name": "Return Order Overview",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/37105"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Sales/Embedded/SalesActualvsBudgetQty.Page.al",
+        "status": "modified",
+        "key": "page/37007",
+        "type": "page",
+        "id": 37007,
+        "name": "Sales Actual vs. Budget Qty.",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/37007"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Sales/Embedded/SalesDecomposition.Page.al",
+        "status": "modified",
+        "key": "page/37101",
+        "type": "page",
+        "id": 37101,
+        "name": "Sales Decomposition",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/37101"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Sales/Embedded/SalesDemographics.Page.al",
+        "status": "modified",
+        "key": "page/37100",
+        "type": "page",
+        "id": 37100,
+        "name": "Sales Demographics",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/37100"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Sales/Embedded/SalesForecasting.Page.al",
+        "status": "modified",
+        "key": "page/37109",
+        "type": "page",
+        "id": 37109,
+        "name": "Sales Forecasting",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/37109"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Sales/Embedded/SalesMonthToDate.Page.al",
+        "status": "modified",
+        "key": "page/37003",
+        "type": "page",
+        "id": 37003,
+        "name": "Sales Month-To-Date",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/37003"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Sales/Embedded/SalesMovingAnnualTotal.Page.al",
+        "status": "modified",
+        "key": "page/37001",
+        "type": "page",
+        "id": 37001,
+        "name": "Sales Moving Annual Total",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/37001"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Sales/Embedded/SalesMovingAverage.Page.al",
+        "status": "modified",
+        "key": "page/37000",
+        "type": "page",
+        "id": 37000,
+        "name": "Sales Moving Average",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/37000"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Sales/Embedded/SalesOverview.Page.al",
+        "status": "modified",
+        "key": "page/36998",
+        "type": "page",
+        "id": 36998,
+        "name": "Sales Overview",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/36998"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Sales/Embedded/SalesPeriodOverPeriod.Page.al",
+        "status": "modified",
+        "key": "page/37002",
+        "type": "page",
+        "id": 37002,
+        "name": "Sales Period-Over-Period",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/37002"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Sales/Embedded/SalesQuoteOverview.Page.al",
+        "status": "modified",
+        "key": "page/37104",
+        "type": "page",
+        "id": 37104,
+        "name": "Sales Quote Overview",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/37104"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Sales/Embedded/SalesReport.Page.al",
+        "status": "modified",
+        "key": "page/37060",
+        "type": "page",
+        "id": 37060,
+        "name": "Sales Report",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/37060"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Sales/Embedded/SalesbyCustomer.Page.al",
+        "status": "modified",
+        "key": "page/37005",
+        "type": "page",
+        "id": 37005,
+        "name": "Sales by Customer",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/37005"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Sales/Embedded/SalesbyItem.Page.al",
+        "status": "modified",
+        "key": "page/37004",
+        "type": "page",
+        "id": 37004,
+        "name": "Sales by Item",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/37004"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Sales/Embedded/SalesbyLocation.Page.al",
+        "status": "modified",
+        "key": "page/37066",
+        "type": "page",
+        "id": 37066,
+        "name": "Sales by Location",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/37066"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Sales/Embedded/SalesbyProjects.Page.al",
+        "status": "modified",
+        "key": "page/37119",
+        "type": "page",
+        "id": 37119,
+        "name": "Sales by Projects",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/37119"
+      },
+      {
+        "path": "src/Apps/W1/PowerBIReports/App/Sales/Embedded/SalesbySalesperson.Page.al",
+        "status": "modified",
+        "key": "page/37006",
+        "type": "page",
+        "id": 37006,
+        "name": "Sales by Salesperson",
+        "app": "PowerBIReports",
+        "cc": "w1",
+        "page": "page/37006"
+      },
+      {
+        "path": "src/Apps/W1/Subscription Billing/App/Power BI/Embedded/BillingSchedulePowerBI.Page.al",
+        "status": "modified",
+        "key": "page/8097",
+        "type": "page",
+        "id": 8097,
+        "name": "Billing Schedule Power BI",
+        "app": "Subscription Billing",
+        "cc": "w1",
+        "page": "page/8097"
+      },
+      {
+        "path": "src/Apps/W1/Subscription Billing/App/Power BI/Embedded/ChurnAnalysisPowerBI.Page.al",
+        "status": "modified",
+        "key": "page/8098",
+        "type": "page",
+        "id": 8098,
+        "name": "Churn Analysis Power BI",
+        "app": "Subscription Billing",
+        "cc": "w1",
+        "page": "page/8098"
+      },
+      {
+        "path": "src/Apps/W1/Subscription Billing/App/Power BI/Embedded/ContractValAnalysisPowerBI.Page.al",
+        "status": "modified",
+        "key": "page/8099",
+        "type": "page",
+        "id": 8099,
+        "name": "Contract Val Analysis Power BI",
+        "app": "Subscription Billing",
+        "cc": "w1",
+        "page": "page/8099"
+      },
+      {
+        "path": "src/Apps/W1/Subscription Billing/App/Power BI/Embedded/ContractValueYoYPowerBI.Page.al",
+        "status": "modified",
+        "key": "page/8100",
+        "type": "page",
+        "id": 8100,
+        "name": "Contract Value YoY Power BI",
+        "app": "Subscription Billing",
+        "cc": "w1",
+        "page": "page/8100"
+      },
+      {
+        "path": "src/Apps/W1/Subscription Billing/App/Power BI/Embedded/CustomerDeferralsPowerBI.Page.al",
+        "status": "modified",
+        "key": "page/8112",
+        "type": "page",
+        "id": 8112,
+        "name": "Customer Deferrals Power BI",
+        "app": "Subscription Billing",
+        "cc": "w1",
+        "page": "page/8112"
+      },
+      {
+        "path": "src/Apps/W1/Subscription Billing/App/Power BI/Embedded/RevbySalespersonPowerBI.Page.al",
+        "status": "modified",
+        "key": "page/8102",
+        "type": "page",
+        "id": 8102,
+        "name": "Rev. by Salesperson Power BI",
+        "app": "Subscription Billing",
+        "cc": "w1",
+        "page": "page/8102"
+      },
+      {
+        "path": "src/Apps/W1/Subscription Billing/App/Power BI/Embedded/RevenueAnalysisPowerBI.Page.al",
+        "status": "modified",
+        "key": "page/8103",
+        "type": "page",
+        "id": 8103,
+        "name": "Revenue Analysis Power BI",
+        "app": "Subscription Billing",
+        "cc": "w1",
+        "page": "page/8103"
+      },
+      {
+        "path": "src/Apps/W1/Subscription Billing/App/Power BI/Embedded/RevenueDevelopmentPowerBI.Page.al",
+        "status": "modified",
+        "key": "page/8106",
+        "type": "page",
+        "id": 8106,
+        "name": "Revenue Development Power BI",
+        "app": "Subscription Billing",
+        "cc": "w1",
+        "page": "page/8106"
+      },
+      {
+        "path": "src/Apps/W1/Subscription Billing/App/Power BI/Embedded/RevenueYoYPowerBI.Page.al",
+        "status": "modified",
+        "key": "page/8107",
+        "type": "page",
+        "id": 8107,
+        "name": "Revenue YoY Power BI",
+        "app": "Subscription Billing",
+        "cc": "w1",
+        "page": "page/8107"
+      },
+      {
+        "path": "src/Apps/W1/Subscription Billing/App/Power BI/Embedded/RevenuebyCustomerPowerBI.Page.al",
+        "status": "modified",
+        "key": "page/8104",
+        "type": "page",
+        "id": 8104,
+        "name": "Revenue by Customer Power BI",
+        "app": "Subscription Billing",
+        "cc": "w1",
+        "page": "page/8104"
+      },
+      {
+        "path": "src/Apps/W1/Subscription Billing/App/Power BI/Embedded/RevenuebyItemPowerBI.Page.al",
+        "status": "modified",
+        "key": "page/8105",
+        "type": "page",
+        "id": 8105,
+        "name": "Revenue by Item Power BI",
+        "app": "Subscription Billing",
+        "cc": "w1",
+        "page": "page/8105"
+      },
+      {
+        "path": "src/Apps/W1/Subscription Billing/App/Power BI/Embedded/SalesCostforecastPowerBI.Page.al",
+        "status": "modified",
+        "key": "page/8108",
+        "type": "page",
+        "id": 8108,
+        "name": "Sales Cost forecast Power BI",
+        "app": "Subscription Billing",
+        "cc": "w1",
+        "page": "page/8108"
+      },
+      {
+        "path": "src/Apps/W1/Subscription Billing/App/Power BI/Embedded/SubBillingReportPowerBI.Page.al",
+        "status": "modified",
+        "key": "page/8109",
+        "type": "page",
+        "id": 8109,
+        "name": "Sub. Billing Report Power BI",
+        "app": "Subscription Billing",
+        "cc": "w1",
+        "page": "page/8109"
+      },
+      {
+        "path": "src/Apps/W1/Subscription Billing/App/Power BI/Embedded/SubscriptionOverviewPowerBI.Page.al",
+        "status": "modified",
+        "key": "page/8110",
+        "type": "page",
+        "id": 8110,
+        "name": "Subscription Overview Power BI",
+        "app": "Subscription Billing",
+        "cc": "w1",
+        "page": "page/8110"
+      },
+      {
+        "path": "src/Apps/W1/Subscription Billing/App/Power BI/Embedded/VendorDeferralsPowerBI.Page.al",
+        "status": "modified",
+        "key": "page/8111",
+        "type": "page",
+        "id": 8111,
+        "name": "Vendor Deferrals Power BI",
+        "app": "Subscription Billing",
+        "cc": "w1",
+        "page": "page/8111"
+      },
+      {
+        "path": "src/Apps/W1/Sustainability/app/src/PowerBI/Embedded/CO2eAnalysisPowerBI.Page.al",
+        "status": "modified",
+        "key": "page/6299",
+        "type": "page",
+        "id": 6299,
+        "name": "CO2e Analysis Power BI",
+        "app": "Sustainability",
+        "cc": "w1",
+        "page": "page/6299"
+      },
+      {
+        "path": "src/Apps/W1/Sustainability/app/src/PowerBI/Embedded/CO2eDecompTreePowerBI.Page.al",
+        "status": "modified",
+        "key": "page/6303",
+        "type": "page",
+        "id": 6303,
+        "name": "CO2e Decomp. Tree Power BI",
+        "app": "Sustainability",
+        "cc": "w1",
+        "page": "page/6303"
+      },
+      {
+        "path": "src/Apps/W1/Sustainability/app/src/PowerBI/Embedded/CO2eKeyInfluencesPowerBI.Page.al",
+        "status": "modified",
+        "key": "page/6304",
+        "type": "page",
+        "id": 6304,
+        "name": "CO2e Key Influences Power BI",
+        "app": "Sustainability",
+        "cc": "w1",
+        "page": "page/6304"
+      },
+      {
+        "path": "src/Apps/W1/Sustainability/app/src/PowerBI/Embedded/EmissionsbyCatandScopePBI.Page.al",
+        "status": "modified",
+        "key": "page/6305",
+        "type": "page",
+        "id": 6305,
+        "name": "Emissions by Cat and Scope PBI",
+        "app": "Sustainability",
+        "cc": "w1",
+        "page": "page/6305"
+      },
+      {
+        "path": "src/Apps/W1/Sustainability/app/src/PowerBI/Embedded/EmissionsvsBaselinePowerBI.Page.al",
+        "status": "modified",
+        "key": "page/6306",
+        "type": "page",
+        "id": 6306,
+        "name": "Emissions vs Baseline Power BI",
+        "app": "Sustainability",
+        "cc": "w1",
+        "page": "page/6306"
+      },
+      {
+        "path": "src/Apps/W1/Sustainability/app/src/PowerBI/Embedded/EmissionsvsTargetPowerBI.Page.al",
+        "status": "modified",
+        "key": "page/6277",
+        "type": "page",
+        "id": 6277,
+        "name": "Emissions vs Target Power BI",
+        "app": "Sustainability",
+        "cc": "w1",
+        "page": "page/6277"
+      },
+      {
+        "path": "src/Apps/W1/Sustainability/app/src/PowerBI/Embedded/SocialAnalysisPowerBI.Page.al",
+        "status": "modified",
+        "key": "page/6278",
+        "type": "page",
+        "id": 6278,
+        "name": "Social Analysis Power BI",
+        "app": "Sustainability",
+        "cc": "w1",
+        "page": "page/6278"
+      },
+      {
+        "path": "src/Apps/W1/Sustainability/app/src/PowerBI/Embedded/SustOverviewPowerBI.Page.al",
+        "status": "modified",
+        "key": "page/6279",
+        "type": "page",
+        "id": 6279,
+        "name": "Sust. Overview Power BI",
+        "app": "Sustainability",
+        "cc": "w1",
+        "page": "page/6279"
+      },
+      {
+        "path": "src/Apps/W1/Sustainability/app/src/PowerBI/Embedded/SustainabilityReportPowerBI.Page.al",
+        "status": "modified",
+        "key": "page/6316",
+        "type": "page",
+        "id": 6316,
+        "name": "Sustainability Report Power BI",
+        "app": "Sustainability",
+        "cc": "w1",
+        "page": "page/6316"
+      },
+      {
+        "path": "src/Apps/W1/Sustainability/app/src/PowerBI/Embedded/ToNetZeroCarbonPowerBI.Page.al",
+        "status": "modified",
+        "key": "page/6317",
+        "type": "page",
+        "id": 6317,
+        "name": "To Net Zero Carbon Power BI",
+        "app": "Sustainability",
+        "cc": "w1",
+        "page": "page/6317"
+      },
+      {
+        "path": "src/Apps/W1/Sustainability/app/src/PowerBI/Embedded/WaterandWastePowerBI.Page.al",
+        "status": "modified",
+        "key": "page/6319",
+        "type": "page",
+        "id": 6319,
+        "name": "Water and Waste Power BI",
+        "app": "Sustainability",
+        "cc": "w1",
+        "page": "page/6319"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "PowerBIReports",
+    "Subscription Billing",
+    "Sustainability"
+  ]
+}

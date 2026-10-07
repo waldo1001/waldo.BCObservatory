@@ -1,0 +1,64 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9963,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9963",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-07T00:23:04Z",
+  "merge_commit_sha": "20c2812d09e0ee5907f90d9f9f3bedb34eed133d",
+  "author": "AleksandricMarko",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM",
+    "request-for-external"
+  ],
+  "community_contribution": false,
+  "title": "[Extensibility Request] issue 30384: expose planning suggestions variable",
+  "body_hash": "04a5438a0047a76d4713181e77d1d8afc0c7a11a76eaa9f71a4532fe8c2f8609",
+  "fixes_issues": [],
+  "work_items": [
+    644568
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Availability/ItemAvailabilitybyEvent.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 1,
+    "deletions": 1,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Availability/ItemAvailabilitybyEvent.Page.al",
+        "status": "modified",
+        "key": "page/5530",
+        "type": "page",
+        "id": 5530,
+        "name": "Item Availability by Event",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/5530"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "inventory"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

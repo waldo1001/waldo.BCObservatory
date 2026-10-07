@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/9746",
+  "number": 9746,
+  "title": "[main] bug 644148 - Use VAT base amount (after discounts) for reverse charge limit check",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [],
+  "summary": "Reverse Charge VAT commodity limit check for Czech invoices now evaluates the amount after discounts (VAT base) instead of the gross unit price amount to align with Czech GFR regulation.",
+  "key_points": [
+    "Limit calculation changed from gross unit price × quantity to line amount after discounts",
+    "Affects Czech Reverse Charge VAT determination on sales invoices with line or invoice discounts",
+    "Invoices where gross exceeds limit but net falls below it now correctly use Normal VAT",
+    "Test coverage added for scenarios above and below limit after discount application",
+    "Regulatory compliance fix for Czech tax requirements"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "purchasing",
+    "localization"
+  ],
+  "quote": "The decisive amount should be the total VAT base stated on the tax document, i.e. the amount after line discounts and invoice discounts.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00384,
+    "changes_in_call": 1
+  }
+}

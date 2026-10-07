@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/9212",
+  "number": 9212,
+  "title": "Bug 629779: [Inventory] Show a single Export/Import item data action pair on Cost Adjustment and Item Card",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory"
+  ],
+  "summary": "The Cost Adjustment and Item Card pages now show a single Export/Import action pair that automatically switches between standard inventory and manufacturing data formats based on whether the Manufacturing module is enabled, eliminating duplicate and confusing action options.",
+  "key_points": [
+    "Pages detect Manufacturing enablement at runtime and display only the relevant Export/Import pair",
+    "Captions simplified to show only 'Export item data' and 'Import item data' regardless of module",
+    "Manufacturing-enabled installations route to production data XMLPorts while standard installations use standard XMLPorts",
+    "Change applied across Cost Adjustment Overview, Manufacturing Cost Adjustment Overview extension, Item Card, and Manufacturing Item Card extension",
+    "No schema or public API changes, purely UI-level caption and visibility adjustments"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "inventory",
+    "manufacturing"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004142,
+    "changes_in_call": 1
+  }
+}

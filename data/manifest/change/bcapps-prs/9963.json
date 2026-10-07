@@ -6,10 +6,35 @@
   "title": "[Extensibility Request] issue 30384: expose planning suggestions variable",
   "url": "https://github.com/microsoft/BCApps/pull/9963",
   "published_at": "2026-08-07T00:23:04Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:12:55.714Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:13:00.012Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.002994
+    },
+    "linked": {
+      "at": "2026-10-07T13:13:00.152Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:13:00.156Z",
+      "path": "content/changes/bcapps/9963.md"
     }
   },
   "input_hash": "20c2812d09e0ee5907f90d9f9f3bedb34eed133d:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "extensibility request issue 30384 expose planning suggestions variable"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c7513f715f48d2626800e33214cd68180c43c94d068a5671ec87b284c6352d85"
 }

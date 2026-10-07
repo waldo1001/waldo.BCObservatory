@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/9894",
+  "number": 9894,
+  "title": "Suppress zero-value rows in Trial Balance by Period",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "The Trial Balance by Period Excel report now suppresses rows with zero values by default and adds an optional request-page parameter to include them when needed.",
+  "key_points": [
+    "Added a Show Lines with Zero Values request-page option that is disabled by default",
+    "Fixed the report to exclude zero-value dimension combinations unless explicitly requested",
+    "Reduces workbook size by eliminating irrelevant rows from dimension combinations",
+    "Users can still access the complete set of dimension combinations when needed",
+    "Added regression test coverage for both suppressed and included zero-value scenarios"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "reporting"
+  ],
+  "quote": "The report should support that behavior explicitly without making it the default.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00345,
+    "changes_in_call": 1
+  }
+}

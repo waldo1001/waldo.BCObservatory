@@ -6,10 +6,35 @@
   "title": "[MAIN]-Bug 644801-IRS Reporting Period - Copy Setup process will copy the 1099 Adjustments as part of the process of copying from one IRS Reporting Period to a new Period setup.",
   "url": "https://github.com/microsoft/BCApps/pull/9868",
   "published_at": "2026-08-05T16:49:04Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:13:04.337Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 1,
+      "objects": 0,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-10-07T13:13:12.731Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003499
+    },
+    "linked": {
+      "at": "2026-10-07T13:13:13.019Z",
+      "objects": 0,
+      "unjoined": 1,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:13:13.024Z",
+      "path": "content/changes/bcapps/9868.md"
     }
   },
   "input_hash": "7b3daac4dbad38f3410722eac69ca7d8bf6b3f47:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "bug 644801 irs reporting period copy setup process will copy the 1099 adjustments as part of the process of copying from one irs reporting period to a new period setup"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3fe6e88aeb62dfbc730612f8f1b6b0f41db44167e539db0a3fa4e3df76f1ad7b"
 }

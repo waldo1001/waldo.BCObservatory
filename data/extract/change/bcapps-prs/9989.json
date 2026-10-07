@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/9989",
+  "number": 9989,
+  "title": "[SOA] Skip Item Selector for exact items without variants",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "The Sales Order Agent now skips the Item Selector dialog for exact item matches without variants, reducing latency and token usage while preserving the selector for items with variants or broader search results.",
+  "key_points": [
+    "Item Selector is bypassed only for exact single matches without variants",
+    "Items with variants continue using Item Selector as before",
+    "Standard and broader search results keep existing behavior",
+    "Reduces AOAI calls and token consumption for simple item selection",
+    "Includes fallback to Item Selector if exact item resolution fails"
+  ],
+  "change_kind": "performance",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "copilot",
+    "sales"
+  ],
+  "quote": "This PR avoids calling Item Selector when item search returns a single deterministic exact match and that item has no variants.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003666,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9894,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9894",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-06T10:20:02Z",
+  "merge_commit_sha": "cd497b72f977ec0716094a1ca7bf2e5ac45d3205",
+  "author": "djukicmilica",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "AL: Apps (W1)",
+    "From Fork",
+    "Team: Finance"
+  ],
+  "community_contribution": true,
+  "title": "Suppress zero-value rows in Trial Balance by Period",
+  "body_hash": "4f542b3f1954c18b1b503a18808fa9dbcef16f12bf97920b72c3f2702328a200",
+  "fixes_issues": [],
+  "work_items": [
+    644914
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/ExcelReports/App/src/Financials/EXRTrialBalbyPeriodExcel.Report.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExcelReports/Test/src/TrialBalanceExcelReports.Codeunit.al",
+      "status": "modified",
+      "additions": 80,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 90,
+    "deletions": 1,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/ExcelReports/App/src/Financials/EXRTrialBalbyPeriodExcel.Report.al",
+        "status": "modified",
+        "key": "report/4408",
+        "type": "report",
+        "id": 4408,
+        "name": "EXR Trial Bal by Period Excel",
+        "app": "ExcelReports",
+        "cc": "w1",
+        "page": "report/4408"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "ExcelReports"
+  ]
+}
