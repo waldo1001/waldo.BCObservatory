@@ -1,0 +1,25 @@
+{
+  "video_id": "t_UXxbvgnHY",
+  "item_id": "video/yt-microsoft/t_UXxbvgnHY",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Key point 1 says formulas become read-only after posting, but the transcript (234.9) shows this on the open purchase order before posting: distance can be changed, fuel or customer amount cannot. Rewrote it.",
+    "All 7 quotes check out as verbatim spans, allowing for small case and punctuation differences.",
+    "Feature statuses are correctly left as unclear. The transcript never says preview or generally available.",
+    "ESG is written as 'ECG' in the captions at 74. The key point already mentions this, and the demo at 375.1 says ESG."
+  ],
+  "input_hash": "b0008d3cfb3a34761dbb181017c4f1b27ee31ce3242773041f2ced164452de68",
+  "by": "opus",
+  "at": "2026-10-07T22:45:10.502Z",
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.079197
+  }
+}

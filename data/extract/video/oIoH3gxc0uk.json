@@ -61,10 +61,10 @@
     {
       "name": "Forward flushing",
       "description": "Automatic consumption of components once a production order is released. Designed for predictable components that do not require manual journal entry from the operator.",
-      "status": "ga",
-      "status_evidence_t": 55.1,
-      "status_evidence_quote": "Forward is for predictable components. Once the order is released, Business Central can consume them automatically",
-      "status_evidence_verified": true,
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
       "t_start": 55.1,
       "t_end": 73.7,
       "is_demoed": true,
@@ -220,8 +220,14 @@
     },
     {
       "t": 165.5,
-      "text": "If a routing link code is blank, the timing applies to the order more generally. If a routing link code is filled in, the",
-      "why_it_matters": "Provides the practical decision rule for when routing link codes affect component timing.",
+      "text": "If a routing link code is filled in, the component is tied to that matching routing operation.",
+      "why_it_matters": "Gives the full rule for how a routing link code that is filled in ties a component to an operation.",
+      "check": "exact"
+    },
+    {
+      "t": 178.8,
+      "text": "Components with forward flushing already consumed the expected quantity. Backwards and manual flushing methods still have the required amount as remaining quantity.",
+      "why_it_matters": "Shows what each flushing method does to the order's components right after release.",
       "check": "exact"
     },
     {

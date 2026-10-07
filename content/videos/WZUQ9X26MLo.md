@@ -15,12 +15,12 @@ tags:
   - supply chain compliance
 system: sustainability
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:45:28.210Z"
   flags: []
 generated:
-  at: "2026-10-06T14:56:57.246Z"
+  at: "2026-10-07T22:45:28.256Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -48,6 +48,20 @@ evidence:
     commit: null
     t: 46
     quote: that is why we are going to use the item tracking for that functionality
+  - kind: video
+    url: https://www.youtube.com/watch?v=WZUQ9X26MLo&t=99s
+    title: "What's new in Sustainability: EUDR Certificate Capture (2026 release wave 2)"
+    date: "2026-10-01T00:00:00Z"
+    commit: null
+    t: 99
+    quote: the all details about the certificate itself will live on the lot no information card
+  - kind: video
+    url: https://www.youtube.com/watch?v=WZUQ9X26MLo&t=111s
+    title: "What's new in Sustainability: EUDR Certificate Capture (2026 release wave 2)"
+    date: "2026-10-01T00:00:00Z"
+    commit: null
+    t: 111
+    quote: then this tab will be visible for you and you will be able to fulfill the information such as certificate number, certification schema.
   - kind: video
     url: https://www.youtube.com/watch?v=WZUQ9X26MLo&t=223s
     title: "What's new in Sustainability: EUDR Certificate Capture (2026 release wave 2)"
@@ -127,6 +141,12 @@ quotes:
   - t: 46
     text: that is why we are going to use the item tracking for that functionality
     check: exact
+  - t: 99
+    text: the all details about the certificate itself will live on the lot no information card
+    check: exact
+  - t: 111
+    text: then this tab will be visible for you and you will be able to fulfill the information such as certificate number, certification schema.
+    check: exact
   - t: 223
     text: We don't have the integration with Traces. So the DDS numbers you will need to type in manually
     check: exact
@@ -139,7 +159,7 @@ quotes:
 
 > EUDR certificate capture in Business Central Sustainability (2026 release wave 2): EUDR marking on the item card, certificate data on lot number information, an EUTR flag on purchase lines, and certification details on sales invoices. DDS numbers and geolocation are entered manually.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=WZUQ9X26MLo) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-10-01 · 4:26 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=WZUQ9X26MLo) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-10-01 · 4:26 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -149,13 +169,13 @@ It walks through the item card sustainability tab, the lot number information ca
 
 ## Key points
 
-- The item card sustainability tab has fields to mark an item as EUDR relevant and assign a commodity classification.
-- Certificate details are captured on the lot number information card: certificate number, certification schema, dates and country of origin.
-- Item tracking (lot numbers) is the mechanism used to carry EUDR certificate data.
-- Purchase order and receipt lines have an EUTR flag at line level to identify EUTR-related lines.
-- The sales invoice layout can show lot number, certification schema and certification number to the customer.
+- The item card sustainability tab has the fields EUDR relevant and EUDR commodity, which mark an item as EUDR relevant and assign a commodity classification.
+- EUDR-relevant items must use item tracking (lot numbers), because certificates and origin are tracked by batch.
+- Certificate details live on the lot no information card. The tab is visible for EUDR-relevant items and holds the certificate number, the certification schema, dates and the country.
+- The certificate fields can also be used for other schemas such as FSC, and DDS information can be copied and pasted into them.
+- Purchase order and receipt lines have an EUTR flag at line level so supply chain users can identify the related lines.
+- The sales invoice layout can print the lot, the certification schema and the certification number for the customer.
 - There is no integration with Traces, so DDS numbers must be entered manually.
-- Geolocation must also be entered manually; the presenter says work on it continues.
 
 ## Chapters
 
@@ -168,18 +188,20 @@ It walks through the item card sustainability tab, the lot number information ca
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| EUDR item marking on item card | status not stated | [0:59](https://www.youtube.com/watch?v=WZUQ9X26MLo&t=59s) |  |
-| Lot number certificate information capture | status not stated | [1:39](https://www.youtube.com/watch?v=WZUQ9X26MLo&t=99s) |  |
-| EUTR flag on purchase lines | status not stated | [2:20](https://www.youtube.com/watch?v=WZUQ9X26MLo&t=140s) |  |
-| Certification information on sales invoices | status not stated | [2:51](https://www.youtube.com/watch?v=WZUQ9X26MLo&t=171s) |  |
+| Feature | Status | At |
+|---|---|---|
+| EUDR item marking on item card | status not stated | [0:59](https://www.youtube.com/watch?v=WZUQ9X26MLo&t=59s) |
+| Lot number certificate information capture | status not stated | [1:39](https://www.youtube.com/watch?v=WZUQ9X26MLo&t=99s) |
+| EUTR flag on purchase lines | status not stated | [2:20](https://www.youtube.com/watch?v=WZUQ9X26MLo&t=140s) |
+| Certification information on sales invoices | status not stated | [2:51](https://www.youtube.com/watch?v=WZUQ9X26MLo&t=171s) |
 
 ## Quotes
 
 - [0:17](https://www.youtube.com/watch?v=WZUQ9X26MLo&t=17s) "it's like people talking everywhere about this EUDR, which is EU Deforestation Regulation. It's starting to be mandatory"
 - [0:32](https://www.youtube.com/watch?v=WZUQ9X26MLo&t=32s) "when you're getting to the EU market your items, where it was produced and that it has a certification"
 - [0:46](https://www.youtube.com/watch?v=WZUQ9X26MLo&t=46s) "that is why we are going to use the item tracking for that functionality"
+- [1:39](https://www.youtube.com/watch?v=WZUQ9X26MLo&t=99s) "the all details about the certificate itself will live on the lot no information card"
+- [1:51](https://www.youtube.com/watch?v=WZUQ9X26MLo&t=111s) "then this tab will be visible for you and you will be able to fulfill the information such as certificate number, certification schema."
 - [3:43](https://www.youtube.com/watch?v=WZUQ9X26MLo&t=223s) "We don't have the integration with Traces. So the DDS numbers you will need to type in manually"
 - [3:56](https://www.youtube.com/watch?v=WZUQ9X26MLo&t=236s) "same for the geolocation. But, we are continue to work on that functionality"
 

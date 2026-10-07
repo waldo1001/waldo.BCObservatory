@@ -1,0 +1,26 @@
+{
+  "video_id": "P1V4jy08YM8",
+  "item_id": "video/yt-microsoft/P1V4jy08YM8",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Facts, quotes and summary match the transcript. All features are correctly left as unclear because the transcript never says whether anything is in preview or GA. The release wave appears only in the video title.",
+    "The key points stopped at notifications and left out mileage, project tracking, per diem, activation and the welcome email. I added these steps.",
+    "The 'Approval notifications' feature has t_start 257.5, but the line about approval updates starts at 268.6. This is minor and was left as is.",
+    "The accounting-defaults preview is stated for number series. The 'all of them have preview built in' line at 188.1 comes in the management defaults part, so applying preview to every accounting default is a slight stretch but acceptable."
+  ],
+  "input_hash": "e4cccf17be867aa4c926773a85c9a7f46f8cad49fe0b58340c03f00a58450eb4",
+  "by": "opus",
+  "at": "2026-10-07T22:46:47.102Z",
+  "applied": [
+    "quote at 334s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.068749
+  }
+}

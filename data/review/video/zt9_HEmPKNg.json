@@ -1,0 +1,26 @@
+{
+  "video_id": "zt9_HEmPKNg",
+  "item_id": "video/yt-microsoft/zt9_HEmPKNg",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All quotes verified verbatim; features correctly left unclear since no release status is stated.",
+    "Added the missing efficiency/capacity recalculation example (960 vs 768 minutes per day, 3,840 weekly) as a key point and quote.",
+    "Topic 'machine center flushing' reflects a machine center name (flushing manual), not a feature; minor.",
+    "Transcript is inconsistent on maintenance week timing (end of June vs beginning of July); page avoids stating it, fine."
+  ],
+  "input_hash": "f8ce70d5bd32b0c2226afa88e27624bc6c1039979b20762f84a77322f7cb8437",
+  "by": "opus",
+  "at": "2026-10-07T22:46:19.685Z",
+  "applied": [
+    "quote at 264s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.07436100000000001
+  }
+}

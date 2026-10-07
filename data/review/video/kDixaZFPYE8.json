@@ -1,0 +1,33 @@
+{
+  "video_id": "kDixaZFPYE8",
+  "item_id": "video/yt-microsoft/kDixaZFPYE8",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Summary says English is added; transcript says English and US were available from May, and July adds Danish, French, German and Spanish.",
+    "Key point claims French is mentioned as an example; French only appears in the July language list, and the demos are Danish and Spanish.",
+    "Transcript says 'five new languages' but names only four new ones plus the existing English; key points reworded to avoid overclaiming.",
+    "Multilingual support status set to ga based on 'it works right now fully supported in five new languages' at 244.8. Country expansion is left unclear because it is stated in future tense ('we will extend').",
+    "All five quotes match the transcript apart from case and punctuation."
+  ],
+  "input_hash": "c5844e523a13d21b2ac142e7dce93c07915f360c0f26deeafdfaad9807787de3",
+  "by": "opus",
+  "at": "2026-10-07T22:46:48.249Z",
+  "applied": [
+    "Expense Agent geographic expansion: status unclear",
+    "Multilingual receipt processing: status unclear",
+    "Automatic receipt categorization in local languages: status unclear",
+    "quote at 0s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [
+    "status Expense Agent multilingual support -> ga: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.07914900000000001
+  }
+}

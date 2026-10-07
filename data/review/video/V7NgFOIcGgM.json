@@ -1,0 +1,24 @@
+{
+  "video_id": "V7NgFOIcGgM",
+  "item_id": "video/yt-microsoft/V7NgFOIcGgM",
+  "flags": [],
+  "verdict": "approve",
+  "issues": [
+    "All six quotes are verbatim; four run on into the next caption segment, which is allowed.",
+    "All features are correctly left as unclear: the transcript only says the chat comes 'to all our users with this release' and gives no preview or GA wording.",
+    "Minor: the Business Central Tools description adds 'without requiring custom APIs', which the transcript says in the MCP server section (733s), not about the tools at 429s.",
+    "Minor: Progress Messages is listed at t 122.5 but is first mentioned at 133.3; User Feedback Loop is listed at 888 but starts at 899.7. Neither is material.",
+    "Summary and key points are supported. 'Authenticated user' paraphrases 'it runs as you'. The 2026 release wave 2 wording comes from the video title, which matches 'this release' in the transcript."
+  ],
+  "input_hash": "835dcf18eecb11926d2ed080e66964b8d0327e6500ecf6c8cb72074d1c8b5d5d",
+  "by": "opus",
+  "at": "2026-10-07T22:45:27.294Z",
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.10508100000000001
+  }
+}

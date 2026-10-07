@@ -17,25 +17,18 @@ tags:
   - layouts
 system: reporting
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:45:56.649Z"
   flags: []
 generated:
-  at: "2026-10-06T14:56:57.246Z"
+  at: "2026-10-07T22:45:56.685Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
     summarize-video: 2
   input_hash: 1f655749924f9225e34274b69c895d60d2049b2d3607993522d1ef8d49588e07
 evidence:
-  - kind: video
-    url: https://www.youtube.com/watch?v=XLUAuUWtJDw&t=60s
-    title: "Company information dataset: generally available"
-    date: "2026-10-01T00:00:00Z"
-    commit: null
-    t: 60
-    quote: So we decided we wanted to ship that always. So in the future when you need to create a report uh with a word
   - kind: video
     url: https://www.youtube.com/watch?v=XLUAuUWtJDw&t=536s
     title: "Header footer layout templates: generally available"
@@ -71,6 +64,20 @@ evidence:
     commit: null
     t: 173
     quote: During our work on renovating um new layouts for reports, we invented um a design language of different kind of building blocks that we
+  - kind: video
+    url: https://www.youtube.com/watch?v=XLUAuUWtJDw&t=346s
+    title: "What's new in Document Reporting: Word add-in (2026 release wave 2)"
+    date: "2026-10-01T00:00:00Z"
+    commit: null
+    t: 346
+    quote: these are examples of design blocks that we are adding not necessarily datab bound for now just pure text
+  - kind: video
+    url: https://www.youtube.com/watch?v=XLUAuUWtJDw&t=509s
+    title: "What's new in Document Reporting: Word add-in (2026 release wave 2)"
+    date: "2026-10-01T00:00:00Z"
+    commit: null
+    t: 509
+    quote: This happens in business central under manage themes and header footer layouts. So here you can add your either your theme or your header
   - kind: video
     url: https://www.youtube.com/watch?v=XLUAuUWtJDw&t=536s
     title: "What's new in Document Reporting: Word add-in (2026 release wave 2)"
@@ -131,7 +138,7 @@ features:
   - name: Company information dataset
     status: ga
     t: 29
-    verified: true
+    verified: false
     status_source: roadmap
     roadmap_ids:
       - "573321"
@@ -210,6 +217,12 @@ quotes:
   - t: 173
     text: During our work on renovating um new layouts for reports, we invented um a design language of different kind of building blocks that we
     check: exact
+  - t: 346
+    text: these are examples of design blocks that we are adding not necessarily datab bound for now just pure text
+    check: exact
+  - t: 509
+    text: This happens in business central under manage themes and header footer layouts. So here you can add your either your theme or your header
+    check: exact
   - t: 536
     text: we ship I think eight 10 different header footer layouts. If you want to create your own, you can also get some help from
     check: exact
@@ -222,7 +235,7 @@ quotes:
 
 > Word add-in for Document Reporting in the 2026 release wave 2: a company information dataset available in all Word layouts, editing in the table builder, new design building blocks, theme sample documents and header/footer layout templates.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=XLUAuUWtJDw) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-10-01 · 11:03 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=XLUAuUWtJDw) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-10-01 · 11:03 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -232,13 +245,13 @@ It also shows a set of reusable design building blocks (address, field group, am
 
 ## Key points
 
-- The company information dataset is pre-populated and available in all Word layouts. It holds whatever is on the Company Information card in Business Central, such as logo, name and address.
+- The data picker in the Word add-in got UX improvements and a new third option, Company information, alongside Report information.
+- The company information dataset is available in every Word layout. It holds whatever is on the Company Information card in Business Central, such as logo, name and address.
 - The table builder, in preview in wave one, now lets you go back and edit a table in the wizard, for example to add columns, instead of recreating it.
-- Design blocks shown: address (three-column sender/receiver/shipping, receiver only, and other layouts), field group (label and data pairs in single or double stacked columns), amounts, signature line (two variants, one used in quality management) and notes (selectable bullet count).
-- The address, field group, amounts, signature line and notes blocks are not necessarily data-bound for now.
-- The hide-if logical control hides or shows content based on a boolean value. Boolean expressions based on dataset values are planned for later versions.
-- Theme sample documents (invoice, pick list, outstanding orders) are for previewing how styles, fonts and colors change a document. They are not actual layouts.
-- About eight to ten header/footer layouts ship by default, and you can create your own with the Word add-in using the company information dataset.
+- Design blocks shown: address (sender, receiver and shipping in three columns, receiver only, or other choices), field group (label and data pairs in single or double stacked columns), amounts (visualizing calculations), signature lines (two types; signatures are used in the quality management module) and notes (selectable bullet count).
+- These design blocks are not necessarily data-bound for now, just pure text, and will be used for all new body layouts in Business Central.
+- The hide-if logical control hides or shows content based on a boolean value. Boolean expressions based on dataset values are planned for later.
+- Theme sample documents (invoice, pick list, outstanding orders) help you preview how styles, fonts and colors change a document. They are not actual layouts.
 
 ## Chapters
 
@@ -255,7 +268,7 @@ It also shows a set of reusable design building blocks (address, field group, am
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| Company information dataset | generally available (roadmap [573321](../features/573321.md)), demoed | [0:29](https://www.youtube.com/watch?v=XLUAuUWtJDw&t=29s) | "So we decided we wanted to ship that always. So in the future when you need to create a report uh with a word" ([1:00](https://www.youtube.com/watch?v=XLUAuUWtJDw&t=60s)) |
+| Company information dataset | generally available (roadmap [573321](../features/573321.md)), demoed | [0:29](https://www.youtube.com/watch?v=XLUAuUWtJDw&t=29s) |  |
 | Table builder editing | status not stated, demoed | [1:57](https://www.youtube.com/watch?v=XLUAuUWtJDw&t=117s) |  |
 | Address design control | generally available (roadmap [573328](../features/573328.md)), demoed | [3:13](https://www.youtube.com/watch?v=XLUAuUWtJDw&t=193s) |  |
 | Field group design control | generally available (roadmap [573328](../features/573328.md)), demoed | [4:05](https://www.youtube.com/watch?v=XLUAuUWtJDw&t=245s) |  |
@@ -274,6 +287,8 @@ A status with a roadmap link comes from the Microsoft 365 roadmap feature this p
 - [1:57](https://www.youtube.com/watch?v=XLUAuUWtJDw&t=117s) "We also um worked on the table builder which was in preview in the wave one and it now supports editing"
 - [2:40](https://www.youtube.com/watch?v=XLUAuUWtJDw&t=160s) "In the past that the table builder would would just allow you to put a table in, but now you can go back if"
 - [2:53](https://www.youtube.com/watch?v=XLUAuUWtJDw&t=173s) "During our work on renovating um new layouts for reports, we invented um a design language of different kind of building blocks that we"
+- [5:46](https://www.youtube.com/watch?v=XLUAuUWtJDw&t=346s) "these are examples of design blocks that we are adding not necessarily datab bound for now just pure text"
+- [8:29](https://www.youtube.com/watch?v=XLUAuUWtJDw&t=509s) "This happens in business central under manage themes and header footer layouts. So here you can add your either your theme or your header"
 - [8:56](https://www.youtube.com/watch?v=XLUAuUWtJDw&t=536s) "we ship I think eight 10 different header footer layouts. If you want to create your own, you can also get some help from"
 - [9:39](https://www.youtube.com/watch?v=XLUAuUWtJDw&t=579s) "the company information is just uh whatever is in the company information card on Business Central."
 

@@ -1,0 +1,30 @@
+{
+  "video_id": "o94V_lF8oNM",
+  "item_id": "video/yt-microsoft/o94V_lF8oNM",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All 6 quotes match the transcript; the 189.8 quote differs only in case and punctuation.",
+    "Two features are described as upcoming in the transcript, so their status should be announced rather than unclear: Enhanced receipt itemization and Policy override with audit trail.",
+    "A key point said pending policies 'must be re-evaluated manually'. In the demo the system re-evaluated policies after submission, so the wording was changed.",
+    "The button is called 'check policies with AI' in the transcript, not 'Policy check with AI'. The key point now uses the transcript wording.",
+    "The page was missing that submitters can still submit while policies are pending. Added a key point and a quote."
+  ],
+  "input_hash": "3838a5a5f8098f4e7bf5266d9dda7e0227982bd531bfa595e48f8d98f5780392",
+  "by": "opus",
+  "at": "2026-10-07T22:44:51.119Z",
+  "applied": [
+    "quote at 427s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [
+    "status Enhanced receipt itemization -> announced: evidence not verbatim or does not state the status",
+    "status Policy override with audit trail -> announced: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.092025
+  }
+}

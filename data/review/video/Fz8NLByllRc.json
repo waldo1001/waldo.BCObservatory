@@ -1,0 +1,27 @@
+{
+  "video_id": "Fz8NLByllRc",
+  "item_id": "video/yt-microsoft/Fz8NLByllRc",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Key point and the 'Mileage rate configuration' description say the default unit is miles. The transcript only says 'In this case it's miles, but of course we also allow kilometers', so the key point is reworded.",
+    "The page was missing details the transcript supports: the payment means defaults to cash, the category is mileage, and admin rate settings are opened from the expense agent avatar's settings. These were added to the key points.",
+    "Added a quote for the 'only shortest route' setting on the allowance tab.",
+    "Nothing in the transcript states preview or GA (it only says 'the new feature that we added'), so all feature statuses stay unclear.",
+    "The four kept quotes match the transcript word for word, and the summary is supported."
+  ],
+  "input_hash": "f0de4728a49e491b65746f10442b1ddd51a7567262430293f73ff9e78de54e2c",
+  "by": "opus",
+  "at": "2026-10-07T22:46:32.760Z",
+  "applied": [
+    "quote at 182s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.053128999999999996
+  }
+}

@@ -2,7 +2,7 @@
 id: video/Pt8LrNv_Lgc
 type: video
 title: Manufacturing Fundamentals Routing (2026)
-summary: "Business Central manufacturing routings: serial vs parallel operations, operational times, routing link codes, send ahead quantity, routing versions, and how routing choice changes production order lead times. Uses an Airpod demo; a 5-minute fundamentals video published 2026-09-08."
+summary: "Business Central manufacturing routings: serial vs parallel operations, operational times (setup, run, wait, move), routing link codes, send ahead quantity, standard tasks and routing versions. A demo with the Airpod coffee maker shows how choosing a parallel or serial routing on a production order changes the start dates and lead times."
 tier: official
 language: en
 tags:
@@ -18,12 +18,12 @@ tags:
   - capacity planning
 system: manufacturing
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:45:50.033Z"
   flags: []
 generated:
-  at: "2026-10-06T14:56:57.246Z"
+  at: "2026-10-07T22:45:50.062Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -204,9 +204,9 @@ quotes:
 
 # Manufacturing Fundamentals Routing (2026)
 
-> Business Central manufacturing routings: serial vs parallel operations, operational times, routing link codes, send ahead quantity, routing versions, and how routing choice changes production order lead times. Uses an Airpod demo; a 5-minute fundamentals video published 2026-09-08.
+> Business Central manufacturing routings: serial vs parallel operations, operational times (setup, run, wait, move), routing link codes, send ahead quantity, standard tasks and routing versions. A demo with the Airpod coffee maker shows how choosing a parallel or serial routing on a production order changes the start dates and lead times.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=Pt8LrNv_Lgc) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-09-08 · 4:31 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=Pt8LrNv_Lgc) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-09-08 · 4:31 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -237,18 +237,18 @@ It then covers the time components of an operation, the routing link code, send 
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Serial routing | status not stated, demoed | [0:32](https://www.youtube.com/watch?v=Pt8LrNv_Lgc&t=32s) |  |
-| Parallel routing | status not stated, demoed | [0:32](https://www.youtube.com/watch?v=Pt8LrNv_Lgc&t=32s) |  |
-| Operational times | status not stated, demoed | [1:01](https://www.youtube.com/watch?v=Pt8LrNv_Lgc&t=61s) |  |
-| Routing link code | status not stated | [1:44](https://www.youtube.com/watch?v=Pt8LrNv_Lgc&t=104s) |  |
-| Send ahead quantity | status not stated | [1:44](https://www.youtube.com/watch?v=Pt8LrNv_Lgc&t=104s) |  |
-| Standard tasks in routing operations | status not stated | [2:09](https://www.youtube.com/watch?v=Pt8LrNv_Lgc&t=129s) |  |
-| Routing versions | status not stated | [2:09](https://www.youtube.com/watch?v=Pt8LrNv_Lgc&t=129s) |  |
-| Production order automatic routing population | status not stated, demoed | [2:35](https://www.youtube.com/watch?v=Pt8LrNv_Lgc&t=155s) |  |
-| Production order modification | status not stated, demoed | [2:56](https://www.youtube.com/watch?v=Pt8LrNv_Lgc&t=176s) |  |
-| Lead time calculation and optimization | status not stated, demoed | [3:35](https://www.youtube.com/watch?v=Pt8LrNv_Lgc&t=215s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Serial routing | status not stated, demoed | [0:32](https://www.youtube.com/watch?v=Pt8LrNv_Lgc&t=32s) |
+| Parallel routing | status not stated, demoed | [0:32](https://www.youtube.com/watch?v=Pt8LrNv_Lgc&t=32s) |
+| Operational times | status not stated, demoed | [1:01](https://www.youtube.com/watch?v=Pt8LrNv_Lgc&t=61s) |
+| Routing link code | status not stated | [1:44](https://www.youtube.com/watch?v=Pt8LrNv_Lgc&t=104s) |
+| Send ahead quantity | status not stated | [1:44](https://www.youtube.com/watch?v=Pt8LrNv_Lgc&t=104s) |
+| Standard tasks in routing operations | status not stated | [2:09](https://www.youtube.com/watch?v=Pt8LrNv_Lgc&t=129s) |
+| Routing versions | status not stated | [2:09](https://www.youtube.com/watch?v=Pt8LrNv_Lgc&t=129s) |
+| Production order automatic routing population | status not stated, demoed | [2:35](https://www.youtube.com/watch?v=Pt8LrNv_Lgc&t=155s) |
+| Production order modification | status not stated, demoed | [2:56](https://www.youtube.com/watch?v=Pt8LrNv_Lgc&t=176s) |
+| Lead time calculation and optimization | status not stated, demoed | [3:35](https://www.youtube.com/watch?v=Pt8LrNv_Lgc&t=215s) |
 
 ## Quotes
 

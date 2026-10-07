@@ -2,7 +2,7 @@
 id: video/tj1vvsmAMVs
 type: video
 title: "What's new in Expense Agent: Overview (2026 release wave 2)"
-summary: "Expense Agent in Business Central, 2026 release wave 2: period-based and vehicle-type mileage rates, credit card feeds with manual upload, AI policy checks on approvals, travel requests, a mobile app in preview, VAT reclaim and withholding tax for employees. Rollout is gradual from October."
+summary: "Overview of Expense Agent changes in Business Central 2026 release wave 2: mileage rates by period and vehicle type, credit card feeds with manual statement upload (December), AI policy compliance checks for approvals, more approval options, travel requests, a new mobile app in preview, VAT reclaim per expense line and withholding tax for employees. Worldwide availability and new languages roll out gradually from October."
 tier: official
 language: en
 tags:
@@ -18,12 +18,12 @@ tags:
   - expense reports
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:45:29.292Z"
   flags: []
 generated:
-  at: "2026-10-06T14:56:57.246Z"
+  at: "2026-10-07T22:45:29.347Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -37,6 +37,27 @@ evidence:
     commit: null
     t: 209
     quote: it will not be available from October, it will be available from December, so 2029.2.
+  - kind: video
+    url: https://www.youtube.com/watch?v=tj1vvsmAMVs&t=459s
+    title: "Enhanced Approval History and Audit Trail: announced"
+    date: "2026-10-01T00:00:00Z"
+    commit: null
+    t: 459
+    quote: it will come gradually from October to December, but all these features will be in next 2 months.
+  - kind: video
+    url: https://www.youtube.com/watch?v=tj1vvsmAMVs&t=459s
+    title: "Interim Approvers and Delegate Approvals: announced"
+    date: "2026-10-01T00:00:00Z"
+    commit: null
+    t: 459
+    quote: it will come gradually from October to December, but all these features will be in next 2 months.
+  - kind: video
+    url: https://www.youtube.com/watch?v=tj1vvsmAMVs&t=459s
+    title: "Travel Requests: announced"
+    date: "2026-10-01T00:00:00Z"
+    commit: null
+    t: 459
+    quote: it will come gradually from October to December, but all these features will be in next 2 months.
   - kind: video
     url: https://www.youtube.com/watch?v=tj1vvsmAMVs&t=537s
     title: "New Mobile App with Offline Support: preview"
@@ -80,6 +101,13 @@ evidence:
     t: 409
     quote: this is not hard limitation. Approver can approve even if this is flagged, even if this is not 100% compliant.
   - kind: video
+    url: https://www.youtube.com/watch?v=tj1vvsmAMVs&t=459s
+    title: "What's new in Expense Agent: Overview (2026 release wave 2)"
+    date: "2026-10-01T00:00:00Z"
+    commit: null
+    t: 459
+    quote: it will come gradually from October to December, but all these features will be in next 2 months.
+  - kind: video
     url: https://www.youtube.com/watch?v=tj1vvsmAMVs&t=537s
     title: "What's new in Expense Agent: Overview (2026 release wave 2)"
     date: "2026-10-01T00:00:00Z"
@@ -93,6 +121,13 @@ evidence:
     commit: null
     t: 617
     quote: claiming VAT is a little bit more complex. In some countries, this is based on the uh on specific um authorities' rules, you cannot
+  - kind: video
+    url: https://www.youtube.com/watch?v=tj1vvsmAMVs&t=667s
+    title: "What's new in Expense Agent: Overview (2026 release wave 2)"
+    date: "2026-10-01T00:00:00Z"
+    commit: null
+    t: 667
+    quote: system will use only for your country. So, if this is uh receipt abroad, system will not use a VAT
 links:
   learn: []
   objects: []
@@ -183,19 +218,19 @@ features:
     roadmap_ids:
       - "573255"
   - name: Enhanced Approval History and Audit Trail
-    status: unclear
+    status: announced
     t: 421
-    verified: false
+    verified: true
     status_source: video
   - name: Interim Approvers and Delegate Approvals
-    status: unclear
+    status: announced
     t: 421
-    verified: false
+    verified: true
     status_source: video
   - name: Travel Requests
-    status: unclear
+    status: announced
     t: 459
-    verified: false
+    verified: true
     status_source: video
   - name: Automatic Travel Expense Assignment
     status: unclear
@@ -264,19 +299,25 @@ quotes:
   - t: 409
     text: this is not hard limitation. Approver can approve even if this is flagged, even if this is not 100% compliant.
     check: exact
+  - t: 459
+    text: it will come gradually from October to December, but all these features will be in next 2 months.
+    check: exact
   - t: 537
     text: this is available right now in a preview. So, only for testing, but this is this is available.
     check: exact
   - t: 617
     text: claiming VAT is a little bit more complex. In some countries, this is based on the uh on specific um authorities' rules, you cannot
     check: exact
+  - t: 667
+    text: system will use only for your country. So, if this is uh receipt abroad, system will not use a VAT
+    check: exact
 ---
 
 # What's new in Expense Agent: Overview (2026 release wave 2)
 
-> Expense Agent in Business Central, 2026 release wave 2: period-based and vehicle-type mileage rates, credit card feeds with manual upload, AI policy checks on approvals, travel requests, a mobile app in preview, VAT reclaim and withholding tax for employees. Rollout is gradual from October.
+> Overview of Expense Agent changes in Business Central 2026 release wave 2: mileage rates by period and vehicle type, credit card feeds with manual statement upload (December), AI policy compliance checks for approvals, more approval options, travel requests, a new mobile app in preview, VAT reclaim per expense line and withholding tax for employees. Worldwide availability and new languages roll out gradually from October.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=tj1vvsmAMVs) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-10-01 · 14:53 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=tj1vvsmAMVs) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-10-01 · 14:53 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -287,10 +328,10 @@ The main functional areas are mileage handling, credit card feeds, AI-driven tra
 ## Key points
 
 - Mileage allowances can be set per period, so the correct rate is applied from the expense date, and per vehicle type (car, truck, SUV, motorcycle) combined with date ranges. A simple setup without periods remains possible.
-- Credit card feeds are not available in October. They are announced for December (stated as 2029.2) with manual upload of statements; the first release is limited and expands later.
+- Credit card feeds are not available in October. They are announced for December (stated as 2029.2) as the first release, with manual upload of credit card statements.
 - Credit card records are reconciled automatically with existing expenses if receipts were scanned first. Otherwise expenses are created from the card records and the user must attach receipts before submitting.
 - AI-driven travel policy compliance must be enabled in setup and incurs additional AI costs. Policies are human-readable text. Flagged expenses do not block approval, and approvers can approve non-compliant ones.
-- Approvals gain interim approvers, approval limits, delegate approvals and a more detailed approval history. Travel requests, when approved, create an expense report and assign the trip's receipts to it. Both roll out gradually from October to December.
+- Approvals gain interim approvers, approval limits, delegate approvals and a more detailed approval history. Travel requests, when approved, create an expense report and assign the trip's receipts to it. These come gradually from October to December.
 - The new mobile app (iPhone and Android) crops receipts automatically and works offline. It is in preview, for testing only.
 - VAT reclaim must be enabled in agent setup and is tracked per expense line. VAT is only identified from receipts of the user's home country, accountants must review and confirm it, and some countries do not allow VAT reclaim through expense reports. Withholding tax for employees needs posting groups assigned to employees and expense categories.
 
@@ -318,9 +359,9 @@ The main functional areas are mileage handling, credit card feeds, AI-driven tra
 | Proactive Credit Card Reconciliation | status not stated | [4:35](https://www.youtube.com/watch?v=tj1vvsmAMVs&t=275s) |  |
 | AI-Driven Travel Expense Policy Compliance | preview (roadmap [573255](../features/573255.md)), demoed | [5:00](https://www.youtube.com/watch?v=tj1vvsmAMVs&t=300s) |  |
 | Policy Flagging for Non-Compliant Expenses | preview (roadmap [573255](../features/573255.md)), demoed | [6:18](https://www.youtube.com/watch?v=tj1vvsmAMVs&t=378s) |  |
-| Enhanced Approval History and Audit Trail | status not stated | [7:01](https://www.youtube.com/watch?v=tj1vvsmAMVs&t=421s) |  |
-| Interim Approvers and Delegate Approvals | status not stated | [7:01](https://www.youtube.com/watch?v=tj1vvsmAMVs&t=421s) |  |
-| Travel Requests | status not stated | [7:39](https://www.youtube.com/watch?v=tj1vvsmAMVs&t=459s) |  |
+| Enhanced Approval History and Audit Trail | announced | [7:01](https://www.youtube.com/watch?v=tj1vvsmAMVs&t=421s) | "it will come gradually from October to December, but all these features will be in next 2 months." ([7:39](https://www.youtube.com/watch?v=tj1vvsmAMVs&t=459s)) |
+| Interim Approvers and Delegate Approvals | announced | [7:01](https://www.youtube.com/watch?v=tj1vvsmAMVs&t=421s) | "it will come gradually from October to December, but all these features will be in next 2 months." ([7:39](https://www.youtube.com/watch?v=tj1vvsmAMVs&t=459s)) |
+| Travel Requests | announced | [7:39](https://www.youtube.com/watch?v=tj1vvsmAMVs&t=459s) | "it will come gradually from October to December, but all these features will be in next 2 months." ([7:39](https://www.youtube.com/watch?v=tj1vvsmAMVs&t=459s)) |
 | Automatic Travel Expense Assignment | status not stated | [8:33](https://www.youtube.com/watch?v=tj1vvsmAMVs&t=513s) |  |
 | New Mobile App with Offline Support | preview, demoed | [8:57](https://www.youtube.com/watch?v=tj1vvsmAMVs&t=537s) | "this is available right now in a preview. So, only for testing, but this is this is available." ([8:57](https://www.youtube.com/watch?v=tj1vvsmAMVs&t=537s)) |
 | VAT Reclaim in Expense Reports | preview (roadmap [573262](../features/573262.md)) | [9:58](https://www.youtube.com/watch?v=tj1vvsmAMVs&t=598s) |  |
@@ -339,8 +380,10 @@ A status with a roadmap link comes from the Microsoft 365 roadmap feature this p
 - [3:29](https://www.youtube.com/watch?v=tj1vvsmAMVs&t=209s) "it will not be available from October, it will be available from December, so 2029.2."
 - [5:17](https://www.youtube.com/watch?v=tj1vvsmAMVs&t=317s) "when you start setup, you need to enable policy compliance. And why you need to do that? Because it can make additional cost of"
 - [6:49](https://www.youtube.com/watch?v=tj1vvsmAMVs&t=409s) "this is not hard limitation. Approver can approve even if this is flagged, even if this is not 100% compliant."
+- [7:39](https://www.youtube.com/watch?v=tj1vvsmAMVs&t=459s) "it will come gradually from October to December, but all these features will be in next 2 months."
 - [8:57](https://www.youtube.com/watch?v=tj1vvsmAMVs&t=537s) "this is available right now in a preview. So, only for testing, but this is this is available."
 - [10:17](https://www.youtube.com/watch?v=tj1vvsmAMVs&t=617s) "claiming VAT is a little bit more complex. In some countries, this is based on the uh on specific um authorities' rules, you cannot"
+- [11:07](https://www.youtube.com/watch?v=tj1vvsmAMVs&t=667s) "system will use only for your country. So, if this is uh receipt abroad, system will not use a VAT"
 
 ## Disclaimers in the video
 

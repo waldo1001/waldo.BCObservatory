@@ -175,6 +175,12 @@
       "check": "exact"
     },
     {
+      "t": 46.4,
+      "text": "Depending on the replenishment method defined, we will account for the purchase price or the actual production cost.",
+      "why_it_matters": "Explains that the replenishment method decides where the item's cost comes from.",
+      "check": "exact"
+    },
+    {
       "t": 75.7,
       "text": "Item cost is not one number. It is a roll up. Materials come from the production bomb. Capacity comes from routing operations.",
       "why_it_matters": "Explains the key concept that item costs are composite, built from multiple sources (BOM, routing) that must be tracked separately.",

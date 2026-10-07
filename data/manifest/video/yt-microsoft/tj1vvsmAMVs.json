@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=tj1vvsmAMVs",
   "published_at": "2026-10-01T00:00:00Z",
   "language": "en",
-  "state": "linked",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:51:47.857Z"
@@ -57,8 +57,17 @@
       "objects_as_heard": 0
     },
     "published": {
-      "at": "2026-10-06T13:48:21.956Z",
+      "at": "2026-10-07T22:45:29.355Z",
       "path": "content/videos/tj1vvsmAMVs.md"
+    },
+    "reviewed": {
+      "at": "2026-10-07T22:45:29.309Z",
+      "path": "data/review/video/tj1vvsmAMVs.json",
+      "verdict": "fix",
+      "applied": 9,
+      "rejected_edits": 2,
+      "model": "claude-opus-5-5",
+      "cost_usd": 0.1903426
     }
   },
   "input_hash": null,
@@ -70,5 +79,10 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b6d02a89a10b1a61fee78066d284bdc8387dcbe8a18f9680c4b315447ccb607a"
+  "output_hash": "91d80456a3b1be5603fd0f2f60f79e75cbf26c71d2e2f351d26477904d26980e",
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T22:45:29.292Z"
+  }
 }

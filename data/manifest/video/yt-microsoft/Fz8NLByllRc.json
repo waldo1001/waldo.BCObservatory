@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=Fz8NLByllRc",
   "published_at": "2026-08-07T13:00:40.000Z",
   "language": "en",
-  "state": "linked",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
@@ -56,8 +56,17 @@
       "objects_as_heard": 1
     },
     "published": {
-      "at": "2026-10-06T14:01:46.139Z",
+      "at": "2026-10-07T22:46:32.804Z",
       "path": "content/videos/Fz8NLByllRc.md"
+    },
+    "reviewed": {
+      "at": "2026-10-07T22:46:32.763Z",
+      "path": "data/review/video/Fz8NLByllRc.json",
+      "verdict": "fix",
+      "applied": 2,
+      "rejected_edits": 0,
+      "model": "claude-opus-5-5",
+      "cost_usd": 0.053128999999999996
     }
   },
   "input_hash": null,
@@ -75,5 +84,10 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7e4c38cc14ac15b8bc1bc45e9b719d65d33df7f697be3e927d3619a0195eecc2"
+  "output_hash": "7569059a646b0f3e31bac539e962d53ad0afc4c319d6c013c4c4315325ebeb47",
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T22:46:32.760Z"
+  }
 }

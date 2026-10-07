@@ -17,12 +17,12 @@ tags:
   - vendors
 system: manufacturing
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:44:48.287Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:44:48.320Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -193,7 +193,7 @@ quotes:
 
 > Migrating Italian subcontracting to the new global subcontracting app in Business Central (2026 release wave 2): pre-checks for open work in progress documents, installing the migration app, running the migration, and what changes afterwards. Covers what gets migrated and how application areas and pages change.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=nb_a42dmSqE) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-10-01 · 11:14 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=nb_a42dmSqE) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-10-01 · 11:14 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -226,16 +226,16 @@ It walks through finding the legacy subcontracting toggle, running the pre-check
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| New global subcontracting app | status not stated, demoed | [0:17](https://www.youtube.com/watch?v=nb_a42dmSqE&t=17s) |  |
-| Italian subcontracting migration app | status not stated, demoed | [2:08](https://www.youtube.com/watch?v=nb_a42dmSqE&t=128s) |  |
-| Legacy subcontracting pre-check | status not stated, demoed | [2:19](https://www.youtube.com/watch?v=nb_a42dmSqE&t=139s) |  |
-| Work in progress item migration handling | status not stated, demoed | [0:54](https://www.youtube.com/watch?v=nb_a42dmSqE&t=54s) |  |
-| Subcontracting application area toggle | status not stated, demoed | [1:31](https://www.youtube.com/watch?v=nb_a42dmSqE&t=91s) |  |
-| Subcontracting purchase and transfer order views | status not stated, demoed | [8:17](https://www.youtube.com/watch?v=nb_a42dmSqE&t=497s) |  |
-| Vendor subcontracting field migration | status not stated, demoed | [4:28](https://www.youtube.com/watch?v=nb_a42dmSqE&t=268s) |  |
-| Subcontracting prices migration | status not stated, demoed | [4:28](https://www.youtube.com/watch?v=nb_a42dmSqE&t=268s) |  |
+| Feature | Status | At |
+|---|---|---|
+| New global subcontracting app | status not stated, demoed | [0:17](https://www.youtube.com/watch?v=nb_a42dmSqE&t=17s) |
+| Italian subcontracting migration app | status not stated, demoed | [2:08](https://www.youtube.com/watch?v=nb_a42dmSqE&t=128s) |
+| Legacy subcontracting pre-check | status not stated, demoed | [2:19](https://www.youtube.com/watch?v=nb_a42dmSqE&t=139s) |
+| Work in progress item migration handling | status not stated, demoed | [0:54](https://www.youtube.com/watch?v=nb_a42dmSqE&t=54s) |
+| Subcontracting application area toggle | status not stated, demoed | [1:31](https://www.youtube.com/watch?v=nb_a42dmSqE&t=91s) |
+| Subcontracting purchase and transfer order views | status not stated, demoed | [8:17](https://www.youtube.com/watch?v=nb_a42dmSqE&t=497s) |
+| Vendor subcontracting field migration | status not stated, demoed | [4:28](https://www.youtube.com/watch?v=nb_a42dmSqE&t=268s) |
+| Subcontracting prices migration | status not stated, demoed | [4:28](https://www.youtube.com/watch?v=nb_a42dmSqE&t=268s) |
 
 ## AL objects mentioned
 

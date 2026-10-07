@@ -1,0 +1,32 @@
+{
+  "video_id": "WZUQ9X26MLo",
+  "item_id": "video/yt-microsoft/WZUQ9X26MLo",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All five quotes are verbatim; the 46.2 quote runs on into segment 59.8, which is allowed.",
+    "One key point and one feature description say 'country of origin', but the transcript only says 'it will take the country'. Key point reworded to match.",
+    "Added two details from the transcript that the page was missing: the lot certificate tab only shows for EUDR-relevant items, and DDS information can be copied into the fields.",
+    "The transcript never says whether these features are in preview or generally available, so all statuses stay 'unclear'.",
+    "The transcript says 'EUTR flag' for purchase lines. This may be a caption or speech slip for EUDR, but the page keeps the wording as spoken."
+  ],
+  "input_hash": "90055725c4929424a2e16673d6e57d104c2a12864444ca7eb7cca9399a7760a1",
+  "by": "opus",
+  "at": "2026-10-07T22:45:28.210Z",
+  "applied": [
+    "EUDR item marking on item card: status unclear",
+    "Lot number certificate information capture: status unclear",
+    "EUTR flag on purchase lines: status unclear",
+    "Certification information on sales invoices: status unclear",
+    "quote at 100s",
+    "quote at 112s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.05796900000000001
+  }
+}

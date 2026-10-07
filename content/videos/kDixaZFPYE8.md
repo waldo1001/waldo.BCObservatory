@@ -2,7 +2,7 @@
 id: video/kDixaZFPYE8
 type: video
 title: "Expense Agent: Countries and Languages (2026 release wave 1)"
-summary: Expense Agent in Business Central adds Danish, French, German, Spanish and English language support and expands to more countries in the July update of 2026 release wave 1. Danish and Spanish demos show receipts being extracted and categorized in the local language. More languages and countries are listed for October.
+summary: Expense Agent in Business Central, available in English and the US since May, adds Danish, French, German and Spanish and extends to more countries (Austria, Denmark, France, Germany, Spain, UK, Canada, Australia, New Zealand) starting in July. Danish and Spanish demos show receipts in any language being extracted and categorized, with the UI and categories in the local language. More countries and languages are planned for October.
 tier: official
 language: en
 tags:
@@ -17,18 +17,25 @@ tags:
   - october roadmap
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:46:48.249Z"
   flags: []
 generated:
-  at: "2026-10-06T14:56:57.246Z"
+  at: "2026-10-07T22:46:52.767Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
     summarize-video: 2
   input_hash: 1f7146a93ec3c4feb8568c3b6394b90e70ff14d308d15acd6ed82222dbf0d649
 evidence:
+  - kind: video
+    url: https://www.youtube.com/watch?v=kDixaZFPYE8&t=0s
+    title: "Expense Agent: Countries and Languages (2026 release wave 1)"
+    date: "2026-08-07T13:00:35.000Z"
+    commit: null
+    t: 0
+    quote: from the very beginning, uh we had uh availability in English language only and United States from um actually from May,
   - kind: video
     url: https://www.youtube.com/watch?v=kDixaZFPYE8&t=17s
     title: "Expense Agent: Countries and Languages (2026 release wave 1)"
@@ -121,6 +128,9 @@ features:
     status_source: video
 objects_mentioned: []
 quotes:
+  - t: 0
+    text: from the very beginning, uh we had uh availability in English language only and United States from um actually from May,
+    check: exact
   - t: 17
     text: july we are extending to new languages and new countries so we'll have danish french german spanish language availability
     check: fuzzy
@@ -140,9 +150,9 @@ quotes:
 
 # Expense Agent: Countries and Languages (2026 release wave 1)
 
-> Expense Agent in Business Central adds Danish, French, German, Spanish and English language support and expands to more countries in the July update of 2026 release wave 1. Danish and Spanish demos show receipts being extracted and categorized in the local language. More languages and countries are listed for October.
+> Expense Agent in Business Central, available in English and the US since May, adds Danish, French, German and Spanish and extends to more countries (Austria, Denmark, France, Germany, Spain, UK, Canada, Australia, New Zealand) starting in July. Danish and Spanish demos show receipts in any language being extracted and categorized, with the UI and categories in the local language. More countries and languages are planned for October.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=kDixaZFPYE8) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-08-07 · 4:37 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=kDixaZFPYE8) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-08-07 · 4:37 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -152,13 +162,13 @@ Two demos follow, one in Danish and one in Spanish. Each uploads receipts, then 
 
 ## Key points
 
-- Supported languages as of July: Danish, French, German, Spanish and English. The user interface and all strings translate to the local language.
+- Expense Agent was first available in English and the US from May. From July it adds Danish, French, German and Spanish; the presenter refers to five fully supported languages.
+- With the local language set (Danish in the demo), all strings, categories and subcategories are shown in that language.
 - Countries listed: Austria, Denmark, France, Germany, Spain, UK and Europe in EU; Canada in North America; Australia and New Zealand in APAC.
-- More countries and languages are listed for October.
-- Receipt images can be in any language. The agent extracts and categorizes them even when the receipt language differs from the environment language.
-- The presenter says the agent was tested with receipts in almost all languages, but official support is limited to the five languages for now.
-- The agent categorizes expenses (meal, hotel and others) and extracts receipt details, with categories shown in the local language.
-- Demos use Danish and Spanish environments; French is also mentioned as an example.
+- More countries and languages are planned for October.
+- Receipts can be in any language. The agent extracts and categorizes them even when the receipt language differs from the environment language, with support for different currencies.
+- The presenter says the agent was tested with receipts in almost all languages, but full support is limited to the listed languages for now.
+- The agent categorizes expenses (for example meal and hotel) and extracts details such as dates and itemizations; the user then reviews, confirms and submits.
 
 ## Chapters
 
@@ -171,15 +181,16 @@ Two demos follow, one in Danish and one in Spanish. Each uploads receipts, then 
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Expense Agent multilingual support | status not stated, demoed | [0:00](https://www.youtube.com/watch?v=kDixaZFPYE8&t=0s) |  |
-| Expense Agent geographic expansion | status not stated | [0:17](https://www.youtube.com/watch?v=kDixaZFPYE8&t=17s) |  |
-| Multilingual receipt processing | status not stated, demoed | [1:13](https://www.youtube.com/watch?v=kDixaZFPYE8&t=73s) |  |
-| Automatic receipt categorization in local languages | status not stated, demoed | [1:37](https://www.youtube.com/watch?v=kDixaZFPYE8&t=97s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Expense Agent multilingual support | status not stated, demoed | [0:00](https://www.youtube.com/watch?v=kDixaZFPYE8&t=0s) |
+| Expense Agent geographic expansion | status not stated | [0:17](https://www.youtube.com/watch?v=kDixaZFPYE8&t=17s) |
+| Multilingual receipt processing | status not stated, demoed | [1:13](https://www.youtube.com/watch?v=kDixaZFPYE8&t=73s) |
+| Automatic receipt categorization in local languages | status not stated, demoed | [1:37](https://www.youtube.com/watch?v=kDixaZFPYE8&t=97s) |
 
 ## Quotes
 
+- [0:00](https://www.youtube.com/watch?v=kDixaZFPYE8&t=0s) "from the very beginning, uh we had uh availability in English language only and United States from um actually from May,"
 - [0:17](https://www.youtube.com/watch?v=kDixaZFPYE8&t=17s) "july we are extending to new languages and new countries so we'll have danish french german spanish language availability"
 - [0:17](https://www.youtube.com/watch?v=kDixaZFPYE8&t=17s) "we will extend to new countries: Austria, Denmark, France, Germany, Spain, UK, and Europe"
 - [0:31](https://www.youtube.com/watch?v=kDixaZFPYE8&t=31s) "more countries and languages to come in October"

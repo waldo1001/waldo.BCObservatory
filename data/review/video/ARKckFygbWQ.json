@@ -1,0 +1,24 @@
+{
+  "video_id": "ARKckFygbWQ",
+  "item_id": "video/yt-microsoft/ARKckFygbWQ",
+  "flags": [],
+  "verdict": "approve",
+  "issues": [
+    "All 7 quotes appear verbatim in the transcript.",
+    "Summary and key points are backed by the transcript. The 2026 release wave 1 label comes from the video title.",
+    "All features are left as unclear. The transcript never says whether they are preview or GA; it only says 'start using this new feature as soon as possible'.",
+    "'Enter ID' is how the captions render the sign-in ID. It is kept as spoken.",
+    "The quote at 26.5 is short (7 words) but useful, so it is kept."
+  ],
+  "input_hash": "94a7cab7bd522deae2fc50882d42cc07c91dad835a511daee857fab0a9730f66",
+  "by": "opus",
+  "at": "2026-10-07T22:46:52.777Z",
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.049177
+  }
+}

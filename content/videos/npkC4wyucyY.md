@@ -2,7 +2,7 @@
 id: video/npkC4wyucyY
 type: video
 title: What's new in BC-Bench (2026 release wave 2)
-summary: BC-Bench is a reproducible evaluation framework for AI coding agents on real AL development tasks. The video covers the bug fixing category (101 tasks, AL MCP server), a contamination check, and the new code review category, and compares agent harnesses and models.
+summary: BC-Bench is an open-source, reproducible evaluation framework for AI coding agents on real AL development tasks (bug fixing, test generation, code review). The video covers bug fixing results with the AL MCP server, a harness vs model comparison, a contamination check, the new code review category judged by an LM-as-judge, and how partners can fork the repo to benchmark their own AL apps.
 tier: official
 language: en
 tags:
@@ -17,12 +17,12 @@ tags:
   - evaluation framework
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:44:51.176Z"
   flags: []
 generated:
-  at: "2026-10-06T14:56:57.246Z"
+  at: "2026-10-07T22:44:51.212Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -51,6 +51,13 @@ evidence:
     t: 257
     quote: the pass head five matrix improved almost 10 uh and there's also a significant improvement
   - kind: video
+    url: https://www.youtube.com/watch?v=npkC4wyucyY&t=297s
+    title: What's new in BC-Bench (2026 release wave 2)
+    date: "2026-10-01T00:00:00Z"
+    commit: null
+    t: 297
+    quote: So the choice of models probably matter more than the choice of agent harness at least using our data set.
+  - kind: video
     url: https://www.youtube.com/watch?v=npkC4wyucyY&t=474s
     title: What's new in BC-Bench (2026 release wave 2)
     date: "2026-10-01T00:00:00Z"
@@ -64,6 +71,13 @@ evidence:
     commit: null
     t: 526
     quote: the motivation for us to introduce use the code view category is because we are getting more and more poll requests on BC apps
+  - kind: video
+    url: https://www.youtube.com/watch?v=npkC4wyucyY&t=827s
+    title: What's new in BC-Bench (2026 release wave 2)
+    date: "2026-10-01T00:00:00Z"
+    commit: null
+    t: 827
+    quote: you want to fork our repository and replace the data set that we have created for our own AL app issues
 links:
   learn: []
   objects: []
@@ -165,19 +179,25 @@ quotes:
   - t: 257
     text: the pass head five matrix improved almost 10 uh and there's also a significant improvement
     check: fuzzy
+  - t: 297
+    text: So the choice of models probably matter more than the choice of agent harness at least using our data set.
+    check: exact
   - t: 474
     text: they had a chance to memorize our data set and the solutions and as you can see
     check: fuzzy
   - t: 526
     text: the motivation for us to introduce use the code view category is because we are getting more and more poll requests on BC apps
     check: exact
+  - t: 827
+    text: you want to fork our repository and replace the data set that we have created for our own AL app issues
+    check: exact
 ---
 
 # What's new in BC-Bench (2026 release wave 2)
 
-> BC-Bench is a reproducible evaluation framework for AI coding agents on real AL development tasks. The video covers the bug fixing category (101 tasks, AL MCP server), a contamination check, and the new code review category, and compares agent harnesses and models.
+> BC-Bench is an open-source, reproducible evaluation framework for AI coding agents on real AL development tasks (bug fixing, test generation, code review). The video covers bug fixing results with the AL MCP server, a harness vs model comparison, a contamination check, the new code review category judged by an LM-as-judge, and how partners can fork the repo to benchmark their own AL apps.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=npkC4wyucyY) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-10-01 · 14:47 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=npkC4wyucyY) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-10-01 · 14:47 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -209,26 +229,28 @@ It then explains how the team checks whether models memorized the public data se
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Bug fixing category | status not stated, demoed | [2:46](https://www.youtube.com/watch?v=npkC4wyucyY&t=166s) |  |
-| AL MCP server | status not stated | [3:19](https://www.youtube.com/watch?v=npkC4wyucyY&t=199s) |  |
-| Pass@5 improvement with MCP | status not stated, demoed | [3:46](https://www.youtube.com/watch?v=npkC4wyucyY&t=226s) |  |
-| Agent harness comparison | status not stated, demoed | [4:40](https://www.youtube.com/watch?v=npkC4wyucyY&t=280s) |  |
-| Contamination detection strategy | status not stated, demoed | [5:44](https://www.youtube.com/watch?v=npkC4wyucyY&t=344s) |  |
-| Contamination results across three models | status not stated, demoed | [7:38](https://www.youtube.com/watch?v=npkC4wyucyY&t=458s) |  |
-| Code review category | status not stated, demoed | [8:34](https://www.youtube.com/watch?v=npkC4wyucyY&t=514s) |  |
-| BC Quality plugin | status not stated, demoed | [9:47](https://www.youtube.com/watch?v=npkC4wyucyY&t=587s) |  |
-| AL review agent | status not stated, demoed | [10:20](https://www.youtube.com/watch?v=npkC4wyucyY&t=620s) |  |
-| LM-as-judge for code review evaluation | status not stated, demoed | [12:24](https://www.youtube.com/watch?v=npkC4wyucyY&t=744s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Bug fixing category | status not stated, demoed | [2:46](https://www.youtube.com/watch?v=npkC4wyucyY&t=166s) |
+| AL MCP server | status not stated | [3:19](https://www.youtube.com/watch?v=npkC4wyucyY&t=199s) |
+| Pass@5 improvement with MCP | status not stated, demoed | [3:46](https://www.youtube.com/watch?v=npkC4wyucyY&t=226s) |
+| Agent harness comparison | status not stated, demoed | [4:40](https://www.youtube.com/watch?v=npkC4wyucyY&t=280s) |
+| Contamination detection strategy | status not stated, demoed | [5:44](https://www.youtube.com/watch?v=npkC4wyucyY&t=344s) |
+| Contamination results across three models | status not stated, demoed | [7:38](https://www.youtube.com/watch?v=npkC4wyucyY&t=458s) |
+| Code review category | status not stated, demoed | [8:34](https://www.youtube.com/watch?v=npkC4wyucyY&t=514s) |
+| BC Quality plugin | status not stated, demoed | [9:47](https://www.youtube.com/watch?v=npkC4wyucyY&t=587s) |
+| AL review agent | status not stated, demoed | [10:20](https://www.youtube.com/watch?v=npkC4wyucyY&t=620s) |
+| LM-as-judge for code review evaluation | status not stated, demoed | [12:24](https://www.youtube.com/watch?v=npkC4wyucyY&t=744s) |
 
 ## Quotes
 
 - [0:19](https://www.youtube.com/watch?v=npkC4wyucyY&t=19s) "BCBench is a reproducible evaluation framework for AI coding agents working on real world AI development task inspired by SVBench"
 - [1:46](https://www.youtube.com/watch?v=npkC4wyucyY&t=106s) "BCbench covers the following categories of AL development work. First of all, there's bug fixing and there's test generation and also there's PR reviews"
 - [4:17](https://www.youtube.com/watch?v=npkC4wyucyY&t=257s) "the pass head five matrix improved almost 10 uh and there's also a significant improvement"
+- [4:57](https://www.youtube.com/watch?v=npkC4wyucyY&t=297s) "So the choice of models probably matter more than the choice of agent harness at least using our data set."
 - [7:54](https://www.youtube.com/watch?v=npkC4wyucyY&t=474s) "they had a chance to memorize our data set and the solutions and as you can see"
 - [8:46](https://www.youtube.com/watch?v=npkC4wyucyY&t=526s) "the motivation for us to introduce use the code view category is because we are getting more and more poll requests on BC apps"
+- [13:47](https://www.youtube.com/watch?v=npkC4wyucyY&t=827s) "you want to fork our repository and replace the data set that we have created for our own AL app issues"
 
 ## Disclaimers in the video
 

@@ -9,7 +9,8 @@
     "Manual flushing has the operator review the component line and post actual consumption in the journal. It fits variable quantities or tighter control.",
     "Pick plus adds a warehouse picking step before the selected flushing rule applies. It does not replace forward, manual or backward flushing.",
     "Each component line on a production order can have its own flushing method, so forward, backward, manual and pick plus can be mixed on one order.",
-    "A routing link code on a component ties its consumption to a specific routing operation when the codes match. A blank code applies timing to the order more generally."
+    "A routing link code on a component ties its consumption to a specific routing operation when the codes match. A blank code applies timing to the order more generally.",
+    "In the demo, releasing the order consumed the forward-flushed components and the control panel display, which is linked by routing link code 100 to body assembly. Backward and manual components still had quantity remaining. After a manual quantity change, the actual cost came out slightly above the expected cost."
   ],
   "audience": [
     "functional consultant",

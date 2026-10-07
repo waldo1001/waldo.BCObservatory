@@ -1,0 +1,29 @@
+{
+  "video_id": "npkC4wyucyY",
+  "item_id": "video/yt-microsoft/npkC4wyucyY",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Facts, features and summary are supported by the transcript. All features are correctly marked unclear because the video gives no preview or GA statements.",
+    "The existing quotes are verbatim, apart from minor punctuation in the t=257.7 quote, which is acceptable.",
+    "The page left out the closing section on partner usage (fork the repo, swap in your own dataset, check for contamination), so I added a key point and a quote for it.",
+    "Test generation is named as a covered category but had no key point, so I added it to the summary.",
+    "I added a quote for the main finding of the harness comparison."
+  ],
+  "input_hash": "59c11158324828a030a17c2c5778dc826e015c3704ead9e86bba53f126676341",
+  "by": "opus",
+  "at": "2026-10-07T22:44:51.176Z",
+  "applied": [
+    "quote at 297s",
+    "quote at 827s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.102633
+  }
+}

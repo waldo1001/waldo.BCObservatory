@@ -1,0 +1,23 @@
+{
+  "video_id": "UFLo2XGGS14",
+  "item_id": "video/yt-microsoft/UFLo2XGGS14",
+  "flags": [],
+  "verdict": "approve",
+  "issues": [
+    "All 7 quotes are verbatim; the ones at 616.6 and 1109.6 run on into the next segment, which is acceptable.",
+    "All features are correctly left unclear: the transcript never says whether anything is preview or generally available.",
+    "Key points (permissions, session ID sources, 30,000 CQL statements in 5 seconds, polling every 15 seconds in the demo vs hours in real use) are supported by the transcript.",
+    "The captions say 'AI language server protocol' and 'AI CPU profile', probably meaning AL; the page follows the transcript wording, so no change."
+  ],
+  "input_hash": "a30fe5df988d7d0882f5a3323d7a48766bc1e788b927fd1c14d381dea13d088b",
+  "by": "opus",
+  "at": "2026-10-07T22:45:10.550Z",
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.09515299999999999
+  }
+}

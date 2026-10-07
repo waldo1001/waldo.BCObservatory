@@ -107,10 +107,10 @@
     {
       "name": "Create released production orders from planning worksheet",
       "description": "The planning worksheet now allows creating production orders directly in released status or released and print status via the carry out action message, with automatic consumption based on flushing method configuration.",
-      "status": "ga",
-      "status_evidence_t": 281.5,
-      "status_evidence_quote": "I can create production orders in status released or released and print",
-      "status_evidence_verified": true,
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
       "t_start": 281.5,
       "t_end": 336,
       "is_demoed": true,
@@ -188,10 +188,10 @@
     {
       "name": "Partial shipment for direct transfer shipment and receipt mode",
       "description": "When using direct transfer with shipment and receipt mode, users can partially ship goods instead of being forced to ship all quantities.",
-      "status": "ga",
-      "status_evidence_t": 645,
-      "status_evidence_quote": "this is a benefit of direct transfer of mode ship and receipt. It supports partial shipping",
-      "status_evidence_verified": true,
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
       "t_start": 645,
       "t_end": 658.2,
       "is_demoed": true,
@@ -208,10 +208,10 @@
     {
       "name": "Transfer route specification for direct transfer mode",
       "description": "Transfer routes now include fields to specify direct transfer mode (direct or shipment and receipt) with values defaulting from inventory posting setup but overridable per route.",
-      "status": "ga",
-      "status_evidence_t": 697,
-      "status_evidence_quote": "these two fields are now available in the on the transfer route specification. And I can change it and decide to use shipment and",
-      "status_evidence_verified": true,
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
       "t_start": 669.4,
       "t_end": 708,
       "is_demoed": true,
@@ -245,26 +245,6 @@
         "inventory posting"
       ],
       "system": "warehouse"
-    },
-    {
-      "name": "Location code copy to value entries for manufacturing",
-      "description": "Manufacturing operations now copy location codes to value entries linked to capacity ledger entries, ensuring location code is always populated in manufacturing-related value entries.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 774.8,
-      "t_end": 800.6,
-      "is_demoed": true,
-      "caveats": [
-        "Eliminates need for empty location code entries in inventory posting setup"
-      ],
-      "tags": [
-        "manufacturing",
-        "location code",
-        "value entries"
-      ],
-      "system": "manufacturing"
     },
     {
       "name": "Inventory put-away and pick for partial transfers",

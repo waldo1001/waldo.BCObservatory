@@ -18,39 +18,18 @@ tags:
   - in-transit locations
 system: manufacturing
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:45:29.976Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:45:30.013Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
     summarize-video: 2
   input_hash: de3262f694981e1b96ed42572654b98b66c5c37f22255262e5a4d98d9b0be837
 evidence:
-  - kind: video
-    url: https://www.youtube.com/watch?v=WACQbAEVOJg&t=281s
-    title: "Create released production orders from planning worksheet: generally available"
-    date: "2026-10-01T00:00:00Z"
-    commit: null
-    t: 281
-    quote: I can create production orders in status released or released and print
-  - kind: video
-    url: https://www.youtube.com/watch?v=WACQbAEVOJg&t=645s
-    title: "Partial shipment for direct transfer shipment and receipt mode: generally available"
-    date: "2026-10-01T00:00:00Z"
-    commit: null
-    t: 645
-    quote: this is a benefit of direct transfer of mode ship and receipt. It supports partial shipping
-  - kind: video
-    url: https://www.youtube.com/watch?v=WACQbAEVOJg&t=697s
-    title: "Transfer route specification for direct transfer mode: generally available"
-    date: "2026-10-01T00:00:00Z"
-    commit: null
-    t: 697
-    quote: these two fields are now available in the on the transfer route specification. And I can change it and decide to use shipment and
   - kind: video
     url: https://www.youtube.com/watch?v=WACQbAEVOJg&t=6s
     title: "What's new in SCM: Overview (2026 release wave 2)"
@@ -156,9 +135,9 @@ features:
     roadmap_ids:
       - "573355"
   - name: Create released production orders from planning worksheet
-    status: ga
+    status: unclear
     t: 281
-    verified: true
+    verified: false
     status_source: video
   - name: Dynamic field visibility for parallel routings
     status: unclear
@@ -178,23 +157,18 @@ features:
     roadmap_ids:
       - "573347"
   - name: Partial shipment for direct transfer shipment and receipt mode
-    status: ga
+    status: unclear
     t: 645
-    verified: true
+    verified: false
     status_source: video
   - name: Transfer route specification for direct transfer mode
-    status: ga
+    status: unclear
     t: 669
-    verified: true
+    verified: false
     status_source: video
   - name: In-transit location for transfers
     status: unclear
     t: 743
-    verified: false
-    status_source: video
-  - name: Location code copy to value entries for manufacturing
-    status: unclear
-    t: 774
     verified: false
     status_source: video
   - name: Inventory put-away and pick for partial transfers
@@ -256,7 +230,7 @@ quotes:
 
 > Overview of supply chain management changes in Business Central 2026 release wave 2: subcontracting, planning worksheet, direct transfers, transfer routes, in-transit locations, manufacturing and quality inspection. Evidence for demoed behavior, with status stated only where given.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=WACQbAEVOJg) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-10-01 · 18:16 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=WACQbAEVOJg) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-10-01 · 18:16 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -267,11 +241,11 @@ It then covers transfers: choosing a posting mode for direct transfers, partial 
 ## Key points
 
 - Planning worksheet: the carry out action message can create production orders in released or released and print status. Automatic consumption happens at released status based on flushing method, so check flushing setup first.
-- Subcontracting: comments and attachments flow from the routing to the production order to the purchase order line. Inventory put-away can be used for received subcontracted items; serial numbers can only be specified for last operations.
+- Subcontracting: comments and attachments flow from the routing to the production order to the purchase order line. Inventory put-away can be used for received subcontracted items, for last and non-last operations; per the demo, serial numbers cannot be specified in the non-last case.
 - Direct transfers: you can choose direct posting mode or shipment and receipt mode. Shipment and receipt mode was previously blocked for direct transfers, and it allows partial shipment.
 - Transfer routes can specify the direct transfer mode. Defaults come from inventory posting setup and can be overridden per route or transfer document.
-- In-transit location code can be used on transfer orders, so item ledger entries get a location code. Location code is also copied to value entries for capacity ledger entries, so blank-location lines in inventory posting setup can be removed.
-- Machine center card shows how far calendar entries are available, in red when insufficient. The calculate machine center calendar report can be run from the card.
+- In-transit location code can be used on transfer orders, so item ledger entries get a location code. Together with the manufacturing setup option (from the previous release) that copies location code to value entries linked to capacity ledger entries, blank-location lines in inventory posting setup can be removed.
+- Routing: switching type from serial to parallel makes previous and next operation fields visible automatically. The machine center card shows how far calendar entries are available, in red when insufficient, and the calculate machine center calendar report can be run from the card.
 - Quality inspection: a failed result blocks transfer orders (items with item tracking). Some fields, such as sample size and passed/failed quantities, need an admin or supervisor role. Modifying a header suggests assigning the inspection to the current user.
 
 ## Chapters
@@ -287,23 +261,22 @@ It then covers transfers: choosing a posting mode for direct transfers, partial 
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Subcontracting comments and attachments on purchase lines | generally available (roadmap [573345](../features/573345.md)), demoed | [1:29](https://www.youtube.com/watch?v=WACQbAEVOJg&t=89s) |  |
-| Inventory put-away for subcontracted operations | generally available (roadmap [573355](../features/573355.md)), demoed | [2:48](https://www.youtube.com/watch?v=WACQbAEVOJg&t=168s) |  |
-| Create released production orders from planning worksheet | generally available, demoed | [4:41](https://www.youtube.com/watch?v=WACQbAEVOJg&t=281s) | "I can create production orders in status released or released and print" ([4:41](https://www.youtube.com/watch?v=WACQbAEVOJg&t=281s)) |
-| Dynamic field visibility for parallel routings | status not stated, demoed | [6:58](https://www.youtube.com/watch?v=WACQbAEVOJg&t=418s) |  |
-| Machine center calendar entries availability check | status not stated, demoed | [7:36](https://www.youtube.com/watch?v=WACQbAEVOJg&t=456s) |  |
-| Direct transfer posting modes selection | generally available (roadmap [573347](../features/573347.md)), demoed | [9:42](https://www.youtube.com/watch?v=WACQbAEVOJg&t=582s) |  |
-| Partial shipment for direct transfer shipment and receipt mode | generally available, demoed | [10:45](https://www.youtube.com/watch?v=WACQbAEVOJg&t=645s) | "this is a benefit of direct transfer of mode ship and receipt. It supports partial shipping" ([10:45](https://www.youtube.com/watch?v=WACQbAEVOJg&t=645s)) |
-| Transfer route specification for direct transfer mode | generally available, demoed | [11:09](https://www.youtube.com/watch?v=WACQbAEVOJg&t=669s) | "these two fields are now available in the on the transfer route specification. And I can change it and decide to use shipment and" ([11:37](https://www.youtube.com/watch?v=WACQbAEVOJg&t=697s)) |
-| In-transit location for transfers | status not stated, demoed | [12:23](https://www.youtube.com/watch?v=WACQbAEVOJg&t=743s) |  |
-| Location code copy to value entries for manufacturing | status not stated, demoed | [12:54](https://www.youtube.com/watch?v=WACQbAEVOJg&t=774s) |  |
-| Inventory put-away and pick for partial transfers | status not stated, demoed | [13:30](https://www.youtube.com/watch?v=WACQbAEVOJg&t=810s) |  |
-| Quality inspection blocking transfers | status not stated, demoed | [15:25](https://www.youtube.com/watch?v=WACQbAEVOJg&t=925s) |  |
-| Quality inspection user role permissions | status not stated, demoed | [16:29](https://www.youtube.com/watch?v=WACQbAEVOJg&t=989s) |  |
-| Quality inspection auto-assignment recommendation | status not stated, demoed | [16:18](https://www.youtube.com/watch?v=WACQbAEVOJg&t=978s) |  |
-| Quality inspection passed/failed quantity auto-update | status not stated, demoed | [17:34](https://www.youtube.com/watch?v=WACQbAEVOJg&t=1054s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Subcontracting comments and attachments on purchase lines | generally available (roadmap [573345](../features/573345.md)), demoed | [1:29](https://www.youtube.com/watch?v=WACQbAEVOJg&t=89s) |
+| Inventory put-away for subcontracted operations | generally available (roadmap [573355](../features/573355.md)), demoed | [2:48](https://www.youtube.com/watch?v=WACQbAEVOJg&t=168s) |
+| Create released production orders from planning worksheet | status not stated, demoed | [4:41](https://www.youtube.com/watch?v=WACQbAEVOJg&t=281s) |
+| Dynamic field visibility for parallel routings | status not stated, demoed | [6:58](https://www.youtube.com/watch?v=WACQbAEVOJg&t=418s) |
+| Machine center calendar entries availability check | status not stated, demoed | [7:36](https://www.youtube.com/watch?v=WACQbAEVOJg&t=456s) |
+| Direct transfer posting modes selection | generally available (roadmap [573347](../features/573347.md)), demoed | [9:42](https://www.youtube.com/watch?v=WACQbAEVOJg&t=582s) |
+| Partial shipment for direct transfer shipment and receipt mode | status not stated, demoed | [10:45](https://www.youtube.com/watch?v=WACQbAEVOJg&t=645s) |
+| Transfer route specification for direct transfer mode | status not stated, demoed | [11:09](https://www.youtube.com/watch?v=WACQbAEVOJg&t=669s) |
+| In-transit location for transfers | status not stated, demoed | [12:23](https://www.youtube.com/watch?v=WACQbAEVOJg&t=743s) |
+| Inventory put-away and pick for partial transfers | status not stated, demoed | [13:30](https://www.youtube.com/watch?v=WACQbAEVOJg&t=810s) |
+| Quality inspection blocking transfers | status not stated, demoed | [15:25](https://www.youtube.com/watch?v=WACQbAEVOJg&t=925s) |
+| Quality inspection user role permissions | status not stated, demoed | [16:29](https://www.youtube.com/watch?v=WACQbAEVOJg&t=989s) |
+| Quality inspection auto-assignment recommendation | status not stated, demoed | [16:18](https://www.youtube.com/watch?v=WACQbAEVOJg&t=978s) |
+| Quality inspection passed/failed quantity auto-update | status not stated, demoed | [17:34](https://www.youtube.com/watch?v=WACQbAEVOJg&t=1054s) |
 
 A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 

@@ -1,0 +1,29 @@
+{
+  "video_id": "oIoH3gxc0uk",
+  "item_id": "video/yt-microsoft/oIoH3gxc0uk",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Forward flushing was marked ga, but its evidence quote only describes how the feature behaves and says nothing about release status. Changed to unclear.",
+    "The quote at 165.5 stops mid-sentence ('filled in, the'). Replaced it with the complete sentence from the same segment.",
+    "The page did not cover what the demo shows after release. Added a quote and a key point: forward-flushed components were already consumed, backward and manual still had quantity remaining, and the routing-linked control panel display was consumed.",
+    "All other features, quotes, chapters and the summary are supported by the transcript."
+  ],
+  "input_hash": "e72156f28e79ef95af388760d67db9e50c88a8d7d6460ca08a0f7934306250f3",
+  "by": "opus",
+  "at": "2026-10-07T22:46:24.012Z",
+  "applied": [
+    "Forward flushing: status unclear",
+    "dropped 1 quote(s)",
+    "quote at 166s",
+    "quote at 179s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.063053
+  }
+}

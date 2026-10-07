@@ -1,0 +1,30 @@
+{
+  "video_id": "YSDfDjrMUb0",
+  "item_id": "video/yt-microsoft/YSDfDjrMUb0",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "The quote at 828.8 appears twice in nearly identical form. I dropped both and re-added one copy.",
+    "The description of the 'Shopify order number in sales documents' feature is wrong. The separate field and the extra line already existed. The new 'Use Shopify order number' setting uses the Shopify number as the document number, so the number series must allow manual numbers. I added a key point to cover this because descriptions cannot be edited here.",
+    "The 'Company location tax registration import' description mostly covers existing behaviour. The transcript says the import has worked for a long time and that the gap was populating the field when a customer is created. This is minor.",
+    "The 'Move negative lines' feature is a standard Business Central action shown in the demo, not new connector functionality.",
+    "The transcript gives no preview or GA wording. The only mention of a pre-release is about the UI placement of the tax fact box, so every feature status stays unclear.",
+    "All other quotes match the transcript word for word, and the summary is supported."
+  ],
+  "input_hash": "1f557bc57ace2bface08d1d710a2d5118bc4d8928328f81681a1716a152d1a9b",
+  "by": "opus",
+  "at": "2026-10-07T22:46:16.312Z",
+  "applied": [
+    "dropped 2 quote(s)",
+    "quote at 829s",
+    "quote at 927s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.144725
+  }
+}

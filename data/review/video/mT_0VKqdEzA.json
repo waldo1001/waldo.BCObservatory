@@ -1,0 +1,28 @@
+{
+  "video_id": "mT_0VKqdEzA",
+  "item_id": "video/yt-microsoft/mT_0VKqdEzA",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All 7 quotes match the transcript word for word (474.6 runs on into 485, which is fine).",
+    "The threshold key point listed the wrong options. The transcript gives per record or line, per document, category per period, and total in period; there is no separate per category option. Corrected.",
+    "The component order key point added 'for compound calculations'. The transcript only says the order sets how the system calculates the taxes one by one. Reworded.",
+    "Every feature status is left as unclear. Apart from the video title, the transcript never says whether the feature is in preview or generally available. It only says vendor withholding came in a previous wave.",
+    "Added quotes for the 20% rate above the 1,000 threshold in the demo and for withholding being usable outside expense management."
+  ],
+  "input_hash": "2787ca5551cf06bd381ab501925e6580ae1af0610ffd0418f76c03e51caed5a1",
+  "by": "opus",
+  "at": "2026-10-07T22:44:40.362Z",
+  "applied": [
+    "quote at 475s",
+    "quote at 702s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.09406500000000001
+  }
+}

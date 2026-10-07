@@ -17,12 +17,12 @@ tags:
   - flushing methods
 system: manufacturing
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:46:31.651Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:46:31.685Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -36,6 +36,13 @@ evidence:
     commit: null
     t: 10
     quote: In Business Central cost control starts before we open the order. It starts on the item card.
+  - kind: video
+    url: https://www.youtube.com/watch?v=N30HebR5nJk&t=46s
+    title: Execution & Control Cost Control (2026)
+    date: "2026-09-08T11:44:43.000Z"
+    commit: null
+    t: 46
+    quote: Depending on the replenishment method defined, we will account for the purchase price or the actual production cost.
   - kind: video
     url: https://www.youtube.com/watch?v=N30HebR5nJk&t=75s
     title: Execution & Control Cost Control (2026)
@@ -139,6 +146,9 @@ quotes:
   - t: 10
     text: In Business Central cost control starts before we open the order. It starts on the item card.
     check: exact
+  - t: 46
+    text: Depending on the replenishment method defined, we will account for the purchase price or the actual production cost.
+    check: exact
   - t: 75
     text: Item cost is not one number. It is a roll up. Materials come from the production bomb. Capacity comes from routing operations.
     check: exact
@@ -160,7 +170,7 @@ quotes:
 
 > Cost control in Business Central manufacturing, from the item card to production order statistics. Covers costing methods, cost shares, the BOM cost share distribution report, work center capacity rates, and comparing expected and actual order cost, including the effect of manual flushing.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=N30HebR5nJk) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-09-08 · 4:11 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=N30HebR5nJk) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-09-08 · 4:11 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -170,12 +180,13 @@ It then shows the cost shares view, the BOM cost share distribution report, and 
 
 ## Key points
 
-- Business Central supports FIFO, LIFO, specific, weighted average and standard cost; standard cost defines theoretical cost and is used to account for production variances.
+- Cost control starts on the item card, before the production order is opened.
+- Business Central supports FIFO, LIFO, specific, weighted average and standard cost. Standard cost defines theoretical cost and is used to account for production variances. The demo item uses FIFO.
+- The replenishment method decides whether the item's cost is the purchase price or the actual production cost. The item card also defines how cost is posted to the general ledger.
 - The cost shares view on the item card breaks cost into material cost, capacity cost, manufacturing overhead, scrap and total cost. Materials come from the production BOM and capacity from routing operations.
 - The BOM cost share distribution report shows a chart and a table of how components and operations contribute to total cost, separating materials, capacity and overheads.
 - Work centers define direct unit cost, indirect cost percentage and overhead rate. Capacity cost is based on posted time in minutes, so a wrong rate or extra posted time changes order cost.
 - Production order statistics compare expected and actual cost for material, capacity and overhead.
-- In the demo, manual flushing methods and more production time made actual material and capacity cost higher than expected (expected material 12,296, capacity 324, plus 10% overhead).
 
 ## Chapters
 
@@ -189,13 +200,13 @@ It then shows the cost shares view, the BOM cost share distribution report, and 
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Costing methods | status not stated, demoed | [0:21](https://www.youtube.com/watch?v=N30HebR5nJk&t=21s) |  |
-| Cost shares on item card | status not stated, demoed | [1:01](https://www.youtube.com/watch?v=N30HebR5nJk&t=61s) |  |
-| BOM cost share distribution report | status not stated, demoed | [1:50](https://www.youtube.com/watch?v=N30HebR5nJk&t=110s) |  |
-| Work center capacity rates | status not stated, demoed | [2:25](https://www.youtube.com/watch?v=N30HebR5nJk&t=145s) |  |
-| Production order statistics | status not stated, demoed | [3:02](https://www.youtube.com/watch?v=N30HebR5nJk&t=182s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Costing methods | status not stated, demoed | [0:21](https://www.youtube.com/watch?v=N30HebR5nJk&t=21s) |
+| Cost shares on item card | status not stated, demoed | [1:01](https://www.youtube.com/watch?v=N30HebR5nJk&t=61s) |
+| BOM cost share distribution report | status not stated, demoed | [1:50](https://www.youtube.com/watch?v=N30HebR5nJk&t=110s) |
+| Work center capacity rates | status not stated, demoed | [2:25](https://www.youtube.com/watch?v=N30HebR5nJk&t=145s) |
+| Production order statistics | status not stated, demoed | [3:02](https://www.youtube.com/watch?v=N30HebR5nJk&t=182s) |
 
 ## AL objects mentioned
 
@@ -207,6 +218,7 @@ As heard in the captions. A name that matches one object page by exact type and 
 ## Quotes
 
 - [0:10](https://www.youtube.com/watch?v=N30HebR5nJk&t=10s) "In Business Central cost control starts before we open the order. It starts on the item card."
+- [0:46](https://www.youtube.com/watch?v=N30HebR5nJk&t=46s) "Depending on the replenishment method defined, we will account for the purchase price or the actual production cost."
 - [1:15](https://www.youtube.com/watch?v=N30HebR5nJk&t=75s) "Item cost is not one number. It is a roll up. Materials come from the production bomb. Capacity comes from routing operations."
 - [1:26](https://www.youtube.com/watch?v=N30HebR5nJk&t=86s) "Business Central separates material cost, capacity cost, manufacturing overhead, scrap, and total cost."
 - [2:50](https://www.youtube.com/watch?v=N30HebR5nJk&t=170s) "If the rate is wrong, the order cost will be wrong. If the time posted is higher than planned, capacity cost will move, too."

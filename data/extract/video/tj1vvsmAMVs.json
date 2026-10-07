@@ -224,10 +224,10 @@
     {
       "name": "Enhanced Approval History and Audit Trail",
       "description": "Expense approvals now include detailed approval history and audit trail to provide transparency in the approval process.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
+      "status": "announced",
+      "status_evidence_t": 459.8,
+      "status_evidence_quote": "it will come gradually from October to December, but all these features will be in next 2 months.",
+      "status_evidence_verified": true,
       "t_start": 421,
       "t_end": 459.8,
       "is_demoed": false,
@@ -244,10 +244,10 @@
     {
       "name": "Interim Approvers and Delegate Approvals",
       "description": "Approval workflow now supports interim approvers, specification of approval limits, and alternate delegate approvals.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
+      "status": "announced",
+      "status_evidence_t": 459.8,
+      "status_evidence_quote": "it will come gradually from October to December, but all these features will be in next 2 months.",
+      "status_evidence_verified": true,
       "t_start": 421,
       "t_end": 459.8,
       "is_demoed": false,
@@ -264,10 +264,10 @@
     {
       "name": "Travel Requests",
       "description": "New functionality allowing users to create travel requests for specific trips (e.g., conferences) that go through approval. When approved, system automatically creates an expense report and assigns all trip-related receipts to it.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
+      "status": "announced",
+      "status_evidence_t": 459.8,
+      "status_evidence_quote": "it will come gradually from October to December, but all these features will be in next 2 months.",
+      "status_evidence_verified": true,
       "t_start": 459.8,
       "t_end": 537.5,
       "is_demoed": false,
@@ -485,6 +485,12 @@
       "check": "exact"
     },
     {
+      "t": 459.8,
+      "text": "it will come gradually from October to December, but all these features will be in next 2 months.",
+      "why_it_matters": "Gives the rollout timing for the approval improvements and travel requests.",
+      "check": "exact"
+    },
+    {
       "t": 537.5,
       "text": "this is available right now in a preview. So, only for testing, but this is this is available.",
       "why_it_matters": "Confirms the new mobile app is in preview status, available for testing only.",
@@ -494,6 +500,12 @@
       "t": 617.3,
       "text": "claiming VAT is a little bit more complex. In some countries, this is based on the uh on specific um authorities' rules, you cannot",
       "why_it_matters": "Explains why VAT reclaim is not fully automated and requires local jurisdiction awareness.",
+      "check": "exact"
+    },
+    {
+      "t": 667.9,
+      "text": "system will use only for your country. So, if this is uh receipt abroad, system will not use a VAT",
+      "why_it_matters": "Important limit on VAT reclaim: foreign receipts are excluded.",
       "check": "exact"
     }
   ],

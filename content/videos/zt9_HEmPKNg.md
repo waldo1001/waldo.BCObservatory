@@ -18,12 +18,12 @@ tags:
   - production order
 system: manufacturing
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:46:19.685Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:46:19.723Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -65,6 +65,13 @@ evidence:
     commit: null
     t: 228
     quote: Our weekly capacity the work center 200 is 2,400 minutes of effective capacity.
+  - kind: video
+    url: https://www.youtube.com/watch?v=zt9_HEmPKNg&t=264s
+    title: Manufacturing Foundations Capacities (2026)
+    date: "2026-09-08T11:44:53.000Z"
+    commit: null
+    t: 264
+    quote: Each working day has now a total capacity of 960 minutes, but effectively only 768 minutes per day
   - kind: video
     url: https://www.youtube.com/watch?v=zt9_HEmPKNg&t=295s
     title: Manufacturing Foundations Capacities (2026)
@@ -195,6 +202,9 @@ quotes:
   - t: 228
     text: Our weekly capacity the work center 200 is 2,400 minutes of effective capacity.
     check: exact
+  - t: 264
+    text: Each working day has now a total capacity of 960 minutes, but effectively only 768 minutes per day
+    check: exact
   - t: 295
     text: Once we click refresh production order, the system calculates when production must start and finish.
     check: exact
@@ -207,7 +217,7 @@ quotes:
 
 > Capacity setup in Business Central Manufacturing: work shifts, shop calendars, work centers and groups, machine centers, consolidated calendars, the work center calendar matrix, and how these drive production order scheduling. Uses the Contoso Coffee demo data.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=zt9_HEmPKNg) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-09-08 · 5:55 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=zt9_HEmPKNg) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-09-08 · 5:55 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -239,18 +249,18 @@ It then calculates the work center calendar to produce a capacity matrix in minu
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Work shifts | status not stated, demoed | [0:27](https://www.youtube.com/watch?v=zt9_HEmPKNg&t=27s) |  |
-| Shop calendars | status not stated, demoed | [0:41](https://www.youtube.com/watch?v=zt9_HEmPKNg&t=41s) |  |
-| Work center groups | status not stated, demoed | [1:33](https://www.youtube.com/watch?v=zt9_HEmPKNg&t=93s) |  |
-| Work center posting settings | status not stated, demoed | [1:56](https://www.youtube.com/watch?v=zt9_HEmPKNg&t=116s) |  |
-| Work center scheduling configuration | status not stated, demoed | [2:07](https://www.youtube.com/watch?v=zt9_HEmPKNg&t=127s) |  |
-| Machine centers | status not stated, demoed | [2:30](https://www.youtube.com/watch?v=zt9_HEmPKNg&t=150s) |  |
-| Consolidated calendar for work centers | status not stated, demoed | [2:42](https://www.youtube.com/watch?v=zt9_HEmPKNg&t=162s) |  |
-| Work center calendar calculation | status not stated, demoed | [2:59](https://www.youtube.com/watch?v=zt9_HEmPKNg&t=179s) |  |
-| Work center calendar matrix | status not stated, demoed | [3:28](https://www.youtube.com/watch?v=zt9_HEmPKNg&t=208s) |  |
-| Production order scheduling | status not stated, demoed | [4:42](https://www.youtube.com/watch?v=zt9_HEmPKNg&t=282s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Work shifts | status not stated, demoed | [0:27](https://www.youtube.com/watch?v=zt9_HEmPKNg&t=27s) |
+| Shop calendars | status not stated, demoed | [0:41](https://www.youtube.com/watch?v=zt9_HEmPKNg&t=41s) |
+| Work center groups | status not stated, demoed | [1:33](https://www.youtube.com/watch?v=zt9_HEmPKNg&t=93s) |
+| Work center posting settings | status not stated, demoed | [1:56](https://www.youtube.com/watch?v=zt9_HEmPKNg&t=116s) |
+| Work center scheduling configuration | status not stated, demoed | [2:07](https://www.youtube.com/watch?v=zt9_HEmPKNg&t=127s) |
+| Machine centers | status not stated, demoed | [2:30](https://www.youtube.com/watch?v=zt9_HEmPKNg&t=150s) |
+| Consolidated calendar for work centers | status not stated, demoed | [2:42](https://www.youtube.com/watch?v=zt9_HEmPKNg&t=162s) |
+| Work center calendar calculation | status not stated, demoed | [2:59](https://www.youtube.com/watch?v=zt9_HEmPKNg&t=179s) |
+| Work center calendar matrix | status not stated, demoed | [3:28](https://www.youtube.com/watch?v=zt9_HEmPKNg&t=208s) |
+| Production order scheduling | status not stated, demoed | [4:42](https://www.youtube.com/watch?v=zt9_HEmPKNg&t=282s) |
 
 ## AL objects mentioned
 
@@ -269,6 +279,7 @@ As heard in the captions. A name that matches one object page by exact type and 
 - [1:09](https://www.youtube.com/watch?v=zt9_HEmPKNg&t=69s) "A work center using two shifts can schedule 16 hours per day instead of eight."
 - [1:45](https://www.youtube.com/watch?v=zt9_HEmPKNg&t=105s) "Every work center belongs to exactly one group and are useful for costing."
 - [3:48](https://www.youtube.com/watch?v=zt9_HEmPKNg&t=228s) "Our weekly capacity the work center 200 is 2,400 minutes of effective capacity."
+- [4:24](https://www.youtube.com/watch?v=zt9_HEmPKNg&t=264s) "Each working day has now a total capacity of 960 minutes, but effectively only 768 minutes per day"
 - [4:55](https://www.youtube.com/watch?v=zt9_HEmPKNg&t=295s) "Once we click refresh production order, the system calculates when production must start and finish."
 - [5:19](https://www.youtube.com/watch?v=zt9_HEmPKNg&t=319s) "Business Central uses calendar entries for scheduling your production against your capacities."
 

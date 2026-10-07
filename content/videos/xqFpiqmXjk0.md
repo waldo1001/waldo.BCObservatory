@@ -17,12 +17,12 @@ tags:
   - work center scheduling
 system: manufacturing
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:46:16.266Z"
   flags: []
 generated:
-  at: "2026-10-06T14:56:57.246Z"
+  at: "2026-10-07T22:46:16.301Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -199,7 +199,7 @@ quotes:
 
 > Production orders in Business Central manufacturing: statuses as commitment levels, creating an order from production BOM, routing and capacity setup, checking item availability by BOM level, and posting the production journal on a released order. Part of a Manufacturing Foundations series.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=xqFpiqmXjk0) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-09-08 · 4:45 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=xqFpiqmXjk0) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-09-08 · 4:45 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -230,17 +230,17 @@ It then looks at the Components, Routing and Statistics functions, uses item ava
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Production order statuses | status not stated, demoed | [0:26](https://www.youtube.com/watch?v=xqFpiqmXjk0&t=26s) |  |
-| Production order creation from master data | status not stated, demoed | [0:49](https://www.youtube.com/watch?v=xqFpiqmXjk0&t=49s) |  |
-| Components function | status not stated, demoed | [1:20](https://www.youtube.com/watch?v=xqFpiqmXjk0&t=80s) |  |
-| Routing function | status not stated, demoed | [1:29](https://www.youtube.com/watch?v=xqFpiqmXjk0&t=89s) |  |
-| Statistics function | status not stated, demoed | [1:41](https://www.youtube.com/watch?v=xqFpiqmXjk0&t=101s) |  |
-| Item availability by BOM level | status not stated, demoed | [1:58](https://www.youtube.com/watch?v=xqFpiqmXjk0&t=118s) |  |
-| Production journal | status not stated, demoed | [2:41](https://www.youtube.com/watch?v=xqFpiqmXjk0&t=161s) |  |
-| Production journal posting | status not stated, demoed | [3:34](https://www.youtube.com/watch?v=xqFpiqmXjk0&t=214s) |  |
-| Routing link code | status not stated, demoed | [2:57](https://www.youtube.com/watch?v=xqFpiqmXjk0&t=177s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Production order statuses | status not stated, demoed | [0:26](https://www.youtube.com/watch?v=xqFpiqmXjk0&t=26s) |
+| Production order creation from master data | status not stated, demoed | [0:49](https://www.youtube.com/watch?v=xqFpiqmXjk0&t=49s) |
+| Components function | status not stated, demoed | [1:20](https://www.youtube.com/watch?v=xqFpiqmXjk0&t=80s) |
+| Routing function | status not stated, demoed | [1:29](https://www.youtube.com/watch?v=xqFpiqmXjk0&t=89s) |
+| Statistics function | status not stated, demoed | [1:41](https://www.youtube.com/watch?v=xqFpiqmXjk0&t=101s) |
+| Item availability by BOM level | status not stated, demoed | [1:58](https://www.youtube.com/watch?v=xqFpiqmXjk0&t=118s) |
+| Production journal | status not stated, demoed | [2:41](https://www.youtube.com/watch?v=xqFpiqmXjk0&t=161s) |
+| Production journal posting | status not stated, demoed | [3:34](https://www.youtube.com/watch?v=xqFpiqmXjk0&t=214s) |
+| Routing link code | status not stated, demoed | [2:57](https://www.youtube.com/watch?v=xqFpiqmXjk0&t=177s) |
 
 ## Quotes
 

@@ -1,0 +1,37 @@
+{
+  "video_id": "qj0VHB2Pmvc",
+  "item_id": "video/yt-microsoft/qj0VHB2Pmvc",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Preview capability evidence_quote starts in segment 235.7 ('The first is'), not 247.3, and does not state a status; replaced with the 'minor version of 29' line at 45.2.",
+    "Author features (uncategorized views, where used, totaling fact boxes) are stated to be part of the major release; set to ga.",
+    "Change log key point and feature description mention column definitions; transcript only says 'all financial report definitions' and shows a financial report and row definition example. Key point corrected.",
+    "Quote at 45.2 is a truncated aside about Power BI with little value; dropped and replaced with more useful quotes.",
+    "Report packs, change log and report inbox APIs left unclear: only described as 'now' available without explicit release statement."
+  ],
+  "input_hash": "ac377e5b5ae409a2b080eaff78ec636f90b5550e845ecda03bc1eb78ffedfadd",
+  "by": "opus",
+  "at": "2026-10-07T22:45:27.342Z",
+  "applied": [
+    "Preview capability for row and column definitions: status announced",
+    "Defaulting for row and column definition lines: status announced",
+    "dropped 1 quote(s)",
+    "quote at 45s",
+    "quote at 134s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [
+    "status Uncategorized accounts views -> ga: evidence not verbatim or does not state the status",
+    "status Where used for GL accounts -> ga: evidence not verbatim or does not state the status",
+    "status Totaling line account visibility in row definitions -> ga: evidence not verbatim or does not state the status",
+    "status Totaling field account visibility in column definitions -> ga: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.11587299999999999
+  }
+}

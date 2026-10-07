@@ -16,12 +16,12 @@ tags:
   - budgeting
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:44:59.549Z"
   flags: []
 generated:
-  at: "2026-10-06T14:56:57.246Z"
+  at: "2026-10-07T22:44:59.583Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -180,7 +180,7 @@ quotes:
 
 > Travel Request in Expense Agent (2026 release wave 2): an optional way for employees to ask for approval to spend before travel, with line items, foreign currency budgeting, and a link from posted GL entries back to the request. Demoed in the Business Central client.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=s3d9vW6tuT8) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-10-01 · 7:28 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=s3d9vW6tuT8) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-10-01 · 7:28 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -211,15 +211,15 @@ The demo covers creating a basic request, adding line items by category with a c
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Travel Request | status not stated, demoed | [0:06](https://www.youtube.com/watch?v=s3d9vW6tuT8&t=6s) |  |
-| Travel Request Line Items | status not stated, demoed | [2:21](https://www.youtube.com/watch?v=s3d9vW6tuT8&t=141s) |  |
-| Expense Ledger Entries Link | status not stated, demoed | [4:32](https://www.youtube.com/watch?v=s3d9vW6tuT8&t=272s) |  |
-| Foreign Currency Budgeting | status not stated, demoed | [5:30](https://www.youtube.com/watch?v=s3d9vW6tuT8&t=330s) |  |
-| Automatic Expense Report Creation from Web/Phone App | status not stated | [6:56](https://www.youtube.com/watch?v=s3d9vW6tuT8&t=416s) |  |
-| Employee Ledger Entry for Reimbursement | status not stated, demoed | [4:04](https://www.youtube.com/watch?v=s3d9vW6tuT8&t=244s) |  |
-| Travel Request with Multiple Travelers | status not stated | [6:44](https://www.youtube.com/watch?v=s3d9vW6tuT8&t=404s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Travel Request | status not stated, demoed | [0:06](https://www.youtube.com/watch?v=s3d9vW6tuT8&t=6s) |
+| Travel Request Line Items | status not stated, demoed | [2:21](https://www.youtube.com/watch?v=s3d9vW6tuT8&t=141s) |
+| Expense Ledger Entries Link | status not stated, demoed | [4:32](https://www.youtube.com/watch?v=s3d9vW6tuT8&t=272s) |
+| Foreign Currency Budgeting | status not stated, demoed | [5:30](https://www.youtube.com/watch?v=s3d9vW6tuT8&t=330s) |
+| Automatic Expense Report Creation from Web/Phone App | status not stated | [6:56](https://www.youtube.com/watch?v=s3d9vW6tuT8&t=416s) |
+| Employee Ledger Entry for Reimbursement | status not stated, demoed | [4:04](https://www.youtube.com/watch?v=s3d9vW6tuT8&t=244s) |
+| Travel Request with Multiple Travelers | status not stated | [6:44](https://www.youtube.com/watch?v=s3d9vW6tuT8&t=404s) |
 
 ## Quotes
 

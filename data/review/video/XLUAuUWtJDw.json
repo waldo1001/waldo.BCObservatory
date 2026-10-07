@@ -1,0 +1,30 @@
+{
+  "video_id": "XLUAuUWtJDw",
+  "item_id": "video/yt-microsoft/XLUAuUWtJDw",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Company information dataset was marked ga, but 'ship that always' means the dataset is always included in layouts. It says nothing about release status, and the evidence_t (29) did not match where the quote starts (60.4). Set to unclear.",
+    "Header footer layout templates evidence_t was 509.5, but the quote starts in segment 536.6. Corrected.",
+    "The signature line description mentions a 'notes option' variant. The transcript supports only the first variant (name and caption). Quality management uses signatures in general, not one specific variant. Fixed in key_points; the description cannot be edited here.",
+    "Key points were missing the upload step under 'Manage themes and header footer layouts' in Business Central and the data picker UX improvements. Added both.",
+    "All quotes verified verbatim."
+  ],
+  "input_hash": "801757d95996e2d23e6517cde4ceb3d6950a8b306def68d6f404b7cc2f4554ad",
+  "by": "opus",
+  "at": "2026-10-07T22:45:56.649Z",
+  "applied": [
+    "Company information dataset: status unclear",
+    "Header footer layout templates: status ga",
+    "quote at 510s",
+    "quote at 347s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.087309
+  }
+}

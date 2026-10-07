@@ -17,12 +17,12 @@ tags:
   - project tracking
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:46:47.102Z"
   flags: []
 generated:
-  at: "2026-10-06T14:56:57.246Z"
+  at: "2026-10-07T22:46:47.137Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -71,6 +71,13 @@ evidence:
     commit: null
     t: 304
     quote: Finally, we have per diem expenses where you can define the per diem calculation rules.
+  - kind: video
+    url: https://www.youtube.com/watch?v=P1V4jy08YM8&t=334s
+    title: "Expense Agent: Configuration (2026 release wave 1)"
+    date: "2026-08-07T13:00:29.000Z"
+    commit: null
+    t: 334
+    quote: This welcome email consists of all the details they need to use the expense web app portal or where to send the expense receipts
 links:
   learn: []
   objects: []
@@ -208,13 +215,16 @@ quotes:
   - t: 304
     text: Finally, we have per diem expenses where you can define the per diem calculation rules.
     check: exact
+  - t: 334
+    text: This welcome email consists of all the details they need to use the expense web app portal or where to send the expense receipts
+    check: exact
 ---
 
 # Expense Agent: Configuration (2026 release wave 1)
 
 > Expense Agent configuration wizard in Business Central (2026 release wave 1): walks through access, expense users, approvers, accounting and management defaults, controls, notifications, mileage, project tracking, per diem and the welcome email. Evidence for the order and content of the setup steps.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=P1V4jy08YM8) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-08-07 · 5:58 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=P1V4jy08YM8) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-08-07 · 5:58 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -245,24 +255,24 @@ Setup covers access and submission by web app or email, expense users and a defa
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Expense Agent | status not stated, demoed | [0:00](https://www.youtube.com/watch?v=P1V4jy08YM8&t=0s) |  |
-| Access and submission configuration | status not stated, demoed | [0:38](https://www.youtube.com/watch?v=P1V4jy08YM8&t=38s) |  |
-| Expense user registration | status not stated, demoed | [1:15](https://www.youtube.com/watch?v=P1V4jy08YM8&t=75s) |  |
-| Default approver configuration | status not stated, demoed | [1:33](https://www.youtube.com/watch?v=P1V4jy08YM8&t=93s) |  |
-| Number series configuration | status not stated, demoed | [1:58](https://www.youtube.com/watch?v=P1V4jy08YM8&t=118s) |  |
-| Payment method defaults | status not stated, demoed | [2:22](https://www.youtube.com/watch?v=P1V4jy08YM8&t=142s) |  |
-| Posting group defaults | status not stated, demoed | [2:35](https://www.youtube.com/watch?v=P1V4jy08YM8&t=155s) |  |
-| Expense categories | status not stated, demoed | [2:35](https://www.youtube.com/watch?v=P1V4jy08YM8&t=155s) |  |
-| Management defaults and rules | status not stated, demoed | [2:52](https://www.youtube.com/watch?v=P1V4jy08YM8&t=172s) |  |
-| Rules and controls enforcement | status not stated, demoed | [3:21](https://www.youtube.com/watch?v=P1V4jy08YM8&t=201s) |  |
-| Email notification configuration | status not stated, demoed | [3:52](https://www.youtube.com/watch?v=P1V4jy08YM8&t=232s) |  |
-| Approval notifications | status not stated, demoed | [4:17](https://www.youtube.com/watch?v=P1V4jy08YM8&t=257s) |  |
-| Mileage expense configuration | status not stated, demoed | [4:28](https://www.youtube.com/watch?v=P1V4jy08YM8&t=268s) |  |
-| Project tracking for expenses | status not stated, demoed | [4:44](https://www.youtube.com/watch?v=P1V4jy08YM8&t=284s) |  |
-| Per diem expense configuration | status not stated, demoed | [5:04](https://www.youtube.com/watch?v=P1V4jy08YM8&t=304s) |  |
-| Welcome email to expense users | status not stated, demoed | [5:34](https://www.youtube.com/watch?v=P1V4jy08YM8&t=334s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Expense Agent | status not stated, demoed | [0:00](https://www.youtube.com/watch?v=P1V4jy08YM8&t=0s) |
+| Access and submission configuration | status not stated, demoed | [0:38](https://www.youtube.com/watch?v=P1V4jy08YM8&t=38s) |
+| Expense user registration | status not stated, demoed | [1:15](https://www.youtube.com/watch?v=P1V4jy08YM8&t=75s) |
+| Default approver configuration | status not stated, demoed | [1:33](https://www.youtube.com/watch?v=P1V4jy08YM8&t=93s) |
+| Number series configuration | status not stated, demoed | [1:58](https://www.youtube.com/watch?v=P1V4jy08YM8&t=118s) |
+| Payment method defaults | status not stated, demoed | [2:22](https://www.youtube.com/watch?v=P1V4jy08YM8&t=142s) |
+| Posting group defaults | status not stated, demoed | [2:35](https://www.youtube.com/watch?v=P1V4jy08YM8&t=155s) |
+| Expense categories | status not stated, demoed | [2:35](https://www.youtube.com/watch?v=P1V4jy08YM8&t=155s) |
+| Management defaults and rules | status not stated, demoed | [2:52](https://www.youtube.com/watch?v=P1V4jy08YM8&t=172s) |
+| Rules and controls enforcement | status not stated, demoed | [3:21](https://www.youtube.com/watch?v=P1V4jy08YM8&t=201s) |
+| Email notification configuration | status not stated, demoed | [3:52](https://www.youtube.com/watch?v=P1V4jy08YM8&t=232s) |
+| Approval notifications | status not stated, demoed | [4:17](https://www.youtube.com/watch?v=P1V4jy08YM8&t=257s) |
+| Mileage expense configuration | status not stated, demoed | [4:28](https://www.youtube.com/watch?v=P1V4jy08YM8&t=268s) |
+| Project tracking for expenses | status not stated, demoed | [4:44](https://www.youtube.com/watch?v=P1V4jy08YM8&t=284s) |
+| Per diem expense configuration | status not stated, demoed | [5:04](https://www.youtube.com/watch?v=P1V4jy08YM8&t=304s) |
+| Welcome email to expense users | status not stated, demoed | [5:34](https://www.youtube.com/watch?v=P1V4jy08YM8&t=334s) |
 
 ## Quotes
 
@@ -272,5 +282,6 @@ Setup covers access and submission by web app or email, expense users and a defa
 - [3:08](https://www.youtube.com/watch?v=P1V4jy08YM8&t=188s) "And system is smart enough to auto select these when it detects there are no data in the system."
 - [4:44](https://www.youtube.com/watch?v=P1V4jy08YM8&t=284s) "We have also added project tracking where you can allow expense user to track an expense against a specific project."
 - [5:04](https://www.youtube.com/watch?v=P1V4jy08YM8&t=304s) "Finally, we have per diem expenses where you can define the per diem calculation rules."
+- [5:34](https://www.youtube.com/watch?v=P1V4jy08YM8&t=334s) "This welcome email consists of all the details they need to use the expense web app portal or where to send the expense receipts"
 
 Presenters (as heard): Unknown presenter.

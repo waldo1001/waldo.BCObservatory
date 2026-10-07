@@ -4,13 +4,13 @@
   "summary": "EUDR certificate capture in Business Central Sustainability (2026 release wave 2): EUDR marking on the item card, certificate data on lot number information, an EUTR flag on purchase lines, and certification details on sales invoices. DDS numbers and geolocation are entered manually.",
   "overview": "The video explains why EU Deforestation Regulation (EUDR) compliance matters: items entering the EU market need an origin and a certification. Business Central uses item tracking to carry this information through the supply chain.\n\nIt walks through the item card sustainability tab, the lot number information card, purchase documents with the EUTR flag, and the sales invoice layout that shows certification details to customers. It closes with current capabilities, limitations and roadmap. There is no integration with Traces, so DDS numbers must be typed in, and geolocation is also manual while work on it continues.",
   "key_points": [
-    "The item card sustainability tab has fields to mark an item as EUDR relevant and assign a commodity classification.",
-    "Certificate details are captured on the lot number information card: certificate number, certification schema, dates and country of origin.",
-    "Item tracking (lot numbers) is the mechanism used to carry EUDR certificate data.",
-    "Purchase order and receipt lines have an EUTR flag at line level to identify EUTR-related lines.",
-    "The sales invoice layout can show lot number, certification schema and certification number to the customer.",
-    "There is no integration with Traces, so DDS numbers must be entered manually.",
-    "Geolocation must also be entered manually; the presenter says work on it continues."
+    "The item card sustainability tab has the fields EUDR relevant and EUDR commodity, which mark an item as EUDR relevant and assign a commodity classification.",
+    "EUDR-relevant items must use item tracking (lot numbers), because certificates and origin are tracked by batch.",
+    "Certificate details live on the lot no information card. The tab is visible for EUDR-relevant items and holds the certificate number, the certification schema, dates and the country.",
+    "The certificate fields can also be used for other schemas such as FSC, and DDS information can be copied and pasted into them.",
+    "Purchase order and receipt lines have an EUTR flag at line level so supply chain users can identify the related lines.",
+    "The sales invoice layout can print the lot, the certification schema and the certification number for the customer.",
+    "There is no integration with Traces, so DDS numbers must be entered manually."
   ],
   "audience": [
     "functional consultant",

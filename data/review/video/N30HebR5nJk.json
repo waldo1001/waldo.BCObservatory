@@ -1,0 +1,26 @@
+{
+  "video_id": "N30HebR5nJk",
+  "item_id": "video/yt-microsoft/N30HebR5nJk",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "The transcript supports all the facts, the summary and all quotes.",
+    "The demo figures from the captions don't add up: expected material of 12,296 cannot fit inside a total expected cost of 1,652.75, so the caption likely mis-transcribed that number. I reworded the key point to give the stated totals (1,652.75 expected, 2,259.5 actual) and to flag the material figure as unreliable.",
+    "The key points missed the replenishment method (purchase price vs actual production cost) and the posting of costs to the general ledger. I added them, plus a quote.",
+    "All feature statuses stay unclear. The video demos existing functionality and never states a release status."
+  ],
+  "input_hash": "25225383847a1d59fbe81a48b387269464c1c09d74a0b87b40c9501a2265967b",
+  "by": "opus",
+  "at": "2026-10-07T22:46:31.651Z",
+  "applied": [
+    "quote at 46s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.061621
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "video_id": "nb_a42dmSqE",
+  "item_id": "video/yt-microsoft/nb_a42dmSqE",
+  "flags": [],
+  "verdict": "approve",
+  "issues": [
+    "All 7 quotes appear verbatim in the transcript. The quote at t=54.5 runs on into the next segment, which is allowed.",
+    "The key points are supported, including the pre-check that can be skipped but runs anyway, the migration app being unavailable on AppSource, the production block during the first release, the guarded application-area toggle, and the views that replace the removed legacy pages.",
+    "Leaving every feature status as unclear is reasonable. The transcript calls both apps new but never says whether they are in preview or generally available.",
+    "Minor gap: the page does not mention the advice to test the migration on a cloned environment and run it in each company separately (t=649.5). This is not serious enough to need a fix."
+  ],
+  "input_hash": "a8ad90b2fc45e6277fdc95bff4eba477025843a015083cb81614d49df54b8377",
+  "by": "opus",
+  "at": "2026-10-07T22:44:48.287Z",
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.073933
+  }
+}

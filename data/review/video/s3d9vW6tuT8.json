@@ -1,0 +1,24 @@
+{
+  "video_id": "s3d9vW6tuT8",
+  "item_id": "video/yt-microsoft/s3d9vW6tuT8",
+  "flags": [],
+  "verdict": "approve",
+  "issues": [
+    "All 7 quotes are verbatim; several run on into the next segment, which is allowed.",
+    "Summary and key points match the transcript: optional travel request, itemized lines with a currency per line, GL entries linked to the request, employee ledger entry, foreign currency budgeting, multiple travelers, automatic expense report creation in the expense agent.",
+    "All feature statuses stay unclear: 2026 release wave 2 appears only in the title, not in the transcript.",
+    "Minor: the employee ledger entry feature t_start is 244.5, but it is first mentioned at 259.4; same chapter, so not worth a fix.",
+    "Key point says web or phone app where the speaker says 'in the expense agent'; this is fair because he named those apps earlier."
+  ],
+  "input_hash": "bb1de1be4f9d584daa76b3e86dd6890fed80e588e2463b46ea4eac8b5058e43e",
+  "by": "opus",
+  "at": "2026-10-07T22:44:59.548Z",
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.068633
+  }
+}

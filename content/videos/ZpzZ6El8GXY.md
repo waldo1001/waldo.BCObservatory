@@ -16,12 +16,12 @@ tags:
   - data analysis
 system: reporting
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:45:56.601Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:45:56.637Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -182,7 +182,7 @@ quotes:
 
 > Data analysis changes in the 2026 release wave 2: system fields (created by/on, modified by/on) become available in analysis mode, list views can be bookmarked to the role center, and profiles get system fields and bookmarks. Bookmarking analysis tabs is announced for version 29.x, not the major release.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=ZpzZ6El8GXY) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-10-01 · 5:31 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=ZpzZ6El8GXY) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-10-01 · 5:31 · tier official · reviewed (checked by Opus)
 
 ## Overview
 

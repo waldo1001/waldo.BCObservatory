@@ -18,12 +18,12 @@ tags:
   - costing
 system: manufacturing
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:45:50.070Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:45:50.102Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -206,7 +206,7 @@ quotes:
 
 > Business Central production BOM basics: how a BOM defines components, how items are replenished by production order or assembly, how BOM versions and phantoms handle changes, and how production orders pull components and routings from the BOM. Covers where-used analysis and version comparison.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=GEuUFcgFZF0) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-09-08 · 4:58 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=GEuUFcgFZF0) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-09-08 · 4:58 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -236,19 +236,19 @@ It then covers organizing BOMs and using the where-used action, managing BOM ver
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Bill of Materials definition | status not stated, demoed | [0:13](https://www.youtube.com/watch?v=GEuUFcgFZF0&t=13s) |  |
-| Production order replenishment | status not stated, demoed | [0:34](https://www.youtube.com/watch?v=GEuUFcgFZF0&t=34s) |  |
-| Assembly replenishment | status not stated | [0:58](https://www.youtube.com/watch?v=GEuUFcgFZF0&t=58s) |  |
-| BOM formulas for units of measure | status not stated | [1:25](https://www.youtube.com/watch?v=GEuUFcgFZF0&t=85s) |  |
-| Where-used analysis | status not stated, demoed | [1:56](https://www.youtube.com/watch?v=GEuUFcgFZF0&t=116s) |  |
-| BOM item versions with ending dates | status not stated, demoed | [2:19](https://www.youtube.com/watch?v=GEuUFcgFZF0&t=139s) |  |
-| Phantom BOMs | status not stated, demoed | [2:36](https://www.youtube.com/watch?v=GEuUFcgFZF0&t=156s) |  |
-| Production BOM version management | status not stated, demoed | [2:51](https://www.youtube.com/watch?v=GEuUFcgFZF0&t=171s) |  |
-| Production BOM version comparison | status not stated, demoed | [3:06](https://www.youtube.com/watch?v=GEuUFcgFZF0&t=186s) |  |
-| Production order creation from BOM | status not stated, demoed | [3:32](https://www.youtube.com/watch?v=GEuUFcgFZF0&t=212s) |  |
-| Production order components action | status not stated, demoed | [4:16](https://www.youtube.com/watch?v=GEuUFcgFZF0&t=256s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Bill of Materials definition | status not stated, demoed | [0:13](https://www.youtube.com/watch?v=GEuUFcgFZF0&t=13s) |
+| Production order replenishment | status not stated, demoed | [0:34](https://www.youtube.com/watch?v=GEuUFcgFZF0&t=34s) |
+| Assembly replenishment | status not stated | [0:58](https://www.youtube.com/watch?v=GEuUFcgFZF0&t=58s) |
+| BOM formulas for units of measure | status not stated | [1:25](https://www.youtube.com/watch?v=GEuUFcgFZF0&t=85s) |
+| Where-used analysis | status not stated, demoed | [1:56](https://www.youtube.com/watch?v=GEuUFcgFZF0&t=116s) |
+| BOM item versions with ending dates | status not stated, demoed | [2:19](https://www.youtube.com/watch?v=GEuUFcgFZF0&t=139s) |
+| Phantom BOMs | status not stated, demoed | [2:36](https://www.youtube.com/watch?v=GEuUFcgFZF0&t=156s) |
+| Production BOM version management | status not stated, demoed | [2:51](https://www.youtube.com/watch?v=GEuUFcgFZF0&t=171s) |
+| Production BOM version comparison | status not stated, demoed | [3:06](https://www.youtube.com/watch?v=GEuUFcgFZF0&t=186s) |
+| Production order creation from BOM | status not stated, demoed | [3:32](https://www.youtube.com/watch?v=GEuUFcgFZF0&t=212s) |
+| Production order components action | status not stated, demoed | [4:16](https://www.youtube.com/watch?v=GEuUFcgFZF0&t=256s) |
 
 ## AL objects mentioned
 

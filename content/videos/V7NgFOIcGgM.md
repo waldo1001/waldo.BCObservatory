@@ -17,12 +17,12 @@ tags:
   - feedback
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:45:27.294Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:45:27.326Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -226,7 +226,7 @@ quotes:
 
 > Microsoft Copilot Chat in Business Central, coming to all users in the 2026 release wave 2, answers natural language questions using Business Central and web data. The video covers the agentic loop, MCP server basis, permission enforcement, citations and admin control, with two demos.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=V7NgFOIcGgM) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-10-01 · 16:02 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=V7NgFOIcGgM) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-10-01 · 16:02 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -259,24 +259,24 @@ The second half explains how Copilot works: intent detection from conversation h
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Microsoft Copilot Chat in Business Central | generally available (roadmap [573362](../features/573362.md)), demoed | [0:05](https://www.youtube.com/watch?v=V7NgFOIcGgM&t=5s) |  |
-| Business Central Tools | status not stated, demoed | [7:09](https://www.youtube.com/watch?v=V7NgFOIcGgM&t=429s) |  |
-| Agentic Loop | status not stated, demoed | [6:37](https://www.youtube.com/watch?v=V7NgFOIcGgM&t=397s) |  |
-| Intent Detection | status not stated | [6:26](https://www.youtube.com/watch?v=V7NgFOIcGgM&t=386s) |  |
-| Multi-source Data Integration | status not stated, demoed | [7:09](https://www.youtube.com/watch?v=V7NgFOIcGgM&t=429s) |  |
-| Citations and Verification | status not stated, demoed | [13:18](https://www.youtube.com/watch?v=V7NgFOIcGgM&t=798s) |  |
-| Permission Enforcement | status not stated | [9:36](https://www.youtube.com/watch?v=V7NgFOIcGgM&t=576s) |  |
-| Copilot and Agent Capabilities Control | status not stated | [10:23](https://www.youtube.com/watch?v=V7NgFOIcGgM&t=623s) |  |
-| MCP Server Technology | status not stated | [11:17](https://www.youtube.com/watch?v=V7NgFOIcGgM&t=677s) |  |
-| Extension Guidelines for Copilot | status not stated | [12:36](https://www.youtube.com/watch?v=V7NgFOIcGgM&t=756s) |  |
-| Conversational Context and Suggestions | status not stated, demoed | [8:40](https://www.youtube.com/watch?v=V7NgFOIcGgM&t=520s) |  |
-| Rich Output Formatting | status not stated, demoed | [8:18](https://www.youtube.com/watch?v=V7NgFOIcGgM&t=498s) |  |
-| Progress Messages | status not stated, demoed | [2:02](https://www.youtube.com/watch?v=V7NgFOIcGgM&t=122s) |  |
-| Vague Query Resolution | status not stated, demoed | [3:37](https://www.youtube.com/watch?v=V7NgFOIcGgM&t=217s) |  |
-| UI Context Awareness | status not stated, demoed | [5:51](https://www.youtube.com/watch?v=V7NgFOIcGgM&t=351s) |  |
-| User Feedback Loop | status not stated | [14:48](https://www.youtube.com/watch?v=V7NgFOIcGgM&t=888s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Microsoft Copilot Chat in Business Central | generally available (roadmap [573362](../features/573362.md)), demoed | [0:05](https://www.youtube.com/watch?v=V7NgFOIcGgM&t=5s) |
+| Business Central Tools | status not stated, demoed | [7:09](https://www.youtube.com/watch?v=V7NgFOIcGgM&t=429s) |
+| Agentic Loop | status not stated, demoed | [6:37](https://www.youtube.com/watch?v=V7NgFOIcGgM&t=397s) |
+| Intent Detection | status not stated | [6:26](https://www.youtube.com/watch?v=V7NgFOIcGgM&t=386s) |
+| Multi-source Data Integration | status not stated, demoed | [7:09](https://www.youtube.com/watch?v=V7NgFOIcGgM&t=429s) |
+| Citations and Verification | status not stated, demoed | [13:18](https://www.youtube.com/watch?v=V7NgFOIcGgM&t=798s) |
+| Permission Enforcement | status not stated | [9:36](https://www.youtube.com/watch?v=V7NgFOIcGgM&t=576s) |
+| Copilot and Agent Capabilities Control | status not stated | [10:23](https://www.youtube.com/watch?v=V7NgFOIcGgM&t=623s) |
+| MCP Server Technology | status not stated | [11:17](https://www.youtube.com/watch?v=V7NgFOIcGgM&t=677s) |
+| Extension Guidelines for Copilot | status not stated | [12:36](https://www.youtube.com/watch?v=V7NgFOIcGgM&t=756s) |
+| Conversational Context and Suggestions | status not stated, demoed | [8:40](https://www.youtube.com/watch?v=V7NgFOIcGgM&t=520s) |
+| Rich Output Formatting | status not stated, demoed | [8:18](https://www.youtube.com/watch?v=V7NgFOIcGgM&t=498s) |
+| Progress Messages | status not stated, demoed | [2:02](https://www.youtube.com/watch?v=V7NgFOIcGgM&t=122s) |
+| Vague Query Resolution | status not stated, demoed | [3:37](https://www.youtube.com/watch?v=V7NgFOIcGgM&t=217s) |
+| UI Context Awareness | status not stated, demoed | [5:51](https://www.youtube.com/watch?v=V7NgFOIcGgM&t=351s) |
+| User Feedback Loop | status not stated | [14:48](https://www.youtube.com/watch?v=V7NgFOIcGgM&t=888s) |
 
 A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 

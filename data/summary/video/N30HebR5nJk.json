@@ -4,12 +4,13 @@
   "summary": "Cost control in Business Central manufacturing, from the item card to production order statistics. Covers costing methods, cost shares, the BOM cost share distribution report, work center capacity rates, and comparing expected and actual order cost, including the effect of manual flushing.",
   "overview": "The video is a 4-minute walkthrough of cost control for manufacturing in Business Central. It starts on the item card, where item cost is shown as a roll-up rather than a single number: materials come from the production BOM and capacity comes from routing operations.\n\nIt then shows the cost shares view, the BOM cost share distribution report, and work center rate setup. It ends on production order statistics, where expected and actual costs are compared and the effect of manual flushing and extra time posted is visible.",
   "key_points": [
-    "Business Central supports FIFO, LIFO, specific, weighted average and standard cost; standard cost defines theoretical cost and is used to account for production variances.",
+    "Cost control starts on the item card, before the production order is opened.",
+    "Business Central supports FIFO, LIFO, specific, weighted average and standard cost. Standard cost defines theoretical cost and is used to account for production variances. The demo item uses FIFO.",
+    "The replenishment method decides whether the item's cost is the purchase price or the actual production cost. The item card also defines how cost is posted to the general ledger.",
     "The cost shares view on the item card breaks cost into material cost, capacity cost, manufacturing overhead, scrap and total cost. Materials come from the production BOM and capacity from routing operations.",
     "The BOM cost share distribution report shows a chart and a table of how components and operations contribute to total cost, separating materials, capacity and overheads.",
     "Work centers define direct unit cost, indirect cost percentage and overhead rate. Capacity cost is based on posted time in minutes, so a wrong rate or extra posted time changes order cost.",
-    "Production order statistics compare expected and actual cost for material, capacity and overhead.",
-    "In the demo, manual flushing methods and more production time made actual material and capacity cost higher than expected (expected material 12,296, capacity 324, plus 10% overhead)."
+    "Production order statistics compare expected and actual cost for material, capacity and overhead."
   ],
   "audience": [
     "functional consultant",

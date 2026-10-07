@@ -293,6 +293,12 @@
       "check": "fuzzy"
     },
     {
+      "t": 297.4,
+      "text": "So the choice of models probably matter more than the choice of agent harness at least using our data set.",
+      "why_it_matters": "This is the main finding of the harness comparison: model choice matters more than harness choice.",
+      "check": "exact"
+    },
+    {
       "t": 474.2,
       "text": "they had a chance to memorize our data set and the solutions and as you can see",
       "why_it_matters": "Shows contamination results: only 1 out of 101 tasks showed evidence of memorization across three models with knowledge cutoffs after BC-Bench became public.",
@@ -302,6 +308,12 @@
       "t": 526.6,
       "text": "the motivation for us to introduce use the code view category is because we are getting more and more poll requests on BC apps",
       "why_it_matters": "Explains why code review was added to BC-Bench: rising PR volume on BC apps makes AI-assisted review increasingly important.",
+      "check": "exact"
+    },
+    {
+      "t": 827.4,
+      "text": "you want to fork our repository and replace the data set that we have created for our own AL app issues",
+      "why_it_matters": "This is the practical guidance for partners who want to benchmark agents on their own AL apps.",
       "check": "exact"
     }
   ],

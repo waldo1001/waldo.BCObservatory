@@ -17,12 +17,12 @@ tags:
   - environment boundaries
 system: integration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:44:40.311Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:44:40.347Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -204,7 +204,7 @@ quotes:
 
 > Cross-environment master data synchronization in Business Central lets subsidiaries in the same tenant but different environments pull master data from a headquarters company. It covers the Entra ID app registration, read permissions per table, the setup wizard, delta sync, and a demo. Feature status is not stated.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=mXvKs6X1DNk) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-10-01 · 9:29 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=mXvKs6X1DNk) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-10-01 · 9:29 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -214,13 +214,13 @@ It walks through the architecture, security and data flow, and the setup. The de
 
 ## Key points
 
-- All environments must be in the same tenant. The app registration is made in that tenant, and admin consent is required in the source environment.
-- Access is secured with Microsoft Entra ID and OAuth 2.0. You can register one app shared by several subsidiaries or one app per subsidiary, depending on audit requirements.
-- The subsidiary wizard asks for the HQ environment name, the company name and the OAuth credentials. The credentials are stored securely and users cannot read them.
-- HQ is read-only. HQ must approve each subsidiary and grant read permissions per table. A default set of master data tables is covered by the default permission set.
-- Tables beyond the default ones, including custom tables, need a new permission set with read permissions created by an admin.
-- Only changes (deltas) are synchronized, using data services and web service technology. Synchronization jobs must be scheduled automatically.
-- Pictures and attachments travel with the records, limited to 512 KB per picture. The video marks this limit as subject to change. The synchronization log can be viewed per table in the same UI as single-environment synchronization.
+- All environments must be in the same tenant. The OAuth 2 app is registered in that tenant (for example in Azure portal) with API read write all application level permissions, a redirect URL and a single tenant sign-in audience.
+- In the source (HQ) environment, the admin consents the app on the Microsoft Entra applications page and assigns the designed permission set to the created Entra user. That permission set includes read permissions for all default tables.
+- Tables beyond the default ones need a new permission set with read permissions added to the Entra user in the source, so HQ controls who reads what.
+- The subsidiary runs the cross-environment setup wizard from Master Data Management setup, entering the HQ environment name, company name, client ID and client secret. Credentials are kept secure and cannot be read.
+- One app can be shared across multiple subsidiaries, or one app can be registered per subsidiary, depending on audit needs.
+- HQ remains read-only. Subsidiaries pull only the changes after initial synchronization, which runs in a predefined order (business relation, then dimension, and so on) like single-environment sync.
+- Pictures and attachments travel with records; pictures are limited, for now, to 512 KB each. The UI, mapping and synchronization engine are the same as single-environment sync, including the per-table synchronization log. In the demo, a source change propagated after about a minute.
 
 ## Chapters
 
@@ -235,18 +235,18 @@ It walks through the architecture, security and data flow, and the setup. The de
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Cross-environment Master Data Synchronization | status not stated, demoed | [0:55](https://www.youtube.com/watch?v=mXvKs6X1DNk&t=55s) |  |
-| Entra ID-based Authorization | status not stated, demoed | [1:45](https://www.youtube.com/watch?v=mXvKs6X1DNk&t=105s) |  |
-| Read-only HQ Data Source | status not stated, demoed | [1:32](https://www.youtube.com/watch?v=mXvKs6X1DNk&t=92s) |  |
-| Delta Synchronization with Web Services | status not stated | [2:00](https://www.youtube.com/watch?v=mXvKs6X1DNk&t=120s) |  |
-| Secure Credential Storage | status not stated, demoed | [3:07](https://www.youtube.com/watch?v=mXvKs6X1DNk&t=187s) |  |
-| Flexible App Registration Strategy | status not stated | [3:35](https://www.youtube.com/watch?v=mXvKs6X1DNk&t=215s) |  |
-| Cross-environment Setup Wizard | status not stated, demoed | [4:47](https://www.youtube.com/watch?v=mXvKs6X1DNk&t=287s) |  |
-| Picture and Attachment Propagation | status not stated | [2:43](https://www.youtube.com/watch?v=mXvKs6X1DNk&t=163s) |  |
-| Default Tables and Custom Permission Sets | status not stated, demoed | [6:31](https://www.youtube.com/watch?v=mXvKs6X1DNk&t=391s) |  |
-| Automatic Synchronization Status Monitoring | status not stated, demoed | [8:50](https://www.youtube.com/watch?v=mXvKs6X1DNk&t=530s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Cross-environment Master Data Synchronization | status not stated, demoed | [0:55](https://www.youtube.com/watch?v=mXvKs6X1DNk&t=55s) |
+| Entra ID-based Authorization | status not stated, demoed | [1:45](https://www.youtube.com/watch?v=mXvKs6X1DNk&t=105s) |
+| Read-only HQ Data Source | status not stated, demoed | [1:32](https://www.youtube.com/watch?v=mXvKs6X1DNk&t=92s) |
+| Delta Synchronization with Web Services | status not stated | [2:00](https://www.youtube.com/watch?v=mXvKs6X1DNk&t=120s) |
+| Secure Credential Storage | status not stated, demoed | [3:07](https://www.youtube.com/watch?v=mXvKs6X1DNk&t=187s) |
+| Flexible App Registration Strategy | status not stated | [3:35](https://www.youtube.com/watch?v=mXvKs6X1DNk&t=215s) |
+| Cross-environment Setup Wizard | status not stated, demoed | [4:47](https://www.youtube.com/watch?v=mXvKs6X1DNk&t=287s) |
+| Picture and Attachment Propagation | status not stated | [2:43](https://www.youtube.com/watch?v=mXvKs6X1DNk&t=163s) |
+| Default Tables and Custom Permission Sets | status not stated, demoed | [6:31](https://www.youtube.com/watch?v=mXvKs6X1DNk&t=391s) |
+| Automatic Synchronization Status Monitoring | status not stated, demoed | [8:50](https://www.youtube.com/watch?v=mXvKs6X1DNk&t=530s) |
 
 ## AL objects mentioned
 

@@ -2,7 +2,7 @@
 id: video/qj0VHB2Pmvc
 type: video
 title: "What's new: Enhanced Financial Reporting (2026 release wave 2)"
-summary: Enhanced Financial Reporting changes in the 2026 release wave 2, grouped by author, user and administrator features. It covers uncategorized account views, where-used for reports, totaling fact boxes, report packs with scheduling, automatic change log setup and report inbox APIs.
+summary: Enhanced Financial Reporting changes in the 2026 release wave 2, grouped by author, user and administrator features. The major release adds uncategorized account views, where-used for report definitions and totaling fact boxes; report packs with scheduling, automatic change log setup and report inbox APIs are also shown. Preview with default row/column definitions and line defaulting are announced for a minor version of 29.
 tier: official
 language: en
 tags:
@@ -18,12 +18,12 @@ tags:
   - api
 system: reporting
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:45:27.342Z"
   flags: []
 generated:
-  at: "2026-10-06T14:56:57.246Z"
+  at: "2026-10-07T22:45:27.381Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -31,12 +31,12 @@ generated:
   input_hash: 21dc0fccea7020ac1dde0f09125e3bfb44db2ad21b865cea59550d32a7553015
 evidence:
   - kind: video
-    url: https://www.youtube.com/watch?v=qj0VHB2Pmvc&t=235s
+    url: https://www.youtube.com/watch?v=qj0VHB2Pmvc&t=45s
     title: "Preview capability for row and column definitions: announced"
     date: "2026-10-01T00:00:00Z"
     commit: null
-    t: 235
-    quote: The first is that you can preview the so if you're working on a row or a column definition, you can set the corresponding
+    t: 45
+    quote: The latter is coming in a minor version of 29, but I'll show you here.
   - kind: video
     url: https://www.youtube.com/watch?v=qj0VHB2Pmvc&t=287s
     title: "Defaulting for row and column definition lines: announced"
@@ -57,7 +57,14 @@ evidence:
     date: "2026-10-01T00:00:00Z"
     commit: null
     t: 45
-    quote: if you use account categories, which you should, in my opinion, both to make your financial reporting definitions easier, also if you're using Power
+    quote: The latter is coming in a minor version of 29, but I'll show you here.
+  - kind: video
+    url: https://www.youtube.com/watch?v=qj0VHB2Pmvc&t=133s
+    title: "What's new: Enhanced Financial Reporting (2026 release wave 2)"
+    date: "2026-10-01T00:00:00Z"
+    commit: null
+    t: 133
+    quote: the action that has been on the account card for ages now include data from which reports would include this account.
   - kind: video
     url: https://www.youtube.com/watch?v=qj0VHB2Pmvc&t=235s
     title: "What's new: Enhanced Financial Reporting (2026 release wave 2)"
@@ -201,7 +208,10 @@ quotes:
     text: We have three types of features to show you. Features for authors, for users, and for administrators.
     check: exact
   - t: 45
-    text: if you use account categories, which you should, in my opinion, both to make your financial reporting definitions easier, also if you're using Power
+    text: The latter is coming in a minor version of 29, but I'll show you here.
+    check: exact
+  - t: 133
+    text: the action that has been on the account card for ages now include data from which reports would include this account.
     check: exact
   - t: 235
     text: in here in the fall there will be some other goodies. The first is that you can preview
@@ -222,9 +232,9 @@ quotes:
 
 # What's new: Enhanced Financial Reporting (2026 release wave 2)
 
-> Enhanced Financial Reporting changes in the 2026 release wave 2, grouped by author, user and administrator features. It covers uncategorized account views, where-used for reports, totaling fact boxes, report packs with scheduling, automatic change log setup and report inbox APIs.
+> Enhanced Financial Reporting changes in the 2026 release wave 2, grouped by author, user and administrator features. The major release adds uncategorized account views, where-used for report definitions and totaling fact boxes; report packs with scheduling, automatic change log setup and report inbox APIs are also shown. Preview with default row/column definitions and line defaulting are announced for a minor version of 29.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=qj0VHB2Pmvc) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-10-01 · 9:14 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=qj0VHB2Pmvc) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-10-01 · 9:14 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -237,9 +247,9 @@ Author features help with chart of accounts categorization and with building row
 - Chart of accounts page gets two new saved views that find GL accounts with no category or a missing subcategory.
 - The where used action on the account card now includes which financial report definitions include that account.
 - Row definitions get a fact box listing the accounts covered by a totaling line filter, with navigation to the GL account list. Column definitions with GL account totaling filters get the same fact box.
-- Report packs run multiple reports in one operation and produce a single consolidated PDF. They support per-report custom filters and start/end date filters, and can be scheduled, for example weekly for a finance team meeting.
-- Change log is now set up automatically on all financial report definitions, covering reports, row definitions and column definitions. The log tables themselves are not set up.
-- New report inbox APIs let external systems work with scheduled reports, for example to trigger other automation or analyze the output with AI.
+- Report packs run multiple reports in one operation and produce a single consolidated PDF. They support per-report custom filters and start/end date filters, and can be scheduled, for example weekly for a finance team meeting, landing in the report inbox.
+- Change log is now set up automatically on all financial report definitions (not the log tables themselves), so changes are audited without manual setup; the example shows a financial report and row definition change logged with the user ID.
+- New report inbox APIs expose each report inbox operation, callable through MCP server, Power Platform or anything that speaks API, for example to trigger other automation or analyze report output with AI.
 - Announced for a minor version of 29: default column definition with a test button to preview a report from a row definition (and vice versa), and defaulting of new lines to the previously used settings.
 
 ## Chapters
@@ -261,7 +271,7 @@ Author features help with chart of accounts categorization and with building row
 | Where used for GL accounts | generally available (roadmap [573324](../features/573324.md)), demoed | [2:03](https://www.youtube.com/watch?v=qj0VHB2Pmvc&t=123s) |  |
 | Totaling line account visibility in row definitions | generally available (roadmap [573324](../features/573324.md)), demoed | [2:41](https://www.youtube.com/watch?v=qj0VHB2Pmvc&t=161s) |  |
 | Totaling field account visibility in column definitions | generally available (roadmap [573324](../features/573324.md)), demoed | [3:23](https://www.youtube.com/watch?v=qj0VHB2Pmvc&t=203s) |  |
-| Preview capability for row and column definitions | announced, demoed | [4:07](https://www.youtube.com/watch?v=qj0VHB2Pmvc&t=247s) | "The first is that you can preview the so if you're working on a row or a column definition, you can set the corresponding" ([3:55](https://www.youtube.com/watch?v=qj0VHB2Pmvc&t=235s)) |
+| Preview capability for row and column definitions | announced, demoed | [4:07](https://www.youtube.com/watch?v=qj0VHB2Pmvc&t=247s) | "The latter is coming in a minor version of 29, but I'll show you here." ([0:45](https://www.youtube.com/watch?v=qj0VHB2Pmvc&t=45s)) |
 | Defaulting for row and column definition lines | announced, demoed | [4:47](https://www.youtube.com/watch?v=qj0VHB2Pmvc&t=287s) | "Also coming in a minor to 29 is defaulting. So if you work on a row or column definition and add the lines of" ([4:47](https://www.youtube.com/watch?v=qj0VHB2Pmvc&t=287s)) |
 | Report packs | generally available (roadmap [573323](../features/573323.md)), demoed | [5:28](https://www.youtube.com/watch?v=qj0VHB2Pmvc&t=328s) |  |
 | Change log for financial report definitions | generally available (roadmap [573325](../features/573325.md)), demoed | [6:53](https://www.youtube.com/watch?v=qj0VHB2Pmvc&t=413s) |  |
@@ -272,7 +282,8 @@ A status with a roadmap link comes from the Microsoft 365 roadmap feature this p
 ## Quotes
 
 - [0:06](https://www.youtube.com/watch?v=qj0VHB2Pmvc&t=6s) "We have three types of features to show you. Features for authors, for users, and for administrators."
-- [0:45](https://www.youtube.com/watch?v=qj0VHB2Pmvc&t=45s) "if you use account categories, which you should, in my opinion, both to make your financial reporting definitions easier, also if you're using Power"
+- [0:45](https://www.youtube.com/watch?v=qj0VHB2Pmvc&t=45s) "The latter is coming in a minor version of 29, but I'll show you here."
+- [2:13](https://www.youtube.com/watch?v=qj0VHB2Pmvc&t=133s) "the action that has been on the account card for ages now include data from which reports would include this account."
 - [3:55](https://www.youtube.com/watch?v=qj0VHB2Pmvc&t=235s) "in here in the fall there will be some other goodies. The first is that you can preview"
 - [5:28](https://www.youtube.com/watch?v=qj0VHB2Pmvc&t=328s) "you can now run multiple reports in one go and get a single PDF."
 - [6:30](https://www.youtube.com/watch?v=qj0VHB2Pmvc&t=390s) "the idea is that maybe each Friday for the team meeting in the finance team, there's going to be a pack of reports, and"

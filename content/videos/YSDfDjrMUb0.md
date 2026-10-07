@@ -20,12 +20,12 @@ tags:
   - returns processing
 system: integration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:46:16.312Z"
   flags: []
 generated:
-  at: "2026-10-06T14:56:57.246Z"
+  at: "2026-10-07T22:46:16.357Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -87,14 +87,7 @@ evidence:
     date: "2026-10-01T00:00:00Z"
     commit: null
     t: 828
-    quote: So, in this release, we still have Shopify connector W1 version, same for everyone, but we are releasing two small extensions, nano extensions, I
-  - kind: video
-    url: https://www.youtube.com/watch?v=YSDfDjrMUb0&t=828s
-    title: "What's new in Shopify Connector: Overview (2026 release wave 2)"
-    date: "2026-10-01T00:00:00Z"
-    commit: null
-    t: 828
-    quote: in this release, we still have Shopify connector W1 version, same for everyone, but we are releasing two small extensions, nano extensions
+    quote: So, in this release, we still have Shopify connector W1 version, same for everyone, but we are releasing two small extensions, nano extensions
   - kind: video
     url: https://www.youtube.com/watch?v=YSDfDjrMUb0&t=854s
     title: "What's new in Shopify Connector: Overview (2026 release wave 2)"
@@ -116,6 +109,13 @@ evidence:
     commit: null
     t: 891
     quote: I'm in the Shopify shop store, and I will scroll down to order synchronization, and there is a new field, use Shopify order number.
+  - kind: video
+    url: https://www.youtube.com/watch?v=YSDfDjrMUb0&t=927s
+    title: "What's new in Shopify Connector: Overview (2026 release wave 2)"
+    date: "2026-10-01T00:00:00Z"
+    commit: null
+    t: 927
+    quote: we need to ensure that the invoice and the sales order documents actually support manual number numbers.
   - kind: video
     url: https://www.youtube.com/watch?v=YSDfDjrMUb0&t=958s
     title: "What's new in Shopify Connector: Overview (2026 release wave 2)"
@@ -289,10 +289,7 @@ quotes:
     text: In this version, we are starting preventing this situation because it make no sense because it's only one catalog on a Shopify site, and
     check: exact
   - t: 828
-    text: So, in this release, we still have Shopify connector W1 version, same for everyone, but we are releasing two small extensions, nano extensions, I
-    check: exact
-  - t: 828
-    text: in this release, we still have Shopify connector W1 version, same for everyone, but we are releasing two small extensions, nano extensions
+    text: So, in this release, we still have Shopify connector W1 version, same for everyone, but we are releasing two small extensions, nano extensions
     check: exact
   - t: 854
     text: If you are in Belgium or in the US. So, we have different extensions, which are adding couple of capabilities.
@@ -302,6 +299,9 @@ quotes:
     check: exact
   - t: 891
     text: I'm in the Shopify shop store, and I will scroll down to order synchronization, and there is a new field, use Shopify order number.
+    check: exact
+  - t: 927
+    text: we need to ensure that the invoice and the sales order documents actually support manual number numbers.
     check: exact
   - t: 958
     text: Contact numbers. So, now contact numbers are actually available. They are populated automatically. And you can change the values if there are more than
@@ -318,7 +318,7 @@ quotes:
 
 > Shopify Connector changes in the 2026 release wave 2: tariff code sync, barcode mapping setting, unlisted status, skipped-records tracking, B2B company and market-based catalogs, Belgium and US localization extensions, Shopify order numbers, and return orders from refunds. Demoed across product, price, B2B and order sync.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=YSDfDjrMUb0) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-10-01 · 22:06 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=YSDfDjrMUb0) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-10-01 · 22:06 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -334,7 +334,7 @@ It then covers B2B company synchronization and catalogs (with a recommendation f
 - B2B company synchronization is now visible by default for all Shopify plans. Auto-creating a B2B catalog is only available for Plus and Advanced plans. B2B catalogs are imported only if the matching company exists in Business Central.
 - Market-based catalogs are recommended over company-location catalogs. Linking several B2B catalogs to the same Shopify catalog makes the last sync overwrite earlier prices.
 - Belgium and US localization extensions are released outside AppSource. The Belgium one adds an 'enterprise number' option for company tax ID mapping, because VAT registration ID mapping previously failed there.
-- Shopify refunds can be processed as return orders instead of credit memos. Credit memos are not compatible with directed put-away and pick. Negative lines can be moved with the standard action after reopening the document.
+- The new 'Use Shopify order number' setting uses the Shopify order number as the sales document number. The number series must allow manual numbers. Orders imported before the setting was turned on inherit the old value and must be unlinked and marked as not processed first.
 
 ## Chapters
 
@@ -354,24 +354,24 @@ It then covers B2B company synchronization and catalogs (with a recommendation f
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Tariff code synchronization | status not stated, demoed | [1:06](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=66s) |  |
-| Find mapping by barcode | status not stated, demoed | [2:05](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=125s) |  |
-| Unlisted product status | status not stated, demoed | [2:57](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=177s) |  |
-| Skipped records tracking | status not stated, demoed | [3:57](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=237s) |  |
-| Provide feedback mechanism | status not stated, demoed | [5:12](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=312s) |  |
-| B2B company synchronization | status not stated, demoed | [6:39](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=399s) |  |
-| Market-based catalogs | status not stated, demoed | [7:47](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=467s) |  |
-| Company location tax registration import | status not stated, demoed | [12:31](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=751s) |  |
-| Shopify Connector localization extensions - Belgium and US | status not stated, demoed | [13:24](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=804s) |  |
-| Shopify order number in sales documents | status not stated, demoed | [14:40](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=880s) |  |
-| Contact numbers on sales orders | status not stated, demoed | [15:48](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=948s) |  |
-| Multi-line order handling and returns | status not stated, demoed | [17:08](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=1028s) |  |
-| Return order processing from Shopify refunds | status not stated, demoed | [18:11](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=1091s) |  |
-| Move negative lines in return orders | status not stated, demoed | [18:58](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=1138s) |  |
-| Tax details on Shopify refunds and orders | status not stated, demoed | [20:18](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=1218s) |  |
-| Tax area code and tax liable mapping override | status not stated, demoed | [21:18](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=1278s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Tariff code synchronization | status not stated, demoed | [1:06](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=66s) |
+| Find mapping by barcode | status not stated, demoed | [2:05](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=125s) |
+| Unlisted product status | status not stated, demoed | [2:57](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=177s) |
+| Skipped records tracking | status not stated, demoed | [3:57](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=237s) |
+| Provide feedback mechanism | status not stated, demoed | [5:12](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=312s) |
+| B2B company synchronization | status not stated, demoed | [6:39](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=399s) |
+| Market-based catalogs | status not stated, demoed | [7:47](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=467s) |
+| Company location tax registration import | status not stated, demoed | [12:31](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=751s) |
+| Shopify Connector localization extensions - Belgium and US | status not stated, demoed | [13:24](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=804s) |
+| Shopify order number in sales documents | status not stated, demoed | [14:40](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=880s) |
+| Contact numbers on sales orders | status not stated, demoed | [15:48](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=948s) |
+| Multi-line order handling and returns | status not stated, demoed | [17:08](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=1028s) |
+| Return order processing from Shopify refunds | status not stated, demoed | [18:11](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=1091s) |
+| Move negative lines in return orders | status not stated, demoed | [18:58](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=1138s) |
+| Tax details on Shopify refunds and orders | status not stated, demoed | [20:18](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=1218s) |
+| Tax area code and tax liable mapping override | status not stated, demoed | [21:18](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=1278s) |
 
 ## Quotes
 
@@ -382,11 +382,11 @@ It then covers B2B company synchronization and catalogs (with a recommendation f
 - [6:53](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=413s) "All but one capabilities is available. So, that's why B2B company synchronization is now visible by default."
 - [10:53](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=653s) "B2B catalogs are only imported if corresponding company present in Business Central."
 - [12:00](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=720s) "In this version, we are starting preventing this situation because it make no sense because it's only one catalog on a Shopify site, and"
-- [13:48](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=828s) "So, in this release, we still have Shopify connector W1 version, same for everyone, but we are releasing two small extensions, nano extensions, I"
-- [13:48](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=828s) "in this release, we still have Shopify connector W1 version, same for everyone, but we are releasing two small extensions, nano extensions"
+- [13:48](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=828s) "So, in this release, we still have Shopify connector W1 version, same for everyone, but we are releasing two small extensions, nano extensions"
 - [14:14](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=854s) "If you are in Belgium or in the US. So, we have different extensions, which are adding couple of capabilities."
 - [14:28](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=868s) "In Belgium, what happens, it will extend and will extend the company tax ID mapping. It will add a new option, enterprise number."
 - [14:51](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=891s) "I'm in the Shopify shop store, and I will scroll down to order synchronization, and there is a new field, use Shopify order number."
+- [15:27](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=927s) "we need to ensure that the invoice and the sales order documents actually support manual number numbers."
 - [15:58](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=958s) "Contact numbers. So, now contact numbers are actually available. They are populated automatically. And you can change the values if there are more than"
 - [18:58](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=1138s) "because credit memos are not compatible with uh directed put away and pick and other warehouse scenarios."
 - [21:18](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=1278s) "But tax area code and tax liable are the new ones. So, now they are present in the document itself. And you can override"

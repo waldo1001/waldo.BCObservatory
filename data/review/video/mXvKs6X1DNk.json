@@ -1,0 +1,26 @@
+{
+  "video_id": "mXvKs6X1DNk",
+  "item_id": "video/yt-microsoft/mXvKs6X1DNk",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Key point claiming 'Synchronization jobs must be scheduled automatically' is not supported; transcript says 'the rescheduling of synchronization jobs and the automatic change propagation works seamlessly'.",
+    "Captions at 120.7 are garbled ('or data before web service'); 'data services' in key points and in the Delta Synchronization feature description is a guess. Removed it from the key points.",
+    "Added the app registration requirements from the demo (API read write all application permissions, redirect URL, single tenant sign-in audience) to the key points.",
+    "All quotes are verbatim, some running across segment boundaries; kept.",
+    "Feature status is not stated as preview or GA; 'now it will be possible' in a what's new video is not explicit enough, so features stay unclear."
+  ],
+  "input_hash": "34f6eb4877735789e11036da72ddae057b1d6466956ec07747611d164298dc43",
+  "by": "opus",
+  "at": "2026-10-07T22:44:40.311Z",
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.086541
+  }
+}

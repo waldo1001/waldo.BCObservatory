@@ -16,12 +16,12 @@ tags:
   - gl entries
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:44:40.362Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:44:40.391Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -71,12 +71,26 @@ evidence:
     t: 474
     quote: So now I can choose when to be calculated based on invoice. So this is a moment when I post expense report. So if
   - kind: video
+    url: https://www.youtube.com/watch?v=mT_0VKqdEzA&t=474s
+    title: "What's new in Expense Agent: Calculate WHT for Expenses (2026 release wave 2)"
+    date: "2026-10-01T00:00:00Z"
+    commit: null
+    t: 474
+    quote: So everything above uh 1,000 will be taxable withholding tax in 20%.
+  - kind: video
     url: https://www.youtube.com/watch?v=mT_0VKqdEzA&t=559s
     title: "What's new in Expense Agent: Calculate WHT for Expenses (2026 release wave 2)"
     date: "2026-10-01T00:00:00Z"
     commit: null
     t: 559
     quote: it can be per document but much more in especially related to employees uh withholdings this is category per period or total imperial.
+  - kind: video
+    url: https://www.youtube.com/watch?v=mT_0VKqdEzA&t=701s
+    title: "What's new in Expense Agent: Calculate WHT for Expenses (2026 release wave 2)"
+    date: "2026-10-01T00:00:00Z"
+    commit: null
+    t: 701
+    quote: It can be used outside expense management but we will have separate session about finance.
 links:
   learn: []
   objects: []
@@ -209,8 +223,14 @@ quotes:
   - t: 474
     text: So now I can choose when to be calculated based on invoice. So this is a moment when I post expense report. So if
     check: exact
+  - t: 474
+    text: So everything above uh 1,000 will be taxable withholding tax in 20%.
+    check: exact
   - t: 559
     text: it can be per document but much more in especially related to employees uh withholdings this is category per period or total imperial.
+    check: exact
+  - t: 701
+    text: It can be used outside expense management but we will have separate session about finance.
     check: exact
 ---
 
@@ -218,7 +238,7 @@ quotes:
 
 > Withholding tax for employee expenses in the Expense Agent (2026 release wave 2): extends vendor withholding tax to employees, with posting groups, thresholds, gross/net calculation and invoice or payment timing. Demoed with a mileage expense, preview posting, employee card and expense category setup.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=mT_0VKqdEzA) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-10-01 · 12:03 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=mT_0VKqdEzA) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-10-01 · 12:03 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -229,12 +249,12 @@ The demo creates a mileage expense and shows the withholding tax entries in prev
 ## Key points
 
 - Withholding tax setup that existed for vendors is extended to employees, so employee expense payments can have tax deducted.
-- Withholding Posting Setup needs both a withholding tax business posting group and a product posting group. Configuration must match local tax authority rules.
-- The Employee Card gets a required withholding tax business posting group, an optional tax exemption flag, and optional certificate fields that depend on the jurisdiction.
-- The calculation base can be gross, net or gross up, and a compound method is available. The choice depends on local rules.
-- Thresholds can be per record, per category, per period or total period. Periods can be month, quarter, year or fiscal period, depending on how the jurisdiction treats employee withholding liability.
+- Withholding Posting Setup needs both a withholding tax business posting group (assigned on the employee card) and a product posting group (assigned on the expense category). Configuration must match local tax authority rules.
+- The Employee Card gets a withholding tax business posting group, an option to mark the person as exempt from taxation, and certificate fields that depend on the jurisdiction and are not mandatory.
+- The calculation base can be gross, net or gross up. When several taxes apply, the calculation can be simple or compound. The choice depends on local rules.
+- Threshold types include per record or line, per document, category per period, and total in period. For period-based thresholds you choose month, quarter, year or fiscal period. In the demo, mileage above 1,000 is taxed at 20% using a category per period threshold with a monthly period.
 - Tax can be calculated at invoice time (when the expense report is posted) or at payment time (the withholding stays unrealized until the employee is paid).
-- An expense category can use single mode for one tax tier or tax group mode for several product posting groups, such as state, federal and local. Tax group mode also needs a component order for compound calculations.
+- An expense category can use single mode for one product posting group, or tax group mode with a withholding group code that holds several product posting groups (for example federal, state and local). Tax group mode also has a component order that sets the sequence in which the system calculates the taxes.
 
 ## Chapters
 
@@ -251,17 +271,17 @@ The demo creates a mileage expense and shows the withholding tax entries in prev
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Withholding Tax for Employee Expenses | preview (roadmap [573304](../features/573304.md)), demoed | [0:06](https://www.youtube.com/watch?v=mT_0VKqdEzA&t=6s) |  |
-| Withholding Posting Setup for Employees | preview (roadmap [573304](../features/573304.md)), demoed | [1:44](https://www.youtube.com/watch?v=mT_0VKqdEzA&t=104s) |  |
-| Multiple Withholding Tax Groups per Category | preview (roadmap [573304](../features/573304.md)), demoed | [2:44](https://www.youtube.com/watch?v=mT_0VKqdEzA&t=164s) |  |
-| Gross and Net Withholding Tax Calculation | preview (roadmap [573304](../features/573304.md)), demoed | [3:32](https://www.youtube.com/watch?v=mT_0VKqdEzA&t=212s) |  |
-| Configurable Withholding Tax Thresholds | preview (roadmap [573304](../features/573304.md)), demoed | [3:32](https://www.youtube.com/watch?v=mT_0VKqdEzA&t=212s) |  |
-| Withholding Tax Entries in Preview Posting | preview (roadmap [573304](../features/573304.md)), demoed | [5:52](https://www.youtube.com/watch?v=mT_0VKqdEzA&t=352s) |  |
-| Withholding Tax Calculation Timing (Invoice vs Payment) | preview (roadmap [573304](../features/573304.md)), demoed | [7:22](https://www.youtube.com/watch?v=mT_0VKqdEzA&t=442s) |  |
-| Employee Card Withholding Tax Fields | preview (roadmap [573304](../features/573304.md)), demoed | [10:11](https://www.youtube.com/watch?v=mT_0VKqdEzA&t=611s) |  |
-| Expense Category Withholding Tax Configuration | preview (roadmap [573304](../features/573304.md)), demoed | [10:46](https://www.youtube.com/watch?v=mT_0VKqdEzA&t=646s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Withholding Tax for Employee Expenses | preview (roadmap [573304](../features/573304.md)), demoed | [0:06](https://www.youtube.com/watch?v=mT_0VKqdEzA&t=6s) |
+| Withholding Posting Setup for Employees | preview (roadmap [573304](../features/573304.md)), demoed | [1:44](https://www.youtube.com/watch?v=mT_0VKqdEzA&t=104s) |
+| Multiple Withholding Tax Groups per Category | preview (roadmap [573304](../features/573304.md)), demoed | [2:44](https://www.youtube.com/watch?v=mT_0VKqdEzA&t=164s) |
+| Gross and Net Withholding Tax Calculation | preview (roadmap [573304](../features/573304.md)), demoed | [3:32](https://www.youtube.com/watch?v=mT_0VKqdEzA&t=212s) |
+| Configurable Withholding Tax Thresholds | preview (roadmap [573304](../features/573304.md)), demoed | [3:32](https://www.youtube.com/watch?v=mT_0VKqdEzA&t=212s) |
+| Withholding Tax Entries in Preview Posting | preview (roadmap [573304](../features/573304.md)), demoed | [5:52](https://www.youtube.com/watch?v=mT_0VKqdEzA&t=352s) |
+| Withholding Tax Calculation Timing (Invoice vs Payment) | preview (roadmap [573304](../features/573304.md)), demoed | [7:22](https://www.youtube.com/watch?v=mT_0VKqdEzA&t=442s) |
+| Employee Card Withholding Tax Fields | preview (roadmap [573304](../features/573304.md)), demoed | [10:11](https://www.youtube.com/watch?v=mT_0VKqdEzA&t=611s) |
+| Expense Category Withholding Tax Configuration | preview (roadmap [573304](../features/573304.md)), demoed | [10:46](https://www.youtube.com/watch?v=mT_0VKqdEzA&t=646s) |
 
 A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
@@ -284,4 +304,6 @@ As heard in the captions. A name that matches one object page by exact type and 
 - [3:44](https://www.youtube.com/watch?v=mT_0VKqdEzA&t=224s) "It depends what you want because some situation you want to pay thousand dollars for some uh allowance and you need to pay um"
 - [7:37](https://www.youtube.com/watch?v=mT_0VKqdEzA&t=457s) "if I look into withholding posting setup, you will see I will go to edit list that I have withholding tax posting business posting"
 - [7:54](https://www.youtube.com/watch?v=mT_0VKqdEzA&t=474s) "So now I can choose when to be calculated based on invoice. So this is a moment when I post expense report. So if"
+- [7:54](https://www.youtube.com/watch?v=mT_0VKqdEzA&t=474s) "So everything above uh 1,000 will be taxable withholding tax in 20%."
 - [9:19](https://www.youtube.com/watch?v=mT_0VKqdEzA&t=559s) "it can be per document but much more in especially related to employees uh withholdings this is category per period or total imperial."
+- [11:41](https://www.youtube.com/watch?v=mT_0VKqdEzA&t=701s) "It can be used outside expense management but we will have separate session about finance."

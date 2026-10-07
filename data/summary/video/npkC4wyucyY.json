@@ -1,7 +1,7 @@
 {
   "video_id": "npkC4wyucyY",
   "item_id": "video/yt-microsoft/npkC4wyucyY",
-  "summary": "BC-Bench is a reproducible evaluation framework for AI coding agents on real AL development tasks. The video covers the bug fixing category (101 tasks, AL MCP server), a contamination check, and the new code review category, and compares agent harnesses and models.",
+  "summary": "BC-Bench is an open-source, reproducible evaluation framework for AI coding agents on real AL development tasks (bug fixing, test generation, code review). The video covers bug fixing results with the AL MCP server, a harness vs model comparison, a contamination check, the new code review category judged by an LM-as-judge, and how partners can fork the repo to benchmark their own AL apps.",
   "overview": "BC-Bench is an evaluation framework for AI coding agents working on AL development, inspired by SWE-bench. It covers bug fixing, test generation and PR reviews. The video walks through the bug fixing category, which uses 101 tasks taken from real BC app repositories where human engineers solved the problems, and shows how the AL MCP server affects results.\n\nIt then explains how the team checks whether models memorized the public data set, and introduces the code review category with three approaches. Code review results were still being finalized at recording time. The last chapter covers how to use BC-Bench for your own AL apps.",
   "key_points": [
     "Bug fixing category: an agent fixes a bug in the real codebase, using 101 tasks from real BC app repositories solved by human engineers.",

@@ -64,10 +64,10 @@
     {
       "name": "Company information dataset",
       "description": "A new pre-populated dataset automatically available in all Word layouts containing company data like logo, name, and address fields that do not need to be manually encoded.",
-      "status": "ga",
-      "status_evidence_t": 60.4,
-      "status_evidence_quote": "So we decided we wanted to ship that always. So in the future when you need to create a report uh with a word",
-      "status_evidence_verified": true,
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
       "t_start": 29,
       "t_end": 96.6,
       "is_demoed": true,
@@ -282,6 +282,18 @@
       "t": 173,
       "text": "During our work on renovating um new layouts for reports, we invented um a design language of different kind of building blocks that we",
       "why_it_matters": "Signals a strategic shift toward reusable design components for consistency across Business Central reports.",
+      "check": "exact"
+    },
+    {
+      "t": 346.7,
+      "text": "these are examples of design blocks that we are adding not necessarily datab bound for now just pure text",
+      "why_it_matters": "States a current limitation of the new design blocks.",
+      "check": "exact"
+    },
+    {
+      "t": 509.5,
+      "text": "This happens in business central under manage themes and header footer layouts. So here you can add your either your theme or your header",
+      "why_it_matters": "Shows where in Business Central themes and header/footer layouts are uploaded.",
       "check": "exact"
     },
     {

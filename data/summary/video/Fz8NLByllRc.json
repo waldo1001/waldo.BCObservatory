@@ -7,10 +7,10 @@
     "Employees create a mileage expense in the expense agent by selecting starting and ending points on a map.",
     "Users can choose from up to three routes between the two points and pick the one they drove.",
     "The expense amount is calculated automatically from the distance and the mileage rates set by the admin.",
-    "A round trip toggle doubles the distance and the amount.",
-    "Admins configure the mileage rate per unit and the default unit of distance; the default is miles, and kilometers can be selected.",
-    "A toggle on the Expense Agent Setup page enforces the shortest route and prevents users from choosing between multiple routes.",
-    "The expense agent processes the mileage expense and attempts to match and add it to existing expense reports."
+    "A round trip toggle doubles the distance and the amount; the user can also set the date and a description.",
+    "Payment means defaults to cash and the expense category is mileage.",
+    "After the expense is created, the expense agent processes it and tries to match and add it to an existing expense report.",
+    "Admins open the expense agent avatar's settings and, on the mileage expenses slide, set the rate per unit and the default unit of distance (miles or kilometers)."
   ],
   "audience": [
     "functional consultant",

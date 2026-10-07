@@ -16,12 +16,12 @@ tags:
   - expense reports
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:44:51.120Z"
   flags: []
 generated:
-  at: "2026-10-06T14:56:57.246Z"
+  at: "2026-10-07T22:44:51.162Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -63,6 +63,13 @@ evidence:
     commit: null
     t: 361
     quote: So that's also some new feature that is going to come soon. We plan to have more um itemization for receipts so that all
+  - kind: video
+    url: https://www.youtube.com/watch?v=o94V_lF8oNM&t=426s
+    title: "What's new in Expense Agent: Travel and Expense Policy Automation (2026 release wave 2)"
+    date: "2026-10-01T00:00:00Z"
+    commit: null
+    t: 426
+    quote: as a submitter, I can still submit an expense report even if policies are still pending.
   - kind: video
     url: https://www.youtube.com/watch?v=o94V_lF8oNM&t=502s
     title: "What's new in Expense Agent: Travel and Expense Policy Automation (2026 release wave 2)"
@@ -180,6 +187,9 @@ quotes:
   - t: 361
     text: So that's also some new feature that is going to come soon. We plan to have more um itemization for receipts so that all
     check: exact
+  - t: 426
+    text: as a submitter, I can still submit an expense report even if policies are still pending.
+    check: exact
   - t: 502
     text: we have upcoming that it's going to be mandatory for the for the approver to actually specify a reason when they override a policy.
     check: exact
@@ -189,7 +199,7 @@ quotes:
 
 > Expense Agent in the 2026 release wave 2 adds AI evaluation of free text travel and expense policies, submitter presubmission checks, and a flagged compliance status for approvers. The video demos these; AI evaluation uses copilot credits, and pricing should be checked in the documentation.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=o94V_lF8oNM) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-10-01 · 9:20 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=o94V_lF8oNM) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-10-01 · 9:20 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -199,13 +209,13 @@ It also shows how submitters can run a policy check before submitting, how chang
 
 ## Key points
 
-- "Evaluate compliance with AI" is a new toggle in policy compliance settings. It uses copilot credits, and the presenter says pricing is updated and to check the documentation.
-- Policies are free text, organized by category. When a category has several policies, enter each one as a separate line so the AI can analyze them better.
-- Presubmission evaluation lets submitters run "Policy check with AI" on their own report before submitting. It takes about one minute, and administrators can disable it if they are concerned about credit usage.
-- Expense reports get a new "flagged" status when a policy was evaluated and potential non-compliance was found. Approvers should review these.
-- Policies are evaluated against a version of the receipt. If an expense is modified, policies go back to pending and must be re-evaluated manually.
-- No policy check runs if no policies are configured or if the expense record has not changed since the last evaluation, which limits credit usage.
-- Coming later: more detailed receipt itemization (for example to detect alcoholic beverages), and a mandatory reason when an approver overrides a policy, kept in audit records.
+- "Evaluate compliance with AI" is a new toggle in the policy compliance settings. It can use copilot credits; the presenter says to check the documentation for updated pricing.
+- Policies are free text and organized by category. When a category has several policies, enter each one as a separate line so the agent can analyze them one by one.
+- Presubmission evaluation lets submitters click "check policies with AI" on their own report before submitting. It takes about a minute, and it can be turned off if you are concerned about AI credit usage.
+- Expense reports get a new "flagged" status when a policy was evaluated and potential non-compliance was found, or when the receipt lacks the information to evaluate it. The approver then decides.
+- Policies are evaluated against a specific version of the receipt. If an expense is modified, its status goes back to policies pending and a new evaluation is needed. Submitters can still submit while policies are pending, and the system re-evaluated after submission in the demo.
+- Policies are guidance for approvers, who can still override them and approve.
+- No policy check runs if no policies are configured or if the expense record has not changed since the last evaluation.
 
 ## Chapters
 
@@ -221,17 +231,17 @@ It also shows how submitters can run a policy check before submitting, how chang
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Evaluate compliance with AI | preview (roadmap [573255](../features/573255.md)), demoed | [0:35](https://www.youtube.com/watch?v=o94V_lF8oNM&t=35s) |  |
-| Presubmission evaluation | status not stated, demoed | [2:14](https://www.youtube.com/watch?v=o94V_lF8oNM&t=134s) |  |
-| Policy compliance flagging | preview (roadmap [573255](../features/573255.md)), demoed | [3:09](https://www.youtube.com/watch?v=o94V_lF8oNM&t=189s) |  |
-| Policy validation with free text rules | preview (roadmap [573255](../features/573255.md)), demoed | [0:49](https://www.youtube.com/watch?v=o94V_lF8oNM&t=49s) |  |
-| Policy check with AI button | status not stated, demoed | [5:00](https://www.youtube.com/watch?v=o94V_lF8oNM&t=300s) |  |
-| Enhanced receipt itemization | status not stated | [5:49](https://www.youtube.com/watch?v=o94V_lF8oNM&t=349s) |  |
-| Policy version tracking | status not stated, demoed | [6:15](https://www.youtube.com/watch?v=o94V_lF8oNM&t=375s) |  |
-| Policy override with audit trail | status not stated | [8:07](https://www.youtube.com/watch?v=o94V_lF8oNM&t=487s) |  |
-| Intelligent policy check optimization | status not stated, demoed | [8:42](https://www.youtube.com/watch?v=o94V_lF8oNM&t=522s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Evaluate compliance with AI | preview (roadmap [573255](../features/573255.md)), demoed | [0:35](https://www.youtube.com/watch?v=o94V_lF8oNM&t=35s) |
+| Presubmission evaluation | status not stated, demoed | [2:14](https://www.youtube.com/watch?v=o94V_lF8oNM&t=134s) |
+| Policy compliance flagging | preview (roadmap [573255](../features/573255.md)), demoed | [3:09](https://www.youtube.com/watch?v=o94V_lF8oNM&t=189s) |
+| Policy validation with free text rules | preview (roadmap [573255](../features/573255.md)), demoed | [0:49](https://www.youtube.com/watch?v=o94V_lF8oNM&t=49s) |
+| Policy check with AI button | status not stated, demoed | [5:00](https://www.youtube.com/watch?v=o94V_lF8oNM&t=300s) |
+| Enhanced receipt itemization | status not stated | [5:49](https://www.youtube.com/watch?v=o94V_lF8oNM&t=349s) |
+| Policy version tracking | status not stated, demoed | [6:15](https://www.youtube.com/watch?v=o94V_lF8oNM&t=375s) |
+| Policy override with audit trail | status not stated | [8:07](https://www.youtube.com/watch?v=o94V_lF8oNM&t=487s) |
+| Intelligent policy check optimization | status not stated, demoed | [8:42](https://www.youtube.com/watch?v=o94V_lF8oNM&t=522s) |
 
 A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
@@ -242,6 +252,7 @@ A status with a roadmap link comes from the Microsoft 365 roadmap feature this p
 - [1:30](https://www.youtube.com/watch?v=o94V_lF8oNM&t=90s) "you can also see that there's multiple um possible expense policies for the same category. And the idea is every policy should be a"
 - [3:09](https://www.youtube.com/watch?v=o94V_lF8oNM&t=189s) "already marked as compliant but i also have some that have been marked as flagged this is a new status"
 - [6:01](https://www.youtube.com/watch?v=o94V_lF8oNM&t=361s) "So that's also some new feature that is going to come soon. We plan to have more um itemization for receipts so that all"
+- [7:06](https://www.youtube.com/watch?v=o94V_lF8oNM&t=426s) "as a submitter, I can still submit an expense report even if policies are still pending."
 - [8:22](https://www.youtube.com/watch?v=o94V_lF8oNM&t=502s) "we have upcoming that it's going to be mandatory for the for the approver to actually specify a reason when they override a policy."
 
 ## Disclaimers in the video

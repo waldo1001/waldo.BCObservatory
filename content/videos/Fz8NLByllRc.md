@@ -14,12 +14,12 @@ tags:
   - mileage rates
 system: hr
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:46:32.760Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:46:32.800Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -54,6 +54,13 @@ evidence:
     commit: null
     t: 93
     quote: if you did uh a round trip, you can toggle this button, which basically is just going to double whatever the distance and the
+  - kind: video
+    url: https://www.youtube.com/watch?v=Fz8NLByllRc&t=181s
+    title: "Expense Agent: Mileage Allowances (2026 release wave 1)"
+    date: "2026-08-07T13:00:40.000Z"
+    commit: null
+    t: 181
+    quote: there's a configuration on the allowance tab which says only shortest route
 links:
   learn: []
   objects:
@@ -145,13 +152,16 @@ quotes:
   - t: 93
     text: if you did uh a round trip, you can toggle this button, which basically is just going to double whatever the distance and the
     check: exact
+  - t: 181
+    text: there's a configuration on the allowance tab which says only shortest route
+    check: exact
 ---
 
 # Expense Agent: Mileage Allowances (2026 release wave 1)
 
 > Mileage expenses in the Business Central Expense Agent (2026 release wave 1): employees pick start and end points on a map, choose among up to three routes, and the amount is calculated from admin-set mileage rates. Also covers the admin setup for rates, units and shortest-route enforcement.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=Fz8NLByllRc) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-08-07 · 3:46 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=Fz8NLByllRc) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-08-07 · 3:46 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -164,10 +174,10 @@ The second half covers the admin side. Administrators set the mileage rate per u
 - Employees create a mileage expense in the expense agent by selecting starting and ending points on a map.
 - Users can choose from up to three routes between the two points and pick the one they drove.
 - The expense amount is calculated automatically from the distance and the mileage rates set by the admin.
-- A round trip toggle doubles the distance and the amount.
-- Admins configure the mileage rate per unit and the default unit of distance; the default is miles, and kilometers can be selected.
-- A toggle on the Expense Agent Setup page enforces the shortest route and prevents users from choosing between multiple routes.
-- The expense agent processes the mileage expense and attempts to match and add it to existing expense reports.
+- A round trip toggle doubles the distance and the amount; the user can also set the date and a description.
+- Payment means defaults to cash and the expense category is mileage.
+- After the expense is created, the expense agent processes it and tries to match and add it to an existing expense report.
+- Admins open the expense agent avatar's settings and, on the mileage expenses slide, set the rate per unit and the default unit of distance (miles or kilometers).
 
 ## Chapters
 
@@ -183,15 +193,15 @@ The second half covers the admin side. Administrators set the mileage rate per u
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Mileage expense creation | status not stated, demoed | [0:00](https://www.youtube.com/watch?v=Fz8NLByllRc&t=0s) |  |
-| Multi-route selection | status not stated, demoed | [1:00](https://www.youtube.com/watch?v=Fz8NLByllRc&t=60s) |  |
-| Automatic mileage rate calculation | status not stated, demoed | [1:23](https://www.youtube.com/watch?v=Fz8NLByllRc&t=83s) |  |
-| Round trip toggle | status not stated, demoed | [1:33](https://www.youtube.com/watch?v=Fz8NLByllRc&t=93s) |  |
-| Mileage rate configuration | status not stated, demoed | [2:24](https://www.youtube.com/watch?v=Fz8NLByllRc&t=144s) |  |
-| Shortest route enforcement option | status not stated, demoed | [3:01](https://www.youtube.com/watch?v=Fz8NLByllRc&t=181s) |  |
-| Automatic expense report matching | status not stated, demoed | [1:57](https://www.youtube.com/watch?v=Fz8NLByllRc&t=117s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Mileage expense creation | status not stated, demoed | [0:00](https://www.youtube.com/watch?v=Fz8NLByllRc&t=0s) |
+| Multi-route selection | status not stated, demoed | [1:00](https://www.youtube.com/watch?v=Fz8NLByllRc&t=60s) |
+| Automatic mileage rate calculation | status not stated, demoed | [1:23](https://www.youtube.com/watch?v=Fz8NLByllRc&t=83s) |
+| Round trip toggle | status not stated, demoed | [1:33](https://www.youtube.com/watch?v=Fz8NLByllRc&t=93s) |
+| Mileage rate configuration | status not stated, demoed | [2:24](https://www.youtube.com/watch?v=Fz8NLByllRc&t=144s) |
+| Shortest route enforcement option | status not stated, demoed | [3:01](https://www.youtube.com/watch?v=Fz8NLByllRc&t=181s) |
+| Automatic expense report matching | status not stated, demoed | [1:57](https://www.youtube.com/watch?v=Fz8NLByllRc&t=117s) |
 
 ## AL objects mentioned
 
@@ -205,3 +215,4 @@ As heard in the captions. A name that matches one object page by exact type and 
 - [1:00](https://www.youtube.com/watch?v=Fz8NLByllRc&t=60s) "I as user can choose up to three different routes uh and yeah, choose the one that uh I drove uh through"
 - [1:23](https://www.youtube.com/watch?v=Fz8NLByllRc&t=83s) "based on what your admin set uh the rates of the the miles"
 - [1:33](https://www.youtube.com/watch?v=Fz8NLByllRc&t=93s) "if you did uh a round trip, you can toggle this button, which basically is just going to double whatever the distance and the"
+- [3:01](https://www.youtube.com/watch?v=Fz8NLByllRc&t=181s) "there's a configuration on the allowance tab which says only shortest route"

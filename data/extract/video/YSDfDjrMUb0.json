@@ -470,14 +470,8 @@
     },
     {
       "t": 828.8,
-      "text": "So, in this release, we still have Shopify connector W1 version, same for everyone, but we are releasing two small extensions, nano extensions, I",
-      "why_it_matters": "Announces localization extensions for Belgium and US addressing country-specific tax mapping.",
-      "check": "exact"
-    },
-    {
-      "t": 828.8,
-      "text": "in this release, we still have Shopify connector W1 version, same for everyone, but we are releasing two small extensions, nano extensions",
-      "why_it_matters": "Establishes the release strategy: maintaining a single global W1 version but adding country-specific nano extensions outside AppSource for Belgium and US.",
+      "text": "So, in this release, we still have Shopify connector W1 version, same for everyone, but we are releasing two small extensions, nano extensions",
+      "why_it_matters": "States that the W1 connector stays the same for everyone and that two small localization extensions are being added alongside it.",
       "check": "exact"
     },
     {
@@ -496,6 +490,12 @@
       "t": 891,
       "text": "I'm in the Shopify shop store, and I will scroll down to order synchronization, and there is a new field, use Shopify order number.",
       "why_it_matters": "Announces a new feature allowing Shopify order numbers to be used as sales document numbers instead of Business Central's native number series.",
+      "check": "exact"
+    },
+    {
+      "t": 927.3,
+      "text": "we need to ensure that the invoice and the sales order documents actually support manual number numbers.",
+      "why_it_matters": "This is a prerequisite for using Shopify order numbers as document numbers.",
       "check": "exact"
     },
     {

@@ -10,7 +10,7 @@
     "B2B company synchronization is now visible by default for all Shopify plans. Auto-creating a B2B catalog is only available for Plus and Advanced plans. B2B catalogs are imported only if the matching company exists in Business Central.",
     "Market-based catalogs are recommended over company-location catalogs. Linking several B2B catalogs to the same Shopify catalog makes the last sync overwrite earlier prices.",
     "Belgium and US localization extensions are released outside AppSource. The Belgium one adds an 'enterprise number' option for company tax ID mapping, because VAT registration ID mapping previously failed there.",
-    "Shopify refunds can be processed as return orders instead of credit memos. Credit memos are not compatible with directed put-away and pick. Negative lines can be moved with the standard action after reopening the document."
+    "The new 'Use Shopify order number' setting uses the Shopify order number as the sales document number. The number series must allow manual numbers. Orders imported before the setting was turned on inherit the old value and must be unlinked and marked as not processed first."
   ],
   "audience": [
     "functional consultant",

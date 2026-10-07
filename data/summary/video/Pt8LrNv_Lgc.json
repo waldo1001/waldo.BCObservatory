@@ -1,7 +1,7 @@
 {
   "video_id": "Pt8LrNv_Lgc",
   "item_id": "video/yt-microsoft/Pt8LrNv_Lgc",
-  "summary": "Business Central manufacturing routings: serial vs parallel operations, operational times, routing link codes, send ahead quantity, routing versions, and how routing choice changes production order lead times. Uses an Airpod demo; a 5-minute fundamentals video published 2026-09-08.",
+  "summary": "Business Central manufacturing routings: serial vs parallel operations, operational times (setup, run, wait, move), routing link codes, send ahead quantity, standard tasks and routing versions. A demo with the Airpod coffee maker shows how choosing a parallel or serial routing on a production order changes the start dates and lead times.",
   "overview": "The video introduces routings as the counterpart to the BOM: the BOM defines what is needed, the routing defines the sequence of operations required to build the product. It compares serial routings, where steps run one after another, with parallel routings, where independent operations run at the same time.\n\nIt then covers the time components of an operation, the routing link code, send ahead quantity, standard tasks and routing versions. In the demo, a production order is created and picks up the BOM and routing automatically. The order is then modified to use parallel routing for some quantities and serial for others, and the effect on lead time and start date is compared. The video closes with a preview of capacities.",
   "key_points": [
     "Routing describes the sequence of operations to build a product, as the BOM describes the components.",

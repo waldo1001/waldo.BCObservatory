@@ -18,25 +18,18 @@ tags:
   - operator control
 system: manufacturing
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:46:24.012Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:46:24.048Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
     summarize-video: 2
   input_hash: 11c4c57124b247ac6f518017451b63648e4378eba2d8349a5e8c540b16a2c25b
 evidence:
-  - kind: video
-    url: https://www.youtube.com/watch?v=oIoH3gxc0uk&t=55s
-    title: "Forward flushing: generally available"
-    date: "2026-09-08T11:44:47.000Z"
-    commit: null
-    t: 55
-    quote: Forward is for predictable components. Once the order is released, Business Central can consume them automatically
   - kind: video
     url: https://www.youtube.com/watch?v=oIoH3gxc0uk&t=21s
     title: Execution & Control Flushing Methods (2026)
@@ -71,7 +64,14 @@ evidence:
     date: "2026-09-08T11:44:47.000Z"
     commit: null
     t: 165
-    quote: If a routing link code is blank, the timing applies to the order more generally. If a routing link code is filled in, the
+    quote: If a routing link code is filled in, the component is tied to that matching routing operation.
+  - kind: video
+    url: https://www.youtube.com/watch?v=oIoH3gxc0uk&t=178s
+    title: Execution & Control Flushing Methods (2026)
+    date: "2026-09-08T11:44:47.000Z"
+    commit: null
+    t: 178
+    quote: Components with forward flushing already consumed the expected quantity. Backwards and manual flushing methods still have the required amount as remaining quantity.
   - kind: video
     url: https://www.youtube.com/watch?v=oIoH3gxc0uk&t=205s
     title: Execution & Control Flushing Methods (2026)
@@ -116,9 +116,9 @@ chapters:
     title: Demo - posting manual components and finishing the order
 features:
   - name: Forward flushing
-    status: ga
+    status: unclear
     t: 55
-    verified: true
+    verified: false
     status_source: video
   - name: Backward flushing
     status: unclear
@@ -163,7 +163,10 @@ quotes:
     text: That matching code is what ties component consumption to a specific operation instead of treating the whole order as one timing event.
     check: exact
   - t: 165
-    text: If a routing link code is blank, the timing applies to the order more generally. If a routing link code is filled in, the
+    text: If a routing link code is filled in, the component is tied to that matching routing operation.
+    check: exact
+  - t: 178
+    text: Components with forward flushing already consumed the expected quantity. Backwards and manual flushing methods still have the required amount as remaining quantity.
     check: exact
   - t: 205
     text: Predictable components can be automated. Components that need warehouse handling can stay pick controlled.
@@ -174,7 +177,7 @@ quotes:
 
 > Flushing methods in Business Central production orders: forward, backward and manual flushing, the pick plus warehouse step, component-level flushing policies and routing link codes. Includes a demo of posting manual components and finishing an order.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=oIoH3gxc0uk) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-09-08 · 4:34 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=oIoH3gxc0uk) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-09-08 · 4:34 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -190,6 +193,7 @@ It then shows that each component line on a production order can carry its own p
 - Pick plus adds a warehouse picking step before the selected flushing rule applies. It does not replace forward, manual or backward flushing.
 - Each component line on a production order can have its own flushing method, so forward, backward, manual and pick plus can be mixed on one order.
 - A routing link code on a component ties its consumption to a specific routing operation when the codes match. A blank code applies timing to the order more generally.
+- In the demo, releasing the order consumed the forward-flushed components and the control panel display, which is linked by routing link code 100 to body assembly. Backward and manual components still had quantity remaining. After a manual quantity change, the actual cost came out slightly above the expected cost.
 
 ## Chapters
 
@@ -203,14 +207,14 @@ It then shows that each component line on a production order can carry its own p
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Forward flushing | generally available, demoed | [0:55](https://www.youtube.com/watch?v=oIoH3gxc0uk&t=55s) | "Forward is for predictable components. Once the order is released, Business Central can consume them automatically" ([0:55](https://www.youtube.com/watch?v=oIoH3gxc0uk&t=55s)) |
-| Backward flushing | status not stated, demoed | [1:13](https://www.youtube.com/watch?v=oIoH3gxc0uk&t=73s) |  |
-| Manual flushing | status not stated, demoed | [1:26](https://www.youtube.com/watch?v=oIoH3gxc0uk&t=86s) |  |
-| Pick plus | status not stated | [1:26](https://www.youtube.com/watch?v=oIoH3gxc0uk&t=86s) |  |
-| Routing link codes on components | status not stated, demoed | [1:54](https://www.youtube.com/watch?v=oIoH3gxc0uk&t=114s) |  |
-| Component-level flushing policies | status not stated, demoed | [0:44](https://www.youtube.com/watch?v=oIoH3gxc0uk&t=44s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Forward flushing | status not stated, demoed | [0:55](https://www.youtube.com/watch?v=oIoH3gxc0uk&t=55s) |
+| Backward flushing | status not stated, demoed | [1:13](https://www.youtube.com/watch?v=oIoH3gxc0uk&t=73s) |
+| Manual flushing | status not stated, demoed | [1:26](https://www.youtube.com/watch?v=oIoH3gxc0uk&t=86s) |
+| Pick plus | status not stated | [1:26](https://www.youtube.com/watch?v=oIoH3gxc0uk&t=86s) |
+| Routing link codes on components | status not stated, demoed | [1:54](https://www.youtube.com/watch?v=oIoH3gxc0uk&t=114s) |
+| Component-level flushing policies | status not stated, demoed | [0:44](https://www.youtube.com/watch?v=oIoH3gxc0uk&t=44s) |
 
 ## AL objects mentioned
 
@@ -226,5 +230,6 @@ As heard in the captions. A name that matches one object page by exact type and 
 - [0:44](https://www.youtube.com/watch?v=oIoH3gxc0uk&t=44s) "On a production order, each component line can carry its own posting rule."
 - [1:42](https://www.youtube.com/watch?v=oIoH3gxc0uk&t=102s) "It only adds picking before that selected rule applies. That is the main point."
 - [2:05](https://www.youtube.com/watch?v=oIoH3gxc0uk&t=125s) "That matching code is what ties component consumption to a specific operation instead of treating the whole order as one timing event."
-- [2:45](https://www.youtube.com/watch?v=oIoH3gxc0uk&t=165s) "If a routing link code is blank, the timing applies to the order more generally. If a routing link code is filled in, the"
+- [2:45](https://www.youtube.com/watch?v=oIoH3gxc0uk&t=165s) "If a routing link code is filled in, the component is tied to that matching routing operation."
+- [2:58](https://www.youtube.com/watch?v=oIoH3gxc0uk&t=178s) "Components with forward flushing already consumed the expected quantity. Backwards and manual flushing methods still have the required amount as remaining quantity."
 - [3:25](https://www.youtube.com/watch?v=oIoH3gxc0uk&t=205s) "Predictable components can be automated. Components that need warehouse handling can stay pick controlled."

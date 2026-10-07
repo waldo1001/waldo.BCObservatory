@@ -1,0 +1,38 @@
+{
+  "video_id": "tj1vvsmAMVs",
+  "item_id": "video/yt-microsoft/tj1vvsmAMVs",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Key point on credit card feeds says the first release is limited and expands later. The transcript only says 'this is first release what we will deliver', so I removed that claim.",
+    "The summary implied one October rollout for everything. Worldwide availability starts in October, credit card feeds come in December and approvals arrive between October and December. The summary now says this.",
+    "Several features had status unclear even though the transcript states a timing. I set them to announced with verbatim evidence: worldwide availability, new languages, approval improvements and travel requests.",
+    "Credit card feeds evidence starts at t=209.1, not at the feature's t_start of 194.5.",
+    "The year 2029.2 is probably a caption error. It is kept as stated in the transcript.",
+    "The quotes at 317.4 and 617.3 stop mid-sentence but are verbatim, so they are kept."
+  ],
+  "input_hash": "738e5d82f0dffdd00d63b9db1978f516dae59b2df1feb24164a18463f665232d",
+  "by": "opus",
+  "at": "2026-10-07T22:45:29.292Z",
+  "applied": [
+    "Credit Card Feeds Manual Upload: status announced",
+    "New Mobile App with Offline Support: status preview",
+    "Interim Approvers and Delegate Approvals: status announced",
+    "Enhanced Approval History and Audit Trail: status announced",
+    "Travel Requests: status announced",
+    "quote at 668s",
+    "quote at 460s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [
+    "status Worldwide Availability Rollout -> announced: evidence not verbatim or does not state the status",
+    "status Expanded Language Support -> announced: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.1903426
+  }
+}

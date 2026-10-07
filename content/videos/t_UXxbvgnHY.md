@@ -17,12 +17,12 @@ tags:
   - service management
 system: sustainability
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:45:10.502Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:45:10.537Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -207,7 +207,7 @@ quotes:
 
 > Sustainability changes in the 2026 release wave 2: formulas in purchase orders and invoices, value chain emissions in item and fixed asset journals, scope three tracking by item tracking level, sustainability ledger reversal for journal entries, and collect from GL that remembers what was posted.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=t_UXxbvgnHY) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-10-01 · 13:31 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=t_UXxbvgnHY) · Microsoft Dynamics 365 Business Central (YouTube) · 2026-10-01 · 13:31 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -217,13 +217,13 @@ It then covers reversing sustainability ledger entries and the fixed asset chang
 
 ## Key points
 
-- Sustainability formulas now work in purchase order and purchase invoice, so emissions can be calculated from distance and other parameters as in journals. After posting, formulas are read-only and only certain fields such as distance can be changed.
+- Sustainability formulas now work in purchase order and purchase invoice, so emissions can be calculated as in journals. In the demo, the formula for an account based on distance lets you change distance and the installation multiplier on the order line, but not fuel or customer amount, and the line recalculates.
 - Value chain emissions are now available in item journals, item reclassification journals, fixed asset reclassification journals and service management.
-- Scope three can be tracked at item tracking level. You define an average or specific method on the item card to track emissions by lot or serial number.
-- The ESG report layout can print information per lot. The transcript calls it 'ECG', which likely means ESG.
-- Sustainability ledger entries can be reversed with a standard reverse button, as for general ledger entries. This works only for entries created through journals, not for entries posted through documents.
-- Collect amount from GL now remembers what was already posted and suggests only the remaining amount. When everything is posted, it suggests zero. Date filters help control the suggestion.
-- Fixed asset journals gain sustainability columns, including sustainability account and CO2 totals. Fixed asset reclassification can split CO2 by percentage, the same way as acquisition cost.
+- Scope three can be tracked at item tracking level. You choose an average or specific method on the item card, and the demo tracks different emissions by lot and serial number.
+- The ESG report layout can print information per lot (emission basis details by item tracking). The transcript calls it 'ECG', which likely means ESG.
+- Sustainability ledger entries can be reversed with a standard reverse transaction button, as for general ledger entries. This works only for entries created through journals, not for entries posted through documents.
+- Collect amount from GL now remembers what was already posted and suggests only the remaining amount. When everything is posted, it suggests zero. Date filters still control the suggested period.
+- Fixed asset journals gain sustainability columns, including sustainability account and total CO2. Fixed asset reclassification can split CO2 by a reclassify CO2 percentage, the same way as acquisition cost.
 
 ## Chapters
 
@@ -238,17 +238,17 @@ It then covers reversing sustainability ledger entries and the fixed asset chang
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Formulas in purchase order and purchase invoice | generally available (roadmap [573374](../features/573374.md)), demoed | [0:06](https://www.youtube.com/watch?v=t_UXxbvgnHY&t=6s) |  |
-| Improved sustainability entry discovery | status not stated | [0:23](https://www.youtube.com/watch?v=t_UXxbvgnHY&t=23s) |  |
-| Value chain emissions in item journals | generally available (roadmap [573378](../features/573378.md)), demoed | [0:44](https://www.youtube.com/watch?v=t_UXxbvgnHY&t=44s) |  |
-| Scope three tracking by item tracking level | generally available (roadmap [573379](../features/573379.md)), demoed | [0:59](https://www.youtube.com/watch?v=t_UXxbvgnHY&t=59s) |  |
-| ESG report layout with lot details | status not stated, demoed | [1:14](https://www.youtube.com/watch?v=t_UXxbvgnHY&t=74s) |  |
-| Sustainability ledger entry reversal | generally available (roadmap [573376](../features/573376.md)), demoed | [1:24](https://www.youtube.com/watch?v=t_UXxbvgnHY&t=84s) |  |
-| Collect from GL with posting memory | status not stated, demoed | [1:48](https://www.youtube.com/watch?v=t_UXxbvgnHY&t=108s) |  |
-| Fixed asset emissions in journals | status not stated, demoed | [4:28](https://www.youtube.com/watch?v=t_UXxbvgnHY&t=268s) |  |
-| UDR certificate capture | status not stated | [2:02](https://www.youtube.com/watch?v=t_UXxbvgnHY&t=122s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Formulas in purchase order and purchase invoice | generally available (roadmap [573374](../features/573374.md)), demoed | [0:06](https://www.youtube.com/watch?v=t_UXxbvgnHY&t=6s) |
+| Improved sustainability entry discovery | status not stated | [0:23](https://www.youtube.com/watch?v=t_UXxbvgnHY&t=23s) |
+| Value chain emissions in item journals | generally available (roadmap [573378](../features/573378.md)), demoed | [0:44](https://www.youtube.com/watch?v=t_UXxbvgnHY&t=44s) |
+| Scope three tracking by item tracking level | generally available (roadmap [573379](../features/573379.md)), demoed | [0:59](https://www.youtube.com/watch?v=t_UXxbvgnHY&t=59s) |
+| ESG report layout with lot details | status not stated, demoed | [1:14](https://www.youtube.com/watch?v=t_UXxbvgnHY&t=74s) |
+| Sustainability ledger entry reversal | generally available (roadmap [573376](../features/573376.md)), demoed | [1:24](https://www.youtube.com/watch?v=t_UXxbvgnHY&t=84s) |
+| Collect from GL with posting memory | status not stated, demoed | [1:48](https://www.youtube.com/watch?v=t_UXxbvgnHY&t=108s) |
+| Fixed asset emissions in journals | status not stated, demoed | [4:28](https://www.youtube.com/watch?v=t_UXxbvgnHY&t=268s) |
+| UDR certificate capture | status not stated | [2:02](https://www.youtube.com/watch?v=t_UXxbvgnHY&t=122s) |
 
 A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
