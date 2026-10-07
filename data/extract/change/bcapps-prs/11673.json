@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/11673",
+  "number": 11673,
+  "title": "#[MAIN]-Not enough inventory available at vendor location for this order",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [],
+  "summary": "India Localization subcontracting receipt now prevents duplicate component consumption that occurred when both standard manufacturing posting and the Delivery Challan process posted consumption simultaneously.",
+  "key_points": [
+    "Component consumption was posted twice: once by standard manufacturing flow and once by India Localization Delivery Challan process",
+    "Solution assigns Subcontracting Order No. to identify India-specific output journal lines and suppresses automatic flushing for these lines",
+    "Preserves normal production flushing for other scenarios while preventing inventory errors from doubled consumption",
+    "Fixes incorrect posting behavior that could cause 'not enough inventory' errors at production location",
+    "Maintains output posting, capacity posting, vendor-location consumption, and item tracking functionality"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "purchasing",
+    "manufacturing",
+    "localization"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003636,
+    "changes_in_call": 1
+  }
+}

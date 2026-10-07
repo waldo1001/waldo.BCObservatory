@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/11292",
+  "number": 11292,
+  "title": "Bug 648535: Reprice subcontracting lines after scheduling",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "manufacturing"
+  ],
+  "summary": "Fixed repricing of subcontracting purchase lines in multiple scenarios: carrying out worksheet costs when no price matches, editing dates on released orders, and rescheduling with lead-time adjustments.",
+  "key_points": [
+    "Prevents overwriting calculated worksheet costs with raw routing rates when no matching price exists",
+    "Uses standard subcontracting worksheet cost formula as fallback instead of routing rate",
+    "Skips financial repricing for non-open purchase orders to avoid validation errors",
+    "Keys planned-date repricing on the final Order Date to catch all rescheduling scenarios",
+    "Adds comprehensive regression tests covering pricing edge cases and date-edit scenarios"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing",
+    "purchasing"
+  ],
+  "quote": "Detects whether the transferred worksheet value is the automatically selected price before repricing it",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003798,
+    "changes_in_call": 1
+  }
+}

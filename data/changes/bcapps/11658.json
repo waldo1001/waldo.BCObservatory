@@ -1,0 +1,89 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11658,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11658",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-22T13:49:35Z",
+  "merge_commit_sha": "744a355980cee670f751a5181df76dd0ff2cd1ed",
+  "author": "onbuyuka",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "[Shopify] Limit webhook subscription payload fields",
+  "body_hash": "44ce6cf63b1b63882bb7fee2dc974cfeac596f7d4dc7ff8f1af9fb74f0d335a4",
+  "fixes_issues": [],
+  "work_items": [
+    650501
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Shopify/App/.resources/graphql/Base/CreateWebhookSubscription.graphql",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/Shopify/App/src/Webhooks/Codeunits/ShpfyWebhooksAPI.Codeunit.al",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Shopify/App/src/Webhooks/Codeunits/ShpfyWebhooksMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 15,
+    "deletions": 4,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Shopify/App/src/Webhooks/Codeunits/ShpfyWebhooksAPI.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/30251",
+        "type": "codeunit",
+        "id": 30251,
+        "name": "Shpfy Webhooks API",
+        "app": "Shopify",
+        "cc": "w1",
+        "page": "codeunit/30251"
+      },
+      {
+        "path": "src/Apps/W1/Shopify/App/src/Webhooks/Codeunits/ShpfyWebhooksMgt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/30269",
+        "type": "codeunit",
+        "id": 30269,
+        "name": "Shpfy Webhooks Mgt.",
+        "app": "Shopify",
+        "cc": "w1",
+        "page": "codeunit/30269"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "integration"
+  ],
+  "apps": [
+    "Shopify"
+  ]
+}

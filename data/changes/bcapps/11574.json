@@ -1,0 +1,102 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11574,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11574",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-22T13:34:40Z",
+  "merge_commit_sha": "45d5c6a0a2d7e537b575a48e581e2c8ff9c0e408",
+  "author": "MSNehaNawal",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[main] Bugs 650415 Financial Report Open in Excel fails with duplicate Excel Buffer cell when LCY Code is empty",
+  "body_hash": "1b3cb8d005d6e4b2e023637a0b548a63b814088554e84d39ec0ea9474eb11f08",
+  "fixes_issues": [],
+  "work_items": [
+    650415
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/CZ/Tests/ERM-Finance/ERMAccountScheduleII.Codeunit.al",
+      "status": "modified",
+      "additions": 29,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Finance/FinancialReports/ExportAccSchedtoExcel.Report.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/Tests/ERM-Finance/ERMAccountScheduleII.Codeunit.al",
+      "status": "modified",
+      "additions": 29,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/FinancialReports/ExportAccSchedtoExcel.Report.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/ERM-Finance/ERMAccountScheduleII.Codeunit.al",
+      "status": "modified",
+      "additions": 29,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 5,
+    "additions": 95,
+    "deletions": 4,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/NA/BaseApp/Finance/FinancialReports/ExportAccSchedtoExcel.Report.al",
+        "status": "modified",
+        "key": "report/29",
+        "type": "report",
+        "id": 29,
+        "name": "Export Acc. Sched. to Excel",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "report/29"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/FinancialReports/ExportAccSchedtoExcel.Report.al",
+        "status": "modified",
+        "key": "report/29",
+        "type": "report",
+        "id": 29,
+        "name": "Export Acc. Sched. to Excel",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/29"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

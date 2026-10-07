@@ -6,10 +6,35 @@
   "title": "[MCP] Hide codeunit APIs from Available APIs dropdown (AB#650771)",
   "url": "https://github.com/microsoft/BCApps/pull/11701",
   "published_at": "2026-09-22T14:58:23Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:00:08.458Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:00:13.170Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.00352
+    },
+    "linked": {
+      "at": "2026-10-07T13:00:13.397Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "1d24dd5ee2a734510f0556ccc69342d0e616db2f"
+    },
+    "published": {
+      "at": "2026-10-07T13:00:13.402Z",
+      "path": "content/changes/bcapps/11701.md"
     }
   },
   "input_hash": "e988907bc98569bdd3dbdb6cc33a7bc4a0dc4663:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "mcp hide codeunit apis from available apis dropdown ab 650771"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "23fd3887e7a0a6263c701791c308319a82a8eb19194bbe61344c49a72bc0e207"
 }

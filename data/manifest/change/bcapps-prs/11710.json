@@ -6,10 +6,35 @@
   "title": "[29.x]-Not enough inventory available at vendor location for this order",
   "url": "https://github.com/microsoft/BCApps/pull/11710",
   "published_at": "2026-09-22T12:19:42Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:00:16.063Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:00:20.795Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003424
+    },
+    "linked": {
+      "at": "2026-10-07T13:00:21.024Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "1d24dd5ee2a734510f0556ccc69342d0e616db2f"
+    },
+    "published": {
+      "at": "2026-10-07T13:00:21.030Z",
+      "path": "content/changes/bcapps/11710.md"
     }
   },
   "input_hash": "90ef1c945012030c03423b3e60332e4a4bb9bfc7:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "not enough inventory available at vendor location for this order"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "49f259b9da56561d9059c8e6a935de3565d4927b2c0ebf0ded7c430cd5e90811"
 }

@@ -1,0 +1,156 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10495,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10495",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-22T13:02:40Z",
+  "merge_commit_sha": "f9bbf5702758a63481ae21076e055298b4988fa8",
+  "author": "MSlenejennum",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "MSlenejennum/647454/sales internal new body layouts and obsolete current",
+  "body_hash": "c63d1b9783ca387d5e0b407aa2fb537a92c9a8fcf3e9793efc046c416dcf4143",
+  "fixes_issues": [],
+  "work_items": [
+    647454
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/APAC/BaseApp/Sales/Reports/SalespersonSalesStatistics.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Sales/Reports/CustomerOrderSummary.Report.al",
+      "status": "modified",
+      "additions": 17,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Sales/Reports/CustomerOrderSummary.Report.al",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Sales/Reports/CustomerOrderSummaryBody.docx",
+      "status": "added",
+      "additions": 0,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Sales/Reports/SalespersonCommission.Report.al",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Sales/Reports/SalespersonCommissionBody.docx",
+      "status": "added",
+      "additions": 0,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Sales/Reports/SalespersonSalesStatistics.Report.al",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Sales/Reports/SalespersonSalesStatisticsBody.docx",
+      "status": "added",
+      "additions": 0,
+      "deletions": 0,
+      "class": "other"
+    }
+  ],
+  "totals": {
+    "files": 8,
+    "additions": 57,
+    "deletions": 0,
+    "al": 5
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/APAC/BaseApp/Sales/Reports/SalespersonSalesStatistics.Report.al",
+        "status": "modified",
+        "key": "report/114",
+        "type": "report",
+        "id": 114,
+        "name": "Salesperson - Sales Statistics",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "report/114"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Sales/Reports/CustomerOrderSummary.Report.al",
+        "status": "modified",
+        "key": "report/107",
+        "type": "report",
+        "id": 107,
+        "name": "Customer - Order Summary",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "report/107"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Sales/Reports/CustomerOrderSummary.Report.al",
+        "status": "modified",
+        "key": "report/107",
+        "type": "report",
+        "id": 107,
+        "name": "Customer - Order Summary",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/107"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Sales/Reports/SalespersonCommission.Report.al",
+        "status": "modified",
+        "key": "report/115",
+        "type": "report",
+        "id": 115,
+        "name": "Salesperson - Commission",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/115"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Sales/Reports/SalespersonSalesStatistics.Report.al",
+        "status": "modified",
+        "key": "report/114",
+        "type": "report",
+        "id": 114,
+        "name": "Salesperson - Sales Statistics",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/114"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "sales"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

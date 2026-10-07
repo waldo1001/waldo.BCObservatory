@@ -1,0 +1,65 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11673,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11673",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-22T12:41:14Z",
+  "merge_commit_sha": "133295ec62e94c9f491f59c2394a519935934f58",
+  "author": "v-ajaztabrez",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "#[MAIN]-Not enough inventory available at vendor location for this order",
+  "body_hash": "ac98f6f852acb7e5f10dbb756367685c0b5b6708179fdcdb556279c09efdfa7a",
+  "fixes_issues": [],
+  "work_items": [
+    649464
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/IN/INGST/app/GSTSubcontracting/src/Codeunit/SubcontractingPost.Codeunit.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 16,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/IN/INGST/app/GSTSubcontracting/src/Codeunit/SubcontractingSubscribers.Codeunit.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 13,
+    "deletions": 16,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "src/Apps/IN/INGST/app/GSTSubcontracting/src/Codeunit/SubcontractingPost.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/IN/INGST/app/GSTSubcontracting/src/Codeunit/SubcontractingSubscribers.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

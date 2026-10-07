@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/11626",
+  "number": 11626,
+  "title": "[Master Data Management] Fixing synchronization of contacts, media, date, datetime, source watermarking, permission issue and minor UX issues",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "Master Data Management synchronization is fixed to handle contacts, media caching, date/datetime values, privacy consent errors, and permission issues affecting non-SUPER users.",
+  "key_points": [
+    "Media and watermark cache lifetime now resets only at batch boundaries instead of during ancillary fetches",
+    "Privacy consent failures show actionable messages instead of bare 403 errors",
+    "Contact synchronization fixed for scenarios where auto-created contacts conflict with existing entries",
+    "Blank date and datetime values now synchronize correctly",
+    "Permission issues resolved for non-SUPER users accessing Master Data Management features"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": "Media/watermark cache lifetime fix - resets only at the batch boundary (GetModifiedBatch).",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004694,
+    "changes_in_call": 1
+  }
+}

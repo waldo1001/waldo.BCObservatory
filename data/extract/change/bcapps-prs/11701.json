@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/11701",
+  "number": 11701,
+  "title": "[MCP] Hide codeunit APIs from Available APIs dropdown (AB#650771)",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Codeunit API options are hidden from the MCP Configuration Available APIs dropdown until platform compiler support is ready, while all underlying validation and helper code remains intact for future re-enablement.",
+  "key_points": [
+    "Codeunit choices removed from MCP Config Tool List Available APIs lookup",
+    "Page and Query lookup behavior unchanged",
+    "All validation, tool creation, and version logic preserved for future use",
+    "Temporary hiding pending platform compiler support",
+    "No breaking changes to persisted data or upgrade behavior"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration",
+    "platform"
+  ],
+  "quote": "This removes Codeunit choices from the MCP Configuration Available APIs lookup to avoid presenting customers with options that cannot yet be used.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00352,
+    "changes_in_call": 1
+  }
+}

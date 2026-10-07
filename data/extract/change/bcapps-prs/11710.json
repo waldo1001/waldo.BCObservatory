@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/11710",
+  "number": 11710,
+  "title": "[29.x]-Not enough inventory available at vendor location for this order",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Subcontracting receipt posting no longer duplicates component consumption by suppressing automatic flushing for India Localization output lines that already have consumption posted via Delivery Challan.",
+  "key_points": [
+    "Component consumption was being posted twice during subcontracting receipt in India Localization",
+    "The standard manufacturing flow and India Localization processes now coordinate to avoid duplicate flushing",
+    "Subcontracting Order No is tracked on output journal lines to identify when to suppress automatic flushing",
+    "Item tracking, capacity posting, and normal production flushing remain unaffected"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing",
+    "localization"
+  ],
+  "quote": "Component consumption was posted twice for components using the Backward flushing method.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003424,
+    "changes_in_call": 1
+  }
+}

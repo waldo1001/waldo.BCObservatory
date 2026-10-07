@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/11574",
+  "number": 11574,
+  "title": "[main] Bugs 650415 Financial Report Open in Excel fails with duplicate Excel Buffer cell when LCY Code is empty",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Export Account Schedule to Excel report fixed to prevent duplicate Excel Buffer cell errors when the local currency code is empty.",
+  "key_points": [
+    "Resolves duplicate Excel Buffer cell issue in financial report exports",
+    "Handles edge case when LCY Code is empty",
+    "Test coverage added for the scenario across multiple locales",
+    "Applied to both NA and W1 application layers"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "reporting"
+  ],
+  "quote": "Financial Report Open in Excel fails with duplicate Excel Buffer cell when LCY Code is empty",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003371,
+    "changes_in_call": 1
+  }
+}

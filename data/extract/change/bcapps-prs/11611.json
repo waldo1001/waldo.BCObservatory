@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/11611",
+  "number": 11611,
+  "title": "[Shopify] Add GraphQL type to request telemetry",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "Shopify request telemetry now includes a GraphQL Type custom dimension that captures the query type name for typed requests while preserving privacy by not exposing query contents or variables.",
+  "key_points": [
+    "New GraphQL Type dimension added to telemetry event 0000K8W",
+    "Typed requests emit the enum value name; untyped requests emit empty value",
+    "Dimension value persists through HTTP and GraphQL retry paths",
+    "Enables grouping telemetry by query type without exposing sensitive data",
+    "Change is additive with no impact on existing request behavior"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003566,
+    "changes_in_call": 1
+  }
+}

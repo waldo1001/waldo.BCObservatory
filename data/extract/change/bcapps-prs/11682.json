@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/11682",
+  "number": 11682,
+  "title": "[Expense Agent] Remove migration TODO and analyzer suppressions",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Expense Agent setup code removes stale TODOs and obsolete analyzer suppressions, replacing broad suppression rules with compliant variable naming patterns.",
+  "key_points": [
+    "Removed stale annotation TODO from Expense Agent metadata provider",
+    "Removed obsolete AS0031 suppressions from setup pages",
+    "Replaced broad AA0073 suppression with compliant temporary-record variable names",
+    "No behavioral changes from code cleanup",
+    "Code validated with BCApps ruleset and analyzers"
+  ],
+  "change_kind": "refactor",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "copilot"
+  ],
+  "quote": "remove the stale Expense Agent annotation TODO while preserving the intentionally empty annotation result",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003333,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11648,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11648",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-22T08:50:50Z",
+  "merge_commit_sha": "c5fb54aea24ef7ac0111cfb5645daf6b35bacb53",
+  "author": "v-ajaztabrez",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[MAIN]: When receiving a payment from an SEZ (Special Economic Zone) customer under the \"Without Payment of Duty\" scenario, GST is being calculated incorrectly in the Bank Receipt Voucher in the Indian version.",
+  "body_hash": "8dadc6064b177e113f91481cf4f47a2f800670fa03e3cede19d7a7f4e05d4422",
+  "fixes_issues": [],
+  "work_items": [
+    650742
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/IN/INGST/app/.resources/GSTUseCases/b7d173ed-4b8f-4f13-95b8-b7c4890b3623.json",
+      "status": "modified",
+      "additions": 759,
+      "deletions": 120,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/IN/INGST/app/GSTBase/src/TaxEngineSetup/GSTTaxConfiguration.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/IN/INGST/app/GSTPayments/src/PageExtension/GSTBankReceiptVoucherExt.PageExt.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 770,
+    "deletions": 121,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "src/Apps/IN/INGST/app/GSTBase/src/TaxEngineSetup/GSTTaxConfiguration.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/IN/INGST/app/GSTPayments/src/PageExtension/GSTBankReceiptVoucherExt.PageExt.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/11658",
+  "number": 11658,
+  "title": "[Shopify] Limit webhook subscription payload fields",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "Shopify webhook subscriptions now request only the required fields (id for orders, admin_graphql_api_id and type for bulk operations) instead of receiving full webhook resources, reducing payload size and network overhead.",
+  "key_points": [
+    "Added topic-specific includeFields parameters to webhook subscription GraphQL queries",
+    "Orders/create webhooks now request only the id field",
+    "Bulk operations finish webhooks now request admin_graphql_api_id and type fields",
+    "Existing subscriptions are not affected; changes apply to new or recreated subscriptions",
+    "No schema, permission, or upgrade changes required"
+  ],
+  "change_kind": "performance",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003694,
+    "changes_in_call": 1
+  }
+}

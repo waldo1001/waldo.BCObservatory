@@ -6,7 +6,7 @@
   "title": "Bug 650759: [main][NAV] Track Translation update (AUTODETECTED)",
   "url": "https://github.com/microsoft/BCApps/pull/11653",
   "published_at": "2026-09-22T09:10:03Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -28,5 +28,8 @@
     ],
     "community_contribution": false,
     "title_key": "bug 650759 main nav track translation update autodetected"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T13:00:19.431Z",
+  "retry_after": null
 }

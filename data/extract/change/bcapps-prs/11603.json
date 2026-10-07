@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/11603",
+  "number": 11603,
+  "title": "[Shopify] Show configured product status in Add to Shopify confirmation",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "The Shopify connector now displays the configured product status (Active, Draft, or Unlisted) in the Add to Shopify confirmation dialog, with SetIsActive obsoleted in favor of SetProductStatus.",
+  "key_points": [
+    "Passes full configured product status to Add to Shopify confirmation dialog",
+    "Shows correct confirmation text for Active, Draft, and Unlisted products",
+    "Obsoletes SetIsActive in favor of SetProductStatus",
+    "Adds regression test coverage for all three product statuses"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": true,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": "Show the correct confirmation text for Active, Draft, and Unlisted products.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003759,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/10495",
+  "number": 10495,
+  "title": "MSlenejennum/647454/sales internal new body layouts and obsolete current",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sales"
+  ],
+  "summary": "Three sales reports receive new internal Word body layouts while their existing Word layouts are marked obsolete, with no change to default behavior since Excel remains the default rendering format.",
+  "key_points": [
+    "New WordBody layouts added for Customer - Order Summary, Salesperson - Sales Statistics, and Salesperson - Commission reports",
+    "Existing Word layouts marked as ObsoleteState Pending with ObsoleteTag 30.0",
+    "Default rendering format remains Excel; Excel and RDLC layouts unchanged",
+    "Partners using derived layouts get compile warning and time to migrate before 30.0 cleanup",
+    "Header/footer and theme parts commented out pending related change 647452"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales",
+    "reporting"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00475,
+    "changes_in_call": 1
+  }
+}

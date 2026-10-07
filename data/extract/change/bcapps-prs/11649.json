@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/11649",
+  "number": 11649,
+  "title": "[29.x]: When receiving a payment from an SEZ (Special Economic Zone) customer under the \"Without Payment of Duty\" scenario, GST is being calculated incorrectly in the Bank Receipt Voucher in the Indian version.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Fixed GST calculation for SEZ customers using the Without Payment of Duty scenario in the Indian Bank Receipt Voucher by triggering tax engine recalculation and correcting the use case configuration to properly zero out IGST and generate required ledger entries.",
+  "key_points": [
+    "Bank Receipt Voucher now triggers tax engine recalculation when GST Without Payment of Duty is validated",
+    "SEZ General Journal use case updated to calculate zero IGST instead of the previous incorrect value",
+    "GST Posting Setup table metadata and posting-table definitions added to the use case configuration",
+    "Use case version increased to ensure updated configuration is imported during deployment",
+    "GST ledger entries will now be properly generated during posting for this scenario"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "quote": "GST is being calculated incorrectly in the Bank Receipt Voucher in the Indian version",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003862,
+    "changes_in_call": 1
+  }
+}

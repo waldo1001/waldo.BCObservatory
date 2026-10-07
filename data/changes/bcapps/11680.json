@@ -1,0 +1,41 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11680,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11680",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-09-22T14:19:46Z",
+  "merge_commit_sha": "309235d176fb3484796969419fd2b54f17352b36",
+  "author": "mazhelez",
+  "author_type": "User",
+  "labels": [
+    "Build: scripts & configs",
+    "Ownership: Needs Review",
+    "Team: Other"
+  ],
+  "community_contribution": false,
+  "title": "Miapp: honor PR target branch as VerifyMiappSync base when it exists",
+  "body_hash": "10ae9a9603b46ecddf34e9f4a85f42d905bf27f3aa27de33c1ccbf0f09932cff",
+  "fixes_issues": [],
+  "work_items": [
+    650947
+  ],
+  "change_class": "build",
+  "files": [],
+  "totals": {
+    "files": 1,
+    "additions": 46,
+    "deletions": 9,
+    "al": 0
+  },
+  "join": {
+    "major": "30",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}
