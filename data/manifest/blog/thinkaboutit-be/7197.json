@@ -7,13 +7,39 @@
   "url": "https://thinkaboutit.be/2025/11/introducing-power-bi-monitor-unified-power-bi-management-in-business-central/",
   "published_at": "2025-11-16T11:53:12.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:31:07.314Z",
+      "path": "vault:posts/thinkaboutit-be/7197.md",
+      "words": 809
+    },
+    "extracted": {
+      "at": "2026-10-07T01:31:07.320Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:31:07.321Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:31:07.321Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:31:07.326Z",
+      "path": "content/posts/thinkaboutit-be/7197.md"
     }
   },
   "input_hash": "2025-11-19T15:30:16.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "bb810c9ae09b1ba11cdae812fd4b5e02e23005d6a1839f1f3c0427006a34d5c4"
 }

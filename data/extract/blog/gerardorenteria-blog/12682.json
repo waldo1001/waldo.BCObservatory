@@ -1,0 +1,65 @@
+{
+  "item_id": "blog/gerardorenteria-blog/12682",
+  "url": "https://gerardorenteria.blog/2025/11/12/%f0%9f%a4%96-abouttext-teaching-ai-to-understand-your-apis-%e2%9c%a8/",
+  "title": "🤖 AboutText: Teaching AI to Understand Your APIs ✨",
+  "source": "gerardorenteria-blog",
+  "published_at": "2025-11-12T15:46:48.000Z",
+  "words": 603,
+  "summary": "The AboutText property, added to APIV2 pages in Business Central 27.1, allows APIs to describe themselves to AI assistants. When APIs are exposed through the Model Context Protocol (MCP), this property tells AI systems what the API manages, what data it includes, what operations it supports, and what use cases it enables, helping AI assistants decide when to use the correct API.",
+  "key_points": [
+    "AboutText is a new property in BC 27.1 for APIV2 pages that describes API functionality to AI systems",
+    "The property appears as a tool description in Copilot Studio when reading MCP configuration",
+    "AI assistants read AboutText to determine which API to use when responding to user requests",
+    "Best practice structure includes what the API manages, what data it includes, operations supported, use cases, and integrations"
+  ],
+  "systems": [
+    "integration",
+    "copilot",
+    "development"
+  ],
+  "topics": [
+    "api",
+    "abouttext",
+    "mcp",
+    "ai assistance",
+    "copilot studio",
+    "apiv2",
+    "self-documenting apis"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "APIV2 - Employees"
+    }
+  ],
+  "features": [
+    "AboutText property",
+    "Model Context Protocol (MCP)",
+    "API self-documentation",
+    "Copilot Studio integration",
+    "APIV2 pages"
+  ],
+  "versions": [
+    "27.0",
+    "27.1"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "APIs need to be self-explanatory for AI assistants.",
+      "why_it_matters": "Explains the fundamental motivation for the AboutText property - making APIs discoverable and usable by AI systems"
+    },
+    {
+      "text": "AboutText = '[What it manages] + [What data it includes] + [What operations] + [What use cases] + [What integrations]'",
+      "why_it_matters": "Provides the recommended structure for writing effective AboutText descriptions"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

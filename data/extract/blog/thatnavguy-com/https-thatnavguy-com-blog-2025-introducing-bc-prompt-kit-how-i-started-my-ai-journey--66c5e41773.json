@@ -1,0 +1,73 @@
+{
+  "item_id": "blog/thatnavguy-com/https://thatnavguy.com/blog/2025/introducing-bc-prompt-kit-how-i-started-my-ai-journey/",
+  "url": "https://thatnavguy.com/blog/2025/introducing-bc-prompt-kit-how-i-started-my-ai-journey/",
+  "title": "Introducing BC Prompt Kit: How I Started My AI Journey",
+  "source": "thatnavguy-com",
+  "published_at": "2025-11-17T00:00:00.000Z",
+  "words": 564,
+  "summary": "BC Prompt Kit is a collection of organized prompts for developers to adopt AI in Business Central and AL development. It covers base development, feature analysis, documentation, and refactoring, designed to help developers overcome initial skepticism and integrate AI into their daily workflow.",
+  "key_points": [
+    "AI helps with tedious parts of development like code generation, documentation, and refactoring, freeing developers to focus on complex problems",
+    "Effective AI use requires good prompts and MCP servers, plus developer review and accountability for generated code",
+    "Starting with small, incremental tasks builds confidence and workflow integration faster than attempting large-scale AI adoption",
+    "BC Prompt Kit organizes prompts into four categories: base development, feature analysis, documentation, and refactoring"
+  ],
+  "systems": [
+    "development",
+    "copilot"
+  ],
+  "topics": [
+    "ai",
+    "copilot",
+    "al development",
+    "prompts",
+    "code generation",
+    "documentation",
+    "refactoring"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "table"
+    },
+    {
+      "type": "page",
+      "name": "page"
+    },
+    {
+      "type": "codeunit",
+      "name": "codeunit"
+    },
+    {
+      "type": "api",
+      "name": "api"
+    }
+  ],
+  "features": [
+    "AI-assisted code generation",
+    "Documentation automation",
+    "Code analysis",
+    "Refactoring support",
+    "MCP server integration"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "AI isn't magical or perfect, but it genuinely helps with the tedious parts of development.",
+      "why_it_matters": "This reframes AI as a practical tool for handling repetitive tasks rather than a replacement for developer judgment, which is crucial for professional adoption."
+    },
+    {
+      "text": "You own the code, even if AI generates it. Take full responsibility before releasing to production.",
+      "why_it_matters": "This establishes clear accountability for AI-generated code, which is essential for maintaining code quality and security in production systems."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

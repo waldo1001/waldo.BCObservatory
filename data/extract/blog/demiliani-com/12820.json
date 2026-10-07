@@ -1,0 +1,62 @@
+{
+  "item_id": "blog/demiliani-com/12820",
+  "url": "https://demiliani.com/2025/11/19/dynamics-365-business-central-on-premises-and-sql-server-2025/",
+  "title": "Dynamics 365 Business Central on-premises and SQL Server 2025.",
+  "source": "demiliani-com",
+  "published_at": "2025-11-19T11:00:59.000Z",
+  "words": 418,
+  "summary": "SQL Server 2025 introduces significant improvements for Dynamics 365 Business Central on-premises environments, including higher resource limits for Standard Edition, enhanced columnstore indexes, improved locking and query optimization, persistent statistics on secondary replicas, AI capabilities, and Fabric mirroring support.",
+  "key_points": [
+    "SQL Server 2025 Standard Edition now supports up to 32 CPU cores and 256GB RAM, nearly double the previous limits",
+    "Columnstore indexes can now be created or rebuilt online using tempdb for improved query performance",
+    "Optional Parameter Plan Optimization (OPPO) reduces parameter sniffing issues and ensures more predictable query performance",
+    "Statistics are preserved on secondary replicas after failover, preventing performance degradation from statistics rebuild",
+    "New AI-ready capabilities include sp_invoke_external_rest_endpoint, vector data type, and vector search functionality"
+  ],
+  "systems": [
+    "platform",
+    "administration",
+    "development"
+  ],
+  "topics": [
+    "sql server 2025",
+    "on-premises",
+    "performance optimization",
+    "columnstore indexes",
+    "high availability",
+    "ai capabilities",
+    "sql upgrades"
+  ],
+  "objects": [],
+  "features": [
+    "SQL Server 2025 Standard Edition resource limits",
+    "Ordered nonclustered columnstore indexes",
+    "Online columnstore index creation",
+    "Optional Parameter Plan Optimization (OPPO)",
+    "Improved locking management",
+    "Persistent statistics on secondary replicas",
+    "Vector data type and functions",
+    "Fabric mirroring with change feed capability"
+  ],
+  "versions": [
+    "SQL Server 2025",
+    "SQL Server 2024",
+    "SQL Server 2016",
+    "SQL Server 2014"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "With SQL Server 2025, statistics are now preserved on secondary replicas, even after a restart or failover.",
+      "why_it_matters": "Eliminates a common cause of performance degradation in high-availability BC configurations after failover events"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

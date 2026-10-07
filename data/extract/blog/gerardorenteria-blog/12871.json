@@ -1,0 +1,95 @@
+{
+  "item_id": "blog/gerardorenteria-blog/12871",
+  "url": "https://gerardorenteria.blog/2025/11/19/%f0%9f%93%8b-effortless-copy-actions-from-business-central-to-clipboard-%f0%9f%93%8e/",
+  "title": "📋 Effortless Copy Actions: From Business Central to Clipboard 📎",
+  "source": "gerardorenteria-blog",
+  "published_at": "2025-11-19T19:05:32.000Z",
+  "words": 961,
+  "summary": "This extension enables users to copy formatted customer, vendor, and transaction data from Business Central directly to the clipboard with a single action, ready to share via email, Teams, or other applications. It demonstrates a modular AL architecture using page extensions, codeunits, and WebPageViewer to handle data formatting and clipboard operations.",
+  "key_points": [
+    "Modular architecture separates formatting logic by entity type into dedicated codeunits for customers, vendors, and ledger entries",
+    "WebPageViewer add-in renders HTML with two-column layout and JavaScript clipboard API for seamless data copying",
+    "Page extensions add copy actions to Customer List, Vendor List, and Customer Ledger Entries, integrating the feature into existing workflows",
+    "Formatted data preserves layout when pasted into external applications like email, Teams, or text editors"
+  ],
+  "systems": [
+    "sales",
+    "purchasing",
+    "crm"
+  ],
+  "topics": [
+    "clipboard",
+    "page extensions",
+    "webpageviewer",
+    "data formatting",
+    "user actions",
+    "modular architecture",
+    "add-in development"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "GDRGClipboardMgtCust"
+    },
+    {
+      "type": "codeunit",
+      "name": "GDRGClipboardMgtVend"
+    },
+    {
+      "type": "codeunit",
+      "name": "GDRGClipboardMgtCustLedg"
+    },
+    {
+      "type": "page",
+      "name": "GDRGClipboardHelper"
+    },
+    {
+      "type": "page",
+      "name": "GDRGCustomerListExt"
+    },
+    {
+      "type": "page",
+      "name": "GDRGVendorListExt"
+    },
+    {
+      "type": "page",
+      "name": "GDRGCustLedgerEntries"
+    },
+    {
+      "type": "permissionset",
+      "name": "GDRGClipboard"
+    }
+  ],
+  "features": [
+    "Copy to clipboard action",
+    "Two-column formatted layout",
+    "Dynamic dialog titles",
+    "HTML rendering via WebPageViewer",
+    "JavaScript event handling",
+    "Data formatting by entity type"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Page extensions capture user actions that allow entity data to be formatted into two-column text.",
+      "why_it_matters": "Explains how the solution integrates copy functionality into existing pages without modifying core objects"
+    },
+    {
+      "text": "Executes document.execCommand('copy') to copy the content to the system clipboard with visual feedback.",
+      "why_it_matters": "Describes the JavaScript mechanism that actually places formatted data into the system clipboard"
+    },
+    {
+      "text": "The copied information is now ready to be pasted into any application: email, Teams, WhatsApp, or any text editor.",
+      "why_it_matters": "Demonstrates the practical benefit of preserving formatting across different external applications"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "item_id": "blog/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-56-understand-missing-fields-in-copy-documents/",
+  "url": "https://thatnavguy.com/blog/2025/bc-friday-tips-56-understand-missing-fields-in-copy-documents/",
+  "title": "BC Friday Tips #56 Understand Missing Fields in Copy Documents",
+  "source": "thatnavguy-com",
+  "published_at": "2025-11-14T00:00:00.000Z",
+  "words": 133,
+  "summary": "When copying documents in Sales Order processing, not all fields transfer to Posted Sales Shipment and Posted Sales Invoice. Shipping Agent Code and Service Code only appear in header tables, not line tables, which can leave key fields blank. Copying from Archived Sales Orders preserves more data than copying from Posted Invoices.",
+  "key_points": [
+    "Shipping Agent Code and Shipping Agent Service Code exist in Sales Header/Line but only appear in Posted Shipment/Invoice headers",
+    "Copying from Posted Sales Invoice can result in missing fields compared to copying from Archived Sales Order",
+    "Field inconsistencies across related documents need awareness to prevent data loss during document workflows",
+    "Understanding which fields transfer between document types helps maintain data accuracy"
+  ],
+  "systems": [
+    "sales"
+  ],
+  "topics": [
+    "copy documents",
+    "sales orders",
+    "posted documents",
+    "archived documents",
+    "data fields"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Sales Header"
+    },
+    {
+      "type": "table",
+      "name": "Sales Line"
+    },
+    {
+      "type": "table",
+      "name": "Sales Shipment Header"
+    },
+    {
+      "type": "table",
+      "name": "Sales Invoice Header"
+    },
+    {
+      "type": "table",
+      "name": "Posted Sales Shipment"
+    },
+    {
+      "type": "table",
+      "name": "Posted Sales Invoice"
+    },
+    {
+      "type": "table",
+      "name": "Archived Sales Order"
+    }
+  ],
+  "features": [
+    "copy documents",
+    "sales order processing",
+    "posted documents",
+    "archived documents",
+    "field mapping"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Not all fields in a Sales Order transfer to the Posted Sales Shipment or Posted Sales Invoice.",
+      "why_it_matters": "This is the core issue affecting document copying workflows and data consistency"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "item_id": "blog/thinkaboutit-be/7197",
+  "url": "https://thinkaboutit.be/2025/11/introducing-power-bi-monitor-unified-power-bi-management-in-business-central/",
+  "title": "Introducing Power BI Monitor: Unified Power BI Management in Business Central",
+  "source": "thinkaboutit-be",
+  "published_at": "2025-11-16T11:53:12.000Z",
+  "words": 809,
+  "summary": "Power BI Monitor is a Business Central extension that centralizes Power BI management, allowing users to monitor workspaces, datasets, dataflows, reports, and dashboards without leaving BC. It enables refresh management, error tracking, and provides a dedicated role center for unified control of Power BI resources from within Business Central.",
+  "key_points": [
+    "Unified view of Power BI resources including workspaces, datasets, dataflows, reports, and dashboards with real-time refresh status",
+    "Flexible refresh management with options to refresh individual resources or bulk operations, complete history logging, and performance tracking",
+    "Proactive error monitoring with a 30-day error dashboard showing statistics and detailed diagnostics for troubleshooting",
+    "Uses OAuth 2.0 authentication and service-oriented architecture to securely connect with Power BI REST APIs"
+  ],
+  "systems": [
+    "reporting",
+    "integration",
+    "administration"
+  ],
+  "topics": [
+    "power bi",
+    "monitoring",
+    "refresh management",
+    "error tracking",
+    "integration",
+    "analytics",
+    "extension"
+  ],
+  "objects": [],
+  "features": [
+    "Power BI workspace monitoring",
+    "Dataset and dataflow visibility",
+    "Refresh operation management",
+    "Real-time refresh status tracking",
+    "Error dashboard and diagnostics",
+    "Audit trail logging",
+    "Azure AD authentication",
+    "Dedicated role center"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "What if you could monitor, manage, and troubleshoot all your Power BI resources without leaving BC?",
+      "why_it_matters": "Captures the core value proposition of eliminating context switching between Business Central and Power BI portals"
+    },
+    {
+      "text": "Power BI Monitor uses OAuth 2.0 authentication to securely connect with Power BI's REST APIs.",
+      "why_it_matters": "Explains the technical approach and security mechanism used for integration"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

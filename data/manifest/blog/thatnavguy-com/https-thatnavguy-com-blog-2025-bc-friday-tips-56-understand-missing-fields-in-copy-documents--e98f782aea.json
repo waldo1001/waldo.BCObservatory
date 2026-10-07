@@ -7,13 +7,39 @@
   "url": "https://thatnavguy.com/blog/2025/bc-friday-tips-56-understand-missing-fields-in-copy-documents/",
   "published_at": "2025-11-14T00:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:31:07.390Z",
+      "path": "vault:posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-56-understand-missing-fields-in-copy-documents--e98f782aea.md",
+      "words": 133
+    },
+    "extracted": {
+      "at": "2026-10-07T01:31:07.397Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:31:07.398Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:31:07.399Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:31:07.404Z",
+      "path": "content/posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-56-understand-missing-fields-in-copy-documents--e98f782aea.md"
     }
   },
   "input_hash": null,
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "faa9d78fcd78412ed7c21c24e51d60bce6b4bc6308328d7cb35b5c7bc0e7ea32"
 }

@@ -7,13 +7,39 @@
   "url": "https://www.bertverbeek.nl/blog/2025/11/12/microsoft-agent-framework-and-business-central-mcp-server/",
   "published_at": "2025-11-12T09:02:12.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:31:11.535Z",
+      "path": "vault:posts/bertverbeek-nl/1183.md",
+      "words": 234
+    },
+    "extracted": {
+      "at": "2026-10-07T01:31:11.541Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:31:11.548Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:31:11.556Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:31:11.578Z",
+      "path": "content/posts/bertverbeek-nl/1183.md"
     }
   },
   "input_hash": "2025-11-12T09:03:26.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ae5f698ddd57dabcd0b71efedcf3a997949527669ba02ddd2bc6491ef725d9af"
 }

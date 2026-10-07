@@ -7,13 +7,39 @@
   "url": "https://gerardorenteria.blog/2025/11/12/%f0%9f%a4%96-abouttext-teaching-ai-to-understand-your-apis-%e2%9c%a8/",
   "published_at": "2025-11-12T15:46:48.000Z",
   "language": "es",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:31:07.874Z",
+      "path": "vault:posts/gerardorenteria-blog/12682.md",
+      "words": 603
+    },
+    "extracted": {
+      "at": "2026-10-07T01:31:07.881Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:31:07.882Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:31:07.883Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:31:07.890Z",
+      "path": "content/posts/gerardorenteria-blog/12682.md"
     }
   },
   "input_hash": "2025-11-12T15:46:48.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "964a929c5d82371befe3d97a1d2ef0c50e9b3669da2316814a7dbf52b6e54cae"
 }

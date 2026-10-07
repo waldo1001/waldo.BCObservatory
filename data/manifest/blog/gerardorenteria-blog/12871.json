@@ -7,13 +7,39 @@
   "url": "https://gerardorenteria.blog/2025/11/19/%f0%9f%93%8b-effortless-copy-actions-from-business-central-to-clipboard-%f0%9f%93%8e/",
   "published_at": "2025-11-19T19:05:32.000Z",
   "language": "es",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:31:06.894Z",
+      "path": "vault:posts/gerardorenteria-blog/12871.md",
+      "words": 961
+    },
+    "extracted": {
+      "at": "2026-10-07T01:31:06.904Z",
+      "prompt": "extract-post@1",
+      "quotes": 3,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:31:06.905Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:31:06.905Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:31:06.915Z",
+      "path": "content/posts/gerardorenteria-blog/12871.md"
     }
   },
   "input_hash": "2025-11-19T19:05:32.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "fa18a10031ca99bf1871a8846c60059f1c7a9aba5beaa1946563a174b4da3cd6"
 }

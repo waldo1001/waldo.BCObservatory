@@ -1,0 +1,55 @@
+{
+  "item_id": "blog/bertverbeek-nl/1183",
+  "url": "https://www.bertverbeek.nl/blog/2025/11/12/microsoft-agent-framework-and-business-central-mcp-server/",
+  "title": "Microsoft Agent Framework and Business Central MCP server",
+  "source": "bertverbeek-nl",
+  "published_at": "2025-11-12T09:02:12.000Z",
+  "words": 234,
+  "summary": "The Business Central MCP server enables AI agents to connect to Business Central through the Microsoft Agent Framework. Pro-code developers can use the open-source Agent Framework combining Semantic Kernel and AutoGen to build .NET and Python agents that authenticate, connect to the MCP endpoint, and expose Business Central tools.",
+  "key_points": [
+    "Business Central MCP server launched at Directions EMEA 2025 for connecting AI agents",
+    "Microsoft Agent Framework combines Semantic Kernel and AutoGen for building AI agents in .NET and Python",
+    "Integration requires three steps: setting up authentication, connecting to MCP endpoint, and creating the MCP plugin",
+    "Agents can access Business Central tools through the MCP server plugin initialized in the kernel"
+  ],
+  "systems": [
+    "copilot",
+    "integration",
+    "development"
+  ],
+  "topics": [
+    "agent framework",
+    "mcp server",
+    "ai agents",
+    "semantic kernel",
+    "autogen",
+    "authentication",
+    "pro-code development"
+  ],
+  "objects": [],
+  "features": [
+    "Business Central MCP server",
+    "Microsoft Agent Framework",
+    "Semantic Kernel integration",
+    "AutoGen support",
+    "Copilot Studio connector",
+    "MCP Plugin creation",
+    "Agent authentication"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Business Central team launched the Business Central MCP server",
+      "why_it_matters": "Marks the availability of official Business Central MCP server capability for agent integration"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

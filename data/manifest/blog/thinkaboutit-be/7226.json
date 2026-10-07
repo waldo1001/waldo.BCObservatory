@@ -7,13 +7,39 @@
   "url": "https://thinkaboutit.be/2025/11/how-to-install-and-configure-power-bi-monitor-for-business-central/",
   "published_at": "2025-11-19T15:17:32.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:31:06.677Z",
+      "path": "vault:posts/thinkaboutit-be/7226.md",
+      "words": 1614
+    },
+    "extracted": {
+      "at": "2026-10-07T01:31:06.789Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:31:06.790Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:31:06.792Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:31:06.842Z",
+      "path": "content/posts/thinkaboutit-be/7226.md"
     }
   },
   "input_hash": "2025-12-19T08:23:04.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d7212f7bc0d1aac94e9659925c59968d4ca857eba714da71d1966474afea77f8"
 }

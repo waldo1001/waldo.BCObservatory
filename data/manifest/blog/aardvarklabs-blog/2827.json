@@ -7,13 +7,39 @@
   "url": "https://aardvarklabs.blog/2025/11/14/how-to-use-concealed-text-fields-in-business-central-al/",
   "published_at": "2025-11-14T13:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:31:07.707Z",
+      "path": "vault:posts/aardvarklabs-blog/2827.md",
+      "words": 189
+    },
+    "extracted": {
+      "at": "2026-10-07T01:31:07.714Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:31:07.716Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:31:07.716Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:31:07.722Z",
+      "path": "content/posts/aardvarklabs-blog/2827.md"
     }
   },
   "input_hash": "2026-02-18T03:25:07.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "53a9ca8a871c5471f8a743d09ebbb511e8bb864bb3fc1c9a1c04f5032722a58e"
 }

@@ -7,13 +7,39 @@
   "url": "https://thatnavguy.com/blog/2025/introducing-bc-prompt-kit-how-i-started-my-ai-journey/",
   "published_at": "2025-11-17T00:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T01:31:07.105Z",
+      "path": "vault:posts/thatnavguy-com/https-thatnavguy-com-blog-2025-introducing-bc-prompt-kit-how-i-started-my-ai-journey--66c5e41773.md",
+      "words": 564
+    },
+    "extracted": {
+      "at": "2026-10-07T01:31:07.114Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-07T01:31:07.115Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-07T01:31:07.116Z"
+    },
+    "published": {
+      "at": "2026-10-07T01:31:07.122Z",
+      "path": "content/posts/thatnavguy-com/https-thatnavguy-com-blog-2025-introducing-bc-prompt-kit-how-i-started-my-ai-journey--66c5e41773.md"
     }
   },
   "input_hash": null,
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b1889a586b212f026aea41b3ce51fbbcc35db6149be1f5272c1a455761be37a8"
 }

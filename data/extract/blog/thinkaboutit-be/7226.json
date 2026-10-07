@@ -1,0 +1,63 @@
+{
+  "item_id": "blog/thinkaboutit-be/7226",
+  "url": "https://thinkaboutit.be/2025/11/how-to-install-and-configure-power-bi-monitor-for-business-central/",
+  "title": "How to Install and Configure Power BI Monitor for Business Central",
+  "source": "thinkaboutit-be",
+  "published_at": "2025-11-19T15:17:32.000Z",
+  "words": 1614,
+  "summary": "The Power BI Monitor extension enables Business Central users to manage Power BI resources directly through Business Central. This guide covers complete setup including Azure AD registration, extension installation, and initial configuration to sync workspaces, datasets, and dataflows for centralized monitoring and refresh management.",
+  "key_points": [
+    "Requires Business Central 25.0 or later, Power BI Pro license, and Azure AD admin access to set up",
+    "Setup involves registering an app in Azure AD with specific API permissions, creating a client secret, and configuring the extension in Business Central",
+    "Synchronization pulls workspaces, datasets, dataflows, and refresh history into Business Central for centralized monitoring",
+    "Users can trigger individual or bulk dataset refreshes and view refresh status and error details from Business Central",
+    "Auto-sync feature keeps Power BI content automatically updated at specified intervals without manual intervention"
+  ],
+  "systems": [
+    "integration",
+    "reporting",
+    "administration"
+  ],
+  "topics": [
+    "power bi",
+    "monitoring",
+    "azure ad",
+    "api integration",
+    "refresh management",
+    "error tracking",
+    "configuration"
+  ],
+  "objects": [],
+  "features": [
+    "Power BI Monitor extension",
+    "OAuth 2.0 authentication",
+    "Dataset refresh triggering",
+    "Workspace synchronization",
+    "Refresh history tracking",
+    "Error monitoring dashboard",
+    "Auto-sync functionality",
+    "Guided setup wizard"
+  ],
+  "versions": [
+    "25.0"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Managing Power BI resources directly from Business Central is now easier than ever with the Power BI Monitor extension.",
+      "why_it_matters": "Clarifies the core value proposition of centralizing Power BI management within Business Central rather than switching between systems"
+    },
+    {
+      "text": "The extension gives you a centralized command center for Power BI management, reducing context switching and improving your team's efficiency.",
+      "why_it_matters": "Emphasizes the business benefit of integrated management through reduced operational friction"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}
