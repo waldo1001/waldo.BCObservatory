@@ -6,7 +6,7 @@
   "title": "[Main] -Create missing test for scenario in creating Purchase Document from Sales Order",
   "url": "https://github.com/microsoft/BCApps/pull/10476",
   "published_at": "2026-08-24T06:34:19Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -28,5 +28,8 @@
     ],
     "community_contribution": false,
     "title_key": "create missing test for scenario in creating purchase document from sales order"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T13:08:01.784Z",
+  "retry_after": null
 }

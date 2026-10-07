@@ -1,0 +1,53 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10509,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10509",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-24T13:25:20Z",
+  "merge_commit_sha": "38826aabb0a81845cbf84b5bf271a9544f77ce79",
+  "author": "dcenic",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[IRS Forms] Performance optimization",
+  "body_hash": "988ae88887d68f1eef62197190a79b6569b06bc78bfeba65d3349aa38c2782c7",
+  "fixes_issues": [],
+  "work_items": [
+    647491
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/US/IRSForms/app/src/VendorFormBox/IRS1099FormBoxCalcImpl.Codeunit.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 3,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 5,
+    "deletions": 3,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "src/Apps/US/IRSForms/app/src/VendorFormBox/IRS1099FormBoxCalcImpl.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

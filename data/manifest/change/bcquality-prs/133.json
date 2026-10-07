@@ -6,10 +6,35 @@
   "title": "Add TransferFields SkipFieldsNotMatchingType guidance",
   "url": "https://github.com/microsoft/BCQuality/pull/133",
   "published_at": "2026-08-24T07:54:37Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:07:59.952Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 3,
+      "objects": 0,
+      "unjoined": 3
+    },
+    "extracted": {
+      "at": "2026-10-07T13:08:05.571Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.003961
+    },
+    "linked": {
+      "at": "2026-10-07T13:08:05.572Z",
+      "objects": 0,
+      "unjoined": 3,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-10-07T13:08:05.576Z",
+      "path": "content/changes/bcquality/133.md"
     }
   },
   "input_hash": "9fab60153f868536e63c9d62626293197288ac94:c1",
@@ -26,5 +51,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "add transferfields skipfieldsnotmatchingtype guidance"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3c17496d47a419c7e70222236fd0897e69346547dfaae45c4d2d29d0f85ecbb9"
 }

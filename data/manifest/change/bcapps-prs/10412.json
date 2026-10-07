@@ -6,10 +6,35 @@
   "title": "Fixes in Excel reports for Aged Accounts.",
   "url": "https://github.com/microsoft/BCApps/pull/10412",
   "published_at": "2026-08-24T15:25:02Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:07:53.645Z",
+      "change_class": "code",
+      "files": 4,
+      "al": 3,
+      "objects": 3,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:07:58.759Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003766
+    },
+    "linked": {
+      "at": "2026-10-07T13:07:58.956Z",
+      "objects": 3,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:07:58.960Z",
+      "path": "content/changes/bcapps/10412.md"
     }
   },
   "input_hash": "32b36e1b41600c9699379a5b7482bbe82b7df83c:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "fixes in excel reports for aged accounts"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f8942458fbe866fbe1af3c0dc4faaca983e014e4d99228b605c299ab7931dcf7"
 }

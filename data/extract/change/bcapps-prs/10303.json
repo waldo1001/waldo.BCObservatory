@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/10303",
+  "number": 10303,
+  "title": "[Master]-Modifying a linked contact's common field clears the SIREN field on the associated customer record in the French version.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "crm"
+  ],
+  "summary": "The French version now correctly preserves the SIREN field on a customer record when modifying a linked contact's common fields, fixing an issue where the field was being cleared.",
+  "key_points": [
+    "Fixes SIREN field being cleared when updating linked contact common fields in French version",
+    "Modified Contact table FR-specific implementation",
+    "Updated marketing contacts test coverage to verify the fix",
+    "Addresses bug AB#647015"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "crm"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003104,
+    "changes_in_call": 1
+  }
+}

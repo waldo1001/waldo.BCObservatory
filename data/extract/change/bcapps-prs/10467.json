@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10467",
+  "number": 10467,
+  "title": "[Shopify] Fix more-expensive exchange refund: no balancing G/L line, no false processed-order warning",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "Fixed Shopify exchange refund handling when the replacement item is more expensive than the returned item, eliminating the false processed-order warning and removing the spurious balancing G/L line that forced the credit memo total to zero.",
+  "key_points": [
+    "Exchange line IDs are now fetched up front and excluded from the processed-order conflict detection to prevent false warnings on re-import",
+    "The redundancy hash for processed orders now excludes exchange lines for consistent re-import behavior",
+    "Credit memo no longer creates a spurious Refund Account G/L line when the refund contains exchange lines",
+    "The credit memo total now correctly reflects the customer's remaining payment obligation instead of being forced to zero",
+    "Two new unit tests validate the fix for exchanges where the replacement item costs more than the returned item"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004888,
+    "changes_in_call": 1
+  }
+}

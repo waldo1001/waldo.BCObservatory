@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcquality-prs/133",
+  "number": 133,
+  "title": "Add TransferFields SkipFieldsNotMatchingType guidance",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "Added guidance in BCQuality to warn developers against using TransferFields with SkipFieldsNotMatchingType as a blanket solution, as it can silently drop fields when type mismatches occur within the same extension.",
+  "key_points": [
+    "New knowledge rule explains that TransferFields only errors on type mismatches within the same extension, not cross-extension",
+    "Using SkipFieldsNotMatchingType to suppress errors can mask silent field drops",
+    "Good pattern: use explicit field-by-field mapping with Evaluate for type conversions to fail loudly",
+    "Bad pattern: relying on SkipFieldsNotMatchingType when destination needs all source fields copied",
+    "Rule includes code examples and verification against Microsoft Learn documentation"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003961,
+    "changes_in_call": 1
+  }
+}

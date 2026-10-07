@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/10349",
+  "number": 10349,
+  "title": "[DE] Support registration numbers in E-Documents",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration",
+    "development"
+  ],
+  "summary": "E-Document import and export processing now handles registration numbers for vendor matching and supports German FC tax identifiers in multiple document formats.",
+  "key_points": [
+    "Registration number becomes final fallback for matching imported vendors in E-Documents",
+    "German FC tax identifiers supported in XRechnung, ZUGFeRD, and PEPPOL exports",
+    "Imported receiving-company registration number validated against Company Information",
+    "Extended E-Document, vendor, and company information tables with registration number fields",
+    "Test coverage added for registration number vendor matching and document export scenarios"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": "add Registration No. as the final fallback when matching imported E-Document vendors",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004228,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/10412",
+  "number": 10412,
+  "title": "Fixes in Excel reports for Aged Accounts.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Aged Accounts Excel reports now properly handle customers and vendors with historical balances outside the selected date range and correctly assign transactions to aging buckets.",
+  "key_points": [
+    "Added a new aging bucket from 0D to cover all historical activity before the main period",
+    "Fixed bucket assignment logic for ending dates by using index-based retrieval instead of descending list comparison",
+    "Removed due date filter to include all outstanding balances regardless of due date status",
+    "Filtering for customers/vendors without due balance now considers full history, not just the selected period",
+    "Added comprehensive tests for historical balances, bucket assignment, and not-yet-due transactions"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "reporting"
+  ],
+  "quote": "The aged buckets were not covering the whole history for a customer, only bounded to the end date supplied.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003766,
+    "changes_in_call": 1
+  }
+}

@@ -6,10 +6,35 @@
   "title": "[Main]- Incorrect calculation of single-level capacity and material cost for Stockkeeping Units (SKU) when running cost changes in the Standard Cost Worksheet and implementing the Standard Cost change",
   "url": "https://github.com/microsoft/BCApps/pull/10336",
   "published_at": "2026-08-24T06:34:19Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:08:01.592Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:08:06.640Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003588
+    },
+    "linked": {
+      "at": "2026-10-07T13:08:06.799Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:08:06.804Z",
+      "path": "content/changes/bcapps/10336.md"
     }
   },
   "input_hash": "82d126de77398a23b5207466c9e147428ea2900c:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": true,
     "title_key": "incorrect calculation of single level capacity and material cost for stockkeeping units sku when running cost changes in the standard cost worksheet and implementing the standard cost change"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3319f534547b7cb4057ec3e6e1dbd9fc5c91092e5fd38d2a7a03f17e9f03481d"
 }

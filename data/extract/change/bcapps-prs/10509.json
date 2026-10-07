@@ -1,0 +1,29 @@
+{
+  "item_id": "change/bcapps-prs/10509",
+  "number": 10509,
+  "title": "[IRS Forms] Performance optimization",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [],
+  "summary": "IRS 1099 form box calculation performance improved by optimizing database queries to use more selective index keys and vendor filtering, reducing query execution time from approximately 10 minutes.",
+  "key_points": [
+    "Changed SetCurrentKey in FindRelatedApplicationDetailedVendorLedgerEntries to use Application No., Vendor No., Entry Type instead of Vendor Ledger Entry No., Entry Type",
+    "Added VendorNo parameter to FilterPaymentVendorLedgerEntries to filter by specific vendor when requested",
+    "Existing keys were reused; no schema changes required",
+    "Root cause addressed by reducing unnecessary enumeration of payment history across all vendors"
+  ],
+  "change_kind": "performance",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": "Aligning the current key with those equality filters lets the optimizer satisfy the ordering with a selective index seek instead of a broad scan.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003839,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10518,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10518",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-24T15:25:02Z",
+  "merge_commit_sha": "d3e56f23ef01a07983af247ada4fd5db7564f0f0",
+  "author": "AleksandricMarko",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM",
+    "event-request"
+  ],
+  "community_contribution": false,
+  "title": "[Extensibility Request] issue 30338: expose internal put-away line event",
+  "body_hash": "c107a0254bf47c53373342b6d5742999e9cea05c9b10237c5362be6f9a7fbc46",
+  "fixes_issues": [],
+  "work_items": [
+    641690
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/Warehouse/Request/WhseSourceCreateDocument.Report.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 6,
+    "deletions": 1,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Warehouse/Request/WhseSourceCreateDocument.Report.al",
+        "status": "modified",
+        "key": "report/7305",
+        "type": "report",
+        "id": 7305,
+        "name": "Whse.-Source - Create Document",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/7305"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "warehouse"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

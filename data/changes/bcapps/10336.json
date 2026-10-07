@@ -1,0 +1,72 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10336,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10336",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-24T06:34:19Z",
+  "merge_commit_sha": "82d126de77398a23b5207466c9e147428ea2900c",
+  "author": "DeepsShukla",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "From Fork",
+    "Team: SCM"
+  ],
+  "community_contribution": true,
+  "title": "[Main]- Incorrect calculation of single-level capacity and material cost for Stockkeeping Units (SKU) when running cost changes in the Standard Cost Worksheet and implementing the Standard Cost change",
+  "body_hash": "a8a474dfa9091f15b0bb11b89569555a20bc87c90d593a0e8a6b7488a2cab514",
+  "fixes_issues": [],
+  "work_items": [
+    637759
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/StandardCost/ImplementStandardCostChange.Report.al",
+      "status": "modified",
+      "additions": 24,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM-Costing/SCMCostingBatch.Codeunit.al",
+      "status": "modified",
+      "additions": 168,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 192,
+    "deletions": 1,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/StandardCost/ImplementStandardCostChange.Report.al",
+        "status": "modified",
+        "key": "report/5855",
+        "type": "report",
+        "id": 5855,
+        "name": "Implement Standard Cost Change",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/5855"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "manufacturing"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

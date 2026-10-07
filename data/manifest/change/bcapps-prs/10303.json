@@ -6,10 +6,35 @@
   "title": "[Master]-Modifying a linked contact's common field clears the SIREN field on the associated customer record in the French version.",
   "url": "https://github.com/microsoft/BCApps/pull/10303",
   "published_at": "2026-08-24T12:32:05Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:07:56.166Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:08:01.076Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003104
+    },
+    "linked": {
+      "at": "2026-10-07T13:08:01.242Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:08:01.247Z",
+      "path": "content/changes/bcapps/10303.md"
     }
   },
   "input_hash": "ed572e0157ee7f31849c1fdbc880f0ecad803377:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "master modifying a linked contact s common field clears the siren field on the associated customer record in the french version"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "141fc1d63cbee6c52022262919cf4743d68adc8c6fd29fad60074615cf7eed53"
 }

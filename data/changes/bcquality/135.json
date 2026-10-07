@@ -1,0 +1,109 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 135,
+  "repo": "microsoft/BCQuality",
+  "source": "bcquality-prs",
+  "url": "https://github.com/microsoft/BCQuality/pull/135",
+  "base": "main",
+  "major": null,
+  "merged_at": "2026-08-23T18:07:14Z",
+  "merge_commit_sha": "9203e3ce2bef2e2af77ba83b94dd884661d1ef3f",
+  "author": "dcenic",
+  "author_type": "User",
+  "labels": [],
+  "community_contribution": false,
+  "title": "Correct severe misconception about SetCurrentKey in the knowledge base",
+  "body_hash": "8585469af95182fa835ed02f83daca9c09443785980f112864dc50a12edb1144",
+  "fixes_issues": [],
+  "work_items": [],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "microsoft/knowledge/performance/apply-filters-before-iterating.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/performance/setcurrentkey-aligns-key-with-filters.good.al",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 15,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/performance/setcurrentkey-aligns-key-with-filters.md",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 24,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/performance/setcurrentkey-sets-sort-order-not-index-hint.bad.al",
+      "status": "added",
+      "additions": 20,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/performance/setcurrentkey-sets-sort-order-not-index-hint.good.al",
+      "status": "added",
+      "additions": 18,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/performance/setcurrentkey-sets-sort-order-not-index-hint.md",
+      "status": "added",
+      "additions": 35,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 6,
+    "additions": 74,
+    "deletions": 40,
+    "al": 6
+  },
+  "join": {
+    "major": null,
+    "commit": null,
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "microsoft/knowledge/performance/apply-filters-before-iterating.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/performance/setcurrentkey-aligns-key-with-filters.good.al",
+        "status": "removed",
+        "reason": "removed"
+      },
+      {
+        "path": "microsoft/knowledge/performance/setcurrentkey-aligns-key-with-filters.md",
+        "status": "removed",
+        "reason": "removed"
+      },
+      {
+        "path": "microsoft/knowledge/performance/setcurrentkey-sets-sort-order-not-index-hint.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/performance/setcurrentkey-sets-sort-order-not-index-hint.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/performance/setcurrentkey-sets-sort-order-not-index-hint.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

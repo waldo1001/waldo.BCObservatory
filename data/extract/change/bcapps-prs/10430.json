@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10430",
+  "number": 10430,
+  "title": "[Master]-ACY amount on Value Entries is recalculated from LCY when the document currency equals the Additional Reporting Currency, causing a mismatch with G/L Entries]",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory"
+  ],
+  "summary": "Fixed a calculation error in item journal posting when the document currency matches the additional reporting currency, ensuring ACY amounts on value entries are consistent with G/L entries.",
+  "key_points": [
+    "ACY amount calculations on value entries are now preserved when document currency equals additional reporting currency",
+    "Prevents incorrect recalculation of ACY amounts from LCY values during posting",
+    "Changes applied across all localization layers",
+    "Includes new test coverage for WIP costing with additional currency"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "inventory",
+    "finance"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003511,
+    "changes_in_call": 1
+  }
+}

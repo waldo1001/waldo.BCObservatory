@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcquality-prs/135",
+  "number": 135,
+  "title": "Correct severe misconception about SetCurrentKey in the knowledge base",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "Documentation corrected to clarify that SetCurrentKey only affects SQL sort order, not index selection by SQL Server, removing outdated guidance that misled AL developers.",
+  "key_points": [
+    "SetCurrentKey generates ORDER BY clauses, not SQL index hints",
+    "SQL Server query optimizer can ignore the specified key entirely",
+    "Using SetCurrentKey when sorting is unnecessary hurts performance",
+    "Removed incorrect article claiming SetCurrentKey aligns keys with filters",
+    "Added accurate article explaining SetCurrentKey's actual behavior"
+  ],
+  "change_kind": "fix",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.007441,
+    "changes_in_call": 1
+  }
+}

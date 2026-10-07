@@ -1,0 +1,73 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 133,
+  "repo": "microsoft/BCQuality",
+  "source": "bcquality-prs",
+  "url": "https://github.com/microsoft/BCQuality/pull/133",
+  "base": "main",
+  "major": null,
+  "merged_at": "2026-08-24T07:54:37Z",
+  "merge_commit_sha": "9fab60153f868536e63c9d62626293197288ac94",
+  "author": "yahyatouil-dev",
+  "author_type": "User",
+  "labels": [],
+  "community_contribution": false,
+  "title": "Add TransferFields SkipFieldsNotMatchingType guidance",
+  "body_hash": "e21c6dacee0d3eab0d98da31cb5b01e6086af4cacb6ffbc855ef386ed92cbaf4",
+  "fixes_issues": [],
+  "work_items": [],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "community/knowledge/data-modeling/transferfields-skip-type-mismatch-can-drop-data.bad.al",
+      "status": "added",
+      "additions": 55,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/data-modeling/transferfields-skip-type-mismatch-can-drop-data.good.al",
+      "status": "added",
+      "additions": 59,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/data-modeling/transferfields-skip-type-mismatch-can-drop-data.md",
+      "status": "added",
+      "additions": 26,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 140,
+    "deletions": 0,
+    "al": 3
+  },
+  "join": {
+    "major": null,
+    "commit": null,
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "community/knowledge/data-modeling/transferfields-skip-type-mismatch-can-drop-data.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/data-modeling/transferfields-skip-type-mismatch-can-drop-data.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/data-modeling/transferfields-skip-type-mismatch-can-drop-data.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

@@ -1,0 +1,107 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10466,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10466",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-24T13:12:31Z",
+  "merge_commit_sha": "79ee343b5bd8782f0e71b628b3d4633255e29958",
+  "author": "Explorer986",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "Resolve purchase lines to items on exact description match",
+  "body_hash": "2c262348b0fab868817abfb518fca25965b25f4bad5d2d3cae7c4c03d60f650c",
+  "fixes_issues": [],
+  "work_items": [
+    647171
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/Import/PrepareDraft/EDocActivityLogSession.Codeunit.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/Import/PrepareDraft/EDocPreparePurchDraft.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/Import/PrepareDraft/EDocProviders.Codeunit.al",
+      "status": "modified",
+      "additions": 39,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/Test/src/Processing/EDocProcessTest.Codeunit.al",
+      "status": "modified",
+      "additions": 139,
+      "deletions": 2,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 4,
+    "additions": 184,
+    "deletions": 2,
+    "al": 3
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/Import/PrepareDraft/EDocActivityLogSession.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6175",
+        "type": "codeunit",
+        "id": 6175,
+        "name": "E-Doc. Activity Log Session",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "codeunit/6175"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/Import/PrepareDraft/EDocPreparePurchDraft.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6406",
+        "type": "codeunit",
+        "id": 6406,
+        "name": "EDoc Prepare Purch. Draft",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "codeunit/6406"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/Import/PrepareDraft/EDocProviders.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6124",
+        "type": "codeunit",
+        "id": 6124,
+        "name": "E-Doc. Providers",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "codeunit/6124"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "integration"
+  ],
+  "apps": [
+    "EDocument"
+  ]
+}

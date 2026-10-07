@@ -1,0 +1,107 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10412,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10412",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-24T15:25:02Z",
+  "merge_commit_sha": "32b36e1b41600c9699379a5b7482bbe82b7df83c",
+  "author": "mynjj",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "Fixes in Excel reports for Aged Accounts.",
+  "body_hash": "377c7eeaf0b77ae75f5b4ef2bface29d8f2f8ecf9817cc39534221e2651ffe0e",
+  "fixes_issues": [],
+  "work_items": [
+    642030
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/ExcelReports/App/src/Financials/EXRAgedAccPayableExcel.Report.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 7,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExcelReports/App/src/Financials/EXRAgedAccountsRecExcel.Report.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 7,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExcelReports/App/src/Financials/EXRAgingReportBuffer.Table.al",
+      "status": "modified",
+      "additions": 25,
+      "deletions": 37,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExcelReports/Test/src/AgedAccountsExcelReports.Codeunit.al",
+      "status": "modified",
+      "additions": 207,
+      "deletions": 33,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 4,
+    "additions": 246,
+    "deletions": 84,
+    "al": 3
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/ExcelReports/App/src/Financials/EXRAgedAccPayableExcel.Report.al",
+        "status": "modified",
+        "key": "report/4403",
+        "type": "report",
+        "id": 4403,
+        "name": "EXR Aged Acc Payable Excel",
+        "app": "ExcelReports",
+        "cc": "w1",
+        "page": "report/4403"
+      },
+      {
+        "path": "src/Apps/W1/ExcelReports/App/src/Financials/EXRAgedAccountsRecExcel.Report.al",
+        "status": "modified",
+        "key": "report/4402",
+        "type": "report",
+        "id": 4402,
+        "name": "EXR Aged Accounts Rec Excel",
+        "app": "ExcelReports",
+        "cc": "w1",
+        "page": "report/4402"
+      },
+      {
+        "path": "src/Apps/W1/ExcelReports/App/src/Financials/EXRAgingReportBuffer.Table.al",
+        "status": "modified",
+        "key": "table/4401",
+        "type": "table",
+        "id": 4401,
+        "name": "EXR Aging Report Buffer",
+        "app": "ExcelReports",
+        "cc": "w1",
+        "page": "table/4401"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "ExcelReports"
+  ]
+}

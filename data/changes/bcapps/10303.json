@@ -1,0 +1,70 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10303,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10303",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-24T12:32:05Z",
+  "merge_commit_sha": "ed572e0157ee7f31849c1fdbc880f0ecad803377",
+  "author": "neeleshsinghal",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[Master]-Modifying a linked contact's common field clears the SIREN field on the associated customer record in the French version.",
+  "body_hash": "195013a5d564c4c485409ea0fdda8f2aa3c39c26bd84003964d7e4a207e6847b",
+  "fixes_issues": [],
+  "work_items": [
+    647015
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/FR/BaseApp/CRM/Contact/Contact.Table.al",
+      "status": "modified",
+      "additions": 34,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/Tests/Marketing/MarketingContacts.Codeunit.al",
+      "status": "modified",
+      "additions": 72,
+      "deletions": 37,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 106,
+    "deletions": 38,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/FR/BaseApp/CRM/Contact/Contact.Table.al",
+        "status": "modified",
+        "key": "table/5050",
+        "type": "table",
+        "id": 5050,
+        "name": "Contact",
+        "app": "Base Application",
+        "cc": "fr",
+        "page": "table/5050"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "crm"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

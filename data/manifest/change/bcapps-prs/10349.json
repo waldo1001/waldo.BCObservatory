@@ -6,10 +6,35 @@
   "title": "[DE] Support registration numbers in E-Documents",
   "url": "https://github.com/microsoft/BCApps/pull/10349",
   "published_at": "2026-08-24T10:43:22Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:08:00.449Z",
+      "change_class": "code",
+      "files": 19,
+      "al": 12,
+      "objects": 6,
+      "unjoined": 6
+    },
+    "extracted": {
+      "at": "2026-10-07T13:08:05.376Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.004228
+    },
+    "linked": {
+      "at": "2026-10-07T13:08:05.553Z",
+      "objects": 6,
+      "unjoined": 6,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:08:05.567Z",
+      "path": "content/changes/bcapps/10349.md"
     }
   },
   "input_hash": "c9e6f0bb2a4545de5a2a86acee4c4c4c44d81de1:c1",
@@ -32,5 +57,8 @@
     ],
     "community_contribution": true,
     "title_key": "de support registration numbers in e documents"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "95a34693ecbb969cd3f2a7a8b7db7ad02663ed6d2183b8b84f2f4f5f3772cf08"
 }

@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/10518",
+  "number": 10518,
+  "title": "[Extensibility Request] issue 30338: expose internal put-away line event",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "warehouse"
+  ],
+  "summary": "Report 7305 exposes a new event that allows extensions to receive and adjust the internal put-away line record after the dataitem filters are prepared.",
+  "key_points": [
+    "New event OnAfterWhseInternalPutAwayLineOnPreDataItem provides access to the internal put-away line record",
+    "Event fires at the end of the dataitem's OnPreDataItem trigger",
+    "Enables extensions to modify the actual source record during put-away line creation",
+    "Addresses limitation where previous event used warehouse worksheet line instead"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "warehouse"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003147,
+    "changes_in_call": 1
+  }
+}

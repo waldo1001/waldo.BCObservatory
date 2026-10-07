@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10462",
+  "number": 10462,
+  "title": "[Shopify] Fix order edit retaining discount allocation for removed quantity",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "The Shopify connector now correctly adjusts line-level discount amounts when refunds reduce order line quantities, preventing over-discounting of the remaining quantity in sales documents.",
+  "key_points": [
+    "Fixed discount allocation calculation in refund processing to account for removed quantities",
+    "Discount amount is now reduced proportionally with quantity reduction using unit price and subtotal derivation",
+    "Added unit tests to verify discount reduction and quantity adjustment for discounted order lines",
+    "Ensures line discount reconciles with order header discount after quantity refunds",
+    "Only affects Shopify refund/return import when enabled"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004376,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/10230",
+  "number": 10230,
+  "title": "[Main]<ImporteTAIReglasLocalizacion> node should have negative sign in the SII XML for Sales Credit Memos under One-Stop-Shop regime in the Spanish version",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "The ImporteTAIReglasLocalizacion node in Spanish SII XML for sales credit memos under One-Stop-Shop regime now displays the correct negative sign when submitted.",
+  "key_points": [
+    "Sales credit memos under One-Stop-Shop regime now generate SII XML with correctly signed ImporteTAIReglasLocalizacion values",
+    "The SII XML Creator codeunit was updated to ensure negative amounts appear with the proper sign",
+    "Test coverage added for this specific scenario with untaxable documents"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "quote": "<ImporteTAIReglasLocalizacion> node should have negative sign in the SII XML for Sales Credit Memos under One-Stop-Shop regime",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003295,
+    "changes_in_call": 1
+  }
+}

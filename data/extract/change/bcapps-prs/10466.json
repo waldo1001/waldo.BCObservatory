@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/10466",
+  "number": 10466,
+  "title": "Resolve purchase lines to items on exact description match",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "Inbound purchase invoice lines now resolve to items when the description exactly matches one existing item, instead of falling through to G/L account matching.",
+  "key_points": [
+    "Adds deterministic item matching by description for e-document import",
+    "Only triggers when exactly one non-blocked item with matching description and compatible unit of measure exists",
+    "Runs after item reference and text-to-account mapping steps to preserve explicit setup",
+    "Ambiguous cases retain previous G/L account matching behavior",
+    "No schema or upgrade impact"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration",
+    "purchasing"
+  ],
+  "quote": "Resolves the line to the item when there is exactly one eligible item with that description.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00357,
+    "changes_in_call": 1
+  }
+}

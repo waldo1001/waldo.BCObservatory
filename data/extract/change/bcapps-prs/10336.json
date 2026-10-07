@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/10336",
+  "number": 10336,
+  "title": "[Main]- Incorrect calculation of single-level capacity and material cost for Stockkeeping Units (SKU) when running cost changes in the Standard Cost Worksheet and implementing the Standard Cost change",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "manufacturing"
+  ],
+  "summary": "Fixed incorrect calculation of single-level capacity and material costs for stockkeeping units during standard cost changes by skipping unconditional SKU cost updates when the Load SKU Cost on Manufacturing setting is disabled.",
+  "key_points": [
+    "The Implement Standard Cost Change report was incorrectly copying item cost shares to SKUs regardless of the Load SKU Cost on Manufacturing setting",
+    "Report now skips SKU cost updates in this scenario",
+    "Users are directed to recalculate SKU costs using the Calc. Standard Cost action on the Stockkeeping Unit Card",
+    "Fixes discrepancies in cost calculations for SKU-specific costing"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing"
+  ],
+  "quote": "Skip SKU cost updates in this mode and instruct users to recalculate SKU costs using Calc. Standard Cost on the Stockkeeping Unit Card.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003588,
+    "changes_in_call": 1
+  }
+}

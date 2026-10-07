@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/10519",
+  "number": 10519,
+  "title": "SOA - Try it out : agent activation after closing the page",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "The Sales Order Agent now activates only after a task is submitted rather than when the Create Task page closes, preventing unintended activation when the form is cancelled.",
+  "key_points": [
+    "Agent activation deferred to task submission",
+    "Cancelling the Create Task form no longer triggers agent activation",
+    "Changes affect the task creation workflow in the SOA setup and implementation",
+    "Improves user control over agent behavior during task creation",
+    "Addresses issue AB#640603"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales",
+    "copilot"
+  ],
+  "quote": "Defer SOA agent activation in \"Try it out\" until the task is submitted",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003206,
+    "changes_in_call": 1
+  }
+}

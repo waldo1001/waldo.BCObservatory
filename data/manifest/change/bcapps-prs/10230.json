@@ -6,10 +6,35 @@
   "title": "[Main]<ImporteTAIReglasLocalizacion> node should have negative sign in the SII XML for Sales Credit Memos under One-Stop-Shop regime in the Spanish version",
   "url": "https://github.com/microsoft/BCApps/pull/10230",
   "published_at": "2026-08-24T10:50:56Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:07:57.044Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:08:01.844Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003295
+    },
+    "linked": {
+      "at": "2026-10-07T13:08:01.989Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:08:01.995Z",
+      "path": "content/changes/bcapps/10230.md"
     }
   },
   "input_hash": "0b8d5a39a038551e93fb444688359a2700f3903e:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "importetaireglaslocalizacion node should have negative sign in the sii xml for sales credit memos under one stop shop regime in the spanish version"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "71bd1c803cdae1ae5116d16696ec539f1b43f2c0925d88e0e4b9e3e25b17f5bf"
 }
