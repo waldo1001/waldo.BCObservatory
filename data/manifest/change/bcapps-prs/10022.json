@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/10022",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Known senders table should only be inserted to when the task is coming from an email",
+  "url": "https://github.com/microsoft/BCApps/pull/10022",
+  "published_at": "2026-08-08T07:06:19Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "7b81f11d7ccea27bf118fc05e679bd180221979a:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10022,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "7b81f11d7ccea27bf118fc05e679bd180221979a",
+    "author": "mynjj",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "known senders table should only be inserted to when the task is coming from an email"
+  }
+}

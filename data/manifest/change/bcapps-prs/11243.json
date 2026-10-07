@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/11243",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Fix 647571: remove superseded VATVIESDeclarationTaxAuthReport test fr…",
+  "url": "https://github.com/microsoft/BCApps/pull/11243",
+  "published_at": "2026-09-09T16:43:51Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "608da87df765358cb2d31cadcf06d79b65c4c80a:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11243,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "608da87df765358cb2d31cadcf06d79b65c4c80a",
+    "author": "Explorer986",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "fix 647571 remove superseded vatviesdeclarationtaxauthreport test fr"
+  }
+}

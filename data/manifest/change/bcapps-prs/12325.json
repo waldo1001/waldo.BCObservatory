@@ -1,0 +1,63 @@
+{
+  "id": "change/bcapps-prs/12325",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Expense tests] Re-enable reviewed APIs and consolidate Expense fixes",
+  "url": "https://github.com/microsoft/BCApps/pull/12325",
+  "published_at": "2026-10-06T16:16:53Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:55:39.294Z",
+      "change_class": "code",
+      "files": 21,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T12:55:44.770Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": false,
+      "cost_usd": 0.005271
+    },
+    "linked": {
+      "at": "2026-10-07T12:55:44.912Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T12:55:44.918Z",
+      "path": "content/changes/bcapps/12325.md"
+    }
+  },
+  "input_hash": "3f357d6c93edab81eab2437909d8dab17637ba0d:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12325,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "3f357d6c93edab81eab2437909d8dab17637ba0d",
+    "author": "t-prda",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Build: Automation",
+      "ExpenseManagement",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "expense tests re enable reviewed apis and consolidate expense fixes"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0376e8969b2cbe09caef9f904f1a92a87d0275265d7f3faece0a26469a2582cd"
+}

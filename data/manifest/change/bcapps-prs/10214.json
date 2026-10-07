@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/10214",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Main]Posting Error with 50% Non-Deductible VAT when \"Check Source Currency Consistency\" is enabled in \"General Ledger Setup\" page",
+  "url": "https://github.com/microsoft/BCApps/pull/10214",
+  "published_at": "2026-08-21T19:35:14Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "37f845fe0842eed644bb4a8567d51726060266b9:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10214,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "37f845fe0842eed644bb4a8567d51726060266b9",
+    "author": "sanjmaurya",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "From Fork",
+      "Team: Finance"
+    ],
+    "community_contribution": true,
+    "title_key": "posting error with 50 non deductible vat when check source currency consistency is enabled in general ledger setup page"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/11959",
+  "number": 11959,
+  "title": "[Master]-Production Order Fails to Finish Due to Quantity Rounding Difference Between Component Consumption and Item Tracking Quantity - Copy",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory"
+  ],
+  "summary": "Production orders now correctly handle quantity rounding differences between component consumption and item tracking quantities to prevent finish failures.",
+  "key_points": [
+    "Fixes a rounding issue that prevented production orders from completing",
+    "Adjusts quantity calculations in manufacturing cost management",
+    "Adds test coverage for production order quantity scenarios",
+    "Resolves issue where consumed quantities did not match tracked quantities"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing",
+    "inventory"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.002924,
+    "changes_in_call": 1
+  }
+}

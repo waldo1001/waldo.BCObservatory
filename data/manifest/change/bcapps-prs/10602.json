@@ -1,0 +1,35 @@
+{
+  "id": "change/bcapps-prs/10602",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Fix E-Document test object ID collision",
+  "url": "https://github.com/microsoft/BCApps/pull/10602",
+  "published_at": "2026-08-28T11:26:08Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "2da1442f529a15c27e7d998811c858567975080e:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10602,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "2da1442f529a15c27e7d998811c858567975080e",
+    "author": "djukicmilica",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "AL: Apps (W1)",
+      "From Fork",
+      "Team: Integrations"
+    ],
+    "community_contribution": true,
+    "title_key": "fix e document test object id collision"
+  }
+}

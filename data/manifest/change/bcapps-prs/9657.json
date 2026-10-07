@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/9657",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Extensibility Request] issue 30359: add Direction parameter to OnBeforeScheduleRoutingLine",
+  "url": "https://github.com/microsoft/BCApps/pull/9657",
+  "published_at": "2026-07-23T10:37:10Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "874eb224d36c3104827a5979373df3b0e906d42b:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9657,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "874eb224d36c3104827a5979373df3b0e906d42b",
+    "author": "AleksandricMarko",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM",
+      "event-request"
+    ],
+    "community_contribution": false,
+    "title_key": "extensibility request issue 30359 add direction parameter to onbeforescheduleroutingline"
+  }
+}

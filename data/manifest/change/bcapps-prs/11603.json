@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/11603",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Shopify] Show configured product status in Add to Shopify confirmation",
+  "url": "https://github.com/microsoft/BCApps/pull/11603",
+  "published_at": "2026-09-22T13:41:26Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "36ce35e299d3e5b88e4cc9dd07174199243c85fa:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11603,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "36ce35e299d3e5b88e4cc9dd07174199243c85fa",
+    "author": "onbuyuka",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "shopify show configured product status in add to shopify confirmation"
+  }
+}

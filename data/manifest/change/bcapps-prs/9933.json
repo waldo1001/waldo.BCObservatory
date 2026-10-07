@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9933",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[MAIN]-Fix-Bug 644909 Cant modify Item Template after Item deletion",
+  "url": "https://github.com/microsoft/BCApps/pull/9933",
+  "published_at": "2026-08-11T15:57:35Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "015bdf011be96dc34c75af187e783fe08f05e04d:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9933,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "015bdf011be96dc34c75af187e783fe08f05e04d",
+    "author": "v-praghav",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "fix bug 644909 cant modify item template after item deletion"
+  }
+}

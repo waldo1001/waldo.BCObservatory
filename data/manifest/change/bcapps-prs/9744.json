@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/9744",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Email - Outlook REST API] Skip attachments without contentBytes in RetrieveEmails",
+  "url": "https://github.com/microsoft/BCApps/pull/9744",
+  "published_at": "2026-07-29T12:18:05Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "eeb62962c2a8cbaa8fa9f66c8ae44c102b2e3ee6:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9744,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "eeb62962c2a8cbaa8fa9f66c8ae44c102b2e3ee6",
+    "author": "onbuyuka",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "email outlook rest api skip attachments without contentbytes in retrieveemails"
+  }
+}

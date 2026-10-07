@@ -1,0 +1,35 @@
+{
+  "id": "change/bcapps-prs/8553",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Bug][SubscriptionBilling]: Performance: Billing document creation does not scale to large datasets (4M+ subscription lines)",
+  "url": "https://github.com/microsoft/BCApps/pull/8553",
+  "published_at": "2026-07-30T11:17:04Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "aea3fe77199a9e88287de991ce81c065d2027339:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 8553,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "aea3fe77199a9e88287de991ce81c065d2027339",
+    "author": "miljance",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "AL: Apps (W1)",
+      "From Fork",
+      "Team: Finance"
+    ],
+    "community_contribution": true,
+    "title_key": "bug subscriptionbilling performance billing document creation does not scale to large datasets 4m subscription lines"
+  }
+}

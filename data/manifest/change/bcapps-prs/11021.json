@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/11021",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Expense Agent: align legacy submit cleanup with 29.0",
+  "url": "https://github.com/microsoft/BCApps/pull/11021",
+  "published_at": "2026-09-24T11:35:53Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "8c34173df3ce22c13baee63e28eed20809020b48:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11021,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "8c34173df3ce22c13baee63e28eed20809020b48",
+    "author": "t-prda",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "expense agent align legacy submit cleanup with 29 0"
+  }
+}

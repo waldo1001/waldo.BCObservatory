@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/9813",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[E-Document][Pagero] Disable VAT reporting date so integration tests pass on CZ",
+  "url": "https://github.com/microsoft/BCApps/pull/9813",
+  "published_at": "2026-07-29T22:05:33Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "9b8e025798adb2e890cbc60c9a5e75aeaa186958:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9813,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "9b8e025798adb2e890cbc60c9a5e75aeaa186958",
+    "author": "Groenbech96",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "e document pagero disable vat reporting date so integration tests pass on cz"
+  }
+}

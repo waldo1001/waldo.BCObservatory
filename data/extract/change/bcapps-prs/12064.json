@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/12064",
+  "number": 12064,
+  "title": "Support SharePoint paths containing hash and percent characters",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development",
+    "integration"
+  ],
+  "summary": "SharePoint connector now supports file paths containing hash and percent characters by adding separate decoded-path APIs backed by ResourcePath endpoints, with a new REST Base Folder Path Format setting to control URL decoding behavior.",
+  "key_points": [
+    "New decoded-path SharePoint Client APIs using ResourcePath endpoints for file operations",
+    "New REST Base Folder Path Format setting (defaults to URL) controlling whether configuration paths are URL-decoded",
+    "URL-based public client APIs remain unchanged",
+    "Affects file upload, download, delete, listing, and folder operations in SharePoint connector",
+    "Synchronous read-back verification removed to avoid extra file downloads in posting transactions"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": "This PR adds separate decoded-path SharePoint Client APIs backed by ResourcePath endpoints and uses them in the legacy connector",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004535,
+    "changes_in_call": 1
+  }
+}

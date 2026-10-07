@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/11701",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[MCP] Hide codeunit APIs from Available APIs dropdown (AB#650771)",
+  "url": "https://github.com/microsoft/BCApps/pull/11701",
+  "published_at": "2026-09-22T14:58:23Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "e988907bc98569bdd3dbdb6cc33a7bc4a0dc4663:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11701,
+    "repo": "microsoft/BCApps",
+    "base": "releases/29.x",
+    "major": "29",
+    "merge_commit_sha": "e988907bc98569bdd3dbdb6cc33a7bc4a0dc4663",
+    "author": "divyanshukapoor",
+    "author_type": "User",
+    "labels": [
+      "AL: System Application",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "mcp hide codeunit apis from available apis dropdown ab 650771"
+  }
+}

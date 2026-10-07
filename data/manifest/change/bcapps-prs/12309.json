@@ -1,0 +1,60 @@
+{
+  "id": "change/bcapps-prs/12309",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Fix infinite recursion in Config. Package Field XML name generation",
+  "url": "https://github.com/microsoft/BCApps/pull/12309",
+  "published_at": "2026-10-06T14:50:55Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:55:43.207Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T12:55:49.958Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003865
+    },
+    "linked": {
+      "at": "2026-10-07T12:55:50.153Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T12:55:50.159Z",
+      "path": "content/changes/bcapps/12309.md"
+    }
+  },
+  "input_hash": "6fd8c9a15d7dce965abde7a28de47f574febf4c4:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12309,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "6fd8c9a15d7dce965abde7a28de47f574febf4c4",
+    "author": "darjoo",
+    "author_type": "User",
+    "labels": [
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "fix infinite recursion in config package field xml name generation"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "94d280bb6c1cfaf7df43a259d2d9f0400251842a8772a8e241df91af9c0d7629"
+}

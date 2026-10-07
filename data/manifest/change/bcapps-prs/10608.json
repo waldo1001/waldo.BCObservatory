@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/10608",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[master]-Bug 647093-[Subscription Billing] Incorrect Invoice Amounts when using explicit values in Subscription Line End Date",
+  "url": "https://github.com/microsoft/BCApps/pull/10608",
+  "published_at": "2026-08-27T16:29:05Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "51cb4e519a343791ce8dba355f59c612d4051c9f:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10608,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "51cb4e519a343791ce8dba355f59c612d4051c9f",
+    "author": "MSNehaNawal",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "master bug 647093 subscription billing incorrect invoice amounts when using explicit values in subscription line end date"
+  }
+}

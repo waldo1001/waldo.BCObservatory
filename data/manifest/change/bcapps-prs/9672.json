@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9672",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Stabilize partial sales shipment undo test",
+  "url": "https://github.com/microsoft/BCApps/pull/9672",
+  "published_at": "2026-08-04T11:16:01Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "73e9eca154a6b8e23802ebed81711919079aa79a:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9672,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "73e9eca154a6b8e23802ebed81711919079aa79a",
+    "author": "attilatoury",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "stabilize partial sales shipment undo test"
+  }
+}

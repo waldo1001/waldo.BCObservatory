@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/10216",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Fix Purchase Journal document amount decimal formatting",
+  "url": "https://github.com/microsoft/BCApps/pull/10216",
+  "published_at": "2026-08-13T13:04:50Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "530a10648f985569ef20750a5ab68c5292b8ae98:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10216,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "530a10648f985569ef20750a5ab68c5292b8ae98",
+    "author": "PredragMaricic",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "fix purchase journal document amount decimal formatting"
+  }
+}

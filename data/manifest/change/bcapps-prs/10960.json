@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/10960",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[main] bug 648733 - Add integration event for updating original document VAT date in General Ledger Setup CZL",
+  "url": "https://github.com/microsoft/BCApps/pull/10960",
+  "published_at": "2026-09-04T14:37:16Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "f3f3ca6939dea09609e7a4ecae7a7f3b7aa632a0:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10960,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "f3f3ca6939dea09609e7a4ecae7a7f3b7aa632a0",
+    "author": "DavidHolusa",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 648733 add integration event for updating original document vat date in general ledger setup czl"
+  }
+}

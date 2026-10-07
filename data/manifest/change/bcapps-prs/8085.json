@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/8085",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[MCP] Server Features in MCP configuration: API Tools, Dynamic Tool Mode, Data Query Tools (Preview)",
+  "url": "https://github.com/microsoft/BCApps/pull/8085",
+  "published_at": "2026-07-27T20:24:47Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "2b16b1c9596fdb4e63daa1d6272a15f476c0603a:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 8085,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "2b16b1c9596fdb4e63daa1d6272a15f476c0603a",
+    "author": "onbuyuka",
+    "author_type": "User",
+    "labels": [
+      "AL: System Application",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "mcp server features in mcp configuration api tools dynamic tool mode data query tools preview"
+  }
+}

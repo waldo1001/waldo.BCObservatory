@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/11428",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Add missing request page handler to the IC purchase invoice test",
+  "url": "https://github.com/microsoft/BCApps/pull/11428",
+  "published_at": "2026-09-15T08:40:55Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "2d0da5fdebd3dffcc0c896a6cf698d7aa839a097:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11428,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "2d0da5fdebd3dffcc0c896a6cf698d7aa839a097",
+    "author": "Explorer986",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "add missing request page handler to the ic purchase invoice test"
+  }
+}

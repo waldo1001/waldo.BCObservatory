@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/8965",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Include isInternal flagged apps in AL-Go settings",
+  "url": "https://github.com/microsoft/BCApps/pull/8965",
+  "published_at": "2026-07-23T09:27:57Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "19cd7b5cfc6a724eb3bc423d96a3848c7d48ffd2:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 8965,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "19cd7b5cfc6a724eb3bc423d96a3848c7d48ffd2",
+    "author": "spetersenms",
+    "author_type": "User",
+    "labels": [
+      "Build: scripts & configs",
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": false,
+    "title_key": "include isinternal flagged apps in al go settings"
+  }
+}

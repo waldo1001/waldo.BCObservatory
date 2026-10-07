@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/9322",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[FS Integration] SVCITEM-CUSTASSET mapping ignores \"Convert to Customer Asset\" flag — every Service Item synced to FS unconditionally",
+  "url": "https://github.com/microsoft/BCApps/pull/9322",
+  "published_at": "2026-07-15T08:42:27Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "2e9cc00596b325150849f3107d1b316f232b09a1:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9322,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "2e9cc00596b325150849f3107d1b316f232b09a1",
+    "author": "tomasevicst",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "fs integration svcitem custasset mapping ignores convert to customer asset flag every service item synced to fs unconditionally"
+  }
+}

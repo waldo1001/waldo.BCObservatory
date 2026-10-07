@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/9564",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[main] bug 640380 - Add Word layout and email body support for Purchase Quote and Sales Shipment",
+  "url": "https://github.com/microsoft/BCApps/pull/9564",
+  "published_at": "2026-07-21T15:31:24Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "79136c52df7068692aa95caa4e3f206917153822:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9564,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "79136c52df7068692aa95caa4e3f206917153822",
+    "author": "DavidHolusa",
+    "author_type": "User",
+    "labels": [
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 640380 add word layout and email body support for purchase quote and sales shipment"
+  }
+}

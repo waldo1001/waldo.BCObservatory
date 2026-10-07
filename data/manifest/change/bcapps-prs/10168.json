@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/10168",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[APAC] Keep vendor ACY on purchase invoice payables entry",
+  "url": "https://github.com/microsoft/BCApps/pull/10168",
+  "published_at": "2026-08-17T08:29:01Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "b68e5316fe3abb4429d414def091d5a8b8b763cf:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10168,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "b68e5316fe3abb4429d414def091d5a8b8b763cf",
+    "author": "Jose-agg",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "apac keep vendor acy on purchase invoice payables entry"
+  }
+}

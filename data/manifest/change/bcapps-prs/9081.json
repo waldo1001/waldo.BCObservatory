@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9081",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Bug 637846: Item Age Composition '...before' quantity reflected only last entry",
+  "url": "https://github.com/microsoft/BCApps/pull/9081",
+  "published_at": "2026-07-08T10:20:50Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "b74b49c3f46bbc6cbae70aa6249954909638896d:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9081,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "b74b49c3f46bbc6cbae70aa6249954909638896d",
+    "author": "alexei-dobriansky",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 637846 item age composition before quantity reflected only last entry"
+  }
+}

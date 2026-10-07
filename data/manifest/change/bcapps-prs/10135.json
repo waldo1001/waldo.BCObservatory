@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/10135",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Master]-Performance issue when calculating the VAT advance return / VAT statement (Base Application, German environment) - Copy",
+  "url": "https://github.com/microsoft/BCApps/pull/10135",
+  "published_at": "2026-08-12T06:39:12Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "c0cc2e27704b3efca76029f1e5f999bdc34f946e:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10135,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "c0cc2e27704b3efca76029f1e5f999bdc34f946e",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "master performance issue when calculating the vat advance return vat statement base application german environment copy"
+  }
+}

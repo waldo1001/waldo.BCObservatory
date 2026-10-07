@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/11292",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Bug 648535: Reprice subcontracting lines after scheduling",
+  "url": "https://github.com/microsoft/BCApps/pull/11292",
+  "published_at": "2026-09-22T10:41:00Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "8b8571bf54443e2d385b6cab37845f19b1380898:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11292,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "8b8571bf54443e2d385b6cab37845f19b1380898",
+    "author": "ChethanT",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 648535 reprice subcontracting lines after scheduling"
+  }
+}

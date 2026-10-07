@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/10259",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Slice 550732: Keep routing descriptions when vendor changes",
+  "url": "https://github.com/microsoft/BCApps/pull/10259",
+  "published_at": "2026-08-20T11:37:10Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "66fae4cce31404c7deba9699a4d1fe2e9138b304:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10259,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "66fae4cce31404c7deba9699a4d1fe2e9138b304",
+    "author": "ChethanT",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Subcontracting",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "slice 550732 keep routing descriptions when vendor changes"
+  }
+}

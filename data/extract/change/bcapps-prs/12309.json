@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/12309",
+  "number": 12309,
+  "title": "Fix infinite recursion in Config. Package Field XML name generation",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Fixed infinite recursion in XML element name generation when configuration package fields produce duplicate XML names by replacing recursion with a bounded loop that appends counters and properly shortens base names.",
+  "key_points": [
+    "Prevents stack overflow and out-of-memory errors when adding tables to Configuration Packages with field name collisions",
+    "Replaces unbounded recursion with bounded loop using counter suffix approach",
+    "Ensures suffix always fits within 30-character field name limit by shortening base name first",
+    "Maintains backward compatibility for existing packages and correctly resolved names",
+    "Added tests verifying behavior with maximum-length field names that previously caused hangs"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration",
+    "administration"
+  ],
+  "quote": "Adding a table to a Configuration Package could run out of memory or stack while generating package fields.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003865,
+    "changes_in_call": 1
+  }
+}

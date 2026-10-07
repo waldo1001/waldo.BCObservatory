@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/12206",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Track C5 migration usage consistently",
+  "url": "https://github.com/microsoft/BCApps/pull/12206",
+  "published_at": "2026-10-01T19:34:30Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "837ef802485ee457e52310d2ecaa08b93d0122fd:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12206,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "837ef802485ee457e52310d2ecaa08b93d0122fd",
+    "author": "nikolakukrika",
+    "author_type": "User",
+    "labels": [
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "track c5 migration usage consistently"
+  }
+}

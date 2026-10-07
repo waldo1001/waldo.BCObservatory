@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/10377",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Main][ALL-E] Sales Price from customer card and Purcase Price from vendor card is showing \"All Customers/All Vendors\" as header instead of the specific customer/vendor informationInitial  commit",
+  "url": "https://github.com/microsoft/BCApps/pull/10377",
+  "published_at": "2026-08-25T05:11:57Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "e696d30ce828768b1b47b9a31a62bd091480d415:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10377,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "e696d30ce828768b1b47b9a31a62bd091480d415",
+    "author": "sanjmaurya",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "all e sales price from customer card and purcase price from vendor card is showing all customers all vendors as header instead of the specific customer vendor informationinitial commit"
+  }
+}

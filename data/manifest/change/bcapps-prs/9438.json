@@ -1,0 +1,35 @@
+{
+  "id": "change/bcapps-prs/9438",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "SL - Add support for migrating historical project transactions",
+  "url": "https://github.com/microsoft/BCApps/pull/9438",
+  "published_at": "2026-10-02T20:57:25Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "eaa8a3a07f667a4b0c88dce4dc3664bfa180c3e4:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9438,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "eaa8a3a07f667a4b0c88dce4dc3664bfa180c3e4",
+    "author": "blauerPCL",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "AL: Apps (W1)",
+      "From Fork",
+      "Team: Integrations"
+    ],
+    "community_contribution": true,
+    "title_key": "sl add support for migrating historical project transactions"
+  }
+}

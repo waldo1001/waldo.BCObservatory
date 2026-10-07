@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/9453",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Bug 642248] Header/Footer Theme Assignment: persist selected layout (missing Rec.Modify)",
+  "url": "https://github.com/microsoft/BCApps/pull/9453",
+  "published_at": "2026-07-15T14:20:44Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "34a2fe00555335e94d93d26aa6ee1b2776f3f7b6:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9453,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "34a2fe00555335e94d93d26aa6ee1b2776f3f7b6",
+    "author": "v-mortenr",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "Bug"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 642248 header footer theme assignment persist selected layout missing rec modify"
+  }
+}

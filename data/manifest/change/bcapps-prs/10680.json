@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/10680",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Maintenance update",
+  "url": "https://github.com/microsoft/BCApps/pull/10680",
+  "published_at": "2026-08-28T21:31:19Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "36e268a87492672aa6314409d1e40bb9d1c1142b:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10680,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "36e268a87492672aa6314409d1e40bb9d1c1142b",
+    "author": "thloke",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "AL: System Application",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "maintenance update"
+  }
+}

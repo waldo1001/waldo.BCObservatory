@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/10130",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[ExpenseAgent] Expose VatSpecifications on Expense API Page",
+  "url": "https://github.com/microsoft/BCApps/pull/10130",
+  "published_at": "2026-08-11T21:03:03Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "80fe144654e38e757f1083186d02ba59b7dbcd54:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10130,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "80fe144654e38e757f1083186d02ba59b7dbcd54",
+    "author": "claudiuciumedean",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "expenseagent expose vatspecifications on expense api page"
+  }
+}

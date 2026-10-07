@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/11016",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[AI Business Solutions] Enforce allow-listed Redirect URIs, token audiences and authorities for OAuth2 integrations",
+  "url": "https://github.com/microsoft/BCApps/pull/11016",
+  "published_at": "2026-09-10T17:49:21Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "f21568982af7a23ae19e8c933ce6d671315d5e1f:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11016,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "f21568982af7a23ae19e8c933ce6d671315d5e1f",
+    "author": "dcenic",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": false,
+    "title_key": "ai business solutions enforce allow listed redirect uris token audiences and authorities for oauth2 integrations"
+  }
+}

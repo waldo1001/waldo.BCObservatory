@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/10670",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Add Agent Task Log JSON export",
+  "url": "https://github.com/microsoft/BCApps/pull/10670",
+  "published_at": "2026-09-11T06:47:44Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "d1221382a9e7e9f059bb1f88c8a8c9ed78014410:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10670,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "d1221382a9e7e9f059bb1f88c8a8c9ed78014410",
+    "author": "nikolakukrika",
+    "author_type": "User",
+    "labels": [
+      "AL: System Application",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "add agent task log json export"
+  }
+}

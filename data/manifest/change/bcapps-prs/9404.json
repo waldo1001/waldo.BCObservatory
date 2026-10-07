@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9404",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Shopify] Fix Sync Prices using stale WorkDate from SingleInstance cache",
+  "url": "https://github.com/microsoft/BCApps/pull/9404",
+  "published_at": "2026-07-15T19:22:59Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "e286ff6ccca89ef01747a735e56130c38c22e7b4:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9404,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "e286ff6ccca89ef01747a735e56130c38c22e7b4",
+    "author": "onbuyuka",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)"
+    ],
+    "community_contribution": false,
+    "title_key": "shopify fix sync prices using stale workdate from singleinstance cache"
+  }
+}

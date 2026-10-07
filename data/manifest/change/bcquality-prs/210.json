@@ -1,0 +1,30 @@
+{
+  "id": "change/bcquality-prs/210",
+  "pillar": "change",
+  "source": "bcquality-prs",
+  "tier": "official",
+  "title": "knowledge(upgrade): upgrade code must not use ChangeCompany",
+  "url": "https://github.com/microsoft/BCQuality/pull/210",
+  "published_at": "2026-10-02T09:35:12Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "488ce50775bb1d94611191d2db83de35f7490763:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 210,
+    "repo": "microsoft/BCQuality",
+    "base": "main",
+    "major": null,
+    "merge_commit_sha": "488ce50775bb1d94611191d2db83de35f7490763",
+    "author": "JesperSchulz",
+    "author_type": "User",
+    "labels": [],
+    "community_contribution": false,
+    "title_key": "knowledge upgrade upgrade code must not use changecompany"
+  }
+}

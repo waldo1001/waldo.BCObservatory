@@ -1,0 +1,35 @@
+{
+  "id": "change/bcapps-prs/10375",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Re-run a failed test app on a different tenant",
+  "url": "https://github.com/microsoft/BCApps/pull/10375",
+  "published_at": "2026-08-21T13:52:42Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "738d5bbed0c1497995c77e7d7094b9871da4b02c:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10375,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "738d5bbed0c1497995c77e7d7094b9871da4b02c",
+    "author": "aholstrup1",
+    "author_type": "User",
+    "labels": [
+      "Build: Automation",
+      "Build: scripts & configs",
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": false,
+    "title_key": "re run a failed test app on a different tenant"
+  }
+}

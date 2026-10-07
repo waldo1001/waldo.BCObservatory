@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/9777",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Extensibility Request] issue 30377: add OnBeforePrintOnlyIfSalesCheck event in Item Sales Statistics report",
+  "url": "https://github.com/microsoft/BCApps/pull/9777",
+  "published_at": "2026-07-30T08:53:03Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "19409cc67b63b76bcbd23392808e407e2c36def5:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9777,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "19409cc67b63b76bcbd23392808e407e2c36def5",
+    "author": "AleksandricMarko",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM",
+      "event-request"
+    ],
+    "community_contribution": false,
+    "title_key": "extensibility request issue 30377 add onbeforeprintonlyifsalescheck event in item sales statistics report"
+  }
+}

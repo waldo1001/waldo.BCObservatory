@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/12080",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Bug 649448: [Subcontracting] [IT] Fully received WIP purchase orders block Disable Legacy Subcontracting",
+  "url": "https://github.com/microsoft/BCApps/pull/12080",
+  "published_at": "2026-09-30T12:38:39Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "2816b3da92e409a97c1ae66a6963dc657eb740ee:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12080,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "2816b3da92e409a97c1ae66a6963dc657eb740ee",
+    "author": "ChethanT",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 649448 subcontracting it fully received wip purchase orders block disable legacy subcontracting"
+  }
+}

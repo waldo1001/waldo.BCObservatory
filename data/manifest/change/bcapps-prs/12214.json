@@ -1,0 +1,61 @@
+{
+  "id": "change/bcapps-prs/12214",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Shopify] Store currency handling for auto-created orders",
+  "url": "https://github.com/microsoft/BCApps/pull/12214",
+  "published_at": "2026-10-06T19:04:29Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:55:36.913Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T12:55:41.828Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003859
+    },
+    "linked": {
+      "at": "2026-10-07T12:55:42.014Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T12:55:42.031Z",
+      "path": "content/changes/bcapps/12214.md"
+    }
+  },
+  "input_hash": "6fed24a324ef6d224cc50d1ba604a9ea96eee8e8:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12214,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "6fed24a324ef6d224cc50d1ba604a9ea96eee8e8",
+    "author": "onbuyuka",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "shopify store currency handling for auto created orders"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "7870be0a5247134fbbc13f704bbcc5e469812d210e560bbda3892ce004813f5e"
+}

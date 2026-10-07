@@ -1,0 +1,30 @@
+{
+  "id": "change/al-go-prs/2283",
+  "pillar": "change",
+  "source": "al-go-prs",
+  "tier": "official",
+  "title": "Fix issue 2267: appsourcecop.json is not created for testapps",
+  "url": "https://github.com/microsoft/AL-Go/pull/2283",
+  "published_at": "2026-07-21T09:54:04Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "aebdfe1a7536e9ada2d8021a323dcdb14b7704b1:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 2283,
+    "repo": "microsoft/AL-Go",
+    "base": "main",
+    "major": null,
+    "merge_commit_sha": "aebdfe1a7536e9ada2d8021a323dcdb14b7704b1",
+    "author": "spetersenms",
+    "author_type": "User",
+    "labels": [],
+    "community_contribution": false,
+    "title_key": "fix issue 2267 appsourcecop json is not created for testapps"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/12077",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Simplify CODEOWNERS to mandatory approval gates",
+  "url": "https://github.com/microsoft/BCApps/pull/12077",
+  "published_at": "2026-10-01T12:57:07Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "eecf68759607a55b497d464a4f738c7b46ee4f20:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12077,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "eecf68759607a55b497d464a4f738c7b46ee4f20",
+    "author": "JesperSchulz",
+    "author_type": "User",
+    "labels": [
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": false,
+    "title_key": "simplify codeowners to mandatory approval gates"
+  }
+}

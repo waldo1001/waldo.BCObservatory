@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/9801",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Fix language resolution for culture-neutral AI test datasets",
+  "url": "https://github.com/microsoft/BCApps/pull/9801",
+  "published_at": "2026-07-29T09:37:56Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "978dd41773d3a4985c8c0d634361b38a4eea3b89:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9801,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "978dd41773d3a4985c8c0d634361b38a4eea3b89",
+    "author": "Jose-agg",
+    "author_type": "User",
+    "labels": [
+      "AL: Tools",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "fix language resolution for culture neutral ai test datasets"
+  }
+}

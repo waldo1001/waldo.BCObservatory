@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9982",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Main] Item tracking validation when lot numbers are assigned concerns the warehouse pick level rather than at the sales order levelInitial Commit",
+  "url": "https://github.com/microsoft/BCApps/pull/9982",
+  "published_at": "2026-09-21T05:27:48Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "4c621fdc334574d8b95d48680998f48e433a0ed6:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9982,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "4c621fdc334574d8b95d48680998f48e433a0ed6",
+    "author": "Shikhverma",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "item tracking validation when lot numbers are assigned concerns the warehouse pick level rather than at the sales order levelinitial commit"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9608",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Bug 642638: [master] IRS 1099 reporting fields inconsistently stamped on Vendor Ledger Entries for non-1099 vendors - General Journal vs. Purchase Invoice",
+  "url": "https://github.com/microsoft/BCApps/pull/9608",
+  "published_at": "2026-07-24T19:29:25Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "7b0e5c1123e5b5b90f0c77641bc5754661324d89:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9608,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "7b0e5c1123e5b5b90f0c77641bc5754661324d89",
+    "author": "AleksanderGladkov",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 642638 master irs 1099 reporting fields inconsistently stamped on vendor ledger entries for non 1099 vendors general journal vs purchase invoice"
+  }
+}

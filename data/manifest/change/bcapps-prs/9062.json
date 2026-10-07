@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/9062",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Master]-Production Order - WIP shows incorrect consumption amount.",
+  "url": "https://github.com/microsoft/BCApps/pull/9062",
+  "published_at": "2026-07-10T15:59:53Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "67a822d2b81477a2cd681a33170c9dfc7d2140fa:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9062,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "67a822d2b81477a2cd681a33170c9dfc7d2140fa",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "From Fork",
+      "Team: SCM"
+    ],
+    "community_contribution": true,
+    "title_key": "master production order wip shows incorrect consumption amount"
+  }
+}

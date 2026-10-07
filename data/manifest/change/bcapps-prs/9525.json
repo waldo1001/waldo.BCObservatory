@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/9525",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Shopify] Automatic Transaction Posting",
+  "url": "https://github.com/microsoft/BCApps/pull/9525",
+  "published_at": "2026-09-18T12:21:36Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "15e8ab7c0b7b0069dd43d86a2c111f8b68539f52:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9525,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "15e8ab7c0b7b0069dd43d86a2c111f8b68539f52",
+    "author": "onbuyuka",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "shopify automatic transaction posting"
+  }
+}

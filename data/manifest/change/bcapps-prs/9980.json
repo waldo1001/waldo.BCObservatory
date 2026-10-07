@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/9980",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Fix stale PR cleanup for empty repositories and forks",
+  "url": "https://github.com/microsoft/BCApps/pull/9980",
+  "published_at": "2026-08-05T15:21:13Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "2031061c7b41f6abe26af13d7f8313c46d928c99:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9980,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "2031061c7b41f6abe26af13d7f8313c46d928c99",
+    "author": "aholstrup1",
+    "author_type": "User",
+    "labels": [
+      "Build: Automation",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "fix stale pr cleanup for empty repositories and forks"
+  }
+}

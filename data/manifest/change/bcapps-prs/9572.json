@@ -1,0 +1,35 @@
+{
+  "id": "change/bcapps-prs/9572",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Obsolete E-Document Purchase Order Matching Copilot",
+  "url": "https://github.com/microsoft/BCApps/pull/9572",
+  "published_at": "2026-07-22T08:19:49Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "2277aa0c0a5b92dd13a0aa0e4296c47a43c78a8b:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9572,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "2277aa0c0a5b92dd13a0aa0e4296c47a43c78a8b",
+    "author": "Groenbech96",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "AL: Apps (W1)",
+      "From Fork",
+      "Team: Integrations"
+    ],
+    "community_contribution": true,
+    "title_key": "obsolete e document purchase order matching copilot"
+  }
+}

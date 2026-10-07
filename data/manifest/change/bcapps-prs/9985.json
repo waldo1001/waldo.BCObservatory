@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9985",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Master]-For an Item of 'Type' Service or Non-Inventory we allow you to increase the Quantity of the Corrective Credit Memo which then if posted updates the Purchase Order with a negative Received and Invoiced values",
+  "url": "https://github.com/microsoft/BCApps/pull/9985",
+  "published_at": "2026-08-07T13:56:42Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "3d9202436352fb5ced08a0154f32e2e1e530ead3:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9985,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "3d9202436352fb5ced08a0154f32e2e1e530ead3",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "master for an item of type service or non inventory we allow you to increase the quantity of the corrective credit memo which then if posted updates the purchase order with a negative received and invoiced values"
+  }
+}

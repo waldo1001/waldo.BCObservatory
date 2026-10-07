@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/10934",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[29.x][REPAIR] [ALL-E] Item tracking validation when lot numbers are assigned concerns the warehouse pick level rather than at the sales order level",
+  "url": "https://github.com/microsoft/BCApps/pull/10934",
+  "published_at": "2026-09-16T05:44:56Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "ba72daf6a8f67dff3ee74bcbd21dac07b29f2fe5:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10934,
+    "repo": "microsoft/BCApps",
+    "base": "releases/29.x",
+    "major": "29",
+    "merge_commit_sha": "ba72daf6a8f67dff3ee74bcbd21dac07b29f2fe5",
+    "author": "Shikhverma",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "repair all e item tracking validation when lot numbers are assigned concerns the warehouse pick level rather than at the sales order level"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/10386",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Agent Archiving] Prevent archived custom agents from being modified",
+  "url": "https://github.com/microsoft/BCApps/pull/10386",
+  "published_at": "2026-08-21T19:00:57Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "4543fdc956c32b7c7c2b579dfb6b0192a3f099d0:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10386,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "4543fdc956c32b7c7c2b579dfb6b0192a3f099d0",
+    "author": "krupybalu",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "agent archiving prevent archived custom agents from being modified"
+  }
+}

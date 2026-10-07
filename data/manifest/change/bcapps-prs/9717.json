@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/9717",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Fix internal admin losing SUPER during customized plan provisioning",
+  "url": "https://github.com/microsoft/BCApps/pull/9717",
+  "published_at": "2026-07-29T09:36:28Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "ea113f8d0292fb0fff643dea78d859e7c0ef24b5:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9717,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "ea113f8d0292fb0fff643dea78d859e7c0ef24b5",
+    "author": "darjoo",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "AL: System Application",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "fix internal admin losing super during customized plan provisioning"
+  }
+}

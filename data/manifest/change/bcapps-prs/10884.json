@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/10884",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Bug Fix] Fix recurring journal background posting for IRS 1099 invoice lines (US)",
+  "url": "https://github.com/microsoft/BCApps/pull/10884",
+  "published_at": "2026-09-07T15:20:30Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "e4bd6796994454a43781fb972e1d5d277879bb6c:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10884,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "e4bd6796994454a43781fb972e1d5d277879bb6c",
+    "author": "Explorer986",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "bug fix fix recurring journal background posting for irs 1099 invoice lines us"
+  }
+}

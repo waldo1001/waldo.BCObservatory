@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9260",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Bug 637507: [master] [Report 743 VAT Reconciliation Report] Incorrect VAT Base and Amount when using Non-Deductible VAT",
+  "url": "https://github.com/microsoft/BCApps/pull/9260",
+  "published_at": "2026-07-15T11:51:41Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "84e4a14298739b4fb3f506afe10de584f3749478:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9260,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "84e4a14298739b4fb3f506afe10de584f3749478",
+    "author": "AleksanderGladkov",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 637507 master report 743 vat reconciliation report incorrect vat base and amount when using non deductible vat"
+  }
+}

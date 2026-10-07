@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/12097",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[29.X]-[Quality Management] Workflow events are not localized",
+  "url": "https://github.com/microsoft/BCApps/pull/12097",
+  "published_at": "2026-10-05T13:01:20Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "bd29abeb2914f2758dd6a369c010d7640da3cb12:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12097,
+    "repo": "microsoft/BCApps",
+    "base": "releases/29.x",
+    "major": "29",
+    "merge_commit_sha": "bd29abeb2914f2758dd6a369c010d7640da3cb12",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "quality management workflow events are not localized"
+  }
+}

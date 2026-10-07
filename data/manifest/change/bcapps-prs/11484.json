@@ -1,0 +1,35 @@
+{
+  "id": "change/bcapps-prs/11484",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[E-Documents Core] - Supported type direction configuration",
+  "url": "https://github.com/microsoft/BCApps/pull/11484",
+  "published_at": "2026-09-29T11:15:10Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "a94e98bc167c637c0ce50810639d6c459c1e4aef:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11484,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "a94e98bc167c637c0ce50810639d6c459c1e4aef",
+    "author": "GediminasGaubys",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "AL: Apps (W1)",
+      "From Fork",
+      "Team: Integrations"
+    ],
+    "community_contribution": true,
+    "title_key": "e documents core supported type direction configuration"
+  }
+}

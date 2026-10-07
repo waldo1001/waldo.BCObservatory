@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/11135",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Fix dimensions not populated by \"Get Order Lines\" on Purchase Invoices",
+  "url": "https://github.com/microsoft/BCApps/pull/11135",
+  "published_at": "2026-09-08T11:16:31Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "6228ce54735575dcf0ca874c3d40f3a754fdf355:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11135,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "6228ce54735575dcf0ca874c3d40f3a754fdf355",
+    "author": "VolodySyn",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "fix dimensions not populated by get order lines on purchase invoices"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/11941",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Bug 651577 CompAuxNum and CompAuxLib columns should be informed for Payment Discount lines on Unapplied Entries in the French Audit File.",
+  "url": "https://github.com/microsoft/BCApps/pull/11941",
+  "published_at": "2026-10-01T12:10:32Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "7de00b421562ccc6e4e88e73981112c89938b981:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11941,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "7de00b421562ccc6e4e88e73981112c89938b981",
+    "author": "v-praghav",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 651577 compauxnum and compauxlib columns should be informed for payment discount lines on unapplied entries in the french audit file"
+  }
+}

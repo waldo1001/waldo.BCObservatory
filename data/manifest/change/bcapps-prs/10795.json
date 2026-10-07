@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/10795",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[master] Discrepancy in inventory picks when the quantity exceeds the available inventory.",
+  "url": "https://github.com/microsoft/BCApps/pull/10795",
+  "published_at": "2026-09-03T06:21:54Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "e7751a5b00b07fb0c8565675a87ba374b8a5f50d:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10795,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "e7751a5b00b07fb0c8565675a87ba374b8a5f50d",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "master discrepancy in inventory picks when the quantity exceeds the available inventory"
+  }
+}

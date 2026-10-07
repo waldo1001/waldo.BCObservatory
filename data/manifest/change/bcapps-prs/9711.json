@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/9711",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Fix E-Document purchase draft header Sub Total overwrite; notify on mismatch",
+  "url": "https://github.com/microsoft/BCApps/pull/9711",
+  "published_at": "2026-08-14T10:21:05Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "8a1569ede3002307f541fb8aa4fbede3f56d18e5:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9711,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "8a1569ede3002307f541fb8aa4fbede3f56d18e5",
+    "author": "ventselartur",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "fix e document purchase draft header sub total overwrite notify on mismatch"
+  }
+}

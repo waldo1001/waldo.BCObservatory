@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/9479",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Master]-]Withholding Tax Entries are not generated at payment because the Withholding Tax. Prod. Posting Group field gets not transferred to the payment line",
+  "url": "https://github.com/microsoft/BCApps/pull/9479",
+  "published_at": "2026-07-17T08:54:52Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "1b6bada9ebeb57a7cd68e8bc992a467821f1cd5f:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9479,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "1b6bada9ebeb57a7cd68e8bc992a467821f1cd5f",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "master withholding tax entries are not generated at payment because the withholding tax prod posting group field gets not transferred to the payment line"
+  }
+}

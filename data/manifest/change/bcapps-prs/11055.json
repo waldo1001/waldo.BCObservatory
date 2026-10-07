@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/11055",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Allow bank rec. duplicated transactions surfaced in UI",
+  "url": "https://github.com/microsoft/BCApps/pull/11055",
+  "published_at": "2026-09-09T15:43:01Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "caa491c5a220f6d98e87d94cc0f5b4de5fa9c339:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11055,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "caa491c5a220f6d98e87d94cc0f5b4de5fa9c339",
+    "author": "mynjj",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "allow bank rec duplicated transactions surfaced in ui"
+  }
+}

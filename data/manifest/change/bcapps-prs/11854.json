@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/11854",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Shopify] Make refund currency codes read-only",
+  "url": "https://github.com/microsoft/BCApps/pull/11854",
+  "published_at": "2026-10-01T16:17:54Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "544057373a7a4781d3843c003c1d303eb8d8e0c2:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11854,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "544057373a7a4781d3843c003c1d303eb8d8e0c2",
+    "author": "onbuyuka",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "shopify make refund currency codes read only"
+  }
+}

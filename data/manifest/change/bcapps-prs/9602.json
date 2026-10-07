@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9602",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "User experience for adding attribute in item categories is wrong",
+  "url": "https://github.com/microsoft/BCApps/pull/9602",
+  "published_at": "2026-08-28T08:30:00Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "1bf1eb8599f0c6136f076bfcb63d13a4762acb95:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9602,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "1bf1eb8599f0c6136f076bfcb63d13a4762acb95",
+    "author": "Shikhverma",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "user experience for adding attribute in item categories is wrong"
+  }
+}

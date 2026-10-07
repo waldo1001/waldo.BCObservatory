@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9749",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "OIOUBL fixes after schematron update",
+  "url": "https://github.com/microsoft/BCApps/pull/9749",
+  "published_at": "2026-08-10T08:11:20Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "5950fa9832ba50af1751fb24679112d9ef1baf0c:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9749,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "5950fa9832ba50af1751fb24679112d9ef1baf0c",
+    "author": "mynjj",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "oioubl fixes after schematron update"
+  }
+}

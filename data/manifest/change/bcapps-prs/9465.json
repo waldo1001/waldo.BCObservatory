@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/9465",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Extensibility Request] issue 30350: add OnBeforeTestFirstApplyItemLedgerEntryTracking event",
+  "url": "https://github.com/microsoft/BCApps/pull/9465",
+  "published_at": "2026-08-10T23:57:39Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "777fcd98aee7cc430c7aed5740a9443ba7ca25c9:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9465,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "777fcd98aee7cc430c7aed5740a9443ba7ca25c9",
+    "author": "AleksandricMarko",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM",
+      "event-request"
+    ],
+    "community_contribution": false,
+    "title_key": "extensibility request issue 30350 add onbeforetestfirstapplyitemledgerentrytracking event"
+  }
+}

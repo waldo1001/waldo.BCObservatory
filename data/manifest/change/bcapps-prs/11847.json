@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/11847",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Use matching key for workflow event step instance lookup",
+  "url": "https://github.com/microsoft/BCApps/pull/11847",
+  "published_at": "2026-09-25T18:13:49Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "32a53a329745ac2a535f50530f4971f080ba20c4:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11847,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "32a53a329745ac2a535f50530f4971f080ba20c4",
+    "author": "darjoo",
+    "author_type": "User",
+    "labels": [
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "use matching key for workflow event step instance lookup"
+  }
+}

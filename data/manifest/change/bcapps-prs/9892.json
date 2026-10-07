@@ -1,0 +1,36 @@
+{
+  "id": "change/bcapps-prs/9892",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[main] Bug 644283: Renumber Subcontracting app object ids as it clashes with partner range",
+  "url": "https://github.com/microsoft/BCApps/pull/9892",
+  "published_at": "2026-08-18T00:09:01Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "4b1af2695fbb906358e0ee728783924481155777:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9892,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "4b1af2695fbb906358e0ee728783924481155777",
+    "author": "ChethanT",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Build: scripts & configs",
+      "Ownership: Needs Review",
+      "Subcontracting",
+      "Team: Other"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 644283 renumber subcontracting app object ids as it clashes with partner range"
+  }
+}

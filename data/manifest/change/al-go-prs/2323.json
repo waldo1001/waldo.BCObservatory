@@ -1,0 +1,30 @@
+{
+  "id": "change/al-go-prs/2323",
+  "pillar": "change",
+  "source": "al-go-prs",
+  "tier": "official",
+  "title": "Fix enableCodeAnalyzersOnTestApps not disabling customCodeCops in workspace compilation",
+  "url": "https://github.com/microsoft/AL-Go/pull/2323",
+  "published_at": "2026-07-21T07:11:46Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "1150d93046c5e705683771a8d33c51f7f9b7d06f:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 2323,
+    "repo": "microsoft/AL-Go",
+    "base": "main",
+    "major": null,
+    "merge_commit_sha": "1150d93046c5e705683771a8d33c51f7f9b7d06f",
+    "author": "aholstrup1",
+    "author_type": "User",
+    "labels": [],
+    "community_contribution": false,
+    "title_key": "fix enablecodeanalyzersontestapps not disabling customcodecops in workspace compilation"
+  }
+}

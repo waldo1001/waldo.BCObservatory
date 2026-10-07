@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/10088",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Harden base ruleset: promote 21 rules back to Error",
+  "url": "https://github.com/microsoft/BCApps/pull/10088",
+  "published_at": "2026-08-11T19:26:13Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "f53e391e5db610c29c0f1846e715836cf7a0cc85:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10088,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "f53e391e5db610c29c0f1846e715836cf7a0cc85",
+    "author": "JesperSchulz",
+    "author_type": "User",
+    "labels": [
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": false,
+    "title_key": "harden base ruleset promote 21 rules back to error"
+  }
+}

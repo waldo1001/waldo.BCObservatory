@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/12157",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Mark GetAddress.io objects as obsolete",
+  "url": "https://github.com/microsoft/BCApps/pull/12157",
+  "published_at": "2026-10-01T14:37:45Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "1189723c6ccd408992335241f6f2b3999d9d93f1:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12157,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "1189723c6ccd408992335241f6f2b3999d9d93f1",
+    "author": "dcenic",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "mark getaddress io objects as obsolete"
+  }
+}

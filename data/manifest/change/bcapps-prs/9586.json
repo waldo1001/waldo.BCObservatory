@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9586",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[master] Overdue Balance (LCY) filters do not behave as expected if you open the Customer Card from a document or journal.",
+  "url": "https://github.com/microsoft/BCApps/pull/9586",
+  "published_at": "2026-07-20T10:42:34Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "2161aac0d5d1bab58e053160a68beef06ca2cdb5:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9586,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "2161aac0d5d1bab58e053160a68beef06ca2cdb5",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "master overdue balance lcy filters do not behave as expected if you open the customer card from a document or journal"
+  }
+}

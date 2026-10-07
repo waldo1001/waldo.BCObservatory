@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcapps-prs/12135",
+  "number": 12135,
+  "title": "Fix Reverse Charge VAT upgrade migration",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [],
+  "summary": "Corrected field mappings and filtering logic in the Reverse Charge VAT upgrade migration to properly transfer legacy values into new GB fields using type-correct filters.",
+  "key_points": [
+    "Fixed reversed source and destination field ID mappings across setup, item, and sales/purchase tables",
+    "Replaced blank-text filters with type-correct defaults for Boolean and Decimal fields",
+    "Removed unnecessary VAT Amount Line transfer and unused namespace import",
+    "Added optimization to skip writes when source and target values already match",
+    "Properly closed record references to prevent resource leaks"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": "Correct the migration to copy legacy values into the new GB fields using type-correct filters.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003466,
+    "changes_in_call": 1
+  }
+}

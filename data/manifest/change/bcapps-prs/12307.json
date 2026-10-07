@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/12307",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Make UpgradeDefaultDimensions ParentId backfill set-based (via DataTransfer)",
+  "url": "https://github.com/microsoft/BCApps/pull/12307",
+  "published_at": "2026-10-05T20:34:50Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "a3a378ee9b95155b3add7a8a14f7690aff4c2cd3:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12307,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "a3a378ee9b95155b3add7a8a14f7690aff4c2cd3",
+    "author": "dcenic",
+    "author_type": "User",
+    "labels": [
+      "Ownership: Manual",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "make upgradedefaultdimensions parentid backfill set based via datatransfer"
+  }
+}

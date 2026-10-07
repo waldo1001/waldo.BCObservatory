@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/9543",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Support VAT return reporting frequencies in Denmark",
+  "url": "https://github.com/microsoft/BCApps/pull/9543",
+  "published_at": "2026-08-02T20:48:38Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "ce682266afc6d3f8df4690fd98154315f4f28346:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9543,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "ce682266afc6d3f8df4690fd98154315f4f28346",
+    "author": "djukicmilica",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "From Fork",
+      "Team: Finance"
+    ],
+    "community_contribution": true,
+    "title_key": "support vat return reporting frequencies in denmark"
+  }
+}

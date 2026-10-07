@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/11065",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Open installation status after AppSource install failure",
+  "url": "https://github.com/microsoft/BCApps/pull/11065",
+  "published_at": "2026-09-07T15:55:57Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "8223efd0e94aa357d73e198c96ad99073182fcf6:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11065,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "8223efd0e94aa357d73e198c96ad99073182fcf6",
+    "author": "martinsrui-msft",
+    "author_type": "User",
+    "labels": [
+      "AL: System Application",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "open installation status after appsource install failure"
+  }
+}

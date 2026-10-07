@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/10630",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Extend OnBeforeCheckBankAcc to skip specific bank reversal checks",
+  "url": "https://github.com/microsoft/BCApps/pull/10630",
+  "published_at": "2026-08-28T16:25:01Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "edc04499c4c3da1ae9d3dcf8051aa97170ef8597:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10630,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "edc04499c4c3da1ae9d3dcf8051aa97170ef8597",
+    "author": "Explorer986",
+    "author_type": "User",
+    "labels": [
+      "Ownership: Manual",
+      "Ownership: Needs Review",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "extend onbeforecheckbankacc to skip specific bank reversal checks"
+  }
+}

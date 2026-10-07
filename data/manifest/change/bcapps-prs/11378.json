@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/11378",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[29.x][InterCompany][SII] Setup and telemetry enhancements",
+  "url": "https://github.com/microsoft/BCApps/pull/11378",
+  "published_at": "2026-09-14T07:04:44Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "229894a179abd05d40c1688324649d6ff186ee86:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11378,
+    "repo": "microsoft/BCApps",
+    "base": "releases/29.x",
+    "major": "29",
+    "merge_commit_sha": "229894a179abd05d40c1688324649d6ff186ee86",
+    "author": "dcenic",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "intercompany sii setup and telemetry enhancements"
+  }
+}

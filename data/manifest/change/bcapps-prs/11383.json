@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/11383",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[SOA] Fix \"The Order Promising Setup does not exist.\" crash when setting quote quantity",
+  "url": "https://github.com/microsoft/BCApps/pull/11383",
+  "published_at": "2026-09-15T13:25:16Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "6d37dcf387144f3f005e6a169b9d476f1b98cd64:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11383,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "6d37dcf387144f3f005e6a169b9d476f1b98cd64",
+    "author": "VolodySyn",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "soa fix the order promising setup does not exist crash when setting quote quantity"
+  }
+}

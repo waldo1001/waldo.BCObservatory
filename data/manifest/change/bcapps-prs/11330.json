@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/11330",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Ignore generated AL tooling files",
+  "url": "https://github.com/microsoft/BCApps/pull/11330",
+  "published_at": "2026-09-11T18:33:20Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "dc224aa4b25bce76e83df624702ea2cc0dd6cc4f:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11330,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "dc224aa4b25bce76e83df624702ea2cc0dd6cc4f",
+    "author": "ventselartur",
+    "author_type": "User",
+    "labels": [
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": false,
+    "title_key": "ignore generated al tooling files"
+  }
+}

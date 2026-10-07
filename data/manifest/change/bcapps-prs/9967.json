@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9967",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Main]-Production BOM Version certification does not check Variant Mandatory on lines",
+  "url": "https://github.com/microsoft/BCApps/pull/9967",
+  "published_at": "2026-08-07T10:18:53Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "3279ed9a573d81aa5792e13c5ff8b71235032f88:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9967,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "3279ed9a573d81aa5792e13c5ff8b71235032f88",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "production bom version certification does not check variant mandatory on lines"
+  }
+}

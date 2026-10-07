@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/11968",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Bug 648782: omit the buyer PartyTaxScheme when the company has no VAT registration",
+  "url": "https://github.com/microsoft/BCApps/pull/11968",
+  "published_at": "2026-09-30T14:12:27Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "8287973a14228a5baff7cfb27c2fbafeef43b034:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11968,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "8287973a14228a5baff7cfb27c2fbafeef43b034",
+    "author": "Explorer986",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 648782 omit the buyer partytaxscheme when the company has no vat registration"
+  }
+}

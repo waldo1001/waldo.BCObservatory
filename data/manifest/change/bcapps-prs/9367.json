@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/9367",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Integrate unified team ownership labels",
+  "url": "https://github.com/microsoft/BCApps/pull/9367",
+  "published_at": "2026-07-16T19:26:10Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "8334393ff7c6b4beb789f7423144cc9764707c92:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9367,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "8334393ff7c6b4beb789f7423144cc9764707c92",
+    "author": "JesperSchulz",
+    "author_type": "User",
+    "labels": [
+      "Build: Automation",
+      "Ownership: Manual",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "integrate unified team ownership labels"
+  }
+}

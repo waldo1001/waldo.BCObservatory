@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9857",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[main] bug 644746 - Add configurable EPO Service Setup for gov.cz domain migration",
+  "url": "https://github.com/microsoft/BCApps/pull/9857",
+  "published_at": "2026-08-07T11:09:37Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "4ac1eac8023ea8295757de0c8a12283343b1b327:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9857,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "4ac1eac8023ea8295757de0c8a12283343b1b327",
+    "author": "DavidHolusa",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 644746 add configurable epo service setup for gov cz domain migration"
+  }
+}

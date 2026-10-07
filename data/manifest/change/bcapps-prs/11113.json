@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/11113",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Master][All-e][FTE][SaaS] Last name of the employee relative is not editable when customized using “Profile (Role)”.",
+  "url": "https://github.com/microsoft/BCApps/pull/11113",
+  "published_at": "2026-09-10T05:45:57Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "ba802c238c06a4c944f8267b36f471307e8632af:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11113,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "ba802c238c06a4c944f8267b36f471307e8632af",
+    "author": "sanjmaurya",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "master all e fte saas last name of the employee relative is not editable when customized using profile role"
+  }
+}

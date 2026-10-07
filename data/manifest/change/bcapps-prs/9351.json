@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9351",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[master]Subscription Billing: O(N²) contract-renewal detection in Sales-Post subscribers slows posting (~28% of batch CPU)",
+  "url": "https://github.com/microsoft/BCApps/pull/9351",
+  "published_at": "2026-07-16T12:32:13Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "a6e62558641cd59ad4f8e59cb47b15d032b5d5a1:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9351,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "a6e62558641cd59ad4f8e59cb47b15d032b5d5a1",
+    "author": "AndreasHans",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)"
+    ],
+    "community_contribution": false,
+    "title_key": "master subscription billing o n contract renewal detection in sales post subscribers slows posting 28 of batch cpu"
+  }
+}

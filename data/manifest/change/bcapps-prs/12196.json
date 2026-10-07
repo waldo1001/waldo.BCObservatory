@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/12196",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Master Data Management] Disable cross-env setup action OnPrem and fix field visibility issues",
+  "url": "https://github.com/microsoft/BCApps/pull/12196",
+  "published_at": "2026-10-02T21:33:33Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "88580a8349589b57c38d546f930f05d4856119a9:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12196,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "88580a8349589b57c38d546f930f05d4856119a9",
+    "author": "dcenic",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "master data management disable cross env setup action onprem and fix field visibility issues"
+  }
+}

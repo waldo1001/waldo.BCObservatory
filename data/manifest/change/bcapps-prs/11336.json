@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/11336",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[master] Report 400 (Remittance Advice) Does Not Include Applied Vendor Refund Entries Resulting in Incorrect Total Calculation",
+  "url": "https://github.com/microsoft/BCApps/pull/11336",
+  "published_at": "2026-09-21T09:47:26Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "0c994435e3ee038dbaf66822f8a2791b1aa3f43a:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11336,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "0c994435e3ee038dbaf66822f8a2791b1aa3f43a",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "master report 400 remittance advice does not include applied vendor refund entries resulting in incorrect total calculation"
+  }
+}

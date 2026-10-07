@@ -1,0 +1,36 @@
+{
+  "id": "change/bcapps-prs/12210",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Payables Agent] Unrelated text-to-account mapping is applied to every unmatched invoice line",
+  "url": "https://github.com/microsoft/BCApps/pull/12210",
+  "published_at": "2026-10-06T14:58:16Z",
+  "state": "skipped",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "eb822e0ddf035a26fde1dfe28247a631f6b292e9:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12210,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "eb822e0ddf035a26fde1dfe28247a631f6b292e9",
+    "author": "dayland",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "payables agent unrelated text to account mapping is applied to every unmatched invoice line"
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T12:55:39.939Z",
+  "retry_after": null
+}

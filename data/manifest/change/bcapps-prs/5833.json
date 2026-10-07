@@ -1,0 +1,35 @@
+{
+  "id": "change/bcapps-prs/5833",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Add Microsoft Graph API Support to SharePoint Connector",
+  "url": "https://github.com/microsoft/BCApps/pull/5833",
+  "published_at": "2026-07-16T08:19:12Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "30b880e0f32892b39ee8dd6fe533d3d9fb23dab6:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 5833,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "30b880e0f32892b39ee8dd6fe533d3d9fb23dab6",
+    "author": "tinestaric",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "AL: Apps (W1)",
+      "From Fork",
+      "Team: Integrations"
+    ],
+    "community_contribution": true,
+    "title_key": "add microsoft graph api support to sharepoint connector"
+  }
+}

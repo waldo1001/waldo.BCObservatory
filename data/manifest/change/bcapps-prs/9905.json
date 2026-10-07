@@ -1,0 +1,35 @@
+{
+  "id": "change/bcapps-prs/9905",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Bug][SubscriptionBilling] Contract lines of type G/L Account never post to the selected G/L account",
+  "url": "https://github.com/microsoft/BCApps/pull/9905",
+  "published_at": "2026-09-04T14:37:16Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "32df311cae812ef6ee36e39d6a623c784747bd45:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9905,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "32df311cae812ef6ee36e39d6a623c784747bd45",
+    "author": "miljance",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "AL: Apps (W1)",
+      "From Fork",
+      "Team: Finance"
+    ],
+    "community_contribution": true,
+    "title_key": "bug subscriptionbilling contract lines of type g l account never post to the selected g l account"
+  }
+}

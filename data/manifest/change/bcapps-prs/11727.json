@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/11727",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Bug 650737: Description for new currencies should be aligned with existing full descriptions",
+  "url": "https://github.com/microsoft/BCApps/pull/11727",
+  "published_at": "2026-09-25T14:27:31Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "6ca8c6abf2d9cebffd9753b9b46ef9473a4f2759:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11727,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "6ca8c6abf2d9cebffd9753b9b46ef9473a4f2759",
+    "author": "BardurKnudsen",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 650737 description for new currencies should be aligned with existing full descriptions"
+  }
+}

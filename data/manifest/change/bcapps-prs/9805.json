@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/9805",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Update Email Folder tooltip to reference renamed 'Manage per sender' review option",
+  "url": "https://github.com/microsoft/BCApps/pull/9805",
+  "published_at": "2026-07-30T10:30:51Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "47631430e3834f7360d414efee9c86f591e71aca:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9805,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "47631430e3834f7360d414efee9c86f591e71aca",
+    "author": "mynjj",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "update email folder tooltip to reference renamed manage per sender review option"
+  }
+}

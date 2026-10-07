@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/10619",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Shopify] Index Has Order State Error to fix slow Shopify Activities cue",
+  "url": "https://github.com/microsoft/BCApps/pull/10619",
+  "published_at": "2026-08-28T10:51:12Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "e3c00690e0b5284ac6f1c01c980c0d3cba8735a4:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10619,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "e3c00690e0b5284ac6f1c01c980c0d3cba8735a4",
+    "author": "onbuyuka",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "shopify index has order state error to fix slow shopify activities cue"
+  }
+}

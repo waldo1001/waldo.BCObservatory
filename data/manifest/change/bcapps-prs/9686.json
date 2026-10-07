@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9686",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Master] Incorrect Payables Account Selected for Unrealized Gain/Loss in Multi-Posting Group FCY Applications.",
+  "url": "https://github.com/microsoft/BCApps/pull/9686",
+  "published_at": "2026-08-21T15:41:08Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "7968b439f4685300bed6721150890a041f34555c:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9686,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "7968b439f4685300bed6721150890a041f34555c",
+    "author": "Shikhverma",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "master incorrect payables account selected for unrealized gain loss in multi posting group fcy applications"
+  }
+}

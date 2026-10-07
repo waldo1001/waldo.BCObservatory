@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/11150",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Deliverable 638799: Requisitions in Base App: Missed dataclassification on user field",
+  "url": "https://github.com/microsoft/BCApps/pull/11150",
+  "published_at": "2026-09-09T15:43:01Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "c58846504dddaa52c4fbd7956fd17a6fba9e7e19:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11150,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "c58846504dddaa52c4fbd7956fd17a6fba9e7e19",
+    "author": "BardurKnudsen",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "deliverable 638799 requisitions in base app missed dataclassification on user field"
+  }
+}

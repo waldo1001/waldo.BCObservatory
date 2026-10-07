@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/9914",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[APIV2] Return unapplied lines from the Vendor Payments API",
+  "url": "https://github.com/microsoft/BCApps/pull/9914",
+  "published_at": "2026-08-07T10:18:53Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "853809086c99c790d0b77da9b1409d56972710d5:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9914,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "853809086c99c790d0b77da9b1409d56972710d5",
+    "author": "onbuyuka",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "apiv2 return unapplied lines from the vendor payments api"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "change/bcquality-prs/199",
+  "pillar": "change",
+  "source": "bcquality-prs",
+  "tier": "official",
+  "title": "Fix indirect permission letters: `ri` is indirect read plus insert",
+  "url": "https://github.com/microsoft/BCQuality/pull/199",
+  "published_at": "2026-09-29T10:49:56Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "130d5de6c4bd72d2158240fe431862b6434c735a:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 199,
+    "repo": "microsoft/BCQuality",
+    "base": "main",
+    "major": null,
+    "merge_commit_sha": "130d5de6c4bd72d2158240fe431862b6434c735a",
+    "author": "Nikolaj1407",
+    "author_type": "User",
+    "labels": [],
+    "community_contribution": false,
+    "title_key": "fix indirect permission letters ri is indirect read plus insert"
+  }
+}

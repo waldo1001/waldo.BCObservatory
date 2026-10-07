@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/11153",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Bug 649312: [29.x] Backport expense request report layout and dataclassification on userid field",
+  "url": "https://github.com/microsoft/BCApps/pull/11153",
+  "published_at": "2026-09-08T10:57:37Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "c5e51b11f2f92af5da37507a0a22eb6f0d0c84a8:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11153,
+    "repo": "microsoft/BCApps",
+    "base": "releases/29.x",
+    "major": "29",
+    "merge_commit_sha": "c5e51b11f2f92af5da37507a0a22eb6f0d0c84a8",
+    "author": "BardurKnudsen",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 649312 29 x backport expense request report layout and dataclassification on userid field"
+  }
+}

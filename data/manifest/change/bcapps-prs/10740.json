@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/10740",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[SOA] Accuracy test fixes: agent instructions",
+  "url": "https://github.com/microsoft/BCApps/pull/10740",
+  "published_at": "2026-08-28T07:44:10Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "41a4e7d4da28c4c23d8a644b2128c6a0b693149a:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10740,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "41a4e7d4da28c4c23d8a644b2128c6a0b693149a",
+    "author": "qasimikram",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "soa accuracy test fixes agent instructions"
+  }
+}

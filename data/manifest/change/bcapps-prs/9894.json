@@ -1,0 +1,35 @@
+{
+  "id": "change/bcapps-prs/9894",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Suppress zero-value rows in Trial Balance by Period",
+  "url": "https://github.com/microsoft/BCApps/pull/9894",
+  "published_at": "2026-08-06T10:20:02Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "cd497b72f977ec0716094a1ca7bf2e5ac45d3205:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9894,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "cd497b72f977ec0716094a1ca7bf2e5ac45d3205",
+    "author": "djukicmilica",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "AL: Apps (W1)",
+      "From Fork",
+      "Team: Finance"
+    ],
+    "community_contribution": true,
+    "title_key": "suppress zero value rows in trial balance by period"
+  }
+}

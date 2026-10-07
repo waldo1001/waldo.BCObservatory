@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9333",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Main]-Bin content Block Movement does not prevent outbound posting for negative adjustments and sales orders",
+  "url": "https://github.com/microsoft/BCApps/pull/9333",
+  "published_at": "2026-07-22T11:07:54Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "b0a96ad95ba50516760fc8d7e1eafdc113fc2d7e:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9333,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "b0a96ad95ba50516760fc8d7e1eafdc113fc2d7e",
+    "author": "DeepsShukla",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "bin content block movement does not prevent outbound posting for negative adjustments and sales orders"
+  }
+}

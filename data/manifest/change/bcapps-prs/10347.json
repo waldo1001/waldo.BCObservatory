@@ -1,0 +1,35 @@
+{
+  "id": "change/bcapps-prs/10347",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Bug][Subscription Billing] Wrong number of days on vendor contract deferrals when the billing period lies within a single calendar month",
+  "url": "https://github.com/microsoft/BCApps/pull/10347",
+  "published_at": "2026-10-03T00:39:05Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "eaddd6b3c518414f372154ea6cedd6c12b287359:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10347,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "eaddd6b3c518414f372154ea6cedd6c12b287359",
+    "author": "miljance",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "AL: Apps (W1)",
+      "From Fork",
+      "Team: Finance"
+    ],
+    "community_contribution": true,
+    "title_key": "bug subscription billing wrong number of days on vendor contract deferrals when the billing period lies within a single calendar month"
+  }
+}

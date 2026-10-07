@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/10526",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Use BaseApp's new PO Matching module in E-Documents",
+  "url": "https://github.com/microsoft/BCApps/pull/10526",
+  "published_at": "2026-08-28T18:52:07Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "ee0f5acb9e892c7f521af6dc120b070291567a68:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10526,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "ee0f5acb9e892c7f521af6dc120b070291567a68",
+    "author": "mynjj",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "use baseapp s new po matching module in e documents"
+  }
+}

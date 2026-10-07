@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/11319",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[MCP] Allow setting default configuration from card",
+  "url": "https://github.com/microsoft/BCApps/pull/11319",
+  "published_at": "2026-09-18T15:57:08Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "83399f02564396b106a70cb023dc2c7c506befea:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11319,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "83399f02564396b106a70cb023dc2c7c506befea",
+    "author": "onbuyuka",
+    "author_type": "User",
+    "labels": [
+      "AL: System Application",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "mcp allow setting default configuration from card"
+  }
+}

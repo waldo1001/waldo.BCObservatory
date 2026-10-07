@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/9772",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[PA][Pioneer]: Numeric line fields mis-extracted (discount, quantity, unit of measure)",
+  "url": "https://github.com/microsoft/BCApps/pull/9772",
+  "published_at": "2026-08-03T21:05:51Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "b8b74184bba49dec7b0346b693331e32dd31508f:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9772,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "b8b74184bba49dec7b0346b693331e32dd31508f",
+    "author": "Explorer986",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "pa pioneer numeric line fields mis extracted discount quantity unit of measure"
+  }
+}

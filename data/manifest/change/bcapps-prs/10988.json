@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/10988",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Event Request] Codeunit 730 \"Copy Item\": Add price-specific before event",
+  "url": "https://github.com/microsoft/BCApps/pull/10988",
+  "published_at": "2026-09-08T18:33:16Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "e425acbe62434795b7f11bcf3997ace706b6fa70:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10988,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "e425acbe62434795b7f11bcf3997ace706b6fa70",
+    "author": "AleksandricMarko",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM",
+      "event-request"
+    ],
+    "community_contribution": false,
+    "title_key": "event request codeunit 730 copy item add price specific before event"
+  }
+}

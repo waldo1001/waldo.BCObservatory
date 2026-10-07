@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/10098",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Reenable Expense Agent VAT tests",
+  "url": "https://github.com/microsoft/BCApps/pull/10098",
+  "published_at": "2026-08-12T10:46:29Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "a156e2c9c6b76ba6cb577c2effb10aadf2fccd79:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10098,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "a156e2c9c6b76ba6cb577c2effb10aadf2fccd79",
+    "author": "Alexander-Ya",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": false,
+    "title_key": "reenable expense agent vat tests"
+  }
+}

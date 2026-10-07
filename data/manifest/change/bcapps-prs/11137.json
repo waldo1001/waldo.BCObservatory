@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/11137",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Composite Report Parts: seed via a report extension instead of install/upgrade code",
+  "url": "https://github.com/microsoft/BCApps/pull/11137",
+  "published_at": "2026-09-15T07:58:40Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "bf484e5871efbec79df725f7f91ca7b920b1230e:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11137,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "bf484e5871efbec79df725f7f91ca7b920b1230e",
+    "author": "MSlenejennum",
+    "author_type": "User",
+    "labels": [
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "composite report parts seed via a report extension instead of install upgrade code"
+  }
+}

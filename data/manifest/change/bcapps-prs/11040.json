@@ -1,0 +1,35 @@
+{
+  "id": "change/bcapps-prs/11040",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Agent Archiving] Payables and Expense agent implementation for IAgentArchiving",
+  "url": "https://github.com/microsoft/BCApps/pull/11040",
+  "published_at": "2026-09-07T09:53:53Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "c6d92043e9eb44b17427aa9cc91ae91a322b1f29:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11040,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "c6d92043e9eb44b17427aa9cc91ae91a322b1f29",
+    "author": "thloke",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "AL: System Application",
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": false,
+    "title_key": "agent archiving payables and expense agent implementation for iagentarchiving"
+  }
+}

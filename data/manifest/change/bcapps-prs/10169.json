@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/10169",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Extensibility Request] issue 30081: add VAT registration number override event",
+  "url": "https://github.com/microsoft/BCApps/pull/10169",
+  "published_at": "2026-08-14T12:09:50Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "ad3d7637c4506793a0292ee03dbd5831353d5051:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10169,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "ad3d7637c4506793a0292ee03dbd5831353d5051",
+    "author": "AleksandricMarko",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance",
+      "event-request"
+    ],
+    "community_contribution": false,
+    "title_key": "extensibility request issue 30081 add vat registration number override event"
+  }
+}

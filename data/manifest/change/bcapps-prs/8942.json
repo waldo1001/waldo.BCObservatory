@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/8942",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[master] Trail Balance by Period doesn't show the balance for some of the G/L Accounts in the PDF version",
+  "url": "https://github.com/microsoft/BCApps/pull/8942",
+  "published_at": "2026-07-07T17:58:23Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "43db55ecc05a852ea6b59dba2c79cb10cd5a8913:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 8942,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "43db55ecc05a852ea6b59dba2c79cb10cd5a8913",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "From Fork",
+      "Team: Finance"
+    ],
+    "community_contribution": true,
+    "title_key": "master trail balance by period doesn t show the balance for some of the g l accounts in the pdf version"
+  }
+}

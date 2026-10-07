@@ -1,0 +1,30 @@
+{
+  "id": "change/al-go-prs/2257",
+  "pillar": "change",
+  "source": "al-go-prs",
+  "tier": "official",
+  "title": "Test Result Analyzer fails if no stack trace is available",
+  "url": "https://github.com/microsoft/AL-Go/pull/2257",
+  "published_at": "2026-07-29T07:23:44Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "252b22276a1e3c495a2ab8c8167cdd6a84cb3bbb:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 2257,
+    "repo": "microsoft/AL-Go",
+    "base": "main",
+    "major": null,
+    "merge_commit_sha": "252b22276a1e3c495a2ab8c8167cdd6a84cb3bbb",
+    "author": "FreundDK",
+    "author_type": "User",
+    "labels": [],
+    "community_contribution": false,
+    "title_key": "test result analyzer fails if no stack trace is available"
+  }
+}

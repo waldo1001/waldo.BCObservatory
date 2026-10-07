@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/10308",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Uptake agent archiving in Sales Order Agent (AB#644549)",
+  "url": "https://github.com/microsoft/BCApps/pull/10308",
+  "published_at": "2026-08-19T10:18:55Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "1f64f1f59484ffaf780e9ff872bc6f3a47a64ac0:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10308,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "1f64f1f59484ffaf780e9ff872bc6f3a47a64ac0",
+    "author": "qasimikram",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)"
+    ],
+    "community_contribution": false,
+    "title_key": "uptake agent archiving in sales order agent ab 644549"
+  }
+}

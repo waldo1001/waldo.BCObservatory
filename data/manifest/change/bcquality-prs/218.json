@@ -1,0 +1,30 @@
+{
+  "id": "change/bcquality-prs/218",
+  "pillar": "change",
+  "source": "bcquality-prs",
+  "tier": "official",
+  "title": "Harden findings-report producer constraints",
+  "url": "https://github.com/microsoft/BCQuality/pull/218",
+  "published_at": "2026-10-05T13:01:05Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "7726d5d8d8dbcb146489f0e65e76e9cc9b976db0:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 218,
+    "repo": "microsoft/BCQuality",
+    "base": "main",
+    "major": null,
+    "merge_commit_sha": "7726d5d8d8dbcb146489f0e65e76e9cc9b976db0",
+    "author": "gggdttt",
+    "author_type": "User",
+    "labels": [],
+    "community_contribution": false,
+    "title_key": "harden findings report producer constraints"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9111",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Aligining Library Assert and Assert library",
+  "url": "https://github.com/microsoft/BCApps/pull/9111",
+  "published_at": "2026-07-10T13:04:57Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "b218127797e7076853061d06b911eddf1bf54cf8:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9111,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "b218127797e7076853061d06b911eddf1bf54cf8",
+    "author": "nikolakukrika",
+    "author_type": "User",
+    "labels": [
+      "AL: Tools"
+    ],
+    "community_contribution": false,
+    "title_key": "aligining library assert and assert library"
+  }
+}

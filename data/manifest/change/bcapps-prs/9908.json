@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/9908",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Handling high charts over 5k points added",
+  "url": "https://github.com/microsoft/BCApps/pull/9908",
+  "published_at": "2026-08-14T15:23:26Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "ec7222fd924b21b4c60f995276f0a5dd08616406:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9908,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "ec7222fd924b21b4c60f995276f0a5dd08616406",
+    "author": "Kimi310",
+    "author_type": "User",
+    "labels": [
+      "AL: System Application",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "handling high charts over 5k points added"
+  }
+}

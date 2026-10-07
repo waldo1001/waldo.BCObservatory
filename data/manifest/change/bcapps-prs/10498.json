@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/10498",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Pmt. Recon. Journal] Optimize opening of the Payment Application screen",
+  "url": "https://github.com/microsoft/BCApps/pull/10498",
+  "published_at": "2026-08-28T12:16:58Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "5359c313825f29f39b400ab2d82c088b46765134:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10498,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "5359c313825f29f39b400ab2d82c088b46765134",
+    "author": "dcenic",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "pmt recon journal optimize opening of the payment application screen"
+  }
+}

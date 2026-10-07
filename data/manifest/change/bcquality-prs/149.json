@@ -1,0 +1,30 @@
+{
+  "id": "change/bcquality-prs/149",
+  "pillar": "change",
+  "source": "bcquality-prs",
+  "tier": "official",
+  "title": "knowledge(web-services): under schema 2.0 an API enum field is a contract by member name, under 1.0 by caption",
+  "url": "https://github.com/microsoft/BCQuality/pull/149",
+  "published_at": "2026-09-02T14:26:25Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "2439d5c41243705d91e1a5e194abdcb142eb946d:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 149,
+    "repo": "microsoft/BCQuality",
+    "base": "main",
+    "major": null,
+    "merge_commit_sha": "2439d5c41243705d91e1a5e194abdcb142eb946d",
+    "author": "waldo1001",
+    "author_type": "User",
+    "labels": [],
+    "community_contribution": false,
+    "title_key": "knowledge web services under schema 2 0 an api enum field is a contract by member name under 1 0 by caption"
+  }
+}

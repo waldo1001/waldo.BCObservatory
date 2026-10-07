@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/11626",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Master Data Management] Fixing synchronization of contacts, media, date, datetime, source watermarking, permission issue and minor UX issues",
+  "url": "https://github.com/microsoft/BCApps/pull/11626",
+  "published_at": "2026-09-22T14:49:13Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "97f3000df3d0037bf61e2ff841e6079b49446d12:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11626,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "97f3000df3d0037bf61e2ff841e6079b49446d12",
+    "author": "dcenic",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "master data management fixing synchronization of contacts media date datetime source watermarking permission issue and minor ux issues"
+  }
+}

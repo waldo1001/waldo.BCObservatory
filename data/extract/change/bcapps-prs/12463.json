@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/12463",
+  "number": 12463,
+  "title": "Fix Email upgrade writing during no-transaction upgrade test",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Email Installer no longer re-registers email tables based on allowed-table row presence, only checking upgrade tags or forced refresh to prevent unwanted database writes during upgrade tests.",
+  "key_points": [
+    "Removes the IsAllowedTable trigger that caused unnecessary registration of email tables",
+    "Registration now only occurs when upgrade tags are missing or on forced refresh",
+    "Prevents Retention Policy Log Entry writes that violated no-transaction test requirements",
+    "Tag-based behavior from previous change remains intact",
+    "Users can still refresh allowed tables manually via Retention Policy Setup"
+  ],
+  "change_kind": "fix",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration",
+    "administration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003993,
+    "changes_in_call": 1
+  }
+}

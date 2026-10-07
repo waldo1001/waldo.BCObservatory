@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/11206",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[CH] When posting with FCY, VAT G/L Entry stores VAT base amount in Source Currency Amount instead of VAT amount",
+  "url": "https://github.com/microsoft/BCApps/pull/11206",
+  "published_at": "2026-09-11T10:57:21Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "5d1d6a863dbc3d769fb44d8ff5c9724da432db8d:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11206,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "5d1d6a863dbc3d769fb44d8ff5c9724da432db8d",
+    "author": "dcenic",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "ch when posting with fcy vat g l entry stores vat base amount in source currency amount instead of vat amount"
+  }
+}

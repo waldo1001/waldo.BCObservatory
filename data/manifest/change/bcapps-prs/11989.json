@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/11989",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Bug 500351] Allow Effective Permissions for delegated admins and helpdesk",
+  "url": "https://github.com/microsoft/BCApps/pull/11989",
+  "published_at": "2026-09-30T12:34:43Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "886610b79cfa4f8de3f5782500355f41357fa679:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11989,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "886610b79cfa4f8de3f5782500355f41357fa679",
+    "author": "darjoo",
+    "author_type": "User",
+    "labels": [
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 500351 allow effective permissions for delegated admins and helpdesk"
+  }
+}

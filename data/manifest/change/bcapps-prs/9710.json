@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9710",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Main] [all-e]CompAuxNum and CompAuxLib columns should be informed for Payment Discount lines in the French Audit File.Initial Commit",
+  "url": "https://github.com/microsoft/BCApps/pull/9710",
+  "published_at": "2026-08-13T14:19:31Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "0db09cdd510e737d1d1518111d110e01b89e1c18:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9710,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "0db09cdd510e737d1d1518111d110e01b89e1c18",
+    "author": "Shikhverma",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "all e compauxnum and compauxlib columns should be informed for payment discount lines in the french audit file initial commit"
+  }
+}

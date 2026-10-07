@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/11386",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Fix E-Doc. Item Charge Mapping codeunit ID",
+  "url": "https://github.com/microsoft/BCApps/pull/11386",
+  "published_at": "2026-09-12T00:44:07Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "b25601c8c7ed86ffcd63289dc21bfa5c389e5049:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11386,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "b25601c8c7ed86ffcd63289dc21bfa5c389e5049",
+    "author": "djukicmilica",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "fix e doc item charge mapping codeunit id"
+  }
+}

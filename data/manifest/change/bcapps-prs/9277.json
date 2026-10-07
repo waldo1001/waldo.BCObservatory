@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/9277",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Add PRODUCED item template to Contoso Coffee manufacturing demo data",
+  "url": "https://github.com/microsoft/BCApps/pull/9277",
+  "published_at": "2026-09-09T10:06:01Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "dd3b6933db19bbae9cf1914b49c731c819947883:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9277,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "dd3b6933db19bbae9cf1914b49c731c819947883",
+    "author": "attilatoury",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Ownership: Manual",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "add produced item template to contoso coffee manufacturing demo data"
+  }
+}

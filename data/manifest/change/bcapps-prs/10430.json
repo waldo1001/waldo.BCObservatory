@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/10430",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Master]-ACY amount on Value Entries is recalculated from LCY when the document currency equals the Additional Reporting Currency, causing a mismatch with G/L Entries]",
+  "url": "https://github.com/microsoft/BCApps/pull/10430",
+  "published_at": "2026-08-24T05:57:02Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "981161e4dd0782ac3ba4fd5d2a9613e3a01dff21:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10430,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "981161e4dd0782ac3ba4fd5d2a9613e3a01dff21",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "master acy amount on value entries is recalculated from lcy when the document currency equals the additional reporting currency causing a mismatch with g l entries"
+  }
+}

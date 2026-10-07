@@ -1,0 +1,45 @@
+{
+  "id": "change/bcapps-prs/9347",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Fix IssueDate in E-Documents for Germany",
+  "url": "https://github.com/microsoft/BCApps/pull/9347",
+  "published_at": "2026-10-06T14:50:55Z",
+  "state": "fetched",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:55:50.321Z",
+      "change_class": "code",
+      "files": 4,
+      "al": 2,
+      "objects": 0,
+      "unjoined": 2
+    }
+  },
+  "input_hash": "12c23610f39f91c03be67e21a15354d15ebc05ab:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9347,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "12c23610f39f91c03be67e21a15354d15ebc05ab",
+    "author": "pri-kise",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "From Fork",
+      "Team: Finance"
+    ],
+    "community_contribution": true,
+    "title_key": "fix issuedate in e documents for germany"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "4ca15a9b2f29770990322cc3340bf203857ec252609da583635576c3bdb9cd8a"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/11970",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Allow Azure OpenAI privacy notice in evaluation",
+  "url": "https://github.com/microsoft/BCApps/pull/11970",
+  "published_at": "2026-09-29T12:03:06Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "50d1c29786180a0f35fd0e1a7e78e60fc6d625e8:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11970,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "50d1c29786180a0f35fd0e1a7e78e60fc6d625e8",
+    "author": "encimita",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "allow azure openai privacy notice in evaluation"
+  }
+}

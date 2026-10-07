@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/11995",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "OfficeMgt.IsAvailable check added to fix flaky tests",
+  "url": "https://github.com/microsoft/BCApps/pull/11995",
+  "published_at": "2026-09-29T11:26:44Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "9db99acb727fc042ccb1d21ab44acabf84ea133f:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11995,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "9db99acb727fc042ccb1d21ab44acabf84ea133f",
+    "author": "Kimi310",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "officemgt isavailable check added to fix flaky tests"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/9713",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Miapp: derive base branch from origin/HEAD instead of $env:RepoBranchName",
+  "url": "https://github.com/microsoft/BCApps/pull/9713",
+  "published_at": "2026-07-27T08:46:51Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "e654d6e7081807a6458bbd1100aef05fe7d92c66:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9713,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "e654d6e7081807a6458bbd1100aef05fe7d92c66",
+    "author": "mazhelez",
+    "author_type": "User",
+    "labels": [
+      "Build: scripts & configs",
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": false,
+    "title_key": "miapp derive base branch from origin head instead of env repobranchname"
+  }
+}

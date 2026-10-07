@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/10675",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Temporarily suppress AS0072 (ObsoleteTag 29.0) on 10 Base App elements for v30 prep",
+  "url": "https://github.com/microsoft/BCApps/pull/10675",
+  "published_at": "2026-08-27T07:56:26Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "645267e5fce09418a57af4bef6f7b2bc0d2b4410:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10675,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "645267e5fce09418a57af4bef6f7b2bc0d2b4410",
+    "author": "aholstrup1",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)"
+    ],
+    "community_contribution": false,
+    "title_key": "temporarily suppress as0072 obsoletetag 29 0 on 10 base app elements for v30 prep"
+  }
+}

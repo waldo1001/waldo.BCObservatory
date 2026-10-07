@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/10227",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Fix regression introduced by Apply-to-Oldest optimization",
+  "url": "https://github.com/microsoft/BCApps/pull/10227",
+  "published_at": "2026-08-14T12:07:31Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "efa0b87caaf1eb59de31ff4a7e8a984bda465439:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10227,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "efa0b87caaf1eb59de31ff4a7e8a984bda465439",
+    "author": "dcenic",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "fix regression introduced by apply to oldest optimization"
+  }
+}

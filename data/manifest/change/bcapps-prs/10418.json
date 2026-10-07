@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/10418",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[SOA] Ignore extended-text lines when editing sales quotes",
+  "url": "https://github.com/microsoft/BCApps/pull/10418",
+  "published_at": "2026-08-20T08:51:20Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "6802b609ce4192df464693212e888eeea832f22f:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10418,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "6802b609ce4192df464693212e888eeea832f22f",
+    "author": "tomasevicst",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "soa ignore extended text lines when editing sales quotes"
+  }
+}

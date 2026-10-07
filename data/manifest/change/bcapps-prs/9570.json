@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9570",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Master]-Rounding Differences in ARAP with Deferrals and Non-Deductible VAT",
+  "url": "https://github.com/microsoft/BCApps/pull/9570",
+  "published_at": "2026-08-12T15:22:37Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "d830cc8bf93775d110cbded0a242e1b4d11fb2d1:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9570,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "d830cc8bf93775d110cbded0a242e1b4d11fb2d1",
+    "author": "DeepsShukla",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "master rounding differences in arap with deferrals and non deductible vat"
+  }
+}

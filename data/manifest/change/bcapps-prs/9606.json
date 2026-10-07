@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/9606",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[SOA] Disable available-items-only search by default",
+  "url": "https://github.com/microsoft/BCApps/pull/9606",
+  "published_at": "2026-07-22T11:49:00Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "f62f5e7934797e06a09cd72042b5da8ba3aa3f56:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9606,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "f62f5e7934797e06a09cd72042b5da8ba3aa3f56",
+    "author": "qasimikram",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "soa disable available items only search by default"
+  }
+}

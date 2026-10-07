@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/9426",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[E-Document Formats] Migrate NAV PRs 247170 and 247176 into BCApps",
+  "url": "https://github.com/microsoft/BCApps/pull/9426",
+  "published_at": "2026-07-23T07:20:12Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "03a98e8e2d2befa4777f9d19e136467de26582b2:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9426,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "03a98e8e2d2befa4777f9d19e136467de26582b2",
+    "author": "Groenbech96",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": false,
+    "title_key": "e document formats migrate nav prs 247170 and 247176 into bcapps"
+  }
+}

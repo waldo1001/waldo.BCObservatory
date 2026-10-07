@@ -1,0 +1,30 @@
+{
+  "id": "change/bcquality-prs/161",
+  "pillar": "change",
+  "source": "bcquality-prs",
+  "tier": "official",
+  "title": "AL methods limited during write transactions (RunModal, Codeunit.Run)",
+  "url": "https://github.com/microsoft/BCQuality/pull/161",
+  "published_at": "2026-09-29T15:13:36Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "56ce52a9c7a01046d4f2b603ddb0d9d044bb9502:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 161,
+    "repo": "microsoft/BCQuality",
+    "base": "main",
+    "major": null,
+    "merge_commit_sha": "56ce52a9c7a01046d4f2b603ddb0d9d044bb9502",
+    "author": "MichaelDieringer",
+    "author_type": "User",
+    "labels": [],
+    "community_contribution": false,
+    "title_key": "al methods limited during write transactions runmodal codeunit run"
+  }
+}

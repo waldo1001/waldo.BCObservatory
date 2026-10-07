@@ -1,0 +1,36 @@
+{
+  "id": "change/bcapps-prs/9860",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Bug]: [DE] XRechnung/ZUGFeRD - Item Charge lines exported without a valid unit of measure code (BR-CL-23 / BR-23 on BT-130)",
+  "url": "https://github.com/microsoft/BCApps/pull/9860",
+  "published_at": "2026-09-05T18:48:10Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "3170e9f6b457c4bf293b9de044547f09b31ebca9:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9860,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "3170e9f6b457c4bf293b9de044547f09b31ebca9",
+    "author": "miljance",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "AL: Apps (W1)",
+      "From Fork",
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": true,
+    "title_key": "bug de xrechnung zugferd item charge lines exported without a valid unit of measure code br cl 23 br 23 on bt 130"
+  }
+}

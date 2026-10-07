@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/9642",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Bug]: E-Documents for Germany - FindEDocumentService always selects last matching service, ignoring which service triggered the export",
+  "url": "https://github.com/microsoft/BCApps/pull/9642",
+  "published_at": "2026-09-29T22:23:02Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "0b91a89d90c4803d17db5e2f1fe6178eefde6109:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9642,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "0b91a89d90c4803d17db5e2f1fe6178eefde6109",
+    "author": "miljance",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "From Fork",
+      "Team: Finance"
+    ],
+    "community_contribution": true,
+    "title_key": "bug e documents for germany findedocumentservice always selects last matching service ignoring which service triggered the export"
+  }
+}

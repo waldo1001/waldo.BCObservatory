@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/11639",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Master] - Slice 640938: [Expense Agent][VENDOR] Adding approval limits (November '26)",
+  "url": "https://github.com/microsoft/BCApps/pull/11639",
+  "published_at": "2026-09-28T06:44:58Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "87d96456b7abbb10e3b3eb53eb477b68052f73f7:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11639,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "87d96456b7abbb10e3b3eb53eb477b68052f73f7",
+    "author": "v-rohangarg20",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "master slice 640938 expense agent vendor adding approval limits november 26"
+  }
+}

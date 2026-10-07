@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/11938",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Bug 650344: [Subcontracting] Prevent cancellation of vendor-supplied component lines",
+  "url": "https://github.com/microsoft/BCApps/pull/11938",
+  "published_at": "2026-09-28T10:54:08Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "243f0176296a6794052ef03e55a4c42376605560:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11938,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "243f0176296a6794052ef03e55a4c42376605560",
+    "author": "ChethanT",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 650344 subcontracting prevent cancellation of vendor supplied component lines"
+  }
+}

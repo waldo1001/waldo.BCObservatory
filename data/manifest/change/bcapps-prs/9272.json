@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/9272",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Fix duplicate in-transit location in localized Contoso demo data",
+  "url": "https://github.com/microsoft/BCApps/pull/9272",
+  "published_at": "2026-08-14T10:31:18Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "876733adc39ff869e23b8431949dcfa183ef1aa7:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9272,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "876733adc39ff869e23b8431949dcfa183ef1aa7",
+    "author": "attilatoury",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "fix duplicate in transit location in localized contoso demo data"
+  }
+}

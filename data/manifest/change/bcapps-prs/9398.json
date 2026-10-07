@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/9398",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Main]Incorrect Cost Amount (Actual) in Value Entries after posting Assembly Process and calulating the assembly standard costsInitial commit",
+  "url": "https://github.com/microsoft/BCApps/pull/9398",
+  "published_at": "2026-07-24T05:53:22Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "6964344f37630df269a31156b45a4e8c6b0d00f1:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9398,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "6964344f37630df269a31156b45a4e8c6b0d00f1",
+    "author": "sanjmaurya",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "From Fork",
+      "Team: SCM"
+    ],
+    "community_contribution": true,
+    "title_key": "incorrect cost amount actual in value entries after posting assembly process and calulating the assembly standard costsinitial commit"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/10031",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Add AI-assisted policy evaluation backend to Expense Agent",
+  "url": "https://github.com/microsoft/BCApps/pull/10031",
+  "published_at": "2026-08-21T12:28:51Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "3c2cb4ca91a01cdb15a729758c619db54176f09e:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10031,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "3c2cb4ca91a01cdb15a729758c619db54176f09e",
+    "author": "encimita",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "add ai assisted policy evaluation backend to expense agent"
+  }
+}

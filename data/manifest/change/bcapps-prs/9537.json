@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/9537",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Shopify] Store tax lines linked to order shipping charges",
+  "url": "https://github.com/microsoft/BCApps/pull/9537",
+  "published_at": "2026-07-21T20:29:09Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "bb8504c535febd758b9ff496d4ca5cc74ba3eabd:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9537,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "bb8504c535febd758b9ff496d4ca5cc74ba3eabd",
+    "author": "onbuyuka",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "shopify store tax lines linked to order shipping charges"
+  }
+}

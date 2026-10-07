@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9898",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Main]-The Reservation Entry does not exist error when creating a Purchase Order from a Sales Order",
+  "url": "https://github.com/microsoft/BCApps/pull/9898",
+  "published_at": "2026-08-04T08:14:36Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "dede0873b3124d0f0841e606402095fbf97d2cc5:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9898,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "dede0873b3124d0f0841e606402095fbf97d2cc5",
+    "author": "DeepsShukla",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "the reservation entry does not exist error when creating a purchase order from a sales order"
+  }
+}

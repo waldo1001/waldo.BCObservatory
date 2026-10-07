@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/9673",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Bug 643235: Payment Reconciliation Journal does not round imported bank fee amounts",
+  "url": "https://github.com/microsoft/BCApps/pull/9673",
+  "published_at": "2026-07-29T00:39:23Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "565aee33089ba3d336c3a4c7d0290d124a1dbdbb:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9673,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "565aee33089ba3d336c3a4c7d0290d124a1dbdbb",
+    "author": "AleksanderGladkov",
+    "author_type": "User",
+    "labels": [
+      "Ownership: Manual",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 643235 payment reconciliation journal does not round imported bank fee amounts"
+  }
+}

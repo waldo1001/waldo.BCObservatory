@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/9789",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Main]-Payment discount tolerance is doubled when posting a vendor payment",
+  "url": "https://github.com/microsoft/BCApps/pull/9789",
+  "published_at": "2026-07-31T05:42:50Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "92a5d0d570c6ea067599f5e22d989c567f98702b:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9789,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "92a5d0d570c6ea067599f5e22d989c567f98702b",
+    "author": "DhavalMore88",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "From Fork",
+      "Team: Finance"
+    ],
+    "community_contribution": true,
+    "title_key": "payment discount tolerance is doubled when posting a vendor payment"
+  }
+}

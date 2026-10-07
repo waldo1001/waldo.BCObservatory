@@ -1,0 +1,30 @@
+{
+  "id": "change/al-go-prs/2329",
+  "pillar": "change",
+  "source": "al-go-prs",
+  "tier": "official",
+  "title": "Fix BCApps e2e: scope PR Build run lookup to e2etest branch",
+  "url": "https://github.com/microsoft/AL-Go/pull/2329",
+  "published_at": "2026-07-23T13:07:19Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "b57bbcc7f3234fcf83699f463d9334c0605ef4a0:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 2329,
+    "repo": "microsoft/AL-Go",
+    "base": "main",
+    "major": null,
+    "merge_commit_sha": "b57bbcc7f3234fcf83699f463d9334c0605ef4a0",
+    "author": "mazhelez",
+    "author_type": "User",
+    "labels": [],
+    "community_contribution": false,
+    "title_key": "fix bcapps e2e scope pr build run lookup to e2etest branch"
+  }
+}

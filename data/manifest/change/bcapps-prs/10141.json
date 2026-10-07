@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/10141",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Quality Management] Make transaction blocked error more understandable and actionable",
+  "url": "https://github.com/microsoft/BCApps/pull/10141",
+  "published_at": "2026-08-14T08:58:29Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "45ab6f0b7dea6802b0c7a04c7502ec73084400a7:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10141,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "45ab6f0b7dea6802b0c7a04c7502ec73084400a7",
+    "author": "JakovljevicDusan",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "quality management make transaction blocked error more understandable and actionable"
+  }
+}

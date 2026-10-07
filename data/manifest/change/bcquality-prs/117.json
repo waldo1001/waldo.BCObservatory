@@ -1,0 +1,30 @@
+{
+  "id": "change/bcquality-prs/117",
+  "pillar": "change",
+  "source": "bcquality-prs",
+  "tier": "official",
+  "title": "tooltip: PR review flags genuinely-missing tooltips instead of deferring to AA0218",
+  "url": "https://github.com/microsoft/BCQuality/pull/117",
+  "published_at": "2026-07-20T12:36:58Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "82f6cd4e4068e738c5d21cf8ee4c4ce898a13076:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 117,
+    "repo": "microsoft/BCQuality",
+    "base": "main",
+    "major": null,
+    "merge_commit_sha": "82f6cd4e4068e738c5d21cf8ee4c4ce898a13076",
+    "author": "gggdttt",
+    "author_type": "User",
+    "labels": [],
+    "community_contribution": false,
+    "title_key": "tooltip pr review flags genuinely missing tooltips instead of deferring to aa0218"
+  }
+}

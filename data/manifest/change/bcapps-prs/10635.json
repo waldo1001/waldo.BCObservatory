@@ -1,0 +1,35 @@
+{
+  "id": "change/bcapps-prs/10635",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Subcontracting] (Bug: 638998) Add extensibility to Subcontracting app for IT partner migration",
+  "url": "https://github.com/microsoft/BCApps/pull/10635",
+  "published_at": "2026-09-01T11:06:25Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "28ed503a27412410e42c9edec06ca0a7567ed875:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10635,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "28ed503a27412410e42c9edec06ca0a7567ed875",
+    "author": "alexei-dobriansky",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Ownership: Manual",
+      "Subcontracting",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "subcontracting bug 638998 add extensibility to subcontracting app for it partner migration"
+  }
+}

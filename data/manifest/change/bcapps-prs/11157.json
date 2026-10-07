@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/11157",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[main] Bug 647991 Assembly-to-Order Item Incorrectly Blocks Shipment of Unrelated Sales Order Line",
+  "url": "https://github.com/microsoft/BCApps/pull/11157",
+  "published_at": "2026-09-14T11:23:38Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "02a78bb78b0a299592d5d709a3d29f8ce2e3812e:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11157,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "02a78bb78b0a299592d5d709a3d29f8ce2e3812e",
+    "author": "MSNehaNawal",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 647991 assembly to order item incorrectly blocks shipment of unrelated sales order line"
+  }
+}

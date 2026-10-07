@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/9485",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[main]-Multiple error messages when posting to period with VAT Return already in status Released",
+  "url": "https://github.com/microsoft/BCApps/pull/9485",
+  "published_at": "2026-07-17T13:32:57Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "a5c55bfbd06cae7865e5cfeacbc16adfc072e549:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9485,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "a5c55bfbd06cae7865e5cfeacbc16adfc072e549",
+    "author": "MSNehaNawal",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "From Fork",
+      "Team: Finance"
+    ],
+    "community_contribution": true,
+    "title_key": "multiple error messages when posting to period with vat return already in status released"
+  }
+}

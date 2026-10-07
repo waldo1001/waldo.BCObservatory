@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9434",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Main]-\"Factura Duplicada\" error message appears under SII History if you use the same Vendor Invoice No. for the same Vendor (VAT Registration No.) in different documents in the Spanish version.",
+  "url": "https://github.com/microsoft/BCApps/pull/9434",
+  "published_at": "2026-07-17T11:34:08Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "c6e192799cbd132bcb05f794aa7568c9d11f8874:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9434,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "c6e192799cbd132bcb05f794aa7568c9d11f8874",
+    "author": "DhavalMore88",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "factura duplicada error message appears under sii history if you use the same vendor invoice no for the same vendor vat registration no in different documents in the spanish version"
+  }
+}

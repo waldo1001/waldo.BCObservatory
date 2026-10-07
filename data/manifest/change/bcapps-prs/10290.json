@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/10290",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Main] -Drop shipment undo receipt fails for service and non-inventory items.",
+  "url": "https://github.com/microsoft/BCApps/pull/10290",
+  "published_at": "2026-08-18T14:34:15Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "fd0372fdf3540a00a6b00f76261d853a2985f96c:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10290,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "fd0372fdf3540a00a6b00f76261d853a2985f96c",
+    "author": "DhavalMore88",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "From Fork",
+      "Team: SCM"
+    ],
+    "community_contribution": true,
+    "title_key": "drop shipment undo receipt fails for service and non inventory items"
+  }
+}

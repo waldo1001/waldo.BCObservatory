@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/9552",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Main]-Issue in TDS calculation during payment application against invoices",
+  "url": "https://github.com/microsoft/BCApps/pull/9552",
+  "published_at": "2026-07-17T13:18:49Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "e0f5e4f3d6d0fee87bc4ef9cee40cc3fb18d66ea:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9552,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "e0f5e4f3d6d0fee87bc4ef9cee40cc3fb18d66ea",
+    "author": "v-ajaztabrez",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "From Fork",
+      "Team: Finance"
+    ],
+    "community_contribution": true,
+    "title_key": "issue in tds calculation during payment application against invoices"
+  }
+}

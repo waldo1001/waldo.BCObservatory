@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/12118",
+  "number": 12118,
+  "title": "Fix Email Inbox retention policy failing on missing indirect Read permission",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Email Inbox retention policy no longer fails due to missing indirect read permission and now registers the table for existing tenants through an upgrade tag.",
+  "key_points": [
+    "Added Email Inbox to the email module's Record Reference adapter to provide indirect read permission",
+    "Implemented per-company upgrade tag to register Email Inbox in retention-policy allowed tables for existing tenants",
+    "Added tests validating Email Inbox retention policy with and without filters under restrictive permissions",
+    "No schema or public API changes; idempotent upgrade tag re-registers all three email tables harmlessly"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration",
+    "administration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004212,
+    "changes_in_call": 1
+  }
+}

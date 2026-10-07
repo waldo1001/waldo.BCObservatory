@@ -1,0 +1,30 @@
+{
+  "id": "change/bcquality-prs/95",
+  "pillar": "change",
+  "source": "bcquality-prs",
+  "tier": "official",
+  "title": "style-review: calibrate analyzer-redundant rules to info; keep correctness bugs out of style scope",
+  "url": "https://github.com/microsoft/BCQuality/pull/95",
+  "published_at": "2026-07-14T09:26:44Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "9214f73819ddcec6f46a6476509f8faf439547ed:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 95,
+    "repo": "microsoft/BCQuality",
+    "base": "main",
+    "major": null,
+    "merge_commit_sha": "9214f73819ddcec6f46a6476509f8faf439547ed",
+    "author": "gggdttt",
+    "author_type": "User",
+    "labels": [],
+    "community_contribution": false,
+    "title_key": "style review calibrate analyzer redundant rules to info keep correctness bugs out of style scope"
+  }
+}

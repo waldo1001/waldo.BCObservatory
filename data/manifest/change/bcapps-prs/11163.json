@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/11163",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[29.x]Adjustment Amount is not accurate in the Exch. Rate Adjmt. Ledger Entries page if an Unrealized Gain gest registered and a second adjustment turns into a Loss.",
+  "url": "https://github.com/microsoft/BCApps/pull/11163",
+  "published_at": "2026-09-11T15:41:23Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "0d09ab124e7bfe7d29cf82d01fd3722a972dc3fb:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11163,
+    "repo": "microsoft/BCApps",
+    "base": "releases/29.x",
+    "major": "29",
+    "merge_commit_sha": "0d09ab124e7bfe7d29cf82d01fd3722a972dc3fb",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "adjustment amount is not accurate in the exch rate adjmt ledger entries page if an unrealized gain gest registered and a second adjustment turns into a loss"
+  }
+}

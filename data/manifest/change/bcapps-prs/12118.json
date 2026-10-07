@@ -1,0 +1,61 @@
+{
+  "id": "change/bcapps-prs/12118",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Fix Email Inbox retention policy failing on missing indirect Read permission",
+  "url": "https://github.com/microsoft/BCApps/pull/12118",
+  "published_at": "2026-10-06T16:16:51Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:55:39.073Z",
+      "change_class": "code",
+      "files": 5,
+      "al": 3,
+      "objects": 3,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T12:55:44.179Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004212
+    },
+    "linked": {
+      "at": "2026-10-07T12:55:44.366Z",
+      "objects": 3,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T12:55:44.375Z",
+      "path": "content/changes/bcapps/12118.md"
+    }
+  },
+  "input_hash": "47f793605ac3a868a203d9068a7b4a054269878a:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12118,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "47f793605ac3a868a203d9068a7b4a054269878a",
+    "author": "darjoo",
+    "author_type": "User",
+    "labels": [
+      "AL: System Application",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "fix email inbox retention policy failing on missing indirect read permission"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "8b756671195ff819be8e37d7f574c0cfeb64c1c6772794469e5e4ee961566418"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9534",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[main] bug 642419 - refresh report layouts",
+  "url": "https://github.com/microsoft/BCApps/pull/9534",
+  "published_at": "2026-07-20T10:41:46Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "4d89cf92aad6095b56a8f4c5242d9fbd697588b8:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9534,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "4d89cf92aad6095b56a8f4c5242d9fbd697588b8",
+    "author": "DavidHolusa",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 642419 refresh report layouts"
+  }
+}

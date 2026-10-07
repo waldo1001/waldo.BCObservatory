@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/11184",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[29.x][All-e][FTE][SaaS] Cannot Rename User Due to Financial Report Audit Log Permissions",
+  "url": "https://github.com/microsoft/BCApps/pull/11184",
+  "published_at": "2026-09-08T11:30:18Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "86a0b558784051e0af468db82ce4984bebe83c6d:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11184,
+    "repo": "microsoft/BCApps",
+    "base": "releases/29.x",
+    "major": "29",
+    "merge_commit_sha": "86a0b558784051e0af468db82ce4984bebe83c6d",
+    "author": "sanjmaurya",
+    "author_type": "User",
+    "labels": [
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "all e fte saas cannot rename user due to financial report audit log permissions"
+  }
+}

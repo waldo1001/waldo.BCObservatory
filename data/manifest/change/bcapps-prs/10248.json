@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/10248",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Bug 646799: Spend Request fields in Posted Gen. Journal Line have wrong/different field numbers in country versions (correct in w1)",
+  "url": "https://github.com/microsoft/BCApps/pull/10248",
+  "published_at": "2026-08-17T14:49:09Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "2e8d1e889d32e431a3b183ff96e09fdfa054f95a:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10248,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "2e8d1e889d32e431a3b183ff96e09fdfa054f95a",
+    "author": "BardurKnudsen",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 646799 spend request fields in posted gen journal line have wrong different field numbers in country versions correct in w1"
+  }
+}

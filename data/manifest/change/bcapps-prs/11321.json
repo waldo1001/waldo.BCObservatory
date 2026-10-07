@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/11321",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Update default Pricing implementation (v.30)",
+  "url": "https://github.com/microsoft/BCApps/pull/11321",
+  "published_at": "2026-09-28T22:28:04Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "021b863cb0585f740c1acb6ad0d53ecb94acd643:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11321,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "021b863cb0585f740c1acb6ad0d53ecb94acd643",
+    "author": "Alexander-Ya",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "update default pricing implementation v 30"
+  }
+}

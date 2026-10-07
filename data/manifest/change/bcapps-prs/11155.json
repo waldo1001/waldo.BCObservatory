@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/11155",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Fix missing default item journal batch in Contoso Inventory setup",
+  "url": "https://github.com/microsoft/BCApps/pull/11155",
+  "published_at": "2026-09-18T15:46:28Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "d796c8b56ed445fc4bd168c79025953c045419d4:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11155,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "d796c8b56ed445fc4bd168c79025953c045419d4",
+    "author": "attilatoury",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "fix missing default item journal batch in contoso inventory setup"
+  }
+}

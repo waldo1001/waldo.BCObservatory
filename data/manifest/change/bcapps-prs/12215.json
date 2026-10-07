@@ -1,0 +1,61 @@
+{
+  "id": "change/bcapps-prs/12215",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Shopify] Link grouped invoice to all originating orders",
+  "url": "https://github.com/microsoft/BCApps/pull/12215",
+  "published_at": "2026-10-06T20:33:16Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:55:33.357Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T12:55:38.102Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003463
+    },
+    "linked": {
+      "at": "2026-10-07T12:55:38.314Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T12:55:38.323Z",
+      "path": "content/changes/bcapps/12215.md"
+    }
+  },
+  "input_hash": "4dd61dc02fea2b5e9355cf8c13e43f3695a03cba:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12215,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "4dd61dc02fea2b5e9355cf8c13e43f3695a03cba",
+    "author": "onbuyuka",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "shopify link grouped invoice to all originating orders"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "83a0d13379c82d966174708d3ebc2fd6a7f3d5030690cff4eccca27fa4f35e4f"
+}

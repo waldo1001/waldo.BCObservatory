@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/10528",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Track receipt on invoice per purchase order line",
+  "url": "https://github.com/microsoft/BCApps/pull/10528",
+  "published_at": "2026-08-31T16:23:07Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "dfaf04b91d1a2f000803bdcb95f19ebc9bfcd7b4:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10528,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "dfaf04b91d1a2f000803bdcb95f19ebc9bfcd7b4",
+    "author": "mynjj",
+    "author_type": "User",
+    "labels": [
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": false,
+    "title_key": "track receipt on invoice per purchase order line"
+  }
+}

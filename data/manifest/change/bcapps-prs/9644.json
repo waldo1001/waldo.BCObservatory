@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9644",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Master] [Repair Item] Team Member unable to copy sales quotation when lines are associated to assembly",
+  "url": "https://github.com/microsoft/BCApps/pull/9644",
+  "published_at": "2026-09-15T10:18:53Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "1bef82cea235f39db7882fe431f70f5fbd2e0f8a:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9644,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "1bef82cea235f39db7882fe431f70f5fbd2e0f8a",
+    "author": "Shikhverma",
+    "author_type": "User",
+    "labels": [
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "master repair item team member unable to copy sales quotation when lines are associated to assembly"
+  }
+}

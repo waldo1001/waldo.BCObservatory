@@ -1,0 +1,35 @@
+{
+  "id": "change/bcapps-prs/11604",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "fix: capture Shopify fulfillment deliveredAt timestamp",
+  "url": "https://github.com/microsoft/BCApps/pull/11604",
+  "published_at": "2026-10-05T19:17:24Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "7484a1621bf4dbc93c2c2dcd24f89520757df5a8:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11604,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "7484a1621bf4dbc93c2c2dcd24f89520757df5a8",
+    "author": "abame",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "AL: Apps (W1)",
+      "From Fork",
+      "Team: Integrations"
+    ],
+    "community_contribution": true,
+    "title_key": "fix capture shopify fulfillment deliveredat timestamp"
+  }
+}

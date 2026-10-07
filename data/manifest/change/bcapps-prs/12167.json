@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/12167",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Track QuickBooks migration usage consistently",
+  "url": "https://github.com/microsoft/BCApps/pull/12167",
+  "published_at": "2026-10-02T13:02:24Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "21fcd2d35c42dc8f0f72186e8dfc7a0b0a915df0:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12167,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "21fcd2d35c42dc8f0f72186e8dfc7a0b0a915df0",
+    "author": "nikolakukrika",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "track quickbooks migration usage consistently"
+  }
+}

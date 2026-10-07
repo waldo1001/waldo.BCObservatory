@@ -1,0 +1,30 @@
+{
+  "id": "change/bcquality-prs/126",
+  "pillar": "change",
+  "source": "bcquality-prs",
+  "tier": "official",
+  "title": "Pin GitHub Actions to full-length commit SHAs",
+  "url": "https://github.com/microsoft/BCQuality/pull/126",
+  "published_at": "2026-08-14T08:24:42Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "91f52f8b4fa479ec75842dd573903115326881d0:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 126,
+    "repo": "microsoft/BCQuality",
+    "base": "main",
+    "major": null,
+    "merge_commit_sha": "91f52f8b4fa479ec75842dd573903115326881d0",
+    "author": "danfiedler-msft",
+    "author_type": "User",
+    "labels": [],
+    "community_contribution": false,
+    "title_key": "pin github actions to full length commit shas"
+  }
+}

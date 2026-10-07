@@ -1,0 +1,30 @@
+{
+  "id": "change/bcquality-prs/135",
+  "pillar": "change",
+  "source": "bcquality-prs",
+  "tier": "official",
+  "title": "Correct severe misconception about SetCurrentKey in the knowledge base",
+  "url": "https://github.com/microsoft/BCQuality/pull/135",
+  "published_at": "2026-08-23T18:07:14Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "9203e3ce2bef2e2af77ba83b94dd884661d1ef3f:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 135,
+    "repo": "microsoft/BCQuality",
+    "base": "main",
+    "major": null,
+    "merge_commit_sha": "9203e3ce2bef2e2af77ba83b94dd884661d1ef3f",
+    "author": "dcenic",
+    "author_type": "User",
+    "labels": [],
+    "community_contribution": false,
+    "title_key": "correct severe misconception about setcurrentkey in the knowledge base"
+  }
+}

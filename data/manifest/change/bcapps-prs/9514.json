@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/9514",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Main]-Interest Document issued with non-taxable VAT does not generate non-taxable VAT entries in the Spanish localization",
+  "url": "https://github.com/microsoft/BCApps/pull/9514",
+  "published_at": "2026-07-17T08:58:04Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "f242f075824fdd9177af3a8c5495b526c795f909:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9514,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "f242f075824fdd9177af3a8c5495b526c795f909",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "From Fork",
+      "Team: Finance"
+    ],
+    "community_contribution": true,
+    "title_key": "interest document issued with non taxable vat does not generate non taxable vat entries in the spanish localization"
+  }
+}

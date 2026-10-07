@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/10232",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Block unauthorized Sales Order Agent setup access",
+  "url": "https://github.com/microsoft/BCApps/pull/10232",
+  "published_at": "2026-08-21T12:41:09Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "c37781dda2e8dc723df1c46def01e122b2c896d8:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10232,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "c37781dda2e8dc723df1c46def01e122b2c896d8",
+    "author": "attilatoury",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "block unauthorized sales order agent setup access"
+  }
+}

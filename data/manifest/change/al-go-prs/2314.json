@@ -1,0 +1,30 @@
+{
+  "id": "change/al-go-prs/2314",
+  "pillar": "change",
+  "source": "al-go-prs",
+  "tier": "official",
+  "title": "Retry current-build dependency artifact download up to 3 times",
+  "url": "https://github.com/microsoft/AL-Go/pull/2314",
+  "published_at": "2026-07-10T22:15:43Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "93bb8356940f97cef1ffc71323f5d2a3e32708c4:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 2314,
+    "repo": "microsoft/AL-Go",
+    "base": "main",
+    "major": null,
+    "merge_commit_sha": "93bb8356940f97cef1ffc71323f5d2a3e32708c4",
+    "author": "aholstrup1",
+    "author_type": "User",
+    "labels": [],
+    "community_contribution": false,
+    "title_key": "retry current build dependency artifact download up to 3 times"
+  }
+}

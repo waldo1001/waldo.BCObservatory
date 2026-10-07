@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/10136",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[CH][SEPA CT] Export requires both IBAN and Clearing No. for domestic payments and refunds",
+  "url": "https://github.com/microsoft/BCApps/pull/10136",
+  "published_at": "2026-08-17T08:29:01Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "d1bac12f600374184c5067911b325c1a1b544ff4:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10136,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "d1bac12f600374184c5067911b325c1a1b544ff4",
+    "author": "dcenic",
+    "author_type": "User",
+    "labels": [
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": false,
+    "title_key": "ch sepa ct export requires both iban and clearing no for domestic payments and refunds"
+  }
+}

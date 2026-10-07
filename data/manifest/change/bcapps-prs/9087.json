@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9087",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Bug 641331: Copy Production Order Document lookup shows the current document",
+  "url": "https://github.com/microsoft/BCApps/pull/9087",
+  "published_at": "2026-08-12T14:01:10Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "49a9571fc8b85603359b60e43894b7d8515c9fe6:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9087,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "49a9571fc8b85603359b60e43894b7d8515c9fe6",
+    "author": "alexei-dobriansky",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 641331 copy production order document lookup shows the current document"
+  }
+}

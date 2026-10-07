@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9662",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Master]-Fixed Asset: Declining-Balance method - wrong calculation when running depreciation",
+  "url": "https://github.com/microsoft/BCApps/pull/9662",
+  "published_at": "2026-07-24T09:46:10Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "adace9c3c1b268b31bf6725ac1c111a2bef3a82c:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9662,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "adace9c3c1b268b31bf6725ac1c111a2bef3a82c",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "master fixed asset declining balance method wrong calculation when running depreciation"
+  }
+}

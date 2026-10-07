@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/9797",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Bug 641388: Fix WIP transfer remainder over-creation when open line quantity is reduced",
+  "url": "https://github.com/microsoft/BCApps/pull/9797",
+  "published_at": "2026-07-31T10:50:27Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "50dcc04baf4fbde30b1f160bb0f679f6c14bab1a:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9797,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "50dcc04baf4fbde30b1f160bb0f679f6c14bab1a",
+    "author": "ChethanT",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 641388 fix wip transfer remainder over creation when open line quantity is reduced"
+  }
+}

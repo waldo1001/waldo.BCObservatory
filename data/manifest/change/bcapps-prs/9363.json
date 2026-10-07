@@ -1,0 +1,35 @@
+{
+  "id": "change/bcapps-prs/9363",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "GP - Updates 202607",
+  "url": "https://github.com/microsoft/BCApps/pull/9363",
+  "published_at": "2026-09-11T15:02:01Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "157db9ea391d22cbae9b4cb50520223bb05bd13c:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9363,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "157db9ea391d22cbae9b4cb50520223bb05bd13c",
+    "author": "jaymckinney-enavate",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "AL: Apps (W1)",
+      "From Fork",
+      "Team: Integrations"
+    ],
+    "community_contribution": true,
+    "title_key": "gp updates 202607"
+  }
+}

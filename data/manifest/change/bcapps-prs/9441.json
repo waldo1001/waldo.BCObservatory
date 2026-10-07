@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/9441",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Extensibility Request] issue 30337: add OnCreateProdOrderLineOnBeforeCreateProdOrderLineFromItem event",
+  "url": "https://github.com/microsoft/BCApps/pull/9441",
+  "published_at": "2026-07-28T13:28:39Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "aab43577a8bdb91e44603d4552bf670630d464c9:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9441,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "aab43577a8bdb91e44603d4552bf670630d464c9",
+    "author": "AleksandricMarko",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM",
+      "event-request"
+    ],
+    "community_contribution": false,
+    "title_key": "extensibility request issue 30337 add oncreateprodorderlineonbeforecreateprodorderlinefromitem event"
+  }
+}

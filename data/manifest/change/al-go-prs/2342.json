@@ -1,0 +1,30 @@
+{
+  "id": "change/al-go-prs/2342",
+  "pillar": "change",
+  "source": "al-go-prs",
+  "tier": "official",
+  "title": "Fix incremental builds poisoning buildMode-specific artifacts (#2337)",
+  "url": "https://github.com/microsoft/AL-Go/pull/2342",
+  "published_at": "2026-08-07T07:33:32Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "93300d797386e3faa2796faf09584b5c9e76494b:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 2342,
+    "repo": "microsoft/AL-Go",
+    "base": "main",
+    "major": null,
+    "merge_commit_sha": "93300d797386e3faa2796faf09584b5c9e76494b",
+    "author": "aholstrup1",
+    "author_type": "User",
+    "labels": [],
+    "community_contribution": false,
+    "title_key": "fix incremental builds poisoning buildmode specific artifacts 2337"
+  }
+}

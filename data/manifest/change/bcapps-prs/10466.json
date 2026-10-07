@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/10466",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Resolve purchase lines to items on exact description match",
+  "url": "https://github.com/microsoft/BCApps/pull/10466",
+  "published_at": "2026-08-24T13:12:31Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "79ee343b5bd8782f0e71b628b3d4633255e29958:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10466,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "79ee343b5bd8782f0e71b628b3d4633255e29958",
+    "author": "Explorer986",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "resolve purchase lines to items on exact description match"
+  }
+}

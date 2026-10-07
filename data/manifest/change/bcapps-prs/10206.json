@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/10206",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Bug 646576: Preserve manually changed component Flushing Method on subcontracting transfers",
+  "url": "https://github.com/microsoft/BCApps/pull/10206",
+  "published_at": "2026-08-13T21:39:29Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "8bc02bb98e0593e328a06230f42d219c98a680c5:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10206,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "8bc02bb98e0593e328a06230f42d219c98a680c5",
+    "author": "ChethanT",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Subcontracting",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 646576 preserve manually changed component flushing method on subcontracting transfers"
+  }
+}

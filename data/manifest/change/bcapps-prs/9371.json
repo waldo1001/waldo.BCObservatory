@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9371",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Bug 642180: DE report 11015 Export Business Data fails when scheduled via Job Queue: Client callbacks are not supported",
+  "url": "https://github.com/microsoft/BCApps/pull/9371",
+  "published_at": "2026-07-14T13:39:00Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "322c7855fdc60842f524f6921c1d0d7623ea163e:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9371,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "322c7855fdc60842f524f6921c1d0d7623ea163e",
+    "author": "AleksanderGladkov",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 642180 de report 11015 export business data fails when scheduled via job queue client callbacks are not supported"
+  }
+}

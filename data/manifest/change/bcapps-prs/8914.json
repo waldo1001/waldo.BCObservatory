@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/8914",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Master]- Changing Sales Order Line Description on a Sales Order unexpectedly changes the invoice total amounts.Changes",
+  "url": "https://github.com/microsoft/BCApps/pull/8914",
+  "published_at": "2026-07-14T05:30:47Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "8a04668a4931120e530e2d0e93cad7d2aecca92d:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 8914,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "8a04668a4931120e530e2d0e93cad7d2aecca92d",
+    "author": "DeepsShukla",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "From Fork",
+      "Team: SCM"
+    ],
+    "community_contribution": true,
+    "title_key": "master changing sales order line description on a sales order unexpectedly changes the invoice total amounts changes"
+  }
+}

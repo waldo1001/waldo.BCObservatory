@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/10542",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Master] - Slice 638097: [Expense Agent] Enable simple interim approval scenario",
+  "url": "https://github.com/microsoft/BCApps/pull/10542",
+  "published_at": "2026-08-27T19:37:10Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "3642692b0a6f653a1600bd8a707d1b050094205d:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10542,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "3642692b0a6f653a1600bd8a707d1b050094205d",
+    "author": "v-rohangarg20",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "master slice 638097 expense agent enable simple interim approval scenario"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "change/bcquality-prs/124",
+  "pillar": "change",
+  "source": "bcquality-prs",
+  "tier": "official",
+  "title": "Add FP guards: field relocation to tableextension + event parameter addition (bug 642303)",
+  "url": "https://github.com/microsoft/BCQuality/pull/124",
+  "published_at": "2026-08-04T11:00:45Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "1687b57c9900b22439720def86940e7b77800eb7:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 124,
+    "repo": "microsoft/BCQuality",
+    "base": "main",
+    "major": null,
+    "merge_commit_sha": "1687b57c9900b22439720def86940e7b77800eb7",
+    "author": "gggdttt",
+    "author_type": "User",
+    "labels": [],
+    "community_contribution": false,
+    "title_key": "add fp guards field relocation to tableextension event parameter addition bug 642303"
+  }
+}

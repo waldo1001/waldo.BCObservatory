@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9645",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[main] bug 642743 - Change behavior of OnValidate trigger of \"EU 3-Party Intermed. Role CZL\" field",
+  "url": "https://github.com/microsoft/BCApps/pull/9645",
+  "published_at": "2026-07-23T18:46:23Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "74e9100d13e552721eea25a6bf21937d1e7d74dd:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9645,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "74e9100d13e552721eea25a6bf21937d1e7d74dd",
+    "author": "DavidHolusa",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 642743 change behavior of onvalidate trigger of eu 3 party intermed role czl field"
+  }
+}

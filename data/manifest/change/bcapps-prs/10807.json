@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/10807",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[29.x][Expense Agent] Confirm before closing Expense User Card without Employee No. ",
+  "url": "https://github.com/microsoft/BCApps/pull/10807",
+  "published_at": "2026-09-02T12:29:12Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "b4793511e89b6d102bbda56f020344a04102220a:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10807,
+    "repo": "microsoft/BCApps",
+    "base": "releases/29.x",
+    "major": "29",
+    "merge_commit_sha": "b4793511e89b6d102bbda56f020344a04102220a",
+    "author": "v-rohangarg20",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "expense agent confirm before closing expense user card without employee no"
+  }
+}

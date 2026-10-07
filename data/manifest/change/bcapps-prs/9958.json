@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/9958",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Main] -Detail Trial Balance - Running Balance Incorrect When \"Include Closing Entries\" Is Disabled",
+  "url": "https://github.com/microsoft/BCApps/pull/9958",
+  "published_at": "2026-08-07T10:14:14Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "f6877f69cdd6648fe82daef92875f81cfa234f6c:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9958,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "f6877f69cdd6648fe82daef92875f81cfa234f6c",
+    "author": "DhavalMore88",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "From Fork",
+      "Team: Finance"
+    ],
+    "community_contribution": true,
+    "title_key": "detail trial balance running balance incorrect when include closing entries is disabled"
+  }
+}

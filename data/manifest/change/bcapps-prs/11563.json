@@ -1,0 +1,35 @@
+{
+  "id": "change/bcapps-prs/11563",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[E-Documents Core] [Peppol] - Add PEPPOL Requested Delivery Period support (header + line)",
+  "url": "https://github.com/microsoft/BCApps/pull/11563",
+  "published_at": "2026-09-24T09:12:53Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "488da0ca0314901f3ab8c0817d3e6376bc791624:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11563,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "488da0ca0314901f3ab8c0817d3e6376bc791624",
+    "author": "GediminasGaubys",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "AL: Apps (W1)",
+      "From Fork",
+      "Team: Integrations"
+    ],
+    "community_contribution": true,
+    "title_key": "e documents core peppol add peppol requested delivery period support header line"
+  }
+}

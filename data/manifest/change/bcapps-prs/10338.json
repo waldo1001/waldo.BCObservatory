@@ -1,0 +1,36 @@
+{
+  "id": "change/bcapps-prs/10338",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Bug 647122: [master][NAV] Track failed BCApps validation (AUTODETECTED)",
+  "url": "https://github.com/microsoft/BCApps/pull/10338",
+  "published_at": "2026-08-18T08:59:21Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "171dfe7803324970f1dd279e026c080c78bf8d87:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10338,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "171dfe7803324970f1dd279e026c080c78bf8d87",
+    "author": "ViditGupta1277",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "Build: scripts & configs",
+      "From Fork",
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": true,
+    "title_key": "bug 647122 master nav track failed bcapps validation autodetected"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/10564",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Bug 641415: [Expense Agent] Incorrect Payment Method Assignment for Card-Based Expenses",
+  "url": "https://github.com/microsoft/BCApps/pull/10564",
+  "published_at": "2026-08-31T14:43:47Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "d68dbf983d8eaf2da35c6e2c630a5998075bce2a:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10564,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "d68dbf983d8eaf2da35c6e2c630a5998075bce2a",
+    "author": "BardurKnudsen",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Ownership: Manual",
+      "Team: Other"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 641415 expense agent incorrect payment method assignment for card based expenses"
+  }
+}

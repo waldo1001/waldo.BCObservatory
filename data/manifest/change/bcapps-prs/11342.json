@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/11342",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[29.x][ALL-E] Document Type is Quote in Document Attachment table (1173) after posting a Sales Invoice with attachmentsIntial Commit",
+  "url": "https://github.com/microsoft/BCApps/pull/11342",
+  "published_at": "2026-09-29T11:10:29Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "9abb50c16236576e55a88b35c2720e194db37b9c:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11342,
+    "repo": "microsoft/BCApps",
+    "base": "releases/29.x",
+    "major": "29",
+    "merge_commit_sha": "9abb50c16236576e55a88b35c2720e194db37b9c",
+    "author": "sanjmaurya",
+    "author_type": "User",
+    "labels": [
+      "Ownership: Manual",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "all e document type is quote in document attachment table 1173 after posting a sales invoice with attachmentsintial commit"
+  }
+}

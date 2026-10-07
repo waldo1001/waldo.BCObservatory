@@ -1,0 +1,30 @@
+{
+  "id": "change/al-go-prs/2382",
+  "pillar": "change",
+  "source": "al-go-prs",
+  "tier": "official",
+  "title": "Fix dependency artifact pattern for branch names with glob-special characters",
+  "url": "https://github.com/microsoft/AL-Go/pull/2382",
+  "published_at": "2026-09-30T14:51:26Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "3fec7a399096ddc02e4ef2487855df65ba60b127:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 2382,
+    "repo": "microsoft/AL-Go",
+    "base": "main",
+    "major": null,
+    "merge_commit_sha": "3fec7a399096ddc02e4ef2487855df65ba60b127",
+    "author": "AlexanderMarcher",
+    "author_type": "User",
+    "labels": [],
+    "community_contribution": false,
+    "title_key": "fix dependency artifact pattern for branch names with glob special characters"
+  }
+}

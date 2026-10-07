@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/10367",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Quality Management] Add OptimizeForTextSearch to searchable Qlty. Inspection Header fields (AB#620381)",
+  "url": "https://github.com/microsoft/BCApps/pull/10367",
+  "published_at": "2026-08-19T20:12:36Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "de075302bfd10174bc8ec737e406112dbe546704:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10367,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "de075302bfd10174bc8ec737e406112dbe546704",
+    "author": "alexei-dobriansky",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "quality management add optimizefortextsearch to searchable qlty inspection header fields ab 620381"
+  }
+}

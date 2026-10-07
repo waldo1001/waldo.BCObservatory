@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/10970",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Master] -SubBilling BillingLine doesn't consider entries for usage date ranges crossing periods",
+  "url": "https://github.com/microsoft/BCApps/pull/10970",
+  "published_at": "2026-09-11T17:56:35Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "0896e1947b431a5714707d05ce8a9e88c7234804:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10970,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "0896e1947b431a5714707d05ce8a9e88c7234804",
+    "author": "DhavalMore88",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "master subbilling billingline doesn t consider entries for usage date ranges crossing periods"
+  }
+}

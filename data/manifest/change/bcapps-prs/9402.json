@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/9402",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Fix RSA private key PEM import",
+  "url": "https://github.com/microsoft/BCApps/pull/9402",
+  "published_at": "2026-07-17T10:02:30Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "9bd8b05a7d30d2fca2b9ba137735834a246e4971:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9402,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "9bd8b05a7d30d2fca2b9ba137735834a246e4971",
+    "author": "JesperSchulz",
+    "author_type": "User",
+    "labels": [
+      "AL: System Application",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "fix rsa private key pem import"
+  }
+}

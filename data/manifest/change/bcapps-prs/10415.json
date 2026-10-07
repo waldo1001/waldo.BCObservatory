@@ -1,0 +1,35 @@
+{
+  "id": "change/bcapps-prs/10415",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Ruleset hardening: promote AS0052 (manifest url) from Warning to Error",
+  "url": "https://github.com/microsoft/BCApps/pull/10415",
+  "published_at": "2026-08-21T09:44:07Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "cf093b1531cc5a28142563e0b16aa1dad244f25f:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10415,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "cf093b1531cc5a28142563e0b16aa1dad244f25f",
+    "author": "JesperSchulz",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "AL: System Application",
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": false,
+    "title_key": "ruleset hardening promote as0052 manifest url from warning to error"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/11504",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Disable Travel Request page-action tests in Spend Request Test (NAV runtime)",
+  "url": "https://github.com/microsoft/BCApps/pull/11504",
+  "published_at": "2026-09-15T13:55:22Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "7d81d826bbbd15008648e5d98dc42f6157640919:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11504,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "7d81d826bbbd15008648e5d98dc42f6157640919",
+    "author": "mazhelez",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "disable travel request page action tests in spend request test nav runtime"
+  }
+}

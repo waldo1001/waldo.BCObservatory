@@ -1,0 +1,61 @@
+{
+  "id": "change/bcapps-prs/12463",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Fix Email upgrade writing during no-transaction upgrade test",
+  "url": "https://github.com/microsoft/BCApps/pull/12463",
+  "published_at": "2026-10-07T12:33:50Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:55:29.770Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T12:55:35.441Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": false,
+      "cost_usd": 0.003993
+    },
+    "linked": {
+      "at": "2026-10-07T12:55:35.590Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T12:55:35.658Z",
+      "path": "content/changes/bcapps/12463.md"
+    }
+  },
+  "input_hash": "a4406cfa9e57437fedc49c53c327a199a854491e:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12463,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "a4406cfa9e57437fedc49c53c327a199a854491e",
+    "author": "darjoo",
+    "author_type": "User",
+    "labels": [
+      "AL: System Application",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "fix email upgrade writing during no transaction upgrade test"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "bac082aa7714025bd3b180ec2aa4228c18a4739e72209e89d899895a33d7d44c"
+}

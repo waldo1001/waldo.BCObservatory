@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/10247",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[SOA] Show Cc recipients on email messages",
+  "url": "https://github.com/microsoft/BCApps/pull/10247",
+  "published_at": "2026-09-22T08:54:15Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "0b1981012cd9a474b195568229a3170d1625d190:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10247,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "0b1981012cd9a474b195568229a3170d1625d190",
+    "author": "attilatoury",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Ownership: Manual",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "soa show cc recipients on email messages"
+  }
+}

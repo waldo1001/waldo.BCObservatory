@@ -1,0 +1,30 @@
+{
+  "item_id": "change/al-go-prs/2395",
+  "number": 2395,
+  "title": "Prevent workflow telemetry failures from failing the workflow",
+  "repo": "microsoft/AL-Go",
+  "systems_joined": [],
+  "summary": "WorkflowPostProcess telemetry failures no longer cause the entire workflow to fail, allowing GitHub API errors during finalization to remain visible in logs without blocking successful builds.",
+  "key_points": [
+    "Added continue-on-error: true to the WorkflowPostProcess telemetry step",
+    "Telemetry collection failures no longer propagate as workflow failures",
+    "Build and test status checks remain unaffected by telemetry errors",
+    "Updated regression checks and documentation to reflect the behavior change",
+    "Validated with 9 targeted tests on multiple PowerShell versions"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "platform"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003448,
+    "changes_in_call": 1
+  }
+}

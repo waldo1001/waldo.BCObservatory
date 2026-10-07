@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/10253",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Avoid starting a write transaction under `ShowCanCreateAgent`",
+  "url": "https://github.com/microsoft/BCApps/pull/10253",
+  "published_at": "2026-08-19T00:09:51Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "e3ee804ad9718d07cd2f3864621560ccbfb3a442:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10253,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "e3ee804ad9718d07cd2f3864621560ccbfb3a442",
+    "author": "mynjj",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "avoid starting a write transaction under showcancreateagent"
+  }
+}

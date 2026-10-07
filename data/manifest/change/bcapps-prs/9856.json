@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/9856",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Include item identifiers in Sales Order Agent searches",
+  "url": "https://github.com/microsoft/BCApps/pull/9856",
+  "published_at": "2026-07-30T22:51:56Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "1e77e9c2e8d4c58e45e32be2876550dbb68b773c:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9856,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "1e77e9c2e8d4c58e45e32be2876550dbb68b773c",
+    "author": "qasimikram",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "include item identifiers in sales order agent searches"
+  }
+}

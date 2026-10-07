@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/10488",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Add integration event before inserting the outgoing IC sales line buffer",
+  "url": "https://github.com/microsoft/BCApps/pull/10488",
+  "published_at": "2026-08-21T18:23:41Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "2a3fcaa84fb9d7a91afb3d2dbb4ce937104e77d0:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10488,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "2a3fcaa84fb9d7a91afb3d2dbb4ce937104e77d0",
+    "author": "Explorer986",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "add integration event before inserting the outgoing ic sales line buffer"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/11832",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Master] - Bug 651133: [Expense Agent][BugBash] Mileage setup",
+  "url": "https://github.com/microsoft/BCApps/pull/11832",
+  "published_at": "2026-09-24T11:44:00Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "a18b1b3ba31d97e77dd39ed9a15dc427e6e737b3:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11832,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "a18b1b3ba31d97e77dd39ed9a15dc427e6e737b3",
+    "author": "v-rohangarg20",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "master bug 651133 expense agent bugbash mileage setup"
+  }
+}

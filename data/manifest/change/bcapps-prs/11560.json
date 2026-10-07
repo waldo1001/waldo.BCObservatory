@@ -1,0 +1,63 @@
+{
+  "id": "change/bcapps-prs/11560",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[E-Documents Core] [Peppol] - Enabling EDI capabilities with E-Documents. Send path (Self-Billed Purchase Invoice/Credit Memo → E-Document)",
+  "url": "https://github.com/microsoft/BCApps/pull/11560",
+  "published_at": "2026-10-07T12:12:37Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:55:30.264Z",
+      "change_class": "code",
+      "files": 13,
+      "al": 11,
+      "objects": 10,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-10-07T12:55:36.435Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.004797
+    },
+    "linked": {
+      "at": "2026-10-07T12:55:36.612Z",
+      "objects": 10,
+      "unjoined": 1,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T12:55:36.623Z",
+      "path": "content/changes/bcapps/11560.md"
+    }
+  },
+  "input_hash": "9a6e7298a78d8ad9b4ff5f3ae9881c433d058083:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11560,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "9a6e7298a78d8ad9b4ff5f3ae9881c433d058083",
+    "author": "jzaksauskas",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "AL: Apps (W1)",
+      "From Fork",
+      "Team: Integrations"
+    ],
+    "community_contribution": true,
+    "title_key": "e documents core peppol enabling edi capabilities with e documents send path self billed purchase invoice credit memo e document"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "267be007f04f8b697dd6911fca11c375aae6d978cf860029ef6ad62fbc51262a"
+}

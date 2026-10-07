@@ -1,0 +1,30 @@
+{
+  "id": "change/bcquality-prs/110",
+  "pillar": "change",
+  "source": "bcquality-prs",
+  "tier": "official",
+  "title": "review: stop reference-less agent findings in privacy and UI/accessibility leaves",
+  "url": "https://github.com/microsoft/BCQuality/pull/110",
+  "published_at": "2026-07-16T21:32:50Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "29555c3796c8cc5c89c5269c2aaea21d7c43cfa3:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 110,
+    "repo": "microsoft/BCQuality",
+    "base": "main",
+    "major": null,
+    "merge_commit_sha": "29555c3796c8cc5c89c5269c2aaea21d7c43cfa3",
+    "author": "gggdttt",
+    "author_type": "User",
+    "labels": [],
+    "community_contribution": false,
+    "title_key": "review stop reference less agent findings in privacy and ui accessibility leaves"
+  }
+}

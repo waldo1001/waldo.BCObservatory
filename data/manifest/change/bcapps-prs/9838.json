@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/9838",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Grant indirect read on Privacy Notice tables in Privacy Notice Impl.",
+  "url": "https://github.com/microsoft/BCApps/pull/9838",
+  "published_at": "2026-07-30T14:42:40Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "d66fa8d19504355f1b0d82b6c4178c5c777291e7:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9838,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "d66fa8d19504355f1b0d82b6c4178c5c777291e7",
+    "author": "onbuyuka",
+    "author_type": "User",
+    "labels": [
+      "AL: System Application",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "grant indirect read on privacy notice tables in privacy notice impl"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/11154",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Fix AL0254 compile error in Stock Register for Job Work report",
+  "url": "https://github.com/microsoft/BCApps/pull/11154",
+  "published_at": "2026-09-08T12:39:04Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "0b5054d2b3b2496294e213411bdd742a81c0d7f8:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11154,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "0b5054d2b3b2496294e213411bdd742a81c0d7f8",
+    "author": "mazhelez",
+    "author_type": "User",
+    "labels": [
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": false,
+    "title_key": "fix al0254 compile error in stock register for job work report"
+  }
+}

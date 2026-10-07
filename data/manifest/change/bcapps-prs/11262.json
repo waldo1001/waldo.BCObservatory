@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/11262",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Fix retention policy deletion-limit stop propagation",
+  "url": "https://github.com/microsoft/BCApps/pull/11262",
+  "published_at": "2026-09-23T09:40:00Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "c378eef150ab1c48e1959f56184e0f8150c76f74:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11262,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "c378eef150ab1c48e1959f56184e0f8150c76f74",
+    "author": "darjoo",
+    "author_type": "User",
+    "labels": [
+      "AL: System Application",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "fix retention policy deletion limit stop propagation"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9524",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Set shortLivedArtifactsRetentionDays to 3",
+  "url": "https://github.com/microsoft/BCApps/pull/9524",
+  "published_at": "2026-07-16T08:44:52Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "88b828019dc8500e3e22b1669ed100868f38f92b:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9524,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "88b828019dc8500e3e22b1669ed100868f38f92b",
+    "author": "aholstrup1",
+    "author_type": "User",
+    "labels": [
+      "Build: Automation"
+    ],
+    "community_contribution": false,
+    "title_key": "set shortlivedartifactsretentiondays to 3"
+  }
+}

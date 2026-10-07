@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/10303",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Master]-Modifying a linked contact's common field clears the SIREN field on the associated customer record in the French version.",
+  "url": "https://github.com/microsoft/BCApps/pull/10303",
+  "published_at": "2026-08-24T12:32:05Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "ed572e0157ee7f31849c1fdbc880f0ecad803377:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10303,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "ed572e0157ee7f31849c1fdbc880f0ecad803377",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "master modifying a linked contact s common field clears the siren field on the associated customer record in the french version"
+  }
+}

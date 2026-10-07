@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/8875",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[master] SOA: Bugbash for releases 28.x - Select an existing contact, or create a new one - Use another contact always",
+  "url": "https://github.com/microsoft/BCApps/pull/8875",
+  "published_at": "2026-07-08T11:43:22Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "b49991190ee442e5925b80d26042a5ccb7cef554:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 8875,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "b49991190ee442e5925b80d26042a5ccb7cef554",
+    "author": "tomasevicst",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)"
+    ],
+    "community_contribution": false,
+    "title_key": "master soa bugbash for releases 28 x select an existing contact or create a new one use another contact always"
+  }
+}

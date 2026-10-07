@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/8757",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Subcontracting] Bug 640115: Fix Subc. Order FlowField so subcontracting orders are visible in Purchase Order List",
+  "url": "https://github.com/microsoft/BCApps/pull/8757",
+  "published_at": "2026-07-27T09:50:56Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "dc71c44d68dfbf0536afec4c7cb45bd597595a48:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 8757,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "dc71c44d68dfbf0536afec4c7cb45bd597595a48",
+    "author": "ChethanT",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Subcontracting",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "subcontracting bug 640115 fix subc order flowfield so subcontracting orders are visible in purchase order list"
+  }
+}

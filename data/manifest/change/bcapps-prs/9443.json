@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/9443",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Extensibility Request] issue 30222: add handled event before RecreatePurchLines in Pay-to Vendor No. validation",
+  "url": "https://github.com/microsoft/BCApps/pull/9443",
+  "published_at": "2026-07-24T07:38:56Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "e51e0d10ac9a4449fd54edc8134f1393b273aabb:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9443,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "e51e0d10ac9a4449fd54edc8134f1393b273aabb",
+    "author": "AleksandricMarko",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM",
+      "event-request"
+    ],
+    "community_contribution": false,
+    "title_key": "extensibility request issue 30222 add handled event before recreatepurchlines in pay to vendor no validation"
+  }
+}

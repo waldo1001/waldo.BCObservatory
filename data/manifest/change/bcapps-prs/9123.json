@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9123",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Bug 641489: Show Next/Previous Operation No. on routing lines when Type = Parallel",
+  "url": "https://github.com/microsoft/BCApps/pull/9123",
+  "published_at": "2026-07-10T03:51:14Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "1c8f241d1bde5fd23287cd404a4ff2438a4ab7d6:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9123,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "1c8f241d1bde5fd23287cd404a4ff2438a4ab7d6",
+    "author": "alexei-dobriansky",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 641489 show next previous operation no on routing lines when type parallel"
+  }
+}

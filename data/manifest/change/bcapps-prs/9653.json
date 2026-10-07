@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9653",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Master][ALL-E] No Reservation created when the item is selected by Description in Sales Lines",
+  "url": "https://github.com/microsoft/BCApps/pull/9653",
+  "published_at": "2026-08-04T12:44:29Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "d47ee17c5b7170d4a58bc14fd9231fbb202a7fdc:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9653,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "d47ee17c5b7170d4a58bc14fd9231fbb202a7fdc",
+    "author": "sanjmaurya",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "master all e no reservation created when the item is selected by description in sales lines"
+  }
+}

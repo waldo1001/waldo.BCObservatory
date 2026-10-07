@@ -1,0 +1,36 @@
+{
+  "id": "change/bcapps-prs/9578",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[E-Documents Core] - Enabling remittance advice export via E-Documents (payment journal + posted payments)",
+  "url": "https://github.com/microsoft/BCApps/pull/9578",
+  "published_at": "2026-08-11T08:49:09Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "f9a8435406645ed1ac77e2704fd484d3ed7d15f6:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9578,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "f9a8435406645ed1ac77e2704fd484d3ed7d15f6",
+    "author": "AndriusAndrulevicius",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "AL: Apps (W1)",
+      "From Fork",
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": true,
+    "title_key": "e documents core enabling remittance advice export via e documents payment journal posted payments"
+  }
+}

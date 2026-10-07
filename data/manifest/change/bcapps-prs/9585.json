@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9585",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[master] Description Field value gets automatically reverted the original value after changing it.",
+  "url": "https://github.com/microsoft/BCApps/pull/9585",
+  "published_at": "2026-07-20T12:56:29Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "4a99d5900499dbbfe6bb7befb96d454de34d58a4:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9585,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "4a99d5900499dbbfe6bb7befb96d454de34d58a4",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "master description field value gets automatically reverted the original value after changing it"
+  }
+}

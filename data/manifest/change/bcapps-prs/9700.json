@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/9700",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Rename TempCustomMigrationTableBuffer back to CustomMigrationTableBuffer",
+  "url": "https://github.com/microsoft/BCApps/pull/9700",
+  "published_at": "2026-07-27T19:33:31Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "85665cc49ac16507be04b62573ed9b324dfc0a81:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9700,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "85665cc49ac16507be04b62573ed9b324dfc0a81",
+    "author": "gggdttt",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "rename tempcustommigrationtablebuffer back to custommigrationtablebuffer"
+  }
+}

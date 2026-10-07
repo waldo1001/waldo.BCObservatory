@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/10741",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Shopify] Fix exchange refund order links, totals, and refund page layout",
+  "url": "https://github.com/microsoft/BCApps/pull/10741",
+  "published_at": "2026-08-28T12:29:39Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "542c26b4440ba4d498932e722279f847d39ffd43:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10741,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "542c26b4440ba4d498932e722279f847d39ffd43",
+    "author": "onbuyuka",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "shopify fix exchange refund order links totals and refund page layout"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/11960",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[BC14] Classify historical entry pages as Archive in Tell Me",
+  "url": "https://github.com/microsoft/BCApps/pull/11960",
+  "published_at": "2026-09-30T15:27:18Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "9098b78d86144d52167a4e2af722821b3e19380c:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11960,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "9098b78d86144d52167a4e2af722821b3e19380c",
+    "author": "gggdttt",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "bc14 classify historical entry pages as archive in tell me"
+  }
+}

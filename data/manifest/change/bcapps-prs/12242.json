@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/12242",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "29.x: Removing the restriction of deploying Power BI reports only to evaluation companies",
+  "url": "https://github.com/microsoft/BCApps/pull/12242",
+  "published_at": "2026-10-05T11:04:59Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "035361f916bd9863f62c2b30ec7c459e04851c84:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12242,
+    "repo": "microsoft/BCApps",
+    "base": "releases/29.x",
+    "major": "29",
+    "merge_commit_sha": "035361f916bd9863f62c2b30ec7c459e04851c84",
+    "author": "mynjj",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "29 x removing the restriction of deploying power bi reports only to evaluation companies"
+  }
+}

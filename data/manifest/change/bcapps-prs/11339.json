@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/11339",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Prevent order matching for invoice lines created by Get Receipt Lines",
+  "url": "https://github.com/microsoft/BCApps/pull/11339",
+  "published_at": "2026-09-14T15:48:57Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "e5a72692b4ec96a8005787fd9c969d1fd01c12aa:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11339,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "e5a72692b4ec96a8005787fd9c969d1fd01c12aa",
+    "author": "VolodySyn",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "prevent order matching for invoice lines created by get receipt lines"
+  }
+}

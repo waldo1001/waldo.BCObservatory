@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/11632",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[29.X]-Source Currency Amount calculation causes discrepancies with Foreign Currency G/L Entries whit Reversal Charge VAT.",
+  "url": "https://github.com/microsoft/BCApps/pull/11632",
+  "published_at": "2026-09-28T07:08:18Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "9eb05cb91614ca3779c0fd9fcbf69926f2067b26:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11632,
+    "repo": "microsoft/BCApps",
+    "base": "releases/29.x",
+    "major": "29",
+    "merge_commit_sha": "9eb05cb91614ca3779c0fd9fcbf69926f2067b26",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "source currency amount calculation causes discrepancies with foreign currency g l entries whit reversal charge vat"
+  }
+}

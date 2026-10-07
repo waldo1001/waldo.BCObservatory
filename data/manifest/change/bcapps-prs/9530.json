@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9530",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[master] NORWAY - Test Report (ID 2) cannot be run and throw validation errors about field reference that is not more included in the dataset of the Norway version",
+  "url": "https://github.com/microsoft/BCApps/pull/9530",
+  "published_at": "2026-07-17T05:59:58Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "62dc12bc814bff41900c6b366d9fe4977ae616de:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9530,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "62dc12bc814bff41900c6b366d9fe4977ae616de",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "master norway test report id 2 cannot be run and throw validation errors about field reference that is not more included in the dataset of the norway version"
+  }
+}

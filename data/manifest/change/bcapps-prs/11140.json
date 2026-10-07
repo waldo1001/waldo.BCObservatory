@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/11140",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Bug 649158: [BcApps] Update word layouts with broken prefix mappings.",
+  "url": "https://github.com/microsoft/BCApps/pull/11140",
+  "published_at": "2026-09-08T09:00:18Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "7dce84641974fa7f2025ef5f37f6ab0caf13de83:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11140,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "7dce84641974fa7f2025ef5f37f6ab0caf13de83",
+    "author": "nhsejth",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 649158 bcapps update word layouts with broken prefix mappings"
+  }
+}

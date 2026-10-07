@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/10041",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Master]-]G/L Account Sheet with Foreign Currency report (11564) includes LCY-originated entries after enabling G/L currency revaluation feature resulting in mixed-currency totals in the Swiss version. - Copy",
+  "url": "https://github.com/microsoft/BCApps/pull/10041",
+  "published_at": "2026-08-11T13:26:34Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "e0397e49286119ce08da2bff44425fb4e9cc8017:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10041,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "e0397e49286119ce08da2bff44425fb4e9cc8017",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "master g l account sheet with foreign currency report 11564 includes lcy originated entries after enabling g l currency revaluation feature resulting in mixed currency totals in the swiss version copy"
+  }
+}

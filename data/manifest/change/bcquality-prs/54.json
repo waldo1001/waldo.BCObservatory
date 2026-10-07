@@ -1,0 +1,30 @@
+{
+  "id": "change/bcquality-prs/54",
+  "pillar": "change",
+  "source": "bcquality-prs",
+  "tier": "official",
+  "title": "Emit human-readable domain label on review findings",
+  "url": "https://github.com/microsoft/BCQuality/pull/54",
+  "published_at": "2026-07-15T08:44:51Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "ae04938c03bc360a45558d21b7df9345ba5dafcb:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 54,
+    "repo": "microsoft/BCQuality",
+    "base": "main",
+    "major": null,
+    "merge_commit_sha": "ae04938c03bc360a45558d21b7df9345ba5dafcb",
+    "author": "JesperSchulz",
+    "author_type": "User",
+    "labels": [],
+    "community_contribution": false,
+    "title_key": "emit human readable domain label on review findings"
+  }
+}

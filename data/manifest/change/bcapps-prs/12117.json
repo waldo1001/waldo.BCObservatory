@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/12117",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Job Queue] Clearer message and attempt number for runs interrupted by the platform",
+  "url": "https://github.com/microsoft/BCApps/pull/12117",
+  "published_at": "2026-10-02T09:45:43Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "7503cb34218b859461b2347e23a91759a8680361:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12117,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "7503cb34218b859461b2347e23a91759a8680361",
+    "author": "darjoo",
+    "author_type": "User",
+    "labels": [
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "job queue clearer message and attempt number for runs interrupted by the platform"
+  }
+}

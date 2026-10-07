@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/10361",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[main] Line Discount Amount Rounding Discrepancy When Transferring Project Planning Lines to Sales Invoice",
+  "url": "https://github.com/microsoft/BCApps/pull/10361",
+  "published_at": "2026-08-31T05:29:36Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "f29a59a6acb6715f62f77711bcc9939101f6024f:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10361,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "f29a59a6acb6715f62f77711bcc9939101f6024f",
+    "author": "Shikhverma",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "line discount amount rounding discrepancy when transferring project planning lines to sales invoice"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9841",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Indent the case block under the IsHandled guard",
+  "url": "https://github.com/microsoft/BCApps/pull/9841",
+  "published_at": "2026-07-31T13:34:09Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "4d9c1359d986638b184fc2e19c5dd411ba0aafdb:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9841,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "4d9c1359d986638b184fc2e19c5dd411ba0aafdb",
+    "author": "Explorer986",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "indent the case block under the ishandled guard"
+  }
+}

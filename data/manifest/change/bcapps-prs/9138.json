@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/9138",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Shopify] Add Belgium localization for company tax id mapping (Enterprise No.)",
+  "url": "https://github.com/microsoft/BCApps/pull/9138",
+  "published_at": "2026-07-21T11:52:12Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "2df6b40938f06271eda79b043b9cf2df2b7c55ca:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9138,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "2df6b40938f06271eda79b043b9cf2df2b7c55ca",
+    "author": "onbuyuka",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Build: scripts & configs",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "shopify add belgium localization for company tax id mapping enterprise no"
+  }
+}

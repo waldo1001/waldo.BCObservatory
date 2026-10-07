@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/9814",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Revert \"Expose AppService location and EUDB membership on Environment Information for internal consumption (#9716)\"",
+  "url": "https://github.com/microsoft/BCApps/pull/9814",
+  "published_at": "2026-07-29T21:49:08Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "95f453d5738d8599d97b2d2fac5f150d0af3fd70:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9814,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "95f453d5738d8599d97b2d2fac5f150d0af3fd70",
+    "author": "t-prda",
+    "author_type": "User",
+    "labels": [
+      "AL: System Application",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "revert expose appservice location and eudb membership on environment information for internal consumption 9716"
+  }
+}

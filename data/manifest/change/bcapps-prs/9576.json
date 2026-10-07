@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/9576",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Enable RU tests",
+  "url": "https://github.com/microsoft/BCApps/pull/9576",
+  "published_at": "2026-07-31T12:05:40Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "2b968644b93dfaead3ec0aa6705ed455419f5e28:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9576,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "2b968644b93dfaead3ec0aa6705ed455419f5e28",
+    "author": "spetersenms",
+    "author_type": "User",
+    "labels": [
+      "Build: scripts & configs",
+      "Ownership: Manual",
+      "Team: Other"
+    ],
+    "community_contribution": false,
+    "title_key": "enable ru tests"
+  }
+}

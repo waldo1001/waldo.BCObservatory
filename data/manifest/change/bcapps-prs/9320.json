@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/9320",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Shopify] Import HS code and country of origin from Shopify",
+  "url": "https://github.com/microsoft/BCApps/pull/9320",
+  "published_at": "2026-07-16T16:27:23Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "d03f4ddf7267c0552bbd478f21bc504b7e5155c1:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9320,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "d03f4ddf7267c0552bbd478f21bc504b7e5155c1",
+    "author": "onbuyuka",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "shopify import hs code and country of origin from shopify"
+  }
+}

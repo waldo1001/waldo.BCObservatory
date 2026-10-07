@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9114",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Re-enable Data Classification test (CU 135153 TestDataSensitivities) in CI",
+  "url": "https://github.com/microsoft/BCApps/pull/9114",
+  "published_at": "2026-07-15T15:59:04Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "94ff8923a8e6fd65be7235e411c46650740d79cf:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9114,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "94ff8923a8e6fd65be7235e411c46650740d79cf",
+    "author": "aholstrup1",
+    "author_type": "User",
+    "labels": [
+      "Build: Automation"
+    ],
+    "community_contribution": false,
+    "title_key": "re enable data classification test cu 135153 testdatasensitivities in ci"
+  }
+}

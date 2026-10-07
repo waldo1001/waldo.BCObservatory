@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/10297",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Use Any module instead of hardcoded password in integration setup tests",
+  "url": "https://github.com/microsoft/BCApps/pull/10297",
+  "published_at": "2026-08-20T11:37:10Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "11ae475fde7321fd48e6707c721f164c84a1827c:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10297,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "11ae475fde7321fd48e6707c721f164c84a1827c",
+    "author": "darjoo",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": false,
+    "title_key": "use any module instead of hardcoded password in integration setup tests"
+  }
+}

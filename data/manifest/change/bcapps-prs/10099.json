@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/10099",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Fix assembly cost test isolation",
+  "url": "https://github.com/microsoft/BCApps/pull/10099",
+  "published_at": "2026-08-11T12:48:22Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "7598e2cb316380200a5a0819d2671d1650e237a1:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10099,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "7598e2cb316380200a5a0819d2671d1650e237a1",
+    "author": "PredragMaricic",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "fix assembly cost test isolation"
+  }
+}

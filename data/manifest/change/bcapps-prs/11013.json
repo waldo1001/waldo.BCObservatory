@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/11013",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Remove 43 unused DotNet alias declarations",
+  "url": "https://github.com/microsoft/BCApps/pull/11013",
+  "published_at": "2026-09-07T14:42:51Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "95ff23b4e17cfa0cedfc411a37ac9f989bb7fc18:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11013,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "95ff23b4e17cfa0cedfc411a37ac9f989bb7fc18",
+    "author": "darjoo",
+    "author_type": "User",
+    "labels": [
+      "AL: System Application",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "remove 43 unused dotnet alias declarations"
+  }
+}

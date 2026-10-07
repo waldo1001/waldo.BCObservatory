@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/11939",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Bug 650391: [Subcontracting] Show subcontracting transfer quantities",
+  "url": "https://github.com/microsoft/BCApps/pull/11939",
+  "published_at": "2026-09-28T10:54:08Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "9876f333254fad5a0f3be7037abcfc6d3c7be5b5:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11939,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "9876f333254fad5a0f3be7037abcfc6d3c7be5b5",
+    "author": "ChethanT",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 650391 subcontracting show subcontracting transfer quantities"
+  }
+}

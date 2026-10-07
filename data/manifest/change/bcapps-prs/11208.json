@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/11208",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Master]-Purchase invoice lines of type G/L Account where enabling 'Prices Including VAT' and changing the VAT Prod. Posting Group causes recalculation of the Direct Unit Cost Incl. VAT and Line Amount - Related to Bug  632380",
+  "url": "https://github.com/microsoft/BCApps/pull/11208",
+  "published_at": "2026-09-14T19:23:22Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "6d571665cf14641c951ed1e79cf35674333c0efd:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11208,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "6d571665cf14641c951ed1e79cf35674333c0efd",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "master purchase invoice lines of type g l account where enabling prices including vat and changing the vat prod posting group causes recalculation of the direct unit cost incl vat and line amount related to bug 632380"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/9310",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "SOA: Open Item Availability from Agent panel",
+  "url": "https://github.com/microsoft/BCApps/pull/9310",
+  "published_at": "2026-08-24T19:56:21Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "a5a72ac7a0bb41af62bbbfe83e1ed92b156bae21:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9310,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "a5a72ac7a0bb41af62bbbfe83e1ed92b156bae21",
+    "author": "VolodySyn",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "soa open item availability from agent panel"
+  }
+}

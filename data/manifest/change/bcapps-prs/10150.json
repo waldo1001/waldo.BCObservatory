@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/10150",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Bug 617189] Clarify strict expiration posting tooltip",
+  "url": "https://github.com/microsoft/BCApps/pull/10150",
+  "published_at": "2026-08-12T15:05:42Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "a46b483fdacd6b748e33f153f1a36ea1b2ee7a17:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10150,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "a46b483fdacd6b748e33f153f1a36ea1b2ee7a17",
+    "author": "PredragMaricic",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 617189 clarify strict expiration posting tooltip"
+  }
+}

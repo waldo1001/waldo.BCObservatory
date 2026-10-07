@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/10134",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Bug 646487] Composite layout: focus fix, body-layout gating, and setup UI",
+  "url": "https://github.com/microsoft/BCApps/pull/10134",
+  "published_at": "2026-08-21T09:33:45Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "28e273ddbd161a8d9ff56884f0604876585aa8a6:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10134,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "28e273ddbd161a8d9ff56884f0604876585aa8a6",
+    "author": "v-mortenr",
+    "author_type": "User",
+    "labels": [
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 646487 composite layout focus fix body layout gating and setup ui"
+  }
+}

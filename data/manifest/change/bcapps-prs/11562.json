@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/11562",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Main] [ALL-E] Sales Line Discount % accepts 5 decimal places through Configuration Package import but rejects manual entry beyond 2 decimal places.Initial Commit",
+  "url": "https://github.com/microsoft/BCApps/pull/11562",
+  "published_at": "2026-09-21T13:48:14Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "5fff78ab6ef2e3f3cbfb7910bc1c289dd4662c24:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11562,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "5fff78ab6ef2e3f3cbfb7910bc1c289dd4662c24",
+    "author": "Shikhverma",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "all e sales line discount accepts 5 decimal places through configuration package import but rejects manual entry beyond 2 decimal places initial commit"
+  }
+}

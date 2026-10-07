@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/10183",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Bug 646432: [master] [Sustainability] Line does not indicate/enforce which Calculation Foundation is in use; all formula input fields are editable",
+  "url": "https://github.com/microsoft/BCApps/pull/10183",
+  "published_at": "2026-08-21T12:28:51Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "a6cba404f10ab9ca97b896450c4e6c11ebe0892f:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10183,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "a6cba404f10ab9ca97b896450c4e6c11ebe0892f",
+    "author": "AleksanderGladkov",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 646432 master sustainability line does not indicate enforce which calculation foundation is in use all formula input fields are editable"
+  }
+}

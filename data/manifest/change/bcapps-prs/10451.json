@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/10451",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Bug 647233] Fix User Confirmed copied into Canceled when posting expense report lines",
+  "url": "https://github.com/microsoft/BCApps/pull/10451",
+  "published_at": "2026-08-24T19:56:21Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "34769a41b641034a23f3d0751251933b58bc691c:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10451,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "34769a41b641034a23f3d0751251933b58bc691c",
+    "author": "v-rohangarg20",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 647233 fix user confirmed copied into canceled when posting expense report lines"
+  }
+}

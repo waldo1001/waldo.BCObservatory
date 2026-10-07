@@ -1,0 +1,258 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11560,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11560",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-07T12:12:37Z",
+  "merge_commit_sha": "9a6e7298a78d8ad9b4ff5f3ae9881c433d058083",
+  "author": "jzaksauskas",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "AL: Apps (W1)",
+    "From Fork",
+    "Team: Integrations"
+  ],
+  "community_contribution": true,
+  "title": "[E-Documents Core] [Peppol] - Enabling EDI capabilities with E-Documents. Send path (Self-Billed Purchase Invoice/Credit Memo → E-Document)",
+  "body_hash": "0934a5493ff24e2d7982504c8b907609876ccb9d31f7da0815c370af0479551b",
+  "fixes_issues": [],
+  "work_items": [
+    580429
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Document/EDocumentType.Enum.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Extensions/EDocPostedPurchCrMemo.PageExt.al",
+      "status": "modified",
+      "additions": 28,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Extensions/EDocPostedPurchInv.PageExt.al",
+      "status": "modified",
+      "additions": 28,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Format/EDocPEPPOLBIS30.Codeunit.al",
+      "status": "modified",
+      "additions": 53,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/EDocExport.Codeunit.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/EDocumentProcessing.Codeunit.al",
+      "status": "modified",
+      "additions": 21,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/EDocumentSubscribers.Codeunit.al",
+      "status": "modified",
+      "additions": 59,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/Test/src/Processing/EDocSelfBillingTest.Codeunit.al",
+      "status": "added",
+      "additions": 348,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/Test/src/Service/EDocServSuppTypeTest.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/PEPPOL/App/src/Common/PEPPOL30.Codeunit.al",
+      "status": "modified",
+      "additions": 70,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PEPPOL/App/src/Common/PEPPOL30Common.Codeunit.al",
+      "status": "modified",
+      "additions": 145,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PEPPOL/App/src/Common/PEPPOL30Impl.Codeunit.al",
+      "status": "modified",
+      "additions": 113,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PEPPOL/App/src/Purchases/ExportSelfBilledPEPPOL30.Codeunit.al",
+      "status": "added",
+      "additions": 655,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 13,
+    "additions": 1544,
+    "deletions": 11,
+    "al": 11
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Document/EDocumentType.Enum.al",
+        "status": "modified",
+        "key": "enum/6121",
+        "type": "enum",
+        "id": 6121,
+        "name": "E-Document Type",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "enum/6121"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Extensions/EDocPostedPurchCrMemo.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/6147",
+        "type": "pageextension",
+        "id": 6147,
+        "name": "E-Doc. Posted Purch. Cr. Memo",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "pageextension/6147"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Extensions/EDocPostedPurchInv.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/6146",
+        "type": "pageextension",
+        "id": 6146,
+        "name": "E-Doc. Posted Purch. Inv.",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "pageextension/6146"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Format/EDocPEPPOLBIS30.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6165",
+        "type": "codeunit",
+        "id": 6165,
+        "name": "EDoc PEPPOL BIS 3.0",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "codeunit/6165"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/EDocExport.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6102",
+        "type": "codeunit",
+        "id": 6102,
+        "name": "E-Doc. Export",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "codeunit/6102"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/EDocumentProcessing.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6108",
+        "type": "codeunit",
+        "id": 6108,
+        "name": "E-Document Processing",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "codeunit/6108"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/EDocumentSubscribers.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6103",
+        "type": "codeunit",
+        "id": 6103,
+        "name": "E-Document Subscribers",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "codeunit/6103"
+      },
+      {
+        "path": "src/Apps/W1/PEPPOL/App/src/Common/PEPPOL30.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/37200",
+        "type": "codeunit",
+        "id": 37200,
+        "name": "PEPPOL30",
+        "app": "PEPPOL",
+        "cc": "w1",
+        "page": "codeunit/37200"
+      },
+      {
+        "path": "src/Apps/W1/PEPPOL/App/src/Common/PEPPOL30Common.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/37218",
+        "type": "codeunit",
+        "id": 37218,
+        "name": "PEPPOL30 Common",
+        "app": "PEPPOL",
+        "cc": "w1",
+        "page": "codeunit/37218"
+      },
+      {
+        "path": "src/Apps/W1/PEPPOL/App/src/Common/PEPPOL30Impl.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/37201",
+        "type": "codeunit",
+        "id": 37201,
+        "name": "PEPPOL30 Impl.",
+        "app": "PEPPOL",
+        "cc": "w1",
+        "page": "codeunit/37201"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Apps/W1/PEPPOL/App/src/Purchases/ExportSelfBilledPEPPOL30.Codeunit.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "integration",
+    "development",
+    "purchasing"
+  ],
+  "apps": [
+    "EDocument",
+    "PEPPOL"
+  ]
+}

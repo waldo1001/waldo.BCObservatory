@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/9646",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Bug]: [DE] XRechnung/ZUGFeRD — no posting-time error when SELLER CONTACT (BG-6) source data is incomplete, producing non-compliant e-invoices",
+  "url": "https://github.com/microsoft/BCApps/pull/9646",
+  "published_at": "2026-09-22T02:10:05Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "c14b01a26de3b5e9397d941e2463429eeca206d3:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9646,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "c14b01a26de3b5e9397d941e2463429eeca206d3",
+    "author": "miljance",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "From Fork",
+      "Team: Finance"
+    ],
+    "community_contribution": true,
+    "title_key": "bug de xrechnung zugferd no posting time error when seller contact bg 6 source data is incomplete producing non compliant e invoices"
+  }
+}

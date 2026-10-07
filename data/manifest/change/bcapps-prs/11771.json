@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/11771",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Fix Document Exchange mock test SaaS state leak",
+  "url": "https://github.com/microsoft/BCApps/pull/11771",
+  "published_at": "2026-09-23T22:46:54Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "5194f4c881823b210ecb615e8f565fbbd177f16c:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11771,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "5194f4c881823b210ecb615e8f565fbbd177f16c",
+    "author": "onbuyuka",
+    "author_type": "User",
+    "labels": [
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "fix document exchange mock test saas state leak"
+  }
+}

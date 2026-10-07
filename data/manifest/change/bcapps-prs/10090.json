@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/10090",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Bank Acc. Reconciliation with Copilot] Read the functional part of the prompt from .resources and safety clause from Key Vault",
+  "url": "https://github.com/microsoft/BCApps/pull/10090",
+  "published_at": "2026-08-11T09:56:43Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "771a1ddfb6be63c69a43466028d1d894b5c42042:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10090,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "771a1ddfb6be63c69a43466028d1d894b5c42042",
+    "author": "dcenic",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "bank acc reconciliation with copilot read the functional part of the prompt from resources and safety clause from key vault"
+  }
+}

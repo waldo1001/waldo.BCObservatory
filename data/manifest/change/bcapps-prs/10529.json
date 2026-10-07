@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/10529",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Main] - Batch printing Posted Sales Shipments with \"Show Serial/Lot Number Appendix\" mixes lot information between documents",
+  "url": "https://github.com/microsoft/BCApps/pull/10529",
+  "published_at": "2026-08-27T16:42:49Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "d722dc3bca55c641505744e11314bdfaf2392027:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10529,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "d722dc3bca55c641505744e11314bdfaf2392027",
+    "author": "DeepsShukla",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "batch printing posted sales shipments with show serial lot number appendix mixes lot information between documents"
+  }
+}

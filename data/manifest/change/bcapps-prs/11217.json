@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/11217",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Master] - Slice 641591: EUDR Certificate Capture for Items",
+  "url": "https://github.com/microsoft/BCApps/pull/11217",
+  "published_at": "2026-09-15T19:08:42Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "e15e3ca4aa37959ae7f00dacfde1128bf45b61d0:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11217,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "e15e3ca4aa37959ae7f00dacfde1128bf45b61d0",
+    "author": "v-rohangarg20",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Ownership: Manual",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "master slice 641591 eudr certificate capture for items"
+  }
+}

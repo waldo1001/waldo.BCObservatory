@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/9273",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Extend Contoso Mfg shop calendar range to cover next-year due dates",
+  "url": "https://github.com/microsoft/BCApps/pull/9273",
+  "published_at": "2026-08-20T14:57:23Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "314db570eca92631a89726979c0165e262bef5f3:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9273,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "314db570eca92631a89726979c0165e262bef5f3",
+    "author": "attilatoury",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "extend contoso mfg shop calendar range to cover next year due dates"
+  }
+}

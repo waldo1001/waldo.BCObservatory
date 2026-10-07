@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/10485",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Add extensibility request implementation workflow",
+  "url": "https://github.com/microsoft/BCApps/pull/10485",
+  "published_at": "2026-08-28T13:02:34Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "d79d03ec66fe20e7ff255d2904de3659f9f9a9f3:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10485,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "d79d03ec66fe20e7ff255d2904de3659f9f9a9f3",
+    "author": "AleksandricMarko",
+    "author_type": "User",
+    "labels": [
+      "Build: Automation",
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": false,
+    "title_key": "add extensibility request implementation workflow"
+  }
+}

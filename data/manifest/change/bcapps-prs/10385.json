@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/10385",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Route Expense Agent ownership to Finance",
+  "url": "https://github.com/microsoft/BCApps/pull/10385",
+  "published_at": "2026-08-19T14:57:59Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "f1a345671b71300e2fd0cd5b9c2001303af2daae:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10385,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "f1a345671b71300e2fd0cd5b9c2001303af2daae",
+    "author": "t-prda",
+    "author_type": "User",
+    "labels": [
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": false,
+    "title_key": "route expense agent ownership to finance"
+  }
+}

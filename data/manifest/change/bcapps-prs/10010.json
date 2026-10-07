@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/10010",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Add Report Inbox API pages for automated report retrieval",
+  "url": "https://github.com/microsoft/BCApps/pull/10010",
+  "published_at": "2026-08-21T13:49:50Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "d1d057ec261e2c16c574bd9733740586e83a7802:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10010,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "d1d057ec261e2c16c574bd9733740586e83a7802",
+    "author": "anordmann",
+    "author_type": "User",
+    "labels": [
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "add report inbox api pages for automated report retrieval"
+  }
+}

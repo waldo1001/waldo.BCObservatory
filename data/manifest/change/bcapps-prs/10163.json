@@ -1,0 +1,36 @@
+{
+  "id": "change/bcapps-prs/10163",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "All emails in folder were processed at first activation",
+  "url": "https://github.com/microsoft/BCApps/pull/10163",
+  "published_at": "2026-08-13T08:27:29Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "772b078dcefdab7d677208e964589f6fb4393805:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10163,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "772b078dcefdab7d677208e964589f6fb4393805",
+    "author": "mynjj",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Ownership: Manual",
+      "Ownership: Needs Review",
+      "Team: Finance",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "all emails in folder were processed at first activation"
+  }
+}

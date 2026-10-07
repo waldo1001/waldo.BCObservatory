@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/11950",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Adding an in-product email storage cleanup (backport to releases/29.x)",
+  "url": "https://github.com/microsoft/BCApps/pull/11950",
+  "published_at": "2026-09-28T15:12:47Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "aa361f9b208c1345ec2811d20972d4610bfe2d06:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11950,
+    "repo": "microsoft/BCApps",
+    "base": "releases/29.x",
+    "major": "29",
+    "merge_commit_sha": "aa361f9b208c1345ec2811d20972d4610bfe2d06",
+    "author": "mynjj",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "adding an in product email storage cleanup backport to releases 29 x"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9014",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[E-Document] Remove Access = Internal from E-Doc. Data Exchange Impl. codeunit",
+  "url": "https://github.com/microsoft/BCApps/pull/9014",
+  "published_at": "2026-07-14T13:43:47Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "0767f9dae6b75ecbb693e688b29e6e0d70dc6a11:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9014,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "0767f9dae6b75ecbb693e688b29e6e0d70dc6a11",
+    "author": "Groenbech96",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)"
+    ],
+    "community_contribution": false,
+    "title_key": "e document remove access internal from e doc data exchange impl codeunit"
+  }
+}

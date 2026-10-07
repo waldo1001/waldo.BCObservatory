@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/11494",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Unblock BCApps uptake by fixing InterCompany tests",
+  "url": "https://github.com/microsoft/BCApps/pull/11494",
+  "published_at": "2026-09-17T11:58:31Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "8f7a04cb0db8aa96cb97e055c45c61aead49e280:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11494,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "8f7a04cb0db8aa96cb97e055c45c61aead49e280",
+    "author": "dcenic",
+    "author_type": "User",
+    "labels": [
+      "SCM",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "unblock bcapps uptake by fixing intercompany tests"
+  }
+}

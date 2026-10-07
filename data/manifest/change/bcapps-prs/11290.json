@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/11290",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Bug 640454] Scope Expense Agent Entra permissions by company",
+  "url": "https://github.com/microsoft/BCApps/pull/11290",
+  "published_at": "2026-09-18T10:51:02Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "38c6e939f9314d2acbbf2c31ef79b3946635820c:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11290,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "38c6e939f9314d2acbbf2c31ef79b3946635820c",
+    "author": "t-prda",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "ExpenseManagement",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 640454 scope expense agent entra permissions by company"
+  }
+}

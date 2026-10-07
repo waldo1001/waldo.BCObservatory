@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/10376",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Main] Fix unbalanced G/L when a Credit Memo is applied to a rejected/redraw…",
+  "url": "https://github.com/microsoft/BCApps/pull/10376",
+  "published_at": "2026-08-27T21:51:00Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "dd61f9a59abb5d965451d39d1511933926e50b37:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10376,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "dd61f9a59abb5d965451d39d1511933926e50b37",
+    "author": "Shikhverma",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "fix unbalanced g l when a credit memo is applied to a rejected redraw"
+  }
+}

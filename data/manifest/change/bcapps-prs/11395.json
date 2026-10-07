@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/11395",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Main]- Reminder Automation Tests.TestReminderAutomationLogsInteractionWithIssuedReminderNumber fails (IT + CZ)",
+  "url": "https://github.com/microsoft/BCApps/pull/11395",
+  "published_at": "2026-09-15T10:18:53Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "aa43aacc86ce7a2649985e09e0b698b53f48a4b7:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11395,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "aa43aacc86ce7a2649985e09e0b698b53f48a4b7",
+    "author": "DeepsShukla",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "reminder automation tests testreminderautomationlogsinteractionwithissuedremindernumber fails it cz"
+  }
+}

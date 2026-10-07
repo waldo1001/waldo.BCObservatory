@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/9599",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Add event subscriber for OpenPermissionSetPage",
+  "url": "https://github.com/microsoft/BCApps/pull/9599",
+  "published_at": "2026-07-28T09:58:52Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "60127ede979389f4ecd0fd7fd603a27d92c496c3:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9599,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "60127ede979389f4ecd0fd7fd603a27d92c496c3",
+    "author": "mbaranovych",
+    "author_type": "User",
+    "labels": [
+      "AL: System Application",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "add event subscriber for openpermissionsetpage"
+  }
+}

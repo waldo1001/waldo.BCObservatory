@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/9952",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Show address lines 1-3 in address lookup display text",
+  "url": "https://github.com/microsoft/BCApps/pull/9952",
+  "published_at": "2026-08-05T21:18:39Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "1afea9da1fb05dcb065f9eb017b312d616de9af8:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9952,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "1afea9da1fb05dcb065f9eb017b312d616de9af8",
+    "author": "mfilip",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "From Fork",
+      "Team: Integrations"
+    ],
+    "community_contribution": true,
+    "title_key": "show address lines 1 3 in address lookup display text"
+  }
+}

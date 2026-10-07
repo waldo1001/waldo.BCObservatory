@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/9178",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Standard/Evaluation DemoTool smoke test in Legacy CI",
+  "url": "https://github.com/microsoft/BCApps/pull/9178",
+  "published_at": "2026-07-10T00:04:33Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "0f1813f832f47b66b4c0a78381cceeeedd58f6f0:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9178,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "0f1813f832f47b66b4c0a78381cceeeedd58f6f0",
+    "author": "aholstrup1",
+    "author_type": "User",
+    "labels": [
+      "Build: Automation",
+      "Build: scripts & configs"
+    ],
+    "community_contribution": false,
+    "title_key": "standard evaluation demotool smoke test in legacy ci"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/9276",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Add second subcontractor (Local Assembly) to Contoso Coffee manufacturing demo data",
+  "url": "https://github.com/microsoft/BCApps/pull/9276",
+  "published_at": "2026-08-13T08:51:58Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "0fc451e107e2d497a142f5fb877df2d91fdb6bd5:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9276,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "0fc451e107e2d497a142f5fb877df2d91fdb6bd5",
+    "author": "attilatoury",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "add second subcontractor local assembly to contoso coffee manufacturing demo data"
+  }
+}

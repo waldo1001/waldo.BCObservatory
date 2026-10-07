@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/9483",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "MaxLength=30 for updated and new currencies",
+  "url": "https://github.com/microsoft/BCApps/pull/9483",
+  "published_at": "2026-07-16T18:36:52Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "55716136a1652d509cd8fe99eedf1659256753c0:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9483,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "55716136a1652d509cd8fe99eedf1659256753c0",
+    "author": "mirouhl",
+    "author_type": "User",
+    "labels": [
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": false,
+    "title_key": "maxlength 30 for updated and new currencies"
+  }
+}

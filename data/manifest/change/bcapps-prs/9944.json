@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/9944",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Remove Engineering Systems as owner of app.json in CODEOWNERS",
+  "url": "https://github.com/microsoft/BCApps/pull/9944",
+  "published_at": "2026-08-05T12:50:49Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "b59545602a59814eef7147afdea62766b857e1f6:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9944,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "b59545602a59814eef7147afdea62766b857e1f6",
+    "author": "aholstrup1",
+    "author_type": "User",
+    "labels": [
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": false,
+    "title_key": "remove engineering systems as owner of app json in codeowners"
+  }
+}

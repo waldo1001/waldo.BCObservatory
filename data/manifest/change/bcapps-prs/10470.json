@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/10470",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Restore AL0424 to Warning in the base ruleset",
+  "url": "https://github.com/microsoft/BCApps/pull/10470",
+  "published_at": "2026-08-21T07:01:41Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "aa44cfcfe4cb7b1db94285c365f22a8f44aae2c3:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10470,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "aa44cfcfe4cb7b1db94285c365f22a8f44aae2c3",
+    "author": "aholstrup1",
+    "author_type": "User",
+    "labels": [
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": false,
+    "title_key": "restore al0424 to warning in the base ruleset"
+  }
+}

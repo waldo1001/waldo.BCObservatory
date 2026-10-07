@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/9750",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Subcontracting] Bug 642535: Add mixed receive-only warehouse receipt test",
+  "url": "https://github.com/microsoft/BCApps/pull/9750",
+  "published_at": "2026-07-29T10:03:17Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "0026f4de1fe8091c9a621c66a8869a2e68d388c2:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9750,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "0026f4de1fe8091c9a621c66a8869a2e68d388c2",
+    "author": "ChethanT",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Subcontracting",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "subcontracting bug 642535 add mixed receive only warehouse receipt test"
+  }
+}

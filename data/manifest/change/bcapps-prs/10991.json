@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/10991",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Main]Cannot Rename User Due to Financial Report Audit Log Permissions - Copy",
+  "url": "https://github.com/microsoft/BCApps/pull/10991",
+  "published_at": "2026-09-08T08:52:55Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "98e14d825ac3bf67d2f19e1275ace76b5cf7cef2:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10991,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "98e14d825ac3bf67d2f19e1275ace76b5cf7cef2",
+    "author": "sanjmaurya",
+    "author_type": "User",
+    "labels": [
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "cannot rename user due to financial report audit log permissions copy"
+  }
+}

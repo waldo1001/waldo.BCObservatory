@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/11036",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Ruleset hardening: promote four compatibility rules to Error",
+  "url": "https://github.com/microsoft/BCApps/pull/11036",
+  "published_at": "2026-09-07T14:25:42Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "3f8e11d3ab29b343f220d22d561f7e8363549f60:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11036,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "3f8e11d3ab29b343f220d22d561f7e8363549f60",
+    "author": "JesperSchulz",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": false,
+    "title_key": "ruleset hardening promote four compatibility rules to error"
+  }
+}

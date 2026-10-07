@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/9787",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Subcontracting] Added actionable notification when a vendor does not have a subcontracting location code",
+  "url": "https://github.com/microsoft/BCApps/pull/9787",
+  "published_at": "2026-08-04T15:13:44Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "64a8b22f3a3c399f3c6e391b2790b6b14359fb1a:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9787,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "64a8b22f3a3c399f3c6e391b2790b6b14359fb1a",
+    "author": "6CRIPT",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Subcontracting",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "subcontracting added actionable notification when a vendor does not have a subcontracting location code"
+  }
+}

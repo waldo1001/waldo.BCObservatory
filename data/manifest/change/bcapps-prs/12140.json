@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/12140",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Email - SMTP Connector] Fix OAuth Base64URL token parsing",
+  "url": "https://github.com/microsoft/BCApps/pull/12140",
+  "published_at": "2026-10-01T16:25:47Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "9e22089048684b3971d19dc52ab89d8fae4345af:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12140,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "9e22089048684b3971d19dc52ab89d8fae4345af",
+    "author": "onbuyuka",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "email smtp connector fix oauth base64url token parsing"
+  }
+}

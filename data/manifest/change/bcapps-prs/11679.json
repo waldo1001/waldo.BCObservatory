@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/11679",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[29.x][Subscription Billing] 1M 'Align to End of Month' line with end date produces a 1-day prorated stub",
+  "url": "https://github.com/microsoft/BCApps/pull/11679",
+  "published_at": "2026-09-22T10:50:47Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "a79cd186c7a13f034c5a686bfc6566deaca3ca6f:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11679,
+    "repo": "microsoft/BCApps",
+    "base": "releases/29.x",
+    "major": "29",
+    "merge_commit_sha": "a79cd186c7a13f034c5a686bfc6566deaca3ca6f",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "subscription billing 1m align to end of month line with end date produces a 1 day prorated stub"
+  }
+}

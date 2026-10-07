@@ -1,0 +1,36 @@
+{
+  "id": "change/bcapps-prs/10235",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Bug][SubscriptionBilling] Enforce Subscription Line Start Date change rules on all edit paths",
+  "url": "https://github.com/microsoft/BCApps/pull/10235",
+  "published_at": "2026-08-29T15:19:16Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "6baee5c898ef00cee09ab6c21c1360a166f7ec60:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10235,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "6baee5c898ef00cee09ab6c21c1360a166f7ec60",
+    "author": "miljance",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "AL: Apps (W1)",
+      "From Fork",
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": true,
+    "title_key": "bug subscriptionbilling enforce subscription line start date change rules on all edit paths"
+  }
+}

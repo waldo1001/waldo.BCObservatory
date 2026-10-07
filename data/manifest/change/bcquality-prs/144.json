@@ -1,0 +1,30 @@
+{
+  "id": "change/bcquality-prs/144",
+  "pillar": "change",
+  "source": "bcquality-prs",
+  "tier": "official",
+  "title": "Avoid Public Event publisher",
+  "url": "https://github.com/microsoft/BCQuality/pull/144",
+  "published_at": "2026-09-02T14:07:18Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "82422f94c9f4307ef2b8d5f1d66ba70c4115ae52:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 144,
+    "repo": "microsoft/BCQuality",
+    "base": "main",
+    "major": null,
+    "merge_commit_sha": "82422f94c9f4307ef2b8d5f1d66ba70c4115ae52",
+    "author": "pri-kise",
+    "author_type": "User",
+    "labels": [],
+    "community_contribution": false,
+    "title_key": "avoid public event publisher"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "change/bcquality-prs/215",
+  "pillar": "change",
+  "source": "bcquality-prs",
+  "tier": "official",
+  "title": "knowledge(performance): grouped query (Count + ColumnFilter = HAVING) for distinct values and duplicates",
+  "url": "https://github.com/microsoft/BCQuality/pull/215",
+  "published_at": "2026-10-05T12:59:16Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "4405c97c579f2d8c04b0d87f4cc0df25de161a96:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 215,
+    "repo": "microsoft/BCQuality",
+    "base": "main",
+    "major": null,
+    "merge_commit_sha": "4405c97c579f2d8c04b0d87f4cc0df25de161a96",
+    "author": "MichaelDieringer",
+    "author_type": "User",
+    "labels": [],
+    "community_contribution": false,
+    "title_key": "knowledge performance grouped query count columnfilter having for distinct values and duplicates"
+  }
+}

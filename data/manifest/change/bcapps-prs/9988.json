@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/9988",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Expense Agent] Fix Employee subscriber permissions",
+  "url": "https://github.com/microsoft/BCApps/pull/9988",
+  "published_at": "2026-08-13T16:08:55Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "c75d0c73e63e26f9aaa9d43b2392aa5d0e826dec:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9988,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "c75d0c73e63e26f9aaa9d43b2392aa5d0e826dec",
+    "author": "t-prda",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "expense agent fix employee subscriber permissions"
+  }
+}

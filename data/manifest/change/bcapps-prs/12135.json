@@ -1,0 +1,60 @@
+{
+  "id": "change/bcapps-prs/12135",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Fix Reverse Charge VAT upgrade migration",
+  "url": "https://github.com/microsoft/BCApps/pull/12135",
+  "published_at": "2026-10-06T21:39:16Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:55:37.123Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 0,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-10-07T12:55:42.206Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003466
+    },
+    "linked": {
+      "at": "2026-10-07T12:55:42.385Z",
+      "objects": 0,
+      "unjoined": 1,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T12:55:42.392Z",
+      "path": "content/changes/bcapps/12135.md"
+    }
+  },
+  "input_hash": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12135,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "author": "ventselartur",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "fix reverse charge vat upgrade migration"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a2594cf4fc1d21ccee335db64c1fd369fed4e2ddb6d60e5bcddce357b17ee803"
+}

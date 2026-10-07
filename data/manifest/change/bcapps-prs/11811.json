@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/11811",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Main] - BCApps uptake: Non Ded. VAT Misc. (134284) VAT Identifier validation tests fail",
+  "url": "https://github.com/microsoft/BCApps/pull/11811",
+  "published_at": "2026-09-24T12:32:26Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "6a06db3d5361d9e6802c374754391ac4266d5d34:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11811,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "6a06db3d5361d9e6802c374754391ac4266d5d34",
+    "author": "DhavalMore88",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "bcapps uptake non ded vat misc 134284 vat identifier validation tests fail"
+  }
+}

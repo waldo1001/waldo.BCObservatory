@@ -1,0 +1,58 @@
+{
+  "id": "change/al-go-prs/2395",
+  "pillar": "change",
+  "source": "al-go-prs",
+  "tier": "official",
+  "title": "Prevent workflow telemetry failures from failing the workflow",
+  "url": "https://github.com/microsoft/AL-Go/pull/2395",
+  "published_at": "2026-10-06T13:51:18Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:55:44.975Z",
+      "change_class": "code",
+      "files": 5,
+      "al": 2,
+      "objects": 0,
+      "unjoined": 2
+    },
+    "extracted": {
+      "at": "2026-10-07T12:55:50.162Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003448
+    },
+    "linked": {
+      "at": "2026-10-07T12:55:50.163Z",
+      "objects": 0,
+      "unjoined": 2,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-10-07T12:55:50.168Z",
+      "path": "content/changes/al-go/2395.md"
+    }
+  },
+  "input_hash": "ba1b347287092c9514d8ed4ed9501b8af339d1d6:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 2395,
+    "repo": "microsoft/AL-Go",
+    "base": "main",
+    "major": null,
+    "merge_commit_sha": "ba1b347287092c9514d8ed4ed9501b8af339d1d6",
+    "author": "aholstrup1",
+    "author_type": "User",
+    "labels": [],
+    "community_contribution": false,
+    "title_key": "prevent workflow telemetry failures from failing the workflow"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e65c75d1c7a67fa000567be2b7de6c8f29edfd3dad837f93a067960a36400a62"
+}

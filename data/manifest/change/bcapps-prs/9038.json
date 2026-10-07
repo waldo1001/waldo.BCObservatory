@@ -1,0 +1,30 @@
+{
+  "id": "change/bcapps-prs/9038",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[master][Bug]: Page 615 \"IC Inbox Transactions\".RunInboxTransactions",
+  "url": "https://github.com/microsoft/BCApps/pull/9038",
+  "published_at": "2026-07-15T08:13:57Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "1ab2acfc39f8926245a51c238329bbe30091e0ce:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9038,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "1ab2acfc39f8926245a51c238329bbe30091e0ce",
+    "author": "AndreasHans",
+    "author_type": "User",
+    "labels": [],
+    "community_contribution": false,
+    "title_key": "master bug page 615 ic inbox transactions runinboxtransactions"
+  }
+}

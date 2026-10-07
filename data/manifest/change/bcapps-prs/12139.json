@@ -1,0 +1,44 @@
+{
+  "id": "change/bcapps-prs/12139",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Shopify] Disable Create Sales Documents for empty order views",
+  "url": "https://github.com/microsoft/BCApps/pull/12139",
+  "published_at": "2026-10-06T12:12:22Z",
+  "state": "fetched",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:55:51.658Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    }
+  },
+  "input_hash": "ecfa968295f83ae4de06ef6591be8d7a35f9d5db:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12139,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "ecfa968295f83ae4de06ef6591be8d7a35f9d5db",
+    "author": "onbuyuka",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "shopify disable create sales documents for empty order views"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "353e12ffa5294b22b089de7857c38f462f54013454d2b2cc3167e5113f42346a"
+}

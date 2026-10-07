@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/11667",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Fix quantity fields on Sales Return Order Archive",
+  "url": "https://github.com/microsoft/BCApps/pull/11667",
+  "published_at": "2026-09-28T10:16:24Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "7c5dfb36e6d606fb64e7a458d7fa7537a6c75299:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11667,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "7c5dfb36e6d606fb64e7a458d7fa7537a6c75299",
+    "author": "attilatoury",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "fix quantity fields on sales return order archive"
+  }
+}

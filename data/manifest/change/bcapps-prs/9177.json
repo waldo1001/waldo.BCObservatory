@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/9177",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[master] - Calculate Calendar reports missing from Work/Machine Center Cards and missing filter fields on request pages",
+  "url": "https://github.com/microsoft/BCApps/pull/9177",
+  "published_at": "2026-07-13T14:03:33Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "dc17377132f003fdbf6cc019778f3dbbbef5ac4f:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9177,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "dc17377132f003fdbf6cc019778f3dbbbef5ac4f",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "From Fork",
+      "Team: SCM"
+    ],
+    "community_contribution": true,
+    "title_key": "master calculate calendar reports missing from work machine center cards and missing filter fields on request pages"
+  }
+}

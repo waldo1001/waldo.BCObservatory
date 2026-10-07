@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/11680",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Miapp: honor PR target branch as VerifyMiappSync base when it exists",
+  "url": "https://github.com/microsoft/BCApps/pull/11680",
+  "published_at": "2026-09-22T14:19:46Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "309235d176fb3484796969419fd2b54f17352b36:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11680,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "309235d176fb3484796969419fd2b54f17352b36",
+    "author": "mazhelez",
+    "author_type": "User",
+    "labels": [
+      "Build: scripts & configs",
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": false,
+    "title_key": "miapp honor pr target branch as verifymiappsync base when it exists"
+  }
+}

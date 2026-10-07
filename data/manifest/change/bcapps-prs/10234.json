@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/10234",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Pin all actions that are not currently pinned- #2346",
+  "url": "https://github.com/microsoft/BCApps/pull/10234",
+  "published_at": "2026-08-14T09:11:22Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "67e801cef80908758c94f66ec86fa5deca6549e4:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10234,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "67e801cef80908758c94f66ec86fa5deca6549e4",
+    "author": "aholstrup1",
+    "author_type": "User",
+    "labels": [
+      "Build: Automation",
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": false,
+    "title_key": "pin all actions that are not currently pinned 2346"
+  }
+}

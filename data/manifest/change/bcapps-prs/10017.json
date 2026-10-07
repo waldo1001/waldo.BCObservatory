@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/10017",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Master] - Bug 644751 Moving an expense report line to another report wrongly reports a duplicate",
+  "url": "https://github.com/microsoft/BCApps/pull/10017",
+  "published_at": "2026-08-24T17:37:56Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "7e48d908c1870df6a3c1dbc1bb6246408b5b7474:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10017,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "7e48d908c1870df6a3c1dbc1bb6246408b5b7474",
+    "author": "v-rohangarg20",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "master bug 644751 moving an expense report line to another report wrongly reports a duplicate"
+  }
+}

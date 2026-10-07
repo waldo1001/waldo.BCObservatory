@@ -1,0 +1,36 @@
+{
+  "id": "change/bcapps-prs/8318",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "SharePoint Graph Module - extend functionality with additional methods",
+  "url": "https://github.com/microsoft/BCApps/pull/8318",
+  "published_at": "2026-08-17T14:12:36Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "7ababe1688c35d2dff2affdc554b921cb19f021c:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 8318,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "7ababe1688c35d2dff2affdc554b921cb19f021c",
+    "author": "Drakonian",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "AL: System Application",
+      "Approved",
+      "From Fork",
+      "Team: Integrations"
+    ],
+    "community_contribution": true,
+    "title_key": "sharepoint graph module extend functionality with additional methods"
+  }
+}

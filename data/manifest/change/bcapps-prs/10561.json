@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/10561",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Mileage Rate Setup",
+  "url": "https://github.com/microsoft/BCApps/pull/10561",
+  "published_at": "2026-08-27T18:05:28Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "02e4780c568f98804be46f0f4a106ce26e12162f:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10561,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "02e4780c568f98804be46f0f4a106ce26e12162f",
+    "author": "ViditGupta1277",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "mileage rate setup"
+  }
+}

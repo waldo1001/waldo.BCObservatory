@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9084",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Bug 640321: Blanket Purch. Order to Order drops extended text for later items",
+  "url": "https://github.com/microsoft/BCApps/pull/9084",
+  "published_at": "2026-07-09T12:27:45Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "a3196f625c7a132b53e8e2f5be357d37a8d421ce:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9084,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "a3196f625c7a132b53e8e2f5be357d37a8d421ce",
+    "author": "alexei-dobriansky",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 640321 blanket purch order to order drops extended text for later items"
+  }
+}

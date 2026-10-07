@@ -1,0 +1,30 @@
+{
+  "id": "change/al-go-prs/2327",
+  "pillar": "change",
+  "source": "al-go-prs",
+  "tier": "official",
+  "title": "Add doNotPerformUpgrade setting and enhance upgrade warning messages",
+  "url": "https://github.com/microsoft/AL-Go/pull/2327",
+  "published_at": "2026-07-27T11:31:00Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "3017d1d62fe1ec5e38dd3db027d0eff6c0e030f2:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 2327,
+    "repo": "microsoft/AL-Go",
+    "base": "main",
+    "major": null,
+    "merge_commit_sha": "3017d1d62fe1ec5e38dd3db027d0eff6c0e030f2",
+    "author": "ChrisBlankDe",
+    "author_type": "User",
+    "labels": [],
+    "community_contribution": false,
+    "title_key": "add donotperformupgrade setting and enhance upgrade warning messages"
+  }
+}

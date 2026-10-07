@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/11906",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Main]-Incident 51000001968459: Issue while creating any import purchase invoice",
+  "url": "https://github.com/microsoft/BCApps/pull/11906",
+  "published_at": "2026-09-26T23:44:03Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "777e102e90a078b7256bf94b065ba50089abafa9:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11906,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "777e102e90a078b7256bf94b065ba50089abafa9",
+    "author": "v-ajaztabrez",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "incident 51000001968459 issue while creating any import purchase invoice"
+  }
+}

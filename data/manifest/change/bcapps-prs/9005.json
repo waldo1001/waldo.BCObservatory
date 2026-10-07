@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9005",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "(Bug 641089) Guard Item Ledger/Value Entry No. allocation in Item Jnl.-Post Line with CommitBehavior::Ignore",
+  "url": "https://github.com/microsoft/BCApps/pull/9005",
+  "published_at": "2026-07-09T14:04:10Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "c8e36d6d4df48750cfcf93c3f0530e5f33eb36c9:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9005,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "c8e36d6d4df48750cfcf93c3f0530e5f33eb36c9",
+    "author": "alexei-dobriansky",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 641089 guard item ledger value entry no allocation in item jnl post line with commitbehavior ignore"
+  }
+}

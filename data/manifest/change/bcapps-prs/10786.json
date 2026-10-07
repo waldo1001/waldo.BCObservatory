@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/10786",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Shopify] Stabilize multiple-location shipping test",
+  "url": "https://github.com/microsoft/BCApps/pull/10786",
+  "published_at": "2026-09-03T00:37:10Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "07340cd1298705e29cdce8943b450327363c19d3:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10786,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "07340cd1298705e29cdce8943b450327363c19d3",
+    "author": "onbuyuka",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "shopify stabilize multiple location shipping test"
+  }
+}

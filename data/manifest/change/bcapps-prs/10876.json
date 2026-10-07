@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/10876",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[29.x]When Intrastat line is added manually the \"Intrastat Country/Region Code\" is not automatically populated after adding the \"Country/Region Code\"",
+  "url": "https://github.com/microsoft/BCApps/pull/10876",
+  "published_at": "2026-09-02T16:35:45Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "6ee72dd0db1499045c28d005404243f84cb71a33:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10876,
+    "repo": "microsoft/BCApps",
+    "base": "releases/29.x",
+    "major": "29",
+    "merge_commit_sha": "6ee72dd0db1499045c28d005404243f84cb71a33",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "when intrastat line is added manually the intrastat country region code is not automatically populated after adding the country region code"
+  }
+}

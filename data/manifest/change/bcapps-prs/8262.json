@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/8262",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Bug 635880: Re-enable PEPPOL DE service invoice/cr.memo tests",
+  "url": "https://github.com/microsoft/BCApps/pull/8262",
+  "published_at": "2026-07-14T13:38:08Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "f342a336ebe293d3627f9e9d5bc643a9c5b27564:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 8262,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "f342a336ebe293d3627f9e9d5bc643a9c5b27564",
+    "author": "Groenbech96",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 635880 re enable peppol de service invoice cr memo tests"
+  }
+}

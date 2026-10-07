@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/10763",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "SOA uses Earliest Shipment Date on quote lines",
+  "url": "https://github.com/microsoft/BCApps/pull/10763",
+  "published_at": "2026-08-30T10:19:06Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "b567da98d795f311e8fd2abc5b76942656e2007e:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10763,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "b567da98d795f311e8fd2abc5b76942656e2007e",
+    "author": "VolodySyn",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "soa uses earliest shipment date on quote lines"
+  }
+}

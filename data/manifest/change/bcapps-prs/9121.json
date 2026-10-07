@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/9121",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Subcontracting] Bug 641405: Production Order actions in ILE page not clickable for transfer lines",
+  "url": "https://github.com/microsoft/BCApps/pull/9121",
+  "published_at": "2026-07-09T13:51:39Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "3a179e668a0f6256c0a45506b487fc803b951e4a:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9121,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "3a179e668a0f6256c0a45506b487fc803b951e4a",
+    "author": "alexei-dobriansky",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Subcontracting",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "subcontracting bug 641405 production order actions in ile page not clickable for transfer lines"
+  }
+}

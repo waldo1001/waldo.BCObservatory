@@ -1,0 +1,30 @@
+{
+  "id": "change/al-go-prs/2376",
+  "pillar": "change",
+  "source": "al-go-prs",
+  "tier": "official",
+  "title": "fix: modified files with umlauts",
+  "url": "https://github.com/microsoft/AL-Go/pull/2376",
+  "published_at": "2026-09-21T14:10:56Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "f4387d14d67b25dee093a9bba6f09aea741c132e:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 2376,
+    "repo": "microsoft/AL-Go",
+    "base": "main",
+    "major": null,
+    "merge_commit_sha": "f4387d14d67b25dee093a9bba6f09aea741c132e",
+    "author": "OleWunschmann",
+    "author_type": "User",
+    "labels": [],
+    "community_contribution": false,
+    "title_key": "fix modified files with umlauts"
+  }
+}

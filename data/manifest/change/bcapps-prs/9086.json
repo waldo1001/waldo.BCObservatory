@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9086",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Bug 641085: Document Check factbox does not update live on Purchase Invoice/Cr.Memo/Return Order",
+  "url": "https://github.com/microsoft/BCApps/pull/9086",
+  "published_at": "2026-07-07T15:48:01Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "43a65ed2a938562b3183bdda74811c95100cefff:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9086,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "43a65ed2a938562b3183bdda74811c95100cefff",
+    "author": "alexei-dobriansky",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 641085 document check factbox does not update live on purchase invoice cr memo return order"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/10725",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Make Peppol BIS 3.0 FR Format public",
+  "url": "https://github.com/microsoft/BCApps/pull/10725",
+  "published_at": "2026-08-31T16:36:30Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "a29b9e34610b82e30695b4aa7f7c4c4b21faf807:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10725,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "a29b9e34610b82e30695b4aa7f7c4c4b21faf807",
+    "author": "djukicmilica",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "From Fork",
+      "Team: Finance"
+    ],
+    "community_contribution": true,
+    "title_key": "make peppol bis 3 0 fr format public"
+  }
+}

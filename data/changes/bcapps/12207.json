@@ -1,0 +1,199 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12207,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12207",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-07T11:29:33Z",
+  "merge_commit_sha": "2fe2c218e31eb055d1b7852482eafd6e68f2dbed",
+  "author": "onbuyuka",
+  "author_type": "User",
+  "labels": [
+    "AL: System Application",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "[MCP] Prepare Data Query Tools for billing",
+  "body_hash": "cef5e4c52e47230d5d32355f8df626692d4859524a57340963fb227c1e546a64",
+  "fixes_issues": [],
+  "work_items": [
+    652515
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/System Application/App/MCP/Permissions/MCPObjects.PermissionSet.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/MCP/src/Capability/MCPCopilotCapReg.Codeunit.al",
+      "status": "modified",
+      "additions": 18,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/MCP/src/Configuration/Codeunits/MCPConfig.Codeunit.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/MCP/src/Configuration/Codeunits/MCPConfigImplementation.Codeunit.al",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/MCP/src/Configuration/Codeunits/MCPUpgrade.Codeunit.al",
+      "status": "modified",
+      "additions": 49,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/MCP/src/Configuration/Enums/MCPServerFeature.Enum.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/MCP/src/Configuration/Pages/MCPBillingConfirmation.Page.al",
+      "status": "added",
+      "additions": 72,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/MCP/src/Configuration/Pages/MCPServerFeatureList.Page.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/Test Library/MCP/src/MCPConfigTestLibrary.Codeunit.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/System Application/Test/MCP/src/MCPConfigTest.Codeunit.al",
+      "status": "modified",
+      "additions": 57,
+      "deletions": 2,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 10,
+    "additions": 235,
+    "deletions": 8,
+    "al": 8
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/System Application/App/MCP/Permissions/MCPObjects.PermissionSet.al",
+        "status": "modified",
+        "key": "permissionset/8350",
+        "type": "permissionset",
+        "id": 8350,
+        "name": "MCP - Objects",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "permissionset/8350"
+      },
+      {
+        "path": "src/System Application/App/MCP/src/Capability/MCPCopilotCapReg.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/8358",
+        "type": "codeunit",
+        "id": 8358,
+        "name": "MCP Copilot Cap. Reg.",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "codeunit/8358"
+      },
+      {
+        "path": "src/System Application/App/MCP/src/Configuration/Codeunits/MCPConfig.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/8350",
+        "type": "codeunit",
+        "id": 8350,
+        "name": "MCP Config",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "codeunit/8350"
+      },
+      {
+        "path": "src/System Application/App/MCP/src/Configuration/Codeunits/MCPConfigImplementation.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/8351",
+        "type": "codeunit",
+        "id": 8351,
+        "name": "MCP Config Implementation",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "codeunit/8351"
+      },
+      {
+        "path": "src/System Application/App/MCP/src/Configuration/Codeunits/MCPUpgrade.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/8356",
+        "type": "codeunit",
+        "id": 8356,
+        "name": "MCP Upgrade",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "codeunit/8356"
+      },
+      {
+        "path": "src/System Application/App/MCP/src/Configuration/Enums/MCPServerFeature.Enum.al",
+        "status": "modified",
+        "key": "enum/8351",
+        "type": "enum",
+        "id": 8351,
+        "name": "MCP Server Feature",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "enum/8351"
+      },
+      {
+        "path": "src/System Application/App/MCP/src/Configuration/Pages/MCPServerFeatureList.Page.al",
+        "status": "modified",
+        "key": "page/8368",
+        "type": "page",
+        "id": 8368,
+        "name": "MCP Server Feature List",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "page/8368"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/System Application/App/MCP/src/Configuration/Pages/MCPBillingConfirmation.Page.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "System Application"
+  ]
+}

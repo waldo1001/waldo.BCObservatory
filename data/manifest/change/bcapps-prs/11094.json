@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/11094",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[FS] Prevent duplicate Field Service customer assets during item synchronization",
+  "url": "https://github.com/microsoft/BCApps/pull/11094",
+  "published_at": "2026-09-29T22:41:48Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "b3405069d90ad6bf233bc747f6e965668d2f5cc8:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11094,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "b3405069d90ad6bf233bc747f6e965668d2f5cc8",
+    "author": "tomasevicst",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "fs prevent duplicate field service customer assets during item synchronization"
+  }
+}

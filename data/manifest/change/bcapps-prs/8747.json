@@ -1,0 +1,36 @@
+{
+  "id": "change/bcapps-prs/8747",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Subcontracting] Disable \"WIP Item Transfer\" for Machine Center",
+  "url": "https://github.com/microsoft/BCApps/pull/8747",
+  "published_at": "2026-08-18T08:56:03Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "d3c87d334321c6403295cbdc062efaddd4526bd9:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 8747,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "d3c87d334321c6403295cbdc062efaddd4526bd9",
+    "author": "SPinkow",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "AL: Apps (W1)",
+      "From Fork",
+      "Subcontracting",
+      "Team: SCM"
+    ],
+    "community_contribution": true,
+    "title_key": "subcontracting disable wip item transfer for machine center"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/8905",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Master] Different source reference on reservation entries created directly from Job Planning Line and via a warehouse pick.",
+  "url": "https://github.com/microsoft/BCApps/pull/8905",
+  "published_at": "2026-07-17T06:13:03Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "3f6ddd39063492806cfe0697fac04f265df95f9e:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 8905,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "3f6ddd39063492806cfe0697fac04f265df95f9e",
+    "author": "Shikhverma",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "From Fork",
+      "Team: SCM"
+    ],
+    "community_contribution": true,
+    "title_key": "master different source reference on reservation entries created directly from job planning line and via a warehouse pick"
+  }
+}

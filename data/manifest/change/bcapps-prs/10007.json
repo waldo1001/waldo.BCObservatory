@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/10007",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[SOA] Ignore item availability when disabled",
+  "url": "https://github.com/microsoft/BCApps/pull/10007",
+  "published_at": "2026-08-10T19:11:44Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "4f0b77a3c1caf4e11d0b167869182a58b14b01cd:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10007,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "4f0b77a3c1caf4e11d0b167869182a58b14b01cd",
+    "author": "qasimikram",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "soa ignore item availability when disabled"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/8902",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Bug 639568: Scope Subc. PO component location check to current prod order line",
+  "url": "https://github.com/microsoft/BCApps/pull/8902",
+  "published_at": "2026-07-28T11:32:34Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "7b29c0b65f7b9cf7d113119e949e34c42cbadf3a:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 8902,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "7b29c0b65f7b9cf7d113119e949e34c42cbadf3a",
+    "author": "ChethanT",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Subcontracting",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 639568 scope subc po component location check to current prod order line"
+  }
+}

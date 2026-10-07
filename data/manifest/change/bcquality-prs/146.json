@@ -1,0 +1,30 @@
+{
+  "id": "change/bcquality-prs/146",
+  "pillar": "change",
+  "source": "bcquality-prs",
+  "tier": "official",
+  "title": "knowledge: three false-positive guards from BCApps PR 10277, 10278 and 10346",
+  "url": "https://github.com/microsoft/BCQuality/pull/146",
+  "published_at": "2026-09-02T09:25:20Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "35a7e72f124d6ab6d32003b1381397928ac9b050:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 146,
+    "repo": "microsoft/BCQuality",
+    "base": "main",
+    "major": null,
+    "merge_commit_sha": "35a7e72f124d6ab6d32003b1381397928ac9b050",
+    "author": "gggdttt",
+    "author_type": "User",
+    "labels": [],
+    "community_contribution": false,
+    "title_key": "knowledge three false positive guards from bcapps pr 10277 10278 and 10346"
+  }
+}

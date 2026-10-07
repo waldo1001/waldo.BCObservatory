@@ -1,0 +1,35 @@
+{
+  "id": "change/bcapps-prs/9910",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[SOA] Move attachment processing to direct model reading",
+  "url": "https://github.com/microsoft/BCApps/pull/9910",
+  "published_at": "2026-08-15T04:09:46Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "fc58541857ac2b88a01a9eebe01b63bf21e30b22:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9910,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "fc58541857ac2b88a01a9eebe01b63bf21e30b22",
+    "author": "qasimikram",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "AL: System Application",
+      "AL: Tools",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "soa move attachment processing to direct model reading"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/12133",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Block file scheme in Web Request Helper",
+  "url": "https://github.com/microsoft/BCApps/pull/12133",
+  "published_at": "2026-09-30T18:31:38Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "df3ab2d79eb97aed4bef8db42748bc7fa3331a65:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12133,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "df3ab2d79eb97aed4bef8db42748bc7fa3331a65",
+    "author": "darjoo",
+    "author_type": "User",
+    "labels": [
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "block file scheme in web request helper"
+  }
+}

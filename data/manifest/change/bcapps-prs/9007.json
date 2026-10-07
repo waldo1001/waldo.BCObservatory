@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9007",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Skip automation on out-of-support branches",
+  "url": "https://github.com/microsoft/BCApps/pull/9007",
+  "published_at": "2026-07-10T00:43:13Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "25692e9089de09c87eecb93359754ec1e694cf94:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9007,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "25692e9089de09c87eecb93359754ec1e694cf94",
+    "author": "mazhelez",
+    "author_type": "User",
+    "labels": [
+      "Build: Automation"
+    ],
+    "community_contribution": false,
+    "title_key": "skip automation on out of support branches"
+  }
+}

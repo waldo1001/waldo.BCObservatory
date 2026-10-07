@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9428",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "637301 Report layout override lifecycle",
+  "url": "https://github.com/microsoft/BCApps/pull/9428",
+  "published_at": "2026-08-17T12:32:38Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "85bc9e2349dbbcda9a42121dbd6ade934d3c1acc:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9428,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "85bc9e2349dbbcda9a42121dbd6ade934d3c1acc",
+    "author": "V-CWurtzen",
+    "author_type": "User",
+    "labels": [
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "637301 report layout override lifecycle"
+  }
+}

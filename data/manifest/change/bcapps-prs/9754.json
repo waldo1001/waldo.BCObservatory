@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/9754",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Extensibility Request] issue 30380: add OnSplitPostedWhseReceiptLineOnNotFindWhseItemEntryRelation event",
+  "url": "https://github.com/microsoft/BCApps/pull/9754",
+  "published_at": "2026-07-30T09:20:37Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "2b0e5c98fdace155798d9f0ab344527086cdf53b:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9754,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "2b0e5c98fdace155798d9f0ab344527086cdf53b",
+    "author": "AleksandricMarko",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM",
+      "event-request"
+    ],
+    "community_contribution": false,
+    "title_key": "extensibility request issue 30380 add onsplitpostedwhsereceiptlineonnotfindwhseitementryrelation event"
+  }
+}

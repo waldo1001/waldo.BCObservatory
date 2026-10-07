@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/9810",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[master]-Edit in Excel fails with false duplicate error when creating new Item Variants",
+  "url": "https://github.com/microsoft/BCApps/pull/9810",
+  "published_at": "2026-07-31T13:25:01Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "c2fe0b1f80f24884e2c020ba6fb5769f21b8bf85:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9810,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "c2fe0b1f80f24884e2c020ba6fb5769f21b8bf85",
+    "author": "MSNehaNawal",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "From Fork",
+      "Team: SCM"
+    ],
+    "community_contribution": true,
+    "title_key": "master edit in excel fails with false duplicate error when creating new item variants"
+  }
+}

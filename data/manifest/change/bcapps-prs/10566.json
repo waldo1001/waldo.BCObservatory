@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/10566",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[main] Trial Balance (Excel) report shows incorrect figures and formatting differences compared to Trial Balance (Obsolete) report in Business Central v28.2",
+  "url": "https://github.com/microsoft/BCApps/pull/10566",
+  "published_at": "2026-08-31T12:58:35Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "99b78dced4332c93d5c58105cb3acd11d96a763d:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10566,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "99b78dced4332c93d5c58105cb3acd11d96a763d",
+    "author": "Shikhverma",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "trial balance excel report shows incorrect figures and formatting differences compared to trial balance obsolete report in business central v28 2"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/10129",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Extensibility Request] issue 30342: allow skipping blocked item checks",
+  "url": "https://github.com/microsoft/BCApps/pull/10129",
+  "published_at": "2026-08-13T11:29:57Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "e23852cf75263a01ff4fed0a8adbe63a6f90406e:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10129,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "e23852cf75263a01ff4fed0a8adbe63a6f90406e",
+    "author": "AleksandricMarko",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM",
+      "event-request"
+    ],
+    "community_contribution": false,
+    "title_key": "extensibility request issue 30342 allow skipping blocked item checks"
+  }
+}

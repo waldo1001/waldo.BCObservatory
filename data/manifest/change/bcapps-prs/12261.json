@@ -1,0 +1,60 @@
+{
+  "id": "change/bcapps-prs/12261",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Stop repeated rescheduling of Dataverse synch jobs on bulk changes",
+  "url": "https://github.com/microsoft/BCApps/pull/12261",
+  "published_at": "2026-10-06T14:50:56Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:55:43.423Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T12:55:50.171Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004437
+    },
+    "linked": {
+      "at": "2026-10-07T12:55:50.311Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T12:55:50.318Z",
+      "path": "content/changes/bcapps/12261.md"
+    }
+  },
+  "input_hash": "f5257a6fe8ee53b55695737661eaa6fa2d3f5347:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12261,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "f5257a6fe8ee53b55695737661eaa6fa2d3f5347",
+    "author": "darjoo",
+    "author_type": "User",
+    "labels": [
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "stop repeated rescheduling of dataverse synch jobs on bulk changes"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "70931be50b0278fc024843b23ed83f698822e61f94544c47773163f2b2bfaa3e"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/11435",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Validate unauthenticated public API responses before use",
+  "url": "https://github.com/microsoft/BCApps/pull/11435",
+  "published_at": "2026-09-18T15:59:37Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "dc691ba9c2b7a61ee4dcc7d3b7a99c1a1140dadd:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11435,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "dc691ba9c2b7a61ee4dcc7d3b7a99c1a1140dadd",
+    "author": "dcenic",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "validate unauthenticated public api responses before use"
+  }
+}

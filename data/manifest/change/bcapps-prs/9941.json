@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/9941",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Re-enable BCPT Setup Card tests: remove DisabledTests entries (Bug 618568)",
+  "url": "https://github.com/microsoft/BCApps/pull/9941",
+  "published_at": "2026-08-05T09:11:27Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "fce1cd9e35f53e4d9f1674aa7f2b7afc6d9f18b7:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9941,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "fce1cd9e35f53e4d9f1674aa7f2b7afc6d9f18b7",
+    "author": "gggdttt",
+    "author_type": "User",
+    "labels": [
+      "AL: Tools",
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": false,
+    "title_key": "re enable bcpt setup card tests remove disabledtests entries bug 618568"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/8947",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Permissions] Add Where-Used and Permissions Overview navigation actions",
+  "url": "https://github.com/microsoft/BCApps/pull/8947",
+  "published_at": "2026-07-20T20:13:32Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "cf133f13c60a353a59311a8eb94bb216862682cb:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 8947,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "cf133f13c60a353a59311a8eb94bb216862682cb",
+    "author": "Groenbech96",
+    "author_type": "User",
+    "labels": [
+      "AL: System Application",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "permissions add where used and permissions overview navigation actions"
+  }
+}

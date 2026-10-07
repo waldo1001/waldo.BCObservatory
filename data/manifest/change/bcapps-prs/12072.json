@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/12072",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Quality Management] Harden IdentifyTableIDFromText fuzzy tests",
+  "url": "https://github.com/microsoft/BCApps/pull/12072",
+  "published_at": "2026-09-30T11:01:23Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "36aa3b46c637c2f660c73d5cb3f8c7e8fb5ed9aa:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12072,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "36aa3b46c637c2f660c73d5cb3f8c7e8fb5ed9aa",
+    "author": "6CRIPT",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "quality management harden identifytableidfromtext fuzzy tests"
+  }
+}

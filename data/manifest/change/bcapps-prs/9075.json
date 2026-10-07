@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9075",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Bug 598820: Item Availability by Event from Prod. Order ignores demand after Due Date",
+  "url": "https://github.com/microsoft/BCApps/pull/9075",
+  "published_at": "2026-08-04T12:30:05Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "953be9f79e0475a6d7f35f879c02ad6a6fd7e46b:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9075,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "953be9f79e0475a6d7f35f879c02ad6a6fd7e46b",
+    "author": "alexei-dobriansky",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 598820 item availability by event from prod order ignores demand after due date"
+  }
+}

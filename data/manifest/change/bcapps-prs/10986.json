@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/10986",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[29x] Fix Expense Agent VAT tests",
+  "url": "https://github.com/microsoft/BCApps/pull/10986",
+  "published_at": "2026-09-04T13:28:39Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "50fa060cac0dad9359f4b9be6f8e8f3f1c1fbcdf:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10986,
+    "repo": "microsoft/BCApps",
+    "base": "releases/29.x",
+    "major": "29",
+    "merge_commit_sha": "50fa060cac0dad9359f4b9be6f8e8f3f1c1fbcdf",
+    "author": "Alexander-Ya",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "ExpenseManagement",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "29x fix expense agent vat tests"
+  }
+}

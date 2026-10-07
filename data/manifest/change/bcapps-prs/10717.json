@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/10717",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Enable amount formatting with currency symbols",
+  "url": "https://github.com/microsoft/BCApps/pull/10717",
+  "published_at": "2026-09-25T08:32:41Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "0a602a2481c93ebfe7b1d27d6016fb9926c42111:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10717,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "0a602a2481c93ebfe7b1d27d6016fb9926c42111",
+    "author": "Alexander-Ya",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "enable amount formatting with currency symbols"
+  }
+}

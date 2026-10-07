@@ -1,0 +1,35 @@
+{
+  "id": "change/bcapps-prs/10461",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[SOA] Uptake Agent Task Message Failed status for outbound replies",
+  "url": "https://github.com/microsoft/BCApps/pull/10461",
+  "published_at": "2026-08-21T15:14:18Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "5bb3a3108b0df5be4ef4634e7d785767a6785544:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10461,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "5bb3a3108b0df5be4ef4634e7d785767a6785544",
+    "author": "qasimikram",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "AL: System Application",
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": false,
+    "title_key": "soa uptake agent task message failed status for outbound replies"
+  }
+}

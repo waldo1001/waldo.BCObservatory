@@ -1,0 +1,212 @@
+{
+  "open": [
+    {
+      "number": 221,
+      "title": "Clarify when HttpClient transport errors need translation",
+      "url": "https://github.com/microsoft/BCQuality/pull/221",
+      "base": "main",
+      "major": null,
+      "author": "gggdttt",
+      "labels": [],
+      "draft": false,
+      "created_at": "2026-10-07T12:21:53Z",
+      "updated_at": "2026-10-07T12:21:54Z",
+      "community_contribution": false
+    },
+    {
+      "number": 220,
+      "title": "Normalize verified citation IDs in accepted report copies",
+      "url": "https://github.com/microsoft/BCQuality/pull/220",
+      "base": "main",
+      "major": null,
+      "author": "gggdttt",
+      "labels": [],
+      "draft": false,
+      "created_at": "2026-10-05T13:15:47Z",
+      "updated_at": "2026-10-06T08:52:11Z",
+      "community_contribution": false
+    },
+    {
+      "number": 211,
+      "title": "knowledge(error-handling): a bare [TryFunction] call propagates its error",
+      "url": "https://github.com/microsoft/BCQuality/pull/211",
+      "base": "main",
+      "major": null,
+      "author": "pri-kise",
+      "labels": [],
+      "draft": true,
+      "created_at": "2026-10-02T12:31:33Z",
+      "updated_at": "2026-10-05T10:34:26Z",
+      "community_contribution": false
+    },
+    {
+      "number": 155,
+      "title": "Add read-only AL development plan guidance",
+      "url": "https://github.com/microsoft/BCQuality/pull/155",
+      "base": "main",
+      "major": null,
+      "author": "JesperSchulz",
+      "labels": [],
+      "draft": false,
+      "created_at": "2026-09-04T10:55:22Z",
+      "updated_at": "2026-09-28T09:35:40Z",
+      "community_contribution": false
+    },
+    {
+      "number": 181,
+      "title": "Clarify restart-safe batches and scripted UI handler tests",
+      "url": "https://github.com/microsoft/BCQuality/pull/181",
+      "base": "main",
+      "major": null,
+      "author": "gggdttt",
+      "labels": [],
+      "draft": false,
+      "created_at": "2026-09-14T07:30:02Z",
+      "updated_at": "2026-09-15T07:56:36Z",
+      "community_contribution": false
+    },
+    {
+      "number": 140,
+      "title": "knowledge(security): a guarded Text credential seam is legitimate when SecretText cannot flow end to end",
+      "url": "https://github.com/microsoft/BCQuality/pull/140",
+      "base": "main",
+      "major": null,
+      "author": "NavNab",
+      "labels": [],
+      "draft": false,
+      "created_at": "2026-08-27T14:06:39Z",
+      "updated_at": "2026-09-15T07:53:42Z",
+      "community_contribution": false
+    },
+    {
+      "number": 141,
+      "title": "knowledge(testing): license-entitlement failures on posted tables in a SaaS test run are environmental",
+      "url": "https://github.com/microsoft/BCQuality/pull/141",
+      "base": "main",
+      "major": null,
+      "author": "NavNab",
+      "labels": [],
+      "draft": false,
+      "created_at": "2026-08-27T14:06:47Z",
+      "updated_at": "2026-09-15T07:51:34Z",
+      "community_contribution": false
+    },
+    {
+      "number": 121,
+      "title": "Authoring-assist: promote to first-class tool with non-blocking PR advisory",
+      "url": "https://github.com/microsoft/BCQuality/pull/121",
+      "base": "main",
+      "major": null,
+      "author": "dayland",
+      "labels": [],
+      "draft": true,
+      "created_at": "2026-07-24T10:47:30Z",
+      "updated_at": "2026-09-15T07:40:32Z",
+      "community_contribution": false
+    }
+  ],
+  "issues": [
+    {
+      "number": 212,
+      "title": "security/inherent-permissions-minimal-grant: a lower-case grant with no Permissions property granted nothing",
+      "url": "https://github.com/microsoft/BCQuality/issues/212",
+      "labels": [],
+      "author": "fmoric",
+      "created_at": "2026-10-02T19:48:56Z",
+      "comments": 0
+    },
+    {
+      "number": 201,
+      "title": "Review fixtures: three samples trip sibling articles, so recall and clean rate 1.0 are out of reach for a faithful run",
+      "url": "https://github.com/microsoft/BCQuality/issues/201",
+      "labels": [],
+      "author": "Nikolaj1407",
+      "created_at": "2026-09-26T20:50:43Z",
+      "comments": 0
+    },
+    {
+      "number": 200,
+      "title": "reporting/currreport-skip-does-not-stop-trigger-code: CurrReport.Skip() does end the current trigger",
+      "url": "https://github.com/microsoft/BCQuality/issues/200",
+      "labels": [],
+      "author": "Nikolaj1407",
+      "created_at": "2026-09-26T20:50:42Z",
+      "comments": 0
+    },
+    {
+      "number": 166,
+      "title": "Clarify 20-character limit for assignable permission set names in object-name guidance",
+      "url": "https://github.com/microsoft/BCQuality/issues/166",
+      "labels": [],
+      "author": "mundanebcdev",
+      "created_at": "2026-09-09T09:47:12Z",
+      "comments": 1
+    },
+    {
+      "number": 165,
+      "title": "Invalid Assertion",
+      "url": "https://github.com/microsoft/BCQuality/issues/165",
+      "labels": [],
+      "author": "tscottjendev",
+      "created_at": "2026-09-09T07:43:13Z",
+      "comments": 2
+    },
+    {
+      "number": 164,
+      "title": "Update guidance: published interfaces can also evolve via default method implementations",
+      "url": "https://github.com/microsoft/BCQuality/issues/164",
+      "labels": [
+        "documentation"
+      ],
+      "author": "onbuyuka",
+      "created_at": "2026-09-08T14:17:26Z",
+      "comments": 0
+    },
+    {
+      "number": 107,
+      "title": "Prise instead of Info, or as an extra type",
+      "url": "https://github.com/microsoft/BCQuality/issues/107",
+      "labels": [],
+      "author": "RadekZebrowski",
+      "created_at": "2026-07-14T12:30:38Z",
+      "comments": 0
+    },
+    {
+      "number": 106,
+      "title": "Review statistics",
+      "url": "https://github.com/microsoft/BCQuality/issues/106",
+      "labels": [],
+      "author": "RadekZebrowski",
+      "created_at": "2026-07-14T12:19:17Z",
+      "comments": 0
+    },
+    {
+      "number": 104,
+      "title": "Feedback loop",
+      "url": "https://github.com/microsoft/BCQuality/issues/104",
+      "labels": [],
+      "author": "RadekZebrowski",
+      "created_at": "2026-07-14T12:06:54Z",
+      "comments": 1
+    },
+    {
+      "number": 91,
+      "title": "This repo is missing important files",
+      "url": "https://github.com/microsoft/BCQuality/issues/91",
+      "labels": [],
+      "author": "microsoft-github-policy-service[bot]",
+      "created_at": "2026-07-13T08:35:09Z",
+      "comments": 0
+    },
+    {
+      "number": 63,
+      "title": "microsoft/knowledge/privacy/register-integration-in-privacy-notice-registrations.md seems to be outdated",
+      "url": "https://github.com/microsoft/BCQuality/issues/63",
+      "labels": [],
+      "author": "sergeyol",
+      "created_at": "2026-06-30T08:18:14Z",
+      "comments": 1
+    }
+  ],
+  "releases": []
+}

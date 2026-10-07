@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9306",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Main] Unbalanced G/L Entries if you apply a Payment and a Posted Purchase Invoice having both different Posting Groups and using the \"Applies-to Document No.\" on the line instead of using Apply Entries in the Spanish version.Initial commit",
+  "url": "https://github.com/microsoft/BCApps/pull/9306",
+  "published_at": "2026-07-15T11:46:49Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "67bf4c3f68bed43a28ec0483a5fe6f051b069919:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9306,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "67bf4c3f68bed43a28ec0483a5fe6f051b069919",
+    "author": "sanjmaurya",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "unbalanced g l entries if you apply a payment and a posted purchase invoice having both different posting groups and using the applies to document no on the line instead of using apply entries in the spanish version initial commit"
+  }
+}

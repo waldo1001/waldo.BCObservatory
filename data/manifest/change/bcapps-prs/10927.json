@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/10927",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Change Log] Preserve SystemId for unloaded record modifications",
+  "url": "https://github.com/microsoft/BCApps/pull/10927",
+  "published_at": "2026-09-08T12:53:14Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "4590d8813eab4205c0eb82ee30fdecf927f6c626:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10927,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "4590d8813eab4205c0eb82ee30fdecf927f6c626",
+    "author": "onbuyuka",
+    "author_type": "User",
+    "labels": [
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "change log preserve systemid for unloaded record modifications"
+  }
+}

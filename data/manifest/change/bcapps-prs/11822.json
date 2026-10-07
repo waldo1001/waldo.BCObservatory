@@ -1,0 +1,35 @@
+{
+  "id": "change/bcapps-prs/11822",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Added missing indexes for GP historical snapshot",
+  "url": "https://github.com/microsoft/BCApps/pull/11822",
+  "published_at": "2026-09-30T14:23:06Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "66970b6aa4d2ea068a06ebcf4ffb584f51c00219:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11822,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "66970b6aa4d2ea068a06ebcf4ffb584f51c00219",
+    "author": "jaymckinney-enavate",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "AL: Apps (W1)",
+      "From Fork",
+      "Team: Integrations"
+    ],
+    "community_contribution": true,
+    "title_key": "added missing indexes for gp historical snapshot"
+  }
+}

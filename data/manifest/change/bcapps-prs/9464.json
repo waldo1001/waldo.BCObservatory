@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/9464",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Extensibility Request] issue 30349: add OnBeforeCheckTrackingIfRequired event to Item Journal Line",
+  "url": "https://github.com/microsoft/BCApps/pull/9464",
+  "published_at": "2026-07-24T07:38:56Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "6f70ccfa86c67246877afe28a5af84674db14381:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9464,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "6f70ccfa86c67246877afe28a5af84674db14381",
+    "author": "AleksandricMarko",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM",
+      "event-request"
+    ],
+    "community_contribution": false,
+    "title_key": "extensibility request issue 30349 add onbeforechecktrackingifrequired event to item journal line"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/9663",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Migrate customer, vendor and item transactions for BC14 cloud migration",
+  "url": "https://github.com/microsoft/BCApps/pull/9663",
+  "published_at": "2026-08-04T09:31:43Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "72d9d6dd801f26fa953fa5258e42774808857b03:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9663,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "72d9d6dd801f26fa953fa5258e42774808857b03",
+    "author": "gggdttt",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "migrate customer vendor and item transactions for bc14 cloud migration"
+  }
+}

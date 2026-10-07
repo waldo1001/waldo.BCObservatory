@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/9643",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Update SII subscribers SkipMissingPermissions",
+  "url": "https://github.com/microsoft/BCApps/pull/9643",
+  "published_at": "2026-07-23T13:16:18Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "2046e67986baf8b43694f1190f2fc195b478a6d0:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9643,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "2046e67986baf8b43694f1190f2fc195b478a6d0",
+    "author": "Alexander-Ya",
+    "author_type": "User",
+    "labels": [
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": false,
+    "title_key": "update sii subscribers skipmissingpermissions"
+  }
+}

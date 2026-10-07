@@ -1,0 +1,35 @@
+{
+  "id": "change/bcapps-prs/10093",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Bug][SubscriptionBilling]: \"Prices Including VAT\" handling is incomplete — contract billing invoice treats VAT‑exclusive Subscription Line amounts as VAT‑inclusive",
+  "url": "https://github.com/microsoft/BCApps/pull/10093",
+  "published_at": "2026-08-28T22:48:09Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "f2743e3fa563471be1f587651773b4cec9f3bedb:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10093,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "f2743e3fa563471be1f587651773b4cec9f3bedb",
+    "author": "miljance",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "AL: Apps (W1)",
+      "From Fork",
+      "Team: Finance"
+    ],
+    "community_contribution": true,
+    "title_key": "bug subscriptionbilling prices including vat handling is incomplete contract billing invoice treats vat exclusive subscription line amounts as vat inclusive"
+  }
+}

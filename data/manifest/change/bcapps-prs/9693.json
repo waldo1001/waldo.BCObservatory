@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/9693",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Rename email review option 'Only untrusted senders' to 'Manage per sender'",
+  "url": "https://github.com/microsoft/BCApps/pull/9693",
+  "published_at": "2026-07-28T01:46:42Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "33e0983d220e0a05873b601a5f5d2ed938e3977a:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9693,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "33e0983d220e0a05873b601a5f5d2ed938e3977a",
+    "author": "mynjj",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "rename email review option only untrusted senders to manage per sender"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/10567",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "SOA : Create Task from TaskPane respects review configuration for known senders",
+  "url": "https://github.com/microsoft/BCApps/pull/10567",
+  "published_at": "2026-08-30T20:13:48Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "7ed90e99e28dd15fa72a0920fe567b66cb9e499a:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10567,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "7ed90e99e28dd15fa72a0920fe567b66cb9e499a",
+    "author": "VolodySyn",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "soa create task from taskpane respects review configuration for known senders"
+  }
+}

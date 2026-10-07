@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/11561",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Permissions] Fix read-only error in obsolete permission cleanup",
+  "url": "https://github.com/microsoft/BCApps/pull/11561",
+  "published_at": "2026-09-23T10:46:44Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "87118091602861415529165d1e57630b22583ce1:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11561,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "87118091602861415529165d1e57630b22583ce1",
+    "author": "darjoo",
+    "author_type": "User",
+    "labels": [
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "permissions fix read only error in obsolete permission cleanup"
+  }
+}

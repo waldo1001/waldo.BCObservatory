@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/10096",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Fix Close Income Statement grouping when no dimensions are selected",
+  "url": "https://github.com/microsoft/BCApps/pull/10096",
+  "published_at": "2026-08-17T14:10:46Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "a1d18ab344b9f6adc06f28b809deb3eb2769183c:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10096,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "a1d18ab344b9f6adc06f28b809deb3eb2769183c",
+    "author": "ventselartur",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "fix close income statement grouping when no dimensions are selected"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "change/bcquality-prs/202",
+  "pillar": "change",
+  "source": "bcquality-prs",
+  "tier": "official",
+  "title": "Restore deterministic review fixture coverage",
+  "url": "https://github.com/microsoft/BCQuality/pull/202",
+  "published_at": "2026-09-29T15:29:37Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "164b27d0b235f01ce3155cc7bafb0121867e7352:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 202,
+    "repo": "microsoft/BCQuality",
+    "base": "main",
+    "major": null,
+    "merge_commit_sha": "164b27d0b235f01ce3155cc7bafb0121867e7352",
+    "author": "JesperSchulz",
+    "author_type": "User",
+    "labels": [],
+    "community_contribution": false,
+    "title_key": "restore deterministic review fixture coverage"
+  }
+}

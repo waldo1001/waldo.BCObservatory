@@ -1,0 +1,35 @@
+{
+  "id": "change/bcapps-prs/10301",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Master]-Bug 646962: Withholding Tax Posting Setup",
+  "url": "https://github.com/microsoft/BCApps/pull/10301",
+  "published_at": "2026-08-21T19:56:12Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "d3ac2d051f09194d81335e5150802b275f12941a:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10301,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "d3ac2d051f09194d81335e5150802b275f12941a",
+    "author": "ViditGupta1277",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "AL: Apps (W1)",
+      "From Fork",
+      "Team: Finance"
+    ],
+    "community_contribution": true,
+    "title_key": "master bug 646962 withholding tax posting setup"
+  }
+}

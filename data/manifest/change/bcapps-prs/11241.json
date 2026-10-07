@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/11241",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Make AL test fixtures compatible with ClientService connections",
+  "url": "https://github.com/microsoft/BCApps/pull/11241",
+  "published_at": "2026-09-10T10:23:40Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "cbbe868127a29333301c818a20e17c0516d3c56d:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11241,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "cbbe868127a29333301c818a20e17c0516d3c56d",
+    "author": "dagirard",
+    "author_type": "User",
+    "labels": [
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": false,
+    "title_key": "make al test fixtures compatible with clientservice connections"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "change/al-go-prs/2313",
+  "pillar": "change",
+  "source": "al-go-prs",
+  "tier": "official",
+  "title": "Fix dependency resolution when branch name contains ']' character",
+  "url": "https://github.com/microsoft/AL-Go/pull/2313",
+  "published_at": "2026-07-21T11:14:42Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "f8f8d47521eca0b64cced4e44e9e5bed3650b2d9:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 2313,
+    "repo": "microsoft/AL-Go",
+    "base": "main",
+    "major": null,
+    "merge_commit_sha": "f8f8d47521eca0b64cced4e44e9e5bed3650b2d9",
+    "author": "aholstrup1",
+    "author_type": "User",
+    "labels": [],
+    "community_contribution": false,
+    "title_key": "fix dependency resolution when branch name contains character"
+  }
+}

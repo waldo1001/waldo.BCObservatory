@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/10298",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[main]A WIP Balance is presented incorrectly on the “Production Order – WIP” Report 5802 after Finishing Production Order Without Output Item Ledger Entry posted with new Manufacturing Setup option for no Output required.",
+  "url": "https://github.com/microsoft/BCApps/pull/10298",
+  "published_at": "2026-08-25T05:39:41Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "507566aabd10dc2779ba0726507ca89a18a70c7b:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10298,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "507566aabd10dc2779ba0726507ca89a18a70c7b",
+    "author": "Shikhverma",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "a wip balance is presented incorrectly on the production order wip report 5802 after finishing production order without output item ledger entry posted with new manufacturing setup option for no output required"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9280",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Project Task Billing Method reverts to original value in project card without validation or error",
+  "url": "https://github.com/microsoft/BCApps/pull/9280",
+  "published_at": "2026-07-14T09:27:54Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "00b1a1d30dacab85a1c376c250c5815ed2f0917e:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9280,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "00b1a1d30dacab85a1c376c250c5815ed2f0917e",
+    "author": "tomasevicst",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "project task billing method reverts to original value in project card without validation or error"
+  }
+}

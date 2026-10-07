@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/9077",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Quality Management] Bug 620326: Reset IsChangingStatus on handled Reopen/Finish early-exit",
+  "url": "https://github.com/microsoft/BCApps/pull/9077",
+  "published_at": "2026-08-19T20:07:56Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "f65937f59cf292e093cdd84c5f88518be38faec1:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9077,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "f65937f59cf292e093cdd84c5f88518be38faec1",
+    "author": "alexei-dobriansky",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "quality management bug 620326 reset ischangingstatus on handled reopen finish early exit"
+  }
+}

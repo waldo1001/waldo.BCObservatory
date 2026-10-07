@@ -1,0 +1,35 @@
+{
+  "id": "change/bcapps-prs/8183",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Handle failure to manually create E-Document from posted doc with no …",
+  "url": "https://github.com/microsoft/BCApps/pull/8183",
+  "published_at": "2026-07-14T13:35:17Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "d6e18b043fc147a04c5f8c1f7951db3d674f53fc:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 8183,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "d6e18b043fc147a04c5f8c1f7951db3d674f53fc",
+    "author": "georgepomazkov",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "AL: Apps (W1)",
+      "From Fork",
+      "Team: Integrations"
+    ],
+    "community_contribution": true,
+    "title_key": "handle failure to manually create e document from posted doc with no"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9079",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Bug 631472: Cost Shares Breakdown (WIP) does not filter by Item",
+  "url": "https://github.com/microsoft/BCApps/pull/9079",
+  "published_at": "2026-07-09T12:48:01Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "12c22a51050426ebdf941c332b24210fe6842cb1:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9079,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "12c22a51050426ebdf941c332b24210fe6842cb1",
+    "author": "alexei-dobriansky",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 631472 cost shares breakdown wip does not filter by item"
+  }
+}

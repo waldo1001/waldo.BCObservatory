@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/12255",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Fix overwrite import of exported system permission sets",
+  "url": "https://github.com/microsoft/BCApps/pull/12255",
+  "published_at": "2026-10-05T14:18:31Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "63ae02a0d5088110d7b6ea8599cf45b8ac1555c8:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12255,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "63ae02a0d5088110d7b6ea8599cf45b8ac1555c8",
+    "author": "darjoo",
+    "author_type": "User",
+    "labels": [
+      "AL: System Application",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "fix overwrite import of exported system permission sets"
+  }
+}

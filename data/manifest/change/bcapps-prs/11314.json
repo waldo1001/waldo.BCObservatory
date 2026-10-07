@@ -1,0 +1,39 @@
+{
+  "id": "change/bcapps-prs/11314",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Project Arches] Microsoft Fabric Export Setup",
+  "url": "https://github.com/microsoft/BCApps/pull/11314",
+  "published_at": "2026-10-01T09:41:35Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "770f7023d8ce08fc3830da72caa8168c0fec7f6b:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11314,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "770f7023d8ce08fc3830da72caa8168c0fec7f6b",
+    "author": "Bertverbeek4PS",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "AL: Apps (W1)",
+      "Build: scripts & configs",
+      "From Fork",
+      "Ownership: Manual",
+      "Ownership: Needs Review",
+      "Team: Integrations",
+      "Team: Other"
+    ],
+    "community_contribution": true,
+    "title_key": "project arches microsoft fabric export setup"
+  }
+}

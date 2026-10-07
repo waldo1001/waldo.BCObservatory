@@ -1,0 +1,35 @@
+{
+  "id": "change/bcapps-prs/10661",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Bug 646559] Make E-Doc attachment tests CZ-compatible",
+  "url": "https://github.com/microsoft/BCApps/pull/10661",
+  "published_at": "2026-08-28T12:48:09Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "5368c309fbc0536dba429bd34724c3dd25593e81:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10661,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "5368c309fbc0536dba429bd34724c3dd25593e81",
+    "author": "djukicmilica",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "AL: Apps (W1)",
+      "From Fork",
+      "Team: Integrations"
+    ],
+    "community_contribution": true,
+    "title_key": "bug 646559 make e doc attachment tests cz compatible"
+  }
+}

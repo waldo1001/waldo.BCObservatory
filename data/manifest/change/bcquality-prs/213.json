@@ -1,0 +1,30 @@
+{
+  "id": "change/bcquality-prs/213",
+  "pillar": "change",
+  "source": "bcquality-prs",
+  "tier": "official",
+  "title": "knowledge(events): database trigger setup flags may only be set to true",
+  "url": "https://github.com/microsoft/BCQuality/pull/213",
+  "published_at": "2026-10-05T12:59:54Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "4cd53eac643c178c192290198821ec2aaedf1375:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 213,
+    "repo": "microsoft/BCQuality",
+    "base": "main",
+    "major": null,
+    "merge_commit_sha": "4cd53eac643c178c192290198821ec2aaedf1375",
+    "author": "MichaelDieringer",
+    "author_type": "User",
+    "labels": [],
+    "community_contribution": false,
+    "title_key": "knowledge events database trigger setup flags may only be set to true"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "change/bcapps-prs/8871",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Issue#7867: Removed the access restriction for procedures in the confirmation window.",
+  "url": "https://github.com/microsoft/BCApps/pull/8871",
+  "published_at": "2026-07-10T14:13:36Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "aba239d59ca9bb80032970a9851cef6d0ee485c8:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 8871,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "aba239d59ca9bb80032970a9851cef6d0ee485c8",
+    "author": "arvindbinarystream",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "AL: Apps (W1)",
+      "From Fork",
+      "Team: Integrations"
+    ],
+    "community_contribution": true,
+    "title_key": "issue 7867 removed the access restriction for procedures in the confirmation window"
+  }
+}

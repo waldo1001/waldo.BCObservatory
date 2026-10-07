@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/9651",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Extensibility Request] issue 30352: add SkipNewExpirationDateCheck to OnCheckExpirationDateOnAfterCalcSumLot",
+  "url": "https://github.com/microsoft/BCApps/pull/9651",
+  "published_at": "2026-07-27T09:45:05Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "5dbc86e9c16742841da446f871361f7fc62705a2:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9651,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "5dbc86e9c16742841da446f871361f7fc62705a2",
+    "author": "AleksandricMarko",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM",
+      "event-request"
+    ],
+    "community_contribution": false,
+    "title_key": "extensibility request issue 30352 add skipnewexpirationdatecheck to oncheckexpirationdateonaftercalcsumlot"
+  }
+}

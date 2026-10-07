@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/11010",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Remove zero-consumer DotNet alias declarations from test libraries",
+  "url": "https://github.com/microsoft/BCApps/pull/11010",
+  "published_at": "2026-09-07T14:37:13Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "86fbd1b0bcff8ce5c1624de394864bf906a9000a:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11010,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "86fbd1b0bcff8ce5c1624de394864bf906a9000a",
+    "author": "darjoo",
+    "author_type": "User",
+    "labels": [
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": false,
+    "title_key": "remove zero consumer dotnet alias declarations from test libraries"
+  }
+}

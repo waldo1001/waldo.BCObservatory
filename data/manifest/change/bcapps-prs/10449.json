@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/10449",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Remove permission set ref and move the Page Inspector changes to BCApps",
+  "url": "https://github.com/microsoft/BCApps/pull/10449",
+  "published_at": "2026-08-22T02:41:43Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "3d9b8bde8dad32b38fcb0a76864e6b3b36493285:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10449,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "3d9b8bde8dad32b38fcb0a76864e6b3b36493285",
+    "author": "PhDuck",
+    "author_type": "User",
+    "labels": [
+      "AL: System Application",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "remove permission set ref and move the page inspector changes to bcapps"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/10778",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Backport 29.x] Harden Contact Sync delta URL and ownership checks (#9966)",
+  "url": "https://github.com/microsoft/BCApps/pull/10778",
+  "published_at": "2026-08-31T09:48:25Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "d237a9694d8aa50d4ec04ef18483a96fdbbd72cd:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10778,
+    "repo": "microsoft/BCApps",
+    "base": "releases/29.x",
+    "major": "29",
+    "merge_commit_sha": "d237a9694d8aa50d4ec04ef18483a96fdbbd72cd",
+    "author": "Naveen26423",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "backport 29 x harden contact sync delta url and ownership checks 9966"
+  }
+}

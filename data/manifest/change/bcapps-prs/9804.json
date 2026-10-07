@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/9804",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Shopify] Fix Price List header defaults in dated discount test helper",
+  "url": "https://github.com/microsoft/BCApps/pull/9804",
+  "published_at": "2026-07-29T11:40:00Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "d44ed94f191ab4d691fb29a4e6f5c9d5a8e75dca:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9804,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "d44ed94f191ab4d691fb29a4e6f5c9d5a8e75dca",
+    "author": "onbuyuka",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "shopify fix price list header defaults in dated discount test helper"
+  }
+}

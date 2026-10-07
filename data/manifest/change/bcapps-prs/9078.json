@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9078",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Bug 624364: Intrastat DE groups detail lines by Country/Region of Origin",
+  "url": "https://github.com/microsoft/BCApps/pull/9078",
+  "published_at": "2026-07-07T14:35:39Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "1711fffec9a3601fcfc36119d37afb5bfbdc795f:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9078,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "1711fffec9a3601fcfc36119d37afb5bfbdc795f",
+    "author": "alexei-dobriansky",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 624364 intrastat de groups detail lines by country region of origin"
+  }
+}

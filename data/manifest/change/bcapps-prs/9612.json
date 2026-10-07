@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9612",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Fixing correct value for Legacy Subcontracting flag in Italy during u…",
+  "url": "https://github.com/microsoft/BCApps/pull/9612",
+  "published_at": "2026-07-22T14:05:07Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "8563b2d102a13d266b613f79305d6e38f44c6fe4:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9612,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "8563b2d102a13d266b613f79305d6e38f44c6fe4",
+    "author": "PredragMaricic",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "fixing correct value for legacy subcontracting flag in italy during u"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9216",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Removing the allowed environment types from published apps",
+  "url": "https://github.com/microsoft/BCApps/pull/9216",
+  "published_at": "2026-07-10T12:57:31Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "6f6a1ca32bd129d9ea2f0381a922177b0a5586a9:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9216,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "6f6a1ca32bd129d9ea2f0381a922177b0a5586a9",
+    "author": "nikolakukrika",
+    "author_type": "User",
+    "labels": [
+      "Build: scripts & configs"
+    ],
+    "community_contribution": false,
+    "title_key": "removing the allowed environment types from published apps"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/11846",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Fix View file on outgoing E-Documents to open the exported file",
+  "url": "https://github.com/microsoft/BCApps/pull/11846",
+  "published_at": "2026-09-25T10:25:25Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "77bfd99a7efcb800c895a9120ee6adf881f87b20:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11846,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "77bfd99a7efcb800c895a9120ee6adf881f87b20",
+    "author": "Explorer986",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "fix view file on outgoing e documents to open the exported file"
+  }
+}

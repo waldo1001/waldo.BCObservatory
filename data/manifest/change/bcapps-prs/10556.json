@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/10556",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[FRA] Address French E-Document review findings",
+  "url": "https://github.com/microsoft/BCApps/pull/10556",
+  "published_at": "2026-08-31T19:02:40Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "f6254c1059a73f07ca5ead9fe07097154edae121:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10556,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "f6254c1059a73f07ca5ead9fe07097154edae121",
+    "author": "djukicmilica",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "From Fork",
+      "Team: Finance"
+    ],
+    "community_contribution": true,
+    "title_key": "fra address french e document review findings"
+  }
+}

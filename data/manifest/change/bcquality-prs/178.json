@@ -1,0 +1,30 @@
+{
+  "id": "change/bcquality-prs/178",
+  "pillar": "change",
+  "source": "bcquality-prs",
+  "tier": "official",
+  "title": "Separate deterministic analyzer rules from BCQuality",
+  "url": "https://github.com/microsoft/BCQuality/pull/178",
+  "published_at": "2026-09-11T07:26:15Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "c12b2f0a88c7316b82d2c9e01dfb8518a9eb6eea:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 178,
+    "repo": "microsoft/BCQuality",
+    "base": "main",
+    "major": null,
+    "merge_commit_sha": "c12b2f0a88c7316b82d2c9e01dfb8518a9eb6eea",
+    "author": "JesperSchulz",
+    "author_type": "User",
+    "labels": [],
+    "community_contribution": false,
+    "title_key": "separate deterministic analyzer rules from bcquality"
+  }
+}

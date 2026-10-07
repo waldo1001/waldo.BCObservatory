@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9355",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[master] [FR] [E-document] Changed place for \"SIRET No.\" and exposed codeunit for export Factur-X",
+  "url": "https://github.com/microsoft/BCApps/pull/9355",
+  "published_at": "2026-07-14T13:39:00Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "bc36a45b7f9d8ded74b331b0ca1060ac0255f3a9:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9355,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "bc36a45b7f9d8ded74b331b0ca1060ac0255f3a9",
+    "author": "djukicmilica",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync"
+    ],
+    "community_contribution": false,
+    "title_key": "master fr e document changed place for siret no and exposed codeunit for export factur x"
+  }
+}

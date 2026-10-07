@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/9356",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Main]-Payment XML file generated from EB Payment Journal upon selecting \"FCY Symbol\" includes currency text",
+  "url": "https://github.com/microsoft/BCApps/pull/9356",
+  "published_at": "2026-07-16T16:03:42Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "a624e0df465eff10691325ecb0bdbaeb7eda3738:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9356,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "a624e0df465eff10691325ecb0bdbaeb7eda3738",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "From Fork",
+      "Team: Finance"
+    ],
+    "community_contribution": true,
+    "title_key": "payment xml file generated from eb payment journal upon selecting fcy symbol includes currency text"
+  }
+}

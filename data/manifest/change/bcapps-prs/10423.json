@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/10423",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Bug 620761: Move subconracting tests from base app to subcontracting app",
+  "url": "https://github.com/microsoft/BCApps/pull/10423",
+  "published_at": "2026-09-07T09:03:29Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "8634bb17f58e407e323dbbe04e21fe7707ee7fc2:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10423,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "8634bb17f58e407e323dbbe04e21fe7707ee7fc2",
+    "author": "ChethanT",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 620761 move subconracting tests from base app to subcontracting app"
+  }
+}

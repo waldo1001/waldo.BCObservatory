@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9949",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Bug 645022] UI improvements for report themes and header/footers (composite layout)",
+  "url": "https://github.com/microsoft/BCApps/pull/9949",
+  "published_at": "2026-08-10T09:49:26Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "1841a18dd7c39bc8b9c58ebad4e7938ce3df9145:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9949,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "1841a18dd7c39bc8b9c58ebad4e7938ce3df9145",
+    "author": "v-mortenr",
+    "author_type": "User",
+    "labels": [
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 645022 ui improvements for report themes and header footers composite layout"
+  }
+}

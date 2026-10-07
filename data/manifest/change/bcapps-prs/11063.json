@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/11063",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Prevent Sales Order Agent from skipping emails moved into monitored folders",
+  "url": "https://github.com/microsoft/BCApps/pull/11063",
+  "published_at": "2026-09-06T12:43:59Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "9e586f9b8ff30b005316445d8659e196c0e8a0a6:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11063,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "9e586f9b8ff30b005316445d8659e196c0e8a0a6",
+    "author": "tomasevicst",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "prevent sales order agent from skipping emails moved into monitored folders"
+  }
+}

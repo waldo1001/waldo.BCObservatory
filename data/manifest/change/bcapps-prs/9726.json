@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9726",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Bug 638205: [Subcontracting]  Enable test codeunitId 137500 - \"SCM Legacy Subcontracting\"",
+  "url": "https://github.com/microsoft/BCApps/pull/9726",
+  "published_at": "2026-07-27T10:07:51Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "0fcf5244a358fa97023e2e326aa55eae67f3a3b3:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9726,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "0fcf5244a358fa97023e2e326aa55eae67f3a3b3",
+    "author": "ChethanT",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 638205 subcontracting enable test codeunitid 137500 scm legacy subcontracting"
+  }
+}

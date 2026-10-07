@@ -1,0 +1,70 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12261,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12261",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-06T14:50:56Z",
+  "merge_commit_sha": "f5257a6fe8ee53b55695737661eaa6fa2d3f5347",
+  "author": "darjoo",
+  "author_type": "User",
+  "labels": [
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "Stop repeated rescheduling of Dataverse synch jobs on bulk changes",
+  "body_hash": "6583ccee841c1c474b8de93a75cc915613592cadd0d3ef83af814e1685abb5d2",
+  "fixes_issues": [],
+  "work_items": [
+    576352
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/Integration/Dataverse/CRMIntegrationManagement.Codeunit.al",
+      "status": "modified",
+      "additions": 39,
+      "deletions": 17,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/CRM integration/CRMJobQueueEntryInactivity.Codeunit.al",
+      "status": "modified",
+      "additions": 78,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 117,
+    "deletions": 17,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Integration/Dataverse/CRMIntegrationManagement.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5330",
+        "type": "codeunit",
+        "id": 5330,
+        "name": "CRM Integration Management",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/5330"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "integration"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

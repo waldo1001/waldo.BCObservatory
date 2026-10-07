@@ -1,0 +1,37 @@
+{
+  "id": "change/bcapps-prs/9629",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Fix #9256: set dev container memory limit from AL-Go settings",
+  "url": "https://github.com/microsoft/BCApps/pull/9629",
+  "published_at": "2026-07-23T09:52:57Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "55588689b62737d42fe076a4bd111a07b6352e67:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9629,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "55588689b62737d42fe076a4bd111a07b6352e67",
+    "author": "aholstrup1",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "Build: Automation",
+      "Build: scripts & configs",
+      "From Fork",
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": true,
+    "title_key": "fix 9256 set dev container memory limit from al go settings"
+  }
+}

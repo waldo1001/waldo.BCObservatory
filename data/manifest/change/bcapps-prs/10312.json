@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/10312",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Update expense VAT specification source",
+  "url": "https://github.com/microsoft/BCApps/pull/10312",
+  "published_at": "2026-08-31T07:40:34Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "f3db89ef9d9398c84d79bb97f22310baad5d47ca:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10312,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "f3db89ef9d9398c84d79bb97f22310baad5d47ca",
+    "author": "Alexander-Ya",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "ExpenseManagement",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "update expense vat specification source"
+  }
+}

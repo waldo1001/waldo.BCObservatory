@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9352",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[FI] Obsolete unused 'Print on Invoice' VAT setting",
+  "url": "https://github.com/microsoft/BCApps/pull/9352",
+  "published_at": "2026-07-28T16:33:15Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "4ed4488ba8239fa1ad154af6fa0379fbfa7bba3a:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9352,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "4ed4488ba8239fa1ad154af6fa0379fbfa7bba3a",
+    "author": "djukicmilica",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "fi obsolete unused print on invoice vat setting"
+  }
+}

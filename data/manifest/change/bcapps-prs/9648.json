@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/9648",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[master]-[BE] [PEPPOL] There is a problem between the totals on the invoice printout and the XML PEPPOL with Payment discount",
+  "url": "https://github.com/microsoft/BCApps/pull/9648",
+  "published_at": "2026-07-28T02:01:09Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "6414b3047027c20025fa3c7efe2593c62cb86c05:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9648,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "6414b3047027c20025fa3c7efe2593c62cb86c05",
+    "author": "MSNehaNawal",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "From Fork",
+      "Team: Finance"
+    ],
+    "community_contribution": true,
+    "title_key": "master be peppol there is a problem between the totals on the invoice printout and the xml peppol with payment discount"
+  }
+}

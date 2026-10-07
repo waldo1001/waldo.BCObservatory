@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/11068",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "SOA: Clear previous search filter",
+  "url": "https://github.com/microsoft/BCApps/pull/11068",
+  "published_at": "2026-09-04T23:08:06Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "3d4519070fae4b47093e3a191c9bf6fe51f1f417:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11068,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "3d4519070fae4b47093e3a191c9bf6fe51f1f417",
+    "author": "VolodySyn",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "soa clear previous search filter"
+  }
+}

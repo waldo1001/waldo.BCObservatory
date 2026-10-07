@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/11407",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Shopify] Keep exchange shipments eligible for synchronization",
+  "url": "https://github.com/microsoft/BCApps/pull/11407",
+  "published_at": "2026-09-18T11:43:03Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "f437764682e4dd9da75d704337b2b954a39d427d:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11407,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "f437764682e4dd9da75d704337b2b954a39d427d",
+    "author": "onbuyuka",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "shopify keep exchange shipments eligible for synchronization"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/10133",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Remove two redundant overrides from the base ruleset",
+  "url": "https://github.com/microsoft/BCApps/pull/10133",
+  "published_at": "2026-08-13T12:58:15Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "4b243dc2bcdcd76794cf5659f6ce28f316ff8de2:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10133,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "4b243dc2bcdcd76794cf5659f6ce28f316ff8de2",
+    "author": "JesperSchulz",
+    "author_type": "User",
+    "labels": [
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": false,
+    "title_key": "remove two redundant overrides from the base ruleset"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/11710",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[29.x]-Not enough inventory available at vendor location for this order",
+  "url": "https://github.com/microsoft/BCApps/pull/11710",
+  "published_at": "2026-09-22T12:19:42Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "90ef1c945012030c03423b3e60332e4a4bb9bfc7:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11710,
+    "repo": "microsoft/BCApps",
+    "base": "releases/29.x",
+    "major": "29",
+    "merge_commit_sha": "90ef1c945012030c03423b3e60332e4a4bb9bfc7",
+    "author": "v-ajaztabrez",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "not enough inventory available at vendor location for this order"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "change/bcapps-prs/10431",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Agent Archiving] Fix broken reference links to archived agents and their tasks",
+  "url": "https://github.com/microsoft/BCApps/pull/10431",
+  "published_at": "2026-08-24T17:12:11Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "8aa66bb8038c53dc707b5ce1056902798a1da14e:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10431,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "8aa66bb8038c53dc707b5ce1056902798a1da14e",
+    "author": "krupybalu",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "AL: System Application",
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": false,
+    "title_key": "agent archiving fix broken reference links to archived agents and their tasks"
+  }
+}

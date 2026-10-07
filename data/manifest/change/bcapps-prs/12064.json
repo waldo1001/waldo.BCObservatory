@@ -1,0 +1,62 @@
+{
+  "id": "change/bcapps-prs/12064",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Support SharePoint paths containing hash and percent characters",
+  "url": "https://github.com/microsoft/BCApps/pull/12064",
+  "published_at": "2026-10-07T09:54:56Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:55:32.267Z",
+      "change_class": "code",
+      "files": 13,
+      "al": 8,
+      "objects": 7,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-10-07T12:55:37.419Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.004535
+    },
+    "linked": {
+      "at": "2026-10-07T12:55:37.619Z",
+      "objects": 7,
+      "unjoined": 1,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T12:55:37.639Z",
+      "path": "content/changes/bcapps/12064.md"
+    }
+  },
+  "input_hash": "ed4c5cc834c3b90f72a3edadcf378b37f628fe1c:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12064,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "ed4c5cc834c3b90f72a3edadcf378b37f628fe1c",
+    "author": "JesperSchulz",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "AL: System Application",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "support sharepoint paths containing hash and percent characters"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "49b50ac8a434ffd756968a328b279fd5443d4f526bef62a0ee6524e2a6d251be"
+}

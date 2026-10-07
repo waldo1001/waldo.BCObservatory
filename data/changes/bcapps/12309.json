@@ -1,0 +1,70 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12309,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12309",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-06T14:50:55Z",
+  "merge_commit_sha": "6fd8c9a15d7dce965abde7a28de47f574febf4c4",
+  "author": "darjoo",
+  "author_type": "User",
+  "labels": [
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "Fix infinite recursion in Config. Package Field XML name generation",
+  "body_hash": "ff2478bce742e8a5e236978c0ba6cac7e2b838671939757c0719701a33dddedc",
+  "fixes_issues": [],
+  "work_items": [
+    652923
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/System/RapidStart/ConfigPackageField.Table.al",
+      "status": "modified",
+      "additions": 11,
+      "deletions": 7,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Rapid Start/ERMRSPackageOperations.Codeunit.al",
+      "status": "modified",
+      "additions": 55,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 66,
+    "deletions": 7,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/System/RapidStart/ConfigPackageField.Table.al",
+        "status": "modified",
+        "key": "table/8616",
+        "type": "table",
+        "id": 8616,
+        "name": "Config. Package Field",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/8616"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

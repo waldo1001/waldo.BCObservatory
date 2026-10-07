@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/9346",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[master]-Cannot delete Project Planning Line due to incorrect reservation entries",
+  "url": "https://github.com/microsoft/BCApps/pull/9346",
+  "published_at": "2026-07-28T12:54:39Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "3c6f23b8b0c07d5f66887acd26e131f9fb44f13a:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9346,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "3c6f23b8b0c07d5f66887acd26e131f9fb44f13a",
+    "author": "MSNehaNawal",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "From Fork",
+      "Team: SCM"
+    ],
+    "community_contribution": true,
+    "title_key": "master cannot delete project planning line due to incorrect reservation entries"
+  }
+}

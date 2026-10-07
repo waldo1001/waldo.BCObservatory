@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/10900",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Extensibility Request] issue 30431: expose report sender and globals",
+  "url": "https://github.com/microsoft/BCApps/pull/10900",
+  "published_at": "2026-09-18T09:13:36Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "dc49cd54e1e2568f097d6aa89835e781057d6569:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10900,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "dc49cd54e1e2568f097d6aa89835e781057d6569",
+    "author": "AleksandricMarko",
+    "author_type": "User",
+    "labels": [
+      "SCM",
+      "Team: SCM",
+      "event-request"
+    ],
+    "community_contribution": false,
+    "title_key": "extensibility request issue 30431 expose report sender and globals"
+  }
+}

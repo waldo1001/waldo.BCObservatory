@@ -1,0 +1,35 @@
+{
+  "id": "change/bcapps-prs/11375",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Obsolete GPT-5.5 chat and add GPT-5.6 Ceres deployments",
+  "url": "https://github.com/microsoft/BCApps/pull/11375",
+  "published_at": "2026-09-23T11:38:41Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "4abbb8ff848cdcb4e1187fc7a3e2da0612dd0d2b:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11375,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "4abbb8ff848cdcb4e1187fc7a3e2da0612dd0d2b",
+    "author": "darjoo",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "AL: System Application",
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": false,
+    "title_key": "obsolete gpt 5 5 chat and add gpt 5 6 ceres deployments"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/10896",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Bug Fix] #295: Clarify SOA reply when a requested item variant cannot be matched",
+  "url": "https://github.com/microsoft/BCApps/pull/10896",
+  "published_at": "2026-09-02T18:05:53Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "12b886c73cbbaa873421b0c2763798a757df40e6:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10896,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "12b886c73cbbaa873421b0c2763798a757df40e6",
+    "author": "ventselartur",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "bug fix 295 clarify soa reply when a requested item variant cannot be matched"
+  }
+}

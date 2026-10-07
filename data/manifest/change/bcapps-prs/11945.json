@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/11945",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Bug 648959: [Subcontracting] Fix serial splitting for non-last subcontracting put-away lines",
+  "url": "https://github.com/microsoft/BCApps/pull/11945",
+  "published_at": "2026-09-30T08:27:26Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "3307957e97bffcf19a49e8faaa02a2b3d11b47e8:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11945,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "3307957e97bffcf19a49e8faaa02a2b3d11b47e8",
+    "author": "ChethanT",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 648959 subcontracting fix serial splitting for non last subcontracting put away lines"
+  }
+}

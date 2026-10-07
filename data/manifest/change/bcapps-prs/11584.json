@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/11584",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[E-document FR] Add French billing mode override event",
+  "url": "https://github.com/microsoft/BCApps/pull/11584",
+  "published_at": "2026-09-18T11:16:05Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "0140ff0e3befe671ffec492d03657c3ad3923242:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11584,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "0140ff0e3befe671ffec492d03657c3ad3923242",
+    "author": "djukicmilica",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "e document fr add french billing mode override event"
+  }
+}

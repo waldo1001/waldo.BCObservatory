@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9906",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Bug Fix] #641100: Export Acc. Sched. to Excel - log report usage in OnPostReport to avoid modal page in write transaction",
+  "url": "https://github.com/microsoft/BCApps/pull/9906",
+  "published_at": "2026-08-05T12:40:10Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "44c89d817a5d303be0f42a07242e3c76fa7c0191:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9906,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "44c89d817a5d303be0f42a07242e3c76fa7c0191",
+    "author": "ventselartur",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "bug fix 641100 export acc sched to excel log report usage in onpostreport to avoid modal page in write transaction"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/10459",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Bug 647298: Incorrect currency conversion rates for new currencies",
+  "url": "https://github.com/microsoft/BCApps/pull/10459",
+  "published_at": "2026-08-31T16:15:00Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "c825b2b61ee34f337ac4841cfa16df7445fe6774:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10459,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "c825b2b61ee34f337ac4841cfa16df7445fe6774",
+    "author": "BardurKnudsen",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 647298 incorrect currency conversion rates for new currencies"
+  }
+}

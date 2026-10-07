@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/12194",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Harden web request helpers: opt-in default credentials",
+  "url": "https://github.com/microsoft/BCApps/pull/12194",
+  "published_at": "2026-10-02T09:51:28Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "c38d79551ed59d60a537632818e5e6670ea88c3d:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12194,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "c38d79551ed59d60a537632818e5e6670ea88c3d",
+    "author": "darjoo",
+    "author_type": "User",
+    "labels": [
+      "AL: System Application",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "harden web request helpers opt in default credentials"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/12124",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Fix default bin assignment when creating purchase orders for drop shipments",
+  "url": "https://github.com/microsoft/BCApps/pull/12124",
+  "published_at": "2026-10-05T12:39:41Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "7b25204e79cc75a3c14690888564cd68f0a4c78f:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12124,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "7b25204e79cc75a3c14690888564cd68f0a4c78f",
+    "author": "VolodySyn",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "fix default bin assignment when creating purchase orders for drop shipments"
+  }
+}

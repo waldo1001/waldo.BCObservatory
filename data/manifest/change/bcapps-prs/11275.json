@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/11275",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Bug 649652: [main][NAV] Track Translation update (AUTODETECTED)",
+  "url": "https://github.com/microsoft/BCApps/pull/11275",
+  "published_at": "2026-09-09T22:33:05Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "2b77a80c1cbaf9c4aa4eecacbbd7fe76175d3472:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11275,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "2b77a80c1cbaf9c4aa4eecacbbd7fe76175d3472",
+    "author": "BardurKnudsen",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 649652 main nav track translation update autodetected"
+  }
+}

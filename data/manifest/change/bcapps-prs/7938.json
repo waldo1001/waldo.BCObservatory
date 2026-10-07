@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/7938",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Bugs/632378 make quality inspection gen rule warning actionable",
+  "url": "https://github.com/microsoft/BCApps/pull/7938",
+  "published_at": "2026-07-16T13:31:24Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "2523cb7ddc1eaaa478ce0f8fc8db41435c1bbe6d:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 7938,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "2523cb7ddc1eaaa478ce0f8fc8db41435c1bbe6d",
+    "author": "6CRIPT",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "bugs 632378 make quality inspection gen rule warning actionable"
+  }
+}

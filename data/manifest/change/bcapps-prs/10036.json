@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/10036",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[SOA]: Bugbash for releases 28.x - Contact unable to find due to Qasim map to Megan, different names",
+  "url": "https://github.com/microsoft/BCApps/pull/10036",
+  "published_at": "2026-08-13T12:52:00Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "c7e23ac8fb2ed3e176849e792f25af00b374bebd:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10036,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "c7e23ac8fb2ed3e176849e792f25af00b374bebd",
+    "author": "tomasevicst",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "soa bugbash for releases 28 x contact unable to find due to qasim map to megan different names"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "change/bcapps-prs/9736",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Split Tests-SCM and Tests-ERM into sub-domain apps to parallelize the legacy test stage",
+  "url": "https://github.com/microsoft/BCApps/pull/9736",
+  "published_at": "2026-08-07T11:28:27Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "20a5759a94c4bd7fcf5a7a829d669f33c00cbfb0:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9736,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "20a5759a94c4bd7fcf5a7a829d669f33c00cbfb0",
+    "author": "Groenbech96",
+    "author_type": "User",
+    "labels": [
+      "Build: Automation",
+      "Build: scripts & configs",
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": false,
+    "title_key": "split tests scm and tests erm into sub domain apps to parallelize the legacy test stage"
+  }
+}

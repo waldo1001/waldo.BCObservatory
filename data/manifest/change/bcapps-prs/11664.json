@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/11664",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Add OnBefore event for approval insertion checks",
+  "url": "https://github.com/microsoft/BCApps/pull/11664",
+  "published_at": "2026-09-23T09:37:03Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "3a23056129e7274af8f0f330812b59e6114498f8:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11664,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "3a23056129e7274af8f0f330812b59e6114498f8",
+    "author": "darjoo",
+    "author_type": "User",
+    "labels": [
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "add onbefore event for approval insertion checks"
+  }
+}

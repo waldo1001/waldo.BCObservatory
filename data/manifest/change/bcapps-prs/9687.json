@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9687",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[main] bug 642230 - Enhance FA General Report logic and add tests for Tax Deprec. Group and FA Posting Group handling",
+  "url": "https://github.com/microsoft/BCApps/pull/9687",
+  "published_at": "2026-07-23T21:50:08Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "59750d58b62a85608457e8377496666022e543a9:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9687,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "59750d58b62a85608457e8377496666022e543a9",
+    "author": "DavidHolusa",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 642230 enhance fa general report logic and add tests for tax deprec group and fa posting group handling"
+  }
+}

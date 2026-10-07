@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/11002",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Master] - Slice 626305: [Excise Tax][VENDOR] Improving Excise Duty Calculation",
+  "url": "https://github.com/microsoft/BCApps/pull/11002",
+  "published_at": "2026-09-15T15:28:08Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "0129ea794b63dabe6fb5208f999ee3955bcdf0e1:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11002,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "0129ea794b63dabe6fb5208f999ee3955bcdf0e1",
+    "author": "v-rohangarg20",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "master slice 626305 excise tax vendor improving excise duty calculation"
+  }
+}

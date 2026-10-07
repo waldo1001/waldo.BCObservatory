@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/11658",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Shopify] Limit webhook subscription payload fields",
+  "url": "https://github.com/microsoft/BCApps/pull/11658",
+  "published_at": "2026-09-22T13:49:35Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "744a355980cee670f751a5181df76dd0ff2cd1ed:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11658,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "744a355980cee670f751a5181df76dd0ff2cd1ed",
+    "author": "onbuyuka",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "shopify limit webhook subscription payload fields"
+  }
+}

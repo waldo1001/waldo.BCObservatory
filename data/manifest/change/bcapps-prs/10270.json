@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/10270",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Quality Management] Repair and improve XML documentation of procedures",
+  "url": "https://github.com/microsoft/BCApps/pull/10270",
+  "published_at": "2026-08-20T10:15:14Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "0ea5e808d977dfd52bb3dd3014494fe73c43001e:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10270,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "0ea5e808d977dfd52bb3dd3014494fe73c43001e",
+    "author": "JakovljevicDusan",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "quality management repair and improve xml documentation of procedures"
+  }
+}

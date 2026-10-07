@@ -1,0 +1,35 @@
+{
+  "id": "change/bcapps-prs/10064",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Add support for “External Document No.” in Subscription Contracts Fixes #8818",
+  "url": "https://github.com/microsoft/BCApps/pull/10064",
+  "published_at": "2026-09-22T01:01:52Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "35ff2babc3ce29c657f2d0ad39f74bddb4d59a4d:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10064,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "35ff2babc3ce29c657f2d0ad39f74bddb4d59a4d",
+    "author": "dksander",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "AL: Apps (W1)",
+      "From Fork",
+      "Team: Finance"
+    ],
+    "community_contribution": true,
+    "title_key": "add support for external document no in subscription contracts fixes 8818"
+  }
+}

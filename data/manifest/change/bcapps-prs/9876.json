@@ -1,0 +1,35 @@
+{
+  "id": "change/bcapps-prs/9876",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Subscription Billing] Rename progress tracker",
+  "url": "https://github.com/microsoft/BCApps/pull/9876",
+  "published_at": "2026-07-31T22:23:43Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "42ff2ce7545a3e33d90156162fdcd21ced373e7d:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9876,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "42ff2ce7545a3e33d90156162fdcd21ced373e7d",
+    "author": "djukicmilica",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "AL: Apps (W1)",
+      "From Fork",
+      "Team: Finance"
+    ],
+    "community_contribution": true,
+    "title_key": "subscription billing rename progress tracker"
+  }
+}

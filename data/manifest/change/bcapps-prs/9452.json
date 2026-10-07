@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/9452",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Extensibility Request] issue 30329: override confirmation text in CancelPostedInvoiceAndOpenSalesOrder",
+  "url": "https://github.com/microsoft/BCApps/pull/9452",
+  "published_at": "2026-07-15T09:51:51Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "1d51555b199af18f63b9fbad3188d7e002d2b3f4:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9452,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "1d51555b199af18f63b9fbad3188d7e002d2b3f4",
+    "author": "AleksandricMarko",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM",
+      "event-request"
+    ],
+    "community_contribution": false,
+    "title_key": "extensibility request issue 30329 override confirmation text in cancelpostedinvoiceandopensalesorder"
+  }
+}

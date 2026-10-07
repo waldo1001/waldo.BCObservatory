@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/9133",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Master]-Project consumption: partial invoicing of non-inventory items posts negative adjustment value entry to wrong Item Ledger Entry",
+  "url": "https://github.com/microsoft/BCApps/pull/9133",
+  "published_at": "2026-07-10T15:17:42Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "849aef14d2f0c3a265ae2c552a53072f6ec3ec90:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9133,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "849aef14d2f0c3a265ae2c552a53072f6ec3ec90",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "From Fork",
+      "Team: SCM"
+    ],
+    "community_contribution": true,
+    "title_key": "master project consumption partial invoicing of non inventory items posts negative adjustment value entry to wrong item ledger entry"
+  }
+}

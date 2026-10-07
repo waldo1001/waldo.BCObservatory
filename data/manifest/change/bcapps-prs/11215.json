@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/11215",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Fix 647572: add ContractTemplateConfirmHandler to FI Company Field Report Test",
+  "url": "https://github.com/microsoft/BCApps/pull/11215",
+  "published_at": "2026-09-09T11:06:10Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "59c40d6bdeff78149fe348a4847324fa35c9e220:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11215,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "59c40d6bdeff78149fe348a4847324fa35c9e220",
+    "author": "Explorer986",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "fix 647572 add contracttemplateconfirmhandler to fi company field report test"
+  }
+}

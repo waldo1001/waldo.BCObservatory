@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/10294",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[SOA] Fix missing Agent Task Message read permission in contact search",
+  "url": "https://github.com/microsoft/BCApps/pull/10294",
+  "published_at": "2026-08-17T23:31:32Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "4c04dd3d1fa9b5da884449a781df6f4b8e1a54ca:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10294,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "4c04dd3d1fa9b5da884449a781df6f4b8e1a54ca",
+    "author": "tomasevicst",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "soa fix missing agent task message read permission in contact search"
+  }
+}

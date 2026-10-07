@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/11657",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Fix VIES integrity check: tolerate country-code prefix on echoed VAT number (uptake fix)",
+  "url": "https://github.com/microsoft/BCApps/pull/11657",
+  "published_at": "2026-09-21T19:46:21Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "a9db39960cf2b3ded339e41c4e68fc6b1254a8e1:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11657,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "a9db39960cf2b3ded339e41c4e68fc6b1254a8e1",
+    "author": "dcenic",
+    "author_type": "User",
+    "labels": [
+      "Ownership: Manual",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "fix vies integrity check tolerate country code prefix on echoed vat number uptake fix"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9430",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Fix untrappable JSON error in E-Document ADI import (Bug 640122)",
+  "url": "https://github.com/microsoft/BCApps/pull/9430",
+  "published_at": "2026-07-15T11:51:41Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "f87b8a865af51d43433b278a234aa2b8191caf0a:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9430,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "f87b8a865af51d43433b278a234aa2b8191caf0a",
+    "author": "ventselartur",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)"
+    ],
+    "community_contribution": false,
+    "title_key": "fix untrappable json error in e document adi import bug 640122"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/10184",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Mai][German Localization] Recurring Frequency DateFormula Exports as Invariant Tokens (+1D/+1Y) Instead of Localized UI Tokens (+1T/+1J) in ExcelInital commit",
+  "url": "https://github.com/microsoft/BCApps/pull/10184",
+  "published_at": "2026-08-18T08:37:38Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "cbbf92bcfda832affefbd9a713134cf566e70b91:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10184,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "cbbf92bcfda832affefbd9a713134cf566e70b91",
+    "author": "sanjmaurya",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "mai german localization recurring frequency dateformula exports as invariant tokens 1d 1y instead of localized ui tokens 1t 1j in excelinital commit"
+  }
+}

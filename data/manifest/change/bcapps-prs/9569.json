@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/9569",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Enforce permissions when reviewing orphaned extension data",
+  "url": "https://github.com/microsoft/BCApps/pull/9569",
+  "published_at": "2026-07-23T09:20:37Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "44df0f82f6129a2ae4ea2ba2ff50c0e784a1cf83:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9569,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "44df0f82f6129a2ae4ea2ba2ff50c0e784a1cf83",
+    "author": "jhejlsberg",
+    "author_type": "User",
+    "labels": [
+      "AL: System Application",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "enforce permissions when reviewing orphaned extension data"
+  }
+}

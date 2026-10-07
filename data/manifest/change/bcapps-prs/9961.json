@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/9961",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Extensibility Request] issue 30381: expose page sender to filter subscribers",
+  "url": "https://github.com/microsoft/BCApps/pull/9961",
+  "published_at": "2026-08-10T23:20:03Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "f745feb96672d11961d10083b60745187cb4c710:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9961,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "f745feb96672d11961d10083b60745187cb4c710",
+    "author": "AleksandricMarko",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM",
+      "event-request"
+    ],
+    "community_contribution": false,
+    "title_key": "extensibility request issue 30381 expose page sender to filter subscribers"
+  }
+}

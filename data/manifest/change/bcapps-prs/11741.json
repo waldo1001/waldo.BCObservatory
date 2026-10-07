@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/11741",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[MCP] Add company and environment descriptions",
+  "url": "https://github.com/microsoft/BCApps/pull/11741",
+  "published_at": "2026-09-30T14:23:06Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "5d287d0c253487563e3fd12624ba86ee3c889263:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11741,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "5d287d0c253487563e3fd12624ba86ee3c889263",
+    "author": "nikolakukrika",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "AL: System Application",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "mcp add company and environment descriptions"
+  }
+}

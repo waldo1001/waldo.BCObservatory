@@ -1,0 +1,225 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12064,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12064",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-07T09:54:56Z",
+  "merge_commit_sha": "ed4c5cc834c3b90f72a3edadcf378b37f628fe1c",
+  "author": "JesperSchulz",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "AL: System Application",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "Support SharePoint paths containing hash and percent characters",
+  "body_hash": "67ce71e7ed7c24f2085f2187c514a2c7d4ae0926241729f736f74521e68ebcf6",
+  "fixes_issues": [],
+  "work_items": [
+    647600,
+    651781,
+    651782
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/External File Storage - SharePoint Connector/App/README.md",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 1,
+      "class": "docs"
+    },
+    {
+      "path": "src/Apps/W1/External File Storage - SharePoint Connector/App/src/ExtSharePointAccount.Page.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/External File Storage - SharePoint Connector/App/src/ExtSharePointAccount.Table.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/External File Storage - SharePoint Connector/App/src/ExtSharePointAccountWizard.Page.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/External File Storage - SharePoint Connector/App/src/ExtSharePointPathFormat.Enum.al",
+      "status": "added",
+      "additions": 23,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/External File Storage - SharePoint Connector/App/src/ExtSharePointRestHelper.Codeunit.al",
+      "status": "modified",
+      "additions": 19,
+      "deletions": 13,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/External File Storage - SharePoint Connector/Test/src/ExtSPAccountTableTest.Codeunit.al",
+      "status": "modified",
+      "additions": 15,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/External File Storage - SharePoint Connector/Test/src/ExtSPRestHelperTest.Codeunit.al",
+      "status": "modified",
+      "additions": 183,
+      "deletions": 9,
+      "class": "al-test"
+    },
+    {
+      "path": "src/System Application/App/SharePoint/src/SharePointClient.Codeunit.al",
+      "status": "modified",
+      "additions": 90,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/SharePoint/src/SharePointClientImpl.Codeunit.al",
+      "status": "modified",
+      "additions": 149,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/SharePoint/src/helpers/SharePointUriBuilder.Codeunit.al",
+      "status": "modified",
+      "additions": 23,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/Test Library/SharePoint/src/SharePointTestLibrary.Codeunit.al",
+      "status": "modified",
+      "additions": 77,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/System Application/Test/SharePoint/src/SharePointClientTest.Codeunit.al",
+      "status": "modified",
+      "additions": 102,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 13,
+    "additions": 700,
+    "deletions": 23,
+    "al": 8
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/External File Storage - SharePoint Connector/App/src/ExtSharePointAccount.Page.al",
+        "status": "modified",
+        "key": "page/4580",
+        "type": "page",
+        "id": 4580,
+        "name": "Ext. SharePoint Account",
+        "app": "External File Storage - SharePoint Connector",
+        "cc": "w1",
+        "page": "page/4580"
+      },
+      {
+        "path": "src/Apps/W1/External File Storage - SharePoint Connector/App/src/ExtSharePointAccount.Table.al",
+        "status": "modified",
+        "key": "table/4580",
+        "type": "table",
+        "id": 4580,
+        "name": "Ext. SharePoint Account",
+        "app": "External File Storage - SharePoint Connector",
+        "cc": "w1",
+        "page": "table/4580"
+      },
+      {
+        "path": "src/Apps/W1/External File Storage - SharePoint Connector/App/src/ExtSharePointAccountWizard.Page.al",
+        "status": "modified",
+        "key": "page/4581",
+        "type": "page",
+        "id": 4581,
+        "name": "Ext. SharePoint Account Wizard",
+        "app": "External File Storage - SharePoint Connector",
+        "cc": "w1",
+        "page": "page/4581"
+      },
+      {
+        "path": "src/Apps/W1/External File Storage - SharePoint Connector/App/src/ExtSharePointRestHelper.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/4609",
+        "type": "codeunit",
+        "id": 4609,
+        "name": "Ext. SharePoint REST Helper",
+        "app": "External File Storage - SharePoint Connector",
+        "cc": "w1",
+        "page": "codeunit/4609"
+      },
+      {
+        "path": "src/System Application/App/SharePoint/src/SharePointClient.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/9100",
+        "type": "codeunit",
+        "id": 9100,
+        "name": "SharePoint Client",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "codeunit/9100"
+      },
+      {
+        "path": "src/System Application/App/SharePoint/src/SharePointClientImpl.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/9101",
+        "type": "codeunit",
+        "id": 9101,
+        "name": "SharePoint Client Impl.",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "codeunit/9101"
+      },
+      {
+        "path": "src/System Application/App/SharePoint/src/helpers/SharePointUriBuilder.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/9110",
+        "type": "codeunit",
+        "id": 9110,
+        "name": "SharePoint Uri Builder",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "codeunit/9110"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Apps/W1/External File Storage - SharePoint Connector/App/src/ExtSharePointPathFormat.Enum.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "development",
+    "integration"
+  ],
+  "apps": [
+    "External File Storage - SharePoint Connector",
+    "System Application"
+  ]
+}

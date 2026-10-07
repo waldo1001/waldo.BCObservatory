@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/11400",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Shopify] Handle missing variant mapping in product action",
+  "url": "https://github.com/microsoft/BCApps/pull/11400",
+  "published_at": "2026-09-18T11:45:30Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "02395250f92cafb5a16f732b09412536e50f04d9:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11400,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "02395250f92cafb5a16f732b09412536e50f04d9",
+    "author": "onbuyuka",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "shopify handle missing variant mapping in product action"
+  }
+}

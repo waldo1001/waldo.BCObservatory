@@ -1,0 +1,42 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12210,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12210",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-06T14:58:16Z",
+  "merge_commit_sha": "eb822e0ddf035a26fde1dfe28247a631f6b292e9",
+  "author": "dayland",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[Payables Agent] Unrelated text-to-account mapping is applied to every unmatched invoice line",
+  "body_hash": "843d3a267be7b121417b0af1a0ef43fb66b8cce74ff54cf6cbcfeac28aa011b8",
+  "fixes_issues": [],
+  "work_items": [
+    648714,
+    652570,
+    652571
+  ],
+  "change_class": "docs",
+  "files": [],
+  "totals": {
+    "files": 1,
+    "additions": 3,
+    "deletions": 2,
+    "al": 0
+  },
+  "join": {
+    "major": "30",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}

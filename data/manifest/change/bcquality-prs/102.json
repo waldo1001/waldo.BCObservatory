@@ -1,0 +1,30 @@
+{
+  "id": "change/bcquality-prs/102",
+  "pillar": "change",
+  "source": "bcquality-prs",
+  "tier": "official",
+  "title": "Privacy DataClassification fixes + keep Label-scope findings at minor",
+  "url": "https://github.com/microsoft/BCQuality/pull/102",
+  "published_at": "2026-07-14T12:23:04Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "809af9708e265f110ced6752fd8f2e40f1efc820:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 102,
+    "repo": "microsoft/BCQuality",
+    "base": "main",
+    "major": null,
+    "merge_commit_sha": "809af9708e265f110ced6752fd8f2e40f1efc820",
+    "author": "gggdttt",
+    "author_type": "User",
+    "labels": [],
+    "community_contribution": false,
+    "title_key": "privacy dataclassification fixes keep label scope findings at minor"
+  }
+}

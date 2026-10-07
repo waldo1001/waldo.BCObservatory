@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/10164",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Correction of where inventory valuation Power BI reports are shown",
+  "url": "https://github.com/microsoft/BCApps/pull/10164",
+  "published_at": "2026-08-13T12:52:00Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "897aabb055832edd271c5fe5949744f286c4efe2:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10164,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "897aabb055832edd271c5fe5949744f286c4efe2",
+    "author": "mynjj",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "correction of where inventory valuation power bi reports are shown"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/10008",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[MCP] Add codeunit APIs as MCP tools in MCP configuration",
+  "url": "https://github.com/microsoft/BCApps/pull/10008",
+  "published_at": "2026-08-20T02:58:55Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "6670f6a16f9df987e16b6c6af4b7f34af14a3094:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10008,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "6670f6a16f9df987e16b6c6af4b7f34af14a3094",
+    "author": "onbuyuka",
+    "author_type": "User",
+    "labels": [
+      "AL: System Application",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "mcp add codeunit apis as mcp tools in mcp configuration"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/10411",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[SOA] Allow changing or clearing manually selected contacts",
+  "url": "https://github.com/microsoft/BCApps/pull/10411",
+  "published_at": "2026-08-20T16:58:21Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "66eaeaf9afd9215ba3792bf3b56dcec59a7b05f4:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10411,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "66eaeaf9afd9215ba3792bf3b56dcec59a7b05f4",
+    "author": "tomasevicst",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "soa allow changing or clearing manually selected contacts"
+  }
+}

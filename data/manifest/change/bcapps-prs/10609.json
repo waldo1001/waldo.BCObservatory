@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/10609",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Master]-Inconsistent Validation of Non-Deductible VAT % for Purchase Lines Sharing the Same VAT Identifier- #10607",
+  "url": "https://github.com/microsoft/BCApps/pull/10609",
+  "published_at": "2026-09-01T05:59:49Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "20c3a9a592a2dc7de89d15b0e6739226ca23e562:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10609,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "20c3a9a592a2dc7de89d15b0e6739226ca23e562",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "master inconsistent validation of non deductible vat for purchase lines sharing the same vat identifier 10607"
+  }
+}

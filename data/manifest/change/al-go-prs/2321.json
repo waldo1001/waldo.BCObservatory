@@ -1,0 +1,30 @@
+{
+  "id": "change/al-go-prs/2321",
+  "pillar": "change",
+  "source": "al-go-prs",
+  "tier": "official",
+  "title": "fix: error on delivery of multiple release artifacts of same project",
+  "url": "https://github.com/microsoft/AL-Go/pull/2321",
+  "published_at": "2026-08-07T08:07:28Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "92a37f15c9e6bf29a5cd66d02ff761b8b0022649:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 2321,
+    "repo": "microsoft/AL-Go",
+    "base": "main",
+    "major": null,
+    "merge_commit_sha": "92a37f15c9e6bf29a5cd66d02ff761b8b0022649",
+    "author": "OleWunschmann",
+    "author_type": "User",
+    "labels": [],
+    "community_contribution": false,
+    "title_key": "fix error on delivery of multiple release artifacts of same project"
+  }
+}

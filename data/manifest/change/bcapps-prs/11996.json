@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/11996",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Restrict expense configuration maintenance to admins",
+  "url": "https://github.com/microsoft/BCApps/pull/11996",
+  "published_at": "2026-09-29T12:43:04Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "9b8f23733e0646da2fbe615dec67fc4ab1e70839:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11996,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "9b8f23733e0646da2fbe615dec67fc4ab1e70839",
+    "author": "encimita",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "restrict expense configuration maintenance to admins"
+  }
+}

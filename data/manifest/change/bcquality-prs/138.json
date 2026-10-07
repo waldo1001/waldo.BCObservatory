@@ -1,0 +1,30 @@
+{
+  "id": "change/bcquality-prs/138",
+  "pillar": "change",
+  "source": "bcquality-prs",
+  "tier": "official",
+  "title": "knowledge(style): event subscribers bind by parameter name, so a shorter list is not a mismatch",
+  "url": "https://github.com/microsoft/BCQuality/pull/138",
+  "published_at": "2026-08-28T09:07:06Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "85ceaaa1a49057a5eeef5866d795326d30c57a6a:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 138,
+    "repo": "microsoft/BCQuality",
+    "base": "main",
+    "major": null,
+    "merge_commit_sha": "85ceaaa1a49057a5eeef5866d795326d30c57a6a",
+    "author": "gggdttt",
+    "author_type": "User",
+    "labels": [],
+    "community_contribution": false,
+    "title_key": "knowledge style event subscribers bind by parameter name so a shorter list is not a mismatch"
+  }
+}

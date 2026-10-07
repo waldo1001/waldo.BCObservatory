@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/10162",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Fix stale start status in e-document import pipeline",
+  "url": "https://github.com/microsoft/BCApps/pull/10162",
+  "published_at": "2026-08-13T08:37:27Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "3d5f50ed43225f924ced20d61200455c62287309:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10162,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "3d5f50ed43225f924ced20d61200455c62287309",
+    "author": "mynjj",
+    "author_type": "User",
+    "labels": [
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "fix stale start status in e document import pipeline"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/11007",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Add Travel Request API lifecycle to Expense Agent",
+  "url": "https://github.com/microsoft/BCApps/pull/11007",
+  "published_at": "2026-09-09T10:12:48Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "96a6e9956b57ba6ec008f64824d8a3e4ca5500d4:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11007,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "96a6e9956b57ba6ec008f64824d8a3e4ca5500d4",
+    "author": "claudiuciumedean",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "ExpenseManagement",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "add travel request api lifecycle to expense agent"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/11121",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Fix generation rule source table validation ",
+  "url": "https://github.com/microsoft/BCApps/pull/11121",
+  "published_at": "2026-09-10T10:26:19Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "d9496dbde628e2f5bc90ab7894710673c12b0521:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11121,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "d9496dbde628e2f5bc90ab7894710673c12b0521",
+    "author": "6CRIPT",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "SCM",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "fix generation rule source table validation"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "change/bcquality-prs/214",
+  "pillar": "change",
+  "source": "bcquality-prs",
+  "tier": "official",
+  "title": "UI knowledge: notification recall needs a known Id; open mixed-type documents through Page Management",
+  "url": "https://github.com/microsoft/BCQuality/pull/214",
+  "published_at": "2026-10-06T11:31:00Z",
+  "state": "fetched",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:55:53.300Z",
+      "change_class": "code",
+      "files": 8,
+      "al": 7,
+      "objects": 0,
+      "unjoined": 7
+    }
+  },
+  "input_hash": "86d809b5252aa2fe187ccb9f16bef435bb8c9be6:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 214,
+    "repo": "microsoft/BCQuality",
+    "base": "main",
+    "major": null,
+    "merge_commit_sha": "86d809b5252aa2fe187ccb9f16bef435bb8c9be6",
+    "author": "MichaelDieringer",
+    "author_type": "User",
+    "labels": [],
+    "community_contribution": false,
+    "title_key": "ui knowledge notification recall needs a known id open mixed type documents through page management"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "659fb6559595bf04197e470d621ec0bd5a7780ca1193eadea38d9b3e31099550"
+}

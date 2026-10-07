@@ -1,0 +1,38 @@
+{
+  "id": "change/bcapps-prs/10631",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Integration/main to releases 29.x 31a860b5",
+  "url": "https://github.com/microsoft/BCApps/pull/10631",
+  "published_at": "2026-08-26T07:23:17Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "202b98770ce601716f20cf99439483fc6171628a:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10631,
+    "repo": "microsoft/BCApps",
+    "base": "releases/29.x",
+    "major": "29",
+    "merge_commit_sha": "202b98770ce601716f20cf99439483fc6171628a",
+    "author": "mirouhl",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "AL: Business Foundation",
+      "AL: System Application",
+      "AL: Tools",
+      "Build: Automation",
+      "Build: scripts & configs",
+      "needs-approval"
+    ],
+    "community_contribution": false,
+    "title_key": "integration main to releases 29 x 31a860b5"
+  }
+}

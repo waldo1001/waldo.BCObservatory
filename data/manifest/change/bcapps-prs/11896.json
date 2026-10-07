@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/11896",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Master Data Management] Cross-env over-cap blob clears the subsidiary blob",
+  "url": "https://github.com/microsoft/BCApps/pull/11896",
+  "published_at": "2026-09-28T12:20:21Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "60fb19d7c3e6fefb8e9273fddd5c037ce0729f0a:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11896,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "60fb19d7c3e6fefb8e9273fddd5c037ce0729f0a",
+    "author": "dcenic",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "master data management cross env over cap blob clears the subsidiary blob"
+  }
+}

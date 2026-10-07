@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/12143",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Bug 649440: [Subcontracting] [IT] Disable Legacy Subcontracting leaves Component Supply Method empty after conversion",
+  "url": "https://github.com/microsoft/BCApps/pull/12143",
+  "published_at": "2026-10-06T07:33:12Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "3df81bcd9eff84993c51c80b4c20350665ee1f52:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12143,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "3df81bcd9eff84993c51c80b4c20350665ee1f52",
+    "author": "ChethanT",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 649440 subcontracting it disable legacy subcontracting leaves component supply method empty after conversion"
+  }
+}

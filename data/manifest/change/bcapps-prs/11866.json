@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/11866",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Shopify] Disable Sync Shipments To Shopify when no Shopify orders exist",
+  "url": "https://github.com/microsoft/BCApps/pull/11866",
+  "published_at": "2026-10-01T15:21:28Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "8e9eddee2947dfc157cffcb80109a7e091b21f6e:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11866,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "8e9eddee2947dfc157cffcb80109a7e091b21f6e",
+    "author": "onbuyuka",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "shopify disable sync shipments to shopify when no shopify orders exist"
+  }
+}

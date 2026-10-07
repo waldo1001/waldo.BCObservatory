@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9318",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Shopify] Fix Get Catalogs tooltip to explain company dependency",
+  "url": "https://github.com/microsoft/BCApps/pull/9318",
+  "published_at": "2026-07-13T09:25:41Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "5bd43e78cf684f50e504eb232b34e59610833d36:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9318,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "5bd43e78cf684f50e504eb232b34e59610833d36",
+    "author": "onbuyuka",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)"
+    ],
+    "community_contribution": false,
+    "title_key": "shopify fix get catalogs tooltip to explain company dependency"
+  }
+}

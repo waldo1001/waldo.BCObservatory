@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/9463",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Extensibility Request] issue 30336: add OnValidateNoOnBeforeModifyCapNeedEntries event in Prod. Order Routing Line",
+  "url": "https://github.com/microsoft/BCApps/pull/9463",
+  "published_at": "2026-07-30T19:22:58Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "24751c1a0dbcc68ae616379c30096002e81f66cc:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9463,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "24751c1a0dbcc68ae616379c30096002e81f66cc",
+    "author": "AleksandricMarko",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM",
+      "event-request"
+    ],
+    "community_contribution": false,
+    "title_key": "extensibility request issue 30336 add onvalidatenoonbeforemodifycapneedentries event in prod order routing line"
+  }
+}

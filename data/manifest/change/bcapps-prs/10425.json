@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/10425",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[master] Remittance Advice Report (ID 10083) prints Amount Due = 0 when using Suggest Vendor Payments with Summarize Per Vendor",
+  "url": "https://github.com/microsoft/BCApps/pull/10425",
+  "published_at": "2026-08-20T13:03:37Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "02648bd2afdb12c3a1185e6c2f4d9a95d3b9bdff:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10425,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "02648bd2afdb12c3a1185e6c2f4d9a95d3b9bdff",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "master remittance advice report id 10083 prints amount due 0 when using suggest vendor payments with summarize per vendor"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/10990",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Add-Expense-VAT-settings-to-Contoso-demo-tool",
+  "url": "https://github.com/microsoft/BCApps/pull/10990",
+  "published_at": "2026-09-10T10:26:19Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "c3b90f12b6e85aaa1f458ab3dbbff8596511e0d0:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10990,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "c3b90f12b6e85aaa1f458ab3dbbff8596511e0d0",
+    "author": "Alexander-Ya",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "ExpenseManagement",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "add expense vat settings to contoso demo tool"
+  }
+}

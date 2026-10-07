@@ -1,0 +1,35 @@
+{
+  "item_id": "change/bcapps-prs/11560",
+  "number": 11560,
+  "title": "[E-Documents Core] [Peppol] - Enabling EDI capabilities with E-Documents. Send path (Self-Billed Purchase Invoice/Credit Memo → E-Document)",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration",
+    "development",
+    "purchasing"
+  ],
+  "summary": "Enables exporting self-billed purchase invoices and credit memos as Peppol BIS 3.0 e-documents, with automatic type assignment based on vendor self-billing agreements and new manual creation actions on posted purchase pages.",
+  "key_points": [
+    "Adds two new E-Document Type values for self-billed purchase documents to distinguish them from ordinary purchase invoices",
+    "Implements automatic type assignment when posting purchase documents if vendor has active self-billing agreement",
+    "Creates new self-billed Peppol export codeunit with swapped party roles using vendor as supplier and company as customer",
+    "Adds manual actions on Posted Purchase Invoice and Credit Memo pages for creating self-billed e-documents",
+    "Includes export validation for participant presence and VAT registration with graceful error logging"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration",
+    "purchasing"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004797,
+    "changes_in_call": 1
+  }
+}

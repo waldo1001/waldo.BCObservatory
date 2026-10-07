@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9729",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[MAIN]-The system throws the error while posting a receipt against a Subcontracting Order.",
+  "url": "https://github.com/microsoft/BCApps/pull/9729",
+  "published_at": "2026-08-17T23:25:35Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "eff9f441c8f4f9020aa25ce179951c8b9b091b35:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9729,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "eff9f441c8f4f9020aa25ce179951c8b9b091b35",
+    "author": "v-maheshsharma",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "the system throws the error while posting a receipt against a subcontracting order"
+  }
+}

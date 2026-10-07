@@ -1,0 +1,60 @@
+{
+  "id": "change/bcapps-prs/11959",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Master]-Production Order Fails to Finish Due to Quantity Rounding Difference Between Component Consumption and Item Tracking Quantity - Copy",
+  "url": "https://github.com/microsoft/BCApps/pull/11959",
+  "published_at": "2026-10-07T10:28:12Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:55:31.293Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T12:55:35.798Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.002924
+    },
+    "linked": {
+      "at": "2026-10-07T12:55:35.937Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T12:55:35.946Z",
+      "path": "content/changes/bcapps/11959.md"
+    }
+  },
+  "input_hash": "c9e19d166ec8dbe14292599cd2c598ae5527e714:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11959,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "c9e19d166ec8dbe14292599cd2c598ae5527e714",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "master production order fails to finish due to quantity rounding difference between component consumption and item tracking quantity copy"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "27a756dbc59fa27ace4010a017d405ad368ef4b3d51520258c5170f79d4a1f05"
+}

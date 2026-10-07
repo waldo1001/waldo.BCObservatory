@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/10179",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[master] Financial Report Recalculate clears Global Dimension filters",
+  "url": "https://github.com/microsoft/BCApps/pull/10179",
+  "published_at": "2026-08-13T16:53:28Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "75b5de95ea86c4bf58032fde97e8ce91c08968b3:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10179,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "75b5de95ea86c4bf58032fde97e8ce91c08968b3",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "master financial report recalculate clears global dimension filters"
+  }
+}

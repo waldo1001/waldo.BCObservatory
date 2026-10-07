@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/12188",
+  "number": 12188,
+  "title": "[Master]-Reserved quantities do not match the expected quantities after planning - regression due to correction",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory"
+  ],
+  "summary": "Reserved quantities now correctly match expected quantities in manufacturing inventory profile offsetting by fixing a regression in the calculation logic.",
+  "key_points": [
+    "Fixed calculation error in inventory profile offsetting for manufacturing",
+    "Addresses regression affecting reserved vs expected quantity matching",
+    "Updates manufacturing inventory tracking codeunit with corrected logic",
+    "Includes test coverage for the fix"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing",
+    "inventory"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.002893,
+    "changes_in_call": 1
+  }
+}

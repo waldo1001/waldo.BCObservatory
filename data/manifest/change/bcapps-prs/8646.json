@@ -1,0 +1,35 @@
+{
+  "id": "change/bcapps-prs/8646",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[PEPPOL] Add PEPPOL SE localization: Swedish organisation number for endpoints under scheme 0007",
+  "url": "https://github.com/microsoft/BCApps/pull/8646",
+  "published_at": "2026-07-21T13:07:31Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "6ee7f88f02c7385870a5a2b6e438fdc3d58f60c6:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 8646,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "6ee7f88f02c7385870a5a2b6e438fdc3d58f60c6",
+    "author": "Franco111000",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "Build: scripts & configs",
+      "From Fork",
+      "Team: Integrations"
+    ],
+    "community_contribution": true,
+    "title_key": "peppol add peppol se localization swedish organisation number for endpoints under scheme 0007"
+  }
+}

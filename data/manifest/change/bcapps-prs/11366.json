@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/11366",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Filter top customer and top vendor Excel reports on the posting group",
+  "url": "https://github.com/microsoft/BCApps/pull/11366",
+  "published_at": "2026-09-15T08:39:47Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "c3f7c5e53e9cd78850d4ac5dd2dd6557cd0e61fb:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11366,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "c3f7c5e53e9cd78850d4ac5dd2dd6557cd0e61fb",
+    "author": "Explorer986",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "filter top customer and top vendor excel reports on the posting group"
+  }
+}

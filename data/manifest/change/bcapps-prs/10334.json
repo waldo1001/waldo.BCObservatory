@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/10334",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Add integration event OnAfterGetRecordOnAfterConfirmAndModify in the General Posting Setup dataitem OnAfterGetRecord trigger after Modify.",
+  "url": "https://github.com/microsoft/BCApps/pull/10334",
+  "published_at": "2026-08-19T08:47:29Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "029fc0c6ef0aedf4631c2c629849587be905e760:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10334,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "029fc0c6ef0aedf4631c2c629849587be905e760",
+    "author": "Explorer986",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "add integration event onaftergetrecordonafterconfirmandmodify in the general posting setup dataitem onaftergetrecord trigger after modify"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/10840",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Bugs/625412 Wrong posted G/L Entries and VAT Entries using Cash Basis Unrealized VAT from a partial Credit Memo if we mix VAT types and use only part of the amount in the Mexican version.",
+  "url": "https://github.com/microsoft/BCApps/pull/10840",
+  "published_at": "2026-09-14T14:24:43Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "ff628473f8593c965918891190240c84a8bd2ba9:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10840,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "ff628473f8593c965918891190240c84a8bd2ba9",
+    "author": "v-mjofre",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "bugs 625412 wrong posted g l entries and vat entries using cash basis unrealized vat from a partial credit memo if we mix vat types and use only part of the amount in the mexican version"
+  }
+}

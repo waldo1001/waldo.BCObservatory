@@ -1,0 +1,34 @@
+{
+  "item_id": "change/bcapps-prs/12325",
+  "number": 12325,
+  "title": "[Expense tests] Re-enable reviewed APIs and consolidate Expense fixes",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Expense API tests are re-enabled by consolidating authentication mechanisms and removing API-specific test exclusions, while fixing policy snapshot test issues and preserving non-API exclusions.",
+  "key_points": [
+    "Migrated 11 Expense API and helper paths to shared authentication",
+    "Removed 51 Expense API test exclusions while preserving 9 non-API exclusions",
+    "Enabled existing clean test codeunit execution using existing DisabledTests selectors",
+    "Consolidated fixes for policy URL composition, response isolation, and permission handling",
+    "No new runner implementations or test scope changes introduced"
+  ],
+  "change_kind": "fix",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "copilot",
+    "development"
+  ],
+  "quote": "Migrate the 11 reviewed Expense API/helper paths to shared authentication and remove exactly 51 existing Expense API exclusions.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005271,
+    "changes_in_call": 1
+  }
+}

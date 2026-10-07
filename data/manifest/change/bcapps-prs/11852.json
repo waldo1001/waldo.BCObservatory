@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/11852",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[main] Allocation Accounts with Invoice Discount produces wrong posted entries in Sales and Purchases documents in the Spanish version.",
+  "url": "https://github.com/microsoft/BCApps/pull/11852",
+  "published_at": "2026-09-29T14:28:24Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "9f38f8a0d3422e150104a4887342a461f0c7f24c:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11852,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "9f38f8a0d3422e150104a4887342a461f0c7f24c",
+    "author": "Shikhverma",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "allocation accounts with invoice discount produces wrong posted entries in sales and purchases documents in the spanish version"
+  }
+}

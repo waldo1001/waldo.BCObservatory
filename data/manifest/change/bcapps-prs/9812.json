@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/9812",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Refresh in-repo AL documentation for E-Document, Shopify, Privacy Notice and API Reports",
+  "url": "https://github.com/microsoft/BCApps/pull/9812",
+  "published_at": "2026-07-29T20:05:41Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "57bfb641f6acf2a76f20a6c39a8fe6a154ecae3d:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9812,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "57bfb641f6acf2a76f20a6c39a8fe6a154ecae3d",
+    "author": "Groenbech96",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "AL: System Application",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "refresh in repo al documentation for e document shopify privacy notice and api reports"
+  }
+}

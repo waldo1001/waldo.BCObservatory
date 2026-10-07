@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9405",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[FI] Delocalize FI Currency Exchange Rate import into FI Core",
+  "url": "https://github.com/microsoft/BCApps/pull/9405",
+  "published_at": "2026-08-06T09:55:30Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "0066516c4f89dd5e421f3e769aff4d4b32563e44:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9405,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "0066516c4f89dd5e421f3e769aff4d4b32563e44",
+    "author": "djukicmilica",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "fi delocalize fi currency exchange rate import into fi core"
+  }
+}

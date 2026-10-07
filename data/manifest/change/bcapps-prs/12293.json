@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/12293",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Remove CLEAN27 from Warehouse",
+  "url": "https://github.com/microsoft/BCApps/pull/12293",
+  "published_at": "2026-10-05T09:42:31Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "c58135042e79687ca8ba8dcad8843e6fea711b30:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12293,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "c58135042e79687ca8ba8dcad8843e6fea711b30",
+    "author": "Alexander-Ya",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "remove clean27 from warehouse"
+  }
+}

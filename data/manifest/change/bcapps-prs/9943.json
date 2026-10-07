@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9943",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Master]-Purchase invoice in USD with deferral shows 0 \"Amount LCY\" in Deferral Schedule View\"",
+  "url": "https://github.com/microsoft/BCApps/pull/9943",
+  "published_at": "2026-08-05T13:03:27Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "d9f8d39e05d45f567f26f9b11ccc010ae4779982:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9943,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "d9f8d39e05d45f567f26f9b11ccc010ae4779982",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "master purchase invoice in usd with deferral shows 0 amount lcy in deferral schedule view"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "change/bcapps-prs/10772",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Bug Fix] #304: [SOA] Re-resolve new sender to created contact after 'I have added the contact'",
+  "url": "https://github.com/microsoft/BCApps/pull/10772",
+  "published_at": "2026-10-06T17:40:58Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:55:38.081Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T12:55:43.618Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004424
+    },
+    "linked": {
+      "at": "2026-10-07T12:55:43.770Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T12:55:43.780Z",
+      "path": "content/changes/bcapps/10772.md"
+    }
+  },
+  "input_hash": "2e8d75cb5e193ce2899a51c5a3c1ba0dab0de1b5:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10772,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "2e8d75cb5e193ce2899a51c5a3c1ba0dab0de1b5",
+    "author": "ventselartur",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "bug fix 304 soa re resolve new sender to created contact after i have added the contact"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "822698ca21eb595d6454b5babecf45550049f395b74eaafb2d5a77a6c6f3ceda"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "change/bcapps-prs/10828",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Avoid remote attachment checks during FactBox refresh",
+  "url": "https://github.com/microsoft/BCApps/pull/10828",
+  "published_at": "2026-09-15T17:11:09Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "6c76f74e0344d73d9e3de3a69cdd66120c177e09:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10828,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "6c76f74e0344d73d9e3de3a69cdd66120c177e09",
+    "author": "JesperSchulz",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "AL: Apps (W1)",
+      "AL: System Application",
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": false,
+    "title_key": "avoid remote attachment checks during factbox refresh"
+  }
+}

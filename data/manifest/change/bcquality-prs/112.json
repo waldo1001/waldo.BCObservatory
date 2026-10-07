@@ -1,0 +1,30 @@
+{
+  "id": "change/bcquality-prs/112",
+  "pillar": "change",
+  "source": "bcquality-prs",
+  "tier": "official",
+  "title": "Add precision guards for systematic agent false-positive patterns",
+  "url": "https://github.com/microsoft/BCQuality/pull/112",
+  "published_at": "2026-07-17T12:17:05Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "1bf5a3b2764111945051c3881dd0ec338484b3a5:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 112,
+    "repo": "microsoft/BCQuality",
+    "base": "main",
+    "major": null,
+    "merge_commit_sha": "1bf5a3b2764111945051c3881dd0ec338484b3a5",
+    "author": "gggdttt",
+    "author_type": "User",
+    "labels": [],
+    "community_contribution": false,
+    "title_key": "add precision guards for systematic agent false positive patterns"
+  }
+}

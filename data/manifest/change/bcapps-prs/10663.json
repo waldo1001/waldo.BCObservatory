@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/10663",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Main]-Stock card report shows incorrect received quantity",
+  "url": "https://github.com/microsoft/BCApps/pull/10663",
+  "published_at": "2026-08-31T10:13:15Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "5b58c5c8af9f92fe1fbece40872fb03c4b45c195:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10663,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "5b58c5c8af9f92fe1fbece40872fb03c4b45c195",
+    "author": "DhavalMore88",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "From Fork",
+      "Team: Finance"
+    ],
+    "community_contribution": true,
+    "title_key": "stock card report shows incorrect received quantity"
+  }
+}

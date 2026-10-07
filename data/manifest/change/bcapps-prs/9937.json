@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/9937",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Fix error when selecting item as the line type in German language ",
+  "url": "https://github.com/microsoft/BCApps/pull/9937",
+  "published_at": "2026-08-17T08:36:58Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "e0dc3aff2170423cb9c760f3e108bf4e7526c43c:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9937,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "e0dc3aff2170423cb9c760f3e108bf4e7526c43c",
+    "author": "6CRIPT",
+    "author_type": "User",
+    "labels": [
+      "Ownership: Manual",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "fix error when selecting item as the line type in german language"
+  }
+}

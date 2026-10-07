@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/9737",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[E-Document] Move Data Exchange definitions from labels to app resource files",
+  "url": "https://github.com/microsoft/BCApps/pull/9737",
+  "published_at": "2026-07-28T08:43:34Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "12672d75e6b6d39525afbb04cc12d315c7c9ac20:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9737,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "12672d75e6b6d39525afbb04cc12d315c7c9ac20",
+    "author": "Groenbech96",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "e document move data exchange definitions from labels to app resource files"
+  }
+}

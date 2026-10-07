@@ -1,0 +1,61 @@
+{
+  "id": "change/bcapps-prs/12207",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[MCP] Prepare Data Query Tools for billing",
+  "url": "https://github.com/microsoft/BCApps/pull/12207",
+  "published_at": "2026-10-07T11:29:33Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:55:31.027Z",
+      "change_class": "code",
+      "files": 10,
+      "al": 8,
+      "objects": 7,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-10-07T12:55:36.094Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.003642
+    },
+    "linked": {
+      "at": "2026-10-07T12:55:36.233Z",
+      "objects": 7,
+      "unjoined": 1,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T12:55:36.243Z",
+      "path": "content/changes/bcapps/12207.md"
+    }
+  },
+  "input_hash": "2fe2c218e31eb055d1b7852482eafd6e68f2dbed:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12207,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "2fe2c218e31eb055d1b7852482eafd6e68f2dbed",
+    "author": "onbuyuka",
+    "author_type": "User",
+    "labels": [
+      "AL: System Application",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "mcp prepare data query tools for billing"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "80fbfe676679241498fd9afaa6b872ba3d0542b7c9da2e3707c8e7ad987e3147"
+}

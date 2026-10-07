@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9656",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[main] - Incorrect Prepayment Invoice Amount for Sales Orders with Invoice Discount, Prices Including VAT and negative non-inventory line.",
+  "url": "https://github.com/microsoft/BCApps/pull/9656",
+  "published_at": "2026-08-11T16:07:57Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "8b1040092d34c3b3d7734492eeaffabfff42213c:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9656,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "8b1040092d34c3b3d7734492eeaffabfff42213c",
+    "author": "v-ankitgoyal",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "incorrect prepayment invoice amount for sales orders with invoice discount prices including vat and negative non inventory line"
+  }
+}

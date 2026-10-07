@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9590",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Error message \"Consolidated must be equal to Yes\" when Exporting BAS Calculation Worksheet for consolidated Company in Australian localisationInitial commit",
+  "url": "https://github.com/microsoft/BCApps/pull/9590",
+  "published_at": "2026-07-23T11:10:21Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "5c3033c6a64858e35f96c6c2f398686d88626b87:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9590,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "5c3033c6a64858e35f96c6c2f398686d88626b87",
+    "author": "Shikhverma",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "error message consolidated must be equal to yes when exporting bas calculation worksheet for consolidated company in australian localisationinitial commit"
+  }
+}

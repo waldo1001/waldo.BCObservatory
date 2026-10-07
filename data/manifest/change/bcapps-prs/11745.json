@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/11745",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Bug 648781: check the party identifier that the PEPPOL export will use",
+  "url": "https://github.com/microsoft/BCApps/pull/11745",
+  "published_at": "2026-09-25T15:53:28Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "d3db445871ae038c72a6648c6778adc9f4d2fc34:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11745,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "d3db445871ae038c72a6648c6778adc9f4d2fc34",
+    "author": "Explorer986",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 648781 check the party identifier that the peppol export will use"
+  }
+}

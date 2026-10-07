@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/9674",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Fix missing table permissions on Stale Check action in Check Management Subscriber",
+  "url": "https://github.com/microsoft/BCApps/pull/9674",
+  "published_at": "2026-07-23T16:50:51Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "9095a2aa624a21f0838a314e523c32dcf2f232d8:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9674,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "9095a2aa624a21f0838a314e523c32dcf2f232d8",
+    "author": "v-ajaztabrez",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "From Fork",
+      "Team: Finance"
+    ],
+    "community_contribution": true,
+    "title_key": "fix missing table permissions on stale check action in check management subscriber"
+  }
+}

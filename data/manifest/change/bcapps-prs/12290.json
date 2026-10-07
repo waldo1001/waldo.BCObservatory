@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/12290",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Remove CLEAN27 from Service Management",
+  "url": "https://github.com/microsoft/BCApps/pull/12290",
+  "published_at": "2026-10-06T09:23:06Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "bbd24bdec164c401436194e49376050764d05afd:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12290,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "bbd24bdec164c401436194e49376050764d05afd",
+    "author": "Alexander-Ya",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "remove clean27 from service management"
+  }
+}

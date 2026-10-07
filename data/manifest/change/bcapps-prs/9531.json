@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/9531",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Master]- Report 152 \"Calculate Low Level Code\" terminates with error: \"Cannot add instance as another with key %1 has already been added.\" after upgrade to v28.1",
+  "url": "https://github.com/microsoft/BCApps/pull/9531",
+  "published_at": "2026-07-17T08:40:51Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "3183d7d36954fb8f377f36dc12602ec61dc0932a:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9531,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "3183d7d36954fb8f377f36dc12602ec61dc0932a",
+    "author": "DhavalMore88",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "From Fork",
+      "Team: SCM"
+    ],
+    "community_contribution": true,
+    "title_key": "master report 152 calculate low level code terminates with error cannot add instance as another with key 1 has already been added after upgrade to v28 1"
+  }
+}

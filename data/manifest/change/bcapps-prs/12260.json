@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/12260",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Shopify] Fix shop card transaction navigation",
+  "url": "https://github.com/microsoft/BCApps/pull/12260",
+  "published_at": "2026-10-06T11:08:51Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "5ac6603b7b823f75bbdaef096ade6912585e42c9:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12260,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "5ac6603b7b823f75bbdaef096ade6912585e42c9",
+    "author": "onbuyuka",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "shopify fix shop card transaction navigation"
+  }
+}

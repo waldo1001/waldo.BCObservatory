@@ -1,0 +1,53 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12135,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12135",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-06T21:39:16Z",
+  "merge_commit_sha": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+  "author": "ventselartur",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "Fix Reverse Charge VAT upgrade migration",
+  "body_hash": "9e745c39a26d960540c910e86f7832f7deed643f6114551173e398c8ff1d52ae",
+  "fixes_issues": [],
+  "work_items": [
+    650031
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/GB/ReverseChargeVAT/app/src/Codeunits/UpgradeReverseChargeVAT.Codeunit.al",
+      "status": "modified",
+      "additions": 47,
+      "deletions": 31,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 47,
+    "deletions": 31,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "src/Apps/GB/ReverseChargeVAT/app/src/Codeunits/UpgradeReverseChargeVAT.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

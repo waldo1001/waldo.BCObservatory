@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/12134",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[main] bug 652313 - Add Approvals Management integration to compensation, payment order and cash document processing",
+  "url": "https://github.com/microsoft/BCApps/pull/12134",
+  "published_at": "2026-10-01T09:07:04Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "306dc9466c489b82f80ffba01a583c5bbbd5696c:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12134,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "306dc9466c489b82f80ffba01a583c5bbbd5696c",
+    "author": "DavidHolusa",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 652313 add approvals management integration to compensation payment order and cash document processing"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9538",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[main]- Requests to Approve: Open Record shows wrong Requisition Worksheet batch after viewing a different batch",
+  "url": "https://github.com/microsoft/BCApps/pull/9538",
+  "published_at": "2026-07-28T06:59:34Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "2099f20dc46190bbe97d01f59556cc3fb711cc69:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9538,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "2099f20dc46190bbe97d01f59556cc3fb711cc69",
+    "author": "v-ankitgoyal",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "requests to approve open record shows wrong requisition worksheet batch after viewing a different batch"
+  }
+}

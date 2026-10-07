@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/10251",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Ruleset hardening: promote 5 rules from Warning to Error",
+  "url": "https://github.com/microsoft/BCApps/pull/10251",
+  "published_at": "2026-08-19T14:03:56Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "c562b44f0e08e7e7f79f1d3a187cda64338a7bbe:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10251,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "c562b44f0e08e7e7f79f1d3a187cda64338a7bbe",
+    "author": "JesperSchulz",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": false,
+    "title_key": "ruleset hardening promote 5 rules from warning to error"
+  }
+}

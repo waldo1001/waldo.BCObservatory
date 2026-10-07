@@ -1,0 +1,35 @@
+{
+  "id": "change/bcapps-prs/9225",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Extensibility][SubscriptionBilling]: Make usage data billing filtering extensible in SetUsageDataBillingFilters",
+  "url": "https://github.com/microsoft/BCApps/pull/9225",
+  "published_at": "2026-09-17T19:41:35Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "9e7a09bc608a28d2903641367414551c3a1cbaf0:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9225,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "9e7a09bc608a28d2903641367414551c3a1cbaf0",
+    "author": "miljance",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "AL: Apps (W1)",
+      "From Fork",
+      "Team: Finance"
+    ],
+    "community_contribution": true,
+    "title_key": "extensibility subscriptionbilling make usage data billing filtering extensible in setusagedatabillingfilters"
+  }
+}

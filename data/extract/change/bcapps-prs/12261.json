@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/12261",
+  "number": 12261,
+  "title": "Stop repeated rescheduling of Dataverse synch jobs on bulk changes",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "The Dataverse synchronization job reschedule logic now checks both the scheduled task's next run time and the job queue entry's earliest start date to avoid repeated rescheduling during bulk changes, reducing unnecessary Service Bus costs.",
+  "key_points": [
+    "Added guard check for job queue entry's earliest start date in addition to scheduled task's next run time",
+    "Job queue entries are now locked before calling SetTaskReady to serialize concurrent reschedules",
+    "Extracted reschedule logic into testable internal procedure RescheduleJobQueueEntriesForTable",
+    "Production telemetry showed hundreds of reschedule messages per second that have been eliminated",
+    "Tests added to verify correct rescheduling behavior and detect stale task scheduler state"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": "If the job is already due within the reschedule window, skip it.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004437,
+    "changes_in_call": 1
+  }
+}

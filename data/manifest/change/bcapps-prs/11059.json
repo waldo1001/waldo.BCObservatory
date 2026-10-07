@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/11059",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Hardening subscription billing + drop shipment scenarios",
+  "url": "https://github.com/microsoft/BCApps/pull/11059",
+  "published_at": "2026-09-08T12:11:42Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "db20744a1b489984ffa62f8a8edd0e8f53bbf0ab:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11059,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "db20744a1b489984ffa62f8a8edd0e8f53bbf0ab",
+    "author": "mynjj",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "hardening subscription billing drop shipment scenarios"
+  }
+}

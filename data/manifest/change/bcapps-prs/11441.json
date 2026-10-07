@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/11441",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Fixes AB#640874: Clarify Expense Agent scheduling permission error",
+  "url": "https://github.com/microsoft/BCApps/pull/11441",
+  "published_at": "2026-09-16T14:51:35Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "ae9496ed12f12cc965209c8ca6f27be612efabe5:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11441,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "ae9496ed12f12cc965209c8ca6f27be612efabe5",
+    "author": "t-prda",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "fixes ab 640874 clarify expense agent scheduling permission error"
+  }
+}

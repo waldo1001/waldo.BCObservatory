@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/11367",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[29.X][Repair Item][SaaS][Drop shipment reversal] Undo Shipment fails with blank Bin Code at bin-mandatory location",
+  "url": "https://github.com/microsoft/BCApps/pull/11367",
+  "published_at": "2026-09-17T15:35:50Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "3fef8d3396d8b13647335e366610d564041fdbae:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11367,
+    "repo": "microsoft/BCApps",
+    "base": "releases/29.x",
+    "major": "29",
+    "merge_commit_sha": "3fef8d3396d8b13647335e366610d564041fdbae",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "repair item saas drop shipment reversal undo shipment fails with blank bin code at bin mandatory location"
+  }
+}

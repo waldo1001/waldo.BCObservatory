@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/11637",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Master]- Create Documents on Recurring Billing ignores the Partner filter and fails when a vendor billing proposal exists",
+  "url": "https://github.com/microsoft/BCApps/pull/11637",
+  "published_at": "2026-10-05T15:58:49Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "4e9368ec942fe667fde6764f1906c5e930d9081c:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11637,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "4e9368ec942fe667fde6764f1906c5e930d9081c",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "master create documents on recurring billing ignores the partner filter and fails when a vendor billing proposal exists"
+  }
+}

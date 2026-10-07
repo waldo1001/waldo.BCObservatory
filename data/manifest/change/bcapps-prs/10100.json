@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/10100",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Bug 644091] Separate B2B and B2C HSN summaries in GSTR-1 report",
+  "url": "https://github.com/microsoft/BCApps/pull/10100",
+  "published_at": "2026-08-11T22:03:36Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "8483d6c8baf8cdb215688514645851f0bcc4a447:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10100,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "8483d6c8baf8cdb215688514645851f0bcc4a447",
+    "author": "v-ajaztabrez",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 644091 separate b2b and b2c hsn summaries in gstr 1 report"
+  }
+}

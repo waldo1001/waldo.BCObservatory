@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/9204",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Master]-Vendor Order No. exceeds 20-character limit causing error in Intercompany Purchase Invoice",
+  "url": "https://github.com/microsoft/BCApps/pull/9204",
+  "published_at": "2026-07-10T14:39:05Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "fe8ce68741415b9912fec0ba5f4f674af207bcad:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9204,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "fe8ce68741415b9912fec0ba5f4f674af207bcad",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "From Fork",
+      "Team: SCM"
+    ],
+    "community_contribution": true,
+    "title_key": "master vendor order no exceeds 20 character limit causing error in intercompany purchase invoice"
+  }
+}

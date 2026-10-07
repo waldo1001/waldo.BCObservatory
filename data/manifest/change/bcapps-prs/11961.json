@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/11961",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Cache security group resolution in Effective Permissions",
+  "url": "https://github.com/microsoft/BCApps/pull/11961",
+  "published_at": "2026-09-29T14:29:07Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "348376486c5d729c3d5be714695e0087cff0dac6:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11961,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "348376486c5d729c3d5be714695e0087cff0dac6",
+    "author": "darjoo",
+    "author_type": "User",
+    "labels": [
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "cache security group resolution in effective permissions"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9040",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "fix(B2Brouter): Add missing Execute permissions on codeunits",
+  "url": "https://github.com/microsoft/BCApps/pull/9040",
+  "published_at": "2026-07-10T12:57:14Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "80a8a749c74cc7d821f07d117a3faebd061aa29d:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9040,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "80a8a749c74cc7d821f07d117a3faebd061aa29d",
+    "author": "Groenbech96",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)"
+    ],
+    "community_contribution": false,
+    "title_key": "fix b2brouter add missing execute permissions on codeunits"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/12207",
+  "number": 12207,
+  "title": "[MCP] Prepare Data Query Tools for billing",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Data Query Tools for MCP are now marked billable with a pricing acknowledgement requirement before activation. When imported, users are prompted to confirm pricing; headless imports default to disabled.",
+  "key_points": [
+    "Data Query Tools marked as billable feature in MCP Server Feature enum",
+    "New reusable MCP billing confirmation page added for billable features",
+    "Activation requires explicit pricing acknowledgement in GUI sessions",
+    "Existing Data Query Tools opt-ins reset during upgrade",
+    "Headless imports default to disabled state"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "copilot",
+    "integration"
+  ],
+  "quote": "mark Data Query Tools as billable and require pricing acknowledgement before activation",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003642,
+    "changes_in_call": 1
+  }
+}

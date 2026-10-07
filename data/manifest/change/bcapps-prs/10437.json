@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/10437",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[FR E-Reporting] Add payment and invoice lifecycle messages",
+  "url": "https://github.com/microsoft/BCApps/pull/10437",
+  "published_at": "2026-09-15T10:18:53Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "9c3aad52a7e47e033ce5c440e2903499df879a70:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10437,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "9c3aad52a7e47e033ce5c440e2903499df879a70",
+    "author": "djukicmilica",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": false,
+    "title_key": "fr e reporting add payment and invoice lifecycle messages"
+  }
+}

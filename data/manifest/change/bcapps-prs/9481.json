@@ -1,0 +1,35 @@
+{
+  "id": "change/bcapps-prs/9481",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Withholding Tax] FCY documents get wrongly rounded to LCY precision …",
+  "url": "https://github.com/microsoft/BCApps/pull/9481",
+  "published_at": "2026-07-29T12:11:29Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "9a0e2de64db8bbfec9ee7bd6bc898cd79fcc8620:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9481,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "9a0e2de64db8bbfec9ee7bd6bc898cd79fcc8620",
+    "author": "ViditGupta1277",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "AL: Apps (W1)",
+      "From Fork",
+      "Team: Finance"
+    ],
+    "community_contribution": true,
+    "title_key": "withholding tax fcy documents get wrongly rounded to lcy precision"
+  }
+}

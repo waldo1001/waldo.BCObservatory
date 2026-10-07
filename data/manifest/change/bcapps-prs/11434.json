@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/11434",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[main] Incorrect Additional Currency Base and Additional Currency Amount calculation in VAT/GST Entries when Line Discount is applied on Sales Invoice in the Australian version.",
+  "url": "https://github.com/microsoft/BCApps/pull/11434",
+  "published_at": "2026-09-21T14:01:11Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "ddbae8d02289a3ff56495ce9fe124be0044007a9:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11434,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "ddbae8d02289a3ff56495ce9fe124be0044007a9",
+    "author": "Shikhverma",
+    "author_type": "User",
+    "labels": [
+      "Ownership: Manual",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "incorrect additional currency base and additional currency amount calculation in vat gst entries when line discount is applied on sales invoice in the australian version"
+  }
+}

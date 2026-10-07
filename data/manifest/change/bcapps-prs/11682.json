@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/11682",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Expense Agent] Remove migration TODO and analyzer suppressions",
+  "url": "https://github.com/microsoft/BCApps/pull/11682",
+  "published_at": "2026-09-22T15:11:30Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "9faf3fc6d3ae555ac879a5cefaeb58b442aa9d4e:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11682,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "9faf3fc6d3ae555ac879a5cefaeb58b442aa9d4e",
+    "author": "t-prda",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "expense agent remove migration todo and analyzer suppressions"
+  }
+}

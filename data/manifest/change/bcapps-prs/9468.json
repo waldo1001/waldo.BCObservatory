@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9468",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Change cron schedule to run daily at midnight UTC",
+  "url": "https://github.com/microsoft/BCApps/pull/9468",
+  "published_at": "2026-07-15T10:22:34Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "9917f88d7b8539e280e169d58ea1ed0a3ebe26b3:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9468,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "9917f88d7b8539e280e169d58ea1ed0a3ebe26b3",
+    "author": "aholstrup1",
+    "author_type": "User",
+    "labels": [
+      "Build: Automation"
+    ],
+    "community_contribution": false,
+    "title_key": "change cron schedule to run daily at midnight utc"
+  }
+}

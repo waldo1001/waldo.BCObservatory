@@ -1,0 +1,30 @@
+{
+  "id": "change/al-go-prs/2355",
+  "pillar": "change",
+  "source": "al-go-prs",
+  "tier": "official",
+  "title": "Move CreateRelease update check to separate job",
+  "url": "https://github.com/microsoft/AL-Go/pull/2355",
+  "published_at": "2026-09-18T09:01:50Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "91b96c2b294be6f823277dafe6f03350abfb9d23:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 2355,
+    "repo": "microsoft/AL-Go",
+    "base": "main",
+    "major": null,
+    "merge_commit_sha": "91b96c2b294be6f823277dafe6f03350abfb9d23",
+    "author": "frottke",
+    "author_type": "User",
+    "labels": [],
+    "community_contribution": false,
+    "title_key": "move createrelease update check to separate job"
+  }
+}

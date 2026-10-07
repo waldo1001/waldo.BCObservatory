@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/10058",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Master]-Withholding Tax Posting generates Unbalanced G/L Entries when Multiple Withholding Tax Rates are used on one Purchase Invoice.",
+  "url": "https://github.com/microsoft/BCApps/pull/10058",
+  "published_at": "2026-08-11T12:05:38Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "18f2e04dfea4b75f7720f423f06728aced2d343e:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10058,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "18f2e04dfea4b75f7720f423f06728aced2d343e",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "master withholding tax posting generates unbalanced g l entries when multiple withholding tax rates are used on one purchase invoice"
+  }
+}

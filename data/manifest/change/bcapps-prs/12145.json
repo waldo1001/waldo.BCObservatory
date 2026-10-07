@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/12145",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Main]-Item charge assignment update Error on sales order when there is no Price.  \"Sorry, we just updated this page. Reopen it and try again.\" when running in SaaS",
+  "url": "https://github.com/microsoft/BCApps/pull/12145",
+  "published_at": "2026-10-06T05:11:41Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "e62e7dbd697150b0b36ceb728a5591c383ec4dab:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12145,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "e62e7dbd697150b0b36ceb728a5591c383ec4dab",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "item charge assignment update error on sales order when there is no price sorry we just updated this page reopen it and try again when running in saas"
+  }
+}

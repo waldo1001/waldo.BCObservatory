@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/9400",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Route early preview feedback to the correct OCV area",
+  "url": "https://github.com/microsoft/BCApps/pull/9400",
+  "published_at": "2026-07-17T08:45:10Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "e92e31c9907ede9fc89dd8436b9e4dc1cffe8e52:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9400,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "e92e31c9907ede9fc89dd8436b9e4dc1cffe8e52",
+    "author": "JesperSchulz",
+    "author_type": "User",
+    "labels": [
+      "AL: System Application",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "route early preview feedback to the correct ocv area"
+  }
+}

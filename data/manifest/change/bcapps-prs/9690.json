@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/9690",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Add XRechnung structured format reader for inbound e-documents",
+  "url": "https://github.com/microsoft/BCApps/pull/9690",
+  "published_at": "2026-07-28T08:46:05Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "4ed1dba354d6c9847f05a7a4d3f4391adb678845:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9690,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "4ed1dba354d6c9847f05a7a4d3f4391adb678845",
+    "author": "Groenbech96",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "add xrechnung structured format reader for inbound e documents"
+  }
+}

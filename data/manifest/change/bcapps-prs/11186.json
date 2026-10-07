@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/11186",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Master]-]VAT Settlement G/L Entries Do Not Populate Source Currency Amount and Source VAT Currency Amount After Running Calculate and Post VAT Settlement",
+  "url": "https://github.com/microsoft/BCApps/pull/11186",
+  "published_at": "2026-09-15T17:02:40Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "954447e2881ce6eb17d2964ded2ad416692bd5a8:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11186,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "954447e2881ce6eb17d2964ded2ad416692bd5a8",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "master vat settlement g l entries do not populate source currency amount and source vat currency amount after running calculate and post vat settlement"
+  }
+}

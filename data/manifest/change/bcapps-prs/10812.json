@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/10812",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Bug 648371: [internal] github code review agent sprinkles wrong ownership teams on some PRs",
+  "url": "https://github.com/microsoft/BCApps/pull/10812",
+  "published_at": "2026-08-31T14:52:06Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "8879ba2a50bde05791090ff160ba670c60249e62:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10812,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "8879ba2a50bde05791090ff160ba670c60249e62",
+    "author": "BardurKnudsen",
+    "author_type": "User",
+    "labels": [
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 648371 internal github code review agent sprinkles wrong ownership teams on some prs"
+  }
+}

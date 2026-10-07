@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/11204",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Chat v2 privacy notice behavior changed to not auto agree for Eval companies",
+  "url": "https://github.com/microsoft/BCApps/pull/11204",
+  "published_at": "2026-09-09T13:08:56Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "d5ea8cced9ffecb2a69a3d530842211b9f52ca6b:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11204,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "d5ea8cced9ffecb2a69a3d530842211b9f52ca6b",
+    "author": "Kimi310",
+    "author_type": "User",
+    "labels": [
+      "AL: System Application",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "chat v2 privacy notice behavior changed to not auto agree for eval companies"
+  }
+}

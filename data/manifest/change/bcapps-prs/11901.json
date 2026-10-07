@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/11901",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Fix expense policy category mode",
+  "url": "https://github.com/microsoft/BCApps/pull/11901",
+  "published_at": "2026-09-29T15:57:34Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "9a1ee191193c6450935f23535f5f231f303b7885:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11901,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "9a1ee191193c6450935f23535f5f231f303b7885",
+    "author": "encimita",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "fix expense policy category mode"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/10205",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Deprecate Text Completion API in AI SDK (work item 621038)",
+  "url": "https://github.com/microsoft/BCApps/pull/10205",
+  "published_at": "2026-08-17T08:52:47Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "0f8288ec3b8ffe5bacbb949c50002d7013279665:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10205,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "0f8288ec3b8ffe5bacbb949c50002d7013279665",
+    "author": "martinsrui-msft",
+    "author_type": "User",
+    "labels": [
+      "AL: System Application",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "deprecate text completion api in ai sdk work item 621038"
+  }
+}

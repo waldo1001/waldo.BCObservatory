@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/10604",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Main]-export/import of a report definition fails if the statuses in the originating company do not exist in the destination company",
+  "url": "https://github.com/microsoft/BCApps/pull/10604",
+  "published_at": "2026-08-31T10:37:00Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "084d90dea19fe0deebbb9a241c199b61c0bf4ca1:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10604,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "084d90dea19fe0deebbb9a241c199b61c0bf4ca1",
+    "author": "DhavalMore88",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "From Fork",
+      "Team: Finance"
+    ],
+    "community_contribution": true,
+    "title_key": "export import of a report definition fails if the statuses in the originating company do not exist in the destination company"
+  }
+}

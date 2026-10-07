@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/12074",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Expense Agent: travel request expense location, per-traveler reports, activity log and submitter comment",
+  "url": "https://github.com/microsoft/BCApps/pull/12074",
+  "published_at": "2026-10-02T20:24:37Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "b79e2cd4968e71182689c173415ce8cbfa6c9ef4:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12074,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "b79e2cd4968e71182689c173415ce8cbfa6c9ef4",
+    "author": "claudiuciumedean",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "ExpenseManagement",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "expense agent travel request expense location per traveler reports activity log and submitter comment"
+  }
+}

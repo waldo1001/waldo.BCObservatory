@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/9580",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "636017 Move Manufacturing report action tooltips to report objects",
+  "url": "https://github.com/microsoft/BCApps/pull/9580",
+  "published_at": "2026-07-30T11:31:54Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "c77896a9d31f88e5b9d7ca2c1a5fbe8c6f0a9975:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9580,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "c77896a9d31f88e5b9d7ca2c1a5fbe8c6f0a9975",
+    "author": "V-CWurtzen",
+    "author_type": "User",
+    "labels": [
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": false,
+    "title_key": "636017 move manufacturing report action tooltips to report objects"
+  }
+}

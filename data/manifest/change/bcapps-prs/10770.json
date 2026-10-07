@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/10770",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Bug Fix] #290: Add explicit BEANS inspection template result conditions",
+  "url": "https://github.com/microsoft/BCApps/pull/10770",
+  "published_at": "2026-09-01T19:41:41Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "565edca36a7f1838150ea6f7ed871b65a1f31380:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10770,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "565edca36a7f1838150ea6f7ed871b65a1f31380",
+    "author": "ventselartur",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "bug fix 290 add explicit beans inspection template result conditions"
+  }
+}

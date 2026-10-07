@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/9092",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Master]-Take Payment Discounts setting does not work as expected in the Suggest Vendor Payments EB routine from the EB Payment Journal in the Belgian version.",
+  "url": "https://github.com/microsoft/BCApps/pull/9092",
+  "published_at": "2026-07-14T09:27:54Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "9a1ad20560ff9d4ac8454ee35c937ea651720374:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9092,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "9a1ad20560ff9d4ac8454ee35c937ea651720374",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "From Fork",
+      "Team: Finance"
+    ],
+    "community_contribution": true,
+    "title_key": "master take payment discounts setting does not work as expected in the suggest vendor payments eb routine from the eb payment journal in the belgian version"
+  }
+}

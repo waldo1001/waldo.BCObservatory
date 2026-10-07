@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9455",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Update permissions for G/L Transaction table",
+  "url": "https://github.com/microsoft/BCApps/pull/9455",
+  "published_at": "2026-07-25T13:14:27Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "f66be902a2b40a5bc578d31784d2255439b1e2b7:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9455,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "f66be902a2b40a5bc578d31784d2255439b1e2b7",
+    "author": "Alexander-Ya",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "update permissions for g l transaction table"
+  }
+}

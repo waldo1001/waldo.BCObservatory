@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/9708",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Enable manual task creation for Sales Order Agent",
+  "url": "https://github.com/microsoft/BCApps/pull/9708",
+  "published_at": "2026-07-27T08:40:12Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "296d6f6c2bf254197311bb596e2ed4f28925bda7:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9708,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "296d6f6c2bf254197311bb596e2ed4f28925bda7",
+    "author": "qasimikram",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "enable manual task creation for sales order agent"
+  }
+}

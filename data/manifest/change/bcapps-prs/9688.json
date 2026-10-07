@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9688",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[main] Hidden breaking change and instability on sales/purchase line insert",
+  "url": "https://github.com/microsoft/BCApps/pull/9688",
+  "published_at": "2026-08-04T13:03:35Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "e4bd629d1f4ff5d30d06be8d5a70cdda9708a05a:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9688,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "e4bd629d1f4ff5d30d06be8d5a70cdda9708a05a",
+    "author": "JakovljevicDusan",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "hidden breaking change and instability on sales purchase line insert"
+  }
+}

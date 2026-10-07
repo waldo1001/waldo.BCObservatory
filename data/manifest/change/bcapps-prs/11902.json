@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/11902",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Fix Retention Policy record-limit tests without SUPER",
+  "url": "https://github.com/microsoft/BCApps/pull/11902",
+  "published_at": "2026-10-05T14:21:45Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "cd17e1ecc9ca605cb015950c332d9af7fda4cfec:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11902,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "cd17e1ecc9ca605cb015950c332d9af7fda4cfec",
+    "author": "darjoo",
+    "author_type": "User",
+    "labels": [
+      "AL: System Application",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "fix retention policy record limit tests without super"
+  }
+}

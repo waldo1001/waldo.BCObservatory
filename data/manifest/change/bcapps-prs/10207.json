@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/10207",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Dataverse] Use Truncate for CRM Integration Record cleanup during environment copy",
+  "url": "https://github.com/microsoft/BCApps/pull/10207",
+  "published_at": "2026-08-19T20:07:08Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "3bd81252fba72725c022234528311414d4da35ec:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10207,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "3bd81252fba72725c022234528311414d4da35ec",
+    "author": "onbuyuka",
+    "author_type": "User",
+    "labels": [
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "dataverse use truncate for crm integration record cleanup during environment copy"
+  }
+}

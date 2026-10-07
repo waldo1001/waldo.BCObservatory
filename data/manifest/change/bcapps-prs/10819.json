@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/10819",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Pmt. Recon. Journal] Re-fire OnAfterGetLedgEntryInfo on proposal fast path",
+  "url": "https://github.com/microsoft/BCApps/pull/10819",
+  "published_at": "2026-08-31T18:58:57Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "5a034511d40534c939e881454fc8e97631a7679b:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10819,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "5a034511d40534c939e881454fc8e97631a7679b",
+    "author": "dcenic",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "pmt recon journal re fire onaftergetledgentryinfo on proposal fast path"
+  }
+}

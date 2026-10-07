@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9692",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Fix effective permission filtering",
+  "url": "https://github.com/microsoft/BCApps/pull/9692",
+  "published_at": "2026-09-30T09:28:02Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "7bf0e152868dfec3457b5e0f69a7e5efdb7b3abb:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9692,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "7bf0e152868dfec3457b5e0f69a7e5efdb7b3abb",
+    "author": "darjoo",
+    "author_type": "User",
+    "labels": [
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "fix effective permission filtering"
+  }
+}

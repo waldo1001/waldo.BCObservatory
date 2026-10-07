@@ -1,0 +1,30 @@
+{
+  "id": "change/bcquality-prs/92",
+  "pillar": "change",
+  "source": "bcquality-prs",
+  "tier": "official",
+  "title": "Correct security and privacy knowledge guidance",
+  "url": "https://github.com/microsoft/BCQuality/pull/92",
+  "published_at": "2026-07-14T09:25:03Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "aca3986fd0702ed6829b71c8ef6645d87550ae70:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 92,
+    "repo": "microsoft/BCQuality",
+    "base": "main",
+    "major": null,
+    "merge_commit_sha": "aca3986fd0702ed6829b71c8ef6645d87550ae70",
+    "author": "JesperSchulz",
+    "author_type": "User",
+    "labels": [],
+    "community_contribution": false,
+    "title_key": "correct security and privacy knowledge guidance"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/9129",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Master]-Bug 641503 Financial Reporting - Duplicate Rows in Financial Report Excel Export After Adding GL Budget Dimension",
+  "url": "https://github.com/microsoft/BCApps/pull/9129",
+  "published_at": "2026-07-15T17:13:43Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "131ed92767f7f678e3f7f6dbccc48eb4ca3020de:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9129,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "131ed92767f7f678e3f7f6dbccc48eb4ca3020de",
+    "author": "v-praghav",
+    "author_type": "User",
+    "labels": [
+      "Bug",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "master bug 641503 financial reporting duplicate rows in financial report excel export after adding gl budget dimension"
+  }
+}

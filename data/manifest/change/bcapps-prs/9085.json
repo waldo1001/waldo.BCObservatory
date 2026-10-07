@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/9085",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Bug 640958: Guided error for subcontracting direct transfer from whse-handling location",
+  "url": "https://github.com/microsoft/BCApps/pull/9085",
+  "published_at": "2026-08-12T18:32:23Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "1a4de1430e890c63801bce9c9d3061542fe68fc6:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9085,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "1a4de1430e890c63801bce9c9d3061542fe68fc6",
+    "author": "alexei-dobriansky",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Subcontracting",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 640958 guided error for subcontracting direct transfer from whse handling location"
+  }
+}

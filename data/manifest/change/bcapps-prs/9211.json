@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9211",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Shopify] Surface skipped records and sent JSONL for bulk price sync",
+  "url": "https://github.com/microsoft/BCApps/pull/9211",
+  "published_at": "2026-07-09T19:31:49Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "9517d4e61f331450ff5ade1d95311f6526701753:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9211,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "9517d4e61f331450ff5ade1d95311f6526701753",
+    "author": "onbuyuka",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)"
+    ],
+    "community_contribution": false,
+    "title_key": "shopify surface skipped records and sent jsonl for bulk price sync"
+  }
+}

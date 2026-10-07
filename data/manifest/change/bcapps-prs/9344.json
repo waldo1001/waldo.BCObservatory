@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/9344",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[master]- Posting service order without External document no. will copy the 'Service Order No.' to GL entries",
+  "url": "https://github.com/microsoft/BCApps/pull/9344",
+  "published_at": "2026-07-16T11:59:17Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "32386050f4eed63b11cc9136109734b1a1c216bd:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9344,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "32386050f4eed63b11cc9136109734b1a1c216bd",
+    "author": "MSNehaNawal",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "From Fork",
+      "Team: SCM"
+    ],
+    "community_contribution": true,
+    "title_key": "master posting service order without external document no will copy the service order no to gl entries"
+  }
+}

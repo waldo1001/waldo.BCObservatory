@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/9800",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Add maxlength for updated and new countries",
+  "url": "https://github.com/microsoft/BCApps/pull/9800",
+  "published_at": "2026-07-29T08:55:50Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "ac6b442231ea9a96483de2209a98a5cd16f930a9:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9800,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "ac6b442231ea9a96483de2209a98a5cd16f930a9",
+    "author": "mirouhl",
+    "author_type": "User",
+    "labels": [
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": false,
+    "title_key": "add maxlength for updated and new countries"
+  }
+}

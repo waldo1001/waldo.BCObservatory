@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/9591",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Extensibility Request] issue 29875: add OnBeforeCheckPurchaseAdvanceLetterPendingApproval IsHandled event",
+  "url": "https://github.com/microsoft/BCApps/pull/9591",
+  "published_at": "2026-07-21T08:56:29Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "49dd5cf3b2e8dcb04593b2f1b217b0877ea6f807:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9591,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "49dd5cf3b2e8dcb04593b2f1b217b0877ea6f807",
+    "author": "DavidHolusa",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance",
+      "event-request"
+    ],
+    "community_contribution": false,
+    "title_key": "extensibility request issue 29875 add onbeforecheckpurchaseadvanceletterpendingapproval ishandled event"
+  }
+}

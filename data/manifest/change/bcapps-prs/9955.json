@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9955",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "XRechnung – Invalid XML Generated When Invoice Discount Percentage Exceeds 2 Decimals",
+  "url": "https://github.com/microsoft/BCApps/pull/9955",
+  "published_at": "2026-08-05T13:59:53Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "db137aa4091859e916e678ff8f76f25de3478dad:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9955,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "db137aa4091859e916e678ff8f76f25de3478dad",
+    "author": "dcenic",
+    "author_type": "User",
+    "labels": [
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "xrechnung invalid xml generated when invoice discount percentage exceeds 2 decimals"
+  }
+}

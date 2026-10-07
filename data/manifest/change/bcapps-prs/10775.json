@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/10775",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Shopify] Optimize unmapped cue counts",
+  "url": "https://github.com/microsoft/BCApps/pull/10775",
+  "published_at": "2026-09-02T09:27:40Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "3cf71af429b7eed4ffdaccab9eb93f91564b0de9:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10775,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "3cf71af429b7eed4ffdaccab9eb93f91564b0de9",
+    "author": "onbuyuka",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "shopify optimize unmapped cue counts"
+  }
+}

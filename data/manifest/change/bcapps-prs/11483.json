@@ -1,0 +1,35 @@
+{
+  "id": "change/bcapps-prs/11483",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[E-Documents Core] - Linkage & Traceability",
+  "url": "https://github.com/microsoft/BCApps/pull/11483",
+  "published_at": "2026-09-24T08:47:51Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "00a80460f3e9d9adf895535c860cc57fd952df23:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11483,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "00a80460f3e9d9adf895535c860cc57fd952df23",
+    "author": "GediminasGaubys",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "AL: Apps (W1)",
+      "From Fork",
+      "Team: Integrations"
+    ],
+    "community_contribution": true,
+    "title_key": "e documents core linkage traceability"
+  }
+}

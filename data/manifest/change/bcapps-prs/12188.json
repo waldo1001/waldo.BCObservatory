@@ -1,0 +1,60 @@
+{
+  "id": "change/bcapps-prs/12188",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Master]-Reserved quantities do not match the expected quantities after planning - regression due to correction",
+  "url": "https://github.com/microsoft/BCApps/pull/12188",
+  "published_at": "2026-10-06T14:50:55Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T12:55:41.009Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T12:55:45.410Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.002893
+    },
+    "linked": {
+      "at": "2026-10-07T12:55:45.562Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T12:55:49.949Z",
+      "path": "content/changes/bcapps/12188.md"
+    }
+  },
+  "input_hash": "7bdff7f98d3deac13565d1eb2c9d37b211d003d7:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12188,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "7bdff7f98d3deac13565d1eb2c9d37b211d003d7",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "master reserved quantities do not match the expected quantities after planning regression due to correction"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "1ab4125d67e01bb1f1730f222ce2d6ef1f05d0b5adf09d17667f78b5bc5c3b18"
+}

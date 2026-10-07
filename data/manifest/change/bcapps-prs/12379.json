@@ -1,0 +1,38 @@
+{
+  "id": "change/bcapps-prs/12379",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Add ObsoleteTag preprocessor gate action and Pester test",
+  "url": "https://github.com/microsoft/BCApps/pull/12379",
+  "published_at": "2026-10-06T13:16:42Z",
+  "state": "skipped",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "587459ec28081171af6c30e904f96a773379a65d:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12379,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "587459ec28081171af6c30e904f96a773379a65d",
+    "author": "mazhelez",
+    "author_type": "User",
+    "labels": [
+      "Build: Automation",
+      "Build: scripts & configs",
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": false,
+    "title_key": "add obsoletetag preprocessor gate action and pester test"
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T12:55:50.334Z",
+  "retry_after": null
+}

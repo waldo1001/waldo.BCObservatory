@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/9947",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Allow long localized sales and purchase line type captions",
+  "url": "https://github.com/microsoft/BCApps/pull/9947",
+  "published_at": "2026-08-13T22:23:33Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "585e5562d87e48854e019dc3a0d8702d4157f688:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9947,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "585e5562d87e48854e019dc3a0d8702d4157f688",
+    "author": "djukicmilica",
+    "author_type": "User",
+    "labels": [
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": false,
+    "title_key": "allow long localized sales and purchase line type captions"
+  }
+}

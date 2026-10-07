@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/11542",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Master] [Translation] Demo-data account resolution fails when translated account captions are used as lookup keys",
+  "url": "https://github.com/microsoft/BCApps/pull/11542",
+  "published_at": "2026-09-17T18:24:31Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "b46a3262371467a73529279c255dd4477217002f:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11542,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "b46a3262371467a73529279c255dd4477217002f",
+    "author": "v-rohangarg20",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "SCM",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "master translation demo data account resolution fails when translated account captions are used as lookup keys"
+  }
+}

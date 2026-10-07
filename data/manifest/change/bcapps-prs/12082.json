@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/12082",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Bug 650429: [Repair Item] [Subcontracting] Show Document opens the wrong transfer order from Transfer Lines (Page 5749)",
+  "url": "https://github.com/microsoft/BCApps/pull/12082",
+  "published_at": "2026-09-30T11:00:31Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "94ce0650faff6b0f0f4f5ec6a271f3f3f5dccf08:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12082,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "94ce0650faff6b0f0f4f5ec6a271f3f3f5dccf08",
+    "author": "ChethanT",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 650429 repair item subcontracting show document opens the wrong transfer order from transfer lines page 5749"
+  }
+}

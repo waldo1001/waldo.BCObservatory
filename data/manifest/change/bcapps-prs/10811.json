@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/10811",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Route Expense Agent app family reviews to dedicated team",
+  "url": "https://github.com/microsoft/BCApps/pull/10811",
+  "published_at": "2026-08-31T12:22:04Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "07c6036b51ae554d6b6e9393dd568f24bb49bcf4:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10811,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "07c6036b51ae554d6b6e9393dd568f24bb49bcf4",
+    "author": "t-prda",
+    "author_type": "User",
+    "labels": [
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": false,
+    "title_key": "route expense agent app family reviews to dedicated team"
+  }
+}

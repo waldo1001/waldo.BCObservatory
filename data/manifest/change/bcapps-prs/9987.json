@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9987",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Fix Payment Management FR data update paths and per-company feature status",
+  "url": "https://github.com/microsoft/BCApps/pull/9987",
+  "published_at": "2026-08-18T16:42:28Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "567c7038a651d73a51387b52f2f62beea3cc144a:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9987,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "567c7038a651d73a51387b52f2f62beea3cc144a",
+    "author": "ventselartur",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "fix payment management fr data update paths and per company feature status"
+  }
+}

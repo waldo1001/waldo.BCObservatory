@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/10080",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Bug 646141: Forward-port Subcontracting Dispatch List action from 28.x to main",
+  "url": "https://github.com/microsoft/BCApps/pull/10080",
+  "published_at": "2026-08-12T09:00:47Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "2a95e0606eb4d80b6b049f08f837dddc450bb91f:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10080,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "2a95e0606eb4d80b6b049f08f837dddc450bb91f",
+    "author": "ChethanT",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 646141 forward port subcontracting dispatch list action from 28 x to main"
+  }
+}

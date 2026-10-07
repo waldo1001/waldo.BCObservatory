@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/9080",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Bug 635072: Subcontracting order uses Prod. Order Line location, not Work Center",
+  "url": "https://github.com/microsoft/BCApps/pull/9080",
+  "published_at": "2026-07-08T10:20:50Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "87507fd1404295e44fe815d0fa4dae16beae5a0c:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9080,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "87507fd1404295e44fe815d0fa4dae16beae5a0c",
+    "author": "alexei-dobriansky",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Subcontracting",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 635072 subcontracting order uses prod order line location not work center"
+  }
+}

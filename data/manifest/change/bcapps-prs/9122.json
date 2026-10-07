@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9122",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Bug 641488: Add \"Calendar Entries Available Until\" FlowField to Work/Machine Center",
+  "url": "https://github.com/microsoft/BCApps/pull/9122",
+  "published_at": "2026-08-05T10:11:31Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "f4b0790dd14100ace93c3891d509dbb3ab241dc7:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9122,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "f4b0790dd14100ace93c3891d509dbb3ab241dc7",
+    "author": "alexei-dobriansky",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 641488 add calendar entries available until flowfield to work machine center"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/11014",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Update automation work item link from AB#539394 to AB#640900",
+  "url": "https://github.com/microsoft/BCApps/pull/11014",
+  "published_at": "2026-09-15T08:47:06Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "fa157163e56185a275be7d04a696a08a76f80337:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11014,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "fa157163e56185a275be7d04a696a08a76f80337",
+    "author": "mazhelez",
+    "author_type": "User",
+    "labels": [
+      "Build: Automation",
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": false,
+    "title_key": "update automation work item link from ab 539394 to ab 640900"
+  }
+}

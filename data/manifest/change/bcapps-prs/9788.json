@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9788",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Master]-Incorrect Reservation Split Generated After Replanning a Replenishment Production Order Created by MRP Planning Run",
+  "url": "https://github.com/microsoft/BCApps/pull/9788",
+  "published_at": "2026-07-29T08:19:16Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "ccf5df63c15ae3212ade3a3c64993f6567488002:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9788,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "ccf5df63c15ae3212ade3a3c64993f6567488002",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "master incorrect reservation split generated after replanning a replenishment production order created by mrp planning run"
+  }
+}

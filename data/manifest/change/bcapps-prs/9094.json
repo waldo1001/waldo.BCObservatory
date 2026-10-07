@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/9094",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Add shared CompanyMetadata data source for report layouts",
+  "url": "https://github.com/microsoft/BCApps/pull/9094",
+  "published_at": "2026-08-03T18:55:29Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "487e2b548afd06560d05c8e6df2a066ea9100050:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9094,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "487e2b548afd06560d05c8e6df2a066ea9100050",
+    "author": "v-mortenr",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "From Fork",
+      "Team: Integrations"
+    ],
+    "community_contribution": true,
+    "title_key": "add shared companymetadata data source for report layouts"
+  }
+}

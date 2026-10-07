@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9089",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Merge-ES-Excluded-from-Calculation-to-W1",
+  "url": "https://github.com/microsoft/BCApps/pull/9089",
+  "published_at": "2026-07-20T11:07:41Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "b6ab48ceb4c044446b97cd5c83c0d6eae4e3ea16:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9089,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "b6ab48ceb4c044446b97cd5c83c0d6eae4e3ea16",
+    "author": "Alexander-Ya",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "merge es excluded from calculation to w1"
+  }
+}

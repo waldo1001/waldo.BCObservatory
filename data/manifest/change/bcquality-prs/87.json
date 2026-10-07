@@ -1,0 +1,30 @@
+{
+  "id": "change/bcquality-prs/87",
+  "pillar": "change",
+  "source": "bcquality-prs",
+  "tier": "official",
+  "title": "Fix knowledge corpus integrity issues",
+  "url": "https://github.com/microsoft/BCQuality/pull/87",
+  "published_at": "2026-07-13T08:34:23Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "34c931e1c1a3b90e814a567dadd316aafb321d83:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 87,
+    "repo": "microsoft/BCQuality",
+    "base": "main",
+    "major": null,
+    "merge_commit_sha": "34c931e1c1a3b90e814a567dadd316aafb321d83",
+    "author": "JesperSchulz",
+    "author_type": "User",
+    "labels": [],
+    "community_contribution": false,
+    "title_key": "fix knowledge corpus integrity issues"
+  }
+}

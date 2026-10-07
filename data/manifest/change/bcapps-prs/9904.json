@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/9904",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Let the agent see and set vendor posting groups and CIF or NIF",
+  "url": "https://github.com/microsoft/BCApps/pull/9904",
+  "published_at": "2026-08-05T11:38:27Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "5c72b952c8af961ff585c8605caa9806573436c9:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9904,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "5c72b952c8af961ff585c8605caa9806573436c9",
+    "author": "Explorer986",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "let the agent see and set vendor posting groups and cif or nif"
+  }
+}

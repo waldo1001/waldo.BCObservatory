@@ -1,0 +1,35 @@
+{
+  "id": "change/bcapps-prs/11891",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[API tests] Provision credentials and clean-tenant workflow infrastructure",
+  "url": "https://github.com/microsoft/BCApps/pull/11891",
+  "published_at": "2026-10-05T14:21:45Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "37fef448ca85a1d90d101a2bdb30825c931685ea:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11891,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "37fef448ca85a1d90d101a2bdb30825c931685ea",
+    "author": "t-prda",
+    "author_type": "User",
+    "labels": [
+      "Build: Automation",
+      "Build: scripts & configs",
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": false,
+    "title_key": "api tests provision credentials and clean tenant workflow infrastructure"
+  }
+}

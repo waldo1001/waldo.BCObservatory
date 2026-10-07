@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9210",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Consume BC PR review engine instead of hosting it",
+  "url": "https://github.com/microsoft/BCApps/pull/9210",
+  "published_at": "2026-07-14T11:15:55Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "770cf5763332d471ffcbb1c3c9764013e5917049:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9210,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "770cf5763332d471ffcbb1c3c9764013e5917049",
+    "author": "gggdttt",
+    "author_type": "User",
+    "labels": [
+      "Build: Automation"
+    ],
+    "community_contribution": false,
+    "title_key": "consume bc pr review engine instead of hosting it"
+  }
+}

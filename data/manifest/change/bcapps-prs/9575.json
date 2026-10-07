@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/9575",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Payables Agent] set Document Date and Due Date on Incomming Document when Draft is created",
+  "url": "https://github.com/microsoft/BCApps/pull/9575",
+  "published_at": "2026-07-20T10:32:03Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "75b6ca8782dc1a6abc47c482f2a16f9b8d74763d:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9575,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "75b6ca8782dc1a6abc47c482f2a16f9b8d74763d",
+    "author": "Explorer986",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "payables agent set document date and due date on incomming document when draft is created"
+  }
+}

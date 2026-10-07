@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/10252",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Adjust audit log tables",
+  "url": "https://github.com/microsoft/BCApps/pull/10252",
+  "published_at": "2026-08-30T22:36:39Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "40ee8fd86cc666c63e0df456bb3842703649c5f7:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10252,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "40ee8fd86cc666c63e0df456bb3842703649c5f7",
+    "author": "WaelAbuSeada",
+    "author_type": "User",
+    "labels": [
+      "Ownership: Manual",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "adjust audit log tables"
+  }
+}

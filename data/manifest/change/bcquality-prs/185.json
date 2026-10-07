@@ -1,0 +1,30 @@
+{
+  "id": "change/bcquality-prs/185",
+  "pillar": "change",
+  "source": "bcquality-prs",
+  "tier": "official",
+  "title": "Fix reporting skill index expectation",
+  "url": "https://github.com/microsoft/BCQuality/pull/185",
+  "published_at": "2026-09-15T08:45:36Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "d24dc7b14b39624e8b2160dbca73d66140106e4c:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 185,
+    "repo": "microsoft/BCQuality",
+    "base": "main",
+    "major": null,
+    "merge_commit_sha": "d24dc7b14b39624e8b2160dbca73d66140106e4c",
+    "author": "JesperSchulz",
+    "author_type": "User",
+    "labels": [],
+    "community_contribution": false,
+    "title_key": "fix reporting skill index expectation"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/10335",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Unblock bc login due to pp failures",
+  "url": "https://github.com/microsoft/BCApps/pull/10335",
+  "published_at": "2026-09-07T08:17:07Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "d498b125cf73a804d6673fc65ddf963e231f53cf:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10335,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "d498b125cf73a804d6673fc65ddf963e231f53cf",
+    "author": "rupeshdan",
+    "author_type": "User",
+    "labels": [
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "unblock bc login due to pp failures"
+  }
+}

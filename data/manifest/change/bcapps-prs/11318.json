@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/11318",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[main] Bug 649189: Update E-Document vendor invoice caption",
+  "url": "https://github.com/microsoft/BCApps/pull/11318",
+  "published_at": "2026-09-11T08:45:06Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "ca6ae25ddbf8a20a6345517a4bdfc15242318a62:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11318,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "ca6ae25ddbf8a20a6345517a4bdfc15242318a62",
+    "author": "djukicmilica",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 649189 update e document vendor invoice caption"
+  }
+}

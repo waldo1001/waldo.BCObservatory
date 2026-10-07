@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/12215",
+  "number": 12215,
+  "title": "[Shopify] Link grouped invoice to all originating orders",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "Invoice document linking to Shopify orders now correctly associates a single invoice with all originating Shopify orders when multiple shipments are grouped, instead of retaining filters from earlier shipments.",
+  "key_points": [
+    "Clear stale Shopify document filters before resolving each shipment link",
+    "Grouped shipments from multiple orders are now linked to all originating orders",
+    "Added test coverage for grouped invoice scenario",
+    "No schema or compatibility impact",
+    "Fixes issue where later shipment lookups were affected by retained filters from earlier shipments"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": "This clears those retained filters before each shipment lookup so the posted invoice is linked to every originating Shopify order.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003463,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/11234",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Main]-Re-enable BC tests disabled due to BCApps submodule migration-IT",
+  "url": "https://github.com/microsoft/BCApps/pull/11234",
+  "published_at": "2026-09-23T06:53:22Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "3bfd6e5511deec04fee3b22f6e3a0c282006ba08:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11234,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "3bfd6e5511deec04fee3b22f6e3a0c282006ba08",
+    "author": "DeepsShukla",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "re enable bc tests disabled due to bcapps submodule migration it"
+  }
+}

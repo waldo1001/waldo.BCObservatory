@@ -1,0 +1,35 @@
+{
+  "id": "change/bcapps-prs/10156",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Bug][SubscriptionBilling] Assign Subscription Lines dialog does not identify the sales line it was opened for",
+  "url": "https://github.com/microsoft/BCApps/pull/10156",
+  "published_at": "2026-09-28T16:49:07Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "bbd83b641b97ecb0fabc7bbd6651fea278176783:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10156,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "bbd83b641b97ecb0fabc7bbd6651fea278176783",
+    "author": "miljance",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "AL: Apps (W1)",
+      "From Fork",
+      "Team: Finance"
+    ],
+    "community_contribution": true,
+    "title_key": "bug subscriptionbilling assign subscription lines dialog does not identify the sales line it was opened for"
+  }
+}

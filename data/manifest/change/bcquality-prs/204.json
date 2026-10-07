@@ -1,0 +1,30 @@
+{
+  "id": "change/bcquality-prs/204",
+  "pillar": "change",
+  "source": "bcquality-prs",
+  "tier": "official",
+  "title": "Validate composed reviews against the expected leaf worklist",
+  "url": "https://github.com/microsoft/BCQuality/pull/204",
+  "published_at": "2026-10-02T08:27:28Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "206c5feff4160593c56edc501b52504d06b9ed6d:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 204,
+    "repo": "microsoft/BCQuality",
+    "base": "main",
+    "major": null,
+    "merge_commit_sha": "206c5feff4160593c56edc501b52504d06b9ed6d",
+    "author": "demiliani",
+    "author_type": "User",
+    "labels": [],
+    "community_contribution": false,
+    "title_key": "validate composed reviews against the expected leaf worklist"
+  }
+}

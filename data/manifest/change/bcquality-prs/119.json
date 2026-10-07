@@ -1,0 +1,30 @@
+{
+  "id": "change/bcquality-prs/119",
+  "pillar": "change",
+  "source": "bcquality-prs",
+  "tier": "official",
+  "title": "Add batch-2 FP guards: sentence-case action captions + PK Get is transaction-cached",
+  "url": "https://github.com/microsoft/BCQuality/pull/119",
+  "published_at": "2026-07-22T07:40:01Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "ad8ccde5953fd6ce072e3b59049406783066ed60:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 119,
+    "repo": "microsoft/BCQuality",
+    "base": "main",
+    "major": null,
+    "merge_commit_sha": "ad8ccde5953fd6ce072e3b59049406783066ed60",
+    "author": "gggdttt",
+    "author_type": "User",
+    "labels": [],
+    "community_contribution": false,
+    "title_key": "add batch 2 fp guards sentence case action captions pk get is transaction cached"
+  }
+}

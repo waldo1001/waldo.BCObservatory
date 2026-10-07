@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/11119",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Fix SubcontractingMigrationIT code owner",
+  "url": "https://github.com/microsoft/BCApps/pull/11119",
+  "published_at": "2026-09-07T13:16:29Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "2adebf160e4258c7a8e905fe5164796d91822b50:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11119,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "2adebf160e4258c7a8e905fe5164796d91822b50",
+    "author": "JesperSchulz",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": false,
+    "title_key": "fix subcontractingmigrationit code owner"
+  }
+}

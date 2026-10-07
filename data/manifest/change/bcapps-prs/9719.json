@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9719",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[main] bug 643971 - Implement checks for blocked customers and vendors in advance letters",
+  "url": "https://github.com/microsoft/BCApps/pull/9719",
+  "published_at": "2026-07-28T05:19:54Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "9c2d9aab7ebcbcda0760c5c3da2bafbe63b66f87:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9719,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "9c2d9aab7ebcbcda0760c5c3da2bafbe63b66f87",
+    "author": "DavidHolusa",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 643971 implement checks for blocked customers and vendors in advance letters"
+  }
+}

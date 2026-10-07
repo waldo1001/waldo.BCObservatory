@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/10368",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Bug 614967: Skip mismatched TransferFields in posting",
+  "url": "https://github.com/microsoft/BCApps/pull/10368",
+  "published_at": "2026-08-31T15:57:11Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "b41e6ea5bcf8a83d770ef68b5ad5d1cf3851468c:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10368,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "b41e6ea5bcf8a83d770ef68b5ad5d1cf3851468c",
+    "author": "ChethanT",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 614967 skip mismatched transferfields in posting"
+  }
+}

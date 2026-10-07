@@ -1,0 +1,30 @@
+{
+  "id": "change/bcquality-prs/101",
+  "pillar": "change",
+  "source": "bcquality-prs",
+  "tier": "official",
+  "title": "style-review: fix example finding id to match references[0].path",
+  "url": "https://github.com/microsoft/BCQuality/pull/101",
+  "published_at": "2026-07-14T10:59:25Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "be1b92b624679f8c031061602e7d3a3b5f71a688:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 101,
+    "repo": "microsoft/BCQuality",
+    "base": "main",
+    "major": null,
+    "merge_commit_sha": "be1b92b624679f8c031061602e7d3a3b5f71a688",
+    "author": "gggdttt",
+    "author_type": "User",
+    "labels": [],
+    "community_contribution": false,
+    "title_key": "style review fix example finding id to match references 0 path"
+  }
+}

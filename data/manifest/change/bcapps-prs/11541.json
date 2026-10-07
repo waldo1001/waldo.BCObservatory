@@ -1,0 +1,35 @@
+{
+  "id": "change/bcapps-prs/11541",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Clarify Expense Agent and expense management setup",
+  "url": "https://github.com/microsoft/BCApps/pull/11541",
+  "published_at": "2026-09-17T22:59:43Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "9f382f608fab7e117cfeb1e33fa9f70259386bfa:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11541,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "9f382f608fab7e117cfeb1e33fa9f70259386bfa",
+    "author": "t-prda",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "ExpenseManagement",
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": false,
+    "title_key": "clarify expense agent and expense management setup"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/9482",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Make service-invoked System Application facades callable by any user (Privacy Notice + Page Summary Provider)",
+  "url": "https://github.com/microsoft/BCApps/pull/9482",
+  "published_at": "2026-07-21T15:44:11Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "66823610bb2f65fde39296c0ac3f34facc5e1b01:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9482,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "66823610bb2f65fde39296c0ac3f34facc5e1b01",
+    "author": "onbuyuka",
+    "author_type": "User",
+    "labels": [
+      "AL: System Application",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "make service invoked system application facades callable by any user privacy notice page summary provider"
+  }
+}

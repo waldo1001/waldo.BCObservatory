@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9297",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Main]- Error The Bin Content does not exist.Not able to post an Inventory Pick for Assemble to Order",
+  "url": "https://github.com/microsoft/BCApps/pull/9297",
+  "published_at": "2026-07-24T06:21:32Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "a53288c3ce5b47be2c667087e78b49623bee820f:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9297,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "a53288c3ce5b47be2c667087e78b49623bee820f",
+    "author": "DeepsShukla",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "error the bin content does not exist not able to post an inventory pick for assemble to order"
+  }
+}

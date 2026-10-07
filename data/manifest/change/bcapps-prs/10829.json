@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/10829",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[29.x][Expense Agent] Backport approval conversation from #10570",
+  "url": "https://github.com/microsoft/BCApps/pull/10829",
+  "published_at": "2026-09-03T15:00:13Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "d462c911fa7f92d3860864fb5e3434ee497f3889:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10829,
+    "repo": "microsoft/BCApps",
+    "base": "releases/29.x",
+    "major": "29",
+    "merge_commit_sha": "d462c911fa7f92d3860864fb5e3434ee497f3889",
+    "author": "t-prda",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "expense agent backport approval conversation from 10570"
+  }
+}

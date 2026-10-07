@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/10624",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[MAIN]-Bug 647352 Issue with lot no assignment after posting a transfer order",
+  "url": "https://github.com/microsoft/BCApps/pull/10624",
+  "published_at": "2026-09-01T08:47:11Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "7f753cfa0ba34ee20706372b0f814b12208ef325:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10624,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "7f753cfa0ba34ee20706372b0f814b12208ef325",
+    "author": "v-praghav",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 647352 issue with lot no assignment after posting a transfer order"
+  }
+}

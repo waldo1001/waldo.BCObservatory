@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/10519",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "SOA - Try it out : agent activation after closing the page",
+  "url": "https://github.com/microsoft/BCApps/pull/10519",
+  "published_at": "2026-08-22T08:05:54Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "c3414ede3ec7bab5a928f312c1208dbd0f8e39a7:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10519,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "c3414ede3ec7bab5a928f312c1208dbd0f8e39a7",
+    "author": "VolodySyn",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "soa try it out agent activation after closing the page"
+  }
+}

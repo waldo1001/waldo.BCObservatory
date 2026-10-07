@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/10736",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Main]- Mismatch between Purchase Invoice Total in Lines and Statistics after VAT adjustment",
+  "url": "https://github.com/microsoft/BCApps/pull/10736",
+  "published_at": "2026-08-31T14:20:03Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "2df39bf5e9738b621b6d9fcb1f21b24bd303b264:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10736,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "2df39bf5e9738b621b6d9fcb1f21b24bd303b264",
+    "author": "DeepsShukla",
+    "author_type": "User",
+    "labels": [
+      "Ownership: Manual",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "mismatch between purchase invoice total in lines and statistics after vat adjustment"
+  }
+}

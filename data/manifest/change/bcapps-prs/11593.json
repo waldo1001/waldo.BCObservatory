@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/11593",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": " [29.x] - Bug 650481[Expense Agent] Closed travel requests are editable and are missing approver info.",
+  "url": "https://github.com/microsoft/BCApps/pull/11593",
+  "published_at": "2026-09-23T13:22:42Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "0f716dcd6d80e43e33f17cb408bbd920bd1b6449:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11593,
+    "repo": "microsoft/BCApps",
+    "base": "releases/29.x",
+    "major": "29",
+    "merge_commit_sha": "0f716dcd6d80e43e33f17cb408bbd920bd1b6449",
+    "author": "v-rohangarg20",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "29 x bug 650481 expense agent closed travel requests are editable and are missing approver info"
+  }
+}

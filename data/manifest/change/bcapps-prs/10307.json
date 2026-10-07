@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/10307",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Shopify] Fix Order Totals factbox opening an unrelated sales order for a linked posted invoice",
+  "url": "https://github.com/microsoft/BCApps/pull/10307",
+  "published_at": "2026-08-19T10:53:53Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "1c10bca2bc4236d88a1258ce308c5c170a804865:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10307,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "1c10bca2bc4236d88a1258ce308c5c170a804865",
+    "author": "onbuyuka",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "shopify fix order totals factbox opening an unrelated sales order for a linked posted invoice"
+  }
+}

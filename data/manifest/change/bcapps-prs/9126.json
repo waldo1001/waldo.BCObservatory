@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9126",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Shopify] Base price-sync bulk threshold on changed price count",
+  "url": "https://github.com/microsoft/BCApps/pull/9126",
+  "published_at": "2026-07-09T12:27:45Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "237399c6c299e244b8e0915c8f83f78c4a2cde63:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9126,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "237399c6c299e244b8e0915c8f83f78c4a2cde63",
+    "author": "onbuyuka",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)"
+    ],
+    "community_contribution": false,
+    "title_key": "shopify base price sync bulk threshold on changed price count"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "change/bcquality-prs/136",
+  "pillar": "change",
+  "source": "bcquality-prs",
+  "tier": "official",
+  "title": "Add community knowledge: AL boolean operators do not short-circuit",
+  "url": "https://github.com/microsoft/BCQuality/pull/136",
+  "published_at": "2026-09-02T12:48:33Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "c39f723caedbdf622c9da6cdcb664b28f3ee2f10:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 136,
+    "repo": "microsoft/BCQuality",
+    "base": "main",
+    "major": null,
+    "merge_commit_sha": "c39f723caedbdf622c9da6cdcb664b28f3ee2f10",
+    "author": "aacnsilva",
+    "author_type": "User",
+    "labels": [],
+    "community_contribution": false,
+    "title_key": "add community knowledge al boolean operators do not short circuit"
+  }
+}

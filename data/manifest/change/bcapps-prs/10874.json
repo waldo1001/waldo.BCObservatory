@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/10874",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[29.x]User is unable to filter the Deferral Summary-GL Report Not Filtering Totals by Global Dimensions.",
+  "url": "https://github.com/microsoft/BCApps/pull/10874",
+  "published_at": "2026-09-10T07:26:46Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "6ac311e4efc6c8c88c11b4d131fd749b38879c35:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10874,
+    "repo": "microsoft/BCApps",
+    "base": "releases/29.x",
+    "major": "29",
+    "merge_commit_sha": "6ac311e4efc6c8c88c11b4d131fd749b38879c35",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "user is unable to filter the deferral summary gl report not filtering totals by global dimensions"
+  }
+}

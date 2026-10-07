@@ -1,0 +1,35 @@
+{
+  "id": "change/bcapps-prs/10365",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Add activity lifecycle E2E test fixture",
+  "url": "https://github.com/microsoft/BCApps/pull/10365",
+  "published_at": "2026-08-19T12:46:04Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "8059bb9d4097e38a6096b44bf62e65e304d5bab5:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10365,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "8059bb9d4097e38a6096b44bf62e65e304d5bab5",
+    "author": "t-prda",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "ExpenseManagement",
+      "Ownership: Manual",
+      "Team: Other"
+    ],
+    "community_contribution": false,
+    "title_key": "add activity lifecycle e2e test fixture"
+  }
+}

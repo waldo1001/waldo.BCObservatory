@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/10123",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Extensibility Request] issue 30401: add credit memo sales line filter event",
+  "url": "https://github.com/microsoft/BCApps/pull/10123",
+  "published_at": "2026-08-14T12:07:31Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "cac3b904177b03457d01942099c208b2dc78f3b7:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10123,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "cac3b904177b03457d01942099c208b2dc78f3b7",
+    "author": "AleksandricMarko",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM",
+      "event-request"
+    ],
+    "community_contribution": false,
+    "title_key": "extensibility request issue 30401 add credit memo sales line filter event"
+  }
+}

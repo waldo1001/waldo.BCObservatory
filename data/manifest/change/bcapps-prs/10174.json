@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/10174",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Extensibility Request] issue 30137: allow overriding cost share application",
+  "url": "https://github.com/microsoft/BCApps/pull/10174",
+  "published_at": "2026-08-16T21:53:44Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "a8700d1f9b0fa57a475a30b089de3662f8add467:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10174,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "a8700d1f9b0fa57a475a30b089de3662f8add467",
+    "author": "AleksandricMarko",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM",
+      "event-request"
+    ],
+    "community_contribution": false,
+    "title_key": "extensibility request issue 30137 allow overriding cost share application"
+  }
+}

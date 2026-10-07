@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/9702",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Default new E-Document services to import v2 and let users select the draft format",
+  "url": "https://github.com/microsoft/BCApps/pull/9702",
+  "published_at": "2026-07-24T20:39:08Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "acaac80c3040d87a36ab1504944d03a94f17f3d5:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9702,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "acaac80c3040d87a36ab1504944d03a94f17f3d5",
+    "author": "Groenbech96",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "default new e document services to import v2 and let users select the draft format"
+  }
+}

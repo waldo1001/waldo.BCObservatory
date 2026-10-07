@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/10867",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[29.x][ALL-E]Issues with Service Contract Invoicing and Retrospective Billing--when the second unposted Service Invoice is deleted the values on the Service Contract are no longer reset--The \"Invoiced to Date\" field does not resetInitial commit- #10345Initial commit",
+  "url": "https://github.com/microsoft/BCApps/pull/10867",
+  "published_at": "2026-09-03T08:10:41Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "b0558f3dd55c092799799078c4bcb3827a1fbbf7:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10867,
+    "repo": "microsoft/BCApps",
+    "base": "releases/29.x",
+    "major": "29",
+    "merge_commit_sha": "b0558f3dd55c092799799078c4bcb3827a1fbbf7",
+    "author": "sanjmaurya",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "all e issues with service contract invoicing and retrospective billing when the second unposted service invoice is deleted the values on the service contract are no longer reset the invoiced to date field does not resetinitial commit 10345initial commit"
+  }
+}

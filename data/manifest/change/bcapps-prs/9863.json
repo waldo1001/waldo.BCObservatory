@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/9863",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Extensibility Request] issue 29074: expose PurchLineQty in OnSumPurchLines2OnBeforeDivideAmount",
+  "url": "https://github.com/microsoft/BCApps/pull/9863",
+  "published_at": "2026-08-03T14:23:36Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "a7209f2ac4af01e2e3b329028fa4ae15b64067b5:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9863,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "a7209f2ac4af01e2e3b329028fa4ae15b64067b5",
+    "author": "AleksandricMarko",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM",
+      "event-request"
+    ],
+    "community_contribution": false,
+    "title_key": "extensibility request issue 29074 expose purchlineqty in onsumpurchlines2onbeforedivideamount"
+  }
+}

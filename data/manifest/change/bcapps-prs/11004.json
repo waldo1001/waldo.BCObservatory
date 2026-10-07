@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/11004",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Fix Expense Report Reimbursement Currency Code",
+  "url": "https://github.com/microsoft/BCApps/pull/11004",
+  "published_at": "2026-09-04T10:52:42Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "23952d0213b65c2e0a69499b6a8d39f98efb59b5:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11004,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "23952d0213b65c2e0a69499b6a8d39f98efb59b5",
+    "author": "Alexander-Ya",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "fix expense report reimbursement currency code"
+  }
+}

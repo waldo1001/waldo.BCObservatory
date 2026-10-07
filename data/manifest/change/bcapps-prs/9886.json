@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9886",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Master]  Expense Report posting FCY rounding mismatch \"Expense Report Posting Test\" fail in Spain only (Source Currency Amount 649.97 vs 650",
+  "url": "https://github.com/microsoft/BCApps/pull/9886",
+  "published_at": "2026-08-18T04:33:34Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "818f30d64f06477f2012a46f56c93fccc5e3b995:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9886,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "818f30d64f06477f2012a46f56c93fccc5e3b995",
+    "author": "sanjmaurya",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "master expense report posting fcy rounding mismatch expense report posting test fail in spain only source currency amount 649 97 vs 650"
+  }
+}

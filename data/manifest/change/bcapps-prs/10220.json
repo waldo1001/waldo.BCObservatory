@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/10220",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[main] Calculate Inventory - Add check to skip report processing if Warehouse Entry table is empty",
+  "url": "https://github.com/microsoft/BCApps/pull/10220",
+  "published_at": "2026-08-14T08:58:29Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "b089f9536fface70b82303c6e1ba365e47d1ec14:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10220,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "b089f9536fface70b82303c6e1ba365e47d1ec14",
+    "author": "JakovljevicDusan",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "calculate inventory add check to skip report processing if warehouse entry table is empty"
+  }
+}

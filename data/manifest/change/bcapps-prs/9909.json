@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/9909",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Searching for PayPal webhooks subscription is blocking the Cloud Migration",
+  "url": "https://github.com/microsoft/BCApps/pull/9909",
+  "published_at": "2026-08-04T18:41:24Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "2095dc6b9e6cd758b4923968868d8d25d0591155:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9909,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "2095dc6b9e6cd758b4923968868d8d25d0591155",
+    "author": "dcenic",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "searching for paypal webhooks subscription is blocking the cloud migration"
+  }
+}

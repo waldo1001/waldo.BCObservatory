@@ -1,0 +1,35 @@
+{
+  "id": "change/bcapps-prs/9865",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Main] - 'Greater Than' Withholding Tax Calculation Rule is not app…",
+  "url": "https://github.com/microsoft/BCApps/pull/9865",
+  "published_at": "2026-08-19T17:39:50Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "9d8d554cbf78f2f305c36121f6beece2cff1145a:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9865,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "9d8d554cbf78f2f305c36121f6beece2cff1145a",
+    "author": "ViditGupta1277",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "AL: Apps (W1)",
+      "From Fork",
+      "Team: Finance"
+    ],
+    "community_contribution": true,
+    "title_key": "greater than withholding tax calculation rule is not app"
+  }
+}

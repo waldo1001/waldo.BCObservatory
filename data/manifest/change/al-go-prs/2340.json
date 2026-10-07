@@ -1,0 +1,30 @@
+{
+  "id": "change/al-go-prs/2340",
+  "pillar": "change",
+  "source": "al-go-prs",
+  "tier": "official",
+  "title": "Add opt-in unpublishOldVersions setting to unpublish stale PTE app versions after deploy",
+  "url": "https://github.com/microsoft/AL-Go/pull/2340",
+  "published_at": "2026-09-17T14:29:00Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "a41a641716f909d611fb3df3a69e7b0f71170e7e:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 2340,
+    "repo": "microsoft/AL-Go",
+    "base": "main",
+    "major": null,
+    "merge_commit_sha": "a41a641716f909d611fb3df3a69e7b0f71170e7e",
+    "author": "louagej",
+    "author_type": "User",
+    "labels": [],
+    "community_contribution": false,
+    "title_key": "add opt in unpublisholdversions setting to unpublish stale pte app versions after deploy"
+  }
+}

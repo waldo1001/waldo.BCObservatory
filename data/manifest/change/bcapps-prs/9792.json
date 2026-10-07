@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9792",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Migrate ZUGFeRD, PEPPOL BIS 3.0 DE, Factur-X FR and Peppol BIS 3.0 FR to the V2 draft import pipeline",
+  "url": "https://github.com/microsoft/BCApps/pull/9792",
+  "published_at": "2026-07-29T16:55:03Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "f512fb7ede8aca2a7590284476ee8ae187986e67:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9792,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "f512fb7ede8aca2a7590284476ee8ae187986e67",
+    "author": "Groenbech96",
+    "author_type": "User",
+    "labels": [
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "migrate zugferd peppol bis 3 0 de factur x fr and peppol bis 3 0 fr to the v2 draft import pipeline"
+  }
+}

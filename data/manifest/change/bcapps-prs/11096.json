@@ -1,0 +1,35 @@
+{
+  "id": "change/bcapps-prs/11096",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "PEPPOL FR improvements",
+  "url": "https://github.com/microsoft/BCApps/pull/11096",
+  "published_at": "2026-09-10T10:26:19Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "a7c6a631b89c977f71bb2e8bb21af2c045c4acab:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11096,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "a7c6a631b89c977f71bb2e8bb21af2c045c4acab",
+    "author": "djukicmilica",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "AL: Apps (W1)",
+      "From Fork",
+      "Team: Finance"
+    ],
+    "community_contribution": true,
+    "title_key": "peppol fr improvements"
+  }
+}

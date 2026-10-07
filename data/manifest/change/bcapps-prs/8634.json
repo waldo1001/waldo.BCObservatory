@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/8634",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[MCP] Register MCP server as a Copilot capability",
+  "url": "https://github.com/microsoft/BCApps/pull/8634",
+  "published_at": "2026-07-21T17:30:18Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "10c4a4cd608ac1aace23dd323aad88637723620f:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 8634,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "10c4a4cd608ac1aace23dd323aad88637723620f",
+    "author": "onbuyuka",
+    "author_type": "User",
+    "labels": [
+      "AL: System Application",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "mcp register mcp server as a copilot capability"
+  }
+}

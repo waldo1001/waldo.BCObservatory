@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9307",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Added missing event call so the search results page subscribes to the…",
+  "url": "https://github.com/microsoft/BCApps/pull/9307",
+  "published_at": "2026-07-14T08:49:41Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "dd8e20703c046290abe70266cfb2e090ec18ee6d:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9307,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "dd8e20703c046290abe70266cfb2e090ec18ee6d",
+    "author": "BardurKnudsen",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)"
+    ],
+    "community_contribution": false,
+    "title_key": "added missing event call so the search results page subscribes to the"
+  }
+}

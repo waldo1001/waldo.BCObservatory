@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/11213",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Fix sample invoice email when the agent setup is not saved yet",
+  "url": "https://github.com/microsoft/BCApps/pull/11213",
+  "published_at": "2026-09-09T17:46:07Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "c4be4def478559a0a59421779b4e75f5cc0cca0f:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11213,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "c4be4def478559a0a59421779b4e75f5cc0cca0f",
+    "author": "Explorer986",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "fix sample invoice email when the agent setup is not saved yet"
+  }
+}

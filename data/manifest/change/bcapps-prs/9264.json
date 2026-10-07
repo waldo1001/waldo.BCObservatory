@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/9264",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[master] Bin Capacity Policy \"Prohibit More Than Max. Cap.\" fails and allows more than the maximum Capacity, when you split lines on Inventory Movement",
+  "url": "https://github.com/microsoft/BCApps/pull/9264",
+  "published_at": "2026-07-13T10:44:58Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "79aa73e6b7e9910ae9d25bdf7c50caf6e4eeed58:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9264,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "79aa73e6b7e9910ae9d25bdf7c50caf6e4eeed58",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "From Fork",
+      "Team: SCM"
+    ],
+    "community_contribution": true,
+    "title_key": "master bin capacity policy prohibit more than max cap fails and allows more than the maximum capacity when you split lines on inventory movement"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/9954",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Restoring undefined action. (Purchase Orders page can't be open in latest `main`)",
+  "url": "https://github.com/microsoft/BCApps/pull/9954",
+  "published_at": "2026-08-06T09:03:01Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "552f702dc18a050f5bf2adb1752783dfc623e2e3:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9954,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "552f702dc18a050f5bf2adb1752783dfc623e2e3",
+    "author": "mynjj",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": false,
+    "title_key": "restoring undefined action purchase orders page can t be open in latest main"
+  }
+}

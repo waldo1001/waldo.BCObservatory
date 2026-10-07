@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/10034",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Shopify] Don't block Shops page when user lacks extension permissions",
+  "url": "https://github.com/microsoft/BCApps/pull/10034",
+  "published_at": "2026-08-19T13:13:00Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "a4f9b017b24bd3c486e43e8f8a0fba23cb50f242:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10034,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "a4f9b017b24bd3c486e43e8f8a0fba23cb50f242",
+    "author": "onbuyuka",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "shopify don t block shops page when user lacks extension permissions"
+  }
+}

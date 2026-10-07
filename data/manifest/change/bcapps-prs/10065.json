@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/10065",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Quality Management] Quality Inspection User assignment fixes",
+  "url": "https://github.com/microsoft/BCApps/pull/10065",
+  "published_at": "2026-08-17T10:46:56Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "f86c5eef28b8770ae2e02970d1d0bec607cbb71b:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10065,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "f86c5eef28b8770ae2e02970d1d0bec607cbb71b",
+    "author": "JakovljevicDusan",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "quality management quality inspection user assignment fixes"
+  }
+}

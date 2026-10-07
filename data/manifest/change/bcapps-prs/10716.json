@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/10716",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Main] [ALL-E] \"Item tracking is defined for item 1000 in the Requisition Line. You must delete the existing item tracking before modifying or deleting the Requisition line\" err when creating a Purchase Order from a Sales Order including DROP Shipment Bug 643358",
+  "url": "https://github.com/microsoft/BCApps/pull/10716",
+  "published_at": "2026-09-02T12:19:04Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "101ca85f5e03200251c89df05fdf6f66eb6380a8:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10716,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "101ca85f5e03200251c89df05fdf6f66eb6380a8",
+    "author": "Shikhverma",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "all e item tracking is defined for item 1000 in the requisition line you must delete the existing item tracking before modifying or deleting the requisition line err when creating a purchase order from a sales order including drop shipment bug 643358"
+  }
+}

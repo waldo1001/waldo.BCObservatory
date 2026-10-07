@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/10676",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Fix decimal tax rates for Polish region",
+  "url": "https://github.com/microsoft/BCApps/pull/10676",
+  "published_at": "2026-09-18T05:38:37Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "0ff2d78de09b01ecbeed1fb1df0bfd4a6db04c4f:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10676,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "0ff2d78de09b01ecbeed1fb1df0bfd4a6db04c4f",
+    "author": "v-ajaztabrez",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "fix decimal tax rates for polish region"
+  }
+}

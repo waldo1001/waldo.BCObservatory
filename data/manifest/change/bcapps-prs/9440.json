@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/9440",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Extensibility Request] issue 30331: add event to adjust corrective credit memo confirmation text",
+  "url": "https://github.com/microsoft/BCApps/pull/9440",
+  "published_at": "2026-07-15T12:59:14Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "ba5732ca9924483f48a5dbfc45e1e00c2be9eeab:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9440,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "ba5732ca9924483f48a5dbfc45e1e00c2be9eeab",
+    "author": "AleksandricMarko",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM",
+      "event-request"
+    ],
+    "community_contribution": false,
+    "title_key": "extensibility request issue 30331 add event to adjust corrective credit memo confirmation text"
+  }
+}

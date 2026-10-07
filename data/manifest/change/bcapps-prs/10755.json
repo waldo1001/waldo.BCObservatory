@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/10755",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Migrate Http Web Request Mgt. callers to native HttpClient",
+  "url": "https://github.com/microsoft/BCApps/pull/10755",
+  "published_at": "2026-10-02T09:45:43Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "054085fe9121fc20624deaeacb6544f040f5c753:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10755,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "054085fe9121fc20624deaeacb6544f040f5c753",
+    "author": "darjoo",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "migrate http web request mgt callers to native httpclient"
+  }
+}

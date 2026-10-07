@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/10056",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Master]- Cartera: Service Credit Memo cannot be posted - settlement check ignores Applies-to Doc. No. and Application Method.",
+  "url": "https://github.com/microsoft/BCApps/pull/10056",
+  "published_at": "2026-08-11T11:56:45Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "33407fb511c62e794440df78621a51814e3e82f6:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10056,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "33407fb511c62e794440df78621a51814e3e82f6",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "Ownership: Manual",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "master cartera service credit memo cannot be posted settlement check ignores applies to doc no and application method"
+  }
+}

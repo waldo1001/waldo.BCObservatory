@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/9533",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "power bi: fixing dimension range calculation and adding url caps ",
+  "url": "https://github.com/microsoft/BCApps/pull/9533",
+  "published_at": "2026-07-17T18:13:21Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "3896a32e10c592141a52f9bf2a142a539d784ec7:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9533,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "3896a32e10c592141a52f9bf2a142a539d784ec7",
+    "author": "mynjj",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "power bi fixing dimension range calculation and adding url caps"
+  }
+}

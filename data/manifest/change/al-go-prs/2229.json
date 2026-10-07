@@ -1,0 +1,30 @@
+{
+  "id": "change/al-go-prs/2229",
+  "pillar": "change",
+  "source": "al-go-prs",
+  "tier": "official",
+  "title": "Surface empty BCPT results as a warning instead of silent success",
+  "url": "https://github.com/microsoft/AL-Go/pull/2229",
+  "published_at": "2026-07-22T10:10:47Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "4f5f9c18698cb8791ebb77b5b5514a4fdd82b51b:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 2229,
+    "repo": "microsoft/AL-Go",
+    "base": "main",
+    "major": null,
+    "merge_commit_sha": "4f5f9c18698cb8791ebb77b5b5514a4fdd82b51b",
+    "author": "jeffreybulanadi",
+    "author_type": "User",
+    "labels": [],
+    "community_contribution": false,
+    "title_key": "surface empty bcpt results as a warning instead of silent success"
+  }
+}

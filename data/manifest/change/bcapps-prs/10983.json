@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/10983",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Bug 647094] Re-enable the composite layout resolution tests on a real body layout",
+  "url": "https://github.com/microsoft/BCApps/pull/10983",
+  "published_at": "2026-09-04T11:38:43Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "9757a740d8143ca8ec0886b9d5a65c843996abd3:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10983,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "9757a740d8143ca8ec0886b9d5a65c843996abd3",
+    "author": "v-mortenr",
+    "author_type": "User",
+    "labels": [
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 647094 re enable the composite layout resolution tests on a real body layout"
+  }
+}

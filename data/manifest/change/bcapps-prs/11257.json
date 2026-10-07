@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/11257",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Fix duplicate retention continuations for Waiting jobs",
+  "url": "https://github.com/microsoft/BCApps/pull/11257",
+  "published_at": "2026-09-23T09:37:03Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "f86cb04d7d81db561a904204487d9e32c354fc15:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11257,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "f86cb04d7d81db561a904204487d9e32c354fc15",
+    "author": "darjoo",
+    "author_type": "User",
+    "labels": [
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "fix duplicate retention continuations for waiting jobs"
+  }
+}

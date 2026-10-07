@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/8499",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Adding `IsVerifiedDomain` to the `AzureADTenant` module",
+  "url": "https://github.com/microsoft/BCApps/pull/8499",
+  "published_at": "2026-08-07T17:33:28Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "daca6e62c20b3f972dff17be98b11cc1cb76d80a:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 8499,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "daca6e62c20b3f972dff17be98b11cc1cb76d80a",
+    "author": "mynjj",
+    "author_type": "User",
+    "labels": [
+      "AL: System Application",
+      "Ownership: Manual",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "adding isverifieddomain to the azureadtenant module"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/9953",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Rename AppSource UI text to Marketplace",
+  "url": "https://github.com/microsoft/BCApps/pull/9953",
+  "published_at": "2026-10-05T14:21:45Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "d99152ee35f0ca8cfec43ba6334b7247a0ee6b17:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9953,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "d99152ee35f0ca8cfec43ba6334b7247a0ee6b17",
+    "author": "SBalslev",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "AL: System Application",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "rename appsource ui text to marketplace"
+  }
+}

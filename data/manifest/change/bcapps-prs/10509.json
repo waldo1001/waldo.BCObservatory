@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/10509",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[IRS Forms] Performance optimization",
+  "url": "https://github.com/microsoft/BCApps/pull/10509",
+  "published_at": "2026-08-24T13:25:20Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "38826aabb0a81845cbf84b5bf271a9544f77ce79:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10509,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "38826aabb0a81845cbf84b5bf271a9544f77ce79",
+    "author": "dcenic",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "irs forms performance optimization"
+  }
+}

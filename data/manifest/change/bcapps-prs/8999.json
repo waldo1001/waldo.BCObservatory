@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/8999",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Migrate Recommended Apps & Connectivity Apps to Official Marketplace Catalog API",
+  "url": "https://github.com/microsoft/BCApps/pull/8999",
+  "published_at": "2026-07-23T17:25:26Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "33729d271cc449488324ba8d0db0e7541e82d758:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 8999,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "33729d271cc449488324ba8d0db0e7541e82d758",
+    "author": "Groenbech96",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "migrate recommended apps connectivity apps to official marketplace catalog api"
+  }
+}

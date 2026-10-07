@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/11810",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Fix AutoAccept IC journal test isolation",
+  "url": "https://github.com/microsoft/BCApps/pull/11810",
+  "published_at": "2026-09-24T15:13:47Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "c6307e820649769feb533abc2a44b248a26be22f:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11810,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "c6307e820649769feb533abc2a44b248a26be22f",
+    "author": "Explorer986",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "fix autoaccept ic journal test isolation"
+  }
+}

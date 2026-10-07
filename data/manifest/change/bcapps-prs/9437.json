@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/9437",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Extensibility Request] issue 30339: add OnAfterCalcAvailableQtyBase event to Whse. Worksheet Line",
+  "url": "https://github.com/microsoft/BCApps/pull/9437",
+  "published_at": "2026-07-15T12:59:14Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "87fbc1c434244fd08cf7d4f71d33c10249672c9f:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9437,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "87fbc1c434244fd08cf7d4f71d33c10249672c9f",
+    "author": "AleksandricMarko",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM",
+      "event-request"
+    ],
+    "community_contribution": false,
+    "title_key": "extensibility request issue 30339 add onaftercalcavailableqtybase event to whse worksheet line"
+  }
+}

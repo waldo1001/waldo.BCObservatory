@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/9451",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Extensibility Request] issue 30292: add temporary Warehouse Activity Line parameter to OnBeforeCreateWhseActivHeader",
+  "url": "https://github.com/microsoft/BCApps/pull/9451",
+  "published_at": "2026-07-15T09:33:20Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "34b5bb90334baec1d38d99ee4a7499289ffc9793:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9451,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "34b5bb90334baec1d38d99ee4a7499289ffc9793",
+    "author": "AleksandricMarko",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM",
+      "event-request"
+    ],
+    "community_contribution": false,
+    "title_key": "extensibility request issue 30292 add temporary warehouse activity line parameter to onbeforecreatewhseactivheader"
+  }
+}

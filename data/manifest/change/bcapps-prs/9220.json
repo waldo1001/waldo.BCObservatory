@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9220",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Backport SL Migration - Snapshot Project Transactions",
+  "url": "https://github.com/microsoft/BCApps/pull/9220",
+  "published_at": "2026-07-09T14:18:40Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "f1c412da2c1c0414c33912299baa9056955a1837:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9220,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "f1c412da2c1c0414c33912299baa9056955a1837",
+    "author": "nikolakukrika",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)"
+    ],
+    "community_contribution": false,
+    "title_key": "backport sl migration snapshot project transactions"
+  }
+}

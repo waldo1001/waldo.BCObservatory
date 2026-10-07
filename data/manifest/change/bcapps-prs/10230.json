@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/10230",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Main]<ImporteTAIReglasLocalizacion> node should have negative sign in the SII XML for Sales Credit Memos under One-Stop-Shop regime in the Spanish version",
+  "url": "https://github.com/microsoft/BCApps/pull/10230",
+  "published_at": "2026-08-24T10:50:56Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "0b8d5a39a038551e93fb444688359a2700f3903e:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10230,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "0b8d5a39a038551e93fb444688359a2700f3903e",
+    "author": "Shikhverma",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "importetaireglaslocalizacion node should have negative sign in the sii xml for sales credit memos under one stop shop regime in the spanish version"
+  }
+}

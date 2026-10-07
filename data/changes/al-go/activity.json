@@ -1,0 +1,575 @@
+{
+  "open": [
+    {
+      "number": 2397,
+      "title": "Support calling AL-Go workflows as reusable workflows (workflow_call)",
+      "url": "https://github.com/microsoft/AL-Go/pull/2397",
+      "base": "main",
+      "major": null,
+      "author": "y0m0",
+      "labels": [],
+      "draft": true,
+      "created_at": "2026-10-07T11:05:23Z",
+      "updated_at": "2026-10-07T11:34:50Z",
+      "community_contribution": false
+    },
+    {
+      "number": 2309,
+      "title": "Enable AL-Go for GitHub on GitHub Enterprise Cloud with data residency",
+      "url": "https://github.com/microsoft/AL-Go/pull/2309",
+      "base": "main",
+      "major": null,
+      "author": "freddydk",
+      "labels": [],
+      "draft": false,
+      "created_at": "2026-07-07T16:01:27Z",
+      "updated_at": "2026-10-07T10:46:08Z",
+      "community_contribution": false
+    },
+    {
+      "number": 2396,
+      "title": "Fix deployment environment discovery pagination",
+      "url": "https://github.com/microsoft/AL-Go/pull/2396",
+      "base": "main",
+      "major": null,
+      "author": "aholstrup1",
+      "labels": [],
+      "draft": false,
+      "created_at": "2026-10-07T07:56:12Z",
+      "updated_at": "2026-10-07T07:58:28Z",
+      "community_contribution": false
+    },
+    {
+      "number": 2385,
+      "title": "Issue 2336 - Option to fail deployment",
+      "url": "https://github.com/microsoft/AL-Go/pull/2385",
+      "base": "main",
+      "major": null,
+      "author": "thomasroennTRM",
+      "labels": [],
+      "draft": false,
+      "created_at": "2026-09-28T08:59:48Z",
+      "updated_at": "2026-10-07T06:40:22Z",
+      "community_contribution": false
+    },
+    {
+      "number": 2392,
+      "title": "AL-Go Telemetry Enhancements: repository fork and hosting information",
+      "url": "https://github.com/microsoft/AL-Go/pull/2392",
+      "base": "main",
+      "major": null,
+      "author": "aholstrup1",
+      "labels": [],
+      "draft": false,
+      "created_at": "2026-10-06T09:54:38Z",
+      "updated_at": "2026-10-07T06:06:16Z",
+      "community_contribution": false
+    },
+    {
+      "number": 2293,
+      "title": "Add support for protectedSettings to override lower priority settings",
+      "url": "https://github.com/microsoft/AL-Go/pull/2293",
+      "base": "main",
+      "major": null,
+      "author": "ChrisBlankDe",
+      "labels": [],
+      "draft": false,
+      "created_at": "2026-06-26T13:50:28Z",
+      "updated_at": "2026-10-06T20:58:48Z",
+      "community_contribution": false
+    },
+    {
+      "number": 2273,
+      "title": "Enhance customALGoFiles feature",
+      "url": "https://github.com/microsoft/AL-Go/pull/2273",
+      "base": "main",
+      "major": null,
+      "author": "OleWunschmann",
+      "labels": [],
+      "draft": false,
+      "created_at": "2026-06-03T15:24:31Z",
+      "updated_at": "2026-10-06T11:28:38Z",
+      "community_contribution": false
+    },
+    {
+      "number": 2343,
+      "title": "RunTests action",
+      "url": "https://github.com/microsoft/AL-Go/pull/2343",
+      "base": "main",
+      "major": null,
+      "author": "spetersenms",
+      "labels": [],
+      "draft": false,
+      "created_at": "2026-08-06T15:32:16Z",
+      "updated_at": "2026-10-06T08:13:17Z",
+      "community_contribution": false
+    },
+    {
+      "number": 2361,
+      "title": "Fix incremental PR builds affected by baseline drift",
+      "url": "https://github.com/microsoft/AL-Go/pull/2361",
+      "base": "main",
+      "major": null,
+      "author": "aholstrup1",
+      "labels": [],
+      "draft": false,
+      "created_at": "2026-09-04T13:13:03Z",
+      "updated_at": "2026-10-06T06:48:57Z",
+      "community_contribution": false
+    },
+    {
+      "number": 2265,
+      "title": "move the BuildInitialize hook to after determine build project",
+      "url": "https://github.com/microsoft/AL-Go/pull/2265",
+      "base": "main",
+      "major": null,
+      "author": "freddydk",
+      "labels": [],
+      "draft": false,
+      "created_at": "2026-05-27T07:57:33Z",
+      "updated_at": "2026-10-05T12:09:06Z",
+      "community_contribution": false
+    },
+    {
+      "number": 2384,
+      "title": "Publish to AppSource failback to current version.",
+      "url": "https://github.com/microsoft/AL-Go/pull/2384",
+      "base": "main",
+      "major": null,
+      "author": "spetersenms",
+      "labels": [],
+      "draft": false,
+      "created_at": "2026-09-25T14:54:28Z",
+      "updated_at": "2026-09-30T12:04:50Z",
+      "community_contribution": false
+    },
+    {
+      "number": 2356,
+      "title": "Add opt-in Copilot AL code review",
+      "url": "https://github.com/microsoft/AL-Go/pull/2356",
+      "base": "main",
+      "major": null,
+      "author": "WaelAbuSeada",
+      "labels": [],
+      "draft": true,
+      "created_at": "2026-08-31T02:44:09Z",
+      "updated_at": "2026-09-29T08:20:52Z",
+      "community_contribution": false
+    },
+    {
+      "number": 2176,
+      "title": "Publish to environment error preference",
+      "url": "https://github.com/microsoft/AL-Go/pull/2176",
+      "base": "main",
+      "major": null,
+      "author": "spetersenms",
+      "labels": [],
+      "draft": false,
+      "created_at": "2026-03-20T16:31:10Z",
+      "updated_at": "2026-09-10T12:11:54Z",
+      "community_contribution": false
+    },
+    {
+      "number": 2033,
+      "title": "Hide default values from workflow dispatch input",
+      "url": "https://github.com/microsoft/AL-Go/pull/2033",
+      "base": "main",
+      "major": null,
+      "author": "jwikman",
+      "labels": [],
+      "draft": false,
+      "created_at": "2025-11-20T12:36:43Z",
+      "updated_at": "2026-08-27T05:18:39Z",
+      "community_contribution": false
+    },
+    {
+      "number": 2216,
+      "title": "Add Test Isolation support",
+      "url": "https://github.com/microsoft/AL-Go/pull/2216",
+      "base": "main",
+      "major": null,
+      "author": "Drakonian",
+      "labels": [],
+      "draft": false,
+      "created_at": "2026-04-19T21:20:56Z",
+      "updated_at": "2026-08-26T09:58:55Z",
+      "community_contribution": false
+    },
+    {
+      "number": 2206,
+      "title": "[Draft] Add agentic workflow to comment on release notes PRs",
+      "url": "https://github.com/microsoft/AL-Go/pull/2206",
+      "base": "main",
+      "major": null,
+      "author": "mazhelez",
+      "labels": [],
+      "draft": true,
+      "created_at": "2026-04-09T13:39:34Z",
+      "updated_at": "2026-07-24T15:48:06Z",
+      "community_contribution": false
+    },
+    {
+      "number": 2233,
+      "title": "Preserve overwriteSettings when template project settings are merged after user repo settings",
+      "url": "https://github.com/microsoft/AL-Go/pull/2233",
+      "base": "main",
+      "major": null,
+      "author": "jeffreybulanadi",
+      "labels": [],
+      "draft": false,
+      "created_at": "2026-05-01T22:45:27Z",
+      "updated_at": "2026-06-08T14:36:31Z",
+      "community_contribution": false
+    },
+    {
+      "number": 1882,
+      "title": "ReadSettings output JSON structured based on get input parameter.",
+      "url": "https://github.com/microsoft/AL-Go/pull/1882",
+      "base": "main",
+      "major": null,
+      "author": "spetersenms",
+      "labels": [],
+      "draft": false,
+      "created_at": "2025-08-25T14:55:55Z",
+      "updated_at": "2025-09-04T09:29:38Z",
+      "community_contribution": false
+    }
+  ],
+  "issues": [
+    {
+      "number": 2394,
+      "title": "[Bug]: `latestBuild` dependency resolution intermittently picks an older CI/CD run due to stale GitHub workflow-runs API results",
+      "url": "https://github.com/microsoft/AL-Go/issues/2394",
+      "labels": [
+        "bug"
+      ],
+      "author": "DavidHrbek",
+      "created_at": "2026-10-06T11:29:30Z",
+      "comments": 3
+    },
+    {
+      "number": 2390,
+      "title": "[Bug]: AnalyzeTests crashes under strict mode when page scripting results contain both passed and failed tests (\"The property 'failure' cannot be found\")",
+      "url": "https://github.com/microsoft/AL-Go/issues/2390",
+      "labels": [],
+      "author": "collinslogic-jc",
+      "created_at": "2026-10-04T22:17:06Z",
+      "comments": 0
+    },
+    {
+      "number": 2387,
+      "title": "[Bug]: DetermineDeploymentEnvironments ignores GitHub environments after the first 30 (no pagination)",
+      "url": "https://github.com/microsoft/AL-Go/issues/2387",
+      "labels": [
+        "In Progress",
+        "bug"
+      ],
+      "author": "faisahu",
+      "created_at": "2026-10-01T09:59:27Z",
+      "comments": 1
+    },
+    {
+      "number": 2381,
+      "title": "[Bug]: Dependency artifacts from the current build are not downloaded when the branch name contains a comma (silent fallback to baseline)",
+      "url": "https://github.com/microsoft/AL-Go/issues/2381",
+      "labels": [
+        "Fix Ready",
+        "In Preview",
+        "bug"
+      ],
+      "author": "AlexanderMarcher",
+      "created_at": "2026-09-23T13:51:32Z",
+      "comments": 2
+    },
+    {
+      "number": 2375,
+      "title": "[Bug]: Project/App folder with umlaut breaks incremental build check",
+      "url": "https://github.com/microsoft/AL-Go/issues/2375",
+      "labels": [
+        "Fix Ready",
+        "In Preview",
+        "bug"
+      ],
+      "author": "OleWunschmann",
+      "created_at": "2026-09-18T14:52:49Z",
+      "comments": 0
+    },
+    {
+      "number": 2373,
+      "title": "[Bug]: Incremental PR build reuses an older baseline app than the previous release",
+      "url": "https://github.com/microsoft/AL-Go/issues/2373",
+      "labels": [
+        "bug"
+      ],
+      "author": "frottke",
+      "created_at": "2026-09-17T10:56:07Z",
+      "comments": 0
+    },
+    {
+      "number": 2354,
+      "title": "[Bug]: Build jobs are failing after upgrade to 9.2 where an installed dependency isn't being seen",
+      "url": "https://github.com/microsoft/AL-Go/issues/2354",
+      "labels": [
+        "bug"
+      ],
+      "author": "nickgoddard777",
+      "created_at": "2026-08-27T12:29:01Z",
+      "comments": 5
+    },
+    {
+      "number": 2347,
+      "title": "[Bug]: Publish to Environment fails, but App was published successfully",
+      "url": "https://github.com/microsoft/AL-Go/issues/2347",
+      "labels": [
+        "accepted",
+        "bug"
+      ],
+      "author": "Mkublbock",
+      "created_at": "2026-08-17T11:54:29Z",
+      "comments": 4
+    },
+    {
+      "number": 2339,
+      "title": "[Bug]: DeliverToAppSource ignores includeDependencies and packages additional dependency apps",
+      "url": "https://github.com/microsoft/AL-Go/issues/2339",
+      "labels": [
+        "bug"
+      ],
+      "author": "rm-eyna",
+      "created_at": "2026-08-05T00:10:45Z",
+      "comments": 7
+    },
+    {
+      "number": 2281,
+      "title": "[Bug]: Publish to appsource - current version failback",
+      "url": "https://github.com/microsoft/AL-Go/issues/2281",
+      "labels": [
+        "bug"
+      ],
+      "author": "LorenzoVancoillie",
+      "created_at": "2026-06-16T11:23:11Z",
+      "comments": 1
+    },
+    {
+      "number": 2244,
+      "title": "[Bug]: Error downloading aldoc because it is not included in the artifact",
+      "url": "https://github.com/microsoft/AL-Go/issues/2244",
+      "labels": [
+        "Workaround provided",
+        "bug"
+      ],
+      "author": "elweilando",
+      "created_at": "2026-05-10T19:23:09Z",
+      "comments": 3
+    },
+    {
+      "number": 2228,
+      "title": "[Bug]: Orverwritesettings fail with custom Al-Go Template",
+      "url": "https://github.com/microsoft/AL-Go/issues/2228",
+      "labels": [
+        "bug"
+      ],
+      "author": "PropmanProphecy",
+      "created_at": "2026-04-29T16:35:07Z",
+      "comments": 0
+    },
+    {
+      "number": 2218,
+      "title": "[Bug]: installApps secret placeholder works when embedded in URL, but not when secret contains the full URL",
+      "url": "https://github.com/microsoft/AL-Go/issues/2218",
+      "labels": [
+        "Need more info",
+        "bug"
+      ],
+      "author": "youngdanger2",
+      "created_at": "2026-04-21T06:36:23Z",
+      "comments": 2
+    },
+    {
+      "number": 2172,
+      "title": "Feature: Global continuousDeployment setting to disable automatic CD across all environments",
+      "url": "https://github.com/microsoft/AL-Go/issues/2172",
+      "labels": [
+        "stale"
+      ],
+      "author": "StefanMaron",
+      "created_at": "2026-03-18T11:22:28Z",
+      "comments": 0
+    },
+    {
+      "number": 2164,
+      "title": "[Bug]: Call a locally exposed web service",
+      "url": "https://github.com/microsoft/AL-Go/issues/2164",
+      "labels": [
+        "Unrelated to AL-Go",
+        "bug",
+        "stale"
+      ],
+      "author": "porta76",
+      "created_at": "2026-03-11T12:59:42Z",
+      "comments": 1
+    },
+    {
+      "number": 2151,
+      "title": "[Bug]: Create Release workflow violates GitHub release patterns and creates misleading user experience",
+      "url": "https://github.com/microsoft/AL-Go/issues/2151",
+      "labels": [],
+      "author": "SteveKrisjanovsD365",
+      "created_at": "2026-03-02T18:27:41Z",
+      "comments": 6
+    },
+    {
+      "number": 2147,
+      "title": "[Bug]: Publish To Environment workflow does not log user inputs and reports false success when environments are skipped",
+      "url": "https://github.com/microsoft/AL-Go/issues/2147",
+      "labels": [
+        "stale"
+      ],
+      "author": "SteveKrisjanovsD365",
+      "created_at": "2026-02-28T14:56:14Z",
+      "comments": 1
+    }
+  ],
+  "releases": [
+    {
+      "tag": "v9.2",
+      "name": "v9.2",
+      "url": "https://github.com/microsoft/AL-Go/releases/tag/v9.2",
+      "published_at": "2026-08-25T09:05:08Z",
+      "prerelease": false
+    },
+    {
+      "tag": "v9.1",
+      "name": "v9.1",
+      "url": "https://github.com/microsoft/AL-Go/releases/tag/v9.1",
+      "published_at": "2026-07-07T09:35:35Z",
+      "prerelease": false
+    },
+    {
+      "tag": "v9.0",
+      "name": "v9.0",
+      "url": "https://github.com/microsoft/AL-Go/releases/tag/v9.0",
+      "published_at": "2026-04-09T10:03:44Z",
+      "prerelease": false
+    },
+    {
+      "tag": "v8.3",
+      "name": "v8.3",
+      "url": "https://github.com/microsoft/AL-Go/releases/tag/v8.3",
+      "published_at": "2026-02-25T14:04:02Z",
+      "prerelease": false
+    },
+    {
+      "tag": "v8.2",
+      "name": "v8.2",
+      "url": "https://github.com/microsoft/AL-Go/releases/tag/v8.2",
+      "published_at": "2026-02-05T12:00:22Z",
+      "prerelease": false
+    },
+    {
+      "tag": "v8.1",
+      "name": "v8.1",
+      "url": "https://github.com/microsoft/AL-Go/releases/tag/v8.1",
+      "published_at": "2025-12-03T10:09:14Z",
+      "prerelease": false
+    },
+    {
+      "tag": "v8.0",
+      "name": "v8.0",
+      "url": "https://github.com/microsoft/AL-Go/releases/tag/v8.0",
+      "published_at": "2025-10-15T11:12:53Z",
+      "prerelease": false
+    },
+    {
+      "tag": "v7.3",
+      "name": "v7.3",
+      "url": "https://github.com/microsoft/AL-Go/releases/tag/v7.3",
+      "published_at": "2025-08-29T08:47:13Z",
+      "prerelease": false
+    },
+    {
+      "tag": "v7.2",
+      "name": "v7.2",
+      "url": "https://github.com/microsoft/AL-Go/releases/tag/v7.2",
+      "published_at": "2025-06-04T13:41:10Z",
+      "prerelease": false
+    },
+    {
+      "tag": "v7.1",
+      "name": "v7.1",
+      "url": "https://github.com/microsoft/AL-Go/releases/tag/v7.1",
+      "published_at": "2025-04-30T18:28:43Z",
+      "prerelease": false
+    },
+    {
+      "tag": "v7.0",
+      "name": "v7.0",
+      "url": "https://github.com/microsoft/AL-Go/releases/tag/v7.0",
+      "published_at": "2025-04-01T12:52:43Z",
+      "prerelease": false
+    },
+    {
+      "tag": "v6.4",
+      "name": "v6.4",
+      "url": "https://github.com/microsoft/AL-Go/releases/tag/v6.4",
+      "published_at": "2025-03-17T08:30:15Z",
+      "prerelease": false
+    },
+    {
+      "tag": "v6.3",
+      "name": "v6.3",
+      "url": "https://github.com/microsoft/AL-Go/releases/tag/v6.3",
+      "published_at": "2025-01-22T08:48:03Z",
+      "prerelease": false
+    },
+    {
+      "tag": "v6.2",
+      "name": "v6.2",
+      "url": "https://github.com/microsoft/AL-Go/releases/tag/v6.2",
+      "published_at": "2024-12-17T14:06:12Z",
+      "prerelease": false
+    },
+    {
+      "tag": "v6.1",
+      "name": "v6.1",
+      "url": "https://github.com/microsoft/AL-Go/releases/tag/v6.1",
+      "published_at": "2024-11-13T11:16:48Z",
+      "prerelease": false
+    },
+    {
+      "tag": "v6.0",
+      "name": "v6.0",
+      "url": "https://github.com/microsoft/AL-Go/releases/tag/v6.0",
+      "published_at": "2024-10-04T12:18:02Z",
+      "prerelease": false
+    },
+    {
+      "tag": "v5.3",
+      "name": "v5.3",
+      "url": "https://github.com/microsoft/AL-Go/releases/tag/v5.3",
+      "published_at": "2024-08-21T09:08:03Z",
+      "prerelease": false
+    },
+    {
+      "tag": "v5.2",
+      "name": "v5.2",
+      "url": "https://github.com/microsoft/AL-Go/releases/tag/v5.2",
+      "published_at": "2024-06-06T06:09:20Z",
+      "prerelease": false
+    },
+    {
+      "tag": "v5.1",
+      "name": "v5.1",
+      "url": "https://github.com/microsoft/AL-Go/releases/tag/v5.1",
+      "published_at": "2024-05-02T13:18:12Z",
+      "prerelease": false
+    },
+    {
+      "tag": "v5.0",
+      "name": "v5.0",
+      "url": "https://github.com/microsoft/AL-Go/releases/tag/v5.0",
+      "published_at": "2024-04-03T05:11:50Z",
+      "prerelease": false
+    }
+  ]
+}

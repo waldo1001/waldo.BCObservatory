@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/9895",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Remove unavailable projects from build metadata",
+  "url": "https://github.com/microsoft/BCApps/pull/9895",
+  "published_at": "2026-08-06T07:13:29Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "b94bbe3dcff671c1ced6cbd13d95c68960a7abcd:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9895,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "b94bbe3dcff671c1ced6cbd13d95c68960a7abcd",
+    "author": "aholstrup1",
+    "author_type": "User",
+    "labels": [
+      "Build: scripts & configs",
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": false,
+    "title_key": "remove unavailable projects from build metadata"
+  }
+}

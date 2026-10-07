@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/10476",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Main] -Create missing test for scenario in creating Purchase Document from Sales Order",
+  "url": "https://github.com/microsoft/BCApps/pull/10476",
+  "published_at": "2026-08-24T06:34:19Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "811adc400480f03db95fb2fae78afca6c7cc0d9a:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10476,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "811adc400480f03db95fb2fae78afca6c7cc0d9a",
+    "author": "DeepsShukla",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "create missing test for scenario in creating purchase document from sales order"
+  }
+}

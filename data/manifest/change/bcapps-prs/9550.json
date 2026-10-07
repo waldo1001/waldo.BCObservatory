@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/9550",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Main]-[BC-IN] Purchase invoice with a deferral schedule and Non-availment GST is not functioning correctly",
+  "url": "https://github.com/microsoft/BCApps/pull/9550",
+  "published_at": "2026-07-17T13:04:49Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "2522a0ae9890cd031d2b9ab5a145facfc5b92b76:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9550,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "2522a0ae9890cd031d2b9ab5a145facfc5b92b76",
+    "author": "v-ajaztabrez",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "From Fork",
+      "Team: Finance"
+    ],
+    "community_contribution": true,
+    "title_key": "bc in purchase invoice with a deferral schedule and non availment gst is not functioning correctly"
+  }
+}

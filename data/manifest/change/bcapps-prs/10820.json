@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/10820",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Use GitHub token for extensibility implementation",
+  "url": "https://github.com/microsoft/BCApps/pull/10820",
+  "published_at": "2026-08-31T17:21:49Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "bf1ef1828cd5bcaf32c8bc69af5337befb005542:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10820,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "bf1ef1828cd5bcaf32c8bc69af5337befb005542",
+    "author": "AleksandricMarko",
+    "author_type": "User",
+    "labels": [
+      "Build: Automation",
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": false,
+    "title_key": "use github token for extensibility implementation"
+  }
+}

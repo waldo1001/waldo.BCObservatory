@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/10559",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Ruleset hardening: promote AL0659 and AL0685 to Error",
+  "url": "https://github.com/microsoft/BCApps/pull/10559",
+  "published_at": "2026-08-27T13:35:44Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "b3a8ac793ebdf4f3b34903ef807521ae87c19266:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10559,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "b3a8ac793ebdf4f3b34903ef807521ae87c19266",
+    "author": "JesperSchulz",
+    "author_type": "User",
+    "labels": [
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": false,
+    "title_key": "ruleset hardening promote al0659 and al0685 to error"
+  }
+}

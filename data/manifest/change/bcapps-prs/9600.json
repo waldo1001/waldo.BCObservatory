@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/9600",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Uptake sift disable enable support",
+  "url": "https://github.com/microsoft/BCApps/pull/9600",
+  "published_at": "2026-07-30T12:52:33Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "f2c7d3f9f9997198f47c05469ca6447fb581d60d:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9600,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "f2c7d3f9f9997198f47c05469ca6447fb581d60d",
+    "author": "ehenriksen9",
+    "author_type": "User",
+    "labels": [
+      "AL: System Application",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "uptake sift disable enable support"
+  }
+}

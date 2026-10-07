@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/9254",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Master] Exchange Rate Adjustment filter not working",
+  "url": "https://github.com/microsoft/BCApps/pull/9254",
+  "published_at": "2026-07-15T05:43:22Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "ff3ff5eef2ba049d24184bb289a15ad95c68894e:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9254,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "ff3ff5eef2ba049d24184bb289a15ad95c68894e",
+    "author": "Shikhverma",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "From Fork",
+      "Team: Finance"
+    ],
+    "community_contribution": true,
+    "title_key": "master exchange rate adjustment filter not working"
+  }
+}

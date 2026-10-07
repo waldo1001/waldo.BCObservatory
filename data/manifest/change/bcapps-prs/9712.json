@@ -1,0 +1,35 @@
+{
+  "id": "change/bcapps-prs/9712",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[master] - Changing the contact of a Customer Subscription Contract doesn't update the email of the contract.",
+  "url": "https://github.com/microsoft/BCApps/pull/9712",
+  "published_at": "2026-07-27T06:00:39Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "26bd664501e217753ded5a7dd7dde6f43371a0ee:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9712,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "26bd664501e217753ded5a7dd7dde6f43371a0ee",
+    "author": "DhavalMore88",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "AL: Apps (W1)",
+      "From Fork",
+      "Team: Finance"
+    ],
+    "community_contribution": true,
+    "title_key": "master changing the contact of a customer subscription contract doesn t update the email of the contract"
+  }
+}

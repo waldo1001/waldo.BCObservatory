@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/9896",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Rename PBI embedded pages",
+  "url": "https://github.com/microsoft/BCApps/pull/9896",
+  "published_at": "2026-08-06T09:42:07Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "a36d3c2afecf8af5c64bf5290243a9a9be52e69e:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9896,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "a36d3c2afecf8af5c64bf5290243a9a9be52e69e",
+    "author": "mynjj",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": false,
+    "title_key": "rename pbi embedded pages"
+  }
+}

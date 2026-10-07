@@ -1,0 +1,35 @@
+{
+  "id": "change/bcapps-prs/10447",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Bug][Subscription Billing] Price Update Template filters on Subscription Lines are overwritten by the proposal's own default filters",
+  "url": "https://github.com/microsoft/BCApps/pull/10447",
+  "published_at": "2026-09-28T19:21:31Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "bd0a2bbd3ac4a256a245910dac031dcc1f34df8e:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10447,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "bd0a2bbd3ac4a256a245910dac031dcc1f34df8e",
+    "author": "miljance",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "AL: Apps (W1)",
+      "From Fork",
+      "Team: Finance"
+    ],
+    "community_contribution": true,
+    "title_key": "bug subscription billing price update template filters on subscription lines are overwritten by the proposal s own default filters"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/10050",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Bug 638128: Deadlock in Duplicate Management when multiple users create customers at the same time",
+  "url": "https://github.com/microsoft/BCApps/pull/10050",
+  "published_at": "2026-08-10T12:29:04Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "fd6901d27e3a4f1d92232d56ec04d395b14eb0e2:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10050,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "fd6901d27e3a4f1d92232d56ec04d395b14eb0e2",
+    "author": "BardurKnudsen",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 638128 deadlock in duplicate management when multiple users create customers at the same time"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/10300",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Consolidate minor release ruleset and fix strict mode branch detection",
+  "url": "https://github.com/microsoft/BCApps/pull/10300",
+  "published_at": "2026-08-20T08:28:21Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "4e04c2c97ac518366ee9178b86bd894979e61a6b:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10300,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "4e04c2c97ac518366ee9178b86bd894979e61a6b",
+    "author": "aholstrup1",
+    "author_type": "User",
+    "labels": [
+      "Build: scripts & configs",
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": false,
+    "title_key": "consolidate minor release ruleset and fix strict mode branch detection"
+  }
+}

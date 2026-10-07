@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/10700",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "29.x: PO matching API, E-Documents integration and receipt-on-invoice line tracking",
+  "url": "https://github.com/microsoft/BCApps/pull/10700",
+  "published_at": "2026-09-01T07:28:50Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "be2896049c46d3f2325ee8b730936ea578b58175:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10700,
+    "repo": "microsoft/BCApps",
+    "base": "releases/29.x",
+    "major": "29",
+    "merge_commit_sha": "be2896049c46d3f2325ee8b730936ea578b58175",
+    "author": "mynjj",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Other"
+    ],
+    "community_contribution": false,
+    "title_key": "29 x po matching api e documents integration and receipt on invoice line tracking"
+  }
+}

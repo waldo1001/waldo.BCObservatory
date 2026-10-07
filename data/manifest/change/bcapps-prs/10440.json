@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/10440",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Reenable disabled PayPal tests",
+  "url": "https://github.com/microsoft/BCApps/pull/10440",
+  "published_at": "2026-10-04T20:04:04Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "c02848209da7f97fc73952248dccb33c1ffa6cd7:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10440,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "c02848209da7f97fc73952248dccb33c1ffa6cd7",
+    "author": "dcenic",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "reenable disabled paypal tests"
+  }
+}

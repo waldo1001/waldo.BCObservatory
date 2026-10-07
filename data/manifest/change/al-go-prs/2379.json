@@ -1,0 +1,30 @@
+{
+  "id": "change/al-go-prs/2379",
+  "pillar": "change",
+  "source": "al-go-prs",
+  "tier": "official",
+  "title": "Avoid CI/CD runs for template SHA-only system updates",
+  "url": "https://github.com/microsoft/AL-Go/pull/2379",
+  "published_at": "2026-09-30T13:49:54Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "2012ec63c963138cb4e6f615801f00b47d25fafd:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 2379,
+    "repo": "microsoft/AL-Go",
+    "base": "main",
+    "major": null,
+    "merge_commit_sha": "2012ec63c963138cb4e6f615801f00b47d25fafd",
+    "author": "aholstrup1",
+    "author_type": "User",
+    "labels": [],
+    "community_contribution": false,
+    "title_key": "avoid ci cd runs for template sha only system updates"
+  }
+}

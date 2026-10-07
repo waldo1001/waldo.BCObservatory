@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9900",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Test] table 12116 \"Withholding Tax\": add positive (standard field bl…",
+  "url": "https://github.com/microsoft/BCApps/pull/9900",
+  "published_at": "2026-08-04T18:42:11Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "a6210b7ada79f6d072fffeb03c27e9d3491c1a73:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9900,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "a6210b7ada79f6d072fffeb03c27e9d3491c1a73",
+    "author": "Explorer986",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "test table 12116 withholding tax add positive standard field bl"
+  }
+}

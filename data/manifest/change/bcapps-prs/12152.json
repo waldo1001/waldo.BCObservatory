@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/12152",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[MCP] Clear environment description after environment copy",
+  "url": "https://github.com/microsoft/BCApps/pull/12152",
+  "published_at": "2026-10-05T10:34:28Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "3f135fd55af4959ce460cc90b1f05d4e48a14564:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12152,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "3f135fd55af4959ce460cc90b1f05d4e48a14564",
+    "author": "nikolakukrika",
+    "author_type": "User",
+    "labels": [
+      "AL: System Application",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "mcp clear environment description after environment copy"
+  }
+}

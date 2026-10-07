@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9745",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[main] Implement item variant caching in calculate inventory",
+  "url": "https://github.com/microsoft/BCApps/pull/9745",
+  "published_at": "2026-07-30T10:11:26Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "e6b9071bdfad0d560fed8858f1b015d42118ecc4:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9745,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "e6b9071bdfad0d560fed8858f1b015d42118ecc4",
+    "author": "JakovljevicDusan",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "implement item variant caching in calculate inventory"
+  }
+}

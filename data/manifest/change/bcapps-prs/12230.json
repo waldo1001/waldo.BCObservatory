@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/12230",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Add lowercase upgrade/ CODEOWNERS rule so upgrade reviewers are triggered",
+  "url": "https://github.com/microsoft/BCApps/pull/12230",
+  "published_at": "2026-10-06T06:05:05Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "9da063c970f706f103dbc1d892a75883dfda0fa8:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12230,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "9da063c970f706f103dbc1d892a75883dfda0fa8",
+    "author": "mazhelez",
+    "author_type": "User",
+    "labels": [
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": false,
+    "title_key": "add lowercase upgrade codeowners rule so upgrade reviewers are triggered"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/10956",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[ExpenseAgent] Refactor agent setup for policies",
+  "url": "https://github.com/microsoft/BCApps/pull/10956",
+  "published_at": "2026-09-04T08:37:18Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "f2e5a7d158a42c42474173966a2a481ca14faaad:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10956,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "f2e5a7d158a42c42474173966a2a481ca14faaad",
+    "author": "encimita",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "expenseagent refactor agent setup for policies"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/11813",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Bug 633676: Expense Agent - Setup wizard - Cannot clear default approver once saved from assist edit",
+  "url": "https://github.com/microsoft/BCApps/pull/11813",
+  "published_at": "2026-09-29T20:54:36Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "7fa7dd8616c38f39157d632f9b2d8eecc0ba6b7f:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11813,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "7fa7dd8616c38f39157d632f9b2d8eecc0ba6b7f",
+    "author": "BardurKnudsen",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 633676 expense agent setup wizard cannot clear default approver once saved from assist edit"
+  }
+}

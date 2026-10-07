@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/9282",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Main]- Description field in the contact history is showing the number of the original unregistered reminder instead of the registered reminder number when using the reminder automation setup.",
+  "url": "https://github.com/microsoft/BCApps/pull/9282",
+  "published_at": "2026-07-15T11:46:49Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "837823fc4d778404d6df92162515baa7b8a7c24e:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9282,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "837823fc4d778404d6df92162515baa7b8a7c24e",
+    "author": "DhavalMore88",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "From Fork",
+      "Team: Finance"
+    ],
+    "community_contribution": true,
+    "title_key": "description field in the contact history is showing the number of the original unregistered reminder instead of the registered reminder number when using the reminder automation setup"
+  }
+}

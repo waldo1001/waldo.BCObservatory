@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9803",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[master] Variant Code mandatory should not allow to refresh the production order with no variant code",
+  "url": "https://github.com/microsoft/BCApps/pull/9803",
+  "published_at": "2026-07-31T10:40:33Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "299f021e225f024f75ef49630bc18b2f2be3e46b:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9803,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "299f021e225f024f75ef49630bc18b2f2be3e46b",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "master variant code mandatory should not allow to refresh the production order with no variant code"
+  }
+}

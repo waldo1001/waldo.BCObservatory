@@ -1,0 +1,30 @@
+{
+  "id": "change/bcquality-prs/205",
+  "pillar": "change",
+  "source": "bcquality-prs",
+  "tier": "official",
+  "title": "Preserve business filters when recommending Record.Get",
+  "url": "https://github.com/microsoft/BCQuality/pull/205",
+  "published_at": "2026-10-02T11:07:20Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "ac249ba4c95eaef14edbe9818fcdd65561bf6a2f:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 205,
+    "repo": "microsoft/BCQuality",
+    "base": "main",
+    "major": null,
+    "merge_commit_sha": "ac249ba4c95eaef14edbe9818fcdd65561bf6a2f",
+    "author": "demiliani",
+    "author_type": "User",
+    "labels": [],
+    "community_contribution": false,
+    "title_key": "preserve business filters when recommending record get"
+  }
+}

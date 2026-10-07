@@ -1,0 +1,35 @@
+{
+  "id": "change/bcapps-prs/8115",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Subscription Billing: respect Default Dimension Priorities on Subscription Lines",
+  "url": "https://github.com/microsoft/BCApps/pull/8115",
+  "published_at": "2026-07-14T13:34:25Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "09a5e86ed082faba6421f4888b99e87ee2b55669:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 8115,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "09a5e86ed082faba6421f4888b99e87ee2b55669",
+    "author": "Franco111000",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "AL: Apps (W1)",
+      "From Fork",
+      "Team: Finance"
+    ],
+    "community_contribution": true,
+    "title_key": "subscription billing respect default dimension priorities on subscription lines"
+  }
+}

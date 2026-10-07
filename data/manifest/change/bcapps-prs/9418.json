@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9418",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[ALAppExtensions #30229][Event Request] table 12113 \"Tmp Withholding Contribution\"",
+  "url": "https://github.com/microsoft/BCApps/pull/9418",
+  "published_at": "2026-07-15T08:42:27Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "950310ae8780604411959a1d13bf799fbea38be3:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9418,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "950310ae8780604411959a1d13bf799fbea38be3",
+    "author": "Explorer986",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "alappextensions 30229 event request table 12113 tmp withholding contribution"
+  }
+}

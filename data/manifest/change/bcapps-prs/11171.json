@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/11171",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Security][Hardening] Validate integration URLs stored in setup tables",
+  "url": "https://github.com/microsoft/BCApps/pull/11171",
+  "published_at": "2026-09-22T18:43:55Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "a28dcf675c37aa80b2b984fe6203455c1aa6a430:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11171,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "a28dcf675c37aa80b2b984fe6203455c1aa6a430",
+    "author": "onbuyuka",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "AL: System Application",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "security hardening validate integration urls stored in setup tables"
+  }
+}

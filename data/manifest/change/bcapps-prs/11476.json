@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/11476",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[29.X]-Item Availability by BOM Level Produces Inconsistent Able-to-Make Results When G-TOP-BOM-02 Replenishment Changes from Assembly to Purchase - 2606050050002529- #11411",
+  "url": "https://github.com/microsoft/BCApps/pull/11476",
+  "published_at": "2026-09-16T09:32:42Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "199cd8b42d9ba56826225ae8815792af18347a85:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11476,
+    "repo": "microsoft/BCApps",
+    "base": "releases/29.x",
+    "major": "29",
+    "merge_commit_sha": "199cd8b42d9ba56826225ae8815792af18347a85",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "item availability by bom level produces inconsistent able to make results when g top bom 02 replenishment changes from assembly to purchase 2606050050002529 11411"
+  }
+}

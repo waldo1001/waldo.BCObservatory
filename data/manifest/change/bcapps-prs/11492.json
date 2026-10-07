@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/11492",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[29x][NAV] Unblock BCApps uptake by hardening Inter Company tests",
+  "url": "https://github.com/microsoft/BCApps/pull/11492",
+  "published_at": "2026-09-16T06:12:51Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "04b30a556828ef45e0d5b8e7315ef48513747ad4:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11492,
+    "repo": "microsoft/BCApps",
+    "base": "releases/29.x",
+    "major": "29",
+    "merge_commit_sha": "04b30a556828ef45e0d5b8e7315ef48513747ad4",
+    "author": "dcenic",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "29x nav unblock bcapps uptake by hardening inter company tests"
+  }
+}

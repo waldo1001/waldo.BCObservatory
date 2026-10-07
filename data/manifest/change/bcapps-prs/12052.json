@@ -1,0 +1,35 @@
+{
+  "id": "change/bcapps-prs/12052",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Main]- BCApps uptake: SCM Warehouse - Receiving.CreateMovementFromMovementWorksheetWithExpirationDateOfFEFOItem failsChanges",
+  "url": "https://github.com/microsoft/BCApps/pull/12052",
+  "published_at": "2026-10-07T05:50:32Z",
+  "state": "skipped",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "cbbfcab9f389db1db06f17ecb8e1f719568beee1:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12052,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "cbbfcab9f389db1db06f17ecb8e1f719568beee1",
+    "author": "DeepsShukla",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "bcapps uptake scm warehouse receiving createmovementfrommovementworksheetwithexpirationdateoffefoitem failschanges"
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T12:55:32.283Z",
+  "retry_after": null
+}

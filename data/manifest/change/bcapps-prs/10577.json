@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/10577",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Shopify] Fix Shpfy Order Totals FB Test posting tests failing in CZ",
+  "url": "https://github.com/microsoft/BCApps/pull/10577",
+  "published_at": "2026-08-28T11:07:42Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "88c9f1fb767b984d060ad5fcfa927311c7d9fdb6:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10577,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "88c9f1fb767b984d060ad5fcfa927311c7d9fdb6",
+    "author": "onbuyuka",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "shopify fix shpfy order totals fb test posting tests failing in cz"
+  }
+}

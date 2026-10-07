@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/10601",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Follow the team label rename in ownership classification",
+  "url": "https://github.com/microsoft/BCApps/pull/10601",
+  "published_at": "2026-08-27T11:47:11Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "f30775925a88eabf2547748a54fef723227851a8:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10601,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "f30775925a88eabf2547748a54fef723227851a8",
+    "author": "JesperSchulz",
+    "author_type": "User",
+    "labels": [
+      "Build: Automation",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "follow the team label rename in ownership classification"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/11649",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[29.x]: When receiving a payment from an SEZ (Special Economic Zone) customer under the \"Without Payment of Duty\" scenario, GST is being calculated incorrectly in the Bank Receipt Voucher in the Indian version.",
+  "url": "https://github.com/microsoft/BCApps/pull/11649",
+  "published_at": "2026-09-22T13:18:18Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "08109a659dcd32eb02e911bd76bc9e674308a7e6:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11649,
+    "repo": "microsoft/BCApps",
+    "base": "releases/29.x",
+    "major": "29",
+    "merge_commit_sha": "08109a659dcd32eb02e911bd76bc9e674308a7e6",
+    "author": "v-ajaztabrez",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "when receiving a payment from an sez special economic zone customer under the without payment of duty scenario gst is being calculated incorrectly in the bank receipt voucher in the indian version"
+  }
+}

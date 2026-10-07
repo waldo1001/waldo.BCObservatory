@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9878",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Add buyer order reference to ZUGFeRD export",
+  "url": "https://github.com/microsoft/BCApps/pull/9878",
+  "published_at": "2026-08-12T10:31:44Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "e83fb30c3dd6151b96777240cdb1e678c79fd4f7:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9878,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "e83fb30c3dd6151b96777240cdb1e678c79fd4f7",
+    "author": "djukicmilica",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "add buyer order reference to zugferd export"
+  }
+}

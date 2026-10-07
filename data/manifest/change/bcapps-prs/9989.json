@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/9989",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[SOA] Skip Item Selector for exact items without variants",
+  "url": "https://github.com/microsoft/BCApps/pull/9989",
+  "published_at": "2026-08-06T09:39:12Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "df241a754a7f472e18e815d43d7bf4b2538d158c:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9989,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "df241a754a7f472e18e815d43d7bf4b2538d158c",
+    "author": "tomasevicst",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "soa skip item selector for exact items without variants"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/9796",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Show a message when an e-document file cannot be viewed or no data could be extracted",
+  "url": "https://github.com/microsoft/BCApps/pull/9796",
+  "published_at": "2026-07-30T12:52:33Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "bb672c8a60f3f05135c6ad40c4719bf623d6282a:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9796,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "bb672c8a60f3f05135c6ad40c4719bf623d6282a",
+    "author": "Explorer986",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "show a message when an e document file cannot be viewed or no data could be extracted"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/12214",
+  "number": 12214,
+  "title": "[Shopify] Store currency handling for auto-created orders",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "The Shopify connector now persists the currency handling mode used during order processing to the Shopify order record, ensuring the stored value reflects the actual mode applied to the created sales document even if the shop configuration changes during synchronization.",
+  "key_points": [
+    "Currency handling mode is now stored in the Shopify order processor from the same shop snapshot that creates the sales document",
+    "Both automatic and manual order processing wrappers preserve the currency handling value",
+    "Prevents stale or incorrect Processed Currency Handling values if shop settings change during synchronization",
+    "Regression test enhanced to verify the stored mode matches the resulting document"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": "Persist the currency handling inside the shared order processor using the same shop snapshot that creates the sales document.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003859,
+    "changes_in_call": 1
+  }
+}

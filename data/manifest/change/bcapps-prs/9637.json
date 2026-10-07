@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/9637",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Event Requests] Add integration events across base app and SMTP module",
+  "url": "https://github.com/microsoft/BCApps/pull/9637",
+  "published_at": "2026-07-24T12:18:43Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "c5beb83a48359fbec95a9c7b8df8875dadc79d9b:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9637,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "c5beb83a48359fbec95a9c7b8df8875dadc79d9b",
+    "author": "Groenbech96",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": false,
+    "title_key": "event requests add integration events across base app and smtp module"
+  }
+}

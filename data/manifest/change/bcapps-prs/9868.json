@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9868",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[MAIN]-Bug 644801-IRS Reporting Period - Copy Setup process will copy the 1099 Adjustments as part of the process of copying from one IRS Reporting Period to a new Period setup.",
+  "url": "https://github.com/microsoft/BCApps/pull/9868",
+  "published_at": "2026-08-05T16:49:04Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "7b3daac4dbad38f3410722eac69ca7d8bf6b3f47:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9868,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "7b3daac4dbad38f3410722eac69ca7d8bf6b3f47",
+    "author": "v-praghav",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 644801 irs reporting period copy setup process will copy the 1099 adjustments as part of the process of copying from one irs reporting period to a new period setup"
+  }
+}

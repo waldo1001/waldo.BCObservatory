@@ -1,0 +1,35 @@
+{
+  "id": "change/bcapps-prs/9217",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Extensibility][SubscriptionBilling]: Make IsLineAttachedToBillingLine accessible from external apps in Sales Line and Purchase Line",
+  "url": "https://github.com/microsoft/BCApps/pull/9217",
+  "published_at": "2026-09-25T19:43:19Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "b6f2a972977b89aae6213316d9ff1755a133ce9a:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9217,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "b6f2a972977b89aae6213316d9ff1755a133ce9a",
+    "author": "miljance",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "AL: Apps (W1)",
+      "From Fork",
+      "Team: Finance"
+    ],
+    "community_contribution": true,
+    "title_key": "extensibility subscriptionbilling make islineattachedtobillingline accessible from external apps in sales line and purchase line"
+  }
+}

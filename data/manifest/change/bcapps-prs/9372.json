@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/9372",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "hasTranslations most be specified if there is translation",
+  "url": "https://github.com/microsoft/BCApps/pull/9372",
+  "published_at": "2026-07-14T12:21:07Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "3e1b8ac1bea4deda9e929e4dbbd406ec6b48f829:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9372,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "3e1b8ac1bea4deda9e929e4dbbd406ec6b48f829",
+    "author": "AndersLarsenMicrosoft",
+    "author_type": "User",
+    "labels": [
+      "Build: scripts & configs",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "hastranslations most be specified if there is translation"
+  }
+}

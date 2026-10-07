@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/10951",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[main] bug 648707 - Fix typo in Compensation CZC report paragraph label",
+  "url": "https://github.com/microsoft/BCApps/pull/10951",
+  "published_at": "2026-09-04T14:37:16Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "f15376127cb96b15269dc1f5beb5b0f2e33ac941:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10951,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "f15376127cb96b15269dc1f5beb5b0f2e33ac941",
+    "author": "DavidHolusa",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 648707 fix typo in compensation czc report paragraph label"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "change/bcapps-prs/10669",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Bug 646558] Stabilize remittance advice tests in CZ",
+  "url": "https://github.com/microsoft/BCApps/pull/10669",
+  "published_at": "2026-08-28T11:24:00Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "c618f387d339b8f1ccb9c60bf2e9b8470c910bce:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10669,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "c618f387d339b8f1ccb9c60bf2e9b8470c910bce",
+    "author": "djukicmilica",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "AL: Apps (W1)",
+      "From Fork",
+      "Team: Integrations"
+    ],
+    "community_contribution": true,
+    "title_key": "bug 646558 stabilize remittance advice tests in cz"
+  }
+}

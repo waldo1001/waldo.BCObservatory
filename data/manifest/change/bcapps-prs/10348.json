@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/10348",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Adding a Power BI workspace to Company Information to be used when deploying reports",
+  "url": "https://github.com/microsoft/BCApps/pull/10348",
+  "published_at": "2026-09-10T12:02:33Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "65e0525a46564affe9bb73debfa30bbd6dbe49af:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10348,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "65e0525a46564affe9bb73debfa30bbd6dbe49af",
+    "author": "mynjj",
+    "author_type": "User",
+    "labels": [
+      "Ownership: Manual",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "adding a power bi workspace to company information to be used when deploying reports"
+  }
+}

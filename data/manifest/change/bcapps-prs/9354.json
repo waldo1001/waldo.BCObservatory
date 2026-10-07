@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/9354",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Incident 51000001074180 : [BC-IN] GST Component code alignment issue in Pay GST Calculation details.",
+  "url": "https://github.com/microsoft/BCApps/pull/9354",
+  "published_at": "2026-07-13T21:30:47Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "c6d84bab1c577a6bacd7ff3b6b8689a790506c87:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9354,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "c6d84bab1c577a6bacd7ff3b6b8689a790506c87",
+    "author": "v-ajaztabrez",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "From Fork"
+    ],
+    "community_contribution": true,
+    "title_key": "incident 51000001074180 bc in gst component code alignment issue in pay gst calculation details"
+  }
+}

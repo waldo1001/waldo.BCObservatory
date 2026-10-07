@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/10743",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Allow PRs linked to a GitHub Task issue to skip the ADO work item requirement",
+  "url": "https://github.com/microsoft/BCApps/pull/10743",
+  "published_at": "2026-09-04T16:44:27Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "bb5f2384cec052682717104cd250ef52b0812d5c:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10743,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "bb5f2384cec052682717104cd250ef52b0812d5c",
+    "author": "mazhelez",
+    "author_type": "User",
+    "labels": [
+      "Build: scripts & configs",
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": false,
+    "title_key": "allow prs linked to a github task issue to skip the ado work item requirement"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/10516",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Ruleset hardening: promote AL0468, AL0520, AL0589, AL0611, AL0749, AW0004 to Error",
+  "url": "https://github.com/microsoft/BCApps/pull/10516",
+  "published_at": "2026-08-27T17:56:12Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "c3f9b761b4c1916d6355488e5f966d05dbb162b1:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10516,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "c3f9b761b4c1916d6355488e5f966d05dbb162b1",
+    "author": "JesperSchulz",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": false,
+    "title_key": "ruleset hardening promote al0468 al0520 al0589 al0611 al0749 aw0004 to error"
+  }
+}

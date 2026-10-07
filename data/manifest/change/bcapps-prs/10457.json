@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/10457",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Show price calculation error assistance when Available Only is off",
+  "url": "https://github.com/microsoft/BCApps/pull/10457",
+  "published_at": "2026-08-21T08:58:38Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "81f4674418f4d01972da180352411f599e4345db:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10457,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "81f4674418f4d01972da180352411f599e4345db",
+    "author": "VolodySyn",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "show price calculation error assistance when available only is off"
+  }
+}

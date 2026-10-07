@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/9670",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Main] - Posting from Released production order affects Firm planned production order with same ID.",
+  "url": "https://github.com/microsoft/BCApps/pull/9670",
+  "published_at": "2026-07-27T15:53:15Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "92bfda9f5caa0e8565aafdf0294874d71ac841c0:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9670,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "92bfda9f5caa0e8565aafdf0294874d71ac841c0",
+    "author": "DhavalMore88",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "From Fork",
+      "Team: SCM"
+    ],
+    "community_contribution": true,
+    "title_key": "posting from released production order affects firm planned production order with same id"
+  }
+}

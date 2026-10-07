@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/11160",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Ruleset hardening: promote three mechanical rules to Error",
+  "url": "https://github.com/microsoft/BCApps/pull/11160",
+  "published_at": "2026-09-09T09:34:20Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "56ccdb87d79571fae5ace4b08bf4f1a1f04c54e1:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11160,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "56ccdb87d79571fae5ace4b08bf4f1a1f04c54e1",
+    "author": "JesperSchulz",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": false,
+    "title_key": "ruleset hardening promote three mechanical rules to error"
+  }
+}

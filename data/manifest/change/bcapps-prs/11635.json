@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/11635",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Bugs/Bug 647818 Source Currency Amount FCY GL Entries Reversal Charged",
+  "url": "https://github.com/microsoft/BCApps/pull/11635",
+  "published_at": "2026-09-21T13:48:14Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "f125305261182b3ade27443890fdd0f36b04ca7c:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11635,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "f125305261182b3ade27443890fdd0f36b04ca7c",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "bugs bug 647818 source currency amount fcy gl entries reversal charged"
+  }
+}

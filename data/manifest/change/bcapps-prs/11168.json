@@ -1,0 +1,36 @@
+{
+  "id": "change/bcapps-prs/11168",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Restore E-Document vendor invoice field compatibility",
+  "url": "https://github.com/microsoft/BCApps/pull/11168",
+  "published_at": "2026-09-09T11:54:25Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "ca36c0386e0a1d8f1e91dc1ffa59924380837d56:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11168,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "ca36c0386e0a1d8f1e91dc1ffa59924380837d56",
+    "author": "djukicmilica",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "AL: Apps (W1)",
+      "From Fork",
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": true,
+    "title_key": "restore e document vendor invoice field compatibility"
+  }
+}

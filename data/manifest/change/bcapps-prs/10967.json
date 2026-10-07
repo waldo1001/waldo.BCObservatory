@@ -1,0 +1,35 @@
+{
+  "id": "change/bcapps-prs/10967",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Bug 646558] Stabilize remittance advice test initialization",
+  "url": "https://github.com/microsoft/BCApps/pull/10967",
+  "published_at": "2026-09-03T12:30:24Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "1f70d591cd38249686d3da0c4685b580fa3bcca2:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10967,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "1f70d591cd38249686d3da0c4685b580fa3bcca2",
+    "author": "djukicmilica",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "AL: Apps (W1)",
+      "From Fork",
+      "Team: Integrations"
+    ],
+    "community_contribution": true,
+    "title_key": "bug 646558 stabilize remittance advice test initialization"
+  }
+}

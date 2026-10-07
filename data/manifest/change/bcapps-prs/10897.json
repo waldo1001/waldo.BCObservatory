@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/10897",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "BC IQ - Update data sensitivities for policy history",
+  "url": "https://github.com/microsoft/BCApps/pull/10897",
+  "published_at": "2026-09-03T11:10:48Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "ec2ef37f925470f2a5994ca0e5a102622a358311:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10897,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "ec2ef37f925470f2a5994ca0e5a102622a358311",
+    "author": "nikolakukrika",
+    "author_type": "User",
+    "labels": [
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "bc iq update data sensitivities for policy history"
+  }
+}

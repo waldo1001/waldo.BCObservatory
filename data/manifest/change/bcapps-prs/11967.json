@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/11967",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Block Edit in Excel for pages based on the User table",
+  "url": "https://github.com/microsoft/BCApps/pull/11967",
+  "published_at": "2026-09-29T17:22:08Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "e022e39b8ffa5bce2ff68171b7ea64f2eb13e073:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11967,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "e022e39b8ffa5bce2ff68171b7ea64f2eb13e073",
+    "author": "darjoo",
+    "author_type": "User",
+    "labels": [
+      "AL: System Application",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "block edit in excel for pages based on the user table"
+  }
+}

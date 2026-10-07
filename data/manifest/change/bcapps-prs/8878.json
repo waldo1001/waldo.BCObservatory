@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/8878",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Master]- Service Item does not populate Ship-to Country/Region Code when Ship-to Code is blank",
+  "url": "https://github.com/microsoft/BCApps/pull/8878",
+  "published_at": "2026-07-15T15:48:16Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "4ed60c94abde6d10f8777fec56014c635aecde9b:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 8878,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "4ed60c94abde6d10f8777fec56014c635aecde9b",
+    "author": "DeepsShukla",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "From Fork",
+      "Team: SCM"
+    ],
+    "community_contribution": true,
+    "title_key": "master service item does not populate ship to country region code when ship to code is blank"
+  }
+}

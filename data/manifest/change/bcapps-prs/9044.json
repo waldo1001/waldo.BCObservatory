@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/9044",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Master] Contact email is no validated during creation purchase documents_New",
+  "url": "https://github.com/microsoft/BCApps/pull/9044",
+  "published_at": "2026-07-15T05:42:28Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "df4fbbb4417b54f02c84e884a19a6b883dce1c34:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9044,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "df4fbbb4417b54f02c84e884a19a6b883dce1c34",
+    "author": "Shikhverma",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "From Fork",
+      "Team: SCM"
+    ],
+    "community_contribution": true,
+    "title_key": "master contact email is no validated during creation purchase documents new"
+  }
+}

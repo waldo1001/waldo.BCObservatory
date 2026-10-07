@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/9817",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Fixing PA storage leak problem",
+  "url": "https://github.com/microsoft/BCApps/pull/9817",
+  "published_at": "2026-07-30T13:20:50Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "2b9546bde34e3b70f71068471fbd50c479e73e74:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9817,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "2b9546bde34e3b70f71068471fbd50c479e73e74",
+    "author": "mynjj",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "fixing pa storage leak problem"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/10165",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Extensibility Request] issue 29901: expose item application entry before find",
+  "url": "https://github.com/microsoft/BCApps/pull/10165",
+  "published_at": "2026-08-16T21:54:54Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "20e89cfe207cae36af3268c9f40803b9f4a93300:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10165,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "20e89cfe207cae36af3268c9f40803b9f4a93300",
+    "author": "AleksandricMarko",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM",
+      "extensibility-bug"
+    ],
+    "community_contribution": false,
+    "title_key": "extensibility request issue 29901 expose item application entry before find"
+  }
+}

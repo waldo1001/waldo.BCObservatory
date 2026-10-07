@@ -1,0 +1,35 @@
+{
+  "id": "change/bcapps-prs/10568",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Send sample invoices from the demo guide directly",
+  "url": "https://github.com/microsoft/BCApps/pull/10568",
+  "published_at": "2026-08-27T19:45:45Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "0949e0ef706de9fc2e72ab01f96aa42f7112f767:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10568,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "0949e0ef706de9fc2e72ab01f96aa42f7112f767",
+    "author": "Explorer986",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Ownership: Manual",
+      "Ownership: Needs Review",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "send sample invoices from the demo guide directly"
+  }
+}

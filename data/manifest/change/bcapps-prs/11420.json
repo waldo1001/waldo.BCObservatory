@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/11420",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Master] - [Expense Management] Hide Enable Agent on Expense Agent Setup Page",
+  "url": "https://github.com/microsoft/BCApps/pull/11420",
+  "published_at": "2026-09-14T19:45:46Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "3bc6051354f9ecc7cf828bcc836a996cbe20a4c1:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11420,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "3bc6051354f9ecc7cf828bcc836a996cbe20a4c1",
+    "author": "v-rohangarg20",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "master expense management hide enable agent on expense agent setup page"
+  }
+}

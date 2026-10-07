@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/10369",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Bug 640428: Fix Production BOM Comment Line TableRelation filters",
+  "url": "https://github.com/microsoft/BCApps/pull/10369",
+  "published_at": "2026-08-27T22:35:15Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "b2e0c2c4fb3131785587920f35f0e7736a3cd138:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10369,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "b2e0c2c4fb3131785587920f35f0e7736a3cd138",
+    "author": "ChethanT",
+    "author_type": "User",
+    "labels": [
+      "Ownership: Manual",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 640428 fix production bom comment line tablerelation filters"
+  }
+}

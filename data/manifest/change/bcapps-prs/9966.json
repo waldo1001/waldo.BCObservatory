@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9966",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Harden Contact Sync delta URL and ownership checks",
+  "url": "https://github.com/microsoft/BCApps/pull/9966",
+  "published_at": "2026-08-27T13:35:44Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "ebccffb1b40534e5606f1d27c5f5635b3aeb6e7a:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9966,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "ebccffb1b40534e5606f1d27c5f5635b3aeb6e7a",
+    "author": "Naveen26423",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "harden contact sync delta url and ownership checks"
+  }
+}

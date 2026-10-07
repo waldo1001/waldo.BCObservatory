@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/10126",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Extensibility Request] issue 30389: allow skipping service item confirmation",
+  "url": "https://github.com/microsoft/BCApps/pull/10126",
+  "published_at": "2026-08-13T12:58:15Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "5e56aaa0bb6de3e05736d1449db5b3dd2b9b9226:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10126,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "5e56aaa0bb6de3e05736d1449db5b3dd2b9b9226",
+    "author": "AleksandricMarko",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM",
+      "event-request"
+    ],
+    "community_contribution": false,
+    "title_key": "extensibility request issue 30389 allow skipping service item confirmation"
+  }
+}

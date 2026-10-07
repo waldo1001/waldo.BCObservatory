@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/9747",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Subcontracting] Bug 641607: Fix misleading error message when disabling Legacy Subcontracting with open WIP purchase orders",
+  "url": "https://github.com/microsoft/BCApps/pull/9747",
+  "published_at": "2026-07-28T10:07:25Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "7adc1b3638a7cf4c1e82e522f70534600fe77b9a:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9747,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "7adc1b3638a7cf4c1e82e522f70534600fe77b9a",
+    "author": "ChethanT",
+    "author_type": "User",
+    "labels": [
+      "Subcontracting",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "subcontracting bug 641607 fix misleading error message when disabling legacy subcontracting with open wip purchase orders"
+  }
+}

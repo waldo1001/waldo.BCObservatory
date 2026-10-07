@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/9605",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Quality Management] UI actions to restore default shipped source configurations",
+  "url": "https://github.com/microsoft/BCApps/pull/9605",
+  "published_at": "2026-07-23T17:46:32Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "384c007fcfcc15c4a8cd96e7fae1528fd20fa3f4:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9605,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "384c007fcfcc15c4a8cd96e7fae1528fd20fa3f4",
+    "author": "JakovljevicDusan",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "quality management ui actions to restore default shipped source configurations"
+  }
+}

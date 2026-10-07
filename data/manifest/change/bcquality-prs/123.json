@@ -1,0 +1,30 @@
+{
+  "id": "change/bcquality-prs/123",
+  "pillar": "change",
+  "source": "bcquality-prs",
+  "tier": "official",
+  "title": "Fix bridge skill manifest references after #122 root move",
+  "url": "https://github.com/microsoft/BCQuality/pull/123",
+  "published_at": "2026-07-30T09:35:01Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "31d110abc822947a220b6c3fd68e7a7dffbd54ee:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 123,
+    "repo": "microsoft/BCQuality",
+    "base": "main",
+    "major": null,
+    "merge_commit_sha": "31d110abc822947a220b6c3fd68e7a7dffbd54ee",
+    "author": "gggdttt",
+    "author_type": "User",
+    "labels": [],
+    "community_contribution": false,
+    "title_key": "fix bridge skill manifest references after 122 root move"
+  }
+}

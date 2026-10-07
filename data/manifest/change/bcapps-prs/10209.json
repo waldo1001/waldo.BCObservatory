@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/10209",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Promote AA0471, AA0472 and AA0474 to Error in the base ruleset",
+  "url": "https://github.com/microsoft/BCApps/pull/10209",
+  "published_at": "2026-08-14T12:07:31Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "c451f37e7dc95b5609942a77b1a47df7850d07ca:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10209,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "c451f37e7dc95b5609942a77b1a47df7850d07ca",
+    "author": "JesperSchulz",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": false,
+    "title_key": "promote aa0471 aa0472 and aa0474 to error in the base ruleset"
+  }
+}

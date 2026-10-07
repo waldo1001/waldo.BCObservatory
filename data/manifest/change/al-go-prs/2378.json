@@ -1,0 +1,30 @@
+{
+  "id": "change/al-go-prs/2378",
+  "pillar": "change",
+  "source": "al-go-prs",
+  "tier": "official",
+  "title": "Retry CI/CD baseline discovery when no eligible run is found",
+  "url": "https://github.com/microsoft/AL-Go/pull/2378",
+  "published_at": "2026-09-29T15:42:52Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "d0797b66d2cac5a496e50fa9a5082a792671acaf:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 2378,
+    "repo": "microsoft/AL-Go",
+    "base": "main",
+    "major": null,
+    "merge_commit_sha": "d0797b66d2cac5a496e50fa9a5082a792671acaf",
+    "author": "aholstrup1",
+    "author_type": "User",
+    "labels": [],
+    "community_contribution": false,
+    "title_key": "retry ci cd baseline discovery when no eligible run is found"
+  }
+}

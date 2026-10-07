@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/11747",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[master][Subscription Billing] Sales-Explode BOM fails for foreign-currency customers",
+  "url": "https://github.com/microsoft/BCApps/pull/11747",
+  "published_at": "2026-09-24T08:37:13Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "271823510d6522d785013f6b4bc5ca1a962721df:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11747,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "271823510d6522d785013f6b4bc5ca1a962721df",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "master subscription billing sales explode bom fails for foreign currency customers"
+  }
+}

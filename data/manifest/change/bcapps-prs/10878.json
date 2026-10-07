@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/10878",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Ruleset hardening: promote five low-risk rules to Error",
+  "url": "https://github.com/microsoft/BCApps/pull/10878",
+  "published_at": "2026-09-03T15:30:59Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "1e3872168af58518ac2a02e8cf5934cbc28eee32:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10878,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "1e3872168af58518ac2a02e8cf5934cbc28eee32",
+    "author": "JesperSchulz",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": false,
+    "title_key": "ruleset hardening promote five low risk rules to error"
+  }
+}

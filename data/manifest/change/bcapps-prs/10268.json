@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/10268",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Quality Management] Remove Description mandatory check when closing test card",
+  "url": "https://github.com/microsoft/BCApps/pull/10268",
+  "published_at": "2026-08-17T00:12:36Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "fe0760b6bb60470bb597e158c956d3df878118e7:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10268,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "fe0760b6bb60470bb597e158c956d3df878118e7",
+    "author": "JakovljevicDusan",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "quality management remove description mandatory check when closing test card"
+  }
+}

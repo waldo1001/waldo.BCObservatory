@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/10720",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Master]-BCApps uptake: Swiss SEPA CT Export / CT 09 Export.XMLExport_PaymentType3_Negative_BlankedSWIFT fails",
+  "url": "https://github.com/microsoft/BCApps/pull/10720",
+  "published_at": "2026-08-31T10:13:15Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "08022bf77f1f6749eea6a21ef55b03b1b6c0c3ce:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10720,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "08022bf77f1f6749eea6a21ef55b03b1b6c0c3ce",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "master bcapps uptake swiss sepa ct export ct 09 export xmlexport paymenttype3 negative blankedswift fails"
+  }
+}

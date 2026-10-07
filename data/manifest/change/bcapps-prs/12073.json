@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/12073",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Add preparation script support to AI test suite imports",
+  "url": "https://github.com/microsoft/BCApps/pull/12073",
+  "published_at": "2026-10-01T10:37:29Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "3292c60465e7d98003aea9f397543b8ab72b1b7f:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12073,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "3292c60465e7d98003aea9f397543b8ab72b1b7f",
+    "author": "angusrtaylor",
+    "author_type": "User",
+    "labels": [
+      "AL: Tools",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "add preparation script support to ai test suite imports"
+  }
+}

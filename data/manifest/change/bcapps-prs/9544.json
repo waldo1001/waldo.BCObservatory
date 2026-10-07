@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/9544",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "636017 Move CRM report action tooltips to report objects",
+  "url": "https://github.com/microsoft/BCApps/pull/9544",
+  "published_at": "2026-07-29T06:50:06Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "d86ecf324ac3682e1d2394fb3ba0425a4b95de24:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9544,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "d86ecf324ac3682e1d2394fb3ba0425a4b95de24",
+    "author": "V-CWurtzen",
+    "author_type": "User",
+    "labels": [
+      "Ownership: Manual",
+      "Team: Other"
+    ],
+    "community_contribution": false,
+    "title_key": "636017 move crm report action tooltips to report objects"
+  }
+}

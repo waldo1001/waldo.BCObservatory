@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/11209",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[29.x]-\"The record in table Reminder Line already exists.\" error appears if you Create Reminders for a Customer with all the Open Entries On Hold and no Reminder Free applied on the Reminder Terms used.",
+  "url": "https://github.com/microsoft/BCApps/pull/11209",
+  "published_at": "2026-09-10T07:27:43Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "6533e3b01359ecbb8c3c196fcdca33a4dc08b746:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11209,
+    "repo": "microsoft/BCApps",
+    "base": "releases/29.x",
+    "major": "29",
+    "merge_commit_sha": "6533e3b01359ecbb8c3c196fcdca33a4dc08b746",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "the record in table reminder line already exists error appears if you create reminders for a customer with all the open entries on hold and no reminder free applied on the reminder terms used"
+  }
+}

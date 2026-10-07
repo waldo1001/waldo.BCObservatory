@@ -1,0 +1,35 @@
+{
+  "id": "change/bcapps-prs/8953",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Master]-Aged account receivable EXCEL and Aged account payable EXCEL ignores \"Period Count\" specified by user.",
+  "url": "https://github.com/microsoft/BCApps/pull/8953",
+  "published_at": "2026-07-07T14:56:36Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "e7a92e8c5f6c1a4c603233508eef85eebe94e0a4:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 8953,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "e7a92e8c5f6c1a4c603233508eef85eebe94e0a4",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "AL: Apps (W1)",
+      "From Fork",
+      "Team: Finance"
+    ],
+    "community_contribution": true,
+    "title_key": "master aged account receivable excel and aged account payable excel ignores period count specified by user"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/10562",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Bug 647211:  [Subcontracting] Install app by default in new online environments only",
+  "url": "https://github.com/microsoft/BCApps/pull/10562",
+  "published_at": "2026-08-27T18:05:51Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "cc155ebb5ef9af3d5e978c5639e6f1fd2f8a3167:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10562,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "cc155ebb5ef9af3d5e978c5639e6f1fd2f8a3167",
+    "author": "ChethanT",
+    "author_type": "User",
+    "labels": [
+      "Build: scripts & configs",
+      "Subcontracting",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 647211 subcontracting install app by default in new online environments only"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/10336",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Main]- Incorrect calculation of single-level capacity and material cost for Stockkeeping Units (SKU) when running cost changes in the Standard Cost Worksheet and implementing the Standard Cost change",
+  "url": "https://github.com/microsoft/BCApps/pull/10336",
+  "published_at": "2026-08-24T06:34:19Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "82d126de77398a23b5207466c9e147428ea2900c:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10336,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "82d126de77398a23b5207466c9e147428ea2900c",
+    "author": "DeepsShukla",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "From Fork",
+      "Team: SCM"
+    ],
+    "community_contribution": true,
+    "title_key": "incorrect calculation of single level capacity and material cost for stockkeeping units sku when running cost changes in the standard cost worksheet and implementing the standard cost change"
+  }
+}

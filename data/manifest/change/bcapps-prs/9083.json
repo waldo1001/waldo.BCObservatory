@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9083",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Bug 639857: Project journal ignores task-level Bill-to Customer for pricing",
+  "url": "https://github.com/microsoft/BCApps/pull/9083",
+  "published_at": "2026-07-09T10:52:20Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "5ee64fba67e1188ab2364215e9b6901bc18dc657:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9083,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "5ee64fba67e1188ab2364215e9b6901bc18dc657",
+    "author": "alexei-dobriansky",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 639857 project journal ignores task level bill to customer for pricing"
+  }
+}

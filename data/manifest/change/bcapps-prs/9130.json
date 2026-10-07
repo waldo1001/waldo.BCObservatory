@@ -1,0 +1,36 @@
+{
+  "id": "change/bcapps-prs/9130",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Subcontracting] Refactor event subscriber for planning components and add test for Vendor-supplied components",
+  "url": "https://github.com/microsoft/BCApps/pull/9130",
+  "published_at": "2026-08-20T14:37:46Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "aa21c1437f7b80c7c74f0ddca7c7c9d267a92b10:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9130,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "aa21c1437f7b80c7c74f0ddca7c7c9d267a92b10",
+    "author": "SPinkow",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "AL: Apps (W1)",
+      "From Fork",
+      "Subcontracting",
+      "Team: SCM"
+    ],
+    "community_contribution": true,
+    "title_key": "subcontracting refactor event subscriber for planning components and add test for vendor supplied components"
+  }
+}

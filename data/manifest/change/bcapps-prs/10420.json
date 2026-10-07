@@ -1,0 +1,35 @@
+{
+  "id": "change/bcapps-prs/10420",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Fix/miapp country regex",
+  "url": "https://github.com/microsoft/BCApps/pull/10420",
+  "published_at": "2026-09-04T08:58:30Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "1133085151b29cc3f75534fea4a1956439f24396:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10420,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "1133085151b29cc3f75534fea4a1956439f24396",
+    "author": "MSlenejennum",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "Build: scripts & configs",
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": false,
+    "title_key": "fix miapp country regex"
+  }
+}

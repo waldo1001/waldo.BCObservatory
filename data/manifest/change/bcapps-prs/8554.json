@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/8554",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Shopify] Fix incorrect G/L line on credit memo for refund with exchange item",
+  "url": "https://github.com/microsoft/BCApps/pull/8554",
+  "published_at": "2026-07-21T10:23:23Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "3239a62f50c3078f0fa4ce7eddb3a8ef3cd5dfb0:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 8554,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "3239a62f50c3078f0fa4ce7eddb3a8ef3cd5dfb0",
+    "author": "onbuyuka",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "shopify fix incorrect g l line on credit memo for refund with exchange item"
+  }
+}

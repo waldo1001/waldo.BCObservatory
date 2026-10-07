@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/9396",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Subcontracting] Fix subcontracting order opening wrong purchase order after creation",
+  "url": "https://github.com/microsoft/BCApps/pull/9396",
+  "published_at": "2026-07-31T08:49:24Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "eac1bcdc7a9460f4d7c3a426a6d921eb4dcafc54:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9396,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "eac1bcdc7a9460f4d7c3a426a6d921eb4dcafc54",
+    "author": "6CRIPT",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Subcontracting",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "subcontracting fix subcontracting order opening wrong purchase order after creation"
+  }
+}

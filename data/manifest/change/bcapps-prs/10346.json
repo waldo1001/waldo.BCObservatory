@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/10346",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Fix activity log indirect permissions",
+  "url": "https://github.com/microsoft/BCApps/pull/10346",
+  "published_at": "2026-08-20T14:27:46Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "498733580e1273fc0d0cd7ddcbb59291a145425b:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10346,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "498733580e1273fc0d0cd7ddcbb59291a145425b",
+    "author": "t-prda",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Ownership: Manual",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "fix activity log indirect permissions"
+  }
+}

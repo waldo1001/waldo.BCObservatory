@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/10467",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Shopify] Fix more-expensive exchange refund: no balancing G/L line, no false processed-order warning",
+  "url": "https://github.com/microsoft/BCApps/pull/10467",
+  "published_at": "2026-08-24T15:44:26Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "11884afa0af50217fb0e76c0a7e904aaac4647a2:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10467,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "11884afa0af50217fb0e76c0a7e904aaac4647a2",
+    "author": "onbuyuka",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "shopify fix more expensive exchange refund no balancing g l line no false processed order warning"
+  }
+}

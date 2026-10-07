@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9820",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Use ReadCommitted isolation for CalcFields in Job Queue Entry GetXmlContent",
+  "url": "https://github.com/microsoft/BCApps/pull/9820",
+  "published_at": "2026-07-30T07:54:38Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "a68863f272afb06048e4921f60a73edca446a9ea:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9820,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "a68863f272afb06048e4921f60a73edca446a9ea",
+    "author": "darjoo",
+    "author_type": "User",
+    "labels": [
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "use readcommitted isolation for calcfields in job queue entry getxmlcontent"
+  }
+}

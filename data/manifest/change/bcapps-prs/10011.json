@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/10011",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Improve performance when posting credit memos by skipping unnecessary lookups on empty keys",
+  "url": "https://github.com/microsoft/BCApps/pull/10011",
+  "published_at": "2026-08-07T05:43:08Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "b7227bc701fc847473535dcbac37bdec63ef2ec3:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10011,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "b7227bc701fc847473535dcbac37bdec63ef2ec3",
+    "author": "JakovljevicDusan",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "improve performance when posting credit memos by skipping unnecessary lookups on empty keys"
+  }
+}

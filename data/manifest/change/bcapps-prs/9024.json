@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/9024",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Master] - Chance of success % does not validate correctly when using the action type \"Update\" in Opportunity",
+  "url": "https://github.com/microsoft/BCApps/pull/9024",
+  "published_at": "2026-07-14T17:43:10Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "cffc80403381b9375e0f010e7d5842a8583d7447:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9024,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "cffc80403381b9375e0f010e7d5842a8583d7447",
+    "author": "DeepsShukla",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "From Fork",
+      "Team: SCM"
+    ],
+    "community_contribution": true,
+    "title_key": "master chance of success does not validate correctly when using the action type update in opportunity"
+  }
+}

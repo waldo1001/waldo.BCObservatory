@@ -1,0 +1,64 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10772,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10772",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-06T17:40:58Z",
+  "merge_commit_sha": "2e8d75cb5e193ce2899a51c5a3c1ba0dab0de1b5",
+  "author": "ventselartur",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[Bug Fix] #304: [SOA] Re-resolve new sender to created contact after 'I have added the contact'",
+  "body_hash": "bb9d1a96804de04f1db9b8b974f776f1decc3ae986ac5353b33e0c7e3302dbcf",
+  "fixes_issues": [],
+  "work_items": [
+    615541
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/SalesOrderAgent/app/src/Setup/SOASetup.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 2,
+    "deletions": 2,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/SalesOrderAgent/app/src/Setup/SOASetup.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/4400",
+        "type": "codeunit",
+        "id": 4400,
+        "name": "SOA Setup",
+        "app": "SalesOrderAgent",
+        "cc": "w1",
+        "page": "codeunit/4400"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "SalesOrderAgent"
+  ]
+}

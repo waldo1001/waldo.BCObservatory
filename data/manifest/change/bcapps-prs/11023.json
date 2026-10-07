@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/11023",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "BE's PEPPOL \"escompte\" compensation",
+  "url": "https://github.com/microsoft/BCApps/pull/11023",
+  "published_at": "2026-09-10T12:33:34Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "150fb09febdca9b5fb37b72f524d44feba76cfb2:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11023,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "150fb09febdca9b5fb37b72f524d44feba76cfb2",
+    "author": "mynjj",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "be s peppol escompte compensation"
+  }
+}

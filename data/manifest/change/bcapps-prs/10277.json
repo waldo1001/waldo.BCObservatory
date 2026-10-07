@@ -1,0 +1,39 @@
+{
+  "id": "change/bcapps-prs/10277",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Slice 554749: Inventory put-away/pick support for subcontracting purchase lines and WIP item transfers",
+  "url": "https://github.com/microsoft/BCApps/pull/10277",
+  "published_at": "2026-08-20T15:53:58Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "34f4497a135cf6ed97ed261d17e89c188a7b6d3a:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10277,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "34f4497a135cf6ed97ed261d17e89c188a7b6d3a",
+    "author": "stevengrossGOB",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "AL: Apps (W1)",
+      "From Fork",
+      "Ownership: Manual",
+      "Ownership: Needs Review",
+      "Subcontracting",
+      "Team: Other",
+      "Team: SCM"
+    ],
+    "community_contribution": true,
+    "title_key": "slice 554749 inventory put away pick support for subcontracting purchase lines and wip item transfers"
+  }
+}

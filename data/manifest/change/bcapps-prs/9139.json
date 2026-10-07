@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9139",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Fix Payables Agent permission error opening E-Document",
+  "url": "https://github.com/microsoft/BCApps/pull/9139",
+  "published_at": "2026-07-07T20:51:42Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "dda74d576786210bfd55a184a22ec84cbf18eeb3:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9139,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "dda74d576786210bfd55a184a22ec84cbf18eeb3",
+    "author": "ventselartur",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)"
+    ],
+    "community_contribution": false,
+    "title_key": "fix payables agent permission error opening e document"
+  }
+}

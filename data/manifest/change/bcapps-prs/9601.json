@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9601",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Reset workflow templates no longer removes steps from active workflows",
+  "url": "https://github.com/microsoft/BCApps/pull/9601",
+  "published_at": "2026-07-27T22:47:32Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "dd0ad0dd74776b3e7f439eb7240725be447837c8:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9601,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "dd0ad0dd74776b3e7f439eb7240725be447837c8",
+    "author": "darjoo",
+    "author_type": "User",
+    "labels": [
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "reset workflow templates no longer removes steps from active workflows"
+  }
+}

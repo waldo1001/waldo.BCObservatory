@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/9098",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Align the Vend. Entry-Edit post-modify event with its Cust. Entry-Edit counterpart",
+  "url": "https://github.com/microsoft/BCApps/pull/9098",
+  "published_at": "2026-07-09T09:28:16Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "316af650281346404b08d7609bc3073d93a4a2fb:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9098,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "316af650281346404b08d7609bc3073d93a4a2fb",
+    "author": "Franco111000",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "From Fork",
+      "Team: Finance"
+    ],
+    "community_contribution": true,
+    "title_key": "align the vend entry edit post modify event with its cust entry edit counterpart"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9071",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Merged from [28.x]The transaction cannot be completed because it will cause inconsistencies in the G/L Entry table\"",
+  "url": "https://github.com/microsoft/BCApps/pull/9071",
+  "published_at": "2026-07-13T11:31:45Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "b477d1fe9c918294f5d58b5738332a29dfbed6ea:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9071,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "b477d1fe9c918294f5d58b5738332a29dfbed6ea",
+    "author": "AndersLarsenMicrosoft",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "merged from 28 x the transaction cannot be completed because it will cause inconsistencies in the g l entry table"
+  }
+}

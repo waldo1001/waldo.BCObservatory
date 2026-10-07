@@ -1,0 +1,35 @@
+{
+  "id": "change/bcapps-prs/10332",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Main]]No Employee posting group for AT when new employee is created",
+  "url": "https://github.com/microsoft/BCApps/pull/10332",
+  "published_at": "2026-09-01T14:26:46Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "72db0d3c596fdbbf1a50b5f601d28ecdd3ed75ce:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10332,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "72db0d3c596fdbbf1a50b5f601d28ecdd3ed75ce",
+    "author": "sanjmaurya",
+    "author_type": "User",
+    "labels": [
+      "Ownership: Manual",
+      "Ownership: Needs Review",
+      "Team: Integrations",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "no employee posting group for at when new employee is created"
+  }
+}

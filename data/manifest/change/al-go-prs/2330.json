@@ -1,0 +1,30 @@
+{
+  "id": "change/al-go-prs/2330",
+  "pillar": "change",
+  "source": "al-go-prs",
+  "tier": "official",
+  "title": "Emit valid SARIF URIs for AL code analysis paths containing spaces",
+  "url": "https://github.com/microsoft/AL-Go/pull/2330",
+  "published_at": "2026-07-27T09:04:19Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "aec640c0ed700b1b8af06823ba9681b9ce17d369:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 2330,
+    "repo": "microsoft/AL-Go",
+    "base": "main",
+    "major": null,
+    "merge_commit_sha": "aec640c0ed700b1b8af06823ba9681b9ce17d369",
+    "author": "aholstrup1",
+    "author_type": "User",
+    "labels": [],
+    "community_contribution": false,
+    "title_key": "emit valid sarif uris for al code analysis paths containing spaces"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9571",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Master]-Opening price list from Customer Card is extremely slow on large datasets (~220s) due to AddAllSourceType call",
+  "url": "https://github.com/microsoft/BCApps/pull/9571",
+  "published_at": "2026-07-22T13:29:06Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "f5c84e3f8463b0a0bac2fd62645911bd71f3a9ce:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9571,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "f5c84e3f8463b0a0bac2fd62645911bd71f3a9ce",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "master opening price list from customer card is extremely slow on large datasets 220s due to addallsourcetype call"
+  }
+}

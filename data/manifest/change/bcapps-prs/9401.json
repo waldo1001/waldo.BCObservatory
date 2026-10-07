@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9401",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Fix Incoming Documents default processed filter",
+  "url": "https://github.com/microsoft/BCApps/pull/9401",
+  "published_at": "2026-08-17T13:05:10Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "042757f47f6c08c0f92199232794c51ae2d19757:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9401,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "042757f47f6c08c0f92199232794c51ae2d19757",
+    "author": "JesperSchulz",
+    "author_type": "User",
+    "labels": [
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "fix incoming documents default processed filter"
+  }
+}

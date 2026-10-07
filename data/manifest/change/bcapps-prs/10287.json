@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/10287",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Move SOA item search and attachment extraction to GPT-5.5 deployments",
+  "url": "https://github.com/microsoft/BCApps/pull/10287",
+  "published_at": "2026-08-17T22:24:53Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "3dac8c4367be44680b3593e562c9adb5a3530f62:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10287,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "3dac8c4367be44680b3593e562c9adb5a3530f62",
+    "author": "qasimikram",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "move soa item search and attachment extraction to gpt 5 5 deployments"
+  }
+}

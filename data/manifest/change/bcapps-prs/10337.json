@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/10337",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Let subscribers override the half-year new year date in SetHalfYearConventionMethod",
+  "url": "https://github.com/microsoft/BCApps/pull/10337",
+  "published_at": "2026-08-19T09:40:34Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "d1e0b77e1237446094b70fb01c11f110caec4a0d:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10337,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "d1e0b77e1237446094b70fb01c11f110caec4a0d",
+    "author": "Explorer986",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "let subscribers override the half year new year date in sethalfyearconventionmethod"
+  }
+}

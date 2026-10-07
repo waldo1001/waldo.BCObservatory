@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10772",
+  "number": 10772,
+  "title": "[Bug Fix] #304: [SOA] Re-resolve new sender to created contact after 'I have added the contact'",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Sales Order Agent now correctly re-resolves sender information to the newly created contact after a user adds a contact in the chat, allowing the agent to proceed instead of reporting the customer cannot be found.",
+  "key_points": [
+    "Rewrote intervention instruction label to explicitly command re-navigation to contact list",
+    "Agent searches for newly created contact before falling back to customer list",
+    "Fixes agent getting stuck when email arrives from unrecognized sender and user creates contact",
+    "Root cause was stale customer-list context preventing proper contact lookup after creation",
+    "Contact without linked customer continues to be supported via contact number filter"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "copilot"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004424,
+    "changes_in_call": 1
+  }
+}

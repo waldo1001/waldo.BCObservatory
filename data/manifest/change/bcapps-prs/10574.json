@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/10574",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Fix Report Inbox API E2E cross-company tests to create a second company",
+  "url": "https://github.com/microsoft/BCApps/pull/10574",
+  "published_at": "2026-08-28T13:03:59Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "1947d424973d56a5c0728d8b31a8ec24e043529a:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10574,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "1947d424973d56a5c0728d8b31a8ec24e043529a",
+    "author": "onbuyuka",
+    "author_type": "User",
+    "labels": [
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "fix report inbox api e2e cross company tests to create a second company"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/11726",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Fix Verifactu export for non-taxable transactions",
+  "url": "https://github.com/microsoft/BCApps/pull/11726",
+  "published_at": "2026-09-29T10:04:19Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "ae31ddecb123e60927599c0b8a3ea536e1b8bbcd:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11726,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "ae31ddecb123e60927599c0b8a3ea536e1b8bbcd",
+    "author": "djukicmilica",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "From Fork",
+      "Team: Finance"
+    ],
+    "community_contribution": true,
+    "title_key": "fix verifactu export for non taxable transactions"
+  }
+}

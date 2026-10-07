@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/11988",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Bug 629656: Add tests for Company-Initialize in a newly created company",
+  "url": "https://github.com/microsoft/BCApps/pull/11988",
+  "published_at": "2026-09-30T11:01:23Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "48d1ec2e88c066b8581f9007fd4b4c5fa7fae9a2:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11988,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "48d1ec2e88c066b8581f9007fd4b4c5fa7fae9a2",
+    "author": "darjoo",
+    "author_type": "User",
+    "labels": [
+      "Build: scripts & configs",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 629656 add tests for company initialize in a newly created company"
+  }
+}

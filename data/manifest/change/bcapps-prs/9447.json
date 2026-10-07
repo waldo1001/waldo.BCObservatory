@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/9447",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Extensibility Request] issue 30239: add OnBeforeOnRunOnCheckWarehouse event in Mfg. Item Jnl. Check Line",
+  "url": "https://github.com/microsoft/BCApps/pull/9447",
+  "published_at": "2026-07-15T09:32:44Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "8aa60df72fe3b10ba8c659cc5792b4da514168c7:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9447,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "8aa60df72fe3b10ba8c659cc5792b4da514168c7",
+    "author": "AleksandricMarko",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM",
+      "event-request"
+    ],
+    "community_contribution": false,
+    "title_key": "extensibility request issue 30239 add onbeforeonrunoncheckwarehouse event in mfg item jnl check line"
+  }
+}

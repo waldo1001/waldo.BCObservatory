@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/10276",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[master] Renewal Term field on the Create Contract Renewal Quote page does not accept the entered value such as 12M",
+  "url": "https://github.com/microsoft/BCApps/pull/10276",
+  "published_at": "2026-08-18T12:12:27Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "d6a547a6239069ad41e1a0e1ae3c3103dbb5f389:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10276,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "d6a547a6239069ad41e1a0e1ae3c3103dbb5f389",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "master renewal term field on the create contract renewal quote page does not accept the entered value such as 12m"
+  }
+}

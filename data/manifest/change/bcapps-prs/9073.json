@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/9073",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Data Exchange Definition export performance improvement",
+  "url": "https://github.com/microsoft/BCApps/pull/9073",
+  "published_at": "2026-07-13T15:07:57Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "dc5a76e7fe5936013c1abb78dd0c710a9ff6279c:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9073,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "dc5a76e7fe5936013c1abb78dd0c710a9ff6279c",
+    "author": "VolodySyn",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "data exchange definition export performance improvement"
+  }
+}

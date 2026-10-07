@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/10143",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Handle non-invoice or currupt PDF extraction",
+  "url": "https://github.com/microsoft/BCApps/pull/10143",
+  "published_at": "2026-08-17T16:40:08Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "6f6a3438918a7b1b3ed03f55ec7663d50e9750f6:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10143,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "6f6a3438918a7b1b3ed03f55ec7663d50e9750f6",
+    "author": "Explorer986",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "handle non invoice or currupt pdf extraction"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/9864",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Extensibility Request] issue 29078: Add OnBeforeTestTransferLine event",
+  "url": "https://github.com/microsoft/BCApps/pull/9864",
+  "published_at": "2026-08-10T23:41:03Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "154fef6dbfe72f45a4f031949f8b598e5aaebe34:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9864,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "154fef6dbfe72f45a4f031949f8b598e5aaebe34",
+    "author": "AleksandricMarko",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM",
+      "event-request"
+    ],
+    "community_contribution": false,
+    "title_key": "extensibility request issue 29078 add onbeforetesttransferline event"
+  }
+}

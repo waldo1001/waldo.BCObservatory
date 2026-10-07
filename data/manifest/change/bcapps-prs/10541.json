@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/10541",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Master] - Slice 641375: [Sustainability] Collect Amount from G/L Entries: track collected entries to prevent double counting",
+  "url": "https://github.com/microsoft/BCApps/pull/10541",
+  "published_at": "2026-09-16T17:21:19Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "9c49abbc71f42a6d1497cec3a90315c1619e4a56:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10541,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "9c49abbc71f42a6d1497cec3a90315c1619e4a56",
+    "author": "ViditGupta1277",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "master slice 641375 sustainability collect amount from g l entries track collected entries to prevent double counting"
+  }
+}

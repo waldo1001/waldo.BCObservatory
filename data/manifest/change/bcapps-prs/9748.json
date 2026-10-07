@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/9748",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Image Analyzer: use Computer Vision v3.2 instead of retiring v1.0",
+  "url": "https://github.com/microsoft/BCApps/pull/9748",
+  "published_at": "2026-07-29T10:57:11Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "f986ec414bd4f45cb2f7c8152c54bb4e6f4ad27f:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9748,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "f986ec414bd4f45cb2f7c8152c54bb4e6f4ad27f",
+    "author": "gggdttt",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "image analyzer use computer vision v3 2 instead of retiring v1 0"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/12008",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[29.x]-TDS Amount incorrectly calculated under Tax Information Factbox if you use Applies-to ID in the Indian version.",
+  "url": "https://github.com/microsoft/BCApps/pull/12008",
+  "published_at": "2026-09-30T11:09:39Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "5074f740f8fb948ebd65cde0665b45fe829dbdc2:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12008,
+    "repo": "microsoft/BCApps",
+    "base": "releases/29.x",
+    "major": "29",
+    "merge_commit_sha": "5074f740f8fb948ebd65cde0665b45fe829dbdc2",
+    "author": "v-maheshsharma",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "tds amount incorrectly calculated under tax information factbox if you use applies to id in the indian version"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/9705",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[master] Transfer Order header deletion blocked by reserved quantity — inconsistent with line deletion and all other document types",
+  "url": "https://github.com/microsoft/BCApps/pull/9705",
+  "published_at": "2026-07-29T15:29:33Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "dc32dbad8f35f2fd58bd417aedbf1d00bed0418b:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9705,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "dc32dbad8f35f2fd58bd417aedbf1d00bed0418b",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "master transfer order header deletion blocked by reserved quantity inconsistent with line deletion and all other document types"
+  }
+}

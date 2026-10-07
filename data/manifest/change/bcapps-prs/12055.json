@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/12055",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[E-Documents Core] Show error for unmatched inbound Order Response",
+  "url": "https://github.com/microsoft/BCApps/pull/12055",
+  "published_at": "2026-10-05T19:17:24Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "b508209e1a382ff442093c8c0d23703369b294f9:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12055,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "b508209e1a382ff442093c8c0d23703369b294f9",
+    "author": "GediminasGaubys",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "AL: Apps (W1)",
+      "From Fork"
+    ],
+    "community_contribution": true,
+    "title_key": "e documents core show error for unmatched inbound order response"
+  }
+}

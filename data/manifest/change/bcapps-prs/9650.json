@@ -1,0 +1,35 @@
+{
+  "id": "change/bcapps-prs/9650",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Master] -Revert Changes- 'Greater Than' Withholding Tax Calculation Rule is not applied correctly in Withholding Tax Posting Setup.",
+  "url": "https://github.com/microsoft/BCApps/pull/9650",
+  "published_at": "2026-07-22T19:59:45Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "096090d6f8f05d59fb490426f89cd51537d01d3c:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9650,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "096090d6f8f05d59fb490426f89cd51537d01d3c",
+    "author": "DhavalMore88",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "AL: Apps (W1)",
+      "From Fork",
+      "Team: Finance"
+    ],
+    "community_contribution": true,
+    "title_key": "master revert changes greater than withholding tax calculation rule is not applied correctly in withholding tax posting setup"
+  }
+}

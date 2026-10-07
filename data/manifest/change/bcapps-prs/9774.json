@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/9774",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Extensibility Request] issue 30378: add OnItemVariantOnAfterGetRecordOnBeforePrintOnlyIfSalesCheck event in Item Sales Statistics report",
+  "url": "https://github.com/microsoft/BCApps/pull/9774",
+  "published_at": "2026-08-27T19:35:11Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-07T12:54:54.417Z"
+    }
+  },
+  "input_hash": "8d54dfbd92decee66523842843c26bfc4f97f720:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9774,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "8d54dfbd92decee66523842843c26bfc4f97f720",
+    "author": "AleksandricMarko",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM",
+      "event-request"
+    ],
+    "community_contribution": false,
+    "title_key": "extensibility request issue 30378 add onitemvariantonaftergetrecordonbeforeprintonlyifsalescheck event in item sales statistics report"
+  }
+}
