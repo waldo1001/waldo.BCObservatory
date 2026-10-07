@@ -4,73 +4,18 @@
  * major, obsolete share, Learn coverage, country overrides. Filters by type, app, introduced major and obsolete.
  * Clicking a rectangle zooms into that namespace; the table below lists the objects of the current view.
  */
+import { buildTree as buildTreeOf, descendants, nsSegments, squarify, type TreeNode } from "../../../pipeline/lib/treemap";
 type Row = [string, string, number | null, string, string | null, string | null, string | null, string | null, string, number, number];
-interface Node { name: string; path: string; children: Map<string, Node>; rows: Row[]; count: number; x: number; y: number; w: number; h: number }
+type Node = TreeNode<Row>;
 type Lens = "system" | "changed29" | "changed30" | "introduced" | "obsolete" | "learn" | "countries";
 const LENS_LABEL: Record<Lens, string> = { system: "galaxy system", changed29: "changed in BC29", changed30: "changed in BC30 (vNext)", introduced: "introduced in BC29 or later", obsolete: "obsolete share", learn: "documented on Learn", countries: "replaced by countries" };
 const LABEL: Record<string, string> = { table: "Table", tableextension: "Table ext.", page: "Page", pageextension: "Page ext.", codeunit: "Codeunit", report: "Report", reportextension: "Report ext.", query: "Query", xmlport: "XMLport", enum: "Enum", enumextension: "Enum ext.", interface: "Interface", permissionset: "Permission set", permissionsetextension: "Perm. set ext.", entitlement: "Entitlement", profile: "Profile", controladdin: "Control add-in", pagecustomization: "Page cust.", dotnet: "DotNet" };
 const esc = (s: string) => s.replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]!);
 
 /** Namespace segments after the vendor: "Microsoft.Sales.Customer" -> ["Sales", "Customer"]; no namespace -> [app]. */
-export const segments = (r: Row): string[] => {
-  const ns = r[5];
-  if (ns) { const parts = ns.split("."); return parts[0] === "Microsoft" || parts[0] === "System" ? parts.slice(1) : parts; }
-  return [r[4] ?? "(no namespace)"];
-};
-
-export function buildTree(rows: Row[]): Node {
-  const root: Node = { name: "All objects", path: "", children: new Map(), rows: [], count: 0, x: 0, y: 0, w: 0, h: 0 };
-  for (const r of rows) {
-    let n = root;
-    n.count++;
-    for (const seg of segments(r)) {
-      let c = n.children.get(seg);
-      if (!c) { c = { name: seg, path: n.path ? `${n.path}.${seg}` : seg, children: new Map(), rows: [], count: 0, x: 0, y: 0, w: 0, h: 0 }; n.children.set(seg, c); }
-      c.count++;
-      n = c;
-    }
-    n.rows.push(r);
-  }
-  return root;
-}
-export const descendants = (n: Node): Row[] => [...n.rows, ...[...n.children.values()].flatMap(descendants)];
-
-/** Squarified treemap (Bruls, Huizing, van Wijk) of a node's children into its rectangle. */
-export function squarify(children: Node[], x: number, y: number, w: number, h: number): void {
-  const items = [...children].sort((a, b) => b.count - a.count);
-  const total = items.reduce((s, c) => s + c.count, 0) || 1;
-  let row: Node[] = [], rowSum = 0, cx = x, cy = y, cw = w, ch = h;
-  // worst aspect ratio of the row's blocks when the row (total area S) lies along a side of length `side`
-  const worst = (sum: number, side: number) => {
-    const unit = (cw * ch) / total, S = sum * unit;
-    let worstR = 0;
-    for (const n of row) { const a = n.count * unit; worstR = Math.max(worstR, (side * side * a) / (S * S), (S * S) / (side * side * a)); }
-    return worstR;
-  };
-  const layoutRow = () => {
-    const area = (cw * ch) / total, rowArea = rowSum * area;
-    if (cw >= ch) {
-      const rw = rowArea / ch; let yy = cy;
-      for (const n of row) { const nh = (n.count * area) / rw; Object.assign(n, { x: cx, y: yy, w: rw, h: nh }); yy += nh; }
-      cx += rw; cw -= rw;
-    } else {
-      const rh = rowArea / cw; let xx = cx;
-      for (const n of row) { const nw = (n.count * area) / rh; Object.assign(n, { x: xx, y: cy, w: nw, h: rh }); xx += nw; }
-      cy += rh; ch -= rh;
-    }
-    row = []; rowSum = 0;
-  };
-  for (const n of items) {
-    const side = Math.min(cw, ch);
-    if (row.length) {
-      const before = worst(rowSum, side);
-      row.push(n); rowSum += n.count;
-      const after = worst(rowSum, side);
-      if (after > before) { row.pop(); rowSum -= n.count; layoutRow(); row.push(n); rowSum += n.count; }
-    } else { row.push(n); rowSum = n.count; }
-  }
-  if (row.length) layoutRow();
-}
+export const segments = (r: Row): string[] => nsSegments(r[5], r[4]);
+export const buildTree = (rows: Row[]): Node => buildTreeOf(rows, segments);
+export { descendants, squarify };
 
 export function mountAtlas(root: HTMLElement): void {
   const base = root.dataset.base ?? "/";
