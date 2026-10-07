@@ -6,7 +6,12 @@ without the original conversation. Read in this order: `AGENTS.md` → this file
 
 ## Open specs, not yet implemented
 
-None as of 2026-10-07 21:30. Every spec in `docs/specs/` is implemented (each has a "built, deviations" section).
+- **Table columns** (`docs/specs/table-columns.md`, D74, M12). Status: proposed 2026-10-07, nothing implemented.
+  Start with phase 1 task 1 (`site/src/styles/site.css:178`, `td { overflow-wrap: anywhere }` → `break-word`), then
+  `wrapTables` in `site/src/lib/links.ts`; phase 2 is the video renderer (`pipeline/render/video.ts:107-114`). Until it
+  lands readers see short columns crushed to one character (timestamps, field types, the "Δ BC28" pill) on object
+  and video pages, and an empty Evidence column on 429 of 611 video pages.
+
 Specs are written with the `bcobs-spec` skill (`.claude/skills/bcobs-spec/SKILL.md`), pushed, and listed here with
 spec path, decision, milestone, status and where to start; a coding session takes its work from this list only.
 
