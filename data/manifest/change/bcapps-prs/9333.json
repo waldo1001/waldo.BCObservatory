@@ -6,10 +6,25 @@
   "title": "[Main]-Bin content Block Movement does not prevent outbound posting for negative adjustments and sales orders",
   "url": "https://github.com/microsoft/BCApps/pull/9333",
   "published_at": "2026-07-22T11:07:54Z",
-  "state": "discovered",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:16:49.778Z",
+      "change_class": "code",
+      "files": 14,
+      "al": 13,
+      "objects": 10,
+      "unjoined": 3
+    },
+    "extracted": {
+      "at": "2026-10-07T13:16:58.012Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003847
     }
   },
   "input_hash": "b0a96ad95ba50516760fc8d7e1eafdc113fc2d7e:c1",
@@ -28,5 +43,8 @@
     ],
     "community_contribution": false,
     "title_key": "bin content block movement does not prevent outbound posting for negative adjustments and sales orders"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "04e6c216373287ad9d654ba17f0e8c18b8831f53dfba8280c1df1370c76d09e7"
 }

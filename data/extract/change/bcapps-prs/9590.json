@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/9590",
+  "number": 9590,
+  "title": "Error message \"Consolidated must be equal to Yes\" when Exporting BAS Calculation Worksheet for consolidated Company in Australian localisationInitial commit",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Fixed an error that incorrectly required consolidated companies to have the Consolidated field set to Yes when exporting BAS Calculation Worksheets in the Australian localization.",
+  "key_points": [
+    "Resolved validation error preventing BAS worksheet export for consolidated companies",
+    "Removed incorrect validation logic from BAS Management codeunit",
+    "Added test coverage for the fix"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "quote": "Error message \"Consolidated must be equal to Yes\" when Exporting BAS Calculation Worksheet for consolidated Company in Australian localisation",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003126,
+    "changes_in_call": 1
+  }
+}

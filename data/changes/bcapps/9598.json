@@ -1,0 +1,89 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9598,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9598",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-23T08:44:40Z",
+  "merge_commit_sha": "da3271e9fdef3b0969cbe63bf0c5672400840dbc",
+  "author": "DavidHolusa",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[main] bug 633618 - Add VAT Statement Calc. Events CZL codeunit and integrate with VAT Statement Calculation CZL",
+  "body_hash": "62d388a7be1a52247a5eab330859bdc0144a5ddc6e4c6e7de6d4d0c0351f1075",
+  "fixes_issues": [],
+  "work_items": [
+    633618
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Codeunits/VATStatementCalcEventsCZL.Codeunit.al",
+      "status": "added",
+      "additions": 48,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Codeunits/VATStatementCalculationCZL.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 18,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Pages/VATStatementPreviewLineCZL.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Permissions/CZCorePackObjectsCZL.PermissionSet.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 4,
+    "additions": 55,
+    "deletions": 20,
+    "al": 4
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Codeunits/VATStatementCalcEventsCZL.Codeunit.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Codeunits/VATStatementCalculationCZL.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Pages/VATStatementPreviewLineCZL.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Permissions/CZCorePackObjectsCZL.PermissionSet.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

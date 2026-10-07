@@ -6,7 +6,7 @@
   "title": "Fix flaky ERM Sales/Purchase Tax II value-entry rounding test",
   "url": "https://github.com/microsoft/BCApps/pull/9287",
   "published_at": "2026-07-22T13:13:33Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -29,5 +29,8 @@
     ],
     "community_contribution": false,
     "title_key": "fix flaky erm sales purchase tax ii value entry rounding test"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T13:16:48.277Z",
+  "retry_after": null
 }

@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/9657",
+  "number": 9657,
+  "title": "[Extensibility Request] issue 30359: add Direction parameter to OnBeforeScheduleRoutingLine",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "manufacturing"
+  ],
+  "summary": "The OnBeforeScheduleRoutingLine event now exposes a var Direction parameter so extensions can read and modify the scheduling direction for production order routing lines.",
+  "key_points": [
+    "Direction parameter added as a var to OnBeforeScheduleRoutingLine event",
+    "Allows subscribers to influence starting and ending datetime calculations",
+    "Extensions can change routing behavior without modifying base logic",
+    "Enables forward or backward scheduling direction adjustment"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003131,
+    "changes_in_call": 1
+  }
+}

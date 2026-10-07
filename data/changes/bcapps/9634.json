@@ -1,0 +1,39 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9634,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9634",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-22T08:19:49Z",
+  "merge_commit_sha": "eb01574bee711583f53437866847d355110fa056",
+  "author": "darjoo",
+  "author_type": "User",
+  "labels": [
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "Use random password in CDS connection setup tests",
+  "body_hash": "9efcf4563fd954b728977b461b1f1b1c895c7a528ebca3f67eb7a3ab9cc7a925",
+  "fixes_issues": [],
+  "work_items": [
+    642694
+  ],
+  "change_class": "test-only",
+  "files": [],
+  "totals": {
+    "files": 2,
+    "additions": 14,
+    "deletions": 4,
+    "al": 0
+  },
+  "join": {
+    "major": "30",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}

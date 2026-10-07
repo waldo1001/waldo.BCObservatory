@@ -6,10 +6,18 @@
   "title": "Obsolete MLLM Payables Agent rollout scaffold",
   "url": "https://github.com/microsoft/BCApps/pull/9635",
   "published_at": "2026-07-22T08:19:49Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:16:51.620Z",
+      "change_class": "code",
+      "files": 6,
+      "al": 4,
+      "objects": 4,
+      "unjoined": 0
     }
   },
   "input_hash": "3283a57350d0dd8b391d3431f75315fc174d741b:c1",
@@ -30,5 +38,8 @@
     ],
     "community_contribution": false,
     "title_key": "obsolete mllm payables agent rollout scaffold"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "dee9d860219f2e99dac0af4813e26e33efbec0fba7baa436ea2ce5856e089a53"
 }

@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9200",
+  "number": 9200,
+  "title": "Cloud Migration bug fixes (BC14 reimplementation, custom mapping, OnPrem dev companies)",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Cloud migration tooling improvements include skipping the table mapping step in BC14 setup, preventing upgrade errors when no data is replicated, making the custom mapping page closable without valid entries, and adding an action to register existing on-premise companies for cloud migration development.",
+  "key_points": [
+    "BC14 migration wizard no longer shows custom migration table mapping configuration step",
+    "One-step upgrade guard prevents errors during setup when no companies are selected",
+    "Custom mapping page now uses lookup mode and card layout allowing closure with invalid data",
+    "New action on cloud migration pages registers on-premise companies as hybrid companies for development",
+    "Mapping validation moved from page close to save operation"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": "Guard the one-step data upgrade against setup/empty runs.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00483,
+    "changes_in_call": 1
+  }
+}

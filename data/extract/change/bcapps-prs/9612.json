@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9612",
+  "number": 9612,
+  "title": "Fixing correct value for Legacy Subcontracting flag in Italy during u…",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "manufacturing"
+  ],
+  "summary": "Italian customers upgrading to version 28.3 regain access to legacy subcontracting pages by fixing the initialization of the Legacy Subcontracting flag in Manufacturing Setup.",
+  "key_points": [
+    "After upgrade to 28.3, the Legacy Subcontracting flag was incorrectly set to False",
+    "This prevented Italian users from accessing legacy subcontracting functionality",
+    "The upgrade codeunit now properly initializes the flag to the correct value",
+    "Applies to Italian localization only"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing",
+    "localization"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003224,
+    "changes_in_call": 1
+  }
+}

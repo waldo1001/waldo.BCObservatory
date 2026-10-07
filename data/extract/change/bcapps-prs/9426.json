@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/9426",
+  "number": 9426,
+  "title": "[E-Document Formats] Migrate NAV PRs 247170 and 247176 into BCApps",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "PINT A-NZ and Factura-E e-document formats are migrated to the structured import pipeline with new IStructuredFormatReader implementations that parse XML directly into purchase draft staging tables.",
+  "key_points": [
+    "New EDocumentPINTANZHandler and EDocumentFacturaEHandler codeunits implement IStructuredFormatReader.ReadIntoDraft to parse UBL invoice/credit-memo and Factura-E 3.2.2 XML formats",
+    "E-Document PEPPOL Utility codeunit provides shared reusable logic for extracting PEPPOL BIS 3.0 UBL data (namespaces, parties, amounts, lines, attachments, currency)",
+    "SetBuffer method on E-Doc. Readable Purchase Doc. page promoted from internal to public to allow format readers to present extracted data without persisting drafts",
+    "Enum extensions register new handlers on E-Doc. Read into Draft enumeration for both formats",
+    "Comprehensive structured integration tests added covering content extraction, purchase invoice creation with auto-matched item references, and draft line updates"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": true,
+  "obsoletions": [],
+  "systems": [
+    "integration",
+    "purchasing"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00534,
+    "changes_in_call": 1
+  }
+}

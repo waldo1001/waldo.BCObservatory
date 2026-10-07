@@ -1,0 +1,109 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9650,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9650",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-22T19:59:45Z",
+  "merge_commit_sha": "096090d6f8f05d59fb490426f89cd51537d01d3c",
+  "author": "DhavalMore88",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "AL: Apps (W1)",
+    "From Fork",
+    "Team: Finance"
+  ],
+  "community_contribution": true,
+  "title": "[Master] -Revert Changes- 'Greater Than' Withholding Tax Calculation Rule is not applied correctly in Withholding Tax Posting Setup.",
+  "body_hash": "9c4407647f3704e922971cd43a2ac236b7076ceaafc4cd51770bb3e25bf3c774",
+  "fixes_issues": [],
+  "work_items": [
+    642326
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/WithholdingTax/Test/src/ERMWithholdingTaxTestsI.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 104,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/WithholdingTax/app/src/Purchase/Transaction/WithholdingTaxJnlSubscriber.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/WithholdingTax/app/src/Purchase/Transaction/WithholdingTaxMgmt.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 7,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/WithholdingTax/app/src/Purchase/Transaction/WthldgTaxPurchSubscribers.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 4,
+    "additions": 7,
+    "deletions": 117,
+    "al": 3
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/WithholdingTax/app/src/Purchase/Transaction/WithholdingTaxJnlSubscriber.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6786",
+        "type": "codeunit",
+        "id": 6786,
+        "name": "Withholding Tax Jnl Subscriber",
+        "app": "WithholdingTax",
+        "cc": "w1",
+        "page": "codeunit/6786"
+      },
+      {
+        "path": "src/Apps/W1/WithholdingTax/app/src/Purchase/Transaction/WithholdingTaxMgmt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6785",
+        "type": "codeunit",
+        "id": 6785,
+        "name": "Withholding Tax Mgmt.",
+        "app": "WithholdingTax",
+        "cc": "w1",
+        "page": "codeunit/6785"
+      },
+      {
+        "path": "src/Apps/W1/WithholdingTax/app/src/Purchase/Transaction/WthldgTaxPurchSubscribers.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6784",
+        "type": "codeunit",
+        "id": 6784,
+        "name": "Wthldg Tax Purch. Subscribers",
+        "app": "WithholdingTax",
+        "cc": "w1",
+        "page": "codeunit/6784"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "WithholdingTax"
+  ]
+}

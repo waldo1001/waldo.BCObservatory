@@ -6,10 +6,35 @@
   "title": "Fixing correct value for Legacy Subcontracting flag in Italy during u…",
   "url": "https://github.com/microsoft/BCApps/pull/9612",
   "published_at": "2026-07-22T14:05:07Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:16:44.037Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:16:48.834Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003224
+    },
+    "linked": {
+      "at": "2026-10-07T13:16:49.001Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:16:49.006Z",
+      "path": "content/changes/bcapps/9612.md"
     }
   },
   "input_hash": "8563b2d102a13d266b613f79305d6e38f44c6fe4:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "fixing correct value for legacy subcontracting flag in italy during u"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "058f9c9a19cda4427556c282d2799cff2d498ff9a340848ac4092abcc08f8b38"
 }

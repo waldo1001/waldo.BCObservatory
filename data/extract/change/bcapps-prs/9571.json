@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9571",
+  "number": 9571,
+  "title": "[Master]-Opening price list from Customer Card is extremely slow on large datasets (~220s) due to AddAllSourceType call",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Price list opening from a customer card is optimized to avoid a slow AddAllSourceType call that caused significant delays on datasets with many price lists.",
+  "key_points": [
+    "Removed inefficient AddAllSourceType call that was causing performance bottleneck",
+    "Price list page now opens much faster on large datasets",
+    "Optimization reduces opening time from approximately 220 seconds to acceptable level",
+    "Changes apply to the Price List Management codeunit",
+    "Test cases added to ensure optimization works correctly"
+  ],
+  "change_kind": "performance",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003143,
+    "changes_in_call": 1
+  }
+}

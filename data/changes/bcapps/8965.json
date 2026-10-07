@@ -1,0 +1,41 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 8965,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/8965",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-23T09:27:57Z",
+  "merge_commit_sha": "19cd7b5cfc6a724eb3bc423d96a3848c7d48ffd2",
+  "author": "spetersenms",
+  "author_type": "User",
+  "labels": [
+    "Build: scripts & configs",
+    "Ownership: Needs Review",
+    "Team: Other"
+  ],
+  "community_contribution": false,
+  "title": "Include isInternal flagged apps in AL-Go settings",
+  "body_hash": "f0398a9bcf892b32c6debd609ea5c90222a44aa3cd5f1fc7526ad839c2052260",
+  "fixes_issues": [],
+  "work_items": [
+    612711
+  ],
+  "change_class": "build",
+  "files": [],
+  "totals": {
+    "files": 27,
+    "additions": 414,
+    "deletions": 27,
+    "al": 0
+  },
+  "join": {
+    "major": "30",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}

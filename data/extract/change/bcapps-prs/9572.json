@@ -1,0 +1,62 @@
+{
+  "item_id": "change/bcapps-prs/9572",
+  "number": 9572,
+  "title": "Obsolete E-Document Purchase Order Matching Copilot",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration",
+    "purchasing",
+    "development"
+  ],
+  "summary": "The E-Document Purchase Order Matching Copilot feature is marked as obsolete pending removal in version 29.0, with its core objects moved to a deprecation warning state while the replacement E-Document Purchase Draft experience handles order matching through a different code path.",
+  "key_points": [
+    "Five Copilot-specific objects in the order matching module are marked ObsoleteState = Pending with ObsoleteTag 29.0",
+    "The shared 'E-Document Matching Assistance' Copilot capability remains active for the E-Document AI Tool Processor import flow",
+    "Purchase order line matching now handled by the E-Document Purchase Draft experience using codeunit 6196",
+    "AI-assisted matching moved to import time via the E-Document AI Tool Processor",
+    "No persisted data migration needed as the buffer table is temporary"
+  ],
+  "change_kind": "obsoletion",
+  "behavior_change": true,
+  "breaking": true,
+  "obsoletions": [
+    {
+      "object": "E-Doc. PO Copilot Matching",
+      "member": null,
+      "replacement": "E-Doc. PO Matching"
+    },
+    {
+      "object": "E-Doc. PO AOAI Function",
+      "member": null,
+      "replacement": "E-Doc. AI Tool Processor"
+    },
+    {
+      "object": "E-Doc. PO Copilot Prop",
+      "member": null,
+      "replacement": null
+    },
+    {
+      "object": "E-Doc. PO Match Prop. Sub",
+      "member": null,
+      "replacement": null
+    },
+    {
+      "object": "E-Doc. PO Match Prop. Buffer",
+      "member": null,
+      "replacement": null
+    }
+  ],
+  "systems": [
+    "integration",
+    "purchasing",
+    "copilot"
+  ],
+  "quote": "Obsoletes the E-Document Purchase Order Matching Copilot feature following the Business Central Obsolete lifecycle.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005999,
+    "changes_in_call": 1
+  }
+}

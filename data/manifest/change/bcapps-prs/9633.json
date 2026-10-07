@@ -6,7 +6,7 @@
   "title": "Guard SignUpConnectionSetup.Insert() in InitConnectionSetup",
   "url": "https://github.com/microsoft/BCApps/pull/9633",
   "published_at": "2026-07-22T12:22:52Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -29,5 +29,8 @@
     ],
     "community_contribution": false,
     "title_key": "guard signupconnectionsetup insert in initconnectionsetup"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T13:16:46.968Z",
+  "retry_after": null
 }

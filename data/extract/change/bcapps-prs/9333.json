@@ -1,0 +1,34 @@
+{
+  "item_id": "change/bcapps-prs/9333",
+  "number": 9333,
+  "title": "[Main]-Bin content Block Movement does not prevent outbound posting for negative adjustments and sales orders",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sales",
+    "warehouse"
+  ],
+  "summary": "The posting logic for sales orders and negative adjustments now respects bin content block movement settings to prevent unauthorized outbound warehouse movements.",
+  "key_points": [
+    "Bin content blocks are now checked during sales order posting to restrict movements",
+    "Negative inventory adjustments are prevented from bypassing bin movement restrictions",
+    "Warehouse management logic updated to enforce bin content block rules consistently",
+    "Changes applied across all localization layers (APAC, BE, CH, ES, FI, FR, GB, IT, NA, NO, RU, W1)",
+    "Tests added to verify bin block movement restrictions work correctly"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "warehouse",
+    "sales"
+  ],
+  "quote": "Bin content Block Movement does not prevent outbound posting for negative adjustments and sales orders",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003847,
+    "changes_in_call": 1
+  }
+}

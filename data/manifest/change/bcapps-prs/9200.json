@@ -6,7 +6,7 @@
   "title": "Cloud Migration bug fixes (BC14 reimplementation, custom mapping, OnPrem dev companies)",
   "url": "https://github.com/microsoft/BCApps/pull/9200",
   "published_at": "2026-07-23T08:59:55Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -18,6 +18,23 @@
       "al": 15,
       "objects": 15,
       "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:16:39.980Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.00483
+    },
+    "linked": {
+      "at": "2026-10-07T13:16:40.135Z",
+      "objects": 15,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:16:40.141Z",
+      "path": "content/changes/bcapps/9200.md"
     }
   },
   "input_hash": "7a0bc83b914aacbc0dc26df76882572f5777db5b:c1",
@@ -40,5 +57,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "eb8ade5c189f52cb863ff51fc8d70ba82b5d7b39c40380c66d691399402ac968"
+  "output_hash": "fff06273311e5863ffa76150bb03c20377708574afa37796093086ad4ec4e528"
 }

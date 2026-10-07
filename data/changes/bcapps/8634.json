@@ -1,0 +1,175 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 8634,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/8634",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-21T17:30:18Z",
+  "merge_commit_sha": "10c4a4cd608ac1aace23dd323aad88637723620f",
+  "author": "onbuyuka",
+  "author_type": "User",
+  "labels": [
+    "AL: System Application",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "[MCP] Register MCP server as a Copilot capability",
+  "body_hash": "74ecc2765aab46be82db7555d0e16ba1c8eafee9c9cbaa6cbe745a3be227b6af",
+  "fixes_issues": [],
+  "work_items": [
+    641612
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/System Application/App/MCP/app.json",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/System Application/App/MCP/src/Capability/MCPCopilotCapReg.Codeunit.al",
+      "status": "added",
+      "additions": 42,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/MCP/src/Capability/MCPNotifications.Codeunit.al",
+      "status": "added",
+      "additions": 53,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/MCP/src/Configuration/Codeunits/MCPInstall.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/MCP/src/Configuration/Codeunits/MCPUpgrade.Codeunit.al",
+      "status": "modified",
+      "additions": 20,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/MCP/src/Configuration/Pages/MCPConfigCard.Page.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/MCP/src/Configuration/Pages/MCPConfigList.Page.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/Test/MCP/app.json",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/System Application/Test/MCP/src/MCPConfigTest.Codeunit.al",
+      "status": "modified",
+      "additions": 42,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 9,
+    "additions": 187,
+    "deletions": 0,
+    "al": 6
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/System Application/App/MCP/src/Capability/MCPCopilotCapReg.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/8358",
+        "type": "codeunit",
+        "id": 8358,
+        "name": "MCP Copilot Cap. Reg.",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "codeunit/8358"
+      },
+      {
+        "path": "src/System Application/App/MCP/src/Capability/MCPNotifications.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/8359",
+        "type": "codeunit",
+        "id": 8359,
+        "name": "MCP Notifications",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "codeunit/8359"
+      },
+      {
+        "path": "src/System Application/App/MCP/src/Configuration/Codeunits/MCPInstall.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/8352",
+        "type": "codeunit",
+        "id": 8352,
+        "name": "MCP Install",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "codeunit/8352"
+      },
+      {
+        "path": "src/System Application/App/MCP/src/Configuration/Codeunits/MCPUpgrade.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/8356",
+        "type": "codeunit",
+        "id": 8356,
+        "name": "MCP Upgrade",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "codeunit/8356"
+      },
+      {
+        "path": "src/System Application/App/MCP/src/Configuration/Pages/MCPConfigCard.Page.al",
+        "status": "modified",
+        "key": "page/8351",
+        "type": "page",
+        "id": 8351,
+        "name": "MCP Config Card",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "page/8351"
+      },
+      {
+        "path": "src/System Application/App/MCP/src/Configuration/Pages/MCPConfigList.Page.al",
+        "status": "modified",
+        "key": "page/8350",
+        "type": "page",
+        "id": 8350,
+        "name": "MCP Config List",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "page/8350"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "System Application"
+  ]
+}

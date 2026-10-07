@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9606",
+  "number": 9606,
+  "title": "[SOA] Disable available-items-only search by default",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "The Sales Order Agent now initializes the Search Only Available Items setting to disabled by default, allowing the agent to search all items unless administrators explicitly restrict it.",
+  "key_points": [
+    "Search Only Available Items defaults to false instead of true for new SOA setups",
+    "Administrators can still enable the restriction when needed",
+    "Existing setup records are not affected",
+    "Applies only during default setup initialization"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "copilot",
+    "sales"
+  ],
+  "quote": "This change disables the setting by default so the agent searches all items unless an administrator explicitly enables the availability restriction.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003371,
+    "changes_in_call": 1
+  }
+}

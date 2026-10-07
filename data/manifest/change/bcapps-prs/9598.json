@@ -6,10 +6,35 @@
   "title": "[main] bug 633618 - Add VAT Statement Calc. Events CZL codeunit and integrate with VAT Statement Calculation CZL",
   "url": "https://github.com/microsoft/BCApps/pull/9598",
   "published_at": "2026-07-23T08:44:40Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:16:40.935Z",
+      "change_class": "code",
+      "files": 4,
+      "al": 4,
+      "objects": 0,
+      "unjoined": 4
+    },
+    "extracted": {
+      "at": "2026-10-07T13:16:45.918Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": false,
+      "cost_usd": 0.003725
+    },
+    "linked": {
+      "at": "2026-10-07T13:16:46.107Z",
+      "objects": 0,
+      "unjoined": 4,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:16:46.113Z",
+      "path": "content/changes/bcapps/9598.md"
     }
   },
   "input_hash": "da3271e9fdef3b0969cbe63bf0c5672400840dbc:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "bug 633618 add vat statement calc events czl codeunit and integrate with vat statement calculation czl"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "03ca653781576b15951f9ee8494959ef0ca84728d26a3fe36ee5b6967a235b90"
 }

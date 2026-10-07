@@ -6,10 +6,35 @@
   "title": "[SOA] Prevent translated username token and remove dead GetAgent helpers",
   "url": "https://github.com/microsoft/BCApps/pull/9365",
   "published_at": "2026-07-22T19:52:53Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:16:43.024Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:16:48.646Z",
+      "prompt": "extract-change@1",
+      "kind": "refactor",
+      "behavior": false,
+      "cost_usd": 0.003841
+    },
+    "linked": {
+      "at": "2026-10-07T13:16:48.799Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:16:48.805Z",
+      "path": "content/changes/bcapps/9365.md"
     }
   },
   "input_hash": "2fe5ccbf5e05d3b17ba7fd7efdd736dbbfebab8f:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "soa prevent translated username token and remove dead getagent helpers"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3cd71b1f0b23870d55f7fc616a8e986033b298147f31f09eab013e2d0fecdb38"
 }

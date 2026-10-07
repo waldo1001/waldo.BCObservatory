@@ -6,7 +6,7 @@
   "title": "[Extensibility Request] issue 30359: add Direction parameter to OnBeforeScheduleRoutingLine",
   "url": "https://github.com/microsoft/BCApps/pull/9657",
   "published_at": "2026-07-23T10:37:10Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -18,6 +18,23 @@
       "al": 1,
       "objects": 1,
       "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:16:39.571Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.003131
+    },
+    "linked": {
+      "at": "2026-10-07T13:16:39.720Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:16:39.725Z",
+      "path": "content/changes/bcapps/9657.md"
     }
   },
   "input_hash": "874eb224d36c3104827a5979373df3b0e906d42b:c1",
@@ -40,5 +57,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "3fa31cb81bfb9f08cbd5039a74a8765839b80fea2936c3c37958b360a99d7146"
+  "output_hash": "e408be1ddc44e4d534867691535bb0f339c859502fffaf2197f37ceccabfd3bd"
 }

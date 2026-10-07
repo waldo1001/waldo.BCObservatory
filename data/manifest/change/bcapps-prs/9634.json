@@ -6,7 +6,7 @@
   "title": "Use random password in CDS connection setup tests",
   "url": "https://github.com/microsoft/BCApps/pull/9634",
   "published_at": "2026-07-22T08:19:49Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -28,5 +28,8 @@
     ],
     "community_contribution": false,
     "title_key": "use random password in cds connection setup tests"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T13:16:50.726Z",
+  "retry_after": null
 }

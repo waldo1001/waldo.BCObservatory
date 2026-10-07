@@ -6,10 +6,35 @@
   "title": "[Master]-Opening price list from Customer Card is extremely slow on large datasets (~220s) due to AddAllSourceType call",
   "url": "https://github.com/microsoft/BCApps/pull/9571",
   "published_at": "2026-07-22T13:29:06Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:16:44.277Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:16:49.251Z",
+      "prompt": "extract-change@1",
+      "kind": "performance",
+      "behavior": true,
+      "cost_usd": 0.003143
+    },
+    "linked": {
+      "at": "2026-10-07T13:16:49.407Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:16:49.412Z",
+      "path": "content/changes/bcapps/9571.md"
     }
   },
   "input_hash": "f5c84e3f8463b0a0bac2fd62645911bd71f3a9ce:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "master opening price list from customer card is extremely slow on large datasets 220s due to addallsourcetype call"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c67978444dd41e78ff8d619e923598532dba1caa0815ea21a082ceab4b0eb25b"
 }

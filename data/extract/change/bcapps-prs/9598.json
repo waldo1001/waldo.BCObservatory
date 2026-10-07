@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/9598",
+  "number": 9598,
+  "title": "[main] bug 633618 - Add VAT Statement Calc. Events CZL codeunit and integrate with VAT Statement Calculation CZL",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [],
+  "summary": "A new public codeunit provides VAT Statement calculation events for Czech localization, replacing an obsolete event that was inaccessible in an internal codeunit and breaking existing extensions.",
+  "key_points": [
+    "New public codeunit 'VAT Statement Calc. Events CZL' exposes calculation events",
+    "Moves events from internal 'VAT Statement Calculation CZL' to make them accessible",
+    "Replaces obsolete event 'OnBeforeOpenPageVATEntryTotaling'",
+    "Fixes breaking change where new event was in internal codeunit",
+    "Updates permissions and page integration accordingly"
+  ],
+  "change_kind": "fix",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "quote": "Moved local events to separated codeunit \"VAT Statement Calc. Events CZL\"",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003725,
+    "changes_in_call": 1
+  }
+}

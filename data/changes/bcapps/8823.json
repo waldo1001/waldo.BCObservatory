@@ -1,0 +1,40 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 8823,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/8823",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-22T16:23:13Z",
+  "merge_commit_sha": "a08aabe1fd4d93c9535eb527198a44a4db7ee955",
+  "author": "gggdttt",
+  "author_type": "User",
+  "labels": [
+    "AL: Tools",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "Re-enable BCPT Setup Card tests: fix NoOfSqlCallsAreLogged SQL assertion (Bug 618568)",
+  "body_hash": "ad8a07028cdf4576fafd5f0b04ed517dc2327197566b9bd6794a62effe3c8f47",
+  "fixes_issues": [],
+  "work_items": [
+    618568
+  ],
+  "change_class": "test-only",
+  "files": [],
+  "totals": {
+    "files": 1,
+    "additions": 8,
+    "deletions": 2,
+    "al": 0
+  },
+  "join": {
+    "major": "30",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}

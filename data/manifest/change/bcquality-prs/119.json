@@ -6,10 +6,35 @@
   "title": "Add batch-2 FP guards: sentence-case action captions + PK Get is transaction-cached",
   "url": "https://github.com/microsoft/BCQuality/pull/119",
   "published_at": "2026-07-22T07:40:01Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:16:51.695Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 3,
+      "objects": 0,
+      "unjoined": 3
+    },
+    "extracted": {
+      "at": "2026-10-07T13:16:57.670Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.0036
+    },
+    "linked": {
+      "at": "2026-10-07T13:16:57.671Z",
+      "objects": 0,
+      "unjoined": 3,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-10-07T13:16:57.676Z",
+      "path": "content/changes/bcquality/119.md"
     }
   },
   "input_hash": "ad8ccde5953fd6ce072e3b59049406783066ed60:c1",
@@ -26,5 +51,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "add batch 2 fp guards sentence case action captions pk get is transaction cached"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ab2dd595b060790c9fa9b0b3b31c3b9b3b8524ebebe479a5aa4b6c383b3b85a5"
 }

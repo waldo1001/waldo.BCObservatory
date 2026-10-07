@@ -6,10 +6,35 @@
   "title": "Obsolete E-Document Purchase Order Matching Copilot",
   "url": "https://github.com/microsoft/BCApps/pull/9572",
   "published_at": "2026-07-22T08:19:49Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:16:50.540Z",
+      "change_class": "code",
+      "files": 20,
+      "al": 16,
+      "objects": 16,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:16:57.681Z",
+      "prompt": "extract-change@1",
+      "kind": "obsoletion",
+      "behavior": true,
+      "cost_usd": 0.005999
+    },
+    "linked": {
+      "at": "2026-10-07T13:16:57.999Z",
+      "objects": 16,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:16:58.009Z",
+      "path": "content/changes/bcapps/9572.md"
     }
   },
   "input_hash": "2277aa0c0a5b92dd13a0aa0e4296c47a43c78a8b:c1",
@@ -31,5 +56,8 @@
     ],
     "community_contribution": true,
     "title_key": "obsolete e document purchase order matching copilot"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c206223a9ee862ce7e69003457023ad7169b9c2b37dc04d1a561ff325b038412"
 }

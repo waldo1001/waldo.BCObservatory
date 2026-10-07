@@ -1,0 +1,30 @@
+{
+  "item_id": "change/al-go-prs/2229",
+  "number": 2229,
+  "title": "Surface empty BCPT results as a warning instead of silent success",
+  "repo": "microsoft/AL-Go",
+  "systems_joined": [],
+  "summary": "BCPT performance tests that run but produce no log entries now show a warning instead of silently succeeding, making empty results visible in the GitHub step summary.",
+  "key_points": [
+    "GetBcptSummaryMD now distinguishes between missing results files and files with no entries",
+    "Empty BCPT results generate an informational message in the GitHub step summary",
+    "AnalyzeTests emits a warning annotation as a defense-in-depth measure when results file exists but is empty",
+    "Tests added for ReadBcptFile and GetBcptSummaryMD to cover missing and empty result scenarios",
+    "Build no longer succeeds silently when BCPT tests produce no output"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "platform"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003659,
+    "changes_in_call": 1
+  }
+}

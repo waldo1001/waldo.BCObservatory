@@ -6,10 +6,35 @@
   "title": "Surface empty BCPT results as a warning instead of silent success",
   "url": "https://github.com/microsoft/AL-Go/pull/2229",
   "published_at": "2026-07-22T10:10:47Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:16:49.416Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 0,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-10-07T13:16:57.657Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003659
+    },
+    "linked": {
+      "at": "2026-10-07T13:16:57.658Z",
+      "objects": 0,
+      "unjoined": 1,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-10-07T13:16:57.662Z",
+      "path": "content/changes/al-go/2229.md"
     }
   },
   "input_hash": "4f5f9c18698cb8791ebb77b5b5514a4fdd82b51b:c1",
@@ -26,5 +51,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "surface empty bcpt results as a warning instead of silent success"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "fccf8b4fbf36cf9ba055be210094ce69534b432ee7c58d4cf3e347cb91361063"
 }

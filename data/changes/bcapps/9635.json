@@ -1,0 +1,135 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9635,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9635",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-22T08:19:49Z",
+  "merge_commit_sha": "3283a57350d0dd8b391d3431f75315fc174d741b",
+  "author": "Groenbech96",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Ownership: Needs Review",
+    "Team: Other"
+  ],
+  "community_contribution": false,
+  "title": "Obsolete MLLM Payables Agent rollout scaffold",
+  "body_hash": "e6a4bf0abaf3386fc71763d1190c56295b999dbaf83e12ba60a1c0ff6c6d2e08",
+  "fixes_issues": [],
+  "work_items": [
+    642735
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/Import/FileFormat/EDocPDFFileFormat.Codeunit.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 8,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/Test/src/Processing/EDocMLLMTests.Codeunit.al",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 33,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/Test/src/Processing/EDocumentStructuredTests.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 48,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/PayablesAgent/app/Integration/PAEvents.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PayablesAgent/app/Setup/PAMLLMSetup.Page.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PayablesAgent/app/Setup/PayablesAgentSetup.Table.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 6,
+    "additions": 51,
+    "deletions": 90,
+    "al": 4
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/Import/FileFormat/EDocPDFFileFormat.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6191",
+        "type": "codeunit",
+        "id": 6191,
+        "name": "E-Doc. PDF File Format",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "codeunit/6191"
+      },
+      {
+        "path": "src/Apps/W1/PayablesAgent/app/Integration/PAEvents.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/3316",
+        "type": "codeunit",
+        "id": 3316,
+        "name": "PA Events",
+        "app": "PayablesAgent",
+        "cc": "w1",
+        "page": "codeunit/3316"
+      },
+      {
+        "path": "src/Apps/W1/PayablesAgent/app/Setup/PAMLLMSetup.Page.al",
+        "status": "modified",
+        "key": "page/3311",
+        "type": "page",
+        "id": 3311,
+        "name": "PA MLLM Setup",
+        "app": "PayablesAgent",
+        "cc": "w1",
+        "page": "page/3311"
+      },
+      {
+        "path": "src/Apps/W1/PayablesAgent/app/Setup/PayablesAgentSetup.Table.al",
+        "status": "modified",
+        "key": "table/3303",
+        "type": "table",
+        "id": 3303,
+        "name": "Payables Agent Setup",
+        "app": "PayablesAgent",
+        "cc": "w1",
+        "page": "table/3303"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development",
+    "integration"
+  ],
+  "apps": [
+    "EDocument",
+    "PayablesAgent"
+  ]
+}

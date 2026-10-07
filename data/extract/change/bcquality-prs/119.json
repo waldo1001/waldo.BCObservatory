@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcquality-prs/119",
+  "number": 119,
+  "title": "Add batch-2 FP guards: sentence-case action captions + PK Get is transaction-cached",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "Two knowledge articles were added to guide developers about correct use of sentence-case action captions and transaction-cached primary key lookups, helping suppress false positive quality warnings.",
+  "key_points": [
+    "Action captions that express imperative commands should use sentence case (capitalize only the first word and proper nouns), not title case",
+    "Primary key Get calls within a transaction are already cached by the system and do not require manual dictionary caching when used per-row",
+    "Knowledge articles with example code help developers understand when and why certain coding patterns are correct",
+    "These articles address feedback from Business Central app maintainers about false positive quality rule flagging",
+    "Knowledge index was updated to include the two new articles"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development",
+    "copilot"
+  ],
+  "quote": "Two knowledge articles that suppress false positives thumbs-downed by BCApps maintainers.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.0036,
+    "changes_in_call": 1
+  }
+}

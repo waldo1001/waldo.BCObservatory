@@ -1,0 +1,40 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9287,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9287",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-07-22T13:13:33Z",
+  "merge_commit_sha": "1e510d51490a0532929c14cc26bf528ff7af01e4",
+  "author": "attilatoury",
+  "author_type": "User",
+  "labels": [
+    "Ownership: Manual",
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "Fix flaky ERM Sales/Purchase Tax II value-entry rounding test",
+  "body_hash": "0ef1b719b43aee5205599fe035f7652dbe43d9a00a7dd38f039e6cdb52e0cf10",
+  "fixes_issues": [],
+  "work_items": [
+    637055
+  ],
+  "change_class": "test-only",
+  "files": [],
+  "totals": {
+    "files": 3,
+    "additions": 4,
+    "deletions": 7,
+    "al": 0
+  },
+  "join": {
+    "major": "30",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}

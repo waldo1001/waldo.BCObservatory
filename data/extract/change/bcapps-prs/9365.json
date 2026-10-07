@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/9365",
+  "number": 9365,
+  "title": "[SOA] Prevent translated username token and remove dead GetAgent helpers",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Sales Order Agent usernames are now prevented from being translated by marking the label as locked, and unused GetAgent overloads and SetAgentDefaults helper are removed from the setup codeunit.",
+  "key_points": [
+    "SalesOrderAgentNameLbl marked as Locked = true to ensure usernames stay consistent across languages",
+    "Unused GetAgent method overloads removed from SOA setup codeunit",
+    "SetAgentDefaults helper method removed as dead code",
+    "Reduces code complexity in the Sales Order Agent setup module"
+  ],
+  "change_kind": "refactor",
+  "behavior_change": false,
+  "breaking": true,
+  "obsoletions": [],
+  "systems": [
+    "copilot"
+  ],
+  "quote": "mark SalesOrderAgentNameLbl as Locked = true so generated SOA usernames are not translation",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003841,
+    "changes_in_call": 1
+  }
+}

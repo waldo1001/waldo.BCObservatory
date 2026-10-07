@@ -1,0 +1,65 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 2229,
+  "repo": "microsoft/AL-Go",
+  "source": "al-go-prs",
+  "url": "https://github.com/microsoft/AL-Go/pull/2229",
+  "base": "main",
+  "major": null,
+  "merged_at": "2026-07-22T10:10:47Z",
+  "merge_commit_sha": "4f5f9c18698cb8791ebb77b5b5514a4fdd82b51b",
+  "author": "jeffreybulanadi",
+  "author_type": "User",
+  "labels": [],
+  "community_contribution": false,
+  "title": "Surface empty BCPT results as a warning instead of silent success",
+  "body_hash": "b528ccf3e8b57eaf25e42aa5467cb6918642f83c889b067b7ea80e6349876017",
+  "fixes_issues": [
+    2158
+  ],
+  "work_items": [],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "Actions/AnalyzeTests/TestResultAnalyzer.ps1",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "Tests/AnalyzeTests.Test.ps1",
+      "status": "modified",
+      "additions": 32,
+      "deletions": 0,
+      "class": "other"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 38,
+    "deletions": 1,
+    "al": 1
+  },
+  "join": {
+    "major": null,
+    "commit": null,
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "Actions/AnalyzeTests/TestResultAnalyzer.ps1",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": [],
+  "issues": [
+    {
+      "number": 2158,
+      "title": "[Bug]: Performance Tests does not return any output and build is successful",
+      "state": "closed"
+    }
+  ]
+}
