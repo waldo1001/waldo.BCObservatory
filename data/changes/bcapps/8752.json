@@ -1,0 +1,72 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 8752,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/8752",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-17T22:44:29Z",
+  "merge_commit_sha": "166439ed36ffe1a5656685863f78c12b97daa16f",
+  "author": "ventselartur",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Subcontracting",
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[Bug Fix] #638531: Disable Open TO from PO actions on non-subcontracting lines",
+  "body_hash": "0d2c9686a050855880036bc9b9d4f32217add846ba23cfb0a96f73cd8b6b00a9",
+  "fixes_issues": [],
+  "work_items": [
+    638531
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Subcontracting/App/src/Purchase/SubcPOSubform.PageExt.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subcontracting/Test/Tests/SubcSubcontractingTest.Codeunit.al",
+      "status": "modified",
+      "additions": 71,
+      "deletions": 1,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 75,
+    "deletions": 1,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Subcontracting/App/src/Purchase/SubcPOSubform.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/20524",
+        "type": "pageextension",
+        "id": 20524,
+        "name": "Subc. PO Subform",
+        "app": "Subcontracting",
+        "cc": "w1",
+        "page": "pageextension/20524"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "manufacturing"
+  ],
+  "apps": [
+    "Subcontracting"
+  ]
+}

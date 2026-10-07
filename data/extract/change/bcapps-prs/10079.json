@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/10079",
+  "number": 10079,
+  "title": "[main] features 640066 Add integration events for events for CZ Adv. Payment and CZ Cash Desk",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [],
+  "summary": "Integration events added for Czech advance payment and cash desk functionality to allow customization of validation and lookup behavior on cash document lines, with optional skipping of amount field validation.",
+  "key_points": [
+    "OnBeforeValidateAdvanceLetterNoCZZ and OnBeforeLookupAdvanceLetterNoCZZ events enable subscriber override of advance letter number handling",
+    "SkipAmountsTestFields parameter added to OnBeforeCheckMandatoryFields event for selective validation bypass",
+    "Non-breaking change preserving default behavior when no subscribers are active",
+    "Comprehensive test cases verify event triggering and amount validation skipping",
+    "Enables partners to customize advance payment processing for specific business needs"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "quote": "Added the OnBeforeValidateAdvanceLetterNoCZZ and OnBeforeLookupAdvanceLetterNoCZZ integration events.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004141,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10283,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10283",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-17T16:40:08Z",
+  "merge_commit_sha": "e0bda8f11ea05763aa9e1c6af449394ce436ea1a",
+  "author": "AleksandricMarko",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM",
+    "event-request"
+  ],
+  "community_contribution": false,
+  "title": "[Extensibility Request] issue 30419: add time sheet filtering events",
+  "body_hash": "468beb2b6fd72f062bbdd2e4a94eda5d3ade3d9fd11e6fb378c0e4aa1dc482a3",
+  "fixes_issues": [],
+  "work_items": [
+    646908
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/Projects/TimeSheet/SuggestJobJnlLines.Report.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 12,
+    "deletions": 1,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Projects/TimeSheet/SuggestJobJnlLines.Report.al",
+        "status": "modified",
+        "key": "report/952",
+        "type": "report",
+        "id": 952,
+        "name": "Suggest Job Jnl. Lines",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/952"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "projects"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

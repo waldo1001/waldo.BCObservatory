@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/9886",
+  "number": 9886,
+  "title": "[Master]  Expense Report posting FCY rounding mismatch \"Expense Report Posting Test\" fail in Spain only (Source Currency Amount 649.97 vs 650",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Fixed foreign currency rounding mismatch in expense report posting for Spain by improving how source currency amounts are calculated for employee payables balancing entries.",
+  "key_points": [
+    "Corrects source currency amount derivation in expense report posting for Spain",
+    "Updates condition logic to properly use journal line source currency amount when applicable",
+    "Applies absolute value comparison for LCY amounts to handle sign differences",
+    "Resolves test failures where source currency amounts were being recalculated unnecessarily"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003791,
+    "changes_in_call": 1
+  }
+}

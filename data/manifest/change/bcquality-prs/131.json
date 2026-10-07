@@ -6,10 +6,35 @@
   "title": "Correct table-level data classification guidance",
   "url": "https://github.com/microsoft/BCQuality/pull/131",
   "published_at": "2026-08-18T07:43:37Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:09:44.131Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 3,
+      "objects": 0,
+      "unjoined": 3
+    },
+    "extracted": {
+      "at": "2026-10-07T13:09:49.385Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": false,
+      "cost_usd": 0.003531
+    },
+    "linked": {
+      "at": "2026-10-07T13:09:49.387Z",
+      "objects": 0,
+      "unjoined": 3,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-10-07T13:09:49.393Z",
+      "path": "content/changes/bcquality/131.md"
     }
   },
   "input_hash": "841b4e7cab84756b680b66328c2f1ceaae3ec892:c1",
@@ -26,5 +51,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "correct table level data classification guidance"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ff070613be97fb969944f2547becc2e6de0e9878888edac22d1b1acbd30d6fdd"
 }

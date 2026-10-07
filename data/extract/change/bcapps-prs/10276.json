@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/10276",
+  "number": 10276,
+  "title": "[master] Renewal Term field on the Create Contract Renewal Quote page does not accept the entered value such as 12M",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "The Renewal Term field on the Create Contract Renewal Quote page now correctly accepts and retains entered values like '12M' instead of resetting to blank when the field is exited.",
+  "key_points": [
+    "Fixed OnAfterGetRecord to read from the temporary buffer first",
+    "Prevents overwriting of just-entered values with persistent record data",
+    "Only loads persistent Subscription Line when temporary buffer doesn't contain the row",
+    "Resolves issue where manual Renewal Term entries were lost on field exit"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": "Renewal Term field on the Create Contract Renewal Quote page does not accept the entered value such as '12M'",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003317,
+    "changes_in_call": 1
+  }
+}

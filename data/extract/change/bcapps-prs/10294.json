@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/10294",
+  "number": 10294,
+  "title": "[SOA] Fix missing Agent Task Message read permission in contact search",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "SOA Contact Search Impl now has read permission for Agent Task Message, allowing the Sales Order Agent to complete contact-mapping flows without permission intervention.",
+  "key_points": [
+    "Added read permission for Agent Task Message table",
+    "Prevents AR-PERMISSION intervention when opening Contacts list during agent workflow",
+    "Enables the contact-mapping flow to query the latest input task message",
+    "No changes to contact matching, filtering, or data persistence",
+    "Low-risk permission addition for existing data access"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "copilot",
+    "sales"
+  ],
+  "quote": "Add read permission for Agent Task Message to SOA Contact Search Impl.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003242,
+    "changes_in_call": 1
+  }
+}

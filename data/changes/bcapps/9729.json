@@ -1,0 +1,89 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9729,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9729",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-17T23:25:35Z",
+  "merge_commit_sha": "eff9f441c8f4f9020aa25ce179951c8b9b091b35",
+  "author": "v-maheshsharma",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[MAIN]-The system throws the error while posting a receipt against a Subcontracting Order.",
+  "body_hash": "1b57dbffe386c6eeaf80398e0c55d466b7071f669975d71cddc256f2bccd4b97",
+  "fixes_issues": [],
+  "work_items": [
+    644092
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/IN/INGST/app/GSTSubcontracting/src/Codeunit/SubcontractingPost.Codeunit.al",
+      "status": "modified",
+      "additions": 36,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/IN/INGST/app/GSTSubcontracting/src/Table/AppliedDeliveryChallan.Table.al",
+      "status": "modified",
+      "additions": 25,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/IN/INGST/app/GSTSubcontracting/src/Table/DeliveryChallanLine.Table.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/IN/INGST/app/GSTSubcontracting/src/Table/SubOrderCompListVend.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 4,
+    "additions": 67,
+    "deletions": 3,
+    "al": 4
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "src/Apps/IN/INGST/app/GSTSubcontracting/src/Codeunit/SubcontractingPost.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/IN/INGST/app/GSTSubcontracting/src/Table/AppliedDeliveryChallan.Table.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/IN/INGST/app/GSTSubcontracting/src/Table/DeliveryChallanLine.Table.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/IN/INGST/app/GSTSubcontracting/src/Table/SubOrderCompListVend.Table.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

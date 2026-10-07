@@ -1,0 +1,160 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10184,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10184",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-18T08:37:38Z",
+  "merge_commit_sha": "cbbf92bcfda832affefbd9a713134cf566e70b91",
+  "author": "sanjmaurya",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[Mai][German Localization] Recurring Frequency DateFormula Exports as Invariant Tokens (+1D/+1Y) Instead of Localized UI Tokens (+1T/+1J) in ExcelInital commit",
+  "body_hash": "c82085e29247d4e24d4014b7521a502cb141e2feafb9d6bec30b35df054654a0",
+  "fixes_issues": [],
+  "work_items": [
+    646602
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/APAC/BaseApp/Finance/GeneralLedger/Journal/RecurringGeneralJournal.Page.al",
+      "status": "modified",
+      "additions": 23,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/Tests/General Journal/ERMGeneralJournalUT.Codeunit.al",
+      "status": "modified",
+      "additions": 186,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/CH/Tests/General Journal/ERMGeneralJournalUT.Codeunit.al",
+      "status": "modified",
+      "additions": 186,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/CZ/Tests/General Journal/ERMGeneralJournalUT.Codeunit.al",
+      "status": "modified",
+      "additions": 186,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Finance/GeneralLedger/Journal/RecurringGeneralJournal.Page.al",
+      "status": "modified",
+      "additions": 23,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/Tests/General Journal/ERMGeneralJournalUT.Codeunit.al",
+      "status": "modified",
+      "additions": 186,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Finance/GeneralLedger/Journal/RecurringGeneralJournal.Page.al",
+      "status": "modified",
+      "additions": 23,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/Tests/General Journal/ERMGeneralJournalUT.Codeunit.al",
+      "status": "modified",
+      "additions": 186,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Finance/GeneralLedger/Journal/RecurringGeneralJournal.Page.al",
+      "status": "modified",
+      "additions": 23,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/GeneralLedger/Journal/RecurringGeneralJournal.Page.al",
+      "status": "modified",
+      "additions": 23,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/General Journal/ERMGeneralJournalUT.Codeunit.al",
+      "status": "modified",
+      "additions": 186,
+      "deletions": 1,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 11,
+    "additions": 1231,
+    "deletions": 11,
+    "al": 5
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/RU/BaseApp/Finance/GeneralLedger/Journal/RecurringGeneralJournal.Page.al",
+        "status": "modified",
+        "key": "page/283",
+        "type": "page",
+        "id": 283,
+        "name": "Recurring General Journal",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "page/283"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/GeneralLedger/Journal/RecurringGeneralJournal.Page.al",
+        "status": "modified",
+        "key": "page/283",
+        "type": "page",
+        "id": 283,
+        "name": "Recurring General Journal",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/283"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Layers/APAC/BaseApp/Finance/GeneralLedger/Journal/RecurringGeneralJournal.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Finance/GeneralLedger/Journal/RecurringGeneralJournal.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Finance/GeneralLedger/Journal/RecurringGeneralJournal.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

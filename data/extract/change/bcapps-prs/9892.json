@@ -1,0 +1,35 @@
+{
+  "item_id": "change/bcapps-prs/9892",
+  "number": 9892,
+  "title": "[main] Bug 644283: Renumber Subcontracting app object ids as it clashes with partner range",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "manufacturing",
+    "sales"
+  ],
+  "summary": "Subcontracting app object IDs are renumbered to avoid conflicts with partner-reserved ranges, affecting codeunits, tables, pages, and other objects throughout the app.",
+  "key_points": [
+    "All Subcontracting app object IDs shifted to prevent collisions with partner ID ranges",
+    "178 files modified across manufacturing, master data, purchasing, and other modules",
+    "Object numbering updated consistently for all extensions, pages, and codeunits",
+    "Quality Management dependency range updated",
+    "No behavioral changes to functionality, pure ID restructuring"
+  ],
+  "change_kind": "refactor",
+  "behavior_change": false,
+  "breaking": true,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing",
+    "assembly",
+    "purchasing"
+  ],
+  "quote": "Renumbers the Subcontracting app object IDs to avoid clashes with the partner range",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.019116,
+    "changes_in_call": 1
+  }
+}

@@ -6,10 +6,35 @@
   "title": "[main] features 640066 Add integration events for events for CZ Adv. Payment and CZ Cash Desk",
   "url": "https://github.com/microsoft/BCApps/pull/10079",
   "published_at": "2026-08-18T08:37:21Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:09:43.469Z",
+      "change_class": "code",
+      "files": 6,
+      "al": 2,
+      "objects": 0,
+      "unjoined": 2
+    },
+    "extracted": {
+      "at": "2026-10-07T13:09:48.780Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.004141
+    },
+    "linked": {
+      "at": "2026-10-07T13:09:48.978Z",
+      "objects": 0,
+      "unjoined": 2,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:09:48.984Z",
+      "path": "content/changes/bcapps/10079.md"
     }
   },
   "input_hash": "6d3061f26a944fced86f177d92649b57ddbbce94:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "features 640066 add integration events for events for cz adv payment and cz cash desk"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "9eaf369be80b6050f6ddbfa847c5c4acb927798670a3f4fd1bc2a9c7234f0f54"
 }

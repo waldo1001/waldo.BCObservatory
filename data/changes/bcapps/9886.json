@@ -1,0 +1,77 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9886,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9886",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-18T04:33:34Z",
+  "merge_commit_sha": "818f30d64f06477f2012a46f56c93fccc5e3b995",
+  "author": "sanjmaurya",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[Master]  Expense Report posting FCY rounding mismatch \"Expense Report Posting Test\" fail in Spain only (Source Currency Amount 649.97 vs 650",
+  "body_hash": "b0a759319d4f6cf0d84f30643362225bd71c9741a8c43e6b558100b6d3e00a99",
+  "fixes_issues": [],
+  "work_items": [
+    644891
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/DisabledTests/Expense_Agent_Tests/Expense_Agent_Tests.DisabledTest.json",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 20,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/Tests/ERM-Finance/ERMSourceCurrency.Codeunit.al",
+      "status": "modified",
+      "additions": 47,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 57,
+    "deletions": 21,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/ES/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/12",
+        "type": "codeunit",
+        "id": 12,
+        "name": "Gen. Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "codeunit/12"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

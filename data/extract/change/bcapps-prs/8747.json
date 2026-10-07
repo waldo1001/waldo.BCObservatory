@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/8747",
+  "number": 8747,
+  "title": "[Subcontracting] Disable \"WIP Item Transfer\" for Machine Center",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "manufacturing"
+  ],
+  "summary": "The \"Transfer WIP Item\" field on routing lines is now restricted to Work Center types with subcontracting enabled, with validation failing and the field disabled for Machine Center types. Comprehensive UI and validation tests were added to ensure correct behavior.",
+  "key_points": [
+    "Restrict \"Transfer WIP Item\" field to Work Center routing lines only, disabling it for Machine Center types",
+    "Add validation logic that prevents the field from being enabled for Machine Center routing lines",
+    "Make the field non-editable and invisible in the Subc. PO Subform page extension",
+    "Add comprehensive UI and validation tests to verify field behavior for both Work Center and Machine Center types",
+    "Introduce CreateRoutingLineForMachineCenter helper method to improve test setup and maintainability"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing"
+  ],
+  "quote": "The \"Transfer WIP Item\" field is now only enabled and valid for routing lines of type \"Work Center\" with subcontracting enabled.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004825,
+    "changes_in_call": 1
+  }
+}

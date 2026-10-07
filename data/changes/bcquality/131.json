@@ -1,0 +1,73 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 131,
+  "repo": "microsoft/BCQuality",
+  "source": "bcquality-prs",
+  "url": "https://github.com/microsoft/BCQuality/pull/131",
+  "base": "main",
+  "major": null,
+  "merged_at": "2026-08-18T07:43:37Z",
+  "merge_commit_sha": "841b4e7cab84756b680b66328c2f1ceaae3ec892",
+  "author": "gggdttt",
+  "author_type": "User",
+  "labels": [],
+  "community_contribution": false,
+  "title": "Correct table-level data classification guidance",
+  "body_hash": "5e5be507fc465965637fd2ec41ac90c30cc53335b0774f6b74a2838976aa8cc6",
+  "fixes_issues": [],
+  "work_items": [],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "microsoft/knowledge/privacy/data-classification-required-on-pii-fields.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/privacy/table-level-data-classification-cascades.good.al",
+      "status": "modified",
+      "additions": 22,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/privacy/table-level-data-classification-cascades.md",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 5,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 28,
+    "deletions": 11,
+    "al": 3
+  },
+  "join": {
+    "major": null,
+    "commit": null,
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "microsoft/knowledge/privacy/data-classification-required-on-pii-fields.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/privacy/table-level-data-classification-cascades.good.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/privacy/table-level-data-classification-cascades.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

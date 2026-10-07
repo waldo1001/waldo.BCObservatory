@@ -6,10 +6,35 @@
   "title": "[main] Bug 644283: Renumber Subcontracting app object ids as it clashes with partner range",
   "url": "https://github.com/microsoft/BCApps/pull/9892",
   "published_at": "2026-08-18T00:09:01Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:09:47.561Z",
+      "change_class": "code",
+      "files": 178,
+      "al": 174,
+      "objects": 174,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:09:52.525Z",
+      "prompt": "extract-change@1",
+      "kind": "refactor",
+      "behavior": false,
+      "cost_usd": 0.019116
+    },
+    "linked": {
+      "at": "2026-10-07T13:09:52.737Z",
+      "objects": 174,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:09:52.769Z",
+      "path": "content/changes/bcapps/9892.md"
     }
   },
   "input_hash": "4b1af2695fbb906358e0ee728783924481155777:c1",
@@ -32,5 +57,8 @@
     ],
     "community_contribution": false,
     "title_key": "bug 644283 renumber subcontracting app object ids as it clashes with partner range"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "95bf36da69200884a5d5d068f9ba164d07062a04a409c9b2ea1f9c09e3105dd7"
 }

@@ -6,7 +6,7 @@
   "title": "Bug 636251: Disabled test in \"ERM Gen. Jnl. Error Handling\" codeunit",
   "url": "https://github.com/microsoft/BCApps/pull/10146",
   "published_at": "2026-08-17T19:06:44Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -29,5 +29,8 @@
     ],
     "community_contribution": false,
     "title_key": "bug 636251 disabled test in erm gen jnl error handling codeunit"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T13:09:51.403Z",
+  "retry_after": null
 }

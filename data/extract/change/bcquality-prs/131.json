@@ -1,0 +1,29 @@
+{
+  "item_id": "change/bcquality-prs/131",
+  "number": 131,
+  "title": "Correct table-level data classification guidance",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "Privacy guidance now correctly clarifies that table-level data classification is inherited by fields unless explicitly overridden, reducing false-positive guidance violations.",
+  "key_points": [
+    "Table-level DataClassification is inherited by fields and does not require field-level redundant declarations",
+    "Corrected fixture and PII guidance to distinguish inherited defaults from genuinely unclassified fields",
+    "Addresses 19 false-positive privacy comments in BCApps by preventing incorrect redundant field-level declaration patterns",
+    "Verified behavior with AL 18 AppSourceCop that accepts inherited classifications"
+  ],
+  "change_kind": "fix",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003531,
+    "changes_in_call": 1
+  }
+}

@@ -6,10 +6,35 @@
   "title": "Hide Provide feedback action on E-Document Purchase Draft when user-i…",
   "url": "https://github.com/microsoft/BCApps/pull/9257",
   "published_at": "2026-08-18T12:35:45Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:09:40.672Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:09:45.465Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003441
+    },
+    "linked": {
+      "at": "2026-10-07T13:09:45.672Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:09:45.677Z",
+      "path": "content/changes/bcapps/9257.md"
     }
   },
   "input_hash": "fc7d4fe71a5573cdf41acca4be4a7f27f5395249:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "hide provide feedback action on e document purchase draft when user i"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "895f2b7617e5370987ea0b9380ac572659ba0da335e976f7a73cc80d18abdb8e"
 }

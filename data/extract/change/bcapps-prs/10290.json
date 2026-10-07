@@ -1,0 +1,34 @@
+{
+  "item_id": "change/bcapps-prs/10290",
+  "number": 10290,
+  "title": "[Main] -Drop shipment undo receipt fails for service and non-inventory items.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "purchasing",
+    "sales"
+  ],
+  "summary": "Undo receipt and undo shipment operations now work correctly for drop shipments involving service and non-inventory items by removing unnecessary cost application filters and adding a fallback lookup method through drop shipment links.",
+  "key_points": [
+    "Removed 'Cost Application' filter from drop shipment application entry lookup to include cost-less entries for non-inventoriable items",
+    "Added null check when finding item application entries to skip missing records instead of erroring",
+    "Implemented fallback method to locate sales shipment lines through drop shipment document links when item ledger entry path fails",
+    "Enables both undo shipment and undo receipt operations to complete successfully for service and non-inventory drop shipments"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "purchasing",
+    "sales",
+    "inventory"
+  ],
+  "quote": "Drop shipment undo receipt fails for service and non-inventory items.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003994,
+    "changes_in_call": 1
+  }
+}

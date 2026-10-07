@@ -1,0 +1,93 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10079,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10079",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-18T08:37:21Z",
+  "merge_commit_sha": "6d3061f26a944fced86f177d92649b57ddbbce94",
+  "author": "v-janpopr",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[main] features 640066 Add integration events for events for CZ Adv. Payment and CZ Cash Desk",
+  "body_hash": "0b501339f47c1b9d509f277dc6697a741176ba9a5821542c4a67bee8918dbb6e",
+  "fixes_issues": [],
+  "work_items": [
+    640066
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/CZ/AdvancePaymentsLocalization/app/Src/TableExtensions/CashDocumentLineCZZ.TableExt.al",
+      "status": "modified",
+      "additions": 22,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/AdvancePaymentsLocalization/test/Src/CashDocLineTestHandlerCZZ.Codeunit.al",
+      "status": "added",
+      "additions": 40,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/CZ/AdvancePaymentsLocalization/test/Src/CashDocumentLineCZZ.Codeunit.al",
+      "status": "added",
+      "additions": 92,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/CZ/CashDeskLocalization/app/Src/Codeunits/CashDocumentReleaseCZP.Codeunit.al",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/CashDeskLocalization/test/Src/CashDeskDocumentsCZP.Codeunit.al",
+      "status": "modified",
+      "additions": 57,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/CZ/CashDeskLocalization/test/Src/CashDocReleaseHandlerCZP.Codeunit.al",
+      "status": "added",
+      "additions": 16,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 6,
+    "additions": 240,
+    "deletions": 3,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "src/Apps/CZ/AdvancePaymentsLocalization/app/Src/TableExtensions/CashDocumentLineCZZ.TableExt.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/CZ/CashDeskLocalization/app/Src/Codeunits/CashDocumentReleaseCZP.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

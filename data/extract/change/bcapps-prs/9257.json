@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9257",
+  "number": 9257,
+  "title": "Hide Provide feedback action on E-Document Purchase Draft when user-i…",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "The Provide feedback action on the E-Document Purchase Draft page is now hidden when tenant admins disable user feedback in PPAC, preventing users from seeing a non-functional button.",
+  "key_points": [
+    "Action visibility controlled by Tenant Feedback Settings.GetUserInitiatedFeedbackEnabled()",
+    "OnOpenPage gates the action's Visible property based on feedback setting",
+    "Defensive guard added to ProvideFeedback() method",
+    "Fixes user experience where button appeared but did nothing when feedback disabled",
+    "Low risk UI-only change with no schema or permission impacts"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003441,
+    "changes_in_call": 1
+  }
+}

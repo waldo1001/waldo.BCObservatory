@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10283",
+  "number": 10283,
+  "title": "[Extensibility Request] issue 30419: add time sheet filtering events",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "projects"
+  ],
+  "summary": "Integration events are added to report 952 Suggest Job Jnl. Lines to allow extensions to filter time sheet headers and lines before they are processed.",
+  "key_points": [
+    "Two new filter-stage events added to FillTimeSheetLineBuffer method",
+    "Extensions can narrow time sheet headers and lines with custom criteria",
+    "Events fire after standard filters are applied but before FindSet",
+    "Preserves standard report processing while enabling customization",
+    "Allows subscribers to refine record sets during report execution"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "projects"
+  ],
+  "quote": "Extensions need to narrow the time sheet headers and lines processed by report 952 before records are read.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003385,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/9987",
+  "number": 9987,
+  "title": "Fix Payment Management FR data update paths and per-company feature status",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [],
+  "summary": "Fixed French payment management data migration path by centralizing migration logic, adding separate upgrade tags for object ID remapping, and removing cross-company feature status duplication that incorrectly marked migrations as complete in unmigrated companies.",
+  "key_points": [
+    "Created new codeunit to consolidate payment data migration, ensuring Feature Management path also remaps object IDs",
+    "Added separate upgrade tag for remapping to repair companies that migrated before remapping was added",
+    "Removed cross-company ModifyAll pattern from feature codeunits that incorrectly copied completion status across all companies",
+    "Fixed bank account field direction so RIB data migrates correctly to base application fields",
+    "Improved data update requirement check to count all migrated tables and avoid skipping migrations in companies without bank accounts"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004297,
+    "changes_in_call": 1
+  }
+}

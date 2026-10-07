@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/10302",
+  "number": 10302,
+  "title": "[SOA] Clarify contact mapping options for unknown email senders",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "The contact-link dialog for unmatched email senders now clearly distinguishes task-level contact overrides from contact data updates, includes the sender's email address, explains that matching uses both Email and Email 2 fields, and explicitly shows E-Mail 2 replacement details.",
+  "key_points": [
+    "Dialog now displays the unmatched sender's email address to help users understand matching failures",
+    "Clarifies distinction between task-level contact overrides and updating contact master data",
+    "Explains that contact matching checks both Email and Email 2 fields",
+    "Shows E-Mail 2 field replacement confirmation with current and replacement values",
+    "Low risk change affecting only captions and dialog text with no functional changes"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales",
+    "copilot"
+  ],
+  "quote": "Improve the contact-link dialog shown when an email sender does not match an existing contact.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003797,
+    "changes_in_call": 1
+  }
+}

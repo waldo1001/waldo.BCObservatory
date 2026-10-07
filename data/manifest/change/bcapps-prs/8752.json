@@ -6,10 +6,18 @@
   "title": "[Bug Fix] #638531: Disable Open TO from PO actions on non-subcontracting lines",
   "url": "https://github.com/microsoft/BCApps/pull/8752",
   "published_at": "2026-08-17T22:44:29Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:09:50.568Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
     }
   },
   "input_hash": "166439ed36ffe1a5656685863f78c12b97daa16f:c1",
@@ -30,5 +38,8 @@
     ],
     "community_contribution": false,
     "title_key": "bug fix 638531 disable open to from po actions on non subcontracting lines"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d30c88eb67af96320145dcee080bdadd91da57c367f9463716666c5de8b34acb"
 }

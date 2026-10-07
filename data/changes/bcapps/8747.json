@@ -1,0 +1,192 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 8747,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/8747",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-18T08:56:03Z",
+  "merge_commit_sha": "d3c87d334321c6403295cbdc062efaddd4526bd9",
+  "author": "SPinkow",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "AL: Apps (W1)",
+    "From Fork",
+    "Subcontracting",
+    "Team: SCM"
+  ],
+  "community_contribution": true,
+  "title": "[Subcontracting] Disable \"WIP Item Transfer\" for Machine Center",
+  "body_hash": "fb7709e541b4ab2fe8d3f651e93e3bfe0c60dfd89f2628a71c0717caf49bb707",
+  "fixes_issues": [],
+  "work_items": [
+    640173
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Subcontracting/App/src/Manufacturing/SubcProdOrderRtng.PageExt.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subcontracting/App/src/Manufacturing/SubcProdOrderRtngLineExt.TableExt.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subcontracting/App/src/Manufacturing/SubcRoutingLine.TableExt.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subcontracting/App/src/Manufacturing/SubcRoutingLines.PageExt.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subcontracting/App/src/Manufacturing/SubcRoutingVersionLines.PageExt.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subcontracting/App/src/Purchase/SubcPOSubform.PageExt.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subcontracting/Test/Libraries/SubcLibraryMfgManagement.Codeunit.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/Subcontracting/Test/Tests/SubcSubcontractingUITest.Codeunit.al",
+      "status": "modified",
+      "additions": 227,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/Subcontracting/Test/Tests/SubcWIPAvailWarnTest.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/Subcontracting/Test/Tests/SubcWIPTransCreateTest.Codeunit.al",
+      "status": "modified",
+      "additions": 78,
+      "deletions": 3,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/Subcontracting/Test/Tests/SubcWhseCombinedScenarios.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 11,
+    "additions": 328,
+    "deletions": 9,
+    "al": 6
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Subcontracting/App/src/Manufacturing/SubcProdOrderRtng.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/20503",
+        "type": "pageextension",
+        "id": 20503,
+        "name": "Subc. Prod. Order Rtng.",
+        "app": "Subcontracting",
+        "cc": "w1",
+        "page": "pageextension/20503"
+      },
+      {
+        "path": "src/Apps/W1/Subcontracting/App/src/Manufacturing/SubcProdOrderRtngLineExt.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/20506",
+        "type": "tableextension",
+        "id": 20506,
+        "name": "Subc. ProdOrderRtngLine Ext.",
+        "app": "Subcontracting",
+        "cc": "w1",
+        "page": "tableextension/20506"
+      },
+      {
+        "path": "src/Apps/W1/Subcontracting/App/src/Manufacturing/SubcRoutingLine.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/20560",
+        "type": "tableextension",
+        "id": 20560,
+        "name": "Subc. Routing Line",
+        "app": "Subcontracting",
+        "cc": "w1",
+        "page": "tableextension/20560"
+      },
+      {
+        "path": "src/Apps/W1/Subcontracting/App/src/Manufacturing/SubcRoutingLines.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/20508",
+        "type": "pageextension",
+        "id": 20508,
+        "name": "Subc. Routing Lines",
+        "app": "Subcontracting",
+        "cc": "w1",
+        "page": "pageextension/20508"
+      },
+      {
+        "path": "src/Apps/W1/Subcontracting/App/src/Manufacturing/SubcRoutingVersionLines.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/20509",
+        "type": "pageextension",
+        "id": 20509,
+        "name": "Subc. Routing Version Lines",
+        "app": "Subcontracting",
+        "cc": "w1",
+        "page": "pageextension/20509"
+      },
+      {
+        "path": "src/Apps/W1/Subcontracting/App/src/Purchase/SubcPOSubform.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/20524",
+        "type": "pageextension",
+        "id": 20524,
+        "name": "Subc. PO Subform",
+        "app": "Subcontracting",
+        "cc": "w1",
+        "page": "pageextension/20524"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "manufacturing"
+  ],
+  "apps": [
+    "Subcontracting"
+  ]
+}
