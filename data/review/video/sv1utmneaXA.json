@@ -1,0 +1,23 @@
+{
+  "video_id": "sv1utmneaXA",
+  "item_id": "video/yt-microsoft/sv1utmneaXA",
+  "flags": [],
+  "verdict": "approve",
+  "issues": [
+    "All 7 quotes are verbatim transcript spans. The 356.4 quote runs into the next segment, which is allowed.",
+    "The transcript supports every feature and key point. The help property, public Bing-indexed site, two-level depth, redirect caveat, text-only plus Excel/PDF, indexing delay, Webmaster Tools and methodical testing are all stated.",
+    "Status is left unclear for all features. The video says Copilot can 'now' answer questions and 'might already' work, but it never says whether the feature is preview or generally available.",
+    "The summary is accurate and within length limits."
+  ],
+  "input_hash": "e9685c329ac0802b1af4a7bd2559780eb1a9872f44906491df961a791ba6e0bd",
+  "by": "opus",
+  "at": "2026-10-07T22:54:28.419Z",
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.058285
+  }
+}

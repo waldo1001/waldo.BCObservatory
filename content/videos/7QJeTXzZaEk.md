@@ -2,7 +2,7 @@
 id: video/7QJeTXzZaEk
 type: video
 title: "Getting Started With Agents: Test Drive the Sales Order Agent (2025)"
-summary: "Sales order agent test drive in Business Central: connecting a shared mailbox, activating the agent, sending a test quote request email, and the agent creating a sales quote. Also covers creating a contact for an unknown sender and managing email accounts."
+summary: "Test drive of the Business Central sales order agent: create a shared mailbox in the Microsoft 365 admin portal, link it in Outlook, activate the agent through the email account wizard, then send a test quote request email. The agent picks up the email and creates a review task. After you create a contact for the unknown sender, the agent creates a sales quote. Also covers the Email Accounts page."
 tier: official
 language: en
 tags:
@@ -16,12 +16,12 @@ tags:
   - test drive
 system: sales
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:55:18.848Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:55:18.896Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -35,6 +35,13 @@ evidence:
     commit: null
     t: 5
     quote: The sales order agent and the payables agent already available in many countries.
+  - kind: video
+    url: https://www.youtube.com/watch?v=7QJeTXzZaEk&t=17s
+    title: "Getting Started With Agents: Test Drive the Sales Order Agent (2025)"
+    date: "2025-09-16T13:03:14.000Z"
+    commit: null
+    t: 17
+    quote: In the Microsoft 365 administration portal, open the Teams and Groups menu, then select shared mailboxes.
   - kind: video
     url: https://www.youtube.com/watch?v=7QJeTXzZaEk&t=90s
     title: "Getting Started With Agents: Test Drive the Sales Order Agent (2025)"
@@ -137,6 +144,9 @@ quotes:
   - t: 5
     text: The sales order agent and the payables agent already available in many countries.
     check: exact
+  - t: 17
+    text: In the Microsoft 365 administration portal, open the Teams and Groups menu, then select shared mailboxes.
+    check: exact
   - t: 90
     text: While you can also use your own account if you prefer, a dedicated shared mailbox helps ensure the agent isn't cluttered with irrelevant emails.
     check: exact
@@ -156,9 +166,9 @@ quotes:
 
 # Getting Started With Agents: Test Drive the Sales Order Agent (2025)
 
-> Sales order agent test drive in Business Central: connecting a shared mailbox, activating the agent, sending a test quote request email, and the agent creating a sales quote. Also covers creating a contact for an unknown sender and managing email accounts.
+> Test drive of the Business Central sales order agent: create a shared mailbox in the Microsoft 365 admin portal, link it in Outlook, activate the agent through the email account wizard, then send a test quote request email. The agent picks up the email and creates a review task. After you create a contact for the unknown sender, the agent creates a sales quote. Also covers the Email Accounts page.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=7QJeTXzZaEk) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-09-16 · 3:38 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=7QJeTXzZaEk) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-09-16 · 3:38 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -168,13 +178,13 @@ The presenter sends a test email requesting a quote. The agent reads the email, 
 
 ## Key points
 
-- The sales order agent and the payables agent are available in many countries, not necessarily all.
-- A dedicated shared mailbox is recommended so the agent is not cluttered with irrelevant emails. A personal account can also be used.
-- Activation uses the email account wizard in Business Central. Once the account is selected, the agent activates automatically and you click update to confirm.
-- The sender must be set up as a contact before a quote is created. For an unknown sender, the agent prompts you to review the details and confirm a new contact.
-- A test email from your own address will likely come from someone who is not yet a contact in your environment.
-- The agent reads the email, finds the items and creates the sales quote without manual searching and typing.
-- The Email Accounts page lets you register new accounts, create shared mailboxes for different purposes, or remove accounts no longer needed.
+- The sales order agent and the payables agent are already available in many countries.
+- Create a shared mailbox in the Microsoft 365 administration portal (Teams and Groups > Shared mailboxes > Add a shared mailbox). You can add colleagues as members so they can test too.
+- Link the shared mailbox in Outlook through a short wizard so its emails show up next to your own.
+- In Business Central, go through the email account creation wizard and choose the Microsoft 365 account type. A dedicated shared mailbox keeps the agent from being cluttered with irrelevant emails, but you can also use your own account.
+- Once the mailbox account is selected, the agent activates automatically. You click update to confirm.
+- To test, send an email from your own mailbox to the shared mailbox listing items, quantities and delivery dates. The agent picks it up and creates a task for you to review.
+- Because the test email comes from you, you are probably not a contact yet. Review the sender details and confirm to create the contact, then confirm for the agent to create the sales quote.
 
 ## Chapters
 
@@ -188,13 +198,13 @@ The presenter sends a test email requesting a quote. The agent reads the email, 
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Sales Order Agent | status not stated, demoed | [0:05](https://www.youtube.com/watch?v=7QJeTXzZaEk&t=5s) |  |
-| Email Account Integration | status not stated, demoed | [1:30](https://www.youtube.com/watch?v=7QJeTXzZaEk&t=90s) |  |
-| Automatic Contact Creation from Email | status not stated, demoed | [2:25](https://www.youtube.com/watch?v=7QJeTXzZaEk&t=145s) |  |
-| Payables Agent | status not stated | [0:05](https://www.youtube.com/watch?v=7QJeTXzZaEk&t=5s) |  |
-| Email Accounts Management Page | status not stated, demoed | [3:07](https://www.youtube.com/watch?v=7QJeTXzZaEk&t=187s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Sales Order Agent | status not stated, demoed | [0:05](https://www.youtube.com/watch?v=7QJeTXzZaEk&t=5s) |
+| Email Account Integration | status not stated, demoed | [1:30](https://www.youtube.com/watch?v=7QJeTXzZaEk&t=90s) |
+| Automatic Contact Creation from Email | status not stated, demoed | [2:25](https://www.youtube.com/watch?v=7QJeTXzZaEk&t=145s) |
+| Payables Agent | status not stated | [0:05](https://www.youtube.com/watch?v=7QJeTXzZaEk&t=5s) |
+| Email Accounts Management Page | status not stated, demoed | [3:07](https://www.youtube.com/watch?v=7QJeTXzZaEk&t=187s) |
 
 ## AL objects mentioned
 
@@ -207,6 +217,7 @@ Not found in BC28-30: page "email accounts page".
 ## Quotes
 
 - [0:05](https://www.youtube.com/watch?v=7QJeTXzZaEk&t=5s) "The sales order agent and the payables agent already available in many countries."
+- [0:17](https://www.youtube.com/watch?v=7QJeTXzZaEk&t=17s) "In the Microsoft 365 administration portal, open the Teams and Groups menu, then select shared mailboxes."
 - [1:30](https://www.youtube.com/watch?v=7QJeTXzZaEk&t=90s) "While you can also use your own account if you prefer, a dedicated shared mailbox helps ensure the agent isn't cluttered with irrelevant emails."
 - [1:45](https://www.youtube.com/watch?v=7QJeTXzZaEk&t=105s) "Once the account is selected, the agent activates automatically. You just need to click update to confirm."
 - [2:25](https://www.youtube.com/watch?v=7QJeTXzZaEk&t=145s) "Because the email is coming from you, you're probably not set up as a contact in your own business central environment."

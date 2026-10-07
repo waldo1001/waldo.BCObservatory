@@ -2,7 +2,7 @@
 id: video/sycmF3cJa_s
 type: video
 title: Copilot Assisted Scheduling by PrintVis
-summary: PrintVis Copilot Assisted Scheduling, demonstrated in a one-minute video for print shop scheduling. The user picks machines, a date range and optimization options, and Copilot generates an optimized schedule across the selected machines that can be loaded into the planning board.
+summary: PrintVis Copilot Assisted Scheduling, demonstrated in a 75-second video for print shop scheduling. From the PrintVis planning board, the user clicks the Copilot icon, picks a group of machines, a start and end date, and optimization options (such as paper item number and avoiding paper changes). Copilot then generates an optimized schedule across the selected machines, which is loaded into the planning board through 'load simulation'.
 tier: official
 language: en
 tags:
@@ -15,12 +15,12 @@ tags:
   - constraint solving
 system: manufacturing
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:55:51.416Z"
   flags: []
 generated:
-  at: "2026-10-06T18:32:13.687Z"
+  at: "2026-10-07T22:55:51.454Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -48,6 +48,13 @@ evidence:
     commit: null
     t: 40
     quote: Clicking optimize sends the information to co-pilot so it can generate a optimize schedule across these three machines.
+  - kind: video
+    url: https://www.youtube.com/watch?v=sycmF3cJa_s&t=55s
+    title: Copilot Assisted Scheduling by PrintVis
+    date: "2025-08-05T11:45:53.000Z"
+    commit: null
+    t: 55
+    quote: click load simulation which loads our planning board with an optimized schedule across these three machines
 links:
   learn: []
   objects: []
@@ -105,13 +112,16 @@ quotes:
   - t: 40
     text: Clicking optimize sends the information to co-pilot so it can generate a optimize schedule across these three machines.
     check: exact
+  - t: 55
+    text: click load simulation which loads our planning board with an optimized schedule across these three machines
+    check: exact
 ---
 
 # Copilot Assisted Scheduling by PrintVis
 
-> PrintVis Copilot Assisted Scheduling, demonstrated in a one-minute video for print shop scheduling. The user picks machines, a date range and optimization options, and Copilot generates an optimized schedule across the selected machines that can be loaded into the planning board.
+> PrintVis Copilot Assisted Scheduling, demonstrated in a 75-second video for print shop scheduling. From the PrintVis planning board, the user clicks the Copilot icon, picks a group of machines, a start and end date, and optimization options (such as paper item number and avoiding paper changes). Copilot then generates an optimized schedule across the selected machines, which is loaded into the planning board through 'load simulation'.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=sycmF3cJa_s) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-08-05 · 1:15 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=sycmF3cJa_s) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-08-05 · 1:15 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -122,11 +132,11 @@ The optimization options reflect reasons why different print shops place certain
 ## Key points
 
 - Copilot Assisted Scheduling is a PrintVis feature that optimizes job scheduling across multiple machines.
-- The user selects the machines and a date range before optimizing.
-- Optimization options let users choose criteria that fit their business, such as avoiding paper changes on machines.
+- It is started from the Copilot icon on the PrintVis planning board.
+- The user selects a group of machines and a start and end date for scheduling.
+- Optimization options capture why print shops place certain jobs on one machine rather than another. The demo uses paper item number and avoid paper changes.
 - Clicking optimize sends the selections to Copilot, which generates an optimized schedule across the selected machines (three in the demo).
-- The generated schedule is loaded into the planning board for execution.
-- The demo covers print shop scheduling only.
+- Clicking 'load simulation' loads the planning board with the optimized schedule.
 
 ## Chapters
 
@@ -137,14 +147,15 @@ The optimization options reflect reasons why different print shops place certain
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Copilot Assisted Scheduling | status not stated, demoed | [0:05](https://www.youtube.com/watch?v=sycmF3cJa_s&t=5s) |  |
-| Optimization Options | status not stated, demoed | [0:29](https://www.youtube.com/watch?v=sycmF3cJa_s&t=29s) |  |
-| Schedule Loading | status not stated, demoed | [0:55](https://www.youtube.com/watch?v=sycmF3cJa_s&t=55s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Copilot Assisted Scheduling | status not stated, demoed | [0:05](https://www.youtube.com/watch?v=sycmF3cJa_s&t=5s) |
+| Optimization Options | status not stated, demoed | [0:29](https://www.youtube.com/watch?v=sycmF3cJa_s&t=29s) |
+| Schedule Loading | status not stated, demoed | [0:55](https://www.youtube.com/watch?v=sycmF3cJa_s&t=55s) |
 
 ## Quotes
 
 - [0:05](https://www.youtube.com/watch?v=sycmF3cJa_s&t=5s) "This is a demonstration of the print viz co-pilot assisted scheduling functionality."
 - [0:29](https://www.youtube.com/watch?v=sycmF3cJa_s&t=29s) "These are reasons why different print shops want to place certain jobs on one machine as opposed to another."
 - [0:40](https://www.youtube.com/watch?v=sycmF3cJa_s&t=40s) "Clicking optimize sends the information to co-pilot so it can generate a optimize schedule across these three machines."
+- [0:55](https://www.youtube.com/watch?v=sycmF3cJa_s&t=55s) "click load simulation which loads our planning board with an optimized schedule across these three machines"

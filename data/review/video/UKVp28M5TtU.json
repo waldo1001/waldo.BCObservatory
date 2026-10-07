@@ -1,0 +1,26 @@
+{
+  "video_id": "UKVp28M5TtU",
+  "item_id": "video/yt-microsoft/UKVp28M5TtU",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All 7 quotes are verbatim and the summary is supported by the transcript.",
+    "The key point 'adjust them if your factors differ' misreads the transcript. The speaker says the default factor of 1 applies when the setting is used. Different carbon equivalent factors per gas are needed only when it is not used. I reworded the key point to match.",
+    "The caption key point mixes two examples. I aligned it with the narration (default emission for CH4 becomes carbon equivalent for CH4) and the demo (default metan becomes default carbon equivalent for metan).",
+    "No release status (preview or GA) is stated in the transcript, so all features stay unclear.",
+    "The features 'Measure all gases as carbon equivalents' and 'Use all emissions as carbon equivalent setup option' overlap, but both are supported."
+  ],
+  "input_hash": "94db6e09782dfa6de9bea52c8b0d5592ce00f4c2a1283451bd9e188bdd2111c4",
+  "by": "opus",
+  "at": "2026-10-07T22:54:34.539Z",
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.058713
+  }
+}

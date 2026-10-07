@@ -597,9 +597,15 @@
     },
     {
       "t": 1519.7,
-      "text": "compile is one of them we also are thinking maybe we should add the ability to",
-      "why_it_matters": "Announces planned improvements to agent capabilities including compile and publish tools to create more complete development feedback loops.",
-      "check": "fuzzy"
+      "text": "compile is one of them. We also are thinking maybe we should add the ability to publish it and we're looking into test execution.",
+      "why_it_matters": "Names the agent tools on the roadmap: compile, publish and test execution.",
+      "check": "exact"
+    },
+    {
+      "t": 1543,
+      "text": "We are actually working on that right now. So that's in the scope right now.",
+      "why_it_matters": "Shows the full compile, publish and test loop is in development and not yet available.",
+      "check": "exact"
     },
     {
       "t": 1566.9,

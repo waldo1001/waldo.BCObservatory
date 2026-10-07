@@ -600,10 +600,10 @@
       "check": "exact"
     },
     {
-      "t": 23.5,
-      "text": "very very small and if this video would be focused only on those it will be",
-      "why_it_matters": "Indicates this release adds four small capabilities, suggesting incremental rather than major changes",
-      "check": "fuzzy"
+      "t": 6.2,
+      "text": "in this release we added four capabilities four sounds long but in reality they're very very small",
+      "why_it_matters": "Frames the video: few new additions this wave, mostly a review of existing troubleshooting tools.",
+      "check": "exact"
     },
     {
       "t": 43,
@@ -670,6 +670,12 @@
       "text": "we have a shopify order line number it's not blank so it's a good sign",
       "why_it_matters": "Diagnostic indicator for identifying whether a sales order lost its connection to Shopify data",
       "check": "fuzzy"
+    },
+    {
+      "t": 1309.8,
+      "text": "you can see there is a Shopify fulfillment ID and it has like minus one and it is editable",
+      "why_it_matters": "Explains how to recognize a failed shipment sync on a posted sales shipment.",
+      "check": "exact"
     }
   ],
   "disclaimers": [

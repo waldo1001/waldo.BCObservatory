@@ -117,6 +117,12 @@
       "text": "Clicking optimize sends the information to co-pilot so it can generate a optimize schedule across these three machines.",
       "why_it_matters": "Describes the core workflow - user input flows to Copilot which generates the optimized schedule.",
       "check": "exact"
+    },
+    {
+      "t": 55.7,
+      "text": "click load simulation which loads our planning board with an optimized schedule across these three machines",
+      "why_it_matters": "Shows how the Copilot-generated schedule is applied to the planning board.",
+      "check": "exact"
     }
   ],
   "disclaimers": [],

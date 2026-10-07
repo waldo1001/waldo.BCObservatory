@@ -1,0 +1,26 @@
+{
+  "video_id": "Tl2B-85JQIw",
+  "item_id": "video/yt-microsoft/Tl2B-85JQIw",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All six quotes match the transcript word for word and support the page.",
+    "The transcript states availability in 27.1 (from November) in the future tense. The main feature is now set to announced with that line as evidence.",
+    "One key point said 'ongoing purchase orders', but the transcript only says 'ongoing purchase'. It now reads 'ongoing purchase documents' to match.",
+    "The summary is supported and is kept as is."
+  ],
+  "input_hash": "d831ee978dbc8154547fb7c972026c67d192550d494886d2ee652b1205c1a049",
+  "by": "opus",
+  "at": "2026-10-07T22:54:31.611Z",
+  "applied": [
+    "Account Payable Role Center: status announced",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.045489
+  }
+}

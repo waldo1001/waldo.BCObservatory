@@ -16,12 +16,12 @@ tags:
   - customer self-service
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:54:28.419Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:54:28.460Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -177,7 +177,7 @@ quotes:
 
 > Copilot Chat in Business Central can answer questions about installed add-on apps using the app's public online documentation, found through Bing search. The video covers the help property in app.json and the documentation requirements partners must meet: public access, Bing indexing, and a shallow site structure.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=sv1utmneaXA) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-10-01 · 8:01 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=sv1utmneaXA) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-10-01 · 8:01 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -208,14 +208,14 @@ It then explains how this works and what partners must do. The app.json file nee
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Copilot Chat with app documentation | status not stated, demoed | [0:43](https://www.youtube.com/watch?v=sv1utmneaXA&t=43s) |  |
-| Help property in app.json | status not stated | [4:31](https://www.youtube.com/watch?v=sv1utmneaXA&t=271s) |  |
-| Bing search integration with Copilot | status not stated | [3:19](https://www.youtube.com/watch?v=sv1utmneaXA&t=199s) |  |
-| Bing Webmaster Tools integration | status not stated | [5:07](https://www.youtube.com/watch?v=sv1utmneaXA&t=307s) |  |
-| Documentation site structure requirements | status not stated | [5:34](https://www.youtube.com/watch?v=sv1utmneaXA&t=334s) |  |
-| Documentation format support | status not stated | [5:56](https://www.youtube.com/watch?v=sv1utmneaXA&t=356s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Copilot Chat with app documentation | status not stated, demoed | [0:43](https://www.youtube.com/watch?v=sv1utmneaXA&t=43s) |
+| Help property in app.json | status not stated | [4:31](https://www.youtube.com/watch?v=sv1utmneaXA&t=271s) |
+| Bing search integration with Copilot | status not stated | [3:19](https://www.youtube.com/watch?v=sv1utmneaXA&t=199s) |
+| Bing Webmaster Tools integration | status not stated | [5:07](https://www.youtube.com/watch?v=sv1utmneaXA&t=307s) |
+| Documentation site structure requirements | status not stated | [5:34](https://www.youtube.com/watch?v=sv1utmneaXA&t=334s) |
+| Documentation format support | status not stated | [5:56](https://www.youtube.com/watch?v=sv1utmneaXA&t=356s) |
 
 ## AL objects mentioned
 

@@ -180,9 +180,9 @@
       "check": "exact"
     },
     {
-      "t": 317.6,
-      "text": "but only a little more than 1 second uh running AL, right? Because most of the time which we can now see in new",
-      "why_it_matters": "Concrete demo result showing how SQL call tracking reveals performance bottlenecks that were not visible before",
+      "t": 400.1,
+      "text": "you can now see which calls are made to SQL during a performance profile and therefore better assess whether bad performance",
+      "why_it_matters": "This is the main value of the feature: it shows whether slowness comes from the AL code or from the SQL calls it makes.",
       "check": "exact"
     },
     {

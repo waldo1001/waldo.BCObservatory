@@ -18,12 +18,12 @@ tags:
   - customer synchronization
 system: integration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:54:42.571Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:54:42.609Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -65,6 +65,13 @@ evidence:
     commit: null
     t: 323
     quote: Now, when order will be imported from Shopify into Business Central, the correct sell to customer will be assigned automatically.
+  - kind: video
+    url: https://www.youtube.com/watch?v=VjYMhjjc3uw&t=384s
+    title: "What's New in Shopify Connector: Shopify B2B Companies and Company Locations (2025 release wave 2)"
+    date: "2025-10-01T00:00:00Z"
+    commit: null
+    t: 384
+    quote: So all of this uh depends on the setting in the business central if you want to create catalogs automatically or not.
 links:
   learn: []
   objects: []
@@ -175,13 +182,16 @@ quotes:
   - t: 323
     text: Now, when order will be imported from Shopify into Business Central, the correct sell to customer will be assigned automatically.
     check: exact
+  - t: 384
+    text: So all of this uh depends on the setting in the business central if you want to create catalogs automatically or not.
+    check: exact
 ---
 
 # What's New in Shopify Connector: Shopify B2B Companies and Company Locations (2025 release wave 2)
 
 > Shopify Connector support for Shopify B2B companies with multiple locations in Business Central (2025 release wave 2). Covers importing B2B orders, the Shopify Companies and Locations lists, mapping locations to sell-to and bill-to customers, and pushing Business Central customers to Shopify as companies.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=VjYMhjjc3uw) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-10-01 · 6:58 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=VjYMhjjc3uw) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-10-01 · 6:58 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -191,13 +201,12 @@ The demo imports B2B orders from several locations, then shows the new Shopify C
 
 ## Key points
 
-- Shopify B2B company locations can have different addresses, payment terms and buyers. Each legal entity must be a customer in Business Central.
-- The Shopify Companies list is new. It has a fact box with the number of locations per company. Companies are mapped to customers by tax ID.
-- The Shopify Locations list shows address, tax information and payment terms. It has sell-to and bill-to customer number fields for mapping.
-- Once locations are mapped, imported orders get the correct sell-to and bill-to customers automatically.
-- Advanced scenarios, where locations of one company map to different customers, may need manual mapping configuration.
-- Business Central customers can be pushed to Shopify as a company with multiple locations. This needs existing customers with tax and address information.
-- Separate catalogs per location can be created automatically if the matching configuration setting is enabled.
+- Shopify B2B company locations can have different addresses, payment terms and buyers, and each location can represent a different legal entity. In Business Central, each legal entity is a customer.
+- The Shopify Companies list shows companies and a fact box with the number of locations. In the demo, the company was mapped to a customer automatically by tax ID.
+- The Shopify Locations list shows address, tax information and payment terms. It has sell-to and bill-to customer number fields for more advanced mapping scenarios.
+- Without location mapping, all imported orders went to the same customer. After locations were mapped to different sell-to and bill-to customers, re-synced orders got those customers.
+- Business Central customers can be pushed to Shopify. You add a company, then use 'add customers as Shopify locations', which fills in tax registration, address, payment terms and sell-to/bill-to customers.
+- Whether separate catalogs are created per location depends on a setting in Business Central.
 
 ## Chapters
 
@@ -211,16 +220,16 @@ The demo imports B2B orders from several locations, then shows the new Shopify C
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Shopify B2B Companies with Multiple Locations | generally available (roadmap [573342](../features/573342.md)), demoed | [0:06](https://www.youtube.com/watch?v=VjYMhjjc3uw&t=6s) |  |
-| Shopify Orders Import | generally available (roadmap [573342](../features/573342.md)), demoed | [1:14](https://www.youtube.com/watch?v=VjYMhjjc3uw&t=74s) |  |
-| Shopify Companies List | generally available (roadmap [573342](../features/573342.md)), demoed | [1:32](https://www.youtube.com/watch?v=VjYMhjjc3uw&t=92s) |  |
-| Shopify Locations List | generally available (roadmap [573342](../features/573342.md)), demoed | [1:59](https://www.youtube.com/watch?v=VjYMhjjc3uw&t=119s) |  |
-| Location-to-Customer Mapping | generally available (roadmap [573342](../features/573342.md)), demoed | [2:32](https://www.youtube.com/watch?v=VjYMhjjc3uw&t=152s) |  |
-| Order Synchronization with Location Mapping | generally available (roadmap [573342](../features/573342.md)), demoed | [3:05](https://www.youtube.com/watch?v=VjYMhjjc3uw&t=185s) |  |
-| Push Business Central Customers to Shopify | status not stated, demoed | [4:13](https://www.youtube.com/watch?v=VjYMhjjc3uw&t=253s) |  |
-| Automatic Catalog Creation for Locations | status not stated, demoed | [6:00](https://www.youtube.com/watch?v=VjYMhjjc3uw&t=360s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Shopify B2B Companies with Multiple Locations | generally available (roadmap [573342](../features/573342.md)), demoed | [0:06](https://www.youtube.com/watch?v=VjYMhjjc3uw&t=6s) |
+| Shopify Orders Import | generally available (roadmap [573342](../features/573342.md)), demoed | [1:14](https://www.youtube.com/watch?v=VjYMhjjc3uw&t=74s) |
+| Shopify Companies List | generally available (roadmap [573342](../features/573342.md)), demoed | [1:32](https://www.youtube.com/watch?v=VjYMhjjc3uw&t=92s) |
+| Shopify Locations List | generally available (roadmap [573342](../features/573342.md)), demoed | [1:59](https://www.youtube.com/watch?v=VjYMhjjc3uw&t=119s) |
+| Location-to-Customer Mapping | generally available (roadmap [573342](../features/573342.md)), demoed | [2:32](https://www.youtube.com/watch?v=VjYMhjjc3uw&t=152s) |
+| Order Synchronization with Location Mapping | generally available (roadmap [573342](../features/573342.md)), demoed | [3:05](https://www.youtube.com/watch?v=VjYMhjjc3uw&t=185s) |
+| Push Business Central Customers to Shopify | status not stated, demoed | [4:13](https://www.youtube.com/watch?v=VjYMhjjc3uw&t=253s) |
+| Automatic Catalog Creation for Locations | status not stated, demoed | [6:00](https://www.youtube.com/watch?v=VjYMhjjc3uw&t=360s) |
 
 A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
@@ -242,3 +251,4 @@ Not found in BC28-30: page "Shopify Companies", page "Shopify Locations", page "
 - [1:44](https://www.youtube.com/watch?v=VjYMhjjc3uw&t=104s) "Actually list of companies contains only one company because this is the number of companies we had in the Shopify and you can see"
 - [2:32](https://www.youtube.com/watch?v=VjYMhjjc3uw&t=152s) "And this one you can use for more advanced mapping scenarios."
 - [5:23](https://www.youtube.com/watch?v=VjYMhjjc3uw&t=323s) "Now, when order will be imported from Shopify into Business Central, the correct sell to customer will be assigned automatically."
+- [6:24](https://www.youtube.com/watch?v=VjYMhjjc3uw&t=384s) "So all of this uh depends on the setting in the business central if you want to create catalogs automatically or not."

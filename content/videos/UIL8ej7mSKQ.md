@@ -16,25 +16,18 @@ tags:
   - european availability
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:55:08.140Z"
   flags: []
 generated:
-  at: "2026-10-06T18:29:43.993Z"
+  at: "2026-10-07T22:55:08.179Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
     summarize-video: 2
   input_hash: dd55e34246023fffc3a694c65eae1d29371c7c98d466b97c644313e795acaf1a
 evidence:
-  - kind: video
-    url: https://www.youtube.com/watch?v=UIL8ej7mSKQ&t=52s
-    title: "Sales order agent multiple shipping addresses: generally available"
-    date: "2025-09-16T14:44:05.000Z"
-    commit: null
-    t: 52
-    quote: The agent now recognizes requests for a specific shipping address, searching for it among the addresses registered for that customer
   - kind: video
     url: https://www.youtube.com/watch?v=UIL8ej7mSKQ&t=98s
     title: "Sales order agent European availability: generally available"
@@ -139,9 +132,9 @@ features:
     verified: false
     status_source: video
   - name: Sales order agent multiple shipping addresses
-    status: ga
+    status: unclear
     t: 52
-    verified: true
+    verified: false
     status_source: video
   - name: Sales order agent alternative delivery dates
     status: unclear
@@ -191,7 +184,7 @@ quotes:
 
 > Business Central 2025 release wave 2 AI updates: sales order agent improvements (automatic email processing, shipping addresses, alternative dates, natural language guidance, availability in five European countries), the Payables agent in public preview, and the MCP server for Business Central in public preview.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=UIL8ej7mSKQ) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-09-16 · 3:22 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=UIL8ej7mSKQ) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-09-16 · 3:22 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -201,13 +194,13 @@ The video then covers the Payables agent, which handles vendor invoices from ema
 
 ## Key points
 
-- The sales order agent can be configured to process incoming emails from registered customers automatically, with no manual approval to start. A user reviews and approves before the quote or order is sent.
-- The agent recognizes requested shipping addresses and finds them among the addresses already registered for the customer, then records the address on the quote. Addresses must be pre-registered in Business Central.
+- The sales order agent can be configured to process incoming emails from registered customers automatically, with no manual approval to start. A user is notified to review and approve the response before it goes out.
+- The agent recognizes requests for a specific shipping address, searches for it among the addresses registered for that customer in Business Central, and records it on the generated quote.
 - If a requested shipping date cannot be met, the agent suggests alternative dates the company can promise.
-- When the agent cannot resolve a scenario, users can give natural language instructions to guide it instead of restarting the process.
-- The sales order agent is generally available in Denmark, Spain, Germany, France and Italy.
-- The Payables agent is in public preview in four English-speaking countries, with general availability described as coming soon. It reads invoice attachments from emails, classifies expenses, uses purchase history and creates purchase invoice documents. The finance team reviews before posting.
-- The MCP server for Business Central is in public preview. It lets agent builders such as Copilot Studio or third-party platforms build custom agents that access Business Central data from Microsoft 365, Teams, Outlook or other systems.
+- When the agent cannot resolve a scenario, users can give natural language instructions to guide it instead of restarting the process; it picks up where it left off.
+- The sales order agent and its latest capabilities are now available in Denmark, Spain, Germany, France and Italy.
+- The Payables agent is in public preview in four English-speaking countries, with general availability described as coming soon. It reads invoice attachments from emails, classifies expenses, uses purchase history and creates purchase invoice documents for review. The finance team is looped in to post.
+- The MCP server for Business Central is in public preview. It lets agent builders such as Copilot Studio or third-party platforms securely access Business Central data via the MCP protocol, so custom agents can work from Microsoft 365 Copilot, Teams, Outlook or other systems.
 
 ## Chapters
 
@@ -226,7 +219,7 @@ The video then covers the Payables agent, which handles vendor invoices from ema
 | Feature | Status | At | Evidence |
 |---|---|---|---|
 | Sales order agent automatic email processing | status not stated | [0:26](https://www.youtube.com/watch?v=UIL8ej7mSKQ&t=26s) |  |
-| Sales order agent multiple shipping addresses | generally available | [0:52](https://www.youtube.com/watch?v=UIL8ej7mSKQ&t=52s) | "The agent now recognizes requests for a specific shipping address, searching for it among the addresses registered for that customer" ([0:52](https://www.youtube.com/watch?v=UIL8ej7mSKQ&t=52s)) |
+| Sales order agent multiple shipping addresses | status not stated | [0:52](https://www.youtube.com/watch?v=UIL8ej7mSKQ&t=52s) |  |
 | Sales order agent alternative delivery dates | status not stated | [1:09](https://www.youtube.com/watch?v=UIL8ej7mSKQ&t=69s) |  |
 | Sales order agent natural language guidance | status not stated | [1:21](https://www.youtube.com/watch?v=UIL8ej7mSKQ&t=81s) |  |
 | Sales order agent European availability | generally available | [1:38](https://www.youtube.com/watch?v=UIL8ej7mSKQ&t=98s) | "the sales order agent and its latest capabilities are now available in Denmark, Spain, Germany, France, and Italy" ([1:38](https://www.youtube.com/watch?v=UIL8ej7mSKQ&t=98s)) |

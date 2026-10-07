@@ -1,0 +1,33 @@
+{
+  "video_id": "IIdtxatSw7A",
+  "item_id": "video/yt-microsoft/IIdtxatSw7A",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "The summary gives a date (Aug 2025) that the transcript does not support. Rewrote the summary without it.",
+    "Duplicate features: 'Threat Intelligence Cascading' repeats 'Threat Intelligence Sharing Network', and 'Dynamics 365 bug bounty program' repeats 'Dynamics 365 Bounty Program'. Dropped the duplicates.",
+    "'Microsoft Defender for X series' is only mentioned in passing as a general Microsoft product family. It is not a Business Central feature, so I dropped it.",
+    "The Purview evidence quote starts in segment 1209, not 1194.9. Corrected evidence_t.",
+    "Dropped three low-value fragment quotes (1138, 1900.9, 2401).",
+    "Added quotes on secure by default, cloud bug transparency reporting and the 2019 red team exercise."
+  ],
+  "input_hash": "c78280ad4e8d19436a66229dfd7a45463b823ba09bf5e51387cd1ec2b69b710b",
+  "by": "opus",
+  "at": "2026-10-07T22:55:47.261Z",
+  "applied": [
+    "dropped 3 feature(s)",
+    "Auditing and Security Logs to Purview: status ga",
+    "dropped 3 quote(s)",
+    "quote at 714s",
+    "quote at 1614s",
+    "quote at 1769s",
+    "summary rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.25959699999999997
+  }
+}

@@ -18,12 +18,12 @@ tags:
   - general availability
 system: purchasing
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:54:52.063Z"
   flags: []
 generated:
-  at: "2026-10-06T18:29:02.433Z"
+  at: "2026-10-07T22:54:52.140Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -31,12 +31,19 @@ generated:
   input_hash: 0e6e3dbad1519863276dcce6866519f8e811d66af41c3fe7732f14f952003c38
 evidence:
   - kind: video
-    url: https://www.youtube.com/watch?v=Xc3ISQ7NAaQ&t=98s
+    url: https://www.youtube.com/watch?v=Xc3ISQ7NAaQ&t=112s
     title: "AI-powered invoice processing: preview"
     date: "2025-10-01T00:00:00Z"
     commit: null
-    t: 98
-    quote: right now the payables agent is in preview
+    t: 112
+    quote: So the agent is in preview in four countries United States, United Kingdom, Australia and New Zealand
+  - kind: video
+    url: https://www.youtube.com/watch?v=Xc3ISQ7NAaQ&t=612s
+    title: "General availability rollout: announced"
+    date: "2025-10-01T00:00:00Z"
+    commit: null
+    t: 612
+    quote: What we're doing next and coming up in this wave is we want to make the agent available to as many customers as possible.
   - kind: video
     url: https://www.youtube.com/watch?v=Xc3ISQ7NAaQ&t=20s
     title: "What's New: Payables Agent Update (2025 release wave 2)"
@@ -193,9 +200,9 @@ features:
     verified: false
     status_source: video
   - name: General availability rollout
-    status: unclear
+    status: announced
     t: 612
-    verified: false
+    verified: true
     status_source: video
   - name: Continuous learning from usage
     status: unclear
@@ -234,7 +241,7 @@ quotes:
 
 > Payables agent in Business Central (2025 release wave 2): AI-powered vendor invoice processing, in preview in the US, UK, Australia and New Zealand. The video demos email-based PDF ingestion, draft review with reasoning, and vendor creation with blocking, then covers the roadmap.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=Xc3ISQ7NAaQ) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-10-01 · 14:44 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=Xc3ISQ7NAaQ) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-10-01 · 14:44 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -267,7 +274,7 @@ It also covers setup, which needs little configuration and no mapping of items o
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| AI-powered invoice processing | preview, demoed | [0:50](https://www.youtube.com/watch?v=Xc3ISQ7NAaQ&t=50s) | "right now the payables agent is in preview" ([1:38](https://www.youtube.com/watch?v=Xc3ISQ7NAaQ&t=98s)) |
+| AI-powered invoice processing | preview, demoed | [0:50](https://www.youtube.com/watch?v=Xc3ISQ7NAaQ&t=50s) | "So the agent is in preview in four countries United States, United Kingdom, Australia and New Zealand" ([1:52](https://www.youtube.com/watch?v=Xc3ISQ7NAaQ&t=112s)) |
 | Email-based invoice ingestion | status not stated, demoed | [2:39](https://www.youtube.com/watch?v=Xc3ISQ7NAaQ&t=159s) |  |
 | Draft invoice review with reasoning | status not stated, demoed | [3:55](https://www.youtube.com/watch?v=Xc3ISQ7NAaQ&t=235s) |  |
 | Vendor creation with blocking | status not stated, demoed | [6:06](https://www.youtube.com/watch?v=Xc3ISQ7NAaQ&t=366s) |  |
@@ -279,7 +286,7 @@ It also covers setup, which needs little configuration and no mapping of items o
 | Approval automation | status not stated | [13:19](https://www.youtube.com/watch?v=Xc3ISQ7NAaQ&t=799s) |  |
 | Autonomous invoice posting | status not stated | [13:39](https://www.youtube.com/watch?v=Xc3ISQ7NAaQ&t=819s) |  |
 | Payment suggestions | status not stated | [13:39](https://www.youtube.com/watch?v=Xc3ISQ7NAaQ&t=819s) |  |
-| General availability rollout | status not stated | [10:12](https://www.youtube.com/watch?v=Xc3ISQ7NAaQ&t=612s) |  |
+| General availability rollout | announced | [10:12](https://www.youtube.com/watch?v=Xc3ISQ7NAaQ&t=612s) | "What we're doing next and coming up in this wave is we want to make the agent available to as many customers as possible." ([10:12](https://www.youtube.com/watch?v=Xc3ISQ7NAaQ&t=612s)) |
 | Continuous learning from usage | status not stated | [1:26](https://www.youtube.com/watch?v=Xc3ISQ7NAaQ&t=86s) |  |
 
 ## Quotes

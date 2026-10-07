@@ -193,27 +193,6 @@
         "e-documents"
       ],
       "system": "sales"
-    },
-    {
-      "name": "EFTI Regulation Support",
-      "description": "Support for European Union EFTI regulation for electronic transport documents, with localization to be provided if the regulation becomes mandatory.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 85,
-      "t_end": 116.6,
-      "is_demoed": false,
-      "caveats": [
-        "Status is contingent on regulatory requirements becoming mandatory"
-      ],
-      "tags": [
-        "efti",
-        "regulation",
-        "localization",
-        "announced"
-      ],
-      "system": "localization"
     }
   ],
   "objects": [
@@ -267,6 +246,12 @@
       "t": 207.1,
       "text": "Currently in the system we do not have some specific uh file uh for specific localization. This is just example you can use in",
       "why_it_matters": "Indicates that the current implementation is demo-level and localization is pending for specific countries.",
+      "check": "exact"
+    },
+    {
+      "t": 400,
+      "text": "you can now on any given location go under warehouse and then see that we have a new field",
+      "why_it_matters": "Shows where the new transfer document sending profile setting is located.",
       "check": "exact"
     },
     {

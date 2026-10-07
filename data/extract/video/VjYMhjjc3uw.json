@@ -269,6 +269,12 @@
       "text": "Now, when order will be imported from Shopify into Business Central, the correct sell to customer will be assigned automatically.",
       "why_it_matters": "Confirms that order synchronization uses the configured location-to-customer mappings to assign customers automatically.",
       "check": "exact"
+    },
+    {
+      "t": 384.2,
+      "text": "So all of this uh depends on the setting in the business central if you want to create catalogs automatically or not.",
+      "why_it_matters": "Shows that catalog creation per location depends on a Business Central setting.",
+      "check": "exact"
     }
   ],
   "disclaimers": [],

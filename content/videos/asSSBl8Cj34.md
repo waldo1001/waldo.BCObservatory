@@ -15,12 +15,12 @@ tags:
   - 2025 wave 2
 system: administration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:55:36.604Z"
   flags: []
 generated:
-  at: "2026-10-06T18:31:00.255Z"
+  at: "2026-10-07T22:55:36.643Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -69,6 +69,13 @@ evidence:
     commit: null
     t: 154
     quote: After choosing no, we see that the permissions were not merged. Instead, the vendor table was removed and contacts were added exactly as defined
+  - kind: video
+    url: https://www.youtube.com/watch?v=asSSBl8Cj34&t=168s
+    title: "What's Cooking in Business Central: Replace Permission Sets Upon Import"
+    date: "2025-08-21T15:00:03.000Z"
+    commit: null
+    t: 168
+    quote: With this improvement, you no longer have to manually delete existing permissions before importing a new set.
 links:
   learn: []
   objects: []
@@ -128,13 +135,16 @@ quotes:
   - t: 154
     text: After choosing no, we see that the permissions were not merged. Instead, the vendor table was removed and contacts were added exactly as defined
     check: exact
+  - t: 168
+    text: With this improvement, you no longer have to manually delete existing permissions before importing a new set.
+    check: exact
 ---
 
 # What's Cooking in Business Central: Replace Permission Sets Upon Import
 
 > Replace permission sets upon import is announced for the Business Central 2025 wave 2 release. The Import permission sets action can now overwrite existing permissions instead of merging them, by answering no at the update prompt. A short demo shows the result.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=asSSBl8Cj34) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-08-21 · 3:09 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=asSSBl8Cj34) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-08-21 · 3:09 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -149,6 +159,7 @@ The 2025 wave 2 release adds a replace option. When the user selects no at the p
 - To replace instead of merge, select no when prompted to update existing permissions.
 - In the demo, after choosing no, the vendor table permission was removed and contacts were added exactly as defined in the import.
 - The use case is moving permission sets between environments, such as test to production, where the imported definition should be the final result.
+- With this change, you no longer need to manually delete existing permissions before importing a new set.
 
 ## Chapters
 
@@ -172,6 +183,7 @@ The 2025 wave 2 release adds a replace option. When the user selects no at the p
 - [1:09](https://www.youtube.com/watch?v=asSSBl8Cj34&t=69s) "If we confirmed with yes, the system would behave as expected, merging permissions from the test and production environment."
 - [2:19](https://www.youtube.com/watch?v=asSSBl8Cj34&t=139s) "To overrite the existing permissions instead of merging them we must select no when prompted."
 - [2:34](https://www.youtube.com/watch?v=asSSBl8Cj34&t=154s) "After choosing no, we see that the permissions were not merged. Instead, the vendor table was removed and contacts were added exactly as defined"
+- [2:48](https://www.youtube.com/watch?v=asSSBl8Cj34&t=168s) "With this improvement, you no longer have to manually delete existing permissions before importing a new set."
 
 ## Disclaimers in the video
 

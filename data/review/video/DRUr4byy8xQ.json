@@ -1,0 +1,27 @@
+{
+  "video_id": "DRUr4byy8xQ",
+  "item_id": "video/yt-microsoft/DRUr4byy8xQ",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Key point 2 says the agent must be disabled before changing its profile. The transcript only says to disable the agent before adding permissions (t=136.8), so that claim was removed.",
+    "The summary said the video was from September 2025. The transcript gives no month, so the date was removed.",
+    "All 6 quotes are verbatim spans or differ only in case or across segment boundaries, so they are kept.",
+    "All 5 features are marked unclear. The transcript never states a preview or GA status, so that is correct."
+  ],
+  "input_hash": "e58993189a862c8f70f00d44298b4717787eb19f58d36d73df115f876cbdef4e",
+  "by": "opus",
+  "at": "2026-10-07T22:55:05.015Z",
+  "applied": [
+    "quote at 137s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.050545
+  }
+}

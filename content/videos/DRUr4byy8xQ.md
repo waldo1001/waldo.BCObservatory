@@ -2,7 +2,7 @@
 id: video/DRUr4byy8xQ
 type: video
 title: "Getting Started With Agents: Agent Access Control - Permissions and Profiles (2025)"
-summary: "Agent access control in Business Central: how the sales order agent's access is defined by permissions and profiles, how administrators customize both, troubleshoot with agent log entries, and manage which users can access the agent. Demoed in a 3-minute video from September 2025."
+summary: "Agent access control in Business Central: the sales order agent's access is defined by permissions and profiles like any other user. Administrators can customize the pre-built profile and permission set, use agent log entries to troubleshoot issues such as missing permissions (disabling the agent before adding permissions), and manage which users can access the agent pane."
 tier: official
 language: en
 tags:
@@ -16,12 +16,12 @@ tags:
   - security
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:55:05.015Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:55:05.053Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -63,6 +63,13 @@ evidence:
     commit: null
     t: 121
     quote: Agent log entries give you a complete overview of the steps the agent performed while working on a task, including the pages it navigated
+  - kind: video
+    url: https://www.youtube.com/watch?v=DRUr4byy8xQ&t=136s
+    title: "Getting Started With Agents: Agent Access Control - Permissions and Profiles (2025)"
+    date: "2025-09-24T07:47:44.000Z"
+    commit: null
+    t: 136
+    quote: To fix this, you'll first need to disable the agent before adding the required permissions.
   - kind: video
     url: https://www.youtube.com/watch?v=DRUr4byy8xQ&t=178s
     title: "Getting Started With Agents: Agent Access Control - Permissions and Profiles (2025)"
@@ -151,6 +158,9 @@ quotes:
   - t: 121
     text: Agent log entries give you a complete overview of the steps the agent performed while working on a task, including the pages it navigated
     check: exact
+  - t: 136
+    text: To fix this, you'll first need to disable the agent before adding the required permissions.
+    check: exact
   - t: 178
     text: With agent permissions and profiles, Business Central administrators stay in full control of the agents access.
     check: exact
@@ -158,9 +168,9 @@ quotes:
 
 # Getting Started With Agents: Agent Access Control - Permissions and Profiles (2025)
 
-> Agent access control in Business Central: how the sales order agent's access is defined by permissions and profiles, how administrators customize both, troubleshoot with agent log entries, and manage which users can access the agent. Demoed in a 3-minute video from September 2025.
+> Agent access control in Business Central: the sales order agent's access is defined by permissions and profiles like any other user. Administrators can customize the pre-built profile and permission set, use agent log entries to troubleshoot issues such as missing permissions (disabling the agent before adding permissions), and manage which users can access the agent pane.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=DRUr4byy8xQ) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-09-24 · 3:10 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=DRUr4byy8xQ) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-09-24 · 3:10 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -171,11 +181,11 @@ It walks through the pre-built agent profile and permission set, how to customiz
 ## Key points
 
 - The agent has the same attributes as any other user, and its access is set by permissions and profiles.
-- A pre-built profile ships with the agent. You can add or remove pages, actions and other controls, but the agent must be disabled before you change it.
+- A pre-built profile ships with the agent. You can customize it by adding or removing pages, actions and other controls as needed.
 - You can switch to the assigned profile to verify which pages and controls the agent can reach.
 - A pre-built permission set is provided to get started. Review it and modify it as needed.
-- Custom apps or customizations that extend the process may need extra permissions, and the agent may hit permission errors without them.
-- Agent log entries show the pages the agent navigated to, the actions it invoked and the issues it hit. Disable the agent before adding permissions to fix issues.
+- AppSource apps or customizations that extend the process may need extra permissions, and the agent may hit permission errors without them.
+- Agent log entries show the pages the agent navigated to, the actions it invoked and the issues it hit. Disable the agent before adding permissions to fix issues, then enable it again.
 - Administrators can add users who access the agent pane to review and approve steps, and can grant or revoke the right to manage agent configuration.
 
 ## Chapters
@@ -190,13 +200,13 @@ It walks through the pre-built agent profile and permission set, how to customiz
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Sales Order Agent | status not stated, demoed | [0:03](https://www.youtube.com/watch?v=DRUr4byy8xQ&t=3s) |  |
-| Agent Profile Customization | status not stated, demoed | [0:59](https://www.youtube.com/watch?v=DRUr4byy8xQ&t=59s) |  |
-| Agent Permission Sets | status not stated, demoed | [1:24](https://www.youtube.com/watch?v=DRUr4byy8xQ&t=84s) |  |
-| Agent Log Entries | status not stated, demoed | [2:01](https://www.youtube.com/watch?v=DRUr4byy8xQ&t=121s) |  |
-| Agent User Management | status not stated, demoed | [2:37](https://www.youtube.com/watch?v=DRUr4byy8xQ&t=157s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Sales Order Agent | status not stated, demoed | [0:03](https://www.youtube.com/watch?v=DRUr4byy8xQ&t=3s) |
+| Agent Profile Customization | status not stated, demoed | [0:59](https://www.youtube.com/watch?v=DRUr4byy8xQ&t=59s) |
+| Agent Permission Sets | status not stated, demoed | [1:24](https://www.youtube.com/watch?v=DRUr4byy8xQ&t=84s) |
+| Agent Log Entries | status not stated, demoed | [2:01](https://www.youtube.com/watch?v=DRUr4byy8xQ&t=121s) |
+| Agent User Management | status not stated, demoed | [2:37](https://www.youtube.com/watch?v=DRUr4byy8xQ&t=157s) |
 
 ## AL objects mentioned
 
@@ -212,6 +222,7 @@ As heard in the captions. A name that matches one object page by exact type and 
 - [1:10](https://www.youtube.com/watch?v=DRUr4byy8xQ&t=70s) "The agent comes with a pre-built profile out of the box, and you can easily customize it, adding or removing pages, actions, and other"
 - [1:24](https://www.youtube.com/watch?v=DRUr4byy8xQ&t=84s) "The sales order agent comes with a pre-built permission set to help you get started quickly."
 - [2:01](https://www.youtube.com/watch?v=DRUr4byy8xQ&t=121s) "Agent log entries give you a complete overview of the steps the agent performed while working on a task, including the pages it navigated"
+- [2:16](https://www.youtube.com/watch?v=DRUr4byy8xQ&t=136s) "To fix this, you'll first need to disable the agent before adding the required permissions."
 - [2:58](https://www.youtube.com/watch?v=DRUr4byy8xQ&t=178s) "With agent permissions and profiles, Business Central administrators stay in full control of the agents access."
 
 ## Disclaimers in the video

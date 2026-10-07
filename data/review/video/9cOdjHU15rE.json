@@ -1,0 +1,28 @@
+{
+  "video_id": "9cOdjHU15rE",
+  "item_id": "video/yt-microsoft/9cOdjHU15rE",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "The summary gives a publish date (2025-08-19) that the transcript never states. Removed.",
+    "Key point 1 says item copy generation 'was demoed'. Nobody demos it; Dona Sarkar describes using it in her own retail business.",
+    "Adaptive UX is marked 'announced', but the speaker is predicting a general trend for the next wave of apps ('We're going to start seeing changes in apps'). It is not a product announcement. Set to unclear and reworded the summary and key point.",
+    "The BC Sales Agent description goes too far by calling it a feature for 'sales-related tasks'. The transcript only names it among BC's early AI and copilot features.",
+    "All quotes checked as verbatim. The Copilot Studio and item description features are presented as available now, but no preview or GA status is stated, so unclear is correct."
+  ],
+  "input_hash": "4166eac3a3f32b13dbe1f5eb9fb1cd16beb90ac04ca846fd2131e25105ca4d7f",
+  "by": "opus",
+  "at": "2026-10-07T22:55:51.543Z",
+  "applied": [
+    "Adaptive UX based on AI interaction: status unclear",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.10919300000000001
+  }
+}

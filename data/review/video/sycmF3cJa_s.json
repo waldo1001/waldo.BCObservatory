@@ -1,0 +1,32 @@
+{
+  "video_id": "sycmF3cJa_s",
+  "item_id": "video/yt-microsoft/sycmF3cJa_s",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All three quotes are verbatim; the 29s quote differs only in case and the leading 'So'.",
+    "The key point saying the schedule is loaded 'for execution' adds a claim the transcript does not make. The transcript says 'load simulation' loads the planning board with the optimized schedule.",
+    "The key point 'The demo covers print shop scheduling only' is not stated in the transcript, so it is removed.",
+    "Added the detail that Copilot is started from the Copilot icon on the PrintVis planning board, and the demo's actual choices (paper item number, avoid paper changes).",
+    "Added a quote about the load simulation step.",
+    "No release status is stated, so all features stay unclear."
+  ],
+  "input_hash": "6dbb4b75d6c166d58f5e7b1a37a70d29bcf43ee04a3e95ab06c66ae5432f5f31",
+  "by": "opus",
+  "at": "2026-10-07T22:55:51.416Z",
+  "applied": [
+    "Copilot Assisted Scheduling: status unclear",
+    "Optimization Options: status unclear",
+    "Schedule Loading: status unclear",
+    "quote at 56s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.044069
+  }
+}

@@ -13,12 +13,12 @@ tags:
   - signature validation
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:55:21.472Z"
   flags: []
 generated:
-  at: "2026-10-06T18:29:41.756Z"
+  at: "2026-10-07T22:55:21.511Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -46,6 +46,13 @@ evidence:
     commit: null
     t: 31
     quote: This can include text, images, hyperlinks, or any other elements you typically use in your professional email signature.
+  - kind: video
+    url: https://www.youtube.com/watch?v=j6gadQyB4gM&t=31s
+    title: "What's Cooking in Business Central: Custom Email Signatures in the Sales Order Agent"
+    date: "2025-09-15T14:01:17.000Z"
+    commit: null
+    t: 31
+    quote: Next, click on edit signature. A popup window will appear where you can enter your desired signature.
   - kind: video
     url: https://www.youtube.com/watch?v=j6gadQyB4gM&t=44s
     title: "What's Cooking in Business Central: Custom Email Signatures in the Sales Order Agent"
@@ -111,6 +118,9 @@ quotes:
   - t: 31
     text: This can include text, images, hyperlinks, or any other elements you typically use in your professional email signature.
     check: exact
+  - t: 31
+    text: Next, click on edit signature. A popup window will appear where you can enter your desired signature.
+    check: exact
   - t: 44
     text: the system will automatically validate the content to ensure nothing harmful or inappropriate has been included
     check: exact
@@ -123,7 +133,7 @@ quotes:
 
 > Custom email signatures in the Business Central Sales Order Agent: how to enable the option in the agent setup, what content a signature can hold, and how the system validates it on save. The signature is appended to the agent's first reply.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=j6gadQyB4gM) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-09-15 · 1:18 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=j6gadQyB4gM) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-09-15 · 1:18 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -133,11 +143,12 @@ The video walks through finding the setting in the agent configuration, entering
 
 ## Key points
 
-- To set it up, go to the agent section, select the agent, click Setup, move to the final panel and enable the signature option.
+- To set it up, go to the agent section, select the agent, click Setup, move to the final panel and enable the option labeled 'Include a signature in the first reply'.
+- Click Edit signature to open a popup window where you enter the signature.
 - The signature can be specific to a sales consultant or a generic company signature.
 - Content can include text, images, hyperlinks, or other elements used in a professional email signature.
-- On save, the system validates the content for harmful or inappropriate material and does not save the signature if issues are found.
-- The signature is appended only to the first reply from the agent to customer input.
+- When you click OK, the system validates the content for harmful or inappropriate material and prevents saving if issues are detected.
+- The video describes the signature as included in generated messages and appended to the agent's first reply to customer input.
 - Apart from the added signature, the agent behaves as usual.
 
 ## Chapters
@@ -149,15 +160,16 @@ The video walks through finding the setting in the agent configuration, entering
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Custom Email Signatures in Sales Order Agent | status not stated, demoed | [0:05](https://www.youtube.com/watch?v=j6gadQyB4gM&t=5s) |  |
-| Signature Content Validation | status not stated | [0:44](https://www.youtube.com/watch?v=j6gadQyB4gM&t=44s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Custom Email Signatures in Sales Order Agent | status not stated, demoed | [0:05](https://www.youtube.com/watch?v=j6gadQyB4gM&t=5s) |
+| Signature Content Validation | status not stated | [0:44](https://www.youtube.com/watch?v=j6gadQyB4gM&t=44s) |
 
 ## Quotes
 
 - [0:05](https://www.youtube.com/watch?v=j6gadQyB4gM&t=5s) "The ability to define a custom signature that will be automatically included in all generated messages."
 - [0:20](https://www.youtube.com/watch?v=j6gadQyB4gM&t=20s) "navigate to the agent section, select your agent, and click on setup. Then move to the final panel and enable the option label."
 - [0:31](https://www.youtube.com/watch?v=j6gadQyB4gM&t=31s) "This can include text, images, hyperlinks, or any other elements you typically use in your professional email signature."
+- [0:31](https://www.youtube.com/watch?v=j6gadQyB4gM&t=31s) "Next, click on edit signature. A popup window will appear where you can enter your desired signature."
 - [0:44](https://www.youtube.com/watch?v=j6gadQyB4gM&t=44s) "the system will automatically validate the content to ensure nothing harmful or inappropriate has been included"
 - [1:02](https://www.youtube.com/watch?v=j6gadQyB4gM&t=62s) "whenever the agent responds to customer input, it will behave as usual, but now with your custom signature appended to the first reply"

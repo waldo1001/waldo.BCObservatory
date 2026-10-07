@@ -1,0 +1,26 @@
+{
+  "video_id": "asSSBl8Cj34",
+  "item_id": "video/yt-microsoft/asSSBl8Cj34",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Facts, summary and feature statuses are supported by the transcript.",
+    "Announced status for the replace feature rests on 'what's coming in the 2025 wave 2 release', which is valid evidence.",
+    "Quotes at 69.8 and 154.8 differ only in punctuation or are truncated verbatim spans, so they are acceptable.",
+    "The page did not mention the stated benefit (no more manually deleting existing permissions before import), so I added a quote and a key point for it."
+  ],
+  "input_hash": "4e04309cc4a9bf4824e60390e1be42aedec3c2a2f21f77b4fbad0a4a0fbc54fd",
+  "by": "opus",
+  "at": "2026-10-07T22:55:36.604Z",
+  "applied": [
+    "quote at 169s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.040605
+  }
+}

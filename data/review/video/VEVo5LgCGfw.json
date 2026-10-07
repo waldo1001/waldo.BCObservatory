@@ -1,0 +1,28 @@
+{
+  "video_id": "VEVo5LgCGfw",
+  "item_id": "video/yt-microsoft/VEVo5LgCGfw",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All five quotes appear verbatim in the transcript, and the summary and key points are supported.",
+    "Every feature was marked unclear, but the transcript clearly states that each one is available. Set them to GA with verbatim evidence.",
+    "The page keeps the transcript's term 'PBX file' (as spoken)."
+  ],
+  "input_hash": "f0e166d9cc1c358bbcd611f0ec42cba16ddcde9ad05207b6dc1fb2bff1c4e0d5",
+  "by": "opus",
+  "at": "2026-10-07T22:54:43.793Z",
+  "applied": [],
+  "rejected_edits": [
+    "status Open-sourced Power BI apps for Business Central -> ga: evidence not verbatim or does not state the status",
+    "status Wave 1 Power BI apps open sourcing -> ga: evidence not verbatim or does not state the status",
+    "status Wave 2 Power BI apps for sales, purchasing, and projects -> ga: evidence not verbatim or does not state the status",
+    "status Download Power BI app source code via PBX file -> ga: evidence not verbatim or does not state the status",
+    "status Power BI app documentation including DAX expressions -> ga: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.06387300000000001
+  }
+}

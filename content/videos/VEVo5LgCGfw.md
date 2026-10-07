@@ -15,12 +15,12 @@ tags:
   - release wave 2
 system: reporting
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:54:43.793Z"
   flags: []
 generated:
-  at: "2026-10-06T18:27:59.446Z"
+  at: "2026-10-07T22:54:43.832Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -144,7 +144,7 @@ quotes:
 
 > Open sourcing of the Power BI apps for Business Central: most apps were open sourced in release wave 1, and the sales, purchasing and projects apps follow in wave 2. The video shows how to download the PBX file from Power BI service and where the app documentation, including DAX expressions, is found.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=VEVo5LgCGfw) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-10-01 · 5:50 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=VEVo5LgCGfw) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-10-01 · 5:50 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -173,13 +173,13 @@ It demonstrates downloading the PBX file through the File menu in Power BI servi
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Open-sourced Power BI apps for Business Central | status not stated, demoed | [0:06](https://www.youtube.com/watch?v=VEVo5LgCGfw&t=6s) |  |
-| Wave 1 Power BI apps open sourcing | status not stated | [0:44](https://www.youtube.com/watch?v=VEVo5LgCGfw&t=44s) |  |
-| Wave 2 Power BI apps for sales, purchasing, and projects | status not stated | [0:57](https://www.youtube.com/watch?v=VEVo5LgCGfw&t=57s) |  |
-| Download Power BI app source code via PBX file | status not stated, demoed | [1:29](https://www.youtube.com/watch?v=VEVo5LgCGfw&t=89s) |  |
-| Power BI app documentation including DAX expressions | status not stated | [2:21](https://www.youtube.com/watch?v=VEVo5LgCGfw&t=141s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Open-sourced Power BI apps for Business Central | status not stated, demoed | [0:06](https://www.youtube.com/watch?v=VEVo5LgCGfw&t=6s) |
+| Wave 1 Power BI apps open sourcing | status not stated | [0:44](https://www.youtube.com/watch?v=VEVo5LgCGfw&t=44s) |
+| Wave 2 Power BI apps for sales, purchasing, and projects | status not stated | [0:57](https://www.youtube.com/watch?v=VEVo5LgCGfw&t=57s) |
+| Download Power BI app source code via PBX file | status not stated, demoed | [1:29](https://www.youtube.com/watch?v=VEVo5LgCGfw&t=89s) |
+| Power BI app documentation including DAX expressions | status not stated | [2:21](https://www.youtube.com/watch?v=VEVo5LgCGfw&t=141s) |
 
 ## Quotes
 

@@ -1,0 +1,29 @@
+{
+  "video_id": "StIVhsnOHWY",
+  "item_id": "video/yt-microsoft/StIVhsnOHWY",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "The transcript supports the summary, key points and features.",
+    "Quote at 23.5 is a sentence fragment with no useful content. Dropped and replaced with the statement that this release added four small capabilities.",
+    "Added a quote about the Shopify fulfillment ID showing minus one, which supports a key point.",
+    "The 'Location filter and stock calculation options' description says there are three options but names only two. The captions themselves are garbled at that point, so the feature is kept.",
+    "Several feature t_start values are about 10 to 15 seconds early (Has error field for imported orders, Shopify fulfillment ID field, Fulfillment information). This is minor.",
+    "No feature has an explicit preview or GA statement, so every status stays unclear."
+  ],
+  "input_hash": "d3d470899cc1d4bc18fcb62b2421de7b38ec55ff205e6004df5bf172c4932a53",
+  "by": "opus",
+  "at": "2026-10-07T22:54:31.773Z",
+  "applied": [
+    "dropped 1 quote(s)",
+    "quote at 6s",
+    "quote at 1310s"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.12726500000000002
+  }
+}

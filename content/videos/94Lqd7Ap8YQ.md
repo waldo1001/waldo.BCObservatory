@@ -2,7 +2,7 @@
 id: video/94Lqd7Ap8YQ
 type: video
 title: "#BCTalent and AI: A Partner’s Guide"
-summary: Partner-focused talk on AI skills in the Business Central ecosystem, published 2025-08-19. It argues partners need deeper technical AI knowledge, should train existing staff and domain professionals as AI power users, and should join the BC Talent Program. It gives opinion and approach, not product feature details.
+summary: Partner-focused interview on AI skills in the Business Central ecosystem. The Microsoft speaker says partners should understand AI more deeply, work with other partners, ISPs and Microsoft on long-unsolved customer problems, and train domain experts such as accountants to become AI power users, since AI engineers are scarce. Viewers are urged to visit the BC talent page; the talk is opinion and approach, not product feature details.
 tier: official
 language: en
 tags:
@@ -16,12 +16,12 @@ tags:
   - domain expertise
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:55:46.894Z"
   flags: []
 generated:
-  at: "2026-10-06T18:31:31.742Z"
+  at: "2026-10-07T22:55:46.934Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -43,6 +43,13 @@ evidence:
     t: 181
     quote: The number of people in the world who are AI people, okay, AI people, AI engineers, AI researchers, AI engineers, machine learning people is
   - kind: video
+    url: https://www.youtube.com/watch?v=94Lqd7Ap8YQ&t=191s
+    title: "#BCTalent and AI: A Partner’s Guide"
+    date: "2025-08-19T12:49:06.000Z"
+    commit: null
+    t: 191
+    quote: most normal companies are never going to be able to hire these people because there are not enough
+  - kind: video
     url: https://www.youtube.com/watch?v=94Lqd7Ap8YQ&t=216s
     title: "#BCTalent and AI: A Partner’s Guide"
     date: "2025-08-19T12:49:06.000Z"
@@ -63,6 +70,13 @@ evidence:
     commit: null
     t: 285
     quote: If people can do that, they're now called what is in my jurisdiction called an AI power user. And once we build up a
+  - kind: video
+    url: https://www.youtube.com/watch?v=94Lqd7Ap8YQ&t=321s
+    title: "#BCTalent and AI: A Partner’s Guide"
+    date: "2025-08-19T12:49:06.000Z"
+    commit: null
+    t: 321
+    quote: the most important thing all of you should be doing is going to the BC talent page and clicking on learn more
   - kind: video
     url: https://www.youtube.com/watch?v=94Lqd7Ap8YQ&t=342s
     title: "#BCTalent and AI: A Partner’s Guide"
@@ -115,11 +129,6 @@ features:
     t: 151
     verified: false
     status_source: video
-  - name: AI Power User Certification Path
-    status: unclear
-    t: 265
-    verified: false
-    status_source: video
   - name: Partner Technical Upskilling in AI
     status: unclear
     t: 27
@@ -138,6 +147,9 @@ quotes:
   - t: 181
     text: The number of people in the world who are AI people, okay, AI people, AI engineers, AI researchers, AI engineers, machine learning people is
     check: exact
+  - t: 191
+    text: most normal companies are never going to be able to hire these people because there are not enough
+    check: exact
   - t: 216
     text: we turned lots of accountants and finance people into bc consultants we're going to have to do that
     check: fuzzy
@@ -147,6 +159,9 @@ quotes:
   - t: 285
     text: If people can do that, they're now called what is in my jurisdiction called an AI power user. And once we build up a
     check: exact
+  - t: 321
+    text: the most important thing all of you should be doing is going to the BC talent page and clicking on learn more
+    check: exact
   - t: 342
     text: I have five partners right now in my inbox saying we need to hire AI people. bring us some AI people. I'm saying my
     check: exact
@@ -154,9 +169,9 @@ quotes:
 
 # #BCTalent and AI: A Partner’s Guide
 
-> Partner-focused talk on AI skills in the Business Central ecosystem, published 2025-08-19. It argues partners need deeper technical AI knowledge, should train existing staff and domain professionals as AI power users, and should join the BC Talent Program. It gives opinion and approach, not product feature details.
+> Partner-focused interview on AI skills in the Business Central ecosystem. The Microsoft speaker says partners should understand AI more deeply, work with other partners, ISPs and Microsoft on long-unsolved customer problems, and train domain experts such as accountants to become AI power users, since AI engineers are scarce. Viewers are urged to visit the BC talent page; the talk is opinion and approach, not product feature details.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=94Lqd7Ap8YQ) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-08-19 · 6:10 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=94Lqd7Ap8YQ) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-08-19 · 6:10 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -166,12 +181,12 @@ The speaker describes an industry-wide shortage of AI people, with partners aski
 
 ## Key points
 
-- The speaker says Microsoft has 150 products with AI functionality and that any product released going forward will include it.
-- Partners are advised to build deep technical understanding of AI, including custom solutions and AI in extensions, not only surface-level adoption.
-- Hiring AI engineers and researchers is hard because of an industry-wide shortage, so training existing staff is the suggested route.
-- The AI power user path has professionals such as accountants, tax preparers and financial analysts identify which workflow parts suit AI and create prompt libraries.
-- Partners, ISPs and Microsoft are encouraged to work together on long-running customer problems that are still unsolved.
-- The BC Talent Program aims to upskill professionals in AI. It needs more participants and its structure is still being developed.
+- The speaker says Microsoft has 150 products with AI functionality, any product released going forward will have it, and custom-built partner solutions will probably include AI too.
+- Partners are told to understand AI in depth rather than blindly making an API call.
+- Partners, other partners, ISPs and Microsoft are encouraged to work together on long-running customer problems that are still unsolved, rather than relying on a solo hero.
+- Most companies cannot hire AI engineers and researchers because there are not enough of them, so the capability has to be grown in experts from other problem areas, just as accountants were once turned into BC consultants.
+- An AI power user is someone such as an accountant, tax preparer or financial analyst who maps which steps of their workflow suit AI and keeps prompt libraries for those steps.
+- The speaker says upskilling needs more structure than telling people to figure out AI on their own, and asks viewers to go to the BC talent page, click learn more and join.
 
 ## Chapters
 
@@ -185,21 +200,22 @@ The speaker describes an industry-wide shortage of AI people, with partners aski
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| AI Functionality Across Microsoft Products | status not stated | [0:44](https://www.youtube.com/watch?v=94Lqd7Ap8YQ&t=44s) |  |
-| BC Talent Program | status not stated | [2:31](https://www.youtube.com/watch?v=94Lqd7Ap8YQ&t=151s) |  |
-| AI Power User Certification Path | status not stated | [4:25](https://www.youtube.com/watch?v=94Lqd7Ap8YQ&t=265s) |  |
-| Partner Technical Upskilling in AI | status not stated | [0:27](https://www.youtube.com/watch?v=94Lqd7Ap8YQ&t=27s) |  |
-| Collaborative Ecosystem for Problem Solving | status not stated | [1:10](https://www.youtube.com/watch?v=94Lqd7Ap8YQ&t=70s) |  |
+| Feature | Status | At |
+|---|---|---|
+| AI Functionality Across Microsoft Products | status not stated | [0:44](https://www.youtube.com/watch?v=94Lqd7Ap8YQ&t=44s) |
+| BC Talent Program | status not stated | [2:31](https://www.youtube.com/watch?v=94Lqd7Ap8YQ&t=151s) |
+| Partner Technical Upskilling in AI | status not stated | [0:27](https://www.youtube.com/watch?v=94Lqd7Ap8YQ&t=27s) |
+| Collaborative Ecosystem for Problem Solving | status not stated | [1:10](https://www.youtube.com/watch?v=94Lqd7Ap8YQ&t=70s) |
 
 ## Quotes
 
 - [0:44](https://www.youtube.com/watch?v=94Lqd7Ap8YQ&t=44s) "I think we have 150 Microsoft products that have AI functionality in them and that's going to be any product we release going forward"
 - [3:01](https://www.youtube.com/watch?v=94Lqd7Ap8YQ&t=181s) "The number of people in the world who are AI people, okay, AI people, AI engineers, AI researchers, AI engineers, machine learning people is"
+- [3:11](https://www.youtube.com/watch?v=94Lqd7Ap8YQ&t=191s) "most normal companies are never going to be able to hire these people because there are not enough"
 - [3:36](https://www.youtube.com/watch?v=94Lqd7Ap8YQ&t=216s) "we turned lots of accountants and finance people into bc consultants we're going to have to do that"
 - [4:35](https://www.youtube.com/watch?v=94Lqd7Ap8YQ&t=275s) "Because probably the most important thing they can be doing right now is creating their own workflow or here's a standard workflow. AI is"
 - [4:45](https://www.youtube.com/watch?v=94Lqd7Ap8YQ&t=285s) "If people can do that, they're now called what is in my jurisdiction called an AI power user. And once we build up a"
+- [5:21](https://www.youtube.com/watch?v=94Lqd7Ap8YQ&t=321s) "the most important thing all of you should be doing is going to the BC talent page and clicking on learn more"
 - [5:42](https://www.youtube.com/watch?v=94Lqd7Ap8YQ&t=342s) "I have five partners right now in my inbox saying we need to hire AI people. bring us some AI people. I'm saying my"
 
 Presenters (as heard): Lena Casten, Unknown second presenter.

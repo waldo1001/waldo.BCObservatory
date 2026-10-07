@@ -17,12 +17,12 @@ tags:
   - post and send
 system: localization
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:55:13.786Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:55:13.833Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -64,6 +64,13 @@ evidence:
     commit: null
     t: 207
     quote: Currently in the system we do not have some specific uh file uh for specific localization. This is just example you can use in
+  - kind: video
+    url: https://www.youtube.com/watch?v=zy-Tg9bBtHc&t=400s
+    title: "What's New: E-Documents and E-Shipments (2025 release wave 2)"
+    date: "2025-10-01T00:00:00Z"
+    commit: null
+    t: 400
+    quote: you can now on any given location go under warehouse and then see that we have a new field
   - kind: video
     url: https://www.youtube.com/watch?v=zy-Tg9bBtHc&t=412s
     title: "What's New: E-Documents and E-Shipments (2025 release wave 2)"
@@ -150,11 +157,6 @@ features:
     t: 516
     verified: false
     status_source: video
-  - name: EFTI Regulation Support
-    status: unclear
-    t: 85
-    verified: false
-    status_source: video
 objects_mentioned:
   - table Location
   - page Posted Sales Shipment
@@ -174,6 +176,9 @@ quotes:
   - t: 207
     text: Currently in the system we do not have some specific uh file uh for specific localization. This is just example you can use in
     check: exact
+  - t: 400
+    text: you can now on any given location go under warehouse and then see that we have a new field
+    check: exact
   - t: 412
     text: we added uh the ability to create electronic documents from posted uh documents and this will be all the document types that we support
     check: exact
@@ -186,7 +191,7 @@ quotes:
 
 > E-shipments in Business Central 2025 release wave 2: the e-documents framework is extended to sales shipments and transfer shipments, with retroactive e-document creation from posted documents and e-document attachments in post and send. The demo uses an example file, not a country-specific localization.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=zy-Tg9bBtHc) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-10-01 · 10:14 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=zy-Tg9bBtHc) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-10-01 · 10:14 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -196,13 +201,13 @@ The demos show sales shipment e-documents, transfer shipments driven by a new se
 
 ## Key points
 
-- E-shipments are electronic shipment documents for authorities; the speaker names Mexico and India as countries where they are already mandatory.
-- The e-documents framework now covers sales shipments and transfer shipments.
-- Transfer orders are picked up automatically only if the new e-documents transfer document sending profile field is set on the location (table Location).
-- E-documents can be created from already posted documents, but the customer needs a document sending profile with e-documents enabled or creation will not succeed.
-- Emailing exported e-documents alongside the PDF needs a manually set up workflow that triggers when the e-document service status changes to exported.
-- In post and send, under email attachments you can now choose the e-document, the PDF, or both.
-- The demo file is only an example; country-specific files will come with localization. EFTI support depends on the regulation becoming mandatory.
+- E-shipments are electronic shipment documents for authorities, also called e-delivery notes or e-way bills. The speaker names Mexico and India as countries where they are already mandatory, and Serbia as one where they will be required soon.
+- The e-documents framework already covered sales invoices and sales credit memos. With this release it now also covers sales shipments and transfer shipments.
+- Locations have a new field under Warehouse called e-documents transfer document sending profile. When you post a transfer order, it is picked up and sent automatically based on that setup.
+- E-documents can be created from already posted documents with Related > Create. The customer needs a document sending profile that uses e-documents, otherwise an error says the profile is not set up for electronic documents.
+- In the demo, a workflow exports the sales shipment e-document. When the e-document service status changes to exported, the workflow emails the PDF and the electronic document.
+- In post and send, under email attachments, you can now choose the e-document, the PDF, or both.
+- The demo file is only an example. Country-specific files will come with localization, and EU EFTI support depends on the regulation becoming mandatory.
 
 ## Chapters
 
@@ -215,16 +220,15 @@ The demos show sales shipment e-documents, transfer shipments driven by a new se
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| E-Shipments | status not stated, demoed | [0:07](https://www.youtube.com/watch?v=zy-Tg9bBtHc&t=7s) |  |
-| E-Transfer Shipments | status not stated, demoed | [2:12](https://www.youtube.com/watch?v=zy-Tg9bBtHc&t=132s) |  |
-| Sales Shipment E-Documents | status not stated, demoed | [3:40](https://www.youtube.com/watch?v=zy-Tg9bBtHc&t=220s) |  |
-| E-Documents Transfer Document Sending Profile | status not stated, demoed | [6:27](https://www.youtube.com/watch?v=zy-Tg9bBtHc&t=387s) |  |
-| Retroactive E-Document Creation from Posted Documents | status not stated, demoed | [6:52](https://www.youtube.com/watch?v=zy-Tg9bBtHc&t=412s) |  |
-| E-Document Export and Email Workflow | status not stated, demoed | [3:40](https://www.youtube.com/watch?v=zy-Tg9bBtHc&t=220s) |  |
-| Post and Send with E-Document Attachments | status not stated, demoed | [8:36](https://www.youtube.com/watch?v=zy-Tg9bBtHc&t=516s) |  |
-| EFTI Regulation Support | status not stated | [1:25](https://www.youtube.com/watch?v=zy-Tg9bBtHc&t=85s) |  |
+| Feature | Status | At |
+|---|---|---|
+| E-Shipments | status not stated, demoed | [0:07](https://www.youtube.com/watch?v=zy-Tg9bBtHc&t=7s) |
+| E-Transfer Shipments | status not stated, demoed | [2:12](https://www.youtube.com/watch?v=zy-Tg9bBtHc&t=132s) |
+| Sales Shipment E-Documents | status not stated, demoed | [3:40](https://www.youtube.com/watch?v=zy-Tg9bBtHc&t=220s) |
+| E-Documents Transfer Document Sending Profile | status not stated, demoed | [6:27](https://www.youtube.com/watch?v=zy-Tg9bBtHc&t=387s) |
+| Retroactive E-Document Creation from Posted Documents | status not stated, demoed | [6:52](https://www.youtube.com/watch?v=zy-Tg9bBtHc&t=412s) |
+| E-Document Export and Email Workflow | status not stated, demoed | [3:40](https://www.youtube.com/watch?v=zy-Tg9bBtHc&t=220s) |
+| Post and Send with E-Document Attachments | status not stated, demoed | [8:36](https://www.youtube.com/watch?v=zy-Tg9bBtHc&t=516s) |
 
 ## AL objects mentioned
 
@@ -240,6 +244,7 @@ As heard in the captions. A name that matches one object page by exact type and 
 - [2:12](https://www.youtube.com/watch?v=zy-Tg9bBtHc&t=132s) "with this release we extended it to sales shipments and transfer shipments as well"
 - [3:04](https://www.youtube.com/watch?v=zy-Tg9bBtHc&t=184s) "First it improve and standardize whole workflow process. So it support new document types for structure e documentation especially in countries where this is"
 - [3:27](https://www.youtube.com/watch?v=zy-Tg9bBtHc&t=207s) "Currently in the system we do not have some specific uh file uh for specific localization. This is just example you can use in"
+- [6:40](https://www.youtube.com/watch?v=zy-Tg9bBtHc&t=400s) "you can now on any given location go under warehouse and then see that we have a new field"
 - [6:52](https://www.youtube.com/watch?v=zy-Tg9bBtHc&t=412s) "we added uh the ability to create electronic documents from posted uh documents and this will be all the document types that we support"
 - [8:46](https://www.youtube.com/watch?v=zy-Tg9bBtHc&t=526s) "you can now also under email select email attachments and select e document and PDF and e document if you want to also send"
 

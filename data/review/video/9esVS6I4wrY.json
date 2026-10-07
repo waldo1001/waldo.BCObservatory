@@ -1,0 +1,23 @@
+{
+  "video_id": "9esVS6I4wrY",
+  "item_id": "video/yt-microsoft/9esVS6I4wrY",
+  "flags": [],
+  "verdict": "approve",
+  "issues": [
+    "All six quotes appear verbatim in the transcript at the given t values.",
+    "The summary and key points match the transcript's steps: Azure resource group, billing plan in Power Platform admin center, Dataverse environment, the link to Business Central, consumption monitoring and Azure budgets.",
+    "All three features are marked unclear, which is reasonable. The video shows how to configure them but never says whether they are in preview or generally available.",
+    "Minor: the 'finance' system tag is only weakly supported, and the 76.2 chapter boundary also covers saving the billing plan. Neither needs a fix."
+  ],
+  "input_hash": "cf28419e32c616871642759c40c7b270156139d322964c035b7d076287ffb51d",
+  "by": "opus",
+  "at": "2026-10-07T22:55:37.216Z",
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.037797
+  }
+}

@@ -1,16 +1,16 @@
 {
   "video_id": "7QJeTXzZaEk",
   "item_id": "video/yt-microsoft/7QJeTXzZaEk",
-  "summary": "Sales order agent test drive in Business Central: connecting a shared mailbox, activating the agent, sending a test quote request email, and the agent creating a sales quote. Also covers creating a contact for an unknown sender and managing email accounts.",
+  "summary": "Test drive of the Business Central sales order agent: create a shared mailbox in the Microsoft 365 admin portal, link it in Outlook, activate the agent through the email account wizard, then send a test quote request email. The agent picks up the email and creates a review task. After you create a contact for the unknown sender, the agent creates a sales quote. Also covers the Email Accounts page.",
   "overview": "The video walks through setting up and trying the sales order agent in Business Central. It starts with creating a shared mailbox in Microsoft 365 and linking it to Outlook, then activating the agent in Business Central by selecting the email account.\n\nThe presenter sends a test email requesting a quote. The agent reads the email, finds the items and creates a sales quote. Because the sender is not yet a contact, the agent prompts the user to review the sender details and create one. The video ends with managing email accounts and testing with colleagues. The payables agent is mentioned but not demonstrated.",
   "key_points": [
-    "The sales order agent and the payables agent are available in many countries, not necessarily all.",
-    "A dedicated shared mailbox is recommended so the agent is not cluttered with irrelevant emails. A personal account can also be used.",
-    "Activation uses the email account wizard in Business Central. Once the account is selected, the agent activates automatically and you click update to confirm.",
-    "The sender must be set up as a contact before a quote is created. For an unknown sender, the agent prompts you to review the details and confirm a new contact.",
-    "A test email from your own address will likely come from someone who is not yet a contact in your environment.",
-    "The agent reads the email, finds the items and creates the sales quote without manual searching and typing.",
-    "The Email Accounts page lets you register new accounts, create shared mailboxes for different purposes, or remove accounts no longer needed."
+    "The sales order agent and the payables agent are already available in many countries.",
+    "Create a shared mailbox in the Microsoft 365 administration portal (Teams and Groups > Shared mailboxes > Add a shared mailbox). You can add colleagues as members so they can test too.",
+    "Link the shared mailbox in Outlook through a short wizard so its emails show up next to your own.",
+    "In Business Central, go through the email account creation wizard and choose the Microsoft 365 account type. A dedicated shared mailbox keeps the agent from being cluttered with irrelevant emails, but you can also use your own account.",
+    "Once the mailbox account is selected, the agent activates automatically. You click update to confirm.",
+    "To test, send an email from your own mailbox to the shared mailbox listing items, quantities and delivery dates. The agent picks it up and creates a task for you to review.",
+    "Because the test email comes from you, you are probably not a contact yet. Review the sender details and confirm to create the contact, then confirm for the agent to create the sales quote."
   ],
   "audience": [
     "functional consultant",

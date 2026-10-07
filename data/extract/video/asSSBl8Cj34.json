@@ -118,6 +118,12 @@
       "text": "After choosing no, we see that the permissions were not merged. Instead, the vendor table was removed and contacts were added exactly as defined",
       "why_it_matters": "Demonstrates the replace functionality working as designed, with exact matching of imported permissions.",
       "check": "exact"
+    },
+    {
+      "t": 168.9,
+      "text": "With this improvement, you no longer have to manually delete existing permissions before importing a new set.",
+      "why_it_matters": "States the practical benefit of the replace option over the previous merge-only behavior.",
+      "check": "exact"
     }
   ],
   "disclaimers": [

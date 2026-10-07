@@ -1,0 +1,26 @@
+{
+  "video_id": "VjYMhjjc3uw",
+  "item_id": "video/yt-microsoft/VjYMhjjc3uw",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Key point on pushing customers to Shopify adds a requirement the transcript never states: that customers must already have tax and address information. Rewritten to match what the demo shows.",
+    "Key point on advanced scenarios said they 'may need manual mapping configuration'. Rephrased to match the transcript: the sell-to and bill-to fields on locations are for advanced mapping scenarios.",
+    "All feature statuses stay unclear. The release wave appears only in the title; the transcript never says whether anything is preview or GA.",
+    "Added a quote on automatic catalog creation depending on a Business Central setting."
+  ],
+  "input_hash": "913fca63712efb564cb03e7e90d69e4d57b3f21b2730d013a71632703fe38392",
+  "by": "opus",
+  "at": "2026-10-07T22:54:42.571Z",
+  "applied": [
+    "quote at 384s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.064617
+  }
+}

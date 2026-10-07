@@ -1,0 +1,29 @@
+{
+  "video_id": "OnC0a5zy-oQ",
+  "item_id": "video/yt-microsoft/OnC0a5zy-oQ",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "The summary gives a publication date (2025-09-05) that the transcript never mentions. Removed it.",
+    "The key point 'Useful for scripting or automating feature changes instead of using the UI' is not supported. The transcript never compares the API with the UI; it only calls the approach fast, clean and time-saving. Replaced it.",
+    "The key point on activation said 'for all users in the system'. Changed it to the transcript's wording, 'for all users'.",
+    "Feature statuses stay unclear. 'just added automation API support' does not say whether the feature is in preview or GA.",
+    "All quotes are verbatim. The quote at 28.1 runs on into the 38.4 segment, which is allowed.",
+    "Added a quote about checking the deactivation with another GET request."
+  ],
+  "input_hash": "80672c9bf8542428b9b23d1c55d7fe2bd121e66a70e235bf33ab6d5ee14db41c",
+  "by": "opus",
+  "at": "2026-10-07T22:55:29.898Z",
+  "applied": [
+    "quote at 53s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.039937
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "video_id": "XYr0xwgpomA",
+  "item_id": "video/yt-microsoft/XYr0xwgpomA",
+  "flags": [],
+  "verdict": "approve",
+  "issues": [
+    "All three kept quotes are word for word in the transcript (t=31.6, 85.6, 95.7).",
+    "The summary and key points match the transcript: approval runs on the whole batch only, there is a new sustainability journal batch approval workflow template, it uses the standard approval setup (Workflows and Approval user setup), and requests can be sent or cancelled from the Sustainability journal.",
+    "Feature statuses stay unclear. The video is part of the 2025 release wave 2 launch edition, but no single sentence says whether the feature is in preview or generally available.",
+    "The chapters line up with where the topics change in the transcript."
+  ],
+  "input_hash": "43615042e16188f11ca867cc179e14f2aba24089dac07374e97773a28e810192",
+  "by": "opus",
+  "at": "2026-10-07T22:54:51.977Z",
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.042393
+  }
+}

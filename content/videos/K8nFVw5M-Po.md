@@ -20,12 +20,12 @@ tags:
   - compiler tools
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:55:27.162Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:55:27.215Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -80,7 +80,14 @@ evidence:
     date: "2025-09-12T14:00:27.000Z"
     commit: null
     t: 1519
-    quote: compile is one of them we also are thinking maybe we should add the ability to
+    quote: compile is one of them. We also are thinking maybe we should add the ability to publish it and we're looking into test execution.
+  - kind: video
+    url: https://www.youtube.com/watch?v=K8nFVw5M-Po&t=1543s
+    title: "Business Central Under the Hood Special Edition: The Future of AL with Vibe Coding"
+    date: "2025-09-12T14:00:27.000Z"
+    commit: null
+    t: 1543
+    quote: We are actually working on that right now. So that's in the scope right now.
   - kind: video
     url: https://www.youtube.com/watch?v=K8nFVw5M-Po&t=1566s
     title: "Business Central Under the Hood Special Edition: The Future of AL with Vibe Coding"
@@ -308,8 +315,11 @@ quotes:
     text: that's where you get to the true vibe coding where you don't need to look at the actual code. You talk about the spec.
     check: exact
   - t: 1519
-    text: compile is one of them we also are thinking maybe we should add the ability to
-    check: fuzzy
+    text: compile is one of them. We also are thinking maybe we should add the ability to publish it and we're looking into test execution.
+    check: exact
+  - t: 1543
+    text: We are actually working on that right now. So that's in the scope right now.
+    check: exact
   - t: 1566
     text: So what we are working alo on also is adding MCP servers. So the model context protocol for giving the agents more context to
     check: exact
@@ -337,7 +347,7 @@ quotes:
 
 > Vibe coding for AL in VS Code agent mode: demos of generating AL objects from natural language and specifications, context and model choices, MCP servers, and the stated roadmap for compile, publish and test tools. Presented as usable for production-grade coding as a productivity tool.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=K8nFVw5M-Po) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-09-12 · 35:17 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=K8nFVw5M-Po) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-09-12 · 35:17 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -417,7 +427,8 @@ Not found in BC28-30: table "Customer table", page "pages", codeunit "code units
 - [2:46](https://www.youtube.com/watch?v=K8nFVw5M-Po&t=166s) "I like the GT5 preview right now uh because that's one of the newest models you can choose from a lot of other models"
 - [8:30](https://www.youtube.com/watch?v=K8nFVw5M-Po&t=510s) "going in and manipulating small details that are in your existing application that maybe has a lot of years on it or complex design,"
 - [10:47](https://www.youtube.com/watch?v=K8nFVw5M-Po&t=647s) "that's where you get to the true vibe coding where you don't need to look at the actual code. You talk about the spec."
-- [25:19](https://www.youtube.com/watch?v=K8nFVw5M-Po&t=1519s) "compile is one of them we also are thinking maybe we should add the ability to"
+- [25:19](https://www.youtube.com/watch?v=K8nFVw5M-Po&t=1519s) "compile is one of them. We also are thinking maybe we should add the ability to publish it and we're looking into test execution."
+- [25:43](https://www.youtube.com/watch?v=K8nFVw5M-Po&t=1543s) "We are actually working on that right now. So that's in the scope right now."
 - [26:06](https://www.youtube.com/watch?v=K8nFVw5M-Po&t=1566s) "So what we are working alo on also is adding MCP servers. So the model context protocol for giving the agents more context to"
 - [26:23](https://www.youtube.com/watch?v=K8nFVw5M-Po&t=1583s) "It's basically a standard um it's an open source standard right uh and it's um it's it's mostly a discovery mechanism that allows agents"
 - [28:18](https://www.youtube.com/watch?v=K8nFVw5M-Po&t=1698s) "we are thinking about adding even more like the one we have for business central is more about getting access to the customer data"

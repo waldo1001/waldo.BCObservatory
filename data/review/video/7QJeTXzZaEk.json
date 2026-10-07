@@ -1,0 +1,34 @@
+{
+  "video_id": "7QJeTXzZaEk",
+  "item_id": "video/yt-microsoft/7QJeTXzZaEk",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Key point claimed the sender 'must' be a contact before a quote is created; the transcript only says you are probably not a contact and that adding one is quick, then you confirm the quote. Reworded.",
+    "Key points left out the shared mailbox setup in the Microsoft 365 admin portal and the Outlook linking steps. Added them, plus a quote.",
+    "Feature name 'Automatic Contact Creation from Email' overstates it: the user reviews and confirms the contact. The description is OK.",
+    "Sales Order Agent and Payables Agent are 'already available in many countries', so their status is set to ga with that quote as evidence.",
+    "All existing quotes are verbatim; the 158.4 quote differs only in case and the dropped 'But don't worry,' lead-in."
+  ],
+  "input_hash": "ae8215e9e42960de66ae1289acca550224afb1d3f765d8815e9dbb18ed2b3251",
+  "by": "opus",
+  "at": "2026-10-07T22:55:18.848Z",
+  "applied": [
+    "Email Account Integration: status unclear",
+    "Automatic Contact Creation from Email: status unclear",
+    "Email Accounts Management Page: status unclear",
+    "quote at 17s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [
+    "status Sales Order Agent -> ga: evidence not verbatim or does not state the status",
+    "status Payables Agent -> ga: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.06525700000000001
+  }
+}

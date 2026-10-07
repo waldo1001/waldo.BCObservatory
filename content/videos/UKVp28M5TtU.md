@@ -14,12 +14,12 @@ tags:
   - post-implementation configuration
 system: sustainability
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:54:34.539Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:54:34.576Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -171,7 +171,7 @@ quotes:
 
 > Business Central sustainability feature (2025 release wave 2) that lets an organization measure all greenhouse gases as carbon equivalents instead of entering emission factors per gas. Covers the Sustainability Setup toggle, default factor of 1, and the caption changes across pages, shown in a before and after demo.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=UKVp28M5TtU) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-10-01 · 5:03 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=UKVp28M5TtU) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-10-01 · 5:03 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -181,13 +181,13 @@ The presenter describes the two models an organization can choose between, enabl
 
 ## Key points
 
-- The new toggle 'Use all emissions as carbon equivalent' is in the Sustainability Setup page.
-- Two models exist: detailed per-gas emission tracking, or carbon equivalents only. The organization must choose one.
-- When enabled, emission factors are pre-configured with carbon equivalent values of 1 by default; adjust them if your factors differ.
-- Captions change from gas-specific names (e.g. 'Default Metan') to 'Default Carbon Equivalent for CH4'.
-- Caption changes appear on the item card, purchase documents, and sustainability ledger entries, among other sustainability pages.
-- The motivation is that emission factors are often unavailable for each individual gas, such as methane.
-- The demo shows the before and after of enabling the setting.
+- The new field 'Use all emissions as a carbon equivalent' is in the Sustainability Setup page.
+- Two models exist: detailed per-gas emission tracking (the previous model), or carbon equivalents only. Behavior depends on how you set it up.
+- When the setting is enabled, emission factors' carbon equivalent factors are automatically set to 1, the default value. Without the setting, each gas needs its own carbon equivalent factor.
+- Captions change from gas-specific labels (e.g. 'default emission for CH4', 'default metan') to carbon equivalent labels (e.g. 'carbon equivalent for CH4', 'default carbon equivalent for metan').
+- The caption changes appear in sustainability journals, purchase documents, sustainability ledger entries, items and resources.
+- The motivation is that emission factors are often unavailable for each individual gas, such as methane. The feature simplifies data entry and standardizes emission reporting.
+- The demo shows the item card, a purchase invoice and ledger entries before and after the setting is enabled.
 
 ## Chapters
 
@@ -202,12 +202,12 @@ The presenter describes the two models an organization can choose between, enabl
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Measure all gases as carbon equivalents | status not stated, demoed | [0:05](https://www.youtube.com/watch?v=UKVp28M5TtU&t=5s) |  |
-| Automatic emission factor pre-setup | status not stated, demoed | [3:45](https://www.youtube.com/watch?v=UKVp28M5TtU&t=225s) |  |
-| Dynamic caption changes based on setup | status not stated, demoed | [1:51](https://www.youtube.com/watch?v=UKVp28M5TtU&t=111s) |  |
-| Use all emissions as carbon equivalent setup option | status not stated, demoed | [3:18](https://www.youtube.com/watch?v=UKVp28M5TtU&t=198s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Measure all gases as carbon equivalents | status not stated, demoed | [0:05](https://www.youtube.com/watch?v=UKVp28M5TtU&t=5s) |
+| Automatic emission factor pre-setup | status not stated, demoed | [3:45](https://www.youtube.com/watch?v=UKVp28M5TtU&t=225s) |
+| Dynamic caption changes based on setup | status not stated, demoed | [1:51](https://www.youtube.com/watch?v=UKVp28M5TtU&t=111s) |
+| Use all emissions as carbon equivalent setup option | status not stated, demoed | [3:18](https://www.youtube.com/watch?v=UKVp28M5TtU&t=198s) |
 
 ## AL objects mentioned
 

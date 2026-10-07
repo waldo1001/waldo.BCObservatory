@@ -2,7 +2,7 @@
 id: video/OnC0a5zy-oQ
 type: video
 title: "What's Cooking in Business Central: Managing Feature Management through an API"
-summary: 'Feature Management in Business Central can be handled through the automation API: a GET request lists available features and their status, and bound actions activate or deactivate a feature. The short demo (published 2025-09-05) enables and verifies "advanced tell me".'
+summary: Business Central now supports managing Feature Management through the automation API. A GET request lists all available features and their current status, and the activate and deactivate bound actions turn a feature on or off. The demo activates "advanced tell me", runs another GET request to confirm it is enabled for all users, then deactivates it and checks the result the same way.
 tier: official
 language: en
 tags:
@@ -15,12 +15,12 @@ tags:
   - advanced tell me
 system: integration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:55:29.898Z"
   flags: []
 generated:
-  at: "2026-10-06T18:30:02.673Z"
+  at: "2026-10-07T22:55:29.938Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -62,6 +62,13 @@ evidence:
     commit: null
     t: 52
     quote: You could also deactivate the feature by invoking the deactivate bound action
+  - kind: video
+    url: https://www.youtube.com/watch?v=OnC0a5zy-oQ&t=52s
+    title: "What's Cooking in Business Central: Managing Feature Management through an API"
+    date: "2025-09-05T14:00:40.000Z"
+    commit: null
+    t: 52
+    quote: if you invoke another get request, you will see that the feature now is deactivated in feature management
   - kind: video
     url: https://www.youtube.com/watch?v=OnC0a5zy-oQ&t=68s
     title: "What's Cooking in Business Central: Managing Feature Management through an API"
@@ -138,6 +145,9 @@ quotes:
   - t: 52
     text: You could also deactivate the feature by invoking the deactivate bound action
     check: exact
+  - t: 52
+    text: if you invoke another get request, you will see that the feature now is deactivated in feature management
+    check: exact
   - t: 68
     text: It's fast, it's clean, it saves you valuable time
     check: exact
@@ -145,9 +155,9 @@ quotes:
 
 # What's Cooking in Business Central: Managing Feature Management through an API
 
-> Feature Management in Business Central can be handled through the automation API: a GET request lists available features and their status, and bound actions activate or deactivate a feature. The short demo (published 2025-09-05) enables and verifies "advanced tell me".
+> Business Central now supports managing Feature Management through the automation API. A GET request lists all available features and their current status, and the activate and deactivate bound actions turn a feature on or off. The demo activates "advanced tell me", runs another GET request to confirm it is enabled for all users, then deactivates it and checks the result the same way.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=OnC0a5zy-oQ) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-09-05 · 1:18 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=OnC0a5zy-oQ) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-09-05 · 1:18 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -157,12 +167,11 @@ The demo first invokes a GET request to list all available features and their cu
 
 ## Key points
 
-- Automation API support was added for feature management.
+- Automation API support was just added for feature management.
 - A GET request returns all available features and their current status.
-- The activate bound action enables a feature, shown with advanced tell me, for all users in the system.
-- After activating, issue another GET request to verify the feature is enabled.
-- The deactivate bound action disables a feature.
-- Useful for scripting or automating feature changes instead of using the UI.
+- The activate bound action enables a feature (shown with advanced tell me), and a follow-up GET request confirms it is enabled and activated for all users.
+- The deactivate bound action disables a feature, and another GET request shows it as deactivated in feature management.
+- The presenter describes the approach as fast, clean and time-saving.
 
 ## Chapters
 
@@ -174,12 +183,12 @@ The demo first invokes a GET request to list all available features and their cu
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Feature Management API | status not stated, demoed | [0:05](https://www.youtube.com/watch?v=OnC0a5zy-oQ&t=5s) |  |
-| Get Request for Feature List | status not stated, demoed | [0:18](https://www.youtube.com/watch?v=OnC0a5zy-oQ&t=18s) |  |
-| Activate Bound Action | status not stated, demoed | [0:28](https://www.youtube.com/watch?v=OnC0a5zy-oQ&t=28s) |  |
-| Deactivate Bound Action | status not stated, demoed | [0:52](https://www.youtube.com/watch?v=OnC0a5zy-oQ&t=52s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Feature Management API | status not stated, demoed | [0:05](https://www.youtube.com/watch?v=OnC0a5zy-oQ&t=5s) |
+| Get Request for Feature List | status not stated, demoed | [0:18](https://www.youtube.com/watch?v=OnC0a5zy-oQ&t=18s) |
+| Activate Bound Action | status not stated, demoed | [0:28](https://www.youtube.com/watch?v=OnC0a5zy-oQ&t=28s) |
+| Deactivate Bound Action | status not stated, demoed | [0:52](https://www.youtube.com/watch?v=OnC0a5zy-oQ&t=52s) |
 
 ## Quotes
 
@@ -188,4 +197,5 @@ The demo first invokes a GET request to list all available features and their cu
 - [0:28](https://www.youtube.com/watch?v=OnC0a5zy-oQ&t=28s) "we can activate this feature by invoking the activate bound action"
 - [0:38](https://www.youtube.com/watch?v=OnC0a5zy-oQ&t=38s) "Once we invoke it, you can issue again another get request to verify that the feature has been enabled"
 - [0:52](https://www.youtube.com/watch?v=OnC0a5zy-oQ&t=52s) "You could also deactivate the feature by invoking the deactivate bound action"
+- [0:52](https://www.youtube.com/watch?v=OnC0a5zy-oQ&t=52s) "if you invoke another get request, you will see that the feature now is deactivated in feature management"
 - [1:08](https://www.youtube.com/watch?v=OnC0a5zy-oQ&t=68s) "It's fast, it's clean, it saves you valuable time"

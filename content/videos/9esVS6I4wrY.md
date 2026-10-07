@@ -16,12 +16,12 @@ tags:
   - budget alerts
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:55:37.216Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:55:37.263Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -152,7 +152,7 @@ quotes:
 
 > Configuring pay-as-you-go billing for Business Central agents: create an Azure resource group, set up a billing plan in Power Platform admin center, create a Dataverse environment and link it to Business Central, then monitor consumption and set Azure budgets.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=9esVS6I4wrY) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-08-18 · 3:53 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=9esVS6I4wrY) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-08-18 · 3:53 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -182,11 +182,11 @@ It walks through the setup in order: Azure resource group, billing plan, new Dat
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Pay-as-you-go billing for agents | status not stated, demoed | [0:14](https://www.youtube.com/watch?v=9esVS6I4wrY&t=14s) |  |
-| Agent consumption monitoring | status not stated, demoed | [2:19](https://www.youtube.com/watch?v=9esVS6I4wrY&t=139s) |  |
-| Azure budget creation for agent spending | status not stated, demoed | [3:09](https://www.youtube.com/watch?v=9esVS6I4wrY&t=189s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Pay-as-you-go billing for agents | status not stated, demoed | [0:14](https://www.youtube.com/watch?v=9esVS6I4wrY&t=14s) |
+| Agent consumption monitoring | status not stated, demoed | [2:19](https://www.youtube.com/watch?v=9esVS6I4wrY&t=139s) |
+| Azure budget creation for agent spending | status not stated, demoed | [3:09](https://www.youtube.com/watch?v=9esVS6I4wrY&t=189s) |
 
 ## AL objects mentioned
 

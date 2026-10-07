@@ -1,0 +1,29 @@
+{
+  "video_id": "vm3sTuXdUho",
+  "item_id": "video/yt-microsoft/vm3sTuXdUho",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All six quotes are verbatim; the one at 96.7 runs into the next caption segment, which is allowed.",
+    "Summary and key points match the transcript (7.3 version, naming prefix, settings propagation, limits).",
+    "Custom jobs are stated as available from the 7.3 release, so the status changes from unclear to ga with evidence at 96.7.",
+    "Custom templates are called 'the gem of this release' without saying preview or GA, so the status stays unclear."
+  ],
+  "input_hash": "3fd033e402189f3f06e9e0c292120007f84de2d03ceb08bc2d400b57734ae577",
+  "by": "opus",
+  "at": "2026-10-07T22:54:46.500Z",
+  "applied": [
+    "Custom templates for AL-Go: status unclear",
+    "Settings propagation in custom templates: status unclear",
+    "Native job dependencies with custom jobs: status unclear"
+  ],
+  "rejected_edits": [
+    "status Custom jobs in AL-Go workflows -> ga: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.068965
+  }
+}

@@ -16,18 +16,25 @@ tags:
   - power bi reports
 system: purchasing
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:54:31.611Z"
   flags: []
 generated:
-  at: "2026-10-06T18:27:45.374Z"
+  at: "2026-10-07T22:54:31.647Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
     summarize-video: 2
   input_hash: d9417c36e9458eb801ee12ba6e097591ff3205321c375bf7e4fdb92a03bb6469
 evidence:
+  - kind: video
+    url: https://www.youtube.com/watch?v=Tl2B-85JQIw&t=58s
+    title: "Account Payable Role Center: announced"
+    date: "2025-10-01T00:00:00Z"
+    commit: null
+    t: 58
+    quote: First I need to remind you this will be available for 27.1. So that means from November
   - kind: video
     url: https://www.youtube.com/watch?v=Tl2B-85JQIw&t=20s
     title: "What's New: Account Payable Role Center (2025 release wave 2)"
@@ -106,9 +113,9 @@ chapters:
     title: Closing Remarks and Resources
 features:
   - name: Account Payable Role Center
-    status: unclear
+    status: announced
     t: 6
-    verified: false
+    verified: true
     status_source: video
   - name: Centralized Workflow Management
     status: unclear
@@ -161,7 +168,7 @@ quotes:
 
 > Account Payable Role Center in Business Central (2025 release wave 2): a role center that gathers purchase documents, incoming e-documents, payments, approvals, Power BI reports and payable charts in one place. The video says it will be available in 27.1, from November.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=Tl2B-85JQIw) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-10-01 · 3:35 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=Tl2B-85JQIw) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-10-01 · 3:35 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -173,7 +180,7 @@ A short demo covers the activities in the role center, including ongoing purchas
 
 - The Account Payable Role Center centralizes workflow management for purchase documents, e-documents, payments and approvals.
 - Availability stated in the video: 27.1, which means from November.
-- The role center focuses on ongoing purchase orders and the incoming part of e-documents only.
+- The role center focuses on ongoing purchase documents and the incoming part of e-documents only.
 - Power BI reports related to purchase and account payable are available directly in the role center.
 - Payable insights include vendor information, overdue documents, payable performance and age analysis.
 - One chart shows top five vendors, and there are four different charts you can switch between.
@@ -192,7 +199,7 @@ A short demo covers the activities in the role center, including ongoing purchas
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| Account Payable Role Center | status not stated, demoed | [0:06](https://www.youtube.com/watch?v=Tl2B-85JQIw&t=6s) |  |
+| Account Payable Role Center | announced, demoed | [0:06](https://www.youtube.com/watch?v=Tl2B-85JQIw&t=6s) | "First I need to remind you this will be available for 27.1. So that means from November" ([0:58](https://www.youtube.com/watch?v=Tl2B-85JQIw&t=58s)) |
 | Centralized Workflow Management | status not stated, demoed | [0:20](https://www.youtube.com/watch?v=Tl2B-85JQIw&t=20s) |  |
 | Purchase and E-Document Management | status not stated, demoed | [1:09](https://www.youtube.com/watch?v=Tl2B-85JQIw&t=69s) |  |
 | Power BI Reports in Role Center | status not stated, demoed | [1:40](https://www.youtube.com/watch?v=Tl2B-85JQIw&t=100s) |  |

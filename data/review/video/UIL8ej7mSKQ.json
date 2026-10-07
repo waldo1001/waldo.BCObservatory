@@ -1,0 +1,31 @@
+{
+  "video_id": "UIL8ej7mSKQ",
+  "item_id": "video/yt-microsoft/UIL8ej7mSKQ",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "The 'Sales order agent multiple shipping addresses' feature was marked ga. Its evidence quote only describes what the agent can do and says nothing about release status, so it is changed to unclear.",
+    "The Payables agent evidence quote starts in the segment at t=140.2, not t=109.5 where the feature starts. evidence_t is set to 140.2.",
+    "One key point said the sales order agent is 'generally available' in five European countries. The transcript only says 'now available', so the wording now follows the transcript.",
+    "One key point added that addresses 'must be pre-registered'. That goes beyond what the transcript says, so it was reworded to stick to the transcript.",
+    "The first chapter starts at 0, but the first transcript segment starts at 11.5. This is minor and was left as is.",
+    "The summary, the quotes and the MCP server and European availability statuses are supported by the transcript."
+  ],
+  "input_hash": "06d2a937476fdc43c4c1da1bbd0df3ca7275823f0cf9e861604906998eec3c09",
+  "by": "opus",
+  "at": "2026-10-07T22:55:08.140Z",
+  "applied": [
+    "Sales order agent multiple shipping addresses: status unclear",
+    "Payables agent: status preview",
+    "Sales order agent European availability: status ga",
+    "MCP server for Business Central: status preview",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.066297
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "video_id": "zy-Tg9bBtHc",
+  "item_id": "video/yt-microsoft/zy-Tg9bBtHc",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All 7 quotes appear word for word in the transcript. The 412.6 quote runs on into the next segment, which is allowed.",
+    "No feature had a status. Several can be marked GA because the transcript says they are available or were added in this release (t=132.6, 152.1, 400, 412.6, 526.7).",
+    "EFTI Regulation Support is not a delivered feature. The speaker only says Microsoft will localize if the regulation becomes mandatory and avoids assumptions, so I dropped it as a feature. The key point still mentions it.",
+    "In the key points, the '(table Location)' detail is not in the transcript. The speaker only says the field is on the location under Warehouse.",
+    "The key point saying emailing 'needs a manually set up workflow' goes beyond the transcript. The demo uses a workflow the presenter created, similar to the standard ones, and post and send now offers e-document attachments too.",
+    "The description of the E-Documents Transfer Document Sending Profile feature says the field enables 'automatic posting' of transfer orders. The transcript says the user posts the transfer order, and it is then picked up and sent automatically. I can't edit feature descriptions with these fields, so I'm noting it here."
+  ],
+  "input_hash": "e1ae62617de63c2477adf6e309bb9880764237c72e30b05d92915ae2907791c9",
+  "by": "opus",
+  "at": "2026-10-07T22:55:13.786Z",
+  "applied": [
+    "dropped 1 feature(s)",
+    "E-Document Export and Email Workflow: status unclear",
+    "quote at 400s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [
+    "status E-Shipments -> ga: evidence not verbatim or does not state the status",
+    "status Sales Shipment E-Documents -> ga: evidence not verbatim or does not state the status",
+    "status E-Transfer Shipments -> ga: evidence not verbatim or does not state the status",
+    "status E-Documents Transfer Document Sending Profile -> ga: evidence not verbatim or does not state the status",
+    "status Retroactive E-Document Creation from Posted Documents -> ga: evidence not verbatim or does not state the status",
+    "status Post and Send with E-Document Attachments -> ga: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.11019699999999999
+  }
+}

@@ -4,13 +4,13 @@
   "summary": "E-shipments in Business Central 2025 release wave 2: the e-documents framework is extended to sales shipments and transfer shipments, with retroactive e-document creation from posted documents and e-document attachments in post and send. The demo uses an example file, not a country-specific localization.",
   "overview": "The video covers what is new for e-documents and e-shipments in 2025 release wave 2. E-shipments are electronic versions of shipment documents that can be sent to authorities where required. The speaker names Mexico and India as countries where this is already mandatory and says other countries will follow.\n\nThe demos show sales shipment e-documents, transfer shipments driven by a new setting on the location, creating e-documents from already posted documents, an export and email workflow, and the post and send attachment choice. The speaker states that the system has no file for a specific localization yet. The sample file is for demos, and localization will follow per country. EFTI support for EU electronic transport documents is mentioned as depending on the regulation becoming mandatory.",
   "key_points": [
-    "E-shipments are electronic shipment documents for authorities; the speaker names Mexico and India as countries where they are already mandatory.",
-    "The e-documents framework now covers sales shipments and transfer shipments.",
-    "Transfer orders are picked up automatically only if the new e-documents transfer document sending profile field is set on the location (table Location).",
-    "E-documents can be created from already posted documents, but the customer needs a document sending profile with e-documents enabled or creation will not succeed.",
-    "Emailing exported e-documents alongside the PDF needs a manually set up workflow that triggers when the e-document service status changes to exported.",
-    "In post and send, under email attachments you can now choose the e-document, the PDF, or both.",
-    "The demo file is only an example; country-specific files will come with localization. EFTI support depends on the regulation becoming mandatory."
+    "E-shipments are electronic shipment documents for authorities, also called e-delivery notes or e-way bills. The speaker names Mexico and India as countries where they are already mandatory, and Serbia as one where they will be required soon.",
+    "The e-documents framework already covered sales invoices and sales credit memos. With this release it now also covers sales shipments and transfer shipments.",
+    "Locations have a new field under Warehouse called e-documents transfer document sending profile. When you post a transfer order, it is picked up and sent automatically based on that setup.",
+    "E-documents can be created from already posted documents with Related > Create. The customer needs a document sending profile that uses e-documents, otherwise an error says the profile is not set up for electronic documents.",
+    "In the demo, a workflow exports the sales shipment e-document. When the e-document service status changes to exported, the workflow emails the PDF and the electronic document.",
+    "In post and send, under email attachments, you can now choose the e-document, the PDF, or both.",
+    "The demo file is only an example. Country-specific files will come with localization, and EU EFTI support depends on the regulation becoming mandatory."
   ],
   "audience": [
     "functional consultant",

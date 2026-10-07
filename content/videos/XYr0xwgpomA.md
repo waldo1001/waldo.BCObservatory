@@ -16,12 +16,12 @@ tags:
   - audit control
 system: sustainability
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:54:51.977Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:54:52.020Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -125,7 +125,7 @@ quotes:
 
 > Sustainability journal approvals in Business Central (2025 release wave 2): a workflow template lets companies route sustainability journal batches through the standard approval workflow, for CSRD-type reporting control. Approval works on the whole batch only, not per line.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=XYr0xwgpomA) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-10-01 · 4:03 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=XYr0xwgpomA) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-10-01 · 4:03 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -154,11 +154,11 @@ It then goes through the setup and shows a live demonstration. Users send or can
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Sustainability journal approvals | status not stated, demoed | [0:19](https://www.youtube.com/watch?v=XYr0xwgpomA&t=19s) |  |
-| Sustainability journal batch approval workflow template | status not stated, demoed | [1:03](https://www.youtube.com/watch?v=XYr0xwgpomA&t=63s) |  |
-| Approval request control for sustainability journal | status not stated, demoed | [1:25](https://www.youtube.com/watch?v=XYr0xwgpomA&t=85s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Sustainability journal approvals | status not stated, demoed | [0:19](https://www.youtube.com/watch?v=XYr0xwgpomA&t=19s) |
+| Sustainability journal batch approval workflow template | status not stated, demoed | [1:03](https://www.youtube.com/watch?v=XYr0xwgpomA&t=63s) |
+| Approval request control for sustainability journal | status not stated, demoed | [1:25](https://www.youtube.com/watch?v=XYr0xwgpomA&t=85s) |
 
 ## AL objects mentioned
 

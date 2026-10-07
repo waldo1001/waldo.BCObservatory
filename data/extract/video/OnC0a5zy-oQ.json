@@ -152,6 +152,12 @@
       "check": "exact"
     },
     {
+      "t": 52.7,
+      "text": "if you invoke another get request, you will see that the feature now is deactivated in feature management",
+      "why_it_matters": "Shows that a GET request can confirm a deactivation, just as it confirms an activation.",
+      "check": "exact"
+    },
+    {
       "t": 68.2,
       "text": "It's fast, it's clean, it saves you valuable time",
       "why_it_matters": "States the benefits of using the feature management API",

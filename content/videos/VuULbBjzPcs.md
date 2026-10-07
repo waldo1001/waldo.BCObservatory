@@ -2,7 +2,7 @@
 id: video/VuULbBjzPcs
 type: video
 title: "What's Cooking in Business Central: More Contoso Document Data for Analytics"
-summary: Analytics module in the Contoso demo tool for Business Central adds extra document types as demo data for reporting and Power BI demos. The video, published 2025-09-25, demos it and says it should land in Business Central 27.1ish.
+summary: The Contoso demo tool in Business Central gets a new Analytics module that adds extra document types as demo data for reporting and Power BI demos. In the demo, a company without the module has 2 sales quotes, and a company with it has about 18. The presenter says it should land in Business Central 27.1ish.
 tier: official
 language: en
 tags:
@@ -14,12 +14,12 @@ tags:
   - demo data module
 system: reporting
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:55:01.510Z"
   flags: []
 generated:
-  at: "2026-10-06T18:29:08.615Z"
+  at: "2026-10-07T22:55:01.549Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -40,6 +40,13 @@ evidence:
     commit: null
     t: 72
     quote: It's it adds new document types and you can watch the Business Central launch edition video to learn more in a couple of weeks
+  - kind: video
+    url: https://www.youtube.com/watch?v=VuULbBjzPcs&t=72s
+    title: "What's Cooking in Business Central: More Contoso Document Data for Analytics"
+    date: "2025-09-25T15:01:02.000Z"
+    commit: null
+    t: 72
+    quote: you will notice that we now have a lot more quotes like 18. So uh so this is what that module does.
   - kind: video
     url: https://www.youtube.com/watch?v=VuULbBjzPcs&t=87s
     title: "What's Cooking in Business Central: More Contoso Document Data for Analytics"
@@ -92,6 +99,9 @@ quotes:
   - t: 72
     text: It's it adds new document types and you can watch the Business Central launch edition video to learn more in a couple of weeks
     check: exact
+  - t: 72
+    text: you will notice that we now have a lot more quotes like 18. So uh so this is what that module does.
+    check: exact
   - t: 87
     text: This should land in Business Central in 27.1ish
     check: exact
@@ -99,9 +109,9 @@ quotes:
 
 # What's Cooking in Business Central: More Contoso Document Data for Analytics
 
-> Analytics module in the Contoso demo tool for Business Central adds extra document types as demo data for reporting and Power BI demos. The video, published 2025-09-25, demos it and says it should land in Business Central 27.1ish.
+> The Contoso demo tool in Business Central gets a new Analytics module that adds extra document types as demo data for reporting and Power BI demos. In the demo, a company without the module has 2 sales quotes, and a company with it has about 18. The presenter says it should land in Business Central 27.1ish.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=VuULbBjzPcs) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-09-25 · 1:38 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=VuULbBjzPcs) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-09-25 · 1:38 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -113,7 +123,7 @@ The video compares a demo without the Analytics module and with it, then gives a
 
 - The Contoso demo tool gets a new module named Analytics.
 - The module adds new document types, aimed at reporting and Power BI demos.
-- The video compares demo data without the Analytics module and with it.
+- Without the Analytics module the demo company shows 2 sales quotes; with it, a company shows about 18.
 - Expected timing: it should land in Business Central 27.1ish, which is not a firm commitment.
 - The presenter points to the Business Central launch edition video for more detail.
 
@@ -127,14 +137,15 @@ The video compares a demo without the Analytics module and with it, then gives a
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Analytics module in Contoso demo tool | status not stated, demoed | [0:21](https://www.youtube.com/watch?v=VuULbBjzPcs&t=21s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Analytics module in Contoso demo tool | status not stated, demoed | [0:21](https://www.youtube.com/watch?v=VuULbBjzPcs&t=21s) |
 
 ## Quotes
 
 - [0:21](https://www.youtube.com/watch?v=VuULbBjzPcs&t=21s) "there is a new kit on the block analytics. So this is adding some new documents if you need to demo reporting or PowerBI"
 - [1:12](https://www.youtube.com/watch?v=VuULbBjzPcs&t=72s) "It's it adds new document types and you can watch the Business Central launch edition video to learn more in a couple of weeks"
+- [1:12](https://www.youtube.com/watch?v=VuULbBjzPcs&t=72s) "you will notice that we now have a lot more quotes like 18. So uh so this is what that module does."
 - [1:27](https://www.youtube.com/watch?v=VuULbBjzPcs&t=87s) "This should land in Business Central in 27.1ish"
 
 ## Disclaimers in the video

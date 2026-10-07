@@ -1,15 +1,14 @@
 {
   "video_id": "OnC0a5zy-oQ",
   "item_id": "video/yt-microsoft/OnC0a5zy-oQ",
-  "summary": "Feature Management in Business Central can be handled through the automation API: a GET request lists available features and their status, and bound actions activate or deactivate a feature. The short demo (published 2025-09-05) enables and verifies \"advanced tell me\".",
+  "summary": "Business Central now supports managing Feature Management through the automation API. A GET request lists all available features and their current status, and the activate and deactivate bound actions turn a feature on or off. The demo activates \"advanced tell me\", runs another GET request to confirm it is enabled for all users, then deactivates it and checks the result the same way.",
   "overview": "The video shows automation API support for feature management in Business Central. It is meant to make handling features easier and more efficient than doing it by hand.\n\nThe demo first invokes a GET request to list all available features and their current status. It then activates a feature, advanced tell me, by invoking the activate bound action, and issues another GET request to verify the feature is enabled. It finishes by showing that the deactivate bound action turns the feature off again.",
   "key_points": [
-    "Automation API support was added for feature management.",
+    "Automation API support was just added for feature management.",
     "A GET request returns all available features and their current status.",
-    "The activate bound action enables a feature, shown with advanced tell me, for all users in the system.",
-    "After activating, issue another GET request to verify the feature is enabled.",
-    "The deactivate bound action disables a feature.",
-    "Useful for scripting or automating feature changes instead of using the UI."
+    "The activate bound action enables a feature (shown with advanced tell me), and a follow-up GET request confirms it is enabled and activated for all users.",
+    "The deactivate bound action disables a feature, and another GET request shows it as deactivated in feature management.",
+    "The presenter describes the approach as fast, clean and time-saving."
   ],
   "audience": [
     "administrator",

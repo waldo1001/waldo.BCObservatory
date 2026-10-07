@@ -16,12 +16,12 @@ tags:
   - deferral code
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:55:30.237Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:55:30.260Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -124,7 +124,7 @@ quotes:
 
 > Agent reasoning display for the payables agent in Business Central: an info icon next to a suggested field value, such as a GL account or deferral code, shows why the agent suggested it. Described for the 2025 wave 2 major release, possibly extending to other features later.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=FBrZwXpOhmM) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-08-28 · 1:55 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=FBrZwXpOhmM) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-08-28 · 1:55 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -139,7 +139,7 @@ The demo opens a purchase document draft containing agent suggestions. A small I
 - Reasoning can also be viewed for other suggested fields, such as the deferral code.
 - The reasoning display applies regardless of what the agent suggests, including accounts or items that use item references.
 - The stated purpose is trust: users adopt AI more readily when they can see why it suggested a value.
-- The video is labelled a preview of work in progress, so details may change.
+- The video presents this as something Microsoft is 'cooking up', so it is not yet a shipped feature.
 
 ## Chapters
 
@@ -153,10 +153,10 @@ The demo opens a purchase document draft containing agent suggestions. A small I
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Agent Reasoning Display | status not stated, demoed | [0:05](https://www.youtube.com/watch?v=FBrZwXpOhmM&t=5s) |  |
-| Payables Agent | status not stated, demoed | [0:05](https://www.youtube.com/watch?v=FBrZwXpOhmM&t=5s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Agent Reasoning Display | status not stated, demoed | [0:05](https://www.youtube.com/watch?v=FBrZwXpOhmM&t=5s) |
+| Payables Agent | status not stated, demoed | [0:05](https://www.youtube.com/watch?v=FBrZwXpOhmM&t=5s) |
 
 ## AL objects mentioned
 

@@ -17,12 +17,12 @@ tags:
   - rdl migration
 system: reporting
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:54:50.807Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:54:50.845Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -169,7 +169,7 @@ quotes:
 
 > Document reporting in the 2025 release wave 2: a new Business Central Word addin with a data picker that lets power users and consultants add fields and repeaters to Word layouts. Also covers addin installation, planned tooltips for data item fields, and the code-named Project Sequoia.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=vLcb31rfZ48) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-10-01 · 11:04 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=vLcb31rfZ48) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-10-01 · 11:04 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -183,8 +183,8 @@ It then covers installing the addin from the Office add-ins menu and what is com
 - Add field inserts a content control whose text and tag match the field name.
 - Add repeater creates a repeating section, shown with multiple customers in a table, using content controls marked as repeaters.
 - Install the addin from the Office add-ins menu by searching for Business Central; pick the version with the AD data controls description, as several versions exist.
-- The addin is reachable from the Home tab or the File menu, and the Word tab labels the new addin as a preview version.
-- Tooltips for data item fields are meant to make datasets easier for non-developers; they are not in version 27, and an update is hoped for.
+- The addin is reachable from the Home tab or the File menu, and the Word tab shows the new addin as 'business central preview'.
+- Tooltips for data item fields are meant to make datasets easier for non-developers; they missed the recording and are hoped for in an update to version 27 in the fall.
 - Project Sequoia is a code name for replacing most or all Business Central document layouts with Word layouts; details are planned for office hours in the fall.
 
 ## Chapters
@@ -198,15 +198,15 @@ It then covers installing the addin from the Office add-ins menu and what is com
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Word Addin with Data Picker | status not stated, demoed | [0:46](https://www.youtube.com/watch?v=vLcb31rfZ48&t=46s) |  |
-| Add Data Action in Word | status not stated, demoed | [2:21](https://www.youtube.com/watch?v=vLcb31rfZ48&t=141s) |  |
-| Add Field Functionality | status not stated, demoed | [3:08](https://www.youtube.com/watch?v=vLcb31rfZ48&t=188s) |  |
-| Add Repeater Functionality | status not stated, demoed | [3:33](https://www.youtube.com/watch?v=vLcb31rfZ48&t=213s) |  |
-| Simplified Word Addin Installation | status not stated, demoed | [5:28](https://www.youtube.com/watch?v=vLcb31rfZ48&t=328s) |  |
-| Tooltips for Data Item Fields | status not stated | [7:21](https://www.youtube.com/watch?v=vLcb31rfZ48&t=441s) |  |
-| Project Sequoia | status not stated | [8:23](https://www.youtube.com/watch?v=vLcb31rfZ48&t=503s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Word Addin with Data Picker | status not stated, demoed | [0:46](https://www.youtube.com/watch?v=vLcb31rfZ48&t=46s) |
+| Add Data Action in Word | status not stated, demoed | [2:21](https://www.youtube.com/watch?v=vLcb31rfZ48&t=141s) |
+| Add Field Functionality | status not stated, demoed | [3:08](https://www.youtube.com/watch?v=vLcb31rfZ48&t=188s) |
+| Add Repeater Functionality | status not stated, demoed | [3:33](https://www.youtube.com/watch?v=vLcb31rfZ48&t=213s) |
+| Simplified Word Addin Installation | status not stated, demoed | [5:28](https://www.youtube.com/watch?v=vLcb31rfZ48&t=328s) |
+| Tooltips for Data Item Fields | status not stated | [7:21](https://www.youtube.com/watch?v=vLcb31rfZ48&t=441s) |
+| Project Sequoia | status not stated | [8:23](https://www.youtube.com/watch?v=vLcb31rfZ48&t=503s) |
 
 ## AL objects mentioned
 

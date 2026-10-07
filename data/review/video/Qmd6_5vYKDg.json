@@ -1,0 +1,27 @@
+{
+  "video_id": "Qmd6_5vYKDg",
+  "item_id": "video/yt-microsoft/Qmd6_5vYKDg",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All 6 quotes match the transcript word for word. The feature descriptions are supported.",
+    "All features are marked 'unclear'. That fits, because the transcript never says whether anything is in preview or generally available.",
+    "The page left out that the agent finds both exact matches and similar items, checks availability and prepares a reply ready to send (t=26.7 to 41.1). I added this to the summary and key points and added a quote for it.",
+    "Small issue: the 'Item Identifiers and References' chapter starts at 81.4, but the variants part runs from 81.4 to 93.3. I left the chapters unchanged."
+  ],
+  "input_hash": "c5775a54987a13f8004095784736be7e3bba3afcdb831355845df17397b78306",
+  "by": "opus",
+  "at": "2026-10-07T22:55:26.044Z",
+  "applied": [
+    "quote at 27s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.052745
+  }
+}

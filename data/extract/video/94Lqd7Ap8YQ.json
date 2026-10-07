@@ -98,27 +98,6 @@
       "system": "development"
     },
     {
-      "name": "AI Power User Certification Path",
-      "description": "A structured approach where professionals in different fields (accountants, tax preparers, financial analysts) learn to identify which parts of their workflows are best suited for AI, create prompt libraries, and become AI-capable in their domain.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 265.1,
-      "t_end": 310.1,
-      "is_demoed": false,
-      "caveats": [
-        "Requires structured learning; needs people willing to commit to training"
-      ],
-      "tags": [
-        "ai training",
-        "prompt engineering",
-        "domain expertise",
-        "workflow optimization"
-      ],
-      "system": "copilot"
-    },
-    {
       "name": "Partner Technical Upskilling in AI",
       "description": "Partners need to move beyond surface-level AI adoption and develop deep technical understanding of AI capabilities, including how to build custom solutions and integrate AI into extensions.",
       "status": "unclear",
@@ -185,6 +164,12 @@
       "check": "exact"
     },
     {
+      "t": 191.8,
+      "text": "most normal companies are never going to be able to hire these people because there are not enough",
+      "why_it_matters": "States the talent shortage that drives the advice to upskill existing domain experts.",
+      "check": "exact"
+    },
+    {
       "t": 216.1,
       "text": "we turned lots of accountants and finance people into bc consultants we're going to have to do that",
       "why_it_matters": "Demonstrates that the industry has successfully transformed domain experts into technical consultants before, providing a proven model for AI upskilling.",
@@ -200,6 +185,12 @@
       "t": 285.6,
       "text": "If people can do that, they're now called what is in my jurisdiction called an AI power user. And once we build up a",
       "why_it_matters": "Describes the BC Talent program's goal of creating AI-enabled professionals who can solve future customer problems at scale.",
+      "check": "exact"
+    },
+    {
+      "t": 321.9,
+      "text": "the most important thing all of you should be doing is going to the BC talent page and clicking on learn more",
+      "why_it_matters": "This is the video's call to action for the BC Talent program.",
       "check": "exact"
     },
     {

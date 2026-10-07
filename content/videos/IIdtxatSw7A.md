@@ -2,7 +2,7 @@
 id: video/IIdtxatSw7A
 type: video
 title: "Business Central Under the Hood episode 10: Hackers Are at the Gate! Business Central & Security."
-summary: "Business Central security discussion (Under the Hood episode 10, Aug 2025): current cyber threats, secure by default, cloud threat intelligence sharing, security development lifecycle, bounty program, red team testing, and guidance for partners and customers on MFA, threat modeling and incident response."
+summary: "Business Central Under the Hood episode 10 with Jonathan Davis, a security program manager on the BIC security team, about current cyber threats. Topics include secure by default, cloud threat intelligence sharing, the security development lifecycle and code scanning, secure admin workstations, Purview audit logs, the Dynamics 365 bounty program and red team exercises. It ends with guidance for partners: phishing-resistant MFA (not SMS), threat modeling, SDL, CISO workshops and the basics of SMB security."
 tier: official
 language: en
 tags:
@@ -20,12 +20,12 @@ tags:
   - code scanning
 system: administration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:55:47.261Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:55:47.322Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -75,6 +75,13 @@ evidence:
     t: 657
     quote: secure by default you know we've often you know since the 70s we've had all these security principles like
   - kind: video
+    url: https://www.youtube.com/watch?v=IIdtxatSw7A&t=713s
+    title: "Business Central Under the Hood episode 10: Hackers Are at the Gate! Business Central & Security."
+    date: "2025-08-27T14:00:23.000Z"
+    commit: null
+    t: 713
+    quote: it's secure by default when you switch it on it's secure and you have to read the documents and to really strive to screw
+  - kind: video
     url: https://www.youtube.com/watch?v=IIdtxatSw7A&t=825s
     title: "Business Central Under the Hood episode 10: Hackers Are at the Gate! Business Central & Security."
     date: "2025-08-27T14:00:23.000Z"
@@ -102,13 +109,6 @@ evidence:
     commit: null
     t: 1048
     quote: all of these AI features need to go through the professional security teams like my own it was very hard work for us we
-  - kind: video
-    url: https://www.youtube.com/watch?v=IIdtxatSw7A&t=1138s
-    title: "Business Central Under the Hood episode 10: Hackers Are at the Gate! Business Central & Security."
-    date: "2025-08-27T14:00:23.000Z"
-    commit: null
-    t: 1138
-    quote: all of them can access the production databases
   - kind: video
     url: https://www.youtube.com/watch?v=IIdtxatSw7A&t=1264s
     title: "Business Central Under the Hood episode 10: Hackers Are at the Gate! Business Central & Security."
@@ -145,12 +145,19 @@ evidence:
     t: 1599
     quote: the I think that most people would be quite shocked and terrified to realize how many close calls every business has
   - kind: video
-    url: https://www.youtube.com/watch?v=IIdtxatSw7A&t=1900s
+    url: https://www.youtube.com/watch?v=IIdtxatSw7A&t=1613s
     title: "Business Central Under the Hood episode 10: Hackers Are at the Gate! Business Central & Security."
     date: "2025-08-27T14:00:23.000Z"
     commit: null
-    t: 1900
-    quote: and the attackers will find it find it yeah it's far better to have these like
+    t: 1613
+    quote: a few months ago we started reporting all of our cloud bugs
+  - kind: video
+    url: https://www.youtube.com/watch?v=IIdtxatSw7A&t=1768s
+    title: "Business Central Under the Hood episode 10: Hackers Are at the Gate! Business Central & Security."
+    date: "2025-08-27T14:00:23.000Z"
+    commit: null
+    t: 1768
+    quote: In 2019 we we got the what was then the Azure uh red team
   - kind: video
     url: https://www.youtube.com/watch?v=IIdtxatSw7A&t=1965s
     title: "Business Central Under the Hood episode 10: Hackers Are at the Gate! Business Central & Security."
@@ -193,13 +200,6 @@ evidence:
     commit: null
     t: 2385
     quote: cyber security as a discipline is extremely broad. It's not just a narrow technical thing. A lot of it's psychology.
-  - kind: video
-    url: https://www.youtube.com/watch?v=IIdtxatSw7A&t=2401s
-    title: "Business Central Under the Hood episode 10: Hackers Are at the Gate! Business Central & Security."
-    date: "2025-08-27T14:00:23.000Z"
-    commit: null
-    t: 2401
-    quote: at this exact moment in the arms race the defenders are
   - kind: video
     url: https://www.youtube.com/watch?v=IIdtxatSw7A&t=2457s
     title: "Business Central Under the Hood episode 10: Hackers Are at the Gate! Business Central & Security."
@@ -275,11 +275,6 @@ features:
     t: 795
     verified: false
     status_source: video
-  - name: Threat Intelligence Cascading
-    status: unclear
-    t: 795
-    verified: false
-    status_source: video
   - name: Security Development Lifecycle
     status: unclear
     t: 1009
@@ -313,11 +308,6 @@ features:
   - name: Business Central red team exercise
     status: unclear
     t: 1754
-    verified: false
-    status_source: video
-  - name: Dynamics 365 bug bounty program
-    status: unclear
-    t: 1864
     verified: false
     status_source: video
   - name: Security development lifecycle guidance
@@ -360,11 +350,6 @@ features:
     t: 2593
     verified: false
     status_source: video
-  - name: Microsoft Defender for X series
-    status: unclear
-    t: 2658
-    verified: false
-    status_source: video
   - name: AI-assisted incident response
     status: unclear
     t: 2674
@@ -388,6 +373,9 @@ quotes:
   - t: 657
     text: secure by default you know we've often you know since the 70s we've had all these security principles like
     check: fuzzy
+  - t: 713
+    text: it's secure by default when you switch it on it's secure and you have to read the documents and to really strive to screw
+    check: exact
   - t: 825
     text: we can cascade that to all of our customers immediately
     check: exact
@@ -399,9 +387,6 @@ quotes:
     check: fuzzy
   - t: 1048
     text: all of these AI features need to go through the professional security teams like my own it was very hard work for us we
-    check: exact
-  - t: 1138
-    text: all of them can access the production databases
     check: exact
   - t: 1264
     text: we essentially pay people to to report security bugs to us vulnerabilities
@@ -418,9 +403,12 @@ quotes:
   - t: 1599
     text: the I think that most people would be quite shocked and terrified to realize how many close calls every business has
     check: exact
-  - t: 1900
-    text: and the attackers will find it find it yeah it's far better to have these like
-    check: fuzzy
+  - t: 1613
+    text: a few months ago we started reporting all of our cloud bugs
+    check: exact
+  - t: 1768
+    text: In 2019 we we got the what was then the Azure uh red team
+    check: exact
   - t: 1965
     text: I think the simplest thing would be for them to to follow the security development life cycle that is a very mature, very complete
     check: exact
@@ -439,9 +427,6 @@ quotes:
   - t: 2385
     text: cyber security as a discipline is extremely broad. It's not just a narrow technical thing. A lot of it's psychology.
     check: exact
-  - t: 2401
-    text: at this exact moment in the arms race the defenders are
-    check: fuzzy
   - t: 2457
     text: it's hard for me to remember the 300 or so controls that are
     check: fuzzy
@@ -452,9 +437,9 @@ quotes:
 
 # Business Central Under the Hood episode 10: Hackers Are at the Gate! Business Central & Security.
 
-> Business Central security discussion (Under the Hood episode 10, Aug 2025): current cyber threats, secure by default, cloud threat intelligence sharing, security development lifecycle, bounty program, red team testing, and guidance for partners and customers on MFA, threat modeling and incident response.
+> Business Central Under the Hood episode 10 with Jonathan Davis, a security program manager on the BIC security team, about current cyber threats. Topics include secure by default, cloud threat intelligence sharing, the security development lifecycle and code scanning, secure admin workstations, Purview audit logs, the Dynamics 365 bounty program and red team exercises. It ends with guidance for partners: phishing-resistant MFA (not SMS), threat modeling, SDL, CISO workshops and the basics of SMB security.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=IIdtxatSw7A) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-08-27 · 48:31 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=IIdtxatSw7A) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-08-27 · 48:31 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -495,7 +480,6 @@ It also describes secure admin workstations, auditing and security logs sent to 
 |---|---|---|---|
 | Secure by Default Initiative | status not stated | [10:57](https://www.youtube.com/watch?v=IIdtxatSw7A&t=657s) |  |
 | Threat Intelligence Sharing Network | status not stated | [13:15](https://www.youtube.com/watch?v=IIdtxatSw7A&t=795s) |  |
-| Threat Intelligence Cascading | status not stated | [13:15](https://www.youtube.com/watch?v=IIdtxatSw7A&t=795s) |  |
 | Security Development Lifecycle | status not stated | [16:49](https://www.youtube.com/watch?v=IIdtxatSw7A&t=1009s) |  |
 | Static Code Analysis and Scanning | status not stated | [17:46](https://www.youtube.com/watch?v=IIdtxatSw7A&t=1066s) |  |
 | Secure Admin Workstation (SAW) | status not stated | [18:02](https://www.youtube.com/watch?v=IIdtxatSw7A&t=1082s) |  |
@@ -503,7 +487,6 @@ It also describes secure admin workstations, auditing and security logs sent to 
 | Dynamics 365 Bounty Program | status not stated | [20:41](https://www.youtube.com/watch?v=IIdtxatSw7A&t=1241s) |  |
 | Cloud Bugs Transparency Reporting | status not stated | [26:53](https://www.youtube.com/watch?v=IIdtxatSw7A&t=1613s) |  |
 | Business Central red team exercise | status not stated | [29:14](https://www.youtube.com/watch?v=IIdtxatSw7A&t=1754s) |  |
-| Dynamics 365 bug bounty program | status not stated | [31:04](https://www.youtube.com/watch?v=IIdtxatSw7A&t=1864s) |  |
 | Security development lifecycle guidance | status not stated | [32:25](https://www.youtube.com/watch?v=IIdtxatSw7A&t=1945s) |  |
 | CISO workshops | status not stated | [33:01](https://www.youtube.com/watch?v=IIdtxatSw7A&t=1981s) |  |
 | Component governance tooling | status not stated | [33:38](https://www.youtube.com/watch?v=IIdtxatSw7A&t=2018s) |  |
@@ -512,7 +495,6 @@ It also describes secure admin workstations, auditing and security logs sent to 
 | Copilot threat modeler | status not stated | [40:46](https://www.youtube.com/watch?v=IIdtxatSw7A&t=2446s) |  |
 | AI for attack detection and log analysis | status not stated | [41:44](https://www.youtube.com/watch?v=IIdtxatSw7A&t=2504s) |  |
 | Dynamics 365 and Power Platform security heat mapping | status not stated | [43:13](https://www.youtube.com/watch?v=IIdtxatSw7A&t=2593s) |  |
-| Microsoft Defender for X series | status not stated | [44:18](https://www.youtube.com/watch?v=IIdtxatSw7A&t=2658s) |  |
 | AI-assisted incident response | status not stated | [44:34](https://www.youtube.com/watch?v=IIdtxatSw7A&t=2674s) |  |
 
 ## AL objects mentioned
@@ -528,24 +510,24 @@ As heard in the captions. A name that matches one object page by exact type and 
 - [4:12](https://www.youtube.com/watch?v=IIdtxatSw7A&t=252s) "right now we in Microsoft are experienced sometimes billions, if not trillions of attempts of people that are taking these rainbow tables"
 - [9:41](https://www.youtube.com/watch?v=IIdtxatSw7A&t=581s) "those businesses are probably the most vulnerable. They're in the perfect sweet spot for ransomware attackers."
 - [10:57](https://www.youtube.com/watch?v=IIdtxatSw7A&t=657s) "secure by default you know we've often you know since the 70s we've had all these security principles like"
+- [11:53](https://www.youtube.com/watch?v=IIdtxatSw7A&t=713s) "it's secure by default when you switch it on it's secure and you have to read the documents and to really strive to screw"
 - [13:45](https://www.youtube.com/watch?v=IIdtxatSw7A&t=825s) "we can cascade that to all of our customers immediately"
 - [13:56](https://www.youtube.com/watch?v=IIdtxatSw7A&t=836s) "a single customer is attacked or even compromised and then we can plug that into our systems to defend everybody else."
 - [14:52](https://www.youtube.com/watch?v=IIdtxatSw7A&t=892s) "secure by default watched by network operations centers staffed by the best in the world using"
 - [17:28](https://www.youtube.com/watch?v=IIdtxatSw7A&t=1048s) "all of these AI features need to go through the professional security teams like my own it was very hard work for us we"
-- [18:58](https://www.youtube.com/watch?v=IIdtxatSw7A&t=1138s) "all of them can access the production databases"
 - [21:04](https://www.youtube.com/watch?v=IIdtxatSw7A&t=1264s) "we essentially pay people to to report security bugs to us vulnerabilities"
 - [21:55](https://www.youtube.com/watch?v=IIdtxatSw7A&t=1315s) "a zero day just means uh a vulnerability that is that the bad that the that the sort of attackers know about before the"
 - [23:04](https://www.youtube.com/watch?v=IIdtxatSw7A&t=1384s) "most successful breaches have nothing to do with zero days"
 - [25:14](https://www.youtube.com/watch?v=IIdtxatSw7A&t=1514s) "do not use SMS as a as a multiffactor thing because uh it's it's compromised"
 - [26:39](https://www.youtube.com/watch?v=IIdtxatSw7A&t=1599s) "the I think that most people would be quite shocked and terrified to realize how many close calls every business has"
-- [31:40](https://www.youtube.com/watch?v=IIdtxatSw7A&t=1900s) "and the attackers will find it find it yeah it's far better to have these like"
+- [26:53](https://www.youtube.com/watch?v=IIdtxatSw7A&t=1613s) "a few months ago we started reporting all of our cloud bugs"
+- [29:28](https://www.youtube.com/watch?v=IIdtxatSw7A&t=1768s) "In 2019 we we got the what was then the Azure uh red team"
 - [32:45](https://www.youtube.com/watch?v=IIdtxatSw7A&t=1965s) "I think the simplest thing would be for them to to follow the security development life cycle that is a very mature, very complete"
 - [34:25](https://www.youtube.com/watch?v=IIdtxatSw7A&t=2065s) "threat modeling is deceptively simple I mean we made a 5minute video for engineering resources here within Microsoft it really just involves this you"
 - [35:41](https://www.youtube.com/watch?v=IIdtxatSw7A&t=2141s) "good security people are not security absolutists. Remember that they're part of a business that has to ship value to customers"
 - [36:52](https://www.youtube.com/watch?v=IIdtxatSw7A&t=2212s) "Definitely not SMS. Uh you know, we we actually use so-called fishing resistant MFA"
 - [38:02](https://www.youtube.com/watch?v=IIdtxatSw7A&t=2282s) "if you get a call from somebody saying they're from Microsoft and there's some security issue on your computer this is not us. this"
 - [39:45](https://www.youtube.com/watch?v=IIdtxatSw7A&t=2385s) "cyber security as a discipline is extremely broad. It's not just a narrow technical thing. A lot of it's psychology."
-- [40:01](https://www.youtube.com/watch?v=IIdtxatSw7A&t=2401s) "at this exact moment in the arms race the defenders are"
 - [40:57](https://www.youtube.com/watch?v=IIdtxatSw7A&t=2457s) "it's hard for me to remember the 300 or so controls that are"
 - [47:56](https://www.youtube.com/watch?v=IIdtxatSw7A&t=2876s) "The basics are the basics and the basics are basic get you an awful long way"
 

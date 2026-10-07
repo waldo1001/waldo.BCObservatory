@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=sv1utmneaXA",
   "published_at": "2025-10-01T00:00:00Z",
   "language": "en",
-  "state": "linked",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:51:47.857Z"
@@ -57,8 +57,17 @@
       "objects_as_heard": 2
     },
     "published": {
-      "at": "2026-10-06T18:27:55.658Z",
+      "at": "2026-10-07T22:54:28.465Z",
       "path": "content/videos/sv1utmneaXA.md"
+    },
+    "reviewed": {
+      "at": "2026-10-07T22:54:28.420Z",
+      "path": "data/review/video/sv1utmneaXA.json",
+      "verdict": "approve",
+      "applied": 0,
+      "rejected_edits": 0,
+      "model": "claude-opus-5-5",
+      "cost_usd": 0.058285
     }
   },
   "input_hash": null,
@@ -70,5 +79,10 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a211a270f3404a938251f1dfa7c5e6e508acf434896f5bcf2ab596ed5902ef32"
+  "output_hash": "c15635fe41d1130bd118961ce1097ab8b7aa3a7644dbcf172cbac12789b59989",
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T22:54:28.419Z"
+  }
 }

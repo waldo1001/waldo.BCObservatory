@@ -1,0 +1,30 @@
+{
+  "video_id": "ZKq0hc04f-s",
+  "item_id": "video/yt-microsoft/ZKq0hc04f-s",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Summary, key points, chapters and features are supported by the transcript.",
+    "All features were marked unclear, but the transcript gives clear status for three of them: SQL tracking is added 'in this release', the in-client profiler launched in 2022, and schedule profiles were introduced a year ago. Set these to ga with evidence.",
+    "The quote at 317.6 is a sentence fragment that adds little on its own. Replaced it with the recap line about telling AL inefficiency apart from SQL calls.",
+    "Feature descriptions keep the caption typo 'SQL course calls' (meaning SQL calls). Minor."
+  ],
+  "input_hash": "ff1020c06c9f13fdbde454952de2546c63cfff829f0402cddeefe18ad99e6862",
+  "by": "opus",
+  "at": "2026-10-07T22:55:01.184Z",
+  "applied": [
+    "dropped 1 quote(s)",
+    "quote at 400s"
+  ],
+  "rejected_edits": [
+    "status SQL call tracking in performance profiles -> ga: evidence not verbatim or does not state the status",
+    "status Performance profiler in-client tool -> ga: evidence not verbatim or does not state the status",
+    "status Schedule profiles -> ga: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.078769
+  }
+}

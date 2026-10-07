@@ -18,12 +18,12 @@ tags:
   - business central development
 system: platform
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:54:46.500Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:54:46.535Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -159,7 +159,7 @@ quotes:
 
 > AL-Go for GitHub custom templates and custom jobs: how a custom template repository sits between the original AL-Go template and end repositories, propagates jobs and settings, and what limits apply. Mentions custom jobs from AL-Go 7.3 and a naming rule.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=vm3sTuXdUho) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-10-01 · 8:06 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=vm3sTuXdUho) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-10-01 · 8:06 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -190,12 +190,12 @@ It then introduces custom templates: a custom template is itself an AL-Go reposi
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Custom templates for AL-Go | status not stated, demoed | [2:00](https://www.youtube.com/watch?v=vm3sTuXdUho&t=120s) |  |
-| Custom jobs in AL-Go workflows | status not stated, demoed | [1:36](https://www.youtube.com/watch?v=vm3sTuXdUho&t=96s) |  |
-| Settings propagation in custom templates | status not stated, demoed | [2:42](https://www.youtube.com/watch?v=vm3sTuXdUho&t=162s) |  |
-| Native job dependencies with custom jobs | status not stated, demoed | [5:22](https://www.youtube.com/watch?v=vm3sTuXdUho&t=322s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Custom templates for AL-Go | status not stated, demoed | [2:00](https://www.youtube.com/watch?v=vm3sTuXdUho&t=120s) |
+| Custom jobs in AL-Go workflows | status not stated, demoed | [1:36](https://www.youtube.com/watch?v=vm3sTuXdUho&t=96s) |
+| Settings propagation in custom templates | status not stated, demoed | [2:42](https://www.youtube.com/watch?v=vm3sTuXdUho&t=162s) |
+| Native job dependencies with custom jobs | status not stated, demoed | [5:22](https://www.youtube.com/watch?v=vm3sTuXdUho&t=322s) |
 
 ## AL objects mentioned
 

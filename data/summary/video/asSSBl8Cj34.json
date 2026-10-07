@@ -8,7 +8,8 @@
     "In earlier versions, the Import permission sets action asked whether to update, and yes merged permissions from test and production.",
     "To replace instead of merge, select no when prompted to update existing permissions.",
     "In the demo, after choosing no, the vendor table permission was removed and contacts were added exactly as defined in the import.",
-    "The use case is moving permission sets between environments, such as test to production, where the imported definition should be the final result."
+    "The use case is moving permission sets between environments, such as test to production, where the imported definition should be the final result.",
+    "With this change, you no longer need to manually delete existing permissions before importing a new set."
   ],
   "audience": [
     "administrator",

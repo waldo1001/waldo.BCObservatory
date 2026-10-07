@@ -16,12 +16,12 @@ tags:
   - performance analysis
 system: platform
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:55:01.184Z"
   flags: []
 generated:
-  at: "2026-10-06T18:28:56.270Z"
+  at: "2026-10-07T22:55:01.233Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -50,12 +50,12 @@ evidence:
     t: 183
     quote: The schedule profiles is now the recommended approach uh to profiling performance issues because it's so easy to set up and analyze afterwards.
   - kind: video
-    url: https://www.youtube.com/watch?v=ZKq0hc04f-s&t=317s
+    url: https://www.youtube.com/watch?v=ZKq0hc04f-s&t=400s
     title: "What's New: Capturing SQL Calls in Performance Profiles (2025 release wave 2)"
     date: "2025-10-01T00:00:00Z"
     commit: null
-    t: 317
-    quote: but only a little more than 1 second uh running AL, right? Because most of the time which we can now see in new
+    t: 400
+    quote: you can now see which calls are made to SQL during a performance profile and therefore better assess whether bad performance
   - kind: video
     url: https://www.youtube.com/watch?v=ZKq0hc04f-s&t=453s
     title: "What's New: Capturing SQL Calls in Performance Profiles (2025 release wave 2)"
@@ -143,8 +143,8 @@ quotes:
   - t: 183
     text: The schedule profiles is now the recommended approach uh to profiling performance issues because it's so easy to set up and analyze afterwards.
     check: exact
-  - t: 317
-    text: but only a little more than 1 second uh running AL, right? Because most of the time which we can now see in new
+  - t: 400
+    text: you can now see which calls are made to SQL during a performance profile and therefore better assess whether bad performance
     check: exact
   - t: 453
     text: and SQL call information is also available inside of Visual Studio Code. when you've done uh snapshots or just by importing the profiles. And
@@ -158,7 +158,7 @@ quotes:
 
 > SQL call tracking in Business Central performance profiles (2025 release wave 2): the in-client profiler and Visual Studio Code snapshots now show total SQL duration, call count and the actual queries. It works in sampling mode only, not instrumentation mode.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=ZKq0hc04f-s) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-10-01 · 9:32 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=ZKq0hc04f-s) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-10-01 · 9:32 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -188,20 +188,20 @@ A demo captures a profile and shows that most of the time in a slow flow is spen
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| SQL call tracking in performance profiles | status not stated, demoed | [0:18](https://www.youtube.com/watch?v=ZKq0hc04f-s&t=18s) |  |
-| Performance profiler in-client tool | status not stated | [1:10](https://www.youtube.com/watch?v=ZKq0hc04f-s&t=70s) |  |
-| Schedule profiles | status not stated, demoed | [2:38](https://www.youtube.com/watch?v=ZKq0hc04f-s&t=158s) |  |
-| SQL call visualization in Visual Studio Code | status not stated, demoed | [6:29](https://www.youtube.com/watch?v=ZKq0hc04f-s&t=389s) |  |
-| HTTP call tracking in performance profiles | status not stated | [5:28](https://www.youtube.com/watch?v=ZKq0hc04f-s&t=328s) |  |
+| Feature | Status | At |
+|---|---|---|
+| SQL call tracking in performance profiles | status not stated, demoed | [0:18](https://www.youtube.com/watch?v=ZKq0hc04f-s&t=18s) |
+| Performance profiler in-client tool | status not stated | [1:10](https://www.youtube.com/watch?v=ZKq0hc04f-s&t=70s) |
+| Schedule profiles | status not stated, demoed | [2:38](https://www.youtube.com/watch?v=ZKq0hc04f-s&t=158s) |
+| SQL call visualization in Visual Studio Code | status not stated, demoed | [6:29](https://www.youtube.com/watch?v=ZKq0hc04f-s&t=389s) |
+| HTTP call tracking in performance profiles | status not stated | [5:28](https://www.youtube.com/watch?v=ZKq0hc04f-s&t=328s) |
 
 ## Quotes
 
 - [0:18](https://www.youtube.com/watch?v=ZKq0hc04f-s&t=18s) "In this release, we add the ability to track SQL course calls uh both when using the inclient profiler in the web client as"
 - [0:29](https://www.youtube.com/watch?v=ZKq0hc04f-s&t=29s) "This will help consultants and developers and support to faster identify and troubleshoot SQL issues in customer production environments."
 - [3:03](https://www.youtube.com/watch?v=ZKq0hc04f-s&t=183s) "The schedule profiles is now the recommended approach uh to profiling performance issues because it's so easy to set up and analyze afterwards."
-- [5:17](https://www.youtube.com/watch?v=ZKq0hc04f-s&t=317s) "but only a little more than 1 second uh running AL, right? Because most of the time which we can now see in new"
+- [6:40](https://www.youtube.com/watch?v=ZKq0hc04f-s&t=400s) "you can now see which calls are made to SQL during a performance profile and therefore better assess whether bad performance"
 - [7:33](https://www.youtube.com/watch?v=ZKq0hc04f-s&t=453s) "and SQL call information is also available inside of Visual Studio Code. when you've done uh snapshots or just by importing the profiles. And"
 - [8:44](https://www.youtube.com/watch?v=ZKq0hc04f-s&t=524s) "Now we only support the sampling mode as I mentioned not instrumentation. uh that means that you only get SQL information for the um"
 

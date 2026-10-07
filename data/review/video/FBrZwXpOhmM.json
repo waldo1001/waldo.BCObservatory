@@ -1,0 +1,28 @@
+{
+  "video_id": "FBrZwXpOhmM",
+  "item_id": "video/yt-microsoft/FBrZwXpOhmM",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "The key point saying the video is labelled a preview of work in progress, so details may change, goes too far. The transcript only says it is 'a thing that we're cooking up'. I reworded it to match.",
+    "Agent Reasoning Display can be set to announced. At 5.4 the speaker says the team is 'cooking up' this feature for the payables agent in the 2025 wave 2 major release.",
+    "Payables Agent stays unclear because the transcript says nothing about its own release status.",
+    "The summary, the chapters and the 4 quotes match the transcript."
+  ],
+  "input_hash": "aa4e5123cec9773543f82c6f6b46888bc4f667a1c268bc7644ace997f3af2898",
+  "by": "opus",
+  "at": "2026-10-07T22:55:30.237Z",
+  "applied": [
+    "Payables Agent: status unclear",
+    "key points rewritten"
+  ],
+  "rejected_edits": [
+    "status Agent Reasoning Display -> announced: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.041509000000000004
+  }
+}

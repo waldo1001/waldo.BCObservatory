@@ -20,12 +20,12 @@ tags:
   - refunds
 system: integration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T22:54:31.773Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T22:54:31.818Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -40,12 +40,12 @@ evidence:
     t: 6
     quote: many and many releases we are working on making connector more stable and reliable and we achieved great progress.
   - kind: video
-    url: https://www.youtube.com/watch?v=StIVhsnOHWY&t=23s
+    url: https://www.youtube.com/watch?v=StIVhsnOHWY&t=6s
     title: "What's New in Shopify Connector: Troubleshoot Synchronization (2025 release wave 2)"
     date: "2025-10-01T00:00:00Z"
     commit: null
-    t: 23
-    quote: very very small and if this video would be focused only on those it will be
+    t: 6
+    quote: in this release we added four capabilities four sounds long but in reality they're very very small
   - kind: video
     url: https://www.youtube.com/watch?v=StIVhsnOHWY&t=43s
     title: "What's New in Shopify Connector: Troubleshoot Synchronization (2025 release wave 2)"
@@ -123,6 +123,13 @@ evidence:
     commit: null
     t: 1283
     quote: we have a shopify order line number it's not blank so it's a good sign
+  - kind: video
+    url: https://www.youtube.com/watch?v=StIVhsnOHWY&t=1309s
+    title: "What's New in Shopify Connector: Troubleshoot Synchronization (2025 release wave 2)"
+    date: "2025-10-01T00:00:00Z"
+    commit: null
+    t: 1309
+    quote: you can see there is a Shopify fulfillment ID and it has like minus one and it is editable
 links:
   learn: []
   objects: []
@@ -304,9 +311,9 @@ quotes:
   - t: 6
     text: many and many releases we are working on making connector more stable and reliable and we achieved great progress.
     check: exact
-  - t: 23
-    text: very very small and if this video would be focused only on those it will be
-    check: fuzzy
+  - t: 6
+    text: in this release we added four capabilities four sounds long but in reality they're very very small
+    check: exact
   - t: 43
     text: Let's start business central Shopify shop cart and my first recommendation is to run sync in foreground when you do troubleshooting.
     check: exact
@@ -340,13 +347,16 @@ quotes:
   - t: 1283
     text: we have a shopify order line number it's not blank so it's a good sign
     check: fuzzy
+  - t: 1309
+    text: you can see there is a Shopify fulfillment ID and it has like minus one and it is editable
+    check: exact
 ---
 
 # What's New in Shopify Connector: Troubleshoot Synchronization (2025 release wave 2)
 
 > Shopify Connector troubleshooting in Business Central (2025 release wave 2): how to diagnose synchronization problems with customers, inventory, products, pricing, orders, refunds and fulfillments, using foreground sync, logging, error columns, orders to import, fact boxes and the Shopify activities KPIs.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=StIVhsnOHWY) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-10-01 · 23:39 · tier official · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=StIVhsnOHWY) · Microsoft Dynamics 365 Business Central (YouTube) · 2025-10-01 · 23:39 · tier official · reviewed (checked by Opus)
 
 ## Overview
 
@@ -382,33 +392,33 @@ It then covers order import and sales document creation, including archived orde
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Sync in foreground mode | status not stated, demoed | [0:43](https://www.youtube.com/watch?v=StIVhsnOHWY&t=43s) |  |
-| Logging mode configuration | status not stated, demoed | [2:49](https://www.youtube.com/watch?v=StIVhsnOHWY&t=169s) |  |
-| Customer validation and skip notification | status not stated, demoed | [3:49](https://www.youtube.com/watch?v=StIVhsnOHWY&t=229s) |  |
-| Log entry details for synchronization | status not stated, demoed | [5:04](https://www.youtube.com/watch?v=StIVhsnOHWY&t=304s) |  |
-| Inventory tracking on products | status not stated, demoed | [6:53](https://www.youtube.com/watch?v=StIVhsnOHWY&t=413s) |  |
-| Location filter and stock calculation options | status not stated, demoed | [7:03](https://www.youtube.com/watch?v=StIVhsnOHWY&t=423s) |  |
-| Shopify inventory fact box | status not stated, demoed | [7:52](https://www.youtube.com/watch?v=StIVhsnOHWY&t=472s) |  |
-| Location export toggles for products | status not stated, demoed | [9:19](https://www.youtube.com/watch?v=StIVhsnOHWY&t=559s) |  |
-| Create item action for unknown products | status not stated, demoed | [10:57](https://www.youtube.com/watch?v=StIVhsnOHWY&t=657s) |  |
-| Has error and error message columns | status not stated, demoed | [11:19](https://www.youtube.com/watch?v=StIVhsnOHWY&t=679s) |  |
-| Compare at price display | status not stated, demoed | [12:18](https://www.youtube.com/watch?v=StIVhsnOHWY&t=738s) |  |
-| Archived order detection | status not stated, demoed | [13:27](https://www.youtube.com/watch?v=StIVhsnOHWY&t=807s) |  |
-| Shopify orders to import table | status not stated, demoed | [13:58](https://www.youtube.com/watch?v=StIVhsnOHWY&t=838s) |  |
-| Import selected order action | status not stated, demoed | [14:19](https://www.youtube.com/watch?v=StIVhsnOHWY&t=859s) |  |
-| Has error field for imported orders | status not stated, demoed | [14:44](https://www.youtube.com/watch?v=StIVhsnOHWY&t=884s) |  |
-| Inspect received information from Shopify orders | status not stated, demoed | [15:05](https://www.youtube.com/watch?v=StIVhsnOHWY&t=905s) |  |
-| Shopify order fact box on sales documents | status not stated, demoed | [15:52](https://www.youtube.com/watch?v=StIVhsnOHWY&t=952s) |  |
-| Shopify related fields in archived sales documents | status not stated, demoed | [16:30](https://www.youtube.com/watch?v=StIVhsnOHWY&t=990s) |  |
-| Unlink processor documents | status not stated, demoed | [17:22](https://www.youtube.com/watch?v=StIVhsnOHWY&t=1042s) |  |
-| Sync order from Shopify function | status not stated, demoed | [17:48](https://www.youtube.com/watch?v=StIVhsnOHWY&t=1068s) |  |
-| Create credit memo for refunds | status not stated, demoed | [18:10](https://www.youtube.com/watch?v=StIVhsnOHWY&t=1090s) |  |
-| Fulfillment information in Shopify orders | status not stated, demoed | [19:55](https://www.youtube.com/watch?v=StIVhsnOHWY&t=1195s) |  |
-| Sync orders from Shopify action on fulfillment | status not stated, demoed | [20:24](https://www.youtube.com/watch?v=StIVhsnOHWY&t=1224s) |  |
-| Shopify fulfillment ID field on sales shipment | status not stated, demoed | [21:39](https://www.youtube.com/watch?v=StIVhsnOHWY&t=1299s) |  |
-| Shopify activities line showing KPIs | status not stated, demoed | [22:32](https://www.youtube.com/watch?v=StIVhsnOHWY&t=1352s) |  |
+| Feature | Status | At |
+|---|---|---|
+| Sync in foreground mode | status not stated, demoed | [0:43](https://www.youtube.com/watch?v=StIVhsnOHWY&t=43s) |
+| Logging mode configuration | status not stated, demoed | [2:49](https://www.youtube.com/watch?v=StIVhsnOHWY&t=169s) |
+| Customer validation and skip notification | status not stated, demoed | [3:49](https://www.youtube.com/watch?v=StIVhsnOHWY&t=229s) |
+| Log entry details for synchronization | status not stated, demoed | [5:04](https://www.youtube.com/watch?v=StIVhsnOHWY&t=304s) |
+| Inventory tracking on products | status not stated, demoed | [6:53](https://www.youtube.com/watch?v=StIVhsnOHWY&t=413s) |
+| Location filter and stock calculation options | status not stated, demoed | [7:03](https://www.youtube.com/watch?v=StIVhsnOHWY&t=423s) |
+| Shopify inventory fact box | status not stated, demoed | [7:52](https://www.youtube.com/watch?v=StIVhsnOHWY&t=472s) |
+| Location export toggles for products | status not stated, demoed | [9:19](https://www.youtube.com/watch?v=StIVhsnOHWY&t=559s) |
+| Create item action for unknown products | status not stated, demoed | [10:57](https://www.youtube.com/watch?v=StIVhsnOHWY&t=657s) |
+| Has error and error message columns | status not stated, demoed | [11:19](https://www.youtube.com/watch?v=StIVhsnOHWY&t=679s) |
+| Compare at price display | status not stated, demoed | [12:18](https://www.youtube.com/watch?v=StIVhsnOHWY&t=738s) |
+| Archived order detection | status not stated, demoed | [13:27](https://www.youtube.com/watch?v=StIVhsnOHWY&t=807s) |
+| Shopify orders to import table | status not stated, demoed | [13:58](https://www.youtube.com/watch?v=StIVhsnOHWY&t=838s) |
+| Import selected order action | status not stated, demoed | [14:19](https://www.youtube.com/watch?v=StIVhsnOHWY&t=859s) |
+| Has error field for imported orders | status not stated, demoed | [14:44](https://www.youtube.com/watch?v=StIVhsnOHWY&t=884s) |
+| Inspect received information from Shopify orders | status not stated, demoed | [15:05](https://www.youtube.com/watch?v=StIVhsnOHWY&t=905s) |
+| Shopify order fact box on sales documents | status not stated, demoed | [15:52](https://www.youtube.com/watch?v=StIVhsnOHWY&t=952s) |
+| Shopify related fields in archived sales documents | status not stated, demoed | [16:30](https://www.youtube.com/watch?v=StIVhsnOHWY&t=990s) |
+| Unlink processor documents | status not stated, demoed | [17:22](https://www.youtube.com/watch?v=StIVhsnOHWY&t=1042s) |
+| Sync order from Shopify function | status not stated, demoed | [17:48](https://www.youtube.com/watch?v=StIVhsnOHWY&t=1068s) |
+| Create credit memo for refunds | status not stated, demoed | [18:10](https://www.youtube.com/watch?v=StIVhsnOHWY&t=1090s) |
+| Fulfillment information in Shopify orders | status not stated, demoed | [19:55](https://www.youtube.com/watch?v=StIVhsnOHWY&t=1195s) |
+| Sync orders from Shopify action on fulfillment | status not stated, demoed | [20:24](https://www.youtube.com/watch?v=StIVhsnOHWY&t=1224s) |
+| Shopify fulfillment ID field on sales shipment | status not stated, demoed | [21:39](https://www.youtube.com/watch?v=StIVhsnOHWY&t=1299s) |
+| Shopify activities line showing KPIs | status not stated, demoed | [22:32](https://www.youtube.com/watch?v=StIVhsnOHWY&t=1352s) |
 
 ## AL objects mentioned
 
@@ -423,7 +433,7 @@ Not found in BC28-30: table "Shopify orders to import", page "archived sales doc
 ## Quotes
 
 - [0:06](https://www.youtube.com/watch?v=StIVhsnOHWY&t=6s) "many and many releases we are working on making connector more stable and reliable and we achieved great progress."
-- [0:23](https://www.youtube.com/watch?v=StIVhsnOHWY&t=23s) "very very small and if this video would be focused only on those it will be"
+- [0:06](https://www.youtube.com/watch?v=StIVhsnOHWY&t=6s) "in this release we added four capabilities four sounds long but in reality they're very very small"
 - [0:43](https://www.youtube.com/watch?v=StIVhsnOHWY&t=43s) "Let's start business central Shopify shop cart and my first recommendation is to run sync in foreground when you do troubleshooting."
 - [2:49](https://www.youtube.com/watch?v=StIVhsnOHWY&t=169s) "We have three options error Error only, all and disabled."
 - [4:02](https://www.youtube.com/watch?v=StIVhsnOHWY&t=242s) "shopify connector runs number of checks on customers and other entities like products and"
@@ -435,6 +445,7 @@ Not found in BC28-30: table "Shopify orders to import", page "archived sales doc
 - [18:22](https://www.youtube.com/watch?v=StIVhsnOHWY&t=1102s) "this is a new feature which probably not will not be seen by many customers but only by consultant who is doing configuration for"
 - [19:55](https://www.youtube.com/watch?v=StIVhsnOHWY&t=1195s) "I will get this notification that some records were skipped during the synchronization view skipped record sales shipment header no corresponding fulfillment lines found"
 - [21:23](https://www.youtube.com/watch?v=StIVhsnOHWY&t=1283s) "we have a shopify order line number it's not blank so it's a good sign"
+- [21:49](https://www.youtube.com/watch?v=StIVhsnOHWY&t=1309s) "you can see there is a Shopify fulfillment ID and it has like minus one and it is editable"
 
 ## Disclaimers in the video
 

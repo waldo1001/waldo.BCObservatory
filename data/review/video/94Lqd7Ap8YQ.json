@@ -1,0 +1,32 @@
+{
+  "video_id": "94Lqd7Ap8YQ",
+  "item_id": "video/yt-microsoft/94Lqd7Ap8YQ",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Summary says the video was published 2025-08-19. The transcript never gives a date, so that part is removed.",
+    "Key point on technical upskilling mentions putting AI in extensions. The transcript only talks about custom-built things partners make and about not just blindly making an API call.",
+    "Key point says the BC Talent Program's structure is still being developed. The speaker says upskilling in general needs more structure, not the program. The program is described as building the next generation of talent, and viewers are asked to visit the BC talent page and join.",
+    "Feature 'AI Power User Certification Path': the transcript never mentions a certification. The speaker only says people who build AI workflows and prompt libraries are called AI power users in her area. Feature dropped.",
+    "Feature 'Partner Technical Upskilling in AI' has a description that mentions integrating AI into extensions, which the transcript does not support. The feature name itself is supported.",
+    "All feature statuses are unclear, which is right: this is an opinion talk with no release-status statements.",
+    "All existing quotes are verbatim. Added quotes on the hiring shortage and the BC talent call to action."
+  ],
+  "input_hash": "69c7d9ee3200a16a06523a6704c7b42c1c9e7c11842ea871f36ba5f82e2d27ac",
+  "by": "opus",
+  "at": "2026-10-07T22:55:46.894Z",
+  "applied": [
+    "dropped 1 feature(s)",
+    "quote at 192s",
+    "quote at 322s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.077565
+  }
+}

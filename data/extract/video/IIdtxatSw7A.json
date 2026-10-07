@@ -136,24 +136,6 @@
       "system": "platform"
     },
     {
-      "name": "Threat Intelligence Cascading",
-      "description": "Microsoft shares malicious IP addresses and threat intelligence across the entire Business Central customer network immediately when an attack is detected on any customer.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 795.4,
-      "t_end": 836.6,
-      "is_demoed": false,
-      "caveats": [],
-      "tags": [
-        "threat intelligence",
-        "network defense",
-        "cloud infrastructure"
-      ],
-      "system": "platform"
-    },
-    {
       "name": "Security Development Lifecycle",
       "description": "All Business Central code goes through professional security team review including threat modeling exercises, risk assessment, and mitigation tracking before release.",
       "status": "unclear",
@@ -297,24 +279,6 @@
         "red team",
         "security testing",
         "penetration testing"
-      ],
-      "system": "administration"
-    },
-    {
-      "name": "Dynamics 365 bug bounty program",
-      "description": "Program set up to incentivize security researchers to find and report bugs in Dynamics 365 and Business Central before attackers can exploit them. Researchers are reported to have found all manner of bugs that have been cleaned up.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 1864.4,
-      "t_end": 1916.6,
-      "is_demoed": false,
-      "caveats": [],
-      "tags": [
-        "bug bounty",
-        "vulnerability disclosure",
-        "security"
       ],
       "system": "administration"
     },
@@ -476,24 +440,6 @@
       "system": "administration"
     },
     {
-      "name": "Microsoft Defender for X series",
-      "description": "A series of Microsoft security products helping customers prioritize and focus on important security threats, replacing manual log analysis work.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 2658,
-      "t_end": 2674.7,
-      "is_demoed": false,
-      "caveats": [],
-      "tags": [
-        "defender",
-        "threat-detection",
-        "security-suite"
-      ],
-      "system": "platform"
-    },
-    {
       "name": "AI-assisted incident response",
       "description": "Using AI systems and tools to compress telemetry data and cross-reference compromised identities and systems during security incidents, significantly reducing investigation time from months to weeks.",
       "status": "unclear",
@@ -572,6 +518,12 @@
       "check": "fuzzy"
     },
     {
+      "t": 713.5,
+      "text": "it's secure by default when you switch it on it's secure and you have to read the documents and to really strive to screw",
+      "why_it_matters": "States the secure-by-default goal for Business Central.",
+      "check": "exact"
+    },
+    {
       "t": 825.4,
       "text": "we can cascade that to all of our customers immediately",
       "why_it_matters": "Demonstrates how threat intelligence is operationalized across the customer base in real-time when attacks are detected.",
@@ -593,12 +545,6 @@
       "t": 1048.5,
       "text": "all of these AI features need to go through the professional security teams like my own it was very hard work for us we",
       "why_it_matters": "Illustrates the security commitment maintained for AI features despite business pressure to ship quickly.",
-      "check": "exact"
-    },
-    {
-      "t": 1138,
-      "text": "all of them can access the production databases",
-      "why_it_matters": "Highlights a major customer security failure where 4,000 engineers had unrestricted production access, contrasting with Microsoft practices.",
       "check": "exact"
     },
     {
@@ -632,10 +578,16 @@
       "check": "exact"
     },
     {
-      "t": 1900.9,
-      "text": "and the attackers will find it find it yeah it's far better to have these like",
-      "why_it_matters": "Explains the rationale for the bug bounty program - proactive discovery is better than waiting for malicious actors to find vulnerabilities.",
-      "check": "fuzzy"
+      "t": 1613.8,
+      "text": "a few months ago we started reporting all of our cloud bugs",
+      "why_it_matters": "Supports the claim about cloud bug transparency reporting.",
+      "check": "exact"
+    },
+    {
+      "t": 1768.8,
+      "text": "In 2019 we we got the what was then the Azure uh red team",
+      "why_it_matters": "Gives the year and origin of the Business Central red team exercise.",
+      "check": "exact"
     },
     {
       "t": 1965.9,
@@ -672,12 +624,6 @@
       "text": "cyber security as a discipline is extremely broad. It's not just a narrow technical thing. A lot of it's psychology.",
       "why_it_matters": "Establishes that cybersecurity extends beyond technical controls to include legal, marketing, and psychological aspects, framing the broader scope of security strategy.",
       "check": "exact"
-    },
-    {
-      "t": 2401,
-      "text": "at this exact moment in the arms race the defenders are",
-      "why_it_matters": "Key statement that defenders currently have advantage in the AI era, establishing the current threat landscape favorability.",
-      "check": "fuzzy"
     },
     {
       "t": 2457.3,
