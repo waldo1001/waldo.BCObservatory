@@ -1,0 +1,597 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9663,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9663",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-04T09:31:43Z",
+  "merge_commit_sha": "72d9d6dd801f26fa953fa5258e42774808857b03",
+  "author": "gggdttt",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "Migrate customer, vendor and item transactions for BC14 cloud migration",
+  "body_hash": "3b189c050fcffaffbc65bd7fc87081c0979ea352b26dc599913b16736d15ee40",
+  "fixes_issues": [],
+  "work_items": [
+    642787
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/HybridBC14/app/src/Migration/BC14HistoricalMigrator.Enum.al",
+      "status": "modified",
+      "additions": 15,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/HybridBC14/app/src/Migration/BC14PostMigrationAction.Enum.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/HybridBC14/app/src/Migration/BC14SetupMigrator.Enum.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/HybridBC14/app/src/Migration/BC14TransactionMigrator.Enum.al",
+      "status": "modified",
+      "additions": 15,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/HybridBC14/app/src/Migration/BufferTables/Setup/BC14InventoryPostingSetup.Table.al",
+      "status": "added",
+      "additions": 37,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/HybridBC14/app/src/Migration/BufferTables/Transaction/BC14CustLedgerEntry.Table.al",
+      "status": "added",
+      "additions": 109,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/HybridBC14/app/src/Migration/BufferTables/Transaction/BC14DetailedCustLE.Table.al",
+      "status": "added",
+      "additions": 71,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/HybridBC14/app/src/Migration/BufferTables/Transaction/BC14DetailedVendorLE.Table.al",
+      "status": "added",
+      "additions": 71,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/HybridBC14/app/src/Migration/BufferTables/Transaction/BC14ItemLedgerEntry.Table.al",
+      "status": "added",
+      "additions": 113,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/HybridBC14/app/src/Migration/BufferTables/Transaction/BC14ValueEntry.Table.al",
+      "status": "added",
+      "additions": 52,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/HybridBC14/app/src/Migration/BufferTables/Transaction/BC14VendorLedgerEntry.Table.al",
+      "status": "added",
+      "additions": 109,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/HybridBC14/app/src/Migration/Historical/BC14OldCustLedgerMigr.Codeunit.al",
+      "status": "added",
+      "additions": 262,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/HybridBC14/app/src/Migration/Historical/BC14OldItemLedgerMigr.Codeunit.al",
+      "status": "added",
+      "additions": 225,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/HybridBC14/app/src/Migration/Historical/BC14OldVendLedgerMigr.Codeunit.al",
+      "status": "added",
+      "additions": 262,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/HybridBC14/app/src/Migration/Setup/BC14InvPostSetupMigrator.Codeunit.al",
+      "status": "added",
+      "additions": 123,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/HybridBC14/app/src/Migration/Setup/BC14UnitOfMeasureMigrator.Codeunit.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/HybridBC14/app/src/Migration/Transactions/BC14CustLedgerMigrator.Codeunit.al",
+      "status": "added",
+      "additions": 267,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/HybridBC14/app/src/Migration/Transactions/BC14InvPostGLGuard.Codeunit.al",
+      "status": "added",
+      "additions": 48,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/HybridBC14/app/src/Migration/Transactions/BC14ItemJournalPostAction.Codeunit.al",
+      "status": "added",
+      "additions": 112,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/HybridBC14/app/src/Migration/Transactions/BC14ItemLedgerMigrator.Codeunit.al",
+      "status": "added",
+      "additions": 362,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/HybridBC14/app/src/Migration/Transactions/BC14VendorLedgerMigrator.Codeunit.al",
+      "status": "added",
+      "additions": 267,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/HybridBC14/app/src/Orchestration/BC14MigrationRunner.codeunit.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/HybridBC14/test/src/migrators/transactional/BC14CustLedgerMigrTests.Codeunit.al",
+      "status": "added",
+      "additions": 255,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/HybridBC14/test/src/migrators/transactional/BC14ItemLedgerMigrTests.Codeunit.al",
+      "status": "added",
+      "additions": 235,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/HybridBC14/test/src/migrators/transactional/BC14OldItemLedgMigrTests.Codeunit.al",
+      "status": "added",
+      "additions": 181,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/HybridBC14/test/src/migrators/transactional/BC14VendLedgerMigrTests.Codeunit.al",
+      "status": "added",
+      "additions": 229,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/HybridBC14HistoricalData/app/src/Pages/BC14OldCustLedgList.Page.al",
+      "status": "added",
+      "additions": 120,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/HybridBC14HistoricalData/app/src/Pages/BC14OldItemLedgList.Page.al",
+      "status": "added",
+      "additions": 119,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/HybridBC14HistoricalData/app/src/Pages/BC14OldVendorLedgList.Page.al",
+      "status": "added",
+      "additions": 120,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/HybridBC14HistoricalData/app/src/Permissions/BC14HistoricalData.permissionset.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/HybridBC14HistoricalData/app/src/Tables/BC14OldCustLedgEntry.Table.al",
+      "status": "added",
+      "additions": 111,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/HybridBC14HistoricalData/app/src/Tables/BC14OldItemLedgEntry.Table.al",
+      "status": "added",
+      "additions": 112,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/HybridBC14HistoricalData/app/src/Tables/BC14OldVendorLedgEntry.Table.al",
+      "status": "added",
+      "additions": 111,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 33,
+    "additions": 4145,
+    "deletions": 6,
+    "al": 29
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/HybridBC14/app/src/Migration/BC14HistoricalMigrator.Enum.al",
+        "status": "modified",
+        "key": "enum/46889",
+        "type": "enum",
+        "id": 46889,
+        "name": "BC14 Historical Migrator",
+        "app": "HybridBC14",
+        "cc": "w1",
+        "page": "enum/46889"
+      },
+      {
+        "path": "src/Apps/W1/HybridBC14/app/src/Migration/BC14PostMigrationAction.Enum.al",
+        "status": "modified",
+        "key": "enum/46884",
+        "type": "enum",
+        "id": 46884,
+        "name": "BC14 Post Migration Action",
+        "app": "HybridBC14",
+        "cc": "w1",
+        "page": "enum/46884"
+      },
+      {
+        "path": "src/Apps/W1/HybridBC14/app/src/Migration/BC14SetupMigrator.Enum.al",
+        "status": "modified",
+        "key": "enum/46886",
+        "type": "enum",
+        "id": 46886,
+        "name": "BC14 Setup Migrator",
+        "app": "HybridBC14",
+        "cc": "w1",
+        "page": "enum/46886"
+      },
+      {
+        "path": "src/Apps/W1/HybridBC14/app/src/Migration/BC14TransactionMigrator.Enum.al",
+        "status": "modified",
+        "key": "enum/46888",
+        "type": "enum",
+        "id": 46888,
+        "name": "BC14 Transaction Migrator",
+        "app": "HybridBC14",
+        "cc": "w1",
+        "page": "enum/46888"
+      },
+      {
+        "path": "src/Apps/W1/HybridBC14/app/src/Migration/BufferTables/Setup/BC14InventoryPostingSetup.Table.al",
+        "status": "added",
+        "key": "table/46898",
+        "type": "table",
+        "id": 46898,
+        "name": "BC14 Inventory Posting Setup",
+        "app": "HybridBC14",
+        "cc": "w1",
+        "page": "table/46898"
+      },
+      {
+        "path": "src/Apps/W1/HybridBC14/app/src/Migration/BufferTables/Transaction/BC14CustLedgerEntry.Table.al",
+        "status": "added",
+        "key": "table/46937",
+        "type": "table",
+        "id": 46937,
+        "name": "BC14 Cust. Ledger Entry",
+        "app": "HybridBC14",
+        "cc": "w1",
+        "page": "table/46937"
+      },
+      {
+        "path": "src/Apps/W1/HybridBC14/app/src/Migration/BufferTables/Transaction/BC14DetailedCustLE.Table.al",
+        "status": "added",
+        "key": "table/46938",
+        "type": "table",
+        "id": 46938,
+        "name": "BC14 Detailed Cust. LE",
+        "app": "HybridBC14",
+        "cc": "w1",
+        "page": "table/46938"
+      },
+      {
+        "path": "src/Apps/W1/HybridBC14/app/src/Migration/BufferTables/Transaction/BC14DetailedVendorLE.Table.al",
+        "status": "added",
+        "key": "table/46942",
+        "type": "table",
+        "id": 46942,
+        "name": "BC14 Detailed Vendor LE",
+        "app": "HybridBC14",
+        "cc": "w1",
+        "page": "table/46942"
+      },
+      {
+        "path": "src/Apps/W1/HybridBC14/app/src/Migration/BufferTables/Transaction/BC14ItemLedgerEntry.Table.al",
+        "status": "added",
+        "key": "table/46945",
+        "type": "table",
+        "id": 46945,
+        "name": "BC14 Item Ledger Entry",
+        "app": "HybridBC14",
+        "cc": "w1",
+        "page": "table/46945"
+      },
+      {
+        "path": "src/Apps/W1/HybridBC14/app/src/Migration/BufferTables/Transaction/BC14ValueEntry.Table.al",
+        "status": "added",
+        "key": "table/46946",
+        "type": "table",
+        "id": 46946,
+        "name": "BC14 Value Entry",
+        "app": "HybridBC14",
+        "cc": "w1",
+        "page": "table/46946"
+      },
+      {
+        "path": "src/Apps/W1/HybridBC14/app/src/Migration/BufferTables/Transaction/BC14VendorLedgerEntry.Table.al",
+        "status": "added",
+        "key": "table/46941",
+        "type": "table",
+        "id": 46941,
+        "name": "BC14 Vendor Ledger Entry",
+        "app": "HybridBC14",
+        "cc": "w1",
+        "page": "table/46941"
+      },
+      {
+        "path": "src/Apps/W1/HybridBC14/app/src/Migration/Historical/BC14OldCustLedgerMigr.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/46940",
+        "type": "codeunit",
+        "id": 46940,
+        "name": "BC14 Old Cust. Ledger Migr.",
+        "app": "HybridBC14",
+        "cc": "w1",
+        "page": "codeunit/46940"
+      },
+      {
+        "path": "src/Apps/W1/HybridBC14/app/src/Migration/Historical/BC14OldItemLedgerMigr.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/46947",
+        "type": "codeunit",
+        "id": 46947,
+        "name": "BC14 Old Item Ledger Migr.",
+        "app": "HybridBC14",
+        "cc": "w1",
+        "page": "codeunit/46947"
+      },
+      {
+        "path": "src/Apps/W1/HybridBC14/app/src/Migration/Historical/BC14OldVendLedgerMigr.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/46944",
+        "type": "codeunit",
+        "id": 46944,
+        "name": "BC14 Old Vend. Ledger Migr.",
+        "app": "HybridBC14",
+        "cc": "w1",
+        "page": "codeunit/46944"
+      },
+      {
+        "path": "src/Apps/W1/HybridBC14/app/src/Migration/Setup/BC14InvPostSetupMigrator.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/46898",
+        "type": "codeunit",
+        "id": 46898,
+        "name": "BC14 Inv. Post. Setup Migrator",
+        "app": "HybridBC14",
+        "cc": "w1",
+        "page": "codeunit/46898"
+      },
+      {
+        "path": "src/Apps/W1/HybridBC14/app/src/Migration/Setup/BC14UnitOfMeasureMigrator.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/46903",
+        "type": "codeunit",
+        "id": 46903,
+        "name": "BC14 Unit of Measure Migrator",
+        "app": "HybridBC14",
+        "cc": "w1",
+        "page": "codeunit/46903"
+      },
+      {
+        "path": "src/Apps/W1/HybridBC14/app/src/Migration/Transactions/BC14CustLedgerMigrator.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/46939",
+        "type": "codeunit",
+        "id": 46939,
+        "name": "BC14 Cust. Ledger Migrator",
+        "app": "HybridBC14",
+        "cc": "w1",
+        "page": "codeunit/46939"
+      },
+      {
+        "path": "src/Apps/W1/HybridBC14/app/src/Migration/Transactions/BC14InvPostGLGuard.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/46950",
+        "type": "codeunit",
+        "id": 46950,
+        "name": "BC14 Inv. Post. G/L Guard",
+        "app": "HybridBC14",
+        "cc": "w1",
+        "page": "codeunit/46950"
+      },
+      {
+        "path": "src/Apps/W1/HybridBC14/app/src/Migration/Transactions/BC14ItemJournalPostAction.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/46949",
+        "type": "codeunit",
+        "id": 46949,
+        "name": "BC14 Item Journal Post Action",
+        "app": "HybridBC14",
+        "cc": "w1",
+        "page": "codeunit/46949"
+      },
+      {
+        "path": "src/Apps/W1/HybridBC14/app/src/Migration/Transactions/BC14ItemLedgerMigrator.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/46948",
+        "type": "codeunit",
+        "id": 46948,
+        "name": "BC14 Item Ledger Migrator",
+        "app": "HybridBC14",
+        "cc": "w1",
+        "page": "codeunit/46948"
+      },
+      {
+        "path": "src/Apps/W1/HybridBC14/app/src/Migration/Transactions/BC14VendorLedgerMigrator.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/46943",
+        "type": "codeunit",
+        "id": 46943,
+        "name": "BC14 Vendor Ledger Migrator",
+        "app": "HybridBC14",
+        "cc": "w1",
+        "page": "codeunit/46943"
+      },
+      {
+        "path": "src/Apps/W1/HybridBC14/app/src/Orchestration/BC14MigrationRunner.codeunit.al",
+        "status": "modified",
+        "key": "codeunit/46875",
+        "type": "codeunit",
+        "id": 46875,
+        "name": "BC14 Migration Runner",
+        "app": "HybridBC14",
+        "cc": "w1",
+        "page": "codeunit/46875"
+      },
+      {
+        "path": "src/Apps/W1/HybridBC14HistoricalData/app/src/Pages/BC14OldCustLedgList.Page.al",
+        "status": "added",
+        "key": "page/46887",
+        "type": "page",
+        "id": 46887,
+        "name": "BC14 Old Cust. Ledg. List",
+        "app": "HybridBC14HistoricalData",
+        "cc": "w1",
+        "page": "page/46887"
+      },
+      {
+        "path": "src/Apps/W1/HybridBC14HistoricalData/app/src/Pages/BC14OldItemLedgList.Page.al",
+        "status": "added",
+        "key": "page/46891",
+        "type": "page",
+        "id": 46891,
+        "name": "BC14 Old Item Ledg. List",
+        "app": "HybridBC14HistoricalData",
+        "cc": "w1",
+        "page": "page/46891"
+      },
+      {
+        "path": "src/Apps/W1/HybridBC14HistoricalData/app/src/Pages/BC14OldVendorLedgList.Page.al",
+        "status": "added",
+        "key": "page/46889",
+        "type": "page",
+        "id": 46889,
+        "name": "BC14 Old Vendor Ledg. List",
+        "app": "HybridBC14HistoricalData",
+        "cc": "w1",
+        "page": "page/46889"
+      },
+      {
+        "path": "src/Apps/W1/HybridBC14HistoricalData/app/src/Permissions/BC14HistoricalData.permissionset.al",
+        "status": "modified",
+        "key": "permissionset/46882",
+        "type": "permissionset",
+        "id": 46882,
+        "name": "BC14 Historical Data",
+        "app": "HybridBC14HistoricalData",
+        "cc": "w1",
+        "page": "permissionset/46882"
+      },
+      {
+        "path": "src/Apps/W1/HybridBC14HistoricalData/app/src/Tables/BC14OldCustLedgEntry.Table.al",
+        "status": "added",
+        "key": "table/46886",
+        "type": "table",
+        "id": 46886,
+        "name": "BC14 Old Cust. Ledg. Entry",
+        "app": "HybridBC14HistoricalData",
+        "cc": "w1",
+        "page": "table/46886"
+      },
+      {
+        "path": "src/Apps/W1/HybridBC14HistoricalData/app/src/Tables/BC14OldItemLedgEntry.Table.al",
+        "status": "added",
+        "key": "table/46899",
+        "type": "table",
+        "id": 46899,
+        "name": "BC14 Old Item Ledg. Entry",
+        "app": "HybridBC14HistoricalData",
+        "cc": "w1",
+        "page": "table/46899"
+      },
+      {
+        "path": "src/Apps/W1/HybridBC14HistoricalData/app/src/Tables/BC14OldVendorLedgEntry.Table.al",
+        "status": "added",
+        "key": "table/46888",
+        "type": "table",
+        "id": 46888,
+        "name": "BC14 Old Vendor Ledg. Entry",
+        "app": "HybridBC14HistoricalData",
+        "cc": "w1",
+        "page": "table/46888"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "HybridBC14",
+    "HybridBC14HistoricalData"
+  ]
+}

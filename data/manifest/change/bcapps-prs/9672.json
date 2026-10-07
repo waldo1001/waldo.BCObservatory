@@ -6,7 +6,7 @@
   "title": "Stabilize partial sales shipment undo test",
   "url": "https://github.com/microsoft/BCApps/pull/9672",
   "published_at": "2026-08-04T11:16:01Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
@@ -28,5 +28,8 @@
     ],
     "community_contribution": false,
     "title_key": "stabilize partial sales shipment undo test"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-07T13:13:38.973Z",
+  "retry_after": null
 }

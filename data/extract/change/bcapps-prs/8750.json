@@ -1,0 +1,34 @@
+{
+  "item_id": "change/bcapps-prs/8750",
+  "number": 8750,
+  "title": "[Bug Fix] #638688: Suppress availability warning for Transfer WIP Item lines",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "manufacturing"
+  ],
+  "summary": "Transfer order lines flagged as WIP items now skip the standard item-availability warning check since WIP items are intermediate goods managed by subcontracting, not subject to regular inventory constraints.",
+  "key_points": [
+    "Added event subscriber to suppress availability check for Transfer WIP Item lines",
+    "Prevents incorrect inventory warnings for intermediate goods in subcontracting workflow",
+    "Non-WIP transfer lines continue to perform availability checks as before",
+    "Includes tests to verify WIP lines skip the check while non-WIP lines remain unchanged",
+    "Uses feature flag guard to ensure compatibility with legacy versions"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing",
+    "warehouse",
+    "integration"
+  ],
+  "quote": "Suppresses the standard item-availability warning when the Quantity is changed on a Transfer Order line flagged as Transfer WIP Item.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00444,
+    "changes_in_call": 1
+  }
+}

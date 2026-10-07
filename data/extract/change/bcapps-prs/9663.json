@@ -1,0 +1,34 @@
+{
+  "item_id": "change/bcapps-prs/9663",
+  "number": 9663,
+  "title": "Migrate customer, vendor and item transactions for BC14 cloud migration",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Extends BC14 cloud migration to stage customer, vendor, and item subledger transactions alongside G/L entries, enabling migration of open receivables, payables, and inventory for both current and historical data.",
+  "key_points": [
+    "Adds buffer tables for customer, vendor, and item ledger entries with detailed posting setup",
+    "Implements current migrators that post open entries through general and item journals to cloud company",
+    "Provides historical migrators to copy archived source entries into HybridBC14HistoricalData app for reference",
+    "Each migrator is gated by module flags to run only when relevant modules are selected",
+    "Includes comprehensive test coverage for all current and historical migrators"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration",
+    "finance",
+    "sales"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.012236,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9733,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9733",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-04T09:29:50Z",
+  "merge_commit_sha": "1800b4ae8d65fe5178f22ed0b4546f87ac717259",
+  "author": "DavidHolusa",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[main] bug 644111 - Reorder \"Open Balance Sheet\" action in Accountant CZ Role Center CZL page",
+  "body_hash": "757287f12acfe5d2bbc4f96768e15137f2906902c65880f4c44f64f9d1aad8cc",
+  "fixes_issues": [],
+  "work_items": [
+    644111
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Pages/AccountantCZRoleCenterCZL.Page.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 9,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 9,
+    "deletions": 9,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Pages/AccountantCZRoleCenterCZL.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

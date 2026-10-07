@@ -6,10 +6,35 @@
   "title": "[Master][ALL-E] No Reservation created when the item is selected by Description in Sales Lines",
   "url": "https://github.com/microsoft/BCApps/pull/9653",
   "published_at": "2026-08-04T12:44:29Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:13:33.758Z",
+      "change_class": "code",
+      "files": 22,
+      "al": 19,
+      "objects": 14,
+      "unjoined": 5
+    },
+    "extracted": {
+      "at": "2026-10-07T13:13:40.382Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004945
+    },
+    "linked": {
+      "at": "2026-10-07T13:13:40.570Z",
+      "objects": 14,
+      "unjoined": 5,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:13:40.576Z",
+      "path": "content/changes/bcapps/9653.md"
     }
   },
   "input_hash": "d47ee17c5b7170d4a58bc14fd9231fbb202a7fdc:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "master all e no reservation created when the item is selected by description in sales lines"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "df0bdae7e66386116b070beafb1a7922542fc4bd41f2025aa54c7d9411f68d7d"
 }

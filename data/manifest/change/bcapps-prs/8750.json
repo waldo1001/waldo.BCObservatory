@@ -6,10 +6,35 @@
   "title": "[Bug Fix] #638688: Suppress availability warning for Transfer WIP Item lines",
   "url": "https://github.com/microsoft/BCApps/pull/8750",
   "published_at": "2026-08-04T15:20:47Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:13:32.216Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:13:37.769Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.00444
+    },
+    "linked": {
+      "at": "2026-10-07T13:13:37.965Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:13:37.970Z",
+      "path": "content/changes/bcapps/8750.md"
     }
   },
   "input_hash": "81f50ad5b37c3820d3f317d53d986a75c13ca517:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": false,
     "title_key": "bug fix 638688 suppress availability warning for transfer wip item lines"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ffe312ab1d30a84e2d8a2f7febd083ed5e40ffd6c38d190510b712cc58137dc7"
 }

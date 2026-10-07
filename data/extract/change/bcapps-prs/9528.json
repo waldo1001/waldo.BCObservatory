@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/9528",
+  "number": 9528,
+  "title": "636017 Move CashFlow report action tooltips to report objects (W1)",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development",
+    "finance"
+  ],
+  "summary": "Cash Flow report action tooltips are moved from role center page actions to the report objects themselves, with duplicate tooltips removed from page actions across all country layers.",
+  "key_points": [
+    "Tooltips for Cash Flow Date List and Cash Flow Dimensions Detail reports moved to report object definitions",
+    "Duplicate tooltips removed from page actions in Accountant, Accounting Manager, and Finance Manager role centers",
+    "Changes propagated to 39 role center page forks and 1 report fork across all country layers",
+    "Metadata-only change with no impact on runtime behavior or permissions",
+    "Follows established pattern from similar cleanup in Warehouse, Manufacturing, Service, Sales and Inventory areas"
+  ],
+  "change_kind": "refactor",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": "Moves the report action ToolTips for the CashFlow reports off the page actions that run them and onto the report objects themselves.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.011041,
+    "changes_in_call": 1
+  }
+}

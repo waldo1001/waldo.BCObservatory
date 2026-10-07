@@ -1,0 +1,1387 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9549,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9549",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-04T10:39:20Z",
+  "merge_commit_sha": "807cf2ec994f8101a8cfdb77fd371b26d6a89160",
+  "author": "V-CWurtzen",
+  "author_type": "User",
+  "labels": [
+    "Ownership: Manual",
+    "Team: Other"
+  ],
+  "community_contribution": false,
+  "title": "636017 Move Purchases report action tooltips to report objects",
+  "body_hash": "dcd87b6a47a63df1a1ff946c336d57c58c147057ddd920522cf163126579ce29",
+  "fixes_issues": [],
+  "work_items": [
+    636017
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/APAC/BaseApp/Finance/RoleCenters/AccPayablesCoordinatorRC.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 12,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Purchases/Reports/VendorLabels.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Purchases/Reports/VendorPaymentReceipt.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Purchases/RoleCenters/PurchasingAgentRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Purchases/Vendor/VendorList.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 11,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/RoleCenters/AdministratorRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/AT/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 12,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/AU/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 12,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Finance/RoleCenters/AccPayablesCoordinatorRC.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 12,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Purchases/Reports/VendorPaymentReceipt.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Purchases/Reports/VendorPurchaseList.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/RoleCenters/AdministratorRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Finance/RoleCenters/AccPayablesCoordinatorRC.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 12,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/RoleCenters/AdministratorRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/RoleCenters/CEOandPresidentRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/DACH/BaseApp/Finance/RoleCenters/AccPayablesCoordinatorRC.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/DACH/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 12,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/DACH/BaseApp/Purchases/RoleCenters/PurchasingAgentRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/DACH/BaseApp/RoleCenters/AdministratorRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/DE/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 12,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Finance/RoleCenters/AccPayablesCoordinatorRC.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 11,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Purchases/Payables/DateCompressVendorLedger.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Purchases/Reports/VendorDetailTrialBalance.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Purchases/Vendor/VendorList.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 11,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Finance/RoleCenters/AccPayablesCoordinatorRC.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 12,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/RoleCenters/CEOandPresidentRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/Finance/RoleCenters/AccPayablesCoordinatorRC.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 11,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 12,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IS/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 12,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Finance/RoleCenters/AccPayablesCoordinatorRC.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 11,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Purchases/Document/PurchaseOrderList.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Purchases/RoleCenters/PurchasingAgentRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Purchases/Vendor/VendorList.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 11,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Finance/RoleCenters/AccPayablesCoordinatorRC.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Purchases/Document/BlanketPurchaseOrders.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Purchases/Document/PurchaseCreditMemos.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Purchases/Document/PurchaseOrderList.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Purchases/Document/PurchaseReturnOrderList.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Purchases/RoleCenters/PurchasingAgentRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Purchases/Vendor/VendorList.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/RoleCenters/CEOandPresidentRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Finance/RoleCenters/AccPayablesCoordinatorRC.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 12,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/RoleCenters/AdministratorRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Finance/RoleCenters/AccPayablesCoordinatorRC.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 12,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/RoleCenters/AdministratorRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/RoleCenters/CEOandPresidentRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 12,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Purchases/Document/PurchaseList.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Purchases/Reports/VendorOrderDetail.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Purchases/Reports/VendorOrderSummary.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Purchases/Vendor/VendorList.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 11,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/RoleCenters/AdministratorRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/RoleCenters/CEOandPresidentRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/SE/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 12,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/RoleCenters/AccPayableAdministratorRC.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 12,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/RoleCenters/AccPayablesCoordinatorRC.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 12,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/Document/BlanketPurchaseOrders.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/Document/DeleteInvdBlnktPurchOrders.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/Document/DeleteInvdPurchRetOrders.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/Document/DeleteInvoicedPurchOrders.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/Document/PurchaseCreditMemos.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/Document/PurchaseList.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/Document/PurchaseOrderList.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/Document/PurchaseReservationAvail.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/Document/PurchaseReturnOrderList.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/Payables/DateCompressVendorLedger.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/Reports/DayBookVendorLedgerEntry.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/Reports/PurchaseStatistics.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/Reports/VendorBalancetoDate.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/Reports/VendorDetailTrialBalance.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/Reports/VendorItemCatalog.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/Reports/VendorItemPurchases.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/Reports/VendorLabels.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/Reports/VendorOrderDetail.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/Reports/VendorOrderSummary.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/Reports/VendorPaymentReceipt.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/Reports/VendorPurchaseList.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/Reports/VendorRegister.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/Reports/VendorTrialBalance.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/RoleCenters/PurchasingAgentRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/Vendor/VendorList.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 11,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/RoleCenters/AdministratorRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/RoleCenters/CEOandPresidentRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/System/DataAdministration/DataAdministration.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 4,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 95,
+    "additions": 27,
+    "deletions": 361,
+    "al": 95
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/APAC/BaseApp/Purchases/Reports/VendorLabels.Report.al",
+        "status": "modified",
+        "key": "report/310",
+        "type": "report",
+        "id": 310,
+        "name": "Vendor - Labels",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "report/310"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Purchases/Vendor/VendorList.Page.al",
+        "status": "modified",
+        "key": "page/27",
+        "type": "page",
+        "id": 27,
+        "name": "Vendor List",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "page/27"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/RoleCenters/AccPayableAdministratorRC.Page.al",
+        "status": "modified",
+        "key": "page/9045",
+        "type": "page",
+        "id": 9045,
+        "name": "Acc. Payable Administrator RC",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/9045"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/RoleCenters/AccPayablesCoordinatorRC.Page.al",
+        "status": "modified",
+        "key": "page/9002",
+        "type": "page",
+        "id": 9002,
+        "name": "Acc. Payables Coordinator RC",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/9002"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "key": "page/8901",
+        "type": "page",
+        "id": 8901,
+        "name": "Finance Manager Role Center",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/8901"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/Document/BlanketPurchaseOrders.Page.al",
+        "status": "modified",
+        "key": "page/9310",
+        "type": "page",
+        "id": 9310,
+        "name": "Blanket Purchase Orders",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/9310"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/Document/DeleteInvdBlnktPurchOrders.Report.al",
+        "status": "modified",
+        "key": "report/491",
+        "type": "report",
+        "id": 491,
+        "name": "Delete Invd Blnkt Purch Orders",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/491"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/Document/DeleteInvdPurchRetOrders.Report.al",
+        "status": "modified",
+        "key": "report/6661",
+        "type": "report",
+        "id": 6661,
+        "name": "Delete Invd Purch. Ret. Orders",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/6661"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/Document/DeleteInvoicedPurchOrders.Report.al",
+        "status": "modified",
+        "key": "report/499",
+        "type": "report",
+        "id": 499,
+        "name": "Delete Invoiced Purch. Orders",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/499"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/Document/PurchaseCreditMemos.Page.al",
+        "status": "modified",
+        "key": "page/9309",
+        "type": "page",
+        "id": 9309,
+        "name": "Purchase Credit Memos",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/9309"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/Document/PurchaseList.Page.al",
+        "status": "modified",
+        "key": "page/53",
+        "type": "page",
+        "id": 53,
+        "name": "Purchase List",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/53"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/Document/PurchaseOrderList.Page.al",
+        "status": "modified",
+        "key": "page/9307",
+        "type": "page",
+        "id": 9307,
+        "name": "Purchase Order List",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/9307"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/Document/PurchaseReservationAvail.Report.al",
+        "status": "modified",
+        "key": "report/409",
+        "type": "report",
+        "id": 409,
+        "name": "Purchase Reservation Avail.",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/409"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/Document/PurchaseReturnOrderList.Page.al",
+        "status": "modified",
+        "key": "page/9311",
+        "type": "page",
+        "id": 9311,
+        "name": "Purchase Return Order List",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/9311"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/Payables/DateCompressVendorLedger.Report.al",
+        "status": "modified",
+        "key": "report/398",
+        "type": "report",
+        "id": 398,
+        "name": "Date Compress Vendor Ledger",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/398"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/Reports/DayBookVendorLedgerEntry.Report.al",
+        "status": "modified",
+        "key": "report/2502",
+        "type": "report",
+        "id": 2502,
+        "name": "Day Book Vendor Ledger Entry",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/2502"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/Reports/PurchaseStatistics.Report.al",
+        "status": "modified",
+        "key": "report/312",
+        "type": "report",
+        "id": 312,
+        "name": "Purchase Statistics",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/312"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/Reports/VendorBalancetoDate.Report.al",
+        "status": "modified",
+        "key": "report/321",
+        "type": "report",
+        "id": 321,
+        "name": "Vendor - Balance to Date",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/321"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/Reports/VendorDetailTrialBalance.Report.al",
+        "status": "modified",
+        "key": "report/304",
+        "type": "report",
+        "id": 304,
+        "name": "Vendor - Detail Trial Balance",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/304"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/Reports/VendorItemCatalog.Report.al",
+        "status": "modified",
+        "key": "report/320",
+        "type": "report",
+        "id": 320,
+        "name": "Vendor Item Catalog",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/320"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/Reports/VendorItemPurchases.Report.al",
+        "status": "modified",
+        "key": "report/313",
+        "type": "report",
+        "id": 313,
+        "name": "Vendor/Item Purchases",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/313"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/Reports/VendorLabels.Report.al",
+        "status": "modified",
+        "key": "report/310",
+        "type": "report",
+        "id": 310,
+        "name": "Vendor - Labels",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/310"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/Reports/VendorOrderDetail.Report.al",
+        "status": "modified",
+        "key": "report/308",
+        "type": "report",
+        "id": 308,
+        "name": "Vendor - Order Detail",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/308"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/Reports/VendorOrderSummary.Report.al",
+        "status": "modified",
+        "key": "report/307",
+        "type": "report",
+        "id": 307,
+        "name": "Vendor - Order Summary",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/307"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/Reports/VendorPaymentReceipt.Report.al",
+        "status": "modified",
+        "key": "report/411",
+        "type": "report",
+        "id": 411,
+        "name": "Vendor - Payment Receipt",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/411"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/Reports/VendorPurchaseList.Report.al",
+        "status": "modified",
+        "key": "report/309",
+        "type": "report",
+        "id": 309,
+        "name": "Vendor - Purchase List",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/309"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/Reports/VendorRegister.Report.al",
+        "status": "modified",
+        "key": "report/303",
+        "type": "report",
+        "id": 303,
+        "name": "Vendor Register",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/303"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/Reports/VendorTrialBalance.Report.al",
+        "status": "modified",
+        "key": "report/329",
+        "type": "report",
+        "id": 329,
+        "name": "Vendor - Trial Balance",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/329"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/RoleCenters/PurchasingAgentRoleCenter.Page.al",
+        "status": "modified",
+        "key": "page/9007",
+        "type": "page",
+        "id": 9007,
+        "name": "Purchasing Agent Role Center",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/9007"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/Vendor/VendorList.Page.al",
+        "status": "modified",
+        "key": "page/27",
+        "type": "page",
+        "id": 27,
+        "name": "Vendor List",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/27"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/RoleCenters/AdministratorRoleCenter.Page.al",
+        "status": "modified",
+        "key": "page/9018",
+        "type": "page",
+        "id": 9018,
+        "name": "Administrator Role Center",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/9018"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/RoleCenters/CEOandPresidentRoleCenter.Page.al",
+        "status": "modified",
+        "key": "page/9019",
+        "type": "page",
+        "id": 9019,
+        "name": "CEO and President Role Center",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/9019"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/System/DataAdministration/DataAdministration.Page.al",
+        "status": "modified",
+        "key": "page/9035",
+        "type": "page",
+        "id": 9035,
+        "name": "Data Administration",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/9035"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Layers/APAC/BaseApp/Finance/RoleCenters/AccPayablesCoordinatorRC.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Purchases/Reports/VendorPaymentReceipt.Report.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Purchases/RoleCenters/PurchasingAgentRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Purchases/Vendor/VendorList.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/RoleCenters/AdministratorRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/AT/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/AU/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Finance/RoleCenters/AccPayablesCoordinatorRC.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Purchases/Reports/VendorPaymentReceipt.Report.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Purchases/Reports/VendorPurchaseList.Report.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/RoleCenters/AdministratorRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Finance/RoleCenters/AccPayablesCoordinatorRC.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/RoleCenters/AdministratorRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/RoleCenters/CEOandPresidentRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/DACH/BaseApp/Finance/RoleCenters/AccPayablesCoordinatorRC.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/DACH/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/DACH/BaseApp/Purchases/RoleCenters/PurchasingAgentRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/DACH/BaseApp/RoleCenters/AdministratorRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/DE/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Finance/RoleCenters/AccPayablesCoordinatorRC.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Purchases/Payables/DateCompressVendorLedger.Report.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Purchases/Reports/VendorDetailTrialBalance.Report.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Purchases/Vendor/VendorList.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Finance/RoleCenters/AccPayablesCoordinatorRC.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/RoleCenters/CEOandPresidentRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/Finance/RoleCenters/AccPayablesCoordinatorRC.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IS/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Finance/RoleCenters/AccPayablesCoordinatorRC.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Purchases/Document/PurchaseOrderList.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Purchases/RoleCenters/PurchasingAgentRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Purchases/Vendor/VendorList.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Finance/RoleCenters/AccPayablesCoordinatorRC.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Purchases/Document/BlanketPurchaseOrders.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Purchases/Document/PurchaseCreditMemos.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Purchases/Document/PurchaseOrderList.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Purchases/Document/PurchaseReturnOrderList.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Purchases/RoleCenters/PurchasingAgentRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Purchases/Vendor/VendorList.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/RoleCenters/CEOandPresidentRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Finance/RoleCenters/AccPayablesCoordinatorRC.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/RoleCenters/AdministratorRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Finance/RoleCenters/AccPayablesCoordinatorRC.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/RoleCenters/AdministratorRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/RoleCenters/CEOandPresidentRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Purchases/Document/PurchaseList.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Purchases/Reports/VendorOrderDetail.Report.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Purchases/Reports/VendorOrderSummary.Report.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/RoleCenters/AdministratorRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/RoleCenters/CEOandPresidentRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/SE/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "purchasing",
+    "development",
+    "finance"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

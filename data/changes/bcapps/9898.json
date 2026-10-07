@@ -1,0 +1,89 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9898,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9898",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-04T08:14:36Z",
+  "merge_commit_sha": "dede0873b3124d0f0841e606402095fbf97d2cc5",
+  "author": "DeepsShukla",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[Main]-The Reservation Entry does not exist error when creating a Purchase Order from a Sales Order",
+  "body_hash": "c629bc516c26ed158076ab9000462c52a7e23cf28ace5f08071382bc4c3a7cc6",
+  "fixes_issues": [],
+  "work_items": [
+    644925
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Tracking/ItemTrackingManagement.Codeunit.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Sales/Document/SalesLinePlanning.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM/SCMOrderPlanningIII.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 73,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 10,
+    "deletions": 81,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Tracking/ItemTrackingManagement.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6500",
+        "type": "codeunit",
+        "id": 6500,
+        "name": "Item Tracking Management",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/6500"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Sales/Document/SalesLinePlanning.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/99000850",
+        "type": "codeunit",
+        "id": 99000850,
+        "name": "Sales Line-Planning",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/99000850"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "inventory",
+    "sales"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

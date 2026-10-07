@@ -1,0 +1,34 @@
+{
+  "item_id": "change/bcapps-prs/9859",
+  "number": 9859,
+  "title": "[Master] - Move Expense Agent (Preview) app into BCApps",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "The Expense Agent app (preview) is now integrated into BCApps, providing AI-powered expense management capabilities including approval workflows, report handling, and API endpoints for integration with external systems.",
+  "key_points": [
+    "Adds expense management module with AI agent capabilities for automating expense workflows and approvals",
+    "Provides 50+ API pages for expense data access and management including reports, itemizations, and participants",
+    "Introduces role-based permission sets for agents and admins alongside core business entity tables",
+    "Includes localized event subscribers for multiple regions (AT, AU, CA, DE, DK, ES, FR, GB, NZ, US)",
+    "Supports agent consumption tracking, KPI monitoring, and email-based task scheduling features"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "copilot",
+    "integration",
+    "finance"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.022056,
+    "changes_in_call": 1
+  }
+}

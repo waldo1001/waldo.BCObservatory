@@ -6,10 +6,35 @@
   "title": "Bug 598820: Item Availability by Event from Prod. Order ignores demand after Due Date",
   "url": "https://github.com/microsoft/BCApps/pull/9075",
   "published_at": "2026-08-04T12:30:05Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:13:34.907Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:13:39.985Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003404
+    },
+    "linked": {
+      "at": "2026-10-07T13:13:40.179Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:13:40.185Z",
+      "path": "content/changes/bcapps/9075.md"
     }
   },
   "input_hash": "953be9f79e0475a6d7f35f879c02ad6a6fd7e46b:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "bug 598820 item availability by event from prod order ignores demand after due date"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a38330085d03b7eb41eaf81c6bd791db73953d44df0930e2bab9fc291867d840"
 }

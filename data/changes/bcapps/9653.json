@@ -1,0 +1,379 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9653,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9653",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-04T12:44:29Z",
+  "merge_commit_sha": "d47ee17c5b7170d4a58bc14fd9231fbb202a7fdc",
+  "author": "sanjmaurya",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[Master][ALL-E] No Reservation created when the item is selected by Description in Sales Lines",
+  "body_hash": "1f7a1ae41cde80f45e9d743767957cecbc564d15fd0a4b86fe3bafe4a69f8ebb",
+  "fixes_issues": [],
+  "work_items": [
+    643213
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/APAC/BaseApp/Sales/Document/SalesLine.Table.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Sales/Document/SalesLine.Table.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Sales/Document/SalesLine.Table.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Sales/Document/SalesOrderSubform.Page.al",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Sales/Document/SalesLine.Table.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Sales/Document/SalesOrderSubform.Page.al",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Sales/Document/SalesLine.Table.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/Sales/Document/SalesLine.Table.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Sales/Document/SalesLine.Table.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Sales/Document/SalesOrderSubform.Page.al",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Sales/Document/SalesLine.Table.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Sales/Document/SalesOrderSubform.Page.al",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Sales/Document/SalesLine.Table.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Sales/Document/SalesOrderSubform.Page.al",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Sales/Document/SalesLine.Table.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Sales/Document/SalesOrderSubform.Page.al",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/Tests/SCM/SCMReservation.Codeunit.al",
+      "status": "modified",
+      "additions": 117,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/SE/BaseApp/Sales/Document/SalesLine.Table.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Sales/Document/SalesLine.Table.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Sales/Document/SalesOrderSubform.Page.al",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM/SCMReservation.Codeunit.al",
+      "status": "modified",
+      "additions": 117,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM/SCMSalesOrderManagement.Codeunit.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 22,
+    "additions": 469,
+    "deletions": 60,
+    "al": 19
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/APAC/BaseApp/Sales/Document/SalesLine.Table.al",
+        "status": "modified",
+        "key": "table/37",
+        "type": "table",
+        "id": 37,
+        "name": "Sales Line",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "table/37"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Sales/Document/SalesLine.Table.al",
+        "status": "modified",
+        "key": "table/37",
+        "type": "table",
+        "id": 37,
+        "name": "Sales Line",
+        "app": "Base Application",
+        "cc": "ch",
+        "page": "table/37"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Sales/Document/SalesOrderSubform.Page.al",
+        "status": "modified",
+        "key": "page/46",
+        "type": "page",
+        "id": 46,
+        "name": "Sales Order Subform",
+        "app": "Base Application",
+        "cc": "ch",
+        "page": "page/46"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Sales/Document/SalesLine.Table.al",
+        "status": "modified",
+        "key": "table/37",
+        "type": "table",
+        "id": 37,
+        "name": "Sales Line",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "table/37"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Sales/Document/SalesLine.Table.al",
+        "status": "modified",
+        "key": "table/37",
+        "type": "table",
+        "id": 37,
+        "name": "Sales Line",
+        "app": "Base Application",
+        "cc": "fi",
+        "page": "table/37"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/Sales/Document/SalesLine.Table.al",
+        "status": "modified",
+        "key": "table/37",
+        "type": "table",
+        "id": 37,
+        "name": "Sales Line",
+        "app": "Base Application",
+        "cc": "gb",
+        "page": "table/37"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Sales/Document/SalesLine.Table.al",
+        "status": "modified",
+        "key": "table/37",
+        "type": "table",
+        "id": 37,
+        "name": "Sales Line",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "table/37"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Sales/Document/SalesLine.Table.al",
+        "status": "modified",
+        "key": "table/37",
+        "type": "table",
+        "id": 37,
+        "name": "Sales Line",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "table/37"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Sales/Document/SalesLine.Table.al",
+        "status": "modified",
+        "key": "table/37",
+        "type": "table",
+        "id": 37,
+        "name": "Sales Line",
+        "app": "Base Application",
+        "cc": "no",
+        "page": "table/37"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Sales/Document/SalesLine.Table.al",
+        "status": "modified",
+        "key": "table/37",
+        "type": "table",
+        "id": 37,
+        "name": "Sales Line",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "table/37"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Sales/Document/SalesOrderSubform.Page.al",
+        "status": "modified",
+        "key": "page/46",
+        "type": "page",
+        "id": 46,
+        "name": "Sales Order Subform",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "page/46"
+      },
+      {
+        "path": "src/Layers/SE/BaseApp/Sales/Document/SalesLine.Table.al",
+        "status": "modified",
+        "key": "table/37",
+        "type": "table",
+        "id": 37,
+        "name": "Sales Line",
+        "app": "Base Application",
+        "cc": "se",
+        "page": "table/37"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Sales/Document/SalesLine.Table.al",
+        "status": "modified",
+        "key": "table/37",
+        "type": "table",
+        "id": 37,
+        "name": "Sales Line",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/37"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Sales/Document/SalesOrderSubform.Page.al",
+        "status": "modified",
+        "key": "page/46",
+        "type": "page",
+        "id": 46,
+        "name": "Sales Order Subform",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/46"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Layers/BE/BaseApp/Sales/Document/SalesLine.Table.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Sales/Document/SalesOrderSubform.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Sales/Document/SalesOrderSubform.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Sales/Document/SalesOrderSubform.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Sales/Document/SalesOrderSubform.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "sales"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

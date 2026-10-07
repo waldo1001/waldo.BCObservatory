@@ -1,0 +1,71 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9909,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9909",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-04T18:41:24Z",
+  "merge_commit_sha": "2095dc6b9e6cd758b4923968868d8d25d0591155",
+  "author": "dcenic",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "Searching for PayPal webhooks subscription is blocking the Cloud Migration",
+  "body_hash": "f88cf85ff3a0a3cc4ce4635292fc9611937e41cd88ae11fdcc9072ec34c137fd",
+  "fixes_issues": [],
+  "work_items": [
+    642015
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/PayPalPaymentsStandard/app/src/codeunits/MSPayPalWebhookManagement.Codeunit.al",
+      "status": "modified",
+      "additions": 11,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PayPalPaymentsStandard/test/src/MSPayPalStandardTests.Codeunit.al",
+      "status": "modified",
+      "additions": 29,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 40,
+    "deletions": 4,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Apps/W1/PayPalPaymentsStandard/app/src/codeunits/MSPayPalWebhookManagement.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/1073",
+        "type": "codeunit",
+        "id": 1073,
+        "name": "MS - PayPal Webhook Management",
+        "app": "PayPalPaymentsStandard",
+        "cc": "w1",
+        "page": "codeunit/1073"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "PayPalPaymentsStandard"
+  ]
+}

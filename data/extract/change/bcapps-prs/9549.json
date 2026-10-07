@@ -1,0 +1,36 @@
+{
+  "item_id": "change/bcapps-prs/9549",
+  "number": 9549,
+  "title": "636017 Move Purchases report action tooltips to report objects",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "purchasing",
+    "development",
+    "finance"
+  ],
+  "summary": "Tooltips for 18 purchase-related reports are now defined on the report objects themselves rather than on the page actions that invoke them, eliminating duplication across W1 and all country layers.",
+  "key_points": [
+    "Moved tooltip definitions from page actions to 18 report objects covering purchase statistics, vendor statements, and deletion reports",
+    "Removed duplicate tooltip text from page actions in W1 and 55 page forks across 18 country layers",
+    "Added report-level tooltips to 8 forked report objects to maintain consistency",
+    "Metadata-only change with no runtime behavior impact",
+    "Follows established cleanup pattern already applied to warehouse, manufacturing, service, sales and inventory modules"
+  ],
+  "change_kind": "refactor",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "purchasing",
+    "administration",
+    "localization"
+  ],
+  "quote": "Moves the report action ToolTips for the Purchases reports off the page actions that run them and onto the report objects themselves",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.012872,
+    "changes_in_call": 1
+  }
+}

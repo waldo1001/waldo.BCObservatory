@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/9075",
+  "number": 9075,
+  "title": "Bug 598820: Item Availability by Event from Prod. Order ignores demand after Due Date",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "manufacturing"
+  ],
+  "summary": "Production Order availability by event now shows demand and supply after the due date by clearing the date filter before calculating availability.",
+  "key_points": [
+    "Removed the upper date bound from the Item Date Filter when displaying Item Availability by Event from a production order",
+    "Ensures production order event view matches the behavior of Item Card and by-period views",
+    "Added test case verifying that sales orders dated after the production order due date appear in the availability calculation"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing",
+    "inventory"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003404,
+    "changes_in_call": 1
+  }
+}

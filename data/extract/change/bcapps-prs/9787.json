@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/9787",
+  "number": 9787,
+  "title": "[Subcontracting] Added actionable notification when a vendor does not have a subcontracting location code",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "manufacturing"
+  ],
+  "summary": "A notification now alerts users when a vendor lacks a subcontracting location code, enabling early detection of missing configuration before downstream processes require it.",
+  "key_points": [
+    "New actionable notification added to alert users of missing vendor subcontracting location codes",
+    "Notification appears in the subcontracting workflow to prevent future process failures",
+    "Helps users identify and fix configuration issues proactively",
+    "Changes affect the Work Center Card UI and notification management codeunit",
+    "Test coverage added for the new notification functionality"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing",
+    "purchasing"
+  ],
+  "quote": "Added so the user can detect the missing subcontracting location code before a future process requires it.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003282,
+    "changes_in_call": 1
+  }
+}

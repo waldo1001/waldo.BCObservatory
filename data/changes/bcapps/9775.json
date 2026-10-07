@@ -1,0 +1,71 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9775,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9775",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-08-04T08:06:50Z",
+  "merge_commit_sha": "dd7f0a7bffe47b4fce1039e77e141c48cbed74f3",
+  "author": "DeepsShukla",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[Main]-Issued Reminders are printed without any header or footer in the United Kingdom version",
+  "body_hash": "a7bdcca269788e157fbe48a17c1ef1756abe7d0cddee741a7590181414a33028",
+  "fixes_issues": [],
+  "work_items": [
+    644798,
+    645017
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/GB/ReportsGB/app/src/ReportExtensions/Reminder.rdlc",
+      "status": "modified",
+      "additions": 144,
+      "deletions": 84,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/Sales/Reminder/Reminder.Report.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 158,
+    "deletions": 84,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c",
+    "objects": [
+      {
+        "path": "src/Layers/GB/BaseApp/Sales/Reminder/Reminder.Report.al",
+        "status": "modified",
+        "key": "report/117",
+        "type": "report",
+        "id": 117,
+        "name": "Reminder",
+        "app": "Base Application",
+        "cc": "gb",
+        "page": "report/117"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "sales"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

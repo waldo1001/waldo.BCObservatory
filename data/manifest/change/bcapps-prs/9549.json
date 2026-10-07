@@ -6,10 +6,35 @@
   "title": "636017 Move Purchases report action tooltips to report objects",
   "url": "https://github.com/microsoft/BCApps/pull/9549",
   "published_at": "2026-08-04T10:39:20Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:13:38.960Z",
+      "change_class": "code",
+      "files": 95,
+      "al": 95,
+      "objects": 33,
+      "unjoined": 62
+    },
+    "extracted": {
+      "at": "2026-10-07T13:13:44.185Z",
+      "prompt": "extract-change@1",
+      "kind": "refactor",
+      "behavior": false,
+      "cost_usd": 0.012872
+    },
+    "linked": {
+      "at": "2026-10-07T13:13:44.390Z",
+      "objects": 33,
+      "unjoined": 62,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:13:44.410Z",
+      "path": "content/changes/bcapps/9549.md"
     }
   },
   "input_hash": "807cf2ec994f8101a8cfdb77fd371b26d6a89160:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "636017 move purchases report action tooltips to report objects"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e8d49bede1218a92f452eb504699098dfb4921c4e0494f7e95de792646d3ed43"
 }

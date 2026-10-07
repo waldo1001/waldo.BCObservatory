@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcquality-prs/124",
+  "number": 124,
+  "title": "Add FP guards: field relocation to tableextension + event parameter addition (bug 642303)",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "BCQuality adds two false-positive guards to prevent incorrect breaking-change flags when relocating a field to a table extension or adding a parameter to an event publisher.",
+  "key_points": [
+    "Field relocation to table extension is not a deletion and requires no obsoletion",
+    "Event parameter addition does not break subscribers that bind by subset matching",
+    "Both guards use negative-clarification format to suppress false positives",
+    "Scope limited to contract axis; data migration findings remain unmasked",
+    "Complements existing event parameter validation rules"
+  ],
+  "change_kind": "fix",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003868,
+    "changes_in_call": 1
+  }
+}

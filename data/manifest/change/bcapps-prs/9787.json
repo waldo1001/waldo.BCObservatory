@@ -6,10 +6,35 @@
   "title": "[Subcontracting] Added actionable notification when a vendor does not have a subcontracting location code",
   "url": "https://github.com/microsoft/BCApps/pull/9787",
   "published_at": "2026-08-04T15:13:44Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:13:32.495Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:13:37.487Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.003282
+    },
+    "linked": {
+      "at": "2026-10-07T13:13:37.670Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:13:37.684Z",
+      "path": "content/changes/bcapps/9787.md"
     }
   },
   "input_hash": "64a8b22f3a3c399f3c6e391b2790b6b14359fb1a:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": false,
     "title_key": "subcontracting added actionable notification when a vendor does not have a subcontracting location code"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0817a59c5622945d5f02630ef97fca71b21f012748940e6c04390cfb0026cfa9"
 }

@@ -6,10 +6,35 @@
   "title": "Searching for PayPal webhooks subscription is blocking the Cloud Migration",
   "url": "https://github.com/microsoft/BCApps/pull/9909",
   "published_at": "2026-08-04T18:41:24Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:13:31.486Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-07T13:13:35.990Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003298
+    },
+    "linked": {
+      "at": "2026-10-07T13:13:36.137Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:13:36.143Z",
+      "path": "content/changes/bcapps/9909.md"
     }
   },
   "input_hash": "2095dc6b9e6cd758b4923968868d8d25d0591155:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "searching for paypal webhooks subscription is blocking the cloud migration"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a5b18c0aca87e022a36b03355c3c007f034a6b600b1f1311ce3bc5153f417372"
 }

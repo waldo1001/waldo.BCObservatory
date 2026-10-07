@@ -6,10 +6,18 @@
   "title": "[Main]-Issued Reminders are printed without any header or footer in the United Kingdom version",
   "url": "https://github.com/microsoft/BCApps/pull/9775",
   "published_at": "2026-08-04T08:06:50Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:13:43.241Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
     }
   },
   "input_hash": "dd7f0a7bffe47b4fce1039e77e141c48cbed74f3:c1",
@@ -28,5 +36,8 @@
     ],
     "community_contribution": false,
     "title_key": "issued reminders are printed without any header or footer in the united kingdom version"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "70ed312f467df4cfb0b18ff3a0db4a9f506a383b2eff818228afff5a3436dd02"
 }

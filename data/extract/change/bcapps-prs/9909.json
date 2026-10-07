@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/9909",
+  "number": 9909,
+  "title": "Searching for PayPal webhooks subscription is blocking the Cloud Migration",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "PayPal webhook subscription search now uses SetFilter placeholders to handle special characters robustly while maintaining case-insensitive matching, preventing cloud migration blocking.",
+  "key_points": [
+    "Uses placeholders in SetFilter for safer special character handling",
+    "Webhook subscription search remains case-insensitive",
+    "Improves robustness of PayPal webhook management",
+    "Low-risk change with test coverage added",
+    "Fixes cloud migration blocking issue"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "integration"
+  ],
+  "quote": "Using placeholders in SetFilter makes it more robust with regards to special characters.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003298,
+    "changes_in_call": 1
+  }
+}

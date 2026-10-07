@@ -6,10 +6,35 @@
   "title": "[main] bug 644111 - Reorder \"Open Balance Sheet\" action in Accountant CZ Role Center CZL page",
   "url": "https://github.com/microsoft/BCApps/pull/9733",
   "published_at": "2026-08-04T09:29:50Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-07T12:54:54.417Z"
+    },
+    "fetched": {
+      "at": "2026-10-07T13:13:39.976Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 0,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-10-07T13:13:44.848Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003574
+    },
+    "linked": {
+      "at": "2026-10-07T13:13:48.685Z",
+      "objects": 0,
+      "unjoined": 1,
+      "commit": "ecbc028c25dbe83b61313bc566e6c1d41184bb1c"
+    },
+    "published": {
+      "at": "2026-10-07T13:13:48.689Z",
+      "path": "content/changes/bcapps/9733.md"
     }
   },
   "input_hash": "1800b4ae8d65fe5178f22ed0b4546f87ac717259:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "bug 644111 reorder open balance sheet action in accountant cz role center czl page"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "dd5c789ea53ebf93eaae1ccf1b26271a80653250a019c2c284803642603a8a05"
 }
